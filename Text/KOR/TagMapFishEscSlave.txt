@@ -1,0 +1,105 @@
+thisMap/OvermapEnter
+\m[confused]도망자 캠프\optB[그만둔다,들어간다]
+
+#################################################################################
+
+ThisCamp/Found
+\CBct[2]\m[confused]\c[4]여긴 난민 캠프처럼 보이는데, 난민 주인은 없나?
+\CBct[8]\m[confused]\c[4]이 사람들은 도망친 난민들인가?
+
+alert/MainGuard
+\c[4]경비병：\c[0] 누구냐!?
+\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 어?!\optD[그냥 지나가는 길이에요,둘러댄다<r=HiddenOPT0>]
+
+alert/MainGuard_passByAns
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 나... 나 그냥 지나가는 길이에요.
+
+alert/MainGuard_passByWin
+\c[4]경비병：\c[0] 너도 마을에서 도망쳐 나온 거냐?
+\c[4]경비병：\c[0] 이해해, 거긴 그저 또 다른 지옥일 뿐이었지.
+\c[4]경비병：\c[0] 이쪽으로 와라, 우린 널 해치지 않아.
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 고마워....
+
+alert/MainGuard_passByLose_follower
+\c[4]경비병：\c[0] 네 뒤에 있는 건 누구야?!
+
+alert/MainGuard_passByLose
+\c[4]경비병：\c[0] 그냥 돌려보낼 수는 없다! 죽여라!
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 예?!?
+
+alert/MainGuard_BluffAns
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 나...
+\CBct[20]\m[serious]\PRF\c[6]로나：\c[0] 멧돼지를 잡았어요! 오늘 저녁은 걱정 없겠네요!
+
+alert/MainGuard_BluffWin
+\c[4]경비병：\c[0] 잘됐다! 정말 잘했어!
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] \..\..\..하하?
+
+Nap/Friendly
+\narr누군가 로나를 들쳐 업었다.
+\narrOFF\c[4]난민：\c[0] 우리 식량은 이미 부족해, 더는 사람을 받을 수 없어.
+\c[4]경비병：\c[0] 그녀도 우리처럼 마을에서 도망쳐 나온 노예야, 여기 머물게 하자.
+
+Nap/Friendly_wake0
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] 나… 어떻게 된 거지? 여긴 어디야?
+\CBmp[GuardMas,20]\prf\c[4]경비병：\c[0] 너도 어인 마을에서 도망쳐 나온 거 맞지?
+
+Nap/Friendly_wake1
+\CBmp[GuardMas,20]\prf\c[4]경비병：\c[0] 우리도 너랑 같아. 이제는 안전하니까 걱정 마.
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] 고마워…
+
+Nap/Enemy
+\narr누군가 로나를 들어 메고 갔다.
+\narrOFF\c[4]난민：\c[0] 정말 이런 걸 먹어야 해?
+\c[4]경비병：\c[0] 선택의 여지가 없어. 안 먹으면 죽어.
+
+Nap/Enemy_wake0
+\m[tired]\c[4]흐으윽...
+\m[confused]\c[4]나… 어떻게 된 거지? 여긴 어디야?
+
+Nap/Enemy_wake1
+\m[shocked]\Rshake\c[4]뭐야?! 왜 나를 묶어 놓은 거야?!
+\m[terror]\Rshake\c[4]저 아래 시체들은 뭐지?!
+\m[bereft]\Rshake\c[4]안 돼! 날 먹지 마!
+
+Nap/Enemy_wake_giveUP
+\m[sad]\Rshake\c[4]미안해… 나 지쳤어…
+\m[tired]\Rshake\c[4]그냥 이렇게 가게 놔둬.
+
+Nap/BondageStruggle_opt
+\optD[몸부림친다,포기한다]
+
+killed/all
+\m[tired]\c[6]로나：\c[0] 미안하지만… 나도 내 사정이 있어…
+
+gameOver/nap0
+\narr로나는 굶주린 난민들에게 자신의 몸을 내어주었다…
+
+################################################################################# Common MSG
+
+Commoner/RNG_Dialog0
+\c[4]난민：\c[0] 도망쳐 나온 건 잘못이었어, 아무것도 변하지 않았잖아.
+
+Commoner/RNG_Dialog1
+\c[4]난민：\c[0] 안에 있으면 그래도 먹을 건 있었는데… 왜 도망쳤을까.
+
+Commoner/RNG_Dialog2
+\c[4]난민：\c[0] 먹을 게 점점 줄어드는데, 내일은 어떻게 하지…
+
+Guard/Qmsg0
+오늘은 먹을 걸 찾을 수 있을까?
+
+Guard/Qmsg1
+어제 사냥 나간 사람들이 돌아오지 않았어…
+
+Guard/Qmsg2
+이대로는 안 돼.
+
+Commoner/Qmsg0
+배고파…
+
+Commoner/Qmsg1
+아직 먹을 게 남아있어…?
+
+Commoner/Qmsg2
+제발… 먹을 것 좀 줘…

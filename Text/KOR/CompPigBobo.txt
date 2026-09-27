@@ -1,0 +1,123 @@
+UniquePigBobo/CompData
+\board[씨돼지 보보]
+\C[2]위치：\C[0]전열
+\C[2]전투 타입：\C[0]근접
+\C[2]진영：\C[0]동물
+\C[2]적대 대상：\C[0]중립, 사용자 지정
+\C[2]요구 조건：\C[0]로나의 하체가 \C[4]젖은\C[0]상태여야 함
+\C[2]계약 기간：\C[0]2일
+\C[2]독립：\C[0]캐릭터 사망 시 부활 없음
+\C[2]비고：\C[0]\C[4]창녀\C[0] 또는\C[4]타락\C[0]특성을 가진 경우 교배 시 기한 연장 가능
+시바리스에서 여러 번 돼지왕 상을 받은 씨돼지 보보는, 덩치와 성기가 또래 돼지들보다 몇 배나 크다.
+보보는 로나를 암퇘지로 여기고, 깡마른 암퇘지 로나와 꼭 교미하고 싶어한다.
+
+UniquePigBobo/begin
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,4]\c[4]보보：\c[0] 꿀꿀♥♥ 꿀♥♥♥♥
+
+UniquePigBobo/Comp_disband
+\SETpl[BoboNormal]\Lshake\SndLib[SwineDed]\CBid[-1,5]\c[4]보보：\c[0] 꿀꿀!!!!
+
+UniquePigBobo/Comp_win
+\SETpl[BoboYell]\Lshake\SndLib[SwineAtk]\CBid[-1,20]\c[4]보보：\c[0]  \{꿀~~~♥♥♥
+
+UniquePigBobo/Comp_failed
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,8]\c[4]보보：\c[0] 꿀꿀.....
+
+UniquePigBobo/Extension0_k0_NotMated
+\SETpl[BoboYell]\plf\narrOFF\CBct[2]\m[confused]\Rshake\c[6]로나：\c[0] 너 도대체 뭐하려고 하는 거야?
+\SETpl[BoboYell]\plf\BonID[-1]\CBct[6]\m[flirty]\Rshake\c[6]로나：\c[0] 싫어! 그쪽 냄새 맡지 마!
+
+UniquePigBobo/Extension0_k0_MatedB4
+\SETpl[BoboYell]\plf\narrOFF\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 너... 또 그러려고?
+
+UniquePigBobo/Extension0_k1
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr보보는 계속 울부짖으며, 눈앞의 가축과 교미하고 싶다고 어필한다
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr정말 진행하시겠습니까? 보보는 너무 크고, 전혀 봐주는 법을 모른다.
+
+UniquePigBobo/Extension1
+\SETpl[BoboYell]\plf\CBct[6]\m[shy]\plf\c[6]로나：\c[0] 으으.....
+
+UniquePigBobo/Extension2
+\SETpl[BoboYell]\plf\CBct[6]\m[fear]\plf\c[6]로나：\c[0] 얌전히 있어, 자... 와.
+
+UniquePigBobo/Extension3_loop
+\SETpl[BoboYell]\Lshake\SndLib[pigQuestion]\CBid[-1,5]\c[4]보보：\c[0] 꿀꿀♥♥ 꿀♥♥♥♥
+\narr보보의 사정은 계속되고 있다...
+
+UniquePigBobo/OvermapPop0
+꿀~~~♥♥♥
+
+UniquePigBobo/OvermapPop1
+꿀꿀! 꿀!!
+
+UniquePigBobo/SetupFateEnemy
+보보의 적대 대상을 설정합니다. \optD[원래대로,악을 공격,정의를 공격,동물<r=HiddenOPT0>,오크<r=HiddenOPT1>,어인<r=HiddenOPT2>,흉물<r=HiddenOPT3>,언데드<r=HiddenOPT4>]
+
+UniquePigBobo/OMbegin
+\narr\SndLib[SwineDed]멀리서 돼지의 울음소리가 들려온다\..\..\..
+
+#################################################################################################################################################### BanditCamp2
+
+PigBoboQu0/begin0
+\CBct[6]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]로나：\c[0] !!!!!!!
+
+PigBoboQu0/begin1
+\CBct[20]\SETpl[BoboYell]\Lshake\m[bereft]\Rshake\c[6]로나：\c[0] 아니! 먹지 마!
+
+PigBoboQu0/begin2
+\narr보보가 부드럽게 로나의 상처를 핥아준다...
+
+PigBoboQu0/begin3
+\CBct[8]\m[fear]\PRF\c[6]로나：\c[0] \..\..\..\m[tired]고마워...?
+
+PigBoboQu0/begin4
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 으으....
+\narr보보가 로나의 몸에 있던 구속구를 힘껏 뜯어냈다...
+
+PigBoboQu0/follower_0
+\CBct[8]\SETpl[BoboNormal]\plf\m[confused]\PRF\c[6]로나：\c[0] 뭐야...? 뭐 하려는 거야?
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\prf ....
+\CBid[-1,20]\SETpl[BoboNormal]\plf\SndLib[SwineAtk]\.\.\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] \..\..\..나보고 따라오라는 거야?
+
+PigBoboQu0/follower_1
+\board[도망]
+목표 : 이곳에서 탈출하기
+보상 : 없음
+의뢰주 : 씨돼지 보보
+수행가능횟수 : 1회
+씨돼지 보보는 눈앞의 작은 암퇘지를 도와주고 싶어한다...
+보보는 이 작은 암퇘지와 자신이 천생연분이라고 생각하지만, 그 전에 먼저 사악한 털 없는 원숭이의 통제에서 벗어나야 한다.
+함께 자유를 얻고 나면, 작은 암퇘지와 새끼돼지를 잔뜩 낳을 생각이다.
+안타깝게도, 멍청한 보보는 자신이 이 암퇘지를 임신시킬 수 없다는 사실을 모른다.
+
+PigBoboQu1/accept0
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 알았어.....
+
+PigBoboQu1/accept1
+\CBct[20]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]로나：\c[0] !!!!!!
+\CBct[20]\SETpl[BoboNormal]\plf\m[triumph]\PRF\c[6]로나：\c[0] 고마워...?
+
+PigBoboQu1/ExitFailedQmsg
+보보가 출구 근처에 있어야 합니다
+
+PigBoboQu1/ExitEnd0
+\SETpl[MobHumanCommoner]\Lshake\C[4]도적：\C[0] 빨리 쫓아! 그 년 도망 못 가게 해!
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] !!!!
+
+PigBoboQu1/ExitEnd1
+\narr보보는 눈앞의 작은 암퇘지에게 자기가 이 망할 털 없는 원숭이들을 막아주겠다고 말한다.
+\narr우리, 인연이 닿으면 다시 만나자...
+\narrOFF\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] ......
+
+PigBoboQu0/WhenPlayerNotCap0
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 엄청 큰 돼지잖아!
+
+PigBoboQu0/WhenPlayerNotCap1
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]로나：\c[0] 우와! 뭐야!? 놔줘!!
+
+PigBoboQu0/WhenPlayerNotCap2
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]로나：\c[0] 싫어! 그만 핥아!
+
+PigBoboQu0/WhenPlayerNotCap3
+\CBct[8]\SETpl[BoboYell]\plf\m[confused]\PRF\c[6]로나：\c[0] 이게 뭐야...?

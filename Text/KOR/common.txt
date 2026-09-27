@@ -1,0 +1,1247 @@
+#--------------------------------       narr
+
+Lona/Group_disbanded
+\narr파티가 해산되었습니다.
+
+Lona/Follower_disbanded
+\narr동료가 떠났습니다.
+
+Lona/FollowerExt_disbanded
+\narr동행자가 떠났습니다.
+
+Lona/NarrDriveAway
+\narr로나가 쫓겨났습니다.
+
+#================================     OPT
+
+Lona/Decide_optD
+\m[confused]\c[6]로나：\c[0] 응? \optD[그만둘래,결정]
+
+Lona/Decide_optB
+\m[confused]\c[6]로나：\c[0] 응? \optB[그만둘래,결정]
+
+Lona/CompCommand
+\m[confused]\c[6]로나：\c[0] 응?
+
+Lona/EnterSub
+\m[confused]\c[6]로나：\c[0] 들어갈까? \optB[그만둘래,들어간다]
+
+Lona/SkipEv
+이벤트를 건너뛸까요? \optD[건너뛰기,재생]
+
+###################################################################     COMMON NAP RAPE
+#------------------------------------------------- Human
+
+Noer/NapRape_Human0
+\c[4]행인:\c[0] 이 꼬마가 왜 여기 누워 있지?
+
+Noer/NapRape_Human1
+\c[4]행인:\c[0] 흐흐, 이 귀여운 애가 왜 여기 누워 있을까?
+
+Noer/NapRape1_Human
+\c[4]행인:\c[0] 흠흠.
+
+Noer/NapRape2_Human
+\narr로나가 끌려갔다.
+
+Noer/NapRape3_Human0
+\c[4]행인:\c[0] 괜찮아, 괜찮아. 그냥 내 자지 좀 정리해주면 돼. 그 정도는 할 수 있지?
+
+Noer/NapRape3_Human1
+\c[4]행인:\c[0] 깨어났어?
+
+Noer/NapRape3_Human2
+\c[4]행인:\c[0] 말이 많네, 보지에 넣는다!
+
+
+
+Noer/NapRape_Moot0
+\c[4]행인:\c[0] 이 꼬마가 왜 여기 누워 있지?
+
+Noer/NapRape_Moot1
+\c[4]행인:\c[0] 흐흐, 이 귀여운 애가 왜 여기 누워 있을까?
+
+Noer/NapRape1_Moot
+\c[4]행인:\c[0] 흠흠.
+
+Noer/NapRape2_Moot
+\narr로나가 끌려갔다.
+
+Noer/NapRape3_Moot0
+\c[4]행인:\c[0] 괜찮아, 괜찮아. 그냥 내 자지 좀 정리해주면 돼. 그 정도는 할 수 있지?
+
+Noer/NapRape3_Moot1
+\c[4]행인:\c[0] 깨어났어?
+
+Noer/NapRape3_Moot2
+\c[4]행인:\c[0] 말이 많네, 보지에 넣는다!
+
+
+
+
+Noer/NapRape_withSta_Fight2_Human0
+\c[4]행인:\c[0] 죽고 싶어서 이래?
+
+Noer/NapRape_withSta_Fight2_Human1
+\c[4]행인:\c[0] \{맞아보고 싶어?
+
+Noer/NapRape_withSta_Fight2_Human2
+\c[4]행인：\c[0] \{감히 반항한다고?!
+
+Noer/NapRape_withSta_NoFight2_Human0
+\m[sad]\c[4]행인:\c[0] 후후후♥
+
+Noer/NapRape_withSta_NoFight2_Human1
+\m[sad]\c[4]행인:\c[0] 헤헤헤♥
+
+Noer/NapRape_withSta_NoFight2_Human2
+\m[sad]\c[4]행인:\c[0] 착하지♥
+
+#Moot 버전 (사투리, 욕설 섞인 버전)
+
+Noer/NapRape_withSta_Fight2_Moot0
+\c[4]행인:\c[0] 야 이 미친년! 죽고 싶냐?!
+
+Noer/NapRape_withSta_Fight2_Moot1
+\c[4]행인：\c[0] \{맞아볼래? 이 자식!
+
+Noer/NapRape_withSta_Fight2_Moot2
+\c[4]행인：\c[0] \{뭐야, 미쳤냐!! 씨발!
+
+Noer/NapRape_withSta_NoFight2_Moot0
+\m[sad]\c[4]행인：\c[0] 히히히♥
+
+Noer/NapRape_withSta_NoFight2_Moot1
+\m[sad]\c[4]행인：\c[0] 크크크♥
+
+Noer/NapRape_withSta_NoFight2_Moot2
+\m[sad]\c[4]행인：\c[0] 착하지♥
+
+#------------------------------------------------- Fishkind
+
+Noer/NapRape_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 꺄꺄?! 여자다!
+
+Noer/NapRape_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 꺄꺄… 여자… 번식…
+
+Noer/NapRape1_Fishkind
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 꺄꺄?!
+
+Noer/NapRape2_Fishkind
+\narr로나가 끌려갔다.
+
+Noer/NapRape3_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 여자다! 번식할 거야!
+
+Noer/NapRape3_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 여자다! 보지에 넣는다!
+
+Noer/NapRape3_Fishkind2
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 여자다! 번식!
+
+Noer/NapRape_withSta_Fight2_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{반항! 꺄꺄? 죽여!
+
+Noer/NapRape_withSta_Fight2_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{꺄꺄! 여자 때려!
+
+Noer/NapRape_withSta_Fight2_Fishkind2
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{꺄꺄?!
+
+Noer/NapRape_withSta_NoFight2_Fishkind0
+\SndLib[FishkindSmSpot]\m[sad]\c[4]어인：\c[0] 꺄후후♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind1
+\SndLib[FishkindSmSpot]\m[sad]\c[4]어인：\c[0] 꺄꺄♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind2
+\SndLib[FishkindSmSpot]\m[sad]\c[4]어인：\c[0] 보지♥
+
+#------------------------------------------------- Lona
+
+Lona/NapRape3
+\Bon[20]\m[tired]\c[6]로나：\c[0] 으응...?
+\Bon[20]\m[fear]\Rshake\c[6]로나：\c[0] 너... 너 뭐하려는 거야?!
+
+Lona/NapRape_withSta
+\optD[그만둘래<t=3>,반항]
+
+Lona/NapRape_withSta_Fight1_typical
+\Bon[5]\m[shocked]\Rshake\c[6]로나：\c[0] 비켜!
+
+Lona/NapRape_withSta_Fight1_slut
+\Bon[8]\m[flirty]\c[6]로나：\c[0] 아라... 지금은 좀 곤란한데.
+
+Lona/NapRape_withSta_Fight1_tsundere
+\Bon[20]\m[irritated]\Rshake\c[6]로나：\c[0] 싫어! 만지지 마!
+
+Lona/NapRape_withSta_Fight1_gloomy
+\Bon[20]\m[terror]\Rshake\c[6]로나：\c[0] 히익!!
+
+Lona/NapRape_withSta_NoFight1_typical
+\Bon[8]\m[sad]\c[6]로나：\c[0] 으으...
+
+Lona/NapRape_withSta_NoFight1_slut
+\Bon[4]\m[lewd]\c[6]로나：\c[0] 이리 와♥
+
+Lona/NapRape_withSta_NoFight1_tsundere
+\Bon[5]\m[sad]\c[6]로나：\c[0] 젠장...
+
+Lona/NapRape_withSta_NoFight1_gloomy
+\Bon[6]\m[fear]\c[6]로나：\c[0] 아프게 하지 마...
+
+Lona/NapRape_noSta
+\Bon[8]\m[tired]\c[6]로나：\c[0] 으으...
+
+#--------             ---寄生蟲
+
+Lona/PooMoonWorm
+\narr달벌레가 항문에서 계속 기어나오고, 항문에 큰 손상이 생겼다.
+
+Lona/PeePotWorm
+\narr항아리벌레가 요도에서 계속 기어나오고, 요도에 심한 손상이 생겼다.
+
+Lona/PukeHook
+\narr구충이 구토물과 함께 튀어나왔다.
+
+Lona/OgrasmPolyp
+\narr자궁이 수축하며 성숙한 알벌레를 밖으로 밀어냈다.
+
+Lona/PeePot
+\narr항아리벌레가 요도에서 계속 기어나오고, 요도에 심한 손상이 생겼다.
+
+Lona/BirthedWorms
+\narr새로 태어난 기생충이 새로운 숙주를 찾아 움직이기 시작했다.
+
+Lona/ParasiteHit_polyp
+\m[p5shame]\cg[event_PolypWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]로나：\c[0] 아파!!!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]로나：\c[0] \{ 아아악!!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]로나：\c[0] \{뭔가가 들어왔어!
+
+Lona/ParasiteHit_hook
+\m[p5shame]\cg[event_HookWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]로나：\c[0] \{끄윽!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]로나：\c[0] 으으!! 으으으으!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]로나：\c[0] \{ 켁켁! 켁!!
+
+Lona/ParasiteHit_pot
+\m[p5shame]\cg[event_PotWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]로나：\c[0] 안 돼! 들어오지 마! 거긴 쉬하는 데란 말이야!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]로나：\c[0] \{으아악! 찢어질 것 같아!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]로나：\c[0] \{히야아악!!
+
+Lona/ParasiteHit_moon
+\m[p5shame]\cg[event_MoonWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]로나：\c[0] 안 돼! 항문에 들어오지 마!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]로나：\c[0] \{으아악! 망가질 것 같아!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]로나：\c[0] \{히야아악!!
+
+Lona/Parasite_Wakeup
+로나의 배 속에서 기생충이 끊임없이 꿈틀댄다.
+\m[p5shame]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]로나：\c[0] 으으으!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]로나：\c[0] \{히야악!!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]로나：\c[0] \{으아아악!!
+\m[pain]\c[6]로나：\c[0] 으으... 이대로는 안 돼.
+\m[sad]\c[6]로나：\c[0] 빨리 벌레를 빼내야 해.
+
+#---------------------------------------------------------------------------when overweight
+
+Lona/overweight
+\m[pain]\c[6]로나：\c[0] 으윽! 너무 무거워, 짐을 너무 많이 들고 있어.
+\m[tired]\c[6]로나：\c[0] 필요 없는 건 버려야겠어.
+
+#---------------------------------------------------------------------------When cuff is on
+
+Lona/cuff_on_normal
+\m[bereft]\c[6]로나：\c[0] 이러지 마! 놔줘!
+
+Lona/cuff_on_slut
+\m[triumph]\c[6]로나：\c[0] 설마, 진짜야?!
+
+Lona/cuff_on_tsun
+\m[shocked]\c[6]로나：\c[0] 윽! 너무 방심했어!
+
+Lona/cuff_on_weak
+\m[sad]\c[6]로나：\c[0] 제발, 이러지 마...
+
+Lona/cuff_on_mouth_block
+\m[bereft]\c[6]로나：\c[0] 으윽! 으으으!!
+
+Lona/cuff_on_overfatigue
+\m[tired]\c[6]로나：\c[0] 하아... 하아...
+
+###-------when cuff is on , day passed -----------------
+#--------------------------------------------------------------------------when 穴內放尿
+
+narrator/peein_mouth
+\Rshake굵은 자지가 로나의 입 안에서 거칠게 움직인다.
+\Rshake역한 냄새의 소변이 로나의 목구멍을 타고 쏟아져 들어오고, 작은 입은 모두 받아내지 못한 채 넘쳐 흐른다.
+\Rshake자극적인 소변 냄새가 코를 타고 뇌까지 퍼지며, 로나의 신경을 뒤흔든다.
+
+narrator/peein_vag
+\Rshake굵은 자지가 로나의 보지를 거칠게 관통한다.
+\Rshake역한 소변이 로나의 보지를 타고 자궁 깊숙이 쏟아지고, 뜨거운 액체가 온몸을 떨리게 만든다.
+\Rshake넘쳐나는 소변이 보지를 따라 흘러내려 바닥을 적신다.
+
+narrator/peein_anal
+\Rshake굵은 자지가 로나의 항문를 거칠게 파고든다.
+\Rshake역한 냄새의 소변이 로나의 장내로 쏟아져 들어오고, 뜨거운 액체에 온몸이 떨린다.
+\Rshake넘쳐나는 소변이 엉덩이 골을 타고 바닥으로 떨어진다.
+
+#--------------------------------------------------------------------------Semen addiction
+
+Lona/Ograsm_addiction_add_a_level
+\narr\m[shy]\c[4]로나의 몸이 점점 오르가즘에 의존하게 된다.
+
+Lona/Ograsm_addiction_almost
+\narr\m[pain]\c[4]강한 성적 욕구 때문에 로나는 정신을 집중할 수 없다.
+\narrOFF\m[shy]\c[6]로나：\c[0] 나… 너무 하고 싶어…
+
+Lona/Ograsm_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]로나는 이제 관계 말고는 아무것도 생각할 수 없다.
+\narrOFF\m[sexhurt]\c[6]로나：\c[0] 으으… 몸이 너무 뜨거워…
+
+Lona/Ograsm_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4]로나는 이제 관계 말고는 아무것도 생각할 수 없다.
+\narrOFF\m[p5shame]\Rshake\c[6]로나：\c[0] 으으~~
+\m[sexhurt]\Rshake\c[6]로나：\c[0] 안 돼… 아래가 너무 뜨거워…
+
+Lona/Ograsm_addiction_overLv3
+\narr\m[terror]\Rshake\c[4]로나는 이제 관계 말고는 아무것도 생각할 수 없고, 미쳐버릴 것만 같다.
+\narrOFF\m[sexhurt]\Rshake\c[6]로나：\c[0] 으으~~ 제발, 누가 좀 도와줘!
+\m[p5shame]\Rshake\c[6]로나：\c[0] \{아아악!!! 아무나 제발…
+\m[hurt]\c[6]로나：\c[0] ......아무나…
+\m[sexhurt]\c[6]로나：\c[0] 아무나… 날 가져줘… 날 안아줘… 제발, 지금…!
+
+#--------------------------------------------------------------------------Semen addiction
+
+Lona/Semen_addiction_add_a_level
+\narr\m[pain]\c[4]로나의 몸이 점점 정액에 의존하게 된다.
+
+Lona/Semen_addiction_almost
+\narr\m[pain]\c[4]강한 정액에 대한 갈망 때문에 로나는 정신을 집중할 수 없다.
+\narrOFF\m[fear]\c[6]로나：\c[0] 나… 정액이 필요해… 이대로는 못 버틸 것 같아.。
+
+Lona/Semen_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]로나는 정액을 원해서 제대로 먹지도 못하고 있다.
+\narrOFF\m[sexhurt]\c[6]로나：\c[0] 으으… 누가 나한테 정액 좀 줘…
+
+Lona/Semen_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4]로나는 정액을 원해서 제대로 먹지도 못하고 있다.
+\narrOFF\m[p5shame]\Rshake \c[6]로나：\c[0] 으으~~
+\m[hurt]\Rshake\c[6]로나：\c[0] 안 돼… 나, 정액이 필요해… 아니면 정말 죽을 것 같아!
+
+Lona/Semen_addiction_overLv3
+\narr\m[terror]\Rshake\c[4]로나는 정액을 원해서 제대로 먹지도 못하고, 이제 미칠 것만 같다.
+\narrOFF\m[sexhurt]\Rshake\c[6]로나：\c[0] 으으~~
+\m[p5shame]\Rshake\c[6]로나：\c[0] \{아아악!!!
+\m[sad]\c[6]로나：\c[0] ....
+\m[sexhurt]\c[6]로나：\c[0] 으으… 나, 더는 못 참겠어!
+
+#--------------------------------------------------------------------------drug_addiction
+
+Lona/Drug_addiction_add_a_level
+\narr\m[pain]\c[4]약을 너무 많이 복용해서… 로나는 약물에 의존하게 되었다.
+
+Lona/Drug_addiction_almost
+\narr\m[pain]\c[4]약물 중독 탓에, 로나는 점점 정신을 집중하기 어려워진다.
+\narrOFF\m[fear]\c[6]로나：\c[0] 나… 약이 좀 필요해… 이러다 진짜 못 버텨…
+
+Lona/Drug_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]약물 중독으로 인해, 로나는 온몸에 통증을 느끼고, 의식이 희미해지기 시작한다.
+\narrOFF\m[sad]\c[6]로나：\c[0] 흐윽… 빨리 약을… 약을 찾아야 해…
+
+Lona/Drug_addiction_overLv2
+\narr\m[pain]\Rshake\c[4]약물 중독으로 인해, 로나는 전신의 고통 속에 의식을 잃어간다.
+\narrOFF\m[p5sta_damage]\Rshake \c[6]로나：\c[0] 으윽… \{으아아악!!
+\m[terror]\Rshake \c[6]로나：\c[0] 안 돼… 약이… 약 없으면 죽는단 말야…
+
+Lona/Drug_addiction_overLv3
+\narr\m[p5sta_damage]\Rshake\c[4]약물 중독으로, 로나는 자신이 미쳐가는 것을 느낀다.
+\narrOFF\m[p5health_damage]\Rshake\c[6]로나：\c[0] 으…\{으\{으\{으아아아악!!!
+\m[p5health_damage]\Rshake\c[6]로나：\c[0] 끄악…\{으\{어…\{으아아아아!!!
+\m[p5health_damage]\Rshake\c[6]로나：\c[0] 제발이야!!\{나 약 줘!\{약 줘어어!!!
+\m[p5health_damage]\Rshake\c[6]로나：\c[0] \{…뭐든 할게…  \n\{시키는 건 다 할 테니까…
+\m[p5sta_damage]\Rshake\c[6]로나：\c[0] \{아아아악!!!
+\m[terror]\c[6]로나：\c[0] ........
+\m[sad]\c[6]로나：\c[0] 흐윽… 나… 왜 이렇게 된 거야…?
+
+
+#--------------------------------------------------------------------------when Dress is out
+Lona/Qmsg_dress_out_normal
+옷이 어디 갔지?!
+
+Lona/Qmsg_dress_out_tsun
+감히 내 옷을 가져가다니!
+
+Lona/Qmsg_dress_out_weak
+추워… 빨리 옷을 안 찾으면…
+
+Lona/Qmsg_dress_out_slut
+아무것도 안 입고 있으니까… 왠지 변태 같은 느낌이 드네…
+
+Lona/Qmsg_dress_out_overfatigue
+하아… 하아… 추워……
+
+Lona/Qmsg_dress_out_mouth_block
+으으응!!
+
+Lona/dress_out_normal0
+\으아아악!!!!!!
+\m[pain]\c[6]로나：\c[0] 추워!! 내 옷이…
+
+Lona/dress_out_normal1
+\으아아악!!!!!!
+\m[fear]\c[6]로나：\c[0] 얼른… 옷을 찾아야 해!!
+
+Lona/dress_out_normal2
+\으아아악!!!!!!
+\m[shocked]\c[6]로나：\c[0] 옷이… 어디 갔어?!
+
+Lona/dress_out_tsun0
+\으아아악!!!!!!
+\m[angry]\c[6]로나：\c[0] 왜 나 혼자 발가벗겨져 있는 거야?!
+
+Lona/dress_out_tsun1
+\감히!! 으아아악!!!
+\m[irritated]\c[6]로나：\c[0] 감히 내 옷을 훔쳐가?! 절대 용서 못 해!!
+
+Lona/dress_out_tsun2
+\으아아악!!!!!!
+\m[angry]\c[6]로나：\c[0] 이 굴욕… 반드시 되갚아줄 거야!
+
+Lona/dress_out_weak0
+\으… 으응…
+\m[shy]\c[6]로나：\c[0] 옷… 한 벌이라도 찾을 수 있으면 좋을 텐데…
+
+Lona/dress_out_weak1
+\으아… 추워…
+\m[sad]\c[6]로나：\c[0] 으슬으슬해… 너무 춥다…
+
+Lona/dress_out_weak2
+\으흑…
+\m[sad]\c[6]로나：\c[0] 빨리… 옷을 안 찾으면…
+
+Lona/dress_out_slut0
+\에헤헤…
+\m[pleased]\c[6]로나：\c[0] 아무것도 안 입고 있으니까… 왠지 좀 변태 같은 기분이네…
+
+Lona/dress_out_slut1
+\흐윽… 으아...
+\m[triumph]\c[6]로나：\c[0] 가슴이 두근두근거려… 나, 대체 뭘 기대하고 있는 거지?
+
+Lona/dress_out_slut2
+\하아… 으으응…
+\m[triumph]\c[6]로나：\c[0] 뭔가… 살짝 들뜨는 느낌? …이 다음엔, 어떻게 되는 걸까?
+
+Lona/dress_out_overfatigue0
+\하아… 으으응…
+\m[tired]\c[6]로나：\c[0] 하아… 하아… 너무… 추워……
+
+Lona/dress_out_overfatigue1
+\으아...
+\m[tired]\c[6]로나：\c[0] ......
+
+Lona/dress_out_overfatigue2
+\으아...
+\m[tired]\c[6]로나：\c[0] 안 돼… 더는 못 버텨… 추워…
+
+Lona/dress_out_mouth_block0
+\흐윽…
+\m[shocked]\c[6]로나：\c[0] 으으응!!
+\m[shy]\c[6]로나：\c[0] 으…응…
+
+Lona/dress_out_mouth_block1
+\으아...
+\m[hurt]\c[6]로나：\c[0] 으…으응!!
+\m[tired]\c[6]로나：\c[0] 으…응…
+
+Lona/dress_out_mouth_block2
+\으으응…
+\m[wtf]\c[6]로나：\c[0] 으으응!!
+\m[shy]\c[6]로나：\c[0] 으…응…
+
+#------------------------------------- Ext
+Lona/Qmsg_dress_out_ext_normal
+흠… 난 굳이 옷 같은 거 안 입어도 되거든?
+
+Lona/Qmsg_dress_out_ext_tsun
+강한 자는… 옷 따윈 필요 없어!
+
+Lona/Qmsg_dress_out_ext_weak
+옷… 누가 못 봤으면 좋겠는데……
+
+Lona/Qmsg_dress_out_ext_slut
+나… 아무것도 안 입었어. 나 진짜 변태인가 봐♥
+
+Lona/Qmsg_dress_out_ext_overfatigue
+뭐… 괜찮아… 옷은… 너무 무겁잖아……
+
+Lona/Qmsg_dress_out_ext_mouth_block
+으…!
+
+Lona/dress_out_ext_normal0
+\m[pleased]\c[6]로나：\c[0] 흠… 난 굳이 옷 같은 거 안 입어도 괜찮아.
+
+Lona/dress_out_ext_normal1
+\m[pleased]\c[6]로나：\c[0] 드디어... 나, 자유로워졌어!
+
+Lona/dress_out_ext_tsun0
+\m[serious]\c[6]로나：\c[0] 흥! 옷 따윈 거추장스러울 뿐이야! 날 비웃는 애들은… 그냥 질투하는 거라고!
+
+Lona/dress_out_ext_tsun1
+\m[serious]\c[6]로나：\c[0] 강한 자는 옷 같은 거 안 입는 법이야!
+\m[shy]\c[6]로나：\c[0] 으…으응……
+
+Lona/dress_out_ext_weak0
+\m[fear]\c[6]로나：\c[0] 벌거벗은 건… 분명 잘못된 거잖아… 근데……
+
+Lona/dress_out_ext_weak1
+\m[flirty]\c[6]로나：\c[0] 옷… 누가 못 봤으면 좋겠다…
+
+Lona/dress_out_ext_slut0
+\m[lewd]\c[6]로나：\c[0] 나… 아무것도 안 입었어. 진짜 변태 같지♥
+
+Lona/dress_out_ext_slut1
+\m[lewd]\c[6]로나：\c[0] 히히♥ 나 지금 벌거벗었어… 섹시하지?♥
+
+Lona/dress_out_ext_overfatigue0
+\m[tired]\c[6]로나：\c[0] 옷은 너무 무거워… 벗고 다니는 게 오히려 빠를지도…
+
+Lona/dress_out_ext_overfatigue1
+\m[flirty]\c[6]로나：\c[0] 뭐… 괜찮아… 옷은 너무 무겁잖아……
+
+Lona/dress_out_ext_mouth_block0
+\m[tired]\c[6]로나：\c[0] 으으응…
+
+Lona/dress_out_ext_mouth_block1
+\m[tired]\c[6]로나：\c[0] 으…!
+
+#--------------------------------------------------------------------------when collar is on
+
+Lona/collar_on_normal
+\m[bereft]\c[6]로나：\c[0] 그러지 마!! 이거… 벗겨줘!!
+
+Lona/collar_on_slut
+\m[flirty]\c[6]로나：\c[0] 이거… 묘하게 무겁네?
+
+Lona/collar_on_tsun
+\m[shocked]\c[6]로나：\c[0] 젠장! 이거… 안 벗겨져?!
+
+Lona/collar_on_weak
+\m[confused]\c[6]로나：\c[0] 으으… 무거워……
+
+Lona/collar_on_mouth_block
+\m[bereft]\c[6]로나：\c[0] 으… 으으응!!
+
+Lona/collar_on_overfatigue
+\m[tired]\c[6]로나：\c[0] 하아……
+
+#--------------------------------------------------------------------------when lost her baby
+
+Lona/lost_baby
+\m[shocked]\c[6]로나：\c[0] 아기…? 아기 어디 갔어!?
+\m[sad]\c[6]로나：\c[0] …나 혼자만 남겨진 거야?
+
+#-----------------------------when lost too many babys
+
+Lona/lost_baby_again
+\m[sad]\c[6]로나：\c[0] 아기… 또…?
+\m[confused]\c[6]로나：\c[0] 역시… 또 사라졌네…
+\m[tired]\c[6]로나：\c[0] …됐어, 이럴 줄 알았으니까.
+
+#--------------------------------------------------------------------------when cums too heavy
+Lona/heavy_begin
+\narr배 속의 정액이… 이제 넘쳐흐를 것 같다.
+
+Lona/Qmsg_SemenBursting0
+안에 가득 차서… 너무 빵빵한 느낌이야……
+
+Lona/Qmsg_SemenBursting1
+배가… 너무 무거워……
+
+Lona/Qmsg_SemenBursting2
+안 되겠어… 너무 무거워… 잠깐 쉬어야 할 것 같아…
+
+Lona/SemenBursting0
+\narrOFF\m[shy]\c[6]로나：\c[0] 안에 가득 차서… 너무 빵빵한 느낌이야……
+
+Lona/SemenBursting1
+\narrOFF\m[shy]\c[6]로나：\c[0] 배가… 너무 무거워……
+
+Lona/SemenBursting2
+\narrOFF\m[shy]\c[6]로나：\c[0] 안 되겠어… 너무 무거워… 잠깐 쉬어야 할 것 같아…
+
+#-----------------when cums not heavy anymore
+
+Lona/SemenBursting_regen_begin
+\narr정액으로 인한 배의 팽창감이 사라졌다.
+
+Lona/Qmsg_SemenBursting_regen0
+훨씬 나아졌어!
+
+Lona/Qmsg_SemenBursting_regen1
+조금은 회복된 것 같아.
+
+Lona/Qmsg_SemenBursting_regen2
+아직은… 좀 더 쉬어야겠어.
+
+Lona/SemenBursting_regen0
+\narrOFF\m[shy]\c[6]로나：\c[0] 훨씬 나아졌어!
+
+Lona/SemenBursting_regen1
+\narrOFF\m[shy]\c[6]로나：\c[0] 조금은 회복된 것 같아.
+
+Lona/SemenBursting_regen2
+\narrOFF\m[shy]\c[6]로나：\c[0] 아직은… 좀 더 쉬어야겠어.
+
+#-------------------------------------------------------------------------when eat cums
+
+Lona/eat_cums_normal0
+\narr로나는 어쩔 수 없이 입 안의 정액을 삼켰다.
+\narrOFF\m[pain]\c[6]로나：\c[0] 냄새…! 너무 역겨운 맛이야!
+
+Lona/eat_cums_normal1
+\narr로나는 어쩔 수 없이 입 안의 정액을 삼켰다.
+\narrOFF\m[shy]\c[6]로나：\c[0] 하… 하아… 목이 너무 아파…
+
+Lona/eat_cums_tsun0
+\narr로나는 어쩔 수 없이 입 안의 정액을 삼켰다.
+\narrOFF\m[angry]\c[6]로나：\c[0] 정말 더러워! 이런 걸 삼키다니!
+
+Lona/eat_cums_tsun1
+\narr로나는 어쩔 수 없이 입 안의 정액을 삼켰다.
+\narrOFF\m[serious]\c[6]로나：\c[0] 절… 절대 두 번 다시는 안 해!
+
+Lona/eat_cums_weak0
+\narr정액이 로나의 목을 타고 흘러내렸다.
+\narrOFF\m[pain]\c[6]로나：\c[0] 안 돼… 정말 더는 못 하겠어…
+
+Lona/eat_cums_weak1
+\narr정액이 로나의 목을 타고 흘러내렸다.
+\narrOFF\m[pain]\c[6]로나：\c[0] 켁… 켁… 켁…
+
+Lona/eat_cums_slut0
+\narr로나는 입 안의 정액을 삼켰다.
+\narrOFF\m[lewd]\c[6]로나：\c[0] 자지… 정액… 하하…
+
+Lona/eat_cums_slut1
+\narr로나는 입 안의 정액을 삼켰다.
+\narrOFF\m[lewd]\c[6]로나：\c[0] 원해! 더… 더 원해!
+
+Lona/eat_cums_mouth_block0
+\narr로나는 입 안의 정액을 삼켰다.。
+\narrOFF\m[shy]\c[6]로나：\c[0] 으…!
+
+Lona/eat_cums_mouth_block1
+\narr로나는 입 안의 정액을 삼켜버렸다.
+\narrOFF\m[shy]\c[6]로나：\c[0] 으으으…!
+
+Lona/eat_cums_overfatigue0
+\narr로나는 입 안의 정액을 삼켜버렸다. 
+\narrOFF\m[shy]\c[6]로나：\c[0] 우웁… 꿀꺽… 응읏……
+
+Lona/eat_cums_overfatigue1
+\narr로나는 입 안의 정액을 삼켜버렸다.  
+\narrOFF\m[shy]\c[6]로나：\c[0] 꿀꺽… 응… 꿀…
+
+#-------------------------------------------------------------------------WHEN HUNGER
+
+Lona/hunger0
+\narr포만감이 로나의 몸과 마음을 치유해주었다.
+\narrOFF\m[triumph]\c[6]로나：\c[0] 응응! 배부르게 먹을 수 있다니, 다행이야!
+
+Lona/hunger1
+\m[confused]\c[6]로나：\c[0] 아직 그렇게 배고프진 않지만… 얼른 뭐라도 먹어두는 게 좋겠어.
+
+Lona/hunger2
+\narr배고픔이 좀처럼 가시질 않는다.
+\narrOFF\m[sad]\c[6]로나：\c[0] 으… 배고파… 얼른 음식 찾아야 해…
+
+Lona/hunger3
+\narr지독한 공복이 로나의 배를 짓누르기 시작했다.
+\narrOFF\m[pain]\c[6]로나：\c[0] 이대로 아무것도 안 먹으면… 정말 굶어 죽을지도 몰라!!
+
+#-------------------------------------------------------------------------WHEN low sta
+
+Lona/lowsta0
+\m[pain]\c[6]로나：\c[0] 으… 다리가 안 움직여…
+
+Lona/lowsta1
+\m[pain]\c[6]로나：\c[0] 으… 몸이 너무 무거워……
+
+Lona/lowsta2
+\m[pain]\c[6]로나：\c[0] 으… 다리도 아프고… 몸도 너무 무거워……
+
+Lona/lowsta3
+\m[pain]\c[6]로나：\c[0] 으… 이제 못 일어나겠어… 어딘가 쉬어야 해…
+
+Lona/Qmsg_lowsta0
+으… 다리가 안 움직여…
+
+Lona/Qmsg_lowsta1
+으… 몸이 너무 무거워……
+
+Lona/Qmsg_lowsta2
+으… 다리도 아프고… 몸도 너무 무거워……
+
+Lona/Qmsg_lowsta3
+으… 이제 못 일어나겠어… 어딘가 쉬어야 해…
+
+#------------------------------------------------------------------------NAP
+
+Lona/nap
+\m[tired]\c[6]로나：\c[0] 으으…………
+
+#--------------------------------------------------------------------況張傷害
+
+Lona/vag_damaged
+\m[shy]로나의 보지가 마치 검은 목이버섯처럼 벌어져 더 이상 닫히지 않는다.
+\m[fear]\c[6]로나：\c[0] 내 몸… 도대체 어떻게 되어버리는 거야…?
+
+Lona/urinary_damaged
+\m[shy]참을 수 없는 요의가 계속 밀려오고, 로나의 요도와 방광은 기능을 잃은 듯하다.
+\m[fear]\c[6]로나：\c[0] …소변이… 멈추질 않아?
+
+Lona/anal_damaged
+\m[shy]더러운 액체가 로나의 항문에서 멈추지 않고 새어나오고, 그 부위는 기능을 상실한 듯하다.
+\m[fear]\c[6]로나：\c[0] 내 몸… 대체 어떻게 되는 건데…?
+
+#---------------------------------------------------------便意尿意
+
+Lona/pee_dialog
+\m[confused]\c[6]로나：\c[0] 음… 약간 소변이 마려워.  
+\m[shy]\c[6]로나：\c[0] 안전한 장소를 찾아야겠어.
+
+Lona/scat_dialog
+\m[confused]\c[6]로나：\c[0] 음… 약간 대변이 마려워.
+\m[shy]\c[6]로나：\c[0] 안전한 장소를 찾아야겠어.
+
+Lona/Qmsg_pee_dialog
+소변이 좀 마려운데…
+
+Lona/Qmsg_scat_dialog
+대변이 좀 마려운데…
+
+#---------------------------------泌尿系統受損後
+
+Lona/auto_pee
+\m[confused]오줌이 제멋대로 새어 나왔다. 냄새와 불쾌감이 로나의 하체를 감쌌다. 
+\m[shy]\c[6]로나：\c[0] …어딘가에서… 씻어야겠어…
+
+Lona/Qmsg_auto_pee
+안 돼… 금방 쌀 것 같아…
+
+Lona/auto_pee_nap
+\narr로나가 잠든 사이, 오줌이 계속 흘러나왔다. 
+\narr로나는 실금했다.
+
+Lona/auto_poo
+\m[confused]이물질이 제멋대로 새어나왔다. 냄새와 묘한 끈적임이 로나의 하체를 감쌌다. 
+\m[shy]\c[6]로나：\c[0] …어딘가에서… 씻어야 해…
+
+Lona/Qmsg_auto_poo
+안 돼… 나… 나와버렸어…
+
+Lona/auto_poo_nap
+\narr로나가 잠든 사이, 이물질이 계속 흘러나왔다.
+
+###############################################################COMMON SEX TRAIT/LURE##############################################################
+
+Lona/lure_normal0
+\m[shy]\c[6]로나：\c[0] 부… 부탁이야… 내 보지… 마음대로 써줘……
+
+Lona/lure_normal1
+\m[shy]\c[6]로나：\c[0] 난 네 거야… 마음대로 망가뜨려도 좋아…
+
+Lona/lure_tsun0
+\m[shy]\c[6]로나：\c[0] …흥… 어차피… 쓰고 싶으면 써…
+
+Lona/lure_tsun1
+\m[shy]\c[6]로나：\c[0] 으… 여긴… 네 맘대로 해도… 돼……
+
+Lona/lure_weak0
+\m[shy]\c[6]로나：\c[0] 난 네 가축이야… 말 잘 들을게……
+
+Lona/lure_weak1
+\m[shy]\c[6]로나：\c[0] 여긴… 어떻게 해도… 괜찮아……
+
+Lona/lure_slut0
+\m[lewd]\c[6]로나：\c[0] 제발… 이 더러운 보지… 맘껏 써줘……
+
+Lona/lure_slut1
+\m[lewd]\c[6]로나：\c[0] 박아줘…! 나… 더럽고 쓰레기 같은 걸레년이야…!
+
+Lona/lure_mouth_block0
+그들의 시선 아래, 로나는 자신의 보지를 벌려 보였다.
+\m[shy]\c[6]로나：\c[0] 으… 으으…
+
+Lona/lure_mouth_block1
+그들의 시선 아래, 로나는 자신의 항문을 벌려 보였다.
+\m[shy]\c[6]로나：\c[0] 으… 흐윽……
+
+Lona/lure_overfatigue0
+그들의 시선 아래, 로나는 힘없이 자신의 보지를 벌렸다.
+\m[shy]\c[6]로나：\c[0] .......
+
+Lona/lure_overfatigue1
+그들의 시선 아래, 로나는 무표정하게 항문을 드러냈다.
+\m[shy]\c[6]로나：\c[0] .......
+
+############################################333EQUIP WOUNDS########################33
+
+Lona/cuff_wound
+\m[pain]\c[4]족쇄……
+\m[fear]\c[6]로나：\c[0] 어떻게든 이걸 벗어야 해… 안 그러면 아무것도 못 해…
+
+Lona/collar_wound
+\m[pain]\c[4]목걸이……
+\m[bereft]\c[6]로나：\c[0] 안 돼! 난… 노예 따윈 되고 싶지 않아!!
+
+###############################################PUKE######################
+
+Lona/puke_cums
+\narr끈적한 정액이 로나의 목구멍과 기도에 달라붙었다. 
+\narr거대한 구역질이 로나를 덮쳐왔다.
+
+Lona/puke_begin1
+\PRF\c[6]로나：\c[0] \{으… 웁…!
+
+Lona/puke_begin2
+\narr위 속의 내용물이 통제 없이 뿜어져 나왔다.
+
+Lona/puke1
+\c[6]로나：\c[0] \{으윽...! 꺼억…!
+
+Lona/puke2
+\c[6]로나：\c[0] \{우욱… 푸억…!
+
+Lona/puke3
+\c[6]로나：\c[0] \{푸… 꺼억… 꺼어억…!
+
+Lona/puke4
+\c[6]로나：\c[0] 으… 꺼억! 컥, 꺼어억!!
+
+Lona/puke5
+\c[6]로나：\c[0] 콜록!! 콜록, 콜록!!
+
+Lona/puke_end1
+\c[6]로나：\c[0] 우으… 으아… 헉… 하아………
+
+Lona/puke_end2_normal
+\c[6]로나：\c[0] 우욱… 으윽… 다… 다 토해버렸어…
+
+Lona/puke_end2_preg
+\c[6]로나：\c[0] …속이 좀 안 좋은 걸……
+
+Lona/Qmsg_Oev_Puke
+으윽… 토할 것 같아…
+
+###############################################Itch######################
+
+Lona/Qmsg_Oev_Itch0
+너무 간지러워…
+
+Lona/Qmsg_Oev_Itch1
+보지…쪽이… 간지러워…
+
+Lona/Qmsg_Oev_Itch2
+으으… 간질간질해…
+
+###########################################SICK################################
+
+Lona/sick
+\m[pain]\c[6]로나：\c[0] 으으…
+\m[tired]\c[6]로나：\c[0] 몸이 좀 이상해… 오늘은 움직이지 않는 게 좋겠어…
+
+###########################################3# MILK OVERCHARGE################################
+
+Lona/Milk_feed_notEnough
+\m[confused]\c[6]로나：\c[0] \..\..\..
+\m[shocked]\Rshake\c[6]로나：\c[0] 모유가… 모유가 부족해?!
+
+Lona/MilkSpray_overcharge
+\narr로나의 가슴이 심하게 부풀어오르고, 금방이라도 젖이 터져 나올 것 같다.
+\narrOFF\m[shy]\c[6]로나：\c[0] 으으… 어딘가에서… 빨리 처리해야 해…
+
+########################################3####MENSES SYSTEM#######################################
+
+Lona/menses
+\m[pain]\c[6]로나：\c[0] 으으… 또 그 날이 온 거야? 
+\m[shy]\c[6]로나：\c[0] 물 있는 곳을 찾아서… 씻어야겠어.  
+\m[tired]\c[6]로나：\c[0] 하지만… 으으… 아랫배가 너무 아파……
+
+Lona/menses_bad
+\m[pain]\c[6]로나：\c[0] 아직도 계속 흘러… 몸도 너무 무거워… 
+\m[tired]\c[6]로나：\c[0] 오늘은… 그냥 좀 쉬는 게 좋겠어…
+
+Lona/menses_ovulate
+\m[confused]\c[6]로나：\c[0] 또… 또 이런 느낌이…  
+\m[shy]\c[6]로나：\c[0] 아래가… 너무 뜨거워… 몸이 뭔가를… 기다리는 것 같아……
+
+################################################ PREG DIALOGS ##################################################
+#########LV1
+
+Lona/preglv1_puke_exped
+\m[sad]\c[6]로나：\c[0] …이런 경우… 어디선가 들은 적 있어…  
+\m[confused]\c[6]로나：\c[0] 나… 임신한… 건가?
+
+Lona/preglv1_Qmsg_puke_exped0
+이런 경우… 어디선가 들은 적 있어……
+
+Lona/preglv1_Qmsg_puke_exped1
+나… 임신한… 건가……?
+
+#########LV2
+
+Lona/preglv2_puke
+\m[sad]\c[6]로나：\c[0] 으… 우욱! 또… 또 시작됐어!!
+
+Lona/preglv2_Qmsg_puke
+우욱… 또… 또 시작됐어…!
+
+Lona/preg_lv2
+\m[confused]\c[6]로나：\c[0]    배가… 뭔가 이상해… 자꾸 허기가 심해져…
+
+Lona/preg_lv2_Qmsg
+배가 이상해… 자꾸 허기가 밀려와…
+
+Lona/preg_lv2_exped
+\m[shy]\c[6]로나：\c[0] 이 이상한 느낌은… 
+\m[fear]\c[6]로나：\c[0] 설마… 또 임신… 한 거야…?
+
+Lona/preg_lv2_exped_Qmsg0
+이 이상한 느낌은……
+
+Lona/preg_lv2_exped_Qmsg1
+또… 임신… 인 건가……?
+
+Lona/preglv2_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{꺄아아아악!!
+\m[tired]\c[6]로나：\c[0] 으아아…
+\m[sad]\c[6]로나：\c[0] 이… 이 통증… 너무 무서워…
+
+#########LV3
+
+Lona/preglv3
+\m[shocked]\c[6]로나：\c[0] 으… 언제 이렇게… 내 배가 이렇게 커진 거야…?  
+\m[fear]\c[6]로나：\c[0] 안 돼… 이러다 다들 눈치챌 거야…
+
+Lona/preglv3_Qmsg0
+으으… 언제 이렇게 배가 불렀지……
+
+Lona/preglv3_Qmsg1
+안 돼… 이러다 들켜버려……
+
+Lona/preglv3_puke
+\m[sad]\c[6]로나：\c[0] 으윽! 싫어! 또 시작됐어! 우윽…!
+
+Lona/preglv3_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{꺄아아아악!!  
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{윽… 으아아악!!  
+\m[tired]\c[6]로나：\c[0] 하아… 하아… 
+\m[sad]\c[6]로나：\c[0] 아아… 이 진통… 너무 무서워…
+\m[confused]\c[6]로나：\c[0] 배 안에서… 아기가 움직이고 있어…
+
+Lona/preglv3_Qmsg_pain0
+배 안에서… 아기가 움직이고 있어…
+
+Lona/preglv3_Qmsg_pain1
+아아… 이 진통… 너무 무서워…
+
+#########LV4
+
+Lona/preglv4
+\m[pain]\c[6]로나：\c[0] 아기가… 움직이고 있어… 점점 더… 강하게…
+\m[fear]\c[6]로나：\c[0] 이러다… 금방 나올 것 같아… 어떡하지……
+
+Lona/preglv4_Qmsg0
+아기가… 움직임이 점점 더 심해져……
+
+Lona/preglv4_Qmsg1
+금방 나올 것 같아… 어떡해……
+
+Lona/preglv4_weak
+\m[shy]\c[6]로나：\c[0] 안 돼… 움직이지 마!!  
+\m[bereft]\c[6]로나：\c[0] 이런 고통뿐인 세상에서… 너를 낳고 싶지 않아!!
+
+Lona/preglv4_Qmsg_weak0
+그만해… 움직이지 마… 제발…!!
+
+Lona/preglv4_Qmsg_weak1
+이런 고통뿐인 세상에서… 너를 낳고 싶지 않아…!
+
+Lona/preglv4_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{꺄아아악!! 
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{흐으윽… 아아아악!! 
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{으으윽—아아아악!!
+\m[tired]\c[6]로나：\c[0] 하아… 하아… 
+\m[sad]\c[6]로나：\c[0] 으흑… 아기가 또… 발로 찼어…
+\m[confused]\c[6]로나：\c[0] 괜찮아… 무서워하지 마… 엄마가… 지켜줄게……
+
+Lona/preglv4_pain_Qmsg0
+으흑… 또… 아기가 움직였어…
+
+Lona/preglv4_pain_Qmsg1
+하아… 하아… 숨도 못 쉬겠어…
+
+Lona/preglv4_pain_Qmsg2
+괜찮아… 엄마가… 꼭… 지켜줄게……
+
+#####################birth
+
+Lona/preglv5_ready_to_birth
+！！！！！！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{물… 멈추질 않아…!!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{계속… 무언가가 흘러나와…!! 
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{안 돼… 뭔가 새어나오는 느낌이야…
+\m[pain]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] 점점 심해지고 있어… 이대로면 위험해…!
+\m[shy]\c[6]로나：\c[0] 어서… 안전한 곳을 찾아야 해…!
+
+Lona/preglv5_ready_birth_shake0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{아아앗!
+
+Lona/preglv5_ready_birth_shake1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{으읏…!
+
+Lona/preglv5_ready_birth_shake2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{아아… 안 돼…!
+
+Lona/preglv5_birth_start
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{너무 아파…!\}배가… 안에서 움직여!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{하아…!\}금방… 나올 것 같아…!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] 윽… 또… 또 온다…!\{히잇\{히잇\{히잇…
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] 점점 더 아파와…!\{살려줘\{안 돼\{으아…!
+
+Lona/preglv5_birth_start_pain0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{아아아아아아!!!
+\Rshake\c[6]로나：\c[0] \{그만… 멈춰줘!! 제발!!
+
+Lona/preglv5_birth_start_pain1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{으으으으윽!!  
+\Rshake\c[6]로나：\c[0] \{끄아아아아!!
+\Rshake\c[6]로나：\c[0] \{흐으으아아아악…!
+
+Lona/preglv5_birth_start_pain2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{너무… 너무 아파…!
+\Rshake\c[6]로나：\c[0] \{이젠 안 돼… 버틸 수 없어…!
+
+Lona/preglv5_birth_start_pain3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{하아…    
+\Rshake\c[6]로나：\c[0] \{흐읏… 으읏…
+
+Lona/preglv5_birth_start_pain4
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{나와… 나오려 해…! 
+\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{히잇… 히잇… 으아아아악!!!
+
+######################################流產
+
+Lona/preg_miscarriage_start
+\narr갑작스러운 극심한 진통이 로나를 덮친다
+\narrOFF\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0]  \{\{아아아아!!\}그만!!\{몸이 찢어질 것 같아!!
+
+Lona/preg_miscarriage_begin0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{너무 아파… 너무 아프다고!! 
+
+Lona/preg_miscarriage_begin1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{으으으으윽!!  
+
+Lona/preg_miscarriage_begin2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{제발… 그만… 살려줘…  
+
+Lona/preg_miscarriage_begin3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]로나：\c[0] \{히잇… \{아아아악…!!
+
+Lona/preg_miscarriage_end0
+\m[pain]\c[6]로나：\c[0] 이건… 내 아기… 였던 건가요?
+\m[fear]\c[6]로나：\c[0] 아기야… 내 아기가… 죽었어…
+
+Lona/preg_miscarriage_end1
+\m[sad]\c[6]로나：\c[0] 흐윽… 미안해… 미안해 아가야… 나는… 너무나도 부족한 엄마였어…
+
+##_------------------------------異種強制流產　　使用於ｒａｐｅ　ｌｏｏｐ連鎖事件 本事件僅適用ORKIND
+
+Lona/MonsterPregCheckbegin1_unexped
+\narr그것들은 로나를 들어올려 억지로 벌렸다.
+\narrOFF\c[6]로나：\c[0]    \m[p5shame]흐윽.. 너희들, 뭘 하려는 거야...
+\narr그것은 로나의 보지 쪽에 코를 들이밀고 킁킁댄다. 마치 뭔가를 찾는 듯이.
+
+Lona/MonsterPregCheckbegin1_exped
+\narr그것은 로나의 보지 쪽에 얼굴을 바짝 들이대고 킁킁댄다. 마치 로나가 자기 종족의 아이를 품지 않았다고 의심하는 듯했다.
+\narrOFF\c[6]로나：\c[0]    \m[p5shame]흐윽... 나, 나 진짜로 임신했어! 거짓말 아니야...!
+
+Lona/MonsterPregCheckbegin2_normal
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 안 돼… 핥지 마… 제발 그만해...
+
+Lona/MonsterPregCheckbegin2_tsun
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 이 짐승들아! 하지 마! 그 더러운 입 좀 떼라고!
+
+Lona/MonsterPregCheckbegin2_weak
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 안 돼! 아프게 하지 마! 아아악!
+
+Lona/MonsterPregCheckbegin2_slut
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 히야아앙! 너희들… 뭘 하려는 거야!
+
+Lona/MonsterPregCheckbegin2_mouth_block
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 으으응! 으음, 응응…!
+
+Lona/MonsterPregCheckbegin2_overfatigue
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 으아아... 하아아...
+
+Lona/MonsterPregCheckbegin3
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 응아아…
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 으응…
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]로나：\c[0] 앙, 아아아…!
+
+Lona/MonsterPregChecked_pregnant
+\narr그것들은 로나의 자궁 상태에 매우 흡족해했고, 그래서 그녀를 더욱 거칠게 범하려 들었다.
+\narrOFF\c[6]로나：\c[0]    \m[fear]너, 너희들… 지금 뭐 하려는 거야?
+
+Lona/MonsterPregChecked_no_pregnant
+\narr로나는 아직 그것들의 씨를 품지 못했고, 그것은 즉시 강제로 몸을 덮쳐야 한다는 뜻이었다.
+\narrOFF\c[6]로나：\c[0]    \m[fear]너, 너희들… 지금 뭐 하려는 거야?
+
+Lona/MonsterPregChecked_race_error
+\narr그것들은 로나가 자신들과 같은 종족의 아이를 가진 게 아님을 알아차리자 분노했다.
+\narrOFF\c[6]로나：\c[0]    \m[fear]너, 너희들… 지금 뭐 하려는 거야?
+\narr그것들은 가장 원시적인 방식으로 로나의 몸에서 아이를 유산 시키기로 했다.
+
+
+#-----------------------------
+
+Lona/use_as_MeatToilet_normal
+\m[shocked]\Rshake\c[6]로나：\c[0] 안 돼!!! 놓으라고!!!
+\m[terror]\Rshake\c[6]로나：\c[0] \{누가… 제발 누가 좀 도와줘!!!
+
+Lona/use_as_MeatToilet_tsun
+\m[angry]\Rshake\c[6]로나：\c[0] 놓으라고! 이 역겨운 씨발놈들아… 흐윽!!
+\m[hurt\Rshake]\c[6]로나：\c[0] \{흐으으으읏!!!
+
+Lona/use_as_MeatToilet_weak
+\m[fear]\Rshake\c[6]로나：\c[0] 나… 나 말 잘 들을게… 제발, 다치게만 하지 마…
+\m[bereft]\Rshake\c[6]로나：\c[0] 아파!!\{꺄아아악!!!
+
+Lona/use_as_MeatToilet_slut
+\m[flirty]\Rshake\c[6]로나：\c[0] 내 몸이 갖고 싶어? 누가 굴복할진 아직 모른다구?
+\m[sexhurt]\Rshake\c[6]로나：\c[0] 히야앙!! 살살 좀 해!!
+
+Lona/use_as_MeatToilet_overfatigue
+\m[tired]\Rshake\c[6]로나：\c[0] 흐으으으…
+\m[hurt]\Rshake\c[6]로나：\c[0] 제발… 잠깐만 쉬게 해줘…\{히야아악!!
+
+Lona/use_as_MeatToilet_mouth_block
+\m[tired]\Rshake\c[6]로나：\c[0] 흐으으으…
+\m[hurt]\Rshake\c[6]로나：\c[0] \{으응, 응응응!!
+
+#-----------------------------  BerserkDrug
+
+Lona/BerserkDrug0
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]로나：\c[0] \{으으으아아아!!
+
+Lona/BerserkDrug1
+\m[p5health_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]로나：\c[0] 몸이… 뭔가 이상해…\n\{아아아아악!!!
+
+Lona/BerserkDrug2
+\cg[event_RipAndTear]\Rflash\SndLib[sound_Heartbeat]그들은 널 조롱한다. 널 구더기 취급해.
+\Rflash\SndLib[sound_Heartbeat]하지만 지금의 넌 예전과는 달라.
+\Rflash\SndLib[sound_Heartbeat]넌 그들보다 더 잔혹하고, 더 강해졌어.
+\Rflash\SndLib[sound_Heartbeat]\{찢어! 갈라! 죽여서 끝내!
+
+Lona/BerserkDrug3
+\cgoff\SndLib[sound_Heartbeat]\c[6]로나：\c[0] \{아하하하하하하하!!
+
+Lona/BerserkDrug4
+\SndLib[sound_Heartbeat]\c[6]로나：\c[0] 난 지금…\n\{분노로 타오르고 있어!
+
+#-----------------------------  Drunk
+
+Lona/DrunkLv1
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]로나：\c[0] 꺄악!
+\m[pleased]\PRF\c[6]로나：\c[0] 아하하하!
+
+Lona/DrunkLv2
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]로나：\c[0] 꺄악!
+\m[confused]\PRF\c[6]로나：\c[0] ......
+\m[flirty]\PRF\c[6]로나：\c[0] 더 마시면 큰일 날지도?
+
+#-----------------------------  Locked , house or dungeon loot.
+
+Lona/PickLock
+\m[confused]잠겨 있어，..써서 열까?#{$story_stats["HiddenOPT1"]}의 스태미너을 써서 열까?
+
+#-----------------------------  Nightmare(PTSD)
+
+Lona/PTSD_begin0
+\Rflash\SndLib[sound_Heartbeat]！！！
+
+Lona/PTSD_begin1
+\Rflash\SndLib[sound_Heartbeat]！！！！！！
+
+Lona/PTSD_begin2
+\Rflash\SndLib[sound_Heartbeat]！！！！！！！！！！
+
+Lona/PTSD_Common_0
+\m[terror]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]로나：\c[0] 흐윽… 흐으으…
+
+Lona/PTSD_Common_1
+\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]로나：\c[0] \{제발…\} 저리 가… 가지 마…
+
+Lona/PTSD_Common_2
+\m[pain]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]로나：\c[0] \{미안해…\} 제발, 용서해줘…
+
+Lona/PTSD_Common_3
+\m[hurt]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]로나：\c[0] \{내가 잘못했어…\} 그러니까, 그러니까 제발…
+
+Lona/PTSD_CecilyBetray
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]세실리：\c[0] 대체 왜 그런 짓을 한 거야…
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]세실리：\c[0] 난 널 절대 용서하지 않아!
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]세실리：\c[0] \{죽어버려!
+
+Lona/PTSD_Orkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！
+\cg[map_OrcHappy]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！！！
+\cg[event_OrkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！！！！！！
+
+Lona/PTSD_Fishkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！
+\cg[map_FishkindGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！！！
+\cg[event_FishkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！！！！！！
+
+Lona/PTSD_Abomination
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！
+\cg[map_AbominationSpider]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！
+\cg[map_AbominationGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！！！！
+
+Lona/PTSD_Bandit
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！！！
+\cg[event_miscarriage_low]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！！！！！！
+
+Lona/PTSD_Slave
+\cg[event_captured]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！！！！
+
+Lona/PTSD_begin4
+\cgoff\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]로나：\c[0] \{\{안 돼.......!!!
+
+Lona/PTSD_begin5_0
+\m[terror]\c[6]로나：\c[0] ...........
+\m[tired]\c[6]로나：\c[0] 또… 또 악몽이야…?
+
+Lona/PTSD_begin5_1
+\m[terror]\c[6]로나：\c[0] ...........
+\m[tired]\c[6]로나：\c[0] 꿈이었어…? 진짜로…?
+
+######################### Eat hand
+
+Lona/EatHand0
+\m[confused]\c[6]로나：\c[0] 녹… 녹… 녹…
+\m[flirty]\c[6]로나：\c[0] 으응… 확실히 맛은 없네.
+
+Lona/EatHand1
+\m[confused]\c[6]로나：\c[0] 녹… 녹… 녹…
+\m[flirty]\c[6]로나：\c[0] 나 지금 대체 뭐 하는 거지?
+\m[confused]\c[6]로나：\c[0] 이게 그렇게 재미있어 보이진 않는데…
+
+Lona/EatHand2
+\m[confused]\c[6]로나：\c[0] 녹… 녹… 녹…
+\m[flirty]\c[6]로나：\c[0] 에휴… 이제 그만해야겠다.

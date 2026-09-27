@@ -1,0 +1,39 @@
+NoerBSS/OvermapEnter
+\m[confused]鐵哥專業鋼鐵鋪\optB[算了,進入]
+
+#############################  BSS MASTER
+BSStrader/welcome
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    歡迎... 鐵哥的.. 專業鋼鐵鋪....
+
+BSStrader/end
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    他人的... 稱讚.. 不是讚....
+
+BSStrader/Opt_RemoveCuff
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    嗯？\optB[算了,交易,關於,移除拘束具]
+
+BSStrader/NotCuffed
+\CBmp[BSStrader,8]\c[4]鐵哥：\c[0]    妳... 人生.. 不被.. 拘束...
+
+BSStrader/SlaveBrand
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    刺字？
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    妳是.. 諾爾市.. 的奴隸... 一輩子..
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    法律.. 規定... 不可以...
+
+BSStrader/Aid0
+\CBmp[BSStrader,8]\c[4]鐵哥：\c[0]    去... 工作室...
+
+BSStrader/Aid1
+\CBct[6]\m[fear]\c[6]洛娜：\c[0]    這個... 會痛嗎？
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    痛...　可能...
+\CBct[6]\m[sad]\Bon[6]\c[6]洛娜：\c[0]    嗚嗚....
+
+BSStrader/RemoveEnd
+\narr拘束具被拿掉了
+
+BSStrader/About
+\CBmp[BSStrader,20]\m[normal]\c[4]鐵哥：\c[0]    我... 鐵哥... 住在魚托比島...
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    家裡有錢.... 無奈.. 生活拘束...
+\CBmp[BSStrader,20]\m[confused]\c[4]鐵哥：\c[0]    諾爾開放.... 我買下.. 店面.....
+\CBmp[BSStrader,20]\c[4]鐵哥：\c[0]    實現... 夢想... 放飛... 自我...
+\CBct[2]\m[flirty]\c[6]洛娜：\c[0]    什？
+

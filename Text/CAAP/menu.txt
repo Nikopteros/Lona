@@ -1,0 +1,895 @@
+##################################    TÍTULO    #############################
+
+title/NEW_GAME
+Nuevo juego
+
+title/CONTINUE
+Continuar
+
+title/CREDITS
+Autores
+
+title/EXIT_GAME
+Salir
+
+title/OPTIONS
+Configuración
+
+title/ACH
+Logros
+
+title/GamepadMode
+Modo mando
+
+title/SupportMe
+Soporte
+
+##################################    Input    ################# ############
+
+Input/Space
+Espacio
+
+##################################    TIENDA    #############################
+
+Shop/ConfirmWarning
+¿Quieres completar esta transacción?
+
+Shop/Return
+Revisar
+
+Shop/Buy
+Comprar
+
+Shop/Sell
+Vender
+
+Shop/Cancel
+Cancelar
+
+Shop/WtLimit
+Límite de peso
+
+Shop/TPleft
+Puntos de intercambio
+
+Shop/Item
+Artículo
+
+Shop/ArmEquip
+Equipo de mano
+
+Shop/Equip
+Otro equipamiento
+
+Box/Body
+Lona
+
+Box/Target
+Objetivo
+
+##################################    `    #############################
+
+GameOver/Press
+Pulsa Z
+
+GameOver/Continue_bad
+El Dios CAAP decepcionado
+
+GameOver/Continue_good
+Lona te agradece 
+
+##################################    CORE    #############################
+##################################    CORE    #############################
+##################################    CORE    #############################
+
+core/main_stats
+Principal
+
+core/body_stats
+Estado
+
+core/sex_stats
+Intimidad
+
+core/equips
+Equipo
+
+core/items
+Objetos
+
+core/skills
+Habilidades
+
+core/traits
+Rasgos
+
+core/letter
+Notas
+
+core/system
+Sistema
+
+##################################    ESTADÍSTICAS BÁSICAS    #############################
+##################################    ESTADÍSTICAS BÁSICAS    ######## #####################
+##################################    ESTADÍSTICAS BÁSICAS    #############################
+##################################    ESTADÍSTICAS BÁSICAS    ############### ##############
+
+core_stats/hp
+HP
+
+core_stats/ca
+Peso
+
+core_stats/sta
+STAN
+
+core_stats/sat
+SAT
+
+core_stats/next_lv
+EXP
+
+core_stats/TimeLeft
+TIEMPO
+
+##################################    main    #############################
+##################################    main    #############################
+##################################    main    #############################
+##################################    main    #############################
+
+main_stats/name
+Lona
+
+main_stats/race
+Raza
+
+main_stats/race_Human
+Humano
+
+main_stats/race_Deepone
+Profundo
+
+main_stats/race_Moot
+Mestizo
+
+main_stats/race_SeaWitch
+Bruja marina
+
+
+#######################################################
+
+main_stats/persona
+Personalidad
+
+main_stats/persona_typical
+Normal
+
+main_stats/persona_gloomy
+Manso
+
+main_stats/persona_tsundere
+Fuerte
+
+main_stats/persona_slut
+Lasciva
+
+#######################################################
+
+main_stats/title
+Nombre
+
+main_stats/level
+Nivel
+
+main_stats/exp_need
+EXP
+
+main_stats/atk
+ATK
+
+main_stats/def
+DEF
+
+main_stats/move_speed
+SPD
+
+main_stats/mood
+Moral
+
+main_stats/dirt
+Suciedad
+
+main_stats/arousal
+Excitación
+
+main_stats/micturition_need
+Necesidad de orinar
+
+main_stats/breast_swelling
+Leche materna
+
+main_stats/stomach_upset
+Malestar estomacal
+
+main_stats/defecation_need
+Necesidad de cagar
+
+main_stats/date
+Fecha
+
+main_stats/date_day
+Día
+
+main_stats/date_night
+Noche
+
+main_stats/carrying_capacity
+Capacidad de carga
+
+main_stats/trade_point
+Puntos de intercambio
+
+main_stats/morality
+Reputación
+
+main_stats/sexy
+Sexualidad
+
+main_stats/weak
+Debilidad
+
+main_stats/baby_health
+Salud del feto
+
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+
+body_stats/common_healthy
+Sana
+
+body_stats/common_wound
+Herida
+
+body_stats/common_semen
+Goteo de semen
+
+body_stats/common_piercing
+Piercing corporal
+
+body_stats/common_VaginalDamaged
+Lesión vaginal
+
+body_stats/common_UrethralDamaged
+Lesión en la uretra
+
+body_stats/common_SphincterDamaged
+Lesión en el ano
+
+body_stats/common_distention
+Hinchazón abdominal
+
+body_stats/part_total_amount
+Total
+
+############# #####################    ESTADÍSTICAS SEXUALES    #############################
+##################################	ESTADÍSTICAS SEXUALES    #############################
+##################################    ESTADÍSTICAS SEXUALES    #############################
+##################################    ESTADÍSTICAS SEXUALES    #############################
+#############################左部
+
+sex_stats/main_belly
+Vientre
+
+sex_stats/main_belly_normal
+Normal
+
+sex_stats/main_belly_preg1
+Gordo
+
+sex_stats/main_belly_preg2
+Barrigón
+
+sex_stats/main_belly_preg3
+Embarazo
+
+sex_stats/main_vag
+Vagina
+
+sex_stats/main_anal
+Ano
+
+sex_stats/main_hole_tight
+Estrecho
+
+sex_stats/main_hole_narrow
+Apretado
+
+sex_stats/main_hole_used
+Usado
+
+sex_stats/main_hole_gaping
+Significado
+
+sex_stats/main_hole_ruined
+Agujero
+
+############### ############################### battle sex skill 右下部
+#hole skill 0~100  lv0 = 0~30,30~50,50~70,>70
+
+sex_stats/battle_stats_vag
+Vagina
+
+sex_stats/battle_stats_anal
+Anal
+
+sex_stats/battle_stats_mouth
+Oral
+
+sex_stats/battle_stats_fapping
+Manos
+
+sex_stats/battle_stats_inexperienced
+Inexperta
+
+sex_stats/battle_stats_exped
+Experimentada
+
+sex_stats/battle_stats_skilled
+Hábil
+
+sex_stats/battle_stats_master
+Maestra
+
+################################################# # REGISTRO parte superior derecha
+
+sex_stats/record_giveup_hardcore
+Se rindió Sobrevivir
+
+sex_stats/record_giveup_PeePoo
+Miedo a los baños
+
+sex_stats/record_Rebirth
+Renacimiento
+
+sex_stats/record_first_mouth
+Primer beso
+
+sex_stats/record_first_vag
+Virginidad
+
+sex_stats/record_first_anal
+Primer anal
+
+sex_stats/record_last_mouth
+Último oral
+
+sex_stats/record_last_vag
+Último vaginal
+
+sex_stats/record_last_anal
+Último anal
+
+sex_stats/record_current_married_partner
+Casada con
+
+sex_stats/record_urinary_damage
+Lesiones en la uretra
+
+sex_stats/record_anal_damage
+Lesiones en el ano
+
+sex_stats/record_whore_job
+Sexo por dinero
+
+sex_stats/record_kissed
+Besos
+
+sex_stats/record_privates_seen
+Se bañó en público
+
+sex_stats/record_groped
+Manoseada
+
+sex_stats/record_sexual_partners
+Parejas sexuales
+
+sex_stats/record_semen_swallowed
+Semen tragado
+
+sex_stats/record_frottage
+Masturbada
+
+sex_stats/record_biggest_gangbang
+Máximo de parejas
+
+sex_stats/record_seen_peeing
+Orinó en público
+
+sex_stats/record_peed
+Orinó
+
+sex_stats/record_shat
+Defecó
+
+sex_stats/record_cumshotted
+Bukkake
+
+sex_stats/record_seen_shat
+Defecó en público
+
+sex_stats/record_torture
+Abuso sexual
+
+sex_stats/record_eating_fecal
+Comió excrementos
+
+sex_stats/record_cunnilingus_taken
+Le hicieron cunnilingus
+
+
+sex_stats/record_coma_sex
+Sexo inconsciente
+
+sex_stats/record_mindbreak
+Sobreexcitación
+
+sex_stats/record_defecate_incontinent
+Se cagó encima
+
+sex_stats/record_urinary_incontinence
+Se cagó
+
+sex_stats/record_anal_dilatation
+Dilatación del ano
+
+sex_stats/record_vag_dilatation
+Dilatación de la vagina
+
+sex_stats/record_urinary_dilatation
+Dilatación de la uretra
+
+sex_stats/record_BreastFeeding
+Lactancia materna
+
+sex_stats/record_MilkSplash
+Lactancia
+
+sex_stats/record_MilkSplash_incontinence
+Lactancia excesiva
+
+sex_stats/record_pregnancy
+Parto
+
+sex_stats/record_orgasm
+Orgasmos
+
+sex_stats/record_orgasm_Mouth
+Orgasmos orales
+
+sex_stats/record_orgasm_Torture
+Orgasmos bajo tortura
+
+sex_stats/record_orgasm_Vag
+Orgasmos vaginales
+
+sex_stats/record_orgasm_Milking
+Orgasmos por lactancia
+
+sex_stats/record_orgasm_Pee
+Orgasmos uretrales
+
+sex_stats/record_orgasm_Poo
+Orgasmos por defecación
+
+sex_stats/record_orgasm_Birth
+Orgasmos por parto
+
+sex_stats/record_orgasm_Anal
+Orgasmos anales
+
+sex_stats/record_orgasm_Semen
+Orgasmos por semen
+
+sex_stats/record_orgasm_Breast
+Orgasmos por pezones
+
+sex_stats/record_orgasm_Shame
+Orgasmos por vergüenza
+
+sex_stats/record_enemaed
+Enemas
+
+sex_stats/record_analbeads
+Sexo anal con bolas
+
+sex_stats/record_pussy_wash
+Orinar en la vagina
+
+sex_stats/record_anal_wash
+Orinar en el ano
+
+sex_stats/record_golden_shower
+Orinar sobre el cuerpo
+
+sex_stats/record_piss_drink
+Beber orina
+
+sex_stats/record_married
+Casada
+
+sex_stats/record_groin_harassment
+Manoseo de la vagina
+
+sex_stats/record_butt_harassment
+Manoseo del trasero
+
+sex_stats/record_boob_harassment
+Manoseo de los pechos
+
+sex_stats/record_cunnilingus_given_count
+Cunnilingus
+
+sex_stats/record_handjob_count
+Pajas 
+
+sex_stats/record_fellatio_count
+Bolas chupadas
+
+sex_stats/record_cumin_vaginal
+Corrida vaginal
+
+sex_stats/record_vaginal_count
+Sexo vaginal
+
+sex_stats/record_anal_count
+Sexo Anal
+
+sex_stats/record_mouth_count
+Mamadas
+
+sex_stats/record_cumin_anal
+Corrida anal
+
+sex_stats/record_cumin_mouth
+Corrida en la boca
+
+sex_stats/record_footjob_count
+Masturbación con los pies
+
+sex_stats/record_masturbation_count
+Masturbaciones
+
+sex_stats/record_FloorClearnPee
+Orina limpiada
+
+sex_stats/record_FloorClearnScat
+Heces limpiadas
+
+sex_stats/record_FloorClearnCums
+Limpieza de semen
+
+sex_stats/record_miscarriage
+Abortos espontáneos
+
+sex_stats/record_baby_birth
+Número de partos
+
+sex_stats/record_birth_Abomination
+Parto - Abominación
+
+sex_stats/record_birth_Goblin
+Parto - Goblin
+
+sex_stats/record_birth_Human
+Partos - Humano 
+
+sex_stats/record_birth_Moot
+Partos - Mestizo
+
+sex_stats/record_birth_Orkind
+Partos - Orcoide
+
+sex_stats/record_birth_Deepone
+Partos - Profundo 
+
+sex_stats/record_birth_Fishkind
+Raza: Hombre pez 
+
+sex_stats/record_birth_PotWorm
+Raza: Gusanos de maceta
+
+sex_stats/record_birth_MoonWorm
+Raza: Gusanos lunares
+
+sex_stats/record_birth_PolypWorm
+Parto - Pólipos
+
+sex_stats/record_birth_HookWorm
+Parto - Anquilostomas
+
+sex_stats/record_birth_BabyLost
+Niños abandonados
+
+sex_stats/record_CoconaVag
+Cocona prostituida
+
+sex_stats/record_CoconaOgrasm
+Orgasmos de Cocona
+
+sex_stats/record_CoconaPeeWith
+Orinar con Cocona
+
+sex_stats/record_MeatToilet_saved
+Esclavas sexuales salvadas
+
+sex_stats/sensitivity_vag
+Sensibilidad vaginal
+
+sex_stats/sensitivity_anal
+Sensibilidad anal
+
+sex_stats/sensitivity_mouth
+Sensibilidad bucal
+
+sex_stats/sensitivity_breast
+Sensibilidad mamaria
+
+##################################    equip    #############################
+##################################    equip    #############################
+##################################    equip    #############################
+##################################    equip    #############################
+
+equip/atk
+ATK
+
+equip/def
+DEF
+
+equip/com
+FUE
+
+equip/scu
+AGI
+
+equip/wis
+SAB
+
+equip/con
+CON
+
+equip/sur
+SUR
+
+equip/sexy
+SEXY
+
+equip/weak
+DÉBIL
+
+equip/mori
+REP
+
+equip/mood
+MOOD
+
+equip/spd
+SPD
+
+##################################    item    #############################
+################### ###############    item    #############################
+##################################    item    #############################
+##################################	item    #############################
+
+items/foods
+Comida
+
+items/medicine
+Pociones
+
+items/equips
+Equipamiento
+
+items/other
+Otros
+
+items/confirm_accept
+Aceptar
+
+items/confirm_cancel
+Cancelar
+
+items/confirm_drop
+Descartar
+
+
+##################################    HABILIDADES    #############################
+
+skills/hint_Setup
+Asignar
+
+skills/hint_Clear
+Borrar
+
+skills/Key
+Tecla
+
+##################################    TRAITS    #############################
+##################################    TRAITS    ############## ###############
+##################################    TRAITS    #############################
+##################################    TRAITS    ######### ####################
+
+traits/point_left
+Puntos
+
+traits/accept
+Aceptar
+
+##################################    LETTER    #############################
+####### ###########################    LETTER    #############################
+##################################    LETTER    #############################
+##################################    LETTER    #############################
+
+letter/all
+Todas las cartas
+
+letter/unread
+No leídas
+
+letter/read
+Leídas
+
+letter/deleted
+Eliminadas
+
+letter/to_delete
+Tecla de eliminación
+
+letter/sp_to_delete
+SP Tecla de eliminación
+
+letter/l1_to_delete
+L1 Tecla de eliminación
+
+letter/accept_recover
+¿Recuperar?
+
+letter/accept_deltete
+¿Eliminar?
+
+letter/cancel
+Cancelar
+
+##################################    SISTEMA    #############################
+##################################    SISTEMA    #############################
+############################## ####    SISTEMA    #############################
+##################################    SISTEMA    ##################### ########
+
+system/save_game
+Guardar
+
+system/load_game
+Cargar
+
+system/return_to_title
+Menú principal
+
+system/hardcore
+Dificultad
+
+system/scat_fetish
+Coprofetichismo
+
+system/urine_fetish
+Urinofetichismo
+
+system/full_screen
+Pantalla completa
+
+system/MapBgMode
+Color de fondo
+
+system/GamePadUImode
+Interfaz del mando
+
+system/screen_size
+Tamaño de la pantalla
+
+system/screen_scale
+Escala de la pantalla
+
+system/SNDvol
+Volumen del sonido
+
+system/BGMvol
+Volumen de la música
+
+system/HotkeyRosterLength
+Teclas rápidas
+
+system/KEYbind
+Asignación de teclas
+
+system/Mouse
+Control del ratón
+
+system/language
+Idioma
+
+system/language_change
+¡Por favor, reinicie el juego!
+
+system/language_press_z
+Confirmar
+
+system/autosave
+Autoguardado
+
+system/DiffHard
+HARD
+
+system/DiffHell
+HELL
+
+system/DiffDoom
+DOOM
+
+system/HellCoreMode0
+Dificultad HELL 
+
+system/HellCoreMode1
+La comida cruda puede desaparecer del inventario mientras duermes o estás inconsciente.
+
+system/HellCoreMode2
+No podrás abandonar la ubicación durante el combate.
+
+system/HellCoreMode3
+Se activarán todas las adicciones y necesidades.
+
+system/HellCoreMode4
+El descanso NO restaurará la salud.
+
+system/DoomCoreMode0
+Dificultad DOOM
+
+system/DoomCoreMode1
+Contiene todas las características del juego en dificultad HELL.
+
+system/DoomCoreMode2_OLD
+El juego se guarda automáticamente al salir al menú principal.
+
+system/DoomCoreMode2
+El juego se guarda automáticamente después de dormir.
+
+system/DoomCoreMode3
+Después de cargar, las partidas guardadas se eliminan, no se pueden guardar manualmente.
+
+system/DoomCoreMode4
+En caso de muerte, tus partidas guardadas se perderán...
+
+system/DoomCoreMode_Load0
+Modo DOOM
+
+system/DoomCoreMode_Load1
+ATENCIÓN
+
+system/reset
+Restablecer
+
+system/remember_sex_rec
+Experiencia sexual
+
+system/remember_bank
+Guardar banco
+
+system/remember_exp
+Guardar nivel
+
+mod/ModDismatch1
+Anomalía del módulo
+
+mod/ModDismatch2
+El juego puede experimentar errores desconocidos o fallos
+
+nil/nil

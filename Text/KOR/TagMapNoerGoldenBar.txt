@@ -1,0 +1,148 @@
+GoldenBar/OvermapEnter
+\m[confused]골든바 회관\n부자들의 모임 장소\optB[그만둔다,들어간다]
+
+################################################################
+
+art/Rage
+\ph\cg[other_ArtRage]분노, 난 화난 게 아니야!
+\m[confused]\c[6]로나：\c[0] 뭐?
+
+art/Chaos
+\ph\cg[other_ArtChaos]혼돈, 내가 도대체 뭘 읽은 거지?
+\m[confused]\c[6]로나：\c[0] 하?
+
+art/Hopeless
+\ph\cg[other_ArtHopeless]절망, 세상은 더 아름다워질 것이다.
+\m[confused]\c[6]로나：\c[0] 예술이란 게 대체 뭐야?
+
+################################## Vandor ############################
+
+vandor/Beigin
+\m[confused]\c[4]종업원：\c[0] 골드바 회관에 오신 걸 환영합니다. 무엇을 도와드릴까요?\optB[그만둔다,거래,젖 판매<r=HiddenOPT0>,일하기<r=HiddenOPT1>]
+
+vandor/Beigin_slave
+\m[confused]\c[4]종업원：\c[0] 이봐! 썩은 노예! 일이나 해!\optB[그만둔다,수유<r=HiddenOPT0>,강제 착유<r=HiddenOPT1>]
+
+vandor/SellMilk
+\c[4]종업원：\c[0] 좋습니다! 저희가 당신의 젖을 고가에 사들이겠습니다.
+\m[shy]\c[6]로나：\c[0] 이게… 너무 좋은 건가?
+
+vandor/SellMilk2
+\c[4]종업원：\c[0] 어디 보자\..\..\..
+
+vandor/SellMilk_cut0
+\c[4]종업원：\c[0] 전부 합쳐서
+
+vandor/SellMilk_cut1
+인분 모유, 1인분당
+
+vandor/optWork
+\m[flirty]\c[6]로나：\c[0] 제가 할 수 있는 일은 뭐가 있나요?
+\c[4]종업원：\c[0] 어디 보자....\optB[그만둔다,수유<r=HiddenOPT0>,착유<r=HiddenOPT1>]
+
+vandor/optWork_braFeed
+\board[수유]
+제한 시간 안에 손님들을 최대한 배불리 먹이세요.
+일하는 동안 달리면 스태미너가 추가로 소모됩니다.
+남은 시간이 많을수록 보수가 더 높습니다.
+
+vandor/optWork_braFeed_decide
+\c[4]종업원：\c[0] 가서 저 애들을 배불리 먹여주게!
+
+vandor/Beigin_Dirt
+\m[confused]\c[4]종업원：\c[0] 여기서는 거지들을 받지 않아.
+
+################################## Work #####################################
+
+vandor/Opt_work_end_summon
+\c[4]종업원：\c[0] 동작이 너무 느려! 손님들이 화났잖아!
+\m[sad]\c[6]로나：\c[0] ......미안해....
+
+vandor/Opt_work_end_NoSummon
+\c[4]종업원：\c[0] 잘했어, 다음에도 부탁하겠네.
+\m[flirty]\c[6]로나：\c[0] ......고마워?
+
+Commoner/BreastFeedQmsg0
+엄마 냄새다!
+
+Commoner/BreastFeedQmsg1
+맛있어!
+
+Commoner/BreastFeedQmsg2
+꺄!
+
+Guard/Failed0
+\c[4]경비병：\c[0] 뭐 하는 거야! 게으름 피우지 마!
+
+Guard/Failed1
+\c[4]경비병：\c[0] 우린 널 놀러 오라고 들인 게 아니야!
+
+Guard/Failed2
+\c[4]경비병：\c[0] 썩 꺼져!
+
+################################## Commoner ############################
+
+FishRich/Begin
+\c[4]상인：\c[0] 너희는... 우리 종족을... 고향에서 내쫓아 놓고...
+\c[4]상인：\c[0] 이제 와서... 우리를... 필요로 한다고...?
+\c[4]상인：\c[0] 저 괴물들은... 너희에게 내린... 징벌이다...
+
+Commoner/Begin0
+\c[4]부자：\c[0] 요즘 젖 짜는 노예가 인기라구!
+
+Commoner/Begin1
+\c[4]부자：\c[0] 꼬마 아가씨, 너도 젖 나오나?
+
+Commoner/Begin2
+\c[4]부자：\c[0] 사람 젖을 많이 마시면 사악한 침입도 막을 수 있다구!
+
+Commoner/BeginDirt0
+어디서 기어 나온 더러운 년이야!
+
+Commoner/BeginDirt1
+악취 나잖아! 꺼져!
+
+Commoner/BeginDirt2
+거지 주제에 어디서 굴러온 거야!
+
+FatGuard/Qmsg0
+뭘 봐?
+
+FatGuard/Qmsg1
+소란 피우지 마!
+
+FatGuard/Qmsg2
+꺼져!
+
+MilkMachine/Qmsg0
+호화로운 착유기
+
+MilkMachine/Qmsg1
+위에 있는 사람은 꽤 괴로워 보인다
+
+GoldenSlave/Qmsg0
+일하는 중이야.
+
+GoldenSlave/Qmsg1
+말 걸지 마.
+
+GoldenSlave/Qmsg2
+........
+
+CommonPPL/NapRape
+\c[4]부자：\c[0] 이 쓰레기가 왜 여기 나뒹구는 거지?
+
+CommonPPL/NapRape1
+\c[4]부자：\c[0] 후후후.
+
+CommonPPL/NapRape2
+\narr로나는 끌려가 버렸다
+
+CommonPPL/NapRape3
+\c[4]부자：\c[0] 가끔은 이런 하등한 것들도 가지고 놀고 싶지. 내가 거들떠봐 주는 걸 영광으로 알도록 해라.
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]부자：\c[0] 이봐라, 사람들아!
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]부자：\c[0] 그래, 이렇게 해야지♥

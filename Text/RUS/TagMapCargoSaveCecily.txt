@@ -1,0 +1,233 @@
+thisMap/OvermapEnter
+Склад номер 13. Запад, Убежище Бандитов \optB[Отмена,Войти]
+
+Enter/Begin1
+\cg[map_region_NoerRoad]\SETpl[GrayRatNormalAr]\c[4]Грейрат：\C[0]    Ну что, ты готова?
+\m[shocked]\plf\Rshake\C[6]Лона：\C[0]    \{Вау! \}\n(Его доспехи выглядят очень прочными...)
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Грейрат：\C[0]    ...М-м?
+\m[flirty]\plf\PRF\C[6]Лона：\C[0]    ...В-Всё в порядке!
+
+Enter/Begin2
+\board[Спасти партнёршу Грейрата!]
+Задача：Найти заложницу и спасти её. Клиент и заложница не должны погибнуть!
+Награда：Неизвестно
+Клиент：Грейрат
+
+Enter/Begin3
+\m[serious]\plf\Rshake\C[6]Лона：\C[0]    Ладно, давай спасём твою напарницу!
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Грейрат：\C[0]    Подожди... Это главный вход...
+\m[confused]\plf\PRF\C[6]Лона：\C[0]    Ага. Что-то не так?
+\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]Грейрат：\C[0]    ......
+\m[shy]\plf\PRF\C[6]Лона：\C[0]    ...?
+\SETpl[GrayRatShockedAr]\Lshake\prf\c[4]Грейрат：\C[0]    ...Возможно, ты забыла, что это очевидная ловушка...?
+\m[flirty]\plf\PRF\C[6]Лона：\C[0]    Т-тогда давай прокрадёмся через другой вход...
+
+###################################################   BEGIN PART ###############################################################
+AboutTrap/Begin1
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Грейрат：\C[0]    Ждём момента...
+\CBct[2]\m[shoked]\plf\Rshake\C[6]Лона：\C[0]    \{Аа? Что не так?\}
+\CBct[8]\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]Грейрат：\C[0]    .......
+\CBmp[UniqueGrayRat,1]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Грейрат：\C[0]    Впереди ловушка. Я уверен, что за этой дверью их ещё больше.
+
+AboutTrap/Begin2
+\CBct[8]\m[confused]\plf\PRF\C[6]Лона：\C[0]    Оххх...
+
+AboutTrap/Begin3
+\CBct[20]\m[flirty]\plf\PRF\C[6]Лона：\C[0]    Не волнуйся, это не проблема. Я разберусь.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\c[4]Грейрат：\C[0]    ............
+\CBct[6]\m[bereft]\plf\Rshake\C[6]Лона：\C[0]    Я серьёзно! Я справлюсь!
+
+AboutTrap/Begin4
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\prf\c[4]Грейрат：\C[0]    ............
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\prf\c[4]Грейрат：\C[0]    Очень хорошо. Раз ты можешь обеспечить нам безопасный путь, я буду следовать за тобой.
+
+############################################################################################################################
+
+MobTalking/Begin1
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Вор：\C[0]    Слух... А эт тема сработает? Тот полукровка ваще-т огромный дядька.
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит：\C[0]    Конечно сработает, кретин! Такое количество взрывчатки взорвёт кого угодно!
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Вор：\C[0]    Гы-гы... Точняк.
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Вор：\C[0]    Кстать, а чё нам нельзя трогать ту шлюху, что мы охраняем? У неё клёвые сиськи...
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит：\C[0]    Тебе-то?! Да она тебе хуй откусит! Б-гы-гы!
+\CBmp[MobC,20]\SETpl[MobHumanWarrior]\Lshake\C[4]Мошенник：\C[0]    Заткнитесь, придурки! Мы на задании, не отвлекайтесь!
+\CBct[1]\m[serious]\plh\PRF\Rshake\C[6]Лона：\C[0]    Их здесь так много...!
+\CBct[20]\m[triumph]\plh\PRF\C[6]Лона：\C[0]    Но, кажется, они меня ещё не заметили. Это хорошо!
+
+CecilyRape/stage1
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\C[4]Бандит：\C[0]    Бьюсь об заклад, ты не думала о последствиях, когда убивала моих корешей, да?
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapA_Normal]\Lshake\prf\C[4]Неизвестная：\C[0]    Зачем вы это делаете?! Все эти люди родом из \C[6]Королевства Гарлэнд\C[0], как и вы! Люди из Гарлэнда не должны быть рабами!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит：\C[0]    И это сейчас ты меня пытаешься воззвать к совести, шмара? Здесь, на \C[6]Острове Ноэр\C[0]?
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит：\C[0]    В таком-то месте?! Когда вокруг полным-полно кровожадных монстров?! Ха-х. Даже если бы нас не было - этим бы занимались другие люди!
+\CamCT\optD[Вломиться!,Ещё рано выдавать себя...]
+
+CecilyRape/stage2
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит：\C[0]    Кроме того, ты даже не в курсе, сколько из этих людей добровольно хотят стать рабами.
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит：\C[0]    Эти новоиспечённые «товары» только рады оказаться у нас в руках!
+\CBmp[CeTrapped,5]\SETpl[CecilyTrapA_Shy]\Lshake\prf\C[4]Неизвестная：\C[0]    Ты лжёшь!
+\CamCT\optD[Помешать!,Осмотреть свои ногти...]
+
+CecilyRape/stage3
+\CBmp[Raper,4]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит：\C[0]    Хмммм... Слушай, а у тебя довольно-таки...... Сексуальное тело...
+\CBmp[CeTrapped,15]\SndLib[sound_DressTear]\SETpl[CecilyTrapB_Shocked]\Lshake\prf\C[4]Неизвестная：\C[0]    \{!!!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Кстати говоря, ты ж уже не целка, да? Вроде бы нет, ага. Я слышал, что дворяне ведут весьма разгульный образ жизни, если понимаешь о чём я.    
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Что ж, значит тебе не будет стыдно умереть от того, как тебя ебут до потери пульса?
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\C[4]Неизвестная：\C[0]    \{\.А НУ \.УБЕРИ \.СВОИ \.ГРЯЗНЫЕ \.РУКИ \.ОТ \.МЕНЯ!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Ой, какое ты милое личико состроила. Вот бы все шлюхи так делали!
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Shy]\PLF\PRF\C[4]Неизвестная：\C[0]    .............
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]Бандит：\C[0]    Что, больше не сопротивляешься? Правильно. Чем больше ты сопротивляешься, тем сильнее это меня заводит!
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\PRF\C[4]Неизвестная：\C[0]    \{С-Сучий выблядок! \n Отъебись от меня!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]Бандит：\C[0]    О не-е-е-т! Я так напуган, что сейчас обоссусь себе в штаны! ♥
+\optD[Прийти на помощь!,Рассматривать пятно на потолке...]
+
+CecilyRape/rape_scene1
+\Lshake\C[4]Неизвестная：\C[0]    Отпусти меня!!! Ты-! Бесполезный кусок собачьего дерьма!
+
+CecilyRape/rape_scene2
+\C[4]Бандит：\C[0]    Для такой благородной суки вроде тебя, твоя пасть производит весьма неприятные словечки!
+\C[4]Бандит：\C[0]    Но мне это нравится! ♥　Чем знатнее сука, тем приятнее её опускать!
+\C[4]Бандит：\C[0]    А если бы ты не была мне врагом, а обычной шалавой, я бы в конце проводил тебя до дома, а может даже и женился... Ха-ха-ха!
+
+CecilyRape/rape_scene3
+\Lshake\C[4]Неизвестная：\C[0]    \{Ты-... Заткнись! Заткнись! Просто заткнись!
+
+CecilyRape/rape_scene4
+\C[4]Бандит：\C[0]    А ты попробуй меня заткни, шалава! Вот же я прямо перед тобой!
+
+CecilyRape/rape_scene5
+\C[4]Бандит：\C[0]    Хе-хе-хе! Я могу случайно тебя поранить, ведь здесь нет смазки. Так что тебе лучше намокнуть самой! ♥
+
+CecilyRape/rape_scene6
+\C[4]Бандит：\C[0]    Ну же, не изображай дохлую рыбу, говори со мной! Кто у тебя был первым, а? ♥
+
+CecilyRape/rape_scene7
+\C[4]Бандит：\C[0]    Тот твой здоровенный кореш смешанной расы? Или первым стану я...?
+\C[4]Бандит：\C[0]    Хммм. Вообще, я удивлён, что ты водишься с грязнокровным. Наверное, такой благородной шмаре очень нравится ебаться с таким грязно выродком, как он?
+
+CecilyRape/rape_scene8
+\Lshake\C[4]Неизвестная：\C[0]    \{ПРОСТО ЗАТКНИСЬ УЖЕ НАКОНЕЦ!!!
+
+CecilyRape/rape_scene9
+\{!!!!!!!!!
+
+CecilyRape/rape_scene10
+\C[4]Бандит：\C[0]    \{\.Ох \.какой \.же \.стыд! Значит, я у тебя не первый?
+
+CecilyRape/rape_scene11
+\C[4]Бандит：\C[0]    Внутри тебя охуенно! Я сейчас начну двигаться, а ты сожми мой хуй покрепче! ♥
+
+CecilyRape/rape_scene12
+\C[4]Бандит：\C[0]    Ухх, в тебе очень тесно, и твоя пизда уже вся мокрая. Из тебя вышла бы действительно охуенная проститутка.
+
+CecilyRape/rape_scene13
+\C[4]Бандит：\C[0]    Ну как? Как тебе мой хуй в сравнении с тем грязным полукровкой...?
+
+CecilyRape/rape_scene14
+\C[4]Неизвестная：\C[0]    \{ОТСТОЙ! ИДИ К ЧЁРТУ!!!
+
+CecilyRape/rape_scene15
+\C[4]Бандит：\C[0]    Да? Что ж, очень жаль.
+
+CecilyRape/rape_scene16
+\C[4]Бандит：\C[0]    Время ускоряться!
+
+CecilyRape/rape_scene17
+\C[4]Бандит：\C[0]    \{О-о-о да! О-хо-хо!
+
+CecilyRape/rape_scene18
+\C[4]Бандит：\C[0]    \{Ммм! К-Кончаю! Сейчас я заполню тебя!
+
+CecilyRape/rape_scene19
+\C[4]Неизвестная：\C[0]    \{Ч-Что?! НЕТ! ВЫНИМАЙ!
+
+CecilyRape/rape_scene20
+\C[4]Неизвестная：\C[0]    \{Умоляю тебя! Не кончай внутрь!!!
+
+CecilyRape/rape_scene21
+\C[4]Бандит：\C[0]    \{О-о-о да! Уууу, как круто-то!
+
+CecilyRape/rape_scene22
+\C[4]Неизвестная：\C[0]    \{\{НЕЕеееет!!!
+
+CecilyRape/rape_scene23
+\C[4]Неизвестная：\C[0]    \{*Отдышка*... *Отдышка*...*Отдышка*!
+\Rshake\SND[SE/Whip01.ogg]\C[4]Неизвестная：\C[0]    \{С-Скотина...
+\Rshake\SND[SE/Whip01.ogg]\C[4]Неизвестная：\C[0]    \{Тебе пиздец!!!
+\C[4]Неизвестная：\C[0]   *Отдышка*... *Отдышка*
+
+CecilyRape/stage_rape_end
+\CBmp[CeTrapped,8]\SETpl[CecilyTrapB_Shy]\SETpr[MobHumanCommoner]\PLF\prf\C[4]Неизвестная：\C[0]        Ррррхххх...
+\CBmp[Raper,20]\plf\PRF\C[4]Бандит：\C[0]    Фу-х, ну, нормалёк поебались!
+\CBmp[Raper,20]\plf\Rshake\C[4]Бандит：\C[0]    Как жаль, что я вряд ли найду время выебать тебя ещё раз.
+\CBmp[Raper,20]\plf\Rshake\C[4]Бандит：\C[0]    Ну что ж, по крайней мере, мои кореша успеют хорошенько тебя отодрать, прежде чем ты сдохнешь!
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]Неизвестная：\C[0]    \{Не могу поверить...\}
+\CBmp[Raper,20]\plf\PRF\C[4]Бандит：\C[0]    А? Чё сказала? Говори громче, шалава!
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]Неизвестная：\C[0]    \{Я убью тебя!\}
+
+CecilyRape/trapped_raped
+\CBid[-1,1]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]Неизвестная：\C[0]    \{???!!!\}
+\CBct[20]\m[serious]\Rshake\C[6]Лона：\C[0]    Тсс! Ни звука! Я пришла спасти тебя!
+
+CecilyRape/trapped
+\CBid[-1,1]\SETpl[CecilyTrapA_Shocked]\Lshake\C[4]Неизвестная：\C[0]    \{???!!!\}
+\CBid[-1,6]\SETpl[CecilyTrapA_Normal]\C[4]Неизвестная：\C[0]    ........
+\CBct[20]\CBct[20]\m[serious]\Rshake\C[6]Лона：\C[0]    Тсс! Ни звука! Я пришла спасти тебя!
+
+CecilyRape/trapped2
+\CBmp[Cecily,8]\SETpl[CecilyWtfAr]\PLF\prf\C[4]Неизвестная：\C[0]    Ммффф.
+\CBmp[Cecily,2]\SETpl[CecilyShyAr]\PLF\prf\C[4]Неизвестная：\C[0]    Тебя Винит послал? Где он?
+\CBct[2]\m[confused]\plf\PRF\C[6]Лона：\C[0]    Винит...?
+\CBct[20]\m[pleased]\plf\PRF\C[6]Лона：\C[0]    А! Господин Грейрат? Он сразу за мной!
+
+CecilyRape/trapped3
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Грейрат：\C[0]    Госпожа... Прошу простить меня за задержку...
+\CBct[2]\m[confused]\plf\PRF\C[6]Лона：\C[0]    Госпожа...?
+\CBct[8]\m[confused]\plf\PRF\C[6]Лона：\C[0]    ......
+\CBct[20]\m[shocked]\plf\Rshock\C[6]Лона：\C[0]    \{ДВОРЯНКА?!\}
+\CBmp[Cecily,6]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Неизвестная：\C[0]    Тссс! Тихо!!!
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Неизвестная：\C[0]    Это сейчас не имеет значения.
+
+CecilyRape/trapped4_raped
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Грейрат：\C[0]    Госпожа... Вы-!
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Неизвестная：\C[0]    -Я в порядке...
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Грейрат：\C[0]    Но... Этот запах...?
+\CBmp[UniqueGrayRat,5]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Грейрат：\C[0]    ......!!!
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Грейрат：\C[0]    \{К-Как они посмели?...\}
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Грейрат：\C[0]    \{Я ИХ ВСЕХ УБЬЮ!\}
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Неизвестная：\C[0]    Успокойся! Я сказала, я в порядке...
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Грейрат：\C[0]    ......
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]Грейрат：\C[0]    ...
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]Грейрат：\C[0]    Мне так жаль, простите меня, Госпожа...
+
+CecilyRape/trapped4
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Грейрат：\C[0]    Госпожа... Вы...?
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Неизвестная：\C[0]    Я в порядке. Они ничего со мной не сделали.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Грейрат：\C[0]    Ох, слава Святым...
+
+CecilyRape/trapped5
+\CBct[6]\m[confused]\plf\PRF\C[6]Лона：\C[0]    Эмм... Извините, но...
+\CBct[2]\m[flirty]\plf\PRF\C[6]Лона：\C[0]    Скажите, пожалуйста, что мы теперь будем делать? Ваше величество?
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Неизвестная：\C[0]    А ты та самая ловкачка? Я как раз хотела спросить тебя то же самое.
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Неизвестная：\C[0]    И, нет нужды говорить со мной таким образом. Я не люблю, когда люди возвышают меня и общаются высокородно.
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]Неизвестная：\C[0]    Если у тебя нет идей, я бы предложила просто убить их всех!
+
+#too many UX notice? should not over notice? should not break UX rule?
+#\CamMP[ExitPoint2]\BonMP[ExitPoint2,28]\m[shocked]\Rshake\C[6]Лона：\C[0]    "Насильно выломать дверь?"
+#\CamCT\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Неизвестная：\C[0]    \{"Ещё спрашиваешь?! Я сказала, что мы последуем за тобой!"
+
+################################################### FAILED ####################################################
+QuestFailed/Nap1
+\m[tired]\C[6]Лона：\C[0]    Ммммхххх...
+
+QuestFailed/Nap2
+\narr Задание провалено...
+\narr Сесилия и Грейрат пропали.
+
+QuestFailed/Nap3
+\SETpl[MobHumanCommoner]\Lshake\C[4]Вор：\C[0]    А с ней что будем делать?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Вор：\C[0]    Уведите её, она едва ли будет стоить каких-то денег...
+
+QuestFailed/ObjDed
+\narr Задача провалена. Квестовый персонаж погиб.
+
+Exit/QuestFailWarning
+\m[confused]\narr Если уйти, задание будет считаться проваленным!

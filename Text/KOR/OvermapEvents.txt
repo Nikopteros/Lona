@@ -1,0 +1,817 @@
+#--------------------------------------------------------------------------- MAIN
+
+Lona/Exit
+\m[confused]여길 떠날까?\optB[아직 할 일이 남았다,떠난다]
+
+Lona/OutOfSta
+\m[tired]\c[6]로나：\c[0] 으, 너무 피곤해.
+
+#--------------------------------------------------------------------------- WILD DANGER
+
+Lona/WildnessNapSpawn
+\cg[event_Eyes]사방에서 정체 모를 발소리가 들려왔다...
+\m[shocked]\cgoff\c[6]로나：\c[0] 누구?!
+
+Lona/WildnessNapRobber0
+\narr로나는 모든 소지품을 빼앗겼다.
+
+Lona/WildnessNapRobber1_normal
+\m[bereft]\c[6]로나：\c[0] 안 돼! 돌려줘!
+
+Lona/WildnessNapRobber1_tsun
+\m[angry]\c[6]로나：\c[0] 이 자식들... 당장 내 물건 돌려줘!
+
+Lona/WildnessNapRobber1_slut
+\m[fear]\c[6]로나：\c[0] 안 돼! 돌려줘!
+
+Lona/WildnessNapRobber1_weak
+\m[sad]\c[6]로나：\c[0] 제발… 다 줄게… 전부 너희 거야…
+
+Lona/WildnessNapRobber1_overfatigue
+\m[tired]\c[6]로나：\c[0] .....
+
+Lona/WildnessNapRobber1_mouth_block
+\m[tired]\c[6]로나：\c[0] 으으.....
+
+#--------------------------------------------------------------------------- Capture by
+#---------------						NoerGuard
+
+Lona/CaptureByNoerGuard
+\SETpl[Mreg_guardsman]\Lshake\c[4]경비병：\c[0] 얌전히 해!
+\SETpr[Mreg_pikeman]\Rshake\c[4]경비병：\c[0] 이 계집년! 감옥에나 쳐박혀 있어라!
+\plf\PRF\m[fear]\c[6]로나：\c[0] 으으.....
+
+Lona/CaptureByNoerGuard_SlaveOwner
+\SETpl[Mreg_guardsman]\Lshake\c[4]경비병：\c[0] 노예 주제에 감히 반항해?!
+\SETpr[Mreg_pikeman]\Rshake\c[4]경비병：\c[0] 주인한테 돌아가서 벌이나 받아라!
+\plf\PRF\m[fear]\c[6]로나：\c[0] 으으.....
+
+#---------------						FishPPL
+
+Lona/CaptureByFishPPL_rape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]경비병：\c[0] 그녀를 덮쳐라!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]경비병：\c[0] 임신시켜라!
+
+Lona/CaptureByFishPPL
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]경비병：\c[0] 여자다! 여자가 있어!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]경비병：\c[0] 신선한 여자다!!
+\plf\PRF\m[fear]\c[6]로나：\c[0] 으으.....
+
+Lona/CaptureByFishPPL_isSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]경비병：\c[0] 게다가… 도망친 노예다!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]경비병：\c[0] 못된 노예로군!
+
+Lona/CaptureByFishPPL_NotSlave
+\m[p5sta_damage]\plf\Rshake\c[6]로나：\c[0] 안 돼! 놓아줘!
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]경비병：\C[0] 여자! 입 다물어!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]로나：\c[0] \{이아아아악!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]로나：\c[0] \{아아아악!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]경비병：\C[0] 잡았다... 새로운 노예다!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]로나：\c[0] \{이이이익!
+
+#---------------						Orkind
+
+Lona/CaptureByOrkind0
+\cg[event_captured]괴물들이 로나를 자기들의 둥지로 끌고 갔다. 놈들은 로나를 번식용 모판으로 삼을 생각이었다.
+
+Lona/CaptureByOrkind1_normal
+\m[terror]\c[6]로나：\c[0] 안 돼! 제발 놔줘! 난 괴물 새끼 따윈 낳기 싫어!
+
+Lona/CaptureByOrkind1_tsun
+\m[wtf]\c[6]로나：\c[0] 젠장! 더러운 벌레들! 놔! 날 만지지 마!
+\m[hurt]\c[6]로나：\c[0] 아아! 안 돼!!!
+
+Lona/CaptureByOrkind1_weak
+\m[sad]\c[6]로나：\c[0] 으으... 누가 나 좀 구해줘…
+
+Lona/CaptureByOrkind1_slut
+\m[bereft]\c[6]로나：\c[0] 싫어… 아무리 그래도 괴물의 번식 어미라니, 너무하잖아.
+\m[hurt]\c[6]로나：\c[0] 거기… 망가져 버릴 거야.
+
+Lona/CaptureByOrkind1_overfatigue
+\m[tired]\c[6]로나：\c[0] 안 돼…..
+
+Lona/CaptureByOrkind1_mouth_block
+\m[pain]\c[6]로나：\c[0] 으으.....
+
+#=------------------------------------------------------
+
+Lona/CaptureByBandits0
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 이 죽일 계집애! 얌전히 해!
+
+Lona/CaptureByBandits1_typical
+\m[terror]\c[6]로나：\c[0] 안 돼! 너희 나 어디로 데려가는 거야?!
+
+Lona/CaptureByBandits1_tsundere
+\m[wtf]\c[6]로나：\c[0] 놓아! 날 만지지 마!
+
+Lona/CaptureByBandits1_gloomy
+\m[sad]\c[6]로나：\c[0] 으으… 누가 나 좀 구해줘…
+
+Lona/CaptureByBandits1_slut
+\m[bereft]\c[6]로나：\c[0] 싫어… 아무리 그래도 날 팔아넘기다니, 너무하잖아.
+
+#=------------------------------------------------------
+
+Lona/CaptureByGang0
+\SETpl[MobHumanCommoner]\Lshake\C[4]사채업자：\C[0] 흥! 세상일은 결국 갚게 돼 있는 법이야!
+
+Lona/CaptureByGang1_typical
+\m[terror]\c[6]로나：\c[0] 미안해요! 조금만 더 기다려 주세요!
+
+Lona/CaptureByGang1_tsundere
+\m[wtf]\c[6]로나：\c[0] 놔! 날 만지지 마!
+
+Lona/CaptureByGang1_gloomy
+\m[sad]\c[6]로나：\c[0] 으으… 미안해…
+
+Lona/CaptureByGang1_slut
+\m[bereft]\c[6]로나：\c[0] 싫어… 일부러 안 갚으려던 게 아니에요!
+
+Lona/CaptureByGang2
+\SETpl[MobHumanCommoner]\Lshake\C[4]사채업자：\C[0] 끌고 가라!
+
+#--------------------------------------------------------------------------- Capture Arrived
+
+Lona/Capture_arrived_normal
+\m[bereft]\c[6]로나：\c[0] 누가 나 좀 구해줘!
+
+Lona/Capture_arrived_tsun
+\m[hurt]\c[6]로나：\c[0] 이 구더기 같은 것들! 내 앞에서 꺼져!!!
+
+Lona/Capture_arrived_weak
+\m[pain]\c[6]로나：\c[0] 제발… 날 놔줘…
+
+Lona/Capture_arrived_slut
+\m[bereft]\c[6]로나：\c[0] 안 돼… 이러다 죽어버릴 거야.
+
+Lona/Capture_arrived_overfatigue
+\m[tired]\c[6]로나：\c[0] 아…..
+
+Lona/Capture_arrived_mouth_block
+\m[pain]\c[6]로나：\c[0] 으… 으으…..
+
+############################################### Z觸發之地形事件 ##############################
+############################################### Z觸發之地形事件 ##############################
+############################################### Z觸發之地形事件 ##############################
+
+World/Region1
+\cg[map_region_PlainField]평원
+
+World/Region2
+\cg[map_Shore]해변
+
+World/Region3
+\cg[map_region_CreepMountain]감염된 산
+
+World/Region4
+\cg[map_region_deadforest]밀림
+
+World/Region5
+\cg[map_region_deadforest]소나무 숲
+
+World/Region6
+\cg[map_region_deadforest]죽음의 숲
+
+World/Region7
+\cg[map_region_mountain]산
+
+World/Region8
+\n\cg[map_region_Swamp]늪
+
+World/Region9
+\cg[map_region_AbanbonedHouse]폐가
+
+World/Region10
+\cg[map_region_slum]빈민가
+
+World/Region11
+\cg[map_region_Road]도로
+
+World/Region12
+\cg[map_region_RoadNoerNob]루드신드 산장
+
+World/Region13
+\cg[map_region_Swamp]늪지 오솔길
+
+World/Region14
+\cg[map_region_badland]감염된 모래 땅
+
+World/Region15
+\cg[map_region_Marsh]습지
+
+World/Region16
+\cg[map_region_Creep]고기의 땅
+
+World/Region17
+\cg[map_region_AbomRoad]감염된 도로
+
+World/Region18
+\cg[map_region_AbomTown]감염된 도시
+
+World/Region19
+\cg[map_region_badland]사막화된 땅
+
+World/Region20
+\cg[map_human_camp]난민촌
+
+World/Region21
+\cg[map_region_NoerRoad]노엘 마을
+
+World/Region22
+\cg[map_region_NoerRoad]노엘 마을 거리
+
+World/Region23
+\cg[map_region_Boulevard]도로
+
+World/Region28
+\cg[map_region_Creep]고기의 땅
+
+World/Region29
+\cg[map_DarkestDungeon]함락된 요새
+
+World/Region30
+\cg[map_DarkestDungeon]함락된 요새
+
+World/Region31
+\cg[map_SybStreet]시바리스의 거리
+
+World/Region32
+\cg[map_SybAlley]시바리스의 골목
+
+############# FISH ISLE ONLY
+
+World/Region24
+\cg[map_region_Swamp]늪지 오솔길
+
+World/Region25
+\cg[map_region_Swamp]늪지
+
+World/Region26
+\cg[map_region_Marsh]습지
+
+World/Region27
+\cg[map_Shore]해변
+
+############################################### options ##############################
+
+World/Region_option_start
+무엇을 할까?
+
+World/Region_option_Cancel
+취소
+
+World/Region_option_Relax
+휴식
+
+World/Region_option_Observe
+주변 살피기
+
+World/Region_option_RemoveTracks
+흔적 지우기
+
+World/Region_option_Enter
+지도에 진입하기
+
+World/Region_option_Kyaaah
+미끄러져 넘어진다
+
+World/Region_option_check_danger
+\SndLib[stepBush]여긴 좀 수상해, 꽤 위험해 보인다.
+
+World/Region_option_check_unknow
+\SndLib[stepBush]로나는 아무것도 알아낼 수 없었다.
+
+World/Region_option_check_peace
+\SndLib[stepBush]여기는 안전한 것 같다. 아마도...
+
+World/Region_option_check_peaceful
+\SndLib[stepBush]여긴 안전하다.
+
+World/Region_option_erase_win0
+\SndLib[sound_equip_armor]로나는 많은 흔적을 지웠다.
+
+World/Region_option_erase_win1
+\SndLib[sound_equip_armor]흔적이 점점 적어졌다.
+
+World/Region_option_WatchThemDead
+\cg[map_DeadPPL]로나는 그들이 하나둘 죽어가는 것을 바라봤다.
+\narr\..\..\..
+
+World/Region_option_erase_failed0
+실패했다. 로나는 이 작업을 잘하지 못한다.
+
+World/Region_option_erase_failed1
+실패했다. 로나의 기술은 아직 미숙하다.
+
+############################################### RAND事件 ##############################
+############################################### RAND事件 ##############################
+############################################### RAND事件 ##############################
+
+World/ThingHappen_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr앞쪽에 무언가가 나타났다.
+
+World/ThingVS_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr멀리서 전투 소리가 들려온다...
+
+World/Ambush_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr로나는 천천히 발걸음을 옮겼지만…..
+
+World/RerollEvent_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr놈들은 무언가를 두려워하는 듯하더니, 그리고는….
+
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+
+World/ThingHappen_who_unknow_HumanGuard
+\cg[map_guards]노엘 마을의 병사들처럼 보인다!
+
+World/ThingHappen_who_unknow_Vs_Refugee_Orkind
+\cg[map_VS]오크 한 무리가 난민들을 습격하고 있다！
+
+World/ThingHappen_who_unknow_PPLsos
+\m[confused]\cg[map_sos]도움이 필요한 사람들 같다!
+
+World/ThingHappen_who_unknow_PPLsosHynger
+\cg[map_sos_hunger]그들은 도움이 필요한 것 같다！
+
+World/ThingHappen_who_unknow_UnknowCamp
+\cg[map_human_camp]정체를 알 수 없는 캠프인 것 같다.
+
+World/ThingHappen_who_unknow_AbandonedCropses
+\cg[map_DeadPPL]시체 더미에서 역겨운 부패 냄새가 풍기지만, 어쩌면 뭔가를 찾을 수 있을지도?
+
+World/ThingHappen_who_unknow_AbandonedResources
+\cg[map_AbandonedResources]주인 잃은 수레가 보인다. 쓸만한 물건이 남아있을지도 모른다.
+
+World/ThingHappen_who_bad_AbomManager
+\m[shocked]\cg[map_AbominationGroup]한 무리의 흉물이 나타났다！
+
+World/ThingHappen_who_bad_AbomSpider
+\m[shocked]\cg[map_AbominationSpider]한 무리의 거미와 거미줄! 로나는 자신이 포위되었음을 발견했다!
+
+World/ThingHappen_who_bad_WolfGroup
+\cg[map_WolfGroup]한 무리의 늑대다!
+
+World/ThingHappen_who_bad_GobRaider
+\cg[map_GobRaider]고블린 라이더 무리다！
+
+World/ThingHappen_who_bad_OrkindCamp
+\cg[map_monster_camp]오크들의 캠프 같다!
+
+World/ThingHappen_who_bad_OrkindPlayGround
+\cg[map_OrcHappy]오크들의 놀이터다！
+
+World/ThingHappen_who_bad_RougeWave
+\cg[map_RogueWaves]\m[shocked]\Rshake 해일이다！ 거대한 파도가 로나를 덮쳤다！
+
+World/ThingHappen_who_bad_AbomBreedlingTrap
+\cg[map_TrapHole]\SndLib[BreedlingSpot]함정이다! 거대한 구덩이에 로나가 빠졌다!
+
+World/ThingHappen_who_bad_AbomBreedlingRaid
+\cg[map_AbomBreedlingRaid]\SndLib[BreedlingSpot]흉물! 번식자 무리가 로나 쪽으로 다가오고 있다!
+
+World/ThingHappen_who_bad_FishkindGroup
+\cg[map_FishkindGroup]한 무리의 심해인이다!
+
+World/ThingHappen_who_bad_UndeadWalking
+\cg[map_undead_group]수많은 언데드가 나타났다!
+
+World/ThingHappen_who_bad_BanditMobs
+\cg[map_bandits]도적이다! 인신매매단이 나타났다!
+
+World/ThingHappen_who_bad_FishPPL
+\cg[map_FishPPL]\SndLib[FishkindSmSpot]어인 순찰대다!
+
+World/ThingHappen_who_bad_GangDebtCollet
+\cg[map_IRS]사채업자다! 빚쟁이가 화가 난 모양이다!
+
+World/ThingHappen_who_bad_BanditsCiv
+\cg[map_bandits_farmer]폭도인가? 도적인가? 어쨌든 절대 좋은 놈들은 아니다!
+
+World/ThingHappen_who_good_Merchant
+\cg[map_merchant]행상인이 나타났다!
+
+World/ThingHappen_who_good_NoerMissionary
+\cg[map_missionary]선교사! 선교사다!
+\c[4]선교사：\c[0] 종말이 가까워졌다! 모든 무고한 자들이 성도의 신도가 되라! 이것이 종말 전 마지막 기회다! 성도를 믿어라!
+
+World/ThingHappen_who_Good_NoerHomeless
+\cg[map_homeless]수많은 난민이 나타났다!
+\c[4]난민：\c[0] 제발… 자비를 베풀어 주세요…
+
+World/ThingHappen_who_Good_NoerHomeless_SneakFailed
+\narr난민들이 몰려왔다.
+\narrOFF\c[4]난민：\c[0] 아가씨… 우리를 좀 도와주세요.
+\m[confused]\c[6]로나：\c[0] 으…
+
+World/ThingHappen_who_Bad_RoadHalp
+\cg[map_Halp]누군가 공격을 받고 있는 것 같다!
+
+World/ThingHappen_who_Bad_RoadHalp_SneakFailed
+\narr그들은 로나를 향해 오고 있다.
+\narrOFF\c[4]난민：\c[0] 살려줘요! 제발 도와주세요!
+\m[shocked]\Rshake\c[6]로나：\c[0] 엣?! 잠깐만!
+
+World/ThingHappen_who_good_RefugeeCamp
+\cg[map_human_camp]난민들의 야영지다!
+
+World/ThingHappen_who_bad_FishPPL_SneakFailed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]경비병：\c[0] 여자다! 도망치는 여자다!
+\SndLib[FishkindSmSpot]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 윽?! 잠깐만!
+
+################################################ 隱匿檢查 ##################################
+
+World/ThingHappen_SneakWin
+그들은 로나를 눈치채지 못했다.
+
+World/ThingHappen_SneakFailed
+그들은 로나를 발견했다!
+
+World/ThingHappen_SneakTrueDeepone
+\narr로나의 음란한 체향 때문에, 그들은 뒤따라왔다.
+
+World/Check_NoEnemy_SneakWin
+\narr\..\..\..
+겉보기엔 아무 문제 없어 보인다. 여긴 안전할 것이다.
+
+World/Check_Enemy_SneakWin
+\narr\..\..\..
+무언가 매우 부자연스럽다. 여긴 분명 위험하다.
+
+World/Check_SneakFailed
+\narr\..\..\..
+로나의 기술이 부족해 아무것도 알아내지 못했다.
+
+World/Check_Hide
+\narr\..\..\..\SndLib[sys_StepChangeMap]
+로나는 어둠 속 구석에 몸을 숨겼다...\n그들은 로나의 흔적을 놓쳤다...
+
+################################################ 로나的決定 ##################################
+
+Lona/Options
+무엇을 할까?
+
+Lona/Options_Escape
+도망치기
+
+Lona/Options_Observe
+주변 살펴본다
+
+Lona/Options_Talk
+말 걸기
+
+Lona/Options_Approach
+지도에 들어간다
+
+Lona/Options_Kyaaah
+미끄러져 넘어진다
+
+Lona/Options_Bomb
+폭탄 던지기
+
+Lona/Options_Hide
+숨기
+
+Lona/Options_Leave
+떠난다
+
+Lona/Options_Intimidate
+위협한다
+
+Lona/Options_Bluff
+허세를 부린다
+
+Lona/Options_Cocona
+친구야!
+
+Lona/Options_Struggle
+저항한다
+
+Lona/Options_GetHelp
+도움 요청한다
+
+##################################### Options_Struggle ##############################################
+Lona/Options_StruggleLoop
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit]아직 부족해! 로나는 더 힘을 내야 한다!
+
+Lona/Options_StruggleWin
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit]한 치의 차이로 벗어났다!
+
+#####################################逃跑##############################################
+
+Lona/Options_sneakpass_RunningWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]로나는 도망쳤고, 놈들은 따라오지 않았다.
+
+Lona/Options_sneakpass_RunningFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]로나가 도망치려 시도했지만, 실패했다.
+
+Lona/Options_sneakpass_SneakWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]로나는 몸을 숨겼고, 아무도 그녀를 눈치채지 못했다.
+
+Lona/Options_sneakpass_SneakFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]그들은 로나의 흔적을 따라왔다.
+
+Lona/Options_sneakpass_JustLeave
+\SND[SE/sneak_in.ogg]\narr\m[normal]로나는 그곳을 떠났다.
+
+Lona/Options_FollowerHelp
+\cg[map_FollowerHelp]\m[p5sta_damage]로나의 동료가 그녀를 도와주었다...
+
+####################################觀察##############################################
+####################################觀察##############################################
+####################################觀察##############################################
+
+World/ThingHappen_who_unknow_HumanGuard_ChkGood
+\m[confused]근처 주둔지의 병사들이다.
+
+World/ThingHappen_who_unknow_PPLsos_ChkGood
+\m[confused]\cg[map_sos]정말로 도움이 절실해 보인다.
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkGood
+\m[confused]\cg[map_guards]그들은 적대적인 기색이 없어 보인다.
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkBad
+\m[shocked]로나는 수배 중일 가능성이 있으니, 그들과 엮이지 않는 게 좋다.
+
+World/ThingHappen_who_unknow_Guards_ChkBad_SlaveOwner
+\m[shocked]로나는 도망친 노예이니, 병사들과는 거리를 둬야 한다.
+
+World/ThingHappen_who_unknow_PPLsos_ChkBad
+\m[confused]\cg[map_bandits]저 사람들은 영 수상해 보인다...
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkBad
+\m[confused]\cg[map_bandits_farmer]저 무리, 절대 좋은 놈들이 아니다.
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckWin
+\m[flirty]로나가 그럴듯하게 둘러대자, 병사들은 그냥 오해였다고 믿었다.
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckLose
+\m[shocked]\Rshake 로나가 둘러대 보았지만, 병사들은 전혀 믿지 않았다.
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkUnknow
+\narr\m[confused]로나는 상대가 어떤 자들인지 확신할 수 없다.
+
+World/ThingHappen_who_unknow_PPLsos_ChkUnknow
+\narr\m[confused]로나는 상대방의 의도를 확인할 수 없었다.
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkUnknow
+\narr\m[confused]로나는 이 야영지의 상황을 파악할 수 없었다.
+
+World/ThingHappen_who_unknow_NoerMissionary_CheckWin
+\c[4]선교사：\c[0] 무고한 자들이여! 성도의 신도가 되라! 성도의 빛이 모든 거짓과 죄를 정화하리라!
+\m[confused]딱히 수상한 점은 없는 것 같다…
+
+World/ThingHappen_who_unknow_NoerHomeless_CheckWin
+\m[confused]수상한 건 없어 보이지만, 냄새는 지독하다.
+
+World/ThingHappen_who_bad_AbomSpider_CheckWin
+\narr\..\..\..\..
+로나는 나갈 길을 찾았다.
+로나는 도망쳤다!
+
+############################################### 嘗試溝通 ##############################
+############################################### 嘗試溝通 ##############################
+############################################### 嘗試溝通 ##############################
+
+Lona/Options_Talk_begin
+\narr\..\..\..
+로나는 상대와 협상하려고 시도했다.
+
+Lona/Options_Intimidate_begin
+\narr\..\..\..
+로나는 놈을 위협하려 했다.
+
+Lona/Options_Intimidate_begin2_typical
+\m[overkill]\Rshake\c[6]로나：\c[0] 으르르르르!!!
+
+Lona/Options_Intimidate_begin2_tsundere
+\m[overkill]\Rshake\c[6]로나：\c[0] 비켜! 꺼져!
+
+Lona/Options_Intimidate_begin2_gloomy
+\m[bereft]\Rshake\c[6]로나：\c[0] 나... 난 너 안 무서워!
+
+Lona/Options_Intimidate_begin2_slut
+\m[overkill]\Rshake\c[6]로나：\c[0] 꺼져! 아니면 박살내 버릴 거야!
+
+##############################
+
+World/ThingHappen_who_unknow_HumanGuard_ComGood
+\m[normal]여기는 안전하지 않다며, 그들은 로나에게 빨리 떠나라고 조언했다.
+
+World/ThingHappen_who_unknow_PPLsos_ComGood
+\m[sad]\cg[map_sos]그들은 로나에게 비참한 사정을 털어놓으며, 도움을 청했다.
+
+World/ThingHappen_who_bad_AbomManager_ComGood
+\cgoff\m[flirty]폭발이 일어났다! 거대한 굉음이 모든 괴물들을 위압했고, 흉물들은 달아났다!
+
+World/ThingHappen_who_bad_WolfGroup_ComGood
+\m[flirty]놈들은 로나의 손 냄새를 맡더니, 흥미를 잃었다.
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComGood
+\m[flirty]로나는 혼자가 아니었고, 짐승들은 겁을 먹었다.
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComNonWeak
+\m[irritated]\Rshake 짐승들은 로나가 만만치 않다고 느끼고 물러났다.
+
+World/ThingHappen_who_bad_OrkindCamp_ComGood
+\m[flirty]놈들은 멍청하게도 로나를 자기들 편이라고 착각했다.
+
+World/ThingHappen_who_bad_FishkindGroup_ComGood
+\m[flirty]이유는 알 수 없지만, 놈들은 로나에게 흥미를 잃었다.
+
+World/ThingHappen_who_bad_UndeadWalking_ComBad
+\m[shocked]\Rshake놈들은 로나의 말을 알아듣지 못했지만, 그녀의 머리 냄새에는 흥미를 보였다.
+
+World/ThingHappen_who_bad_Bandits_ComGood
+\m[sad]\cg[map_sos]그들은 자신의 사정을 늘어놓으며, 그런 짓을 하지 않았기를 바란다고 했다.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComGood
+\m[sad]\cg[map_sos]로나는 그들에게 시간을 조금만 더 달라고 부탁했다.
+\m[sad]\cg[map_FollowerHelp]그들은 동의했다.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_1
+\m[fear]\cg[map_scroll]그들은 로나가 건넨 물자를 살펴봤다\..\..\..
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_pass
+\m[flirty]\cg[map_IRS]그들은 로나가 잘했다고 하며, 다음에도 이렇게 협조하길 바랐다.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_Failed
+\Rshake\m[terror]\cg[map_IRS]그들은 이것으로는 부족하다고 말했다!
+
+World/ThingHappen_who_bad_BanditsCiv_ComGood
+\m[sad]\cg[map_sos_hunger]그들은 사정을 털어놓으며, 뒤에 있는 굶주린 가족들을 보여줬다.
+
+World/ThingHappen_who_good_Merchant_ComGood
+\m[flirty]\cg[map_merchant]상인은 고개를 갸웃하며 로나를 보더니, 별 흥미가 없는 듯했다.
+
+World/ThingHappen_who_unknow_UnknowCamp_ComGood
+\m[normal]\cg[map_guards]여기는 안전하지 않다며, 그들은 로나에게 빨리 떠나라고 조언했다.
+
+World/ThingHappen_who_good_NoerMissionary_ComGood
+\c[4]선교사：\c[0] 시바리스의 최후는 곧 거짓과 죄악의 최후다! 무고한 자들이여! 성도를 믿어라!
+\c[4]선교사：\c[0] 그분은 인간의 모습으로 세상에 나타나실 것이다! 다시 내려와 모든 생명을 구원하실 것이다!
+\m[confused]......
+
+World/ThingHappen_who_bad_FishPPL_NotSlave
+\narr\m[flirty]로나가 자신은 노예가 아니라고 하자, 그들은 떠나갔다.
+
+World/ThingHappen_who_bad_FishPPL_ComGood
+\narr\SndLib[FishkindSmSpot]놈들은 동족을 발견했고,
+\narr\SndLib[FishkindSmSpot]로나를 자기들의 여자라고 생각했다.
+\m[flirty]\c[6]로나：\c[0] 으으....
+
+World/ThingHappen_who_bad_FishPPL_BluffGood
+\narr\SndLib[FishkindSmSpot]놈들은 자신들이 착각했다는 걸 알아챘다.
+\narr\SndLib[FishkindSmSpot]놈들은 로나를 수컷이라고 생각했다.
+\narrOFF\m[flirty]\c[6]로나：\c[0] 으으....
+
+#####################################################################
+
+World/ThingHappen_who_unknow_HumanGuard_ComBad
+\narr그들은 로나를 범죄자라고 생각했고,
+\narr로나를 포위했다!
+
+World/ThingHappen_who_unknow_PPLsos_ComBad
+\cg[map_bandits_farmer]그들은 로나에게 모든 물자를 두고, 몸으로 봉사하라고 요구했다.
+\m[wtf]\c[6]로나：\c[0] 안 돼… 오지 마!
+
+World/ThingHappen_who_unknow_PPLsos_ComLowMorality
+\cg[map_bandits_farmer]그들은 무기를 들었고, 로나를 악인이라 여겼다.
+
+World/ThingHappen_who_bad_AbomManger_ComBad
+\m[terror]\Rshake\narr놈들이 몰려왔다! 로나의 몸을 이용해 번식하려는 것이다!
+
+World/ThingHappen_who_bad_WolfGroup_ComBad
+\m[terror]\Rshake\narr놈들은 로나를 먹잇감으로 여기며 으르렁대고 포위했다!
+
+World/ThingHappen_who_bad_OrkindCamp_ComBad
+\c[6]오크：\c[0]    \cg[event_OrkindGonnaRape]구멍! 고기 구멍!
+\narr\m[fear]놈들은 악취 나는 침을 질질 흘리며 몰려왔고,
+\narr로나를 육변기로 쓰려는 듯했다.
+
+World/ThingHappen_who_bad_FishkindGroup_ComBad
+\c[6]심해인：\c[0]    \cg[event_FishkindGonnaRape]구루! 구챠!
+\narr\m[fear]놈들은 비릿한 생선 냄새를 풍기며 몰려왔고,
+\narr로나를 번식용 어미로 삼으려는 듯했다.
+
+World/ThingHappen_who_bad_BanditMobs_ComBad
+\m[wtf]\cg[map_bandits]\c[6]로나：\c[0] 안 돼… 오지 마!
+\narr그들은 로나에게 모든 것을 두고 가라고 요구했다.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComBad
+\m[wtf]\cg[map_IRS]\c[6]로나：\c[0] 미안해요! 일부러 그런 게 아니에요!
+\narr그들은 저항을 포기하고 모든 것을 내놓아 빚을 갚으라고 했다.
+
+World/ThingHappen_who_bad_BanditsCiv_ComBad
+\cg[map_bandits_farmer]그들은 로나에게 모든 물자를 두고, 몸으로 봉사하라고 요구했다.
+\m[wtf]\c[6]로나：\c[0] 안 돼… 오지 마!
+
+World/ThingHappen_who_good_Merchant_ComBad
+\m[flirty]\cg[map_merchant]상인은 의아한 표정으로 로나를 바라보다가, 별다른 관심이 없는 듯 고개를 저었다.
+
+World/ThingHappen_who_unknow_UnknowCamp_ComBad
+\m[wtf]\cg[map_bandits]\c[6]로나：\c[0] … 오지 마!
+\narr그들은 로나에게 모든 물자를 두고 가며, 몸으로도 봉사하라고 으름장을 놓았다.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad1
+\m[normal]\cg[map_bandits_farmer]그들은 로나에게 거래소 가치만큼의 물자를 두고 가라고 요구했다.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad2
+거절하면 공격하겠다고 위협했다.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_win
+\narr그들은 로나의 순순한 협조에 흡족해하며,
+\narr아무 일 없었다는 듯 자리를 떠났다.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_failed
+그들은 로나의 완강한 태도에 크게 불만을 드러냈다.
+\m[wtf]\cg[map_bandits]\c[6]로나：\c[0] 안 돼… 오지 마!
+\narr그리고는 로나에게 가진 것 전부를 두고 가라고 협박했다.
+
+####################################滑了一跤##############################################
+
+Lona/OvermapSlip
+\m[shocked]\Rshake\c[6]로나：\c[0] \{꺄아아악!!!
+\narr\m[hurt]\Rshake로나는 발을 헛디뎌 넘어졌고, 그 소리에 근처의 생명체들이 그녀를 눈치챘다.
+
+Lona/OvermapSlipDrowning
+\SndLib[sound_Bubble]\m[p5health_damage]\Rshake\c[6]로나：\c[0] \{푸르르르르!!
+\SndLib[sound_Bubble]\narr\m[p5health_damage]\Rshake 로나는 물에 빠져 허우적거리며, 파도에 휩쓸려 알 수 없는 곳으로 떠밀려갔다.
+
+##################################### 諾爾鎮 大門守衛 #############################################
+
+GateGuard/begin1
+\SETpl[Mreg_pikeman]\prf\cg[map_NoerGate]노엘 마을의 성문\optB[아무것도 안 한다,들어간다,숨어서 들어간다<r=HiddenOPT1>]
+
+GateGuard/enter_no_passport
+\prf\c[4]경비병：\c[0] 상부 지시다. 신분증 없이는 절대 들여보낼 수 없다.
+\m[confused]\plf\PRF\c[6]로나：\c[0] 알았어…
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]경비병：\c[0] 뭐? 너… 잠깐!
+\Lshake\c[4]경비병：\c[0] 너 알아봤다! \{잡아라!
+\m[shocked]\plf\PRF\Rshake\c[6]로나：\c[0] 큰일 났어!
+
+GateGuard/enter_sneak
+\plf\prf\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]로나：\c[0] 후… 넘어갔다…
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]경비병：\c[0] 뭐? 너… 잠깐!
+\Lshake\c[4]경비병：\c[0] 어디로 가는 거야! \{잡아라!
+\m[shocked]\plf\PRF\Rshake\c[6]로나：\c[0] 큰일 났어!
+
+NobleGateGuard/NapCapture
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 이 거지 같은 게 어떻게 들어온 거야?
+\SETpr[Mreg_guardsman]\plf\Rshake\c[4]경비병：\c[0] 잡아라!
+\m[shocked]\plf\PRF\Rshake\c[6]로나：\c[0] 뭐야! 왜 그래!?
+
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+
+NoerTavern/FristTimeNotice0
+\ph\board[월드맵]
+월드맵 이동은 턴제 방식입니다. 좌하단 모래시계를 참조하세요. 스태미너을 소모하여 1칸씩 이동합니다.
+모래시계가 100을 넘길 때마다 자동으로 잠을 자게 됩니다.
+스태미너이 -100 이하일 경우, 칸 이동 대신에, 해당 지역타일에 강제 진입하여 잠을 자게 됩니다.
+
+NoerTavern/FristTimeNotice1
+\board[지역맵 조작]
+\C[2]CTRL  \C[0] 스태미너소모 없이 월드맵 시간을 13만큼 흘려보냅니다.
+\C[2]SHIFT \C[0] 추가 스태미너을 소모하여 월드맵 시간을 절약합니다.
+\C[2]지도에 들어간다\C[0]：로나가 있는 칸의, 지역 타일 안으로 입장한다.
+\C[2]미끄러져 넘어졌다\C[0]：해당 타일의 위험도를 최고치로 올리고, 타일맵 안으로 강제 진입한다.
+
+NoerTavern/FristTimeNotice2
+\board[이벤트 선택지 설명]
+\C[2]도망간다\C[0]：약간의 스태미너을 소모하여, 이벤트 자체를 회피하려 시도한다.
+\C[2]관찰한다\C[0]：생존 재능 수치에 기반하여, 이벤트 변경을 시도한다. 
+\C[2]설득을 시도한다\C[0]：지능 수치에 기반하여, 이벤트 변경을 시도한다.
+\C[2]지도에 들어간다\C[0]：해당 사건이 일어난 타일맵으로 입장한다.
+
+NoerTavern/FristTimeNotice3
+\SND[SE/Book1]\bg[bg_TutorialWorldDifficulty]\C[2]세계 난이도\C[0]：날짜에 따라 증가하며 높을수록 생성되는 적의 수가 더 많고 강해진다.
+\SND[SE/Book1]\bg[bg_TutorialTime]\C[2]시간\C[0]：100이 되면 반나절이 지나며 휴식을 취한다.
+\SND[SE/Book1]\bg[bg_TutorialCarrying]\C[2]무게\C[0]：0이 되면 이동 시 스태미너 패널티를 받게 되니, 아이템을 정리하도록 하자.
+
+NoerTavern/FristTimeNotice4
+\{핵심지역 소개
+\bgoff\CamMP[NoerTavern]불타는 오크통
+노엘에서 가장 유명한 술집이자, 용병조합의 지점이다.
+이곳에서 식사와 숙박을 할 수 있으며, 의뢰를 받을 수도 있다.
+\CamMP[NoerDock]항구\BonMP[NoerDock,19]
+지금 이 순간도, 섬을 떠나려는 난민들을 태운 순항선이 운행 중이다.
+다만, 평민은 감당할 수 없을 만큼 고가의 탑승비를 받고 있다.
+\CamCT우선 술집에 가서 마물 출몰 소식을 용병조합에 알리자.

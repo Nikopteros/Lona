@@ -1,0 +1,93 @@
+ThisMap/OmEnter
+\m[confused]Incubadora \optB[Cancelar,Entrar]
+
+################################################################################### main
+
+Qprog3/begin1
+\CBct[1]\m[shocked]\Rshake\c[6]Lona: \C[0] ¡¿Un cadáver?!
+
+Qprog3/begin2
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0] ¿Es un soldado del \c[4]Campamento de las Puertas del Sur\C[0]?
+\CBct[20]\m[flirty]\PRF\c[6]Lona: \C[0] ¿Así que esto es?
+\CBct[20]\m[confused]\PRF\c[6]Lona: \C[0] Uno murió aquí, ¿qué pasó con los otros dos?
+
+Qprog3/begin3
+\CBct[1]\m[shocked]\Rshake\c[6]Lona: \C[0] ¡¿?!
+\CBmp[AbomZombie,8]\prf\c[4]Desconocido: \C[0] ......
+
+Qprog3/begin4
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0] Em... ¿Cómo estás?
+
+Qprog3/begin5
+\CBct[20]\m[terror]\Rshake\c[6]Lona: \C[0] ¡¿Hola?!
+
+Qprog3/begin6
+\CBmp[victim,6]\Rshake\c[4]Soldado: \C[0] ¡NO! ¡No te acerques!
+
+Qprog3/begin7
+\CBmp[victim,20]\Rshake\c[4]Soldado: \C[0] ¡No! ¡No quiero convertirme en un monstruo!
+
+Qprog3/begin8
+\CBmp[victim,20]\Rshake\c[4]Soldado: \C[0] {Ah ah ah}
+\CBmp[victim,20]\Rshake\c[4]Soldado: \C[0] ¡Mis piernas! ¡Hechas pedazos! ¡¡¡NO!!!
+
+Qprog3/begin9
+\CBmp[victim,20]\Rshake\c[4]Soldado: \C[0] Dame tu mano... Llévame a un lugar seguro...
+
+Qprog3/begin10
+\CBmp[victim,20]\Rshake\c[4]Soldado: \C[0] Grrrrh... Uuughh...
+
+Qprog3/begin11
+\CBct[20]\m[fear]\Rshake\c[6]Lona: \C[0] Oh no, estos pedazos de carne, son...
+\CBct[20]\m[terror]\Rshake\c[6]Lona: \C[0] ¿Personas?
+
+Qprog3/begin12
+\CBct[8]\m[serious]\PRF\c[6]Lona: \C[0] ¡Oye! Tenemos que salir de aquí.
+
+Qprog3/begin12_1
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0] Em... ¿Señor? ¿Hola? ¿Volvemos al campamento?
+
+Qprog3/begin13
+\CBct[20]\m[shocked]\Rshake\c[6]Lona: \C[0] {¡¿Qué?!}
+
+Qprog3/begin14
+\CBct[20]\m[terror]\Rshake\c[6]Lona: \C[0] {¡Aaaahhhhh!}
+
+Qprog3/begin15
+\CBct[20]\m[fear]\Rshake\c[6]Lona: \C[0] ¡Oh no, me encontraron!
+\narr Escucha, niña.
+\narr Necesito tu ayuda.
+\narrOFF\CBct[20]\m[shocked]\Rshake\c[6]Lona: \C[0] ¿Qué? ¿Quién? ¿Ayuda?
+\narr Quédate aquí hasta que llegue el Señor Justicia.
+\narrOFF\CBct[6]\m[terror]\Rshake\c[6]Lona: \C[0] ¿Quedarme aquí? ¡Es una broma de mal gusto!
+
+Qprog3/begin16
+\CBct[20]\m[terror]\Rshake\c[6]Lona: \C[0] ¡¿Qué?!??!
+\CBct[5]\m[bereft]\Rshake\c[6]Lona: \C[0] ¡No importa quién seas, pero deja de bromear así!
+\narr Necesito tu alma para ayudar a encontrar a estas criaturas malignas.
+\narr ¡Niña, tú puedes!
+\narrOFF\CBct[6]\m[shocked]\Rshake\c[6]Lona: \C[0] ¡No! ¡Déjame ir!
+\narr ¡Aguanta! ¡La Justicia y el Amanecer están en camino!
+
+Qprog3/begin17
+\CBct[8]\m[shocked]\PRF\c[6]Lona: \C[0] ¡¿Qué demonios?!
+\CBmp[Cam2,19]\m[serious]\PRF\c[6]Lona: \C[0] Esos demonios de carne se han ido, mejor me voy lo antes posible, esto es demasiado peligroso.
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0] Pero, ¿cómo explico todo esto a los demás? ¿Alguien me creerá?
+
+Qprog3/begin18
+\board[Irse]
+Misión: Regresar al Campamento de las Puertas del Sur
+Recompensa: Ninguna
+Cliente: Campamento de las Puertas del Sur
+Repetible: Una vez
+Todos están muertos. Regresa al Campamento de las Puertas del Sur e informa al Centurión.
+
+VC/Qmsg0
+La Madre de Lika... Matar...
+
+VC/Qmsg1
+Victoria... Hora de actuar...
+
+VC/Qmsg2
+El ejército de muñecas... Destruir...
+

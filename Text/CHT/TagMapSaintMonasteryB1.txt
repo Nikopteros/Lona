@@ -1,0 +1,138 @@
+
+belever/NapSpot
+\SETpl[AnonMale1]\Lshake\C[4]信仰者：\C[0]    入侵者！？
+\SETpr[AnonMale2]\Rshake\C[4]信仰者：\C[0]    不！ 是謊言者！ 是女性的謊言者！
+\SETpl[AnonMale1]\Lshake\C[4]信仰者：\C[0]    聖徒阿！感謝聖徒！ 讓我們用聖液洗淨她的罪惡吧！
+
+beginEvent/begin
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    妳的邪惡淨化完之前給我乖乖待著！
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我會被怎麼處置呢...
+
+belever/NapRape
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    醒來！ 罪惡的謊言者！
+\m[pain]\C[6]洛娜：\C[0]    嗚嗚....
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    我們必須洗淨妳的罪惡！
+
+belever/NapTorture1
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    罪惡的謊言者！ 逃跑只會加重妳的罪惡
+\SETpr[AnonMale1]\Rshake\C[4]信仰者：\C[0]    淨化她！
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    \{給我醒來！
+
+belever/NapTorture2
+\m[tired]\C[6]洛娜：\C[0]    咦？
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    抓好她！ 抓牢她！ 我們必須用苦痛淨化她的罪惡！
+\m[terror]\C[6]洛娜：\C[0]    不要！ 住手！
+
+belever/NapTorture3
+\m[pain]\C[6]洛娜：\C[0]    \{好痛！ 好痛啊！
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    該死！邪惡依然殘留！
+\m[bereft]\C[6]洛娜：\C[0]    \{對不起！ 饒了我！ 真的對不起！
+
+belever/NapRape_0
+\c[4]信仰者：\c[0]    讓我用肉棒淨化妳！
+
+belever/NapRape_1
+\c[4]信仰者：\c[0]    聖徒阿！
+
+belever/NapRape_2
+\c[4]信仰者：\c[0]    聖徒阿！保佑我的肉棒吧！
+
+belever/NapRape3_0
+\c[4]信仰者：\c[0]    用妳的身體接受我的聖液吧！
+
+belever/NapRape3_1
+\c[4]信仰者：\c[0]    妳的罪惡只能靠我的肉體拯救！
+
+belever/NapRape3_2
+\c[4]信仰者：\c[0]    接受聖徒的旨意！讓我肏！！
+
+belever/NapRape1
+\c[4]信仰者：\c[0]    嘿嘿嘿。
+
+belever/NapRape_withSta_NoFight2
+\m[sad]\SETpl[AnonMale1]\Lshake\C[4]信仰者：\C[0]    呼嘻嘻♥
+
+belever/PlaceFood0
+\SETpl[AnonMale1]\Lshake\C[4]信仰者：\C[0]    \{放飯了！
+
+Camp/MobSeen
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\C[0]    是誰！
+\m[shocked]\Rshake\C[6]洛娜：\C[0]    糟糕了！
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+#UPDATE
+
+SlaveA/Qmsg0
+他們喜歡我的屁屁！
+
+SlaveA/Qmsg1
+都是小雞雞的錯！
+
+SlaveA/Qmsg2
+可是我每天都吃的好飽！
+
+SlaveB/Qmsg0
+嗚...
+
+SlaveB/Qmsg1
+他們每天都要吃我的小雞雞...
+
+SlaveB/Qmsg2
+我動不了了..
+
+SlaveC/Qmsg0
+我才不要離開！
+
+SlaveC/Qmsg1
+外面沒有東西吃！
+
+SlaveC/Qmsg2
+給他們玩小雞雞就有東西吃！
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+MIAchildMAMA/prog8
+\CBct[8]\m[confused]\PRF\C[6]洛娜：\C[0]    請問...
+\CBid[-1,2]\prf\C[4]未知：\C[0]    噓！不要吵，我在冥想！ 大人們告訴我只要努力，將來就會成為偉大的信仰者。
+\CBct[20]\m[flirty]\PRF\C[6]洛娜：\C[0]    呃... 抱歉我在找\c[4]湯米\c[0]，你知道他在哪嗎？
+\CBid[-1,2]\prf\C[4]湯米：\C[0]    我就是\c[6]湯米\c[0]！ 我是從者！
+\CBct[4]\m[triumph]\Rshake\C[6]洛娜：\C[0]    太好了！ 總算找到你了。
+\CBct[20]\m[confused]\PRF\C[6]洛娜：\C[0]    你該回去了，你媽媽在找你。
+\CBid[-1,20]\prf\C[4]湯米：\C[0]    我不要！ 在這裡我只要獻出我屁屁就有食物，跟著媽媽反而都在挨餓。
+\CBct[8]\m[flirty]\PRF\C[6]洛娜：\C[0]    呃... 獻出屁屁？
+\CBid[-1,5]\prf\C[4]湯米：\C[0]    對！ 我要待在這裡！
+\CBid[-1,20]\prf\C[4]湯米：\C[0]    媽媽不要我了，但\C[6]聖徒會\C[0]要我，我要跟\C[6]聖徒會\C[0]的大人們在一起！
+
+MIAchildMAMA/prog8_opt
+\CBct[20]\m[confused]\PRF\C[6]洛娜：\C[0]    呃\..\..\..\optB[算了,欺騙一下<r=HiddenOPT1>,強行帶走<r=HiddenOPT2>]
+
+MIAchildMAMA/prog8_opt_WIS
+\CBct[20]\m[flirty]\PRF\C[6]洛娜：\C[0]    可是我聽說\C[4]聖徒會\C[0]的信仰者會吃小孩呦。
+\CBct[8]\m[confused]\PRF\C[6]洛娜：\C[0]    你確定你真的想要待在這裡嗎？
+\CBid[-1,20]\prf\C[4]湯米：\C[0]    什麼！ 不可能！
+\CBct[20]\m[serious]\PRF\C[6]洛娜：\C[0]    怎麼不可能，他們給你吃好吃的，就是為了把你養胖。
+\CBct[20]\m[terror]\Rshake\C[6]洛娜：\C[0]    有天當你變得又肥又油又多汁時，他們就會把你煮來吃！
+\CBid[-1,8]\prf\C[4]湯米：\C[0]    \...\...\...
+\CBid[-1,8]\prf\C[4]湯米：\C[0]    他們每天都舔我雞雞...
+\CBid[-1,8]\prf\C[4]湯米：\C[0]    還誇獎我的雞雞很好吃...
+\CBid[-1,8]\prf\C[4]湯米：\C[0]    難道說...他們真的想吃掉我！？
+\CBct[20]\m[wtf]\Rshake\C[6]洛娜：\C[0]    啊！？？？
+\CBid[-1,20]\prf\C[4]湯米：\C[0]    不！ 我不想被吃掉！
+\CBct[20]\m[flirty]\PRF\C[6]洛娜：\C[0]    那就跟著姊姊一起離開吧，我保證你會安全地回到媽媽身邊。
+
+MIAchildMAMA/prog8_opt_STA0
+\CBct[5]\m[serious]\Rshake\C[6]洛娜：\C[0]    聽話！
+
+MIAchildMAMA/prog8_opt_STA1
+\CBct[20]\m[irritated]\Rshake\C[6]洛娜：\C[0]    那是你的媽媽！ 她並沒有遺棄你！ 是你媽媽拜託我來找你的！
+\CBid[-1,6]\prf\C[4]湯米：\C[0]    嗚... 不要打我！ 我跟妳走就是了！
+
+MIAchildMAMA/prog9_board
+\board[她的孩子]
+目標：護送\C[4]湯米：\C[0]回到難民營。
+報酬：無
+委託主：難民
+期限：單次
+護送\C[4]湯米：\C[0]回到難民營，小心不要被發現了。
+\C[6]聖徒會\C[0]將會主動攻擊\C[4]湯米：\C[0]。

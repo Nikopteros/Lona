@@ -1,0 +1,215 @@
+ThisMap/Enter
+\m[confused]어토피아 전업 여관
+
+################################################################
+
+InnKeeper/Begin
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]주인장：\c[0] 외지인... 뭘 원하지...?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음...\optB[그만둔다,거래,여기에 관련해서]
+
+InnKeeper/Slave
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]주인장：\c[0] 노예! 도망친 여자다!
+
+InnKeeper/about
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]주인장：\c[0] 이 여관은... 너희를 위해 열었지... 더 많은 노예를 사들이기 위해 존재한다...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]주인장：\c[0] 너희가... 맞닥뜨린 재앙은... 바다 마녀가 너희를 벌하기 위해 내린 것이다...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]주인장：\c[0] 우리... 바다 마녀의 자식들은... 곧 본섬으로 돌아갈 것이다...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]주인장：\c[0] 그리고 너는... 멸망하게 될 것이다...
+
+BoldAndBrash/art0
+\cg[other_SeaWitch]바다 마녀의 초상화
+그 아름다움을 찬양하고, 그녀의 취향을 찬양한다.
+작가: 스쿤와트 테딕
+\m[confused]\c[6]로나：\c[0] 예?!
+
+BoldAndBrash/art1_typical
+\m[flirty]\Rshake\c[6]로나：\c[0] 약간 쓰레기 같네, 다시 그리는 게 좋겠어...
+
+BoldAndBrash/art1_tsundere
+\m[serious]\prf\c[6]로나：\c[0] \..\..\..진심이야?
+\m[wtf]\Rshake\c[6]로나：\c[0] 내가 본 그림 중에 제일 최악이야!
+
+BoldAndBrash/art1_gloomy
+\m[flirty]\prf\c[6]로나：\c[0] \..\..\..
+\m[normal]\c[6]로나：\c[0] 으음... 초록색... 마치 초원 같은 색이네...
+
+BoldAndBrash/art1_slut
+\m[flirty]\prf\c[6]로나：\c[0] 느낌이\..\..\..
+\m[lewd]\Rshake\c[6]로나：\c[0] 이거 내 엉덩이 그린 거 아니야?
+
+################################################################ INN COmmoner
+
+Guard/Rand0
+\c[4]경비병：\c[0] 이상하지 않아? 암컷 어인을 전혀 못 봤잖아?
+
+Guard/Rand1
+\c[4]경비병：\c[0] 마치 나도 \c[6]젠킨스\c[0]님처럼 적진 깊숙이 빠져 있지만, 돌격은 못 하는 기분이야.
+
+Guard/Rand2
+\c[4]경비병：\c[0] 하하! 걔네가 자기 종족의 암컷을 잡아먹는다고 들었어! 번식이 안 되니까! 내 생각엔 그거 진짜야!
+
+
+merchant/Rand0
+\c[4]상인：\c[0] 소스는?! 젠장, 소스가 어디 갔어!? 제기랄! 성자가 다시 내려와서 놈들을 벌하실 거야!
+
+merchant/Rand1
+\c[4]상인：\c[0] 난 돈 많은 사람이야! 물고기는 질렸다고! 사람답게 먹는 걸 먹고 싶어! 진짜 음식을 내놔!
+
+merchant/Rand2
+\c[4]상인：\c[0] 생선? 또 생선?! 젠장, 게다가 이건 날것이잖아! 이건 요리에 대한 모욕이야!
+
+
+merchantFat/Rand0
+\c[4]상인：\c[0] 에휴, 세월이 참 변했군. 우리가 어인한테 식량을 구걸하게 될 줄이야.
+
+merchantFat/Rand1
+\c[4]상인：\c[0] \c[6]루드신드\c[0] 가문이 식량 공급을 대가로 놈들과 뭘 맞바꿨다지? 예전엔 노엘섬에서 이런 어인을 볼 일은 없었는데.
+
+merchantFat/Rand2
+\c[4]상인：\c[0] 믿겠어? 우리 딸은 놈들 보자마자 기절할 뻔했어. 정말 흉측하게 생겼거든.
+
+
+traveler/Rand0
+\c[4]여행자：\c[0] 드디어 여기까지 올 기회가 생겼는데, 아쉽게도 놈들의 문화는 이미 파괴돼 버렸더군.
+
+traveler/Rand1
+\c[4]여행자：\c[0] 반수인을 본 적 있나? 털북숭이가 최고지♥ 그건 성도의 축복이야♥
+
+traveler/Rand2
+\c[4]여행자：\c[0] 인어 전설 들어본 적 있어? 놈들의 암컷이 어떤 모습일지 상상만 해도 두근거려서 잠이 안 와!
+
+
+RichFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 바다 마녀께서 강림하셨다…! 찬양하라 바다 마녀를…! 감사하라 바다 마녀께…!
+
+RichFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 우리의 어획량이…! 예전보다 백 배나…! 바다 마녀의 위엄이시다!!!
+
+RichFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 인간들이여…! 이것이 바로 바다 마녀께서 너희에게 내리신 징벌이다!
+
+
+CommonFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 우리는… 채소를 먹고… 인간은… 생선을 먹는다….
+
+CommonFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 어리석은 인간들아…! 우리의 시대가… 왔다!
+
+CommonFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 이 모든 건… 바다 마녀의 복수다… 흐흐… 너희는 끝났다….
+
+################################################################ INN Quest Giver
+
+InnQuGiver/TooWeak
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 여자…! 돌아가서… 네가 할 일을 해라!
+\CBct[8]\m[sad]\c[6]로나：\c[0] 미안해…
+
+InnQuGiver/0_begin0
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 여자… 노예가… 도망쳤다…!
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 외지에서 온… 여자…! 우리에게 네가 필요하다…!
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 우리를 도와… 바다 마녀의 배신자를… 낚아내라…
+
+InnQuGiver/0_begin1
+\board[노예 캠프]
+목표 : 노예 캠프를 찾아라
+보수 : 큰 동전 3개
+의뢰인 : 어인
+수행가능횟수 : 1회
+그 수치도 모르는 배신자들을 찾아내라!
+
+InnQuGiver/0_begin1_no
+\CBct[8]\m[confused]\c[6]로나：\c[0] 으음...
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 싫어요, 다른 사람을 해치고 싶진 않아요.
+
+InnQuGiver/0_begin1_yes
+\CBct[8]\m[confused]\c[6]로나：\c[0] 으음...
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 할게요, 좀 더 구체적인 정보는요?
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 여자는... 떠날 수 없어...
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 그... 빌어먹을 것들... 분명 어토피아 어딘가에 숨어있어...
+\CBct[20]\m[confused]\c[6]로나：\c[0] 그게 무슨... 정보랍시고 주는 거예요?
+
+InnQuGiver/1_begin1
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 찾았어요. 남쪽에 작은 야영지를 차려놨더군요.
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]상인：\c[0] 용사여... 감사드립니다...
+
+InnQuGiver/1_begin1_askQ
+\CBmp[QuGiver,2]\SndLib[FishkindSmSpot]\prf\c[4]상인：\c[0] 그 여자들... 죽였습니까?
+
+InnQuGiver/1_begin1_noKill
+\CBct[20]\m[confused]\c[6]로나：\c[0] 당연히 안 죽였어요.
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]상인：\c[0] 너는... 용사가 아니군...
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]상인：\c[0] 도망친... 여자는... 전부 죽어야 해... 배신자는... 모두 죽어야 해...
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐라고요? 그 정도는 아니잖아요?
+
+InnQuGiver/1_begin1_Killed
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 나...
+\CBct[20]\m[tired]\c[6]로나：\c[0] 내가... 죽였어요...
+\CBct[20]\m[sad]\c[6]로나：\c[0] 미안해요...
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]상인：\c[0] 잘했다...! 너야말로 진정한 용사다...!
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]상인：\c[0] 너에게... 더 주겠다!
+\CBct[8]\m[tired]\c[6]로나：\c[0] .....
+
+############################ Quest 2
+
+InnQuGiver/2_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 외지의 용사여...! 바다 마녀의 파편이... 변질되었네... 사악한 조각으로...!
+\CBct[8]\m[confused]\c[6]로나：\c[0] 어...?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 그것들이...! 가짜 바다 마녀에게... 오염되었네... 우리... 반드시 모조리 없애야 하네...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 동쪽에 있는... 버려진... 신전이 그들에게 점령당했네...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 부족의 용사들이... 실패했네... 그들은 돌아오지 못했어...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 내가... 반드시 그들을... 모조리 없애야 하네...
+
+InnQuGiver/2_begin1
+\board[사악한 조각]
+목표 : 가짜 바다 마녀의 조각 섬멸
+보상 : 큰 동전 3개
+의뢰인 : 어인
+수행가능횟수 : 1회
+가짜 바다마녀의 조각을 파괴하라!
+
+InnQuGiver/2_begin1_yes
+\CBct[8]\m[confused]\c[6]로나：\c[0] 엥… 사악한 조각?
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 사신이… 너희 땅을 멸망시킬 때….
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 바다 마녀의 수호자들도… 오염시켰다…
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 그들은… 바다 마녀가 길러낸 존재지만… 바다 마녀를 배신했다…
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 지금은… 가짜 바다 마녀가 이끌고 있다! 가짜 바다 마녀는 곧 사악함이다…!
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 반드시… 그 사악한 조각들을 없애야 한다…
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 무슨 말인지 잘 모르겠네…
+\CBct[20]\m[serious]\c[6]로나：\c[0] 됐어, 맡겨! 내가 처리할게!
+
+InnQuGiver/5_win1
+\CBct[8]\m[flirty]\c[6]로나：\c[0]  끝냈어! 그\… 뭐더라\… 사악한 조각들은 전부 죽였어!
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 훌륭하오….
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 강대한… 용사여… 이것이… 당신의 보상이오….
+
+InnQuGiver/5_win2
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 용사여… 우리와 교배하시오… 그러면 반드시… 강한 자식을 남길 수 있을 것이오….
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 교배?!
+\CBct[6]\m[flirty]\c[6]로나：\c[0] 어\… 그건 좀 생각해볼게…
+
+############################ Quest 3
+
+InnQuGiver/FishFHuntLoop0_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 가짜 바다 마녀의 잔당이… 여전히 우리들의 고향에 존재하오…！
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 그 사악한 눈알을… 파내어 바다 마녀께 바치시오…！
+\CBct[8]\m[confused]\c[6]로나：\c[0] 으…
+
+InnQuGiver/FishFHuntLoop0_begin2
+\board[사악한 조각]
+목표 : 가짜 바다 마녀의 눈 10개 수집\i[160]
+보수 : 큰 동전 2
+의뢰주 : 어인
+수행가능횟수 : 무제한
+가짜 바다 마녀의 조각은 섬의 해변 물속에 숨고 있다.
+그들을 낚아 올려라…! 죽여라…!
+그들의 눈알을 파내라…! 바다 마녀께 바쳐라…!
+바다 마녀께 감사하라…! 바다 마녀를 찬양하라…!
+
+InnQuGiver/FishFHuntLoop0_yes
+\CBct[20]\m[serious]\c[6]로나：\c[0] 나한테 맡겨!
+
+InnQuGiver/FishFHuntLoop_win0
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 어\..\.... 이게 네가 원한 눈이야?
+
+InnQuGiver/FishFHuntLoop_win1
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]상인：\c[0] 잘됐다….

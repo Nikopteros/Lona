@@ -1,0 +1,101 @@
+thisMap/OvermapEnter
+\m[confused]螺旋之森\optB[算了,進入]
+
+Archer/begin0
+\CBid[-1,6]\prf\c[4]\c[4]勇士：\c[0]    我的孩子！ 他死掉的啦！
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    發生了什麼事？！
+
+Archer/begin1
+\CBid[-1,6]\prf\c[4]\c[4]勇士：\c[0]    妳是外來者？ 我兒被\c[6]螺旋王\c[0]殺死的啦！
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    冷靜！ 冷靜！ \c[4]預言者\c[0]大人要我來這裡幫你們，還有\c[6]螺旋王\c[0]到底是什？
+\CBid[-1,2]\prf\c[4]\c[4]勇士：\c[0]    妳是\c[6]預言者\c[0]的勇士的啦？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...大概吧。
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    \{太棒的啦！\}
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    我從來沒見過這大的螺旋雞雞，\c[6]螺旋王\c[0]比以往的螺旋雞雞都還要強大！
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    \c[6]螺旋王\c[0]一定還在這個森林的某處的啦！ 我還可以聞到牠的味道的啦！
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    妳是\c[6]預言者\c[0]的勇士！ 妳一定可以幫我兒復仇的啦！
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    一切交給妳的啦！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    耶？
+
+Archer/begin1_WisMod_opt
+\optD[等等！,算了]
+
+Archer/begin1_WisMod0
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    等等！ 你就這樣離開了？
+
+Archer/begin1_WisMod1
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    蝦？ 你是\c[6]預言者\c[0]的勇士的啦！
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    妳會解決一切的啦！
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    可是\c[6]預言者\c[0]說過你會幫助我取得螺旋雞雞的說？
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    什麼！ 真的啦？
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    真的的啦！
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    真的的真的啦？
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    真的的真的的真的啦！
+\CBid[-1,8]\prf\c[4]\c[4]勇士：\c[0]    \..\..\..
+\CBid[-1,20]\prf\c[4]\c[4]勇士：\c[0]    好的啦！ 讓我們去取得\c[6]螺旋王\c[0]的雞雞的啦！
+
+Archer/begin2
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    所以螺旋雞雞到底是什？
+
+Archer/begin3
+\board[取得螺旋雞雞]
+目標：打敗螺旋王
+報酬：九吋的符文
+委託主：九吋獵人部落
+期限：單次
+打敗螺旋王，為勇士的孩子復仇！
+
+Archer/Qmsg0
+為我兒報仇！
+
+Archer/Qmsg1
+打倒牠！
+
+Archer/Qmsg2
+切下牠的雞雞！
+
+###########################################################################
+
+Archer/end_alive1
+\CBmp[Archer,20]\prf\c[4]\c[4]勇士：\c[0]    \c[6]預言者\c[0]預言者是對的啦！ 妳真是強大的勇士！
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    這是受到黑霧影響的動物？
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    所以螺旋雞雞到底是什麼？
+\CBmp[Archer,20]\prf\c[4]\c[4]勇士：\c[0]    妳看看這些螺旋雞雞的啦！ 他們的雞雞是螺旋的啦！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    可是牠沒雞雞啊？
+\CBmp[Archer,20]\prf\c[4]\c[4]勇士：\c[0]    那兩隻小的是公的啦！ 沒問題的啦！
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    喔？
+
+Archer/end_alive2
+\CBmp[Archer,20]\prf\c[4]\c[4]勇士：\c[0]    喏，拿著的啦！
+
+Archer/end_alive3
+\CBct[6]\m[fear]\PRF\c[6]洛娜：\c[0]    噁...
+\CBmp[Archer,20]\prf\c[4]\c[4]勇士：\c[0]    一個給妳，一個給我兒的啦！
+\CBct[2]\m[sad]\PRF\c[6]洛娜：\c[0]    抱歉，我來晚了，沒有救到你的孩子。
+\CBmp[Archer,20]\prf\c[4]\c[4]勇士：\c[0]    免驚的啦！ 他的靈魂會回歸九吋獵人的啦！ 再生就有了的啦！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    哈？
+
+Archer/end_dead1
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    這是受到黑霧影響的動物？
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    對不起\..\..\..
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    妳也只是想保護孩子而已....
+
+Archer/end_dead2
+\CBct[6]\m[fear]\PRF\c[6]洛娜：\c[0]    噁...
+\CBct[2]\m[sad]\PRF\c[6]洛娜：\c[0]    好，我可以肯定牠的雞雞是螺旋狀的。
+
+Archer/end_cut
+\narr\SndLib[sound_gore]\..\..\SndLib[sound_gore]\..\..\SndLib[sound_gore]\..\..\SndLib[sound_gore]
+
+Archer/end_end
+\board[取得螺旋雞雞]
+目標：回到九吋部落
+報酬：九吋的符文
+委託主：九吋獵人部落
+期限：單次
+妳是部落的勇士，回到九吋部落吧。
+
+###########################################################################################################
+
+Nap/GameOver1
+\narr螺旋王將洛娜吃掉了\..\..\..

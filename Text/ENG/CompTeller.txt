@@ -1,0 +1,348 @@
+########################################
+GodCTalk/begin1
+\CBmp[teller,8]\c[4]Fortune Teller：\c[0]    -In the end\..\..\..
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\c[4]Fortune Teller：\c[0]    That's exactly what happened.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]    Sooo the chiiild knocked yooou down... Aaand caaaused all of thisss?
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    Yes, the little one is growing up too fast.
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Fortune Teller：\c[0]    This all sounds unbelievable, but it really is all just an accident.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]    Acciiideeent...? Yooou call thisss an ACCIIIDEEENT...?!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Fortune Teller：\c[0]    It's the truth. If I've truly wanted to ruin things on purpose, you wouldn't have had time to react to any of this. The calamities wouldn't just stop at this island either.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]    Fffine... I beeelieeeve yooou...
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    I appreciate it.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]    Buuut yooou must paaay annnd maaake repaaaraaationsss forrr whaaat haaappeeened. Theee nexxxt stoooryline willll beee commmpleeetellly wriiiteeen anddd overrrseeeen by meee.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    *Sigh* Fine, I accept.
+
+GodCTalk/begin2
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Fortune Teller：\c[0]    Once I've gained my powers back completely, I'll be sure to oversee the return of my adorable children and offsprings.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    You won't have to worry about anything else.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]    Huu hu hu huuuuuu...~
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Fortune Teller：\c[0]    Hmmm?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]    WWWAHAAA-HAAA-HAAAAAAaaa...!!!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Fortune Teller：\c[0]    What are you laughing about?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]    The chillld managed to beeeat yooou dooown, annnd wasss able tooo essscaaape frommm yooou toooooo?
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Fortune Teller：\c[0]    A-And? So what?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Mysterious Stranger：\c[0]   I willll beee laaaughing at thisss stooory forrr a looong tiiime! Hahaahaaa....!
+
+GodCTalk/begin3
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prh\c[4]Fortune Teller：\c[0]    \..\..\..Tsk! Asshole!
+
+unused/unused
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Thug：\c[0]    I always feel a bit sorry for the boss everytime we do this.
+\SETpl[TellerNormal]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    You won't tell, I won't tell. What he doesn't know won't hurt him, right?
+
+#######################################Teller TG
+
+GodCTalk2/begin0
+\CBmp[DedOne,20]\SETpl[TellerEyeClosed]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    THISSS IS NOOOT MY SCRRRIPT! WEEE'VE MAAADE AN AGREEEMENNNT! EVERRRYTHINNNG SHAAALL FOLLOOOW WHAT I'VVVE WROOOTE!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    Damn it all! You trully are the WORST player I've ever had to play with!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    Don't you remember what happened during our last game in order to appease your stupid grand adventure, and your disgustingly overpowered character?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    Jusssticcce appearrred and saaaved the worrrld! It WASSS a grannnd adveeenturrreee!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    Right! You and your stupid minions nearly annihilated the entire universe and almost ruined everything!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Sea Witch：\c[0]    Mmmm......
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    Beeecause of MYYY ammmaaazing streeengthhh and pooowers, the whooole worrrld connntinuesss to ssstrive wittth Jusssticcce annnd peeeaccce!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    EXACTLY! I had to fix your stupid, power fantasy storyline and change it into a normal, active world for you to enjoy!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Sea Witch：\c[0]    Ummm......
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    Noo-OOOOOO! I DOOO NOTTT APPROOOVVVE! YOU MUSSSTNNN'T MODDDIFFFY MY SSSTOOORYLINE AND PLOOOT!
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    Thisss is the whooole poinnnt of my ssstory! Frommm beginninnng tooo devvvelopmeeent, twiiissst, and ennnd!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    Your rotten soul wouldn't even understand what change and character development means! This is just another Mary Sue story!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Sea Witch：\c[0]    Ughhh......
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    A revenge drama's plot can not be written like this! If this isn't fixed properly, your story will definitely be known as the worst story ever written!
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    Impossssibllle! Dooo you nooot sssee that theee worrrld ssstill worssships the Sssaint?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    The worrrld DESSSIRESSS for grannnd adveeenturrresss! Why, the talesss of theee Sssaint can beee founnnd aaall over the worrrld!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Ebony Sh-Ub：\c[0]    Hmmmph. Have you actually went down there and asked the people how they've felt?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justice：\c[0]    Jussstiiice shhhall NOTTT beee quessstionnned!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Sea Witch：\c[0]    Let me take a look at this...
+
+GodCTalk2/begin1
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Sea Witch：\c[0]    \..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]Sea Witch：\c[0]    Hmmm\..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]Sea Witch：\c[0]    Ummm\..\..\.. Grrr\..\..\..
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\c[4]Sea Witch：\c[0]    J-Just what the SHELL is this I'm reading?!
+
+#######################################Teller HEV
+
+TellerSakaGBoss/begin1
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Thug：\c[0]    I always feel a bit sorry for the boss everytime we do this.
+\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    You won't tell, I won't tell. What he doesn't know won't hurt him, right?
+
+TellerSakaGBoss/hCG01
+\c[4]Fortune Teller：\c[0]    OH! ♥ Your cock is so big as always! ♥ Fufu...~ ♥
+\c[4]Thug：\c[0]    Of course it's big.
+
+TellerSakaGBoss/hCG02
+\c[4]Fortune Teller：\c[0]    *Sniff*... Your smell is really strong... How long have you not washed this manly cock ♥?
+
+TellerSakaGBoss/hCG03
+\c[4]Fortune Teller：\c[0]    Allow me to clean it for you with my mouth... ♥
+
+TellerSakaGBoss/hCG04
+\c[4]Thug：\c[0]    Ooooooh! ♥
+
+TellerSakaGBoss/hCG05
+\c[4]Thug：\c[0]    Unghn... Unf...♥
+
+TellerSakaGBoss/hCG06
+\c[4]Thug：\c[0]    HINNNGH! S-So good!
+
+TellerSakaGBoss/hCG07
+\c[4]Thug：\c[0]    Amazing... It's like several girls are lickin' my cock at once!
+
+TellerSakaGBoss/hCG08
+\c[4]Thug：\c[0]    Fuck... Unnngh... How do you even manage to do something like this...?
+
+TellerSakaGBoss/hCG09
+\c[4]Thug：\c[0]    OOOH! I can't-... It's too much!
+
+TellerSakaGBoss/hCG10
+\c[4]Thug：\c[0]    I'm gonna cum...! It's about to shoot out!
+
+TellerSakaGBoss/hCG11
+\c[4]Thug：\c[0]    Oughnnnfff! Hold up...! If you keep suckin' like that, I'M GONNA-!
+
+TellerSakaGBoss/hCG12
+\c[4]Thug：\c[0]    -OOOORRRAAAUGH! *Splooort*!
+
+TellerSakaGBoss/hCG13
+\c[4]Thug：\c[0]    Hinnngh...!
+
+TellerSakaGBoss/hCG14
+\c[4]Thug：\c[0]    Ahhh...
+
+TellerSakaGBoss/hCG15
+\c[4]Thug：\c[0]    *Huff*\..\..\.. *Haff*\..\..\..
+
+TellerSakaGBoss/hCG16
+\c[4]Fortune Teller：\c[0]    Hehe... ♥ You always sound so tough... Yet, ejaculated so fast. ♥
+
+TellerSakaGBoss/hCG17
+\c[4]Thug：\c[0]    Nah, it's because Ebony's throat just feels way too fuckin' good.
+
+TellerSakaGBoss/hCG18
+\c[4]Ebony Sh-Ub：\c[0]    Fufu.~ ♥ Excuse me, my pussy still hasn't gobbled up your cock yet...
+
+TellerSakaGBoss/hCG19
+\c[4]Thug：\c[0]    That won't be a problem soon!
+
+#######################################Teller HEV2
+
+GoldenBarHev/SadJew0
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]Servant：\c[0]    And you must be... The Oriental Commerce?
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    YES-yes-yes! It's me! That's me!
+\CBmp[SadJew,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    I'm involved in... moral support and a charity business, current times require all of us to work together on this island.
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    In order the help the Saint fend off invaders, investin-... DONATING a small amount of money is nothing.
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]Servant：\c[0]    People from the middle-eastern lands believe in the Saint? Don't all of you worship a whore as your prophet? Why would we even want to conduct business with those who pray to a false god?
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    OH NOO-no-no! I-I've converted! I believe in the Saint, just like you!
+\CBmp[SadJew,3]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    \cg[event_Coins]\SND[SE/Chain_move01.ogg]This amount should surely be enough to change your mind. I orde-... humbly ask you to allow me an audience with \c[6]Lord Milo\c[0], please.
+\cgoff\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Servant：\c[0]    Is this all?! Are you looking down on me?
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Servant：\c[0]    Listen carefully as I won't repeat myself, Sir. Lord Milo is a VERY busy man, no one is permitted to see him unless they've received an invitation.
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    I-I'm offering you such a large sum, if you can just give me a chance to-...
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Servant：\c[0]    -Damn it, I'VE TOLD YOU MANY TIMES!!!
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Servant：\c[0]    Lord Milo has no time for anybody, especially \c[6]dirty desert monkeys\c[0] like you! Leave, NOW!
+\CBmp[SadJew,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    It-It's fine, it's alright... I can wait! I'll wait patiently right here until Milo has tim-!
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Servant：\c[0]    -BEGONE!
+
+GoldenBarHev/SadJewMsg0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Has anyone seen my wife around?
+
+GoldenBarHev/SadJewMsg1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    She said she would help me with conducting business. My sweet, loving housewife would of made it happen!
+
+GoldenBarHev/SadJewMsg2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    *Sigh*... Oy vey, it's been so long since I've felt her love... Why must I always be so busy?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    But, I'm sure she'll forgive me as always.
+
+GoldenBarHev/begin1
+\SndLib[sound_MaleWarriorDed]\c[4]Coomer A：\c[0]    OOOUGHHH! AHHH! UNNNGGGHHHPH!
+\SndLib[sound_MaleWarriorDed]\c[4]Coomer B：\c[0]    I missed Ebony's tight pussy so much!
+\SndLib[sound_MaleWarriorDed]\c[4]Coomer C：\c[0]    I heard yer got married recently, I was so worried I'd never see ya again.
+
+GoldenBarHev/HevItSelf01
+\c[4]Ebony Sh-Ub：\c[0]    Silly boys!~ *Haff*... How could I even think about leaving any of you?
+
+GoldenBarHev/HevItSelf02
+\c[4]Coomer D：\c[0]    How come it hasn't been my turn yet?! I wanna play with Mommy!
+
+GoldenBarHev/HevItSelf03
+\c[4]Coomer E：\c[0]    Ebony's sexy body just smells so nice! ♥ I want to fuck her too! ♥
+
+GoldenBarHev/HevItSelf04
+\c[4]Ebony Sh-Ub：\c[0]    Please don't worry, everyone in here is a good boy! And all good boys get to have a turn...~ ♥
+
+GoldenBarHev/HevItSelf05
+\c[4]Coomer C：\c[0]    C-Can't hold on much longer! It's like Ebony's slutty pussy is wrappin' a hundred tongues around my cock an' lickin' it!
+
+GoldenBarHev/HevItSelf06
+\SndLib[sound_MaleWarriorDed]\c[4]Coomer C：\c[0]    I'M GONNA C-COOM!!!
+
+GoldenBarHev/HevItSelf07
+\c[4]Ebony Sh-Ub：\c[0]    Cum! ♥ Let's all cum together!~ ♥ Let me swallow everyone's flith inside me!~ ♥
+
+GoldenBarHev/HevItSelf08
+\SndLib[sound_MaleWarriorDed]\c[4]Coomer A：\c[0]    \{OOOUGHHHAHHHHHH!!!
+
+GoldenBarHev/HevItSelf09
+\SndLib[sound_MaleWarriorDed]\c[4]Coomer B：\c[0]    \{EEEEEEUGHHH!!!
+
+GoldenBarHev/HevItSelf10
+\SndLib[sound_MaleWarriorDed]\c[4]Coomer C：\c[0]    \{HIIINNNIIIGHHHHHH!!!
+
+GoldenBarHev/HevItSelf11
+\c[4]Ebony Sh-Ub：\c[0]    Fufu... Everyone was really amazing.~
+
+GoldenBarHev/End
+\c[4]Man：\c[0]    Damn it...! STOP BANGING ON THE DOOR! THERE'S PEOPLE IN HERE!
+\m[flirty]\c[6]Lona：\c[0]    Ummm... I'm really sorry...
+
+####################################################################### DFCultistquestline
+
+Df_TellerSide/NoneElseNotDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]Fortune Teller：\c[0]    Go on, you can do it.
+
+Df_TellerSide/NoneElseDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]Fortune Teller：\c[0]    Go forth, we shall meet again the future.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm.... Okay?
+
+Df_TellerSide/0to1_1
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\c[4]Fortune Teller：\c[0]    Lona, you've finally shown up. I've been waiting for you for a long time.
+
+Df_TellerSide/0to1_2_know
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Auntie fortune teller from the Oriental Commerce? What are you doing here?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Fortune Teller：\c[0]    AUNTIE\..\..\..?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr... Miss fortune teller?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    *Huff*... Nevermind it.
+
+Df_TellerSide/0to1_2_Unknow
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... Have we met? Who are you?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    I am the one who knows every single thing about you.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    And I will be the one who guides your soul to its destiny.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Eh... Is that so?
+
+Df_TellerSide/0to1_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So, why did you want to see me?
+
+Df_TellerSide/1to2_0_0
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    You will kill someone for me...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    M-ME? KILL SOMEONE?!
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    Yes, that's correct. Kill someone.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    W-Why me? Why should I do this for you?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    Because you need money.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    You wish to leave this dreadful island, and need the money to aid your escape...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Money......
+
+Df_TellerSide/1to2_0_1
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Who are they? Why do you want them dead?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    They are evil Liars.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    They are worshipping a dark and ancient Goddess that should not be worshipped in the wrong place, at the wrong time.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uhhh... what are you talking about? I don't understand...
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    They were victims of the Black Mist, just like you.
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    But instead of fear, they glorify the Black Mist...
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    The cult of \c[6]The Mother of Fertility\c[0], they are the ones who worship the Black Mist that killed your family and friends.
+
+Df_TellerSide/1to2_1
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    I......
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    You must kill their shaman. He will be wearing a pig's head as his visage and calls himself... *Sigh*... \c[4]Pighead\c[0].
+\plf\..\..\..
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Fortune Teller：\c[0]    Tsk\..\..\.. It's so irritating! I've had enough! Bunch of stupid apes!
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Fortune Teller：\c[0]    What kind of all-knowing and powerful Goddess would want to be represented and worshipped by someone who dubs themself as Pighead?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Fortune Teller：\c[0]    To be worshipped by such a worthless thing can only bring a Goddess such shame, no?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ......
+
+Df_TellerSide/1to2_1_BRD
+\board[Exterminate the Spreader of Lies.]
+Goal：Murder \c[4]Pighead\c[0]
+Reward：1 Gold Coin
+Client：The mysterious Fortune Teller
+Quest Term：Once
+Travel to the Water Cave and kill the shaman of the Mother of Fertility, \c[4]Pighead\c[0].
+
+Df_TellerSide/1to2_2_Yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Fine then, I'll do it.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    But, what does this cult have to do with you?
+\CBid[-1,8]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Fortune Teller：\c[0]    It doesn't matter, we are human after all.
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]Fortune Teller：\c[0]    Humans are the ones who wish to resolve this disaster soon.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Mmmm... Okay. It's fine if you don't want to tell me the reason.
+
+Df_TellerSide/1to2_2_No
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Forget it, you're asking the the wrong person for this task.
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    It's alright, you will return to me sooner or later.
+
+Df_TellerSide/PriestDead
+\CBid[-1,0]\c[4]Pighead：\c[0]    NO! M-Mother of Fertility! You mustn't... forsaken... me...!
+
+Df_TellerSide/3to4_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... It seems like Pighead is dead now?
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]Fortune Teller：\c[0]    Simply wonderful. You're exactly like what has been predicted.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Predicted...? Exactly?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    It's nothing. I said you could do it, have I not?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh? Am I supposed to be happy about this?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    Why yes, you really should be glad.
+\CBid[-1,20]\CBmp[0]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    Here you go, I'm sure you will be needing these in the future.
+
+Df_TellerSide/3to4_1
+\CBct[3]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Thank you!!!
+
+############################################################################################## Rebirth to abom
+
+AbomRebirth/opt_rebirth
+Your child
+
+AbomRebirth/beginIfAbom
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    My dearest child, what is it you are looking for?
+
+AbomRebirth/ans_rebirth0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uhhh... Your child?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    I know every little thing about you...
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    From your physical pains and illnesses, to the nightmares that haunt you daily. 
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Really? I've always been sick my entire life.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Fortune Teller：\c[0]    Since I am your mother, I can help you.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Errr... How exactly are you going to help me?
+
+AbomRebirth/ans_rebirth1
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So... Did anything happen?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    I have awakened great potential that lays dormant within you.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Fortune Teller：\c[0]    These new powers will be sure to aid you in your adventures.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    Go on then, my precious child.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm... Thank you?
+
+############################################################################################## DancerSet
+
+HappyTrader/DancerSet0_waifuIsntThere
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Oy vey! Oh, where has my wife gone?!
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Ohhh... Wasn't she around just a few moments ago?
+
+HappyTrader/DancerSet0
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Ummm...
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Oh! Pardon me young lady... How may I scam- *Ahem* serve you?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I've found this package while traveling around. I think it belongs to you?
+
+HappyTrader/DancerSet1
+\CBid[-1,8]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    !\.!\.!\.!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Wonderful! This is indeed the goods I was missing. Those rotten thieves actually dared to steal my merchandise!
+
+HappyTrader/DancerSet2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Ah! My dearest love, don't you think these garments are quite beautiful?
+
+HappyTrader/DancerSet3
+\CBmp[teller,3]\SETpr[TellerNormal]\plf\Rshake\c[4]Fortune Teller：\c[0]    Ara\..\..\.. Is this a present for me?
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    \..\..\..Present?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    RRRIGHT RIGHT RIGHT!!! These are gifts I got for you, aren't they beautiful? Does this make you happy?
+\CBmp[teller,5]\SETpr[TellerConfused]\plf\Rshake\c[4]Fortune Teller：\c[0]    ...You're giving me several sets of identical gifts?
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Right! R-Really! Gifts!
+\CBmp[teller,8]\SETpr[TellerAngry]\plf\Rshake\c[4]Fortune Teller：\c[0]    ......
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    ......
+
+HappyTrader/DancerSet4
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Oy vey...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr...
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Ah! Please excuse me, young lady!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    This is a beautiful dress imported from my country to Sybaris. Unfortunately, there was a riot of some sort there while the outfits were in transit.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Now, the noblemens of Rudesin Slope have no use for such costumes. What a waste...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Oh?
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    \..\..\..
+\CBid[-1,9]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    !!!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    As a token of appreciation, I'll be willing to sell this outfit to you at a discount!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Whaddya think? Won't you consider taking a look? 
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... I'll think about it.
+
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

@@ -1,0 +1,183 @@
+thisMap/OvermapEnter
+山脈修道院\optB[沒事,進入]
+
+#---------------------#-------------------#---------------------  -------------------------------
+Priest/begin0
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]牧師：\c[0]    聖徒已降下了神罰，含冤而死的不死者又再次回到了他們身體。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]牧師：\c[0]    孩子，你有何事？
+
+Priest/opt_MT_crunch
+山脈修道院
+
+Priest/opt_Doctor
+失蹤的醫生
+
+Priest/opt_Undead
+不死者清理
+
+Priest/opt_SaintMonastery
+聖徒會的請求
+
+Priest/Ans_crunch
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃...所以這裡是什麼地方？
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    \c[6]山脈修道院\c[0]，是脫離世俗之修道者感受聖徒真諦的地方。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    不像那些被世俗污染的偽道者、謊言者。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    正是因為那些為道者胡來人們才會遠離聖徒！
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    我們在此習醫，並幫助附近村民與旅人。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    我們才是真正的聖徒代言者！
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    是哦...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    我們聽說了外界的動亂，妳也是來求醫的對吧？
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    很遺憾，月前派出的醫者並沒有回來。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    而墓穴的不死者又受到了偽神的招喚，我們沒有人手幫助妳。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    謊言者阿，向聖徒禱告吧。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    這一切一定是聖徒向無信的謊言者降下的神罰。
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    是哦...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    旅行者可以安心的在這休息，我們堤供像妳這樣的旅行者安全。
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    好哦，謝謝。
+
+Lona/Ans_SaintMonastery
+\CBct[20]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃...你們這有醫生嗎？
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    \c[6]聖徒會\c[0]那裡的人希望你們將醫生借給他們。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    \c[6]聖徒會\c[0]\..\..\..
+\CBid[-1,5]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    回去告訴那些被世俗汙染的偽道者自己想辦法！
+\CBct[20]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    這樣啊....好吧。
+
+Lona/UndeadClearn
+\CBct[20]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    嗯...應該都清乾淨了。
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    快點離開這個鬼地方吧。
+
+Priest/EndTalk
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    願聖徒成為妳的明燈。
+
+Priest/TooWeak
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    妳看起來並不像一名傭兵。
+\narr洛娜看起來太弱了
+
+Priest/Ans_accept
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    我想...呃...應該沒什麼問題吧？
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    很好！ 妳果然是聖徒的尖兵！
+
+Pitcher/UndeadGate_b4QU0
+\CBid[-1,20]\C[4]修士：\c[0]    不要接近這，裡面全都是不死者。
+
+Pitcher/UndeadGate_b4QU1
+\CBid[-1,20]\C[4]修士：\c[0]    這是聖徒的怒火，這一切都早已被預言。
+
+Pitcher/UndeadGate_b4QU2
+\CBid[-1,1]\C[4]修士：\c[0]    妳是\..\..\..女的？
+
+SaintState/begin0
+\board[聖徒無名者]
+聖徒無名者說： 翻滾中的我是無敵的，偽神之焱無法傷我分毫。
+聖徒福音66：6
+
+##################################################################################### Undead Hunt
+
+Priest/Ans_Undead
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃...你說不死者？
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    死者於幾個月前開始活動，這一切外界的騷亂拖不了關係。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    這正是聖徒對於謊言者降下的逞罰。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    妳是傭兵對吧？ 幫我們解決這個問題，我們將給妳適當的回報。
+
+Priest/Ans_Undead_brd
+\board[消滅不死者]
+目標：消滅山脈修道院墓地的不死者
+報酬：大銅幣2
+委託主：山脈修道院
+期限：直到完成
+與墳場外的修士對話並消滅所有不死者。
+
+Pitcher/UndeadGate0
+\CBid[-1,20]\C[4]修士：\c[0]    妳就是來幫我們處理不死者的傭兵？
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    大概是？
+\CBid[-1,20]\prf\C[4]修士：\c[0]    感謝聖徒！
+
+Pitcher/UndeadGate1
+\CBid[-1,20]\C[4]修士：\c[0]    剩下的交給妳了，我不用再面對那些屍體了。
+
+lona/EnterCave
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    \..\..\..
+\CBct[6]\m[tired]\plf\PRF\C[0]\C[6]洛娜：\C[0]    真是有夠陰森的...
+
+Priest/KillAllUndead0
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃...我想我都搞定了？
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    是嗎？ 我看看...
+
+Priest/KillAllUndead1
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\C[4]牧師：\c[0]    很好！ 這些是妳應得的！
+
+Priest/KillAllUndead2
+\CBct[3]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    謝謝！
+
+##################################################################################### Doctor Search in OrkindCamp
+
+Priest/Ans_doctor
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    所以這裡是給醫生修行的？
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    是的，但如同我前面說的，他們都不在。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    他們離開此地後很長一段時間了，且音訊全無。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    他們前往北方的一戶獵戶家探病，之後我們聽說了外界的動亂。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    我們正需要像妳這樣的傭兵前去確認它們的生死。
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    我？
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    是的，妳！
+
+Priest/Ans_doctor_brd
+\board[修士的生死]
+目標：前往北方的小屋
+報酬：大銅幣2
+委託主：山脈修道院
+期限：直到完成
+前往北方獵人的小屋確認修士們的生死。
+
+DcSearch/Qmsg0
+修士的屍體
+
+DcSearch/Qmsg1
+牧師的屍體
+
+DcSearch/Qmsg2
+信仰者的屍體
+
+DcSearch/Done0
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    全都死了嗎....
+\CBct[8]\m[tired]\PRF\C[0]\C[6]洛娜：\C[0]    ....
+\CBct[5]\m[serious]\PRF\C[0]\C[6]洛娜：\C[0]    我必須振作，立刻回到\c[4]山脈修道院\c[0]吧。
+
+Priest/doctor_Done0
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃...
+\CBct[20]\m[tired]\plf\PRF\C[0]\C[6]洛娜：\C[0]    我去過那裏了，那些醫生們全都死了。
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    這樣嗎... 果然如此啊...
+\CBct[20]\m[sad]\plf\PRF\C[0]\C[6]洛娜：\C[0]    對不起...
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]牧師：\c[0]    這不是妳的錯，這是人們否定了信仰的報應。
+
+##################################################################################### Cocona unique
+
+cocona/Home0
+\CBfB[20]\SETlpl[cocona_shocked]\prf\Lshake\c[4]可可娜：\c[0]    姊姊！
+\CBct[6]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    怎麼了？
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    這裡聞起來！ 家的味道！
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    家？
+\CBfB[4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    對！ 我家！ 地下！
+\CBct[6]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    這樣啊，那真是太好了。
+
+UndeadX/cocona0
+\CBid[-1,8]\c[4]不死者：\c[0]    哦啊....腦......
+\CBct[6]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    ...
+
+UndeadX/cocona1
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    姊姊！ 等等！ 朋友！
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    哈？ 朋友？
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    對！ 朋友！
+
+UndeadX/cocona2
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    .....
+
+UndeadX/cocona3
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\c[4]可可娜：\c[0]    姊姊！朋友回家了！
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃...是哦？
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    朋友也信聖徒，朋友說喜歡姐姐，所以他送了姐姐這個。
+
+UndeadX/cocona4
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    哦...怎麼說好呢？ 真是太好了？
+\CBfB[3]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    對！ 太好了！ 喜歡聖徒的都是好朋友！

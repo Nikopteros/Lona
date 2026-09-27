@@ -1,0 +1,31 @@
+AbomHive/OvermapEnter
+\m[confused]Логово Тварей \optB[Отмена,Войти]
+
+########################################################
+
+Lona/RapeLoopNonCapture
+\m[p5sta_damage]Вонючие массы из плоти утащили Лону в своё логово...
+\m[p5health_damage]Лона скоро станет новым рассадником для отвратительных Демонов Плоти...
+
+Lona/RapeLoopCaptured
+\m[p5sta_damage]Различные мясистые массы продолжали изливать сперму в тело Лоны.
+\m[p5health_damage]Им всё равно, как носитель их семени себя чувствует, их интересует только размножение при помощи тела Лоны.
+
+
+Lona/CaptureWakeUp
+\m[p5pee]\Rshake\c[6]Лона：\C[0]    Ооохх...
+\m[p5shame]\Rshake\c[4]Кажется, пока что они закончили...
+
+Lona/CaptureGiveUp
+\m[p5shame]\Rshake\c[4]Я не могу... Я не могу так больше...
+\narr\..\..\..\..
+
+Lona/BondageStruggle
+\m[p5defence]\Rshake\C[6]Лона：\C[0]    ......
+
+Lona/CaptureStruggle
+\m[p5pee]\c[4]Что мне делать...? \optD[Ничего не делать<t=10>,Сопротивляться (-10 Силы)<r=HiddenOPT0>,Сопротивляться (-30 Силы)<r=HiddenOPT1>,Сопротивляться (-50 Силы)<r=HiddenOPT2>,Принять свою судьбу...<r=HiddenOPT3>]
+
+Lona/StruggleWin
+\m[shocked]\Rshake\c[6]Лона：\C[0]    Сработало?!
+\m[flirty]\c[6]Лона：\C[0]    Надо найти выход и поскорее убираться отсюда...

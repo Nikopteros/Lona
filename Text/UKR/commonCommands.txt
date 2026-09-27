@@ -1,0 +1,408 @@
+#====================+============================ DarkPot ===================================================
+
+Lona/DarkPot_begin
+\cg[event_DarkPot]Великий казан.
+\optB[Скасувати,Відкрити кришку,Приготувати]
+
+Lona/DarkPot_cooking
+\narr\SND[SE/Bubble1.ogg]\..\SND[SE/Bubble2.ogg]\..\SND[SE/Bubble3.ogg]\..
+
+#====================+============================ SubmitSkill ===================================================
+
+Lona/SubmitSkill_normal
+\m[hurt]\c[6]Лона：\c[0] Ух...
+
+Lona/SubmitSkill_weak
+\m[fear]\c[6]Лона：\c[0] А-а-а...
+
+Lona/SubmitSkill_tsun
+\m[angry]\c[6]Лона：\c[0] Що!?
+
+Lona/SubmitSkill_slut
+\m[lewd]\c[6]Лона：\c[0] А-а-ах-х...
+
+Lona/SubmitSkill_overfatigue
+\m[tired]\c[6]Лона：\c[0] Ву-у-у...
+
+Lona/SubmitSkill_mouth_block
+\m[pain]\c[6]Лона：\c[0] А-ау-у...
+
+#====================+============================ BreakBondage ===================================================
+Lona/BreakBondage_HCblocked
+\narrЦе неможливо зробити на складностях «Пекло» і «Кінець світу».
+
+Lona/BreakBondage_opt
+\m[confused]\optB[Силою,Майстерністю]
+
+Lona/BreakBondageWin1
+\m[triumph]\c[6]Лона：\c[0] Вдалося! Нарешті зняла!
+\m[tired]\c[6]Лона：\c[0] Але... я так втомилася...
+
+Lona/BreakBondageFailed1
+\m[bereft]\c[6]Лона：\c[0] Я не можу, я недостатньо сильна...
+\m[sad]\c[6]Лона：\c[0] Можливо, мені вдасться, якщо я зберусь із силами?
+
+Lona/BreakBondagefailed2_skill
+\narrНеобхідно 78+ запасу сил і 15+ очок будь-якої риси.
+
+Lona/BreakBondagefailed2_sta
+\narrНеобхідно 100+ запасу сил.
+
+#Lona/BreakBondagefailed2_wisdom
+#\narrНеобхідно 78+ запасу сил і 15+ Мудрості.
+#
+#Lona/BreakBondagefailed2_combat
+#\narrНеобхідно 78+ запасу сил і 15+ Бойових навичок.
+
+#====================+============================ Basic Need ===================================================
+
+Lona/CampAction
+\m[normal]\optB[Скасувати,Стати табором<r=HiddenOPT1>,Послизнутися і впасти<r=HiddenOPT2>]
+
+Lona/CampActionBuildCamp1
+\m[pleased]\c[6]Лона：\c[0] Добре! Нехай буде тут!
+
+Lona/CampActionBuildCamp2
+\narr\..\..\..
+
+Lona/CampActionBuildCamp3
+\m[triumph]\c[6]Лона：\c[0] Готово!
+
+Lona/CampActionSlip
+\m[shocked]\Rshake\c[6]Лона：\c[0] \{А-а-ай!!!
+\m[hurt]\RshakeЛона знепритомніла.
+
+Lona/BasicNeeds_begin
+\m[confused]Що мені робити? 
+
+Lona/BasicNeedsOpt_Cancel
+Скасувати
+
+Lona/BasicNeedsOpt_Bathe
+Купатися
+
+Lona/BasicNeedsOpt_Relieve
+Випорожнитися
+
+Lona/BasicNeedsOpt_Masturbate
+Мастурбувати
+
+Lona/BasicNeedsOpt_CleanPrivates
+Чистити геніталії
+
+Lona/BasicNeedsOpt_CollectMilk
+Зцідити молоко
+
+Lona/BasicNeedsOpt_Spit
+Виплюнути
+
+Lona/BasicNeedsOpt_Swallow
+Проковтнути
+
+Lona/BasicNeedsOpt_CollectWaste
+Зібрати нечистоти
+
+Lona/BasicNeedsOpt_BreakRestraints
+Позбутися кайданів
+
+Lona/BasicNeedsOpt_Sleep
+Спати
+
+Lona/BasicNeedsOpt_Gameover
+Прийняти долю
+
+Lona/BasicNeedsOpt_DigPeePoo
+Очистити
+
+Lona/BasicNeedsOpt_DressOn
+Одягтися
+
+Lona/BasicNeedsOpt_DressOff
+Роздягтися
+
+Lona/BasicNeedsOpt_ShavePubicHair
+Поголитися
+
+Lona/BasicNeedsOpt_All
+Усі
+
+Lona/LoanPrincipal
+Капітал
+
+Lona/LoanInterest
+Відсоток
+
+Lona/LoanServiceFee
+Плата за послуги
+
+Lona/LoanWhorePrincipal
+Додаткова плата за захист
+
+#================================================ NAP ===================================================
+Lona/Nap_begin
+\m[normal]\c[4]Місце, де Лона може відпочити.
+
+Inn/GetInnKey
+\m[normal]Місце, де Лона може відпочити.\n\i[#{$story_stats["HiddenOPT0"]}] \{ #{$story_stats["HiddenOPT1"]}
+
+Lona/Nap_RapeLoop_begin1
+\narrЛона згорнулася калачиком і поступово занурилася в сон.
+\narrАле вони й не думають щадити Лону.
+
+Lona/Nap_RapeLoop_begin2_opt_normal
+\m[sad]\c[6]Лона：\c[0] Я повинна...\optB[Чекати нагоди,Здатися]
+
+Lona/Nap_RapeLoop_begin2_opt_tsun
+\m[hurt]\c[6]Лона：\c[0] Я повинна...\optB[Не втрачати надію,Здатися]
+
+Lona/Nap_RapeLoop_begin2_opt_weak
+\m[tired]\c[6]Лона：\c[0] Я повинна...\optB[Триматися за надію,Стати предметом для задоволення]
+
+Lona/Nap_RapeLoop_begin2_opt_slut
+\m[normal]\c[6]Лона：\c[0] Я повинна...\optB[Ще подумати,Визнати це своїм призначенням]
+
+Lona/Nap_RapeLoop_begin2_opt_overfatigue
+\m[tired]\c[6]Лона：\c[0] Я повинна...\optB[Відновити сили й діяти,Далі так і жити]
+
+Lona/Nap_RapeLoop_begin2_opt_mouth_block
+\m[tired]\c[6]Лона：\c[0] Я повинна...\optB[Знайти спосіб прибрати це з рота,Жити саме так]
+
+Lona/Nap_RapeLoop_begin2_normal
+\m[terror]\Rshake\c[6]Лона：\c[0] *Хник* Чому саме я!?
+\m[bereft]\Rshake\c[6]Лона：\c[0] Я більше не можу це витримувати.
+
+Lona/Nap_RapeLoop_begin2_tsun
+\m[terror]\Rshake\c[6]Лона：\c[0] *Хник* Кляті виродки!!!
+\m[pain]\Rshake\c[6]Лона：\c[0] Чому саме я!?
+
+Lona/Nap_RapeLoop_begin2_weak
+\m[hurt]\Rshake\c[6]Лона：\c[0] *Хник*
+\m[sad](Що, якщо біль мине, якщо це прийняти...)
+
+Lona/Nap_RapeLoop_begin2_slut
+\m[hurt]\Rshake\c[6]Лона：\c[0] *Хник* Усе тіло болить...
+\m[pain]\Rshake\c[6]Лона：\c[0] Чому вони не можуть бути м’якшими?
+\m[flirty]\c[6]Лона：\c[0] Але... Мені цікаво, що ж буде далі.
+\m[lewd](Можливо, це і є моє призначення?)
+
+Lona/Nap_RapeLoop_begin2_overfatigue
+\m[tired]\c[6]Лона：\c[0] *Хник*
+\m[sad](Тіло зовсім не слухається.)
+
+Lona/Nap_RapeLoop_begin2_mouth_block
+\m[pain]\c[6]Лона：\c[0] *Хник*
+\m[sad](Через це я зовсім не можу говорити.)
+
+#================================================ Action_CHSH_Masturbation.rb ===================================================
+Lona/Masturbation_begin1
+\m[lewd]\c[6]Лона：\c[0] ...
+
+Lona/Masturbation_begin2
+\m[shy]\c[6]Лона：\c[0] А-ах... а-а-ах...
+
+#================================================ BATH ===================================================
+Lona/Bath_tooClearn
+\m[confused]\c[6]Лона：\c[0] Ну... Напевно, моє тіло достатньо чисте?
+
+Lona/Bath_EndDirtLvl1
+\m[confused]\c[6]Лона：\c[0] Досі бруднувата, так?
+
+Lona/Bath_EndDirtLvl2
+\m[flirty]\c[6]Лона：\c[0] Я старалася, але однаково брудна...
+
+Lona/Bath_EndDirtLvl3
+\m[tired]\c[6]Лона：\c[0] Фу... Усе ще дуже брудна...
+
+Lona/Bath_begin
+\m[flirty](Здається, тут можна відмитися.) \optB[Скасувати,Купатися,Чистити геніталії<r=HiddenOPT1>,Зцідити молоко<r=HiddenOPT2>]
+
+Lona/Bath_Undress1
+\m[shy]\c[6]Лона：\c[0] ...............
+
+Lona/Bath_Undress2
+\m[tired]\c[6]Лона：\c[0] .........
+
+Lona/Bath_Undress3
+\m[shy]\c[6]Лона：\c[0] ......
+
+Lona/Bath_Undress4
+\m[tired]\c[6]Лона：\c[0] ...
+
+Lona/Bath_cuffed
+\narrЧерез кайдани Лона не змогла як слід помитися.
+
+Lona/Bath_washing
+\m[shy]\cg[event_bath]\c[6]Лона：\c[0] ............
+\m[flirty]\c[6]Лона：\c[0] .........
+\m[normal]\c[6]Лона：\c[0] ......
+\m[pleased]\cgoff\c[6]Лона：\c[0] ...
+
+Lona/Bath_washing_IfWounds0
+\m[shy]\cg[event_bath]\c[6]Лона：\c[0] ............
+\m[flirty]\c[6]Лона：\c[0] .........
+\m[normal]\c[6]Лона：\c[0] ......
+\cgoff Рани, подразнені водою, викликають біль.
+
+Lona/Bath_washing_IfWounds1
+\m[pain]\Rflash\c[6]Лона：\c[0] Угх!
+\m[hurt]\Rflash\c[6]Лона：\c[0] Боляче!!!
+
+Lona/Bath_washing_IfWoundsM
+\m[lewd]\c[6]Лона：\c[0] Ух-х, хе-хе-хе♥
+
+Lona/Bath_begin3_NoFuckerSight
+\m[triumph]\c[6]Лона：\c[0] Хе-хе...
+
+Lona/Bath_begin3_FuckerSight_normal
+\m[shocked]\c[6]Лона：\c[0] У інших на очах?
+\m[shy]\c[6]Лона：\c[0] Це...
+
+Lona/Bath_begin3_FuckerSight_tsun
+\m[irritated]\c[6]Лона：\c[0] Прямо зараз? Прямо тут?!
+\m[sad]\c[6]Лона：\c[0] Ну добре...
+
+Lona/Bath_begin3_FuckerSight_weak
+\m[fear]\c[6]Лона：\c[0] Хтось дивиться...
+\m[shy]\c[6]Лона：\c[0] Ну нічого.
+\m[tired]\c[6]Лона：\c[0] Напевно...
+
+Lona/Bath_begin3_FuckerSight_slut
+\m[confused]\c[6]Лона：\c[0] На очах?
+\m[lewd](Приємно, правда?)
+
+Lona/Bath_begin3_FuckerSight_overfatigue
+\m[tired]Лона надто втомлена, щоб перейматися іншими.
+\m[tired]\c[6]Лона：\c[0] ...
+
+Lona/Bath_begin3_FuckerSight_mouth_block
+\m[shy]\c[6]Лона：\c[0] *Хник*
+Лона не може говорити... не може висловити свою думку щодо чужих зиркань.
+
+Lona/Bath_end
+\m[normal]\c[6]Лона：\c[0] М-м-м, значно чистіша.
+
+#================================================ Groin_clearn ===================================================
+#需先檢測視線 FLAG採用BATH 清理50%+SEXY SKILL的洨 
+
+Lona/GroinClearn_begin1
+\m[shy]\c[6]Лона：\c[0] Необхідно вичистити цю гидоту із себе.\nІнакше я завагітнію.
+
+Lona/GroinClearn_begin2_1
+\m[shy]\cg[event_GroinClearn]\c[6]Лона：\c[0] ............
+
+Lona/GroinClearn_begin2_2
+\m[shy]\cg[event_GroinClearn]\c[6]Лона：\c[0] .........
+
+Lona/GroinClearn_begin2_3
+\m[shy]\cg[event_GroinClearn]\c[6]Лона：\c[0] ......
+
+Lona/GroinClearn_begin2_4
+\m[shy]\cg[event_GroinClearn]\c[6]Лона：\c[0] ...
+
+Lona/GroinClearn_cuffed
+Через кайдани Лона не може вичистити нечистоти зі своєї піхви.
+
+Lona/GroinClearn_failed_typical
+\CBct[8]\m[sad]\cgoff\c[6]Лона：\c[0] ...
+\CBct[6]\m[fear]\c[6]Лона：\c[0] Я відчуваю, що там ще щось лишилося...
+\CBct[6]\m[confused]\c[6]Лона：\c[0] Можливо, спробувати ще?
+
+Lona/GroinClearn_failed_tsundere
+\CBct[8]\m[confused]\cgoff\c[6]Лона：\c[0] ...
+\CBct[5]\m[irritated]\c[6]Лона：\c[0] Досі відчуття, що там щось є...
+\CBct[6]\m[hurt]\c[6]Лона：\c[0] Я не повинна була цього допускати!!!
+
+Lona/GroinClearn_failed_gloomy
+\CBct[8]\m[sad]\cgoff\c[6]Лона：\c[0] ...
+\CBct[6]\m[confused]\c[6]Лона：\c[0] Трясця, не виходить очистити...
+\CBct[6]\m[shocked]\c[6]Лона：\c[0] Якщо не покваплюся, то завагітнію...
+
+Lona/GroinClearn_failed_slut
+\CBct[8]\m[sad]\cgoff\c[6]Лона：\c[0] ...
+\CBct[6]\m[bereft]\c[6]Лона：\c[0] Набридло, не можу добитися чистоти, скільки не намагаюся...
+\CBct[4]\m[hurt]\c[6]Лона：\c[0] Може мені допоможе якийсь чоловік...♥
+
+Lona/GroinClearn_win
+\m[sad]\cgoff\c[6]Лона：\c[0] ...
+\m[shy]\c[6]Лона：\c[0] Усе, начебто, чисто... так?
+
+#================================================ SelfMilking ===================================================
+
+Lona/SelfMilking_HowMuch
+Скільки молока потрібно?
+
+Lona/SelfMilking_begin1
+\narrЛора вирішила зцідити своє молоко.
+
+Lona/SelfMilking_begin2
+\CBct[8]\c[6]Лона：\c[0] ...
+
+Lona/SelfMilking_begin3
+\CBct[6]\c[6]Лона：\c[0] М-м-м!
+
+Lona/SelfMilking_begin4
+\CBct[8]\c[6]Лона：\c[0] ...
+
+Lona/SelfMilking_begin5
+\CBct[6]\c[6]Лона：\c[0] Ух-хух...
+
+Lona/SelfMilking_end1
+\CBct[8]\c[6]Лона：\c[0] Ох...
+
+Lona/SelfMilking_end2
+\narrЛона прибрала наповнений її молоком глечик...
+\narrOFF\CBct[6]\c[6]Лона：\c[0] Хух... здається, набряк пройшов.
+
+Lona/SelfMilking_end2_slut
+\CBct[4]\c[6]Лона：\c[0] Це дуже приємно, так збуджує.
+
+#================================================ Excretion ===================================================
+Lona/Excretion_begin
+\CBct[6]\m[normal]\c[6]Лона：\c[0] У-у-у...
+\CBct[8]\m[shy]\c[6]Лона：\c[0] Хочеться...\optB[Нічого,Випорожнитися<r=HiddenOPT1>,Чистити геніталії<r=HiddenOPT2>,Зцідити молоко<r=HiddenOPT3>]
+
+Lona/Excretion_begin2
+\CBct[6]\m[shy]\c[6]Лона：\c[0] Е-е-е...
+
+Lona/Excretion_end_NoExcretion
+\CBct[2]\m[normal](Ну-у?.. Усе?)
+
+Lona/Excretion_end
+\CBct[3]\m[shy]\c[6]Лона：\c[0] Ух... Так набагато краще...
+
+Lona/Toilet_ClearnUp
+\CBct[8]\m[tired]\plf\prf\c[4]Туалет забитий...
+\CBct[6]\m[fear]\plf\Rshake\c[6]Лона：\c[0] Огидно! Який сморід!
+
+#================================================ Shave =============================
+
+Lona/ShavePubicHair_0_typical
+\CBct[8]\m[shy]\c[6]Лона：\c[0] ...
+\CBct[8]\m[flirty]\c[6]Лона：\c[0] Там забагато волосся, яке збирає бруд. Може, поголити?
+
+Lona/ShavePubicHair_0_tsundere
+\CBct[8]\m[tired]\c[6]Лона：\c[0] \..\..\..
+\CBct[8]\m[shocked]\Rshake\c[6]Лона：\c[0] Коли це воно встигло так відрости?!
+
+Lona/ShavePubicHair_0_gloomy
+\CBct[8]\m[sad]\c[6]Лона：\c[0] *Схлип*
+\CBct[8]\m[fear]\c[6]Лона：\c[0] Чи поголити мені лобок?
+
+Lona/ShavePubicHair_0_slut
+\CBct[8]\m[confused]\c[6]Лона：\c[0] ...
+\CBct[4]\m[shy]\c[6]Лона：\c[0] Щоб було зручніше, краще я це зголю♥
+
+Lona/ShavePubicHair_1
+\m[confused]Скільки потрібно поголити?
+
+Lona/ShavePubicHair_2_typical
+\CBct[20]\m[triumph]\Rshake\c[6]Лона：\c[0] Значно легше!
+
+Lona/ShavePubicHair_2_tsundere
+\CBct[8]\m[confused]\c[6]Лона：\c[0] Повинен бути спосіб позбавитися цього волосся назавжди.
+
+Lona/ShavePubicHair_2_gloomy
+\CBct[3]\m[flirty]\c[6]Лона：\c[0] Набагато комфортніше...
+
+Lona/ShavePubicHair_2_slut
+\CBct[4]\m[pleased]\Rshake\c[6]Лона：\c[0] М-м-м...♥ Мій партнер дуже зрадіє♥

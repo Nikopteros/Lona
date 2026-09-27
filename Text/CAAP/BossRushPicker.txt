@@ -1,0 +1,28 @@
+begin/0
+\board[Desafío del Rey Demonio]
+Hola mis guerreros.
+Bienvenido a la \C[2]Desafío del Rey Demonio\C[0].
+Tengo dos de los reyes más duros del juego ahora mismo para ti.
+En un plazo de \C[6]10\C[0] minutos, debes equiparte y derrotar a los reyes.
+\n
+Los participantes recibirán una tarjeta G8 cool.
+Si derrotas al rey, recibirás una miniatura del personaje del juego.
+
+begin/1
+\CBmp[Shopper,19] Este es el intendente al que puedes solicitar equipo gratuito.
+\CBmp[Healer,19] El extraño doctor puede restaurar tus atributos al máximo.
+\CBmp[Reseter,19] La linda sirvienta restablecerá tus puntos de talento.
+
+begin/2
+\board[listo para comenzar]
+Primero pide tu equipo al intendente y ten en cuenta tu peso de carga.
+A continuación, pulsa \C[6]X\C[0] para acceder al menú y configurar tus objetos, equipo, habilidades y talentos.
+\n
+\n
+Mis mejores deseos y buena suerte.
+
+Pop/resetTrait
+Restablecer talentos
+
+Pop/HealPlayer
+Restaurar vida y resistencia

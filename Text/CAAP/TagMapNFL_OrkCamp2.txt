@@ -1,0 +1,173 @@
+#Plainview
+NFL_OrkCamp2/OvermapEnter
+\cg[map_GobRaider]\m[confused]Aldea Perranway\nEstación de paso para cazadores \optB[Cancelar,Entrar]
+
+#############################################################################  NFLOrkindCmap2 rapeloop and quest
+
+NFL_OrkCamp2/Rapeloop_FoodOffer
+\SndLib[sound_goblin_roar]\narr Quedaron satisfechos con el espectáculo del agujero de carne y le dejaron algo de comida.
+
+NFL_OrkCamp2/Rapeloop_show_end
+\cg[event_OrkindGonnaRape]\SndLib[sound_goblin_roar]\narr El agujero de carne terminó su espectáculo entre burlas, quedaron extremadamente satisfechos.
+\narr Le arrojaron a este divertido agujero de carne varios trozos de carne podrida.
+
+NFL_OrkCamp2/Rapeloop_show_no
+\narr Se enfurecieron cuando el agujero de carne les negó lo que querían.
+\narr Así que decidieron castigar bien a este agujero desobediente...
+
+NFL_OrkCamp2/RapeLoopNonCapture
+\m[fear]\narr Agarraron a Lona - un delgado agujero de carne.
+\m[terror]\narr El hermano mayor dijo que los agujeros de carne deberían enviarse al matadero, pero a la flaca se le puede dejar para entretenimiento...
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_None_WakeBegin
+\narr Los hermanos se cansaron de jugar con el agujero y decidieron descansar bien.
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_DryCropse_WakeBegin
+\narr\..\..\..\ph\SndLib[sys_equip]Parece que trajeron algo a la jaula de Lona...
+
+NFL_OrkCamp2/Rapeloop_DryCropse0
+\ph\cg[event_DryCropse]\SndLib[sound_ZombieSpot]Un Hombre-cerdo jadeante. Partes de su rostro y extremidades faltan, y su cuerpo se ve delgado y demacrado...
+
+NFL_OrkCamp2/Rapeloop_DryCropse1
+\ph\cg[event_WartsDick]Solo su pene cubierto de parásitos estaba enormemente hinchado...
+
+NFL_OrkCamp2/Rapeloop_DryCropse2
+\ph\cg[event_OrkindGonnaRape]\SndLib[Breathing_Goblin]Lona no podía entender lo que gritaban, pero estaba segura de que querían que montara ese pene sucio.
+Un modesto y asqueroso agujero humano solo merece ser usado por un grueso pene infectado de parásitos.....
+\CBct[8]\m[fear]¿Quieres esto?\optD[Hacer lo que quieren<t=5>,¡No quiero!]
+
+NFL_OrkCamp2/Rapeloop_DryCropse2_yes
+\narr\SndLib[sound_chcg_chupa]Lona trepó sobre el pene...
+
+NFL_OrkCamp2/Rapeloop_DryCropse3
+\m[p5_shame]\narr El Hombre-cerdo gime y disfruta del agujero de carne, parece que está a punto de correrse...
+
+NFL_OrkCamp2/DailyJob_select_DryCropse
+\narr Exigen que el agujero de carne tenga sexo con el juguete de carne en la esquina.
+\narr Si no cumples sus demandas, no solo no tendrás qué comer, sino que también serás castigada.....
+
+NFL_OrkCamp2/DailyJob_select_Abom
+\narr Piden que el agujero les dé a luz más bestias de carga...
+
+NFL_OrkCamp2/DailyJob_select_ThrowRock
+\narr Se aburrieron y decidieron divertirse un rato.
+
+NFL_OrkCamp2/DailyJob_end_ThrowRock
+\narr Cansados del juego, parecían satisfechos de que el agujero siguiera consciente.
+
+#############################################################################  NFL_MerCamp_SaveDog 1
+
+MercJoin/leader_Buddy0
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Rshake\c[4]Capitán Mercenario：\C[0]   Sí, este es el lugar. Aquí lo perdimos.
+
+MercJoin/leader_Buddy1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]   ¡Tú! ¡Guíanos! 
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Yo?! ¡¿Por qué yo?!
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    ¿No eres de \c[6]Síbaris\C[0]? ¿Acaso no quieres volver a casa?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Vimos de lo que eres capaz en el campamento, y estoy seguro de que es correcto que tomes el mando.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Emm... Bueno...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Entonces, el compañero que buscas es... ¿Cómo se ve?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Es blanco, tiene una nariz grande y orejas grandes.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Blanco? ¿Nariz grande y orejas grandes?
+\CBct[2]\m[serious]\plf\PRF\c[6]Lona：\C[0]    Vale, síganme.
+
+MercLeader/CompCommand0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    ¡Debe seguir vivo!
+
+MercLeader/CompCommand1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    ¡Más rápido!
+
+MercLeader/CompCommand_foundTGT0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    Tenemos que irnos.
+
+MercLeader/CompCommand_foundTGT1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    No podemos quedarnos aquí. Es demasiado peligroso.
+
+MercJoin/spear
+\CBid[-1,20]\c[4]Lancero：\C[0]    ¡Esto es una estupidez! ¿Por qué demonios volvimos aquí?
+
+MercJoin/bow
+\CBid[-1,20]\c[4]Arquero：\C[0]    ¿¿Rescatarlo?? No tiene sentido.
+
+MercJoin/priest
+\CBid[-1,20]\c[4]Sacerdote：\C[0]    Ni los Santos aprobarían nuestros actos estúpidos.
+
+MercLeader/Rg38_1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué demonios está pasando aquí...?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Parece un lugar donde recolectan comida, o quizás un altar para adorar a un sucio falso dios.
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Hay que ser silenciosos si no queremos convertirnos en su comida.
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Ah....
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    ¡Atención! ¡Veo movimiento!
+
+MercLeader/Rg38_2
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcQuestion]\SETpr[OrcSlaveMaster_normal]\Rshake\c[4]Orcoide：\C[0]    Gu-Gu-Ga...
+
+MercLeader/Rg38_3
+\CBmp[SlaveMaster,20]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_sad]\Rshake\c[4]Orcoide：\C[0]    ¡Gu-Gu-Ga-Ha!
+
+MercLeader/Rg38_4
+\CBmp[Priest,2]\SndLib[sound_OrcHurt]\SETpl[OrcPriest]\Lshake\c[4]Orcoide：\C[0]    ¡¡Gu-Ta-Go!! ¿¿Pene de caballo?! Gu-Cha-Ha.
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_normal]\Rshake\prf\c[4]Orcoide：\C[0]    ¿Gu-Cha??
+
+MercLeader/Rg38_5
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Orcoide：\C[0]    ¡¡¿Peeene de caballoooo!!??
+
+MercLeader/Rg38_6
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcHurt]\SETpr[OrcSlaveMaster_sad]\plf\Rshake\c[4]Orcoide：\C[0]    ¡¿Gu-Cha-Aya?!
+
+MercLeader/Rg38_7
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Orcoide：\C[0]    ¡¡¡Pene de caballo!!!!
+
+MercLeader/Rg38_8
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Pene de caballo...?
+\CBmp[MerLeader,2]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Vamos...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+
+############################################################################# Found Doggy
+
+Doggy/KIA
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    ¡¡No!!! ¡¡Mi \c[6]Leif\C[0]!!!
+
+Doggy/alive_begin1
+\CBid[-1,6]\SndLib[dogDead]\c[4]Perrito：\C[0]    \..\..\..
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    ¡¡\c[6]Leif\C[0]!!!
+\narr El trasero del pobre perrito está severamente desgarrado...
+\narr Tanto que cabría la mano de un adulto...
+\narrOFF\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    Pobre \c[6]Leif\C[0], está bien, estoy aquí.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm\..\....Así que\.....
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Este es el perro que querías rescatar?
+\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    ¡Sí! ¿Algo mal?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ehh.... No...
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Adelante, salgamos de aquí.
+\CBid[-1,20]\SndLib[dogDead]\plf\prf\c[4]Perrito：\C[0]    \..\..\..
+
+Doggy/alive_brd
+\board[Rescate]
+Misión：Rescatar al compañero del Capitán Mercenario
+Recompensa：Gran Medallón x1\i[582]
+Cliente：Capitán Mercenario
+Repetible：Una vez
+Acompaña al Capitán y a su perrito.
+
+Doggy/QuestDone1
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán Mercenario：\C[0]    Bien. Aquí estamos a salvo.
+
+Doggy/QuestDone2
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Bueno...
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Heroína, dime tu nombre.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    M-m\..\..\..\c[4]Lona：\C[0].
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    ¿\c[4]Lona\C[0] dices?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán Mercenario：\C[0]    Bien, \c[6]Leif\C[0] también está muy agradecido. Seguro nos volveremos a ver.
+
+MercLeader/QmsgDoggyKIA0
+¡Leif, Leif!!
+
+MercLeader/QmsgDoggyKIA1
+¡¡Mi perrito!!!
+
+MercLeader/QmsgDoggyKIA2
+¡¡Está muerto!!!

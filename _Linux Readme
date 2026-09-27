@@ -1,0 +1,22 @@
+To use this game properly with Linux, you require Steam with Proton Experimental installed or, less optimally, Wine installed (less optimal as it is less accurate on text rendering and is slower).
+
+If you have these installed, run LinuxStart.bin in the terminal to run LonaRPG. Just keep in mind that you MUST have Steam installed in the DEFAULT FOLDER for it to work correctly.
+
+The recommended minimum requirements for the game are a Ryzen 5 5600, at the very minimum, for single-core performance with this game and a few tweaks, such as:
+
+vm.max_map_count=2147483642
+and/or
+Xanmod or Liquorix kernels.
+
+You can look up on Google how to apply these.
+
+
+
+
+
+How to install Proton-GE if you're fucking nummy num num num.
+Step 1 go locate ProtonUp-Qt in your pacakge manager(if its not there look for it on flathub, if you can't install flatpaks, install flatpak)
+Step 2 install it.
+Step 3 in the bottom left of window click add version and install protonGE (tested with 9.23)
+Step ??? if you couldn't get to step 3 god help you.
+Step 5 Profit!

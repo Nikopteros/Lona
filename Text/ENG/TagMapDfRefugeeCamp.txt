@@ -1,0 +1,254 @@
+thisMap/OvermapEnter
+\m[confused]Doom Fort Refugee camp\optB[Leave,Enter]
+
+##########################################################################################  DF HERESY QUEST LINE
+
+Df_Heresy/0_0
+\CBmp[WhoreQGiver,6]\c[4]Prostitute：\c[0]    Please! Help us!
+\CBmp[John,5]\c[4]Guard：\c[0]    Not my problem! What the fuck is wrong with you?!
+\CBmp[WhoreQGiver,8]\c[4]Prostitute：\c[0]    But you promised! You said you'd help us....
+\CBmp[John,20]\c[4]Guard：\c[0]    You little moot whore, how dare you ask something from me!
+\CBmp[John,5]\c[4]Guard：\c[0]    The only thing your tongue is good for is cleaning cock!
+
+Df_Heresy/0_1
+\CBmp[whore1,20]\c[4]ProstituteB：\c[0]    What should we do now...?
+\CBmp[WhoreQGiver,8]\c[4]Prostitute：\c[0]    Uh\..\..\.. I don't know, ask somebody else.
+\CBmp[WhoreQGiver,8]\c[4]Prostitute：\c[0]    Maybe someone can help us...
+
+Df_Heresy/0_2
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    Go Forth! You fools...
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    hmm....?
+
+Whore/Qmsg0
+We're running out of food.
+
+Whore/Qmsg1
+Sisters we must stand together.
+
+Whore/Qmsg2
+If we unite they'll stop abusing us.
+
+WhoreQgiver/Qmsg0
+Have you found her yet?
+
+WhoreQgiver/Qmsg1
+Please save her!
+
+Df_Heresy/1_0_normal
+\CBid[-1,20]\c[4]Prostitute：\c[0]    You....Are you a mercenary?
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Uh....I think so?
+\CBid[-1,6]\prf\c[4]Prostitute：\c[0]    Please, please help us...
+
+Df_Heresy/1_0_weak
+\CBid[-1,20]\c[4]Prostitute：\c[0]    Are you a whore like us?
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Uhm....?
+
+Df_Heresy/1_1
+\CBct[2]\m[flirty]\c[6]Lona：\c[0]    What's wrong?
+\CBid[-1,20]\prf\c[4]Prostitute：\c[0]    My name is \c[6]Momo\c[0], my sister\c[6]Ranran\c[0] was kidnapped by the cultists, I need your help.
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    The cultists?
+\CBid[-1,20]\prf\c[4]Momo：\c[0]    Yes, the cultists, liars!
+\CBid[-1,20]\prf\c[4]Momo：\c[0]    And she's pregnant too, they must be planning to sacrifice her to their dark Gods!
+
+Df_Heresy/1_1_Cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Liars?! We must get rid of them!
+
+Df_Heresy/1_BRD
+\board[A mother in need]
+Goal： Find\c[6]Ranran\c[0] and bring her back to \c[6]Momo\c[0]
+Reward： None
+Client： Camp Prostitutes
+Quest Term： Single
+
+Df_Heresy/1_OPT
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Hmm......\optB[Nope,Sure]
+
+Df_Heresy/1_agreeEND
+\CBct[2]\m[shocked]\Rshake\plh\c[6]Lona：\c[0]    Pregnant?! They kidnapped a pregnant woman?
+\CBid[-1,2]\prf\c[4]Momo：\c[0]    Kidnapped\..\..\..?
+\CBid[-1,9]\prf\c[4]Momo：\c[0]    Yes! They kidnapped\c[6]Ranran\c[0]! Those evil liars kidnapped my sister!
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\c[0]    Can you tell me more about what happened?
+\CBid[-1,6]\prf\c[4]Momo：\c[0]    They took \c[6]Ranran\c[0] in the middle of the night.
+\CBid[-1,20]\prf\c[4]Momo：\c[0]    Those cultists worship the \c[6]Mother of Fertility\c[0]， They must be using my sister as some sort of evil sacrifice!
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    Did you ask the guards or priests for help?
+\CBid[-1,20]\prf\c[4]Momo：\c[0]    We did, but they wont do anything. They don't care what happens to us.
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    Do you know where they went to?
+\CBid[-1,6]\prf\c[4]Momo：\c[0]    I'm not sure, somewhere to the east?
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\c[0]    Okay! I'll do it! I'll bring your sister back!
+
+Df_Heresy/1_agreeEND_Cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Sis....
+\CBct[20]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    What is it?
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Liars are dangerous! Be careful!
+\CBct[3]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    Don't worry, Sis will be fine!
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Cocona will protect you sis!
+
+Df_Heresy/1_agreeEND_brd
+\board[A mother in need]
+Goald： Find\c[6]Ranran\c[0] and bring her back to\c[6]Momo\c[0]
+Client： \c[6]Momo\c[0] from the refugee camp
+Investigate the area.
+
+Df_Heresy/1_nopeEND
+\CBct[2]\m[flirty]\plh\c[6]Lona：\c[0]    Sorry, I just don't have the time.
+
+Df_Heresy/4to5_0
+\CBfE[20]\c[4]Ranran：\c[0]    Sister...
+\CBid[-1,1]\c[4]Momo：\c[0]    \c[6]Ranran\c[0] Are you okay?
+\CBfE[6]\c[4]Ranran：\c[0]    I'm sorry.
+\CBid[-1,8]\c[4]Momo：\c[0]    Oh stop that, come here.
+
+Df_Heresy/4to5_1
+\CBid[-1,20]\c[4]Momo：\c[0]    Thank you for doing this, but I don't have much to offer you.
+\CBid[-1,20]\c[4]Momo：\c[0]    Take this.
+
+Df_Heresy/4to5_2
+\CBct[2]\m[triumph]\PRF\c[6]Lona：\c[0]    Thank you!
+
+################################################################################### rg 2
+
+Df_Heresy/2to3_1
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    THEY SAID THE SAINT WOULD COME AND RESCUE US FROM THIS CHAOS! WHERE IS HE NOW!? HAS HE DONE ANYTHING?
+\CBmp[Heresy1,20]\c[4]RefugeeA：\c[0]    He's done nothing! He's a coward! The saint is a coward!
+\CBmp[Heresy1,20]\c[4]RefugeeA：\c[0]    He watched as we suffered through all manners of evil! He is a powerless false God!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    THE DAY OF JUDGEMENT. I HAVE WITNESSED IT. BUT ON THAT DAY IT WAS NOT THE SAINT THAT I SAW!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    IT WAS THE MOTHER OF ALL THINGS!THE \c[6]MOTHER OF FERTILITY\c[0] WHO CAME FOR US!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    \c[6]MOTHER OF FERTILITY\c[0] I FOLLOW YOUR GUIDANCE.
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    TAKE A LOOK AT ME, AND THEN TAKE A GOOD LOOK AT YOURSELVES!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    COME AND JOIN THE \c[6]MOTHER OF FERTILITY\c[0] AND SHE WILL PROVIDE YOU WITH BREAD TO QUENCH YOUR HUNGER!
+\CBmp[Heresy2,2]\c[4]RefugeeB：\c[0]    \c[6]Mother of Fertility\c[0]? Who's that?
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    THE \c[6]MOTHER OF FERTILITY\c[0] FREES US FROM OUR FEARS! SPREADS HOPE IN THESE TIMES OF DARKNESS!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    FELLOW COUNTRYMEN! FOLLOW ME AND SEE!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]   WITNESS WITH YOUR OWN EYES THE GREATNESS OF THE \c[6]MOTHER OF FERTILITY\c[0]!
+\CBmp[Heresy3,2]\c[4]RefugeeC：\c[0]    \c[6]Mother of Fertility\c[0]! I'm impressed!
+
+Df_Heresy/2to3_2
+\CBmp[Heresy2,6]\c[4]RefugeeB：\c[0]    Hey you?! Who's the mother of fertility? How come I've never seen her?
+
+Df_Heresy/2to3_3
+\CBmp[Heresy1,20]\c[4]RefugeeA：\c[0]    She is real, I witnessed it with my own eyes. She exists!
+\CBmp[Heresy1,20]\c[4]RefugeeA：\c[0]    Come, follow me, I'll tell you all about why the \c[6]Mother of fertility\c[0]is so great.
+\CBmp[Heresy2,6]\c[4]RefugeeB：\c[0]    What? Don't lie! You wouldn't lie to me, right?
+
+Df_Heresy/2to3_4
+\CBmp[Heresy1,4]\c[4]RefugeeA：\c[0]    How could I? Want to discuss the \c[6]Mother of Fertility\c[0] with me\c[6]privately\c[0]?
+
+Df_Heresy/2to3_5
+\CBmp[Heresy2,4]\c[4]RefugeeB：\c[0]    Ohhhh♥
+\CBmp[Heresy3,4]\c[4]RefugeeC：\c[0]    Man! So lucky!
+\CBmp[Heresy3,20]\c[4]RefugeeC：\c[0]    That's it! I'm converting too! The saints aren't real!
+
+Df_Heresy/2to3_6
+\CBmp[Heresy3,20]\c[4]RefugeeC：\c[0]    I've done it, I've converted!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    Keep it up!
+\CBmp[HeresyPriest,20]\c[4]Preacher：\c[0]    If you work hard \c[6]Pighead\c[0] will speak to the \c[6]Mother of Fertility\c[0] on your behalf.
+
+########################################################################################## Priest 3 to 4
+
+Df_Heresy/3to4_1
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh....Sir....
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    My lost lamb, what is it you need?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Uhm...\optB[Nothing,Mother of Fertility?<r=HiddenOPT0>,Bribe,Join<r=HiddenOPT1>,Attack<r=HiddenOPT2>]
+
+Df_Heresy/3to4Mother
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Just...Who exactly is the \c[4]Mother of Fertility\c[0]?
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    What?!You've never heard of the great\c[6]Mother of Fertility\c[0]?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    I don't think so.....
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    She was born in the black mist, she came here to guide and save us, the neglected refugees!
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    The Saints have forsaken us! But she will guide us to a better life!
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    Praise her!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Oh?
+
+Df_Heresy/3to4_cancel
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Nevermind，it's fine...
+
+Df_Heresy/3to4_pay0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I want to see the \c[4]Mother of Fertility\c[0], Can you show me where she is?
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    You want to join our church?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    I'm not interested in that,I just want to see if the \c[4]Mother of Fertility\c[0] is real or not.
+\cg[event_Coins]\SND[SE/Chain_move01.ogg]\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Look, I have money, you need donations right?
+
+Df_Heresy/3to4_pay1
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    Well....
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    Give me \c[6] #{$story_stats["HiddenOPT4"]}p \c[0] worth of goods, and I'll tell you.
+
+Df_Heresy/3to4_pay2
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    Hey! I get to live another month.
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    shh...Keep your voice down.
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    I'm telling you, they're in the east \c[6]Water Cave\c[0].
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Will they just let me go in?
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    \..\..\..
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    The password is... \c[6]Nicholas\c[0].
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    Don't tell anyone I said that, I'm just trying to get something to eat.
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Oh...?
+
+Df_Heresy/3to4_join0
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh....The \c[6]Mother of Fertility\c[0] Sounds powerful and I want to join.
+\CBmp[HeresyPriest,3]\prf\c[4]Preacher：\c[0]    Good! Were you also sent here by the \c[6]Mother of Fertility\c[0]?
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    It's almost time for the ceremoney, we're heading east towards the \c[6]Water Cave\c[0].
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    There you'll forget all your fears!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    They'll just let me in?
+\CBmp[HeresyPriest,8]\prf\c[4]Preacher：\c[0]    \..\..\..
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    Psst...Keep it down....  the password is... \c[6]Nicholas\c[0]
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    That's the \c[6]Mother of Fertility's\c[0] real name, and it serves as our password.
+
+Df_Heresy/3to4_atk0
+\CBct[5]\m[serious]\PRF\c[6]Lona：\c[0]    .......
+\CBmp[HeresyPriest,2]\prf\c[4]Preacher：\c[0]    What do you want?
+
+Df_Heresy/3to4_atk1
+\CBmp[HeresyPriest,6]\prf\c[4]Preacher：\c[0]    NO! DON'T KILL ME!
+\CBmp[HeresyPriest,6]\prf\c[4]Preacher：\c[0]    I'M NOT A TRUE CULTISTS! I'M JUST TRYING TO SURVIVE!
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    THEY'RE IN THE EAST \c[6]WATER CAVE\c[0]. 
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    THE PASSWORD IS  \c[6]Nicholas\c[0]! PLEASE DON'T KILL ME!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Wha... but I haven't even asked him anything yet...
+
+Df_Heresy/3to4_1_cocona0
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    He is a liar! He is trying to trick you sis!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Don't be afraid, sis knows. He can't fool me.
+\CBfB[6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Cocona is not afraid, but cocona must protect her sister.
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Evil liars and desperates must be eaten! Eaten clean!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh\..\..\..What?!\{\m[shocked]\Rshake Eaten?!
+
+Df_Heresy/3to4_failed
+\CBmp[HeresyPriest,20]\prf\c[4]Preacher：\c[0]    Leave! Go away!
+
+Df_Heresy/3to4_1BRD
+\board[A mother in need]
+Goal： Find\c[6]Ranran\c[0]
+Client： Refugee camp's prostitutes
+Go to the east and investigate the water cave
+
+Df_Heresy/3to4_1BRD2
+\board[Disciples of the Mother of Fertility]
+Goal： Kill the cult priest\c[6]Pighead\c[0]
+Client： The suspicious Fortune Teller from Noer
+Investigate the Water Cave to the east.
+
+########################################################################################## Common
+
+HeresyPriest/RnG0
+\CBid[-1,20]\c[4]Preacher：\c[0]    THE MOTHER OF FERTILITY IS WATCHING!
+
+HeresyPriest/RnG1
+\CBid[-1,20]\c[4]Preacher：\c[0]    How would you know?
+\CBid[-1,20]\c[4]Preacher：\c[0]    Have you ever been to a temple? 
+\CBid[-1,20]\c[4]Preacher：\c[0]    Have you ever even seen the saints?
+\CBid[-1,20]\c[4]Preacher：\c[0]    No?! Then how can you be so sure about that?
+\CBid[-1,20]\c[4]Preacher：\c[0]    How can you say the Saints are real if you've never seen them?
+
+HeresyPriest/RnG2
+\CBid[-1,20]\c[4]Preacher：\c[0]    Don't be fooled! The saint's don't exist!
+
+ThatKid/RNG0
+\CBid[-1,20]\c[4]kid：\c[0]    So hungry....
+
+ThatKid/RNG1
+\CBid[-1,20]\c[4]kid：\c[0]    My parents are in this cart...
+\CBid[-1,20]\c[4]kid：\c[0]    They said that as long as I follow them, everything will be fine, so I'll follow them.
+
+ThatKid/RNG2
+\CBid[-1,20]\c[4]kid：\c[0]    One night my mother was attacked by a large group of people. She kept telling me to run.
+\CBid[-1,20]\c[4]kid：\c[0]    By the time I got back she wasn't moving.
+
+#DOGE + SYNC

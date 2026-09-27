@@ -1,0 +1,105 @@
+thisMap/OvermapEnter
+\m[confused]fugitive camp\optB[Leave,Enter]
+
+#################################################################################
+
+ThisCamp/Found
+\CBct[2]\m[confused]\c[4]It looks like a refugee camp here, but there are no refugee owners?
+\CBct[8]\m[confused]\c[4]Are they fleeing refugees?
+
+alert/MainGuard
+\c[4]guard：\c[0]    Who's there!?
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    Who's asking?\optD[pass by,bluff<r=HiddenOPT0>]
+
+alert/MainGuard_passByAns
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I... I'm just passing by.
+
+alert/MainGuard_passByWin
+\c[4]guard：\c[0]    Did you escape from the village too?
+\c[4]guard：\c[0]    I get it, it's just another hell.
+\c[4]guard：\c[0]    Come here, we won't hurt you.
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    Thanks....
+
+alert/MainGuard_passByLose_follower
+\c[4]guard：\c[0]    Who is following you? !
+
+alert/MainGuard_passByLose
+\c[4]guard：\c[0]    Can't let her go back! kill her!
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    Huh Why??
+
+alert/MainGuard_BluffAns
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I...
+\CBct[20]\m[serious]\PRF\c[6]Lona：\c[0]    I caught a wild boar! Today's dinner is here!
+
+alert/MainGuard_BluffWin
+\c[4]guard：\c[0]    Very good! You did a great job!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    \..\..\..Ha ha?
+
+Nap/Friendly
+\narr Someone carried Lona away.
+\narrOFF\c[4]refugee：\c[0]    We have run out of food to take in.
+\c[4]guard：\c[0]    She is like us, a runaway slave from the village, let her stay here.
+
+Nap/Friendly_wake0
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    What's wrong with me? Where am I?
+\CBmp[GuardMas,20]\prf\c[4]guard：\c[0]    You also escaped from the Fishkind's Village, right?
+
+Nap/Friendly_wake1
+\CBmp[GuardMas,20]\prf\c[4]guard：\c[0]    We are like you, and now you are safe.
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    Thanks...
+
+Nap/Enemy
+\narr Someone carried Lona away.
+\narrOFF\c[4]refugee：\c[0]    Do you really want to eat this kind of thing?
+\c[4]guard：\c[0]    We have no choice, eat or die.
+
+Nap/Enemy_wake0
+\m[tired]\c[4]Sob sob sob...
+\m[confused]\c[4]What's wrong with me? Where am I?
+
+Nap/Enemy_wake1
+\m[shocked]\Rshake\c[4]Ah?! Why am I tied up?
+\m[terror]\Rshake\c[4]What are those corpses below??
+\m[bereft]\Rshake\c[4]No! Don't eat me!
+
+Nap/Enemy_wake_giveUP
+\m[sad]\Rshake\c[4]Sorry...I'm tired...
+\m[tired]\Rshake\c[4]Just let me go like this.
+
+Nap/BondageStruggle_opt
+\optD[struggle,give up]
+
+killed/all
+\m[tired]\c[6]Lona：\c[0]    Sorry but I have my reasons...
+
+gameOver/nap0
+\narr Lona dedicated his body to starving refugees...
+
+################################################################################# Common MSG
+
+Commoner/RNG_Dialog0
+\c[4]refugee：\c[0]    I shouldn't have escaped, none of this has changed at all.
+
+Commoner/RNG_Dialog1
+\c[4]refugee：\c[0]    At least there is food to stay inside, why should I escape.
+
+Commoner/RNG_Dialog2
+\c[4]refugee：\c[0]    I eat less and less, what should I do tomorrow?
+
+Guard/Qmsg0
+Can you find something to eat today?
+
+Guard/Qmsg1
+Those who went hunting yesterday did not come back...
+
+Guard/Qmsg2
+It won't work like this.
+
+Commoner/Qmsg0
+I am so hungry...
+
+Commoner/Qmsg1
+Is there anything to eat?...
+
+Commoner/Qmsg2
+please... give me something to eat...

@@ -1,0 +1,148 @@
+GoldenBar/OvermapEnter
+\m[confused]金霸會館\n有錢人的聚會場所。\optB[算了,進入]
+
+################################################################
+
+art/Rage
+\ph\cg[other_ArtRage]憤怒，我沒有生氣！
+\m[confused]\c[6]洛娜：\c[0]    什？
+
+art/Chaos
+\ph\cg[other_ArtChaos]混亂，我到底讀了什麼？
+\m[confused]\c[6]洛娜：\c[0]    哈？
+
+art/Hopeless
+\ph\cg[other_ArtHopeless]絕望，世界將變的更美好。
+\m[confused]\c[6]洛娜：\c[0]    藝術到底是什？
+
+################################## Vandor ############################
+
+vandor/Beigin
+\m[confused]\c[4]服務員：\c[0]    歡迎來到金霸會館，我能為您服務嗎？\optB[算了,交易,販售乳汁<r=HiddenOPT0>,工作<r=HiddenOPT1>]
+
+vandor/Beigin_slave
+\m[confused]\c[4]服務員：\c[0]    喂！死奴隸！工作了！\optB[算了,餵奶<r=HiddenOPT0>,強制榨乳<r=HiddenOPT1>]
+
+vandor/SellMilk
+\c[4]服務員：\c[0]    是的！我們會高價收購妳的乳汁。
+\m[shy]\c[6]洛娜：\c[0]    這真是.. 太好了？
+
+vandor/SellMilk2
+\c[4]服務員：\c[0]    我看看\..\..\..
+
+vandor/SellMilk_cut0
+\c[4]服務員：\c[0]    一共
+
+vandor/SellMilk_cut1
+份人奶，每份
+
+vandor/optWork
+\m[flirty]\c[6]洛娜：\c[0]    有什麼我能做的嗎？
+\c[4]服務員：\c[0]    我看看....\optB[算了,餵奶<r=HiddenOPT0>,榨乳<r=HiddenOPT1>]
+
+vandor/optWork_braFeed
+\board[餵奶]
+時間內盡可能將客人餵飽。
+工作中奔跑將會消耗額外體力。
+剩餘時間越多回報越高。
+
+vandor/optWork_braFeed_decide
+\c[4]服務員：\c[0]    去餵飽那些孩子吧！
+
+vandor/Beigin_Dirt
+\m[confused]\c[4]服務員：\c[0]    這裡不歡迎乞丐。
+
+################################## Work #####################################
+
+vandor/Opt_work_end_summon
+\c[4]服務員：\c[0]    動作太慢了！客人都生氣了！
+\m[sad]\c[6]洛娜：\c[0]    ......對不起....
+
+vandor/Opt_work_end_NoSummon
+\c[4]服務員：\c[0]    幹得不錯，下次也靠妳了。
+\m[flirty]\c[6]洛娜：\c[0]    ......謝謝？
+
+Commoner/BreastFeedQmsg0
+媽媽的味道！
+
+Commoner/BreastFeedQmsg1
+好喝！
+
+Commoner/BreastFeedQmsg2
+噶！
+
+Guard/Failed0
+\c[4]守衛：\c[0]    妳在幹什麼！ 還混！
+
+Guard/Failed1
+\c[4]守衛：\c[0]    我們不是讓你進來偷懶的！
+
+Guard/Failed2
+\c[4]守衛：\c[0]    滾出去！
+
+################################## Commoner ############################
+
+FishRich/Begin
+\c[4]商人：\c[0]    你們將... 我族.... 趕出家園...
+\c[4]商人：\c[0]    現在... 你們... 需要我們了？
+\c[4]商人：\c[0]    那些.... 魔物就是... 對你們的... 逞罰....
+
+Commoner/Begin0
+\c[4]富人：\c[0]    現在產乳的奴隸正夯！
+
+Commoner/Begin1
+\c[4]富人：\c[0]    小妹妹妳產奶嗎？
+
+Commoner/Begin2
+\c[4]富人：\c[0]    多喝人奶就可以免疫邪惡的入侵！
+
+Commoner/BeginDirt0
+哪來的贓鬼！
+
+Commoner/BeginDirt1
+臭死了！ 滾！
+
+Commoner/BeginDirt2
+哪來的乞丐！
+
+FatGuard/Qmsg0
+看什麼？
+
+FatGuard/Qmsg1
+別鬧事！
+
+FatGuard/Qmsg2
+滾！
+
+MilkMachine/Qmsg0
+奢華的榨乳機
+
+MilkMachine/Qmsg1
+上面的人似乎很痛苦
+
+GoldenSlave/Qmsg0
+我在工作。
+
+GoldenSlave/Qmsg1
+別跟我說話。
+
+GoldenSlave/Qmsg2
+........
+
+CommonPPL/NapRape
+\c[4]富人：\c[0]    這個垃圾怎麼倒在這？
+
+CommonPPL/NapRape1
+\c[4]富人：\c[0]    呼呼呼。
+
+CommonPPL/NapRape2
+\narr洛娜被搬走了
+
+CommonPPL/NapRape3
+\c[4]富人：\c[0]    我偶爾也想玩玩看下等人，被我臨幸該感到榮耀。
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]富人：\c[0]    來人阿！
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]富人：\c[0]    這才對♥

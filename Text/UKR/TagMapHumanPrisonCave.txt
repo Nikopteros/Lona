@@ -1,0 +1,462 @@
+HumanPrisonCave/OvermapEnter
+\m[confused]Кристальна Шахта \optB[Скасувати,Увійти]
+
+###################################### 狩獵ABOM任務相關 ###################################################
+
+Manager/Qprog1
+\CBmp[Manager,20]\m[normal]\c[4]Начальник Шахти:\C[0] Ти тут, щоб очистити місцевість від монстрів?
+\CBmp[Manager,20]\prf\c[4]Начальник Шахти:\C[0] Вони надіслали сюди для цього тебе? Маленьке дівчисько?
+\CBct[2]\m[confused]\PLF\c[6]Лона:\C[0] Аа...?
+\CBmp[Manager,20]\prf\c[4]Начальник Шахти：\C[0] Гаразд, нехай.
+\CBmp[Manager,20]\prf\c[4]Начальник Шахти:\C[0] Монстри як правило сидять глибше в шахті.
+\CBmp[Manager,20]\prf\c[4]Начальник Шахти:\C[0] Будь обережна, і не лізь у місце відпочинку шахтарів.
+\CBmp[Manager,20]\prf\c[4]Начальник Шахти:\C[0] Ці хлопці вже дуже давно не бачили жінок, розумієш, про що я?
+
+Manager/Qprog1_KillCounted
+\CBct[20]\m[triumph]\c[6]Лона:\C[0] Вийшло! Здається, суперечка цих тварин більше не залишилася.
+\CBmp[Manager,19]\m[pleased]\c[6]Лона:\C[0] Треба повідомити про це Начальник шахти.
+
+Manager/Qprog2
+\CBmp[Manager,20]\prf\m[normal]\c[4]Начальник Шахти:\C[0] Ух ти! Маленька дівчинка зробила велику справу.
+\CBmp[Manager,20]\prf\m[normal]\c[4]Начальник Шахти:\C[0] Добре, ось жетон як доказ завершення роботи.
+\CBct[20]\m[flirty]\c[6]Лона:\C[0] Дякую!
+
+####################################### Captured ####################################################
+
+Narr/Captured0
+\narr Охоронці шахти оточили Лону...
+
+Narr/Captured1
+\SETpl[Mreg_pikeman]\c[4]Стражник A：\C[0] Що це за малявка тут?
+\SETpr[Mreg_guardsman]\c[4]Стражник B：\C[0] Я не знаю, може вона прийшла сюди за завданням із Гільдії?
+\prf\PLF\c[4]Стражник A：\C[0] Думаєш? Вона правда в це повірила?
+\PRF\plf\c[4]Стражник B：\C[0] Хто знає, але вона тут?
+\prf\PLF\c[4]Стражник A：\C[0] Цок-цок... Що відбувається з цим світом...
+\PRF\plf\c[4]Стражник B：\C[0] Ну Що ж, давай їй все покажемо.
+
+Narr/Captured2
+\m[confused]\prh\narr Лона була схоплена і ув'язнена...
+
+######################################
+
+HumanPrisonCave/guard_yelling
+\SETpl[Mreg_guardsman]\PLF\c[4]Стражник:\C[0]\n УВАГА! Хтось намагається втекти!
+\m[shocked]!!!!!!
+
+#######################################
+
+HumanPrisonCave/RapeLoopTorture_begin1
+.........
+......
+...
+\SETpl[Mfat_tortruer]\m[pain]\Lshake\SND[SE/Whip02.ogg]\Rshake\c[4]Невідомий：\C[0] \{ЕЙ, СУЧКА! Прокинься!
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\m[shocked]\PRF\c[6]Лона:\C[0] АХ?!
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\SETpl[Mfat_tortruer]\m[hurt]\Lshake\SND[SE/Whip01.ogg]\c[4]Мучач:\C[0] Я СКАЗАВ, ПРОСНИСЬ, БЛЯДЬ!
+
+HumanPrisonCave/RapeLoopTorture_begin2_2
+\SETpl[Mfat_tortruer]\m[p5sta_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]Мучач:\C[0] Будьте уважні, марні черви!
+
+HumanPrisonCave/RapeLoopTorture_begin2_3
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Мучач:\C[0] .............
+
+HumanPrisonCave/RapeLoopTorture_begin2_4
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Мучач:\C[0] ......
+
+HumanPrisonCave/RapeLoopTorture_begin2_5
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]Мучач:\C[0] ...
+
+HumanPrisonCave/RapeLoopTorture_begin2_6
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Мучач:\C[0] Якщо надумаєте битися або не вкладетеся в денну норму - чекайте проблем!
+
+HumanPrisonCave/RapeLoopTorture_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Дуже добре, завтра ви повинні здати
+
+HumanPrisonCave/RapeLoopTorture2_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Дуже добре, завтра ви повинні здати
+
+HumanPrisonCave/RapeLoopTorture_begin3_reflag
+кристалічної руди, інакше чекайте на покарання!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] ВІЛЬНІ!
+
+HumanPrisonCave/RapeLoopTorture2_begin3_reflag
+Кристалічна руда.
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] СЛУХАЙТЕ УВАЖНО! Краще не вимотуйте веселячись з нею, не забувайте про роботу!
+
+HumanPrisonCave/RapeLoopTorture_begin4
+\ph\narr\..\..\..\..
+
+HumanPrisonCave/RapeLoopTorture_end
+Лона знепритомніла. Інші ув'язнені віднесли її до ліжка.
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin1
+\SND[SE/Whip02.ogg]\{ВНННИИИМАННИЕ!!!
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_1
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Мучач:\C[0] ...............
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_2
+\SETpl[Mfat_tortruer]\m[terror]\Rshake\SND[SE/Whip02.ogg]\Lshake\c[4]Мучач:\C[0] ...........
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_3
+\SETpl[Mfat_tortruer]\m[sad]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Мучач:\C[0] .......
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_4
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Мучач:\C[0] ....
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_0
+\m[sad] Ця людина виглядає так, ніби вона вже мертва.
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_1
+\ m [sad] Ця людина виглядає так, ніби ось-ось помре.
+
+HumanPrisonCave/RapeLoopTorture_FristTime0
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Хей! Здається, у нас тут нова хоче стати частиною щасливого рабського життя?
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] І це\..\..\.. МАЛЕНЬКА ДІВЧИНКА!
+
+HumanPrisonCave/RapeLoopTorture_FristTime1
+\m[wtf]\Rshake Це погано, він говорить про мене.
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Її звуть... Лона? Яке чарівне ім'я!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Будьте з нею все ввічливіше ... Хах, жартую, звичайно!
+
+HumanPrisonCave/RapeLoopTorture_FristTime2
+\m[shy]\cg[event_Eyes] Їхні погляди починають насторожувати мене...
+\m[fear] Що за дивні погляди...?
+\m[terror]\cgoff Не можна показувати слабину, інакше вони накинуться на мене.
+
+#######################################
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1
+\m[hurt]\SND[SE/Chain_move01.ogg]\Rshake\c[6]Лона:\C[0] ЙЕЕЕХХ!!!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Ви добре сьогодні попрацювали!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Я бачив, як ви всі працювали...!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] У ТІ ЧАС ЯК ЦЯ ЧОРТОВА СУКА ПРОСТО ЛІНУВАЛАСЯ!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_1
+\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[6]Лона:\C[0] АААХХХ!!!
+\m[terror]\c[6]Лона:\C[0] Ні! Я не лінувалася! Я працювала щосили!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_2
+\SETpl[Mfat_tortruer]\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[4]Мучач:\C[0] \{ЗАТКНИСЬ!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] Сьогодні всі можуть використовувати тіло цієї дрібної сучки як нагороду!
+\SETpl[raper_group]\Lshake\c[4]Група рабів шахти:\C[0] ДІВКА!
+\SETpl[raper_group]\Lshake\c[4]Група рабів шахти:\C[0] Це дівчинка! Ми можемо трахнути справжню дівчинку!
+\SETpl[raper_group]\Lshake\c[4]Група рабів шахти:\C[0] Охуенно! Давно у мене не було жіночого тіла!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучач:\C[0] А НУ ТИХО! Один за одним! Кожен отримає свою чергу!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_3
+.........
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_typical
+\m[bereft]\c[6]Лона:\C[0] Не треба! Відпустіть мене! Будь ласка...!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_tsundere
+\m[angry]\c[6]Лона:\C[0] НІ! Не чіпайте мене!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_gloomy
+\m[terror]\c[6]Лона:\C[0] Н-Ніє......
+\m[fear] Я не зможу витримати стільки людей, я помру!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_slut
+\m[lewd]\c[6]Лона:\C[0] Хі-хі! Я не планую програвати вам, хлопці... ♥
+
+HumanPrisonCave/RapeLoopMeattoilet_end
+\SETpl[raper3]\Lshake\c[4]Раб:\C[0] Я наступний!
+\SETpl[raper2]\Lshake\c[4]Раб:\C[0] НІ! Я!
+\SETpl[raper1]\Lshake\c[4]Раб:\C[0] Блять! А я че, після всіх?
+Весілля шахтарів тривало до самого заходу сонця.
+Насилувана без зупинки Лона зрештою знепритомніла. Коли шахтарі насолодилися їй, вони віднесли її на ліжко.
+
+####################################### ############################
+
+HumanPrisonCave/Guard_begin1_slave
+\c[4]Стражник：\C[0] За роботу! Тупа рабиня!
+
+HumanPrisonCave/Guard_begin1_maggot
+\c[4]Стражник：\C[0] Гей, лишайна! За роботу!
+
+HumanPrisonCave/Guard_begin1_sexy
+\c[4]Стражник：\C[0] Чуєш, повія! За справу!
+
+HumanPrisonCave/Guard_begin1_weaker
+\c[4]Стражник：\C[0] Гарний страждати! За роботу!
+
+HumanPrisonCave/Guard_begin1_moot
+\c[4]Стражник：\C[0] Роби, що тобі велено, напівкровка!
+
+HumanPrisonCave/Guard_begin1_lona
+\c[4]Стражник：\C[0] Повернися за роботу!
+
+HumanPrisonCave/Guard_Opt
+\m[confused]\c[6]Лона:\C[0] Ммм? \optB[Забудьте,Обмін,Проституція<r=HiddenOPT1>]
+
+####################################### # ############################
+
+HumanPrisonCave/MinerM_begin1_slave
+\c[4]Раб：\C[0] Відійди! Не чіпай мене!
+
+HumanPrisonCave/MinerM_begin1_maggot
+\c[4]Раб：\C[0] Відійди! Не чіпай мене!
+
+HumanPrisonCave/MinerM_begin1_sexy
+\c[4]Раб：\C[0] Ха-ха...
+
+HumanPrisonCave/MinerM_begin1_weaker
+\c[4]Раб：\C[0] Мм?
+
+HumanPrisonCave/MinerM_begin1_moot
+\c[4]Раб：\C[0] Не відволікай!
+
+HumanPrisonCave/MinerM_begin1_lona
+\c[4]Раб：\C[0] Чого ти хочеш?
+
+
+####################################### 搶劫型礦工 ####################################################
+
+HumanPrisonCave/MinerHairTriggerM_begin_basic
+\c[4]Раб：\C[0] Твої речі - мої, а мої речі - все одно Мої!
+
+HumanPrisonCave/MinerHairTriggerM_Opt_basic
+\m[confused]\c[6]Лона:\C[0] Ммм? \optB[Забудьте,Проституція<r=HiddenOPT1>]
+
+HumanPrisonCave/MinerHairTriggerM_begin_aggro
+\c[4]Раб：\C[0] Гей, мала, а ну ганяй сюди всі свої кристали.
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro
+\m[shocked]\c[6]Лона:\C[0] \optD[Віддати йому свої кристали...<t=5>,Нема за що!]
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_no
+\m[angry]\c[6]Лона:\C[0] Ні! Я вам нічого не дам!
+\c[4]Раб:\C[0] Ти смієш мені відмовляти?!
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_yes
+\m[sad]\c[6]Лона:\C[0] Все... Я дам тобі все! Тільки, будь ласка, не роби мені боляче...
+\c[4]Раб：\C[0] Хіххіхі! Хе-хе... Гарна дівчинка.
+
+#####################################################################################
+
+HumanPrisonCave/CaveTrader_begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник：\C[0] Чого дивишся? Загубилася? Ти вже здала зібрані кристали?
+
+HumanPrisonCave/CaveTrader_Opt
+\CBmp[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Емм? \optB[Неважливо,Обмін,Поговорити,Здати кристали,Проституція<r=HiddenOPT1>]
+
+HumanPrisonCave/CaveTrader_Talk1
+\CBmp[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ну...
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Тобі треба набрати кристалів до завтра, інакше тебе покарають.
+\CBid[-1,5]\Lshake\prf\c[4]Стражник：\C[0] Зараз саме час добувати їх, якщо тобі потрібна їжа та вода. Якщо не виконаєш норматив – будеш голодною!
+\CBmp[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Гаразд... Я зрозуміла.
+
+HumanPrisonCave/CaveTrader_AnsSexService
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Мені це не цікаво!
+
+HumanPrisonCave/CaveTrader_GiveMineral_begin
+\CBmp[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Ось що я змогла добути.
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Ага.
+...........
+.....
+...
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_OkayButMore
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] НЕДОСТАТО! Повертайся і продовжуй копати далі!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_None
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] \{БЛЯТИ! Ти смієш брехати мені?!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_Full
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Що ж! Іди копай, доки не помреш!
+
+HumanPrisonCave/CaveTrader_end
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Поспішай і приступайте до роботи! Ти дрібна сучка!
+
+HumanPrisonCave/CaveTrader_mineneed0
+Потрібно ще  
+
+HumanPrisonCave/CaveTrader_mineneed1
+Кристалів.
+
+######################################
+
+HumanPrisonCave/Windcave_frist_time
+\CBct[8]\m[shocked]\cg[map_region_hole]\c[6]Лона:\C[0] Вітер?!
+\CBct[2]\m[normal]\c[6]Лона:\C[0] Я відчуваю вітерець, а значить, поруч має бути вихід.
+\CBct[8]\m[confused]\c[6]Лона:\C[0] Я не велика. Якщо я зможу ще трохи розширити цю дірку.
+
+HumanPrisonCave/Windcave_Opt
+\CBct[8]\m[confused]\cg[map_region_hole]Дірка у стіні. Ви можете відчути вітер, що дме через отвір. \optB[Не витрачати сили...,Спробувати розширити дірку!<r=HiddenOPT1>]
+
+HumanPrisonCave/Windcave_Opt_dig
+\CBct[8]\m[normal]Скільки сил витратити? \optB[Не витрачати сили...,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+HumanPrisonCave/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]Лона:\C[0] Я довго намагалася збільшити її...
+\CBct[6]\m[tired]\c[6]Лона:\C[0] Але... Уф... Занадто втомилася...
+
+HumanPrisonCave/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]!!!!!
+\CBct[1]\m[shocked]!!!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Лона:\C[0] Вийшло! Я можу втекти звідси!
+
+###################################### RAND RAPE LOOP ################################################
+
+HumanPrisonCave/RapeLoop_begin1
+\m[shocked]\c[6]Лона:\C[0] !!!!!
+\SETpl[raper_group]\prf\c[4]В'язні:\C[0] \{ДІВЧИНКА!
+\SETpl[raper_group]\prf\c[4]В'язні:\C[0] \{Хехе, дівко!
+\SETpl[raper_group]\prf\c[4]В'язні:\C[0] Давненько я нікого не ебал!
+\m[terror]\PRF\c[6]Лона:\C[0] ЩО?! З-Стійте!
+
+###################################### DirtyJohnson #################################################
+
+DirtyJohnson/else_fapping
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\c[4]Брудний Джонсон\c[0] Хе-хе...♥
+
+DirtyJohnson/FirstTime
+\CBct[8]\SETpl[DirtyJohnson_angry]\m[confused]\PLF\PRF\c[4]Шахтар:\c[0] Хм\..\..\..?
+\CBct[6]\m[shy]\plf\PRF (Від нього так і смердить...)
+\CBid[-1,8]\SETpl[DirtyJohnson]\m[confused]\Lshake\prf\c[4]Шахтар:\c[0] Маленька красуня, ти тут недавно?
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]Шахтар:\c[0] Я!\.\c[6]Брудний Джонсон\c[0],тоді ти.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\c[0] Е-е...мене звуть Ло\..\..\..\CBid[-1,3]\SETpl[DirtyJohnson_penis]\m[DirtyJohnson_angry_penis]\cg[ мені!
+\CBct[20]\m[terror]\PLF\Rshake\c[6]Лона:\c[0] Чого?!Що?!
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\m[terror]\Lshake\prf\c[4]Брудний Джонсон\c[0] Нова сучка не хоче чистити мій член? За відмову королю печери ти будеш покарана.
+
+DirtyJohnson/FirstTime_blowjob_refuse
+\cgoff\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]Брудний Джонсон\c[0] Ти, сука, посміла відмовити королю печери!
+
+DirtyJohnson/FirstTime_blowjob_to_deepthroat
+\c[4]Брудний Джонсон\c[0] У-у-у!
+\narr \c[4]Брудний Джонсон\c[0]Грубо тягне Лону за волосся.
+
+DirtyJohnson/FirstTime_blowjob_done
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон\c[0] Ну як?Добре, правда?
+\CBid[-1,3]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон\c[0] Поки ти моя жінка, ти можеш смоктати мій член кожен день.♥
+
+DirtyJohnson/Lona_EH
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона:\c[0] \{Ха!?
+
+DirtyJohnson/WhoreWork_win_new
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Воу-воу!!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Давненько я цим не займався. На ньому зібралося багато бруду.
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Я дозволю тобі почистити мій член.
+
+DirtyJohnson/WhoreWork_win_old
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Оооо!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Яка гарна дівчинка...
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Мені потрібно щоб ти почистила мій член і цього разу.
+
+#unused
+DirtyJohnson/WhoreWork_failed
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Мені не цікаві твої послуги! Валі звідси!
+
+DirtyJohnson/begin_BackToCave
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[sad]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Гей? Чому ти повернулася?
+\CBid[-1,4]\SETpl[DirtyJohnson_angry_penis]\m[sad]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Ти скучила за моєю спермою або членом?
+
+DirtyJohnson/begin0
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Це моє королівство, і я король печер.
+
+DirtyJohnson/begin1
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\m[sad]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Хе-хе-хе♥ Бачачи тебе, мій член стає страшенно твердим.
+
+DirtyJohnson/begin2
+\CBid[-1,2]\SETpl[DirtyJohnson]\m[normal]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Гей-ей, чого тобі треба?
+
+DirtyJohnson/begin_DoorBlockMode
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\m[normal]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Сучка, ти куди зібралася?
+
+####################################### DirtyJohnson captured
+
+DirtyJohnson/Captured0
+\SETpl[DirtyJohnson_angry]\Lshake\c[4]Брудний Джонсон：\c[0] Хе-хе-хе... Ти належиш мені.
+
+####################################### DirtyJohnson wakeup first time rape
+
+DirtyJohnson/FirstWakeupRape0
+\CBmp[DirtyJohnson,3]\SETpl[DirtyJohnson]\Lshake\c[4]Брудний Джонсон:\c[0] У-у-у-у♥♥
+
+DirtyJohnson/FirstWakeupRape1
+\CBmp[DirtyJohnson,4]\c[4]Брудний Джонсон:\c[0] Ааах♥ Не можу зупинитися♥
+
+DirtyJohnson/FirstWakeupRape2
+\CBmp[DirtyJohnson,20]\c[4]Брудний Джонсон:\c[0] Бля! Вже близько!
+
+DirtyJohnson/FirstWakeupRape3
+\CBmp[DirtyJohnson,1]\c[4]Брудний Джонсон:\c[0] Даааааааааа!!
+
+DirtyJohnson/FirstWakeupRape4
+\CBct[8]\m[tired]\c[6]Лона:\c[0] \..\..\..
+\CBct[20]\m[pain]\Rshake\c[6]Лона: \c[0] \{Ха!?
+\CBct[6]\cg[event_GroinClearn]\m[shy]\PRF\c[6]Лона:\c[0] Що відбувається? !
+
+####################################### DirtyJohnson opt dialog
+
+DirtyJohnson/opt_who_are_you
+Хто ви?
+
+DirtyJohnson/opt_what_happen_to_me
+Що зі мною сталося?
+
+DirtyJohnson/opt_merry
+Стати його жінкою.
+
+DirtyJohnson/opt_sex_with
+Зайнятися сексом.
+
+DirtyJohnson/opt_who_are_you_ans0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\c[0] Е-е... Вибачте... Ви....
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Це моє королівство, я король печер, Брудний Джонсон.
+\CBid[-1,5]\SETpl[DirtyJohnson_penis]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Тепер, коли ти тут, навіть не думай йти. Приходь і стань моєю жінкою.
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона:\c[0] Я.....
+\CBid[-1,8]\SETpl[DirtyJohnson]\PLF\prf\c[4]Брудний Джонсон：\c[0] .....
+
+DirtyJohnson/opt_what_happen_to_me_ans0
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона:\c[0] Що ти зі мною зробив?
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Я трахкав твою пизду. Тепер ти моя.
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\c[0] Що за нісенітниця ти несеш?
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Ти не вийдеш звідси, дрібна сучка. Просто будь моєю жінкою.
+\CBct[6]\m[fear]\plf\Lshake\c[6]Лона:\c[0] Дрібна?!
+
+DirtyJohnson/opt_merry_ans0
+\CBct[20]\m[tired]\plf\PRF\c[6]Лона:\c[0] Я...буду твоєю жінкою?
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон:\c[0] Якщо ти слухатимешся мене і щодня чистиш мій член, то будеш звільнена від усієї роботи в печері.
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Ну так що? Будеш моєю жінкою?
+
+DirtyJohnson/opt_merry_ans_no
+\CBct[6]\m[bereft]\plf\PRF\c[6]Лона:\c[0] \{Не хочу!
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]Брудний Джонсон：\c[0] ....
+
+DirtyJohnson/opt_merry_ans_yes
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\c[0] Ну...Напевно буду...
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Брудний Джонсон：\c[0] Відмінно, давай зіграємо весілля прямо зараз.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\c[0] Що?!Весілля?!
+
+DirtyJohnson/opt_merry_ans_rapeloop0
+asdasdasd
+
+####################################### merry RapeLoop
+
+
+
+####################################### DirtyJohnson EXT
+
+asdasd/asdasd
+Брудний Джонсон
+Тебе це не захоплює, так? Тримайся від мене подалі! Не підходь до мене
+Я не знаю, скільки там хвороб.
+
+asdasd/asdasd
+Брудний Джонсон
+Минулого разу здоровань чіпав сучку, на яку поклав око.
+Потім плюнув мені в обличчя.
+Я добре побив його, але через два дні в нього по всьому обличчю пішов гній, і він помер.
+
+asdasd/asdasd
+Брудний Джонсон
+цей брудний ублюдок?
+Кажу тобі, якось я бачив, як він насрав, і з його очних яблук вилізла ціла купа смугастих черв'яків.
+І знаєте, що? Він схопив черв'яків і з'їв їх.
+Він навіть не людина.

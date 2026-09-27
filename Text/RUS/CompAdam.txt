@@ -1,0 +1,107 @@
+
+Adam/NonFristTimeBegin
+\CBmp[Adam,2]\SETpl[Adam_normal]\Lshake\c[4]Незнакомец：\C[0]    Я тебя нигде раньше не встречал?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эммм, я так не думаю.
+
+Adam/0_Begin0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\c[4]Незнакомец：\C[0]    Мне нужен разведчик, который умеет вести себя тихо. Это похоже на тебя?
+
+Adam/0_Begin2
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    На меня? \optB[Нет...,Это я!]
+
+Adam/1_Begin_yes
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Да, это я.
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Но ты похожа... на обычного ребёнка.
+\CBct[1]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Эй! Я не ребёнок!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Хммм\..\..\.. Ты из Сибариса?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Да, а что?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Ты ведь знаешь, что армия этого острова поддерживается за счёт эксплуатации Сибариса?
+\CBct[2]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Эм... Не может быть, правда?!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Мне нужна помощь кого-то вроде тебя.
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    Ты должна пройти мой тест и доказать мне, что ты достойный разведчик. Я хочу, чтобы ты пошла и украла медаль, приколотую к доспехам \c[6]Сотника\C[0] в военном лагере!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Чтобы мотивировать тебя, когда ты пройдёшь тест, я дам тебе медяк.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хммм...
+
+Adam/1_Begin_done0
+\CBct[20]\m[pleased]\c[6]Лона：\C[0]    Получилось!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Молодчинка, я знал, что ты сможешь.
+
+Adam/1_Begin_done1
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Найди меня здесь снова через пару дней, я дам тебе ещё задание.
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Возьми!
+
+Adam/1_Begin_done2
+\CBct[8]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Спасибо!
+
+Adam/2_begin_1
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Хэй. Девчушка, вот мы и встретились снова.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эммм, и снова привет.
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    У меня есть задание, для которого нужна твоя помощь.
+\CBmp[Adam,8]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Ты когда-нибудь слышала о том, что такое \c[4]мушкет\C[0]?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Не-а, никогда...
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Ну да, ты не похожа на солдата. Но, конечно, ты знаешь, что такое пушка, верно?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    По сути, это пушка, уменьшенная до такой степени, что её можно держать одними руками. Она работает на сильной магии, но для её использования не требуется никаких знаний о магии.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Звучит довольно круто!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Ещё как!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    В арсенал на востоке крепости недавно поступила партия мушкетов. Мне нужно, чтобы ты помогла мне украсть несколько из них.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Насчёт награды\..\..\.. Я тебя не обделю!
+
+Adam/2_begin_board
+\board[Кража мушкетов]
+Задача：Украсть несколько этих ручных пушек
+Награда：Золотая Монета х2\i[581]
+Клиент：Незнакомец
+Повторяемость：Одноразовое
+Отправляйтесь в арсенал, расположенный на востоке крепости, и украдите несколько мушкетов.
+
+Adam/2_begin_decide
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Ну, что скажешь? \optB[Я ещё подумаю...,Я справлюсь!]
+
+Adam/2_begin_accept1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Лона：\C[0]    Да не проблема! Я справлюсь!
+\CBmp[Adam,3]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Какая умничка! Вот!
+
+Adam/2_begin_accept2
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аа?!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Это медаль, что ты мне принесла. Она ещё служит пропуском. Она означает, что ты служишь в \c[4]Штабе Стражи\C[0].
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Возьми её с собой, иначе ты туда не попадёшь.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    \c[6]Мушкеты\C[0] будут выглядеть как деревянные ружья, но с прикрепленной к ним металлической трубой.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Скажи им, что ты нанята гильдией и тебе нужно прочитать, проверить и скопировать записи десятника \c[4]Брайана\C[0].
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Хорошо, поняла!
+
+Adam/5_win1
+\CBct[3]\m[Adam_sad]\plf\PRF\c[6]Лона：\C[0]    Я принесла!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Дай взглянуть!
+\CBct[3]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Вот!
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    \..\..\..
+
+Adam/5_win2
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    Я никогда раньше не видел такого оружия...
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    Хмпф... Как и ожидалось от \c[4]Мило\C[0], только кто-то вроде него мог позволить себе такое.
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    Значит, даже пополнение энергии огня происходит гораздо быстрее?
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    \..\..\.. Интересно...
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Ну, это действительно то, что я хотел. Можешь возвращаться домой.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Что насчёт награды?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    У меня закончились деньги, чего ты хочешь? Хочешь подраться?
+\CBct[20]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Эм... Простите...
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    А? За что ты извиняешься?
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Незнакомец：\C[0]    Забудь. Вот, возьми это.
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аа?!
+
+Adam/5_win3
+\CBct[8]\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Сп-... Спасибо?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    И зачем мне эта палка?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Нет! Это «огнестрел»! Направь его на врага, крикни «БЭНГ! БЭНГ!», и смотри как он умирает!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эээ?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Это очень дорогая штука! У меня больше нет времени на болтовню, найди себе тихое место и проверь его сама.
+
+Adam/else
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    *Хрррррррр*...
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хммм?
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]Незнакомец：\C[0]    *Хрррр*......
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Он спит?...
+
+Adam/ElseDialog
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Ты понимаешь? Мы не можем продвигаться, находясь под контролем семьи Росендо!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Нам нужно вернуть контроль над островом Ноэр...

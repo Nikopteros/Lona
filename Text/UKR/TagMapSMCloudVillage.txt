@@ -1,0 +1,292 @@
+thisMap/OvermapEnter
+\m[confused]Хмарний хутір \optB[Скасувати,Увійти]
+
+##############################################################################################COMCOM
+
+alert/Captured
+\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин：\C[0] Що вдієш, вона ж сама прийшла сюди.
+\SETpr[AnonMale2]\plf\Rshake\c[4]Селянин：\C[0] У будь-якому випадку, хіба вона пручається?
+\m[tired]\plf\PRF\c[6]Лона：\C[0] Оххх....
+
+alert/CatchHer
+\SETpl[AnonMale1]\Lshake\c[4]Селянин：\C[0] Ловіть її!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] А?! Що?
+
+alert/CatchEnemy
+\narr Хмарне село тепер вороже!
+
+alert/ChestLoot
+\SETpl[AnonMale1]\Lshake\c[4]Селянин：\C[0] Що це за звук?!
+\SETpr[AnonMale2]\Rshake\c[4]Селянин：\C[0] Сюди хтось проник!
+\CBct[6]]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] Що?! Вибачте?
+
+############################################################################################
+
+#to translator. first line is "你" mean male second "妳" mean female
+BradgeGuard/Begin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Селянин：\C[0] Хто там?! Що ти тут робиш!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Ем... Я просто мимо проходжу?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин：\C[0] Дівчина \..\..\..
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин：\C[0] Зачекай тут! Я поговорю зі своїм бра .... тобто .... Старостою!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0] Ее-е?
+
+BradgeGuard/Already
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]Селянин：\C[0] Оо, це ти?
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\c[4]Селянин：\C[0] \..\..\..
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]Селянин：\C[0] Добре, проходь.
+
+BradgeGuard/Begin1
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин：\C[0] Ох, жалість-то яка...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона： \C[0]Що таке?
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин：\C[0] Ні-ні, все добре, проходь.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0] Гаразд...
+
+BradgeGuard/Begin2
+\CBct[20]\m[shocked]\Rshack\c[6]Лона：\C[0] Що?! Що ви робите?
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин：\C[0] Як?! Як ти сюди дісталася?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона： \C[0] Я... ну це, проходила повз і вирішила завітати?
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин：\C[0] Гаразд, досить балачок, часу мало. Хутору потрібна допомога. Твоя допомога.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона： \C[0]А...?
+
+BradgeGuard/Opened
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин： \C[0]Хіба ти не збираєшся нам допомогти?
+
+BradgeGuard/letLeave
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона： \C[0]Ем... Пробачте, чи не могли б ви дати мені пройти?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин： \C[0]А? Хіба староста тебе відпустив?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона： \C[0]Ну так?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Селянин： \C[0]Ну... Добре! Можеш іти.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона： \C[0]Ем...
+
+BradgeGuard/letLeaveLoop
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Селянин： \C[0]Чому ти ще тут?
+
+BradgeGuard/CecilyExtra
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Сірий Щур： \C[0]... ...
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\c[4]Сесилія： \C[0]Що таке?
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]Сірий Щур： \C[0]Будьте обережні. Щось тут не так...
+\CBfB[6]\SETpl[CecilyShyAr]\Lshake\c[4]Сесилія： \C[0]...
+
+BradgeGuard/Anon0
+\CBid[-1,20]\c[4]Селянин： \C[0]Зараз всюди багато монстрів. Може, з'їмо їх?
+
+BradgeGuard/Anon1
+\CBid[-1,20]\c[4]Селянин： \C[0]Останнім часом дичини все менше і менше.
+
+BradgeGuard/Anon2
+\CBid[-1,2]\c[4]Селянин： \C[0]Ти тут нова? Ха-ха...
+
+BradgeGuard/DoorGuard0
+\CBid[-1,5]\c[4]Селянин： \C[0]Агов! Не підходь!
+
+BradgeGuard/DoorGuard1
+\CBid[-1,5]\c[4]Селянин： \C[0]Провалюй! Забирайся звідси!
+
+BradgeGuard/DoorGuard2
+\CBid[-1,5]\c[4]Селянин： \C[0]Гей ти! Що там робиш!
+
+BradgeGuard/TreeBad0
+\CBid[-1,5]\c[4]Селянин： \C[0]Купка паску, уся ця сімейка. Як вони посміла приховувати їжу?
+
+BradgeGuard/TreeBad1
+\CBid[-1,5]\c[4]Селянин： \C[0]Щоб їх, усю цю підлу наволоч.
+
+BradgeGuard/TreeBad2
+\CBid[-1,5]\c[4]Селянин： \C[0]Я впевнений, що вони були ідолопоклонниками.
+
+BradgeGuard/TreeSaint0
+\CBid[-1,8]\c[4]Селянин： \C[0]Вони вкрали нашу їжу та не залишили нам вибору.
+
+BradgeGuard/TreeSaint1
+\CBid[-1,8]\c[4]Селянин： \C[0]Св'ятий нас пробачить...
+
+##################################################################### boss talk
+
+Boss/aggro0
+\CBid[-1,1]\c[4]Староста： \C[0]Хто ти? Як ти сюди потрапила?
+\CBct[8]\m[flirty]\PRF\c[6]Лона： \C[0]Ну...
+
+Boss/aggro1
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Усі сюди! Чужаки вторглися!
+
+Boss/begin0
+\CBid[-1,3]\c[4]Староста： \C[0]А, ти той найманець, що прийшов допомогти?
+\CBct[8]\m[flirty]\PRF\c[6]Лона： \C[0]Ну... Взагалі-то я правда просто мимо проходила...
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Нічого, усе добре.
+
+Boss/beginOPT_KilltheKid
+Допомогти йому
+
+Boss/beginOPT_TheKidSaid
+Сказати, що Гріо невинний
+
+Boss/beginOPT_TheKidDeadLie
+Збрехати, що Гріо мертвий
+
+Boss/beginOPT_TheKidDead
+Сказати, що Гріо мертвий
+
+Boss/KillTheKid1_alreadyAccepted
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Ну то що?
+
+Boss/SMCloudVillage_KillTheKid0_1
+\CBct[8]\m[confused]\PRF\c[6]Лона： \C[0]Ну... було б не зайвим дізнатися, за чим йти та з чим допомагати? Якщо це вам потрібно.
+
+Boss/SMCloudVillage_KillTheKid0_2
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]Староста： \C[0]Ти бачила тих двох мерців?
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]Староста： \C[0]Ця сім'я, що вкрала в нас їжу.
+
+Boss/SMCloudVillage_KillTheKid0_3
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Підлі язичники... Мій брат повісив обох.
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Але сучий син виявився занадто м'якотілим, і відпустив дитину.
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Цього дрібного покидька звуть \c[6]Гріо\C[0], я чув, що він ховається в околицях Ноера.
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Я не можу дозволити йому продовжувати жити.
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Я хочу, щоб він помер. Знайди та убий його.
+
+Boss/SMCloudVillage_KillTheKid0_4_brd
+\board[Вбити Дитину]
+Завдання： Вбити виродка, який втік у Ноер
+Нагорода： Великий Мідяк х4\i[582]
+Клієнт： Староста Хмарного хутора
+Повторюваність： Одноразове
+Виродок хоче піти після того, як разом зі своєю родиною 
+вкрав нашу їжу! Брат старости зловив злодіїв і повісив їх, 
+але відпустив пацана. 
+Його звуть \c[6]Гріо：\C[0], ховається десь під стінами Ноера. 
+Він має померти.
+
+Boss/SMCloudVillage_KillTheKid1_A
+\CBct[2]\m[flirty]\PRF\c[6]Лона： \C[0]Вбити? Але хіба він ще не дитина?
+\CBct[8]\m[confused]\prf\c[6]Лона： \C[0]Ох.
+
+Boss/SMCloudVillage_KillTheKid1_yes
+\CBct[20]\m[flirty]\PRF\c[6]Лона： \C[0]Я зроблю це. Адже у вас є, чим заплатити?
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Звичайно, найманці з міста дійсно інші.
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Все буде підготовлено до твого повернення.
+
+Boss/SMCloudVillage_KillTheKid1_no
+\CBct[20]\m[flirty]\PRF\c[6]Лона： \C[0]Забудьте...
+
+Boss/SMCloudVillage_KillTheKid2_1
+\CBct[8]\m[flirty]\PRF\c[6]Лона： \C[0]Ем... Хлопчик, про якого ми говорили\..\..\.. \c[4]Гріо\C[0]. Справа зроблена, він мертвий.
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Прекрасно, просто чудово. Міські найманці справді дивовижні!
+\CBct[8]\m[confused]\..\..\..
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]Лона： \C[0]Ну так... А щоо з моєю нагородою?
+\CBid[-1,6]\prf\c[4]Староста：\C[0]Так-так! Гроші! Я все віддам! Звісно!
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Але є проблема... всі гроші я зберігаю у своєму будинку.
+\CBid[-1,20]\prf\c[4]Староста： \C[0]А так уже вийшло, що туди проник маленький зелений монстр. Ти маєш убити його.
+\CBct[8]\m[confused]\PRF\c[6]Лона： \C[0]Зелений, маленький\..\..\..
+\CBct[8]\m[shocked]\Rshake\c[6]Лона： \C[0]Оркоїд?!
+\CBid[-1,1]\prf\c[4]Староста： \C[0]Оркоїд\..\..\..? Так, саме він.
+
+Boss/TheKidSaid_play
+\CBct[8]\m[angry]\Rshake\c[6]Лона： \C[0]Ти брехло! \c[4]Гріо\C[0] розповів, що тут насправді сталося!
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[confused]\..\..\..
+
+Boss/SMCloudVillage_KillTheKid2_2
+\CBid[-1,20]\prf\c[4]Староста： \C[0]Ось, залишу це на тебе.
+\CBct[8]\m[flirty]\PRF\c[6]Лона： \C[0]Ем-м...
+
+Boss/Talked0
+\CBid[-1,20]\c[4]Староста： \C[0]Ну ж бо, заходь.
+
+Boss/Talked1
+\CBid[-1,20]\c[4]Староста： \C[0]Майбутнє села залежить від тебе.
+
+Boss/Talked2
+\CBid[-1,20]\c[4]Староста： \C[0]Вперед, убий монстра і на тебе чекає щедра нагорода.
+
+Boss/CatcheLona
+\CBmp[Boss,20]\c[4]Староста： \C[0]\{Ловіть її!
+\CBmp[Boss,20]\c[4]Староста： \C[0]\{Вона все знає!
+\CBct[20]\m[shocked]\Rshake\c[6]Лона： \C[0]\{Що?!
+
+Boss/Trap1
+\CBct[2]\m[confused]\PRF\c[6]Лона： \C[0]Ем... А де Оркоїди?
+
+Boss/Trap2
+\CBmp[Boss,20]\prf\c[4]Староста： \C[0]Ха-ха-ха...
+\CBct[8]\m[flirty]\PRF\c[6]Лона： \C[0]Щось... Я не бачу... Ніяких Оркоїдів.
+\CBmp[Boss,20]\prf\c[4]Староста： \C[0]Тому що їх тут немає, у будь-якому випадку ці зеленошкірі, не рівня нам.
+\CBmp[Boss,20]\prf\c[4]Староста： \C[0]Тут МИ вбиваємо всяких бовдурів. Бовдурів на кшталт тебе.
+\CBmp[Boss,20]\prf\c[4]Староста： \C[0]Ти вже дуже багато знаєш, тому ми не можемо дати тобі піти.
+\CBct[6]\m[shocked]\Rshake\c[6]Лона： \C[0]\{Чого?!
+
+Boss/Trap_ATKboss_alive
+\CBmp[BossAtk,4]\prf\c[4]Староста： \C[0]Брате, я думаю, що вона здатна народжувати. Цицьок у неї немає, але апетит у мене вже розігрався ♥
+\CBmp[Boss,3]\prf\c[4]Староста： \C[0]Хм-м, гаразд брате, можеш залишити її собі, якщо хочеш♥
+
+Boss/Trap3
+\CBmp[Boss,20]\prf\c[4]Староста： \C[0]Обережно, не вбийте її!
+\CBmp[Boss,20]\prf\c[4]Староста： \C[0]Зовсім скоро прибудуть работоргівці з міста, а в нас гостра нестача рабів.
+\CBmp[Boss,20]\prf\c[4]Староста： \C[0]Будь-яких!
+\CBct[5]\m[serious]\Rshake\c[6]Лона： \C[0]...
+
+############################################################ rapeloop
+
+beginEvent/begin
+\CBmp[Raper1,20]\C[4]Селянин： \C[0]Залишешся з нами, поки не знайдемо покупця!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона： \C[0]Що ж мені робити...
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона： \C[0]Раби.
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона： \C[0]\{Ні-і! Не хочу бути рабинею!
+
+Common/PlaceFood0
+\C[4]Селянин： \C[0] \{Агов! курво! Час жерти!
+
+Common/WakeUpCall0
+\SndLib[sound_hit_whip] \{Хвойда! Прокидайся!
+
+Common/WakeUpCall1
+\SndLib[sound_hit_whip] \{\Гей! Вставай, Шльондро!
+
+Common/WakeUpCall2
+\SndLib[sound_hit_whip] \{Лярва! Підйом!
+
+BossAtk/NightRngRape
+\CBmp[BossAtk,4]\C[4]Брат： \C[0]Хе-хе, старший братик сказав, що я можу йбати тебе, як тільки захочу.
+\CBct[6]\m[tired]\PRF\c[6]Лона： \C[0]Оох.
+\CBmp[BossAtk,20]\prf\C[4]Брат： \C[0]\{Розсув ноги!
+
+BossAtk/NightRng_revenge
+\CBmp[BossAtk,5]\C[4]Брат： \C[0]Я хочу помститися за свого старшого брата!
+\CBct[6]\m[tired]\PRF\c[6]Лона： \C[0]Охх.
+\CBmp[BossAtk,5]\C[4]Брат： \C[0]Помри, курво!
+
+Common/NapRape1
+\C[4]Селянин： \C[0]Ха, ха, ха.
+
+Common/NapRape3_0
+\C[4]Селянин： \C[0]Саме час трохи спустити.
+
+Common/NapRape3_1
+\C[4]Селянин： \C[0]Це означає, що ти лежиш і даєш нам себе їбати, второпала?
+
+Common/NapRape3_2
+\C[4]Селянин： \C[0]Я тебе виїбу, тупа пизда!
+
+Common/NapRape_withSta_NoFight
+\C[4]Селянин： \C[0]Ось, розумниця ♥
+
+Common/NapRape_withSta_Fight
+\C[4]Селянин： \C[0]\{Гарна сучка!
+
+Common/NapRape
+\CBmp[Raper1,20]\C[4]Селянин： \C[0]Гей, вона не померла там?
+\CBmp[Raper2,20]\C[4]Селянин： \C[0]Виглядає не так, але давай перевіримо.
+\CBmp[Raper1,20]\C[4]Селянин： \C[0]Не вбивайте її. Бос знайшов покупця.
+
+Common/NapTorture1
+\CBmp[Raper1,20]\C[4]Селянин： \C[0]Куди ти зібралася, курво?
+\CBmp[Raper2,20]\C[4]Селянин： \C[0]Бий її!
+\CBmp[Raper1,20]\C[4]Селянин： \C[0]\{Хей! Прокинься!
+
+Common/NapTorture2
+\CBct[2]\m[tired]\C[6]Лона： \C[0]Ах?
+\CBmp[Raper1,20]\prf\C[4]Селянин： \C[0]Я спробую свій кулак просунути!
+\CBct[6]\m[terror]\prf\C[6]Лона： \C[0]\{ААААааа!!!
+
+Common/NapTorture3
+\CBct[6]\m[pain]\Rshake\C[6]Лона： \C[0]Зупиніться... Прошу....
+\CBmp[Raper2,20]\prf\C[4]Селянин： \C[0]Так не цікаво. Давай спробуємо щось інше.

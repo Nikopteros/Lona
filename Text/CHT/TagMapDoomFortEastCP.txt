@@ -1,0 +1,104 @@
+thisMap/OvermapEnter
+東部哨口。\optB[沒事,進入]
+
+############################################################################### Quest Begin
+
+CPofficer/overrunning_begin0
+\CBmp[cpSGT,2]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    妳在這邊做什麼？！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？！ 什麼？？？
+\CBmp[cpSGT,1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    我們正受到攻擊！ 這裡很危險！平民別在這亂！ 快滾！
+\CBct[2]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    是！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    等等！
+\CBct[2]\m[wtf]\plf\Rshake\c[6]洛娜：\c[0]     嚇？！ 又怎麼了？！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    這樣下去檔不住了！ 妳！ 快去\c[4]末日堡壘\c[0]請求支援！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    告訴他我們撐不住了！ 現在！ 馬上！
+\CBct[2]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]     是！
+
+DFOfficer/overrunning_begin1
+\CBmp[cpSGT,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    嗯？ 小鬼，怎麼了？
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    東部哨口正遭受肉魔的攻擊！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    他們要我來找支援！
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    東部哨口？ 又來了嗎？
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    該死！我們人手也不夠了！
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    妳！ 跟我們一起去！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什？ 我嗎？！
+\CBmp[cpSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    快！拿起妳的武器！ 開始行動！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我只是路過的啊...
+
+DFOfficer/overrunning_begin1_board
+\board[東部哨口]
+目標：防守東部哨口
+報酬：未知
+委託主：東部哨口十人長
+回到東部哨口並協助士兵進行防禦。
+
+CPofficer/overrunning_begin2
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    人來了！ 支援來了！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    太好了！ 來的正是時候！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    是時候反攻了！
+\CBmp[Cannon1,19]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    小鬼！ 妳去快去裝填火炮！ 快！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    是！
+
+CPofficer/overrunning_begin3_fireCannon
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    弄好了！！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    點火！馬上！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    這？ 不用瞄準嗎？！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    那些怪物害怕火藥的氣味與閃光！ 快！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    是！
+
+CPofficer/overrunning_begin3_clearNarr0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    成功了！
+\m[tired]\plf\PRF\c[6]洛娜：\c[0]    呼....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    後方的肉魔害怕了。 他們逃走了！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    把剩下的臭蟲趕走吧！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    等等\..\..\.. 那是什麼？！
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    什麼是什麼？
+
+CPofficer/overrunning_begin3_clearNarr1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    這是什麼怪物？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    過來幫忙！ 我們一定要守住這！
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    好的！
+
+CPofficer/overrunning_begin4
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    我們贏了！ 我們活下來了！
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    結束了？！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    是的，我們又活過了一天。
+\m[tired]\plf\PRF\c[6]洛娜：\c[0]    呼...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    妳幹的很好，可是我們沒什麼可以回報給妳的。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 沒關係的...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    嗯\..\..\.. 有了！ 接著！
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？
+
+CPofficer/overrunning_begin5
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    我們沒錢，但凶器到是不少。
+\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    謝謝！
+
+CPofficer/InfoHere
+\CBct[2]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    這裡發生了什麼事？
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    先是那些綠皮的雜粹，然後就是這些怪物。
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    \c[6]肉魔\c[0]，妳可以在很遠的距離就聞到它們飄出的屍臭味。
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    它們的身體回復的異常迅速，力量強大數量又多，目前沒有有效對付它們的辦法。
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    這樣下去我們還能守多久？
+\CBct[2]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+CPofficer/QuestFailed
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十人長：\c[0]    哇阿啊啊！
+\SETpr[Mreg_pikeman]\plf\PRF\c[4]士兵：\c[0]    大家快逃啊！ 我們不可能守得住的！
+
+CPofficer/DuringQuprogQmsg
+動作快！
+
+lona/WithAmmoQmsg0
+已有彈藥
+
+lona/WithAmmoQmsg1
+快去裝填
+
+cannon/LoadedQmsg0
+已裝填
+
+cannon/FiredQmsg0
+發射過了
+
+cannon/OOAQmsg0
+沒有彈藥

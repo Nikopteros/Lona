@@ -1,0 +1,298 @@
+###################################################################################
+
+GraveKeeper/UndeadHunt2Begin1
+\CBct[6]\m[fear]\Rshake\C[6]Lona：\C[0]    Woooh, t-this is more eerie than I could've imagined...
+\CBmp[GraveKeeper,1]\prf\c[4]Gravekeeper：\c[0]    \{WHAT THE-?!\}
+\CBct[20]\m[terror]\Rshake\C[6]Lona：\C[0]    \{What?! What's wrong?!\}
+
+GraveKeeper/UndeadHunt2Begin2
+\CBmp[GraveKeeper,20]\prf\c[4]Gravekeeper：\c[0]    \{There should be a pile of dead bodies here!
+
+GraveKeeper/UndeadHunt2Begin3
+\CBct[2]\m[confused]\C[6]Lona：\C[0]    Aren't they all inside the walls already?
+\CBmp[GraveKeeper,20]\prf\c[4]Gravekeeper：\c[0]    Not them, most of those are more than hundreds of years old.
+\CBmp[GraveKeeper,20]\prf\c[4]Gravekeeper：\c[0]    I was still a wee lad at the time, but I've seen it with my own eyes. This area should be filled with corpses...
+\CBct[6]\m[shocked]\Rshake\C[6]Lona：\C[0]    You're not just trying to scare me, r-right?!
+
+GraveKeeper/UndeadHunt2Begin4
+\CBmp[GraveKeeper,20]\c[4]Gravekeeper：\c[0]    Have they all been turned into the undead?
+
+GraveKeeper/UndeadHunt2Begin5
+\CBmp[GraveKeeper,20]\c[4]Gravekeeper：\c[0]    Not good. This is not good...
+\CBmp[GraveKeeper,20]\c[4]Gravekeeper：\c[0]    If the higher-ups knew about this, I'd definitely lose my job...
+
+GraveKeeper/UndeadHunt2Begin6
+\CBct[8]\m[flirty]\C[6]Lona：\C[0]    So... Does this mean we should head back and report about this?
+
+GraveKeeper/UndeadHunt2Begin7
+\CBct[2]\m[confused]\C[6]Lona：\C[0]    Mister?
+
+GraveKeeper/UndeadHunt2Begin8
+\CBmp[GraveKeeper,2]\c[4]Gravekeeper：\c[0]    Wait a minute, what's this?
+
+GraveKeeper/UndeadHunt2Begin9
+\CBct[20]\m[terror]\Rshake\C[6]Lona：\C[0]    \{KYAAAHHH!!!\}
+
+GraveKeeper/UndeadHunt2Begin10
+\CBct[20]\m[shocked]\Rshake\C[6]Lona：\C[0]    Mister Gravekeeper?!
+\CBct[6]\m[fear]\C[6]Lona：\C[0]    He's-... -He's dead...?
+\CBct[20]\m[tired]\C[6]Lona：\C[0]    What am I supposed to do now...?
+
+#########################################################################################
+
+Lona/ReadAllMail
+\CBct[1]\m[shocked]\Rshake\C[6]Lona：\C[0]    !!!!!!
+\CBct[8]\m[sad]\C[6]Lona：\C[0]    .........
+\CBct[2]\m[sad]\C[6]Lona：\C[0]    Co-Co-Na?
+\CBct[8]\m[confused]\C[6]Lona：\C[0]    She doesn't look like she's an evil person...
+\CBct[8]\m[tired]\C[6]Lona：\C[0]    Perhaps I should try to talk to her.
+
+Lona/ItsTrap
+\CBmp[Trap,19]\m[serious]\C[6]Lona：\C[0]    This is... a trap?
+\CBct[8]\m[confused]\C[6]Lona：\C[0]    It doesn't look like something that was set up decades ago.
+\CBct[8]\m[flirty]\C[6]Lona：\C[0]    Would the undead use something like this?
+
+Lona/UndeadElite
+\CBmp[UndeadElite,19]\m[serious]\C[6]Lona：\C[0]    The undead here looks different than the ones outside.
+\CBct[8]\m[confused]\C[6]Lona：\C[0]    They feel a lot harder to deal with.
+\CBct[8]\m[flirty]\C[6]Lona：\C[0]    Maybe I should try to find another way?
+
+Friends/frist_time
+\CBid[-1,20]\m[shocked]\prf\C[0]Undead：\C[0]    \{Guraaagh-ugh...\}
+\CBct[1]\m[fear]\Rshake\C[6]Lona：\C[0]    He's not trying to eat me?!
+\CBct[8]\m[confused]\C[6]Lona：\C[0]    Ummm... I guess this is a good thing?
+
+Friends/Qmsg0
+Guuuhhh...
+
+Friends/Qmsg1
+Innocennnt... Proootect... 
+
+Friends/Qmsg2
+Friennnd... Proteeect...
+
+Family/Qmsg0
+A very clean corpse.
+
+Family/Qmsg1
+A spotless corpse.
+
+Family/Qmsg2
+It's just a corpse in the end.
+
+
+BodyBag/Common
+Just an ordinary corpse.
+
+BodyBag/Keeper
+Looks like it's the gravekeeper.
+
+BodyBag/Goblin
+A goblin? Why would one be here?
+
+Hole/begin
+\CBct[8]\m[confused]\C[6]Lona：\C[0]    The inside of here is like a maze... it would be impossible to leave this place without a guide.
+
+#########################################################################################
+
+Lona/B2TrapTrigger1
+\narr Lona was knocked out.
+\narr Everything she had on her was taken away.
+\narr She couldn't tell how much time had passed.
+
+Lona/B2TrapTrigger2
+\m[hurt]\Rshake (Ughnnn, my head hurts...)
+\m[fear](I can't move my body! What happened to me?)
+\ph\C[4]Unknown：\C[0]    Do-ri-me! ♪ Do-ri-me ah-men-ohhh! ♫
+\m[confused](Is that... singing? Who-...?)
+
+##############################################
+
+Cocona/B2Trap_Sing1
+\prh\BonMP[Cocona,3]\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Mer-tis ah moti-eh, eee che-ss ah gron tuuu.
+
+Cocona/B2Trap_Sing2
+\BonMP[Cocona,4]\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Mii aaaf mar-ka diiia, on dee evaaa gween!
+
+Cocona/B2Trap_Sing3
+\BonMP[Cocona,5]\SETpl[cocona_confused]\C[4]Unknown：\C[0]    Woo-Miao......
+
+Lona/BondageStruggle1
+\CBmp[CapLoc,8]\plh\m[fear]\C[6]Lona：\C[0]    .........
+\CBmp[CapLoc,2]\m[terror]\Rshake\C[6]Lona：\C[0]    Is she ripping them apart?
+\CBmp[CapLoc,6]\m[shocked]\Rshake\C[6]Lona：\C[0]    NO! I don't want to be eaten!
+\CBmp[CapLoc,6]\m[bereft]\Rshake\C[6]Lona：\C[0]    I have to get out of here! I must find a way to escape!
+
+Lona/BondageStruggle_opt
+\optD[Struggle]
+
+Lona/BondageStruggle2
+\C[6]Lona：\C[0]    ......
+
+Lona/BondageStruggle3
+\m[flirty]\C[6]Lona：\C[0]    .........
+\m[serious]\C[6]Lona：\C[0]    It's a good thing I wasn't tied up very well!
+\m[fear]\C[6]Lona：\C[0]    Now... What should I do?
+
+###########################################################################################
+
+Cocona/DinnerTime0
+\BonMP[Cocona,8]\SETpl[cocona_confused]\C[4]Unknown：\C[0]    Woo-Nyeow......
+\BonMP[Cocona,4]\SETpl[cocona_happy]\C[4]Unknown：\C[0]    \{Wuu-loo-meee!
+
+Cocona/DinnerTime1
+\BonMP[Cocona,20]\SETpl[cocona_normal]\Lshake\C[4]Unknown：\C[0]    Weeping Saint...
+\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Saint! Papa! Weeping Saint...
+
+Cocona/DinnerTime2
+\BonMP[Cocona,3]\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Saint! Cocona puu-lee-miii!
+\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Papa! Cocona puu-lee-miii!
+\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Mama! Cocona puu-lee-miii!
+\plh\m[fear]\C[6]Lona：\C[0]    Could she be.........
+\m[shocked]\Rshake\C[6]Lona：\C[0]    The rumored Necromancer?
+\m[serious]\C[6]Lona：\C[0]    I need to keep following her, or else I'll never find a way out of here.
+
+Cocona/NapTime0
+\BonMP[Cocona,8]\SETpl[cocona_angry]\Lshake\C[4]Unknown：\C[0]    Woo wuu oooh...
+\BonMP[Cocona,8]\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Papa! Mama! Cocon ah-men-oh miao!
+\SETpl[cocona_happy]\C[4]Unknown：\C[0]    .........
+\SETpl[cocona_happy]\C[4]Unknown：\C[0]    ......
+\SETpl[cocona_happy]\C[4]Unknown：\C[0]    ...
+\SETpl[cocona_sad]\C[4]Unknown：\C[0]    Papa... Mama...
+\SETpl[cocona_sad]\C[4]Unknown：\C[0]    .........
+\SETpl[cocona_sad]\C[4]Unknown：\C[0]    ...
+\SETpl[cocona_happy]\Lshake\C[4]Unknown：\C[0]    Papa! Mama! Cocona mew-ooo-mew!
+
+Cocona/NapTime1
+\m[confused]\C[6]Lona：\C[0]    I don't know why... But, I feel a bit... \m[sad]Sad?
+\m[flirty]\C[6]Lona：\C[0]    I should keep moving foward.
+
+########################################################################################### AGGRO
+
+Cocona/aggro
+\CBmp[Cocona,15]\prh\SETpl[cocona_angry]\Lshake\C[4]Unknown：\C[0]    HISSSSSSSSS!!!
+\CBct[6]\m[shocked]\Rshake\C[6]Lona：\C[0]    EEEKKK!!!
+
+Cocona/aggro_FdSide1
+\CBct[6]\m[terror]\plf\Rshake\C[6]Lona：\C[0]    Wait! Wait a second!
+\CBct[20]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    I mean you no harm! Really!
+\CBmp[Cocona,8]\SETpl[cocona_confused]\PLF\prf\C[4]Unknown：\C[0]    Woo-Mew?
+\CBmp[Cocona,15]\SETpl[cocona_angry]\Lshake\prf\C[4]Unknown：\C[0]    HISSSSSSSSS!!!
+\CBct[20]\m[terror]\plf\Rshake\C[6]Lona：\C[0]    You're Cocona, right? Co-Co-Na!
+\CBmp[Cocona,2]\SETpl[cocona_confused]\PLF\prf\C[4]Unknown：\C[0]    Woo-Miao?
+\CBmp[Cocona,8]\SETpl[cocona_confused]\PLF\prf\C[4]Unknown：\C[0]    ......
+\CBmp[Cocona,8]\SETpl[cocona_confused]\PLF\prf\C[4]Unknown：\C[0]    ...
+\CBmp[Cocona,20]\SETpl[cocona_happy]\Lshake\prf\C[4]Unknown：\C[0]    Me-ish-Cocona!
+\CBct[6]\m[wtf]\plf\PRF\C[6]Lona：\C[0]    Yes! Cocona! We can be good friends together!
+\CBmp[Cocona,8]\SETpl[cocona_confused]\PLF\prf\C[4]Unknown：\C[0]    Fuh-ruh-end...
+\CBmp[Cocona,4]\SETpl[cocona_happy]\Lshake\prf\C[4]Unknown：\C[0]    \{FWEND!!!\}
+\CBct[20]\m[confused]\plf\PRF\C[6]Lona：\C[0]    That's right! Friends!
+\CBmp[Cocona,20]\SETpl[cocona_happy]\Lshake\prf\C[4]Unknown：\C[0]    \{FWENDS!!!
+\CBct[20]\m[pleased]\plf\PRF\C[6]Lona：\C[0]    Friends!!!
+\CBmp[Cocona,4]\SETpl[cocona_happy]\Lshake\prf\C[4]Unknown：\C[0]    \{Hehehe! Friends!!!\}
+\CBct[8]\m[flirty]\plf\PRF (And just like that?)
+\CBct[8]\m[confused]\plf\PRF (It seems like she trusts strangers way too easily?)
+
+Cocona/aggro_FdSide2
+\CBct[20]\m[pleased]\plf\PRF\C[6]Lona：\C[0]    Yes! Friends! I am Lona! Big Sis!
+\CBmp[Cocona,20]\SETpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    \{Friends! Lona! Cocona!\}
+\CBct[20]\m[triumph]\plf\PRF\C[6]Lona：\C[0]    Right!
+\CBmp[Cocona,4]\SETpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Papa! Mama! Cocona make new friend!
+\CBct[8]\m[tired] (So, these two really are her parents.)
+\CBct[8]\m[confused]\plf\PRF (I'm beginning to understand what she's saying now.)
+\CBct[8]\m[confused]\plf\PRF (It seems like everything she says is just mixed together.)
+\CBct[8]\m[confused]\plf\PRF (As long as I listen carefully, it's not a problem.)
+\CBmp[Cocona,4]\SETpl[cocona_shocked]\PLF\prf\c[4]Cocona：\c[0]    Big Sis! Are yew hungwy?
+\CBct[2]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Ummm?
+\CBmp[Cocona,4]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Need eating table fwood, being hungwy is bad! Staying hungwy will die!
+\CBct[6]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Ehhh?
+\CBmp[Cocona,4]\SETpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Good friend! Eat!
+\CBct[20]\m[wtf]\plf\PRF\C[6]Lona：\C[0]    There's no way, right? W-What kind of meat is this?
+\CBmp[Cocona,4]\SETpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Ahhh...
+
+Cocona/aggro_FdSide3
+\SND[SE/eat03.ogg]\ph\narr Cocona leans over the table with the foul-looking meat in her hand.
+\SND[SE/eat02.ogg] She seems to intend to feed it to Lona.
+\SND[SE/eat03.ogg] Aside from the rotten corpse stench, it was a rather pleasant tea time.
+\..\..\..
+
+Cocona/aggro_FdSide4
+\CBmp[Cocona,8]\SETpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Saint! Cocona danks yew!
+\CBmp[Cocona,4]\SETpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Thank yew, Saint, for the fwood! Thank yew, Saint, for the new friend!
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Cocona believes in the Saint?
+\CBmp[Cocona,15]\SETpl[cocona_angry]\PLF\prf\c[4]Cocona：\c[0]    Her-wee-tik! Liar! All liars must be eaten!
+\CBct[6]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    I believe! I believe in him!
+\CBmp[Cocona,4]\SETpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Friends are all with Saint! Saint is fwends with innocents!
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    So the good friends above aren't from you?
+\CBmp[Cocona,20]\SETpl[cocona_shocked]\PLF\prf\c[4]Cocona：\c[0]    Cocona dunno, Cocona feeling something powerful...
+\CBmp[Cocona,4]\SETpl[cocona_angry]\PLF\prf\c[4]Cocona：\c[0]    It stolen my good friends! Cocona can only talk with good friends.
+\CBmp[Cocona,20]\SETpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    But, Cocona knows that it must be an evil liar!
+\CBmp[Cocona,20]\SETpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Evil liar lied to my good friends!!!
+\CBct[8]\m[flirty]\plf\PRF (So, all this had nothing to do with her?)
+\CBct[8]\m[confused]\plf\PRF (A necromancer and undeads that worship the Saint?)
+\CBct[8]\m[flirty]\plf\PRF (Then, what the heck am I doing here? What am I risking my life for?)
+\CBct[8]\m[wtf]\plf\PRF (This is such a mess! None of this makes any sense!)
+
+Cocona/aggro_FdSide5
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Eh?
+\CBct[1]\m[serious]\plf\PRF\C[6]Lona：\C[0]    Did you feel it too?
+\CBmp[Cocona,5]\SETpl[cocona_angry]\PLF\prf\c[4]Cocona：\c[0]    Green skin's smell!
+
+Cocona/aggro_FdSide6
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Green-skin?
+\CBmp[Cocona,5]\SETpl[cocona_angry]\PLF\prf\c[4]Cocona：\c[0]    Green skins! Bad taste!
+\CBct[2]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    Are you talking about the Orkinds?
+
+Cocona/aggro_FdSide7
+\CBct[1]\m[wtf]\plf\Rshake\C[6]Lona：\C[0]    There's this many of them?!
+\CBmp[Cocona,20]\SETpl[cocona_shocked]\PLF\prf\c[4]Cocona：\c[0]    Big Sis, don't be scared! Cocona will protect you!
+\CBct[6]\m[serious]\plf\Rshake\C[6]Lona：\C[0]    No! We have to run away! There's way too many of them!
+\CBmp[Cocona,2]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Cocona run away?
+\CBmp[Cocona,15]\SETpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    No no! Cocona protect Papa! Mama! Friends!
+\CBct[20]\m[angry]\plf\Rshake\C[6]Lona：\C[0]    Don't fool around!
+\CBmp[Cocona,15]\SETpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    HISS-SSS-SSSSSS!!!
+\CBmp[CoMama,20]\plf\prf\C[4]Unknown：\C[0]    Cooo... Cooo... Naaa...
+\CBct[6]\m[flirty]\plf\Rshake\C[6]Lona：\C[0]    Huh?
+\CBmp[Cocona,4]\SETpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Mama!
+\CBmp[CoPapa,20]\plf\prf\C[4]Unknown：\C[0]    Co... Co... Na... Follllooow heeer... Leeeavvve...
+\CBmp[Cocona,6]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Papa...
+\CBmp[CoPapa,20]\plf\prf\C[4]Unknown：\C[0]    See... Ouuutsiiide... Worrrld... Steeep ouuut...
+\CBmp[CoMama,20]\plf\prf\C[4]Unknown：\C[0]    Co... Co... Na... Gooo... Weee... reeessst in peeeaccce...
+\CBmp[CoPapa,20]\plf\prf\C[4]Unknown：\C[0]   Donnn't... Reeely onnn... Usss...
+\CBmp[Cocona,6]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Uwuuu....
+
+Orkind/Gob1
+\SND[SE/goblin/Goblin_roar1.ogg]\ph\SETpl[goblin]\Lshake\C[4]Monster：\C[0]    Gu cha cha?
+
+Orkind/Gob2
+\SND[SE/goblin/Goblin_roar2.ogg]\SETpr[goblin]\Rshake\C[4]Monster：\C[0]    Gu sha ma cha!!!
+
+Orkind/Gob3
+\SND[SE/goblin/Goblin_roar3.ogg]\SETpl[goblin]\Rshake\C[4]Monster：\C[0]    Gue huuueeehehehe!
+
+Cocona/aggro_FdSide8
+\CBct[8]\m[sad]\plf\PRF\C[6]Lona：\C[0]    ......
+\CBct[20]\m[serious]\plf\Rshake\C[6]Lona：\C[0]    There's no time! We have to leave, now!
+\CBmp[Cocona,6]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Wuhuuu... *Sniff*... Cocona knows the way.
+\CBmp[ToSurface,19]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Good friends' room goes outside, Cocona and friends dig through.
+\CBct[20]\m[angry]\plf\Rshake\C[6]Lona：\C[0]    Go! While the undead attracts their attention!
+
+Cocona/aggro_FdSide8_win
+\CBmp[Cocona,20]\SETpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Green skins all gone! You're safe now!
+\CBmp[Cocona,6]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Papa and mama don't have to leave! Big Sis can live here!
+\CBct[20]\m[serious]\plf\Rshake\C[6]Lona：\C[0]    No! You have to listen to your father! Those green-skinned monsters can show up again at anytime!
+\CBct[20]\m[angry]\plf\Rshake\C[6]Lona：\C[0]    This was how my home was destroyed!
+\CBmp[Cocona,8]\SETpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Uwwwuuu...
+
+Cocona/to1fBlock
+\CamMP[ToSurface]\SETpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Wrong! Dig dig here!
+
+#########################################################################################
+
+
+SaintState/begin
+\board[The Unknown Saint]
+The Unknown Saint says： When I fall, I shall be reborn in the bonfire.
+Saint 30：65
+
+#Original translation by a MTL monkey. Massive rewrites/retranslations and clean up by Sugoi Soy Boy. Fuck off MTLing monkeys.

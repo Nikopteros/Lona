@@ -1,0 +1,70 @@
+thisMap/OvermapEnter
+\m[confused]게단지 공방\optB[그만둔다,들어간다]
+
+################################################################### Qmsg
+
+guard/Qmsg0
+나 안 들어갈래...
+
+guard/Qmsg1
+너나 들어가... 난 싫어...
+
+guard/Qmsg2
+난... 파편한테 강간당하기 싫어...
+
+guardWin/Qmsg0
+번식하고 싶다...
+
+guardWin/Qmsg1
+너 여자야...? 번식...!
+
+guardWin/Qmsg2
+외부인... 꺼져...
+
+Detective/Qmsg0
+그래서 이게... 원인이었나...?
+
+Detective/Qmsg1
+왜... 여기 있는 거지...?
+
+Detective/Qmsg2
+뭐가... 얘들을 끌어온 거지...?
+
+################################################################### QUEST
+
+Qu0/KillAll
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 하\..\..\..？！ 내가 이겼어?!
+
+Detective/Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\prf\c[4]탐정：\c[0] 노예.... 꺼져...!
+
+Detective/NotKilled0_0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]탐정：\c[0] 비... 난 비를 싫어해... 하지만 우린 비가 필요해....
+
+Detective/NotKilled0_1
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]탐정：\c[0] 비는 세상의... 죄악을 숨기지...
+
+Detective/NotKilled1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어...？\optB[아냐,그에 대해]
+
+Detective/NotKilled1_about
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 실례지만... 여기서 무슨 일이 있었나요?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]탐정：\c[0] 가짜 마녀의 조각...이곳을... 공격했어...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]탐정：\c[0] 사람이 죽었어... 두 명이... 죽었어...
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 오?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]탐정：\c[0] 우리가... 조사하던 중... 가짜 마녀의 조각이... 우리를 습격했어...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]탐정：\c[0] 집 안에는 아직도... 많은 가짜 마녀의 조각이 있어...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]탐정：\c[0] 우리는... 대치 중이야...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]탐정：\c[0] 이 모든 게... 수상해...
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 알겠어요, 힘내세요.
+
+Detective/killed0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]탐정：\c[0] 외부인... 너... 놈들을 죽였나...?
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 어...? 아마도요, 전부 죽은 것 같던데요.
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]탐정：\c[0] 잘했어...
+
+Detective/killed1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] .....
+
+Formula/found
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 비법서? 이게 맞겠지?

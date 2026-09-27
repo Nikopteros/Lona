@@ -1,0 +1,20 @@
+thisMap/OvermapEnter
+The stronghold of the Broad Blade Gang is the territory of the bad guys.\optB[Leave,Enter]
+
+Nap/failed0_normal
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]rogueA：\C[0]    Where did the little bastard come from?
+\SETpl[MobHumanWarrior]\plf\Rshake\C[4]rogueB：\C[0]    Get her up!
+
+Nap/failed_normal_if_Non_Slave
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]rogueA：\C[0]    Oh? She's not bad looking, get her into a back street as a whore.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]rogueB：\C[0]    Brand her as a slave first!
+
+#to all fans translator, donot translate This message has been blocked because it does not comply with national security regulations   its china censor joke.
+
+ArtPlague/art
+\cg[other_ArtPlauge]We cannot directly call his filthy name, he is the leader of the disaster, he is the angel of the plague, and he brings endless suffering to the world.
+\m[flirty]\PRF\c[6]Lorna：\c[0]    Well... Yellow bear?
+\m[confused]\PRF\c[6]Lorna：\c[0]    Um.....
+\m[shocked]\Rshake\narr This message has been blocked because it does not comply with national security regulations\...\...\...\...
+\m[confused]\Rshake\narr This message has been blocked because it does not comply with national security regulations\...\...\...
+\m[flirty]\Rshake\narr This message has been blocked because it does not comply with national security regulations\...\...

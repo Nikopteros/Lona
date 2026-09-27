@@ -1,0 +1,324 @@
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+NoerDock/OvermapEnter
+\m[confused]Port of Noer \optB[Leave,Enter]
+
+#---------------------------------------Noer Dock cOMMON ppl ----------------------------------
+
+SailerGuard/GoAway0
+Don't make any trouble!
+
+SailerGuard/GoAway1
+Go away!
+
+SailerGuard/GoAway2
+Get back!
+
+##---------------------------------------
+
+NightFapper/Fapper0
+I am the king of the world!
+
+NightFapper/Fapper1
+Child! Go and conquer the world!
+
+NightFapper/Fapper2
+Cumming! Cumming!!!
+
+NightFapper/Fapper3
+I'm cooming!
+
+##---------------------------------------
+
+RiotPPL1/Yelling0
+Let me go up! I'm a noble!
+
+RiotPPL1/Yelling1
+I have a ticket!
+
+RiotPPL1/Yelling2
+This is bullshit! I've spent money!
+
+RiotPPL2/Yelling0
+This is all I got...
+
+RiotPPL2/Yelling1
+I beg you, let me board!
+
+RiotPPL2/Yelling2
+Please! Let us board!
+
+RiotPPL3/Yelling0
+Let me get on the boat!
+
+RiotPPL3/Yelling1
+Money! I have money!
+
+RiotPPL3/Yelling2
+Why is the price rising again?!
+
+##---------------------------------------
+
+BoardReader1/Read0
+Monster everywhere?
+
+BoardReader1/Read1
+Slave trading... What's next?
+
+BoardReader1/Read2
+Muggings are normal now...
+
+BoardReader2/Read0
+The world is ending.
+
+BoardReader2/Read1
+Friends, family... All dead...
+
+BoardReader2/Read2
+What else can I do?
+
+##---------------------------------------
+
+SlaveChild/Talk0
+Mama...
+
+SlaveChild/Talk1
+I wanna go home...
+
+SlaveChild/Talk2
+Why did you leave me...?
+
+SlaveAdult1/Talk0
+Cheated, I must have been cheated!
+
+SlaveAdult1/Talk1
+No! I don't wanna be a slave!
+
+SlaveAdult1/Talk2
+I shouldn't be here! I'm a noble!
+
+SlaveAdult2/Talk0
+Where are we going?
+
+SlaveAdult2/Talk1
+What will we be doing?
+
+SlaveAdult2/Talk2
+I'm scared......
+
+##---------------------------------------
+
+Board/FishKindPplTrade
+\board[Acquisition of refugees]
+No food? Confident in your physical strength? Sell yourself, we will protect you.
+Virgin： 6 Large Copper Coins
+Child： 3 Large Copper Coins
+Adult： 1 Large Copper Coin
+Price varies depending on the physical condition and the appearance of the product, men and infertile women need not apply.
+Please visit the fish market, right of the docks, for details.
+
+##---------------------------------------
+
+Board/IttWorker
+\board[Mine worker recruitment]
+Come work in the Crystal Mines, we hire all.
+One month's worth of copper coins can be yours to earn.
+Three lucky men are drawn out each month to leave with the mine carrier.
+
+##---------------------------------------
+
+Board/PirateAround
+\board[Flying Spaghetti]
+The infamous pirate ship; The Flying Spaghetti, is believed to be lurking nearby Noer waters.
+3 Gold Coins to those who can capture the ship's crew.
+1 Gold Coin for any information about the ship and her crew.
+
+##--------------------------------------- fISHkIND ----------------------------------
+
+FrogmanTrader/begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\Lshack\c[4]Fishman：\c[0]    Fish...! Pure... Fish!!!
+\m[shocked]\Rshake\c[6]Lona：\c[0]    Eeep! \optB[Stay away from him...,Barter]
+
+FrogmanTrader/begin_trade
+\SETpl[Mfat_FrogFisher]\Lshack\c[4]Fishman：\c[0]    Girl... You buy... Fish...!
+
+FrogmanTrader/begin_WhoreWorkWin
+\SETpl[Mfat_FrogFisher]\Lshack\c[4]Fishman：\c[0]    Sowing...! Sowing!
+
+FrogmanTrader/begin_WhoreWorkFail
+\SETpl[Mfat_FrogFisher]\Lshack\c[4]Fishman：\c[0]    Get... Away!
+
+RandBusinessMan/talk1
+\m[confused]\c[4]Passerby：\c[0]    These "fish" people look hideous... But the irony is that most of the food now comes from them.\optD["Fish" people?]
+
+RandBusinessMan/talk2
+\c[4]Passerby：\c[0]    Never seen them before? It's no wonder, they were natives of an island with mixed-races, until we kicked them out.
+Just look at them. The port reeks of fish, and no one wants to approach them.
+
+RandBusinessMan/Qtalk0
+They bought a lot of women.
+
+RandBusinessMan/Qtalk1
+Dunno what'll happen to them.
+
+FrogmanPrayer/Pray0
+Sea Witch...! Hear... prayer!
+
+FrogmanPrayer/Pray1
+Must praise... Sea Witch!
+
+FrogmanPrayer/Pray2
+The Sea Witch... graces me!
+
+##-------------------------------------- SlaveDealer
+
+SlaveDealer/TalkNonSlave
+\SndLib[FishkindLgSpot]\CBmp[SlaveDealer,8]\c[4]Slave Trader：\c[0]    Human... We can... Guarantee your safety... If you accept... Offer of being... Our slave...\optB[No thanks!,I accept...]
+
+SlaveDealer/TalkNonSlave_yes
+\SndLib[FishkindLgSpot]\CBmp[SlaveDealer,20]\c[4]Slave Trader：\c[0]    Very... Good! One look... And I know you will... Be good brood mother...
+\SndLib[FishkindLgSpot]\CBmp[SlaveDealer,20]\c[4]Slave Trader：\c[0]    Come... On!
+
+SlaveDealer/TalkIsSlave
+\SndLib[FishkindLgSpot]\CBmp[RelayTrader,19]\c[4]Slave Trader：\c[0]    Poor... Little slave... Tell brothers... Near ferry... You want go to... Fishtopia Isle...
+\SndLib[FishkindLgSpot]\CBmp[RelayTrader,19]\c[4]Slave Trader：\c[0]    We will... Keep you safe... Good place living... No more worse...
+
+SlaveDealer/Talk_failed
+\SndLib[FishkindLgSpot]\CBid[-1,5]\c[4]Slave Trader：\c[0]    You are... *Snort* Boy...? We don't... Accept males!
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    Uhhh...
+
+#################################YAMATO CAPTAIN ############################
+
+Captain/Welcome_unknow
+\CBid[-1,2]\SETpl[Mfat_DockCaptain]\m[confused]\prf\c[4]???：\c[0]    Ahoy lass, name's Edward. Wishing ta leave this here island?
+
+Captain/Welcome_unknow_detail
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I... I really want to leave this place.
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\PLF\prf\c[4]Edward：\c[0]    Me passage is already full, but ye still be havin' two options.
+\CBid[-1,20]\PLF\prf\c[4]Edward：\c[0]    First option is ta become a slave. Don't ye worry...
+\CBid[-1,20]\PLF\prf\c[4]Edward：\c[0]    If ya have kin in the West, they can still buy ye back.
+\CBct[2]\m[fear]\plf\PRF\c[6]Lona：\c[0]    ...Become a slave......
+\CBid[-1,20]\PLF\prf\c[4]Edward：\c[0]    Hummmph, yer expression says it all.
+\CBid[-1,20]\PLF\prf\c[4]Edward：\c[0]    The second is ta give me 20 Gold Coins,\n then I can consider vacating a seat for ye.
+\CBct[20]\m[shocked]\plf\PRF\Rshake\c[6]Lona：\c[0]    \{Tw-Twenty Gold Coins?!
+\CBct[20]\m[wtf]\plf\PRF\c[6]Lona：\c[0]    You could buy a house with that much in Sybaris!
+\CBid[-1,20]\PLF\prf\c[4]Edward：\c[0]    Not me problem if ya wish ta board me ship. Don't take too long, me price will increase over time.
+\CBid[-1,20]\PLF\prf\c[4]Edward：\c[0]    No coins? Then get lost, I'm busy.
+\CBct[8]\m[sad]\plf\PRF 20 Gold Coins...
+\CBct[8]\m[serious]...I have to try, maybe there's still a chance.
+
+Captain/Welcome_talked
+\CBid[-1,2]\m[confused]\SETpl[Mfat_DockCaptain]\c[4]Edward：\c[0]    Ahoy lass, we meet again. What be yer choice?
+
+Captain/OPT_HowMuch
+How much is it now?
+
+Captain/OPT_GiveMoney
+Give Gold Coins
+
+Captain/OPT_BeSlave
+Become a slave...
+
+Captain/Price_today
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Today's price be costin' ye 
+
+Captain/Price_today_link
+ Gold Coins. Ya best hurry lass, me price will continue ta rise the longer yer wait...
+
+Captain/Leave_NotEnoughMoney
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    ...This be some sort of trickery?
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Ye dare ta cause me trouble?! WASTE ME TIME?! Men! Kill this wench!!!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    WHAT?! W-Wait!
+
+Captain/Leave_WithEnoughMoney
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\m[trumph]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\cgoff\CBid[-1,1]\m[shy]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Do ya actually have ta coins lass? Let me count 'em...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    ...So......?
+\CBid[-1,4]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Blimey! Yer really be bringing the coins!
+\CBid[-1,4]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    I be surprised a little lassie like ye can take care of herself and survive.
+\CBid[-1,4]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Hurry up and board me ship lass. \CamCT
+
+##################################################################################
+
+Captain/WithArrears0
+\CamMP[Captain]\BonMP[Captain,5]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    \{Now men! Get her!
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    \{WHAT?!!! W-Wait!
+
+Captain/WithArrears1
+\CamCT\m[p5sta_damage]\plf\Rshake\c[6]Lona：\c[0]    S-Stop!
+\m[p5sta_damage]\plf\Rshake\c[6]Lona：\c[0]    Let go... Let go of me!!!
+\m[p5health_damage]\plf\Rshake\c[6]Lona：\c[0]    Nnnighnnn...!
+\m[p5health_damage]\plf\Rshake\c[6]Lona：\c[0]    You evil b-bastards...!!!
+\m[p5puke]\plf\Rshake\c[6]Lona：\c[0]    GUUUH...!
+\m[p5ahegao]\plf\Rshake\c[6]Lona：\c[0]    *Gurgle* Gack...
+\m[p5ahegao]\plf\Rshake\c[6]Lona：\c[0]    Ohhhhhh......~
+\narr Lona was choked-out and lost consciousness.
+
+Captain/WithArrears2
+\CamMP[Captain]\BonMP[Captain,2]\SETpl[Mfat_DockCaptain]\SETpr[NoerGangBoss]\Lshake\prf\c[4]Edward：\c[0]    How does this wench be?
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Thug：\c[0]    The bitch'll be fine. Just out cold.
+\CamMP[Captain]\BonMP[Captain,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Stupid girl ought ta know not to run when debts need ta be paid.
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Thug：\c[0]    So, like we agreed to. We'll collect the goods, and you'll get your reward.
+\CamMP[Captain]\BonMP[Captain,3]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]     Aye. Happy doing business with ye lads.
+
+################################################################################## Dock HEV
+
+FishKindDoor/Hev0
+\c[4]Slave A：\c[0]    Hey! Don't push me!
+
+FishKindDoor/Hev1
+\c[4]Slave B：\c[0]    They said there's no monsters in Fishtopia Isle, but...
+
+FishKindDoor/Hev1_1
+\c[4]Slave A：\c[0]    What's going to happen to us...?
+
+FishKindDoor/Hev2
+\c[4]Slave C：\c[0]    *Sigh*...
+
+FishKindDoor/Hev3
+\c[4]Fishman：\c[0]    Quiet... Move up... For branding...
+
+FishKindDoor/Hev4
+\c[4]Fishman：\c[0]    Branding... Eat fish... Won't be hungry...
+\c[4]Fishman：\c[0]    We're... Going home... To beautiful place...
+
+FishKindDoor/Hev5
+\narr Although they were worried, they did not resist...
+\narr It even seems like many of them volunteered for this.
+
+FishKindDoor/Lona0
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Is Fishtopia Isle really safe?
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Did they all became slaves voluntarily?
+
+################################################################################## SLAVE on Board
+
+Captain/Leave_Slave
+\CBct[6]\m[fear]\plf\Rshake\c[6]Lona：\c[0]    Excuse me... You said if I become a slave... I will be allowed to board the ship...
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Hmm\...\...\...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    The crew does lack women who can serve them, and we could use you.
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    So, are you sure you want to become our slave?
+
+Captain/Leave_Slave_yes0
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Okay... Yes... Yes I do...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Great, we got another one boys!
+
+Captain/Leave_Slave_yes1
+\m[p5shame]\Rshake\c[6]Lona：\c[0]    You... what are you going to do!?
+\SETpl[AnonMale1]\Lshake\CamCT\C[4]Crewman：\C[0]    Don't move! If you fuck up the brand, your value will be reduced!
+\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    No, let me go!
+\cg[event_SlaveBrand]\SETpl[AnonMale1]\Lshake\CamCT\C[4]Crewman：\C[0]    I told you not to move! You hear me?!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    \{KYAAAAAAAAAA!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{AIEEEAAAAAAHAHAAA!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{AIEEE-EEE-EEE!
+\narr\ph Lona lost consciousness from the pain\...\...\...
+
+Captain/Leave_Slave_no
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... let's forget it.
+
+Captain/Leave_SlaveTR1
+\SETpr[AnonMale1]\Rshake\C[4]Crewman：\C[0]    Captain, is this...?
+\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    A runaway slave! Take her to the ship.
+\SETpr[AnonMale1]\Rshake\plf\C[4]Crewman：\C[0]    Yes Captain!
+
+#Captain/Leave_Slave
+#\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Go to the backstreets lass, or look for them strange Fishfolks if yer wishin' ta be a slave.

@@ -1,0 +1,72 @@
+thisMap/OvermapEnter
+\m[confused]Crusty Crab Pottery Shop\optB[Leave,Enter]
+
+################################################################### Qmsg
+
+guard/Qmsg0
+I don't want...To go inside...
+
+guard/Qmsg1
+I really dont want... To go in there...
+
+guard/Qmsg2
+I don't want to...Get raped by Evilscales...
+
+guardWin/Qmsg0
+I really want to fuck something...
+
+guardWin/Qmsg1
+You're a woman...? Let's fuck...!
+
+guardWin/Qmsg2
+Outsider...Go away...
+
+Detective/Qmsg0
+So this...Is why...Hmm...?
+
+Detective/Qmsg1
+Why...Did they come here...?
+
+Detective/Qmsg2
+What...Brought them here...?
+
+################################################################### QUEST
+
+Qu0/KillAll
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Huh\..\..\..?! I won?!
+
+Detective/Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\prf\c[4]Detective：\c[0]    Slave....Go away...!
+
+Detective/NotKilled0_0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Detective：\c[0]    Rain... I hate the rain... But we need it....
+
+Detective/NotKilled0_1
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Detective：\c[0]    The rain will cover...The stench...
+
+Detective/NotKilled1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Um...?\optB[Never mind,What Happened]
+
+Detective/NotKilled1_about
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Excuse me...What happened here?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\c[0]    The fake Sea Witch's servants...Attacked...Here...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\c[0]    People are dead... Two people... Have died...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Oh?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\c[0]    We...When we were investigating....The Evilscales... Attacked us as well...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\c[0]    There are also... Many traces of the Evilscales...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\c[0]    We are....At a standstill...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\c[0]    All this... Is suspicious...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Okay, thank you.
+
+Detective/killed0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Detective：\c[0]    Outsider...You...Killed them...?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Um...? I think so，they all look dead to me.
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\c[0]    Very good...
+
+Detective/killed1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    .....
+
+Formula/found
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    The Secret Formula? Could this be it?
+
+#DOGE + SYNCED

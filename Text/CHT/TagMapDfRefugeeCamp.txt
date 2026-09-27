@@ -1,0 +1,248 @@
+thisMap/OvermapEnter
+\m[confused]末日堡壘難民營\optB[算了,進入]
+
+##########################################################################################  DF HERESY QUEST LINE
+
+Df_Heresy/0_0
+\CBmp[WhoreQGiver,6]\c[4]娼妓：\c[0]    拜託你！ 幫幫我們！
+\CBmp[John,5]\c[4]嫖客：\c[0]    這不是我的問題！ 妳出了什事干我屁事！
+\CBmp[WhoreQGiver,8]\c[4]娼妓：\c[0]    你說過的！ 你說過會幫助我們的....
+\CBmp[John,20]\c[4]嫖客：\c[0]    一個混族的小娼妓跟有資格要求我做事？
+\CBmp[John,5]\c[4]嫖客：\c[0]    妳只適合用舌頭幫我清理我的雞巴！
+
+Df_Heresy/0_1
+\CBmp[whore1,20]\c[4]娼妓B：\c[0]    現在該怎麼辦...？
+\CBmp[WhoreQGiver,8]\c[4]娼妓：\c[0]    唉\..\..\.. 不知道，問問看其他人吧。
+\CBmp[WhoreQGiver,8]\c[4]娼妓：\c[0]    也許會有個好心人幫幫我們...
+
+Df_Heresy/0_2
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    去！ 他媽的一群白癡...
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    嗯....？
+
+Whore/Qmsg0
+食物越來越少了
+
+Whore/Qmsg1
+姊妹們必須團結起來
+
+Whore/Qmsg2
+不團結起來會被欺負的
+
+WhoreQgiver/Qmsg0
+找到她了嗎？
+
+WhoreQgiver/Qmsg1
+拜託妳救救她
+
+Df_Heresy/1_0_normal
+\CBid[-1,20]\c[4]娼妓：\c[0]    你....你是傭兵嗎？
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃....算是吧？
+\CBid[-1,6]\prf\c[4]娼妓：\c[0]    求求你了，幫幫我們吧...
+
+Df_Heresy/1_0_weak
+\CBid[-1,20]\c[4]娼妓：\c[0]    妳也是跟我們一樣是妓女嗎？
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃....？
+
+Df_Heresy/1_1
+\CBct[2]\m[flirty]\c[6]洛娜：\c[0]    怎麼了？
+\CBid[-1,20]\prf\c[4]娼妓：\c[0]    我叫\c[6]默默\c[0]，我妹妹\c[6]藍藍\c[0]被那些邪教徒騙走了，我需要妳的幫助。
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    那些邪教徒？
+\CBid[-1,20]\prf\c[4]默默：\c[0]    對，邪教徒，謊言者！
+\CBid[-1,20]\prf\c[4]默默：\c[0]    而且她懷有身孕，那些謊言者一定打算將她獻祭給邪神！
+
+Df_Heresy/1_1_Cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    謊言者？！ 我們必須驅逐謊言者！
+
+Df_Heresy/1_BRD
+\board[生育之母教]
+目標：找到\c[6]藍藍\c[0]並帶回給\c[6]默默\c[0]
+報酬：道德5
+委託主：末日堡壘難民營的娼妓
+期限：單次
+
+Df_Heresy/1_OPT
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    嗯......\optB[沒空,沒問題]
+
+Df_Heresy/1_agreeEND
+\CBct[2]\m[shocked]\Rshake\plh\c[6]洛娜：\c[0]    懷孕了？！ 她們擄走了懷孕的孕婦？
+\CBid[-1,2]\prf\c[4]默默：\c[0]    擄走\..\..\..？
+\CBid[-1,9]\prf\c[4]默默：\c[0]    對！ 她們綁架了\c[6]藍藍\c[0]！ 那些邪惡的謊言者綁架了我妹妹！
+\CBct[20]\m[serious]\Rshake\c[6]洛娜：\c[0]    可以更詳細的告訴我發生什麼事嗎？
+\CBid[-1,6]\prf\c[4]默默：\c[0]    他們於夜裡綁架了\c[6]藍藍\c[0]。
+\CBid[-1,20]\prf\c[4]默默：\c[0]    那些邪教徒信奉著什麼\c[6]生育之母\c[0]，他們一定是要用我妹妹做什麼邪惡的獻祭！
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    妳們沒有將這些告訴附近的衛兵或僧侶嗎？
+\CBid[-1,20]\prf\c[4]默默：\c[0]    有的，但他們什麼都沒有做。他們根本不管我們的死活。
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    那些邪教徒的根據地在哪呢？
+\CBid[-1,6]\prf\c[4]默默：\c[0]    我不確定，應該是在東方？
+\CBct[20]\m[serious]\Rshake\c[6]洛娜：\c[0]    好！ 交給我吧！ 我會把她帶回來的！
+
+Df_Heresy/1_agreeEND_Cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    姊姊....
+\CBct[20]\m[flirty]\plf\Rshake\c[6]洛娜：\c[0]    怎麼了？
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    謊言者很危險！ 要小心謊言者！
+\CBct[3]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    姊姊沒問題的！
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    可可娜保護姊姊！
+
+Df_Heresy/1_agreeEND_brd
+\board[生育之母教]
+目標：找到\c[6]藍藍\c[0]並帶回給\c[6]默默\c[0]
+委託主：末日堡壘難民營的\c[6]默默\c[0]
+調查四周。
+
+Df_Heresy/1_nopeEND
+\CBct[2]\m[flirty]\plh\c[6]洛娜：\c[0]    抱歉哦，我現在沒有空耶。
+
+Df_Heresy/4to5_0
+\CBfE[20]\c[4]藍藍：\c[0]    姊姊...
+\CBid[-1,1]\c[4]默默：\c[0]    \c[6]藍藍\c[0]妳沒事吧！
+\CBfE[6]\c[4]藍藍：\c[0]    對不起。
+\CBid[-1,8]\c[4]默默：\c[0]    別說了，回來了就好。
+
+Df_Heresy/4to5_1
+\CBid[-1,20]\c[4]默默：\c[0]    感謝妳所做的一切，但我沒有多少東西能用來回報妳。
+\CBid[-1,20]\c[4]默默：\c[0]    這個拿去吧。
+
+Df_Heresy/4to5_2
+\CBct[2]\m[triumph]\PRF\c[6]洛娜：\c[0]    謝謝！
+
+################################################################################### rg 2
+
+Df_Heresy/2to3_1
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    他們說聖徒會於混亂時刻降臨並拯救我們！ 那聖徒呢！ 他來了嗎？
+\CBmp[Heresy1,20]\c[4]難民A：\c[0]    祂沒有來！ 祂是個懦夫！ 聖徒是個膽小鬼！
+\CBmp[Heresy1,20]\c[4]難民A：\c[0]    祂放任我們遭受一切苦難！ 他是個無能的偽神！
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    然而在哪天那天。 審判之日那天。 我看見了！ 那不是聖徒！
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    那是萬物的母親！ \c[6]生育之母\c[0]降臨了！
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    \c[6]生育之母\c[0]我遵循祂的引領。
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    看看現在的我，再看看現在的你們！
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    現在改宗信\c[6]生育之母\c[0]就可獲得兩個麵包！
+\CBmp[Heresy2,2]\c[4]難民B：\c[0]    \c[6]生育之母\c[0]？ 那是什小？
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    \c[6]生育之母\c[0]將我們於恐懼中解放！ 於黑暗時刻給予我們希望！
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    同胞們！ 跟我去看看吧！ 去見證\c[6]生育之母\c[0]的偉大！
+\CBmp[Heresy3,2]\c[4]難民C：\c[0]    \c[6]生育之母\c[0]！ 聽起來好像很厲害！
+
+Df_Heresy/2to3_2
+\CBmp[Heresy2,6]\c[4]難民B：\c[0]    什小？！ 生育之母？ 我怎麼沒看過？
+
+Df_Heresy/2to3_3
+\CBmp[Heresy1,20]\c[4]難民A：\c[0]    她是真的存在，我親眼看見的。 她是真的存在！
+\CBmp[Heresy1,20]\c[4]難民A：\c[0]    跟我來吧，我可以跟你說說\c[6]生育之母\c[0]她為何偉大。
+\CBmp[Heresy2,6]\c[4]難民B：\c[0]    什？ 休想騙我！ 妳是打算騙我的番薯對吧？
+
+Df_Heresy/2to3_4
+\CBmp[Heresy1,4]\c[4]難民A：\c[0]    怎麼會呢？ 讓我們用身體\c[6]私下\c[0]聊聊\c[6]生育之母\c[0]如何？
+
+Df_Heresy/2to3_5
+\CBmp[Heresy2,4]\c[4]難民B：\c[0]    哦哦哦♥
+\CBmp[Heresy3,4]\c[4]難民C：\c[0]    兄弟！ 你真幸運！
+\CBmp[Heresy3,20]\c[4]難民C：\c[0]    我決定了！ 我也要改宗！ 聖徒根本不存在！
+
+Df_Heresy/2to3_6
+\CBmp[Heresy3,20]\c[4]難民C：\c[0]    佈道者大人，我們成功了！
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    繼續努力！
+\CBmp[HeresyPriest,20]\c[4]佈道者：\c[0]    只要繼續下去\c[6]雄豬頭大人\c[0]一定會讓我們感受到\c[6]生育之母\c[0]的恩惠。
+
+########################################################################################## Priest 3 to 4
+
+Df_Heresy/3to4_1
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....先生....
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    迷途羔羊阿，妳有甚麼需要嗎？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...\optB[沒事,生育之母？,行賄<r=HiddenOPT0>,入教<r=HiddenOPT1>,威脅<r=HiddenOPT2>]
+
+Df_Heresy/3to4Mother
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    耶...那個\c[4]生育之母\c[0]到底是什？
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    什麼？！妳連偉大的\c[6]生育之母\c[0]是什麼都不知道？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    不知道.....
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    祂於黑霧中誕生，為引導我們這些受災的難民而降臨！
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    聖徒遺棄了我們！ 但祂卻引導我們活到現在！
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    讚美祂！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    哦？
+
+Df_Heresy/3to4_cancel
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    算了，沒事...
+
+Df_Heresy/3to4_pay0
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我想看看\c[4]生育之母\c[0]，能告訴我她在哪嗎？
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    妳想入教？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    我沒什麼興趣耶，我只想看看\c[4]生育之母\c[0]到底是不是真的存在而已。
+\cg[event_Coins]\SND[SE/Chain_move01.ogg]\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    你看，我有錢。 你也需要錢吧？
+
+Df_Heresy/3to4_pay1
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    嗯....
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    給我 \c[6] #{$story_stats["HiddenOPT4"]}p \c[0]的物資，給我我就告訴妳。
+
+Df_Heresy/3to4_pay2
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    嘿嘿嘿！ 我又能活一整個月了。
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    噓...小聲點。
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    我跟妳說，他們在東方的\c[6]水濂洞\c[0]。
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    他們會直接讓我進去？
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    \..\..\..
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    密語是 \c[6]尼古拉斯\c[0]。
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    千萬別跟別人說是我說的，我也只是討口飯吃而已。
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    哦...？
+
+Df_Heresy/3to4_join0
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....\c[6]生育之母\c[0]聽起來很強大，我想入教了。
+\CBmp[HeresyPriest,3]\prf\c[4]佈道者：\c[0]    太好了！ 妳也是受\c[6]生育之母\c[0]招喚而來的嗎？
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    正好祭典就快開始了，前往東方的\c[6]水濂洞\c[0]吧。
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    在那裏妳將忘卻恐懼！
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    他們會直接讓我進去？
+\CBmp[HeresyPriest,8]\prf\c[4]佈道者：\c[0]    \..\..\..
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    噓...小聲點.... 密語是 \c[6]尼古拉斯\c[0]。
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    那是\c[6]生育之母\c[0]的真名，也是我們的通關密語。
+
+Df_Heresy/3to4_atk0
+\CBct[5]\m[serious]\PRF\c[6]洛娜：\c[0]    .......
+\CBmp[HeresyPriest,2]\prf\c[4]佈道者：\c[0]    怎麼了？
+
+Df_Heresy/3to4_atk1
+\CBmp[HeresyPriest,6]\prf\c[4]佈道者：\c[0]    不！ 別殺我！
+\CBmp[HeresyPriest,6]\prf\c[4]佈道者：\c[0]    我不是真的邪教徒！ 我只是想混飯吃！
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    他們在東方的\c[6]水濂洞\c[0]裡。 
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    通關密語是 \c[6]尼古拉斯\c[0]！ 拜託別殺我！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...我還沒問耶...
+
+Df_Heresy/3to4_1_cocona0
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    他是謊言者！ 他想欺騙姐姐！
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    不用怕哦，姐姐知道。他騙不了我的。
+\CBfB[6]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    可可娜不怕，可是可可娜必須保護姊姊。
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    邪惡的謊言者與絕望者必須要吃掉！ 要吃乾淨！
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃\..\..\..耶？！\{\m[shocked]\Rshake吃掉？！
+
+Df_Heresy/3to4_failed
+\CBmp[HeresyPriest,20]\prf\c[4]佈道者：\c[0]    去！ 滾開！
+
+Df_Heresy/3to4_1BRD
+\board[生育之母教]
+目標：找到\c[6]藍藍\c[0]
+委託主：末日堡壘難民營的娼妓
+前往東方的水濂洞調查。
+
+Df_Heresy/3to4_1BRD2
+\board[生育之母教]
+目標：殺死邪教祭司\c[6]雄豬頭\c[0]
+委託主：看起來像是騙子的算命師
+前往東方的水濂洞調查。
+
+########################################################################################## Common
+
+HeresyPriest/RnG0
+\CBid[-1,20]\c[4]佈道者：\c[0]    生育之母正看著我們！
+
+HeresyPriest/RnG1
+\CBid[-1,20]\c[4]佈道者：\c[0]    你去過聖殿嗎？ 你見過聖徒嗎？
+\CBid[-1,20]\c[4]佈道者：\c[0]    沒有？！ 那妳憑什說祂存在？
+
+HeresyPriest/RnG2
+\CBid[-1,20]\c[4]佈道者：\c[0]    不要被騙了！ 聖徒根本不存在！
+
+ThatKid/RNG0
+\CBid[-1,20]\c[4]小孩：\c[0]    我好餓....
+
+ThatKid/RNG1
+\CBid[-1,20]\c[4]小孩：\c[0]    我爸媽都在這台車上...
+\CBid[-1,20]\c[4]小孩：\c[0]    他們說只要跟著他們一切就沒事了，所以我現在也得跟著。
+
+ThatKid/RNG2
+\CBid[-1,20]\c[4]小孩：\c[0]    那天晚上我媽媽被一大群人壓著，她一直叫我快跑。
+\CBid[-1,20]\c[4]小孩：\c[0]    等我回去的時候媽媽已經不會動了。

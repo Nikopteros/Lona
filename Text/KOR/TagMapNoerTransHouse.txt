@@ -1,0 +1,187 @@
+ThisMap/OmEnter
+\m[confused]사룡 장난감 가게\optB[그만둔다,들어간다]
+
+####################################################################### When Enter
+
+EnterOp/0
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]???：\c[0] 너 진심이야? 이 신약이 정말로... 내 남자 자지를 보지로 바꿔준다고?”
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_fear]\plf\PRF\c[4]상인：\c[0] 어... 음...
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]상인：\c[0] 당연하죠! 당연합니다! 이 약은 하루 세 끼, 매번 하나씩 드시면 됩니다.
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]???：\c[0] 지난번에도 그렇게 말했잖아!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]상인：\c[0] 믿어 보세요! 이번엔 정말 효과가 있습니다!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]상인：\c[0] 동문에 새로 생긴 산부인과 들어봤나요? 그 유명한 신의 손 의사에게서 온 약이거든요. 절대 효과 있어요!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]상인：\c[0] 게다가 아주 저렴합니다. 금화 1개로 일주일치! 3주만 복용하면 확실히 여성으로 변할 수 있어요!
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]???：\c[0] 정말...? 하지만 나... 지금 고작 큰 동전 8개밖에 없어...
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_shocked]\plf\PRF\c[4]상인：\c[0] 어... 음...
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]상인：\c[0] 문제없습니다! 제가 먼저 빌려드리죠!
+
+EnterOp/1
+\CBmp[SnowflakeEVMod,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]???：\c[0] 정말이야? 그렇다면 너무 좋네♥
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]상인：\c[0] 이럴 수도 있을 거라 생각해서 미리 준비해놨습니다!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]상인：\c[0] 곧 당신은 진정한 여성이 될 겁니다!
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]???：\c[0] 뭐라고, 이 빌어먹을 큰코 난쟁이 자식! 난 원래부터 여자였다고!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]상인：\c[0] 예! 맞습니다! 고객님 말씀대로입니다! 당신은 원래부터 여성이시죠!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]상인：\c[0] 당신의 고통은 성도의 시련일 뿐! 이 약을 먹기만 하면 곧 승화할 겁니다!
+\CBmp[SnowflakeEVMod,8]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]???：\c[0] 그래... 네 말이 맞아. 이건 틀림없이 성도의 시련이야.
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]상인：\c[0] 자, 아가씨. 여기 서명만 해주시면 됩니다...
+
+####################################################################### Night
+
+Trans/begin0
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\c[4]???：\c[0] \{아야야야!!
+
+Trans/begin1
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] \{히야야야야!!!
+
+Trans/begin2
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]???：\c[0] 꺄악♥ 깜짝 놀랐잖아♥
+
+Trans/begin3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]???：\c[0] 오♥ 향기 좋은 귀여운 아가씨네♥
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]???：\c[0] 난\c[6]설화\c[0]라고 해. 아가씨 이름은 뭐야?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어\..\..\..\c[4]로나\c[0]....
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]???：\c[0] \c[6]로나\c[0]? 참 예쁜 이름이네♥”
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어\..\..\..고마워?
+
+Trans/talkedBegin0
+\m[tired]으… 냄새 너무 심해…
+
+Trans/talkedNight0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 싫어라♥ 지금 바쁜데 왜 그래♥
+
+Trans/talkedDay0
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 왜 그러니, 꼬마 아가씨♥
+
+####################################################################### opt
+
+Trans/opt_pills
+...
+
+Trans/opt_male
+너는 남자야
+
+Trans/ans_male
+\CBct[20]\m[angry]\plf\Rshake\c[6]로나：\c[0] 헛된 망상은 그만해, 넌 남자야.
+\CBct[20]\m[serious]\plf\Rshake\c[6]로나：\c[0] 이게 현실이야. 빨리 정신 차려.
+
+Trans/ans_pills_opt
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 꼬마 아가씨, 이것 좀 봐. 내가 막 구해온 남성기 치료약이야.
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 이걸로 드디어 진짜 여자가 될 수 있어.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어\..\..\..\m[confused]이게....\optD[진짜 약이다,가짜 약이다]
+
+Trans/ans_pills_opt_real
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 맞아, 이 약이면 분명… 네 그 이상한 남자 증세도 고쳐줄걸?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 그렇지! 이제 곧 내 남자 병도 낫고, 진짜 여자가 될 수 있을 거야.
+
+Trans/ans_pills_opt_fake0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 이거… 그냥 흔한 사탕 아니야?
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 아냐! 똑똑히 봐, 잘 보라구. 이건 진짜 여자 치료약이야.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 에이, 이건 바나나맛 사탕이잖아. 못 믿겠으면 직접 먹어볼래?
+
+Trans/ans_pills_opt_fake1
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 아니야! 그럴 리 없어! 분명 네가 나를 속이는 거야!
+
+Trans/Ans_about0
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 으음… 여기가 장난감 가게? 그럼… 너는 장난감을 파는 거야?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 흥! 난 노엘에서 제일가는 장난감 장인이야! 산장 저쪽에 있는 노인네들도\..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 잠\..잠깐\....\{너…?!
+
+Trans/Ans_about1
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]설화：\c[0] \{네가 감히 내 성별을 멋대로 정해버리다니!!!
+
+Trans/Ans_about2
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐?! … 성… 성별?!\. \m[sad]나\..\..\..미안해…
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 흥, 귀여운 동생이니까 특별히 봐줄게. 대신 넌 내 아내가 돼라!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?! 아… 아내라니?! 너 분명 여자라고 하지 않았어?!
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 난 자지를 가지고 있어. 그건 성스러운 자의 잘못이야. 하지만 난 여자를 사랑해. 그게 뭐가 문제야?
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 아… 아… 아냐! 문제 없어!!
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 좋아… 그렇게 나와야지.
+
+Trans/RageQuit0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]설화：\c[0] 나는 여자야!! 넌 날 차별했어!!
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]설화：\c[0] \{나가! 당장 꺼져!!
+
+Trans/RageQuit1
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] \{에에에에에?!?!
+
+endTalkQuestion/begin0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 언니가 하나만 물어볼게… 언니는… 여자처럼 보여?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어….\optD[여자다,남자다]
+
+endTalkQuestion/begin0_ansF
+\CBct[6]\m[terror]\plf\Rshake\c[6]로나：\c[0] 여자야! 틀림없이 여자야!!
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 아♥ 역시 로나 동생은 날 이해해주는구나.
+
+endTalkQuestion/begin0_ansM
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 남자… 아닐까? 아무래도 그게… 자지가 있으니까….
+
+####################################################################### Common cropse
+
+Cropse/Qmsg0
+몸에 노예의 낙인이 찍혀 있다
+
+Cropse/Qmsg1
+굶어 죽은 것처럼 보인다
+
+Cropse/Qmsg2
+보지가 심하게 늘어나 있다
+
+Cropse/Qmsg3
+이미 썩은 냄새가 난다
+
+transCropse/Qmsg0
+똥오줌이 사방에 흩뿌려져 있다
+
+transCropse/Qmsg1
+현실을 받아들이지 못한 채 죽은 것 같다
+
+####################################################################### nap first capture
+
+Trans/NapCapture0
+\CBct[2]\m[confused]\PLF\c[6]로나：\c[0] 으\..\.. 뭐\..?
+
+Trans/NapCapture1
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 잘 됐다♥ 동생아, 드디어 깨어났구나♥
+
+Trans/NapCapture2
+\CBct[6]\m[terror]\plf\Rshake\c[6]로나：\c[0] 내가 왜 여기 있는 거야?! 너, 나한테 뭐 한 거야?!
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 동생은 이미 내 여자친구가 되기로 했잖아?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?! 내가? 여자친구?!
+
+Trans/NapCapture3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]설화：\c[0] 자, 우리 연인이 해야 할 걸 해보자♥
+\CBct[6]\m[pain]\plf\Rshake\c[6]로나：\c[0] 싫어! 놔줘!!
+
+Trans/NapCapture4
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 아아♥ 간다♥ 간다아♥♥
+
+Trans/NapCapture5
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\c[4]설화：\c[0] 아… 정말 기분 좋아.
+\CBct[8]\m[pain]\plf\PRF\c[6]로나：\c[0] 흐윽….
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]설화：\c[0] 난 먼저 일하러 갈게. 이따가 다시 와서 귀여워해 줄게♥
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] ....
+
+####################################################################### nap rapeloop
+
+Trans/NapRapeloop0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]설화：\c[0] 자♥ 이제 동생을 귀여워해 줄 시간이야♥
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]설화：\c[0] 우리 여인끼리의 즐거움을 맛보자♥
+
+Trans/NapRapeloop1
+\CBct[8]\m[pain]\plf\PRF\c[6]로나：\c[0] 흐윽….
+
+rapeloop/ans_male0
+\CBct[5]\m[angry]\plf\PRF\c[6]로나：\c[0] 너\..\..\.. 애초에 여자가 아니잖아!
+\CBmp[Snowflake,1]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]설화：\c[0] 뭐?! 뭐라고 했어?!
+\CBct[5]\m[serious]\plf\PRF\c[6]로나：\c[0] 넌 태어날 때부터 이랬어! 아무리 발버둥쳐도 그 현실은 바뀌지 않아!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]설화：\c[0] \{이 년아! 닥쳐!
+
+rapeloop/ans_male1
+\CBct[5]\m[angry]\plf\PRF\c[6]로나：\c[0] 너 약을 얼마나 먹고, 수술을 몇 번이나 했어? 소용 있었냐?!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]설화：\c[0] \{이 년아! 닥치라고 했지!!
+\CBct[5]\m[serious]\PRF\c[6]로나：\c[0] 너도 이미 알고 있잖아! 넌 영원히 여자가 될 수 없어!
+
+rapeloop/ans_male2
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]설화：\c[0] \{끼야아아아아아아악!!

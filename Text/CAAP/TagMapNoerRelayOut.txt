@@ -1,0 +1,272 @@
+thisMap/OvermapEnter
+Entrada por las Puertas del Este \optB[Cancelar,Entrar]
+
+#########################################################
+mapOP/begin0
+\CBmp[PplGroup0,20]\c[4]Multitud：\C[0]    ¡Déjennos entrar! ¡Hemos esperado tanto aquí, por qué no nos dejan pasar!
+\CBmp[PplGroup1,20]\c[4]Multitud：\C[0]    Sálvennos, hay demonios y bandidos allá afuera...
+\CBmp[PplGroup0,20]\c[4]Multitud：\C[0]    ¡Por qué no nos dejan entrar! ¡Oye, tengo dinero, tengo mucho dinero!
+\CBmp[GuardMain,20]\SETpl[Mreg_pikeman]\c[4]Guardia：\C[0]    ¿Y eso es todo? ¡Lárguense! ¡Son unos mendigos imperiales! ¡Sin permiso, no se puede entrar!
+
+mapOP/begin1
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡Todos ustedes! ¡Todo esto es el resultado de sus pecados!
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Todo depende de nosotros, solo el \c[6]Santo\C[0] puede salvarlos de la mentira!
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡Inocentes! ¡Diríjanse al norte, al \c[6]Monasterio del Santo\C[0]!
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡El Santo los salvará de los malvados \c[6]mentirosos\C[0]!
+\CBct[8]\m[confused]\plh\PRF\c[6]Lona：\C[0]    Hmm.........
+\CBct[8]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    ¿Hay más refugiados afuera?
+
+Monk/begin0
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¿Están aquí para unirse a la Iglesia?
+
+Monk/begin0Cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Es el Santo!
+\CBct[4]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    Cocona, sé buena... espera un momento. Voy a hablar con los adultos ♥
+\CBfB[2]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\C[0]    Miau....
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¿Son creyentes o vinieron para unirse a la Iglesia?
+
+Monk/beginOPT
+\CBct[8]\m[confused]\plh\PRF\c[6]Lona：\C[0]    Ehh..... \optB[Nada,Creyentes,Mentirosos,Inocentes,Seguidores]
+
+Monk/beginOPT_BLI
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    Perdón... ¿Qué es ser un creyente...?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Un creyente es alguien que se entrega al Santo con cuerpo y alma.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Solo los creyentes podrán entrar al templo donde reside el Santo, ¡cuando este mundo ya no exista!
+
+Monk/beginOPT_LIE
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    Eh... ¿Qué es un mentiroso...?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Los que creen en dioses falsos son mentirosos, difunden las enseñanzas falsas de dioses falsos.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Todo el sufrimiento que hemos soportado es causado por la mentira que se esparce en este mundo.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡Como los Hombres-Pez, abandonados por su falso dios, los extranjeros que creen en dioses falsos serán condenados en el juicio final!
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡Y ustedes, pecadores infieles, la niebla negra que aparece en \c[6]Síbari\C[0] es su castigo!
+
+Monk/beginOPT_FAR
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    ¿Quiénes son los inocentes.....?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Alguien que se aleja de los Santos, como tú, es inocente. La falta de fe es tu maldad, aunque seas inocente.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Los inocentes pueden caer en la mentira en cualquier momento debido a sus miedos y deseos materiales.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡Mira! Los Santos profetizaron que el fin se acerca, y tu única salvación es creer en ellos antes de que todo sea destruido.
+
+Monk/beginOPT_FOL
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    Entonces... ¿quiénes son los seguidores?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¿Seguidores? ¡Los que creen en los Santos pero no pueden renunciar a todo!
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Como su fe no es lo suficientemente fuerte, los deseos malignos los dominan.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡La línea entre pecado e inocencia es muy delgada! ¡Eso es un seguidor!
+
+Monk/beginOPT_NVM
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    Arrepiéntete, niño, ante los Santos que pueden salvarte.
+\CBct[8]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    Eh... Solo estaba pasando por aquí....
+
+Monk/beginOPT_NVM_Cocona
+\CBfB[9]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Hermana mayor! ¡Quiero hablar con el Santo!
+\CBct[20]\m[flirty]\plh\PRF\c[6]Lona：\C[0]    No es el Santo, es su asistente...
+\CBid[-1,5]\SETpl[AnonMale2]\Lshake\prf\c[4]Creyente：\C[0]    ¡¿Qué?!
+\CBct[6]\m[shocked]\plh\PRF\c[6]Lona：\C[0]    \{¡Ah! ¡Perdón!
+
+######################################################### Commoner
+MonkR/Rng0
+\CBid[-1,20]\prf\c[4]Monje Soldado：\C[0]    ¡No te muevas! ¡Deja que los \c[6]Santos\C[0] juzguen tus pecados!
+
+MonkR/Rng1
+\CBid[-1,20]\prf\c[4]Monje Soldado：\C[0]    ¡Estás a un paso de ser un mentiroso! ¡No creas que los \c[6]Santos\C[0] ignoran tus pecados!
+
+MonkR/Rng2
+\CBid[-1,20]\prf\c[4]Monje Soldado：\C[0]    \c[6]Santos：\C[0] ¡Saben todo lo que has hecho! ¡Arrepiéntete mientras puedas!
+
+CommonerM/Rng0
+\CBid[-1,20]\c[4]Refugiado：\C[0]    ¿Es cierto que en el monasterio dan comida?
+
+CommonerM/Rng1
+\CBid[-1,20]\c[4]Refugiado：\C[0]    ¡Soy inteligente, he leído libros, no me mientas!
+
+CommonerM/Rng2
+\CBid[-1,20]\c[4]Refugiado：\C[0]    ¡Solo cree en los \c[6]Santos\C[0], sí! ¡Yo creo! ¡Dame comida ahora mismo!
+
+CommonerF/Rng0
+\CBid[-1,20]\c[4]Refugiada：\C[0]    Perdón... \c[6]Santos\C[0] Ohh... Perdónanos, somos pecadores.
+
+CommonerF/Rng1
+\CBid[-1,20]\c[4]Refugiada：\C[0]    \c[6]Santos\C[0], perdona mis pecados... No debí comerlos....
+
+CommonerF/Rng2
+\CBid[-1,20]\c[4]Refugiada：\C[0]    Soy una mentirosa malvada, \c[6]Santo\C[0], por favor castígame....
+
+CommonerM2/begin
+\CBid[-1,20]\c[4]Refugiado：\C[0]    ¿Sabías que la esposa del viejo Joe escapó y fue follada por un montón de "verdes"?
+\CBid[-1,8]\c[4]Refugiado：\C[0]    Hace poco dio a luz a un medio humano, medio cerdo, medio oso, y el viejo Joe vomitó en el acto.
+\CBid[-1,8]\c[4]Refugiado：\C[0]    Su esposa se desmayó, y luego ayudé al viejo Joe a tirar al recién nacido al mar, pero...
+\CBid[-1,8]\c[4]Refugiado：\C[0]    ...
+\CBid[-1,20]\c[4]Refugiado：\C[0]    Hmm... Pero cuando volvimos, su esposa se había suicidado.
+
+CommonerF2/begin0
+\CBid[-1,20]\c[4]Refugiada：\C[0]    \{¡No! ¡No me toques!!!
+
+CommonerF2/begin1
+\CBid[-1,6]\c[4]Refugiada：\C[0]    ¿Quién eres? ¡¿Demonio?! ¡No te acerques! ¡¡¡¡Vete!!!!
+
+######################################################### Cunny Cunny Cunny
+
+Fapper/begin0
+\CBid[-1,4]\prf\c[4]Refugiado：\C[0]    Cunny ♥ Cunny ♥ Cunny ♥
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Eh... ¿Cunny?
+
+Fapper/begin1
+\CBid[-1,1]\prf\c[4]Refugiado：\C[0]    \{¡¡Cunny!! ♥♥♥♥♥
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    \{¡¿Eh?!!!
+
+Fapper/begin2
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]Lona：\C[0]    \{¡¿Qué estás haciendo?! ¡Suéltame!
+
+Fapper/begin3
+\CBid[-1,6]\Rshake\c[4]Refugiado：\C[0]    Ohhhhh ♥ Cunny sexy ♥
+
+Fapper/begin4
+\CBid[-1,6]\Rshake\c[4]Refugiado：\C[0]    El vientre de Cunny ♥ Los pechos de Cunny ♥ Tan erótico ♥
+
+Fapper/begin5
+\CBct[5]\m[bereft]\Rshake\c[6]Lona：\C[0]    \{¡¡¡Lárgate!!!
+
+Fapper/begin6
+\CBid[-1,4]\SETpl[HumanPenisNormal]\Lshake\prf\c[4]Refugiado：\C[0]    Cunny es tan linda ♥ Quiero venirme en su vientre ♥
+
+Fapper/begin7
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\C[0]    \{¡¡¡AHHHHH!!!
+
+######################################################### PoorKid SideQU
+
+rg4/begin0
+\CamMP[PoorKidCam]\BonMP[PoorBoy,20]\c[4]Niño：\C[0]    Por favor, ayúdenme.
+\CamMP[PoorKidCam]\BonMP[HoboAtk2,5]\c[4]Refugiado：\C[0]    Quien sea que te cuide, no seré yo. Tengo que cuidarme a mí mismo.
+
+rg4/begin1
+\CamMP[PoorKidCam]\BonMP[PoorBoy,6]\c[4]Grio：\C[0]    Me llamo \c[6]Grio\C[0], soy de la \c[6]Aldea de las Nubes\C[0], por favor, escúchenme...
+\CamMP[PoorKidCam]\BonMP[PoorBoy,6]\c[4]Grio：\C[0]    Mi familia fue...
+\CamMP[PoorKidCam]\BonMP[HoboAtk1,5]\c[4]Refugiado：\C[0]    ¡Lárgate!
+
+rg4/begin2
+\CamMP[PoorKidCam]\BonMP[PoorBoy,20]\c[4]Grio：\C[0]    Por favor, escúchenme...
+\CamMP[PoorKidCam]\BonMP[HoboAtk2,5]\c[4]Refugiado：\C[0]    ¡Te escucho! ¡Y me pone furioso!
+
+rg4/begin3
+\CamMP[PoorKidCam]\BonMP[HoboAtk1,5]\c[4]Refugiado：\C[0]    ¡Vete al carajo! ¿Crees que a alguien le importa cuántos murieron en tu familia? ¡Toda mi familia está muerta, solo quedé yo!
+
+Griot/Begin0
+\CBid[-1,6]\prf\c[4]Grio：\C[0]    Ohohoh...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... ¿Estás bien?
+
+Griot/Begin1
+\CBid[-1,2]\m[confused]\prf\c[4]Grio：\C[0]    Tú... ¿Estás aquí para ayudar?
+
+Griot/OPT_KillTheKid
+En realidad, estoy aquí para matarte
+
+Griot/OPT_HelpTheKid_FattieKilled
+El gordo está muerto
+
+Griot/OPT_HelpTheKid_aggroed
+Hay muchos tipos malos allí
+
+Griot/OPT_GiveUP
+Dejar el odio
+
+Griot/OPT_HelpTheKid
+Ayudarlo
+
+Griot/OPT_About
+¿Qué pasa?
+
+Griot/OPT_Letter
+Últimas palabras
+
+Griot/OPT_About_play0
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... Empecemos de nuevo. ¿Qué ayuda necesitas?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Al menos lo intentaré.
+
+Griot/OPT_About_play1
+\CBid[-1,8]\prf......\WF[10]
+\CBid[-1,6]\prf\c[4]Grio：\C[0]    Yo... Mi familia quedó en la \c[6]Aldea de las Nubes\C[0], y los mataron.
+\CBid[-1,6]\prf\c[4]Grio：\C[0]    Esa noche, un gordo asqueroso dijo que robamos su comida.
+\CBid[-1,6]\prf\c[4]Grio：\C[0]    ¡Pero no robamos nada! Era nuestra comida.
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    Hermana, ¿puedes entrar a la ciudad? ¡Llévame contigo para quejarme con la guardia!
+
+Griot/OPT_HelpTheKid_FattieKilled_play
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    En realidad, ya estuve en esa aldea, y ese gordo malo del que hablas está muerto.
+\CBid[-1,8]\prf......\WF[10]
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡¿En serio?!
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¿Entonces está muerto? ¿Mis padres están vengados?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Em... ¿Vengados? ¿Se puede decir así?
+\CBid[-1,8]\prf......\WF[10]
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    Supongo...
+
+Griot/OPT_HelpTheKid_aggroed_play
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... Ya estuve allí.
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡¿En serio?!
+\CBct[20]\m[angry]\PRF\c[6]Lona：\C[0]    ¡Todos los que hay ahora son ladrones y asesinos!
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡Exacto! Los tíos y tías eran amables al principio, ¡pero cambiaron cuando supieron que teníamos comida!
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡El gordo les dijo que mataran a mis padres, y lo hicieron!
+
+Griot/OPT_HelpTheKid_play
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0] Bueno... ¿Cómo puedo ayudarte?
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    Quiero ir a la ciudad. Contarle a los nobles lo que pasó. Pero las puertas están cerradas.
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    Hermana, ¿puedes entrar a la ciudad? ¡Ayúdame!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Contarles a los nobles? ¿Te refieres a alguien en específico?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0] ¿O hablas del \c[4]Cuartel de la Guardia\C[0] de Noertown?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Ni unos ni otros tienen tiempo para preocuparse por otros. Ya tienen suficientes problemas.
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡No puede ser! ¡Mataron a mis padres! ¡Seguro me ayudarán!
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Ajá...
+
+Griot/OPT_Letter_Play0
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Tengo una carta, debe ser de tu padre. Aquí, léela.
+\CBid[-1,8]\prf\c[4]Grio：\C[0]    No sé leer....
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Oh....
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Bueno, déjame leerla por ti.
+
+Griot/OPT_Letter_Play1
+\CBid[-1,8]\prf\c[4]Grio：\C[0]    ......
+
+#no usado probablemente nunca se reutilizará
+#Griot/OPT_HelpTheKid_play_brd
+#\board[Declaración de Griot]
+#TareaVaya a la Vigilancia de la Ciudad y reporte el crimen
+#RecompensaNo
+#Cliente\c[4]Grio：\C[0] afuera de la puerta este de Noertown
+#Repetibilidad: Desechable
+#Los padres de este pobre niño fueron asesinados. Intente informar esto a la \c[4]Vigilancia de la ciudad\C[0] de Noertown.
+
+Griot/OPT_KillTheKid_play
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    Así que... ¿tú eres el \c[4]Grio\C[0] de la \c[4]Aldea de las Nubes\C[0]?
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡Sí! ¡Ese soy yo!
+\CBct[6]\m[confused]\PRF\c[6]Lona：\C[0]    Bueno... En realidad... Es que...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    ¡Me contrataron para... matarte!
+\CBid[-1,8]\prf......\WF[10]
+\CBid[-1,20]\prf\c[4]Grio：\C[0] \{¡¡Ahhh! ¡Ayuda!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Oye! ¡Espera un momento!
+
+Griot/MAD_loop
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡Toda una aldea de gente asquerosa! ¡Quiero venganza!!
+\CBid[-1,20]\prf\c[4]Grio：\C[0]    ¡Quiero ir a la ciudad y contárselo todo a los nobles, seguro me ayudarán!
+
+Griot/OPT_HelpTheKid_play_yes
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    No se pierde nada con intentar. Solo no esperes demasiado.
+\CBid[-1,3]\prf\c[4]Grio：\C[0]    ¡Genial! ¡Gracias, hermana!
+\CBct[20]\m[pleased]\PRF\c[6]Lona：\C[0]    Espera aquí, volveré pronto.
+\CBid[-1,3]\prf\c[4]Grio：\C[0]    ¡Como digas!
+
+Griot/OPT_HelpTheKid_play_no
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... Ahora estoy ocupada.
+\CBid[-1,8]\prf......\WF[10]
+
+Griot/OPT_GiveUP_play0
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Creo que deberías... olvidarlo.
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0]    Tus padres están muertos, pero lo importante es que tú sigues vivo, ¿no?
+\CBid[-1,8]\prf\c[4]Grio：\C[0]    ...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    No creo que la gente haga eso sin razón.
+\CBid[-1,8]\prf\c[4]Grio：\C[0]    ...
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Hay caos en toda la isla, incluso si llegas al \c[4]Cuartel de la Guardia\C[0], a nadie le importará.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    En fin, lo importante es encontrar cómo seguir adelante.
+\CBid[-1,8]\prf\c[4]Grio：\C[0]    ...
+
+Griot/OPT_GiveUP_play1
+\CBid[-1,8]\m[p5sta_damage]\Rshake\c[4]Grio：\C[0]    \{¡Hermana, eres tan estúpida... Déjame en paz!
+
+Griot/OPT_GiveUP_play2
+\CBct[20]\m[tired]\PRF\c[6]Lona：\C[0]    ......

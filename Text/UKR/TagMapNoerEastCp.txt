@@ -1,0 +1,258 @@
+
+
+
+EastCP/OvermapEnter
+Сьомий Східний Охоронний Пост \optB[Скасувати,Увійти]
+
+#######################################################
+
+################################################### C130 mini game
+
+Cannon/ManDown0
+Офіцер：Дружні втрати! Повторюю, дружні втрати!
+
+Cannon/ManDown1
+Офіцер：Ми втратили воїна!
+
+Cannon/ManDown2
+Офіцер：У нас втрати! Запрошую підтримку!
+
+Cannon/GoodKill0
+Офіцер：Отримуй!
+
+Cannon/GoodKill1
+Офіцер：Є влучення.
+
+Cannon/GoodKill2
+Офіцер：Так, влучне влучення.
+
+Cannon/GoodKill3
+Офіцер：Ка-БУМ!
+
+Cannon/GoodKill4
+Офіцер：Вау! Точний постріл.
+
+Cannon/GoodKill5
+Офіцер：Чудово!
+
+Cannon/GoodKill6
+Офіцер：Так, чудовий постріл. Бачу багато дрібних шматків від них.
+
+Cannon/win
+:\C[0]Артилерист:\C[0] Здається, атака закінчена, відмінна робота.
+
+Cannon/lose
+:\C[0]Артилерист:\C[0] Прокляття! Усі солдати загинули!
+:\C[0]Артилерист:\C[0] Всім живим! Відступаємо!
+
+############################################## C130 quest begin
+
+yeller/start
+\CBmp[YellingGuard,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Гей! Ти!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Що?! ...Я?
+\CBmp[YellingGuard,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Так! Ти! Ти зі штабу?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ні...
+\CBmp[YellingGuard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Не кажи нісенітниці! Іди та доповісти Офіцеру Артилерії на даху!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] ......Мене постійно ніхто не слухає.
+
+officer/start_opt
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Що тут забули біженці?!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Я не біженка! Мене послав солдат знизу!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Що?! Тоді що ти тут робиш...?
+
+officer/start_opt_known
+\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Мм? Чи потрібно щось?
+
+officer/opt_nope
+Нічого
+
+officer/opt_whore
+Проституція
+
+officer/opt_work
+Запропонувати допомогу
+
+officer/opt_replayCannon
+Артилерія
+
+officer/opt_about
+Що це за монстри?
+
+officer/opt_aboutCannon
+Гармата Оверлорд М405?
+
+officer/opt_repair
+Полагодити гармату
+
+officer/opt_moveCannon
+Табір біля Південних Воріт
+
+officer/opt_monster
+\CamCT\m[confused]\plf\PRF\c[6]Лона:\C[0] Що це були за монстри, з якими ми щойно билися?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Їх називають \c[6]Глибинними\C[0]. Ти не чула про них раніше?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Відразу після піратів, ранні колоністи найбільше боялися цих монстрів.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Фізична сила Глибинних настільки велика, що без зброї жодна людина не зможе перемогти їх у чесному бою.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Вони вторгаються в житлові райони пізніми ночами, крадуть жінок і вбивають чоловіків.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Що відбувається з жінками потім? Що ж, на них чекає та ж доля, якби їх вкрали Оркоїди...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Отже, тобі варто бути особливо обережною...
+\CamCT\m[fear]\plf\PRF\c[6]Лона:\C[0] Мені......?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона:\C[0] Іншими словами, не дати їм себе зловити?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Саме, я не бачив їх багато років. Я думав, що вони вимерли.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Але тепер всі болотяні краї на сході під їх контролем.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Вони, ймовірно, з'явилися разом з Чорною імглою, будучи мутованими Риболюдьми.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Я не знаю, скільки я тут пробуду, тому май на увазі.
+\CamCT\m[pleased]\plf\PRF\c[6]Лона:\C[0] Ясно, дякую вам.
+
+officer/opt_FireControlSys
+\CamCT\m[confused]\plf\PRF\c[6]Лона:\C[0] А це випадково не... Гармата Оверлорд М405?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона:\C[0] Їх можна виробляти масово? Вона така потужна. Чи ми з нею можемо відвоювати Сибаріс назад?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] У цих обставинах це не є можливим. Це єдиний екземпляр, і до того ж навчання солдатів її користування займе не один місяць.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] Та й навіть якщо капітолій зможе виробляти масово цю гармату, у нас мало снарядів для неї...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артилерист:\C[0] А найважливіше... Багато хто з нас надто неписьменний.
+\CamCT\m[confused]\plf\PRF\c[6]Лона:\C[0] ...Зрозуміло.
+
+officer/opt_cannon
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Відмінно! Іди та керуй гарматою!
+\CamMP[Cannon]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Що? А як цією штукою користуватися взагалі?
+\CamMP[Cannon]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Не час для жартів! Сама чи не знаєш? Стріляй з неї у ворогів, поки вони не зітхнуть!
+\CamMP[officer]\BonMP[officer,6]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Он вони йдуть! Ми не маємо часу!
+\CamCT\m[fear]\plf\Rshake\c[6]Лона:\C[0] Що? Хто йде?
+\CamMP[officer]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] ВПЕРЕД! Не гай часу!
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Л-Добре!
+
+officer/opt_cannon_replay
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Глибинні йдуть! Живо за гармату!
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Так!
+
+######################################################### Whore job
+
+officer/opt_whore_Lona
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Мене це не цікавить, крокуй вниз і пошукай когось ще. Може, піднімеш бойовий дух комусь.
+\CamCT\m[shy]\plf\PRF\c[6]Лона:\C[0] Зрозуміла...
+
+staffG1/begin1
+\CamMP[staffG1]\prf\c[4]Офіцер:\C[0] Оу? Повія, так? Саме вчасно! \optD[Ні,Так]
+
+staffG1/begin1Y
+\CamCT\m[shy]\PRF\c[6]Лона:\C[0] \{Оуу?!
+\CamCT\m[lewd]\PRF\c[6]Лона:\C[0] Так, я якраз прийшла обслужити вас, хлопці...
+
+staffG1/begin1N
+\CamCT\m[shy]\PRF\c[6]Лона:\C[0] \{ЩО?!
+\CamCT\m[irritated]\Rshake\c[6]Лона:\C[0] \{Я не повія!
+
+staffG1/begin2
+\CamMP[staffG1]\prf\c[4]Офіцер:\C[0] Так-так... Гаразд! Я покличу інших! А ти чекай у кімнаті за цією шторкою!
+
+staffG1/begin2YY
+\CamCT\m[shy]\PRF\c[6]Лона:\C[0] Добре... Я чекатиму...
+
+staffG1/begin2_opt
+\CamCT\Bon[5]\m[bereft]\Rshake\c[6]Лона:\C[0] Слухай сюди-! \optD[Я не повія!,Я...]
+
+staffG1/begin2NN
+\CamMP[staffG1]\prf\c[4]Офіцер:\C[0] Відмінно! Я захоплю інших, а ти поки продовжуй виглядати як повія.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Лона:\C[0] ...Чого?
+
+staffG1/begin2NNN
+\CamMP[staffG1]\prf\c[4]Офіцер：\C[0] Оу, що не так? Адже ти виглядаєш як повія.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Лона:\C[0] Вибачте?!
+
+####################################
+
+whoreWork/begin1
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Солдат:\C[0] О, справжня повія. ♥
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,5]\prf\c[4]Солдат:\C[0] Давненько я не гуляю!
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Солдат:\C[0] Знімай одяг, покажи тіло! ♥
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,7]\prf\c[4]Солдат:\C[0] Не бійся! Знімай все! ♥
+\CamCT\m[sad]\Rshake\c[6]Лона:\C[0] Еммм...
+
+whoreWork/DressOut
+\narr Ваші предмети та екіпірування були поміщені в шафку.
+
+whoreWork/begin_unknow
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,2]\prf\c[4]Солдат:\C[0] Представся нам.
+\CamCT\m[shy]\PRF\c[6]Лона:\C[0] Всім привіт, мене звуть Лона.
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,2]\prf\c[4]Солдат:\C[0] Скільки тобі років, міс? Думаєш уже достатньо? Як ти дійшла такого?
+\CamCT\m[flirty]\PRF\c[6]Лона:\C[0] Ну, напевно... Я втекла з Сібарісу разом з іншими біженцями кілька місяців тому.
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,6]\prf\c[4]Солдат:\C[0] І тепер ти продаєш своє тіло. Нелегко тобі дається жити, я дивлюся.
+\CamCT\m[tired]\PRF\c[6]Лона:\C[0] Ну, я лише виживаю, як вмію, от і все...
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,3]\prf\c[4]Солдат:\C[0] У такому разі, допоможи нам розслабитися і обслужи нас. Тримати фронт, захищаючи вас від монстрів – тяжка праця.
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Солдат:\C[0] А ще дядечко може дати тобі грошей за це.
+\CamCT\m[flirty]\PRF\c[6]Лона:\C[0] Добре!
+
+whoreWork/begin_hass0
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,4]\c[4]Солдат:\C[0] Краса! А пахне як!
+
+whoreWork/begin_hass1
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\c[4]Солдат:\C[0] Ух, яка гнучка!
+
+whoreWork/begin_hass2
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,4]\c[4]Солдат:\C[0] Мило! М'які губи!
+
+whoreWork/begin2
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Солдат:\C[0] З чого б їй почати?
+\CamMP[AnonGuard4]\BonMP[AnonGuard4,4]\prf\c[4]Солдат:\C[0] Нехай почне з відсмоктування наших хуїв.
+\CamCT\m[shy]\c[6]Лона:\C[0] Ла-а-одно......
+
+whoreWork/FuckStart
+\prf\c[4]Солдат:\C[0] Я не можу більше терпіти! Давайте як слід трахнемо цю дрібну суку!
+
+whoreWork/QdoneMsg0
+Я вже обслужила його.
+
+whoreWork/QdoneMsg1
+У нього вже опав член.
+
+whoreWork/QdoneMsg2
+Цей уже кінчав.
+
+######################################################### Cannon st2
+
+officer/c130_done1
+\CamMP[officer]\BonMP[officer,3]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Ти добре попрацювала! Такі речі справді зрозумілі лише молодим людям!
+\CamCT\m[sad]\plf\PRF\c[6]Лона:\C[0] Я просто йшла повз...
+\CamMP[officer]\BonMP[officer,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Що? То ти громадянська?!
+\CamCT\m[bereft]\plf\Rshake\c[6]Лона:\C[0] Так! Чому мене ніхто не слухає?
+\CamMP[officer]\BonMP[officer,7]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Що ж, схоже підтримки ми не дочекаємося.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Ти можеш навчити нас користуватися цією... «Гарматою Оверлорд М405»?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Вона виглядає потужною, але ніхто з нас не вміє керувати такою складною машиною.
+\CamCT\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ну, я можу спробувати...
+
+officer/c130_done2
+\CamCT\m[flirty]\PRF\c[6]Лона:\C[0] Ага, а потім тягнеш важіль ліворуч, щоб вона прицілилася правіше.
+\CamMP[Noob]\prf\c[4]Солдат:\C[0] Ось так?
+\CamCT\Bon[8]\m[confused]\PRF\c[6]Лона:\C[0] \..\..\..\..
+\CamCT\Bon[7]\m[shocked]\Rshake\c[6]Лона:\C[0] Ні! Це не та кнопка.
+\CamMP[Noob]\BonMP[Noob,8]\prf\c[4]Солдат:\C[0] Ця, тоді?
+\CamCT\Bon[7]\m[bereft]\Rshake\c[6]Лона:\C[0] Ні! Не те!
+\CamMP[Noob]\BonMP[Noob,2]\prf\c[4]Солдат:\C[0] Гаразд, а що буде, якщо натиснути сюди?
+\CamCT\m[terror]\Rshake\c[6]Лона:\C[0] НІ!!! Тут написано!
+
+officer/c130_done3
+\CamCT\Bon[8]\m[terror]\Rshake\c[6]Лона:\C[0] Самознищення......
+
+officer/c130_done4
+\CamCT\Bon[8]\m[sad]\PRF\c[6]Лона:\C[0] Кошмар, гармата перетворилася на мотлох...
+\CamMP[officer]\BonMP[officer,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] М-так... Солдатик теж захворів.
+\CamCT\m[confused]\plf\PRF\c[6]Лона:\C[0] Що ми робитимемо тепер?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Гармата хоч і дуже потужна, керувати їй - та ще скалка в дупі. Я думаю, нам краще повернутися до звичайної артилерії.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Але все одно її слід полагодити, про всяк випадок. Допоможеш?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона:\C[0] А як я тут допоможу?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Снаряди для гармати були теж тестовими, переданими нам від творця цієї зброї.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Я пам'ятаю, як кілька місяців тому, його дочка \C[4]вночі\C[0] вешталася на \C[4]Центральному ринку Ноертауна\C[0].
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артилерист:\C[0] Мені відомо, що вона займалася снарядами до гармати, і вона все ще повинна бути на острові. Якщо вийде, було б чудово, щоб ти попросила її прийти і полагодити гармату.
+\CamCT\m[serious]\plf\PRF\c[6]Лона:\C[0] Я зрозуміла, я займуся цим!
+
+######################################################### OTHER
+
+frogman/Prisoner0
+Морська Відьма покарає тебе!
+
+frogman/Prisoner1
+Схилися перед Морською Відьмою!
+
+board/board
+\board[7 Східний Охоронний Пост]
+Зведено 1693.7.19
+Завдяки пожертвуванню від родини Росендо.

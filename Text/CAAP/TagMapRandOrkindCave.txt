@@ -1,0 +1,89 @@
+OrkindCave1/OvermapEnter
+\m[confused]Una cueva, parece que hay monstruos dentro \optB[Cancelar,Entrar]
+
+OrkindCave2/OvermapEnter
+\m[confused]Torre de vigilancia del Paso Norte, parece completamente ocupada por Orkoides \optB[Cancelar,Entrar]
+
+OrkindCave3/OvermapEnter
+\m[confused]Una cueva, parece que hay monstruos dentro \optB[Cancelar,Entrar]
+
+OrkindCamp1/OvermapEnter
+\m[confused]Una pequeña cabaña, ahora habitada por monstruos \optB[Cancelar,Entrar]
+
+NFL_OrkCamp1/OvermapEnter
+\m[confused]Almacén de Grano Sur 12, capturado por monstruos \optB[Cancelar,Entrar]
+
+############################################################################# QUEST NFL Burn DOC
+
+RecQuestNorthFL_Main3/FirstTouch
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Esto es?....Entonces....¿Qué demonios es esto?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    .....\CBct[20]\m[flirty]Parece algún contrato de venta corrupto de nobles.
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    .....\CBct[20]\m[triumph]\Rshake No tiene nada que ver conmigo ♥
+
+RecQuestNorthFL_Main3/Cecily0
+\CBfB[2]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia：\C[0]    ¡Espera! ¡Déjame ver esos documentos!
+
+RecQuestNorthFL_Main3/Cecily1
+\CBfB[1]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecilia：\C[0] \c[6]IGLMOR\C[0]?! ¿No es esa mi casa?
+\CBct[2]\m[flirty]\PRF\plf\c[6]Lona：\C[0]    ¿Eh......?
+\CBfB[6]\SETpl[CecilyFailedAr]\Lshake\prf\C[4]Cecilia：\C[0]    No puede ser... C-Cómo pudo papá...
+\CBct[3]\m[confused]\PRF\plf\c[6]Lona：\C[0]    Mmmm.....\CBct[3]\m[triumph]\Rshake Da igual, pronto todo esto será destruido, nadie sabrá nada.
+\CBfB[8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecilia：\C[0]    .....
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\PRF\c[4]Grayrat：\C[0]    .........
+
+RecQuestNorthFL_Main3/Done
+\CBct[3]\m[pleased]\Rshake\c[6]Lona：\C[0]    ¡Perfecto! ¡Misión cumplida!
+\CBct[20]\m[normal]\PRF\c[6]Lona：\C[0]    Solo queda volver y reclamar mi recompensa.
+
+############################################################################# QUEST 2
+
+OrkindCave2/OvermapEnter_enter
+\m[flirty]\c[6]Lona：\C[0]    Este es el lugar.
+\m[shy]\c[6]Lona：\C[0]    ...¿Estoy lista para esto?
+\m[serious]\c[6]Lona：\C[0]    No puedo fallar. Si lo hago, me convertiré en su juguete reproductivo...
+
+OrkindCave2/OvermapEnter_done
+\m[triumph]\c[6]Lona：\C[0]    Genial. Listo. Todas esas criaturas repugnantes están muertas.
+\m[pleased]\c[6]Lona：\C[0]    Debo darme prisa para informar.
+
+#############################################################################
+
+Lona/ExitCave
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    ¿Salir de aquí? \optB[¡Hay asuntos pendientes!,Salir]
+
+Lona/SmallHole
+\narr Un pequeño agujero. No es lo suficientemente grande para que pase un humano.
+
+Lona/CheckFlag
+\narr Estandarte Orkoide con un símbolo desconocido. Parece hecho de una piel misteriosa y resistente.
+
+Lona/CheckCropseEnd
+\CBct[6]\m[serious]\c[6]Lona：\C[0]    Si me matan, ¿me convertiré en parte de esta estructura?
+
+Lona/TimerStart
+\narr Se escuchan pasos acercándose.
+\CBct[6]\m[fear]\c[6]Lona：\C[0]    Debo apurarme...
+
+Lona/RapeLoopNonCapture
+\m[fear]\narr Los Orkoides capturaron a Lona y le quitaron todas sus pertenencias.
+\m[terror]\narr Están felices de tener un nuevo "inodoro de carne".
+
+Lona/RapeLoopBondage
+\m[pain]\narr Lona fue inmovilizada en el suelo con grilletes.
+
+Lona/RapeLoopCaptured
+\m[terror]\narr Los Orkoides aún no se han cansado. No dejan dormir a Lona hasta que se aburren de violarla.
+\m[fear]\narr Se paran con caras lascivas, rodeados del hedor de sus genitales.
+\m[fear]\narr ¿Cómo planean divertirse hoy con su "inodoro de carne"?
+
+Lona/RapeLoopDragOut
+\m[hurt]\narr Los Orkoides arrastraron a Lona afuera, quieren continuar divirtiéndose con ella.
+
+Lona/RapeLoopTorture
+\m[fear]\narr Los Orkoides están furiosos por el intento de escape de Lona. Quieren enseñarle cómo debe comportarse un "inodoro de carne"...
+
+######################################## MAP TRANS
+
+Lona/ToOrkindCave1
+\cg[map_region_hole] Un pequeño agujero estrecho. Parece que los monstruos podrían invadir Noertown desde aquí.
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    ¿Entro? \optB[Cancelar,Entrar]

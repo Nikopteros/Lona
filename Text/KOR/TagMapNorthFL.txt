@@ -1,0 +1,200 @@
+thisMap/OvermapEnter
+\m[confused]북해 염전,\n병사들의 주둔지\optB[그만둔다, 들어간다]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]시장으로 갈까?\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+Exit/Escaped
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 모두 주의하라! 노예가 도망쳤다!
+
+comBoard/v0
+\board[안심하라]
+당신의 가족은 안전하다.
+당신의 친지는 우리가 보살핀다.
+성도께서 당신의 영혼을 영웅의 전당으로 인도하리라.
+
+Guard/beginRNG0
+\CBid[-1,20]\prf\c[4]위병：\c[0] 난 속았어… 내 가족은 팔려가 버렸어.
+
+Guard/beginRNG1
+\CBid[-1,20]\prf\c[4]위병：\c[0] 위안소에 가서 여자 안아야 좀 낫겠지.
+
+Guard/beginRNG2
+\CBid[-1,20]\prf\c[4]위병：\c[0] 매일같이 사람이 죽어 나가니… 이대로는 오래 못 버틴다.
+
+Guard/beginRNG3
+\CBid[-1,20]\prf\c[4]위병：\c[0] 여자?!
+
+Guard1/Com0
+\CBid[-1,20]\prf\c[4]위병：\c[0] 뭐가 무섭냐? 옷만 벗으면 우리가 병사인지 난민인지 누가 알겠어?
+
+Guard1/Com1
+\CBid[-1,20]\prf\c[4]위병：\c[0] 여기에 있는 것도 나쁘지 않지. 가끔 그 빌어먹을 거지 새끼들 좀 괴롭힐 수도 있고. 죽여버려도 아무도 뭐라 안 해.
+
+Guard2/Com0
+\CBid[-1,20]\prf\c[4]위병：\c[0] 나 죽기 싫어! 이대로 가다간 언젠가 전선으로 끌려가 죽는 거 아냐?!
+
+Guard2/Com1
+\CBid[-1,20]\prf\c[4]위병：\c[0] 엊그제만 해도 같이 구멍 형제 맺은 놈이었는데, 오늘 들으니 벌써 성도한테 갔다더라.
+
+Guard3/Com0
+\CBid[-1,20]\prf\c[4]위병：\c[0] 헤헤♥ 어제 다 같이 놀던 그 여자, 꽤 괜찮더라.
+\CBid[-1,20]\prf\c[4]위병：\c[0] 아깝지, 다들 막 굴려대니 아침에 일어나 보니 숨이 끊어져 있더라고.
+
+Guard3/Com1
+\CBid[-1,20]\prf\c[4]위병：\c[0] 헤헤헤♥ 오늘 또 새로운 여자가 들어왔다고 하던데?
+
+Guard4/Com0
+\CBid[-1,20]\prf\c[4]위병：\c[0] 사실은… 그 여자가 내 누나였어…
+\CBid[-1,20]\prf\c[4]위병：\c[0] 그래… 나도 누나를 건드렸고… 결국 내가 직접 목 졸라 죽였어…
+
+Guard4/Com1
+\CBid[-1,20]\prf\c[4]위병：\c[0] 성도여… 나는 죄인이다…
+
+##################################################################### SGT
+
+SGT/else_common
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]백인 대장：\c[0] 아직 다른 볼일이라도 있나?
+
+SGT/RecQuestNorthFL0_Main_begin0
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 저기... 실례합니다....
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 아! 바로 네가 그 녀석이로군!
+\CBct[6]\m[confused]\PRF\c[6]로나：\c[0] 에? 제가요?
+
+SGT/RecQuestNorthFL0_Main_begin1_slave
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 너\..\..\.. 창녀냐？ ...아니면 노예냐？
+
+SGT/RecQuestNorthFL0_Main_begin1_basic
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 너\..\..\.. 게다가 꼬맹이라니？
+
+SGT/RecQuestNorthFL0_Main_begin2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 후... 됐다, 관둬라....
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 잘 들어라. 내가 시킬 일이 있다.
+
+SGT/RecQuestNorthFL1_Main_begin0
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 남쪽의 \c[6]남12번 곡물창고\c[0]로 가서, 지하실에 있는 문서들을 전부 불태워라.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 네가 용병이든 노예든, 일이 끝나면 받을 건 확실히 주겠다.
+
+SGT/RecQuestNorthFL1_QuBoard
+\board[문서 소각]
+목표 : 문서 소각
+보수 : 큰 동전 3개, 작은 동전 5개
+의뢰주 : 하등인 따위가 알 바 아님
+수행가능횟수 : 1회
+남안의 거물들이 지시했다.
+남쪽 12번 곡물창고 지하실에 있는 문서를 전부 불태워라.
+이 일은 그 누구에게도 알려져선 안 된다.
+쓸데없는 호기심은 필요 없다. 시키는 대로만 해라.
+
+SGT/RecQuestNorthFL1_accept
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 좋아... 나한테 맡겨...줄까...?
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 여기서 남동쪽으로 반나절 정도 가면 \c[6]남쪽 12번 곡물창고\c[0]에 도착한다.
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 가라.
+
+SGT/RecQuestNorthFL1_no
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 나\..\..\..\Rshake\m[wtf] 나 진짜 그냥 지나가던 길이라구....
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 뭐? 너, 그 거물들이 보낸 게 아니었어?
+\CBct[6]\m[bereft]\plf\Rshake\c[6]로나：\c[0] \{아니라니까!
+
+################################# return QU 3
+
+SGT/RecQuestNorthFL3_begin0
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\c[4]백인 대장：\c[0] 너였나?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]백인 대장：\c[0] 그 문서들… 다 없앤 거지?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 응, 전부 다 불태웠어.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 아주 좋아. 역시 윗분들이 고용한 용병은 믿을 만하군.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 나 사실 그냥 지나가던 행인인데….
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]백인 대장：\c[0] \..\..\..\Lshake \{지나가던…?!
+
+SGT/RecQuestNorthFL3_begin1
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 왜 미리 말을 안 한 거냐? 그럼 내가 부른 사람은 어디 간 거지?
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 몰라? 가는 길에 마물한테 잡아먹힌 거 아냐? 여기저기 들짐승 같은 놈들이 득실거리잖아.
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]백인 대장：\c[0] \..\..\..
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]백인 대장：\c[0] 됐어, 아무튼 이거 받아라.
+
+SGT/RecQuestNorthFL3_begin2
+\CBct[3]\m[flirty]\PRF\c[6]로나：\c[0] 고마워요♫
+
+################################# return QU 4
+
+SGT/RecQuestNorthFL_Common
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]백인 대장：\c[0] 음? 아직도 여기 있는 건가?
+
+SGT/RecQuestNorthFL_Common1
+\CBct[6]\m[confused]\PRF\c[6]로나：\c[0] 어…
+
+SGT/OPT_Salt
+소금
+
+SGT/Ans_about_1_0
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 음\..\..\.. 네가 믿을 만한 애라는 건 알겠다. 함락지에서 살아 돌아왔다는 것만으로도 실력은 증명됐지.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 고마워?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 그런데 왜 이곳만 괴물들이 접근하지 못하는 줄 아니?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 무기도 부족하고, 병사들이라 해도 전부 속아 끌려온 풀떼기 같은 놈들인데.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 해조성은 진짜 요새가 아님에도 불구하고, 마물은 끝내 이곳에 접근하지 못했다.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 사람들은 성도의 가르침 덕분이라느니, 바다 마녀의 가호라느니 떠들어대지만...
+\CBid[-1,5]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 틀렸다!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 이제야 알겠군. 네가 오고 나서야 확신이 섰다.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] \{바로 \c[6]소금\c[0] 때문이다!
+
+SGT/Ans_about_1_1
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 하? \c[6]소금\c[0]이라고?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 그래! 괴물들은 소금을 두려워한다!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어\..\..\.. 뭐라고...?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 여긴 소금밭이다! 다른 이유가 있을 리 없지 않나!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 난 이미 수많은 계획을 세워뒀다. 초록가죽이든 붉은가죽이든, 그 뒤에 도사린 악마들이든 모두 소금 앞에서 무너질 거다!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 그런데 이런 때 위의 대가리들이 후퇴하라니?! 이건 미친 짓이다!
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] .........
+
+SGT/RecQuestNorthFL4_info
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 음... 제가 할 수 있는 일이 있을까요?
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 잘 됐다, 지금 딱 인력이 부족하던 참이다.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 동쪽 \c[6]페란웨이 마을\c[0] 근처에 내 일을 돕고 있는 용병들이 있다.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 녀석들이 아직 살아 있다면, 이 편지를 전해주고 본진으로 복귀하라 전해라.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어? 그게 다예요?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 그래, 그게 전부다.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 놈들의 약점은 이제 비밀이 아니야. 이제부터는 반격이다!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 듣기엔 엄청 간단하네요?
+
+SGT/RecQuestNorthFL4_brd
+\board[전서]
+목표 : \c[6]페란웨이 마을\c[0] 인근의 용병 캠프에 편지를 전달한다.
+보상 : 큰 동전 1개
+의뢰주 : 해조성 백인 대장
+수행가능횟수 : 1회
+그래! 그거면 된다! 편지를 그들에게 전해라.
+
+SGT/RecQuestNorthFL4_opt_no
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 음... 그래도 그냥 안 하는 게 낫겠어.
+
+SGT/RecQuestNorthFL1_opt_accept
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 좋아, 맡겨만 둬.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 서둘러라! 나는 성도처럼 세상을 구하는 영웅이 될 것이다!
+
+################################# return QU 101
+
+SGT/RecQuestNorthFL101_done0
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 안녕하세요... 당신이 준 편지, 전해줬어요.
+\CBid[-1,4]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 오! 잘됐다!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 세상을 구하는 데 힘을 보탤 수 있다니, 분명 기뻐했을 거다?
+
+SGT/RecQuestNorthFL101_done1_alive
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 음... 전혀 아닌데요.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오히려 엄청 화내면서, 뭐가 멍청하다느니... 그런 말만 했어요.
+
+SGT/RecQuestNorthFL101_done1_dead0
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 그게... 다 죽어 있었어요...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] \{뭐라고？！
+
+SGT/RecQuestNorthFL101_done1_dead1
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 제가 그들의 야영지에 도착했을 때, 곧바로 오크들의 습격을 받았어요.
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 그리고... 눈앞에서 그들의 대장이 오크에게 살해당하는 걸 직접 봤습니다.
+
+SGT/RecQuestNorthFL101_done2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 이건\..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 이건 \c[6]그분\c[0]이 말씀하신 거랑 다르잖아?!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] \c[4]그분\c[0]？
+
+SGT/RecQuestNorthFL101_done3
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]백인 대장：\c[0] 됐다... 이건 네가 받아야 할 보수다. 가져가라.

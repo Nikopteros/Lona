@@ -1,0 +1,93 @@
+ThisMap/OmEnter
+\m[confused]Casa Abandonada Infectada \optB[Cancelar,Entrar]
+
+################################################################################### main
+
+Qprog8/RaidOnEast1
+\CBmp[guard4,20]\c[4]Soldado：\C[0] ¡Maldito bastardo! ¿Para qué nos contrató?!
+\CBmp[guard1,20]\c[4]Soldado：\C[0] ¿Está muerto?
+\CBmp[guard3,8]\c[4]Soldado：\C[0] ¿No se mueve? Probablemente reventó, ¿no?
+\CBmp[guard2,20]\c[4]Soldado：\C[0] ¡Estos cabrones se lo merecen! ¿Dónde estaba él cuando mi familia se moría? ¿Por qué tenemos que servirle ahora?
+\CBmp[guard1,8]\c[4]Soldado：\C[0] ¿Qué hacemos ahora?
+\CBmp[guard4,20]\c[4]Soldado：\C[0] ¡Huyamos al sur! Oí que hay un campamento de bandidos, unámonos a ellos.
+\CBmp[guard2,20]\c[4]Soldado：\C[0] Buena idea, pero primero salgamos de aquí.
+\CBmp[guard3,20]\c[4]Soldado：\C[0] ¡Sí, ahora mismo! Este lugar me da escalofríos.
+
+Qprog8/RaidOnEast2
+\CBmp[guard4,2]\c[4]Soldado：\C[0] ¿Quién está ahí?! ¿Quién anda ahí?!
+
+Qprog8/RaidOnEast3
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Em... Hola a todos, perdón por llegar tarde.
+\CBmp[guard1,20]\prf\c[4]Soldado：\C[0] ¡Es un monstruo! ¡No quiero morir!
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\C[0] {¡Aaaah!}
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿Monstruo?! ¡¿Dónde?!
+
+Qprog8/RaidOnEast4
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿Qué?!
+\CBct[8]\m[shocked]\PRF\c[6]Lona：\C[0] ¡¿Otra vez esto?!
+
+Qprog8/RaidOnEast5
+\CBmp[guard3,20]\prf\c[4]Soldado：\C[0] ¡Esperad, es una humana! ¡Una mujer!
+\CBmp[guard1,5]\prf\c[4]Soldado：\C[0] ¡Estúpida zorra, qué has hecho! ¡Lárgate de aquí!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\C[0] ¿Yo? ¡Yo no hice nada, solo vine!
+\CBmp[guard2,20]\prf\c[4]Soldado：\C[0] Ella sabe lo que hicimos. ¡Matémosla!
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\C[0] ¡Perdonadme! ¡No me matéis!
+\CBmp[guard4,20]\prf\c[4]Soldado：\C[0] ¡Esperad!
+\CBmp[guard4,20]\prf\c[4]Soldado：\C[0] Perra, ¿sabes cómo salir de aquí?
+\CBct[6]\m[fear]\PRF\c[6]Lona：\C[0] Quizás...
+
+Qprog8/RaidOnEast6
+\CBmp[guard4,20]\prf\c[4]Soldado：\C[0] Bien, sácanos de aquí.
+\CBmp[guard4,20]\prf\c[4]Soldado：\C[0] Muévete, o te matamos sin dudarlo.
+\CBct[6]\m[sad]\PRF\c[6]Lona：\C[0] Uf...
+
+Qprog8/RaidOnEast7
+\board[Escapar]
+Tarea：Escapar de aquí
+Recompensa：Ninguna
+Cliente：Soldados
+Repetible：Una vez
+Los soldados piden ayuda para escapar, amenazando con matar a Lona si no lo hace.
+
+Qprog8/RaidOnEast8
+\CBct[6]\m[fear]\PRF\c[6]Lona：\C[0] Veamos...
+\CBct[6]\m[sad]\PRF\c[6]Lona：\C[0] Solo sigamos el camino...
+
+Qprog8/spotHive
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]Lona：\C[0] ¿Qué pasó aquí?
+\CBmp[Hive,19]\m[fear]\PRF\c[6]Lona：\C[0] ¿Destruyeron este nido?
+\SETpl[Mreg_pikeman]\m[fear]\Lshake\prf\c[4]Soldado：\C[0] ¿Por qué se detuvo? ¡Apúrate y guíanos!
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡Voy!
+
+Qprog8/spotHiveEnd0
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡Ahí está la salida!
+
+Qprog8/spotHiveEnd1
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0] ¿Podéis dejarme ir? De verdad no vi nada, solo lo encontré tirado en el suelo cuando llegué.
+\CBmp[guard1ST,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado：\C[0] ¡Cállate! ¡¿Acaso no lo viste todo?!
+\CBct[6]\m[terror]\plf\PRF\c[6]Lona：\C[0] ¡Perdonadme! ¡No me matéis!
+
+Qprog8/spotHiveEnd2
+\CBmp[guard1ST,20]\c[4]Soldado：\C[0] ¿Qué opináis?
+\CBmp[guard2ST,20]\c[4]Soldado：\C[0] Nada, debemos matarla.
+\CBmp[guard1ST,20]\c[4]Soldado：\C[0] ¿Y si la capturamos y la vendemos a los esclavistas?
+
+Qprog8/spotHiveEnd3
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]Centurión：\C[0] ¿Victoria? ¿Destruiste el nido?
+
+Qprog8/spotHiveEnd4
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado：\C[0] ¡Sí, mi lord! ¡Castigué a esos asquerosos monstruos!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Bien. Como caballero de estricto entrenamiento, fui atacado por monstruos y caí inconsciente.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Qué vergüenza.
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado：\C[0] Señor, volvamos. Os explicaré lo ocurrido en el camino.
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado：\C[0] No creáis a esta zorra, no hizo nada, solo huyó. ¿Qué puede saber una mujer?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Es cierto.
+\CBct[19]\m[fear]\PRF\c[6]Lona：\C[0] Ugh...
+
+Qprog8/spotHiveEnd5
+\narr ......
+\narrOFF\SETpl[Mreg_pikeman]\Lshake\c[4]Soldado：\C[0] ¡Oye!
+\m[terror]\plf\Rshake\c[6]Lona：\C[0] {¡Sí!}
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado：\C[0] Putilla, si hablas, mueres. ¿Entendido?
+\m[terror]\plf\PRF\c[6]Lona：\C[0] Lo sé...
+

@@ -1,0 +1,62 @@
+overmap/OvermapEnter
+\m[confused]Desconocido: Campamento \optB[Cancelar,Entrar]
+
+mec/halp1
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ¡Ayuda! ¡Ayuda, por favor!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]Lona: \C[0] ¡¿AA?!
+
+mec/halp2
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ¡Monstruos! ¡Los de las profundidades! ¡Se acercan!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]Lona: \C[0] ¡¿AAHH?!
+
+mec/halp3
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ¡Ayúdenme, se lo suplico!
+
+mec/halp4
+\CamCT\Bon[6]\m[hurt]\plf\Rshake\c[6]Lona: \C[0] ¡Deja de empujarme!
+
+mec/halp5
+\CamCT\Bon[1]\m[terror]\plf\Rshake\c[6]Lona: \C[0] ¡¡Ooy!! ¡Ni loca!
+
+mec/win
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ¡Gracias por tu bondad, guerrera!
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]Lona: \C[0] Ohh... ¿De nada?
+\CamMP[QuestTar]\BonMP[QuestTar,8]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ......
+\CamMP[QuestTar]\BonMP[QuestTar,2]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ¿Eres una chica?
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Lona: \C[0] ¿Y qué tiene de malo ser una chica?
+
+mec/Quprog_0
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ¡Escucha! ¡Necesito tu ayuda!
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] Llevo algo que debe ser entregado en \C[4]La Perdición Pirata\C[0].
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Lona: \C[0] Uhh...
+
+mec/Quprog_0_board
+\board[Escolta al viajero]
+Tarea: Llevar al viajero a La Perdición Pirata
+Recompensa: Gran Medallón de Cobre x1\i[582] Reputación +2
+Cliente: Viajero
+Plazo: 5 días
+¡Todo depende de ti!
+
+mec/Quprog_0_decide
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Lona: \C[0] Hmmm... \optB[No hay tiempo,Está bien]
+
+mec/QmsgTar
+¡Vamos, rápido!
+
+mec/Done1
+\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] ¡Gracias! ¡Muchísimas gracias!
+
+mec/Done2
+\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] Esos malditos peces sierra no dejan de atacar nuestros convoyes de suministros, la caída de la fortaleza es solo cuestión de tiempo.
+\SETpl[AnonMale1]\Lshake\prf\c[4]Viajero: \C[0] Ve al Gremio de Mercenarios en la fortaleza, estoy seguro de que podrías ayudarles.
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]Lona: \C[0] Ja-ja... Espero poder ser útil.
+
+mec/CommonConvoyTarget0
+\prf\c[4]Viajero: \C[0] ¡El tiempo se agota!
+
+mec/CommonConvoyTarget1
+\prf\c[4]Viajero: \C[0] Rápido, llévanos a \C[4]La Perdición Pirata\C[0].
+
+mec/CommonConvoyTarget2
+\prf\c[4]Viajero: \C[0] ¡Muévanse más rápido!

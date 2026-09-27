@@ -1,0 +1,114 @@
+
+thisMap/OvermapEnter
+\SndLib[AbomBatSpot]異變蝙蝠的巢穴\optB[沒事,進入]
+
+##############################################
+
+begin/Enter
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    我怎麼不記得這裡有片森林?
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...算了
+\CBct[8]\m[confused]\prf\c[6]洛娜：\c[0]    \..\..\..
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    要到達對面就一定要穿過這...
+\CBct[20]\m[serious]\PRF\c[6]洛娜：\c[0]    不要怕！ 我辦的到的！
+
+rg29/begin1
+\CBmp[DaHunter,6]\c[4]傭兵：\c[0]    不！ 離我遠點！
+
+rg29/begin2
+\CBmp[DaHunter,20]\c[4]傭兵：\c[0]    \{哈哈！！
+
+rg29/begin4
+\CBmp[DaHunter,6]\c[4]傭兵：\c[0]    \{啊呀呀！
+
+DaHunter/begin1
+\CBid[-1,6]\c[4]傭兵：\c[0]    妳...？ 是活人？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    救救我！ 他們都死了！
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    死了？...怎麼回事？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    這些該死的蝙蝠太兇了。
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    拜託妳，幫幫我。
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    我們的營地大概在...西邊？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    只要我能活著回去一定給妳我全部的財產。
+
+DaHunter/begin1_brd
+\CamCT\board[幫助落難的傭兵]
+目標：往西走
+報酬：他全部的財產
+委託主：負傷的傭兵
+期限：僅現在
+幫助這位落難的傭兵回到得他的營地。
+
+DaHunter/begin2_OPTyes
+\CBct[20]\m[serious]\PRF\c[6]洛娜：\c[0]    沒問題，我會帶你出去的。
+
+DaHunter/begin2_OPTno
+\CBct[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    您加油吧，我還有事。
+
+########################################################### end hunter qu
+
+DaHunter/Qu_success0
+\CBid[-1,20]\c[4]傭兵：\c[0]    謝了，沒想到我還能活著回到這。
+\CBid[-1,20]\c[4]傭兵：\c[0]    這個給妳吧。
+
+DaHunter/Qu_success0_1
+\CBid[-1,20]\c[4]傭兵：\c[0]    珍重，再見。
+
+DaHunter/Qu_success1
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    那個...等等...
+
+DaHunter/Qu_success2
+\CBid[-1,20]\c[4]傭兵：\c[0]    怎麼？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃\..\..\..就這樣？說好的全部的財產呢？
+\CBid[-1,5]\prf\c[4]傭兵：\c[0]    去妳的！ 妳手上那些就是我全部的財產。
+\CBid[-1,5]\prf\c[4]傭兵：\c[0]    怎麼，有意見嗎？
+
+DaHunter/Qu_success2_end_tsun0
+\CBct[8]\m[serious]\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBid[-1,5]\c[4]傭兵：\c[0]    怎樣？ 不爽要說阿？
+
+DaHunter/Qu_success2_end_tsun1
+\CBid[-1,6]\c[4]傭兵：\c[0]    妳\..\..\..連我媽媽都沒打過我....妳卻....
+\CBct[5]\m[angry]\PRF\c[6]洛娜：\c[0]    \{把該給我的給我！\}
+\CBid[-1,6]\prf\c[4]傭兵：\c[0]    是\..\..\..女俠饒命。
+
+DaHunter/Qu_success2_end_tsun2
+\CBct[5]\m[serious]\PRF\c[6]洛娜：\c[0]    哼！
+
+DaHunter/Qu_success2_end_other
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    我...對不起。
+\CBid[-1,5]\prf\c[4]傭兵：\c[0]    哼！
+
+DaHunter/Qu_success2_end_Cecily1
+\CBct[8]\m[serious]\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBfB[20]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]賽希莉：\C[0]    \{喂！
+
+DaHunter/Qu_success2_end_Cecily2
+\CBid[-1,2]\prf\c[4]傭兵：\c[0]    怎麼？ 我已經謝過妳們了阿？
+\CBfB[20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]賽希莉：\C[0]    你的命就只值一枚銅幣？
+
+DaHunter/Qu_success2_end_Cecily3
+\CBid[-1,8]\prf\c[4]傭兵：\c[0]    呃\..\..\..\CBid[-1,20]真對不起，各位大人，小的忘記了。
+\CBid[-1,6]\prf\c[4]傭兵：\c[0]    這個拿去吧。
+
+DaHunter/Qu_success2_end_Cecily4
+\CBfB[5]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]賽希莉：\C[0]    去！ 下次遇到這種蠢貨直接動手就好!
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃\..\..\..好哦。
+
+########################################################### common PPL
+
+Commoner/begin0
+\CBid[-1,20]\c[4]傭兵：\c[0]    我為什在這？
+\CBid[-1,20]\c[4]傭兵：\c[0]    我們是傭兵，受雇來這抓這些魔物的傭兵。
+
+Commoner/begin1
+\CBid[-1,20]\c[4]傭兵：\c[0]    為什麼要抓這些蝙蝠怪？
+\CBid[-1,20]\c[4]傭兵：\c[0]    我怎麼知道島上的人在想些什麼。
+
+Commoner/begin2
+\CBid[-1,20]\c[4]傭兵：\c[0]    這次工作結束後我就要回老家結婚了。
+
+Watcher/begin0
+\CBid[-1,20]\c[4]傭兵：\c[0]    我從來沒見過這種魔物。
+
+Watcher/begin1
+\CBid[-1,20]\c[4]傭兵：\c[0]    來這裡之前我只聽說席芭莉絲被魔物攻擊了，但看來整座城市都毀了。

@@ -1,0 +1,32 @@
+
+
+RelayEMP/Welcome0
+\CBid[-1,20]\m[confused]\prf\c[4]역무원：\c[0] 무엇을 도와드릴까요?
+
+RelayEMP/Welcome1
+\CBid[-1,20]\m[confused]\prf\c[4]역무원：\c[0] 지금 갈 수 있는 곳이 많지 않은데, 어디로 가시겠습니까?
+
+RelayEMP/SlaveBlock
+\CBid[-1,20]\prf\c[4]역무원：\c[0] 노예에겐 그런 권리가 없다. 네 주인에게나 돌아가라!
+\CBct[6]\m[sad]\c[6]로나：\c[0] 네...
+
+RelayEMP/NoGold
+\CBid[-1,20]\prf\c[4]역무원：\c[0] 돈도 없어? 꺼져!
+\CBct[6]\m[flirty]\c[6]로나：\c[0] 미안해...
+
+RelayEMPfish/Welcome0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]항구 직원：\c[0] 어… 토비… 우리 집…
+
+RelayEMPfish/Welcome1
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]항구 직원：\c[0] 인간… 어디… 가…?
+
+RelayEMPfish/SlaveBlock
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]항구 직원：\c[0] 노예… 안 돼… 돌아가… 번식…
+\CBct[6]\m[sad]\c[6]로나：\c[0] 네…
+
+RelayEMPfish/SlaveAccept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]항구 직원：\c[0] 노예… 여자… 환영…
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 어?
+
+RelayEMP/opt
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 나…

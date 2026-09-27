@@ -1,0 +1,244 @@
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+thisMap/OvermapEnter
+West 13th Warehouse, Bandits' hideout\optB[Leave,Enter]
+
+Enter/Begin1
+\cg[map_region_NoerRoad]\SETpl[GrayRatNormalAr]\c[4]Gray Rat：\c[0]    Well then, are you ready?
+\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    \{Woah! \}\n(His equipment looks really powerful...)
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Gray Rat：\c[0]    ...Hmmm?
+\m[flirty]\plf\PRF\C[6]Lona：\C[0]    ...I-It's nothing!
+
+Enter/Begin2
+\board[Rescue Gray Rat's partner!]
+Goal：Find the hostage and rescue her.
+The client and hostage must not die!
+Reward：Unknown
+Client：Gray Rat
+
+Enter/Begin3
+\m[serious]\plf\Rshake\C[6]Lona：\C[0]    Alright, let's go and rescue your partner!
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Gray Rat：\c[0]    Wait... This is the main entrance...
+\m[confused]\plf\PRF\C[6]Lona：\C[0]    Yes, is something wrong?
+\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]Gray Ray：\c[0]    ......
+\m[shy]\plf\PRF\C[6]Lona：\C[0]    ...?
+\SETpl[GrayRatShockedAr]\Lshake\prf\c[4]Gray Rat：\c[0]    ...Perhaps you've forgotten this is an obvious trap...?!
+\m[flirty]\plf\PRF\C[6]Lona：\C[0]    L-Let's sneak in through the rear entrance...
+
+###################################################   BEGIN PART ###############################################################
+AboutTrap/Begin1
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Gray Rat：\c[0]    Wait a moment...
+\CBct[2]\m[shoked]\plf\Rshake\C[6]Lona：\C[0]    \{Huh? What's wrong?!\}
+\CBct[8]\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]Gray Rat：\c[0]    ......
+\CBmp[UniqueGrayRat,1]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Gray Rat：\c[0]    There's a trap ahead, I'm certain there's more behind this door.
+
+AboutTrap/Begin2
+\CBct[8]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Ohhh...
+
+AboutTrap/Begin3
+\CBct[20]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Don't worry, it's not a problem. I can take care of it.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\c[4]Gray Rat：\c[0]    ............
+\CBct[6]\m[bereft]\plf\Rshake\C[6]Lona：\C[0]    I'm serious! I can do it!
+
+AboutTrap/Begin4
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\prf\c[4]Gray Rat：\c[0]    ............
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\prf\c[4]Gray Rat：\c[0]    Very well. Once you've created a safe path, I'll follow you.
+
+############################################################################################################################
+
+MobTalking/Begin1
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Thief：\C[0]    Say... Will dis really work? Dat Moot looks quite strong.
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandit：\C[0]    Of course it will ya twat! This much explosives will be able to kill anything!
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Thief：\C[0]    Yea'... Dat's true.
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Thief：\C[0]    By da way, why can't we touch da whore we're guardin'? She gots such huge boobies...
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandit：\C[0]    You wanna try?! She'll bite ya dick right off!
+\CBmp[MobC,20]\SETpl[MobHumanWarrior]\Lshake\C[4]Rogue：\C[0]    Shaddup ya twats! Focus on the task at hand!
+\CBct[1]\m[serious]\plh\PRF\Rshake\C[6]Lona：\C[0]    There's so many of them...!
+\CBct[20]\m[triumph]\plh\PRF\C[6]Lona：\C[0]    But it seems like they haven't seen me yet. No problem!
+
+CecilyRape/stage1
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\C[4]Crook：\C[0]    I bet ya never thought that there would be consequences for killin' my buddies, huh?
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapA_Normal]\Lshake\prf\C[4]Unknown：\C[0]    Why are you doing this?! These people are subjects of the \C[6]Kingdom of Ingalend\C[0], as are you!
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapA_Normal]\Lshake\prf\C[4]Unknown：\C[0]    Ingalend's subjects should not be regarded as slaves!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Crook：\C[0]    You're talkin' to me about having a conscience at this time? On \C[6]Noer Island\C[0]?
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Crook：\C[0]    This kinda place?! When the countryside is full a monsters?!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Crook：\C[0]    Hah. Even if we stop now, there's a million other people waiting to take our position!
+\CamCT\optD[Infiltrate!,Now's not a good time...]
+
+CecilyRape/stage2
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Crook：\C[0]    Besides, you've never seen how many of these people are willing to become slaves.
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Crook：\C[0]    Once in our hands, lotta the merchandises actually show signs of relief!
+\CBmp[CeTrapped,5]\SETpl[CecilyTrapA_Shy]\Lshake\prf\C[4]Unknown：\C[0]    Liar!
+\CamCT\optD[Barge in!,Check your fingernails...]
+
+CecilyRape/stage3
+\CBmp[Raper,4]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Crook：\C[0]    Hummm... You've got quite a...... Sexy body...
+\CBmp[CeTrapped,15]\SndLib[sound_DressTear]\SETpl[CecilyTrapB_Shocked]\Lshake\prf\C[4]Unknown：\C[0]    \{!!!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Crook：\C[0]    Speaking of which, you're not a virgin are ya?
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Crook：\C[0]    Doesn't seem like it, I always hear about how obscene the nobles' lives are.
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Crook：\C[0]    Well, wouldn't it be a shame to die while letting your body go to waste?
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\C[4]Unknown：\C[0]    \{\.GET \.YOUR \.FILTHY \.HANDS \.AWAY \.FROM \.ME!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Crook：\C[0]    Such a cute face as well, all women and whores should be like this!
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Shy]\PLF\PRF\C[4]Unknown：\C[0]    ............
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]Crook：\C[0]    Oh, not fightin' back anymore? The more ya resist, the more excited I get!
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\PRF\C[4]Unknown：\C[0]    \{S-Son of a bitch! \n Piss off!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]Crook：\C[0]    Oooh! I'm sooo scared that I pissed myself! ♥
+\optD[Breach now!,Check out the stains on the ceiling...]
+
+CecilyRape/rape_scene1
+\Lshake\C[4]Unknown：\C[0]    Let me go!!! You-! Worthless piece of dog shit!
+
+CecilyRape/rape_scene2
+\C[4]Crook：\C[0]    For a noble bitch like you, ya sure have quite a fuckin' attitude!
+\C[4]Crook：\C[0]    But I like it! ♥　Twice the pride, double the fall!
+\C[4]Crook：\C[0]    If you weren't the enemy and just a common whore, I woulda taken ya back home and married ya... Heehee!
+
+CecilyRape/rape_scene3
+\Lshake\C[4]Unknown：\C[0]    \{You-... Shut up! Shut up! Just SHUT UP!
+
+CecilyRape/rape_scene4
+\C[4]Crook：\C[0]    My mouth's right here still yapping! Come shut me up!
+
+CecilyRape/rape_scene5
+\C[4]Crook：\C[0]    Heehee! This might hurt ya a bit without lubrication. Ya better get wet soon! ♥
+
+CecilyRape/rape_scene6
+\C[4]Crook：\C[0]    Well don't just be a dead fish, talk to me! Who was your first time? ♥
+
+CecilyRape/rape_scene7
+\C[4]Crook：\C[0]    Was it that huge mixed-race fellow? Or will it be me...?
+\C[4]Crook：\C[0]    Hmmm. I'd be surprised if it was the mixed-race. Wonder if a noble like ya would actually fuck scum like him?
+
+CecilyRape/rape_scene8
+\Lshake\C[4]Unknown：\C[0]    \{JUST SHUT YOUR MOUTH ALREADY!!!
+
+CecilyRape/rape_scene9
+\{!!!!!!!!!
+
+CecilyRape/rape_scene10
+\C[4]Crook：\C[0]    \{\.What \.a \.damn \.shame! So it wasn't your first time!
+
+CecilyRape/rape_scene11
+\C[4]Crook：\C[0]    It feels great inside! I'm gonna start moving, squeeze my cock tighter! ♥
+
+CecilyRape/rape_scene12
+\C[4]Crook：\C[0]    Unf, feels tight and your pussy's all wet. You really are excellent prostitute material.
+
+CecilyRape/rape_scene13
+\C[4]Crook：\C[0]    Well? How's my cock feel compared to that dirty half-breed...?
+
+CecilyRape/rape_scene14
+\C[4]Unknown：\C[0]    \{IT SUCKS! G-GO TO HELL!!!
+
+CecilyRape/rape_scene15
+\C[4]Crook：\C[0]    Ah? Well, that's a shame.
+
+CecilyRape/rape_scene16
+\C[4]Crook：\C[0]    I'm thrusting faster now!
+
+CecilyRape/rape_scene17
+\C[4]Crook：\C[0]    \{Horrrah! Ahaahaa!
+
+CecilyRape/rape_scene18
+\C[4]Crook：\C[0]    \{Ohh! C-Cumming! Gonna fill ya up!
+
+CecilyRape/rape_scene19
+\C[4]Unknown：\C[0]    \{W-What?! NO! PULL OUT!!!
+
+CecilyRape/rape_scene20
+\C[4]Unknown：\C[0]    \{I'm begging you! Cum outside!!!
+
+CecilyRape/rape_scene21
+\C[4]Crook：\C[0]    \{Guuuh! Oohyeeaah!
+
+CecilyRape/rape_scene22
+\C[4]Unknown：\C[0]    \{\{NOOooo!!!
+
+CecilyRape/rape_scene23
+\C[4]Unknown：\C[0]    \{*Huff*... *Haff*...*Huff*...!
+\Rshake\SND[SE/Whip01.ogg]\C[4]Unknown：\C[0]    \{B-Bastard...
+\Rshake\SND[SE/Whip01.ogg]\C[4]Unknown：\C[0]    \{FUCK YOU!!!
+\C[4]Unknown：\C[0]   *Huff*... *Huff*...
+
+CecilyRape/stage_rape_end
+\CBmp[CeTrapped,8]\SETpl[CecilyTrapB_Shy]\SETpr[MobHumanCommoner]\PLF\prf\C[4]Unknown：\C[0]        Nnnighnn...
+\CBmp[Raper,20]\plf\PRF\C[4]Crook：\C[0]    Phew, that was good!
+\CBmp[Raper,20]\plf\Rshake\C[4]Crook：\C[0]    Shame I won't be able to fuck ya ever again.
+\CBmp[Raper,20]\plf\Rshake\C[4]Crook：\C[0]    Well, at least my buddies will have their fun before ya die!
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]Unknown：\C[0]    \{Unforgivable...\}
+\CBmp[Raper,20]\plf\PRF\C[4]Crook：\C[0]    Huh? Whatcha say? Ya gotta speak up bitch!
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]Unknown：\C[0]    \{I'm going to kill you!\}
+
+CecilyRape/trapped_raped
+\SETpl[CecilyTrapB_Shy]\Lshake\C[4]Unknown：\C[0]    \{???!!!\}
+\CBct[20]\m[serious]\Rshake\C[6]Lona：\C[0]    Shhh! Don't scream! I'm here to rescue you!
+
+CecilyRape/trapped
+\CBid[-1,1]\SETpl[CecilyTrapA_Shocked]\Lshake\C[4]Unknown：\C[0]    \{???!!!\}
+\CBid[-1,6]\SETpl[CecilyTrapA_Normal]\C[4]Unknown：\C[0]    .........
+\CBct[20]\m[serious]\Rshake\C[6]Lona：\C[0]    Shhh! Don't scream! I'm here to rescue you!
+
+CecilyRape/trapped2
+\CBmp[Cecily,8]\SETpl[CecilyWtfAr]\PLF\prf\C[4]Unknown：\C[0]    Hmmph.
+\CBmp[Cecily,2]\SETpl[CecilyShyAr]\PLF\prf\C[4]Unknown：\C[0]    Did Vineet send you? Where is he?
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Vineet...?
+\CBct[20]\m[pleased]\plf\PRF\C[6]Lona：\C[0]    Oh! Mr. Gray Rat? He's right behind me!
+
+CecilyRape/trapped3
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    M'Lady... Please excuse my tardiness...
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Lady...?
+\CBct[8]\m[confused]\plf\PRF\C[6]Lona：\C[0]    ......!
+\CBct[20]\m[shocked]\plf\Rshock\C[6]Lona：\C[0]    \{YOU'RE A NOBLE?!\}
+\CBmp[Cecily,6]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Unknown：\C[0]    Shhhh! Be quiet!!!
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Unknown：\C[0]    This is not the time to talk about such nonsense.
+
+CecilyRape/trapped4_raped
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Gray Rat：\C[0]    M'Lady... You're-!
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Unknown：\C[0]    -I'm fine...
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    But... This smell...?
+\CBmp[UniqueGrayRat,5]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    ......!!!
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Gray Rat：\C[0]    \{H-HOW DARE THEY...!\}
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Gray Rat：\C[0]    \{I'LL KILL THEM ALL!\}
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Unknown：\C[0]    Calm down! I said I'm fine...
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Gray Rat：\C[0]    ......
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]Gray Rat：\C[0]    ...
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]Gray Rat：\C[0]    I apologize. Please forgive me, m'lady...
+
+CecilyRape/trapped4
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Gray Rat：\C[0]    M'Lady... Are you...?
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Unknown：\C[0]    I'm okay. Nothing happened to me.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    Ah, thanks to the Saint...
+
+CecilyRape/trapped5
+\CBct[6]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Ummm... Forgive me, but...
+\CBct[2]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Please tell me what we should do now? My noble Lady!
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Unknown：\C[0]    Aren't you the sneaky one? I was going to ask you the same question.
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Unknown：\C[0]    And there's no need to talk to me like that.
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Unknown：\C[0]    I don't like having people treating me all high and mighty.
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]Unknown：\C[0]    If you can't think of anything, I'd say we kill them all!
+
+
+#too many UX notice? should not over notice? should not break UX rule?
+#\CamMP[ExitPoint2]\BonMP[ExitPoint2,28]\m[shocked]\Rshake\C[6]Lona：\C[0]    Should we forcibly break through the door?
+#\CamCT\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Unknown：\C[0]    \{Are you still asking me?! I said we'll follow you!
+
+################################################### FAILED ####################################################
+QuestFailed/Nap1
+\m[tired]\C[6]Lona：\C[0]    Unnghnnn...
+
+QuestFailed/Nap2
+\narr The quest has failed...
+\narr Cecily and Gray Rat are now gone.
+
+QuestFailed/Nap3
+\SETpl[MobHumanCommoner]\Lshake\C[4]Thief：\C[0]    What should we do with her then?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Thief：\C[0]    Take her away, she should be worth quite a bit of money...
+
+QuestFailed/ObjDed
+\narr Mission failed. A VIP has been killed.
+
+Exit/QuestFailWarning
+\m[confused]\narr Leaving will cause the quest to fail!
+
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

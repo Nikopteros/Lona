@@ -1,0 +1,164 @@
+thisMap/OvermapEnter
+\m[confused]九吋部落\optB[算了,進入]
+
+########################################### When begin
+
+rg4/FirstAlert0
+\CBmp[Archer,20]\prf\c[4]\c[4]守衛A：\c[0]    外來者！ 是外來者的啦！
+
+rg4/FirstAlert1
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    誰！？ 我？！
+\CBmp[Archer,20]\prf\c[4]\c[4]守衛A：\c[0]    殺了她！ 切雞雞的啦！
+\m[bereft]\Rshake\c[6]洛娜：\c[0]    不！ 為什麼！ 等一下！
+\CBmp[GuardA,20]\prf\c[4]\c[4]守衛B：\c[0]    不！ 等等的啦！ 也許是\c[6]預言者\c[0]說的勇士的啦！
+\CBmp[Archer,2]\prf\c[4]\c[4]守衛A：\c[0]    蝦？ 怎麼可能的啦！
+\m[flirty]\PRF\c[6]洛娜：\c[0]    所以... 不殺我了？
+
+rg4/FirstAlert3
+\CBmp[Archer,20]\prf\c[4]\c[4]守衛A：\c[0]    你是誰派來的啦！ 是誰！
+\CBct[6]\m[fear]\PRF\c[6]洛娜：\c[0]    我真的不是壞人，我只是碰巧路過罷了。
+\CBmp[GuardA,20]\prf\c[4]\c[4]守衛B：\c[0]    把衣服脫掉的啦！ 露出胸部證明妳不是假人的啦！
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼？ 衣服？！
+\CBmp[Archer,5]\prf\c[4]\c[4]守衛A：\c[0]    對啦！ 脫掉的啦！
+
+rg4/FirstAlert3_1
+\CBct[6]\m[bereft]\Rshake\c[6]洛娜：\c[0]    我脫！ 我脫就是了，拜託不要傷害我！
+
+rg4/FirstAlert4
+\CBmp[6]\m[shy]\PRF\c[6]洛娜：\c[0]    這樣可以了嗎？ 可以放過我嗎？
+
+rg4/FirstAlert4_0
+\CBmp[1]\m[p5shame]\Rshake\c[6]洛娜：\c[0]    咿咿？！
+
+rg4/FirstAlert4_1
+\CBmp[GuardA,20]\c[4]\c[4]守衛B：\c[0]    對啦！ 這個觸感是真人的啦！
+
+rg4/FirstAlert5
+\m[shy]\CBmp[GuardA,20]\prf\c[4]\c[4]守衛B：\c[0]    你看！ 正如\c[6]預言者\c[0]說的啦！ 她是胸前一望無際的湖面的啦！
+\CBmp[Archer,20]\prf\c[4]\c[4]守衛A：\c[0]    \c[6]預言者\c[0]說的是真的啦？ 沒雞雞的啦？ 且是湖面的啦？！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    哈？ 湖面？
+\CBmp[GuardA,20]\prf\c[4]\c[4]守衛B：\c[0]    去吧，外來的勇士！ \c[6]預言者\c[0]想見你的啦！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... \c[6]預言者\c[0]？
+
+rg4/DressCheck
+\CBmp[GuardA,20]\prf\c[4]\c[4]守衛B：\c[0]    外來者！ 脫光衣服才能進來的啦！
+\CBmp[Archer,5]\prf\c[4]\c[4]守衛A：\c[0]    對啦！ 脫掉的啦！ 證明你是真人啦！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...
+
+rg4/Aggroed
+\prf\c[4]\c[4]守衛A：\c[0]    \{切雞雞！ 切雞雞的啦！\}
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼？！
+\narr九吋部落現在開始是敵人了！
+
+########################################### Commoner & fixed opj
+
+PrayKid/Qmsg0
+我想快快長大！
+
+PrayKid/Qmsg1
+我想去獵壞人的雞雞！
+
+PrayKid/Qmsg2
+獵人的雞雞真是太大了！
+
+Gill/Qmsg0
+為什麼我沒雞雞呢？
+
+Gill/Qmsg1
+為什麼我不能獵雞雞？
+
+Gill/Qmsg2
+妳也沒雞雞耶！
+
+Penis/Msg
+\narr上面好像刻了什麼東西\..\..\..
+
+Nap/GameOver0
+\c[4]\c[4]守衛A：\c[0]    殺了她的啦！ 該死的入侵者！
+\c[4]\c[4]守衛B：\c[0]    殺了她！ 切下她的雞雞！
+
+Nap/GameOver1
+\narr部落的人將洛娜分屍了\..\..\..
+\narr洛娜將成為供養先祖大人的養分\..\..\..
+
+Commoner/RngDialog0
+\CBid[-1,20]\c[4]\c[4]守衛：\c[0]    就是要喝酒的啦！
+
+Commoner/RngDialog1
+\CBid[-1,20]\c[4]\c[4]守衛：\c[0]    切雞雞！喝酒！
+
+Commoner/RngDialog2
+\CBid[-1,20]\c[4]\c[4]守衛：\c[0]    噶！
+
+########################################### the witch
+
+WitchOPT/Begin
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    外來的勇士啊，我已預見妳的到來。
+
+WitchOPT/End
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    九吋雞雞指引妳..
+
+WitchOPT/AboutHere
+九吋獵人部落
+
+WitchOPT/AboutWhyMe
+預言者
+
+WitchOPT/AboutDedOne
+黑暗旅者
+
+WitchOPT/AboutHere0
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    這是先祖大人的\c[6]九吋獵人部落\c[0]。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    先祖大人帶領我們逃離了白猩猩的巢穴。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    先祖大人以九吋的雞雞創造了我們。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    為了證明我們都是先祖大人的孩子，每位部落的年輕人成年後都必須去切一隻雞雞。
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 切雞雞？
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    是的，為了證明先祖大人的雞雞才是最偉大的雞雞。
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    喔...？
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    檢查胸部又是什麼意思？ 胸部會是假的？
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    這是先祖大人辨別入侵者的方式。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    那些醜陋的\c[6]魚人\c[0]會偽裝成我們的樣子混進來。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    但妳絕對不是，妳是胸前一望無際的湖面。
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    哈？
+
+WitchOPT/AboutWhyMe0
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 您是\c[4]預言者\c[0]大人嗎？
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    是的，外來的勇士。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    \c[6]黑暗旅者\c[0]的預言中妳的到來將會解決我們的難題...
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    但沒想到那位勇士居然如此瘦弱。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    \c[6]螺旋王\c[0]在東南方的\c[6]螺旋之森\c[0]不斷的製造麻煩。
+\CBid[-1,20]\prf\c[4]\c[4]預言者：\c[0]    若妳是真的勇士就將\c[6]螺旋王\c[0]的\c[6]螺旋雞雞\c[0]帶給我吧！
+
+WitchOPT/AboutWhyMe1
+\board[取得螺旋雞雞]
+目標：取得螺旋雞雞
+報酬：九吋的符文
+委託主：九吋獵人部落
+期限：單次
+你必證明你是真正的勇士，去東南方的森林完成妳的試煉吧！
+
+WitchOPT/AboutWhyMe2_yes
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    為什麼是我？ 我只是路過而已？
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    自從\c[6]綠皮妖\c[0]出現之後我們就有了新的麻煩，但那位勇士必將解決一切。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    如\c[6]黑暗旅者\c[0]所言，妳一定對一切抱有疑問。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    但這一切都市先祖大人的引導下發生的。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    去吧孩子，去證明妳的價值吧！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃.....
+
+WitchOPT/AboutDedOne0
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    \c[4]黑暗旅者\c[0]是誰？ 為什麼他說我會來這？
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    祂是掌控一切的存在，祂遇見了這一切的發生。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    祂身穿黑袍在夢中現身，祂告知了我所有的真相。
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    唯一的未知就只有妳。
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    喔...？
+
+Witch/BoarPenid_End0
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 我打敗\c[5]螺旋王\c[0]了，這就是\c[4]螺旋雞雞\c[0]....吧？
+\CBid[-1,20]\prf\c[4]\c[4]預言者：\c[0]    果然如此，正如\c[6]黑暗旅者\c[0]所說，妳是真正的勇士。
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...
+
+Witch/BoarPenid_End1
+\CBid[-1,8]\prf\c[4]\c[4]預言者：\c[0]    拿去吧，這是勇士的證明，\c[6]黑暗旅者\c[0]說過妳需要這個，將它塗在臉上吧。
+
+Witch/BoarPenid_End2
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 謝謝？

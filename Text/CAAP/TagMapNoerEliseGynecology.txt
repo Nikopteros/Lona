@@ -1,0 +1,302 @@
+EliseGynecology/OvermapEnter
+\m[confused]En el letrero gastado se lee：\n \C[6]«Clínica de Obstetricia y Ginecología de Elise»\C[0] \optB[Cancelar,Entrar]
+
+################################################################ begin ############################################################################
+
+elise/StaHerbCollect0
+\SETpl[Mteen_elise_normal]\Lshake\c[4]Elise：\C[0]    ¡Yuju! ¿Viniste a traerme las hierbas que pedí?!
+\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Eh?!
+\m[flirty]\plf\c[6]Lona：\C[0]    Ah, sí...
+
+elise/StaHerbCollect1
+\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡Gra-a-a-a-a-a-aacias!!!
+\SETpl[Mteen_elise_normal]\Lshake\c[4]Elise：\C[0]    ¡Lalá lá lá! ♫ ¡Lalá lá láá! ♫
+\m[confused]\plf\c[6]Lona：\C[0]    ......
+
+elise/day_1TimeBegin0
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\c[4]Desconocido：\C[0]    ¡Bienvenida! ¿Viniste a ver mi colección, no?
+\CBct[2]\m[shocked]\c[6]Lona：\C[0]    ¿Eh? \optD[¿Qué?, ¿Ehh... sí?]
+
+elise/day_1TimeBegin1
+\CBmp[elise,20]\SETpl[Mteen_elise_shake]\m[shocked]\Lshake\Rshake\prf\c[4]Desconocido：\C[0]    ¡Jaja! ¡Sabía que te interesaría ver mi colección!
+\CBct[6]\m[wtf]\Rshake\PRF\c[6]Lona：\C[0]    Oh, no... Lo siento, solo estoy mirando alrededor.
+\CBmp[elise,6]\SETpl[Mteen_elise_sad]\c[4]Desconocido：\C[0]    Ah, ¿en serio...? Bueno, está bien.
+\CBmp[elise,4]\SETpl[Mteen_elise_angry]\c[4]Desconocido：\C[0]    ¡Me llamo Elise, y soy doctor! ¡Me especializo en partos y salud femenina!
+\CBct[2]\SETpl[Mteen_elise_normal]\c[4]Elise：\C[0]    Entonces... ¿Puedo ayudarte en algo?
+
+elise/day_talk
+\CBmp[elise,20]\BonMP[elise,20]\SETpl[Mteen_elise_normal]\Lshake\c[4]Elise：\C[0]    ¡Oh, hola! ¿Ahora te interesa ver mi colección?
+
+elise/DayTalkOPT_Cancel
+Cancelar
+
+elise/DayTalkOPT_Talk
+Hablar
+
+elise/DayTalkOPT_PregnancyCheck
+Prueba de embarazo
+
+elise/DayTalkOPT_OrcResearch
+Investigación sobre Orcoides
+
+elise/DayTalkOPT_FishtopiaIsle
+Isla Pezópolis
+
+elise/DayTalkOPT_LisaAbom
+Lisa
+
+elise/DayTalkOPT_SellBaby
+Vender bebé
+
+elise/day_trade_mod
+\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡Ya he realizado todo tipo de operaciones a montones de putas y prostitutas! ♫
+
+
+elise/day_talk_about0
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_normal]\PLF\prf\Lshake\c[4]Elise：\C[0]    ¡No subestimes a Elise!
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡Mi familia es de Sibaris! ¡Pero toda esta gran clínica me pertenece a mí!
+\CamCT\m[shocked]\plf\PRF\c[6]Lona：\C[0]    ¿En serio?!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿No serás más joven que yo? ¿Qué pasó con tu familia? ¿Dónde están ahora?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_normal]\PLF\prf\Lshake\c[4]Elise：\C[0]    Bueno, están todos muertos.
+\CamCT\m[sad]\plf\PRF\c[6]Lona：\C[0]    Oh... Lo siento, cariño, no debería haber preguntado.
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_angry]\PLF\prf\Lshake\c[4]Elise：\C[0]    ¡Oye! ¡En realidad soy un chico! \{¡UN CHICO!
+\CamCT\m[sad]\plf\PRF\c[6]Lona：\C[0]    ¿Qué? Oh... Emm... Entiendo.
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_shake]\prf\Lshake\c[4]Elise：\C[0]    ¡Oh! ¡No entiendes! ¡El trabajo de Elise está en pleno apogeo ahora mismo!
+\CamCT\m[wtf]\PRF\c[6]Lona：\C[0]    ¿Cómo es eso?
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_happy]\PLF\prf\Lshake\c[4]Elise：\C[0]    ¡Así! ¡Últimamente hay más monstruos por todas partes! ¡La colección de Elise se expande muy rápido!
+\CamCT\m[confused]\PLF\PRF\c[6]Lona：\C[0]    ¿Qué? Desde el principio no paras de hablar de una colección. ¿Qué coleccionas?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_shake]\m[shocked]\Lshake\c[4]Elise：\C[0]    ¡Sí! ¡¡Sí!!! ¡Mi colección!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_shake]\Lshake\c[4]Elise：\C[0]    ¿Sabías que los monstruos pueden fertilizar a mujeres humanas con increíble facilidad?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_normal]\cg[event_EliseCollection]\plf\prf\c[4]Elise：\C[0]    ¡Y los bebés nacidos de ese apareamiento son tan ado-o-o-orables!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡Las crías de monstruos son mucho más interesantes que las humanas! ¡Mira qué grandes son!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_happy]\m[fear]\cgoff\Lshake\c[4]Elise：\C[0]    ¡Elise es bueno! ¡Así que Elise puede ayudarte con abortos, y completamente gratis!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_normal]\m[terror]\cgoff\Lshake\c[4]Elise：\C[0]    ¡Y por supuesto, si planeas quedarte con el bebé, Elise también puede ayudarte con el parto!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm...
+\CamMP[elise]\BonMP[elise,8]\SETpl[Mteen_elise_normal]\m[terror]\PLF\prf\Lshake\c[4]Elise：\C[0]    ¡Pareces alguien que podría traerme muchos especímenes excelentes para mi colección!
+\CamCT\BonMP[elise,4]\SETpl[Mteen_elise_happy]\m[terror]\Lshake\c[4]Elise：\C[0]    ¡Así que no olvides venir a verme cuando quedes embarazada!
+
+elise/day_talk_about1
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_shake]\m[terror]\PRF\PLF\Lshake\c[4]Elise：\C[0]    \{¡Gratis!
+\CamCT\m[fear]\prf ...(Será mejor que me mantenga lejos de este chico...)
+
+################################################################ door ############################################################################
+
+elise/day_trigger_door1
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_happy]\m[shocked]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Oooh! ¿Quieres ver mi colección?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_shake]\m[wtf]\Lshake\PRF\c[4]Desconocido：\C[0]    ¿Quieres entrar y verlos, verdad?!
+\..\..\..\..\WF[60]
+\CamCT\m[triumph]\PRF\c[6]Lona：\C[0]    Emm... No, gracias.
+\CamCT\BonMP[elise,6]\SETpl[Mteen_elise_sad]\c[4]Desconocido：\C[0]    Mmm... Bueno, está bien...
+
+elise/day_trigger_door2
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_happy]\m[shocked]\Lshake\prf\c[4]Elise：\C[0]    Entonces, ¿finalmente te interesa mi colección, no?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_shake]\m[wtf]\Lshake\PRF\c[4]Elise：\C[0]    ¿Quieres entrar y echar un vistazo?!
+\..\..\..\..\WF[60]
+\CamCT\m[triumph]\PRF\c[6]Lona：\C[0]    Emm... En otro momento.
+\CamCT\BonMP[elise,6]\SETpl[Mteen_elise_sad]\c[4]Elise：\C[0]    Uff... Bueno, está bien...
+
+#####################################################################   surgery    ###################################################################
+
+elise/surgery_begin0
+\CBid[-1,3]\SETpl[Mteen_elise_normal]\Lshake\c[4]Elise：\C[0]    ¡Muy bien, sígueme!
+
+elise/surgery_begin1
+\CBid[-1,4]\SETpl[Mteen_elise_normal]\m[shocked]\Lshake\prf\c[4]Elise：\C[0]    ¡La señorita está lista! ¡Bueno, Elise también está siempre listo!
+
+elise/surgery_begin2
+\CBct[6]\m[tired]\c[6]Lona：\C[0]    Oohhh...
+\CBid[-1,4]\SETpl[Mteen_elise_happy]\m[shocked]\Lshake\prf\c[4]Elise：\C[0]    \{¡Empecemos!
+
+elise/surgery_begin3
+\ph\SND[SE/gore01.ogg]...........
+\SND[SE/gore03.ogg]......
+\SND[SE/gore09.ogg]....
+
+elise/surgery_begin3_Miscarriage
+\SETpl[Mteen_elise_normal]\Lshake\prh\c[4]Elise：\C[0]    ♪ Hmm Hm Hmm~ Lu Lá Láá~ ♫
+\SETpl[Mteen_elise_normal]\Lshake\prh\c[4]Elise：\C[0]    Me pregunto qué tipo de bebé hay dentro de ti.
+
+
+elise/surgery_begin3_Miscarriage_nopreg1
+\SETpl[Mteen_elise_sad]\Lshake\c[4]Elise：\C[0]    ...¿Qué?
+\SND[SE/gore01.ogg]...........
+\SETpl[Mteen_elise_angry]\Lshake\c[4]Elise：\C[0]    ¿No está... aquí?
+\SND[SE/gore03.ogg]......
+\SETpl[Mteen_elise_angry]\Lshake\c[4]Elise：\C[0]    \{¿¡DÓNDE ESTÁ!? ¡¿DÓNDE MIERDA LO ESCONDISTE?! ¡¿DÓNDE ESTÁ MI BEBÉ??!!
+\SND[SE/gore09.ogg]....
+\SETpl[Mteen_elise_angry]\Lshake\c[4]Elise：\C[0]    ¡MIERDA! ¡ME MINTIÓ! ¡ME MINTIÓ!!!
+
+elise/surgery_begin3_Miscarriage_nopreg2
+\SETpl[Mteen_elise_angry]\Rflash\SND[SE/Gore_hit1.ogg]\Lshake\c[4]Elise：\C[0]    ¿Por qué...?!
+\SETpl[Mteen_elise_angry]\Rflash\SND[SE/Gore_hit2.ogg]\Lshake\c[4]Elise：\C[0]    ¡¿POR QUÉ ME MENTISTE?!
+\SETpl[Mteen_elise_angry]\Rflash\SND[SE/Gore_hit4.ogg]\Lshake\c[4]Elise：\C[0]    Te mataré... ¡TE MATARÉ!! ¡¡TE MATARÉÉÉ!!
+\Rflash\SND[SE/gore01.ogg]........
+
+elise/surgery_begin3_Miscarriage_endFB
+\SETpl[Mteen_elise_masked]\Rflash\Lshake\SND[SE/gore01.ogg]........
+
+elise/surgery_begin3_Miscarriage_endF1
+\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡Increíble! Parece que es 
+
+elise/surgery_begin3_Miscarriage_endF2
+ !!!
+
+elise/surgery_begin3_Miscarriage_endF3_preg_level0
+ ...Mmm, apenas del tamaño de una uña. Qué desperdicio...
+
+elise/surgery_begin3_Miscarriage_endF3_preg_level1
+ ¡Qué lindo! ¡Qué lindo renacuajo! ♫
+
+elise/surgery_begin3_Miscarriage_endF3_preg_level2
+ ¡Los brazos y piernas apenas comienzan a formarse! ¡Qué encantador! ♫
+
+elise/surgery_begin3_Miscarriage_endF3_preg_level3
+ ¡Ooh! Ya comienza a parecerse a un bebé. Qué lindo se ve. ♫
+
+elise/surgery_begin3_Miscarriage_endF3_preg_level4
+ ¡Guau! ¡Todavía está vivo! No te preocupes, yo me encargaré de ti, ¡te quedarás conmigo para siempre! ♫
+
+elise/surgery_begin3_Miscarriage_endF3_preg_level5
+ ¡Sal y llora! ¡Grita todo lo que quieras! ¡Pronto no podrás gritar más!~ ♥
+
+elise/surgery_end
+\CBid[-1,3]\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡Despierta, señorita!!! ¿Aún no recuperas el conocimiento?
+\CBct[8]\m[tired]\PLF\c[6]Lona：\C[0]    Ahhh... Mmmfff...
+\CBid[-1,4]\SETpl[Mteen_elise_normal]\Lshake\c[4]Elise：\C[0]    ¡La cama está a tu disposición! ¡Descansa todo lo que necesites! ♫
+
+#####################################################################   preg check    ###################################################################
+
+elise/preg_check_begin1
+\CBct[6]\m[shy]\plf\PRF\c[6]Lona：\C[0]    Disculpe... ¿Podría ayudarme a comprobar si estoy emb...-
+\CBid[-1,20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Elise：\C[0]    \{-¡¿ESTÁS EMBARAZADA?! ¡No hay problema!!! ♥
+
+elise/preg_check_failed0
+\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise：\C[0]    Nada...
+\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise：\C[0]    No, aquí no hay nada...
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Uf... No estoy embarazada...
+
+elise/preg_check_failed1
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise：\C[0]    \{¡PERRA! ¡¿PARA QUÉ NO ESTÁS EMBARAZADA?!!
+\CBmp[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise：\C[0]    \{¡VETE AL INFIERNO!!!
+
+elise/preg_check_win0
+\SETpl[Mteen_elise_shake]\Lshake\c[4]Elise：\C[0]    \{¡Ajá! ¡Lo veo! ¡Lo veo!!!
+\SETpl[Mteen_elise_happy]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+elise/preg_check_win1
+\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise：\C[0]    Ajá\..\..\..
+\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise：\C[0]    ¡Darás a luz en algún momento! Si cuentas el tiempo restante en días, diría... #{$story_stats["HiddenOPT1"]}
+
+elise/preg_check_win2
+\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise：\C[0]    ¡No puedo saber de qué raza será el bebé, pero pronto lo sabremos!
+\m[shy]\c[6]Lona：\C[0]    Yo... Estoy embarazada...
+\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise：\C[0]    ¡No olvides venir a verme más tarde, cuando vayas a dar a luz o necesites deshacerte del feto!!!~
+
+#####################################################################   Sell Babys    ###################################################################
+
+elise/sell_baby_begin1
+\CBct[6]\m[shy]\plf\PRF\c[6]Lona：\C[0]    Aquí...
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    ¿Podrías ayudarme a deshacerme de todo esto...?
+\CBid[-1,1]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise：\C[0]    ¡Ah! ¡Aj! ¡Por fin! ¡Mi pequeño monstruo bebé!
+\CBid[-1,3]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise：\C[0]    ¡Gracias! ¡Muchas gracias!!
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise：\C[0]    ¡Te recompensaré como mereces!
+\CBct[8]\m[flirty]\plf\PRF (Genial que pueda vendérselo tan fácilmente...)
+
+elise/sell_baby_begin2
+\CBct[6]\m[shy]\plf\PRF\c[6]Lona：\C[0]    Esto...- Gracias, supongo...
+
+elise/sell_baby_begin3
+\CBct[8]\m[sad]¿Hice lo correcto con él?
+\CBct[8]\m[tired]¡Después de todo, es mi hijo!
+
+##################################################################### B1 ###############################################################################
+
+elise/night_basic_begin
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake：\C[0]\{\{¡¡¡Hola, señorita!!!
+\CamCT\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¡OHH!!
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise：\C[0]    \{¡Lo sabía!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise：\C[0]    ¡Lo sabía! ¡Seguro que te interesa mi colección!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise：\C[0]    ¿Viniste a ver a estos bebés, verdad? ♫
+\CamCT\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise：\C[0]    ¡Son tan hermo-o-o-osos! ¿Verdad? \optD[Es asqueroso...<t=3>,¡Yo también lo creo!<r=HiddenOPT1>]
+
+elise/night_basic_begin_no
+\CamCT\m[wtf]\c[6]Lona：\C[0]    Emm... No, se ven asquerosos...
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise：\C[0]    \{¡TRAIDORA! ¡PUTA!! ¡MUERE, MALDITA SEA!!!
+\CamCT\m[shocked]\c[6]Lona：\C[0]    ¡E-eh! No, ¡espera!
+
+elise/night_basic_begin_yes
+\CamMP[elise]\BonMP[elise,4]\m[serious]\plf\c[6]Lona：\C[0]    Sí... Cuando miras sus ojos nublados, sus rostros sin color...
+\CamCT\m[triumph]\plf\c[6]Lona：\C[0]    ¡Parece arte sublime!
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\PLF\prf\Lshake\c[4]Elise：\C[0]    ¡La señorita me entiende! ¡Oh, qué feliz estoy!!! ♥
+\CamCT\m[flirty]\plf\c[6]Lona：\C[0]    Je-je...
+
+##################################################################### Birth Unique EV ###############################################################################
+
+elise/GiveBirthBegin0
+\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise：\C[0]    ¡Elise huele ese olor! ¡Ese hedor indica un parto inminente!
+
+elise/GiveBirthBegin1
+\CBmp[elise,20]\SndLib[BadClap]\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡Aquí está, señorita! ¡Señorita, está a punto de dar a luz!
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Eh?!
+\CBmp[elise,4]\SETpl[Mteen_elise_shake]\Lshake\c[4]Elise：\C[0]    ¡Felicidades! ♫ ¡No, en serio, felicidades por el embarazo exitoso!!!~♥
+\CBct[6]\SETpl[Mteen_elise_happy]\m[tired]\plf\Rshake\c[6]Lona：\C[0]    Gra-...¿Gracias?
+
+elise/GiveBirthBegin2
+\CBmp[elise,3]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise：\C[0]    ¡Toma, bebe un trago, señorita! ¡Después de que lo bebas, deja que Elise se encargue del resto!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Qué es esto...?
+
+elise/GiveBirthBegin3
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise：\C[0]    ¡¡¡NO HAGAS PREGUNTAS!!! ¡ESTÚPIDA! ¡Solo bebe, AHORA MISMO!
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡¡¡EEEH!!!\optD[Beber,Rechazar...]
+
+elise/GiveBirthBegin_NO
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona：\C[0]    Yo...No quiero...
+\CBmp[elise,5]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise：\C[0]    \..\..\..
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Rflash\Lshake\prf\c[4]Elise：\C[0]    ¡¡¡ES-... -DE ELISE!!! ¡DEVUÉLVEME EL ELEMENTO DE MI COLECCIÓN!!!
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Rflash\Lshake\prf\c[4]Elise：\C[0]    ¡ESTÚPIDA PERRA! ¡ESTÁS MUERTA!
+
+elise/GiveBirthBegin_YES0
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡Por favor, no te enfades! ¡Lo beberé! ¡Lo beberé!
+
+elise/GiveBirthBegin_YES1
+\CBmp[elise,4]\SndLib[BadClap]\SETpl[Mteen_elise_shake]\Lshake\c[4]Elise：\C[0]    ¡Eso es, buena chica! ♥ La señorita es tan obediente ♥
+\CBct[6]\SETpl[Mteen_elise_happy]\m[tired]\plf\Rshake\c[6]Lona：\C[0]    Uuughh\..\..\..
+
+elise/GiveBirthBegin_wake0
+\CBct[2]\m[confused]\plf\Rshake\c[6]Lona：\C[0]   ..! ¿D-dónde estoy? ¿Qué hago aquí?
+
+elise/GiveBirthBegin_Birth0
+\CBmp[elise,3]\SndLib[sound_Heartbeat]\Rflash\SETpl[Mteen_elise_happy]\Lshake\c[4]Elise：\C[0]    ¡No te preocupes, señorita, Elise está aquí!
+\CBct[8]\SndLib[sound_Heartbeat]\Rflash\m[p5sta_damage]\plf\Rshake\c[6]Lona：\C[0]    \{¡¡¡AAAAHHH!!!
+
+elise/GiveBirthBegin_Birth1
+\CBmp[elise,3]\SndLib[sound_Heartbeat]\Rflash\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise：\C[0]    Vamos, respira hondo... ¡y puja con todas tus fuerzas!
+\CBct[8]\SndLib[sound_Heartbeat]\Rflash\m[p5sta_damage]\plf\Rshake\c[6]Lona：\C[0]    \{¡¡¡KHYAAAAAA!!!
+
+elise/GiveBirthBegin_Birth2
+\CBmp[elise,3]\SndLib[sound_Heartbeat]\Rflash\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise：\C[0]    ¡Puedes hacerlo, señorita! ¡Elise cuenta contigo para expandir su colección!
+
+elise/GiveBirthBegin_Birth3
+\CBmp[elise,4]\SETpl[Mteen_elise_normal]\Lshake\c[4]Elise：\C[0]    ¡Guau!~♥ Un espécimen hermoso.♥
+
+##################################################################### Guard ###############################################################################
+
+Guard1/rng0
+\CBid[-1,6]\c[4]Guardia：\C[0]    El jefe quiere que vigile la seguridad de este mocoso. Pero tengo un mal presentimiento sobre este lugar...
+
+Guard1/rng1
+\CBid[-1,6]\c[4]Guardia：\C[0]    Shhh\..\..\.. Silencio, ¿oyeron eso? Juro que algo se mueve en el sótano.
+
+Guard1/rng2
+\CBid[-1,6]\c[4]Guardia：\C[0]    Estoy seguro de que este tipo está loco...
+
+Guard2/rng0
+\CBid[-1,6]\c[4]Guardia：\C[0]    No sé por qué el jefe me ordenó protegerlo. Aunque no me quejo, es un trabajo fácil.
+
+Guard2/rng1
+\CBid[-1,5]\c[4]Guardia：\C[0]    El jefe dijo que este niño es muy importante. ¡Hasta esos malditos Hombres Pez intentaron secuestrarlo!
+
+Guard2/rng2
+\CBid[-1,3]\c[4]Guardia：\C[0]    Mi esposa dio a luz hace poco, y desde entonces este chico se encarga de ella y de mi bebé.
+\CBid[-1,3]\c[4]Guardia：\C[0]    Si hubiera sabido de este lugar antes, habría traído a mi vieja para que diera a luz aquí.

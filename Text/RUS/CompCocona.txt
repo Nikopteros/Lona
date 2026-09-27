@@ -1,0 +1,1704 @@
+Cocona/Qu3
+\SETlpl[cocona_shocked]\Lshake\prf\c[6]Кокона：\C[0]    С-Старшая сестрёнка...!
+\m[normal]\plf\PRF\c[6]Лона：\C[0]    А? Что такое?
+\SETlpl[cocona_sad]\PLF\prf\c[6]Кокона：\C[0]    Тут так много новых друзей, которых не знает Кокона...! Шшшшшш......!
+\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм? Друзья? А, ты об этих людях? \m[normal] Да, это место называется Ноэр. Здесь живут другие люди, как и мы.
+\SETlpl[cocona_sad]\PLF\prf\c[6]Кокона：\C[0]    Я боюсь......
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кокона, подожди меня здесь. Я найду для тебя место.
+\SETlpl[cocona_sad]\PLF\prf\c[6]Кокона：\C[0]    Нет! Все всегда бросают Кокону...!
+\m[sad]\plf\PRF\c[6]Лона：\C[0]    Охх...
+
+##################################################################-------------  COMP QUEST
+
+Waifu/RecQuestCocona_2_1
+\CamCT\m[confused]\c[6]Лона：\C[0]    ...Простите. Большая Мамочка?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{ЧАВО?! ЧЁ ТЕ НАДО?!
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я слышала, Большая Мамочка была наёмником-ветераном.
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Вы знаете что-нибудь о Некромантах? Я хочу выучить заклинания Некромантии.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Хах! Ты чего, хочешь выучиться магии, как настоящий приключенец? Хочешь стать крутым наёмником?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Короче говоря, Некромантия - это часть магии жизни.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Но специализируется на духах, Святые ненавидят это больше всего.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    А что? Что ты хочешь узнать?
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Как считаете - все Некроманты злые?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Я не знаю, но Святые точно скажут, что все они злые.
+
+Waifu/RecQuestCocona_2_2
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Сама подумай, какой нормальный человек будет возиться с мертвечиной?
+\CamCT\m[tired]\plf\PRF\c[6]Лона：\C[0]    Оу.....
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Дом моей подруги уничтожен.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    И что? У всех сейчас такая ситуация.
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я хочу помочь ей и найти ей место для жизни.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Она может платить за комнату? Работать умеет?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Мне нужно её узнать, что ей нужно?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Нуу... Дело в том, что-!
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{ХВАТИТ ТЯНУТЬ ВРЕМЯ, ВЫКЛАДЫВАЙ!
+\CamCT\m[terror]\plf\Rshake\c[6]Лона：\C[0]    \{Аххххх!!!
+
+Waifu/RecQuestCocona_2_3
+\ph\narr Лона рассказала обо всём произошедшем в гробнице.
+
+Waifu/RecQuestCocona_2_4
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{ВОТЭТОДА!
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ммм?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Как жаль малявку! Бедняжка! Какой ужас!!!~ Где она?!
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эммм... Сразу за таверной?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\Lshake\prf\c[4]Большая Мамочка：\C[0]   Посиди здесь! Я схожу за ней сама!
+
+Waifu/RecQuestCocona_2_5
+\CamCT\m[flirty]\c[6]Лона：\C[0]    Какого..?
+\CamCT\m[confused]\c[6]Лона：\C[0]    Я тоже бедная, между прочим. Почему ко мне она не относится так же...?
+
+Cocona/RecQuestCocona_3_1
+\CamMP[UniqueCocona]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка! Старшая сестрёнка!
+\CamMP[UniqueCocona]\SETlpl[cocona_happy]\PLF\prf\c[4]Кокона：\C[0]    У меня новый друг! Она такая добрая!
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ч-Что? Ты говоришь о Большой Мамочке?
+\CamMP[UniqueCocona]\SETlpl[cocona_happy]\PLF\prf\c[4]Кокона：\C[0]    О Новой Мамочке! Большой Мамочке! Очень большой! Ой!
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Пффф, хаха! Я думаю, тебе просто кажется...
+\SETlpl[cocona_happy]\PLF\prf\c[4]Кокона：\C[0]    Спасибо, Старшая сестрёнка! Спасибо огромное! Мияу!~
+
+Waifu/RecQuestCocona_6_1
+\SETpl[BigMama_normal]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{Хэй! Мелкая!
+
+Waifu/RecQuestCocona_6_2
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я не мелкая, меня зовут Лона.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Плевать! Слушай, иди-ка и научи Кокону хоть какому-нибудь здравомыслию!
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Чего?..
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,5]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Ты её сюда притащила! Она под твоей ответственностью!
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Чего???!!!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Хорош «Чего»-кать тут! Ты в курсе, что вчера случилось?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Она отказалась есть мою еду! Эта малявка боится приготовленной еды!!!
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Я так много времени убила на готовку, а она...! Кажется, она вообще ни во что не врубается!
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Может, она просто не знает, что это съедобно?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Ага! А потом я её застукала копающейся в мусоре! Это уже слишком!
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Она жрала то, что не стали бы трогать даже самые жалкие нищие!
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Это нехорошо. Но, весьма на неё похоже.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,1]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Правильно! Нехорошо. Она ещё умудряется закатывать истерики.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,7]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Я постоянно занята, у меня нет времени на неё.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,5]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Я и так разрешила этой пельмешке оставаться у меня бесплатно. Так что займись-ка этим!
+\CamCT\m[serious]\plf\PRF\c[6]Лона：\C[0]    Ладно, ладно!
+
+Cocona/RecQuestCocona_7_1
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Привет, Кокона.
+\CBmp[UniqueCocona,4]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка! Пливееет!~
+\CamCT\m[normal]\plf\PRF\c[6]Лона：\C[0]    Большая Мамочка хочет, чтобы я тебя научила некоторым важным вещам.
+\CBmp[UniqueCocona,5]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    НЕТ! НЕЕЕТТ!!!
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кокона, успокойся! Слушай свою старшую сестру.
+\CBmp[UniqueCocona,15]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Неееет!! Кокона не любит учиться...!
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Твои родители и Святые на небесах будут злиться, если ты не будешь учиться.
+\SETlpl[cocona_shocked]\BonMP[UniqueCocona,6]\Lshake\prf\c[6]Кокона：\C[0]    ...Святые, и мама с папой будут злиться?!
+\CamCT\m[normal]\plf\PRF\c[6]Лона：\C[0]    Да, всё духовенство и Святые будут злиться.
+\SETlpl[cocona_shocked]\BonMP[UniqueCocona,20]\Lshake\prf\c[6]Кокона：\C[0]    Святые и духовенство? Где?! Кокона слышала о них! Кокона хочет их увидеть!
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оу, тебе правда интересно?! Я знаю одну церковь к северу, но сейчас очень опасно куда-то идти.
+\SETlpl[cocona_shocked]\BonMP[UniqueCocona,20]\Lshake\prf\c[6]Кокона：\C[0]    Хочу идти! Хочу идти! Мне нужно! Хочу увидеть Святых!
+\CamCT\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Если ты хочешь там оказаться, то слушай меня внимательно!
+\SETlpl[cocona_sad]\PLF\prf\c[6]Кокона：\C[0]    ...Кокона будет слушать старшую сестрёнку......
+
+Cocona/RecQuestCocona_7_2
+\CamCT\narr Лона объясняет базовые вещи Коконе.
+В частности, что можно есть, а что нельзя.
+И о других вещах, что могут злить людей вокруг.
+
+Cocona/RecQuestCocona_7_3
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Верующие должны есть что угодно, чтобы не исчезнуть!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Так мама с папой говорили!
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Вероятно, они так говорили, чтобы ты смогла выжить в том месте.
+\CamCT\m[normal]\plf\PRF\c[6]Лона：\C[0]    Но теперь мы снаружи, и тебе не нужно есть такие вещи.
+\CBmp[UniqueCocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Но та еда, которую готовит Большая Мамочка мне не нравится! Она воняет! Я не хочу это есть!!!
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    А я думаю, она довольно вкусная, хоть может и выглядит не очень.
+\CamCT\m[pleased]\plf\PRF\c[6]Лона：\C[0]    А вообще, ты хоть пробовала её? Твоя старшая сестрёнка будет с тобой, если хочешь!
+
+Cocona/RecQuestCocona_7_4
+\CamCT\m[normal]\plf\PRF\c[6]Лона：\C[0]    *Ням* *Жуёт* *Жуёт*... Видишь? Я съела! Это вкусно!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\prf\c[4]Кокона：\C[0]    Феее... Старшая сестрёнка...... \SND[SE/eat02.ogg]
+\CamCT\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Ну, видишь? Я в порядке! Это неплохо, она вкусная. Давай.
+\CamCT\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Иди сюда! Старшая сестрёнка тебя накормит\..\..\.. Скажи Аааа!~
+\CBmp[UniqueCocona,8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Ааааа...... *Ням*... *Чавк* *Чавк*......\SND[SE/eat03.ogg]
+\CBmp[UniqueCocona,8]\SETlpl[cocona_confused]\prf\c[4]Кокона：\C[0]    ...?\SND[SE/eat02.ogg]
+\CBmp[UniqueCocona,8]\SETlpl[cocona_confused]\prf\c[4]Кокона：\C[0]    ......!\SND[SE/eat02.ogg]
+\CBmp[UniqueCocona,1]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    ...ВКУСНО!!!~
+\CBmp[UniqueCocona,4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Кааак вкууусно!!!!!!~
+\CBmp[UniqueCocona,4]\SETlpr[cocona_shocked]\SETpl[BigMama_normal]\plf\Rshake\c[4]Кокона：\C[0]    Большая Мамочка, можно мне ещё? Пожааалуйста!
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,4]\Lshake\prf\c[4]Большая Мамочка：\C[0]    ОУ!~ Да, моя маленькая прелесть!~ Конечно!!!~ Ешь ещё, бери!~
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ...Маленькая прелесть?
+
+Cocona/RecQuestCocona_7_5
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Молодец, мелкая. Возьми тоже, поешь.
+\CamCT\m[serious]\plf\PRF\c[6]Лона：\C[0]    Я не Мелкая!
+
+################################################################### NORMAL ################################################################################# 
+
+Cocona/KnownBegin
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Кокона：\C[0]    Старшая сестрёнка! При-Мяу-вет!
+
+Cocona/KnownBegin_night0
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Кокона：\C[0]    Старшая сестрёнка! Я ра... работаю для Большой Мамочки!
+
+Cocona/KnownBegin_night1
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Кокона：\C[0]    Большая Мамочка говорит, это р.. работа! И что надо работать, чтобы кушать!
+
+Cocona/KnownBegin_night2
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Кокона：\C[0]    Старшая сестрёнка! Кокона очень довольна быть здесь!~
+
+Cocona/BasicOpt
+\SETlpl[cocona_happy]\m[confused]
+
+Cocona/CompCommand
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\c[4]Кокона：\C[0]    Старшая сестрёнка!
+
+Cocona/CompCommand_extra
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Кокона：\C[0]    Мияу? \optB[Забудь об этом,Призвать Воина<r=HiddenOPT0>,Призвать Лучника<r=HiddenOPT1>,Упокоятся с миром<r=HiddenOPT2>]
+
+Cocona/CompCommand_extra_SumWarrior
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\c[4]Кокона：\C[0]    Сейчас! Я позову хороших друзей!
+
+Cocona/CompCommand_extra_SumArcher
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\c[4]Кокона：\C[0]    Мияу! Зову хороших друзей!
+
+Cocona/OptHeadPat
+Погладить Кокону ♥
+
+Cocona/OptBath
+Помыть Кокону ♥
+
+Cocona/OptSleep
+Поспать вместе ♥
+
+Cocona/ChangeDress
+Переодеться
+
+Cocona/ChangeDress_necro
+\narr Надеть Одежду Некромантки.
+
+Cocona/ChangeDress_maid
+\narr Надеть Платье Горничной.
+
+Cocona/Comp_win
+\CBid[-1,6]\SETlpl[cocona_shocked]\PLF\prf\c[4]Кокона：\C[0]    Кокона будет защищать старшую сестрёнку!
+
+Cocona/Comp_disband
+\CBid[-1,5]\SETlpl[cocona_angry]\PLF\prf\c[4]Кокона：\C[0]    ХХХШШШСССссс!!!
+
+Cocona/CompData
+\board[Кокона]
+\C[2]Позиция：\C[0]Тыл
+\C[2]Стиль боя：\C[0]Призыв, Дальний бой, Магия
+\C[2]Фракция：\C[0]#{$story_stats["HiddenOPT1"]}
+\C[2]Вражда с：\C[0]Злые Существа, Оркоиды, Мерзости
+\C[2]Цена：\C[0]Нет
+\C[2]Длительность：\C[0]#{$story_stats["HiddenOPT0"]}
+\C[2]Примечание：\C[0]Не возрождается после смерти
+Юная Некромантка из катакомб.
+
+################################################################### Tavern Offer help when weak > N
+Cocona/TavernHelp_pass0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Сестрёнка, ты голодна...?
+
+Cocona/TavernHelp_pass1
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Спасибо за заботу....
+
+Cocona/TavernHelp_pass2
+\CBid[-1,5]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Не бойся! Кокона позаботится о старшей сестре!
+
+Cocona/TavernHelpDot0
+\CBct[6]\m[tired]\prf\c[4]Лона：\C[0]    \..\..\..
+
+Cocona/TavernHelpDot1
+\CBct[6]\m[flirty]\plf\PRF\c[4]Лона：\C[0]    Сестрёнка, всё хорошо....
+
+Cocona/TavernHelp_failed0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Сестра, ты снова голодная?
+\CBid[-1,5]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Нет! Кокона защищает старшую!
+
+Cocona/MamaKickOut0
+\CamCT\SETpl[BigMama_angry]\Lshake\c[4]Большая Мамочка：\C[0]    \{Что ты творишь!
+\CamCT\SETpl[BigMama_angry]\Lshake\c[4]Большая Мамочка：\C[0]    \{Беднякам тут не рады!
+\m[shocked]\Rshake\c[6]Лона：\C[0]    \{А?!
+
+################################################################### HeadPat
+
+Cocona/HeatPatA_1
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка, похвали Кокону!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Мм? Похвалить?
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Да! Похвали Кокону!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Эм, ладно! Кокона - самая крутая!
+\CBid[-1,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Хихи...
+\CBct[6]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Неплохо, да? Хмм\..\..\.. Тебя погладить по голове?
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Погладить... по голове?
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Да! Погладить по голове!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Нее! Кокона не любит боль!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ты думаешь, тебе будет больно, если я поглажу тебя по голове?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Не волнуйся, больно не будет... Доверяй своей старшей сестрёнке.
+\CBid[-1,6]\SETlpl[cocona_sad]\PLF\prf\c[4]Кокона：\C[0]    Ву-Мяу--- Кокона доверяет...
+
+Cocona/HeatPatA_2
+\CBid[-1,6]\c[4]Кокона：\C[0]    Мияу! Миууууу.... Кокона напугана...
+
+Cocona/HeatPatA_3
+\CBct[20]\c[6]Лона：\C[0]    Ну, вот... Хорошая девочка... Видишь? Нечего бояться.
+
+Cocona/HeatPatA_4
+\CBid[-1,6]\c[4]Кокона：\C[0]    Оооооооооууу....
+
+Cocona/HeatPatA_5
+\CBid[-1,3]\c[4]Кокона：\C[0]    Оооуу...! М-Мияу~~♬
+
+Cocona/HeatPatA_6
+\CBct[20]\c[6]Лона：\C[0]    Ну, видишь? Не так уж страшно, да?
+\CBid[-1,20]\c[4]Кокона：\C[0]   Да! Это хорошо! Коконе нравится!
+
+Cocona/HeatPatA_7
+\CBid[-1,3]\c[4]Кокона：\C[0]   Хэй, хэй~~♬ Хихи ♬
+
+Cocona/HeatPatA_8
+\CBid[-1,20]\c[4]Кокона：\C[0]   Старшая сестрёнка - самая лучшая!
+
+Cocona/HeatPatB_1
+\CBid[-1,3]\SETlpl[cocona_shocked]\PLF\prf\c[4]Кокона：\C[0]    Старшая сестрёнка, погладь по голове! ♬
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ладно...\..\..\..\CBct[20]\m[pleased] Вот так!
+
+Cocona/HeatPatB_2
+\CBid[-1,3]\c[4]Кокона：\C[0]    Н-няяя~~♬
+
+Cocona/HeatPatB_3
+\CBid[-1,20]\c[4]Кокона：\C[0]    Мияу, мяу~~
+
+Cocona/HeatPatB_4
+\CBid[-1,3]\c[4]Кокона：\C[0]    Кокона радуется ♬
+
+Cocona/HeatPat_End
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Ня! Кокона любит старшую сестрёнку ♬
+\CBct[3]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Сестрёнка тоже любит Кокону ♬
+
+################################################################### BathAgain
+
+Cocona/BathAgainA_1
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка, мыться! Вместе!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Мм? Мыться? Вместе?
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Давай мыться!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Ладно, идём!
+
+Cocona/BathAgainA_END
+\CBct[20]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Но... Разве Кокона не боится мыться?
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка со мной! Кокона не боится ♬
+
+Cocona/BathAgainB_1
+\CBid[-1,20]\SETlpl[cocona_shocked]\PLF\prf\c[4]Кокона：\C[0]    Старшая сестрёнка, мыться!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Давай!
+
+Cocona/BathAgain1
+\c[6]Лона：\C[0]    Вот так.....
+
+Cocona/BathAgain2
+\c[4]Кокона：\C[0]    Оооооооо...♬
+
+Cocona/BathAgain3
+\c[6]Лона：\C[0]    Ну ладно, мы чистенькие!
+
+Cocona/BathAgain4
+\c[4]Кокона：\C[0]    Мияу...♬
+
+################################################################### Sleep togeter
+
+Cocona/SleepTogeter_1
+\CBid[-1,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    ................
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ...........
+\CBid[-1,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    .....
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм...
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка, спать вместе!
+
+Cocona/SleepTogeterA_1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что?!
+\CBmp[CoconaBed,19]\m[flirty]\plf\Rshake\c[6]Лона：\C[0]    Это твоя кровать?
+\CBid[-1,20]\SETlpl[cocona_happy]\PLF\prf\c[4]Кокона：\C[0]    Кокона сильно работала! Большая Мамочка продала это мне!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм.....
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Ладно! Дай только оплатить номер, и будем вместе спать!
+\CBid[-1,20]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Нет! У Коконы есть работа! Кокона богатая, Кокона платит! Старшая сестрёнка, сюда! Кис-кис!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Кокона готова! Кокона будет спать всегда со старшей сестрёнкой!
+\cgoff\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Мамочка очень добра к Коконе...
+
+Cocona/SleepTogeterB_1
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Идём!
+
+Cocona/SleepTogeter_2_pure
+\CBmp[CoconaBed,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Няя! Кокона любит старшую сестрёнку ♬
+\CBmp[CoconaBed,20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Старшая сестрёнка тоже любит Кокону ♬
+
+Cocona/SleepTogeter_2_vagTak
+\CBmp[CoconaBed,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Ня! Старшая сестрёнка важна для Коконы ♬
+\CBmp[CoconaBed,20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Кокона тоже для меня важна ♬
+
+################################################################### QMSG ################################################################################# 
+
+Cocona/CommandWait0
+Н-не... Оставляй Кокону...!
+
+Cocona/CommandWait1
+Жду... Ладно...
+
+Cocona/CommandFollow0
+Кокона и Старшая сестрёнка вперёд!
+
+Cocona/CommandFollow1
+Мияу!~ Кокона со старшей сестрёнкой!
+
+#------------------------------------- OVermap
+
+overmapPop/normal0
+Старшая сестрёнка! Что это?
+
+overmapPop/normal1
+Кокона может это съесть?
+
+overmapPop/normal2
+Мияу...~
+
+overmapPop/normal3
+ШШШссс!!!
+
+#------------------------------------- OVermap UndeadWalking Encounter
+
+Overmap/UndeadWalkingEnc1
+\SETlpl[cocona_happy]\PLF\prf\c[4]Кокона：\C[0]    Это хорошие друзья Коконы!
+\m[shocked]\plf\PRF\C[6]Лона：\C[0]    Оой!
+
+Overmap/UndeadWalkingEnc2
+\cgoff\ph\SND[SE/UndeadAtk.ogg]\narr Кокона с восторгом общается с Нежитью.
+\SND[SE/UndeadAtk.ogg] «друзья» Коконы предостерегают её избегать плохих людей, а затем поделились с ней тем, что ели сами.
+
+Overmap/UndeadWalkingEnc3
+\m[confused]\plf\PRF\C[6]Лона：\C[0]    Чег-... Аа?!
+
+#------------------------------------- BathEvent
+
+Waifu/RecQuestCocona_7_1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Мелкая! Подойди, нужна помощь!
+\CBct[5]\m[bereft]\plf\Rshake\C[6]Лона：\C[0]    Я вам уже не раз говорила, я не Мелкая! Меня зовут Лона!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Иди помой Кокону и переодень её в эту форму!
+
+Waifu/RecQuestCocona_7_2
+\CBct[2]\m[confused]\plf\PRF\C[6]Лона：\C[0]    Аа?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    В этой рваной одежде и с посохом в руках, она как будто собралась драться!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Да и клиенты жалуются, что от неё пованивает! Она, наверное, вообще не понимает. Иди помоги ей!
+\CBct[2]\m[flirty]\plf\PRF\C[6]Лона：\C[0]    Что?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{Живо!
+\CBct[20]\m[shocked]\plf\Rshake\C[6]Лона：\C[0]    Ладно, ладно! Иду!
+
+Cocona/RecQuestCocona_8_1
+\CBct[3]\m[flirty]\plf\PRF\C[6]Лона：\C[0]    Кокона! Время мыться!
+\CBmp[UniqueCocona,2]\SETlpl[cocona_happy]\PLF\prf\c[4]Кокона：\C[0]    Старшая сестрёнка! ...А что такое мыться?
+\CBct[8]\m[confused]\plf\PRF\C[6]Лона：\C[0]    Ох... Короче, надо убрать грязь и мерзкий запах с твоего тела...
+\CBmp[UniqueCocona,1]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Запах...? У... Убрать?!
+
+Cocona/RecQuestCocona_8_2
+\CBmp[UniqueCocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    \{НЕЕЕЕееееетт!!! Нетнетнет!!! ХХХШШШСССсссс!!!
+
+Cocona/RecQuestCocona_8_3
+\CBct[6]\m[shocked]\plf\Rshake\C[6]Лона：\C[0]    Кокона! Прошу, успокойся! Что не так?!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Я не хочу исчезнуть...! Я НИХОЧУИС-!
+\CBct[2]\m[flirty]\plf\PRF\C[6]Лона：\C[0]    Исчезнуть...? Кокона, если ты помоешься, с тобой ничего не случится!
+\CBmp[UniqueCocona,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Нет! Старшая сестрёнка! Н-Не трогай меня!!!
+\CBct[5]\m[angry]\plf\PRF\C[6]Лона：\C[0]    Кокона! Послушай!
+\CamCT\BonMP[UniqueCocona,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Нет!
+
+Cocona/RecQuestCocona_9_1
+\CBct[3]\m[pleased]\plf\PRF\C[6]Лона：\C[0]    Попалась!
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]   МИЯУ!
+
+bathEV/begin0
+\c[4]Кокона：\C[0]    \{Боюсь! Старшая сестрёнка! Нееет!!!
+
+bathEV/begin1
+\c[6]Лона：\C[0]    Кокона! Веди себя нормально! Хватит носиться!
+\c[6]Лона：\C[0]    Старшая сестрёнка поможет тебе смыть плохие запахи.
+
+bathEV/begin2
+\c[4]Кокона：\C[0]    Я боюсь...
+\c[6]Лона：\C[0]    Кокона... Ну чего ты боишься?
+
+bathEV/begin3
+\c[4]Кокона：\C[0]    Кокона не хочет исчезнуть... Кокона не хочет стать как её «хорошие друзья».
+\c[6]Лона：\C[0]    Что? Ванна не навредит тебе никак. Слушайся старшую сестрёнку, и ничего плохого не случится.
+
+bathEV/begin4
+\c[4]Кокона：\C[0]    Угууу... *Хнык*
+
+bathEV/begin5
+\c[6]Лона：\C[0]    Видишь? Всё с тобой в порядке! Это всего лишь ванна.
+\c[4]Кокона：\C[0]    *Шмыгает носом* Запахи Коконы ушли... Кокона не чувствует запаха своего тела! Кокона не хочет исчезнуть......
+
+bathEV/begin6
+\c[6]Лона：\C[0]    Запах? Если у тебя нет запаха, ты не станешь как твои друзья.
+\c[4]Кокона：\C[0]    У всех есть запах, когда запах исчезает, он превращается в «хорошего друга», но «друзья» не умеют говорить...
+
+bathEV/begin7
+\c[6]Лона：\C[0]    \..\..\..\..Кажется, я поняла, о чём ты.
+\c[6]Лона：\C[0]    Слушай, ванна не заставит тебя исчезнуть и не превратит тебя в мертве- в смысле... в «Хорошего друга».
+\c[6]Лона：\C[0]    Это не подземелье, тебе больше не нужно пахнуть, чтобы видеть, есть ли кто живой вокруг.
+\c[6]Лона：\C[0]    Все, кого ты видишь - настоящие. Я не оставлю тебя.
+\c[4]Кокона：\C[0]    Угууу *Хнык*... Кокона понимает.
+
+Cocona/RecQuestCocona_9_2
+\CBct[3]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Идём, Кокона, я помогу тебе одеться!
+
+Cocona/RecQuestCocona_9_3
+\CBmp[UniqueCocona,8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Мияу-Мииуу... Кокона чувствует себя странно......
+\CBct[4]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Оу! Оно отлично сидит на тебе! Разве что, малость великовато.
+\CBmp[UniqueCocona,2]\SETlpl[cocona_sad]\PLF\prf\c[4]Кокона：\C[0]    А как же рука Коконы?
+\CBct[2]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Рука? Ты про этот посох?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эта штука выглядит страшно. Если ты хочешь выйти, тебе не стоит махать этой штукой и пугать людей.
+\CBmp[UniqueCocona,6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Но...! Это рука Коконы!
+\CBct[6]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ААА?!\..\..\..\..\..\m[shocked]\plf\Rshake Что?!
+\CBct[20]\m[shocked]\plf\PRF\c[6]Лона：\C[0]   Ты сказала, что этот посох - твоя рука?!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Святой попросил Кокону пожертвовать руку, чтобы у Коконы были хорошие друзья!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оу\..\..\.. Я думаю, нам стоит поговорить об этом с Большой Мамочкой.
+
+Cocona/RecQuestCocona_9_4_1
+\narr \..\..\..\..\..
+\narrOFF\CBmp[TavernWaifu,20]\SETpr[BigMama_normal]\plf\PRF\c[4]Большая Мамочка：\C[0]    Итак, ты говоришь, что Кокона пожертвовала свою руку нежити, чтобы обрести магические силы?
+\CBmp[UniqueCocona,6]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Кокона не понимает, что говорит Большая Мамочка...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оу... То есть, если я тоже что-нибудь пожертвую, то тоже стану магом?
+
+Cocona/RecQuestCocona_9_4_2_IsMage
+\CBmp[TavernWaifu,7]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Мелкая, разве ты уже не маг?
+
+Cocona/RecQuestCocona_9_4_2_NotMage
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Мелкая, с этим рождаются. Обычные люди не смогут стать магами, даже если пожертвуют вообще всё своё тело.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Хорош мечтать, Мелкая. Иди ужинать.
+
+Cocona/RecQuestCocona_9_4_3
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Этот посох - не просто посох, это действительно её рука. Она уже была медиумом, маленькая прелесть уже могла многое.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Я хорошо знаю об этом. Раньше я уже имела дела с такими высокомерными глупцами.
+\CBct[2]\m[bereft]\plf\PRF\c[6]Лона：\C[0]    УФФ! Я не Мелкая!!!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Большая Мамочка? Кокона не понимает, что Большая Мамочка сказала старшей сестрёнке...
+\CamMP[TavernWaifu]\SETpr[BigMama_sad]\BonMP[TavernWaifu,20]\plf\Rshake\c[4]Большая Мамочка：\C[0]    ОУ!~ Моя маленькая прелесть!~ Не волнуйся. Тебе пока не нужно понимать такие вещи.
+\CamMP[TavernWaifu]\SETpr[BigMama_sad]\BonMP[TavernWaifu,20]\plf\Rshake\c[4]Большая Мамочка：\C[0]    Просто знай, что все будут напуганы до смерти, если моя маленькая пельмешка будет разгуливать с этой штукой. Я помогу тебе убрать твою руку.
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Но эт-то р-\..\..\..! -рука Коконы\..\..\..
+\CamCT\BonMP[UniqueCocona,6]\SETlpl[cocona_angry]\PLF\prf\c[4]Кокона：\C[0]    Ладно... Кокона понимает! Кокона будет послушной.
+
+Cocona/RecQuestCocona_9_5
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\m[confused]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Спасибо, Мелкая. Ты молодец.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    А... Это может означать, что вы будете наконец-то звать меня Лоной?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Ха! Нет конечно! Но ты можешь меня звать \C[2]Мэрими\C[0].
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Ох......
+
+################################################################### Shopping ################################################################################# 
+
+Cocona/RecQuestCocona_10_1
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Мэрими：\C[0]    Эй, Мелкая! У меня есть для тебя дельце!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Опять «Мелкая»?... Что такое?
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Возьми с собой \c[6]Кокону\C[0] и сходите на \c[6]Рынок Ноэртауна\C[0], и купите мне продуктов!
+
+Cocona/RecQuestCocona_10_2
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Вот список!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм?
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Заодно научишь Кокону, как в обществе принято заниматься торговлей. Взамен, разок заночуешь у меня бесплатно.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм.... Ладно, без проблем.
+
+Cocona/RecQuestCocona_11_1
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\c[4]Кокона：\C[0]    Старшая сестрёнка ♬
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Идём Кокона, пойдём на рынок!
+\CBid[-1,2]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Рынок?
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Да, Кокона. На рынок!
+\CBid[-1,1]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Рынок!
+
+Cocona/RecQuestCocona_11_2
+\board[Торговля с Коконой]
+Задача：Сходить на рынок с Коконой
+Награда：Ключ номера в Горящем Бочонке х2\i[240]
+Клиент：Мэрими
+Срок выполнения：Нет
+Привести Кокону на Рынок Ноэра и научить её покупать продукты.
+Кокона должна быть с вами, посетить рынок следует в дневное время.
+
+Cocona/RecQuestCocona_11_NotInGroup
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка! Куда мы идём?
+
+Cocona/RecQuestCocona_12_dress
+\CBct[20]\m[pleased]\PRF\c[6]Лона：\C[0]    Знаешь, я последнее время думаю, как бы заработать денег, чтобы я смогла покинуть этот остров.
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Покинуть?! Нененет!!
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Кокона не хочет! Кокона не хочет остаться одна с хорошими друзьями!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Ась?!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Не бойся, старшая сестрёнка не оставит тебя одну!
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Мияу.....
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ....
+
+Cocona/RecQuestCocona_12_vegtable
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Смотри. У одного есть деньги, у другого продукты. Вы меняетесь. Это и называется, торговать!
+\CBct[2]\m[normal]\PRF\c[6]Лона：\C[0]    Кокона, ты ведь умеешь считать?
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Да! Хорошие друзья меня научили!
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    1\..2\..\..3
+\CBfB[20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    4\..5...\..6\...
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    7\...\...9\....\..\..5\....?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эмм.... Трудно считать на пальцах с одной рукой?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Ничего страшного! Я тебя научу, когда мы вернёмся!
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Ууффф....
+
+Cocona/RecQuestCocona_12_medcine
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\c[4]Кокона：\C[0]    Что ты делаешь? Это торговать?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Именно! Давай деньги, а тебе дадут то, что ті покупаешь, и, возможно, сдачу. И получится торговля.
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Деньги? Эти маленькие камушки это деньги?
+\CBct[20]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Правильно!
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Ву-мяу.... Кокона находит это странным...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Хе-хе-х.....
+
+#################################### Missing
+
+Cocona/RecQuestCocona_12_food0
+\CBct[20]\m[pleased]\PRF\c[6]Лона：\C[0]    Будь рядом со мной и не отходи далеко. Нам надо купить всё нужное и вернуться к Большой Мамочке.
+\BonMP[C12Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Дя!
+
+Cocona/RecQuestCocona_12_food0_1
+\ph\narr Лона обсуждает детали покупки с продавцом\..\..\..\..\..
+
+Cocona/RecQuestCocona_12_food1
+\BonMP[C12Cocona,8]\SETlpl[cocona_normal]\PLF\prf\c[4]Кокона：\C[0]    Увии...
+
+Cocona/RecQuestCocona_12_food2
+\BonMP[C12Cocona,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Хихи.......
+
+Cocona/RecQuestCocona_12_food3
+\BonMP[C12Cocona,8]\SETlpl[cocona_sad]\PLF\prf\c[4]Кокона：\C[0]    Ви-иу.....Хихих........
+
+Cocona/RecQuestCocona_12_food4
+\BonMP[C12Priest,20]\BonMP[C12Cocona,1]\c[4]Проповедник：\C[0]    \{Внемлите предостережениям Святого!
+
+Cocona/RecQuestCocona_12_food5
+\BonMP[C12Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка! Смотри! Святой!
+
+Cocona/RecQuestCocona_12_food5_1
+\BonMP[C12Priest,20]\BonMP[C12Cocona,8]\c[4]Проповедник：\C[0]    \{Святой снизойдёт к нам вновь!
+
+Cocona/RecQuestCocona_12_food5_2
+\CBmp[HairCutter,7]\c[4]Парикмахер：\C[0]    Как шумно!
+\CBmp[DressTrader,5]\c[4]Портной：\C[0]    Убирайтесь отсюда! Твой Святой когда-нибудь сотворит настоящее чудо?!
+\CamCT\BonMP[C12Priest,20]\c[4]Проповедник：\C[0]    \{Неверующие! Грешники, верующие в лживых богов! Только Святой - единый верный Бог!
+\CBmp[HairCutter,7]\c[4]Парикмахер：\C[0]    Да ты уже заладил! Смотри вокруг, всё вокруг говорит о том, что нет никакого Святого!
+
+Cocona/RecQuestCocona_12_food6
+\CamCT\BonMP[C12Priest,20]\BonMP[C12Cocona,8]\c[4]Проповедник：\C[0]    \{Вы все грешники! Все грешники будут гореть в аду!
+\BonMP[C12Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая сестрёнка! Идём! Святой уходит!
+
+Cocona/RecQuestCocona_12_food7
+\BonMP[C12Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    \{Старшая сестрёнка! Святой уходит!
+
+Cocona/RecQuestCocona_12_food8
+\BonMP[C12Cocona,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Няя......ооу...
+
+Cocona/RecQuestCocona_12_food8_1
+\narr\..\..\..\..
+
+Cocona/RecQuestCocona_12_food9
+\CBct[20]\m[pleased]\PRF\c[6]Лона：\C[0]    Всё! Я закончила! Давай возвращаться!
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Эм?
+
+Cocona/RecQuestCocona_12_food10
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    \..\..\.. Где...?
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    \{Кокона!
+
+Cocona/RecQuestCocona_12_food11
+\CBct[8]\m[fear]\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[bereft]\Rshake\c[6]Лона：\C[0]    \{\{Кокона!!
+
+Cocona/RecQuestCocona_12_food12
+\CBct[20]\m[sad]\Rshake\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[bereft]\Rshake\c[6]Лона：\C[0]    Мистер! Вы не видели девочку рядом со мной? Она была в форме служанки.
+\CBmp[FoodTrader,7]\prf\c[4]Продавец：\C[0]    Чего? Нет! Уходи, раз ты закончила покупки.
+\CBmp[FoodTrader,5]\prf\c[4]Продавец：\C[0]    Отстань от меня, я занят.
+
+Cocona/RecQuestCocona_12_food12_1
+\CBct[6]\m[sad]\PLF\c[6]Лона：\C[0]    ....
+
+Cocona/RecQuestCocona_12_food12_2
+\CBct[6]\m[sad]\PLF\c[6]Лона：\C[0]    ........
+
+Cocona/RecQuestCocona_12_food12_3
+\CBct[6]\m[sad]\PLF\c[6]Лона：\C[0]    ...........
+\CBmp[FoodTrader,20]\prf\c[4]Продавец：\C[0]    Я кому говорю?! Хорош тут кислород расходовать!
+
+Cocona/RecQuestCocona_12_food13
+\CBct[6]\m[fear]\PLF\c[6]Лона：\C[0]    Что же мне делать.....
+
+#################################### Missing GB2 tavern
+
+Mama/RecQuestCocona_13_1
+\CBct[8]\m[tired]\prf\c[6]Лона：\C[0]    .......
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Ну что, вернулась? Где девочка? Она ведь должна быть с тобой?
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я.... Она...
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона：\C[0]    В общем... на рынке...
+\CBct[20]\m[bereft]\plf\PRF\c[6]Лона：\C[0]    Кокона потерялась!.... Я... Я не смогла её найти...
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\C[0]    ....
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Извините....
+\CBid[-1,8]\SETpl[BigMama_angry]\PLF\prf\c[4]Мэрими：\C[0]    .....
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Ой! Там ведь кричал кто-то!
+\CBid[-1,8]\SETpl[BigMama_angry]\PLF\prf\c[4]Мэрими：\C[0]    ..........
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Ну эти, из Святых! Кокона, наверное, пошла.....
+\CBid[-1,8]\SETpl[BigMama_angry]\PLF\prf\c[4]Мэрими：\C[0]    ..............
+
+Mama/RecQuestCocona_13_3
+\CBid[-1,8]\ph\c[4]Мэрими：\C[0]    .....
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    \{Оохх! Простите!
+
+Mama/RecQuestCocona_13_4
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Простите! Простите! Простите!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Только не убивайте меня! Я всё исправлю! Я её найду! Простите!
+
+Mama/RecQuestCocona_13_5
+\CBid[-1,20]\SETpl[BigMama_angry2]\Lshake\prf\c[4]Мэрими：\C[0]    \{Живо за ней, пока я тебя не придушила!
+
+#################################### Missing GB2 tavern
+
+cocona/RecQuestCocona_14_1
+\BonMP[C14Cocona,20]\SETlpr[cocona_sad]\PRF\c[4]Кокона：\C[0]    *Хнык*....
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\PRF\c[4]Кокона：\C[0]    Где Святой? Где старшая сестрёнка?
+
+cocona/RecQuestCocona_14_2
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\PRF\c[4]Кокона：\C[0]    Сестрёнка... Где ты...
+\BonMP[C14Cocona,20]\SETlpr[cocona_sad]\PRF\c[4]Кокона：\C[0]    Так много людей, Кокона хочет найти старшую сестрёнку!
+
+cocona/RecQuestCocona_14_3
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\c[4]Священник：\C[0]    Потерянное дитя, что ты здесь делаешь?
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Кокона：\C[0]    Святой!
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Боюсь, я не Святой. Я лишь служащий верующий, как и многие другие.
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Кокона：\C[0]    Вы Святой! Вы тот, к кому Кокону привел священник!
+\BonMP[C14Cocona,4]\SETlpr[cocona_happy]\plf\PRF\c[4]Кокона：\C[0]    Кокона наконец-то нашла Святого!
+\BonMP[MainPriest,8]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    ......
+\BonMP[MainPriest,8]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Пойдём, грешное дитя.
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Кокона：\C[0]    Кокона грешная?
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Да, я чувствую твои грехи за тысячу миль отсюда!
+\BonMP[C14Cocona,20]\SETlpr[cocona_sad]\plf\PRF\c[4]Кокона：\C[0]    .....Кокона злая? Кокона лгунья?
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Пойдём, Святые помогут очистить твои грехи!
+\BonMP[C14Cocona,20]\SETlpr[cocona_happy]\plf\PRF\c[4]Кокона：\C[0]    Да, хорошо!
+
+#################################### Missing HEV
+
+cocona/RecQuestCocona_15_0_0
+\narr\..\..\..
+
+cocona/RecQuestCocona_15_0_1
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\c[4]Священник：\C[0]    Великое зло! Изыди! Отпусти это невинное юное дитя!
+\BonMP[C15Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Кокона：\C[0]    Святой! Вау!
+
+cocona/RecQuestCocona_15_0_2
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\c[4]Священник：\C[0]    Бедная невинная девочка! Я изгоню из тебя зло Моим Святым Телом!
+\BonMP[C15Cocona,4]\SETlpr[cocona_happy]\plf\PRF\c[4]Кокона：\C[0]    Да! Святой!
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Может быть больно, но Святые знают, что ты хорошая девочка, и ты сможешь принять боль!
+\BonMP[C15Cocona,6]\SETlpr[cocona_sad]\plf\PRF\c[4]Кокона：\C[0]    Ауу\..\..\.. Боль?
+\BonMP[C15Cocona,5]\SETlpr[cocona_angry]\plf\PRF\c[4]Кокона：\C[0]    Кокона справится! Кокона сможет с-стерпеть! Кокона не боится!
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Ты молодец, малышка!
+
+cocona/RecQuestCocona_15_0_3
+\BonMP[C15Cocona,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    \{Что?!
+\BonMP[C15Cocona,20]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    \{Святой?
+
+cocona/RecQuestCocona_15_0_4
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Дитя! Не бойся! Я прогоню зло прочь из твоего тела!
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Священник：\C[0]    Прими это!
+\BonMP[C15Cocona,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Хорошо! Кокона примет это!
+
+############################################################################################################ HEV
+
+cocona/RecQuestCocona_HEV_0
+\c[6]Священник：\C[0]    Дитя моё, твоя писечка ещё чиста?
+\c[4]Кокона：\C[0]    Пи.. Писечка? Чиста?
+\c[6]Священник：\C[0]    Через твою писечку проходит чистое зло. Раздвинь, чтобы Святые могли тебя изучить.
+\c[4]Кокона：\C[0]    Оуу-Мияу\..\..\..
+
+cocona/RecQuestCocona_HEV_1
+\c[6]Священник：\C[0]    \{Как не хорошо!
+\c[6]Священник：\C[0]    Эта тонкая пленка не дает греху выбраться! Твои грехи не могут выйти оттуда!
+\c[4]Кокона：\C[0]    \{Чиво..?!
+\c[6]Священник：\C[0]    Не волнуйся, Святые помогут тебе!
+\narr\...\...\...\...
+
+cocona/RecQuestCocona_HEV_2
+\c[6]Священник：\C[0]    Всё так, как я и думал. Твоя маленькая писечка должна быть растянута, чтобы зло смогло выйти.
+
+cocona/RecQuestCocona_HEV_3
+\c[4]Кокона：\C[0]    Миу....
+
+cocona/RecQuestCocona_HEV_3_1
+\c[4]Кокона：\C[0]    Мама говорила, мою писечку может видеть только очень важный для меня человек...
+
+cocona/RecQuestCocona_HEV_4
+\c[6]Священник：\C[0]    Я есть голос Святых, дитя. Я - крайне важный человек для тебя.
+
+cocona/RecQuestCocona_HEV_5
+\c[4]Кокона：\C[0]    Миу.... Кокона думает, что это неправильно.
+
+cocona/RecQuestCocona_HEV_6
+\c[6]Священник：\C[0]    Ты не веришь в Святых? Дитя, неужели ты хочешь оставить грехи внутри себя?
+
+cocona/RecQuestCocona_HEV_7
+\c[4]Кокона：\C[0]    Миу... Кокона не знает...
+
+cocona/RecQuestCocona_HEV_8
+\c[6]Священник：\C[0]    Не волнуйся, превысший Отец очистит зло при помощи этой святой реликвии.
+\c[6]Священник：\C[0]    Гляди. Моя святая реликвия уже сильно набухла, так как ощущает твои грехи.
+
+cocona/RecQuestCocona_HEV_9
+\c[6]Священник：\C[0]    А теперь, мне надо взять своё святое масло, специальное, чтобы святая реликвия хорошо работала.
+
+cocona/RecQuestCocona_HEV_10
+\c[6]Священник：\C[0]    Не сопротивляйся, дитя. Дай Святым очистить тебя от зла.
+
+cocona/RecQuestCocona_HEV_11
+\c[4]Кокона：\C[0]    Миук....
+
+cocona/RecQuestCocona_HEV2_1
+\c[4]Кокона：\C[0]    \..\..\.. А больно будет?
+\c[4]Кокона：\C[0]    Кокона боится боли...
+\c[6]Священник：\C[0]    Ты не сможешь очиститься от греха, если не стерпишь боль!
+\c[4]Кокона：\C[0]    Миу....
+\c[4]Кокона：\C[0]    Кокона просит прощения... Кокона примет очищение...
+\c[6]Священник：\C[0]    Хорошая девочка.
+
+cocona/RecQuestCocona_HEV2_2
+\Rflash\SndLib[sound_punch_hit]\cg[event_VirginTaken]\c[4]Кокона：\C[0]    \{Больно! Ай, больно!
+\Rflash\SndLib[sound_chcg_full]\c[6]Священник：\C[0]    Куда это ты собралась?!
+
+cocona/RecQuestCocona_HEV2_3
+\Rflash\SndLib[sound_whoosh]\c[4]Кокона：\C[0]    \{Кокона просит прощения! Перестаньте!
+\Rflash\SndLib[sound_punch_hit]\c[6]Священник：\C[0]    Иди сюда!
+
+cocona/RecQuestCocona_HEV2_4
+\Rflash\SndLib[sound_whoosh]\c[4]Кокона：\C[0]    \{Ааайй! Неетт!!!
+\Rflash\SndLib[sys_equip]\c[6]Священник：\C[0]    Ага! Поймал!
+\Rflash\SndLib[sound_whoosh]\SndLib[sound_punch_hit]\c[4]Кокона：\C[0]    \{Ай Неет Нееет!! Кокона не хочет!
+
+cocona/RecQuestCocona_HEV3_1
+\c[6]Священник：\C[0]    \{Ухх! Вау! Какая узенькая!
+\c[6]Священник：\C[0]    \{Обожаю девственные писечки грешниц! Как же хорошо!
+
+cocona/RecQuestCocona_HEV3_2
+\c[4]Кокона：\C[0]    \{Аайй! Больно!
+
+cocona/RecQuestCocona_HEV3_3
+\c[4]Кокона：\C[0]    \{Мне больно! Я не хочу!
+
+cocona/RecQuestCocona_HEV3_4
+\c[6]Священник：\C[0]    \{О да, сука!\} Хватит сопротивляться! Ты ещё не очищена!
+
+cocona/RecQuestCocona_HEV3_5
+\c[4]Кокона：\C[0]    \{Кокона просит прощения! Простите Кокону!
+
+cocona/RecQuestCocona_HEV3_6
+\c[6]Священник：\C[0]    Я уже скоро начну изгнание! Изгнание, это самая важная часть обряда очищения!
+
+cocona/RecQuestCocona_HEV3_7
+\c[6]Священник：\C[0]    Дай мне хорошенько изгнать твой грех! После очищения ты перестанешь быть грешной!
+
+cocona/RecQuestCocona_HEV3_8
+\c[4]Кокона：\C[0]    \{Ооооооххх...
+
+#################################
+
+cocona/RecQuestCocona_HEV3_Roar0
+\c[6]Священник：\C[0]    \{Уухх!\} Шикарно!
+
+cocona/RecQuestCocona_HEV3_Roar1
+\c[6]Священник：\C[0]    \{Твоя пиздёнка до краёв заполнена грехами!
+
+cocona/RecQuestCocona_HEV3_Roar2
+\c[4]Кокона：\C[0]    \{Ооохххх...
+
+cocona/RecQuestCocona_HEV3_Roar3
+\c[4]Кокона：\C[0]    \{Я хочу к старшей сестрёнке!
+
+cocona/RecQuestCocona_HEV3_Roar4
+\c[4]Кокона：\C[0]    \{Я хочу к большой маме!
+
+cocona/RecQuestCocona_HEV3_Roar5
+\c[4]Кокона：\C[0]    \{Коконе больно!
+
+#################################
+
+cocona/RecQuestCocona_HEV3_9
+\c[6]Священник：\C[0]    Что ты чувствуешь, дитя? Ты чувствуешь, как моя святая реликвия очищает тебя от греха и зла?
+
+cocona/RecQuestCocona_HEV3_10
+\c[6]Священник：\C[0]    Только эта реликвия способна изгнать такое сильное зло!
+
+cocona/RecQuestCocona_HEV3_11
+\c[4]Кокона：\C[0]    \{Уооойй\} Что-то выходит!!
+
+cocona/RecQuestCocona_HEV3_12
+\c[4]Кокона：\C[0]    \{Сейчас выйдет! Я кажется, сейчас описаюсь!
+
+cocona/RecQuestCocona_HEV3_13
+\c[6]Священник：\C[0]    \{Да! Не сопротивляйся, выпусти его!
+
+cocona/RecQuestCocona_HEV3_14
+\c[6]Священник：\C[0]    \{Это твой грех!
+
+cocona/RecQuestCocona_HEV3_15
+\c[6]Священник：\C[0]    \{Высвободи его!
+
+################################# Cuming
+
+cocona/RecQuestCocona_HEV3_16
+\c[4]Кокона：\C[0]    \{\{Ох Аах ах ах ах Ох!
+
+cocona/RecQuestCocona_HEV3_17
+\c[4]Кокона：\C[0]    \{\{Ууу Аах Ааахх!
+
+cocona/RecQuestCocona_HEV3_18
+\c[6]Священник：\C[0]    \{Охуенно.. Мне кажется, или..?!
+
+cocona/RecQuestCocona_HEV3_19
+\c[4]Кокона：\C[0]    \{Йиияй аах АААхх!
+
+cocona/RecQuestCocona_HEV3_20
+\c[6]Священник：\C[0]    Её вагина словно сосёт мою головку!
+
+cocona/RecQuestCocona_HEV3_21
+\c[6]Священник：\C[0]    Мм! Я тоже кончаю! Давай вместе! Прими своим телом святую воду господню!
+
+cocona/RecQuestCocona_HEV3_22
+\c[6]Священник：\C[0]    \{Ох, ах, ох, ох!! Вот оно!
+
+cocona/RecQuestCocona_HEV3_23
+\c[6]Священник：\C[0]    \{Уууаааххххх-мммм!!!!
+
+cocona/RecQuestCocona_HEV3_24
+\c[6]Священник：\C[0]    \{\{Аахх О да, сучка!
+
+cocona/RecQuestCocona_HEV3_25
+\c[6]Священник：\C[0]    \{Как же, блять, хорошо!
+
+cocona/RecQuestCocona_HEV3_26
+\c[6]Священник：\C[0]    \{Эта девочка невероятно грешная!
+
+cocona/RecQuestCocona_HEV3_27
+\c[6]Священник：\C[0]    Эта мелкая пизда потеряла сознание? Я, наверное, переборщил с ней? Что же мне сделать с этой пиздёнкой?
+
+cocona/RecQuestCocona_HEV4_END
+\c[6]Священник：\C[0]    Она инвалид, совсем худощавая, а, что ещё хуже она смешанной расы. За неё мне точно не заплатят много.
+\c[6]Священник：\C[0]    Ну, её хотя бы очень приятно ебать. Может, пригодится в роли дырки для ебли. Но сколько эта малявка сможет прослужить?\..\..\..
+\c[6]Священник：\C[0]    Что же с ней сделать?
+\narr\...\...\...
+
+############################################################################################################
+
+cocona/RecQuestCocona_15_1_1
+Дверь не заперта. \optD[Открыть осторожно,Обратить внимание на ворсинки в своём пупке]
+
+cocona/RecQuestCocona_15_1_2
+Нет, дверь правда не заперта. \optD[Незаметно пройти,Вытащить комок из пупочка]
+
+cocona/RecQuestCocona_15_1_3
+Лона полностью уверена, что дверь не заперта, и она может легко оказаться внутри. \optD[Пройти в дверь,Изучить комочек из пупка получше]
+
+cocona/RecQuestCocona_15_1_4
+.....\optD[Открыть дверь]
+
+cocona/RecQuestCocona_15_end
+\CBct[1]\m[shocked]\PRF\c[6]Лона：\C[0]    Это Кокона!
+
+#################################### 16 get cocona again
+
+cocona/RecQuestCocona_16_0
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    Кокона! Я наконец-то нашла тебя!
+\CBmp[C15Cocona,8]\prf\c[4]Кокона：\C[0]    Уухх......
+\CBct[20]\m[shocked]\PRF\c[6]Лона：\C[0]    Давай я сначала тебя одену!
+
+cocona/RecQuestCocona_16_1
+\CBct[20]\m[serious]\Rshake\c[6]Лона：\C[0]    Этот священник...?
+
+cocona/RecQuestCocona_16_2_NoLost
+\CBmp[C15Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Сестрёнка! Кокона просит прощения! Кокона не хотела убегать!
+\CBct[6]\m[angry]\plf\PRF\c[6]Лона：\C[0]    Ты в порядке?
+\CBmp[C15Cocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Святой сделал мне больно! Почему?!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона ：\C[0]    Что?! Святой? Ты про того священника?
+\CBmp[C15Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Это всё Святой! Святой хотел изгнать зло из Коконы!
+\CBct[20]\m[angry]\plf\PRF\c[6]Лона：\C[0]    Он не Святой! Это просто священник!
+\CBct[20]\m[angry]\plf\PRF\c[6]Лона：\C[0]    И он тебя совсем не очищал! Он хотел просто... Сделать тебе больно!
+\CBmp[C15Cocona,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Что? Больно? Священник? Кокона не понимает.
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Слушай, это ПЛОХОЙ человек, он ЛЖЕЦ, и он хотел отнять твою девственность!
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Он хотел сделать больно Коконе! Хотел издеваться над Коконой! Это... это плохо!
+\CBmp[C15Cocona,8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Ч..чего? Он лжец? Он не Святой!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Да!
+
+cocona/RecQuestCocona_16_2_Lost
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Оох... Сестрёнка.... Кокона просит прощения.... Кокона не должна была убегать....
+\CBct[6]\m[angry]\plf\PRF\c[6]Лона：\C[0]    Ты в порядке?
+\cg[event_miscarriage_low]\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    У Коконы болит писечка.... Коконе больно...
+\CBct[2]\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Ч-Что?! Чёрт, это плохо! Тебя сильно травмировали! У тебя кровь!
+\CBct[2]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Ты можешь встать?
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Да... Прости... Кокона извиняется перед сестрёнкой....
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Аай... Святой... Хотел очистить грехи Коконы....
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Но Коконе больно... Кокона не хорошая девочка....
+\cgoff\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Чего?! Святой? Ты про того священника?
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Слушай, это ПЛОХОЙ человек, он ЛЖЕЦ, и он хотел отнять твою девственность!
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Лжец? Девственность?
+\CBct[20]\m[angry]\plf\PRF\c[6]Лона：\C[0]    Её нужно.... \optD[Сохранить для важного человека,это особое сокровище<r=HiddenOPT0>]
+
+cocona/RecQuestCocona_16_2_LostAns_pure
+\CBct[20]\m[angry]\plf\Rshake\c[6]Лона：\C[0] Девственность - это то, что женщина хранит для самого важного человека, но лжец отнял его у тебя!
+
+cocona/RecQuestCocona_16_2_LostAns_NoPure
+\CBct[20]\m[angry]\plf\Rshake\c[6]Лона：\C[0] Девственность - самое дорогое для женщины. Кокона должна использовать её, чтобы обменять на сокровище, которое она больше всего хочет. Её не должны отнимать лжецы!
+
+cocona/RecQuestCocona_16_2_LostAns_end
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    У меня отобрали моё сокровище...?
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Да!
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Коконе так жаль.... Хнык...
+\CBct[20]\m[flirty]\plf\Rshake\c[6]Лона：\C[0]    Ладно уж... Всё нормально, не плачь. Плохие вещи... иногда случаются.
+
+cocona/RecQuestCocona_16_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Нам надо найти выход и уходить отсюда!
+
+cocona/RecQuestCocona_16_4
+\board[Сбежать из Монастыря]
+Задача：Сбежать с Коконой
+Условия：Нет
+Покиньте эту местность, Кокона должна быть с вами в команде.
+Вы можете использовать помощь «Хороших Друзей» Коконы.
+При помощи клавиши «Действия» вы можете двигать их вперёд.
+
+cocona/RecQuestCocona_16_ExitQmsg
+Кокона должна быть спасена.
+
+#################################### 1F begin
+
+cocona/RecQuestCocona_17_gb2_1f
+\m[serious]\plf\PRF\c[6]Лона：\C[0]    Тсс... Не издавай ни звука...
+\SETpl[AnonFemale]\Lshake\C[4]Верующие：\C[0]    Кто-нибудь узнал её? Отправляйтесь к страже и сообщите об этом преступлении!
+\SETpr[AnonMale2]\plf\Rshake\C[4]Верующие：\C[0]    Внимание! Убить плоскогрудую грешницу!
+\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Что? Плоскогрудую!?
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Грешницу? Они говорят про Кокону? Кокона и сестрёнка - грешницы?
+\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Нет! Конечно нет! Они лжецы! Сестрёнка защитит Кокону!
+\m[angry]\plf\Rshake\c[6]Лона：\C[0]    Здесь никому нельзя доверять! Они все с удовольствием тебя обманут!
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Они лжецы?
+\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Да!
+\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Кокона верит сестрёнке! Кокона будет драться со лжецами!
+\m[pleased]\plf\Rshake\c[6]Лона：\C[0]    Правильно, умница!
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    А что такое плоскогрудая? Они так про тебя?
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ......
+
+cocona/RecQuestCocona_17_gb2_1f_noVag
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кокона, ты в порядке? Тебе больно?
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    *Хнык*... Болит! Но Кокона выдержит!
+\m[tired]\plf\PRF\c[6]Лона：\C[0]    Извини...
+\m[tired]\plf\PRF\c[6]Лона：\C[0]    Сестрёнка вытащит тебя отсюда!
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    *Хнык*...
+
+cocona/RecQuestCocona_18_hall0
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\c[4]Верующий：\C[0]    Слушайте! Эти грешницы хотят лишить нас наших гладеньких грешных попочек!
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\c[4]Верующий：\C[0]    Не позволяйте грешницам, верующих в лживых богов, оставаться в живых!
+\CBmp[Idiot1,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Солдаты-монахи：\C[0]    Да! Уничтожить грешниц! Во славу Святых!
+\CBmp[Idiot2,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Солдаты-монахи：\C[0]    Во славу Святых!
+\CBmp[Idiot3,20]\SETpr[AnonMale2]\plf\Rshake\c[4]Солдаты-монахи：\C[0]    Святой дал клятву! Скоро мы получим столько юных грешных попочек, сколько захотим!
+\CBmp[Idiot4,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Солдаты-монахи：\C[0]    Сочные маленькие грешницы! У меня твердеет внизу!
+\CBmp[Idiot3,20]\SETpr[AnonMale2]\plf\Rshake\c[4]Солдаты-монахи：\C[0]    Я не хочу попочку! Я хочу трахать грешные писечки!
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Верующий：\C[0]    Заткнитесь на хрен, придурки! Очисти лжецов!
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Верующий：\C[0]    Вас ждет награда от Святого и многое другое!
+
+cocona/RecQuestCocona_18_hall1
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Ох, это плохо! Их слишком много!
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Кажется, нас они не отпустят живыми, что же нам делать...
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Эй! Не бойся, сестрёнка! Кокона защитит сестрёнку!
+\CBct[3]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Спасибо ♥
+
+cocona/RecQuestCocona_18_hall2
+\CBmp[TavernWaifu,20]\prf\c[4]Неизвестная：\C[0]    Эй! Соплячка!
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Эм\..\..\.. \m[shocked]\Rshake Что...?!
+\CBmp[TavernWaifu,20]\prf\c[4]Неизвестная：\C[0]    Сюда!
+
+cocona/RecQuestCocona_18_hall3
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Эй, чёртова соплячка, ты нашла девчонку?
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Большая Мамочка?!
+\CBfB[4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Большая Мамочка ♥
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Как вы узнали, что Кокона здесь?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    А ты думала я тебя не найду, тварь такая, после того, как ты потеряла девочку?
+\CBct[8]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Нет! Не убивайте меня!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Позже это обсудим, сейчас куда важнее...
+
+cocona/RecQuestCocona_18_hall4
+\SETlpr[cocona_shocked]\Rshake\c[4]Кокона：\C[0]    Мамочка, осторожно!
+\CBmp[TavernWaifu,7]\SETpl[BigMama_angry]\Lshake\c[4]Мэрими：\C[0]    Блять!
+\SETpr[Mfat_tortruer]\plf\Rshake\c[4]Верующий：\C[0]    Стоять! Прекратить огонь!
+\SETpr[Mfat_tortruer]\plf\Rshake\c[4]Верующий：\C[0]    Какая тварь выстрелила?! Вы что, хотите уничтожить священную статую нашего Святого?
+
+cocona/RecQuestCocona_18_hall5
+\CBct[20]\m[shocked]\PRF\c[6]Лона：\C[0]    Ух!
+\CBmp[TavernWaifu,7]\SETpl[BigMama_angry]\Lshake\c[4]Мэрими：\C[0]    Черт! У меня спина болит!
+
+cocona/RecQuestCocona_18_hall6_1
+\CBfB[6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Большая Мамочка ранена?
+\CBmp[TavernWaifu,7]\SETpl[BigMama_sad]\Lshake\prf\c[4]Мэрими：\C[0]    Прелесть моя, мама в порядке, мама просто уже старенькая.
+
+cocona/RecQuestCocona_18_hall6_2
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ну... И...
+\CBmp[TavernWaifu,5]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Чёрт! Взяла бы снаряжение знай я, к чему приведёт.
+\CBct[6]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что нам теперь делать? Нас будут разыскивать.
+\CBmp[StartPoint,19]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Закрой рот! Сначала нужно пробится отсюда!
+\CBmp[TavernWaifu,5]\SETpl[BigMama_angry2]\Lshake\prf\c[4]Мэрими：\C[0]    Я постараюсь во всём разобраться, а ты больше не смей терять девочку!
+\CBct[20]\SETpl[nil]\m[bereft]\plf\PRF\c[6]Лона：\C[0]    Да, мам!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Мэрими：\C[0]    Скажи как будешь готова, тогда мы выскочим и устроим этим Святым придуркам сюрприз!
+
+cocona/RecQuestCocona_18_hall7
+\board[Сбежать из Монастыря]
+Задача：Сбежать с Коконой
+Условия：Нет
+Выведите Кокону из монастыря.
+Сообщите Большой Мамочке о готовности!
+
+cocona/RecQuestCocona_18_MaMaCharge
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Мэрими：\C[0]    Слушай! Их слишком много, мне нужна твоя помощь, чтобы выбраться.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Что мне сделать?
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Мэрими：\C[0]    Что угодно! Делай, что считаешь нужным!
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    ...Я могу постараться взять их на себя, но я не могу обещать, что справлюсь со всеми. \optB[Другой способ,Драться,]
+
+cocona/RecQuestCocona_18_MaMaCharge_wait
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Но это очень опасно! Я лучше найду другой способ.
+
+cocona/RecQuestCocona_18_MaMaCharge_go
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ладно! Дадим им бой!
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Мэрими：\C[0]    \{СДОХНИТЕ, УБЛЮДКИ!
+
+cocona/RecQuestCocona_18_MaMaCharge_end
+\CBmp[StartPoint,19]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Держитесь позади и не отставайте!
+
+cocona/RecQuestCocona_19_escape0
+\m[serious]\plf\PRF\c[6]Лона：\C[0]    Мы ужасно рисковали! Они ещё преследуют нас?
+
+cocona/RecQuestCocona_19_escape0_mamaQ0
+\cg[map_scroll]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Эй Мелкая, возьми!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Аа?!
+
+cocona/RecQuestCocona_19_escape0_mamaQ1
+\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Тебя разыскивают. Вот тебе поддельные документы. Так ты хоть сможешь пройти ворота Ноэра.
+\CBct[20]\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Че-чего?!
+\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Бери, говорю! Или ты хочешь больше никогда не оказаться в городе?!
+\cgoff\CBct[20]\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Да, Мамочка! То есть, нет, Мамочка! То есть... Я возьму, спасибо.
+
+cocona/RecQuestCocona_19_escape1
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Сестрёнка... Прости... Кокона устала...
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Всё хорошо, мы уже возвращаемся в таверну.
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Хорошо!
+
+cocona/RecQuestCocona_19_escape2
+\board[Вернуться в Ноэртаун]
+Задача：Безопасно вернуться в таверну с Коконой
+Условия：Нет
+Вернитесь с Коконой в таверну в Ноэре.
+
+cocona/RecQuestCocona_20
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Мы вернулись!
+\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Да! Ты дома!
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Сестрёнка\..\..\..
+\m[normal]\plf\PRF\c[6]Лона：\C[0]    Что такое?
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Кокона не должна была убегать, Коконе очень стыдно.
+\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Всё в порядке. Просто не забывай, в следующий раз, и никогда не уходи от меня ни на шаг.
+\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Хорошо! Пойдём внутрь!
+
+cocona/RecQuestCocona_21_1
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Мэрими：\C[0]    Иди сюда!
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Да...
+
+cocona/RecQuestCocona_21_2
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\c[4]Мэрими：\C[0]    Ты что, не знала, что снаружи очень опасно? Найти пропавшего ребёнка здесь почти невозможно!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Простите меня! Я буду более внимательной в следующий раз!
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Мэрими：\C[0]    СЛЕДУЮЩИЙ РАЗ? Следующего раза не будет! Коконе не нужна такая безалаберная прошмандовка!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Простите.....
+
+cocona/RecQuestCocona_21_3
+\CBmp[UniqueCocona,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Кокона больше не может быть с сестрёнкой? Не отбирайте сестрёнку у Коконы!
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Мэрими：\C[0]    Маленькая прелесть, ты так добра со всеми, но мама хочет чтобы тебе было как можно лучше!
+\CBmp[UniqueCocona,5]\SETlpr[cocona_angry]\plf\PRF\c[4]Кокона：\C[0]    Нет! Кокона не хочет так! Кокона хочет свою сестрёнку!
+\CBid[-1,8]\ph\c[4]Мэрими：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Мэрими：\C[0]    Кокона, ты что не любишь маму? Почему ты не слушаешься мамочку?
+\CBmp[UniqueCocona,5]\SETlpr[cocona_shocked]\plf\PRF\c[4]Кокона：\C[0]    ХССС! Кокона хочет сестрёнку... И Большую Мамочку тоже хочет!
+\CBid[-1,8]\ph\c[4]Мэрими：\C[0]    \..\..\..
+
+cocona/RecQuestCocona_21_4
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    *Вздох* Ладно, хрен с ним. Но это был последний раз!
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Я прощаю тебя. Но сейчас, брысь с глаз моих!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ох \..\..\.. \m[pleased]    Спасибо, мам!
+\CBmp[UniqueCocona,4]\SETlpl[cocona_happy]\PRF\prf\c[4]Кокона：\C[0]    Мияу!~ ♥
+
+######################################################################## Dual arena begin
+
+cocona/RecQuestCocona_22to23_1OPT
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Мэрими：\C[0]    О! Лона.
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Мэрими：\C[0]    Слышала, ты уезжаешь с острова. Это правда? \optB[Нет,Да]
+
+cocona/RecQuestCocona_22to23_yes0
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Да, так и есть. Уезжаю при первой возможности.
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Цены на билеты сейчас заоблачные. У тебя есть план, как их себе позволить?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ну... Как бы да.
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Понятно. Думаю, у вас, чужаков, все-таки есть немного настойчивости.
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Не забудь хотя бы сказать об этом моей дочери. Ты очень нравишься девочке.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Извините? «Дочери»?
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Да, я решила удочерить Кокону.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    О\..\..\..Да?!
+\CBct[20]\m[pleased]\plf\Rshake\c[6]Лона：\C[0]    Это прекрасно!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А вы? Правда собираетесь остаться? Как по мне, будущего тут нет.
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Ноэртаун - мой дом. Кроме того, неужели какие-то монстры или что-то ещё может быть круче меня?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Что сказать... Туше...
+\CBid[-1,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    \..\..\..
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+
+cocona/RecQuestCocona_22to23_yes1
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Ну так что, ты собираешься сказать?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    А? Кому?
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Пфф! Будто я и не спрашивала!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+
+cocona/RecQuestCocona_22to23_yes2
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ......
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Просто уйти, вот так, не попрощавшись?
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    А разозлится ли Кокона, когда я ей скажу?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ......
+
+cocona/RecQuestCocona_22to23_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Пока нет.
+\CBid[-1,2]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    М?
+
+cocona/RecQuestCocona_23to24_OPT
+Я уезжаю
+
+cocona/RecQuestCocona_23to24_1
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Угу\..\..\..
+\CBid[-1,8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Ву мяу....?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ммм... Не знаю, как ещё сказать\..\..\..
+\CBct[6]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я давно планировала уехать отсюда.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Так что я здесь, чтобы попрощаться\..\..\..\..
+\CBid[-1,8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    \{НЕТ!
+
+cocona/RecQuestCocona_23to24_2
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Да?!
+\CBid[-1,8]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Кокона не хочет!
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Но я...
+\CBid[-1,8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая говорила, что никогда не оставит Кокону!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Я\..\..\.. Прости\..\..\..
+\CBid[-1,8]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    \{ХССССсссс!!
+
+cocona/RecQuestCocona_23to24_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Знаешь... Мы могли бы уехать вместе. Что скажешь?
+\CBid[-1,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Вместе\..\..\..? Уехать\..\..\..?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Ну как? Пойдём с сестрёнкой?
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    !!!!
+\CBid[-1,8]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    \..\..\..
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    А что с Большой Мамой?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ых...
+
+cocona/RecQuestCocona_23to24_4
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Повтори? Что ты хочешь?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    М...
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Я хочу забрать Кокону с собой. Остров обречён, как ни посмотри.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Я её тут не оставлю.
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Что же...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Да...?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Молодец! Я ждала, что ты это скажешь.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Ха?!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    После переплёта с последователями Святых ты действительно думаешь, что я разрешу ей поехать с тобой?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Хочешь забрать её? Хорошо, но ты должна доказать, что способна защитить её!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Я....
+
+cocona/RecQuestCocona_23to24_5
+\CBid[-1,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Большая Мама не с сестрой?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Мэрими：\C[0]    Остров Ноэр слишком мал, милая. Большая Мама надеется, что вы сможете отправиться в другие части света.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Мэрими：\C[0]    Малютка, этот мир очень велик. Ты заслуживаешь увидеть его во всей красе.
+\CBid[-1,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Кокона：\C[0]    Ву мяу....
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Конечно, если Лона не сможет проявить себя, ты можешь остаться здесь.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    .....
+\CBid[-1,8]\SETlpr[cocona_sad]\plf\Rshake\c[4]Кокона：\C[0]    Ву мяу....
+\CBid[-1,5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона：\C[0]    Разве все не могут быть вместе?
+\CBid[-1,2]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Лона - как отец, Большая Мама - как мама? Счастливы вместе?
+
+
+cocona/RecQuestCocona_23to24_6
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Итак... Каково же ваше требование?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Сразись со мной, Лона. Выйди против меня, один на один, и победи.
+
+cocona/RecQuestCocona_23to24_7
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    а... победить\..\..\..\m[shocked]\Rshake\{ВАС?!
+
+cocona/RecQuestCocona_23to24_8
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Перед этим подготовь деньги на билет для Коконы, двадцать золотых, а я заплачу за остальное.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Скажешь, когда будешь готова.
+
+cocona/RecQuestCocona_23to24_8_1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Погодите минутку!!! Вы что, издеваетесь?!
+
+cocona/RecQuestCocona_23to24_9
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Двадцать золотых?  Бой с Мамочкой?! Нет, вы правда издеваетесь?
+\CBid[-1,8]\SETlpr[cocona_confused]\plf\Rshake\c[4]Кокона：\C[0]    Бои? Золотых? Ня мяу....?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ох...Так или иначе... Если хотим ухать вместе, твоей старшей сестре потребуется для начала заработать ещё одно небольшое состояние.
+\CBid[-1,2]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Зарабатывать деньги!Кокона может помочь?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оставь это сестрёнке. Это большая сумма, зарабатывать её придётся точно не здесь.
+
+cocona/RecQuestCocona_23to24_10_Cocona_whore
+\CBid[-1,8]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона：\C[0]    Кокона тоже может зарабатывать! Старшая сестрёнка говорила!Про девственность .
+\CBid[-1,8]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона：\C[0]    Девственность можно обменять на сокровища! Кокона хочет обменять свою девственность на большую гору денег!
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Чего?\..\..\..\m[shocked]\Rshake\{Стоп, ЧЕГО??!!
+
+cocona/RecQuestCocona_23to24_10_Cocona_virgin
+\CBid[-1,8]\SETlpr[cocona_sad]\plf\Rshake\c[4]Кокона：\C[0]    Ву-мяу....
+
+cocona/RecQuestCocona_23to24_EndBRD
+\board[Поединок с Мэрими]
+Задача：Подготовив 20 Золотых Монет, поговорить с \c[4]Мэрими\C[0] в \c[6]Горящем бочонке\C[0]
+Награда：Нет
+Клиент：Мэрими
+Чтобы вытащить отсюда Кокону, нужно иметь 20 Золотых Монет и провести дуэль с Большой Мамочкой?
+Да вы шутите.....
+
+Cocona/RecQuestCocona24_Common0
+\CBid[-1,6]\SETlpl[cocona_sad]\c[4]Кокона：\C[0]    Разве Большая Мама не может пойти вместе с?..
+
+Cocona/RecQuestCocona24_Common1
+\CBid[-1,6]\SETlpl[cocona_sad]\c[4]Кокона：\C[0]    Кокона не знает, что делать...
+
+Cocona/RecQuestCocona24_Common2
+\CBid[-1,6]\SETlpl[cocona_sad]\c[4]Кокона：\C[0]    Ву, ву мяу....
+
+Cocona/OPT_20g
+20 Золотых Монет
+
+Cocona/RecQuestCocona24to25_0
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Ну всё... Деньги на бочке.
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Хм! Ты смогла?
+
+Cocona/RecQuestCocona24to25_1
+\CBct[6]\m[flirty]\PRF\plf\c[6]Лона：\C[0]    Эти... Эти деньги для Коконы, ведь так?
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Всё так, не волнуйся. И малютку тоже позови сюда.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А?
+
+Cocona/RecQuestCocona24to25_2
+\CBmp[UniqueCocona,2]\SETlpr[cocona_confused]\c[4]Кокона：\C[0]    Мяу....?
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prh\c[4]Мэрими：\C[0]    Сначала я отведу девочку в порт, а ты пока можешь подождать меня на \c[6]Арене\C[0], \c[4]на городской площади Ноэртауна\C[0].
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prh\c[4]Мэрими：\C[0]    Как только я закончу, настанет час нашей дуэли.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    В смысле\..\..\.. Сегодня? Погодите минутку, вы хотите сделать это уже сегодня? Сейчас?!
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Верно, сегодня. Подожди меня.
+
+Cocona/RecQuestCocona24to25_2_1
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\c[4]Мэрими：\C[0]    Хей! Мальчики! Сегодня намечается добротное представление! Предлагаю прийти, заценить...
+
+Cocona/RecQuestCocona24to25_2_2
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Мэрими：\C[0]    Эта девчонка собирается бросить мне вызов!
+
+Cocona/RecQuestCocona24to25_2_3
+\CBmp[Anon1,20]\ph\c[4]Пьяница：\C[0]    Чего?!
+\CBmp[Anon2,20]\ph\c[4]Пьяница：\C[0]    Да ладно?
+\CBmp[Anon3,20]\ph\c[4]Пьяница：\C[0]    Вот эта коротышка?
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\c[4]Мэрими：\C[0]    Все, кто хочет увидеть шоу - добро пожаловать на арену!
+
+Cocona/RecQuestCocona24to25_2_4
+\CBmp[UniqueCocona,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Кокона：\C[0]    Неужели Большая Мама запугивает сестру?
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Всё хорошо, пельмешка, я просто хочу проверить её силёнки.
+\CBid[-1,4]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Погнали♥
+\CBmp[UniqueCocona,8]\SETlpr[cocona_confused]\c[4]Кокона：\C[0]    Ву-ву мяу...
+
+Cocona/RecQuestCocona24to25_3_brd
+\board[Поединок с Мэрими]
+Задача：Прийти на\c[4]Арену：\C[0]в\c[6]Кольце Ноэр：\C[0]
+Награда：Нет
+Клиент：Мэрими
+
+#################################### arena hall
+
+VandorMan/RecQuestCocona25
+\CBid[-1,20]\c[4]Распорядитель：\C[0]    Все места сегодня выкуплены. Тебе здесь нечего делать, так что девочка, не трать моё и своё время и уходи отсюдова.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Выкуплены?
+\CBid[-1,20]\prf\c[4]Распорядитель：\C[0]    Именно. Дай посмотреть... Там сегодня «Бой Мэрими против Лоны».
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ага.... Ну, я и есть та самая Лона.
+\CBid[-1,20]\prf\c[4]Распорядитель：\C[0]    Ага\..\..\..
+\CBmp[EnterArena,19]\prf\c[4]Распорядитель：\C[0]    Можешь воспользоваться вон тем выходом на арену, противник уже ждёт тебя.
+
+#################################### Dual Lose
+
+DualMama/lose_die
+\SETlpr[cocona_sad]\Rshake\c[4]Кокона：\C[0]    Большая Мама солгала!
+\SETlpr[cocona_shocked]\Rshake\c[4]Кокона：\C[0]    \{Большая лгунья!!!
+
+DualMama/lose_t1_0
+\SETpl[BigMama_angry2_NoKnife]\Lshake\c[4]Мэрими：\C[0]    Готовся, вонючая попрошайка!
+\SETpl[BigMama_angry2_NoKnife]\Lshake\c[4]Мэрими：\C[0]    \{Потанцуем!
+
+DualMama/lose_and_win
+\SETlpl[cocona_sad]\Lshake\c[4]Кокона：\C[0]    Старшая! Скорее, просыпайся!
+\m[tired]\plf\PRF\c[6]Лона：\C[0]    Я\..\..\..Что произошло?
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Сестра проснулась! Сестра заснула!
+\m[confused]\plf\PRF\c[6]Лона：\C[0]    Заснула?
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Заснула!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Так и что...Я победила Большую Мамочку?
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Сестра победила Большую Маму!
+\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Тогда возвращаемся в таверну. Вместе.
+
+DualMama/lose_but_progress0
+\CBct[6]\m[pain]\Rshake\c[6]Лона：\C[0]    \{АААААА!!
+
+DualMama/lose_but_progress1
+\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Мэрими：\C[0]    Отброс, думаешь, это сработает?
+
+DualMama/lose_but_progress2
+\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Мэрими：\C[0]    Вставай, быстро! Этот бой ещё не окончен.
+
+DualMama/lose_but_progress3
+\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Мэрими：\C[0]    \{Что за!..
+
+DualMama/lose_but_progress4
+\BonMP[Cocona,20]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона：\C[0]    Большой Маме не запугать сестру!
+
+DualMama/lose_but_progress5
+\CBmp[Cocona,20]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Кокона защищает свою сестру!
+
+DualMama/lose_but_progress6
+\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Мэрими：\C[0]    Милая! Погоди минутку! Я только...
+
+DualMama/lose_but_progress7
+\CBmp[Cocona,20]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона：\C[0]    Большая Мама солгала! Большая Мама - лгунья!
+
+DualMama/lose_but_progress8
+\SETpl[BigMama_Tar02Sad]\Lshake\prf\c[4]Мэрими：\C[0]    ....
+
+DualMama/lose_but_progress9
+\SETpl[BigMama_Tar02Sad]\Lshake\prf\c[4]Мэрими：\C[0]    Я... просто хочу проверить уровень готовности этого куска мяса....
+
+DualMama/lose_but_progress10
+\BonMP[Cocona,5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона：\C[0]    ХСССсссс! Кокона не понимает!
+
+#################################### Dual Begin
+
+EnterDual/0
+\narr Совсем недавно... В «Горящем бочонке»...
+
+EnterDual/0_1
+\narr Позже... Сейчас... На Арене...
+
+EnterDual/1
+\CBmp[Hazubendo,20]\c[4]Муж Мерими：\C[0]    Всё готово... Ты уверена, что хочешь это надеть?
+\CBmp[BossMamaT1,20]\SETpl[BigMama_happy]\Lshake\c[4]Мэрими：\C[0]    Конечно, да.
+
+EnterDual/1_1
+\CBmp[BossMamaT1,20]\SETpl[BigMama_happy]\Lshake\c[4]Мэрими：\C[0]    Ах... Мой старый друг.
+\CBmp[BossMamaT1,20]\SETpl[BigMama_normal]\Lshake\c[4]Мэрими：\C[0]    Не думала, что мне ещё выдастся случай пустить тебя в ход.
+
+EnterDual/2
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\c[4]Кокона：\C[0]    Старшая сестрёнка! Я здесь! Посмотри, вот она я!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Эй! Кокона!
+
+EnterDual/3
+\CBmp[Cocona,20]\SETlpl[cocona_sad]\Lshake\c[4]Кокона：\C[0]    Давай, сестрёнка! Моя сестра лучшая!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Хех... Ладненько.
+
+EnterDual/4_withFollower
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\c[4]Мэрими：\C[0]    Привела новых друзей?
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused-NoKnife]\Lshake\c[4]Мэрими：\C[0]    Всё нормально, вместе веселее!
+
+EnterDual/4_noFollower
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\c[4]Мэрими：\C[0]    Готова?
+
+EnterDual/5
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    \{А?! Подожди минутку!
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Мэрими：\C[0]    Чего ты боишься? Я даже оружия не достала.
+\CBmp[BossMamaT1,20]\SETpl[BigMama_angry2_NoKnife]\prf\c[4]Мэрими：\C[0]    Потанцуем!
+
+#################################### T1 end
+
+T1_end/0
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Так ли... это... необходимо?
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Разве нельзя просто позволить мне забрать Кокону?
+\CBid[-1,3]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Мэрими：\C[0]    Лона, когда ты варишь большую кастрюлю блятского бульона, ты не беспокоишься о каждом куске мяса.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э?
+\CBid[-1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Мэрими：\C[0]    Перестань нести чушь, начинай уже!
+
+T1_end/1
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    Это бессмысленно!??
+\CBid[-1,3]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Мэрими：\C[0]    Глупышка! Ты не можешь причинить мне боль.
+
+#################################### T2 start
+
+T2start/0
+\CBid[-1,20]\SETpl[BigMama_Tar01]\Lshake\prf\c[4]Мэрими：\C[0]    \{БРОНЯ ИЗ ЩУПАЛЕЦ!
+
+T2start/0_1
+\CBct[6]\m[fear]\plf\Rshake\c[6]Лона：\C[0]    \{Прошу прощения?!
+
+T2start/1
+\CBid[-1,20]\SETpl[BigMama_Tar01]\Lshake\prf\c[4]Мэрими：\C[0]    Не каждый может управлять этой мощной бронёй. Люди, которые обладали ею, падали без сил. Без исключений.
+
+T2start/2
+\CBid[-1,20]\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Мэрими：\C[0]    Но я иная! Только я могу управлять этой бронёй!
+\CBmp[Cocona,20]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0]    Сестра, поднажми, ну же!
+\CBid[-1,8]\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Мэрими：\C[0]    ....
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Сдаюсь! Я сдаюсь!
+
+T2start/3_CoconaWhore
+\CBid[-1,8]\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Мэрими：\C[0]    Ты думаешь, я не знаю, что ты делала с моей малюткой?
+\CBid[-1,8]\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Мэрими：\C[0]    Пощады не жди! Только смерть в страданиях!
+
+T1start/3_CoconaWhore
+\SETpl[BigMama_angry2_NoKnife]\Lshake\prf\c[4]Мэрими：\C[0]    Ты думаешь, я не знаю, что ты делала с моей малюткой?
+\SETpl[BigMama_angry2_NoKnife]\Lshake\prf\c[4]Мэрими：\C[0]    Пощады не жди! Только смерть в страданиях!
+
+
+T2start/3_CoconaNormal
+\CBid[-1,8]\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Мэрими：\C[0]    Не говори ерунды! Приступим!
+
+#################################### Dual Win
+
+BrokenKatana/0
+\CBmp[Cocona,8]\SETlpl[cocona_sad]\Lshake\c[4]Кокона：\C[0]    Сестра победила...
+
+BrokenKatana/0_1
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\c[4]Кокона：\C[0]    Сестра победила!!!
+
+BrokenKatana/0_2
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\c[4]Кокона：\C[0]    \{Сестра победила!!!
+
+BrokenKatana/0_3
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Да, я победила....
+
+BrokenKatana/1
+\SETpr[BigMama_Tar02Sad]\plf\Rshake\c[4]Мэрими：\C[0]    Малютка... Нежели ты так сильно хочешь меня покинуть?
+
+BrokenKatana/2
+\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Мэрими：\C[0]    Скажите мне\..\..\.. Прежде чем вы добьёте человека, что кормил и давал вам кров\..\..\..\SETpl[BigMama_Tar02Flirty]\Lshake неужто вам нечего сказать?
+
+BrokenKatana/3
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эх\..\..\..\CBct[8]\m[confused]Да....сложный вопрос\..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Как насчёт\..\..\..Увидимся позже, в таверне?
+
+BrokenKatana/4
+\SETpl[BigMama_Tar02Sad]\Lshake\prf\c[4]Мэрими：\C[0]    ......
+
+LeaveArena/0
+\SETlpl[cocona_shocked]\Lshake\c[4]Кокона：\C[0]    Сестрёнка~~!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кокона?
+\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Давай уйдём? Вместе.
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Со старшей~~♥
+
+#################################### Dual End and in Tavern && get Cocona Tricket
+
+DualEndTavern/0
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\c[4]Кокона：\C[0]    Где Большая Мама?
+
+DualEndTavern/1
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Пока не вернулась.
+
+DualEndTavern/2
+\CBmp[UniqueCocona,20]\SETlpl[cocona_shocked]\Lshake\c[4]Кокона：\C[0]    \{Большая Мама!
+
+DualEndTavern/3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Вы вернулись в норму?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Так... Эм... Вы в порядке?
+
+DualEndTavern/4
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\c[4]Мэрими：\C[0]    Я в норме, просто годы берут своё.
+
+DualEndTavern/5
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    .....
+\CBmp[UniqueCocona,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    .....
+
+DualEndTavern/6
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Что же... Я победила, правда же?
+
+DualEndTavern/7_win
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Правда, и это меня немало удивило.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Оказывается, такая мелочь, как ты, может меня победить... Похоже, я действительно постарела.
+
+DualEndTavern/7_lose
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Ты? Победила\..\..\..?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Тебе совсем память отшибло на арене?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ну, я же победила, разве нет?
+\CBmp[UniqueCocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Да! Сестрица победила!
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    ......
+
+DualEndTavern/8
+\CBct[8]\m[flirty]\PRF\plf\c[6]Лона：\C[0]    Значится, я могу взять Кокону с собой?
+\CBmp[UniqueCocona,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Кокона：\C[0]    Большая Мама... Правда не собирается с нами?
+\CBmp[TavernWaifu,8]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Малютка\..\..\.. Не забудь подойти и забрать свою руку, прежде чем уйдёшь.
+\CBmp[UniqueCocona,5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона：\C[0]    Ууу...
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    ........
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Эй, Лона.
+\CBct[2]\m[confused]\PRF\plf\c[6]Лона：\C[0]    М?
+
+DualEndTavern/9
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Это?..
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Мэрими：\C[0]    Билет Коконы на корабль. Как придёт время, просто уходите.
+\CBct[2]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Мгм. Оставьте Кокону мне.
+\CBmp[UniqueCocona,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Кокона：\C[0]    Мяу...
+
+#################################### Get Katana
+
+getKatana/0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    И!.. Большая Мамочка, вы забыли кое-что на арене.
+
+getKatana/1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Эх... Старый друг.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    «Старый друг»?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Я о клинке.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оу... Простите... Кажется, я его сломала...
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    Хм! Подожди здесь.
+
+getKatana/2
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А?
+
+getKatana/3
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    Вот, теперь он твой. Я, наверное, больше не смогу им орудовать.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм\..\..\..\m[shocked]\Rshake Что?!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    То, что он сломан - не страшно, тебе такая длина как раз по габаритам.
+
+getKatana/4
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    А, и ещё кой-чего...
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    На самом деле, у меня есть способы добыть билет и без денег.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Мэрими：\C[0]    А эти по-прежнему твои.
+
+getKatana/5
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эти\..\..\..\m[pleased]\Rshake Спасибо!!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Мэрими：\C[0]    А теперь убирайся.
+
+#################################### Dock
+
+ShipEnding/OPT_GoWithCocona
+Уйти с Коконой
+
+EndingShip/0
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Старшая! Подожди меня!
+\m[pleased]\PRF\c[6]Лона：\C[0]    Кокона! Сюда! Поспеши!
+
+EndingShip/1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    У меня есть деньги... а ещё вот...
+
+EndingShip/2
+\CBct[20]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Моя сестра - её зовут Кокона - сядет со мной в лодку.
+
+EndingShip/3
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\PLF\prf\c[4]Эдвард：\C[0]    \...\...\...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Эдвард：\C[0]    Хмхмхм! С первого взгляда же вижу, что билет поддельный.
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Прошу прощения?!?!
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Эдвард：\C[0]    Ха, видела бы ты своё лицо. Ну да шутки в сторону. Встретилась лицом к лицу с легендарным «Алым клинком»?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э... «Алым клинком»? Первый раз слышу. Кто это?
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Эдвард：\C[0]    Хм, тогда забудь, я ничего не говорил тебе. Вы обе можете подниматься на борт.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Отлично!
+
+
+############################################################################################## WHORE JOB VAG
+
+WhoreEV/first_begin0
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\c[4]Кокона：\C[0] Сестра, что ты делаешь!?
+
+WhoreEV/first_begin0_1
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    А-АХ?! К-Кокона?!
+
+WhoreEV/first_begin1
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0] Ву.. мяу\... \... \...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Ээ... У сестрёнки такая работа. Мне приходится работать, чтобы хватало на еду...
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0] Работать\... \... \...? \CBfB[2]Работать писей?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0] Эээ.... А?
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0] Кокона хочет помочь!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] ПОМОЧЬ???!!!!
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Как сказала cтаршая сестренка, дырочку для пи-пи можно использовать в обмен на блестящие сокровища и еду!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Э... ХААА!... ЧТОООО???!!?!
+
+WhoreEV/first_begin_opt
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0] Мммм... \optD[Забудь об этом, Научить Кокону проституции]
+
+WhoreEV/first_begin_opt_yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0] \... \... \...Хорошо.....
+
+WhoreEV/first_begin_opt_no
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Нет, Кокона не должна этого понимать.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Просто предоставь эту работу своей сестрёнке... Хорошо?
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0] Ву-мяу....
+
+WhoreEV/first_end0
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0] Сестрёнка.. Пися Коконы болит...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Не плачь, это то, что мы должны делать.
+\CBfB[2]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0] Ву..мяу??
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0] Наши тела созданы, чтобы ублажать мужчин.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Чтобы делать то, что они захотят.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0] Видишь, вот и сокровища, которыми нас наградили. Просто, не так ли?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Сделаем это ещё несколько раз и все поймёшь.
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0] Мьяу....
+
+Cocona/WhoreEV_hurt_CompCommand0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]Кокона：\C[0] *Плач* Сестра... У Коконы болит пися...
+
+Cocona/WhoreEV_hurt_CompCommand1
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]Кокона：\C[0] *Плач* Сестрёнка... Пи-пи в Коконе больно...
+
+prostituation/CoconaVag
+(Предложить вместо этого Кокону)
+
+prostituation/vag_success
+\narr Судя по тому как он разглядывал её истощенное тело, клиента заинтересовала Кокона...
+\narrOFF\CBfB[1]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Кокона：\C[0] Вуу-Мияу?!
+
+WhoreEV/failed
+\narr Клиент посмотрел на Кокону...
+\narr Затем погладил её по голове и ушёл...
+
+WhoreEV/first_begin2
+\narr Клиент сказал, что это здорово - получить дополнительную услугу...
+
+WhoreEV/fuck0
+\c[4]Кокона：\C[0]    Уу... М-мьяу...
+
+WhoreEV/fuck1
+\c[4]Кокона：\C[0]    Мяяяу....
+
+WhoreEV/fuck2
+\c[4]Кокона：\C[0]    МИАУ!!!
+
+WhoreEV/fuck3
+\narr Член клиента слишком велик для Коконы и упирается прямо в её шейку матки...
+
+WhoreEV/fuck4_0
+\narr Клиент называет Кокону грязной шлюхой впиваясь в неё своими бёдрами...
+
+WhoreEV/fuck4_1
+\narr Клиент бормочет о том, что Кокона грязнокровная сука трахая её...
+
+WhoreEV/fuck4_2
+\narr Клиент бормочет о том, какая Кокона милая, врезаясь своим пахом в её ягодицы...
+
+WhoreEV/fuck5
+\narr Клиент изо всех сил сжал худое тело Коконы и начал дико трахать его...
+
+WhoreEV/fuck6
+\narr Клиент рычит от наслаждения!\n Кажется, он кончил в неё...
+
+WhoreEV/fuck_end0
+\narr Клиент говорит, что вагина Коконы настолько тугая, что это было просто невероятно...
+
+WhoreEV/fuck_end1
+\narr Клиент ушел...
+
+WhoreEV/fuck_end2_0
+\c[4]Кокона：\C[0] Вуу... М-Мьяу... Животик так вздулся...
+
+WhoreEV/fuck_end2_1
+\c[4]Кокона：\C[0] Мьяяяууу... Ж-Животик такой большой...
+
+############################################################### PEepee with cocona
+
+Lona/BasicNeedsOpt_PeeWithCocona
+Писать с Коконой
+
+PeePeeTogeter/begin0
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]   Сестрёнке нужно пописать, не хочешь присоединиться? 
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Хорошо♥
+
+################################################ Dress change
+
+dressOn/1
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    Кокона! Оденься обратно!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Сестра?
+
+dressOn/2
+\CBct[6]\m[flirty]\Rshake\c[6]Лона：\C[0]    Нехорошо, если плохие парни увидят тебя такой.
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Миау???!
+
+dressOff/1
+\CBct[3]\m[lewd]\PRF\c[6]Лона：\C[0]    Коконе хотелось почувстовать себя свободнее?
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Свободнее?
+
+dressOff/2
+\CBct[4]\m[triumph]\Rshake\c[6]Лона：\C[0]    Кокона свободна!
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Бррр... Коконе холодно.

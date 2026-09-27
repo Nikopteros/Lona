@@ -1,0 +1,375 @@
+Ded/ded
+\SETpl[SeaWitch_angry]\Lshake\C[4]바다 마녀：\C[0] 안 돼! 이 죽을 인간들! 내가 인간에게 질 리가 없어!
+
+0to1/begin0
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 찾았다...!
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 가짜 바다 마녀...!
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 바다 마녀... 너 따위가 우리 형제들을 속일 순 없어...
+\CBmp[SeaWitch,8]\C[4]가짜 바다 마녀：\C[0] 으....
+
+0to1/begin1
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 그녀를 죽여라...!
+
+0to1/begin2
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 제물로 바쳐라...!
+
+0to1/begin3
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 위선적인 가짜 바다 마녀야... 혹시... 마지막으로 남길 말이라도...
+\CBmp[SeaWitch,8]\C[4]가짜 바다 마녀：\C[0] 배고파......
+
+0to1/begin4
+\CBmp[GuardM2,2]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 배고파\..\..\..
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 봐라...! 역시 가짜... 바다 마녀...! 무한한 어획량을...!
+
+0to1/begin5
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 진짜 바다 마녀는 굶주리지 않아... 넌 가짜 바다 마녀야...!
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 죽어라...!
+\CBmp[SeaWitch,2]\C[4]가짜 바다 마녀：\C[0] 으으...
+
+0to1/begin6
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 누구냐...!?
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 사악한 파편이다...!
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]어인 전사：\C[0] 죽여라!
+\CBmp[SeaWitch,8]\C[4]가짜 바다 마녀：\C[0] 안 돼\..\..\.. 잠깐만...\ 음식\....
+
+0to1/begin7
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 무슨 소리야!?
+
+1to2/begin0
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐야!? 여기서 무슨 일이 있었던 거야!?
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] 왜 이렇게 많은\..\..\.. 물고기들이 죽어 있는 거지!?
+\CBmp[SeaWitch,8]\prf\C[4]가짜 바다 마녀：\C[0] 배고파……
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 어…?
+\CBmp[SeaWitch,8]\prf\C[4]가짜 바다 마녀：\C[0] 배고파…
+\CBct[8]\m[fear]\c[6]로나：\c[0] ......
+
+2to3/begin0
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 어… 실례지만…
+\CBmp[SeaWitch,8]\prf\C[4]가짜 바다 마녀：\C[0] 배고파…
+\CBct[8]\m[confused]\c[6]로나：\c[0] 배고프다고?
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 여기 사방에 물고기가 가득한데?
+\CBmp[SeaWitch,8]\prf\C[4]가짜 바다 마녀：\C[0] 남자 즙… 남자…
+\CBct[2]\m[confused]\c[6]로나：\c[0] 얘가 어인 같진 않은데? 설마 전설 속의 인어?!
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 혹시 소원을 빌 수 있는 기회일지도?
+
+3to4/begin_opt
+\CBmp[SeaWitch,8]\prf\C[4]인어：\C[0] 남자…
+\m[confused]\c[6]로나：\c[0] 음...\optB[그만둔다,남자<r=HiddenOPT0>,정액<r=HiddenOPT1>,음식]
+
+3to4/begin_other0
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 괜찮아? 많이 배고파? 내가 뭐라도 구해줄까? 채소, 고기, 아니면…
+\CBmp[SeaWitch,8]\prf\C[4]인어：\C[0] 아니… 나는 남자가 필요해… 날 살리려면 남자의 정액이 필요해…
+\CBct[20]\m[confused]\c[6]로나：\c[0] 뭐야, 이상한 소리 하네? 진심이야?
+\CBmp[SeaWitch,8]\prf\C[4]인어：\C[0] 시끄러! 내…
+\CBmp[SeaWitch,8]\prf\C[4]인어：\C[0] 크흑! 부탁이야… 좀 도와줘…
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 알았어…
+
+3to4/begin_other1
+\board[배고픈 인어]
+목표 : 인어에게 남자나 정액을 구해다 주기
+보상 : 음…
+의뢰주 : 인어
+기한 : 없음
+인어를 좋아할 만한 용사를 찾거나, 정액 10개, 혹은 단백질 5개를 제공해야 한다.
+
+####################################################### FOOD
+
+3to4/ItemTransfer
+\CBmp[SeaWitch,8]\prf\C[4]인어：\C[0] 으……
+
+3to4/ItemTransfer_Win
+\CBct[20]\m[shy]\c[6]로나：\c[0] 진짜로 먹었네…
+
+3to4/ItemTransfer_Failed
+\CBmp[SeaWitch,8]\prf\C[4]인어：\C[0] 으으으….
+\CBct[20]\m[confused]\c[6]로나：\c[0] 효과가 없는 건가, 준 게 잘못된 건지, 아니면 양이 부족한 건지?
+
+####################################################### MAN
+
+3to4/traveler_begin0
+\CBmp[MonsterLover,20]\prf\c[4]여행자：\c[0] 혹시 인외녀 아세요? 나 온갖 인외녀랑 잤다구! 털복숭이, 긴 귀, 없는 게 없지. 안 해본 건 이제 어인뿐. 어인 여자라면 분명 죽일 듯이 좋을 거야!
+\CBmp[MonsterLover,20]\prf\c[4]여행자：\c[0] 맞아! 이제 진짜 어인만 남았다고! 어인 여성, 상상만 해도 끝내주겠지!
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 저기…
+\CBmp[MonsterLover,20]\prf\c[4]여행자：\c[0] 아~ 기대된다! 혹시 인어 전설 들어봤어? 너라면 알겠지!
+\CBmp[MonsterLover,20]\prf\c[4]여행자：\c[0] 물고기 구멍은 어떤 느낌일까, 궁금해서 미치겠다구.
+\CBct[20]\m[confused]\c[6]로나：\c[0] 저… 손님…
+\CBmp[MonsterLover,20]\prf\c[4]여행자：\c[0] 안 되겠다! 지금 당장 한 번 쏴야겠어!
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 손님! 저 인어 발견했어요. 마침 도움도 필요하다네요, 혹시…
+\CBmp[MonsterLover,20]\prf\c[4]여행자：\c[0] 뭐?! 진짜? 어디야! 빨리 안내해!
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 잠깐만요! 너무 급하게 굴지 마세요!
+
+3to4/traveler_begin1
+\CBmp[MonsterLover,5]\prf\c[4]여행자：\c[0] \{지금…바로…안내해줘!
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] \{네!
+
+3to4/traveler_begin2
+\board[여행자 호위]
+목표：여행자에게 인어를 보여주기
+보상：큰 동전 2개
+의뢰주：여행자
+기한：2일
+인어!!!
+
+3to4/CommonConvoyTarget0
+\CBid[-1,20]\c[4]여행자：\c[0] 빨리 나를 인어 보러 데려가 줘! 빨리!
+
+3to4/CommonConvoyTarget1
+\CBid[-1,20]\c[4]여행자：\c[0] 내 아래의 거대한 용 좀 봐! 내 용이 이제 곧 참지 못하겠어!
+
+3to4/CommonConvoyTarget2
+\CBid[-1,20]\c[4]여행자：\c[0] 어디야! 인어 어딨어!
+
+3to4/QmsgTar
+빨리 나를 인어에게 데려가 줘!
+
+3to4/ManSucker_closer
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 어... 너 괜찮아? 내가 남자를 데려왔어.
+\CBmp[SeaWitch,8]\prf\C[4]인어：\C[0] 가까이... 그 남자... 이쪽으로... 그의 냄새가 느껴져... 빨리...
+\CBct[2]\m[confused]\c[6]로나：\c[0] 알았어.
+
+3to4/ManSucker_win0
+\CBfE[20]\c[4]여행자：\c[0] \..\..\..
+\CBfE[20]\c[4]여행자：\c[0] 이... 이게 바로 인어야!?
+\CBct[8]\m[confused]\c[6]로나：\c[0] 응? 아닌가?
+
+3to4/ManSucker_win1
+\CBfE[20]\prf\c[4]여행자：\c[0] 이건 그냥 인어가 아니야! 이건 인어 아가씨야!!
+
+3to4/ManSucker_win2
+\CBfE[20]\prf\c[4]여행자：\c[0] 대박이다! 내 동생 좀 봐! 벌써 이렇게 커졌어!
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 하하?
+
+3to4/ManSucker_win3
+\CBfE[20]\prf\c[4]여행자：\c[0] 고마워! 이건 네가 받을 자격이 있는 거야!
+\CBct[8]\m[confused]\c[6]로나：\c[0] 어... 고마워?
+
+3to4/ManSucker_win4
+\CBmp[SeaWitch,4]\prf\C[4]인어：\C[0] 남자♥♥♥ 남자다♥
+\CBfE[4]\prf\c[4]여행자：\c[0] 예에♥ 그렇게 조급해하지 마♥ 금방 할 테니까...
+
+3to4/ManSucker_win5
+\CBfE[4]\prf\c[4]여행자：\c[0] 으아아아악♥♥
+\CBfE[4]\prf\c[4]여행자：\c[0] 이 구멍♥ 장난 아니야♥
+
+3to4/ManSucker_win6
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 어...
+\CBct[2]\m[confused]\c[6]로나：\c[0] 말도 안 하고 그냥 시작해버린 거야?
+\CBct[2]\m[shy]\c[6]로나：\c[0] 나... 이런 거 보고 있으면 안 되는 거지?
+\narr로나는 이 장면을 보면 안 된다고 생각하며, 두 손으로 귀를 막았다...
+
+3to4/ManSucker_win7
+\CBfE[4]\c[4]여행자：\c[0] 아♥ 간다♥ 간다아♥♥♥
+
+3to4/ManSucker_win8
+\CBfE[4]\c[4]여행자：\c[0] 허허...♥ 인어 아가씨의 구멍♥ 최고야♥
+
+3to4/ManSucker_win9
+\CBmp[SeaWitch,4]\C[4]인어：\C[0] 더 원해♥ 더 줘♥ 더어♥
+\CBfE[1]\c[4]여행자：\c[0] 잠깐! 지금 작은 머리가 아직 예민해! 잠시만!
+
+3to4/ManSucker_win10
+\CBfE[2]\c[4]여행자：\c[0] 내 허리? 왜 멋대로 움직이는 거야? 잠깐만!
+\CBmp[SeaWitch,4]\C[4]인어：\C[0] 더♥ 더어♥
+
+3to4/ManSucker_win11
+\CBfE[1]\c[4]여행자：\c[0] 또 간다! 또 간다아아!!!
+
+3to4/ManSucker_win12
+\CBfE[20]\c[4]여행자：\c[0] 이상하게 사정이 멈추질 않아!?
+\CBfE[20]\c[4]여행자：\c[0] 안 돼! 나 다 짜내질 거야!
+\CBfE[20]\c[4]여행자：\c[0] 내가 잘못했어! 놔줘!
+
+3to4/ManSucker_win12_1
+\CBct[8]\m[confused]\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 이제 끝난 거지?
+
+3to4/ManSucker_win13
+\CBct[8]\m[confused]\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 예!? 무슨 일이야?? 또 죽은 거야!?
+
+####################################################### live again
+
+3to4/Done0
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\C[4]인어：\C[0] 내가 부활했다!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 꺄악!!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]인어：\C[0] 너냐? 하등 생물? 널 깨어나게 한 게 너냐?
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] \..\..\..아마도?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]인어：\C[0] 보아하니 이 남즙의 힘으론 겨우 움직일 수 있겠군.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 너 인어야? 우리처럼 말할 수 있는 거야?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 역시 하등 생물이군! 나는\c[6]바다 마녀\c[0]다! 풍요와 어획의 신이지!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 신!?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 남즙은 네가 가져온 거냐? 그렇다면 좋다... 너에게 소원을 하나 들어주마! 말해 봐라!
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어\..\..\.. 
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 모든 걸 재난이 시작되기 전으로 되돌리는 거\..\..\..?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 진심이냐?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 안... 되는 거야?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]바다 마녀：\C[0] 그건 지금 우리가 하고 있는 일이니, 그 소원은 무효다!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 내가 힘을 되찾고 나면 다시 말해라!
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 알았어...
+
+4to5/Question_beginNormal
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]바다 마녀：\C[0] 무슨 일이냐? 하등 생물아.
+
+4to5/Question_beginDeepone
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]바다 마녀：\C[0] 나의 아이여, 오늘은 무슨 일이 있느냐?
+
+4to5/Question
+\CBct[20]\m[normal]\plf\PRF\c[6]로나：\c[0] 어...\optB[아니야,너에 대해서,가짜 바다 마녀,누가 너를 찾고 있어<r=HiddenOPT0>,나의 아이<r=HiddenOPT1>]
+
+4to5/Question_BloodLine0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 나의 아이?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]바다 마녀：\C[0] 그렇다, 너는 바다의 아이이자 나의 아이다.
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 넌 바다로 돌아가고 싶지 않느냐? 바다의 어머니에게로 돌아가고 싶지 않느냐?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 전혀.
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 이상하군.
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 하지만... 네 나이까지 인간의 모습을 유지하다니? 뭔가 이상하지 않나?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 정말로 단 한 번도 바다에 뛰어들고 싶은 생각이 없었느냐?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 단 한 번도 없었어, 내가 왜 바다에 뛰어들고 싶겠어?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 너 스스로를 다르게 느껴본 적도 없고? 하등 생물의 일부라고 느낀 적도 없고?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 아마도 없었을걸?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 잠깐, 내가 한번 해보마...
+
+4to5/Question_BloodLine1
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] \...\...\...
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 전혀 효과가 없다고?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 너, 아무 느낌도 없느냐?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 진짜로 없어...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 젠장! 내가 이렇게까지 약해진 건가!
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 너 괜찮아? 또 배고파진 거야?
+\CBmp[SeaWitch,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 귀찮게 하지 마! 저리 가!
+
+4to5/Question_AboutU
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 너 정말 신이 맞아? 가짜 신들은 다\c[4]성도\c[0]한테 사라진 거 아니었어?
+\CBmp[SeaWitch,1]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 무례하구나!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 나는 해생인의 어머니, \c[6]바다 마녀\c[0]다!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 성도 따위의 위선적인 잡것이 어찌 우리와 견줄 수 있겠느냐?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오? 미안.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 그럼... 당신은 진짜 신이야?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]바다 마녀：\C[0] 물론이다!
+\CBct[2]\m[tired]\plf\PRF\c[6]로나：\c[0] 진짜 신이라면, 왜 이런 일이 벌어진 거야?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]바다 마녀：\C[0] \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]바다 마녀：\C[0] 나는 유일한 신이 아니다. 이 세상엔 아직 악신이 존재한다.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그럼 이 모든 게 악신이 한 짓이라는 거네?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 정답이다!
+
+4to5/Question_AboutFake
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 내가 가짜 바다 마녀라는 얘기를 들었는데, 그게 대체 뭐야?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 그 빌어먹을 멍청이들! 바다 마녀는 오직 하나뿐이다! 무슨 가짜고 뭐고 있을 리가 없다!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 사악한 신과 그 졸개들의 침략을 막기 위해! 나는 모든 힘을 쏟아부었다!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 더 많은 어획을 내려주고, 백성들에게 이계의 사악한 신 침략에 맞서라 명했지!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 그런데 그 멍청이들이 자기네 어머니를 가리키며 내가 가짜라고!?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 게다가 내가 가장 힘이 약해졌을 때 날 두들겨 패기까지 했다!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 진짜 눈깔이 썩어빠진 개자식들 같으니!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 말투가 좀...
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]바다 마녀：\C[0] \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 젠장!
+
+4to5/Question_Some1Look0
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 어때, 이 하등 생물아. 이제 \C[6]바다 마녀\C[0]를 믿게 되었느냐?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그게 아니라, 누가 널 찾던데? 자기 말로는 네 집주인이라면서, 너 월세 오래 밀렸다고 하던데?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]바다 마녀：\C[0] \..\..\..
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 생긴 게 어땠느냐?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 약간 시체 같았어?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 입만 열면 정의를 떠드는 놈이었나?
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 맞아! 바로 그 사람이야!
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]바다 마녀：\C[0] \..\..\..
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]바다 마녀：\C[0] 젠장! 끝났다!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 왜!? 무슨 일이야!?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]바다 마녀：\C[0] 끝났어! 끝났어! 끝났어! 끝났어!
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 대체 왜!?
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]바다 마녀：\C[0] 안 돼! 그가 왔다! 저건 사악한 신이야! 빨리 날 구해!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐!?
+
+4to5/Question_Some1Look1
+\narr\SndLib[sound_UndeadSurprise]정의가 하늘에서 내려왔다!
+\narrOFF\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 예에!?
+
+4to5/Question_Some1Look2
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]정의：\c[0] 정의는 반드시 떠오른다! 악은 스스로 멸망할지니! 나는 정의의 대행자다!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]바다 마녀：\C[0] 안 돼! 이건 내 잘못이 아니야! 나만 탓할 순 없어!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]정의：\c[0] 이 사악함의 화신아! 정의는 너의 죄를 용서하지 않을 것이다!
+
+4to5/Question_Some1Look3
+\CBct[5]\m[serious]\plf\Rshake\c[6]로나：\c[0] 뭐 하는 거야! 그녀를 다치게 하지 마!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] \..\..\..
+
+4to5/Question_Some1Look4
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]바다 마녀：\C[0] 꺄아아아!!!!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 멍청한 소리 하지 마! 나 이미 물어봤어! 너희 둘이서 내가 얼마나 골치 아픈 일 만들었는지 알기나 해?
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]바다 마녀：\C[0] 미안해요!!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 잘못하면 이 섬 전체를 처리해야 할 판이야! 여기가 네 집이라고 생각한 거야?
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]바다 마녀：\C[0] 죄송해요!!!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 됐다, 물어보니 그녀가 네 대신 다 변상했다고 하더군. 그래도 계속 그녀랑 싸울 거야?
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]바다 마녀：\C[0]  죄송합니다!!!!!! 지금 바로 사과할게요!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]정의：\c[0] 다음번 주인공은 나다, 그리고 넌 무조건 전 구간 같이 뛰어야 해! 알았어!?
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]바다 마녀：\C[0] 네!
+
+4to5/Question_Some1Look5
+\CBct[5]\m[serious]\plf\Rshake\c[6]로나：\c[0] \..\..\..난 비켜주지 않아!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 선량한 사냥꾼이여, 이것은 그대가 받을 자격이 있는 것이다.
+
+4to5/Question_Some1Look6
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 이것은 성도의 성유물이다. 악을 향해「쾅쾅!」하고 외치면 정의가 강림하리라!
+\CBct[5]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 예?
+
+4to5/Question_Some1Look7
+\CBct[5]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 아!?
+\CBct[5]\m[terror]\plf\Rshake\c[6]로나：\c[0] 이게 대체 뭐야? 무슨 일이야? 사람은!?
+
+######################################################################################### reverse rape in fishcave3
+
+reverseRape/begin1
+\C[4]바다 마녀：\C[0] 왜? 이제 못 하겠어♥
+
+reverseRape/begin2
+\c[4]여행자：\c[0] 안 돼! 사정이 멈추질 않아! 날 놓아줘!
+
+reverseRape/begin3
+\C[4]바다 마녀：\C[0] 아직 멀었네♥ 나는 아직 배 안 불렀어♥
+
+reverseRape/begin4
+\C[4]바다 마녀：\C[0] 아♥ 또 나왔네♥
+\C[4]바다 마녀：\C[0] 입으로는 안 된다고 하면서, 몸은 참 솔직하군♥
+
+reverseRape/begin5
+\c[4]여행자：\c[0] 제발... 살려줘.
+
+reverseRape/begin6
+\C[4]바다 마녀：\C[0] 허... 아직도 나올 수 있잖아? 넌 할 수 있어♥
+
+reverseRape/begin7
+\C[4]바다 마녀：\C[0] 나에게 감사하라고!
+\C[4]바다 마녀：\C[0] 너의 영혼은 바다로 돌아가리라♥ 위대한 나에게로♥
+
+reverseRape/begin8
+\narr정액이 다 떨어진 뒤 그는 계속해서 피를 뿜어냈다.  
+절정은 그가 죽을 때까지 멈추지 않았다.
+
+######################################################################################### FirstMeet Combat UniqueFollower.
+FirstMeet/BothBegin
+\CBct[5]\m[flirty]\plf\Rshake\c[6]로나：\c[0] 어...
+
+FirstMeet/Cocona0
+\CBfB[20]\SETlpr[cocona_confused]\Rshake\c[4]코코나：\c[0] \..\..\..
+\CBfB[20]\SETlpr[cocona_shocked]\Rshake\c[4]코코나：\c[0] 거짓말쟁이! 나쁜 놈!
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] 응\..\..\..\..?
+\CBid[-1,2]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]바다 마녀：\C[0] 이 에너지 파동은...? 너, 설마 그분과 관련 있는 건 아니겠지?
+\CBid[-1,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 그분이 널 지켜보고 있는 거야? 그분은 어디에 있지!?
+\CBfB[5]\SETlpr[cocona_angry]\plf\Rshake\c[4]코코나：\c[0] 하스스스!!
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 얘는 코코나, 내 소중한 친구야.
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] \..\..\..내가 착각한 건가? 그분은 여기에 없는 거야?
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 좋아! 잘됐군!
+\CBct[6]\m[confused]\plf\PRF\c[6]로나：\c[0] 뭐가?
+
+FirstMeet/Cecily0
+\CBfB[2]\SETpr[CecilyNormalAr]\Rshake\C[4]세실리：\C[0] 이건... 마물인가!?
+\CBid[-1,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]바다 마녀：\C[0] 무슨 마물? 너 같은 하등 생물이 무슨 소릴 하는 거지?
+\CBfB[5]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]세실리：\C[0] 하등 생물? 너 같은 하등 마물이 뭔 소릴 하는 거야?
+\CBid[-1,5]\CBfB[5]\SETpr[CecilyAngryAr]\SETpl[SeaWitch_angry]\Lshake\Rshake\C[4]세실리：\C[0] 네가 하등 마물이지! \n\C[4]바다 마녀：\C[0] 네가 하등 생물이지!
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]바다 마녀：\C[0] \..\..\..\..\CBid[-1,9]\SETpl[SeaWitch_normal]\Lshake？
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]바다 마녀：\C[0] 흥! 내 가슴이 너 같은 하등 생물보다 크다!
+\CBfB[6]\SETpr[CecilySadAr]\plf\Rshake\C[4]세실리：\C[0] 뭐!?

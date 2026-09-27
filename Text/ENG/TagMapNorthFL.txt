@@ -1,0 +1,205 @@
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+thisMap/OvermapEnter
+\m[confused]North Sea Salt Farm,\n Soldiers' Barracks \optB[Leave,Enter]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]Gate to Market \optB[Leave,Enter,Sneak<r=HiddenOPT1>,Bluff<r=HiddenOPT2>]
+
+Exit/Escaped
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    ATTENTION EVERYONE! A SLAVE HAS ESCAPED!!!
+
+comBoard/v0
+\board[Do not worry!]
+All of your family members are safe.
+Your relatives and friends will be taken care of by us.
+The Saint shall rest your soul in the Hall of Valor.
+
+Guard/beginRNG0
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    I was tricked, and now my family has been sold off...
+
+Guard/beginRNG1
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    Going to the recreation room and being with a girl will make me feel better.
+
+Guard/beginRNG2
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    People are dying every day, and it's going to keep being that way...
+
+Guard/beginRNG3
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    A girl?!
+
+Guard1/Com0
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    What are you so afraid of? Once we all take off our clothes, who can tell if we're soldiers or refugees?
+
+Guard1/Com1
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    It's not bad being stationed here, you can occasionally bully the damned beggars.
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    No ones gonna say anything, even if you kill one of 'em.
+
+Guard2/Com0
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    I don't wanna die! If this keeps up, I'll eventually be sent to the frontlines and be killed!
+
+Guard2/Com1
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    The day before yesterday, we became hole brothers. Today, I just received the news that he was killed in battle...
+
+Guard3/Com0
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    Hehe! ♥ The girl everyone played with yesterday was really nice.
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    It's a shame we won't be able to enjoy playing with her again...
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    She wasn't breathing anymore when we all woke up this morning.
+
+Guard3/Com1
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    Hohehee! ♥ Rumor has it that a new girl is coming today!
+
+Guard4/Com0
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    Actually... That girl is my sister...
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    Yep... I also fucked my sister... Even strangled her to death myself...
+
+Guard4/Com1
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    Oh Saint in Heaven... I am guilty of sin...
+
+##################################################################### SGT
+
+SGT/else_common
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]Centurion：\c[0]    Is there anything else you want?
+
+SGT/RecQuestNorthFL0_Main_begin0
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\c[0]    Please...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Hh! Is that you?
+\CBct[6]\m[confused]\PRF\c[6]Lona：\c[0]    Me?
+
+SGT/RecQuestNorthFL0_Main_begin1_slave
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    You\..\..\.. Are you a whore?... Or a slave?
+
+SGT/RecQuestNorthFL0_Main_begin1_basic
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    You\..\..\.. A woman? But you're just a kid...
+
+SGT/RecQuestNorthFL0_Main_begin2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Well, never mind...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Listen, I have some things I want you to do.
+
+SGT/RecQuestNorthFL1_Main_begin0
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Go to \c[6]Southern Granary Number 12\c[0]，and destroy the records in the basement.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    I don't care if you are a mercenary or a civilian, I'll pay you after the work is completed. You got my word on that.
+
+SGT/RecQuestNorthFL1_QuBoard
+\board[Destory the records]
+Goal： Destroy all records
+Reward： 3 Big Copper Coins, 5 Small Copper Coins
+Client： None of your business, commoner!
+Quest Term： Single issue
+Big shots on the South Shore demanded that the documents in the basement of Southern Granary No. 12 be destroyed.
+No one can know this.
+You shouldn't ask too many questions, just get things done.
+
+SGT/RecQuestNorthFL1_accept
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Okay... Leave it to me.
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    You can reach the \c[6]Southern Granary number 12\c[0] if you go south east from here, it's about half a day's walk away.
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Go, hurry.
+
+SGT/RecQuestNorthFL1_no
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\c[0]    I uh\..\..\..\Rshake\m[wtf]I was really just passing by....
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    What do you mean? You weren't sent here by those big shots?
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    \{Nope!
+
+################################# return QU 3
+
+SGT/RecQuestNorthFL3_begin0
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\c[4]Centurion：\c[0]    You return?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]Centurion：\c[0]    Were all those records destroyed?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    Yes, it's done, Sir.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Excellent! The mercenaries sent by the boss always come through in the end...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well... I'm actually just a civilian passing by...
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurion：\c[0]    \..\..\..\Lshake \{What? A passersby?
+
+SGT/RecQuestNorthFL3_begin1
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Why didn't you tell me earlier? What about the people I sent out?
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    How should I know? Killed by a monster on the road? After all, the place is full of greenskins.
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurion：\c[0]    \..\..\..
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurion：\c[0]    Forget it, take the rewards and beat it.
+
+SGT/RecQuestNorthFL3_begin2
+\CBct[3]\m[flirty]\PRF\c[6]Lona：\c[0]    Thank you, Sir!♫
+
+################################# return QU 4
+
+SGT/RecQuestNorthFL_Common
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurion：\c[0]    Um? Why are you still here?
+
+SGT/RecQuestNorthFL_Common1
+\CBct[6]\m[confused]\PRF\c[6]Lona：\c[0]    Well...
+
+SGT/OPT_Salt
+Salt
+
+SGT/Ans_about_1_0
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Hmm\..\..\.. You do seem trustworthy, and being able to come back from the infested area proves that you can handle yourself.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Umm... Thank you, I guess...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Do you know why there are no monsters here?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Even if they bristle with weapons, the soldiers wouldn't be able to hold out.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Coastal Fortress is not a real fortress, but still no monster can get close to it.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    They all said it was the guidance of the saints and the protection of the sea witch.
+\CBid[-1,5]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Nonsense!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Do you know what the truth is? I finally figured it out after you came here!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    \{Yes, it's the \c[6]Salt\c[0]!
+
+SGT/Ans_about_1_1
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh? \c[6]Salt\c[0]?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    These monsters are afraid of salt!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well\..\..\..Really?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    This is a salt farm! What other possibilities could there be?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    I have it all planned out. Whether it is green skins or red skins, or the evil behind them, they will be destroyed!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    At this time, the big shots above want us to retreat? ! This is so stupid!
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    .........
+
+SGT/RecQuestNorthFL4_info
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hmm... is there anything I can do?
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    It just so happens that I am short of manpower.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    There is a group of mercenaries who help me near \c[6]Perranway Village\c[0] east of here.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    If they are still alive, give them this letter and recall them.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh? Is that it?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Yes, that's it.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Their weakness is no longer a secret, and the next step is to counterattack!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Sounds simple enough.
+
+SGT/RecQuestNorthFL4_brd
+\board[Deliver a letter]
+Goal： Deliver a letter to\c[6]Perranway Village\c[0]mercenary camp.
+Reward： 1 Big Copper Coin
+Client： Coastal Fortress Centurion
+Quest term： Single Fulfillment
+Right! That's it! Deliver the mail.
+
+SGT/RecQuestNorthFL4_opt_no
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... let's forget it.
+
+SGT/RecQuestNorthFL1_opt_accept
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    OK, leave it to me.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Do it fast. If we succeed, I will become a hero like the Saint who saved the world!
+
+################################# return QU 101
+
+SGT/RecQuestNorthFL101_done0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I'm back... I Delivered your mail, Sir.
+\CBid[-1,4]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Really? Excellent!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    They must be very happy to be able to do their part to save the world, right?
+
+SGT/RecQuestNorthFL101_done1_alive
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh... not really.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    The camp chief seemed rather angry and said some mean things...
+
+SGT/RecQuestNorthFL101_done1_dead0
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Well... they're all dead...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    \{What the hell?
+
+SGT/RecQuestNorthFL101_done1_dead1
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\c[0]    I arrived at their camp, it was soon attacked by the orcs.
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    I saw their captain get massacred by the orcs with my own eyes.
+
+SGT/RecQuestNorthFL101_done2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    This\..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    This is not what \c[6]He\c[0] he said would happen.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \c[4]He\c[0]?
+
+SGT/RecQuestNorthFL101_done3
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurion：\c[0]    Forget it, you deserve it, take it.
+
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

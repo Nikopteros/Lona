@@ -1,0 +1,118 @@
+thisMap/OvermapEnter
+\m[confused]Берег Останків \optB[Скасувати,Увійти]
+
+begin/Begin0
+\CBct[8]\m[confused]\c[6]Лона:\C[0] Ем......
+
+begin/Begin1
+\CBct[2]\m[flirty]\c[6]Лона:\C[0] Що це за церемонія?
+
+commoner/Qmsg0
+Кря кря ...! Він мертвий...!
+
+commoner/Qmsg1
+Бідний... Брат...
+
+commoner/Qmsg2
+Сумуємо...
+
+guard/Qmsg0
+Дій...!
+
+guard/Qmsg1
+Тут немає місця чужинцям...!
+
+guard/Qmsg2
+Давай...!
+
+########################################################################
+
+QuGiver/Begin0_Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\SETpl[FrogCommon]\Lshake\c[4]Місцевий:\C[0] Жінка... Повернися і розмножуйся...!
+
+QuGiver/Begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\c[4]Місцевий:\C[0] Чужоземець...? Що потрібне? \optB[Нічого,Церемонія?,Останки?<r=HiddenOPT0>,Безрозсудна?<r=HiddenOPT1>,Потрібна допомога?<r=HiddenOPT2>]
+
+QuGiver/Festival0
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем... А що це за ритуал у вас? На честь Морської Відьми?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Жертвування.....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Це... Похорон... Брата....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Церемонія... Повернення в море.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Похорон?! Ой, вибачте!
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Його вбили ці... Злі останки.
+
+QuGiver/Fragment0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Останки? Чи можете ви мені розповісти більше, що за останки?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Це діти тих... У кого немає... Себе...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Вони.... Останки Морської Відьми....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Коли вони народилися... Вони повинні були відразу повернутися в обійми Морської Відьми...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем... Я, здається, не зовсім зрозуміла вас?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Але... Морська Відьма Безрозсудна.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Що?
+
+QuGiver/tmpOutControl
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Останки, що повернулися в море... Залишаться в храмі... Стануть останками Морської Відьми...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Але несправжня Морська Відьма випередила нас... І останки збожеволіли...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Наш споконвічний дух... Повернувся з останками Морської Відьми...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Я так нічого і не зрозуміла...
+
+QuGiver/help0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Вам потрібна допомога? Я можу вам якось бути корисною?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцеве:\C[0] Чужоземка...? Ти...? Жінка...? Може, ти можеш...?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Мій брат і я... Ми обидва гончарі...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Усередині його... \c[4]Магазина горщиків Красті Краба\C[0]... Все ще є... Останки несправжньої Морської Відьми...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Його споконвічний дух не нападе на нас... Але з несправжньою Морською Відьмою, останки поводяться інакше...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Останки несправжньої Морської Відьми нещадно вб'ють нас...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Принеси мені його Секретну Формулу... Мені потрібно це... Ем, щоб продовжити його спадщину...
+
+QuGiver/help_board
+\board[Секретна Формула]
+Завдання:Добути Секретну Формулу\i[227]
+Нагорода：Невідомо
+Клієнт：Брат Риболюдини
+Повторюваність：Одноразове
+Вирушайте до брата Риболюдини в \c[4]Магазин горщиків Красті Краба:\C[0] на сході і дістаньте секретну формулу гончарства його брата.
+
+QuGiver/help_cancel
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ем... Нічого, вибачте.
+
+QuGiver/help_accept
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Лона:\C[0] Не проблема! Я розберуся із цим.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона:\C[0] Я дістану формулу твого брата для тебе!
+
+######################################################################## QuestDone
+
+QuGiver/done0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем...
+
+QuGiver/done1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Лона:\C[0] Я знайшла Секретну Формулу. Що ж, тепер споконвічний дух твого брата може спати спокійно, га?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Чужоземка...? Ти...? Правда, знайшла її...?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Дай сюди, живо.... Дай її сюди!!!
+
+QuGiver/done2
+\CBct[20]\m[flirty]\plf\Rshake\c[6]Лона:\C[0] До чого такий поспіх?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Хуу Хе-хе-хе... Як тільки я опанував цю формулу...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Мій господар у Морській Гончарні.... Правитиме всім цим островом.... Всіми горщиками....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] ХууХаХаа.... ХахахахаХАХАХАА..........
+\CBct[20]\m[confused]\plf\Rshake\c[6]Лона:\C[0] Чого....?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Чарівна раковина\..\..\.....? Що це за нісенітниця...?
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Лона:\C[0] Я теж нічого тут не зрозуміла, але тут написано те, що потрібно?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Секретна Формула.... Несправжня?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] Не...воз...мож...но....
+\CBct[20]\m[confused]\plf\Rshake\c[6]Лона:\C[0] Ем... Все гаразд?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Місцевий:\C[0] \{Проваливай...!
+
+QuGiver/done3
+\SndLib[FishkindSmSpot]\prf\c[4]Детектив:\C[0] \{Стривай... На... Хвилинку...!!
+
+QuGiver/done4
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Детектив:\C[0] Я вже все знаю!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Детектив:\C[0] Ти вбив Красті Краба!
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]Місцевий:\C[0] Хаха... Секретна Формула несправжня.
+\SndLib[FishkindSmSpot]\CBmp[Detective,5]\plf\c[4]Детектив:\C[0] Ти вбив Красті Краба!!!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Детектив:\C[0] Ти підеш з нами... Ідемо... Негайно...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]Місцевий:\C[0] Хаха... Ха... Хаха...
+
+QuGiver/done_end
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Ем... Що це було?

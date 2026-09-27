@@ -1,0 +1,328 @@
+#Original translation by a MTL monkey. Massive rewrites and clean-up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+HumanPrisonCave/OvermapEnter
+\m[confused]Crystal Mine \optB[Leave,Enter]
+
+####################################### 狩獵ABOM任務相關 ######################################################
+
+Manager/Qprog1
+\CBmp[Manager,20]\m[normal]\c[4]Mine Warden：\c[0]    Are you here to help get rid of the monsters?
+\CBmp[Manager,20]\prf\c[4]Mine Warden：\c[0]    They send a runt like you over here? And a female, no less.
+\CBct[2]\m[confused]\PLF\c[6]Lona：\c[0]    Ummm...?
+\CBmp[Manager,20]\prf\c[4]Mine Warden：\c[0]    Whatever.
+\CBmp[Manager,20]\prf\c[4]Mine Warden：\c[0]    Most of the monsters gather around deep in the pits of the mine.
+\CBmp[Manager,20]\prf\c[4]Mine Warden：\c[0]    Be careful, try not to get too close to the resting area of the miners.
+\CBmp[Manager,20]\prf\c[4]Mine Warden：\c[0]    The miners here haven't seen a woman in a long time.
+
+Manager/Qprog1_KillCounted
+\CBct[20]\m[triumph]\c[6]Lona：\c[0]    Great! Seems like most of the spores have been cleared out.
+\CBmp[Manager,19]\m[pleased]\c[6]Lona：\c[0]    I should report back to the Mine Warden soon.
+
+Manager/Qprog2
+\CBmp[Manager,20]\prf\m[normal]\c[4]Mine Warden：\c[0]    Huh! The runt actually did a great job.
+\CBmp[Manager,20]\prf\m[normal]\c[4]Mine Warden：\c[0]    Alright, here's a commission token as proof of finishing the job.
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    Thank you!
+
+####################################### Captured ######################################################
+
+Narr/Captured0
+\narr The mine guards surrounded Lona...
+
+Narr/Captured1
+\SETpl[Mreg_pikeman]\c[4]Guard A：\c[0]    What's with this little girl just lying here?
+\SETpr[Mreg_guardsman]\c[4]Guard B：\c[0]    I dunno, maybe she came here after seeing the recruitment post at the docks?
+\prf\PLF\c[4]Guard A：\c[0]    And people still fall for it? She really believed that?
+\PRF\plf\c[4]Guard B：\c[0]    Who knows, there's always bound to be one. Right?
+\prf\PLF\c[4]Guard A：\c[0]    Tsk tsk... This world...
+\PRF\plf\c[4]Guard B：\c[0]    Oh well, let's bring her in and introduce her.
+
+Narr/Captured2
+\m[confused]\prh\narr Lona was captured and imprisoned...
+
+####################################### 逃跑 ######################################################
+
+HumanPrisonCave/guard_yelling
+\SETpl[Mreg_guardsman]\PLF\c[4]Guard：\c[0]\n    ALERT! SOMEONE'S TRYING TO ESCAPE!
+\m[shocked]!!!!!!
+
+####################################### 虐待演出 ######################################################
+
+HumanPrisonCave/RapeLoopTorture_begin1
+.........
+......
+...
+\SETpl[Mfat_tortruer]\m[pain]\Lshake\SND[SE/Whip02.ogg]\Rshake\c[4]Unknown：\c[0]    \{HEY BITCH! WAKE UP!!!
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\m[shocked]\PRF\c[6]Lona：\c[0]    AH?!
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\SETpl[Mfat_tortruer]\m[hurt]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturer：\c[0]    I SAID, WAKE THE FUCK UP!
+
+HumanPrisonCave/RapeLoopTorture_begin2_2
+\SETpl[Mfat_tortruer]\m[p5sta_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]Torturer：\c[0]    Watch carefully, you useless worms!
+
+HumanPrisonCave/RapeLoopTorture_begin2_3
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturer：\c[0]    ............
+
+HumanPrisonCave/RapeLoopTorture_begin2_4
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturer：\c[0]    ......
+
+HumanPrisonCave/RapeLoopTorture_begin2_5
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]Torturer：\c[0]    ...
+
+HumanPrisonCave/RapeLoopTorture_begin2_6
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturer：\c[0]    Disobey us, or fail to pay the daily output... And this will be your fate!
+
+HumanPrisonCave/RapeLoopTorture_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    Very good, tomorrow you'll need to turn in 
+
+HumanPrisonCave/RapeLoopTorture2_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    Very good, tomorrow you'll need to turn in 
+
+HumanPrisonCave/RapeLoopTorture_begin3_reflag
+ Crystal Ores. Otherwise, I'll make sure you're punished!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    DISMISSED!
+
+HumanPrisonCave/RapeLoopTorture2_begin3_reflag
+ Crystal Ores.
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    LISTEN UP! You guys better not be exhausted after having fun with her and forget about work!
+
+HumanPrisonCave/RapeLoopTorture_begin4
+\ph\narr\..\..\..
+
+HumanPrisonCave/RapeLoopTorture_end
+Lona lost consciousness, and the other prisoners carried Lona to her bed.
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin1
+\SND[SE/Whip02.ogg]\{ATT-EEEN-TION!!!
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_1
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Torturer：\c[0]    ...............
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_2
+\SETpl[Mfat_tortruer]\m[terror]\Rshake\SND[SE/Whip02.ogg]\Lshake\c[4]Torturer：\c[0]    ............
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_3
+\SETpl[Mfat_tortruer]\m[sad]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Torturer：\c[0]    ......
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_4
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Torturer：\c[0]    ...
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_0
+\m[sad] (That person looks like they're already dead.)
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_1
+\m[sad] (That person looks like they're about to die.)
+
+HumanPrisonCave/RapeLoopTorture_FristTime0
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    OH! It looks like we got a newbie here joinin' the happy slave life!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    It's a\..\..\.. LITTLE GIRL!
+
+HumanPrisonCave/RapeLoopTorture_FristTime1
+\m[wtf]\Rshake (Not good! He's talking about me...)
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    I believe her name was... Lona? What an adorable name!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    Everyone, remember to love each other with her as well!
+
+HumanPrisonCave/RapeLoopTorture_FristTime2
+\m[shy]\cg[event_Eyes] (Everyone's eyes begin to leer at me...)
+\m[fear] (What are their wicked eyes plotting to do?)
+\m[terror]\cgoff (I mustn't allow myself to look too weak, or else I'll be attacked.)
+
+####################################### 排隊肉便器 ######################################################
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1
+\m[hurt]\SND[SE/Chain_move01.ogg]\Rshake\c[6]Lona：\c[0]    EEEYAAAH!!!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    Everyone's been workin' so hard today!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    I saw many of you focused on working...!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    WHILE THIS FUCKIN' BITCH DECIDES TO JUST LAZE AROUND!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_1
+\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[6]Lona：\c[0]    GAAAHHH!!!
+\m[terror]\c[6]Lona：\c[0]    N-No! I wasn't being lazy! I really tried my best!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_2
+\SETpl[Mfat_tortruer]\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[4]Torturer：\c[0]    \{SHUDDUP!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    For today, everyone will being using this little bitch's body as their reward!
+\SETpl[raper_group]\Lshake\c[4]Mine Slaves：\c[0]    GIRL!
+\SETpl[raper_group]\Lshake\c[4]Mine Slaves：\c[0]    It's a girl! We can fuck a real girl!
+\SETpl[raper_group]\Lshake\c[4]Mine Slaves：\c[0]    Holy shit! I haven't enjoyed myself for a long time!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    QUIET! One by one! Everyone'll get a turn!\ph
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_3
+.........
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_typical
+\m[bereft]\c[6]Lona：\c[0]    No! L-Let me go! Please...!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_tsundere
+\m[angry]\c[6]Lona：\c[0]    NO! Don't you guys dare touch me!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_gloomy
+\m[terror]\c[6]Lona：\c[0]    N-No......
+\m[fear] (There's too many people, I'm going to die!)
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_slut
+\m[lewd]\c[6]Lona：\c[0]    Teehee! I don't plan on losing to you guys...~ ♥
+
+HumanPrisonCave/RapeLoopMeattoilet_end
+\SETpl[raper3]\Lshake\c[4]Mine Slave：\c[0]    Me next!
+\SETpl[raper2]\Lshake\c[4]Mine Slave：\c[0]    NO! Me next!
+\SETpl[raper1]\Lshake\c[4]Mine Slave：\c[0]    Fuck me! I'm going to be last!
+\ph The miners' fuck fest continued into the evening.
+During the endless rape, Lona lost consciousness. The other miners carried Lona to her bed.
+
+####################################### 一般守衛 ######################################################
+
+HumanPrisonCave/Guard_begin1_slave
+\c[4]Guard：\c[0]    Work! Damn slave!
+
+HumanPrisonCave/Guard_begin1_maggot
+\c[4]Guard：\c[0]    Filthy worms! Get to work!
+
+HumanPrisonCave/Guard_begin1_sexy
+\c[4]Guard：\c[0]    Get to work! Bitch!
+
+HumanPrisonCave/Guard_begin1_weaker
+\c[4]Guard：\c[0]    Get back to work! Maggot!
+
+HumanPrisonCave/Guard_begin1_moot
+\c[4]Guard：\c[0]    Do what you're supposed to do!
+
+HumanPrisonCave/Guard_begin1_lona
+\c[4]Guard：\c[0]    Get back to work!
+
+HumanPrisonCave/Guard_Opt
+\m[confused]\c[6]Lona：\c[0]    Ummm? \optB[Forget it,Barter,Sexual service<r=HiddenOPT1>]
+
+####################################### 一般男性礦工 ######################################################
+
+HumanPrisonCave/MinerM_begin1_slave
+\c[4]Mine Slave：\c[0]    Shoo! Don't touch me!
+
+HumanPrisonCave/MinerM_begin1_maggot
+\c[4]Mine Slave：\c[0]    Scram! Don't touch me!
+
+HumanPrisonCave/MinerM_begin1_sexy
+\c[4]Mine Slave：\c[0]    Heheee...
+
+HumanPrisonCave/MinerM_begin1_weaker
+\c[4]Mine Slave：\c[0]    Huh?
+
+HumanPrisonCave/MinerM_begin1_moot
+\c[4]Mine Slave：\c[0]    Don't bother me!
+
+HumanPrisonCave/MinerM_begin1_lona
+\c[4]Mine Slave：\c[0]    Whaddya want?
+
+####################################### 搶劫型礦工 ######################################################
+
+HumanPrisonCave/MinerHairTriggerM_begin_basic
+\c[4]Mine Slave：\c[0]    Your things are mine, my things are STILL MINE!
+
+HumanPrisonCave/MinerHairTriggerM_Opt_basic
+\m[confused]\c[6]Lona：\c[0]    Ummm? \optB[Forget it,Sexual service<r=HiddenOPT1>]
+
+HumanPrisonCave/MinerHairTriggerM_begin_aggro
+\c[4]Mine Slave：\c[0]    Hey, little girl. Give me all of your crystals.
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro
+\m[shocked]\c[6]Lona：\c[0]    \optD[Give him your Crystal Ores...<t=5>,No way!]
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_no
+\m[angry]\c[6]Lona：\c[0]    No way! Why should I?!
+\c[4]Mine Slave：\c[0]    You dare say no to me?!
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_yes
+\m[sad]\c[6]Lona：\c[0]    Everything... I'll give you everything! Just please don't hurt me...
+\c[4]Mine Slave：\c[0]    Huheheee! Hehee... That's a good girl.
+
+####################################### 礦坑交易員 ######################################################
+
+HumanPrisonCave/CaveTrader_begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Guard：\c[0]    What are you looking at? Lost? Have you turned in your crystals for today?
+
+HumanPrisonCave/CaveTrader_Opt
+\CBmp[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm? \optB[Never mind,Barter,Talk,Turn in Crystal Ores,Sexual service<r=HiddenOPT1>]
+
+HumanPrisonCave/CaveTrader_Talk1
+\CBmp[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Errr...
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    You must turn in the required crystals before tomorrow, otherwise you will be punished.
+\CBid[-1,5]\Lshake\prf\c[4]Guard：\c[0]    It's the same if you want to eat and drink, exchange us crystal ores for food. If you don't work, you won't eat!
+\CBmp[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Un-... -Understood.
+
+HumanPrisonCave/CaveTrader_AnsSexService
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    I'm not interested!
+
+HumanPrisonCave/CaveTrader_GiveMineral_begin
+\CBmp[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    This is how much I've manged to collect......
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Uh huh...
+\..\..\..\..
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_OkayButMore
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    NOT ENOUGH! Go back and keep digging for more!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_None
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    \{FUCK! YOU DARE LIE TO ME?!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_Full
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Well done! Keep digging for more until the day you die!
+
+HumanPrisonCave/CaveTrader_end
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Hurry up and get to work! You little bitch!
+
+HumanPrisonCave/CaveTrader_mineneed0
+You still need 
+
+HumanPrisonCave/CaveTrader_mineneed1
+ more Crystal Ores.
+
+####################################### 隱藏出口 ######################################################
+
+HumanPrisonCave/Windcave_frist_time
+\CBct[8]\m[shocked]\cg[map_region_hole]\c[6]Lona：\c[0]    A breeze?!
+\CBct[2]\m[normal]\c[6]Lona：\c[0]    If I can feel the wind, then this should lead to the outside.
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    My body's not that big.\n If I can dig this hole just a bit bigger......
+
+HumanPrisonCave/Windcave_Opt
+\CBct[8]\m[confused]\cg[map_region_hole]A hole in the wall. You can feel wind blowing through the hole. \optB[Don't waste your energy...,Attempt to dig the hole!<r=HiddenOPT1>]
+
+HumanPrisonCave/Windcave_Opt_dig
+\CBct[8]\m[normal]How much stamina will be used? \optB[Don't waste your energy...,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+HumanPrisonCave/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]Lona：\c[0]    Seems like I dug out a lot of the hole.
+\CBct[6]\m[tired]\c[6]Lona：\c[0]    But... *Huff*... S-So tired...
+
+HumanPrisonCave/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]!!!!!!
+\CBct[1]\m[shocked]!!!!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Lona：\c[0]    Alright! I can get out now!
+
+####################################### RAND RAPE LOOP ######################################################
+
+HumanPrisonCave/RapeLoop_begin1
+\m[shocked]\c[6]Lona：\c[0]    !!!!!!
+\SETpl[raper_group]\prf\c[4]Prisoners：\c[0]    \{GIRL!
+\SETpl[raper_group]\prf\c[4]Prisoners：\c[0]    \{Heehee, a girl!
+\SETpl[raper_group]\prf\c[4]Prisoners：\c[0]    It's been so long since we've fucked someone!
+\m[terror]\PRF\c[6]Lona：\c[0]    HUH?! W-Wait!
+
+####################################### Miner Trader ######################################################
+
+HumanPrisonCave/DirtyJohnson_begin1
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[normal]\Lshake\prf\c[4]Miner：\c[0]    Hey, see anything ya want? As long as ya got somethin' to pay for it.
+
+HumanPrisonCave/DirtyJohnson_WhoreWork_win_new
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]Miner：\c[0]    Oh ho ho!!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]Miner：\c[0]    It's been such a long time. A lotta dirts been stickin' onto my cock.
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]Miner：\c[0]    Help clean it all up for me, will ya?
+
+HumanPrisonCave/DirtyJohnson_WhoreWork_win_old
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]Miner：\c[0]    Oooh hoo!!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]Miner：\c[0]    What a good girl...
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]Miner：\c[0]    I need ya to help me clean my cock this time too.
+
+HumanPrisonCave/DirtyJohnson_WhoreWork_failed
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]Miner：\c[0]    I'm not interested! Go away!

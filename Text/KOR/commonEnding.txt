@@ -1,0 +1,524 @@
+
+
+############################## pointed Ending ########################################
+bat/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash수많은 박쥐 떼가 로나에게 달려들었다...
+\SndLib[sound_combat_hit_gore]\Rflash날카로운 이빨로 그녀의 몸을 갉아먹기 시작한다...
+\SndLib[sound_combat_hit_gore]\Rflash작은 몸집으로는 한 번에 삼킬 수 없어...
+\SndLib[sound_combat_hit_gore]\Rflash로나는 무려 한 시간 동안 고통 속에 몸부림치다 숨을 거두었다...
+
+undead/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash언데드들이 로나의 팔다리를 나눠 먹고 있다...
+\SndLib[sound_combat_hit_gore]\Rflash사지는 찢기고, 그들은 천천히 음미하듯 뜯어냈다...
+\SndLib[sound_combat_hit_gore]\Rflash로나의 고통은... 끝나지 않고 오래도록 계속되었다...
+
+wolf/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash늑대 무리가 로나의 시체를 뜯어먹기 시작했다...
+\SndLib[sound_combat_hit_gore]\Rflash그녀의 목덜미가 가장 먼저 물렸다...
+\SndLib[sound_combat_hit_gore]\Rflash고통은 길지 않았다. 로나는 곧 숨을 거두었다...
+
+KillerRabbit/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash로나는... 작은 토끼에게 먹혀버렸다...
+\SndLib[sound_combat_hit_gore]\Rflash우리는 그녀를 추모합니다...
+
+############################# Death ENDING ########################################
+Lona/hp0_begin
+\ph\SETpl[TellerNormal]\SETpr[nil]\c[4]수수께끼의 점술가：\c[0] 아아아……\n 안타깝군요. 로나가 쓰러졌습니다.
+\SETpl[TellerNormal]\c[4]수수께끼의 점술가：\c[0] 그녀의 존재를... 누군가 기억해줄까요?
+
+Lona/hp0_WithChild
+\SETpl[TellerEyeClosed]\c[4]수수께끼의 점술가：\c[0] 흠? 하지만 그녀는 후계자를 남긴 듯하네요.\n 어머니의 힘을 아이에게 계승시키는 것도 하나의 길이겠지요.
+\SETpl[TellerConfused]\c[4]수수께끼의 점술가：\c[0] 그럼... 선택하세요.
+
+Lona/hp0_WithChild_choosed0
+\SETpl[TellerEyeClosed]\c[4]수수께끼의 점술가：\c[0] 좋습니다. 준비하세요.
+
+Lona/hp0_WithChild_choosed1
+\ph\cgoff\narr\{\..\..\..\..\..\..
+
+Lona/hp0_WithChild_canceled
+\SETpl[TellerEyeClosed]\c[4]수수께끼의 점술가：\c[0] 그렇게 하시겠습니까? 아이에게도 이 혼란의 고통을 겪게 하고 싶지 않으신가 보군요.
+
+Lona/hp0_end
+\SETpl[TellerOkay]\c[4]수수께끼의 점술가：\c[0] 다시 시작하십시오. 이번에는 그녀를 올바른 길로 이끌 수 있기를 바랍니다.
+
+####################################### ENDING  ####################################################
+
+Common/EndingBegin
+\ph\SETpl[TellerEyeClosed]\c[4]수수께끼의 점술가：\c[0] \..\..\..\..\..
+\SETpl[TellerConfused]\c[4]수수께끼의 점술가：\c[0] 시간은... 멈추지 않고 흐르고……
+\SETpl[TellerNormal]\c[4]수수께끼의 점술가：\c[0] 자, 이제 그들이 어떻게 변해갔는지... 함께 지켜보도록 하죠.
+
+Common/EndingLonaBegin
+\narr그렇다면…… 로나는 어떤 결말을 맞이했을까요?
+
+############################# Orkind ########################################
+
+Orkind/Common0
+\SND[SE/Book1]\narr\{오크\..\..\..
+
+Orkind/OrkindDestroyed1_ClearnNoerOrkindQuest
+\SndLib[sys_DialogBoard]\cg[map_guards]용병 길드의 활약 덕분에, 노엘 마을 주변의 오크 수는 확실히 줄어들었다.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]목격자들의 증언에 따르면, 그 중심엔 어딘가 초라하고\c[4]가슴도 없는\c[0]용병이 있었다고 한다.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]하지만...
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]그 모든 평화는 잠시였을 뿐.
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]오크들의 기이한 번식력은 텅 빈 영역을 순식간에 메웠고, 노엘 마을 주변은 다시금 그들로 가득찼다.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]그렇다면… 오크의 끝은 어디였을까?
+
+Orkind/OrkindDestroyed2
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]그들은 눈에 보이는 생명체를 모조리 능욕했고
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]먹을 수 있는 건 닥치는 대로 삼켰으며
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]결국… 그 엄청난 번식력이 오히려 자신들을 잡아먹기 시작했다.
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]오크들은 흉물과 심지어 동족의 살까지 탐하기 시작했고
+\SndLib[sys_DialogBoard]\cg[map_region_badland]수년 후, 그 초록빛 피부의 종족은 노엘 섬에서 흔적도 없이 사라졌다.
+
+############################# FishKind ########################################
+
+FishKind/Common0
+\SND[SE/Book1]\narr\{어인\..\..\..
+
+FishKind/Common1
+\SndLib[sys_DialogBoard]\cg[map_FishPPL]모든 혼란이 끝난 후, 그들은 한때의 고향으로 돌아갔다.
+
+FishKind/Common2
+\SndLib[sys_DialogBoard]\cg[map_Shore]어인들은 사람이 사라진 노엘 섬 위에, 다시 집을 짓기 시작했다.
+
+FishKind/FishKindFine3
+\SndLib[sys_DialogBoard]\cg[event_menses]샤먼들의 노력 끝에, 어인들이 안고 있던 번식의 문제는 마침내 해결되었다.
+\SndLib[sys_DialogBoard]\cg[event_menses]그들은 이제 더 이상 외족의 여성에게 의존할 필요가 없었고, 마침내 다른 지적 생명체와 어깨를 나란히 하는 종족으로 우뚝 섰다.
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]1812년, 한 노년의 어인이 직접 만든 복엽기를 타고 세계 일주를 성공시켰고—
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]그의 저서 『아버지와 타이삼촌에게』는 오늘날까지도 베스트셀러로 사랑받고 있다.
+
+FishKind/FishKindDestroyed3
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]그들은 한때, 이 땅에서 영원히 살아갈 수 있을 거라 믿었다.
+\SndLib[sys_DialogBoard]\cg[map_region_badland]하지만 그들은 잊고 있었다. 노엘 섬은 이미 버려진 땅이었다는 사실을.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]그들의 신 또한… 어인들을 버렸다.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]절망적인 번식 방식 속에서, 그들의 종족은 빠르게 쇠락했고,
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]아무리 기도해도, 바다 마녀는 더 이상 응답하지 않았다.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]그로부터 수십 년 뒤, 이 종족은 역사의 무대에서 사라지고 말았다.
+
+############################# DoomFortressL ########################################
+
+DoomFortressL/Common0
+\SND[SE/Book1]\narr\{종말의 요새\..\..\..
+
+DoomFortressL/asdasdas
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# PirateBane ########################################
+
+PirateBane/Common0
+\SND[SE/Book1]\narr\{해적 파괴자 요새\..\..\..
+
+PirateBane/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# SouthFL ########################################
+
+SouthFL/Common0
+\SND[SE/Book1]\narr\{남문 야영지\..\..\..
+
+SouthFL/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# Noer ########################################
+
+Noer/Common0
+\SND[SE/Book1]\narr\{노엘 마을\..\..\..
+
+Noer/OrkindDestroyed1
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]물자가 바닥나자, 마을은 곧 폭동에 휩싸였다.
+\SndLib[sys_DialogBoard]\cg[map_bandits_farmer]얼마 지나지 않아, 주민들은 도적이 되었다.
+
+Noer/OrkindDestroyed2
+\SndLib[sys_DialogBoard]\cg[map_bandits]마을을 지키는 이도, 마물의 침입을 막는 이도 사라졌다.
+
+Noer/OrkindDestroyed2_QuProgCataUndeadHunt2_7
+\SndLib[sys_DialogBoard]\cg[map_region_hole]누군가 오크들의 지하통로를 막아보려 했지만, 소용없었다.
+
+Noer/OrkindDestroyed3
+\SndLib[sys_DialogBoard]\cg[map_region_hole]어느 날, 오크들이 지하통로를 뚫고 밀려들었다. 마치 파도처럼.
+
+Noer/OrkindDestroyed4
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]절망에 맞선 마을 사람들의 저항은 오래가지 못했다.
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]남성은 먹이가 되었고, 여성은 번식의 도구가 되었다.
+\SndLib[sys_DialogBoard]\cg[map_cityOnFire]노엘 마을은 결국, 시바리스와 같은 최후를 맞이했다.
+
+Noer/NukeDestroyed
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]어느 날, 그분이 분노하셨다.
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]거대한 광구가 노엘 마을의 밤하늘을 뒤덮었다.
+\SndLib[sys_DialogBoard]\cg[map_sos]가난한 자, 부유한 자, 노예, 신자… 누구든 상관없이, 그분은 모두에게 진정한 평등을 주었다.
+\SndLib[sys_DialogBoard]\cg[map_Nuke]거대한 폭발이 모든 분쟁을 무로 돌려놓았고, 노엘 마을은 지상에서 사라졌다.
+
+######################################################## SideChar ########################################
+############################# NoerTavern ########################################
+
+NoerTavern/Common0
+\SND[SE/Book1]\narr\{불타는 오크통\..\..\..
+
+NoerTavern/BookOfDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]마물이 마을로 쳐들어온 지 이틀째, 거리에는 산산조각 난 시신 더미가 가득 쌓였다.
+\SndLib[sys_DialogBoard]\cg[event_FightThePower]누구도 알지 못한다. 마담이 어떻게 전설의 『망자의 서』를 손에 넣었고, 어떤 제물을 거짓의 신에게 바쳤는지.
+\SndLib[sys_DialogBoard]\cg[map_undead_group]그날 이후, 수많은 언데드가 노엘 마을에 출현해 종류인들과 한 달간의 전쟁을 벌였다.
+\SndLib[sys_DialogBoard]\cg[map_undead_group]전해지길, 마담 역시 결국 언데드가 되었다고 한다.
+
+NoerTavern/FallWithCocona
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]노엘 마을이 무너지기 전, 마담과 그녀의 딸은 이미 떠나 있었다.
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]소문에 따르면, 그녀들은 종말의 요새를 거쳐 이 섬을 완전히 떠났다고 한다.
+
+NoerTavern/DefenceToDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]마담은 다시금 그녀의 명검을 들고 일어나, 노엘 마을을 향해 몰려드는 폭도와 마물들을 막아냈다.
+\SndLib[sys_DialogBoard]\cg[event_RipAndTear]오직 그녀 혼자 힘으로도 북문을 향한 종류인의 침공을 수차례나 막아냈다는 이야기가 있다.
+\SndLib[sys_DialogBoard]\cg[map_region_slum]하지만 그것은 단지 마을의 운명을 몇 걸음 더 연기했을 뿐이었다.
+\SndLib[sys_DialogBoard]\cg[map_region_AbomTown]그리고 마을이 끝내 무너진 뒤, 그녀가 어디로 향했는지는 아무도 모른다.
+
+############################# Nice boat ########################################
+
+TicketBought/begin1
+\bg[bg_NiceBoat]\m[confused]\C[6]로나：\C[0] 섬에 남은 사람들은... 괜찮을까? 피해는 더 커지진 않을까...
+\bg[bg_NiceBoat]\m[tired]\C[6]로나：\C[0] …그만하자. 걱정해봤자 달라질 건 없어. 난 그냥 평범한 사람이니까.
+\bg[bg_NiceBoat]\m[sad]\C[6]로나：\C[0] 정말... 너무 평범한 사람일 뿐이야.
+\SETpl[Mfat_DockCaptain]\m[normal]\Lshake\prf\C[6]에드워드：\C[0] 야, 꼬마. 바람이 세다. 갑판에 오래 있지 마라.
+\bg[bg_NiceBoat]\m[pleased]\plf\Rshake\C[6]로나：\C[0] 네! 알겠어요!
+
+TicketBought/begin2
+\SndLib[sys_DialogBoard]\narr\ph로나는 결국, 마물이 들끓는 노엘 섬을 떠났다.
+\SndLib[sys_DialogBoard]앞으로 어떤 일이 그녀를 기다리고 있을지는 아무도 모른다.
+\SndLib[sys_DialogBoard]하지만 적어도, 노엘 섬에 머무는 것보단 나을 것이다.
+
+############################# VIRGIN ########################################
+
+TicketBought/begin2_virgin
+\SndLib[sys_DialogBoard]\narr그 외에도, 그녀는 끝내 자신의 순결을 지켜냈다.
+\SndLib[sys_DialogBoard]수년 후, 동네 아이들조차 그녀를 늙은 처녀라며 놀려댔다.
+\SndLib[sys_DialogBoard]그녀는… 죽을 때까지 처녀였다.
+
+####################################### Human rapeloop #######################################
+
+HumanSlave/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]로나는 사라졌다. 다시는 그녀를 본 사람은 없었다.
+\SndLib[sys_DialogBoard]아주 오랜 시간이 지난 후\..\..\.. 어느 거리에서\..\..\..
+
+HumanSlave/begin2
+\SndLib[sound_Heartbeat]\narrOFF\c[4]추워……
+\SndLib[sound_Heartbeat]\narrOFF\c[4]배고파……
+\SndLib[sound_Heartbeat]\narrOFF\c[4]온몸이 너무 아파……
+\SndLib[sound_Heartbeat]\narrOFF\c[4]여긴… 어디지\..\..\..?
+\m[pain]\plf\Rshake\c[4]아파…… 너무 어두워…… 여긴 도대체 어디야?
+\SndLib[sound_step]\m[sad]\plf\PRF\c[4]누…누구 없어요? 저기요……?
+\SndLib[sound_step]\m[fear]\plf\PRF\c[4]누구야?! 다가오지 마! 나… 나 말 잘 들을게!
+\SndLib[sound_step]\m[shocked]\plf\Rshake\c[4]안 돼!! 오지 마.......!!
+\SndLib[sound_step]\m[confused]\plf\PRF\c[4]\..\..\..
+\bg[bg_Soup1]\m[shocked]\plf\Rshake\c[4]…야채 수프?!
+\bg[bg_Soup2]\m[shocked]\plf\Rshake\c[4]…고기 수프?! 진짜로…?
+\m[pleased]\plf\PRF\c[4]고마워요… 잘 먹겠습니다!
+\m[pleased]\plf\PRF\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\bgoff\m[terror]\plf\Rshake\c[4]에?! 안 돼........!
+\bgoff\m[bereft]\plf\Rshake\c[4]돌려줘!! 적어도 한 입만.........!
+\ph\narr\..\..\..
+
+HumanSlave/begin3
+\SndLib[sound_punch_hit]\SETpl[AnonMale2]\Lshake\c[4]남자：\c[0] 아, 젠장!
+\SETpr[AnonFemale]\plf\Rshake\c[4]여자：\c[0] 왜 그래?
+\cg[map_HungerDeath]\SETpl[AnonMale2]\Lshake\prf\c[4]남자：\c[0] 또 누가 죽은 노예를 여기다 막 던졌어?! 이게 뭐야?!
+\SETpr[AnonFemale]\plf\Rshake\c[4]여자：\c[0] 윽, 냄새 진짜 지독해… 옷에 다 밸 것 같잖아!
+\SETpl[AnonMale2]\Lshake\prf\c[4]남자：\c[0] 씨발!\.\.\SndLib[sound_punch_hit]\Lshake 젠장!\.\.\SndLib[sound_punch_hit]\Lshake 오늘 진짜 재수 옴붙었네!\.\.\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]여자：\c[0] 미치겠네, 비 와도 이 냄새는 안 씻겨 내려가.
+\SETpl[AnonMale2]\Lshake\prf\c[4]남자：\c[0] 다 꺼져버려!\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]여자：\c[0] 그냥 가자, 짜증나니까.
+\SETpr[AnonFemale]\plf\Rshake\c[4]여자：\c[0] 진짜 더러워. 돌아가서 신발 꼭 빨아!
+\ph\narr\..\..\..
+
+####################################### Orkind Rapeloop #######################################
+
+OrkindCampCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]로나는 실종되었다. 그 후로, 아무도 그녀를 본 사람이 없었다.
+\SndLib[sys_DialogBoard]오랜, 아주 오랜 시간이 흐르고\..\..\.. 어딘가의 동굴 안에서\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\c[4]…배고파…
+\SndLib[sound_Heartbeat]\c[4]…나, 정말 배고파, 정말 정말…
+\SndLib[sound_Heartbeat]\m[sad]\c[4]먹을 거 없어? 나… 뭔가 먹고 싶어! 제발, 먹을 거 좀 줘!
+\SndLib[sound_Heartbeat]\m[bereft]\Rshake\c[4]제발…! 부탁이야…! 누구든…!
+\SETpl[goblin]\Lshake\prf\C[4]마물：\C[0]꾸꾸챠!
+\m[shocked]\plf\Rshake\c[4]…먹을 거! 먹을 거야?! 정말…?!
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]마물：\C[0] 구히! 챠구챠!
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]마물：\C[0] 구히! 구히히히히히!
+\SndLib[sound_eat]\m[pleased]\plf\Rshake\c[4]맛있어! 고마워! 고마워요!
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]마물：\C[0] 구히히히히!
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]마물：\C[0] 구히히! 챠구챠!
+\narr마물들이 거울을 가져왔다. 그들은 로나에게 현실을 똑바로 보라며 거울을 들이댔다.
+\narrOFF\m[confused]\plf\Rshake\c[4]…거울?
+\cg[event_OrkindMother]\m[flirty]\plf\Rshake\c[4]이… 추악한 마물은 누구지? 왜 이런 눈으로 나를 쳐다보는 거야…?
+
+OrkindCampCaptured/begin2
+\..\..\..
+\SndLib[sound_Heartbeat]\m[shocked]\plf\Rshake\c[4]나…? 이게… 나라고…?!
+\SndLib[sound_OrcSpot]\m[fear]\plf\Rshake\c[4]안 돼!! 싫어, 싫어어!!!
+\SndLib[sound_OrcSpot]\m[terror]\plf\Rshake\c[4]싫어! 나는 사람이야! 괴물이 아니야!
+\SETpr[goblin]\plf\Rshake\C[4]마물：\C[0] 구히히히히!
+\SndLib[sound_OrcSpot]\m[bereft]\plf\Rshake\c[4]누가 좀… 누가 나 좀 구해줘…! 나, 더는 안 먹을래! 이제 안 먹을 거야…!
+\ph\..\..\..
+\SndLib[sound_Heartbeat]\c[4]…배고파…
+\SndLib[sound_Heartbeat]\c[4]…정말… 정말 배고파…… 배…고파……
+\SndLib[sound_Heartbeat]\c[4]먹을 거… 없어? 나… 뭔가 먹고 싶어… 제발… 먹을 것 좀… 줘……
+\cgoff\..\..\..
+
+############################# OrkindWarboss Rapeloop ########################################
+
+OrkindImpale/begin1
+\narr\..\..\..\..\..
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword].........
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]......
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]...
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[pain]\Rshake\c[4]아아아아아아아아!!!!!!!!
+\m[fear]\plf\Rshake\c[4]뭐야?! 무슨 일이야?!
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5sta_damage]\Rshake\c[4]으윽!!!
+\Rflash\cg[event_AnalTaken]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5health_damage]\Rshake\c[4]아파…!!! 제발 그만…!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5puke]\Rshake\c[4]그만해!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]아야아아아아!!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]으, 윽, 윽, 윽…!!!
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword].........
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]......
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]...
+\cg[map_orkind_expending]짐승처럼 변해버린 자들에 의해 로나는 거대한 말뚝에 꿰뚫렸다.
+\cg[map_orkind_expending]말뚝이 입 밖으로 튀어나올 때까지, 그녀는… 의식을 잃지 않았다.
+\cg[map_orkind_expending]그녀가 그렇게 참혹하게 죽어가는 모습을 생육의 어머니 또한, 분명히 기뻐했겠지……
+
+####################################### AbomHive Rapeloop #######################################
+
+AbomHiveCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]로나는 실종되었다. 그 후, 그녀를 본 사람은 아무도 없었다.
+\SndLib[sys_DialogBoard]아주, 아주 오랜 시간이 흐르고\..\..\.. 어딘가 마물의 둥지에서\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\m[p5shame]\c[4]여기가… 어디지…?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]…나, 어떻게 된 거야…?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]…아직… 살아있는 건가…?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]왜 아무것도… 아무것도 느껴지지 않는 거지…? 얼마나… 얼마나 오래 있었던 거야, 나…?
+\narr\prf\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\SndLib[sound_step]\m[p5shame]\c[4]…누구야…?
+
+AbomHiveCaptured/begin2
+\cg[map_AbomCorpse2]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]창병：\c[0] 야! 신참! 여기가 바로 그곳이다.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]용병：\c[0] 잠깐! 이 여자들… 아직 움직이고 있어!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]창병：\c[0] 불 질러!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]용병：\c[0] 안 돼! 잠깐만요! 성자님, 이 사람들… 아직… 죽지 않았어요!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]창병：\c[0] 아니야, 이미 끝난 목숨들이야! 넌 누구도 구할 수 없어!
+\narr\cgoff \.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\cg[map_AbomCorpse1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]창병：\c[0] 이리 와봐! 이것 좀 봐! 머리만 남았는데도 아직 꿈틀거려. 이걸… 살아있다고 할 수 있겠냐?
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\Rshake\c[4]…나… 나 말하는 거야? 구해줘…!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]창병：\c[0] 이젠 인간이 아니야! 이건 마물의 씨앗밭일 뿐이야!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]창병：\c[0] 태워버려! 지금 당장!
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\PLF\c[4]뭐라고? 안 돼! 나… 아직 안 죽었어! 살려줘…!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 예...옙!
+
+AbomHiveCaptured/begin3
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]아아아아!!
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]뜨거워! 안 돼! 죽기 싫어!
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]싫어! 안 돼! 아아아아아!!
+\cgoff\ph\narr\c[4]\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..
+\narrOFF\cg[map_cityOnFire]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]창병：\c[0] 이제야… 끝났군…
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]창병：\c[0] 오늘 일은 이제 시작이야. 아직 처리해야 할 둥지가 몇 군데나 남았어.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]용병：\c[0] 알겠습니다 !
+
+####################################### FishKind and Deepone Rapeloop #######################################
+
+FishkindCampCaptured/begin1
+\narr\..\..\..\..\..
+로나가 실종되었다. 그 후, 그녀를 본 사람은 아무도 없었다.
+아주, 아주 오랜 시간이 흐르고\..\..\.. 어딘가 마물의 둥지에서\..\..\..
+\narrOFF\cg[map_region_hole]\SndLib[sound_step]…나… 어떻게 된 거지? \.\SndLib[FishkindSmSpot] 여기는… 어디야…\.?\SndLib[sound_step]\.\SndLib[sound_step] 나… 마물한테 잡혀온 건가…?\.\SndLib[FishkindSmSpot]
+\c[4]너무 어두워, 아무것도 안 보여…
+\SndLib[sound_step]…누구 없어요…?\.\SndLib[FishkindSmSpot]\.\SndLib[sound_step]\.\SndLib[sound_step]제발, 제발… 누가 좀… 살려줘요…\.\SndLib[sound_equip_armor]
+\c[4]여성：\c[0] …내 말 들리니?
+\SndLib[sound_equip_armor]\c[4]누, 누구야? 제발… 죽이지 마… 나, 무서워…
+\m[confused]\C[4]여성：\C[0] 아! 너… 새로 온 애구나?
+\prf.....
+\m[normal]\C[4]여성：\C[0] 쉬… 조용히 해.
+\m[pleased]\C[4]여성：\C[0] 자, 가까이 와. 그렇게 무서워하지 마. 나도 너처럼 인간이야.
+\prf.....
+\m[shy]\C[4]여성：\C[0] 괜찮아, 괜찮아… 이제 그만 울어.
+\m[normal]\C[4]여성：\C[0] 나는 로나라고 해. 넌 이름이 뭐니?
+\prf.....
+\m[triumph]\C[4]여성：\C[0] 그래? 정말 예쁜 이름이네.
+\prf.....
+\m[shy]\C[4]여성：\C[0] 여기서 꽤 오래 있었어. 걱정하지 마. 나도 너처럼, 여기 끌려온 사람들을 계속 돌봐줬으니까.
+\prf.....
+\m[flirty]\C[4]여성：\C[0] 절대 그런 생각 하지 마. 많은 사람들이 시도했지만… 모두 죽었거든. 하지만, 넌 그런 짓 안 할 거지?
+\prf.....
+\m[shy]\C[4]여성：\C[0] 그만 울어. 내가 지켜줄게.
+\m[pleased]\C[4]여성：\C[0] 이리 와. 여기서 살아남으려면 알아야 할 게 많아. 걱정 마, 내가 도와줄 테니까.
+\cgoff\ph\narr\..\..\..\..
+
+##########################################################################################################################
+##########################################################################################################################	 ENDING SHIP
+##########################################################################################################################
+
+ending/end
+게임을 종료하시겠습니까?\optB[잠깐만,종료할게]
+
+ShipLadder/qMsg0
+바람이 불기 시작했다.
+
+ShipLadder/qMsg1
+올라가면 안 될 것 같아.
+
+ShipLadder/qMsg2
+너무 위험해.
+
+#update rename tag
+RecQuest/SMRefugeeCampFindChild10
+\CBid[-1,6]\prf\c[4]토미：\c[0] 왜… 왜 나한테 이런 일이…
+\CBid[-1,6]\prf\c[4]토미：\c[0] 엄마는 왜 나를 버린 거야…?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어… 혹시 너… 이름이…
+\CBct[20]\m[triumph]\PRF\c[6]로나：\c[0] 맞다! 토미, 맞지?
+\CBid[-1,20]\prf\c[4]토미：\c[0] 아! 언니구나!
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 너 엄마는 어디 계셔? 왜 너 혼자 여기 있는 거야?
+\CBid[-1,6]\prf\c[4]토미：\c[0] 엄마가 나를 버렸어… 나를 통에 넣고 버려두고, 내가 도망쳐 나왔더니 여기까지 오게 됐어…
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 그랬구나…… 참 많이 힘들었겠다…
+\CBid[-1,6]\prf\c[4]토미：\c[0] 아, 맞다! 그 막대기, 잘 써? 쓰면 기분 좋지 않아?
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 기분… 좋다고?
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 어… 휘두르기엔 꽤 손맛이 좋아. 근데 너무 무거워서 좀 힘들더라.
+
+RecQuest/Df_Heresy5_1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어… 혹시 너, 도리스 맞지? 네 언니는 어디 있어?
+
+RecQuest/Df_Heresy5_2
+\CBid[-1,6]\prf\c[4]도리스：\c[0] 아니! 나 도리스 아니야! 모모라는 사람도 몰라!
+\CBid[-1,6]\prf\c[4]도리스：\c[0] 사람 잘못 보셨어요!
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어… 알겠어…
+
+########################################################################################### Lisa
+
+Lisa/common0
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 리사! 너도 배에 타 있었어?!
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] \..\..\..
+
+Lisa/RecQuestLisa19KeepMem1
+\CBid[-1,2]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 어? 로나 언니 아니야?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어… 맞아… 어…\c[4]로나\c[0]…?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] \..\..\..\..\m[shocked]\Rshake 잠깐만! 너, 내 기억하고 있었어?!
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] \..\..\..
+\CBid[-1,6]\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] 아, 젠장! 큰일 났네!
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 그만 시치미 떼. 네가 나 잊지 않은 거 다 알아.
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 아냐! 진짜 하나도 기억 안 나! 완전 다 잊었어!
+\CBct[20]\m[triumph]\plf\PRF\c[6]로나：\c[0] 알겠어, 알겠어~
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 그나저나… 근데 너는 왜 여기 있는 거야?
+
+Lisa/RecQuestLisa18ResetMem1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 어? 언니였어?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어… 근데 너도 여기에 있었어?
+
+Lisa/RecQuestLisa19KeepMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] 이 섬은 진짜 지긋지긋해. 사방이 몬스터뿐이야.
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 지금도 밤마다 그 벌레 꿈을 꾼다고.
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] 사람들은 혼혈이라는 이유로 나를 무시해. 내 피가 더럽다고 해도, 그건 내 잘못이 아닌데!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 나, 여기서 벗어나고 싶어!
+
+Lisa/RecQuestLisa18ResetMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] 이 섬은 정말 지긋지긋해. 이방인이든, 친구든 모두가 나를 내쳐버렸어!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 여기서 벗어나고 싶어! 더 멋진 삶을 찾으러 갈 거야!
+
+Lisa/RecQuestLisa18ResetMem3
+\CBid[-1,8]\SETpl[LisaSad]\Lshake\prf\c[4]리사：\c[0] \..\..\..
+\CBid[-1,2]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 근데 우리 그렇게 친하지도 않잖아? 왜 이렇게 캐묻는 건데?
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 맞아, 엄청 친한 건 아니지. 그냥 인사나 하려고 했어.
+\CBct[20]\m[triumph]\plf\PRF\c[6]로나：\c[0] 그리고 있지, 나도 폭파하는 거 정말 좋아해!
+\CBid[-1,8]\SETpl[LisaTriumph]\Lshake\prf\c[4]리사：\c[0] 폭파? 언니도 그거 좋아해?!
+\ph\narr 로나와 리사는 폭발의 예술에 대해 함께 이야기를 나누기 시작했다\..\..\..\..
+
+Lisa/RecQuestLisa19KeepMem3
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그렇구나…
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 어쨌든 너랑 함께할 수 있어서 정말 좋아.
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[LisaTriumph]\Lshake\prf\c[4]리사：\c[0] 나도 그래!
+
+########################################################################################### Cocona
+
+Cocona/RecQuestCocona29_0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]코코나：\c[0] 언니! 너무 무서워!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 응? 뭐가 그렇게 무서워?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 물! 밖에 온통 물이야! 물뿐이야!!!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 물? 여기 바다 위라서 그래.
+\CBid[-1,2]\SETlpl[cocona_confused]\Lshake\prf\c[4]코코나：\c[0] 바다…?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 그래! 바다!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 바다? 바다가 뭐야?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 바다는… 어… 다른 대륙이랑 이어주는 곳이야?
+
+Cocona/RecQuestCocona29_1
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]코코나：\c[0] 대륙? 그건 또 뭐야??
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음… 노엘보다 훨씬 훨씬 훨씬 더 큰 곳이야.
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 노엘?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어… 우리가 살던 고향 말이야.
+\CBid[-1,20]\SETlpl[cocona_normal]\PLF\prf\c[4]코코나：\c[0] 코코나네 집보다 훨씬 더 커?
+\CBct[8]\m[pleased]\plf\Rshake\c[6]로나：\c[0] 그렇지! 노엘가 바로 우리 고향이고, 서대륙은 노엘보다 훨씬, 훨씬 더 커.
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]코코나：\c[0] 으냐아\..\..\..
+
+Cocona/RecQuestCocona29_2
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] \{와, 대단하다!
+
+Cocona/RecQuestCoconaVagTaken2_0
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] \{언니, 잠깐만!
+
+Cocona/RecQuestCoconaVagTaken2_1
+\CBct[2]\m[normal]\plf\PRF\c[6]로나：\c[0] 왜 그래? 코코나, 뭐 더 물어보고 싶은 거 있어?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 여기 사람 많아. 우리도 여기 있는 사람들이랑… 같이 놀아야 돼?
+
+Cocona/RecQuestCoconaVagTaken2_2
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 뭐\..\..\..？\m[shocked]\Rshake\{뭐라고?!
+
+Cocona/RecQuestCoconaVagTaken2_3
+\CBct[2]\m[shy]\plf\PRF\c[6]로나：\c[0] 아… 알겠다… 이제 그럴 필요 없어…
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 이제 더는 몸을 팔지 않아도 돼. 이제 푹 쉬자, 응?
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]코코나：\c[0] 으냐아\..\..\..
+
+Cocona/RecQuestCocona29_3
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] \{언니!!
+
+Cocona/RecQuestCocona29_4
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 또 궁금한 게 있어?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 책을 안 가져왔어!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 책?
+\CBid[-1,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 코코나네 집에 있던 책! 표지에 좋은 친구 그림이 있었던 그 책!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 네가 전에 늘 들고 다니던 그거? 그게 책이었구나?
+\CBid[-1,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 코코나, 그거 주인아줌마한테 두고 왔어… 좋은 친구가 잃어버리면 안 된다고 했는데…
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 괜찮아, 너무 걱정하지 마.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 육지에 도착하면 우리가 큰 도시에 갈 거야. 그때 언니가 새 책 하나 사줄게.
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]코코나：\c[0] 으냐아\..\..\..
+
+########################################################################################### EndingShipSlaveLona
+
+EndingShipSlaveLona/begin1
+으으…
+머리가 아파……
+몸이 너무 무거워……
+
+EndingShipSlaveLona/begin2
+여기가… 어디지? 난 지금… 뭐 하고 있는 거야?
+나는… 누구…였지…?
+아무것도… 기억이 안 나……
+…… 됐다.
+이젠 정말… 피곤해……
+그냥… 자고 싶어……
+더는 생각하고 싶지 않아……
+
+EndingShipSlaveLona/begin3
+\BonMP[Fucker2,20]\c[4]선원A：\c[0] 야, 신참! 아직도 안 끝났어?
+\BonMP[Fucker3,20]\c[4]선원B：\c[0] 뒤에 기다리는 사람이 수십 명이나 남았다고!
+\BonMP[Fucker4,20]\c[4]선원C：\c[0] 빨리 좀 해! 언제까지 뭉개고 있을 거야!
+
+EndingShipSlaveLona/begin4
+\BonMP[Fucker1,20]\c[4]선원D：\c[0] \{간다! 이제 들어간다!
+
+EndingShipSlaveLona/begin5
+\c[4]선원B：\c[0] 이제 내 차례다, 내 차례!
+\c[4]선원C：\c[0] 그냥 우리 전부 같이 하자고. 난 보지가 제일 좋아. 그리고 너, 넌 입만 좋아하잖아.
+\c[4]선원D：\c[0] 좋은 생각이야! 나는 항문로 할래. 이제부터 우리, 진짜 형제네.
+\c[4]선원B：\c[0] 좋아! 이제부터 우리 진짜 형제다!
+\c[4]선원C：\c[0] 비록 같은 날 태어나진 못했지만, 같은 날 죽으면 좋겠다!
+\c[4]선원D：\c[0] 좋은 형제들! 마셔라!
+
+EndingShipSlaveLona/end
+\narr로나는 살아서 저편에 닿았지만, 그녀가 어디로 팔려갔는지 아무도 알지 못했다\..\..\..
+\narr그 후로 로나를 본 사람은 다시는 없었다\..\..\..

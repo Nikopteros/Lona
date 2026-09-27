@@ -1,0 +1,293 @@
+thisMap/OvermapEnter
+\m[confused]Cloud Village\optB[Leave,Enter]
+
+############################################################################################## COMMON ALL, ENEMY, RAPELOOP
+
+alert/Captured
+\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Can't believe she just collapsed like that.
+\SETpr[AnonMale2]\plf\Rshake\c[4]Villager：\c[0]    At least put up a little resistance?
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    *Sob*...
+
+alert/CatchHer
+\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Get her!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh? What?
+
+alert/CatchEnemy
+\narr Cloud Village is now hostile!
+
+alert/ChestLoot
+\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    What was that noise?!
+\SETpr[AnonMale2]\Rshake\c[4]Villager：\c[0]    Intruder!
+\CBct[6]]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Ah?! What?!
+
+##############################################################################################
+
+#to translator.  first line is "你" mean male  secone "妳" mean female
+BradgeGuard/Begin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Who are you?! Why are you here?!!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... I'm just passing through?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    A woman\..\..\..
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Wait a tick! I'll go speak with the boss... I mean... The village chief!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Oh?
+
+BradgeGuard/Already
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Oh. It's you...
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    \..\..\..
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Whatever. Get in.
+
+BradgeGuard/Begin1
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    What a damn shame...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Nothing. Nothing at all. Come on through.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hmm...
+
+BradgeGuard/Begin2
+\CBct[20]\m[shocked]\Rshack\c[6]Lona：\c[0]    Eh?! What are you doing?!
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    What's the matter? Keep walking.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I... I was just passing by?
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Quit yer yappin' and hurry on in. The mayor's got a job for you.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh...?
+
+BradgeGuard/Opened
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Aren't you here to help? Get on with it?
+
+BradgeGuard/letLeave
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um... Could you please step aside?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    What? The boss really let you leave?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    The boss?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    All good then! You can leave.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh...
+
+BradgeGuard/letLeaveLoop
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Why are ya still sticking around?
+
+BradgeGuard/CecilyExtra
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Grayrat：\c[0]    ......
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\c[4]Cecily：\c[0]    What's wrong?
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]Grayrat：\c[0]    Careful, something's not right...
+\CBfB[6]\SETpl[CecilyShyAr]\Lshake\c[4]Cecily：\c[0]    ....
+
+BradgeGuard/Anon0
+\CBid[-1,20]\c[4]Villager：\c[0]    More and more monsters are showing up nowadays, maybe we could eat some of them?
+
+BradgeGuard/Anon1
+\CBid[-1,20]\c[4]Villager：\c[0]    There's less and less prey to hunt...
+
+BradgeGuard/Anon2
+\CBid[-1,2]\c[4]Villager：\c[0]    You're the newcomer? Hehehehe...
+
+BradgeGuard/DoorGuard0
+\CBid[-1,5]\c[4]Villager：\c[0]    Oi! This place is off limits!
+
+BradgeGuard/DoorGuard1
+\CBid[-1,5]\c[4]Villager：\c[0]    Fuck off! Get lost!
+
+BradgeGuard/DoorGuard2
+\CBid[-1,5]\c[4]Villager：\c[0]    Hey! The fuck are you sneaking about for!?
+
+BradgeGuard/TreeBad0
+\CBid[-1,5]\c[4]Villager：\c[0]    This bastard's been hiding food. Truly evil.
+
+BradgeGuard/TreeBad1
+\CBid[-1,5]\c[4]Villager：\c[0]    God damnit, can't believe we let their mongrel kin escape.
+
+BradgeGuard/TreeBad2
+\CBid[-1,5]\c[4]Villager：\c[0]    I bet they're all slaves of the false god.
+
+BradgeGuard/TreeSaint0
+\CBid[-1,8]\c[4]Villager：\c[0]    They stole food from us. This was the only option.
+
+BradgeGuard/TreeSaint1
+\CBid[-1,8]\c[4]Villager：\c[0]    The Saint will forgive us...
+
+###################################################################### boss talk
+
+Boss/aggro0
+\CBid[-1,1]\c[4]Village Chief：\c[0]    Who are you!? How did you get in?!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Um...
+
+Boss/aggro1
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Guards! There's an intruder!
+
+Boss/begin0
+\CBid[-1,3]\c[4]Village Chief：\c[0]    Ah, you must be the mercenary here to help.
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh... I'm actually just passing through...
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    It's not a big deal. You'll be fine.
+
+Boss/beginOPT_KilltheKid
+Help him
+
+Boss/beginOPT_TheKidSaid
+What the kid told you
+
+Boss/beginOPT_TheKidDeadLie
+Griou is dead (Lie)
+
+Boss/beginOPT_TheKidDead
+Griou is dead
+
+Boss/KillTheKid1_alreadyAccepted
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Why are ya still here? Shouldn't you get going?
+
+Boss/SMCloudVillage_KillTheKid0_1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Um... How exactly do you want me to help?
+
+Boss/SMCloudVillage_KillTheKid0_2
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]Village Chief：\c[0]    See the two corpses hanging up there?
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]Village Chief：\c[0]    These bastards stole food from us.
+
+Boss/SMCloudVillage_KillTheKid0_3
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    My brothers and I captured them and hanged this lecherous couple to death.
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Sadly, one rascal had gone soft, actually let their filthy brat get away.
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    That little bastard \c[6]Griou\c[0]，word is he has been hiding just outside Noer Town.
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Can't let that little brat cause trouble.
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Listen. I want that kid dead. Find him, get rid of him.
+
+Boss/SMCloudVillage_KillTheKid0_4_brd
+\board[Kill the little brat]
+Goal：Kill the little brat hiding near Noer Town
+Reward：Large Copper Coin 4
+Client：Cloud Village Chief
+Time Limit：Once
+Stole our food and gettng away with it!
+That family stole from our grannaries.
+My brothers and I caught them, then hanged the bastards.
+Sadly a rascal went soft, ended up letting their kid get away.
+The little bastard is called \c[6]Griou\c[0]，word is he's hiding outside Noer Town
+Listen. I want the kid dead. Find him, get rid of him.
+
+Boss/SMCloudVillage_KillTheKid1_A
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Murder? And a kid too?
+\CBct[8]\m[confused]\prf\c[6]Lona：\c[0]    Ugh...
+
+Boss/SMCloudVillage_KillTheKid1_yes
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I'll do it. At least there's money in it, right?
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Good. Glad to see mercenaries from the cities are something else.
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Go. I'll be ready.
+
+Boss/SMCloudVillage_KillTheKid1_no
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Nevermind...
+
+Boss/SMCloudVillage_KillTheKid2_1
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]   Um... I got that kid\..\..\..\c[4]Griou\c[0] killed.
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Good. Great job. As expected of big city mercenaries!
+\CBct[8]\m[confused]\..\..\..
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]   So... What about the reward?
+\CBid[-1,6]\prf\c[4]Village Chief：\c[0]    Right right right! Money! Of course it's yours! We'll definitely pay you!
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    But... My money is hidden in my house.
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Yet there's some vile greenskins in there, you have got to help us kill them.
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Green\..\..\..
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    Orkind?!
+\CBid[-1,1]\prf\c[4]Village Chief：\c[0]    Orkind\..\..\..? Yes, they're orkind.
+
+Boss/TheKidSaid_play
+\CBct[8]\m[angry]\Rshake\c[6]Lona：\c[0]    You liar! \c[4]Griou\c[0] told me you're just a bunch of bandits!
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[confused]\..\..\..
+
+Boss/SMCloudVillage_KillTheKid2_2
+\CBid[-1,20]\prf\c[4]Village Chief：\c[0]    Alright. It's up to you.
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]   Uh...
+
+Boss/Talked0
+\CBid[-1,20]\c[4]Village Chief：\c[0]    What, get in there now.
+
+Boss/Talked1
+\CBid[-1,20]\c[4]Village Chief：\c[0]    The future of the village is in your hands.
+
+Boss/Talked2
+\CBid[-1,20]\c[4]Village Chief：\c[0]    Hurry up and defeat the monsters. We will reward you handsomely for this.
+
+Boss/CatcheLona
+\CBmp[Boss,20]\c[4]Village Chief：\c[0]    \{Catch her!
+\CBmp[Boss,20]\c[4]Village Chief：\c[0]    \{She knows too much!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Eh?!
+
+Boss/Trap1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]   So... Where's the orkinds?
+
+Boss/Trap2
+\CBmp[Boss,20]\prf\c[4]Village Chief：\c[0]    Erm...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]   So... Where's... The orkind?
+\CBmp[Boss,20]\prf\c[4]Village Chief：\c[0]    There's no orkind, how could some greenskins be tougher than us?
+\CBmp[Boss,20]\prf\c[4]Village Chief：\c[0]    Our business is killing and robbing, especially dumbasses like yourself!
+\CBmp[Boss,20]\prf\c[4]Village Chief：\c[0]    Since you know our secrets, we can't let you leave.
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]   \{Eh?!
+
+Boss/Trap_ATKboss_alive
+\CBmp[BossAtk,4]\prf\c[4]Village Chief：\c[0]    Boss, she looks real fertile, plus she's got no tits, just my type♥
+\CBmp[Boss,3]\prf\c[4]Village Chief：\c[0]    Bro, if ya like her then just have at it♥
+
+Boss/Trap3
+\CBmp[Boss,20]\prf\c[4]Village Chief：\c[0]    Careful ya don't kill her!
+\CBmp[Boss,20]\prf\c[4]Village Chief：\c[0]    The cities been buying up slaves as of late, so right now there's a lack of slaves.
+\CBmp[Boss,20]\prf\c[4]Village Chief：\c[0]    Let's get fucking!
+\CBct[5]\m[serious]\Rshake\c[6]Lona：\c[0]   ...
+
+############################################################# rapeloop
+
+beginEvent/begin
+\CBmp[Raper1,20]\C[4]Villager：\C[0]    You better stay put before we find your buyer!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    What's going to happen to me...
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Slave...
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    \{No! I don't want to be a slave!
+
+Common/PlaceFood0
+\C[4]Villager：\C[0]    \{Oi! Dumb bitch! Eat up!
+
+Common/WakeUpCall0
+\SndLib[sound_hit_whip]\{Fuck sake! Still sleeping!
+
+Common/WakeUpCall1
+\SndLib[sound_hit_whip]\{Hey! Trash!
+
+Common/WakeUpCall2
+\SndLib[sound_hit_whip]\{Filthy whore! Wake up!
+
+BossAtk/NightRngRape
+\CBmp[BossAtk,4]\C[4]Lackey：\C[0]    Hehe, boss says I can have you however I like.
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    Uwuu... *Whimper*
+\CBmp[BossAtk,20]\prf\C[4]Lackey：\C[0]    \{Now spread those legs!
+
+BossAtk/NightRng_revenge
+\CBmp[BossAtk,5]\C[4]Lackey：\C[0]    This is vengeance for my brother!
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    Uwuu... *Whimper*
+\CBmp[BossAtk,5]\C[4]Lackey：\C[0]    Take this!
+
+Common/NapRape1
+\C[4]Villager：\C[0]    Hehehe.
+
+Common/NapRape3_0
+\C[4]Villager：\C[0]    I could use a little relief.
+
+Common/NapRape3_1
+\C[4]Villager：\C[0]    You lying there because you want my cock, right?
+
+Common/NapRape3_2
+\C[4]Villager：\C[0]    I'll tear that cheap cunt up!
+
+Common/NapRape_withSta_NoFight
+\C[4]Villager：\C[0]    There's a good girl♥
+
+Common/NapRape_withSta_Fight
+\C[4]Villager：\C[0]    \{Stupid slut! Needs a beating!
+
+Common/NapRape
+\CBmp[Raper1,20]\C[4]Villager：\C[0]    Oi, wonder if she's dead.
+\CBmp[Raper2,20]\C[4]Villager：\C[0]    Not dead yet. Let's have a go at her.
+\CBmp[Raper1,20]\C[4]Villager：\C[0]    Don't end up killing her, the boss is still looking for a buyer.
+
+Common/NapTorture1
+\CBmp[Raper1,20]\C[4]Villager：\C[0]    Filthy bitch, where do you think you're going?
+\CBmp[Raper2,20]\C[4]Villager：\C[0]    Beat her!
+\CBmp[Raper1,20]\C[4]Villager：\C[0]    \{Hey! Wake up!
+
+Common/NapTorture2
+\CBct[2]\m[tired]\C[6]Lona：\C[0]    Eh?
+\CBmp[Raper1,20]\prf\C[4]Villager：\C[0]    I wanna test out my martial arts!
+\CBct[6]\m[terror]\prf\C[6]Lona：\C[0]    \{Eeeeek!!!
+
+Common/NapTorture3
+\CBct[6]\m[pain]\Rshake\C[6]Lona：\C[0]    Stop...please...
+\CBmp[Raper2,20]\prf\C[4]Villager：\C[0]    Boring. Let's find something else to do.

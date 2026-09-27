@@ -1,0 +1,73 @@
+ThisMap/OmEnter
+\m[confused]Sybaris Southwest Gate\optB[Leave,Enter]
+
+QuProgSybBarn2/begin1
+\c[4]refugee：\c[0]    My child... I killed my child...
+\c[4]refugee：\c[0]    Ahah-ahahah!!!
+
+QuProgSybBarn2/begin2
+\CBmp[Yeller,20]\c[4]refugee：\c[0]    Why!? Saints! Why!?
+\CBmp[Yeller,20]\c[4]refugee：\c[0]    \{Yay!!!
+
+QuProgSybBarn2/begin3
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    What...?
+
+Guard0/begin0
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Um? More survivors?
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Better turn around, girl, you're going in the wrong direction!
+\CBct[6]\m[confused]\c[6]Lona：\c[0]    Huh? No, I'm a mercenary! I'm here to help.
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Mercenary? You? You're just a kid.
+\CBct[6]\m[flirty]\c[6]Lona：\c[0]    Im not...
+\CBid[-1,5]\prf\c[4]Mercenary：\c[0]    Go! Get out of here quickly, this is not a place for little girls to hang around.
+\CBct[8]\m[tired]\c[6]Lona：\c[0]    Well....
+
+Guard1/begin0
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    It seems the rumors are true, It's all over for \c[6]Sybaris\c[0].
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    A few months ago, I joked about them being subhuman beggars, now look at their ghostly appearance.
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Really jinxed it for them, didn't I?
+
+Guard2/begin0
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    This ghost town is really quite gloomy... Didn't that black mist start to dissipate?
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    There are dead people everywhere and the land is ruined.
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    And I heard that the infected area is still expanding...
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Is Noer Island doomed?
+
+Guard3/begin0
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    This is my home, I used to live here, and now it's all gone.
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    My friends, family, my house... All gone.
+
+GuardMain/opt
+\CBct[6]\m[confused]\c[6]Lona：\c[0]    Well...\optB[Leave,Mercenary,Woman]
+
+GuardMain/opt_Mercenary
+\CBct[6]\m[confused]\c[6]Lona：\c[0]    Are you mercenaries? Why are there so many mercenaries here?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    What are you doing here This is not the place for children.
+\CBct[5]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I'm a mercenary!
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    You\..\..\..?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Forget it, now I won't be surprised to see little girls on the front line.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I hear it's understaffed here? Why are there so many people?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    We're from the town of Noer with a mission to find any available supplies and survivors.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Is that so?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Of course, it's only for professional mercenary like me, so scoot! Get out of here, kid!
+
+GuardMain/opt_Her
+\CBct[6]\m[flirty]\c[6]Lona：\c[0]    Well.... So what happened to her?
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    She\..\..\..?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    These people, what a pity....
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Looks like they decided to kill themselves just before we arrived?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    She was the last one, and she seemed to kill her own baby before we got here.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    When it was her turn.... We showed up.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Ironic isn't it?
+
+MainWomen/Qmsg0
+Yay!!!
+
+MainWomen/Qmsg1
+Ahahhah-ahah!!!
+
+Guard/Qmsg0
+Go away!
+
+Guard/Qmsg1
+Get out of the way!

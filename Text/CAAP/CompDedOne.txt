@@ -1,0 +1,156 @@
+######################################################################## Ded One begin
+
+DedOne/ded0
+\SETpl[DedOne_revenant]\Lshake\c[4]Desconocido:\C[0]    ¡¡GRRRUUUAAAHHH!!! ¡¡GGGGRRAAAHHH!!
+
+DedOne/ded1
+\SETpl[DedOne_revenant]\Lshake\c[4]Desconocido:\C[0]    ¡¡RRRRRRRRRRRRRR!! ¡¡ARRRUINASTE MI HISTORIAAA!!
+
+DedOne/ded2
+\SETpl[DedOne_revenant]\Lshake\c[4]Desconocido:\C[0]    ¡¡AAARRRHHHHH!! ¡¡CAÑONEEES! ¡¡NECESITO MÁS CAÑONEEES!!
+
+DedOne/PirateBane_begin1
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\c[4]Desconocido:\C[0]    ......
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡Ooooy! ¡Ay!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    .........
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona:\C[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    ...
+\CBct[1]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Bueno...
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona:\C[0]    ¡No te tengo miedo!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    .....¿De verdaaaad?
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡¡AYYY! ¡¡Habla!!
+
+DedOne/PirateBane_begin_k1_Cocona
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\SETlpr[cocona_confused]\Lshake\PRF\c[4]Desconocido:\C[0]    .....¿Hmmm?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\PRF\c[4]Desconocido:\C[0]    ¿Esteee niñññooo sigue vivooo...?
+\CBfB[7]\SETlpr[cocona_shocked]\plf\Rshake\c[6]Cocona:\C[0]    ¡Tú...! ¡Cocona te conoce! ¡Hombre malo!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Nooo, cariñññoo, no soy malooo. Soy mensajeeero de la Justiccccia.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]Cocona:\C[0]    ¡No! ¡Shhh...! ¡Mientes!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    No es ciierto.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]Cocona:\C[0]    ¡Sí lo es!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡NO ES CIERTO!!
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]Cocona:\C[0]    ..........
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\PLF\prf\c[4]Desconocido:\C[0]    .......
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]Cocona:\C[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    ...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\Lshake\PRF\c[4]Desconocido:\C[0]    Cuiiidaaa de ellllla.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Uff.....
+\CBct[1]\m[triumph]\plf\PRF\c[6]Lona:\C[0]    ¡Claro!
+
+DedOne/PirateBane_begin_k1_GratRat
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Greyrat:\C[0]    ¡APÁRTESE, SEÑORITA!
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Greyrat:\C[0]    Tú... ¿Qué eres siquiera?
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia:\C[0]    ¿Qué pasa?
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Greyrat:\C[0]    ¡No se acerquen! ¡Manténganse lejos de él!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    .....¿Hmmm?
+\CBfB[2]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecilia:\C[0]    ¡¿Qué demonios pasa?!
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Greyrat:\C[0]    ¡Esta criatura es peligrosa! ¡Huyan!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    ¿Estááán locooos? ¡Soy mensajeeero de la Justiccccia!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Explíííquenmee, ¿qué les he hechooo?
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[6]Greyrat:\C[0]    .......
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]Greyrat:\C[0]    .......
+\CBfF[6]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]Greyrat:\C[0]    Te malentendí, discúlpeme, señor.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Todo bieeeen... Pasa seguuudo.
+
+DedOne/PirateBane_begin_k2
+\CBmp[DedOne,20]\m[confused]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Pequeñññita mía... ¿Has visto alguna vez a una persona así?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Es más o meeenos de tu edaaad... Pero sus seeenos son mucho mááás grandes.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿S-seeenos...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡Prestaaa atención! Sus seeenos son muy difereeeentes a los tullos, son enormeees. Diriía que son como melooones de miel.
+\CBct[8]\m[shy]\plf\Rshake\c[6]Lona:\C[0]    ¿En... Enormes...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    No te deprimaaas, los peeechos planos también son lindooos.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡Pequeñññita mía! ¡¡Escúchame bien y recuerda mis palabrasss!!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Si tus seeenos no son plaaanos, ¿cómo puede ser justooo el mundo?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Si tus seeenos no son grandeees, ¿cómo puede unirse la genteee?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    En el sueññño eróticooo no existe lo grandee ni lo plano.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Todo lo que podeeeemos lograr es alcanzaaar el orgasmo con nuestras proooopias manos.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Ejem-... Yo...
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    No te preocupeeees... Solo estoy burláándome de tiii.
+
+DedOne/PirateBane_begin_k3
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    Si alguna vez te encuentras con una chica bajita, de seeenos grandes, piel azul y un poco tontaaa, tráéemela, por favoooor.
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    ¿Acaso las chicas de piel azul no son comunes aquí? Espero que siga viva.
+
+DedOne/PirateBane_begin_k3_Opt
+\CBct[8]\m[normal]\SETpl[DedOne_normal]\plf\PRF\c[6]Lona:\C[0]    Emmm... \optB[Cancelar,¿Quién eres?,¿Piel azul?<r=HiddenOPT0>]
+
+DedOne/PirateBane_begin_k3_Opt_who
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Quién eres?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    ¡¡JUSTICIIIA! ¡¡YO SOY LA JUSTICIA MISMA!!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    ¡La Justiccccia ha llegado a la isla Noeeer para destruir a toooodas las criaturas malvadas y limpiar este mundo!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    ¡¡Mientras existaaa el mal, ¡¡YO EXISTIRÉÉÉ!!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿E-entendido..?
+
+DedOne/PirateBane_begin_k3_Opt_blue_NonMeet
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Una chica de piel azul?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Con el caos que hay ahora en el mundo... Las posibilidades de encontrarla son bajas, ¿no?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    Ella está bieeeen. Leí el guióóón, en el futuro la conocerááás.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿En serio?
+
+DedOne/PirateBane_begin_k3_Opt_blue_Meet
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ...¿Una chica de piel azul?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    La vi, una chica extraña que se hacía llamar \c[6]Bruja del Mar\C[0], ¿te refieres a ella?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    ¡¡AHHH! ¡¡Así que tooooodo sigue el guióóón!! ¡¡Exceleeente!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    Díííle que el terrateeeniente quiere que pague el alquileeeer. Y díííle que deje de intentar escondeeerse.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Pagar alquiler? ¿Por qué no se lo dices tú? Ahora está en las ruinas de Piscópolis.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    Es inúúútil, ella siente mi preseencia. Solo quiero recordaaarle que debe pagaaar. Si no quiere verme, no la obligaré.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia:\C[0]    Claaaro, no lo harááás gratis. Cumple mi tarea y te recompensaré con el dooon de la Justiccccia.
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona:\C[0]    ¿Oh? Entonces bien.
+
+####################################################################### PB_MassGrave
+
+DedOne/MassGrave_1
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona:\C[0]    E...¿Disculpe?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    ¿Quéee pasa?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Emmm.....
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    La gente del Gremio dijo que alguien malvado anda haciendo cosas horribles aquí. ¿No será usted...?
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    ......¿Mmmalvado?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Ejem... ¿Quizás se refieren a usted?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    ¿¿Yooo?? ¿¿MALVADOOO?? \optD[Sí,Explicar<r=HiddenOPT0>]
+
+DedOne/MassGrave_optCB
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Em... ¿Sí...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    ¿¿Por quééé?? Estoy concentraaado en mi trabaaajo, y este mundo me necesita.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Pero ya has violado la ley y la paz.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Todos te temen... Y a mí también me pareces malvado.
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡¡AAAAAAARRRHHHHHH!!!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡¿QUÉ DIJISTE?!! ¡¡YO NO SOY MALVADO!!\n \.\.\.YO\.\.\. YO\.\.\. ¡¡SOY LA JUSTICIAAA!!
+\CBmp[DedOne,1]\SETpl[DedOne_angry]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡DEMUESTRA TU VALOR! ¡¡TE DARÉ TREINTA SEGUNDOS!!\n ¡¡SI SOBREVIVES, TE ESCUCHARÉ!!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¿¿QUÉ-?? ¡¡AHHH!!
+
+DedOne/MassGrave_optCB2
+\CamMP[BlockerCam]\m[terror]\plf\PRF\c[6]Lona:\C[0]    ¡¡AHHHH!?
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡MUERE EN AGONÍÍÍA!!
+
+DedOne/MassGrave_optPASS
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Em... ¿Esto está bien...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    ¿¿Quééé?? Estoy concentraaado en mi trabaaajo, y este mundo me necesita.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Trabajas? ¿En qué?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    Estas oveeejas perdidaaas necesitan mi guía. Las llevaaaré a donde deben estaaar.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Emmm.... No entiendo.
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona:\C[0]    En fin, por favor, trata de no llamar la atención. Causarás problemas.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    ¡¡Yo administro la Justiccccia!! ¿Por quééé ocultaría lo que hago?
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Ohh...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡Entonces salva a la gente inocente!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¿Acaso la gente normal pasea por cementerios a medianoche? Dime.
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Desconocido:\C[0]    Oh...... Mejor me voy. Buena suerteee.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Lona:\C[0]    ¿Qué?..
+
+DedOne/MassGrave_optPASS2
+\CBct[20]\m[confused]\SETpl[nil]\PRF\c[6]Lona:\C[0]    ¿Estás bien de la cabeza, verdad?
+
+DedOne/MassGrave_WIN
+\SETpl[DedOne_angry]\Lshake\prf\c[4]Desconocido:\C[0]    ¡¡Sobreviviiiste! ¡Impreesionante, eres una buena cazadora!
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido:\C[0]    ¡Hasta luueego!
+\CBct[20]\m[wtf]\SETpl[nil]\plf\Rshake\c[6]Lona:\C[0]    ¡¿Qué?! ¿Tú mismo entiendes lo que dices?
+
+####################################################################### PB_NorthCP
+
+PB_NorthCP/Qmsg0
+Yo soy... ¡¡LA JUSTICIAAA!!
+
+PB_NorthCP/Qmsg1
+¡¡NO TEEEEMAN!!
+
+PB_NorthCP/Qmsg2
+¡¡LA JUSTICIA AVANZAAA!!

@@ -1,0 +1,173 @@
+#Plainview
+NFL_OrkCamp2/OvermapEnter
+\cg[map_GobRaider]\m[confused]Село Перранвей\nПеревалочна станція для мисливців \optB[Скасувати,Увійти]
+
+########################################################################## NFLOrkindCmap2 rapeloop and quest
+
+NFL_OrkCamp2/Rapeloop_FoodOffer
+\SndLib[sound_goblin_roar]\narr Вони залишилися задоволені представленням м'ясної дірки і залишили їй трохи їжі.
+
+NFL_OrkCamp2/Rapeloop_show_end
+\cg[event_OrkindGonnaRape]\SndLib[sound_goblin_roar]\narr М'ясна дірка під глузування закінчила свою виставу, вони залишилися дуже задоволені.
+Вони кинули цій смішній м'ясній дірці кілька шматків м'яса, що згнило.
+
+NFL_OrkCamp2/Rapeloop_show_no
+Вони виявилися дуже злими, коли м'ясна дірка відмовила їм.
+\narr Тому вони вирішили добре покарати неслухняну дірку...
+
+NFL_OrkCamp2/RapeLoopNonCapture
+\m[fear]\narr Вони схопили Лону - худну м'ясну дірку.
+\m[terror]\narr Великий брат сказав, що м'ясні дірки потрібно відправити на фарш, але худу можна залишити для розваги.
+
+##########################
+
+NFL_OrkCamp2/Rapeloop_None_WakeBegin
+\narr Брати втомилися від гри з діркою і вирішили добре відпочити.
+
+##########################
+
+NFL_OrkCamp2/Rapeloop_DryCropse_WakeBegin
+\narr\..\..\..\ph\SndLib[sys_equip]Здається, в клітку до Лоні щось занесли...
+
+NFL_OrkCamp2/Rapeloop_DryCropse0
+\ph\cg[event_DryCropse]\SndLib[sound_ZombieSpot]Свиначоловік, що хрипить. Деякі частини його обличчя та кінцівок відсутні, а тіло виглядає худорлявим і виснаженим.
+
+NFL_OrkCamp2/Rapeloop_DryCropse1
+\ph\cg[event_WartsDick]Тільки його покритий паразитами член був сильно роздутий...
+
+NFL_OrkCamp2/Rapeloop_DryCropse2
+\ph\cg[event_OrkindGonnaRape]\SndLib[Breathing_Goblin]Лона не могла зрозуміти, що вони кричать, але була впевнена, що вони хочуть, щоб вона осідлала цей брудний член.
+Скромну, брудну людську дірку може використовувати тільки заражений паразитами товстий член.
+\CBct[8]\m[fear]Ти хочеш цього?\optD[Зробити те, що вони хочуть<t=5>,Я не хочу!]
+
+NFL_OrkCamp2/Rapeloop_DryCropse2_yes
+\narr\SndLib[sound_chcg_chupa]Лона вилізла на член...
+
+NFL_OrkCamp2/Rapeloop_DryCropse3
+\m[p5_shame]\narr Свинина людина стогне і насолоджується м'ясною діркою, здається він ось-ось закінчить...
+
+NFL_OrkCamp2/DailyJob_select_DryCropse
+Вони вимагають від м'ясної дірки, щоб вона зайнялася сексом з м'ясною іграшкою в кутку.
+\narr Якщо ви не дотримуватиметеся їхніх вимог, вам не тільки нічого буде їсти, але ви також зазнаєте покарання.
+
+NFL_OrkCamp2/DailyJob_select_Abom
+\narr Вони просять дірку народити для них більше їздових тварин...
+
+NFL_OrkCamp2/DailyJob_select_ThrowRock
+Їм стало нудно, і вони вирішили трохи розважитися.
+
+NFL_OrkCamp2/DailyJob_end_ThrowRock
+\narr Втомившись від гри, вони виглядали задоволеними тим, що дірка все ще свідома.
+
+########################################################################### NFL_MerCamp_SaveDog 1
+
+MercJoin/leader_Buddy0
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Rshake\c[4]Капітан Найманців：\C[0] Так, ось це місце. Тут ми його загубили.
+
+MercJoin/leader_Buddy1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] Ти! Веди нас!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Я?! Чому я?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Хіба ти не з \c[6]Сібаріса\C[0]? Ти що, не хочеш повернутись додому?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Ми бачили, на що ти здатна в таборі, і я впевнений, що буде правильно, якщо ти будеш за головну.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Емм... Ну...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Отже, напарник, якого ти шукаєш, - це... Як він виглядає?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Він білий, у нього великий ніс і великі вуха.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Білий? Великий ніс та великі вуха?
+\CBct[2]\m[serious]\plf\PRF\c[6]Лона:\C[0] Гаразд, йдіть за мною.
+
+MercLeader/CompCommand0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] Мабуть, він все ще живий!
+
+MercLeader/CompCommand1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] Швидше!
+
+MercLeader/CompCommand_foundTGT0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців：\C[0] Нам потрібно йти.
+
+MercLeader/CompCommand_foundTGT1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] Ми не можемо тут залишатися. Це надто небезпечно.
+
+MercJoin/spear
+\CBid[-1,20]\c[4]Копійник：\C[0] Це просто безглуздо! Якого біса ми сюди повернулися?
+
+MercJoin/bow
+\CBid[-1,20]\c[4]Лучник：\C[0] Рятувати його? Це безглуздо.
+
+MercJoin/priest
+\CBid[-1,20]\c[4]Священик:\C[0] Навіть Святі не схвалили б наших дурних вчинків.
+
+MercLeader/Rg38_1
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] Що, чорт забирай, тут відбувається...?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Схоже на місце, де збирається їжа, або, це може бути вівтар для поклоніння брудному фальшивому богу.
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Потрібно бути тихіше, якщо ми не хочемо стати їх їжею.
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Ах.
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Увага! Бачу рух!
+
+MercLeader/Rg38_2
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcQuestion]\SETpr[OrcSlaveMaster_normal]\Rshake\c[4]Оркоїд:\C[0] Гу-Гу-Га...
+
+MercLeader/Rg38_3
+\CBmp[SlaveMaster,20]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_sad]\Rshake\c[4]Оркоїд:\C[0] \{Гу-Гу-Га-Ха!
+
+MercLeader/Rg38_4
+\CBmp[Priest,2]\SndLib[sound_OrcHurt]\SETpl[OrcPriest]\Lshake\c[4]Оркоїд:\C[0] Гу-Та-Го!! Кінь член?! Гу-Ча-Ха.
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_normal]\Rshake\prf\c[4]Оркоїд:\C[0] Гу-Ча??
+
+MercLeader/Rg38_5
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Оркоїд:\C[0] \{Кінь члеєєєен!!??
+
+MercLeader/Rg38_6
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcHurt]\SETpr[OrcSlaveMaster_sad]\plf\Rshake\c[4]Оркоїд:\C[0] Гу-Ча-Ая?!
+
+MercLeader/Rg38_7
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Оркоїд:\C[0] \{Кінь член!!!!
+
+MercLeader/Rg38_8
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Кінний член...?
+\CBmp[MerLeader,2]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Ходімо...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] \..\..\..
+
+############################################################################ Found Doggy
+
+Doggy/KIA
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] Ні!!! Мій \c[6]Лейф\C[0]!!!
+
+Doggy/alive_begin1
+\CBid[-1,6]\SndLib[dogDead]\c[4]Собачка：\C[0] \..\..\..
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] \c[6]Лейф\C[0]!!!
+\narr Попа бідного собчака сильно розірвана...
+\narr Настільки, що в ній вмістилася б рука дорослої людини...
+\narrOFF\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] Бідний \c[6]Лейф\C[0], все гаразд, я з тобою.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Емм\..\....Так це\.....
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Це той самий пес, якого ви хотіли врятувати?
+\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Так! Щось не так?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Еее.... Ні...
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Вперед, давай забиратися звідси.
+\CBid[-1,20]\SndLib[dogDead]\plf\prf\c[4]Собачка：\C[0] \..\..\..
+
+Doggy/alive_brd
+\board[Порятунок]
+Завдання: Врятувати напарника Капітана Найманців
+Нагорода：Великий Медяк х1\i[582]
+Клієнт：Капітан Найманців
+Повторюваність：Одноразове
+Супроводьте Капітана та його песика.
+
+Doggy/QuestDone1
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капітан Найманців:\C[0] Добре. Тут ми у безпеці.
+
+Doggy/QuestDone2
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Що ж...
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців：\C[0] Героїня, залиш своє ім'я.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] М-м\..\..\..\c[4]Лона:\C[0].
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] \c[4]Лона\C[0] значить?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капітан Найманців:\C[0] Добре, \c[6]Лейф\C[0] теж дуже вдячний тобі. Ми обов'язково зустрінемося знову.
+
+MercLeader/QmsgDoggyKIA0
+Лейф, Лейф!!
+
+MercLeader/QmsgDoggyKIA1
+Моя песик!
+
+MercLeader/QmsgDoggyKIA2
+Він мертвий!

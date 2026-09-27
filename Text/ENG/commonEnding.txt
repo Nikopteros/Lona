@@ -1,0 +1,524 @@
+############################## pointed Ending ########################################
+bat/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash A swarm of bats lunged at Lona...
+\SndLib[sound_combat_hit_gore]\Rflash They gnawed at her flesh with razor-sharp teeth....
+\SndLib[sound_combat_hit_gore]\Rflash Their tiny bodies couldn’t consume her all at once...
+\SndLib[sound_combat_hit_gore]\Rflash And so, Lona struggled for a full hour before she finally died...
+
+undead/Eaten
+\SND[SE/Gore_hit1.ogg]\ph\narr\Rflash The undead horde swarmed Lona's body.
+\SND[SE/Gore_hit2.ogg]\Rflash Their rotten teeth constantly ripped away skin and meat from the flesh of the girl.
+\SND[SE/Gore_hit3.ogg]\Rflash Lona's pain and suffering lasted for a long time...
+
+wolf/Eaten
+\SND[SE/Gore_hit1.ogg]\ph\narr\Rflash The pack of wolves surrounded Lona.
+\SND[SE/Gore_hit2.ogg]\Rflash Their sharp, canine teeth greedily sank into the girl's neck and body.
+\SND[SE/Gore_hit3.ogg]\Rflash Lona's pain and suffering did not last long. She was quickly put out of her misery...
+
+KillerRabbit/Eaten
+\SND[SE/Gore_hit1.ogg]\ph\narr\Rflash Lona was eaten by the cute wittle bunny wabbit...
+\SND[SE/Gore_hit2.ogg]\Rflash We will remember her dearly...
+
+############################# Death ENDING ########################################
+Lona/hp0_begin
+\ph\SETpl[TellerNormal]\SETpr[nil]\c[4]Fortune Teller：\c[0]    Alas...\n It seems that our hero has finally perished in this cruel world.
+\SETpl[TellerNormal]\c[4]Fortune Teller：\c[0]    Will anyone even remember Lona and her deeds...?
+
+Lona/hp0_WithChild
+\SETpl[TellerEyeClosed]\c[4]Fortune Teller：\c[0]    Oh? But, it seems she has left behind a heir!\n
+Allowing the child to inherit her mother's powers is also an option...\n
+\SETpl[TellerConfused]\c[4]Fortune Teller：\c[0]    Well then. Choose your final fate......
+
+Lona/hp0_WithChild_choosed0
+\SETpl[TellerOkay]\c[4]Fortune Teller：\c[0]    A wise choice...\n Like a Phoenix, arise!!!
+
+Lona/hp0_WithChild_choosed1
+\ph\cgoff\narr\{\..\..\..\..\..\..\WF[5]!
+
+Lona/hp0_WithChild_canceled
+\SETpl[TellerEyeClosed]\c[4]Fortune Teller：\c[0]    Is that so? No regrets, perhaps it's for the best to prevent a life of pain and suffering for the child...
+
+Lona/hp0_end
+\SETpl[TellerOkay]\c[4]Fortune Teller：\c[0]    I shall await your return. Please guide Lona to a better path in her next life......
+
+####################################### ENDING  ####################################################
+
+Common/EndingBegin
+\ph\SETpl[TellerEyeClosed]\c[4]Fortune Teller：\c[0]    \..\..\..\..\..\..
+\SETpl[TellerConfused]\c[4]Fortune Teller：\c[0]    And so, time continues to pass on...
+\SETpl[TellerNormal]\c[4]Fortune Teller\c[0]    In the meantime, let us see what has happened to everyone else...
+
+Common/EndingLonaBegin
+\narr So... What happened to Lona?
+
+############################# Orkind ########################################
+
+Orkind/Common0
+\SND[SE/Book1]\narr\{The Orkinds\..\..\..
+
+Orkind/OrkindDestroyed1_ClearnNoerOrkindQuest
+\SndLib[sys_DialogBoard]\cg[map_guards]Due to the actions and diligence of the Mercenary Guild, the number of Orkinds around the Town of Noer had decreased significantly.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]According to eyewitnesses and rumors, there was a thin and \c[4]flat-chested\c[0] girl among the mercenary ranks.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]However...
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]Of course, the results of their efforts were just temporary.
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]The Orkinds' powerful reproduction speed allowed them to replace their dead almost immediately. Soon, Noer Town was once again surrounded by the green-skinned monsters.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]So what kind of fate awaits the Orkinds?
+
+Orkind/OrkindDestroyed2
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]They raped any creature they saw.
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]They consumed anything and everything in their path.
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]In the end... Their unnatural reproduction speed caused them to overpopulate.
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]The Orkinds were soon forced to gnaw on the flesh of the Abominations. Eventually, they even resorted to eating their own kind to survive.
+\SndLib[sys_DialogBoard]\cg[map_region_badland]After a few years, the green-skinned monsters joined their prey and completely disappeared from Noer Island...
+
+############################# FishKind ########################################
+
+FishKind/Common0
+\SND[SE/Book1]\narr\{The Fishkinds\..\..\..
+
+FishKind/Common1
+\SndLib[sys_DialogBoard]\cg[map_FishPPL]After all of the chaos, the Fishkinds traveled back to their former home.
+
+FishKind/Common2
+\SndLib[sys_DialogBoard]\cg[map_Shore]The Fishmen attempted to rebuild their homes on the uninhabited Noer Island.
+
+FishKind/FishKindFine3
+\SndLib[sys_DialogBoard]\cg[event_menses]Thanks to the might of their shamans, the Fishkinds' reproduction problem had finally been solved.
+\SndLib[sys_DialogBoard]\cg[event_menses]The Fishkinds no longer needed to rely on another species' females. They finally became a race equal to other intelligent creatures.
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]In 1812, an elderly Fishman successfully traveled around the world in a homemade aircraft know as a Biplane.
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]His book, For Father and Uncle Bubba, is a best-seller to this day.
+
+FishKind/FishKindDestroyed3
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]At first, the Fishmen thought they could live on Noer Island forever.
+\SndLib[sys_DialogBoard]\cg[map_region_badland]But, they forgot that Noer Island had been completely abandoned.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]Thus, their Goddess had also forsaken them.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]Without other females or a way to reproduce, the Fishkind tribes were facing a crisis.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]No matter how much they pleaded and prayed, the Sea Witch remained silent.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]Within a few decades, the Fishkind species disappeared into history.
+
+############################# DoomFortressL ########################################
+
+DoomFortressL/Common0
+\SND[SE/Book1]\narr\{Doom Fortress\..\..\..
+
+DoomFortressL/asdasdas
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]ASDFTHISISATESTasdf
+
+############################# PirateBane ########################################
+
+PirateBane/Common0
+\SND[SE/Book1]\narr\{Pirates' Bane\..\..\..
+
+PirateBane/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# SouthFL ########################################
+
+SouthFL/Common0
+\SND[SE/Book1]\narr\{The South Gate Campsite\..\..\..
+
+SouthFL/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# Noer ########################################
+
+Noer/Common0
+\SND[SE/Book1]\narr\{\SND[SE/Book1]\cg[map_region_NoerRoad]The Town of Noer\..\..\..
+
+Noer/OrkindDestroyed1
+\SND[SE/Book1]\cg[map_region_NoerRoad]With the shortage of supplies, the town raged with anarchy.
+\SndLib[sys_DialogBoard]\cg[map_bandits_farmer]It wasn't long before citizens and villagers became bandits and pillagers.
+
+Noer/OrkindDestroyed2
+\SND[SE/Book1]\cg[map_bandits]No one bothered to keep the town stable. No one was left to defend against the invasion of monsters.
+
+Noer/OrkindDestroyed2_QuProgCataUndeadHunt2_7
+\SndLib[sys_DialogBoard]\cg[map_region_hole]Although someone attempted to block the tunnel created by the Orkinds, it didn't help.
+
+Noer/OrkindDestroyed3
+\SND[SE/Book1]\cg[map_orkind_expending]One day, the monsters finally dug through the tunnel. They swarmed into the town like locusts.
+
+Noer/OrkindDestroyed4
+\SND[SE/Book1]\cg[map_DeadPPL]The poor resistance from the desperate townspeople did not last long...
+\SND[SE/Book1]\cg[event_OrkindGonnaRape]Men became food...\n While the women became breeding sows...
+\SND[SE/Book1]\cg[map_cityOnFire]Like Sybaris, the Town of Noer fell into complete chaos.
+
+Noer/NukeDestroyed
+\SND[SE/Book1]\cg[map_Doomsday]One day, he was angry.
+\SND[SE/Book1]\cg[map_Doomsday]A huge fireball illuminated the night sky above the Town of Noer.
+\SND[SE/Book1]\cg[map_sos]The poor, the rich, slaves, believers... It didn't matter. He gave true equality to all.
+\SND[SE/Book1]\cg[map_Nuke]A huge explosion formed and cleansed all inside of it. The entire town disappeared into ashes.
+
+######################################################## SideChar ########################################
+############################# NoerTavern ########################################
+
+NoerTavern/Common0
+\SND[SE/Book1]\narr\{The Burning Keg\..\..\..
+
+NoerTavern/BookOfDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]The monsters sieged the city around the second day. The streets were littered with piles of mangled corpses and gore.
+\SndLib[sys_DialogBoard]\cg[event_FightThePower]Nobody knows how Boss Mama was able to get a hold of the legendary Book of the Dead. Nor did anyone know what she had to sacrifice to the Liars for such an item.
+\SndLib[sys_DialogBoard]\cg[map_undead_group]A large army of undead creatures appeared in the Town of Noer and fought back against the Orkind monsters for a month.
+\SndLib[sys_DialogBoard]\cg[map_undead_group]It's been said that Boss Mama has also fallen and risen back as an undead.
+
+NoerTavern/FallWithCocona
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]Boss Mama and her adopted daughter left the Town of Noer prior to its descent into chaos.
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]Rumor has it that they've traveled to Doom Fortress before escaping Noer Island.
+
+NoerTavern/DefenceToDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]Boss Mama wielded her sword once again to help defend the town against raiders and monsters.
+\SndLib[sys_DialogBoard]\cg[event_RipAndTear]It is said that she alone fended off the Orkind monsters' attack at the Northern Gate.
+\SndLib[sys_DialogBoard]\cg[map_region_slum]Alas, this only prolonged the town's livelihood for meer moments.
+\SndLib[sys_DialogBoard]\cg[map_region_AbomTown]No one knows what happened to Boss Mama after the Town of Noer was destroyed.
+
+############################# Nice boat ########################################
+
+TicketBought/begin1
+\bg[bg_NiceBoat]\m[confused]\C[6]Lona：\C[0]    What about the people on the island? Will the disaster continue to spread?
+\bg[bg_NiceBoat]\m[tired]\C[6]Lona：\C[0]    ...Forget it, it's useless to worry about such things. I'm only one person.
+\bg[bg_NiceBoat]\m[sad]\C[6]Lona：\C[0]    Just an ordinary girl...
+\SETpl[Mfat_DockCaptain]\m[normal]\Lshake\prf\C[6]Edward：\C[0]    Lass, the winds be growin' stronger. Yer better get off me deck.
+\bg[bg_NiceBoat]\m[pleased]\plf\Rshake\C[6]Lona：\C[0]    Ah! Understood.
+
+TicketBought/begin2
+\SND[SE/Book1]\narr\ph Lona finally escaped Noer Island.\n Where the monsters raged on.
+\SND[SE/Book1] Although, I do not know what awaits for her in the future...
+\SND[SE/Book1] It will never be worse than staying on Noer Island.
+
+############################# VIRGIN ########################################
+
+TicketBought/begin2_virgin
+\SndLib[sys_DialogBoard]\narr In addition to her escape, Lona also succeeded in defending her maidenhood.
+\SndLib[sys_DialogBoard] Decades past... The children nearby laughed and ridiculed the old maiden's pledge to eternal chastity.
+\SndLib[sys_DialogBoard] Even after her eventual death, Lona remained an unmarried virgin......
+
+####################################### Human rapeloop #######################################
+
+HumanSlave/begin1
+\narr\..\..\..\..\..\..
+\SND[SE/Book1]Lona was missing, and nobody ever saw her again...
+\SND[SE/Book1]After a very long time\..\..\.. On a certain street\..\..\..
+
+HumanSlave/begin2
+\SndLib[sound_Heartbeat]\narrOFF\c[4]So cold...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]And hungry...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]My body hurts, s-so much pain...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]Just where exacatly am I\..\..\..?
+\m[pain]\plf\Rshake\c[4]It hurts... I can't see... W-Where am I?
+\SndLib[sound_step]\m[sad]\plf\PRF\c[4]Hello?! Is anyone there?!
+\SndLib[sound_step]\m[fear]\plf\PRF\c[4]Please?! W-Who's there?! D... Don't hurt me...!
+\SndLib[sound_step]\m[shocked]\plf\Rshake\c[4]No! G-Go away!!!
+\SndLib[sound_step]\m[confused]\plf\PRF\c[4]\..\..\..
+\bg[bg_Soup1]\m[shocked]\plf\Rshake\c[4]...Vegetable soup?!
+\bg[bg_Soup2]\m[shocked]\plf\Rshake\c[4]Meat soup?!
+\m[pleased]\plf\PRF\c[4]T-Thank you... I'm coming over!
+\m[pleased]\plf\PRF\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\bgoff\m[terror]\plf\Rshake\c[4]H-Huh?! Nooo!
+\bgoff\m[bereft]\plf\Rshake\c[4]Give it back! Please! Let me eat at least one bite!
+\ph\narr\..\..\..
+
+HumanSlave/begin3
+\SndLib[sound_punch_hit]\SETpl[AnonMale2]\Lshake\c[4]Man：\c[0]    What the fuck?
+\SETpr[AnonFemale]\plf\Rshake\c[4]Woman：\c[0]    Hmmm? Whats wrong?
+\cg[map_HungerDeath]\SETpl[AnonMale2]\Lshake\prf\c[4]Man：\c[0]    God damn it! Who left this dying slave out ruining the streets?!
+\SETpr[AnonFemale]\plf\Rshake\c[4]Woman：\c[0]    It reeks! Such a gross smell is going to ruin my clothes!
+\SETpl[AnonMale2]\Lshake\prf\c[4]Man：\c[0]    You fucking-! \.\.\SndLib[sound_punch_hit]\Lshake -Filthy!! \.\.\SndLib[sound_punch_hit]\Lshake Human garbage!!! \.\.\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]Woman：\c[0]    Disgusting. Not even the rain can wash away such odor...
+\SETpl[AnonMale2]\Lshake\prf\c[4]Man：\c[0]    Just die!!! \SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]Woman：\c[0]    Let's go now.
+\SETpr[AnonFemale]\plf\Rshake\c[4]Woman：\c[0]    Ugh... Gross! You better wash your shoes when we get back home!
+\ph\narr\..\..\..
+
+####################################### Orkind Rapeloop #######################################
+
+OrkindCampCaptured/begin1
+\narr\..\..\..\..\..\..
+\SND[SE/Book1]Lona was missing, and nobody ever saw her again...
+\SND[SE/Book1]After a very long time\..\..\.. In an unknown cave\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\c[4]H-Hungry...
+\SndLib[sound_Heartbeat]\c[4]I'm so hungry...
+\SndLib[sound_Heartbeat]\m[sad]\c[4]F-Food? I want to eat! Give me fooood!
+\SndLib[sound_Heartbeat]\m[bereft]\Rshake\c[4]P-Please! I beg of you!
+\SETpl[goblin]\Lshake\prf\C[4]Goblin：\C[0]    Guu-Guah-Chaaa!
+\m[shocked]\plf\Rshake\c[4]Food! Is this food?!
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]Goblin：\C[0]    Guh-Hee! Chagucha!
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]Goblin：\C[0]    Gu-Hehe! Gou-Hee! Heeheehee!
+\SndLib[sound_eat]\m[pleased]\plf\Rshake\c[4]S-So good! Thank you...! Thank you so much!
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]Goblin：\C[0]    Guwuh! Heehee!
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]Goblin：\C[0]   Guh-Heeeh! Chagucha!
+\narr The monsters brought a mirror, they wanted Lona to see the reality of what she has become.
+\narrOFF\m[confused]\plf\Rshake\c[4]A... mirror...?
+\cg[event_OrkindMother]\m[flirty]\plf\Rshake\c[4]W-Who is this monster... Looking back at me...?
+
+OrkindCampCaptured/begin2
+\..\..\..
+\SndLib[sound_Heartbeat]\m[shocked]\plf\Rshake\c[4]M-Me...? This is... ME?!
+\SndLib[sound_OrcSpot]\m[fear]\plf\Rshake\c[4]N-No! NOOOOO!!!
+\SndLib[sound_OrcSpot]\m[terror]\plf\Rshake\c[4]This c-can't be...! I'm a human!! I'M NOT A MONSTER!!!
+\SETpr[goblin]\plf\Rshake\C[4]Goblin：\C[0]    Guwuh! Heeheeheehee!!!
+\SndLib[sound_OrcSpot]\m[bereft]\plf\Rshake\c[4]H-Heeelp me! I don't wanna eat anymore! No more!
+\ph\..\..\..
+\SndLib[sound_Heartbeat]\c[4]Hun...gry... 
+\SndLib[sound_Heartbeat]\c[4]So hungry... Need... To eat...
+\SndLib[sound_Heartbeat]\c[4]...Food? I want to eat!! Give me fooood!!!
+\cgoff\..\..\..
+
+############################# OrkindWarboss Rapeloop ########################################
+
+OrkindImpale/begin1
+\narr\..\..\..\..\..
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword].........
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]......
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]...
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[pain]\Rshake\c[4]!!!!!!
+\m[fear]\plf\Rshake\c[4]What?! W-What's happening?
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5sta_damage]\Rshake\c[4]EEEYAAAH!!!
+\Rflash\cg[event_AnalTaken]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5health_damage]\Rshake\c[4]IT HURTS!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5puke]\Rshake\c[4]STOP, D-DON'T-!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]-GUAAAAAAHHH!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]YIIIAAAUUUUUUGHHH!!!!!!
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]...*Gack*......
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]...*Gurgle*...
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]...
+\cg[map_orkind_expending]With the efforts of the Orkinds, Lona was impaled onto a stake.
+\cg[map_orkind_expending]She was awake for the entire experience and didn't lose consciousness until the stake's tip protruded from her lips.
+\cg[map_orkind_expending]The Mother of Fertility will be very pleased to see Lona suffer such a painful death...
+
+####################################### AbomHive Rapeloop #######################################
+
+AbomHiveCaptured/begin1
+\narr\..\..\..\..\..\..
+\SndLib[sys_DialogBoard]Lona was missing, and nobody ever saw her again...
+\SndLib[sys_DialogBoard]After a very long time\..\..\.. Inside the lair of Abominations\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\m[p5shame]\c[4]Where... am... I......?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]W-What's happ-...-ening to... me...?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]Am I... still alive?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]Why can't I... Feel... Anything...? How long have I... Been here?
+\narr\prf\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\SndLib[sound_step]\m[p5shame]\c[4]Who's... there......?
+
+AbomHiveCaptured/begin2
+\cg[map_AbomCorpse2]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Hey! Recruit! This is the place.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Recruit：\c[0]    Wait, hold up! These women are still squirming around!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Torch the place down!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Recruit：\c[0]    NO! Stop, stop!!! By the Saint, they're still fucking alive!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Listen to me you idiot! They're already gone! We can't save them!
+\narr\cgoff \.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\cg[map_AbomCorpse1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Get over here recruit! Just take a look at this girl!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Even though she's moving, all that's left of her is her head attached to her torso...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Are you really going to tell me she's still fucking alive?!
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\Rshake\c[4]Are they... talking about\..\..\..\..\..\..\n ME?!\n No, please! S-Save me!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    This isn't even a human being anymore! All that's left is a corpse used as the monsters' seedbed!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Torch her, now! That's an order!
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\PLF\c[4]What...? N-No! NOOO!!! I'm not dead, I'm still alive! Save me! I don't want to die!!!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Recruit：\c[0]    R-Roger!
+
+AbomHiveCaptured/begin3
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]\{YIIIAHHHHHH!!!
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]\{IT BUUURNS! NOOOOOOO! I DON'T WANT TO DIIIIIIE!!!
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]\{IT HURRRTS! I D-DON'T... WANT... TO-...! KYYYAAAaaaaaah......
+\cgoff\ph\narr\c[4]\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..
+\narrOFF\cg[map_cityOnFire]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Recruit：\c[0]    Finally... It's over now...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Yo, today's work has just begun! We still have several lairs we have to clear out.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Recruit：\c[0]    Yes Sir!
+
+####################################### FishKind and Deepone Rapeloop #######################################
+
+FishkindCampCaptured/begin1
+\narr\..\..\..\..\..\..
+Lona was missing, and nobody ever saw her again...
+After a very long time\..\..\.. In the den of monsters\..\..\..
+\narrOFF\cg[map_region_hole]\SndLib[sound_step] ...What's happened to me? \.\SndLib[FishkindSmSpot] W-Where am I...? \.\SndLib[sound_step]\.\SndLib[sound_step] Have I been kidnapped by monsters?! \.\SndLib[FishkindSmSpot]
+\c[4]It's so dark... I can't see anything......
+\SndLib[sound_step] Is... Is someone there? \.\SndLib[FishkindSmSpot]\.\SndLib[sound_step]\.\SndLib[sound_step] Please! Somebody... H-Help me! \.\SndLib[sound_equip_armor]
+\c[4]Woman：\c[0]    Hello, can you hear me?
+\SndLib[sound_equip_armor]\c[4] W-Who's there?! Please... Don't kill me......
+\m[confused]\C[4]Woman：\C[0]    Ah! Are you new here?
+\prf......
+\m[normal]\C[4]Woman：\C[0]    Shhh... It's alright......
+\m[pleased]\C[4]Woman：\C[0]    Please have a seat next to me, don't be afraid. I'm a human, just like you.
+\prf......
+\m[shy]\C[4]Woman：\C[0]    It's okay... Shhh... It's okay... Please don't cry anymore.
+\m[normal]\C[4]Woman：\C[0]    My name is \c[6]Lona\c[0], and you are?
+\prf......
+\m[triumph]\c[6]Lona：\c[0]    Oh! What a pretty name!
+\prf......
+\m[shy]\c[6]Lona：\c[0]    Is that so? Don't worry, I've been here for a very long time taking care of people like you.
+\prf......
+\m[flirty]\c[6]Lona：\c[0]    Oh my... Please don't! Many have tried, but they all ended up dead... You wouldn't want to suffer a fate like that, right?
+\prf......
+\m[shy]\c[6]Lona：\c[0]    Please don't cry sweetie... I'll protect you.
+\m[pleased]\c[6]Lona：\c[0]    Come here my child, I'll teach you everything you need to know to survive here. Don't worry, I'm here to help you......
+\cgoff\ph\narr\..\..\..
+
+##########################################################################################################################
+##########################################################################################################################	 ENDING SHIP
+##########################################################################################################################
+
+ending/end
+Finish the game?\optB[Not yet!,End game...]
+
+ShipLadder/qMsg0
+It's too windy now.
+
+ShipLadder/qMsg1
+I shouldn't go outside.
+
+ShipLadder/qMsg2
+It's too dangerous.
+
+RecQuest/SMRefugeeCampFindChild10
+\CBid[-1,6]\prf\c[4]Tommy：\c[0]    Uwaah... *Sob*... W-Why......
+\CBid[-1,6]\prf\c[4]Tommy：\c[0]    Why doesn't... *Sniff*... Mama want me anymore...
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Eh...? Aren't you the boy called-...
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\c[0]    -Yes! Tommy, right?
+\CBid[-1,20]\prf\c[4]Tommy：\c[0]    Ah! It's big sister!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Where is your mother? How come it's just only you here?
+\CBid[-1,6]\prf\c[4]Tommy：\c[0]    M-Mama didn't want me anymore... *Sniff* She stuffed me in a box and I ended up here when I opened the box...
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    I see......
+\CBid[-1,6]\prf\c[4]Tommy：\c[0]    Oh yeah! Is that metal stick thing easy to use? Using it feels very comfortable, right?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Com-... -fortable?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Errr... Fighting with it feels quite comfortable, although it is a bit heavy...
+
+RecQuest/Df_Heresy5_1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Uhm... Your name's Ranran, right? Where's your sister?
+
+RecQuest/Df_Heresy5_2
+\CBid[-1,6]\prf\c[4]Ranran：\c[0]    No! I'm not Ranran! I don't know Momo either!
+\CBid[-1,6]\prf\c[4]Ranran：\c[0]    You've got the wrong person!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uhm...Well...
+
+########################################################################################### Lisa
+
+Lisa/common0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Lisa! You're also onboard too?!
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    \..\..\..
+
+Lisa/RecQuestLisa19KeepMem1
+\CBid[-1,2]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\c[0]    Oi? Is dat yew Sista Lona?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr... Yes... Ummm... \c[4]LONA\c[0]?!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..\m[shocked]\Rshake Wait a second! You remember who I am?!
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    \..\..\..
+\CBid[-1,6]\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\c[0]    Guh! Ahhh sheyet!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Don't joke around, I know you still remember me.
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    Nu! Eye'm bloodie sereous! Eye can't remembah anythin' at all...
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Okay okay, I understand.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm... So why are you also on this ship?
+
+Lisa/RecQuestLisa18ResetMem1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\c[0]    Oi? Is dat yew Sis?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm... So why are you also on this ship?
+
+Lisa/RecQuestLisa19KeepMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\c[0]    Eye've 'ad enouf of dis bloodie eyeland! The touwn is ahlways beein' surrounded by munstas!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    Every nite, when Eye'm sleepin'. Eye bee 'avin' nitemares about bugs inside a meh...
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\c[0]    An' peeplo still be lookin' down at meh four bein' a 'alf-breed! Eye'm cunsidared durtah even though eet isn't me fault!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    So dat's eet! Eye'm leafing dis eyeland an' nevah coomin' back!
+
+Lisa/RecQuestLisa18ResetMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\c[0]    Eye've 'ad enouf of dis bloodie eyeland! Me familee an' friends ahlways be abandonin' meh!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    So Eye'm gonna abandon dis eyeland. Find ahnudah place an' mayke bettah explowsens!
+
+Lisa/RecQuestLisa18ResetMem3
+\CBid[-1,8]\SETpl[LisaSad]\Lshake\prf\c[4]Lisa：\c[0]    \..\..\..
+\CBid[-1,2]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    Anywahs, wuts eet ta yew? Why arr ya askin' meh sucha questun?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Sorry, I'm just saying hello.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    I have to admit, I also like the feeling of explosions too!
+\CBid[-1,8]\SETpl[LisaTriumph]\Lshake\prf\c[4]Lisa：\c[0]    EXPLOWSENS? Sis also liks the powah of explowseves?!
+\ph\narr Lona and Lisa continued to chat about the art and beauty of explosions, before bidding farewell to each other\..\..\..
+
+Lisa/RecQuestLisa19KeepMem3
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I see...
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Anyways, it was great to travel around with you.
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[LisaTriumph]\Lshake\prf\c[4]Lisa：\c[0]    Likwise!
+
+########################################################################################### Cocona
+
+Cocona/RecQuestCocona29_0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]Cocona：\c[0]    Big Sis! I'm scared!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... Why are you scared?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Water! *Hiss* Outside is only water! ONLY WATER!!!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Water? It's because we're in the ocean.
+\CBid[-1,2]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Oh-... -Shen...?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    Yep! The ocean!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Oh-shin? What's a... oh-sheeen?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    The ocean is... Ummm... Something that separates the continents from each other?
+
+Cocona/RecQuestCocona29_1
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Kon-ten-ant? What's that??
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hmmm... It's a place that's much, much, MUCH bigger than Noer Island.
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Nuh-oar?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr... Our old home?
+\CBid[-1,20]\SETlpl[cocona_normal]\PLF\prf\c[4]Cocona：\c[0]    It's bigger than Cocona's old home?
+\CBct[8]\m[pleased]\plf\Rshake\c[6]Lona：\c[0]    That's right! Noer Island is our old home, but the western continents will be much bigger than Noer.
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Woo-Miao\..\..\..
+
+Cocona/RecQuestCocona29_2
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    \{Woooah!
+
+Cocona/RecQuestCoconaVagTaken2_0
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    \{Big Sis, wait!
+
+Cocona/RecQuestCoconaVagTaken2_1
+\CBct[2]\m[normal]\plf\PRF\c[6]Lona：\c[0]    What's wrong? What else do you want to ask about, Cocona?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    There's so many people in here! Are we going to have to have sex with them all?
+
+Cocona/RecQuestCoconaVagTaken2_2
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Whu-\..\..\..?\m[shocked]\Rshake\{HUH?!
+
+Cocona/RecQuestCoconaVagTaken2_3
+\CBct[2]\m[shy]\plf\PRF\c[6]Lona：\c[0]    Ohhh... I get it now... No Cocona, there's no need to anymore.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    We won't have to sell our bodies anymore. Let's rest now.
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Woo-Miao\..\..\..
+
+Cocona/RecQuestCocona29_3
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    \{BIG SIS!!!
+
+Cocona/RecQuestCocona29_4
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Still have questions, Cocona?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Cocona forgot to bring book!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Book?
+\CBid[-1,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Cocona's book from home! Book has good friend on it!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    You mean that bag you've been carrying before? That was a book?
+\CBid[-1,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Cocona leave book at Big Mama's home. Good friend said to never lose book...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    It'll be okay...
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Once we dock on land, we'll both head to the nearest city. Then, Big Sis will buy you a new book!
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Woo-Miao\..\..\..
+
+########################################################################################### EndingShipSlaveLona
+
+EndingShipSlaveLona/begin1
+*Sob*\..\..\..
+My head hurts\..\..\..
+My body feels heavy\..\..\..
+
+EndingShipSlaveLona/begin2
+Where am I? What am I doing here?
+What happened\..\..\..?
+How did this happen to me\..\..\..
+Doesn't matter\..\..\..
+I'm so tired\..\..\..
+I just want to sleep\..\..\..
+I don't care anymore\..\..\..
+
+EndingShipSlaveLona/begin3
+\BonMP[Fucker2,20]\c[4]SailorA：\c[0]    Hey, new guy! Aren't you done yet?
+\BonMP[Fucker3,20]\c[4]SailorB：\c[0]    There are dozens of people waiting on you!
+\BonMP[Fucker4,20]\c[4]SailorC：\c[0]    Hurry the fuck up!
+
+EndingShipSlaveLona/begin4
+\BonMP[Fucker1,20]\c[4]SailorD：\c[0]    \{Almost there! I'm cumming!
+
+EndingShipSlaveLona/begin5
+\c[4]SailorB：\c[0]    I'm next I'm next!
+\c[4]SailorC：\c[0]    Why can't we just go together? I'll fuck her cunt, you prefer using her mouth anyway.
+\c[4]SailorD：\c[0]    What a great idea! I'll use her asshole, from now on we are hole bros!
+\c[4]SailorB：\c[0]    I like that! Hole bros...
+\c[4]SailorC：\c[0]    We might not be real brothers, but we'll be hole bros til lthe day we die, haha!
+\c[4]SailorD：\c[0]    Let's go, hole bros!
+
+EndingShipSlaveLona/end
+\narr The ship took Lona to the continent as promised, but she was sold off upon arrival\..\..\..
+\narr She was never seen again\..\..\..

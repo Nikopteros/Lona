@@ -1,0 +1,568 @@
+###################################################################################    TOWN
+#South Gate Campsite
+
+ThisMap/OmEnter
+\m[confused]南門營地\optB[算了,進入]
+
+ThisMap/OmEnterOP
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    什麼人！
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    耶？！
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    是活人嗎？！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    開門，快讓她進來！
+
+Exit/Qmsg
+關門了
+
+healerF/Qmsg0
+聖徒阿！
+
+healerF/Qmsg1
+幫幫我們！
+
+healerM/Qmsg0
+這是聖徒的逞罰！
+
+healerM/Qmsg1
+看看你們！ 多醜陋阿！
+
+healerM/Qmsg2
+這就是信偽神的下場！
+
+healerMInn/Qmsg0
+對！ 將那些汙穢射出來！
+
+healerMInn/Qmsg1
+這是不夠的！
+
+healerMInn/Qmsg2
+必須有女體去吸收這些汙穢！
+
+healerFInn/Qmsg0
+將你的穢氣注入我體內吧！
+
+healerFInn/Qmsg1
+聖徒阿！
+
+healerFInn/Qmsg2
+聖徒會拯救你們的！
+
+pregGirls/Qmsg
+......
+
+crazy/Qmsg0
+哈哈哈 死光了！
+
+crazy/Qmsg1
+嘻嘻，他們死光了♥
+
+crazy/Qmsg2
+哈哈哈哈哈！！！
+
+InnWork/Purge
+淨化汙穢
+
+Priest/begin
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]牧師：\c[0]    他體內都是邪惡的黑暗汙穢，他已經徹底的墮落了！
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]牧師：\c[0]    醫治療他的方式就是將他體內的汙穢排入女人體內。
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]牧師：\c[0]    妳！ 無信者！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我？！
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]牧師：\c[0]    快與他交和！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哈？！
+
+GuardDoomed/beginRNG0
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    我受夠這裡了！ 這些蟲子快把我搞瘋了。
+
+GuardDoomed/beginRNG1
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    我們被遺棄了，世界要毀滅了對吧？
+
+GuardDoomed/beginRNG2
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    牠們每晚都出現在我的夢中。
+
+MaleDoomed/CommonHuman0
+\CBid[-1,20]\prf\c[4]難民：\c[0]    嘿，這個世界完蛋了。
+
+MaleDoomed/CommonHuman1
+\CBid[-1,20]\prf\c[4]難民：\c[0]    所有人都會死，死前來爽一發吧！
+
+MaleDoomed/CommonHuman2
+\CBid[-1,20]\prf\c[4]難民：\c[0]    死定了啦，聖徒捨棄我們啦！
+
+MaleDoomed/CommonHuman3
+\CBid[-1,20]\prf\c[4]難民：\c[0]    我體內都是蟲子！ 必須要將汙穢注入女體內才能治好我！
+
+MainGuard/Begin
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳知道嗎？ 所有人都瘋了！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    城西是被類獸人控制，而其他部分都被肉魔控制了。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    這些魔物都是互相敵對的，但這沒有任何幫助！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    因為所有人都瘋了！ 我們只是棄子！
+
+boardR/Begin1
+\board[尋人名單]
+艾達：失蹤
+貝拉：失蹤
+漢娜：死亡
+穆得：失蹤
+麥格：失蹤
+普魯登斯：失蹤
+維琪：死亡
+
+boardR/Begin2
+\board[徵慰安婦]
+我們不想再玩破布了！
+我們要新鮮的慰安婦！
+兵命貴！
+兵命貴！
+
+boardR/Begin3
+\board[注意！]
+你們給我乖乖待著等待後送。
+我們沒空與你談法律與正義。
+鬧事的就只有死！
+
+Nap/GameOver0
+\narr衛兵對於鬧事的驅蟲只有一種作法...
+\narr那就是死...
+
+Tower/Go1
+\narr洛娜爬上了瞭望塔……
+\narrOFF\m[tired]\PRF\c[6]洛娜：\c[0]    我家……變成什麼樣子了呢？
+\prf\narr\..\..\..
+\narrOFF\bg[bg_Sybaris]\m[sad]\PRF\c[6]洛娜：\c[0]    那裡應該是市中心吧？
+\m[tired]\PRF\c[6]洛娜：\c[0]    所以我家應該在……
+\m[sad]\prf\c[6]洛娜：\c[0]    ……垮掉了啊。
+\m[tired]\PRF\c[6]洛娜：\c[0]    唉……
+
+###################################################################################    INN
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    這裡是\c[6]祈望旅社\c[0]，而此地並沒有希望。
+
+##########trans note. keep name = Overlook Keep
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    這裡是....？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    這裡原先是\c[6]守望者堡壘\c[0]。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    災難爆發後這裡沒幾天就陷落了。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    黑霧散去後\c[6]警總\c[0]的殘部於堡壘的殘骸中建立營地。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    之後\c[6]諾爾鎮\c[0]的大人物出資建立了\c[6]祈望旅社\c[0]。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    我們一直在收容難民並後送，但我相信這一切要結束了。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    隨著時間過去，能找到的活人已經不多了，新收容的人身體與精神也越來越糟。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    很快的，我們將找不到任何活人。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    呵呵，看看這些人吧，我們跟那些難民也沒什差別。
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃... 有什麼我能做的嗎？
+
+InnKeeper/About_work1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    工作嗎？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    聖徒會的牧師與修女們需要年輕的女人幫忙治療那些難民。
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    妳看起來.... 還行？
+\CBmp[Nurse,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    去跟那邊房間的修女談談吧。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    哦？
+
+InnKeeper/About_work_failed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    目前沒有妳能做的工作。
+
+healerFInn/Work0_did
+\CBct[6]\m[shy]\PRF\c[6]洛娜：\c[0]    我是來吸收汙穢的。
+\CBid[-1,20]\prf\c[4]修女：\c[0]    又是妳？ 看來妳也在前往信仰者的苦行路上。
+
+healerFInn/Work0_new
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    櫃檯的衛兵說您需要我？
+\CBid[-1,20]\prf\c[4]修女：\c[0]    又是受到金錢誘惑的無信者？
+\CBid[-1,20]\prf\c[4]修女：\c[0]    罷了，聖徒會原諒妳的。
+\CBid[-1,20]\prf\c[4]修女：\c[0]    必須用年輕的女體將這些人體內的穢氣吸出來，但我已不再年輕。
+\CBid[-1,20]\prf\c[4]修女：\c[0]    妳！ 無信者！
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    我？！
+\CBid[-1,20]\prf\c[4]修女：\c[0]    要治好他們唯一的辦法就是用妳的身體吸出他們體內的汙穢！
+
+healerFInn/Work_BodyCheck0
+\CBid[-1,20]\prf\c[4]修女：\c[0]    將衣服脫光，我必須檢查你的穴。
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    耶？！
+\CBid[-1,20]\prf\c[4]修女：\c[0]    脫光妳的衣服！無信者！
+
+healerFInn/Work_BodyCheck1
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    是....
+
+healerFInn/Work_BodyCheck2
+\CBct[6]\m[shy]\PRF\c[6]洛娜：\c[0]    嗚...
+
+healerFInn/Work_VagLick0
+\CBid[-1,20]\prf\c[4]修女：\c[0]    妳的體內太骯髒了，妳一定是個下賤的蕩婦。
+\CBid[-1,20]\prf\c[4]修女：\c[0]    但沒關系，聖徒會原諒妳的，先去把體內的汙穢排乾淨吧。
+
+healerFInn/Work_VagLick1
+\CBid[-1,20]\prf\c[4]修女：\c[0]    很好，妳的體內是潔淨的。
+
+healerFInn/Work_accept0
+\CBct[8]\m[shy]\PRF\c[6]洛娜：\c[0]    嗯...
+
+healerFInn/Work_accept1
+\CBmp[Man3,1]\prf\c[4]難民：\c[0]    是女人！ 年輕的女人！
+\CBmp[Man4,4]\prf\c[4]難民：\c[0]    快！ 讓我幹妳！ 這是唯一治好我的辦法！
+\CBmp[Man3,1]\prf\c[4]難民：\c[0]    必須將汙穢注入她體內！
+\CBct[1]\m[fear]\PLF\c[6]洛娜：\c[0]    呃...
+
+healerFInn/Work1
+\board[治療汙穢]
+用屄穴與尻穴盡可能的接收對方的污穢。
+可由修女確認當前的污穢總量，以及結算回報。
+
+healerFInn/WorkDOing_begin0_0
+\CBid[-1,6]\m[fear]\prf\c[4]難民：\c[0]    聖徒！ 救救我！ 我需要女體來治好我的身體！
+
+healerFInn/WorkDOing_begin0_1
+\CBid[-1,6]\m[fear]\prf\c[4]難民：\c[0]    那些蟲子在我們睡覺時鑽進我的雞雞裡！ 我現在都還感覺的到牠！
+
+healerFInn/WorkDOing_begin0_2
+\CBid[-1,6]\m[fear]\prf\c[4]難民：\c[0]    快幫我弄出來！ 我可以感覺到它們在我肚子裡！
+
+healerFInn/WorkDOing_begin0Guard_0
+\CBid[-1,6]\m[fear]\prf\c[4]衛兵：\c[0]    真的只要肏女人就可以治好我？
+
+healerFInn/WorkDOing_begin0Guard_1
+\CBid[-1,6]\m[fear]\prf\c[4]衛兵：\c[0]    聖徒沒有遺棄我們！
+
+healerFInn/WorkDOing_begin0Guard_2
+\CBid[-1,6]\m[fear]\prf\c[4]衛兵：\c[0]    快幫我把那些蟲子吸出來！
+
+healerFInn/WorkDOing_begin1
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    年輕的女體來了！ 聖徒會治好你們的！ 相信聖徒吧！
+
+healerFInn/WorkDOing_begin2
+\CBct[1]\Rshake\c[6]洛娜：\c[0]    吚啊？！
+
+healerFInn/WorkDOing_begin3
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    上吧！這個年輕的屄穴會吸盡你體內的汙穢的。
+
+healerFInn/WorkDOing_begin4
+\CBid[-1,20]\m[fear]\prf\c[4]難民：\c[0]    感謝聖徒！
+
+healerFInn/WorkDOing_begin4Guard
+\CBid[-1,20]\m[fear]\prf\c[4]衛兵：\c[0]    感謝聖徒！
+
+healerFInn/WorkDOing_getSemen0
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    嗚嗚...
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    來，讓我看看妳體內收到的汙穢。
+
+healerFInn/WorkDOing_TotalScore0
+\narr洛納的身體吸收了#{$story_stats["HiddenOPT1"]}點罪惡的汙穢。
+
+healerFInn/WorkDOing_TotalScore1
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    孩子，繼續吧。
+
+healerFInn/WorkDOing_HerDialog
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    妳已吸收了\c[6]#{$story_stats["HiddenOPT1"]}\c[0]點罪惡的汙穢。
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    要放棄了嗎？ 要結束了嗎？\optB[算了,結束]
+
+healerFInn/WorkDOing_HerDialog_end
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    就這樣帶著汙穢前進吧。
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    女人的身體就是罪孽的存在，人會成為謊言者皆是因為女人的罪惡。
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    就算妳是受金錢誘惑的無信者，聖徒也會關照妳的。
+
+healerFInn/WorkDOing_HerDialog_end_noReward
+\CBmp[Nurse,20]\prf\c[4]修女：\c[0]    聖徒阿，原諒這個無理的無信者吧。
+
+####################################################################################### QUESTS
+############################################ OP QUEST
+
+OpQuest/Begin0
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 我記得這個地方。
+
+OpQuest/Begin1
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    是什麼堡壘來著？
+
+OpQuest/Begin2
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    變的這麼殘破嗎？
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    我家不知道變什麼樣子了...
+
+OpQuest/Begin_INC0
+\prf\c[6]衛兵：\c[0]    \{來了！ 他們來了！\}
+
+OpQuest/Begin_INC1
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    什麼？ 誰來了？
+
+OpQuest/Begin_INC2
+\CBmp[OPquestCount,20]\prf\c[6]衛兵：\c[0]    \{北方！ 魔物來了！\}
+
+OpQuest/Begin_INC3
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    魔物？ 在哪？！
+
+OpQuest/Begin_RUN0
+\BonMP[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]百夫長：\c[0]    快！ 所有人進屋子裡！
+
+OpQuest/Begin_WTF0
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳還在這裡做什麼？
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我... 對不起！
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    太遲了！ 做好準備！
+
+OpQuest/Begin_WTF1
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    \{殺！\}
+
+OpQuest/Wave2
+\CBmp[OPquestCount,20]\prf\c[6]衛兵：\c[0]    \{北方！ 蝙蝠！\}
+
+OpQuest/Wave3
+\CBmp[OPquestCount,20]\prf\c[6]衛兵：\c[0]    \{南方！ 蜘蛛！\}
+
+OpQuest/Win0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    這裡到處都是怪物，妳是怎麼進來的？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    算了。
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    像妳這樣的弱女子居然幫得上忙。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    這些拿去吧。
+
+OpQuest/Win1
+\CBct[3]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    謝謝！
+
+############################################## spawnPoolQuest
+
+Qprog2/PoolQuest_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    既然妳進得來，那也一定出的去吧？
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    聽著，我需要一個斥候調查西方的森林。
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    我嘗試著對外取得聯繫，但派出去的戰士都沒有回來。
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    找到我們的人，如果他們還活著的話。
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    這是非常危險的工作，但我需要所有可用的人對抗這些怪物。
+
+Qprog2/PoolQuest_1
+\board[搜索西方]
+目標：探索西方的森林
+報酬：解鎖驛站
+委託主：南門營地
+期限：單次
+探索西方的森林，確認失蹤士兵的生死。
+
+Qprog2/PoolQuest_accept
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...派出去的人？ 有多少人？
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    三個。
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]百夫長：\c[0]    如果妳失敗了，在那些魔物抓住妳前自盡吧。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 阿... 好的....
+
+Qprog5/PoolQuest_Done
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳活著回來了？ 只有妳一人嗎？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 我不知道該怎麼說...他們是死光了吧？
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    吧？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    如果被做成肉塊算是活著的話，然後就是我在那裡發現了一個巢穴。
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    巢穴？
+\CBmp[Leader,6]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    該死的，現在哪有人手去處理這個...
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 不用擔心，那個巢穴被毀了。
+\CBmp[Leader,1]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    什麼？！ 妳怎麼做到的！
+
+Qprog5/PoolQuest_Done_Lona
+\CBct[20]\m[overkill]\plf\Rshake\c[6]洛娜：\c[0]    不知道，我走過去鏘鏘？然後哐哐？接著咻咻？然後它就爆炸了？
+
+Qprog5/PoolQuest_Done_DedHalp
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    不！ 不是我！ 總之那個轟轟轟,砰砰砰，咑咖咑咖咑咖，然後巢穴就毀掉了！
+
+Qprog5/PoolQuest_Done_end
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    ......
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    總之那個巢穴毀掉了？
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    是的。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我會再派斥候出去看看。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    若是真的，那這裡受到的壓力也會減少。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我們會在嘗試著與外面建立聯繫，謝謝了。
+\CBct[3]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    不客氣！
+
+Qprog6/WaitingAMT
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    休息一下吧，我們還在試圖與外面取得聯繫。
+
+Qprog6/RaidOnEast_replay
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    噢，是妳。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    這裡成功與\c[6]警總\c[0]取得聯繫了。
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    \c[6]南門營地\c[0]的驛站也重新啟用了。
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    現在開始驛站將可通往島內其他地方。
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    喔。
+
+Qprog7/RaidOnEast0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    斥候在東方發現了另一個孵化池，我們需要需要所有能戰鬥的人手！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？！
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    現在，馬上！
+
+Qprog7/RaidOnEast1
+\board[毀掉孵化池]
+目標：毀掉東方的孵化池
+報酬：解鎖市場
+委託主：南門營地
+期限：單次
+毀掉東方的孵化池，將那些噁心的魔物送去見聖徒！
+
+Qprog7/RaidOnEast_accept0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃，好吧。
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    到底發生...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    很好！ 現在立刻出發！
+
+Qprog7/RaidOnEast_accept1
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    連問的時間都沒有嗎？
+
+Qprog9/RaidOnEast_reward
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    噢！ 是妳。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我們終於解決了被包圍的態勢，很快的支援將會來到\c[6]南門營地\c[0]。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    關於妳...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我的部下說明了一切，看來妳的確不是個戰鬥的料。
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我.....
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    回去吧，祝你好運。
+
+Qprog10/WaitingAMT_noLisa
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我聽說\c[6]東7哨點\c[0]有個相當有趣的新武器，我必須想辦法把它弄到手。
+
+Qprog8/WaitingAMT_wait
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    有什麼妳能做的？ 你可以去旅店問傭兵公會職員。
+
+############################################## Get Lisa
+
+Qprog11/LisaLine_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    喂！ 妳！ 就是妳！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃？
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我需要人手去\c[6]諾爾鎮\c[0]找兩個人。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    找人？
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我們必須找到找到火藥販子\c[6]麗莎\c[0]以及砲手\c[6]洛娜\c[0]。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我聽說他們都在諾爾鎮出沒，找到她們我們就有機會打破現狀！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...\c[4]洛娜\c[0]？？
+
+Qprog11/LisaLine_1
+\board[找到麗莎與洛娜]
+目標：諾爾鎮
+報酬：無
+委託主：南門營地
+期限：單次
+找到火藥販子\c[6]麗莎\c[0]以及她的幫手\c[6]洛娜\c[0]。
+
+Qprog11/LisaLine_accept0
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...那個.... 我就是洛娜。
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳？ 妳說妳是誰？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    洛娜。
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    呃.........
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃......
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    呃...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    所以... 您找我有什麼事？
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    咳！ 我聽說在\c[6]東7哨點\c[0]有個強大的砲兵。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    他使用由\c[6]麗莎\c[0]開發的強大火炮擊退了一波又一波的魔物侵略。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    所以那個砲兵就是妳？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...是我沒錯？
+
+Qprog11/LisaLine_accept1
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我已與\c[6]東7哨點\c[0]的砲擊官書信連絡過了。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    前往諾爾鎮，找到\c[6]麗莎\c[0]，然後去\c[6]東7哨點\c[0]，並將那個什神奇的火炮帶過來。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳也是席芭莉絲人對吧？ 妳不想回到妳的家園嗎？
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[serious]\plf\PRF\c[6]洛娜：\c[0]    我知道了，我會帶她過來！
+
+Qprog11/LisaLine_accept2
+\board[找到麗莎]
+目標：諾爾鎮
+報酬：無
+委託主：南門營地
+期限：單次
+找到火藥販子\c[6]麗莎\c[0]然後前往\c[6]東7哨點\c[0]。
+
+Qprog11/LisaLine_No
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\.. \m[hurt]\Rshake 我肚子痛！
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    ....
+
+############################################ INN QUEST
+
+QuestBoard/other_about
+\CBid[-1,20]\prf\c[4]職員：\c[0]    最初的時候這裡是滿滿的傭兵呢，那些失去家人的人們都跑來這裡當傭兵了。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    而他們大多數都回不來。現在這裡只剩\c[6]警總\c[0]以及\c[6]盧德辛商行\c[0]的士兵了。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    呃... 對！ 還有\c[6]聖徒會\c[0]的那群瘋子。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    妳也覺得這個世界瘋了對嗎？
+\CBid[-1,20]\prf\c[4]職員：\c[0]    現在幾乎無法對外聯絡，也許妳可以幫上忙？
+
+QuestBoard/other_about_Prog10
+\CBid[-1,20]\prf\c[4]職員：\c[0]    哈！ 我要離開了，我重新與工會取得聯繫了。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    相信不久後他們就會派人來替代我。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    我要辭職！ 我不幹了！
+
+QuestBoard/GiveUp
+\CBid[-1,20]\prf\c[4]職員：\c[0]    啊？ 放棄了？
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]職員：\c[0]    唉....\optB[沒事,關於,取消任務<r=HiddenOPT0>]
+
+MercenaryGuild/QuProgSybBarn5
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 所以那個穀倉....
+\CBid[-1,20]\prf\c[4]職員：\c[0]    什麼？ 啊！妳的任務對嗎？
+\CBct[20]\m[serious]\plf\PRF\c[6]洛娜：\c[0]    那裡的確有很多生還者，但不知道為何他們居然攻擊我。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    這樣啊，現在確有很多被生還者攻擊的回報，辛苦了。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    妳還能活著回來那代表妳也有一定的實力。
+\CBct[20]\m[serious]\plf\PRF\c[6]洛娜：\c[0]    對了，我還遇到了其他傭兵？
+\CBid[-1,20]\prf\c[4]職員：\c[0]    是的，妳沒看錯，是傭兵。
+\CBid[-1,20]\prf\c[4]職員：\c[0]    我們跟工會取得聯繫後多了很多像妳這樣的傭兵，但我看它們大多都回不來了。
+
+############################################## QBOARD
+
+QuestBoard/SybBarn
+穀倉的生還者
+
+QuestBoard/SybBarn_BOARD
+\board[穀倉的生還者]
+目標：前往西南門的穀倉
+報酬：大銅幣3
+委託主：南門營地
+期限：單次
+在城中活動的斥候回報西南門的穀倉中可能有大量的生還者。
+但他們不能肯定那些人依然是人類，目前我們的人手有限，無法派出更多的人力去進行調查與接觸。
+
+noquestPOP/0
+目前沒有任何委託
+
+QuestBoard/SpiderLeg
+異變蜘蛛腿
+
+QuestBoard/SpiderLeg_BOARD
+\board[讓他們知道誰才是老大]
+目標：收集10個異變蜘蛛腿\i[188]
+報酬：大銅幣2
+委託主：南門營地
+期限：長期
+我們的大廚嘗試過了，這些蟲腿非常的喀蹦脆。
+油炸是最合適的！
+
+MercenaryGuild/SpiderLeg_win1
+\CBct[20]\m[fear]\PRF\c[6]洛娜：\c[0]    噁...你們要的蟲腿...拿去吧。
+
+QuestBoard/BreedLingMeat
+奔行者的大腿肉
+
+QuestBoard/BreedLingMeat_BOARD
+\board[奔行者的大腿肉]
+目標：收集10個奔行者的大腿肉\i[190]
+報酬：大銅幣2
+委託主：南門營地
+期限：長期
+既然魔物吃我們。那我們吃魔物又有什關係？
+
+MercenaryGuild/BreedLingMeat_win1
+\CBct[20]\m[fear]\PRF\c[6]洛娜：\c[0]    噁...你們要的大腿肉...拿去吧。
+
+QuestBoard/MonsterBone
+異變生物的骨頭
+
+QuestBoard/MonsterBone_BOARD
+\board[魔物的大骨]
+目標：收集8個魔物的大骨\i[189]
+報酬：大銅幣4、小銅幣5
+委託主：南門營地
+期限：長期
+我們的大鍋湯需要更多的骨頭。
+
+MercenaryGuild/MonsterBone_win1
+\CBct[20]\m[fear]\PRF\c[6]洛娜：\c[0]    噁...你們要的骨頭...
+
+############################################## TODO
+
+QuestBoard/GotoDT
+前往某點TODO
+
+QuestBoard/DestroyHive
+巢穴核心
+
+QuestBoard/DestroyHive_BOARD
+\board[搗毀牠們的巢穴]
+目標：毀滅北方的巢穴
+報酬：大銅幣６
+委託主：南門營地
+期限：單次
+

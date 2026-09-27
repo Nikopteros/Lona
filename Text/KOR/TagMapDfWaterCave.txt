@@ -1,0 +1,470 @@
+thisMap/OvermapEnter
+\m[confused]수련동\optB[그만둔다,들어간다]
+
+##########################################################################################  Inside
+
+keeper/0_opt
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\c[4]신도：\c[0] 너 누구야?! 여길 어떻게 안 거지?!\optB[지나가던 사람,니콜라스<r=HiddenOPT0>]
+
+keeper/1_1Passby
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그냥 지나가던 길이에요!
+
+keeper/1_1HerName
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] \c[4]니콜라스\c[0]?
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] 너 새로 입교한 사람이야? 전엔 본 적이 없는데.
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] 됐다, 들어가라.
+
+keeper/1_1Passby_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 거짓말쟁이! 먹어치워!
+
+aggro/Cocona0
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 친구야! 같이 거짓말쟁이를 먹어치우자!
+
+aggro/Cocona1
+\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 코코나가 언니를 지킬 거야!
+
+keeper/1_1HerName_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 거짓말쟁이! 거짓말쟁이다!
+\CBct[8]\m[serious]\Rshake\plf\c[6]로나：\c[0] 코코나! 그러면 안 돼!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 하지만... 거짓말쟁이는... 다 먹어 없애야 하는데...
+\CBct[8]\m[shocked]\Rshake\plf\c[6]로나：\c[0] 얌전히 있어, 언니한테 맡겨.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 으냥...
+
+keeper/Aggro
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] \{침입자다!!
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] \{에에에?!?!
+
+keeper/Aggro_captured
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] 제물이 도망쳤다!
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] \{에에에?!?!
+
+keeper/Aggro_captured_loop
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] .....
+
+thisMap/Aggro
+\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] 침입자다!
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] \{큰일 났다!
+
+thisMap/Aggro_captured
+\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] 누군가 생육의 어머니를 배신했다!!
+\CBct[8]\m[terror]\Rshake\c[6]로나：\c[0] \{망했다!
+
+Df_Heresy/rg27_1
+\SETpl[AnonMale2]\PLF\prf\c[4]신도：\c[0] 누군가 생육의 어머니를 배신했다!!!
+
+SexPartyOP/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] 콜록\..\Rshaked 콜록\..\Rshaked콜록...!
+\CBct[20]\m[pain]\Rshake\c[6]로나：\c[0] 비릿한 냄새가 진동하네.....
+
+SexPartyOP/1
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 음?
+
+SexPartyOP/2_1
+\BonMP[PigMan,20]\c[4]돼지머리：\c[0] 너무 멋지군... 그래... 바로 그거....
+\BonMP[PigMan,20]\c[4]돼지머리：\c[0] 그분이 오신다!! 오신다! 오신다아!
+
+SexPartyOP/2_2
+\BonMP[PigMan,4]\c[4]돼지머리：\c[0] 오오오오!!!
+
+SexPartyOP/2_3
+\BonMP[PigMan,4]\c[4]돼지머리：\c[0] 내 정액를 삼켜라! 동포들에게 쾌락을 안겨라!
+
+SexPartyOP/3
+\BonMP[PigMan,4]\c[4]돼지머리：\c[0] 기분 좋아!!!
+\BonMP[PigMan,20]\c[4]돼지머리：\c[0] 오! 위대한 \c[6]생육의 어머니\c[0]시여!
+\BonMP[PigMan,20]\c[4]돼지머리：\c[0] 우리의 부름을 들으소서! 이는 당신께 바치는 제물입니다!
+\BonMP[PigMan,20]\c[4]돼지머리：\c[0] 우리의 두려움을 거두어 가시고! 우리에게 환희를 내려주소서!
+\BonMP[PigMan,20]\c[4]돼지머리：\c[0] 가라, 한때 가짜 신의 백성이었던 자여, 이제 너의 참된 신을 맞이하라....
+
+SexPartyOP/3_1
+\BonMP[PigMan,20]\c[4]돼지머리：\c[0] 형제자매들이여! 새로 들어온 이 여동생을 위해 기도하라!
+
+SexPartyOP/4
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]신자：\c[0] 이야! 이야! \c[6]니콜라스\c[0]!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]신자：\c[0] 이야! 이야! \c[6]니콜라스\c[0]!!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]신자：\c[0] 이야! 이야! \c[6]니콜라스\c[0]!!!
+
+SexPartyOP/4_1
+\c[4]제물：\c[0] \{아야야야야!!!!
+
+SexPartyOP/4_2
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]신자：\c[0] 감사하라, \c[6]생육의 어머니\c[0]! 찬양하라, \c[6]생육의 어머니\c[0]!
+
+SexPartyOP/5
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]신자：\c[0] \c[6]생육의 어머니\c[0]시여! 그녀의 두려움을 거두어 주소서!
+
+SexPartyOP/6
+\m[shocked]\Rshake\c[6]로나：\c[0] 뭐야? 검은 안개 속의 마물? 흉물?
+\m[terror]\Rshake\c[6]로나：\c[0] 아니야... 그럴 리 없어... 세상에 이런 게 존재할 리가....
+
+SexPartyOP/end_cocona
+\narr \......\......\......
+\narrOFF\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 언니! 빨리 일어나!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 으냥! 으냥, 나 버리고 가지 마!
+
+SexPartyOP/end1
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 방금... 방금 무슨 일이 있었던 거지?!
+
+SexPartyOP/end1_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 언니가 친구가 됐어...
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 친구? 죽었다는 거야?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 걱정 마, 언니는 괜찮아.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 으냥....
+
+SexPartyOP/end2
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] 으으...
+\CBct[20]\m[pain]\Rshake\c[6]로나：\c[0] 아랫배가 너무 뜨거워\..\..  너무 원해\...
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[serious]\Rshake\c[6]로나：\c[0] 안 돼, 정신 차려. 난 버틸 수 있어.
+
+SexPartyOP/end2_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 언니?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 걱정 마. 난 괜찮아, 정말 괜찮아...
+
+######################################################################  Common Dialog
+
+Df_Heresy/4CommonerF_QuRng0_0
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 실례지만, \c[4]도리스\c[0]가 누군지 아시나요?
+
+Df_Heresy/4CommonerF_QuRng0_1
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 실례지만, \c[4]도리스\c[0]가 어디 있는지 아시나요?
+
+Df_Heresy/4CommonerF_QuRng0_2
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 어... \c[4]도리스\c[0]?
+
+CommonerF/Rng0
+\CBid[-1,4]\prf\c[4]신자：\c[0] 나 정말 하고 싶어! 누가 나 좀 해줘!
+
+CommonerF/Rng1
+\CBid[-1,4]\prf\c[4]신자：\c[0] 날 범해! 범해! 내 두려움을 없애줘!
+
+CommonerF/Rng2
+\CBid[-1,4]\prf\c[4]신자：\c[0] 생육의 어머니께서 나를 보고 계셔! 그분을 느낄 수 있어!
+
+Df_Heresy/4CommonerF_QuRngEND
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 어......
+
+Priest/Qmsg0
+나는 느꼈다!
+
+Priest/Qmsg1
+그분이 오셨다!
+
+Priest/Qmsg2
+아이샤브 니콜라스!
+
+Fcommoner/Qmsg0
+하하하... 하하
+
+Fcommoner/Qmsg1
+히히히... 후후...
+
+Fcommoner/Qmsg2
+자지... 큰 자지...
+
+Mcommoner/Qmsg0
+나 쌀 것 같아!
+
+Mcommoner/Qmsg1
+나 꼭 싸야 해!
+
+Mcommoner/Qmsg2
+오오오!!
+
+Mcommoner/RapeLoopPick_begin
+\CBct[4]\m[lewd]\PRF\c[6]로나：\c[0] 돼지머리 대인이 네 자지를 닦아주라고 했어....?
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 너는 마음대로 날 범할 수 있는 거야?
+
+Mcommoner/RapeLoopPick_0
+\CBid[-1,4]\prf\c[4]신자：\c[0] 하고 싶어! 하고 싶다고!!!
+
+Mcommoner/RapeLoopPick_1
+\CBid[-1,4]\prf\c[4]신자：\c[0] 내 자지를 핥아! 네가 내 자지를 핥아줘야 해♥
+
+Mcommoner/RapeLoopPick_2
+\CBid[-1,4]\prf\c[4]신자：\c[0] 나 오줌 싸고 싶어! 어서 입을 가까이 대♥
+
+Mcommoner/RapeLoopPick_3
+\CBid[-1,4]\prf\c[4]신자：\c[0] 나 쌀 거야! 어서♥ 머리를 가까이 대♥
+
+Mcommoner/RapeLoopPick_Start
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 네....
+
+Mcommoner/RapeLoopPick_END
+\CBid[-1,4]\prf\c[4]신자：\c[0] 후후....♥
+\CBct[3]\m[lewd]\PRF\c[6]로나：\c[0] 감사합니다♥
+
+Mcommoner/RapeLoopPick_SuckDick1_0
+\CBid[-1,4]\c[4]신자：\c[0] 후! 너무 좋아♥
+
+Mcommoner/RapeLoopPick_SuckDick1_1
+\CBid[-1,4]\c[4]신자：\c[0] 그래! 바로 거기야♥
+
+Mcommoner/RapeLoopPick_SuckDick2
+\CBid[-1,4]\c[4]신자：\c[0] \{오오오오♥♥♥
+
+##########################################################################################  rapeloop
+
+NapCapture/0
+\narr로나가 그들에게 붙잡혔고, 그들은 로나의 모든 것을 빼앗았다.
+
+NapRngRape/0_0
+\c[4]신자：\c[0] 보지다!! 이건 내 보지다!! 생육의 어머니께 감사드린다!
+
+NapRngRape/0_1
+\c[4]신자：\c[0] 이건 내 보지야! 반드시 넣어야겠어!
+
+NapRngRape/1_0_NO
+\c[4]신자：\c[0] 보지가 어떻게 감히 저항해! 보지는 당해야 마땅해!
+
+RapeLoop/FirstTime0
+\m[tired]\c[6]로나：\c[0] 너무 하고 싶어... 자지 먹고 싶어...
+
+RapeLoop/FirstTime1
+\m[confused]\c[6]로나：\c[0] 내가 어디에 있는 거지? 내가 뭘 하고 있는 거야?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[pain]무언가가 내 입 앞에 있어?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[hurt]으으... 냄새가 너무 심해...
+
+RapeLoop/FirstTime2
+\Rflash\SndLib[sound_chcg_full]\CBmp[PigMan,20]\c[4]돼지머리：\c[0] 생육의 어머니시여! 그녀의 모든 두려움을 거두어 주소서!
+
+RapeLoop/FirstTime3
+\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] 으으....
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 생육의 어머니께서 네 근심을 없애 주셨다. 이제 너는 두려움도, 고통도 느끼지 않게 될 것이다.
+\CBct[6]\m[tired]\Rshake\c[6]로나：\c[0] 으으.... 너는 누구야?
+
+RapeLoop/FirstTime3_1
+\CBct[2]\m[tired]\PRF\c[6]로나：\c[0] 내가 어디에 있는 거지? 내가 뭘 하고 있는 거야?
+
+RapeLoop/FirstTime3_2
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 이건... 뭐지?
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 이것은 생육의 어머니의 은혜다. 모든 두려움과 근심을 잊게 해줄 것이다.
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 이걸 마시면, 너는 우리의 일부가 될 것이다.
+\CBct[2]\m[tired]\PRF\c[6]로나：\c[0] 네...
+
+RapeLoop/FirstTime4
+\CBmp[PigMan,20]\c[4]돼지머리：\c[0] 좋아! 아주 좋아! 너는 이제 우리의 육변기가 될 것이다!
+\CBmp[PigMan,20]\c[4]돼지머리：\c[0] 너는 이제 우리의 일부다! 우리의 육변기다!
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 내가... 변기라고?
+\CBmp[PigMan,20]\c[4]돼지머리：\c[0] 형제자매들이여! 새로 온 여동생을 위해 환호하라!
+
+RapeLoop/FirstTime4_1
+\BonMP[PPL4,20]\BonMP[PPL5,20]\BonMP[PPL6,20]\BonMP[PPL7,20]\c[4]신자：\c[0] 이야! 이야! \c[6]니콜라스\c[0]!
+
+RapeLoop/FirstTime5
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 아이야, 너는 이제 우리의 일부다.
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 가거라... 형제들의 사랑을 받아라. 그들이 두려움을 잊게 해 주거라.
+\CBct[6]\m[tired]\Rshake\c[6]로나：\c[0] 네...
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] 흐윽．．．．
+\CBct[20]\m[lewd]\PRF\c[6]로나：\c[0] 하고 싶어\..\..　원해\...
+\CBct[20]\m[shy]\Rshake\c[6]로나：\c[0] 내 몸이 왜 이러지?
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] 흐윽．．．．
+\CBct[20]\m[lewd]\PRF\c[6]로나：\c[0] 너무 뜨거워... 너무 뜨거워!
+
+actionRapeLoop/Wall0_0
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐...? 내가 나가면 안 된다고?!
+
+actionRapeLoop/Wall0_1
+\CBct[1]\m[terror]\Rshake\c[6]로나：\c[0] 다른 사람하고도 해야 한다고?!
+
+actionRapeLoop/Wall0_2
+\CBct[1]\m[serious]\Rshake\c[6]로나：\c[0] 내가 다른 동생들을 행복하게 해 줘야 한다고!?
+
+actionRapeLoop/Wall0_3
+\CBct[1]\m[sexhurt]\Rshake\c[6]로나：\c[0] 내가 반드시 그들이 싸게 해야 한다고!?
+
+actionRapeLoop/Wall0_NotEnough
+\CBct[6]\m[pain]\Rshake\c[6]로나：\c[0] 흐윽....
+
+actionRapeLoop/Wall0_Break
+\CBct[20]\m[serious]\Rshake\c[6]로나：\c[0] 으... 정신 차려... 나가야 해...
+
+actionRapeLoop/commoner_opt
+\CBct[6]\m[lewd]\Rshake\c[6]로나：\c[0] 나... 나 지금 도대체 뭐 하고 있는 거지?\optB[그만두자,헌신한다]
+
+actionRapeLoop/Wall1_opt
+\CBct[6]\m[tired]\Rshake\c[6]로나：\c[0] 나... 나 지금 도대체 뭐 하고 있는 거지?\optB[계속 헌신한다,저항한다]
+
+actionRapeLoop/Sleep_opt
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 쉴 수 없어! 아직 해야 할 일이 남았어!!\optD[계속 헌신한다,잔다]
+
+actionRapeLoop/DidntDoSex_PlusAggroRate0_0
+\narr\cg[event_Eyes]로나는 다른 신도들과 신성한 교합을 하지 않았다...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_1
+\narr그로 인해 신도들은 몹시 불만스러워했다...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_2
+\narr신도들은 로나를 의심하기 시작했다...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_3
+\narr신도들은 이 배신자를 제물로 바치기로 결심했다...
+
+actionRapeLoop/Blocked0
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 안 돼! 나는 다른 사람들의 두려움을 잊게 해줘야 해!
+
+actionRapeLoop/Blocked1
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 안 돼! 나는 생육의 어머니의 신도야! 사람들과 해야 해!
+
+actionRapeLoop/Blocked2
+\CBct[6]\m[bereft]\Rshake\c[6]로나：\c[0] 안 돼! 나는 다른 사람들에게 안에 사정하게 해줘야 해! 그게 내 책임이야!
+
+wakeUp/suckDick-0
+\CBct[6]\m[confused]\Rshake\c[6]로나：\c[0] 여긴 어디지? 내가 뭘 하려던 거지?
+\CBct[6]\m[lewd]\Rshake\c[6]로나：\c[0] 맞아! 나는 냄새나는 자지를 먹어야 해...
+
+wakeUp/suckDick0_0
+\CBct[6]\m[lewd]\Rshake\c[6]로나：\c[0] 자지... 맛있어...
+
+wakeUp/suckDick0_1
+\CBct[6]\m[lewd]\Rshake\c[6]로나：\c[0] 꼭 깨끗하게 핥아야 해...
+
+wakeUp/suckDick0_2
+\CBct[6]\m[lewd]\Rshake\c[6]로나：\c[0] 이건 내 책임이야, 깨끗하게 하는 거.
+
+wakeUp/suckDick1_0
+\CBmp[PigMan,4]\c[4]돼지머리：\c[0] 그래, 잘한다. 바로 거기야.
+
+wakeUp/suckDick1_1
+\CBmp[PigMan,4]\c[4]돼지머리：\c[0] 그래, 이건 생육의 어머니께서 너에게 내리신 책무다.
+
+wakeUp/suckDick1_2
+\CBmp[PigMan,4]\c[4]돼지머리：\c[0] 훌륭해! 생육의 어머니께서 너를 자랑스러워하신다!
+
+wakeUp/suckDick1_pee
+\CBmp[PigMan,4]\c[4]돼지머리：\c[0] 고개를 들어라. 너는 생육 정화의 세례를 받게 될 것이다.
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 네....
+
+wakeUp/suckDick2
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 네가 잘해주었다. 하지만 너의 형제들은 여전히 두려움 속에서 살아가고 있다.
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 가라, 가서 그들의 두려움을 풀어주어라.
+\CBct[4]\m[lewd]\PRF\c[6]로나：\c[0] 돼지머리님 감사합니다. 로나는 지금 바로 그들이 날 마음껏 범하게 하겠습니다.
+
+wakeUp/suckDick3
+\CBct[2]\m[lewd]\PRF\c[6]로나：\c[0] 내가 그들에게 몸을 주어야 해? 내가 자지을 빨아야 해?
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 그럼 누구 자지을 먹어야 하지?
+
+wakeUp/GangRape0
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 아이야, 네가 아주 잘해주었다.
+\CBct[3]\m[lewd]\PRF\c[6]로나：\c[0] 돼지머리님, 감사합니다♥
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 하지만 나는 여전히 신자들 사이에서 큰 두려움을 느낀다.
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 뒤를 돌아봐라, 저 가엾은 자들은 여전히 두려움 속에 살고 있다.
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 가서 그들을 해방시켜라!
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 네....?
+
+wakeUp/GangRape1
+\CBct[3]\m[lewd]\PRF\c[6]로나：\c[0] 형제 여러분… 마음껏 저를 범해도 되나요?
+
+wakeUp/Break0
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 아이야, 정말 잘해줬구나.
+\CBct[3]\m[lewd]\PRF\c[6]로나：\c[0] 감사합니다, 돼지머리님♥
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 가서 쉬거라. 내일은 더 많은 이들의 두려움을 씻어내게 될 것이다.
+\CBmp[PigMan,20]\prf\c[4]돼지머리：\c[0] 모든 것은 생육의 어머니를 위해서다.
+\CBct[3]\m[lewd]\PRF\c[6]로나：\c[0] 모든 것은 생육의 어머니를 위해♥
+
+wakeUp/Break1
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 내가 누구지? 여기서 뭘 하고 있는 거야?
+
+GameOver/0
+\m[tired]\PRF\c[6]로나：\c[0] 어…?
+\m[confused]\PRF\c[6]로나：\c[0] 너무… 덥네…?
+\m[tired]\PRF\c[6]로나：\c[0] ......
+
+GameOver/1
+\BonMP[PigMan,20]\prf\c[4]돼지머리：\c[0] 저녀석이 감히 위대한 생육의 어머니께 반항하다니!
+\BonMP[PigMan,20]\prf\c[4]돼지머리：\c[0] 그녀는 쾌락을 누릴 자격이 없다!
+\BonMP[PigMan,20]\prf\c[4]돼지머리：\c[0] 우리는 반드시 그녀에게 두려움을 되돌려줘야 한다!
+
+GameOver/2
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake ！！！！
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]로나：\c[0] 뜨거워! 뜨거워!!
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]로나：\c[0] 안 돼! 죽기 싫어! 안 돼—!!
+\SndLib[sound_Bubble]\Rflash\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{아아아악!!
+
+GameOver/3
+\narr로나는 삶아졌다.
+\narr그녀의 살은 신도들에게 나눠 먹혔다.
+\narr뼈는 푹 고아져 국물이 되었다.
+\narr마지막에는 아무것도 남지 않았다....
+
+######################################################################  BlueBlue
+
+Df_Heresy4/BlueBlue0
+\CBid[-1,2]\prf\c[4]신자：\c[0] \c[6]도리스\c[0]\..\..\..?
+\CBid[-1,5]\prf\c[4]신자：\c[0] 내가 \c[6]도리스\c[0]이라고?!
+\CBid[-1,4]\prf\c[4]신자：\c[0] 내가 \c[6]도리스\c[0]…? 난 남자들한테 날 마음껏 범하게 해야 해!
+
+Df_Heresy4/BlueBlue1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 으...
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 네 언니가 계속 널 찾고 있었어. 우리 같이 돌아가면 안 될까?
+\CBid[-1,8]\prf\c[4]도리스：\c[0] 언니\..\..\..?
+\CBid[-1,20]\prf\c[4]도리스：\c[0] 언니는 날 싫어해! 모두가 날 무시해!
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 으...
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 어떻게 언니가 널 싫어하겠어?
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 네 언니는 널 정말 걱정하고 있어. 그래서 나한테 널 찾으러 오라고 한 거야.
+\CBid[-1,20]\prf\c[4]도리스：\c[0] 싫어! 돌아가기 싫어! 이 세상은 너무 무서워!
+\CBid[-1,20]\prf\c[4]도리스：\c[0] 세상에는 나쁜 사람들뿐이야. 모두 날 괴롭히려고 해!
+\CBid[-1,20]\prf\c[4]도리스：\c[0] 여기엔 두려움이 없어! 난 여기서 정말 행복해!
+
+Df_Heresy4/BlueBlue2
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 아무래도 여기가 더 위험한 것 같은데...
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 배도 이렇게 불러왔잖아. 아이를 위해서라도 그러는 게 어때?
+\CBid[-1,8]\prf\c[4]도리스：\c[0] 아이\..\..\..
+\CBid[-1,8]\prf\c[4]도리스：\c[0] 알겠어... 너랑 같이 갈게...
+\CBct[3]\m[pleased]\PRF\c[6]로나：\c[0] 잘됐다!
+
+Df_Heresy4/BlueBlue3
+\CBct[6]\m[serious]\PRF\c[6]로나：\c[0] 여긴 정말 위험해. 지금 당장 나가야 해.
+
+Df_Heresy4/BlueBlue4_opt
+\CBmp[BBguard,4]\prf\c[4]신자：\c[0] 착한 아가씨♥ 너랑 하고 싶어♥ 두려움을 내보내자♥
+\CBct[6]\m[angry]\Rshake\c[6]로나：\c[0] 큰일이네...\optD[무시한다,헛소리한다<r=HiddenOPT1>,위협한다<r=HiddenOPT2>]
+
+Df_Heresy4/BlueBlue4_WIS0
+\CBct[5]\m[serious]\PRF\c[6]로나：\c[0] 잘 들어! 그녀는 내 거야!
+\CBmp[BBguard,2]\prf\c[4]신자：\c[0] 너\..\..\..여자라고??
+\CBmp[BBguard,20]\prf\c[4]신자：\c[0] 여자와 여자는 아이를 가질 수 없어!
+\CBmp[BBguard,20]\prf\c[4]신자：\c[0] 생육의 어머니께서는 그런 걸 허락하지 않으셔!
+\CBct[5]\m[angry]\Rshake\c[6]로나：\c[0] 여자와 여자가 아이를 못 가진다고 누가 정했는데?
+\CBct[5]\m[serious]\Rshake\c[6]로나：\c[0] 너 여자야? 여자가 되어본 적 있냐?!
+\CBct[5]\m[angry]\Rshake\c[6]로나：\c[0] 위대한 생육의 어머니가 직접 여자끼리는 아이를 못 낳는다고 말했어?
+\CBmp[BBguard,6]\prf\c[4]신자：\c[0] 나...
+\CBct[5]\m[serious]\Rshake\c[6]로나：\c[0] 너랑 그녀는 절대 안 돼! 벌써 아이가 있는 거 안 보여?
+\CBmp[BBguard,6]\prf\c[4]신자：\c[0] 내가 잘못했어....
+\CBmp[BBguard,20]\prf\c[4]신자：\c[0] 네 말이 맞아, 그녀는 네 거다...
+
+Df_Heresy4/BlueBlue4_WIS1
+\CBct[3]\m[flirty]\PRF\c[6]로나：\c[0] 하하...?
+
+Df_Heresy4/BlueBlue4_CB0
+\CBmp[BBguard,6]\c[4]신자：\c[0] 으오오오!!!
+\CBmp[BBguard,20]\c[4]신자：\c[0] \{내 불알이!!!!
+
+Df_Heresy4/BlueBlue4_CB1
+\CBct[5]\m[irritated]\Rshake\c[6]로나：\c[0] 지금 당장 여기서 나가야 해!
+
+Df_Heresy4/BlueBlue4_AGGRO
+\CBmp[BBguard,2]\c[4]신자：\c[0] 응? 처음 보는 얼굴인데, 너 누구야?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어.....
+\CBmp[BBguard,20]\prf\c[4]신자：\c[0] 저건 가짜 신의 사도다! 아무나 이리 와라!
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] \{큰일 났다!
+
+Df_Heresy4/END
+\board[생육의 어머니 교단]
+목표 : \c[6]도리스\c[0]를 찾아 \c[6]세레나\c[0]에게 데려가기
+기한 : 2일
+의뢰인 : 종말 요새 난민캠프의 \c[6]세레나\c[0]
+가능한 한 빨리 종말 요새 난민캠프로 돌아가자.
+
+Df_Heresy4/CompRng0
+\CBid[-1,8]\prf\c[4]도리스：\c[0] 언니가 나한테 화내지 않겠지?
+
+Df_Heresy4/CompRng1
+\CBid[-1,8]\prf\c[4]도리스：\c[0] 내가 잘못했어....
+
+Df_Heresy4/CompRng2
+\CBid[-1,8]\prf\c[4]도리스：\c[0] 미안해...

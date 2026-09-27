@@ -1,0 +1,37 @@
+ThisMap/OvermapEnter
+\m[confused] A lo lejos se escucha un grito de ayuda \optB[Ignorar,Investigar]
+
+enterMap/begin
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    E-em... Parece que hay alguien aquí...
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Bueno...\..\..\..\m[serious] Mejor estar alerta.
+
+crying/begin1
+\c[6]Refugiado：\C[0]    ¡NO! ¡AYUDA! ¡ALGUIEN, AYÚDEME!
+
+crying/begin2
+\CBmp[Hum,6]\c[6]Refugiado：\C[0]    ¡NO! ¡No me toques! ¡Soy un hombre!
+
+crying/begin3
+\CBmp[Hum,6]\c[6]Refugiado：\C[0]    ¡Te lo suplico! ¡Por favor, todavía soy virgen!
+
+crying/begin4
+\CBmp[Hum,20]\c[6]Refugiado：\C[0]    \{¡¡¡AAAAAAAAAAAAAAAAAHHHHH!!!
+
+crying/begin5
+\CBmp[Hum,6]\c[6]Refugiado：\C[0]    ¡AHH! ¡ME ESTOY MURIENDO! ¡MI CULO ESTÁ SIENDO DESGARRADO!!!
+
+crying/begin6
+\CBmp[Hum,2]\c[6]Refugiado：\C[0]    ¿Qué demonios...? ¿Acabas de correrte dentro de mí?
+\CBmp[Hum,20]\c[6]Refugiado：\C[0]    ¡NO! ¡NO QUIERO EMBARAZARME! ¡NO QUIERO SER PADRE!
+
+crying/begin7
+\CBmp[Hum,20]\c[6]Refugiado：\C[0]    \{No, ah-ah-ah-ah!!!
+\CBmp[Hum,20]\c[6]Refugiado：\C[0]    ¡Ja-ja! ¡Tómalo y vete al infierno, monstruo!
+
+enterMap/end0
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Un hombre? ¿EMBARAZARSE? .... ¿Escuché bien?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Espera, más adelante parece que...\..\..\..
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    \{¡¿Orcoides?!
+
+
+

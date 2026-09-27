@@ -1,0 +1,164 @@
+GrayRat/CompData
+\board[Грейрат]
+\C[2]Позиція:\C[0]Фронт
+\C[2]Стиль бою:\C[0]Воїн, Танк, Бойовий Клич
+\C[2]Фракція:\C[0]Сібаріс
+\C[2]Ворожнеча з:\C[0]Злі Істоти, Бандити
+\C[2]Вимога:\C[0]Слабкість менше 100
+\C[2]Тривалість:\C[0]5 днів
+\C[2]Особливість:\C[0]Не відроджується після смерті
+\C[4]Примітка:\C[0]Сесилія та Грейрат завжди разом
+Підлеглий Сесилії, її слуга чи щось таке, але, можливо, і хтось більше?
+
+
+#################################################################################################################################################### #############################
+
+GrayRat/CommandWait0
+Прийнято...
+
+GrayRat/CommandWait1
+Як забажаєте...
+
+GrayRat/CommandFollow0
+Давайте просуватися...
+
+GrayRat/CommandFollow1
+До ваших послуг...
+
+GrayRat/OvermapPop0
+........
+
+GrayRat/Comp_start
+\SETpl[GrayRatNormalAr]\c[4]Грейрат:\C[0] ........
+
+GrayRat/Comp_disband
+\SETpl[GrayRatConfused]\c[4]Грейрат:\C[0] У такому разі, до зустрічі...
+
+GrayRat/Comp_disbandAr
+\SETpl[GrayRatConfusedAr]\c[4]Грейрат:\C[0] Прощайте...
+
+################################# Cecily.Eaglemore
+GrayRatAr/CE_Death
+\SETpl[GrayRatShockedAr]\Lshake\{ЛЕДИ СЕСИЛІЯ...!!!
+\SETpl[GrayRatShockedAr]\Lshake\{Я ВБ'Ю ВАС ВСІХ!!!!!
+
+GrayRat/CE_Death
+\SETpl[GrayRatShocked]\Lshake\{ЛЕДИ СЕСИЛІЯ...!!!
+\SETpl[GrayRatShocked]\Lshake\{Я ВБ'Ю ВАС ВСІХ!!!!!
+
+###############################################QUEST
+
+
+GrayRat/UnknowBegin
+\CBid[-1,8]\SETpl[GrayRatNormal]\C[4]Невідомий:\C[0] ......
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] ...Такий великий!
+\CBid[-1,2]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] ...Я можу вам допомогти?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] І-Вибачте.
+
+GrayRat/KnownBegin_opt
+\CBid[-1,8]\m[confused]\SETpl[GrayRatConfused]\C[4]Невідомий:\C[0] ...... \optB[......,Чому ви вибрали мене?]
+
+GrayRat/KnownBegin_WhyMe
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Грейрат:\C[0] .......Хммм.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Грейрат:\C[0] Я зустрічав тебе раніше...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Що? Коли?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Грейрат:\C[0] По дорозі в \c[6]Ноертаун\C[0], ми з Пані тоді стояли біля північного посту.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Грейрат:\C[0] Ти тоді теж була там.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Так?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Грейрат:\C[0] Ти давала їжу голодній дитині.
+\CBid[-1,8]\SETpl[GrayRatNormal]\m[shy]\PLF\prf\C[4]Грейрат:\C[0] Ти намагаєшся подбати про себе і вижити, але все ще готова годувати інших зі своїх рук.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Грейрат:\C[0] У нас багато ворогів... І лише небагатьом ми можемо довіряти.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Грейрат:\C[0] І хоч ти і не солдат, я можу довіряти тобі...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ясно...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Грейрат:\C[0] ......
+\CBct[3]\m[triumph]\plf\Rshake\c[6]Лона:\C[0] Дякую!
+
+GrayRat/KnownBegin_Break
+\SETpl[GrayRatConfused]\C[4]Грейрат:\C[0] ......
+\SETpl[GrayRatNormal]\C[4]Грейрат:\C[0] Якщо хочеш щось обговорити, поговори з Пані...
+
+GrayRat/SaveCecilyQuest_begin1
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] ...Вибачте, міс?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Невідомий:\C[0] Чи не вас звуть... \c[6]Лона\C[0]?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Д-Так... А що?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] Я чув історію про зниклий конвої, ви чудово впоралися.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Оу! Дякую.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Що ж... Це все, чи ви хотіли щось ще?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] Я тебе лякаю? Не бійся.
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\ph\C[4]Невідомий：\C[0] Підійди, поглянь-но на це.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Лона:\C[0] \{Ч... Чег-?!
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Невідомий:\C[0] Це просто застава...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] Ти народилася в \c[6]Сібарісі\C[0]?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий：\C[0] Після катастрофи, більшість людей у ​​Ноері ​​поводяться з біженцями як з товарами чи речами...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий：\C[0] Ми виступаємо проти работоргівців у Ноері, які намагаються експлуатувати біженців.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий：\C[0] ...Моя супутниця була викрадена одним з таких людей.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] Вони надіслали мені листа з місцем зустрічі. Очевидно це пастка для мене.
+
+GrayRat/SaveCecilyQuest_begin2
+\cgoff\board[Брудному здоров'якові-напівкровці]
+Твоя сучка у наших руках!
+Якщо хочеш, щоб вона залишилася живою, приходь на 13-й Західний Склад уночі.
+Приходь один!
+АБО ШЛЮХА здохне!
+
+GrayRat/SaveCecilyQuest_begin3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий：\C[0] Мені потрібен розвідник, досвідчений у шпигунстві та розслідуваннях.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] Ти б мені підійшла...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] Адже ти теж проти таких покидьків, чи не так?
+\CBct[6]\m[shy]\plf\PRF\c[6]Лона:\C[0] Я...
+
+GrayRat/SaveCecilyQuestInfo
+\board[Врятувати подругу здоровяка]
+Завдання: Зустрітися на 13-му Західному Складі
+Нагорода:Великий Медяк х2\i[582] Медяк х5\i[583]
+Клієнт：Невідомий：
+Термін виконання：Ні
+
+GrayRat/SaveCecilyQuestAccept
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона:\C[0] Гаразд! Я це зроблю!
+\CBct[5]\m[angry]\plf\Rshake\c[6]Лона:\C[0] Я теж проти работоргівців!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Невідомий:\C[0] Дякуємо...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Грейрат:\C[0] Ти можеш кликати мене \c[6]Грейрат\C[0]....
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Грейрат:\C[0] Всі деталі завдання ми обговоримо біля \c[6]13-го Західного складу\C[0]. Підготуйся.
+
+######################################################################### QuProgSaveCecily 23 to 24 43 to 4
+
+GrayRat/23-43_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем... Містер Грейрат, де Леді Сесілія?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Грейрат:\C[0] Міледі тренується на задньому дворі. Практикується у фехтуванні.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Є дещо, що вона хотіла б з тобою обговорити.
+\CBct[20]\m[normal]\plf\PRF\c[6]Лона:\C[0] О?
+
+44/0_begin0
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\c[4]Грейрат:\C[0] Міс Лона...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Містер Грейрат? Щось не так?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Хотів дізнатися... Що ти думаєш про цей острів...?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] А? Ммм..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] \..\..У мене тут був будинок. Однак усі, кого я знала і любила, покинули цей світ. Залишили мене.
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] Батько\..\..\.. Друзі\..\..\.. Всі мертві. І вдома я більше не маю.
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона:\C[0] Тепер я не бачу нічого, крім смерті, руйнувань, страждань, у яких загруз цей острів.... Мені....
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Грейрат:\C[0] Хочеться спливти звідси, так?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Так.
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] Ноер приречений. У це я вірю незмінно.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] \..\..\..
+
+44/1
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Грейрат:\C[0] Послухай, я бажаю того ж своєї пані.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] \..\..\..\m[flirty]\Rshake Ах?!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Я не можу більше дозволити їй залишатися в цьому місці...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Якщо все залишити на самоплив, я знаю, Леді Сесілія загине тут...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Грейрат:\C[0] Я сподіваюся, що ти надаси мені допомогу на цій ниві. Переконаєш її змінити думку, спливти.
+\CBct[6]\m[shocked]\plf\PRF\c[6]Лона:\C[0] Воу... Стривайте хвилинку!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Як це мені її «переконати»?! Я не думаю, що Леді Сесілія слухатиме простолюдинку на кшталт мене...
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] І взагалі, Леді Сесілія відноситься до того типу людей, які не здаються, як би не було безвихідне становище... Чи не так?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Ти маєш рацію...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Пропозицій у мене небагато. Наприклад, замість слів ми могли б схопити її силою, зв'язати та відвезти звідси?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] \..\..\..\CBid[-1,5]\SETpl[GrayRatShocked]\Lshake \{!!!!!
+
+44/2
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона:\C[0] \{Я просто пожартувала! Вибачте!
+
+44/3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Хммм\..\..\..
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Міледі чекає тебе на задньому дворі. Будь ласка, спробуй з нею поговорити.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Зроблю, що зможу.

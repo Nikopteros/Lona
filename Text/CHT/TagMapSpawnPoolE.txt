@@ -1,0 +1,92 @@
+ThisMap/OmEnter
+\m[confused]孵化池\optB[算了,進入]
+
+###################################################################################    main
+
+Qprog3/begin1
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    屍體？！！！
+
+Qprog3/begin2
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    是\c[4]南門營地\c[0]的士兵？
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    所以就是這裡了？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    一個死在這，那其他兩人呢？
+
+Qprog3/begin3
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    ？！！！
+\CBmp[AbomZombie,8]\prf\c[4]未知：\c[0]    ......
+
+Qprog3/begin4
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 你還好嗎？
+
+Qprog3/begin5
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    誰？！
+
+Qprog3/begin6
+\CBmp[victim,6]\Rshake\c[4]士兵：\c[0]    不！ 不要過來！
+
+Qprog3/begin7
+\CBmp[victim,20]\Rshake\c[4]士兵：\c[0]    不要！ 我不要變成那樣！
+
+Qprog3/begin8
+\CBmp[victim,20]\Rshake\c[4]士兵：\c[0]    \{嗚啊啊啊\}
+\CBmp[victim,20]\Rshake\c[4]士兵：\c[0]    我的腳！ 融化了！ 不要啊啊！！！
+
+Qprog3/begin9
+\CBmp[victim,20]\Rshake\c[4]士兵：\c[0]    拔嗚ㄉ手.... 回給五....
+
+Qprog3/begin10
+\CBmp[victim,20]\Rshake\c[4]士兵：\c[0]    咕嚕逼... 趴鋪嚕....
+
+Qprog3/begin11
+\CBct[20]\m[fear]\Rshake\c[6]洛娜：\c[0]    不是吧，這些肉塊難道是....
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    我們的肉？
+
+Qprog3/begin12
+\CBct[8]\m[serious]\PRF\c[6]洛娜：\c[0]    喂！ 我們必須離開這。
+
+Qprog3/begin12_1
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 先生？ 你好？ 回魂呦？
+
+Qprog3/begin13
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{啊？！\}
+
+Qprog3/begin14
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{吚啊啊啊！\}
+
+Qprog3/begin15
+\CBct[20]\m[fear]\Rshake\c[6]洛娜：\c[0]    不好了，牠們發現我了！
+\narr聽著，孩子。
+\narr我需要妳的幫忙。
+\narrOFF\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼？ 誰？ 幫忙？
+\narr待在這裡，直到正義裁決到來。
+\narrOFF\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    待在這裡？ 別開玩笑了
+
+Qprog3/begin16
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    什麼？！？？！
+\CBct[5]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不管你是誰，不要開這種玩笑！
+\narr我需要妳的靈魂定義這些邪惡。
+\narr孩子，妳辦的到！
+\narrOFF\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    不！ 放我出去阿！
+\narr撐住！ 正義與黎明將至！
+
+Qprog3/begin17
+\CBct[8]\m[shocked]\PRF\c[6]洛娜：\c[0]    什麼鬼阿？！
+\CBmp[Cam2,19]\m[serious]\PRF\c[6]洛娜：\c[0]    那些骨頭不見了，我最好趕快離開，這裡太危險了。
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我要怎麼跟其他人解釋這些？ 有人會相信我嗎？
+
+Qprog3/begin18
+\board[搜索西方]
+目標：回到南門營地
+報酬：無
+委託主：南門營地
+期限：單次
+人都死光了，回到南門營地向百夫長回報吧。
+
+VC/Qmsg0
+母李卡... 殺...
+
+VC/Qmsg1
+勝利... 古咭米...
+
+VC/Qmsg2
+偽軍... 摧毀...

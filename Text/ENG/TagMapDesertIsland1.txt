@@ -1,0 +1,138 @@
+thisMap/Enter
+\m[confused]Uninhabited island\optB[Leave,Enter]
+
+########################################################### Capture begin
+
+OPevent/0
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,40,4]\BonMP[RngGuy1,3]\SETpr[raper1]\Rshake\c[4]refugee：\c[0]    ah ah ah♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpr[raper2]\Rshake\c[4]refugee：\c[0]    Oh oh oh oh♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    \{Go ah ah! !
+
+OPevent/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\Bon[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    .....
+
+OPevent/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    This is....
+
+OPevent/3_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    \{This is a woman!
+
+OPevent/4_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    Thank you Saint! The Saint brought her in!
+
+OPevent/5_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    Everyone! We can stop playing with our assholes!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    \{It's a woman!
+
+OPevent/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    \{It's a womaaan!
+
+OPevent/4
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    Our Lord the Saint has heard our call!
+
+OPevent/5
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]refugee：\c[0]    He brought us \c[6]Lona\c[0] We are sooo back!
+
+OPevent/6
+\SFXfile[Cursor2]\SFXset[50,25,1]\BonMP[RngGuy1,2]\SETpr[raper_group]\Rshake\c[4]refugee：\c[0]    What?!
+
+OPevent/7_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\prf\c[4]refugee：\c[0]    You mean a woman?
+
+OPevent/7
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpR[raper2]\plf\Rshake\c[4]refugee：\c[0]    You say \c[6]Lona\c[0]?
+
+OPevent/8
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,3]\SETpl[raper1]\Lshake\prf\c[4]refugee：\c[0]    Is it a woman?!
+
+OPevent/9
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\c[4]refugee：\c[0]    Help her heal first! Come quick! You must not kill her this time!
+
+FirstRape/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    *Sob* *Sob*... Where am I....?
+\SFXfile[Cursor2]\SFXset[50,25,4]\CBmp[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]refugee：\c[0]    She woke up! Let me go first!
+
+FirstRape/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[hurt]\plf\Rshake\c[6]Lona：\c[0]    Huh? !
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[pain]\plf\Rshake\c[6]Lona：\c[0]    Wait a moment... you...
+
+FirstRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]refugee：\c[0]    Her asshole is mine!♥
+
+FirstRape/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper3]\Lshake\c[4]refugee：\c[0]    Come on, lick me!♥
+
+FirstRape/3_1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[p5sta_damage]\plf\Rshake\c[6]Lona：\c[0]    Huh?!
+
+########################################################### first time wake up
+
+Wakeup/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\Rshake\c[6]Lona：\c[0]    Where am I...?
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    Why are these people acting like crazies?
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\Rshake\c[6]Lona：\c[0]    I have to find a way out of here.
+
+########################################################### DailyFree
+
+WakeRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]refugee：\c[0]    It's over!♥ I'm hungry!♥ It's time to eat!♥
+
+WakeRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]refugee：\c[0]    It's better to fuck a woman!♥ It's so much more comfortable to fuck!♥
+
+WakeRape/0_2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]refugee：\c[0]    Who am I? Where am I? What am I doing here?
+
+########################################################### daily celebrity 
+
+celebrity/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]Lona：\c[0]    *Sob*...
+
+celebrity/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]refugee：\c[0]    Thank you Saint for bringing us back our wet holes!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]refugee：\c[0]    We will thoroughly enjoy every hole in her body!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]refugee：\c[0]    Thank the Saint!♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]refugee：\c[0]    Praise the Saint!♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,4]\SETpl[raper1]\Lshake\c[4]refugee：\c[0]    Quickly end your prayers! I can't help it!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]refugee：\c[0]    Fellow companions! Let's have some fun!
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Wait a moment... What?!
+
+########################################################### NapRape
+
+NapRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]refugee：\c[0]    Hey hey hey.... hole...
+
+NapRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]refugee：\c[0]    Woman! It's a woman!
+
+NapRape/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]refugee：\c[0]    My cock is so hard....
+
+NapRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]refugee：\c[0]    I want to do her...I can't help it...
+
+NapRape/angry
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]refugee：\c[0]    What are you doing?! Why don't you let me fuck!
+
+########################################################### Qmsg
+
+Qmsg/0
+where am I? what am I doing here?
+
+Qmsg/1
+Cock so full...
+
+Qmsg/2
+Are you a woman?!
+
+Qmsg/3
+I really want to fuck a woman...
+
+Qmsg/Child0
+My asshole can't close.
+
+Qmsg/Child1
+I want to plug my hole...
+
+Qmsg/Child2
+That flower is so bad...

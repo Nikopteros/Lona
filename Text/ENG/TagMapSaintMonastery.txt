@@ -1,0 +1,488 @@
+overmap/OvermapEnter
+\m[confused]Saint's Monastery \optB[Leave,Enter]
+
+priest/common
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    The Saint guides your path!
+
+opt/about
+About the Saint
+
+opt/moreGrace
+More Grace of the Saint
+
+priest/trade
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    All these things are blessed by the Saint! The Saint will bless you, if you make a purchase!
+
+priest/about
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\m[confused]\Lshake\prf\C[4]Priest：\C[0]    In the past, the Saint had struck down evil for us!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    He had destroyed hypocrites and liars and sinners!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    He had given peace to the innocent people!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    He gave his flesh and blood to us!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    And today, all of this is the punishment of the Saint!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    It's all because you're ungodly!
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]Believer：\C[0]    O Saint! We are wrong!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]Believer：\C[0]    Punish me, please! Saint!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    The Saint clearly gave enlightenment! Why don't you believe in Him!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Your ungodly faith has brought the return of liars and sinners!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    WHY! How forgetful you are!
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]Believer：\C[0]    This is my fault! I did’t believe in Him!
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]Believer：\C[0]    I'll listen to the Saint! Take everything I have!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    You! Why don't you believe in the Saint?
+\CBct[1]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    EH?! Me?? \optD[I believe!,Pedos?]
+
+priest/about_optY
+\CBct[6]\m[terror]\plf\Rshake\C[6]Lona：\C[0]    I believe! And I'm a devout believer!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Come! Let's give her our blessing!
+\CBct[2]\m[confused]\plf\Rshake\C[0]\C[6]Lona：\C[0]    Ugh?!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Come here! Praise this girl! She will become a believer!
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]Believer：\C[0]    Holy Saint! Praise this girl!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]Believer：\C[0]    Thank you Saint! Give us a new believer!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Come here! I'll do the baptism!
+\CBct[2]\m[flirty]\plf\Rshake\C[0]\C[6]Lona：\C[0]    Ahh? Uhoh??
+
+priest/about_optN
+\CBct[8]\m[confused]\plf\PRF\C[6]Lona：\C[0]    So.... I've been meaning to ask...
+\CBct[8]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Is it true? The rumors going around about you being a bunch of pedofiles....
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    You! You filthy Liar! I'll kill you! For the Saint! \CamCT
+
+priest/BaptizePlayer1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    O Saint, wash away the sins of this sinner!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Sinner! Go away sin!
+
+priest/BaptizePlayer2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Sinner! Go away sin!
+
+priest/BaptizePlayer3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Sinner! Go away sin!
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    UGh.....
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    O sinner! Remove your clothes! Abandon your material desires! Only the Saint will cover you!
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    AHA?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Take off your clothes, praise the Saint!
+\CBct[6]\m[shocked]\plf\Rshake\C[0]\C[6]Lona：\C[0]    What?!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Child! This is so the Saint to purify your sinful body! \optD[Disobey,Undress]
+
+priest/BaptizePlayer3_N
+\CBct[5]\m[wtf]\plf\Rshake\C[0]\C[6]Lona：\C[0]    No! No!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    \{You're a liar! I'll kill you! \CamCT
+
+priest/BaptizePlayer3_Y
+\CBct[6]\m[shy]\plf\PRF\C[0]\C[6]Lona：\C[0]    Awwww... Alright...
+
+priest/BaptizePlayer3_touch0
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Priest：\C[0]    Look! This sinful body of hers! O Saint! Cleanse her!
+
+priest/BaptizePlayer3_touch1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Priest：\C[0]    Look! She seduces men with her curves! What an evil thing!
+
+priest/BaptizePlayer3_touch2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Priest：\C[0]    Look! She fills her womb with the vile seed of sinners! How degenerate!
+
+priest/BaptizePlayer3_touch3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Priest：\C[0]    Look! She utters filthy words with her mouth! How repulsive!
+
+priest/BaptizePlayer4
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    O Saint! Please bless my body! My spirit!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Priest：\C[0]    I will purify these sins with the grace of the Saint!
+\CBct[1]\m[shocked]\Rshake\C[0]\C[6]Lona：\C[0]    Eeeeee!!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Priest：\C[0]    Don't be afraid, my child! I'll fill your head with the grace of the Saint! He'll cleanse you of your evil thoughts!
+
+priest/BaptizePlayer5
+\CBct[2]\m[fear]\plf\PRF\C[0]\C[6]Lona：\C[0]    Awwww... It's not over yet?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    It's the last step! We'll fill your body with the grace of the saints!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    He'll erase all the lies you've told in the past!
+\CBct[8]\m[sad]\plf\PRF\C[0]\C[6]Lona：\C[0]    ......
+
+priest/BaptizePlayer6
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]Lona：\C[0]    .........
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    You are clean, you are a disciple recognized by the Saint, you are a believer.
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Come now! Praise the Saint!
+\CBct[20]\m[sad]\plf\PRF\C[0]\C[6]Lona：\C[0]    Praise be the Saint!
+
+priest/BaptizePlayer_end
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    O ye, who believe! I've heard the revelations of the Saint!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    This girl has been recognized by the Saint!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    She's one of us! Praise her!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]Believer：\C[0]    Praise be the Saint! Thank you Saint!
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]Believer：\C[0]    O Saint! Praise that girl!
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]Believer：\C[0]    Thanks be to ye Saint! Give us a new believer!
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Oh, hey... Thank you, guys?
+
+
+################################################################# 2nd
+
+priest/GraceAgain_date_block
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Child, greed will only deepen your sins. Even I must rest before I can once again cleanse your corruption. Come back next time.
+
+priest/GraceAgain0
+\CBid[-1,20]\SETpl[HumPriest]\PLF\prf\C[4]Priest：\C[0]    So you seek more of the Saint's Grace? My child, You mustn't be too greedy, it's evil and you will displease the Saint.
+\CBct[8]\m[sad]\plf\PRF\C[0]\C[6]Lona：\C[0]    I'm sorry, Father...
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    But it doesn't matter, I forgive you, Let me grant you the Saint's Grace.
+
+priest/GraceAgain1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Cast off the garments of hypocrisy, the Saint can be naked in the face of lies and sins! You can too!
+\CBct[8]\m[shy]\plf\PRF\C[0]\C[6]Lona：\C[0]    Yes....
+
+priest/GraceAgain2
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    The Saint will now bless you with his grace this time! You must suck the grace out by your own power!
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Priest：\C[0]    The Saint will grant us the power to defeat evil! But you! Must do it with your own power!
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]Lona：\C[0]    Yes....
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Priest：\C[0]    Rely on your own strength! Bathe in the thoughts of the Saint!
+\CBct[8]\m[shy]\plf\PRF\C[0]\C[6]Lona：\C[0]    Yes..
+
+priest/GraceAgain3
+\Lshake\c[6]Priest：\c[0]    \{Oooh!
+\Lshake\c[6]Priest：\c[0]    \{GREAT!! I can feel the Grace coming!
+
+priest/GraceAgain4
+\Lshake\c[6]Priest：\c[0]    \{Here it comes! O Saint! I'm jubilating!
+
+priest/GraceAgain5
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Child! You're doing great! You have defeated evil!
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]Lona：\C[0]    Thank you.... Father.
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    The lies in your mind have been erased! But I sense that evil is hiding elsewhere!
+\CBct[6]\m[wtf]\plf\Rshake\C[0]\C[6]Lona：\C[0]    What should I do?! Father, save me!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Child, I'm not giving up on you! I'll pour more of the Saint's grace into your body!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Give yourself unto me!
+\CBct[20]\m[shocked]\plf\Rshake\C[0]\C[6]Lona：\C[0]    Yes! Father!
+
+priest/GraceAgain6
+\CBct[8]\m[shy]\plf\C[0]\C[6]Lona：\C[0]    ......
+
+priest/GraceAgain7
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Child, you're doing great. The lies and sins have left your body for now.
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    You must come to me regularly to receive more grace, or else lies and sin will corrupt your body and you will be reduced to filth.
+\CBct[20]\m[terror]\plf\Rshake\C[0]\C[6]Lona：\C[0]    Yes Father!
+
+
+########################add title
+
+priest/add_title1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Wait! I heard the word of the Saint! Are you ready?
+\CBct[20]\m[shocked]\plf\Rshake\C[0]\C[6]Lona：\C[0]    Yes!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    My faith is pure, But the sins of the other male believers and followers in the monastery remain deep!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    It must be you! Suck out their evil seed!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    It must be you! Purify their sinful bodies!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    It must be you! Use your body to erase their lies!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Go on! My child! To defeat lies and sin! Praised be the Saint!
+\CBct[20]\m[serious]\plf\Rshake\C[0]\C[6]Lona：\C[0]    Yes Father! Praise be the Saint!
+
+########################reward
+
+priest/get_sexReward
+\narr Praise the Saint!!!
+\narr Lona masters how to remove the sins of others...
+
+MainNun/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]Priestess：\C[0]    The schemes of the Liars reach even this holy place...
+
+MainNun/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]Priestess：\C[0]    A rotten church and its corrupt flock...
+
+MainNun/begin2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]Priestess：\C[0]    The mocking charades of the liars...
+
+
+######################################################################################################################################### QUEST
+
+priest/QuProgScoutCampOrkind2_done
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Are you a mercenary guided by the Saint?
+\CamCT\plf\PRF\m[flirty]\C[6]Lona：\C[0]    Guided?
+\CamCT\m[confused]\plf\PRF\C[6]Lona：\C[0]    Well, I guess.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Thank you for your hard work, these demons have tried to invade the monastery before.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Now, They will be guided back to nothingness by the Saint.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Priest：\C[0]    Praise the Saint.
+\CamCT\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Praise the Saint.
+
+#########################################################################################################################################
+
+Merit/begin1
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Believer：\C[0]    Money is corporeal, and material desire is your nature.
+\CBid[-1,20]\Lshake\prf\C[4]Believer：\C[0]    The Saint will forgive you your sins, but you must give up your material desires.
+
+Merit/Box1
+\board[Donate money for virtue]
+For every 2000 donated, +1 Moral
+Believe in the Saint! He will guide you!
+
+Merit/Box2
+\CBid[-1,5]\prf\C[4]Believer：\C[0]    You refuse to offer? Such miserliness will deepen your sins, and the Saint’s mercy will not wait forever…
+
+Merit/END_Good
+\CBid[-1,3]\SETpl[HumPriest2]\Lshake\prf\C[4]Believer：\C[0]    The Saint forgives you of your sins.
+
+Merit/END_Bad
+\CBid[-1,5]\SETpl[HumPriest2]\Lshake\prf\C[4]Believer：\C[0]    That's all? Do you expect the Saint to forgive a liar like you?
+\CBct[-1,6]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    I'm sorry?!
+
+Merit/Barter_begin1_failed
+\CBid[-1,20]\Lshake\prf\C[4]Believer：\c[0]    You have not shown faith to the Saint; mortals like you are unworthy to exchange sacred relics with us.
+
+Merit/Barter_begin1_success
+\CBid[-1,20]\Lshake\prf\C[4]Believer：\c[0]    The Saint’s blessing does not come without cost; you must prove yourself to the Saint.
+
+################################################################################################################################################
+
+Lona/WhoreJobStart0
+\CBct[8]\m[shy]\plf\PRF\C[6]Lona：\C[0]    The Saint has commanded me to bring out your sins.....
+
+MaleBeliever/CommonHuman_begin0
+\PLF\prf\c[4]Follower：\c[0]    O Saint! I'm guilty!
+
+MaleBeliever/CommonHuman_begin1
+\PLF\prf\c[4]Follower：\c[0]    O Saint! Forgive me for my lies!
+
+MaleBeliever/CommonHuman_begin2
+\PLF\prf\c[4]Follower：\c[0]    O Saint! I am sinful! Punish me!
+
+MaleBeliever/CommonHumanWhoreJobStart1
+\PLF\prf\c[4]Follower：\c[0]    O Saint! Thank you!
+
+MaleBeliever/guard
+\PLF\prf\c[4]Guard：\c[0]    .....
+
+MaleBeliever/Prayer_begin0
+\CBid[-1,20]\PLF\prf\C[4]Believer：\C[0]    O Saint! Let's save the world!
+
+MaleBeliever/Prayer_begin1
+\CBid[-1,20]\PLF\prf\C[4]Believer：\C[0]    O Saint! We dedicate our lives to you!
+
+MaleBeliever/Prayer_begin2
+\CBid[-1,20]\PLF\prf\C[4]Believer：\C[0]    O Saint! We abandoned the lie!
+
+MaleBeliever/PrayerWhoreJobStart1
+\CBid[-1,4]\PLF\prf\C[4]Believer：\C[0]    Praise be the Saint! May the Saint bless you.
+
+Nap/Capture
+\narr The believers of the Saint captured Lona...
+
+Enter/AggroMode
+\cg[map_DarkestDungeon]\SETpr[nil]\SETpl[AnonFemale]\Lshake\C[4]Believer：\C[0]    LIARS! The Liars have come!
+\SETpr[AnonMale2]\plf\Rshake\C[4]Believer：\C[0]    Take note! The Liar is a dirty little brat! With small tits! Easy to find!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+Healer/Begin1
+\CBid[-1,20]\prf\C[4]Believer：\C[0]    Four hundred years ago, evil ruled over the world, and mankind worshipped all kinds of evil gods.
+\CBid[-1,20]\prf\C[4]Believer：\C[0]    The evil gods were disgusted by the virtue of mankind, and in 1321.5.6, they imposed divine punishment on the innocent.
+\CBid[-1,20]\prf\C[4]Believer：\C[0]    The world should have perished in that catastrophe, except for the Saint! He came! 
+\CBid[-1,20]\prf\C[4]Believer：\C[0]    He protected the innocents with a righteous smite, and cut down the evil gods under his sword one by one.
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+#by Saintz, remove this line after review.
+
+MIAchildMAMA/prog1
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Uh ... would you happen to know \C[4]Timmy\C[0]?
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    ...He's a boy, a moot boy.
+\CBid[-1,2]\prf\c[4]Believer：\c[0]    Timmy? ...Moot, you say?
+\CBct[1]\m[triumph]\PRF\C[0]\C[6]Lona：\C[0]   That's right!
+\CBid[-1,20]\prf\c[4]Believer：\c[0]    You should ask that nun over there, she's in charge of those little devils.
+\CBct[1]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Oh!
+\CBid[-1,5]\prf\c[4]Believer：\c[0]    Now, could you stop disturbing me while I pray!?
+\CBct[6]\m[shocked]\Rshake\C[0]\C[6]Lona：\C[0]    Yes... Sorry!
+
+MIAchildMAMA/prog2
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    I was told that you're in charge of children here, I'm looking for \C[4]Timmy\C[0]. He's a moot boy.
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    His mother is looking for him.
+\CBid[-1,2]\prf\c[4]Nun：\c[0]    Timmy? \...\...\...Moot.
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    There's so many children here, plenty of moot ones. I've no clue which one of them is your \C[6]Timmy\C[0].
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Uh...
+
+MIAchildMAMA/prog3
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Maybe you know \C[4]Timmy\C[0]?
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    He should be about same size as you are, he's a boy, but moot one.
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    Ah! \C[6]Timmy\C[0]! This little nigga!
+\CBct[2]\m[shocked]\PRF\C[0]\C[6]Lona：\C[0]    Oh, so you do know him? Do you know where I can find him?
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    \C[6]Timmy\C[0] stinks! He's black and he smells like poop! I'm not surprised that his mother sold him.
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Stinks? Sold? But his mother said \C[4]Timmy\C[0] was taken away from her.
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    That's how it is! He was sick when he came here. His mother sold him for food and they took him to someone who could cure him.
+\CBct[2]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    Cure him... A doctor?... Or maybe priest?!
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    I don't know!
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Uh...
+
+MIAchildMAMA/prog4
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Uh... I'm looking for \C[4]Timmy\C[0]! He was sick when he came here.
+\CBid[-1,2]\prf\c[4]Nun：\c[0]    \C[6]Timmy\C[0]?
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    That's right! His mother is looking for him. She told me that believers took him away from her.
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Is he a moot?
+\CBct[20]\m[pleased]\PRF\C[0]\C[6]Lona：\C[0]    Yes, that's him!
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Just go to the confessional room and ask about him, I often see him over there.
+\CBct[20]\m[triumph]\PRF\C[0]\C[6]Lona：\C[0]    Thank you so much!
+
+MIAchildMAMA/prog5
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Uh... I was told that, I can find \C[4]Timmy\C[0] here.
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    He's a moot boy.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,8]\c[4]Believer：\c[0]    \C[6]Timmy\C[0]? Yeah, I do know him.
+\CBct[20]\m[pleased]\plf\PRF\C[0]\C[6]Lona：\C[0]    Oh, that's great! Where is he? Is he still in the monastery?
+\CBct[20]\m[triumph]\plf\PRF\C[0]\C[6]Lona：\C[0]    His mother was looking for him all this time.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,2]\c[4]Believer：\c[0]    His mother? Wasn't she the one who sold him in the first place?
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    So, she really did sell him\..\..\..? \m[shocked]\Rshake\{Huh?!\}
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Believer：\c[0]    Yes, she's a liar! She exchanged her own son for some food.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Believer：\c[0]    Did she tell you to come here? Don't believe what she says.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Believer：\c[0]    Just ignore it.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Believer：\c[0]    Go back and tell her that her \C[6]Timmy\C[0] in the future will become a fine believer of the \C[6]Saint\C[0]!
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Unbelievable...
+
+MIAchildMAMA/prog5_1
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    What should I do now? Should I go back to the camp and tell his mother everything?
+
+#---------------------#-------------------#---------------------  ------------------------------- Nun Quest
+
+nun/keyBegin
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    
+
+ToMT_crunch/0
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    Um...
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    Oh, an innocent outsider.
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    Would you by chance be heading to the \c[6]Mountain Monastery\c[0] in the east?
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    What? Me?
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    Yes. You.
+\CBct[2]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    Why?
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    As you can see, we are short of helping hands to do so.
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    My flock is in need of monks with more medical experience. Do you not wish to contribute to the gospel of the Saint?
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    It is time that the brothers and sisters of the \c[6]Mountain Monastery\c[0] returned to us.
+
+ToMT_crunch/0_brd
+\board[Head to the Mountain Monastery]
+Goal：Head to the Mountain Monastery
+Reward：None
+Client：Saint's Church
+TIme Limit：Until Completion
+Head east from Saint's Church to reach the Mountain Monastery, then inform the monks there to aid the Church.
+
+ToMT_crunch/0_accept
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Sure. If I pass by I can let the monks know.
+\CBid[-1,20]\prf\C[0]\C[4]Nun：\C[0]    Good. May the Saint guide your path.
+
+ToMT_crunch/1_alreadyDid
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Actually... I have been there.
+\CBct[8]\m[tired]\PRF\C[0]\C[6]Lona：\C[0]    The monks with medical experience have all been killed by monsters...
+\CBid[-1,8]\prf\C[0]\C[4]Nun：\C[0]    Oh dear\..\..\.. May the Saint guide their souls.
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    ...
+
+ToMT_crunch/0_weak
+\CBid[-1]\m[confused]\C[0]\C[4]Nun：\C[0]    I have no use for sniveling weaklings like you.
+\CBct[6]\m[sad]\PRF\C[0]\C[6]Lona：\C[0]    Sorry...
+\narr Lona looks too weak.
+
+nun/abandom_bb0
+\CBct[6]\m[tired]\PRF\C[0]\C[6]Lona：\C[0]    Um.... Could you please look after my child...
+
+nun/abandom_bb1
+\CBid[-1,8]\prf\C[0]\C[4]Nun：\C[0]    Are you also a liar that abandons their children?
+\CBid[-1,8]\prf\C[0]\C[4]Nun：\C[0]    \..\..\..
+\CBid[-1,8]\prf\C[0]\C[4]Nun：\C[0]    Forget it. Hand it over.
+\CBct[6]\m[sad]\PRF\C[0]\C[6]Lona：\C[0]    Sorry...
+
+nun/abandom_bb2
+\CBct[8]\m[tired]\PRF\C[0]\C[6]Lona：\C[0]    \..\..\..
+\CBct[8]\m[sad]\PRF\C[0]\C[6]Lona：\C[0]    Sorry... Mama's so sorry...
+
+nun/abandom_bb1_failed
+\CBid[-1,5]\prf\C[0]\C[4]Nun：\C[0]    Yet you have no child to speak of.
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Um... Yeah...
+
+nun/opt_abandom_bb
+Orphan
+
+nun/opt_abandom_tommy
+Tommy
+
+nun/opt_TagMapMT_crunch
+Um...
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+healer/Qmsg0
+I don't want to touch these filthy liars.
+
+healer/Qmsg1
+The grace of the Saint!
+
+healer/Qmsg2
+This is the fate of liars.
+
+healer/Qmsg3
+Without the Saint won't survive!
+
+patient/Qmsg0
+Wuuwuu....
+
+patient/Qmsg1
+......
+
+follower/Qmsg0
+O Great Saint!
+
+follower/Qmsg1
+Come onto us!
+
+follower/Qmsg2
+Forgive our sins!
+
+follower/Qmsg3
+Burn all the evil liars!
+
+prayer/Qmsg0
+O Saint! Forgive me!
+
+prayer/Qmsg1
+I have sinned!
+
+prayer/Qmsg2
+Praise the Saint! O Great Saint!
+
+prayer/Qmsg3
+I'm sorry! Forgive me!
+
+kid1M/Qmsg0
+My sister's gone!
+
+kid1M/Qmsg1
+The Greenskins must have taken her away!
+
+kid1M/Qmsg2
+Sister! Where are you?
+
+mom/Qmsg0
+My baby!
+
+mom/Qmsg1
+O Saint! Help me, find her!
+
+mom/Qmsg2
+She's missing!
+
+kid2M/Qmsg0
+You smell bad!
+
+kid2M/Qmsg1
+You're shitting your pants!
+
+kid2M/Qmsg1
+Stinky! Very funny!
+
+SaintState/begin0
+\board[Anonymous Saint]
+Anonymous Saint said：Materialism symbolizes weakness, and whoever claims to be a Saint, shall face new challenges naked.
+Gospel of the Saint 1：28
+
+SaintState/begin1
+\board[Anonymous Saint]
+Anonymous Saint said：Saints like me are those who know the dead, No help is needed to fight death.
+Gospel of the Saint 25：6
+
+SaintState/begin2
+\board[Anonymous Saint]
+Anonymous Saint said：Cowardly hypocrites, I'm waiting at the Naihe Bridge, why do you still hesitate!
+True and False Saints 5：12
+
+SaintState/begin3
+\board[Anonymous Saint]
+Anonymous Saint said：If you ask for help, you should not be a Saint.
+True and False Saints 10：24
+
+SaintState/begin4
+\board[Anonymous Saint]
+Anonymous Saint said：Watching the sunset, I wait to praise it.
+Gospel of the Saint 123：456

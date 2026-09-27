@@ -1,0 +1,104 @@
+thisMap/OvermapEnter
+Восточный КПП \optB[Отмена,Войти]
+
+############################################################################### Quest Begin
+
+CPofficer/overrunning_begin0
+\CBmp[cpSGT,2]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Ты что здесь забыла?!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аа? А что?!!!
+\CBmp[cpSGT,1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Мы под атакой! Здесь опасно! Горожане должны сидеть по домам!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Ой!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Хотя, стой!
+\CBct[2]\m[wtf]\plf\Rshake\c[6]Лона：\C[0]     Что!? Что теперь?
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Мы не сможем их удержать! Ты! Живо двигай в \c[4]Твердыня Рока\C[0] и запроси поддержку!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Скажи им, что мы не протянем без помощи! Бегом!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Лона：\C[0]     Поняла!
+
+DFOfficer/overrunning_begin1
+\CBmp[cpSGT,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Аа? Что случилось, мелкая?
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Восточный КПП атакован!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Они послали меня за помощью!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Восточный КПП? На них опять напали?
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Проклятье! У нас нет людей!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Ты! Идёшь с нами!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что? Я?!
+\CBmp[cpSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Живо! Хватай оружие!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Да я же просто мимо проходила...
+
+DFOfficer/overrunning_begin1_board
+\board[Восточный КПП]
+Задача：Защитить Восточный КПП
+Награда：Неизвестно
+Клиент：Стража Восточного КПП
+Вернитесь на Восточный КПП и помогите солдатам.
+
+CPofficer/overrunning_begin2
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Помощь прибыла!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Отлично! Не теряйте времени!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Нужно контратаковать!
+\CBmp[Cannon1,19]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Мелкая! Будешь заряжать снаряды для артиллерии! Живо!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Поняла!
+
+CPofficer/overrunning_begin3_fireCannon
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Готово!!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Стреляй! Быстро!!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    А целиться не надо?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Не надо. Монстры боятся звука выстрела и запаха пороха!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Поняла!
+
+CPofficer/overrunning_begin3_clearNarr0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Победа!
+\m[tired]\plf\PRF\c[6]Лона：\C[0]    Охх....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Те, что сзади, испугались! Они сбежали!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Убейте оставшихся!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Стоп\..\..\.. Что это?!
+\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что-где?
+
+CPofficer/overrunning_begin3_clearNarr1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Что это за монстр такой!?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Помоги нам! Мы должны победить!
+\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Хорошо!
+
+CPofficer/overrunning_begin4
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Победа! Мы выжили!
+\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Всё закончилось?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Мы живём, чтобы сражаться ещё один день...
+\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ухх...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Ты храбро сражалась, но нам нечем тебя отблагодарить.
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оуу... Да ладно уж...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Хм\..\..\.. Тогда возьми это!
+\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что это?
+
+CPofficer/overrunning_begin5
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Денег у нас нет, а вот оружия в достатке.
+\m[triumph]\plf\Rshake\c[6]Лона：\C[0]    Спасибо!
+
+CPofficer/InfoHere
+\CBct[2]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Что здесь произошло?
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Сначала эти зеленокожие, потом эти монстры.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    \c[6]Плоть\C[0], запах их тел можно ощутить ещё издалека.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Их тела восстанавливаются чрезвычайно быстро, их куда больше чем нас, и у нас нет эффективного способа противостоять им.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Сколько мы ещё протянем?
+\CBct[2]\m[sad]\plf\PRF\c[6]Лона：\C[0]    .....
+
+CPofficer/QuestFailed
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    О, нет!
+\SETpr[Mreg_pikeman]\plf\PRF\c[4]Солдат：\C[0]    Отступаем! Мы не можем больше их сдерживать!
+
+CPofficer/DuringQuprogQmsg
+Живо, живо!
+
+lona/WithAmmoQmsg0
+Снаряд готов
+
+lona/WithAmmoQmsg1
+Заряжено
+
+cannon/LoadedQmsg0
+Есть заряд
+
+cannon/FiredQmsg0
+Стреляем
+
+cannon/OOAQmsg0
+Не заряжено

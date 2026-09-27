@@ -1,0 +1,42 @@
+#Fully translated by Joko Komodo and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+NoerBSS/OvermapEnter
+\m[confused]Iron Bubba's Steel and Steel accessories \optB[Leave,Enter]
+
+#############################  BSS MASTER
+BSStrader/welcome
+\CBmp[BSStrader,20]\c[4]Bubba：\c[0]    Welcome... To Iron Bubba's... Professional Steel Shop... Me called... Bubba...
+
+BSStrader/end
+\CBmp[BSStrader,20]\c[4]Bubba：\c[0]    Other's... Praise... Not like...
+
+Lona/MarketOpt
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Ummm...? \optB[Forget it,Barter,About,Remove restraints]
+
+BSStrader/NotCuffed
+\CBmp[BSStrader,8]\c[4]Bubba：\c[0]    Your life... Not... Bound...
+
+BSStrader/SlaveBrand
+\CBmp[BSStrader,20]\c[4]Bubba：\c[0]    You bear... The mark...?
+\CBmp[BSStrader,20]\c[4]Bubba：\c[0]    You are... A slave... Of Noer... For a lifetime...
+\CBmp[BSStrader,20]\c[4]Bubba：\c[0]    The law... Hunt you... Leave my... Store...
+
+BSStrader/Aid0
+\CBmp[BSStrader,8]\c[4]Bubba：\c[0]    Come to... My studio...
+
+BSStrader/Aid1
+\CBct[6]\m[fear]\Bon[6]\c[6]Lona：\c[0]   Errr... Will this hurt?
+\CBmp[BSStrader,20]\BonMP[BSStrader,20]\c[4]Bubba：\c[0]    Pain...... Maybe...
+\CBct[6]\m[sad]\Bon[6]\c[6]Lona：\c[0]    *Whimper*...
+
+BSStrader/RemoveEnd
+\narr The restraints were removed.
+
+BSStrader/About
+\CBmp[BSStrader,20]\m[normal]\c[4]Bubba：\c[0]    My... Brother... Live in... Fishtopia Isle...
+\CBmp[BSStrader,20]\c[4]Bubba：\c[0]    Rich at home... Helpless... Life is constrained...
+\CBmp[BSStrader,20]\m[confused]\c[4]Bubba：\c[0]    Noer is open... Me buy... Store...
+\CBmp[BSStrader,20]\c[4]Bubba：\c[0]    Realize... Dream... Let go... Self...
+\CBct[2]\m[flirty]\c[6]Lona：\c[0]    ...H-Huh?
+
+#Fully translated by Joko Komodo and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

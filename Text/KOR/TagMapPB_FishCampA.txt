@@ -1,0 +1,296 @@
+thisMap/OvermapEnter
+어인들의 야영지\optB[그만둔다,들어간다]
+
+###############################################################################   Common dialog
+
+Commoner0/rng0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]전사：\c[0] 인간은... 믿을 수 없다....
+
+Commoner0/rng1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]전사：\c[0] 너... 여자...?
+
+Commoner0/rng2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]전사：\c[0] 꺼져라....
+
+###############################################################################   Comp Fish Dude Explorer
+
+ConvoyTar/begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]어인：\c[0] 무슨... 일이냐...？
+
+ConvoyTar/begin1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]어인：\c[0] 감사...한다.... 바다의 마녀여...
+
+ConvoyTar/begin2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]어인：\c[0] 야영지로.... 가라....
+
+ConvoyTar/About_opt
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 저... 실례지만...
+\SndLib[FishkindSmSpot]\CBid[-1,2]\prf\c[4]어인：\c[0] 무슨... 일이냐...？
+
+ConvoyTar/OPT_WhyFishHereAise
+엘리스 마을
+
+ConvoyTar/OPT_OutControll
+선조의 폭주
+
+ConvoyTar/OPT_CaveExplore
+동굴 탐사
+
+ConvoyTar/OPT_OutControll0
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 선조들이 폭주했다고? 무슨 뜻이야?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 우리... 어른들... 선조들이... 물에서 되돌아와서...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 그 뒤를 따라온... 사악한 파편이... 우릴 공격했지...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 사만 님께서... 그 원인을... 조사하라 하셨다...
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 음... 뭔 소린지 하나도 모르겠네.
+
+ConvoyTar/WhyFishHereAise0
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 그래서 왜 \c[4]엘리스 마을\c[0]에 나온 거야? 어인들은 원래 성에만 있지 않아?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 사만 님 위해... 조사한다... 선조들 폭주... 이유를...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 이 섬으로... 왔다... 하지만 인간들이... 우릴 공격했다...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 내 형제... 죽었다...
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 음... 역시 뭔 소린지 모르겠네.
+
+####################################################   探索洞窟
+
+ConvoyTar/TooWeak
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 여자... 번식하러... 가라...
+\CBct[20]\m[tired]\PRF\c[6]로나：\c[0] ........
+
+ConvoyTar/OPT_CaveExplore0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 나...\c[6]점괘를\c[0] 봤다...!
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 세 번이나 똑같이...\c[6]신의 응답이\c[0] 나왔다...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 바다 마녀께서... 유적 안에서 진실을 찾으라 하셨다...!
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 점괘...? 그게 뭔 소리야...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 진실은... 유적 속에 있다...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 마을의 샤먼님도... 그렇게 말씀하셨다...
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 하아? 하나도 모르겠네...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 하지만 여긴... 인간들의 땅... 너무 위험하다...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 게다가... 우리 노예가 도망쳤다...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 네 도움이 필요하다... 함께 옛 유적에 들어가...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 진실을 밝혀내자...!
+
+ConvoyTar/OPT_CaveExplore_BRD
+\CamCT\board[동굴 탐사]
+목표 : 근처의 동굴
+보상 : 큰 동전 4개
+의뢰인 : 야영 중인 어인
+기한 : 5일
+야영지의 어인을 도와 고대 유적을 탐사하라.
+
+ConvoyTar/OPT_CaveExplore_N
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 음... 지금은 좀 곤란한데.
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]어인：\c[0] 안타깝군....
+
+ConvoyTar/OPT_CaveExplore_Y
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 좋아, 문제 없을 거야.
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 바다의 마녀께 찬미를....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 인간 여인... 조심해야 한다....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]어인：\c[0] 제어를 잃은... 선조님들... 교합을... 갈망한다....
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 하? 뭐라고?!
+
+####################################################   探索洞窟2
+
+AriseVillageFish/2to3_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]어인：\c[0] 바로... 여기다... 주문을 읊겠다...
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 오?
+
+AriseVillageFish/2to3_1
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]어인：\c[0] 카곤카로... 카곤마...
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]어인：\c[0] 카곤마...\{카곤마...!
+
+AriseVillageFish/2to3_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]어인：\c[0] \{샤티티에...!
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 에? 뭐야...?
+
+AriseVillageFish/2to3_3
+\CBct[20]\c[6]로나：\c[0] \{꺄아아아악!?
+
+AriseVillageFish/2to3_4
+\CBct[5]\m[serious]\c[6]로나：\c[0] \{지금 뭐 하는 거야?!
+\CBfE[8]\prf\c[4]어인：\c[0] .....
+
+AriseVillageFish/2to3_5
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]어인：\c[0] 됐다....
+
+AriseVillageFish/2to3_6
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 하아... 근데 왜 갑자기 내 가슴을 만진 거야?
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]어인：\c[0] 인간 여자나... 노예의 젖가슴은.... 바다 마녀께 바치는 것....
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]어인：\c[0] 바다 마녀는... 가슴 큰 노예를 싫어한다....
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]어인：\c[0] 우리는 운이 좋다... 너는 전사... 가슴이 작다....
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]어인：\c[0] 바다 마녀의 문이... 너를 위해 열릴 것이다....
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 하\..\..\..\CBct[6]\m[tired]\prf 진짜... 내가 그렇게 작아\..\..\..?
+
+####################################################   探索洞窟3 #update
+
+AriseVillageFish/3to4_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]어인：\c[0] 바다 마녀를 찬미하라... 샤먼 님 말씀이... 사실이었어...！
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어... 다행이라고 해야 하나?
+
+AriseVillageFish/3to4_1
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 문이 닫혔잖아?!
+
+AriseVillageFish/3to4_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]어인：\c[0] 두려워 말라... 샤먼 님 말씀이... 다른 출구도... 있다고 했다...
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 진짜...? 그 말... 믿어도 되는 거야?
+
+AriseVillageFish/4to5_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]어인：\c[0] 인간 전사여... 이것을 보라...
+
+AriseVillageFish/4to5_1
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 오래전... 전쟁 속에서... 인간들이 이곳을 파괴했다...
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 우리 신전을 무너뜨리고... 우리의 노예들을 빼앗아 갔다...
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 남김없이 약탈하고... 인간은... 너무나도 잔혹했다...
+\m[confused]\PRF\c[6]로나：\c[0] 어... 미안...해야 하나?
+\prf\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 다 지난 일이다... 나는 전사를... 용서하겠다...
+
+AriseVillageFish/4to5_2
+\BonMP[EXIT,19]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 저기 보라... 출구다...
+\m[flirty]\PRF\c[6]로나：\c[0] 오?
+\BonMP[fishF1,19]\BonMP[fishF2,19]\prf\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 하지만 주위엔... \c[6]사악한 파편들\c[0]이 도사리고 있다...
+\prf\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 이곳을 나가기 전에... 반드시 바다 무녀의 성상을 찾아야 한다...
+\prf\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 그리고 저... \c[6]사악한 파편들\c[0]을 쓰러뜨려야 한다...
+
+AriseVillageFish/4to5_3
+\BonMP[Ca2,19]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 혹은... 우리... 이쪽으로 가는 게...?
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 그렇게 하면... 저 \c[6]사악한 파편들\c[0]을 피해갈 수 있을지도...
+
+AriseVillageFish/4to5_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 인간의... 여전사여... 이제 그대에게 달렸다...
+
+AriseVillageFish/5to6_0
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 여기다... 바로 이곳이야..
+
+AriseVillageFish/5to6_1_1
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 위대한 바다 무녀여... 우리가 돌아왔습니다...
+
+AriseVillageFish/5to6_1_2
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 우리가... 다시 돌아왔습니다...
+
+AriseVillageFish/5to6_1_3
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 어째서 선조들이... 광기에 잠식되었는지...
+
+AriseVillageFish/5to6_1_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 제게 알려주소서... 진실을...
+
+AriseVillageFish/5to6_2
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]???：\c[0] 거기 누구냐! 너냐?!
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]???：\c[0] 숨지 마라! 네가 불러낸 목소리, 분명히 들렸다!
+
+AriseVillageFish/5to6_3
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]???：\c[0] 저기구나?! 또 그 가슴큰 바보가 숨어 있었군!!
+
+AriseVillageFish/5to6_3_KnowLona
+\CBmp[Justice,8]\SETpl[DedOne_normal]\Lshake\c[4]정의：\c[0] 오, 너였어?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어... 그쪽은... 누구더라?
+
+AriseVillageFish/5to6_4
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]어인：\c[0] 너... 바다 마녀가 아니잖아...!
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]어인：\c[0] 넌 사악한... 가짜 신이다...!
+
+AriseVillageFish/5to6_5
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]정의：\c[0] 사악한 건 네 쪽이야! 너네 집안 대대로 다 사악하다고!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]정의：\c[0] 나는 정의를 위해 싸우는 전사다!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]정의：\c[0] 진실을 보여주마! 누가 진짜 악인지 똑똑히 알게 될 거다!
+
+AriseVillageFish/5to6_6
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{쿠르륵！
+
+AriseVillageFish/5to6_7
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{아... 안 돼... 이건 거짓이야...!
+
+AriseVillageFish/5to6_8
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{거짓말이야...! 거짓말이라고...!
+
+AriseVillageFish/5to6_9
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{으아아아아！
+
+AriseVillageFish/5to6_10_1
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] \{히이이이이이익!!!
+
+AriseVillageFish/5to6_10_2
+\CBct[20]\m[bereft]\Rshake\c[6]로나：\c[0] 안... 안 돼... 다가오지 마!
+
+AriseVillageFish/5to6_11
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 으... 지금 무슨 일이야?
+
+AriseVillageFish/5to6_12
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 사람은?! 죽은 거야?!
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 방금까지만 해도 나랑 같이 있었는데?!
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 이걸 그의 동료한테 뭐라고 말해야 하지...
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 하아.....
+
+AriseVillageFish/6to7
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] ....
+
+CampHumWatcher/6and7_0
+\CBid[-1,20]\c[4]자경단：\c[0] 우리는 어라이즈 마을의 자경단이다. 이제 너는 안전하다.
+
+CampHumWatcher/6and7_1
+\CBid[-1,20]\c[4]자경단：\c[0] 두려워하지 마라, 사악한 어인들은 전부 처치했다.
+
+CampHumLooter/6and7_0
+\CBid[-1,20]\c[4]자경단：\c[0] 성 안에서 온 수비대 놈들이, 이 잡종들을 건드리지 말라고 하더군.
+\CBid[-1,20]\c[4]자경단：\c[0] 길에서 어인을 만나면 지켜주고, 노엘 마을까지 데려가라나 뭐라나.
+\CBid[-1,20]\c[4]자경단：\c[0] 도시에 사는 큰놈들은 늘 웃긴 소리만 해댄다니까.
+
+CampHumLooter/6and7_1
+\CBid[-1,20]\c[4]자경단：\c[0] 이 잡종들이 물고기를 꽤나 실어 왔더군. 덕분에 우리 마을은 한동안 먹을 걱정 없겠어.
+\CBid[-1,20]\c[4]자경단：\c[0] 전에 잡혀온 여자 노예 둘도 있었는데, 그중 하나는 내가 차지했지.
+\CBid[-1,20]\c[4]자경단：\c[0] 말해두는데, 가슴이 어찌나 크던지… 침대 위에서 내는 소리도 끝내주더라.
+
+CampHumLooter/6and7_2
+\CBid[-1,20]\c[4]자경단：\c[0] 네가 말 안 하고, 나도 말 안 하면 성 안의 대인배들이 알 리 없지.
+\CBid[-1,20]\c[4]자경단：\c[0] 우리가 \c[6]심해에서 온 자들\c[0]이나 강도놈들한테 습격당할 때도, 놈들은 도와준 적 없잖아.
+\CBid[-1,20]\c[4]자경단：\c[0] 그런 놈들 말을 내가 왜 들어야 해?
+
+CampHumGuard/6and7_0
+\CBid[-1,20]\c[4]자경단：\c[0] 이 잡종들, 죽기 전에 뭐 선조님이 미쳐버린 건 자기들이랑 상관없다느니 떠들어대더라.
+\CBid[-1,20]\c[4]자경단：\c[0] 무슨 말인지 알 게 뭐야, 어차피 다 뒤졌는데.
+
+CampHumGuard/6and7_1
+\CBid[-1,20]\c[4]자경단：\c[0] 이런 추잡한 아종 따위 말을 누가 믿어. 혼혈보다도 더 역겹다니까.
+
+CampHumGuard/6and7_2
+\CBid[-1,5]\c[4]자경단：\c[0] 으, 냄새… 진짜 구역질 난다! 죽고 나니 비린내가 더 심하군!
+
+##############################################################################################################
+
+AriseVillage/1to2_rg5_0
+\Bon[8]\m[shocked]\Rshake\c[6]로나：\c[0] 이건... 시체?
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]어인：\c[0] 야영지도... 인간들의... 습격을 받은 건가?
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]어인：\c[0] 서둘러야... 한다...
+
+AriseVillage/1to2_rg5_1
+\SndLib[FishkindSmSpot]\BonMP[QuTar,20]\prf\c[4]전사：\c[0] 인간이다...! 인간이 우리를 발견했다! 죽여라!
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 뭐?! 나를 죽이겠다고?!
+
+AriseVillage/1to2_rg5_2
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]어인：\c[0] 형제여, 그만둬...! 이 인간이 날 구해줬어...!
+
+AriseVillage/1to2_rg5_3
+\SndLib[FishkindSmSpot]\CBmp[QuTar,20]\c[4]전사：\c[0] 형제... 네가 살아 있었구나...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]어인：\c[0] 그래, 형제여... 난 살아있다...!
+
+AriseVillage/1to2_rg5_4
+\SndLib[FishkindSmSpot]\CBmp[QuTar,4]\c[4]전사：\c[0] 위대한 바다의 마녀님께 감사를...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,4]\c[4]어인：\c[0] 바다의 마녀를 찬미하라...!!
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어...음.....
+
+AriseVillage/1to2_rg5_5
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]어인：\c[0] 고맙다... 인간 전사여...
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]어인：\c[0] 이것은 네게 드리는 답례다...
+
+AriseVillage/1to2_rg5_6
+\CBct[4]\m[triumph]\Rshake\c[6]로나：\c[0] 고마워!
+
+AriseVillage/1to2_rg5_7
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]전사：\c[0] 형제여... 넌 여자에게... 구해진 건가?
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]어인：\c[0] 여자...? 그녀가 여자라고...?
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]전사：\c[0] 그래... 형제여...
+
+AriseVillage/1to2_rg5_8
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]어인：\c[0] 네가... 여자라고...?!
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 맞는데? 왜 그래?
+\prf\CBmp[FishExplorer,8]\c[4]어인：\c[0] ......
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] .....응?

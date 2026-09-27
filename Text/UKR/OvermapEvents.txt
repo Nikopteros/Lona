@@ -1,0 +1,826 @@
+#--------------------------------------------------------------------------- MAIN
+
+Lona/Exit
+\m[confused]Залишити цю місцевість? \optB[Ще ні!,Залишити]
+
+Lona/OutOfSta
+\m[tired]\c[6]Лона:\C[0] Ухх, я так втомилася...
+
+#--------------------------------------------------------------------------- WILD DANGER
+
+Lona/WildnessNapSpawn
+\cg[event_Eyes]Звук кроків. Хтось наближається.
+\m[shocked]\cgoff\c[6]Лона:\C[0] Хто тут?!
+
+Lona/WildnessNapRobber0
+\narr Вони відібрали у Лони все.
+
+Lona/WildnessNapRobber1_normal
+\m[bereft]\c[6]Лона:\C[0] Ні! Віддайте!
+
+Lona/WildnessNapRobber1_tsun
+\m[angry]\c[6]Лона:\C[0] Жопошники! Ви заплатите за це!
+
+Lona/WildnessNapRobber1_slut
+\m[fear]\c[6]Лона:\C[0] Мої речі! Віддайте назад!
+
+Lona/WildnessNapRobber1_weak
+\m[sad]\c[6]Лона:\C[0] П-Прошу, не робіть мені боляче... Я віддам все... Тільки... Прошу...
+
+Lona/WildnessNapRobber1_overfatigue
+\m[tired]\c[6]Лона:\C[0] .....
+
+Lona/WildnessNapRobber1_mouth_block
+\m[tired]\c[6]Лона:\C[0] Мммфф! Ммммммффф!!
+
+#--------------------------------------------------------------------------- Capture by
+#--------------- NoerGuard
+
+Lona/CaptureByNoerGuard
+\SETpl[Mreg_guardsman]\Lshake\c[4]Стражник：\C[0] Досить чинити опір! Навіть не намагайся!
+\SETpr[Mreg_pikeman]\Rshake\c[4]Стражник：\C[0] Ти, дрібна сука! Я подбаю про те, щоб ти згнила в темниці!
+\plf\PRF\m[fear]\c[6]Лона:\C[0] *Хник*.....
+
+Lona/CaptureByNoerGuard_SlaveOwner
+\SETpl[Mreg_guardsman]\Lshake\c[4]Стражник：\C[0] Ця рабиня сміє не слухатися?!
+\SETpr[Mreg_pikeman]\Rshake\c[4]Стражник：\C[0] Живе до господаря, і готуйся отримати покарання!
+\plf\PRF\m[fear]\c[6]Лона:\C[0] *Хник*.....
+
+#--------------- FishPPL
+
+Lona/CaptureByFishPPL_rape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Стражник：\C[0] Сперейся з нею...! Час ... в'язки!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]Гвалт:\C[0] Зробити... Вагітною...!
+
+Lona/CaptureByFishPPL
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Стражник:\C[0] Самка...! Це дівчинка!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]Насильник：\C[0] Свіжа... Нова... Дівчинка!
+\plf\PRF\m[fear]\c[6]Лона:\C[0] Н-Ні...
+
+Lona/CaptureByFishPPL_isSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Стражник：\C[0] Це... Рабиня, що втекла...! Погано!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]Гвалт:\C[0] Погана... Рабиня...!!!
+
+Lona/CaptureByFishPPL_NotSlave
+\m[p5sta_damage]\plf\Rshake\c[6]Лона:\C[0] Стійте! Відійдіть від мене!
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]Стражник:\C[0] Дівчинка...! Заткни... Рот!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]Лона:\C[0] АААЙЙЙ!!!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Лона:\C[0] ООУЙАААЙЙ!!!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]Стражник:\C[0] Ми зловили... Нову дівчинку! Нову рабиню...!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Лона:\C[0] Мммггхх...! *Хник* Оооххх...
+
+#--------------- Orkind
+
+Lona/CaptureByOrkind0
+\cg[event_captured] Монстри відтягли Лону назад у своє гніздо. Вони хочуть, щоб Лона була матір'ю їхніх дітей.
+
+Lona/CaptureByOrkind1_normal
+\m[terror]\c[6]Лона:\C[0] Ні! Пустіть мене! Я не хочу мати дітей від монстрів!
+
+Lona/CaptureByOrkind1_tsun
+\m[wtf]\c[6]Лона:\C[0] Блять! Ви ненормальні! Пустіть мене, швидко! Не чіпайте мене, тварюки!
+\m[hurt]\c[6]Лона:\C[0] Рррххх!! ВИСТАЧИТЬ!
+
+Lona/CaptureByOrkind1_weak
+\m[sad]\c[6]Лона:\C[0] *Хник* Будь ласка... хто-небудь... врятуйте...
+
+Lona/CaptureByOrkind1_slut
+\m[bereft]\c[6]Лона:\C[0] Ну не-е... Бути свиноматкою для монстрів, це занадто!
+\m[hurt]\c[6]Лона:\C[0] Я зараз просто порвусь...
+
+Lona/CaptureByOrkind1_overfatigue
+\m[tired]\c[6]Лона:\C[0] Н-Ні...... *Плач*...
+
+Lona/CaptureByOrkind1_mouth_block
+\m[pain]\c[6]Лона:\C[0] Мммфф!! МММФФ!
+
+#=------------------------------------------------------
+
+Lona/CaptureByBandits0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандити:\C[0] Гей, повія! Навіть нахуй не смій чинити опір!
+
+Lona/CaptureByBandits1_typical
+\m[terror]\c[6]Лона:\C[0] Ні! Куди ви мене тягнете?!
+
+Lona/CaptureByBandits1_tsundere
+\m[wtf]\c[6]Лона:\C[0] Пустіть! Не смійте мене чіпати!!
+
+Lona/CaptureByBandits1_gloomy
+\m[sad]\c[6]Лона:\C[0] *Сльози* До-Хто-небудь... Прошу, допоможіть...
+
+Lona/CaptureByBandits1_slut
+\m[bereft]\c[6]Лона:\C[0] О, ні... Ви що хочете продати мене в рабство?
+
+#=------------------------------------------------------
+
+Lona/CaptureByGang0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Хмарник:\C[0] Хммм! Борги так чи інакше буде повернуто...!
+
+Lona/CaptureByGang1_typical
+\m[terror]\c[6]Лона:\C[0] Вибачте! Прошу, мені потрібно лише трохи часу!
+
+Lona/CaptureByGang1_tsundere
+\m[wtf]\c[6]Лона:\C[0] Прокляття! Пустіть! Не чіпайте мене нахуй!
+
+Lona/CaptureByGang1_gloomy
+\m[sad]\c[6]Лона:\C[0] Я... Мені шкода! *Хник*... Прошу... Прошу, не бийте мене...
+
+Lona/CaptureByGang1_slut
+\m[bereft]\c[6]Лона:\C[0] Стривай, ні! Невже немає іншого способу повернути борг...?
+
+Lona/CaptureByGang2
+\SETpl[MobHumanCommoner]\Lshake\C[4] Лихвар:\C[0] Введіть її!
+
+#--------------------------------------------------------------------------- Capture Arrived
+
+Lona/Capture_arrived_normal
+\m[bereft]\c[6]Лона:\C[0] Будь ласка, хтось?! На допомогу!
+
+Lona/Capture_arrived_tsun
+\m[hurt]\c[6]Лона:\C[0] Ви жалюгідні паразити! Ви пошкодуєте про це!!
+
+Lona/Capture_arrived_weak
+\m[pain]\c[6]Лона:\C[0] Уффф... *Шмиг* П-прошу... Мені шкода... Я не можу... *Шмиг*
+
+Lona/Capture_arrived_slut
+\m[bereft]\c[6]Лона:\C[0] Айй... Я помру, якщо це не припиниться...
+
+Lona/Capture_arrived_overfatigue
+\m[tired]\c[6]Лона:\C[0] Ухххффф......
+
+Lona/Capture_arrived_mouth_block
+\m[pain]\c[6]Лона:\C[0] Ммммфф! ММмммм!!
+
+############################################## Z觸發之地形事件 ##############################
+############################################## Z觸發之地形事件 ##############################
+############################################## Z觸發之地形事件 ##############################
+
+World/Region1
+\cg[map_region_PlainField]Поле
+
+World/Region2
+\cg[map_Shore]Берег
+
+World/Region3
+\cg[map_region_CreepMountain]Заражена Гора
+
+World/Region4
+\cg[map_region_deadforest]Тропічний Ліс
+
+World/Region5
+\cg[map_region_deadforest]Сосновий Ліс
+
+World/Region6
+\cg[map_region_deadforest] Мертвий Ліс
+
+World/Region7
+\cg[map_region_mountain]Гора
+
+World/Region8
+\n\cg[map_region_Swamp]Болото
+
+World/Region9
+\cg[map_region_AbanbonedHouse]Занедбаний Дім
+
+World/Region10
+\cg[map_region_slum]Трущоби
+
+World/Region11
+\cg[map_region_Road]Дорога
+
+World/Region12
+\cg[map_region_RoadNoerNob]Схил Росендо
+
+World/Region13
+\cg[map_region_Swamp]Болотна стежка
+
+World/Region14
+\cg[map_region_badland]Пустош
+
+World/Region15
+\cg[map_region_Marsh]Ланцюг
+
+World/Region16
+\cg[map_region_Creep]Заражений Край
+
+World/Region17
+\cg[map_region_AbomRoad]Забруднена Дорога
+
+World/Region18
+\cg[map_region_AbomTown]Руїни Зараженого Міста
+
+World/Region19
+\cg[map_region_badland]Забруднені Землі
+
+World/Region20
+\cg[map_human_camp]Табір Беженцев
+
+World/Region21
+\cg[map_region_NoerRoad]Ноертаун
+
+World/Region22
+\cg[map_region_NoerRoad]Вулиці Ноєра
+
+World/Region23
+\cg[map_region_Boulevard]Головна Дорога
+
+World/Region28
+\cg[map_region_Creep]Заражений Край
+
+World/Region29
+\cg[map_DarkestDungeon]Руїни Загиблої Фортеці
+
+World/Region30
+\cg[map_DarkestDungeon]Руїни Загиблої Фортеці
+
+World/Region31
+\cg[map_SybStreet]Вулиці Сібаріса
+
+World/Region32
+\cg[map_SybAlley]Алея Сібаріса
+
+############# FISH ISLE ONLY
+
+World/Region24
+\cg[map_region_Swamp]Болотна стежка
+
+World/Region25
+\n\cg[map_region_Swamp]Болото
+
+World/Region26
+\cg[map_region_Marsh]Ланцюг
+
+World/Region27
+\cg[map_Shore]Берег
+
+############################################## options ###############################
+
+World/Region_option_start
+Що мені зробити?
+
+World/Region_option_Cancel
+Скасування
+
+World/Region_option_Relax
+Відпочити
+
+World/Region_option_Observe
+Дослідити
+
+World/Region_option_RemoveTracks
+Замести сліди
+
+World/Region_option_Enter
+Увійти
+
+World/Region_option_Kyaaah
+Впасти!
+
+World/Region_option_check_danger
+\SndLib[stepBush]Хмм, погано. Це місце виглядає небезпечним.
+
+World/Region_option_check_unknow
+\SndLib[stepBush]Лона не може побачити, що знаходиться далі.
+
+World/Region_option_check_peace
+\SndLib[stepBush]Начебто це місце безпечне...
+
+World/Region_option_check_peaceful
+\SndLib[stepBush]Це місце є безпечним. Можна розслабитись.
+
+World/Region_option_erase_win0
+\SndLib[sound_equip_armor]Лона намагається замінити сліди.
+
+World/Region_option_erase_win1
+\SndLib[sound_equip_armor] Її сліди були замасковані.
+
+World/Region_option_WatchThemDead
+\cg[map_DeadPPL]Лона ховається і спостерігає, як безпорадних людей вбивають по одному.
+\narr\..\..\..
+
+World/Region_option_erase_failed0
+Лона не вміє приховувати свої сліди.
+
+World/Region_option_erase_failed1
+(Провал) У Лони недостатньо навичок, щоб зробити це.
+
+############################################### RAND 사건 ################################
+############################################### RAND 사건 ################################
+############################################### RAND 사건 ################################
+
+World/ThingHappen_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr Щось раптом трапляється перед Лоною!
+
+World/ThingVS_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr Здалеку долинають звуки істот, що воюють одна з одною...
+
+World/Ambush_begin
+\m[confused]\SND[SE/Cancel1.ogg] Лона рухається обережно, але раптово...
+
+World/RerollEvent_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr Здається, вони чогось чи когось бояться... Як раптом-
+
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+
+World/ThingHappen_who_unknow_HumanGuard
+\cg[map_guards]Загін патруля Ноера!
+
+World/ThingHappen_who_unknow_Vs_Refugee_Orkind
+\cg[map_VS]Банда оркоїдних монстрів переслідує групу біженців?!
+
+World/ThingHappen_who_unknow_PPLsos
+\m[confused]\cg[map_sos]Здається, їм справді потрібна допомога...
+
+World/ThingHappen_who_unknow_PPLsosHynger
+\cg[map_sos_hunger] Ніхто, здається, відчайдушно просить допомоги!
+
+World/ThingHappen_who_unknow_UnknowCamp
+\cg[map_human_camp]Схоже на покинутий табір...
+
+World/ThingHappen_who_unknow_AbandonedCropses
+\cg[map_DeadPPL]Вигляд купи гнилих, смердючих трупів змушує Лону бігти... Але, можливо, мертві могли б зберігати якісь цінності?
+
+World/ThingHappen_who_unknow_AbandonedResources
+\cg[map_AbandonedResources]Схоже на кинуті запаси. Можливо, тут є корисні предмети?
+
+World/ThingHappen_who_bad_AbomManager
+\m[shocked]\cg[map_AbominationGroup]Мерзкі фігури з огидної плоті рухаються у бік Лони!
+
+World/ThingHappen_who_bad_AbomSpider
+\m[shocked]\cg[map_AbominationSpider]Рій Арахнідів і навколо павутиння... Незабаром навколо Лони з'явилися полчища жахливих, повзучих комах!
+
+World/ThingHappen_who_bad_WolfGroup
+\cg[map_WolfGroup]Стая вовків полює на Лону!
+
+World/ThingHappen_who_bad_GobRaider
+\cg[map_GobRaider]Оркоїди-наїзники наздогнали Лону!
+
+World/ThingHappen_who_bad_OrkindCamp
+\cg[map_monster_camp]Банда Оркоїдів вистежує Лону!
+
+World/ThingHappen_who_bad_OrkindPlayGround
+\cg[map_OrcHappy]Лона щойно натрапила на жахливий і кривавий ігровий майданчик Оркоїдів!
+
+World/ThingHappen_who_bad_RougeWave
+\cg[map_RogueWaves]\m[shocked]\Rshake Стоп! Червоні хвилі попереду! Небезпечні морські хвилі з ревом обрушуються на Лону!
+
+World/ThingHappen_who_bad_AbomBreedlingTrap
+\cg[map_TrapHole]\SndLib[BreedlingSpot]Це пастка! Лона впала в яму!
+
+World/ThingHappen_who_bad_AbomBreedlingRaid
+\cg[map_AbomBreedlingRaid]\SndLib[BreedlingSpot]Демони Плоті! Рой мерзотів-заплідників повзе до Лони!
+
+World/ThingHappen_who_bad_FishkindGroup
+\cg[map_FishkindGroup]Стая Глибинних наближається до Лоні!
+
+World/ThingHappen_who_bad_UndeadWalking
+\cg[map_undead_group]Полчище Нежиті вилізло з тіней!
+
+World/ThingHappen_who_bad_BanditMobs
+\cg[map_bandits]Якісь негідники влаштували на Лону засідку! Це бандити!
+
+World/ThingHappen_who_bad_FishPPL
+\cg[map_FishPPL]\SndLib[FishkindSmSpot]Загін стражників Риболюдів наближається до Лони!
+
+World/ThingHappen_who_bad_GangDebtCollet
+\cg[map_IRS]Це вибивали боргів! Вони виглядають розлютованими!
+
+World/ThingHappen_who_bad_BanditsCiv
+\cg[map_bandits_farmer]Це протест? Пограбування? Як би там не було, ситуація не з найкращих...
+
+World/ThingHappen_who_good_Merchant
+\cg[map_merchant]На шляху з'явився Торговець-кочівник!
+
+World/ThingHappen_who_good_NoerMissionary
+\cg[map_missionary]Проповідник! Це проповідник!
+\c[4]Проповідник：\C[0] Кінець близький! Нехай невинні стануть послідовниками Святих! Це останній шанс перед кінцем!
+\c[4]Проповідник：\C[0] Це ваш останній шанс перед закінченням усього! Покайтеся у своїх гріхах і ПОВІРУЙТЕ!
+
+World/ThingHappen_who_Good_NoerHomeless
+\cg[map_homeless]Наблизилась велика кількість біженців!
+\c[4]Біженці：\C[0] Благаю вас... Прошу... Змилуйтесь...
+
+World/ThingHappen_who_Good_NoerHomeless_SneakFailed
+\narr Біженці стали оточувати Лону.
+\narrOFF\c[4]Біженці:\C[0] Міс... Допоможіть... Пожалуйста...
+\m[confused]\c[6]Лона:\C[0] Оуу...
+
+World/ThingHappen_who_Bad_RoadHalp
+\cg[map_Halp]Здається, там на когось напали!
+
+World/ThingHappen_who_Bad_RoadHalp_SneakFailed
+Вони тепер прямують у бік Лони.
+\narrOFF\c[4]Біженець:\C[0] ДОПОМОЖІТЬ! Будь ласка! ДОПОМОЖІТЬ!
+\m[shocked]\Rshake\c[6]Лона:\C[0] Що?! Стривай! Що відбувається?
+
+World/ThingHappen_who_good_RefugeeCamp
+\cg[map_human_camp]Лона натикається на табір біженців!
+
+World/ThingHappen_who_bad_FishPPL_SneakFailed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Стражник:\C[0] Дівча...! Взяти... дівчисько...! Дівча... тікає...!
+\SndLib[FishkindSmSpot]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Аа?! П-Чекайте!
+
+############################################### 隱익檢查 ###################################
+
+World/ThingHappen_SneakWin
+Вони не помітили Лону.
+
+World/ThingHappen_SneakFailed
+Лону виявили!
+
+World/ThingHappen_SneakTrueDeepone
+\narr Переслідувачі Лони стежать за нею за запахом афродизіаку, що походить від тіла Лони.
+
+World/Check_NoEnemy_SneakWin
+\narr\..\..\..
+Поки що нічого підозрілого, має бути безпечно.
+
+World/Check_Enemy_SneakWin
+\narr\..\..\..
+Щось не так... Це безумовно небезпечно...
+
+World/Check_SneakFailed
+\narr\..\..\..
+Лона не може побачити, чи все гаразд.
+
+World/Check_Hide
+\narr\..\..\..\SndLib[sys_StepChangeMap]
+Лона сховалася в темному кутку. Незабаром вони втратили її слід...
+
+############################################### Lona的決定 ###################################
+
+Lona/Options
+Що мені зробити?
+
+Lona/Options_Escape
+Втекти
+
+Lona/Options_Observe
+Дослідити
+
+Lona/Options_Talk
+Говорити
+
+Lona/Options_Approach
+Зблизитися
+
+Lona/Options_Kyaaah
+Впасти!
+
+Lona/Options_Bomb
+Висадити
+
+Lona/Options_Hide
+Сховатись
+
+Lona/Options_Leave
+Піти
+
+Lona/Options_Intimidate
+Залякати
+
+Lona/Options_Bluff
+Збрехати
+
+Lona/Options_Cocona
+Покликати друзів!
+
+Lona/Options_Struggle
+Вирватися
+
+Lona/Options_GetHelp
+Попросити допомоги
+
+##################################### Options_Struggle ##############################################
+Lona/Options_StruggleLoop
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit] Цього мало! Лоні потрібно вириватися сильніше...
+
+Lona/Options_StruggleWin
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit] Лона змогла вирватися! Час забиратися звідси!
+
+#####################################逃跑###############################################
+
+Lona/Options_sneakpass_RunningWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]Лона змогла втекти. Переслідувачі не змогли її зловити.
+
+Lona/Options_sneakpass_RunningFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]Лона намагається втекти... Але марно.
+
+Lona/Options_sneakpass_SneakWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]Лона зникла в тіні, переслідувачі не змогли знайти її.
+
+Lona/Options_sneakpass_SneakFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked] Переслідувачі вистежили, де сховалася Лона, за залишеними нею слідами...
+
+Lona/Options_sneakpass_JustLeave
+\SND[SE/sneak_in.ogg]\narr\m[normal]Лона вирішує просто піти.
+
+Lona/Options_FollowerHelp
+\cg[map_FollowerHelp]\m[p5sta_damage]Компаньйон Лони допоміг їй звільнитися...
+
+####################################觀察###############################################
+####################################觀察###############################################
+####################################觀察###############################################
+
+World/ThingHappen_who_unknow_HumanGuard_ChkGood
+\m[confused]Загін варти Ноера, як і раніше, на шляху!
+
+World/ThingHappen_who_unknow_PPLsos_ChkGood
+\m[confused]\cg[map_sos]Здається, вони правда потребують допомоги.
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkGood
+\m[confused]\cg[map_guards]Вони не здаються ворожими.
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkBad
+\m[shocked]Лону все ще можуть шукати, краще не провокувати їх...
+
+World/ThingHappen_who_unknow_Guards_ChkBad_SlaveOwner
+\m[shocked]Лона - рабиня, що втекла, їй варто уникати уваги будь-якої варти.
+
+World/ThingHappen_who_unknow_PPLsos_ChkBad
+\m[confused]\cg[map_bandits]Ці люди виглядають дуже підозріло...
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkBad
+\m[confused]\cg[map_bandits_farmer]Ті люди на шляху безперечно не дружелюбні...
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckWin
+\m[flirty]Лона обдурила варту! Варта тепер вірить, що це було просто непорозумінням.
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckLose
+\m[shocked]\Rshake Лона щосили намагається обдурити варту, але вони їй не повірили...
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkUnknow
+\narr\m[confused]Лона не може побачити, що варта планує робити.
+
+World/ThingHappen_who_unknow_PPLsos_ChkUnknow
+\narr\m[confused] Лона не може побачити, що мають намір робити ті люди.
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkUnknow
+\narr\m[confused]Лона не може побачити, що відбувається в таборі.
+
+World/ThingHappen_who_unknow_NoerMissionary_CheckWin
+\c[4]Проповідник：\C[0] Всім язичникам! Станьте послідовниками Святих! Віра в Святого врятує вас і очистить від брехні та гріха!
+\m[confused]Начебто, нічого підозрілого...
+
+World/ThingHappen_who_unknow_NoerHomeless_CheckWin
+\m[confused]Вони не виглядають підозріло, хіба що, від них смердить...
+
+World/ThingHappen_who_bad_AbomSpider_CheckWin
+\narr\..\..\..
+Лона змогла знайти вихід.
+Лона втекла!
+
+###############################################嘗試溝通 #############################
+###############################################嘗試溝通 #############################
+###############################################嘗試溝通 #############################
+
+Lona/Options_Talk_begin
+\narr\..\..\..
+Лона спробувала домовитися з незнайомцями перед нею.
+
+Lona/Options_Intimidate_begin
+\narr\..\..\..
+Лона зіпсувала жахливу гримасу і загарчала, намагаючись залякати ворогів.
+
+Lona/Options_Intimidate_begin2_typical
+\m[overkill]\Rshake\c[6]Лона:\C[0] Р-Рррр...!
+
+Lona/Options_Intimidate_begin2_tsundere
+\m[overkill]\Rshake\c[6]Лона:\C[0] А ну ЗВАЛИЛИ ВСЕ НАХУЙ з моєї дороги...!
+
+Lona/Options_Intimidate_begin2_gloomy
+\m[bereft]\Rshake\c[6]Лона:\C[0] Емм... Р-Рррр... Мяу.......?
+
+Lona/Options_Intimidate_begin2_slut
+\m[overkill]\Rshake\c[6]Лона:\C[0] Не підходь! Або я виїбу тебе..\..\.. Буквально!
+
+##############################
+
+World/ThingHappen_who_unknow_HumanGuard_ComGood
+\ m [normal] Вони кажуть Лоні, що тут не безпечно. Їй порадили якнайшвидше піти.
+
+World/ThingHappen_who_unknow_PPLsos_ComGood
+\m[sad]\cg[map_sos]Вони розповіли Лоні кілька трагічних історій, сподіваючись, що вона може їм допомогти.
+
+World/ThingHappen_who_bad_AbomManager_ComGood
+\cgoff\m[flirty]Вибух бомби Лони оглушив монстрів. Тварини розбіглися з жахом!
+
+World/ThingHappen_who_bad_WolfGroup_ComGood
+\m[flirty]Вони обнюхали Лону і незабаром втратили до неї будь-який інтерес.
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComGood
+\m[flirty]Тварини бояться підходити, оскільки Лона не одна.
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComNonWeak
+\m[irritated]\Rshake Тварини розуміють, що Лона - не легкий видобуток. Вони стали побоюватися її присутності та відступили.
+
+World/ThingHappen_who_bad_OrkindCamp_ComGood
+Вони легко повелися на обман і подумали, що Лона - одна з них.
+
+World/ThingHappen_who_bad_FishkindGroup_FishFollower
+\narr\..\..\..
+\narr\SndLib[FishkindLgQuestion]\m[flirty]它們看著洛娜的同伴，覺得洛娜是牠們的交配對象。
+\narr\m[flirty]它們離開了...
+
+World/ThingHappen_who_bad_FishkindGroup_ComGood
+\m[flirty]З невідомої причини, вони втратили інтерес до Лоні...
+
+World/ThingHappen_who_bad_UndeadWalking_ComBad
+Вони не розуміють, що говорить Лона, але їм було цікаво дізнатися про смак мізків Лони.
+
+World/ThingHappen_who_bad_Bandits_ComGood
+\m[sad]\cg[map_sos]Вони обговорюють своє важке життя і сподіваються, що це не відплата за їхні справи в минулому.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComGood
+\m[sad]\cg[map_sos]Лона благає їх дати їй ще часу.
+\m[sad]\cg[map_FollowerHelp]Вони погодилися... Поки що...
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_1
+\m[fear]\cg[map_scroll]Вони оглянули речі, які передала Лона.\..\..\..
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_pass
+\m[flirty]\cg[map_IRS]Вони сказали, що Лона проробила хорошу роботу, і сподіваються на подібну співпрацю наступного разу.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_Failed
+\Rshake\m[terror]\cg[map_IRS]Вони сказали, що цього недостатньо!
+
+World/ThingHappen_who_bad_BanditsCiv_ComGood
+\m[sad]\cg[map_sos_hunger]Вони говорили про свої труднощі і згадали, що намагаються допомогти своїм голодуючим сім'ям.
+
+World/ThingHappen_who_good_Merchant_ComGood
+\m[flirty]\cg[map_merchant]Торговець кинув на Лону розгублений погляд, схоже, вона йому не цікава.
+
+World/ThingHappen_who_unknow_UnknowCamp_ComGood
+\m[normal]\cg[map_guards]Вартова попередила Лону, що тут небезпечно. Їй порадили якнайшвидше піти.
+
+World/ThingHappen_who_good_NoerMissionary_ComGood
+\c[4]Проповідник：\C[0] Сибаріс упав через вашу брехню і гріх! Язичники! Ви повинні повірити у Святих!
+\c[4]Проповідник:\C[0] Він прибуде у світ у ролі смертного! Він переродиться, щоб урятувати всіх нас!
+\m[confused]......
+
+World/ThingHappen_who_bad_FishPPL_NotSlave
+Лора пояснила їм, що вона ніколи не була рабинею і вони залишили її в спокої.
+
+World/ThingHappen_who_bad_FishPPL_ComGood
+\narr\SndLib[FishkindSmSpot]Вони перестали переслідувати Лону, як тільки помітили, що вона одна з них.
+\narr\SndLib[FishkindSmSpot]Вони повірили, що вона була самкою одного з їхніх братів.
+\m[flirty]\c[6]Лона:\C[0] Еммм...
+
+World/ThingHappen_who_bad_FishPPL_BluffGood
+\narr\SndLib[FishkindSmSpot]Вони перестали переслідувати Лону, вирішивши, що вони помилилися.
+\narr\SndLib[FishkindSmSpot]При побіжному погляді, вони вирішили, що Лона - чоловік, і втратили до неї інтерес.
+\narrOFF\m[flirty]\c[6]Лона:\C[0] ...Що це було......?
+
+#####################################################################
+
+World/ThingHappen_who_unknow_HumanGuard_ComBad
+\narr Стража подумала, що Лона злочинниця, і почали до неї наближатися!
+\narr Вони оточили Лону!
+
+World/ThingHappen_who_unknow_PPLsos_ComBad
+\cg[map_bandits_farmer]Вони вимагають у Лони віддати їм усі її речі, і обслужити їх своїм тілом.
+\m[wtf]\c[6]Лона:\C[0] Ні!... Відчепіться від мене!
+
+World/ThingHappen_who_unknow_PPLsos_ComLowMorality
+\cg[map_bandits_farmer]Вони схопили свою зброю, готові застосувати її. Вони вирішили, що Лона - зло.
+
+World/ThingHappen_who_bad_AbomManger_ComBad
+\m[terror]\Rshake\narr Сморід гнилого м'яса оточила Лону... Здається, ці Тварини хочуть використовувати її тіло для розмноження!
+
+World/ThingHappen_who_bad_WolfGroup_ComBad
+\m[terror]\Rshake\narr Вони обнюхали Лону і їм сподобалося! Вони почали з гарчанням оточувати її!
+
+World/ThingHappen_who_bad_OrkindCamp_ComBad
+\c[6]Оркоїд:\C[0] \cg[event_OrkindGonnaRape]Дірка! Я хочу м'ясну дірку!
+\narr\m[fear] Слина стікає з їхніх ротів, поки вони оточують Лону.
+\narr Здається, вони хочуть використовувати Лону як м'ясний туалет...
+
+World/ThingHappen_who_bad_FishkindGroup_ComBad
+\c[6]Глибинний:\C[0] \cg[event_FishkindGonnaRape]М'юрр! М'юррур!
+Вони оточили Лону, в повітрі відчувся мерзенний запах гнилої риби.
+\narr Здається, вони хочуть зробити її матір'ю свого виводка...
+
+World/ThingHappen_who_bad_BanditMobs_ComBad
+\m[wtf]\cg[map_bandits]\c[6]Лона:\C[0] Ні... Не підходьте до мене!
+Вони зажадали, щоб Лона віддала всі свої речі.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComBad
+\m[wtf]\cg[map_IRS]\c[6]Лона:\C[0] Вибачте мені! Прошу! Я не хотіла-..!
+Вони вирішили забрати у Лони всі її речі як сплату за боргом.
+
+World/ThingHappen_who_bad_BanditsCiv_ComBad
+\cg[map_bandits_farmer] Бандити хочуть відібрати у Лони всі її речі і хочуть, щоб вона обслужила їх своїм тілом.
+\m[wtf]\c[6]Лона:\C[0] Ні!... Відчепіться від мене!
+
+World/ThingHappen_who_good_Merchant_ComBad
+\m[flirty]\cg[map_merchant]Торговець кинув на Лону розгублений погляд, схоже, вона йому не цікава.
+
+World/ThingHappen_who_unknow_UnknowCamp_ComBad
+\m[wtf]\cg[map_bandits]\c[6]Лона:\C[0] Ні... Не підходьте до мене!
+\narr Невідомі хочуть відібрати у Лони всі її речі і хочуть, щоб вона обслужила їх своїм тілом.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad1
+\m[normal]\cg[map_bandits_farmer]Вони вимагають у Лони
+
+World/ThingHappen_who_bad_CommonMobs_ComBad2
+Окулярів обміну, інакше вони погрожують її покалічити.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_win
+\narr Вони були задоволені отриманим.
+Досить сміючись, вони йдуть.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_failed
+Вони були розчаровані незговірливістю Лони.
+\m[wtf]\cg[map_bandits]\c[6]Лона:\C[0] Стійте! Не наближайтесь до мене!
+Вони вимагають, щоб Лона віддала їм усі свої речі зараз же!
+
+####################################滑了一跤##############################################
+
+Lona/OvermapSlip
+\m[shocked]\Rshake\c[6]Лона:\C[0] \{КЬЯЯХХ!!!
+\narr\m[hurt]\Rshake Лона «випадково» впала на землю. Невідомі істоти почули її крик...
+
+Lona/OvermapSlipDrowning
+\SndLib[sound_Bubble]\m[p5health_damage]\Rshake\c[6]Лона:\C[0] \{МММНННФ! *ГЛОТ*! ГДГРРРХ! Бульк...
+\SndLib[sound_Bubble]\narr\m[p5health_damage]\Rshake Лона повільно тоне, хвилі одна за одною приховують її під водою, а відлив забирає тендітне дівоче тіло в невідомому напрямку...
+
+##################################### ###################################
+
+GateGuard/begin1
+\SETpl[Mreg_pikeman]\prf\cg[map_NoerGate]Ворота Ноера \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>]
+
+GateGuard/enter_no_passport
+\prf\c[4]Стражник：\C[0] У нас наказ не впускати нікого без документів.
+\m[confused]\plf\PRF\c[6]Лона:\C[0] Ладненько...
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]Стражник：\C[0] Аа? Гей, ти! СТОЯТИ!
+\Lshake\c[4]Стражник：\C[0] Мені знайоме твоє обличчя! \{ВЗЯТИ ЇЇ!
+\m[shocked]\plf\PRF\Rshake\c[6]Лона:\C[0] \{Ох, чорт!
+
+GateGuard/enter_sneak
+\plf\prf\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]Лона:\C[0] Фу-ф! Вийшло...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]Стражник：\C[0] Аа? Гей, ти! СТОЯТИ!
+\Lshake\c[4]Стражник：\C[0] Куди це ти крадешся? \{ВЗЯТИ ЇЇ!
+\m[shocked]\plf\PRF\Rshake\c[6]Лона:\C[0] \{Чорт!
+
+NobleGateGuard/NapCapture
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Як ця бомжиха опинилася тут?
+\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Стражник:\C[0] Схопити її!
+\m[shocked]\plf\PRF\Rshake\c[6]Лона:\C[0] Що?! Що трапилося!?
+
+################################################################################################################################################################ #################
+################################################################################################################################################################ #################
+################################################################################################################################################################ #################
+################################################################################################################################################################ #################
+################################################################################################################################################################ #################
+
+NoerTavern/FristTimeNotice0
+\ph\board[Карта Світу]
+Карта Миру використовує покрокову систему.
+Кожен зроблений крок Витрачає Запас Сил.
+Коли час скінчиться, Лона ляже спати.
+Коли в Лони скінчиться Запас Сил, їй доведеться увійти в зону, де вона знаходиться, щоб відпочити.
+
+NoerTavern/FristTimeNotice1
+\board[Управління на Карті Світу]
+\C[2]CTRL :\C[0] Перепустка ходу промотає час, але не забере Сили.
+\C[2]SHIFT ：\C[0] Натискання Shift під час руху на карті змусить Лону бігти. Біг витрачає менше часу, але більше сил.
+\C[2]Увійти:\C[0] Увійти до локації.
+\C[2]Впасти!:\C[0] Показник Запасу Сил стане -99 і ви опинитеся на землі без свідомості.
+
+NoerTavern/FristTimeNotice2
+\board[Зустріч]
+\C[2]Втекти：\C[0] Врятуватися втечею.
+\C[2]Огляд:\C[0] Озирнутися навколо.
+\C[2]Казати:\C[0] Вступити в діалог.
+\C[2]Зблизитися:\C[0] Увійти до локації.
+
+NoerTavern/FristTimeNotice3
+\SND[SE/Book1]\bg[bg_TutorialWorldDifficulty]\C[2]Небезпека оточення\C[0] Збільшується з часом.
+Шанс появи та сила ворогів залежить від цього значення.
+\SND[SE/Book1]\bg[bg_TutorialTime]\C[2]Час:\C[0] Коли досягає 100, Лона буде змушена заснути.
+\SND[SE/Book1]\bg[bg_TutorialCarrying]\C[2]Вага:\C[0] Коли несуча здатність Лони досягне 0, її Запас Сил буде зменшуватися з часом. Рух картою світу споживатиме ще більше Сил.
+
+NoerTavern/FristTimeNotice4
+\{Локація.
+\bgoff\CamMP[NoerTavern]Горяче Бочонок.
+Найвідоміша таверна в Ноері.
+Також відомо, що це діловий офіс Гільдії Найманців.
+Тут можна поїсти, поспати, знайти роботу тощо.
+\CamMP[NoerDock]Порт Ноера \BonMP[NoerDock,19]
+Ходять чутки, що кораблі все ще возять біженців.
+Але ціни надхмарні, звичайній людині це не по кишені...
+\CamCT Втім, спочатку йдіть у таверну і повідомте про присутність монстрів у Гільдію.

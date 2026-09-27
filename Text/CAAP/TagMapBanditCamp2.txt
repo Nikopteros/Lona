@@ -1,0 +1,214 @@
+thisMap/OvermapEnter
+Ciudad Abandonada cerca de la Mina de Cobre \optB[Cancelar,Entrar]
+
+######################################################################################################
+
+GateOnGuard/Qmsg0
+No puede ser
+
+GateOnGuard/Qmsg1
+Alguien nos observa
+
+###################################################################################################### game over
+
+GameOver/begin0
+\C[4]Bandido A：\C[0]    ¡Joder! ¡Cómo se atreve esta cerda a desafiarnos!
+\C[4]Bandido B：\C[0]    \{¡Mátala!!!\}
+
+GameOver/begin1
+\C[4]Bandido A：\C[0]    ¿Qué hacemos ahora?
+\C[4]Bandido B：\C[0]    ¿La atamos de pies y manos y alimentamos a \C[6]Bobo\C[0] con sus entrañas?
+\C[4]Bandido A：\C[0]    ¡Buena idea, hagámoslo!
+
+GameOver/begin0_noBobo
+\C[4]Bandido A：\C[0]    ¡Reconozco a esta cerda! ¡Ya estuvo aquí antes y nos trajo problemas!
+\C[4]Bandido B：\C[0]    ¡Joder! ¿Es ella? \{¡Mátala!!!\}
+
+GameOver/begin1_noBobo
+\C[4]Bandido A：\C[0]    ¿Qué hacemos ahora?
+\C[4]Bandido B：\C[0]    ¿Nos quedamos con sus extremidades y le damos las entrañas al jefe?
+\C[4]Bandido A：\C[0]    Buena idea, ¡hagámoslo!
+
+######################################################################################################
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Es una mujer!
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Ay! ¿Qué están haciendo?
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido：\C[0]    ¡Agárrenla! 
+
+Wake/FirstRape0
+\CBmp[guard1,20]\C[4]Bandido：\C[0]    Jefe, esta perra se estaba colando a escondidas.
+\CBmp[guard2,20]\C[4]Bandido：\C[0]    ¿Qué hacemos con ella?
+
+Wake/FirstRape1
+\CBmp[Boss,8]\C[4]Líder de los Bandidos：\C[0]    ¿Una perra? Déjame ver...
+
+Wake/FirstRape2
+\CBmp[Boss,5]\C[4]Líder de los Bandidos：\C[0]    Échenla con \C[6]Bobo\C[0].
+\CBmp[guard2,20]\C[4]Bandido：\C[0]    ¿En serio?
+\CBmp[guard1,20]\C[4]Bandido：\C[0]    Pero es una mujer. ¿No podríamos divertirnos un poco con ella antes?
+\CBmp[Boss,20]\C[4]Líder de los Bandidos：\C[0]    ¡Este es mi territorio y aquí yo doy las órdenes!
+\CBmp[Boss,5]\C[4]Líder de los Bandidos：\C[0]    Con esa cara oscura, estoy seguro de que el linaje de esta perra ya está manchado por bestias.
+\CBmp[Boss,20]\C[4]Líder de los Bandidos：\C[0]    Así que échenla con \C[6]Bobo\C[0], ¡rápido!
+\BonMP[guard1,20]\BonMP[guard2,20]\C[4]Bandido：\C[0]    ¡Sí, jefe!
+
+Wake/FirstRape3
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡Por favor, déjenme ir!
+\CBmp[guard1,20]\prf\C[4]Bandido：\C[0]    ¡Perra asquerosa! ¡Entra!
+
+Wake/FirstRape4
+\CBmp[guard1,20]\prf\C[4]Bandido：\C[0]    Al jefe no le interesas.
+\CBmp[guard1,20]\prf\C[4]Bandido：\C[0]    ¡Felicidades, ahora serás comida para \C[6]Bobo\C[0]!
+
+Wake/FirstRape5
+\CBct[2]\m[fear]\Rshake\c[6]Lona：\C[0]    ¿\C[4]Bobo\C[0]? ¿¡Comida!?
+
+Wake/FirstRape6
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\C[0]    \{¡Aaaay!\}
+
+Wake/FirstRape7
+\CBct[20]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡No! ¡No me comas! ¡No quiero morir!
+
+Wake/FirstRape8
+\BonMP[guard1,20]\plf\BonMP[guard2,20]\prf\C[4]Bandido：\C[0]    ¡Cómetela!
+\CBct[8]\m[pain]\plf\Rshake\c[6]Lona：\C[0]    Uyaaay...
+
+Wake/FirstRape9
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]Lona：\C[0]    No me huelas ahí...
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]Lona：\C[0]    ¡No soy sabrosa!
+
+Wake/FirstRape10
+\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5crit_damage]\Rshake\c[6]Lona：\C[0]    Ayooy \{¡AAAY!!\}
+
+Wake/FirstRape11
+\CBmp[guard1,20]\prf\C[4]Bandido：\C[0]    ¿Qué demo...? ¿\C[6]Bobo\C[0] decidió follársela?
+\CBmp[guard2,20]\prf\C[4]Bandido：\C[0]    ¡Eh, llamen a todos! ¡Aquí pasa un milagro! ¡Alabado sea el \C[6]Santo\C[0]!
+
+Wake/FirstRape12
+\CBmp[guard4,20]\plf\prf\C[4]Bandido：\C[0]    ¿Qué mierda? ¡Realmente se la está follando!
+\CBct[6]\m[hurt]\plf\Rshake\c[6]Lona：\C[0]    Uaah Oohh...
+
+Wake/FirstRape12_1
+\CBmp[guard1,20]\plf\C[4]Bandido：\C[0]    Jajajaja, esto es demasiado.
+\CBmp[guard1,20]\plf\C[4]Bandido：\C[0]    Parece que \C[6]Bobo\C[0] la ve como una hembra.
+
+Wake/FirstRape13
+\narr El enorme órgano de \C[4]Bobo\C[0] penetra con fuerza el útero de \c[6]Lona\C[0], intentando fertilizarla.
+\narrOFF\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]Lona：\C[0]    \{¡Aaaay!!\} ¡Duele! ¡Mucho!
+
+Wake/FirstRape14
+\SndLib[SwineSpot]\SETpl[BoboNormal]\Lshake\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]Lona：\C[0]    \{¡Para!! ¡Por favor, para!\}
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\BonMP[Piggy,4]\m[p5_cuming_ahegao]\Rshake\c[6]Lona：\C[0]    \{¡Mis entrañas van a reventar!\}
+\narr \C[4]Bobo：\C[0] se corre, pero esto es solo el inicio, su orgasmo dura mucho, mucho tiempo.
+
+Wake/FirstRape15
+\CBmp[Boss,8]\C[4]Líder de los Bandidos：\C[0]    \...\...\...
+\CBmp[Boss,20]\C[4]Líder de los Bandidos：\C[0]    Parece que \C[6]Bobo\C[0] cree que no es humana, sino una cerda.
+\CBmp[Boss,5]\C[4]Líder de los Bandidos：\C[0]    Sí, definitivamente, esta perra es una pequeña cerda.
+
+Wake/FirstRape15_1
+\C[4]Bandido：\C[0]    Es la primera vez que veo a un cerdo follarse a una perra.
+\C[4]Bandido：\C[0]    De ahora en adelante, no la llamaremos perra, ¡sino cerda!
+\C[4]Bandido：\C[0]    La próxima vez, todos vendrán a ver y estudiar esto.
+
+Wake/FirstRape16
+\narr Entre las burlas de los bandidos, Lona pierde el conocimiento.
+
+######################################################################################################
+
+RapeLoop/DailyJob1
+\BonMP[guard1,5]\C[4]Bandido：\C[0]    ¡Cerda, despierta!
+\BonMP[guard2,5]\C[4]Bandido：\C[0]    \{¡Levántate, joder!\}
+
+RapeLoop/DailyJob2
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\C[0]    Uooh... ¿Qué...?
+
+RapeLoop/DailyJob3_Vag
+\CBmp[guard3,4]\C[4]Bandido：\C[0]    Queremos ver cómo el jabalí se folla a la cerda ♥
+
+RapeLoop/DailyJob3_Anal
+\CBmp[guard4,4]\C[4]Bandido：\C[0]    Queremos ver cómo el jabalí se folla a la cerda por el culo ♥
+
+RapeLoop/DailyJob3_Mouth
+\CBmp[guard3,4]\C[4]Bandido：\C[0]    Queremos ver cómo la cerda traga el semen del jabalí ♥
+
+RapeLoop/DailyJob3_RimJob
+\CBmp[guard2,4]\C[4]Bandido：\C[0]    Queremos ver cómo la cerda lame el culo del jabalí ♥
+\CBmp[guard1,4]\C[4]Bandido：\C[0]    ¡Exacto! ¿No eres una cerda? ¡Lame bien el ano del jabalí!
+
+RapeLoop/DailyJob3_Dance
+\CBmp[guard1,4]\C[4]Bandido：\C[0]    ¡Eh! ¡Cerda! ¡Despierta! ¡Ve a entretener a tu marido!
+
+RapeLoop/DailyJob4
+\CBmp[guard4,5]\prf\C[4]Bandido：\C[0]    ¡Date prisa! ¡O morirás!
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0]    Yo....
+\CBmp[guard1,4]\prf\C[4]Bandido：\C[0]    ¡Rápido! Esperamos un espectáculo de la cerda ♥
+
+####################################################### common
+
+RapeLoop/DailyJob_PlayBegin0
+\CBct[8]\m[fear] ¿De verdad tengo que hacer esto otra vez...... \optB[Rechazar,Hacerlo]
+
+RapeLoop/DailyJob_PlayBegin1
+\CBct[8]\PLF\m[sad] No tengo opción...
+
+RapeLoop/DailyJob_EndRng0
+\C[4]Bandido：\C[0]    ¡Jajajaja! ♥
+
+RapeLoop/DailyJob_EndRng1
+\C[4]Bandido：\C[0]    ¡Jejeje! ♥
+
+RapeLoop/DailyJob_EndRng2
+\C[4]Bandido：\C[0]    ¡Opa! ¡Miren y escuchen cómo chilla esta cerda! ♥
+
+RapeLoop/DailyJob_EndRng3
+\C[4]Bandido：\C[0]    ¿Cómo debe chillar una cerda? ♥
+
+RapeLoop/DailyJob_EndRng4
+\C[4]Bandido：\C[0]    Mírenla, ¡no es humana! ¡Es una cerdita! ♥
+
+RapeLoop/DailyJob_EndRng5
+\C[4]Bandido：\C[0]    ¡Oink! ¡Oink! ¡Oink! ¡Vamos, haz ruido de cerda! ♥
+
+RapeLoop/DailyJob_EndRng6
+\C[4]Bandido：\C[0]    Jajaja, ¡esto es muy divertido! ♥
+
+RapeLoop/DailyJob_EndRng7
+\C[4]Bandido：\C[0]    ¡Qué cerda más apestosa!
+
+RapeLoop/DailyJob_EndRng8
+\C[4]Bandido：\C[0]    ¡No puedo creer lo que hace esta cerda para sobrevivir!
+
+RapeLoop/DailyJob5
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    Otra vez... ¿Quieres más?
+
+RapeLoop/DailyJob6
+\CBct[8]\m[hurt]\PRF\c[6]Lona：\C[0]    Por favor... Sé más suave...
+
+RapeLoop/DailyJob7
+\CBct[8]\plf\c[6]Lona：\C[0]    Uooh Aahh...
+
+RapeLoop/DailyJob9
+\CBct[8]\m[tired]\c[6]Lona：\C[0]    .....
+
+####################################################### mouth
+
+RapeLoop/DailyJob_PlayMouth0
+\narr \c[6]Lona：\C[0] toma el pene en forma de sacacorchos, lo coloca en su pequeña boca y comienza a chupar...
+
+RapeLoop/DailyJob_PlayAnal0
+\narr \c[6]Lona：\C[0] guía el pene en forma de sacacorchos del jabalí hacia su ano...
+
+RapeLoop/DailyJob_PlayRimJob0
+\narr \c[6]Lona：\C[0] introduce la punta de su lengua en el sucio ano del cerdo...
+
+RapeLoop/DailyJob_PlayRimJob1
+\CBct[8]\m[p5sta_damage]\Rshake Huele horrible, voy a vomitar, no puedo soportarlo más...
+
+RapeLoop/DailyJob_PlayRimJob2
+\CBmp[guard1,4]\C[4]Bandido：\C[0]    ¡Eh! ¡No olvides lamer la mierda de sus bolas!
+
+RapeLoop/DailyJob_PlayDance0
+\CBct[8]\m[shy]\PRF\c[6]Lona：\C[0]    Vale, ya está despierto....
+\CBmp[guard4,4]\prf\C[4]Bandido：\C[0]    Ahora baila para papi ♥
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0]    Ugh...

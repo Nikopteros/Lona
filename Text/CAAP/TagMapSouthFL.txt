@@ -1,0 +1,570 @@
+###################################################################################    PUEBLO
+#Campamento de la Puerta Sur
+
+ThisMap/OmEnter
+\m[confused]Campamento de la Puerta Sur \optB[Cancelar,Entrar]
+
+ThisMap/OmEnterOP
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡¿Quién anda ahí?!
+\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ¡¿Eh?!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡¿Es una humana viva?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Abran las puertas y déjenla pasar!
+
+Exit/Qmsg
+Cerrado
+
+healerF/Qmsg0
+¡Santa!
+
+healerF/Qmsg1
+¡Sálvanos!
+
+healerM/Qmsg0
+¡Es nuestro castigo de los Santos!
+
+healerM/Qmsg1
+¡Mírate! ¡Qué asco!
+
+healerM/Qmsg2
+¡Esto es lo que les espera a los que no creen en los dioses!
+
+healerMInn/Qmsg0
+¡Bien! ¡Límpiate de esa mugre!
+
+healerMInn/Qmsg1
+¡No es suficiente!
+
+healerMInn/Qmsg2
+¡Necesitamos un cuerpo femenino para limpiar esta inmundicia!
+
+healerFInn/Qmsg0
+¡Introduce tu asqueroso espíritu en mi cuerpo!
+
+healerFInn/Qmsg1
+¡Santa!
+
+healerFInn/Qmsg2
+¡Que los Santos te bendigan!
+
+pregGirls/Qmsg
+......
+
+crazy/Qmsg0
+¡Jajajaja! ¡Muertos!
+
+crazy/Qmsg1
+Jaja, todos están muertos... ♥
+
+crazy/Qmsg2
+¡¡¡Jajajajá!!!
+
+InnWork/Purge
+Purga la impureza.
+
+Priest/begin
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Sacerdote: \C[0]    ¡Está plagado de oscuridad maligna y parásitos, es un caído!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Sacerdote: \C[0]    La única forma de purgarlo es transferir su corrupción al cuerpo de una mujer.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Sacerdote: \C[0]    ¡Tú! ¡Pecadora!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡¿Yo?!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Sacerdote: \C[0]    ¡Restaura el equilibrio con él!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ¡¿Qué?!
+
+GuardDoomed/beginRNG0
+\CBid[-1,20]\prf\c[4]Guardia: \C[0]    Estoy harto. Estos parásitos me vuelven loco.
+
+GuardDoomed/beginRNG1
+\CBid[-1,20]\prf\c[4]Guardia: \C[0]    Estamos condenados, el mundo será destruido, ¿verdad?
+
+GuardDoomed/beginRNG2
+\CBid[-1,20]\prf\c[4]Guardia: \C[0]    Aparecen en mis sueños cada noche.
+
+MaleDoomed/CommonHuman0
+\CBid[-1,20]\prf\c[4]Refugiado: \C[0]    Oye, este mundo está jodido.
+
+MaleDoomed/CommonHuman1
+\CBid[-1,20]\prf\c[4]Refugiado: \C[0]    Todos moriremos, ¡así que al menos divirtámonos antes!
+
+MaleDoomed/CommonHuman2
+\CBid[-1,20]\prf\c[4]Refugiado: \C[0]    Es el fin, ¡los Santos nos han abandonado!
+
+MaleDoomed/CommonHuman3
+\CBid[-1,20]\prf\c[4]Refugiado: \C[0]    ¡Tengo gusanos dentro! ¡La impureza debe transferirse a un cuerpo femenino!
+
+MainGuard/Begin
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Sabes qué? ¡Todos se han vuelto locos!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    El oeste está controlado por Orcoides, el resto por Demonios de Carne.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Esas bestias se pelean, ¡pero no nos ayuda!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Porque todos están locos! ¡Estamos condenados!
+
+boardR/Begin1
+\board[¡Se Busca!]
+Aida: Buscada
+Bella: Buscada
+Hanna: Muerta
+Maida: Buscada
+Megan: Buscada
+Rudel: Buscada
+Vikki: Muerta
+
+boardR/Begin2
+\board[Putas]
+¡No queremos más trapos viejos!
+¡Queremos mujeres frescas!
+¡La vida de los soldados es invaluable!
+¡La vida de los soldados es invaluable!
+
+boardR/Begin3
+\board[¡Atención!]
+Ciudadanos, obedezcan y esperen evacuación.
+No hay tiempo para leyes o justicia.
+¡El único problema es la muerte!
+
+Nap/GameOver0
+\narr Los guardias solo tienen un método para purgar parásitos...
+\narr La muerte...
+
+Tower/Go1
+\narr Lona subió a la torre...
+\narrOFF\m[tired]\PRF\c[6]Lona: \C[0]    ¿Qué le pasó a mi hogar... ahora?
+\prf\narr\..\..\..
+\narrOFF\bg[bg_Sybaris]\m[sad]\PRF\c[6]Lona: \C[0]    ¿Ese debería ser el centro?
+\m[tired]\PRF\c[6]Lona: \C[0]    Entonces mi casa estaría...
+\m[sad]\prf\c[6]Lona: \C[0]    \..\..\..\PRF destruida...
+\m[tired]\PRF\c[6]Lona: \C[0]    Ay...
+
+###################################################################################    POSADA
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Es la \c[6]Posada Esperanza\C[0], pero hace tiempo que no hay esperanza.
+
+########## Nota: Conservar nombre = Fortaleza Overlook
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ¿Esto es...?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Antes era el \c[6]Bastón de Guardia\C[0].
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Cayó días después del desastre.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Tras dispersarse la niebla, el \c[6]Centurión\C[0] usó los restos para este campamento.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Luego, un hombre de \c[6]Noertown\C[0] fundó esta posada.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Evacuamos refugiados, pero pronto se acabará.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Cada vez quedan menos vivos, y nuestra cordura se desvanece.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Pronto no habrá nadie sano.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guardia: \C[0]    Jaja, míranos, no somos distintos a los refugiados.
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona: \C[0]    Eh... ¿Puedo ayudarles?
+
+InnKeeper/About_work1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¿Quieres trabajar?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Los sacerdotes necesitan doncellas para "curar" refugiados.
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Tú... ¿servirías?
+\CBmp[Nurse,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Habla con la monja de esa sala.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¿Vale?
+
+InnKeeper/About_work_failed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    No hay trabajo para ti.
+
+healerFInn/Work0_did
+\CBct[6]\m[shy]\PRF\c[6]Lona: \C[0]    Vine a absorber impurezas.
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    ¿Verdad? Parece que sigues el camino sagrado.
+
+healerFInn/Work0_new
+\CBct[20]\m[flirty]\PRF\c[6]Lona: \C[0]    El guardia dijo que necesitaban ayuda.
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    ¿Otra infiel guiada por lo material?
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    Los Santos te perdonarán.
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    Cuerpos jóvenes deben usarse para extraer corrupción, pero yo ya no sirvo.
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    ¡Tú! ¡Pecadora!
+\CBct[1]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Yo?!
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    ¡La única cura es usar tu cuerpo para absorber su podredumbre!
+
+healerFInn/Work_BodyCheck0
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    Desnúdate, debo examinar tu coño.
+\CBct[6]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Qué?!
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    ¡Desvístete, pecadora!
+
+healerFInn/Work_BodyCheck1
+\CBct[6]\m[sad]\PRF\c[6]Lona: \C[0]    Vale...
+
+healerFInn/Work_BodyCheck2
+\CBct[6]\m[shy]\PRF\c[6]Lona: \C[0]    Uff...
+
+healerFInn/Work_VagLick0
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    Tu cuerpo está sucio, debes ser una zorra inmunda.
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    Pero los Santos te perdonarán. Primero limpiaremos tu impureza.
+
+healerFInn/Work_VagLick1
+\CBid[-1,20]\prf\c[4]Monja: \C[0]    Bien, ahora estás pura.
+
+healerFInn/Work_accept0
+\CBct[8]\m[shy]\PRF\c[6]Lona: \C[0]    Mmm...
+
+healerFInn/Work_accept1
+\CBmp[Man3,1]\prf\c[4]Refugiado: \C[0]    ¡Es una mujer! ¡Joven!
+\CBmp[Man4,4]\prf\c[4]Refugiado: \C[0]    ¡Rápido! ¡Déjame follarte! ¡Solo tu coño me curará!
+\CBmp[Man3,1]\prf\c[4]Refugiado: \C[0]    ¡La corrupción debe transferirse a ti!
+\CBct[1]\m[fear]\PLF\c[6]Lona: \C[0]    Ooh...
+
+healerFInn/Work1
+\board[Purga de Impurezas]
+Usa tu coño y culo para absorber corrupción.
+La monja confirmará la cantidad y tu pago.
+
+healerFInn/WorkDOing_begin0_0
+\CBid[-1,6]\m[fear]\prf\c[4]Refugiado: \C[0]    ¡Santo! ¡Necesito un cuerpo femenino!
+
+healerFInn/WorkDOing_begin0_1
+\CBid[-1,6]\m[fear]\prf\c[4]Refugiado: \C[0]    ¡Los parásitos entraron en mi polla! ¡Los siento dentro!
+
+healerFInn/WorkDOing_begin0_2
+\CBid[-1,6]\m[fear]\prf\c[4]Refugiado: \C[0]    ¡Sácalos de mí! ¡Los siento en mi vientre!
+
+healerFInn/WorkDOing_begin0Guard_0
+\CBid[-1,6]\m[fear]\prf\c[4]Guardia: \C[0]    ¿Curarme follando a una mujer?
+
+healerFInn/WorkDOing_begin0Guard_1
+\CBid[-1,6]\m[fear]\prf\c[4]Guardia: \C[0]    ¡Los Santos no nos abandonaron!
+
+healerFInn/WorkDOing_begin0Guard_2
+\CBid[-1,6]\m[fear]\prf\c[4]Guardia: \C[0]    ¡Ayúdame a sacar estos gusanos!
+
+healerFInn/WorkDOing_begin1
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    ¡Aquí tienes un cuerpo femenino! ¡Los Santos te curarán!
+
+healerFInn/WorkDOing_begin2
+\CBct[1]\Rshake\c[6]Lona: \C[0]    ¡¿Qué?!
+
+healerFInn/WorkDOing_begin3
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    ¡Haz tu trabajo! Tu joven coño absorberá la podredumbre.
+
+healerFInn/WorkDOing_begin4
+\CBid[-1,20]\m[fear]\prf\c[4]Refugiado: \C[0]    ¡Gracias, Santos!
+
+healerFInn/WorkDOing_begin4Guard
+\CBid[-1,20]\m[fear]\prf\c[4]Guardia: \C[0]    ¡Gloria a los Santos!
+
+healerFInn/WorkDOing_getSemen0
+\CBct[6]\m[sad]\PRF\c[6]Lona: \C[0]    Uff...
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    Ven, déjame ver la corrupción que absorbiste.
+
+healerFInn/WorkDOing_TotalScore0
+\narr El cuerpo de Lona absorbió #{$story_stats["HiddenOPT1"]} unidades de impureza.
+
+healerFInn/WorkDOing_TotalScore1
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    Bien, continúa, hija.
+
+healerFInn/WorkDOing_HerDialog
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    Absorbiste \c[6]#{$story_stats["HiddenOPT1"]}\C[0] unidades.
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    ¿Te rindes? \optB[Cancelar,Terminar]
+
+healerFInn/WorkDOing_HerDialog_end
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    Suficiente por hoy.
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    El cuerpo femenino es pecado, y los hombres mienten por culpa de mujeres.
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    Aunque seas una infiel, los Santos te cuidarán.
+
+healerFInn/WorkDOing_HerDialog_end_noReward
+\CBmp[Nurse,20]\prf\c[4]Monja: \C[0]    Santos, perdonad a esta codiciosa infiel.
+
+####################################################################################### QUESTS
+############################################ QUEST INICIAL
+
+OpQuest/Begin0
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    Oh... Recuerdo este lugar.
+
+OpQuest/Begin1
+\CBct[2]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Qué fortaleza es esta?
+
+OpQuest/Begin2
+\CBct[6]\m[sad]\PRF\c[6]Lona: \C[0]    ¿Quién la dañó así?
+\CBct[6]\m[tired]\PRF\c[6]Lona: \C[0]    No la reconozco...
+
+OpQuest/Begin_INC0
+\prf\c[6]Guardia: \C[0]    \{¡Cuidado! ¡Vienen!\}
+
+OpQuest/Begin_INC1
+\CBct[2]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Qué? ¿Quiénes?
+
+OpQuest/Begin_INC2
+\CBmp[OPquestCount,20]\prf\c[6]Guardia: \C[0]    \{¡Del norte! ¡Monstruos!\}
+
+OpQuest/Begin_INC3
+\CBct[2]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¿Monstruos? ¿Dónde?
+
+OpQuest/Begin_RUN0
+\BonMP[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]Centurión: \C[0]    ¡Adentro, rápido!
+
+OpQuest/Begin_WTF0
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Qué haces aquí?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    Yo... ¡Perdón!
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Demasiado tarde! ¡Prepárate!
+
+OpQuest/Begin_WTF1
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    \{¡MÁTENLOS!\}
+
+OpQuest/Wave2
+\CBmp[OPquestCount,20]\prf\c[6]Guardia: \C[0]    \{¡DEL NORTE! ¡MURCIÉLAGOS!\}
+
+OpQuest/Wave3
+\CBmp[OPquestCount,20]\prf\c[6]Guardia: \C[0]    \{¡DEL SUR! ¡ARÁCNIDOS!\}
+
+OpQuest/Win0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión: \C[0]    Hay monstruos por todas partes, ¿cómo llegaste aquí?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Em...
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión: \C[0]    Olvídalo.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión: \C[0]    Una chica débil como tú podría ser útil.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Toma esto.
+
+OpQuest/Win1
+\CBct[3]\m[pleased]\plf\PRF\c[6]Lona: \C[0]    ¡Gracias!
+
+############################################## spawnPoolQuest
+
+Qprog2/PoolQuest_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión：\C[0] Si has podido venir, podrás marcharte, ¿no?
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión：\C[0] Escucha, necesito un explorador para reconocer el bosque occidental.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión：\C[0] He intentado contactar con el exterior, pero ninguno de los soldados enviados ha regresado.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión：\C[0] Encuentra a nuestros hombres y tráelos de vuelta, si es que aún viven.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión：\C[0] Es un trabajo muy peligroso, pero necesito a toda alma disponible para luchar contra estas bestias.
+
+Qprog2/PoolQuest_1
+\board[Exploración Occidental]
+Tarea：Investigar el Bosque Occidental
+Recompensa：Apertura de la estación
+Cliente：Campamento de la Puerta Sur
+Repetible：Única
+Investiga el Bosque Occidental y descubre si los soldados desaparecidos siguen con vida.
+
+Qprog2/PoolQuest_accept
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0] Eh... ¿Cuántos soldados enviaron?
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión：\C[0] Tres.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Centurión：\C[0] Si fracasas, mátate antes de que esas criaturas te capturen.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Oh... Ehm... Entendido....
+
+Qprog5/PoolQuest_Done
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¿Regresaste viva? ¿Estás sola?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Em... No sé cómo decirlo... Todos están muertos, si se puede llamar así.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¿En serio?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0] Encontré un nido en el bosque. Habían sido convertidos en demonios de carne.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¿Un nido?
+\CBmp[Leader,6]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Maldición, ¿cómo vamos a lidiar con ellos ahora...?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Eh... No se preocupe, su nido ya está destruido.
+\CBmp[Leader,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¡¿Qué?! ¿Cómo demonios lo lograste?
+
+Qprog5/PoolQuest_Done_Lona
+\CBct[20]\m[overkill]\plf\Rshake\c[6]Lona：\C[0] ¡No estoy segura! Me acerqué y hubo un ¡clank! ¿Luego un ¡bang? ¿Y un silbido? ¡Y entonces explotó!
+
+Qprog5/PoolQuest_Done_DedHalp
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0] ¡No fui yo! En fin, fue como ¡boom boom boom, bang bang bang, pum pum pum pum pum pum BOOOOM! ¡Y el nido quedó destruido!
+
+Qprog5/PoolQuest_Done_end
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ......
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] En resumen, ¿su nido ya no existe?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Ajá.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Enviaré otro explorador a esa zona.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Si es cierto, tendremos un problema menos del que preocuparnos.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Podremos establecer contacto con el exterior en uno o dos días, gracias.
+\CBct[3]\m[pleased]\plf\PRF\c[6]Lona：\C[0] ¡No hay de qué!
+
+Qprog6/WaitingAMT
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Descansa un poco, todavía estamos intentando restablecer el contacto con el exterior.
+
+Qprog6/RaidOnEast_replay
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Ah, eres tú.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Hemos logrado contactar con el \c[6]Cuartel General\C[0] y recibir refuerzos.
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] La \c[6]Estación del Campamento de la Puerta Sur\C[0] está operativa nuevamente.
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] A partir de ahora, la estación podrá transportarnos a otras partes de la isla.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0] ¡Oooh!
+
+Qprog7/RaidOnEast0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Los exploradores han encontrado otro nido de criaturas al este. ¡Necesitamos toda nuestra fuerza de combate para enfrentarlos!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\C[0] ¿¡Incluyéndome a mí!?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¡Indudablemente!
+
+Qprog7/RaidOnEast1
+\board[Destrucción del Nido]
+Tarea：Destruir el nido de monstruos al este
+Recompensa：Apertura del mercado en el Campamento de la Puerta Sur
+Cliente：Campamento de la Puerta Sur
+Repetible：Única
+¡Destruye el nido de monstruos al este y manda a esas repugnantes criaturas al infierno!
+
+Qprog7/RaidOnEast_accept0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Ehm, está bien.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0] Qué está pasando...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¡Excelente! ¡Adelante!
+
+Qprog7/RaidOnEast_accept1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Ehm...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0] ¿No tendré tiempo para pensarlo?
+
+Qprog9/RaidOnEast_reward
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Ehm...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¡Ah! Tú otra vez.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Por fin hemos salido de esta situación desesperada, ya no estamos rodeados, y pronto recibiremos ayuda del \c[6]Campamento de la Puerta Sur\C[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] En cuanto a ti...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Mis subordinados me lo han explicado todo, parece que realmente no sirves para el combate.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0] Yo.....
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Vete a casa, y buena suerte.
+
+Qprog10/WaitingAMT_noLisa
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] He oído que en el \c[6]Puesto de Control Este N°7\C[0] tienen un arma nueva interesante, debo encontrar la forma de conseguirla.
+
+Qprog8/WaitingAMT_wait
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¿Qué puedes hacer? Puedes ir a la taberna y preguntar al encargado del Gremio de Mercenarios.
+
+############################################## Get Lisa
+
+Qprog11/LisaLine_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¡Eh! ¡Tú! ¡Eres tú!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] ¿Mmm?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Necesito que alguien vaya a \c[6]Noertaun\C[0] y encuentre a dos personas.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0] ¿Encontrar a alguien?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Debemos encontrar a la comerciante de pólvora \c[6]Lisa\C[0] y a la artillera \c[6]Lona\C[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] He oído que viven en Noer, ¡y tenemos una oportunidad de salir de este atolladero si las encontramos!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Eeeh... ¿\c[4]Lona\C[0]??
+
+Qprog11/LisaLine_1
+\board[Búsqueda de Lisa y Lona]
+Tarea：Encontrar a Lisa y Lona
+Ubicación：Noertaun
+Recompensa：Ninguna
+Cliente：Campamento de la Puerta Sur
+Repetible：Única
+Encuentra a la comerciante de pólvora \c[6]Lisa\C[0] y a su asistente \c[6]Lona\C[0].
+
+Qprog11/LisaLine_accept0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0] Ugh... Esto... Yo soy Lona.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¿Tú? ¿Quién eres?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Soy Lona.
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Eh........
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0] Mmmmm...
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Ehhh...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Entonces... ¿Qué necesitan de mí?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¡Ejem! He oído que en el \c[6]Puesto de Control Este N°7\C[0] tienen artillería pesada.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Usaron un poderoso ataque de artillería diseñado por \c[6]Lisa\C[0] para vencer oleadas de monstruos.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¿Así que la artillera eres tú?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0] E-em... Sí, soy yo.
+
+Qprog11/LisaLine_accept1
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Ya he informado por carta al oficial de artillería del \c[6]Puesto de Control Este N°7\C[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Ve a Noertaun, encuentra a \c[6]Lisa\C[0], y vayan al \c[6]Puesto de Control Este N°7\C[0] para traer esa magnífica artillería aquí.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] Tú también eres de Sibaris, ¿no? ¿No quieres recuperar tu hogar?
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0] ......
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\C[0] Lo entiendo, ¡la traeré aquí!
+
+Qprog11/LisaLine_accept2
+\board[Encontrar a Lisa]
+Tarea：Localizar a Lisa
+Ubicación：Noertaun
+Recompensa：Ninguna
+Cliente：Campamento de la Puerta Sur
+Repetible：Única
+Encuentra a la comerciante de pólvora \c[6]Lisa\C[0] y dirígete con ella al \c[6]Puesto de Control Este N°7\C[0].
+
+Qprog11/LisaLine_No
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Ohh...... \m[hurt]\Rshake ¡Me duele el vientre!
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ...
+
+############################################ QUEST TABERNA
+
+QuestBoard/other_about
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Al principio solo teníamos refugiados. Los que perdieron a sus familias vinieron aquí para convertirse en mercenarios.
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Pero muchos no regresaron. Ahora solo nos quedan soldados del \c[6]Cuartel General\C[0] y la \c[6]Hacienda Rosendo\C[0].
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Eh... ¡Sí! También hay un grupo de fanáticos de los \c[6]Santos\C[0].
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Tú también piensas que el mundo se ha vuelto loco, ¿eh?
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Ahora es casi imposible mantener contacto con el exterior. ¿Quizás puedas ayudar?
+
+QuestBoard/other_about_Prog10
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] ¡Ja! Me largo, volví a contactar al gremio.
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Creo que pronto enviarán a alguien para reemplazarme.
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] ¡A LA MIERDA! ¡Me voy!
+
+QuestBoard/GiveUp
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] ¿Mm? ¿Te rindes?
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Tabernero：\C[0] Emm... \optB[No importa,¿Quiénes son ustedes?,Cancelar misión<r=HiddenOPT0>]
+
+MercenaryGuild/QuProgSybBarn5
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] E-eh... Sobre ese granero...
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] ¿Qué? ¡Qué! Era tu misión, ¿no?
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\C[0] Había muchos supervivientes, pero no sé por qué me atacaron.
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Por un trabajo tan peligroso hay buena recompensa, es un trabajo duro.
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Si regresaste viva, demuestras ser más fuerte que muchos.
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\C[0] Por cierto, ¿no debería haber otros mercenarios?
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Sí, leíste bien, era una misión grupal.
+\CBid[-1,20]\prf\c[4]Tabernero：\C[0] Tras contactar al gremio llegaron muchos mercenarios como tú, pero creo que la mayoría no regresará.
+
+############################################## TABLÓN DE MISIONES
+
+QuestBoard/SybBarn
+Supervivientes del Granero
+
+QuestBoard/SybBarn_BOARD
+\board[Supervivientes del Granero]
+Tarea：Investigar el granero junto a la puerta suroeste
+Recompensa：Gran Penique x3\i[582]
+Cliente：Campamento de la Puerta Sur
+Repetible：Única
+Los exploradores reportaron que en el granero cerca de la puerta suroeste podría haber muchos supervivientes.
+Pero no están seguros de si siguen siendo humanos. Nuestros recursos son limitados y no podemos enviar más gente
+para investigar o establecer contacto. Todo lo que podemos hacer es confiar en los mercenarios.
+
+noquestPOP/0
+Actualmente no hay misiones disponibles
+
+QuestBoard/SpiderLeg
+Patas de Arácnido Mutante
+
+QuestBoard/SpiderLeg_BOARD
+\board[Que sepan quién manda aquí]
+Tarea：Recolectar 10 patas de Arácnido mutante\i[188]
+Recompensa：Gran Penique x2\i[582]
+Cliente：Campamento de la Puerta Sur
+Duración：Largo plazo
+Nuestro chef las probó - ¡las patas son sorprendentemente crujientes!
+¡Sabén mejor fritas!
+
+MercenaryGuild/SpiderLeg_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\C[0] Puaj... Las patas de arácnido que querías... tómalas.
+
+QuestBoard/BreedLingMeat
+Cacería de Engendros
+
+QuestBoard/BreedLingMeat_BOARD
+\board[Recolección de Muslos de Engendros]
+Tarea：Recolectar 10 muslos de Engendros\i[190]
+Recompensa：Gran Penique x2\i[582]
+Cliente：Campamento de la Puerta Sur
+Duración：Largo plazo
+Si los monstruos nos comen a nosotros, ¿qué tiene de malo que nosotros nos los comamos a ellos?
+
+MercenaryGuild/BreedLingMeat_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\C[0] Puaj... La carne de muslo que pediste... aquí está.
+
+QuestBoard/MonsterBone
+Huesos de Monstruo Mutante
+
+QuestBoard/MonsterBone_BOARD
+\board[Huesos de Monstruo]
+Tarea：Recolectar 8 huesos de monstruo\i[189]
+Recompensa：Gran Penique x4\i[582] Penique x5\i[583]
+Cliente：Campamento de la Puerta Sur
+Duración：Largo plazo
+Nuestro caldero de sopa necesita más huesos.
+
+MercenaryGuild/MonsterBone_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\C[0] Puaj... Los huesos que querías...
+
+############################################## POR IMPLEMENTAR
+
+QuestBoard/GotoDT
+Ir a ubicación TODO
+
+QuestBoard/DestroyHive
+Núcleo del Nido
+
+QuestBoard/DestroyHive_BOARD
+\board[Destruir el Nido]
+Tarea：Eliminar el nido del norte
+Recompensa：Gran Penique x6
+Cliente：Campamento de la Puerta Sur
+Duración：Única

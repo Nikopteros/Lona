@@ -1,0 +1,34 @@
+ThisMap/Enter
+\m[confused]Gump's Tanning and Leather shop
+
+################################################################he called blacksmith as brother. but they are not with same bloodline.
+
+BSStrader/welcome
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Gump：\c[0]    Human... Welcome... Me Gump... Need leather...?
+
+Lona/MarketOpt
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uhhh...\optB[Never mind,Barter,About]
+
+BSStrader/About
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\c[0]    We grow up... Will become... Fish...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\c[0]    When old... We go back sea... To worship... Sea Witch...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\c[0]    But no future... Only dead end...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[normal]\Lshake\prf\c[4]Gump：\c[0]    Brother... Had dream... He leave home...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\c[0]    Me hope... Me son... Also explore... New land...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[confused]\Lshake\prf\c[4]Gump：\c[0]    Fishkind brethrens... Must see... World...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\c[0]    Me getting... Older... Offsprings... Are Fishkind's... Future......
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    ...H-Huh?
+
+BSStrader/end
+\CBmp[BSStrader,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\c[0]    My offspring... Will always... Growing...
+
+kid/Rand0
+\CBmp[KidReader,20]\c[4]Child：\c[0]    Uncle Bubba say... He open shop... Human island...! Me go visit... Him someday...!
+
+kid/Rand1
+\CBmp[KidReader,20]\c[4]Child：\c[0]    My uncle... Gift me many... Human books...!
+
+kid/Rand2
+\CBmp[KidReader,20]\c[4]Child：\c[0]    Me hear... Human island... Has big... market!
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

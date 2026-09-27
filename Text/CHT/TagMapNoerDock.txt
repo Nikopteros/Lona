@@ -1,0 +1,323 @@
+NoerDock/OvermapEnter
+\m[confused]諾爾鎮港口\optB[算了,進入]
+
+#---------------------------------------Noer Dock cOMMON ppl ----------------------------------
+
+SailerGuard/GoAway0
+別鬧事！
+
+SailerGuard/GoAway1
+滾開！
+
+SailerGuard/GoAway2
+退後！
+
+##---------------------------------------
+
+NightFapper/Fapper0
+我是世界之王！
+
+NightFapper/Fapper1
+孩子們！去征服世界吧！
+
+NightFapper/Fapper2
+嗚呦呦！
+
+NightFapper/Fapper3
+去了啊！
+
+##---------------------------------------
+
+RiotPPL1/Yelling0
+讓我上去！我是貴族！
+
+RiotPPL1/Yelling1
+我有票！
+
+RiotPPL1/Yelling2
+這不是廢紙！我花了錢的！
+
+RiotPPL2/Yelling0
+這是我所有的錢了。
+
+RiotPPL2/Yelling1
+求求你了讓我上去。
+
+RiotPPL2/Yelling2
+嗚嗚
+
+RiotPPL3/Yelling0
+讓我上船！
+
+RiotPPL3/Yelling1
+錢！我有錢！
+
+RiotPPL3/Yelling2
+怎麼又漲價了！
+
+##---------------------------------------
+
+BoardReader1/Read0
+魔物爆走，接下來是什？
+
+BoardReader1/Read1
+奴隸買賣，接下來是什？
+
+BoardReader1/Read2
+野盜猖獗，接下來是什？
+
+BoardReader2/Read0
+世界要完了。
+
+BoardReader2/Read1
+朋友，家人，都死絕了。
+
+BoardReader2/Read2
+我還能怎麼辦。
+
+##---------------------------------------
+
+SlaveChild/Talk0
+媽媽..
+
+SlaveChild/Talk1
+我想回家。
+
+SlaveChild/Talk2
+為什麼不要我了..
+
+SlaveAdult1/Talk0
+被騙了，我一定被騙了！
+
+SlaveAdult1/Talk1
+不要，我不想當奴隸！
+
+SlaveAdult1/Talk2
+我不該在這！我是貴族阿！
+
+SlaveAdult2/Talk0
+我們會被送到哪？
+
+SlaveAdult2/Talk1
+我們會被要求做什麼？
+
+SlaveAdult2/Talk2
+我好怕...
+
+##---------------------------------------
+
+Board/FishKindPplTrade
+\board[收購難民]
+沒有飯吃？對體力有自信？把妳自己賣了吧，我們保你一條命。
+處女：大銅幣6
+小孩：大銅幣3
+成年：大銅幣1
+總價隨身體狀況與商品外觀波動，不收男人與不孕的女人。
+詳細請洽漁市。
+
+##---------------------------------------
+
+Board/IttWorker
+\board[徵工]
+礦場工作，是人不是人都能來，
+工資一個月大銅幣一枚，
+每個月抽出三名幸運兒隨運礦船一起離開。
+
+##---------------------------------------
+
+Board/PirateAround
+\board[海盜船飛行紅藍人號]
+為本港重要治安威脅，
+據信仍潛伏在附近，如有發現，
+獎賞金幣三枚，協助查緝者，獎賞金幣一枚。
+
+##--------------------------------------- fISHkIND ----------------------------------
+
+FrogmanTrader/begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\Lshack\c[4]漁民：\c[0]    魚！ 純魚！
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    啊啊！\optB[離他遠點,交易]
+
+FrogmanTrader/begin_trade
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]漁民：\c[0]    女人，買魚！
+
+FrogmanTrader/begin_WhoreWorkWin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]漁民：\c[0]    播種！播種！
+
+FrogmanTrader/begin_WhoreWorkFail
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]漁民：\c[0]    滾開！
+
+RandBusinessMan/talk1
+\m[confused]\c[4]路人：\c[0]    這些人看起來真是噁心，但諷刺的是現在一大部分食物來源就是他們。\optD[這些人？]
+
+RandBusinessMan/talk2
+\c[4]路人：\c[0]    之前沒見過？嗎這也難怪，牠們與混族一樣本是島上的原住民，直到我們把他趕出去。
+看看他們這副德性就知道了，港口都是他們魚腥味，沒有人會想接近他們。
+
+RandBusinessMan/Qtalk0
+他們買進了大量的女人。
+
+RandBusinessMan/Qtalk1
+看不懂他們到底要做什。
+
+FrogmanPrayer/Pray0
+海巫阿！聽我的呼喚吧！
+
+FrogmanPrayer/Pray1
+感謝海巫！讚嘆海巫！
+
+FrogmanPrayer/Pray2
+我被海巫的恩惠充滿阿阿阿!
+
+##-------------------------------------- SlaveDealer
+
+SlaveDealer/TalkNonSlave
+\SndLib[FishkindLgSpot]\CBid[-1,8]\c[4]奴隸販子：\c[0]    人類阿... 我們可以提共妳安全...成為我們的奴隸吧。\optB[沒興趣,好吧]
+
+SlaveDealer/TalkNonSlave_yes
+\SndLib[FishkindLgSpot]\CBid[-1,20]\c[4]奴隸販子：\c[0]    太好了！ 我一看就知道妳很能生！
+\SndLib[FishkindLgSpot]\CBid[-1,20]\c[4]奴隸販子：\c[0]    來人啊！
+
+SlaveDealer/TalkIsSlave
+\SndLib[FishkindLgSpot]\CBid[-1,19]\c[4]奴隸販子：\c[0]    可憐的奴隸... 去與渡口的僱員說.. 妳要去魚托比島...
+\SndLib[FishkindLgSpot]\CBid[-1,19]\c[4]奴隸販子：\c[0]    之後我們會提供妳安全與住的地方... 事情不會變個更糟的...
+
+SlaveDealer/Talk_failed
+\SndLib[FishkindLgSpot]\CBid[-1,5]\c[4]奴隸販子：\c[0]    你是...男人？ 我們不收男人！
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    呃....
+
+#################################YAMATO CAPTAIN ############################
+
+Captain/Welcome_unknow
+\CBid[-1,2]\SETpl[Mfat_DockCaptain]\m[confused]\prf\c[4]???：\c[0]    小鬼，我是艾德華，妳想離開這裡？
+
+Captain/Welcome_unknow_detail
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我... 我的確想離開這裡。
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\PLF\prf\c[4]艾德華：\c[0]    這航班早已經滿載了，但妳還是有兩種選擇。
+\CBid[-1,20]\PLF\prf\c[4]艾德華：\c[0]    一則是成為奴隸。 不用擔心，如果妳在西大陸有什麼親人的話它們還是可以把你買回去的。
+\CBct[2]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    .....奴隸嗎。
+\CBid[-1,20]\PLF\prf\c[4]艾德華：\c[0]    呵呵，妳的表情就說明了一切。
+\CBid[-1,20]\PLF\prf\c[4]艾德華：\c[0]    二則是給我20枚以上的金幣，我是可以考慮空出個位子給妳。
+\CBct[20]\m[shocked]\plf\PRF\Rshake\c[6]洛娜：\c[0]    \{金幣20枚？！
+\CBct[20]\m[wtf]\plf\PRF\c[6]洛娜：\c[0]    那都可以在席芭莉絲買棟房子了。
+\CBid[-1,20]\PLF\prf\c[4]艾德華：\c[0]    不要拉倒，過越久要價越高。
+\CBid[-1,20]\PLF\prf\c[4]艾德華：\c[0]    滾吧，我還忙著呢。
+\CBct[8]\m[sad]\plf\PRF 20枚金幣.... 
+\CBct[8]\m[serious]試試看吧，也許還是有機會的。
+
+Captain/Welcome_talked
+\CBid[-1,2]\m[confused]\SETpl[Mfat_DockCaptain]\c[4]艾德華：\c[0]    小鬼，又見面了，妳的選擇是？
+
+Captain/OPT_HowMuch
+現在多少錢
+
+Captain/OPT_GiveMoney
+給予金幣
+
+Captain/OPT_BeSlave
+成為奴隸
+
+Captain/Price_today
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    今天的價錢是
+
+Captain/Price_today_link
+枚金幣，妳看著辦吧，過越久要價越高。
+
+Captain/Leave_Slave
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    到後街去或是找那些奇怪的漁民，人是它們要的。
+
+Captain/Leave_NotEnoughMoney
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]\{    妳在開玩笑？
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]\{    敢鬧事？ 來人！ 宰了她！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    \{啊？！ 等一下！
+
+Captain/Leave_WithEnoughMoney
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\m[trumph]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\cgoff\CBid[-1,1]\m[shy]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    沒想到阿，我看看。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呵呵。
+\CBid[-1,4]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    好！ 還真的拿到了這麼多，旅程上也應該用的著妳，過去吧。\CamCT
+
+##################################################################################
+
+Captain/WithArrears0
+\CamMP[Captain]\BonMP[Captain,5]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    \{來人！ 把她抓起來！
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    \{咦啊？！ 等一下！
+
+Captain/WithArrears1
+\CamCT\m[p5sta_damage]\plf\Rshake\c[6]洛娜：\c[0]    嗚啊！
+\m[p5sta_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{放...放開我！
+\m[p5health_damage]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚....
+\m[p5health_damage]\plf\Rshake\c[6]洛娜：\c[0]    哥噁......
+\m[p5puke]\plf\Rshake\c[6]洛娜：\c[0]    嗚啊屋.....
+\m[p5ahegao]\plf\Rshake\c[6]洛娜：\c[0]    噁噁噁嗚啊.....
+\m[p5ahegao]\plf\Rshake\c[6]洛娜：\c[0]    \{噁嗚啊噁...
+\narr洛娜失去了意識。
+
+Captain/WithArrears2
+\CamMP[Captain]\BonMP[Captain,2]\SETpl[Mfat_DockCaptain]\SETpr[NoerGangBoss]\Lshake\prf\c[4]艾德華：\c[0]    就是她？
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]不良分子：\c[0]    沒錯，正是這個婊子。
+\CamMP[Captain]\BonMP[Captain,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    這些人真是，用屁眼想都知道事情不會這麼順利。
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]不良分子：\c[0]    按照之前說的，我們負責收帳，多餘的歸你。
+\CamMP[Captain]\BonMP[Captain,3]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    感謝！合作愉快。
+
+################################################################################## Dock HEV
+
+FishKindDoor/Hev0
+\c[4]奴隸A：\c[0]    呀!! 不要推我!
+
+FishKindDoor/Hev1
+\c[4]奴隸B：\c[0]    據說魚托比島沒有魔物.... 但...
+
+FishKindDoor/Hev1_1
+\c[4]奴隸A：\c[0]    我們會被怎麼處置呢....
+
+FishKindDoor/Hev2
+\c[4]奴隸C：\c[0]    唉....
+
+FishKindDoor/Hev3
+\c[4]漁人：\c[0]    安靜... 去... 往前.... 烙印....
+
+FishKindDoor/Hev4
+\c[4]漁人：\c[0]    烙印... 吃魚... 不會餓肚子....
+\c[4]漁人：\c[0]    我們.... 回家.... 美好的地方....
+
+FishKindDoor/Hev5
+\narr這些人雖然不安，但卻沒有反抗，
+\narr聽起來有些人甚至是自願的。
+
+FishKindDoor/Lona0
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    魚托比島真的是安全的？
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    但是要自願成為奴隸？
+
+################################################################################## SLAVE on Board
+
+Captain/Leave_Slave
+\CBct[6]\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    請問...如果我成為奴隸的話，能讓我上船嗎？
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    嗯\...\...\...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    船員們的確缺能服務他們的女人，我們的確用得上妳。
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    那麼，你確定要成為我們奴隸嗎？
+
+Captain/Leave_Slave_yes0
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    好..好吧...我願意...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    太棒了，來人阿！
+
+Captain/Leave_Slave_yes1
+\m[p5shame]\Rshake\c[6]洛娜：\c[0]    你們... 要做什麼！？
+\SETpl[AnonMale1]\Lshake\CamCT\C[4]船員：\C[0]    別亂動！ 烙印印歪了妳的價值會降低的！
+\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    不要，放開我！
+\cg[event_SlaveBrand]\SETpl[AnonMale1]\Lshake\CamCT\C[4]船員：\C[0]    就說了別亂動阿！ 乖！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！
+\narr\ph洛納失去了意識\...\...\...
+
+Captain/Leave_Slave_no
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...還是算了吧。
+
+Captain/Leave_SlaveTR1
+\SETpr[AnonMale1]\Rshake\C[4]船員：\C[0]    船長，這是...？
+\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]艾德華：\c[0]    一個逃跑的奴隸，把她搬到船上去。
+\SETpr[AnonMale1]\Rshake\plf\C[4]船員：\C[0]    是的船長！
+
+#move Old
+#Captain/Leave_Slave
+#\CBid[-1,20]\PLF\prf\c[4]艾德華：\c[0]    到後街去或是找那些奇怪的漁民，人是它們要的。

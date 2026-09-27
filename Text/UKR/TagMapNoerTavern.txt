@@ -1,0 +1,279 @@
+NoerTavern/OvermapEnter
+\m[confused]Палке Барильце — цілий рік без вихідних, і вдень, і вночі.\optB[Скасувати,Увійти]
+
+##########-----------------------------------------------------
+
+Taxidermist/DeepOne
+\cg[other_DeeponeTaxidermist]Глибинний монстр
+Упольовано： 1754.3.14
+
+Taxidermist/Hog
+\cg[other_HogTaxidermist]Дикий кабан
+Упольовано： 1757.6.11
+
+###################################################################  COMMON PPL
+
+CommonPPL/begin0
+\c[4]Пияка：\c[0] Випивки! *Ґик* Дайте ще випивки!
+
+CommonPPL/begin1
+\c[4]Пияка：\c[0] Жінка! Ха-ха! *Ґик* Жінка!
+
+CommonPPL/begin2
+\c[4]Пияка：\c[0] Цицьки! *Ґик* Хочу цицьок!
+
+CommonPPL/begin3
+\c[4]Пияка：\c[0] *Ґик* Малесенька! Хрясь!
+
+CommonPPL/begin4
+\c[4]Пияка：\c[0] Фу-у! *Ґик*
+
+###################################################################  COMMON NAP RAPE
+
+CommonPPL/NapRape
+\c[4]Пияка：\c[0] Хе-хе. Що це за крихітка лежить тут?
+
+CommonPPL/NapRape1
+\c[4]Пияка：\c[0] Хе-хе-хе...
+
+CommonPPL/NapRape2
+\narrЛону забрали.
+
+CommonPPL/NapRape3
+\c[4]Пияка：\c[0] Та нічого такого, просто почисти мого прутика, з цим ти ж легко впораєшся, правда?
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]Пияка：\c[0] Ти що, пиздюлів захотіла, чи що?
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]Пияка：\c[0] Так, ось так би й одразу, слухняне дівчатко♥
+
+##########-----------------------------------------------------NoerTavern  Hazubendo 
+
+Hazubendo/FearWaifu0
+Відчепися! Не говори до мене.
+
+Hazubendo/FearWaifu1
+Цс-с! Мені заборонено говорити з жінками.
+
+Hazubendo/FearWaifu2
+Вона мене вб’є!
+
+Hazubendo/FearWaifu3
+А колись була такою милою...
+
+Hazubendo/begin
+\CBid[-1,20]\c[4]Чоловік Господині：\c[0] Я вільний! Свобода — дорогоцінна! Ми повинні боротися за неї! \optB[Скасувати,Обмін]
+
+
+##########-----------------------------------------------------    WAIFU
+
+Waifu/begin1_RecQuestCocona_win
+\CBid[-1,5]\SETpl[BigMama_happy]\Lshake\c[4]Господиня：\c[0] Не віриться, що я прогрла тобі...
+
+Waifu/begin1_RecQuestCocona_loser
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Господиня：\c[0] Не підведи, хробачко.
+
+Waifu/begin1_RecQuestCocona_28_0
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Господиня：\c[0] Гей! Чому ти досі тут?
+
+Waifu/begin1_RecQuestCocona_28_1
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Господиня：\c[0] Ще не пішла?
+
+Waifu/begin1_slave
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]Господиня：\c[0] \{Якого біса тут раб? З’їбися!
+
+Waifu/begin1_maggot
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]Господиня：\c[0] \{Паскудо! Не влаштовуй тут мені проблем!
+
+Waifu/begin1_sexy
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] \{Смердюча паскудо! Що ти тут робиш?
+
+Waifu/begin1_weaker
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] \{На що дивишся, паразитко?
+
+Waifu/begin1_moot
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Господиня：\c[0] \{На що дивишся?
+
+Waifu/begin1_lona
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] \{Чого хочеш?
+
+##########-------------
+
+Waifu/Opt
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\c[0] М-м-м?..
+
+Waifu/work_begin_RecQuestCocona_28
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Господиня：\c[0] Ти ще не заробила достатньо?!
+
+Waifu/work_begin
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Господиня：\c[0] \{Найняти тебе? А що ти, взагалі, вмієш?
+
+Waifu/Opt_work
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\c[0]Гм-м?\optB[Скасувати,Офіціантка,Танцівниця]
+
+Waifu/Opt_work_end_summon
+\CBmp[TavernWaifu,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Господиня：\c[0] \{Працюй швидше, суко! Ось твої гроші. Геть!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\c[0] Ой... Вибачте...
+
+Waifu/Opt_work_end_NoSummon1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Господиня：\c[0] Гм-м! Не дуже! \{Але згодиться!
+\CBct[3]\m[flirty]\plf\PRF\c[6]Лона：\c[0] Га? Дякую?..
+
+Waifu/Opt_work_end_NoSummon2
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Господиня：\c[0] \{Молодець! Ще згодишся!
+\CBct[3]\m[flirty]\plf\PRF\c[6]Лона：\c[0] ...Дякую?
+
+
+##########-------------##########-------------##########------------- DANCER
+
+Waifu/Opt_work_dancer_board
+\board[Танцівниця]
+Працівниці повинні бути певні у своїх силах і зовнішності.
+Танцюйте й збирайте монети, поки не вийшов час. Більше монет — кращий заробіток.
+Виконуйте прохання клієнтів і робіть те, чого вони побажають.
+Що вища ваша сексуальність, то більше прохань можна виконувати — і більше монет вам накидають.
+Біг під час роботи витрачає запас сил.
+
+Waifu/Opt_work_dance
+\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] Молоденька? Сил повно, так? Самовпевнена, еге ж?
+\m[sad]\c[6]Лона：\c[0] Ні... Ні... Вибачте...
+\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] Чудово! Але я не гарантую, що ті покидьки тебе не роздеруть!
+
+Waifu/Opt_work_dance_end
+\narrРобота танцівниці скінчилася.
+
+Waifu/dance_low_sta_rape
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Погляньте, ця мала навіть не може встояти!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Оце виклалася, ага?
+\SETpl[raper1]\Lshake\c[4]Пияка：\c[0] Нумо відновімо їй сили своїми хуями!
+
+Waifu/dance_rape1
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Ні, я... я вже не витримую! Я її виїбу!
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Ні, я перший!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Гайда всі разом!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Заждіть! Господиня ще тут, вона нас повбиває!
+
+Waifu/dance_rape1_1
+\SETpr[BigMama_normal]\c[4]Господиня：\c[0] Я тебе попереджала, це теж частина роботи!
+\SETpr[BigMama_normal]\c[4]Господиня：\c[0] Розбирайся з цим сама!
+\prh\narrГосподиня пішла...
+
+Waifu/dance_rape1_2
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Дякуємо, Господине! Слава Господині!
+
+Waifu/dance_rape2
+\m[terror]\c[6]Лона：\c[0] Ні... ви...
+
+Lona/dance_DDR_DressOut
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Роздягнися!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Швидко, знімай одяг!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] \{Роздягайся!
+
+Lona/dance_DDR_Masturbation
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Мастурбуй!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Швидко! Покажи, як ти мастурбуєш!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Шли-кай! Шли-кай! Шли-кай!
+
+Lona/dance_DDR_Pee
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Попісяй!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Так! Подзюрь, поки ми дивимося!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Сця-ти! Сця-ти! Сця-ти!
+
+Lona/dance_DDR_Poo
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Насри всім на показ!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Так! Хто, блять, сказав, що дівки не серуть?!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Насри на сцені! Швидко, курво!
+
+Lona/dance_DDR_Milk
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Ти ж народила, так? Значить, із цицьки видавити можеш!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Так! Матусю, нагодуй мене!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Хутчіш! Кожному по склянці з цицьки!
+
+Lona/dance_DDR_GroinClearn
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Ти шльондра, так?! Діставай свою пизду й покажи її нам!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Так! Покажи пизду і з’їж її.
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Точно! Блядь повинна поводитися як їй належить!
+
+Lona/dance_DDR_Cum
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Хочу кінчити на неї!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Я теж! Гей, блядино, гайда сюди!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Усю лови собою! Не пропускай жодної краплі!
+
+Lona/dance_DDR_Bukaake
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Я хочу кінчити їй на обличчя!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] І я також! Гей, блядь, гайда сюди!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Приймай обличчям! Не марнуй жодної краплі нашої сперми!
+
+Lona/dance_DDR_PeeonHead
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Хочу сцяти!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Я теж! Нумо насцимо їй у рота!
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Сюди! Відкривай рота! Щоб не пролилося!
+
+Lona/dance_DDR_Peeon
+\SETpl[raper3]\Lshake\c[4]Пияка：\c[0] Я хочу сцяти!
+\SETpl[raper2]\Lshake\c[4]Пияка：\c[0] Я теж! Нумо її обісцимо?
+\SETpl[raper_group]\Lshake\c[4]Пияки：\c[0] Саме так! Ану розведи ноги! Приймай!
+
+Lona/dance_DDR_opt
+\m[shy]\c[6]Лона：\c[0] Е-е-е...\optD[Виконати<t=3>,Відмовитися]
+
+##########-------------##########-------------##########------------- WAITER
+
+Waifu/Opt_work_waiter_board
+\SND[SE/Book1]\board[Офіціантка]
+Вкладіться в часове обмеження, доставивши алкоголь 10 клієнтам.
+Біг під час роботи витрачатиме більше сил.
+Більший залишок часу — кращий заробіток.
+
+Waifu/Opt_work_waiter2_decide
+\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] \{Швидко! Рознеси цю випивку! Якщо не встигнеш, тобі буде непереливки!
+\m[fear]\Rshake\c[6]Лона：\c[0] \{Так... Добре!
+
+###################################################
+
+Waifu/WorkFailed0
+\CamMP[TavernWaifu]\m[shocked]\SETpl[BigMama_angry]\Lshake\prf\c[4]Господиня：\c[0] \{Якого хуя, ти, мала сучко, робиш?!
+\m[sad]\PLF\c[6]Лона：\c[0] Ой... Вибачте...
+
+Waifu/WorkFailed1
+\SETpl[BigMama_angry]\Lshake\c[4]Господиня：\c[0] \{Йобаний непотріб!
+
+Waifu/WorkFailed2
+\SETpl[BigMama_angry]\Lshake\c[4]Господиня：\c[0] \{Навіть це зробити не здатна!
+
+Waifu/WorkFailed3
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] \{Йди нахуй!
+
+Waifu/WorkFailed_slave
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]Господиня：\c[0] \{Відпрацьовуй клієнтам натурою!
+\m[shocked]\Rshake\c[6]Лона：\c[0] \{Що?!
+
+###################################################
+
+Waifu/NapSlave
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]Господиня：\c[0] \{Йобана рабиня! Пиздуй звідси!
+\m[sad]\PLF\c[6]Лона：\c[0] Вибачте...
+
+Waifu/NapNokey
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]Господиня：\c[0] \{З’їбися, непотріб!
+\m[sad]\PLF\c[6]Лона：\c[0] Вибачте...
+
+##########-------------------	Follower	----------------
+
+CommonCompanion/TavernCommand
+\m[confused]\optB[Скасувати,Розпустити]
+
+##########-------------------	Common	----------------
+
+Nap/NotMyBed
+Це не моє ліжко.
+
+2fKid/Qmsg0
+Тато каже, що мені потрібно більше пити.
+
+2fKid/Qmsg1
+Щоб стати дорослим, треба пити.
+
+2fKid/Qmsg2
+Тепер я дорослий?

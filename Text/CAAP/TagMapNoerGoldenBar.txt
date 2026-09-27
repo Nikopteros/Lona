@@ -1,0 +1,148 @@
+GoldenBar/OvermapEnter
+\m[confused]Lingote de Oro\nClub para ricos \optB[Cancelar,Entrar]
+
+################################################################
+
+art/Rage
+\ph\cg[other_ArtRage] Enfadado. ¡No estoy enfadado!
+\m[confused]\c[6]Lona：\C[0]    ¿Qué?
+
+art/Chaos
+\ph\cg[other_ArtChaos] Tonterías. ¿Qué diablos acabo de leer?
+\m[confused]\c[6]Lona：\C[0]    ¿Eh?
+
+art/Hopeless
+\ph\cg[other_ArtHopeless] Desesperaos - y el mundo mejorará.
+\m[confused]\c[6]Lona：\C[0]    ¿Qué clase de arte es este, maldición?
+
+################################## Vandor ############################
+
+vandor/Beigin
+\m[confused]\c[4]Camarero：\C[0]    Bienvenida al Club Lingote de Oro. ¿En qué puedo ayudarte? \optB[No gracias,Intercambiar,Vender leche materna<r=HiddenOPT0>,Trabajar<r=HiddenOPT1>]
+
+vandor/Beigin_slave
+\m[confused]\c[4]Camarero：\C[0]    ¡Oye, esclava! ¡Hora de trabajar! \optB[Olvidarlo,Amamantar<r=HiddenOPT0>,Extraer leche a la fuerza<r=HiddenOPT1>]
+
+vandor/SellMilk
+\c[4]Camarero：\C[0]    ¡Sí! Compraremos tu leche materna a buen precio.
+\m[shy]\c[6]Lona：\C[0]    ¿En serio...? ¿Eso es bueno?
+
+vandor/SellMilk2
+\c[4]Camarero：\C[0]    Veamos\..\..\..
+
+vandor/SellMilk_cut0
+\c[4]Camarero：\C[0]    Total
+
+vandor/SellMilk_cut1
+ porciones de leche, cada una con un valor de
+
+vandor/optWork
+\m[flirty]\c[6]Lona：\C[0]    ¿Puedo hacer algo?
+\c[4]Camarero：\C[0]    Veamos.... \optB[Nada,Amamantar<r=HiddenOPT0>,Extraer leche<r=HiddenOPT1>]
+
+vandor/optWork_braFeed
+\board[Lactancia]
+Amamanta a la mayor cantidad de invitados en el tiempo asignado.
+Correr consume más energía.
+Cuanto más tiempo quede, mayor será el pago.
+
+vandor/optWork_braFeed_decide
+\c[4]Camarero：\C[0]    ¡Ve a alimentar a tus hijos!
+
+vandor/Beigin_Dirt
+\m[confused]\c[4]Camarero：\C[0]    ¡No se permiten mendigos sucios aquí!
+
+################################## Work #####################################
+
+vandor/Opt_work_end_summon
+\c[4]Camarero：\C[0]    ¡Eres demasiado lenta! ¡Los clientes se enfadan!
+\m[sad]\c[6]Lona：\C[0]    ...... Lo siento...
+
+vandor/Opt_work_end_NoSummon
+\c[4]Camarero：\C[0]    Buen trabajo. Contaré contigo la próxima vez.
+\m[flirty]\c[6]Lona：\C[0]    ......¿Gracias?
+
+Commoner/BreastFeedQmsg0
+¡Sabe como mamá!
+
+Commoner/BreastFeedQmsg1
+¡Ñam!
+
+Commoner/BreastFeedQmsg2
+¡Mmm, qué rico!
+
+Guard/Failed0
+\c[4]Guardia：\C[0]    ¿Qué diablos estás haciendo?
+
+Guard/Failed1
+\c[4]Guardia：\C[0]    ¡No te dejamos entrar para que holgazanees!
+
+Guard/Failed2
+\c[4]Guardia：\C[0]    ¡Lárgate de aquí!
+
+################################## Commoner ############################
+
+FishRich/Begin
+\c[4]Comerciante：\C[0]    Éramos... Mi clan... Exiliados de nuestros hogares...
+\c[4]Comerciante：\C[0]    Ahora... ¿Nos necesitáis?
+\c[4]Comerciante：\C[0]    Esos... Monstruos... Vuestro... Castigo...
+
+Commoner/Begin0
+\c[4]Aristócrata：\C[0]    ¡Cada vez hay más esclavas productoras de leche!
+
+Commoner/Begin1
+\c[4]Aristócrata：\C[0]    Niñita, ¿puedes producir leche?
+
+Commoner/Begin2
+\c[4]Aristócrata：\C[0]    ¡Bebed leche materna humana para protegeros del mal!
+
+Commoner/BeginDirt0
+¿Dónde conseguiste eso?
+
+Commoner/BeginDirt1
+¡Apesta! ¡Fuera de aquí!
+
+Commoner/BeginDirt2
+¡Una mendiga!
+
+FatGuard/Qmsg0
+¿Qué miras?
+
+FatGuard/Qmsg1
+¡No armes lío aquí!
+
+FatGuard/Qmsg2
+¡Largo de aquí!
+
+MilkMachine/Qmsg0
+Lujosa máquina de ordeño
+
+MilkMachine/Qmsg1
+Parece que les duele
+
+GoldenSlave/Qmsg0
+Estoy trabajando
+
+GoldenSlave/Qmsg1
+No me hables
+
+GoldenSlave/Qmsg2
+........
+
+CommonPPL/NapRape
+\c[4]Aristócrata：\C[0]    ¿Por qué está esta basura aquí?
+
+CommonPPL/NapRape1
+\c[4]Aristócrata：\C[0]    Ju-ju-ju.
+
+CommonPPL/NapRape2
+\narr Lona fue movida...
+
+CommonPPL/NapRape3
+\c[4]Aristócrata：\C[0]    De vez en cuando también me apetece jugar con miembros de la clase baja. Deberías considerarlo un honor tener tanta suerte.
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]Aristócrata：\C[0]    ¡Vamos!
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]Aristócrata：\C[0]    Así me gusta ♥

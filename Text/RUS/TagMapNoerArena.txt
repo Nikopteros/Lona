@@ -1,0 +1,610 @@
+thisMap/Enter
+Арена Ноэра
+
+firstTime/begin_1
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Это и есть Арена Ноэртауна?
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Я слышала о ней, но я думала что она закрыта.
+
+firstTime/begin_2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Ты! Эй ты!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аа! Кто? Я?
+
+firstTime/begin_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм.... Что это?
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Забирай! Это очень ценная штука!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм?
+
+firstTime/begin_4
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Всё! Сама разберёшься!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Этот купон ставки даже не мой! Уйди с дороги!
+
+firstTime/begin_5
+\CBct[8]\m[confused]\plh\PRF\c[6]Лона：\C[0]    Что.....
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]Игрок A：\C[0]    Какой позор, это ребёнок.
+\CBmp[Talker2,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\plf\PRF\c[4]Игрок B：\C[0]    Ага, как такой новичок, как \c[6]Дикий Зверь\C[0] может противостоять \c[4]Колоссу Востока\C[0].
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]Игрок A：\C[0]    Мы должны увидеть этот бой! Кому-то определённо напинают задницу.
+
+firstTime/firstMatch0
+\CBct[20]\m[shocked]\PRF\c[6]Лона：\C[0]    Вау! Почему здесь так много людей?
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Что здесь такого интересного? Это ведь всего лишь шайка людей дерутся друг с другом?
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Разве такое не происходит каждый день где-нибудь вне стен города?
+
+firstTime/firstMatch1
+\CBmp[Reporter,0]\ph\....\....\....
+\CBmp[Reporter,0]\ph Сейчас!
+\CBmp[Reporter,0]\ph Поприветствуйте!
+\CBmp[Reporter,0]\ph Ваш любимец!
+\CBmp[Reporter,0]\SndLib[ClapGroup]\ph Принц Арены Ноэра! \{\c[6]Даррелл：\C[0]!
+\CBmp[Reporter,0]\m[shy]\PRF\c[6]Лона：\C[0]    \c[4]Даррелл\C[0]? Не может быть! Я просто обязана увидеть \c[4]Даррелла\C[0]!
+
+firstTime/firstMatch2
+\CBmp[Reporter,20]\c[4]Даррелл：\C[0]    Пришёл, увидел, победил!
+\CBmp[Reporter,20]\c[4]Даррелл：\C[0]    Ваш любимый Принц прибыл!
+
+firstTime/firstMatch3
+\CBmp[Reporter,0]\m[lewd]\plf\PRF\c[6]Лона：\C[0]    Это \c[4]Даррелл：\C[0]! ♥ Это правда он! ♥
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\prf\c[4]Даррелл：\C[0]    Спасибо вам за ваш энтузиазм! Этот лёгкий танец - лишь небольшая закуска для вас!
+
+firstTime/firstMatch4
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\C[0]    А теперь позвольте мне представить сегодняшних бойцов!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Первый претендент!!
+
+firstTime/firstMatch5
+\CBmp[LeftArenaE,19]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Наш чемпион, \c[6]Колосс Востока\C[0]!
+
+firstTime/firstMatch6
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\C[0]    И соперником выступает......
+\CBmp[RightArenaE,19]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Некто \c[6]Дикий Зверь\C[0], усиленный наркотиками!!!
+
+firstTime/firstMatch7
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Это тот, на кого сделана моя ставка?
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Никто не апплодирует? Но ведь он выглядит очень сильным?
+\SndLib[BadClap]\CBct[8]\m[triumph]\PRF\c[6]Лона：\C[0]    Ну и ладно! За него буду болеть я\..\..\..
+\SndLib[ppl_BooGroup]\CBmp[PPLg1,20]\m[shy]\PRF\c[6]Лона：\C[0]    Ура?
+\SndLib[ppl_BooGroup]\CBmp[PPLg2,20]\m[sad]\PRF\c[6]Лона：\C[0]    Ю-ху?
+\SndLib[ppl_BooGroup]\CBmp[PlayerWatch,20]\m[sad]\PRF\c[6]Лона：\C[0]    Ура-ура?
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Мда\..\..\..
+
+firstTime/firstMatch8
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Как вам известно, \c[6]Колосс Востока\C[0] одержал победу уже в 15 играх подряд!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Он носит титул сильнейшего бойца этих земель! И его девиз! \c[6]Настоящие парни не рассчитывают на оружие\C[0]!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Он одолел каждого своего соперника просто своими голыми руками!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Итак, претендент обучен \c[6]Торговой компанией Росендо：\C[0]. Сможет ли он одолеть непобедимого \c[6]Колосса Востока\C[0]?
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Вскоре мы это выясним!
+
+firstTime/firstMatch9
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Соперники, занять свои места!
+
+firstTime/firstMatch10
+\SndLib[MaleWarriorFatSpot]\CBmp[EastColossus,20]\c[4]Колосс Востока：\C[0]    Ха! Думаешь, победа в бою зависит только от размера и мышц? Как бы не так. Я разобью это понятие своими кулаками об твоё лицо!
+\SndLib[MaleWarriorGruntSpot]\CBmp[SexBeast,8]\c[4]Дикий Зверь：\C[0]    ......
+
+firstTime/firstMatch11
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    \{Да начнётся бой!
+
+firstTime/firstMatch12
+\CBmp[EastColossus,20]\c[4]Колосс Востока：\C[0]    Ха! Как приятно! Ты словно моя домашняя груша!
+\CBmp[SexBeast,8]\c[4]Дикий Зверь：\C[0]    РРРРААААРррх......
+
+firstTime/firstMatch13
+\CBmp[EastColossus,20]\c[4]Колосс Востока：\C[0]    Слишком медленно!
+
+firstTime/firstMatch14
+\CBmp[EastColossus,20]\c[4]Колосс Востока：\C[0]    И это всё, что ты можешь?
+
+firstTime/firstMatch15
+\CBmp[EastColossus,20]\c[4]Колосс Востока：\C[0]    Вы видите это? \c[6]Даррелл\C[0]! Не важно, сколько дерьмосоперников вы мне предоставите, я порву каждого из них на кусочки!
+\CBmp[EastColossus,20]\c[4]Колосс Востока：\C[0]    Я выкуплю свою семью из рабства! Я увезу их с этого проклятого острова со своих победных денег!
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\C[0]    Мы видим, как ты стараешься, и поддерживаем твои планы!
+
+firstTime/firstMatch16
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Но бой ещё не завершён!
+\CBmp[EastColossus,1]\c[4]Колосс Востока：\C[0]    Что?!
+
+firstTime/firstMatch17
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Выдержать такой удар... Невозможно....
+\CBmp[SexBeast,8]\c[4]Дикий Зверь：\C[0]    Хоу-хоу-хоу....
+
+firstTime/firstMatch18
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Эй.. Подожди секунду...
+\CBmp[SexBeast,8]\c[4]Дикий Зверь：\C[0]    Хоу-хоу-хоу-хоу....
+
+firstTime/firstMatch19
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Стой! Остановите бой!
+\CBmp[SexBeast,8]\c[4]Дикий Зверь：\C[0]    Хоу-хоу-хоу-хоу-хоу....
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Я сдаюсь! Я принимаю поражение! Не убивай меня!
+
+firstTime/firstMatch20
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Почему ты не останавливаешься?! Прошу тебя, я не хочу умирать!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    К сожалению, он не понимает людей! Ты должен принять своё поражение при помощи жестов!
+\plf\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Каких ещё жестов?!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    На колени! Нагибай зад перед ним!
+
+firstTime/firstMatch21
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    ...В-Вот так...?
+\CBmp[SexBeast,8]\c[4]Дикий Зверь：\C[0]    ...... ♥
+
+firstTime/firstMatch22
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Стоп! Ты что удумал?!
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\C[0]    \c[6]Дикий Зверь\C[0] носит такое прозвище, потому что благодаря алхимии и зельеварению, он имеет невероятную сексуальную выносливость, благодаря чему, он запросто может насиловать более слабых!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Его разум настроен только лишь на победу над соперниками! И их изнасиловании!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Дорогие зрители! Начинается второй этап представления! Победитель волен поиздеваться над проигравшим!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    А теперь! Выеби его! Изнасилуй \c[6]Колосса Востока\C[0]! О-о-о-о да-а-а!
+
+firstTime/firstMatch22_1
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]Зрители：\C[0]    Насилуй! Насилуй!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]Зрители：\C[0]    Насилуй! Насилуй! Насилуй!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]Зрители：\C[0]    Насилуй! Насилуй! Насилуй! Насилуй!
+
+firstTime/firstMatch22_2
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Нееет! Прошу, я ни за что не готов на такое!
+
+firstTime/firstMatch23
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Неет! Моё очко! Больно!
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    Я не хочу забеременеть! Я не хочу иметь детей!
+\CBmp[SexBeast,8]\c[4]Дикий Зверь：\C[0]    Хоу-хоу-хоу-хоу!!!
+
+firstTime/firstMatch23_1
+\CBmp[EastColossus,6]\c[4]Колосс Востока：\C[0]    \{УУУУуууаАааАаааЙйй!!!
+
+firstTime/firstMatch24
+\narr \....\....\....
+\narr \c[6]Дикий Зверь：\C[0] и \c[6]Колосс Востока：\C[0] проводили второй акт весьма долго..
+\narr Мы все знаем, что мужчины не могут забеременеть....
+\narr Хотя\..\..\.. Они, похоже, явно пытались....
+
+firstTime/firstMatch25
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Так значит, \c[4]Дикий Зверь\C[0] победил?
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    А он правда был знаменитостью, Даррелл?
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Мне\..\..\..\m[shy] Приятно ♥
+\CBct[4]\m[lewd]\PRF\c[6]Лона：\C[0]    Было бы очень мило, если бы я могла смотреть подобные представления вместе с моей мамой, я уверена, ей бы понравилось. ♥
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    \..\..\..\m[sad] Но их со мной нет....
+\CBct[20]\m[serious]\Rshake\c[6]Лона：\C[0]    Хреново! Блин, ладно! Не время вешать нос!
+
+firstTime/TakeReward1
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Значит... Это место, где можно забрать деньги со ставки?
+
+firstTime/TakeReward2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Это ты! Ты украла мой купон ставки!
+
+firstTime/TakeReward3
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что? Вы же мне сами....
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Ты украла мой купон ставки! Отдавай его мне живо обратно! \optD[Вернуть купон,Вор!<r=HiddenOPT1>]
+
+firstTime/TakeReward4_give0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аа? Что?
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Иначе я позову стражу! Живо отдала мне мой купон!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Да ладно...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Хорошая девочка! Женщины должны гулять по задворкам и раздвигать ноги, если они хотят заработать денег!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Но, вы же сами отдали..
+
+firstTime/TakeReward4_give1
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    \{Заткнись!
+
+firstTime/TakeReward4_guard0
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А-а-а!!!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Что?! Гони мне купон!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    О-о-ой... Стража... Меня грабят...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Чего?!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    \{Помогите!!! Грабят!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Прохожий：\C[0]    Тссс!
+
+firstTime/TakeReward4_guard1
+\SETpl[Mreg_guardsman]\Lshake\c[4]Страж：\C[0]    Что тут происходит?!
+
+firstTime/TakeReward4_guard2
+\CBmp[TricketGiver,20]\SETpr[AnonMale1]\PLF\prf\c[4]Прохожий：\C[0]    Проклятье! Я тебя запомнил!
+
+firstTime/TakeReward4_guard3
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ага, запомнил он...
+
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+#####################################
+############################################################################################################################################## Tricket seller
+################################################################################ Arena Spec Event #####################################
+#### Cecily #####################################
+
+TicketSeller/CecilyShow_Gang
+Особое представление?
+
+TicketSeller/CecilyShow_Gang_begin0
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\c[0]     Сегодня - кровавый карнавал при спонсорстве Торговой компании Росендо! Вход свободный, кровь - бесплатна!
+
+TicketSeller/CecilyShow_Gang_begin1
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\c[0]    Скоро начнётся зрелище, оплаченное Торговой компании Росендо! Ты ещё не внутри? Торопись - двери в ад уже открываются!
+
+TicketSeller/CecilyShow_Gang_begin2
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\c[0]    Бесплатное шоу начинается! Благодарите \c[6]компанию Росендо\c[0] за эту жертву вашему разврату!
+
+TicketSeller/CecilyShow_Gang_About1_typical
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\c[0]    Особое представление? Что за дьявольщину они задумали?
+
+TicketSeller/CecilyShow_Gang_About1_tsundere
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\c[0]    Особое?... Насколько *особое*?
+
+TicketSeller/CecilyShow_Gang_About1_gloomy
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\c[0]    Это... точно не закончится смертью?
+
+TicketSeller/CecilyShow_Gang_About1_slut
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\c[0]    О-о? Шоу? Звучит... заманчиво.
+
+TicketSeller/CecilyShow_Gang_begin_talked
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\c[0]    Чего ждёте? Шоу вот-вот начнётся!
+
+TicketSeller/CecilyShow_Gang_end
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\c[0]     Это представление спонсировано \c[6]Торговой компании Росендо\c[0]! Благодарим их за поддержку!
+
+TicketSeller/CecilyShow_Gang_cancel
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Э-э... нет, я, пожалуй, пас...
+
+TicketSeller/CecilyShow_Gang_About2
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\c[0]    Брачные игры павшей аристократки. Она будет "развлекаться" с подонками на арене.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\c[0]     О-о?
+
+TicketSeller/CecilyShow_Gang_agree
+\CBct[8]\m[normal]\plf\PRF\c[6]Лона：\c[0]    Бесплатно, да? Ну, тогда посмотрим...
+
+CecilyShow_Gang/show_start_begin1
+\{Дамы и господа! Добро пожаловать!
+
+CecilyShow_Gang/show_start_begin2
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\c[0]    А теперь - начинаем наше особое представление!
+
+CecilyShow_Gang/show_start_begin3
+\c[4]Даррелл：\c[0]    Бывшая дворянка из \c[6]Сибариса\c[0] против отребья! Сталь и плоть!
+
+CecilyShow_Gang/show_start_begin3_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_normal]\plf\PRF\c[4]Сесилия\c[0]    \...\...\...
+\SETpl[Reporter_shocked]\Lshake\prf\c[4]Даррелл：\c[0]    А её противник\..\..\..
+
+CecilyShow_Gang/show_start_begin4
+\c[4]Даррелл：\c[0]    \{\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+
+CecilyShow_Gang/show_start_begin5
+\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\c[0]    Это — безумие или героизм? Судьба или агония?
+\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\c[0]     Испытание духа! Пламя страсти! И... кровавый пир!
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\c[0]     Готовьте свои крики и ставки! Битва начинается сейчас!
+
+CecilyShow_Gang/show_start_begin6_0
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_fear]\plh\PRF\c[4]Сесилия\c[0]    \...\...\...
+
+CecilyShow_Gang/show_start_begin6_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_shocked]\plh\PRF\c[4]Сесилия\c[0]    \...\...\...
+
+################################################################################ Arena ADdon ##################################### end
+
+name/ArenaApes
+Черношкурая банда
+
+name/ArenaSwine
+Кабаний легион
+
+name/ArenaWildDog
+Портовые псы
+
+name/ArenaSexBeast
+Дикий зверь
+
+name/ArenaEastColossus
+Колосс востока
+
+name/ArenaFemdom
+Феминистка
+
+name/ArenaOrkindBro
+Братья гоблины
+
+name/ArenaDeepTerror
+Глубинный террор
+
+name/ArenaFailedAdv
+Несостоявшийся Авантюрист
+
+name/ArenaTeamRBQ
+Рабыни воины 
+
+name/ArenaHoboDudes
+Уличные попрошайки
+
+TicketSeller/BasicOpt
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Добро пожаловать на Арену Ноэртауна!
+
+TicketSeller/BasicOpt_bet
+Сделать ставку
+
+TicketSeller/BasicOpt_about0
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Да? Я думала, это место было закрыто?
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Нет уж! Идиоты из нисшего сословия не понимают, но все остальные секут тему.
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Ты же из \c[6]Сибариса\C[0]? Не то ли место, что было уничтожено пару месяцев назад?
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    .....
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Ну ладно, расслабься ты. У всех в наши дни есть проблемы, но всё наладится.
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Первое, что сделал фон Росендо после прихода к власти - занялся душевным спокойствием людей!
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    А при чём здесь душевное спокойствие людей и арена, где друг друга убивают? Разве этот вид соревнований вообще не запрещён?
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    А чего по твоему хотят люди, что живут в гармонии и мире? Крови! Люди - злорадны, и им нравится смотреть, как кому-то хуже, чем им.
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Ты же сама знаешь, где мы находимся - это \c[4]остров Ноэр\C[0], детка.
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Сама подумай, кто нам помешает? Император? Святоши?
+\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    Оу....
+
+TicketSeller/BasicOpt_FighterList
+\board[Сегодняшние Участники]
+Соперник 1： \c[4]#{$story_stats["HiddenOPT0"][0]}\C[0]
+Соперник 2： \c[4]#{$story_stats["HiddenOPT1"][0]}\C[0]
+Соперник 3： \c[4]#{$story_stats["HiddenOPT2"][0]}\C[0]
+Соперник 4： \c[4]#{$story_stats["HiddenOPT3"][0]}\C[0]\n
+Соперник 1： Множитель х\c[4]#{$story_stats["HiddenOPT0"][1]}：\C[0] к х\c[4]#{$story_stats["HiddenOPT0"][2]}\C[0]
+Соперник 2： Множитель х\c[4]#{$story_stats["HiddenOPT1"][1]}：\C[0] к х\c[4]#{$story_stats["HiddenOPT1"][2]}\C[0]
+Соперник 3： Множитель х\c[4]#{$story_stats["HiddenOPT2"][1]}：\C[0] к х\c[4]#{$story_stats["HiddenOPT2"][2]}\C[0]
+Соперник 4： Множитель х\c[4]#{$story_stats["HiddenOPT3"][1]}：\C[0] к х\c[4]#{$story_stats["HiddenOPT3"][2]}\C[0]
+
+TicketSeller/BasicOpt_bet0
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    На кого ты хочешь сделать ставку?
+
+TicketSeller/BasicOpt_bet1
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Ставка должна быть минимум \c[4]#{$story_stats["HiddenOPT1"]}：\C[0] Очков Обмена, но не более \c[4]#{$story_stats["HiddenOPT2"]}：\C[0] Очков Обмена.
+
+TicketSeller/BasicOpt_bet2
+\narr Участник：\c[4]#{$story_stats["HiddenOPT1"]}：\C[0].\n Ставка в \c[6]#{$story_stats["HiddenOPT2"]}\C[0] Очков Обмена.\n Множитель \c[5]#{$story_stats["HiddenOPT3"]}\C[0] к \c[5]#{$story_stats["HiddenOPT4"]}\C[0].
+\narrOFF\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Игра вот-вот начнётся, ты можешь войти на арену с любой из сторон.
+
+TicketSeller/BasicOpt_work0
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    А есть для меня какая-нибудь работа?
+\CBid[-1,2]\prf\c[4]Приёмщик Ставок：\C[0]    Тебя? Хм, посмотрим.... О!
+\CBid[-1,2]\prf\c[4]Приёмщик Ставок：\C[0]    Нам как раз нужна женщина для участия в женских боях. Рабы не могут дать отпор, а зрителям уже скучно.
+\CBid[-1,2]\prf\c[4]Приёмщик Ставок：\C[0]    Вот контракт.
+
+TicketSeller/BasicOpt_work1
+\board[Женские Бои]
+Получить награду как за участие в бою, так и за победу над противником.
+Победитель получает бонус к награде 50%.
+Чем дольше продлится бой, тем выше награда.
+После победы, награду получаем у Приёмщика ставок.
+После поражения, выплата произойдёт автоматически.
+
+TicketSeller/BasicOpt_work2
+\board[Женские Бои]
+Участники боя сами несут ответственность за свои жизни. (Кроме рабынь)
+Вы должны выжить, чтобы получить оплату. (Кроме рабынь)
+Развлекайте зрителей!
+
+TicketSeller/BasicOpt_workAccept
+\SndLib[PenWrite]\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Ладно, я согласна.
+\CBid[-1,2]\prf\c[4]Приёмщик Ставок：\C[0]    Очень хорошо, о-о-очень хорошо. Судя по твоему виду, ты сможешь продержаться какое-то время.
+\CBmp[EnterArena,19]\prf\c[4]Приёмщик Ставок：\C[0]    Вход на арену расположен вон там.
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Оу?
+
+TicketSeller/PlayerMatchStart
+\CBid[-1,2]\prf\c[4]Приёмщик Ставок：\C[0]    Шоу вот-вот начнётся. Ты готова к своему участию? Контракт уже подписан!
+\CBmp[EnterArena,19]\prf\c[4]Приёмщик Ставок：\C[0]    Входи на арену с бокового входа! Живо! Они уже почти начали.
+
+TicketSeller/Started
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Шоу начинается, поторапливайся!
+\narr Участник：\c[4]#{$story_stats["HiddenOPT1"]}\C[0].\n Ставка в \c[6]#{$story_stats["HiddenOPT2"]}\C[0] Очков Обмена.\n Множитель \c[5]#{$story_stats["HiddenOPT3"]}\C[0] к \c[5]#{$story_stats["HiddenOPT0"]}\C[0].
+
+TicketSeller/WannaLeave
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Если хочешь уйти, ты должна выплатить \c[6]#{$story_stats["HiddenOPT4"]}\C[0] Очков Обмена.
+
+TicketSeller/ItsDraw
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Это была ничья? Победитель забирает всё? Редкое явление.
+
+TicketSeller/YouLose
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Ты проиграла? Делай ставку выше в следующий раз и отбивай долг!
+
+TicketSeller/StartedPayIdle
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Посмотрим\..\..\..
+
+TicketSeller/StartedNotEnough
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Этого мало! Ты должна мне ещё как минимум \c[6]#{$story_stats["HiddenOPT4"]}\C[0] Очков Обмена!
+
+TicketSeller/StartedEnough
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Отлично, теперь ты можешь идти.
+
+TicketSeller/MatchReward0
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Победила? Тебе повезло, вот твоя награда!
+
+TicketSeller/MatchReward1
+\CBct[20]\m[triumph]\Rshake\c[6]Лона：\C[0]    Спасибо!
+
+TicketSeller/MatchEnd
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Сегодня шоу окончено. Что ты здесь всё ещё делаешь? Приходи завтра!
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Ох?
+
+TicketSeller/MatchStill
+\CBid[-1,20]\prf\c[4]Приёмщик Ставок：\C[0]    Бой ещё продолжается. Ты можешь опоздать, если не пойдёшь прямо сейчас.
+
+############################################################################################################################################## Food seller
+
+FoodSeller/begin
+\CBid[-1,20]\prf\c[4]Продавец Закусок：\C[0]    Что идеально сочетается со сталью и кровью? Закуски и пиво, конечно же!
+
+FoodSeller/SlaveQmsg0
+Вонючая рабыня!
+
+FoodSeller/SlaveQmsg1
+Катись отсюда!
+
+FoodSeller/SlaveQmsg2
+Рабам здесь не место!
+
+############################################################################################################################################################## Fight Begin
+
+NewMatch/begin1
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Поприветствуем наших сегодняшних бойцов!
+
+NewMatch/begin2
+\CBmp[CenterPillar,0]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    \{Да начнётся бой!
+
+NewMatch/Draw
+\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Ничья! Никто не победил!
+
+NewMatch/WinnerIS
+\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    И у нас есть победитель!
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Побеждает \c[6]#{$story_stats["HiddenOPT0"]}\C[0]!!!!
+
+PlayerMatch/begin
+\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Поприветствуем наших сегодняшних бойцов!
+\SndLib[ppl_CheerGroup]\CBmp[FireR,0]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Первого бойца зовут... \c[6]#{$story_stats["HiddenOPT0" ]}\C[0]!!!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    А второй.... Неизвестная уличная крыса!
+
+PlayerMatch/begin_IfSlave
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Эта уличная крыса - рабыня, и у неё лишь два пути!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Первый - продержаться до окончания времени, и второй - вырубить своего оппонента!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Иначе её не ждёт ничего кроме смерти!
+
+PlayerMatch/LostRngRape0
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Дорогие зрители! Какую судьбу вы решите для проигравшего?
+
+PlayerMatch/LostRngRapeTorture
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]Зрители：\C[0]    Избей её! Уничтожь её!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]Зрители：\C[0]    Выеби её! Убей её! Отрежь ей башку!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]Зрители：\C[0]    Сожри её! Сожги её! Изнасилуй! Убей!
+\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    О-ох...
+
+PlayerMatch/LostRngRape1
+\ph\SndLib[ppl_CheerGroup]\c[4]Зрители：\C[0]    Изнасилуй! Изнасилуй! Изнасилуй! Изнасилуй!
+
+PlayerMatch/LostRngRape2
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Дорогие зрители! Поблагодарим эту неизвестную уличную крысу за то развлечение, что она нам принесла!
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Дорогие зрители! Почтим память о ней!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime0
+\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\C[0]    Дорогие зрители! Эта уличная крыса та ещё ленивая рабыня! Что же мы будем с ней делать?!\SndLib[ppl_BooGroup]
+\ph\SndLib[ppl_BooGroup]\c[4]Зрители：\C[0]    \{Убей! Убей! Убей! Убей!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime1
+\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Следую вашему желанию, дорогие зрители! \SndLib[ppl_CheerGroup]
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    \{Эй, парни! Выпускайте волков! \SndLib[ppl_CheerGroup]
+\SndLib[dogSpot]\cg[map_WolfGroup].......
+
+PlayerMatch/win0
+\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\C[0]    Дорогие зрители! Как неожиданно!
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Маленькая уличная крыска побеждает этот бой!
+
+PlayerMatch/win1_InTime
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Я... Победила?
+
+PlayerMatch/win1_OutTime
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    Но......
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Зрители не согласны..?
+
+##ru not entertained?
+
+PlayerMatch/win2
+\narr Лона победила, она решает покинуть это злачное место.
+
+PlayerMatch/win2_slave
+\narr Лона победила, но её уводят обратно в комнату для рабынь.
+
+############################################################################################################################### SexBeast UniqueRape
+
+SexBeast/Lose0_0
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    Я сдаюсь! Не убивайте меня! Я не хочу умереть!
+
+SexBeast/Lose0_1
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    Я не хочу умирать! Пожалуйста!
+
+SexBeast/Lose0_2
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    Пустите меня! Хватит!
+
+SexBeast/Lose1
+\c[4]Дикий Зверь：\C[0]    Хоу-хоу-хоу!
+
+SexBeast/Lose2
+\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Драгоценные зрители! Вы думаете, всё кончилось?! Наш новый победитель - \c[4]Дикий Зверь\C[0], ни за что не отпустит её!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose2_1
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    Да! Изнасилование! Дикий Зверь изнасилует каждого побеждённого! Даже если его соперник имеет член с яйцами!
+
+SexBeast/Lose3
+\SETpl[Reporter_normal]\Lshake\c[4]Даррелл：\C[0]    Смотрите! Кажется, \c[4]Дикий Зверь\C[0] вот-вот кончит! Сможет ли пережить это маленькая уличная крыска?!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose4
+\SETpl[Reporter_trumph]\Lshake\c[4]Даррелл：\C[0]    Ой-ой! \c[4]Дикий Зверь\C[0] ещё не закончил! Он продолжает вдавливать в землю своим огромным телом эту маленькую крыску!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose5
+\SETpl[Reporter_shocked]\Lshake\c[4]Даррелл：\C[0]    А теперь, кажется, он планирует кончить в неё снова! Будет ли ему этого достаточно?\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose6
+\SETpl[Reporter_confused]\Lshake\c[4]Даррелл：\C[0]    Оу....
+
+SexBeast/Lose7
+\narr Дикий Зверь продолжает насиловать Лону...
+\narr Все остальные шоу на сегодня отменены...
+
+
+############################################################################################################################################################## EXIT
+
+1fExit/Begin
+\SETpl[Mreg_pikeman] Перед тобой выход на \C[4]площадь Колизея\C[0]\n У ворот стоит стража \optB[Отмена,Войти,Прокрасться<r=HiddenOPT1>,Обмануть<r=HiddenOPT2>]
+
+1fExit/BetStill
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Ты не можешь уйти, пока твоя ставка не закрыта!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Возвращайся к Приёмщику Ставок и расплатись с ним, прежде чем уйти!
+
+1fExit/SneakFailed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Кто-то пытается сбежать, не заплатив! Убить её!
+
+Guard/NapSlave0
+\SETpl[Mreg_guardsman]\Lshake\c[4]Стражник：\C[0]    Эй! Сюда смотри.
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Стражник：\C[0]    Что случилось?!
+
+Guard/NapSlave1NoPay
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Стражник：\C[0]    Эта мелкая пизда не хочет платить долги, которые проиграла!
+
+Guard/NapSlave1IsSlave
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Стражник：\C[0]    Это сбежавшая рабыня!
+
+Guard/NapSlave2
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Стражник：\C[0]    Что будем с ней делать?
+\m[tired]\plf\PRF\c[6]Лона：\C[0]    Охх... Что случилось?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Стражник：\C[0]    Разве нам хватает женщин для развлечения публики?
+\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник：\C[0]    Эта тварь совсем бесполезна!
+\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    Нет! Отпустите меня!
+\cg[event_SlaveBrand]\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник：\C[0]    Я же сказал, НЕ ДЕРГАЙСЯ! БУДЬ ХОРОШЕЙ ДЕВОЧКОЙ!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Лона：\C[0]    \{АААЙЙЙЙ!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона：\C[0]    \{Айййй!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона：\C[0]    Ахххххх...
+
+##################################################### Other
+
+notice/DisbandWarning
+\narr Внимание! При сражении на арене, ваш компаньон уйдёт.
+
+198964/nothingHappen
+\cg[other_TankMan]1689.06.04. Обычный неинтересный день, когда абсолютно ничего не произошло\C[0]. \n Картина 417
+
+commoner/typeB
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Жена говорит, что такой вид спорта слишком жесток. А ты что думаешь?
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Собака, которую вырастил старик, живущий через площадь, некоторое время назад исчезла.
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Через несколько дней охранники сообщили ему, что его собаку поймали и съели беженцы из столицы Империи.
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Ха! Жестоко?
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Посмотри, что происходит вокруг. Что бы сделала ты, будь ты из столицы Империи?!
+
+commoner/typeA
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Ты слышала когда-нибудь о \c[6]Сыворотке Ярости\C[0]?
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Я слышал, что дворяне и алхимики в городе создали средство, которое делает твоё тело сильнее, они используют Арену, чтобы испытать его.
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Ещё я слышал от солдата, находящегося на передовой, что этот препарат наполняет тебя храбростью и делает тебя очень возбужденным.
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Парень чувствовал себя непобедимым!
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Тебе не кажется это странным? Как может что-то настолько продвинутое существовать в такой дыре, как здесь?
+\CBid[-1,20]\prf\c[4]Игрок：\C[0]    Разве могут быть такие таланты в \c[6]Ноэртауне\C[0]?
+
+CommonerBL/Qmsg0
+Мужчины ведь не могут забеременеть?
+
+CommonerBL/Qmsg1
+Матка у женщин, а хуй - у мужиков!
+
+CommonerBL/Qmsg2
+Я читала это в последнем выпуске журнала
+
+CommonerBR/Qmsg0
+Там говорилось, что это возможно!
+
+CommonerBR/Qmsg1
+Геи и трансы - это разные вещи
+
+CommonerBR/Qmsg2
+Неправда!

@@ -1,0 +1,9 @@
+$story_stats['Setup_Hardcore'] = 1
+prp $game_player.actor.morality_lona
+p $game_player.actor.[[[6, 4, 4, -1, 0], [6, 4, 3, -2, 1], [6, 4, 3, -5, 2], [6, 4, 5, -10, 5], [6, 4
+, 4, -5, 2], [6, 4, 6,
+p $game_player.actor.dodge_frame
+load_script("asd.rb")
+EvLib.GMI.new_game_GetDebugSkills
+EvLib.UpLang
+p $game_player.animation_dodge

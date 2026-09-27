@@ -1,0 +1,88 @@
+thisMap/OvermapEnter
+Заброшенный Дом \optB[Отмена,Войти]
+
+GrayRat/QuestBG1
+\CBmp[GrayRat,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Здоровяк：\C[0]    .........
+
+GrayRat/QuestBG2
+\CBmp[Adam,1]\SETpr[Adam_angry]\plf\Rshake\c[4]Незнакомец：\C[0]    Стоять! Кто идёт?!
+\CBmp[GrayRat,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Здоровяк：\C[0]    Кхм...!
+\CBmp[Adam,6]\SETpr[Adam_sad]\plf\PRF\c[4]Незнакомец：\C[0]    А, это ты...
+
+GrayRat/QuestBG3
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]Незнакомец：\C[0]    Ну что, твоя Госпожа согласна?
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]Здоровяк：\C[0]    Она согласна, но есть некоторые опасения...
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]Здоровяк：\C[0]    Все последствия должны быть минимизированы.
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\Rshake\c[4]Незнакомец：\C[0]    Не вопрос.
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]Незнакомец：\C[0]    Ладно! Тогда все решено.
+
+GrayRat/QuestBG3_1
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]Здоровяк：\C[0]    Благодарю, господа...
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]Здоровяк：\C[0]    Удачи со всем этим.
+
+GrayRat/QuestBG4
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\Rshake\c[4]Страж：\C[0]    Он полукровка! Тебе правда нужна его помощь?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Кретин! Полукровка или нет, важно то, кто за него отвечает!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Ты не видел, на что он способен. У него такая силища - это тебе не шутки!
+
+GrayRat/QuestBG5
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Помни, придерживайся плана, и вы перехватите северный конвой.
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]Страж：\C[0]    Всё на самом деле пройдёт так гладко?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Конечно! Всё равно у нас нет выбора...
+
+Adam/SupLona0
+\CamMP[Adam]\BonMP[Adam,1]\SETpl[Adam_angry]\Lshake\c[4]Незнакомец：\C[0]    Стой, кто идёт! Ты кто?!
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Я... \optD[Просто мимо проходила...,Вы Адам?]
+
+Adam/SupLona_ans_adam
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эмм... Простите, вы случайно не Адам?
+\CamMP[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]Адам：\C[0]    Что?! Откуда ты знаешь это имя?! \optD[Прикинуться глупой,Со слов Мило,Солгать<r=HiddenOPT0>,Мы знакомы ранее<r=HiddenOPT1>]
+
+Adam/SupLona_ans_pass
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я просто шла мимо......
+
+Adam/SupLona_ans_hehe
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оуу, хи-хи-хи!~ Даже не зна-а-аю...
+
+Adam/SupLona_ans_milo
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ну-у... Насчёт этого......
+\CBct[2]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Господин Мило отправил меня на его поиски, он говорил, что хочет его голову или что-то типа того...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+
+Adam/SupLona_ans_work0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эмм...
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Мы раньше вместе работали, разве ты не помнишь?
+
+Adam/SupLona_ans_work1
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Адам：\C[0]    \..\..\..
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Адам：\C[0]    Хмм... Да, кажется, помню. Ты та маленькая девочка-воровка.
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Адам：\C[0]    Но, что ты здесь делаешь?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я-яя... Слышала, что \c[4]Мило\C[0] желает твоей смерти, и я пришла тебя предупредить.
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Адам：\C[0]    \..\..\..
+
+Adam/SupLona_ans_lie0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я... Эммм... Знаете ли...
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Вы ведь Адам? Тогда дело плохо! Люди Мило идут сюда!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Наёмники уже в пути сюда! Тебе нужно убираться отсюда!
+
+Adam/SupLona_ans_lie1
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Адам：\C[0]    Что?! Проклятье... Спасибо!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Адам：\C[0]    Чуваки! Нас раскрыли, шухер!
+
+Adam/SupLona_ans_lie2
+\CBct[8]\m[confused]\plf\PRF\c[4]И что теперь...? Как я теперь достану его голову...?
+
+Adam/SupLona_Kill0
+\CBmp[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]Адам：\C[0]    За оружие, парни! Убить эту сучку!
+
+Adam/SupLona_Kill1_typical
+\CBct[6]\m[wtf]\plf\Rshake\c[6]Лона：\C[0]    О, нет!
+
+Adam/SupLona_Kill1_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Блять!
+
+Adam/SupLona_Kill1_gloomy
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    О-Ооой!!!
+
+Adam/SupLona_Kill1_slut
+\CBct[6]\m[fear]\plf\Rshake\c[6]Лона：\C[0]    Стой! Давай просто поговорим?!

@@ -1,0 +1,62 @@
+overmap/OvermapEnter
+\m[confused]未知的營地\optB[算了,進入]
+
+mec/halp1
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    救命！ 救救我！
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？！
+
+mec/halp2
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    魔物！ 深潛者！ 牠們來了！
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇嚇？！
+
+mec/halp3
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    救救我啊！
+
+mec/halp4
+\CamCT\Bon[6]\m[hurt]\plf\Rshake\c[6]洛娜：\c[0]    不要推我！
+
+mec/halp5
+\CamCT\Bon[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    咿！！ 不是吧！
+
+mec/win
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    感謝勇士大恩大德！
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呼... 不客氣？
+\CamMP[QuestTar]\BonMP[QuestTar,8]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    \..\..\..
+\CamMP[QuestTar]\BonMP[QuestTar,2]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    妳是女的？
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我是女生怎麼了嗎？
+
+mec/Quprog_0
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    聽著！我需要你的幫忙！
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    我手邊的東西必須送到\C[4]海賊毀滅者堡壘\C[0]。
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...
+
+mec/Quprog_0_board
+\board[護送旅行者]
+目標：送至海賊毀滅者堡壘
+報酬：大銅幣1、道德2
+委託主：旅行者
+期限：5天
+一切就靠妳了！
+
+mec/Quprog_0_decide
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯....\optB[沒空,好吧]
+
+mec/QmsgTar
+快去 
+
+mec/Done1
+\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    感謝！ 太感謝妳了！
+
+mec/Done2
+\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    這些魚類不斷的攻擊我們運送物資的車隊，這樣下去這個堡壘陷落也只是時間的問題。
+\SETpl[AnonMale1]\Lshake\prf\c[4]旅行者：\c[0]    堡壘的傭兵公會看看吧，我覺得妳一定幫的上忙。
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哈哈.... 希望我幫得上。
+
+mec/CommonConvoyTarget0
+\prf\c[4]旅行者：\c[0]    沒時間了！
+
+mec/CommonConvoyTarget1
+\prf\c[4]旅行者：\c[0]    快點去\C[4]海賊毀滅者堡壘\C[0]。
+
+mec/CommonConvoyTarget2
+\prf\c[4]旅行者：\c[0]    動作快！

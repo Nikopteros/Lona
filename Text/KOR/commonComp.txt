@@ -1,0 +1,677 @@
+notice/ExtOverWrite
+\board[임시 동료 제한]
+임시동료는 한번에\c[6]한 명만\c[0]데리고 다닐 수 있다.
+새 임시동료를 받아들이면 기존 임시동료는 버려진다.
+호위 등의 퀘스트를 진행중이라면 실패 처리된다.
+기존의 임시동료와 호위임무등을 모두 포기하시겠습니까?
+
+Companion/Accept
+이 동료로 결정하시겠습니까? \optD[취소,확인]
+
+Companion/TeamUp
+함께한다
+
+Companion/Follow
+따라와
+
+Companion/Wait
+여기서 기다려
+
+Companion/Other
+기타 명령
+
+Companion/Disband
+동료 해산
+
+Companion/SetFoe
+적으로 설정
+
+Companion/Purr
+갸르릉
+
+Companion/Extension
+연장 요청
+
+################################# COMMON COMP INFO
+
+CompWarrior/CompData
+\board[용병 전사]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]근접전, 방어
+\C[2]진영：\C[0]무법자
+\C[2]적대 대상：\C[0]사악한 생물, 노엘 경비병
+\C[2]요구 조건：\C[0]맥주 2개\i[590]
+\C[2]계약 기간：\C[0]2일
+어디서나 볼 수 있는 흔한 용병이다.
+
+CompArcher/CompData
+\board[용병 궁수]
+\C[2]위치：\C[0]후열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]원거리, 곡사
+\C[2]진영：\C[0]무법자
+\C[2]적대 대상：\C[0]사악한 생물, 노엘 경비병
+\C[2]요구 조건：\C[0]맥주 2개\i[590]
+\C[2]계약 기간：\C[0]2일
+어디서나 볼 수 있는 흔한 용병이다.
+
+CompCommon/Comp_disband
+\CBid[-1,20]\c[4]술 취한 용병：\c[0] 다음엔 술 한 잔 더 사줘... *딸꾹!*
+
+CompHumanWarrior/Comp_disband
+\CBid[-1,20]\c[4]술 취한 용병：\c[0] 아냐! 나 안 취했어!
+
+CompHumanBow/Comp_disband
+\CBid[-1,20]\c[4]술 취한 용병：\c[0] 안 돼! 술 더 줘!
+
+CompCommon/Comp_win
+\CBid[-1,20]\c[4]술 취한 용병：\c[0] *딸꾹!* 좋아, 같이 가자고.
+
+CompCommon/Comp_failed
+\CBid[-1,5]\Lshake\prf\c[4]술 취한 용병：\c[0] \{술도 없으면서 말 걸지 마!
+\CBct[6]\m[sad]\c[6]로나：\c[0] 미안해요...
+
+CompCommon/Slave_failed0
+\CBid[-1,5]\CBid[-1,5]\Lshake\prf\c[4]술 취한 용병：\c[0] 하찮은 노예 주제에 무슨 헛소리야!
+\CBct[6]\m[sad]\c[6]로나：\c[0] 죄송해요...
+
+CompCommon/Slave_failed1
+\CBid[-1,5]\Lshake\prf\c[4]술 취한 용병：\c[0] \{네가 뭘?!\}노예는 내 자지나 닦는 게 어울리지!
+\CBct[6]\m[sad]\c[6]로나：\c[0] 죄송해요...
+
+CompCommon/Slave_failed2
+\CBid[-1,5]\Lshake\prf\c[4]술 취한 용병：\c[0] \{네가 노예라고?!\}꺼져! 저리 가!！
+\CBct[6]\m[sad]\c[6]로나：\c[0] 죄송해요...
+
+CompWarrior/begin
+\CBid[-1,20]\CBid[-1,20]\SETpl[MobHumanWarrior]\prf\c[4]술 취한 용병：\c[0] *딸꾹!* 무슨 일이야?
+
+CompArcher/begin
+\CBid[-1,20]\CBid[-1,20]\SETpl[MobMootBow]\prf\c[4]술 취한 용병：\c[0] *딸꾹!* 무슨 일이야?
+
+CompRogue/OvermapPop0
+뒷골목 여자들 참 괜찮더라.
+
+CompRogue/OvermapPop1
+나도 노예 한 명쯤 갖고 싶군.
+
+CompRogue/OvermapPop2
+아, 진짜 한 판 하고 싶다.
+
+CompRogue/OvermapPop3
+우으으엑!
+
+####################################################################################################################################################
+
+CompWarSister/CompData
+\board[전투 수녀]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]근접, 방어, 곡사
+\C[2]진영：\C[0]성도회
+\C[2]적대 대상：\C[0]어인, 언데드, 흉물
+\C[2]요구 조건：\C[0]성수, 허약 수치 100 미만\i[46]
+\C[2]계약 기간：\C[0]5일
+빛과 정의의 집행자.
+
+CompWarSister/begin
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]전투 수녀：\c[0] 성도는 나의 자애로운 아버지시다.
+
+CompWarSister/Comp_disband
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]전투 수녀：\c[0] 믿음은 너의 가장 강한 검이 될 것이다!
+
+CompWarSister/Comp_win
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]전투 수녀：\c[0] 성도께서 우리를 구원하시리라.
+
+CompWarSister/Comp_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]전투 수녀：\c[0] 나에게는 남은 자비가 없다.
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 죄송해요...
+
+CompWarSister/Weak_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]전투 수녀：\c[0] 너는 자비를 받을 자격조차 없다.
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 죄송해요...
+
+CompWarSister/End
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]전투 수녀：\c[0] 결코 자비를 베풀지 마라!
+
+CompWarSister/Fated_enemy
+\narr동료는 모든 불결을 정화해야 한다고 말한다.
+
+CompWarSister/OvermapPop0
+우리에겐 자비를 나눌 시간이 없다.
+
+CompWarSister/OvermapPop1
+자비는 실패를 부른다!
+
+CompWarSister/OvermapPop2
+성도의 이름으로!
+
+CompWarSister/OvermapPop3
+너의 죄는 이제 용서받지 못한다!
+
+####################################################################################################################################################
+
+CompOrkindSlayer/CompData
+\board[오크 슬레이어]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]근접, 방어, 성기술
+\C[2]진영：\C[0]시바리스
+\C[2]적대 대상：\C[0]오크
+\C[2]요구 조건：\C[0]맛있는 수프 한 그릇\i[110]
+\C[2]계약 기간：\C[0]3.5일
+편집광적인 복수자.
+
+CompOrkindSlayer/begin
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]오크 슬레이어：\c[0] 놈들이… 내 가족을 죽였어.
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]오크 슬레이어：\c[0] 오크는 반드시 전멸시켜야 해!
+
+CompOrkindSlayer/Comp_disband
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]오크 슬레이어：\c[0] 안 돼! 난 아직 오크을 더 죽여야 해!
+
+CompOrkindSlayer/Comp_win
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]오크 슬레이어：\c[0] 가자! 같이 오크을 사냥하자!
+
+CompOrkindSlayer/Comp_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]오크 슬레이어：\c[0] 그건 오크이 아니잖아!
+\CBct[6]\m[sad]\plf\c[6]로나：\c[0] 미안해...
+
+CompOrkindSlayer/Slave_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]오크 슬레이어：\c[0] 노예는 미끼 말고 뭘 할 수 있지?
+\CBct[6]\m[sad]\plf\c[6]로나：\c[0] 미안해...
+
+CompOrkindSlayer/OrkindGroup_run
+\SETpl[OrkindSlayer]\Lshake\prf\c[4]오크 슬레이어：\c[0] 오크은 단 한 마리도 남겨선 안 돼!
+
+CompOrkindSlayer/OvermapPop0
+누나가 해준 스튜가 그립군...
+
+CompOrkindSlayer/OvermapPop1
+저건 오크이 아냐!
+
+CompOrkindSlayer/OvermapPop2
+오크을 갈가리 찢어버려!
+
+CompOrkindSlayer/OvermapPop3
+오크는 다 죽어야 해!
+
+####################################################################################################################################################
+
+CompHumanExplorer/CompData
+\board[무직의 모험가]
+\C[2]위치：\C[0]후열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]견제, 함정 해제, 조명
+\C[2]진영：\C[0]중립
+\C[2]적대 대상：\C[0]사악한 생물
+\C[2]요구 조건：\C[0]고기 스튜 한 그릇\i[108]
+\C[2]계약 기간：\C[0]2.5일
+\C[2]비고：\C[0]지도에 진입시, 해당 타일의 위험도 -20
+월드맵에서 휴식할 때마다 해당 타일의 위험도 -20
+이 섬에 갇힌 모험가.
+
+CompHumanExplorer/begin
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]모험가：\c[0] 원래는 시바리스의 지하 유적을 탐험하려 했지.
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]모험가：\c[0] 그런데 지금은 여기 갇혀서 밥 한 끼도 못 사 먹는 처지야.
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]모험가：\c[0] 혹시 탐험하고 싶은 데가 있다면, 먼저 밥부터 사줘.
+
+CompHumanExplorer/Comp_disband
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]모험가：\c[0] 그럼 내일 밥은 어떻게 먹으라고?!
+
+CompHumanExplorer/Comp_win
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]모험가：\c[0] 고마워!
+
+CompHumanExplorer/Comp_failed
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]모험가：\c[0] 나 갖고 노는 거야?!
+
+CompHumanExplorer/OvermapPop0
+동쪽 유적지에 가본 적 있어?
+
+CompHumanExplorer/OvermapPop1
+뱀! 난 뱀이 제일 싫어!
+
+CompHumanExplorer/OvermapPop2
+이 섬 어딘가엔 고대 신의 유적이 있을 거야.
+
+CompHumanExplorer/OvermapPop3
+시바리스의 지하 유적은 정말 장관이지.
+
+####################################################################################################################################################
+
+CompKitten/CompData
+\board[고양이]
+\C[2]위치：\C[0]후열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]알 수 없음.
+\C[2]진영：\C[0]동물
+\C[2]적대 대상：\C[0]중립
+\C[2]요구 조건：\C[0]물고기 한 마리\i[292]
+\C[2]계약 기간：\C[0]걔가 정해
+\C[2]비고：\C[0]고양이다. 널 깔보고 있다.
+수상쩍은 고양이.
+
+CompKitten/begin
+\CBid[-1,8]\c[4]고양이：\c[0] ........
+
+CompKitten/Comp_disband
+\CBid[-1,8]\c[4]고양이：\c[0] .....
+
+CompKitten/Comp_win
+\CBid[-1,3]\c[4]고양이：\c[0] 고르릉 고르릉....
+
+CompKitten/Comp_failed
+\CBid[-1,5]\c[4]고양이：\c[0] 캬악—!
+
+CompKitten/Command
+\CBid[-1,5]\c[4]고양이：\c[0] 캬악—!
+
+CompKitten/OPT_PURR
+\CBid[-1,3]\c[4]고양이：\c[0] 고르릉... 고르릉....
+\narr\..\..\..\..
+\CBct[8]\narrOFF\m[flirty]\plf\PRF\c[6]로나：\c[0] 왠지... 기분이 좋아져.
+
+####################################################################################################################################################
+
+CompDoggy/CompData
+\board[개]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]빠른 움직임, 함정 감지
+\C[2]진영：\C[0]동물
+\C[2]적대 대상：\C[0]중립, 사용자 지정
+\C[2]요구 조건：\C[0]고기 수프 한 그릇\i[108]
+\C[2]계약 기간：\C[0]무제한
+\C[2]비고：\C[0]지역 지도가 갱신될 때마다 환경 위험도 -20 감소
+자존심이라고는 없고, 아주 쉽게 먹이에 넘어가는 멍멍이.
+
+CompDoggy/begin
+\CBid[-1,20]\c[4]개：\c[0] 멍멍!
+
+CompDoggy/Comp_disband
+\CBid[-1,20]\SndLib[dogDead]\c[4]개：\c[0] 낑낑…
+
+CompDoggy/Comp_win
+\CBid[-1,20]\c[4]개：\c[0] 멍!
+
+CompDoggy/Comp_failed
+\CBid[-1,5]\c[4]개：\c[0] 으르르르!
+
+CompDoggy/Command
+\CBid[-1,20]\SndLib[dogSpot]\c[4]개：\c[0] 멍멍!
+
+CompDoggy/SetupFateEnemy
+개가 공격할 적을 설정합니다.\optD[원래대로,악을 공격,정의를 공격,동물<r=HiddenOPT0>,오크<r=HiddenOPT1>,어인<r=HiddenOPT2>,흉물<r=HiddenOPT3>,언데드<r=HiddenOPT4>]
+
+####################################################################################################################################################
+
+CompHumanSpear/CompData
+\board[중독자 용병]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]근접 전사
+\C[2]진영：\C[0]중립
+\C[2]적대 대상：\C[0]사악한 생물
+\C[2]요구 조건：\C[0]백룡초 1개\i[203]
+\C[2]계약 기간：\C[0]3일
+백룡초에 중독된 용병.
+
+CompHumanSpear/begin
+\CBid[-1,6]\c[4]중독자：\c[0] 너 혹시 백룡초 있어? 제발! 조금만 백룡초 좀 줘!
+
+CompHumanSpear/Comp_disband
+\CBid[-1,6]\c[4]중독자：\c[0] 조금만 더! 진짜 조금이면 돼!
+
+CompHumanSpear/Comp_win
+\CBid[-1,6]\c[4]중독자：\c[0] 줘! 빨리 줘!
+
+CompHumanSpear/Comp_failed
+\CBid[-1,6]\c[4]중독자：\c[0] 아아아아아악!!
+
+CompHumanSpear/OvermapPop0
+백룡초...?
+
+CompHumanSpear/OvermapPop1
+후후후...
+
+CompHumanSpear/OvermapPop2
+히히히...
+
+CompHumanSpear/OvermapPop3
+저거... 백룡초 아니야?
+
+####################################################################################################################################################
+
+CompElfArcher/CompData
+\board[엘프 궁수]
+\C[2]위치：\C[0]후열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]원거리 사격, 곡사
+\C[2]진영：\C[0]중립
+\C[2]적대 대상：\C[0]사악한 생물
+\C[2]요구 조건：\C[0]600P
+\C[2]계약 기간：\C[0]3일
+\C[2]비고：\C[0]구역 지도가 갱신될 때마다 환경 위험도 -20
+섬에 갇힌 엘프 궁수.
+
+CompElfArcher/begin
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]궁수：\c[0] 인간 세계는 흥미롭고 모험으로 가득할 줄 알았어, 하지만 내가 틀렸어.
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]궁수：\c[0] 그래! 난 엘프야! 우린 똥 안 싸!
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]궁수：\c[0] 이 지긋지긋한 곳에 질렸어! 돈 모아서 고향으로 돌아갈 거야!
+
+CompElfArcher/Comp_disband
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]궁수：\c[0] 협력 즐거웠어.
+
+CompElfArcher/Comp_win
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]궁수：\c[0] 모험할 시간이야?
+
+CompElfArcher/Comp_failed
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]궁수：\c[0] 내가 알았지! 인간은 다 사기꾼이야!
+
+CompElfArcher/Comp_failed_slave
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]궁수：\c[0] 노예? 더럽기 짝이 없네!
+
+CompElfArcher/OvermapPop0
+좋은 남자는 왜 다 바보 같지?
+
+CompElfArcher/OvermapPop1
+그건 지방이 아니라 근육이야.
+
+CompElfArcher/OvermapPop2
+인간은 정말 더러워!
+
+CompElfArcher/OvermapPop3
+맞아! 우리 엘프는 화장실 안 가!
+
+CompElfArcher/CompFile
+\SETpl[ElfArcher]...
+
+####################################################################################################################################################
+
+CompHumanScout/CompData
+\board[길잡이]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]근접, 조명
+\C[2]진영：\C[0]중립
+\C[2]적대 대상：\C[0]사악한 생물
+\C[2]요구 조건：\C[0]600P
+\C[2]계약 기간：\C[0]3일
+퇴역한 병사. 지금은 안내자.
+
+CompHumanScout/begin
+\CBid[-1,20]\c[4]길잡이：\c[0] 내 가족은 아직 노엘 마을에 있어요. 여기, 이게 그들의 초상화랍니다.
+\CBid[-1,20]\c[4]길잡이：\c[0] 나는 먹고 살려고 나온 거예요. 혹시 가고 싶은 데가 있나요?
+
+CompHumanScout/Comp_disband
+\CBid[-1,20]\c[4]길잡이：\c[0] 좋아요, 저도 이제 집에 좀 다녀와야겠네요.
+
+CompHumanScout/Comp_win
+\CBid[-1,20]\c[4]길잡이：\c[0] 좋아요, 갑시다.
+
+CompHumanScout/Comp_failed
+\CBid[-1,5]\c[4]길잡이：\c[0] 관심 없어요.
+
+CompHumanScout/Comp_failed_slave
+\CBid[-1,5]\c[4]길잡이：\c[0] 주인한테나 돌아가, 노예야.
+
+CompHumanScout/OvermapPop0
+내 아들도 당신 정도 나이였어요.
+
+CompHumanScout/OvermapPop1
+어인 섬 가본 적 있나요?
+
+CompHumanScout/OvermapPop2
+북쪽 해안, 예전엔 정말 아름다웠죠.
+
+CompHumanScout/OvermapPop3
+봐요, 이게 우리 아들이에요.
+
+####################################################################################################################################################
+
+CompFishGuard/CompData
+\board[색골 경호원]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]근접, 잡기
+\C[2]진영：\C[0]어인
+\C[2]적대 대상：\C[0]사악한 생물, 성도회
+\C[2]요구 조건：\C[0]타락 상태, 혹은 창녀특성 보유
+\C[2]계약 기간：\C[0]3일
+어인 부족의 전사. 독신이며, 교미 상대를 찾는 중.
+
+CompFishGuard/begin
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]경호원：\c[0] 여자의 냄새다…! 여자는 내가 지킨다!
+
+CompFishGuard/sex0
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]경호원：\c[0] 널 지키겠다…! 하지만 넌… 나랑 교미해야 해!
+
+CompFishGuard/sex1
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]경호원：\c[0] 쿠아히히♥ 건강한 여자♥♥♥
+
+CompFishGuard/Comp_disband
+\CBid[-1,6]\SndLib[FishkindLgSpot]\c[4]경호원：\c[0] 나… 아직 더 교미하고 싶은데…!
+
+CompFishGuard/Comp_win
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]경호원：\c[0] 네 보지… 정말 최고야…♥
+
+CompFishGuard/Comp_failed
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]경호원：\c[0] 네 보지… 냄새나!
+
+CompFishGuard/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]경호원：\c[0] 노예는… 마을로 돌아가서… 새끼나 낳아라…
+
+CompFishGuard/OvermapPop0
+나, 아직 더 교미하고 싶어…
+
+CompFishGuard/OvermapPop1
+넌 물고기를 많이 낳을 거야…
+
+CompFishGuard/OvermapPop2
+보지… 박아… 박아…
+
+CompFishGuard/OvermapPop3
+여자는… 새끼나 낳아야지…
+
+####################################################################################################################################################
+
+CompFishShaman/CompData
+\board[풋내기 샤먼]
+\C[2]위치：\C[0]후열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]사격, 마법
+\C[2]진영：\C[0]어인
+\C[2]적대 대상：\C[0]사악한 생물, 성도회
+\C[2]요구 조건：\C[0]타락 상태, 혹은 창녀특성 보유
+\C[2]계약 기간：\C[0]3일
+샤먼 수습생. 아버지의 명령으로 세상 구경을 하러 나왔다.
+
+CompFishShaman/begin
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]샤먼：\c[0] 검은 살결... 향긋해... 핥고 싶어...♥ 바다의 마녀가 널 지켜주실 거야♥
+
+CompFishShaman/sex0
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]샤먼：\c[0]  꺄르르♥ 나랑 교배해! 내 정액엔 바다 마녀의 축복이 담겨 있어!
+
+CompFishShaman/sex1
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]샤먼：\c[0]  꺄♥ 꺄르르♥ 넌 내 정액을 받아들여야 해♥
+
+CompFishShaman/Comp_disband
+\CBid[-1,6]\SndLib[FishkindSmSpot]\c[4]샤먼：\c[0] 가지 마... 검은 살결이 너무 좋아...♥
+
+CompFishShaman/Comp_win
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]샤먼：\c[0] 바다 마녀에 감사를...! 드디어 교배에 성공했어...!
+
+CompFishShaman/Comp_failed
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]샤먼：\c[0] 찬양하라, 바다 마녀...! 하지만 보지가 너무 흉해!
+
+CompFishShaman/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]샤먼：\c[0] 노예는... 마을로 돌아가서... 종을 남겨야 해...
+
+CompFishShaman/OvermapPop0
+여자다....!
+
+CompFishShaman/OvermapPop1
+보지는 전부 내 거야!
+
+CompFishShaman/OvermapPop2
+검은 살결... 핥고 싶어...
+
+CompFishShaman/OvermapPop3
+나는... 바다 마녀의 가호를 받았어...!
+
+################################## fishkind follower unique sex dialog.
+
+Lona/notWhore0
+\CBct[6]\m[flirty]\c[6]로나：\c[0] 으응... 미안, 그건 좀 곤란할 것 같아.
+
+Lona/notWhore1
+\CBct[6]\m[sad]\c[6]로나：\c[0] 미안해...
+
+CompFish/Extension
+\narr로나와의 교배을 조건으로, 그 존재는 함께하는 시간을 이틀 더 연장할 수 있었다.
+
+####################################################################################################################################################
+
+CompFireMage/CompData
+\board[화염 마법사]
+\C[2]위치：\C[0]후열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]사격, 마법
+\C[2]진영：\C[0]중립
+\C[2]적대 대상：\C[0]사악한 존재들
+\C[2]요구 조건：\C[0]활력약 1개 또는 백룡초 2개\i[213]\i[203]
+\C[2]계약 기간：\C[0]2.5일
+가난하지만 재능 있는 마법 소녀.
+
+CompFireMage/begin
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]화염 마법사：\c[0] 으으... 힘이 다 빠졌어.
+
+CompFireMage/Comp_disband
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]화염 마법사：\c[0] 하아... 왜 아무도 나랑 파티를 안 짜줄까?
+
+CompFireMage/Comp_win
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]화염 마법사：\c[0] 정말이야?! 고마워!
+
+CompFireMage/Comp_failed
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]화염 마법사：\c[0] 으윽... 너무 피곤해...
+
+CompFireMage/OvermapPop0
+나는 탄 냄새가 제일 좋아!
+
+CompFireMage/OvermapPop1
+불꽃만큼 매혹적인 건 없어.
+
+CompFireMage/OvermapPop2
+이 세계... 태울 수 있을까? 아마도?
+
+CompFireMage/OvermapPop3
+불장난... 너무 하고 싶어...
+
+CompFireMage/OvermapPop4
+이젠 아무도 나를 막을 수 없어!
+
+####################################################################################################################################################
+
+CompMusketeer/CompData
+\board[화승총병]
+\C[2]위치：\C[0]후열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]사격, 은신
+\C[2]진영：\C[0]노엘 경비대
+\C[2]적대 대상：\C[0]사악한 생물
+\C[2]요구 조건：\C[0]병에 담긴 맥주 4개\i[361]
+\C[2]계약 기간：\C[0]5일
+\C[2]비고：\C[0]#{$story_stats["HiddenOPT0"]}+#{$story_stats["HiddenOPT1"]}사용 시 은신 가능. 은신 중에는 선공하지 않음. 
+\c[4]잉카란 왕국\c[0]에서 파견된 엘리트 병사.
+은신과 화승총 사용에 능하다.  
+다만 너무 오랫동안 휴가를 못 받아 멘탈이 나가버림.  
+엘리트란 결국… 정줄 놓은 자란 뜻이다.
+
+CompMusketeer/begin_nonInGroup
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]화승총병：\c[0] 멈춰! 암호를 대라!
+
+CompMusketeer/begin
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]화승총병：\c[0] 장군님, 경례드립니다!
+
+CompMusketeer/Comp_disband
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]화승총병：\c[0] 휴가라고요? 외출 신고도 안 했는데?!
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]화승총병：\c[0] \{그럴 리가 없어!!!
+
+CompMusketeer/Comp_win
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]화승총병：\c[0] 예, 알겠습니다!
+
+CompMusketeer/Comp_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]화승총병：\c[0] 이건 부당한 명령입니다! 이의 제기하겠습니다!
+
+CompMusketeer/Weak_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]화승총병：\c[0] 나한테 명령한다고? 너 몇 기냐?
+
+CompMusketeer/CommonPop0
+예! 장군님!
+
+CompMusketeer/CommonPop1
+알겠습니다!
+
+CompMusketeer/OvermapPop0
+하나 둘, 하나 둘!
+
+CompMusketeer/OvermapPop1
+위풍당당! 강철같이!
+
+CompMusketeer/OvermapPop2
+엄정하게! 바르게!
+
+CompMusketeer/OvermapPop3
+조용히! 단단하게!
+
+######################################################################## 
+
+CompNinjaKiller/CompData
+\board[근시 암살자]
+\C[2]위치：\C[0]전열 (전열,후열 각각1명까지 고용가능)
+\C[2]전투 타입：\C[0]근접
+\C[2]진영：\C[0]시바리스
+\C[2]적대 대상：\C[0]언데드, 흉물, 오크
+\C[2]요구 조건：\C[0]수리검 20개\i[58]
+\C[2]계약 기간：\C[0]5일
+\C[2]비고：\C[0]#{$story_stats["HiddenOPT0"]}+#{$story_stats["HiddenOPT1"]}로 은신 가능. 은신 중에는 선제 공격하지 않음.
+시바리스에서 동양 문화에 살짝 맛 들인 후, 자신을 진짜 닌자라고 착각하게 된 전사.
+암살에 대해선 꽤 자신 있는 것 같지만... 문제는 시력이 너무 나쁘다는 것.
+
+CompNinjaKiller/begin_nonInGroup0
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 도모!
+
+CompNinjaKiller/begin_nonInGroup1
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 안경? 이건 시력이 나빠서 쓴 게 아니다!
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 남무삼! 이건 전투력을 감지하는 마도구라고!
+
+CompNinjaKiller/begin
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 내가 받아온 훈련... 전부 오늘을 위해 존재했다.
+
+CompNinjaKiller/Comp_disband
+\CBid[-1,6]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 넌 발버둥마저도 포기했군.
+
+CompNinjaKiller/Comp_win
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 함께 노 씬의 무리에게 철퇴를!
+
+CompNinjaKiller/Comp_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 네 힘를 아직 증명하지 못했군.
+
+CompNinjaKiller/Weak_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]동방 암살자：\c[0] 약자는, 어울리지 않아.
+
+CompNinjaKiller/CommonPop0
+참! 사! 즉! 결!
+
+CompNinjaKiller/CommonPop1
+닌자다! 살려두지 마라!
+
+CompNinjaKiller/OvermapPop0
+말도 안 돼... 철학자가 분명 그랬는데...!
+
+CompNinjaKiller/OvermapPop1
+뭐? 동방엔 이런 거 없다고? 말도 안 돼!
+
+CompNinjaKiller/OvermapPop2
+내 오해라고? 그럴 리가 없잖아!
+
+CompNinjaKiller/OvermapPop3
+말도 안 돼! 닌자는 실존해!
+
+####################################################################################################################################################
+
+CompHorseCarry/CompData
+\board[짐마차 말]
+\C[2]위치：\C[0]비전투
+\C[2]진영：\C[0]동물
+\C[2]적대 대상：\C[0]없음
+짐마차 말은 반나절 기준#{$story_stats["HiddenOPT1"]}P에 대여할 수 있습니다.
+짐마차 말은 대용량의 화물 저장 공간을 제공합니다.
+짐마차 말이 해산되거나, 파티를 떠나거나, 사망하기 전에 반드시 화물을 꺼내십시오.  
+그렇지 않으면 모든 화물을 잃게 됩니다.

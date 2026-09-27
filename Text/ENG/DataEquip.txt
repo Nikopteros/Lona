@@ -1,0 +1,810 @@
+################################################### NeckleAtoner
+
+NeckleLona/item_name
+Family Locket
+
+NeckleLona/description
+\}Gold-plated. Inside the locket contains a\n
+detailed painting of your adoptive parents.\n
+\C[2]Increases minimum Mood.\n
+
+NeckleBelt/item_name
+Leather Collar
+
+NeckleBelt/description
+\}Proof of disobedience.\n
+\C[6]Increases ATK and Sexy.\n
+\C[6]Decreases DEF and Weak.\n
+
+NeckleAtoner/item_name
+Atoner's Pendant
+
+NeckleAtoner/description
+\}You filthy whore! Make amends to the Saint\n
+by using your body to suck out the sins of all\n
+liars and sinners.\n
+\C[5]Increases Sexy and Weak.\n
+
+###################################################
+
+Tampon/item_name
+Pad
+
+Tampon/description
+\}\n
+\C[2]Reduces period debuffs.\n
+
+TamponUsed/item_name
+Used Pad
+
+TamponUsed/description
+\}Soaked in dirty filth.\n
+
+RagBot/item_name
+Dirty Sandals
+
+RagBot/description
+\}Woven carelessly from scraps of cloth and straw,\n
+\C[6]Increases Weak, Dirty and SCU.\n
+\C[6]Decreases Sexy.\n
+
+PantyVag/item_name
+Used Underwear
+
+PantyVag/description
+\}Old underwear of unknown origin,\n
+emitting a faint, grimy odor.\n
+
+NunVeilHeadEquip/item_name
+Martyr's Veil
+
+NunVeilHeadEquip/description
+\}A daughter of the Saint mustn't let her mind be\n
+corrupted by the sins and blasphemy of the Liars.\n
+\C[2]Increases HP, STA, CON  Will, MORA.\n
+\C[6]Increases Sexy.
+
+NunMidExtra/item_name
+Martyr's Wimple
+
+NunMidExtra/description
+\}The sigil of the Saint covers my chest, reminding\n
+me he is always in my heart and to dress modestly.\n
+\C[2]Increases HP, STA, CON  Will, MORA.\n
+\C[6]Increases Sexy.
+
+NunSexyMid/item_name
+Martyr's Habit
+
+NunSexyMid/description
+\}A revealing tunic. The rear is exposed for a sister\n
+to sacrifice her maidenhood as alms for the poor.\n
+\C[2]Increases HP, STA, CON  Will, MORA.\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty, Sexy.\n
+
+DocMid/item_name
+Medical Coat
+
+DocMid/description
+\}Common doctor's coat.\n
+\C[2]Increases WIS, SUR. \C[6]Decreases Weak, Sexy,
+
+DocMidExtra/item_name
+Medicine Pouch
+
+DocMidExtra/description
+\}Originally used to store various medicines,\n
+it is now used to store miscellaneous items.\n
+\C[2]Increases WIS, SUR. \C[6]Decreases Weak, Sexy,
+
+DocBot/item_name
+Healer's trousers
+
+DocBot/description
+\}The medical leggings fit perfectly,\n
+though no one knows why.
+\C[2]Increases WIS, SUR. \C[6]Decreases Weak, Sexy,
+
+DocTop/item_name
+Plague Cloak
+
+DocTop/description
+\}A secondhand cloak, filled with the scent of medicine.\n
+\C[2]Increases WIS, SUR, DEF. \C[6]Decreases Weak, Sexy,
+
+DocHead/item_name
+Plague Mask
+
+DocHead/description
+\}Commonly seen doctor masks,\n
+with the mouth stuffed full of various herbs.\n
+\C[2]Increases WIS, SUR. \C[6]Decreases Weak, Sexy,
+
+BucketHelmet/item_name
+Great Helms
+
+BucketHelmet/description
+\}Way too big—totally doesn’t fit my head!\n
+\C[2]Increases DEF. \C[6]Decreases Weak, Sexy, \C[1]STA.\n
+\C[2]Decreases negative effects on DEF.\n
+
+HoodCloakTop/item_name
+Hooded Cloak
+
+HoodCloakTop/description
+\}This should help cover up and hide my face.\n
+\C[6]Improves ATK, SCU\n
+\C[6]Decreases Sexy, Weak\n
+
+SlaveMidExtra/item_name
+Corded Belt
+
+SlaveMidExtra/description
+\}Nothing special, just a dirty rope.\n
+\C[6]Increases Weak, SCU, and DEF.\n
+\C[6]Decreases Sexy.\n
+
+SlaveMid/item_name
+Slave Tunic
+
+SlaveMid/description
+\}In order to facilitate others to vent their\n
+sexual desires, there is no fabric behind it.\n
+\C[6]Increases Weak, Dirty, SCU, and DEF.\n
+\C[6]Decreases Sexy.\n
+
+FootmanHelmet/item_name
+Old Morion Helmet
+
+FootmanHelmet/description
+\}Dubbed as the "Helmet of Conquerors" by nobles.\n
+Honestly though, I think it looks like a silly pot...\n
+\C[2]Increases DEF. \C[6]Decreases Weak, Sexy, \C[1]STA.\n
+\C[2]Decreases negative effects on DEF.\n
+
+FootmanMidExtra/item_name
+Worn Cuirass
+
+FootmanMidExtra/description
+\}A very flat breastplate that's seen better days.\n
+Fits my chest quite well for some odd reason...\n
+\C[2]Increases DEF. \C[6]Decreases Weak,Sexy.\n
+\C[2]Decreases negative effects on SPD, DEF.\n
+
+FootmanMid/item_name
+Footman's Gambeson
+
+FootmanMid/description
+\}Standard issue uniform for low-ranking soldiers.\n
+Quite stylish, if I do say so myself. Size：Men's XXS\n
+\C[2]Increases DEF, ATK. \C[6]Decreases Weak,Sexy.\n
+\C[2]Decreases negative effects on HP,STA,SPD,DEF.\n
+
+FootmanBot/item_name
+Footman's Breeches
+
+FootmanBot/description
+\}Baggy, puffy, and ugly...\n
+At least the leather boots look nice!\n
+\C[2]Increases DEF, ATK. \C[6]Decreases Weak,Sexy.\n
+\C[2]Decreases negative effects on HP,STA,SPD,DEF.\n
+
+MhChainMace/item_name
+Flail
+
+MhChainMace/description
+\}Doesn't matter if you don't know how to use it.\n
+All you have to do is just swing it around!\n
+\C[6]Main hand, Melee, Short range, High-quality.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+MhHorseCock/item_name
+Horse Cock
+
+MhHorseCock/description
+\}It barely fits in my hand...\n
+\C[6]Main hand, Melee, Short range\n
+\C[6]Increases CON.\n
+\C[6]Decreases Sexy and Weak.\n
+
+2MhBareHand/item_name
+Lona's Hands
+
+2MhBareHand/description
+\}Nothing out of the ordinary, just Lona's hands.\n
+
+ItemShProtect/item_name
+Relic of Guardian
+
+ItemShProtect/description
+\}Protect and bless the followers of the Saint.\n
+It also protects heathens and infidels as well...\n
+Maybe the unworthy also deserve his love?\n
+\C[6]Off-hand, Divine.\n
+
+ItemShPurge/item_name
+Relic of Retribution
+
+ItemShPurge/description
+\}Be the Saint's judge and executioner for all liars.\n
+Strangely, the relic punishes believers too...\n
+Perhaps their faith wasn't strong enough?\n
+\C[6]Off-hand, Divine.\n
+
+MhKatana/item_name
+Shattered Katana
+
+MhKatana/description
+\}Meryme defied the rules of nature.\n
+But in the end, it has to be this way...\n
+\C[6]Two-handed, Melee, High-quality.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhSaintSym/item_name
+Idol of the Believer
+
+MhSaintSym/description
+\}Oh Saint above! Please bless this lost lamb.\n
+\C[6]Main hand.\n
+
+MhBroadSword/item_name
+False God Slayer
+
+MhBroadSword/description
+\}The sword of the Berserker. It's way too big...\n
+Enormous, chunky, hefty, and far too rugged.\n
+\C[6]Two-handed, Melee, High-quality.\n
+\C[6]Increases ATK and DEF.\n
+\C[6]Decreases Sexy, Weak, and SPD.\n
+\C[6]Uninterruptible slash attack.\n
+
+ShTeslaBook/item_name
+Electric Spell Book
+
+ShTeslaBook/description
+\}-The basics of Electricity, Volume 1.-\n
+Author： Tesla\n
+\C[6]Off-hand, Magic, Unique.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhTeslaStaff/item_name
+Lightning Rod
+
+MhTeslaStaff/description
+\}A staff repurposed into a voltage insulator.\n
+\C[6]Main hand, Magic, Ranged.\n
+\C[6]Increases WIS. Decreases Sexy and Weak.\n
+
+PaintHead/item_name
+Tribal War Paint
+
+PaintHead/description
+\}Ancient runes are slapped on your face, proving\n
+your phallus is now part of the Nine-Inch Tribe.\n
+\C[6]Increases SUR, SCU, and Sexy.\n
+\C[6]Decreases Weak and Morality.\n
+
+SurTop/item_name
+Leather Shawl
+
+SurTop/description
+\}Has the stench of an animal.\n
+Quite thick and warm.\n
+\C[6]Increases DEF, SPD, SUR, and SCU.\n
+\C[6]Decreases Sexy and Weak.\n
+
+SurMid/item_name
+Leather Jacket
+
+SurMid/description
+\}Common work clothes, but made from\n
+animal skin instead of cotton.\n
+\C[6]Increases DEF, SPD, SUR, and SCU.\n
+\C[6]Decreases Sexy and Weak.\n
+
+SurBot/item_name
+Hunter's Boots
+
+SurBot/description
+\}I'm not wearing pants!~ ...B-Because wearing\n
+pants will just slow me down!\n
+\C[6]Increases DEF, SPD, SUR, and SCU.\n
+\C[6]Increases Sexy.\n
+
+SurMidExtra/item_name
+Hunter's Sash
+
+SurMidExtra/description
+\}A simple sash used for hanging trophies\n
+from your hunt.\n
+\C[6]Increases DEF, SPD, SUR, and SCU.\n
+\C[6]Decreases Sexy and Weak.\n
+
+ShTalkie/item_name
+Saint's Artifact
+
+ShTalkie/description
+\}A holy trinket to help you pray to the Saint above.\n
+\C[6]Off-hand\n
+
+MhMusket/item_name
+Musket
+
+MhMusket/description
+\}With the power of gunpowder, even the weakest\n
+peasant can become a powerful killer!\n
+\C[6]Two-handed, Magic, Ranged.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+SexyMid/item_name
+Sex Doll's Lingerie
+
+SexyMid/description
+\}These erotic chains show you are a toy of nobles.\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty.\n
+\C[6]Increases Weak, Sexy, and DEF.\n
+
+SexyBot/item_name
+Sex Doll's Loincloth
+
+SexyBot/description
+\}This sexy skirt shows you are a toy of nobles.\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty.\n
+\C[6]Increases Weak, Sexy, and DEF.\n
+
+SexyHeadEquip/item_name
+Sex Doll's Tiara
+
+SexyHeadEquip/description
+\}This lewd crown shows you are a toy of nobles.\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty.\n
+\C[6]Increases Weak, Sexy, and DEF.\n
+
+DancerTop/item_name
+Whore's Armbands
+
+DancerTop/description
+\}These chiffon arm drapes represent the\n
+fluttering wings of an angel while dancing.\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty.\n
+\C[6]Decreases Weak. Increases Sexy and SPD.\n
+
+DancerMid/item_name
+Whore's Garment
+
+DancerMid/description
+\}This halter neck top is said to "kill the virginity"\n
+of boys and seduce them into men.\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty.\n
+\C[6]Decreases Weak. Increases Sexy and SPD.\n
+
+DancerBot/item_name
+Whore's Silk Skirt
+
+DancerBot/description
+\}The transparent fabric of this skirt allows\n
+customers to view the goods they desire most...\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty.\n
+\C[6]Decreases Weak. Increases Sexy and SPD.\n
+
+DancerHeadEquip/item_name
+Whore's Head Veil
+
+DancerHeadEquip/description
+\}A decorated headdress worn by the fabled\n
+belly dancers of the nomadic desert lands.\n
+\C[4]Requires Trait："Prostitute". Decreases Dirty.\n
+\C[6]Decreases Weak. Increases Sexy and SPD.\n
+
+ShWaterBook/item_name
+Water Spell Book
+
+ShWaterBook/description
+\}-Water Spell Encyclopedia- Helps you correct\n
+your pronunciations.\n
+\C[6]Off-hand, Magic, Unique.\n
+\C[6]Decreases Sexy and Weak.\n
+
+ShFireBook/item_name
+Fire Spell Book
+
+ShFireBook/description
+\}-A Pyromancer's Favorite- Tells the story about\n
+the most famous mage on the continent.\n
+\C[6]Off-hand, Magic, Unique. \n
+\C[6]Decreases Sexy and Weak.\n
+
+MhWaterStaff/item_name
+Aqua Staff
+
+MhWaterStaff/description
+\}Belonged to a famous Scottish Wizard.\n
+Engraved are the words： "Waatah.  Pur Waatah."\n
+\C[6]Main hand, Magic, Ranged.\n
+\C[6]Increases WIS. Decreases Sexy and Weak.\n
+
+MhFireStaff/item_name
+Flame Wand
+
+MhFireStaff/description
+\}Cool guys don't look at explosions.\n
+But... I'm a girl.\n
+\C[6]Main hand, Magic, Ranged.\n
+\C[6]Increases WIS. Decreases Sexy and Weak.\n
+
+ShAbominationTotem/item_name
+Abomination Totem
+
+ShAbominationTotem/description
+\}Made from human gore and monster filth.\n
+The result is pasted onto a large bone.\n
+\C[6]Off-hand, Magic, Unique.\n
+\C[6]Decreases Weak and Morality.\n
+
+ShBoneShield/item_name
+Bone Shield
+
+ShBoneShield/description
+\}Created by the bones of various creatures.\n
+It's not very strong.\n
+\C[6]Off-hand, Short range.\n
+\C[6]Increases Def. Decreases Weak and Morality.\n
+
+MhBoneStaff/item_name
+Vile Scepter
+
+MhBoneStaff/description
+\}Made of human bones and held together with the\n
+sperm of monsters. The staff seems to be cursed.\n
+\C[6]Main hand, Magic, Ranged.\n
+\C[6]Increases WIS. Decreases Weak and Morality.\n
+
+MhWhip/item_name
+Whip
+
+MhWhip/description
+\}Belonged to a famous archaeologist.\n
+Quite kinky.\n
+\C[6]Main hand, Melee, AoE, High-quality.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+MhSabar/item_name
+Saber
+
+MhSabar/description
+\}The blade looks very light. Despite this, one\n
+must properly wield it, else it wields you.\n
+\C[6]Main hand, Melee, Short range, High-quality.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+MhShortSword/item_name
+Short Sword
+
+MhShortSword/description
+\}A common sword used by many adventurers.\n
+\C[6]Main hand, Melee, Short range.\n
+\C[6]Increases ATK.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhSickle/item_name
+Sickle
+
+MhSickle/description
+\}Tool used for agriculture, not for combat.\n
+\C[6]Main hand, Melee, Short range.\n
+\C[6]Increases ATK.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhWoodenClub/item_name
+Wooden Club
+
+MhWoodenClub/description
+\}Made from a tree branch. Am I holding this right?\n
+\C[6]Main hand, Melee, Short range.\n
+\C[6]Increases ATK.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhSilverDildo/item_name
+Silver Cudgel
+
+MhSilverDildo/description
+\}Designed by infamous musician,\n
+Johnny Silver Dildo.\n
+\C[6]Main hand, Melee, Short range.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+MhManCatcher/item_name
+Restraint Pole
+
+MhManCatcher/description
+\}It looks scary, but it's not meant to kill people.\n
+\C[6]Two-handed, Melee, Mid range.\n
+\C[6]Increases ATK.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhHalberd/item_name
+Halberd
+
+MhHalberd/description
+\}Too heavy!\n
+\C[6]Two-handed, Melee, Mid range, High-quality.\n
+\C[6]Increases ATK.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhWoodenSpear/item_name
+Wooden Spear
+
+MhWoodenSpear/description
+\}A long pole with a sharp, pointy tip.\n
+What else is there to observe?\n
+\C[6]Two-handed, Melee, Mid range.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+MhPickAxe/item_name
+Pickaxe
+
+MhPickAxe/description
+\}A common tool used for the following.\n
+Mining, crafting, and building forts. At night.\n
+\C[6]Main hand, Melee, Short range.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+MhRake/item_name
+Pitchfork
+
+MhRake/description
+\}Cheap and easy to use. A good friend of peasants.\n
+\C[6]Two-handed, Melee, Mid range.\n
+\C[6]Increases ATK.\n
+\C[6]Decreases Sexy and Weak.\n
+
+MhMetalSpear/item_name
+Metal Pike
+
+MhMetalSpear/description
+\}A weapon commonly used by soldiers.\n
+Quite heavy.\n
+\C[6]Two-handed, Melee, Mid range, High-quality.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+MhLongBow/item_name
+Longbow
+
+MhLongBow/description
+\}It seems this bow was hastily made.\n
+The quality of the wood is quite poor.\n
+\C[6]Two-handed, Ranged, High-quality.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+AdvTop/item_name
+Red Cape
+
+AdvTop/description
+\}It looks cool and keeps you warm.\n
+\C[6]Increases ATK and DEF.\n
+\C[6]Decreases Sexy and Weak.\n
+
+RagTop/item_name
+Dirty Shawl
+
+RagTop/description
+\}A piece of stinky and oily cloth.\n
+No one wants to touch it.\n
+\C[6]Increases Weak, Dirty, SCU, and DEF.\n
+\C[6]Decreases Sexy.\n
+
+AdvMid/item_name
+Civilian Top
+
+AdvMid/description
+\}These clothes represent who I am.\n
+It's not like I have any other choice.\n
+\C[6]Increases ATK and DEF.\n
+\C[6]Decreases Sexy and Weak.\n
+
+RagMid/item_name
+Dirty Rags
+
+RagMid/description
+\}Dirty and smelly. I don't want to wear it if it's\n
+not necessary...\n
+\C[6]Increases Weak, Dirty, SCU, and DEF.\n
+\C[6]Decreases Sexy.\n
+
+LightIronArmor/item_name
+Light Iron Armor
+
+LightIronArmor/description
+ON DEV
+
+RagVag/item_name
+Dirty Underwear
+
+RagVag/description
+\}Filthy, and has an extremely foul smell.\n
+Yellow and brown colors stain the cloth...\n
+
+
+AdvBot/item_name
+Civilian Pants
+
+AdvBot/description
+\}Not bad, it fits quite nicely.\n
+\C[6]Increases ATK and DEF.\n
+\C[6]Decreases Sexy and Weak.\n
+
+AdvMidExtra/item_name
+Leather Bag
+
+AdvMidExtra/description
+\}There's nothing inside! Really! I'm not lying!\n
+\C[6]Increases ATK and DEF.\n
+\C[6]Decreases Sexy and Weak.\n
+
+RagMidExtra/item_name
+Dirty Apron
+
+RagMidExtra/description
+\}A torn cloth I can use as a skirt.\n
+But why would I wear such gross material?!\n
+\C[6]Increases Weak, Dirty and SCU.\n
+\C[6]Decreases Sexy.\n
+
+ChainMidExtra/item_name
+Metal shackles
+
+ChainMidExtra/description
+\}Restraints for criminals and sex slaves\n
+not talking about me, of course\n
+\C[6]Increases Sexy and Weak.\n
+\C[1]Decreases SPD.\n
+
+CollarTopExtra/item_name
+Metal Collar
+
+CollarTopExtra/description
+\}Special equipment used on slaves and criminals.\n
+Not mine of course.\n
+\C[6]Increases Sexy and Weak.\n
+\C[1]Decreases STA.\n
+
+ChainCollarTopExtra/item_name
+Chained Collar
+
+ChainCollarTopExtra/description
+\}Special equipment used on slaves and criminals.\n
+Now comes with a chain!\n
+\C[6]Increases Sexy and Weak.\n
+\C[1]Decreases STA.\n
+
+CuffTopExtra/item_name
+Metal Harness
+
+CuffTopExtra/description
+\}Sex-slave specific restraints. I-I'm a good citizen! How is this possible?!\n
+\C[1]Unable to use attack skills.\n
+\C[6]Increases Sexy and Weak.\n
+\C[1]Decreases STA and ATK.\n
+
+ChainCuffTopExtra/item_name
+Full Metal Harness
+
+ChainCuffTopExtra/description
+\}Sex-slave specific restraints. I-I'm a good citizen! How is this possible?!\n
+\C[1]Unable to use attack skills.\n
+\C[6]Increases Sexy and Weak.\n
+\C[1]Decreases STA and ATK.\n
+
+HairDancer/item_name
+Elegant Single Braid
+
+HairDancer/description
+\}A graceful and lady-like hairstyle. Very popular\n
+among young brides, dames, and courtesans.\n
+\C[6]Increases Sexy.\n
+
+HairShortMessy/item_name
+Messy Short Hair
+
+HairShortMessy/description
+\}This ruffled hairstyle makes me look like a boy...\n
+\C[6]Increases Dirty.\n
+\C[6]Decreases Sexy and Weak.\n
+
+HairMessy/item_name
+Unkempt Long Hair
+
+HairMessy/description
+\}Perhaps the safest hairstyle for the time being?\n
+\C[6]Increases Weak and Dirty.\n
+\C[6]Decreases Sexy.\n
+
+HairPony/item_name
+Ponytail
+
+HairPony/description
+\}A perfect hairstyle for when you want to attract\n
+your lover. Or kill others who stand in your way...\n
+\C[6]Increases Sexy.\n
+\C[6]Decreases Weak.\n
+
+HairTwinBraid/item_name
+Double Braids
+
+HairTwinBraid/description
+\}With my hair in this style,\n
+I've suddenly removed my emergence to others...\n
+\C[6]Increases Weak.\n
+\C[6]Decreases Sexy.\n
+
+StarterGlass/item_name
+Glasses
+
+StarterGlass/description
+\}You look smarter. Taking them off almost\n
+seems like I've gone through a metamorphosis...\n
+\C[6]Increases Weak and WIS.\n
+\C[6]Decreases Sexy and ATK.\n
+
+SunGlass/item_name
+Sunglasses
+
+SunGlass/description
+\}Debugging tool. Responsible for causing more errors.\n
+DEAL WITH IT!\n
+\C[6]Locks HP, STA, and Mood.\n
+
+ShDagger/item_name
+Enhanced Dagger
+
+ShDagger/description
+\}A dagger forged from a crystal ore. Very sharp.\n
+\C[6]Off-hand, Melee, Short range, High-quality.\n
+\C[6]Increases ATK.\n
+\C[6]Decreases Sexy and Weak.\n
+
+#\}Whether it's for work or hunting, it's ideal to bring it for self-defense.\n
+
+ShThrowingKnives/item_name
+Throwing Kunais
+
+ShThrowingKnives/description
+\}Daggers favored by assassins from the East,\n
+as well as dunces obsessed with the East.\n
+\C[6]Off-hand, Ranged, High-quality.\n
+\C[6]Increases ATK. Decreases Sexy and Weak.\n
+
+ShWoodenShield/item_name
+Wooden Shield
+
+ShWoodenShield/description
+\}This basic shield made from wood should\n
+protect me. I think...\n
+\C[6]Off-hand, Short range.\n
+\C[6]Increases DEF. Decreases Sexy and Weak.\n
+
+ShMetalShield/item_name
+Iron Shield
+
+ShMetalShield/description
+\}It's heavy to hold with only one hand...\n
+Has better protection than a wooden fence.\n
+\C[6]Off-hand, Short range, High-quality.\n
+\C[6]Increases DEF. Decreases Sexy and Weak.\n
+
+ShLantern/item_name
+Lantern
+
+ShLantern/description
+\}Provides lighting when equipped in S-ARM or EXT.\n
+Can set up light sources on the ground, up to four.\n
+\C[6]Off-hand, Placement.\n
+\C[6]Decreases Sexy.\n
+
+SwordAtest/item_name
+test
+
+SwordAtest/description
+asdf
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

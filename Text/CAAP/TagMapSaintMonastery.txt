@@ -1,0 +1,476 @@
+overmap/OvermapEnter
+\m[confused]Monasterio de los Santos \optB[Cancelar,Entrar]
+
+priest/common
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡El Santo te ha traído aquí!
+
+opt/about
+¿Quién es el Santo?
+
+opt/moreGrace
+Pedir la bendición del Santo
+
+priest/trade
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Todo lo que tengo está bendecido por el Santo! ¡El Santo te bendecirá si compras algo!
+
+priest/about
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\m[confused]\Lshake\prf\C[4]Sacerdote：\C[0]    Antes, el Santo destruía el mal por nosotros.
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Destruía hipócritas, mentirosos y pecadores!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Proveía paz y tranquilidad a los inocentes!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Nos dio carne y sangre!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Y ahora, el Santo nos castiga por todos vuestros pecados!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Todo porque sois impíos!
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]Creyente：\C[0]    ¡Oh, Santo! ¡Nos equivocamos!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]Creyente：\C[0]    ¡Castígame! ¡Te lo ruego, Santo!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡El Santo nos ha iluminado claramente! ¿Por qué no crees en Él?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Tu impiedad y falta de fe han permitido el regreso de mentirosos y pecadores!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡TÚ! ¡Es imperdonable ser tan olvidadizo!
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]Creyente：\C[0]    ¡Soy culpable de todo! ¡No creí en Él!
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]Creyente：\C[0]    ¡Obedeceré al Santo! ¡Tomad todo lo que tengo!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¿Y tú? ¿Por qué no crees en el Santo?
+\CBct[1]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    ¡¿Eh?! ¿¿Yo?? \optD[¡Yo creo!,¿Qué es el Santo?]
+
+priest/about_optY
+\CBct[6]\m[terror]\plf\Rshake\C[6]Lona：\C[0]    ¡Yo creo! ¡Soy creyente y muy devota!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Ven! ¡Démosle nuestra bendición!
+\CBct[2]\m[confused]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¡¿Eh?!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Ven aquí! ¡Glorificad a esta chica! ¡Será una creyente!
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]Creyente：\C[0]    ¡Oh, Santo! ¡Glorifica a la chica!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]Creyente：\C[0]    ¡Gracias, Santo! ¡Danos una nueva creyente!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Ven aquí! ¡Te bautizaré!
+\CBct[2]\m[flirty]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¿Qué? ¡¿Oh?!
+
+priest/about_optN
+\CBct[8]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Bueno... Quería preguntar algo...
+\CBct[8]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    ¿Quién es este Santo? ¿Y qué hizo con...?
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Tú! ¡Pecadora! ¡Te mataré! ¡En nombre del Santo! \CamCT
+
+priest/BaptizePlayer1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Oh, Santo, limpia los pecados de este pecador!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Pecador! ¡Fuera los pecados!
+
+priest/BaptizePlayer2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Pecador! ¡Fuera los pecados!
+
+priest/BaptizePlayer3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Pecador! ¡Fuera los pecados!
+\CBct[8]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Uff...
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Pecadora! ¡Quítate la ropa! ¡Renuncia a los deseos materiales! ¡Solo el Santo puede protegerte!
+\CBct[2]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    ¿Emm?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Quítate la ropa, glorifica al Santo!
+\CBct[6]\m[shocked]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¿Por qué?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Hija! ¡Solo así el Santo puede limpiar tu cuerpo pecador! \optD[Rechazar,Desnudarse]
+
+priest/BaptizePlayer3_N
+\CBct[5]\m[wtf]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¡No! ¡No lo haré!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡{Traidora del Santo! ¡Te mataré! \CamCT
+
+priest/BaptizePlayer3_Y
+\CBct[6]\m[shy]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Ohhh... Está bien...
+
+priest/BaptizePlayer3_touch0
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Sacerdote：\C[0]    ¡Mirad! ¡Qué pecaminoso es su cuerpo! ¡Oh, Santo! ¡Límpiala!
+
+priest/BaptizePlayer3_touch1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Sacerdote：\C[0]    ¡Mirad! ¡Seduce a los hombres con su trasero! ¡Cuánta maldad!
+
+priest/BaptizePlayer3_touch2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Sacerdote：\C[0]    ¡Mirad! ¡Llena su vagina con los fluidos de los pecadores! ¡Qué abominación!
+
+priest/BaptizePlayer3_touch3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]Sacerdote：\C[0]    ¡Mirad! ¡Pronuncia palabras sucias con su boca! ¡Qué descaro!
+
+priest/BaptizePlayer4
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Oh, Santo! ¡Te ruego, bendice mi cuerpo! ¡Mi alma!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Limpiaré estos pecados en gloria del Santo!
+\CBct[1]\m[shocked]\Rshake：\C[0]\C[6]Lona：\C[0]    ¡Ay!!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡No temas, hija! ¡Llenaré tu cabeza de fe en el Santo! ¡Él te limpiará de pensamientos malvados!
+
+priest/BaptizePlayer5
+\CBct[2]\m[fear]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Owww... ¿Aún no termina?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Solo queda un paso! ¡Llenaremos tu cuerpo de fe en los Santos!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Él limpiará todas tus mentiras que trajiste al mundo en el pasado!
+\CBct[8]\m[sad]\plf\PRF：\C[0]\C[6]Lona：\C[0]    ......
+
+priest/BaptizePlayer6
+\CBct[8]\m[tired]\plf\PRF：\C[0]\C[6]Lona：\C[0]    .........
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    Ahora estás limpia, ahora eres una discípula reconocida por el Santo, ahora eres una creyente.
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Ahora, habla! ¡En gloria del Santo!
+\CBct[20]\m[sad]\plf\PRF：\C[0]\C[6]Lona：\C[0]    En gloria del Santo.
+
+priest/BaptizePlayer_end
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Todos los creyentes! ¡He escuchado las revelaciones de los Santos!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Esta chica ha sido reconocida por los Santos!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Ahora es una de nosotros! ¡Glorificadla!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]Creyente：\C[0]    ¡Gloria al Santo! ¡Gracias, Santo!
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]Creyente：\C[0]    ¡Oh, Santo! ¡Glorifica a esta chica!
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]Creyente：\C[0]    ¡Gracias, Santo! ¡Danos un nuevo creyente!
+\CBct[8]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Oh, bueno... ¿Gracias, chicos?
+
+
+################################################################# 2nd
+
+priest/GraceAgain0
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\C[4]Sacerdote：\C[0]    ¿Buscas más bendiciones del Santo? Hija, no debes ser tan codiciosa, es malvado, y podrías ser reconocida como mentirosa por el Santo.
+\CBct[8]\m[sad]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Perdón, Padre...
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    No importa, te perdono. Permíteme darte la bendición del Santo.
+
+priest/GraceAgain1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Quítate la ropa de la hipocresía, el Santo debe estar desnudo ante la mentira y el pecado! ¡Adelante!
+\CBct[8]\m[shy]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Sí....
+
+priest/GraceAgain2
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡El Santo te bendecirá ahora! ¡Puedes absorber la bendición con tus propias fuerzas!
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡El Santo nos dará fuerza para vencer el mal! ¡Pero tú! ¡Debes hacerlo por tu propia voluntad!
+\CBct[8]\m[tired]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Sí....
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Confía en tus propias fuerzas! ¡Sumérgete en los pensamientos del Santo!
+\CBct[8]\m[shy]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Sí..
+
+priest/GraceAgain3
+\Lshake\c[6]Sacerdote：\C[0]    \{¡O-oh!
+\Lshake\c[6]Sacerdote：\C[0]    \{¡EXCELENTE!! ¡Siento que viene la bendición!
+
+priest/GraceAgain4
+\Lshake\c[6]Sacerdote：\C[0]    \{¡Ahí viene! ¡Oh, Santo! ¡Me corro!
+
+priest/GraceAgain5
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Hija! ¡Lo haces muy bien! ¡Has vencido al mal!
+\CBct[8]\m[tired]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Gracias.... Padre.
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Las mentiras han sido borradas de tu mente! ¡Pero siento que el mal aún acecha en algún lugar!
+\CBct[6]\m[wtf]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¡¿Qué debo hacer?! ¡Padre, ayúdeme!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Hija, no te fallaré! ¡Derramaré más bendiciones del Santo sobre tu cuerpo!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Entrégame tu cuerpo!
+\CBct[20]\m[shocked]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¡Sí! ¡Padre!
+
+priest/GraceAgain6
+\CBct[8]\m[shy]\plf：\C[0]\C[6]Lona：\C[0]    ......
+
+priest/GraceAgain7
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    Hija, lo haces muy bien. Las mentiras y pecados han sido expulsados de tu cuerpo, por ahora.
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    Debes venir a verme regularmente para recibir más bendiciones, o los pecados y mentiras corromperán tu cuerpo, convirtiendo tu alma y carne en suciedad.
+\CBct[20]\m[terror]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¡Sí!
+
+
+########################add title
+
+priest/add_title1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Alto! ¡Escucho las palabras del Santo! ¿Estás lista para oírlas?
+\CBct[20]\m[shocked]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¡Sí!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    Mi fe es pura, pero los pecados de otros creyentes y seguidores en el monasterio siguen sin ser limpiados.
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Tú debes hacerlo! ¡Chupa su maldad con tu boca bendita!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Tú debes hacerlo! ¡Limpia sus cuerpos pecadores de su jugo vil!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Tú debes hacerlo! ¡Usa tu cuerpo para borrar sus mentiras!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Adelante, hija mía! ¡Hacia la victoria del bien sobre el mal y el pecado! ¡En gloria del Santo!
+\CBct[20]\m[serious]\plf\Rshake：\C[0]\C[6]Lona：\C[0]    ¡Sí! ¡En gloria del Santo!
+
+########################reward
+
+priest/get_sexReward
+\narr¡¡¡Gloria a los Santos!!!
+\narrLona aprendió a expulsar el mal de otros...
+
+MainNun/begin0
+\CBid[-1,20]\C[4]Sacerdote：\C[0]    Incluso aquí hay trampas de mentirosos....
+
+MainNun/begin1
+\CBid[-1,20]\C[4]Sacerdote：\C[0]    Corrupción de la iglesia, corrupción de la gente....
+
+MainNun/begin2
+\CBid[-1,20]\C[4]Sacerdote：\C[0]    El mentiroso tiene muchas caras....
+
+
+######################################################################################################################################### QUEST
+
+priest/QuProgScoutCampOrkind2_done
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    ¿Eres una mercenaria bajo las órdenes del Santo?
+\CamCT\plf\PRF\m[flirty]\C[6]Lona：\C[0]    ¿Bajo sus órdenes?
+\CamCT\m[confused]\plf\PRF\C[6]Lona：\C[0]    Bueno, supongo que sí.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    Gracias por tu duro trabajo, esos demonios intentaron atacar el monasterio antes.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    Pero ahora, han sido expulsados al abismo por el Santo.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]Sacerdote：\C[0]    En gloria del Santo.
+\CamCT\m[flirty]\plf\PRF\C[6]Lona：\C[0]    En gloria del Santo.
+
+#########################################################################################################################################
+
+Merit/Box0
+\SETpl[HumPriest2]\Lshake\prf\C[4]Creyente：\C[0]    El dinero son deseos materiales e impíos, causados por el pecado.
+\Lshake\prf\C[4]Creyente：\C[0]    El Santo te perdonará tus transgresiones, pero debes renunciar a tus bienes mundanos.
+
+Merit/Box1
+\board[Hacer una donación]
+Cada 2000 puntos te darán +1 de Reputación
+¡Cree en el Santo! ¡Él te guiará por el camino correcto!
+
+Merit/Box2
+\prf\C[4]Creyente：\C[0]    ...
+
+Merit/END_Good
+\SETpl[HumPriest2]\Lshake\prf\C[4]Creyente：\C[0]    El Santo perdona tus pecados.
+
+Merit/END_Bad
+\SETpl[HumPriest2]\Lshake\prf\C[4]Creyente：\C[0]    ¿Y eso es todo? ¿Crees que el Santo perdonará a una pecadora como tú?
+\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    ¡¿Perdón?!
+
+################################################################################################################################################
+
+Lona/WhoreJobStart0
+\CBct[8]\m[shy]\plf\PRF\C[6]Lona：\C[0]    El Santo me ordenó limpiar vuestros pecados.....
+
+MaleBeliever/CommonHuman_begin0
+\PLF\prf\c[4]Seguidor：\C[0]    ¡Oh, Santo! ¡Soy culpable!
+
+MaleBeliever/CommonHuman_begin1
+\PLF\prf\c[4]Seguidor：\C[0]    ¡Oh, Santo! ¡Perdona mi mentira!
+
+MaleBeliever/CommonHuman_begin2
+\PLF\prf\c[4]Seguidor：\C[0]    ¡Oh, Santo! ¡Soy pecador! ¡Castígame!
+
+MaleBeliever/CommonHumanWhoreJobStart1
+\PLF\prf\c[4]Seguidor：\C[0]    ¡Oh, Santo! ¡Gracias, Santo!
+
+MaleBeliever/guard
+\PLF\prf\c[4]Guardián：\C[0]    .....
+
+MaleBeliever/Prayer_begin0
+\CBid[-1,20]\PLF\prf\C[4]Creyente：\C[0]    ¡Oh, Santo! ¡Salvemos este mundo!
+
+MaleBeliever/Prayer_begin1
+\CBid[-1,20]\PLF\prf\C[4]Creyente：\C[0]    ¡Oh, Santo! ¡Dedicamos nuestras vidas a ti!
+
+MaleBeliever/Prayer_begin2
+\CBid[-1,20]\PLF\prf\C[4]Creyente：\C[0]    ¡Oh, Santo! ¡Hemos rechazado la mentira!
+
+MaleBeliever/PrayerWhoreJobStart1
+\CBid[-1,4]\PLF\prf\C[4]Creyente：\C[0]    ¡Gloria al Santo! Que el Santo te bendiga.
+
+Nap/Capture
+\narr Los creyentes del Santo capturaron a Lona...
+
+Enter/AggroMode
+\cg[map_DarkestDungeon]\SETpr[nil]\SETpl[AnonFemale]\Lshake\C[4]Creyente：\C[0]    ¡MENTIROSOS! ¡Mentirosos en el camino!
+\SETpr[AnonMale2]\plf\Rshake\C[4]Creyente：\C[0]    ¡Atención todos! ¡La mentirosa es esta pequeña escoria sucia! ¡Con tetas pequeñas! ¡Es fácil de encontrar!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+Healer/Begin1
+\CBid[-1,20]\prf\C[4]Creyente:\C[0] Hace cuatrocientos años, el mal gobernaba el mundo, y la humanidad fue esclavizada por varios dioses malvados.
+\CBid[-1,20]\prf\C[4]Creyente:\C[0] Los dioses malvados aborrecían las virtudes de la humanidad, como se dice en el versículo 1321.5.6, desataron la ira de Dios sobre los inocentes.
+\CBid[-1,20]\prf\C[4]Creyente:\C[0] El mundo corría el riesgo de perecer en esta catástrofe, ¡pero ocurrió un milagro! ¡Un Santo llegó a nosotros! Protegió a los inocentes con su justa protección y expulsó a los dioses malvados de este mundo uno por uno.
+
+#---------------------#-------------------#--------------------- -------------------------------
+
+MIAchildMAMA/prog1
+\CBct[8]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Eh... Buenos días. ¿Conoce a alguien llamado \C[4]Tommy\C[0]?
+\CBct[8]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] Es un niño mestizo.
+\CBid[-1,2]\prf\c[4]Creyente:\C[0] ¿Tommy? ¿Mestizo?
+\CBct[1]\m[triunfante]\PRF:\C[0]\C[6]Lona:\C[0] ¡Sí!
+\CBid[-1,20]\prf\c[4]Creyente:\C[0] Pregúntale a la monja que está a tu lado, las monjas son responsables de los malhechores.
+\CBct[1]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Oh...
+\CBid[-1,5]\prf\c[4]Creyente:\C[0] ¡Y no interrumpas mi oración!
+\CBct[6]\m[impactada]\Rshake:\C[0]\C[6]Lona:\C[0] Bien... ¡Lo siento!
+
+MIAchildMAMA/prog2
+\CBct[8]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] ¿Conoce a \C[4]Tommy\C[0]? Es un niño mestizo.
+\CBct[8]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] Su madre lo está buscando...
+\CBid[-1,2]\prf\c[4]Monja:\C[0] ¿Tommy? ¿Mestizo?
+\CBid[-1,20]\prf\c[4]Monja:\C[0] Hay tanta gente aquí, quién sabe quién de ellos es ese \C[6]Tommy\C[0].
+\CBct[8]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Oh...
+
+MIAchildMAMA/prog3
+\CBct[8]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Eh... ¿Conoce a \C[4]Tommy\C[0]? Un niño mestizo.
+\CBct[8]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] Aproximadamente de tu edad.
+\CBid[-1,20]\prf\c[4]Refugiado:\C[0] ¡Ah! ¡\C[6]Tommy\C[0]! ¡El pequeño negro!
+\CBct[2]\m[impactada]\PRF:\C[0]\C[6]Lona:\C[0] ¿Lo conoce? ¿Sabe dónde está?
+\CBid[-1,20]\prf\c[4]Refugiado:\C[0] ¡\C[6]Tommy\C[0] apestaba! ¡Es negro y apestoso! ¡Su madre se lo llevó de aquí!
+\CBct[2]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] ¿Apestaba? ¿Se lo llevó? Pero ella dijo que la gente del monasterio se llevó a \C[4]Tommy\C[0].
+\CBid[-1,20]\prf\c[4]Refugiado:\C[0] ¡Sí! Estaba enfermo, y su madre se lo llevó a algún lugar para curarlo.
+\CBct[2]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] ¿Curarlo? ¿A un médico? ¿O a un sacerdote?
+\CBid[-1,20]\prf\c[4]Refugiado:\C[0] ¡No lo sé!
+\CBct[8]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Ohh...
+
+MIAchildMAMA/prog4
+\CBct[8]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Eh... ¿No conoce a nadie llamado \C[4]Tommy\C[0]?
+\CBid[-1,2]\prf\c[4]Monja:\C[0] ¿\C[6]Tommy\C[0]?
+\CBct[20]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Sí, su madre lo está buscando. Su madre dijo que la gente del monasterio se lo llevó.
+\CBid[-1,20]\prf\c[4]Monja:\C[0] ¿Es mestizo?
+\CBct[20]\m[complacida]\PRF:\C[0]\C[6]Lona:\C[0] ¡Sí!
+\CBid[-1,20]\prf\c[4]Monja:\C[0] Pregunta en la sala de confesiones, lo he visto allí a menudo.
+\CBct[20]\m[triunfante]\PRF:\C[0]\C[6]Lona:\C[0] ¡Gracias!
+
+MIAchildMAMA/prog5
+\CBct[8]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Eh... ¿Ha visto a \C[4]Tommy\C[0]?
+\CBct[8]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] Un niño mestizo.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,8]\c[4]Creyente:\C[0] ¿\C[6]Tommy\C[0]? Sí, lo he visto.
+\CBct[20]\m[complacida]\plf\PRF:\C[0]\C[6]Lona:\C[0] ¡Genial! ¿Podría decirme dónde está, por favor? ¿Todavía está en el monasterio?
+\CBct[20]\m[triunfante]\plf\PRF:\C[0]\C[6]Lona:\C[0] Su madre lo está buscando.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,2]\c[4]Creyente:\C[0] ¿Madre? ¿La misma que abandonó a su hijo?
+\CBct[20]\m[coqueta]\plf\PRF:\C[0]\C[6]Lona:\C[0] ¿Abandonó...? \m[impactada]\Rshake{¡¿De qué está hablando?!}
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Creyente:\C[0] Sí, es una pecadora que vendió a su hijo al Santo por comida.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Creyente:\C[0] ¿Ella te envió aquí? No la creas.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Creyente:\C[0] Vete.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]Creyente:\C[0] Vete y dile que \C[6]Tommy\C[0] se convertirá en un gran creyente en el futuro.
+\CBct[8]\m[coqueta]\plf\PRF:\C[0]\C[6]Lona:\C[0] Eh...
+
+MIAchildMAMA/prog5_1
+\CBct[8]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] ¿Qué debo hacer ahora? ¿Debo volver al campamento y contárselo todo a su madre?
+
+#---------------------#-------------------#--------------------- Quest de la Monja
+
+nun/keyBegin
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0]
+
+ToMT_crunch/0
+\CBct[8]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] Eh...
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0] Oh, invitada inocente.
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0] Irás al \c[6]Monasterio en las Montañas\C[0], que está al este de aquí.
+\CBct[2]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] ¿Perdón? ¿Yo?
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0] Correcto, tú.
+\CBct[2]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] ¿Por qué?
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0] Como habrás notado, no nos sobran las manos aquí.
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0] Necesitamos monjes con conocimientos médicos aquí. Y tú también esperas contribuir al Evangelio de los Santos, ¿verdad?
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0] Es hora de que los hermanos y hermanas del \c[6]Monasterio de la Montaña Montañosa\C[0] nos presten ayuda.
+
+ToMT_crunch/0_brd
+\board[Monasterio en las Montañas]
+Tarea: Llegar al monasterio de la montaña
+Recompensa: Ninguna
+Cliente: Monasterio de la Sociedad de los Santos
+Fecha límite: Ninguna
+Dirígete al monasterio de la montaña, al este del Monasterio de los Santos, y diles a los monjes que el Monasterio de la Sociedad de los Santos necesita sanadores.
+
+ToMT_crunch/0_accept
+\CBct[20]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Bien, hablaré con los monjes si paso por allí.
+\CBid[-1,20]\prf:\C[0]\C[4]Monja:\C[0] Bien, y que los Santos te guíen.
+
+ToMT_crunch/1_alreadyDid
+\CBct[20]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Resulta que... estuve allí...
+\CBct[8]\m[cansada]\PRF:\C[0]\C[6]Lona:\C[0] Resulta que todos los monjes con conocimientos médicos murieron.
+\CBid[-1,8]\prf:\C[0]\C[4]Monja:\C[0] En ese caso... Que los Santos descansen sus almas.
+\CBct[8]\m[confundida]\PRF:\C[0]\C[6]Lona:\C[0] ...
+
+ToMT_crunch/0_weak
+\CBid[-1]\m[confundida]:\C[0]\C[4]Monja:\C[0] No tenemos tiempo para tener piedad de alguien tan débil como tú.
+\CBct[6]\m[triste]\PRF:\C[0]\C[6]Lona:\C[0] Lo siento....
+\narrLona parece demasiado débil.
+
+nun/abandom_bb0
+\CBct[6]\m[cansada]\PRF:\C[0]\C[6]Lona:\C[0] Eh... ¿Podrían cuidar de mi hijo....?
+
+nun/abandom_bb1
+\CBid[-1,8]\prf:\C[0]\C[4]Monja:\C[0] ¿Otra mentirosa que abandonará a su hijo?
+\CBid[-1,8]\prf:\C[0]\C[4]Monja:\C[0] ...
+\CBid[-1,8]\prf:\C[0]\C[4]Monja:\C[0] No importa, dámelo.
+\CBct[6]\m[triste]\PRF:\C[0]\C[6]Lona:\C[0] Lo siento...
+
+nun/abandom_bb2
+\CBct[8]\m[cansada]\PRF:\C[0]\C[6]Lona:\C[0] ...
+\CBct[8]\m[triste]\PRF:\C[0]\C[6]Lona:\C[0] Lo siento... Mamá lo siente mucho...
+
+nun/abandom_bb1_failed
+\CBid[-1,5]\prf:\C[0]\C[4]Monja:\C[0] No tienes hijos, sin embargo.
+\CBct[20]\m[coqueta]\PRF:\C[0]\C[6]Lona:\C[0] Ay... sí, es verdad.
+
+nun/opt_abandom_bb
+Niño Abandonado
+
+nun/opt_abandom_tommy
+Tommy
+
+nun/opt_TagMapMT_crunch
+Eh...
+
+#---------------------#-------------------#---------------------
+
+healer/Qmsg0
+No quiero tocar a estos sucios mentirosos.
+
+healer/Qmsg1
+¡Gloria al Santo!
+
+healer/Qmsg2
+Este es el destino que les espera a los mentirosos.
+
+healer/Qmsg3
+¡No habríamos sobrevivido sin el Santo!
+
+patient/Qmsg0
+Ohh Ohh....
+
+patient/Qmsg1
+......
+
+follower/Qmsg0
+¡Gloria al Santo!
+
+follower/Qmsg1
+¡Ven con nosotros!
+
+follower/Qmsg2
+¡Perdona nuestros pecados!
+
+follower/Qmsg3
+¡Quemen a todos los sucios pecadores!
+
+prayer/Qmsg0
+¡Oh, Santo! ¡Perdóname!
+
+prayer/Qmsg1
+¡He pecado!
+
+prayer/Qmsg2
+¡Gloria al Santo! ¡Oh, gran Santo!
+
+prayer/Qmsg3
+¡Perdóname! ¡Perdóname!
+
+kid1M/Qmsg0
+¡Mi hermana se ha perdido!
+
+kid1M/Qmsg1
+¡Probablemente se la llevaron los pieles verdes!
+
+kid1M/Qmsg2
+¡Hermanita! ¿Dónde estás?
+
+mom/Qmsg0
+¡Mi bebé!
+
+mom/Qmsg1
+¡Oh, Santo! ¡Ayúdame a encontrarla!
+
+mom/Qmsg2
+¡Se ha perdido!
+
+kid2M/Qmsg0
+¡Apestas!
+
+kid2M/Qmsg1
+¡Te cagas en los pantalones!
+
+kid2M/Qmsg1
+¡Apestas! ¡Je, je, je!
+
+SaintState/begin0
+\board[Santo Sin Nombre]
+El Santo Sin Nombre dijo: El materialismo simboliza la debilidad, y quien afirma ser un Santo debe afrontar nuevos desafíos desnudo.
+El Evangelio de los Santos 1:28
+
+SaintState/begin1
+\board[Santo Sin Nombre]
+El Santo Sin Nombre dijo: Los Santos como yo son los que conocen a los muertos, no se necesita ayuda para luchar contra la muerte.
+El Evangelio de los Santos 25:6
+
+SaintState/begin2
+\board[Santo Sin Nombre]
+El Santo Sin Nombre dijo: Cobardes hipócritas, los espero en el puente Naihe, ¿por qué no están aquí todavía?
+La Verdad y la Mentira de los Santos 5:12
+
+SaintState/begin3
+\board[Santo Sin Nombre]
+El Santo Sin Nombre dijo: Si pides ayuda, probablemente no seas un Santo.
+El Evangelio de los Santos 10:24
+
+SaintState/begin4
+\board[Santo Sin Nombre]
+El Santo Sin Nombre dijo: Mientras observo la puesta de sol, espero glorificarlo.
+El Evangelio de los Santos 123:456

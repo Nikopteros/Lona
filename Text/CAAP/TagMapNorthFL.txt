@@ -1,0 +1,199 @@
+thisMap/OvermapEnter
+\m[confused]Granja Salina del Mar del Norte\nCuarteles de los Soldados \optB[Cancelar,Entrar]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]¿Entrar al mercado? \optB[Cancelar,Entrar,Colarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+Exit/Escaped
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado：\C[0]    ¡ATENCIÓN TODOS! ¡UN ESCLAVO HA ESCAPADO!!!
+
+comBoard/v0
+\board[¡No te preocupes!]
+Todos los miembros de tu familia están a salvo.
+Tus parientes y amigos serán cuidados.
+El Santo guardará tu alma en el Salón del Valor.
+
+Guard/beginRNG0
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Me engañaron, mi familia ha sido vendida...
+
+Guard/beginRNG1
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Si voy a la sala de descanso y abrazo a una mujer, me sentiré mejor.
+
+Guard/beginRNG2
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    La gente muere cada día, y así seguirá siendo...
+
+Guard/beginRNG3
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    ¿¡Una chica?!
+
+Guard1/Com0
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    ¿Por qué tienes tanto miedo? Una vez que nos quitemos la ropa, ¿quién podría decir si somos soldados o refugiados?
+
+Guard1/Com1
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Aquí no está tan mal, a veces podemos divertirnos a costa de esos malditos mendigos. Nadie nos hará nada, incluso si los matáramos.
+
+Guard2/Com0
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    ¡No quiero morir! ¿Cuándo me enviarán al frente?
+
+Guard2/Com1
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Anteayer mi amigo y yo nos follamos a esa chica, y hoy me enteré de que se unió a la Sociedad de los Santos.
+
+Guard3/Com0
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    ¡Jeje! ♥ La chica con la que jugamos ayer es realmente dulce.
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Lástima que no todos saben apreciarlo.
+
+Guard3/Com1
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Jeje ♥ Escuché que hoy llegará una nueva mujer.
+
+Guard4/Com0
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    En realidad... esa mujer es mi hermana...
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Sí... También me follé a mi hermana... y luego la estrangulé con mis propias manos...
+
+Guard4/Com1
+\CBid[-1,20]\prf\c[4]Guardia：\C[0]    Santo... Soy un pecador...
+
+##################################################################### SGT
+
+SGT/else_common
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]Centurión：\C[0]    ¿Querías algo?
+
+SGT/RecQuestNorthFL0_Main_begin0
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Podría usted...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡Ah! ¿Eres tú?
+\CBct[6]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Yo?
+
+SGT/RecQuestNorthFL0_Main_begin1_slave
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Tú... ¿Eres una puta? ¿O una esclava?
+
+SGT/RecQuestNorthFL0_Main_begin1_basic
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Tú... ¿Eres una mujer? ¿O aún una niña?
+
+SGT/RecQuestNorthFL0_Main_begin2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Ja ja. Olvídalo...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Escucha, tengo algo para ti.
+
+SGT/RecQuestNorthFL1_Main_begin0
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Ve al sur, al \c[6]Almacén Sur 12\C[0] y destruye todos los documentos en el sótano.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Seas una sirvienta o una esclava, recibirás lo que te corresponde cuando termines el trabajo.
+
+SGT/RecQuestNorthFL1_QuBoard
+\board[Destrucción de documentos]
+Misión: Destruir los documentos en el Almacén Sur
+Recompensa: Gran Medallón x3\i[582] Medallón x5\i[583]
+Cliente: La clase baja no debe hacer demasiadas preguntas
+Repetible: Sí
+Los Grandes Tipos de la orilla sur piden quemar los documentos en el sótano del granero del Almacén Sur 12.
+Nadie debe saberlo.
+No hagas demasiadas preguntas, solo haz lo que se te pide.
+
+SGT/RecQuestNorthFL1_accept
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Bien... Déjamelo a mí...
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Desde aquí son aproximadamente medio día de viaje al sureste hasta el granero del Almacén Sur 12.
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Comienza.
+
+SGT/RecQuestNorthFL1_no
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Yo... \Rshake\m[wtf] En realidad solo estaba pasando por aquí...
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¿Qué? ¿No te enviaron los Grandes Tipos?
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡No!
+
+################################# return QU 3
+
+SGT/RecQuestNorthFL3_begin0
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\c[4]Centurión：\C[0]    ¿Eres tú?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]Centurión：\C[0]    Todos esos documentos fueron destruidos, ¿verdad?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\C[0]    Todo destruido.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Muy bien, después de todo, lo mejor sigue siendo contratar a un buen mercenario.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emmm... En realidad solo estaba pasando por aquí...
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurión：\C[0]    ... \Lshake ¡¿Pasando por aquí?!
+
+SGT/RecQuestNorthFL3_begin1
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¿Por qué no me lo dijiste antes? ¿Qué hay del hombre que encontré?
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\C[0]    ¿No sabe qué pasó con él? Parece que fue asesinado por un demonio en el camino. Y después de todo, los orcoides están por todas partes.
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurión：\C[0]    ......
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurión：\C[0]    Está bien, no importa, toma.
+
+SGT/RecQuestNorthFL3_begin2
+\CBct[3]\m[flirty]\PRF\c[6]Lona：\C[0]    Gracias ♫
+
+################################# return QU 4
+
+SGT/RecQuestNorthFL_Common
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Centurión：\C[0]    ¿Qué? ¿Por qué sigues aquí?
+
+SGT/RecQuestNorthFL_Common1
+\CBct[6]\m[confused]\PRF\c[6]Lona：\C[0]    Eh...
+
+SGT/OPT_Salt
+Sal
+
+SGT/Ans_about_1_0
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Mmm... Eres digna de confianza, y el hecho de que hayas regresado habla de tu fuerza.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm... ¿Gracias?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¿Sabes por qué este es el único lugar donde no hay demonios?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Las algas han engañado a todos los soldados a pesar de no estar armadas.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    La Fortaleza Costera tampoco puede llamarse inexpugnable, pero aún así ningún demonio puede acercarse a ella.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Todos dicen que es el patrocinio de los Santos y la protección de la Bruja del Mar.
+\CBid[-1,5]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡No es así!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¿Sabes cuál es la verdad? ¡Finalmente lo entendí después de que llegaste aquí!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡\c[6]Es la sal\C[0]!
+
+SGT/Ans_about_1_1
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Eh? ¿La \c[6]sal\C[0]?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡Esos demonios le temen a la sal!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh... ¿Mmm?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡Esta es la Llanura Salina! ¿Qué otras opciones hay?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    He elaborado algunos planes al respecto: ya sean los de piel verde, los de piel roja o el mal que los respalda, ¡serán destruidos!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡Y ahora los grandes de arriba quieren que nos retiremos! ¡Es simplemente estúpido!
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    .........
+
+SGT/RecQuestNorthFL4_info
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Emm... ¿Puedo hacer algo?
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ......
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Resulta que me faltan hombres.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    No muy lejos de la aldea \c[6]Perranway\C[0], al este, hay un grupo de mercenarios que trabajan para mí.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Si aún están vivos, entrégales esta carta y diles que regresen.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Oh? ¿Eso es todo?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Sí, así es.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Sus debilidades ya no son un secreto, ¡y el siguiente paso necesario es el contraataque!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Suena simple, ¿no crees?
+
+SGT/RecQuestNorthFL4_brd
+\board[Entregar carta]
+Misión: Entregar carta al campamento de mercenarios cerca de \c[6]la Aldea Perranway\C[0].
+Recompensa: Gran Medallón x1\i[582]
+Cliente: Centurión de la Fortaleza Costera
+Repetible: No
+¡Eso es! Nada más. Entrégales la carta.
+
+SGT/RecQuestNorthFL4_opt_no
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ehh... Creo que lo rechazaré.
+
+SGT/RecQuestNorthFL1_opt_accept
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Bien, me encargaré de ello.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡Date prisa y me convertiré en el héroe que salva al mundo como los Santos!
+
+################################# return QU 101
+
+SGT/RecQuestNorthFL101_done0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Hola... He entregado su carta.
+\CBid[-1,4]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡Oh! ¡Excelente!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Deben estar felices de haber contribuido a salvar el mundo, ¿no?
+
+SGT/RecQuestNorthFL101_done1_alive
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Eh... No exactamente.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Probablemente estaba muy enojado y me llamó idiota, ¿no?
+
+SGT/RecQuestNorthFL101_done1_dead0
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    En resumen... Todos están muertos.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    ¡¿QUÉ?!
+
+SGT/RecQuestNorthFL101_done1_dead1
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Logré llegar a su campamento, pero pronto fui atacada por unos asquerosos Orcoides.
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Mataron al Capitán.
+
+SGT/RecQuestNorthFL101_done2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Ehh...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Eso no es lo que \c[6]Él\C[0] dijo, ¿verdad?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿\c[4]Él\C[0]?
+
+SGT/RecQuestNorthFL101_done3
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Centurión：\C[0]    Olvídalo. Te lo has ganado. Toma.

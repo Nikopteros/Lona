@@ -1,0 +1,90 @@
+NoerBank/OvermapEnter
+\m[confused]諾爾期貨交易所(銀行)\optB[算了,進入]
+
+NoerBank/OvermapEnter_Slave
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    那來的奴隸，去！ 滾遠點！
+\m[sad]\PLF\c[6]洛娜：\c[0]    ....
+
+NoerBank/OvermapEnterClosed
+\m[confused]\c[6]洛娜：\c[0]    看起來關門了。
+
+
+################################################################################
+
+Maani/begin1_unknow
+\SETpl[MaaniNormal]\c[0]行員：\c[0]    歡迎來到三方交易所 諾爾分行 我能為你效勞嗎？
+
+Maani/begin1_talked
+\SETpl[MaaniNormal]\c[0]瑪妮：\c[0]    妳好，又見面了。
+
+Maani/begin2_about
+\SETpl[MaaniNormal]\m[confused]\plf\c[6]洛娜：\c[0]    臉上的刺字？ 妳是... 奴隸？
+\PLF\prf\CamMP[Maani]\c[0]瑪妮：\c[0]    是的。
+\m[wtf]\CamCT\plf\c[6]洛娜：\c[0]    奴隸也能從事這類工作嗎？
+\CamMP[Maani]\PLF\prf\c[0]瑪妮：\c[0]    一切都是主人的指示，我只需要照著做就好。
+\CamMP[Maani]\c[0]瑪妮：\c[0]    如果妳沒有交易相關服務之需求的話，後面還有人多客人需要我的服務。
+\m[flirty]\CamCT\plf\PRF\c[6]洛娜：\c[0]    好吧，對不起。
+\m[confused]旁邊名牌上寫著"瑪妮"
+\m[confused]擁有名子的奴隸？真是厲害。
+
+################################################################################
+
+NapBank/talk0
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]守衛：\c[0]    喂！妳在搞什麼？！\{滾出去！
+
+NapBank/talk1
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]守衛：\c[0]    去去去！要飯的就給我滾回街上！
+
+NapBank/talk2
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]守衛：\c[0]    出去出去！三方可不是你家！
+
+NapBank/talk_end
+\ph\narr 洛娜被趕出去了。
+
+################################################################################
+
+gentleman/talk1
+\ph\CamMP[GentlemanA]\c[0]商人A：\c[0]    這次的爆走怎麼樣?
+\CamMP[GentlemanB]\c[4]商人B：\c[0]    席芭利斯那的東西全沒了，但.....
+\CamMP[GentlemanB]\c[4]商人B：\c[0]    \BonMP[GentlemanB,3]賺超大的。
+\CamMP[GentlemanA]\c[4]商人A：\c[0]    \BonMP[GentlemanA,4]賺超大的。
+\CamMP[GentlemanB]\c[4]商人A：\c[0]    敬戰爭。
+\CamMP[GentlemanA]\c[4]商人A：\c[0]    敬動亂。
+\CamCT\m[confused]父親也是位商人...
+\m[serious]\Bon[15]不！ 父親才不像他們這麼無恥。
+
+GentlemanB/popup0
+應該再多進一些貨。
+
+GentlemanB/popup1
+只會漲，肯定的。
+
+################################################################################
+
+emplyee1/begin
+\CBid[-1,20]\c[4]行員：\c[0]    妳是席芭莉絲過來的？ 請洽最左邊的一號櫃台。
+
+emplyee2/begin
+\CBid[-1,20]\c[4]行員：\c[0]    去去去！ 左邊的櫃台！
+
+emplyee_busy/begin
+\CBid[-1,20]\c[4]行員：\c[0]    現金短缺，提款暫停，然後就暴動啦。
+
+guards/begin
+\CBid[-1,20]\c[4]守衛：\c[0]    我正看著妳！
+\CBct[6]\m[flirty]\c[6]洛娜：\c[0]    唉嘿嘿....
+
+female/Qmsg0
+聽說三方要撤了！
+
+female/Qmsg1
+必須馬上領出來！
+
+#####################################################################
+
+AllBuyArt/talk0
+\ph\cg[other_AllBuy]作品名：我全都要
+來自東方的神祕創作，至今無人能理解畫中意義。
+\m[serious]嗯....
+\m[confused]不懂。
+

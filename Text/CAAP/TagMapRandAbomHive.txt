@@ -1,0 +1,30 @@
+AbomHive/OvermapEnter
+\m[confused]Guarida de las Bestias \optB[Cancelar,Entrar]
+
+########################################################
+
+Lona/RapeLoopNonCapture
+\m[p5sta_damage]Masa apestosa de carne arrastró a Lona hacia su guarida...
+\m[p5health_damage]Lona pronto se convertirá en un nuevo nido para los repugnantes Demonios de Carne...
+
+Lona/RapeLoopCaptured
+\m[p5sta_damage]Diversas masas carnosas continuaron derramando semen dentro del cuerpo de Lona.
+\m[p5health_damage]No les importa cómo se sienta la portadora de su semilla, solo les interesa reproducirse usando el cuerpo de Lona.
+
+Lona/CaptureWakeUp
+\m[p5pee]\Rshake\c[6]Lona：\C[0]    Ooohh...
+\m[p5shame]\Rshake\c[4]Parece que, por ahora, han terminado...
+
+Lona/CaptureGiveUp
+\m[p5shame]\Rshake\c[4]No puedo... No puedo más...
+\narr\..\..\..\..
+
+Lona/BondageStruggle
+\m[p5defence]\Rshake\C[6]Lona：\C[0]    ......
+
+Lona/CaptureStruggle
+\m[p5pee]\c[4]¿Qué debo hacer...? \optD[No hacer nada<t=10>,Resistirse (-10 Fuerza)<r=HiddenOPT0>,Resistirse (-30 Fuerza)<r=HiddenOPT1>,Resistirse (-50 Fuerza)<r=HiddenOPT2>,Aceptar tu destino...<r=HiddenOPT3>]
+
+Lona/StruggleWin
+\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Funcionó?!
+\m[flirty]\c[6]Lona：\C[0]    Debo encontrar una salida y largarme de aquí lo antes posible...

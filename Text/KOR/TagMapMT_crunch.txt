@@ -1,0 +1,183 @@
+thisMap/OvermapEnter
+산맥 수도원\optB[그만둔다, 들어간다]
+
+#---------------------#-------------------#---------------------  -------------------------------
+Priest/begin0
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]신부：\c[0] 성도가 이미 신벌을 내리셨고, 원통하게 죽은 언데드가 다시 그들의 몸으로 돌아왔다.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]신부：\c[0] 아이야, 무슨 일로 왔느냐?
+
+Priest/opt_MT_crunch
+산맥 수도원
+
+Priest/opt_Doctor
+실종된 의사
+
+Priest/opt_Undead
+언데드 소탕
+
+Priest/opt_SaintMonastery
+성도회의 요청
+
+Priest/Ans_crunch
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 어... 그래서 여긴 어떤 곳이에요?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] \c[6]산맥 수도원\c[0]이네. 속세를 떠난 수도자들이 성도의 참뜻을 느끼는 곳이지.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 세속에 물든 가짜 수행자나 거짓말쟁이들과는 달라.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 그런 자들이 함부로 굴기 때문에 사람들이 성도에게서 멀어지는 거다!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 우리는 이곳에서 의술을 익히고, 주변 마을 사람들과 여행자들을 돕고 있네.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 우리가 진정한 성도의 대변자다!
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 그렇구나...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 외부의 혼란에 대해서도 들었네. 자네도 치료를 받으러 온 건가?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 안타깝게도, 한 달 전에 보낸 의사가 아직 돌아오지 않았네.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 게다가 묘지의 언데드들이 거짓 신의 부름을 받아, 우린 도와줄 인력이 없네.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 거짓말쟁이여, 성도께 기도하라.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 이 모든 것은 분명 성도께서 믿음 없는 거짓말쟁이들에게 내린 신벌이네.
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 그렇구나...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 여행자는 이곳에서 안심하고 쉬어도 좋네. 우리는 자네 같은 이들의 안전을 지켜줄 걸세.
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 좋아요, 고마워요.
+
+Lona/Ans_SaintMonastery
+\CBct[20]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 어... 여기 의사 있나요?
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] \c[6]성도회\c[0] 사람들이 의사를 빌려달라고 했어요.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] \c[6]성도회\c[0]\..\..\..
+\CBid[-1,5]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 돌아가서 그 세속에 물든 가짜 수행자들에게 알아서 하라고 전해라!
+\CBct[20]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 그렇구나... 알았어요.
+
+Lona/UndeadClearn
+\CBct[20]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 음... 다 치운 것 같네.
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 빨리 이 음침한 곳에서 나가자.
+
+Priest/EndTalk
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 성도가 너의 등불이 되기를.
+
+Priest/TooWeak
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 너는 용병처럼 보이지 않는구나.
+\narr로나는 너무 약해 보인다
+
+Priest/Ans_accept
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 내 생각엔... 어... 괜찮을 것 같은데요?
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 좋아! 너야말로 성도의 첨병이로구나!
+
+Pitcher/UndeadGate_b4QU0
+\CBid[-1,20]\C[4]수도사：\c[0] 접근하지 마라, 안에는 전부 언데드뿐이다.
+
+Pitcher/UndeadGate_b4QU1
+\CBid[-1,20]\C[4]수도사：\c[0] 이것은 성도의 분노다, 이 모든 것은 이미 예언되어 있었다.
+
+Pitcher/UndeadGate_b4QU2
+\CBid[-1,1]\C[4]수도사：\c[0] 너는\..\..\.. 여자냐?
+
+SaintState/begin0
+\board[성도 무명자]
+성도 무명자께서 말씀하시길,구르기 중인 나는 무적이며, 거짓 신의 불꽃은 내게 털끝 하나 해치지 못하리라.
+성도 복음 66：6
+
+##################################################################################### Undead Hunt
+
+Priest/Ans_Undead
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 어... 너가 말하는 그 언데드?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 죽은 자들이 몇 달 전부터 움직이기 시작했으며, 이 모든 것은 외부의 혼란과 무관하지 않다.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 이는 성도가 거짓말쟁이들에게 내린 징벌이다.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 너는 용병이지? 우리를 도와 이 문제를 해결해 준다면, 적절한 보상을 주겠다.
+
+Priest/Ans_Undead_brd
+\board[언데드 소멸]
+목표 : 산맥 수도원 묘지의 언데드 소멸
+보수 : 큰 동전 2개
+의뢰인 : 산맥 수도원
+기한 : 완료 시까지
+묘지 밖의 수도사와 대화 후 모든 언데드를 소멸하라.
+
+Pitcher/UndeadGate0
+\CBid[-1,20]\C[4]수도사：\c[0] 그대가 우리를 위해 언데드를 처리하러 온 용병인가?
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 아마도?
+\CBid[-1,20]\prf\C[4]수도사：\c[0] 성도께 감사하라!
+
+Pitcher/UndeadGate1
+\CBid[-1,20]\C[4]수도사：\c[0] 나머지는 그대에게 맡기겠다. 이제 더 이상 그 시체들을 마주하지 않아도 되겠군.
+
+lona/EnterCave
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] \..\..\..
+\CBct[6]\m[tired]\plf\PRF\C[0]\C[6]로나：\C[0] 으… 정말 음산하네...
+
+Priest/KillAllUndead0
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 어… 다 처리한 것 같은데?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 정말인가? 확인해 보지...
+
+Priest/KillAllUndead1
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\C[4]신부：\c[0] 훌륭하군! 이건 그대가 받을 보상이다!
+
+Priest/KillAllUndead2
+\CBct[3]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 고마워!
+
+##################################################################################### Doctor Search in OrkindCamp
+
+Priest/Ans_doctor
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 그러니까 여기는 의사들이 수행하는 곳이라고?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 그렇다. 하지만 앞서 말했듯, 그들은 지금 이곳에 없다.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 이곳을 떠난 지 꽤 오래됐고, 소식도 완전히 끊겼다.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 북쪽의 한 사냥꾼 집에 병을 보러 갔다가, 그 뒤로 외부의 혼란 소식만 들려왔다.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 지금 우리에게는 그들의 생사를 확인해 줄 용병이 꼭 필요하다.
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 제가…?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 그래, 바로 그대다!
+
+Priest/Ans_doctor_brd
+\board[수도사의 생사]
+목표 : 북쪽의 오두막으로 이동
+보상 : 큰 동전 2
+의뢰주 : 산맥 수도원
+기한 : 완료 시까지
+북쪽 사냥꾼의 오두막으로 가서 수도사들의 생사를 확인하라.
+
+DcSearch/Qmsg0
+수도사의 시체
+
+DcSearch/Qmsg1
+신부의 시체
+
+DcSearch/Qmsg2
+신도의 시체
+
+DcSearch/Done0
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 전부 죽은 건가...
+\CBct[8]\m[tired]\PRF\C[0]\C[6]로나：\C[0] ....
+\CBct[5]\m[serious]\PRF\C[0]\C[6]로나：\C[0] 정신 차리자, 지금 바로 \c[4]산맥 수도원\c[0]으로 돌아가야 해.
+
+Priest/doctor_Done0
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 어...
+\CBct[20]\m[tired]\plf\PRF\C[0]\C[6]로나：\C[0] 거기 다녀왔는데, 그 의사들은 전부 죽어 있었어.
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 그렇군... 역시 그럴 줄 알았다...
+\CBct[20]\m[sad]\plf\PRF\C[0]\C[6]로나：\C[0] 미안해...
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]신부：\c[0] 네 잘못이 아니다. 이것은 사람들이 신앙을 저버린 대가다.
+
+##################################################################################### Cocona unique
+
+cocona/Home0
+\CBfB[20]\SETlpl[cocona_shocked]\prf\Lshake\c[4]코코나：\c[0] 언니!
+\CBct[6]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 왜 그래?
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]코코나：\c[0] 여기 냄새가 나! 집 냄새!
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 집?
+\CBfB[4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 응! 우리 집! 지하!
+\CBct[6]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 그렇구나, 그거 정말 잘 됐네.
+
+UndeadX/cocona0
+\CBid[-1,8]\c[4]언데드：\c[0] 으아.... 뇌......
+\CBct[6]\m[confused]\PRF\C[0]\C[6]로나：\C[0] ...
+
+UndeadX/cocona1
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 언니! 잠깐! 친구!
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 하? 친구라니?
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]코코나：\c[0] 응! 친구!
+
+UndeadX/cocona2
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] .....
+
+UndeadX/cocona3
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\c[4]코코나：\c[0] 언니! 친구가 집에 왔어!
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 어...그래?
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]코코나：\c[0] 친구도 성도를 믿고, 언니를 좋아한다고 해서 이걸 언니한테 주래.
+
+UndeadX/cocona4
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 오...뭐라고 해야 할까? 정말 잘됐네?
+\CBfB[3]\SETlpl[cocona_happy]\Lshake\prf\c[4]코코나：\c[0] 응! 잘됐어! 성도를 좋아하는 사람은 다 좋은 친구야!

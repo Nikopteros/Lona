@@ -1,0 +1,125 @@
+UniquePigBobo/CompData
+\board[Бобо]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Cuerpo a cuerpo
+\C[2]Facción：\C[0]Animales
+\C[2]Enemistad con：\C[0]Neutral y personalizable
+\C[2]Requisito：\C[0]Lona debe estar \C[4]húmeda\C[0] abajo
+\C[2]Duración：\C[0]2 días
+\C[2]Característica：\C[0]No revive después de morir
+\C[2]Nota：\C[0]Si Lona tiene el rasgo \C[4]Prostituta\C[0] y/o \C[4]Ninfómana\C[0], puede aparearse con Bobo para extender su tiempo como compañero.\n
+\n
+Bobo es un valioso verraco reproductor, ganador de múltiples "Premios Porcinos" en Sibaris.
+Su tamaño y miembro son varias veces más grandes que los de un cerdo normal.
+Parece creer que Lona es una cerda y está ansioso por aparearse con este adorable y delgado cerdito. ♥
+
+UniquePigBobo/begin
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,4]\c[4]Bobo：\C[0]    ¡Oink *Gruñido* OINK! ♥ ¡OINKINK! ♥♥♥
+
+UniquePigBobo/Comp_disband
+\SETpl[BoboNormal]\Lshake\SndLib[SwineDed]\CBid[-1,5]\c[4]Bobo：\C[0]    ¡Oinkkkk!!!!
+
+UniquePigBobo/Comp_win
+\SETpl[BoboYell]\Lshake\SndLib[SwineAtk]\CBid[-1,20]\c[4]Bobo：\C[0]    ¡OINK~~~♥♥♥
+
+UniquePigBobo/Comp_failed
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,8]\c[4]Bobo：\C[0]    *Gruñido*... *Gruñido*...
+
+UniquePigBobo/Extension0_k0_NotMated
+\SETpl[BoboYell]\plf\narrOFF\CBct[2]\m[confused]\Rshake\c[6]Lona：\C[0]    ¿Q-Qué intentas hacer?
+\SETpl[BoboYell]\plf\BonID[-1]\CBct[6]\m[flirty]\Rshake\c[6]Lona：\C[0]    ¡Asqueroso! ¡No me huelas ahí!
+
+UniquePigBobo/Extension0_k0_MatedB4
+\SETpl[BoboYell]\plf\narrOFF\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Tú... Quieres hacerlo de nuevo?
+
+UniquePigBobo/Extension0_k1
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr Los ensordecedores chillidos de Bobo resuenan en el aire, expresando su deseo de aparearse con la pequeña y adorable cerdita frente a él.
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr ¿Estás segura? Bobo es bastante grande... y, por supuesto, no sabe ser gentil...
+
+UniquePigBobo/Extension1
+\SETpl[BoboYell]\plf\CBct[6]\m[shy]\plf\c[6]Lona：\C[0]    Oh.....
+
+UniquePigBobo/Extension2
+\SETpl[BoboYell]\plf\CBct[6]\m[fear]\plf\c[6]Lona：\C[0]    Buen chico... Ven aquí...~ ♥
+
+UniquePigBobo/Extension3_loop
+\SETpl[BoboYell]\Lshake\SndLib[pigQuestion]\CBid[-1,5]\c[4]Bobo：\C[0]    Oink ♥♥ Uyy ♥♥♥♥
+\narr Los constantes orgasmos y eyaculaciones de Bobo continúan...
+
+UniquePigBobo/OvermapPop0
+Oink~~~♥♥♥
+
+UniquePigBobo/OvermapPop1
+¡OINK! ¡OINK! ¡OINKINK!!
+
+UniquePigBobo/SetupFateEnemy
+Establece los objetivos de Bobo. \optD[Restaurar,Atacar enemigo,Atacar amigo,Animales<r=HiddenOPT0>,Orcoides<r=HiddenOPT1>,Hombres pez<r=HiddenOPT2>,Demonios de carne<r=HiddenOPT3>,No muertos<r=HiddenOPT4>]
+
+UniquePigBobo/OMbegin
+\narr\SndLib[SwineDed]Desde la distancia, se escuchaban los aullidos de los cerdos\..\..\..
+
+#################################################################################################################################################### BanditCamp2
+
+PigBoboQu0/begin0
+\CBct[6]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]Lona：\C[0]    !!!!!!!!
+
+PigBoboQu0/begin1
+\CBct[20]\SETpl[BoboYell]\Lshake\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡NO! ¡P-Por favor, no me comas!
+
+PigBoboQu0/begin2
+\narr Bobo comienza a lamer suavemente las heridas de Lona...
+
+PigBoboQu0/begin3
+\CBct[8]\m[fear]\PRF\c[6]Lona：\C[0]    \..\..\..\m[tired] G-Gracias..?
+
+PigBoboQu0/begin4
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]Lona：\C[0]    Auu...
+\narr Bobo usa sus dientes para romper las ataduras de Lona...
+
+PigBoboQu0/follower_0
+\CBct[8]\SETpl[BoboNormal]\plf\m[confused]\PRF\c[6]Lona：\C[0]    ¿Qué......? ¿Qué quieres de mí?
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\prf ....
+\CBid[-1,20]\SETpl[BoboNormal]\plf\SndLib[SwineAtk]\.\.\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    \..\..\..¿Quieres que te siga?
+
+PigBoboQu0/follower_1
+\board[¡Escape!]
+Objetivo：Escapar de aquí
+Recompensa：Ninguna
+Cliente：Bobo
+Repetible：Única vez
+Bobo siente simpatía por la adorable cerdita y quiere ayudarla.
+Bobo sabe que él y este lindo cerdito deben estar juntos. Pero primero, ambos deben escapar de las garras de los malvados monos sin pelo.
+Una vez libres y reunidos, Bobo y esta cerda se aparearán muchas veces bajo la luz de la luna y formarán una familia, ¡y ella dará a luz muchos cerditos!
+Desafortunadamente, el tonto Bobo no sabía que esta "cerda" no podría concebir ninguno de sus cerditos ni formar una familia feliz...
+
+PigBoboQu1/accept0
+\CBct[8]\m[tired]\PRF\c[6]Lona：\C[0]    Está bien.....
+
+PigBoboQu1/accept1
+\CBct[20]\SETpl[BoboNormal]\m[shocked]\Rshake\c[6]Lona：\C[0]    !!!!!!!!
+\CBct[20]\SETpl[BoboNormal]\m[triumph]\PRF\c[6]Lona：\C[0]    ¿Gracias...?
+
+PigBoboQu1/ExitFailedQmsg
+Bobo debe estar más cerca de la salida.
+
+PigBoboQu1/ExitEnd0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Tras ella! ¡No dejéis que esa puta escape!
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    !!!!
+
+PigBoboQu1/ExitEnd1
+\narr Bobo miró fijamente al cerdito, sus ojos le decían que no permitiría que esos malditos monos sin pelo la atraparan.
+\narr Estos dos están destinados a reunirse de nuevo...
+\narrOFF\CBct[8]\m[tired]\PRF\c[6]Lona：\C[0]    ......
+
+PigBoboQu0/WhenPlayerNotCap0
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Qué cerdito más grande!
+
+PigBoboQu0/WhenPlayerNotCap1
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]Lona：\C[0]    ¿¡QUÉ-!? ¿Q-Qué estás haciendo? ¡Suéltame!
+
+PigBoboQu0/WhenPlayerNotCap2
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]Lona：\C[0]    ¡Odio esto! ¡Por favor! ¡D-Deja de lamerme!
+
+PigBoboQu0/WhenPlayerNotCap3
+\CBct[8]\SETpl[BoboYell]\plf\m[confused]\PRF\c[6]Lona：\C[0]    ¿Qué está pasando....?

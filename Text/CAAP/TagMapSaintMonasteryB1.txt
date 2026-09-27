@@ -1,0 +1,137 @@
+belever/NapSpot
+\SETpl[AnonMale1]\Lshake\C[4]Creyente：\C[0]    ¿Una invasión?
+\SETpr[AnonMale2]\Rshake\C[4]Creyente：\C[0]    ¡No! ¡Es una pecadora! ¡Una mujer pecadora!
+\SETpl[AnonMale1]\Lshake\C[4]Creyente：\C[0]    ¡Santos! ¡Gloria a los Santos! ¡Purifiquemos sus pecados con las ofrendas de los Santos!
+
+beginEvent/begin
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¡Quédate aquí hasta que limpiemos tus pecados!
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    ¿Qué me van a hacer?...
+
+belever/NapRape
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¡Despierta, pecadora!
+\m[pain]\C[6]Lona：\C[0]    Ouuu.....
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¡Es hora de purgar tus pecados!
+
+belever/NapTorture1
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¡Pecadora! Al intentar huir, solo acumulas más pecados.
+\SETpr[AnonMale1]\Rshake\C[4]Creyente：\C[0]    ¡Purifícala!
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¡Despierta!
+
+belever/NapTorture2
+\m[tired]\C[6]Lona：\C[0]    ¿Qué?...
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¡Agárrenla! ¡Sujétenla! ¡Debemos limpiarla con nuestra rectitud!
+\m[terror]\C[6]Lona：\C[0]    ¡No! ¡Deténganse!
+
+belever/NapTorture3
+\m[pain]\C[6]Lona：\C[0]    ¡Ay! ¡Ay!
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¡Maldición! ¡Aún lleva el mal dentro!
+\m[bereft]\C[6]Lona：\C[0]    ¡Tengan piedad! ¡Déjenme descansar! ¡Por favor!
+
+belever/NapRape_0
+\c[4]Creyente：\C[0]    ¡Déjame limpiarte con mi "vara de carne"!
+
+belever/NapRape_1
+\c[4]Creyente：\C[0]    ¡Santos!
+
+belever/NapRape_2
+\c[4]Creyente：\C[0]    ¡Santos! ¡Bendigan mi "vara de carne"!
+
+belever/NapRape3_0
+\c[4]Creyente：\C[0]    ¡Recibe mi "reliquia íntima" en tu cuerpo!
+
+belever/NapRape3_1
+\c[4]Creyente：\C[0]    ¡Tus pecados solo se limpian con mi "reliquia carnosa"!
+
+belever/NapRape3_2
+\c[4]Creyente：\C[0]    ¡Recibe la voluntad de los Santos! ¡Déjame follarte!
+
+belever/NapRape1
+\c[4]Creyente：\C[0]    Je je je je.
+
+belever/NapRape_withSta_NoFight2
+\m[sad]\SETpl[AnonMale1]\Lshake\C[4]Creyente：\C[0]    Je je je. ♥ 
+
+belever/PlaceFood0
+\SETpl[AnonMale1]\Lshake\C[4]Creyente：\C[0]    ¡Servido el banquete!
+
+Camp/MobSeen
+\SETpl[AnonMale2]\Lshake\C[4]Creyente：\C[0]    ¿Quién es?!
+\m[shocked]\Rshake\C[6]Lona：\C[0]    ¡Ups!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+#UPDATE
+
+SlaveA/Qmsg0
+¡Les encanta mi trasero!
+
+SlaveA/Qmsg1
+¡Todo esto es por ellos!
+
+SlaveA/Qmsg2
+Bueno, al menos aquí como bien todos los días!
+
+SlaveB/Qmsg0
+Aaahh...
+
+SlaveB/Qmsg1
+Me chupan la pija todos los días...
+
+SlaveB/Qmsg2
+No puedo moverme...
+
+SlaveC/Qmsg0
+¡No quiero irme!
+
+SlaveC/Qmsg1
+¡Afuera no hay comida!
+
+SlaveC/Qmsg2
+¡Te darán comida si dejas que jueguen contigo!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+MIAchildMAMA/prog8
+\CBct[8]\m[confused]\PRF\C[6]Lona：\C[0]    Escucha...
+\CBid[-1,2]\prf\C[4]Desconocido：\C[0]    ¡No me distraigas, estoy rezando! Los adultos me dijeron que si trabajo duro, seré un gran creyente.
+\CBct[20]\m[flirty]\PRF\C[6]Lona：\C[0]    Oh... Busco a \c[4]Tommy\C[0], ¿sabes dónde está?
+\CBid[-1,2]\prf\C[4]Tommy：\C[0]    ¡Soy yo! ¡Soy el Seguidor llamado \c[6]Tommy\C[0]!
+\CBct[4]\m[triumph]\Rshake\C[6]Lona：\C[0]    ¡Perfecto! Por fin te encontré.
+\CBct[20]\m[confused]\PRF\C[6]Lona：\C[0]    Debes volver, tu madre te busca.
+\CBid[-1,20]\prf\C[4]Tommy：\C[0]    ¡No! Desde que ofrezco mi trasero, aquí tengo comida. Con mi madre no había nada que comer.
+\CBct[8]\m[flirty]\PRF\C[6]Lona：\C[0]    Em... ¿ofreces tu trasero?
+\CBid[-1,5]\prf\C[4]Tommy：\C[0]    ¡Sí! ¡Me quedo aquí!
+\CBid[-1,20]\prf\C[4]Tommy：\C[0]    Mi madre ya no me necesita, pero el \C[6]Santo\C[0] sí, ¡quiero quedarme con los \C[6]Seguidores del Santo\C[0]!
+
+MIAchildMAMA/prog8_opt
+\CBct[20]\m[confused]\PRF\C[6]Lona：\C[0]    Em\..\..\.. \optB[Olvídalo,Engañar<r=HiddenOPT1>,Usar fuerza<r=HiddenOPT2>]
+
+MIAchildMAMA/prog8_opt_WIS
+\CBct[20]\m[flirty]\PRF\C[6]Lona：\C[0]    Pero escuché que los \C[4]Seguidores del Santo\C[0] se comen a los niños. ¿Seguro que quieres quedarte?
+\CBct[8]\m[confused]\PRF\C[6]Lona：\C[0]    ¿Seguro que no te comerán?
+\CBid[-1,20]\prf\C[4]Tommy：\C[0]    ¿¡Qué!? ¡Jamás!
+\CBct[20]\m[serious]\PRF\C[6]Lona：\C[0]    Pero es cierto, te alimentan para que estés gordo y sabroso.
+\CBct[20]\m[terror]\Rshake\C[6]Lona：\C[0]    ¡Y cuando estés gordo, te cocinarán y comerán!
+\CBid[-1,8]\prf\C[4]Tommy：\C[0]    \...\...\...
+\CBid[-1,8]\prf\C[4]Tommy：\C[0]    Me chupan la pija todos los días...
+\CBid[-1,8]\prf\C[4]Tommy：\C[0]    Y alaban mi pija, dicen que es muy sabrosa...
+\CBid[-1,8]\prf\C[4]Tommy：\C[0]    ¿De verdad crees que quieren comerme?
+\CBct[20]\m[wtf]\Rshake\C[6]Lona：\C[0]    ¡Es cierto!
+\CBid[-1,20]\prf\C[4]Tommy：\C[0]    ¡No! ¡No quiero que me coman!
+\CBct[20]\m[flirty]\PRF\C[6]Lona：\C[0]    Ven conmigo, te protegeré y te llevaré con tu madre.
+
+MIAchildMAMA/prog8_opt_STA0
+\CBct[5]\m[serious]\Rshake\C[6]Lona：\C[0]    ¡Escúchame!
+
+MIAchildMAMA/prog8_opt_STA1
+\CBct[20]\m[irritated]\Rshake\C[6]Lona：\C[0]    ¡Es tu madre! ¡No te abandonó! ¡Me pidió que te encontrara! ¡Vendrás conmigo!
+\CBid[-1,6]\prf\C[4]Tommy：\C[0]    Oye... ¡No me pegues! ¡Iré contigo!..
+
+MIAchildMAMA/prog9_board
+\board[Su Hijo]
+Misión: Llevar a \C[4]Tommy\C[0] de vuelta al campamento de refugiados.
+Recompensa: Ninguna.
+Cliente: Refugiada.
+Repetible: No.
+Lleva a \C[4]Tommy\C[0] vivo al campamento. Ten cuidado, no te descubran.
+Los \C[6]Seguidores del Santo\C[0] lo robarán si te ven.

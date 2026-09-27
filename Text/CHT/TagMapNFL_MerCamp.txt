@@ -1,0 +1,165 @@
+NFL_MerCamp/OvermapEnter
+\cg[event_DarkPot]\m[confused]傭兵的營地\optB[算了,進入]
+
+##################################################################
+
+NorthFL_AtkOrkCamp/0_1
+\SETpl[AnonMale1]\Lshake\c[4]傭兵：\c[0]    是魔物！ 綠皮出現了！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    綠皮？ 類獸人？！ 在哪裡！！
+
+NorthFL_AtkOrkCamp/0_2
+\BonMP[YellingSub,20]\SETpl[AnonMale1]\Lshake\c[4]傭兵：\c[0]    納命來！
+\CBct[2]\m[terror]\plh\Rshake\c[6]洛娜：\c[0]    什麼？ 是說我嗎？！
+
+NorthFL_AtkOrkCamp/0_3
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]傭兵隊長：\c[0]    \{住手！！
+
+NorthFL_AtkOrkCamp/0_4
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]傭兵隊長：\c[0]    給我看仔細了！ 那可是人，活著的人！
+
+NorthFL_AtkOrkCamp/0_5
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    還愣在那幹什麼，快進來!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    \{是！
+
+Leader/RecQuestNorthFL_AtkOrkCamp2_1
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    沒想到還能遇到從城裡逃出來的活人。
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    城裡？ \c[4]席芭莉絲\c[0]？
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..我是幾個月前從城裡逃出來的沒錯。
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    \..\..\..\Lshake所以妳回來做什麼？ 這裡可是地獄，是戰場！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...只是路過？
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    \..\..\..路過？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    對，我想回家看看？
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    .....
+
+Leader/OPT_About0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    所以...這裡是什麼地方？ 你們在這做什麼？
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    我們正嘗試著救助那些從城裡逃出來的生還者...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    救助？ 你們不是傭兵嗎？
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    名義上是的，我本來在城西港區開間小旅館，有家人，有孩子。
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    我們組成傭兵團是想找到自己的家人，但如今連我們自己也陷入了麻煩。
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    我們沒有成功的救到任呵人，還把自己人給搭進去了。
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    他是我最好的夥伴，必須帶他出來。那怕是屍體都好。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    .......
+
+Leader/OPT_Mail0
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯....我這邊有封來自海潮堡的信？
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    應該是給你的？
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    信？
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    對！ 來自海潮堡的老大。
+
+Leader/OPT_Mail1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    鹽？
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    鹽？
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    他說鹽是什意思？！
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...他除了鹽之外還說什麼拯救世界之類的...
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我也不懂，但他好像說得很認真就是了。
+\CBid[-1,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    我做了這麼多事，死了這麼多兄弟就為了這愚蠢的鹽？！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...你還好嗎？
+
+Leader/OPT_Work0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    嗯\..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    我的夥伴在調查東邊的綠皮營地時走丟了。
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    我們必須去救他，我可以肯定我們我們用的上妳。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...可是我....
+
+Leader/OPT_Work1_board
+\board[拯救隊友]
+目標：拯救傭兵隊長的夥伴。
+報酬：大銅幣1
+委託主：傭兵隊長
+期限：單次
+前往海潮寶東方的類獸人營地，
+並拯救傭兵隊長的夥伴。
+
+Leader/OPT_Work2_accept
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    好，應該沒問題吧。
+
+Leader/OPT_Work2_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    抱歉....我還有事...
+
+Leader/OPT_Work2_accept1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    good, lets meet in there.
+
+Invade/NFL_MerCamp_Invade_3
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    幹得不錯，沒想到妳居然能活下來。
+
+Leader/else
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    ....
+
+OrcSlaveMaster/begin
+\CBmp[OrcSlaveMaster,20]\SndLib[sound_OrcSkill]\SETpl[OrcSlaveMaster_mask]\Lshake\c[4]纇獸人：\c[0]    \{馬屌吼嗚哦！
+
+################################################################## Commoner
+
+commoner/BeginRNG0
+\CBid[-1,20]\c[4]傭兵：\c[0]    妳是來自城裡的生還者?
+
+commoner/BeginRNG1
+\CBid[-1,20]\c[4]傭兵：\c[0]    城裡還有活人？！
+
+commoner/BeginRNG2
+\CBid[-1,20]\c[4]傭兵：\c[0]    也許我家人也還活著？
+
+commoner/WhoreWork_failed0
+\CBid[-1,5]\c[4]傭兵：\c[0]    我沒時間搞這個！
+
+commoner/WhoreWork_failed1
+\CBid[-1,5]\c[4]傭兵：\c[0]    都要沒命了還做這個？
+
+commoner/WhoreWork_failed2
+\CBid[-1,5]\c[4]傭兵：\c[0]    先活下去再說吧。
+
+################################################################## #NFL_MerCamp_Invade
+
+Invade/0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？
+
+Invade/1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    來了！ 東邊！
+
+Invade/2_typical
+\CBct[2]\m[flirty]\plf\Rshake\c[6]洛娜：\c[0]    來了? 什麼來了？？
+
+Invade/2_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    來了? 類獸人嗎？！
+
+Invade/2_gloomy
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    什麼來了? 魔物嗎？！
+
+Invade/2_slut
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    來了? 你說你要去了？
+
+Invade/3_wave2
+又來了！ 東邊！
+
+Invade/3_wave3
+更多！大隻的！
+
+Invade/3_waveEND
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    看起來結束了，各位還活著嗎？
+
+Invade/4_BossDefeat0
+\BonID[-1,8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..\Rshake\m[flirty]不知道為什麼，總覺得牠看起來挺可愛的？
+
+Invade/4_BossDefeat1
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    成功了！ 我們把牠趕走了！
+
+Leader/BattleQmsg0
+就戰鬥位置！
+
+Leader/BattleQmsg1
+牠們來了！
+
+Commoner/BattleQmsg0
+又是綠皮！
+
+Commoner/BattleQmsg1
+我們被包圍了！
+
+Commoner/Qmsg_lose0
+快逃阿！
+
+Commoner/Qmsg_lose1
+我不想死！

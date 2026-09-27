@@ -1,0 +1,619 @@
+thisMap/Enter
+The Arena of Leeruoi Juhankinns (Noer Arena)
+
+firstTime/begin_1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    This is the Arena inside of Noer Town?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I've heard of the place before, but wasn't it already shut down?
+
+firstTime/begin_2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    You there! Yeah, you!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    EH?! Huh? M-Me?
+
+firstTime/begin_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... What's going on?
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    Here! Just take it! It's very valuable!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Oh?
+
+firstTime/begin_4
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    Tsk! Hurry the fuck up already!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    This ticket ain't mine anymore! Now, get outta my way!
+
+firstTime/begin_5
+\CBct[8]\m[confused]\plh\PRF\c[6]Lona：\c[0]    What was that all about...?
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]Passerby A：\c[0]    A damned shame, poor brat.
+\CBmp[Talker2,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\plf\PRF\c[4]Passerby B：\c[0]    Yep, how can this new guy, \c[6]The Mad Beast\c[0] even stand a chance against \c[4]The Colossus of the East\c[0]?
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]Passerby A：\c[0]    She's gonna have to sit through the whole show. Bet she'll be frozen with shock at what she's about watch!
+
+firstTime/firstMatch0
+\CBct[20]\m[shocked]\PRF\c[6]Lona：\c[0]    WOAH! There's really this many people here?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    I still don't get what's so entertaining about this... Isn't it just about a bunch of guys beating each other up?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Doesn't this sort of thing happen every single day in this town?
+
+firstTime/firstMatch1
+\CBmp[Reporter,0]\ph \....\....\....
+\CBmp[Reporter,0]\ph LAAADIES AND GENNNTLEMEN, now...!
+\CBmp[Reporter,0]\ph Let us all welcome...
+\CBmp[Reporter,0]\ph Everyone's favorite...!
+\CBmp[Reporter,0]\SndLib[ClapGroup]\ph The Prince of the Arena... \{\c[6]DARNEYL\c[0]!!!
+\CBmp[Reporter,0]\m[shy]\PRF\c[6]Lona：\c[0]    \c[4]Darneyl\c[0]? No way! I'll be able to see \c[4]Darneyl\c[0]?!
+
+firstTime/firstMatch2
+\CBmp[Reporter,20]\c[4]Darneyl：\c[0]    I cam', I saw, 'N I CONNNQUUUERED YA'LL!
+\CBmp[Reporter,20]\c[4]Darneyl：\c[0]    EVERYONE'S FAVORITE\n P-to da-R-to da-INCE IS HEREEE!!!
+
+firstTime/firstMatch3
+\CBmp[Reporter,0]\m[lewd]\plf\PRF\c[6]Lona：\c[0]    It's \c[4]Darneyl\c[0]! ♥ It's really him! ♥
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\prf\c[4]Darneyl：\c[0]    YO YO YOOO! Danks for da applause ya'll. Dis dance step gonna be a gift for every-BOOODY!
+
+firstTime/firstMatch4
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    I'mma finna introduce da crew poppin' up in dis hizzy!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    First comin' up-...!
+
+firstTime/firstMatch5
+\CBmp[LeftArenaE,19]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    ...Da one, our favorite...!\n \c[6]Da Colossus of da East\c[0]!!!
+
+firstTime/firstMatch6
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    An' da challenga for our man finna be......
+\CBmp[RightArenaE,19]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Said to be pumped up fulla herbs,\n \c[6]Da Mad Beast\c[0]!!!
+
+firstTime/firstMatch7
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    It seems like this person is my bet?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    He looks really strong, why aren't people applauding for him?
+\SndLib[BadClap]\CBct[8]\m[triumph]\PRF\c[6]Lona：\c[0]    It's okay!  I'll cheer for you\..\..\..
+\SndLib[ppl_BooGroup]\CBmp[PPLg1,20]\m[shy]\PRF\c[6]Lona：\c[0]    Yay?
+\SndLib[ppl_BooGroup]\CBmp[PPLg2,20]\m[sad]\PRF\c[6]Lona：\c[0]    Yay yay?
+\SndLib[ppl_BooGroup]\CBmp[PlayerWatch,20]\m[sad]\PRF\c[6]Lona：\c[0]    Yay! Yay yay...?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Errr\..\..\..
+
+firstTime/firstMatch8
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Everybody know dat \c[6]Da Colossus of da East\c[0] be winnin' 15 fights in a row!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    Cuh' be already recognized as da strongest fighta locally!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    As cuh's always be sayin' \c[6]Those who use weapons, are not considered men!\c[0]!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    He be BUSTIN' muthafukas wif only his Saint-damn fists yo!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    So can \c[6]Rudesind Firm's\c[0] hand-picked fighta defeat da unstoppable \c[6]Colossus of da East\c[0]?
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Oh, we finna wait 'n see dis!
+
+firstTime/firstMatch9
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    An' now da two fightas be in their places yo!
+
+firstTime/firstMatch10
+\SndLib[MaleWarriorFatSpot]\CBmp[EastColossus,20]\c[4]The Colossus of the East：\c[0]    Huh! A big fella like you means ya got big guts challengin' me! But I'll be ripping and tearing those guts outta ya!
+\SndLib[MaleWarriorGruntSpot]\CBmp[SexBeast,8]\c[4]The Mad Beast：\c[0]    ......
+
+firstTime/firstMatch11
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    \{LET DA BATTLE BEEEGIN!!!
+
+firstTime/firstMatch12
+\CBmp[EastColossus,20]\c[4]The Colossus of the East：\c[0]    HA! Is that all ya got?! You don't deserve to be my opponent!
+\CBmp[SexBeast,8]\c[4]The Mad Beast：\c[0]    Murrr......
+
+firstTime/firstMatch13
+\CBmp[EastColossus,20]\c[4]The Colossus of the East：\c[0]    Too slow!
+
+firstTime/firstMatch14
+\CBmp[EastColossus,20]\c[4]The Colossus of the East：\c[0]    That's it? Pathetic!
+
+firstTime/firstMatch15
+\CBmp[EastColossus,20]\c[4]The Colossus of the East：\c[0]    Hey, \c[6]Darneyl\c[0]! Are you seeing this?! No matter how many pathethic trashes ya throw at me, I'll rip and tear 'em all appart with my bare hands!
+\CBmp[EastColossus,20]\c[4]The Colossus of the East：\c[0]    I will be the one to redeem and honor my family! And I'll make sure they'll leave this piece of shit place!
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    Alrite cuh'! We see ya efforts 'n we be rootin' for ya dawg!
+
+firstTime/firstMatch16
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    But dis battle ain't over yet, know whu I sayin'?!
+\CBmp[EastColossus,1]\c[4]The Colossus of the East：\c[0]    WHAT?!
+
+firstTime/firstMatch17
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    This kind of power... I-Impossible...
+\CBmp[SexBeast,8]\c[4]The Mad Beast：\c[0]    HUE HUE HUE...
+
+firstTime/firstMatch18
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    N-No... Wait just a sec'!
+\CBmp[SexBeast,8]\c[4]The Mad Beast：\c[0]    HUE HUE HUE HUE...
+
+firstTime/firstMatch19
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    STOP! I DEMAND A TIME OUT!
+\CBmp[SexBeast,8]\c[4]The Mad Beast：\c[0]    HUE HUE HUE HUE HUE...
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    I SURRENDER!\n I GIVE UP! DON'T KILL MEEE!
+
+firstTime/firstMatch20
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    Why aren't you stopping this fight?! I DON'T WANNA DIE!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Eh cuh', I don' think dat bruda even understand whu ya sayin'! Ya finna have to use yo body to let him kno' ya givin' up!
+\plf\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    W-What are you talking about?!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    Kneel dooown cuh'! Ya gotta face yo back towards 'im
+
+firstTime/firstMatch21
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    There! Is this good enough...?
+\CBmp[SexBeast,8]\c[4]The Mad Beast：\c[0]    ......
+
+firstTime/firstMatch22
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    What the-?! What the hell are you trying to do?!
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    Thought ya should kno' cuh'! I said \c[6]Da Mad Beast\c[0] is a crazy ass mutha-fucka pumped up fulla herbs like drugs an' other alchemy shieet! Dat mofo thinks rapin' da weak is whu da strong should be doin' yo!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Crazy fucka only gots two things 'n his mind yo. Fuckin' up other mofos an' rapin' their weak ass booty cuh'!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Aye yo, my audience! Now's we steppin' inta da main show! Winner gets to do whueva dey wanna with da loser yo!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    Now! FUCK 'IM! Rape \c[6]Da Colossus of da East\c[0]! Enjoy!
+
+firstTime/firstMatch22_1
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]Audience：\c[0]    Rape him...! Rape him!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]Audience：\c[0]    RAPE HIM! RAPE HIM!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]Audience：\c[0]    RAAAPE HIM! RAAAPE HIM!!\n  RAAAPE HIIIM!!! RAAAPE HIIIMMM!!!
+
+firstTime/firstMatch22_2
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    NO! PLEASE, I-I BEG YOU! ANYTHING BUT THIS!
+
+firstTime/firstMatch23
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    NOOO! MY ASSHOLE! IT HURTS!
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    I DON'T WANNA GET PREGNANT! I DON'T WANNA GIVE BIIIRRRTH!
+\CBmp[SexBeast,8]\c[4]The Mad Beast：\c[0]    HUE HUE HUE! HUGHAAAHHH!
+
+firstTime/firstMatch23_1
+\CBmp[EastColossus,6]\c[4]The Colossus of the East：\c[0]    \{WUUUAAAHUUUGAAAHHH!!!
+
+firstTime/firstMatch24
+\narr \....\....\....
+\narr \c[6]The Mad Beast\c[0] and \c[6]The Colossus of the East\c[0]'s erotic same-sex wrestling went on for quite a while...
+\narr It's fine though, we all know that boys are the better sex and can't get pregnant after all...
+\narr However\..\..\.. Girls on the other hand...
+
+firstTime/firstMatch25
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I guess this means \c[4]The Mad Beast\c[0] won?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    So, this is the legendary man-on-top dominating another man...
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    This feels\..\..\..\m[shy] really p-perverted... ♥
+\CBct[4]\m[lewd]\PRF\c[6]Lona：\c[0]    If only mother was here to watch this with me, she surely would have enjoyed this. ♥
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..\m[sad]They're all gone now......
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\c[0]    No way! Damn it! I have to cheer up!
+
+firstTime/TakeReward1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    So this means... This is where I should go to collect my winnings?
+
+firstTime/TakeReward2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    THERE, IT'S YOU! YOU'RE THE BRAT WHO STOLE MY TICKET!
+
+firstTime/TakeReward3
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh? You're that...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    YOU STOLE MY TICKET! GIVE IT BACK TO ME, NOW!\optD[Give the ticket back to him...,I'm being robbed!<r=HiddenOPT1>]
+
+firstTime/TakeReward4_give0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Eh?! Huh?!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    Hurry up! Or I'll call a guard over! GIVE IT BACK!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    O-Okay...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    That's a good girl! All women should go to the Backstreets and spread their legs if they really wanna make money!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    But you're the one who gave me th-...
+
+firstTime/TakeReward4_give1
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    \{-SHADDAP!
+
+firstTime/TakeReward4_guard0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    AHHH???!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    Ahhh what?! GIVE ME BACK MY FUCKING TICKET!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Aaahhh... G-Guards... Someone stole...~
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    WHAT?!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    \{KYAAAHHH!!! THIEEEF! I'M BEING ROBBED!~
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Passerby：\c[0]    GAH!
+
+firstTime/TakeReward4_guard1
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guard：\c[0]    What's going on?!
+
+firstTime/TakeReward4_guard2
+\CBmp[TricketGiver,20]\SETpr[AnonMale1]\PLF\prf\c[4]Passerby：\c[0]    YOU FUCKING BITCH! I'LL REMEMBER THIS!!
+
+firstTime/TakeReward4_guard3
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    There really are these type of people in this world...
+
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+############################################################################################################################################## Tricket seller
+################################################################################ Arena Spec Event #####################################
+#### Cecily #####################################
+
+TicketSeller/CecilyShow_Gang
+Special event?
+
+TicketSeller/CecilyShow_Gang_begin0
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    A special match today, sponsored by the \c[6]Rudesind Commerce, Rudesind Firm\c[0]! It's completely free—come on in and enjoy the show!
+
+TicketSeller/CecilyShow_Gang_begin1
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    The free match sponsored by the \c[6]Rudesind Commerce, Rudesind Firm\c[0] is about to start—what are you waiting for? Get in there!
+
+TicketSeller/CecilyShow_Gang_begin2
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]   Today’s special match is free to the public, thanks to the generous support of \c[6]Rudesind Commerce, Rudesind Firm\c[0]! Don’t wait—something amazing is about to begin!
+
+TicketSeller/CecilyShow_Gang_About1_typical
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    A special match? What kind of show is it?
+
+TicketSeller/CecilyShow_Gang_About1_tsundere
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Special...? Tch, just how “special” are we talking?
+
+TicketSeller/CecilyShow_Gang_About1_gloomy
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    A special match...? It’s not dangerous, is it...?
+
+TicketSeller/CecilyShow_Gang_About1_slut
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh? A show? That sounds kinda fun~ What is it?
+
+TicketSeller/CecilyShow_Gang_begin_talked
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    What are you waiting for? It’s about to begin!
+
+TicketSeller/CecilyShow_Gang_end
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Today’s event is proudly sponsored by \c[6]Rudesind Commerce, Rudesind Firm\c[0]—many thanks for their generous support!
+
+TicketSeller/CecilyShow_Gang_cancel
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... On second thought, maybe I’ll pass.
+
+TicketSeller/CecilyShow_Gang_About2
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    A former noblewoman, is putting on a show in the arena. She will engage in various interactive activities with multiple males inside.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?
+
+TicketSeller/CecilyShow_Gang_agree
+\CBct[8]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Free? Well, I guess I'll go check it out then.
+
+CecilyShow_Gang/show_start_begin1
+\{Good people of the city! Lend me your ears!
+
+CecilyShow_Gang/show_start_begin2
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Now—let the special match... begin!
+
+CecilyShow_Gang/show_start_begin3
+\c[4]Darneyl：\c[0]    A once-noble girl from \c[6]Sybaris\c[0], armed with nothing but iron and blood... faces off against filth made flesh!
+
+CecilyShow_Gang/show_start_begin3_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_normal]\plf\PRF\c[4]Cecily\c[0]    \...\...\...
+\SETpl[Reporter_shocked]\Lshake\prf\c[4]Darneyl：\c[0]    And her opponent...\...\...
+
+CecilyShow_Gang/show_start_begin4
+\c[4]Darneyl：\c[0]    \{\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+
+CecilyShow_Gang/show_start_begin5
+\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    Is it courage... or madness? Fate... or a prelude to death?
+\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    ——This is a trial of glory, a flame of faith... and a feast for you, our crowd!
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Ready your screams and your wagers—let the battle begin!
+
+CecilyShow_Gang/show_start_begin6_0
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_fear]\plh\PRF\c[4]Cecily\c[0]    \...\...\...
+
+CecilyShow_Gang/show_start_begin6_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_shocked]\plh\PRF\c[4]Cecily\c[0]    \...\...\...
+
+################################################################################ Arena ADdon ##################################### end
+
+name/ArenaApes
+Blackfur Gang
+
+name/ArenaSwine
+Boar Legion
+
+name/ArenaWildDog
+Port Hound Crew
+
+name/ArenaSexBeast
+The Mad Beast
+
+name/ArenaEastColossus
+The Colossus of the East
+
+name/ArenaFemdom
+The Feminist
+
+name/ArenaOrkindBro
+The Green-skinned Brothers
+
+name/ArenaDeepTerror
+The Deep Sea Terror
+
+name/ArenaFailedAdv
+The Incompetent Adventurer
+
+name/ArenaTeamRBQ
+Slave Gladiators
+
+name/ArenaHoboDudes
+Sewer Guardians
+
+TicketSeller/BasicOpt
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Welcome to Leeruoi's Arena!
+
+TicketSeller/BasicOpt_bet
+Bet
+
+TicketSeller/BasicOpt_about0
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Ummm? I've heard this place used to be shut down?
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Ha! The lower-class commoners really don't know anything. Only the nobles and lords are able to have fun.
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Are you from \c[6]Sybaris\c[0]? Wasn't your hometown destroyed a few months ago?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    ......
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Well look at that, I've guessed right. But to be fair, it was quite chaotic here before as well.
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    The first thing the Rudesinds did after taking power was strengthening the people's hearts!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    But, what does public opinion have to do with the arena? Hasn't this kind of competition already been banned?
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    What do people enjoy seeing the most during peace? BLOOD! As long as the public sees someone else suffering worse than them, they're satisfied.
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Think about where you are, this is \c[4]Noer Island\c[0] after all.
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    I wonder who can even control this place? The emperor? The Saint himself?
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    Errrmmm...
+
+TicketSeller/BasicOpt_FighterList
+\board[Today's Arena Participants]
+Fighter 1 ： \c[4]#{$story_stats["HiddenOPT0"][0]}\c[0]
+Fighter 2 ： \c[4]#{$story_stats["HiddenOPT1"][0]}\c[0]
+Fighter 3 ： \c[4]#{$story_stats["HiddenOPT2"][0]}\c[0]
+Fighter 4 ： \c[4]#{$story_stats["HiddenOPT3"][0]}\c[0]
+-
+Fighter 1 ： Profit x\c[4]#{$story_stats["HiddenOPT0"][1]}\c[0] Loss penalty x\c[4]#{$story_stats["HiddenOPT0"][2]}\c[0]
+Fighter 2 ： Profit x\c[4]#{$story_stats["HiddenOPT1"][1]}\c[0] Loss penalty x\c[4]#{$story_stats["HiddenOPT1"][2]}\c[0]
+Fighter 3 ： Profit x\c[4]#{$story_stats["HiddenOPT2"][1]}\c[0] Loss penalty x\c[4]#{$story_stats["HiddenOPT2"][2]}\c[0]
+Fighter 4 ： Profit x\c[4]#{$story_stats["HiddenOPT3"][1]}\c[0] Loss penalty x\c[4]#{$story_stats["HiddenOPT3"][2]}\c[0]
+
+TicketSeller/BasicOpt_bet0
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    And who will you be betting on today?
+
+TicketSeller/BasicOpt_bet1
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    You must bet a minimum of \c[4]#{$story_stats["HiddenOPT1"]}\c[0] TPs, no more than \c[4]#{$story_stats["HiddenOPT2"]}\c[0] TPs.
+
+TicketSeller/BasicOpt_bet2
+\narr Betting on \c[4]#{$story_stats["HiddenOPT1"]}\c[0] with the amount of \c[6]#{$story_stats["HiddenOPT2"]}\c[0] TP in items.\n Profit bonus x\c[5]#{$story_stats["HiddenOPT3"]}\c[0] Loss penalty x\c[5]#{$story_stats["HiddenOPT4"]}\c[0].
+\narrOFF\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    The tournament is about to start, you can enter from the entrances on either side.
+
+TicketSeller/BasicOpt_work0
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Are there any sort of jobs I can work here?
+\CBid[-1,2]\prf\c[4]Ticket Clerk：\c[0]    For you? Let me see... Ah!
+\CBid[-1,2]\prf\c[4]Ticket Clerk：\c[0]    Our tournament needs more female fighters to spice things up here.
+\CBid[-1,2]\prf\c[4]Ticket Clerk：\c[0]    The slaves here don't put up much of a fight. Our audience easily gets bored watching them.
+\CBid[-1,2]\prf\c[4]Ticket Clerk：\c[0]    Here's the contract.
+
+TicketSeller/BasicOpt_work1
+\board[Arena]
+Knocked-out opponents or being knocked-out will earn you payment.
+The winner recieves a 50% bonus in payment.
+The later you knock-out your opponents, the larger the bonus. Bonus is capped at the end of the timer.
+If you win, please talk to the Ticket Clerk to collect your earnings.
+If you lose, your earnings will automatically be paid to you.
+
+TicketSeller/BasicOpt_work2
+\board[Arena]
+Fighters participating in the arena are responsible for their own lives.
+(Excluding slaves.)
+You must be alive in order to be paid.
+(Excluding slaves for payment.)
+Do your best to entertain and woo our audience!
+
+TicketSeller/BasicOpt_workAccept
+\SndLib[PenWrite]\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Okay, I've signed it.
+\CBid[-1,2]\prf\c[4]Ticket Clerk：\c[0]    Good, very good. You look like you can handle yourself out there for a few moments.
+\CBmp[EnterArena,19]\prf\c[4]Ticket Clerk：\c[0]    You can enter the arena by using the left side entrance.
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Oh?
+
+TicketSeller/PlayerMatchStart
+\CBid[-1,2]\prf\c[4]Ticket Clerk：\c[0]    The show will start soon, what are you still doing here? Don't forget that you've signed a contract!
+\CBmp[EnterArena,19]\prf\c[4]Ticket Clerk：\c[0]    Enter the arena from the left side entrance! Hurry! The show's about to start.
+
+TicketSeller/Started
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    The match is about to start! You better hurry and get in soon!
+\narr Betting on \c[4]#{$story_stats["HiddenOPT1"]}\c[0] with the amount of \c[6]#{$story_stats["HiddenOPT2"]}\c[0] TP in items.\n Profit bonus x\c[5]#{$story_stats["HiddenOPT3"]}\c[0] Loss penalty x\c[5]#{$story_stats["HiddenOPT0"]}\c[0].
+
+TicketSeller/WannaLeave
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    If you want to leave, you'll have to pay the total price of \c[6]#{$story_stats["HiddenOPT4"]}\c[0] TP\n worth of items.
+
+TicketSeller/ItsDraw
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    It was a draw? And the Arena takes all? That's quite rare.
+
+TicketSeller/YouLose
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    You've lost? Be sure to bet more next time to win it all back!
+
+TicketSeller/StartedPayIdle
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Let me see\..\..\..
+
+TicketSeller/StartedNotEnough
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    That's not enough! You still need to pay \c[6]#{$story_stats["HiddenOPT4"]}\c[0]!
+
+TicketSeller/StartedEnough
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Very good, you can leave now.
+
+TicketSeller/MatchReward0
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    You've won? How lucky of you, here are your earnings.
+
+TicketSeller/MatchReward1
+\CBct[20]\m[triumph]\Rshake\c[6]Lona：\c[0]    Thank you!
+
+TicketSeller/MatchEnd
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    Today's show is over, what are you loitering around for? Come back tomorrow!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Oh?
+
+TicketSeller/MatchStill
+\CBid[-1,20]\prf\c[4]Ticket Clerk：\c[0]    There's a match still going on right now，you'll miss it if you don't enter soon.
+
+############################################################################################################################################## Food seller
+
+FoodSeller/begin
+\CBid[-1,20]\prf\c[4]Food Vendor：\c[0]    What does everyone need when going to an arena full of clashing metal and blood? Why, snacks and alcohol of course!
+
+FoodSeller/SlaveQmsg0
+Disgusting slave!
+
+FoodSeller/SlaveQmsg1
+Go away!
+
+FoodSeller/SlaveQmsg2
+What the hell is a slave doing here?!
+
+############################################################################################################################################################## Fight Begin
+
+NewMatch/begin1
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    AY YA'LL! Let's all give a big welcome to today's brave contestants!
+
+NewMatch/begin2
+\CBmp[CenterPillar,0]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]   \{AW RITE, LEEET DA BATTLE BEEEGINNN!
+
+NewMatch/Draw
+\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Shieet yo! Da fight ended in a draw! Such a shame ya'll!
+
+NewMatch/WinnerIS
+\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    We've gotta winna everybody!
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    An' da winna isss... \c[6]#{$story_stats["HiddenOPT0"]}\c[0]!!!
+
+PlayerMatch/begin
+\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    Today's warm-up match is about'ta begin!
+\SndLib[ppl_CheerGroup]\CBmp[FireR,0]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    First comin' up is \c[6]#{$story_stats["HiddenOPT0"]}\c[0]!!!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    An' their opponent finna be...\n DA UNKNOWN DIRTY STREET RAAAT!
+
+PlayerMatch/begin_IfSlave
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Dis dirty street rat be lik' 'em shits ya find in da sewers. An' she only gots two options in here!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    First one, she gotta remain conscious till da timer runs out! Or fo' da other, she gotta knock-out all her opponents!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    Otherwise, all dat awaits her is death yo!
+
+PlayerMatch/LostRngRape0
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    My be-a-ut-i-ful audience! Whad ya'll think we finna do wif dis LOSER here?!
+
+PlayerMatch/LostRngRapeTorture
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]Audience：\c[0]    BEAT HER UP! MAKE HER SUFFER!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]Audience：\c[0]    RAPE HER! KILL HER! CUT HER HEAD OFF!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]Audience：\c[0]    EAT HER FLESH! SET HER ON FIRE!\n RAPE HER! KIIILLLLL!!!
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    Ughnnnighn...
+
+PlayerMatch/LostRngRape1
+\ph\SndLib[ppl_CheerGroup]\c[4]Audience：\c[0]    Rape her! Raaape HER!!\n RAAAPE HER!!! RAAAPE HEEER!!!
+
+PlayerMatch/LostRngRape2
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Ay yo! My be-a-ut-i-ful audience! Be sure to thank dis unknown street rat fo' spreadin' love 'n joy!
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Alrite my audience! We'll be sure to miss 'er!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime0
+\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    Ay yo! My be-a-ut-i-ful audience! Dis dirty street rat sure is one lazy-ass slave!\n Whad ya'll wanna do wif her?!\SndLib[ppl_BooGroup]
+\ph\SndLib[ppl_BooGroup]\c[4]Audience：\c[0]    \{KILL HER! KILL HER! KILL HER! KILL HER!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime1
+\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Alrite, I hear whuchu sayin' ya'll!\SndLib[ppl_CheerGroup]
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    \{AY! WHO LET DA DAWGS OUT?!\SndLib[ppl_CheerGroup]
+\SndLib[dogSpot]\cg[map_WolfGroup]AWOOOOO......!
+
+PlayerMatch/win0
+\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    My be-a-ut-i-ful audience!\n WH-UT A SURPRISE!
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    DA WINNAH IS... DA DIRTY STREET RAAAT!
+
+PlayerMatch/win1_InTime
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I-... I won...?
+
+PlayerMatch/win1_OutTime
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    Ugh......
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Does the audience not like me?/n ...Were they not entertained?
+
+##ru not entertained?
+
+PlayerMatch/win2
+\narr Lona won the battle, she left the immoral arena as the inhumane audience jeers her away.
+
+PlayerMatch/win2_slave
+\narr Lona won the battle, she was forced back into the slave room immediately after her victory.
+
+############################################################################################################################### SexBeast UniqueRape
+
+SexBeast/Lose0_0
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    I give up! D-Don't kill me! I don't want to die!
+
+SexBeast/Lose0_1
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    P-Please! I don't *Hic* want to die! FORGIVE ME!
+
+SexBeast/Lose0_2
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    L-LET ME GO! NOOOOOO! 
+
+SexBeast/Lose1
+\c[4]The Mad Beast：\c[0]    HUE HUE HUUUEGH!
+
+SexBeast/Lose2
+\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    My be-a-ut-i-ful audience! Did ya'll think dis wuz really da end?!\n Der ain't no way \c[4]Da Mad Beast\c[0] just finna let her go lik' dat!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose2_1
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Dat's rite ya'll! Rape! Da Mad Beast fucks just 'bout anythin' in his path yo! Mudafucka usin' his big-ass cock to conquer his enemies 'n shieet yo!
+
+SexBeast/Lose3
+\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    Ay yo! Looks lik' \c[4]Da Mad Beast\c[0] finna cum soon! Can dis lil' dirty street rat take it all in?\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose4
+\SETpl[Reporter_trumph]\Lshake\c[4]Darneyl：\c[0]    Aw sheeit! \c[4]Da Mad Beast\c[0] still ain't finished yet!\n Cuh' still finna use dat big-ass cock on da dirty street rat's booty sum more!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose5
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Looks like cuh' finna bust a nut 'gain! Think he be finally satisfied when he done?\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose6
+\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    Uhhh...
+
+SexBeast/Lose7
+\narr The Mad Beast continued to brutally rape Lona...
+\narr All other shows have been canceled for today...
+
+
+############################################################################################################################################################## EXIT
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]The exit to \C[4]the plaza of Noer Colosseum\C[0].\optB[Leave,Enter,Sneak<r=HiddenOPT1>,Bluff<r=HiddenOPT2>]
+
+1fExit/BetStill
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    You're not allowed to leave before the tournament is finished or if you haven't paid off your debt!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Go back to the Ticket Clerk and pay what you owe, then you can leave!
+
+1fExit/SneakFailed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    SOMEONE'S TRYING TO ESCAPE! KILL HER!
+
+Guard/NapSlave0
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guard：\c[0]    HEY! Over here!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guard：\c[0]   What? What's going on?!
+
+Guard/NapSlave1NoPay
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guard：\c[0]    This stupid bitch didn't pay off her gambling debts!
+
+Guard/NapSlave1IsSlave
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guard：\c[0]    It's a runaway slave!
+
+Guard/NapSlave2
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guard：\c[0]    What should we do with her then?
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    Nghnnnighn... W-What's going on?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guard：\c[0]    Aren't we missing a few girls that were supposed to entertain the audience?
+\SETpl[Mreg_pikeman]\Lshake\c[4]Guard：\c[0]    That's right! Then, she must be one of them!
+\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    NO! L-Let me go!
+\cg[event_SlaveBrand]\SETpl[Mreg_pikeman]\Lshake\c[4]Guard：\c[0]    I said DON'T MOVE! BE A GOOD GIRL!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    \{EEEYAAAH!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{GAAAHHHH!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    Uuunnnghhhnnn...
+
+##################################################### Other
+
+notice/DisbandWarning
+\narr Warning： Participating in the Arena will disband your party.
+
+198964/nothingHappen
+\cg[other_TankMan]1689.06.04 Absolutely nothing happened on that fateful day.\n Painting by：417
+
+commoner/typeB
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    My ol' lady back home said this sort of sport is just too cruel. Whad ya think?
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    One of my neighbor, some old man's pet dog went missin' for a while.
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    Few days later, them soldier boys came a knockin' on his door.
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    Told the ol' bastard some refugees cooked and ate the poor animal...
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    HA! This is cruel?!
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    Just look how cruel it is out in OUR streets!
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    This arena here is what's distracting us from doing even more cruel things to each other!
+
+commoner/typeA
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    Ya ever heard about the \c[6]Berserk Medicine\c[0] before?
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    I heard that the nobles and alchemists in town created a drug that'll make yer body strong, and they're using this place to test it out.
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    I've also heard from a soldier stationed in the frontlines that the drug'll fill ya with courage and make ya really horny.
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    The fella felt like he was unstoppable!
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    Don't cha think it's weird? How can something this advanced exist in a shithole like here?
+\CBid[-1,20]\prf\c[4]Gambler：\c[0]    I mean, how can such talents come from \c[6]Noer Town\c[0]?
+
+CommonerBL/Qmsg0
+Who told you that men can't get pregnant?
+
+CommonerBL/Qmsg1
+The latest A/B/O Journal published about this place!
+
+CommonerBL/Qmsg2
+If all women have wombs, why can't men too?!
+
+CommonerBR/Qmsg0
+No way! There's no way this is Boys Love!
+
+CommonerBR/Qmsg1
+Homosexuality and Boys Love is totally different!
+
+CommonerBR/Qmsg2
+Fake news!
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

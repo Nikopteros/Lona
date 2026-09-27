@@ -1,0 +1,72 @@
+Camp/Enter
+\m[confused]사라진 마차 일행\optB[그만둔다,들어간다]
+
+Guide/QuestNotDone
+\m[confused]\c[6]로나：\c[0] 아직 캠프의 상황도, 생존자가 있는지도 확인하지 못했어.
+
+Forest/Entry
+\m[serious]\c[6]로나：\c[0] 여긴가… 냄새가 여기까지 진동해.
+\m[irritated]\c[6]로나：\c[0] 보아하니 놈들의 경계가 전혀 느슨하지 않군.\CamMP[DasWatcher]
+\m[confused]\c[6]로나：\c[0] 흠......
+\m[normal]\c[6]로나：\c[0] 조심스럽게 앞으로 가자. 절대로 그 감시자들에게 들켜선 안 돼.\CamCT
+
+Camp/GoblinSeen
+\m[shocked]\Rshake\c[6]로나：\c[0] 들켰어! 근처에서 수많은 소리가 이쪽으로 몰려오고 있어!
+\m[terror]\Rshake\c[6]로나：\c[0] 서둘러야 해, 그렇지 않으면 도망칠 수 없어!
+
+Camp/SawCamp
+\m[confused]\c[6]로나：\c[0] 천막이 보여…
+\m[fear]\c[6]로나：\c[0] 살아 있는 사람이 한 명도 없는 건가?\CamMP[Camp]
+\m[shocked]\Rshake\c[6]로나：\c[0] 세상에…!\CamMP[DedPpl]
+\m[terror]\c[6]로나：\c[0] 전부 죽었어?! 놈들은 심지어 사람들을 요리하고 있어…
+\m[confused]\c[6]로나：\c[0] 아니, 더 깊은 곳에서 희미하게 신음소리가 들려와.
+\m[serious]\c[6]로나：\c[0] 안 돼, 정신 차려야 해.\CamCT
+\m[angry]\c[6]로나：\c[0] 내가 직접 눈으로 확인해야만 해.
+
+Camp/OrkindBabySaw
+\m[shocked]\Rshake\c[6]로나：\c[0] 으윽! 끔찍한 악취가…!
+\m[terror]\c[6]로나：\c[0] 맙소사!\CamMP[WakeUp]
+\m[fear]\c[6]로나：\c[0] 아직 살아 있어! 생존자가 있다!
+\m[sad]\c[6]로나：\c[0] 놈들이 몇몇 여성을 번식의 도구로 남겨두었어…
+\m[fear]\c[6]로나：\c[0] 확실히 놈들이 이미 노엘 마을 근처까지 왔다는 증거야.
+\m[serious]\c[6]로나：\c[0] 내가 이 사람들을 도울 수는 없어. 서둘러 돌아가 보고해야 해.\CamCT
+
+Guild/completed
+\prf\c[4]직원：\c[0] 뭐라고! 벌써 번식을 시작했다고? 이건 긴급 사안으로 처리해야겠군.
+
+Guild/completed2
+\prf\c[4]직원：\c[0] 잘했네. 이걸로 북쪽의 압박은 한결 줄어들 거야.
+
+Guild/completed3
+\prf\c[4]직원：\c[0] 뭐? 아직 살아 있다고?! 구해왔다고?!
+\prf\c[4]직원：\c[0] 보아하니 생각보다 훨씬 유능하군!
+
+########################################################################################QUEST LINE 3
+
+CommonConvoyTarget/Hev0
+\SETpr[OrcCaveEvent]이 비릿한 악취로 가득한 작은 동굴 안. 피해자들의 상태는 매우 참혹하다.  
+오크들에게는 나이도 외모도 중요하지 않았다. 임신할 수 있는 몸이라면 누구든 번식의 도구였다.  
+피해자들은 장기간의 극심한 학대 끝에, 이미 죽었거나 정신이 붕괴된 상태였다.  
+그리고 상인의 딸—  
+그녀의 온몸은 정액과 오물로 뒤덮여 있었다.  
+배에는 출산으로 인한 깊은 주름이 새겨져 있었고, 오랫동안 오크들에게 유린당해 온 흔적이 역력했다.  
+로나는 그녀의 정신 상태를 확신할 수 없었다. 만약 불가능하다면… 어쩔 수 없이 포기해야 할지도 모른다.
+
+CommonConvoyTarget/begin0
+\m[serious]\PRF\c[6]로나：\c[0] 아직 살아 있어!
+\prf\c[4]상인의 딸：\c[0] \..\..\..\..흐윽.
+\m[shocked]\PRF\c[6]로나：\c[0] 괜찮아? 내 말 들리니?
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]상인의 딸：\c[0] 으… 너는…?\optB[지나가던 사람이야,널 구하러 왔어]
+
+CommonConvoyTarget/Arrivel
+\prf\c[4]상인의 딸：\c[0] 고마워. 내가 살아남을 수 있었던 건 전부 너 덕분이야.
+\m[triumph]\PRF\c[6]로나：\c[0] 별말을! 당연히 해야 할 일이야!
+\prf\c[4]상인의 딸：\c[0] 난 아버지에게 돌아갈게. 넌 몸조심해.
+
+CommonConvoyTarget/Arrivel1
+\m[confused]\PRF\c[6]로나：\c[0] 우선 길드로 돌아가 보고하자.
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]상인의 딸：\c[0] 정말 고마워. 우리 빨리 노엘 마을로 돌아가자.

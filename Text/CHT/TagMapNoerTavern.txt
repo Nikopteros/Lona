@@ -1,0 +1,279 @@
+NoerTavern/OvermapEnter
+\m[confused]燃燒橡木桶，全年無休，無論日夜。\optB[算了,進入]
+
+##########-----------------------------------------------------
+
+Taxidermist/DeepOne
+\cg[other_DeeponeTaxidermist]深淺者
+狩獵日期1754.3.14。
+
+Taxidermist/Hog
+\cg[other_HogTaxidermist]普通的豬豬
+狩獵日期1757.6.11。
+
+###################################################################     COMMON PPL
+
+CommonPPL/begin0
+\c[4]醉漢：\c[0]    酒！ 給我更多酒！
+
+CommonPPL/begin1
+\c[4]醉漢：\c[0]    女人！ 哈哈！ 女人！
+
+CommonPPL/begin2
+\c[4]醉漢：\c[0]    胸部！ 沒有！
+
+CommonPPL/begin3
+\c[4]醉漢：\c[0]    小雞雞！ 噶！
+
+CommonPPL/begin4
+\c[4]醉漢：\c[0]    噁！ 嗚嘔嘔嘔！
+
+###################################################################     COMMON NAP RAPE
+
+CommonPPL/NapRape
+\c[4]醉漢：\c[0]    呵呵，這個小可愛怎麼躺在這？
+
+CommonPPL/NapRape1
+\c[4]醉漢：\c[0]    嘿嘿嘿。
+
+CommonPPL/NapRape2
+\narr洛娜被搬走了
+
+CommonPPL/NapRape3
+\c[4]醉漢：\c[0]    沒事沒事，就只是請妳幫我把小雞雞清理一下，這點小事妳應該辦的到吧？
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]醉漢：\c[0]    我看妳是想挨揍吧？
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]醉漢：\c[0]    這才乖♥
+
+##########-----------------------------------------------------NoerTavern        Hazubendo 
+
+Hazubendo/FearWaifu0
+走開！別跟我說話。
+
+Hazubendo/FearWaifu1
+噓！她不准我跟任何女的說話。
+
+Hazubendo/FearWaifu2
+她會殺了我的！
+
+Hazubendo/FearWaifu3
+明明以前是那麼地可愛....
+
+Hazubendo/begin
+\CBid[-1,20]\c[4]老闆：\c[0]    我自由了！ 自由是可貴的！ 我們必須要自己爭取！\optB[算了,交易]
+
+
+##########-----------------------------------------------------                WAIFU
+
+Waifu/begin1_RecQuestCocona_win
+\CBid[-1,5]\SETpl[BigMama_happy]\Lshake\c[4]老闆娘：\c[0]    沒想到我居然會輸給妳啊....
+
+Waifu/begin1_RecQuestCocona_loser
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]老闆娘：\c[0]    別讓我失望啊，蛆蟲。
+
+Waifu/begin1_RecQuestCocona_28_0
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]老闆娘：\c[0]    喂！ 妳怎麼還在這？
+
+Waifu/begin1_RecQuestCocona_28_1
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]老闆娘：\c[0]    妳還沒走？
+
+Waifu/begin1_slave
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]老闆娘：\c[0]    \{奴隸在這幹啥？ 快滾！
+
+Waifu/begin1_maggot
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]老闆娘：\c[0]    \{臭蟲！ 別給老娘這鬧事！
+
+Waifu/begin1_sexy
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]老闆娘：\c[0]    \{臭婊子！幹啥呢？
+
+Waifu/begin1_weaker
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]老闆娘：\c[0]    \{看啥！蛆蟲！
+
+Waifu/begin1_moot
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]老闆娘：\c[0]    \{看啥？
+
+Waifu/begin1_lona
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]老闆娘：\c[0]    \{幹啥？
+
+##########-------------
+
+Waifu/Opt
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯...？
+
+Waifu/work_begin_RecQuestCocona_28
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]老闆娘：\c[0]    妳還沒賺夠？！
+
+Waifu/work_begin
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]老闆娘：\c[0]    \{就憑妳？ 妳能做啥？
+
+Waifu/Opt_work
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？\optB[算了,送酒,舞孃]
+
+Waifu/Opt_work_end_summon
+\CBmp[TavernWaifu,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]老闆娘：\c[0]    \{動作這麼慢？！ 這是妳的錢！ 快滾！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    \}啊...對不起...
+
+Waifu/Opt_work_end_NoSummon1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]老闆娘：\c[0]    嗯！ 馬馬虎虎！ \{還行！
+\CBct[3]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦？謝謝...？
+
+Waifu/Opt_work_end_NoSummon2
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]老闆娘：\c[0]    \{幹的好！ 之後也用的著妳！
+\CBct[3]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    ......謝謝？
+
+
+##########-------------##########-------------##########------------- DANCER
+
+Waifu/Opt_work_dancer_board
+\board[舞孃]
+工作者須對自己的體力以及外貌有一定自信。
+跳舞以及時限內撿取,錢幣撿取越多報酬越高。
+回應客人的要求，做他們想要的事。
+性感質越高，回應的要求越多，客人給予錢幣的越多。
+工作中奔跑將會消耗額外體力。
+
+Waifu/Opt_work_dance
+\SETpl[BigMama_normal]\Lshake\c[4]老闆娘：\c[0]    \{很年輕是嗎？ 體力很好是嗎？ 很有自信是嗎？
+\m[sad]\c[6]洛娜：\c[0]    \}不是的...不..對不起...
+\SETpl[BigMama_normal]\Lshake\c[4]老闆娘：\c[0]    \{很好！ 不過我不保證那群渾蛋不對妳動手！
+
+Waifu/Opt_work_dance_end
+\narr舞孃的工作結束了
+
+Waifu/dance_low_sta_rape
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    看看這個小鬼，連站都站不起來了。
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    真努力阿。
+\SETpl[raper1]\Lshake\c[4]醉漢：\c[0]    為了幫她回復體力，我們就用雞雞幫她注入能量吧！
+
+Waifu/dance_rape1
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    不行，我...我受不了了！ 我要上了！
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    不！我才該先上！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    大家一起玩！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    等等！老闆娘還在！她會殺了我們！
+
+Waifu/dance_rape1_1
+\SETpr[BigMama_normal]\c[4]老闆娘：\c[0]    我警告過妳了，這也是工作的一部分！
+\SETpr[BigMama_normal]\c[4]老闆娘：\c[0]    剩下的我不管了！
+\prh\narr老闆娘離開了
+
+Waifu/dance_rape1_2
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    感謝老闆娘！ 讚美老闆娘！
+
+Waifu/dance_rape2
+\m[terror]\c[6]洛娜：\c[0]    你...你們.....
+
+Lona/dance_DDR_DressOut
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    脫！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    快脫！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    \{脫！
+
+Lona/dance_DDR_Masturbation
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    手淫！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    快！快自慰給我看！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    手淫！ 手淫！ 手淫！
+
+Lona/dance_DDR_Pee
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    放尿！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    對！ 就現場尿給大家看！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    放尿！ 放尿！ 放尿！
+
+Lona/dance_DDR_Poo
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    拉屎給大家看吧！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    對！ 誰說少女不會拉屎的！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    就拉在舞台上！ 現在馬上！
+
+Lona/dance_DDR_Milk
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    妳生過孩子了對吧！ 會擠奶吧！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    對！ 媽媽我餓了！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    快！ 餵在座每人一杯奶！
+
+Lona/dance_DDR_GroinClearn
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    妳是妓女對吧！ 把妳屄穴的洨弄出來給大家看！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    對！ 弄出來然後吃掉！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    沒錯！ 妓女就該騷的像個妓女！
+
+Lona/dance_DDR_Cum
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    我想射在她身上！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    我也是！ 喂！ 賤貨，過來！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    給我好好接好了！！ 別讓一滴洨汁滴到地上啊！
+
+Lona/dance_DDR_Bukaake
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    我想射在她臉上！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    我也是！ 喂！ 賤貨，過來！
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    用臉接好！ 別浪費我們的洨汁啊！
+
+Lona/dance_DDR_PeeonHead
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    我想尿尿！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    我也是！ 乾脆尿在她嘴裡？
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    過來！ 把嘴張大！ 給我接好了別漏出來啊！
+
+Lona/dance_DDR_Peeon
+\SETpl[raper3]\Lshake\c[4]醉漢：\c[0]    我想尿尿！
+\SETpl[raper2]\Lshake\c[4]醉漢：\c[0]    我也是！ 乾脆尿在她身上？
+\SETpl[raper_group]\Lshake\c[4]醉漢：\c[0]    沒錯！ 把腿打開！ 接好了！
+
+Lona/dance_DDR_opt
+\m[shy]\c[6]洛娜：\c[0]    嗚..\optD[照做<t=3>,不要]
+
+##########-------------##########-------------##########------------- WAITER
+
+Waifu/Opt_work_waiter_board
+\board[送酒]
+時限以內將酒送到10個客人手中。
+工作中奔跑將會消耗額外體力。
+剩餘時間越多報酬越高。
+
+Waifu/Opt_work_waiter2_decide
+\SETpl[BigMama_normal]\Lshake\c[4]老闆娘：\c[0]    \{快！ 把這堆酒送過去！ 慢了就有妳好看！
+\m[fear]\Rshake\c[6]洛娜：\c[0]    \{好.... 好的！
+
+###################################################
+
+Waifu/WorkFailed0
+\CamMP[TavernWaifu]\m[shocked]\SETpl[BigMama_angry]\Lshake\prf\c[4]老闆娘：\c[0]    \{妳這小鬼到底在混啥！
+\m[sad]\PLF\c[6]洛娜：\c[0]    \}啊...對不起...
+
+Waifu/WorkFailed1
+\SETpl[BigMama_angry]\Lshake\c[4]老闆娘：\c[0]    \{這個沒用的垃圾！
+
+Waifu/WorkFailed2
+\SETpl[BigMama_angry]\Lshake\c[4]老闆娘：\c[0]    \{這點小事也辦不好！
+
+Waifu/WorkFailed3
+\CamCT\SETpl[BigMama_angry2]\Lshake\c[4]老闆娘：\c[0]    \{給我滾！
+
+Waifu/WorkFailed_slave
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]老闆娘：\c[0]    \{用妳的身體賠償客人！
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{啊？！
+
+###################################################
+
+Waifu/NapSlave
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]老闆娘：\c[0]    \{該死的奴隸！ 給我滾出去！
+\m[sad]\PLF\c[6]洛娜：\c[0]    \}對不起...
+
+Waifu/NapNokey
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]老闆娘：\c[0]    \{滾滾滾！ 妳這垃圾！
+\m[sad]\PLF\c[6]洛娜：\c[0]    \}對不起...
+
+##########-------------------	Follower	----------------
+
+CommonCompanion/TavernCommand
+\m[confused]\optB[算了,解散]
+
+##########-------------------	Common	----------------
+
+Nap/NotMyBed
+不是我的床。
+
+2fKid/Qmsg0
+爸爸說我必須喝更多。
+
+2fKid/Qmsg1
+要喝才能成為大人。
+
+2fKid/Qmsg2
+我現在是大人了嗎？

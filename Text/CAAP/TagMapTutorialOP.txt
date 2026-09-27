@@ -1,0 +1,185 @@
+#note 指路人=beacon
+
+OP/EXIT
+¿Terminar tutorial y salir?
+
+OP/EXIT_yes
+\CBct[2]\m[confused]\c[6]Lona:\C[0]    \....\....Mmmnn... ¿Hmm?
+\CBct[1]\m[shocked]\Rshake\c[6]Lona:\C[0]    \{¡AHH?!\}
+\CBct[8]\m[flirty]\c[6]Lona:\C[0]    \....¿Todo esto fue...... \....solo un sueño?
+
+OP/b4Begin0
+La Niebla Negra me lo arrebató todo...
+
+OP/b4Begin1
+...perdí mi hogar...
+
+OP/b4Begin2
+...mi familia...
+
+OP/b4Begin3
+...no me queda nada......
+
+OP/begin0
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¡Ahh... ¡Al fin estás aquí...!
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Llevo mucho esperándote. La Guild te envió para deshacerte\n de esas gigantescas ratas apestosas, ¿no?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Esos parásitos han infestado esta zona y mutan desde enero...
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Sígueme.
+
+OP/begin1
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    A ver... ¿cómo se llamaba esta criatura......?
+\CBmp[teacher,8]\c[4]Desconocido:\C[0]    \..\..\..¡Ah sí! \c[6]Feyra\C[0]!
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Una chica tan dulce... Quería que fuera mi heraldo, pero la ira la consumió y nubló su juicio.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Creí poder iluminar a Feyra, pero parece que ya era demasiado tarde...
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Ahora que estás aquí, espero que seas quien finalmente me ayude con esta plaga.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Mira a tu alrededor, niña.
+
+OP/begin2
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Qué mundo tan triste y cruel nos rodea, ¿verdad?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Estas pobres almas huyeron de \c[6]Síbaris\C[0], perdiendo sus hogares, igual que tú.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Pero tú eres diferente, no te rendiste ni perdiste la esperanza. ¿Cierto?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Vamos...
+
+OP/begin3
+\narr La dirección de tu mirada es crucial en combate o al interactuar con objetos.
+\narr ¡Mantente alerta y observa cuidadosamente antes de avanzar!
+
+OP/begin4
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Bastante oscuro aquí, ¿eh? Como cuando apareció la \c[6]Niebla Negra\C[0] aquella noche horrible...
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Perdona, no quería recordarte esa catástrofe.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Acércate y enciende este fuego.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    La justicia será una luz en la oscuridad, expulsando el mal y los pecados...
+
+OP/begin5
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Mucho mejor ahora, ¿no?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    No temas, la oscuridad de aquella noche no volverá. Jamás.
+
+OP/begin6
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¿Hmmm? Un momento\....\.... ¿Qué es esto?
+
+OP/begin7
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Parece que olvidaste algo aquí.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Vamos, recógelo todo. Son tus pertenencias, al fin y al cabo.
+
+OP/begin8
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ...Creí que estos dos habían peleado derramando algo en mi morada.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Pero no esperaba encontrar este trágico espectáculo al regresar.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Aunque estoy seguro de saber quién es el culpable...
+\CBmp[teacher,8]\c[4]Desconocido:\C[0]    .....¿Hmmm?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¿Recogiste todas tus cosas?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Bien, entonces sígueme.
+
+OP/begin9
+\narr Debes pararte SOBRE objetos "pequeños" para interactuar.
+\narr Para objetos "grandes", debes mirar hacia ellos.
+\narr Todas las acciones (recoger objetos, diálogos, comercio) requieren presionar la tecla de Interacción.
+
+OP/begin10
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    A ver, ¿por dónde iba...?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¡Ah sí! Odio que surjan problemas cuando ya estoy ocupado.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¿Por qué debo limpiar los desastres ajenos?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¿Quizás lo hicieron a propósito...?
+
+OP/begin11
+\CBmp[teacher,8]\c[4]Desconocido:\C[0]    \....\....\....
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¿Seguro que recogiste todo?
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Creo que falta algo.
+
+OP/begin12
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Sé que quiere compensar su debilidad y ser fuerte como nosotros...
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Pero los cambios no son tan rápidos...
+
+OP/begin13
+\narr Presiona ambas teclas simultáneamente para equipar objetos del suelo.
+
+OP/begin14
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Ellos convirtieron mi hogar en esto. ¿Y AHORA QUÉ?
+\CBmp[teacher,5]\c[4]Desconocido:\C[0]    ¿Me lo dejaron y huyeron? ¡Qué risa!
+
+OP/begin15
+\narr El Menú contiene toda la información sobre Lona y configuraciones.
+\narr Incluyendo salud, equipo, inventario, mensajes y ajustes.
+
+OP/begin16
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Oye, mira esto.
+
+OP/begin17
+\CBmp[Atk,19]\c[4]Desconocido:\C[0]    Estas barricadas las puso \c[6]Feyra\C[0].
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Para que los vagabundos no entraran en su territorio.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ...La ironía es que ella misma no tiene hogar.
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Por cruel que suene, es su destino. ¿Y el tuyo? ¿Qué te depara el destino...?
+
+OP/begin18
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ¡Ven, niña!
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    Tu destino... te espera...
+\CBmp[teacher,20]\c[4]Desconocido:\C[0]    ...enfréntalo......
+
+OP/ToTrigger1
+Presiona la tecla de Interacción para continuar.
+
+OP/ToTrigger2
+Tu tecla de Interacción es -
+
+OP/UX_GOTO0
+Usa las teclas
+
+OP/UX_GOTO1
+Muévete en la dirección indicada.
+
+OP/CHANGE_DIR0
+para girar hacia la dirección deseada.
+
+OP/FaceFirePitAndPress
+Párate frente a la fogata, mírala y presiona
+
+OP/5Times
+para encenderla (5 veces).
+
+OP/StandOnItemAndPress
+Párate sobre el objeto y presiona
+
+OP/ToPickItem
+para recogerlo al inventario.
+
+OP/ToPickAndEquip
+para equiparlo directamente.
+
+OP/ToMenu0
+Presiona la tecla de Menú para abrirlo,
+
+OP/ToMenu1
+vuelve a presionarla para cerrarlo.
+
+OP/ToMenu2
+Tu tecla de Menú es -
+
+OP/ToEquip1
+accede al menú de Equipo,
+
+OP/ToEquip2
+y coloca la Lámpara en el slot "S-ARM".
+
+OP/ToSkill1
+y asigna la Habilidad "Principal" al slot
+
+OP/ToSkill2
+en la pestaña de Habilidades.
+
+OP/ToATK0
+Usa la Habilidad "Principal" u otras habilidades,
+
+OP/ToATK1
+para destruir obstáculos.
+
+OP/ToRELAX0
+¡Estás fatigada!
+
+OP/ToRELAX1
+Asigna "Descansar" en Habilidades,
+
+OP/ToRELAX2
+luego mantén presionada la tecla para descansar.
+
+OP/ToEND
+Abandona esta zona...
+

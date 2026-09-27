@@ -1,0 +1,546 @@
+BackStreet/OvermapEnter
+\m[confused]노엘 마을 뒷골목, 대검파 구역\optB[그만둔다, 들어간다]
+
+#=============================================================================================================
+
+NotCapture/begin_withGangBoss0
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\SndLib[sound_MaleWarriorSpot]\Lshake\c[4]불량배 두목：\c[0] \{야, 이리 와봐!
+
+NotCapture/begin_withGangBoss1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]로나：\c[0] 뭐?! 뭐야, 왜 그래?!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]불량배 두목：\c[0] 요 꼬맹아, 우리 밑에 붙은 계집이 아니잖아?
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]로나：\c[0] 나... 나는...
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]불량배 두목：\c[0] \{죽기 싫으면 당장 꺼져라!
+\CBct[6]\m[sad]\PRF\plf\c[6]로나：\c[0] 미... 미안해....
+
+NotCapture/begin_FishKindMode0
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\c[4]어인 경비병：\c[0] \{크르륵!
+
+NotCapture/begin_FishKindMode1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]로나：\c[0] 뭐?! 뭐야, 왜 그래?!
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]어인 경비병：\c[0] …여…여자… 외부…자!
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]로나：\c[0] 나… 나는…
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]어인 경비병：\c[0] \{꺼져어어——!!
+\CBct[6]\m[terror]\Rshake\plf\c[6]로나：\c[0] 미안해… 제발…
+
+NotCapture/begin_withGangBoss1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]로나：\c[0] 뭐?! 뭐야, 왜 그래?!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]불량배 두목：\c[0] 하, 이년… 도망친 노예냐?!
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]로나：\c[0] 나… 나는……
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]불량배 두목：\c[0] \{잡아! 발버둥 못 치게 해라!
+\CBct[6]\m[terror]\Rshake\plf\c[6]로나：\c[0] 꺄악—!!! 제발 안 돼!!!
+
+NotCapture/begin_FishKindMode1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]로나：\c[0] 뭐?! 뭐야, 왜 그래?!
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]어인 경비병：\c[0] …여…자… 도망친… 노예…?
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]로나：\c[0] 나… 나는……
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]어인 경비병：\c[0] \{콰아악! 잡아라!! 
+\CBct[6]\m[terror]\Rshake\plf\c[6]로나：\c[0] 안 돼!!! 꺄악—!!!
+
+#=============================================================================================================
+
+HappyTrader/begin_normal
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 헤헤! 뭐 찾는 거야? 없는 게 없지!
+
+HappyTrader/begin_normalArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 빚 못 갚겠다고? 그럼 내 밑에서 \C[2]직원\C[0]으로 굴러보는 건 어때?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]상인：\c[0] 먹는 거, 입는 거, 잘 곳까지—전부 내가 책임져 주지!
+
+HappyTrader/opt
+\CBct[8]\m[confused]\c[6]로나：\c[0] 응…?
+
+HappyTrader/work_opt
+\CBid[-1,2]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 자, 아가씨. 넌 뭘 좀 할 줄 아나?
+
+HappyTrader/work_whore_NoTrait
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 하하, 미안한데—이 일은 너랑은 안 맞는 것 같네.
+\narr로나는 \C[2]창녀\C[0] 재능을 익히지 않았다
+
+HappyTrader/work_whore_board1
+\board[뒷골목 창녀]
+#{$story_stats["HiddenOPT0"][0]}거래 포인트를 담보로 빌려 작업권을 구매
+매일 최소 #{$story_stats["HiddenOPT0"][1]} 거래 포인트를 보호비로 지불해야 함(첫날은 제외)
+보호비는 자동으로 대출금에 합산됨
+근무 중에는 뒷골목 일하는 노예로 간주됨
+
+HappyTrader/work_whore_board2
+\board[뒷골목 창녀]
+근무 중인 노예는 임의로 떠날 수 없음
+휴식은 왼쪽의 작은 집에서 취할 것
+대출금을 전액 상환하면 퇴직으로 간주됨
+보호비를 내지 않거나 임의로 떠나려 하면 처벌을 받게 됨
+
+HappyTrader/work_whore_accept0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]상인：\c[0] 좋아, 이제 넌 우리 식구야.
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]상인：\c[0] 일하는 동안은 여기서 나갈 수 없어. 쉬고 싶으면 왼쪽 작은 집으로 가도록 해.
+
+HappyTrader/work_whore_accept1
+\BonID[-1,20]\CamMP[UniqueGangBoss]\SETpl[HappyMerchant_normal]\SETpr[NoerGangBoss]\Lshake\c[4]상인：\c[0] 그리고—여기 이 형님이 널 잘 지켜봐 주실 거야.
+\CBmp[UniqueGangBoss,8]\SETpl[NoerGangBoss]\m[flirty]\c[4]불량배 두목：\c[0] ......
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\m[fear]\Lshake\c[4]불량배 두목：\c[0] 일할 땐 괜히 까불지 마라. 안 그럼—목숨이 달아날 거다.
+
+HappyTrader/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]로나：\c[0] 저기… 요즘 좀 빠듯해서, 혹시 빌려줄 수 있을까….?
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] \{빌, 빌린다고?!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] \{좋았어! 완벽하군!
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]상인：\c[0] 자, 그럼! 먼저 규칙부터 확인해 보자고.
+
+HappyTrader/Arrears_NewTo1
+\board[양심 대출]
+사장이 직접 운영, 빌린 만큼만 딱 가져가면 됨  
+돈 빌리며 남 눈치 볼 필요 없음, 신용 기록 없는 자라면 더욱 환영.  
+돈놀이 고리대금이 아님, 매일 가볍게 상환 가능.  
+대출 한도: 1~4골드  
+이자가 원금을 초과하면 즉시 추적 시작  
+대출 시 선이자로 7일치가 미리 공제됨
+
+HappyTrader/Arrears_NewTo2
+\CBct[8]\m[confused]\plf\c[6]로나：\c[0] ……에…에에……
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] \{이거 고리대금이잖아!
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] 그럴 리가 있나?!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 난 그저 불쌍한 난민들을 도와주려는 것뿐이야.
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] 주위를 봐! 저 불쌍한 사람들 좀 보라고. 내가 아니었으면 진작 굶어 죽었을 거야!
+\CBct[8]\m[confused]\plf\c[6]로나：\c[0] 으으……
+
+HappyTrader/Arrears1_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\c[4]상인：\c[0] 얼마나 빌리고 싶은데?\optB[그만둔다,1골드,2골드,3골드,4골드]
+
+HappyTrader/opt_AboutArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 어디 보자아….
+
+HappyTrader/Arrears_info
+\board[뒷골목 창녀]
+원금： #{$story_stats["BackStreetArrearsPrincipal"]}
+이자： #{$story_stats["BackStreetArrearsInterest"]}
+총액： #{$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+추가 보호비： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_info_DebtHunter
+\board[뒷골목 창녀]
+원금： #{$story_stats["BackStreetArrearsPrincipal"]}
+이자： #{$story_stats["BackStreetArrearsInterest"]}
+서비스비： #{$story_stats["HiddenOPT0"]}
+총액： #{$story_stats["HiddenOPT0"]+$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+추가 보호비： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_accept
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 헤헤.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 기한 되면 꼭 갚아야 한다구!
+\CBct[8]\m[shy]\plf\c[6]로나：\c[0] 응… 고마워.
+
+HappyTrader/Arrears_return_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 뭐로 갚을 생각이지?
+
+HappyTrader/Arrears_return_item
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 어디 보자고….
+
+HappyTrader/BecomeSlave_begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 우리 밑에서 일하면 온갖 혜택을 누릴 수 있지.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 먹고, 자고, 치료까지 전부 제공!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 노동·건강 보험도 완비돼 있지.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 게다가 네가 진 모든 빚과 채무도 싹 지워주마.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 어때, 혹하나? 자, 사인해!
+
+HappyTrader/BecomeSlave_begin1
+\CBct[6]\m[wtf]\plf\c[6]로나：\c[0] 설마… 날 노예로 삼으려는 건 아니겠지?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 아냐! 당연히 아니지! 세상이 아직 그렇게까지 망하진 않았잖아?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] 너, 설마 삼촌 같은 내가 나쁜 놈이라고 생각하는 건 아니겠지?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 자, 이걸 좀 봐봐!
+
+HappyTrader/BecomeSlave_begin2
+\board[루드신드 상회 고용서]
+루드신드 상회은 직원의 식사, 주거, 의료, 그리고 신변 안전을 보장한다.  
+직원은 고용주의 모든 업무 요구에 동의해야 한다.  
+직원은 임의로 근무지를 이탈할 수 없다.  
+직원이 업무 요구를 위반할 경우, 고용주는 합리적인 징벌을 가할 수 있다. 
+\}직원은 업무 요구에 따라 잉갈란 국민으로서의 모든 인권을 포기한다.
+직원은 업무 요구에 따라 루드신드 상회의 노예가 된다.
+\{본인은 위의 조항에 동의하며 루드신드 상회의 직원이 될 것을 서약한다.
+
+HappyTrader/BecomeSlave_accept0
+\CBct[2]\m[confused]\plf\c[6]로나：\c[0] 뭐… 별 문제 없겠지?
+\SND[SE/PenWrite1.ogg]\narr로나는 계약서에 자신의 이름을 써넣었다.
+
+HappyTrader/BecomeSlave_accept1
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] 좋아! 아주 좋아!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 아가씨, 너도 피곤하지?
+\CBct[2]\m[flirty]\plf\c[6]로나：\c[0] 에?! 그, 그런가…?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] 자, 이거 마셔. 기운이 쭉 돌아올 거야.
+\CBct[20]\m[triumph]\plf\c[6]로나：\c[0] 어, 고마워!
+\CBct[3]\m[pleased]\plf\c[6]로나：\c[0] 삼촌은 역시 좋은 사람이네!
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] 당연하지! 이런 재앙 속에선 다들 서로 도와야 살아남는 거니까!
+\CBct[20]\m[shy]\plf\c[6]로나：\c[0] 맞아.
+\SND[SE/drink02.ogg]\narr로나는 음료를 들이켰다.
+
+HappyTrader/BecomeSlave_accept2
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] ……에……?
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 으으…… 머리가… 어질어질……
+
+HappyTrader/BecomeSlave_accept3
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 으으……
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]불량배 두목：\c[0] 아직 정신이 남아있잖아!
+\CBmp[stGang2,20]\SETpr[MobHumanCommoner]\Rshake\plf\c[4]불량배 두목：\c[0] 그게 더 좋지 않냐? 울고 소리질러야 재미가 있거든!
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 너, 너희들… 뭐, 뭘 하려는 거야……
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]불량배 두목：\c[0]까불지 마! 움직이면 고생하는 건 네 쪽이라고!
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 안 돼! 놓아줘!
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]불량배 두목：\c[0] 가만히 있으라니까! 착하지!
+
+HappyTrader/BecomeSlave_accept3_1
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]로나：\c[0] \{끄아아아악──!!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{아아아아아앗!!
+
+HappyTrader/BecomeSlave_accept3_2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]불량배 두목：\c[0] 하하! 끝내주네! 더 크게 소리 질러 봐라!
+
+HappyTrader/BecomeSlave_accept3_3
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{히이잌──!!
+
+HappyTrader/BecomeSlave_accept4
+\cgoff\narr로나는 노예가 되었다.
+
+#=================================================NAP AND TORTURE======================================================
+
+nap/WhoreWakeUp
+\CBmp[HappyMerchant,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] \{ 자, 아가씨들! 일하러 일어나라구!
+
+nap/drug_begin_FristTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]불량배 두목：\c[0] 꽉 잡아라!
+\CBmp[stGang1,20]\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]잡역배：\c[0] 네! 두목!
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 뭐야?! 제발 다치게 하진 마!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]불량배 두목：\c[0] 이걸 마셔.
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 이건…? 으… 으으…
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]불량배 두목：\c[0] 그냥 마셔! 몸에 좋은 거다.
+
+nap/drug_begin_SecondTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]불량배 두목：\c[0] 약 먹을 시간이야.
+
+nap/drug_begin_Eat
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 으으……
+
+nap/torture_begin
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]잡역배：\c[0] \{잘 봐둬라, 년들아!
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]잡역배：\c[0] 일 안 해? 말 안 들어? 도망치려 해?
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]잡역배：\c[0] 그럼 너희 앞에 기다린 건 바로 이런 꼴이다!
+\CBct[6]\m[terror]\plf\Rshake\c[6]로나：\c[0] 안 돼! 제발! 살려줘!
+
+nap/WhorePrincipal_return
+\narr로나가 가진 모든 거래 포인트는 전부 그들에게 넘어갔다.
+
+nap/WhorePrincipal_returnEqp
+\narr노예는 소유할 자격이 없다. 그들은 로나가 가진 모든 물건을 몰수했다.
+
+nap/SlavePrice
+\narr아직 #{$story_stats["BackStreetArrearsWhorePrincipal"]} 거래 포인트를 더 벌어야 한다. 낮과 밤이 바뀔 때 결산된다.
+
+nap/SlaveTorture
+\narr그들은 로나를 게으른 노예라 여겼고, 잠시 후 본때를 보여주기로 했다.
+
+#=============================================================================================================
+
+Escape/begin
+\SETpl[MobHumanCommoner]\Lshake\c[0]경비병：\c[0] 년 하나가 도망쳤다! 잡아라!
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 큰일이야!
+
+Escape/begin_NoCapture
+\SETpl[MobHumanCommoner]\Lshake\c[0]잡역배：\c[0] 난동이 났다! 저 년을 쳐죽여라!
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 큰일이야!
+
+Escape/failed
+\SETpl[MobHumanCommoner]\Lshake\c[0]경비병：\c[0] 그래서 이게 뭐야?
+\SETpr[MobHumanCommoner]\Rshake\c[0]경비병：\c[0] 아마 도망치다 잡힌 노예겠지?
+\SETpl[MobHumanCommoner]\Lshake\c[0]경비병：\c[0] 우선 몸수색부터 해보자고. 나머진 나중에 처리해도 되잖아.
+
+#=============================================================================================================
+
+GangBoss/begin
+\CBid[-1,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]불량배 두목：\c[0] 뭘 빤히 쳐다봐?
+
+GangBoss/wait
+\CBid[-1,8]\SETpl[NoerGangBoss]\prf\PLF\c[4]불량배 두목：\c[0] ....
+
+GangBoss/begin_slave
+\CBid[-1,20]\SETpl[NoerGangBoss]\Lshake\c[4]불량배 두목：\c[0] \{어서 일 안 하고 뭐 해!
+
+GangBoss/begin_NONtrigger1
+\CBid[-1,20]\m[confused]\SETpl[NoerGangBoss]\prf\PLF\c[4]불량배 두목：\c[0] 애송이, 뭐가 갖고 싶어?
+\CBid[-1,2]\c[4]불량배 두목：\c[0] 아니면… 네가 원하는 \C[4]특별한\C[0] 게 있냐?
+
+GangBoss/begin_NONtrigger2
+\CBct[2]\m[normal]\PRF\plf\c[6]로나：\c[0] 응?\optD[특별한…?]
+
+GangBoss/begin_NONtrigger3
+\CBid[-1,20]\prf\PLF\c[4]불량배 두목：\c[0] 너, 시바리스에서 온 거 맞지?
+\CBct[20]\m[tired]\PRF\plf\c[6]로나：\c[0] 네… 맞아요.
+\CBid[-1,20]\prf\PLF\c[4]불량배 두목：\c[0] 너희 처지는 안타깝지. 이 재앙 속에 수많은 이들이 죽었으니까.
+\CBid[-1,20]\c[4]불량배 두목：\c[0] 살아남은 자들도 많지만, 돈도 없고 신분증명도 없는 이들이 태반이지.
+\CBid[-1,20]\c[4]불량배 두목：\c[0] 결국은 길바닥에서 굶어죽을 뿐이야.
+\CBct[6]\m[sad]\PRF\plf\c[6]로나：\c[0] 으으……
+\CBid[-1,20]\prf\PLF\c[4]불량배 두목：\c[0] 하지만 내가 도와줄 수 있어. 너도 그럴 수 있고.
+\CBct[2]\m[flirty]\PRF\plf\c[6]로나：\c[0] 나도요? 어떻게 하면 되는데요?
+\CBid[-1,8]\prf\PLF\c[4]불량배 두목：\c[0] 나는 여러 신분증명서를 사들여서, 필요로 하는 자들에게 되팔지.
+\CBid[-1,8]\c[4]불량배 두목：\c[0] 혹은 난민들에게 돈을 빌려주기도 하고.
+\CBid[-1,8]\c[4]불량배 두목：\c[0] 너도 그들을 돕고 싶지 않나?
+\CBct[5]\m[confused]\PRF\plf\C[4] …사기꾼. 아버지도 장사를 했어. 내가 모를 줄 알아?
+\CBid[-1,20]\prf\PLF\c[4]불량배 두목：\c[0] 너도 돈이 필요하잖아? 네 신분증 \C[4]원본\C[0], 금화 하나에 사 주마.
+\CBct[20]\m[shocked]\PRF\plf\Rshake\c[6]로나：\c[0] 금화 하나?!  
+\CBid[-1,20]\prf\PLF\c[4]불량배 두목：\c[0] 관심이 생겼군? 좋아.
+
+GangBoss/begin_triggered
+\CBid[-1,20]\SETpl[NoerGangBoss] .....
+
+GangBoss/opt_ex_sellID
+신분증명서를 판다
+
+GangBoss/SellPassport
+\CBct[8]\m[confused]\PRF\plf\c[6]로나：\c[0] 한 번 팔면 돌이킬 수 없어… 내가 정말 그렇게 돈에 쪼들리는 걸까?
+
+GangBoss/SellPassport_sold
+\CBid[-1,20]\prf\PLF\c[4]불량배 두목：\c[0] 현명한 선택을 했군.
+\CBid[-1,20]\prf\PLF\c[4]불량배 두목：\c[0] 아아, 역시! 완벽한 구형 흔적에, 나머지는 놀라울 만큼 멀쩡하네. 진짜 물건이야!
+
+GangBoss/Arrears_return_opt
+\SETpl[NoerGangBoss]\Lshake\c[4]상인：\c[0] 얼마를 갚을 건가?
+
+#=============================================== PiercingTrader ====================================================
+
+Piercing/Begin
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 크흐흐… 여자는… 뚫어야 제맛이지……
+
+Piercing/Begin_slave
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 노예… 피어싱은 특별가… 크흐흐…
+
+Piercing/about
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 바다 마녀가 말했지….
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 남자가 피어싱을 하면—힘의 상징.
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 여자가 피어싱을 하면—번식의 상징…. 
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 여자의… 그곳에 피어싱을 하면—노예의 상징이지.
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 너도… 여자니까… 번식…. 크흐흐….  
+\CBct[2]\m[wtf]\plf\Rshake\m[wtf]\Rshake\c[6]로나：\c[0] 뭐야, 이게? 앞뒤도 안 맞잖아?!
+
+Piercing/piecing_start
+\CBct[2]\m[flirty]\plf\PRF\m[flirty]\C[6]로나：\c[0] 아플…까요?
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 살짝… 조금만 참으면 돼… 겁낼 것 없어…
+\CBct[2]\m[tired]\plf\PRF\m[tired]\C[6]로나：\c[0] 조금만 참으면… 끝나는 거죠?
+
+Piercing/piecing_doing
+\SND[SE/Gore_hit1.ogg]\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 으으윽!
+\SND[SE/Gore_hit2.ogg]\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 끄아악!
+\SND[SE/Gore_hit3.ogg]\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 히잌… 아아아앗!
+\SND[SE/Gore_hit4.ogg]\m[p5sta_damage]\Rshake\c[6]로나：\c[0] \{끄으으아아아악──!!
+
+Piercing/end
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]어인 기술자：\c[0] 피어싱… 참 곱구나. 바다 마녀도 좋아하실 거야!
+
+#============================================ Tree hole house ====================================================
+
+Lona/WorkFailed
+\narr로나는 손님에게 컴플레인을 받았다！
+
+sucker/Qmsg0
+그녀는 지금 일하는 중이다
+
+sucker/Qmsg1
+방해하면 안 된다
+
+sucker/Qmsg2
+아주 집중하고 있다
+
+sucker2/Qmsg0
+이건 내 구멍이야!
+
+sucker2/Qmsg1
+내가 이걸 빨거야!
+
+sucker2/Qmsg2
+귀찮게 하지 마!
+
+hole/Qmsg0
+끝없이 펼쳐진 블랙홀
+
+hole/Qmsg1
+여기엔 아무것도 없다
+
+hole/Qmsg2
+텅 비었다
+
+treeHole/board
+\board[나무 구멍 집 근무 수칙]
+손님 우선 : 일하는 이는 손님을 거절할 수 없다.  
+서비스 최상 : 일하는 이는 반드시 예의를 지켜야 한다.  
+직장 윤리 : 번 수입은 반드시 상납할 것.  
+
+########################################################################################## REP Addon
+
+FishTraderREP/begin_normal
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 여자... 뭐 하려는 거냐...!
+
+FishTraderREP/begin_normalArrears
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 그래... 우린... 더 많은 여자가... 필요하다...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 너의... 생활은... 보호받을 거다...
+
+FishTraderREP/work_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 여자... 일... 교배...
+
+FishTraderREP/BecomeSlave_begin0
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 와라... 우리를... 도와... 돈을 벌어라...
+
+FishTraderREP/BecomeSlave_accept1
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 좋아... 이제... 이걸... 마셔라...
+\CBct[20]\m[triumph]\plf\c[6]로나：\c[0] 에?! 고마워요.
+\SND[SE/drink02.ogg]\plf\prf\narr로나는 음료를 단숨에 마셔버렸다。
+
+FishTraderREP/work_whore_accept0
+\CBid[-1,20]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]어인 무역 대표：\c[0] 좋아... 이제 넌... 우리 일원이야...
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]무역 대표：\c[0] 일하는 동안은... 여길 떠나선 안 된다... 쉬고 싶으면... 왼쪽 오두막으로 가라...
+
+FishTraderREP/work_whore_accept1
+\BonID[-1,20]\CamMP[GangBossREP]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 우리의... 직원들이... 널 지켜본다...
+\CBmp[GangBossREP,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[flirty]\c[4]직원：\c[0] \...\...\...
+\CBmp[GangBossREP,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[fear]\Lshake\c[4]직원：\c[0] 여자... 따먹고 싶다...
+
+FishTraderREP/work_whore_NoTrait
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 너... 이 일엔... 맞지 않아...
+
+FishTraderREP/opt_AboutArrears
+\CBid[-1,8]\m[confused]\SETpl[FishBusinessMan]\PLF\c[4]상인：\c[0] ....
+
+FishTraderREP/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]로나：\c[0] 저기... 요즘 좀 빠듯한데, 혹시...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] ...빌...돈...?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 규칙... 봐야...
+
+FishTraderREP/Arrears_return_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 어떤... 대가... 필요...
+
+FishTraderREP/Arrears1_opt
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 얼마... 빌릴...?\optB[그만둔다,1골드,2골드,3골드,4골드]
+
+FishTraderREP/Arrears_accept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]어인 무역 대표：\c[0] 음... 좋아...
+\CBct[8]\m[shy]\plf\c[6]로나：\c[0] 응... 고마워.
+
+
+nap/drug_begin_FristTime_REP
+\CBmp[GangBossREP,5]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]직원：\c[0] 꽉... 붙잡아라....
+\CBmp[stGang1,20]\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]잡역배：\c[0] 예! 두목!
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 왜 그래요? 제발 다치게 하지 마!
+\CBmp[GangBossREP,20]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]직원：\c[0] 마셔라....
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 이게 뭐...? 으으....
+
+nap/drug_begin_SecondTime_REP
+\CBmp[GangBossREP,5]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]직원：\c[0] 약... 먹어라....
+
+nap/drug_begin_Eat_REP
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 으으....
+
+nap/WhoreWakeUp_REP
+\CBmp[HappyMerchantREP,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\c[4]상인：\c[0] \{.... 일어나라... 일할... 시간...!!!
+
+########################################################################################## Raploop Addon
+
+wakeup_rapeloop/RngRape0_wakeupCall_begin0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 야, 걸레년! 어서 눈 안 떠?!
+
+wakeup_rapeloop/RngRape0_wakeupCall_rapeloop
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 이제 우리 차례다, 네 보지를 쓸 시간이야.
+
+wakeup_rapeloop/RngRape0_wakeupCall_ans
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 으...….
+
+wakeup_rapeloop/RngRape1_to_Somewhere
+\narr 로나는 다른 곳으로 끌려갔다...
+
+wakeup_rapeloop/RngRape2
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 꽉 잡아, 내가 먼저 찌른다♥
+
+wakeup_rapeloop/RngRape3
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 이번엔 내 차례다! 내 차례야!
+
+wakeup_rapeloop/RngRape_cum0
+\c[4]깡패：\c[0] \{아아♥ 더 조여온다!
+
+wakeup_rapeloop/RngRape_cum1
+\c[4]깡패：\c[0] \{이 년! 제대로 받아내라♥
+
+wakeup_rapeloop/RngRape_cum2
+\c[4]깡패：\c[0] \{간다♥ 쏠 거다♥
+
+wakeup_rapeloop/RngRape_cum3
+\c[4]깡패：\c[0] \{그래, 안에다 퍼붓는다♥
+
+wakeup_rapeloop/RngRape_cum4
+\c[4]깡패：\c[0] \{으윽! 다 짜내진다♥
+
+wakeup_rapeloop/RngRape_end0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 괜찮네, 아주 잘 놀아줬잖아.
+
+wakeup_rapeloop/RngRape_end1
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 크윽... 시원하다...
+
+wakeup_rapeloop/RngRape_end2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 좋아, 다음에도 우리 몫이다.
+
+######################### Raploop enema EV
+
+wakeup_rapeloop/EnemaEV_begin0
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 이년들아, 오늘은 항문 특별 관리다. 일 나가기 전에 뒷구멍은 제대로 씻어둬야지.
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] \{전부 다, 엉덩이 들어 올려!
+
+wakeup_rapeloop/EnemaEV_end
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 자, 이년들아— 이제 싸라!
+
+######################### Raploop PeeonEV
+
+wakeup_rapeloop/Peeon_begin0
+\SETpl[AnonMale1]\Lshake\c[4]깡패：\c[0] 히히....
+
+wakeup_rapeloop/Peeon_begin1
+\ph\narr \..\..\..
+
+wakeup_rapeloop/Peeon_begin_end
+\narr누군가 로나의 몸 위로 노란 물을 쏟아냈다.
+
+######################### Raploop RngNightCustomer
+
+wakeup_rapeloop/RngCustomer_begin0
+\c[4]손님：\c[0] 야! 빨리 일어나라!
+
+wakeup_rapeloop/RngCustomer_begin1
+\c[4]손님：\c[0] 너! 난 여기서 가장 싸구려 년을 샀다.
+
+wakeup_rapeloop/RngCustomer_begin2
+\c[4]손님：\c[0] 당장 다리 벌려!
+
+wakeup_rapeloop/RngCustomer_begin_end
+\c[4]손님：\c[0] \{우오오오오오!!!
+
+######################### CommonGangMember begging
+
+CommonGangMember/begging0
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 어? 약이 땡기냐?
+
+CommonGangMember/begging1
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 금단 왔냐? 좋은 거 좀 빨고 싶어?
+
+CommonGangMember/begging_success
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 좋아, 내가 시키는 대로 하면 약 줄게.
+
+CommonGangMember/begging_success_nothing
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 됐어, 그냥 가져가라.
+
+CommonGangMember/begging_success_offerItem
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 자♥ 입 벌려♥
+\CBct[8]\m[shy]\plf\PRF\c[6]로나：\c[0] 꾸읍...
+
+CommonGangMember/failed_nothing
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 하하♫ 안 줄 거다♥
+
+CommonGangMember/failed_mad0
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 너 같은 값싼 년이랑 흥정할 자격 따윈 없어!
+
+CommonGangMember/failed_mad1
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]깡패：\c[0] 당장 꺼져! 쓰레기 같은 년아!
+
+CommonGangMember/failed_mad2
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]깡패：\c[0] 냄새나 죽겠네! 꺼져!
+

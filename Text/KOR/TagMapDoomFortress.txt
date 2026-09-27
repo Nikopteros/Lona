@@ -1,0 +1,719 @@
+####################################--------------------- overmap
+ThisMap/OvermapEnter
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]경비병：\c[0] 멈춰! 너 누구야!\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+################################################### INN
+
+InnKeeper/Begin
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 여기는 종말 요새다! 방어의 최전선이지!
+
+InnKeeper/About_here
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 줄곧 이곳은 싸움의 최전선이었다!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0]  수백 년 전, 여러 나라가 잇따라 노엘 섬의 지배권을 노렸지만, 결국 이곳은 우리 땅이 되었지! 이 요새야말로 \c[4]잉카란 왕국\c[0]의 강함을 증명한다!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 보다시피, 초록 가죽 놈들이나 흉물이와도 종말 요새를 무너뜨릴 순 없다!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 오직 우리만이 종말 요새를 지킬 수 있다!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그래요...
+
+InnKeeper/About_work
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 제가 할 수 있는 일은 없나요?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 우리가 필요한 건 전사지! 거지가 아니야!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 어?!\. 잠깐\..\..\..\..
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 너 여자였어?!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 흠...
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 작긴 하지만, 그래도 있긴 있네
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 뭐가요?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 오른쪽으로 가, 군영에서 여자를 필요로 하거든.
+\CBct[8]\m[shy]\plf\PRF\c[6]로나：\c[0] 어?
+
+ThisIsFine/talk0
+\cg[other_ArtThisIsFine]다 괜찮아 ： 미래에 대한 예언
+\m[serious]음....
+\m[flirty]예언?
+
+############################################################################################################################### Right Gate
+
+GateR/LeaveBegin0
+\cg[map_NoerGate]병영으로 이어지는 길, 그리고 앞에 경비병이 서 있다.\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+GateR/Leave_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 죽을 놈의 노예! 어디 가?!
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 저... 저는....
+
+GateR/Leave_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 당장 꺼져!
+
+GateR/Leave_passed
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] ......
+
+#############################
+
+Gate/Begin0
+\cg[map_NoerGate]병영으로 이어지는 길, 그리고 앞에 경비병이 서 있다.\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 멈춰! 뭐 하려는 거야?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0]！！！！
+
+Gate/Enter_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 도망친 노예다!
+
+Gate/Enter_normal1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 멈춰! 너 누구야! 뭐 하려는 거지?
+
+Gate/Enter_Cecily
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 어.....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] \{예!
+
+Gate/Enter_normal2
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어?\optB[그만둔다,들어간다,위안부<r=HiddenOPT1>]
+
+Gate/Enter_normal_walk
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 벽에 붙어 서!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 예?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 몸수색을 하겠다!\optB[그만둔다,알았다]
+
+Gate/Enter_normal_walk_okay0
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 알았어요....
+
+Gate/Enter_normal_search_butt
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 이 엉덩이 꽤 좋은데!
+
+Gate/Enter_normal_search_vag
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 거긴 만져보니 탄력도 있네!
+
+Gate/Enter_normal_search_boob
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 하지만... 가슴은 없군...
+
+Gate/Enter_normal_walk_okay1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 새로 온 위안부인가? 지나가도 돼!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] .....
+
+Gate/Enter_normal_whore
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 전사분들, 많이 지치셨죠? 제가 풀어드리러 왔어요....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 뭐?! 잘됐다! 어서 들어와!
+
+
+############################################################################################################################### barrack
+####################################--------------------- board
+
+boardR/Begin1
+\board[신병은 더위 먹지 않게 주의]
+신병은 더위 먹지 않도록 물을 마실 것,
+여름(겨울)철 실외(실내) 훈련 시,
+훈련 전(후) 물 300(500)cc를 마실 것.
+
+boardR/Begin2
+\board[창녀 업무 항목]
+지친 순찰 병사를 위로할 것.
+기타 사항은 숙소에서 보안관에게 문의.
+
+boardR/Washroom
+\board[노예 업무 항목]
+낮 : 보안관에게 문의.
+밤 : 화장실 청소, 순찰 병사 위로.
+낮 시간에는 보안관 책상에서 식량 수령.
+
+####################################--------------------- Guards
+
+TrainingGuards/Qmsg0
+열!
+
+TrainingGuards/Qmsg1
+하!
+
+TrainingGuards/Qmsg2
+살!
+
+####################################--------------------- SGT
+
+SGT/begin_normal_0
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]백인대장：\c[0] 네가 왜 내가 사랑하는 종말 요새에 온 거지?!
+\CBct[1]\m[terror]\plf\Rshake\c[6]로나：\c[0] 하?! 
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 어... 저...\optB[그냥 구경 좀 할려고, 마물 사냥하러 왔어]
+
+SGT/begin_normal_1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 저는 마물을 쓰러뜨리러 왔는데요?
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]백인대장：\c[0] 그럼 너는 용병인가?
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 네!
+\CBmp[SGT]\SETpl[SGT_Normal]\Lshake\prf\c[4]백인대장：\c[0] 네 사나운 얼굴을 보여줘라!\optB[뭐라고?]
+
+SGT/begin_normal_2
+\CBct[2]\m[fear]\plf\Rshake\c[6]로나：\c[0] 뭐.. 뭐라고요?
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]백인대장：\c[0] 네게 사나운 얼굴이 없다고?!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\m[terror]\Lshake\prf\c[4]백인대장：\c[0] \{죽여어어어어어어!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\prf\c[4]백인대장：\c[0] 이게 바로 사나운 얼굴이다! 네 사나운 얼굴을 보여줘!
+\CBct[8]\SETpl[SGT_Normal]\m[fear]\Rshake\c[6]로나：\c[0] 어..\... 아..\...? 아아아?
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]백인대장：\c[0] 개소리 마! 네 진짜 사나운 얼굴을 보여줘라!
+
+SGT/begin_normal_3
+\CBct[8]\m[bereft]\plf\Rshake\c[6]로나：\c[0] \{아아아아아아?!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]백인대장：\c[0] \..\..\.. 네가 날 놀래킬 순 없어!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]백인대장：\c[0] 계속 연습해!
+
+SGT/begin_normal_4
+\plh\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 뭐야...
+
+SGT/begin_wrong_ans
+계속 연습해!
+
+SGT/known0
+\CBmp[SGT,20]\ph\SETpl[SGT_Shake]\Lshake\c[4]백인대장：\c[0] 쓰레기! 네 이름이 뭐야!
+\CBct[2]\m[bereft]\Rshake\c[6]로나：\c[0] 로나!!!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]백인대장：\c[0] 아니! 오늘부터 넌 똥자루다!
+
+
+####################################################################### Quest Board
+
+QuestBoard/DF_Woodson_list
+우드슨 가문
+
+QuestBoard/DF_WipeTribe_list
+자지 사냥 부족
+
+QuestBoard/DF_BanditHunt_list
+성 밖의 도적 토벌
+
+QuestBoard/DF_Woodson
+\board[우드슨 가문]
+목표 : 전부 죽여라!
+보상 : 큰 동전 9개
+의뢰인 : 피해자
+수행가능횟수 : 1회
+그래! 놈들이 아직 살아 있다!
+모조리 죽여라!
+
+QuestBoard/DF_WipeTribe
+\board[자지 사냥 부족]
+목표 : 전부 죽여라!
+보상 : 큰 동전 3개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 1회
+그들의 위치를 확인했다. 동남쪽 숲 속에 있다.
+이 잔혹한 야만인들은 반드시 응징받아야 한다.
+
+QuestBoard/DF_BanditHunt
+\board[성 밖의 도적 토벌]
+목표 : 인근의 해적을 소탕하라.
+보상 : 큰 동전 1개, 작은 동전 7개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 무제한
+시바리스에서 마물이 폭주한 이후, 우리는 많은 곤란을 겪었다.
+인간 종족은 이런 위기 속에서 서로 도와야 하지만, 이 외래종들은 너무나도 뻔뻔하다.
+놈들은 전선 병사와 난민들의 자원을 약탈했고, 반드시 대가를 치르게 해야 한다.
+착한 용병이여, 이번 토벌은 내가 루드신 상회 이름으로 자금을 대겠다.  
+성 밖으로 나가 도적을 토벌하고, 그 공로로 나의 다리를 이어받아라!
+
+################################### QuProgDF_BanditHunt 
+
+QuProgDF_BanditHunt/Begin
+\narr도적들의 근거지...
+
+QuProgDF_BanditHunt/done
+\CBid[-1,20]\prf\c[4]직원：\c[0] 그러니까 그 빌어먹을 도적들이 전부 소탕됐단 말이지?
+\CBid[-1,4]\prf\c[4]직원：\c[0] \{잘했다!
+
+################################### QuProgDF_Woodson detail
+
+QuProgDF_Woodson/prog1_emp
+\CBmp[GuildEmpolyee,8]\prf\c[4]직원：\c[0] 잠깐만... \c[6]우드슨\c[0] 가문?
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 왜요?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 이 임무는 요새의 하녀가 의뢰한 건데, 이미 게시된 지 십수 년이나 됐어.
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 하지만 안타깝게도, 지금까지 아무도 \c[6]우드슨\c[0] 가문의 남은 일원을 찾아낸 적이 없어.
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 개인적으로는 이미 전부 죽었다고 생각해.
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 그렇군요...
+\CBct[20]\m[normal]\PRF\c[6]로나：\c[0] 다른 일거리가 있는지 알아봐야겠어요.
+\CBmp[ExitPoint,19]\prf\c[4]직원：\c[0] 그녀가 지금까지 버텨온 걸 보면, 직접 한번 만나보는 게 좋겠어. 바로 여관 밖에 있어.
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 알겠어요.
+
+QuProgDF_Woodson/prog1_Maid
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 어... 안녕하세요..
+\CBmp[Maid,5]\prf\c[4]하녀：\c[0] 나 지금 일하는 중이야!
+\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 죄송해요! 그런데 방금 길드에서 일을 받았는데, 그게 혹시 \c[4]우드슨\c[0] 가문 관련 의뢰인가요?
+\CBmp[Maid,8]\prf\c[4]하녀：\c[0] ....
+\CBmp[Maid,8]\prf\c[4]하녀：\c[0] 너? 네 같은 꼬맹이가...
+
+QuProgDF_Woodson/prog2_Maid
+\CBmp[Maid,8]\ph\c[4]하녀：\c[0] 뭐가 궁금한데?\optB[아니야,전부 죽었어!<r=HiddenOPT1>,우드슨,너에 대해,그들이 어디에 있는지<r=HiddenOPT2>]
+
+QuProgDF_Woodson/prog2_optWin
+\CBct[8]\m[flirty]\PLF\c[6]로나：\c[0] 어... 그게....
+\CBmp[Maid,2]\prf\c[4]하녀：\c[0]  왜?
+\CBct[8]\m[confused]\PLF\c[6]로나：\c[0] 그 사람들 죽었어요. 요새 남쪽 숲에 숨어 있었어요. 여기가 대략적인 위치예요.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 잘됐네! 당장 가봐야겠다! 이건 길드 증표야! 가서 돈 받아!
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] 예?! 잠깐만요! 거긴 위험해요!
+
+QuProgDF_Woodson/prog2_optWho
+\CBct[8]\m[flirty]\PLF\c[6]로나：\c[0] 어... 저기... 우드슨이 대체 누구죠?
+\CBmp[Maid,2]\prf\c[4]하녀：\c[0] 우드슨 교파를 모른다고?
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] \c[6]우드슨 교파\c[0]는 \c[6]짐 우드슨\c[0]이 창설했으며, 한때 시바리스 성도회에 속한 교파 중 하나였어.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 그들은 심판의 날이 머지않아 도래하고, 신과 마가 다시 강림할 것이라고 믿었지.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 평민과 귀족을 포함해 엄청난 수의 신도를 거느리고 있었어.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 하지만 성도회의 근간을 흔들어 놓았고, 결국 이단으로 규정돼 성도회와 귀족들의 연합 공격을 받았어.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 그들은 시바리스를 떠나 신도들과 함께 섬 어딘가에 숨어들었지.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 하지만 곧 성도회가 그들을 찾아냈어. 여긴 섬이잖아! 어디로 도망가겠어?
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 군대가 포위하자, 그들은 심판의 날이 왔다며 수백 명이 전부 자살했어.
+\CBct[8]\m[sad]\PLF\c[6]로나：\c[0] 듣기엔 꽤 불쌍하네요?
+
+QuProgDF_Woodson/prog2_optWho_Gr
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]세실리：\c[0] 나도 그 일은 들었어. 당시엔 큰 소동이었지만, 그땐 내가 아직 어렸지.
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]세실리：\c[0] \c[4]회색쥐\c[0], 너는 기억나니?
+\CBfB[20]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]회색쥐：\c[0] 예, 아가씨. 당시 주인어른도 토벌에 병력을 보냈습니다.
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\c[4]세실리：\c[0] 나중에 시간 나면 자세히 듣지. 이단이라면 봐줄 필요 없어!
+\CBfB[20]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]회색쥐：\c[0] 예.
+
+QuProgDF_Woodson/prog2_optYou
+\CBct[2]\m[flirty]\PLF\c[6]로나：\c[0] 왜 그렇게 그들을 미워하는 거죠?
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 미워해? 나 원래 귀족이었고, 한때는 그들의 신도였어!
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 그런데 어느 날 밤, 놈들이 우리 집을 습격해서 가족을 전부 죽였지!
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 도망치던 중 교주에게 인질로 잡혀, 성노예로 전락했어.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 하지만 그들의 심판의 날이 오기 전에 도망쳐 나왔어. 정신이 번쩍 들었지! 놈들을 반드시 죽일 거야!
+
+QuProgDF_Woodson/prog2_optWhere
+\CBct[2]\m[confused]\PLF\c[6]로나：\c[0] 하지만 그 사람들 전부 죽은 거 아니에요?
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 아니! 내가 직접 봤어! 성도회 사람들이 시체 확인하러 날 불렀거든!
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 거기에 그의 아내와 측근은 없었어. 그 빌어먹을 \c[6]우드슨 가문\c[0]은 분명 아직 살아 있는 놈들이 있다.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 난 그놈들이 죽길 원해! 전부 다 죽어야 해!
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 이게 내 전 재산이야. 네가 놈들을 전부 죽인다면 이 돈 전부를 주겠다!
+\CBct[2]\m[flirty]\PLF\c[6]로나：\c[0] 그 사람들이 어디 있는지는 알아요?
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 몰라. 부디 네가 찾아내길 바라.
+\CBmp[Maid,20]\prf\c[4]하녀：\c[0] 난 절대 포기 안 해. 이 돈은 언젠가 그 일을 해낼 사람의 것이 될 거야!
+
+####################################################################### GReenHat Quest
+
+GreenHat/Quest_Begin1
+\CBmp[GreenHat,1]\prf\c[4]신병：\c[0] 너... 새로 온 위안부냐?
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 뭐라고요? 전...
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 도와줘!\optB[계속 듣는다]
+
+GreenHat/Quest_Begin2
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어....
+\CBct[8]\m[normal]\PRF\c[6]로나：\c[0] 말해봐요, 어쩌면 제가 도울 수 있을지도 모르잖아요?
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 제발 이 편지를 밖으로 전해줘요! 분명 그녀가 많이 걱정하고 있을 거예요!
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 그녀?
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] \c[4]마리안\c[0]은 제 소꿉친구예요. 어릴 때부터 함께 자랐죠!
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 마물이 침공한 뒤, 우리는 줄곧 도망쳤어요.
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 그녀의 삼촌이 노엘 마을 항구에서 일하고 계셔서, 그분에게 의탁하기로 했어요.
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 하지만 신분 증명서가 전혀 없어서, 노엘 북문에 있는 난민촌에서만 지낼 수 있었죠.
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 그때 군에서 한 가지 선택지를 줬어요. 제가 입대하면 한 사람을 보증해서 입성시킬 수 있다는 거였죠.
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 우리는 곧 결혼할 사이였는데... 이 재난이 모든 걸 뒤죽박죽으로 만들어 버렸어요...
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 으...
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 편지를 써서 보내려고 해봤지만, 전부 감감무소식이었어요...
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 제발 도와줘요! 지금 받는 월급 전부 드릴게요!
+
+GreenHat/Quest_BeginBoard
+\board[신병의 사랑]
+목표 : 신병의 편지 전달
+보상 : 큰 동전 1, 작은 동전 1
+의뢰주 : 신병
+수행가능횟수 : 1회
+우리 신병은 휴가를 논할 자격도 없다!
+유일한 희망은 너희 같은 위안부뿐이다.
+편지에 적힌 주소로 가서 마리안이 무사한지 확인해줘!
+
+GreenHat/Quest_BeginOpt
+받을래?\optB[됐어,맡겨줘]
+
+GreenHat/Quest_BeginAgree
+\CBct[20]\m[serious]\PRF\c[6]로나：\c[0] 맡겨줘! 내가 그녀 손에 직접 전해줄게.
+\CBmp[GreenHat,20]\prf\c[4]신병：\c[0] 부탁이야!
+
+GreenHat/Quest_BeginDis
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 미안, 다른 사람을 찾아봐.
+\CBmp[GreenHat,8]\prf\c[4]신병：\c[0] ......
+
+GreenHat/Quest2_Qmsg0
+전해줬어?
+
+GreenHat/Quest2_Qmsg1
+그녀가 노엘 마을에 있어?
+
+GreenHat/Quest2_Qmsg2
+그녀가 답장은 했어?
+
+GReenHat/Quest2_Begin0
+서구 해변로 8번길 9골목 6-4
+\m[confused]\PRF\c[6]로나：\c[0] 여기가 맞나?
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\SETpl[AnonMale2]\Lshake\prf\c[6]???：\c[0] 누구세요?
+\m[flirty]\PRF\c[6]로나：\c[0] 음... 마리안 씨를 찾고 있는데, 여기 사시나요? 
+\SETpl[AnonMale2]\Lshake\prf\c[6]???：\c[0] 또 왔어?
+\m[confused]\PRF\c[6]로나：\c[0] 또요?
+\SETpl[AnonMale2]\Lshake\prf\c[6]???：\c[0] 마리안! 누가 널 찾는다!
+\..\..\..
+\SETpr[AnonSlut1]\plf\Rshake\c[6]???：\c[0] 누구야?
+\SETpl[AnonMale2]\Lshake\prf\c[6]???：\c[0] 또 한 명 왔다. 네가 직접 얘기해.
+\SETpl[AnonSlut1]\Lshake\prf\c[6]???：\c[0] 아?
+\m[shy]\PRF\c[6]로나：\c[0] 마리안 씨? 안녕하세요...
+
+GReenHat/Quest2_Begin1
+\SETpl[AnonSlut1]\Lshake\prf\c[6]???：\c[0] 너, 요새에 있는 창녀지? 존이 보낸 거야?  
+\m[flirty]\PRF\c[6]로나：\c[0] 아... 어...
+\SETpl[AnonSlut1]\Lshake\prf\c[6]???：\c[0] 너가 처음으로 날 찾아온 창녀가 아니야. 
+\SETpl[AnonSlut1]\Lshake\prf\c[6]???：\c[0] 난 너희 같은 창녀랑은 전혀 다른 세상에서 살아. 날 방해하지 마, 나 지금 행복하거든. 
+\SETpl[AnonSlut1]\Lshake\prf\c[6]???：\c[0] 이 편지 존한테 전해. 그리고 앞으로 두 번 다시 날 귀찮게 하지 말라고 해.
+\..\..\..\plh\SndLib[closeChest]
+
+GReenHat/Quest2_Begin2
+\m[angry]\plh\PRF\c[6]로나：\c[0] 도대체 뭐라는 거야?
+
+GreenHat/Quest3_OPT
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 존? 나 돌아왔어.
+\CBmp[GreenHat,1]\prf\c[4]존：\c[0] 잘됐다!
+\CBmp[GreenHat,6]\prf\c[4]존：\c[0] 편지는 전달했어? 그녀가 노엘 마을에 있어? 답장은 받았어?
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 어...\optD[편지를 건넨다,거짓말 한다<r=HiddenOPT1>]
+
+GreenHat/Quest3_Truth0
+\CBct[8]\m[shy]\PRF\c[6]로나：\c[0] 아... 어... 어떻게 말하는 게 좋을지 잘 모르겠네...
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 편지는 여기 있어, 직접 읽어봐...
+
+GreenHat/Quest3_Truth1
+\ph\narr\..\..\..\..
+
+GreenHat/Quest3_Truth2
+\CBmp[GreenHat,1]\prf\c[4]존：\c[0] \{안 돼！！！
+\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐?!
+\CBmp[GreenHat,1]\prf\c[4]존：\c[0] \{거짓말이야! 아아아아아!
+\CBct[1]\m[terror]\Rshake\c[6]로나：\c[0] 진정해!!
+\CBmp[GreenHat,1]\prf\c[4]존：\c[0] \{아아아아아아아!!
+
+GreenHat/Quest3_Lie0
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 그동안 그녀한테서 답장을 받은 적이 없었어?  
+\CBmp[GreenHat,20]\prf\c[4]존：\c[0] 그래!
+\CBmp[GreenHat,20]\prf\c[4]존：\c[0] 다른 위안부들도 못 찾았다던데, 너도 그녀를 못 찾은 거야?
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 정말 미안해... 그녀는 세상을 떠났어...
+
+GreenHat/Quest3_Lie1
+\CBmp[GreenHat,6]\prf\c[4]존：\c[0] \{뭐?! 그럴 리 없어!
+
+GreenHat/Quest3_Lie2
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] 아니... 정말이야. 나, 성 안의 경비병한테도 확인했어.
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 그녀는 난민 폭동에 휘말려 목숨을 잃었고, 노엘 마을 묘지에 묻혔어.
+\CBmp[GreenHat,8]\prf\c[4]존：\c[0] .............
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] 부디... 힘내.
+
+####################################################################### Slave begin
+
+DormGuard/SlaveBegin0
+\ph\CBmp[securityGuard,20]\ph\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 너가 새로 온 노예냐?  
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 네, 주인님.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 흠\..\..\..
+\CBmp[securityGuard,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 가슴 쪽은 좀 아쉽군.
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 비상사태에 대비해, 우리 군은 군용 노예 제도를 다시 부활시켰다.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 따라와라. 노예로서 어떤 봉사를 해야 하는지 알려주겠다.
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 네, 주인님...
+
+DormGuard/SlaveBegin_Dorm
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 여기는 휴게실이다.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 비번 장병들이 쉬는 장소지.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 노동 지시가 없을 때는, 네 임무는 비번 장병들을 위안하는 거다.
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 네....
+
+DormGuard/SlaveBegin_Cart
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 야! 잘 봐라! 이게 뭔지 아냐?
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 어?
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 전부 노예들의 시체다!
+\CBct[1]\m[terror]\plf\Rshake\c[6]로나：\c[0]！！！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prd\c[4]보안관：\c[0] 도망칠 생각 마라! 저항할 생각도 하지 마!
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 네... 주인님...
+
+DormGuard/SlaveBegin_Washroom0
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 여기가 변소다. 그리고 너 같은 노예한테는 딱 맞는 거처지.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 앞으로 여기가 네 세상이다!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 낮에는 보안관 책상으로 와서 본인에게 작업 지시를 받아라.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 밤에는 변소를 깨끗이 치운 뒤, 야간 순찰 병사들을 위안해라.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 군용 노예로서 병사들의 욕구를 풀어주는 건 네 의무다!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 이게 앞으로 네 인생의 전부다!
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 대답해!
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 네... 주인님...
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 더 크게!
+
+DormGuard/SlaveBegin_Washroom1
+\CBct[6]\m[terror]\plf\Rshake\c[6]로나：\c[0] 예! 주인님!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] \{더 크게!
+
+DormGuard/SlaveBegin_Washroom2
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] \{예! 주인님!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 좋아! 해산!
+
+DormGuard/SlaveBegin_end
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] ......
+
+DormGuard/SlaveBegin_Escape
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 우리는 도망친 노예를 절대 용서하지 않는다!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]보안관：\c[0] 방으로 돌아가라, 어떻게 처분할지 우리가 결정하겠다.
+\CBct[20]\m[sad]\plf\Rshake\c[6]로나：\c[0] 네...
+
+####################################################################### Slave begin Torture
+
+DormGuard/SlaveBegin_Torture0
+\ph\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]십인장：\c[0] 신병들, 잘 들어라!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]십인장：\c[0] 너희가 이전에 무슨 직업이었든, 어떤 배경이었든, 지금부터 너희는 모두 \c[4]잉카란\c[0]의 병사다!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]십인장：\c[0] 어떻게 전사가 되느냐? 먼저 독해야 한다! 잔혹해야 한다!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]십인장：\c[0] 사람을 죽이는 데 익숙해져야 한다!
+
+DormGuard/SlaveBegin_Torture1
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]십인장：\c[0] 이 노예가 도망치려 했다고? 아니면 게을렀다고? 그건 중요치 않다!
+\CBmp[TorturePoint,20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 으으...
+
+DormGuard/SlaveBegin_Torture2
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 중요한 건, 이 여자가 잘못을 했다는 거다. 잘못하면 처벌을 받아야 한다!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 너! 이리 나와! 힘껏 때려라!
+\CBmp[noob3,20]\plf\prf\c[4]병사：\c[0] 예!
+
+DormGuard/SlaveBegin_Torture3
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 좋아! 잘 때렸다! 다음!
+\CBmp[noob2,20]\plf\prf\c[4]병사：\c[0] 예!
+
+DormGuard/SlaveBegin_Torture4
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 멋진 한 방이었다! 다음!
+\CBmp[noob1,20]\plf\prf\c[4]병사：\c[0] 예!
+
+DormGuard/SlaveBegin_Torture5
+\CBmp[noob1,20]\plf\prf\c[4]병사：\c[0] ........
+
+DormGuard/SlaveBegin_Torture6
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 좋아! 대열로 복귀! 다음 과목 준비한다! 
+\CBmp[noob1,8]\plf\prf\c[4]병사：\c[0] \..\..\..
+
+DormGuard/SlaveBegin_Torture7
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 복귀하랬다! 신병, 귀라도 먹었나?
+\CBmp[noob1,5]\plf\prf\c[4]병사：\c[0] \{야아아아악! 전부 죽었어!
+
+DormGuard/SlaveBegin_Torture9
+\CBmp[noob1,5]\plf\prf\c[4]병사：\c[0] \{내 아내가!
+
+DormGuard/SlaveBegin_Torture10
+\CBmp[noob1,5]\plf\prf\c[4]병사：\c[0] \{내 딸이! 흐윽 흐윽....
+
+DormGuard/SlaveBegin_Torture11
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] \..\..\..
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 그만 울고, 대열로 돌아가라.
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 우리가 반드시 설욕할 거다....
+\CBmp[noob1,5]\plf\prf\c[4]병사：\c[0] 네... 중대장님...
+
+####################################################################### Slave Daily begin Rape
+
+Guard/DailyRape0
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 일어나!
+
+Guard/DailyRape1
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 이 죽을 노예년! 빨리 일어나!
+\CBct[20]\m[tired]\plf\Rshake\c[6]로나：\c[0] 으으......
+
+Guard/DailyRape_suckDick
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 자지가 근질근질하니, 빨리 와서 좀 처리해 줘라!
+
+Guard/DailyRape_Rape
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 보지 박아 줄 테니, 다리 벌려!\optD[좋아<t=5>,싫어]
+
+############################################################## NightPatrol
+
+NightPatrol/SlaveQmsg0
+꺼져!
+
+NightPatrol/SlaveQmsg1
+비켜!
+
+NightPatrol/SlaveQmsg2
+꺼져라!
+
+NightPatrol/Rape0
+\c[4]병사：\c[0] 이리 와! 보지 박아 줄게!
+
+NightPatrol/Rape1
+\c[4]병사：\c[0] 노예!
+
+NightPatrol/Rape2
+\c[4]병사：\c[0] 박아!
+
+############################################################## securityGuard
+
+securityGuard/NormalWhore
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 너가 새로 온 위안부냐? 이 가슴은 볼품없구나?
+\CBct[20]\m[shy]\plf\PRF\c[6]로나：\c[0] 나....\optB[아니야,맞아]
+
+securityGuard/NormalWhore_No
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 아니거든!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 어... 그럼 너는 뭐 하러 온 거냐?
+
+securityGuard/NormalWhore_Yes
+\CBct[20]\m[lewd]\plf\Rshake\c[6]로나：\c[0] 네, 저는 창녀예요.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 하아......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 윗선은 우리 가슴 크기 기준을 전혀 신경 안 쓰지.
+\CBct[20]\m[sad]\plf\Rshake\c[6]로나：\c[0] 제 가슴이... 뭐가 그렇게 안 좋나요?
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 괜찮다, 사람만 오면 됐지.
+\CamMP[DormTable]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 낮에는 휴게실로 가서 병사들의 성적 요구를 최대한 채워주도록 해라.
+\CBct[20]\m[shy]\plf\Rshake\c[6]로나：\c[0] 네....
+
+securityGuard/SlaveNight
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 변소 청소하고, 순찰 인원들 욕구 풀어줘라! 끝나면 바로 취침!
+
+securityGuard/SlaveDay
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 쓸모없는 것! 얼른 가서 일해!
+
+securityGuard/SlaveWorkDone
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 끝났어? 그럼 취침해, 쓸모없는 것!
+
+securityGuard/SlaveDecideWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 쓸모없는 것? 보고하러 온 거냐? 어디 보자...
+
+securityGuard/SlaveNoWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 운 좋네! 오늘은 네 일 없다!
+
+securityGuard/SlaveSandBag
+\CBmp[SGT,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0]  운동장에 가서 \c[4]백인대장\c[0]에게 보고해라! 훈련에 쓸 노예가 필요하대!
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 예... 주인님...
+
+securityGuard/SlaveJoyWork
+\CBmp[DormTable,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 옆에 있는 휴게실로 가서 보고해라! 병사들이 즐길 노예가 필요하다!
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 예... 주인님...
+
+securityGuard/SlaveFood
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 오늘의 식사다! 살아 있을 때나 맛있게 먹어둬라!
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 감사합니다... 주인님...
+
+securityGuard/SlaveFood_AskMore
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 저기요...\optB[아니에요,조금만 더 주세요]
+
+securityGuard/SlaveFood_AskMore_win
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 좋아, 나도 네가 좀 더 오래 살았으면 하니까.
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 감사합니다... 주인님...
+
+securityGuard/SlaveFood_AskMore_fail
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]십인장：\c[0] 꺼져!
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 으으...
+
+securityGuard/SlaveFoodQmsg
+잘 받아!
+
+############################################################## SGT Slave Suvival
+
+SGT/SlaveSuvival
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]백인대장：\c[0] 신병! 우리의 노예가 왔다!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\c[4]백인대장：\c[0] 달려라! 똥주머니! 신병의 공격에서 살아남을 수 있는지 보자!
+\CBct[1]\m[terror]\plf\Rshake\c[6]로나：\c[0] 어?! 뭐라고?!
+
+SGT/SlaveSuvival_WIN
+\SETpl[SGT_Shake]\Lshake\c[4]백인대장：\c[0] 집합!
+\SETpl[SGT_Normal]\Lshake\c[4]백인대장：\c[0] 너희 정말 형편없구나! 노예 하나도 못 죽이다니!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 끝... 끝난 거야?!
+
+############################################################## Joy work
+
+JoyTable/NothingQmsg0
+일을 마쳤다
+
+JoyTable/NothingQmsg1
+할 일이 없다
+
+JoyTable/NothingQmsg2
+테이블
+
+JoyTable/JobBegin0_slave
+\CBmp[BrkGuard1,1]\ph\c[4]병사：\c[0] 노예다!
+\CBmp[BrkGuard2,2]\c[4]병사：\c[0] 새로운 노예가 왔다!
+\CBmp[BrkGuard3,5]\c[4]병사：\c[0] 가슴도 없는 노예네!
+
+JoyTable/JobBegin0_whore
+\CBmp[BrkGuard1,1]\c[4]병사：\c[0] 위안부다!
+\CBmp[BrkGuard2,2]\c[4]병사：\c[0] 새로운 창녀가 왔다!
+\CBmp[BrkGuard3,5]\c[4]병사：\c[0] 가슴이 너무 작잖아!
+
+JoyTable/JobBegin1
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 어.... 안녕하세요....
+\CBmp[BrkGuard1,20]\prf\c[4]병사：\c[0] 책상 위에 올라서 우리 눈에 잘 보이게 해라.\optD[그대로 한다<t=5>,싫다<r=HiddenOPT1>]
+
+JoyTable/JobBegin2
+\CBct[8]\m[shy]\PRF\c[6]로나：\c[0] .....
+\CBmp[BrkGuard2,4]\prf\c[4]병사：\c[0] 가슴은 좀 작지만, 꽤 귀엽네?
+\CBmp[BrkGuard3,20]\prf\c[4]병사：\c[0] 춤이나 한 번 춰봐라.
+\CBct[8]\m[fear]\PRF\c[6]로나：\c[0] 으으...\optD[그대로 한다<t=5>,싫다<r=HiddenOPT1>]
+
+JoyTable/JobBegin3
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 네....
+
+JoyTable/JobBegin4_0
+\CBmp[BrkGuard1,3]\prf\c[4]병사：\c[0] 하하하하!
+
+JoyTable/JobBegin4_1
+\CBmp[BrkGuard2,4]\prf\c[4]병사：\c[0] 다리 더 벌려라!
+
+JoyTable/JobBegin4_2
+\CBmp[BrkGuard3,9]\prf\c[4]병사：\c[0] 힘 좀 내라!
+
+JoyTable/JobBegin_rape
+\CBmp[BrkGuard3,4]\prf\c[4]병사：\c[0] 재미없네, 난 그냥 박고 싶다!
+\CBmp[BrkGuard2,4]\prf\c[4]병사：\c[0] 얘를 박아버리자!
+\CBmp[BrkGuard1,4]\prf\c[4]병사：\c[0] 그래! 조져버려!
+\CBct[1]\m[terror]\Rshake\c[6]로나：\c[0] 히익?!
+
+JoyTable/JobBegin_beat
+\CBmp[BrkGuard1,5]\prf\c[4]병사：\c[0] 이 자식, 감히 반항해!?
+\CBmp[BrkGuard2,5]\prf\c[4]병사：\c[0] 죽여버려!
+\CBmp[BrkGuard3,5]\prf\c[4]병사：\c[0] 너 죽었어!
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 끼야악?!
+
+JoyTable/JobBegin_whore_end
+\CBmp[BrkGuard1,4]\prf\c[4]병사：\c[0] 꽤 성의있네.
+\CBmp[BrkGuard2,4]\prf\c[4]병사：\c[0] 좋아, 이건 상이다.
+\CBmp[BrkGuard3,20]\prf\c[4]병사：\c[0] 네 가슴이 좀 더 커졌으면 좋겠군.
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 고마워?!
+
+JoyTable/JobBegin_slave_reward
+\CBmp[BrkGuard2,4]\prf\c[4]병사：\c[0] 잘했어! 훌륭해! 빵을 더 주겠다!
+
+JoyTable/JobBegin_quit
+\CBmp[BrkGuard1,5]\prf\c[4]병사：\c[0] 너… 장난하러 온 거냐?
+
+JoyTable/Touch_Opt
+만지게 할까?\optD[마음대로 해<t=2>,피한다]
+
+JoyTable/AnalTouch_Qmsg
+좋은 엉덩이네!
+
+JoyTable/BoobTouch_Qmsg
+너무 빈약하네!
+
+JoyTable/VagTouch_Qmsg
+잡았다!
+
+JoyTable/Kiss_Qmsg
+핥아라!
+
+JoyTable/Escape_Qmsg
+어이쿠?
+
+############################################################## crane
+
+crane/NormalQmsg0
+크레인
+
+crane/NormalQmsg1
+별거 없어
+
+crane/Windcave_frist_time
+\CBct[8]\m[shocked]\c[6]로나：\c[0] 크레인...
+\CBct[2]\m[normal]\c[6]로나：\c[0] 이걸 이용해서 도망칠 수 있지 않을까?
+\CBct[8]\m[confused]\c[6]로나：\c[0] 각도만 조정하면 기어 올라갈 수 있을지도?
+
+crane/Windcave_Opt
+\CBct[8]\m[confused]크레인\optB[그만둔다,각도 조정<r=HiddenOPT1>]
+
+crane/Windcave_Opt_dig
+\CBct[8]\m[confused]얼마나 스태미너을 쓸까?\optB[스태미너 아끼기,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+crane/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]로나：\c[0] 꽤 많이 움직인 것 같아.
+\CBct[6]\m[tired]\c[6]로나：\c[0] 지만.... 으으.... 너무 피곤해.
+
+crane/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]！！！！！
+\CBct[1]\m[shocked]！！！！！！！！
+\CBct[1]\m[pleased]！！！！！！！！！！！
+\CBct[20]\m[triumph]\c[6]로나：\c[0] 됐다! 나갈 수 있어!

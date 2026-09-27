@@ -1,0 +1,259 @@
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+EastCP/OvermapEnter
+East Seven Sentry Point \optB[Leave, Enter]
+
+#######################################################
+
+################################################### C130 mini game
+
+Cannon/ManDown0
+AO： Friendly down, I repeat! Friendly is down!
+
+Cannon/ManDown1
+AO： We got a man down!
+
+Cannon/ManDown2
+AO： Man down! We need support over here!
+
+Cannon/GoodKill0
+AO： Hot damn!
+
+Cannon/GoodKill1
+AO： That's a hit.
+
+Cannon/GoodKill2
+AO： Yeah, direct hits right there.
+
+Cannon/GoodKill3
+AO： Kah-Boom!
+
+Cannon/GoodKill4
+AO： Woah! You got 'em.
+
+Cannon/GoodKill5
+AO： Good kill. Good kill.
+
+Cannon/GoodKill6
+AO： Yeah, good kill. I see lots of little pieces down there.
+
+Cannon/win
+\c[0]AO：\c[0]    It looks like the attack is over, good job.
+
+Cannon/lose
+\c[0]AO：\c[0]    Damn it! All soldiers are dead!
+\c[0]AO：\c[0]    Retreat! Fall baaack!!!
+
+############################################## C130 quest begin
+
+yeller/start
+\CBmp[YellingGuard,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Hey! You there!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What?! ...Me?
+\CBmp[YellingGuard,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Yes! You! Aren't you from headquarters?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    No...
+\CBmp[YellingGuard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Don't talk nonsense to me! Hurry and report to the Artillery Officer on top of the roof!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ......No one listens to me.
+
+officer/start_opt
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    What's a refugee doing up here?!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    I'm not a refugee! The man below sent me up here!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    What?! Then, why are you here...?
+
+officer/start_opt_known
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    Hmmm? Need something?
+
+officer/opt_nope
+Never mind
+
+officer/opt_whore
+Comfort
+
+officer/opt_work
+Offer help
+
+officer/opt_replayCannon
+Artillery
+
+officer/opt_about
+Those monsters?
+
+officer/opt_aboutCannon
+Overlord M405 Cannon?
+
+officer/opt_repair
+Repair cannon
+
+officer/opt_moveCannon
+South Gate Campsite
+
+officer/opt_monster
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    What were those monsters we just fought?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    They're called the \c[6]Deepones\c[0]. Haven't you heard of them before?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    Next to pirates, the earliest colonists were most afraid of these monsters.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    The physical strength of a Deepone is so great that no man could face them without a weapon.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    They invade the living quarters late at night to attack the men and kidnap the women.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    What happens after they're taken away? Well, it's no different than the result with the Orkinds...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    In fact, women like you should be extra careful...
+\CamCT\m[fear]\plf\PRF\c[6]Lona：\c[0]    Me......?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    In other words, try not to get caught by them?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    Yes, I haven't seen them for years. I thought they went extinct.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    Now the entire swampland to the east is under their control.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    The Deepones must have spread with the Black Mist, or perhaps they're the ghosts of past fishermen.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    I'm not sure how long I'll be here, so find out for yourself.
+\CamCT\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Alright then, thank you.
+
+officer/opt_FireControlSys
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    This is called the... Overlord M405 Cannon?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Can this be mass produced? If it's so powerful, aren't we able to take back Sybaris?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    Under current circumstances, that's not possible. This is the only model and training a group of soldiers to use such device will take many months.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    Even if the capitol has the ability to mass-produce this weapon, there's no ammo supply...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillery Officer：\c[0]    Most importantly... Many of us are illiterate.
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    ...I see.
+
+officer/opt_cannon
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    That's it! Go and operate that cannon!
+\CamMP[Cannon]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    How would I even know how to use such a thing?
+\CamMP[Cannon]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    This is no time for jokes! Can't you see? Shoot at the enemies until they're dead!
+\CamMP[officer]\BonMP[officer,6]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    Here they come! There's no time!
+\CamCT\m[fear]\plf\Rshake\c[6]Lona：\c[0]    What? Who's coming?!
+\CamMP[officer]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    GO! Stop wasting time!
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    O-Okay!
+
+officer/opt_cannon_replay
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    Here comes the Deepones! Go and operate that cannon!
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Yes!
+
+########################################################## Whore job
+
+officer/opt_whore_Lona
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    I'm not interested, go downstairs and find someone else. He's in charge of refreshing our men.
+\CamCT\m[shy]\plf\PRF\c[6]Lona：\c[0]    Got it...
+
+staffG1/begin1
+\CamMP[staffG1]\prf\c[4]Personnel Officer：\c[0]    Oh? A whore, right? About time! \optD[No,Yes]
+
+staffG1/begin1Y
+\CamCT\m[shy]\PRF\c[6]Lona：\c[0]    \{Ahh?!
+\CamCT\m[lewd]\PRF\c[6]Lona：\c[0]    Yes, I'm here to serve you guys...
+
+staffG1/begin1N
+\CamCT\m[shy]\PRF\c[6]Lona：\c[0]    \{WHAT?!
+\CamCT\m[irritated]\Rshake\c[6]Lona：\c[0]    \{I'm not a whore!
+
+staffG1/begin2
+\CamMP[staffG1]\prf\c[4]Personnel Officer：\c[0]    Yeah yeah... OK! I'll call the other guys! You just wait inside the room behind that curtain!
+
+staffG1/begin2YY
+\CamCT\m[shy]\PRF\c[6]Lona：\c[0]    Ok... I'll be waiting...
+
+staffG1/begin2_opt
+\CamCT\Bon[5]\m[bereft]\Rshake\c[6]Lona：\c[0]    Listen to me-! \optD[I'm not!,I am...]
+
+staffG1/begin2NN
+\CamMP[staffG1]\prf\c[4]Personnel Officer：\c[0]    Great! I'll grab the others while you continue to look like a whore.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Lona：\c[0]    ...What?
+
+staffG1/begin2NNN
+\CamMP[staffG1]\prf\c[4]Personnel Officer：\c[0]    Oh, was I wrong? But you look like a whore.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Lona：\c[0]    E-Excuse me?!
+
+###################################
+
+whoreWork/begin1
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Soldier：\c[0]    It's a real whore. ♥
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,5]\prf\c[4]Soldier：\c[0]    It's been a such a long time!
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Soldier：\c[0]    Take off your clothes, show us your body! ♥
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,7]\prf\c[4]Soldier：\c[0]    Don't be afraid! Take it off! ♥
+\CamCT\m[sad]\Rshake\c[6]Lona：\c[0]    Ummmm...
+
+whoreWork/DressOut
+\narr Your items and equipment have been placed in the locker.
+
+whoreWork/begin_unknow
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,2]\prf\c[4]Soldier：\c[0]    Introduce yourself.
+\CamCT\m[shy]\PRF\c[6]Lona：\c[0]    Hello everyone, my name is Lona.
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,2]\prf\c[4]Soldier：\c[0]    How old are ya, Miss? How did you end up here?
+\CamCT\m[flirty]\PRF\c[6]Lona：\c[0]    I fled after the death of my family, with the retreating refugees a few months back.
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,6]\prf\c[4]Soldier：\c[0]    And here you are now selling your body. Must be really tough out there.
+\CamCT\m[tired]\PRF\c[6]Lona：\c[0]    Well, I'm doing what I can just to stay alive...
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,3]\prf\c[4]Soldier：\c[0]    In that case, help us relax by servicing us. Defending the frontlines from monsters is really hard work.
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Soldier：\c[0]    Uncle here can give you more money too.
+\CamCT\m[flirty]\PRF\c[6]Lona：\c[0]    Alright!
+
+whoreWork/begin_hass0
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,4]\c[4]Soldier：\c[0]    Pure! Smells good!
+
+whoreWork/begin_hass1
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\c[4]Soldier：\c[0]    Bouncy!
+
+whoreWork/begin_hass2
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,4]\c[4]Soldier：\c[0]    Cute! Soft lips!
+
+whoreWork/begin2
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Soldier：\c[0]    Where should she start?
+\CamMP[AnonGuard4]\BonMP[AnonGuard4,4]\prf\c[4]Soldier：\c[0]    You can start by suckin' our dicks.
+\CamCT\m[shy]\c[6]Lona：\c[0]    Okay......
+
+whoreWork/FuckStart
+\prf\c[4]Soldier：\c[0]    I can't stand it! Let's rape this little bitch!
+
+whoreWork/QdoneMsg0
+I already serviced him.
+
+whoreWork/QdoneMsg1
+His cock has softened now.
+
+whoreWork/QdoneMsg2
+He's already orgasmed.
+
+########################################################## Cannon st2
+
+officer/c130_done1
+\CamMP[officer]\BonMP[officer,3]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    You did a good job! This kind of thing is really only understood by young people!
+\CamCT\m[sad]\plf\PRF\c[6]Lona：\c[0]    I was just passing through...
+\CamMP[officer]\BonMP[officer,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    What! Are you a civilian?!
+\CamCT\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Yes! Why won't anyone listen to me?!
+\CamMP[officer]\BonMP[officer,7]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    Well, it seems that back up isn't coming.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    Can you teach us how to use this... Overlord M405 Cannon?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    It looks powerful, but none of us know how to handle such complicated machinery.
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well, I can at least try...
+
+officer/c130_done2
+\CamCT\m[flirty]\PRF\c[6]Lona：\c[0]    Yes, then push the joystick to the left to have it aim to the right.
+\CamMP[Noob]\prf\c[4]Soldier：\c[0]    Like this?
+\CamCT\Bon[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..\..
+\CamCT\Bon[7]\m[shocked]\Rshake\c[6]Lona：\c[0]    No! That's not right.
+\CamMP[Noob]\BonMP[Noob,8]\prf\c[4]Soldier：\c[0]    Right?
+\CamCT\Bon[7]\m[bereft]\Rshake\c[6]Lona：\c[0]    No! That's right!!!
+\CamMP[Noob]\BonMP[Noob,2]\prf\c[4]Soldier：\c[0]    Good, then I press this to launch?
+\CamCT\m[terror]\Rshake\c[6]Lona：\c[0]    DON'T!!!  That says-!
+
+officer/c130_done3
+\CamCT\Bon[8]\m[terror]\Rshake\c[6]Lona：\c[0]    Self-destruct......
+
+officer/c130_done4
+\CamCT\Bon[8]\m[sad]\PRF\c[6]Lona：\c[0]    It's completely ruined now...
+\CamMP[officer]\BonMP[officer,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    Well damn... And he was promotable too.
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    What should we do now?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    This cannon is very powerful, but too difficult to operate. I think we'll return to using ordinary artillery.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    But it's better to fix it just in case. Can you help us?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    How can I help?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    The ammunition for the cannon was an additional test item provided by the creator of this weapon.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    I saw his daughter during a \C[4]night\C[0] patrol months ago at the \C[4]Central Noer Market\C[0] in the city.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillery Officer：\c[0]    Reports say she's a gunpowder supplier and should still be on the island. If possible, I would like you to request her to come repair it.
+\CamCT\m[serious]\plf\PRF\c[6]Lona：\c[0]    I'm on it!
+
+########################################################## OTHER
+
+frogman/Prisoner0
+Sea Witch will punish you!
+
+frogman/Prisoner1
+Worship the Sea Witch!
+
+board/board
+\board[East Seven Outpost]
+Built in 1693.7.19
+Thank you to Rudesin for donating.
+
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

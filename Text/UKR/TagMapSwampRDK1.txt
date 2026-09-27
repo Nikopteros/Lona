@@ -1,0 +1,62 @@
+overmap/OvermapEnter
+\m[confused]Придорожній табір \optB[Скасувати,Увійти]
+
+mec/halp1
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Рятуй! Врятуй, благаю!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] А-А?!
+
+mec/halp2
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Монстри! Глибинні! Вони наближаються!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] А-А???!
+
+mec/halp3
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Рятуй, прошу тебе!
+
+mec/halp4
+\CamCT\Bon[6]\m[hurt]\plf\Rshake\c[6]Лона：\C[0] Досить мене штовхати!
+
+mec/halp5
+\CamCT\Bon[1]\m[terror]\plf\Rshake\c[6]Лона：\C[0] Оой!! Нізащо!
+
+mec/win
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Дяка тобі воїне, за твою доброту!
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Охх... Завжди будь ласка!?
+\CamMP[QuestTar]\BonMP[QuestTar,8]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] \..\..\..
+\CamMP[QuestTar]\BonMP[QuestTar,2]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Ти дівчинка?
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Лона：\C[0] А що, поганого бути дівчинкою?
+
+mec/Quprog_0
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Слухай! Мені потрібна твоя допомога!
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] У мене на руках те - що має бути доставлено в \C[4]Піратську Згубу\C[0].
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Лона：\C[0] Ухх...
+
+mec/Quprog_0_board
+\board[Ескорт мандрівника]
+Завдання： Довести мандрівника в Піратську Згубу
+Нагорода： Великий Мідяк х1\i[582] +2
+Клієнт： Мандрівник
+Термін виконання： 5 днів
+Все залежить від тебе!
+
+mec/Quprog_0_decide
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Лона：\C[0] Хммм.... \optB[Немає часу,Гаразд]
+
+mec/QmsgTar
+Швидше рухаймо!
+
+mec/Done1
+\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Дякую тобі, безмежна!
+
+mec/Done2
+\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Ці срані оселедці постійно нападають на наші конвої з припасами, падіння фортеці - лише питання часу.
+\SETpl[AnonMale1]\Lshake\prf\c[4]Мандрівник：\C[0] Зазирни в Гільдію Найманців у фортеці, я впевнений, ти могла б їм допомогти.
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Ха-ха.... Сподіваюся, я можу бути корисною тут.
+
+mec/CommonConvoyTarget0
+\prf\c[4]Мандрівник：\C[0] Час закінчується!
+
+mec/CommonConvoyTarget1
+\prf\c[4]Мандрівник：\C[0] Швидше, відведи нас в \C[4]Піратську Згубу\C[0].
+
+mec/CommonConvoyTarget2
+\prf\c[4]Мандрівник：\C[0] Рухаємося швидше!

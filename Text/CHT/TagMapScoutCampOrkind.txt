@@ -1,0 +1,71 @@
+Camp/Enter
+\m[confused]失蹤的車隊。\optB[算了,進入]
+
+Guide/QuestNotDone
+\m[confused]\c[6]洛娜：\c[0]    還沒有確認營地的狀況，以及是否有生還者。
+
+Forest/Entry
+\m[serious]\c[6]洛娜：\c[0]    就是這了，它們的體臭連這都聞的到。
+\m[irritated]\c[6]洛娜：\c[0]    看來它們的警戒一點都不鬆散。\CamMP[DasWatcher]
+\m[confused]\c[6]洛娜：\c[0]    嗯......
+\m[normal]\c[6]洛娜：\c[0]    謹慎小心的前進吧。千萬不能被那些監視的發現。\CamCT
+
+Camp/GoblinSeen
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    我被發現了，可以聽到附近有很多聲音往這邊聚集。
+\m[terror]\Rshake\c[6]洛娜：\c[0]    得快點離開不然就逃不掉了。
+
+Camp/SawCamp
+\m[confused]\c[6]洛娜：\c[0]    看到帳棚了。
+\m[fear]\c[6]洛娜：\c[0]    沒有半個活人了？\CamMP[Camp]
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    我的天啊！\CamMP[DedPpl]
+\m[terror]\c[6]洛娜：\c[0]    全部都死了？！ 它們甚至在烹煮人們。
+\m[confused]\c[6]洛娜：\c[0]    不，更深處還有傳出些微的哀號聲。
+\m[serious]\c[6]洛娜：\c[0]    不行，我必須振作。\CamCT
+\m[angry]\c[6]洛娜：\c[0]    我必須親眼確認到底怎麼了。
+
+Camp/OrkindBabySaw
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    嗚嗚！ 好臭！
+\m[terror]\c[6]洛娜：\c[0]    天啊！\CamMP[WakeUp]
+\m[fear]\c[6]洛娜：\c[0]    還活著！還有活人！
+\m[sad]\c[6]洛娜：\c[0]    它們留下了幾個女性當作孕母！
+\m[fear]\c[6]洛娜：\c[0]    至少確定它們已經來到諾爾鎮附近了。
+\m[serious]\c[6]洛娜：\c[0]    我是幫不了這些人的，得快點回去回報。\CamCT
+
+Guild/completed
+\prf\c[4]職員：\c[0]    什麼！ 已經開始繁殖了嗎？這下必須列為緊急項目處理。
+
+Guild/completed2
+\prf\c[4]職員：\c[0]    做得好，這樣一來北邊的壓力應該會小一些。
+
+Guild/completed3
+\prf\c[4]職員：\c[0]    還活著？！ 救回來了？！
+\prf\c[4]職員：\c[0]    看來妳比想像中的還行阿！
+
+########################################################################################QUEST LINE 3
+
+CommonConvoyTarget/Hev0
+\SETpr[OrcCaveEvent]在這充滿腥臭味的小洞穴內。受害者們的狀況看起來非常的差。
+對類獸人來說對年齡與外觀都不是問題，只要母體能夠受孕就是優良的孕母。
+受害者們受到長期的高強度凌虐，她們不是死了就是瘋了。
+而商人的女兒，她全身沾滿了精液與穢物。
+肚子上充滿了生產過的皺紋，看來她已經被類獸人凌虐了很長一段時間。
+洛娜不能確定她的精神狀況，如果不行的話大概也只能放棄了。
+
+CommonConvoyTarget/begin0
+\m[serious]\PRF\c[6]洛娜：\c[0]    她還活著！
+\prf\c[4]商人的女兒：\c[0]    \..\..\..\..嗚嗚。
+\m[shocked]\PRF\c[6]洛娜：\c[0]    妳還好嗎？聽的到我說話嗎？
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]商人的女兒：\c[0]    嗚... 妳是...？\optB[路過的,來救你的]
+
+CommonConvoyTarget/Arrivel
+\prf\c[4]商人的女兒：\c[0]    謝謝，我還能活著下來都是因為妳。
+\m[triumph]\PRF\c[6]洛娜：\c[0]    不用客氣！應該的！
+\prf\c[4]商人的女兒：\c[0]    我要去我父親那了，妳保重。
+
+CommonConvoyTarget/Arrivel1
+\m[confused]\PRF\c[6]洛娜：\c[0]    先回到公會回報吧。
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]商人的女兒：\c[0]    謝謝妳。我們快點回諾爾鎮吧。

@@ -1,0 +1,570 @@
+###################################################################################    TOWN
+#South Gate Campsite
+
+ThisMap/OmEnter
+\m[confused]Лагерь у Южных Ворот \optB[Отмена,Войти]
+
+ThisMap/OmEnterOP
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Кто здесь?!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Аа?!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Это живой человек?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Откройте двери и впустите её!
+
+Exit/Qmsg
+Закрыто
+
+healerF/Qmsg0
+Святой!
+
+healerF/Qmsg1
+Спаси нас!
+
+healerM/Qmsg0
+Это наше наказание от Святых!
+
+healerM/Qmsg1
+Посмотрите на себя! Как отвратительно!
+
+healerM/Qmsg2
+Вот что ждёт неверующих в богов!
+
+healerMInn/Qmsg0
+Правильно! Избавься от этой грязи!
+
+healerMInn/Qmsg1
+Этого недостаточно!
+
+healerMInn/Qmsg2
+Нам нужно женское тело, чтобы очистить эту грязь!
+
+healerFInn/Qmsg0
+Введи свой гадкий дух в моё тело!
+
+healerFInn/Qmsg1
+Святой!
+
+healerFInn/Qmsg2
+Да спасут тебя Святые!
+
+pregGirls/Qmsg
+......
+
+crazy/Qmsg0
+Хахахаха! Мертвы!
+
+crazy/Qmsg1
+Хаха, они все мертвы... ♥
+
+crazy/Qmsg2
+Хахахаха!!!
+
+InnWork/Purge
+Очистить грязь.
+
+Priest/begin
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Священник：\C[0]    Он полон злобной тьмы и паразитов, он окончательно падший!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Священник：\C[0]    Единственный способ очистить его от паразитов, это перенести её в тело женщины.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Священник：\C[0]    Ты! Грешница!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Я?!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Священник：\C[0]    Восстанови баланс с ним!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Чего?!
+
+GuardDoomed/beginRNG0
+\CBid[-1,20]\prf\c[4]Стражник：\C[0]    Мне тут надоело! Эти паразиты сводят меня с ума.
+
+GuardDoomed/beginRNG1
+\CBid[-1,20]\prf\c[4]Стражник：\C[0]    Мы обречены, мир будет уничтожен, верно ведь?
+
+GuardDoomed/beginRNG2
+\CBid[-1,20]\prf\c[4]Стражник：\C[0]    Они появляются у меня во сне каждую ночь.
+
+MaleDoomed/CommonHuman0
+\CBid[-1,20]\prf\c[4]Беженец：\C[0]    Эй, этот мир в жопе.
+
+MaleDoomed/CommonHuman1
+\CBid[-1,20]\prf\c[4]Беженец：\C[0]    Все умрут, так что давай хоть развлечёмся, пока все не погибнем!
+
+MaleDoomed/CommonHuman2
+\CBid[-1,20]\prf\c[4]Беженец：\C[0]    Это конец, Святые оставили нас!
+
+MaleDoomed/CommonHuman3
+\CBid[-1,20]\prf\c[4]Беженец：\C[0]    Я полон червей! Мерзость должна быть введена в женское тело, чтобы исцелить меня!
+
+MainGuard/Begin
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Знаешь, что? Все сошли с ума!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Западная часть города под контролем Оркоидов, а остальные - под контролем Демонов Плоти.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Эти монстры враждуют друг с другом, но это нам мало помогает!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Потому что все сошли с ума! Мы просто обречены!
+
+boardR/Begin1
+\board[Разыскиваются!]
+Аида： Разыскивается
+Бэлла： Разыскивается
+Ханна： Мертва
+Майда： Разыскивается
+Меган： Разыскивается
+Рудэль： Разыскивается
+Викки： Мертва
+
+boardR/Begin2
+\board[Шлюхи]
+Мы больше не хотим играть с ветошью!
+Нам нужны свежие женщины!
+Жизнь солдат бесценна!
+Жизнь солдат бесценна!
+
+boardR/Begin3
+\board[Внимание!]
+Люди, будьте послушны и ждите эвакуации.
+У нас нет времени говорить с вами о законе и справедливости.
+Единственная наша проблема - это смерть!
+
+Nap/GameOver0
+\narr У стражи есть только один способ избавиться от паразитов...
+\narr Это смерть...
+
+Tower/Go1
+\narr Лона поднялась на сторожевую башню...
+\narrOFF\m[tired]\PRF\c[6]Лона：\C[0]    Что стало с моим домом...сейчас?
+\prf\narr\..\..\..
+\narrOFF\bg[bg_Sybaris]\m[sad]\PRF\c[6]Лона：\C[0]    Это должно быть центр города?
+\m[tired]\PRF\c[6]Лона：\C[0]    Так что мой дом должен быть в....
+\m[sad]\prf\c[6]Лона：\C[0]    \..\..\..\PRF уничтожен...
+\m[tired]\PRF\c[6]Лона：\C[0]    Увы...
+
+###################################################################################    INN
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Это \c[6]Гостиница Надежда\C[0], но надежды здесь давно нет.
+
+##########trans note. keep name = Overlook Keep
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Это...?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Ранее здесь был \c[6]Сторожевой Бастион\C[0].
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Он пал спустя считанные дни, после случившейся катастрофы.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    После того, как чёрный туман рассеялся, \c[6]Центурион\C[0] использовал остатки крепости для строительства лагеря.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Затем, большой человек из \c[6]Ноэртауна\C[0] основал \c[6]Гостиницу Надежда\C[0].
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Мы принимаем беженцев и эвакуируем их, но я думаю что это скоро закончится.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Со временем осталось не так много живых людей, которых можно было найти, а физическое и моральное состояние наших становится всё хуже и хуже.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Вскоре мы уже не найдем живых людей.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Стражник：\C[0]    Хаха, посмотри на наших людей, мы не отличаемся от тех же беженцев.
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ээ... Я могу вам как нибудь помочь?
+
+InnKeeper/About_work1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Ты хочешь работать?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Я слышал, что священники и монашки в Церкци Святых нуждаются в юных девушках, чтобы помочь лечить беженцев.
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Ты вроде.... Подходишь?
+\CBmp[Nurse,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Иди поговори с монашкой вон в той комнате.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ладно?
+
+InnKeeper/About_work_failed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Сейчас для тебя работы нет.
+
+healerFInn/Work0_did
+\CBct[6]\m[shy]\PRF\c[6]Лона：\C[0]    Я здесь, чтобы впитывать грязь.
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Правда? Похоже, что ты также находишься на пути праведности.
+
+healerFInn/Work0_new
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Стражник в углу сказал, что вам требуется моя помощь.
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Очередная неверующая, ведомая материальными ценностями?
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Что ж, Святые простят тебя.
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Молодые женские тела должны использоваться, чтобы высасывать из этих людей всю грязь, но я уже не молода.
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Ты! Грешница!
+\CBct[1]\m[shocked]\Rshake\c[6]Лона：\C[0]    Я?!
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Единственный способ излечить их, это использовать своё тело, чтобы высосать из них грязь!
+
+healerFInn/Work_BodyCheck0
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Раздевайся, я должна проверить твою киску.
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    Чего?!
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Снимай одежду! Грешница!
+
+healerFInn/Work_BodyCheck1
+\CBct[6]\m[sad]\PRF\c[6]Лона：\C[0]    Ладно...
+
+healerFInn/Work_BodyCheck2
+\CBct[6]\m[shy]\PRF\c[6]Лона：\C[0]    Ухх...
+
+healerFInn/Work_VagLick0
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Твоё тело слишком грязное, ты, должно быть, мерзкая шлюха.
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Но ничего, Святые простят тебя, давай сначала избавимся от скверны в твоем теле.
+
+healerFInn/Work_VagLick1
+\CBid[-1,20]\prf\c[4]Монахиня：\C[0]    Очень хорошо, твоё тело теперь чистое.
+
+healerFInn/Work_accept0
+\CBct[8]\m[shy]\PRF\c[6]Лона：\C[0]    Хмм...
+
+healerFInn/Work_accept1
+\CBmp[Man3,1]\prf\c[4]Беженец：\C[0]    Это женщина! Молоденькая женщина!
+\CBmp[Man4,4]\prf\c[4]Беженец：\C[0]    Быстрее! Дай мне выебать тебя! Только твоя дырка меня излечит!
+\CBmp[Man3,1]\prf\c[4]Беженец：\C[0]    Грязь должна быть передана в твоё тело!
+\CBct[1]\m[fear]\PLF\c[6]Лона：\C[0]    Оох...
+
+healerFInn/Work1
+\board[Избавление от Грязи]
+Используйте свою киску и попку для того, чтобы как можно чаще принимать чужую грязь.
+Монахиня может подтвердить общее количество грязи и определить вашу оплату.
+
+healerFInn/WorkDOing_begin0_0
+\CBid[-1,6]\m[fear]\prf\c[4]Беженец：\C[0]    Святой! Помоги мне! Мне нужно женское тело, чтобы излечить своё!
+
+healerFInn/WorkDOing_begin0_1
+\CBid[-1,6]\m[fear]\prf\c[4]Беженец：\C[0]    Эти паразиты влезли в мой член, пока я спал! Я всё ещё ощущаю их внутри!
+
+healerFInn/WorkDOing_begin0_2
+\CBid[-1,6]\m[fear]\prf\c[4]Беженец：\C[0]    Избавь меня от них! Я их чувствую в своём животе!
+
+healerFInn/WorkDOing_begin0Guard_0
+\CBid[-1,6]\m[fear]\prf\c[4]Стражник：\C[0]    Меня можно вылечить, просто выебав женщину?
+
+healerFInn/WorkDOing_begin0Guard_1
+\CBid[-1,6]\m[fear]\prf\c[4]Стражник：\C[0]    Святые не бросили нас!
+
+healerFInn/WorkDOing_begin0Guard_2
+\CBid[-1,6]\m[fear]\prf\c[4]Стражник：\C[0]    Помоги мне высосать этих червей!
+
+healerFInn/WorkDOing_begin1
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Вот твоё женское тело! Святые излечат тебя! Верь в Святых!
+
+healerFInn/WorkDOing_begin2
+\CBct[1]\Rshake\c[6]Лона：\C[0]    Что?!
+
+healerFInn/WorkDOing_begin3
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    За дело! Твоя юная пиздёнка всосёт грязь в твоё тело.
+
+healerFInn/WorkDOing_begin4
+\CBid[-1,20]\m[fear]\prf\c[4]Беженец：\C[0]    Спасибо, Святые!
+
+healerFInn/WorkDOing_begin4Guard
+\CBid[-1,20]\m[fear]\prf\c[4]Стражник：\C[0]    Слава Святым!
+
+healerFInn/WorkDOing_getSemen0
+\CBct[6]\m[sad]\PRF\c[6]Лона：\C[0]    Уфф...
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Подойди, дай мне увидеть грязь, которую ты приняла в своё тело.
+
+healerFInn/WorkDOing_TotalScore0
+\narr Тело Лоны поглотило в себя #{$story_stats["HiddenOPT1"]} небольшое количество грязи.
+
+healerFInn/WorkDOing_TotalScore1
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Хорошо, продолжай дитя.
+
+healerFInn/WorkDOing_HerDialog
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Ты собрала \c[6]#{$story_stats["HiddenOPT1"]}\C[0] единиц грешной грязи.
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Ты уже сдаёшься? Хочешь закончить? \optB[Отмена,Закончить]
+
+healerFInn/WorkDOing_HerDialog_end
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    На сегодня хватит грязи.
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Тело женщины - это естество греха, и люди становятся лжецами из-за греха женщин.
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Даже если ты неверующая, ведомая материальными ценностями, Святые позаботятся о тебе.
+
+healerFInn/WorkDOing_HerDialog_end_noReward
+\CBmp[Nurse,20]\prf\c[4]Монахиня：\C[0]    Святой, прости этого жадную неверующую.
+
+####################################################################################### QUESTS
+############################################ OP QUEST
+
+OpQuest/Begin0
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Ой... Я помню это место.
+
+OpQuest/Begin1
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Что это за крепость?
+
+OpQuest/Begin2
+\CBct[6]\m[sad]\PRF\c[6]Лона：\C[0]    Кто её так повредил?
+\CBct[6]\m[tired]\PRF\c[6]Лона：\C[0]    Я не узнаю её...
+
+OpQuest/Begin_INC0
+\prf\c[6]Стражник：\C[0]    \{Осторожно! Они идут!\}
+
+OpQuest/Begin_INC1
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Что? Кто идёт?
+
+OpQuest/Begin_INC2
+\CBmp[OPquestCount,20]\prf\c[6]Стражник：\C[0]    \{С севера! Монстры наступают!\}
+
+OpQuest/Begin_INC3
+\CBct[2]\m[shocked]\Rshake\c[6]Лона：\C[0]    Монстры? Где?!
+
+OpQuest/Begin_RUN0
+\BonMP[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]Центурион：\C[0]    Живо! Все в внутрь!
+
+OpQuest/Begin_WTF0
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Ты почему всё ещё тут стоишь?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Я... Простите!
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Слишком поздно! Приготовься!
+
+OpQuest/Begin_WTF1
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    \{УБИВАЙТЕ ИХ!\}
+
+OpQuest/Wave2
+\CBmp[OPquestCount,20]\prf\c[6]Стражник：\C[0]    \{С СЕВЕРА! ЛЕТУЧИЕ МЫШИ!\}
+
+OpQuest/Wave3
+\CBmp[OPquestCount,20]\prf\c[6]Стражник：\C[0]    \{С ЮГА! АРАХНИДЫ!\}
+
+OpQuest/Win0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Здесь повсюду монстры, как ты сюда попала?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм....
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Забудь.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Слабая девушка вроде тебя тоже может быть полезной.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Возьми это.
+
+OpQuest/Win1
+\CBct[3]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Спасибо!
+
+############################################## spawnPoolQuest
+
+Qprog2/PoolQuest_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Раз уж ты пришла, то сможешь и уйти, верно?
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Слушай, мне нужен разведчик, чтобы разведать западный лес.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Я пытался связаться с внешним миром, но никто из посланных солдат не вернулся.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Найди наших людей и верни их, если они ещё живы.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Это очень опасная работа, но мне нужны все свободные люди для борьбы с этими монстрами.
+
+Qprog2/PoolQuest_1
+\board[Поиск на Западе]
+Задача：Исследовать Западный Лес
+Награда：Открытие станции
+Клиент：Лагерь у Южных Ворот
+Повторяемость：Одноразовое
+Исследуйте Западный Лес и узнайте, живы или мертвы пропавшие солдаты.
+
+Qprog2/PoolQuest_accept
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Э-э... Сколько солдат было отправлено?
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Трое.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Центурион：\C[0]    Если потерпишь неудачу, убей себя пока эти монстры тебя не поймали.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оу... Эм... Поняла....
+
+Qprog5/PoolQuest_Done
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Ты вернулась живой? Ты одна?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Не знаю что и сказать... Они все мертвы, если так можно выразиться.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Правда?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я нашла гнездо в лесу. Они были превращены в демонов плоти.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Гнездо?
+\CBmp[Leader,6]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Проклятье, как же мы теперь с ними справимся...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Не волнуйтесь, их гнездо уже уничтожено.
+\CBmp[Leader,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Что?! Как ты это смогла сделать?!
+
+Qprog5/PoolQuest_Done_Lona
+\CBct[20]\m[overkill]\plf\Rshake\c[6]Лона：\C[0]    Я не уверена, я подшла и тут раздался лязг? А потом бах? Затем свист? А потом он просто взорвался!
+
+Qprog5/PoolQuest_Done_DedHalp
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Это не я! Короче говоря, она бум бум бум, бах бах бах, бух бух бух бух бух бух БУУУМ, и потом гнездо было уничтожено!
+
+Qprog5/PoolQuest_Done_end
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    ......
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    В общем, их гнезда больше нет?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ага.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Я пошлю другого разведчика в это место.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Если это правда, у нас будет меньше поводов для беспокойства.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Мы сможем установить контакт с внешним миром через день или два, спасибо.
+\CBct[3]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Всегда пожалуйста!
+
+Qprog6/WaitingAMT
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Передохни, мы всё ещё пытаемся наладить связь с внешним миром.
+
+Qprog6/RaidOnEast_replay
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    А, это ты.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Мы тут успешно связались со \c[6]Штабом\C[0] и получили помощь.
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    \c[6]Станция в Лагере у Южных Ворот\C[0] снова заработала.
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    И отныне, станция сможет нас переместить в другие части острова.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ооох!
+
+Qprog7/RaidOnEast0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Разведка обнаружила ещё одно гнездо тварей на востоке. Нам требуется вся боевая мощь, чтобы дать им бой!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Я в том числе?!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Непременно!
+
+Qprog7/RaidOnEast1
+\board[Уничтожение Гнезда]
+Задача：Уничтожить гнездо монстров на Востоке
+Награда：Открытие рынка в Лагере у Южных Ворот
+Клиент：Лагерь у Южных Ворот
+Повторяемость：Одноразовое
+Уничтожьте гнездо монстров на Востоке и отправьте эти мерзкие твари к Святым!
+
+Qprog7/RaidOnEast_accept0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм, ладно.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что происходит...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Отлично! Вперёд!
+
+Qprog7/RaidOnEast_accept1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм....
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    У меня не будет времени подумать?
+
+Qprog9/RaidOnEast_reward
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм....
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    А! Снова ты.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Мы наконец выбрались из бедственного положения, мы больше не окружены, и скоро к нам придёт помощь из \c[6]Лагеря у Южных Ворот\C[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    А ты...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Мои подчиненные все объяснили, похоже, что ты действительно не годишься для боя.
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я.....
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Иди домой, и удачи.
+
+Qprog10/WaitingAMT_noLisa
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Я слышал что на \c[6]Седьмом Восточном КПП\C[0] есть новое интересное оружие, я должен найти способ достать его.
+
+Qprog8/WaitingAMT_wait
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Что ты можешь сделать? Ты можешь пойти в трактир и спросить у сотрудника Гильдии Наёмников.
+
+############################################## Get Lisa
+
+Qprog11/LisaLine_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Привет! Ты! Это ты!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Хм?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Мне нужно, чтобы кто-то пошел в \c[6]Ноэртаун\C[0] и нашел двух человек.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Найди кого-нибудь?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Мы должны найти торговца порохом \c[6]Лизу\C[0] и артиллериста \c[6]Лону\C[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Я слышал что они живут в Ноэре, и у нас есть шанс выйти из этого тупика, если мы их найдем!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эээ...\c[4]Лону\C[0]??
+
+Qprog11/LisaLine_1
+\board[Поиск Лизы и Лоны]
+Задача：Найти Лизу и Лону
+Место：Ноэртаун
+Награда：Нет
+Клиент：Лагерь у Южных Ворот
+Повторяемость：Одноразовое
+Найдите торговца порохом \c[6]Лизу\C[0] и её помощницу \c[6]Лону\C[0].
+
+Qprog11/LisaLine_accept0
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ух... Это.... Я Лона.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Ты? Ты кто?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я Лона.
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Э.........
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хммммм...
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Эххх...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Так что... Что вам от меня нужно?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Кашель! Я слышал, что на \c[6]Седьмом Восточном КПП\C[0] стоит мощная артиллерия.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Они использовали мощную артиллерийскую атаку, разработанную \c[6]Лизой\C[0], чтобы победить волны монстров.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Значит артиллерист - это ты?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Э-э... Это я.
+
+Qprog11/LisaLine_accept1
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Я уже проинформировал офицера артиллерии  \c[6]Седьмого Восточного КПП\C[0] письмом.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Отправляйся в Ноэртаун, найди \c[6]Лизу\C[0], и идите к \c[6]Седьмом Восточном КПП\C[0], и доставьте сюда эту замечательную артиллерию.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    Ты тоже из Сибариса, верно? Разве ты не хочешь вернуть свой дом?
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Я понимаю, я доставлю её сюда!
+
+Qprog11/LisaLine_accept2
+\board[Поиск Лизы]
+Задача：Найти Лизу
+Место：Ноэртаун
+Награда：Нет
+Клиент：Лагерь у Южных Ворот
+Повторяемость：Одноразовое
+Найдите торговца порохом \c[6]Лизу\C[0] и отправляйтесь сней на \c[6]Седьмое Восточное КПП\C[0].
+
+Qprog11/LisaLine_No
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Охх\..\..\.. \m[hurt]\Rshake У меня болит живот!
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Центурион：\C[0]    ....
+
+############################################ INN QUEST
+
+QuestBoard/other_about
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Сначала у нас были только беженцы. Те, кто потерял свои семьи, пришли сюда, чтобы стать наёмниками
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Но многие не смогли вернуться. Теперь у нас остались лишь солдаты из \c[6]Штаба\C[0] и \c[6]Поместья Росендо\C[0].
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Эм... Да! Ещё есть группа фанатиков из рядов \c[6]Святых\C[0].
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Ты тоже думаешь, что мир сошёл с ума, да?
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Сейчас почти невозможно держать связь с внешним миром. Может ты сможешь помочь?
+
+QuestBoard/other_about_Prog10
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Ха! Я ухожу, я снова связался с гильдией.
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Я верю, что они скоро пришлют кого-нибудь на моё место.
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    В ПИЗДУ! Я ухожу!
+
+QuestBoard/GiveUp
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Хм? Сдаешься?
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Работник：\C[0]    Эмм... \optB[Неважно,Кто вы?,Отменить задание<r=HiddenOPT0>]
+
+MercenaryGuild/QuProgSybBarn5
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э... Так что этот амбар....
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Что? Что! Это была ваша задача, верно?
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Там действительно было много выживших, но я не знаю почему они напали на меня.
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    За такую опасную работу полагается большое вознаграждение, это тяжелый труд.
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Если ты вернулась живой, это говорит о том, что ты сильнее многих.
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Кстати, должны быть и другие наёмники?
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    Да, ты правильно прочитала, это была групповая работа.
+\CBid[-1,20]\prf\c[4]Работник：\C[0]    После того как мы связались с гильдией появилось ещё много наёмников вроде тебя, но я думаю, что большинство из них уже не вернётся.
+
+############################################## QBOARD
+
+QuestBoard/SybBarn
+Выжившие в Амбаре
+
+QuestBoard/SybBarn_BOARD
+\board[Выжившие в Амбаре]
+Задача：Исследовать амбар у юго-западных ворот
+Награда：Большой Медяк х3\i[582]
+Клиент：Лагерь у Южных Ворот
+Повторяемость：Одноразовое
+Разведчики, действующие в городе, сообщили что в сарае у юго-западных ворот может находиться большое количество выживших.
+Но они не уверены, что эти люди всё ещё являются людьми. В настоящее время наши людские ресурсы ограничены и мы не можем отправить больше
+людей для проведения расследования и установления контакта. Все что мы можем сделать это положиться на усилия наёмников.
+
+noquestPOP/0
+В настоящее время заданий нет
+
+QuestBoard/SpiderLeg
+Лапы Арахнида-мутанта
+
+QuestBoard/SpiderLeg_BOARD
+\board[Пусть знают, кто здесь босс]
+Задача：Собрать 10 лап Арахнида-мутанта\i[188]
+Награда：Большой Медяк х2\i[582]
+Клиент：Лагерь у Южных Ворот
+Срок выполнения：Долго
+Наш шеф-повар попробовал, ножки удивительно хрустящие.
+Жареные лучше всего!
+
+MercenaryGuild/SpiderLeg_win1
+\CBct[20]\m[fear]\PRF\c[6]Лона：\C[0]    Фу... Лапы Арахнида, которые ты хотел... забирай.
+
+QuestBoard/BreedLingMeat
+Охота на Порождения
+
+QuestBoard/BreedLingMeat_BOARD
+\board[Сбор Бёдер Порождений]
+Задача：Собрать 10 Бёдер Порождений\i[190]
+Награда：Большой Медяк х2\i[582]
+Клиент：Лагерь у Южных ворот
+Срок выполнения：Долго
+Монстры едят нас, так что плохого в том, чтобы мы ели монстров?
+
+MercenaryGuild/BreedLingMeat_win1
+\CBct[20]\m[fear]\PRF\c[6]Лона：\C[0]    Фу... Мясо бедра, которое ты хотел... забирай.
+
+QuestBoard/MonsterBone
+Кость Мутировавшего Монстра
+
+QuestBoard/MonsterBone_BOARD
+\board[Кости Монстра]
+Задача：Собрать 8 костей монстра\i[189]
+Награда：Большой Медяк х4\i[582] Медяк х5\i[583]
+Клиент：Лагерь у Южных Ворот
+Срок выполнения：Долго
+Нашему котлу с супом нужно больше костей.
+
+MercenaryGuild/MonsterBone_win1
+\CBct[20]\m[fear]\PRF\c[6]Лона：\C[0]    Фу... Кости, которые ты хотел...
+
+############################################## TODO
+
+QuestBoard/GotoDT
+前往某點TODO
+
+QuestBoard/DestroyHive
+Ядро гнезда
+
+QuestBoard/DestroyHive_BOARD
+\board[Уничтожить гнездо]
+Задача：Уничтожьте северное гнездо.
+Награда：Большой Медяк х6
+Клиент：Лагерь у Южных ворот
+Срок выполнения：Одноразовое

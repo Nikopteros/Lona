@@ -1,0 +1,35 @@
+#Translated by Joko Komodo and reviewed by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+AbomHive/OvermapEnter
+\m[confused]An unknown lair. The outside is covered with the flesh of Abominations... \optB[Leave,Enter]
+
+########################################################
+
+Lona/RapeLoopNonCapture
+\m[p5sta_damage]The reeking mounds of flesh dragged Lona deep into their lair...
+\m[p5health_damage]Lona will soon become a new seedbed for the disgusting Flesh Demons...
+
+Lona/RapeLoopCaptured
+\m[p5sta_damage]Various fleshy masses continued to pour semen into Lona's body.
+\m[p5health_damage]They don't care how the seedbed felt, all that mattered was injecting their seeds inside Lona.
+
+
+Lona/CaptureWakeUp
+\m[p5pee]\Rshake\c[6]Lona：\c[0]    Unnngh...
+\m[p5shame]\Rshake\c[4]It seems like they're beginning to calm down now?
+
+Lona/CaptureGiveUp
+\m[p5shame]\Rshake\c[4]Impossible... I-I can't do anything...
+\narr\..\..\..
+
+Lona/BondageStruggle
+\m[p5defence]\Rshake\C[6]Lona：\C[0]    ......
+
+Lona/CaptureStruggle
+\m[p5pee]\c[4]What should I do...? \optD[Do nothing<t=10>,Struggle (-10 STA)<r=HiddenOPT0>,Struggle (-30 STA)<r=HiddenOPT1>,Struggle (-50 STA)<r=HiddenOPT2>,Accept your fate...<r=HiddenOPT3>]
+
+Lona/StruggleWin
+\m[shocked]\Rshake\c[6]Lona：\c[0]    That worked?!
+\m[flirty]\c[6]Lona：\c[0]    I have to hurry and find a way out of here...
+
+#Translated by Joko Komodo and reviewed by Sugoi Soy Boy. Fuck off MTLing monkeys.

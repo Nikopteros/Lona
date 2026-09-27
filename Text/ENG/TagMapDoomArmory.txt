@@ -1,0 +1,81 @@
+#by JOKO  NOT MTL BUT STILL NEED SYNC
+
+thisMap/OvermapEnter
+\cg[map_NoerGate]Armory \optB[Leave,Enter,Sneak<r=HiddenOPT1>,Bluff<r=HiddenOPT2>,Prostitute<r=HiddenOPT3>]
+
+thisMap/OvermapEnter_enter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Stop! This area is off-limits!
+
+thisMap/OvermapEnter_SGTenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Wait! Who are you?
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh, this is my service card. The \c[4]Mercenary Guild\c[0] tasked me to copy Commander Brian's record.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    You? Let's see\..\..\..
+
+thisMap/OvermapEnter_SGTenter_weak
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Don't lie! Have weak little chickens like you really worked for the chief?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    If that were the case, we would have been exterminated by monsters long ago!
+\m[sad]\plf\PRF\c[6]Lona：\c[0]    Uh... I'm sorry....
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Go away!
+\narr Lona Looks too weak
+
+thisMap/OvermapEnter_SGTenter_pass
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Huh? Little boy, so you've worked with the \c[4]Garrison HQ\c[0] at such a young age? That's tough.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Fine, go in.
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Eh... Boy?
+
+thisMap/OvermapEnter_SNEAKenter
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Does the wall look that difficult to climb? Maybe I can give it a go.
+
+thisMap/OvermapEnter_SNEAKenter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Hey! What are you doing!
+
+thisMap/OvermapEnter_WISenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Hold on! Who are you?
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... I am.... that\..\..\..
+
+thisMap/OvermapEnter_WhoreEnter_win
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Go to the second floor for work, don't go running around the first floor!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Enter.
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Thank you...
+
+thisMap/OvermapEnter_WhoreEnter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Male?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Go away! We are not interested in men!
+\m[sad]\plf\PRF\c[6]Lona：\c[0]    I... I'm sorry....
+
+
+#####################################################################################  INSIDE
+
+guns/theOne
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh... Looks like a spear, but there is a pipe at the end?
+\CBct[20]\m[pleased]\Rshake\c[6]Lona：\c[0]    That's it!
+
+art/black
+\cg[other_Black]\m[confused]\c[6]Lona：\c[0]    Empty canvas?
+It is the perfect, indescribable color that wants you to give all your attention and effort to understand.
+\m[flirty]\c[6]Lona：\c[0]    Isn't it just black?
+
+guard/timerStart
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guard：\c[0]    Who's there?!
+\m[terror]\plf\Rshake\c[6]Lona：\c[0]    Crap!
+
+GuardDoor/Qmsg0
+Don't take too long!
+
+GuardDoor/Qmsg1
+Leave when you're done!
+
+GuardDoor/Qmsg2
+Don't you have a job to do?
+
+GuardWatcher/Qmsg0
+So boring.
+
+GuardWatcher/Qmsg1
+I want to change shifts.
+
+GuardWatcher/Qmsg2
+I want to sleep...
+
+guns/lockedQmsg
+Locked

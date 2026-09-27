@@ -1,0 +1,314 @@
+thisMap/OvermapEnter
+\m[confused]Батальйонна станція\nКімнати відпочинку солдатів \optB[Скасувати,Увійти]
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]Прохід до \C[4]Соляним Полям:\C[0], біля воріт стоїть стражник \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Збрехати<r=HiddenOPT2>]
+
+nap/Capture
+asd
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Хто ти? Тобі тут не раді!
+
+InnKeeper/Slave_work
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Заткнися! Приступай до роботи!
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Де я?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Тут?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Спочатку це була Соляна Ферма, \c[6]Прибережну Фортецю\C[0] ми відбили у піратів!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Але коли монстри вторглися в цей район околиці були захоплені, і тепер ми боремося з монстрами!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] А? Я знаю, я питаю чому тут так багато людей?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Управитель:\C[0] Ми не знаємо чому, але демони зупинилися в цьому районі. Можливо, \c[6]Святі\C[0] послали диво?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Армія зайняла це місце і тепер це транзитний пункт для біженців, але нових тих, хто вижив, вже давно не знаходили.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Оо?
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Чи можу я щось зробити?
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Так? Ти жінка?
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Хм... Твої груди замалі, але це краще ніж нічого.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Оо?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Нам справді потрібна прислуга. Ми можемо годувати тебе кожен день, а також забезпечити безпеку.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Управитель:\C[0] Ось, підпиши це.
+
+InnKeeper/About_work1
+\board[Зробіть це і ви!]
+Хочете врятувати своїх рідних та близьких?!
+Приходьте і допоможіть солдатам, поранені солдати потребують догляду.
+Солдати нагодують вас та гарантують безпеку.
+Одній людині гарантовано в'їзд у Ноертаун.
+Ви повинні погодитись з усіма вимогами роботодавця до роботи.
+Ви не повинні залишати робоче місце без дозволу.
+Якщо ви порушуєте вимоги до роботи, ваш роботодавець може застосувати тілесні покарання.
+Ви відмовитеся від усіх прав звичайних громадян через вимоги до роботи.
+Ви станете рабом солдатів через вимоги до роботи.
+\{Я, ___, згодна з вищезазначеними правилами і готова стати працівником Соляної Ферми.
+
+InnKeeper/About_work2
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Хммм... їжа та безпека?
+
+InnKeeper/About_work2_Y
+\CBct[20]\m[flirty]\plf\c[6]Лона:\C[0] Схоже, що... звучить непогано?
+\SND[SE/PenWrite1.ogg]\narr Лона підписала контракт.
+\narrOFF\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Відмінно!
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Управитель:\C[0] У тебе тут є сім'я? Назви мені їхні імена, тепер вони будуть частиною міста Ноер.
+\CBct[8]\m[sad]\plf\c[6]Лона:\C[0] Вони\..\..\.. всі мертві.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Який жаль, кого ти хочеш провести в Ноертаун?
+\CBct[8]\m[tired]\plf\c[6]Лона:\C[0] Ну\..\..\.. Ви можете вибрати будь-яку бідну людину на вулиці.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий：\C[0] Дуже добре, будь ласка, почекай трохи.
+
+InnKeeper/About_work2_N
+\CBct[5]\m[irritated]\plf\Rshake\c[6]Лона:\C[0] Ні за що! Брехень!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Пішла ти! Чорт забирай!
+
+#################################### SIged
+
+InnKeeper/About_work2_Y1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] А... що трапилося?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] \{Тримай її!\}
+
+InnKeeper/About_work2_Y2
+\CBct[20]\m[hurt]\plf\Rshake\c[6]Лона:\C[0] Боляче! Відпустіть мене!
+\CBct[6]\m[fear]\plf\Rshake\c[6]Лона:\C[0] Відпустіть мене! Я прийшла, щоб вступити на роботу покоївки!
+
+InnKeeper/About_work2_Y3
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Управитель:\C[0] Ти підписала! Ти готова стати рабинею!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Що?! Рабом?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Управитель:\C[0] Ти можеш подивитися що написано тут, і тут.
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона:\C[0] Це... Не видно, надто дрібно!!
+
+InnKeeper/About_work2_Y4
+\CBmp[Guard1,5]\SETpl[Mreg_guardsman]\Lshake\PRF\c[4]Керуючий:\C[0] Сука! Заткнись нахер!
+
+InnKeeper/About_work2_Y5
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Керуючий:\C[0] Покінчимо з цією сукою, старі вже втомилися від неї.
+\CBmp[Guard1,20]\cg[event_SlaveBrand]\SETpl[Mreg_guardsman]\Lshake\c[4]Стражник:\C[0] Зараз же!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Лона:\C[0] \{МММММММ!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона:\C[0] \{Ах Ах Ах!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона:\C[0] Неееее.
+
+InnKeeper/About_work2_Y6
+\m[sad]\c[6]Лона:\C[0] Навіщо... Чому...
+
+InnKeeper/About_work2_Y7
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]Стражник：\C[0] Твоє завдання обслуговувати нас у майбутньому.
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]Стражник:\C[0] Ти маєш робити все що ми хочемо, зрозуміло?
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]Стражник:\C[0] Якщо ти не намагатимешся або лінуватися, ти помреш!
+
+InnKeeper/About_work2_Y8
+\CBct[8]\m[tired]\c[6]Лона:\C[0] .....
+
+#################################### SIged end
+#################################### TOR
+
+Torture/NapTrigger
+\SndLib[sound_MaleWarriorSpot]\c[4]Солдат A：\C[0] Ця сучка для нашої еблі!
+\SndLib[sound_MaleWarriorSpot]\c[4]Солдат B:\C[0] Підіймай її! Навчи її бути рабинею!
+\narr Лона втратила всі свої речі.
+
+Torture/begin0
+\SndLib[sound_MaleWarriorSpot]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Дрібна сучка, прокинься!
+\SndLib[sound_MaleWarriorSpot]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Солдат:\C[0] Прокинься! Сука!
+\m[tired]\c[6]Лона:\C[0] Ух...
+
+Torture/begin1
+\CBmp[Torture1,1]\m[shocked]\Rshake\c[6]Лона:\C[0] !!!
+\CBmp[Guard2,3]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Якщо ти насмілишся жартувати, подумай що з тобою буде, добре?
+\CBmp[Torture1,6]\m[fear]\Rshake\c[6]Лона:\C[0] Я...
+\CBmp[Guard1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Ми викладемо тобі урок!
+\CBmp[Torture1,20]\m[terror]\Rshake\c[6]Лона:\C[0] АХХХ!!!
+
+Torture/begin2
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Брати! Як ми маємо покарати цю дрібну сучку?
+
+Torture/begin3
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Добре! Я хочу почути крики!
+
+Torture/begin4
+\CBmp[Torture1,6]\m[bereft]\Rshake\c[6]Лона:\C[0] Вибачте, будь ласка, пощадіть мене!
+
+Torture/begin5
+\CBmp[Guard1,20]\m[sad]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Як ви думаєте, її потрібно покарати сильніше?
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Добре! Що ви хочете робити?
+
+Torture/begin6
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Немає проблем!
+
+Torture/begin7
+\CBmp[Torture1,8]\m[tired]\Rshake\c[6]Лона:\C[0] .....
+
+Torture/begin8
+\narr Лона знепритомніла під глузування і образи солдатів.
+
+#################################### TOR END
+#################################### MAMA
+
+Mama/getDress
+\CBid[-1,20]\prf\c[4]Раб:\C[0] Тебе теж обдурили?
+\CBid[-1,20]\prf\c[4]Раб：\C[0] Візьми це. Можливо, це допоможе тобі довше прожити.
+\CBct[8]\m[tired]\PRF\c[6]Лона:\C[0] Дякуємо...
+
+Mama/Begin0
+\CBid[-1,20]\prf\c[4]Раб：\C[0] Що ще ми можемо зробити?
+
+Mama/Begin1
+\CBid[-1,20]\prf\c[4]Раб：\C[0] Що ще ми, жінки, можемо зробити?
+
+Mama/End0
+\CBid[-1,20]\prf\c[4]Раб：\C[0] Давай, малюк.
+
+Mama/End1
+\CBid[-1,20]\prf\c[4]Раб：\C[0] Чим більше страждаєш ти, тим менше страждаємо ми.
+
+##################################### JOB ACCEPT
+
+Job/Begin0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Гей прокидайся! Час на роботу!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] Ааа.
+
+Job/NoWork
+Солдати, здається, забули про існування Лони.
+Лона має скористатися цією можливістю, щоб добре відпочити.
+
+Job/WhoreJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Нехай три солдати трахнуть тебе!
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Пам'ятай, ти всього лише повія! Рабиня! Чи не людина!
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона:\C[0] Так.
+
+JobOpt/Suck
+Відсмоктувати
+
+JobOpt/Done
+\narr Служба Лони завершена.
+
+Job/SuckJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Іди допоможи солдатам. Соси їхні члени!
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Ти повинна допомогти як мінімум трьом солдатам і вилизати їх члени дочиста!
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона:\C[0] Так.
+
+JobOpt/SuckJob_Begin0_0
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\C[0] Я... Тут, щоб відсмоктувати вам...
+
+JobOpt/SuckJob_Begin0_1
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\C[0] Я тут, щоб допомогти вам очистити ваш член...
+
+JobOpt/SuckJob_Begin1_0
+\CBid[-1,4]\plf\c[6]Лона:\C[0] Це так добре, смоктати і насолоджуватися смаком кінчи.
+
+JobOpt/SuckJob_Begin1_1
+\CBid[-1,4]\plf\c[6]Лона:\C[0] Відмінно! Стань на коліна! Я відсмоктую тобі!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\C[0] Умм...
+
+Job/MeatToiletJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Заберіть її!
+
+Job/MeatToiletJob1
+\CBct[6]\m[hurt]\plf\Rshake\c[6]Лона:\C[0] Аа?!
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Брати боролися з монстрами на передовий повертаються.
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Твоє завдання просте - бути їх туалетом!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] Оуу.
+
+Job/MeatToiletJob2_0
+\CBmp[Raper0,20]\prf\c[4]Солдат：\C[0] Так приємно, нарешті я закінчу.
+
+Job/MeatToiletJob2_1
+\CBmp[Raper0,20]\prf\c[4]Солдат：\C[0] Ця дрібна сучка без цицьок.
+
+Job/MeatToiletJob3
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]Лона:\C[0] ....
+\CBmp[Raper0,20]\prf\c[4]Солдат:\C[0] Я в ділі!
+
+Job/MeatToiletJob3_virgin0
+\CBmp[Raper0,20]\prf\c[4]Солдат：\C[0] Ця сучка незаймана ♥ Це її вперше ♥
+
+Job/MeatToiletJob3_virgin1
+\BonMP[Raper1,20]\prf\c[4]Солдат:\C[0] Це здорово!
+\BonMP[Raper2,20]\prf\c[4]Солдат:\C[0] Поспішай, я теж хочу її трахнути, поки вона ще туга!
+
+Job/MeatToiletJob4
+\CBmp[Raper0,5]\prf\c[4]Солдат:\C[0] Я кінчаю! Лови!
+
+Job/MeatToiletJob5
+\CBmp[Raper0,4]\prf\c[4]Солдат:\C[0] Закінчую! Добре ♥
+\CBmp[Raper1,20]\prf\c[4]Солдат:\C[0] Наступний я ♥
+
+Job/MeatToiletJob6
+\CBmp[Raper1,4]\prf\c[4]Солдат:\C[0] Спробуйте силу мого 30-сантиметрового ЧЛЕНА! ♥
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]Лона:\C[0] ....
+
+Job/MeatToiletJob7
+\CBmp[Raper1,4]\prf\c[4]Солдат:\C[0] Я зараз скінчу ♥ Я кінчаю ♥
+
+Job/MeatToiletJob8
+\CBmp[Raper2,20]\prf\c[4]Солдат:\C[0] Моя черга! Швидко! Я також хочу це зробити!
+
+Job/MeatToiletJob9
+\CBmp[Raper2,20]\prf\c[4]Солдат:\C[0] Смердюча засранка! Я трахну тебе в пизду!
+
+Job/MeatToiletJob10
+\CBmp[Raper2,20]\prf\c[4]Солдат:\C[0] Я відчуваю це! Я кінчаю!
+
+Job/MeatToiletJob11
+\CBmp[Raper2,20]\prf\c[4]Солдат:\C[0] \{Вперед! Круто!
+\CBmp[Raper2,20]\prf\c[4]Солдат:\C[0] Наступний!
+
+Job/MeatToiletJob12
+\CBmp[Raper3,20]\prf\c[4]Солдат:\C[0] Я наступний!
+\CBmp[Guard2,20]\prf\c[4]Солдат:\C[0] Ні! Тепер моя черга!
+
+Job/MeatToiletJob13
+\CBmp[Guard1,20]\prf\c[4]Солдат:\C[0] Гей! Дотримуйтесь черги!
+\CBmp[Raper3,20]\prf\c[4]Солдат:\C[0] Чому б нам не зробити це разом? Станемо братами по дірках?
+\CBmp[Guard2,20]\prf\c[4]Солдат:\C[0] Добре сказано!
+
+Job/MeatToiletJob14
+\BonMP[Raper0,20]\BonMP[Raper1,20]\BonMP[Raper2,20]\BonMP[Raper3,20]\prf\c[4]Солдат:\C[0] Хехехехе...
+
+Job/MeatToiletJob15
+\narr Лона знепритомніла під приниження солдатів...
+
+#################################### JOB END
+
+whore1/Qmsg0
+Хлопче, чи не хочеш вийти за мене?
+
+whore1/Qmsg1
+У мене великі груди, правда?
+
+whore1/Qmsg2
+Хочеш помацати її?
+
+whore2/Qmsg0
+Мене обдурили...
+
+whore2/Qmsg1
+Допоможи мені...
+
+whore2/Qmsg2
+Я хочу додому...
+
+whore3/Qmsg0
+Чому?
+
+whore3/Qmsg1
+Хіба ми не всі люди?
+
+whore3/Qmsg2
+Навіщо так поводитися зі мною?
+
+whore4/Qmsg0
+Я житиму!
+
+whore4/Qmsg1
+Це ти помреш!
+
+whore4/Qmsg2
+Іди!
+
+art/GodEmperor
+\cg[other_GodEmperor] Бог Імператор Зірок
+Вже понад десять років ми стикаємося зі зрадою та приниженням із боку Заходу, і ти – єдиний імператор, який намагається зупинити їх.
+Хоча часу мало, і хоча ти зазнав невдачі, я все одно вітаю тебе за це.
+\m[serious] Хм... бог зірок?
+\ m [confused] Хто він?
+\m[flirty] Але зачіска в нього досить кумедна.

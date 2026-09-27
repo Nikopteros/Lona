@@ -1,0 +1,837 @@
+###################################--------------------- LISA BOMB TRADER
+Lisa/WelcomeUnknow
+\CBmp[UniqueLisa,20]\SETpl[LisaHappy]\Lshake\prf\c[4]小鬼頭：\c[0]    嘿！ 嘿！！ 阿姊！ 我叫麗莎！
+\CamCT\Bon[2]\m[pleased]\plf\c[6]洛娜：\c[0]    我是洛娜.費爾丁。
+\CBmp[UniqueLisa,20]\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    洛娜... \.啊！\.對啦！阿姊！對這有興趣嘸？ \..嘿嘿轟轟呦！
+
+Lisa/Welcome0
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    時間就是金錢！
+
+Lisa/Welcome1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    若是出任何問題，啪轟一聲！啥咪東西攏會搞定！
+
+Lisa/Welcome2
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    阿姊！想欲來一點啪轟嗎？
+
+Lona/LisaOptUnknow
+\m[confused]\plf\c[6]洛娜：\c[0]    嗯？\optD[嘿嘿轟轟？]
+
+Lona/LisaOpt
+\CamCT\m[confused]\plf\c[6]洛娜：\c[0]    嗯？
+
+Lona/LisaOpt_Supply
+火藥供應商？
+
+Lona/LisaOpt_SouthFL
+南門營地
+
+Lisa/About
+\CamCT\Bon[2]\m[flirty]\plf\c[6]洛娜：\c[0]    大半夜的妳在這賣什麼？
+\CamCT\Bon[2]\m[confused]\plf\c[6]洛娜：\c[0]    呃？
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,5]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    無聽過？ 只欲點火就會啪轟轟轟的東西！
+\CamCT\Bon[8]\m[confused]\plf\c[6]洛娜：\c[0]    那是.......
+\CamCT\Bon[1]\m[wtf]\Rshake\c[6]洛娜：\c[0]    \{火藥？！
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,3]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    哼哼，沒錯！
+\CamCT\m[serious]\plf\c[6]洛娜：\c[0]    我聽說過這種東西，這應該是違禁品？
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    阿姊！別憨啊！這時陣亂成這樣，無分享甲好東西更待何時？
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,4]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    阿姊也來一點吧，保護自己尚好的辦法就是傷害別人！
+\CamCT\m[confused]\plf\c[6]洛娜：\c[0]    嗚...我不是阿姊，我叫洛娜。
+
+############################## COMMON EXT Convoy
+
+NPC/CommonConvoyTarget0
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\c[4]麗莎：\c[0]    現今欲往丟位逃走？
+
+NPC/CommonConvoyTarget1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\c[4]麗莎：\c[0]    快點！快點！ 我等無及了！
+
+NPC/CommonConvoyTarget2
+\CBid[-1,20]\SETpl[LisaTriumph]\Lshake\c[4]麗莎：\c[0]    我需欲來點轟啪！
+
+####################################--------------------- Minecave Hevent itself
+
+Lisa/LisaAbomHev_begin
+\SETpl[LisaBereft]\Lshake\c[4]麗莎：\c[0]    \{哇啊啊啊！！！！
+
+Lisa/LisaAbomHev1
+\c[4]麗莎：\c[0]    \{別過來！
+
+Lisa/LisaAbomHev2
+\c[4]麗莎：\c[0]    \{咿咿咿！！！
+
+Lisa/LisaAbomHev3
+\narr大量的蟲子包圍了麗莎。
+
+Lisa/LisaAbomHev4
+\c[4]麗莎：\c[0]    \{噓！走開！滾開阿！
+
+Lisa/LisaAbomHev5
+\c[4]麗莎：\c[0]    \{咿啊啊！
+
+Lisa/LisaAbomHev6
+\c[4]麗莎：\c[0]    \{不要！
+
+Lisa/LisaAbomHev7
+\narr蟲子的爪子勾住了麗莎的尻穴，然後使勁地往腸子內鑽入。
+
+Lisa/LisaAbomHev8
+\c[4]麗莎：\c[0]    \{真疼！ 快停落！
+
+Lisa/LisaAbomHev9
+\c[4]麗莎：\c[0]    \{不要啊啊啊啊！
+
+Lisa/LisaAbomHev10_1
+\c[4]麗莎：\c[0]    \{咦？！
+
+Lisa/LisaAbomHev10_2
+\c[4]麗莎：\c[0]    \{阿咿啊？！
+
+Lisa/LisaAbomHev10_3
+\c[4]麗莎：\c[0]    \{咿啊啊啊啊啊！！！
+
+Lisa/LisaAbomHev11
+\narr蟲子們用溝爪牢牢固定在麗莎的體內，咬住腸壁並注入毒液。
+
+Lisa/LisaAbomHev12
+\Rshake\c[4]麗莎：\c[0]    \{真疼！ 真疼！！！
+
+Lisa/LisaAbomHev13
+\c[4]麗莎：\c[0]    \{別再鑽了！
+
+Lisa/LisaAbomHev14
+\narr另一隻蟲子找到機會並開始鑽入了，這些蟲子對肛門飄出的氣味非常敏感。種族、體型、性別都不挑剔，牠們要的僅是單純的產卵對象。
+
+Lisa/LisaAbomHev15
+\c[4]麗莎：\c[0]    \{停落！ 滾開！ 快離我遠點！
+
+Lisa/LisaAbomHev16
+\c[4]麗莎：\c[0]    \{別！ 誰來... 救救我！！！！
+
+Lisa/LisaAbomHev17
+\c[4]麗莎：\c[0]    \{別！不要！不要！
+
+Lisa/LisaAbomHev18
+\c[4]麗莎：\c[0]    \{我不想死！\.救我！\..快救救我呀！
+
+Lisa/LisaAbomHev19
+\narr對牠們來說麗莎的哀號聲是攻擊的號角，更多更多更多的蟲子對麗莎稚嫩的尻穴發起了攻勢。
+
+Lisa/LisaAbomHev20
+\narr麗莎的腹部隨著蟲子的入侵脹大了起來，已經脹像個孕婦一般。
+
+Lisa/LisaAbomHev21
+\c[4]麗莎：\c[0]    \{別殺我！對不起！阿母！
+
+Lisa/LisaAbomHev22
+\narr蟲子的毒液開始發揮了效果，最初只是麻癢的感覺，現在則把各種尻穴內痛覺轉化成了性快感。
+
+Lisa/LisaAbomHev23
+\c[4]麗莎：\c[0]    \{咿啊？！ 有啥要來了？！
+
+Lisa/LisaAbomHev24
+\c[4]麗莎：\c[0]    \{咿咿咿咿！！
+
+Lisa/LisaAbomHev25
+\c[4]麗莎：\c[0]    \{咿咿咿咿啊啊啊！！
+
+Lisa/LisaAbomHev26
+\c[4]麗莎：\c[0]    \{嗚啊啊啊！！
+
+Lisa/LisaAbomHev27
+\c[4]麗莎：\c[0]    \{\{咿咿啊啊啊！
+
+Lisa/LisaAbomHev28
+\c[4]麗莎：\c[0]    嗚嗚嗚啊...
+
+Lisa/LisaAbomHev29
+\narr這一切對麗莎來說太過激烈了，幾乎耗盡了牠的體力。
+
+Lisa/LisaAbomHev30
+\c[4]麗莎：\c[0]    嗚嗚\..\..\..
+
+Lisa/LisaAbomHev31
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    麗莎！怎麼了？！
+\SETpl[LisaSad]\Lshake\prf\c[4]麗莎：\c[0]    嗚嗚嗚...
+\m[wtf]\plf\Rshake\c[6]洛娜：\c[0]    咿咿咿！！蟲子！
+\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    不要怕！我來救妳！
+
+####################################--------------------- Minecave Hevent CONTROL
+
+Lisa/LisaAbomHev_Clear1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    發生什麼事了！
+\m[confused]\plf\c[6]洛娜：\c[0]    呃...她...
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    蟲子跑到她的肚子裡了！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    什麼？！ 這可不妙，快把她抬過來。
+
+Lisa/LisaAbomHev_Clear2
+\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    如何？！ 她會怎樣嗎？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    至少牠們還沒開始產卵。
+\m[shy]\plf\c[6]洛娜：\c[0]    產卵？在她肚子裡？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    產卵、吸血、並讓宿主精神異常。很多奴隸都是這樣死的，這對產量造成了嚴重的影響。
+\m[sad]\plf\c[6]洛娜：\c[0]    她還有救嗎？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    一旦開始產卵就沒救了，放著不管還會感染其他人。所以只能處理掉。 \m[fear]\Rshake
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    別這樣看我！她是混族，但至少不是奴隸，能幫的我還是會盡量幫的。\m[flirty]
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    諾爾東門附近新開了一間藥局，有針對這些感染物開發打蟲藥。沒弄錯的話叫\C[6]伊莉希婦產科\C[0]吧。
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    現在的藥不便宜，我們已經沒有存貨了，不然弄些「驅蟲草」來，我想或多或少會有效果的。
+\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    好！我會盡快弄到手的！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    小聲點！這些蟲子會吸光宿主的體力，現在必須讓她休息。
+
+Lisa/LisaAbomHev_Clear3
+\board[弄到驅蟲藥]
+準備一個驅蟲藥\i[208]\n
+或五個驅蟲草\i[206]\n
+並回到礦坑與麗莎對話
+
+Lisa/LisaAbomHev_HealNoItem
+\SETpl[LisaSad]\Lshake\prf\c[4]麗莎：\c[0]    嗚嗚.....
+
+Lisa/LisaAbomHev_WithItem1
+\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    麗莎！聽得到嗎？快把這東西吃下去。
+
+Lisa/LisaAbomHev_WithItem2
+\SETpl[LisaSad]\PLF\prf\c[4]麗莎：\c[0]    嗚嗚..... 阿姊...
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    妳還好嗎？
+\SETpl[LisaSad]\PLF\prf\c[4]麗莎：\c[0]    我.......
+\SETpl[LisaSad]\PLF\prf\c[4]麗莎：\c[0]    我被這些蟲兒\..\..\..
+
+Lisa/LisaAbomHev_WithItem3
+\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    \{嗚哇哇哇哇！！！！
+\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    \{咿咿咿哇哇！！
+\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    \{咿哇！！
+\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    \{嗚嗚嗚...
+
+Lisa/LisaAbomHev_WithItem4
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    沒事了，都過去了，不哭呦。
+\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    嗚嗚嗚嗚嗚...
+
+Lisa/LisaAbomHev_WithItem5
+\SETpl[LisaSad]\PLF\prf\c[4]麗莎：\c[0]    洛娜姊...
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    別哭了，我在這。
+\SETpl[LisaSad]\PLF\prf\c[4]麗莎：\c[0]    .........
+\SETpl[LisaTriumph]\Lshake\prf\c[4]麗莎：\c[0]    咱們去把啪轟啪修好吧！
+\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    我欲弄出更多啪轟來甲些蟲兒攏總轟掉！
+\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    嗯！走吧！
+
+####################################--------------------- C130 Quest
+
+Lisa/C130_3_0
+\CamCT\m[flirty]\plf\c[6]洛娜：\c[0]    請問.. 妳是火藥供應商？
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    我家業確實是做這行的。
+\CamCT\m[confused]\plf\c[6]洛娜：\c[0]    那你知道領主級火炮是什麼？
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]麗莎：\c[0]    啪轟啪確實是我家的作品。
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    安怎？妳也感覺我祖先他們取的名足難聽？
+\CamCT\m[flirty]\plf\c[6]洛娜：\c[0]    嗯... 東邊哨點的啪轟啪壞掉了，現在正在找人維修。
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    啥鬼！東西現今狀況是安怎？ 還能夠動？
+\CamCT\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    耶... \.它整個炸掉了。
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]麗莎：\c[0]    ......阿？
+\CamCT\m[flirty]\plf\c[6]洛娜：\c[0]    我覺得應該把自爆放在比較不顯眼的位置比較好。
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]麗莎：\c[0]    \....\....
+\CamCT\m[fear]\plf\c[6]洛娜：\c[0]    最好再多個保險裝置之類的，況且大多的士兵都不會閱讀...\.怎麼了？
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\Lshake\c[4]麗莎：\c[0]    啪轟啪是我的設計...
+\CamCT\m[sad]\plf\c[6]洛娜：\c[0]    \..\..\..抱歉。
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\prf\Lshake\c[4]麗莎：\c[0]    好吧，我會把那囝仔修理好，毋過現今缺料，我需欲妳幫忙！
+
+Lisa/C130_3_1board
+\CamCT\board[加農砲維修]
+目標：修好東7哨點的領主級405mm火炮
+委託主：麗莎
+期限：5天
+護送麗莎到礦坑取得10個高純度晶礦\i[342]後至東7哨點進行維修。
+
+Lisa/C130_3_Accept
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    整個諾爾鎮攏買不到晶礦了，而且這必須用到無雜質懸純度的晶礦。
+\CamCT\m[flirty]\plf\c[6]洛娜：\c[0]    妳不交給家裡的大人嗎？
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    妳講笑？ 伊們早就走光啦！
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？！
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    我是私生的，老爺強暴傭人之產物，看我之耳濟著知曉了。\m[sad]
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    別露出這款表情，我爽的咧！我現今可自由啦！
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    欲修理好啪轟啪的話，就跟我到礦場去看看吧。
+\CamCT\m[flirty]\plf\c[6]洛娜：\c[0]    好的！
+
+Lisa/C130_3_2
+\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    快！ 我會感覺到啪轟啪的哀號！
+
+Lisa/QuestLisa_1_1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    站住！ 誰！
+\SETpr[LisaNormal]\plf\Rshake\c[4]麗莎：\c[0]    我啦！好久沒看到了欸！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    是混族的小鬼阿，好久不見！
+\SETpr[LisaHappy]\plf\Rshake\c[4]麗莎：\c[0]    我來採買東西了，還有懸純度之晶礦嘸？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    拿不出手了，礦坑不斷受到感染物的汙染，現在的產量僅能供應警備總部需求。
+\SETpr[LisaNormal]\plf\Rshake\c[4]麗莎：\c[0]    別擔心！咱們自己去挖礦嘸問題吧？
+\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]麗莎：\c[0]    旁邊這位是高手！這時陣還敢一個人在外面亂走！
+\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]麗莎：\c[0]    魔物啥款欸交給伊就好囉！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]礦坑守衛：\c[0]    她？ \..\..\..真是人不可貌相！
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什... 我嗎？！
+\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    魔物啥款就交給妳啦。
+\m[flirty]\plf\c[6]洛娜：\c[0]    呃...
+
+Lisa/QuestLisa_1_board
+\board[高純度晶礦]
+洛娜不清楚什麼是高純度晶礦。
+只有麗莎知道何謂高純度。
+晶礦僅在麗莎於附近時才會顯示。
+
+Lisa/QuestLisa_2_done
+\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    晶礦有夠了！快閃人了！
+\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    彼日我一定要把這些蟲兒轟掉！
+
+Lisa/QuestLisa_3_CP0
+\m[triumph]\plf\c[6]洛娜：\c[0]    長官！ 我把人帶來了！
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    幹的好！
+
+Lisa/QuestLisa_3_CP1
+\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    啪轟啪！ 你死的真淒慘阿！
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    怎麼了？！ 修不好嗎？！
+\SETpl[LisaTriumph]\Lshake\prf\c[4]麗莎：\c[0]    開玩笑！
+\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    妳當作我誰？我當然會修！把材料攏總給我！
+
+Lisa/QuestLisa_3_CP2
+\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    接下來看我的表演啦！ 我會把啪轟啪弄成跟新的一樣！
+
+Lisa/QuestLisa_3_CP3_end
+\SETpr[LisaHappy]\SETpl[Lawbringer]\Rshake\plf\c[4]麗莎：\c[0]    搞定！ 你可以試看看。 我保證絕對沒問題！
+\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    了不起阿！ 看起來就跟剛收到的新貨一樣。
+\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    厲害！不單單只是製造武器，還讓混族的孩子掌握了基礎技術！
+\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    妳父親會對妳感到驕傲的，總之幫我向他們道謝了！
+\SETpr[LisaAngry]\Rshake\plf\c[4]麗莎：\c[0]    \..\..\..\..
+\CamCT\m[shocked]\SETpl[LisaAngry]\plf\Rshake\c[6]洛娜：\c[0]    呃... 總之我們都很感謝妳！
+
+Lisa/QuestLisa_3_CP3_end1
+\SETpl[Lawbringer]\SETpr[LisaNormal]\Lshake\prf\c[4]砲擊官：\c[0]    關於維修的價錢，妳直接拿這張證明去跟警備總部請款。
+\SETpr[nil]\SETpl[LisaAngry]\prf\c[4]麗莎：\c[0]    \..\..\..\SETpl[LisaTriumph]\Lshake讚啦！大家作伙啪轟吧！
+\SETpl[Lawbringer]\m[normal]\Lshake\prf\c[4]砲擊官：\c[0]    那麼，謝謝兩位，我會找人護送她回去，還不知道妳怎麼稱呼呢？
+\CamCT\m[pleased]\plf\Rshake\c[6]洛娜：\c[0]    我叫洛娜！
+
+####################################--------------------- LISA SouthFL quest
+
+SouthFL_11/begin
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    呃...我有件事想請妳幫忙。
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    洛娜欲啥咪就直講！ 妳幫過我的轟啪，我也會幫妳啪轟！
+
+SouthFL_11/begin_board
+\board[護送至東7哨點]
+目標：護送麗莎
+委託主：南門營地
+期限：#{$story_stats["HiddenOPT1"]}天
+護送麗莎至\c[4]東7哨點\c[0]。
+
+SouthFL_12/Joined0
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    席芭莉絲南方有群士兵說需要那個什麼領主什麼砲的...
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    啥小啦！ 它叫啪轟啪！
+\CBct[6]\m[confused]\plf\c[6]洛娜：\c[0]    呃，好吧。 啪轟啪。 他們需要妳的協助。
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    聽嘸啦！ 講清楚點啦！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    總之妳的炮出名了！我跟妳好像都出名了，現在人家指名要我們幫忙。
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    啪轟啪可以發揮作用了，我們可以一起把那些紅色肉塊轟個稀巴爛。
+\CBid[-1,8]\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]麗莎：\c[0]    \..\..\..
+\CBid[-1,4]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    雄讚欸啦！
+\CBct[20]\m[flirty]\plf\c[6]洛娜：\c[0]    什？
+\CBid[-1,3]\SETpl[LisaTriumph]\Lshake\prf\c[4]麗莎：\c[0]    我跟妳走！ 作伙打爛那些肉塊！
+\CBct[20]\m[pleased]\plf\c[6]洛娜：\c[0]    好哦，一起走吧！
+
+####################################--------------------- LISA SouthFL quest on eastCP
+
+Lisa7/begin0
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    呃... 你好，又見面了。
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    嗯？ 妳是...洛娜吧?
+\CBfE[20]\SETpr[LisaHappy]\plf\Rshake\c[4]麗莎：\c[0]    嗨！ 甲飽未？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    混族的小鬼也在？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    怎麼了？ 目前火藥還夠，那些生魚片最近也安靜下來了。
+\CBct[8]\m[confused]\plf\c[6]洛娜：\c[0]    嗯...南門營地的士兵們希望你們能把領主砲調過去。
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    他們目前遭遇肉魔的攻擊，狀況並不是很好。
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    調過去？ 妳說什麼？！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    我只有在書信中提過這門砲，可沒打算把砲讓出去！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？ 什麼？！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    就光想吃免費的！ 叫他們拿東西來換！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    可是你們不會操作...\.將它晾在這...\.還不如拿給有用的人不是嗎？！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    大家應該同心協力打敗魔物才對吧？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    天真的小鬼，每門砲都是部隊的財產，席芭莉絲那群智障總是想從我們這偷東西。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    就算老家丟了都還是想坐吃山空。
+\CBct[8]\m[sad]\plf\c[6]洛娜：\c[0]    我...對不起...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    不讓！ 叫他們自己過來啊！ 叫兩個小鬼來辦事，這是看不起我們諾爾人嗎？！
+
+Lisa7/begin1
+\CBfE[20]\SETpr[LisaAngry]\plf\Rshake\c[4]麗莎：\c[0]    喂喂！ 你們是講我的囝仔毋曾用過？
+\CBfE[5]\SETpr[LisaAngry]\plf\Rshake\c[4]麗莎：\c[0]    是講我偉大的啪轟啪放這發霉？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    哼！ 就算砲是妳開發的也不會讓，更何況這東西根本沒人會用。
+\CBfE[8]\SETpr[LisaAngry]\plf\Rshake\c[4]麗莎：\c[0]    \..\..\..
+
+Lisa7/begin2
+\CBfE[20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    喏！ 阿姊，欲去那個啥南啥細營土的有火砲？
+\CBct[8]\m[tired]\plf\c[6]洛娜：\c[0]    我...離開時好像有看到。
+
+Lisa7/begin3
+\CBfE[8]\SETpr[LisaAngry]\plf\Rshake\c[4]麗莎：\c[0]    \..\..\..
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]麗莎：\c[0]    就這樣吧，我會將火控系統拆下來，並把操作轉憨頭砲。
+\CBfE[20]\SETpr[LisaAngry]\plf\Rshake\c[4]麗莎：\c[0]    這樣你們多一門砲，我也能看到啪轟啪發威的模樣。
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]麗莎：\c[0]    等我去那邊改造一個更強大的啪轟啪！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    改回一般的砲是嗎？ 我們能夠正常操作的砲？
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]麗莎：\c[0]    嘿啦！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    好！ 成交。
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    讚啦！
+
+Lisa7/begin4
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    阿姊！ 來幫忙提個東西！
+\CBct[6]\m[flirty]\plf\c[6]洛娜：\c[0]    哦？ 好！
+
+Lisa7/begin5
+\CBct[2]\m[confused]\plf\c[6]洛娜：\c[0]    這是....？
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]麗莎：\c[0]    零件！ 只要有這個，我就能夠把任何一門砲改造成啪轟啪！
+\CBct[2]\m[flirty]\plf\c[6]洛娜：\c[0]    哦？
+
+Lisa7/begin6
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    嗯，雖然覺得很不爽，看在妳們幫過這裡的份上這次就算了。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    滾吧，祝妳們好運。
+\CBct[2]\m[confused]\plf\c[6]洛娜：\c[0]    呃... 謝謝？
+
+Lisa7/begin7
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    現今咧？
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    呃.... 去\c[4]南門營地\c[0]？
+\CBfE[3]\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    讚啦！
+
+Lisa7/begin5_board
+\board[護送至南門營地]
+目標：護送麗莎
+委託主：南門營地
+期限：#{$story_stats["HiddenOPT1"]}天
+護送麗莎至\c[4]南門營地\c[0]。
+
+####################################--------------------- LISA SouthFL quest on eastCP
+
+Lisa8/Begin1
+\CBct[6]\m[flirty]\plf\c[6]洛娜：\c[0]    呃... 你好？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    是妳！ 妳活著回來了？
+\CBct[2]\m[confused]\plf\c[6]洛娜：\c[0]    呃...活著？
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    旁邊這個孩子是？
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    哩厚！ 哇細\c[6]麗莎\c[0]。 尬意轟轟的\c[6]麗莎\c[0]！
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    什？
+\CBct[20]\m[confused]\plf\c[6]洛娜：\c[0]    她是那個什...大砲的製作工匠。
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    是啪轟啪！
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    嗯...好，那炮呢？ 我為什麼沒有看到炮呢？
+\CBct[6]\m[flirty]\plf\c[6]洛娜：\c[0]    呃...我們兩個是不可能搬得動的。
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    什麼？！ 諾爾那邊不是應該出手協助嗎？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    為何還不合力對抗魔物。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    這樣要到何時才能奪回我們的家園。
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    等等，別生氣啊。 他們那邊也受到了漁人的襲擊。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    漁人？！ 那些東西不是早就被趕出這座島了？！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    對不起！ 總之這個..那個...有各種理由然後......
+
+Lisa8/Begin2
+\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    ！！！！
+
+Lisa8/Begin3
+\CBid[-1,1]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    等等，那個孩子在做什麼？
+\CBct[6]\m[confused]\plf\c[6]洛娜：\c[0]    什...？
+
+Lisa8/Begin4
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    麗莎！ 妳在做什麼？！
+
+Lisa8/Begin5
+\CBfE[20]\SETpl[LisaTriumph]\Lshake\prf\c[4]麗莎：\c[0]    完成了！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    什麼？ 這到底是什麼？ 為什麼我好不容易弄來的大砲弄成這個鬼樣子！
+\CBfE[20]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    啪轟啪！ 轟炸的藝術，能殲敵於千里之外！
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    我的囝仔指頭打頭，百發百中，你有啥意見蛤？
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    不行，快點把我的砲弄回原來的樣子，不然就叫人把妳們給砍了！
+\CBct[6]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    長官！ 等一下，別生氣啊！！！
+\CBct[6]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    找個安全的地方，我可以把砲改造後的威力展示給您看！
+
+Lisa8/Begin6
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    哼！ 跟我來！
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    要是沒像妳們說的那般有用我就把妳們處理掉。
+
+Lisa8/Begin7
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    呼... 放心不會發生意外的，相信麗莎的技術吧。
+
+Lisa8/Begin8_board
+\board[前去砲台試射]
+目標：護送麗莎
+委託主：南門營地
+期限：#{$story_stats["HiddenOPT1"]}天
+護送麗莎至\c[4]南門營地\c[0]外的圍的防禦據點。
+並將領主什鬼名稱的強大威力展示給那群老頭看看。
+告訴他們新的時代來臨了，老人的時代該過去了。
+
+####################################--------------------- LISA SouthFL quest on Warfare
+
+Lisa9/Begin0
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳來了？
+\CBct[6]\m[flirty]\plf\c[6]洛娜：\c[0]    是的。
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳說威力強大？ 威力在哪？
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    前方正好有些垃圾給妳試試。
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    把妳所謂的百發百中展示給我看看。
+\CBct[6]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    是！
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    炸翻那些該死的肉塊！
+\CBfE[20]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    讓他們知影我的厲害！
+\CBct[6]\m[serious]\plf\c[6]洛娜：\c[0]    沒問題！ 我可以的！
+
+Lisa9/Done0
+\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    \..\..\..
+\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    居然... 真的如這孩子所說的一樣。
+\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    這是當然的！ 我的啪轟啪是無敵厲害的！
+\m[flirty]\plf\c[6]洛娜：\c[0]    呼... 這樣算是證明這東西有用了？
+\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    嗯......
+
+Lisa9/NotYet
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    百發百中不是嗎？ 讓我看看！
+
+Lisa10/Begin0
+\CBfE[5]\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    我家的啪轟啪安怎啊？
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    什？
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    呃... 她希望你誇獎她的砲？
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    嗯... 很不錯？
+\CBfE[3]\SETpr[LisaTriumph]\plf\Rshake\c[4]麗莎：\c[0]    讚啦！
+
+Lisa10/Begin1
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    非常了不起的命中率。但要讓我們的士兵學習如何操作它，這會花很多時間的。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    很遺憾...我們並沒有時間。
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    這樣啊....
+
+Lisa10/Begin2
+\CBmp[Guard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    等等！大家注意！ 有什麼東西過來了！？
+
+Lisa10/Begin3
+\CBmp[Guard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    是活人！ 是生還者！
+
+Lisa10/Begin4
+\CBmp[Refugee,6]\Lshake\prf\c[4]生還者：\c[0]    救救我啊！
+
+Lisa10/Begin5
+\CBmp[Refugee,6]\Lshake\prf\c[4]生還者：\c[0]    我不要！我不想死！
+
+Lisa10/Begin6
+\CBmp[Refugee,6]\Lshake\prf\c[4]生還者：\c[0]    不！ 不要過來！
+
+Lisa10/Begin7
+\CBct[8]\m[flirty]\plf\c[6]洛娜：\c[0]    呃...他就這樣死了...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    不好了，他後面還跟了一大群肉魔。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    各位！準備戰鬥！
+\CBmp[Guard,6]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    我還不想死呀....
+
+Lisa10/Begin8
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    喂！ 妳！
+\CBct[2]\m[flirty]\plf\c[6]洛娜：\c[0]    誰？！ 我？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    就是妳！ 洛娜！ 快去操作那門砲！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    是！
+
+Lisa10/Begin9
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    然後，你！ 將麗莎安全的送回堡壘內！
+\CBmp[Guard,3]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    是！
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    毋願！ 我想要看我的啪轟啪發威囂張的模樣！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    非戰鬥人員在這只會礙手礙腳，立刻帶他走。 現在！ 馬上！
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    毋要！
+
+Lisa10/Begin10
+\CBct[20]\m[flirty]\plf\c[6]洛娜：\c[0]    呃... 麗莎，其實營地那的瞭望塔可以看的到整個城市，包含這裡。
+\CBct[20]\m[confused]\plf\c[6]洛娜：\c[0]    妳也不想再遭遇到那種事了吧？
+\CBfE[8]\SETpl[LisaSad]\Lshake\prf\c[4]麗莎：\c[0]    \..\..\..
+\CBfE[20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    好吧，我這就離開，阿姊妳也要卡細心注意欸。
+\CBct[3]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    謝謝，我沒問題的。
+
+Lisa10/Begin10_board
+\board[見敵必殺]
+目標：轟殺所有魔物
+委託主：砲兵陣地
+期限：現在
+讓魔物嚐嚐火藥的味道吧，一個不留！
+
+Lisa10/NotYet
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    肉魔攻過來了！ 快點！
+
+Lisa11/Win0
+\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    我們活下來了！ 勝利的是我們！
+
+Lisa11/Lose0
+\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    該死的！ 撤退！
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    那...那是什麼？！
+\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    \..\..\..龍？
+
+Lisa12/begin0_Win
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳做的很好。這絕對是我們對戰中所遇過最強大的攻勢，而妳依然成功擊退了它們。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...那也是因為麗莎的領主什砲的...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    是嗎...？
+
+Lisa12/begin0_Lose
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    他們是對的，我應該相信的，我應該早點信的！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    聖徒阿寬恕我吧！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    什？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    妳沒看到嗎？！ 那是聖徒！ 聖徒降下了淨化的火焰！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    啊？
+
+Lisa12/begin1
+\CBmp[Guard,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    大人！ 不好了！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    什麼？ 怎麼回事？
+\CBmp[Guard,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    我在路上遭到了魔物的圍攻，它們把那個孩子抓走了。
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    啊？！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    所以只有你活著回來？
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    不行！ 一定要把她救出來！ 晚了那些魔物會把她同化的！
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    這不是我的錯，我沒有錯！ 是她自己亂跑！
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    被帶到巢穴裡就絕對活不了了！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    快告訴她往哪裡去了！
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    北方，往城裡去了！ 要去妳自己去！
+
+Lisa12/begin2_Win
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    這些新來的雜魚就是這樣。我們沒辦法抽出人手，把這些拿去吧。
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    回到營地看看，可以的話雇用點人手。
+
+Lisa12/begin2_Lose
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    將她的命交給聖徒吧，我相信聖徒會拯救她的！
+
+Lisa12/begin3_Board
+\board[拯救麗莎]
+目標：前往北方肉魔巢穴，拯救麗莎。
+委託主：洛娜
+期限：3天
+麗莎被肉魔抓走了，我必須盡快將她救回。
+就士兵所說，它可能在北方？ 城市內？
+
+Lisa12/begin4
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    麗莎....
+
+Lisa10/QmsgFailed
+離開將會導致任務失敗
+
+###############################################################################################################################     Find lisa in hive 3
+###############################################################################################################################     Find lisa in hive 3
+###############################################################################################################################     Find lisa in hive 3
+
+Lisa12/Hive3_Bios
+\CBmp[Pant,19]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    這是麗莎的....褲子？
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    她果然在這...
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    希望她還活著...
+
+Lisa12/Hive3_Bios_board
+\board[拯救麗莎]
+目標：前往苗床房。
+委託主：洛娜
+分秒必爭，麗莎可能撐不了多久，妳的動作必須要快。
+
+###############################################################################     HEV DEV AREA
+Lisa12/rg13_HEV0
+\narr今天是值得開心的一天，肉魔抓到了新的獵物。
+
+Lisa12/rg13_HEV1
+\c[4]麗莎：\c[0]    \{母湯！ 放開我啊！\}
+
+Lisa12/rg13_HEV1_1
+\narr是個新鮮的母體，肉魔決定將她做成最上等的苗床。
+
+Lisa12/rg13_HEV2
+\c[4]麗莎：\c[0]    毋要過來！ 我...我會咬你喔！
+
+Lisa12/rg13_HEV3
+\c[4]麗莎：\c[0]    吚吚吚吚吚吚吚！ 賣啦！
+
+Lisa12/rg13_HEV4
+\c[4]麗莎：\c[0]    吚吚吚阿！！！
+
+Lisa12/rg13_HEV5
+\c[4]麗莎：\c[0]    毋要！ 毋要玩我那裡啦！
+
+Lisa12/rg13_HEV6
+\narr肉魔的觸手不斷地在苗床體內翻騰。
+\narr並於體內注入了些許體液作為試探。
+\narrOFF\c[4]麗莎：\c[0]    哇吚吚吚！！！ 我毋要了啦！ 快停下來啦！
+\narr它們發現這將是個完美的苗床！
+
+Lisa12/rg13_HEV7
+\c[4]麗莎：\c[0]    \...\..\...！！！！！
+\Rshake\c[4]麗莎：\c[0]    你們.....毋要，毋要碰我那裡！
+
+Lisa12/rg13_HEV8
+\c[4]麗莎：\c[0]    \{阿咿啊？！ 
+\Rshake\c[4]麗莎：\c[0]    咿啊啊！！！\n \{毋要！ 毋要！！！
+
+Lisa12/rg13_HEV9
+\c[4]麗莎：\c[0]    \{好疼！ 毋要再入來了！
+\narr肉魔不在乎苗床的哭喊。
+相反的，苗床越哭喊就代表越健康。
+
+Lisa12/rg13_HEV10
+\c[4]麗莎：\c[0]    \{咿咿咿咿咿！！！
+
+Lisa12/rg13_HEV11
+\c[4]麗莎：\c[0]    嗚嗚嗚嗚.... 要歹去了，我要歹去了.....
+\narr肉魔將大量的培養液注入了麗莎的體內....
+
+Lisa12/rg13_HEV12
+\c[4]麗莎：\c[0]    \{咿咿！！
+\Rshake\c[4]麗莎：\c[0]    毋要！！！！！
+
+Lisa12/rg13_HEV13
+\narr苗床將逐漸失去除了性慾外所有的感覺，這個新來的苗床也不例外。
+\narr但新來的苗床再被徹底改造前除了痛苦外什麼都感覺不到...
+\narr當然，肉魔並不在乎這些。
+\narr他們決定加快改造這個苗床。
+
+Lisa12/rg13_HEV14
+\c[4]麗莎：\c[0]    你們要鑽到哪裡？ 快停下來！
+
+Lisa12/rg13_HEV15
+\c[4]麗莎：\c[0]    \{呀呀呀\}呀呀\}呀呀！
+
+Lisa12/rg13_HEV16
+\c[4]麗莎：\c[0]    \{咕噁噁噗噁.....
+
+Lisa12/rg13_HEV17
+\c[4]麗莎：\c[0]    噗噁..咕噁..噁咕噁.
+\narr肉魔的觸手一路從後庭鑽到苗床的食道，再從嘴鑽出。
+\narr苗床至此因極大苦痛而失去了意識....
+\narr但苗床的改造才剛開始而已....
+
+###############################################################################     Hev end
+
+Lisa12/rg13_end
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    ！！！！！！
+
+Lisa12/triggerHer0
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    \c[4]麗莎\c[0]！？ 妳還好嗎？
+\CBid[-1,8]\prf\c[4]麗莎：\c[0]    嗚嗚......
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚.... 好悽慘。
+
+Lisa12/triggerHer0_board
+\board[護送麗莎離開]
+目標：護送麗莎離開魔物巢穴，麗莎必須鄰近出口。
+委託主：洛娜
+期限：#{$story_stats["HiddenOPT1"]}天
+我找到麗莎了，但她的狀況非常的差，幾乎全身都有寄生的痕跡。
+必須立刻帶他離開這！
+
+Lisa12/triggerHer1
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    不要怕，阿姊會帶妳出去的。
+\CBid[-1,8]\prf\c[4]麗莎：\c[0]    ......
+
+Lisa13/triggerHer0
+\CBct[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    \{\c[4]麗莎\c[0]！？
+
+Lisa13/triggerHer1
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    ............
+\CBct[8]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    .....
+\CBct[6]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    對不起\..\..\..我來晚了......
+
+Lisa13/Qmsg0
+成為苗床的麗莎
+
+Lisa13/Qmsg1
+巢穴的一部分
+
+Lisa13/Qmsg2
+對不起....
+
+Lisa14/LisaNotInR50
+麗莎必須鄰近出口！
+
+Lisa14/CommonConvoyTarget0
+\CBid[-1,8]\c[4]麗莎：\c[0]    ............
+
+Lisa14/CommonConvoyTarget1
+\CBid[-1,8]\c[4]麗莎：\c[0]    ........
+
+Lisa14/CommonConvoyTarget2
+\CBid[-1,8]\c[4]麗莎：\c[0]    ....
+
+Lisa15/ExitHive3
+\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我們成功逃出來了，妳會沒事的....
+\c[4]麗莎：\c[0]    ....
+
+Lisa15/begin0_board
+\board[找到伊莉希]
+目標：將麗沙護送至伊莉希婦產科。
+委託主：洛娜
+期限：#{$story_stats["HiddenOPT1"]}天
+我必須找到一個厲害的醫生治療麗莎。
+時間有限，我必須馬上行動。
+
+###############################################################################################################################     Lisa to Elise
+###############################################################################################################################     Lisa to Elise
+###############################################################################################################################     Lisa to Elise
+
+Lisa16/ElisaTalk0
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]伊莉希：\c[0]    哈！ 姊姊出現了，伊莉希正好有事找姊姊。
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    \c[4]伊莉希\c[0]！救命！救救她！
+\CBid[-1,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]伊莉希：\c[0]    唉？聽伊莉希說完阿....
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    快點！ 有什麼事等一下說！
+
+Lisa16/ElisaTalk1
+\narr\.....\.....\.....
+
+Lisa16/ElisaTalk2
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    真的沒問題嗎，她的身體被浸蝕的這麼嚴重。
+\CBid[-1,3]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]伊莉希：\c[0]    小問題！ 這種事情可難不倒伊莉希！
+\CBid[-1,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]伊莉希：\c[0]    但是....
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    怎麼了？但是什麼？！
+\CBid[-1,6]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]伊莉希：\c[0]    她的腦部也被感染了呦，要治好她的費用非常非常的昂貴呦！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我... 我會想辦法的，多少錢我都會給你！
+\CBid[-1,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]伊莉希：\c[0]    姊姊別擔心，這個給姊姊吧。
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    給我？ 什麼？
+
+Lisa16/ElisaTalk3_berY
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]伊莉希：\c[0]    記得之前的藥嗎，這是準備量產的樣品，遇到危險的時候就吃下去！
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我... 我會死嗎？
+\CBid[-1,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]伊莉希：\c[0]    別怕！ 伊莉希已經理解了生命的奧秘，最後的環節也解開了。
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]伊莉希：\c[0]    姊姊只要把使用後的感想告訴伊莉希就好了。
+
+Lisa16/ElisaTalk3_berN
+\CBid[-1,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]伊莉希：\c[0]    這可是伊莉希研發的新藥，遇到危險的時候就吃下去！
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]伊莉希：\c[0]    然後告訴伊莉希感受！
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我吃！ 我會吃的！
+
+Lisa16/ElisaTalk4
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]伊莉希：\c[0]    姊姊會活下來的，姊姊一定沒問題的！
+
+Lisa16/ElisaTalk5
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    現在呢？ 該怎麼辦.....
+
+Lisa16/Check0
+\CBid[-1,8]\m[sad]\prf\c[4]麗莎：\c[0]    .......
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    ......
+
+Lisa16/Check1
+\CBid[-1,8]\m[tired]\prf\c[4]麗莎：\c[0]    ......
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    ......
+
+Lisa16_17/StillThere0
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    那個....麗莎現在怎麼樣了？
+
+Lisa16_17/StillThere1_0
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]伊莉希：\c[0]    別吵了！ 乖乖等啦！
+
+Lisa16_17/StillThere1_1
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]伊莉希：\c[0]    煩死了！ 姊姊不會自己問她呦？
+
+Lisa16_17/StillThere1_2
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]伊莉希：\c[0]    不要催醫生啦！
+
+Lisa16_17/StillThere2_2
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    對不起......
+
+Lisa16_17/NotThere0
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]伊莉希：\c[0]    可惡！ 居然沒有中獎...
+\CBmp[elise,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]伊莉希：\c[0]    伊莉希付出了這麼多卻只拿到這種東西！
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]伊莉希：\c[0]    氣！氣！氣！
+
+Lisa16_17/NotThere1
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    那個\..\..\..
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]伊莉希：\c[0]    她離開了呦！
+\CBct[8]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    死掉了？！ 你做了什麼？！
+\CBid[-1,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]伊莉希：\c[0]    伊莉希怎麼會知道她去哪啦！治療好了當然就離開了啊。
+\CBct[8]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 她去哪了？
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]伊莉希：\c[0]    她自己離開的啦！ 剩下的伊莉希不知道啦！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+
+Lisa18_19/InMarket0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    麗莎！ 你沒事了？
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我還以為妳.....
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]麗莎：\c[0]    大姊您是哪位？
+\CBct[8]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什麼？！  我是....
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    算了，這樣也好。
+\CBid[-1,5]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    啥小啦！
+
+##--------------------------------------------------------------------------------------
+
+Lisa/dead
+\narr麗莎陣亡了！

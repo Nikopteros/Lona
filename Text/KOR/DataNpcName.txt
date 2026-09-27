@@ -1,0 +1,332 @@
+###########################################################  GROUP ###########################################################
+
+group/OrkindCave
+오크 무리
+
+group/FishkindCave
+심해인 무리
+
+group/AbominationHive
+흉물 무리
+
+###########################################################  NPC PART ###########################################################
+
+part/arm
+팔
+
+part/penis
+자지
+
+part/mouth
+입
+
+part/beads
+구슬
+
+part/enema
+관장
+
+###########################################################  NPC RACE ###########################################################
+
+race/Human
+인간
+
+race/Moot
+혼혈
+
+race/Orkind
+오크
+
+race/Goblin
+고블린
+
+race/Abomination
+흉물
+
+race/Deepone
+어인
+
+race/Fishkind
+심해인
+
+race/Troll
+트롤
+
+race/Animal
+짐승
+
+race/OthersElise
+형언 불가능하다
+
+race/Others
+기타
+
+race/Dog
+개
+
+race/Horse
+말
+
+race/DeeponeLona
+냄새나는 인간
+
+race/AbomLona
+병약한 인간
+
+race/AbomMootLona
+병약한 혼혈
+
+###########################################################  NPC NAME ###########################################################
+name/nameCreatureBat
+변이 박쥐
+
+name/nameCreatureGroundSpore
+마물 포자
+
+name/nameCreatureMeatWorm
+고기벌레
+
+name/nameCreatureSpore
+부유 포자
+
+name/nameCreatureSummonSpore
+소환 포자
+
+name/nameCreatureTentacle
+촉수
+
+name/nameCreatureTentacleSummoned
+소환된 촉수
+
+name/Baby_nameinationBaby
+아기
+
+name/Baby_FishkindBaby
+어인 아기
+
+name/Baby_GoblinBaby
+고블린 아기
+
+name/Baby_OgreChild
+오거 아기
+
+name/Baby_OrcBaby
+오크 아기
+
+name/Baby_OrcChild
+오크 아이
+
+goblin/GoblinBow
+궁수
+
+name/GoblinClub
+병사
+
+name/GoblinCommoner
+
+
+name/GoblinCommoner_focused
+
+
+name/GoblinSpear
+창병
+
+name/GoblinWarrior
+전사
+
+name/GoblinWatcher
+감시자
+
+name/HobgoblinBow
+궁수
+
+name/HobgoblinClub
+병사
+
+name/HobgoblinCommoner
+
+
+name/HobgoblinCommoner_focused
+
+
+name/HobgoblinShaman
+샤먼
+
+name/HobgoblinSpear
+창병
+
+name/HobgoblinWarrior
+전사
+
+name/HobgoblinWatcher
+감시자
+
+name/HumanBow
+궁수
+
+name/HumanExecutioner
+집행자
+
+name/HumanLawbringer
+중장보병
+
+name/HumanScout
+정찰병
+
+name/HumanSpear
+창병
+
+name/HumanTorturer
+고문기술자
+
+name/HumanWarrior
+전사
+
+name/MobHumanClub
+도적
+
+name/MobHumanHighLander
+하이랜더
+
+name/MobHumanPickAxe
+도적
+
+name/MobHumanRogueBow
+도적 궁수
+
+name/MobHumanRogueCatcher
+강도
+
+name/MobHumanRogueSpear
+강도
+
+name/MobHumanRogueWarrior
+강도
+
+name/MobHumanSpear
+강도
+
+name/NatureMerchant
+상인
+
+name/NeutralHumanBow
+궁수
+
+name/NeutralHumanPrisonMinerF
+여자 광부
+
+name/NeutralHumanPrisonMinerM
+광부
+
+name/NeutralHumanPrisonMinerRaperM
+광산 범죄자
+
+name/NeutralHumanPrisonMineTrader
+광산 감옥 상인
+
+name/NeutralHumanPrisonMineTrader
+감옥 경비
+
+name/NeutralHumanPrisonOfficer
+감옥 간수
+
+name/NeutralHumanPrisonSpear
+창병
+
+name/NeutralHumanPrisonTorturer
+고문 기술자
+
+name/NeutralHumanPrisonWarrior
+전사
+
+name/NeutralHumanScout
+정찰병
+
+name/NeutralHumanWarrior
+전사
+
+name/OrcBow
+궁수
+
+name/OrcCatcher
+강도
+
+name/OrcClub
+병사
+
+name/OrcCommoner
+asd
+
+name/OrcCommoner_focused
+asd
+
+name/OrcWarrior
+전사
+
+name/PlayernameinationBaby
+아기
+
+name/PlayerFishkindBaby
+아기
+
+name/PlayerGoblinBaby
+아기
+
+name/PlayerOgreChild
+아기
+
+name/PlayerOrcBaby
+아기
+
+name/WildBoar
+멧돼지
+
+name/WildDog
+들개
+
+name/WildGiantMice
+거대 쥐
+
+name/WildHorse
+말
+
+name/WildApeF
+침팬지
+
+name/WildApeM
+침팬지
+
+name/UniquePigBobo
+씨돼지 보보
+
+name/HorseCarry
+짐말
+
+name/WildAlphaPig
+씨돼지
+
+name/AbomCreatureManager
+흉물 매니저
+
+name/AbomCreatureScorpion
+흉물 전갈
+
+name/AbomCreatureSpider
+흉물 거미
+
+name/AbomCreatureZombie
+흉물 좀비
+
+name/AbomCreatureBreedling
+흉물 러너
+
+name/UniqueDirtyJohnson
+더러운 존슨
+
+######################## EVENT  ######################################
+
+fraction/nature
+중립
+
+fraction/evil
+마물

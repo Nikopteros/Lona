@@ -1,0 +1,75 @@
+#Translated by Rrezzolution, cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys, you guys are not translators.
+
+Camp/Enter
+\m[confused]The supposed area of the missing caravan. \optB[Leave,Enter]
+
+Guide/QuestNotDone
+\m[confused]\c[6]Lona：\c[0]    I still have to confirm the status of the camp and see if there are any survivors.
+
+Forest/Entry
+\m[serious]\c[6]Lona：\c[0]    This is the place, I can smell the monster's foul odor from here...
+\m[irritated]\c[6]Lona：\c[0]    It seems like their guards are on high alert. \CamMP[DasWatcher]
+\m[confused]\c[6]Lona：\c[0]    Ok......
+\m[normal]\c[6]Lona：\c[0]    Advance carefully and quietly. I must not be caught by their guards. \CamCT
+
+Camp/GoblinSeen
+\m[shocked]\Rshake\c[6]Lona：\c[0]    They've spotted me! I can hear a lot of sounds gathering nearby.
+\m[terror]\Rshake\c[6]Lona：\c[0]    I have to leave soon, or I won't be able to escape...
+
+Camp/SawCamp
+\m[confused]\c[6]Lona：\c[0]    There's the tent...
+\m[fear]\c[6]Lona：\c[0]    Is there anyone even alive? \CamMP[Camp]
+\m[shocked]\Rshake\c[6]Lona：\c[0]    GASP*! ...Oh my goodness! \CamMP[DedPpl]
+\m[terror]\c[6]Lona：\c[0]    Has everyone been murdered?! They're even cooking and eating the corpses...
+\m[confused]\c[6]Lona：\c[0]    Wait... I think I can hear someone crying further down.
+\m[serious]\c[6]Lona：\c[0]    I can't just leave yet, I have to be brave. \CamCT
+\m[angry]\c[6]Lona：\c[0]    I must confirm if there are any survivors or not.
+
+Camp/OrkindBabySaw
+\m[shocked]\Rshake\c[6]Lona：\c[0]    ICK! ...I-It smells so bad!
+\m[terror]\c[6]Lona：\c[0]    By the Saint...! \CamMP[WakeUp]
+\m[fear]\c[6]Lona：\c[0]    Survivors! There are people still alive!
+\m[sad]\c[6]Lona：\c[0]    T-The monsters left all of the women pregnant!
+\m[fear]\c[6]Lona：\c[0]    At least I know that the monsters are now in the vicinity of Noer Town.
+\m[serious]\c[6]Lona：\c[0]    There's no way I can help these people... I have to hurry back and report this to the guild. \CamCT
+
+Guild/completed
+\prf\c[4]Guild Receptionist：\c[0]    What?! They're starting to breed?! ...This information must be treated as a serious emergency.
+
+Guild/completed2
+\prf\c[4]Guild Receptionist：\c[0]    Well done. The monster's presence in the northern areas should now be reduced.
+
+Guild/completed3
+\prf\c[4]Guild Receptionist：\c[0]    She's alive?! And you've managed to rescue her?!
+\prf\c[4]Guild Receptionist：\c[0]    You're definitely a lot more impressive than I thought you could ever be!
+
+########################################################################################QUEST LINE 3
+
+CommonConvoyTarget/Hev0
+\SETpr[OrcCaveEvent] Inside this small and foul cave, the condition of the victims looked very poor.
+For the Orkinds, neither age nor appearance was a concern. As long as the female can conceive, they'll continue impregnating her.
+The victims seem to have been subjected to prolonged sexual abuse. Most of them look to either be losing their sanity or are deceased.
+As for the merchant's daughter, she was covered in semen and filth.
+Her stomach was full of wrinkles from\n constantly giving birth, and she seemed\n to have been abused by Orkinds for a long time.
+Lona couldn't tell if she was sane or not. If she wasn't sane, Lona would probably have to give up on the rescue...
+
+CommonConvoyTarget/begin0
+\m[serious]\PRF\c[6]Lona：\c[0]    She's still alive!
+\prf\c[4]Merchant's Daughter：\c[0]    \..\..\..\..Uwuughuuu... *Whimper*...
+\m[shocked]\PRF\c[6]Lona：\c[0]    Are you alright? Can you hear me?
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]Merchant's Daughter：\c[0]    Ughnnn... W-Who are... you...? \optB[Just someone passing by...,I've come here to save you!]
+
+CommonConvoyTarget/Arrivel
+\prf\c[4]Merchant's Daughter：\c[0]    Thank you so much! Because of you, I'm still alive.
+\m[triumph]\PRF\c[6]Lona：\c[0]    You're welcome!
+\prf\c[4]Merchant's Daughter：\c[0]    I shall return back to my father now, take care.
+
+CommonConvoyTarget/Arrivel1
+\m[confused]\PRF\c[6]Lona：\c[0]    I should return back to the guild now.
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]Merchant's Daughter：\c[0]    Thank you. Let's hurry back to the Town of Noer.
+
+#Translated by Rrezzolution, cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys, you guys are not translators.

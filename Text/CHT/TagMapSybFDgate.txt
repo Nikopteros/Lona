@@ -1,0 +1,73 @@
+ThisMap/OmEnter
+\m[confused]席芭莉絲 西南門\optB[算了,進入]
+
+QuProgSybBarn2/begin1
+\c[4]難民：\c[0]    我的孩子... 我殺了我的孩子...
+\c[4]難民：\c[0]    啊呀呀呀呀！！！
+
+QuProgSybBarn2/begin2
+\CBmp[Yeller,20]\c[4]難民：\c[0]    為什麼！ 聖徒啊！為什麼！！！！
+\CBmp[Yeller,20]\c[4]難民：\c[0]    \{呀呀呀呀！！！！
+
+QuProgSybBarn2/begin3
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    什麼阿...？
+
+Guard0/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    嗯？更多的生還者？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    這裡沒妳的事，妳跑錯方向了！
+\CBct[6]\m[confused]\c[6]洛娜：\c[0]    啊？！ 不，我是個傭兵？ 大概吧？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    傭兵？ 妳？ 妳這樣的小鬼？
+\CBct[6]\m[flirty]\c[6]洛娜：\c[0]    大概是...
+\CBid[-1,5]\prf\c[4]傭兵：\c[0]    去！ 快離開這，這裡不是給小鬼頭胡鬧的地方。
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    唉....
+
+Guard1/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    看來傳聞是真的，\c[6]席芭莉絲\c[0]完蛋啦。
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    前幾個月還笑我們都是騎山豬亞人類，現在看看它們這個鬼樣子。
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    真是笑掉我的大牙！
+
+Guard2/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    這鬼地方真是有夠陰森的...那個什麼黑霧的不是開始散去了嗎？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    怎麼到處都是死人，土地也都毀了。
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    而且我聽說感染面積還在擴大？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    諾爾島該不會完蛋了吧？
+
+Guard3/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    這是我家，我曾經生活在這裡，現在全都沒了。
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    我的朋友、家人、愛人。全沒了。
+
+GuardMain/opt
+\CBct[6]\m[confused]\c[6]洛娜：\c[0]    呃...\optB[沒事,傭兵,她]
+
+GuardMain/opt_Mercenary
+\CBct[6]\m[confused]\c[6]洛娜：\c[0]    你們是傭兵？ 這裡怎麼這麼多傭兵？
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    妳在這幹嘛？ 這裡不是小孩該來的地方。
+\CBct[5]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我好歹也算是個傭兵啊！
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    妳\..\..\..？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    算了，現在就算在前線看到小鬼頭我也不會意外了。
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我聽說這裡人手不足？ 怎麼這麼多人？
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    我們是諾爾鎮過來的，上面發布了搜尋任何可用的物資與生還者的任務。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    啊？
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    當然，僅限我這們這些專業戶，小鬼就閃邊去吧！
+
+GuardMain/opt_Her
+\CBct[6]\m[flirty]\c[6]洛娜：\c[0]    呃.... 所以她發生了什麼事？
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    她\..\..\..？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    這些人啊，可惜了....
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    看來他們剛好在我們到達前決定自殺？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    她是最後一個，在我們來到這之前她似乎殺了自己的孩子。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    正要輪到她自己時.... 我們出現了。
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    真諷刺是嗎？
+
+MainWomen/Qmsg0
+呀呀呀呀！！！
+
+MainWomen/Qmsg1
+啊呀呀呀呀！！！
+
+Guard/Qmsg0
+走開！
+
+Guard/Qmsg1
+別擋路！

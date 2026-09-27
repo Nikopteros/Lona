@@ -1,0 +1,58 @@
+thisMap/OvermapEnter
+\m[confused]暗黑的狂戰士之墓\optB[算了,進入]
+
+BoardWarning/BRD0
+\board[狂戰士之墓]
+他僅以肉身挑戰超越者。
+遺憾的是，他並未完成他的旅途。
+但他依然是最偉大的戰士。
+願他於另個世界繼續他的戰鬥。
+\n
+開腸剖肚，事成方休。
+
+BoardSword/0to1_0
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    墓碑？...\..\..\..\m[confused]
+\BonID[-1,2]\prf\c[4]未知：\c[0]    你是戰士嗎？想面對挑戰嗎？\optB[不是,我是,好朋友<r=HiddenOPT0>]
+
+BoardSword/0to1_1_no
+\BonID[-1,20]\prf\c[4]未知：\c[0]    離開，這裡不是你該來的地方。
+
+BoardSword/0to1_1_yes0
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    大概...可能..也許算是吧？
+\BonID[-1,20]\prf\c[4]未知：\c[0]    那麼，面對你的對手吧。
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    嗯？
+
+BoardSword/0to1_1_yes1
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    發生什麼事了？！
+
+BoardSword/0to1_1_yes2
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    不死者？！
+
+BoardSword/End
+\BonID[-1,20]\prf\c[4]未知：\c[0]    強大的戰士阿，妳證明了妳自己。
+\BonID[-1,20]\prf\c[4]未知：\c[0]    拿去吧，這是獻給戰士的禮物。
+
+BoardSword/Cecily0
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\c[4]賽希莉：\c[0]    \..\..\..
+\CBfB[2]\SETpl[CecilyShyAr]\Lshake\c[4]賽希莉：\c[0]    以肉身挑戰超越者的戰士? 好像在哪聽過？
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]灰鼠：\c[0]    戰士之王，暗黑的狂戰士。
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]賽希莉：\c[0]    這是他的墳墓？
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]灰鼠：\c[0]    這是受到詛咒的土地，我們最好離開這。
+
+BoardSword/Cocona0
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\c[4]可可娜：\c[0]    姊姊!!!
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    怎麼了？
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    他很傷心...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    誰?
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    大鐵板很傷心...
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    哈? 姐姐我聽不懂。
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    他的主人消失了，大鐵板覺得很孤獨。
+
+BoardSword/Cocona1
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    他好了！ 姊姊拿去吧！ 這是好朋友的好朋友！
+
+BoardSword/Cocona2
+\CBct[4]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    好哦？ 謝謝可可娜？
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    姊姊不客氣！
+

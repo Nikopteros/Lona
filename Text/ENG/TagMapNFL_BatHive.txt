@@ -1,0 +1,114 @@
+
+thisMap/OvermapEnter
+\SndLib[AbomBatSpot]Bat Nest\optB[Leave,Enter]
+
+##############################################
+
+begin/Enter
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    I don't remember there being a forest here?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Um...nevermind.
+\CBct[8]\m[confused]\prf\c[6]Lona：\c[0]    \..\..\..
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    I will need to go through here if I plan to make it across...
+\CBct[20]\m[serious]\PRF\c[6]Lona：\c[0]    I must not be scared! I can do this!
+
+rg29/begin1
+\CBmp[DaHunter,6]\c[4]Mercenary：\c[0]    No! Stay away!
+
+rg29/begin2
+\CBmp[DaHunter,20]\c[4]Mercenary：\c[0]    \{Haha!
+
+rg29/begin4
+\CBmp[DaHunter,6]\c[4]Mercenary：\c[0]    \{Aaaaaaaaah!
+
+DaHunter/begin1
+\CBid[-1,6]\c[4]Mercenary：\c[0]    You...? You're alive?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Um?
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Save me! They're all dead!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Dead?... What happened?
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    These damn bats are too vicious.
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Please, help me!
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    Our camp is close by... A little to the west maybe?
+\CBid[-1,20]\prf\c[4]Mercenary：\c[0]    If you help me get there, I'll give you all my money.
+
+DaHunter/begin1_brd
+\CamCT\board[Help the Mercenary in peril]
+Goal： Head west
+Reward： Everything he owns
+Client： Wounded Mercenary
+Time Limit: Only for now
+Help this mercenary in peril return to his camp.
+
+DaHunter/begin2_OPTyes
+\CBct[20]\m[serious]\PRF\c[6]Lona：\c[0]    No problem. Let me take you there.
+
+DaHunter/begin2_OPTno
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\c[0]    Wish you the best, but I have things to do.
+
+########################################################### end hunter qu
+
+DaHunter/Qu_success0
+\CBid[-1,20]\c[4]Mercenary：\c[0]    Thanks. Didn't think I'd make it back.
+\CBid[-1,20]\c[4]Mercenary：\c[0]    Here. This is for you.
+
+DaHunter/Qu_success0_1
+\CBid[-1,20]\c[4]Mercenary：\c[0]    Take care. Goodbye.
+
+DaHunter/Qu_success1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Hey... Wait....
+
+DaHunter/Qu_success2
+\CBid[-1,20]\c[4]Mercenary：\c[0]    What?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Um\..\..\..Just this? Didn't you say I can have all your money?
+\CBid[-1,5]\prf\c[4]Mercenary：\c[0]    Fuck you! What you're holding is all I had on me!
+\CBid[-1,5]\prf\c[4]Mercenary：\c[0]    What? You got something to say？
+
+DaHunter/Qu_success2_end_tsun0
+\CBct[8]\m[serious]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBid[-1,5]\c[4]Mercenary：\c[0]    What? Got something to say?
+
+DaHunter/Qu_success2_end_tsun1
+\CBid[-1,6]\c[4]Mercenary：\c[0]    You\..\..\..You hit harder than my mother used to... Damn your strength...
+\CBct[5]\m[angry]\PRF\c[6]Lona：\c[0]    \{Want some more? No? Cough up the coin!\}
+\CBid[-1,6]\prf\c[4]Mercenary：\c[0]    Yes\..\..\..Please don't hurt me! I beg of you!
+
+DaHunter/Qu_success2_end_tsun2
+\CBct[5]\m[serious]\PRF\c[6]Lona：\c[0]    Hmph!
+
+DaHunter/Qu_success2_end_other
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    I'm... S-sorry.
+\CBid[-1,5]\prf\c[4]Mercenary：\c[0]    Hmph!
+
+DaHunter/Qu_success2_end_Cecily1
+\CBct[8]\m[serious]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBfB[20]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Cecily：\C[0]    \{Oi!
+
+DaHunter/Qu_success2_end_Cecily2
+\CBid[-1,2]\prf\c[4]Mercenary：\c[0]    Huh? I already thanked you guys!
+\CBfB[20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]Cecily：\C[0]    Your life is only worth a single small copper coin?
+
+DaHunter/Qu_success2_end_Cecily3
+\CBid[-1,8]\prf\c[4]Mercenary：\c[0]    Uh\..\..\..\CBid[-1,20]Oh! My bad... You are real heroes... Please forgive me.
+\CBid[-1,6]\prf\c[4]Mercenary：\c[0]    Take this as well.
+
+DaHunter/Qu_success2_end_Cecily4
+\CBfB[5]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecily：\C[0]    Scum! Next time we should just cut down buffoons like that!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh\..\..\..Sure.
+
+########################################################### common PPL
+
+Commoner/begin0
+\CBid[-1,20]\c[4]Mercenary：\c[0]    Why am I here?
+\CBid[-1,20]\c[4]Mercenary：\c[0]    We're mercenaries. Mercenaries hired to capture these monsters.
+
+Commoner/begin1
+\CBid[-1,20]\c[4]Mercenary：\c[0]    Why are we capturing these bat monsters?
+\CBid[-1,20]\c[4]Mercenary：\c[0]    How am I supposed to know what the folks in Noer are thinking?
+
+Commoner/begin2
+\CBid[-1,20]\c[4]Mercenary：\c[0]    After this job, I'm going home to get married.
+
+Watcher/begin0
+\CBid[-1,20]\c[4]Mercenary：\c[0]    Never seen monsters like these before.
+
+Watcher/begin1
+\CBid[-1,20]\c[4]Mercenary：\c[0]    I heard Sybaris got attacked by monsters before I came here. Seems like the whole citie's gone.

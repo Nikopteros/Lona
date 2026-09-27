@@ -1,0 +1,120 @@
+thisMap/OvermapEnter
+\m[confused]Broken shell Beach\optB[Leave,Enter]
+
+begin/Begin0
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Um......
+
+begin/Begin1
+\CBct[2]\m[flirty]\c[6]Lona：\c[0]    What kind of ceremony is this?
+
+commoner/Qmsg0
+Quack Quack..! He's dead...!
+
+commoner/Qmsg1
+My poor...Brother...
+
+commoner/Qmsg2
+So sad...
+
+guard/Qmsg0
+Go away...!
+
+guard/Qmsg1
+This is no place for outsiders...!
+
+guard/Qmsg2
+Move along...!
+
+#########################################################################
+
+QuGiver/Begin0_Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\SETpl[FrogCommon]\Lshake\c[4]Fishkind：\c[0]    Woman... Go back to breeding...!
+
+QuGiver/Begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\c[4]Fishkind：\c[0]    Outsider...? What is it? \optB[Never mind,Ceremony,Evilscales<r=HiddenOPT0>,Reckless<r=HiddenOPT1>,Help<r=HiddenOPT2>]
+
+QuGiver/Festival0
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...What is this ceremony? Is it about the Sea Witch?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Sacrifice.....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    This is... My brother's... Funeral....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    A return to sea... Ceremony....
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    A funeral?! I'm so sorry!
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    He was murdered...by those Evilscales....
+
+QuGiver/Fragment0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Evilscales? Who are the Evilscales?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    They're children...Who are born with no...soul...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    They are....servants of the Sea Witch....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    When they're born... We must immediately return them to the Sea Witch...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um... I don't quite understand what you mean?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    But...The Sea Witch is being Reckless....
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    What?
+
+QuGiver/tmpOutControl
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    The Evilscales that are sent to the sea witch...Should remain in the temple...And serve the sea witch...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    But the fake sea witch won...And the Evilscales have gone crazy...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Our ancestral spirit...Has returned with the Sea Witch's Evilscales...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    This doesn't make any sense!
+
+QuGiver/help0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Do you need help? Maybe there's something I can do?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Outsider...? You...? A woman...? Maybe...?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    My brother and I...We were both potters...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Inside of his\c[4]Crusty Crab's Pottery shop\c[0]...There are still...Evilscales lingering...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    His spirit will not attack us...but the Evilscales will...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    The false Sea Witch's servants will kill us mercilessly...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Bring me his secret formula...I must have it...So that I may, uh, carry on his legacy of course...
+
+QuGiver/help_board
+\board[The Secret Formula]
+Goal：Retrieve the Secret Formula\i[227]
+Reward：Unknown
+Client：Fishkind Brother
+Quest Term：Single fulfillment
+Go to the\c[4]Crusty Crab's Pot Shop\c[0] in the east and retrieve the secret pot making formula for his brother.
+
+QuGiver/help_cancel
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh... Never mind.
+
+QuGiver/help_accept
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    No problem! I can handle it.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    I will deliver your brother's legacy to you!
+
+######################################################################### QuestDone
+
+QuGiver/done0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh...
+
+QuGiver/done1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    I got you the secret formula, now your brother's spirit will be able to rest in peace, right?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Outsider...? You...? Actually have it...?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Give it to me, quickly.... I must have it!!!
+
+QuGiver/done2
+\CBct[20]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    Why are you being so impatient?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Hehehehe...As soon as I have the formula...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    My Chum Bucket pot shop....Will rule this entire island's....Pottery production....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Hehahahaha....MUHAHAHAHAHAHA..........
+\CBct[20]\m[confused]\plf\Rshake\c[6]Lona：\c[0]    Uh...?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    A Magic conch\..\..\.....? What is this...?
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    I don't understand it either，but I guess that's what it says?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    The secret formula is....Fake!?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    Im...Poss...Ible....
+\CBct[20]\m[confused]\plf\Rshake\c[6]Lona：\c[0]    Um...Are you feeling okay?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Fishkind：\c[0]    \{Get out of here...!
+
+QuGiver/done3
+\SndLib[FishkindSmSpot]\prf\c[4]Detective：\c[0]    \{Wait... Just... A moment...!!
+
+QuGiver/done4
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Detective：\c[0]    I already know everything!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Detective：\c[0]    You murdered the crusty crab!
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]Fishkind：\c[0]    Haha...The secret formula is fake....
+\SndLib[FishkindSmSpot]\CBmp[Detective,5]\plf\c[4]Detective：\c[0]    You murdered the Crusty Crab!!!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Detective：\c[0]    You're coming with us... Let's go... Immediately...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]Fishkind：\c[0]    Ha...Ha...Haha...
+
+QuGiver/done_end
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Uh... What was that all about?
+
+#DOGE + SYNCED

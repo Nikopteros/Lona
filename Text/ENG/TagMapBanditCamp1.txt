@@ -1,0 +1,332 @@
+#by joko, need sync and clearn up
+
+thisMap/OvermapEnter
+Bandits Hideout.\optB[Cancel,Enter]
+
+Nap/Capture
+\narr They took everything from Lona
+
+############################################################## Control , using TagMapNoerMobHouse.txt as secondary
+
+Trans/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]Bandit：\C[0]    Little bitch! Wake up!
+\CamCT\m[hurt]\plf\PRF\c[6]Lona：\c[0]    Uuuhh....
+\SETpl[MobHumanCommoner]\BonMP[Raper1,20]\Lshake\prf\C[4]Bandit：\C[0]    We're gonna take you to your new home!
+\CamCT\m[sad]\c[6]Lona：\c[0]    What?! Where are you g...?
+
+Trans/begin2
+\ph\m[sad]\cgoff\narr Lona was taken somewhere else.
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandit：\C[0]    Be a good girl.. then we can play!
+\SETpl[nil]\m[sad]\plf\PRF\c[6]Lona：\c[0]    What to do\..\..\.. I must find a way to escape!
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandit：\C[0]    \{Little bitch! Food time!
+\narr They put some food at the door.
+
+Rogue/PlaceFood_no
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandit：\C[0]    Little bitch! Laziness won't earn you a meal!
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandit：\C[0]    If you want food, you have to entertain us!
+\m[sad]\plf\PRF\c[6]Lona：\c[0]    I'm sorry ... I will work hard ...
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Is it a woman?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandit：\C[0]    Awesome! I haven't touched a woman in a long time!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Little bitch! I'm here! ♥
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandit：\C[0]    Let me go first! There hasn't been anything good to fuck in the forest recently! I'm bored to death!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Hey! Don't kill her, everyone else still want their turn.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandit：\C[0]    What the hell, just have at it.
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    This little bitch deserve a beating!
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandit：\C[0]    Hit her!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    \{Hey! wake up!
+
+DavidBorn/Unknow
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born：\C[0]    I am the boss in this place.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born：\C[0]    These people can't control themselves, they need people to bully around.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born：\C[0]    If not, I don't know when they're gonna try to kill me...
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,8]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    \..\..\.. Ah yes, you will do!
+\CamCT\m[shy]\PRF\c[6]Lona：\c[0]    Me?
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    Listen to me, otherwise you're gonna die.
+\CamCT\m[fear]\PRF\c[6]Lona：\c[0]    Uh.....
+
+DavidBorn/Day_dialog
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    Listen to me, otherwise you won't get to eat.
+\CamCT\m[sad]\PRF\c[6]Lona：\c[0]    Whuaah....
+
+GangBoss/Day_dialog
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandit：\C[0]    Hey, little bitch!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandit：\C[0]    Your job today is to entertain us.
+\CamCT\m[sad]\PRF\c[6]Lona：\c[0]    Wuahh....
+
+Nap/Capture
+\narr They took everything from Lona
+
+############################################################## COMMON DIALOG
+
+Cooker/Begin0
+\CBid[-1,20]\c[0]Chef：\c[0]    They eat us, we eat them, it's fair!
+
+Female/Qmsg0
+You guys are bad!
+
+Female/Qmsg1
+I am innocent...
+
+Female/Qmsg2
+Saints help me...
+
+############################################################## Whore Job
+
+DavidBorn/JOB_Start_Whore
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born：\C[0]    Most men here haven't been with a woman for a long time.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    You go make yourself useful to those idiots.
+\CamCT\m[fear]\PRF\c[6]Lona：\c[0]    I.... \optB[Wait,Okay]
+
+GangBoss/JOB_Start_Whore
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Bandit：\C[0]    Hey! Our cocks are getting moldy!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandit：\C[0]    Hey! Little bitch! Give me that ass!
+\CamCT\m[fear]\PRF\c[6]Lona：\c[0]    I.... \optB[Wait,Okay]
+
+HevWhore/begin1
+\CamMP[Cam1]\C[4]Bandit：\C[0]    I really want a woman to play with....
+\CamMP[GuardA]\C[4]Bandit：\C[0]    I want to cum.... I need to dump my load....
+
+HevWhore/begin2
+\CamCT\board[Attention]
+Comfort four or more bandits.
+Otherwise you won't get fed.
+
+############################################################## GangRape
+
+DavidBorn/JOB_Start_GangRape
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[0]David Born：\C[0]    They are telling me they are bored.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[0]David Born：\C[0]    Give some fun for those idiots.
+\CamCT\m[fear]\PRF\c[6]Lona：\c[0]    I.... \optB[Wait,Okay]
+
+GangBoss/JOB_Start_GangRape
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Bandit：\C[0]    Hey! Bitch! Come!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandit：\C[0]    Get out! Show us something fun!
+\CamCT\m[fear]\PRF\c[6]Lona：\c[0]    I.... \optB[Wait,Okay]
+
+HevGang/begin0
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]   Little bitch! Give us something good to watch!
+
+HevGang/begin1
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]    It's not fun! Do something else!
+
+HevGang/begin_encore
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]    Do more!!!
+
+HevGang/opt
+\m[shy]\plf\PRF\c[6]Lona：\c[0]    Wuaahh...\optD[Dance<r=HiddenOPT0>,Tell a joke<r=HiddenOPT1>]
+
+HevGang/Dance
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Let me dance for you....
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]    Alright!
+
+HevGang/Dance_success_1
+\narr Lona danced well, and the audience gave their praise.
+
+HevGang/Dance_success_2
+\narr Lona's dance was very erotic, stirring up desire in the audience.
+
+HevGang/Dance_failed0
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]    You suck!
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Wuahh...
+
+HevGang/Dance_failed1
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]    Jump!
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Wuahh...
+
+HevGang/Dance_failed2
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]    This sucks! You're useless!
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Wuahh...
+
+HevGang/Joke0
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Let me tell you guys a joke, okay?
+\SETpl[raper_group]\Lshake\C[4]Bandit：\C[0]    If you are not funny, you will be punished!
+
+HevGang/Joke1
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Okay so\..\..\..
+
+HevGang/Joke2_0
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Can you guess the price of a chimney? \..\..\.. It's free because it's on the house!
+
+HevGang/Joke2_1
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I told my husband I wanted another baby... \..\..\.. He was relieved, because he didn't like our first one either.
+
+HevGang/Joke2_2
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    What's the difference between three dicks and a joke? \..\..\.. I can't take a joke...
+
+HevGang/Joke_success
+\narr\..\..\..
+\narr Lona told a crude, vulgar joke.
+\narr The audience's reaction seemed okay.
+
+HevGang/Joke_failed
+\narr \..\..\..
+\narr Lona made some lame jokes.
+\narr The audience didn't seem too pleased.
+
+HevGang/score_success_full
+\SETpl[raper2]\Lshake\C[4]Pirate 1:\C[0]    My dick's so hard, I can't take it anymore.
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona:\c[0]    You... you're scaring me...
+\SETpr[raper3]\Rshake\C[4]Pirate 2:\C[0]    Don't worry, little one. We won't hurt you this time, I promise.
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona:\c[0]    Please... don't...
+
+HevGang/score_success
+\SETpl[raper2]\Lshake\prf\C[4]Pirate 1:\C[0]    Haha, that was fun.
+\SETpr[raper3]\Rshake\plf\C[4]Pirate 2:\C[0]    Ah, I'm hungry.
+\SETpr[raper1]\Lshake\prf\C[4]Pirate 3:\C[0]    Let's go, let's go.
+\SETpr[raper2]\Rshake\plf\C[4]Pirate 1:\C[0]    Take these things. This is your reward.
+
+HevGang/score_failed
+\SETpl[raper2]\Lshake\C[4]Bandit：\C[0]    Boo! Boring! Let's fuck her! That'll be a lot more fun!
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    I'm scared... I'm afraid it will hurt....
+\SETpr[raper3]\Rshake\C[4]Bandit：\C[0]    Don't worry, we won't fuck you too hard.
+\SETpl[raper2]\Lshake\C[4]Bandit：\C[0]    I'll go first! She's mine!
+\SETpr[raper1]\Rshake\C[4]Bandit：\C[0]    Don't be greedy! I'm first!
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Whuuaahh...
+
+############################################################## Doggy
+
+DavidBorn/JOB_Start_Doggy
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born：\C[0]    One of the idiots said that he thought of something interesting, and he wants you.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    Go help those idiots.
+\CamCT\m[fear]\PRF\c[6]Lona：\c[0]    I.... \optB[Wait,okay]
+
+GangBoss/JOB_Start_Doggy
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Bandit：\C[0]    Hey! Bitch! come!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandit：\C[0]    Someone is looking for you outside!
+\CamCT\m[fear]\PRF\c[6]Lona：\c[0]    I.... \optB[Wait,Okay]
+
+
+HevDoggy/begin1_fristTime0
+\SETpl[raper2]\Lshake\prf\C[4]Bandit：\C[0]    Hey! My dog has not mated for a long time, raise your ass and let's go!
+\SETpl[raper2]\Lshake\prf\C[4]Bandit：\C[0]    You are responsible for my doggie today! You're gonna be his bitch.
+
+HevDoggy/begin1_fristTime1
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    With a dog?! No! That's impossible!
+\SETpl[raper2]\Lshake\prf\C[4]Bandit：\C[0]    You dare say no? Don't want to live anymore, bitch?
+\SETpl[raper_group]\Lshake\prf\C[4]Bandit：\C[0]    You dare to resist?! Kill her!!
+\SETpr[raper_group]\Rshake\plf\C[4]Bandit：\C[0]    Yeah! Slaughter her like a lamb!
+\CamCT\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    No! Don't kill me! I will do it!
+\SETpl[raper2]\Lshake\prf\C[4]Bandit：\C[0]    Look at the little bitch so scared.. So pitiful.
+
+HevDoggy/begin1_fristTime2
+\SETpl[raper_group]\Lshake\prf\C[4]Bandit：\C[0]    Hahahaha! Doggie! Hurry up!
+
+HevDoggy/begin1_fristTime1_nymph
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    With a dog?! Me?
+\SETpl[raper2]\Lshake\prf\C[4]Bandit：\C[0]    You dare say no? Does the little bitch not want to live anymore?
+\CamCT\m[lewd]\plf\Rshake\c[6]Lona：\c[0]    No.... I think I can do it.
+
+HevDoggy/begin1
+\SETpl[raper2]\Lshake\prf\C[4]Bandit：\C[0]    Hey! Bitch! My dog is horny! Come help it!
+\CamCT\m[shy]\plf\PRF\c[6]Lona：\c[0]    Not the dog again...
+\CamCT\m[sad]\plf\PRF\c[6]Lona：\c[0]    Okay.... At least he is a bit gentler than those bad guys.
+
+HevDoggy/begin2
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    C'mon puppy, be nice now
+\CamMP[Doggy]\BonMP[Doggy,5]\SndLib[dogAtk]\m[shy]\plf\PRF\c[6]Doggy：\c[0]    Grrrr!
+\CamCT\m[shy]\plf\PRF\c[6]Lona：\c[0]    Don't be afraid.. I will be very gentle.
+\CamMP[Doggy]\BonMP[Doggy,6]\SndLib[dogSpot]\m[shy]\plf\PRF\c[6]Doggy：\c[0]    Arf! Arf!
+
+HevDoggy/begin3
+\CamCT\narr Lona grabbed the dog's penis,
+and guided it into her pussy.
+\SndLib[dogAtk]\narrOFF\SETpl[raper_group]\Lshake\prf\C[4]Bandit：\C[0]    Haha! Look, this little bitch is so funny!
+
+HevDoggy/begin4
+\SndLib[dogAtk]\SETpl[raper_group]\Lshake\prf\C[4]Bandit：\C[0]    Hahaha! Come on bitch!
+
+HevDoggy/begin5
+\c[6]Lona：\c[0]    \..\..\..\.. Wuahh...
+
+HevDoggy/begin6
+\c[6]Lona：\c[0]    Come on, be nice.... Don't hurt me...
+\SndLib[dogAtk]\narr The dog started to thrust into Lona, and it seemed to think Lona is a female dog.
+
+HevDoggy/begin7
+\c[6]Lona：\c[0]    Eyah...
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]Doggy：\c[0]    Grrrr woof!
+\c[6]Lona：\c[0]    Huh..
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Doggy：\c[0]    Woof woof!
+
+HevDoggy/begin8
+\SETpl[raper2]\Lshake\C[4]Bandit：\C[0]    Come on! Doggie!
+\SETpr[raper_group]\Rshake\C[4]Bandit：\C[0]    Fuck her! Fuck this bitch!
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]Doggy：\c[0]    Woof woof!
+\narr The dog realized that Lona is his bitch now.
+It started to pound away.
+
+HevDoggy/begin9
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Doggy：\c[0]    Woof woof!
+\c[6]Lona：\c[0]    Eyah ...
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Doggy：\c[0]    Woof woof!
+
+HevDoggy/begin9_1
+\SETpl[raper2]\Lshake\C[4]Bandit：\C[0]    Hahahahaha!!!
+\SETpr[raper3]\Rshake\C[4]Bandit：\C[0]    I never saw something this funny!!
+
+HevDoggy/begin10
+\SndLib[dogHurt]\c[6]Lona：\c[0]    Huh?!
+
+HevDoggy/begin11
+\SndLib[dogHurt]\c[6]Lona：\c[0]    \{Ah ah Ah!
+
+HevDoggy/begin12
+\SndLib[dogHurt]\c[6]Lona：\c[0]    \{It's so big! No way!
+
+HevDoggy/begin13
+\SndLib[dogHurt]\c[6]Lona：\c[0]    \{Ah ah ahh!
+
+HevDoggy/begin14
+\SndLib[dogHurt]\narr The dog's penis swelled, and her entire vagina is filled with the dog's knot.
+\SndLib[dogHurt]Stuck inside Lona's crotch, the dog ejaculated.
+
+HevDoggy/begin14_1
+\narrOFF\m[p5health_damage]\SETpl[raper2]\Lshake\Rshake\C[4]Bandit：\C[0]    My good doggie is cumming, that's it for this little bitch!
+\SETpr[raper2]\Rshake\C[4]Bandit：\C[0]    Oh man! I laughed so much my stomach hurt.
+
+HevDoggy/begin15
+\narrOFF\SETpl[raper2]\Lshake\C[4]Bandit：\C[0]    Hey! Doggie! Come here! Get some meat!
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Doggy：\c[0]    Grrr woof!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Doggy：\c[0]    Woof woof!
+
+HevDoggy/begin16
+\c[6]Lona：\c[0]    \{Huh?!
+
+HevDoggy/begin17
+\c[6]Lona：\c[0]    \{Don't pull! Don't move!!
+
+HevDoggy/begin18
+\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    Let me go... Stop moving....
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Doggy：\c[0]    Woof woof!
+\narrOFF\SETpl[raper2]\Lshake\C[4]Bandit：\C[0]    Come here! There's meat here as well!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Doggy：\c[0]    Woof woof!
+\SETpr[raper1]\Rshake\C[4]Bandit：\C[0]    Hahahahaa... She's stuck! I can't take it anymore... I'm really laughing to death.
+
+HevDoggy/begin19
+\m[p5health_damage]\c[6]Lona：\c[0]    \{Eyaah!
+\m[p5health_damage]\c[6]Lona：\c[0]    \{Wuaaah!
+
+HevDoggy/begin20
+\c[6]Lona：\c[0]    Wuaah.....
+
+HevDoggy/begin21
+\c[6]Lona：\c[0]    Ahh haaa...
+
+HevDoggy/begin22
+\c[6]Lona：\c[0]    .....
+
+HevDoggy/begin23
+\narr The dog continued to ejaculate for a long, long time.
+The bandits laughed as Lona lost her consciousness.
+\narrOFF\SETpl[raper2]\Lshake\C[4]Bandit：\C[0]    Hey, she passed out, how can we play now?
+\SETpr[raper3]\Rshake\C[4]Bandit：\C[0]    Go find someone who can take her away.

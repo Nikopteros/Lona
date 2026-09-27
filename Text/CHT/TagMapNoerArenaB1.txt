@@ -1,0 +1,137 @@
+thisMap/Enter
+\SETpl[Mreg_pikeman]寫著\c[4]僅供職員使用\c[0]，且門口站著守衛。\optB[沒事,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+########################################################################################################### Nap
+
+enter/begin0
+\c[4]管理員：\c[0]    在這乖乖等阿，反抗只有死路一條。
+\c[4]管理員：\c[0]    這是妳今天的食物，拿去！ 馬上就會輪到妳上場了。
+
+Nap/BecomeSlave0
+\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]衛兵A：\c[0]    這坨屎在搞什麼？
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]衛兵B：\c[0]    也許她想當個角鬥士？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]衛兵A：\c[0]    哈哈！ 你說的沒錯！
+
+Nap/Torture0
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]衛兵B：\c[0]    所以我們該給這個亂來的狗屎一點教訓？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]衛兵A：\c[0]    嘿，我有一個好點子。
+\narr他們把洛娜抬走了。
+
+Nap/Torture1
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    嗚..... 我怎麼了？
+
+Nap/Torture2
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    咦？！
+
+Nap/Torture3
+\CBmp[Goblin1,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]！！
+\CBmp[Goblin2,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]！！！！
+\CBmp[Goblin3,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]！！！！！！
+
+########################################################################################################### Get to fight
+
+Daily/Food0
+\CBmp[Warden,20]\c[4]管理員：\c[0]    蛆蟲！ 醒來！
+\CBct[20]\m[shocked]\c[6]洛娜：\c[0]    咦？
+
+Daily/Food1
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    臉靠過來！ 靠近點！ 想吃東西的話就把嘴打開！
+
+Daily/Food_YES0
+\CBct[20]\m[sad]\c[6]洛娜：\c[0]    是.....
+
+Daily/Food_YES0_1
+\narr管理員緊緊的抓住了洛娜的頭並靠在牢門上。
+
+Daily/Food_YES1
+\BonMP[Warden,3]\prf\c[4]管理員：\c[0]    哈！ 爽啊！ 這才是奴隸該有的樣子！
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    奴隸該說什麼啊？
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    謝主人...
+
+Daily/Food_NO
+\CBct[20]\m[fear]\c[6]洛娜：\c[0]    不... 這個....
+\BonMP[Warden,5]\prf\c[4]管理員：\c[0]    很好啊！ 那就沒飯吃，我看妳能撐到什麼時候。
+
+Daily/Food_END
+\narr管理員在門口放了些食物。
+
+########################################################################################################### Get to fight
+
+playerFight/begin0
+\CBmp[Warden,20]\c[4]管理員：\c[0]    醒來！ 妳這下賤的蛆蟲！
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    咦？ 是！？
+
+playerFight/begin1
+\CBmp[Warden,20]\c[4]管理員：\c[0]    輪到妳去死了，好好的娛樂我們的觀眾吧！
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    .....
+
+playerFight/begin2_opt
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    快點準備好！\optD[選擇裝備,特別提供<r=HiddenOPT0>,準備,出場]
+
+playerFight/begin2_opt_notYet
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    還沒弄好？ 快一點！
+
+playerFight/begin2_opt_OtherOffer
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    有沒有什麼東西能讓我撐下去的...
+\CBct[8]\m[bereft]\PRF\c[6]洛娜：\c[0]    我還.... 不想死....
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    我這裡是有些好東西可以不讓你那麼痛苦。
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    想要的話就把嘴靠過來。
+
+playerFight/begin2_opt_OtherOffer_yes0
+\ph\SndLib[sound_equip_armor]\cg[event_WartsDick]\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..
+\narr管理員掏出了他醜陋的陽具，並在上面澆了某種藥。
+
+playerFight/begin2_opt_OtherOffer_yes1
+\BonMP[Warden,20]\cgoff\prf\c[4]管理員：\c[0]    好了，用妳的嘴好好地舔乾淨。
+\CBct[8]\m[fear]\PRF\c[6]洛娜：\c[0]    啊？
+
+playerFight/begin2_opt_OtherOffer_yes2
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    很好，妳身為奴隸該說什麼啊？
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    謝謝....
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    非常好！ 我還特別準備了些東西給像妳這樣的狗屎。
+
+playerFight/begin2_opt_OtherOffer_yes3
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    別死得太早，我看好妳，我還需要妳打掃我的小老弟呢。
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    謝謝主人大恩大德。
+
+playerFight/begin2_opt_OtherOffer_no
+\BonMP[Warden,5]\prf\c[4]管理員：\c[0]    去！ 掃興！
+
+playerFight/FightStart
+\BonMP[Warden,20]\prf\c[4]管理員：\c[0]    加油啊，別死得太早了。
+
+########################################################################################################### common
+
+Roommate/begin0_0
+\CBid[-1,20]\c[4]囚犯：\c[0]    我才不會離開這！ 妳休想！
+
+Roommate/begin0_1
+\CBid[-1,20]\c[4]囚犯：\c[0]    這是我的牢房！
+
+Roommate/begin0_2
+\CBid[-1,20]\c[4]囚犯：\c[0]    我必須要待在這！
+
+Roommate/begin2
+\CBct[2]\m[confused]\Rshake\c[6]洛娜：\c[0]    耶？！
+
+Guard/Qmsg0
+妳怎麼進來的！
+
+Guard/Qmsg1
+滾出去！
+
+Guard/Qmsg2
+這裡是員工專用！
+
+Worker/Qmsg0
+但是只有我能做！
+
+Worker/Qmsg1
+工作太多了！
+
+Worker/Qmsg2
+我討厭文職！
+
+EstC/Qmsg
+.......
+

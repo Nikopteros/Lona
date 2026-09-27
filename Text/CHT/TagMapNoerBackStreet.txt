@@ -1,0 +1,546 @@
+BackStreet/OvermapEnter
+\m[confused]諾爾鎮後街，闊刃幫的地盤\optB[算了,進入]
+
+#=============================================================================================================
+
+NotCapture/begin_withGangBoss0
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\SndLib[sound_MaleWarriorSpot]\Lshake\c[4]不良份子：\c[0]    \{喂！
+
+NotCapture/begin_withGangBoss1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 怎麼了？！
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]不良份子：\c[0]    小婊子，妳不是我們手下的雞吧？
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]洛娜：\c[0]    我.....
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]不良份子：\c[0]    \{不想死的話就快滾！
+\CBct[6]\m[sad]\PRF\plf\c[6]洛娜：\c[0]    抱歉....
+
+NotCapture/begin_FishKindMode0
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\c[4]守衛：\c[0]    \{呱呱！
+
+NotCapture/begin_FishKindMode1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 怎麼了？！
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    女人....外來者！
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]洛娜：\c[0]    我.....
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    \{滾！
+\CBct[6]\m[terror]\Rshake\plf\c[6]洛娜：\c[0]    抱歉....
+
+NotCapture/begin_withGangBoss1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 怎麼了？！
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]不良份子：\c[0]    小婊子，妳是逃跑的奴隸？
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]洛娜：\c[0]    我.....
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]不良份子：\c[0]    \{抓住她！
+\CBct[6]\m[terror]\Rshake\plf\c[6]洛娜：\c[0]    咿咿！！！
+
+NotCapture/begin_FishKindMode1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 怎麼了？！
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    女人....逃袍的...奴隸？
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]洛娜：\c[0]    我.....
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    \{抓住她！
+\CBct[6]\m[terror]\Rshake\plf\c[6]洛娜：\c[0]    咿咿！！！
+
+#=============================================================================================================
+
+HappyTrader/begin_normal
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    嘿嘿！ 妳要什麼？ 我這都有！
+
+HappyTrader/begin_normalArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    還不出來了？要不成為我旗下的\C[2]職員\C[0]？
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]商人：\c[0]    包妳吃穿住！
+
+HappyTrader/opt
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    嗯？
+
+HappyTrader/work_opt
+\CBid[-1,2]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    小妹妹妳會些什麼？
+
+HappyTrader/work_whore_NoTrait
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    不是我說，這個工作不適合妳啊。
+\narr洛娜並未習得\C[2]娼妓\C[0]天賦
+
+HappyTrader/work_whore_board1
+\board[後街妓女]
+以#{$story_stats["HiddenOPT0"][0]}交易點借款用來買工作權
+每日至少需#{$story_stats["HiddenOPT0"][1]}交易點用作保護費(第一日不適用)
+保護費自動追加至借款
+工作中視同後街工作的奴隸
+
+HappyTrader/work_whore_board2
+\board[後街妓女]
+工作中的奴隸不可私自離開
+休息請至左邊的小屋
+繳清借款則視同離職
+若未繳清保護費或嘗試私自離開則會接受處罰
+
+HappyTrader/work_whore_accept0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]商人：\c[0]    很好，妳是我們的一員了。
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]商人：\c[0]    工作時不可離開這裡，還有休息請至左邊的小屋。
+
+HappyTrader/work_whore_accept1
+\BonID[-1,20]\CamMP[UniqueGangBoss]\SETpl[HappyMerchant_normal]\SETpr[NoerGangBoss]\Lshake\c[4]商人：\c[0]    然後這邊這位大哥會看好妳。
+\CBmp[UniqueGangBoss,8]\SETpl[NoerGangBoss]\m[flirty]\c[4]不良份子：\c[0]    ......
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\m[fear]\Lshake\c[4]不良份子：\c[0]    工作時別亂跑，不然會死的。
+
+HappyTrader/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]洛娜：\c[0]    那個...我最近手頭有點緊，能不能....
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    \{借款嗎！
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    \{太好了！
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]商人：\c[0]    來！先看看規則。
+
+HappyTrader/Arrears_NewTo1
+\board[良心借貸]
+金主自營，借多少不拿多少
+借錢不求人，信用空白者尤佳。
+非錢莊高利貸，每日輕鬆繳款。
+１～４金
+利息超過本金時將開始追討
+預先扣除７天利息
+
+HappyTrader/Arrears_NewTo2
+\CBct[8]\m[confused]\plf\c[6]洛娜：\c[0]    \{\..\..\..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{這是高利貸阿！
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    怎麼可能？！
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    我是為了幫助那些可憐的難民。
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    看看四周，看看那些可憐人。沒有我的幫助這些人早就餓死了！
+\CBct[8]\m[confused]\plf\c[6]洛娜：\c[0]    嗚....
+
+HappyTrader/Arrears1_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\c[4]商人：\c[0]    妳想借多少呢？\optB[算了,1金,2金,3金,4金]
+
+HappyTrader/opt_AboutArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    我看看嘿....
+
+HappyTrader/Arrears_info
+\board[Backstreet Hooker]
+本金： #{$story_stats["BackStreetArrearsPrincipal"]}
+利息： #{$story_stats["BackStreetArrearsInterest"]}
+總共： #{$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+額外保護費： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_info_DebtHunter
+\board[Backstreet Hooker]
+本金： #{$story_stats["BackStreetArrearsPrincipal"]}
+利息： #{$story_stats["BackStreetArrearsInterest"]}
+服務費： #{$story_stats["HiddenOPT0"]}
+總共： #{$story_stats["HiddenOPT0"]+$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+額外保護費： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_accept
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    嘿嘿。
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    時限到了後記得還錢呀！
+\CBct[8]\m[shy]\plf\c[6]洛娜：\c[0]    嗯...　謝謝。
+
+HappyTrader/Arrears_return_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    你打算還什麼？
+
+HappyTrader/Arrears_return_item
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    我看看阿。
+
+HappyTrader/BecomeSlave_begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    成為我們旗下的職員享有各類好處。
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    包吃、包住、包醫療。
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    享有完整的勞健保。
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    此外所有的欠款與債務一筆勾銷。
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    感興趣了嗎，簽下去！
+
+HappyTrader/BecomeSlave_begin1
+\CBct[6]\m[wtf]\plf\c[6]洛娜：\c[0]    不會是要我當奴隸吧？
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    不是！當然不是！這世道還沒有這麼壞吧？
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    妳覺得叔叔我是壞人嗎？
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    來，看看這個！
+
+HappyTrader/BecomeSlave_begin2
+\board[盧德辛商行聘僱書]
+盧德辛商行將保障雇員之飲食、居住、醫療、以及人身安全。
+職員需同意一切雇主的工作要求。
+職員不得擅自離開工作場所。
+職員違反工作要求，雇主可以合理的逞罰。
+\}職員因工作要求將放棄一切印加蘭國民之人權。
+職員因工作要求將成為盧德辛商行奴隸。
+\{我___同意上列條例並成為盧德辛商行之職員
+
+HappyTrader/BecomeSlave_accept0
+\CBct[2]\m[confused]\plf\c[6]洛娜：\c[0]    大概沒問題了？
+\SND[SE/PenWrite1.ogg]\narr洛娜於合約上簽上了自己的名子。
+
+HappyTrader/BecomeSlave_accept1
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    很好！非常好！
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    小妹妹妳也累了吧？
+\CBct[2]\m[flirty]\plf\c[6]洛娜：\c[0]    呀？！ 還好吧？
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    來把這個喝下去，他可以補足你的體力。
+\CBct[20]\m[triumph]\plf\c[6]洛娜：\c[0]    咦！謝謝。
+\CBct[3]\m[pleased]\plf\c[6]洛娜：\c[0]    叔叔你果然是好人呢！
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    這當然了！這種天災下大家都要互助才能過下去！
+\CBct[20]\m[shy]\plf\c[6]洛娜：\c[0]    是啊。
+\SND[SE/drink02.ogg]\narr洛娜將飲料喝了下去。
+
+HappyTrader/BecomeSlave_accept2
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..\..
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚\..\..頭好昏\..\..\..
+
+HappyTrader/BecomeSlave_accept3
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚\..\..
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]不良份子：\c[0]    還有意識耶！
+\CBmp[stGang2,20]\SETpr[MobHumanCommoner]\Rshake\plf\c[4]不良份子：\c[0]    這樣不是很好？會哭會叫的才有趣！
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    你們\..\..要做什\..\..
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]不良份子：\c[0]    別亂動！位置偏了吃苦的還是妳自己！
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    不要！ 放開我！
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]不良份子：\c[0]    就說了別亂動阿！ 乖！
+
+HappyTrader/BecomeSlave_accept3_1
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+
+HappyTrader/BecomeSlave_accept3_2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]不良份子：\c[0]    哈哈！真好玩！在叫大聲點阿！
+
+HappyTrader/BecomeSlave_accept3_3
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！
+
+HappyTrader/BecomeSlave_accept4
+\cgoff\narr洛娜成為了奴隸。
+
+#=================================================NAP AND TORTURE======================================================
+
+nap/WhoreWakeUp
+\CBmp[HappyMerchant,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    \{女孩們！起來工作了！
+
+nap/drug_begin_FristTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]不良份子：\c[0]    抓牢她！
+\CBmp[stGang1,20]\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]雜魚：\c[0]    是！老大！
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    怎麼了？不要傷害我！
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]不良份子：\c[0]    把這個喝下去。
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    這是？ 嗚嗚....
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]不良份子：\c[0]    喝就對了，這個對身體好。
+
+nap/drug_begin_SecondTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]不良份子：\c[0]    吃藥的時間到了。
+
+nap/drug_begin_Eat
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚....
+
+nap/torture_begin
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]雜魚：\c[0]    \{婊子們！看清楚了！
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]雜魚：\c[0]    不工作！不聽話！嘗試逃跑！
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]雜魚：\c[0]    那這就是妳們的下場！
+\CBct[6]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    不要！拜託！饒了我吧！
+
+nap/WhorePrincipal_return
+\narr身上的交易點都歸於他們了。
+
+nap/WhorePrincipal_returnEqp
+\narr奴隸沒有資格擁有，他們把洛娜身上所有的東西都充公了。
+
+nap/SlavePrice
+\narr還需賺 #{$story_stats["BackStreetArrearsWhorePrincipal"]} 點交易點，日夜交接時結算。
+
+nap/SlaveTorture
+\narr他們覺得洛娜是個偷懶的奴隸，他們決定等等要好好教訓她。
+
+#=============================================================================================================
+
+Escape/begin
+\SETpl[MobHumanCommoner]\Lshake\c[0]看守：\c[0]    有個婊子逃跑了！ 抓住她！
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    糟糕了！
+
+Escape/begin_NoCapture
+\SETpl[MobHumanCommoner]\Lshake\c[0]雜魚：\c[0]    有人鬧事！ 宰了她！
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    糟糕了！
+
+Escape/failed
+\SETpl[MobHumanCommoner]\Lshake\c[0]看守：\c[0]    所以這是什麼鬼東西？
+\SETpr[MobHumanCommoner]\Rshake\c[0]看守：\c[0]    大概是個逃跑的奴隸？
+\SETpl[MobHumanCommoner]\Lshake\c[0]看守：\c[0]    先看她身上有什好料的，剩下的晚點再說。
+
+#=============================================================================================================
+
+GangBoss/begin
+\CBid[-1,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]不良份子：\c[0]    看三小？
+
+GangBoss/wait
+\CBid[-1,8]\SETpl[NoerGangBoss]\prf\PLF\c[4]不良份子：\c[0]    ....
+
+GangBoss/begin_slave
+\CBid[-1,20]\SETpl[NoerGangBoss]\Lshake\c[4]不良份子：\c[0]    \{快去工作！
+
+GangBoss/begin_NONtrigger1
+\CBid[-1,20]\m[confused]\SETpl[NoerGangBoss]\prf\PLF\c[4]不良份子：\c[0]    小鬼頭，妳想要什麼？
+\CBid[-1,2]\c[4]不良份子：\c[0]    還是妳有什麼\C[4]特別\C[0]的需求？
+
+GangBoss/begin_NONtrigger2
+\CBct[2]\m[normal]\PRF\plf\c[6]洛娜：\c[0]    嗯？\optD[特別？]
+
+GangBoss/begin_NONtrigger3
+\CBid[-1,20]\prf\PLF\c[4]不良份子：\c[0]    妳是席芭莉絲來的吧？
+\CBct[20]\m[tired]\PRF\plf\c[6]洛娜：\c[0]    是的。
+\CBid[-1,20]\prf\PLF\c[4]不良份子：\c[0]    我同情你們的遭遇，很多人在這場災難中死去了。
+\CBid[-1,20]\c[4]不良份子：\c[0]    也有不少人存活下來，但他們沒有錢也沒有身分證明。
+\CBid[-1,20]\c[4]不良份子：\c[0]    到了最後只能餓死在街頭。
+\CBct[6]\m[sad]\PRF\plf\c[6]洛娜：\c[0]    嗚....
+\CBid[-1,20]\prf\PLF\c[4]不良份子：\c[0]    我可以幫助他們，妳也可以。
+\CBct[2]\m[flirty]\PRF\plf\c[6]洛娜：\c[0]    我？怎麼做呢？
+\CBid[-1,8]\prf\PLF\c[4]不良份子：\c[0]    我收購各種證明文件，並賣給那些有需要的人。
+\CBid[-1,8]\c[4]不良份子：\c[0]    或者借錢給那些需要的難民。
+\CBid[-1,8]\c[4]不良份子：\c[0]    妳也希望能幫助他們對吧？
+\CBct[5]\m[confused]\PRF\plf\C[4]騙子.. 父親也是做生意的。 當我不懂嗎？\C[0]
+\CBid[-1,20]\prf\PLF\c[4]不良份子：\c[0]    妳也需要錢吧？ 妳的身分證明文件的\C[4]正本\C[0]，我願意花一個金幣購買。
+\CBct[20]\m[shocked]\PRF\plf\Rshake\c[6]洛娜：\c[0]    一個金幣？！
+\CBid[-1,20]\prf\PLF\c[4]不良份子：\c[0]    感興趣了？ 很好。
+
+GangBoss/begin_triggered
+\CBid[-1,20]\SETpl[NoerGangBoss] .....
+
+GangBoss/opt_ex_sellID
+賣掉身分證明文件
+
+GangBoss/SellPassport
+\CBct[8]\m[confused]\PRF\plf\c[6]洛娜：\c[0]    一但賣了就不能回頭了，我真的那麼缺錢嗎？
+
+GangBoss/SellPassport_sold
+\CBid[-1,20]\prf\PLF\c[4]不良份子：\c[0]    妳做出了正確的決定。
+\CBid[-1,20]\prf\PLF\c[4]不良份子：\c[0]    啊啊，果然！完美的舊化斑，其他部分出奇的完整，真是好東西！
+
+GangBoss/Arrears_return_opt
+\SETpl[NoerGangBoss]\Lshake\c[4]商人：\c[0]    多少？
+
+#=============================================== PiercingTrader ====================================================
+
+Piercing/Begin
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    呵... 女人... 就是要穿孔...
+
+Piercing/Begin_slave
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    奴隸... 穿環特價... 呵...
+
+Piercing/about
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    海巫說....
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    男人... 穿環，代表強壯。
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    女人... 穿環，代表繁殖...
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    女人.. 生殖器穿環... 代表奴隸。
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    妳.... 女人... 繁殖...
+\CBct[2]\m[wtf]\plf\Rshake\m[wtf]\Rshake\c[6]洛娜：\c[0]    什麼跟什麼阿？沒頭沒尾的？
+
+Piercing/piecing_start
+\CBct[2]\m[flirty]\plf\PRF\m[flirty]\C[6]洛娜：\c[0]    會痛嗎？
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    一點點.... 忍一忍..... 不用怕...
+\CBct[2]\m[tired]\plf\PRF\m[tired]\C[6]洛娜：\c[0]    忍一忍就過去了？
+
+Piercing/piecing_doing
+\SND[SE/Gore_hit1.ogg]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    嗚嗚！
+\SND[SE/Gore_hit2.ogg]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    咿啊！
+\SND[SE/Gore_hit3.ogg]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    咿咿咿啊啊！
+\SND[SE/Gore_hit4.ogg]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    \{咿咿咿啊啊啊！
+
+Piercing/end
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]漁人技工：\c[0]    穿環... 美美的，海巫喜歡！
+
+#============================================ Tree hole house ====================================================
+
+Lona/WorkFailed
+\narr洛娜被客訴了！
+
+sucker/Qmsg0
+她正在工作
+
+sucker/Qmsg1
+我不應打擾她
+
+sucker/Qmsg2
+她很專注
+
+sucker2/Qmsg0
+這是我的洞！
+
+sucker2/Qmsg1
+我一定要吹牠！
+
+sucker2/Qmsg2
+不要煩我！
+
+hole/Qmsg0
+一望無際的黑洞
+
+hole/Qmsg1
+這裡什麼都沒有
+
+hole/Qmsg2
+空的
+
+treeHole/board
+\board[樹洞屋工作須知]
+以客為尊：工作者不可拒絕客人。
+服務至上：工作者必須有禮。
+職場道德：所得請上繳。
+
+########################################################################################## REP Addon
+
+FishTraderREP/begin_normal
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    女人...要什嘛...！
+
+FishTraderREP/begin_normalArrears
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    是...我們需要更多的女人...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    妳的...生活將受到保護...
+
+FishTraderREP/work_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    女人...工作...交配...
+
+FishTraderREP/BecomeSlave_begin0
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    來...幫助...我們....賺錢...
+
+FishTraderREP/BecomeSlave_accept1
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    很好...現在...喝下這個...
+\CBct[20]\m[triumph]\plf\c[6]洛娜：\c[0]    咦！謝謝。
+\SND[SE/drink02.ogg]\plf\prf\narr洛娜將飲料喝了下去
+
+FishTraderREP/work_whore_accept0
+\CBid[-1,20]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]商務代表：\c[0]    很好，妳是我們的一員了。
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]商務代表：\c[0]    工作時不可離開這裡，還有休息請至左邊的小屋。
+
+FishTraderREP/work_whore_accept1
+\BonID[-1,20]\CamMP[GangBossREP]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    我們的員工...會看著妳....
+\CBmp[GangBossREP,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[flirty]\c[4]雇員：\c[0]    \...\...\...
+\CBmp[GangBossREP,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[fear]\Lshake\c[4]雇員：\c[0]    女人...想肏...
+
+FishTraderREP/work_whore_NoTrait
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    妳...不適合...這份工作...
+
+FishTraderREP/opt_AboutArrears
+\CBid[-1,8]\m[confused]\SETpl[FishBusinessMan]\PLF\c[4]商人：\c[0]    ....
+
+FishTraderREP/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]洛娜：\c[0]    那個...我最近手頭有點緊，能不能....
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]   　...借款？
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    看...規則...
+
+FishTraderREP/Arrears_return_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    需要...什...服務...
+
+FishTraderREP/Arrears1_opt
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    要借...多少...\optB[算了,1金,2金,3金,4金]
+
+FishTraderREP/Arrears_accept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]商務代表：\c[0]    嗯...很好...
+\CBct[8]\m[shy]\plf\c[6]洛娜：\c[0]    嗯...　謝謝。
+
+
+nap/drug_begin_FristTime_REP
+\CBmp[GangBossREP,5]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]雇員：\c[0]    抓牢她....
+\CBmp[stGang1,20]\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]雜魚：\c[0]    是！老大！
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    怎麼了？不要傷害我！
+\CBmp[GangBossREP,20]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]雇員：\c[0]    喝下去...
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    這是？ 嗚嗚....
+
+nap/drug_begin_SecondTime_REP
+\CBmp[GangBossREP,5]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]雇員：\c[0]    吃藥....
+
+nap/drug_begin_Eat_REP
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚....
+
+nap/WhoreWakeUp_REP
+\CBmp[HappyMerchantREP,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\c[4]商人：\c[0]    \{....起來...工作...！！！
+
+########################################################################################## Raploop Addon
+
+wakeup_rapeloop/RngRape0_wakeupCall_begin0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    喂，賤貨！ 快給我醒來！
+
+wakeup_rapeloop/RngRape0_wakeupCall_rapeloop
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    輪到我們用妳的屄穴了。
+
+wakeup_rapeloop/RngRape0_wakeupCall_ans
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+
+wakeup_rapeloop/RngRape1_to_Somewhere
+\narr 落娜被抓到了其他地方...
+
+wakeup_rapeloop/RngRape2
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    抓牢她，我先上了♥
+
+wakeup_rapeloop/RngRape3
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    換我了！換我了！
+
+wakeup_rapeloop/RngRape_cum0
+\c[4]幫派份子：\c[0]    \{啊啊♥ 變緊了！
+
+wakeup_rapeloop/RngRape_cum1
+\c[4]幫派份子：\c[0]    \{賤貨！給我接好了♥
+
+wakeup_rapeloop/RngRape_cum2
+\c[4]幫派份子：\c[0]    \{要射了♥要射了♥
+
+wakeup_rapeloop/RngRape_cum3
+\c[4]幫派份子：\c[0]    \{就這樣射裡面吧♥
+
+wakeup_rapeloop/RngRape_cum4
+\c[4]幫派份子：\c[0]    \{嗚哦！ 被榨出來了♥
+
+wakeup_rapeloop/RngRape_end0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    不錯，表現的很好阿。
+
+wakeup_rapeloop/RngRape_end1
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    真爽阿...
+
+wakeup_rapeloop/RngRape_end2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    很好，下一次我們也會來用妳。
+
+######################### Raploop enema EV
+
+wakeup_rapeloop/EnemaEV_begin0
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    婊子們，今天是肛門特惠日，上工前要保證你們的屁眼夠乾淨。
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    \{都把屁股給我抬起來！
+
+wakeup_rapeloop/EnemaEV_end
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    婊子們，放屎吧！
+
+######################### Raploop PeeonEV
+
+wakeup_rapeloop/Peeon_begin0
+\SETpl[AnonMale1]\Lshake\c[4]幫派份子：\c[0]    嘿嘿....
+
+wakeup_rapeloop/Peeon_begin1
+\ph\narr \..\..\..
+
+wakeup_rapeloop/Peeon_begin_end
+\narr不知道是誰在落娜的身上灑下了黃金水。
+
+######################### Raploop RngNightCustomer
+
+wakeup_rapeloop/RngCustomer_begin0
+\c[4]嫖客：\c[0]    喂！快給我醒來！
+
+wakeup_rapeloop/RngCustomer_begin1
+\c[4]嫖客：\c[0]    妳！ 我花錢買了這裡最便宜的婊子。
+
+wakeup_rapeloop/RngCustomer_begin2
+\c[4]嫖客：\c[0]    快給我把腿張開！
+
+wakeup_rapeloop/RngCustomer_begin_end
+\c[4]嫖客：\c[0]    \{嗚哦哦哦哦！！！
+
+######################### CommonGangMember begging
+
+CommonGangMember/begging0
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    嗯？ 想要吃藥了?
+
+CommonGangMember/begging1
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    癮頭來了？ 想要來點好東西？
+
+CommonGangMember/begging_success
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    好阿，照我說的做我就把藥給妳。
+
+CommonGangMember/begging_success_nothing
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    那就給妳吧。
+
+CommonGangMember/begging_success_offerItem
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    來♥ 嘴巴張開♥
+\CBct[8]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    咕嗚....
+
+CommonGangMember/failed_nothing
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    哈哈♫ 就不給妳♥
+
+CommonGangMember/failed_mad0
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    像妳這種便宜貨沒有資格跟我討價還價！
+
+CommonGangMember/failed_mad1
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]幫派份子：\c[0]    快點去死吧！垃圾！
+
+CommonGangMember/failed_mad2
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    臭死了！ 快滾！
+

@@ -1,0 +1,324 @@
+NoerDock/OvermapEnter
+\m[confused] Порт Ноера \optB[Скасувати,Увійти]
+
+#---------------------------------------Noer Dock cOMMON ppl ----------------------------------
+
+SailerGuard/GoAway0
+Чи не створювай проблем!
+
+SailerGuard/GoAway1
+Провалюй!
+
+SailerGuard/GoAway2
+Відійди!
+
+##---------------------------------------
+
+NightFapper/Fapper0
+Я – король світу!
+
+NightFapper/Fapper1
+Дитя! Іди та підкори світ!
+
+NightFapper/Fapper2
+Закінчую! Закінчую!
+
+NightFapper/Fapper3
+Я закінчую-а-аю!
+
+##---------------------------------------
+
+RiotPPL1/Yelling0
+Пустіть на борт! Я в боргу не залишусь!
+
+RiotPPL1/Yelling1
+У мене є квиток!
+
+RiotPPL1/Yelling2
+Що за херня! Адже я витратив гроші!
+
+RiotPPL2/Yelling0
+Я за це віддав все, що я мав...
+
+RiotPPL2/Yelling1
+Благаю вас, пустіть на борт!
+
+RiotPPL2/Yelling2
+Прошу! Пустіть нас на борт!
+
+RiotPPL3/Yelling0
+Пустіть на човен!
+
+RiotPPL3/Yelling1
+Гроші! Я вам дам гроші!
+
+RiotPPL3/Yelling2
+Чому ціна знову зросла?
+
+##---------------------------------------
+
+BoardReader1/Read0
+Скрізь монстри?
+
+BoardReader1/Read1
+Роботоргівля... Що буде далі?
+
+BoardReader1/Read2
+Пограбування стали буденністю.
+
+BoardReader2/Read0
+Світу приходить кінець.
+
+BoardReader2/Read1
+Друзі, рідні... Усі мертві...
+
+BoardReader2/Read2
+Що ми можемо зробити?
+
+##---------------------------------------
+
+SlaveChild/Talk0
+Мамуля...
+
+SlaveChild/Talk1
+Я хочу додому...
+
+SlaveChild/Talk2
+Чому ти мене лишила...?
+
+SlaveAdult1/Talk0
+Ви мене обдурили! Ви ошуканці!
+
+SlaveAdult1/Talk1
+Ні! Я не хочу бути рабом!
+
+SlaveAdult1/Talk2
+Я не маю бути тут! Я з благородної родини!
+
+SlaveAdult2/Talk0
+Куди нас перевозять?
+
+SlaveAdult2/Talk1
+Що ми маємо робити?
+
+SlaveAdult2/Talk2
+Мені страшно......
+
+##---------------------------------------
+
+Board/FishKindPplTrade
+\board[Прийом біженців]
+Нема їжі? Ви ще на щось здатні? Продайте себе, ми захистимо вас.
+Дівчини：6 Великих Мідяків
+Діти：3 Великих Медяка
+Дорослі：1 Великий Медяк
+Ціна варіюється в залежності від фізичного стану та зовнішнього вигляду товару, чоловікам та безплідним жінкам звертатися не варто.
+За подробицями звертайтеся на рибний ринок, праворуч від доків.
+
+##---------------------------------------
+
+Board/IttWorker
+\board[Наймання працівників у шахти]
+Приходьте працювати в Кришталеві Шахти, ми наймаємо всіх.
+Один Великий Медяк на місяць може стати вашим заробітком.
+Щомісяця відбираються три щасливчики, які зможуть спливти з рудовозом.
+
+##---------------------------------------
+
+Board/PirateAround
+\board[Літаючий Спагетті]
+Сумно відомий піратський корабель «Літаючий Спагетті», як вважають, ховається у водах Ноєра.
+3 Золоті Монети для того, хто зможе захопити команду корабля.
+1 Золота Монета за будь-яку інформацію про корабель та його команду.
+
+##--------------------------------------- fISHkIND ----------------------------------
+
+FrogmanTrader/begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\Lshack\c[4]Рибалка:\C[0] Риба...! Свіжа... Риба!
+\m[shocked]\Rshake\c[6]Лона:\C[0] Ойй! \optB[Триматися подалі...,Обмін]
+
+FrogmanTrader/begin_trade
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]Рибалка:\C[0] Дівчинка... Купити... Рибу...!
+
+FrogmanTrader/begin_WhoreWorkWin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]Рибалка:\C[0] Сіяти...! Кладка!
+
+FrogmanTrader/begin_WhoreWorkFail
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]Рибалка:\C[0] Ти... Іди!
+
+RandBusinessMan/talk1
+\m[confused]\c[4]Перехожий:\C[0] Ці рибалки щось задумали... Але іронія в тому, що більшість їжі поставляється нам від них. \optD[«Рибалки»?]
+
+RandBusinessMan/talk2
+\c[4]Перехожий:\C[0] Ти ніколи їх не зустрічала? Це вихідці з острова, де мешкають змішані раси. А це ті, кого вигнали з їхнього рідного місця.
+Тільки глянь на них. Тут скрізь смердить рибою, ніхто до них навіть не хоче підходити.
+
+RandBusinessMan/Qtalk0
+Вони купили багато жінок на острові Ноера.
+
+RandBusinessMan/Qtalk1
+І ніхто не знає, що з ними сталося.
+
+FrogmanPrayer/Pray0
+Морська Відьма...! Почуй... прислухальника!
+
+FrogmanPrayer/Pray1
+Треба прославити... Морську Відьму!
+
+FrogmanPrayer/Pray2
+Морська Відьма... Благословляє мене!
+
+##-------------------------------------- SlaveDealer
+
+SlaveDealer/TalkNonSlave
+\SndLib[FishkindLgSpot]\CBmp[SlaveDealer,8]\c[4]Робітник:\C[0] Людина... Ми можемо... Дати тобі безпеку... Якщо приймеш... Пропозиція бути... Нашою рабинею... \optB[Не дякую!,Я згодна...]
+
+SlaveDealer/TalkNonSlave_yes
+\SndLib[FishkindLgSpot]\CBmp[SlaveDealer,20]\c[4]Робітник:\C[0] Дуже... Добре! Змигнути не встигнеш... І ти станеш чудовою... Матір'ю нашого виводка...
+\SndLib[FishkindLgSpot]\CBmp[SlaveDealer,20]\c[4]Робітник:\C[0] Вперед...!
+
+SlaveDealer/TalkIsSlave
+\SndLib[FishkindLgSpot]\CBmp[RelayTrader,19]\c[4]Робітник:\C[0] Бідолашна... Маленька рабиня... Скажи братам... Біля порома... Що ти хочеш... На острів Рибополіс...
+\SndLib[FishkindLgSpot]\CBmp[RelayTrader,19]\c[4]Робітник:\C[0] Ми будемо... Захищати тебе... Гарне місце... Гірше не буде...
+
+SlaveDealer/Talk_failed
+\SndLib[FishkindLgSpot]\CBid[-1,5]\c[4]Робітник:\C[0] Ти...Чоловік? Не беремо чоловіків!
+\CBct[8]\m[flirty]\c[6]Лона:\C[0] Ем....
+
+#################################YAMATO CAPTAIN ############################
+
+Captain/Welcome_unknow
+\CBid[-1,2]\SETpl[Mfat_DockCaptain]\m[confused]\prf\c[4]???：\C[0] Ахой, дівчисько, мене звуть Едвард. Хочеш спливти звідси?
+
+Captain/Welcome_unknow_detail
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Я... Я справді хотіла б звідси забратися.
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\PLF\prf\c[4]Едвард：\C[0] Моя шхуна переповнена, але в тебе ще є два варіанти.
+\CBid[-1,20]\PLF\prf\c[4]Едвард：\C[0] Перший - стати рабинею. Але не хвилюйся...
+\CBid[-1,20]\PLF\prf\c[4]Едвард:\C[0] Якщо на заході у тебе є близькі, вони зможуть тебе викупити.
+\CBct[2]\m[fear]\plf\PRF\c[6]Лона:\C[0] ...Стати рабинею......
+\CBid[-1,20]\PLF\prf\c[4]Едвард：\C[0] Хммммфф, твої емоції говорять все за тебе.
+\CBid[-1,20]\PLF\prf\c[4]Едвард：\C[0] Ну а другий, це дати мені 20 Золотих Монет, тоді я точно знайду вільне місце для тебе.
+\CBct[20]\m[shocked]\plf\PRF\Rshake\c[6]Лона:\C[0] \{Дв-Двадцять Золотих Монет?!
+\CBct[20]\m[wtf]\plf\PRF\c[6]Лона:\C[0] За ці гроші можна купити будинок у Сібарісі!
+\CBid[-1,20]\PLF\prf\c[4]Едвард：\C[0] Мене це не турбує. Але май на увазі – чим пізніше наважишся – тим дорожче це тобі обійдеться.
+\CBid[-1,20]\PLF\prf\c[4]Едвард：\C[0] Немає грошей? Тоді провалюй, я зайнятий.
+\CBct[8]\m[sad]\plf\PRF 20 Золотих Монет...
+\CBct[8]\m[serious]...Мені потрібно спробувати, може, ще є можливість.
+
+Captain/Welcome_talked
+\CBid[-1,2]\m[confused]\SETpl[Mfat_DockCaptain]\c[4]Едвард:\C[0] Ахой, дівчисько, ми знову зустрілися. Ну, що, вирішила?
+
+Captain/OPT_HowMuch
+Скільки зараз коштує квиток?
+
+Captain/OPT_GiveMoney
+Дати золоті монети
+
+Captain/OPT_BeSlave
+Стати рабинею...
+
+Captain/Price_today
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Сьогодні місце на кораблі стоїть
+
+Captain/Price_today_link
+Золоті монети. Тобі краще поспішити, дівчисько, чим довше думаєш, тим вищою буде ціна...
+
+Captain/Leave_Slave
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Пройдися до закутків Ноертауна або придивися до рибо-мужиків, тебе напевно захочуть взяти в рабство.
+
+Captain/Leave_NotEnoughMoney
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0]\{ ...Ти, погань, мене обдурити намагаєшся?
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард：\C[0]\{ Проблем хочеш, так?! СУХОПУТНА СУКА! Хлопці! Вбийте цю тварину!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] ЩО?! З-Стійте!
+
+Captain/Leave_WithEnoughMoney
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\m[trumph]\plf\PRF\c[6]Лона:\C[0] \..\..\..
+\cgoff\CBid[-1,1]\m[shy]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Че, у тебе з'явилися гроші? Ану, дай порахувати...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] ...Отже......?
+\CBid[-1,4]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Якір мені в порт! Та тут правда вся сума! Я здивований, що такий малюк зміг дістати стільки. Давай на борт, доки я не передумав. \CamCT    
+
+#################################################################################
+
+Captain/WithArrears0
+\CamMP[Captain]\BonMP[Captain,5]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] \{А тепер.. Хлопці! Хапайте її!
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона:\C[0] \{ЩО?!!! С-Стоп!
+
+Captain/WithArrears1
+\CamCT\m[p5sta_damage]\plf\Rshake\c[6]Лона:\C[0] З-Стійте!
+\m[p5sta_damage]\plf\Rshake\c[6]Лона:\C[0] Пустіть... Пустіть мене!!!
+\m[p5health_damage]\plf\Rshake\c[6]Лона:\C[0] Мммггххх...!
+\m[p5health_damage]\plf\Rshake\c[6]Лона:\C[0] Ви, злі уб-блюдки...!!!
+\m[p5puke]\plf\Rshake\c[6]Лона:\C[0] РРРХ...!
+\m[p5ahegao]\plf\Rshake\c[6]Лона:\C[0] *Бульк* Кхх...
+\m[p5ahegao]\plf\Rshake\c[6]Лона:\C[0] Охххх......~
+Лора задихнулася і знепритомніла.
+
+Captain/WithArrears2
+\CamMP[Captain]\BonMP[Captain,2]\SETpl[Mfat_DockCaptain]\SETpr[NoerGangBoss]\Lshake\prf\c[4]Едвард:\C[0] Як поживає ця дівка?
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Бандит：\C[0] Сучка в порядку. Просто замерзла.
+\CamMP[Captain]\BonMP[Captain,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Тупа дівка думала, що можна втекти, коли в неї є невиплачені борги.
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Бандит：\C[0] Ну що, зробимо, як домовлялися. Ми забираємо товар, а ти отримуєш нагороду.
+\CamMP[Captain]\BonMP[Captain,3]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Ага. Радий працювати з вами.
+
+################################################################################# Dock HEV
+
+FishKindDoor/Hev0
+\c[4]Рабиня A：\C[0] Гей! Не штовхайся!
+
+FishKindDoor/Hev1
+\c[4]Рабиня B：\C[0] Вони говорили, що на острові Рибополіса не буде монстрів, але...
+
+FishKindDoor/Hev1_1
+\c[4]Рабиня A：\C[0] Що буде з нами тепер...?
+
+FishKindDoor/Hev2
+\c[4]Рабиня C：\C[0] *Зітхання*...
+
+FishKindDoor/Hev3
+\c[4]Риболюдина:\C[0] Тихо... Рухаємося... Розмножуватися...
+
+FishKindDoor/Hev4
+\c[4]Риболюдина:\C[0] Розмножуватися... Їж рибу... Не голодуй...
+\c[4]Рибочеловек:\C[0] Ми... Їдемо додому... У гарне місце...
+
+FishKindDoor/Hev5
+\narr Вони хоч і хвилювалися, але не чинили опір...
+\narr Здається, багато хто з них навіть пішов на це за своєю волею.
+
+FishKindDoor/Lona0
+\m[flirty]\plf\PRF\c[6]Лона:\C[0] А на острові Рибополіса правда безпечно?
+\m[confused]\plf\PRF\c[6]Лона:\C[0] Вони стали рабинями добровільно?
+
+################################################################################# SLAVE on Board
+
+Captain/Leave_Slave
+\CBct[6]\m[fear]\plf\Rshake\c[6]Лона:\C[0] Будь ласка, скажіть... Якщо я стану рабинею, ви пустите мене на борт?
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Кхм\...\...\...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард：\C[0] Команді не вистачає жінок для обслуговування, такі як ти нам дуже потрібні.
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Ти впевнена, що хочеш стати нашою рабинею?
+
+Captain/Leave_Slave_yes0
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона:\C[0] Ну.. Добре... Я хочу...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард：\C[0] Чудово! Ходімо зі мною!
+
+Captain/Leave_Slave_yes1
+\m[p5shame]\Rshake\c[6]Лона:\C[0] Хлопці... Що ви робите?
+\SETpl[AnonMale1]\Lshake\CamCT\C[4]Моряк：\C[0] Не рухайся! Ти коштуватимеш менше, якщо вийде криве тавро!
+\m[p5sta_damage]\Rshake\c[6]Лона:\C[0] Ні, відпустіть мене!
+\cg[event_SlaveBrand]\SETpl[AnonMale1]\Lshake\CamCT\C[4]Моряк:\C[0] Я ж сказав тобі не рухатися! Гарна дівчинка!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Лона:\C[0] \{ААААААААЙ!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона:\C[0] \{АААХХХХХ!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона:\C[0] \{Аййййй!
+\narr\phЛона втратила свідомість\...\...\...
+
+Captain/Leave_Slave_no
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Еээ... Неважливо, забудьте про це.
+
+Captain/Leave_SlaveTR1
+\SETpr[AnonMale1]\Rshake\C[4]Моряк：\C[0] Капітан, це ...?
+\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард：\C[0] Бігла рабиня, тягніть її на борт.
+\SETpr[AnonMale1]\Rshake\plf\C[4]Моряк:\C[0] Так, капітан!
+
+#move Old
+#Captain/Leave_Slave
+#\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Едвард:\C[0] Пройдися до закутків Ноера або придивися до рибо-мужиків, тебе напевно захочуть взяти в рабство.

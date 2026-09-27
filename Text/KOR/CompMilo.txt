@@ -1,0 +1,224 @@
+
+Milo/CecilyGroupQmsg0
+경비병!
+
+Milo/CecilyGroupQmsg1
+모두 죽여버려!
+
+Milo/InBarBegin_unknow0
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]???：\c[0] 나는 마일로 본 루드신드이야. 넌 누구지?
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 안녕하세요, 저는 로나 폴딘입니다.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]마일로：\c[0] \..\..\..\..\n로나, 작은 벌레라고? 명단에 네 이름은 없는데.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]마일로：\c[0] 꺼져라, 꼬마 벌레야.
+\CamCT\m[wtf]\plf\PRF\c[6]로나：\c[0] 네…?
+
+Milo/InBarBegin_know
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]마일로：\c[0] 여긴 네가 환영받는 곳이 아니야.
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 미안해.
+
+Milo/elseBegin
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 무슨 일이야? \optB[아니야,루드신드,노엘 마을,시바리스]
+
+Milo/elseBegin_Rudesind
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 너도 알다시피, 우리 루드신드 가문은 모든 걸 쥐고 있는 상위 계층이야.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 우리의 발자국은 세상 어디에나 남아 있지.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 내가 없었으면 지금의 노엘 마을도 존재하지 않았을걸.
+
+Milo/elseBegin_Noer
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 이 섬의 이름처럼, 노엘섬이지.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 여긴 이 섬에서 가장 먼저 사람들이 모여 살기 시작한 곳이고, 이후 우리 가문이 하나하나 만들어낸 곳이야.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 한때는 동서양 해상 무역의 핵심 중계지이기도 했지.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 시바리스는 원래 노엘을 대체하기 위해 세워진 도시였어.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 하지만 수십 년 전 전염병이 그걸 더 빨리 앞당겼지.
+
+Milo/elseBegin_Sybaris
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 깊은 항구가 없으니 노엘 마을은 점점 커지는 해상 무역을 감당할 수 없었지.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 누가 알았겠어? 배가 이렇게까지 커질 줄은.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 70년 전에 각국 무역 대표들이 돈을 모아서 새로운 도시를 세웠어.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 그 도시가 바로 시바리스야.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그래, 우리도 그 안에 있었지. 하지만 지금은 전부 먼지가 되어버렸어.
+
+######################################################################## Hunting ##################################
+
+Milo/QuestMilo_2to3_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 뭐야? 넌 누구지?
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 에헤헤... 여기 초대장이 있는데, 혹시 마일로 씨 맞으시죠?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 내가 마일로다. 그리고 초대장이라고? 어디 좀 보자.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] \..\..\..
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]마일로：\c[0] 흥미롭군. 소문에 그 소녀를 구해낸 용사가 고작 벌레 한 마리였다니.
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐라고요? 벌레라니?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 농담이야. 어쨌든 이런 일들을 해낼 수 있었다면 그만한 실력도 있겠지?
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 실력이라...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그래, 살아남은 사람들을 위해서라도 네 도움이 필요해.
+
+Milo/QuestMilo_3to4_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 너도 알다시피, 노엘는 이미 집 잃은 불쌍한 놈들한테 포위당한 상태야.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 뭐, 그건 괜찮아. 나는 그들을 탓하지 않아.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그들에게도 각자 불쌍한 사연이 있겠지. 하지만 이제 그런 얘긴 지겹다고.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그런데 그 중 일부는 우리가 힘들게 세운 질서를 망치려는 망상을 품고 있어.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 자기들이 시바리스까지 되찾을 수 있다고 꿈꾸지.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그리고 질서가 무너지면 어떻게 되는지 아니?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 넌 봤을 거야. 네가 함께 후퇴했던 사람들 사이에서도 말이야.
+\CamCT\m[tired]\plf\PRF\c[6]로나：\c[0] 그래, 나도 봤어...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 네가 이해하고 있겠지.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 최근에, 그들 중 한 명이 마을 밖에서 움직인다는 보고를 받았어.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 이름이... \c[6]아담\c[0]이라고 하지?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그 놈의 목을 가져오면, 그에 걸맞는 보상을 주지.
+
+Milo/QuestMilo_3to4_QuBoard
+\board[치안 유지]
+목표：아담을 반드시 처치할 것
+보수：큰 동전 5개, 평판 5
+의뢰인：마일로 본 루드신드
+수행가능횟수：1회
+우리 부하가 그 자가 북동쪽 폐가에 나타난 걸 목격했다.
+난 이 반동분자를 처리할 암살 전문가가 필요하다.
+
+Milo/QuestMilo_3to4_no
+\CamCT\m[serious]\plf\PRF\c[6]로나：\c[0] 싫어!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 아쉽군, 역시나 한낱 벌레에 불과한가?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 그래도 네가 곧 마음을 바꿀 거라는 건 알고 있어.
+\CamCT\m[bereft]\plf\Rshake\c[6]로나：\c[0] 나, 벌레 아니거든!
+
+Milo/QuestMilo_3to4_yes
+\CamCT\m[serious]\plf\PRF\c[6]로나：\c[0] 좋아! 난 벌레가 아니야! 할 수 있어!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 좋아! 좋은 소식 기다리겠다!
+
+Milo/QuestMilo_3to4_yes_adamDed0
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 그런데... 그 사람 이미 죽은 것 같아.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 뭐라고?
+\CamCT\m[confused]\plf\PRF\c[6]로나：\c[0] 내가 본 적 있어... 여행 중에 이미 죽어 있는 걸 봤거든....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 진짜야?
+
+Milo/QuestMilo_3to4_yes_adamDed1
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 진짜야....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 흠......
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 이 세상은 정말 고통으로 가득 찼군....
+\CamCT\m[tired]\plf\PRF\c[6]로나：\c[0] 맞아...
+
+Milo/QuestMilo_6to7
+\CamCT\m[serious]\plf\PRF\c[6]로나：\c[0] 다녀왔어!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 잘됐네! 또 만났군.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 그 사람의 머리 가지고 왔어?
+
+Milo/QuestMilo_6to7_withHead0
+\CamCT\m[fear]\plf\PRF\c[6]로나：\c[0] 네... 으으...
+
+Milo/QuestMilo_6to7_withHead1
+\BonMP[Milo,4]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 아... 아담이군. 정말 잘했어!
+\BonMP[Milo,5]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 저 말썽꾸러기 녀석이 계속 주변에서 소란을 피웠지.
+\BonMP[Milo,15]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 꽤 많은 마을 사람들과 경비병이 그의 손에 당했어.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 사람을 죽이는 게 쉽지는 않았겠지?
+\CamCT\m[tired]\plf\PRF\c[6]로나：\c[0] 응....
+
+Milo/QuestMilo_6to7_withHead2
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 너무 슬퍼하지 마. 이건 살아남은 사람들을 위한 선택이야.
+\CamCT\m[sad]\plf\PRF\c[6]로나：\c[0] 고마워...
+
+Milo/QuestMilo_6to7_NoHead0
+\CamCT\m[fear]\plf\PRF\c[6]로나：\c[0] 나도 모르게 그의 머리를 잃어버렸어.....
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] \..\..\..
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] \..\..\..
+\CamCT\m[bereft]\plf\Rshake\c[6]로나：\c[0] 나... 정말로 그 사람을 죽였어, 거짓말 아니야!
+\CamCT\m[shocked]\plf\PRF\c[6]로나：\c[0] 시체는 아직 폐가에 있어! 진짜야! 사람 시켜서 확인해 봐도 돼!
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] \..\..\..
+\CamCT\m[tired]\plf\PRF\c[6]로나：\c[0] 으으....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 괜찮아, 난 널 믿어!
+
+Milo/QuestMilo_6to7_NoHead1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 받아라.
+\CamCT\Bon[1]\m[sad]\plf\PRF\c[6]로나：\c[0] 이건\..\..\..
+\CamCT\Bon[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 정말 고마워요! 저를 믿어줘서 고마워!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 고맙긴, 아직 부탁할 일이 더 많으니까.
+
+Milo/QuestMilo_6to7_NoHead2
+\CamCT\Bon[6]\m[pleased]\plf\PRF\c[4]마일로는 좋은 사람이네!
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] \..\..\..\..
+
+#################################################################################### betray Cecily? ###########################
+
+Milo/QuestMilo_9_Ignore
+\CBid[-1,20]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]???：\c[0] 로나, 벌레 맞지?
+\CBid[-1,5]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]???：\c[0] 유감이지만, 넌 이미 선택했어. 꺼져.
+\CamCT\m[wtf]\plf\PRF\c[6]로나：\c[0] 에? 
+
+Milo/QuestMilo_9to10_1
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 네, 안녕하세요? 초대장 받고 왔어요.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 오! 귀여운 벌레, 드디어 왔구나.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 무슨 일이시죠?
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 혹시 \c[6]세실리\c[0]라는 애 알아?
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 알아요! 완전 충동적인 아가씨죠!
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 그 애에 대해 좀 알려줄래? 나랑 친구가 될 수도 있잖아.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어....\optD[싫어,좋아]
+
+Milo/QuestMilo_9to10_2_0
+\CBct[20]\m[serious]\plf\PRF\c[6]로나：\c[0] 거짓말! 세실리가 네가 이 모든 사태의 원흉이라고 했어!
+\CBct[20]\m[angry]\plf\Rshake\c[6]로나：\c[0] 너야말로 노예상인들의 배후 아니야!
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 꽤 심각한 오해구나.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 오해?!
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 잘 들어. 나는 갈 곳 없는 자들에게 길을 만들어줬을 뿐이야.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 네가 그들에게 길을 주지 않으면, 그들은 너를 잡아먹겠지.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 봤잖아? 도망치던 길에, 서로 잡아먹는 난민들.
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 으...
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 맞아, 봤지. 그들은 괴물과 다를 바 없어.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그게 바로 아무 길도 없을 때의 인간이야.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 그래, 난 노예를 팔아. 그 돈은 어디로 갈까?
+\CBct[20]\m[shy]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 전선의 용병들, 병사들 월급은 누가 내는 줄 아니?
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] \..\..\..
+
+Milo/QuestMilo_9to10_2_1
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 알겠어...
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 걔 원래 시바리스 귀족 아니야?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 완전 무대포인 언니지.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 무슨 일이 있으면 그냥 돌진부터 하더라고.
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 그래도 성격은 나쁘지 않아. 평민들한테도 잘해주는 귀족이야.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 좋아, 정말 고마워. 사실 이런 건 이미 대충 알고 있었지.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] \c[6]에그모\c[0]집안이 원래 무예를 중시하는 전통이 있으니까. 예전 연회 때 그녀를 본 적도 있어.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 그런데... 그녀가 노엘 마을의 현 상황에 대해 어떻게 생각하는지 알고 있어?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음....\optD[모르겠어,적대적이야]
+
+Milo/QuestMilo_9to10_3
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 걔는 지금 난민들 상황에 몹시 불만이야. 어떻게든 도와주려고 애쓰는 것 같아.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 근데 솔직히 별로 희망은 안 보여.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 최근에는 싫어하는 노예상 놈들을 박살내려고 한다더라!
+\CBct[20]\m[triumph]\plf\PRF\c[6]로나：\c[0] 정의감 넘치는 귀족이라서, 나도 좀 마음에 들어.
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 박살낸다니? 더 자세히 말해볼래?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 사실 나도 그 애랑 오해를 풀고 싶어서 그래.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 그건 아무한테나 쉽게 말할 수 있는 게 아닌데?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 지금은 누구나 서로 힘을 합쳐야 하는 상황이잖아. 이렇게 큰 재앙이 터졌으니까.
+\cg[event_Coins]\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 너도 노엘섬을 떠나고 싶지? 내가 이걸 줄 수 있어.
+
+Milo/QuestMilo_9to10_3board
+\board[치안 유지]
+목표 : 나에게 말해줘
+보상 : 금화 10개
+
+Milo/QuestMilo_9to10_3opt
+\cgoff\CBct[1]\m[confused]\plf\PRF\c[6]로나：\c[0] 뭐!? 이렇게 많다고!?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 믿어봐. 사람들의 삶을 위해서라면 나도 힘을 보태고 싶으니까. \optD[거절한다,받아들인다]
+
+Milo/QuestMilo_9to10_yes0
+\CBct[8]\m[shy]\plf\PRF\c[6]로나：\c[0] 알겠어....
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 근데... 사실 자세한 건 나도 잘 몰라. 그녀도 자세한 얘기는 안 해줬거든.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 다만 전에 오일 뒤에 다시 찾아오라고 했어. 아마 오일? 맞나? 아마도? 그럴걸?
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] 오일이라고?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 돈... 없어도 상관없어. 
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 이런 정보 별로 도움 안 되는 거 알지만, 진짜 내가 아는 건 이게 다야.
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 괜찮아. 받아.
+
+Milo/QuestMilo_9to10_yes1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 이렇게 해도 돼!?
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 내가 말했잖아, 우리 사이 오해를 풀고 싶다고.
+\CBct[8]\m[triumph]\plf\PRF\c[6]로나：\c[0] 고마워!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 아, 그리고 그녀한테 내가 널 만났다고 말하지 마. 그 성격이면 널 가만 안 둘 테니까.
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 내가 직접 설명할게. 귀족들 일은 신경 쓰지 마, 꼬마 벌레야.
+\CBct[8]\m[pleased]\plf\PRF\c[6]로나：\c[0] 네!
+
+Milo/QuestMilo_9to10_refuse
+\CBct[6]\m[serious]\plf\PRF\c[6]로나：\c[0] 안 돼! 그녀는 널 나쁜 놈이라고 생각해!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 그래, 넌 참 솔직한 꼬마 벌레구나.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 엇?! 너 화낼 줄 알았는데!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]마일로：\c[0] 왜 내가 화내겠어?
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]마일로：\c[0] \..\..\..\..

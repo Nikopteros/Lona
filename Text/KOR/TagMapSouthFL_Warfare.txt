@@ -1,0 +1,36 @@
+thisMap/OvermapEnter
+포병 진지\optB[그만둔다,들어간다]
+
+Guard0/Com0
+\CBid[-1,20]\c[4]병사：\c[0] 고향을 되찾는다고? 그게 무슨 의미가 있지?
+
+Guard0/Com1
+\CBid[-1,20]\c[4]병사：\c[0] 사람들은 다 죽었는데, 우리가 여기서 대체 뭘 하고 있는 거지…
+
+Guard0/Com2
+\CBid[-1,20]\c[4]병사：\c[0] 도시에 아직 사람이 살아 있다고? 네가 진짜 그들이 ‘사람’이라고 생각하나?
+
+Guard1/Com0
+\CBid[-1,20]\c[4]병사：\c[0] 그래, 며칠 전에야 노엘 마을에서 전출돼 왔어.
+
+Guard1/Com1
+\CBid[-1,20]\c[4]병사：\c[0] 난민들한테서 이곳의 얘기를 들었을 땐 믿지 않았는데… 내 눈으로 보고서야 알겠더군.
+
+Guard1/Com2
+\CBid[-1,20]\c[4]병사：\c[0] 이건 너무 심각한데… 감염 범위가 계속 확장되는 건 아니겠지?
+
+Guard2/Com0
+\CBid[-1,20]\c[4]병사：\c[0] 야! 괴물은 어딨지? 난 괴물 잡으러 온 거라고!
+
+Guard2/Com1
+\CBid[-1,20]\c[4]병사：\c[0] 하하! 꼴좋다, 잘 됐군!
+
+Guard2/Com2
+\CBid[-1,20]\c[4]병사：\c[0] 이 썩어빠진 도시, 진짜 끝장났어!
+
+Officer/Common_basic
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 뭐지? 지금은 바쁘다.
+
+Officer/Common_Saint
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 성자여… 이제야 믿게 되었다. 인도해 주시길….
+

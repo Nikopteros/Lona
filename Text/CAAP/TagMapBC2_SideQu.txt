@@ -1,0 +1,173 @@
+thisMap/OvermapEnter
+Convoy Saqueado \optB[Cancelar,Entrar]
+
+QuGiver/Begin0
+\CBid[-1,6]\m[confused]\prf\c[4]Viajero：\C[0]    Perdido. Todo está perdido...
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Eh...? ¿Qué se perdió?
+
+QuGiver/Begin0_1
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Tú... ¿Quién eres? ¿Qué haces aquí?
+
+QuGiver/Begin1Cecily
+\CBfB[8]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia：\C[0]    Tengo un mal presentimiento.
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Greyrat：\C[0]    Ten cuidado.
+
+QuGiver/Begin1Cocona
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\C[0]    ¡Hermana mayor! ¡Aquí hay gente mala!
+
+QuGiver/Begin1
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¡Aléjate de aquí! ¡Estoy seguro de que esa gente sigue cerca!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Qué? ¿Qué gente?
+
+QuGiver/Begin2
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Em...
+\CBmp[Lguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Bandido：\C[0]    ¡Oye! Dame tu dinero si quieres vivir.
+\CBmp[Lguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]Bandido：\C[0]    ¿Por qué te molestas con ella? Es solo una niña. Atrapémosla y la vendemos después.
+
+QuGiver/Begin3
+\CBmp[Rguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Bandido：\C[0]    Mira a tu alrededor. Si no quieres morir... ¿Eres una mujer?
+\CBmp[Rguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]Bandido：\C[0]    ¿Una mujer? ¡Genial, al fin alguien nuevo! Las que estaban en el campamento ya no sirven ♥
+
+QuGiver/Begin4
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué?! ¡Esperen! ¡Tenía algo que decirles!
+
+QuGiver/Begin4Cecily
+\CBfB[8]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]Cecilia：\C[0]    ¿Sabes lo que estás haciendo?
+\CBfB[5]\SETpr[CecilyShockedAr]\plf\Rshake\C[4]Cecilia：\C[0]    ¡Responde por tu mal comportamiento!
+
+QuGiver/Begin4Cocona
+\CBfB[5]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\C[0]    ¡Cocona protegerá a la Hermana mayor!
+
+QuGiver/Begin5
+\CBmp[Lguard1,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Bandido：\C[0]    ¡Deja de hablar! ¡Al ataque!
+
+#########################################################
+
+QuGiver2/Begin0
+\CBid[-1,6]\prf\c[4]Viajero：\C[0]    Ohh...
+
+QuGiver2/Begin0_opt
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... \optB[Cancelar,¿Qué pasó?<r=HiddenOPT0>,Convencerlo de irse<r=HiddenOPT1>,Ayudarlo<r=HiddenOPT2>]
+
+QuGiver2/Begin0_about0
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Ellos... ¿Todos están muertos...?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    Em... Parece que sí.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué pasó aquí? ¿Los atacaron \c[4]bandidos\C[0]?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Por qué viajan en estos tiempos? La isla entera está sumida en el caos, no es seguro.
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Tenemos un pequeño pueblo en las montañas, pero recientemente monstruos rojos aparecieron por todo el bosque.
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Tuvimos que huir.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué? ¿\c[6]Demonios de Carne\C[0]?
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¿\c[4]Demonios de Carne\C[0]?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Sí, \c[4]Demonios de Carne\C[0]. ¿No sabían que \c[4]Sibaris\C[0] estaba rodeado por demonios?
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¡¿Qué?! ¿Demonios? ¡¿Qué demonios?!
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¡Esas criaturas son peores que cualquier demonio!
+\CBid[-1,5]\prf\c[4]Viajero：\C[0]    \{¡Mi familia, mis amigos, mis hijos, todos están muertos!\}
+\CBid[-1,5]\prf\c[4]Viajero：\C[0]    \{¡Los mataron!\}
+
+QuGiver2/Begin0_about0_cecily
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia：\C[0]    Esos malditos bandidos pagarán por esto.
+
+QuGiver2/Begin0_about0_cocona
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    Hermana mayor, me da pena...
+
+QuGiver2/Begin0_about1
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Cálmese! ¡Por favor, hable más bajo! ¡Podría haber enemigos cerca!
+
+QuGiver3/Begin0_leave0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Lamento lo que te pasó, pero deberías irte de aquí pronto.
+\CBid[-1,5]\prf\c[4]Viajero：\C[0]    ¿Quieres que simplemente lo abandone todo y me vaya?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0]    Yo...
+
+QuGiver3/Begin0_leave1
+\CBct[6]\m[sad]\PRF\c[6]Lona：\C[0]    Cuando \c[4]Sibaris\C[0] fue consumido por la Niebla Negra hace meses, mi familia y amigos también murieron.
+\CBct[6]\m[fear]\PRF\c[6]Lona：\C[0]    Hubo gente que me ayudó a escapar. ¿Qué pasaría si diera mi vida por venganza?
+\CBct[8]\m[tired]\PRF\c[6]Lona：\C[0]    Solo decepcionaría a quienes me ayudaron.
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    No somos héroes como el \c[4]Santo\C[0], solo gente común intentando sobrevivir.
+
+QuGiver3/Begin0_leave2_end_cocona
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\C[0]    Hermana mayor...
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\C[0]    Lo siento, no puedo arriesgarme por ti.
+\CBfB[8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    Urr miau, Cocona entiende.
+
+QuGiver3/Begin0_leave2_end_cecily
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecilia：\C[0]    ¡Por cierto, yo no soy "gente común"!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+QuGiver3/Begin0_leave2_end
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¿Es verdad? Lo siento, niña...
+
+QuGiver3/Begin0_help0
+\ph\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Puedo ayudarte en algo más?
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Tú... ¿Podrías...? Yo...
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Quiero recuperar la urna de mi esposa...
+
+QuGiver3/Begin0_help1
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿¡Urna!? ¿Sus cenizas?
+
+QuGiver3/Begin0_help2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Mmm...
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\C[0]    ¡Está bien! ¡Lo intentaré!
+
+QuGiver5/Begin0
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Su guarida está en la \c[6]ciudad abandonada cerca de la mina de cobre\C[0], al oeste. Sé dónde es. Ven, te mostraré.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Iré primero, solo confío en mis ojos.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Está bien, gracias.
+
+QuGiver4/Begin0_end
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0]    Ahh...
+
+QuGiver5/Begin1
+\board[Recuperar las cenizas]
+Misión: Recuperar la urna robada por los bandidos\i[268]
+Recompensa: Desconocida
+Cliente: Viajero
+Plazo: 4 días  
+Protege al \c[4]Viajero：\C[0].
+Dirígete a la \c[6]ciudad abandonada cerca de la mina de cobre\C[0] y ayuda al \c[4]Viajero\C[0] a recuperar las cenizas de su esposa.
+############################################################
+
+NPC/CommonConvoyTarget7
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¿La encontraste?
+
+NPC/CommonConvoyTarget8
+\CBid[-1,8]\narr Sostiene la urna y murmura algo...
+
+QuGiver8/Begin0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ... ¿Es esta?
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\C[0]    ¡Sí, es correcto, es ella!
+
+QuGiver8/Begin1
+\board[Recuperar las cenizas]
+Misión: Devolver la urna al \c[4]Viajero：\C[0]
+Recompensa: Desconocida
+Cliente: Viajero
+
+QuGiver9/Begin0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    La encontré, ¿es esta urna?
+
+QuGiver9/Begin1
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    ...
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¡Sí, es ella, son las cenizas de mi esposa!
+\CBct[4]\m[flirty]\PRF\c[6]Lona：\C[0]    Bien, ahora debemos irnos de aquí.
+
+QuGiver9/Begin2
+\board[Recuperar las cenizas]
+Misión: Llevar al \c[4]Viajero：\C[0] de vuelta al convoy
+Recompensa: Desconocida
+Cliente: Viajero
+
+QuGiver10/Begin0
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Es suficiente, separémonos aquí.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué? ¿Aquí? Pero no es seguro.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    No importa. Toma esto.
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    Em... ¿Qué es?
+
+QuGiver10/Begin1
+\cg[event_Coins]\SND[SE/Chain_move01.ogg]\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Quizá mi ropa estaba muy gastada, o no me registraron bien.
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Pero quiero que lo tomes.
+\cgoff\CBct[2]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Tanto?!
+\CBid[-1,8]\prf\c[4]Viajero：\C[0]    Tómalo, eres una buena chica. Buena suerte.
+
+QuGiver10/Begin2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Estará bien?
+

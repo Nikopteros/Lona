@@ -1,0 +1,62 @@
+overmap/OvermapEnter
+\m[confused]미지의 캠프\optB[그만둔다,들어간다]
+
+mec/halp1
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 살려줘! 제발… 나 좀 구해줘!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 히익?!
+
+mec/halp2
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 마물이다! 어인들이야! 놈들이 왔다고!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 히… 히익?!
+
+mec/halp3
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 제발… 살려줘!!!
+
+mec/halp4
+\CamCT\Bon[6]\m[hurt]\plf\Rshake\c[6]로나：\c[0] 밀지 마!
+
+mec/halp5
+\CamCT\Bon[1]\m[terror]\plf\Rshake\c[6]로나：\c[0] 히이익!! 말도 안 돼…!
+
+mec/win
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 용사님, 큰 은혜에 감사드립니다!
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]로나：\c[0] 후우… 별말씀을요~?
+\CamMP[QuestTar]\BonMP[QuestTar,8]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] \..\..\..
+\CamMP[QuestTar]\BonMP[QuestTar,2]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 너… 여자였어?
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]로나：\c[0] 내가 여자면 뭐 어때서?
+
+mec/Quprog_0
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 들어줘! 네 도움이 필요해!
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 내가 가진 이 물건을 반드시 \C[4]해적 파괴자 요새\C[0]까지 가져가야 해.
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]로나：\c[0] 어… 그게…
+
+mec/Quprog_0_board
+\board[여행자 호송]
+목표 : 해적 파괴자 요새까지 호송
+보상 : 큰 동전 1, 평판 2
+의뢰주 : 여행자
+기한 : 5일
+모든 게 네 손에 달렸다!
+
+mec/Quprog_0_decide
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]로나：\c[0] 으음…..\optB[바빠,알겠어]
+
+mec/QmsgTar
+어서 가!
+
+mec/Done1
+\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 고마워! 정말 고마워!!
+
+mec/Done2
+\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 이 물고기 놈들이 계속 우리 보급 수송대를 공격하고 있어. 이대로라면 이 요새가 무너지는 건 시간문제야.
+\SETpl[AnonMale1]\Lshake\prf\c[4]여행자：\c[0] 요새의 용병 길드에 들러봐. 네가 분명 도움이 될 거라 믿어.
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]로나：\c[0] 하하… 내가 도움이 되길 바라네~
+
+mec/CommonConvoyTarget0
+\prf\c[4]여행자：\c[0] 시간 없어!
+
+mec/CommonConvoyTarget1
+\prf\c[4]여행자：\c[0] 어서 \C[4]해적 파괴자 요새\C[0]로 가!
+
+mec/CommonConvoyTarget2
+\prf\c[4]여행자：\c[0] 빨리 움직여!

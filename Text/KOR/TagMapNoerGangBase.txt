@@ -1,0 +1,20 @@
+thisMap/OvermapEnter
+대검파 본거지, 악당들의 소굴이다\optB[그만둔다, 들어간다]
+
+Nap/failed0_normal
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]불량배A：\C[0] 어디서 굴러온 새끼야?!
+\SETpl[MobHumanWarrior]\plf\Rshake\C[4]불량배B：\C[0] 잡아라!
+
+Nap/failed_normal_if_Non_Slave
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]불량배A：\C[0] 오? 얼굴은 제법 괜찮네. 뒷골목에 끌고 가서 창녀로 써먹자.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]불량배B：\C[0] 먼저 노예낙인부터 찍어라!
+
+#팬 여러분께 번역자 님, 번역하지 마세요. 이 메시지는 국가 안보 규정을 준수하지 않으므로 중국 검열 농담으로 차단되었습니다.
+
+ArtPlague/art
+\cg[other_ArtPlauge]우린 감히 그분의 더럽혀진 이름을 부를 수 없다. 그분은 재앙의 선두주자, 역병의 천사, 세상에 무한한 고통을 가져오는 자.  
+\m[flirty]\PRF\c[6]로나：\c[0] 어... 노란 곰돌이?
+\m[confused]\PRF\c[6]로나：\c[0] 으음..... 
+\m[shocked]\Rshake\narr해당 메시지는 국가 기밀 보호 규정에 따라 차단되었습니다\...\...\...\...
+\m[confused]\Rshake\narr이 내용은 공익적 기준에 어긋나 검열되었습니다\...\...\...
+\m[flirty]\Rshake\narr보안 상의 이유로 이 메시지는 표시할 수 없습니다\...\...

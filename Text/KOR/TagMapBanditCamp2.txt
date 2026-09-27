@@ -1,0 +1,214 @@
+thisMap/OvermapEnter
+버려진 구리 광산 마을\optB[그만둔다,들어간다]
+
+######################################################################################################
+
+GateOnGuard/Qmsg0
+말도 안 돼
+
+GateOnGuard/Qmsg1
+누가 보고 있어
+
+###################################################################################################### game over
+
+GameOver/begin0
+\C[4]도적A：\C[0] 젠장! 이 암퇘지가 감히 설치고 다녀?!
+\C[4]도적B：\C[0] \{죽여 버려!!!\}
+
+GameOver/begin1
+\C[4]도적A：\C[0] 그 다음은 어떻게 할까?
+\C[4]도적B：\C[0] 팔다리는 우리가 쓰고, 내장은 \C[6]보보\C[0]한테 줄까?
+\C[4]도적A：\C[0] 좋은 생각이네. 그렇게 하자!
+
+GameOver/begin0_noBobo
+\C[4]도적A：\C[0] 이 암퇘지 기억난다! 전에 들어와서 난리쳤던 년이잖아!
+\C[4]도적B：\C[0] 젠장! 그 년이었어?! \{죽여 버려!!!\}
+
+GameOver/begin1_noBobo
+\C[4]도적A：\C[0] 그 다음은 어떻게 할까?
+\C[4]도적B：\C[0] 팔다리는 우리가 쓰고, 내장은 두목한테 줄까?
+\C[4]도적A：\C[0] 좋은 생각이네. 그렇게 하자!
+
+######################################################################################################
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]도적：\C[0] 여자잖아!
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐… 뭐야! 너희 뭐하려는 거야!?
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]도적：\C[0] 잡아라!
+
+Wake/FirstRape0
+\CBmp[guard1,20]\C[4]도적：\C[0] 두목, 이 년이 수상하게 돌아다니고 있었습니다.
+\CBmp[guard2,20]\C[4]도적：\C[0] 어떻게 처리할까요?
+
+Wake/FirstRape1
+\CBmp[Boss,8]\C[4]도적두목：\C[0] 계집이라고? 어디 보자…
+
+Wake/FirstRape2
+\CBmp[Boss,5]\C[4]도적두목：\C[0] 저년을 \C[6]보보\C[0]한테 던져줘라.
+\CBmp[guard2,20]\C[4]도적：\C[0] 뭐라고요!!!
+\CBmp[guard1,20]\C[4]도적：\C[0] 여자잖아요, 최소한 우리도 한 번은 즐기게 해주시죠?
+\CBmp[Boss,20]\C[4]도적두목：\C[0] 여긴 내 왕국이다! 내 말이 곧 법이다!
+\CBmp[Boss,5]\C[4]도적두목：\C[0] 피부가 저렇게 까만 걸 보니, 이 계집 피에는 분명 온갖 천한 것들의 피가 섞여 있을 거다.
+\CBmp[Boss,20]\C[4]도적두목：\C[0] 당장 \C[6]보보\C[0]한테 던져줘라! 지금, 당장!
+\BonMP[guard1,20]\BonMP[guard2,20]\C[4]도적：\C[0] 예!
+
+Wake/FirstRape3
+\CBct[6]\m[bereft]\Rshake\c[6]로나：\c[0] 제발… 풀어주세요, 부탁이에요!
+\CBmp[guard1,20]\prf\C[4]도적：\C[0] 썩 꺼져, 년아! 안으로 들어가!
+
+Wake/FirstRape4
+\CBmp[guard1,20]\prf\C[4]도적：\C[0] 두목이 너한텐 관심 없다.
+\CBmp[guard1,20]\prf\C[4]도적：\C[0] 축하해라, 이제 \C[6]보보\C[0]의 먹이가 될 거다!
+
+Wake/FirstRape5
+\CBct[2]\m[fear]\Rshake\c[6]로나：\c[0] \C[4]보보\C[0]…? 먹이…?!
+
+Wake/FirstRape6
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] \{히이이익!!\}
+
+Wake/FirstRape7
+\CBct[20]\m[bereft]\Rshake\c[6]로나：\c[0] 안 돼! 먹지 마! 나 죽기 싫어!
+
+Wake/FirstRape8
+\BonMP[guard1,20]\plf\BonMP[guard2,20]\prf\C[4]도적：\C[0] 잡아먹어라!
+\CBct[8]\m[pain]\plf\Rshake\c[6]로나：\c[0] 흐윽…
+
+Wake/FirstRape9
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]로나：\c[0] 거기… 냄새 맡지 마…
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]로나：\c[0] 내 살맛 없어… 맛없단 말이야!
+
+Wake/FirstRape10
+\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] 히익\{히야악!!\}
+
+Wake/FirstRape11
+\CBmp[guard1,20]\prf\C[4]도적：\C[0] 뭐?! \C[6]보보\C[0]가 저년을 탔다고?!
+\CBmp[guard2,20]\prf\C[4]도적：\C[0] 빨리 가서 모두 불러 와라! 기적이 일어났다! \C[6]성도\C[0]께서 강림하셨다!
+
+Wake/FirstRape12
+\CBmp[guard4,20]\plf\prf\C[4]도적：\C[0] 와, 설마? 저 여자를 진짜 탔다고?!
+\CBct[6]\m[hurt]\plf\Rshake\c[6]로나：\c[0] 흐윽… 흐으응…
+
+Wake/FirstRape12_1
+\CBmp[guard1,20]\plf\C[4]도적：\C[0] 하하하하, 이거 진짜 웃기네.
+\CBmp[guard1,20]\plf\C[4]도적：\C[0] \C[6]보보\C[0]가 완전히 저년을 암퇘지로 본 모양이군.
+
+Wake/FirstRape13
+\narr\C[4]보보\C[0]의 자지가 \c[6]로나\c[0]의 자궁까지 파고들어 안에서 거칠게 휘저었다.
+\narrOFF\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]로나：\c[0] \{히잇!!\} 아파! 아프다고!
+
+Wake/FirstRape14
+\SndLib[SwineSpot]\SETpl[BoboNormal]\Lshake\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]로나：\c[0] \{그만해!! 제발 멈춰!!\}
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\BonMP[Piggy,4]\m[p5_cuming_ahegao]\Rshake\c[6]로나：\c[0] \{배가 터질 것 같아!\}
+\narr\C[4]보보\C[0]에게 이런 사정은 그저 시작일 뿐이었다. 그 절정은 아주 오래, 아주 길게 이어질 것이다.
+
+Wake/FirstRape15
+\CBmp[Boss,8]\C[4]도적두목：\C[0] \...\...\...
+\CBmp[Boss,20]\C[4]도적두목：\C[0] 보아하니 우리 \C[6]보보\C[0]도 저년을 천한 가축으로 인정한 모양이군.
+\CBmp[Boss,5]\C[4]도적두목：\C[0] 역시 천한 짐승은 결국 돼지지.
+
+Wake/FirstRape15_1
+\C[4]도적：\C[0] 평생 처음 본다, 돼지한테 당하는 년은.
+\C[4]도적：\C[0] 그러니까 저년은 년이 아니라 돼지다!
+\C[4]도적：\C[0] 다음엔 다른 놈들도 구경하게 해야겠다.
+
+Wake/FirstRape16
+\narr로나는 도적들의 비웃음 속에서 의식을 잃었다.
+
+######################################################################################################
+
+RapeLoop/DailyJob1
+\BonMP[guard1,5]\C[4]도적：\C[0] 암퇘지, 일어나라!
+\BonMP[guard2,5]\C[4]도적：\C[0] \{빨리 눈 떠!\}
+
+RapeLoop/DailyJob2
+\CBct[6]\m[tired]\Rshake\c[6]로나：\c[0] 흐윽... 왜 그래...
+
+RapeLoop/DailyJob3_Vag
+\CBmp[guard3,4]\C[4]도적：\C[0] 우리가 보고 싶거든, 암퇘지가 수퇘지랑 어떻게 교미하는지♥
+
+RapeLoop/DailyJob3_Anal
+\CBmp[guard4,4]\C[4]도적：\C[0] 우리가 보고 싶거든, 암퇘지가 수퇘지랑 어떻게 항문으로 하는지♥
+
+RapeLoop/DailyJob3_Mouth
+\CBmp[guard3,4]\C[4]도적：\C[0] 우리가 보고 싶거든, 암퇘지가 수퇘지한테 어떻게 봉사하는지♥
+
+RapeLoop/DailyJob3_RimJob
+\CBmp[guard2,4]\C[4]도적：\C[0] 우리가 보고 싶거든, 암퇘지가 수퇘지 항문을 핥는 거♥
+\CBmp[guard1,4]\C[4]도적：\C[0] 그래! 넌 암퇘지잖아? 항문을 깨끗하게 해 줘라!
+
+RapeLoop/DailyJob3_Dance
+\CBmp[guard1,4]\C[4]도적：\C[0] 이봐! 암퇘지! 일어나! 네 남편 깨워 와!
+
+RapeLoop/DailyJob4
+\CBmp[guard4,5]\prf\C[4]도적：\C[0] 빨리 해! 안 그러면 죽는다!
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 나...
+\CBmp[guard1,4]\prf\C[4]도적：\C[0] 서둘러! 우린 암퇘지 네 쇼를 기다리고 있잖아♥
+
+####################################################### common
+
+RapeLoop/DailyJob_PlayBegin0
+\CBct[8]\m[fear]정말 해야 하는 거야......\optB[그만둔다,결정]
+
+RapeLoop/DailyJob_PlayBegin1
+\CBct[8]\PLF\m[sad]나도 어쩔 수 없었어...
+
+RapeLoop/DailyJob_EndRng0
+\plf\C[4]도적：\C[0] 하하하하♥
+
+RapeLoop/DailyJob_EndRng1
+\C[4]도적：\C[0] 히히히♥
+
+RapeLoop/DailyJob_EndRng2
+\C[4]도적：\C[0] 야! 돼지 소리 두 번만 내봐♥
+
+RapeLoop/DailyJob_EndRng3
+\C[4]도적：\C[0] 암퇘지는 어떻게 우나♥
+
+RapeLoop/DailyJob_EndRng4
+\C[4]도적：\C[0] 이 꼴 좀 봐라, 사람도 아니고 완전 돼지잖아♥
+
+RapeLoop/DailyJob_EndRng5
+\C[4]도적：\C[0] 꿀꿀! 꿀꿀! 어서 두 번 울어봐♥
+
+RapeLoop/DailyJob_EndRng6
+\C[4]도적：\C[0] 하하하, 진짜 웃기네♥
+
+RapeLoop/DailyJob_EndRng7
+\C[4]도적：\C[0] 냄새 나는 암퇘지 같으니!
+
+RapeLoop/DailyJob_EndRng8
+\C[4]도적：\C[0] 이런 꼴로도 살아있네!
+
+RapeLoop/DailyJob5
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 이런 꼴로도 살아있네!
+
+RapeLoop/DailyJob6
+\CBct[8]\m[hurt]\PRF\c[6]로나：\c[0] 제발... 살살 해줘...
+
+RapeLoop/DailyJob7
+\CBct[8]\plf\c[6]로나：\c[0] 흐윽...
+
+RapeLoop/DailyJob9
+\CBct[8]\m[tired]\c[6]로나：\c[0] .....
+
+####################################################### mouth
+
+RapeLoop/DailyJob_PlayMouth0
+\narr \c[6]로나\c[0] 나선 모양의 자지를 입술로 감싸 물고 빨기 시작했다…
+
+RapeLoop/DailyJob_PlayAnal0
+\narr \c[6]로나\c[0] 나선형에 굵은 자지를 항문에 갖다 댔다…
+
+RapeLoop/DailyJob_PlayRimJob0
+\narr \c[6]로나\c[0] 혀를 돼지의 더러운 항문 속으로 밀어 넣었다…
+
+RapeLoop/DailyJob_PlayRimJob1
+\CBct[8]\m[p5sta_damage]\Rshake 너무 역겨워… 토할 것 같아… 더는 못 버티겠어…
+
+RapeLoop/DailyJob_PlayRimJob2
+\CBmp[guard1,4]\C[4]도적：\C[0] 야! 그 자지 뿌리 근처에 묻은 똥도 전부 핥아라!
+
+RapeLoop/DailyJob_PlayDance0
+\CBct[8]\m[shy]\PRF\c[6]로나：\c[0] 네… 깼어요…
+\CBmp[guard4,4]\prf\C[4]도적：\C[0] 그리고 아빠들한테 춤 한 번 춰 보여♥
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 네…

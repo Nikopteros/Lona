@@ -1,0 +1,48 @@
+thisMap/OvermapEnter
+노엘 마을 역참\optB[그만둔다,들어간다]
+
+BoardReader1/ReadQmsg0
+노엘이야말로 안전하다  
+
+BoardReader1/ReadQmsg1
+지금 밖은 완전 난리다
+
+BoardReader2/ReadQmsg0
+내 가족은 아직 밖에 있어! 
+
+BoardReader2/ReadQmsg1
+내가 데리러 가야 해!
+
+BoardReader3/ReadQmsg0
+점점 비싸진다
+
+BoardReader3/ReadQmsg1
+어디도 갈 수가 없어
+
+BoardReader4/ReadQmsg0
+저 거대한 소시지 좀 봐!
+
+BoardReader4/ReadQmsg1
+나는 말이 너무 좋아!
+
+BoardReader4/ReadQmsg2
+내 뒷구멍이 너무 가려워..
+
+Board/page1
+\board[용병 모집]
+네 팔힘이 괜찮다고 자부하나? 그럼 와라! 우리가 널 필요로 한다!  
+무장 호송대는 각지의 호걸들을 찾고 있다!  
+우리는 훌륭한 급여를 제공한다!  
+자세한 건 역참 직원에게 문의하라.  
+
+Board/page2
+\board[공지]
+현재 마을 외곽 모든 역참 노선이 끊겼다.  
+최신 소식은 역참 직원에게 문의하라.  
+
+Board_MrHand/page1
+\board[경고 : 수간 금지]
+성도는 너의 그 행위에 분노한다!  
+가축들은 너와 잠자리하고 싶지 않다!  
+성도는 너의 어리석은 성적 행위에 격노한다!  
+발각 시 즉시 처형된다!  

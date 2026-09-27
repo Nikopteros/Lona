@@ -1,0 +1,139 @@
+ThisMap/OmEnter
+\m[confused]Granero cerca de la puerta suroeste de Sibaris \optB[Cancelar,Entrar]
+
+QuProgSybBarn1/EnterQuestMode0
+\cg[map_region_AbomTown]\m[flirty]\PRF\c[6]Lona:\C[0]    Bueno, eso es todo, ¿no?
+\SETpl[Mreg_guardsman]\plf\PRF\c[4]Mercenario: \C[0]    ¡Eh! ¡Apártate!
+\SndLib[sound_punch_hit]\SETpl[Mreg_guardsman]\m[hurt]\Lshake\prf\c[6]Lona: \C[0]    ¡Ay!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario: \C[0]    ¡Nosotros llegamos primero!
+\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¿Qué...?
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario:\C[0]    ¿Qué pasa? ¿Está cerrada?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario:\C[0]    ¡Oye, ve y trata de romperla!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Mercenario:\C[0]    Déjame intentarlo.
+\narr\ph\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]
+\narrOFF\SETpr[Mreg_pikeman]\plf\Rshake\c [4]Mercenario:\C[0]    Es inútil, está cerrado.
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario:\C[0]    ¡Maldición! Realmente es inútil.
+
+QuProgSybBarn1/EnterQuestMode1_OPT
+\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Hmm...\optD[Observar, Déjame intentarlo<r=HiddenOPT0>]
+
+QuProgSybBarn1/EnterQuestMode1_WAIT
+\ph\narr\..\..\.. Después de una larga espera...
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\c[4]Mercenario:\C[0]    Por fin se ha abierto.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Mercenario:\C[0]    Permíteme preguntarte, ¿cómo lo ha abierto?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario:\C[0]    Chica, nosotros entraremos primero. ¡No te preocupes, lo compartiremos contigo!
+\m[confused]\plf\PRF\c[6]Lona:\C[0]    ......
+\ph\narr\..\..\.. Al cabo de un rato...\SndLib[BreedlingAtk]\..\..\SndLib[BreedlingAtk]
+\cg[map_AbomBreedlingRaid]\narrOFF\m[shocked]\Rshake\c[6]Lona:\C[0] ¡Ah, monstruos! !!!
+\cgoff\ph\narr Lona se escondió en el granero...
+
+QuProgSybBarn1/EnterQuestMode1_SCU
+\m[confused]\plf\PRF\c[6]Lona: \C[0]    Eh... ¿me dejas probar?
+\narr\ph\..\..\ SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[openChest]
+\narrOFF\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Oh, no es difícil, ¿verdad?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario:\C[0]    ¡Qué buena chica!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario:\C[0]    ¡Bien! ¡Puedes quedarte con una pequeña parte de nuestro botín!
+\m[confused]\plf\PRF\c[6]Lona: \C[0]    En realidad, acepté una misión en el gremio y vine aquí para investigar un poco.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario: \C[0]    ¿Una misión del gremio? ¿Para una niña como tú?
+\m[serious]\plf\PRF\c[6]Lona:\C[0] ¡No soy una niña!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario:\C[0] ¡Deja de decir tonterías! ¡Ponte a trabajar!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenario: \C[0] ¡Vamos, chica, te ayudaremos!
+\m[shocked]\plf\Rshake\c[6]Lona: \C[0] ¡De acuerdo!
+
+#########################################################################################
+
+Op/Begin0_3
+\CBmp[OpGuard2,20]\c[4]Refugiado:\C[0] ¡Son personas vivas! ¡La profecía de la sacerdotisa se ha cumplido!
+\CBmp[OpGuard1,5]\c[4]Refugiado:\C[0] ¡Cierren la puerta rápidamente! ¡Los demonios entrarán!
+\CBmp[mama,20]\c[4]Sacerdotisa: \C[0]    ¿Cómo sabes que son personas reales? ¿O es una ilusión de la guarida?
+\CBmp[OpGuard1,2]\c[4]Refugiado: \C[0]    ¿Están vivos...? ¿No puede ser?
+\CBmp[mama,20]\c[4]Sacerdotisa: \C[0]    ¡Cállate! ¡Cierra esa maldita puerta!
+
+Op/Begin0
+\CBmp[OpGuard2,20]\c[4]Refugiado: \C[0]    ¡Otra vez! ¡Otra vez una persona real!
+\CBmp[OpGuard1,5]\c[4]Refugiado: \C[0] ¡Cierra la puerta rápido! ¡Entrarán los demonios!
+\CBmp[mama,20]\c[4]Sacerdotisa: \C[0] ¡Esto también debe de ser una ilusión engañosa!
+
+Op/Begin1_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario: \C[0]    ¡Es sorprendente, pero todavía hay personas vivas aquí!
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c [4]Mercenario:\C[0]    Veamos, el anuncio del gremio dice que las personas probablemente tengan un precio.
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario:\C[0]    ¿Nos haremos ricos?
+
+Op/Begin1
+\ph\CBct[2]\m[confused]\PRF\c[6]Lona:\C[0]    ¿Qué está pasando aquí?
+\CBmp[mama,20]\c[4]Sacerdotisa:\C[0]    ¿Eres creyente?
+\CBct[8]\m[coqueta]\PRF\c[6]Lona: \C[0]    Eh... Probablemente, ¿no?
+\CBmp[mama,20]\prf\c[4]Sacerdotisa: \C[0]   Somos creyentes y necesitamos los milagros de los santos.
+\CBmp[mama,20]\prf\c[4]Sacerdotisa: \C[0]    Los demonios se llevaron a nuestros familiares y amigos al sótano. Necesitamos tu ayuda.
+\CBmp[OpGuard2,6]\c[4]Refugiado: \C[0]    ¡Espera! ¡Señora Sacerdotisa! ¡Es humana! ¡No es más que una niña!
+\CBmp[mama,20]\prf\c[4]Sacerdotisa: \C[0]    ¡Cállate! ¡Es la voluntad de los Santos! ¡He escuchado la voluntad de los Santos!
+\CBmp[OpGuard2,8]\c[4]Refugiado: \C[0]    \..\..\..¡Está bien!
+\CBct[2]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Qué? ¿Demonios?
+
+Op/Begin2
+\CBmp[mama,20]\prf\c[4]Sacerdotisa: \C[0]    Ven conmigo, puedes ayudarnos.
+\CBct[20]\m[coqueta]\PRF\c[6]Lona:\C[0]    ¿Oh?
+
+Op/Begin2_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario:\C[0]    ¿Demonios? Creo que se refiere a monstruos.
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Mercenario:\C[0]    Escucha, eso no es asunto nuestro, ¡nuestra misión es salir vivos de aquí!
+\CBct[20]\m[serious]\PRF\c[6]Lona: \C[0] Ayúdalos. ¿Qué clase de hombre eres si te rindes así?
+\CBmp[Gpicker,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario: \C[0] \..\..\..
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario:\C[0]    Bueno, la pequeña tiene razón. Deshagámonos de esta maldita basura.
+
+Op/Begin3
+\CBmp[mama,20]\prf\c[4]Sacerdotisa:\C[0]    ¡Ahí es donde aparecen los demonios del falso dios!
+\CBct[2]\m[confused]\PRF\c[6]Lona:\C[0]    Eh... ¿no hay nada más que infección?
+
+Op/Begin3_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario:\C[0]    Uf, otra vez esta repugnante porquería.
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c [4]Mercenario:\C[0]    Apesta. Si el olor es débil, no causará problemas, ¿verdad?
+
+Op/Begin4
+\CBct[2]\m[flirty]\PRF\c[6]Lona:\C[0]   ¿Eh...?
+\CBmp[mama,20]\prf\c[4]Sacerdotisa: \C[0] Está ahí, ten paciencia, espera...
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0] ...........
+\CBmp[mama,8]\prf\c[4]Sacerdotisa: \C[0]    ......
+
+Op/Begin5
+\CBmp[mama,20]\c[4]Sacerdotisa: \C[0]    ........................
+\CBmp[mama,20]\c[4]Sacerdotisa: \C[0]    ¡Tenía razón! ¡Esta gente son unos hipócritas mentirosos!
+\CBmp[OpGuard2,20]\c[4]Refugiado: \C[0]    ¿De verdad no son humanos?
+\CBmp[OpGuard1,20]\c[4] Refugiado: \C[0] ¡Los demonios se los han comido! ¡Son unos mentirosos!
+\CBmp[OpGuard2,20]\c[4]Refugiado: \C[0] ¡Lo que ha dicho la sacerdotisa es verdad!
+\CBmp[mama,20]\c[4]Sacerdotisa: \C[0] ¡Gracias, santos! ¡Gloria a los santos!
+
+Op/Begin6
+\CBmp[OpGuard2,20]\CBmp[OpGuard1,20]\CBmp[mama,20]\c[4]Todos: \C[0]    ¡Gracias, Santos! ¡Gloria a los Santos!
+
+Op/Begin7
+\c[6]Lona: \C[0]    \{¡Ah!
+
+Op/Begin8
+\CBmp[6]\m[fear]\PRF\c[6]Lona: \C[0]    Esto es...
+
+Op/Begin9
+\CBmp[20]\m[terror]\Rshake\c[6]Lona: \C[0]    \{¿La guarida del demonio de la carne?
+
+Op/Begin9_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario:\C[0]    Esto... ¿Qué diablos es esto...?
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c [4]Mercenario:\C[0]    ¿Un muro viviente?
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario:\C[0]    ¡Santo Dios! ... ¿Este muro se come a la gente?
+
+Op/Begin9_31
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Mercenario:\C[0]    ¡Es culpa tuya! ¡Chica, sácanos de este agujero!
+
+Op/Begin9_board
+\board[Supervivientes en el granero]
+Objetivo: Abandonar el granero y regresar al campamento de la Puerta Sur.
+Recompensa: 3 monedas de oro grandes\i[582]
+Cliente: Campamento de la Puerta Sur.
+Repetibilidad: Única.
+Regresa al \c[4]campamento de la Puerta Sur\C[0]. Entra en \c[6]el hotel Esperanza\C[0] e informa de ello al gremio.
+
+#################################### other
+mama/LastWords
+\CBmp[mama,7]\c[4]Sacerdotisa:\C [0]    ¡No! ¡Yo no tengo la culpa!
+\CBmp[mama,9]\c[4]Sacerdotisa:\C[0]    ¡Tengo razón! ¡No me equivoco! ¡Los mentirosos tienen toda la culpa!
+\CBmp[mama,5]\c[4]Sacerdotisa:\C[0]    \{¡Ahhhhhhhhhhhhhhhhhhhh

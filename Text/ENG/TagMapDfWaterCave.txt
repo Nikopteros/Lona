@@ -1,0 +1,472 @@
+thisMap/OvermapEnter
+\m[confused]Water Cave\optB[Leave,Enter]
+
+##########################################################################################  Inside
+
+keeper/0_opt
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\c[4]Follower：\c[0]    Who are you?! How did you find this place?!\optB[Just passing by,Nicholas<r=HiddenOPT0>]
+
+keeper/1_1Passby
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...I was just passing by!
+
+keeper/1_1HerName
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    \c[4]Nicholas\c[0]?
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    Oh? Are you new to the church? I've never seen you before.
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    Anyway, come on in.
+
+keeper/1_1Passby_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Liar! Eat him!
+
+aggro/Cocona0
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Good friends! Eat the liar together!
+
+aggro/Cocona1
+\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Cocona will protect her sis!
+
+keeper/1_1HerName_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Liar! It's a liar!
+\CBct[8]\m[serious]\Rshake\plf\c[6]Lona：\c[0]    Cocona! stop!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    But... Liars...Are eaten clean...
+\CBct[8]\m[shocked]\Rshake\plf\c[6]Lona：\c[0]    Good girl, give it to your sister.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo...meow........
+
+keeper/Aggro
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    \{We're under attack!!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{What?!
+
+keeper/Aggro_captured
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    The sacrificie is getting away!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Huh?!
+
+keeper/Aggro_captured_loop
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    .....
+
+thisMap/Aggro
+\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    Intruder!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Oh no!
+
+thisMap/Aggro_captured
+\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    Someone betrayed the Mother of Fertility!!
+\CBct[8]\m[terror]\Rshake\c[6]Lona：\c[0]    \{Ehhhhhh!
+
+Df_Heresy/rg27_1
+\SETpl[AnonMale2]\PLF\prf\c[4]Follower：\c[0]    Someone betrayed the Mother of Fertility!!!
+
+SexPartyOP/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\c[0]    *cough\..\Rshaked *cough*\..\Rshaked *cough*...!
+\CBct[20]\m[pain]\Rshake\c[6]Lona：\c[0]    Smells fishy.....
+
+SexPartyOP/1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Huh?
+
+SexPartyOP/2_1
+\BonMP[PigMan,20]\c[4]Pighead：\c[0]    Fuck... Yeah...That's it....
+\BonMP[PigMan,20]\c[4]Pighead：\c[0]    Here it comes!! Coming! It's coming!
+
+SexPartyOP/2_2
+\BonMP[PigMan,4]\c[4]Pighead：\c[0]    Ohhhhhhhhhhhh!!!
+
+SexPartyOP/2_3
+\BonMP[PigMan,4]\c[4]Pighead：\c[0]    Swallow my seed! Let your people enjoy themselves!
+
+SexPartyOP/3
+\BonMP[PigMan,4]\c[4]Pighead：\c[0]    Comfy!!!
+\BonMP[PigMan,20]\c[4]Pighead：\c[0]    Oh! The great \c[6]Mother of Fertility\c[0]!
+\BonMP[PigMan,20]\c[4]Pighead：\c[0]    Hear our call! We offer you this tribute!
+\BonMP[PigMan,20]\c[4]Pighead：\c[0]    Drive away our fears! Bring us joy!
+\BonMP[PigMan,20]\c[4]Pighead：\c[0]    Come, you who have been tricked by false Gods, come face the real God....
+
+SexPartyOP/3_1
+\BonMP[PigMan,20]\c[4]Pighead：\c[0]    Brothers and Sisters! Pray for our new sisters!
+
+SexPartyOP/4
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Flock：\c[0]    Ia! Ia! \c[6]Nicholas\c[0]!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Flock：\c[0]    Ia! Ia! \c[6]Nicholas\c[0]!!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Flock：\c[0]    Ia! Ia! \c[6]Nicholas\c[0]!!!
+
+SexPartyOP/4_1
+\c[4]Offering：\c[0]    \{AAAHHHH!!!!
+
+SexPartyOP/4_2
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Flock：\c[0]    Thank you\c[6]Mother of Fertility\c[0]! Praise the \c[6]Mother of Fertility\c[0]!
+
+SexPartyOP/5
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Flock：\c[0]    Oh! \c[6]Mother of Fertility\c[0] Drive away her fears!
+
+SexPartyOP/6
+\m[shocked]\Rshake\c[6]Lona：\c[0]    What's that? A demon from the black mist? Flesh demons?
+\m[terror]\Rshake\c[6]Lona：\c[0]    No... Impossible... such a thing can't exist in this world....
+
+SexPartyOP/end_cocona
+\narr \......\......\......
+\narrOFF\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big S-Sis...! Wake up Sis...!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    W-Wha...! Nyaow!~ Leave me alone...!
+
+SexPartyOP/end1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What....What just happened?!
+
+SexPartyOP/end1_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Sister became a good friend...
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Good friend? Dead?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Don't worry, I'm still here.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo...meow........
+
+SexPartyOP/end2
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\c[0]    OWWW．．．．
+\CBct[20]\m[pain]\Rshake\c[6]Lona：\c[0]    My belly is burning up\..\..　I want to\...
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\c[0]    No, wait, I can hold it in.
+
+SexPartyOP/end2_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Sis?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Don't be scared. I'm fine, really...
+
+######################################################################  Common Dialog
+
+Df_Heresy/4CommonerF_QuRng0_0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Do you know who \c[4]Ranran\c[0] is?
+
+Df_Heresy/4CommonerF_QuRng0_1
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Do you know where\c[4]Ranran\c[0] is?
+
+Df_Heresy/4CommonerF_QuRng0_2
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh...\c[4]Ranran\c[0]?
+
+CommonerF/Rng0
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    I want to fuck so badly! Who wants to fuck me?!
+
+CommonerF/Rng1
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    Fuck me! Use me! Take away my fears!
+
+CommonerF/Rng2
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    The Mother of Fertility is watching me! I feel it!
+
+Df_Heresy/4CommonerF_QuRngEND
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Ugh......
+
+Priest/Qmsg0
+I feel it!
+
+Priest/Qmsg1
+Hes coming!
+
+Priest/Qmsg2
+Isaac Nicholas!
+
+Fcommoner/Qmsg0
+Hahahaha...hahaha...
+
+Fcommoner/Qmsg1
+hehehe...hoo hoo...
+
+Fcommoner/Qmsg2
+Cock...Big cock...
+
+Mcommoner/Qmsg0
+I'm gonna cum!
+
+Mcommoner/Qmsg1
+I have to cum!
+
+Mcommoner/Qmsg2
+Ooooohhhhhhh!!
+
+Mcommoner/RapeLoopPick_begin
+\CBct[4]\m[lewd]\PRF\c[6]Lona：\c[0]    Master pighead wants me to help you clean the meatsticks....?
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    Want to fuck me?
+
+Mcommoner/RapeLoopPick_0
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    I want to fuck! I WANNA FUCK!!!
+
+Mcommoner/RapeLoopPick_1
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    Lick my cock! I need you to lick my cock right now♥
+
+Mcommoner/RapeLoopPick_2
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    I need to pee! Get your mouth over here♥
+
+Mcommoner/RapeLoopPick_3
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    I want to cum! Come on, girl♥ Get your head in there♥
+
+Mcommoner/RapeLoopPick_Start
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    Yes....
+
+Mcommoner/RapeLoopPick_END
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    Oooohhhh....♥
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\c[0]    Thank you♥
+
+Mcommoner/RapeLoopPick_SuckDick1_0
+\CBid[-1,4]\c[4]Follower：\c[0]    Oooohhhh! Good♥
+
+Mcommoner/RapeLoopPick_SuckDick1_1
+\CBid[-1,4]\c[4]Follower：\c[0]    Yes! That's the spot♥
+
+Mcommoner/RapeLoopPick_SuckDick2
+\CBid[-1,4]\c[4]Follower：\c[0]    \{ooohhhhhh♥♥♥
+
+##########################################################################################  rapeloop
+
+NapCapture/0
+\narr Lona was captured, and had all her belongings stolen.
+
+NapRngRape/0_0
+\c[4]Follower：\c[0]    Pussy!! It's mine!! Thank you Mother of Fertility!
+
+NapRngRape/0_1
+\c[4]Follower：\c[0]    Pussy! I need to use it!
+
+NapRngRape/1_0_NO
+\c[4]Follower：\c[0]    How can my pussy resist! Pussy should be fucked!
+
+RapeLoop/FirstTime0
+\m[tired]\c[6]Lona：\c[0]    I want to do it.... I'm ready to have children...
+
+RapeLoop/FirstTime1
+\m[confused]\c[6]Lona：\c[0]     Where am I? What is this?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[pain]What's that in my mouth?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[hurt]Ugh...it stinks...
+
+RapeLoop/FirstTime2
+\Rflash\SndLib[sound_chcg_full]\CBmp[PigMan,20]\c[4]Pighead：\c[0]    Mother of Fertility! Help drive away her fears!
+
+RapeLoop/FirstTime3
+\CBct[6]\m[hurt]\Rshake\c[6]Lona：\c[0]    Ahh．．．．
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    The mother of fertility has ridden you of your worries and you will no longer feel fear or pain.
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\c[0]    Ahh．．．．Who are you?
+
+RapeLoop/FirstTime3_1
+\CBct[2]\m[tired]\PRF\c[6]Lona：\c[0]    Where am I? What's going on?
+
+RapeLoop/FirstTime3_2
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    What...Is this?
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    This is the grace of the mother of fertility, who rids you of your fears and worries.
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    Drink it, and become one of us.
+\CBct[2]\m[tired]\PRF\c[6]Lona：\c[0]    Ok...
+
+RapeLoop/FirstTime4
+\CBmp[PigMan,20]\c[4]Pighead：\c[0]    Very good! Very good! You'll be our new meat hole!
+\CBmp[PigMan,20]\c[4]Pighead：\c[0]    You'll become a part of us! Our meat toilet!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    I'm just...a meat toilet?
+\CBmp[PigMan,20]\c[4]Pighead：\c[0]    Brothers and Sisters! Praise our new sister!
+
+RapeLoop/FirstTime4_1
+\BonMP[PPL4,20]\BonMP[PPL5,20]\BonMP[PPL6,20]\BonMP[PPL7,20]\c[4]Flock：\c[0]    Hurray! Hurray! \c[6]Nicholas\c[0]!
+
+RapeLoop/FirstTime5
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    My child, you are now one of us.
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    Go.... Go and take in the love of your brothers. Ease their fears.
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\c[0]    Yes, master...
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\c[0]    Ahh．．．．
+\CBct[20]\m[lewd]\PRF\c[6]Lona：\c[0]    I want\..\..　I want to\...
+\CBct[20]\m[shy]\Rshake\c[6]Lona：\c[0]    What's wrong with my body?
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\c[0]    Ahh．．．．
+\CBct[20]\m[lewd]\PRF\c[6]Lona：\c[0]    It's hot... It's so hot!
+
+actionRapeLoop/Wall0_0
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Wait? Should I leave?!
+
+actionRapeLoop/Wall0_1
+\CBct[1]\m[terror]\Rshake\c[6]Lona：\c[0]    I need to fuck!
+
+actionRapeLoop/Wall0_2
+\CBct[1]\m[serious]\Rshake\c[6]Lona：\c[0]    I have to make my brothers and sisters happy!?
+
+actionRapeLoop/Wall0_3
+\CBct[1]\m[sexhurt]\Rshake\c[6]Lona：\c[0]    I have to make them cum!?
+
+actionRapeLoop/Wall0_NotEnough
+\CBct[6]\m[pain]\Rshake\c[6]Lona：\c[0]    AHH....
+
+actionRapeLoop/Wall0_Break
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\c[0]    Oh...Cheer up....Leave...
+
+actionRapeLoop/commoner_opt
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\c[0]    I'm... What the hell am I doing?\optB[Never mind,Flirt]
+
+actionRapeLoop/Wall1_opt
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\c[0]    I'm... What the hell am I doing?\optB[Continue,Resist]
+
+actionRapeLoop/Sleep_opt
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    No time to rest! There's still work to do!!\optD[Keep going,Rest]
+
+actionRapeLoop/DidntDoSex_PlusAggroRate0_0
+\narr\cg[event_Eyes]Lorna did not engage in sacred intercourse with other believers...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_1
+\narr This has made the believers quite unhappy...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_2
+\narr The believers began to doubt Lona...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_3
+\narr They decided to sacrifice this traitor...
+
+actionRapeLoop/Blocked0
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    No! I must ease everyone's fears!
+
+actionRapeLoop/Blocked1
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]   No! I'm a believer of the Mother of Fertility! I have to fuck!
+
+actionRapeLoop/Blocked2
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\c[0]    No! I have to let someone cum inside me! It's my responsibility!
+
+wakeUp/suckDick-0
+\CBct[6]\m[confused]\Rshake\c[6]Lona：\c[0]    Where am I? What should I do?
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\c[0]    That's right! I want to eat stinky meat sticks...
+
+wakeUp/suckDick0_0
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\c[0]    Meat stick... Delicious...
+
+wakeUp/suckDick0_1
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\c[0]    I must lick it clean...
+
+wakeUp/suckDick0_2
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\c[0]    It's my duty to clean it.
+
+wakeUp/suckDick1_0
+\CBmp[PigMan,4]\c[4]Pighead：\c[0]    Yes, that's good, that's it.
+
+wakeUp/suckDick1_1
+\CBmp[PigMan,4]\c[4]Pighead：\c[0]    Yes this is the duty given to you by the Mother of Fertility.
+
+wakeUp/suckDick1_2
+\CBmp[PigMan,4]\c[4]Pighead：\c[0]    Impressive! The Mother of Fertility is proud of you!
+
+wakeUp/suckDick1_pee
+\CBmp[PigMan,4]\c[4]Pighead：\c[0]    Raise your head. You'll receive the essence of fertility.
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    Yes, sir....
+
+wakeUp/suckDick2
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    You're doing a great job. But some of our brothers still live in fear.
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    Go ahead, ease their fears.
+\CBct[4]\m[lewd]\PRF\c[6]Lona：\c[0]    Thank you master. I will let them fuck me.
+
+wakeUp/suckDick3
+\CBct[2]\m[lewd]\PRF\c[6]Lona：\c[0]    Do I have to let them fuck me? Do I have to eat the meat sticks?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Whose cock should I take?
+
+wakeUp/GangRape0
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    You're doing great, girl.
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\c[0]    Thank you master♥
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    But I still feel a great deal of fear among us.
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    Look, over there, those people still live in fear.
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    Free them!
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    Yes....master...
+
+wakeUp/GangRape1
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\c[0]    Brothers...feel free to use me?
+
+wakeUp/Break0
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    You're doing great, girl.
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\c[0]    Thank you master♥
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    Go and rest, tomorrow you will ease more people's fears.
+\CBmp[PigMan,20]\prf\c[4]Pighead：\c[0]    All for the Mother of Fertility.
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\c[0]    All for the Mother of Fertility♥
+
+wakeUp/Break1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    What is this? What am I doing here?
+
+GameOver/0
+\m[tired]\PRF\c[6]Lona：\c[0]    Huh...?
+\m[confused]\PRF\c[6]Lona：\c[0]    So hot....?
+\m[tired]\PRF\c[6]Lona：\c[0]    ......
+
+GameOver/1
+\BonMP[PigMan,20]\prf\c[4]Pighead：\c[0]    SHE TURNED ON THE MOTHER OF FERTILITY!
+\BonMP[PigMan,20]\prf\c[4]Pighead：\c[0]    SHE DOES NOT DESERVE HAPPINESS!
+\BonMP[PigMan,20]\prf\c[4]Pighead：\c[0]    WE MUST RETURN HER FEAR!
+
+GameOver/2
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake !!!!
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    It's hot! SO HOT!
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    NO! I DONT WANT TO DIE! PLEASE DONT!!
+\SndLib[sound_Bubble]\Rflash\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{AAAAHHHHH!!
+
+GameOver/3
+\narr Lona was cooked alive.
+\narr her flesh was divided among the flock.
+\narr her bones were simmered for stock.
+\narr by the end of the day nothing remained of her....
+
+######################################################################  BlueBlue #Ranran 
+
+Df_Heresy4/BlueBlue0
+\CBid[-1,2]\prf\c[4]Follower：\c[0]    \c[6]Ranran\c[0]\..\..\..?
+\CBid[-1,5]\prf\c[4]Follower：\c[0]    I'm\c[6]Ranran\c[0]?!
+\CBid[-1,4]\prf\c[4]Follower：\c[0]    I'm\c[6]Ranran\c[0]? I must get fucked by men!
+
+Df_Heresy4/BlueBlue1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Uh...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Your sister's been looking for you, let's go find her, okay?
+\CBid[-1,8]\prf\c[4]Ranran：\c[0]    Sister\..\..\..?
+\CBid[-1,20]\prf\c[4]Ranran：\c[0]    My sister hates me! Everyone looks down on me!
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Oh...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Why would she hate you?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Your sister is very worried about you, she asked me to come here to look for you.
+\CBid[-1,20]\prf\c[4]Ranran：\c[0]    NO! I don't want to go back! This world is too scary!
+\CBid[-1,20]\prf\c[4]Ranran：\c[0]    The world is full of bad people, everyone wants to abuse me!
+\CBid[-1,20]\prf\c[4]Ranran：\c[0]    But there is no fear here! Only happiness!
+
+Df_Heresy4/BlueBlue2
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Hiding in a cave and having orgies doesn't help! What do you even eat here?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    You're pregnant, think of your baby. Is this what you want for your child?
+\CBid[-1,8]\prf\c[4]Ranran：\c[0]    My child\..\..\..
+\CBid[-1,8]\prf\c[4]Ranran：\c[0]    I'm so hurt... so tired... please... get me out of here!
+\CBct[3]\m[pleased]\PRF\c[6]Lona：\c[0]    Take my hand, let's go.
+
+Df_Heresy4/BlueBlue3
+\CBct[6]\m[serious]\PRF\c[6]Lona：\c[0]    This is really bad, I have to leave right now.
+
+Df_Heresy4/BlueBlue4_opt
+\CBmp[BBguard,4]\prf\c[4]Follower：\c[0]    Good sister♥ Let me fuck you♥ ease my fears♥
+\CBct[6]\m[angry]\Rshake\c[6]Lona：\c[0]    Not good...\optD[Ignore him,Lie<r=HiddenOPT1>,Threaten<r=HiddenOPT2>]
+
+Df_Heresy4/BlueBlue4_WIS0
+\CBct[5]\m[serious]\PRF\c[6]Lona：\c[0]    Listen! She's mine!
+\CBmp[BBguard,2]\prf\c[4]Follower：\c[0]    Yours\..\..\..But aren't you a woman??
+\CBmp[BBguard,20]\prf\c[4]Follower：\c[0]    Women can't have children with other women!
+\CBmp[BBguard,20]\prf\c[4]Follower：\c[0]    The Mother of Fertility wont allow this!
+\CBct[5]\m[angry]\Rshake\c[6]Lona：\c[0]    How do you know a woman can't have children with a woman?
+\CBct[5]\m[serious]\Rshake\c[6]Lona：\c[0]    Are you a woman? Have you ever been a woman?!
+\CBct[5]\m[angry]\Rshake\c[6]Lona：\c[0]    Did the mother of fertility tell you women can't have children?
+\CBmp[BBguard,6]\prf\c[4]Follower：\c[0]    I...
+\CBct[5]\m[serious]\Rshake\c[6]Lona：\c[0]    You can't even impregnate her! Can't you see she's already pregnant?
+\CBmp[BBguard,6]\prf\c[4]Follower：\c[0]    I was wrong....
+\CBmp[BBguard,20]\prf\c[4]Follower：\c[0]    You're right, she's yours...
+
+Df_Heresy4/BlueBlue4_WIS1
+\CBct[3]\m[flirty]\PRF\c[6]Lona：\c[0]    Haha...?
+
+Df_Heresy4/BlueBlue4_CB0
+\CBmp[BBguard,6]\c[4]Follower：\c[0]    OOOHHHHH!!!
+\CBmp[BBguard,20]\c[4]Follower：\c[0]    \{My balls aahhhh!!!!
+
+Df_Heresy4/BlueBlue4_CB1
+\CBct[5]\m[irritated]\Rshake\c[6]Lona：\c[0]    We have to get out of here now!
+
+Df_Heresy4/BlueBlue4_AGGRO
+\CBmp[BBguard,2]\c[4]Follower：\c[0]    Hmm? I've never seen you before, who are you?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh.....
+\CBmp[BBguard,20]\prf\c[4]Follower：\c[0]    A WORSHIPPER OF THE FALSE GOD! GET HER!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Oh no!
+
+Df_Heresy4/END
+\board[A mother in need]
+Goal：Find\c[6]Ranran\c[0] and take her back to\c[6]Momo\c[0]
+Duration：2 days
+Client：\c[6]Momo\c[0] of the refugee camp
+Return to the refugee camp as fast as possible.
+
+Df_Heresy4/CompRng0
+\CBid[-1,8]\prf\c[4]Ranran：\c[0]    My sister's not mad at me, is she?
+
+Df_Heresy4/CompRng1
+\CBid[-1,8]\prf\c[4]Ranran：\c[0]    I was wrong....
+
+Df_Heresy4/CompRng2
+\CBid[-1,8]\prf\c[4]Ranran：\c[0]    I'm sorry...
+
+#DOGE + Synced

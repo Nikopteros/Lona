@@ -1,0 +1,36 @@
+thisMap/OvermapEnter
+Posición de Artillería \optB[Cancelar,Entrar]
+
+Guard0/Com0
+\CBid[-1,20]\c[4]Soldado：\C[0] ¿Recuperar la ciudad? ¡¿Qué sentido tiene eso?!
+
+Guard0/Com1
+\CBid[-1,20]\c[4]Soldado：\C[0] Todos están muertos, ¿qué demonios hacemos aquí?
+
+Guard0/Com2
+\CBid[-1,20]\c[4]Soldado：\C[0] ¿¡Hay gente viva en la ciudad!? ¿Crees que esos pobres diablos siguen siendo humanos?
+
+Guard1/Com0
+\CBid[-1,20]\c[4]Soldado：\C[0] Sí, me transfirieron de Noertown hace unos días.
+
+Guard1/Com1
+\CBid[-1,20]\c[4]Soldado：\C[0] Solo había oído hablar de ellos por los refugiados. No lo creía... hasta que lo vi con mis propios ojos...
+
+Guard1/Com2
+\CBid[-1,20]\c[4]Soldado：\C[0] ¡Todo esto es una exageración! La infección no puede seguir propagándose tan lejos.
+
+Guard2/Com0
+\CBid[-1,20]\c[4]Soldado：\C[0] ¡Eh! ¿¡Dónde están los monstruos!? ¡Pedí que me enviaran aquí para matar monstruos!
+
+Guard2/Com1
+\CBid[-1,20]\c[4]Soldado：\C[0] ¡Ja-ja-ja! ¡Todos se lo merecen!
+
+Guard2/Com2
+\CBid[-1,20]\c[4]Soldado：\C[0] ¡Esta ciudad podrida está realmente acabada!
+
+Officer/Common_basic
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¿Qué ocurre? No tengo tiempo para ti.
+
+Officer/Common_Saint
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión：\C[0] ¡Santo, ahora lo creo! Te lo ruego, por favor, guíame...
+

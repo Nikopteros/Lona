@@ -1,0 +1,173 @@
+#Plainview
+NFL_OrkCamp2/OvermapEnter
+\cg[map_GobRaider]\m[confused]Perranway Village, a transfer station for slaves.\optB[Leave,Enter]
+
+#############################################################################  NFLOrkindCmap2 rapeloop and quest
+
+NFL_OrkCamp2/Rapeloop_FoodOffer
+\SndLib[sound_goblin_roar]\narr They were satisfied with the performance of the meat toilet and left the food behind.
+
+NFL_OrkCamp2/Rapeloop_show_end
+\cg[event_OrkindGonnaRape]\SndLib[sound_goblin_roar]\narr The meat toilet completed the performance under their ridicule, and they were very satisfied.
+\narr And reward this ridiculous meat toilet with rotten minced meat.
+
+NFL_OrkCamp2/Rapeloop_show_no
+\narr They were very angry because the meat toilet rejected them.
+\narrThey decided to teach this disobedient meat toilet a lesson...
+
+NFL_OrkCamp2/RapeLoopNonCapture
+\m[fear]\narr It deemed Lona to be a skinny meat toilet.
+\m[terror]\narr The big brother said that the toilets should be sent back to be used as seedbeds, but the thin ones can also be kept for fun....
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_None_WakeBegin
+\narr The brothers were very tired from playing and decided to take a good rest.
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_DryCropse_WakeBegin
+\narr\..\..\..\ph\SndLib[sys_equip]It seems like something has been moved next to Lona...
+
+NFL_OrkCamp2/Rapeloop_DryCropse0
+\ph\cg[event_DryCropse]\SndLib[sound_ZombieSpot]The moaning human pig. His facial features and limbs were removed, and his body was thin and frail....
+
+NFL_OrkCamp2/Rapeloop_DryCropse1
+\ph\cg[event_WartsDick]Only the parasite-covered penis was abnormally swollen...
+
+NFL_OrkCamp2/Rapeloop_DryCropse2
+\ph\cg[event_OrkindGonnaRape]\SndLib[Breathing_Goblin]Lona couldn't understand what they were yelling, but she was sure they wanted her to ride that dirty cock.
+A lowly and dirty human toilet can only be used with a parasite-infected cock....
+\CBct[8]\m[fear]Do you want to do it?\optD[I have to!<t=5>,I can't!]
+
+NFL_OrkCamp2/Rapeloop_DryCropse2_yes
+\narr\SndLib[sound_chcg_chupa]Lona rode up....
+
+NFL_OrkCamp2/Rapeloop_DryCropse3
+\m[p5_shame]\narr With the efforts of the meat toilet, the meat toy is about to ejaculate...
+
+NFL_OrkCamp2/DailyJob_select_DryCropse
+\narr They demand that the meat toilet perform intercourse with the meat toy in the corner.
+\narr If you don’t follow these instructions, you will not only have no food to eat, but you will also be punished....
+
+NFL_OrkCamp2/DailyJob_select_Abom
+\narr They ask the toilet to give birth to more mounts for them...
+
+NFL_OrkCamp2/DailyJob_select_ThrowRock
+\narr They feel bored and want to have some fun.
+
+NFL_OrkCamp2/DailyJob_end_ThrowRock
+\narr Tired of playing, they were happy with the way the meat toilet crawled around.
+
+#############################################################################  NFL_MerCamp_SaveDog 1
+
+MercJoin/leader_Buddy0
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Rshake\c[4]Mercenary Captain：\c[0]   Yes, this is it. This is where he was separated from us.
+
+MercJoin/leader_Buddy1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]   You! You take the lead! 
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What?! Why me?!
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    You said you were from \c[6]Sybaris\c[0]? Don’t you want to go home and have a look?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    We have seen your strength in the camp, and I am certain that you're the best option to take the lead.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well... All right...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So the person you are looking for is... What does he look like?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    White, with a big nose and big ears.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    White skin? Big nose and big ears?
+\CBct[2]\m[serious]\plf\PRF\c[6]Lona：\c[0]    OK, come with me.
+
+MercLeader/CompCommand0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    He must still be alive!
+
+MercLeader/CompCommand1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    Act fast!
+
+MercLeader/CompCommand_foundTGT0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    We must leave immediately.
+
+MercLeader/CompCommand_foundTGT1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    We can't stay here, it's too dangerous.
+
+MercJoin/spear
+\CBid[-1,20]\c[4]Lancer：\c[0]    Simply stupid! Why on earth are we back here?
+
+MercJoin/bow
+\CBid[-1,20]\c[4]Archer：\c[0]    Save him? This makes no sense at all.
+
+MercJoin/priest
+\CBid[-1,20]\c[4]pastor：\c[0]    Not even the Saint would agree with us doing stupid things like this.
+
+MercLeader/Rg38_1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What is here...?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    A filthy greenskin butcher shop, or a sacrificil altar, worshiping their false gods.
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    If you don't want to become their food, just be quiet.
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Woo....
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Look! There's movement!
+
+MercLeader/Rg38_2
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcQuestion]\SETpr[OrcSlaveMaster_normal]\Rshake\c[4]Orcs：\c[0]    Roar oh oh...
+
+MercLeader/Rg38_3
+\CBmp[SlaveMaster,20]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_sad]\Rshake\c[4]Orcs：\c[0]    \{Hooooooooh!
+
+MercLeader/Rg38_4
+\CBmp[Priest,2]\SndLib[sound_OrcHurt]\SETpl[OrcPriest]\Lshake\c[4]Orcs：\c[0]    Roar! ! Horse cock roar?!
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_normal]\Rshake\prf\c[4]Orcs：\c[0]    Hooooo??
+
+MercLeader/Rg38_5
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Orcs：\c[0]    \{Muh dick dick dick dick dick!!??
+
+MercLeader/Rg38_6
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcHurt]\SETpr[OrcSlaveMaster_sad]\plf\Rshake\c[4]Orcs：\c[0]    Hooooo? !
+
+MercLeader/Rg38_7
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Orcs：\c[0]    \{Horse dick dick!!!!
+
+MercLeader/Rg38_8
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Horse dick...?
+\CBmp[MerLeader,2]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Let's go...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+
+############################################################################# Found Doggy
+
+Doggy/KIA
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    No! \c[6]Leif\c[0]!!!
+
+Doggy/alive_begin1
+\CBid[-1,6]\SndLib[dogDead]\c[4]dog：\c[0]    \..\..\..
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    \c[6]Leif\c[0]!!!
+\narr This poor dog's asshole is very open...
+\narr Big enough to accommodate an adult's arm...
+\narrOFF\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    Poor \c[6]Leif\c[0], it’s okay, I’m here, boy.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh\..\.... so\.....
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    This is what you are saving... a dog?
+\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    That's right! Your problem?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well.... no problems...
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Come, let us leave this sad place.
+\CBid[-1,20]\SndLib[dogDead]\plf\prf\c[4]dog：\c[0]    \..\..\..
+
+Doggy/alive_brd
+\board[Save teammates]
+Goal： Save the mercenary captain's companions.
+Reward： 1 Big Copper Coin
+Client： Mercenary Captain
+Quest Term： Single
+Lead the mercenary captain and his dog out of here.
+
+Doggy/QuestDone1
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    Great, it's safe here.
+
+Doggy/QuestDone2
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Hero, tell me your name.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    My name is\..\..\..\c[4]Lona Falldin\c[0].
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    \c[4]Lona\c[0]?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Very good, \c[6]Leif\c[0] and I thank you very much. I hope we meet again someday.
+
+MercLeader/QmsgDoggyKIA0
+Leif!!
+
+MercLeader/QmsgDoggyKIA1
+My dog!!!
+
+MercLeader/QmsgDoggyKIA2
+He's dead!!!

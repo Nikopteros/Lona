@@ -1,0 +1,88 @@
+thisMap/OvermapEnter
+廢屋\optB[沒事,進入]
+
+GrayRat/QuestBG1
+\CBmp[GrayRat,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]壯漢：\c[0]    .........
+
+GrayRat/QuestBG2
+\CBmp[Adam,1]\SETpr[Adam_angry]\plf\Rshake\c[4]未知：\c[0]    站住！ 誰！
+\CBmp[GrayRat,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]壯漢：\c[0]    ....
+\CBmp[Adam,6]\SETpr[Adam_sad]\plf\PRF\c[4]未知：\c[0]    是你啊...
+
+GrayRat/QuestBG3
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]未知：\c[0]    你主子同意了？
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]壯漢：\c[0]    同意，但如同之前她所擔心的...
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]壯漢：\c[0]    所有的後續影響必須壓到最小。
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\Rshake\c[4]未知：\c[0]    那是一定的。
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]未知：\c[0]    好！這是時間地點。
+
+GrayRat/QuestBG3_1
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]壯漢：\c[0]    感謝......
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]壯漢：\c[0]    祝诸事顺利。
+
+GrayRat/QuestBG4
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\Rshake\c[4]守衛：\c[0]    牠是個混族！你真的要他合作？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    蠢貨！重點是他後面是什麼人！
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    你沒看過他發飆，他的實力不是開玩笑的！
+
+GrayRat/QuestBG5
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    接下來照計畫實行，攔截北方的車隊。
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]守衛：\c[0]    事情真的會這麼順利嗎？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    當然！而且我們別無選擇！
+
+Adam/SupLona0
+\CamMP[Adam]\BonMP[Adam,1]\SETpl[Adam_angry]\Lshake\c[4]未知：\c[0]    站住！ 妳是誰！
+\CBct[8]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我...\optD[只是路過,亞當]
+
+Adam/SupLona_ans_adam
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 請問您是亞當嗎？
+\CamMP[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]亞當：\c[0]    說！妳怎麼知道這個名子！\optD[唉嘿嘿,美祿,說謊<r=HiddenOPT0>,我幫過你<r=HiddenOPT1>]
+
+Adam/SupLona_ans_pass
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我只是經過這裡....
+
+Adam/SupLona_ans_hehe
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    唉嘿嘿... 我也不知道耶..
+
+Adam/SupLona_ans_milo
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃.. 那個....
+\CBct[2]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    美祿先生說他想要你的頭之類的...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+
+Adam/SupLona_ans_work0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我幫你工作過，你忘了？
+
+Adam/SupLona_ans_work1
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]亞當：\c[0]    \..\..\..
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]亞當：\c[0]    我想起來了，你是那個看起來很適合偷東西的小鬼頭。
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]亞當：\c[0]    但妳為什會在這裡！！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 我聽那個\c[4]美祿\c[0]說要殺你來著，所以就跟來了？
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]亞當：\c[0]    \..\..\..
+
+Adam/SupLona_ans_lie0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我... 呃... 這個....
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    你就是亞當？ 不妙了！ 美祿的人來了！
+\CBct[2]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    那些傭兵已經在路上了！ 快點逃吧！
+
+Adam/SupLona_ans_lie1
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]亞當：\c[0]    什麼！ 該死的！ 謝妳了！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]亞當：\c[0]    小子們！ 撤了！
+
+Adam/SupLona_ans_lie2
+\CBct[8]\m[confused]\plf\PRF\c[4]然後怎麼辦？ 人頭去哪拿阿？
+
+Adam/SupLona_Kill0
+\CBmp[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]亞當：\c[0]    抓耙子！ 宰了她！
+
+Adam/SupLona_Kill1_typical
+\CBct[6]\m[wtf]\plf\Rshake\c[6]洛娜：\c[0]    不是吧？！
+
+Adam/SupLona_Kill1_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    該死！
+
+Adam/SupLona_Kill1_gloomy
+\CBct[6]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    吚呀呀呀！！？
+
+Adam/SupLona_Kill1_slut
+\CBct[6]\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    等... 等一下！

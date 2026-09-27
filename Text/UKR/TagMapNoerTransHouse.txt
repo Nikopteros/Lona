@@ -1,0 +1,193 @@
+ThisMap/OmEnter
+\m[confused]Будинок іграшок Поганого Дракона \optB[Скасувати,Увійти]
+
+###################################################################### When Enter
+
+EnterOp/0
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Невідомий：\C[0] Так це правда? Ці чарівні пігулки дійсно можуть вилікувати мене і перетворити мій член на вагіну?
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_fear]\plf\PRF\c[4]Торгівець：\C[0] Е-е..\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Торгівець：\C[0] Звичайно, звичайно! Тільки не забувайте приймати по одній таблетці з кожним їдою.
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Невідомий:\C[0] Це те, що ви говорили мені минулого разу!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Торгівець:\C[0] Повірте мені! На цей раз все обов'язково вийде!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Торговець:\C[0] Хіба ви не чули про нову Клініку Акушерства та Гінекології, яка відкрилася біля Східних Воріт?
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Торгівець:\C[0] Це диво-препарат, створений дивовижним доктором звідти! Він обов'язково подіє!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Торговець:\C[0] І це дуже дешево, тижневий запас ліки обійдеться вам всього в одну Золоту Монету!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Торгівець:\C[0] Ви знайдете жіночність всього за 3 тижні!
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Невідомий:\C[0] Правда? Але в мене залишилося всього 8 Великих Мідяків.
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_shocked]\plf\PRF\c[4]Торгівець：\C[0] Ой вей..\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]Торгівець：\C[0] Це не проблема! Я можу позичити препарат для початку!
+
+EnterOp/1
+\CBmp[SnowflakeEVMod,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Невідомий:\C[0] Правда? Це було б чудово! ♥
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]Торговець:\C[0] Я знав, що може так вийти і був готовий до цього!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Торгівець:\C[0] Дуже скоро ви станете справжньою жінкою!
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Невідомий:\C[0] ЩО ТИ СКАЗАВ? ТИ, ЙОБАНИЙ БІЛЬШЕНОСИЙ ТРОЛЬ! Я справжня жінка!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Торгівець:\C[0] Д-Так! Правильно! Ви маєте рацію! Ви і були справжньою жінкою з самого початку!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Торговець:\C[0] Біль і страждання, які вам належить пережити, - це випробування від самого Святого!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Торговець:\C[0] Все, що вам потрібно зробити, - це прийняти ці ліки, щоб нарешті бути прийнятим усіма!
+\CBmp[SnowflakeEVMod,8]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Невідомий：\C[0] Так, ви маєте рацію. Мабуть, це справді випробування від Святого.
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Торгівець：\C[0] А тепер, се-...мем, все, що мені від вас потрібно, це ваш підпис на цьому аркуші паперу\..\..\..
+
+###################################################################### Night
+
+Trans/begin0
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\c[4]Невідомий:\C[0] \{АААААААААА!!
+
+Trans/begin1
+\CBct[20]\m[terror]\Rshake\c[6]Лона:\C[0] \{АААААХХ!!!
+
+Trans/begin2
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Невідомий:\C[0] Як грубо. ♥ Ти мало не налякала мене до смерті. ♥
+
+Trans/begin3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Невідомий:\C[0] Ох... ♥ Яка солодко пахне маленька дівчинка... ♥
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Невідомий:\C[0] Мене звуть \c[6]Сніжинка\C[0]. А як тебе звуть, сестричка?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Еммм\..\..\.. \c[4]Лона:\C[0]....
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Невідомий:\C[0] \c[6]Лона\C[0]? Яке чудове ім'я. ♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е-е..\..\.. Дякую?
+
+Trans/talkedBegin0
+\m[tired](Уфф... *Буе*... Тут так смердить...)
+
+Trans/talkedNight0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка：\C[0] Як грубо. ♥ Не зараз. ♥
+
+Trans/talkedDay0
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка:\C[0] Що тобі потрібно, сестричка? ♥
+
+###################################################################### opt
+
+Trans/opt_pills
+...
+
+Trans/opt_male
+Ти – чоловік!
+
+Trans/ans_male
+\CBct[20]\m[angry]\plf\Rshake\c[6]Лона:\C[0] Будь ласка, перестань обманювати себе, ти ж чоловік!
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона:\C[0] Це реальність, тобі час прокинутися.
+
+Trans/ans_pills_opt
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] \..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка：\C[0] Подивися на це, моя мила сестричка. Це ліки для жіночого члена, які я нещодавно купив.
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка：\C[0] З ним я стану справжньою жінкою.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е-е..\..\..\m[confused] Це.... \optD[Справжні ліки, Хибна медицина]
+
+Trans/ans_pills_opt_real
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Так, ці ліки обов'язково вилікує тебе від... хвороби жіночого члена?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка:\C[0] Певно, скоро я вилікуюсь від хвороби жіночого члена і стану справжньою жінкою.
+
+Trans/ans_pills_opt_fake0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] \..\..\..
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Хіба це не просто зацукровані цукерки, які можна знайти в більшості магазинів?
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка：\C[0] Ні-ні, дурненька. Придивіться уважніше як слід. Ці таблетки – справжні ліки для лікування жіночого члена.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] На цій написано, що вона з банановим смаком. Якщо ти мені не віриш, чому б не з'їсти одну зараз?
+
+Trans/ans_pills_opt_fake1
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка：\C[0] Ні! Це неможливо!\n ТИ брешеш МЕНІШЕ!
+
+Trans/Ans_about0
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Хмм... Це магазин іграшок? Ти єдиний, хто тут продає іграшки?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка:\C[0] Я наймайстерніший майстер з виготовлення іграшок у всьому Ноері,\n а дворяни Маєтоку Росендо - мої найбільші замовлення-\..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка:\C[0] ЗАЧЕКАЙ-КА\.. ОДНУ\.. ХВИЛИНУ\........\n \{ТИ ЩО-?!
+
+Trans/Ans_about1
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Сніжинка:\C[0] \{ТІЛЬКИ ЩО МІСГЕНДЕРНУЛА МЕНЕ?!
+
+Trans/Ans_about2
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] А?!\. Місгендер?! \m[sad]Я\..\..\.. Вибач...
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка:\C[0] Оскільки моя солодка маленька сестричка занадто мила, ти можеш стати моєю дружиною!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] ЕЕ?! Дружиною...?! Ти ж сказав, що ти жінка, хіба ні?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка:\C[0] У мене жіночний дівочий член, і все це з вини Святого.
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка:\C[0] Але я люблю маленьких дівчаток!\n В ЦЬОМУ ЯКА ПРОБЛЕМА?!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Н-... -Ні!
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка：\C[0] Добре.
+
+Trans/RageQuit0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Сніжинка:\C[0] Я ЖІНКА!!! ЯК ТИ СМІЄШ ДИСКРИМІНУВАТИ МІНЯЮЧА!
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Сніжинка:\C[0] \{ПРИБИРАЙСЯ!\n ПРИБИРАЙСЯ ЗВІДТІ!!!
+
+Trans/RageQuit1
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] \{Що?!
+
+endTalkQuestion/begin0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка：\C[0] Я хочу поставити тобі одне питання. Твоя старша сестра схожа на жінку?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е-е-е-е...\optD[Ти виглядаєш як жінка...,Ти виглядаєш як чоловік‚ звичайно!]
+
+endTalkQuestion/begin0_ansF
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Як жінка, ти правда виглядаєш як ж-жінка!
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка:\C[0] Ах... ♥ Я знав, що молодша сестричка Лона бачить істину.
+
+endTalkQuestion/begin0_ansM
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ти, звичайно, виглядаєш як чоловік, адже в тебе є член...
+
+###################################################################### Common cropse
+
+Cropse/Qmsg0
+На тілі тавро раба...
+
+Cropse/Qmsg1
+Схоже, що він помер з голоду...
+
+Cropse/Qmsg2
+Ну і дірка...
+
+Cropse/Qmsg3
+Гниє тут уже давно...
+
+transCropse/Qmsg0
+Лайно і сеча по всій підлозі.
+
+transCropse/Qmsg1
+Він не зміг прийняти реальність і наклав на себе руки...
+
+###################################################################### nap first capture
+
+Trans/NapCapture0
+\CBct[2]\m[confused]\PLF\c[6]Лона:\C[0] Хммм\..\..\..?
+
+Trans/NapCapture1
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка：\C[0] О, чудово! ♥ Ти нарешті прокинулася, сестричка! ♥
+
+Trans/NapCapture2
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Як я тут виявилася?! Що ти зробив зі мною?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка:\C[0] Хіба моя маленька сестричка не обіцяла стати моєю дівчиною?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Я? Дівчиною?!
+
+Trans/NapCapture3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Сніжинка：\C[0] Давай з'єднаємо наші жіночі тіла як кохані. ♥
+\CBct[6]\m[pain]\plf\Rshake\c[6]Лона:\C[0] НІ! Відпусти мене!
+
+Trans/NapCapture4
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка：\C[0] Оооо! ♥ Мій дівочий член кінчає! ♥ Я зараз сквіртану! ♥♥
+
+Trans/NapCapture5
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Сніжинка：\C[0] Аххх, так добре.
+\CBct[8]\m[pain]\plf\PRF\c[6]Лона:\C[0] Охххх.
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Сніжинка:\C[0] Мені час на роботу, але дуже скоро я повернуся, щоб знову любити тебе.~ ♥
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] ....
+
+###################################################################### nap rapeloop
+
+Trans/NapRapeloop0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Сніжинка:\C[0] Іди до мене. ♥ Настав час виявити ніжну дівочу любов до своєї старшої сестри. ♥
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Сніжинка:\C[0] Давай пізнаємо разом насолоду жіночності! ♥
+
+Trans/NapRapeloop1
+\CBct[8]\m[pain]\plf\PRF\c[6]Лона:\C[0] Охххх.
+
+rapeloop/ans_male0
+\CBct[5]\m[angry]\plf\PRF\c[6]Лона:\C[0] Ти\..\..\.. Зовсім не жінка!
+\CBmp[Snowflake,1]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Сніжинка:\C[0] ЩО?! ЩО ТИ СКАЗАЛА?!
+\CBct[5]\m[serious]\plf\PRF\c[6]Лона:\C[0] Ти народилися таким!
+\CBct[5]\m[serious]\plf\PRF\c[6]Лона:\C[0] Що б ти не робив, ти не зможеш змінити цю реальність!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Сніжинка:\C[0] \{СУКА! ЗАТКНИСЯ!
+
+rapeloop/ans_male1
+\CBct[5]\m[angry]\plf\PRF\c[6]Лона:\C[0] Скільки «ліків» ти прийняв? Скільки операцій ти зробив?
+\CBct[5]\m[angry]\plf\PRF\c[6]Лона:\C[0] Хоч щось із цього допомогло?!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Сніжинка:\C[0] \{СУКА! ЗАТКНИСЯ! ЗАТКНИЇСЯ!
+\CBct[5]\m[serious]\PRF\c[6]Лона:\C[0] Адже ти все це вже знаєш, чи не так?! Ти НІКОЛИ не станеш жінкою!
+
+rapeloop/ans_male2
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Сніжинка:\C[0] \{АААААА!

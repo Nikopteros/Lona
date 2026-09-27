@@ -1,0 +1,12 @@
+####################################--------------------- overmap
+Top/OvermapEnter
+\m[confused]Храм Торнів \optB[Скасувати,Увійти]
+
+sneak/spoted
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж:\C[0] ПОРУШНИК...!
+
+release/DeepOneF
+\m[confused]\plf\PRF\c[6]Лона:\C[0] Заточений... монстр?
+
+Farseer/Else
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Шаман:\C[0] Чужак... Іди...

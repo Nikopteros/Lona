@@ -1,0 +1,168 @@
+####################################--------------------- TagMapNoerPrison overmap
+Prison/OvermapEnter
+\m[confused]監獄\optB[算了,進入]
+
+Prison/CantEnter
+\SETpl[Mreg_pikeman]\c[4]獄卒：\c[0]    這不是妳該來的地方。
+
+Prison/term
+刑期還有
+
+Prison/termD
+天
+
+###################################################################     Warden
+
+Warden/Release1
+\SETpl[Mreg_guardsman]\c[4]獄卒：\c[0]    ......
+\SND[SE/DOOR_Owen_Open_stereo.ogg]\SETpl[Mreg_guardsman]\c[4]獄卒：\c[0]    嗚... 真是臭死了。
+\SETpl[Mreg_guardsman]\c[4]獄卒：\c[0]    這些蛆蟲為什麼不死一死。
+
+Warden/Release2
+\SETpl[Mreg_guardsman]\c[4]獄卒：\c[0]    還活著嗎？ 叫什麼來著的？
+\SETpl[Mreg_guardsman]\Lshake\c[4]獄卒：\c[0]    喂！ 死小鬼！ 你受刑期結束了！
+\SETpl[Mreg_guardsman]\Lshake\c[4]獄卒：\c[0]    \{可以滾了！
+
+Warden/Release3
+\SETpl[Mreg_guardsman]\c[4]獄卒：\c[0]    睡死了是嗎？
+
+Warden/Release4
+\m[tired]\plf\c[6]洛娜：\c[0]    嗚....
+\PLF\prf\c[4]獄卒：\c[0]    醒了是嗎？ 真是恭喜，你可以滾了。
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    咿啊？
+\PLF\prf\c[4]獄卒：\c[0]    還是妳想待在牢房裡？ 我們沒多餘的食物供給妳這種垃圾。
+
+Warden/Release5
+\plh\narr獄卒離開了。
+
+Warden/Release6
+\m[confused]\plf\Rshake\c[6]洛娜：\c[0]    什... 我...
+\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    接下來要怎麼辦...
+
+Warden/Qpop0
+沒事了就快滾！
+
+Warden/Qpop1
+別煩，我在忙
+
+###################################################################     FOOD
+
+Warden/PlaceFood0
+\SETpl[Mreg_guardsman]\prh\c[4]獄卒：\c[0]    放飯啦！蛆蟲們！
+
+Warden/PlaceFood1
+\ph\narr獄卒在門口放了一些食物
+
+
+###################################################################     Rapeloop torture
+
+Warden/torture1
+\SND[SE/Whip_slap01]\m[pain]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[4]獄卒：\c[0]    \{醒來！
+\SND[SE/Whip_slap02]\m[hurt]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[6]洛娜：\c[0]    \{咿呀呀！
+
+Warden/torture2
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]獄卒：\c[0]    \{你們這些蛆蟲聽好了！
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]獄卒：\c[0]    最近有些蟲子鬼鬼祟祟的做些不該做的事情！
+\SETpl[Mfat_tortruer]\Lshake\PRF\c[4]獄卒：\c[0]    \{而這就是那些蟲子的下場！
+
+
+Warden/torture_end0
+\m[pain]\plf\Rshake\c[6]洛娜：\c[0]    \{咿呀呀！！！
+\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    \{誰來救救我！ 救救我！
+
+Warden/torture_end1
+\SETpl[Mfat_tortruer]\Lshake\c[4]獄卒：\c[0]    任何舉報蟲子不乖的犯人，獎勵10個麵包！
+\SETpr[Mreg_guardsman]\c[4]獄卒：\c[0]    真他媽臭死人，快把它扔回去了事吧。
+
+Warden/torture_end2
+\narr洛娜挖的坑被填起來了。
+
+Torture2/popup0
+咿呀呀呀！
+
+Torture2/popup1
+嗚啊啊！
+
+Torture2/popup2
+咿咿咿！
+
+###################################################################     THAT TOILET
+
+that_toilet/Opt_NoerPrison_toilet
+這個糞坑
+
+Toilet/frist_time
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    這個糞坑....
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    我的身型似乎可以進得去..
+\CBct[8]\m[fear]\c[6]洛娜：\c[0]    可是....
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    這可是個糞坑....
+
+Toilet/MainOpt
+\m[confused]糞坑\optB[不要浪費體力,挖坑<r=HiddenOPT1>]
+
+Toilet/Opt_diged_open
+\CBct[1]\m[shocked]！！！！！
+\CBct[1]\m[shocked]！！！！！！！！
+\CBct[1]\m[pleased]！！！！！！！！！！！
+\CBct[20]\m[triumph]\c[6]洛娜：\c[0]    可以了！ 趁著沒人看到的時候試試吧。
+
+
+###################################################################     begin
+
+Enter/begin1
+\SETpl[Mfat_tortruer]\Lshake\c[4]獄卒：\c[0]    這裡以後就是你家了。
+\SETpr[Mreg_guardsman]\Rshake\c[4]獄卒：\c[0]    \{快妳的室友們問好！
+\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚...
+
+Enter/begin2
+\SETpl[raper3]\m[fear]\Lshake\Rshake\BonMP[RaperTop,2]\c[4]囚犯：\c[0]    \{是女人！\WT[3]
+
+Enter/begin3
+\SETpl[raper2]\m[shocked]\Lshake\Rshake\BonMP[RaperDown,3]\c[4]囚犯：\c[0]    \{女人啊！\WT[3]
+
+Enter/begin4
+\SETpl[raper1]\m[terror]\Lshake\Rshake\BonMP[RaperLeft,4]\c[4]囚犯：\c[0]    \{好久沒肏了！\WT[3]
+
+Enter/begin5
+\SETpl[Mfat_tortruer]\Lshake\c[4]獄卒：\c[0]    妳看，妳的室友們非常喜歡妳呢。
+\SETpl[Mreg_guardsman]\Rshake\c[4]獄卒：\c[0]    這裡真他媽臭死了。
+
+Enter/begin_room
+\SETpl[Mreg_guardsman]\m[p5sta_damage]\Rshake\Lshake\c[4]獄卒：\c[0]    我肏！ 那種東西怎麼可能輪的到妳？
+\m[sad]\c[6]洛娜：\c[0]    \{對不起...
+
+Enter/end
+\SETpl[raper_group]\m[fear]\Lshake\Rshake\c[4]囚犯：\c[0]    \{快放她進來！ 我們要肏她！
+\m[bereft]\Rshake\BonMP[RaperTop]\c[6]洛娜：\c[0]    誰來救救我.....
+
+###################################################################     COMMON NAP RAPE
+
+Prisoner/NapRape_0
+\c[4]囚犯：\c[0]    呵呵，女人！
+
+Prisoner/NapRape_1
+\c[4]囚犯：\c[0]    女人！總算可以肏女人了！
+
+Prisoner/NapRape_2
+\c[4]囚犯：\c[0]    呼呼，雞雞硬硬♥
+
+Prisoner/NapRape1
+\c[4]囚犯：\c[0]    嘿嘿嘿。
+
+Prisoner/NapRape2
+\narr洛娜被搬走了。
+
+Prisoner/NapRape3_0
+\c[4]囚犯：\c[0]    請妳幫我把小雞雞清理一下，這妳辦的到吧？
+
+Prisoner/NapRape3_1
+\c[4]囚犯：\c[0]    大家都是室友，幫室友處理性慾是應該的吧？
+
+Prisoner/NapRape3_2
+\c[4]囚犯：\c[0]    女人就該把腳打開讓我肏到爽！！
+
+Prisoner/NapRape_withSta_Fight2
+\c[4]囚犯：\c[0]    看來妳是想挨揍對吧？
+
+Prisoner/NapRape_withSta_NoFight2
+\m[sad]\c[4]囚犯：\c[0]    口桀♥ 口桀♥

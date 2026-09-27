@@ -1,0 +1,272 @@
+thisMap/OvermapEnter
+Noer Town East Gate external refugee camp\optB[Leave,Enter]
+
+#########################################################
+mapOP/begin0
+\CBmp[PplGroup0,20]\c[4]crowd：\c[0]    Let us go in! We've been waiting here for so long, why don't you let us pass?
+\CBmp[PplGroup1,20]\c[4]crowd：\c[0]    Help us, there are monsters and robbers outside....
+\CBmp[PplGroup0,20]\c[4]crowd：\c[0]    Why don't you let us in? Look, I have money, I have a lot of money!
+\CBmp[GuardMain,20]\SETpl[Mreg_pikeman]\c[4]Soldier：\c[0]    Just this little money? Get lost! You imperial beggars! No pass without an ID!
+
+mapOP/begin1
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    You sinners! All this is caused by your sins!
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    That's it, only the \c[6]Saint\c[0] can save you! Repent and only then can you be saved from lies!
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Innocents! Head north to the \c[6]Saint's Abbey\c[0] Hurry!
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    The followers of the Saint will save you from the wicked hands of \c[6]liars\c[0]!
+\CBct[8]\m[confused]\plh\PRF\c[6]Lona：\c[0]    Well\..\..\.......
+\CBct[8]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    Are there more and more refugees outside the city?
+
+Monk/begin0
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Are you here to hear the sermon?
+
+Monk/begin0Cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    It's Lord Saint!
+\CBct[4]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    Be good... Big sister is talking to the adults, Cocona must wait a minute.♥
+\CBfB[2]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    meow meow....
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Are you a believer or a liar?
+
+Monk/beginOPT
+\CBct[8]\m[confused]\plh\PRF\c[6]Lona：\c[0]    Well.....\optB[Never mind,Believers,Liar,Innocent,Follower]
+
+Monk/beginOPT_BLI
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    Excuse me... Believers...?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    A believer is a person whose body and mind are dedicated to the saints.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Only believers can go to the temple where the Saint awaits at the end of the world!
+
+Monk/beginOPT_LIE
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    What... What is a liar...?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Those who believe in false gods are liars who spread false gospels of false gods.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    All the suffering you have endured is because of the increasing number of lies in this world.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Just like the fishkind abandoned by the false gods, those sinful monster races who believe in the false gods will all be judged in the end!
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Like you, unbelieving sinners, the black mist that took \c[6]Sybaris\c[0] is exactly your punishment!
+
+Monk/beginOPT_FAR
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    Innocents are.....?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    People like you who turn their backs on the Saint are innocent. Your lack of faith is your crime, even though you are innocent.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Innocent people can become liars anytime due to their own fear and materialistic desires.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Look! The doomsday predicted by the Saint has come, and your only way to survive is to believe in the saints before everything is destroyed!
+
+Monk/beginOPT_FOL
+\CBct[2]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    So.... What does being a follower mean?
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Servitude to the Saint. Those laymen who believe in the Saint, but hadn't given up everything.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    Because their beliefs are not solid enough, evil material desires still erode those who are not firm in their faith.
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    There is only a thin line between crime and innocence! The follower treads this line!
+
+Monk/beginOPT_NVM
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    O child, confess to the Saint, only the Saint can save you.
+\CBct[8]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    Well... I'm just passing by....
+
+Monk/beginOPT_NVM_Cocona
+\CBfB[9]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Sister! I want to talk to Lord Saint!
+\CBct[20]\m[flirty]\plh\PRF\c[6]Lona：\c[0]    This is not the Saint, but his follower...
+\CBid[-1,5]\SETpl[AnonMale2]\Lshake\prf\c[4]Believers：\c[0]    What are you talking about?!
+\CBct[6]\m[shocked]\plh\PRF\c[6]Lona：\c[0]    \{Huh! Sorry!
+
+######################################################### Commoner
+MonkR/Rng0
+\CBid[-1,20]\prf\c[4]Monks：\c[0]    Stand up! Let the \c[6]Saint\c[0] count your sins!
+
+MonkR/Rng1
+\CBid[-1,20]\prf\c[4]Monks：\c[0]    You are one step away from being a liar! Don't think the \c[6]Saint\c[0] knows not the crimes you have committed!
+
+MonkR/Rng2
+\CBid[-1,20]\prf\c[4]Monks：\c[0]    The \c[6]Saint\c[0] knows everything you do! Repent now, sinner!
+
+CommonerM/Rng0
+\CBid[-1,20]\c[4]refugee：\c[0]    Is that true? Go to the monastery to eat? Didn't you lie to me?
+
+CommonerM/Rng1
+\CBid[-1,20]\c[4]refugee：\c[0]    I'm smart, I've read a few books, don't lie to me!
+
+CommonerM/Rng2
+\CBid[-1,20]\c[4]refugee：\c[0]    Just believe in the \c[6]Saint\c[0] right? Good! I believe it! Give me something to eat, now!
+
+CommonerF/Rng0
+\CBid[-1,20]\c[4]refugee：\c[0]    Forgive me... \c[6]Saint\c[0] Ah... Forgive us sinners!
+
+CommonerF/Rng1
+\CBid[-1,20]\c[4]refugee：\c[0]    \c[6]Saint\c[0] forgive my sins... I shouldn't have eaten them....
+
+CommonerF/Rng2
+\CBid[-1,20]\c[4]refugee：\c[0]    I am a wicked liar, \c[6]Saint\c[0] please punish me....
+
+CommonerM2/begin
+\CBid[-1,20]\c[4]refugee：\c[0]    Did you know that Old Joe's wife was kidnapped by a group of greenskins while she was running away.
+\CBid[-1,8]\c[4]refugee：\c[0]    She gave birth to a half-human, half-pig, half-bear monster a while ago, and Old Joe vomited it out on the spot.
+\CBid[-1,8]\c[4]refugee：\c[0]    And his wife fainted on the spot, and then I threw it into the sea with Old Joe, but.....
+\CBid[-1,8]\c[4]refugee：\c[0]    \..\..\..
+\CBid[-1,20]\c[4]refugee：\c[0]    Well.... But when we went back, his wife actually committed suicide.
+
+CommonerF2/begin0
+\CBid[-1,20]\c[4]refugee：\c[0]    \{No! Do not touch me! ! !
+
+CommonerF2/begin1
+\CBid[-1,6]\c[4]refugee：\c[0]    Who are you ! Where are the monsters? Don't touch me! Leave me alone!!!
+
+######################################################### Cunny Cunny Cunny
+
+Fapper/begin0
+\CBid[-1,4]\prf\c[4]refugee：\c[0]    Cunny♥ Cunny♥ Cunny♥
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well... Cunny?
+
+Fapper/begin1
+\CBid[-1,1]\prf\c[4]refugee：\c[0]    \{Cunny! !♥♥♥♥♥
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    \{Yeah??!!
+
+Fapper/begin2
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    \{Hey?! Let me go!
+
+Fapper/begin3
+\CBid[-1,6]\Rshake\c[4]refugee：\c[0]    Oh oh oh oh oh oh!♥ horny cunny♥
+
+Fapper/begin4
+\CBid[-1,6]\Rshake\c[4]refugee：\c[0]    Cunny's Belly♥ Cunny's boobs♥ Good fuck♥
+
+Fapper/begin5
+\CBct[5]\m[bereft]\Rshake\c[6]Lona：\c[0]    \{Leave me alone!!!
+
+Fapper/begin6
+\CBid[-1,4]\SETpl[HumanPenisNormal]\Lshake\prf\c[4]refugee：\c[0]    Cunny's belly is so cute♥ I want to cum in Cunny's stomach♥
+
+Fapper/begin7
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    \{Huhhuhuhhuh nooo!
+
+######################################################### PoorKid SideQU
+
+rg4/begin0
+\CamMP[PoorKidCam]\BonMP[PoorBoy,20]\c[4]little kid：\c[0]    Please help me.
+\CamMP[PoorKidCam]\BonMP[HoboAtk2,5]\c[4]refugee：\c[0]    Fuck off, who cares about you? I can't take support myself.
+
+rg4/begin1
+\CamMP[PoorKidCam]\BonMP[PoorBoy,6]\c[4]Griot：\c[0]    I come from \c[6]Cloud Village\c[0] I'm \c[6]Griot\c[0], please listen....
+\CamMP[PoorKidCam]\BonMP[PoorBoy,6]\c[4]Griot：\c[0]    My family was....
+\CamMP[PoorKidCam]\BonMP[HoboAtk1,5]\c[4]refugee：\c[0]    Leave me alone!
+
+rg4/begin2
+\CamMP[PoorKidCam]\BonMP[PoorBoy,20]\c[4]Griot：\c[0]    Please hear me out....
+\CamMP[PoorKidCam]\BonMP[HoboAtk2,5]\c[4]refugee：\c[0]    Fuck off! Annoying brat!
+
+rg4/begin3
+\CamMP[PoorKidCam]\BonMP[HoboAtk1,5]\c[4]refugee：\c[0]    Fuck your mother! Who cares how many people died in your family? Everyone in my family is dead except me!
+
+Griot/Begin0
+\CBid[-1,6]\prf\c[4]Griot：\c[0]    *sob* *sob*....
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Are you OK, little boy?
+
+Griot/Begin1
+\CBid[-1,2]\m[confused]\prf\c[4]Griot：\c[0]    You... Are you here to help me?
+
+Griot/OPT_KillTheKid
+I came to kill you.
+
+Griot/OPT_HelpTheKid_FattieKilled
+The fat man is dead.
+
+Griot/OPT_HelpTheKid_aggroed
+The village's full of bad guys.
+
+Griot/OPT_GiveUP
+Let go of hatred.
+
+Griot/OPT_HelpTheKid
+Help him.
+
+Griot/OPT_About
+What's wrong?
+
+Griot/OPT_Letter
+Father's last words.
+
+Griot/OPT_About_play0
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Um... Tell me first what do you need help with?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Maybe I'll give it a try, see if I can help.
+
+Griot/OPT_About_play1
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,6]\prf\c[4]Griot：\c[0]    I... My home is at \c[6]Cloud Village\c[0] and my family was killed.
+\CBid[-1,6]\prf\c[4]Griot：\c[0]    One night a fat man from outside said we stole their food.
+\CBid[-1,6]\prf\c[4]Griot：\c[0]    We didn't steal, that was our food!
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    Lady, you can enter the city, take me in, I want to go to the city to tell the guards!
+
+Griot/OPT_HelpTheKid_FattieKilled_play
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    In fact, I accidentally made a big fuss there, and the bad fat man you mentioned is dead.
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    Really?!
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    He died? Did you avenge my parents?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Well... Avenge? I guess so?
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    I don't believe you!
+
+Griot/OPT_HelpTheKid_aggroed_play
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I've been there.
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    Really?!
+\CBct[20]\m[angry]\PRF\c[6]Lona：\c[0]    The people there are all robbers!
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    Right! Those uncles and aunts who were kind to me all turned into bad people when they found out that there was food in my house!
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    They listened to that fat man and killed my parents!
+
+Griot/OPT_HelpTheKid_play
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    So... How do you want me to help you?
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    I will go into the city and tell the noble lord and the guards all this, but the gates are shut.
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    Lady, can you go in and out of the city? Help me!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Tell the nobleman? Do you know any particular noble in Noer?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Or did you mean to go to the Noer Town \c[4]Guards\c[0]?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I think they are too busy mired in their own problems right now, and they may not talk to me at all.
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    Impossible! Don't you understand? My parents were killed! They will definitely help me get those bad guys!
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Um...
+
+Griot/OPT_Letter_Play0
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    I guess this is your father's letter, you should read it first.
+\CBid[-1,8]\prf\c[4]Griot：\c[0]    I can't read....
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well....
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Well, let me read to you.
+
+Griot/OPT_Letter_Play1
+\CBid[-1,8]\prf\c[4]Griot：\c[0]    ......
+
+#unused  probably will never reuse
+#Griot/OPT_HelpTheKid_play_brd
+#\board[leek lawsuit]
+#Target：Report to Police Headquarters
+#remuneration：none
+#commissioned by the master：Outside the east gate of Knoll Town\c[4]Griot\c[0]
+#the term：single
+#The poor boy's parents were both killed, try to talk to Knoll's\c[4]Police Headquarters\c[0]Check it out.
+
+Griot/OPT_KillTheKid_play
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    So you are the one from\..\..\..\c[4]Cloud Village\c[0] Your name is \c[4]Griot\c[0]?
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    Right! That's me!
+\CBct[6]\m[confused]\PRF\c[6]Lona：\c[0]    Well...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I was hired to kill you?
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    \{What?! Help!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    No! Wait a moment, will you?!
+
+Griot/MAD_loop
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    The whole village is bad! I want revenge!
+\CBid[-1,20]\prf\c[4]Griot：\c[0]    I want to go to the city and tell the noble lords, they will help me kill those bad guys!
+
+Griot/OPT_HelpTheKid_play_yes
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I'll give it a try. Just don't have high hopes for it.
+\CBid[-1,3]\prf\c[4]Griot：\c[0]    Very good! Thank you, Lady!
+\CBct[20]\m[pleased]\PRF\c[6]Lona：\c[0]    Wait here for my return.
+\CBid[-1,3]\prf\c[4]Griot：\c[0]    I will.
+
+Griot/OPT_HelpTheKid_play_no
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Well... I'm not free.
+\CBid[-1,8]\prf\..\..\..\WF[10]
+
+Griot/OPT_GiveUP_play0
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    I think\..\..\.. You should move on.
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    Your parents are dead, but at least you're still alive, aren't you?
+\CBid[-1,8]\prf\c[4]Griot：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I believe that those people in Noer won't help you.
+\CBid[-1,8]\prf\c[4]Griot：\c[0]    \..\..\..
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    It's messy everywhere now, even if you go to the \c[4]Guards' Headquarters\c[0]... Even if you report the crime, no one will take care of it.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    You should focus on your own survival instead.
+\CBid[-1,8]\prf\c[4]Griot：\c[0]    \..\..\..
+
+Griot/OPT_GiveUP_play1
+\CBid[-1,8]\m[p5sta_damage]\Rshake\c[4]Griot：\c[0]    \{Lady you are so stupid!
+
+Griot/OPT_GiveUP_play2
+\CBct[20]\m[tired]\PRF\c[6]Lona：\c[0]    ......

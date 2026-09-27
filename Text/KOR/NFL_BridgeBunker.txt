@@ -1,0 +1,143 @@
+thisMap/OvermapEnter
+\m[confused]서쪽 교두보, 용병들의 야영지다\optB[그만둔다, 들어간다]
+
+##################################################
+
+RelayEMP/Welcome_nude_or_slave
+\CBid[-1,5]\m[confused]\prf\c[4]\prf\c[4]역무원：\c[0] 이봐라! 여자가 도망친다!
+
+RelayEMP/Welcome_women
+\CBid[-1,4]\m[confused]\prf\c[4]\prf\c[4]역무원：\c[0] 응? 여자야? 어디 가려고?
+
+RelayEMP/Welcome0
+\CBid[-1,20]\m[confused]\prf\c[4]\prf\c[4]역무원：\c[0] 요! 어디 가는 거야?
+
+RelayEMP/Welcome1
+\CBid[-1,20]\m[confused]\prf\c[4]\prf\c[4]역무원：\c[0] 너 새로 온 아가씨지? 어디 가?
+
+RelayEMP/Welcome2
+\CBid[-1,20]\m[confused]\prf\c[4]\prf\c[4]역무원：\c[0] 우린 절대로 우리 고향을 버릴 생각 없어.
+
+Sergeant/Begin1
+adsadadasdasd
+
+#do not translate this file until MAP is done
+################################################# BatHouse
+
+BatHouseMan/Begin_b4BatQu0
+\CBid[-1,20]\SETpl[NFLBB_merchant_angry]\Lshake\c[4]상인：\c[0] 젠장…! 씨발, 이게 말이 돼?!
+
+BatHouseMan/Begin_b4BatQu1
+\CBid[-1,20]\SETpl[NFLBB_merchant_angry]\Lshake\c[4]상인：\c[0] 망했어… 진짜 다 끝장이야…
+
+BatHouseMan/Begin_afterBatQu0
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\c[4]상인：\c[0] 또 뭐야, 대체?
+
+BatHouseMan/Begin_afterBatQu1
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\c[4]상인：\c[0] 나 지금 바쁘단 말이야, 볼일 있으면 빨리 말해.
+
+BatHouseMan/opt_Bat
+박쥐
+
+BatHouseMan/opt_about
+무슨 일이야?
+
+BatHouseMan/opt_Quest
+내가 도와줄게.
+
+BatHouseMan/opt_Report
+처리했어.
+
+BatHouseMan/opt_reward
+보상 받기
+
+BatHouseMan/opt_about_ans
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 음? 여기 무슨 일이라도 있었어요?
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 우리 팀이 의뢰를 받아서, 박쥐처럼 생긴 괴물 떼를 잡으러 갔거든.
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]상인：\c[0] 근데 어떤 멍청이가 일을 망쳐서, 그 놈들이 전부 튀어나온 데다 창고를 난장판으로 만들어놨어.
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 지금은 아예 거길 자기 둥지처럼 쓰고 있어. 내가 부른 일꾼들도 전부 잡아먹혔다니까.
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]상인：\c[0] 창고는 완전히 봉쇄됐고… 이거 처리하려면 용병 부대를 통째로 빌려야 할 판이야.
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 이게 말이 돼? 이 일 못 끝내면 난 그냥 노예 신세라고! 진짜 끝장났어!
+
+BatHouseMan/opt_bat_ans0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 박쥐?
+
+BatHouseMan/opt_bat_ans1_PassedChk
+\CBid[-1,8]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 너\..\..\..
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]상인：\c[0] 하, 알았어. 말해줄게.
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 노엘 마을 쪽 윗사람들이, 이 검은 안개 속 생물들에 무슨 쓸모가 있는 모양이야.
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]상인：\c[0] 심지어 그 녹색 짐승 같은 놈들도 원하더라. 맞아, 살아있는 걸로 말이지.
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 그 녹피 놈들한테는, 덩치가 클수록 좋은가 봐. 뭐, 고문 도구로 쓰거나 먹는다는 얘기도 있더라.
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]상인：\c[0] 그리고 그 박쥐들은… 노엘 마을 치안을 해결하는 데 쓸 수 있다나 봐.
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 위에 있는 놈들은 참 별걸 다 해. 난 도통 무슨 속셈인지 모르겠지만.
+
+BatHouseMan/opt_about_ans_TooWeak
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\prf\c[4]상인：\c[0] 빌어먹을 노예 주제에, 묻는 게 너무 많잖아!
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 으…
+
+BatHouseMan/opt_Quest_ans0
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 내가… 도와줄 수 있을지도? 아마?
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\prf\c[4]상인：\c[0] 네가? 그걸 할 수 있다고?
+\CBid[-1,8]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[NFLBB_merchant_happy]\Lshake\prf\c[4]상인：\c[0] 좋아, 아직은 돈 좀 쓸 여유가 있지. 할 수 있겠으면, 씨발 그냥 들어가서 처리해.
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]상인：\c[0] 단, 분명히 말해두는데, 거기서 목숨 날려도 나한테 와서 징징대진 마라.
+
+BatHouseMan/opt_Quest_ans_TooWeak
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\prf\c[4]상인：\c[0] 네가? 뭘로 그 괴물들을 죽이겠다는 거야? 네 보지로?
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 으…
+
+BatHouseMan/opt_Quest_ans0_optYes
+\CBct[20]\m[triumph]\plf\PRF\c[6]로나：\c[0] 좋아! 나한테 맡겨!
+
+BatHouseMan/opt_Quest_ans0_optNo
+\CBct[8]\m[shy]]\plf\PRF\c[6]로나：\c[0] 으… 역시 그만둘래.
+
+BatHouseMan/BatQU_board
+\board[상인을 도와라]
+목표 : 창고 안의 둥지 파괴
+보상 : 큰 동전 4개
+의뢰인 : 서쪽 교두보, 박쥐 공급상
+수행가능횟수 : 1회
+공급상의 화물들이 폭주하여, 창고를 새 보금자리로 삼았습니다.
+놈들을 소탕하고, 말을 안 듣는 이 화물들을 모조리 처리하시오!
+
+BatHouseMan/NFL_BridgeBunkerBat_QUprog0
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\c[4]상인：\c[0] 그래서, 처리한 거야?
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어… 아직이요.
+
+BatHouseMan/NFL_BridgeBunkerBat_QUprog2
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0]  어… 다 했어요, 아마도요.
+\CBid[-1,20]\SETpl[NFLBB_merchant_happy]\Lshake\prf\c[4]상인：\c[0] 뭐라고? 네가 해냈다고?
+\CBid[-1,20]\SETpl[NFLBB_merchant_happy]\Lshake\prf\c[4]상인：\c[0] 내가 들어가서 확인해보지.
+
+BatHouseMan/NFL_BridgeBunkerBat_QUprog3_reward
+\CBid[-1,3]\SETpl[NFLBB_merchant_happy]\Lshake\c[4]상인：\c[0] 대단하군! 네가 해냈어.
+\CBid[-1,4]\SETpl[NFLBB_merchant_happy]\Lshake\c[4]상인：\c[0] 약속한 보수야. 나중에 또 네 도움이 필요할지도 모르겠군.
+
+BatHouse/QuestDone
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 후…
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 이게 아마… 모든 둥지일 거야.
+
+################################################# washRoomEv
+
+BB_MeatToilet/Fristbegin0
+\...\...\...
+\narr 숨이 끊어질 듯한 공중화장실, 축 늘어진 그녀의 뒷구멍과 보지가 붉게 부풀어 탈출한 채 떨리고 있었다.
+
+BB_MeatToilet/Fristbegin1
+\CBid[-1,8]\SETpl[NFL_BB_MeatToilet] 으으\...\...\...
+
+BB_MeatToilet/Fristbegin1_typical
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0]
+
+BB_MeatToilet/Fristbegin1_gloomy
+\SETpl[NFL_BB_MeatToilet] asdasdasdasd
+
+MeatToiletLinda/Fristbegin1_tsundere
+asd
+
+MeatToiletLinda/Fristbegin1_slut
+asd
+
+MeatToiletLinda/dev2
+asd

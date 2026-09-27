@@ -1,0 +1,142 @@
+
+DavidBorn/KnownBegin
+\CBmp[DavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\C[4]데이비드 본：\C[0] 아! 그대로군?
+\CBct[2]\m[confused]\plf\PRF\C[4]데이비드 본：\C[0] 그대로군?
+
+DavidBorn/BasicOpt
+\m[confused]\optB[취소,동료 맺기<r=HiddenOPT0>,동료 해산<r=HiddenOPT1>]
+
+DavidBorn/CompData
+\board[데이비드 본]
+\C[2]위치：\C[0]전열
+\C[2]전투 타입：\C[0]전사, 방어
+\C[2]진영：\C[0]무법자
+\C[2]적대 상대：\C[0]사악한 생물, 노엘 경비대
+\C[2]요구 조건：\C[0]허약이 100 미만일 것
+\C[2]계약 기간：\C[0]3일
+\C[2]독립：\C[0]캐릭터가 사망하면 부활하지 않음.
+전설적인 드래곤 슬레이어, 적어도 그는 그렇게 말한다.
+
+DavidBorn/Comp_win
+\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] 새로운 모험? 출발하자!
+
+DavidBorn/Comp_failed
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 네가 너무 약해!
+
+DavidBorn/Comp_failed_slave
+\SETpl[DavidBorn_angry]\Lshake\prf\C[4]데이비드 본：\C[0] 안 해! 노예 주제에 감히 나한테 이래라저래라 해?
+
+DavidBorn/Comp_disband
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 모험... 끝난 건가.....
+
+DavidBorn/CompCommand
+\SETpl[DavidBorn_normal]\PLF\prf\C[4]데이비드 본：\C[0] 흠흠...
+
+################################################################### QMSG ################################################################################# 
+
+DavidBorn/CommandWait0
+앞에 뭐가 있지?
+
+DavidBorn/CommandWait1
+좋아.
+
+DavidBorn/CommandFollow0
+내가 막겠다! 두려워하지 마!
+
+DavidBorn/CommandFollow1
+두려워할 것 없다!
+
+DavidBorn/OvermapPop0
+날아다니는 말을 본적 있나?
+
+DavidBorn/OvermapPop1
+드래곤 사냥? 별것 아니었지!
+
+DavidBorn/OvermapPop2
+정말 무서운 건 곰이야!
+
+DavidBorn/OvermapPop3
+누가 내 스위트롤을 훔쳤어!
+
+#DavidBorn/OvermapPop0
+##asdasdasdasdasdasdasdasdaasd       #length
+#나도 봤어! 날아다니는 말!
+#
+#DavidBorn/OvermapPop1
+#드래곤 잡기? 식은 죽 먹기지!
+#
+#DavidBorn/OvermapPop2
+#곰이 진짜 최악이야!
+#
+#DavidBorn/OvermapPop3
+#누가 내 케이크를 훔쳐 갔어!
+
+###################################################################### QUEST
+
+DavidBorn/CampSpot1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]???：\C[0] 누구냐!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에?
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]???：\C[0] \..\..\..
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]???：\C[0] 어디서 숨어들어온거지?!
+
+DavidBorn/CampSpot3
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 아? 아아!!
+
+DavidBorn/Unknow
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]???：\C[0] 여기서 마물이 폭주한다는 말을 듣고, 한달 동안 배를 타고 여기에 왔는데, 내가 내린 결론은 시바리스에 가지 않는 거였지.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]???：\C[0] 나는 성도처럼 요마를 물리치던, 위대한 용병이었다.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]???：\C[0] 처음에는 난민 한 무리를 이끌고 도망쳤지만, 지금은 도적의 우두머리가 됐다.
+\CBmp[UniqueDavidBorn,5]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]???：\C[0] 나같은 영웅은 뭘 하기로 결정하든, 결국은 눈송이처럼 점점 커지기 마련이지.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]???：\C[0] 좋은 일이든 나쁜 일이든 말이야.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]???：\C[0] 나는 \C[6]데이비드 본\C[0]. 위대한 용병이었다.
+
+DavidBorn/CampSpot4_opt
+\CamCT\m[fear]\plf\Rshake\c[6]로나：\c[0] 어?\optD[난 이제 갈게!,그건 옳지 않아<r=HiddenOPT1>]
+
+DavidBorn/CampSpot4_failed
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]데이비드 본：\C[0] 넌 죽은 목숨이야!
+
+DavidBorn/CampSpot4_win
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 노엘 사람들을 도와주러 가지 그래! 거긴 당신의 도움을 필요로 할거야!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]데이비드 본：\C[0] 내가 지금 하는 일이 그들을 돕는 게 아니란 말인가?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]데이비드 본：\C[0] 그들은 더 많은 노예를 원하고 있고, 나는 주고 있지.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]데이비드 본：\C[0] 그들은 내가 난민을 막아주길 바라고, 나는 그러고 있어.
+\CamCT\m[wtf]\plf\PRF\c[6]로나：\c[0] 그건 도와주는 게 아니잖아? 무고한 사람을 사냥하는 건 영웅이 할 일이 아니야!
+\CBct[5]\m[confused]\plf\PRF\c[6]로나：\c[0] 당신도 당신 일이 나쁘다는 걸 알텐데!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 나는 그저 성도의 인도를 따를뿐...
+\CBct[3]\m[triumph]\plf\PRF\c[6]로나：\c[0] 지금도 아직 늦지 않았어, 노엘 시에 와서 노엘의 용병 조합에 와봐, 틀림없이 도움이 될 테니까.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 으\..\..\.. 난 대체 뭘.....
+
+DavidBorn/CampSpot4_win2
+\ph\narr\c[4]데이비드 본\c[0]떠나라...
+\CBct[8]\narrOFF\m[confused]\PRF\c[6]로나：\c[0] 어... 다음엔 뭐야?
+
+##################### DEFEAT him
+
+DavidBorn/CampLost0
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 아니! 잠깐! 살려줘! \optD[어쩌라고,봐준다]
+
+DavidBorn/CampLost0_fqu
+\CBct[5]\m[overkill]\plf\PRF\c[6]로나：\c[0] 웃기지마!
+
+DavidBorn/CampLost0_okay
+\CBct[8]\m[wtf]\plf\PRF\c[6]로나：\c[0] 하? 진심이야?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 날 죽이지 마! 난 그저 성도의 인도를 따랐을 뿐이야!
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음....
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 고마워! 그대가 목숨을 살려준 은혜는 반드시 갚겠어!
+
+DavidBorn/CampLost0_okay2
+\CBct[8]\m[wtf]\PRF\c[6]로나：\c[0] 어... 아직 아무 말도 안 했는데?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 됐어...
+
+DavidBorn/QuRec2to3_1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]데이비드 본：\C[0] 마시러 가자구 !
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 뭐?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]데이비드 본：\C[0] 하!
+\CBct[8]\m[normal]\plf\PRF\c[6]로나：\c[0] 미안...
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 우왓! 그대는?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어.... 여기서 뭐해?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]데이비드 본：\C[0] 그대의 교훈을 듣고 정신을 차렸지! 나는 다른 목적을 쫓기로 했다! 영웅이 되는 것!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] 그대의... 가르침에 감사드리지!
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어....  됐어...

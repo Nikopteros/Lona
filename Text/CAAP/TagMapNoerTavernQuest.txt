@@ -1,0 +1,354 @@
+##########---------------------------------------------------------------------------------- TABLÓN DE MISIONES
+
+QuestBoard/List
+El muro está cubierto de formularios de solicitud y encargos
+
+QuestBoard/None_list
+No hay nuevos encargos
+
+QuestBoard/StaHerbCollect_list
+¡Ayuda a recolectar Hierba del Dragón Blanco!
+
+QuestBoard/StaHerbCollect
+\board[Recolección de Hierba del Dragón Blanco]
+Tarea: Recolectar 4 unidades de Hierba del Dragón Blanco\i[203]
+Recompensa: 2 Monedas de Cobre\i[583]
+Cliente: Clínica de Obstetricia y Ginecología de Elice
+Repetible: Sí
+Recolecta la Hierba del Dragón Blanco en los bosques cercanos a la ciudad. Los monstruos pueden interferir, el trabajador es responsable de su propia seguridad.
+Después de recolectar, entrega los ingredientes directamente en la Clínica de Obstetricia y Ginecología de Elice.
+
+QuestBoard/MineCaveAbomHunt_list
+Limpieza de la Mina de Cristal
+
+QuestBoard/MineCaveAbomHunt
+\board[Eliminación de monstruos en la mina]
+Tarea: Eliminar mutantes en la mina
+Recompensa: 2 Monedas de Cobre Grandes\i[582] y 3 Monedas de Cobre\i[583]
+Cliente: Compañía Comercial Rosendo
+Repetible: Sí
+La Mina de Cristal está infectada por una niebla negra. Necesitamos mercenarios para deshacerse de las plagas.
+Por favor, trae tu propia fuente de luz y armas. Informa al gerente de la mina después de matar a los monstruos.
+Luego, ve al gremio para recibir tu recompensa.
+
+QuestBoard/CataUndeadHunt_list
+¡Muertos vivientes en el Cementerio!
+
+QuestBoard/CataUndeadHunt
+\board[No-muertos en el Cementerio]
+Tarea: Matar 20 monstruos no-muertos en el Cementerio
+Recompensa: 7 Monedas de Cobre\i[583]
+Cliente: Compañía Comercial Rosendo
+Repetible: Sí
+Aparece una gran cantidad de no-muertos en el Cementerio. Se solicita la ayuda de todos los mercenarios para eliminar estas criaturas impías.
+Una vez completada la misión, informa al sepulturero.
+Luego, regresa al gremio para recibir el pago.
+
+QuestBoard/ScoutCampOrkind_list
+¡Ayuda a encontrar la caravana perdida!
+
+QuestBoard/ScoutCampOrkind
+\board[Caravana Perdida]
+Tarea: Encontrar la caravana de refugiados desaparecida
+Recompensa: 1 Moneda de Cobre Grande\i[582]
+Cliente: Sobrevivientes de Sibaris
+Repetible: No
+La caravana de refugiados debía llegar a la ciudad hace un mes. Recientemente descubrimos que fueron atacados y secuestrados por monstruos.
+Según la información de un superviviente, la caravana debería estar cerca del camino noreste.
+
+QuestBoard/ScoutCampOrkind2_list
+¡Elimina a los monstruos en la torre del paso norte!
+
+QuestBoard/ScoutCampOrkind2
+\board[Limpieza de la Torre del Paso Norte]
+Tarea: Matar a todos los monstruos dentro de la Torre de Vigilancia
+Recompensa: 2 Monedas de Cobre Grandes\i[582]
+Cliente: Monasterio de los Santos
+Repetible: No
+La Torre de Vigilancia del Paso Norte se ha convertido en una guarida de monstruos después de su invasión.
+Contratamos mercenarios \C[4]profesionales\C[0] para ayudarnos a limpiar la torre.
+Una vez completada la misión, informa al prior del Monasterio de los Santos para recibir la recompensa.
+
+QuestBoard/ScoutCampOrkind3_list
+¡Mi hija ha desaparecido!
+
+QuestBoard/ScoutCampOrkind3
+\board[Hija Desaparecida]
+Tarea: Encuentra a la hija desaparecida del mercader
+Recompensa: 1 Moneda de Oro\i[581]
+Cliente: Cuartel de la Guardia de Noertown
+Repetible: No
+La hija de uno de los mercaderes de la ciudad desapareció durante el ataque de los Orcoides.
+La última vez que la vieron fue con una caravana ayudando a refugiados en el noreste.
+Por favor, encuéntrala y tráela de vuelta.
+
+QuestBoard/CataUndeadHunt2_list
+Una extraña fuente de energía en el Cementerio...
+
+QuestBoard/CataUndeadHunt2
+\board[Energía desconocida en el Cementerio]
+Tarea: Investigar y lidiar con la fuente de energía desconocida
+Recompensa: 4 Monedas de Cobre Grandes\i[582]
+Cliente: Compañía Comercial Rosendo
+Plazo: Ninguno
+Se necesitan mercenarios para ayudar a investigar la fuente de energía desconocida en el Cementerio.
+Para más información, contacta al Sepulturero.
+
+QuestBoard/SewerKickMobs_list
+Ocupantes ilegales en las Cloacas
+
+QuestBoard/SewerKickMobs
+\board[Ocupantes ilegales en las Cloacas]
+Tarea: Matar a todos los ocupantes ilegales en las Cloacas
+Recompensa: 1 Moneda de Cobre Grande\i[582]
+Cliente: Compañía Comercial Rosendo
+Repetible: Rara vez
+Muchas personas han desaparecido cerca de la entrada a las cloacas.
+Se confirmó que varios secuestros fueron cometidos por refugiados ilegales que viven en las Cloacas.
+Estos ocupantes solo traen problemas a la ciudad, necesitamos mercenarios para eliminarlos.
+
+QuestBoard/NoerToPirate_list
+Reclutamiento: Perdición Pirata
+
+QuestBoard/NoerToPirate
+\board[Reclutamiento en Perdición Pirata]
+Tarea: Viajar a Perdición Pirata
+Recompensa: 5 Monedas de Cobre\i[583]
+Cliente: Gremio de Mercenarios
+Repetible: No
+Viaja a \c[4]Perdición Pirata:\C[0] en el Pantano del Este e informa a un miembro del Gremio de Mercenarios.
+
+QuestBoard/NoerToDoom_list
+Reclutamiento: Fortaleza del Destino
+
+QuestBoard/NoerToDoom
+\board[Reclutamiento en Fortaleza del Destino]
+Tarea: Viajar a la Fortaleza del Destino
+Recompensa: 5 Monedas de Cobre\i[583]
+Cliente: Gremio de Mercenarios
+Repetible: No
+Viaja a \c[4]Fortaleza del Destino:\C[0] en el extremo norte de la isla e informa a un miembro del Gremio de Mercenarios.
+
+QuestBoard/OrkindEars_list
+¡Lo único que temen los Orcoides... eres TÚ!
+
+QuestBoard/OrkindEars
+\board[Enseñar miedo a los Orcoides]
+Tarea: Recolectar 10 pares de orejas de Orcoides\i[465]
+Recompensa: 1 Moneda de Cobre Grande\i[582] y 5 Monedas de Cobre\i[583]
+Cliente: Compañía Comercial Rosendo
+Repetible: Sí
+Los Orcoides son monstruos feroces y crueles que no muestran piedad hacia los habitantes de Noer. Pero los mercenarios somos peores.
+¡DEMOSTRÉMOSLES A ESTOS MONSTRUOS QUIÉNES SOMOS!
+¡Destrúyelos con tus armas y arranca sus orejas como prueba de tu hazaña!
+
+QuestBoard/decide
+\m[confused]¿Aceptar la misión? \optB[Cancelar,Tomar el anuncio]
+
+######################################################################################## GREMIO
+
+QuestBoard/decide2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Empleado：\C[0]    ¿Aceptarás la misión? Una vez que aceptes una misión del Gremio, debes completarla antes de tomar otra. \optB[Cancelar,Aceptar]
+
+QuestBoard/decide2_win
+\CBct[20]\m[serious]\prf\c[6]Lona：\C[0]    ¡Lo haré!
+
+QuestBoard/decide2_lose
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Empleado：\C[0]    No, aún no has completado tu misión anterior.
+
+QuestBoard/completed0
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Empleado：\C[0]    Hmm... Este es un token del gremio que confirma la finalización de la misión.
+
+QuestBoard/completed1
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Aquí está tu recompensa.
+\CBct[3]\m[triumph]\c[6]Lona：\C[0]    ¡Gracias!
+
+QuestBoard/completed1_slave
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Aunque eres una esclava, valoramos tu contribución.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    No mueras demasiado rápido.
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    Uff...
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Empleado：\C[0]    Servicio del Gremio de Mercenarios, ¿en qué puedo ayudarte? \optB[Nada,Sobre el gremio,Cancelar Misión<r=HiddenOPT0>]
+
+QuestBoard/other_about
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    El Gremio de Mercenarios fue fundado en el año 972. En ese entonces, el gremio era solo un comando central para las milicias desorganizadas durante la Guerra de los Demonios.
+\CBct[2]\m[normal]\c[6]Lona：\C[0]    ¿Y ahora?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Ahora somos la organización más grande de trabajos por encargo para mercenarios y aventureros en todo el mundo.
+
+QuestBoard/other_quest_cancel
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    Lo siento... No puedo completar esto...
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Entiendo.
+\CBmp[GuildEmpolyee,8]\prf\c[4]Empleado：\C[0]    \}Al final, moscas como tú son inútiles.
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    ....
+
+Tutorial/follower
+\CamMP[Center]\prf\c[4]Empleado：\C[0]    Puedes preguntar si alguien más en la taberna quiere unirse a tu misión.
+\prf\c[4]Empleado：\C[0]    Después de la caída de \c[6]Sibaris\C[0], más refugiados como tú llegan al Gremio.
+\CBct[3]\Rshake\m[triumph]\c[6]Lona：\C[0]    ¡Entendido! ¡Muchas gracias!
+\CBmp[GuildEmpolyee,8]\prf\c[4]Empleado：\C[0]    .........
+\CBmp[GuildEmpolyee,8]\prf\c[4]Empleado：\C[0]    \}Mendigos callejeros y refugiados asquerosos... Llenando este gremio de suciedad como moscas...
+\CBct[8]\m[normal]\c[6]Lona：\C[0]    ¿Eh? ¿Qué?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Oh, nada. Solo pensando en voz alta...
+
+QuestBoard/saved_hostage
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    ¡Espera!
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    ¿Eh? ¿Qué pasa?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Gracias por rescatar a los secuestrados. Estoy seguro de que hay muchas más personas que necesitan tu ayuda.
+
+##########---------------------------------------------------------------------------------- Diálogo inicial de miembros del gremio
+
+MercenaryGuild/Report_rattail
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Empleado：\C[0]    ¿Hmm? Tú debes ser Lona, ¿verdad?
+\CBct[6]\m[shocked]\c[6]Lona：\C[0]    ¡Sí! ¡Estoy aquí por la misión de las cloacas!
+\CBct[6]\m[serious]\Rshake\c[6]Lona：\C[0]    ¡Había monstruos! Y moho.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    ¡Cálmate! ¡Siéntate! Bien, lo entiendo, gracias.
+\CBct[6]\m[irritated]\Rshake\c[6]Lona：\C[0]    ¡Y vuestro empleado estaba muerto!
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Shh... Eso es muy malo, enviaremos a alguien a ocuparse de ello. ¿Recogiste 8 colas de rata?
+
+MercenaryGuild/Report_rattail_win
+\CBct[20]\m[triumph]\c[6]Lona：\C[0]    ¡Sí, aquí están!
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Tienes suerte, hoy actualizamos el tablón de misiones.
+\CBct[2]\m[wtf]\c[6]Lona：\C[0]    ¿¡Qué!?
+
+MercenaryGuild/Report_rattail_lose
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    Pero... Solo había monstruos...-
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Entonces la misión no está completa.
+\CBct[1]\m[shocked]\c[6]Lona：\C[0]    ¿¡Qué!? ¡Había muchos! Bueno, volveré y traeré más colas.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    No hace falta, hoy actualizaremos el tablón de misiones.
+\CBct[2]\m[wtf]\c[6]Lona：\C[0]    ¿¡Qué!?
+
+MercenaryGuild/Report_rattail_end
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    No podemos hacer nada ahora: los monstruos fuera de la ciudad se han vuelto más agresivos, y tenemos asuntos más urgentes que atender.
+\CBmp[QuestBoard,19]\prf\BonMP[QuestBoard,19] Revisa el tablón de misiones y busca alguna que quieras completar.
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Así que eso es lo que pasa...
+
+GuideTheWorld/begin
+\CBid[-1,2]\prf\c[4]Viajero：\C[0]    ¿Nueva mercenaria? No te había visto antes. ¿Eres de \C[6]Sibaris\C[0]?
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Eh... ¿Algo así?
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Jeje, en ese caso, deberías huir de esta isla como yo. Por cierto, yo también fui mercenario, hasta que me dispararon en la rodilla.
+
+GuideTheWorld/Choose
+\m[confused]\CBid[-1,20]\prf\c[4]Viajero：\C[0]     Quizás tengas preguntas. Piensa en mí como un viejo guiando a una joven. ¿Hay algo que quieras saber?
+
+GuideTheWorld/end1
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Encuentra rápidamente una manera de escapar de aquí, no necesitas ser destruida junto con la isla de Noer.
+
+GuideTheWorld/end2
+\CBid[-1,9]\prf\c[4]Viajero：\C[0]    ¡Oh, sí!
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Si no temes a los peligros, puedes ir al \C[6]Mercado Central\C[0] de noche y quizás encontrar algo bueno.
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    ¿Oh? ¿Gracias?
+
+GuideTheWorld/opt_Race
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    ¿Yo? ¡Sí, lo soy! Soy un \c[6]Mestizo\C[0].
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Desde elfos del bosque hasta enanos de las montañas, incluso tengo sangre de nómadas del desierto. Soy TAN mezclado.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Dondequiera que vayamos, no somos bienvenidos. Todo porque muchos consideran nuestra sangre manchada e impura.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Antes de que Noer cayera en el caos, parecía que nos culpaban por todos los males.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Pero ahora parece que los refugiados de \C[6]Sibaris\C[0] son el verdadero problema.
+\CBct[8]\m[tired]\c[6]Lona：\C[0]    .....
+\CBid[-1,6]\prf\c[4]Viajero：\C[0]    Ejem..... Perdón, los viejos hábitos vuelven a aparecer.
+
+GuideTheWorld/opt_TeamUp
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    En las tabernas puedes encontrar compañeros potenciales.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Cada compañero tiene su propia facción, estilo de combate y necesidades variadas.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    La duración del viaje y la posición en el grupo también varían, presta mucha atención a eso.
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Solo puede haber un luchador en el \C[6]Frente\C[0] y uno en la \C[6]Retaguardia\C[0].
+\CBid[-1,20]\prf\c[4]Viajero：\C[0]    Con el tiempo, cuando los días de viaje de los compañeros lleguen a 0, abandonarán el grupo.
+
+########################### TUTORIAL DE COMERCIO 
+
+TradeTur/fristTime0
+\SND[SE/Book1]\bg[bg_TutorialTrade1]¡ATENCIÓN!
+\SND[SE/Book1]\bg[bg_TutorialTrade2]La moneda utilizada en este juego para el sistema de trueque/comercio se llama Puntos de Intercambio.
+\SND[SE/Book1]\bg[bg_TutorialTrade3]Se recomienda encarecidamente intercambiar Puntos de Intercambio con NPCs y en tiendas por Monedas de Cobre, Monedas de Oro u otros objetos de valor monetario para guardarlos en el inventario antes de abandonar el mapa. De lo contrario, perderás todos los Puntos de Intercambio restantes.
+\SND[SE/Book1]\bg[bg_TutorialTrade4]Esta es la Ventana de Comercio. En la esquina superior izquierda se muestran los Puntos de Intercambio y la capacidad de carga de Lona.
+\SND[SE/Book1]\bg[bg_TutorialTrade5]Estos son los objetos de Lona que se pueden comerciar; cualquier objeto con un valor de 1 o más puede venderse a la otra parte.
+\SND[SE/Book1]\bg[bg_TutorialTrade7]Estos son los Puntos de Intercambio y objetos de la otra parte. Lona solo puede comprar objetos cuyo valor sea menor o igual a sus Puntos de Intercambio disponibles.
+\SND[SE/Book1]\bg[bg_TutorialTrade8]Presiona \c[6]Z\C[0] en la tienda para comprar o vender.
+\SND[SE/Book1]\bg[bg_TutorialTrade10]También puedes usar \c[6]Shift+Z\C[0] para comprar o vender múltiples objetos a la vez.
+\SND[SE/Book1]\bg[bg_TutorialTrade11]Después de decidir, puedes presionar \c[6]X\C[0] para abrir la interfaz de confirmación y \c[6]Z\C[0] para confirmar la transacción.
+\SND[SE/Book1]\bg[bg_TutorialTrade12]Si Lona compra algo por error, puede presionar \c[6]Shift+X\C[0] para cancelar toda la operación.
+\SND[SE/Book1]\bg[bg_TutorialTrade1]Los Puntos de Intercambio y el inventario de las tiendas/comerciantes se actualizan cada pocos días. Tenlo en cuenta al comerciar.
+
+############################# TUTORIAL DE HERIDAS 
+
+WoundTur/0
+\SND[SE/Book1]\bg[bg_TutorialWound1]Heridas.
+\SND[SE/Book1]\bg[bg_TutorialWound1]Los ataques y emboscadas pueden infligir daño negativo a largo plazo.
+\SND[SE/Book1]\bg[bg_TutorialWound2]Las heridas en la cabeza suelen ser causadas por armas contundentes, lo que reduce la defensa y la sabiduría.
+\SND[SE/Book1]\bg[bg_TutorialWound3]El daño negativo a media distancia suele ser causado por armas perforantes, lo que reduce el poder de ataque.
+\SND[SE/Book1]\bg[bg_TutorialWound4]Las heridas en la parte inferior del cuerpo suelen ser causadas por armas perforantes y trampas, lo que reduce la velocidad de movimiento.
+\SND[SE/Book1]\bg[bg_TutorialWound1]Puedes usar hierbas curativas, pociones o dormir para tratar las heridas.
+\SND[SE/Book1]\bg[bg_TutorialWound1]Las heridas se acumularán, reduciendo significativamente tu capacidad de combate, así que evita las heridas y cuida tu salud.
+
+##########------------------------ Recompensa por energía negativa en el Cementerio
+
+MercenaryGuild/CataUndeadHunt2
+\CBmp[GuildEmpolyee,2]\prf\c[4]Empleado：\C[0]    Y bien... ¿Encontraste la causa del disturbio en el Cementerio?
+
+MercenaryGuild/CataUndeadHunt2_3
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    Bueno... Señor. El sepulturero estaba muerto...
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    Había muchas trampas.
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    ....Eso es todo.
+
+MercenaryGuild/CataUndeadHunt2_4
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    Bueno... Señor. El sepulturero estaba muerto...
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    Había muchas trampas.
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    También hay una Nigromante en las catacumbas.
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    Creo que ella levantó a los muertos en el Cementerio.
+
+MercenaryGuild/CataUndeadHunt2_567
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    Bueno... Señor. El sepulturero estaba muerto...
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Y ahora hay Orcoides en las Catacumbas. Hicieron un túnel abajo.
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    Huí cuando los vi cavando en las paredes.
+
+MercenaryGuild/CataUndeadHunt2_failed
+\CBmp[GuildEmpolyee,5]\prf\c[4]Empleado：\C[0]    ...¿Y eso es todo? ¿O sea que básicamente no hiciste nada?
+\CBmp[GuildEmpolyee,5]\prf\c[4]Empleado：\C[0]    ¿Y además permitiste que un empleado de la Mansión Rosendo muriera bajo tu supervisión?
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    Lo siento...
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Inútil... Qué incompetencia tan increíble...
+
+MercenaryGuild/CataUndeadHunt2_win
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Esto es bastante informativo...
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Pasaré tu información a los superiores, pero ten en cuenta que actualmente nos faltan empleados.
+
+MercenaryGuild/CataUndeadHunt2_withHead
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    También encontré a la Nigromante.
+\CBct[20]\m[normal]\c[6]Lona：\C[0]    ...Esta es su cabeza.
+\CBmp[GuildEmpolyee,1]\prf\c[4]Empleado：\C[0]    ¡Vaya! ¡Increíble!
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Pero, por contrato, no puedo recompensarte más de lo acordado.
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    Bueno...
+
+##########------------------------ Invitación de Milo
+
+MercenaryGuild/MiloInvite1
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    ¡Oye! ¡Espera!
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    ¿Qué pasa?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Tengo una carta de invitación para ti. Tiene tu nombre.
+
+MercenaryGuild/MiloInvite2
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    ¿Para mí? ¿De quién?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    No sé los detalles. Solo me dijeron que es una carta de nuestro alto mando.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Parece que te estás haciendo famosa en nuestra ciudad.
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    ¿D-De verdad?
+
+##########------------------------ Invitación de Milo 2
+
+MercenaryGuild/MiloInvite2_1
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    ¡Espera!
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    ¿Y ahora qué?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Hay otra carta para ti.
+
+MercenaryGuild/MiloInvite2_2
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    ¿¡Otra!?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Empleado：\C[0]    Solo tómala, es lo que me pidieron que te entregara.
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    Bueno, está bien.
+
+##########------------------------ Orejas de Orcoides
+
+MercenaryGuild/Report_OrkindEar_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\C[0]    Aquí están las orejas que pidió vuestro gremio.... Qué asco....
+
+MercenaryGuild/Report_OrkindEar_win2
+\CBid[-1,20]\m[confused]\prf\c[4]Empleado：\C[0]    ¡Buen trabajo!
+\CBid[-1,20]\m[confused]\prf\c[4]Empleado：\C[0]    El jefe quiere cubrir las paredes de Noer con estas orejas, ¡así que siempre las necesitamos!

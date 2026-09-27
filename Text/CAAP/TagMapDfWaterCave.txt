@@ -1,0 +1,470 @@
+thisMap/OvermapEnter
+\m[confused]Cueva Acuática \optB[Cancelar,Entrar]
+
+##########################################################################################  Inside
+
+keeper/0_opt
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\c[4]Seguidor：\C[0]    ¿Quién eres? ¿Cómo conoces este lugar? \optB[Solo pasaba por aquí,Nicolás<r=HiddenOPT0>]
+
+keeper/1_1Passby
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh... ¡Solo pasaba por aquí!
+
+keeper/1_1HerName
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    \c[4]Nicolás\C[0]?
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    ¿Eres nueva en la iglesia? No te he visto antes.
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    No importa, pasa.
+
+keeper/1_1Passby_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Mentirosa! ¡Cómetelo!
+
+aggro/Cocona0
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Buenos amigos! ¡Comámonos al mentiroso juntos!
+
+aggro/Cocona1
+\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\C[0]    ¡Cocona protege a su hermana!
+
+keeper/1_1HerName_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Mentiroso! ¡Es un mentiroso!
+\CBct[8]\m[serious]\Rshake\plf\c[6]Lona：\C[0]    ¡Cocona! ¡No!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\C[0]    Pero... Mentiroso... Para comérselo todo...
+\CBct[8]\m[shocked]\Rshake\plf\c[6]Lona：\C[0]    Buena chica. Déjaselo a tu hermana.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\C[0]    Miau...
+
+keeper/Aggro
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    \{¡Nos atacan!!!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    \{¿¡Qué!?
+
+keeper/Aggro_captured
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    ¡La víctima escapa!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    \{¡¿Aaaayyy!?
+
+keeper/Aggro_captured_loop
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    .....
+
+thisMap/Aggro
+\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    ¡Intruso!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    \{¡Mierda!
+
+thisMap/Aggro_captured
+\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    ¡Alguien traicionó a la Madre Fertilidad!!!
+\CBct[8]\m[terror]\Rshake\c[6]Lona：\C[0]    \{¡Maldita sea!
+
+Df_Heresy/rg27_1
+\SETpl[AnonMale2]\PLF\prf\c[4]Seguidor：\C[0]    ¡Alguien traicionó a la Madre Fertilidad!!!
+
+SexPartyOP/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0]    *tos*\..\Rshaked *tos*\..\Rshaked *tos*...!
+\CBct[20]\m[pain]\Rshake\c[6]Lona：\C[0]    Huele a pescado.....
+
+SexPartyOP/1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Eh?
+
+SexPartyOP/2_1
+\BonMP[PigMan,20]\c[4]Hombre Cerdo：\C[0]    Excelente... Sí... Ahí está....
+\BonMP[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Ahí está! ¡Viene! ¡Se acerca!
+
+SexPartyOP/2_2
+\BonMP[PigMan,4]\c[4]Hombre Cerdo：\C[0]    ¡Oooohhhhhh!!!
+
+SexPartyOP/2_3
+\BonMP[PigMan,4]\c[4]Hombre Cerdo：\C[0]    ¡Traga mi semilla! ¡Deja que tus hermanas disfruten!
+
+SexPartyOP/3
+\BonMP[PigMan,4]\c[4]Hombre Cerdo：\C[0]    ¡Cómodo!!!
+\BonMP[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Oh gran \c[6]Madre Fertilidad\C[0]!
+\BonMP[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Escucha nuestro llamado! ¡Te ofrecemos este tributo!
+\BonMP[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Toma nuestros miedos! ¡Danos alegría!
+\BonMP[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Vengan, engañados por dioses falsos, vengan a su verdadero Dios!
+
+SexPartyOP/3_1
+\BonMP[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Hermanos y hermanas! ¡Oren por nuestras nuevas hermanas!
+
+SexPartyOP/4
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Creyente：\C[0]    ¡Hurra! ¡Hurra! \c[6]Nicolás\C[0]!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Creyente：\C[0]    ¡Hurra! ¡Hurra! \c[6]Nicolás\C[0]!!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Creyente：\C[0]    ¡Hurra! ¡Hurra! \c[6]Nicolás\C[0]!!!
+
+SexPartyOP/4_1
+\c[4]Ofrenda：\C[0]    \{¡¡¡¡Aaaaaahhhhhh!!!!
+
+SexPartyOP/4_2
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Creyente：\C[0]    ¡Gracias, \c[6]Madre Fertilidad\C[0]! ¡Alabanza a la \c[6]Madre Fertilidad\C[0]!
+
+SexPartyOP/5
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Creyente：\C[0]    ¡Oh \c[6]Madre Fertilidad\C[0]! ¡Quita sus miedos!
+
+SexPartyOP/6
+\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué es eso? ¿Un demonio en la niebla negra? ¿Demonios de carne?
+\m[terror]\Rshake\c[6]Lona：\C[0]    No... Imposible... Algo así no puede existir en este mundo....
+
+SexPartyOP/end_cocona
+\narr \......\......\......
+\narrOFF\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Hermana! ¡Despierta!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\C[0]    ¡Wa-wa! ¡Déjenme en paz!
+
+SexPartyOP/end1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    Solo.... ¿Qué acaba de pasar?
+
+SexPartyOP/end1_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\C[0]    Hermana se volvió buena amiga...
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Buena amiga? ¿Muerta?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    No te preocupes, estoy bien.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\C[0]    Auu....
+
+SexPartyOP/end2
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0]    OUUU....
+\CBct[20]\m[pain]\Rshake\c[6]Lona：\C[0]    Arde en el bajo vientre \..\..　Lo deseo tanto \...
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0]    \..\..\..
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\C[0]    No, espera, puedo contenerme.
+
+SexPartyOP/end2_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\C[0]    ¿Hermana?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    No temas. Estoy bien, de verdad...
+
+######################################################################  Common Dialog
+
+Df_Heresy/4CommonerF_QuRng0_0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Sabes quién es \c[4]Azura\C[0]?
+
+Df_Heresy/4CommonerF_QuRng0_1
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Sabes dónde está \c[4]Azura\C[0]?
+
+Df_Heresy/4CommonerF_QuRng0_2
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Eh... ¿\c[4]Azura\C[0]?
+
+CommonerF/Rng0
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    ¡Quiero que me follen! ¿Quién me follará?
+
+CommonerF/Rng1
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    ¡Fóllame! ¡Fóllame! ¡Quítame mis miedos!
+
+CommonerF/Rng2
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    ¡La Madre Fertilidad me mira! ¡La siento!
+
+Df_Heresy/4CommonerF_QuRngEND
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Hmm......
+
+Priest/Qmsg0
+¡Lo siento!
+
+Priest/Qmsg1
+¡Viene!
+
+Priest/Qmsg2
+¡Isaac Nicolás!
+
+Fcommoner/Qmsg0
+Jajajaja... Jajaja
+
+Fcommoner/Qmsg1
+Je-je... Jujuju...
+
+Fcommoner/Qmsg2
+Pene.... Pene grande....
+
+Mcommoner/Qmsg0
+¡Voy a correrme!
+
+Mcommoner/Qmsg1
+¡Debo correrme!
+
+Mcommoner/Qmsg2
+¡Ooooooooooooooh!!
+
+Mcommoner/RapeLoopPick_begin
+\CBct[4]\m[lewd]\PRF\c[6]Lona：\C[0]    ¿El Señor Hombre Cerdo quiere que limpie tu palo de carne...?
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0]    ¿Quieres follarme lo más fuerte posible?
+
+Mcommoner/RapeLoopPick_0
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    ¡Quiero follar! ¡Quiero follar!!!
+
+Mcommoner/RapeLoopPick_1
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    ¡Lame mi pene! Necesito que lames mi pene ahora mismo ♥
+
+Mcommoner/RapeLoopPick_2
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    ¡Quiero ir al baño! Dame tu boca aquí ♥
+
+Mcommoner/RapeLoopPick_3
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    ¡Quiero correrme! Vamos nena ♥ Inclínate ♥
+
+Mcommoner/RapeLoopPick_Start
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0]    Sí....
+
+Mcommoner/RapeLoopPick_END
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    Ju-ju.... ♥
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\C[0]    Gracias ♥
+
+Mcommoner/RapeLoopPick_SuckDick1_0
+\CBid[-1,4]\c[4]Creyente：\C[0]    ¡Ooo! Excelente ♥
+
+Mcommoner/RapeLoopPick_SuckDick1_1
+\CBid[-1,4]\c[4]Creyente：\C[0]    ¡Sí, ese es el lugar! ♥
+
+Mcommoner/RapeLoopPick_SuckDick2
+\CBid[-1,4]\c[4]Creyente：\C[0]    \{Oooohhhh ♥♥♥
+
+##########################################################################################  rapeloop
+
+NapCapture/0
+\narr Lona fue capturada y todas sus pertenencias robadas.
+
+NapRngRape/0_0
+\c[4]Creyente：\C[0]    ¡¡¡Es un coño!!! ¡¡¡Es mi coño!!! ¡Gracias Madre Fertilidad!
+
+NapRngRape/0_1
+\c[4]Creyente：\C[0]    ¡Coño! ¡Necesito entrar ahí!
+
+NapRngRape/1_0_NO
+\c[4]Creyente：\C[0]    ¡¿Cómo puede resistirse mi coño?! ¡El coño debe ser follado!
+
+RapeLoop/FirstTime0
+\m[tired]\c[6]Lona：\C[0]    Quiero hacerlo.... Quiero tener hijos...
+
+RapeLoop/FirstTime1
+\m[confused]\c[6]Lona：\C[0]     ¿Dónde estoy? ¿Qué estoy haciendo?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[pain] ¿Qué tengo delante de la boca?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[hurt] Oooh... Huele mal...
+
+RapeLoop/FirstTime2
+\Rflash\SndLib[sound_chcg_full]\CBmp[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Madre Fertilidad! ¡Ayuda a liberarla de todos sus miedos!
+
+RapeLoop/FirstTime3
+\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0]    Ahh....
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    La Madre Fertilidad disipará tus ansiedades, y ya no sentirás miedo ni dolor.
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\C[0]    Ahh.... ¿Quién eres?
+
+RapeLoop/FirstTime3_1
+\CBct[2]\m[tired]\PRF\c[6]Lona：\C[0]    ¿Dónde estoy? ¿Qué estoy haciendo?
+
+RapeLoop/FirstTime3_2
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Qué... es esto?
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Es la gracia de la Madre Fertilidad, que te ayudará a olvidar todos tus miedos y ansiedades.
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Bébela, y serás una de nosotros.
+\CBct[2]\m[tired]\PRF\c[6]Lona：\C[0]    Bien...
+
+RapeLoop/FirstTime4
+\CBmp[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Muy bien! ¡Muy bien! ¡Serás nuestro agujero de carne!
+\CBmp[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Serás parte de nosotros! ¡Nuestro agujero de carne!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Yo... agujero?
+\CBmp[PigMan,20]\c[4]Hombre Cerdo：\C[0]    ¡Hermanos y hermanas! ¡Brindemos por nuestra nueva hermana!
+
+RapeLoop/FirstTime4_1
+\BonMP[PPL4,20]\BonMP[PPL5,20]\BonMP[PPL6,20]\BonMP[PPL7,20]\c[4]Creyente：\C[0]    ¡Hurra! ¡Hurra! \c[6]Nicolás\C[0]!
+
+RapeLoop/FirstTime5
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Hija mía, ahora eres una de nosotros.
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Ve.... Ve y recibe el amor de tus hermanos. Ayúdalos a olvidar sus miedos.
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\C[0]    Sí, señor...
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0]    AHH....
+\CBct[20]\m[lewd]\PRF\c[6]Lona：\C[0]    Quiero\..\..　Quiero\...
+\CBct[20]\m[shy]\Rshake\c[6]Lona：\C[0]    ¿Qué le pasa a mi cuerpo?
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0]    AHH....
+\CBct[20]\m[lewd]\PRF\c[6]Lona：\C[0]    Caliente... ¡Tan caliente!
+
+actionRapeLoop/Wall0_0
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Espera? ¿Debo irme?!
+
+actionRapeLoop/Wall0_1
+\CBct[1]\m[terror]\Rshake\c[6]Lona：\C[0]    ¡Debo follar a alguien!
+
+actionRapeLoop/Wall0_2
+\CBct[1]\m[serious]\Rshake\c[6]Lona：\C[0]    ¿Debo hacer felices a mis hermanos y hermanas?
+
+actionRapeLoop/Wall0_3
+\CBct[1]\m[sexhurt]\Rshake\c[6]Lona：\C[0]    ¿Debo hacer que se corran?
+
+actionRapeLoop/Wall0_NotEnough
+\CBct[6]\m[pain]\Rshake\c[6]Lona：\C[0]    AHH....
+
+actionRapeLoop/Wall0_Break
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\C[0]    OHH... Compórtate.... Vete...
+
+actionRapeLoop/commoner_opt
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\C[0]    Yo... ¿Qué diablos estoy haciendo? \optB[No darle importancia,Coquetear]
+
+actionRapeLoop/Wall1_opt
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\C[0]    Yo... ¿Qué diablos estoy haciendo? \optB[Continuar,Resistirse]
+
+actionRapeLoop/Sleep_opt
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡No puedo descansar! ¡Necesito trabajar!!!\optD[Continuar,Dormir]
+
+actionRapeLoop/DidntDoSex_PlusAggroRate0_0
+\narr\cg[event_Eyes] Lona no participó en la sagrada comunión con los demás miembros de la comunidad...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_1
+\narr Esto molestó mucho a los feligreses...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_2
+\narr Los creyentes comenzaron a sospechar que Lona...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_3
+\narr Los creyentes decidieron sacrificar a la traidora...
+
+actionRapeLoop/Blocked0
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\C[0]    ¡No! ¡Debo ayudar a todos a olvidar sus miedos!
+
+actionRapeLoop/Blocked1
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]   ¡No! ¡Creo en la Madre Fertilidad! ¡Debo follar!
+
+actionRapeLoop/Blocked2
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡No! ¡Debo hacer que alguien se corra dentro de mí! ¡Es mi responsabilidad!
+
+wakeUp/suckDick-0
+\CBct[6]\m[confused]\Rshake\c[6]Lona：\C[0]    ¿Dónde estoy? ¿Qué debo hacer?
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\C[0]    ¡Correcto! Quiero comer palos de carne apestosos...
+
+wakeUp/suckDick0_0
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\C[0]    Palo de carne... Delicioso...
+
+wakeUp/suckDick0_1
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\C[0]    Debo limpiarlo por completo...
+
+wakeUp/suckDick0_2
+\CBct[6]\m[lewd]\Rshake\c[6]Lona：\C[0]    Mi deber es limpiarlo.
+
+wakeUp/suckDick1_0
+\CBmp[PigMan,4]\c[4]Hombre Cerdo：\C[0]    Sí, bien, así.
+
+wakeUp/suckDick1_1
+\CBmp[PigMan,4]\c[4]Hombre Cerdo：\C[0]    Sí, es la obligación que la Madre Fertilidad te ha encomendado.
+
+wakeUp/suckDick1_2
+\CBmp[PigMan,4]\c[4]Hombre Cerdo：\C[0]    ¡Bravo! ¡La Madre Fertilidad está orgullosa de ti!
+
+wakeUp/suckDick1_pee
+\CBmp[PigMan,4]\c[4]Hombre Cerdo：\C[0]    Levanta la cabeza. Recibirás la esencia de la fertilidad.
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0]    Sí, señor....
+
+wakeUp/suckDick2
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Estás haciendo un gran trabajo. Pero tus hermanos aún viven con miedo.
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Vamos, libéralos de sus miedos.
+\CBct[4]\m[lewd]\PRF\c[6]Lona：\C[0]    Gracias, señor Hombre Cerdo. Lona les permitirá follarla.
+
+wakeUp/suckDick3
+\CBct[2]\m[lewd]\PRF\c[6]Lona：\C[0]    ¿Debo dejar que me follen? ¿Es obligatorio comer palos de carne?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Qué pene debo tomar?
+
+wakeUp/GangRape0
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Lo estás haciendo bien, hija.
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\C[0]    Gracias, señor Hombre Cerdo ♥
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Pero aún siento mucho miedo entre los creyentes.
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Mira, esta pobre gente aún vive con miedo.
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    ¡Libéralos!
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0]    Bien....?
+
+wakeUp/GangRape1
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\C[0]    Hermanos... Por favor, ¿no duden en usarme?
+
+wakeUp/Break0
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Lo estás haciendo bien, hija.
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\C[0]    Gracias, señor Hombre Cerdo ♥
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Ve y descansa, mañana limpiarás a más gente de sus miedos.
+\CBmp[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    Todo por la Madre Fertilidad.
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\C[0]    Todo por la Madre Fertilidad ♥
+
+wakeUp/Break1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Quién soy? ¿Qué hago aquí?
+
+GameOver/0
+\m[tired]\PRF\c[6]Lona：\C[0]    ¿Ah...?
+\m[confused]\PRF\c[6]Lona：\C[0]    Tan caliente....?
+\m[tired]\PRF\c[6]Lona：\C[0]    ......
+
+GameOver/1
+\BonMP[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    ¡Ella se rebeló contra la gran Madre Fertilidad!
+\BonMP[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    ¡No merece felicidad!
+\BonMP[PigMan,20]\prf\c[4]Hombre Cerdo：\C[0]    ¡Debemos devolverle su miedo!
+
+GameOver/2
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake !!!!
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]Lona：\C[0]    ¡Caliente! ¡Tan caliente!
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]Lona：\C[0]    ¡No! ¡No quiero morir! ¡No por favor!!!
+\SndLib[sound_Bubble]\Rflash\m[p5crit_damage]\Rshake\c[6]Lona：\C[0]    \{¡Ahhhhh!!
+
+GameOver/3
+\narr Lona fue cocinada viva.
+\narr Los creyentes compartieron su carne entre ellos.
+\narr Sus huesos se cocinaron durante mucho tiempo para hacer un caldo sustancioso.
+\narr Y para el final del día, no quedaba nada de Lona.....
+
+######################################################################  BlueBlue #Ranran 
+
+Df_Heresy4/BlueBlue0
+\CBid[-1,2]\prf\c[4]Creyente：\C[0]    \c[6]Azura：\C[0]\..\..\..?
+\CBid[-1,5]\prf\c[4]Creyente：\C[0]    Yo \c[6]Azura：\C[0]?!
+\CBid[-1,4]\prf\c[4]Creyente：\C[0]    Yo \c[6]Azura：\C[0]? ¡Los hombres deberían follarme!
+
+Df_Heresy4/BlueBlue1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Bueno...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Tu hermana te estaba buscando. Volvamos, ¿de acuerdo?
+\CBid[-1,8]\prf\c[4]Azura：\C[0]    Hermana\..\..\..?
+\CBid[-1,20]\prf\c[4]Azura：\C[0]    ¡Mi hermana me odia! ¡Todos me miran con desprecio!
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Hmm...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Por qué debería odiarte?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Tu hermana está muy preocupada por ti, y me pidió que te encontrara.
+\CBid[-1,20]\prf\c[4]Azura：\C[0]    ¡No! ¡No quiero volver! ¡Este mundo es demasiado aterrador!
+\CBid[-1,20]\prf\c[4]Azura：\C[0]    ¡El mundo está lleno de gente mala, todos se burlan de mí!
+\CBid[-1,20]\prf\c[4]Azura：\C[0]    ¡Aquí no hay miedo! ¡Aquí me siento feliz!
+
+Df_Heresy4/BlueBlue2
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Creo que aquí es aún peor...
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Estás embarazada, hazlo al menos por tu hijo.
+\CBid[-1,8]\prf\c[4]Azura：\C[0]    Mi hijo\..\..\..
+\CBid[-1,8]\prf\c[4]Azura：\C[0]    Está bien... Iré contigo...
+\CBct[3]\m[pleased]\PRF\c[6]Lona：\C[0]    ¡Excelente!
+
+Df_Heresy4/BlueBlue3
+\CBct[6]\m[serious]\PRF\c[6]Lona：\C[0]    Este lugar es muy peligroso, necesito salir de aquí urgentemente.
+
+Df_Heresy4/BlueBlue4_opt
+\CBmp[BBguard,4]\prf\c[4]Creyente：\C[0]    Buena hermana... ♥ Quiero follarte... ♥ Vamos a expulsar mi miedo... ♥
+\CBct[6]\m[angry]\Rshake\c[6]Lona：\C[0]    Esto no está bien...\optD[Ignorarlo,Mentir<r=HiddenOPT1>,Amenazar<r=HiddenOPT2>]
+
+Df_Heresy4/BlueBlue4_WIS0
+\CBct[5]\m[serious]\PRF\c[6]Lona：\C[0]    ¡Escucha! ¡Ella es mía!
+\CBmp[BBguard,2]\prf\c[4]Creyente：\C[0]    Tuya\..\..\..¿No eres una mujer??
+\CBmp[BBguard,20]\prf\c[4]Creyente：\C[0]    ¡Las mujeres no pueden tener hijos con otra mujer!
+\CBmp[BBguard,20]\prf\c[4]Creyente：\C[0]    ¡La Madre de la Fertilidad no permitirá que eso ocurra!
+\CBct[5]\m[angry]\Rshake\c[6]Lona：\C[0]    ¿Cómo sabes que una mujer no puede tener hijos con otra mujer?
+\CBct[5]\m[serious]\Rshake\c[6]Lona：\C[0]    ¿Eres mujer? ¿Alguna vez has sido mujer?
+\CBct[5]\m[angry]\Rshake\c[6]Lona：\C[0]    ¿Acaso la Gran Madre de la Fertilidad te dijo que las mujeres no pueden tener hijos?
+\CBmp[BBguard,6]\prf\c[4]Creyente：\C[0]    Yo...
+\CBct[5]\m[serious]\Rshake\c[6]Lona：\C[0]    ¡No puedes fecundarla! ¿No ves que ya tiene un hijo?
+\CBmp[BBguard,6]\prf\c[4]Creyente：\C[0]    Estaba equivocado....
+\CBmp[BBguard,20]\prf\c[4]Creyente：\C[0]    Lo entiendo todo. Ella es tuya...
+
+Df_Heresy4/BlueBlue4_WIS1
+\CBct[3]\m[flirty]\PRF\c[6]Lona：\C[0]    Jaja...?
+
+Df_Heresy4/BlueBlue4_CB0
+\CBmp[BBguard,6]\c[4]Creyente：\C[0]    ¡Oooohhhh!!!
+\CBmp[BBguard,20]\c[4]Creyente：\C[0]    \{¡¡Mis huevos aahhh!!!!
+
+Df_Heresy4/BlueBlue4_CB1
+\CBct[5]\m[irritated]\Rshake\c[6]Lona：\C[0]    ¡Tenemos que salir de aquí ahora mismo!
+
+Df_Heresy4/BlueBlue4_AGGRO
+\CBmp[BBguard,2]\c[4]Creyente：\C[0]    ¿Hmm? No te he visto antes. ¿Quién eres?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Eh.....
+\CBmp[BBguard,20]\prf\c[4]Creyente：\C[0]    ¡Apóstol de los falsos dioses! ¡Detenedla!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    \{¡Oh no!
+
+Df_Heresy4/END
+\board[Madre de la Fertilidad]
+Misión：Encontrar a \c[6]Azura\C[0] y devolverla con \c[6]Silena\C[0]
+Plazo：2 días
+Cliente：Silena del campamento de refugiados de la Fortaleza de la Roca
+Regresa al campamento de refugiados de la Fortaleza de la Roca lo antes posible.
+
+Df_Heresy4/CompRng0
+\CBid[-1,8]\prf\c[4]Azura：\C[0]    Mi hermana no está enojada conmigo, ¿verdad?
+
+Df_Heresy4/CompRng1
+\CBid[-1,8]\prf\c[4]Azura：\C[0]    Estaba equivocada....
+
+Df_Heresy4/CompRng2
+\CBid[-1,8]\prf\c[4]Azura：\C[0]    Lo siento...

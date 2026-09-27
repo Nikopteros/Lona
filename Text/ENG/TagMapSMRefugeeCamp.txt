@@ -1,0 +1,276 @@
+#by Saintz, remove this line after review.
+
+thisMap/OvermapEnter
+\m[confused]Refugee Camp\optB[Leave,Enter]
+
+####################################################################### MissingChild
+
+MIAchildMAMA/prog0
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    My child! They took it away!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Who did that?
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    \c[6]Believers of the Saint\c[0] they were so kind, I knew something was just not right!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh?
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    They took it! They took my baby away from me and then kicked me out of the monastery.
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    Ah! \c[6]Saint\c[0]! How could this happen to me?!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    The \c[6]Believers of the Saint\c[0] wouldn't do such a thing, would they?
+
+MIAchildMAMA/prog0_board
+\board[her child]
+Goal：Look for her child in the nearby monastery.
+Reward：None 
+Contractor： Refugee 
+Quest Term：Single Fulfillment
+\c[6]Timmy\c[0] has been missing. Go to the west to the nearby monastery and ask about \c[6]Timmy\c[0].
+His mother is just a poor refugee that has nothing to offer and no one she can turn to for help.
+
+MIAchildMAMA/prog0_Taken
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\c[0]    Leave it to me! I'll make sure to bring her home, what's her name?
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    Actually，he's a boy and his name is \c[6]Timmy\c[0].
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh... A boy, you say?
+\CBct[20]\m[pleased]\c[6]Lona：\c[0]    Nevermind, just stay here and wait for our return!
+
+MIAchildMAMA/prog1_noNews
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    Is \c[6]Timmy\c[0] with you? Did you find out anything new?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh... Still nothing.
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    My little \c[6]Timmy\c[0], Ah! What've they done to you?!
+
+MIAchildMAMA/QdoneBegin
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    Did you find \c[6]Timmy\c[0]?
+
+MIAchildMAMA/prog7_NotFound
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh...
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    The \c[4]Believers of the Saint\c[0] told me that you exchanged your only child for food.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Is it true?
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    I\..\..\..
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    I didn't want that! But I was so hungry back then!
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    I'm sorry... I'm so sorry, my little \c[6]Timmy\c[0]！
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    So they didn't actually took him away from you?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    It was all you, the one who sold him to the monastery?
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    It's all my fault... I'm so sorry...
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    My little \c[6]Timmy\c[0]，don't be afraid!
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    Mom is going to get you back!
+
+MIAchildMAMA/prog7_end
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    Sigh...
+
+MIAchildMAMA/prog9_failed
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Uh... that...
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    Did something happen? Where's my little \c[6]Timmy\c[0]?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[sad]\PRF\c[6]Lona：\c[0]    He's not going back, he has decided to dedicate his life to the \c[4]Saints\c[0].
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    That can't be! You lie! You're a liar!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    I'm telling the truth! I wouldn't lie to you! I've talked to him personally!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    He said that he hates you!
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    That can't be true! You and the \c[6]Believers of the Saint\c[0] are all liars!
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    \{There is NO SAINT!!!\}
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    \{Liars! They are all LIARS!\}
+
+MIAchildMAMA/prog9_win0
+\CBct[20]\m[pleased]\Rshake\c[6]Lona：\c[0]    We came back!
+\CBid[-1,1]\prf\c[4]Refugee：\c[0]    !!!
+
+MIAchildMAMA/prog9_win1
+\CBmp[Tommy,4]\prf\c[4]Timmy：\c[0]    Mommy!
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    \c[6]Timmy\c[0], my dear baby!
+\CBmp[Tommy,2]\prf\c[4]Timmy：\c[0]    I was told you don't want me anymore...
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    That's all lies! Those are the lies of the followers of \c[6]Saint\c[0]!
+\CBid[-1,6]\prf\c[4]Refugee：\c[0]    Mommy is so sorry! I won't let you go again!
+\CBct[4]\m[triumph]\Rshake\c[6]Lona：\c[0]    Yep, that's right!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well, I guess I should get going. I don't want to disturb your family reunion.
+
+MIAchildMAMA/prog9_win2
+\CBmp[Tommy,20]\prf\c[4]Timmy：\c[0]    Sis! Wait!
+
+MIAchildMAMA/prog9_win3
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    What happened?
+
+MIAchildMAMA/prog9_win4
+\CBmp[Tommy,20]\prf\c[4]Timmy：\c[0]    This stick was stuck in my butt.
+\CBmp[Tommy,20]\prf\c[4]Timmy：\c[0]    \c[6]Saints\c[0] \..\..\.. Believers told me that this's all part of the trial that will get me closer to the will of the \c[6]Saint\c[0].
+\CBmp[Tommy,20]\prf\c[4]Timmy：\c[0]    But I don't think I need it anymore.
+\CBmp[Tommy,20]\prf\c[4]Timmy：\c[0]    You can keep it!
+
+MIAchildMAMA/prog9_win5
+\CBct[2]\m[wtf]\Rshake\c[6]Lona：\c[0]    Huh?! a butt\..\..\.. stick?!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Hmm... Thanks?
+
+MAMAdone/Qmsg
+Thank you so much!
+
+TOMMYdone/Qmsg
+Thanks big sis!
+
+####################################################################### CBT OP
+
+CBTop/Begin0
+\CBmp[CBTer2,20]\c[4]Refugee A：\c[0]    Listen, you're much stronger than this green shit.
+\CBmp[CBTer1,6]\c[4]Refugee B：\c[0]    I\...\...\...
+
+CBTop/Begin1
+\CBmp[CBTer2,20]\c[4]Refugee A：\c[0]    These are not human beings, the \c[6]Saint\c[0] won't blame you for doing this.
+
+CBTop/Begin2
+\CBmp[CBTer2,20]\c[4]Refugee A：\c[0]    Don't be afraid! Stranded like that they can't hurt you anymore.
+
+CBTop/Begin3
+\CBmp[CBTer1,8]\c[4]Refugee B：\c[0]    Is this really right thing to do?
+\CBmp[CBTer2,20]\c[4]Refugee A：\c[0]    Just think about what they did to you\....\....\.... to us\....\....\.... to everyone else.
+\CBmp[CBTer2,20]\c[4]Refugee A：\c[0]    Don't hesitate\..\..\.. Do it! Trust me when we're done, you'll feel much better.
+\CBmp[CBTer1,8]\c[4]Refugee B：\c[0]    \...\...\...
+
+CBTop/Begin4
+\CBmp[CBTer2,20]\c[4]Refugee A：\c[0]    How does it feel? Go on, don't be afraid. Continue
+\CBmp[CBTer1,8]\c[4]Refugee B：\c[0]    Woo...
+
+CBTop/Begin5
+\CBmp[CBTer1,20]\c[4]Refugee B：\c[0]    \{Wooah!\}
+
+CBTop/Begin6
+\CBmp[CBTer1,20]\c[4]Refugee B：\c[0]    \{I'm gonna kill you!\}
+\CBmp[CBTer2,20]\c[4]Refugee A：\c[0]    Just like that, let it all out.
+
+####################################################################### Hunter
+
+Hunter/begin
+\CBmp[CBThunter,20]\c[4]Hunter：\c[0]    Are you here to have some fun with these fuckers?
+\CBmp[CBThunter,20]\c[4]Hunter：\c[0]    Go ahead, this one is fresh. I happen to catch him today! Remember It's not free, #{$story_stats["HiddenOPT1"]}P for that!
+
+Hunter/begin_Payed
+\CBmp[CBThunter,20]\c[4]Hunter：\c[0]    Make sure to, not kill him too fast, they must slowly bleed out otherwise the meat gets stringy.
+
+Hunter/NeedPay0
+\CBmp[CBThunter,20]\c[4]Hunter：\c[0]    Hey, you! No touching! You've to pay first!
+
+Hunter/NeedPay1
+\CBct[6]\m[flirty]\c[6]Lona：\c[0]    Okay...
+
+HunterOpt/About
+About
+
+Hunter/Pay
+Deez nuts!
+
+Hunter/PayPass
+\CBmp[CBThunter,4]\c[4]Hunter：\c[0]    Give them a good lesson!
+
+Hunter/PayNotEnough
+\CBmp[CBThunter,5]\c[4]Hunter：\c[0]    Are you kidding me? I said at least #{$story_stats["HiddenOPT1"]}P!
+
+Hunter/WTF
+\CBmp[CBThunter,5]\prf\c[4]Hunter：\c[0]    You stupid cunt! What have you done!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    EHHH!!
+
+Hunter/AboutDialog
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\c[0]    Uh...what are these \c[4]Orkinds\c[0] doing here?
+\CBmp[CBThunter,20]\prf\c[4]Hunter：\c[0]    \c[6]Orkinds\c[0]? Where? You mean these \c[6]Goblins\c[0]? They were wandering around in nearby forest and I happen to catch them.
+\CBct[20]\m[confused]\PLF\c[6]Lona：\c[0]    Uh... I mean why are they here.
+\CBmp[CBThunter,20]\prf\c[4]Hunter：\c[0]    Why? They're here to treat women that were abused by \c[6]Goblins\c[0].
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\c[0]    That's treatment?
+\CBmp[CBThunter,20]\prf\c[4]Hunter：\c[0]    After being fucked, all those women have mental break down, right?
+\CBmp[CBThunter,20]\prf\c[4]Hunter：\c[0]    So I give them opportunity, to overcome the fear and have some fun.
+\CBmp[CBThunter,20]\prf\c[4]Hunter：\c[0]    Take revenge for what \c[6]Goblins\c[0] did to them.
+\CBmp[CBThunter,20]\prf\c[4]Hunter：\c[0]    And ah... \c[6]Goblins\c[0] they taste good.
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Huh?!
+\CBmp[CBThunter,20]\prf\c[4]Hunter：\c[0]    Make sure to try it out, It's funny to hear these green fuckers beg for mercy.
+
+####################################################################### Common
+
+DedGob/Qmsg0
+Fainted...
+
+DedGob/Qmsg1
+Sorrow...
+
+DedGob/Qmsg2
+Agonizing...
+
+CapGob/Qmsg0
+Anxiously looking at you...
+
+CapGob/Qmsg1
+There is no hope
+
+CapGob/FaceIT
+Must Facing it
+
+GobSemen/begin1
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    \{EHHHHH!\}
+
+GobSemen/begin2_0
+\CBct[6]\m[hurt]\Rshake\c[6]Lona：\c[0]    So filthy!
+
+GobSemen/begin2_1
+\CBct[6]\m[wtf]\Rshake\c[6]Lona：\c[0]    I got it all over my face!
+
+GobExit/Alive0
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    Fear not, I forgive you.
+
+GobExit/Alive1
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    It's just not right, they're so pitiful...
+
+GoblinCBT/begin0
+He froze in fear...
+
+GoblinCBT/begin1
+There's no hope in his eyes...
+
+GoblinCBT/Kick
+Kick it
+
+GoblinCBT/Release
+Gobland FOREVER!
+
+GoblinRelease/Begin1
+\CBct[20]\m[triumph]\c[6]Lona：\c[0]    Don't be afraid! I'll help you out!
+
+GoblinRelease/Begin2
+\CBct[20]\m[pleased]\c[6]Lona：\c[0]    Alright, up you go!
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    \..\..\.. What's the matter?
+
+GoblinRelease/Begin3
+\CBct[6]\m[fear]\c[6]Lona：\c[0]    Uh...
+
+GoblinRelease/UniqueGrayRat
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Gray Rat：\c[0]    \..\..\..
+
+GoblinRelease/CompOrkindSlayer
+\CBfF[20]\prf\c[4]Orkind Slayer：\c[0]    No.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Is there really no good \c[6]Orkind\c[0]?
+\CBfF[20]\prf\c[4]Orkind Slayer：\c[0]    Only dead \c[6]Orkind\c[0] is good \c[6]Orkind\c[0].
+
+GoblinRelease/failed
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Uh...alright...
+
+commoner0/refugeeF0
+\CBid[-1,20]\c[4]Refugee：\c[0]    I was so wrong, the \C[6]Saint\C[0] does exist, I should never doubted the followers.
+
+commoner0/refugeeF1
+\CBid[-1,20]\c[4]Refugee：\c[0]    Only the \C[6]Saint\C[0] keeps me alive, please forgive me for my previous words and deeds.
+
+commoner0/refugeeF2
+\CBid[-1,20]\c[4]Refugee：\c[0]    Whenever you doubt the \C[6]Saint\C[0], make sure you visit the \C[6]Monastery\C[0].
+\CBid[-1,20]\c[4]Refugee：\c[0]    \C[6]Believers\C[0] will guide you, so you can see the truth!
+
+commoner1/refugeeF0
+\CBid[-1,20]\c[4]Refugee：\c[0]    Sometimes those priests hand out food, but there isn't enough for everyone. You need to take care of yourself.
+
+commoner1/refugeeF1
+\CBid[-1,20]\c[4]Refugee：\c[0]    There are many monsters and bandits around. Priests alone are not enough to protect us from them.
+
+commoner1/refugeeF2
+\CBid[-1,20]\c[4]Refugee：\c[0]    People have turned away from the \C[6]Saint\C[0], so now the \C[6]Saint\C[0] punishes us like this.
+\CBid[-1,20]\c[4]Refugee：\c[0]    Do we really deserve it all? But I believe, I believe in the \C[6]Saint\C[0]? Why did this happen to me then?
+
+commoner2/Priest0
+\CBid[-1,20]\c[4]Believer：\c[0]    Come here! Lost children! the \C[6]Saint\C[0] will forgive you!
+
+commoner2/Priest1
+\CBid[-1,20]\c[4]Believer：\c[0]    All this happens, because you were unfaithful to the \C[6]Saint\C[0]! Bow your head and confess your sins!
+
+commoner2/Priest2
+\CBid[-1,20]\c[4]Believer：\c[0]    Give your body! Give your soul!
+
+Saint/board
+\board[Unknown Saint]
+Nameless Saint said： When you encounter great evil, you can always call my name. The evil cannot withstand it! 
+The Gospel of the Saints, 896： 4

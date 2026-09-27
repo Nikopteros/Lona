@@ -1,0 +1,408 @@
+#====================+============================ DarkPot ===================================================
+
+Lona/DarkPot_begin
+\cg[event_DarkPot]大悶鍋
+\optB[算了,打開悶鍋,悶鍋合成]
+
+Lona/DarkPot_cooking
+\narr\SND[SE/Bubble1.ogg]\.....\SND[SE/Bubble2.ogg]\....\SND[SE/Bubble3.ogg]\...\..
+
+#====================+============================ SubmitSkill ===================================================
+
+Lona/SubmitSkill_normal
+\m[hurt]\c[6]洛娜：\c[0]    嗚嗚......
+
+Lona/SubmitSkill_weak
+\m[fear]\c[6]洛娜：\c[0]    嗚嗚......
+
+Lona/SubmitSkill_tsun
+\m[angry]\c[6]洛娜：\c[0]    什！？
+
+Lona/SubmitSkill_slut
+\m[lewd]\c[6]洛娜：\c[0]    啊阿......
+
+Lona/SubmitSkill_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    嗚嗚......
+
+Lona/SubmitSkill_mouth_block
+\m[pain]\c[6]洛娜：\c[0]    嗚嗚......
+
+#====================+============================ BreakBondage ===================================================
+Lona/BreakBondage_HCblocked
+\narr地獄與末日模式不准妳這麼做。
+
+Lona/BreakBondage_opt
+\m[confused]\optB[強行,靠技術]
+
+Lona/BreakBondageWin1
+\m[triumph]\c[6]洛娜：\c[0]    成了！　總算拆掉了！
+\m[tired]\c[6]洛娜：\c[0]    但.. 好累阿....
+
+Lona/BreakBondageFailed1
+\m[bereft]\c[6]洛娜：\c[0]    不行，我的身體不夠強壯。
+\m[sad]\c[6]洛娜：\c[0]    或許我應該把我的身體養好一點再試試？
+
+Lona/BreakBondagefailed2_skill
+\narr需要78點體力及除體質外一項基本天賦達15點。
+
+Lona/BreakBondagefailed2_sta
+\narr需要100點體力。
+
+#Lona/BreakBondagefailed2_wisdom
+#\narr需要78點體力及15智慧。
+#
+#Lona/BreakBondagefailed2_combat
+#\narr需要78點體力及15戰鬥技術。
+
+#====================+============================ Basic Need ===================================================
+
+Lona/CampAction
+\m[normal]\optB[算了,構築野營<r=HiddenOPT1>,滑了一跤<r=HiddenOPT2>]
+
+Lona/CampActionBuildCamp1
+\m[pleased]\c[6]洛娜：\c[0]    好！就設在這邊！
+
+Lona/CampActionBuildCamp2
+\narr\..\..\..\..
+
+Lona/CampActionBuildCamp3
+\m[triumph]\c[6]洛娜：\c[0]    搞定!
+
+Lona/CampActionSlip
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{唉啊啊啊！！！
+\m[hurt]\Rshake洛娜陷入了昏迷
+
+Lona/BasicNeeds_begin
+\m[confused]要做什麼呢？
+
+Lona/BasicNeedsOpt_Cancel
+什麼都不做
+
+Lona/BasicNeedsOpt_Bathe
+梳洗
+
+Lona/BasicNeedsOpt_Relieve
+排泄
+
+Lona/BasicNeedsOpt_Masturbate
+自慰
+
+Lona/BasicNeedsOpt_CleanPrivates
+清理私處
+
+Lona/BasicNeedsOpt_CollectMilk
+收集乳汁
+
+Lona/BasicNeedsOpt_Spit
+吐出
+
+Lona/BasicNeedsOpt_Swallow
+吞下
+
+Lona/BasicNeedsOpt_CollectWaste
+收集穢物
+
+Lona/BasicNeedsOpt_BreakRestraints
+破壞拘束具
+
+Lona/BasicNeedsOpt_Sleep
+睡一覺
+
+Lona/BasicNeedsOpt_Gameover
+接受自己的命運
+
+Lona/BasicNeedsOpt_DigPeePoo
+清理
+
+Lona/BasicNeedsOpt_DressOn
+穿衣
+
+Lona/BasicNeedsOpt_DressOff
+脫衣
+
+Lona/BasicNeedsOpt_ShavePubicHair
+剃毛
+
+Lona/BasicNeedsOpt_All
+全部
+
+Lona/LoanPrincipal
+本金
+
+Lona/LoanInterest
+利息
+
+Lona/LoanServiceFee
+服務費
+
+Lona/LoanWhorePrincipal
+額外保護費
+
+#================================================ NAP ===================================================
+Lona/Nap_begin
+\m[normal]一個可供洛娜休息的地方。
+
+Inn/GetInnKey
+\m[normal]一個可供洛娜休息的地方。\n\i[#{$story_stats["HiddenOPT0"]}] \{ #{$story_stats["HiddenOPT1"]}
+
+Lona/Nap_RapeLoop_begin1
+\narr洛娜捲曲著身體漸漸的陷入沉睡。
+\narr但它們並不打算放過洛娜。
+
+Lona/Nap_RapeLoop_begin2_opt_normal
+\m[sad]\c[6]洛娜：\c[0]    我應該要.....\optB[等一個機會,放棄吧]
+
+Lona/Nap_RapeLoop_begin2_opt_tsun
+\m[hurt]\c[6]洛娜：\c[0]    我應該要.....\optB[不放棄任何希望,放棄吧]
+
+Lona/Nap_RapeLoop_begin2_opt_weak
+\m[tired]\c[6]洛娜：\c[0]    我應該要.....\optB[也許還有希望,當個肉便器]
+
+Lona/Nap_RapeLoop_begin2_opt_slut
+\m[normal]\c[6]洛娜：\c[0]    我應該要.....\optB[我想想罷了,這正是我的歸宿]
+
+Lona/Nap_RapeLoop_begin2_opt_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    我應該要.....\optB[先回復體力再說,就這樣過下去吧]
+
+Lona/Nap_RapeLoop_begin2_opt_mouth_block
+\m[tired]\c[6]洛娜：\c[0]    我應該要.....\optB[想辦法把嘴中的異物拿出來再說,就這樣過下去吧]
+
+Lona/Nap_RapeLoop_begin2_normal
+\m[terror]\Rshake\c[6]洛娜：\c[0]    嗚嗚...為什麼是我!!!!
+\m[bereft]\Rshake\c[6]洛娜：\c[0]    這樣下去太痛苦了。
+
+Lona/Nap_RapeLoop_begin2_tsun
+\m[terror]\Rshake\c[6]洛娜：\c[0]    嗚嗚...你們這些該死的!!!!
+\m[pain]\Rshake\c[6]洛娜：\c[0]    為什麼是我!!
+
+Lona/Nap_RapeLoop_begin2_weak
+\m[hurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚......
+\m[sad](也許接受這一切就不會這麼痛苦了)
+
+Lona/Nap_RapeLoop_begin2_slut
+\m[hurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚......全身都好痛
+\m[pain]\Rshake\c[6]洛娜：\c[0]    它們就不能輕點嗎?
+\m[flirty]\c[6]洛娜：\c[0]    但.....有點期待之後會發生什麼事呢.
+\m[lewd](也許這正是我的歸宿?)
+
+Lona/Nap_RapeLoop_begin2_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    嗚嗚......
+\m[sad](身體完全動不了)
+
+Lona/Nap_RapeLoop_begin2_mouth_block
+\m[pain]\c[6]洛娜：\c[0]    嗚嗚......
+\m[sad](這東西讓我完全說不了話)
+
+#================================================ Action_CHSH_Masturbation.rb ===================================================
+Lona/Masturbation_begin1
+\m[lewd]\c[6]洛娜：\c[0]    ....
+
+Lona/Masturbation_begin2
+\m[shy]\c[6]洛娜：\c[0]    嗚......
+
+#================================================ BATH ===================================================
+Lona/Bath_tooClearn
+\m[confused]\c[6]洛娜：\c[0]    嗯.... 我的身體應該還算乾淨吧？
+
+Lona/Bath_EndDirtLvl1
+\m[confused]\c[6]洛娜：\c[0]    感覺還是有點髒？
+
+Lona/Bath_EndDirtLvl2
+\m[flirty]\c[6]洛娜：\c[0]    能洗的地方都洗過了，但還是不乾淨...
+
+Lona/Bath_EndDirtLvl3
+\m[tired]\c[6]洛娜：\c[0]    噁... 還是好髒...
+
+Lona/Bath_begin
+\m[flirty](看起來可以在這裡清理身體)\optB[什麼都不做,梳洗,清理私處<r=HiddenOPT1>,收集乳汁<r=HiddenOPT2>]
+
+Lona/Bath_Undress1
+\m[shy]\c[6]洛娜：\c[0]    ................
+
+Lona/Bath_Undress2
+\m[tired]\c[6]洛娜：\c[0]    ..........
+
+Lona/Bath_Undress3
+\m[shy]\c[6]洛娜：\c[0]    .....
+
+Lona/Bath_Undress4
+\m[tired]\c[6]洛娜：\c[0]    .....
+
+Lona/Bath_cuffed
+\narr在拘束具的影響下洛娜無法好好的清理身上的髒污。
+
+Lona/Bath_washing
+\m[shy]\cg[event_bath]\c[6]洛娜：\c[0]    ...........
+\m[flirty]\c[6]洛娜：\c[0]    ........
+\m[normal]\c[6]洛娜：\c[0]    .....
+\m[pleased]\cgoff\c[6]洛娜：\c[0]    ..
+
+Lona/Bath_washing_IfWounds0
+\m[shy]\cg[event_bath]\c[6]洛娜：\c[0]    ...........
+\m[flirty]\c[6]洛娜：\c[0]    ........
+\m[normal]\c[6]洛娜：\c[0]    .....
+\cgoff 傷口受到水的刺激傳來了刺痛。
+
+Lona/Bath_washing_IfWounds1
+\m[pain]\Rflash\c[6]洛娜：\c[0]    嗚啊！
+\m[hurt]\Rflash\c[6]洛娜：\c[0]    好痛！！
+
+Lona/Bath_washing_IfWoundsM
+\m[lewd]\c[6]洛娜：\c[0]    呼，呵呵.....♥
+
+Lona/Bath_begin3_NoFuckerSight
+\m[triumph]\c[6]洛娜：\c[0]    呵呵.....
+
+Lona/Bath_begin3_FuckerSight_normal
+\m[shocked]\c[6]洛娜：\c[0]    在其他人的視線下？
+\m[shy]\c[6]洛娜：\c[0]    這....
+
+Lona/Bath_begin3_FuckerSight_tsun
+\m[irritated]\c[6]洛娜：\c[0]    現在？ 在這裡？
+\m[sad]\c[6]洛娜：\c[0]    好吧.....
+
+Lona/Bath_begin3_FuckerSight_weak
+\m[fear]\c[6]洛娜：\c[0]    有人在看..
+\m[shy]\c[6]洛娜：\c[0]    沒問題的。
+\m[tired]\c[6]洛娜：\c[0]    大概吧.......
+
+Lona/Bath_begin3_FuckerSight_slut
+\m[confused]\c[6]洛娜：\c[0]    在視線下？
+\m[lewd](感覺不錯呢？)
+
+Lona/Bath_begin3_FuckerSight_overfatigue
+\m[tired]洛娜他太累了，什視線洛娜都不在乎了。
+\m[tired]\c[6]洛娜：\c[0]    ......
+
+Lona/Bath_begin3_FuckerSight_mouth_block
+\m[shy]\c[6]洛娜：\c[0]    嗚嗚！
+洛娜無法說話，無法對他人的視線表示意見了。
+
+Lona/Bath_end
+\m[normal]\c[6]洛娜：\c[0]    嗯，乾淨多了。
+
+#================================================ Groin_clearn ===================================================
+#需先檢測視線 FLAG採用BATH 清理50%+SEXY SKILL的洨 
+
+Lona/GroinClearn_begin1
+\m[shy]\c[6]洛娜：\c[0]    必須把裡面的髒東西弄出來才行\n不然會懷孕的.
+
+Lona/GroinClearn_begin2_1
+\m[shy]\cg[event_GroinClearn]\c[6]洛娜：\c[0]    ..........
+
+Lona/GroinClearn_begin2_2
+\m[shy]\cg[event_GroinClearn]\c[6]洛娜：\c[0]    .......
+
+Lona/GroinClearn_begin2_3
+\m[shy]\cg[event_GroinClearn]\c[6]洛娜：\c[0]    ....
+
+Lona/GroinClearn_begin2_4
+\m[shy]\cg[event_GroinClearn]\c[6]洛娜：\c[0]    ...
+
+Lona/GroinClearn_cuffed
+在拘束具的影響下洛娜無法好好的清小穴內的穢物
+
+Lona/GroinClearn_failed_typical
+\CBct[8]\m[sad]\cgoff\c[6]洛娜：\c[0]    .........
+\CBct[6]\m[fear]\c[6]洛娜：\c[0]    總覺得裡面還是有東西？！
+\CBct[6]\m[confused]\c[6]洛娜：\c[0]    也許我該再弄一次？
+
+Lona/GroinClearn_failed_tsundere
+\CBct[8]\m[confused]\cgoff\c[6]洛娜：\c[0]    .........
+\CBct[5]\m[irritated]\c[6]洛娜：\c[0]    感覺裡面還是有那個....
+\CBct[6]\m[hurt]\c[6]洛娜：\c[0]    我一開始就不該那麼做的....！！
+
+Lona/GroinClearn_failed_gloomy
+\CBct[8]\m[sad]\cgoff\c[6]洛娜：\c[0]    .........
+\CBct[6]\m[confused]\c[6]洛娜：\c[0]    不行，還是沒弄乾淨...
+\CBct[6]\m[shocked]\c[6]洛娜：\c[0]    不趕快弄出來的話會懷孕的...
+
+Lona/GroinClearn_failed_slut
+\CBct[8]\m[sad]\cgoff\c[6]洛娜：\c[0]    .........
+\CBct[6]\m[bereft]\c[6]洛娜：\c[0]    討厭，怎麼弄都弄不乾淨...
+\CBct[4]\m[hurt]\c[6]洛娜：\c[0]    也許該找個男人幫幫我~ ♥
+
+Lona/GroinClearn_win
+\m[sad]\cgoff\c[6]洛娜：\c[0]    .........
+\m[shy]\c[6]洛娜：\c[0]    我想應該是清乾淨了...... 吧?
+
+#================================================ SelfMilking ===================================================
+
+Lona/SelfMilking_HowMuch
+要處理多少乳汁？
+
+Lona/SelfMilking_begin1
+\narr洛娜決定收集自己的奶水。
+
+Lona/SelfMilking_begin2
+\CBct[8]\c[6]洛娜：\c[0]    .....
+
+Lona/SelfMilking_begin3
+\CBct[6]\c[6]洛娜：\c[0]    嗯啊!
+
+Lona/SelfMilking_begin4
+\CBct[8]\c[6]洛娜：\c[0]    .........
+
+Lona/SelfMilking_begin5
+\CBct[6]\c[6]洛娜：\c[0]    呼呼.....
+
+Lona/SelfMilking_end1
+\CBct[8]\c[6]洛娜：\c[0]    嗚......
+
+Lona/SelfMilking_end2
+\narr洛娜將裝滿奶水的水壺收了起來...
+\narrOFF\CBct[6]\c[6]洛娜：\c[0]    呼... 似乎沒有那麼脹了
+
+Lona/SelfMilking_end2_slut
+\CBct[4]\c[6]洛娜：\c[0]    還蠻舒服的,感覺身體都熱起來了
+
+#================================================ Excretion ===================================================
+Lona/Excretion_begin
+\CBct[6]\m[normal]\c[6]洛娜：\c[0]    嗚......
+\CBct[8]\m[shy]\c[6]洛娜：\c[0]    有點想.....\optB[什麼都不做,排泄<r=HiddenOPT1>,清理私處<r=HiddenOPT2>,收集乳汁<r=HiddenOPT3>]
+
+Lona/Excretion_begin2
+\CBct[6]\m[shy]\c[6]洛娜：\c[0]    嗯......
+
+Lona/Excretion_end_NoExcretion
+\CBct[2]\m[normal](嗯??...還好吧?)
+
+Lona/Excretion_end
+\CBct[3]\m[shy]\c[6]洛娜：\c[0]    呼呼..... 舒服多了....
+
+Lona/Toilet_ClearnUp
+\CBct[8]\m[tired]\plf\prf\c[4]塞住的茅坑...
+\CBct[6]\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    嘔噁！好臭！
+
+#================================================ Shave =============================
+
+Lona/ShavePubicHair_0_typical
+\CBct[8]\m[shy]\c[6]洛娜：\c[0]    .........
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    下面毛太多，藏汙納垢的，要剃掉嗎？
+
+Lona/ShavePubicHair_0_tsundere
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    \..\..\..
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼時候毛又長這麼長了？！
+
+Lona/ShavePubicHair_0_gloomy
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    嗚嗚....
+\CBct[8]\m[fear]\c[6]洛娜：\c[0]    要把陰毛剃掉嗎？
+
+Lona/ShavePubicHair_0_slut
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    .........
+\CBct[4]\m[shy]\c[6]洛娜：\c[0]    為了做起來更舒服，還是把毛毛都剃了吧♥
+
+Lona/ShavePubicHair_1
+\m[confused]要剃多少？
+
+Lona/ShavePubicHair_2_typical
+\CBct[20]\m[triumph]\Rshake\c[6]洛娜：\c[0]    清爽多了！
+
+Lona/ShavePubicHair_2_tsundere
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    就沒有辦法讓毛永遠消失嗎？
+
+Lona/ShavePubicHair_2_gloomy
+\CBct[3]\m[flirty]\c[6]洛娜：\c[0]    舒服多了...
+
+Lona/ShavePubicHair_2_slut
+\CBct[4]\m[pleased]\Rshake\c[6]洛娜：\c[0]    嗯♥ 這樣我的對象也會很高興的♥

@@ -1,0 +1,314 @@
+thisMap/OvermapEnter
+\m[confused]camp station,\nSoldiers' recreation room.\optB[Leave,Enter]
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]Leads to \C[4]saltworks\C[0], but a guard stands at the door. \optB[Leave,Enter,Sneak<r=HiddenOPT1>,Bluff<r=HiddenOPT2>]
+
+nap/Capture
+asd
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Who are you? You are not welcome here!
+
+InnKeeper/Slave_work
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Shut up! go to work!
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Where am I?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    You are at the Coastal Fortress.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    It used to be a salt field. Now we call it the \c[6]Coastal Fortress\c[0] after we fought off some pirates.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    But with the monsters invading this area, the villages around us quickly fell, and now we fought off the monsters too!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I see... So why are there so many people here?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    We don't know why, but these monsters stopped around here, maybe one of the \c[6]Saint's\c[0] miracles?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    The army confiscated this place, and now it is a transit point for the refugees, but no new living people have been found for a long time.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh?
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Is there anything I can do to help around here?
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Um? Are you a woman?
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Um... The boobs are a bit on the tiny side, but better than nothing.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh? Why does everyone keep saying this?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Caregivers are really needed here, we can guarantee you enough food every day and your personal safety.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Come, sign this.
+
+InnKeeper/About_work1
+\board[You can too!]
+Want to save your relatives and friends?!
+Come and help soldiers, wounded soldiers need care.
+Soldiers will keep you fed and safe.
+Another person is guaranteed to enter Noer Town, but only if
+you agree to all employer job requirements.
+You are not allowed to leave the workplace without authorization.
+Your employer may punish you physically if you violate work requirements.
+\}You will give up the human rights of all Ingoland nationals due to work requirements.
+You will become a soldier's slave due to job requirements.
+\{I___Agree to the terms listed above and become a Saltworks employee.
+
+InnKeeper/About_work2
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hmm... Food and safety?
+
+InnKeeper/About_work2_Y
+\CBct[20]\m[flirty]\plf\c[6]Lona：\c[0]    Well... Sounds good?
+\SND[SE/PenWrite1.ogg]\narr Lona signed the contract with her name.
+\narrOFF\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Very good!
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Do you have family here? Give me their names, and they'll be a citizen of Noer from now on.
+\CBct[8]\m[sad]\plf\c[6]Lona：\c[0]    They\..\..\.. All passed away.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    It's a pity, then do you want to send someone else to Noer Town?
+\CBct[8]\m[tired]\plf\c[6]Lona：\c[0]    No\..\..\.. You pick any poor fellow out there.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Very good, please wait here a moment.
+
+InnKeeper/About_work2_N
+\CBct[5]\m[irritated]\plf\Rshake\c[6]Lona：\c[0]    Never! You liar!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    I fuck! Damn it!
+
+#################################### SIged
+
+InnKeeper/About_work2_Y1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well... What's wrong?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    \{Catch her!\}
+
+InnKeeper/About_work2_Y2
+\CBct[20]\m[hurt]\plf\Rshake\c[6]Lona：\c[0]    It hurts! let me go!
+\CBct[6]\m[fear]\plf\Rshake\c[6]Lona：\c[0]    Let me go! I'm just here to apply for a nursing job!
+
+InnKeeper/About_work2_Y3
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    You have signed! You are a voluntary slave now!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    What?! A slave?!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Look at what is written on it yourself, it's right down here, see? This line.
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    This... How could I be so blind to see it?!
+
+InnKeeper/About_work2_Y4
+\CBmp[Guard1,5]\SETpl[Mreg_guardsman]\Lshake\PRF\c[4]Innkeeper：\c[0]    Bitch! Shut up!
+
+InnKeeper/About_work2_Y5
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Innkeeper：\c[0]    Get this bitch down fast, the old slaves need replacements.
+\CBmp[Guard1,20]\cg[event_SlaveBrand]\SETpl[Mreg_guardsman]\Lshake\c[4]guard：\c[0]    Done now!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    \{ah ah ah ah ah!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{ah ah ah ah!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    AIEEEE!
+
+InnKeeper/About_work2_Y6
+\m[sad]\c[6]Lona：\c[0]    *Sob* *sob*... Why...
+
+InnKeeper/About_work2_Y7
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]guard：\c[0]    Serving us is your future job.
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]guard：\c[0]    You have to do whatever we want, understand?
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]guard：\c[0]    If you do a shit job, or we find that you are lazy, you will die!
+
+InnKeeper/About_work2_Y8
+\CBct[8]\m[tired]\c[6]Lona：\c[0]    .....
+
+#################################### SIged end
+#################################### TOR
+
+Torture/NapTrigger
+\SndLib[sound_MaleWarriorSpot]\c[4]SoldierA：\c[0]    This little bitch dared to mess around!
+\SndLib[sound_MaleWarriorSpot]\c[4]SoldierB：\c[0]    Get her up! Wait, teach her how to be a slave!
+\narr Lona lost all of her belongings.
+
+Torture/begin0
+\SndLib[sound_MaleWarriorSpot]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldier：\c[0]    Little bitch, wake up!
+\SndLib[sound_MaleWarriorSpot]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldier：\c[0]    Wake up! Bitch!
+\m[tired]\c[6]Lona：\c[0]    *Sob*.....
+
+Torture/begin1
+\CBmp[Torture1,1]\m[shocked]\Rshake\c[6]Lona：\c[0]    !!!
+\CBmp[Guard2,3]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldier：\c[0]    Before you dared to mess around, you should have thought about the consequences!
+\CBmp[Torture1,6]\m[fear]\Rshake\c[6]Lona：\c[0]    I.....
+\CBmp[Guard1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    We will teach you a lesson!
+\CBmp[Torture1,20]\m[terror]\Rshake\c[6]Lona：\c[0]    No!!! *Sob* *Sob*
+
+Torture/begin2
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Brothers! How are we going to punish this little bitch?
+
+Torture/begin3
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldier：\c[0]    Good! Let me hear you apologize!
+
+Torture/begin4
+\CBmp[Torture1,6]\m[bereft]\Rshake\c[6]Lona：\c[0]    I'm sorry, please forgive me!
+
+Torture/begin5
+\CBmp[Guard1,20]\m[sad]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Do you think she needs to be punished more?
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Good! What do you want to do?
+
+Torture/begin6
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    No problem!
+
+Torture/begin7
+\CBmp[Torture1,8]\m[tired]\Rshake\c[6]Lona：\c[0]    .....
+
+Torture/begin8
+\narr Lona lost consciousness amidst the soldiers' ridicule and insults.
+
+#################################### TOR END
+#################################### MAMA 
+
+Mama/getDress
+\CBid[-1,20]\prf\c[4]slave：\c[0]    Have you been cheated too?
+\CBid[-1,20]\prf\c[4]slave：\c[0]    Take these, it may save you a little longer.
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    Thanks...
+
+Mama/Begin0
+\CBid[-1,20]\prf\c[4]slave：\c[0]    What else can we do?
+
+Mama/Begin1
+\CBid[-1,20]\prf\c[4]slave：\c[0]    What else can we women do?
+
+Mama/End0
+\CBid[-1,20]\prf\c[4]slave：\c[0]    Go, girl.
+
+Mama/End1
+\CBid[-1,20]\prf\c[4]slave：\c[0]    The more you suffer, the less we suffer.
+
+#################################### JOB ACCEPT
+
+Job/Begin0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Hey! wake up! Time to go to work!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    *Sob*....
+
+Job/NoWork
+\narr The soldiers seemed to have forgotten Lona's existence.
+Lona should take this opportunity to rest.
+
+Job/WhoreJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Go let three soldiers fuck you!
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Remember, you're just a bitch! Just a slave, no longer human!
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Yes sir....
+
+JobOpt/Suck
+Blow the trumpet
+
+JobOpt/Done
+\narr Lona's service job is done.
+
+Job/SuckJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Go and lick dicks for soldiers!
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    You have to help at least three soldiers! Go lick their dicks clean!
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Yes sir....
+
+JobOpt/SuckJob_Begin0_0
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    I am... Here to suck your dick Sir...
+
+JobOpt/SuckJob_Begin0_1
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    I'm here to clean up your dick...
+
+JobOpt/SuckJob_Begin1_0
+\CBid[-1,4]\plf\c[6]Lona：\c[0]    Well, being blown while eating is the best way to enjoy it.
+
+JobOpt/SuckJob_Begin1_1
+\CBid[-1,4]\plf\c[6]Lona：\c[0]    Very good! Kneel down! I tell you to blow!
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Yes sir...
+
+Job/MeatToiletJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Catch her!
+
+Job/MeatToiletJob1
+\CBct[6]\m[hurt]\plf\Rshake\c[6]Lona：\c[0]    Oh?!
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldier：\c[0]    The brothers who resisted the monsters on the front line are coming back.
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldier：\c[0]    What you have to do is very simple, that is, to be their toilet!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    *Sob*....
+
+Job/MeatToiletJob2_0
+\CBmp[Raper0,20]\prf\c[4]Soldier：\c[0]    Great, finally able to get the dirty stuff out.
+
+Job/MeatToiletJob2_1
+\CBmp[Raper0,20]\prf\c[4]Soldier：\c[0]    A titless little whore.
+
+Job/MeatToiletJob3
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    ....
+\CBmp[Raper0,20]\prf\c[4]Soldier：\c[0]    I'm on!
+
+Job/MeatToiletJob3_virgin0
+\CBmp[Raper0,20]\prf\c[4]Soldier：\c[0]    This bitch is a virgin!♥ It's her first time!♥
+
+Job/MeatToiletJob3_virgin1
+\BonMP[Raper1,20]\prf\c[4]Soldier：\c[0]    Marvelous!
+\BonMP[Raper2,20]\prf\c[4]Soldier：\c[0]    Come on, I want to fuck a tight cunt too!
+
+Job/MeatToiletJob4
+\CBmp[Raper0,5]\prf\c[4]Soldier：\c[0]    I'm coming! It's done!
+
+Job/MeatToiletJob5
+\CBmp[Raper0,4]\prf\c[4]Soldier：\c[0]    Dry! Comfortable♥
+\CBmp[Raper1,20]\prf\c[4]Soldier：\c[0]    Change me, change me♥
+
+Job/MeatToiletJob6
+\CBmp[Raper1,4]\prf\c[4]Soldier：\c[0]    Hey hey hey! taste my 30 Centimeter Islander Power Bar♥
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    ....
+
+Job/MeatToiletJob7
+\CBmp[Raper1,4]\prf\c[4]Soldier：\c[0]    I am coooming!♥
+
+Job/MeatToiletJob8
+\CBmp[Raper2,20]\prf\c[4]Soldier：\c[0]    It's my turn! quick! I want to do it too!
+
+Job/MeatToiletJob9
+\CBmp[Raper2,20]\prf\c[4]Soldier：\c[0]    Smelly toilet! I want to fuck your cunt!
+
+Job/MeatToiletJob10
+\CBmp[Raper2,20]\prf\c[4]Soldier：\c[0]    Coming! I came!
+
+Job/MeatToiletJob11
+\CBmp[Raper2,20]\prf\c[4]Soldier：\c[0]    \{Dry! Cool!\}
+\CBmp[Raper2,20]\prf\c[4]Soldier：\c[0]    Next person!
+
+Job/MeatToiletJob12
+\CBmp[Raper3,20]\prf\c[4]Soldier：\c[0]    I'm next!
+\CBmp[Guard2,20]\prf\c[4]Soldier：\c[0]    No! It's my turn!
+
+Job/MeatToiletJob13
+\CBmp[Guard1,20]\prf\c[4]Soldier：\c[0]    Dry! Don't jump the line!
+\CBmp[Raper3,20]\prf\c[4]Soldier：\c[0]    Why don't you all go together? Be Cavebrothers together?
+\CBmp[Guard2,20]\prf\c[4]Soldier：\c[0]    Rational!
+
+Job/MeatToiletJob14
+\BonMP[Raper0,20]\BonMP[Raper1,20]\BonMP[Raper2,20]\BonMP[Raper3,20]\prf\c[4]Soldier：\c[0]    Hey Hey...
+
+Job/MeatToiletJob15
+\narr Lona loses consciousness during her humiliation by soldiers...
+
+#################################### JOB END
+
+whore1/Qmsg0
+Boy, do you want to be lucky with me?
+
+whore1/Qmsg1
+I have big boobs, right?
+
+whore1/Qmsg2
+Want to touch it?
+
+whore2/Qmsg0
+I was cheated...
+
+whore2/Qmsg1
+Help me...
+
+whore2/Qmsg2
+I want to go home...
+
+whore3/Qmsg0
+Why?
+
+whore3/Qmsg1
+Aren't we all human?
+
+whore3/Qmsg2
+Why treat me like this?
+
+whore4/Qmsg0
+I will survive!
+
+whore4/Qmsg1
+You are the ones who will die!
+
+whore4/Qmsg2
+Go away!
+
+art/GodEmperor
+\cg[other_GodEmperor]God of the Stars
+We face decades of betrayal and humiliation from the West, and you are the only God-Emperor trying to stop them.
+Although the time was short, although you failed, I still salute you for it.
+\m[serious]Um.... The Emperor of the Stars?
+\m[confused]Who is he?
+\m[flirty]Still, the hairstyle is kind of funny.

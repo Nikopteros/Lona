@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+Abandoned House \optB[Leave,Enter]
+
+######################################################3
+
+mec/QmsgTar
+Hurry up, go.
+
+mec/Done1
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    Thank you!
+
+mec/Done2
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    Maybe there are people in this world you can trust.
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    Civilian! What's your name?
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\c[0]    \c[6]Lona Falldin.\c[0]
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    \c[6]Lona\c[0], Is that so? Thank you again.
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    I'll be leaving this island soon, and we may not see each other again, but I'll always remember you.
+\CBct[20]\m[pleased]\PRF\c[6]Lona：\c[0]    You're welcome!
+
+mec/CommonConvoyTarget0
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    Hurry up!
+
+mec/CommonConvoyTarget1
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    I want to go to the \C[4]Doom Fortress\C[0].
+
+mec/CommonConvoyTarget2
+\CBfE[20]\prf\c[4]Lady Noble：\c[0]    Move it!
+
+mec/win
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Sigh!
+
+mec/Quprog_0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Are you okay?
+\CBmp[Girl,8]\prf\c[4]Lady Noble：\c[0]    How did this happen...
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh?
+\CBmp[Girl,8]\prf\c[4]Lady Noble：\c[0]    Was I wrong to help? Maybe the poor aren't like us after all?
+\CBmp[Girl,20]\prf\c[4]Lady Noble：\c[0]    Civilian, listen! Get me to safety to the \C[4]Doom Fortress\C[0]!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh...
+
+mec/Quprog_0_board
+\board[Escort Travelers]
+Goal：Escort to the Doom Fortress
+Reward：Large Coin 3, Moral 2
+Contractor：Traveler
+Quest Term：5 Days
+
+mec/Quprog_0_decide
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Um.... \optB[No Time,Okay]
+
+######################################################3
+
+Start/begin_1
+\c[4]Refugee：\c[0]    Kind-hearted lord and Noble lady... Can we have some food...
+\CBmp[Girl,20]\c[4]House Keeper：\c[0]    Miss, we should leave now.
+\CBmp[Girl,20]\c[4]Lady Noble：\c[0]    Give them some extra food.
+\CBmp[Girl,20]\c[4]House Keeper：\c[0]    Yes.
+
+Start/begin_2
+\CBmp[MainDude,3]\c[4]Refugee：\c[0]    Thank you! I have two other children at home. Can you give more?
+\CBmp[Man,20]\c[4]House Keeper：\c[0]    No! We should really get out of here!
+
+Start/begin_3
+\CBmp[Girl,20]\c[4]Lady Noble：\c[0]    It's all right, Help him out.
+\CBmp[Man,20]\c[4]House Keeper：\c[0]    Miss! Stop it!
+\CBmp[Girl,20]\c[4]Lady Noble：\c[0]    Is the life of a refugee not valuable? We are all living people!
+\CBmp[Girl,20]\c[4]Lady Noble：\c[0]    We should help them, since we still have the strength to do so! My orders are my father's orders!
+\CBmp[Man,8]\c[4]House Keeper：\c[0]    ....
+\CBmp[Man,20]\c[4]House Keeper：\c[0]    Yes!
+
+Start/begin_4
+\CBmp[Man,20]\c[4]House Keeper：\c[0]    This is some extra food for you from our noble lady!
+\CBmp[MainDude,3]\c[4]Refugee：\c[0]    Thank you! You are as kind as the Saint!
+\CBmp[Man,8]\c[4]House Keeper：\c[0]    Remember the great kindness of our family!
+
+Start/begin_5
+\CBmp[Girl,2]\c[4]Lady Noble：\c[0]    What? What have you done?!
+\CBmp[HorseKiller,8]\c[4]Refugee：\c[0]    We usually only eat some skinny two-legged sheep, but today...
+\CBmp[GuardKiller,3]\c[4]Refugee：\c[0]    We can eat fresh horse meat!
+\CBmp[MainDude,4]\c[4]Refugee：\c[0]    And women! We can fuck a fresh woman!
+\CBmp[Girl,6]\c[4]Lady Noble：\c[0]    What?!
+
+Start/begin_5_1
+\CBmp[Girl,1]\c[4]Lady Noble：\c[0]    Ahhhhhhhh! No!
+
+Start/begin_6
+\CBmp[Girl,6]\c[4]Lady Noble：\c[0]    No! Why are you doing this? Didn't I help you guys?!
+
+Start/begin_7
+\CBmp[Girl,20]\c[4]Lady Noble：\c[0]    No!! Let go of me!!
+\CBmp[MainDude,20]\c[4]Refugee：\c[0]    Come on! There's a woman out there!
+
+Start/begin_8
+\CBmp[HorseKiller,8]\c[4]Refugee：\c[0]    Great, today's my lucky day.
+
+Start/begin_9
+\CBmp[GuardKiller,3]\c[4]Refugee：\c[0]    She looks healthy, She'll last a few days, right?
+\CBmp[Girl,20]\c[4]Lady Noble：\c[0]    No! Why are you doing this? Somebody help me!
+
+Start/begin_10
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What's wrong? Who's calling for help?
+
+Start/begin_11
+\CBmp[GuardKiller,20]\prf\c[4]Refugee：\c[0]    It's a woman! There's another one!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    No! Wait! I was just passing by!
+\CBmp[MainDude,4]\prf\c[4]Refugee：\c[0]    How lucky we are today!
+
+Start/begin_12
+\CBmp[HorseKiller,20]\prf\c[4]Refugee：\c[0]    Wait!
+\CBmp[GuardKiller,2]\prf\c[4]Refugee：\c[0]    What's wrong?
+\CBmp[HorseKiller,20]\prf\c[4]Refugee：\c[0]    It's not right! Look at her!
+
+Start/begin_13
+\CBmp[MainDude,2]\prf\c[4]Refugee：\c[0]    What are you looking at?
+\CBmp[HorseKiller,20]\prf\c[4]Refugee：\c[0]    She\..\..\.. She has no breasts!
+\CBmp[MainDude,2]\prf\c[4]Refugee：\c[0]    So what?
+\CBmp[HorseKiller,20]\prf\c[4]Refugee：\c[0]    She's just a kid! We shouldn't... do that... to a kid.
+\CBct[5]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh?
+\CBmp[MainDude,8]\prf\c[4]Refugee：\c[0]    \..\..\..
+\CBmp[GuardKiller,8]\prf\c[4]Refugee：\c[0]    \..\..\..
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Um... \optD[I'm a woman,Orcs<r=HiddenOPT1>]
+
+Start/begin_13_Adult
+\CBct[5]\m[bereft]\PRF\c[6]Lona：\c[0]    I'm not a kid! I'm a grown woman!
+\CBmp[HorseKiller,8]\prf\c[4]Refugee：\c[0]    So you're a woman?
+\CBmp[MainDude,8]\prf\c[4]Refugee：\c[0]    A woman, huh?
+\CBmp[GuardKiller,20]\prf\c[4]Refugee：\c[0]    Fuck her!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What?!
+
+Start/begin_13_Orkind
+\CBct[5]\m[terror]\Rshake\c[6]Lona：\c[0]    No! There's no time for this!
+\CBmp[MainDude,8]\prf\c[4]Refugee：\c[0]    What?
+\CBct[5]\m[shocked]\Rshake\c[6]Lona：\c[0]    Orcs! There's a whole herd of orcs after me! Run for it!
+\CBmp[HorseKiller,8]\prf\c[4]Refugee：\c[0]    \..\..\..
+\CBmp[MainDude,8]\prf\c[4]Refugee：\c[0]    This is bad...
+\CBmp[GuardKiller,8]\prf\c[4]Refugee：\c[0]    What should we do?
+\CBct[5]\m[bereft]\Rshake\c[6]Lona：\c[0]    Don't just stand there! Run for it!
+

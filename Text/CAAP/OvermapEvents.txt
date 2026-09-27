@@ -1,0 +1,821 @@
+#--------------------------------------------------------------------------- MAIN
+
+Lona/Exit
+\m[confused]¿Abandonar esta zona? \optB[¡Aún no!,Salir]
+
+Lona/OutOfSta
+\m[tired]\c[6]Lona：\C[0]    Uf, estoy tan cansada...
+
+#--------------------------------------------------------------------------- WILD DANGER
+
+Lona/WildnessNapSpawn
+\cg[event_Eyes]Sonido de pasos. Alguien se acerca.
+\m[shocked]\cgoff\c[6]Lona：\C[0]    ¿Quién está ahí?
+
+Lona/WildnessNapRobber0
+\narr Le quitaron todo a Lona.
+
+Lona/WildnessNapRobber1_normal
+\m[bereft]\c[6]Lona：\C[0]    ¡No! ¡Devuélvanmelo!
+
+Lona/WildnessNapRobber1_tsun
+\m[angry]\c[6]Lona：\C[0]    ¡Hijos de puta! ¡Pagarán por esto!
+
+Lona/WildnessNapRobber1_slut
+\m[fear]\c[6]Lona：\C[0]    ¡Mis cosas! ¡Devuélvanmelas!
+
+Lona/WildnessNapRobber1_weak
+\m[sad]\c[6]Lona：\C[0]    P-Por favor, no me lastimen... Lo daré todo... Solo... Por favor...
+
+Lona/WildnessNapRobber1_overfatigue
+\m[tired]\c[6]Lona：\C[0]    .....
+
+Lona/WildnessNapRobber1_mouth_block
+\m[tired]\c[6]Lona：\C[0]    ¡Mmmff! ¡Mmmmmmfff!!
+
+#--------------------------------------------------------------------------- Capture by
+#---------------						NoerGuard
+
+Lona/CaptureByNoerGuard
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guardia：\C[0]    ¡Deja de resistirte! ¡Ni lo intentes!
+\SETpr[Mreg_pikeman]\Rshake\c[4]Guardia：\C[0]    ¡Tú, perra insignificante! ¡Me aseguraré de que pudras en la mazmorra!
+\plf\PRF\m[fear]\c[6]Lona：\C[0]    *Solloza*.....
+
+Lona/CaptureByNoerGuard_SlaveOwner
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guardia：\C[0]    ¿Esta esclava se atreve a desobedecer?
+\SETpr[Mreg_pikeman]\Rshake\c[4]Guardia：\C[0]    ¡Rápido con el amo, y prepárate para recibir tu castigo!
+\plf\PRF\m[fear]\c[6]Lona：\C[0]    *Solloza*.....
+
+#---------------						FishPPL
+
+Lona/CaptureByFishPPL_rape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardia：\C[0]    ¡Apáreate con ella...! ¡Hora... de apareamiento!!!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]Violador：\C[0]    ¡Hacerla... embarazada...!
+
+Lona/CaptureByFishPPL
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardia：\C[0]    ¡Hembra...! ¡Es una chica!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]Violador：\C[0]    ¡Fresca... Nueva... Chica!
+\plf\PRF\m[fear]\c[6]Lona：\C[0]    N-No...
+
+Lona/CaptureByFishPPL_isSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardia：\C[0]    Esta... Es esclava fugada...! ¡Malo!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]Violador：\C[0]    ¡Mala... Esclava...!!!
+
+Lona/CaptureByFishPPL_NotSlave
+\m[p5sta_damage]\plf\Rshake\c[6]Lona：\C[0]    ¡Alto! ¡Alejaos de mí!!!
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]Guardia：\C[0]    ¡Chica...! Cállate... la boca!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]Lona：\C[0]    ¡¡¡AAAYYY!!!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Lona：\C[0]    ¡¡¡OOOAAAYYY!!!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]Guardia：\C[0]    Hemos capturado... ¡Una nueva chica! ¡Nueva esclava...!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Lona：\C[0]    ¡Mmmggghh...! *Solloza* Ooohhh...
+
+#---------------						Orkind
+
+Lona/CaptureByOrkind0
+\cg[event_captured]Los monstruos arrastraron a Lona de vuelta a su guarida. Quieren que Lona sea la madre de sus crías...
+
+Lona/CaptureByOrkind1_normal
+\m[terror]\c[6]Lona：\C[0]    ¡No! ¡Dejadme! ¡No quiero tener hijos de monstruos!
+
+Lona/CaptureByOrkind1_tsun
+\m[wtf]\c[6]Lona：\C[0]    ¡Mierda! ¡Estáis locos! ¡Dejadme, rápido! ¡No me toquéis, bastardos!!!
+\m[hurt]\c[6]Lona：\C[0]    ¡¡Rrrgghh!! ¡BASTA!
+
+Lona/CaptureByOrkind1_weak
+\m[sad]\c[6]Lona：\C[0]    *Solloza* Por favor... alguien... salvadme...
+
+Lona/CaptureByOrkind1_slut
+\m[bereft]\c[6]Lona：\C[0]    No-o-o... ¡Ser madre de monstruos es demasiado!
+\m[hurt]\c[6]Lona：\C[0]    Voy a romperme en pedazos...
+
+Lona/CaptureByOrkind1_overfatigue
+\m[tired]\c[6]Lona：\C[0]    N-No...... *Llora*...
+
+Lona/CaptureByOrkind1_mouth_block
+\m[pain]\c[6]Lona：\C[0]    ¡¡Mmmff!! ¡¡MMMFFF!!!
+
+#=------------------------------------------------------
+
+Lona/CaptureByBandits0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandidos：\C[0]    ¡Eh, puta! ¡Ni siquiera intentes resistirte!
+
+Lona/CaptureByBandits1_typical
+\m[terror]\c[6]Lona：\C[0]    ¡No! ¿A dónde me lleváis?!
+
+Lona/CaptureByBandits1_tsundere
+\m[wtf]\c[6]Lona：\C[0]    ¡Sueltadme! ¡No os atreváis a tocarme!!
+
+Lona/CaptureByBandits1_gloomy
+\m[sad]\c[6]Lona：\C[0]    *Lágrimas* A-Alguien... Por favor, a-ayudadme...
+
+Lona/CaptureByBandits1_slut
+\m[bereft]\c[6]Lona：\C[0]    Oh, no... ¿Queréis venderme como esclava?
+
+#=------------------------------------------------------
+
+Lona/CaptureByGang0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Prestamista：\C[0]    ¡Hmmm! Las deudas se pagarán de una forma u otra...!
+
+Lona/CaptureByGang1_typical
+\m[terror]\c[6]Lona：\C[0]    ¡Perdón! ¡Por favor, solo necesito un poco más de tiempo!
+
+Lona/CaptureByGang1_tsundere
+\m[wtf]\c[6]Lona：\C[0]    ¡Maldición! ¡Sueltadme! ¡No me toquéis, joder!
+
+Lona/CaptureByGang1_gloomy
+\m[sad]\c[6]Lona：\C[0]    Yo... ¡Lo siento! *Solloza*... Por favor... Por favor, no me golpeéis...
+
+Lona/CaptureByGang1_slut
+\m[bereft]\c[6]Lona：\C[0]    ¡Esperad, no! ¿No hay otra forma de pagar la deuda...?
+
+Lona/CaptureByGang2
+\SETpl[MobHumanCommoner]\Lshake\C[4]Prestamista：\C[0]    ¡Llevádsela!
+
+#--------------------------------------------------------------------------- Capture Arrived
+
+Lona/Capture_arrived_normal
+\m[bereft]\c[6]Lona：\C[0]    ¡Por favor, alguien! ¡Ayuda!
+
+Lona/Capture_arrived_tsun
+\m[hurt]\c[6]Lona：\C[0]    ¡Sois unos miserables parásitos! ¡Os arrepentiréis de esto!!
+
+Lona/Capture_arrived_weak
+\m[pain]\c[6]Lona：\C[0]    Ufff... *Sorbe* P-por favor... Lo siento... No puedo... *Sorbe*
+
+Lona/Capture_arrived_slut
+\m[bereft]\c[6]Lona：\C[0]    Ayy... Moriré si esto no para...
+
+Lona/Capture_arrived_overfatigue
+\m[tired]\c[6]Lona：\C[0]    Ughhh......
+
+Lona/Capture_arrived_mouth_block
+\m[pain]\c[6]Lona：\C[0]    ¡Mmmff! ¡MMmm!!
+
+############################################### Eventos de terreno activados por Z ##############################
+############################################### Eventos de terreno activados por Z ##############################
+############################################### Eventos de terreno activados por Z ##############################
+
+World/Region1
+\cg[map_region_PlainField]Campo
+
+World/Region2
+\cg[map_Shore]Orilla
+
+World/Region3
+\cg[map_region_CreepMountain]Montaña Infectada
+
+World/Region4
+\cg[map_region_deadforest]Bosque Tropical
+
+World/Region5
+\cg[map_region_deadforest]Bosque de Pinos
+
+World/Region6
+\cg[map_region_deadforest]Bosque Muerto
+
+World/Region7
+\cg[map_region_mountain]Montaña
+
+World/Region8
+\n\cg[map_region_Swamp]Pantano
+
+World/Region9
+\cg[map_region_AbanbonedHouse]Casa Abandonada
+
+World/Region10
+\cg[map_region_slum]Barrio Marginal
+
+World/Region11
+\cg[map_region_Road]Camino
+
+World/Region12
+\cg[map_region_RoadNoerNob]Ladera de Rosendo
+
+World/Region13
+\cg[map_region_Swamp]Sendero del Pantano
+
+World/Region14
+\cg[map_region_badland]Tierra Baldía
+
+World/Region15
+\cg[map_region_Marsh]Cienaga
+
+World/Region16
+\cg[map_region_Creep]Confín Infectado
+
+World/Region17
+\cg[map_region_AbomRoad]Camino Contaminado
+
+World/Region18
+\cg[map_region_AbomTown]Ruinas de la Ciudad Infectada
+
+World/Region19
+\cg[map_region_badland]Tierras Contaminadas
+
+World/Region20
+\cg[map_human_camp]Campamento de Refugiados
+
+World/Region21
+\cg[map_region_NoerRoad]Noertown
+
+World/Region22
+\cg[map_region_NoerRoad]Calles de Noer
+
+World/Region23
+\cg[map_region_Boulevard]Camino Principal
+
+World/Region28
+\cg[map_region_Creep]Confín Infectado
+
+World/Region29
+\cg[map_DarkestDungeon]Ruinas de la Fortaleza Caída
+
+World/Region30
+\cg[map_DarkestDungeon]Ruinas de la Fortaleza Caída
+
+World/Region31
+\cg[map_SybStreet]Calles de Sibaris
+
+World/Region32
+\cg[map_SybAlley]Callejón de Sibaris
+
+############# SOLO ISLA DE PECES
+
+World/Region24
+\cg[map_region_Swamp]Sendero del Pantano
+
+World/Region25
+\n\cg[map_region_Swamp]Pantano
+
+World/Region26
+\cg[map_region_Marsh]Cienaga
+
+World/Region27
+\cg[map_Shore]Orilla
+
+############################################### options ##############################
+
+World/Region_option_start
+?
+
+World/Region_option_Cancel
+Cancelar
+
+World/Region_option_Relax
+Descansar
+
+World/Region_option_Observe
+Explorar
+
+World/Region_option_RemoveTracks
+Borrar huellas
+
+World/Region_option_Enter
+Entrar
+
+World/Region_option_Kyaaah
+¡Huej puta!
+
+World/Region_option_check_danger
+\SndLib[stepBush]Hmm, mal. Este lugar parece peligroso...
+
+World/Region_option_check_unknow
+\SndLib[stepBush]Lona no puede ver qué hay más allá.
+
+World/Region_option_check_peace
+\SndLib[stepBush]Parece que este lugar es seguro...
+
+World/Region_option_check_peaceful
+\SndLib[stepBush]Este lugar es definitivamente seguro. Puedes relajarte.
+
+World/Region_option_erase_win0
+\SndLib[sound_equip_armor]Lona intenta borrar sus huellas.
+
+World/Region_option_erase_win1
+\SndLib[sound_equip_armor]Sus huellas han sido camufladas.
+
+World/Region_option_WatchThemDead
+\cg[map_DeadPPL]Lona se esconde y observa cómo matan a personas indefensas una por una.
+\narr\..\..\..
+
+World/Region_option_erase_failed0
+Lona no sabe cómo ocultar sus huellas...
+
+World/Region_option_erase_failed1
+(Fallo) Lona no tiene suficientes habilidades para hacer esto.
+
+############################################### EVENTOS ALEATORIOS ##############################
+############################################### EVENTOS ALEATORIOS ##############################
+############################################### EVENTOS ALEATORIOS ##############################
+
+World/ThingHappen_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr ¡Algo ocurre repentinamente frente a Lona!
+
+World/ThingVS_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr Desde la distancia se escuchan sonidos de criaturas luchando entre sí...
+
+World/Ambush_begin
+\m[confused]\SND[SE/Cancel1.ogg] Lona se mueve con cuidado, pero de repente...
+
+World/RerollEvent_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr Parece que temen a algo o a alguien... Cuando de pronto-
+
+############################################### EVENTOS ACTIVOS ##############################
+############################################### EVENTOS ACTIVOS ##############################
+############################################### EVENTOS ACTIVOS ##############################
+############################################### EVENTOS ACTIVOS ##############################
+############################################### EVENTOS ACTIVOS ##############################
+############################################### EVENTOS ACTIVOS ##############################
+
+World/ThingHappen_who_unknow_HumanGuard
+\cg[map_guards]¡Una patrulla de Noer!
+
+World/ThingHappen_who_unknow_Vs_Refugee_Orkind
+\cg[map_VS]¡Una banda de monstruos orcoides persigue a un grupo de refugiados?!
+
+World/ThingHappen_who_unknow_PPLsos
+\m[confused]\cg[map_sos]Parece que realmente necesitan ayuda...
+
+World/ThingHappen_who_unknow_PPLsosHynger
+\cg[map_sos_hunger]¡Alguien parece estar pidiendo ayuda desesperadamente!
+
+World/ThingHappen_who_unknow_UnknowCamp
+\cg[map_human_camp]Parece un campamento abandonado...
+
+World/ThingHappen_who_unknow_AbandonedCropses
+\cg[map_DeadPPL]La vista de un montón de cadáveres podridos y apestosos hace que Lona huya... Pero, ¿quizás los muertos guardan algo de valor?
+
+World/ThingHappen_who_unknow_AbandonedResources
+\cg[map_AbandonedResources]Parecen suministros abandonados. ¿Quizás hay objetos útiles aquí?
+
+World/ThingHappen_who_bad_AbomManager
+\m[shocked]\cg[map_AbominationGroup]¡Figuras repulsivas de carne grotesca se mueven hacia Lona!
+
+World/ThingHappen_who_bad_AbomSpider
+\m[shocked]\cg[map_AbominationSpider]Un enjambre de arácnidos y telarañas por todas partes... ¡Pronto aparecen hordas de insectos espeluznantes y reptantes alrededor de Lona!
+
+World/ThingHappen_who_bad_WolfGroup
+\cg[map_WolfGroup]¡Una manada de lobos acecha a Lona!
+
+World/ThingHappen_who_bad_GobRaider
+\cg[map_GobRaider]¡Orcoides jinetes alcanzan a Lona!
+
+World/ThingHappen_who_bad_OrkindCamp
+\cg[map_monster_camp]¡Una banda de orcoides rastrea a Lona!
+
+World/ThingHappen_who_bad_OrkindPlayGround
+\cg[map_OrcHappy]¡Lona acaba de tropezar con el horrible y sangriento patio de juegos de los orcoides!
+
+World/ThingHappen_who_bad_RougeWave
+\cg[map_RogueWaves]\m[shocked]\Rshake ¡Alto! ¡Olas rojas al frente! ¡Peligrosas olas marinas se abalanzan sobre Lona con un rugido!
+
+World/ThingHappen_who_bad_AbomBreedlingTrap
+\cg[map_TrapHole]\SndLib[BreedlingSpot]¡Es una trampa! ¡Lona cayó en un hoyo!
+
+World/ThingHappen_who_bad_AbomBreedlingRaid
+\cg[map_AbomBreedlingRaid]\SndLib[BreedlingSpot]¡Demonios de carne! ¡Un enjambre de abominaciones inseminadoras se arrastra hacia Lona!
+
+World/ThingHappen_who_bad_FishkindGroup
+\cg[map_FishkindGroup]¡Una bandada de Profundos se acerca a Lona!
+
+World/ThingHappen_who_bad_UndeadWalking
+\cg[map_undead_group]¡Una horda de no muertos emerge de las sombras!
+
+World/ThingHappen_who_bad_BanditMobs
+\cg[map_bandits]¡Unos sinvergüenzas tendieron una emboscada a Lona! ¡Son bandidos!
+
+World/ThingHappen_who_bad_FishPPL
+\cg[map_FishPPL]\SndLib[FishkindSmSpot]¡Un escuadrón de guardias Hombres Pez se acerca a Lona!
+
+World/ThingHappen_who_bad_GangDebtCollet
+\cg[map_IRS]¡Son cobradores de deudas! ¡Parecen furiosos!
+
+World/ThingHappen_who_bad_BanditsCiv
+\cg[map_bandits_farmer]¿Es una protesta? ¿Un robo? Sea lo que sea, la situación no es buena...
+
+World/ThingHappen_who_good_Merchant
+\cg[map_merchant]¡Un mercader nómada aparece en el camino!
+
+World/ThingHappen_who_good_NoerMissionary
+\cg[map_missionary]¡Un predicador! ¡Es un predicador!
+\c[4]Predicador：\C[0]    ¡El fin está cerca! ¡Que los inocentes se conviertan en seguidores de los Santos! ¡Es la última oportunidad antes del fin!
+\c[4]Predicador：\C[0]    ¡Es vuestra última oportunidad antes del final de todo! ¡Arrepentíos de vuestros pecados y CREED!!!
+
+World/ThingHappen_who_Good_NoerHomeless
+\cg[map_homeless]¡Se acerca un gran número de refugiados!
+\c[4]Refugiados：\C[0]    Te lo suplico... Por favor... Ten piedad...
+
+World/ThingHappen_who_Good_NoerHomeless_SneakFailed
+\narr Los refugiados comienzan a rodear a Lona.
+\narrOFF\c[4]Refugiados：\C[0]    Señorita... Ayuda... Por favoooor...
+\m[confused]\c[6]Lona：\C[0]    Ooh...
+
+World/ThingHappen_who_Bad_RoadHalp
+\cg[map_Halp]¡Parece que alguien está siendo atacado allí!
+
+World/ThingHappen_who_Bad_RoadHalp_SneakFailed
+\narr Ahora se dirigen hacia Lona.
+\narrOFF\c[4]Refugiado：\C[0]   ¡AYUDA! ¡POR FAVOR! ¡AYUDA!
+\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué? ¡Espera! ¿Qué pasa?
+
+World/ThingHappen_who_good_RefugeeCamp
+\cg[map_human_camp]¡Lona tropieza con un campamento de refugiados!
+
+World/ThingHappen_who_bad_FishPPL_SneakFailed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardia：\C[0]    Chica...! Agarrar... a chica...! Chica... escapa...!
+\SndLib[FishkindSmSpot]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡Ah?! ¡E-Esperad!
+
+################################################ COMPROBACIÓN DE SIGILO ##################################
+
+World/ThingHappen_SneakWin
+No notaron a Lona.
+
+World/ThingHappen_SneakFailed
+¡Descubrieron a Lona!
+
+World/ThingHappen_SneakTrueDeepone
+\narr Los perseguidores de Lona rastrean el olor afrodisíaco que emana de su cuerpo.
+
+World/Check_NoEnemy_SneakWin
+\narr\..\..\..
+Nada sospechoso por ahora, debería ser seguro.
+
+World/Check_Enemy_SneakWin
+\narr\..\..\..
+Algo no está bien... Definitivamente es peligroso...
+
+World/Check_SneakFailed
+\narr\..\..\..
+Lona no puede ver si todo está en orden.
+
+World/Check_Hide
+\narr\..\..\..\SndLib[sys_StepChangeMap]
+Lona se escondió en un rincón oscuro.\n Pronto perdieron su rastro...
+
+################################################ DECISIONES DE LONA ##################################
+
+Lona/Options
+?
+
+Lona/Options_Escape
+Escapar
+
+Lona/Options_Observe
+Observar
+
+Lona/Options_Talk
+Hablar
+
+Lona/Options_Approach
+Acercarse
+
+Lona/Options_Kyaaah
+¡Huej Puta!
+
+Lona/Options_Bomb
+Explotar
+
+Lona/Options_Hide
+Esconderse
+
+Lona/Options_Leave
+Irse
+
+Lona/Options_Intimidate
+Intimidar
+
+Lona/Options_Bluff
+Mentir
+
+Lona/Options_Cocona
+¡Llamar a amigos!
+
+Lona/Options_Struggle
+Forcejear
+
+Lona/Options_GetHelp
+Pedir ayuda
+
+##################################### Options_Struggle ##############################################
+Lona/Options_StruggleLoop
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit] ¡No es suficiente! Lona necesita forcejear más fuerte...
+
+Lona/Options_StruggleWin
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit] ¡Lona logró liberarse! ¡Hora de salir de aquí!
+
+#####################################ESCAPE##############################################
+
+Lona/Options_sneakpass_RunningWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]Lona logró escapar. Los perseguidores no pudieron atraparla.
+
+Lona/Options_sneakpass_RunningFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]Lona intenta escapar... Pero en vano.
+
+Lona/Options_sneakpass_SneakWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]Lona desapareció en las sombras, los perseguidores no pudieron encontrarla.
+
+Lona/Options_sneakpass_SneakFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]Los perseguidores rastrearon dónde se escondió Lona, siguiendo sus huellas...
+
+Lona/Options_sneakpass_JustLeave
+\SND[SE/sneak_in.ogg]\narr\m[normal]Lona decide simplemente irse.
+
+Lona/Options_FollowerHelp
+\cg[map_FollowerHelp]\m[p5sta_damage]El compañero de Lona la ayudó a liberarse...
+
+####################################OBSERVAR##############################################
+####################################OBSERVAR##############################################
+####################################OBSERVAR##############################################
+
+World/ThingHappen_who_unknow_HumanGuard_ChkGood
+\m[confused]¡La patrulla de Noer sigue en el camino!
+
+World/ThingHappen_who_unknow_PPLsos_ChkGood
+\m[confused]\cg[map_sos]Parece que realmente necesitan ayuda.
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkGood
+\m[confused]\cg[map_guards]No parecen hostiles.
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkBad
+\m[shocked]Todavía podrían estar buscando a Lona, mejor no provocarlos...
+
+World/ThingHappen_who_unknow_Guards_ChkBad_SlaveOwner
+\m[shocked]Lona es una esclava fugada, debe evitar llamar la atención de cualquier guardia.
+
+World/ThingHappen_who_unknow_PPLsos_ChkBad
+\m[confused]\cg[map_bandits]Estas personas parecen muy sospechosas...
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkBad
+\m[confused]\cg[map_bandits_farmer]Esas personas en el camino definitivamente no son amigables...
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckWin
+\m[flirty]¡Lona engañó a la guardia! Ahora creen que todo fue un malentendido.
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckLose
+\m[shocked]\Rshake Lona intenta engañar a la guardia con todas sus fuerzas, pero no le creyeron...
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkUnknow
+\narr\m[confused]Lona no puede ver qué planea hacer la guardia.
+
+World/ThingHappen_who_unknow_PPLsos_ChkUnknow
+\narr\m[confused]Lona no puede ver qué intentan hacer esas personas.
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkUnknow
+\narr\m[confused]Lona no puede ver qué está pasando en el campamento.
+
+World/ThingHappen_who_unknow_NoerMissionary_CheckWin
+\c[4]Predicador：\C[0]    ¡A todos los paganos! ¡Converteos en seguidores de los Santos! ¡La fe en el Santo os salvará y os limpiará de mentiras y pecado!
+\m[confused]Parece que nada sospechoso...
+
+World/ThingHappen_who_unknow_NoerHomeless_CheckWin
+\m[confused]No parecen sospechosos, aunque huelen mal...
+
+World/ThingHappen_who_bad_AbomSpider_CheckWin
+\narr\..\..\..
+Lona encontró una salida.
+¡Lona escapó!
+
+############################################### INTENTAR COMUNICARSE ##############################
+############################################### INTENTAR COMUNICARSE ##############################
+############################################### INTENTAR COMUNICARSE ##############################
+
+Lona/Options_Talk_begin
+\narr\..\..\..
+Lona intentó negociar con los desconocidos frente a ella.
+
+Lona/Options_Intimidate_begin
+\narr\..\..\..
+Lona puso una mueca aterradora y gruñó, intentando asustar a los enemigos.
+
+Lona/Options_Intimidate_begin2_typical
+\m[overkill]\Rshake\c[6]Lona：\C[0]    ¡R-Rrrr...!
+
+Lona/Options_Intimidate_begin2_tsundere
+\m[overkill]\Rshake\c[6]Lona：\C[0]    ¡LARGAOS TODOS DE MI CAMINO, JODER...!
+
+Lona/Options_Intimidate_begin2_gloomy
+\m[bereft]\Rshake\c[6]Lona：\C[0]    Emm... R-Rrrr... Miau.......?
+
+Lona/Options_Intimidate_begin2_slut
+\m[overkill]\Rshake\c[6]Lona：\C[0]   ¡No te acerques! O te follaré...\..\.. ¡Literalmente!
+
+##############################
+
+World/ThingHappen_who_unknow_HumanGuard_ComGood
+\m[normal]Le dicen a Lona que no es seguro aquí. Le aconsejan que se vaya pronto.
+
+World/ThingHappen_who_unknow_PPLsos_ComGood
+\m[sad]\cg[map_sos]Le contaron a Lona algunas historias trágicas, esperando que pueda ayudarles.
+
+World/ThingHappen_who_bad_AbomManager_ComGood
+\cgoff\m[flirty]¡La bomba de Lona aturdió a los monstruos! ¡Las criaturas huyeron aterrorizadas!
+
+World/ThingHappen_who_bad_WolfGroup_ComGood
+\m[flirty]Olieron a Lona y pronto perdieron interés en ella.
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComGood
+\m[flirty]Los animales temen acercarse, ya que Lona no está sola.
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComNonWeak
+\m[irritated]\Rshake Los animales entienden que Lona no es una presa fácil. Comenzaron a temer su presencia y retrocedieron.
+
+World/ThingHappen_who_bad_OrkindCamp_ComGood
+\m[flirty]Cayeron fácilmente en el engaño y pensaron que Lona era una de ellos.
+
+World/ThingHappen_who_bad_FishkindGroup_ComGood
+\m[flirty]Por alguna razón desconocida, perdieron interés en Lona...
+
+World/ThingHappen_who_bad_UndeadWalking_ComBad
+\m[shocked]\Rshake No entienden lo que dice Lona, pero les interesó saber el sabor de sus cerebros.
+
+World/ThingHappen_who_bad_Bandits_ComGood
+\m[sad]\cg[map_sos]Discuten sus vidas difíciles y esperan que no sea el castigo por sus acciones pasadas.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComGood
+\m[sad]\cg[map_sos]Lona les ruega que le den más tiempo.
+\m[sad]\cg[map_FollowerHelp]Aceptaron... Por ahora...
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_1
+\m[fear]\cg[map_scroll]Revisaron las cosas que Lona les entregó.\..\..\..
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_pass
+\m[flirty]\cg[map_IRS]Dijeron que Lona hizo un buen trabajo y esperan cooperar así la próxima vez.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_Failed
+\Rshake\m[terror]\cg[map_IRS]¡Dijeron que no es suficiente!
+
+World/ThingHappen_who_bad_BanditsCiv_ComGood
+\m[sad]\cg[map_sos_hunger]Charlaron sobre sus dificultades y mencionaron que intentan ayudar a sus familias hambrientas.
+
+World/ThingHappen_who_good_Merchant_ComGood
+\m[flirty]\cg[map_merchant]El mercader lanzó una mirada confusa a Lona, parece que no le interesa.
+
+World/ThingHappen_who_unknow_UnknowCamp_ComGood
+\m[normal]\cg[map_guards]La guardia advirtió a Lona que no es seguro aquí. Le aconsejaron que se fuera pronto.
+
+World/ThingHappen_who_good_NoerMissionary_ComGood
+\c[4]Predicador：\C[0]    ¡Síbares cayó por vuestra mentira y pecado! ¡Paganos! ¡Debéis creer en los Santos!
+\c[4]Predicador：\C[0]    ¡Llegará a nuestro mundo como mortal! ¡Renacerá para salvarnos a todos!
+\m[confused]......
+
+World/ThingHappen_who_bad_FishPPL_NotSlave
+\narr\m[flirty]Lona les explicó que nunca fue esclava y la dejaron en paz.
+
+World/ThingHappen_who_bad_FishPPL_ComGood
+\narr\SndLib[FishkindSmSpot]Dejaron de perseguir a Lona al notar que era una de ellos.
+\narr\SndLib[FishkindSmSpot]Creían que era una hembra de uno de sus hermanos.
+\m[flirty]\c[6]Lona：\C[0]    Emmm...
+
+World/ThingHappen_who_bad_FishPPL_BluffGood
+\narr\SndLib[FishkindSmSpot]Dejaron de perseguir a Lona, pensando que se equivocaron.
+\narr\SndLib[FishkindSmSpot]Con un vistazo rápido, decidieron que Lona era un hombre y perdieron interés.
+\narrOFF\m[flirty]\c[6]Lona：\C[0]    ...¿Qué fue eso......?
+
+#####################################################################
+
+World/ThingHappen_who_unknow_HumanGuard_ComBad
+\narr ¡La guardia pensó que Lona era una criminal y comenzó a acercarse!
+\narr ¡Rodearon a Lona!
+
+World/ThingHappen_who_unknow_PPLsos_ComBad
+\cg[map_bandits_farmer]Exigen que Lona les entregue todas sus pertenencias y les sirva con su cuerpo.
+\m[wtf]\c[6]Lona：\C[0]    ¡No!... ¡Dejadme en paz!
+
+World/ThingHappen_who_unknow_PPLsos_ComLowMorality
+\cg[map_bandits_farmer]Agarraron sus armas, listos para usarlas. Decidieron que Lona era el mal...
+
+World/ThingHappen_who_bad_AbomManger_ComBad
+\m[terror]\Rshake\narr Un hedor a carne podrida rodea a Lona... ¡Parece que estas Criaturas quieren usar su cuerpo para reproducirse!
+
+World/ThingHappen_who_bad_WolfGroup_ComBad
+\m[terror]\Rshake\narr ¡Olieron a Lona y les gustó! ¡Comenzaron a rodearla gruñendo!
+
+World/ThingHappen_who_bad_OrkindCamp_ComBad
+\c[6]Orcoide：\C[0]    \cg[event_OrkindGonnaRape]¡Agujero! ¡Quiero un agujero de carne!!!
+\narr\m[fear]Baba gotea de sus bocas mientras rodean a Lona.
+\narr Parece que quieren usar a Lona como un retrete de carne...
+
+World/ThingHappen_who_bad_FishkindGroup_ComBad
+\c[6]Profundo：\C[0]    \cg[event_FishkindGonnaRape]¡Muurr! ¡Muurrurr!
+\narr\m[fear]Rodean a Lona, en el aire se siente un hedor a pescado podrido.
+\narr Parece que quieren hacerla madre de su progenie...
+
+World/ThingHappen_who_bad_BanditMobs_ComBad
+\m[wtf]\cg[map_bandits]\c[6]Lona：\C[0]    No... ¡No os acerquéis a mí!
+\narr Exigen que Lona entregue todas sus pertenencias.
+
+World/ThingHappen_who_bad_GangDebtCollet_ComBad
+\m[wtf]\cg[map_IRS]\c[6]Lona：\C[0]    ¡Perdonadme! ¡Por favor! No quise-..!
+\narr Deciden tomar todas las pertenencias de Lona como pago de la deuda.
+
+World/ThingHappen_who_bad_BanditsCiv_ComBad
+\cg[map_bandits_farmer]Los bandidos quieren quitarle todas sus pertenencias a Lona y que les sirva con su cuerpo.
+\m[wtf]\c[6]Lona：\C[0]    ¡No!... ¡Dejadme en paz!
+
+World/ThingHappen_who_good_Merchant_ComBad
+\m[flirty]\cg[map_merchant]El mercader lanzó una mirada confusa a Lona, parece que no le interesa.
+
+World/ThingHappen_who_unknow_UnknowCamp_ComBad
+\m[wtf]\cg[map_bandits]\c[6]Lona：\C[0]    No... ¡No os acerquéis a mí!
+\narr Desconocidos quieren quitarle todas sus pertenencias a Lona y que les sirva con su cuerpo.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad1
+\m[normal]\cg[map_bandits_farmer]Exigen que Lona les dé 
+
+World/ThingHappen_who_bad_CommonMobs_ComBad2
+ Puntos de Intercambio, o amenazan con mutilarla.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_win
+\narr Están satisfechos con lo recibido.
+\narr Riendo con suficiencia, se van.
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_failed
+Están decepcionados por la falta de cooperación de Lona.
+\m[wtf]\cg[map_bandits]\c[6]Lona：\C[0]    ¡Alto! ¡No os acerquéis a mí!
+\narr Exigen que Lona entregue todas sus pertenencias ahora mismo.
+
+####################################RESBALÓN##############################################
+
+Lona/OvermapSlip
+\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¡¡KYAAAHHH!!!
+\narr\m[hurt]\Rshake Lona "accidentalmente" cae al suelo. Criaturas desconocidas escuchan su grito...
+
+Lona/OvermapSlipDrowning
+\SndLib[sound_Bubble]\m[p5health_damage]\Rshake\c[6]Lona：\C[0]    ¡¡MMMNNNF! *GLUP*! GGGRRRH! Glug...
+\SndLib[sound_Bubble]\narr\m[p5health_damage]\Rshake Lona se ahoga lentamente, las olas una tras otra la sumergen bajo el agua, y la marea arrastra su frágil cuerpo femenino en una dirección desconocida...
+
+##################################### GUARDIA DE LA PUERTA DE NOER #############################################
+
+GateGuard/begin1
+\SETpl[Mreg_pikeman]\prf\cg[map_NoerGate]Puerta de Noer \optB[Cancelar,Entrar,Colarse<r=HiddenOPT1>]
+
+GateGuard/enter_no_passport
+\prf\c[4]Guardia：\C[0]    Tenemos órdenes de no dejar entrar a nadie sin documentos.
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    Vale...
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]Guardia：\C[0]    ¿Eh? ¡Eh, tú! ¡ALTO!
+\Lshake\c[4]Guardia：\C[0]    ¡Tu cara me es familiar! ¡¡ATRAPADLA!
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\C[0]    ¡Oh, mierda!
+
+GateGuard/enter_sneak
+\plf\prf\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]Lona：\C[0]    Uf... Lo logré...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]Guardia：\C[0]    ¿Eh? ¡Eh, tú! ¡ALTO!
+\Lshake\c[4]Guardia：\C[0]     ¿A dónde te arrastras? ¡¡ATRAPADLA!
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\C[0]    ¡Mierda!
+
+NobleGateGuard/NapCapture
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Cómo llegó esta mendiga aquí?
+\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Guardia：\C[0]    ¡Atrapadla!
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿Qué pasa?
+
+################################################################# ÁREA DE GUIÓN #################################################################
+################################################################# ÁREA DE GUIÓN #################################################################
+################################################################# ÁREA DE GUIÓN #################################################################
+################################################################# ÁREA DE GUIÓN #################################################################
+################################################################# ÁREA DE GUIÓN #################################################################
+
+NoerTavern/FristTimeNotice0
+\ph\board[Mapa del Mundo]
+El Mapa del Mundo usa un sistema por turnos.
+Cada paso realizado Gasta Reserva de Fuerza.
+Cuando el tiempo se acabe, Lona se dormirá.
+Cuando Lona se quede sin Reserva de Fuerza, tendrá que entrar en la zona donde esté para descansar.
+
+NoerTavern/FristTimeNotice1
+\board[Controles del Mapa del Mundo]
+\C[2]CTRL  ：\C[0] Saltar turno avanzará el tiempo, pero no gastará Fuerza.
+\C[2]SHIFT ：\C[0] Mantener Shift mientras te mueves por el mapa hará que Lona corra. Correr gasta menos tiempo, pero más Fuerza.
+\C[2]Entrar：\C[0] Entrar en la ubicación.
+\C[2]¡Caer!：\C[0] El indicador de Reserva de Fuerza se pondrá en -99 y quedarás inconsciente en el suelo.
+
+NoerTavern/FristTimeNotice2
+\board[Encuentro]
+\C[2]Escapar：\C[0] Huir.
+\C[2]Observar：\C[0] Mirar alrededor.
+\C[2]Hablar：\C[0] Iniciar diálogo.
+\C[2]Acercarse：\C[0] Entrar en la ubicación.
+
+NoerTavern/FristTimeNotice3
+\SND[SE/Book1]\bg[bg_TutorialWorldDifficulty]\C[2]Peligro del entorno\C[0] Aumenta con el tiempo.
+La probabilidad y fuerza de los enemigos depende de este valor.
+\SND[SE/Book1]\bg[bg_TutorialTime]\C[2]Tiempo：\C[0] Cuando llegue a 100, Lona se verá obligada a dormir.
+\SND[SE/Book1]\bg[bg_TutorialCarrying]\C[2]Peso：\C[0] Cuando la capacidad de carga de Lona llegue a 0, su Reserva de Fuerza disminuirá con el tiempo. Moverse por el mapa del mundo gastará aún más Fuerza.
+
+NoerTavern/FristTimeNotice4
+\{Ubicación.
+\bgoff\CamMP[NoerTavern]El Barril Ardiente.
+La taberna más famosa de Noer.
+También se sabe que es la oficina comercial del Gremio de Mercenarios.
+Aquí se puede comer, dormir, encontrar trabajo, etc.
+\CamMP[NoerDock]Puerto de Noer \BonMP[NoerDock,19]
+Corren rumores de que los barcos aún transportan refugiados.
+Pero los precios son exorbitantes, una persona común no puede pagarlo...
+\CamCT Pero primero ve a la taberna e informa de la presencia de monstruos al Gremio.

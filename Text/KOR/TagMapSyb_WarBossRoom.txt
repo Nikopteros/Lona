@@ -1,0 +1,243 @@
+thisMap/OvermapEnter
+\m[confused]함락된 요새\optB[그만둔다,들어간다]
+
+
+############################## Story mode enter boss room
+############################## Story mode enter boss room
+EnterBossRoom/1_smell
+\CBct[6]\m[pain]\plf\Rshake\c[6]로나：\c[0] 으으… 여기 냄새, 하수도보다 더 끔찍해…
+
+EnterBossRoom/2_sawGobRunning
+\CBct[8]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?! 방금 무슨 일이 일어난 거야?!
+
+EnterBossRoom/3_sawWarBoss_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]로나：\c[0] 히이이이이익!!!
+
+EnterBossRoom/3_sawWarBoss_tsundere
+\CBct[5]\m[normal]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[5]\m[angry]\plf\Rshake\c[6]로나：\c[0] 흥! 넌 날 절대 이길 수 없어… 왜냐면 내가 너보다 빠르니까!
+
+EnterBossRoom/3_sawWarBoss_gloomy
+\CBct[5]\m[wtf]\plf\Rshake\c[6]로나：\c[0] 뭐… 뭐야?! 오지 마!
+
+EnterBossRoom/3_sawWarBoss_slut
+\CBct[8]\m[angry]\plf\Rshake\c[6]로나：\c[0] 네가 아무리 나무토막만큼 크다 해도, 난 절대 지지 않아!
+
+EnterBossRoom/3_sawWarBoss_again_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]로나：\c[0] 나\..\..\.. 나, 난 네가 전혀 두렵지 않아!
+
+EnterBossRoom/3_sawWarBoss_again_tsundere
+\CBct[5]\m[fear]\plf\PRF\c[6]로나：\c[0] 나… 다시는 너한테 지지 않을 거야!
+\CBct[20]\m[irritated]\plf\Rshake\c[6]로나：\c[0] \{안 져!
+
+EnterBossRoom/3_sawWarBoss_again_gloomy
+\CBct[8]\m[fear]\plf\Rshake\c[6]로나：\c[0] 제\..\..\.. 제발 죽이지 마! 나… 얌전히 있을게!
+
+EnterBossRoom/3_sawWarBoss_again_slut
+\CBct[8]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 잠깐만\..\..\..! 원한다면 뭐든 할게! 제발 죽이지만 말아줘!
+
+############################## ArmoredSet Cropse
+
+ArmoredSetCropse/0
+\narr 어린아이의 시신이다. 그의 몸은 끔찍하게 훼손되어 있었다……
+
+############################################################ OrkindSlayer
+
+EnterBossRoom/OrkindSlayer_Begin1
+\CBfF[8]\SETpl[OrkindSlayer]\Lshake\c[4]오크 슬레이어：\c[0] 잠깐…
+
+EnterBossRoom/OrkindSlayer_Begin2
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 응…?
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]오크 슬레이어：\c[0] 짐승 같은 냄새가 풍긴다…
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]오크 슬레이어：\c[0] 네 오줌이 필요해…
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐… 뭐라고?!
+
+EnterBossRoom/OrkindSlayer_justEnter0
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] ....
+
+EnterBossRoom/OrkindSlayer_Give0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 알았어\..\..\.. 하지만, 이상한 데 쓰진 않을 거지?
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]오크 슬레이어：\c[0] 그럴 리 없어…
+
+EnterBossRoom/OrkindSlayer_Give1
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\c[4]오크 슬레이어：\c[0] 됐다…
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 으으…
+
+EnterBossRoom/OrkindSlayer_Give0_failed
+\CBct[6]\m[confused]\plf\PRF\c[6]로나：\c[0] 그으\..\..\..\m[flirty]미안, 지금은 줄 수 있는 오줌이 없네…
+
+EnterBossRoom/OrkindSlayer_OPT_justEnter
+요청을 무시한다
+
+EnterBossRoom/OrkindSlayer_OPT_Give
+그에게 준다
+
+############################## Win
+
+Win/StaWin0
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 나… 내가 이긴 거야?!
+
+Win/StaWin1
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 또야?!
+\CBct[8]\m[shocked]\PRF\c[6]로나：\c[0] \..\..\..\CBct[20]\m[angry]\Rshake 난 절대 안 무서워!
+
+Win/StaWin2
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 에… 설마 또야?
+
+Win/Qmsg_BossRaped0
+놈들은 엄청 집중하고 있다…
+
+Win/Qmsg_BossRaped1
+놈들은 자기 힘이 더 세다는 걸 증명하려 애쓰고 있다…
+
+Win/Qmsg_BossRaped2
+놈들은 로나 따윈 완전히 무시했다…
+
+################################################################################ STORYMODE RAPELOOP
+
+Warboss/rapeloop_begin1
+\CBct[6]\m[tired]\Rshake\c[6]로나：\c[0] 나… 더는 움직일 수가 없어…
+
+Warboss/rapeloop_begin2
+\CBmp[20]\SndLib[sound_OgreSpot]\SETpl[OgreWarboss_BoneShield]\Lshake\.\.\.\CBct[6]\m[fear]\plf\Rshake\c[6]로나：\c[0] 으… 안 돼… 오지 마…
+
+Warboss/rapeloop_begin3
+\CBct[6]\m[p5shame]\Rshake\c[6]로나：\c[0] 안… 돼…
+
+Warboss/rapeloop_begin4
+\CBct[6]\m[bereft]\Rshake\c[6]로나：\c[0] \{으… 으아아아아!!!
+
+Warboss/rapeloop_begin5
+\CBmp[4]\SndLib[sound_OgreQuestion]\SETpl[OgreWarboss_BoneShield]\Lshake\prf\..\..\..
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] ....
+
+Warboss/rapeloop_begin6
+\narr이 고기 인형 장난감으로 쓸 자격이 있는지, 아니면 그냥 먹잇감일 뿐인지 확인하기 위해… 놈은 오줌에 젖은 보지를 맛보았다…
+
+Warboss/rapeloop_begin7
+\narr놈은 고기 인형에서 풍기는 향기에 크게 만족했지만, 보지의 조임새에는 불만을 감추지 못했다…
+
+Warboss/rapeloop_begin8
+\narr피와 오줌의 냄새, 그리고 육체의 절망 섞인 울음소리에 자지는 견딜 수 없을 만큼 단단해졌다. 결국 놈은 그 고기 인형를 범하기로 결심했다…
+
+Warboss/rapeloop_begin9
+\narr놈은 보지의 감각에는 상당히 만족했으나, 이번엔 항문은 어떨지 시험해 보려 했다…
+
+Warboss/rapeloop_begin10
+\narr항문 역시 충분히 쾌감을 주었지만, 놈은 결국 보지 쪽이 더 가치 있다고 여겼다…
+
+Warboss/rapeloop_begin11
+\narr고기 인형의 비명이 멎었지만, 놈의 침범은 여전히 계속되었다…
+
+Warboss/rapeloop_begin12
+\narr놈은 끝없는 침범 속에서도 이 고기 인형가 아직 살아있다는 사실에 흡족해했다.
+고급스러운 사냥감을 손에 넣은 것에 크게 만족한 놈은, 이 고기 인형 훗날 반드시 수많은 장난감을 낳아줄 것이라 확신했다…
+\narr놈은 결국 그 고기 인형를 자신의 자지 집처럼 삼아, 언제 어디서든 침범할 수 있도록 하기로 했다…
+
+Warboss/rapeloop_nap1
+\narr고기 인형는 결국 의식을 잃었지만, 그것조차도 놈이 멈출 이유가 되지는 않았다…
+
+Warboss/rapeloop_nap2
+\narr\..\..\..
+
+################################################################################ STORYMODE RAPELOOP - with minions
+
+Warboss/rapeloop_OPT_beat
+자신의 체격을 과시한다
+
+Warboss/rapeloop_OPT_rape
+내가 더 강하다는 걸 증명한다
+
+Warboss/rapeloop_OPT_Impale
+육체를 생육의 어머니에게 바친다
+
+Warboss/rapeloop_OPT_Feed
+먹인다
+
+LeftFucker/begin1
+\ph\narr이 형제는 지금 네가 내려준 고기 인형을 마음껏 즐기고 있다.
+
+ShakingToilet/begin1
+\ph\narr이 고기 인형은 이제 한계에 다다랐다. 이번이 그녀의 마지막 출산이 될 것이다…
+\ph\narr새로운 형제를 낳아내면, 그때는 먹이로 쓸 수 있다.
+
+MeatToiletF/begin1
+\ph\narr이 고기 인형은, 그 끔찍한 흉물들보다 훨씬 쓰기 편하다…
+\ph\narr사용할 때도 질질 발버둥치지 않아, 즐겁고 먹기도 좋다. 게다가 새끼도 많이, 그리고 빨리 낳는다…
+\ph\narr하지만 요즘은 이런 고기 인형을 잡는 게 점점 힘들어지고 있다. 그래서 너는 몹시 불쾌하다.
+
+MeatSeedbed/begin1
+\ph\narr이것은 형제가 너에게 선물한 모판이다. 그는 생육의 어머니의 축복을 받아 수많은 고기 인형과 인체 변기를 융합해 만들었다…
+\ph\narr충분한 먹이만 있다면, 모판은 매일 새로운 형제를 낳아낼 수 있다…
+\ph\narr하지만 너는 코웃음을 쳤다. 어차피 육체란, 발버둥치며 버틸 때 써야 제대로 즐길 수 있는 법인데…
+\ph\narr하아… 왜 그 축복을 받은 게 네가 아닌가? 그 생각만으로도 몹시 불쾌하다…
+
+TellerPillar/begin1
+\ph\narr생육의 어머니를 상징하는 토템 기둥…
+\ph\narr왜 생육의 어머니는 형제들을 이 세상으로 불러낸 것일까?
+\ph\narr틀림없이 이 모든 고기 인형들을 정복하라는 뜻일 것이다…
+
+Abom/begin1
+\ph\narr흉물, 그것들은 적이자, 먹잇감이자, 번식 도구였다.
+\ph\narr하지만 지금은 단지 너와 형제들이 땅을 두고 다투는 경쟁자에 불과하다. 어차피 양쪽 모두 육체가 훨씬 더 좋고, 더 즐겁다고 생각하기 때문이다.
+\ph\narr하지만 걱정할 건 없다. 저것들을 봐라. 결국 승리하는 쪽은 반드시 형제들이 될 것이다.
+\ph\narr형제들은 더 강하고, 더 영리하니까.
+
+Heads/begin1
+\ph\narr고기 인형의 머리통… 머리는 맛이 없다.
+\ph\narr하지만 잘라낸 머리통은, 형제들이 얼마나 강한지 증명해 준다.
+
+MeatToiletM/begin1
+\ph\narr이 사악한 고기 인형는 수많은 형제들을 잔혹하게 죽여왔다. 게다가 이런 고기 인형는 형제를 낳을 수도 없다.
+\ph\narr그러니 형제들이 다 가지고 논 뒤에는, 삶아 먹어 치우면 된다.
+
+Corpses/begin1
+\ph\narr생육의 어머니께 바치는 제단. 신선한 고기 인형를 정액으로 흠뻑 뒤덮고,
+\ph\narr이어 가장 고통스러운 방식으로 그 고기 인형들을 죽인다.
+\ph\narr그 비명소리를 들으면, 생육의 어머니는 분명히 크게 기뻐하실 것이다…
+
+EmptyImpalement/begin1
+\ph\narr이 나무말뚝은 비어 있어서, 네가 생육의 어머니께 바치는 신앙심을 보여줄 수 없다. 그 사실이 너를 몹시 불쾌하게 만든다.
+
+ManImpalement/begin1
+\ph\narr형제를 낳을 수 없는 고기 인형…
+\ph\narr그것을 쓰는 가장 좋은 방법은, 그 몸을 생육의 어머니께 제물로 바치는 것이다…
+
+##########################
+
+Butcher/begin1
+네 고기 인형에게 먹이를 줄 건가?
+
+prayer/begin1
+\ph\narr신앙심 깊은 형제여…
+\ph\narr그런데도 비어 있는 말뚝이 남아 있다. 이는 곧 고기 인형의 시체가 모자란다는 뜻이다. 그 사실에 이 형제는 몹시도 슬퍼했다.
+
+cooker/begin1
+\ph\narr이 충직한 형제는 동족들을 위해 열심히 음식을 준비하고 있다.
+\ph\narr그는 누가 진정한 우두머리인지 잘 알고 있지만, 네 눈에는 아직 신앙심이 부족해 보인다…
+
+OrcKid/begin1
+\ph\narr한 어린 오크. 그 어떤 형제보다도 강하고, 영리하다.
+\ph\narr그러나 아직 네만큼 강하지도, 영리하지도 못하다. 결국 그는 누가 진정한 왕자인지를 알지 못한다…
+\ph\narr네가 그에게 자신의 위치를 깨닫게 해주겠는가…?
+
+OrcKid/Talked1
+\ph\narr비로소 자기 처지를 깨달은 새끼. 여전히 배워야 할 것이 많다…
+\ph\narr네가 그를 가르쳐 줄 의향이 있는가?
+
+################################################################################ RapeLoop Defence mode
+
+rapeloopExit/opt
+\ph\narr몸에 걸친 육체는 이미 숨이 끊어지기 직전이다.
+\optB[무시 한다,버린다]
+
+rapeloopExit/did
+\m[confused]\c[6]로나：\c[0] 어\..\..\.. 여긴… 어디지…?
+\m[tired]\c[6]로나：\c[0] 나… 정말 풀려난 건가…?
+\m[sad]\c[6]로나：\c[0] 그럼… 난 이제 어떻게 해야 해\..\..\..
+
+rapeloopGo_out/begin1
+\ph\narr한 형제가 겁에 질린 채 소리쳤다. 고기 인형이 침입했다고.
+
+rapeloopGo_out/opt
+\optB[네가 알아서 해!,놈들을 베어버려라!]

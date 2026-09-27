@@ -1,0 +1,137 @@
+thisMap/Enter
+\SETpl[Mreg_pikeman]На табличке сказано «\c[4]Только для сотрудников\C[0]»\n Здесь стоит страж. \optB[Отойти,Прокрасться<r=HiddenOPT1>,Обмануть<r=HiddenOPT2>]
+
+########################################################################################################### Nap
+
+enter/begin0
+\c[4]Надзиратель：\C[0]    Стой здесь. Непослушание тебя приведёт только к смерти.
+\c[4]Надзиратель：\C[0]    Вот твоя еда на сегодня, бери! Скоро твой выход.
+
+Nap/BecomeSlave0
+\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]Страж A：\C[0]    Что эта блядина вытворяет?
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Стражник B：\C[0]    Может, она хочет стать гладиатором?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник A：\C[0]    Хаха! Я тоже так подумал!
+
+Nap/Torture0
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Стражник B：\C[0]    Может, преподать этой грязной пизде урок?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник A：\C[0]    Ага, и у меня есть идея.
+\narr Лону увели прочь.
+
+Nap/Torture1
+\CBct[8]\m[tired]\c[6]Лона：\C[0]    Охх..... Что со мной сделали?
+
+Nap/Torture2
+\CBct[1]\m[shocked]\Rshake\c[6]Лона：\C[0]    Аа?!
+
+Nap/Torture3
+\CBmp[Goblin1,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!
+\CBmp[Goblin2,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!
+\CBmp[Goblin3,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!!!
+
+########################################################################################################### Get to fight
+
+Daily/Food0
+\CBmp[Warden,20]\c[4]Надзиратель：\C[0]    Червь! Вставай!
+\CBct[20]\m[shocked]\c[6]Лона：\C[0]    Аа?
+
+Daily/Food1
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Давай сюда! Ближе! Открывай свой рот и получишь питание на сегодня!
+
+Daily/Food_YES0
+\CBct[20]\m[sad]\c[6]Лона：\C[0]    Я иду.....
+
+Daily/Food_YES0_1
+\narr Надзиратель грубо схватил голову Лоны и прижал её к решётке камеры.
+
+Daily/Food_YES1
+\BonMP[Warden,3]\prf\c[4]Надзиратель：\C[0]    Ох! Вот так! Вот зачем нужны рабыни!
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Как должны говорить рабыни?
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    Спасибо, Хозяин...
+
+Daily/Food_NO
+\CBct[20]\m[fear]\c[6]Лона：\C[0]    Нет... Вы....
+\BonMP[Warden,5]\prf\c[4]Надзиратель：\C[0]    Что ж! Тогда не будешь сегодня есть. Посмотрим, сколько ты продержишься.
+
+Daily/Food_END
+\narr Надзиратель оставил немного еды возле прутьев тюремной камеры.
+
+########################################################################################################### Get to fight
+
+playerFight/begin0
+\CBmp[Warden,20]\c[4]Надзиратель：\C[0]    Проснись и пой! Вонючий червяк!
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]   Аа? Да!?
+
+playerFight/begin1
+\CBmp[Warden,20]\c[4]Надзиратель：\C[0]    Твоя очередь умирать сегодня, будешь развлекать зрителей!
+\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    .....
+
+playerFight/begin2_opt
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Давай готовься и вперёд! \optD[Выбрать снаряжение,Особое предложение<r=HiddenOPT0>,Готовиться,Начать]
+
+playerFight/begin2_opt_notYet
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Чем ты там так долго занята? За дело!
+
+playerFight/begin2_opt_OtherOffer
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    Должно быть хоть что-нибудь, чтобы я выжила...
+\CBct[8]\m[bereft]\PRF\c[6]Лона：\C[0]    Я просто.... Я не хочу умереть сегодня....
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    У меня есть кое-что, чтобы облегчить твоё страдание.
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Если ты это хочешь - подноси сюда свой вонючий рот.
+
+playerFight/begin2_opt_OtherOffer_yes0
+\ph\SndLib[sound_equip_armor]\cg[event_WartsDick]\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..
+\narr Надзиратель вынул свой член и облил его каким-то зельем из флакончика.
+
+playerFight/begin2_opt_OtherOffer_yes1
+\BonMP[Warden,20]\cgoff\prf\c[4]Надзиратель：\C[0]   Вот так. А теперь слизывай это с моего члена, заодно помоешь его.
+\CBct[8]\m[fear]\PRF\c[6]Лона：\C[0]    Хмм?
+
+playerFight/begin2_opt_OtherOffer_yes2
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Очень хорошо. Что должны говорить рабыни?
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    Спасибо вам....
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Правильно! Кстати, у меня есть и ещё кое-что для пизды вроде тебя.
+
+playerFight/begin2_opt_OtherOffer_yes3
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Не умирай там так быстро, я оптимистично настроен на твой счёт. Мне всё ещё потребуется кто-то, кто будет отмывать мой хуй языком.
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    Спасибо за заботу, Хозяин.
+
+playerFight/begin2_opt_OtherOffer_no
+\BonMP[Warden,5]\prf\c[4]Надзиратель：\C[0]    Вперёд! Выродок ты бесполезный.
+
+playerFight/FightStart
+\BonMP[Warden,20]\prf\c[4]Надзиратель：\C[0]    Начнём. Не умирай слишком быстро.
+
+########################################################################################################### common
+
+Roommate/begin0_0
+\CBid[-1,20]\c[4]Заключённый：\C[0]    Я не уйду отсюда! Даже не думай об этом!
+
+Roommate/begin0_1
+\CBid[-1,20]\c[4]Заключённый：\C[0]    Это моя клетка!
+
+Roommate/begin0_2
+\CBid[-1,20]\c[4]Заключённый：\C[0]    Я должен быть здесь!
+
+Roommate/begin2
+\CBct[2]\m[confused]\Rshake\c[6]Лона：\C[0]    Что?!
+
+Guard/Qmsg0
+Ты как вошла?!
+
+Guard/Qmsg1
+Вали отсюда!
+
+Guard/Qmsg2
+Только для сотрудников!
+
+Worker/Qmsg0
+Но только я справлюсь!
+
+Worker/Qmsg1
+Слишком много работы!
+
+Worker/Qmsg2
+Ненавижу работу за столом!
+
+EstC/Qmsg
+.......
+

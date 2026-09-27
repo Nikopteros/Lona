@@ -1,0 +1,58 @@
+thisMap/OvermapEnter
+\m[confused]Гробница Тёмного Берсерка \optB[Отмена,Войти]
+
+BoardWarning/BRD0
+\board[Гробница Тёмного Берсерка]
+Он бросил вызов сверхъестественному только своей силой.
+К сожалению, он не закончил свой путь.
+Однако, он был величайшим воином в истории.
+Пусть он продолжает свою битву в другом мире.
+\n
+Это ещё не конец, пока живот не будет вскрыт и не вывалятся кишки.
+
+BoardSword/0to1_0
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Надгробие?...\..\..\..\m[confused]
+\BonID[-1,2]\prf\c[4]Неизвестный：\C[0]    Ты воин? Примешь ли ты мой вызов? \optB[Нет,Да,Хороший друг<r=HiddenOPT0>]
+
+BoardSword/0to1_1_no
+\BonID[-1,20]\prf\c[4]Неизвестный：\C[0]    Уходи, здесь тебе не место.
+
+BoardSword/0to1_1_yes0
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Возможно... Может быть... Возможно, да?
+\BonID[-1,20]\prf\c[4]Неизвестный：\C[0]    Что ж, повернись лицом к своему противнику.
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Хм?
+
+BoardSword/0to1_1_yes1
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    Что происходит?!
+
+BoardSword/0to1_1_yes2
+\CBct[6]\m[terror]\Rshake\c[6]Лона：\C[0]    Нежить?!
+
+BoardSword/End
+\BonID[-1,20]\prf\c[4]Неизвестный：\C[0]    Воин, ты отлично себя зарекомендовал.
+\BonID[-1,20]\prf\c[4]Неизвестный：\C[0]    Возьми это. Это подарок достойный воина.
+
+BoardSword/Cecily0
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\c[4]Сесилия：\C[0]    \..\..\..
+\CBfB[2]\SETpl[CecilyShyAr]\Lshake\c[4]Сесилия：\C[0]    Воин, который бросил вызов Сверхъестественному только силой? Кажется, я слышала о нём?
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]Грейрат：\C[0]    Король воинов, Тёмный Берсерк.
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]Сесилия：\C[0]    Это его могила?
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Грейрат：\C[0]    Это земля проклятых, нам лучше убраться отсюда.
+
+BoardSword/Cocona0
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\c[4]Кокона：\C[0]    Сестрёнка!!!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что случилось?
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Ему было очень грустно...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кому?
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Большая железная пластина очень грустная...
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что? Я не понимаю тебя.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Её хозяин исчез, и большая железная плита почувствовала себя очень одинокой.
+
+BoardSword/Cocona1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оох....
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Он готов! Сестра, возьми это! Это хороший друг хорошего друга!
+
+BoardSword/Cocona2
+\CBct[4]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Хорошо? Спасибо, Кокона.
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]Кокона：\C[0]    Всегда пожалуйста, сестрёнка!
+

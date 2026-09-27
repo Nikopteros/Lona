@@ -1,0 +1,109 @@
+#Orginal translation by a MTL monkey. Massive rewrites and clean up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+#MAIL特殊開頭/使用的Flag/信件編號，避免多封同標題信件混淆，數字，不用補0
+#################################################################################
+
+DarkPotBasic1/Sender
+Cooking Recipes
+
+DarkPotBasic1/Title
+Basic Foods
+
+DarkPotBasic1/Text
+\}\C[4]Meat Soup\C[0]
+Requires：Food item (Meat) (x2)
+\n
+\C[4]Vegetable Soup\C[0]
+Requires：Food item (Plant) (x2)
+\n
+\C[4]Good Soup\C[0]
+Requires：Food item (Meat) (x1), Food item (Plant) (x1)
+\n
+\C[4]Smoked Meat\C[0]
+Requires：Food item (Meat) (x2), Wooden Club (x1)
+Need 10 or more points in the SURvival Trait.
+\n
+\C[4]Dry Meal\C[0]\n
+Requires：Food item (Plant) (x2), Wooden Club (x1)
+Need 10 or more points in the SURvival Trait.
+\n
+Only 1 Wooden Club is required to cook multiple
+Smoked Meats or Dry Meals.
+\n
+\C[4]Cheese\C[0]
+Requires：Milk (x3)
+Need 20 or more points in the SURvival Trait.
+\n
+The "Dark Cauldron" skill is required to make use
+of these recipes.
+
+#################################################################################
+
+DarkPotBasic2/Sender
+Cooking Recipes
+
+DarkPotBasic2/Title
+Medicines and Drugs
+
+DarkPotBasic2/Text
+\}\C[4]Red Potion\C[0]
+Requires：Dragon Root (x2)
+Need 15 or more points in the SURvival Trait.
+\n
+\C[4]Blue Potion\C[0]
+Requires：White Dragon Weed (x2)
+Need 15 or more points in the SURvival Trait.
+\n
+\C[4]Bug Repellent\C[0]
+Requires：Repellent Herbs (x4)
+Need 15 or more points in the SURvival Trait.
+\n
+\C[4]Birth Control Pill\C[0]
+Requires：Tung Flower (x2)
+Need 15 or more points in the SURvival Trait.
+\n
+\C[4]Joy Water\C[0]
+Requires：Mutated Mushroom (x4)，Red Potion (x1)
+Need 15 or more points in the SURvival Trait.
+\n
+The "Dark Cauldron" skill is required to make use of these recipes.
+
+#################################################################################
+
+DarkPotBasic3/Sender
+Miscellaneous Blueprints
+
+DarkPotBasic3/Title
+Contraband
+
+DarkPotBasic3/Text
+\}\C[4]Molotov Cocktail\C[0]
+Requires：Oil (x6)
+Need 5 or more points in the SURvival Trait.
+\n
+\C[4]Frag Bomb\C[0]
+Requires：Wooden Club (x1), Saltpeter (x2), Carbon (x2)
+Need 10 or more points in the SURvival Trait.
+\n
+\C[4]Timed Frag Bomb\C[0]
+Requires：Frag Bomb (x1), 1 piece of "Dirty" Clothing
+Need 10 or more points in the SURvival Trait.
+\n
+\C[4]Frag Mine\C[0]
+Requires：Timed Frag Bomb (x1), 1 piece of "Dirty" Clothing
+Need 10 or more points in the SURvival Trait.
+\n
+\C[4]Shock Bomb\C[0]
+Requires：Wooden Club (x1), Phosphorus (x1), Carbon (x1)
+Need 10 or more points in the SURvival Trait.
+\n
+\C[4]Smoke Bomb\C[0]
+Requires：Shock Bomb (x1), 1 piece of "Dirty" Clothing
+Need 10 or more points in the SURvival Trait.
+\n
+\C[4]Shock Mine\C[0]
+Requires：Smoke Bomb (x1), 1 piece of "Dirty" Clothing
+Need 10 or more points in the SURvival Trait.
+\n
+The "Dark Cauldron" skill is required to make use
+of these illegal blueprints.

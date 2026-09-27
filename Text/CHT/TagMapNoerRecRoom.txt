@@ -1,0 +1,59 @@
+NoerRecRoom/OvermapEnter
+東方商貿。\optB[沒事,進入]
+
+#---------------------------------------------------------------------------------------------------
+teller/Unknow0
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]迷之算命師：\c[0]    妳好，洛娜。
+\CBct[1]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    妳是誰？妳怎麼知道我的名子？
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    打從妳出生開始我就關注到妳的存在了。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃？ 妳說笑的吧？
+\CBid[-1,20]\SETpl[TellerConfused]\Lshake\prf\c[4]迷之算命師：\c[0]    妳生在一個平凡但快樂的商人家庭，遺憾的是它們都被這場災難給毀了。
+\CBid[-1,20]\SETpl[TellerAngry]\Lshake\prf\c[4]迷之算命師：\c[0]    妳並沒有放棄，妳現在正努力地賺錢想離開這個混濁之地。
+\CBct[6]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    妳到底是誰？！
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    一個普通的算命師罷了。
+
+teller/opt
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]迷之算命師：\c[0]    我可以喚起妳的記憶，妳有甚麼想回憶的嗎？
+
+HappyTrader/begin1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    妳看過我老婆嗎？他在隔壁！他超漂亮！
+
+HappyTrader/begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    我的妻子！美麗！漂亮！賢慧！大家都忌妒我！
+
+HappyTrader/end
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    我根本不想離開這！一切都是因為工作繁忙！
+\CBct[8]\m[confused]\plf\PRF他賣的東西價格都不太妙...
+
+teller/ded0
+\SETpl[TellerEyeClosed]\Lshake\prf\c[4]迷之算命師：\c[0]    我即是慾望的倒影。
+
+teller/ded1
+\SETpl[TellerAngry]\Lshake\prf\c[4]迷之算命師：\c[0]    我是不滅的。
+
+#---------------------------------------------------------------------------------------------------
+
+DatDoor/NTR0
+不要停♥
+
+DatDoor/NTR1
+用力點♥
+
+DatDoor/NTR2
+呀啊♥ 要去了啊♥
+
+DatDoor/NTR3
+艾莎布♥ 妳好棒♥
+
+DatDoor/NTR4
+嗚啊♥♥
+
+DatDoor/NTR_end
+\SETpl[TellerAngry]\Lshake\c[4]迷之算命師：\c[0]    \{誰！！
+\SETpr[NoerGangBoss]\Rshake\c[4]不良份子：\c[0]    \{有人！快換衣服！
+\SETpl[TellerAngry]\Lshake\c[4]迷之算命師：\c[0]    \{那件是我的！
+\SETpr[NoerGangBoss]\Rshake\c[4]不良份子：\c[0]    \{快點！快！
+
+art/Chad
+\ph\cg[other_ChadVsVirgin]這張繪畫訴說著黃毛的強大與苦主的悲哀。
+\m[confused]\c[6]洛娜：\c[0]   看不懂...

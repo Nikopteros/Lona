@@ -1,0 +1,172 @@
+#Fully translated by Rrezzolution and reviewed/cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+####################################--------------------- TagMapNoerPrison overmap
+Prison/OvermapEnter
+\m[confused]Prison \optB[Leave,Enter]
+
+Prison/CantEnter
+\SETpl[Mreg_pikeman]\c[4]Jailer：\c[0]    You should not be here.
+
+Prison/term
+Remaining sentence, 
+
+Prison/termD
+ days left.
+
+###################################################################     Warden
+
+Warden/Release1
+\SETpl[Mreg_guardsman]\c[4]Jailer：\c[0]    ......
+\SND[SE/DOOR_Owen_Open_stereo.ogg]\SETpl[Mreg_guardsman]\c[4]Jailer：\c[0]    PHEW... It fucking stinks in here.
+\SETpl[Mreg_guardsman]\c[4]Jailer：\c[0]    Why haven't these maggots died yet?
+
+Warden/Release2
+\SETpl[Mreg_guardsman]\c[4]Jailer：\c[0]    Hey! You still alive? ...What was your name again?
+\SETpl[Mreg_guardsman]\Lshake\c[4]Jailer：\c[0]    HEY! BITCH! Your sentence is over now!
+\SETpl[Mreg_guardsman]\Lshake\c[4]Jailer：\c[0]    \{YOU CAN GO!
+
+Warden/Release3
+\SETpl[Mreg_guardsman]\c[4]Jailer：\c[0]    Sleeping like a corpse, huh?
+
+Warden/Release4
+\m[tired]\plf\c[6]Lona：\c[0]    Ughnnn...
+\PLF\prf\c[4]Jailer：\c[0]    Finally awake? Congratulations, you can get the fuck out now.
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    E-Eh?!
+\PLF\prf\c[4]Jailer：\c[0]    Or do you want to stay in your cell? We have no extra food left to give to garbage like you.
+
+Warden/Release5
+\plh\narr The jailer left.
+
+Warden/Release6
+\m[confused]\plf\Rshake\c[6]Lona：\c[0]    Wha... I...
+\m[sad]\plf\Rshake\c[6]Lona：\c[0]    What should I do now...?
+
+Warden/Qpop0
+Get the fuck out already!
+
+Warden/Qpop1
+Don't bother me, I'm busy.
+
+###################################################################     FOOD
+
+Warden/PlaceFood0
+\SETpl[Mreg_guardsman]\prh\c[4]Jailer：\c[0]    HEY MAGGOTS! Time to eat!
+
+Warden/PlaceFood1
+\ph\narr The jailer placed some food near the cell's gate.
+
+
+###################################################################     Rapeloop torture
+
+Warden/torture1
+\SND[SE/Whip_slap01]\m[pain]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[4]Torturer：\c[0]    \{WAKE UP!!!
+\SND[SE/Whip_slap02]\m[hurt]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[6]Lona：\c[0]    \{KYAAAH!
+
+Warden/torture2
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Torturer：\c[0]    \{HEY MAGGOTS! LISTEN UP!
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Torturer：\c[0]    Recently, a little maggot was doing something she shouldn't be doing!
+\SETpl[Mfat_tortruer]\Lshake\PRF\c[4]Torturer：\c[0]    \{SO THIS IS WHAT HAPPENS TO DISOBEDIENT MAGGOTS!
+
+
+Warden/torture_end0
+\m[pain]\plf\Rshake\c[6]Lona：\c[0]    \{GAAAH!!! EEEYAAAH!!!
+\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    \{Somebody help me! S-SAAAVE MEEE!
+
+Warden/torture_end1
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    Any of you maggots who reports about a disobedient maggot will be rewarded with 10 loaves of bread!
+\SETpr[Mreg_guardsman]\c[4]Jailer：\c[0]    Such a despicable piece of trash. Toss her back in the cell once her punishment is finished.
+
+Warden/torture_end2
+\narr The pit dug by Lona was filled up.
+
+Torture2/popup0
+EEEYAAAH!!!
+
+Torture2/popup1
+KYAAAAAAHHH!!!
+
+Torture2/popup2
+EEEEEEKKK!!!
+
+###################################################################     THAT TOILET
+
+that_toilet/Opt_NoerPrison_toilet
+Examine cesspit
+
+Toilet/frist_time
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    This hole...
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    I should be able to fit my body through it...
+\CBct[8]\m[fear]\c[6]Lona：\c[0]    But...
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    This is a cesspit......
+
+Toilet/MainOpt
+\m[confused]A disgusting cesspit... \optB[Don't waste your energy...,Attempt to dig a hole!<r=HiddenOPT1>]
+
+Toilet/Opt_diged_open
+\CBct[1]\m[shocked]!!!
+\CBct[1]\m[shocked]!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Lona：\c[0]    Good enough! I should try to see if I can fit though when nobody's watching.
+
+
+###################################################################     begin
+
+Enter/begin1
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    This will be your new home from now on!
+\SETpr[Mreg_guardsman]\Rshake\c[4]Jailer：\c[0]    \{Say hello to your new roommates!
+\m[sad]\plf\Rshake\c[6]Lona：\c[0]    Uwuuu... *Whimper*...
+
+Enter/begin2
+\SETpl[raper3]\m[fear]\Lshake\Rshake\BonMP[RaperTop,2]\c[4]Prisoner：\c[0]    \{IT'S A GIRL!\WT[3]
+
+Enter/begin3
+\SETpl[raper2]\m[shocked]\Lshake\Rshake\BonMP[RaperDown,3]\c[4]Prisoner：\c[0]    \{Female!\WT[3]
+
+Enter/begin4
+\SETpl[raper1]\m[terror]\Lshake\Rshake\BonMP[RaperLeft,4]\c[4]Prisoner：\c[0]    \{It's been so long since I've fucked someone!\WT[3]
+
+Enter/begin5
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturer：\c[0]    You see? Your roommates like you very much!
+\SETpl[Mreg_guardsman]\Rshake\c[4]Jailer：\c[0]    By the Saint, it fucking REEKS in here...
+
+Enter/begin_room
+\SETpl[Mreg_guardsman]\m[p5sta_damage]\Rshake\Lshake\c[4]Jailer：\c[0]    FUCK OFF! You think we can afford giving you your own private cell?!
+\m[sad]\c[6]Lona：\c[0]    \{S-Sorry...
+
+Enter/end
+\SETpl[raper_group]\m[fear]\Lshake\Rshake\c[4]Prisoners：\c[0]    \{Hurry up an' let her in! WE WANNA FUCK HER!
+\m[bereft]\Rshake\BonMP[RaperTop]\c[6]Lona：\c[0]    S-Someone... Please... H-Help me...
+
+###################################################################     COMMON NAP RAPE
+
+Prisoner/NapRape_0
+\c[4]Prisoner：\c[0]    Hehee! A girl!
+
+Prisoner/NapRape_1
+\c[4]Prisoner：\c[0]    A real girl! I can finally fuck a girl now!
+
+Prisoner/NapRape_2
+\c[4]Prisoner：\c[0]    Fuuahhh! Fuuu! My cock's so fuckin' hard right now! ♥
+
+Prisoner/NapRape1
+\c[4]Prisoner：\c[0]    Hee hehee!
+
+Prisoner/NapRape2
+\narr Lona was carried away...
+
+Prisoner/NapRape3_0
+\c[4]Prisoner：\c[0]    Please help me clean my cock! Ain't ya able do this?!
+
+Prisoner/NapRape3_1
+\c[4]Prisoner：\c[0]    Everyone here is roommates with each other. So, shouldn't ya help out your roommates with their sexual needs?!
+
+Prisoner/NapRape3_2
+\c[4]Prisoner：\c[0]    All girls should open their legs and lemme fuck her, so I can feel good!
+
+Prisoner/NapRape_withSta_Fight2
+\c[4]Prisoner：\c[0]    You fuckin' bitch! Looks like you want me to beat you, huh?!
+
+Prisoner/NapRape_withSta_NoFight2
+\m[sad]\c[4]Prisoner：\c[0]    Eheh... ♥　Heheeeh... ♥
+
+#Fully translated by Rrezzolution and reviewed/cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

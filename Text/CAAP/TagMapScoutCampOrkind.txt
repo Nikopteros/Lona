@@ -1,0 +1,71 @@
+Camp/Enter
+\m[confused]Área presumible del caravana desaparecida. \optB[Cancelar,Entrar]
+
+Guide/QuestNotDone
+\m[confused]\c[6]Lona:\C[0]    Todavía necesito confirmar el estado del campamento y saber si hay supervivientes.
+
+Forest/Entry
+\m[serious]\c[6]Lona:\C[0]    Este es el lugar. Puedo oler su hedor desde aquí.
+\m[irritated]\c[6]Lona:\C[0]    Parece que su guardia está en alerta máxima. \CamMP[DasWatcher]
+\m[confused]\c[6]Lona:\C[0]    Bueno...
+\m[normal]\c[6]Lona:\C[0]    Debo moverme con cuidado. No pueden atraparme. \CamCT
+
+Camp/GoblinSeen
+\m[shocked]\Rshake\c[6]Lona:\C[0]    ¡Me han visto! Escucho cómo se agitan y vienen hacia aquí.
+\m[terror]\Rshake\c[6]Lona:\C[0]    ¡Debo darme prisa o estoy perdida...!
+
+Camp/SawCamp
+\m[confused]\c[6]Lona:\C[0]    Ahí está la tienda...
+\m[fear]\c[6]Lona:\C[0]    ¿Habrá alguien vivo? \CamMP[Camp]
+\m[shocked]\Rshake\c[6]Lona:\C[0]    *JADEÓ* ¡Dios mío! \CamMP[DedPpl]
+\m[terror]\c[6]Lona:\C[0]    ¡¿Han matado a todos?! Incluso están cocinando y devorando los cadáveres...
+\m[confused]\c[6]Lona:\C[0]    Espera... Creo que oigo llantos al fondo.
+\m[serious]\c[6]Lona:\C[0]    No puedo irme todavía. Debo ser valiente. \CamCT
+\m[angry]\c[6]Lona:\C[0]    Debo verlo con mis propios ojos para informar.
+
+Camp/OrkindBabySaw
+\m[shocked]\Rshake\c[6]Lona:\C[0]    ¡Puaj! ¡Qué asco!
+\m[terror]\c[6]Lona:\C[0]    ¡Dios mío...! \CamMP[WakeUp]
+\m[fear]\c[6]Lona:\C[0]    ¡Vivos! ¡Hay supervivientes aquí!
+\m[sad]\c[6]Lona:\C[0]    Es-¡estos monstruos están preñando a todas las mujeres!
+\m[fear]\c[6]Lona:\C[0]    Al menos sé que los monstruos están cerca de Noertown.
+\m[serious]\c[6]Lona:\C[0]    No puedo ayudarlas... Debo regresar e informar al Gremio. \CamCT
+
+Guild/completed
+\prf\c[4]Trabajador:\C[0]    ¡¿Qué?! ¡¿Están reproduciéndose?! Esto es una emergencia crítica.
+
+Guild/completed2
+\prf\c[4]Trabajador:\C[0]    Buen trabajo. Ahora habrá menos monstruos en el norte.
+
+Guild/completed3
+\prf\c[4]Trabajador:\C[0]    ¡¿Está viva?! ¡¿Y lograste rescatarla?!
+\prf\c[4]Trabajador:\C[0]    ¡Eres más increíble de lo que pensaba!
+
+########################################################################################QUEST LINE 3
+
+CommonConvoyTarget/Hev0
+\SETpr[OrcCaveEvent] En esta cueva de olor horrible, las víctimas parecen extremadamente exhaustas.
+Los orcoides no prestan atención a la edad o apariencia de sus víctimas. Mientras una mujer pueda reproducirse, seguirán fecundándola.
+Las víctimas sometidas a violencia prolongada y cruel mueren o enloquecen.
+La hija del mercader está cubierta de suciedad y esperma.
+Su vientre está lleno de estrías por los partos. Parece que los orcoides la han violado durante mucho tiempo.
+Lona no puede asegurarse de su cordura. Si hubiera perdido la cabeza, Lona probablemente tendría que renunciar a su rescate...
+
+CommonConvoyTarget/begin0
+\m[serious]\PRF\c[6]Lona：\C[0] ¡Aún está viva!
+\prf\c[4]Hija del Mercader：\C[0] ........ Ooh... Snif...
+\m[shocked]\PRF\c[6]Lona：\C[0] ¿Estás bien? ¿Me oyes?
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]Hija del Mercader：\C[0] Uu-oh... ¿Quién... eres...? \optB[Paso por aquí...,Vine a rescatarte!]
+
+CommonConvoyTarget/Arrivel
+\prf\c[4]Hija del Mercader：\C[0] Gracias, sin ti habría perecido.
+\m[triumph]\PRF\c[6]Lona：\C[0] ¡De nada!
+\prf\c[4]Hija del Mercader：\C[0] Ahora volveré con mi padre, cuídate.
+
+CommonConvoyTarget/Arrivel1
+\m[confused]\PRF\c[6]Lona：\C[0] Es hora de que vuelva al Gremio.
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]Hija del Mercader：\C[0] Gracias. Apresurémonos de vuelta a Noertown.

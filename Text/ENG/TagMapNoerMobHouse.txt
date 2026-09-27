@@ -1,0 +1,138 @@
+thisMap/OvermapEnter
+Slaver's Safe House \optB[Leave,Enter]
+
+Camp/MobSeen
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    WHO'S THERE?!
+\m[shocked]\Rshake\C[6]Lona：\C[0]    Oh no!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Hey, hey! She's still sleeping.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Slaver：\C[0]    I'm fuckin' tired today, I'm gonna have some fun with this one.
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Don't kill her, she's still worth something.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Slaver：\C[0]    What does it matter? We can just catch another one anyways.
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Huh? What's this lil' girl doing here?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Slaver：\C[0]    Maybe she volunteering to be one of our merchandises? Nice catch we've got here!
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    This lil' brat actually tried to run away?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Slaver：\C[0]    Time to teach her a lesson, no?
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    \{HEY! WAKE THE FUCK UP!
+
+Rogue/NapTorture2
+\m[tired]\C[6]Lona：\C[0]    EEEP?!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Hold her still! I wanna test just how tough this brat's body is!
+\m[terror]\C[6]Lona：\C[0]    N-NO! Let me go!
+
+Rogue/NapTorture3
+\m[pain]\C[6]Lona：\C[0]    \{IT HURTS! *Gack* IT HUUURTS!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Well, that was no fun. Let's play with something else.
+\m[bereft]\C[6]Lona：\C[0]    \{I'M SORRY! *Sniff* Please forgive me! I-I'm really sorry!
+
+Rogue/NapRape_withSta_NoFight2
+\m[sad]\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Sucky ♥ sucky ♥!
+
+Rogue/NapRape1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Hehe-hee.
+
+Rogue/NapRape3_0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Come here! Start cleaning up my lil' man!
+
+Rogue/NapRape3_1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    There's no time for you to sleep! Hurry up and serve me with your pussy!
+
+Rogue/NapRape3_2
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    All women should just spread their legs wide open and let me fuck 'em!!!
+
+Doors/LockReset
+\narr All of the cage door padlocks have been replaced.
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    \{FOOD'S HERE, TIME TO EAT! BITCHES!
+
+Rogue/PlaceFood1
+\narr They placed some food near the cage door.
+
+###################################################################### LOCKED DOOR
+
+Door/FristTime
+\m[confused]\c[6]Lona：\c[0]    This door's lock looks very cheap.
+\m[normal]\c[6]Lona：\c[0]    Anyone should be able to break it with just a little bit of work.
+
+Door/Unlocked
+Broken cage door. \optB[Never mind,Use]
+
+Door/UnlockedOUT
+\m[confused]\c[6]Lona：\c[0]    This door's lock looks very cheap.
+\m[normal]\c[6]Lona：\c[0]    Opening it from the outside should be a breeze. \optB[Don't waste your energy...,Destroy the padlock!]
+
+Door/UnlockedOUT_win
+\m[pleased]\c[6]Lona：\c[0]    Nailed it!
+
+Door/TryBrokeOpt1
+\m[confused]Poor-quality door padlock \optB[Don't waste your energy...,Destroy the padlock!<r=HiddenOPT1>]
+
+Door/TryBrokeOpt2
+\m[normal]How much stamina will be used? \optB[Don't waste energy,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,120<r=HiddenOPT4>]
+
+Door/TryBroke_still
+\m[pleased]\c[6]Lona：\c[0]    It seems like the shackle is loosening up a bit.
+\m[tired]\c[6]Lona：\c[0]    But... Nnnighnnn... S-So tired...
+
+##################################################################### begin
+
+Sold/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]Slaver：\C[0]    HEY, LIL' BITCH! Wake the fuck up! We've got a customer here!
+\m[hurt]\c[6]Lona：\c[0]    Ughhhnnn...
+
+Sold/begin2
+\SETpl[MobHumanCommoner]\Lshake\BonMP[Raper1,4]\C[4]Bandit：\C[0]    Hey, here she is. It's not long since she's been caught, meaning she's still fresh!
+\c[0]Merchant：\c[0]    ......
+\CamMP[Trader]\c[0]Merchant：\c[0]    This is what you wanted to showed me?
+\BonMP[Trader,5]\c[0]Merchant：\c[0]    She's obviously been ruined, what kind of work can she even do?
+
+Sold/begin3
+\CamMP[Raper1]\BonMP[Raper1,6]\C[4]Bandit：\C[0]    No no! She's still good! Just look carefully, her limbs are still attached to her body!
+\CamMP[Trader]\BonMP[Trader,7]\c[0]Merchant：\c[0]    Are you joking with me? I offer one copper coin! Nothing else!
+
+Sold/begin4
+\CamMP[Raper1]\BonMP[Raper1,5]\C[4]Bandit：\C[0]    \}FUCK!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    \}Well whatever, it's good enough. \{SOLD! SOLD!
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Bandit：\C[0]    Ready up the branding! Get her outta here!
+
+Sold/begin5
+\m[p5shame]\Rshake\c[6]Lona：\c[0]    What are... you guys going to do?!
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Bandit：\C[0]    Don't move! We'll make you suffer if you fuck up the placement!
+\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    N-NO! LET GO OF ME!
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Bandit：\C[0]    I said don't fuckin' move around! Be a good bitch!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    \{KYAAAAAAH!!!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{EEEAAAAAAAH!!!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    GYAHAHA! So fun! Scream louder!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{GAAAAAAH!!!
+
+Sold/begin7_MinerPrison
+\ph\m[sad]\cgoff\narr Lona was sold to the Crystal Mine...
+
+Sold/begin7_NoerBackStreet
+\ph\m[sad]\cgoff\narr Lona was sold to the Noer Town Backstreet...
+
+Sold/begin7_DoomFortressR
+\ph\m[sad]\cgoff\narr Lona was sold to the Doom Fortress Barracks...
+
+Sold/begin7_FishTownR
+\ph\m[sad]\cgoff\narr Lona was sold to Fishtopia Isle...
+
+Sold/begin7_NoerArenaB1
+\ph\m[sad]\cgoff\narr Lona was sold to the Arena...
+
+Sold/begin7_NorthFL_INN
+\ph\m[sad]\cgoff\narr Lona was sold to the Costal Fortress...
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\C[4]Slaver：\C[0]    Be a good lil' bitch and stay here until we've decided what to do with you.
+\m[sad]\plf\PRF\c[6]Lona：\c[0]    What am I going to do...
+\m[fear]\plf\PRF\c[6]Lona：\c[0]    A slave....
+\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    \{N-No! I don't want to be a slave!
+
+#Original translation by a MTL monkey. Retranslated and clean-up by Sugoi Soy Boy. Fuck off MTLing monkeys.

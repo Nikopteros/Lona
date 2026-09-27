@@ -1,0 +1,165 @@
+####################################--------------------- TagMapNoerPrison overmap
+Prison/OvermapEnter
+\m[confused]Prisión \optB[Cancelar,Entrar]
+
+Prison/CantEnter
+\SETpl[Mreg_pikeman]\c[4]Carcelero：\C[0]    No deberías estar aquí.
+
+Prison/term
+Tiempo restante：
+
+Prison/termD
+ días.
+
+###################################################################     Warden
+
+Warden/Release1
+\SETpl[Mreg_guardsman]\c[4]Carcelero：\C[0]    ......
+\SND[SE/DOOR_Owen_Open_stereo.ogg]\SETpl[Mreg_guardsman]\c[4]Carcelero：\C[0]    PTFU... Joder, qué puto asco aquí.
+\SETpl[Mreg_guardsman]\c[4]Carcelero：\C[0]    ¿Por qué estos gusanos no se han muerto todavía?
+
+Warden/Release2
+\SETpl[Mreg_guardsman]\c[4]Carcelero：\C[0]    ¡Eh! ¿Sigues viva? ...¿Cómo te llamas?
+\SETpl[Mreg_guardsman]\Lshake\c[4]Carcelero：\C[0]    ¡OYE! ¡PUTA! ¡Tu condena terminó!
+\SETpl[Mreg_guardsman]\Lshake\c[4]Carcelero：\C[0]    \{¡PUEDES IRTE!
+
+Warden/Release3
+\SETpl[Mreg_guardsman]\c[4]Carcelero：\C[0]    ¿Duermes como un cadáver, eh?
+
+Warden/Release4
+\m[tired]\plf\c[6]Lona：\C[0]    Oohh...
+\PLF\prf\c[4]Carcelero：\C[0]    ¿Al fin despierta? Felicidades, ahora puedes largarte a la mierda.
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿A-Aah?
+\PLF\prf\c[4]Carcelero：\C[0]    ¿O prefieres quedarte entre rejas? No esperes comida de nosotros.
+
+Warden/Release5
+\plh\narr El carcelero se fue.
+
+Warden/Release6
+\m[confused]\plf\Rshake\c[6]Lona：\C[0]    Qué... Yo...
+\m[sad]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué hago ahora...?
+
+Warden/Qpop0
+¡Lárgate de aquí!
+
+Warden/Qpop1
+No me molestes, estoy ocupado.
+
+###################################################################     FOOD
+
+Warden/PlaceFood0
+\SETpl[Mreg_guardsman]\prh\c[4]Carcelero：\C[0]    ¡OYE GUSANOS! ¡Hora de comer!
+
+Warden/PlaceFood1
+\ph\narr El carcelero dejó algo de comida frente a la celda.
+
+###################################################################     Rapeloop torture
+
+Warden/torture1
+\SND[SE/Whip_slap01]\m[pain]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[4]Carcelero：\C[0]    \{¡¡¡DESPIERTA!!!
+\SND[SE/Whip_slap02]\m[hurt]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[6]Lona：\C[0]    \{¡YYAAHH!
+
+Warden/torture2
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Carcelero：\C[0]    \{¡OYE GUSANOS! ¡ESCUCHEN BIEN!
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Carcelero：\C[0]    ¡Recientemente una rata hizo algo que no debía!
+\SETpl[Mfat_tortruer]\Lshake\PRF\c[4]Carcelero：\C[0]    \{¡ESTO LE PASA A LAS RATAS DESOBEDIENTES!
+
+Warden/torture_end0
+\m[pain]\plf\Rshake\c[6]Lona：\C[0]    \{¡¡¡GAAAHH!!! ¡¡YYYAAAHHH!!!
+\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    \{¡Ayuda! ¡Alguien! ¡S-SÁLVENME!
+
+Warden/torture_end1
+\SETpl[Mfat_tortruer]\Lshake\c[4]Carcelero：\C[0]    ¡Cualquier prisionero que informe de estos parásitos será recompensado con diez trozos de pan!
+\SETpr[Mreg_guardsman]\c[4]Carcelero：\C[0]    Qué asco de escoria. Échenla de vuelta a su celda cuando termine su castigo.
+
+Warden/torture_end2
+\narr El hoyo que cavó Lona fue rellenado.
+
+Torture2/popup0
+¡¡¡AAAYYY!!!
+
+Torture2/popup1
+¡¡¡AAAHHH!!!
+
+Torture2/popup2
+¡¡¡OOOHHH!!!
+
+###################################################################     THAT TOILET
+
+that_toilet/Opt_NoerPrison_toilet
+Examinar el pozo negro
+
+Toilet/frist_time
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Este hoyo...
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Quizás pueda caber...
+\CBct[8]\m[fear]\c[6]Lona：\C[0]    Pero...
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Es un pozo negro.....
+
+Toilet/MainOpt
+\m[confused]Un asqueroso pozo negro... \optB[No malgastes energía...,¡Intentar cavar un túnel!<r=HiddenOPT1>]
+
+Toilet/Opt_diged_open
+\CBct[1]\m[shocked]!!!!!
+\CBct[1]\m[shocked]!!!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Lona：\C[0]    ¡Bastante bien! Debo intentar escabullirme cuando nadie mire.
+
+###################################################################     begin
+
+Enter/begin1
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡A partir de ahora, este será tu nuevo hogar!
+\SETpr[Mreg_guardsman]\Rshake\c[4]Carcelero：\C[0]    \{¡Saluda a tus compañeros de celda!
+\m[sad]\plf\Rshake\c[6]Lona：\C[0]    Ohh... *Solloza*...
+
+Enter/begin2
+\SETpl[raper3]\m[fear]\Lshake\Rshake\BonMP[RaperTop,2]\c[4]Prisionero：\C[0]    \{¡UNA CHICA!\WT[3]
+
+Enter/begin3
+\SETpl[raper2]\m[shocked]\Lshake\Rshake\BonMP[RaperDown,3]\c[4]Prisionero：\C[0]    \{¡MUJER!\WT[3]
+
+Enter/begin4
+\SETpl[raper1]\m[terror]\Lshake\Rshake\BonMP[RaperLeft,4]\c[4]Prisionero：\C[0]    \{¡HACE TANTO QUE NO ME FOLLO A NADIE!\WT[3]
+
+Enter/begin5
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¿Ves? ¡Parece que ya le caes bien a tus compañeros!
+\SETpl[Mreg_guardsman]\Rshake\c[4]Carcelero：\C[0]    Santos, cómo putas apesta aquí...
+
+Enter/begin_room
+\SETpl[Mreg_guardsman]\m[p5sta_damage]\Rshake\Lshake\c[4]Carcelero：\C[0]    ¡¡VETE A LA MIERDA!! ¿Crees que podemos darte una celda individual?!
+\m[sad]\c[6]Lona：\C[0]    \{L-Lo siento...
+
+Enter/end
+\SETpl[raper_group]\m[fear]\Lshake\Rshake\c[4]Prisioneros：\C[0]    \{¡Déjennos entrar! ¡QUEREMOS FOLLÁRNOSLA!
+\m[bereft]\Rshake\BonMP[RaperTop]\c[6]Lona：\C[0]    P-Por favor, alguien... Ayúdenme... S-Sálvenme...
+
+###################################################################     COMMON NAP RAPE
+
+Prisoner/NapRape_0
+\c[4]Prisionero：\C[0]    ¡Opa, una mujer!
+
+Prisoner/NapRape_1
+\c[4]Prisionero：\C[0]    ¡Chica! ¡Al fin podré follarme a una chica!
+
+Prisoner/NapRape_2
+\c[4]Prisionero：\C[0]    ¡Oh-la-puta-madre! ¡Mi polla ya está dura como una roca! ♥
+
+Prisoner/NapRape1
+\c[4]Prisionero：\C[0]    ¡Je je je!
+
+Prisoner/NapRape2
+\narr Agarraron a Lona...
+
+Prisoner/NapRape3_0
+\c[4]Prisionero：\C[0]    Vamos, ayúdame a lavar mi polla. ¡¿No puedes hacer eso?!
+
+Prisoner/NapRape3_1
+\c[4]Prisionero：\C[0]    ¡Todos estamos en la misma prisión, así que debes satisfacer a cada uno de nosotros!
+
+Prisoner/NapRape3_2
+\c[4]Prisionero：\C[0]    ¡Las mujeres deben abrir las piernas para que las folle!
+
+Prisoner/NapRape_withSta_Fight2
+\c[4]Prisionero：\C[0]    ¡Tú, puta de mierda! ¡¿Quieres que te demos una paliza, eh?!
+
+Prisoner/NapRape_withSta_NoFight2
+\m[sad]\c[4]Prisionero：\C[0]    Jeje... ♥　Jejeje... ♥

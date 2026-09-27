@@ -1,0 +1,289 @@
+thisMap/OvermapEnter
+Refugio de Bandidos \optB[Cancelar,Entrar]
+
+Nap/Capture
+\narr Le quitaron todas sus pertenencias a Lona.
+
+############################################################## Control , usando TagMapNoerMobHouse.txt como secundario
+
+Trans/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]Bandido：\C[0]    ¡Oye, putilla! ¡Levántate!
+\CamCT\m[hurt]\plf\PRF\c[6]Lona：\C[0]    Ooohh....
+\SETpl[MobHumanCommoner]\BonMP[Raper1,20]\Lshake\prf\C[4]Bandido：\C[0]    ¡Pronto te mudarás a tu nuevo hogar!
+\CamCT\m[sad]\c[6]Lona：\C[0]    ¡¿Qué?! ¿A-dónde me están lle...?
+
+Trans/begin2
+\ph\m[sad]\cgoff\narr Se llevaron a Lona a un lugar desconocido.
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido：\C[0]    Sé una buena chica... ¡Y entonces jugaremos!
+\SETpl[nil]\m[sad]\plf\PRF\c[6]Lona：\C[0]    ¿Qué hacer\..\..\..? ¡Necesito encontrar una forma de escapar!
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido：\C[0]    \{¡Oye, zorrita! ¡Aquí tienes comida!
+\narr Dejaron algo de comida junto a la puerta.
+
+Rogue/PlaceFood_no
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido：\C[0]    ¡Putilla perezosa! ¡Si no trabajas, no comes!
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido：\C[0]    ¡Si quieres comer, tendrás que entretenernos!
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Lo siento... Haré lo posible...
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¿Es una mujer?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    ¡Joder! ¡Hace mucho que no paso tiempo con una mujer!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Putilla! ¡Estoy aquí! ♥
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    ¡Dejadme ser el primero! ¡Hace tanto que no follo bien con alguien en el bosque que me pica la polla como loco!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Oye! No la mates, los demás también quieren su turno.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    Vamos, tíos, aún le quedan una segunda y tercera ronda para todos.
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Esta zorrita merece una buena paliza preventiva!
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    ¡Dale una hostia!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    \{¡Oye! ¡Levántate!
+
+DavidBorn/Unknow
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born：\C[0]    Yo controlo este lugar.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born：\C[0]    Esta gente no puede controlarse, necesitan a alguien para desahogarse.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born：\C[0]    Si no se lo das, incluso podrían intentar matarme...
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,8]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    \..\..\.. ¡Y a ti también, por cierto!
+\CamCT\m[shy]\PRF\c[6]Lona：\C[0]    ¿A mí?
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    Haz lo que digo o morirás aquí.
+\CamCT\m[fear]\PRF\c[6]Lona：\C[0]    Oh.....
+
+DavidBorn/Day_dialog
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    Obedece o no comerás.
+\CamCT\m[sad]\PRF\c[6]Lona：\C[0]    Ufff....
+
+GangBoss/Day_dialog
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandido：\C[0]    ¡Oye, zorrita!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandido：\C[0]    Hoy nos vas a entretener.
+\CamCT\m[sad]\PRF\c[6]Lona：\C[0]    Ufff....
+
+Nap/Capture
+\narr Le quitaron todas sus pertenencias a Lona.
+
+############################################################## DIÁLOGO COMÚN
+
+Cooker/Begin0
+\CBid[-1,20]：\C[0]Cocinero：\C[0]    Ellos nos comen a nosotros, y nosotros a ellos. ¡Justicia poética!
+
+Female/Qmsg0
+¡Sois malvados!
+
+Female/Qmsg1
+No tengo la culpa de nada...
+
+Female/Qmsg2
+Ayudadme, Santos...
+
+############################################################## Trabajo de Puta
+
+DavidBorn/JOB_Start_Whore
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born：\C[0]    La mayoría no ha estado con una mujer en mucho tiempo.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    Ve y sé útil para estos idiotas.
+\CamCT\m[fear]\PRF\c[6]Lona：\C[0]    Yo.... \optB[Esperad,Vale]
+
+GangBoss/JOB_Start_Whore
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Bandido：\C[0]    ¡Oye! Nuestras pollas llevan mucho tiempo sin atención.
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandido：\C[0]    ¡Oye! ¡Putilla! ¡Prepárate el culo!
+\CamCT\m[fear]\PRF\c[6]Lona：\C[0]    Oh.... \optB[Esperad,Vale]
+
+HevWhore/begin1
+\CamMP[Cam1]\C[4]Bandido：\C[0]    Joder, cómo deseo una mujer para divertirme...
+\CamMP[GuardA]\C[4]Bandido：\C[0]    Quiero correrme dentro de una zorra... Llenar a alguien con todo mi semen...
+
+HevWhore/begin2
+\CamCT\board[Atención]
+Satisface a 4 o más bandidos.
+O te quedarás sin comida.
+
+############################################################## Violación en Grupo
+
+DavidBorn/JOB_Start_GangRape
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf：\C[0]David Born：\C[0]    Los chicos se quejan de que están aburridos.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf：\C[0]David Born：\C[0]    Ve a entretener a estos idiotas.
+\CamCT\m[fear]\PRF\c[6]Lona：\C[0]    Yo.... \optB[Esperad,Vale]
+
+GangBoss/JOB_Start_GangRape
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Bandido：\C[0]    ¡Oye! ¡Zorra! ¡Ven aquí!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandido：\C[0]    ¡Sal! ¡Muéstranos algo divertido!
+\CamCT\m[fear]\PRF\c[6]Lona：\C[0]    Yo.... \optB[Esperad,Vale]
+
+HevGang/begin1
+\SETpl[raper_group]\Lshake\C[4]Bandido：\C[0]   ¡Putilla! ¡Muéstranos algo interesante!
+\m[shy]\plf\PRF\c[6]Lona：\C[0]    *Llora*... \optD[Bailar<r=HiddenOPT0>,Contar un chiste<r=HiddenOPT1>]
+
+HevGang/begin2
+\SETpl[raper_group]\Lshake\C[4]Bandido：\C[0]    ¡Esto no es divertido! ¡Dale más emoción!
+\m[shy]\plf\PRF\c[6]Lona：\C[0]    Ohh...\optD[Bailar<r=HiddenOPT0>,Contar un chiste<r=HiddenOPT1>]
+
+HevGang/Dance1
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Dejad que os baile....
+\SETpl[raper_group]\Lshake\C[4]Bandido：\C[0]    ¡Venga!
+
+HevGang/Dance2
+\SETpl[raper_group]\Lshake\C[4]Bandido：\C[0]    ¿Qué mierda es esta?
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Ufff...
+
+HevGang/Dance3
+\SETpl[raper_group]\Lshake\C[4]Bandido：\C[0]    ¡Salta más fuerte!
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Ufff...
+
+HevGang/Dance4
+\SETpl[raper_group]\Lshake\C[4]Bandido：\C[0]    ¡Qué mierda! ¡Eres una inútil!
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Perdonad...
+
+HevGang/Joke0
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Dejad que os cuente un chiste, ¿vale?
+\SETpl[raper_group]\Lshake\C[4]Bandido：\C[0]    ¡Si no es gracioso, te daremos una paliza!
+\narr \..\..\..
+Lona intenta contar algunos chistes tontos.
+Los oyentes claramente no están contentos.
+
+HevGang/begin_end
+\SETpl[raper2]\Lshake\C[4]Bandido：\C[0]    ¡Puaj! ¡Aburrido! ¡Vamos a follárnosla directamente! ¡Eso será más divertido!
+\m[fear]\plf\PRF\c[6]Lona：\C[0]    Tengo miedo... Temo que va a doler....
+\SETpr[raper3]\Rshake\C[4]Bandido：\C[0]    No temas, no te follaremos demasiado fuerte.
+\SETpl[raper2]\Lshake\C[4]Bandido：\C[0]    ¡Yo primero! ¡Es mía!
+\SETpr[raper1]\Rshake\C[4]Bandido：\C[0]    ¡No seas egoísta! ¡Yo seré el primero!
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Uu-o-o-ohh....
+
+############################################################## Perro
+
+DavidBorn/JOB_Start_Doggy
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born：\C[0]    Uno de los idiotas me dijo que quiere divertirse. Te quiere a ti.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born：\C[0]    Ve y haz tu trabajo.
+\CamCT\m[fear]\PRF\c[6]Lona：\C[0]    Yo.... \optB[Esperad,Vale]
+
+GangBoss/JOB_Start_Doggy
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Bandido：\C[0]    ¡Oye! ¡Zorra! ¡Ven aquí!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Bandido：\C[0]    ¡Alguien te espera afuera!
+\CamCT\m[fear]\PRF\c[6]Lona：\C[0]    Yo.... \optB[Esperad,Vale]
+
+
+HevDoggy/begin1_fristTime0
+\SETpl[raper2]\Lshake\prf\C[4]Bandido：\C[0]    ¡Oye! Mi perro tampoco ha follado en mucho tiempo, ¡levanta el culo y soluciona eso!
+\SETpl[raper2]\Lshake\prf\C[4]Bandido：\C[0]    ¡Hoy te he elegido para entretener a mi perro! Serás su perra.
+
+HevDoggy/begin1_fristTime1
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Con un perro?! ¡No! ¡Eso no está bien!
+\SETpl[raper2]\Lshake\prf\C[4]Bandido：\C[0]    ¿Te atreves a rechistarme? ¿No quieres vivir, putilla?
+\SETpl[raper_group]\Lshake\prf\C[4]Bandidos：\C[0]    ¿Qué, se hace la remolona? ¡¡Matémosla!!
+\SETpr[raper_group]\Rshake\plf\C[4]Bandidos：\C[0]    ¡Sí! ¡Despedacémosla como a una oveja!
+\CamCT\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡No! ¡No me matéis! ¡Haré lo que sea!
+\SETpl[raper2]\Lshake\prf\C[4]Bandido：\C[0]    Jaja, ¡mirad cómo tiembla la zorra!... Hazlo entonces.
+
+HevDoggy/begin1_fristTime2
+\SETpl[raper_group]\Lshake\prf\C[4]Bandido：\C[0]    ¡Jajajaja! ¡Perrito! ¡Ven aquí!
+
+HevDoggy/begin1_fristTime1_nymph
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Con un perro?! Oh...
+\SETpl[raper2]\Lshake\prf\C[4]Bandido：\C[0]    ¿Te atreves a decir "no"? ¿La putilla no quiere vivir, eh?
+\CamCT\m[lewd]\plf\Rshake\c[6]Lona：\C[0]    No es eso.... Creo que puedo con ello. Alguna vez lo he pensado.
+
+HevDoggy/begin1
+\SETpl[raper2]\Lshake\prf\C[4]Bandido：\C[0]    ¡Oye! ¡Zorra! ¡El perro ya está erecto! ¡Manos a la obra!
+\CamCT\m[shy]\plf\PRF\c[6]Lona：\C[0]    Otra vez no con el perro...
+\CamCT\m[sad]\plf\PRF\c[6]Lona：\C[0]    Vale.... Al menos él es un poco más suave que estos bandidos.
+
+HevDoggy/begin2
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Venga, perrito, sé un buen chico.
+\CamMP[Doggy]\BonMP[Doggy,5]\SndLib[dogAtk]\m[shy]\plf\PRF\c[6]Perro：\C[0]    ¡Grrr!
+\CamCT\m[shy]\plf\PRF\c[6]Lona：\C[0]    No me temas.. Intentaré ser muy cariñosa.
+\CamMP[Doggy]\BonMP[Doggy,6]\SndLib[dogSpot]\m[shy]\plf\PRF\c[6]Perro：\C[0]    ¡Guau! ¡Guau!
+
+HevDoggy/begin3
+\CamCT\narr Lona tomó el pene del perro con su mano,
+y lo guió hacia su coño.
+\SndLib[dogAtk]\narrOFF\SETpl[raper_group]\Lshake\prf\C[4]Bandido：\C[0]    ¡Jaja! ¡Mirad cómo esta zorra se folla al perro!
+
+HevDoggy/begin4
+\SndLib[dogAtk]\SETpl[raper_group]\Lshake\prf\C[4]Bandido：\C[0]    ¡Jajaja! ¡Venga, zorra!
+
+HevDoggy/begin5
+\c[6]Lona：\C[0]    \..\..\..\.. U-o-h-h...
+
+HevDoggy/begin6
+\c[6]Lona：\C[0]    Ay, perrito, con cuidado.... Sin dolor...
+\SndLib[dogAtk]\narr El perro comenzó a empujar su pene dentro de Lona, aparentemente creyendo que ella era una perra en celo.
+
+HevDoggy/begin7
+\c[6]Lona：\C[0]    Oh, ay...
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]Perro：\C[0]    ¡Grr guau!
+\c[6]Lona：\C[0]    Ooh..
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Perro：\C[0]    ¡Guau guau!
+
+HevDoggy/begin8
+\SETpl[raper2]\Lshake\C[4]Bandido：\C[0]    ¡Venga! ¡Fóllatela!
+\SETpr[raper_group]\Rshake\C[4]Bandido：\C[0]    ¡Fóllatela! ¡Fóllate a esta zorra!
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]Perro：\C[0]    ¡Guau guau!
+\narr El perro decidió que Lona era ahora su perra.
+Comenzó a moverse más vigorosamente.
+
+HevDoggy/begin9
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Perro：\C[0]    ¡Guau guau!
+\c[6]Lona：\C[0]    Oooh...
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Perro：\C[0]    ¡Guau guau!
+
+HevDoggy/begin9_1
+\SETpl[raper2]\Lshake\C[4]Bandido：\C[0]    ¡Jajajaja!!!
+\SETpr[raper3]\Rshake\C[4]Bandido：\C[0]    ¡Nunca había visto una mierda tan graciosa!!
+
+HevDoggy/begin10
+\SndLib[dogHurt]\c[6]Lona：\C[0]    ¡¿Ooy?!
+
+HevDoggy/begin11
+\SndLib[dogHurt]\c[6]Lona：\C[0]    \{¡Ay ay ay!
+
+HevDoggy/begin12
+\SndLib[dogHurt]\c[6]Lona：\C[0]    \{¡Es demasiado grande! ¡Duele!
+
+HevDoggy/begin13
+\SndLib[dogHurt]\c[6]Lona：\C[0]    \{¡Ay ay ay!
+
+HevDoggy/begin14
+\SndLib[dogHurt]\narr El pene del perro penetró completamente el coño de Lona, llenándola hasta el límite y quedando atrapado en ella por el nudo.
+\SndLib[dogHurt]El perro quedó atrapado en Lona por el nudo, y pronto comenzó a eyacular dentro de ella.
+
+HevDoggy/begin14_1
+\narrOFF\m[p5health_damage]\SETpl[raper2]\Lshake\Rshake\C[4]Bandido：\C[0]    Buen chico, perrito, córrete dentro de esta zorra, es una buena perrita, ¿eh?
+\SETpr[raper2]\Rshake\C[4]Bandido：\C[0]    ¡Joder! Me meo de la risa.
+
+HevDoggy/begin15
+\narrOFF\SETpl[raper2]\Lshake\C[4]Bandido：\C[0]    ¡Oye! ¡Perrito! ¡Ven aquí! ¡Aquí tienes carne!
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Perro：\C[0]    ¡Grr guau!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Perro：\C[0]    ¡Grr guau!
+
+HevDoggy/begin16
+\c[6]Lona：\C[0]    \{¡¿Qué?!
+
+HevDoggy/begin17
+\c[6]Lona：\C[0]    \{¡Ay, no tires! ¡Para! ¡Duele!!
+
+HevDoggy/begin18
+\m[p5health_damage]\Rshake\c[6]Lona：\C[0]    Dejadme ir... Basta....
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Perro：\C[0]    ¡Guau guau!
+\narrOFF\SETpl[raper2]\Lshake\C[4]Bandido：\C[0]    ¡Ven aquí! ¡Mira qué trozo de carne más jugoso!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Perro：\C[0]    ¡Guau guau!
+\SETpr[raper1]\Rshake\C[4]Bandido：\C[0]    Jajajaja... ¡Se ha quedado atascado en la zorra! Joder, no puedo más... ¡Me muero de risa!
+
+HevDoggy/begin19
+\m[p5health_damage]\c[6]Lona：\C[0]    \{¡Aaaahh!
+\m[p5health_damage]\c[6]Lona：\C[0]    \{Uuaahh!
+
+HevDoggy/begin20
+\c[6]Lona：\C[0]    Ooohh.....
+
+HevDoggy/begin21
+\c[6]Lona：\C[0]    Ohh aahh...
+
+HevDoggy/begin22
+\c[6]Lona：\C[0]    .....
+
+HevDoggy/begin23
+\narr El perro ya había eyaculado, pero su pene permaneció hinchado dentro de Lona durante mucho tiempo.
+Mientras los bandidos se reían, Lona perdió el conocimiento.
+\narrOFF\SETpl[raper2]\Lshake\C[4]Bandido：\C[0]    Oye, se ha desmayado, ¿qué hacemos ahora con ella?
+\SETpr[raper3]\Rshake\C[4]Bandido：\C[0]    Que alguien la saque de aquí.

@@ -1,0 +1,387 @@
+Ded/ded
+\SETpl[SeaWitch_angry]\Lshake\C[4]Bruja del Mar：\C[0]     ¡NO! ¡Malditos humanos! No puedo perder... contra seres... tan débiles...
+
+0to1/begin0
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡Te encontré...!
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡No es la verdadera... Bruja del Mar...!
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    No eres... la verdadera Bruja del Mar... No puedes... engañarme... A mí... ni a mis hermanos...
+\CBmp[SeaWitch,8]\C[4]Falsa Bruja del Mar：\C[0]    *Llora*....
+
+0to1/begin1
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡Mátala... *Buf*... a ELLA!
+
+0to1/begin2
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡Como sacrificio... *Gruñe*... a ELLA!
+
+0to1/begin3
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    Astuta... Bruja del Mar... Di... tus... últimas... palabras...
+\CBmp[SeaWitch,8]\C[4]Falsa Bruja del Mar：\C[0]    Tengo tanta hambre......
+
+0to1/begin4
+\CBmp[GuardM2,2]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    Tanta hambre\..\..\..
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡Mirad...! No lo dudéis, ella no es la verdadera... Bruja del Mar... ¡Domina... todo el pescado del mundo....!
+
+0to1/begin5
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡La verdadera Bruja del Mar no puede tener hambre... eres una falsa Bruja del Mar...!
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡Sufre *Gruñe*... y... MUERE!
+\CBmp[SeaWitch,2]\C[4]Falsa Bruja del Mar：\C[0]    *Llora*...
+
+0to1/begin6
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¿Quién...?!
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡Es la fuente del mal...!
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]Guerrero Pez：\C[0]    ¡MÁTALA...!
+\CBmp[SeaWitch,8]\C[4]Falsa Bruja del Mar：\C[0]    No\..\..\.. D-Deteneos..\.. Comidaaaaa......
+
+0to1/begin7
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué es este alboroto?!
+
+1to2/begin0
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué?! ¡¿Qué ha pasado aquí?!
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\C[0]    ¿Por qué hay tantos peces... muertos?
+\CBmp[SeaWitch,8]\prf\C[4]Falsa Bruja del Mar：\C[0]    Mucha... H-hambre......
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Eh...?
+\CBmp[SeaWitch,8]\prf\C[4]Falsa Bruja del Mar：\C[0]    Me muero... de hambre...
+\CBct[8]\m[fear]\c[6]Lona：\C[0]    .....
+
+2to3/begin0
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    Emmm... ¿Disculpa...?
+\CBmp[SeaWitch,8]\prf\C[4]Falsa Bruja del Mar：\C[0]    Ggg... H-Hambre...
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    ¿Hambrienta?
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    ¿No está este templo rodeado de peces?
+\CBmp[SeaWitch,8]\prf\C[4]Falsa Bruja del Mar：\C[0]    N-necesito... el jugo... de hombre... Un hombre...
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    No parece ser de los Hombres Pez... ¿Será una sirena legendaria?
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    ¿Podrá concederme mi deseo?
+
+3to4/begin_opt
+\CBmp[SeaWitch,8]\prf\C[4]Sirena：\C[0]    Necesito... un H-Hombre...
+\m[confused]\c[6]Lona：\C[0]    Hmmm... \optB[Cancelar,Sugerir un hombre<r=HiddenOPT0>,Dar esperma<r=HiddenOPT1>,Dar comida]
+
+3to4/begin_other0
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    ¿Estás bien? ¿Sigues hambrienta? ¿Quieres que te traiga vegetales o carne...?
+\CBmp[SeaWitch,8]\prf\C[4]Sirena：\C[0]    N-No... Necesito un hombre... Solo el jugo- *Jadea* -de hombre... me ayudará...
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    ¿Qué clase de petición es esa? ¿Hablas en serio?
+\CBmp[SeaWitch,8]\prf\C[4]Sirena：\C[0]    P-Por favor... Yo... *GIME* t-te lo suplico... Ayúdameee...
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    Lo intentaré...
+
+3to4/begin_other1
+\board[Sirena Hambrienta]
+Tarea：¿Ayudar a esta mujer extraña a encontrar hombres o esperma?
+Recompensa：Hmmm...
+Cliente：¿Sirena?
+Repetible：Una vez
+Encuentra un héroe atraído por las sirenas.
+O tráele 10 unid. de Esperma o 5 unid. de Proteína.
+
+####################################################### COMIDA
+
+3to4/ItemTransfer
+\CBmp[SeaWitch,8]\prf\C[4]Sirena：\C[0]    Oh......
+
+3to4/ItemTransfer_Win
+\CBct[20]\m[shy]\c[6]Lona：\C[0]    De verdad te lo comes...
+
+3to4/ItemTransfer_Failed
+\CBmp[SeaWitch,8]\prf\C[4]Sirena：\C[0]    Mmmmmm....
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    Parece que no le gusta lo que le dieron. ¿Será que no es lo que necesita o que es insuficiente?
+
+####################################################### HOMBRE
+
+3to4/traveler_begin0
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    ¿Has oído hablar de los semibestias? He tenido sexo con muchas hembras de otras especies.
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    ¡Algunas estaban cubiertas de pelaje, y otras tenían orejas muy largas!
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    Solo me faltan los Hombres Pez...\n ¡Estoy seguro de que las hembras Pez son increíbles!
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    ¡Oh sí! Solo queda tachar a los Hombres Pez de mi lista. ¡No puedo esperar a conocer a una chica Pez!
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    Em...
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    ¡Estoy ansioso por conocer una! ¿Has oído historias sobre sirenas?
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    ¡Seguro que ya lo sabes! ¡Me imagino lo húmeda y resbaladiza que debe ser su cloaca!
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    Señor...
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    ¡No lo soporto más! ¡Debo correrme en una de ellas ahora mismo!
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    En realidad encontré una sirena. Parece que también necesita ayuda masculina. ¿Podrías ser tú quien la salve...?
+\CBmp[MonsterLover,20]\prf\c[4]Viajero：\C[0]    ¡¿Q-QUÉ?! ¡¡JODER!! ¡¿DÓNDE?! ¡¡LLÉVAME CON ELLA!!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡E-Espera! ¡No tan rápido!
+
+3to4/traveler_begin1
+\CBmp[MonsterLover,5]\prf\c[4]Viajero：\C[0]    \{¡LLÉVAME\. CON\. ELLA\. AHORA\. MISMO!!!
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\C[0]    \{V-Vale!
+
+3to4/traveler_begin2
+\board[Escolta al Viajero]
+Tarea：Llevar al Viajero a la Sirena
+Recompensa：Gran Medallón x2\i[582]
+Cliente：Viajero
+Plazo：2 días
+¡¡SIRENA!!!
+
+3to4/CommonConvoyTarget0
+\CBid[-1,20]\c[4]Viajero：\C[0]    ¡Date prisa, llévame con la Sirena! ¡Rápido!
+
+3to4/CommonConvoyTarget1
+\CBid[-1,20]\c[4]Viajero：\C[0]    ¡Mira al monstruo en mi posición encorvada! ¡Mi pequeño no puede aguantar más!
+
+3to4/CommonConvoyTarget2
+\CBid[-1,20]\c[4]Viajero：\C[0]    ¿Dónde está? ¡¿Dónde está la Sirena?!
+
+3to4/QmsgTar
+¡Llévame con la Sirena rápido!
+
+3to4/ManSucker_closer
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    Emmm... ¿Estás bien? Te traje un hombre.
+\CBmp[SeaWitch,8]\prf\C[4]Sirena：\C[0]    M-Más cerca... Tráelo... aquí... Puedo... olerlo... D-Deprisa......
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    Vale.
+
+3to4/ManSucker_win0
+\CBfE[20]\c[4]Viajero：\C[0]    \..\..\..
+\CBfE[20]\c[4]Viajero：\C[0]    ¡Esto... Esto no es una Sirena!
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    ¿Qué? ¿No lo es...?
+
+3to4/ManSucker_win1
+\CBfE[20]\prf\c[4]Viajero：\C[0]    -¡No es SOLO una Sirena! \n ¡ES UNA CHICA-PULPO!!!
+
+3to4/ManSucker_win2
+\CBfE[20]\prf\c[4]Viajero：\C[0]    ¡Qué locura! ¡Mira a mi pequeño! ¡Ha crecido tanto!
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    ¿Ahaha?
+
+3to4/ManSucker_win3
+\CBfE[20]\prf\c[4]Viajero：\C[0]    ¡Muchas gracias! ¡Toma, te lo mereces!
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Emmm... ¿Gracias?
+
+3to4/ManSucker_win4
+\CBmp[SeaWitch,4]\prf\C[4]Sirena：\C[0]    ¡Hombre...! ♥♥♥ Es... un hombre.~ ♥
+\CBfE[4]\prf\c[4]Viajero：\C[0]    ¡Jojo! ♥ ¡No te apresures! ♥ Ahora lo haré todo...
+
+3to4/ManSucker_win5
+\CBfE[4]\prf\c[4]Viajero：\C[0]    ¡Aaahhhh! ♥ ♥
+\CBfE[4]\prf\c[4]Viajero：\C[0]    Este agujero húmedo... ♥ T-Tan bueno...!~ ♥
+
+3to4/ManSucker_win6
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    Fe... 
+\CBct[2]\m[confused]\c[6]Lona：\C[0]    ¿De verdad están haciéndolo sin dudarlo...?
+\CBct[2]\m[shy]\c[6]Lona：\C[0]    ¿Debería siquiera mirarlos...?
+\narr Lona decidió que no debía mirar cómo esos dos... copulaban. Se giró y se tapó los oídos.
+
+3to4/ManSucker_win7
+\CBfE[4]\c[4]Viajero：\C[0]    ¡Ahhmmf! ¡Ooohhh! ♥ ¡Voy a correrme! ♥ ¡M-ME CORRO!!!~ ♥♥♥
+
+3to4/ManSucker_win8
+\CBfE[4]\c[4]Viajero：\C[0]    *Ufff*... *Fuff*... ♥ Pulpita... ♥ Q-Qué rico ♥
+
+3to4/ManSucker_win9
+\CBmp[SeaWitch,4]\C[4]Sirena：\C[0]    Quiero-... *Jadea* -más...♥ Dame... más...~ ♥
+\CBfE[1]\c[4]Viajero：\C[0]    Espera... ¡espera! ¡La cabeza de mi pene está muy sensible ahora! ¡Espera un minuto!
+
+3to4/ManSucker_win10
+\CBfE[2]\c[4]Viajero：\C[0]    ¡¿Qué?! ¿Mi cintura? ¡¿Por qué se mueve sola?! ¡UN SEGUNDO!
+\CBmp[SeaWitch,4]\C[4]Sirena：\C[0]    Más... ♥ Necesito... ¡MÁS! ♥
+
+3to4/ManSucker_win11
+\CBfE[1]\c[4]Viajero：\C[0]    ¡Me corro de nuevo! ¡ME CORRO!!!
+
+3to4/ManSucker_win12
+\CBfE[20]\c[4]Viajero：\C[0]    ¡NO PUEDO DEJAR DE CORRERME!
+\CBfE[20]\c[4]Viajero：\C[0]    ¡NO! ¡ME VAN A DEJAR SECO!
+\CBfE[20]\c[4]Viajero：\C[0]    ¡ME EQUIVOQUÉ! ¡D-DÉJAME IR!
+
+3to4/ManSucker_win12_1
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    ¿Parece que ya terminaron...?
+
+3to4/ManSucker_win13
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿EH?! ¡¿Q-Qué ha pasado aquí?! ¡¿Está muerto?!
+
+####################################################### renacer
+
+3to4/Done0
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\C[4]Sirena：\C[0]    ¡RENAZCO DESDE LAS PROFUNDIDADES DEL OCÉANO!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¡EEEHHH!!!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Sirena：\C[0]    ...¿Fuiste tú? Tsss... ¿Una insignificante como tú? ¿Tú me alimentaste y salvaste?
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\C[0]    \..\..\..¿S-Supongo que sí?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Sirena：\C[0]    Parece que el poder del jugo masculino solo me da energía para moverme.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... ¿Eres un Hombre Pez? ¿Y puedes hablar como los humanos?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]  ¡¿CÓMO TE ATREVES?! ¿Eres idiota? ¡Yo soy la \c[6]Bruja del Mar\C[0]! Diosa de la pesca y la cosecha.
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿D-diosa!?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    Así que, ¿fuiste tú quien me dio jugo masculino? ¡Cumpliré un deseo tuyo! ¡Dime tu deseo!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em\..\..\.. 
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Quiero que todo vuelva a ser como antes de la Niebla Negra?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ...¿Ese es tu deseo?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿No es posible, verdad?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡ESO ES JUSTO lo que estoy intentando hacer ahora! ¡Tu estúpido deseo será rechazado!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Cuando recupere toda mi fuerza, escucharé otro de tus estúpidos deseos!
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿En serio?
+
+4to5/Question_beginNormal
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]Bruja del Mar：\C[0]    ¿Qué necesitas, ser inferior?
+
+4to5/Question_beginDeepone
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]Bruja del Mar：\C[0]    Hija mía, ¿qué buscas?
+
+4to5/Question
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona：\C[0]    Em... \optB[Nada,Sobre ti,¿Falsa Bruja del Mar?,Alguien te busca<r=HiddenOPT0>,¿Mi hija?<r=HiddenOPT1>]
+
+4to5/Question_BloodLine0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Mi hija?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Bruja del Mar：\C[0]    En verdad, eres hija de los mares. Por lo tanto, mi hija.
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿No quieres volver a casa, a las profundidades del océano? ¿Volver con la Madre de los mares?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ummm, no, no realmente.
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    Qué extraño.
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿A esta edad sigues siendo humana? ¿Te pasa algo?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿Nunca has tenido el pensamiento o el deseo de saltar al mar?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Nunca tuve motivos para ello. ¿Por qué querría saltar al mar?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿Nunca has pensado que eres diferente? ¿Que no eres como esas criaturas inferiores?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿Como si fueras algo más que un simple ser inferior?	 
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Mmmm... No lo creo.
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    Espera, déjame intentar algo...
+
+4to5/Question_BloodLine1
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    \...\...\...
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿Qué, nada?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿No sientes nada?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Em... Parece que no...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Maldición! ¡¿Estoy tan débil?!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Estás bien? ¿Tienes hambre de nuevo?
+\CBmp[SeaWitch,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡No, déjame en paz! ¡Vete!
+
+4to5/Question_AboutU
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿De verdad eres una diosa? ¿No fueron todos los falsos dioses destruidos por el \c[4]Santo\C[0]?
+\CBmp[SeaWitch,1]\SETpl[Si de verdad eres una Diosa, ¿por qué el mundo sufre ahora?SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar\C[0]    ¡IMBÉCIL ATREVIDA!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Soy la madre de todos los seres marinos! ¡La gran \c[6]Bruja del Mar\C[0]!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿Cómo puede un Santo tan débil y mortal... un ser inferior, siquiera compararse conmigo?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Oh? Perdón.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Entonces... ¿Eres realmente una Diosa?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Por supuesto!
+\CBct[2]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Pero si eres una diosa, ¿por qué pasó todo esto?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Bruja del Mar：\C[0]    \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Bruja del Mar：\C[0]    No soy la única diosa. Hay otras deidades malvadas en este mundo.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Entonces todo el mal fue creado por dioses malvados?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Exacto!
+
+4to5/Question_AboutFake
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Escuché que existen Brujas del Mar falsas. ¿Cómo es eso?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡SON IDIOTAS CON MEDUSAS EN LUGAR DE CEREBROS! ¡Solo hay UNA BRUJA DEL MAR! ¡No existen falsas!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Agoté todas mis fuerzas repeliendo la invasión de dioses malvados! ¡Por todos los habitantes del mar y los océanos!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Les di una pesca abundante durante la marea alta! ¡Les ordené defenderse de los dioses malvados!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿Y aún así algunos idiotas apuntan sus aletas hacia mí y me declaran una ¡DIOSA FALSA?!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡¿Y SE ATREVIERON A APROVECHAR MI DEBILIDAD PARA DAÑARME?!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    
+¡MISERABLES, PATÉTICOS, PUTO IMBÉCILES!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm... tu forma de hablar...
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Bruja del Mar：\C[0]    \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡MIERDA!
+
+4to5/Question_Some1Look0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Emm...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0] ¿Qué pasa? ¿Acaso un ser inferior vino a postrarse ante la poderosa \C[6]Bruja del Mar\C[0]?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    No. En realidad, alguien te busca. Dice ser tu arrendador y parece que le debes el pago mensual.
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Bruja del Mar：\C[0]    \..\..\..
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    Qué\..\..\.. ¿Cómo se veía ese ser? 
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Mmmm... ¿parecido a un cadáver?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿Y casualmente no hablaba todo el tiempo sobre justicia?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\C[0]    ¡Sí! ¡Era él!
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Bruja del Mar：\C[0]    \..\..\..
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡P-PUTA MIERDA! ¡ESTOY JODIDA!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué pasó?!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡TODO TERMINÓ! ¡TERMINÓ! ¡TERMINÓ! ¡SE ACABÓOOO!!!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué demonios está pasando?!
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡NO! ÉL-\..\..\..! Está aquí\..\Cthulhu..\..\n ¡ES UN DIOS MALVADO! ¡SÁLVAME!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+4to5/Question_Some1Look1
+\narr\SndLib[sound_UndeadSurprise]¡La Justicia aparece de repente y cae del cielo!
+\narrOFF\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡¿AAAHHH?!
+
+4to5/Question_Some1Look2
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Justicia：\C[0]    ¡LA JUSTICIA HA LLEGADO! ¡EL MAL DEBE TEMER! ¡PORQUE YO SOY... LA JUSTICIA!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Bruja del Mar：\C[0]    ¡NO! ¡N-No es mi culpa! ¡N-No puedes culparme de todo!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Justicia：\C[0]    ¡ERES LA ENCARNACIÓN DE MI MALDAD!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Justicia：\C[0]    ¡LA JUSTICIA NO PERDONARÁ TUS PECADOS!
+
+4to5/Question_Some1Look3
+\CBct[5]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué estás haciendo?! ¡No la toques!\n Yo no...
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido：\C[0]    \..\..\..
+
+4to5/Question_Some1Look4
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Bruja del Mar：\C[0]    ¡¡¡AAAHHH!!!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia：\C[0]    ¡NO FINJAS SER TONTA!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia：\C[0]    ¡YA LE PREGUNTÉ A "ELLA"!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia：\C[0]    ¡¿SABES CUÁNTOS PROBLEMAS ME HAN CAUSADO USTEDES, DOS TONTAS?!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Bruja del Mar：\C[0]    ¡P-PERDÓN!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia：\C[0]    ¡SI PODEMOS ARREGLAR ESTO, ENTONCES TENDRÉ QUE LIDIAR CON TODA LA ISLA!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia：\C[0]    ¿CREES QUE AHORA ESTO ES "TU" HOGAR?
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Bruja del Mar：\C[0]    ¡*Sollozo* P-PERDÓNAME!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia：\C[0]    Olvídalo, ella ya compensó todo el daño que causaste.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justicia：\C[0]    ¿O QUIERES SEGUIR DISCUTIENDO CON ELLA?!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Bruja del Mar：\C[0]    PERDÓN *Llanto* ¡PERDÓN! ¡YO *Hip* ME DISCULPARÉ CON ELLA!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Justicia：\C[0]    ¡YO SERÉ EL PRÓXIMO PROTAGONISTA!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Justicia：\C[0]    ¡Y TÚ DEBES ACOMPAÑARME DURANTE TODO EL VIAJE!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Justicia：\C[0]    ¿ENTENDIDO?!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Bruja del Mar：\C[0]    ¡E-Entendido!
+
+4to5/Question_Some1Look5
+\CBct[5]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    \..\..\..¡te dejaré llevártela!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Buena cazadora, toma. ¡Te lo has ganado!
+
+4to5/Question_Some1Look6
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Es una reliquia sagrada del Santo.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Solo reza a la Justicia y destruirá todo el mal.
+\CBct[5]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    "...¿Eh?"
+
+4to5/Question_Some1Look7
+\CBct[5]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿AAHH?!
+\CBct[5]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué está pasando? ¿Qué pasó? ¿A dónde fueron?!
+
+######################################################################################### violación inversa en fishcave3
+
+reverseRape/begin1
+\C[4]Bruja del Mar：\C[0]    ¿Algo va mal? Actúas como si te estuvieras ahogando~ ♥
+
+reverseRape/begin2
+\c[4]Viajero：\C[0]    ¡Basta! ¡No puedo dejar de c-correrme! ¡Déjame ir!
+
+reverseRape/begin3
+\C[4]Bruja del Mar：\C[0]    ¡Acabamos de empezar! ♥ Aún no... me he saciado~ ♥
+
+reverseRape/begin4
+\C[4]Bruja del Mar：\C[0]    Sigue corriéndote~ ♥
+\C[4]Bruja del Mar：\C[0]    Dices que no, pero tu cuerpo sabe mejor. ♥
+
+reverseRape/begin5
+\c[4]Viajero：\C[0]    P-Piedad... Por mí...
+
+reverseRape/begin6
+\C[4]Bruja del Mar：\C[0]    ¿No decías que podrías satisfacerme? Podrás hacerlo...~ ♥
+
+reverseRape/begin7
+\C[4]Bruja del Mar：\C[0]    ¡Deberías estar agradecido!
+\C[4]Bruja del Mar：\C[0]    ¡Tu miserable alma será devuelta al océano! ♥ ¡Absorbida por la gran Diosa del Mar! ♥
+
+reverseRape/begin8
+\narr Cuando se acabó el semen, el viajero comenzó a eyacular sangre.
+Sus orgasmos interminables continuaron hasta la muerte...
+
+######################################################################################### Primer Encuentro Combate Seguidor Único.
+FirstMeet/BothBegin
+\CBct[5]\m[flirty]\plf\Rshake\c[6]Lona：\C[0]    Emmm....
+
+FirstMeet/Cocona0
+\CBfB[20]\SETlpr[cocona_confused]\Rshake\c[4]Cocona：\C[0]    \..\..\..
+\CBfB[20]\SETlpr[cocona_shocked]\Rshake\c[4]Cocona：\C[0]    *Olfatea* *Olfatea*...! ¡ES UNA MENTIROSA! ¡Mala!
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    Hmmm\..\..\..\..?
+\CBid[-1,2]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Bruja del Mar：\C[0]    Esa energía oscura, necromántica... ¿No estarás relacionada con... ÉL?
+\CBid[-1,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿ÉL TE ESTÁ ESPIANDO? ¿DÓNDE ESTÁ?
+\CBfB[5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\C[0]    ¡HISSSSSSS!!!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ejem... Esta es Cocona y es mi buena amiga.
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    \..\..\..¿Entonces me equivoqué? ¿Él no está aquí?
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡Muy bien! ¡Simplemente maravilloso!
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Q-Qué...?
+
+FirstMeet/Cecily0
+\CBfB[2]\SETpr[CecilyNormalAr]\Rshake\C[4]Cecilia：\C[0]    ¿Es eso... un MONSTRUO?!
+\CBid[-1,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¿MONSTRUO? ¿A quién llamas monstruo? ¡Eres un ser inferior, débil, estúpido, insecto!
+\CBfB[5]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Cecilia：\C[0]    ¡¿INSECTO?! ¡Mira quién habla! ¡Asqueroso gusano con cara de pez!
+\CBid[-1,5]\CBfB[5]\SETpr[CecilyAngryAr]\SETpl[SeaWitch_angry]\Lshake\Rshake\C[4]Cecilia：\C[0]    TÚ ERES UN INSECTO PATÉTICO.\n\C[4]Bruja del Mar\C[0]    ¡TÚ ERES UN SER INFERIOR!
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Bruja del Mar：\C[0]    \..\..\..\..\CBid[-1,9]\SETpl[SeaWitch_normal]\Lshake?
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Bruja del Mar：\C[0]    ¡HMPF! Mis pechos son MUCHO más grandes que los tuyos, inútil alga marina!
+\CBfB[6]\SETpr[CecilySadAr]\plf\Rshake\C[4]Cecilia：\C[0]    ¡¿A-AHH?!

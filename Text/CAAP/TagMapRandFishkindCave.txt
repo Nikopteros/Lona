@@ -1,0 +1,58 @@
+FishkindCave1/OvermapEnter
+\m[confused]Una cueva de la que emana un olor a pescado \optB[Cancelar,Entrar]
+
+FishkindCave3/OvermapEnter
+\m[confused]Santuario de la Fertilidad \optB[Cancelar,Entrar]
+
+Lona/TimerStart
+\narr El rugido de monstruos que se acercan resuena por la húmeda caverna.
+\narrOff\m[fear]\c[6]Lona：\C[0]    Debo actuar rápido...
+
+#############################################################################
+
+Lona/RapeLoopNonCapture
+\m[fear] Los Profundos agarraron a Lona. Le quitaron todas sus pertenencias.
+\m[terror] Estaban muy contentos de encontrar una nueva madre para su progenie.
+
+Lona/RapeLoopCaptured
+\m[terror] A los Profundos no les bastó, y ni siquiera pensaron en dejar descansar a Lona.
+\m[fear] Expusieron sus repugnantes genitales. Quieren llenar a Lona de semen hasta preñarla...
+
+#-----------------------------
+
+Lona/RapeLoopDragOut
+\m[hurt] Los Profundos arrastraron a Lona fuera. Planean una orgía festiva.
+
+Lona/RapeLoopTorture
+\m[fear] Los Profundos están enfurecidos por el intento de escape de Lona. Quieren enseñarle una lección: lo que significa ser madre de su progenie...
+
+#-----------------------------
+
+Exit/Triggered
+¿Algo ha cambiado?
+
+########################### QUEST FishkindHunt2
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]Mercenaria：\C[0]    ¿Qué hacemos?
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]Mercenaria：\C[0]    Ooohhh... ¿Quién... eres...? \optB[Solo paso por aquí...,¡Te salvaré!]
+
+CommonConvoyTarget/begin0
+\prf\c[4]Mercenaria：\C[0]    Ayúdame...
+\m[serious]\PRF\c[6]Lona：\C[0]    ¿Estás bien?
+\prf\c[4]Mercenaria：\C[0]    Ooouohh...
+
+victim/Convoy_start
+\board[Escolta al Campamento]
+Misión: Acompañar a la víctima al Campamento de los Pantanos
+El objetivo no debe morir.
+
+CommonConvoyTarget/Hev0
+\SETpr[FishCaveRBQ] Ella yace sobre un montón de restos de pescado, rodeada del hedor de pescado podrido. Al parecer, los Profundos no planeaban matarla,
+sino que el pescado servía como alimento. Para facilitar el coito con sus grandes genitales, los Profundos usan puños y manos para dilatar la vagina de la mujer.
+Los Profundos desconocían el sufrimiento y dolor que esto causaba a la mujer.
+No comprenden el dolor de la maternidad y creen que la mejor madre es simplemente la que sobrevive para la siguiente camada.
+Su vagina floja, ano dilatado y pelvis ensangrentada estaban cubiertos de moretones y heridas desgarradas...
+Ella es una mercenaria, una viajera. Su cuerpo resistente le permitió sobrevivir, pero no durará mucho más......

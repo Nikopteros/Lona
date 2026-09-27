@@ -1,0 +1,184 @@
+#note 指路人=beacon
+
+OP/EXIT
+結束並離開？
+
+OP/EXIT_yes
+\CBct[2]\m[confused]\c[6]洛娜：\c[0]    \...\...唔？
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{是誰！！！\}
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    \....咦？這是...\....夢嗎？
+
+OP/b4Begin0
+黑霧奪走了所有。
+
+OP/b4Begin1
+我失去了...我的家園...
+
+OP/b4Begin2
+我的親人...我的一切...
+
+OP/b4Begin3
+我...什麼...也沒有了......
+
+OP/begin0
+\CBmp[teacher,20]\c[4]未知：\c[0]    噢！ 妳總算來了。
+\CBmp[teacher,20]\c[4]未知：\c[0]    我等很久了。妳是工會派來處理這些死耗子的吧？
+\CBmp[teacher,20]\c[4]未知：\c[0]    從一月開始這裡的老鼠就有些不對勁了。
+\CBmp[teacher,20]\c[4]未知：\c[0]    隨我來吧。
+
+OP/begin1
+\CBmp[teacher,20]\c[4]未知：\c[0]    話說那個孩子叫什麼來著...？
+\CBmp[teacher,8]\c[4]未知：\c[0]    \...\...\...噢... \c[6]菲菈\c[0]！？
+\CBmp[teacher,20]\c[4]未知：\c[0]    我本想以她作為我的指路人，但憎恨吞噬了她的意念。
+\CBmp[teacher,20]\c[4]未知：\c[0]    本以為能及時開導她，但終究還是太遲了。
+\CBmp[teacher,20]\c[4]未知：\c[0]    不過還好有妳的出現，希望妳能解決我們所遇到的困境。
+\CBmp[teacher,20]\c[4]未知：\c[0]    環顧四周吧。
+
+OP/begin2
+\CBmp[teacher,20]\c[4]未知：\c[0]    這殘酷的世界，不是嗎?
+\CBmp[teacher,20]\c[4]未知：\c[0]    他們與妳同樣來自\c[6]席芭莉絲\c[0]，也與妳一樣失去了家園。
+\CBmp[teacher,20]\c[4]未知：\c[0]    但...妳不同！妳...並沒有失去希望。對吧？
+\CBmp[teacher,20]\c[4]未知：\c[0]    繼續前進吧...
+
+OP/begin3
+\narr切換方向對偵查環境與戰鬥十分的重要。
+\narr前行之前一定要將四周看清楚。
+
+OP/begin4
+\CBmp[teacher,20]\c[4]未知：\c[0]    太暗？ 猶如那晚的\c[6]黑霧\c[0]？
+\CBmp[teacher,20]\c[4]未知：\c[0]    抱歉，讓妳回想起曾經的傷痛。
+\CBmp[teacher,20]\c[4]未知：\c[0]    來！過來點燃這火盆。
+\CBmp[teacher,20]\c[4]未知：\c[0]    正義會如同光明般照耀，驅散一切的邪惡與黑暗。
+
+OP/begin5
+\CBmp[teacher,20]\c[4]未知：\c[0]    這下可好多了吧。
+\CBmp[teacher,20]\c[4]未知：\c[0]    我保證那晚的黑暗不會再發生了。
+
+OP/begin6
+\CBmp[teacher,20]\c[4]未知：\c[0]    嗯？  等等\...\... 這是什麼？
+
+OP/begin7
+\CBmp[teacher,20]\c[4]未知：\c[0]    噢！看來妳似乎忘了東西在這。
+\CBmp[teacher,20]\c[4]未知：\c[0]    帶走吧，這些本該就是屬於妳的。
+
+OP/begin8
+\CBmp[teacher,20]\c[4]未知：\c[0]    最初...我以為又是打翻了什麼之類的。
+\CBmp[teacher,20]\c[4]未知：\c[0]    但來這之後，我沒有料想到情況竟是如此慘烈。
+\CBmp[teacher,20]\c[4]未知：\c[0]    不過...我很清楚兇手是誰。
+\CBmp[teacher,8]\c[4]未知：\c[0]    ...嗯？
+\CBmp[teacher,20]\c[4]未知：\c[0]    東西都撿齊了？
+\CBmp[teacher,20]\c[4]未知：\c[0]    好，繼續往前走吧。
+
+OP/begin9
+\narr小型物件須站在相同位置才能觸發。
+\narr中大型物件則需要面對該物件才能觸發。
+\narr遊戲中撿取、對話、交易等一切行為都需要觸發鍵來執行。
+
+OP/begin10
+\CBmp[teacher,20]\c[4]未知：\c[0]    對...我剛...說到哪了...？
+\CBmp[teacher,20]\c[4]未知：\c[0]    唉！我最討厭的就是忙到途中還得抽身去處理別的事。
+\CBmp[teacher,20]\c[4]未知：\c[0]    為什麼我得去處理祂捅出來的樓子阿？
+\CBmp[teacher,20]\c[4]未知：\c[0]    說不定...祂根本是故意的！？
+
+OP/begin11
+\CBmp[teacher,8]\c[4]未知：\c[0]    \....\....\....
+\CBmp[teacher,20]\c[4]未知：\c[0]    嗯？妳說地上的東西？
+\CBmp[teacher,20]\c[4]未知：\c[0]    對。這也是妳落下的。
+
+OP/begin12
+\CBmp[teacher,20]\c[4]未知：\c[0]    唉！我知道，祂只是想趕快追上我們的腳步。
+\CBmp[teacher,20]\c[4]未知：\c[0]    但...這事本該就是不能強求啊...
+
+OP/begin13
+\narr使用組合鍵撿取物品將會直接使用或裝備。
+
+OP/begin14
+\CBmp[teacher,20]\c[4]未知：\c[0]    祂們把我的家搞成了這副模樣，那現在呢？
+\CBmp[teacher,5]\c[4]未知：\c[0]    居然還給我逃走了？！ 喂！開甚麼玩笑阿！
+
+OP/begin15
+\narr選單介面包含了所有的角色資訊與設定。
+\narr包含健康狀況、裝備、物品使用、存檔，以及系統設定。
+
+OP/begin16
+\CBmp[teacher,20]\c[4]未知：\c[0]    嘿！妳來看看這個。
+
+OP/begin17
+\CBmp[Atk,19]\c[4]未知：\c[0]    這是\c[6]菲菈\c[0]的作品。
+\CBmp[teacher,20]\c[4]未知：\c[0]    這都是為了防止那些無家可歸的人進入她的領地。
+\CBmp[teacher,20]\c[4]未知：\c[0]    但諷刺的是，最終她也成了那些人的一份子。
+\CBmp[teacher,20]\c[4]未知：\c[0]    這是她的命運。 那妳呢？ 妳命運會如何呢？
+
+OP/begin18
+\CBmp[teacher,20]\c[4]未知：\c[0]    去吧！孩子。
+\CBmp[teacher,20]\c[4]未知：\c[0]    這就是妳的命運。
+\CBmp[teacher,20]\c[4]未知：\c[0]    去面對它吧。
+
+OP/ToTrigger1
+使用觸發鍵進行對話
+
+OP/ToTrigger2
+妳的觸發鍵為
+
+OP/UX_GOTO0
+使用
+
+OP/UX_GOTO1
+前往指定地點。
+
+OP/CHANGE_DIR0
+嘗試切換四個不同的方向。
+
+OP/FaceFirePitAndPress
+面對火盆並按
+
+OP/5Times
+將其觸發五次。
+
+OP/StandOnItemAndPress
+站在該物品上，並按
+
+OP/ToPickItem
+來撿取該物品。
+
+OP/ToPickAndEquip
+來撿取該物品並裝備。
+
+OP/ToMenu0
+使用選單鍵進入選單，
+
+OP/ToMenu1
+並再次使用該鍵離開選單介面。
+
+OP/ToMenu2
+您的選單鍵為
+
+OP/ToEquip1
+於裝備頁面"S-ARM"欄位裝備提燈
+
+OP/ToEquip2
+ 
+
+OP/ToSkill1
+並於技能頁面將"主技能"設定至
+
+OP/ToSkill2
+技能欄位。
+
+OP/ToATK0
+使用"主技能"或其他攻擊技能
+
+OP/ToATK1
+來摧毀目標障礙物。
+
+OP/ToRELAX0
+妳累了。
+
+OP/ToRELAX1
+將"休息"從技能頁面中放入技能列
+
+OP/ToRELAX2
+並用它回復妳的體力。
+
+OP/ToEND
+離開這裡。

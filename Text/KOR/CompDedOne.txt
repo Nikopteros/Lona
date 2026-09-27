@@ -1,0 +1,157 @@
+
+DedOne/ded0
+\SETpl[DedOne_revenant]\Lshake\c[4]???：\c[0] 아아아아아!!! IDDQD IDKFA!!!!
+
+DedOne/ded1
+\SETpl[DedOne_revenant]\Lshake\c[4]???：\c[0] 아아아아아!!! 네가 내 시나리오를 망쳤어!
+
+DedOne/ded2
+\SETpl[DedOne_revenant]\Lshake\c[4]???：\c[0] 아아아아아!!! 총! 더 많은 총을 줘!
+
+DedOne/PirateBane_begin1
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\c[4]???：\c[0] .....
+\CBct[1]\m[terror]\plf\Rshake\c[6]로나：\c[0] 끼야악!!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] .........
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] ...
+\CBct[1]\m[confused]\plf\PRF\c[6]로나：\c[0] 음...
+\CBct[20]\m[serious]\plf\Rshake\c[6]로나：\c[0] 너, 나 안 무서워!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] .....그래?
+\CBct[1]\m[terror]\plf\Rshake\c[6]로나：\c[0] 끼야악!! 말을 했어!!
+
+DedOne/PirateBane_begin_k1_Cocona
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\SETlpr[cocona_confused]\Lshake\PRF\c[4]???：\c[0] ......음?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\PRF\c[4]???：\c[0] 이 아이가 아직 살아 있었나?...
+\CBfB[7]\SETlpr[cocona_shocked]\plf\Rshake\c[6]코코나：\c[0] 너! 코코나는 알아! 나쁜 사람!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 아니야, 난 아니야. 나는 정의의 동료야.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]코코나：\c[0] 너! 거짓말쟁이!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 아니야.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]코코나：\c[0] 맞아!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 아니라고!
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]코코나：\c[0] ..........
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\PLF\prf\c[4]???：\c[0] .......
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]코코나：\c[0] ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] ...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\Lshake\PRF\c[4]???：\c[0] 잘 돌봐줘.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어.....
+\CBct[1]\m[triumph]\plf\PRF\c[6]로나：\c[0] 당연하지!
+
+
+DedOne/PirateBane_begin_k1_GratRat
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]회색쥐：\c[0] 비켜!
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]회색쥐：\c[0] 너... 너 도대체 뭐야!?
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 왜 그래?
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]회색쥐：\c[0] 오지 마! 그 사람한테서 떨어져!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] ......음?
+\CBfB[2]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]세실리：\C[0] 대체 무슨 일이야?
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]회색쥐：\c[0] 저건 위험해! 빨리 도망쳐!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 너희들 제정신이야? 난 정의의 동료라니까!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 내가 대체 뭘 잘못했다고 그래?
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[6]회색쥐：\c[0] .......
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]회색쥐：\c[0] .......
+\CBfF[6]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]회색쥐：\c[0] 내가 오해했어, 미안.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 괜찮아. 이런 일 자주 있고, 난 이미 익숙하니까. 뭐, 정의의 동료니까 이해할 수 있어. 너희 무지를 말이야.
+
+DedOne/PirateBane_begin_k2
+\CBmp[DedOne,20]\m[confused]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 아가, 혹시 이런 사람 본 적 있니?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 너랑 또래인데... 가슴이 엄청 커.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 가슴...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 잘 들어! 걘 너랑 다르게, 진짜로 크다고. 거의 멜론만 해.
+\CBct[8]\m[shy]\plf\Rshake\c[6]로나：\c[0] 엄...청...커...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 실망하지 마, 작...크흠! 아니, 작은 것도 귀여워.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 아가! 내가 한 말 기억해!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 가슴이 평평하면 세상도 평평하지. 가슴이 크지 않으면 사람 마음도 모이지 않는 법이지. 
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 헛된 꿈에 빠지지 마라, 크든 작든 그게 다는 아니란다. 손을 아껴 쓰는 게 현명한 길이야.
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 나......
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 아! 울지 마... 농담이었어!
+
+DedOne/PirateBane_begin_k3
+\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 혹시 키 작고, 가슴 크고, 피부가 파란 멍청한 여자애를 만나면 나한테 데려와줘.
+\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 파란 피부의 여자아이는 잘 없지? 아마도? 혹시 밖에서 죽은 건 아니겠지.
+
+DedOne/PirateBane_begin_k3_Opt
+\CBct[8]\m[normal]\SETpl[DedOne_normal]\plf\PRF\c[6]로나：\c[0] 어...\optB[괜찮아,너 누구야,파란 피부<r=HiddenOPT0>]
+
+DedOne/PirateBane_begin_k3_Opt_who
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 너, 대체 누구야?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 정의! 나는 정의의 동료다!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 노엘 섬의 모든 악을 정화하기 위해, 정의가 강림할 것이다!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 악이 존재하는 한, 나도 존재한다!
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그래?
+
+DedOne/PirateBane_begin_k3_Opt_blue_NonMeet
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 파란 피부의 여자애?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 지금 바깥이 이렇게 혼란스러운데, 가능성은 적지 않을까?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 걘 괜찮아. 내가 시나리오에서 네가 꼭 그 애를 만난다는 걸 봤거든.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그래?
+
+DedOne/PirateBane_begin_k3_Opt_blue_Meet
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 파란 피부의 여자애?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 본 적은 있어. 자기가\c[6]바다 마녀\c[0]라고 하는 괴짜 맞지?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 아! 역시 내 시나리오대로구나! 다행이다!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 그녀한테 전해줘. 집주인이 밀린 집세 빨리 내라고, 이제 그만 숨으라고.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 집세? 그럼 직접 찾아가서 말하면 되잖아? 걘 지금 어토피아 섬의 유적에 있는데.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 소용없어. 그 애는 내 존재를 느낄 수 있거든. 나는 단지 집세 내라고 전해주려고 했을 뿐이야. 걔가 날 피하니 나도 굳이 찾아가고 싶진 않아.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]정의：\c[0] 물론, 너한테 헛수고만 시키진 않을게. 정의의 선물을 줄 거야.
+\CBct[20]\m[normal]\plf\PRF\c[6]로나：\c[0] 오? 알겠어.
+
+####################################################################### PB_MassGrave
+#<r=HiddenOPT0>
+
+DedOne/MassGrave_1
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] \..\..\..실례지만?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 무슨 일이야?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어...... 
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 길드 쪽에서 여기서 나쁜 짓을 하는 악당이 있다고 들었는데, 혹시...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] ......악당?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그 사람들이 말한 게, 혹시 당신인 것 같아서요?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] 나? 내가 악당이라고? \optD[맞아,설명해봐<r=HiddenOPT0>]
+
+DedOne/MassGrave_optCB
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 맞는 것 같은데...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] 왜? 나는 내 일에 집중하고 있고, 이 세상에는 내가 필요해.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 하지만 이미 근처 치안에 영향을 주고 있어요.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 다들 당신을 무서워해요... 그리고 저도 뭔가 사악한 기운이 느껴져요.
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]???：\c[0] 아아아아아아아아!!!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]???：\c[0] 뭐라고!!!! 나는 악당이 아니야!!! 난 정의라고!
+\CBmp[DedOne,1]\SETpl[DedOne_angry]\Lshake\prf\c[4]???：\c[0] 네 가치를 증명해! 30초를 줄게! 살아남으면 네 말 들어주지!
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 뭐라고?? 으으악!?
+
+DedOne/MassGrave_optCB2
+\CamMP[BlockerCam]\m[terror]\plf\PRF\c[6]로나：\c[0] 꺄악!?
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]???：\c[0] 죽어라!
+
+DedOne/MassGrave_optPASS
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 맞는 것 같은데...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] 왜? 난 지금 내 일을 하고 있어. 이 세상은 나를 필요로 해.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 일? 무슨 일인데?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] 길 잃은 양들에게 내가 길을 안내해줘야 해. 그들이 가야 할 곳으로 이끌어 주는 게 내 일이야.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 음... 잘 모르겠어.
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 아무튼 남한테 들키지 마. 괜히 문제만 커질 거야.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] 난 정의로운 일을 하고 있는데, 왜 숨어야 하고, 왜 가릴 필요가 있지?
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 하...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 그럼 제대로, 정상적으로 무고한 사람을 구하라고!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 정의로운 평범한 사람이 한밤중에 묘지에 있겠어? 대답해 봐!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]???：\c[0] 어\..\..\.. 난 이제 가볼게, 힘내라.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]로나：\c[0] 어?
+
+DedOne/MassGrave_optPASS2
+\CBct[20]\m[confused]\SETpl[nil]\PRF\c[6]로나：\c[0] 너 혹시 머리에 문제 있는 거 아니야?
+
+DedOne/MassGrave_WIN
+\SETpl[DedOne_angry]\Lshake\prf\c[4]???：\c[0] 네가 버텼구나! 넌 훌륭한 사냥꾼이야!
+\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] 그럼 안녕!
+\CBct[20]\m[wtf]\SETpl[nil]\plf\Rshake\c[6]로나：\c[0] 어!? 너 진짜 머리에 문제 있는 거 아니야?
+
+
+####################################################################### PB_NorthCP
+
+PB_NorthCP/Qmsg0
+나는 정의다!
+
+PB_NorthCP/Qmsg1
+걱정 마!
+
+PB_NorthCP/Qmsg2
+정의가 왔다!
+

@@ -1,0 +1,115 @@
+Catacomb/OvermapEnter
+\m[confused]Cementerio \optB[Cancelar,Entrar]
+
+Keeper/talk0
+¡Salen cada noche!
+
+Keeper/talk1
+No importa cuántos mates, habrá más.
+
+Keeper/talk2
+No puedo matarlos a todos. Es inútil...
+
+Guard/talk0
+Ya faltan manos para trabajar.
+
+Guard/talk1
+Qué desastre.
+
+Guard/talk2
+Esta isla está acabada.
+
+Guard/talk3
+Es hora de pensar en irse.
+
+Necropolis/Locked0
+Cerrado
+
+Necropolis/Locked1
+No se abre
+
+Necropolis/board
+\board[Catacumbas]
+Para evitar otra Gran Plaga,
+las catacumbas fueron selladas en 1729.3.8.
+
+Necropolis/CataUndeadHunt_done
+\m[flirty]\c[6]Lona: \C[0]    ¡Listo! 20 cadáveres.
+\m[confused]\c[6]Lona: \C[0]    Debemos salir de este lugar espeluznante.
+
+Necropolis/CataUndeadHunt_done2
+\m[confused]\c[4]Sepulturero: \C[0]    Muchas gracias, aquí están los documentos. Sal de aquí rápido.
+\m[triumph]\c[6]Lona: \C[0]    ¡Bien!
+
+Necropolis/CataUndeadHunt_done2_2
+\m[confused]\c[4]Guardia: \C[0]    ¿Lista? ¡Date prisa!
+\m[flirty]\c[6]Lona: \C[0]    ¡Sí!
+
+###################################### UNDEAD HUNT 2 QUEST
+
+Keeper/UndeadHunt2_1
+\CBid[-1,20]\c[4]Sepulturero: \C[0]    ¡Oh! ¿Eres tú otra vez? No puedo creer que te hayan enviado aquí de nuevo.
+\CBid[-1,20]\c[4]Sepulturero: \C[0]    ¿Acaso el gremio no tiene a nadie más que enviar?
+\CBct[5]\m[serious]\c[6]Lona: \C[0]    ¡Pero yo también puedo hacerlo!
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    Escucha, no es broma, ¡aquí es realmente peligroso!
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    Los magos de la familia Rosendo identificaron la fuente de energía negativa.
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    ¡Viene de las catacumbas!
+\CBct[2]\m[flirty]\c[6]Lona: \C[0]    ¿Qué?
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    Vamos, hablaremos en el camino.
+
+Keeper/UndeadHunt2_2
+\CBid[-1,20]\c[4]Sepulturero: \C[0]    ¿Sabes que la plaga azotó Noertown hace 40 años?
+\CBct[8]\m[sad]\c[6]Lona: \C[0]    Mi padre me lo contó.
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    Tras la plaga, Noertown perdió su estatus y vitalidad.
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    Luego fueron reemplazados gradualmente por habitantes de Síbaris, tan muertos como los cuerpos aquí.
+
+Keeper/UndeadHunt2_3
+\CBid[-1,20]\c[4]Sepulturero: \C[0]    En este lugar. Todas las víctimas de esa época fueron enterradas aquí o en las catacumbas.
+\CBid[-1,20]\c[4]Sepulturero: \C[0]    Para evitar otro brote de plaga, este lugar lleva cerrado 40 años.
+\CBid[-1,20]\c[4]Sepulturero: \C[0]    Los magos de la familia Rosendo solo usan plebeyos como nosotros.
+\CBid[-1,20]\c[4]Sepulturero: \C[0]    Por eso, debemos hacer todo nosotros mismos.
+
+Keeper/UndeadHunt2_4
+\CBct[8]\m[confused]\c[6]Lona: \C[0]    \..\..\..\..Esto significa...
+\CBct[2]\m[wtf]\Rshake\c[6]Lona: \C[0]    ¿Nosotros? ¿Entraremos ahí?
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    Sí, a eso iba con lo del peligro.
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    No te preocupes demasiado. Ninguna plaga puede durar más de 40 años. ¿Verdad?
+\CBct[8]\m[fear]\Rshake\c[6]Lona: \C[0]    Supongo...
+\CBid[-1,20]\prf\c[4]Sepulturero: \C[0]    Entra cuando estés lista.
+
+###################################### UNDEAD HUNT 2 Done with cocona
+
+Lona/UndeadHunt2_End
+\CBct[6]\m[shocked]\plf\PRF\c[6]Lona: \C[0]    ¡Es horrible!
+\CBfB[8]\SETlpl[cocona_sad]\PLF\prf：\C[0]Cocona: \C[0]    *Solloza*....
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona: \C[0]    .....
+\CBfB[6]\SETlpl[cocona_shocked]\PLF\prf：\C[0]Cocona: \C[0]    Papá... Mamá....
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    No llores... La hermanita te ayudará a encontrar un nuevo hogar.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    Confía demasiado en los demás, deberé cuidar de ella.
+
+Lona/CoconaMama_Bury
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Cocona, ¿tu mamá también podría convertirse en no muerta?
+\CBfB[6]\SETlpl[cocona_sad]\PLF\prf：\C[0]Cocona: \C[0]    Ma-má, el tiempo se acabó, fue nuestra última conversación.
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Verás, recuperé a tu mamá...
+\CBfB[1]\SETlpl[cocona_shocked]\PLF\prf：\C[0]Cocona: \C[0]    !!!!!
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf：\C[0]Cocona: \C[0]    ¡Dámela!
+\CBct[6]\m[serious]\plf\PRF\c[6]Lona: \C[0]    No, ¿recuerdas lo que dijo entonces?
+\CBfB[6]\SETlpl[cocona_angry]\Lshake\prf：\C[0]Cocona: \C[0]    U-u-u...
+\CBct[8]\m[normal]\plf\PRF\c[6]Lona: \C[0]    Quiere descansar en paz. Déjala ir.
+
+Lona/CoconaPapa_Bury
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Cocona, ¿tu papá también podría convertirse en no muerta?
+\CBfB[6]\SETlpl[cocona_sad]\PLF\prf：\C[0]Cocona: \C[0]    Pa-pá, el tiempo se acabó, el tiempo se acabó, fue nuestra última conversación.
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Verás, recuperé a tu papá...
+\CBfB[1]\SETlpl[cocona_shocked]\PLF\prf：\C[0]Cocona: \C[0]    !!!!!
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf：\C[0]Cocona: \C[0]    ¡Dámelo!
+\CBct[6]\m[serious]\plf\PRF\c[6]Lona: \C[0]    No, ¿recuerdas lo que dijo entonces?
+\CBfB[6]\SETlpl[cocona_angry]\Lshake\prf：\C[0]Cocona: \C[0]     U-u-u...
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona: \C[0]    No quería que dependieras más de él. Quería que vieras el mundo.
+
+Lona/Bury_end
+\CBfB[6]\SETlpl[cocona_sad]\PLF\prf：\C[0]Cocona: \C[0]    Gracias, hermanita...
+\CBct[4]\m[triumph]\plf\PRF\c[6]Lona: \C[0]    ¡Bien!
+
+Lona/HoleBlock
+\CBct[20]\m[irritated]\plf\PRF\c[6]Lona: \C[0]    Esta cueva es horrible, mejor la derrumbamos.

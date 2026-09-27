@@ -1,0 +1,136 @@
+thisMap/Enter
+\SETpl[Mreg_pikeman]El letrero dice "\c[4]Solo para personal\C[0]"\n Hay un guardia vigilando. \optB[Alejarse,Colarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+########################################################################################################### Nap
+
+enter/begin0
+\c[4]Carcelero: \C[0]    Quédate aquí. La desobediencia solo te llevará a la muerte.
+\c[4]Carcelero: \C[0]    Aquí está tu comida de hoy, ¡toma! Pronto será tu turno.
+
+Nap/BecomeSlave0
+\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]Guardia A: \C[0]    ¿Qué está haciendo esta puta?
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Guardia B: \C[0]    ¿Quizás quiere convertirse en gladiadora?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia A: \C[0]    ¡Jaja! ¡Yo también pensé eso!
+
+Nap/Torture0
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Guardia B: \C[0]    ¿Deberíamos darle una lección a esta zorra sucia?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia A: \C[0]    Sí, y tengo una idea.
+\narr Se llevaron a Lona.
+
+Nap/Torture1
+\CBct[8]\m[tired]\c[6]Lona: \C[0]    Ohhh..... ¿Qué me han hecho?
+
+Nap/Torture2
+\CBct[1]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Ah?!
+
+Nap/Torture3
+\CBmp[Goblin1,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!
+\CBmp[Goblin2,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!
+\CBmp[Goblin3,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!!!
+
+########################################################################################################### Get to fight
+
+Daily/Food0
+\CBmp[Warden,20]\c[4]Carcelero: \C[0]    ¡Gusano! ¡Despierta!
+\CBct[20]\m[shocked]\c[6]Lona: \C[0]    ¿Ah?
+
+Daily/Food1
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    ¡Ven aquí! ¡Más cerca! ¡Abre esa boca y recibe tu nutrición diaria!
+
+Daily/Food_YES0
+\CBct[20]\m[sad]\c[6]Lona: \C[0]    Voy.....
+
+Daily/Food_YES0_1
+\narr El carcelero agarró brutalmente la cabeza de Lona y la aplastó contra los barrotes.
+
+Daily/Food_YES1
+\BonMP[Warden,3]\prf\c[4]Carcelero: \C[0]    ¡Oh! ¡Así! ¡Para esto sirven las esclavas!
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    ¿Qué deben decir las esclavas?
+\CBct[8]\m[sad]\PRF\c[6]Lona: \C[0]    Gracias, Amo...
+
+Daily/Food_NO
+\CBct[20]\m[fear]\c[6]Lona: \C[0]    No... Ustedes....
+\BonMP[Warden,5]\prf\c[4]Carcelero: \C[0]    ¡Bien! Pues no comerás hoy. Veamos cuánto aguantas.
+
+Daily/Food_END
+\narr El carcelero dejó algo de comida cerca de los barrotes.
+
+########################################################################################################### Get to fight
+
+playerFight/begin0
+\CBmp[Warden,20]\c[4]Carcelero: \C[0]    ¡Despierta y canta! ¡Asqueroso gusano!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona: \C[0]   ¿Eh? ¡¿Sí?!
+
+playerFight/begin1
+\CBmp[Warden,20]\c[4]Carcelero: \C[0]    ¡Hoy es tu turno de morir, entretendrás al público!
+\CBct[8]\m[tired]\PRF\c[6]Lona: \C[0]    .....
+
+playerFight/begin2_opt
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    ¡Prepárate y adelante! \optD[Elegir equipo,Oferta especial<r=HiddenOPT0>,Prepararse,Empezar]
+
+playerFight/begin2_opt_notYet
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    ¿Qué haces que te demoras tanto? ¡Muévete!
+
+playerFight/begin2_opt_OtherOffer
+\CBct[8]\m[sad]\PRF\c[6]Lona: \C[0]    Debe haber algo que me ayude a sobrevivir...
+\CBct[8]\m[bereft]\PRF\c[6]Lona: \C[0]    Es que... No quiero morir hoy...
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    Tengo algo para aliviar tu sufrimiento.
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    Si lo quieres, acerca esa boca apestosa.
+
+playerFight/begin2_opt_OtherOffer_yes0
+\ph\SndLib[sound_equip_armor]\cg[event_WartsDick]\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..
+\narr El carcelero sacó su pene y lo roció con una poción de un frasco.
+
+playerFight/begin2_opt_OtherOffer_yes1
+\BonMP[Warden,20]\cgoff\prf\c[4]Carcelero: \C[0]   Así. Ahora lámelo bien, de paso lo lavas.
+\CBct[8]\m[fear]\PRF\c[6]Lona: \C[0]    ¿Mmm?
+
+playerFight/begin2_opt_OtherOffer_yes2
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    Muy bien. ¿Qué deben decir las esclavas?
+\CBct[8]\m[sad]\PRF\c[6]Lona: \C[0]    Gracias...
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    ¡Correcto! Por cierto, tengo algo más para putas como tú.
+
+playerFight/begin2_opt_OtherOffer_yes3
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    No mueras tan rápido, tengo fe en ti. Todavía necesito a alguien que lave mi polla con su lengua.
+\CBct[8]\m[sad]\PRF\c[6]Lona: \C[0]    Gracias por su preocupación, Amo.
+
+playerFight/begin2_opt_OtherOffer_no
+\BonMP[Warden,5]\prf\c[4]Carcelero: \C[0]    ¡Adelante! Inútil de mierda.
+
+playerFight/FightStart
+\BonMP[Warden,20]\prf\c[4]Carcelero: \C[0]    Comencemos. No mueras demasiado rápido.
+
+########################################################################################################### common
+
+Roommate/begin0_0
+\CBid[-1,20]\c[4]Prisionero: \C[0]    ¡No me iré de aquí! ¡Ni lo pienses!
+
+Roommate/begin0_1
+\CBid[-1,20]\c[4]Prisionero: \C[0]    ¡Esta es mi celda!
+
+Roommate/begin0_2
+\CBid[-1,20]\c[4]Prisionero: \C[0]    ¡Debo estar aquí!
+
+Roommate/begin2
+\CBct[2]\m[confused]\Rshake\c[6]Lona: \C[0]    ¡¿Qué?!
+
+Guard/Qmsg0
+¡¿Cómo entraste?!
+
+Guard/Qmsg1
+¡Lárgate de aquí!
+
+Guard/Qmsg2
+¡Solo para personal!
+
+Worker/Qmsg0
+¡Solo yo puedo hacerlo!
+
+Worker/Qmsg1
+¡Demasiado trabajo!
+
+Worker/Qmsg2
+¡Odio el trabajo de escritorio!
+
+EstC/Qmsg
+.......

@@ -1,0 +1,1687 @@
+#Довжина для item_name — далі текст починає стискатися (сила стиснення має фіксовані ступені, тож не сподівайтеся, що стиснення з одним зайвим символом буде непомітним)
+Це довжина рядка назв
+
+#Довжина для description  — краще не доходити навіть до цієї межі, а переносити рядок раніше, щоб уникнути неправильних або подвійних переносів
+Цей текст це максимальна довжина одного рядк
+
+HerdRibsSoup/item_name
+todo
+
+HerdRibsSoup/description
+todo
+
+MenstrualMed/item_name
+Менструальний засіб
+
+MenstrualMed/description
+\}Урегульовує цикл, допомагає\n
+відновити природний ритм тіла.\n
+
+MeatSalad/item_name
+Салат з в’яленим м’ясом
+
+MeatSalad/description
+\}Незабутній смак асорті різноманітних\n
+натуральних продуктів, що дарує добрі емоції.\n
+\C[6]Їжа, покращує настрій.\n
+
+PubicHair/item_name
+Лобкове волосся
+
+PubicHair/description
+\}Е-е... Чому я його зберегла?\n
+Для чого воно потрібне, окрім як збирати бруд?\n
+
+Maggots/item_name
+Купка опаришів
+
+Maggots/description
+\}Подейкують, що вони їстівні...\n
+\C[6]Бруд.\n
+
+QuestRecQuestNorthFL4/item_name
+Конверт
+
+QuestRecQuestNorthFL4/description
+\}Лист, запечатаний восковою печаткою з\n
+візерунком Інґлії. Виглядає дуже важливим.\n
+
+QuestMonsterBone/item_name
+Кістка мутованої істоти
+
+QuestMonsterBone/description
+\}Велика кістка чудовиська.\n
+Дещо нагадує людську.\n
+
+QuestSpiderLeg/item_name
+Лапа павука-мутанта
+
+QuestSpiderLeg/description
+\}Це що, палець?\n
+
+QuestBreedLingMeat/item_name
+Окіст із почвареняти
+
+QuestBreedLingMeat/description
+\}Для чого їм це м’ясо?\n
+
+QuestCoconaShip/item_name
+Квиток для Кокони
+
+QuestCoconaShip/description
+\}Я можу взяти Кокону із собою на корабель.\n
+Подарунок від колишнього «Багряного Клинка»,\n
+Мерим.\n
+
+QuestMhKatana/item_name
+Зламаний меч Мерим
+
+QuestMhKatana/description
+\}Зброя, здобута «Багряними Клинками»\n
+в Хтивій печері на заході континенту.\n
+Цю легендарну зброю зламав навпіл\n
+якийсь невідомий найманець.\n
+
+QuestDancerSet/item_name
+Втрачена посилка
+
+QuestDancerSet/description
+\}Доставити до： о. Ноєр, м. Ноєр,\n
+просп. Центральний, 89-64, «Східна Комерція».\n
+Отримувач： ТОВ «Східна Комерція».\n
+
+GoodHumanMystery/item_name
+Таємничий добрий суп
+
+GoodHumanMystery/description
+\}Тушкований суп із різного м’яса й овочів.\n
+\C[6]Їжа.\n
+\C[1]Таємниче м’ясо. Людське м’ясо.\n
+
+SopMeatHumanMystery/item_name
+Таємничий м’ясний суп
+
+SopMeatHumanMystery/description
+\}Не смачний... має якийсь гіркий присмак...\n
+\C[6]Їжа.\n
+\C[1]Таємниче м’ясо. Людське м’ясо.\n
+
+SmokedMeatHumanMystery/item_name
+Копчене таємниче м’ясо
+
+SmokedMeatHumanMystery/description
+\}Якщо добре берегти його від вологи,\n
+воно зможе зберігатися близько року.\n
+\C[6]Їжа.\n
+\C[1]Таємниче м’ясо. Людське м’ясо.\n
+
+AnimalCrab/item_name
+Краб
+
+AnimalCrab/description
+\}У мене вдома це повсякденна їжа.\n
+\C[6]Сира їжа.\n
+
+FlameBottle/item_name
+Бандера-смузі
+
+FlameBottle/description
+\}Офіційно сертифікований чистий\n
+біоекстракт зеленої енергії.\n
+\C[6]Навичка EXT\C[0]： метнути.\n
+
+Saltpeter/item_name
+Селітра
+
+Saltpeter/description
+\}Даремна сировина.\n
+
+Carbon/item_name
+Вугілля
+
+Carbon/description
+\}Даремна сировина.\n
+
+Oil/item_name
+Мастило
+
+Oil/description
+\}Даремна сировина.\n
+
+Phosphorus/item_name
+Фосфор
+
+Phosphorus/description
+\}Даремна сировина.\n
+
+QuestCecilyProg17/item_name
+Обліковий журнал
+
+QuestCecilyProg17/description
+\}Журнал угод між бандою «Широкі Леза»\n
+та Торговою компанією Росендо.\n
+
+ThrowingKnivesI/item_name
+Метальний ніж
+
+ThrowingKnivesI/description
+\}Не дивіться так — тато навчив мене ними користуватися.\n
+\C[6]Навичка EXT\C[0]： метнути.\n
+
+QuestGobShamanHead/item_name
+Голова збоченця
+
+QuestGobShamanHead/description
+\}Вираз обличчя, ніби він щойно досяг оргазму.\n
+
+QuestC130Part/item_name
+Комплект для модифікації
+
+QuestC130Part/description
+\}Система керування вогнем для гармати.\n
+405 мм гармата з такою системою відповідає класу «Князь».\n
+Увага： Старші люди не зможуть розібратися.\n
+
+NoerTea/item_name
+Ноєрський чай
+
+NoerTea/description
+\}Популярний на острові гарячий напій.\n
+Корисний при вагітності
+\C[6]Ліки, відновлює здоров’я плоду, викликає залежність.\n
+
+NorthFL_INN_Key/item_name
+Ключ від номеру "Соляна Ферма"
+
+NorthFL_INN_Key/description
+\}Мене виженуть, якщо ляжу спати без ключа!\n
+\C[2]Дозволяє гарно поїсти, відновити свої Сили, ОЗ\n
+\C[2]Відмитися та згаяти трохи часу.\n
+
+QuestFbFormula/item_name
+Секретна Формула
+
+QuestFbFormula/description
+\} Якийсь секретний інгредієнт.\n
+Кинути в горщик краба...? Додати ананас із морських глибин...\n
+Так каже чарівна лампа...\n
+
+QuestDeeponeEyesF/item_name
+Очі Морської Відьми
+
+QuestDeeponeEyesF/description
+\}Чому я повинна діставати такі речі...?\n
+
+QuestBC2ASH/item_name
+Урна
+
+QuestBC2ASH/description
+\}Загадкова урна, без написів.\n
+
+ArecaNut/item_name
+Бетелевий Горіх
+
+ArecaNut/description
+\}Насіння Бетелевої пальми, містить алкалоїди.\n
+\C[6]Ліки, Рослина, +2 до Запасу Сил.\n
+\C[2]+10 до Моралі.\n
+
+Banana/item_name
+Банан
+
+Banana/description
+\}Місцевий тропічний плід. М’який та солодкий.\n
+\C[6]Сира Їжа, Рослина.\n
+\C[6]+5 до Ситості.\n
+
+SouthFL_INN_Key/item_name
+Ключ від номеру з таверни «Надія»
+
+SouthFL_INN_Key/description
+\}Мене виженуть, якщо ляжу спати без ключа!\n
+\C[2]Дозволяє гарно поїсти, відновити свої Сили, ОЗ\n
+\C[2]Відмитися та згаяти трохи часу.\n
+
+QuestBoarPenis/item_name
+Штопороподібний Член
+
+QuestBoarPenis/description
+\}Фууу! Він бридкий і скручений...\n
+Як вони взагалі розмножуються цією штукою?\n
+
+BerserkDrug/item_name
+Сироватка Люті
+
+BerserkDrug/description
+\}Препарат Еліс\n
+Увага! Побічні ефекти не вивчені!\n
+
+JunkFood/item_name
+Шкідлива Їжа
+
+JunkFood/description
+\}Складається з корисних компонентів менш ніж на 10%.\n
+\C[2]+1 до Ситості.\n
+
+QuestBetTricket/item_name
+Бланк Ставки на Арені
+
+QuestBetTricket/description
+\} Їхні марні життя тільки й годяться, \n
+аби розважати людей...\n
+
+QuestMamaFood/item_name
+Список Покупок
+
+QuestMamaFood/description
+\}Величезний список товарів для закупівлі.\n
+Здається, у Гарячому Бочонку справи йдуть добре.\n
+
+QuestOrkindEar/item_name
+Орочі Вуха
+
+QuestOrkindEar/description
+\}Хто збирає такі мерзенні речі?\n
+
+RottenMatter/item_name
+Гниль
+
+RottenMatter/description
+\}Хто б запхав щось настільки\n
+огидне до свого рюкзака?!\n
+\C[6]Бруд\n
+
+Dreg/item_name
+Відстій
+
+Dreg/description
+\}ФФФУуууууууу!!!\n
+Містить недоперетравлену їжу, комах та іншу гидоту\n
+\C[6]Бруд.\n
+
+DryProtein/item_name
+Біла Жижа
+
+DryProtein/description
+\}Має... горілий і гнилий запах.\n
+Схоже, що її можна зберігати деякий час.\n
+На смак як... яйця...?
+\C[2]+5 до Ситості.\n
+
+FishTownInnNapKey/item_name
+Ключ від номеру Рибополіс
+
+FishTownInnNapKey/description
+\}Мене виженуть, якщо ляжу спати без ключа!\n
+\C[2]Дозволяє гарно поїсти, відновити свої Сили, ОЗ\n
+\C[2]Відмитися та згаяти трохи часу.\n
+
+QuestMusket/item_name
+Зв’язка Мушкетів
+
+QuestMusket/description
+\}Хіба це не просто дерев’яні палиці...?\n
+
+QuestDfSgtTag/item_name
+Медаль Центуріону
+
+QuestDfSgtTag/description
+\}Виглядає круто ... Начебто? Я не знаю,\n
+чим вона особлива.
+
+DoomFortressInnNapKey/item_name
+Ключ від номеру Твердині Року
+
+DoomFortressInnNapKey/description
+\}Мене виженуть, якщо ляжу спати без ключа!\n
+\C[2]Дозволяє гарно поїсти, відновити свої Сили, ОЗ\n
+\C[2]Відмитися та згаяти трохи часу.\n
+
+SopMeatMystery/item_name
+Суп з Незв. М’ясом
+
+SopMeatMystery/description
+\}Має якусь гірко нотку... Але не погано...\n
+\C[2]+12 до Ситості, +20 до Моралі.\n
+\C[1]Невідоме м’ясо.\n
+
+SopGoodMystery/item_name
+Гарна Каша
+
+SopGoodMystery/description
+\}М’яка... З комками... Смачна...?\n
+\C[2]+24 до Ситості.\n
+\C[1]Невідоме м’ясо.\n
+
+SmokedMeatMystery/item_name
+Копч. Незв. М’ясо
+
+SmokedMeatMystery/description
+\}Виглядає апетитно. Але що це за м’ясо?\n
+Яловичина? Свинина? ... Курятина?\n
+\C[2]+18 до Ситості.\n
+\C[1]Невідоме м’ясо.\n
+
+QuestDeeponeEyes/item_name
+Очі Глибинних
+
+QuestDeeponeEyes/description
+\}Хто взагалі збирає цю гидоту?\n
+
+PirateBaneInnNapKey/item_name
+Ключ від номеру Піратської Погибелі
+
+PirateBaneInnNapKey/description
+\}Мене виженуть, якщо ляжу спати без ключа!\n
+\C[2]Дозволяє гарно поїсти, відновити свої Сили, ОЗ\n
+\C[2]Відмитися та згаяти трохи часу.\n
+
+QuestHeadQuMilo6/item_name
+Голова Адама
+
+QuestHeadQuMilo6/description
+\}На славу Ноера...\n
+
+GoldenMilk/item_name
+Золоте молоко
+
+GoldenMilk/description
+\}Ця вершкова, бронзова рідина,\n
+має солодкий аромат.\n
+За чутками, ця штука дуже дорога...\n
+\C[6]Сира Їжа,\C[2] +5 до Ситості.\n
+
+PassportNob/item_name
+Тимчасова Віза
+
+PassportNob/description
+\}Дозволяє Лоні пройти на Схил Росендо.\n
+
+HumanFlesh/item_name
+М’ясо Людини
+
+HumanFlesh/description
+\}Тільки щоб не померти з голоду! ГИДОТА!\n
+\C[6]Сира Їжа, М’ясо,\C[2] +8 до Ситості.\n
+\C[1]-10 до Моралі та трохи Репутації.\n
+\C[1]Людська Плоть.\n
+
+SopMeatHuman/item_name
+М’ясний Суп
+
+SopMeatHuman/description
+\}Має дивний присмак... Але все одно смачно!\n
+\C[2]+16 до Ситості.\n
+\C[2]+10 до Моралі.\n
+\C[1]-Х до Репутації.\n
+\C[1]Людська Плоть.\n
+
+SopGoodHuman/item_name
+Гарний Суп
+
+SopGoodHuman/description
+\}Овочі на смак нормальні. М’ясо на смак-...\n
+\C[2]+32 до Ситості.\n
+\C[2]+20 до Моралі.\n
+\C[1]-Х до Репутації.\n
+\C[1]Людська Плоть.\n
+
+SmokedMeatHuman/item_name
+Копчене М’ясо
+
+SmokedMeatHuman/description
+\}Виглядає як шкіра, але на смак не схоже.\n
+\C[2]+26 до Ситості.\n
+\C[1]-Х до Репутації.\n
+\C[1]Людська Плоть.\n
+
+AidSTD/item_name
+Вилікувати ЗПСШ
+
+AidSTD/description
+\}Видаляє всі стаки Захворювання що Передаються Статевим Шляхом.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidEquip/item_name
+Зняти Наряд
+
+AidEquip/description
+\}Знімає екіпірування в наступних слотах：\n
+ГОЛОВА, ВЕРХ, СЕРЕДИНА, АКСЕСУАР, НИЗ.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidLactation/item_name
+Зменшити Лактацію
+
+AidLactation/description
+\}Знижує Лактацію на один стак.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidVulvaMilkGland/item_name
+Відмінити Чутливість Сосків
+
+AidVulvaMilkGland/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidModVagGlandsLink/item_name
+Відмінити Чутливість Клітора
+
+AidModVagGlandsLink/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidVulvaSkin/item_name
+Відмінити Чутливість Шкіри
+
+AidVulvaSkin/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidVulvaAnal/item_name
+Відмінити Чутливість Ануса
+
+AidVulvaAnal/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidVulvaUrethra/item_name
+Відмінити Чутливість Уретри
+
+AidVulvaUrethra/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidVulvaEsophageal/item_name
+Відмінити Чутливість Глотка
+
+AidVulvaEsophageal/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidModTaste/item_name
+Відмінити Зміну Сприйняття Смаку
+
+AidModTaste/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidModMilkGland/item_name
+Відмінити Гіперлактація
+
+AidModMilkGland/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidModSterilization/item_name
+Відмінити Стерилізація
+
+AidModSterilization/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidModVagGlandsSurgical/item_name
+Відмінити Обрізання
+
+AidModVagGlandsSurgical/description
+\}Видаляє результат цієї операції.\n
+\C[4]Застосовується відразу після угоди.\n
+
+########################################################
+
+QuestCoconaMaid/item_name
+Сукня Покоївки
+
+QuestCoconaMaid/description
+\}Для Кокони.\n
+
+ItemQuestOrkindResearch1/item_name
+Дитина Оркойда
+
+ItemQuestOrkindResearch1/description
+\}І де вони різні? Всі виглядають однаково гидко.\n
+
+ItemQuestFishResearch1/item_name
+Дитина Риболюда
+
+ItemQuestFishResearch1/description
+\}Це... Начебто, мило......?\n
+
+HolyWater/item_name
+Свята Вода
+
+HolyWater/description
+\}Наполовину наповнена ємність\n
+з маленьким релігійним знаком.\n
+
+QuestFamilyHead/item_name
+Сушена Голова
+
+QuestFamilyHead/description
+\}Зберігається у відповідних умовах.\n
+
+HumanoidBrain/item_name
+Мозок
+
+HumanoidBrain/description
+\}Улюблена їжа нежиті!\n
+\C[6]Сира Їжа, М’ясо.\n
+\C[2]+8 до Ситості.\n
+\C[1]-10 до Моралі.\n
+\C[1]-Х до Репутації.\n
+
+QuestHeadNecro/item_name
+Голова Дияволиці
+
+QuestHeadNecro/description
+\}Доказ перемоги над Некроманткою.\n
+
+AddPiercingNose/item_name
+Септум
+
+AddPiercingNose/description
+\}Додає cептум носа.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingNoseB/item_name
+Пірсинг Носа
+
+AddPiercingNoseB/description
+\}Додає пірсинг перегородки.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingEar/item_name
+Пірсинг Вух
+
+AddPiercingEar/description
+\}Додає пірсинг вух.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingChest/item_name
+Пірсинг Груди
+
+AddPiercingChest/description
+\}Додає пірсинг грудей.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingBelly/item_name
+Пірсинг Пупка
+
+AddPiercingBelly/description
+\}Додає пірсинг пупка.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingArms/item_name
+Пірсинг Рук
+
+AddPiercingArms/description
+\}Додає пірсинг рук.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingAnal/item_name
+Пірсинг Сідниць
+
+AddPiercingAnal/description
+\}Додає пірсинг сідниць.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingVag/item_name
+Пірсинг Вагіни
+
+AddPiercingVag/description
+\}Додає пірсинг статевих губ.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddPiercingBack/item_name
+Пірсинг Спини
+
+AddPiercingBack/description
+\}Додає пірсинг спини.\n
+\C[4]Застосовується відразу після угоди.\n
+
+FruitWine/item_name
+Фруктове вино
+
+FruitWine/description
+\}Солоденьке та кисленьке. Смачно!\n
+\C[2]+10 до Ситості.\n
+\C[2]+20 до Моралі.\n
+\C[1]-5 до Запасу Сил.\n
+
+BottleBeer/item_name
+Пляшка Пива
+
+BottleBeer/description
+\}Алкоголь, причина та вирішення всіх проблем.\n
+\C[2]+8 до Ситості.\n
+\C[2]+10 до Моралі.\n
+\C[1]-10 до Запасу Сил.\n
+
+Beer/item_name
+Пиво
+
+Beer/description
+\}Алкоголь, причина та вирішення всіх проблем.\n
+\C[2]+8 до Ситості.\n
+\C[2]+10 до Моралі.\n
+\C[1]-10 до Запасу Сил.\n
+
+SopMeat/item_name
+М’ясний Суп
+
+SopMeat/description
+\}Смачний та поживний!\n
+\C[2]+16 до Ситості.\n
+\C[2]+10 до Моралі.\n
+
+SopPlant/item_name
+Овочевий Суп
+
+SopPlant/description
+\}М’який смак... Принаймні це корисно.\n
+\C[2]+16 до Ситості.\n
+\C[2]+10 до Моралі.\n
+
+SopGood/item_name
+Гарний Суп
+
+SopGood/description
+\}Суміш овочів та м’яса, просто чудово!\n
+\C[2]+32 до Ситості.\n
+\C[2]+20 до Моралі.\n
+
+NoerTavernNapKey/item_name
+Ключ： Палке Барильце
+
+NoerTavernNapKey/description
+\}Без нього мене викинуть на вулицю,\n
+якщо я спробую відпочити в номері.\n
+\C[2]Відновлює до максимуму здоров’я, сили і ситість.
+\C[2]Очищає від забрудненості.\n
+\C[2]Відпочинок триває півдня.\n
+
+BombFragTimer/item_name
+Вибухівка з ґнотом
+
+BombFragTimer/description
+\}Чорний порох вирішить будь-яку проблему.\n
+\C[2]Можна розмістити через EXT-слот.\n
+\C[2]Вибухає приблизно за 5 секунд.\n
+\C[2]Перепона.\n
+
+BombFragPasstive/item_name
+Вибухівка
+
+BombFragPasstive/description
+\}Чорний порох вирішить будь-яку проблему.\n
+\C[2]Можна розмістити через EXT-слот.\n
+\C[2]Вибухає від удару.\n
+
+BombFragTrigger/item_name
+Натискна вибухівка
+
+BombFragTrigger/description
+\}Чорний порох вирішить будь-яку проблему.\n
+\C[2]Можна розмістити через EXT-слот.\n
+\C[2]Вибухає, якщо наступити.\n
+
+BombShockTimer/item_name
+Димовий заряд
+
+BombShockTimer/description
+\}Менше пороху, але багато диму й спалахів.\n
+\C[2]Можна одразу застосувати через EXT-слот.\n
+\C[2]Задимлює зону 3х3.\n
+\C[2]Перепона.\n
+
+BombShockPasstive/item_name
+Шоковий заряд
+
+BombShockPasstive/description
+\}Менше пороху, але багато диму й спалахів.\n
+\C[2]Можна розмістити через EXT-слот.\n
+\C[2]Вибухає від удару.\n
+\C[2]Задимлює зону 3х3.\n
+
+BombShockTrigger/item_name
+Натискний шоковий заряд
+
+BombShockTrigger/description
+\}Менше пороху, але багато диму й спалахів.\n
+\C[2]Можна розмістити через EXT-слот.\n
+\C[2]Вибухає, якщо наступити.\n
+\C[2]Задимлює зону 3х3.\n
+
+PassportLona/item_name
+Посвідчення Лони
+
+PassportLona/description
+\}Лона Фоллдін, жінка\n
+Місце народження： Сибарис\n
+Дата народження： 1758.01.02\n
+
+PassportFake/item_name
+Фальшиве посвідчення
+
+PassportFake/description
+\}Лано Феллдін, чоловік\n
+Місце народження： Ноєр\n
+Дата народження： 255.255.255.0\n
+\C[2]Після купівлі репутація Лони скидається до 50.\n
+
+AddModVagGlandsLink/item_name
+Чутливість Клітора
+
+AddModVagGlandsLink/description
+\}Мій клітор стане гіперчутливим...\n
+\C[5] Можливість оргазму в будь-який час.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddVulvaMilkGland/item_name
+Чутливість Соски
+
+AddVulvaMilkGland/description
+\}Соски завжди проступатимуть через одяг,\n
+не дуже зручно...\n
+\C[2]Знижує негативні ефекти на ОЗ та Запас Сил.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddVulvaSkin/item_name
+Чутливість Шкіри
+
+AddVulvaSkin/description
+\}Навіть дотик вітру викликатиме мурашки...\n
+\C[5]Будь-яка дія, що витрачає Запас Сил, підвищує Збудження.\n
+\C[2] Знижує негативні ефекти на ОЗ та Запас Сил.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddVulvaAnal/item_name
+Чутливість Ануса
+
+AddVulvaAnal/description
+\}Після цього всі мої думки будуть лише про нього.\n
+\C[2] Знижує негативні ефекти на ОЗ та Запас Сил.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddVulvaUrethra/item_name
+Чутливість Уретри
+
+AddVulvaUrethra/description
+\}Ніколи б не подумала, що від сцяння, можна отримувати стільки задоволення...\n
+\C[2] Знижує негативні ефекти на ОЗ та Запас Сил.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddVulvaEsophageal/item_name
+Чутливість Глотки
+
+AddVulvaEsophageal/description
+\}Треба буде сісти на дієту.\n
+\C[5]Будь-яка їжа підвищує ваше Збудження.\n
+\C[2] Знижує негативні ефекти на ОЗ та Запас Сил.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddModTaste/item_name
+Зміна Сприйняття Смаку
+
+AddModTaste/description
+\}Здається, мої смаки трохи зміняться.\n
+\C[2]Знижує негативні ефекти на ОЗ та Запас Сил.\n
+\C[1]Блювоту викликає їжа,\C[2] а не бруд.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddModMilkGland/item_name
+Гіперлактація
+
+AddModMilkGland/description
+\}Це якось дивно, я ж не корова...\n
+\C[5] Постійне вироблення молока в грудях.\n
+\C[2] Знижує негативні ефекти на ОЗ та Запас Сил.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddModSterilization/item_name
+Стерилізація
+
+AddModSterilization/description
+\}Після всіх маніпуляцій я не зможу мати дітей.\n
+\C[6]- до Сексуальність.\n
+\C[6]Неможливість завагітніти.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddModVagGlandsSurgical/item_name
+Обрізання
+
+AddModVagGlandsSurgical/description
+\}А це точно необхідно?...\n
+\C[5]Неможливість випробувати будь-який оргазм.\n
+\C[4]Застосовується відразу після угоди.\n
+
+########################################################################################################################################################################################################### y and dock
+
+ToNoerRelay/item_name
+Ноертаун
+
+ToNoerRelay/description
+\}Квиток для подорожі до Ноертауна.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматично використовується після покупки.\n
+
+ToPirateBane/item_name
+Піратська Погибель
+
+ToPirateBane/description
+\}Квиток для подорожі до Піратської Погибелі.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматично використовується після покупки.\n
+
+ToDoomFortressR/item_name
+Твердиня Року
+
+ToDoomFortressR/description
+\}Квиток для подорожі до Твердині Року.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматично використовується після покупки.\n
+
+ToFishTownL/item_name
+Острів Рибополіс
+
+ToFishTownL/description
+\}Квиток для подорожі на острів Рибополіс.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматично використовується після покупки.\n
+
+ToNoerDock/item_name
+Порт Ноертауна
+
+ToNoerDock/description
+\}Квиток для подорожі до Порту Ноера.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматично використовується після покупки.\n
+
+ToWestFL/item_name
+Табір у Західних Воріт
+
+ToWestFL/description
+\}Квиток для подорожі до Табору у Західних Воріт.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматично використовується після покупки.\n
+
+ToSouthFL/item_name
+Табір у Південних Воріт
+
+ToSouthFL/description
+\}Квиток для подорожі до Табору у Південних Воріт.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматично використовується після покупки.\n
+
+ToNorthFL_INN/item_name
+Прибережна Фортеця
+
+ToNorthFL_INN/description
+\}Квиток для подорожі у Прибережну Фортецю.\n
+\C[6]Швидко переміщає вас у вказану область.\n
+\C[4]Автоматичне використання після покупки\n
+
+###################################################################################################################### HAIR DYE
+AddHairDefault/item_name
+Сіра Фарба
+
+AddHairDefault/description
+\}Оригінальний колір волосся Лони.\n
+Того ж кольору, що й хутро брудного щура.\n
+Дизайнер «Сі-І-Ці»\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddHairBlack/item_name
+Чорна Фарба
+
+AddHairBlack/description
+\}Заборонений колір, не для всіх.\n
+Простий, але привабливий.\n
+Дизайнер «Лорд Ціан Ціан, 214-й»\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddHairWhite/item_name
+Біла Фарба
+
+AddHairWhite/description
+\}Популярний колір волосся, яким користуються засмаглі повії.\n
+Як правило їх мета охмурити літніх крамарів.\n
+Дизайнер «Ельдар Тіл Теал, 214 років»\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddHairLightLavender/item_name
+Блакитна Фарба
+
+AddHairLightLavender/description
+\}Колір волосся прекрасної богині Води.\n
+Це просто фарба, вона не впливає на ваш розум.\n
+Дизайнер "Леді Аква Аква, 200+10+4"\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddHairRed/item_name
+Червона Фарба
+
+AddHairRed/description
+\}Колір політкоректності та комунізму.\n
+Дратує оточуючих.\n
+Дизайнер «Лідер культу смерті： "Они в рай, а мьі просто здохнем."»\n
+\C[4]Застосовується відразу після угоди.\n
+
+AddHairYellow/item_name
+Золота Фарба
+
+AddHairYellow/description
+\}Золотистий колір волосся дворян та аристократів.\n
+На жаль, фарбування не перетворить вас в жодного з них.\n
+Дизайнер «Дворянин Фор-Вун-Севен»\n
+\C[4]Застосовується відразу після угоди.\n
+
+###############################################################################################################################################
+
+AidPiercingNose/item_name
+Зняти Септум
+
+AidPiercingNose/description
+\}Видаляє септум носа.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingNoseB/item_name
+Зняти Пірсинг Носа
+
+AidPiercingNoseB/description
+\}Видаляє пірсинг перегородки.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingEar/item_name
+Зняти Пірсинг Вух
+
+AidPiercingEar/description
+\}Видаляє пірсинг вух.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingChest/item_name
+Зняти Пірсинг Груди
+
+AidPiercingChest/description
+\}Видаляє пірсинг грудей.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingBelly/item_name
+Зняти Пірсинг Пупка
+
+AidPiercingBelly/description
+\}Видаляє пірсинг пупка.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingArms/item_name
+Зняти Пірсинг Рук
+
+AidPiercingArms/description
+\}Видаляє пірсинг рук.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingAnal/item_name
+Зняти Пірсинг Сідниць
+
+AidPiercingAnal/description
+\}Видаляє пірсинг сідниць.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingVag/item_name
+Зняти Пірсинг Вагіни
+
+AidPiercingVag/description
+\}Видаляє пірсинг статевих губ.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPiercingBack/item_name
+Зняти Пірсинг Спини
+
+AidPiercingBack/description
+\}Видаляє пірсинг спини.\n
+\C[4]Застосовується відразу після угоди.\n
+
+#######################################################
+
+AidChainMidExtra/item_name
+Зняти Окови
+
+AidChainMidExtra/description
+\}Зняти Металеві Окови.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidChainCuff/item_name
+Зняти Ланцюги-кандали
+
+AidChainCuff/description
+\}Зняти Ланцюги-канди.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidCuff/item_name
+Зняти Кандали
+
+AidCuff/description
+\}Зняти Кандали.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidChainCollar/item_name
+Зняти Ланцюги
+
+AidChainCollar/description
+\}Зняти ланцюги-окови.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidCollar/item_name
+Зняти Нашийник
+
+AidCollar/description
+\}Зняти металевий нашийник.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidVagGlands/item_name
+Лікування Клітора
+
+AidVagGlands/description
+\}Дозволяє знову відчувати оргазм.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidOgrasmAddiction/item_name
+Мульти-оргазм
+
+AidOgrasmAddiction/description
+\}Позбавить мульти-оргазму на один стак.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidDrugAddiction/item_name
+Наркозалежність
+
+AidDrugAddiction/description
+\}Позбавить від одного стаку наркозалежності.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidSemenAddiction/item_name
+Спермозалежність
+
+AidSemenAddiction/description
+\}Позбавить від одного стаку залежності сперми.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidModWombSeedBed/item_name
+Лікування Утроби
+
+AidModWombSeedBed/description
+\}Лікування одного стаку утроби.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidSlaveBrand/item_name
+Прибрати Тавро Раба
+
+AidSlaveBrand/description
+\}Позбавить тавра рабині.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidSphincterDamaged/item_name
+Лікування Ануса
+
+AidSphincterDamaged/description
+\}Зменшить розмір ануса до норми.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidUrethralDamaged/item_name
+Лікування Уретри
+
+AidUrethralDamaged/description
+\}Зменшить розмір уретри до норми.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidVaginalDamaged/item_name
+Лікування Вагіни
+
+AidVaginalDamaged/description
+\}Зменшить розмір піхви до норми.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidPregnancy/item_name
+Аборт
+
+AidPregnancy/description
+\}Операція аборту!\n
+Еліс проведе операцію в обмін на плід.\n
+Не забувайте про можливі ризики!\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidStomachSpasm/item_name
+Лікування Шлунку
+
+AidStomachSpasm/description
+\}Лікує шлунок.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidFeelsSick/item_name
+Лікування Хвороб
+
+AidFeelsSick/description
+\}Позбавляє всіх видів захворювань.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidWound/item_name
+Лікування Травм
+
+AidWound/description
+\}Позбавляє всіх видів травм.\n
+\C[4]Застосовується відразу після угоди.\n
+
+AidWormParasite/item_name
+Прибрати Паразитів
+
+AidWormParasite/description
+\}Позбавляє від всіх видів паразитів та інфекцій.\n
+\C[4]Застосовується відразу після угоди.\n
+
+##########################################################################################
+
+QuestRatTail/item_name
+Щурячий хвіст
+
+QuestRatTail/description
+\}Підтвердження виконання завдання.\n
+
+VespeneMineral/item_name
+Висококаякісний Мінерал
+
+VespeneMineral/description
+\}Яка різниця між цим та мінералом низького очищення?\n
+
+Mineral/item_name
+Кристалічна Руда
+
+Mineral/description
+\}Важкий маленький камінець.\n
+
+Coin1/item_name
+Мідна монета
+
+Coin1/description
+\}Найпоширеніша монета на острові Ноєр.\n
+
+Coin2/item_name
+Велика мідна монета
+
+Coin2/description
+\}Монета, котра у вжитку в середнього класу.\n
+
+Coin3/item_name
+Золота монета
+
+Coin3/description
+\}Монета, котрою користуються найбагатші.\n
+Дуже рідкісна... Дійсно, приголомшливе\n
+видовище. І надзвичайно блискуча!\n
+
+Humpshroom/item_name
+Мутований гриб
+
+Humpshroom/description
+\}Кроваво червоний. Який він на смак?\n
+\C[6]Ліки.\n
+\C[2]+5 до Ситості.\n
+
+Roach/item_name
+Комахи
+
+Roach/description
+\}Це останній засіб для виживання...\n
+Правильно?\n
+\C[6]Сира Їжа, М’ясо.\n
+\C[2]+6 до Ситості.\n
+
+NpcChild/item_name
+Дитина Незнайомця
+
+NpcChild/description
+\}Навіть знаючи, що це не моя дитина,\n
+я не маю його кидати.\n
+
+PlayerChild/item_name
+Моя Дитина
+
+PlayerChild/description
+\}Головка, плечі, ніжки та пальчики.\n
+
+RawMeat/item_name
+М’ясо Тварини
+
+RawMeat/description
+\}Я не хочу їсти це сирим.\n
+\C[6]Сира Їжа, М’ясо.\n
+\C[2]+8 до Ситості.\n
+
+HumanoidFlesh/item_name
+М’ясо Гуманоїда
+
+HumanoidFlesh/description
+\}Заради виживання, у крайньому випадку, можна з’їсти.\n
+\C[6]Сира Їжа, М’ясо, \C[2]+8 до Ситості.\n
+\C[1]-10 до Моралі.\n
+
+MutantFlesh/item_name
+М’ясо Мутанта
+
+MutantFlesh/description
+\}Напевно, токсична.\n
+\C[6]Сира Їжа, М’ясо, \C[2]+8 до Ситості.\n
+\C[1]-10 до Моралі.\n
+
+Vomit/item_name
+Блювотиня
+
+Vomit/description
+Здобувши це, можна поїсти двічі. Жарт. Мда.\n
+\C[1]Бруд.\n
+
+Poo/item_name
+Какаха
+
+Poo/description
+Деякі мисливці мажуть себе цим, але... Фе-е.
+\C[1]Бруд.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Кинути какаху.\n
+
+Pee/item_name
+Банка Сечі
+
+Pee/description
+\}Я чула, що мисливці використовують це,\n
+щоб гасити вогонь або принижувати ворогів!\n
+\C[1]Бруд.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Кинути сечу.\n
+
+HerbHi/item_name
+Квітка-паразит
+
+HerbHi/description
+\}Рослина, що паразитує на тваринах.
+Якщо з’їсти, викликає окрилюючі почуття.\n
+Має легкі побічні ефекти.\n
+\C[6]Ліки, \C[2]+30 до Моралі.\n
+
+HerbContraceptive/item_name
+Квітка Тунга
+
+HerbContraceptive/description
+\}Природний Контрацептив, малоефективний\n
+без приготування, має побічні ефекти.\n
+\C[6]Ліки, Лікує хвороби.
+\C[6]Контрацептив.\n
+
+HerbSta/item_name
+Трава Білого Дракона
+
+HerbSta/description
+\}Насичує енергією, малоефективна\n
+без приготування, має побічні ефекти.\n
+\C[6] Ліки, Лікує Шлунок.
+\C[2]+10 до Запасу Сил.\n
+
+HerbRepellents/item_name
+Гірка Трава
+
+HerbRepellents/description
+\}Може вбити паразитів усередині мене, а ще\n
+підійде як їжа. І справді гірка.\n
+\C[6]Ліки, \C[2]Вбиває Паразитів.\n
+\C[2]+5 до Ситості.\n
+
+
+Repellents/item_name
+Засіб від Паразитів
+
+Repellents/description
+\}Допоможе вбити паразитів в мені, але також завдасть певної шкоди.\n
+\C[6]Ліки, \C[2]Вбиває Паразитів.\n
+
+Abortion/item_name
+Зілля Аборта
+
+Abortion/description
+\}Це знищить плід, але нашкодить моєму здоров’ю.\n
+\C[6]Ліки.\n
+\C[1]-20 до Здоров’я, -20 до Запасу Сил.\n
+
+HerbCure/item_name
+Драконовусовий корінь
+
+HerbCure/description
+\}Освячений Святими, природні ліки.\n
+Малоефективний, легкі побічні ефекти.\n
+\C[6]Ліки, Лікує Травми, \C[2]+10 до Здоров’я.\n
+\C[1]-5 до Запасу Сил.\n
+
+Rock/item_name
+Камінь
+
+Rock/description
+\}У десятці перших по кількості вбивств ним.\n
+Дивно що люди, досі його не заборонили.\n
+\C[6]Навичка СЛТ：\C[0]：Кидок\n
+
+DryFood/item_name
+Сушка з рослин
+
+DryFood/description
+\}Різноманітні рослини ретельно подрібнюють, а\n
+потім висушують на вогні. Така тверда, що\n
+виникають сумніви： вона взагалі їстівна?\n
+\C[6]Їжа.\n
+
+SmokedMeat/item_name
+Копчене М’ясо
+
+SmokedMeat/description
+\}Таке можна зберігати, напевно, рік.\n
+\C[2]+26 до Ситості.\n
+
+Potato/item_name
+Картопля
+
+Potato/description
+\}На смак злегка солодкуватий.\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Cherry/item_name
+Вишня
+
+Cherry/description
+\}Смачна ягідка!\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Tomato/item_name
+Помідор
+
+Tomato/description
+\}Я їх не дуже люблю.\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Milk/item_name
+Молоко
+
+Milk/description
+\}На смак нормальне... Але з комками.\n
+\C[6]Сира Їжа.\n
+\C[2]+5 до Ситості.\n
+
+Resources/item_name
+Ресурси
+
+Resources/description
+\}Рюкзак з усякою всячиною.\n
+
+Apple/item_name
+Яблуко
+
+Apple/description
+\}Поширений місцевий фрукт.\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Bread/item_name
+Хліб
+
+Bread/description
+\}Ще м’який. Зручно брати із собою.\n
+\C[2]+10 до Ситості.\n
+
+Cheese/item_name
+Сир
+
+Cheese/description
+\}З ним все стає смачніше!\n
+\C[2]+32 до Ситості.\n
+\C[2]+20 до Моралі.\n
+
+Mushroom/item_name
+Гриб
+
+Mushroom/description
+\}Я дуже сподіваюся, що він їстівний!\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Sausage/item_name
+Сарделька
+
+Sausage/description
+\}Смакота! Найкраще зберегти на чорний день.\n
+\C[2]+26 до Ситості.\n
+
+Grapes/item_name
+Виноград
+
+Grapes/description
+\}Незручно зберігати, краще відразу з’їсти!\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Orange/item_name
+Апельсин
+
+Orange/description
+\}Незручно зберігати, краще відразу з’їсти!\n
+\C[6]Сира Їжа, Рослина.\n
+\C[6]+5 до Ситості.\n
+
+Nuts/item_name
+Горіхи
+
+Nuts/description
+\}Шкаралупа - як камінь,\n
+але всередині смачний скарб.\n
+\C[2]+5 до Ситості.\n
+
+Onion/item_name
+Цибуля
+
+Onion/description
+\}Його їдять сирим?!\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Pepper/item_name
+Перець
+
+Pepper/description
+\}Він солодкий чи гострий?\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+BlueBerry/item_name
+Чорниця
+
+BlueBerry/description
+\}Можна знайти на кущах.\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Fish/item_name
+Риба
+
+Fish/description
+\}Я чула, на Сході її їдять сирою.\n
+Я не жартую!\n
+\C[6]Сира Їжа, М’ясо.\n
+\C[2]+8 до Ситості.\n
+
+Carrot/item_name
+Морква
+
+Carrot/description
+\}Гидка!\n
+\C[6]Сира Їжа, Рослина.\n
+\C[2]+5 до Ситості.\n
+
+Rattus/item_name
+Пацюк
+
+Rattus/description
+\}Я сподіваюся, мені не доведеться це їсти.\n
+\C[6]Сира Їжа, М’ясо.\n
+\C[2]+12 до Ситості.\n
+
+RedPotion/item_name
+Червоне зілля
+
+RedPotion/description
+\}Екстракт із драконячого кореня — зупиняє\n
+кровотечу і прискорює загоєння ран.\n
+\C[6]Ліки, Лікує Травми.\n
+\C[2]+50 до Здоров’я, \C[1]-10 до Запасу Сил.\n
+
+BluePotion/item_name
+Синє Зілля
+
+BluePotion/description
+\}Есенція Білої Драконячої Трави наповнює\n
+силою та лікує хвороби.\n
+\C[6]Ліки, \C[2]Лікує Шлунок, Хвороби.\n
+\C[2]+60 до Запасу Сил, \C[1]-10 до Здоров’я.\n
+
+ContraceptivePills/item_name
+Протизаплідний засіб
+
+ContraceptivePills/description
+\}Принаймні, не завагітнію сьогодні. Сподіваюся...\n
+\C[6] Ліки, \C[2]Лікує хвороби.\n
+\C[6]Контрацептив.\n
+
+HiPotionLV2/item_name
+Вода Щастя
+
+HiPotionLV2/description
+\}Примітивні ліки з побічним ефектом\n
+у \C[5]вигляді овуляції та розслаблення тіла.\n
+\C[6]Ліки.\n
+\C[2]+90 до Моралі, +60 до Запасу Сил.\n
+
+HiPotionLV5/item_name
+Відмів Сік
+
+HiPotionLV5/description
+\}Ліки з Квітки-паразита, \C[5]п’янить.\n
+Довге вживання може зашкодити.\n
+\C[6]Ліки.\n
+\C[2]+200 до Моралі, +60 до Запасу Сил.\n
+
+SemenTroll/item_name
+Сперма Троля
+
+SemenTroll/description
+\}Засіб для потенції з сильними побічними ефектами.\n
+\C[6]Сира Їжа.\n
+\C[2]+3 до Ситості.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Покинути\n
+
+SemenOrcish/item_name
+Сперма Оркоїда 
+
+SemenOrcish/description
+\}Вкрай липка, смердить як тухле яйце.\n
+\C[6]Сира Їжа.\n
+\C[2]+2 до Ситості.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Покинути\n
+
+SemenAbomination/item_name
+Сперма Тварини
+
+SemenAbomination/description
+\}В’язка, смердить як помиї.\n
+\C[6]Сира Їжа.\n
+\C[2]+1 до Ситості.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Покинути\n
+
+SemenFishKind/item_name
+Сперма Риболюдини
+
+SemenFishKind/description
+\}Тхне рибою.\n
+\C[6]Сира Їжа.\n
+\C[2]+1 до Ситості.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Покинути\n
+
+SemenHuman/item_name
+Сперма Людини
+
+SemenHuman/description
+\}На смак як яєчний білок?\n
+\C[6]Сира Їжа.\n
+\C[2]+1 до Ситості.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Покинути\n
+
+SemenOther/item_name
+Невідома Сперма
+
+SemenOther/description
+\}На смак як яєчний білок?\n
+\C[6]Сира Їжа.\n
+\C[2]+1 до Ситості.\n
+\C[6]Shift+Навичка СЛТ：\C[0]：Покинути\n
+
+Trait_Combat/item_name
+Бойові Навички
+
+Trait_Combat/description
+\}\n
+\C[2]Збільшує Атаку на 0.5.\n
+\C[2]Деякі риси також використовують цей показник для збільшення\n
+шкоди.\n
+
+Trait_Scoutcraft/item_name
+Розвідництво
+
+Trait_Scoutcraft/description
+\}\n
+\C[2]— Збільшує непомітність.\n
+\C[2]— Збільшує швидкість руху.\n
+\C[2]— Предмети довше лежать на землі, перш ніж зникнути.\n
+\C[2]— Освітленість підземель +2 (до 75).\n
+
+Trait_Wisdom/item_name
+Мудрість
+
+Trait_Wisdom/description
+\}\n
+\C[2]Збільшує Магічну Атаку.\n
+\C[2]Збільшує Волю на 10.\n
+\C[2]Збільшує отримувані Очки Обміну\n
+ при продажу речей на 1%.\n
+\C[2]Дозволяє знайти більше Трав\n
+у Диких Землях.\n
+
+Trait_Survival/item_name
+Виживання
+
+Trait_Survival/description
+\}\n
+\C[2]Збільшує Магічний Захист.\n
+\C[2]Зменшує ймовірність небезпечних подій.\n
+\C[2]Дозволяє знайти більше їжі\n
+у Диких Землях.\n
+\C[2]Збільшує шкоду від пасток.\n
+
+Trait_Constitution/item_name
+Статура
+
+Trait_Constitution/description
+\}\n
+\C[2]Збільшує макс Здоров’я на 1.\n
+\C[2]Збільшує Запас Сил на 2.5.\n
+\C[2]Збільшує Вантажопідйомність\n
+на 4.5.\n
+\C[2]Збільшує макс Секс Атаку.\n
+
+nil/item_name
+
+nil/description
+

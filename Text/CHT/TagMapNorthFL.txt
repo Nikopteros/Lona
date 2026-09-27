@@ -1,0 +1,199 @@
+thisMap/OvermapEnter
+\m[confused]北海鹽場，\n士兵的營站。\optB[算了,進入]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]前往市場？\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+Exit/Escaped
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    大家注意！ 有奴隸逃跑了！
+
+comBoard/v0
+\board[放心吧]
+您的家人安全了，
+您的親友由我們照顧，
+聖徒會將您的靈魂放入英靈殿。
+
+Guard/beginRNG0
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    我被騙了，我的家人被賣掉了。
+
+Guard/beginRNG1
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    去康樂室抱女人，這會讓我好過一點。
+
+Guard/beginRNG2
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    每天都在死人，這樣下去撐不久的。
+
+Guard/beginRNG3
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    女人？！
+
+Guard1/Com0
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    怕什麼，到時候衣服一脫誰知道我我們是士兵還是難民？
+
+Guard1/Com1
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    待在這也不錯，可以偶爾欺負一下那些該死的乞丐。就算弄死了也沒人會說什麼。
+
+Guard2/Com0
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    我不想死啊！ 這樣下去哪天被派到前線那不就死定了？
+
+Guard2/Com1
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    前天我才跟他當了穴兄弟，今天就聽說他已經去見聖徒了。
+
+Guard3/Com0
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    嘿嘿♥ 昨天大家一起玩的那個女的真不錯。
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    可惜大家都不知道珍惜，早上起來就沒氣了
+
+Guard3/Com1
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    嘿嘿嘿♥ 聽說今天又有新的女人來了。
+
+Guard4/Com0
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    其實... 那個女人是我姊姊...
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    對...我也上了我姊... 而且是我親手掐死她的...
+
+Guard4/Com1
+\CBid[-1,20]\prf\c[4]衛兵：\c[0]    聖徒啊... 我有罪....
+
+##################################################################### SGT
+
+SGT/else_common
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]百夫長：\c[0]    妳還有什麼事嗎？
+
+SGT/RecQuestNorthFL0_Main_begin0
+\CBct[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    請問....
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    啊！ 就是你嗎？
+\CBct[6]\m[confused]\PRF\c[6]洛娜：\c[0]    我？
+
+SGT/RecQuestNorthFL0_Main_begin1_slave
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    妳\..\..\..妓女？...還是奴隸？
+
+SGT/RecQuestNorthFL0_Main_begin1_basic
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    妳\..\..\..女人？ 居然居然還是個小鬼？
+
+SGT/RecQuestNorthFL0_Main_begin2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    唉。算了....
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    聽好，我有些事情要妳辦。
+
+SGT/RecQuestNorthFL1_Main_begin0
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    前往南方的\c[6]南12號糧倉\c[0]，將地下室內的文件全部銷毀。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    無論妳是傭兵還是奴隸，事成之後該給妳的一定會給妳。
+
+SGT/RecQuestNorthFL1_QuBoard
+\board[銷毀文件]
+目標：銷毀文件
+報酬：大銅幣3、小銅幣5
+委託主：下等人不該多問
+期限：單次
+南岸的大人物要求燒毀南方12號糧倉地下室內的文件。
+這事不能給任何人知道。
+妳不該多問，把事情做好就對了。
+
+SGT/RecQuestNorthFL1_accept
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    好...交給我....吧？
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    從這裡往東南大約半天就可以到達\c[6]南12號糧倉\c[0]。
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    去吧。
+
+SGT/RecQuestNorthFL1_no
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我\..\..\..\Rshake\m[wtf]我真的只是路過而已啊....
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    什麼？ 妳不是那些大人物派來的？
+\CBct[6]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    \{不是！
+
+################################# return QU 3
+
+SGT/RecQuestNorthFL3_begin0
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\c[4]百夫長：\c[0]    是妳？
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]百夫長：\c[0]    那些文件都被銷毀了吧？
+\CBct[20]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    嗯，都銷毀了。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    非常好，果然上頭找來的傭兵還是有保障的。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...我其實只是路過的路人....
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]百夫長：\c[0]    \..\..\..\Lshake \{路過？！
+
+SGT/RecQuestNorthFL3_begin1
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    妳怎麼不早說？ 那我找來的人呢？
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    不知道？ 路上被魔物殺死了？ 畢竟這裡到處都是類獸人。
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]百夫長：\c[0]    \..\..\..
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]百夫長：\c[0]    算了，拿去吧。
+
+SGT/RecQuestNorthFL3_begin2
+\CBct[3]\m[flirty]\PRF\c[6]洛娜：\c[0]    感謝♫
+
+################################# return QU 4
+
+SGT/RecQuestNorthFL_Common
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]百夫長：\c[0]    嗯？ 妳怎麼還在這?
+
+SGT/RecQuestNorthFL_Common1
+\CBct[6]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...
+
+SGT/OPT_Salt
+鹽
+
+SGT/Ans_about_1_0
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    嗯\..\..\..妳看起來的確可以信任，能從淪陷區回來也證明了妳有實力。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....謝謝？
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    妳知道為什只有這裡沒有魔物？
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    就算缺乏武器，將士們也全是騙來的海藻。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    海潮堡也不是真正的要塞，但依然沒有魔物可以接近這。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    他們都說是聖徒的指引，是海巫的庇護。
+\CBid[-1,5]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    錯了！
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    你知道真相是什麼嗎？ 妳來到這後我總算想通了!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    \{是\c[6]鹽\c[0]！
+
+SGT/Ans_about_1_1
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    哈？ \c[6]鹽\c[0]？
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    這些魔物畏懼鹽！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..哈？
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    這裡可是鹽場！ 還能會有什麼其他的可能？
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    我為此已經擬定好了各種計劃，不管是綠皮或紅皮還是它們身後的邪惡都將毀滅！
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    在這種時候上面的大人物卻要我們撤退？！ 這真是愚蠢至極！
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    .........
+
+SGT/RecQuestNorthFL4_info
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯...有什麼我能做的嗎？
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    正好，我這正缺人手。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    在東方的\c[6]佩蘭威村\c[0]附近有一群幫我做事的傭兵。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    如果它們還活著的話就把這封信給他們，然後叫他們回來吧。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦？ 就這樣？
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    對，就這樣。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    他們的弱點已經不是秘密了，接下來就是反攻！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    聽起來很簡單啊？
+
+SGT/RecQuestNorthFL4_brd
+\board[送信]
+目標：將信件送至\c[6]佩蘭威村\c[0]附近的傭兵營地。
+報酬：大銅幣1
+委託主：海潮堡百夫長
+期限：單次
+對！就這樣！送信給他們。
+
+SGT/RecQuestNorthFL4_opt_no
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...還是算了吧。
+
+SGT/RecQuestNorthFL1_opt_accept
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    好，交給我吧。
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    動作快，我將成為聖徒那樣拯救世界的英雄！
+
+################################# return QU 101
+
+SGT/RecQuestNorthFL101_done0
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    您好...我把你的信送到了。
+\CBid[-1,4]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    哦！ 太好了！
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    能為拯救世界盡一份心，他們一定很開心吧？
+
+SGT/RecQuestNorthFL101_done1_alive
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...並沒有。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    他好像很生氣，並說什很愚蠢之類的？
+
+SGT/RecQuestNorthFL101_done1_dead0
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    呃...他們都死了...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    \{什麼？！
+
+SGT/RecQuestNorthFL101_done1_dead1
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我到達了他們的營地，但不久後遭到了纇獸人的攻擊。
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我親眼看到他們的隊長被纇獸人殺死了。
+
+SGT/RecQuestNorthFL101_done2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    這\..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    這跟\c[6]祂\c[0]說的不一樣啊？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \c[4]祂\c[0]？
+
+SGT/RecQuestNorthFL101_done3
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]百夫長：\c[0]    算了，這是你應得的，拿去吧。

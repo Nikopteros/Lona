@@ -1,0 +1,139 @@
+ThisMap/OmEnter
+\m[confused]席芭莉絲 西南門穀倉\optB[算了,進入]
+
+QuProgSybBarn1/EnterQuestMode0
+\cg[map_region_AbomTown]\m[flirty]\PRF\c[6]洛娜：\c[0]    嗯，就是這了吧？
+\SETpl[Mreg_guardsman]\plf\PRF\c[4]傭兵：\c[0]    喂！ 讓開！
+\SndLib[sound_punch_hit]\SETpl[Mreg_guardsman]\m[hurt]\Lshake\prf\c[6]洛娜：\c[0]    啊呀！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    這地方是我們先來的，黃毛丫頭滾邊去！
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    什麼啊....
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    這是怎麼回事？ 鎖住了？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    喂！ 來試試撞開它！
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]傭兵：\c[0]    讓我試試。
+\narr\ph\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]
+\narrOFF\SETpr[Mreg_pikeman]\plf\Rshake\c[4]傭兵：\c[0]    沒用啊，鎖死了這個。
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    去！真它媽沒用。
+
+QuProgSybBarn1/EnterQuestMode1_OPT
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    嗯...\optD[旁邊看著,讓我試試<r=HiddenOPT0>]
+
+QuProgSybBarn1/EnterQuestMode1_WAIT
+\ph\narr\..\..\..過了許久...
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\c[4]傭兵：\c[0]    總算弄開了。
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]傭兵：\c[0]    我就說阿，這樣翹不就弄開了嗎？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    小丫頭我們先進去了啊，不會留好東西給妳的！
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    ......
+\ph\narr\..\..\..又過了許久...\SndLib[BreedlingAtk]\..\..\SndLib[BreedlingAtk]
+\cg[map_AbomBreedlingRaid]\narrOFF\m[shocked]\Rshake\c[6]洛娜：\c[0]    魔物！！！！
+\cgoff\ph\narr 然後洛娜也跟著進去了穀倉....
+
+QuProgSybBarn1/EnterQuestMode1_SCU
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...讓我試試吧？
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[openChest]
+\narrOFF\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦！ 這不難啊？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    小丫頭幹得不錯啊！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    好！ 你有權力拿走一小部分的收穫！
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...其實我是接了公會的任務要來這裡做些偵查的。
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    公會任務？ 妳這種小鬼？
+\m[serious]\plf\PRF\c[6]洛娜：\c[0]    我才不是小鬼！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    廢話少說！ 開工了！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    小丫頭一起過來，我們用的著妳！
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    是！
+
+#########################################################################################
+
+Op/Begin0_3
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    是活人！ 祭司大人的預言是真的！
+\CBmp[OpGuard1,5]\c[4]難民：\c[0]    快把門關起來！ 使徒會進來的！
+\CBmp[mama,20]\c[4]祭司：\c[0]    你怎麼知道這是真人？ 又或是謊言者的幻象？
+\CBmp[OpGuard1,2]\c[4]難民：\c[0]    他們也是....？  不會吧？
+\CBmp[mama,20]\c[4]祭司：\c[0]    閉嘴！ 快點關門！
+
+Op/Begin0
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    又來了！ 又是活人！
+\CBmp[OpGuard1,5]\c[4]難民：\c[0]    快把門關起來！ 使徒會進來的！
+\CBmp[mama,20]\c[4]祭司：\c[0]    這一定也是謊言者的幻象！
+
+Op/Begin1_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    沒想到這裡還有人活著？
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    我看看嘿，公會的公告說一個男人大概值這麼多錢。
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    我們賺翻了？！
+
+Op/Begin1
+\ph\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...這裡是怎麼回事？
+\CBmp[mama,20]\c[4]祭司：\c[0]    妳是信仰者？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃\..\..\..可能是？
+\CBmp[mama,20]\prf\c[4]祭司：\c[0]    信仰者阿，我們需要聖徒的神蹟。
+\CBmp[mama,20]\prf\c[4]祭司：\c[0]    我們的親朋好友被地下室的使徒抓走了，我們需要妳的協助。
+\CBmp[OpGuard2,6]\c[4]難民：\c[0]    等等！ 祭司大人！ 她是人阿！ 她只是個孩子！
+\CBmp[mama,20]\prf\c[4]祭司：\c[0]    閉嘴！ 這是聖徒的旨意！ 我聽到聖徒的旨意了！
+\CBmp[OpGuard2,8]\c[4]難民：\c[0]    \..\..\..是！
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    什麼阿？使徒？？
+
+Op/Begin2
+\CBmp[mama,20]\prf\c[4]祭司：\c[0]    隨我來吧，妳一定能幫助我們的。
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    哦？
+
+Op/Begin2_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    使徒嗎？ 我覺得她是指魔物。
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    聽著，這不甘我們的事，我們的任務就是把活人活著帶出去！
+\CBct[20]\m[serious]\PRF\c[6]洛娜：\c[0]    幫幫他們吧，這樣就退縮了還算是男人嗎？
+\CBmp[Gpicker,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    \..\..\..
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    好吧，這個小鬼說的對，讓我們處理掉那些該死的垃圾吧。
+
+Op/Begin3
+\CBmp[mama,20]\prf\c[4]祭司：\c[0]    就是這裡，這裡出現了僞神的使徒!
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    呃....這裡除了些感染物什麼都沒有啊？
+
+Op/Begin3_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    噁，又是這些噁心的東西。
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    臭死了，這個味道聞多了不會出事吧？
+
+Op/Begin4
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....？
+\CBmp[mama,20]\prf\c[4]祭司：\c[0]    就是在那裏，有耐心點，再等等....
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    ...........
+\CBmp[mama,8]\prf\c[4]祭司：\c[0]    ......
+
+Op/Begin5
+\CBmp[mama,20]\c[4]祭司：\c[0]    ........................
+\CBmp[mama,20]\c[4]祭司：\c[0]    我是對的！ 那些人是虛偽的謊言者！！！
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    它們真的不是人？！！
+\CBmp[OpGuard1,20]\c[4]難民：\c[0]    使徒把它們吃掉了！ 它們是謊言者！
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    祭司大人說的是真的！
+\CBmp[mama,20]\c[4]祭司：\c[0]    感謝聖徒！ 讚美聖徒！
+
+Op/Begin6
+\CBmp[OpGuard2,20]\CBmp[OpGuard1,20]\CBmp[mama,20]\c[4]眾人：\c[0]    感謝聖徒！！ 讚美聖徒！！
+
+Op/Begin7
+\c[6]洛娜：\c[0]    \{啊呀呀！！！
+
+Op/Begin8
+\CBmp[6]\m[fear]\PRF\c[6]洛娜：\c[0]    這裡是\..\..\..
+
+Op/Begin9
+\CBmp[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{肉魔的巢穴？！
+
+Op/Begin9_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    這... 這是什麼鬼地方...
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    牆壁是活著的？！
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    聖徒啊！... 這牆壁在吃人？！
+
+Op/Begin9_31
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    死丫頭！ 這是妳的錯！ 帶我們離開這個鬼地方！
+
+Op/Begin9_board
+\board[穀倉的生還者]
+目標：離開穀倉並回到南門營地
+報酬：大銅幣3
+委託主：南門營地
+期限：單次
+活著回到\c[4]南門營地\c[0]的\c[6]祈望旅社\c[0]並與工會回報任務。
+
+#################################### other
+mama/LastWords
+\CBmp[mama,7]\c[4]祭司：\c[0]    不！ 不是我的錯！
+\CBmp[mama,9]\c[4]祭司：\c[0]    我是對的！ 我沒有錯！ 都是那些謊言者的錯！
+\CBmp[mama,5]\c[4]祭司：\c[0]    \{啊啊啊啊！！！

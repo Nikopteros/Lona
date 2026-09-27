@@ -1,0 +1,275 @@
+thisMap/OvermapEnter
+\m[confused]난민캠프\optB[그만둔다,들어간다]
+
+####################################################################### MissingChild
+
+MIAchildMAMA/prog0
+\CBid[-1,6]\prf\c[4]난민：\c[0] 내 아이야! 그 사람들이 내 아이를 데려갔어!
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 누구?
+\CBid[-1,20]\prf\c[4]난민：\c[0] \c[6]성도회\c[0] 신도들이야! 역시 그 자식들 수상하다 했지!
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 뭐라고?
+\CBid[-1,20]\prf\c[4]난민：\c[0] 그 사람들이 내 아이를 빼앗아가고, 날 수도원에서 쫓아냈어.
+\CBid[-1,6]\prf\c[4]난민：\c[0] \c[6]성도\c[0]여! 왜 저한테 이런 시련을 주시는 겁니까!?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] \c[6]성도회\c[0] 사람들이 그런 짓을 할 리가 없는데...?
+
+MIAchildMAMA/prog0_board
+\board[잃어버린 아이]
+목표 : 수도원에 가서 그녀의 아이를 찾아라.
+보상 : 없음
+의뢰인 : 난민
+수행가능횟수：1회
+\c[6]토미\c[0]가 사라졌다. 서쪽 수도원에 가서 알아보자.
+그녀는 그저 불쌍한 난민일 뿐, 아마도 네게 줄만한 보상은 없을 것이다.
+
+MIAchildMAMA/prog0_Taken
+\CBct[20]\m[triumph]\PRF\c[6]로나：\c[0] 맡겨둬! 내가 꼭 찾아줄게. 그 아이 이름이 뭐야?
+\CBid[-1,20]\prf\c[4]난민：\c[0] 아니, 딸이 아니라 아들이야. 이름은 \c[6]토미\c[0]야.
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어… 아들이라고?
+\CBct[20]\m[pleased]\c[6]로나：\c[0] 아무튼 좋은 소식 기대하고 있어!
+
+MIAchildMAMA/prog1_noNews
+\CBid[-1,20]\prf\c[4]난민：\c[0] \c[6]토미\c[0] 소식은 있어?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어… 아직은 없어.
+\CBid[-1,6]\prf\c[4]난민：\c[0] 내 불쌍한 \c[6]토미\c[0]야!
+
+MIAchildMAMA/QdoneBegin
+\CBid[-1,6]\prf\c[4]난민：\c[0] 혹시 내 \c[6]토미\c[0]를 찾았어?
+
+MIAchildMAMA/prog7_NotFound
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어…
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] \c[4]성도회\c[0] 사람들은, 네가 아이를 음식이랑 바꿨다고 하던데?
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 사실이야?
+\CBid[-1,6]\prf\c[4]난민：\c[0] 나\..\..\..
+\CBid[-1,20]\prf\c[4]난민：\c[0] 일부러 그런 게 아니야! 내가 너무 굶주려서…!
+\CBid[-1,20]\prf\c[4]난민：\c[0] 내가 잘못했어! \c[6]토미\c[0], 미안해!
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 그러니까, 그 사람들이 빼앗아간 게 아니라…?
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 네가 직접 팔아넘긴 거네?
+\CBid[-1,6]\prf\c[4]난민：\c[0] 그래\..\..\.. 다 내 잘못이야… 미안해….
+\CBid[-1,6]\prf\c[4]난민：\c[0] 내 불쌍한 \c[6]토미\c[0]야!
+\CBid[-1,20]\prf\c[4]난민：\c[0] 엄마가 꼭 다시 데려올게!
+
+MIAchildMAMA/prog7_end
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 하아…
+
+MIAchildMAMA/prog9_failed
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어... 그게….
+\CBid[-1,6]\prf\c[4]난민：\c[0] 왜 그래? 내 아들 \c[6]토미\c[0]는 어디 있지?
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[sad]\PRF\c[6]로나：\c[0] 그는 돌아가길 원치 않았어. \c[4]성도\c[0]께 몸을 바치겠다고 했어.
+\CBid[-1,20]\prf\c[4]난민：\c[0] 그럴 리 없어! 거짓말이야!
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 정말이야! 내가 속이는 게 아니야! 직접 내게 그렇게 말했어!
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 그는… 널 싫어한다고 했어!
+\CBid[-1,20]\prf\c[4]난민：\c[0] 안 돼! 너랑 \c[6]성도\c[0] 놈들이 다 거짓말쟁이야!
+\CBid[-1,20]\prf\c[4]난민：\c[0] \{신은 도대체 어디 있는 거야!!!\}
+\CBid[-1,20]\prf\c[4]난민：\c[0] \{사기꾼! 거짓말쟁이! 사기꾼들아!\}
+
+MIAchildMAMA/prog9_win0
+\CBct[20]\m[pleased]\Rshake\c[6]로나：\c[0] 네 아이를 찾았어!
+\CBid[-1,1]\prf\c[4]난민：\c[0]！！！！！！！
+
+MIAchildMAMA/prog9_win1
+\CBmp[Tommy,4]\prf\c[4]토미：\c[0] 엄마!
+\CBid[-1,20]\prf\c[4]난민：\c[0] \c[6]토미\c[0], 내 착한 아들아!
+\CBmp[Tommy,2]\prf\c[4]토미：\c[0] 그럼… 엄마가 날 버린 게 아니었어?
+\CBid[-1,6]\prf\c[4]난민：\c[0] 그럴 리가 있니! 다 \c[6]성도회\c[0]의 거짓말이야! 그 사기꾼들!
+\CBid[-1,6]\prf\c[4]난민：\c[0] 미안해, 토미야! 다시는 널 떠나보내지 않을 거야!
+\CBct[4]\m[triumph]\Rshake\c[6]로나：\c[0] 그래, 그게 맞지!
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 그럼 난 이만. 이런 따뜻한 시간은 가족에게 맡기는 게 좋겠지.
+
+MIAchildMAMA/prog9_win2
+\CBmp[Tommy,20]\prf\c[4]토미：\c[0] 누나! 잠깐만요!
+
+MIAchildMAMA/prog9_win3
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 왜 그래?
+
+MIAchildMAMA/prog9_win4
+\CBmp[Tommy,20]\prf\c[4]토미：\c[0] 이 막대기… 계속 제 엉덩이에 끼워져 있었어요.
+\CBmp[Tommy,20]\prf\c[4]토미：\c[0] \c[6]신자\c[0] 어른들이 \c[6]성도\c[0]께 더 가까워지는 시련이라면서 억지로….
+\CBmp[Tommy,20]\prf\c[4]토미：\c[0] 하지만 이제 필요 없어요.
+\CBmp[Tommy,20]\prf\c[4]토미：\c[0] 누나에게 드릴게요!
+
+MIAchildMAMA/prog9_win5
+\CBct[2]\m[wtf]\Rshake\c[6]로나：\c[0] 뭐!? 거기서 나왔다고!?
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 으… 그래도, 고마워?
+
+MAMAdone/Qmsg
+정말 고마워요!
+
+TOMMYdone/Qmsg
+누나, 고마워!
+
+####################################################################### CBT OP
+
+CBTop/Begin0
+\CBmp[CBTer2,20]\c[4]난민A：\c[0] 잘 들어, 넌 이 쓰레기들보다 훨씬 강해.
+\CBmp[CBTer1,6]\c[4]난민B：\c[0] 나…
+
+CBTop/Begin1
+\CBmp[CBTer2,20]\c[4]난민A：\c[0] 저런 것들은 당해도 싸. \c[6]성도\c[0]께서도 널 탓하지 않으실 거
+
+CBTop/Begin2
+\CBmp[CBTer2,20]\c[4]난민A：\c[0] 두려워하지 마. 이제 저 것들은 더는 널 해칠 수 없어.
+
+CBTop/Begin3
+\CBmp[CBTer1,8]\c[4]난민B：\c[0] …정말 이렇게 해도 되는 걸까?
+\CBmp[CBTer2,20]\c[4]난민A：\c[0] 생각해 봐, 그놈들이 너한테 무슨 짓을 했는지.
+\CBmp[CBTer2,20]\c[4]난민A：\c[0] 주저하지 마, 날 믿고 해.
+\CBmp[CBTer1,8]\c[4]난민B：\c[0] .....
+
+CBTop/Begin4
+\CBmp[CBTer2,20]\c[4]난민A：\c[0] 어때? 느껴지지? 멈추지 마, 계속해. 두려워하지 마.
+\CBmp[CBTer1,8]\c[4]난민B：\c[0] 흐…흑…
+
+CBTop/Begin5
+\CBmp[CBTer1,20]\c[4]난민B：\c[0] \{으아아아아!!\}
+
+CBTop/Begin6
+\CBmp[CBTer1,20]\c[4]난민B：\c[0] \{죽여버릴 거야아아!!!\}
+\CBmp[CBTer2,20]\c[4]난민A：\c[0] 그래, 바로 그거야. 멈추지 말고, 마음껏 쏟아내!
+
+
+####################################################################### Hunter
+
+Hunter/begin
+\CBmp[CBThunter,20]\c[4]사냥꾼：\c[0] 너도 복수하러 온 거냐?
+\CBmp[CBThunter,20]\c[4]사냥꾼：\c[0] 좋아, 오늘 막 잡은 신선한 거다! 단돈#{$story_stats["HiddenOPT1"]}P면 된다!
+
+Hunter/begin_Payed
+\CBmp[CBThunter,20]\c[4]사냥꾼：\c[0] 죽이지는 마라. 먼저 피를 빼야 고기가 질겨지지 않지.
+
+Hunter/NeedPay0
+\CBmp[CBThunter,20]\c[4]사냥꾼：\c[0] 이봐! 함부로 손대지 마! 돈부터 내야 할 거 아냐!
+
+Hunter/NeedPay1
+\CBct[6]\m[flirty]\c[6]로나：\c[0] 어... 뭐라고...?
+
+HunterOpt/About
+관해서 묻기
+
+Hunter/Pay
+불알 차기
+
+Hunter/PayPass
+\CBmp[CBThunter,4]\c[4]사냥꾼：\c[0] 그래, 실컷 혼내줘라!
+
+Hunter/PayNotEnough
+\CBmp[CBThunter,5]\c[4]사냥꾼：\c[0] 장난해?! 내가 분명#{$story_stats["HiddenOPT1"]}P라고 했을 텐데!
+
+Hunter/WTF
+\CBmp[CBThunter,5]\prf\c[4]사냥꾼：\c[0] 이년! 뭐 하는 짓이야!
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 꺄악!!
+
+Hunter/AboutDialog
+\CBct[2]\m[flirty]\PLF\c[6]로나：\c[0] 어... 이 \c[4]오크\c[0]들은 뭐야?
+\CBmp[CBThunter,20]\prf\c[4]사냥꾼：\c[0] \c[6]오크\c[0]？ 누굴 말하는 거지? 이 \c[6]고블린\c[0]들 말이냐? 숲에서 잡아온 거다. 근처를 늘 어슬렁거리고 있더군.
+\CBct[20]\m[confused]\PLF\c[6]로나：\c[0] 그러니까... 왜 여기 있는 거냐고.
+\CBmp[CBThunter,20]\prf\c[4]사냥꾼：\c[0] 당연히, \c[6]고블린\c[0]한테 당한 여자들을 치료하려고지.
+\CBct[2]\m[flirty]\PLF\c[6]로나：\c[0] 치료...?
+\CBmp[CBThunter,20]\prf\c[4]사냥꾼：\c[0] 걔네들, 한 번 당하고 나면 모조리 무너져 내리잖아?
+\CBmp[CBThunter,20]\prf\c[4]사냥꾼：\c[0] 그래서 말이지, 쓸 만한 걸 조금만 내면 이 \c[6]고블린\c[0]들을 실컷 두들겨 패게 해 주는 거다.
+\CBmp[CBThunter,20]\prf\c[4]사냥꾼：\c[0] 그렇게 잃어버린 걸 전부, 이놈들 몸뚱이에서 되찾아오게 하는 거지.
+\CBmp[CBThunter,20]\prf\c[4]사냥꾼：\c[0] 게다가... \c[6]고블린\c[0] 고기 맛이 의외로 괜찮더라.
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐라고!?
+\CBmp[CBThunter,20]\prf\c[4]사냥꾼：\c[0] 너도 한 번 해보라니까. 저 초록 가죽놈들 목숨 구걸하면서 발버둥치는 꼴이, 꽤 구경할 만하거든.
+
+####################################################################### Common
+
+DedGob/Qmsg0
+기절해 버렸다…
+
+DedGob/Qmsg1
+남자의 아픈 곳에서 새어 나오는 쓸쓸함…
+
+DedGob/Qmsg2
+고통에 일그러진 표정…
+
+CapGob/Qmsg0
+두려움에 질린 눈빛…
+
+CapGob/Qmsg1
+무력하고 비참하다…
+
+CapGob/FaceIT
+이제, 마주해야 한다.
+
+GobSemen/begin1
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]로나：\c[0] \{히익…!\}
+
+GobSemen/begin2_0
+\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] 더러워!
+
+GobSemen/begin2_1
+\CBct[6]\m[wtf]\Rshake\c[6]로나：\c[0] 얼굴에 튀었잖아!
+
+GobExit/Alive0
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 괜찮아, 용서해줄게.
+
+GobExit/Alive1
+\CBct[8]\m[sad]\c[6]로나：\c[0] 이건 옳지 않아… 저 아이들이 불쌍해…
+
+GoblinCBT/begin0
+그 표정엔 두려움이 가득했다…
+
+GoblinCBT/begin1
+희망을 완전히 잃은 눈빛이었다…
+
+GoblinCBT/Kick
+걷어찬다
+
+GoblinCBT/Release
+풀어준다
+
+GoblinRelease/Begin1
+\CBct[20]\m[triumph]\c[6]로나：\c[0] 걱정 마! 내가 도와줄게!
+
+GoblinRelease/Begin2
+\CBct[20]\m[pleased]\c[6]로나：\c[0] 자, 어서 도망쳐!
+\CBct[20]\m[confused]\c[6]로나：\c[0] \..\..\..왜 그래?
+
+GoblinRelease/Begin3
+\CBct[6]\m[fear]\c[6]로나：\c[0] 윽…
+
+GoblinRelease/UniqueGrayRat
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]회색쥐：\c[0] \..\..\..
+
+GoblinRelease/CompOrkindSlayer
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]오크 슬레이어：\c[0] 안 돼.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 정말… 착한 \c[6]오크\c[0]는 하나도 없는 거야?
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]오크 슬레이어：\c[0] 죽은 \c[6]오크\c[0]만이, 유일하게 좋은 \c[6]오크\c[0]이다.
+
+GoblinRelease/failed
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 하아… 알았어…
+
+commoner0/refugeeF0
+\CBid[-1,20]\c[4]난민：\c[0] 내가 잘못했어… \C[6]성도\C[0]는 분명 계셨는데, 내가 감히 의심하다니.
+
+commoner0/refugeeF1
+\CBid[-1,20]\c[4]난민：\c[0] 그분이 계셨기에 내가 살아남은 거야… 지난날의 내 말과 행동이 부끄럽다.
+
+commoner0/refugeeF2
+\CBid[-1,20]\c[4]난민：\c[0] 혹시라도 \C[6]성도\C[0]가 진짜로 계신지 의심한다면… \C[6]수도원\C[0]에 가 보게.
+\CBid[-1,20]\c[4]난민：\c[0] 착한 \C[6]신도들\C[0]이 널 이끌어 진실을 보여줄 테니!
+
+commoner1/refugeeF0
+\CBid[-1,20]\c[4]난민：\c[0] 수도원에서 가끔 잡곡을 나눠주긴 하지만… 배부르게 먹으려면 결국 스스로 벌어야지.
+
+commoner1/refugeeF1
+\CBid[-1,20]\c[4]난민：\c[0] 이 근처엔 마물 아니면 도적뿐이라… 수도원의 무장만으로는 도저히 막아내기 힘들어.
+
+commoner1/refugeeF2
+\CBid[-1,20]\c[4]난민：\c[0] 요즘 세상엔 \C[6]성도\C[0]를 믿는 자가 없으니, \C[6]성도\C[0]께서 벌을 내리신 거야.
+\CBid[-1,20]\c[4]난민：\c[0] 이 모든 게 정말… 우리의 죄 때문일까? .하지만 난 믿어! 나는 \C[6]성도\C[0]를 믿는단 말이야! 그런데 왜 나한테 이런 시련을 주시는 거지…?
+
+commoner2/Priest0
+\CBid[-1,20]\c[4]신자：\c[0] 이리 오라, 길 잃은 아이들이여! \C[6]성도\C[0]께서 너희를 용서하시리라!
+
+commoner2/Priest1
+\CBid[-1,20]\c[4]신자：\c[0] 이 모든 것은 네가 \C[6]성도\C[0]를 배신했기 때문이다! 고개 숙여 죄를 고하라!
+
+commoner2/Priest2
+\CBid[-1,20]\c[4]신자：\c[0] 네 몸을 바쳐라! 네 영혼을 바쳐라!
+
+Saint/board
+\board[성도 무명자]
+성도 무명자께서 말씀하시길: 네가 악을 마주할 때, 곧장 나의 이름을 부르라. 기억하라, 악은 결코 나의 이름을 직시하지 못하리라.  
+성도 복음 896 : 4

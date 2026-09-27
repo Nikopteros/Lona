@@ -1,0 +1,275 @@
+thisMap/OvermapEnter
+\m[confused]難民營\optB[算了,進入]
+
+####################################################################### MissingChild
+
+MIAchildMAMA/prog0
+\CBid[-1,6]\prf\c[4]難民：\c[0]    我的孩子啊！ 他們帶走了我的孩子！
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    誰？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \c[6]聖徒會\c[0]的信仰者！ 我就知道他們不安好心！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    啊？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    他們把我的孩子搶走了，還把我趕出了修道院。
+\CBid[-1,6]\prf\c[4]難民：\c[0]    \c[6]聖徒\c[0]啊！為什麼要這樣子對我呢！？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \c[6]聖徒會\c[0]的人不會做這種事吧？
+
+MIAchildMAMA/prog0_board
+\board[她的孩子]
+目標：去修道院尋找她的孩子。
+報酬：無
+委託主：難民
+期限：單次
+\c[6]湯米\c[0]失蹤了，先去西邊的修道院問問看吧。
+她只是個可憐難民，可能沒有什麼好處能給妳。
+
+MIAchildMAMA/prog0_Taken
+\CBct[20]\m[triumph]\PRF\c[6]洛娜：\c[0]    交給我吧，我會找到她的，她叫什麼名字？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    不，他是個男孩子，他叫\c[6]湯米\c[0]。
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃\..\..\..男孩子？
+\CBct[20]\m[pleased]\c[6]洛娜：\c[0]    總之等我的好消息吧！
+
+MIAchildMAMA/prog1_noNews
+\CBid[-1,20]\prf\c[4]難民：\c[0]    有\c[6]湯米\c[0]的消息嗎？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃\..\..\..還沒有。
+\CBid[-1,6]\prf\c[4]難民：\c[0]    我的小\c[6]湯米\c[0]啊！
+
+MIAchildMAMA/QdoneBegin
+\CBid[-1,6]\prf\c[4]難民：\c[0]    找到我的小\c[6]湯米\c[0]了嗎？
+
+MIAchildMAMA/prog7_NotFound
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    \c[4]聖徒會\c[0]的人說，是妳用孩子跟他們交換食物的。
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    這是真的嗎？
+\CBid[-1,6]\prf\c[4]難民：\c[0]    我\..\..\..
+\CBid[-1,20]\prf\c[4]難民：\c[0]    我不是故意的！ 我實在是太餓了！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    是我對不起他！ 我對不起\c[6]湯米\c[0]！
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    所以他們沒有搶走妳的孩子？
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    是妳自己賣了他的？
+\CBid[-1,6]\prf\c[4]難民：\c[0]    對\..\..\..都是我的錯... 對不起....
+\CBid[-1,6]\prf\c[4]難民：\c[0]    我的小\c[6]湯米\c[0]啊！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    媽媽會把你找回來的！
+
+MIAchildMAMA/prog7_end
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    唉...
+
+MIAchildMAMA/prog9_failed
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 那個....
+\CBid[-1,6]\prf\c[4]難民：\c[0]    怎麼了？ 我的小\c[6]湯米\c[0]呢？
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[sad]\PRF\c[6]洛娜：\c[0]    他不願意回來，他說他決定獻身給\c[4]聖徒\c[0]了。
+\CBid[-1,20]\prf\c[4]難民：\c[0]    不可能！ 妳說謊！
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    真的！ 我沒有騙妳！ 這是他親口告訴我的！
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    他說他討厭妳！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    不！ 妳跟\c[6]聖徒\c[0]都是騙子！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \{神到底在哪裡啊！！！\}
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \{騙子！謊言者！騙子！\}
+
+MIAchildMAMA/prog9_win0
+\CBct[20]\m[pleased]\Rshake\c[6]洛娜：\c[0]    我找到妳的孩子了！
+\CBid[-1,1]\prf\c[4]難民：\c[0]    ！！！！！！！
+
+MIAchildMAMA/prog9_win1
+\CBmp[Tommy,4]\prf\c[4]湯米：\c[0]    媽媽！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \c[6]湯米\c[0]，我的乖寶寶！
+\CBmp[Tommy,2]\prf\c[4]湯米：\c[0]    所以媽媽沒有不要我嗎？
+\CBid[-1,6]\prf\c[4]難民：\c[0]    怎麼可能！ 這都是\c[6]聖徒會\c[0]的謊言！那群騙子！
+\CBid[-1,6]\prf\c[4]難民：\c[0]    媽媽對不起你！ 我不會再讓你離開了！
+\CBct[4]\m[triumph]\Rshake\c[6]洛娜：\c[0]    嗯，這樣才對！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    那我先離開了，這種溫馨的時刻還是給他們一點空間吧。
+
+MIAchildMAMA/prog9_win2
+\CBmp[Tommy,20]\prf\c[4]湯米：\c[0]    姊姊！ 等一下！
+
+MIAchildMAMA/prog9_win3
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    怎麼了？
+
+MIAchildMAMA/prog9_win4
+\CBmp[Tommy,20]\prf\c[4]湯米：\c[0]    這根棒棒一直塞在我的屁屁裡。
+\CBmp[Tommy,20]\prf\c[4]湯米：\c[0]    \c[6]信仰者\c[0]大人們說這是為了讓我更接近\c[6]聖徒\c[0]的試煉。
+\CBmp[Tommy,20]\prf\c[4]湯米：\c[0]    但現在我不需要它了。
+\CBmp[Tommy,20]\prf\c[4]湯米：\c[0]    就送給姊姊吧！
+
+MIAchildMAMA/prog9_win5
+\CBct[2]\m[wtf]\Rshake\c[6]洛娜：\c[0]    啊！？ 屁屁裡！？
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃好...謝謝？
+
+MAMAdone/Qmsg
+感謝妳！
+
+TOMMYdone/Qmsg
+謝謝姊姊！
+
+####################################################################### CBT OP
+
+CBTop/Begin0
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    聽好，妳比這些狗屎強大。
+\CBmp[CBTer1,6]\c[4]難民B：\c[0]    我...
+
+CBTop/Begin1
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    這些垃圾是罪有應得，\c[6]聖徒\c[0]不會怪罪妳的。
+
+CBTop/Begin2
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    不要怕，牠們沒辦法再傷害妳了。
+
+CBTop/Begin3
+\CBmp[CBTer1,8]\c[4]難民B：\c[0]    這樣做真的好嗎？
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    想想牠們對妳做了什麼。
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    動手吧，相信我。
+\CBmp[CBTer1,8]\c[4]難民B：\c[0]    .....
+
+CBTop/Begin4
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    感覺如何？ 繼續阿，不要怕。
+\CBmp[CBTer1,8]\c[4]難民B：\c[0]    嗚嗚....
+
+CBTop/Begin5
+\CBmp[CBTer1,20]\c[4]難民B：\c[0]    \{嗚啊啊啊！\}
+
+CBTop/Begin6
+\CBmp[CBTer1,20]\c[4]難民B：\c[0]    \{我殺了你啊啊！\}
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    就是這樣，盡管發洩吧。
+
+
+####################################################################### Hunter
+
+Hunter/begin
+\CBmp[CBThunter,20]\c[4]獵人：\c[0]    妳也是來復仇的嗎？
+\CBmp[CBThunter,20]\c[4]獵人：\c[0]    上吧，今天新抓到的！ 只要#{$story_stats["HiddenOPT1"]}P！
+
+Hunter/begin_Payed
+\CBmp[CBThunter,20]\c[4]獵人：\c[0]    別弄死了，沒先放血肉質會變差。
+
+Hunter/NeedPay0
+\CBmp[CBThunter,20]\c[4]獵人：\c[0]    喂！ 別碰牠！ 妳必須付錢！
+
+Hunter/NeedPay1
+\CBct[6]\m[flirty]\c[6]洛娜：\c[0]    喔...
+
+HunterOpt/About
+關於
+
+Hunter/Pay
+踢蛋蛋
+
+Hunter/PayPass
+\CBmp[CBThunter,4]\c[4]獵人：\c[0]    狠狠教訓牠們吧！
+
+Hunter/PayNotEnough
+\CBmp[CBThunter,5]\c[4]獵人：\c[0]    你在開玩笑？ 我說過要#{$story_stats["HiddenOPT1"]}P！
+
+Hunter/WTF
+\CBmp[CBThunter,5]\prf\c[4]獵人：\c[0]    臭婊子！ 妳做了什麼！
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    咿咿！！
+
+Hunter/AboutDialog
+\CBct[2]\m[flirty]\PLF\c[6]洛娜：\c[0]    呃....這些\c[4]類獸人\c[0]是怎麼回事？
+\CBmp[CBThunter,20]\prf\c[4]獵人：\c[0]    \c[6]類獸人\c[0]？ 誰？ 這些\c[6]哥布林\c[0]嗎？ 我在森林裡抓到的，牠們一直在這附近遊蕩。
+\CBct[20]\m[confused]\PLF\c[6]洛娜：\c[0]    呃...我是指為什麼牠們會在這。
+\CBmp[CBThunter,20]\prf\c[4]獵人：\c[0]    當然是為了治療那些被\c[6]哥布林\c[0]玩過的女人啊。
+\CBct[2]\m[flirty]\PLF\c[6]洛娜：\c[0]    治療？
+\CBmp[CBThunter,20]\prf\c[4]獵人：\c[0]    那些女人的被玩過後都崩潰了不是？
+\CBmp[CBThunter,20]\prf\c[4]獵人：\c[0]    所以只要給我點有用的東西，就能夠盡情地海扁這些\c[6]哥布林\c[0]。
+\CBmp[CBThunter,20]\prf\c[4]獵人：\c[0]    讓她們把失去的所有，從這些\c[6]哥布林\c[0]身上討回來。
+\CBmp[CBThunter,20]\prf\c[4]獵人：\c[0]    而且啊...\c[6]哥布林\c[0]吃起來味道還不錯。
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    啊！？
+\CBmp[CBThunter,20]\prf\c[4]獵人：\c[0]    妳也試試吧，這些綠皮求饒的樣子可有趣極了。
+
+####################################################################### Common
+
+DedGob/Qmsg0
+昏死了...
+
+DedGob/Qmsg1
+一股蛋蛋的哀傷...
+
+DedGob/Qmsg2
+非常痛苦的表情...
+
+CapGob/Qmsg0
+相當恐懼的神情...
+
+CapGob/Qmsg1
+無助且悲慘
+
+CapGob/FaceIT
+必須面對牠
+
+GobSemen/begin1
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！\}
+
+GobSemen/begin2_0
+\CBct[6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    好髒！
+
+GobSemen/begin2_1
+\CBct[6]\m[wtf]\Rshake\c[6]洛娜：\c[0]    噴到臉上了啦！
+
+GobExit/Alive0
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    沒關系，我原諒你。
+
+GobExit/Alive1
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    這是不對的，牠們好可憐...
+
+GoblinCBT/begin0
+牠的表情露出了恐懼....
+
+GoblinCBT/begin1
+失去希望的神情....
+
+GoblinCBT/Kick
+踢牠
+
+GoblinCBT/Release
+解救牠
+
+GoblinRelease/Begin1
+\CBct[20]\m[triumph]\c[6]洛娜：\c[0]    別怕！ 我會幫助你們的！
+
+GoblinRelease/Begin2
+\CBct[20]\m[pleased]\c[6]洛娜：\c[0]    好了，你們快逃吧！
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    \..\..\..怎麼了？
+
+GoblinRelease/Begin3
+\CBct[6]\m[fear]\c[6]洛娜：\c[0]    呃...
+
+GoblinRelease/UniqueGrayRat
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]灰鼠：\c[0]    \..\..\..
+
+GoblinRelease/CompOrkindSlayer
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]類獸人殺手：\c[0]    不可以。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    難道就沒有好的\c[6]類獸人\c[0]嗎？
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]類獸人殺手：\c[0]    只有死掉的\c[6]類獸人\c[0]才是好\c[6]類獸人\c[0]。
+
+GoblinRelease/failed
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    呃...好吧...
+
+commoner0/refugeeF0
+\CBid[-1,20]\c[4]難民：\c[0]    我錯了，\C[6]聖徒\C[0]是存在的，我不該質疑祂的。
+
+commoner0/refugeeF1
+\CBid[-1,20]\c[4]難民：\c[0]    因為有祂，我才能存活，我對過往的言行感到羞愧。
+
+commoner0/refugeeF2
+\CBid[-1,20]\c[4]難民：\c[0]    若你懷疑\C[6]聖徒\C[0]是否真實。那就到\C[6]修道院\C[0]看看吧。
+\CBid[-1,20]\c[4]難民：\c[0]    善良的\C[6]信仰者\C[0]會指引你看見真相的！
+
+commoner1/refugeeF0
+\CBid[-1,20]\c[4]難民：\c[0]    那些修士們偶爾會來發送些雜糧，但若要吃得飽還是得靠自己了。
+
+commoner1/refugeeF1
+\CBid[-1,20]\c[4]難民：\c[0]    附近不是魔物就是野盜，僅靠著修道院的武增根本防不勝防。
+
+commoner1/refugeeF2
+\CBid[-1,20]\c[4]難民：\c[0]    他們這世道根本沒人信什麼\C[6]聖徒\C[0]了，所以\C[6]聖徒\C[0]才降下了責罰。
+\CBid[-1,20]\c[4]難民：\c[0]    這一切都是我們的責罰嗎？\.但我信阿！我信 \C[6]聖徒 \C[0]阿！ 為什麼還讓我遭遇這些事呢？
+
+commoner2/Priest0
+\CBid[-1,20]\c[4]信仰者：\c[0]    過來吧！ 迷失的孩子們！ \C[6]聖徒\C[0]會原諒你們的！
+
+commoner2/Priest1
+\CBid[-1,20]\c[4]信仰者：\c[0]    這一切正是因你背叛了\C[6]聖徒\C[0]！ 低頭認錯吧！
+
+commoner2/Priest2
+\CBid[-1,20]\c[4]信仰者：\c[0]    獻出你的身體！ 獻出你的靈魂！
+
+Saint/board
+\board[聖徒無名者]
+聖徒無名者說： 當你遇見邪惡時便可直呼我的名字。 切記，邪惡無法直視我的名號。
+聖徒福音896：4

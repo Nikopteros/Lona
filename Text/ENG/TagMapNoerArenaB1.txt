@@ -1,0 +1,138 @@
+thisMap/Enter
+\SETpl[Mreg_pikeman]The sign on the door reads "\c[4]STAFF ONLY\c[0]".\optB[Leave,Sneak<r=HiddenOPT1>,Bluff<r=HiddenOPT2>]
+
+########################################################################################################### Nap
+
+enter/begin0
+\c[4]Warden：\c[0]    Be good and wait for your turn again. Resisting will only lead to your death.
+\c[4]Warden：\c[0]    This is your only food for today, take it! It'll be your turn to entertain us soon.
+
+Nap/BecomeSlave0
+\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]Guard A：\c[0]    What's this piece of shit doing here?
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Guard B：\c[0]    Maybe she really wants to be a gladiator?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guard A：\c[0]    Haha! You've got that right!
+
+Nap/Torture0
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Guard B：\c[0]    Well then, shall we teach this piece of dog shit a lesson?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guard A：\c[0]    Hey, I've got a great idea...
+\narr The two carried Lona away.
+
+Nap/Torture1
+\CBct[8]\m[tired]\c[6]Lona：\c[0]    Ughnnn... What happened to me?
+
+Nap/Torture2
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    EH?!
+
+Nap/Torture3
+\CBmp[Goblin1,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!
+\CBmp[Goblin2,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!!!
+\CBmp[Goblin3,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!!!!!!
+
+########################################################################################################### Get to fight
+
+Daily/Food0
+\CBmp[Warden,20]\c[4]Warden：\c[0]    Alright maggots! WAKE UP!
+\CBct[20]\m[shocked]\c[6]Lona：\c[0]    Huh?
+
+Daily/Food1
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    Bring your face close to the bars! Closer! Open your mouth if you wanna be fed!
+
+Daily/Food_YES0
+\CBct[20]\m[sad]\c[6]Lona：\c[0]    Okay......
+
+Daily/Food_YES0_1
+\narr The Warden grabbed Lona's hair with a tight grip and pulled her head close to the cell door's bars.
+
+Daily/Food_YES1
+\BonMP[Warden,3]\prf\c[4]Warden：\c[0]    Ha! Amazing! This is how all slaves should be like!
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    Now, what does a good slave say?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    T-Thank you, master...
+
+Daily/Food_NO
+\CBct[20]\m[fear]\c[6]Lona：\c[0]    No... I won't...
+\BonMP[Warden,5]\prf\c[4]Warden：\c[0]    Alright, fine! Then no food for you, we'll see how much longer you'll last.
+
+Daily/Food_END
+\narr The Warden shoves some food through the bars of the cell door.
+
+########################################################################################################### Get to fight
+
+playerFight/begin0
+\CBmp[Warden,20]\c[4]Warden：\c[0]    WAKE UP! YOU WORTHLESS MAGGOT!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    EHH? Y-Yes?!
+
+playerFight/begin1
+\CBmp[Warden,20]\c[4]Warden：\c[0]    It's your turn to die now, be sure entertain our audience!
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    ......
+
+playerFight/begin2_opt
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    Hurry up and get ready! \optD[Select your equipment,Special offer<r=HiddenOPT0>,Prepare (Open Menu),FIGHT!]
+
+playerFight/begin2_opt_notYet
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    You're not done yet? Hurry the fuck up!
+
+playerFight/begin2_opt_OtherOffer
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    Is there anything that will help me survive...?
+\CBct[8]\m[bereft]\PRF\c[6]Lona：\c[0]    I still... don't want to die...
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    I've got some good things that'll make sure you won't suffer so much.
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    If you want them, you'll have to bring your lips closer.
+
+playerFight/begin2_opt_OtherOffer_yes0
+\ph\SndLib[sound_equip_armor]\cg[event_WartsDick]\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..
+\narr The Warden pulls out and reveals his wart-infested cock to you, then pours a vial of mysterious liquid on it.
+
+playerFight/begin2_opt_OtherOffer_yes1
+\BonMP[Warden,20]\cgoff\prf\c[4]Warden：\c[0]    Alright, use your mouth to lick it clean.
+\CBct[8]\m[fear]\PRF\c[6]Lona：\c[0]    Ah?
+
+playerFight/begin2_opt_OtherOffer_yes2
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    Very good, and what do good slaves say?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    T-Thank you...
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    Wonderful! I've also prepared something for pieces of dog shits like you.
+
+playerFight/begin2_opt_OtherOffer_yes3
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    Try not to die too early. I kinda like you, and I still need you to clean up my lil' man.
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    Thank you master, for your kindness.
+
+playerFight/begin2_opt_OtherOffer_no
+\BonMP[Warden,5]\prf\c[4]Warden：\c[0]    Tsk! No fun!
+
+playerFight/FightStart
+\BonMP[Warden,20]\prf\c[4]Warden：\c[0]    Good luck, try not to die so soon.
+
+########################################################################################################### common
+
+Roommate/begin0_0
+\CBid[-1,20]\c[4]Prisoner：\c[0]    I'm never leaving this place! Don't even think about it!
+
+Roommate/begin0_1
+\CBid[-1,20]\c[4]Prisoner：\c[0]    This is my cell!
+
+Roommate/begin0_2
+\CBid[-1,20]\c[4]Prisoner：\c[0]    I must stay in here!
+
+Roommate/begin2
+\CBct[2]\m[confused]\Rshake\c[6]Lona：\c[0]    Eh?!
+
+Guard/Qmsg0
+How did you get in here?!
+
+Guard/Qmsg1
+GET OUT!
+
+Guard/Qmsg2
+This place is for staff only!
+
+Worker/Qmsg0
+But, only I can do it!
+
+Worker/Qmsg1
+There's just too much work here!
+
+Worker/Qmsg2
+I hate paperwork!
+
+EstC/Qmsg
+......
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

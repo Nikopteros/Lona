@@ -1,0 +1,106 @@
+Adam/NonFristTimeBegin
+\CBmp[Adam,2]\SETpl[Adam_normal]\Lshake\c[4]Desconocido：\C[0]    ¿No te he visto antes en algún lugar?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Mmm, no lo creo.
+
+Adam/0_Begin0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\c[4]Desconocido：\C[0]    Necesito un explorador que sepa moverse en silencio. ¿Eso te describe?
+
+Adam/0_Begin2
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿A mí? \optB[No..., ¡Soy yo!]
+
+Adam/1_Begin_yes
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Sí, soy yo.
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    Pero pareces... una niña cualquiera.
+\CBct[1]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¡No soy una niña!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Hmmm\..\..\.. ¿Eres de Sibaris?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Sí, ¿y qué?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    ¿Sabes que el ejército de esta isla se mantiene explotando a Sibaris?
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona：\C[0]    ¿Eh... En serio?!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    Necesito ayuda de alguien como tú.
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    Debes pasar mi prueba y demostrarme que eres una exploradora digna. ¡Quiero que robes la medalla que está en la armadura del \c[6]Centurión\C[0] en el campamento militar!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    Para motivarte durante la prueba, te daré una moneda de cobre.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Hmmm...
+
+Adam/1_Begin_done0
+\CBct[20]\m[pleased]\c[6]Lona：\C[0]    ¡Lo conseguí!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    Bien hecho, sabía que podrías.
+
+Adam/1_Begin_done1
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Búscame aquí de nuevo en unos días, te daré otra misión.
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Toma esto!
+
+Adam/1_Begin_done2
+\CBct[8]\m[triumph]\plf\PRF\c[6]Lona：\C[0]    ¡Gracias!
+
+Adam/2_begin_1
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    Hey, chiquilla, nos volvemos a encontrar.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Mmm, hola de nuevo.
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    Tengo una misión en la que necesito tu ayuda.
+\CBmp[Adam,8]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    ¿Alguna vez has oído hablar de un \c[4]mosquete\C[0]?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Nop, nunca...
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Bueno, no pareces una soldado. Pero seguro sabes lo que es un cañón, ¿verdad?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Básicamente, es un cañón reducido al tamaño de algo que puedes sostener con las manos. Funciona con magia potente, pero no requiere conocimientos mágicos para usarlo.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¡Suena genial!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Y tanto!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Al arsenal del este de la fortaleza llegó recientemente un cargamento de mosquetes. Necesito que me ayudes a robar algunos.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    En cuanto a la recompensa\..\..\.. ¡No te defraudaré!
+
+Adam/2_begin_board
+\board[Robo de mosquetes]
+Tarea：Robar varios mosquetes
+Recompensa：Moneda de Oro x2\i[581]
+Cliente：Desconocido
+Repetible：Única
+Dirígete al arsenal ubicado al este de la fortaleza y roba varios mosquetes.
+
+Adam/2_begin_decide
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    Bueno, ¿qué dices? \optB[Lo pensaré..., ¡Lo haré!]
+
+Adam/2_begin_accept1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\C[0]    ¡No hay problema! ¡Lo haré!
+\CBmp[Adam,3]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Eso es actitud!
+
+Adam/2_begin_accept2
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡Eh?!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Por cierto, el medallón que me trajiste también sirve como pase. Significa que sirves en el \c[4]Cuartel de la Guardia\C[0].
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Llévalo contigo, o no podrás entrar.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Los \c[6]mosquetes\C[0] parecerán cañones de madera, pero con un tubo de metal unido.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Diles que la guilda te contrató y que necesitas leer, revisar y copiar los registros de \c[4]Brian\C[0].
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\C[0]    ¡Vale, entendido!
+
+Adam/5_win1
+\CBct[3]\m[Adam_sad]\plf\PRF\c[6]Lona：\C[0]    ¡Lo traje!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Déjame ver!
+\CBct[3]\m[normal]\plf\PRF\c[6]Lona：\C[0]    ¡Aquí!
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    \..\..\..
+
+Adam/5_win2
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    Nunca había visto un arma así...
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    Hmpf... Como esperaba de \c[4]Milo\C[0], solo alguien como él podría permitirse esto.
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    ¿Incluso la recarga de energía de fuego es más rápida?
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    \..\..\.. Interesante...
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    Bueno, esto es exactamente lo que quería. Puedes volver a casa.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Y la recompensa?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Me quedé sin dinero, ¿qué quieres? ¿Quieres pelear?
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Eh... Perdón...
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    ¿Eh? ¿Por qué te disculpas?
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Desconocido：\C[0]    Olvídalo. Toma esto.
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡Eh?!
+
+Adam/5_win3
+\CBct[8]\m[shocked]\plf\PRF\c[6]Lona：\C[0]    Gr-... ¿Gracias?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Y para qué quiero este palo?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    ¡No! ¡Es un "arma"! ¡Apúntala al enemigo, grita "¡BANG! ¡BANG!" y mira cómo muere!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Eh?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Es algo muy valioso! No tengo tiempo para charlas, busca un lugar tranquilo y pruébalo tú misma.
+
+Adam/else
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    *Zzzzzzz*...
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Hmmm?
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]Desconocido：\C[0]    *Zzzzz*......
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Está dormido?...
+
+Adam/ElseDialog
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    ¿Entiendes? ¡No podemos avanzar bajo el control de la familia Rosendo!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Necesitamos recuperar el control de la isla de Noër...

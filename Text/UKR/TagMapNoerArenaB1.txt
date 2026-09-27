@@ -1,0 +1,137 @@
+thisMap/Enter
+\SETpl[Mreg_pikeman]На табличці сказано "\c[4]Тільки для співробітників\C[0]"\n Тут стоїть страж. \optB[Відійти,Прокрастися<r=HiddenOPT1>,Обдурити<r=HiddenOPT2>]
+
+######################################################################################################
+
+enter/begin0
+\c[4]Наглядач：\C[0] Стій тут. Неслухняність тебе приведе лише до смерті.
+\c[4]Наглядач：\C[0] Ось твоя їжа на сьогодні, бери! Незабаром твій вихід.
+
+Nap/BecomeSlave0
+\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]Страж A:\C[0] Що ця блядина витворює?
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Стражник B：\C[0] Може, вона хоче стати гладіатором?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник A：\C[0] Хаха! Я так подумав!
+
+Nap/Torture0
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Стражник B：\C[0] Може, подати цій брудній пізді урок?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник A：\C[0] Ага, і в мене є ідея.
+\narr Лону відвели геть.
+
+Nap/Torture1
+\CBct[8]\m[tired]\c[6]Лона:\C[0] Охх..... Що зі мною зробили?
+
+Nap/Torture2
+\CBct[1]\m[shocked]\Rshake\c[6]Лона:\C[0] Аа?!
+
+Nap/Torture3
+\CBmp[Goblin1,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!
+\CBmp[Goblin2,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!
+\CBmp[Goblin3,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]!!!!!!
+
+######################################################################################################
+
+Daily/Food0
+\CBmp[Warden,20]\c[4]Наглядач:\C[0] Черв'як! Вставай!
+\CBct[20]\m[shocked]\c[6]Лона:\C[0] Аа?
+
+Daily/Food1
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Давай сюди! Ближче! Відкривай свій рот та отримаєш харчування на сьогодні!
+
+Daily/Food_YES0
+\CBct[20]\m[sad]\c[6]Лона:\C[0] Я йду.....
+
+Daily/Food_YES0_1
+Наглядач грубо схопив голову Лони і притиснув її до ґрат камери.
+
+Daily/Food_YES1
+\BonMP[Warden,3]\prf\c[4]Наглядач:\C[0] Ох! Ось так! Ось навіщо потрібні рабині!
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Як повинні говорити рабині?
+\CBct[8]\m[sad]\PRF\c[6]Лона:\C[0] Дякую, Господарю...
+
+Daily/Food_NO
+\CBct[20]\m[fear]\c[6]Лона:\C[0] Ні... Ви....
+\BonMP[Warden,5]\prf\c[4]Наглядач:\C[0] Що ж! Тоді не будеш сьогодні їсти. Подивимося, скільки ти протримаєшся.
+
+Daily/Food_END
+\narr Наглядач залишив трохи їжі біля лозин тюремної камери.
+
+######################################################################################################
+
+playerFight/begin0
+\CBmp[Warden,20]\c[4]Наглядач:\C[0] Прокинься і співай! Смердючий черв'як!
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] Аа? Так!?
+
+playerFight/begin1
+\CBmp[Warden,20]\c[4]Наглядач:\C[0] Твоя черга помирати сьогодні, розважатимеш глядачів!
+\CBct[8]\m[tired]\PRF\c[6]Лона:\C[0] .....
+
+playerFight/begin2_opt
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Давай готуйся і вперед! \optD[Вибрати спорядження,Особлива пропозиція<r=HiddenOPT0>,Готуватися,Почати]
+
+playerFight/begin2_opt_notYet
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Чим ти там так довго зайнята? За справу!
+
+playerFight/begin2_opt_OtherOffer
+\CBct[8]\m[sad]\PRF\c[6]Лона:\C[0] Маю бути хоч щось, щоб я вижила...
+\CBct[8]\m[bereft]\PRF\c[6]Лона:\C[0] Я просто.... Я не хочу померти сьогодні.
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] У мене є дещо, щоб полегшити твоє страждання.
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Якщо ти це хочеш - підноси сюди свій смердючий рот.
+
+playerFight/begin2_opt_OtherOffer_yes0
+\ph\SndLib[sound_equip_armor]\cg[event_WartsDick]\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..
+\narr Наглядач вийняв свій член і облив його якимось зіллям із флакона.
+
+playerFight/begin2_opt_OtherOffer_yes1
+\BonMP[Warden,20]\cgoff\prf\c[4]Наглядач:\C[0] Ось так. А тепер злизує це з мого члена, заразом помиєш його.
+\CBct[8]\m[fear]\PRF\c[6]Лона:\C[0] Хмм?
+
+playerFight/begin2_opt_OtherOffer_yes2
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Дуже добре. Що мають говорити рабині?
+\CBct[8]\m[sad]\PRF\c[6]Лона:\C[0] Дякую вам.
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Правильно! До речі, у мене є ще дещо для пізди на кшталт тебе.
+
+playerFight/begin2_opt_OtherOffer_yes3
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Не вмирай там так швидко, я оптимістично налаштований на твій рахунок. Мені все ще буде потрібно хтось, хто буде відмивати мій хуй язиком.
+\CBct[8]\m[sad]\PRF\c[6]Лона:\C[0] Дякуємо за турботу, Хазяїне.
+
+playerFight/begin2_opt_OtherOffer_no
+\BonMP[Warden,5]\prf\c[4]Наглядач:\C[0] Вперед! Виродок ти марний.
+
+playerFight/FightStart
+\BonMP[Warden,20]\prf\c[4]Наглядач:\C[0] Почнемо. Не вмирай дуже швидко.
+
+#######################################################################################################
+
+Roommate/begin0_0
+\CBid[-1,20]\c[4]В'язень:\C[0] Я не піду звідси! Навіть не думай про це!
+
+Roommate/begin0_1
+\CBid[-1,20]\c[4]В'язень:\C[0] Це моя клітина!
+
+Roommate/begin0_2
+\CBid[-1,20]\c[4]В'язень:\C[0] Я повинен бути тут!
+
+Roommate/begin2
+\CBct[2]\m[confused]\Rshake\c[6]Лона:\C[0] Що?!
+
+Guard/Qmsg0
+Ти як увійшла?
+
+Guard/Qmsg1
+Валі звідси!
+
+Guard/Qmsg2
+Лише для співробітників!
+
+Worker/Qmsg0
+Але тільки я впораюся!
+
+Worker/Qmsg1
+Занадто багато роботи!
+
+Worker/Qmsg2
+Ненавиджу роботу за столом!
+
+EstC/Qmsg
+.......
+

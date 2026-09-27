@@ -1,0 +1,136 @@
+thisMap/OvermapEnter
+Casa Abandonada \optB[Cancelar,Entrar]
+
+######################################################3
+
+mec/QmsgTar
+¡Más rápido, adelante!
+
+mec/Done1
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    ¡Gracias!
+
+mec/Done2
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    Quizás en este mundo aún haya gente en quien confiar.
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    ¡Ciudadana! ¿Cómo te llamas?
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\C[0]    \c[6]Lona Folding\C[0]
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    ¿\c[6]Lona\C[0]? Te lo agradezco de nuevo.
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    Pronto dejaré esta isla, y probablemente no nos volvamos a ver, pero siempre te recordaré.
+\CBct[20]\m[pleased]\PRF\c[6]Lona：\C[0]    ¡No hay de qué!
+
+mec/CommonConvoyTarget0
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    ¡Más rápido!
+
+mec/CommonConvoyTarget1
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    Quiero llegar a \C[4]Fortaleza de la Roca\C[0].
+
+mec/CommonConvoyTarget2
+\CBfE[20]\prf\c[4]Lady Noble：\C[0]    ¡Avancemos!
+
+mec/win
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¡Uf!
+
+mec/Quprog_0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Estás bien?
+\CBmp[Girl,8]\prf\c[4]Lady Noble：\C[0]    Cómo pudo pasar esto...
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué?
+\CBmp[Girl,8]\prf\c[4]Lady Noble：\C[0]    ¿Intenté ayudar en vano? ¿Quizás los mendigos son realmente gente diferente?
+\CBmp[Girl,20]\prf\c[4]Lady Noble：\C[0]    ¡Escucha, ciudadana! ¡Asegura mi camino a \C[4]Fortaleza de la Roca\C[0]!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Uf...
+
+mec/Quprog_0_board
+\board[Escolta de la Viajera]
+Misión：Escoltar a Lady Noble a Fortaleza de la Roca.
+Recompensa：Grandes Monedas de Cobre x3\i[582] +2 de Reputación.
+Cliente：Lady Noble.
+Plazo：5 días.
+
+mec/Quprog_0_decide
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Em... \optB[Estoy ocupada,De acuerdo]
+
+######################################################3
+
+Start/begin_1
+\c[4]Refugiado：\C[0]    Bondadosos Lord y Lady Noble... ¿Podrían darnos algo de comer...?
+\CBmp[Girl,20]\c[4]Sirviente：\C[0]    Señorita, debemos irnos.
+\CBmp[Girl,20]\c[4]Lady Noble：\C[0]    Dales más comida.
+\CBmp[Girl,20]\c[4]Sirviente：\C[0]    Como ordene.
+
+Start/begin_2
+\CBmp[MainDude,3]\c[4]Refugiado：\C[0]    ¡Gracias! Tengo dos hijos en casa, ¿podrían darme un poco más?
+\CBmp[Man,20]\c[4]Sirviente：\C[0]    ¡No! ¡Ya debemos marcharnos!
+
+Start/begin_3
+\CBmp[Girl,20]\c[4]Lady Noble：\C[0]    Está bien, ayúdalo.
+\CBmp[Man,20]\c[4]Sirviente：\C[0]    ¡Señorita! ¡Es suficiente!
+\CBmp[Girl,20]\c[4]Lady Noble：\C[0]    ¿Acaso la vida de un refugiado no importa? ¡Todos somos seres humanos!
+\CBmp[Girl,20]\c[4]Lady Noble：\C[0]    ¡Debemos ayudarlos mientras puedan ayudarnos! ¡Todas mis órdenes son las de mi padre!
+\CBmp[Man,8]\c[4]Sirviente：\C[0]    ....
+\CBmp[Man,20]\c[4]Sirviente：\C[0]    ¡Como ordene!
+
+Start/begin_4
+\CBmp[Man,20]\c[4]Sirviente：\C[0]    ¡Aquí tienes más comida, cortesía de la generosa Lady Noble!
+\CBmp[MainDude,3]\c[4]Refugiado：\C[0]    ¡Gracias! ¡Son tan generosos como el Santo!
+\CBmp[Man,8]\c[4]Sirviente：\C[0]    ¡No olvides la generosidad de nuestra familia!
+
+Start/begin_5
+\CBmp[Girl,2]\c[4]Lady Noble：\C[0]    ¿Qué? ¡¿Qué has hecho?!
+\CBmp[HorseKiller,8]\c[4]Refugiado：\C[0]    Normalmente comemos carne de oveja flaca, pero hoy...
+\CBmp[GuardKiller,3]\c[4]Refugiado：\C[0]    ¡Podemos comer carne de caballo!
+\CBmp[MainDude,4]\c[4]Refugiado：\C[0]    ¡Y a una mujer! ¡Podemos follarnos a una mujer hermosa!
+\CBmp[Girl,6]\c[4]Lady Noble：\C[0]    ¡¿Qué?!
+
+Start/begin_5_1
+\CBmp[Girl,1]\c[4]Lady Noble：\C[0]    ¡¡Aaaahhh!! ¡No!
+
+Start/begin_6
+\CBmp[Girl,6]\c[4]Lady Noble：\C[0]    ¡No! ¿Por qué hacen esto? ¡¿Acaso no os ayudé?!
+
+Start/begin_7
+\CBmp[Girl,20]\c[4]Lady Noble：\C[0]    ¡¡No!! ¡¡Quitaos de encima!!
+\CBmp[MainDude,20]\c[4]Refugiado：\C[0]    ¡Vamos! ¡Eres una mujer!
+
+Start/begin_8
+\CBmp[HorseKiller,8]\c[4]Refugiado：\C[0]    Uff, hoy es un día muy afortunado.
+
+Start/begin_9
+\CBmp[GuardKiller,3]\c[4]Refugiado：\C[0]    Es bastante resistente, podemos follárnosla varios días, ¿no?
+\CBmp[Girl,20]\c[4]Lady Noble：\C[0]    ¡No! ¿Por qué hacen esto? ¡Ayuda, alguien!
+
+Start/begin_10
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué pasa? ¿Quién pide ayuda?
+
+Start/begin_11
+\CBmp[GuardKiller,20]\prf\c[4]Refugiado：\C[0]    ¡Mujer! ¡Aquí hay otra!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\C[0]    ¡No! ¡Alto! ¡Solo estaba pasando!
+\CBmp[MainDude,4]\prf\c[4]Refugiado：\C[0]    ¡Hoy el día mejora cada vez más!
+
+Start/begin_12
+\CBmp[HorseKiller,20]\prf\c[4]Refugiado：\C[0]    ¡Alto!
+\CBmp[GuardKiller,2]\prf\c[4]Refugiado：\C[0]    ¿Qué quieres?
+\CBmp[HorseKiller,20]\prf\c[4]Refugiado：\C[0]    ¡Esto está mal! ¡Mírala!
+
+Start/begin_13
+\CBmp[MainDude,2]\prf\c[4]Refugiado：\C[0]    ¿Y qué tiene de malo?
+\CBmp[HorseKiller,20]\prf\c[4]Refugiado：\C[0]    Ella...\..\..\.. ¡Ni siquiera tiene pechos!
+\CBmp[MainDude,2]\prf\c[4]Refugiado：\C[0]    ¿Y qué?
+\CBmp[HorseKiller,20]\prf\c[4]Refugiado：\C[0]    ¡Es una niña! ¡No debemos hacerle esto a una niña!
+\CBct[5]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Mm?
+\CBmp[MainDude,8]\prf\c[4]Refugiado：\C[0]    \..\..\..
+\CBmp[GuardKiller,8]\prf\c[4]Refugiado：\C[0]    \..\..\..
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Em... \optD[Soy una mujer,Orcoides<r=HiddenOPT1>]
+
+Start/begin_13_Adult
+\CBct[5]\m[bereft]\PRF\c[6]Lona：\C[0]    ¡No soy una niña! ¡Soy adulta!
+\CBmp[HorseKiller,8]\prf\c[4]Refugiado：\C[0]    ¿Entonces eres mujer?
+\CBmp[MainDude,8]\prf\c[4]Refugiado：\C[0]    ¿Mujer, eh?
+\CBmp[GuardKiller,20]\prf\c[4]Refugiado：\C[0]    ¡Follémosla!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+Start/begin_13_Orkind
+\CBct[5]\m[terror]\Rshake\c[6]Lona：\C[0]    ¡No! ¡No hay tiempo para esto!
+\CBmp[MainDude,8]\prf\c[4]Refugiado：\C[0]    ¿De qué hablas?
+\CBct[5]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Orcoides! ¡Una horda de orcoides viene tras mí! ¡Huid!
+\CBmp[HorseKiller,8]\prf\c[4]Refugiado：\C[0]    \..\..\..
+\CBmp[MainDude,8]\prf\c[4]Refugiado：\C[0]    Esto es malo...
+\CBmp[GuardKiller,8]\prf\c[4]Refugiado：\C[0]    ¿Qué hacemos?
+\CBct[5]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡No os quedéis ahí parados si queréis vivir! ¡Corred!

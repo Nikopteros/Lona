@@ -1,0 +1,76 @@
+overmap/OvermapEnter
+\m[confused]北方哨點\optB[算了,進入]
+
+officer/NoQuest
+\SETpl[Mreg_guardsman]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    呃...
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]守衛：\C[0]    快離開，這裡並不安全。
+
+Soldier/Qmsg0
+我們在這待幾天了？
+
+Soldier/Qmsg1
+什麼時候才換班阿？
+
+Soldier/Qmsg2
+好累。
+
+############################### NoorthCp quest
+
+CPq/Quest1
+\CBct[8]\m[confused]\c[4].............
+
+CPq/Quest2
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    啊.......
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    死光了？！
+\CBct[20]\m[fear]\Rshake\c[6]洛娜：\c[0]    到底發生了什麼事？！
+
+CPq/Quest3
+\CBct[20]\m[tired]\c[6]洛娜：\c[0]    唉....這個... 應該是他的家書吧？
+
+CPq/Quest3_1
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    嗯....\..\..\.. 我看看...
+
+CPq/Quest4
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob1,20]\prf\c[4]暴民：\c[0]    喂！ 小鬼！ 妳在這幹嘛！
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    唉？
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob2,20]\prf\c[4]暴民：\c[0]    等一下 這好像是女人！
+\CBmp[Mob1,20]\prf\c[4]暴民：\c[0]    真的？\..\.. 運氣真好！ 我好久沒享受了！
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    唉唉？
+
+CPq/Quest5
+\CBct[1]\m[terror]\Rshake\c[6]洛娜：\c[0]    等... 等一下！ 你們要做什麼？！
+\CBmp[Mob1,20]\prf\c[4]暴民：\c[0]    嘿嘿，把腳張開，不要反抗！
+\CBmp[Mob2,4]\prf\c[4]暴民：\c[0]    乖一點，我們就考慮不弄痛妳♥
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    等一下！ 聽我說！ 你們後面有魔物！
+\CBmp[Mob1,20]\prf\c[4]暴民：\c[0]    少騙了！ 不乖是要挨打的！
+
+CPq/Quest6
+\SndLib[sound_goblin_roar]\CBmp[GoblinSpear1,20]\SETpr[goblin_penis]\plf\Rshake\c[4]類獸人：\c[0]    估洽！！？
+
+CPq/Quest7
+\SndLib[sound_OrcHurt]\CBmp[GoblinWarrior1,20]\SETpl[ogre]\Lshake\prf\c[4]類獸人：\c[0]    吼吼吼吼！！！
+
+CPq/Quest8
+\CBmp[Mob2,1]\c[4]暴民：\c[0]    有魔物啊！！
+\CBmp[Mob1,1]\c[4]暴民：\c[0]    救救我！ 我不想死！
+\CBct[1]\m[bereft]\Rshake\c[6]洛娜：\c[0]    救命啊啊啊啊啊！！！
+
+CPq/Quest9
+\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    \{正義從天而降！\.\.\.
+
+CPq/Quest10
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]未知：\c[0]    無辜的人啊！ 邪惡在哪裡！ 我即正義！
+\CBmp[Mob2,8]\plf\prf\c[4]暴民：\c[0]    ...
+\CBmp[Mob1,8]\plf\prf\c[4]暴民：\c[0]    ......
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    ..........
+\CBmp[Mob2,8]\plf\prf\c[4]暴民：\c[0]    更多的怪物呀呀呀呀！！
+\CBmp[Mob1,8]\plf\prf\c[4]暴民：\c[0]    聖徒保佑我 消滅這些邪惡啊啊！！！
+
+CPq/Quest11
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]未知：\c[0]    \{我是正義！ 不是邪惡！ 啊啊啊啊啊！
+\CBct[8]\m[bereft]\Rshake\c[6]洛娜：\c[0]    我該怎麼辦？！ 該怎麼辦？？
+
+CPq/Quest12
+\board[離開]
+回到海賊毀滅者堡壘。
+並向公會回報此地的狀況。

@@ -1,0 +1,144 @@
+ThisMap/OmEnter
+\m[confused]Хлев у юго-западных ворот Сибариса. Полагается, это последнее пристанище беженцев. \optB[Отмена,Войти]
+
+QuProgSybBarn1/EnterQuestMode0
+\cg[map_region_AbomTown]\m[flirty]\PRF\C[6]Лона：\C[0] Ну вот и он, да?
+\SETpl[Mreg_guardsman]\plf\PRF\C[4]Наёмник：\C[0] Эй! Прочь!
+\SndLib[sound_punch_hit]\SETpl[Mreg_guardsman]\m[hurt]\Lshake\prf\C[6]Лона：\C[0] Ай!\..\..\.
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Мы первые, дурочка! Катись отсюда.
+\m[confused]\plf\PRF\C[6]Лона：\C[0] Какого\..\..\..\.
+\narr\ph \..\..\..\.\SndLib[sys_DoorLock]
+\narr\ph \..\..\..\.\SndLib[sys_DoorLock]
+\narr\ph \..\..\..\.\SndLib[sys_DoorLock]
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Хлев, что ли, заперт?\..\..\.
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Эй, попробуем выбить.
+\SETpr[Mreg_pikeman]\plf\Rshake\C[4]Наёмник：\C[0] Давай я постараюсь.
+\narr\ph \..\..\..\.\SndLib[sound_punch_hit]
+\narr\ph \..\..\..\.\SndLib[sound_punch_hit]
+\narr\ph \..\..\..\.\SndLib[sound_punch_hit]
+\narrOFF\SETpr[Mreg_pikeman]\plf\Rshake\C[4]Наёмник：\C[0] Без толку, замок намертво...
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Чёрт! Ни хренушки не выходит.
+
+QuProgSybBarn1/EnterQuestMode1_OPT
+\m[flirty]\plf\PRF\C[6]Лона：\C[0] Эм-м\..\..\..\. \optD[Постоять в сторонке,Попробовать отпереть<r=HiddenOPT0>]
+
+QuProgSybBarn1/EnterQuestMode1_WAIT
+\ph\narr \..\..\..\.Спустя некоторое время\..\..\..\.
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\C[4]Наёмник：\C[0] Наконец-то открылся.
+\SETpr[Mreg_pikeman]\plf\Rshake\C[4]Наёмник：\C[0] Я же говорил, надо поддеть.
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Мелочь, даже не надейся, что мы с тобой поделимся.
+\m[confused]\plf\PRF\C[6]Лона：\C[0] \..\..\..\.
+\ph\narr \..\..\..\.Через некоторое время\..\..\..\.\SndLib[BreedlingAtk]
+\ph\narr \..\..\..\.\SndLib[BreedlingAtk]
+\cg[map_AbomBreedlingRaid]\narrOFF\m[shocked]\Rshake\C[6]Лона：\C[0] Это чудища!
+\cgoff\ph\narr Лона скрылась в хлеву.
+
+QuProgSybBarn1/EnterQuestMode1_SCU
+\m[confused]\plf\PRF\C[6]Лона：\C[0] Эм-м\..\..\..\. \.Дадите мне попробовать?
+\narr\ph\..\..\..\.\SndLib[sys_DoorLock]
+\narr\ph\..\..\..\.\SndLib[sys_DoorLock]
+\narr\ph\..\..\..\.\SndLib[openChest]
+\narrOFF\m[flirty]\plf\PRF\C[6]Лона：\C[0] О, это даже несложно!
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Молодец, малышка!
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Хорошо! Мы поделимся с тобой добычей.
+\m[confused]\plf\PRF\C[6]Лона：\C[0] Между прочим, я от Гильдии. Пришла сюда на разведку.
+\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Миссия Гильдии?\. \.Ты же дитя совсем...
+\m[serious]\plf\PRF\C[6]Лона：\C[0] Я не дитя!
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] А ну хватит болтать! За работу.
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Наёмник：\C[0] Давай, девчонка, мы тебе поможем!
+\m[shocked]\plf\Rshake\C[6]Лона：\C[0] Хорошо!
+
+#########################################################################################
+
+Op/Begin0_3
+\CBmp[OpGuard2,20]\C[4]Беженец：\C[0] Живые! Пророчество Жрицы сбылось!
+\CBmp[OpGuard1,5]\C[4]Беженец：\C[0] Быстро закройте дверь! Демоны войдут!
+\CBmp[mama,20]\C[4]Жрица：\C[0] Вы что, не боитесь? Мало ли, это наваждение Лжеца!
+\CBmp[OpGuard1,2]\C[4]Беженец：\C[0] Они живы?\..\..\. \.Быть не может!
+\CBmp[mama,20]\C[4]Жрица：\C[0] Заткнись! Скорее закрой эту дверь!
+
+Op/Begin0
+\CBmp[OpGuard2,20]\C[4]Беженец：\C[0] Ну вот опять! Это живой человек!
+\CBmp[OpGuard1,5]\C[4]Беженец：\C[0] Щас же! Не теряйте бдительности, вы всё видели, да заприте дверь! Демоны войдут!
+\CBmp[mama,20]\C[4]Жрица：\C[0] Должно быть, это тоже уловки Лжеца!
+
+Op/Begin1_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Удивительно, что здесь ещё есть выжившие...
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\C[4]Наёмник：\C[0] Давайте посмотрим\..\..\. \.в объявлении сказано, за мужчину столько-то.
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Хм?\..\..\. \.А это бабло. Тут много народу.
+
+Op/Begin1
+\ph\CBct[2]\m[confused]\PRF\C[6]Лона：\C[0] Что вы здесь?\..\..\.
+\CBmp[mama,20]\C[4]Жрица：\C[0] Ты веруешь?
+\CBct[8]\m[flirty]\PRF\C[6]Лона：\C[0] Хм-м\..\..\. \.Может быть, да?
+\CBmp[mama,20]\prf\C[4]Жрица：\C[0] О верующая, мы нуждаемся в чуде Святого!
+\CBmp[mama,20]\prf\C[4]Жрица：\C[0] Наших братьев забрали демоны в подвале. Нам нужна твоя помощь.
+\CBmp[OpGuard2,6]\C[4]Беженец：\C[0] Подождите! Госпожа Жрица! Она человек! Она невинная, ребёнок!
+\CBmp[mama,20]\prf\C[4]Жрица：\C[0] Молчи! Такова воля Святого! Я знаю её!
+\CBmp[OpGuard2,8]\C[4]Беженец：\C[0] Прости...\. \.Я преклоняюсь.
+\CBct[2]\m[confused]\PRF\C[6]Лона：\C[0] Что? Демоны?\..\..\.
+
+Op/Begin2
+\CBmp[mama,20]\prf\C[4]Жрица：\C[0] Пойдем со мной, ты сможешь помочь нам.
+\CBct[20]\m[flirty]\PRF\C[6]Лона：\C[0] О?
+
+Op/Begin2_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Значит, в подвале поселились чудища\..\..\..\.
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\C[4]Наёмник：\C[0] Слушай, это не наше дело, наша задача - увести отсюда живых!
+\CBct[20]\m[serious]\PRF\C[6]Лона：\C[0] Помоги им. Какой ты мужчина, если так отступаешь?
+\CBmp[Gpicker,8]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] \..\..\..\.
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Что ж, мелочь права, давайте избавимся от этой нечисти.
+
+Op/Begin3
+\CBmp[mama,20]\prf\C[4]Жрица：\C[0] Вот отсюда появляются демоны Лжеца!
+\CBct[2]\m[confused]\PRF\C[6]Лона：\C[0] Э-э-э... это же плоть мерзостей?
+
+Op/Begin3_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Фу, этот отврат.
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\C[4]Наёмник：\C[0] Воняет. Дышать этим не опасно? У нас нет и повязок.
+
+Op/Begin4
+\CBct[2]\m[flirty]\PRF\C[6]Лона：\C[0] А?\..\..\.
+\CBmp[mama,20]\prf\C[4]Жрица：\C[0] Всё там, наберись терпения, жди\..\..\..\.
+\CBct[8]\m[confused]\PRF\C[6]Лона：\C[0] \..\..\..\.
+\CBmp[mama,8]\prf\C[4]Жрица：\C[0] \..\..\..\.
+
+Op/Begin5
+\CBmp[mama,20]\C[4]Жрица：\C[0] Я была права! Те люди - слуги Лжеца!!!
+\CBmp[mama,20]\C[4]Жрица：\C[0] И поделом, ибо волю Святого мы исполнили!
+\CBmp[OpGuard2,20]\C[4]Беженец：\C[0] Всё это ради...
+\CBmp[OpGuard1,20]\C[4]Беженец：\C[0] Демоны съели их! Они лжецы!
+\CBmp[OpGuard2,20]\C[4]Беженец：\C[0] Спасение ждёт нас\..\..\..\.
+\CBmp[mama,20]\C[4]Жрица：\C[0] Спасибо Святому!\. \.Хвала Ему!
+
+Op/Begin6
+\CBmp[OpGuard2,20]\CBmp[OpGuard1,20]\CBmp[mama,20]\C[4]Все：\C[0] Спасибо Святому!\. \.Хвала Ему!
+
+Op/Begin7
+\C[6]Лона：\C[0] \{Ай!!!\}
+
+Op/Begin8
+\CBmp[6]\m[fear]\PRF\C[6]Лона：\C[0] Что это?!\. \.Нас сюда скинули!
+
+Op/Begin9
+\CBmp[20]\m[terror]\Rshake\C[6]Лона：\C[0] \{Логово демонов плоти?!\}
+\CBmp[20]\m[terror]\Rshake\C[6]Лона：\C[0] Я должна...\. \.Как я выберусь отсюда!\..\..\.
+
+Op/Begin9_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Это...\. \.Проклятье!
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\C[4]Наёмник：\C[0] Стены живые!
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\C[4]Наёмник：\C[0] Святой!\..\..\. Мясные стены...\. \.В них ошмётки людей!
+
+Op/Begin9_31
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\C[4]Наёмник：\C[0] Это ты виновата, дура мелкая! Пойдёшь впереди! Выведи нас из этой дыры.
+
+Op/Begin9_board
+\board[Выжившие в хлеву]
+Покиньте хлев и вернитесь в лагерь у южных ворот Сибариса. Люди, спрятавшиеся здесь, окончательно обезумели, их точно не спасти. Гильдия должна знать, что тут происходит. Разведка прошла успешно, так ведь?
+Награда： \C[4]три больших медяка\C[0] (\i[582])
+
+#################################### other
+mama/LastWords
+\CBmp[mama,7]\C[4]Жрица：\C[0] Нет! Я не виновата! Это та шваль!
+\CBmp[mama,9]\C[4]Жрица：\C[0] \{Я ПРАВА!\} Я не ошибаюсь! Лжец за твоей спиною!
+\CBmp[mama,5]\C[4]Жрица：\C[0] Он наблюдает! О да, ты скоро умрёшь!\..\..\.

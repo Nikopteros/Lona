@@ -1,0 +1,173 @@
+thisMap/OvermapEnter
+wrecked convoy\optB[Leave,Enter]
+
+QuGiver/Begin0
+\CBid[-1,6]\m[confused]\prf\c[4]traveler：\c[0]    Gone, all gone....
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    What's wrong? Who's gone?
+
+QuGiver/Begin0_1
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    You\..\..\.. Who are you? what are you doing here?
+
+QuGiver/Begin1Cecily
+\CBfB[8]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecily：\C[0]    I have a bad feeling.
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Gray Rat：\c[0]    Be careful!
+
+QuGiver/Begin1Cocona
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Sister! There are bad guys!!!
+
+QuGiver/Begin1
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    Get out of here! I'm sure those people are still around!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Huh? What people?
+
+QuGiver/Begin2
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Oh no, an ambush...
+\CBmp[Lguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Bandit：\c[0]    Hey little girl! If you give us all your money, I will consider letting you live.
+\CBmp[Lguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]Bandit：\c[0]    It's just a little girl, catch her and sell her.
+
+QuGiver/Begin3
+\CBmp[Rguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Bandit：\c[0]    Look around you, you don't want to die, right? Are you sure she's a woman?
+\CBmp[Rguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]Bandit：\c[0]    Woman?! Great! Finally, a new whore. All the bitches in the village are used up already.♥
+
+QuGiver/Begin4
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    What now? I'm surrounded...
+
+QuGiver/Begin4Cecily
+\CBfB[8]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]Cecily：\C[0]    Do you know no shame?
+\CBfB[5]\SETpr[CecilyShockedAr]\plf\Rshake\C[4]Cecily：\C[0]    I'll make you pay for your insolence!
+
+QuGiver/Begin4Cocona
+\CBfB[5]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Cocona protects her sister!
+
+QuGiver/Begin5
+\CBmp[Lguard1,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Bandit：\c[0]    Let's waste no more time then! Everyone attack!
+
+#########################################################
+
+QuGiver2/Begin0
+\CBid[-1,6]\prf\c[4]traveler：\c[0]    *Sob*...
+
+QuGiver2/Begin0_opt
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Well...\optB[Leave,What happened?<r=HiddenOPT0>,Persuade him to leave<r=HiddenOPT1>,Help him<r=HiddenOPT2>]
+
+QuGiver2/Begin0_about0
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    They... all died....?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    They should be dead, yeah...
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    What's going on here? Were you attacked by those \c[4]Bandits\c[0]?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Why are you traveling at this time? Now the whole island is a mess and it's not safe here.
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    We came from a small village in the mountains, but recently red lumps of flesh and monsters have started appearing all over the forest.
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    We had to leave.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Oh? \c[6]Meat devils\c[0]?
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    \c[4]Meat devils\c[0]?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Right, \c[4]meat devils\c[0]... Don't you know? \c[4]Sybaris\c[0] has been taken over by these monsters.
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    What are those monsters? Where the hell did they come from?
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    *Sigh*... These bandits are worse than even the monsters!
+\CBid[-1,5]\prf\c[4]traveler：\c[0]    \{My family, friends, my child... All dead!\}
+\CBid[-1,5]\prf\c[4]traveler：\c[0]    \{They raped and killed them!\}
+
+QuGiver2/Begin0_about0_cecily
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecily：\C[0]    These bloody robbers, they will pay.
+
+QuGiver2/Begin0_about0_cocona
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Sister, he is so pitiful...
+
+QuGiver2/Begin0_about1
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    Calm down! Keep your voice down! Maybe there's more of them around!
+
+QuGiver3/Begin0_leave0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I'm sorry for what happened to you, but you'd better get out of here.
+\CBid[-1,5]\prf\c[4]traveler：\c[0]    Are you telling me to turn tail and run?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    I...
+
+QuGiver3/Begin0_leave1
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    A few months ago, my family and friends died too, I'm from \c[4]Sybaris\c[0]. The monsters came out of nowehre and killed everyone.
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    I had to run, some people sacrificed a lot to help me escape, so what if I lost my life for revenge?
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    Their sacrifice would be for nothing...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    We are not like the \c[4]Saint\c[0]. We're no such heroes, we are just ordinary people, it is not despicable if we choose survive.
+
+QuGiver3/Begin0_leave2_end_cocona
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Sister....
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\c[0]    I'm sorry, sister can't let you take risks.
+\CBfB[8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Woo meow, Cocona knows.
+
+QuGiver3/Begin0_leave2_end_cecily
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecily：\C[0]    But I am not an ordinary person!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh?!
+
+QuGiver3/Begin0_leave2_end
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    Is that so? Little boy, I'm sorry...
+
+QuGiver3/Begin0_help0
+\ph\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    What can I do for you?
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    You\..\..\..? I\..\..\..
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    I want to get back my wife's urn...
+
+QuGiver3/Begin0_help1
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh?! Ashes?
+
+QuGiver3/Begin0_help2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Um....
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\c[0]    Fine, leave it to me!
+
+QuGiver5/Begin0
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    My cottage is in the western part of the \c[6]Copper mining town\c[0]. I'll show you where, come with me.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Let me go ahead, I still have confidence in my eyes.
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    That's great, thank you.
+
+QuGiver4/Begin0_end
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    Well....
+
+QuGiver5/Begin1
+\board[retrieve ashes]
+Goal： Retrieve the ashes from the cottage to the west.\i[268]
+Reward： unknown
+Contractor： traveler
+Quest Term: Single fulfillment
+Protect the \c[4]traveler\c[0].
+Go to the \c[6]copper mining town\c[0] and help the \c[4]traveler\c[0] retrieve his wife's urn.
+
+############################################################
+
+NPC/CommonConvoyTarget7
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    Did you find it?
+
+NPC/CommonConvoyTarget8
+\CBid[-1,8]\narr He holds the urn and murmurs something...
+
+QuGiver8/Begin0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..Is it this one?
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\c[0]    That's right, this is it!
+
+QuGiver8/Begin1
+\board[retrieve ashes]
+Goal： Return the urn to the \c[4]traveler\c[0].
+Reward： unknown
+Contractor： traveler
+
+QuGiver9/Begin0
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I found it, it should be this one, right?
+
+QuGiver9/Begin1
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    \..\..\..
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    Yes, this is it, my wife's ashes!
+\CBct[4]\m[flirty]\PRF\c[6]Lona：\c[0]    OK, let's get out of here.
+
+QuGiver9/Begin2
+\board[retrieve ashes]
+Goal： Deliver the \c[4]traveler\c[0] safely to his convoy
+Reward： unknown
+Contractor： traveler
+
+QuGiver10/Begin0
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    That's enough, let's part our ways here.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Yeah? Right here? It's not safe here, is it?
+\CBid[-1,20]\prf\c[4]traveler：\c[0]    No problem, take these.
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Well... What?
+
+QuGiver10/Begin1
+\cg[event_Coins]\SND[SE/Chain_move01.ogg]\CBid[-1,8]\prf\c[4]traveler：\c[0]    Maybe I was dressed too shabby and the bandits didn't search me carefully.
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    These are for you.
+\cgoff\CBct[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    So much?!
+\CBid[-1,8]\prf\c[4]traveler：\c[0]    Take it, you're a good boy, good luck.
+
+QuGiver10/Begin2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Is he going to be all right?

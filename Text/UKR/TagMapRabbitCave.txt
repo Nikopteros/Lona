@@ -1,0 +1,99 @@
+overmap/OvermapEnter
+\m[confused]Закинута Мідна Шахта \optB[Скасувати,Увійти]
+
+################################# OP
+
+yeller/start
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Найомник：\C[0] Біжимо! Біжимо!
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Наймач：\C[0] Ні! Я не хочу вмирати! На допомогу!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[4]Дуже Великий Кролик:\C[0] Пік-пік! Піїїк!
+
+yeller/start1
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Наймач：\C[0] Ні! Не наближайся!
+
+yeller/start2
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Наймач：\C[0] Ні! Він мертвий!
+\CamMP[MerB]\BonMP[MerB,5]\c[4]Найманник:\C[0] Блять!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed2.ogg]\c[4]Дуже Великий Кролик:\C[0] Пік-пік! Піїїк!
+
+yeller/start3
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[4]Дуже Великий Кролик:\C[0] Пік-пік! Піїїк!
+\CamCT\m[flirty]：\C[0]\C[6]Лона:\C[0] Що?! Це що, кролик...?
+
+################################# OP
+
+priest/begin0
+\prf\BonMP[Priest,8]\c[4]Найомник：\C[0] Я знаю! Я читав це у Писаннях! Від Святих! Це ненажерливий Монстр! \optB[Все в порядку,Що трапилося?,Дати святу воду<r=HiddenOPT0>]
+
+priest/win
+\prf\BonMP[Priest,20]\c[4]Найомник：\C[0] Вийшло! Зло знищено! Скарб - мій!
+
+priest/about
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Лона:\C[0] Що тут сталося?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Найомник：\C[0] Ми займалися знищенням монстрів, але що за чортівня чекала нас тут?!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Найомник：\C[0] Це Темний Ненажерливий Монстр!
+\CamMP[KillerRabbit]\BonMP[Priest,20]\prf\c[4]Найманник:\C[0] Жор прийшов разом із Темрявою, і звуками Кроків Брехні, вони зжеруть все на своєму шляху. Який розділ і вірш... Я забув!
+\CamMP[KillerRabbit]\BonMP[Priest,15]\prf\c[4]Найомник：\C[0] Подивися на ці червоні очі та біле хутро! Це символ гріха!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Найомник：\C[0] Нам потрібна \c[2]Свята Вода\C[0]! \c[2]Свята Вода\C[0] може перемогти зло, але мене вигнали зі Святої Церкви!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Найомник：\C[0] Допоможи! Нам потрібний спосіб перемогти його! Допоможи мені скоріше дістати \c[2]Святу Воду\C[0]!
+\CamCT\m[serious]\Rshake：\C[0]\C[6]Лона:\C[0] Я постараюся!
+
+priest/HolyWater0
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона:\C[0] У мене є Свята Вода!
+
+priest/HolyWater1
+\CamMP[Priest]\BonMP[Priest,3]\prf\c[4]Наймач：\C[0] Відмінно!
+
+priest/HolyWater2
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Найомник：\C[0] Святі у цій Воді, благословіть невинних!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Найомник：\C[0] Святі в цій Воді, знищіть Брехню і зло!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Найомник：\C[0] Прославляємо Святих!
+\CamCT\m[confused]\PRF：\C[0]\C[6]Лона:\C[0] А це правильно, що ви бризкаєте тут водою?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Найомник：\C[0] Не хвилюйся, я роблю, як писалося у Писаннях, і зло і гріх будуть стерті з цього місця!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Найомник：\C[0] Але потім нам потрібен хтось, хто приведе його в святилище.
+\CamCT\m[wtf]\PRF：\C[0]\C[6]Лона:\C[0] Мм?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Найомник：\C[0] Маленька дівчинка, це будеш ти! Іди! Іди слідом Святих!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона:\C[0] А? Що? Я?
+
+priest/HolyWater3
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Наймач：\C[0] Не бійся. Давай, святі захистять тебе!
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Лона:\C[0] Що?
+
+
+Lona/RabbitDed0
+\CamMP[KillerRabbit]\narr Свята Вода, Що Перебродила, досить слизька.
+Маленький Кролик послизнувся.
+Маленький Кролик ударився головою.
+Маленький Кролик помер.
+
+Lona/RabbitDed1
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Лона:\C[0] Так ну? Невже це спрацювало?
+
+
+################################# advanture common
+MerA/Common
+\prf\c[4]Найомник：\C[0] Як я і сказав, кролики зовсім не милі!
+
+MerB/Common
+\prf\c[4]Найманник:\C[0] І якщо Чорна Імла звернула маленького кролика в таку тварюку - що буде з людьми?
+
+MerB/Win
+\prf\c[4]Найомник：\C[0] Дякую, дитя. Але нам нічим тобі відплатити, повертайся і візьми щось поїсти самостійно.
+
+MerA/Win
+\prf\c[4]Найомник：\C[0] Ахуеть! Скарби тепер мої! ВСЕ МОЄ!
+
+Box/MerAnyAlive0
+\prf\c[4]Найомник：\C[0] \{ЕЙ!!!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона:\C[0] Аа?! Що-що...?
+
+Box/MerAnyAlive1
+\prf\c[4]Найомник：\C[0] Все тепер наше! Валі звідси, дрібна!
+\CamCT\m[confused]\PRF：\C[0]\C[6]Лона:\C[0] Взагалі-то, я вам допомагала...
+
+Box/MerAnyAlive2
+\prf\c[4]Найманник:\C[0] Блять! Тупа сука! Ти оглухла?
+
+Box/MerAnyAlive3
+\prf\c[4]Найманник:\C[0] \{УБИТИ ЇЇ!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона:\C[0] \{АХХХ!

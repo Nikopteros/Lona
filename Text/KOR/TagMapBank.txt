@@ -1,0 +1,90 @@
+NoerBank/OvermapEnter
+\m[confused]노엘 은행\optB[그만둔다,들어간다]
+
+NoerBank/OvermapEnter_Slave
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 거기 노예, 꺼져! 저리 가!
+\m[sad]\PLF\c[6]로나：\c[0] ....
+
+NoerBank/OvermapEnterClosed
+\m[confused]\c[6]로나：\c[0] 닫혀 있는 것 같다.
+
+
+################################################################################
+
+Maani/begin1_unknow
+\SETpl[MaaniNormal]\c[0]직원：\c[0] 노엘 지점 은행에 오신 걸 환영합니다. 무엇을 도와드릴까요?
+
+Maani/begin1_talked
+\SETpl[MaaniNormal]\c[0]마니：\c[0] 안녕하세요, 또 뵙네요.
+
+Maani/begin2_about
+\SETpl[MaaniNormal]\m[confused]\plf\c[6]로나：\c[0] 얼굴에 문신? 너… 노예야?
+\PLF\prf\CamMP[Maani]\c[0]마니：\c[0] 맞아요.
+\m[wtf]\CamCT\plf\c[6]로나：\c[0] 노예도 이런 일을 할 수 있어?
+\CamMP[Maani]\PLF\prf\c[0]마니：\c[0] 전부 주인님의 지시예요. 저는 시키는 대로만 하면 됩니다.
+\CamMP[Maani]\c[0]마니：\c[0] 거래 관련 서비스가 필요 없으시면, 뒤에 다른 손님이 기다리고 계십니다.
+\m[flirty]\CamCT\plf\PRF\c[6]로나：\c[0] 알았어, 미안.
+\m[confused]옆에 있는 명패에는 "마니"라고 적혀 있다.
+\m[confused]이름이 있는 노예라니… 대단하네.
+
+################################################################################
+
+NapBank/talk0
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]경비병：\c[0] 야! 뭐 하는 거야?! \{꺼져!
+
+NapBank/talk1
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]경비병：\c[0] 저리 가! 거지면 길바닥으로 꺼져!
+
+NapBank/talk2
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]경비병：\c[0] 나가 나가! 여긴 네 집이 아니야!
+
+NapBank/talk_end
+\ph\narr 로나는 쫓겨났다.
+
+################################################################################
+
+gentleman/talk1
+\ph\CamMP[GentlemanA]\c[0]상인A：\c[0] 이번 폭주, 어땠어?
+\CamMP[GentlemanB]\c[4]상인B：\c[0] 시바리스 쪽 물건은 다 날아갔지만...
+\CamMP[GentlemanB]\c[4]상인B：\c[0] \BonMP[GentlemanB,3]대박이었지.
+\CamMP[GentlemanA]\c[4]상인A：\c[0] \BonMP[GentlemanA,4]대박이었지.
+\CamMP[GentlemanB]\c[4]상인A：\c[0] 전쟁에 건배.
+\CamMP[GentlemanA]\c[4]상인A：\c[0] 혼란에 건배.
+\CamCT\m[confused]아버지도 상인이었는데...
+\m[serious]\Bon[15]아니! 아버지는 저런 파렴치한들이 아니야.
+
+GentlemanB/popup0
+상품을 더 가져와야해.
+
+GentlemanB/popup1
+무조건 오른다, 확실해.
+
+################################################################################
+
+emplyee1/begin
+\CBid[-1,20]\c[4]직원：\c[0] 시바리스에서 오신 건가요? 제일 왼쪽 1번 창구로 가주세요.
+
+emplyee2/begin
+\CBid[-1,20]\c[4]직원：\c[0] 어서, 어서! 왼쪽 창구로 가세요!
+
+emplyee_busy/begin
+\CBid[-1,20]\c[4]직원：\c[0] 현금이 모자라서 인출이 중단됐고, 그 뒤로 폭동이 났죠.
+
+guards/begin
+\CBid[-1,20]\c[4]경비병：\c[0] 지금 너 보고 있어!
+\CBct[6]\m[flirty]\c[6]로나：\c[0] 에헤헤...
+
+female/Qmsg0
+세 곳이 벌써 떠낫다고 들었어！
+
+female/Qmsg1
+여기에서 당장 꺼내야 해！
+
+#####################################################################
+
+AllBuyArt/talk0
+\ph\cg[other_AllBuy]작품명: 전부 다 가질 거야
+동방에서 온 신비로운 작품으로, 지금까지 아무도 그림 속 의미를 이해하지 못했다.
+\m[serious]흠....
+\m[confused]모르겠다.
+

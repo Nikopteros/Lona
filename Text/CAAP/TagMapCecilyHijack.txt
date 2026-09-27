@@ -1,0 +1,432 @@
+thisMap/OvermapEnter
+\SETpl[CecilyWtfAr]\Lshake\C[4]Cecilia: \C[0]    ¿Estás lista? ¡Una vez que decidas, no habrá vuelta atrás!
+\m[confused]\plf\PRF\c[6]Lona: \C[0]    Em... \optB[Más tarde, ¡Vamos a empezar!]
+
+QuestQmsg/XY
+Zona de misión
+
+QuestStart/Begin0
+\CBfB[2]\SETpl[CecilyWtfAr]\PLF\C[4]Cecilia: \C[0]    ¿Es esto?
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\PRF\C[4]Greyrat: \C[0]    Sí, Señora.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¿Y qué vamos a hacer?
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia: \C[0]    Necesito que te infiltres adelante. Nuestra gente debería estar esperando más allá.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    Em... Está bien.
+
+region/0_exit
+\CBct[8]\m[flirty]\c[6]Lona: \C[0]   Primero debo cumplir la promesa que hice.
+
+QuestStart/flash0
+\CBmp[ThunderFlash,20]\prf\C[4]Arbustos: \C[0]    Trueno...
+\CBct[1]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Ah?!
+
+QuestStart/flash1
+\CBmp[ThunderFlash,20]\prf\C[4]Arbustos: \C[0]    ¡Trueno!
+\CBct[2]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Qué?
+\CBfF[8]\SETpl[GrayRatConfusedArAr]\PLF\prf\C[4]Greyrat: \C[0]    ....
+
+QuestStart/flash2
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prh\C[4]Greyrat: \C[0]    Destello...
+\CBmp[ThunderFlash,8]\plf\C[4]Arbustos: \C[0]    ...
+
+########################################################################################
+
+QuestStart/ShowUp_AdamAlive0_t0
+\CBmp[Adam,1]\SETpr[Adam_angry]\plh\PRF\C[4]Adam: \C[0]    Eres tú...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Greyrat: \C[0]    .....
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]Adam: \C[0]    Eso es un poco grosero, después de todo, antes trabajábamos juntos.
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¿Qué? ¿Nosotros?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Bueno, tal vez...
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Greyrat: \C[0]    ¿Dónde la conociste?
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]Adam: \C[0]    Hizo algo por mí, se puede confiar en ella.
+\CBmp[Adam,20]\SETpl[Adam_normal]\PLF\prf\C[4]Adam: \C[0]    ¿Y detrás de ella está...?
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]Adam: \C[0]    Señora Cecilia, es un honor conocerla.
+
+QuestStart/ShowUp_AdamAlive0_t1
+\CBmp[Adam,8]\SETpr[Adam_normal]\plh\PRF\C[4]Adam: \C[0]    Eres tú...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Greyrat: \C[0]    .....
+\CBmp[Adam,2]\SETpl[Adam_angry]\m[confused]\PLF\prf\C[4]Adam: \C[0]    ¿Y detrás de ti está la Señora Cecilia?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¿Eh? ¿Detrás de mí?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ¡Sí, es ella! ¡Pero yo tampoco estoy aquí sin razón!
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]Adam: \C[0]    Em......
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]Adam: \C[0]    Señora Cecilia, es un honor conocerla.
+
+QuestStart/ShowUp_AdamAlive1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¿Tú eres Adam?
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\PRF\C[4]Adam: \C[0]    Sí.
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¿En qué estado está la "mercancía"?
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]Adam: \C[0]    Ahora están transportando mucha más "mercancía" de lo habitual, incluso con escolta.
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]Adam: \C[0]    Todavía estamos pensando cómo abordar mejor la columna.
+
+########################################################################################
+
+QuestStart/ShowUp_AdamDed0
+\CBfF[2]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Greyrat: \C[0]    ¿Dónde está Adam?
+\CBmp[replacer,20]\plf\C[4]Mercenario: \C[0]    Desapareció. No hemos sabido nada de él en días. Es bastante extraño.
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Greyrat: \C[0]    Esto es muy desafortunado...
+
+QuestStart/ShowUp_AdamDed0_milo
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona: \C[0]    Oh... Es...
+\CBfF[2]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Greyrat: \C[0]    ¿Qué?
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona: \C[0]    Nada...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Greyrat: \C[0]    .....
+
+QuestStart/ShowUp_AdamDed1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¿En qué estado está la "mercancía"?
+\CBmp[replacer,20]\plf\C[4]Mercenario: \C[0]    Ahora están transportando mucha más "mercancía" de lo habitual, incluso con escolta.
+\CBmp[replacer,20]\plf\C[4]Mercenario: \C[0]    Todavía estamos pensando cómo abordar mejor la columna.
+
+########################################################################################
+
+QuestStart/ShowUp_Quest0
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¡Déjalo en sus manos!
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¡Lona!
+
+QuestStart/ShowUp_Quest1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡¿Ah?! ¡Estoy aquí!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia: \C[0]    Necesito tu ayuda, la última vez lo hiciste muy bien, ¡encuéntranos un camino seguro! \optD[¡Está bien!, Em...]
+
+QuestStart/ShowUp_Quest2
+\board[Rescate de Refugiados]
+Objetivo: Exploración
+Investiga la ruta hasta el final.
+Intenta evitar ser detectada.
+
+QuestStart/ShowUp_Quest3
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona: \C[0]    ¡Déjenmelo a mí!
+
+QuestStart/ShowUp_Quest3_kill
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    No creo que pueda...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¿Acaso estoy pidiendo demasiado a una plebeya?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¡Entonces simplemente avanzamos y matamos a todos en el camino!
+
+########################################################################################
+
+Commoner/Qmsg0
+Muchos guardias adelante
+
+Commoner/Qmsg1
+Ten cuidado
+
+Commoner/Qmsg2
+No deben notarte
+
+########################################################################################
+
+ReachedEnd/Success_NonSpot
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia: \C[0]    ¿La guardia no dio la alarma? ¡Perfecto!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Je-je, sí...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]Cecilia: \C[0]    La "mercancía" está adelante, vamos.
+
+ReachedEnd/Success_Spoted
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia: \C[0]    Lona....
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]Cecilia: \C[0]    A veces pienso que eres muy poco confiable...
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\PRF\C[4]Greyrat: \C[0]    ....
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Lo siento...
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia: \C[0]    Bueno, olvídalo. La "mercancía" está más adelante, sigamos.
+
+ReachedEnd/FailedWarning
+\m[serious]\Rshake\c[6]Lona: \C[0]    ¡Me descubrieron, necesito llamar a \C[4]Cecilia\C[0] y \C[4]Greyrat\C[0] para que me ayuden!
+
+########################################################################################
+########################################################################################
+########################################################################################  PARTE 2
+########################################################################################
+########################################################################################
+
+Part2/Enter
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia: \C[0]    Está lloviendo....
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ¿Acaso es malo? Ocultará el sonido de nuestros pasos.
+\CBfB[20]\SETpl[GrayRatConfusedAr]\Lshake\PRF\C[4]Greyrat: \C[0]    ...
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]Cecilia: \C[0]    ¡Oye! ¡Tú!
+\CBmp[Follower1,2]\plf\C[4]Mercenario: \C[0]    ¿Yo?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]Cecilia: \C[0]    ¡Quédate de guardia! ¡Si pasa algo, avísame de inmediato!
+\CBmp[Follower1,20]\plf\C[4]Mercenario: \C[0]    ¡A sus órdenes!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¿Y ahora? ¿Qué hacemos?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia: \C[0]    La "mercancía" debe estar justo aquí. Como antes, ¡ve a explorar!
+
+Part2/SpotQuAcc0
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡Mira lo que hay adelante!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia: \C[0]    ¿Qué?
+
+Part2/SpotQuAcc0_Maani0
+\CBmp[Maani,20]\SETpr[MaaniNormal]\Rshake\C[4]Maani: \C[0]    Si el número de personas no coincide, la diferencia se deducirá de tu parte.
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]Comerciante: \C[0]    ¡Lo sé! ¡Hice todo lo que pude! ¡Apenas queda alguien vivo en Sibaris!
+\CBmp[Maani,20]\SETpr[MaaniNormal]\plf\Rshake\C[4]Maani: \C[0]    A mi amo no le importa, todo debe ser según el contrato.
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]Comerciante: \C[0]    ¡Maldición!
+
+Part2/SpotQuAcc0_Maani1
+\SETpl[AnonMale1]\Lshake\prh\C[4] Comerciante: \C[0]    ¡Vete a la mierda!
+\SETpl[AnonMale1]\Lshake\prh\C[4] Comerciante: \C[0]    ¡Puta!
+
+part2/SpotQuAcc1
+\CBmp[Guard1,20]\SETpl[MobHumanCommoner]\PLF\prh\C[4]Guardia: \C[0]    ¡Otro más! ¡Malditos insectos!
+\CBmp[Guard2,20]\SETpr[AnonMale2]\plf\PRF\C[4]Guardia: \C[0]    Y lo peor es que la lluvia sigue cayendo.
+\CBmp[Guard3,8]\SETpl[MobHumanWarrior]\PLF\prf\C[4]Guardia: \C[0]    Lástima... Estamos perdiendo gente...
+\CBmp[Guard4,8]\SETpl[AnonMale1]\PLF\prf\C[4]Guardia: \C[0]    .....
+\CBmp[Story2]\SETpl[CecilyAngryAr]\PLF\prh\C[4]Cecilia: \C[0]    Cuatro guardias...
+\CBmp[SlaveCart2,19]\SETpl[CecilyWtfAr]\PLF\prh\C[4]Cecilia: \C[0]    ¡Y la "mercancía" ya está lista!
+\CBmp[SlaveCart2]\SETpl[CecilyNormalAr]\PLF\prh\C[4]Cecilia: \C[0]    Lona, ¿puedes encargarte de ellos?
+\CBmp[SlaveCart2]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡¿Ah?! ¿Yo? \optD[Encargarme,No puedo]
+
+part2/SpotQuAcc1_yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Creo que puedo neutralizarlos. ¿Quieres que lo haga?
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\prf\C[4]Cecilia: \C[0]    Todo está en tus manos.
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Cecilia: \C[0]    ¡Incluso si fallas, te ayudaremos!
+\CBfF[20]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Greyrat: \C[0]    Ten cuidado....
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona: \C[0]    ¡Gracias!
+
+part2/SpotQuAcc1_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Me temo que no podré...
+\CBfB[20]\SETpl[CecilyShyAr]\PLF\prf\C[4]Cecilia: \C[0]    Hmm....
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Cecilia: \C[0]    ¡Entonces hagámoslo fácil! ¡Matémoslos!
+
+part2/SpotQuAcc2_board
+\board[Rescate de Refugiados]
+Neutralizar a los guardias.
+Cuatro guardias deben ser noqueados o asesinados.
+
+Part2/SpotQuWin
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prh\C[4]Cecilia: \C[0]    ¡Buen trabajo!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prh\C[4]Cecilia: \C[0]    Libéralos.
+
+################################################################################################ Fin de misión  milo
+################################################################################################ Fin de misión  milo
+
+Part2/EndMilo_0
+\SETpl[GrayRatShockedAr]\Lshake\C[4]Greyrat: \C[0]    ¡Señora! ¡Cuidado!
+
+Part2/EndMilo_1
+\SETpr[CecilyShockedAr]\plh\Rshake\C[4]Cecilia: \C[0]    ¡¿Qué?!
+
+Part2/EndMilo_2
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]Cecilia: \C[0]    ¡Greyrat! ¡NOOOO!!
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]Cecilia: \C[0]    ¡Despierta! ¡Vinitt!!
+
+Part2/EndMilo_3
+\CBct[1]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Qué pasa?! ¡¿Qué sucedió?!
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]Cecilia: \C[0]    ¡Despierta, por favor!
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]Cecilia: \C[0]    ¡Tienes que despertar, te lo suplico!
+
+Part2/EndMilo_4
+\BonMP[Milo,3]\SETpr[MiloNormal]\Rshake\C[4]Milo: \C[0]    Y solo la lluvia oculta sus lágrimas~ ♫
+
+Part2/EndMilo_5
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]Cecilia: \C[0]    \{Milo\.. von\.. Rosendo\.. ¡No puede ser!
+
+Part2/EndMilo_5_1
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]Milo: \C[0]    Realmente no te entiendo. ¿Por qué no llevas casco?
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]Milo: \C[0]    ¡Mira a este gran Santo! ¡Él sabe lo importante que es proteger tu cabeza!
+
+Part2/EndMilo_6
+\CBmp[FollowerTop1,20]\C[4]Mercenario: \C[0]    ¡Rápido! ¡Nos retiramos! ¡Nos descubrieron! ¡Su gente está por todas partes!
+
+Part2/EndMilo_7
+\CBmp[FollowerTop1,20]\C[4]Mercenario: \C[0]    ¡Huyamos! ¡Es una trampa!
+
+Part2/EndMilo_8_manni
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]Milo: \C[0]    ¡Buen disparo!
+\BonMP[MaaniRF,20]\SETpl[MaaniNormal]\Lshake\C[4]Maani: \C[0]    Gracias, señor.
+
+Part2/EndMilo_9
+\CBct[8]\m[shocked]\plh\Rshake\c[6]Lona: \C[0]    ¡¿Está muerto?! ¡¿Murió?!
+
+Part2/EndMilo_10
+\CBct[20]\m[shocked]\plh\Rshake\c[6]Lona: \C[0]    ¡¿Lord Milo?!
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    ¡Ups! Lona, pequeña insecto, ¿qué haces aquí?
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecilia: \C[0]    Tú....
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Lo hiciste bien, insecto. Sin tu ayuda, no los habría atrapado.
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia: \C[0]    Lona... ¡¿Qué has hecho?!
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    Yo.... Yo no hice nada....
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¡¿Qué mierda has hecho?!!
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    ¡Mi pequeña Lona! Ven aquí, no te haremos daño.
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    ¡Te lo prometo! Y aquí tienes algunas monedas de oro para ti.
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    ¿Necesitas dinero, no?
+
+Part2/EndMilo_10_opt
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona: \C[0]   .... \optD[Yo...,¡Mentiroso!]
+
+Part2/EndMilo_1_optNo1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona: \C[0]    ¡Me engañaste! ¡Mentiroso! ¡Me mentiste!
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    ¿Mm?
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lona: \C[0]    ¡Dijiste que querías ser amigos! ¡Eres un mentiroso! ¡Vete al infierno!
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    \..\..\..\.. Mátala.
+
+Part2/EndMilo_1_optNo2
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prh\C[4]Milo: \C[0]    Que los Santos te acompañen en tu camino a casa~♫
+
+Part2/EndMilo_11
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    Yo....
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¡Traidora!
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¡Te aprovechaste de nuestra confianza!
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Lona: \C[0]    ¡No! ¡No es así!
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecilia: \C[0]    ¡Muere!
+
+Part2/EndMilo_12
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    ¡No! ¡No fue a propósito!
+
+Part2/EndMilo_13
+\CBmp[Cecily,20]\SETpl[CecilyTrapA_Shocked]\Lshake\prf\C[4]Cecilia: \C[0]    !!!
+\BonMP[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    Lona, aquí está tu dinero.
+
+Part2/EndMilo_14
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    Yo... Qué he hecho...
+
+Part2/EndMilo_15
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Estás cumpliendo con tu deber. Ayudas a mantener la estabilidad en Noer. No hiciste nada malo.
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona: \C[0]    ......
+
+Part2/EndMilo_16
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Y ahora hay que seguir hasta el final.
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Ella era tu amiga, pero cada elección tiene consecuencias y ahora tendrás que enfrentarte a ellas.
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Es demasiado tarde para cambiar algo. Y ni siquiera intentes resistirte, estás rodeada.
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    ......
+\CBmp[RifleR1,4]\ph\C[4]Mercenario: \C[0]    Jejej...
+\SndLib[sound_DressTear]\CBmp[Cecily,1]\SETpl[CecilyTrapB_Shocked]\Lshake\C[4]Cecilia: \C[0]    !!!
+\CBmp[RifleR2,3]\ph\C[4]Mercenario: \C[0]    Jejeje...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]Cecilia: \C[0]    No....
+\CBmp[RifleR3,4]\ph\C[4]Mercenario: \C[0]    Haa...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]Cecilia: \C[0]    N-No...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]Cecilia: \C[0]    Ayuda.....
+
+Part2/EndMilo_17
+\CBmp[RifleR1,3]\ph\C[4]Mercenario: \C[0]    ¡Jefe! ¿Puedo follármela?
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    ¿Qué? ¿No está justo delante de ti en el suelo ahora mismo?
+\CBmp[RifleR1,3]\plf\C[4]Mercenario: \C[0]    Oh, eso es demasiado fácil. Una vez no será suficiente.
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    !!!
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    ¿Qué? ¿Eres tan cruel?
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    ¡Ella acaba de traicionar a su amiga! ¿No ves su dolor? ¡¿No te queda humanidad?!
+\CBmp[RifleR1,6]\plf\C[4]Mercenario: \C[0]    Em... Lo siento, jefe.
+
+Part2/EndMilo_18
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    ......
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona: \C[0]    ¿Qué hizo para merecer todo esto...?
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    ¿Cecilia Iglemor?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Ha matado a mucha gente. Guardias, mercenarios, ciudadanos. Sus manos están manchadas de sangre inocente.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Mató a cualquiera, destruyó familias.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo: \C[0]    Y ahora debe pagar por sus acciones.
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    .....
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Puedes irte.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    O puedes quedarte aquí y llorar.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo: \C[0]    Mientras ves cómo esos bastardos disfrutan de su cuerpo.
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona: \C[0]    \..\..\.. Sí...
+\narr\ph Lona se fue
+
+################################################################################################ Quest end Cecily
+################################################################################################ Quest end Cecily
+
+Part2/EndCecily_1
+\CBmp[Slave1,20]\C[4]Refugiado：\C[0] ¿Quién eres?
+\CBmp[Slave3,20]\C[4]Refugiado：\C[0] ¿Nuestro comprador?
+\CBmp[Slave5,20]\C[4]Refugiado：\C[0] ¿Me darás de comer?
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia：\C[0] Eres libre.
+\CBmp[Slave2,20]\plf\C[4]Refugiado：\C[0] ¿Libre?
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia：\C[0] ¡Sí! ¡Estás liberado!
+\CBmp[Slave4,20]\plf\C[4]Refugiado：\C[0] Pero tengo mucha hambre. ¿Tienes algo de comida?
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\C[4]Cecilia：\C[0] ¿Qué?
+\CBmp[Slave6,20]\plf\C[4]Refugiado：\C[0] Cuando eres esclavo, siempre necesitas comida. ¡El duro trabajo esclavo agota mucho!
+\CBmp[Slave2,20]\plf\C[4]Refugiado：\C[0] ¡Acepté venderme como esclavo a cambio de seguridad para mis hijos! ¿Y ahora qué será de mí?
+\CBmp[Slave4,20]\plf\C[4]Refugiado：\C[0] Hay monstruos por todas partes. ¿Quién me protegerá a mí y a mi familia? ¿Tú?
+\CBmp[Slave5,20]\plf\C[4]Refugiado：\C[0] ¡Me prometieron mucha comida! ¡Tenía la oportunidad de hartarme! ¿Y ahora qué?
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\C[4]Cecilia：\C[0] ¿No tenéis ni una pizca de dignidad? ¡El pueblo del Reino de Garland no debería estar esclavizado!
+\CBmp[Slave3,20]\plf\C[4]Refugiado：\C[0] Ay... Otro noble jugando a ser caballero andante.
+\CBmp[Slave1,20]\plf\C[4]Refugiado：\C[0] ¿Qué vamos a hacer sin comida?
+\CBmp[Slave5,20]\plf\C[4]Refugiado：\C[0] ¡Volveré con los esclavos y les informaré sobre vosotros! ¡Quizás así me den de comer! ¡Se acabó la discusión!
+
+Part2/EndCecily_2
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\C[4]Cecilia：\C[0] ¡Chicos! ¿Qué hacéis? Escuchad... ¡Volved!
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]Greyrat：\C[0] Señorita... Creo que son casos perdidos...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Uff...
+
+Part2/EndCecily_3
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\prf\C[4]Cecilia：\C[0] ¿Cómo pudo pasar esto?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] En resumen... Así es como se comportan los plebeyos perdidos...
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecilia：\C[0] ........
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0] ¿Podemos irnos?
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecilia：\C[0] .....
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0] Mmm...
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecilia：\C[0] ...
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]Greyrat：\C[0] Sí, vámonos....
+
+Part2/EndCecily_4
+\CBmp[GrayRat,20]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]Greyrat：\C[0] La señorita necesita tiempo para pensar.
+\CBmp[GrayRat,20]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]Greyrat：\C[0] Esta es tu recompensa por la ayuda.
+
+Part2/EndCecily_5
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Gracias....
+
+########################################################################################################## HEV
+
+CecilyRape/rape_scene1
+\C[4]Mercenario A：\C[0] ¡Eh, mirad! ¡Me estoy follando a una noble!
+
+CecilyRape/rape_scene2
+\C[4]Mercenario A：\C[0] ¡Por fin cumplí mi sueño! ¡Oh, sí!
+
+CecilyRape/rape_scene3
+\C[4]Cecilia：\C[0] No... ¡Ay!
+
+CecilyRape/rape_scene4
+\C[4]Cecilia：\C[0] ¡Vincent, vuelve conmigo!
+
+CecilyRape/rape_scene5
+\SndLib[sound_chcg_full]\C[4]Mercenario B：\C[0] ¿Qué pasa, llamando a tu puto amante?
+
+CecilyRape/rape_scene6
+\SndLib[sound_chcg_full]\C[4]Mercenario A：\C[0] ¡Ese cerdo está muerto! ¡Ahora nosotros seremos tus amantes!
+
+CecilyRape/rape_scene7
+\SndLib[sound_chcg_full]\C[4]Mercenario B：\C[0] ¡Joder! ¡No hay nada mejor que follarse a una zorra junto al cadáver de su novio!
+
+CecilyRape/rape_scene8
+\SndLib[sound_chcg_full]\C[4]Mercenario A：\C[0] ¡Sí! ¡Lástima que no pueda ver nada! ¡No verá nada! ¡Jajaja!
+
+CecilyRape/rape_scene9
+\C[4]Cecilia：\C[0] ¡No! ¡No! ¿Por qué nadie viene a ayudarme?
+
+CecilyRape/rape_scene10
+\SndLib[sound_chcg_full]\C[4]Mercenario B：\C[0] ¡Uhh, me voy a correr, me corro dentro de esta perra!!!
+
+CecilyRape/rape_scene11
+\SndLib[sound_chcg_full]\C[4]Mercenario B：\C[0] ¡Sí, me corro! ¡Toma esto! ¡Recibe todo adentro, zorra!
+
+CecilyRape/rape_scene12
+\C[4]Cecilia：\C[0] ¡N-No-! ¡No! ¡No-o!
+
+CecilyRape/rape_scene13
+\C[4]Mercenario B：\C[0] ¡Genial! ¡Puede morir embarazada de mí!
+\C[4]Mercenario B：\C[0] ¿Entonces yo también seré considerado noble?
+
+CecilyRape/rape_scene14
+\SndLib[sound_chcg_full]\C[4]Cecilia：\C[0] Sollozos...
+
+CecilyRape/rape_scene15
+\C[4]Mercenario A：\C[0] ¡Ahora yo! ¡Mi turno!
+
+CecilyRape/rape_scene16
+\SndLib[sound_chcg_full]\C[4]Cecilia：\C[0] ¡No! ¡No quiero! ¡Alejaos de mí!
+
+CecilyRape/rape_scene17
+\SndLib[sound_chcg_full]\C[4]Mercenario A：\C[0] ¡Cálmate! ¡Te dejaremos expulsar todo lo que te bombeemos dentro! ¿Entendido?
+\SndLib[sound_chcg_full]\C[4]Mercenario A：\C[0] ¡Parirás con un litro de nuestra semen y ni sabrás quién es el padre!
+
+CecilyRape/rape_scene18
+\C[4]Cecilia：\C[0] ¡Ay! ¡Piedad! ¡Os lo suplico!
+
+CecilyRape/rape_scene19
+\SndLib[sound_chcg_full]\C[4]Mercenario A：\C[0] ¡Oh sí! ¡Oh sí! ¡Uuuhh!
+
+CecilyRape/rape_scene19_1
+\SndLib[sound_chcg_full]\C[4]Mercenario A：\C[0] ¡Me corro! ¡Nnggh!
+
+CecilyRape/rape_scene20
+\C[4]Mercenario A：\C[0] ¿Esto es realmente la vagina de una noble? No siento diferencia con la puta del puerto que me follé hace poco.
+\C[4]Mercenario A：\C[0] ¡Me he corrido! ¿Quién sigue?
+
+CecilyRape/rape_scene21
+\SndLib[sound_chcg_full]\C[4]Mercenario B：\C[0] ¡Rápido, llenadla! ¡Hay toda una cola detrás de ti!
+
+CecilyRape/rape_scene22
+\C[4]Cecilia：\C[0] Nnggh oh ah oh ooh ooohhh....
+
+CecilyRape/rape_scene23
+\C[4]Cecilia：\C[0] Ayuda... Que alguien me ayude....

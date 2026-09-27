@@ -1,0 +1,296 @@
+thisMap/OvermapEnter
+Лагерь Рыболюдей \optB[Отмена,Войти]
+
+###############################################################################   Common dialog
+
+Commoner0/rng0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Солдат：\C[0]    Нельзя доверять людям....
+
+Commoner0/rng1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Солдат：\C[0]    Ты... Женщина...?
+
+Commoner0/rng2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Солдат：\C[0]    Уходи....
+
+###############################################################################   Comp Fish Dude Explorer
+
+ConvoyTar/begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Рыбочеловек：\C[0]    В чём... Дело...?
+
+ConvoyTar/begin1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Рыбочеловек：\C[0]    Спасибо.... Спасибо тебе Морская Ведьма...
+
+ConvoyTar/begin2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Рыбочеловек：\C[0]    Идти в.... Лагерь....
+
+ConvoyTar/About_opt
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Э... Простите...
+\SndLib[FishkindSmSpot]\CBid[-1,2]\prf\c[4]Рыбочеловек：\C[0]    Что... Хочешь...?
+
+ConvoyTar/OPT_WhyFishHereAise
+Деревня Алайс
+
+ConvoyTar/OPT_OutControll
+Предки в хаосе
+
+ConvoyTar/OPT_CaveExplore
+Исследование Пещеры
+
+ConvoyTar/OPT_OutControll0
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Предки в хаосе? Что это значит?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Наши старейшины... Предки... Они возвращаются из воды...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    За ними следует зло... Фрагменты... Начали атаковать нас...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Шаман... Хочет чтобы мы расследовали... Причину...
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Эмммм... Я не понимаю.
+
+ConvoyTar/WhyFishHereAise0
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Так почему вы пришли в \c[4]Деревню Алайс\C[0]? Разве Рыболюди не живут в городе?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Для... Расследования Лорда Шамана ... Предки вышли из-под контроля.... Причина...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Отправились на остров... Расследование... Но люди напали на нас...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Мой брат... Мёртв...
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Эмммм... Я не понимаю.
+
+####################################################   Explore the Cave
+
+ConvoyTar/TooWeak
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Женщины... Для размножения....
+\CBct[20]\m[tired]\PRF\c[6]Лона：\C[0]    ........
+
+ConvoyTar/OPT_CaveExplore0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Я выиграл \c[6]кубок\C[0]... всё кончено...!
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Все три раза \c[6]Напуганы\C[0]...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Морская Ведьма хочет, чтобы я отправился в руины... внутри найти истину...!
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Эм... \c[6]Напуганы：\C[0]?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Истина.... внутри руин...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Шаман в деревне... Также подтвердит...!
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Хмм?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Но здесь... человек... территория... слишком опасно...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Очень жаль... Наши рабы сбежали...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Мне нужна твоя помощь.... Пойдем со мной в руины...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Найти истину...!
+
+ConvoyTar/OPT_CaveExplore_BRD
+\CamCT\board[Исследование Пещеры]
+Задача：Найти ближайшую пещеру  
+Награда：Большой Медяк х4\i[582]
+Клиент：Рыбочеловек в лагере
+Срок выполнения：5 дней
+Помогите Рыбочеловеку исследовать древние руины.
+
+ConvoyTar/OPT_CaveExplore_N
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Ээ... Я не могу заняться этим прямо сейчас.
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Рыбочеловек：\C[0]    Жаль...
+
+ConvoyTar/OPT_CaveExplore_Y
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Хорошо, я помогу тебе.
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Хвала Морской Ведьме!
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Человеческая женщина... Нужно быть осторожными....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Рыбочеловек：\C[0]    Предки потеряли контроль... Желание... Размножаться....
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Что? Размножаться?
+
+####################################################   Cave Exploration 2
+
+AriseVillageFish/2to3_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Рыбочеловек：\C[0]    Здесь... Я говорю заклинание...
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Оо?
+
+AriseVillageFish/2to3_1
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]Рыбочеловек：\C[0]    Кагун Каро Кагун Ма...
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Рыбочеловек：\C[0]    Кагун Ма... \{Кагун Ма...!
+
+AriseVillageFish/2to3_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Рыбочеловек：\C[0]    \{Шатитин...!
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Ээ?
+
+AriseVillageFish/2to3_3
+\CBct[20]\c[6]Лона：\C[0]    \{ЧТООО!?
+
+AriseVillageFish/2to3_4
+\CBct[5]\m[serious]\c[6]Лона：\C[0]    \{Что ты делаешь?!
+\CBfE[8]\prf\c[4]Рыбочеловек：\C[0]    .....
+
+AriseVillageFish/2to3_5
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]Рыбочеловек：\C[0]    Готово....
+
+AriseVillageFish/2to3_6
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Хорошо, но почему ты трогаешь мою грудь?
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Рыбочеловек：\C[0]    Человеческая женщина... сиськи рабыни... посвящаю Морской Ведьме...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Рыбочеловек：\C[0]    Морская Ведьма не любит... рабские большие сиськи...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Рыбочеловек：\C[0]    Нам повезло... Ты воин... Маленькие сиськи...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Рыбочеловек：\C[0]    Врата Морской Ведьмы.... Открыты для тебя....
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Ха\..\..\..\CBct[6]\m[tired]\prf Мои маленькие\..\..\..?
+
+####################################################   Cave Exploration 3 #update
+
+AriseVillageFish/3to4_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Рыбочеловек：\C[0]    Хвала Морской Ведьме... Шаман говорит правду...!
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Эмм... Хорошо?
+
+AriseVillageFish/3to4_1
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Дверь закрыта?!
+
+AriseVillageFish/3to4_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Рыбочеловек：\C[0]    Не бойся... Шаман говорит... Есть и другие выходы...
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Правда?
+
+AriseVillageFish/4to5_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Рыбочеловек：\C[0]    Человеческий воин... Смотри сюда...
+
+AriseVillageFish/4to5_1
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Много лет назад... В войне... Люди уничтожили это место...
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Разрушили наши храмы... Забрали наших рабов...
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Разграбили... Человеческие существа злы...
+\m[confused]\PRF\c[6]Лона：\C[0]    Ух... Простите...?
+\prf\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    всё кончено... Я прощаю воина...
+
+AriseVillageFish/4to5_2
+\BonMP[EXIT,19]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Посмотри туда... Это выход...
+\m[flirty]\PRF\c[6]Лона：\C[0]    Оо?
+\BonMP[fishF1,19]\BonMP[fishF2,19]\prf\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    В окружении \c[6]Слуг Зла\C[0]....
+\prf\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Прежде чем уйти отсюда... Обязательно найди Священную Статую Морской Ведьмы....
+\prf\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Победи этих.... \c[6]Слуг Зла\C[0]....
+
+AriseVillageFish/4to5_3
+\BonMP[Ca2,19]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Может... нам... стоит пойти сюда...?
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Таким образом можно обойти тех....\c[6]Слуг Зла\C[0]...?
+
+AriseVillageFish/4to5_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Человек... Женщина-воин... Зависит от тебя...
+
+AriseVillageFish/5to6_0
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Здесь... Это место.....
+
+AriseVillageFish/5to6_1_1
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Великая Морская Ведьма... мы вернулись...
+
+AriseVillageFish/5to6_1_2
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Мы вернулись......
+
+AriseVillageFish/5to6_1_3
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Почему предки в хаосе... Почему слуги злые...
+
+AriseVillageFish/5to6_1_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Скажи мне... правду...
+
+AriseVillageFish/5to6_2
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Неизвестный：\C[0]    Кто там! Это ты?
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Неизвестный：\C[0]    Хватит прятаться! Я слышал, как кто-то звал тебя!
+
+AriseVillageFish/5to6_3
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Неизвестный：\C[0]    Туда?! Этот дебил с огромной грудью опять прячется!
+
+AriseVillageFish/5to6_3_KnowLona
+\CBmp[Justice,8]\SETpl[DedOne_normal]\Lshake\c[4]Правосудие：\C[0]    Ох, это ты?
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Ээ... Вы... Кто?
+
+AriseVillageFish/5to6_4
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]Рыбочеловек：\C[0]    Ты.... Не Морская Ведьма...!
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]Рыбочеловек：\C[0]    Ты злой... Ложный Бог...!
+
+AriseVillageFish/5to6_5
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Правосудие：\C[0]    Ты зло! Всё ваше семейство – это зло!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]Правосудие：\C[0]    Я воин, который борется за Правосудие!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]Правосудие：\C[0]    Позволь мне сказать тебе правду! Ты узнаешь что такое зло!
+
+AriseVillageFish/5to6_6
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    \{ГААААА!
+
+AriseVillageFish/5to6_7
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    \{Нет... Это неправда...!
+
+AriseVillageFish/5to6_8
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    \{Лжец...! Лжец...!
+
+AriseVillageFish/5to6_9
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    \{ГГХХААААА!
+
+AriseVillageFish/5to6_10_1
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    \{ВАААААА!!!
+
+AriseVillageFish/5to6_10_2
+\CBct[20]\m[bereft]\Rshake\c[6]Лона：\C[0]    Нет... Не подходи!
+
+AriseVillageFish/5to6_11
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Ээ... Что происходит?
+
+AriseVillageFish/5to6_12
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    Где все?! Неужели он мёртв?!
+\CBct[6]\m[terror]\Rshake\c[6]Лона：\C[0]    Разве он не следовал за мной только что?
+\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    Что я должна сказать его друзьям.
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    Ухх.....
+
+AriseVillageFish/6to7
+\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    ....
+
+CampHumWatcher/6and7_0
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Мы - ополчение деревни Алайс, теперь вы в безопасности.
+
+CampHumWatcher/6and7_1
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Не бойтесь, все злые Рыболюди мертвы.
+
+CampHumLooter/6and7_0
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Стража города сказала нам не трогать этих ублюдков.
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Они также сказали, что все Рыболюди, попавшие в беду, должны быть защищены и отправлены обратно в Ноэр.
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Люди в городе - просто посмешище.
+
+CampHumLooter/6and7_1
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Эти гибриды могут нести большое количество рыбы, которая может прокормить деревню в течение длительного времени.
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Однажды они привели двух женщин-рабынь, одну из них взял я.
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Скажу вам, у неё очень большие сиськи, а её стоны так хорошо звучат в постели.
+
+CampHumLooter/6and7_2
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Никому не говори, и я не скажу, никто в городе не узнает.
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Они не помогли нам, когда на нас напали \c[6]Глубинные\C[0] и бандиты.
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Почему я должен их слушать?
+
+CampHumGuard/6and7_0
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Перед смертью эти ублюдки кричали, что зло их предков не имеет к ним никакого отношения.
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Я не понимал, теперь они мертвы.
+
+CampHumGuard/6and7_1
+\CBid[-1,20]\c[4]Ополченец：\C[0]    Можно ли доверять таким уродливым демоно-людям? Они более тошнотворны, чем смешанные расы.
+
+CampHumGuard/6and7_2
+\CBid[-1,5]\c[4]Ополченец：\C[0]    Воняет, очень воняет! Рыбный запах после смерти ещё хуже!
+
+##############################################################################################################
+
+AriseVillage/1to2_rg5_0
+\Bon[8]\m[shocked]\Rshake\c[6]Лона：\C[0]    Это что... Труп?
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]Рыбочеловек：\C[0]    Лагерь... Также страдали люди... Нападение?
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]Рыбочеловек：\C[0]    Мы должны..... Торопиться...
+
+AriseVillage/1to2_rg5_1
+\SndLib[FishkindSmSpot]\BonMP[QuTar,20]\prf\c[4]Солдат：\C[0]    Человек...! Человек... Нашел нас! Убить!
+\CBct[6]\m[terror]\Rshake\c[6]Лона：\C[0]    Что? Это я?!
+
+AriseVillage/1to2_rg5_2
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Рыбочеловек：\C[0]    Брат остановись...! Он спас меня...!
+
+AriseVillage/1to2_rg5_3
+\SndLib[FishkindSmSpot]\CBmp[QuTar,20]\c[4]Солдат：\C[0]    Брат... Ты жив...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Рыбочеловек：\C[0]    Да брат... Я жив...!
+
+AriseVillage/1to2_rg5_4
+\SndLib[FishkindSmSpot]\CBmp[QuTar,4]\c[4]Солдат：\C[0]    Спасибо Морской Ведьме...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,4]\c[4]Рыбочеловек：\C[0]    Слава Морской Ведьме...!
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Ух.....
+
+AriseVillage/1to2_rg5_5
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Рыбочеловек：\C[0]    Спасибо... Человек-воин...
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Рыбочеловек：\C[0]    Этот подарок для тебя...
+
+AriseVillage/1to2_rg5_6
+\CBct[4]\m[triumph]\Rshake\c[6]Лона：\C[0]    Спасибо!
+
+AriseVillage/1to2_rg5_7
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]Солдат：\C[0]    Брат... Ты действительно спасён... спасён женщиной?
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]Рыбочеловек：\C[0]    Женщина...? Она женщина...?
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]Солдат：\C[0]    Да... Брат...
+
+AriseVillage/1to2_rg5_8
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]Рыбочеловек：\C[0]    Ты женщина...?
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Да...? Что-то не так?
+\prf\CBmp[FishExplorer,8]\c[4]Рыбочеловек：\C[0]    ......
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    .....Хмм?

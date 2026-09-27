@@ -1,0 +1,203 @@
+Sewer/OvermapEnter
+\m[confused]諾爾鎮的下水道\optB[算了,進入]
+
+################################################################################
+
+Sewer/SkipExit
+跳過教學關卡並回到鎮上？\optB[算了,確定]
+
+################################################################################
+
+system/SneakT1
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSneak1]\ph\{\C[6]隱匿\C[0]
+\bg[bg_TutorialSneak2]可由CTRL鍵進入\C[6]隱匿\C[0]狀態。
+\bg[bg_TutorialSneak3]遊戲中的角色皆具有視野以及方向性，
+\bg[bg_TutorialSneak4]若角色面對洛娜則會高機率發現洛娜。
+\bg[bg_TutorialSneak5]但若洛娜處於隱匿狀態，則機率會受偵查技能衰減。
+
+system/SneakT2
+\SndLib[sys_DialogNarr]\bg[bg_TutorialTerrain1]\{\C[4]地形\C[0]
+\bg[bg_TutorialTerrain2]遊戲中的地形將影響角色視野，
+\bg[bg_TutorialTerrain3]若洛娜處於野草中，對方將較難看到洛娜。
+\bg[bg_TutorialTerrain4]若洛娜處於高地形後，對方則幾乎看不見洛娜。
+\bg[bg_TutorialTerrain5]於牆壁後，則完全看不見。
+\bg[bg_TutorialTerrain6]但請小心，不同生物可能有不同的野判斷方式。
+
+system/SneakT3
+\SndLib[sys_DialogNarr]\bg[bg_TutorialThrow1]\{\C[2]投擲\C[0]
+\bg[bg_TutorialThrow2]洛娜的基本技能\C[2]投擲\C[0]可以將角色誘開。
+\bg[bg_TutorialThrow3]利用\C[2]投擲\C[0]誘導角色背對洛娜可以讓隱匿更加容易。
+\bg[bg_TutorialThrow4]\C[2]投擲物\C[0]的作用效果將持續一小段時間，效果結束角色將會返回。
+\bg[bg_TutorialThrow5_CHT]偵查技能將會提升隱匿的強度。
+\bg[bg_TutorialThrow5_CHT]但若基礎隱匿大於技能隱匿時將無法進行隱匿。
+\bg[bg_TutorialThrow6_CHT]為了能進入隱匿狀態，將隱匿提升到5以上。
+\CBmp[FeiraCropse,19]\bgoff 使用\C[2]投擲\C[0]與\C[6]隱匿\C[0]來躲避妳的敵人並取得短劍吧。
+
+Tutorial/Trap
+\CBmp[trap,19]..........
+\CBmp[trap,19].......
+\CBmp[trap,19]...
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    !!!!!!
+\SndLib[sys_DialogNarr]\bg[bg_TutorialTrap1]\ph\{陷阱。
+陷阱被設置後，當角色與陷阱處於同一位置時將觸發陷阱效果。
+\bg[bg_TutorialTrap2]陷阱可被任何一種傷害效果觸發，丟石頭是最好的選則。
+\bg[bg_TutorialTrap3]陷阱也可以被觸發鍵給拆解，但洛娜的生存能力必須大於陷阱的攻擊力。
+注意妳的腳步，部分陷阱是非常致命的。\bgoff
+
+Tutorial/Sap
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSap1]\ph\{偷襲與暈眩。
+大多技能從背後攻擊會有較高的傷害，
+\bg[bg_TutorialSap2]若對方角色並非在戰鬥中且沒有目標，從背後攻擊將造成長期的擊暈效果。
+\bg[bg_TutorialSap3]被擊暈的角色會喪失方向感，此時任何對被擊暈的角色攻擊都將等同由背後攻擊。
+當被暈眩的角色再次接受到攻擊，則會從暈眩狀態回復。\bgoff
+
+Tutorial/STA
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSTA]\ph體力：STA
+當STA低於0以下時，大多數的技能都將無法使用，
+進入主選單的技能畫面可以設各種技能按鍵，
+試著設定並使用技能來進行休息。
+休息分為睡覺以及小休片刻，可壓著SHIFT或R2來進行不同動作。
+睡覺會使時間流逝並治療一定的負傷及回復體力，並依\c[4]食物\c[0]屬性回復或削減生命。
+小休片刻會消耗食物來治療體力或生命但不會使時間流逝。
+\bgoff\narr注意！ 別餓著了！
+
+Tutorial/SAT
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSAT]\ph飢餓度：FOOD
+當洛娜過度飢餓時，每次休息都將扣除一定的生命值。
+進入主選單的道具畫面可以使用各種道具與食物，
+每次休息前試著讓飢餓度維持最高點。\bgoff
+
+Tutorial/About2hWeapon
+\SndLib[sys_DialogNarr]\bg[bg_Equips]\ph釘耙，正面有兩格的攻擊距離，但無法攻擊自己的位置。
+屬於穿刺攻擊，可以造成緩速效果
+進入主選單的裝備畫面可以調整洛娜的裝備，
+試著進入裝備畫面操作看看。\bgoff
+
+Tutorial/LVL
+\SndLib[sys_DialogNarr]\bg[bg_TutorialLVL]\ph升級，每次升級皆會給予一點天賦點
+需至主選單的天賦頁面分配妳的屬性點。
+點數配置後是無法還原的，請小心安排。\bgoff
+
+###########################################################################
+
+Lona/ToOrkindCave1
+\cg[map_region_hole]狹窄的洞穴，魔物應該是從這裡鑽出來的
+\m[confused]\c[6]洛娜：\c[0]    要進去嗎？\optB[不要,進入]
+
+Lona/ToOrkindCave_procress
+\m[confused]還沒到底嗎？
+
+Lona/ToOrkindCave_procress1
+\m[tired]......
+
+###########################################################################
+
+Sewer/MissionStart0
+\m[shocked]\cg[map_DarkestDungeon]\Rshake\c[6]洛娜：\c[0]    好暗...唔！好刺鼻的味道！
+\m[triumph]\c[6]洛娜：\c[0]    看來帶著提燈進來果然是對的。
+\m[normal]\c[6]洛娜：\c[0]    嗯...工會的委託項目是...\..\..\..
+\m[confused]\c[6]洛娜：\c[0]    八個巨鼠尾以及可能的話找到失蹤的雇員。
+\m[serious]\c[6]洛娜：\c[0]    哈！沒問題！我可以的！\cgoff
+
+Sewer/MissionStart2
+\board[基本操作]
+\C[2]方向鍵\C[0]：  移動角色。
+\C[2]SHIFT+方向鍵\C[0]  奔跑。
+\C[2]Z\C[0]：  觸發。
+\C[2]X\C[0]：  主選單或取消，大地圖下為放棄回合。
+\C[2]ALT\C[0]：  隱藏UI與立繪。
+\C[2]ALT+方向鍵\C[0]：  變更方向與視線。
+\C[2]CTRL\C[0]：  藏匿，文字加速撥放。
+\C[2]ASDFQWER\C[0]：  技能熱鍵。
+
+Sewer/MissionStart1
+\board[收集巨鼠尾]
+目標：收集8個巨鼠尾\i[45]
+報酬：未知
+委託主：盧德辛商行
+期限：單次
+下水道中的老鼠受到了感染，並大量繁殖。
+但上個負責處理該任務的傭兵失蹤了。
+現在這個任務落到我身上，可能的話順道找到失蹤的傭兵。
+
+Sewer/About2hWeapon
+\m[triumph]\c[6]洛娜：\c[0]    是釘耙！
+\m[confused]\c[6]洛娜：\c[0]    不過需要兩隻手一起拿，這樣的話另一隻手就沒辦法拿提燈了。
+
+
+###########################################################################
+
+Sewer/SawInfection
+\m[wtf]\Rshake\c[6]洛娜：\c[0]    嗚....好腥。
+\m[serious]\c[6]洛娜：\c[0]    就跟工會說的一樣，這裡遭受汙染了。
+\m[angry]\c[6]洛娜：\c[0]    最好別碰到那些髒東西。
+
+###########################################################################
+
+exit/NotFinishYet
+必須找到失蹤的雇員
+
+QuestSawGoblin/SawGoblin_begin1
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    ！！！！！！！！
+\CBmp[Goblin1,4]\SETpl[goblin]\Lshake\prf\c[4]魔物：\c[0]    咕咕..
+\CBmp[Goblin2,5]\SETpl[goblin]\Lshake\prf\c[4]魔物：\c[0]    咕恰！
+\CBmp[Goblin3,7]\SETpl[goblin]\Lshake\prf\c[4]魔物：\c[0]    咕咘搭？！
+\CBct[6]\m[fear]\plh\c[6]洛娜：\c[0]    有魔物？！ 而且還不止一隻？
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    看樣貌應該是\c[4]類獸人\c[0]。
+\CBct[20]\m[shy]\c[6]洛娜：\c[0]    據說這些魔物會把女性抓起來當成繁殖工具。
+\CBct[20]\m[terror]\c[6]洛娜：\c[0]    天啊！我最好馬上回工會報告。
+\CBmp[FeiraCropse,19]\m[confused]\c[6]洛娜：\c[0]    ...！那個人影應該就是失蹤的雇員吧，看來他已經死了。
+\CBmp[ExitPoint,19]\m[serious]\c[6]洛娜：\c[0]    啊...不行！我必須立刻離開這裡。
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    光靠我一人是沒辦法殺死這些魔物的。
+
+########################################################################### RapeLoop
+
+RapeLoopHobo/Begin0
+\SETpl[raper3]\Lshake\prf\c[4]遊民：\c[0]    女人！ 是女人啊！
+\SETpr[raper2]\plf\PRF\c[4]遊民：\c[0]    嘿嘿！呼呼！ 我先！讓我先！
+\SETpl[raper1]\PLF\prf\c[4]遊民：\c[0]    我的雞雞好久沒用過了，都要發霉了。
+
+RapeLoopHobo/Begin1_remove_equip
+\SETpl[raper2]\Lshake\prf\c[4]遊民：\c[0]    她身上的東西都是我的！
+\SETpr[raper3]\plf\Rshake\c[4]遊民：\c[0]    去你的！滾開明明是我先拿到的！
+
+Lona/RapeLoopDragOut
+\m[hurt]遊民們圍了上來，打算好好的享受一番。
+
+gay/Qmsg0
+別這樣看我
+
+gay/Qmsg1
+我對幹沒興趣
+
+gay/Qmsg2
+我只喜歡看
+
+cropseF/Qmsg0
+屍體
+
+cropseF/Qmsg1
+剛剛才被用過的屍體
+
+cropseF/Qmsg2
+已經開始腐爛了
+
+########################################################################### Mob hunt quest
+
+SewerKickMobs/QUbegin1
+\m[serious]\c[6]洛娜：\c[0]    好了，那些暴民又在惹事了，我必須鼓起勇氣將他們搞定。
+
+SewerKickMobs/Done
+\m[triumph]\c[6]洛娜：\c[0]    呼～好了邪惡的暴民應該都死光了。回去領賞吧。
+
+Mteen/Qmsg0
+不要傷害我媽媽！
+
+Mteen/Qmsg1
+我會保護她的！
+
+Mteen/Qmsg2
+媽媽不要怕！
+
+Mama/Qmsg0
+放過我們吧...

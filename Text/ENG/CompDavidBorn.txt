@@ -1,0 +1,144 @@
+#by joko, need sync and clearn up
+#Recently touched up by Partisan 27-10-24
+
+DavidBorn/KnownBegin
+\CBmp[DavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\C[4]Davidborn：\C[0]    Hey! Ain't it the girl champ?
+\CBct[2]\m[confused]\plf\PRF\C[4]Davidborn：\C[0]     Girl champ?
+
+DavidBorn/BasicOpt
+\m[confused]\optB[Cancel,Team up<r=HiddenOPT0>,Disband<r=HiddenOPT1>]
+
+DavidBorn/CompData
+\board[Davidborn]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Melee, Defense
+\C[2]Faction：\C[0]Bandits (Evil)
+\C[2]Hated Foe：\C[0]Evil Creatures, Guards
+\C[2]Cost：\C[0]Less than 100 Weakness
+\C[2]Duration：\C[0]3 days
+\C[2]Unique：\C[0]Does not respawn after death.
+The legendary Dragon Slayer. At least so he says...
+
+DavidBorn/Comp_win
+\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Davidborn：\C[0]    A new adventure? Let's go!
+
+DavidBorn/Comp_failed
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    You are too weak!
+
+DavidBorn/Comp_failed_slave
+\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Davidborn：\C[0]    Fuck off, slave! How dare you point at me?!
+
+DavidBorn/Comp_disband
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    The adventure.. is it over..
+
+DavidBorn/CompCommand
+\SETpl[DavidBorn_normal]\PLF\prf\C[4]Davidborn：\C[0]    Hehe...
+
+################################################################### QMSG ################################################################################# 
+
+DavidBorn/CommandWait0
+Is there anything ahead?
+
+DavidBorn/CommandWait1
+Okay.
+
+DavidBorn/CommandFollow0
+I'll hold them off! Don't be afraid!
+
+DavidBorn/CommandFollow1
+Nothing to be afraid of!
+
+DavidBorn/OvermapPop0
+I've seen it! A flying horse!
+
+DavidBorn/OvermapPop1
+Dragon slaying? Too easy!
+
+DavidBorn/OvermapPop2
+Bears are just the worst!
+
+DavidBorn/OvermapPop3
+Somebody stole my sweetcake!
+
+#DavidBorn/OvermapPop0
+##asdasdasdasdasdasdasdasdaasd       #length
+#I've seen it! A flying horse!
+#
+#DavidBorn/OvermapPop1
+#Dragon slaying? Too easy!
+#
+#DavidBorn/OvermapPop2
+#Bears are just the worst!
+#
+#DavidBorn/OvermapPop3
+#Somebody stole my sweetcake!
+
+###################################################################### QUEST
+
+DavidBorn/CampSpot1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Unknown：\C[0]    Who's there!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh?
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Unknown：\C[0]    \..\..\..
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Unknown：\C[0]    How did you get in?!
+
+DavidBorn/CampSpot3
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Ah? Aaahhh!!!
+
+DavidBorn/Unknow
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Unknown：\C[0]    I heard monsters have come here. It took me a whole month to get here by boat, and I have decided not to go to Sybaris.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Unknown：\C[0]    I have purged those demons like a Saint. I used to be a powerful adventurer.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Unknown：\C[0]    In the beginning I led a group of refugees to flee, but now I have become a leader of thieves.
+\CBmp[UniqueDavidBorn,5]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Unknown：\C[0]    As long as a hero keep making decisions, things will just keep spiraling out of control.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Unknown：\C[0]    Whether it's good or bad.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Unknown：\C[0]    I was a powerful adventurer, \C[6]Davidborn\C[0].
+
+DavidBorn/CampSpot4_opt
+\CamCT\m[fear]\plf\Rshake\c[6]Lona：\c[0]    Huh？\optD[I'm leaving now! This is not right!<r=HiddenOPT1>]
+
+DavidBorn/CampSpot4_failed
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Davidborn：\C[0]    You will die right here!
+
+DavidBorn/CampSpot4_win
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Why not help the people of Noer? They need help there!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Davidborn：\C[0]    Am I not helping them?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Davidborn：\C[0]    They needed more slaves and I provided them.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Davidborn：\C[0]    They asked me to stop the refugees, and I did that.
+\CamCT\m[wtf]\plf\PRF\c[6]Lona：\c[0]    How is that helping? Kidnapping people is not right! 
+\CBct[5]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I am pretty sure what you are doing is evil!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    I just follow the guidance of the Saints...
+\CBct[3]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    It's not too late to turn back. Go to the Mercenary Guild office in Noer, and make yourself useful there.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    Ugh\..\..\.. What have I done......
+
+DavidBorn/CampSpot4_win2
+\ph\narr\c[4]Davidborn\c[0]Go away...
+\CBct[8]\narrOFF\m[confused]\PRF\c[6]Lona：\c[0]    Uh... What should I do next？
+
+##################### DEFEAT him
+
+DavidBorn/CampLost0
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    No！ No more！ Spare me, champion!\optD[Whatever, I'll let you go]
+
+DavidBorn/CampLost0_fqu
+\CBct[5]\m[overkill]\plf\PRF\c[6]Lona：\c[0]    You can't trick me!
+
+DavidBorn/CampLost0_okay
+\CBct[8]\m[wtf]\plf\PRF\c[6]Lona：\c[0]    Huh? That's it?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    Don't kill me! I'm just following the guidance of the Saints!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh....
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    Thank you champion! I will repay you for sparing me! 
+
+DavidBorn/CampLost0_okay2
+\CBct[8]\m[wtf]\PRF\c[6]Lona：\c[0]    Uh... But I haven't said anything yet?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Nevermind...
+
+DavidBorn/QuRec2to3_1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Davidborn：\C[0]    Ungh!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    What？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Davidborn：\C[0]    Hoo-ah!
+\CBct[8]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Excuse me...
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Davidborn：\C[0]    Hah! Yeah, champ?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh.... Why are you here？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Davidborn：\C[0]    After listening to you, I have opened my eyes! I decided to follow the adventurer's path again! To become a hero!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Davidborn：\C[0]    The girl champion! Thank you for your guidance!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh.. alright then...

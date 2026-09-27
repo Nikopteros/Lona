@@ -1,0 +1,48 @@
+{
+	"item_name": "Moot",
+	"icon_index": 89,
+	"max_stacks": 1,
+	"lonaStat_json_hash": {
+			"stat": "moot",
+			"value": null,
+			"type": "numeric",
+			"link": null,
+			"initial": 0
+		},
+	"tag_main_settings": {
+		"tag": "yellow"
+	},
+	"textFlag": {
+			"name": "DataState:moot/item_name",
+			"description": "DataState:moot/description"
+		},
+	"attribute_change": [
+	{
+		"block_by_part_cover": ["Ear"],
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 1.1
+	},
+	{
+		"block_by_part_cover": ["Ear"],
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 1.2
+	},
+	{
+		"block_by_part_cover": ["Ear"],
+		"attribute_name": "morality_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 10
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	}
+	]
+}

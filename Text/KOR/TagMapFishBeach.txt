@@ -1,0 +1,118 @@
+thisMap/OvermapEnter
+\m[confused]파편 해변\optB[그만둔다,들어간다]
+
+begin/Begin0
+\CBct[8]\m[confused]\c[6]로나：\c[0] 으으......
+
+begin/Begin1
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 이게 무슨 축제인가요?
+
+commoner/Qmsg0
+꾸륵..! 그는 죽었어...!
+
+commoner/Qmsg1
+불쌍한... 형제여...
+
+commoner/Qmsg2
+삼가 고인의 명복을...
+
+guard/Qmsg0
+떠나라...!
+
+guard/Qmsg1
+여긴 외부인이 올 곳이 아니다...!
+
+guard/Qmsg2
+꺼져...!
+
+#########################################################################
+
+QuGiver/Begin0_Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\SETpl[FrogCommon]\Lshake\c[4]평민：\c[0] 여자... 번식하러 돌아가라...!
+
+QuGiver/Begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\c[4]평민：\c[0] 외부인...? 무슨 일이오?\optB[아무것도 아냐,축제,조각<r=HiddenOPT0>,폭주<r=HiddenOPT1>,도움<r=HiddenOPT2>]
+
+QuGiver/Festival0
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 이건 무슨 제사예요? 바다 마녀인가요?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 제사.....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 이건... 형제의... 장례식이오....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 바다로 돌아가는... 장례식이오....
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 장례식이요?! 죄송해요!
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 그는... 사악한 조각에 의해 죽었소....
+
+QuGiver/Fragment0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 조각? 그게 뭔지 말해줄 수 있어요?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 자아도... 없는... 아이들...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 전부... 바다 마녀의 조각이오....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 그들은 태어나면... 곧바로 바다 마녀의 품으로 돌아가야 하오...
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 무슨 말인지 잘 모르겠는데요?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 하지만... 바다 마녀가 폭주했소....
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 네?
+
+QuGiver/tmpOutControl
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 바다로 돌아가는 조각들은... 바다 마녀와 함께... 그 성전에 머물며... 바다 마녀의 일부가 되어야 하오...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 하지만 가짜 바다 마녀가 이겼고... 조각들이 광기에 물들었소...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 우리의 조상신이... 바다 마녀의 조각을 데리고 돌아왔소...
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 도대체 무슨 말이에요?
+
+QuGiver/help0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 도움이 필요하세요? 제가 도와드릴 수도 있을 것 같은데요?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 외지인...？ 너...？ 여자...？ 어쩌면 네가...？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 내 형제와 나는... 둘 다 도기장이오...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 그의 \c[4]게단지 공방\c[0] 안에는... 아직도... 가짜 바다 마녀의 조각이 배회하고 있소...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 조상신은 우리를 공격하지 않지만... 가짜 바다 마녀의 조각은 다르오...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 그 가짜 바다 마녀의 조각은 잔혹하게 우리를 죽일 것이오...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 그의 비법을 가져다주시오... 나는 반드시... 그의 뜻을 이어가야 하오...
+
+QuGiver/help_board
+\board[도기 제조 비법서]
+목표 : 도기 제조 비법서 \i[227] 획득
+보수 : 미정
+의뢰인 : 어인
+수행가능횟수 : 1회
+동쪽의 \c[4]게단지 공방\c[0]으로 가서, 도기 제조 비법서을 그의 형제에게 전달하라.
+
+QuGiver/help_cancel
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 그래, 그냥 관두자.
+
+QuGiver/help_accept
+\CBct[20]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 문제없어! 맡겨둬.
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 네 친구의 유품을 꼭 돌려줄게!
+
+######################################################################### QuestDone
+
+QuGiver/done0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어...
+
+QuGiver/done1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 비법을 찾았어. 이제 네 친구도 편히 쉴 수 있겠지?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 외지인...? 너...? 찾았다고...?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 어서 줘... 내놔!!!
+
+QuGiver/done2
+\CBct[20]\m[flirty]\plf\Rshake\c[6]로나：\c[0] 그렇게 급한 거야?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 후헤헤... 비법만 있으면.
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 나의 바다의 패왕 항아리 사업이... 이 섬 전역을... 장악할 거야...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 후하하... 하하하하하하..........
+\CBct[20]\m[confused]\plf\Rshake\c[6]로나：\c[0] 어....?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 신기한 소라고둥\..\..\.....? 그게 뭐지...?
+\CBct[8]\m[flirty]\plf\Rshake\c[6]로나：\c[0] 나도 잘은 모르겠는데, 어쨌든 위에 그렇게 적혀 있었어?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 비법...이 가짜라고?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] 그럴... 리가...
+\CBct[20]\m[confused]\plf\Rshake\c[6]로나：\c[0] 어... 괜찮아?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]평민：\c[0] \{꺼져...!
+
+QuGiver/done3
+\SndLib[FishkindSmSpot]\prf\c[4]탐정：\c[0] \{잠... 깐... 만...!!
+
+QuGiver/done4
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]탐정：\c[0] 모든 걸 알아냈다!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]탐정：\c[0] 네가 다공 해면이랑 대게를 죽였군!
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]평민：\c[0] 하하... 비법이 가짜였어....
+\SndLib[FishkindSmSpot]\CBmp[Detective,5]\plf\c[4]탐정：\c[0] 네가 다공 해면이랑 대게를 죽였다고!!!!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]탐정：\c[0] 따라와... 지금... 당장...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]평민：\c[0] 하하...하하...하하하...
+
+QuGiver/done_end
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어... 이게 뭐야?

@@ -1,0 +1,187 @@
+ThisMap/OmEnter
+\m[confused]邪龍玩具屋\optB[算了,進入]
+
+####################################################################### When Enter
+
+EnterOp/0
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]未知：\c[0]    你是說真的？ 這個神藥真可以讓我的女屌變成陰道？
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_fear]\plf\PRF\c[4]商人：\c[0]    呃\..\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]商人：\c[0]    當然！當然！這個藥每天每餐吃一份。
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]未知：\c[0]    你上次也是這麼說的！
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]商人：\c[0]    相信我！ 這次絕對真的有效！
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]商人：\c[0]    有聽過東門那間新開的婦產科嗎？ 這可是來自那位神醫的神藥！ 絕對有效！
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]商人：\c[0]    而且很便宜，一金幣可以吃一個星期！三個星期就能夠成功變成女性了！
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]未知：\c[0]    真的？ 可是我只剩\..\..\..8個大銅幣了。
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_shocked]\plf\PRF\c[4]商人：\c[0]    呃\..\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]商人：\c[0]    沒問題！ 我可以先借妳！
+
+EnterOp/1
+\CBmp[SnowflakeEVMod,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]未知：\c[0]    真的？ 那真是太好了♥
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]商人：\c[0]    我早就知道可能有這種狀況，所以早就準備好了！
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]商人：\c[0]    很快的妳就可以成為真正的女人了！
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]未知：\c[0]    你說什麼，該死的大鼻子矮鬼！ 我就本來就是女人！
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]商人：\c[0]    是！ 對！ 您說的沒錯！ 您本來就是女人！
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]商人：\c[0]    您的痛苦都是聖徒的考驗！ 您只要吃下這些藥就能昇華了！
+\CBmp[SnowflakeEVMod,8]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]未知：\c[0]    對，你說的對。 這一定是聖徒聖徒的考驗。
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]商人：\c[0]    來，小姐您只要在這邊簽個字就好\..\..\..
+
+####################################################################### Night
+
+Trans/begin0
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\c[4]未知：\c[0]    \{阿呀呀呀！！
+
+Trans/begin1
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{吚呀呀呀！！！
+
+Trans/begin2
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]未知：\c[0]    討厭啦♥ 真是嚇死人了♥
+
+Trans/begin3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]未知：\c[0]    噢♥ 是個味道很好聞的妹妹呢♥
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]未知：\c[0]    我叫\c[6]雪花\c[0]，小妹妹妳叫什麼名子啊？
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..\c[4]洛娜\c[0]....
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]未知：\c[0]    \c[6]洛娜\c[0]？ 真是個好名子♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..謝謝?
+
+Trans/talkedBegin0
+\m[tired]嗚...好臭...
+
+Trans/talkedNight0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    討厭啦♥ 人家在忙耶♥
+
+Trans/talkedDay0
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    怎麼了，小妹妹♥
+
+####################################################################### opt
+
+Trans/opt_pills
+...
+
+Trans/opt_male
+你是男的
+
+Trans/ans_male
+\CBct[20]\m[angry]\plf\Rshake\c[6]洛娜：\c[0]    不要再幻想了，你是男的。
+\CBct[20]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    這是就是現實，快醒醒吧。
+
+Trans/ans_pills_opt
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    妹妹你看看，這是我剛拿到的女屌治療藥。
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    有了它我就能成為真正的女人了。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..\m[confused]這是....\optD[真藥,假藥]
+
+Trans/ans_pills_opt_real
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    對，這個藥絕對會治好妳的...女屌症？
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    對吧，我很快就能治好我的女屌症並成為真正的女人了。
+
+Trans/ans_pills_opt_fake0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    這不是很常見的糖果嗎？
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    不，妳看清楚，看仔細，這是真正的治療女屌藥。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    啊，這棵是香蕉口味的，不信妳吃吃看？
+
+Trans/ans_pills_opt_fake1
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    不！ 這不可能！ 一定是妳在騙我！
+
+Trans/Ans_about0
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯...這裡是玩具屋？ 所以你是在賣玩具嗎？
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    我可是諾爾最厲害的玩具工匠，山莊那的大爺們\..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    等\..一\..下\........\{你？！
+
+Trans/Ans_about1
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]雪花：\c[0]    \{妳為什麼擅自定義我的性別！！
+
+Trans/Ans_about2
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什？！\. 性別？！\. \m[sad]我\..\..\..對不起...
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    哼，看在妹妹很可愛的份上，妳就來當我老婆吧！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    啊？！ 老婆...？！ 不是說妳是女的嗎？
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    我有女屌，這是聖徒的錯，但我又愛女人，這有什麼問題嗎？
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    沒...沒有！
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    很好....
+
+Trans/RageQuit0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]雪花：\c[0]    我是女人！！妳歧視了我！！
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]雪花：\c[0]    \{出去！ 滾出去！
+
+Trans/RageQuit1
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{耶耶耶？！
+
+endTalkQuestion/begin0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    姊姊問你一個問題...姊姊看起來是女人嗎？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...\optD[女人,男人]
+
+endTalkQuestion/begin0_ansF
+\CBct[6]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    女人，一定是女人！
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    啊♥ 我就知道洛娜妹妹懂我。
+
+endTalkQuestion/begin0_ansM
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    男人吧，畢竟有雞雞的話應該是....
+
+####################################################################### Common cropse
+
+Cropse/Qmsg0
+身上有奴隸的烙印
+
+Cropse/Qmsg1
+看起來是餓死的
+
+Cropse/Qmsg2
+穴穴看起來非常的鬆
+
+Cropse/Qmsg3
+已經發臭了
+
+transCropse/Qmsg0
+屎尿噴的到處都是
+
+transCropse/Qmsg1
+無法接受現實的死法
+
+####################################################################### nap first capture
+
+Trans/NapCapture0
+\CBct[2]\m[confused]\PLF\c[6]洛娜：\c[0]    嗯\..\..\..？
+
+Trans/NapCapture1
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    太好了♥ 妹妹妳總算醒了♥
+
+Trans/NapCapture2
+\CBct[6]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    我怎麼會在這？！ 妳對我做了什麼？
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    妹妹不是已經答應要當我的女友了嗎？
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我？ 女友？
+
+Trans/NapCapture3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]雪花：\c[0]    來，讓我們做情人該做的事吧♥
+\CBct[6]\m[pain]\plf\Rshake\c[6]洛娜：\c[0]    不要！ 放開我！
+
+Trans/NapCapture4
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    哦哦♥ 要去了♥ 去了阿♥♥
+
+Trans/NapCapture5
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\c[4]雪花：\c[0]    啊，真舒服。
+\CBct[8]\m[pain]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚....
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]雪花：\c[0]    我先去工作了，晚點再來疼愛妳呦♥
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+####################################################################### nap rapeloop
+
+Trans/NapRapeloop0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]雪花：\c[0]    來♥ 是時候疼愛妹妹了♥
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]雪花：\c[0]    讓我們體會女人之間的歡愉吧♥
+
+Trans/NapRapeloop1
+\CBct[8]\m[pain]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚....
+
+rapeloop/ans_male0
+\CBct[5]\m[angry]\plf\PRF\c[6]洛娜：\c[0]    你\..\..\..根本不是女人！
+\CBmp[Snowflake,1]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]雪花：\c[0]    什麼？！ 妳說什麼？！
+\CBct[5]\m[serious]\plf\PRF\c[6]洛娜：\c[0]    你生下來就是這樣！ 無論如何都沒辦法改變這個現實！
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]雪花：\c[0]    \{賤貨！ 閉嘴！
+
+rapeloop/ans_male1
+\CBct[5]\m[angry]\plf\PRF\c[6]洛娜：\c[0]    妳吃了多少藥做了多少手術？ 有用嗎？！
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]雪花：\c[0]    \{賤貨！ 閉嘴！
+\CBct[5]\m[serious]\PRF\c[6]洛娜：\c[0]    你早就知道了不是嗎！ 你是永遠不可能變成女人的！
+
+rapeloop/ans_male2
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]雪花：\c[0]    \{呀呀呀呀呀呀！

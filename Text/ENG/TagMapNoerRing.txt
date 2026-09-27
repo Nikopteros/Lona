@@ -1,0 +1,90 @@
+thisMap/OvermapEnter
+Noer Colosseum\optB[Leave,Enter]
+
+############################################## statue Quest
+
+Rager/Quprog0
+\CBid[-1,20]\m[confused]\prf\c[4]Citizen：\c[0]    \{ASSHOLE!\}
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    EH?! What's wrong?
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    We've help ya guys build \c[6]Sybaris\c[0]. Yet yew fuckers stole everything from us.
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    Then, we gots to care for yer refugees, and ya'll made this place a shithole.
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    And now? Yew bastards even stole \c[6]Leeruoi's\c[0] statue.
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    Ya fuckin' sneering, self-righteous imperialist should all just die.
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    Just one look from ya smelly shits is all I need to know.
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    I know yer from \c[6]Sybaris\c[0] too, I can smell the bullshit from ya!
+
+Rager/Quprog0_board
+\board[The Statue of Leeruoi]
+Goal：Find out where the Statue of Leeruoi is.
+Reward：+5 Morality
+Client：Citizen
+Deadline：None
+Fuck yer mum! Ya imperialist dog!
+
+Rager/Quprog1
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    I ain'ts never gonna forgive yew, ya damn imperialist shit!
+
+lona/SorryToRager
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uhhh......
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    I'm sorry...
+
+Rager/return_quest0
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Errr... Hello, mister?
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    Go away! Ya fuckin' imperialist bitch!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Ummm.... I know where \c[4]Leeruoi's\c[0] statue is at.
+\CBid[-1,20]\prf\c[4]Citizen：\c[0]    WHAT?!
+
+Rager/return_quest1
+\narr Lona told him exactly where the statue was located at...
+
+Rager/return_quest2
+\CBid[-1,2]\prf\c[4]Citizen：\c[0]    It really weren't the people of \c[6]Sybaris's\c[0] doing?!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    It really isn't, we only just want to survive.
+\CBct[20]\m[sad]\PRF\c[6]Lona：\c[0]    I'm really sorry for all of this.
+\CBid[-1,5]\prf\c[4]Citizen：\c[0]    Damn it all! First, we let 'em ugly bastards buy up our houses. Then, they steal our hero!
+\CBid[-1,15]\prf\c[4]Citizen：\c[0]    DAMNIT! DAMNIT! DAMNIT! DAMNIT ALL!
+
+Rager/return_quest3
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Errr...
+
+########################################## Common
+
+DoNotShit/talk0
+\board[Billboard]
+We all gots enuff of yor stinke piss smel!
+Sibuhris, go bac two yor emperial kapital!
+
+DoNotShit/talk1
+\board[Billboard]
+And two all u sten-king begars!
+\{GET OUT!\}
+
+DoNotShit/talk2
+\board[Leeruoi's Arena]
+Regain your honor, for no longer is this place an insulting theater.
+Starting today, \c[4]Leeruoi's\c[0] bloodlust and glory has returned.
+Also starting today, \c[4]Leeruoi's Theater\c[0] has been offically renamed back to \c[6]Leeruoi's Arena\c[0].
+-
+1772.1.13
+Guardsmen Headquarters
+
+DoNotShit/talk3
+\ph\cg[other_DontShit] Emperialist bitches ain't ahlow two shit hear!\n Artist：Anonymous
+\m[confused]\PRF\c[6]Lona：\c[0]    Ummm...
+\m[flirty]\PRF\c[6]Lona：\c[0]    Haha?
+
+Leeruoi/statue0
+\board[Leeruoi Juhankinns]
+1529.5.11-1553.10.9
+-
+The valiant hero of Noer, who's name echoed in the sky as he lead the first charge against the evil Deepones alone.
+Rest in peace, oh impatient and solo warrior.
+May the Saint bless us with your courage when we charge into battle!
+
+Leeruoi/statue1
+\board[Leeruoi Juhankinns]
+TIME IS RUNNING OUT! LET US PROCEED WITH THE TASK AT HAND!
+LEEERUUUUUUROI JUUUAAAHNKI-Ack!!!
+-Leeruoi Juhankinns-
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

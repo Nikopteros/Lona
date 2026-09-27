@@ -1,0 +1,341 @@
+########################################
+GodCTalk/begin1
+\CBmp[teller,8]\c[4]수수께끼의 점술가：\c[0] 결국\..\..\..\..
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\c[4]수수께끼의 점술가：\c[0] 이렇게 돼버렸네.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 그 아이가 너를 쓰러뜨리고? 그게 모든 일의 원인이 됐다는 건가?
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 맞아요, 그 아이가 성장했거든요.
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 믿기 어려운 이야기지만, 이건 정말 단순한 사고였어요.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 사고? 이걸 사고라고 부르는 건가?
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 네, 제가 일부러 일을 벌였다면, 당신은 대응할 틈조차 없었을 거예요. 그리고 일은 여기서 끝나지도 않았겠죠.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 좋아, 믿겠다.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 감사합니다.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 하지만 너도 대가를 치러야 한다. 다음 시나리오는 반드시 내가 제공하겠다.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 받아들이죠.
+
+GodCTalk/begin2
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 내가 권능을 충분히 되찾으면, 내 자식을 직접 돌려보내겠다.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 나머지는 당신이 신경 쓸 필요 없다.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 후후후후....
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 응?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 하하하하하하!!!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 왜?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 그 아이가 너를 두들겨 패고도 무사히 도망갔다고?
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 그래서 뭐!?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]???：\c[0] 이 이야기는 오래도록 웃으면서 떠들 수 있겠군!
+
+GodCTalk/begin3
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prh\c[4]수수께끼의 점술가：\c[0] \..\..\.. 빌어먹을!
+
+unused/unused
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]불량배：\c[0] 왠지 이렇게 하면 보스한테 미안한데요.
+\SETpl[TellerNormal]\Lshake\prf\c[4]아이샤브：\c[0] 나도 말 안 하고, 너도 말 안 하면, 누가 알겠어?
+
+#######################################Teller TG
+
+GodCTalk2/begin0
+\CBmp[DedOne,20]\SETpl[TellerEyeClosed]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 이건 내 각본이 아니잖아! 우리 약속했잖아! 전부 내 각본대로 간다고!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]아이샤브：\c[0] 빌어먹을! 너 정말 최악의 플레이어구나!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]아이샤브：\c[0] 네 그 위대한 모험이랑 역겨운 캐릭터 수치에 맞추려고, 지난번에 무슨 일이 있었는지 기억나?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 정의가 세상에 강림했지! 그건 장대한 모험이었어!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]아이샤브：\c[0] 그래! 너랑 네 사위가 이 차원을 박살낼 뻔했잖아!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]바다 마녀：\c[0] 음.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 바로 내 활약 덕분에 세상에 정의와 평화가 남아 있는 거다!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]아이샤브：\c[0] 맞아! 그래서 지금 난 네 멍청한 각본을 최대한 정상적으로, 그리고 네가 활약할 수 있는 각본으로 바꾸고 있는 거야!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]바다 마녀：\c[0] 음.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 아니! 인정 못 해! 이 몇 줄은 고치면 안 돼!
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 이건 이야기의 핵심이야! 기승전결이라고!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]아이샤브：\c[0] 너 같은 썩어빠진 영혼이 기승전결을 이해할 리가 없지! 이건 그냥 또 다른 메리수일 뿐이야!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]바다 마녀：\c[0] 음.....
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]아이샤브：\c[0] 복수극은 이렇게 쓰는 게 아니야! 이걸 제대로 안 고치면 영원히 악명만 남을 거다!
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 말도 안 돼! 봐라, 세상은 여전히 성도를 숭배하고 있잖아?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 이 세상은 위대한 모험을 숭상한다고! 성도의 전기는 세상 어느 구석에서든 찾을 수 있어!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]아이샤브：\c[0] 정말 네 백성들에게 직접 물어본 적 있나?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]정의：\c[0] 정의는 의심받을 필요가 없다!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]바다 마녀：\c[0] 어디 보자....
+
+GodCTalk2/begin1
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]바다 마녀：\c[0] \..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]바다 마녀：\c[0] 음\..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]바다 마녀：\c[0] 음\..\..\.. 음\..\..\..
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\c[4]바다 마녀：\c[0] 이게 뭐야!
+
+#######################################Teller HEV
+
+TellerSakaGBoss/begin1
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]불량배：\c[0] 왠지 이렇게 하면 보스한테 미안한데요.
+\SETpl[TellerNormal]\Lshake\prf\c[4]아이샤브：\c[0] 나도 말 안 하고, 너도 말 안 하면, 누가 알겠어?
+
+TellerSakaGBoss/hCG01
+\c[4]아이샤브：\c[0] 아휴♥\n 네 자지 정말 크다♥ 히히♥
+\c[4]불량배：\c[0] 나도 그렇게 생각해.
+
+TellerSakaGBoss/hCG02
+\c[4]아이샤브：\c[0] 이 냄새 정말 진하네, 얼마나 안 씻은 거야♥
+
+TellerSakaGBoss/hCG03
+\c[4]아이샤브：\c[0] 내가 입으로 깨끗하게 처리해줄게♥
+
+TellerSakaGBoss/hCG04
+\c[4]불량배：\c[0] 으윽♥
+
+TellerSakaGBoss/hCG05
+\c[4]불량배：\c[0] 아아♥
+
+TellerSakaGBoss/hCG06
+\c[4]불량배：\c[0] 으윽! 대단한데!
+
+TellerSakaGBoss/hCG07
+\c[4]불량배：\c[0] 너무 강해... 마치 동시에 몇 명의 여자가 핥는 것 같아!
+
+TellerSakaGBoss/hCG08
+\c[4]불량배：\c[0] 젠장... 으으, 너 도대체 어떻게 하는 거야...
+
+TellerSakaGBoss/hCG09
+\c[4]불량배：\c[0] 안 돼, 이건 너무 심하잖아!
+
+TellerSakaGBoss/hCG10
+\c[4]불량배：\c[0] 쌀 것 같아! 온다!
+
+TellerSakaGBoss/hCG11
+\c[4]불량배：\c[0] 으아아!! 빨지 마!! 지금 이때 빨지 말라고!!
+
+TellerSakaGBoss/hCG12
+\c[4]불량배：\c[0] 아아아아아!!!
+
+TellerSakaGBoss/hCG13
+\c[4]불량배：\c[0] 으으....
+
+TellerSakaGBoss/hCG14
+\c[4]불량배：\c[0] 하아...
+
+TellerSakaGBoss/hCG15
+\c[4]불량배：\c[0] 허흐\..\.. 허흐\..\..\..
+
+TellerSakaGBoss/hCG16
+\c[4]아이샤브：\c[0] 히히♥ 평소엔 그렇게 큰소리치더니... 이렇게만 해도 싸버리네♥
+
+TellerSakaGBoss/hCG17
+\c[4]불량배：\c[0] 아니, 네 입 기술이 너무 대단한 거지.
+
+TellerSakaGBoss/hCG18
+\c[4]아이샤브：\c[0] 히히♥ 과찬이야, 아직 내 보지가 자지를 못 먹어봤는데.
+
+TellerSakaGBoss/hCG19
+\c[4]불량배：\c[0] 문제없지!
+
+#######################################Teller HEV2
+
+GoldenBarHev/SadJew0
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]종업원：\c[0] 동방 상무?
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 그래 그래! 바로 나야! 나라고!
+\CBmp[SadJew,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] 난 양심적인 장사를 하고 있어. 지금 이 섬엔 모두가 힘을 합쳐야 하잖아.
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 성도와 함께 사악한 침입자에 맞서기 위해서라면, 작은 돈쯤 기부하는 건 아무것도 아니지.
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]종업원：\c[0] 동방인도 성도를 믿어? 너희는 그 무슨 창녀 같은 걸 믿는 거 아니었어? 가짜 신이니 뭐니 하면서 우리랑 한 판 붙지 않았었나?
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] 아니 아니! 개종했어. 나 성도를 믿어, 너희랑 똑같이.
+\CBmp[SadJew,3]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] \cg[event_Coins]\SND[SE/Chain_move01.ogg]이건 내 작은 성의야. 나\c[6]미르님\c[0] 좀 뵙게 해줘.
+\cgoff\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]종업원：\c[0] 이게 다야?! 나 무시하냐?
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]종업원：\c[0] 잘 들어, 다시 말하지만 미르님은 엄청 바쁘셔. 초대장이 있는 사람 말고는 아무도 안 뵈어.
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] 이렇게 많이 기부했는데 좀 봐주면 안 돼...?
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]종업원：\c[0] 젠장, 내가 몇 번을 말했어!!
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]종업원：\c[0] 미르님은 너 같은 \c[6]동방의 꼬마 흑인\c[0]을 상대할 시간 없어! 꺼져!
+\CBmp[SadJew,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] 괜찮아 괜찮아... 기다릴 수 있어, 여기서 기다릴게.
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]종업원：\c[0] 꺼져!
+
+GoldenBarHev/SadJewMsg0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 내 아내 못 봤어?
+
+GoldenBarHev/SadJewMsg1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 나 대신 길을 트겠다고 했어. 살림 잘하는 그이라면 틀림없이 해낼 거야!
+
+GoldenBarHev/SadJewMsg2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 하, 아내랑 사랑을 나눈 지도 오래됐네. 내가 너무 바빴으니 어쩔 수 없지.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 그래도 분명 날 이해해 줄 거야...
+
+GoldenBarHev/begin1
+\SndLib[sound_MaleWarriorDed]\c[4]남자A：\c[0] 아야야야야야!!!
+\SndLib[sound_MaleWarriorDed]\c[4]남자B：\c[0] 아이샤브의 보지가 참 그립다.
+\SndLib[sound_MaleWarriorDed]\c[4]남자C：\c[0] 네가 결혼했다는 얘길 듣고선, 다시는 못 볼 줄 알았어.
+
+GoldenBarHev/HevItSelf01
+\c[4]아이샤브：\c[0] 바보 같은 녀석들, 내가 어떻게 너희를 두고 떠나겠어?
+
+GoldenBarHev/HevItSelf02
+\c[4]남자D：\c[0] 왜 아직 내 차례가 아니야! 나도 아이샤브가 필요해!
+
+GoldenBarHev/HevItSelf03
+\c[4]남자E：\c[0] 아이샤브 몸에서 좋은 냄새가 나♥ 나도 넣고 싶어♥
+
+GoldenBarHev/HevItSelf04
+\c[4]아이샤브：\c[0] 서두르지 마, 얘들아. 착한 아이는 다 기회가 있단다♥
+
+GoldenBarHev/HevItSelf05
+\c[4]남자C：\c[0] 안 되겠다! 아이샤브의 보지가 마치 수십 개의 혀가 핥는 것 같아.
+
+GoldenBarHev/HevItSelf06
+\SndLib[sound_MaleWarriorDed]\c[4]남자C：\c[0] 간다!!!
+
+GoldenBarHev/HevItSelf07
+\c[4]아이샤브：\c[0] 자♥ 가자♥ 내가 모두의 더러움을 전부 빨아 없애줄게♥
+
+GoldenBarHev/HevItSelf08
+\SndLib[sound_MaleWarriorDed]\c[4]남자A：\c[0] \{으아아아아!!!
+
+GoldenBarHev/HevItSelf09
+\SndLib[sound_MaleWarriorDed]\c[4]남자B：\c[0] \{이이이이이!!!
+
+GoldenBarHev/HevItSelf10
+\SndLib[sound_MaleWarriorDed]\c[4]남자C：\c[0] \{오오오오오!!!
+
+GoldenBarHev/HevItSelf11
+\c[4]아이샤브：\c[0] 후후... 모두 정말 대단하네♥
+
+GoldenBarHev/End
+\c[4]남자：\c[0] 젠장! 그만 두드려! 안에 사람 있다고!
+\m[flirty]\c[6]로나：\c[0] 어... 미안...
+
+####################################################################### DF邪教徒任務串
+
+Df_TellerSide/NoneElseNotDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]점술사：\c[0] 가거라, 넌 해낼 수 있어.
+
+Df_TellerSide/NoneElseDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]점술사：\c[0] 가거라, 우리 나중에 다시 만나게 될 거다.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 알겠는데?
+
+Df_TellerSide/0to1_1
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\c[4]점술사：\c[0] 로나, 드디어 나타났구나. 오래 기다렸단다.
+
+Df_TellerSide/0to1_2_know
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 동방상무의 점술 아줌마? 여기서 뭐 하는 거예요?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]점술사：\c[0] 아줌마\..\..\..?
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 언니?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 에휴... 됐다.
+
+Df_TellerSide/0to1_2_Unknow
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 누구세요?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 나는 네 모든 것을 알고, 네 영혼을 인도할 사람이다.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 오, 그래요?
+
+Df_TellerSide/0to1_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그래서 저를 찾아오신 이유가 뭔가요?
+
+Df_TellerSide/1to2_0_0
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 너는 나를 위해 한 사람을 죽이게 될 거다.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 제가요? 살인을?!
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]점술사：\c[0] 그래, 맞다. 살인이다.
+\CBct[20]\m[serious]\plf\Rshake\c[6]로나：\c[0] 왜 하필 저죠? 왜 제가 그런 일을 도와야 하죠?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 네가 돈이 필요하고, 이 섬을 떠나고 싶어하기 때문이다.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 돈.....
+
+Df_TellerSide/1to2_0_1
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그는 누구죠? 왜 그를 죽이려는 거예요?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]점술사：\c[0] 그들은 사악한 거짓말쟁이들이다.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 잘못된 시간, 잘못된 장소에서, 숭배해서는 안 될 신을 숭배하고 있지.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 무슨 뜻이에요? 잘 모르겠는데요.
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]점술사：\c[0] 그들은 너처럼 검은 안개의 피해자이지만, 오히려 그 안개를 숭배하고 있다.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] \c[6]생육의 어머니\c[0]교, 즉 네 가족과 친구들을 죽인 그 검은 안개를 숭배하는 자들이다.
+
+Df_TellerSide/1to2_1
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 나......
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 그들의 사제를 죽여라. 그는 항상 돼지 머리 가면을 쓰고 다니며, 스스로를\c[4]돼지 머리\c[0]라 부른다.
+\plf\..\..\..
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]점술사：\c[0] 짜증나! 진짜 질렸다! 한 무리의 멍청한 원숭이들 같으니!
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]점술사：\c[0] 어떤 신이 스스로를 돼지 머리라 부르는 바보에게 숭배받고 싶겠냐?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]점술사：\c[0] 그런 것에게 예배받는 신은 부끄럽기만 할 거다, 알겠냐?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] .....
+
+Df_TellerSide/1to2_1_BRD
+\board[소멸 – 거짓을 퍼뜨리는 자]
+목표：\c[4]돼지 머리\c[0]처치
+보상 : 금화 1
+의뢰인 : 수수께끼의 점술가
+수행가능횟수 : 1회
+수렴동으로 가서 생육의 어머니 교의 사제 \c[4]돼지 머리\c[0]를 처치하라.
+
+Df_TellerSide/1to2_2_Yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 좋아요, 맡을게요.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 그런데 이 사교랑 무슨 관계가 있는 거예요?
+\CBid[-1,8]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]점술사：\c[0] 별다른 관계는 없어. 우리 모두 사람이잖아.
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]점술사：\c[0] 사람이라면 누구나 이 혼란을 빨리 끝내고 싶어하지.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 흠... 알겠어요. 말하기 싫으면 됐어요.
+
+Df_TellerSide/1to2_2_No
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 됐어요, 사람 잘못 보셨어요.
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 괜찮아, 넌 결국 나를 다시 찾게 될 거다.
+
+Df_TellerSide/PriestDead
+\CBid[-1,0]\c[4]돼지머리：\c[0] 안 돼! 생육의 어머니! 저를 버리지 마시오!
+
+Df_TellerSide/3to4_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그 돼지 머리, 완전 뻗어버린 것 같던데?
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]점술사：\c[0] 정말 놀랍네. 예측한 대로였어.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 예측...한 대로?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 별거 아니야. 내가 해낼 수 있다고 했잖아?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오? 그럼 기뻐해야 하나?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]점술사：\c[0] 당연히 기뻐해야지.
+\CBid[-1,20]\CBmp[0]\SETpl[TellerOkay]\Lshake\prf\c[4]점술사：\c[0] 이거 가져가. 분명 나중에 쓸모가 있을 거야.
+
+Df_TellerSide/3to4_1
+\CBct[3]\m[triumph]\plf\PRF\c[6]로나：\c[0] 고마워!!
+
+############################################################################################## Rebirth to abom
+
+AbomRebirth/opt_rebirth
+당신의 아이
+
+AbomRebirth/beginIfAbom
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 나의 아이여, 너는 도대체 무엇을 찾고 있는 거니?
+
+AbomRebirth/ans_rebirth0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 당신의 아이요?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 나는 너의 모든 것을 알고 있단다. 네 몸의 고통도, 네 악몽이 어디서 비롯됐는지도 말이지.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그래요? 뭐, 저는 자주 아프긴 하죠.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 너의 어머니로서, 내가 널 도와줄 수 있다.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 그래서... 어떻게 도와줄 건데요?
+
+AbomRebirth/ans_rebirth1
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그래서... 무슨 일이 있었던 거예요?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 나는 네 몸속에 잠들어 있던 힘을 깨웠다.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 그 힘은 네 모험에 큰 도움이 될 거다.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]수수께끼의 점술가：\c[0] 가거라, 나의 아이여.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 고마워요?
+
+############################################################################################## DancerSet
+
+HappyTrader/DancerSet0_waifuIsntThere
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\c[4]상인：\c[0] 내 아내가 어디 간 거야??
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\c[4]상인：\c[0] 으으... 방금 전까지만 해도 여기 있었는데?
+
+HappyTrader/DancerSet0
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어...
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 오! 미안 미안... 제가 도와드릴까요?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 여행 중에 이 꾸러미를 주웠는데, 아마 당신 거 같아요?
+
+HappyTrader/DancerSet1
+\CBid[-1,8]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] ! \.! \.! \.!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 잘 됐군! 이게 내가 잃어버린 물건이 맞아. 그 도둑놈들이 감히 내 화물을 가로채다니.
+
+HappyTrader/DancerSet2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]상인：\c[0] 오! 나의 사랑, 이 옷들 예쁘지 않아?
+
+HappyTrader/DancerSet3
+\CBmp[teller,3]\SETpr[TellerNormal]\plf\Rshake\c[4]점술사：\c[0] 어머\..\..\.. 이게 나 주는 선물이야?
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] \..\..\..선물?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 그래 그래!! 이건 당신에게 주는 선물이야. 예쁘지? 기쁘지?
+\CBmp[teller,5]\SETpr[TellerConfused]\plf\Rshake\c[4]점술사：\c[0] 똑같은 선물을 여러 벌이나?
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] 그래! 진짜야! 선물 맞아!
+\CBmp[teller,8]\SETpr[TellerAngry]\plf\Rshake\c[4]점술사：\c[0] .....
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] .....
+
+HappyTrader/DancerSet4
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\c[4]상인：\c[0] 큰일 났네...
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어...
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] 아! 정말 미안!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 이건 우리 나라에서 들여온 예쁜 옷인데, 시바리스에서 환적할 때 폭동이 일어나 버렸지 뭐야.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 그 바람에 산장의 양반들이 전부 안 사겠다고 하네. 아깝지.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 오?
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]상인：\c[0] \..\..\..
+\CBid[-1,9]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]상인：\c[0] !!!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 물건을 돌려준 감사로, 싸게 줄게.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]상인：\c[0] 어때? 생각 좀 해볼래?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 생각은 해볼게요?

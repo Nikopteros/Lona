@@ -1,0 +1,139 @@
+ThisMap/OmEnter
+\m[confused]시바리스 남서쪽 성문 곡창\optB[그만둔다,들어간다]
+
+QuProgSybBarn1/EnterQuestMode0
+\cg[map_region_AbomTown]\m[flirty]\PRF\c[6]로나：\c[0] 흠, 여기가 맞나 보네?
+\SETpl[Mreg_guardsman]\plf\PRF\c[4]용병：\c[0] 야! 비켜!
+\SndLib[sound_punch_hit]\SETpl[Mreg_guardsman]\m[hurt]\Lshake\prf\c[6]로나：\c[0] 악!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 여긴 우리가 먼저 왔어! 계집애, 꺼져!
+\m[confused]\plf\PRF\c[6]로나：\c[0] 뭐야, 이게…
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 뭐야 이건? 문이 잠겼다고?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 야! 당장 들이받아 봐!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]용병：\c[0] 좋아, 내가 해보지.
+\narr\ph\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]
+\narrOFF\SETpr[Mreg_pikeman]\plf\Rshake\c[4]용병：\c[0] 안 되겠군, 완전히 잠겨버렸어.
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 쳇! 젠장, 좆도 쓸모없네!
+
+QuProgSybBarn1/EnterQuestMode1_OPT
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 흠…\optD[비켜서 지켜봐,내가 한번 해볼게<r=HiddenOPT0>]
+
+QuProgSybBarn1/EnterQuestMode1_WAIT
+\ph\narr\..\..\한참의 시간이 흐르고…
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\c[4]용병：\c[0] 드디어 열렸다!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]용병：\c[0] 내가 뭐랬냐, 이렇게 비틀면 쉽게 열린다니까.
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 야, 꼬맹이! 우린 먼저 들어간다! 좋은 건 절대 안 남겨줄 거야!
+\m[confused]\plf\PRF\c[6]로나：\c[0] ......
+\ph\narr..…그리고 또다시 시간이 흐른 뒤…\SndLib[BreedlingAtk]\..\..\SndLib[BreedlingAtk]
+\cg[map_AbomBreedlingRaid]\narrOFF\m[shocked]\Rshake\c[6]로나：\c[0] 마… 마물이다!!!!
+\cgoff\ph\narr 그리고 로나도 곡창 안으로 따라 들어갔다…
+
+QuProgSybBarn1/EnterQuestMode1_SCU
+\m[confused]\plf\PRF\c[6]로나：\c[0] 에… 내가 한번 해볼까?
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[openChest]
+\narrOFF\m[flirty]\plf\PRF\c[6]로나：\c[0] 오! 생각보다 쉽네?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 오, 꼬맹이 잘했는데!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 좋아! 수확물 중 조금은 네 몫으로 줄 자격이 있겠다!
+\m[confused]\plf\PRF\c[6]로나：\c[0] 에… 사실 난 길드에서 받은 의뢰로 이곳을 정찰하러 온 거야.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 길드 임무? 네 같은 꼬맹이가?
+\m[serious]\plf\PRF\c[6]로나：\c[0] 난 꼬맹이가 아니야!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 쓸데없는 말 말고! 당장 시작해라!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]용병：\c[0] 꼬맹이, 너도 따라와라. 쓸모가 있겠지!
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네!!
+
+#########################################################################################
+
+Op/Begin0_3
+\CBmp[OpGuard2,20]\c[4]난민：\c[0] 살아있는 사람이야! 사제님의 예언이 진짜였어!
+\CBmp[OpGuard1,5]\c[4]난민：\c[0] 어서 문을 닫아! 사도들이 들어올 거야!
+\CBmp[mama,20]\c[4]사제：\c[0] 그게 정말 살아있는 인간이라는 걸 네가 어떻게 확신하느냐? 혹은 거짓말쟁이의 환영일지도 모르지!
+\CBmp[OpGuard1,2]\c[4]난민：\c[0] 설마… 저들도…? 그럴 리가…!
+\CBmp[mama,20]\c[4]사제：\c[0] 닥쳐라! 어서 문을 닫아라!
+
+Op/Begin0
+\CBmp[OpGuard2,20]\c[4]난민：\c[0] 또다시 왔다! 또 살아있는 사람이야!
+\CBmp[OpGuard1,5]\c[4]난민：\c[0] 문을 닫아! 사도들이 들어올 거야!
+\CBmp[mama,20]\c[4]사제：\c[0] 그것도 분명 거짓말쟁이의 환영일 뿐이다!
+
+Op/Begin1_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 설마… 여기에 아직 살아 있는 사람이 있다니?
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]용병：\c[0] 어디 보자… 길드 공고에 따르면 남자 하나가 대략 이 정도 값어치지.
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 그럼 우린 대박 난 거 아냐?!
+
+Op/Begin1
+\ph\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 에… 여긴 대체 무슨 일이야?
+\CBmp[mama,20]\c[4]사제：\c[0] 너, 신앙을 가진 자냐?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어\..\..\.. 아마도?
+\CBmp[mama,20]\prf\c[4]사제：\c[0] 신앙을 가진 자여, 우리에겐 성도의 기적이 필요하다.
+\CBmp[mama,20]\prf\c[4]사제：\c[0] 우리의 친척과 동료들이 지하실의 사도들에게 끌려갔다. 네가 도와야 한다.
+\CBmp[OpGuard2,6]\c[4]난민：\c[0] 잠깐만요, 사제님! 그녀는 그냥 인간이에요! 아직 어린아이잖아요!
+\CBmp[mama,20]\prf\c[4]사제：\c[0] 닥쳐라! 이것은 성도의 뜻이다! 나는 성도의 목소리를 들었다!
+\CBmp[OpGuard2,8]\c[4]난민：\c[0] ……네…
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 뭐라고? 사도라고??
+
+Op/Begin2
+\CBmp[mama,20]\prf\c[4]사제：\c[0] 나를 따라오너라. 분명 우리를 도울 수 있을 것이다.
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 오?
+
+Op/Begin2_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 사도라고? 내 생각엔 그냥 마물 얘기하는 것 같은데.
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]용병：\c[0] 들어라, 이건 우리와 상관없는 일이야. 우리의 임무는 살아 있는 인간을 그대로 밖으로 데리고 나가는 거다!
+\CBct[20]\m[serious]\PRF\c[6]로나：\c[0] 도와주자. 이렇게 물러서는 게 정말 남자답다고 할 수 있어?
+\CBmp[Gpicker,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] \..\..\..
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 좋아, 꼬맹이 말이 맞다. 저 빌어먹을 쓰레기들은 우리가 처리하지.
+
+Op/Begin3
+\CBmp[mama,20]\prf\c[4]사제：\c[0] 여기다! 여기서 거짓 신의 사도가 나타났다!
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 에… 그런데 여긴 감염된 것들 말고는 아무것도 없잖아?
+
+Op/Begin3_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 쳇, 또 이런 역겨운 것들이군.
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]용병：\c[0] 냄새 지독하네… 이거 오래 맡으면 진짜 몸 상하는 거 아냐?
+
+Op/Begin4
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 에… 뭐야…?
+\CBmp[mama,20]\prf\c[4]사제：\c[0] 바로 저기다. 인내심을 가져라, 조금만 더 기다리면 된다…
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] ...........
+\CBmp[mama,8]\prf\c[4]사제：\c[0] ......
+
+Op/Begin5
+\CBmp[mama,20]\c[4]사제：\c[0] ........................
+\CBmp[mama,20]\c[4]사제：\c[0] 내 말이 맞았다! 저들은 가짜, 거짓된 자들이다!!!
+\CBmp[OpGuard2,20]\c[4]난민：\c[0] 정말… 인간이 아니었던 건가?!!
+\CBmp[OpGuard1,20]\c[4]난민：\c[0] 사도들이 놈들을 집어삼켰어! 놈들은 거짓된 자였어!
+\CBmp[OpGuard2,20]\c[4]난민：\c[0] 사제님 말씀이 진실이었다!
+\CBmp[mama,20]\c[4]사제：\c[0] 성도께 감사하라! 성도를 찬미하라!
+
+Op/Begin6
+\CBmp[OpGuard2,20]\CBmp[OpGuard1,20]\CBmp[mama,20]\c[4]모두：\c[0] 성도께 감사하라!! 성도를 찬미하라!!
+
+Op/Begin7
+\c[6]로나：\c[0] \{꺄아아악!!!
+
+Op/Begin8
+\CBmp[6]\m[fear]\PRF\c[6]로나：\c[0] 여긴… 대체\..\..\..
+
+Op/Begin9
+\CBmp[20]\m[terror]\Rshake\c[6]로나：\c[0] \{흉물… 둥지라고?!
+
+Op/Begin9_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 이… 이게 도대체 뭐 같은 곳이야…?!
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]용병：\c[0] 벽이… 살아 있다고?!
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 성도시여!… 이 벽이 사람을 집어삼키고 있어?!
+
+Op/Begin9_31
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]용병：\c[0] 이 죽일 계집애! 전부 네 잘못이야! 우리를 당장 이 지옥 같은 곳에서 데리고 나가!
+
+Op/Begin9_board
+\board[곡창의 생존자]
+목표 : 곡창을 탈출해 남문 야영지로 귀환하라.
+보상 : 큰 동전 3개
+의뢰주 : 남문 야영지
+수행가능횟수 : 1회
+살아서 \c[4]남문 야영지\c[0]의 \c[6]희망 여관\c[0]에 도착해, 길드에 임무를 보고하라.
+
+#################################### other
+mama/LastWords
+\CBmp[mama,7]\c[4]사제：\c[0] 안 돼! 내 잘못이 아니야!
+\CBmp[mama,9]\c[4]사제：\c[0] 내가 옳아! 틀리지 않았어! 전부 다 그 거짓된 자들의 탓이야!
+\CBmp[mama,5]\c[4]사제：\c[0] \{아아아아악！！！

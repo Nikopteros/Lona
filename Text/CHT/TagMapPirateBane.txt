@@ -1,0 +1,170 @@
+####################################--------------------- overmap  Pirate's Bane
+
+ThisMap/OvermapEnter
+\m[confused]海賊毀滅者堡壘
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]守衛：\c[0]    站住！ 妳是誰！\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+################################################### OUT
+
+board/Begin1
+\board[警告]
+任何犯人皆將成為奴隸。
+遵守規則，別鬧事。
+偷竊：16
+傷人：32
+搶劫：64
+
+board/Begin2
+\board[收購]
+任何犯罪份子皆為奴隸。
+將您逮捕的罪犯交給附近的守備隊。
+您將獲得3日的食物配給。
+
+################################################### INN
+
+InnKeeper/Begin
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    新來的？ 妳需要什麼？
+
+InnKeeper/About_here
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    這個堡壘最初是為了抵禦海盜而建，隨著時間過去海盜也不考慮在這活動了。
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    這裡被長期棄置，直到這次魔物於席芭莉絲爆走。
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    盧德辛商行於災難爆發的第一時間就修整了這裡，在盧德辛家族的僻護下這是少數的安全區域。
+
+InnKeeper/About_work
+\CamCT\Bon[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    有什麼工作我可以做的嗎？
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    工作？ 妳？
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    看到外面那群乞丐了？ 現在半個麵包就足夠雇用他們一整天。
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    工作什麼的可輪不到妳，問問傭兵公會吧。
+\CamCT\Bon[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    抱歉...
+
+thinking/talk0
+\cg[other_ArtThinking]：thinking：
+\m[serious]嗯....
+\m[confused]不懂。
+
+################################################### Nap
+
+Guard/NapSlave
+\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    喂！ 這邊！
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]守衛：\c[0]    怎麼了？！
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]守衛：\c[0]    這隻身上有奴隸印記！
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]守衛：\c[0]    逃跑的奴隸？
+\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚... 怎麼了？
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]守衛：\c[0]    來，該回家了。
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    咦啊？！
+
+Guard/NapLowMora
+\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    喂！ 這邊！
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]人口販子：\c[0]    怎麼了？！
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]守衛：\c[0]    這小妮子是來鬧事的，交給你處理了。
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]人口販子：\c[0]    感謝啦！
+\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚... 怎麼了？
+\SETpl[MobHumanCommoner]\prf\Lshake\c[4]人口販子：\c[0]    來，該回家了。
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    咦啊？！
+
+###################################################### QUEEST BOARD
+QuestBoard/PB_OrkDen4_list
+類獸人巢穴
+
+QuestBoard/PB_OrkDen4
+\board[類獸人巢穴]
+目標：前往北方的類獸人巢穴，殺死類獸人薩滿並取得他的頭顱。
+報酬：大銅幣3
+委託主：盧德辛商行
+期限：單次
+連這裡也出現了綠皮？
+我們的麻煩已經夠多了，必須要在那些渾蛋數量多起來前消滅牠們。
+可以肯定的是牠們有一隻領導者在這。 找出牠！宰了牠！
+我們建議由\C[4]專業\C[0]的傭兵進行清理工作。
+
+QuestBoard/PB_MassGrave_list
+亂葬崗的邪惡
+
+QuestBoard/PB_MassGrave
+\board[亂葬崗的邪惡]
+目標：驅除亂葬崗的邪惡
+報酬：大銅幣2
+委託主：聖徒會修道院
+期限：單次
+亂葬崗晚上出現了邪惡的存在！
+在這種時候是不會有人接近墳場的！
+只有不死者或是行惡的謊言者！
+找出它！驅趕它！消滅它！
+
+QuestBoard/PB_DeeponeEyes_list
+挖出牠的眼
+
+QuestBoard/PB_DeeponeEyes
+\board[挖出牠的眼]
+目標：收集8雙深潛者的眼睛
+報酬：大銅幣1、小銅幣5
+委託主：盧德辛商行
+期限：長期
+此地持續受到深潛者騷擾，但他們會付出代價！
+開腸剖肚，事成方休！
+
+QuestBoard/PB_NorthCP_list
+北哨點的訊息
+
+QuestBoard/PB_NorthCP
+\board[北哨點的訊息]
+目標：調查北方哨點
+報酬：大銅幣1
+委託主：盧德辛商行
+期限：單次
+北哨點已幾天沒有報告了，
+我們需要一位傭兵了解北方哨點的現狀。
+
+QuestBoard/decide
+\m[confused]確定這個任務？\optB[算了,撕下便條]
+
+MercenaryGuild/PB_MassGrave_done
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]職員：\c[0]    所以？ 妳回來做什麼？
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    那個.... 邪惡的存在大概是離開了吧？
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]職員：\c[0]    大概？
+\CBct[20]\m[triumph]\PRF\c[6]洛娜：\c[0]    肯定！
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]職員：\c[0]    看起來的確是這樣。
+
+MercenaryGuild/Report_DeeponeEyes_win1
+\CBct[20]\m[fear]\PRF\c[6]洛娜：\c[0]    這是工會要的眼睛.... 噁噁....
+
+MercenaryGuild/Report_DeeponeEyes_win2
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]職員：\c[0]    幹的好！
+
+MercenaryGuild/Report_NorthCP_win1
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 關於北邊...
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    看來他們全死掉了... 大概是類獸人吧？
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]職員：\c[0]    唉.. 情況越來越嚴重了，我們緬懷他。
+
+MercenaryGuild/PB_OrkDen4_win1
+\CBct[20]\m[fear]\PRF\c[6]洛娜：\c[0]    噁.... 這是類獸人老大的頭顱...
+
+MercenaryGuild/PB_OrkDen4_win2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]職員：\c[0]    厲害，妳居然做到了！
+
+###################################################### ChickenSanders
+
+Sanders/MyCock0
+\CBmp[Sanders,6]\m[confused]\prf\c[4]桑德斯：\c[0]    雞！ 我的小雞雞！
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃？！ 雞？
+\CBmp[Sanders,20]\prf\c[4]桑德斯：\c[0]    救救我！ 我的雞雞全跑了！
+
+Sanders/MyCock1
+\board[抓小雞雞]
+目標：拯救桑德斯小雞雞
+報酬：小銅幣2
+將三隻小雞雞們趕回柵欄內。
+時間內完成回報加倍。
+觸發小雞雞可以驅趕牠。
+
+Sanders/MyCock2
+\m[confused]\ph\c[4]桑德斯：\c[0]    快把我的小雞雞找回來！ 趕回柵欄內！
+\m[confused]\PRF\c[6]洛娜：\c[0]    好吧，這沒甚麼難度吧？
+
+Sanders/MyCock_working
+\m[confused]\prf\c[4]桑德斯：\c[0]    在那邊！ 快抓住牠！
+
+Sanders/MyCock_done
+\CBmp[Sanders,20]\m[confused]\prf\c[4]桑德斯：\c[0]    勇士阿... 
+\CBmp[Sanders,20]\m[confused]\prf\c[4]桑德斯：\c[0]    感謝您拯救了這個世界，我們會永遠記得妳的。
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    有這麼誇張嗎？

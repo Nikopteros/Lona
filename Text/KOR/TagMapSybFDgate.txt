@@ -1,0 +1,73 @@
+ThisMap/OmEnter
+\m[confused]시바리스 남서문\optB[그만둔다,들어간다]
+
+QuProgSybBarn2/begin1
+\c[4]난민：\c[0] 내 아이… 내가 내 아이를 죽였어…
+\c[4]난민：\c[0] 아아아아아악！！！
+
+QuProgSybBarn2/begin2
+\CBmp[Yeller,20]\c[4]난민：\c[0] 왜죠! 성도여! 왜 저에게 이런 시련을！！！！
+\CBmp[Yeller,20]\c[4]난민：\c[0] \{아아아아아！！！！
+
+QuProgSybBarn2/begin3
+\CBct[8]\m[confused]\c[6]로나：\c[0] 뭐야… 이게 대체…？
+
+Guard0/begin0
+\CBid[-1,20]\prf\c[4]용병：\c[0] 응? 또 다른 생존자들인가?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 여기 네가 낄 자리는 없어. 방향 잘못 온 거다!
+\CBct[6]\m[confused]\c[6]로나：\c[0] 에?! 아니, 나… 나 용병이거든? 아마도…?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 용병? 네가? 이런 꼬맹이가?
+\CBct[6]\m[flirty]\c[6]로나：\c[0] 아마도… 맞을걸?
+\CBid[-1,5]\prf\c[4]용병：\c[0] 됐어! 당장 꺼져. 여긴 애들 장난칠 데가 아냐.
+\CBct[8]\m[tired]\c[6]로나：\c[0] 하아…
+
+Guard1/begin0
+\CBid[-1,20]\prf\c[4]용병：\c[0] 소문이 사실이었군… \c[6]시바리스\c[0], 이제 완전히 끝장이네.
+\CBid[-1,20]\prf\c[4]용병：\c[0] 몇 달 전만 해도 우릴 촌스럽다 비웃더니, 지금 꼴은 누가 더 우습냐?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 하하! 이게 그렇게 잘난 도시의 최후라니, 웃기지도 않군.
+
+Guard2/begin0
+\CBid[-1,20]\prf\c[4]용병：\c[0] 여긴 진짜 음산하기 짝이 없군... 그 뭐냐, 검은 안개가 걷힌다더니?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 사방이 시체고, 땅도 다 망가졌잖아.
+\CBid[-1,20]\prf\c[4]용병：\c[0] 게다가 감염 구역이 아직도 퍼지고 있다던데?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 노엘 섬, 진짜 끝장나는 거 아냐...?
+
+Guard3/begin0
+\CBid[-1,20]\prf\c[4]용병：\c[0] 여긴 내 고향이었어. 내가 살던 집이 있었고... 지금은 다 사라졌지.
+\CBid[-1,20]\prf\c[4]용병：\c[0] 내 친구들, 가족, 그리고 사랑하는 사람까지... 전부 잃어버렸어.
+
+GuardMain/opt
+\CBct[6]\m[confused]\c[6]로나：\c[0] 으... 뭐지...\optB[아냐... 괜찮아,용병,그녀에 대해]
+
+GuardMain/opt_Mercenary
+\CBct[6]\m[confused]\c[6]로나：\c[0] 너희... 용병들이야? 왜 이렇게 많아?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 너 여기서 뭐 하는 거야? 이건 애들이 올 데가 아니라고.
+\CBct[5]\m[flirty]\plf\PRF\c[6]로나：\c[0] 흥, 나도 어쨌든 용병이라고!
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 너... 용병...?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 하, 뭐 됐어. 요즘은 전선에 애새끼들까지 굴러다니는 세상이니.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 근데 인원이 부족하다던데? 여긴 왜 이렇게 많아?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 우린 시바리스 북쪽 노엘 마을에서 왔다. 위에서 쓸 수 있는 물자랑 생존자 전부 수색하라고 명령 내렸지.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 엥...?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 당연히 우리 같은 프로들한테만 해당되는 얘기다. 꼬맹인 너는 그냥 비켜!
+
+GuardMain/opt_Her
+\CBct[6]\m[flirty]\c[6]로나：\c[0] 그럼... 그녀한텐 무슨 일이 있었던 거야?
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 그녀\..\..\..?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 안됐지... 참으로 불쌍한 사람들이야.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 우리가 도착하기 직전에, 스스로 목숨을 끊기로 한 모양이더군.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 그녀는 마지막까지 남아 있다가... 도착하기 전에 자기 아이를 죽였어.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 그리고 이제 자기 차례였겠지... 바로 그때 우리가 나타난 거야.
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]용병：\c[0] 아이러니하지 않냐...?
+
+MainWomen/Qmsg0
+꺄아아아악！！！
+
+MainWomen/Qmsg1
+아아아악！！！
+
+Guard/Qmsg0
+비켜라!
+
+Guard/Qmsg1
+길 막지 마!

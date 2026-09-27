@@ -1,0 +1,837 @@
+###################################--------------------- LISA BOMB TRADER
+Lisa/WelcomeUnknow
+\CBmp[UniqueLisa,20]\SETpl[LisaHappy]\Lshake\prf\c[4]꼬맹이：\c[0] 헤이! 헤이!! 언니! 내 이름은 리사야!
+\CamCT\Bon[2]\m[pleased]\plf\c[6]로나：\c[0] 나는 로나 폴딘이야.
+\CBmp[UniqueLisa,20]\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 로나... 아! 맞다! 언니! 이거 관심 있어? ...히히, 짱 재밌을걸!
+
+Lisa/Welcome0
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 시간은 곧 돈이야!
+
+Lisa/Welcome1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 무슨 문제라도 생기면, 팡! 한방에 해결해줄게!
+
+Lisa/Welcome2
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 언니! 한 번 팡~ 해보고 싶지 않아?
+
+Lona/LisaOptUnknow
+\m[confused]\plf\c[6]로나：\c[0] 응...? \optD[히히,짱 재밌는 거라구?]
+
+Lona/LisaOpt
+\CamCT\m[confused]\plf\c[6]로나：\c[0] 응...?
+
+Lona/LisaOpt_Supply
+화약 공급상이야?
+
+Lona/LisaOpt_SouthFL
+남문 야영지?
+
+Lisa/About
+\CamCT\Bon[2]\m[flirty]\plf\c[6]로나：\c[0] 한밤중에 여기서 뭐 팔고 있는 거야?
+\CamCT\Bon[2]\m[confused]\plf\c[6]로나：\c[0] 응?
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,5]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 못 들어봤어? 그냥 불 붙이면 팡팡 터지는 그런 거 말이야!
+\CamCT\Bon[8]\m[confused]\plf\c[6]로나：\c[0] 그게......
+\CamCT\Bon[1]\m[wtf]\Rshake\c[6]로나：\c[0] \{화약?!
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,3]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 후훗, 맞아!
+\CamCT\m[serious]\plf\c[6]로나：\c[0] 나도 들어본 적은 있는데, 그거 불법 아니야?
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 언니! 바보처럼 굴지 마! 지금 세상이 이 난리인데, 좋은 거 같이 안 쓰면 언제 써?
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,4]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 언니도 좀 가져가. 자기 몸 지키는 데엔 남한테 상처 입히는 게 최고야!
+\CamCT\m[confused]\plf\c[6]로나：\c[0] 으... 나 언니 아니고, 이름은 로나야.
+
+############################## COMMON EXT Convoy
+
+NPC/CommonConvoyTarget0
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\c[4]리사：\c[0] 지금 도망가려는 거야?
+
+NPC/CommonConvoyTarget1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\c[4]리사：\c[0] 빨리! 빨리! 나 더는 못 기다리겠어!
+
+NPC/CommonConvoyTarget2
+\CBid[-1,20]\SETpl[LisaTriumph]\Lshake\c[4]리사：\c[0] 나도 좀 빵! 하고 터뜨리고 싶어!
+
+####################################--------------------- Minecave Hevent itself
+
+Lisa/LisaAbomHev_begin
+\SETpl[LisaBereft]\Lshake\c[4]리사：\c[0] \{와아아아아아!!!!!!
+
+Lisa/LisaAbomHev1
+\c[4]리사：\c[0] \{오지 마!
+
+Lisa/LisaAbomHev2
+\c[4]리사：\c[0] \{이이이이!!!
+
+Lisa/LisaAbomHev3
+\narr수많은 벌레가 리사를 에워쌌다.
+
+Lisa/LisaAbomHev4
+\c[4]리사：\c[0] \{쉿! 저리 가! 꺼져! 아!
+
+Lisa/LisaAbomHev5
+\c[4]리사：\c[0] \{으아아악!
+
+Lisa/LisaAbomHev6
+\c[4]리사：\c[0] \{안 돼!
+
+Lisa/LisaAbomHev7
+\narr벌레의 발톱이 리사의 항문을 걸고, 그대로 힘껏 장 속으로 파고들었다.
+
+Lisa/LisaAbomHev8
+\c[4]리사：\c[0] \{아파! 그만해!
+
+Lisa/LisaAbomHev9
+\c[4]리사：\c[0] \{안 돼에에에에!
+
+Lisa/LisaAbomHev10_1
+\c[4]리사：\c[0] \{으윽?!
+
+Lisa/LisaAbomHev10_2
+\c[4]리사：\c[0] \{아, 이익?!
+
+Lisa/LisaAbomHev10_3
+\c[4]리사：\c[0] \{으아아아아악!!!
+
+Lisa/LisaAbomHev11
+\narr벌레들이 갈고리 발톱으로 리사 몸속을 단단히 고정하고, 장 벽을 물어 독을 주입한다.
+
+Lisa/LisaAbomHev12
+\Rshake\c[4]리사：\c[0] \{아파! 진짜 아파!!!
+
+Lisa/LisaAbomHev13
+\c[4]리사：\c[0] \{더 이상 파고들지 마!
+
+Lisa/LisaAbomHev14
+\narr또 다른 벌레가 틈을 타서 파고들기 시작했다. 이 벌레들은 항문에서 풍기는 냄새에 매우 민감하다. 종족, 체형, 성별에 상관없이, 그들에게 중요한 건 오직 산란의 대상뿐이다.
+
+Lisa/LisaAbomHev15
+\c[4]리사：\c[0] \{그만해! 비켜! 내게서 떨어져!
+
+Lisa/LisaAbomHev16
+\c[4]리사：\c[0] \{안 돼! 누가... 나 좀... 제발 구해줘!!!!
+
+Lisa/LisaAbomHev17
+\c[4]리사：\c[0] \{안 돼! 싫어! 싫어!
+
+Lisa/LisaAbomHev18
+\c[4]리사：\c[0] \{나 죽기 싫어! ...살려줘!... 제발 누가 구해줘!
+
+Lisa/LisaAbomHev19
+\narr그들에게 리사의 비명은 공격 개시의 신호였다. 더 많고, 더 많은 벌레들이 리사의 여린 항문을 향해 몰려들기 시작했다.
+
+Lisa/LisaAbomHev20
+\narr벌레들이 파고들수록 리사의 배는 점점 불러왔다. 이젠 임산부처럼 부풀어 올랐다.
+
+Lisa/LisaAbomHev21
+\c[4]리사：\c[0] \{죽이지 마! 미안해! 엄마!
+
+Lisa/LisaAbomHev22
+\narr벌레의 독액이 점점 효과를 내기 시작했다. 처음엔 마치 간지러운 느낌뿐이었지만, 이젠 항문 속의 모든 고통이 점점 쾌락으로 바뀌어 가고 있었다.
+
+Lisa/LisaAbomHev23
+\c[4]리사：\c[0] \{이익?! 뭐가… 뭐가 온다?!
+
+Lisa/LisaAbomHev24
+\c[4]리사：\c[0] \{이이이이익!!
+
+Lisa/LisaAbomHev25
+\c[4]리사：\c[0] \{이이이이익—아아아악!!
+
+Lisa/LisaAbomHev26
+\c[4]리사：\c[0] \{으아아아악!!
+
+Lisa/LisaAbomHev27
+\c[4]리사：\c[0] \{\{이이이—아아아악!
+
+Lisa/LisaAbomHev28
+\c[4]리사：\c[0] 흐윽… 흐으으…
+
+Lisa/LisaAbomHev29
+\narr이 모든 게 리사에겐 너무 벅찼다. 온몸의 힘이 거의 다 빠져나가고 있었다.
+
+Lisa/LisaAbomHev30
+\c[4]리사：\c[0] 흐윽\..\..\..
+
+Lisa/LisaAbomHev31
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 리사! 무슨 일이야?!
+\SETpl[LisaSad]\Lshake\prf\c[4]리사：\c[0] 흐윽… 흐으으…
+\m[wtf]\plf\Rshake\c[6]로나：\c[0] 이익! 벌레가…!
+\m[serious]\plf\Rshake\c[6]로나：\c[0] 괜찮아! 내가 구해줄게!
+
+####################################--------------------- Minecave Hevent CONTROL
+
+Lisa/LisaAbomHev_Clear1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 무슨 일입니까!
+\m[confused]\plf\c[6]로나：\c[0] 어... 저기, 그녀가...
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 벌레가 뱃속에 들어가 버렸어요!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 뭐라고?! 큰일이네, 어서 그녀를 이쪽으로 옮겨!
+
+Lisa/LisaAbomHev_Clear2
+\m[terror]\plf\Rshake\c[6]로나：\c[0] 어... 어떡하죠?! 리사 괜찮을까요?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 적어도 아직 산란을 시작하진 않았어요.
+\m[shy]\plf\c[6]로나：\c[0] 산란? 뱃속에서요?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 산란하고, 피를 빨고, 숙주를 정신이상으로 만듭니다. 많은 노예들이 이래서 죽어요. 생산량에도 큰 영향을 줘요.
+\m[sad]\plf\c[6]로나：\c[0] 리사... 아직 살릴 수 있나요?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 한 번 산란이 시작되면 끝입니다. 그냥 놔두면 다른 사람도 감염시킬 수 있어서, 처리할 수밖에 없어요. \m[fear]\Rshake
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 그렇게 보지 마세요! 리사는 혼혈이지만 노예는 아니잖아요. 도울 수 있으면 최대한 돕겠습니다. \m[flirty]
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 노르 동문 근처에 새로 생긴 약국이 있어요. 이 감염용으로 만든 구충약이 있다고 하더군요. 이름이 아마\C[6]엘리스 산부인과\C[0]였던 것 같습니다.
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 요즘 약값도 비싸고, 우리도 재고가 없어요. 아니면「구충초」를 구해 오면 어느 정도 효과는 있을 겁니다.
+\m[serious]\plf\Rshake\c[6]로나：\c[0] 알겠어요! 최대한 빨리 구해올게요!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 조용히 해요! 저 벌레들이 숙주의 기력을 다 빨아먹으니, 리사는 지금 쉬게 해야 합니다.
+
+Lisa/LisaAbomHev_Clear3
+\board[구충제 구하기]
+구충제\i[208]\n 하나
+또는 구충초\i[206]\n 다섯 개를 준비해
+광산으로 돌아가 리사와 대화하세요.
+
+Lisa/LisaAbomHev_HealNoItem
+\SETpl[LisaSad]\Lshake\prf\c[4]리사：\c[0] 흐윽...
+
+Lisa/LisaAbomHev_WithItem1
+\m[serious]\plf\Rshake\c[6]로나：\c[0] 리사! 들려? 이거 얼른 먹어!
+
+Lisa/LisaAbomHev_WithItem2
+\SETpl[LisaSad]\PLF\prf\c[4]리사：\c[0] 흐윽... 언니...
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 괜찮아?
+\SETpl[LisaSad]\PLF\prf\c[4]리사：\c[0] 나...
+\SETpl[LisaSad]\PLF\prf\c[4]리사：\c[0] 나, 이 벌레들한테\..\..\..
+
+Lisa/LisaAbomHev_WithItem3
+\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] \{으아아아아아!!!!!
+\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] \{이이잉아아아!!
+\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] \{이이야아!!
+\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] \{흐흑...
+
+Lisa/LisaAbomHev_WithItem4
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 이제 괜찮아, 다 끝났어. 울지 마.
+\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] 흐으으윽...
+
+Lisa/LisaAbomHev_WithItem5
+\SETpl[LisaSad]\PLF\prf\c[4]리사：\c[0] 로나 언니...
+\m[confused]\plf\PRF\c[6]로나：\c[0] 울지 마, 내가 여기 있잖아.
+\SETpl[LisaSad]\PLF\prf\c[4]리사：\c[0] .........
+\SETpl[LisaTriumph]\Lshake\prf\c[4]리사：\c[0] 우리 가서 빵야빵야 고쳐오자!
+\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 이번엔 더 많은 빵야를 만들어서 저 벌레들 전부 날려버릴 거야!
+\m[triumph]\plf\Rshake\c[6]로나：\c[0] 그래, 가자!
+
+####################################--------------------- C130 Quest
+
+Lisa/C130_3_0
+\CamCT\m[flirty]\plf\c[6]로나：\c[0] 혹시… 화약 공급업자 맞으세요?
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 우리 집안이 원래 그쪽 일을 하긴 해.
+\CamCT\m[confused]\plf\c[6]로나：\c[0] 혹시 영주급 대포가 뭔지 알아?
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]리사：\c[0] 빵야빵야는 우리 집 작품 맞아.
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 왜? 너도 우리 조상님들이 지은 이름 촌스럽다고 생각해?
+\CamCT\m[flirty]\plf\c[6]로나：\c[0] 그게… 동쪽 초소에 있는 빵야빵야가 고장나서, 지금 고쳐줄 사람 찾는 중이야.
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 뭐야?! 지금 상태가 어때? 아직 작동은 돼?
+\CamCT\m[fear]\plf\Rshake\c[6]로나：\c[0] 에… 완전히 폭발해버렸어.
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]리사：\c[0] ……뭐?
+\CamCT\m[flirty]\plf\c[6]로나：\c[0] 내 생각엔, 자폭 스위치는 좀 덜 보이는 데다 두는 게 낫지 않을까 싶어.
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]리사：\c[0] \....\....
+\CamCT\m[fear]\plf\c[6]로나：\c[0] 그리고 보험장치 같은 것도 하나 더 달면 좋을 것 같고… 대부분의 병사들이 설명서를 안 읽더라고… 왜 그래?
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\Lshake\c[4]리사：\c[0] 빵야빵야는 내 디자인이야…
+\CamCT\m[sad]\plf\c[6]로나：\c[0] \..\..\..미안.
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\prf\Lshake\c[4]리사：\c[0] 알았어. 그 고장난 녀석 내가 고쳐줄게. 근데 지금 부품이 부족해서, 네 도움이 필요해!
+
+Lisa/C130_3_1board
+\CamCT\board[화포 수리]
+목표 : 동쪽 7번 초소의 영주급 405mm 대포를 수리하기
+의뢰인 : 리사
+기한 : 5일
+리사를 호위해 광산에서 고순도 결정광 10개\i[342]를 확보한 뒤, 동쪽 7초소로 이동해 수리를 진행하라.
+
+Lisa/C130_3_Accept
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 지금 노엘 마을 전체를 뒤져도 결정광은 구할 수 없다니까! 그리고 이번엔 정말 불순물 하나 없는 고순도 결정광이 꼭 필요해.
+\CamCT\m[flirty]\plf\c[6]로나：\c[0] 그런 건 집안 어른들한테 부탁하면 되잖아?
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 웃기는 소리! 다들 진작에 도망쳤다고!
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐? 진짜로?
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 나? 난 사생아야. 주인 영감이 하녀 강간해서 태어난 자식이지. 이 귀만 봐도 알겠지?\m[sad]
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 그렇게 걱정하는 표정 짓지 마! 나는 지금이 더 좋아! 완전히 자유니까!
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 자, 아무튼 대포 수리하려면 광산부터 가자! 결정광부터 챙겨야 해.
+\CamCT\m[flirty]\plf\c[6]로나：\c[0] 좋아, 따라갈게!
+
+Lisa/C130_3_2
+\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 빨리! 내 귀에 대포가 울부짖는 소리가 들린다구!
+
+Lisa/QuestLisa_1_1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 멈춰! 누구냐!
+\SETpr[LisaNormal]\plf\Rshake\c[4]리사：\c[0] 나야! 오랜만이네!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 혼혈 꼬마였구나, 정말 오랜만이야!
+\SETpr[LisaHappy]\plf\Rshake\c[4]리사：\c[0] 물건 좀 사러 왔어. 고순도 결정광 아직 남았어?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 이젠 못 구해. 광산이 계속 감염물 때문에 오염돼서, 지금 생산량으론 경비대 본부 쓸 것도 빠듯하다.
+\SETpr[LisaNormal]\plf\Rshake\c[4]리사：\c[0] 걱정 마! 우리가 직접 캐면 되지, 아무 문제 없어!
+\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]리사：\c[0] 옆에 있는 이 언니, 고수라니까? 이런 때에 혼자 다니는 사람 흔치 않지!
+\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]리사：\c[0] 괴물 뭐가 나오든 다 맡겨도 돼!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[0]광산 경비병：\c[0] 얘가? \..\..\..사람은 겉만 보고 모르는 거구나!
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에... 나 말하는 거야?!
+\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 괴물 처리, 언니한테 다 맡길게.
+\m[flirty]\plf\c[6]로나：\c[0] 어...
+
+Lisa/QuestLisa_1_board
+\board[고순도 수정 광석]
+로나는 고순도 수정 광석이 뭔지 잘 모른다.
+오직 리사만이 고순도가 무엇인지 알고 있다.
+수정 광석은 리사가 근처에 있을 때만 표시된다.
+
+Lisa/QuestLisa_2_done
+\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 수정 광석은 이제 충분해! 얼른 가자!
+\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 언젠가 이 벌레들을 꼭 다 날려버릴 거야!
+
+Lisa/QuestLisa_3_CP0
+\m[triumph]\plf\c[6]로나：\c[0] 대장님! 사람 데리고 왔어요!
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 잘했어!
+
+Lisa/QuestLisa_3_CP1
+\SETpl[LisaBereft]\Lshake\prf\c[4]리사：\c[0] 파붕파! 너 진짜 비참하게 망가졌구나!
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 왜 그래?! 못 고치는 거야?!
+\SETpl[LisaTriumph]\Lshake\prf\c[4]리사：\c[0] 농담하지 마!
+\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 내가 누군 줄 알아? 당연히 고칠 수 있지! 재료들 다 내놔!
+
+Lisa/QuestLisa_3_CP2
+\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 이제 내 쇼를 잘 봐! 파붕파를 새것처럼 만들어 줄 테니까!
+
+Lisa/QuestLisa_3_CP3_end
+\SETpr[LisaHappy]\SETpl[Lawbringer]\Rshake\plf\c[4]리사：\c[0] 끝! 이제 써봐도 돼. 내가 보장할게, 절대 문제 없어!
+\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 대단하군! 방금 받은 새 물건이랑 똑같아 보여.
+\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 훌륭해! 단순히 무기만 고친 게 아니라, 혼혈 아이한테 기초 기술까지 전수해줬잖아!
+\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 네 아버지도 널 자랑스러워하실 거야. 아무튼 가족분들께도 꼭 고맙다고 전해줘!
+\SETpr[LisaAngry]\Rshake\plf\c[4]리사：\c[0] \..\..\..\..
+\CamCT\m[shocked]\SETpl[LisaAngry]\plf\Rshake\c[6]로나：\c[0] 어... 어쨌든 우리 모두 정말 고마워!
+
+Lisa/QuestLisa_3_CP3_end1
+\SETpl[Lawbringer]\SETpr[LisaNormal]\Lshake\prf\c[4]포격관：\c[0] 수리비는 이 증명서를 들고 경비본부에 가서 직접 청구하면 돼.
+\SETpr[nil]\SETpl[LisaAngry]\prf\c[4]리사：\c[0] \..\..\..\SETpl[LisaTriumph]\Lshake최고다! 다 같이 빵야빵야 해보자고!
+\SETpl[Lawbringer]\m[normal]\Lshake\prf\c[4]포격관：\c[0] 자, 아무튼 두 분 모두 고마워요. 제가 이 친구는 직접 호위해서 돌려보낼게요. 그런데 아직 성함을 못 들었네요?
+\CamCT\m[pleased]\plf\Rshake\c[6]로나：\c[0] 저는 로나예요!
+
+####################################--------------------- LISA SouthFL quest
+
+SouthFL_11/begin
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 저기... 너한테 좀 부탁할 게 있는데.
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 로나, 뭐든지 그냥 말해! 네가 내 빵야빵야 살려줬으니까, 나도 너 도와줄게!
+
+SouthFL_11/begin_board
+\board[동쪽 7초소 호위]
+목표 : 리사를 동쪽 7초소까지 호위
+의뢰주 : 남문 야영지
+기한：#{$story_stats["HiddenOPT1"]}일
+리사를\c[4]동쪽 7초소\c[0]까지 호위한다.
+
+SouthFL_12/Joined0
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 시바리스 남쪽에 군인들이 뭐 영주 무슨 포가 필요하다고 하던데...
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 뭔 소리야! 그거 빵야빵야라고!
+\CBct[6]\m[confused]\plf\c[6]로나：\c[0] 아, 그래. 빵야빵야. 어쨌든 네 도움이 필요하대.
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 못 알아듣겠어! 좀 더 자세히 말해봐!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 아무튼 네 포가 유명해졌어! 나도 같이 유명해졌고, 사람들이 우리만 찾고 있어.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 빵야빵야가 제대로 활약할 수 있겠어. 우리 힘 합쳐서 저 빨간 고깃덩어리들 박살내자!
+\CBid[-1,8]\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]리사：\c[0] \..\..\..
+\CBid[-1,4]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 완전 짱인데!
+\CBct[20]\m[flirty]\plf\c[6]로나：\c[0] 뭐라고?
+\CBid[-1,3]\SETpl[LisaTriumph]\Lshake\prf\c[4]리사：\c[0] 나도 같이 갈게! 같이 저 고깃덩이들 때려부수자!
+\CBct[20]\m[pleased]\plf\c[6]로나：\c[0] 좋아, 같이 가자!
+
+####################################--------------------- LISA SouthFL quest on eastCP
+
+Lisa7/begin0
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 어... 안녕하세요, 또 뵙네요.
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 응? 너... 로나 맞지?
+\CBfE[20]\SETpr[LisaHappy]\plf\Rshake\c[4]리사：\c[0] 하이! 밥 먹었어?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 혼혈 꼬맹이도 왔구만?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 무슨 일이야? 지금 화약은 충분하고, 그 생선회들도 요즘은 조용한데.
+\CBct[8]\m[confused]\plf\c[6]로나：\c[0] 음... 남문 야영지의 군인들이 영주포를 옮겨 달라고 하더라고요.
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 거기 지금 흉물한테 공격당해서 상황이 좋지 않대요.
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 옮겨 달라고? 뭐라고?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 난 편지에서 포 얘기만 했지, 포를 넘긴다는 건 생각도 안 했어!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네? 뭐라고요?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 그냥 공짜로 얻으려고만 하지! 뭐라도 가져와서 바꾸라 그래!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 하지만 여기선 쓸 줄도 모르시잖아요... 여기 놔두는 것보다 쓸모 있는 곳에 두는 게 낫지 않나요?!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 모두 힘을 합쳐서 마물부터 물리쳐야 하는 거 아닌가요?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 순진하구만, 꼬맹이. 포는 전부 부대 자산이야. 시바리스 그 멍청이들은 항상 우리 걸 훔치려고 하지.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 자기네 고향 망했어도 여전히 앉아서 꿀만 빨 생각이지.
+\CBct[8]\m[sad]\plf\c[6]로나：\c[0] 저... 죄송해요...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 안 넘겨! 직접 오라 그래! 꼬맹이 둘이나 보내서 이런 걸 시키다니, 우리 노르 사람을 뭘로 보는 거야?!
+
+Lisa7/begin1
+\CBfE[20]\SETpr[LisaAngry]\plf\Rshake\c[4]리사：\c[0] 야야! 내 애 한 번도 안 써봤다는 거야?
+\CBfE[5]\SETpr[LisaAngry]\plf\Rshake\c[4]리사：\c[0] 내 위대한 빵빵이가 여기서 곰팡이나 쓸게 두겠다고?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 흥! 포가 네가 만든 거라도 절대 안 넘겨. 게다가 이건 쓸 줄 아는 사람도 없어.
+\CBfE[8]\SETpr[LisaAngry]\plf\Rshake\c[4]리사：\c[0] \..\..\..
+
+Lisa7/begin2
+\CBfE[20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 봐라! 언니, 그 남뭐시기 야영지에 포가 있던데?
+\CBct[8]\m[tired]\plf\c[6]로나：\c[0] 나... 나갈 때 얼핏 본 것 같아.
+
+Lisa7/begin3
+\CBfE[8]\SETpr[LisaAngry]\plf\Rshake\c[4]리사：\c[0] \..\..\..
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]리사：\c[0] 됐어, 내가 화력 통제 시스템은 떼어내고, 조작을 바보용 포로 바꿔줄게.
+\CBfE[20]\SETpr[LisaAngry]\plf\Rshake\c[4]리사：\c[0] 그럼 너희는 포 한 문 더 생기고, 나도 빵빵이가 제대로 활약하는 꼴 볼 수 있지.
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]리사：\c[0] 거기 가서 더 쎈 빵빵이 하나 개조해줄 거야!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 일반 포로 되돌린다 이 말이지? 우리도 쓸 수 있는 거?
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]리사：\c[0] 맞다구!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 좋아! 그렇게 하자.
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0] 짱이다!
+
+Lisa7/begin4
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0] 언니! 이것 좀 들어줘!
+\CBct[6]\m[flirty]\plf\c[6]로나：\c[0] 어? 그래!
+
+Lisa7/begin5
+\CBct[2]\m[confused]\plf\c[6]로나：\c[0] 이게... 뭐야?
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]리사：\c[0] 부품이지! 이것만 있으면 어떤 포든 빵빵이로 개조할 수 있어!
+\CBct[2]\m[flirty]\plf\c[6]로나：\c[0] 오호라?
+
+Lisa7/begin6
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 음, 솔직히 좀 마음에 안 들긴 한데, 니네가 여기 도와준 것도 있으니 이번만은 넘어가주지.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 가라, 행운을 빈다.
+\CBct[2]\m[confused]\plf\c[6]로나：\c[0] 어... 고마워?
+
+Lisa7/begin7
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0] 이제 어쩔까?
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 음.... 去\c[4]남문 야영지\c[0]로 갈까?
+\CBfE[3]\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0] 최고야!
+
+Lisa7/begin5_board
+\board[남문 야영지까지 호위]
+목표 : 리사를 호위하라
+의뢰주 : 남문 야영지
+기한：#{$story_stats["HiddenOPT1"]}일
+리사를 \c[4]남문 야영지\c[0]까지 호위하라.
+
+####################################--------------------- LISA SouthFL quest on eastCP
+
+Lisa8/Begin1
+\CBct[6]\m[flirty]\plf\c[6]로나：\c[0] 저기... 안녕하세요?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 너였구나! 살아 돌아온 거야?
+\CBct[2]\m[confused]\plf\c[6]로나：\c[0] 어... 살아...? 
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 옆에 있는 이 애는?
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0] 안녕! 나는\c[6]리사\c[0]! 폭발을 사랑하는\c[6]리사\c[0]!
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 뭐라고?
+\CBct[20]\m[confused]\plf\c[6]로나：\c[0] 얘가 그... 대포 만든 장인이에요.
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 그건 빵빵이야!
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 흠... 좋아, 그럼 대포는? 왜 내가 대포를 못 보는 거지?
+\CBct[6]\m[flirty]\plf\c[6]로나：\c[0] 어... 우리 둘이선 옮길 수가 없어요.
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 뭐?! 노르 쪽에서 협조를 해주기로 한 거 아니었나?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 왜 아직 힘을 합쳐 마물을 상대하지 않는 거지?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 이래서 언제 집을 되찾을 수 있겠나.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 잠깐만요, 화내지 마세요! 저쪽도 어인들에게 습격을 받았거든요.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 어인? 걔네들 벌써 섬에서 쫓겨난 거 아니었어?!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 미안해요! 그러니까... 이것저것 여러 사정이 있어서...
+
+Lisa8/Begin2
+\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] !!!!
+
+Lisa8/Begin3
+\CBid[-1,1]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 잠깐, 저 애는 지금 뭐 하는 거지?
+\CBct[6]\m[confused]\plf\c[6]로나：\c[0] 뭐...?
+
+Lisa8/Begin4
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 리사! 너 지금 뭐 하는 거야?!
+
+Lisa8/Begin5
+\CBfE[20]\SETpl[LisaTriumph]\Lshake\prf\c[4]리사：\c[0] 완성됐다!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 뭐야? 이게 도대체 뭐야? 내가 겨우겨우 구해온 대포를 왜 이렇게 엉망으로 만들어놨어?!
+\CBfE[20]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 파공파! 폭격의 예술이지, 천 리 밖의 적도 순식간에 날려버릴 수 있어!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 내 애기는 손가락만 까딱이면 머리통이 날아가, 백발백중이라고! 뭐 불만 있어?
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 안 돼! 당장 내 대포 원래대로 돌려놔! 아니면 너희 둘 다 목이 달아날 줄 알아!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 장관님! 잠깐만요, 진정하세요!!!
+\CBct[6]\m[terror]\plf\Rshake\c[6]로나：\c[0] 안전한 데서 시범 한 번 보여드릴게요! 개조된 위력이 어떤지 직접 확인해보세요!
+
+Lisa8/Begin6
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 흥! 따라와!
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 너희 말대로 정말 쓸모 있지 않으면, 각오해라.
+
+Lisa8/Begin7
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 후... 걱정 마세요. 절대 사고 안 나요, 리사 실력 믿으셔도 돼요.
+
+Lisa8/Begin8_board
+\board[포대 시험 발사]
+목표 : 리사 호위
+의뢰주 : 남문 야영지
+기한：#{$story_stats["HiddenOPT1"]}일
+리사를 \c[4]남문 야영지\c[0] 바깥의 방어진지까지 호위할 것.
+그리고 영주 뭐시기 대포의 강력함을 그 늙은이들한테 보여줘라.
+이제 새로운 시대가 왔으니, 어르신들의 시대는 끝났다는 걸 알게 해 줘라.
+
+####################################--------------------- LISA SouthFL quest on Warfare
+
+Lisa9/Begin0
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 왔는가?
+\CBct[6]\m[flirty]\plf\c[6]로나：\c[0] 네, 왔어요.
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 네가 그 강력하다는 위력, 어디 한번 보자고.
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 저 앞에 딱 좋은 쓰레기들이 있으니 시험해 봐라.
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 말로만 백발백중 말고, 직접 보여줘.
+\CBct[6]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 네! 바로 해볼게요!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 저 죽일 놈의 고깃덩어리들 다 날려버려!
+\CBfE[20]\SETpl[LisaNormal]\Lshake\prf\c[4]리사：\c[0] 내 실력 제대로 보여주자!
+\CBct[6]\m[serious]\plf\c[6]로나：\c[0] 문제없어! 내가 할 수 있어!
+
+Lisa9/Done0
+\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] \..\..\..
+\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 정말로... 저 아이 말대로군.
+\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0]당연하지! 내 파공파는 무적이라니까!
+\m[flirty]\plf\c[6]로나：\c[0] 후… 이제 이게 쓸모 있다는 거 증명된 거지?
+\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 음……
+
+Lisa9/NotYet
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 백발백중이라며? 한번 보여줘!
+
+Lisa10/Begin0
+\CBfE[5]\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0] 우리집 파공파 어때?
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 뭐?
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 아… 리사가 칭찬 듣고 싶대요.
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 음… 꽤 괜찮은데?
+\CBfE[3]\SETpr[LisaTriumph]\plf\Rshake\c[4]리사：\c[0] 짱이다!
+
+Lisa10/Begin1
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 정말 대단한 명중률이야. 하지만 우리 병사들이 이걸 익히려면 시간이 꽤 걸릴 거다.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 유감이지만… 우리에겐 그럴 시간이 없어.
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 그런가요…
+
+Lisa10/Begin2
+\CBmp[Guard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 잠깐! 모두 주목! 뭔가가 다가온다!?
+
+Lisa10/Begin3
+\CBmp[Guard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 사람이야! 생존자다!
+
+Lisa10/Begin4
+\CBmp[Refugee,6]\Lshake\prf\c[4]생존자：\c[0] 제발… 살려주세요!
+
+Lisa10/Begin5
+\CBmp[Refugee,6]\Lshake\prf\c[4]생존자：\c[0] 싫어! 죽기 싫어요!
+
+Lisa10/Begin6
+\CBmp[Refugee,6]\Lshake\prf\c[4]생존자：\c[0] 안 돼! 오지 마!
+
+Lisa10/Begin7
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 어... 그냥 저렇게 죽어버렸네...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 큰일이다, 저 뒤에 흉물들이 떼로 따라오고 있어.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 모두! 전투 준비해라!
+\CBmp[Guard,6]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 아직 죽기 싫은데....
+
+Lisa10/Begin8
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 이봐! 너!
+\CBct[2]\m[flirty]\plf\c[6]로나：\c[0] 네? 저요?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 그래, 바로 너야! 로나! 어서 그 포를 조작해!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네!
+
+Lisa10/Begin9
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 그리고, 너! 리사를 안전하게 요새 안으로 데려가라!
+\CBmp[Guard,3]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 예!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 싫어! 내 파공파가 활약하는 모습 보고 싶단 말이야!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 비전투 인원은 여기 있으면 방해만 돼. 당장 데리고 가라. 지금! 바로!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 안 가!
+
+Lisa10/Begin10
+\CBct[20]\m[flirty]\plf\c[6]로나：\c[0] 음... 리사, 사실 저기 야영지 망루에서 여기랑 도시 전체가 다 보여.
+\CBct[20]\m[confused]\plf\c[6]로나：\c[0] 너도 다시는 그런 일 겪고 싶진 않잖아?
+\CBfE[8]\SETpl[LisaSad]\Lshake\prf\c[4]리사：\c[0] \..\..\..
+\CBfE[20]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 알겠어, 바로 나갈게. 아, 언니도 진짜 조심해야 돼.
+\CBct[3]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 고마워, 난 괜찮을 거야.
+
+Lisa10/Begin10_board
+\board[적 발견 시 전원 섬멸]
+목표 : 모든 마물을 쓸어버려라
+의뢰주 : 포병 진지 백인 대장
+기한 : 지금!!!
+마물들에게 화약맛이 어떤지 보여줘라. 한 마리도 남기지 마!
+
+Lisa10/NotYet
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 흉물이 몰려온다! 빨리 움직여!
+
+Lisa11/Win0
+\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 우리가 살아남았다! 승자는 우리다!
+
+Lisa11/Lose0
+\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 젠장! 후퇴한다!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 저...저게 뭐야?!
+\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 용\..\..\..인가?
+
+Lisa12/begin0_Win
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 잘 해냈다. 이번 공격은 우리가 겪어본 것 중 가장 강력했지만, 네가 끝내 막아냈어.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 에... 그건 리사의 그 대포 덕분이죠...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 그래... 그런가?
+
+Lisa12/begin0_Lose
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 다들 옳았어... 난 믿었어야 했는데, 좀 더 일찍 믿었어야 했어!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 성자님, 부디 저를 용서하소서!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 뭐라고요?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 못 봤나?! 저건 성자야! 성자가 정화의 불길을 내린 거라고!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 네...?
+
+Lisa12/begin1
+\CBmp[Guard,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 대장님! 큰일 났습니다!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 뭐야? 무슨 일이야?
+\CBmp[Guard,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 길에서 마물들한테 습격당했어요! 그 아이를 잡아갔습니다!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?! 진짜?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 그래서 넌 혼자 살아 돌아온 거냐?
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 안 돼! 반드시 구해야 해! 늦으면 마물한테 동화돼 버릴 거라고!
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 내 잘못 아니에요! 내가 뭘 어쨌다고! 걔가 혼자 뛰쳐나간 거라구요!
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 한 번 마물 소굴에 끌려가면 살아 돌아올 수가 없습니다!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 어딘데! 어디로 데려갔는지 어서 말해!
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 북쪽이요! 성 안으로 끌고 갔어요! 가시려면 혼자 가세요!
+
+Lisa12/begin2_Win
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 새로 들어온 잡놈들이 원래 그래. 우리도 인원 빼줄 여유가 없어. 이거나 챙겨가.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 일단 야영지로 돌아가서, 가능하면 쓸 만한 사람 좀 고용해 봐.
+
+Lisa12/begin2_Lose
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인 대장：\c[0] 그녀의 목숨은 이제 성자님께 맡길 수밖에... 성자님께서 분명 구해주실 거다!
+
+Lisa12/begin3_Board
+\board[리사를 구출하라]
+목표 : 북쪽의 흉물 둥지로 가서 리사를 구한다.
+의뢰주 : 로나
+기한 : 3일
+리사가 흉물에게 잡혀갔다. 반드시 빨리 구해야 한다.
+병사 말로는 북쪽, 도시 안 어딘가에 있을지도?
+
+Lisa12/begin4
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 리사....
+
+Lisa10/QmsgFailed
+이곳을 벗어나면 임무가 실패합니다.
+
+###############################################################################################################################     Find lisa in hive 3
+###############################################################################################################################     Find lisa in hive 3
+###############################################################################################################################     Find lisa in hive 3
+
+Lisa12/Hive3_Bios
+\CBmp[Pant,19]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 이건... 리사의 바지잖아?
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 역시 여기 있었구나...
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 제발 아직 살아있기를...
+
+Lisa12/Hive3_Bios_board
+\board[리사 구출]
+목표 : 모판방으로 이동
+의뢰주 : 로나
+시간이 없다. 리사가 오래 버티지 못할 수도 있다. 서둘러야 한다.
+
+###############################################################################     HEV DEV AREA
+Lisa12/rg13_HEV0
+\narr오늘은 정말 기쁜 날이다. 흉물이 새로운 사냥감을 붙잡았다.
+
+Lisa12/rg13_HEV1
+\c[4]리사：\c[0] \{안 돼! 놓으라고!\}
+
+Lisa12/rg13_HEV1_1
+\narr싱싱한 숙주, 흉물는 그녀를 최고급 모판으로 만들기로 결정했다.
+
+Lisa12/rg13_HEV2
+\c[4]리사：\c[0] 다가오지 마! 나... 나 진짜 물 거야!
+
+Lisa12/rg13_HEV3
+\c[4]리사：\c[0] 으으으으으! 하지 마!
+
+Lisa12/rg13_HEV4
+\c[4]리사：\c[0] 으으으아아!!!
+
+Lisa12/rg13_HEV5
+\c[4]리사：\c[0] 안 돼! 거긴 만지지 마!
+
+Lisa12/rg13_HEV6
+\narr흉물의 촉수가 모판 안을 끊임없이 휘젓는다.
+\narr조심스럽게 체액을 조금 주입해 반응을 살핀다.
+\narrOFF\c[4]리사：\c[0] 으아아아악!!! 싫어, 이제 진짜 그만해! 멈추라고!
+\narr녀석들은 이 아이가 완벽한 모판이 될 거란 사실을 확신했다.
+
+Lisa12/rg13_HEV7
+\c[4]리사：\c[0] \...\..\...!!!!!!!
+\Rshake\c[4]리사：\c[0] 너희들... 제발, 거긴 건들지 마!
+
+Lisa12/rg13_HEV8
+\c[4]리사：\c[0] \{아아아?! 
+\Rshake\c[4]리사：\c[0] 으아아아!!!\n \{안 돼! 안 돼, 하지 마!!
+
+Lisa12/rg13_HEV9
+\c[4]리사：\c[0] \{아파! 제발 더는 들어오지 마!
+\narr흉물는 모판의 울부짖음엔 전혀 신경 쓰지 않는다.
+오히려, 소리가 클수록 숙주가 건강하단 증거다.
+
+Lisa12/rg13_HEV10
+\c[4]리사：\c[0] \{이이이이익!!!
+
+Lisa12/rg13_HEV11
+\c[4]리사：\c[0] 흐윽... 이제 진짜 끝인가 봐, 나 이제 못 버틸 것 같아...
+\narr흉물이 엄청난 양의 배양액을 리사 몸 안에 쏟아붓는다.
+
+Lisa12/rg13_HEV12
+\c[4]리사：\c[0] \{이익!!
+\Rshake\c[4]리사：\c[0] 그만둬!!!!!!!
+
+Lisa12/rg13_HEV13
+\narr모판은 점차 모든 감각을 잃어간다. 욕정만 남고, 이 아이 역시 예외는 아니다.
+\narr아직 완전히 개조되기 전, 새 모판은 오직 고통만이 전부다...
+\narr물론 흉물는 그런 것엔 신경조차 쓰지 않는다.
+\narr녀석들은 개조 작업을 더욱 서두르기로 했다.
+
+Lisa12/rg13_HEV14
+\c[4]리사：\c[0] 너희들... 어디까지 파고들 셈이야? 이제 그만해!
+
+Lisa12/rg13_HEV15
+\c[4]리사：\c[0] \{으아아아\}으아\}아아악...!
+
+Lisa12/rg13_HEV16
+\c[4]리사：\c[0] \{끄윽... 꺽...!
+
+Lisa12/rg13_HEV17
+\c[4]리사：\c[0] 윽... 끄윽... 꺽...
+\narr흉물의 촉수가 리사의 뒷구멍에서 식도를 타고, 입 밖으로 튀어나온다.
+\narr모판은 참을 수 없는 고통에 결국 의식을 잃어버린다...
+\narr하지만 진짜 개조는 이제부터가 시작이다...
+
+###############################################################################     Hev end
+
+Lisa12/rg13_end
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] !!!!!
+
+Lisa12/triggerHer0
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] \c[4]리사\c[0]!? 괜찮아?!
+\CBid[-1,8]\prf\c[4]리사：\c[0] 흐으윽......
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 으으... 너무 끔찍해...
+
+Lisa12/triggerHer0_board
+\board[리사 호위 탈출]
+목표：리사를 데리고 마물의 둥지에서 빠져나가기. 리사는 반드시 출구 근처에 있어야 한다.
+의뢰주：로나
+기한：#{$story_stats["HiddenOPT1"]}일
+리사를 드디어 찾았지만, 상태가 심각하다. 몸 곳곳에 기생 흔적이 남아 있다.
+지체할 시간이 없어! 반드시 지금 바로 데리고 나가야 한다!
+
+Lisa12/triggerHer1
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 걱정 마, 언니가 꼭 데리고 나갈게.
+\CBid[-1,8]\prf\c[4]리사：\c[0] ......
+
+Lisa13/triggerHer0
+\CBct[1]\m[terror]\plf\Rshake\c[6]로나：\c[0] \{\c[4]리사\c[0]！？
+
+Lisa13/triggerHer1
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] ............
+\CBct[8]\m[tired]\plf\Rshake\c[6]로나：\c[0] .....
+\CBct[6]\m[sad]\plf\Rshake\c[6]로나：\c[0] 미안해... 내가 너무 늦었어......
+
+Lisa13/Qmsg0
+모판이 된 리사
+
+Lisa13/Qmsg1
+둥지의 일부
+
+Lisa13/Qmsg2
+미안해....
+
+Lisa14/LisaNotInR50
+리사가 출구 근처에 있어야 합니다!
+
+Lisa14/CommonConvoyTarget0
+\CBid[-1,8]\c[4]리사：\c[0] ............
+
+Lisa14/CommonConvoyTarget1
+\CBid[-1,8]\c[4]리사：\c[0] ........
+
+Lisa14/CommonConvoyTarget2
+\CBid[-1,8]\c[4]리사：\c[0] ....
+
+Lisa15/ExitHive3
+\m[tired]\plf\PRF\c[6]로나：\c[0] 우리 결국 빠져나왔어, 넌 분명 괜찮아질 거야...
+\c[4]리사：\c[0] ....
+
+Lisa15/begin0_board
+\board[엘리스를 찾아라]
+목표 : 리사를 엘리스 산부인과까지 호위하기
+의뢰주 : 로나
+기한：#{$story_stats["HiddenOPT1"]}일
+리사를 치료할 수 있는 뛰어난 의사를 꼭 찾아야 해.
+시간이 없어. 지금 당장 움직여야 해.
+
+###############################################################################################################################     Lisa to Elise
+###############################################################################################################################     Lisa to Elise
+###############################################################################################################################     Lisa to Elise
+
+Lisa16/ElisaTalk0
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]엘리스：\c[0] 헤이! 언니 왔구나, 엘리스가 언니한테 할 말이 있었는데.
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] \c[4]엘리스\c[0]! 제발 도와줘! 얘 좀 살려줘!
+\CBid[-1,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]엘리스：\c[0] 에? 엘리스 얘기 좀 듣고 나서...
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 빨리! 할 얘기는 나중에 해!
+
+Lisa16/ElisaTalk1
+\narr\.....\.....\.....
+
+Lisa16/ElisaTalk2
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 정말 괜찮은 거야? 몸이 이렇게까지 심하게 좀먹혔는데...
+\CBid[-1,3]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]엘리스：\c[0] 별거 아냐! 이런 건 엘리스에게 식은 죽 먹기지!
+\CBid[-1,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]엘리스：\c[0] 하지만...
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 뭐야? 하지만 뭐?!
+\CBid[-1,6]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]엘리스：\c[0] 뇌까지 감염됐거든. 치료비가 엄청나게, 정말 엄청나게 많이 들 거야!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 나... 나 어떻게든 마련할게! 얼마든 다 줄 테니까!
+\CBid[-1,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]엘리스：\c[0] 언니, 걱정 마. 이거 언니한테 줄게.
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 나한테? 뭔데...?
+
+Lisa16/ElisaTalk3_berY
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]엘리스：\c[0] 전에 줬던 약 기억나지? 이건 양산 테스트용 샘플이야. 위험할 때 꼭 먹어!
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 나... 이거 먹으면 죽는 거 아니지?
+\CBid[-1,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]엘리스：\c[0] 걱정 마! 엘리스가 생명의 비밀을 다 밝혀냈거든! 마지막 관문도 완전히 풀었어.
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]엘리스：\c[0] 언니는 그냥 쓰고 난 다음 느낌만 꼭 엘리스한테 알려주면 돼.
+
+Lisa16/ElisaTalk3_berN
+\CBid[-1,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]엘리스：\c[0] 이게 바로 엘리스가 새로 만든 신약이야! 위험하면 꼭 먹어!
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]엘리스：\c[0] 그리고 먹고 나서 어땠는지 알려줘!
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 알았어! 꼭 먹을게!
+
+Lisa16/ElisaTalk4
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]엘리스：\c[0] 언니는 꼭 살아남을 거야. 언니라면 무조건 괜찮아질 거니까!
+
+Lisa16/ElisaTalk5
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 이제... 이제 어떻게 해야 하지......
+
+Lisa16/Check0
+\CBid[-1,8]\m[sad]\prf\c[4]리사：\c[0] .......
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] ......
+
+Lisa16/Check1
+\CBid[-1,8]\m[tired]\prf\c[4]리사：\c[0] ......
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] ......
+
+Lisa16_17/StillThere0
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 저기... 리사는 지금 어때?
+
+Lisa16_17/StillThere1_0
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]엘리스：\c[0] 조용히 좀 해! 얌전히 기다려!
+
+Lisa16_17/StillThere1_1
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]엘리스：\c[0] 진짜 귀찮아! 언니가 직접 물어보면 되잖아!
+
+Lisa16_17/StillThere1_2
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]엘리스：\c[0] 의사 재촉하지 마!
+
+Lisa16_17/StillThere2_2
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 미안......
+
+Lisa16_17/NotThere0
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]엘리스：\c[0] 젠장! 당첨도 안 됐다니...
+\CBmp[elise,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]엘리스：\c[0] 이렇게까지 노력했는데 겨우 이런 거밖에 못 받다니!
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]엘리스：\c[0] 화! 나! 화! 나!
+
+Lisa16_17/NotThere1
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 저기\..\..\..
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]엘리스：\c[0] 걘 이미 떠났어!
+\CBct[8]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 죽었다고?! 너, 무슨 짓 한 거야?!
+\CBid[-1,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]엘리스：\c[0] 엘리스가 어떻게 알아, 어디 간 건지! 치료 끝났으니 그냥 나간 거지.
+\CBct[8]\m[terror]\plf\Rshake\c[6]로나：\c[0] 뭐라고?! 어디로 갔는데?
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]엘리스：\c[0] 자기가 알아서 간 거라니까! 나머진 엘리스도 몰라!
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 흐으....
+
+Lisa18_19/InMarket0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 리사! 괜찮은 거야?
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 난 네가…… 정말……
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]리사：\c[0] 언니, 누구세요?
+\CBct[8]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐...? 나, 나는……
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] ……그래, 뭐. 이게 더 나을 수도 있지.
+\CBid[-1,5]\SETpl[LisaAngry]\Lshake\prf\c[4]리사：\c[0] 뭐라는 거야!
+
+##--------------------------------------------------------------------------------------
+
+Lisa/dead
+\narr리사가 죽었다!

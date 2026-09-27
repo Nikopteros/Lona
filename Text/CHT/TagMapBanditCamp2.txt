@@ -1,0 +1,214 @@
+thisMap/OvermapEnter
+廢棄銅礦鎮。\optB[沒事,進入]
+
+######################################################################################################
+
+GateOnGuard/Qmsg0
+不可能
+
+GateOnGuard/Qmsg1
+有人看著呢
+
+###################################################################################################### game over
+
+GameOver/begin0
+\C[4]野盜A：\C[0]    我靠！ 這母豬居然敢亂來！
+\C[4]野盜B：\C[0]    \{宰了她！！！\}
+
+GameOver/begin1
+\C[4]野盜A：\C[0]    接下來怎麼辦？
+\C[4]野盜B：\C[0]    手腳我們留著，內臟給\C[6]波波\C[0]吃？
+\C[4]野盜A：\C[0]    好主意，就這麼辦！
+
+GameOver/begin0_noBobo
+\C[4]野盜A：\C[0]    我認得這頭母豬！ 之前就是她進來搗亂的！
+\C[4]野盜B：\C[0]    我幹！ 是她？！ \{宰了她！！！\}
+
+GameOver/begin1_noBobo
+\C[4]野盜A：\C[0]    接下來怎麼辦？
+\C[4]野盜B：\C[0]    手腳我們留著，內臟給老大吃？
+\C[4]野盜A：\C[0]    好主意，就這麼辦！
+
+######################################################################################################
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    是女人！
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什麼！ 你們要做什麼！？
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    把他抓起來！
+
+Wake/FirstRape0
+\CBmp[guard1,20]\C[4]野盜：\C[0]    老大，這婊子在這鬼鬼祟祟的。
+\CBmp[guard2,20]\C[4]野盜：\C[0]    怎麼處置她！
+
+Wake/FirstRape1
+\CBmp[Boss,8]\C[4]野盜頭子：\C[0]    婊子？ 我看看...
+
+Wake/FirstRape2
+\CBmp[Boss,5]\C[4]野盜頭子：\C[0]    把他丟給\C[6]波波\C[0]。
+\CBmp[guard2,20]\C[4]野盜：\C[0]    什麼！！！
+\CBmp[guard1,20]\C[4]野盜：\C[0]    這是女人耶，至少讓我們玩一下吧？
+\CBmp[Boss,20]\C[4]野盜頭子：\C[0]    這是我的王國！ 我說的算！
+\CBmp[Boss,5]\C[4]野盜頭子：\C[0]    膚色這麼黑，這婊子的血統絕對受過各種賤畜的汙染。
+\CBmp[Boss,20]\C[4]野盜頭子：\C[0]    丟給\C[6]波波\C[0]，現在，馬上！
+\BonMP[guard1,20]\BonMP[guard2,20]\C[4]野盜：\C[0]    是！
+
+Wake/FirstRape3
+\CBct[6]\m[bereft]\Rshake\c[6]洛娜：\c[0]    放我走吧，求求你們！
+\CBmp[guard1,20]\prf\C[4]野盜：\C[0]    臭婊子！ 進去！
+
+Wake/FirstRape4
+\CBmp[guard1,20]\prf\C[4]野盜：\C[0]    老大對妳沒興趣。
+\CBmp[guard1,20]\prf\C[4]野盜：\C[0]    恭喜妳，妳要成為\C[6]波波\C[0]的食物了！
+
+Wake/FirstRape5
+\CBct[2]\m[fear]\Rshake\c[6]洛娜：\c[0]    \C[4]波波\C[0]？？ 食物？！
+
+Wake/FirstRape6
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{咿咿咿咿！！\}
+
+Wake/FirstRape7
+\CBct[20]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不要！ 不要吃我！ 我不想死！
+
+Wake/FirstRape8
+\BonMP[guard1,20]\plf\BonMP[guard2,20]\prf\C[4]野盜：\C[0]    吃了她！
+\CBct[8]\m[pain]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚...
+
+Wake/FirstRape9
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]洛娜：\c[0]    不要聞我那裡....
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]洛娜：\c[0]    我的肉不好吃啊！
+
+Wake/FirstRape10
+\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    咿咿\{咿啊！！\}
+
+Wake/FirstRape11
+\CBmp[guard1,20]\prf\C[4]野盜：\C[0]    什麼？！\C[6]波波\C[0]居然上了她？！
+\CBmp[guard2,20]\prf\C[4]野盜：\C[0]    快去叫大家來！ 奇蹟發生了！ \C[6]聖徒\C[0]降臨了！
+
+Wake/FirstRape12
+\CBmp[guard4,20]\plf\prf\C[4]野盜：\C[0]    哇，不是吧？ 牠居然上了這個女人！
+\CBct[6]\m[hurt]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚嗚...
+
+Wake/FirstRape12_1
+\CBmp[guard1,20]\plf\C[4]野盜：\C[0]    哈哈哈哈，這個超好笑的。
+\CBmp[guard1,20]\plf\C[4]野盜：\C[0]    看來\C[6]波波\C[0]把她當成母豬了。
+
+Wake/FirstRape13
+\narr\C[4]波波\C[0]的陽具插進了\c[6]洛娜\c[0]的子宮，並在內不斷的攪和。
+\narrOFF\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]洛娜：\c[0]    \{咿咿！！\} 好痛！ 好痛啊！
+
+Wake/FirstRape14
+\SndLib[SwineSpot]\SETpl[BoboNormal]\Lshake\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]洛娜：\c[0]    \{停下來！！ 快停下來！\}
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\BonMP[Piggy,4]\m[p5_cuming_ahegao]\Rshake\c[6]洛娜：\c[0]    \{肚子要撐破了！\}
+\narr對\C[4]波波\C[0]來說這種射精僅僅是開始而已，牠的高潮將會持續很久很久。
+
+Wake/FirstRape15
+\CBmp[Boss,8]\C[4]野盜頭子：\C[0]    \...\...\...
+\CBmp[Boss,20]\C[4]野盜頭子：\C[0]    看來我的\C[6]波波\C[0]也認定她是頭賤畜。
+\CBmp[Boss,5]\C[4]野盜頭子：\C[0]    果然賤畜就是豬。
+
+Wake/FirstRape15_1
+\C[4]野盜：\C[0]    我這輩子第一次見到被豬上的婊子。
+\C[4]野盜：\C[0]    所以她不是婊子，她是隻豬！
+\C[4]野盜：\C[0]    下次讓其他人也來觀摩觀摩。
+
+Wake/FirstRape16
+\narr洛娜在野盜們的嘲笑聲中失去了意識。
+
+######################################################################################################
+
+RapeLoop/DailyJob1
+\BonMP[guard1,5]\C[4]野盜：\C[0]    母豬，給我起來！
+\BonMP[guard2,5]\C[4]野盜：\C[0]    \{快點醒來！\}
+
+RapeLoop/DailyJob2
+\CBct[6]\m[tired]\Rshake\c[6]洛娜：\c[0]    嗚嗚... 怎麼了....
+
+RapeLoop/DailyJob3_Vag
+\CBmp[guard3,4]\C[4]野盜：\C[0]    我們要看母豬怎麼與公豬交配♥
+
+RapeLoop/DailyJob3_Anal
+\CBmp[guard4,4]\C[4]野盜：\C[0]    我們要看母豬怎麼與公豬肛交♥
+
+RapeLoop/DailyJob3_Mouth
+\CBmp[guard3,4]\C[4]野盜：\C[0]    我們要看母豬幫公豬吹喇叭♥
+
+RapeLoop/DailyJob3_RimJob
+\CBmp[guard2,4]\C[4]野盜：\C[0]    我們要看母豬幫公豬舔屁眼♥
+\CBmp[guard1,4]\C[4]野盜：\C[0]    對！ 妳不是母豬嗎？ 幫牠把屁眼清乾淨！
+
+RapeLoop/DailyJob3_Dance
+\CBmp[guard1,4]\C[4]野盜：\C[0]    喂！母豬！ 醒來！ 去把你的丈夫叫醒！
+
+RapeLoop/DailyJob4
+\CBmp[guard4,5]\prf\C[4]野盜：\C[0]    快點！ 不然妳就死定了！
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    我....
+\CBmp[guard1,4]\prf\C[4]野盜：\C[0]    快！ 我們等母豬妳的表演呀♥
+
+####################################################### common
+
+RapeLoop/DailyJob_PlayBegin0
+\CBct[8]\m[fear]真的要做嗎......\optB[算了,決定]
+
+RapeLoop/DailyJob_PlayBegin1
+\CBct[8]\PLF\m[sad]我是不得已的...
+
+RapeLoop/DailyJob_EndRng0
+\plf\C[4]野盜：\C[0]    哈哈哈哈♥
+
+RapeLoop/DailyJob_EndRng1
+\C[4]野盜：\C[0]    嘻嘻嘻♥
+
+RapeLoop/DailyJob_EndRng2
+\C[4]野盜：\C[0]    喂！ 學豬叫兩聲來聽聽♥
+
+RapeLoop/DailyJob_EndRng3
+\C[4]野盜：\C[0]    母豬怎麼叫啊♥
+
+RapeLoop/DailyJob_EndRng4
+\C[4]野盜：\C[0]    看看她的樣子，這不是人！ 是豬啊♥
+
+RapeLoop/DailyJob_EndRng5
+\C[4]野盜：\C[0]    嘓！嘓！嘓！ 快腳兩聲給爺聽聽♥
+
+RapeLoop/DailyJob_EndRng6
+\C[4]野盜：\C[0]    哈哈哈哈，太有趣了♥
+
+RapeLoop/DailyJob_EndRng7
+\C[4]野盜：\C[0]    好臭的母豬！
+
+RapeLoop/DailyJob_EndRng8
+\C[4]野盜：\C[0]    居然還有臉活著！
+
+RapeLoop/DailyJob5
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    又... 還想要嗎？
+
+RapeLoop/DailyJob6
+\CBct[8]\m[hurt]\PRF\c[6]洛娜：\c[0]    拜託你...溫柔點...
+
+RapeLoop/DailyJob7
+\CBct[8]\plf\c[6]洛娜：\c[0]    嗚嗚...
+
+RapeLoop/DailyJob9
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    .....
+
+####################################################### mouth
+
+RapeLoop/DailyJob_PlayMouth0
+\narr \c[6]洛娜\c[0]將螺旋狀的陽具放到了她的小嘴中吸唇...
+
+RapeLoop/DailyJob_PlayAnal0
+\narr \c[6]洛娜\c[0]將螺旋且粗大的陽具放到了她的尻穴中...
+
+RapeLoop/DailyJob_PlayRimJob0
+\narr \c[6]洛娜\c[0]將舌頭伸進了豬豬骯髒的屁眼內...
+
+RapeLoop/DailyJob_PlayRimJob1
+\CBct[8]\m[p5sta_damage]\Rshake 好臭，好想吐，我快受不了了...
+
+RapeLoop/DailyJob_PlayRimJob2
+\CBmp[guard1,4]\C[4]野盜：\C[0]    喂！ 牠蛋蛋上的屎也給我舔乾淨！
+
+RapeLoop/DailyJob_PlayDance0
+\CBct[8]\m[shy]\PRF\c[6]洛娜：\c[0]    好的，牠醒了....
+\CBmp[guard4,4]\prf\C[4]野盜：\C[0]    然後跳支舞給你爹爹們瞧♥
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    是...

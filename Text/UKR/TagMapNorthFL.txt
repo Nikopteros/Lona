@@ -1,0 +1,199 @@
+thisMap/OvermapEnter
+\m[confused]Соляна ферма Північного Моря\nСолдатські Казарми \optB[Скасувати,Увійти]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]Увійти на ринок? \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Обдурити<r=HiddenOPT2>]
+
+Exit/Escaped
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] УВАГА ВСІМ! РАБ ЗБІГ!
+
+comBoard/v0
+\board[Не переживай!]
+Всі члени вашої родини у безпеці.
+Про ваших родичів та друзів подбають.
+Святий упокоїть вашу душу в Залі Доблесті.
+
+Guard/beginRNG0
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Вони обдурили мене, моя сім'я продана...
+
+Guard/beginRNG1
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Якщо я піду в кімнату відпочинку та обійму жінку - мені стане легше.
+
+Guard/beginRNG2
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Люди вмирають щодня, і так триватиме...
+
+Guard/beginRNG3
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Дівчина?!
+
+Guard1/Com0
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Чого ти так боїшся? Як тільки ми знімемо одяг, хто може сказати, солдати ми чи біженці?
+
+Guard1/Com1
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] А тут не так погано, іноді можна знущатися з цих проклятих жебраків. Нам нічого не зроблять, навіть якби ми їх убивали.
+
+Guard2/Com0
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Я не хочу вмирати! Коли мене відправлять на фронт?
+
+Guard2/Com1
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Ще позавчора ми з другом трахали цю дівку, а сьогодні я почув, що він пішов у товариство Святих.
+
+Guard3/Com0
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Хехе! ♥ Дівчина, з якою ми вчора грали, справді мила.
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Шкода, що всі не вміють цим дорожити.
+
+Guard3/Com1
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Хе-хе ♥ Я чув, що сьогодні прийде нова жінка.
+
+Guard4/Com0
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Насправді... ця жінка - моя сестра...
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Так... Я теж трахнув свою сестру... а потім задушив її голими руками...
+
+Guard4/Com1
+\CBid[-1,20]\prf\c[4]Стражник：\C[0] Святий... Я грішний...
+
+#################################################################### SGT
+
+SGT/else_common
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]Центуріон：\C[0] Ти щось хотіла?
+
+SGT/RecQuestNorthFL0_Main_begin0
+\CBct[6]\m[flirty]\PRF\c[6]Лона:\C[0] Не могли б ви...
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Ах! Це ти?
+\CBct[6]\m[confused]\PRF\c[6]Лона:\C[0] Я?
+
+SGT/RecQuestNorthFL0_Main_begin1_slave
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Ти..\..\..Повія? Чи рабиня?
+
+SGT/RecQuestNorthFL0_Main_begin1_basic
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Ти..\..\..Жінка? Ще дитина?
+
+SGT/RecQuestNorthFL0_Main_begin2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Ха-ха. Забудь.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Слухай, у мене є для тебе дещо.
+
+SGT/RecQuestNorthFL1_Main_begin0
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Іди на південь, до \c[6]Південного Складу 12\C[0] і знищи всі документи в підвалі.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Будь ти служницею або рабинею, все, що тобі належить, буде віддано тобі після закінчення роботи.
+
+SGT/RecQuestNorthFL1_QuBoard
+\board[Знищення документів]
+Завдання: Знищити документи на Південному Складі
+Нагорода:Великий Медяк х3\i[582] Медяк х5\i[583]
+Клієнт：Нижчий клас не повинен ставити занадто багато запитань
+Повторюваність：Многоразове
+Великі хлопці на Південному березі просять спалити документи у підвалі зернового бункера Південного складу 12.
+Про це ніхто не повинен знати.
+Не варто ставити занадто багато питань, просто зробіть так, як потрібно.
+
+SGT/RecQuestNorthFL1_accept
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Добре... Дайте це мені.
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Звідси приблизно півдня в дорозі на південний схід до зернового Південного Складу 12.
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Приступай.
+
+SGT/RecQuestNorthFL1_no
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона:\C[0] Я\..\..\..\Rshake\m[wtf] Насправді я просто проходила мимо.
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Що? Тебе не надіслали Великі Хлопці?
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Лона:\C[0] \{Ні!
+
+################################# return QU 3
+
+SGT/RecQuestNorthFL3_begin0
+\CBid[-1,2]\SETpl[GreenWarriorLeader]\Lshake\c[4]Центуріон：\C[0] Це ти?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\c[4]Центуріон：\C[0] Всі ці документи були знищені, так?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Лона:\C[0] Все знищено.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Дуже добре, все-таки все ще найкраще це найняти хорошого найманця.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Еммм... Взагалі-то я просто проходила повз.
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Центуріон:\C[0] \..\..\..\Lshake \{Проходила повз?!
+
+SGT/RecQuestNorthFL3_begin1
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Чому ти не сказала мені раніше? А що щодо людини, яку я знайшов?
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] Не знаєте що з ним? Здається, його було вбито демоном дорогою. І потім, зрештою, Оркоїди всюди.
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Центуріон：\C[0] \..\..\..
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Центуріон：\C[0] Гаразд, неважливо, тримай.
+
+SGT/RecQuestNorthFL3_begin2
+\CBct[3]\m[flirty]\PRF\c[6]Лона:\C[0] Дякуючки ♫
+
+################################# return QU 4
+
+SGT/RecQuestNorthFL_Common
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\PLF\prf\c[4]Центуріон:\C[0] Що? Чому ти все ще тут?
+
+SGT/RecQuestNorthFL_Common1
+\CBct[6]\m[confused]\PRF\c[6]Лона:\C[0] Е-е...
+
+SGT/OPT_Salt
+Сіль
+
+SGT/Ans_about_1_0
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Хмм\..\..\..Ти заслуговуєш на довіру, і той факт, що тобі вдалося повернутися, говорить про твою силу.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Емм.... Дякую?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Знаєш, чому це єдине місце, де немає демонів?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Водорості обдурили всіх солдатів навіть незважаючи на те, що вони ніяк не озброєні.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Прибережну Фортецю теж не можна назвати неприступною, але все ж жоден демон не зможе наблизитися до неї.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Всі кажуть, що це заступництво Святих і захист Морської Відьми.
+\CBid[-1,5]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Це не так!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] А знаєш, у чому насправді справа? Я нарешті зрозумів це після того, як ти опинилась тут!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] \{Справа в \c[6]солі\C[0]!
+
+SGT/Ans_about_1_1
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ем? У \c[6]солі：\C[0]?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Ці демони бояться солі!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е-е\..\..\..Хмм?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Тут Соляна Рівнина! Які можуть бути варіанти?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Я розробив кілька планів на цей рахунок: чи то зеленошкірі чи червоношкірі, чи зло, що стоїть за ними, вони будуть знищені!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] А тепер великі шишки зверху хочуть, щоб ми відступили?! Це просто безглуздо!
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] .........
+
+SGT/RecQuestNorthFL4_info
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Емм... Я можу щось зробити?
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] \..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Так вийшло, що у мене не вистачає людей.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Неподалік села \c[6]Перранвей\C[0] на сході є група найманців, які працюють на мене.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Якщо вони ще живі, передайте їм цей лист і скажіть, щоб вони поверталися.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Оу? Це все?
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Так, саме так.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Їх слабкості більше не секрет, і наступний необхідний крок - контратака!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Звучить просто, що думаєш?
+
+SGT/RecQuestNorthFL4_brd
+\board[Доставити лист]
+Завдання:Доставити лист до табору найманців біля \c[6]Села Перранвей\C[0].
+Нагорода：Великий Медяк х1\i[582]
+Клієнт：Центуріон Прибережної Фортеці
+Повторюваність：Одноразове
+Ось так! Ось і все! Доставте їм листа.
+
+SGT/RecQuestNorthFL4_opt_no
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Еее... Я мабуть відмовлюся.
+
+SGT/RecQuestNorthFL1_opt_accept
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Добре, я візьмуся за це.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Поспішай і я стану героєм, який рятує світ як Святі!
+
+################################# return QU 101
+
+SGT/RecQuestNorthFL101_done0
+\CBct[20]\m[flirty]\PRF\c[6]Лона:\C[0] Здравствуйте... Я доставила ваш лист.
+\CBid[-1,4]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] О! Чудово!
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] Вони повинні бути щасливі, що змогли зробити свій внесок у порятунок світу, чи не так?
+
+SGT/RecQuestNorthFL101_done1_alive
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Е-е... Не те що б.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Напевно, він був дуже злий і назвав мене недоумком?
+
+SGT/RecQuestNorthFL101_done1_dead0
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] Загалом... Вони всі мертві.
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон:\C[0] \{ЧОГО?!
+
+SGT/RecQuestNorthFL101_done1_dead1
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона:\C[0] У мене вийшло дістатися їхнього табору, але незабаром на мене напали мерзенні Оркоїди.
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\C[0] Вони вбили Капітана.
+
+SGT/RecQuestNorthFL101_done2
+\CBid[-1,8]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Еее\..\..\..
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Це не те, що \c[6]Він\C[0] сказав, чи не так?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] \c[4]Він:\C[0]?
+
+SGT/RecQuestNorthFL101_done3
+\CBid[-1,20]\SETpl[GreenWarriorLeader]\Lshake\prf\c[4]Центуріон：\C[0] Забудь про це. Ти це заслужила. Тримай.

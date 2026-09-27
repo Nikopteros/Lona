@@ -1,0 +1,524 @@
+
+
+############################## pointed Ending ########################################
+
+bat/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash Тьма содрогается от визга - тучи летучих тварей впиваются в плоть Лоны...
+\SndLib[sound_combat_hit_gore]\Rflash Их клыки рвут кожу, скребут по костям, упиваясь тёплой кровью...
+\SndLib[sound_combat_hit_gore]\Rflash Они малы - не могут пожрать целиком, лишь отрывают кусочек за кусочком, оставляя её в сознании...
+\SndLib[sound_combat_hit_gore]\Rflash Час. Целый час. Она дергается в их клубке, хрипит, чувствует, как кишки сползают на землю - и только тогда тьма наконец забирает её...
+undead/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash Нежить обступила тело Лоны.
+\SndLib[sound_combat_hit_gore]\Rflash Их гнилые зубы рвут кожу и мясо с её тела.
+\SndLib[sound_combat_hit_gore]\Rflash Боль и страдания Лоны длились долго...
+
+wolf/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash Стая волков окружила Лону.
+\SndLib[sound_combat_hit_gore]\Rflash Их острые клыки жадно впились в её шею и тело.
+\SndLib[sound_combat_hit_gore]\Rflash Боль и страдания длились недолго. Лону быстро избавили от страданий...
+
+KillerRabbit/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash Лону съел миленький маленький кролик...
+\SndLib[sound_combat_hit_gore]\Rflash Мы будем бережно хранить память о ней...
+
+############################# Death ENDING ########################################
+Lona/hp0_begin
+\ph\SETpl[TellerNormal]\SETpr[nil]\c[4]Гадалка：\C[0]    Увы...\n Похоже, наша героиня окончательно сгинула в этом жестоком мире.
+\SETpl[TellerNormal]\c[4]Гадалка：\C[0]    Будет ли кто-нибудь вспоминать Лону и её деяния...?
+
+Lona/hp0_WithChild
+\SETpl[TellerEyeClosed]\c[4]Гадалка：\C[0]    Оу? Кажется, у неё остался наследник! \n Позволить ребёнку унаследовать способности матери - тоже вариант... 
+\SETpl[TellerConfused]\c[4]Гадалка：\C[0]    Ну что ж. Выбирай свою окончательную судьбу...
+
+Lona/hp0_WithChild_choosed0
+\SETpl[TellerEyeClosed]\c[4]Гадалка：\C[0]    Мудрый выбор...\n Словно Феникс, восстань!!!
+
+Lona/hp0_WithChild_choosed1
+\ph\cgoff\narr\{\..\..\..\..\..\..
+
+Lona/hp0_WithChild_canceled
+\SETpl[TellerEyeClosed]\c[4]Гадалка：\C[0]    Вот как? Никаких сожалений, если это лучший способ предотвратить жизнь ребёнка полную боли и мучений ...
+
+Lona/hp0_end
+\SETpl[TellerOkay]\c[4]Гадалка：\C[0]    Я буду ждать твоего возвращения. Пожалуйста, направь Лону на лучший путь в её следующей жизни...
+
+####################################### ENDING  ####################################################
+
+Common/EndingBegin
+\ph\SETpl[TellerEyeClosed]\c[4]Гадалка：\C[0]    \..\..\..\..\..
+\SETpl[TellerConfused]\c[4]Гадалка：\C[0]    Итак, время идёт...
+\SETpl[TellerNormal]\c[4]Гадалка：\C[0]    А пока давайте посмотрим, что случилось со всеми остальными...
+
+Common/EndingLonaBegin
+\narr Итак... Что же случилось с Лоной?
+
+############################# Orkind ########################################
+
+Orkind/Common0
+\SND[SE/Book1]\narr\{Оркоиды\..\..\..
+
+Orkind/OrkindDestroyed1_ClearnNoerOrkindQuest
+\SndLib[sys_DialogBoard]\cg[map_guards]Благодаря действиям и усердию Гильдии Наёмников число Оркоидов вокруг города Ноэр значительно сократилось.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]По свидетельствам очевидцев и слухам, в рядах наёмников была худая и \c[4]плоскогрудая\C[0] девушка.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]Однако...
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]Конечно, результаты их усилий были лишь временными.
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]Мощная скорость размножения Оркоидов позволила им почти сразу восполнить потери. Вскоре Ноэртаун снова был окружён зеленокожими монстрами.
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]Так какая же судьба ждёт Оркоидов?
+
+Orkind/OrkindDestroyed2
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]Они насиловали любое существо, которое видели.
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]Они поглощали всё и вся на своём пути.
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]В конце концов... Неестественная скорость размножения привела их к перенаселению.
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]Вскоре Оркоиды были вынуждены грызть плоть Мерзостей. Наконец, они даже прибегли к поеданию себе подобных, чтобы выжить.
+\SndLib[sys_DialogBoard]\cg[map_region_badland]Через несколько лет зеленокожие монстры присоединились к своей добыче и полностью исчезли с острова Ноэр...
+
+############################# FishKind ########################################
+
+FishKind/Common0
+\SND[SE/Book1]\narr\{Рыболюди\..\..\..
+
+FishKind/Common1
+\SndLib[sys_DialogBoard]\cg[map_FishPPL]После всего хаоса Рыболюди вернулись в свой прежний дом.
+
+FishKind/Common2
+\SndLib[sys_DialogBoard]\cg[map_Shore]Рыболюди попытались восстановить свои дома на необитаемом острове Ноэр.
+
+FishKind/FishKindFine3
+\SndLib[sys_DialogBoard]\cg[event_menses]Благодаря мощи их шаманов проблема размножения Рыболюдей была окончательно решена.
+\SndLib[sys_DialogBoard]\cg[event_menses]Рыболюдям больше не нужно было полагаться на самок другого вида. Они, наконец, стали расой равной другим разумным существам.
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]В 1812 году пожилой Рыбочеловек успешно путешествовал по всему миру на самодельном самолёте, известном как «Биплан».
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]Его книга «Для отца и дяди Буббы» является бестселлером и по сей день.
+
+FishKind/FishKindDestroyed3
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]Сначала Рыболюди думали, что смогут жить на острове Ноэр вечно.
+\SndLib[sys_DialogBoard]\cg[map_region_badland]Но они забыли, что остров Ноэр был полностью заброшен.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]Даже Богиня оставила их.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]Не имея других самок и способов размножения, племена Рыболюдей столкнулись с кризисом.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]Сколько бы они ни умоляли и ни молились, Морская Ведьма молчала.
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]Прошло всего несколько десятилетий и Рыболюди вымерли как вид.
+
+############################# DoomFortressL ########################################
+
+DoomFortressL/Common0
+\SND[SE/Book1]\narr\{Твердыня Рока\..\..\..
+
+DoomFortressL/asdasdas
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# PirateBane ########################################
+
+PirateBane/Common0
+\SND[SE/Book1]\narr\{{Пиратская Погибель\..\..\..
+
+PirateBane/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# SouthFL ########################################
+
+SouthFL/Common0
+\SND[SE/Book1]\narr\{Лагерь у Южных Ворот\..\..\..
+
+SouthFL/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# Noer ########################################
+
+Noer/Common0
+\SND[SE/Book1]\narr\{Ноэртаун\..\..\..
+
+Noer/OrkindDestroyed1
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]Из-за нехватки припасов в городе воцарилась анархия.
+\SndLib[sys_DialogBoard]\cg[map_bandits_farmer]Достаточно быстро большая часть горожан и жителей деревень стали бандитами и грабителями.
+
+Noer/OrkindDestroyed2
+\SndLib[sys_DialogBoard]\cg[map_bandits]Никто не поддерживал в городе порядок. Некому было защищать его и от нашествия монстров.
+
+Noer/OrkindDestroyed2_QuProgCataUndeadHunt2_7
+\SndLib[sys_DialogBoard]\cg[map_region_hole]Хотя кто-то попытался заблокировать туннель, созданный Оркоидами, но это не помогло.
+
+Noer/OrkindDestroyed3
+\SndLib[sys_DialogBoard]\cg[map_region_hole]Однажды монстры наконец прорвались в город. Они прошлись по городу словно саранча.
+
+Noer/OrkindDestroyed4
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]Жалкое сопротивление отчаявшихся горожан длилось недолго...
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]Мужчины стали едой... В то время как женщины стали свиноматками для размножения...
+\SndLib[sys_DialogBoard]\cg[map_cityOnFire]Как и Сибарис, Ноэртаун погрузился во тьму.
+
+Noer/NukeDestroyed
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]В один день «он» разозлился.
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]И огромный огненный шар осветил небо над Ноэром.
+\SndLib[sys_DialogBoard]\cg[map_sos]Бедняки, богачи, рабы, верующие... Это не было важно. Он даровал правосудие над всеми.
+\SndLib[sys_DialogBoard]\cg[map_Nuke]Произошёл огромный взрыв, который очистил всё вокруг.. И Ноэртаун обратился в пепел.
+
+######################################################## SideChar ########################################
+############################# NoerTavern ########################################
+
+NoerTavern/Common0
+\SND[SE/Book1]\narr\{Горящий Бочонок\..\..\..
+
+NoerTavern/BookOfDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]На следующий день после появления монстров в городе улицы были полны изуродованными трупами.
+\SndLib[sys_DialogBoard]\cg[event_FightThePower]Никто не знает, откуда у Большой Мамочки книга мёртвых, как не знают и то, какую она принесла жертву Лжецам.
+\SndLib[sys_DialogBoard]\cg[map_undead_group]В Ноэре набралась армия нежити и она месяц сражалась с Оркоидами.
+\SndLib[sys_DialogBoard]\cg[map_undead_group]Говорят, что Большая Мамочка пала и тоже стала Нежитью.
+
+NoerTavern/FallWithCocona
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]Большая Мамочка и её приёмная дочь уехали до падения города Ноэр.
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]Ходят слухи, что они покинули остров Ноэр после того, как добрались до Твердыни Рока.
+
+NoerTavern/DefenceToDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]Большая Мамочка вновь взяла в руки свой меч и помогла городу Ноэр противостоять и монстрам, и толпе.
+\SndLib[sys_DialogBoard]\cg[event_RipAndTear]Говорят, она множество раз в одиночку сдерживала Северные ворота от нападения Оркоидов.
+\SndLib[sys_DialogBoard]\cg[map_region_slum]Но это продлило жизнь города Ноэр лишь на короткий срок.
+\SndLib[sys_DialogBoard]\cg[map_region_AbomTown]Когда Ноэр пал, Мамочка отправилась прочь. И никто не знает, куда.
+
+############################# Nice boat ########################################
+
+TicketBought/begin1
+\bg[bg_NiceBoat]\m[confused]\C[6]Лона：\C[0]    А как насчёт людей на острове? Катастрофа распространится дальше?
+\bg[bg_NiceBoat]\m[tired]\C[6]Лона：\C[0]    ...Забудь, о таких вещах беспокоиться бесполезно. Я лишь один человек.
+\bg[bg_NiceBoat]\m[sad]\C[6]Лона：\C[0]    Просто обычная девочка...
+\SETpl[Mfat_DockCaptain]\m[normal]\Lshake\prf\C[6]Эдвард：\C[0]    Малышка, ветер усиливается. Тебе лучше убраться с палубы.
+\bg[bg_NiceBoat]\m[pleased]\plf\Rshake\C[6]Лона：\C[0]    Ой! Поняла.
+
+TicketBought/begin2
+\SndLib[sys_DialogBoard]\narr\ph Лона наконец покинула остров Ноэр.\n Место, где бушевали чудовища.
+\SndLib[sys_DialogBoard] Хотя, я не знаю что её ждёт в будущем...
+\SndLib[sys_DialogBoard] Но это точно не будет хуже, чем оставаться на острове Ноэр.
+
+############################# VIRGIN ########################################
+
+TicketBought/begin2_virgin
+\SndLib[sys_DialogBoard]\narr Помимо собственного побега, Лона так же преуспела в сохранении своей непорочности.
+\SndLib[sys_DialogBoard] Пройдут десятилетия... Дети смеются над клятвой старой девы о вечном целомудрии.
+\SndLib[sys_DialogBoard] Даже после своей смерти, Лона осталась незамужней девственницей...
+
+####################################### Human rapeloop #######################################
+
+HumanSlave/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]Лона пропала, и никто больше её не видел...
+\SndLib[sys_DialogBoard]Спустя очень долгое время\..\..\.. На некоей улице\..\..\..
+
+HumanSlave/begin2
+\SndLib[sound_Heartbeat]\narrOFF\c[4]Так холодно...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]Я так давно не ела...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]Тело болит, оч-чень болит...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]Где я\..\..\..?
+\m[pain]\plf\Rshake\c[4]Как больно... Я ничего не вижу... Г-Где я?..
+\SndLib[sound_step]\m[sad]\plf\PRF\c[4]Эй?! Кто-нибудь?!
+\SndLib[sound_step]\m[fear]\plf\PRF\c[4]Прошу! К-Кто здесь?! Н... Не делайте мне больно...!
+\SndLib[sound_step]\m[shocked]\plf\Rshake\c[4]Нет! У-Уходите!!!
+\SndLib[sound_step]\m[confused]\plf\PRF\c[4]\..\..\..
+\bg[bg_Soup1]\m[shocked]\plf\Rshake\c[4]...Овощной Суп?!
+\bg[bg_Soup2]\m[shocked]\plf\Rshake\c[4]Мясной Суп?!
+\m[pleased]\plf\PRF\c[4]С..Спасибо... Я иду!
+\m[pleased]\plf\PRF\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\bgoff\m[terror]\plf\Rshake\c[4]Ч-Что?! Нееет!
+\bgoff\m[bereft]\plf\Rshake\c[4]Верните! Прошу! Дайте хотя бы разок попробовать!
+\ph\narr\..\..\..
+
+HumanSlave/begin3
+\SndLib[sound_punch_hit]\SETpl[AnonMale2]\Lshake\c[4]Мужчина：\C[0]    Какого хуя!?
+\SETpr[AnonFemale]\plf\Rshake\c[4]Женщина：\C[0]    А? Что случилось?
+\cg[map_HungerDeath]\SETpl[AnonMale2]\Lshake\prf\c[4]Мужчина：\C[0]    Проклятье! Кто здесь оставил этого дохнущего раба на улице?!
+\SETpr[AnonFemale]\plf\Rshake\c[4]Женщина：\C[0]    Фу, какая вонь! Этот гадкий запах сейчас испортит мою одежду!
+\SETpl[AnonMale2]\Lshake\prf\c[4]Мужчина：\C[0]    Ах ты блядская-! \.\.\SndLib[sound_punch_hit]\Lshake -грязная!! \.\.\SndLib[sound_punch_hit]\Lshake человеческая падаль!!! \.\.\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]Женщина：\C[0]    Отвратительно. Даже ливень не смоет эту вонь...
+\SETpl[AnonMale2]\Lshake\prf\c[4]Мужчина：\C[0]    Сдохни!!! \SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]Женщина：\C[0]    Ну всё, пойдём.
+\SETpr[AnonFemale]\plf\Rshake\c[4]Женщина：\C[0]    Фу... Гадость! Помой ботинки, когда мы будем дома!
+\ph\narr\..\..\..
+
+####################################### Orkind Rapeloop #######################################
+
+OrkindCampCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]Лона пропала, и никто больше её не видел...
+\SndLib[sys_DialogBoard]Спустя очень долгое время\..\..\.. В неизвестной пещере\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\c[4]Еды-ы...
+\SndLib[sound_Heartbeat]\c[4]Я так голодна...
+\SndLib[sound_Heartbeat]\m[sad]\c[4]Е-Еда? Я хочу есть! Дайте еды!
+\SndLib[sound_Heartbeat]\m[bereft]\Rshake\c[4]П-Прошу! Умоляю!
+\SETpl[goblin]\Lshake\prf\C[4]Гоблин：\C[0]    Гху Гхах Чхаа!
+\m[shocked]\plf\Rshake\c[4]Еда? Это еда?!
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]Гоблин：\C[0]    Гху Хе! Ча-гху-чха!
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]Гоблин：\C[0]    Гху Хе! Гху-хе Хе-хех-хе!
+\SndLib[sound_eat]\m[pleased]\plf\Rshake\c[4]К-Как хорошо! Спасибо...! Спасибо огромное!
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]Гоблин：\C[0]    Гувух Хе-хе!
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]Гоблин：\C[0]   Гху Хе-е-ех! Чха-гу-чха!
+\narr Монстры принесли зеркало, они хотели чтобы Лона увидела, во что она превратилась.
+\narrOFF\m[confused]\plf\Rshake\c[4]З... зеркало...?
+\cg[event_OrkindMother]\m[flirty]\plf\Rshake\c[4]К-Кто этот монстр... Ч-что смотрит на м-меня...?
+
+OrkindCampCaptured/begin2
+\..\..\..
+\SndLib[sound_Heartbeat]\m[shocked]\plf\Rshake\c[4]Я-я...? Это.. Я?!
+\SndLib[sound_OrcSpot]\m[fear]\plf\Rshake\c[4]Н-Нет! НЕЕЕЕТ!!!
+\SndLib[sound_OrcSpot]\m[terror]\plf\Rshake\c[4]Не может быть...! Я человек!! Я НЕ МОНСТР!!!
+\SETpr[goblin]\plf\Rshake\C[4]Гоблин：\C[0]    Гухух Хее-хе-хе!
+\SndLib[sound_OrcSpot]\m[bereft]\plf\Rshake\c[4]П-Помогите! Я больше не хочу есть! Не хочу!
+\ph\..\..\..
+\SndLib[sound_Heartbeat]\c[4]Г...голод... 
+\SndLib[sound_Heartbeat]\c[4]Очень голодная... Нужно... Покушать...
+\SndLib[sound_Heartbeat]\c[4]...Еда? Я хочу кушать!! Дайте еду!!!
+\cgoff\..\..\..
+
+############################# OrkindWarboss Rapeloop ########################################
+
+OrkindImpale/begin1
+\narr\..\..\..\..\..
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword].........
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]......
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]...
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[pain]\Rshake\c[4]!!!!!!
+\m[fear]\plf\Rshake\c[4]Что? Что происходит?
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5sta_damage]\Rshake\c[4]Айййй!!!
+\Rflash\cg[event_AnalTaken]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5health_damage]\Rshake\c[4]Больно!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5puke]\Rshake\c[4]Хватит!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]АААХ!!!!
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]АЙАА!!!!!!
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword].........
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]......
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]...
+\cg[map_orkind_expending]Оркоиды пронзили Лону деревянным колом.
+\cg[map_orkind_expending]Она потеряла сознание только после того, как кол стал торчать из её рта.
+\cg[map_orkind_expending]Должно быть, Мать Плодородия была очень рада видеть то, как она умирает в муках...
+
+####################################### AbomHive Rapeloop #######################################
+
+AbomHiveCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]Лона пропала, и никто больше её не видел...
+\SndLib[sys_DialogBoard]Спустя очень долгое время\..\..\.. В логове Тварей\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\m[p5shame]\c[4]Где... я.....?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]Ч-что п-...-произо... -шло...?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]Я... ещё жива?
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]П-почему... Я н-ничего... не чувствую...? Как долго... я здесь?
+\narr\prf\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\SndLib[sound_step]\m[p5shame]\c[4]К-кто... здесь......?
+
+AbomHiveCaptured/begin2
+\cg[map_AbomCorpse2]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]Наёмник：\C[0]    Эй! Новенький! Мы на месте.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Новобранец：\C[0]    Подождите, стойте! Эти женщины ещё шевелятся!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Наёмник：\C[0]    Сожги это место!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Новобранец：\C[0]    НЕТ! Стойте, стойте!!! Во имя Святого, они же, блять, ещё живые!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Наёмник：\C[0]    Слушай сюда кретин, их уже не спасти, понятно тебе?
+\narr\cgoff \.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\cg[map_AbomCorpse1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Наёмник：\C[0]    Вон, подойди сюда, новенький! Глянь-ка на эту девочку! Ты действительно хочешь сказать мне, что она всё ещё жива?!
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\Rshake\c[4]Они... говорят о... Мне?! Нет, пожалуйста! С-спасите меня!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Наёмник：\C[0]    Это уже не человек! Это телесная оболочка, что используется для размножения!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Наёмник：\C[0]    Сожги её! Это приказ!
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\PLF\c[4]Что...? Н-Нет! НЕЕЕТ!!! Я не мертва, я ещё живая! Спасите! Я не хочу умирать!!!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Новобранец：\C[0]    Д-да сэр!
+
+AbomHiveCaptured/begin3
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]АААААААА!!!
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]Я ГОРЮ!!! НЕЕЕЕЕТ! Я НЕ ХОЧУ УМИРААААТЬ!!!
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]БОЛЬНО! ПОЖАЛУЙСТА... Я НЕ... ХО...- Кхххххх......
+\cgoff\ph\narr\c[4]\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..
+\narrOFF\cg[map_cityOnFire]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Новобранец：\C[0]    Наконец-то... Это закончилось...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Наёмник：\C[0]    Эй, мы только начали! Тут ещё немало мест, что нам надо зачистить.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Новобранец：\C[0]    Да сэр!
+
+####################################### FishKind and Deepone Rapeloop #######################################
+
+FishkindCampCaptured/begin1
+\narr\..\..\..\..\..
+Лона пропала, и никто больше её не видел...
+Спустя очень долгое время\..\..\.. В логове рыбомонстров\..\..\..
+\narrOFF\cg[map_region_hole]\SndLib[sound_step] ...Что случилось со мной? \.\SndLib[FishkindSmSpot] Г-Где.. Я...? \.\SndLib[sound_step]\.\SndLib[sound_step] Меня похитили монстры?! \.\SndLib[FishkindSmSpot]
+\c[4]Так темно... Я ничего не вижу......
+\SndLib[sound_step] Тут... Кто-нибудь есть? \.\SndLib[FishkindSmSpot]\.\SndLib[sound_step]\.\SndLib[sound_step] Помогите! Кто-нибудь... На помощь! \.\SndLib[sound_equip_armor]
+\c[4]Женщина：\C[0]    Эй, меня кто-нибудь слышит?
+\SndLib[sound_equip_armor]\c[4] К-Кто здесь?! Прошу вас... не убивайте меня......
+\m[confused]\C[4]Женщина：\C[0]    А, ты новенькая?
+\prf.....
+\m[normal]\C[4]Женщина：\C[0]    Тише... Всё хорошо......
+\m[pleased]\C[4]Женщина：\C[0]    Прошу, сядь напротив меня, не бойся. Я человек, как и ты.
+\prf.....
+\m[shy]\C[4]Женщина：\C[0]    Всё хорошо... Тише... Всё хорошо... Прошу, перестань плакать.
+\m[normal]\C[4]Женщина：\C[0]    Меня зовут \c[6]Лона\C[0], а тебя?
+\prf.....
+\m[triumph]\C[4]Женщина：\C[0]    Да? Какое красивое имя!
+\prf.....
+\m[shy]\C[4]Женщина：\C[0]    Вот как? Не волнуйся, я здесь уже очень давно забочусь о таких, как ты.
+\prf.....
+\m[flirty]\C[4]Женщина：\C[0]    Боже... Прошу, не надо! Многие пытались, но все в итоге погибли... Ты ведь не хочешь такой же судьбы, верно?
+\prf.....
+\m[shy]\C[4]Женщина：\C[0]    Прошу, милая моя, не плачь... Я буду защищать тебя.
+\m[pleased]\C[4]Женщина：\C[0]    Иди ко мне, моя милая, я научу тебя всему, чтобы ты могла выжить здесь. Не переживай, я здесь, чтобы тебе помочь......
+\cgoff\ph\narr\..\..\..\..
+
+##########################################################################################################################
+##########################################################################################################################	 ENDING SHIP
+##########################################################################################################################
+
+ending/end
+Закончить игру? \optB[Ещё нет!,Конец игры...]
+
+ShipLadder/qMsg0
+Сейчас слишком ветрено
+
+ShipLadder/qMsg1
+Мне не надо выходить наружу
+
+ShipLadder/qMsg2
+Слишком опасно
+
+#update rename tag
+RecQuest/SMRefugeeCampFindChild10
+\CBid[-1,6]\prf\c[4]Томми：\C[0]    Уваах... *Слезы*... П-Почему......
+\CBid[-1,6]\prf\c[4]Томми：\C[0]    Почему бы и нет... *Всхлип*... Мама не хочет меня больше видеть...
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    А...? Разве ты не мальчик, которого называют -...
+\CBct[20]\m[triumph]\PRF\c[6]Лона：\C[0]    - Да! Томми, верно?
+\CBid[-1,20]\prf\c[4]Томми：\C[0]    Ах! Это Старшая сестрёнка!
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Где твоя мама? Почему здесь только ты?
+\CBid[-1,6]\prf\c[4]Томми：\C[0]    М-мама больше не хотела меня видеть... *Всхлип* Она засунула меня в коробку, и я оказался здесь, когда открыл коробку...
+\CBct[6]\m[tired]\PRF\c[6]Лона：\C[0]    Понятно......
+\CBid[-1,6]\prf\c[4]Томми：\C[0]    О да! Проста ли эта металлическая палка в использовании? Использовать её очень удобно, не так ли?
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    У-... -добно?
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Эээ... Сражаться с ней вполне комфортно, хотя она немного тяжелавата...
+
+RecQuest/Df_Heresy5_1
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Эм... Ты Азура, верно? Где твоя сестра?
+
+RecQuest/Df_Heresy5_2
+\CBid[-1,6]\prf\c[4]Азура：\C[0]    Нет! Я не Азура! Я не знаю Силену!
+\CBid[-1,6]\prf\c[4]Азура：\C[0]    Вы ошиблись!
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Ну... Хорошо...
+
+########################################################################################### Lisa
+
+Lisa/common0
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Лиза! Ты тоже на борту?!
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    \..\..\..
+
+Lisa/RecQuestLisa19KeepMem1
+\CBid[-1,2]\SETpl[LisaNormal]\Lshake\prf\c[4]Лиза：\C[0]    Ой? Да неужели это систр Лона?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эээ... Да... хм... \c[4]Лона\C[0]?!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    \..\..\..\..\m[shocked]\Rshake Секундочку! Ты помнишь кто я?!
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    \..\..\..
+\CBid[-1,6]\SETpl[LisaBereft]\Lshake\prf\c[4]Лиза：\C[0]    Хух! Ахх ты она!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Не шути, я знаю, что ты всё ещё помнишь меня.
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    Ну! Я серьёзна! Немагу вообще вспомнить...
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Хорошо, хорошо, я понимаю.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хм... Так почему же ты тоже на этом корабле?
+
+Lisa/RecQuestLisa18ResetMem1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]Лиза：\C[0]    Ой? Да неужели это систр Лона?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хм... Так почему же ты тоже на этом корабле?
+
+Lisa/RecQuestLisa19KeepMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]Лиза：\C[0]    Я сыта по горло этим островом, со всех сторон окруженного монстрами!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    До сих пор жуки снятся мне по ночам, когда я сплю.
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]Лиза：\C[0]    А люди все равно смотрят на меня свысока из-за того, что я полукровка! Меня считают грязью, хотя это не моя вина!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    Вот и всё, я покидаю этот остров и никогда больше не вернусь!
+
+Lisa/RecQuestLisa18ResetMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]Лиза：\C[0]    Хватит с меня этого острова, моя семья и друзья всегда меня бросают!!
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    Так, что я брошу этот остров! И найду другое место и сделаю ещё лучшие взрывы!
+
+Lisa/RecQuestLisa18ResetMem3
+\CBid[-1,8]\SETpl[LisaSad]\Lshake\prf\c[4]Лиза：\C[0]    \..\..\..
+\CBid[-1,2]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    Мы с тобой не очень близки? Почему ты задаешь эти вопросы?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Извини, я просто хотела поздороваться.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Должна признаться, мне тоже нравятся взрывы!
+\CBid[-1,8]\SETpl[LisaTriumph]\Lshake\prf\c[4]Лиза：\C[0]    Взрывать? Старшая Сестрёнка тоже в подрывник?!
+\ph\narr Лона и Лиза продолжали болтать об искусстве и красоте взрывов, прежде чем попрощаться друг с другом\..\..\..\..
+
+Lisa/RecQuestLisa19KeepMem3
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я понимаю...
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    В любом случае, было здорово путешествовать с тобой.
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]Лиза：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[LisaTriumph]\Lshake\prf\c[4]Лиза：\C[0]    И мне тоже!
+
+########################################################################################### Cocona
+
+Cocona/RecQuestCocona29_0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]Кокона：\C[0]    Старшая сестрёнка! Страшно!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    А... Что страшно?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Вода! Снаружи вода! Только вода!!!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Вода? Потому что мы в океане?
+\CBid[-1,2]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Океане?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Лона：\C[0]    Верно! Океане!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Океане? Что такое «океане»!!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Океан это... ом... то, что соединяет между собой материки, позволяет перемещаться между ними?
+
+Cocona/RecQuestCocona29_1
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Кокона：\C[0]    Материки? Что такое «материки»??
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Это.... Места, которые НАМНОГО больше, чем остров Ноэр?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Ноэр?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ну... Наш родной остров?
+\CBid[-1,20]\SETlpl[cocona_normal]\PLF\prf\c[4]Кокона：\C[0]    Намного больше, чем дом Коконы?
+\CBct[8]\m[pleased]\plf\Rshake\c[6]Лона：\C[0]    Правильно! Ноэр - наш родной остров, а западный материк намного больше, чем Ноэр.
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Ву мяу\..\..\..
+
+Cocona/RecQuestCocona29_2
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    \{Удивительно!
+
+Cocona/RecQuestCoconaVagTaken2_0
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    \{Подожди, сестрёнка!
+
+Cocona/RecQuestCoconaVagTaken2_1
+\CBct[2]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Что ещё? О чём Кокона ещё хочет спросить?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Здесь много людей. Нам нужно будет заниматься сексом со всеми ними?
+
+Cocona/RecQuestCoconaVagTaken2_2
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Что\..\..\..?\m[shocked]\Rshake\{С кем?!
+
+Cocona/RecQuestCoconaVagTaken2_3
+\CBct[2]\m[shy]\plf\PRF\c[6]Лона：\C[0]    О... Я поняла... Нет...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Нет, нам не нужно больше торговать собой. Давай отдохнём наконец.
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Ву мяу\..\..\..
+
+Cocona/RecQuestCocona29_3
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    \{Старшая!!
+
+Cocona/RecQuestCocona29_4
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Вопросы не кончились?
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Книгу забыли!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Книгу?
+\CBid[-1,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Книга из дома Коконы! С хорошим другом на ней!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Это ты про ту сумку, что с собой раньше носила? Это была книга?
+\CBid[-1,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Кокона забыла её у Большой Мамы, а ведь друг говорил, что её нельзя терять...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Всё будет хорошо...
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Как сойдём на берег, отправимся в ближайший город. Там старшая сестричка купит тебе новую.
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Кокона：\C[0]    Ву мяу\..\..\..
+
+########################################################################################### EndingShipSlaveLona
+
+EndingShipSlaveLona/begin1
+Аххх\..\..\..
+У меня сильно болит голова\..\..\..
+Такая тяжесть по всему телу\..\..\..
+
+EndingShipSlaveLona/begin2
+Где я? Что происходит?
+Кто я\..\..\..?
+Я ничего не могу вспомнить.\..\..\..
+Ничего не помню\..\..\..
+Я так устала\..\..\..
+Я хочу спать\..\..\..
+Не хочу думать\..\..\..
+
+EndingShipSlaveLona/begin3
+\BonMP[Fucker2,20]\c[4]Моряк A：\C[0]    Эй, новенький! Ты ещё не закончил?
+\BonMP[Fucker3,20]\c[4]Моряк B：\C[0]    Здесь ещё десятки в очереди!
+\BonMP[Fucker4,20]\c[4]Моряк C：\C[0]    Побыстрее там!
+
+EndingShipSlaveLona/begin4
+\BonMP[Fucker1,20]\c[4]Моряк D：\C[0]    \{Уже почти! Я кончаю!
+
+EndingShipSlaveLona/begin5
+\c[4]Моряк B：\C[0]    Теперь я, теперь я!
+\c[4]Моряк C：\C[0]    Почему бы нам не сделать это всем вместе? Мне нравится пизда. А тебе только рот, дружище.
+\c[4]Моряк D：\C[0]    Хорошая идея! А я займусь задницей. Отныне мы все пещерные братья.
+\c[4]Моряк B：\C[0]    Да! С этого момента мы братья!
+\c[4]Моряк C：\C[0]    Мы не можем родиться в тот же год, месяц и день, но мы готовы умереть одновременно!
+\c[4]Моряк D：\C[0]    О да, детка! Досуха!
+
+EndingShipSlaveLona/end
+\narr Лона сумела добраться до другого берега живой. Никто не знает, куда её продали после.\..\..\..
+\narr С тех пор Лону никто не видел\..\..\..

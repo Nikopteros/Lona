@@ -1,0 +1,50 @@
+mod/title
+MODS
+
+thumbnail/no_preview
+No preview
+
+title/status
+UMM mods： loaded %d, enabled %d, found %d
+
+achievement/top_text
+Found new mod
+
+setting/show_on_startup
+Show mod manager on startup
+
+mod/description
+The best in-game mod manager and dev library
+
+top_menu/umm
+Ultra Mod Manager
+
+top_menu/restart
+重啟
+
+top_menu/restart_failed
+Auto restart failed. Please start game manually.
+
+top_menu/accept
+確認
+
+top_menu/save
+保存
+
+top_menu/revert
+還原
+
+top_menu/show_on_startup_true
+Show on startup： Yes
+
+top_menu/show_on_startup_false
+Show on startup： No
+
+preview/loaded
+[已掛載]
+
+preview/wait_for_restart
+[須重啟遊戲]
+
+preview/failed
+[讀取失敗]

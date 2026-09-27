@@ -1,0 +1,20 @@
+thisMap/OvermapEnter
+Укриття банди Широке Лезо, територія поганих хлопців. \optB[Піти,Увійти]
+
+Nap/failed0_normal
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Розбійник A：\C[0] Де ти взяв цю дрібну виродку?
+\SETpl[MobHumanWarrior]\plf\Rshake\C[4]Розбійник B：\C[0] Підібрав її!
+
+Nap/failed_normal_if_Non_Slave
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Розбійник A：\C[0] Про? Вона непогано виглядає, давайте поставимо її на задвірки як повія.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]Розбійник B：\C[0] Спочатку заклейми її як рабиню!
+
+#to all fans translator, donot translate 由于此讯息不符合符合国家安全法规，已被屏覆 its china censor joke.
+
+ArtPlague/art
+\cg[other_ArtPlauge] Ми не можемо вимовити Його ім'я, Він - ватажок виразок, Він - ангел чумної виразки, і Він приносить світу нескінченні страждання.
+\m[flirty]\PRF\c[6]Лона:\C[0] Е-е... Жовтий ведмідь?
+\m[confused]\PRF\c[6]Лона:\C[0] Хмм.....
+\m[shocked]\Rshake\narr Це повідомлення було заблоковано, оскільки воно не відповідає національним нормам безпеки\...\...\...\...
+\m[confused]\Rshake\narr Це повідомлення було заблоковано, оскільки воно не відповідає національним нормам безпеки\...\...\...
+\m[flirty]\Rshake\narr Це повідомлення було заблоковано, оскільки воно не відповідає національним нормам безпеки\...\...

@@ -1,0 +1,252 @@
+thisMap/OvermapEnter
+\m[confused]Fortaleza Caída \optB[Cancelar,Entrar]
+
+
+############################## Entrada a la sala del jefe en modo historia
+############################## Entrada a la sala del jefe en modo historia
+EnterBossRoom/1_smell
+\CBct[6]\m[pain]\plf\Rshake\c[6]Lona: \C[0]    Aaaaah... El olor aquí es peor que en las alcantarillas...
+
+EnterBossRoom/2_sawGobRunning
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡¿AHHH?! ¡¿Q-Qué está pasando?!
+
+EnterBossRoom/3_sawWarBoss_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    ¡¡¡AAAAAAAHHH!!!
+
+EnterBossRoom/3_sawWarBoss_tsundere
+\CBct[5]\m[normal]\plf\PRF\c[6]Lona: \C[0]    \..\..\..
+\CBct[5]\m[angry]\plf\Rshake\c[6]Lona: \C[0]    ¡Hmph! No puedes vencerme... ¡Porque soy más rápida que tú!
+
+EnterBossRoom/3_sawWarBoss_gloomy
+\CBct[5]\m[wtf]\plf\Rshake\c[6]Lona: \C[0]    ¡¿Q-q-qué?! ¡N-No te acerques!
+
+EnterBossRoom/3_sawWarBoss_slut
+\CBct[8]\m[angry]\plf\Rshake\c[6]Lona: \C[0]    ¡Incluso si tu polla es más gruesa que un árbol, no perderé!~
+
+EnterBossRoom/3_sawWarBoss_again_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    Yo\..\..\.. ¡No te tengo miedo!
+
+EnterBossRoom/3_sawWarBoss_again_tsundere
+\CBct[5]\m[fear]\plf\PRF\c[6]Lona: \C[0]    No... perderé contra ti... ¡otra vez!
+\CBct[20]\m[irritated]\plf\Rshake\c[6]Lona: \C[0]    ¡¡DE NINGUNA MANERA!!
+
+EnterBossRoom/3_sawWarBoss_again_gloomy
+\CBct[8]\m[fear]\plf\Rshake\c[6]Lona: \C[0]    No\... \... \... ¡N-No me mates! *Llora* ¡Seré buena!
+
+EnterBossRoom/3_sawWarBoss_again_slut
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    E-Espera\... \... \... ¡Haré lo que quieras con él!~ ¡S-Solo, por favor, NO ME MATES!
+
+############################## Cadáver del ArmoredSet
+
+ArmoredSetCropse/0
+\narr El cuerpo de un niño. Su ano está severamente dañado\..\..\..
+
+############################################################ Asesino de Orcoides
+
+EnterBossRoom/OrkindSlayer_Begin1
+\CBfF[8]\SETpl[OrkindSlayer]\Lshake\c[4]Asesino de Orcoides: \C[0]    Espera....
+
+EnterBossRoom/OrkindSlayer_Begin2
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¿Hm?
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]Asesino de Orcoides: \C[0]    Huelo el hedor de los Orcoides...
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]Asesino de Orcoides: \C[0]    Necesito tu orina...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡¿QUÉ?!
+
+EnterBossRoom/OrkindSlayer_justEnter0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ....
+
+EnterBossRoom/OrkindSlayer_Give0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Bueno\.. \.. \.. No vas a hacer nada raro con ella, ¿verdad?
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]Asesino de Orcoides: \C[0]    No...
+
+EnterBossRoom/OrkindSlayer_Give1
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\c[4]Asesino de Orcoides: \C[0]    Listo...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    Mmmmm....
+
+EnterBossRoom/OrkindSlayer_Give0_failed
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona: \C[0]    Ejem\..\..\..\m[flirty]No creo que pueda orinar ahora mismo...
+
+EnterBossRoom/OrkindSlayer_OPT_justEnter
+Ignorar
+
+EnterBossRoom/OrkindSlayer_OPT_Give
+Orinar para él
+
+############################## Victoria
+
+Win/StaWin0
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Yo... yo gané?
+
+Win/StaWin1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Otra vez?!
+\CBct[8]\m[shocked]\PRF\c[6]Lona: \C[0]    \..\..\..\CBct[20]\m[angry]\Rshake ¡No te tengo miedo!
+
+Win/StaWin2
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Emmm... ¿Qué está pasando?
+
+Win/Qmsg_BossRaped0
+Están muy concentrados...
+
+Win/Qmsg_BossRaped1
+Están ocupados tratando de demostrar que son mejores que él...
+
+Win/Qmsg_BossRaped2
+Ignoran por completo la presencia de Lona...
+
+################################################################################ BUCLE DE VIOLACIÓN EN MODO HISTORIA
+
+Warboss/rapeloop_begin1
+\CBct[6]\m[tired]\Rshake\c[6]Lona: \C[0]    No... no puedo moverme...
+
+Warboss/rapeloop_begin2
+\CBmp[20]\SndLib[sound_OgreSpot]\SETpl[OgreWarboss_BoneShield]\Lshake\.\.\.\CBct[6]\m[fear]\plf\Rshake\c[6]Lona: \C[0]    Ughhff... N-No... No te a-acerques...
+
+Warboss/rapeloop_begin3
+\CBct[6]\m[p5shame]\Rshake\c[6]Lona: \C[0]    N-No...
+
+Warboss/rapeloop_begin4
+\CBct[6]\m[bereft]\Rshake\c[6]Lona: \C[0]    ¡¡¡AAAAAAAHHH!!!
+
+Warboss/rapeloop_begin5
+\CBmp[4]\SndLib[sound_OgreQuestion]\SETpl[OgreWarboss_BoneShield]\Lshake\prf\..\..\..
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona: \C[0]    ....
+
+Warboss/rapeloop_begin6
+\narr El monstruo no podía decidir si este agujero de carne era un nuevo juguete o simplemente comida.
+\narr Acercó sus labios a los bordes empapados de orina del agujero y comenzó a probarlo\..\..\..
+
+Warboss/rapeloop_begin7
+\narr Estaba muy satisfecho con el olor del agujero de carne, pero su tamaño era demasiado pequeño. Era hora de corregirlo\..\..\..
+
+Warboss/rapeloop_begin8
+\narr El olor a sangre y orina, junto con los gemidos del agujero de carne, hicieron que la polla del monstruo se endureciera de placer.
+\narr Decidió follar el agujero de carne y entrar en seco\..\..\..
+
+Warboss/rapeloop_begin9
+\narr El monstruo disfrutó del agujero de carne. Pero, ¿qué hay del culo\..\..\..?
+
+Warboss/rapeloop_begin10
+\narr Parece que las sensaciones del culo también son buenas, pero follar el coño es mucho más placentero\..\..\..
+
+Warboss/rapeloop_begin11
+\narr Los gemidos y gritos del agujero de carne cesaron, pero la resistencia continuaba\..\..\..
+
+Warboss/rapeloop_begin12
+\narr El monstruo estaba muy contento de que el agujero de carne siguiera vivo durante sus juegos.
+\narr Le resultaba muy placentero saber que había capturado un agujero de carne de tan buena calidad.
+\narr En el futuro, este nuevo agujero de carne podría parir muchos nuevos juguetes.\..\..\..
+\narr Decidió llevar el agujero de carne como una funda para su polla. Así podría disfrutar en cualquier momento\..\..\..
+
+Warboss/rapeloop_nap1
+\narr Pronto el agujero de carne perdió el conocimiento, pero eso no impidió que el monstruo siguiera divirtiéndose con su nuevo juguete\..\..\..
+
+Warboss/rapeloop_nap2
+\narr\..\..\..
+
+################################################################################ BUCLE DE VIOLACIÓN EN MODO HISTORIA - con esbirros
+
+Warboss/rapeloop_OPT_beat
+MOSTRARSE GRANDE Y FUERTE
+
+Warboss/rapeloop_OPT_rape
+DEMOSTRAR SUPERIORIDAD
+
+Warboss/rapeloop_OPT_Impale
+ENSARTAR EL AGUJERO DE CARNE CON UN GRAN PALO PARA MAMÁ
+
+Warboss/rapeloop_OPT_Feed
+ALIMENTAR A MI AGUJERO DE CARNE CON YUM-YUM
+
+LeftFucker/begin1
+\ph\narr ESTE HERMANO ESTÁ DISFRUTANDO DE SU AGUJERO DE CARNE.
+
+ShakingToilet/begin1
+\ph\narr ESTE AGUJERO DE CARNE MORIRÁ PRONTO. SUS PARTOS SERÁN LOS ÚLTIMOS.
+\ph\narr CUANDO NACEN NUEVOS HERMANOS, NOS COMEMOS EL AGUJERO DE CARNE.
+
+MeatToiletF/begin1
+\ph\narr ES MÁS DIVERTIDO JUGAR CON AGUJEROS DE CARNE QUE CON MONSTRUOS DE CARNE...
+\ph\narr LOS AGUJEROS DE CARNE NO REQUIEREN TANTA PELEA COMO LOS MONSTRUOS DE CARNE. 
+\ph\narr SON MÁS DIVERTIDOS Y SABROSOS. SUS VIENTRES CRECEN Y PAREN MÁS RÁPIDO.
+\ph\narr PERO ÚLTIMAMENTE ES MÁS DIFÍCIL CAPTURAR NUEVOS AGUJEROS DE CARNE.
+\ph\narr ESO ME HACE SENTIR MUY TRISTE.
+
+MeatSeedbed/begin1
+\ph\narr ESTA ES UNA CERDA REGALADA POR MI HERMANO.
+\ph\narr USÓ LA BENDICIÓN DE MAMÁ PARA UNIR MUCHOS AGUJEROS DE CARNE CON MIERDA Y ORINA...
+\ph\narr MIENTRAS HAYA YUM-YUM, LA CERDA PUEDE PARIR MUCHOS HERMANITOS CADA DÍA...
+\ph\narr GRUÑO. LOS AGUJEROS DE CARNE SON BUENOS Y DIVERTIDOS DE USAR, SOLO SI PELEAN...
+\ph\narr GRRR. ¿POR QUÉ MAMÁ NO ME BENDIJO? ME SIENTO MUY TRISTE...
+
+TellerPillar/begin1
+\ph\narr ESTE ES UN TÓTEM DE ORACIÓN PARA MAMÁ MATRIARCA...
+\ph\narr ¿POR QUÉ MAMÁ TRAJO NUEVOS HERMANOS A ESTE MUNDO?
+\ph\narr DEBE SIGNIFICAR QUE MAMÁ QUIERE QUE LOS HERMANOS CONQUISTEN LOS AGUJEROS DE CARNE...
+
+Abom/begin1
+\ph\narr LOS MONSTRUOS DE CARNE. SON ENEMIGOS, SON COMIDA Y JUGUETES.
+\ph\narr PERO AHORA LOS MONSTRUOS DE CARNE SOLO ESTORBAN PARA ROBAR EL HOGAR DE LOS HERMANOS.
+\ph\narr AMBOS SENTIMOS EL SABOR Y LAS SENSACIONES DE LOS AGUJEROS DE CARNE.
+\ph\narr NO TE PREOCUPES, PRONTO LO VEREMOS. LOS HERMANOS AL FINAL VENCERÁN.
+\ph\narr PORQUE LOS HERMANOS SOMOS MÁS FUERTES, MÁS INTELIGENTES.
+
+Heads/begin1
+\ph\narr ESTA ES UNA CABEZA CON AGUJERO DE CARNE. LA CABEZA NO ES SABROSA.
+\ph\narr PERO CORTAR CABEZAS DE AGUJEROS DE CARNE SIGNIFICA QUE LOS HERMANOS SOMOS MÁS FUERTES.
+
+MeatToiletM/begin1
+\ph\narr ESTE MALVADO AGUJERO DE CARNE MATÓ A MUCHOS HERMANOS, NO TIENE AGUJERO PARA PARIR NUEVOS HERMANOS.
+\ph\narr ESPERAMOS A QUE EL HERMANO TERMINE DE JUGAR CON ÉL, LUEGO LO CORTAMOS Y NOS LO COMEMOS YUM-YUM.
+
+Corpses/begin1
+\ph\narr ESTE ES UN SANTUARIO ESPECIAL PARA MAMÁ MATRIARCA.
+\ph\narr LO HACEMOS USANDO AGUJEROS DE CARNE FRESCOS, CUBIERTOS CON ORINA BLANCA.
+\ph\narr Y USAMOS EL MÉTODO MÁS DOLOROSO PARA HACER MORIR A LOS AGUJEROS DE CARNE.
+\ph\narr MAMÁ DEBE ESTAR MUY FELIZ CUANDO ESCUCHA LOS GRITOS DE LOS AGUJEROS DE CARNE...
+
+EmptyImpalement/begin1
+\ph\narr SI EL PALO GRANDE ESTÁ VACÍO, SIGNIFICA QUE NO MUESTRA AMOR A MAMÁ. ESO ME PONE MUY TRISTE.
+
+ManImpalement/begin1
+\ph\narr ESTE AGUJERO DE CARNE DEL HERMANO NO PUEDE HACER NUEVA CARNE... YA NO PUEDO USAR EL AGUJERO DE CARNE DEL HERMANO...
+\ph\narr LA MEJOR FORMA DE USAR UN AGUJERO DE CARNE ES MATARLO POR MAMÁ...
+
+##########################
+
+Butcher/begin1
+¿QUIERES ALIMENTAR AL AGUJERO DE CARNE?
+
+prayer/begin1
+\ph\narr UN HERMANO DEVOTO REZANDO...
+\ph\narr TODAVÍA HAY PALOS GRANDES VACÍOS. SIGNIFICA QUE NO HAY SUFICIENTES AGUJEROS DE CARNE.
+\ph\narr ESO PONE MUY TRISTE AL HERMANO REZADOR.
+
+cooker/begin1
+\ph\narr ESTE BUEN HERMANO TRABAJA MUY DURO, MACHACANDO Y QUEMANDO YUM-YUM PARA LOS OTROS HERMANOS.
+\ph\narr ÉL SABE QUIÉN ES EL JEFE FUERTE, PERO CREO QUE NO ES UN VERDADERO HERMANO REZADOR...
+
+OrcKid/begin1
+\ph\narr ESTE ES UN HERMANO JOVEN. ES MÁS FUERTE E INTELIGENTE QUE OTROS HERMANOS.
+\ph\narr PERO NO ES MÁS FUERTE NI MÁS INTELIGENTE QUE YO. CREO QUE NO SABE QUIÉN ES EL VERDADERO JEFE FUERTE AQUÍ...
+\ph\narr QUIZÁ DEBA MOSTRARLE AL HERMANO SU LUGAR AQUÍ...
+
+OrcKid/Talked1
+\ph\narr EL HERMANO MENOR NO ESTÁ OCUPADO, TODAVÍA TIENE MUCHO QUE APRENDER...
+\ph\narr ¿QUIZÁ DEBA ENSEÑAR AL PEQUEÑO...?
+
+################################################################################ BUCLE DE VIOLACIÓN EN MODO DEFENSA
+
+rapeloopExit/opt
+\ph\narr EL AGUJERO DE CARNE MORIRÁ PRONTO...
+ \optB[¡NO IMPORTA, TIRARLO!]
+
+rapeloopExit/did
+\m[confused]\c[6]Lona: \C[0]    Hmph\..\..\.. ¿D-Dónde estoy...?
+\m[tired]\c[6]Lona: \C[0]    ¿Me soltaron?
+\m[sad]\c[6]Lona: \C[0]    ¿Qué hago ahora\..\..\..?
+
+rapeloopGo_out/begin1
+\ph\narr EL PEQUEÑO HERMANO ESTÁ ASUSTADO, SIGNIFICA QUE PRONTO HABRÁ MÁS AGUJEROS DE CARNE.
+
+rapeloopGo_out/opt
+ \optB[¡VOY A PENSAR QUÉ HACER AHORA!, ¡MATAR TODA LA CARNE!]

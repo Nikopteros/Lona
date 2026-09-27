@@ -1,0 +1,70 @@
+thisMap/OvermapEnter
+\m[confused]Tienda de Cerámica Cangrejo Crujiente \optB[Cancelar,Entrar]
+
+################################################################### Qmsg
+
+guard/Qmsg0
+No quiero... Entrar ahí...
+
+guard/Qmsg1
+Vete tú... Yo no quiero...
+
+guard/Qmsg2
+No quiero... Los restos malignos me violarán...
+
+guardWin/Qmsg0
+Quiero reproducirme...
+
+guardWin/Qmsg1
+¿Eres mujer? ¡Me reproduciré contigo...!
+
+guardWin/Qmsg2
+Forastera... Lárgate...
+
+Detective/Qmsg0
+¿Qué... pasó aquí?
+
+Detective/Qmsg1
+¿Por qué... están aquí...?
+
+Detective/Qmsg2
+¿Qué... los atrajo...?
+
+################################################################### QUEST
+
+Qu0/KillAll
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Ja...! ¡Los he vencido!
+
+Detective/Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\prf\c[4]Detective：\C[0]    Esclava... ¡Lárgate...!
+
+Detective/NotKilled0_0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Detective：\C[0]    Lluvia... Odio la lluvia... Pero la lluvia es necesaria...
+
+Detective/NotKilled0_1
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Detective：\C[0]    La lluvia limpia los pecados... de este mundo...
+
+Detective/NotKilled1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Em...? \optB[Nada,¿Quién eres?]
+
+Detective/NotKilled1_about
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Disculpe... ¿qué ocurrió aquí?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\C[0]   Los restos de la falsa Bruja Marina... Atacaron... Este lugar...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\C[0]    Dos... Murieron...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Oh?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\C[0]    Cuando investigábamos... Los restos de la falsa Bruja Marina... Nos atacaron de repente...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\C[0]    Todavía están aquí... Muchos restos de la falsa Bruja Marina...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\C[0]    Debemos... calmarlos...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\C[0]    Todo esto... Es sospechoso...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Bueno, vamos.
+
+Detective/killed0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Detective：\C[0]    Forastera... ¿Tú... los mataste?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Bueno... Supongo. Todos parecen muertos.
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Detective：\C[0]    Muy bien...
+
+Detective/killed1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    .....
+
+Formula/found
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Fórmula Secreta? ¿Esta será?

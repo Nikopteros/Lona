@@ -1,0 +1,123 @@
+#MAIL特殊開頭/使用的Flag/信件編號，避免多封同標題信件混淆，數字，不用補0
+#################################################################################
+
+DarkPotBasic1/Sender
+Recetas
+
+DarkPotBasic1/Title
+Comida
+
+DarkPotBasic1/Text
+\}\C[4]Sopa de Carne：\C[0]\n
+Ingredientes：Carne x2\n
+\n
+\C[4]Sopa de Verduras：\C[0]\n
+Ingredientes：Planta x2\n
+\n
+\C[4]Sopa Mejorada：\C[0]\n
+Ingredientes：Carne x1, Planta x1\n
+\n
+\C[4]Carne Ahumada：\C[0]\n
+Ingredientes：Carne x2, Madera x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Raciones Secas：\C[0]\n
+Ingredientes：Planta x2, Madera x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Queso：\C[0]\n
+Ingredientes：Leche x3\n
+Requiere 20 pts. Supervivencia\n
+\n
+Madera x1 puede usarse para preparar múltiples unidades de Carne Ahumada y/o\n
+Raciones Secas.\n
+\n
+Se necesita la habilidad «Caldero Oscuro» para cocinar estas recetas.\n
+
+#################################################################################
+
+DarkPotBasic2/Sender
+Recetas
+
+DarkPotBasic2/Title
+Medicinas
+
+DarkPotBasic2/Text
+\}\C[4]Té de Noer：\C[0]\n
+Ingredientes：Nuez de Betel x2,\n
+Hierba del Dragón Blanco x1\n
+Requiere 15 pts. Supervivencia\n
+\n
+\C[4]Poción Roja：\C[0]\n
+Ingredientes：Raíz de Dragón x2\n
+Requiere 15 pts. Supervivencia\n
+\n
+\C[4]Poción Azul：\C[0]\n
+Ingredientes：Hierba del Dragón Blanco x2\n
+Requiere 15 pts. Supervivencia\n
+\n
+\C[4]Antiparasitario：\C[0]\n
+Ingredientes：Hierba Amarga x4\n
+Requiere 15 pts. Supervivencia\n
+\n
+\C[4]Anticonceptivo：\C[0]\n
+Ingredientes：Flor de Tung x2\n
+Requiere 15 pts. Supervivencia\n
+\n
+\C[4]Agua de la Felicidad：\C[0]\n
+Ingredientes：Hongo Mutado x4, Poción Roja x1\n
+Requiere 15 pts. Supervivencia\n
+\n
+Se necesita la habilidad «Caldero Oscuro» para preparar estas recetas.\n
+
+#################################################################################
+
+DarkPotBasic3/Sender
+Diagramas Varios
+
+DarkPotBasic3/Title
+Contrabando
+
+DarkPotBasic3/Text
+\}\C[4]Aceite：\C[0]\n
+Componentes：Comida Grasa x1\n
+(Sopa de Carne, Sopa Mejorada, Carne Ahumada, Gachas)\n
+Requiere 5 pts. Supervivencia\n
+\n
+\C[4]Cóctel Molotov：\C[0]\n
+Componentes：Aceite x6\n
+Requiere 5 pts. Supervivencia\n
+\n
+\C[4]Bomba：\C[0]\n
+Componentes：Madera x1, Salitre x2, Carbón x2\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Bomba con Temporizador：\C[0]\n
+Componentes：Bomba, Trapos Sucios x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Mina：\C[0]\n
+Componentes：Bomba con Temporizador, Trapos Sucios x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Bomba Aturdidora：\C[0]\n
+Componentes：Madera x1, Fósforo x1, Carbón x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Bomba de Humo：\C[0]\n
+Componentes：Bomba Aturdidora, Trapos Sucios x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Mina Aturdidora：\C[0]\n
+Componentes：Bomba de Humo, Trapos Sucios x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Fósforo：\C[0]\n
+Componentes：Tarro de Orina x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+\C[4]Salitre：\C[0]\n
+Componentes：Heces x1\n
+Requiere 10 pts. Supervivencia\n
+\n
+Se necesita la habilidad «Caldero Oscuro» para fabricar estos objetos.

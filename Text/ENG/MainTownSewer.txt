@@ -1,0 +1,213 @@
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+Sewer/OvermapEnter
+\m[confused]The sewers of Noer Town. \optB[Never mind,Enter]
+
+################################################################################
+
+Sewer/SkipExit
+Skip the tutorial and return to town? \optB[Never mind,Enter]
+
+################################################################################
+
+system/SneakT1
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSneak1]\ph\{\C[6]Hide\C[0]
+\bg[bg_TutorialSneak2] You can \C[6]Sneak\C[0] by pressing the (Default：CTRL) key.
+\bg[bg_TutorialSneak3] The characters in the game have vision and directionality.
+\bg[bg_TutorialSneak4] If a NPC/creature faces Lona, she will be spotted with a high probability.
+\bg[bg_TutorialSneak5] However, if Lona is \C[6]sneaking\C[0], the chances of her being detected is reduced.
+
+system/SneakT2
+\SndLib[sys_DialogNarr]\bg[bg_TutorialTerrain1] \{\C[4]Terrain\C[0]
+\bg[bg_TutorialTerrain2] The terrain in the game will affect the character's vision.
+\bg[bg_TutorialTerrain3] If Lona is in tall grass, it will be harder for the opponent to see Lona.
+\bg[bg_TutorialTerrain4] If Lona is behind a high terrain, the other side can barely see her.
+\bg[bg_TutorialTerrain5] If Lona is behind a wall, she will be completely invisible.
+\bg[bg_TutorialTerrain6] But be careful, different creatures may have different natural judgment methods.
+
+system/SneakT3
+\SndLib[sys_DialogNarr]\bg[bg_TutorialThrow1] \{\C[2]Throw\C[0]
+\bg[bg_TutorialThrow2] Lona's basic skill, \C[2]Throw\C[0], can lure NPCs/enemies away.
+\bg[bg_TutorialThrow3] Using \C[2]Throw\C[0] helps distract NPCs, allowing Lona to quickly sneak away or hide.
+\bg[bg_TutorialThrow4] \C[2]Thrown rocks\C[0] will distract them for a short period of time, NPCs/enemies will return to their previous position after the effect ends.
+\bg[bg_TutorialThrow5_ENG] \C[2]Scoutcraft\C[0] will increase how sneaky Lona is when she \C[2]Sneaks\C[0] (Default：CTRL).
+\bg[bg_TutorialThrow5_ENG] Lona is unable to properly \C[2]Sneak\C[0] from danger if her \C[2]Scoutcraft\C[0] is too low.
+\bg[bg_TutorialThrow6_ENG] In order to use basic \C[2]Sneak\C[0], increase your \C[2]Scoutcraft\C[0] to 5 or higher.
+\CBmp[FeiraCropse,19]\bgoff Try combining \C[2]Throw\C[0] and \C[6]Sneak\C[0] to distract your enemies and acquire that Short Sword!
+
+Tutorial/Trap
+\CBmp[trap,19].........
+\CBmp[trap,19]......
+\CBmp[trap,19]...
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    !!!!!!
+\SndLib[sys_DialogNarr]\bg[bg_TutorialTrap1]\ph \{\C[2]Traps!\C[0]
+When a trap is set up, the trap's effect will be activated when a NPC/creature or Lona is in the same position as the trap.
+\bg[bg_TutorialTrap2]You can ignite or trigger a trap from afar by \C[2]throwing\C[0] rocks at it.
+\bg[bg_TutorialTrap3]Traps can also be interacted with to be disassembled, but Lona's Survival must be greater than the attack power of the trap.
+Watch where you step, some traps are very deadly! \bgoff
+
+Tutorial/Sap
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSap1]\ph \{\C[2]Backstabs and Stuns.\C[0]
+Most attacks from behind will deal higher damage. Attacks from behind are noted as a "Backstab".
+\bg[bg_TutorialSap2]If a NPC is not in combat and has no target, attacking them from behind will cause a long-term stun effect.
+\bg[bg_TutorialSap3]The stunned NPC will lose their sense of direction, and the next attack on them will be equivalent to a Backstab.
+When a stunned NPC takes damage again, they will recover from their stunned status.\bgoff
+
+Tutorial/STA
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSTA]\ph Hint：STA (Stamina)
+When STA is below 0, many skills will be unusable.
+Lona will also begin to crawl instead of walk due to exhaustion.
+You can set up skill buttons in the Skill page of the main menu.
+Try to set up and use the Rest button to relax or go to sleep.
+Rest is divided into Relax and Sleep. You can press and hold SHIFT or R2 to perform different actions.
+Relaxing will decrease Food to heal Stamina or Health if Stamina is full. Relaxing will not make time pass by.
+Sleeping will cause time to pass and heal certain injuries, restore Stamina, and restore or reduce Health according to Lona's \c[4]Food\c[0] status.
+\bgoff\narr Beware! Don't starve!
+
+Tutorial/SAT
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSAT]\ph Hint：Food
+When Lona is starving, health will be reduced every time she sleeps/time passes.
+Enter the Item page of the main menu to use various items and food.
+Try to keep Food levels high before each nap. \bgoff
+
+Tutorial/About2hWeapon
+\SndLib[sys_DialogNarr]\bg[bg_Equips]\ph It's a Pitchfork! A two-handed weapon.
+It has an attack distance of 2 tiles wherever Lona faces, but it cannot attack at the area Lona is standing on.
+It is a piercing weapon that can slow down enemies.
+Enter the Equipment page of the main menu to adjust Lona's equipment.
+Visit the equipment screen and try it out. \bgoff
+
+Tutorial/LVL
+\SndLib[sys_DialogNarr]\bg[bg_TutorialLVL]\ph Level up!
+Each level up will grant you one Trait point.
+Enter the Trait page of the main menu to assign your Trait points.
+Used Trait points cannot be restored. Spend them wisely! \bgoff
+
+###########################################################################
+
+Lona/ToOrkindCave1
+\cg[map_region_hole]This small cavern must be where the monsters came from.
+\m[confused]\c[6]Lona：\c[0]    Should I enter? \optB[Never mind,Enter]
+
+Lona/ToOrkindCave_procress
+\m[confused]Lona enters the dark hole in the wall...
+
+Lona/ToOrkindCave_procress1
+\m[tired]......
+
+###########################################################################
+Sewer/MissionStart0
+\m[shocked]\cg[map_DarkestDungeon]\Rshake\c[6]Lona：\c[0]    So dark! And yuck... The smell!
+\m[triumph]\c[6]Lona：\c[0]    It was a good idea to come here with a lantern.
+\m[normal]\c[6]Lona：\c[0]    Hmmm... My tasks are...
+\m[confused]\c[6]Lona：\c[0]    Collect eight giant rat tails. And, if possible... Find the missing person.
+\m[serious]\c[6]Lona：\c[0]    No problem! I can do this! \cgoff
+
+Sewer/MissionStart2
+\board[Basic Control (Default)]
+\C[2]Arrow Keys\C[0]：Move the character.
+\C[2]SHIFT+Arrow Keys\C[0]：Run.
+\C[2]Z\C[0]：Trigger.
+\C[2]X\C[0]：Open the main menu or cancel.
+\C[2]ALT\C[0]：Hide UI and standing graphic.
+\C[2]ALT+Arrow Keys\C[0]：Change direction and sight.
+\C[2]CTRL\C[0]：Sneak. Speed up texts and dialogue. Skip a turn when on the world map.
+\C[2]ASDFQWER\C[0]：Skill Hot-keys.
+
+Sewer/MissionStart1
+\board[Collect Rat Tails]
+Goal：Collect 8 Rat Tails.\i[45]
+Reward：Unknown
+Contract from：Rudesind Slope
+Quest Term：Once
+The sewers have become
+infested with infected rats.
+The last mercenary they sent to deal with them
+has gone missing.\n
+Now the task has been handed down to me.
+I have to complete this quest and
+try to find the missing person along the way.
+
+Sewer/About2hWeapon
+\m[triumph]\c[6]Lona：\c[0]    It's a pitchfork!
+\m[confused]\c[6]Lona：\c[0]    But, I need two hands to hold it. I can't hold the lantern with my other hand.
+
+
+###########################################################################
+
+Sewer/SawInfection
+\m[wtf]\Rshake\c[6]Lona：\c[0]    Ick... Such a disgusting smell.
+\m[serious]\c[6]Lona：\c[0]    Just like they said... This area is beginning to become contaminated.
+\m[angry]\c[6]Lona：\c[0]    It's best not to touch the gross stuff on the walls...
+
+###########################################################################
+
+exit/NotFinishYet
+The missing employee must be found.
+
+QuestSawGoblin/SawGoblin_begin1
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    !!!!!!
+\CBmp[Goblin1,4]\SETpl[goblin]\Lshake\prf\c[4]Monster：\c[0]    Gu-Gu!
+\CBmp[Goblin2,5]\SETpl[goblin]\Lshake\prf\c[4]Monster：\c[0]    Gu-Cha!
+\CBmp[Goblin3,7]\SETpl[goblin]\Lshake\prf\c[4]Monster：\c[0]    Gu-Bu-Ta?!
+\CBct[6]\m[fear]\plh\c[6]Lona：\c[0]    Monsters?! More than one?
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    They look like Orkinds...
+\CBct[20]\m[shy]\c[6]Lona：\c[0]    These monsters are said to kidnap women and use them for breeding.
+\CBct[20]\m[terror]\c[6]Lona：\c[0]    It's best to go back and report this to the guild right away.
+\CBmp[FeiraCropse,19]\m[confused]\c[6]Lona：\c[0]    That must be the missing person, they look dead...
+\CBmp[ExitPoint,19]\m[serious]\c[6]Lona：\c[0]    No! I have to leave here immediately!
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    I can't take out all these monsters alone...
+
+########################################################################### RapeLoop
+
+RapeLoopHobo/Begin0
+\SETpl[raper3]\Lshake\prf\c[4]Homeless：\c[0]    Girl! It's a real girl!
+\SETpr[raper2]\plf\PRF\c[4]Homeless：\c[0]    Hey! Woohoo! Me first! Me first!!!
+\SETpl[raper1]\PLF\prf\c[4]Homeless：\c[0]    Hehe! It's been so long! My cock's itching to get wet...
+
+RapeLoopHobo/Begin1_remove_equip
+\SETpl[raper2]\Lshake\prf\c[4]Homeless：\c[0]    All her shit's mine!
+\SETpr[raper3]\plf\Rshake\c[4]Homeless：\c[0]    Fuck off, I got 'em first loser!
+
+Lona/RapeLoopDragOut
+\m[hurt]The homeless men begin to gather around Lona. They seem to have nothing but ill intentions...
+
+gay/Qmsg0
+Don't look at me like that.
+
+gay/Qmsg1
+I'm not interested in joining.
+
+gay/Qmsg2
+I just like to watch.
+
+cropseF/Qmsg0
+It's a corpse.
+
+cropseF/Qmsg1
+A corpse that has just been... used.
+
+cropseF/Qmsg2
+The body is starting to rot.
+
+########################################################################### Mob hunt quest
+
+SewerKickMobs/QUbegin1
+\m[serious]\c[6]Lona：\c[0]    Okay, these guys are causing trouble. I have to do something and stop them!
+
+SewerKickMobs/Done
+\m[triumph]\c[6]Lona：\c[0]    Well, looks like they're all dead now. Time to go back and claim the reward.
+
+Mteen/Qmsg0
+Don't hurt my mom!
+
+Mteen/Qmsg1
+Stay away from us!
+
+Mteen/Qmsg2
+Mom, don't be afraid!
+
+Mama/Qmsg0
+Please... Let us go...
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

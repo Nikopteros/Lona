@@ -1,0 +1,59 @@
+NoerRecRoom/OvermapEnter
+Восточная Торговля \optB[Отмена,Войти]
+
+#---------------------------------------------------------------------------------------------------
+teller/Unknow0
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Приветствую тебя, Лона...
+\CBct[1]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А? Кто вы? Откуда вы знаете моё имя?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Я знаю о тебе всё с тех пор, как ты родилась...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эмм... Это какая-то шутка?
+\CBid[-1,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Гадалка：\C[0]    Ты родилась в обычной, но счастливой семье торговца. К сожалению, их постигла эта катастрофа...
+\CBid[-1,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Гадалка：\C[0]    Но ты не захотела сдаваться, сейчас ты изо всех сил стараешься заработать денег. И ты хочешь покинуть это грязное место.
+\CBct[6]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    ...Кто вы?!
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Самая обычная гадалка......
+
+teller/opt
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Я могу блуждать по твоим воспоминаниям... Желаешь ли ты вспомнить что-либо...?
+
+HappyTrader/begin1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Вы видели мою жену? Она здесь по соседству! Она так красива!
+
+HappyTrader/begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Моя жена! Такая прекрасная! Милая! Изумительная! Мне все завидуют!
+
+HappyTrader/end
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Я совсем не хочу отсюда уезжать! Но я каждый день занят работой!
+\CBct[8]\m[confused]\plf\PRF Цены на все, что он продает, довольно высоки ...
+
+teller/ded0
+\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Гадалка：\C[0]    Я... отражение... твоих... собственных... желаний.....
+
+teller/ded1
+\SETpl[TellerAngry]\Lshake\prf\c[4]Гадалка：\C[0]    Я... БЕССМЕРТНА...!!!
+
+#---------------------------------------------------------------------------------------------------
+
+DatDoor/NTR0
+Не останавливайся! ♥
+
+DatDoor/NTR1
+Пососи ещё! ♥
+
+DatDoor/NTR2
+Да! ♥ Сейчас кончу! ♥
+
+DatDoor/NTR3
+Ох мля! ♥ Как же хорошо! ♥
+
+DatDoor/NTR4
+Уухх! ♥
+
+DatDoor/NTR_end
+\SETpl[TellerAngry]\Lshake\c[4]Гадалка：\C[0]    \{Что...? Кто там?!
+\SETpr[NoerGangBoss]\Rshake\c[4]Бандит：\C[0]    \{Здесь кто-то есть! Одевайся, быстро!!!
+\SETpl[TellerAngry]\Lshake\c[4]Гадалка：\C[0]    \{Это моя рубашка, идиот! А ну отдай сюда...!
+\SETpr[NoerGangBoss]\Rshake\c[4]Бандит：\C[0]    \{Быстрее! Быстрее!
+
+art/Chad
+\ph\cg[other_ChadVsVirgin]Эта картина представляет собой рассказ о силе Альфы и печали Беты.
+\m[confused]\c[6]Лона：\C[0]    Я не понимаю эту картину...

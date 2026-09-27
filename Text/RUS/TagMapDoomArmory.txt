@@ -1,0 +1,79 @@
+thisMap/OvermapEnter
+\cg[map_NoerGate]Оружейная \optB[Отмена,Войти,Прокрасться<r=HiddenOPT1>,Обмануть<r=HiddenOPT2>,Проституция<r=HiddenOPT3>]
+
+thisMap/OvermapEnter_enter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Стоять! Посторонним сюда нельзя!
+
+thisMap/OvermapEnter_SGTenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Стоять! Ты кто?
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм, вот моя служебная карточка. \c[4]Гильдия Наёмников\C[0] поручила мне скопировать записи Коммандера Брайана.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Тебе? Посмотрим\..\..\..
+
+thisMap/OvermapEnter_SGTenter_weak
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Не ври мне! Такая вялая бесполезная курица как ты не может работать на шефа.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Если это было бы так, нас бы давно уже уничтожили монстры!
+\m[sad]\plf\PRF\c[6]Лона：\C[0]    Эм... Простите....
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Проваливай!
+\narr Лона выглядит слишком слабой.
+
+thisMap/OvermapEnter_SGTenter_pass
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Аа? Мальчишка, ты, значит, работал в \c[4]Штабе\C[0] в таком малом возрасте? Весьма сурово.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Ладно, заходи.
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Мальчишка?
+
+thisMap/OvermapEnter_SNEAKenter
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Интересно, я смогла бы залезть на эту стену? Думаю, можно попробовать.
+
+thisMap/OvermapEnter_SNEAKenter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Эй! Ты чего тут делаешь?!
+
+thisMap/OvermapEnter_WISenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Стоять! Ты кто?
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Я.... Ну\..\..\..
+
+thisMap/OvermapEnter_WhoreEnter_win
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Иди на второй этаж. Не вздумай шататься по первому. Ясно?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Входи.
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Спасибо...
+
+thisMap/OvermapEnter_WhoreEnter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Парень?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Уходи! Парни нам не интересны!
+\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я... Оу, простите....
+
+
+#####################################################################################  INSIDE
+
+guns/theOne
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0]    Уф... Похоже на копьё, но с металлической трубкой на конце?
+\CBct[20]\m[pleased]\Rshake\c[6]Лона：\C[0]    Это оно!
+
+art/black
+\cg[other_Black]\m[confused]\c[6]Лона：\C[0]    Пустой холст?
+Это великолепный, неописуемый цвет, который хочет привлечь ваше внимание и заставить задуматься.
+\m[flirty]\c[6]Лона：\C[0]    Но это же просто чёрный цвет?
+
+guard/timerStart
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник：\C[0]    Кто здесь?!
+\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Чёрт!
+
+GuardDoor/Qmsg0
+Не трать слишком много времени!
+
+GuardDoor/Qmsg1
+Уходи, как только закончишь!
+
+GuardDoor/Qmsg2
+Тебе нечем здесь заняться?
+
+GuardWatcher/Qmsg0
+Как же надоело
+
+GuardWatcher/Qmsg1
+Жду своей смены
+
+GuardWatcher/Qmsg2
+Спать хочется...
+
+guns/lockedQmsg
+Закрыто

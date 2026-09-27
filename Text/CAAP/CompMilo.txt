@@ -1,0 +1,223 @@
+Milo/CecilyGroupQmsg0
+¡Guardias!
+
+Milo/CecilyGroupQmsg1
+¡Mátenlos!
+
+Milo/InBarBegin_unknow0
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Desconocido：\C[0]    Yo soy Milo von Rosendo, ¿y tú quién eres?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Hola, soy Lona Fallin.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]Milo：\C[0]    \..\..\..\..\n Lona. ¿Una insignificante mosca? No recuerdo haber visto tu nombre en la lista.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Milo：\C[0]    Vete, insignificante mosca.
+\CamCT\m[wtf]\plf\PRF\c[6]Lona：\C[0]    ¿Mmm?
+
+Milo/InBarBegin_know
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Milo：\C[0]    No eres bienvenida aquí.
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Disculpe.
+
+Milo/elseBegin
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Tienes algún problema? \optB[Cancelar,Rosendo,Noer,Sybaris]
+
+Milo/elseBegin_Rudesind
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Como sabes, los Rosendo controlan la clase alta.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Nuestras actividades abarcan todo el mundo.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Sin mí, Noertown no existiría.
+
+Milo/elseBegin_Noer
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Al igual que el nombre de esta isla: la isla Noer.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Este fue el primer lugar habitado de la isla, construido paso a paso por nuestra familia.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Antes era el principal punto de tránsito del comercio marítimo Este-Oeste.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Sybaris fue construida para reemplazar esta ciudad.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Pero la plaga que llegó hace décadas aceleró este proceso.
+
+Milo/elseBegin_Sybaris
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    No tenemos un puerto de aguas profundas, y la ciudad de Noer no puede satisfacer la creciente demanda del comercio marítimo.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    ¿Quién hubiera pensado que los barcos serían cada vez más grandes?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Hace unos 70 años, la ciudad fue fundada por empresarios de todo el mundo.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    La ciudad de Sybaris.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Y sí, nuestra familia también estuvo involucrada, pero ahora todo se ha convertido en polvo.
+
+######################################################################## Hunting ##################################
+
+Milo/QuestMilo_2to3_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    ¿Quién? ¿Quién eres tú?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Hola... Tengo una carta de invitación. Del señor... ¿Milo?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Soy Milo, ¿te enviaron a TI una carta de invitación? Déjame ver.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    \..\..\..
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Milo：\C[0]    Interesante... El guerrero del que corren rumores resulta ser una insignificante mosca.
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Yo? ¿Una insignificante mosca?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    No le des importancia, eres capaz, ¿verdad? Estoy seguro de que tienes talento.
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Talento...?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Sí, necesitamos gente fuerte.
+
+Milo/QuestMilo_3to4_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Como ya sabes, Noer está invadido por vagabundos. Esos gusanos miserables están por toda la ciudad.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Lo entiendo, no los culpo.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Cuentan todo tipo de historias trágicas, y estoy cansado de escucharlas.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Pero algunos de ellos... Los descarriados... ponen en peligro el orden que tanto nos costó establecer.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Sueñan con recuperar Sybaris... Como si eso fuera posible.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    ¿Sabes qué pasa cuando el orden se derrumba?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Lo viste con aquellos que vinieron contigo desde Sybaris.
+\CamCT\m[tired]\plf\PRF\c[6]Lona：\C[0]    Sí, vi lo que pasa...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Sabes...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Recibimos un informe sobre un criminal en las afueras.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Lo llaman... ¿Adam?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Tráeme su cabeza, y te recompensaré generosamente.
+
+Milo/QuestMilo_3to4_QuBoard
+\board[Mantener el Orden]
+Tarea：Mata a Adam
+Recompensa：Gran Medallón x5\i[582] Reputación +5
+Cliente：Milo von Rosendo
+Repetible：Una vez
+Nuestra gente informa que se aloja en una casa abandonada al noreste.
+Necesito un asesino experimentado para encargarse de esto.
+
+Milo/QuestMilo_3to4_no
+\CamCT\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡De ninguna manera!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Qué lástima, ¿en realidad solo eres una insignificante mosca?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Seguro que cambiarás de opinión.
+\CamCT\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡No soy una mosca!
+
+Milo/QuestMilo_3to4_yes
+\CamCT\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡Lo haré! ¡No soy una mosca! ¡Puedo con esto!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¡Bien! ¡Esperaré tu regreso!
+
+Milo/QuestMilo_3to4_yes_adamDed0
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ejem... Creo que está muerto...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    ¿Qué?
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\C[0]    Adam... Lo vi morir...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    ¿En serio?
+
+Milo/QuestMilo_3to4_yes_adamDed1
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Sí...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Bueno......
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Nuestro mundo está lleno de dolor.....
+\CamCT\m[tired]\plf\PRF\c[6]Lona：\C[0]    Es verdad...
+
+Milo/QuestMilo_6to7
+\CamCT\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡He vuelto!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¡Bien! Hablemos.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Trajiste su cabeza?
+
+Milo/QuestMilo_6to7_withHead0
+\CamCT\m[fear]\plf\PRF\c[6]Lona：\C[0]    Sí... Puaj...
+
+Milo/QuestMilo_6to7_withHead1
+\BonMP[Milo,4]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Ah... Adam. ¡Qué gusto verte!
+\BonMP[Milo,5]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Este gusano asqueroso causó problemas a toda la ciudad.
+\BonMP[Milo,15]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Por él murieron muchos ciudadanos y guardias.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Te gusta matar?
+\CamCT\m[tired]\plf\PRF\c[6]Lona：\C[0]    Oh....
+
+Milo/QuestMilo_6to7_withHead2
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    No estés triste, piensa en la gente que vivirá gracias a ti.
+\CamCT\m[sad]\plf\PRF\c[6]Lona：\C[0]    Gracias.....
+
+Milo/QuestMilo_6to7_NoHead0
+\CamCT\m[fear]\plf\PRF\c[6]Lona：\C[0]    Perdí su cabeza por accidente.....
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    \..\..\..
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    \..\..\..
+\CamCT\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    Pero... ¡realmente lo maté, no mentiría!
+\CamCT\m[shocked]\plf\PRF\c[6]Lona：\C[0]    Su cuerpo sigue allí. ¡En serio! ¡Envíen a alguien a comprobarlo!
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    \..\..\..
+\CamCT\m[tired]\plf\PRF\c[6]Lona：\C[0]    Ohh....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Está bien, te creo.
+
+Milo/QuestMilo_6to7_NoHead1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Toma.
+\CamCT\Bon[1]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Esto\..\..\..
+\CamCT\Bon[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Muchas gracias! ¡Gracias por creerme!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    No me des las gracias, he terminado contigo, insignificante mosca.
+
+Milo/QuestMilo_6to7_NoHead2
+\CamCT\Bon[6]\m[pleased]\plf\PRF\c[4]¡Milo es un buen tipo!
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    \..\..\..\..
+
+#################################################################################### betray Cecily? ###########################
+
+Milo/QuestMilo_9_Ignore
+\CBid[-1,20]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Desconocido：\C[0]    Lona, insignificante mosca, ¿verdad?
+\CBid[-1,5]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]Desconocido：\C[0]    Lo siento, pero ya tomaste tu decisión. Vete.
+\CamCT\m[wtf]\plf\PRF\c[6]Lona：\C[0]    ¿Eh?
+
+Milo/QuestMilo_9to10_1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Sí, hola...? Recibí tu carta de invitación.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¡Oh! Mi querida insignificante mosca, has venido.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿De qué se trata?
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Ya conociste a \c[6]Cecilia\C[0], ¿verdad?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\C[0]    La conozco, ¡es muy fanática!
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Me hablarás de ella? Me gustaría ser su amigo.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Em.... \optD[No decir,Naturalmente]
+
+Milo/QuestMilo_9to10_2_0
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡Mientes! ¡Ella dijo que tú tienes la culpa de todo esto!
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lona：\C[0]    ¡Te dedicas al tráfico de esclavos!
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    En realidad es solo un gran malentendido.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡Malentendido?!
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Escucha, les doy a estas personas una oportunidad de salir. Una oportunidad de sobrevivir.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Si no lo hiciera, te devorarían.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Lo viste? ¿Cuando te fuiste? ¿A esos refugiados que se volvieron caníbales?
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\C[0]    O-oh...
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Sí, los viste. No son diferentes a los monstruos.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Eso pasa cuando no tienen salida.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Sí, los esclavizo, eso les ayuda, ¿y sabes a dónde va el dinero?
+\CBct[20]\m[shy]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Quién crees que paga a los soldados y mercenarios?
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+
+Milo/QuestMilo_9to10_2_1
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Bueno...
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Parece que es una noble de Sybaris.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Una hermana mayor muy apasionada.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    En cuanto vemos problemas, se lanza de cabeza.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\C[0]    Y en realidad es buena, una noble que se preocupa por la gente común.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Muy bien, gracias, pero eso ya lo sabía.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    \c[6]Cecilia\C[0] practica artes marciales, lo noté cuando lo demostró en el banquete.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    Ahora... ¿Qué opina de la situación actual en Noertown?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Em.... \optD[No puedo decir,Está molesta]
+
+Milo/QuestMilo_9to10_3
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Le preocupa la situación de los refugiados y busca cómo ayudarlos.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Pero no creo que se pueda hacer algo.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Recientemente planeaba atacar a esos repugnantes traficantes de esclavos.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\C[0]    ¡Es noble y tiene sentido de justicia! ¡La admiro!
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    ¿Atacar? Cuéntame más.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Espero poder resolver este pequeño malentendido entre nosotros.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    No es algo que se pueda contar tan fácilmente...
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Estamos viviendo un apocalipsis terrible, debemos ayudarnos mutuamente-
+\cg[event_Coins]\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Quieres irte de Noer? Puedo darte los medios para hacerlo.
+
+Milo/QuestMilo_9to10_3board
+\board[Mantener el Orden]
+Tarea：Cuéntale a Milo sobre los planes de Cecilia
+Recompensa：Moneda de Oro x10\i[581]
+
+Milo/QuestMilo_9to10_3opt
+\cgoff\CBct[1]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¡DIOS! ¡¿TANTO?!
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Lo hago por mi gente, créeme.\optD[No,Contar]
+
+Milo/QuestMilo_9to10_yes0
+\CBct[8]\m[shy]\plf\PRF\c[6]Lona：\C[0]    Bueno....
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Pero... Ella casi no dijo nada... No sé los detalles.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Aunque... dijo que nos veríamos en 5 días? ¿Fueron 5 días? ¿Tal vez? ¿Creo?
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    ¿Cinco días?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... No estoy segura de que esta información valga tanto dinero.
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Sé que es inútil, pero es todo lo que sé.
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Está bien, toma el dinero.
+
+Milo/QuestMilo_9to10_yes1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Estás seguro?!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Como dije, solo quiero resolver este malentendido.
+\CBct[8]\m[triumph]\plf\PRF\c[6]Lona：\C[0]    ¡Gracias!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Por cierto, no le digas que nos vimos, su temperamento podría destruirte.
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Me encargaré personalmente de ella, una insignificante mosca no debe meterse en asuntos de nobles.
+\CBct[8]\m[pleased]\plf\PRF\c[6]Lona：\C[0]    ¡Bien!
+
+Milo/QuestMilo_9to10_refuse
+\CBct[6]\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡Nunca! ¡Ella dijo que eres malo!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    Bueno, eres una mosca muy honesta.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Eh?! ¡Pensé que te enfadarías conmigo!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Milo：\C[0]    ¿Por qué lo haría?
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]Milo：\C[0]    \..\..\..\..

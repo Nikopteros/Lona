@@ -1,0 +1,159 @@
+DedOne/ded0
+\SETpl[DedOne_revenant]\Lshake\c[4]Mysterious Stranger：\c[0]    GAAAHRUUUGAAAAAAHHH!!! IDDQD IDKFA!!!
+
+DedOne/ded1
+\SETpl[DedOne_revenant]\Lshake\c[4]Mysterious Stranger：\c[0]    REEEEEEEEEEEEEEEEEE!!! YOOOU RUINED MY SSSTORY!
+
+DedOne/ded2
+\SETpl[DedOne_revenant]\Lshake\c[4]Mysterious Stranger：\c[0]    RAAAGHAAAAAAHHHHHH!!! GUNSSS! NEED MOOORE GUNSSS!
+
+DedOne/PirateBane_begin1
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\c[4]Mysterious Stranger：\c[0]    ......
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    GAH! EEEK!!!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    .........
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    ...
+\CBct[1]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Errr...
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    Y-You can't scare me!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    ......Isss thaaat sssooo?
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    EEEYAH!!! Y-You can talk?!
+
+DedOne/PirateBane_begin_k1_Cocona
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\SETlpr[cocona_confused]\Lshake\PRF\c[4]Mysterious Stranger：\c[0]    ......Hmmm?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\PRF\c[4]Mysterious Stranger：\c[0]    Thisss chillld isss ssstillll alllive...?
+\CBfB[7]\SETlpr[cocona_shocked]\plf\Rshake\c[6]Cocona：\c[0]    Y-YOU! HISS... Cocona know you! Bad man!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Nooo sssweet chiiild, I am nooot. Fooor I am the companiooon of Jussstice.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]Cocona：\c[0]    You! Hissss... Liar!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    I am nooot.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]Cocona：\c[0]    Are too!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    \{AM NOT!!!
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]Cocona：\c[0]    .........
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\PLF\prf\c[4]Mysterious Stranger：\c[0]    ......
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]Cocona：\c[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    ...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\Lshake\PRF\c[4]Mysterious Stranger：\c[0]    Takeee gooood caaare of heeer...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh...
+\CBct[1]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Of course!
+
+
+DedOne/PirateBane_begin_k1_GratRat
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Gray Rat：\c[0]    GET BACK M'LADY!
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Gray Rat：\c[0]    You... What are you?!
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecily：\C[0]    What's wrong?
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Gray Rat：\c[0]    Don't come any closer! Stay away from it!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    ......Hmmm?
+\CBfB[2]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecily：\C[0]    Just what the Hell is going on?!
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Gray Rat：\c[0]    That creature is dangerous! You must flee!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Are yooou mad? I ammm the companiooon of Jussstice!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Exxxplain to meee wherrre haaave I prooovoked yooou?
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[6]Gray Rat：\c[0]    ......
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]Gray Rat：\c[0]    ......
+\CBfF[6]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]Gray Rat：\c[0]    I've misunderstood you, apologies Sir.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    It'sss okaaay... Happensss a looot.
+
+DedOne/PirateBane_begin_k2
+\CBmp[DedOne,20]\m[confused]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Dearessst chiiild... Haaave you eeever met sssuuuch a persssson beforeee?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Ssshesss abouuut youuur ageee... Buuut hasss a muuuch biggerrr cheeeassst.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    C-Chest.........?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Paaay atteeentiooon! Herrr breasssts are muchhh differrrent comparrred to yoursss, they'rrre enorrrmousss. I'd sssay they'rrre about the sssize of honeeeydew melonsss.
+\CBct[8]\m[shy]\plf\Rshake\c[6]Lona：\c[0]    En... Enormous.........?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Donnn't be sssooo saaad, flaaat chesssts are cuuute tooo.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    My chillld! Heeeed my wooordsss and reeemembeeer what I sssay!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    If thyyy chessst isss not flaaat, how cccan the worrrld beee equalll?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    If thyyy chessst isss not larrrge, how cccan peeeople uniiite?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    In an errrotic drrream, neiiither big nor flatnessss existsss.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    All weee can accomplisssh isss the climaxxx withhh our handsss.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Errr-... I...
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Dooon't fret... I meeereeely jessst withhh yooou.
+
+DedOne/PirateBane_begin_k3
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Ssshouuuld you eveeer crossss pathhhsss withhh a ssshort, large-breasssted, bluuue-ssskinned, and ssstupiiid girrrl, pleassse brinnng her to sssee meee.
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Wooomen with bluuue-ssskinsss are nooot commonnn, riiight? I dooo hopppe she isssn't deaaad.
+
+DedOne/PirateBane_begin_k3_Opt
+\CBct[8]\m[normal]\SETpl[DedOne_normal]\plf\PRF\c[6]Lona：\c[0]    Ummm...\optB[Never mind,Who are you?,Blue skin?<r=HiddenOPT0>]
+
+DedOne/PirateBane_begin_k3_Opt_who
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Just who... What exactly are you?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    JUSSSTIIICE! Forrr I ammm the companiooon of jussstiiice!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    Jussstiiice hasss come tooo Noeeer Isssland to ssslay all eviiil beings and purify thisss worrrld!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    Asss lonnng asss wickeeednessss exissstsss, THENNN I TOOOO SSSHALL EXISSST!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Okay...
+
+DedOne/PirateBane_begin_k3_Opt_blue_NonMeet
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    A girl with blue skin?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    There's so much chaos happening in this world right now... Surely there isn't much hope to find her, right?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    Sssheee will beee fine, I'vvve read frommm the ssscript thaaat you ssshall meet herrr in theee fuuuturrre.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Really?
+
+DedOne/PirateBane_begin_k3_Opt_blue_Meet
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ...A girl with blue skin?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I believe I've met her. Is she someone that claims to be the \c[6]Sea Witch\c[0]?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    AHHH! Sssooo my ssscript isss actuaaally being follooowed! Exxxcellennnt!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    Dooo relaaay the messssage to herrr that her laaandlord isss inforrrming heeer the reeent is duuue. Annnd teeell her nooot to try tooo hiiide anymooore.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Her rent is due? ...Why can't you tell her all of this yourself? She is currently staying at the ruins in Fishtopia Isle.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    It'sss ussseless. Ssshe can feeeel my presssenccce. I jussst wisssh tooo reminnnd her that it'sss time tooo pay uuup. If ssshe doesssn't wannnt to sssee me, I donnn't wannnt to forccce herrr.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Justice：\c[0]    Offf courssse thisss will nooot be fooor nothhhing. Commmpleeete my tasssk and I ssshall reeeward you withhh a giffft of Jussstiiice.
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Oh? Well, alright then.
+
+####################################################################### PB_MassGrave
+#<r=HiddenOPT0>
+
+DedOne/MassGrave_1
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    \..\..\..E-Excuse me?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Whaaat isss iiit?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    The people from the guild said that an evil person is doing bad things here. I don't know if you're the one responsible or not...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    ......Eeeviiil?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr... I think they might be talking about you?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    Meee? EEEVIIIL?!\optD[Yes,(Explain why)<r=HiddenOPT0>]
+
+DedOne/MassGrave_optCB
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... Yes...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    Whyyy ssso? I am fffocussed on my worrrk, and thisss world neeedsss meee.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    But you've already disturbed the law and peace.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Everyone is scared of you... And I also kind of think you're evil too.
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    REEEEEEAAAGHAAAAAAHHHHHH!!!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    WHAAAT DIIID YOU SSSAAAY?!!! I AMMM NOOOT EEEVILLL!!!\n \.\.\.I\.\.\. AM\.\.\. JUSSSTIIICE!!!
+\CBmp[DedOne,1]\SETpl[DedOne_angry]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    PRRROVE TO MEEE YOUR WORRRTHHH! I SSSHALLLL GRANNNT YOU THHHIRTY SSSECONNNDSSS!\n IFFF YOUUU CAN SSSURRRVIVE, I WILL LISSSTEN TO YOUUU!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    WHU-?! EEEP!!!
+
+DedOne/MassGrave_optCB2
+\CamMP[BlockerCam]\m[terror]\plf\PRF\c[6]Lona：\c[0]    EEEYAAAH?!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    SSSUFFFFER AND DIIIEEE! 
+
+DedOne/MassGrave_optPASS
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr... Yes...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    Whyyy ssso? I am fffocussed on my worrrk, and thisss world neeedsss meee.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Work? What kind of work are you doing?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    Thessse lossst laaambsss reeequire my guiiidanccce. I help leeead them to wheeere theeey belooong.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Mmmm... I don't understand...
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Well anyways, please try not to be seen by others. It'll just cause trouble for other people.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    I ammm doooing the worrrk of Jussstiiice! I ammm a gooood perssson, why mussst I hide whaaat I ammm doooing?
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Ugh...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Then you should go rescue innocent people instead!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Do good people loiter around in cemeteries at night? Can you answer me this?
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Mysterious Stranger：\c[0]    Urk\..\..\..\n Tiiime for meee to gooo. Gooood luuuck.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Lona：\c[0]    ...Huh?
+
+DedOne/MassGrave_optPASS2
+\CBct[20]\m[confused]\SETpl[nil]\PRF\c[6]Lona：\c[0]    Do you have brain damage or something...?
+
+DedOne/MassGrave_WIN
+\SETpl[DedOne_angry]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    YOOOU'VE SSSURRRVIVED! Immmpresssive, you arrre a gooood hunnnterrr!
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Mysterious Stranger：\c[0]    Farrreweeell!
+\CBct[20]\m[wtf]\SETpl[nil]\plf\Rshake\c[6]Lona：\c[0]    EH?! Do you have brain damage or something...?
+
+
+####################################################################### PB_NorthCP
+
+PB_NorthCP/Qmsg0
+I am... JUSSSTICE!
+
+PB_NorthCP/Qmsg1
+DO NOT BEEE AFRAAAID!
+
+PB_NorthCP/Qmsg2
+JUSSSTICE ISSS HERRRE!
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

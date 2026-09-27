@@ -1,0 +1,554 @@
+thisMap/OvermapEnter
+\m[confused]Небольшой фермерский дом в лесу \optB[Отмена,Войти]
+
+########################################## other
+
+art/apeVSgirl
+\cg[other_lous2] Любой, кто не принимает спаривание самки человека и самки орангутанга, является рабом патриарха и человеком второго сорта!
+\m[serious]\c[6]Лона：\C[0]    Ладно....
+\m[confused]\c[6]Лона：\C[0]    Что за патриарх?
+
+grave/woodson
+\board[Могильный камень]
+\c[6]Джим Вудсон：\C[0]
+1702.1.4 - 1755.9.5
+Он верный последователь истинного Святого.
+Он был последователем, что вёл за собой паству.
+Он был нашим учителем.
+
+NaughtyDick/BOW
+\SndLib[dogSpot]\c[4]Шалун Дик：\C[0]    Гав!
+
+########################################## frist time enter
+
+FristTime/Enter1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\c[4]Жена：\C[0]    Эй! Ещё один зеленокожий! Убей его! Убей!
+\CBmp[papa,5]\plf\prf\c[4]Муж：\C[0]    Ща грохну!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    А?! Меня?
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Прикончи его! Скорей!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Нет! Стойте! Я человек! Я не монстр! Не убивайте меня!
+\CBmp[papa,4]\plf\prf\c[4]Муж：\C[0]    Девочка... Она чиста?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\PLF\prf\c[4]Жена：\C[0]    ......
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Ага! Я ошиблась! Это милая девочка! На вид она чиста.
+\CBmp[papa,4]\plf\prf\c[4]Муж：\C[0]    Это женщина! Настоящая женщина!
+
+FristTime/Enter2
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Лжец! Ты хочешь в аду гореть?
+\CBmp[papa,6]\plf\prf\c[4]Муж：\C[0]    Нет, госпожа! Мысль о грехе встревожило меня лишь на миг!
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Хмф! Истинный Святой покарает тебя!
+
+FristTime/Enter3_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[6]Кокона：\C[0]    Злодеи! Грешники!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что случилось?
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[6]Кокона：\C[0]    Кокона чувствует это! Это запах того, что пострадали невинные люди!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Они плохие?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Неверные! Убить их!
+\CBfB[5]\SETlpl[cocona_shocked]\Lshake\prf\c[6]Кокона：\C[0]    Кокона защитит сестрёнку!
+
+FristTime/Enter3_grayrat
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]Грейрат：\C[0]    Погодите, кажется я её знаю....
+\CBfB[2]\SETpl[CecilyNormalAr]\plf\Lshake\c[4]Сесилия：\C[0]    Кого?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Неверные! Убить их!
+
+########################################## MAMA
+
+mama/begin1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\c[4]Жена：\C[0]    Какой редкий гость! Бедное дитя, настрадалась снаружи?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А? Я в порядке, я умею выживать.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Хвала истинному Святому! Я слышала о катастрофе в Сибарисе, не волнуйся. Мой муж - охотник, и этим чудовищам сюда не пробраться.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э... Я надеюсь, что это так?
+
+mama/begin2
+\CBmp[papa,4]\plf\prf\c[4]Муж：\C[0]    Там много монстров, очень опасно. Ты, наверное, голодна? ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Заходи к нам и отдохни перед уходом. ♥
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Э-э... \optB[Отказаться,Согласиться,Кто вы?]
+
+mama/begin_nope
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-эм... Я просто мимо проходила...
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Жена：\C[0]    Какая жалость, а то мы приготовили свиное рагу.♥
+
+mama/begin_return
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Ты наконец поняла, что лучше быть дома, чем на улице?
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Мелкая дрянь! Позже я преподам тебе урок! Живо в мою комнату!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Поняла....
+
+mama/Capture0
+\CBmp[mama,20]\m[tired]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Эй, сучка, разве ты не жена толстяка Бао? Иди и помоги жиробасу завести ребёнка!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Слушаюсь...
+
+mama/about_1
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Вы живете в такой глуши? Разве здесь небезопасно?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    О, конечно, моя дорогая! Мы, семья \c[6]Вудсов\C[0], живём здесь уже много лет.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Город полон греха и лжецов, а мы все - последователи истинного Святого!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Нас благословил истинный Святой! Он защитит нас от лжецов и грешников!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    К тому же, ты уже видела, что случилось с этими зеленокожими! Любой, кто осмелится пройти по нашей тропе, встретит свой конец!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Слава истинному Святому!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э, ясно... Спасибо за это Святому.
+
+########################################## SON
+
+son/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Пфф!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Оой!!!
+
+son/begin1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Пусти меня!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Гы, игрушка!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Игрушка! Дырка! Вставить!
+\CBmp[mama,20]\SETpr[OldSlut_normal]\plf\Rshake\c[4]Жена：\C[0]    Толстяк! Нельзя!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Отпусти!
+
+son/begin2
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    ....
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Жена：\C[0]    Прости, мой сыночек напугал тебя!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-эм... Все нормально.
+
+son/Capture
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[tired]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Игрушка! Вставить в киску!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аай!
+\CBmp[mama,20]\SETpr[OldSlut_angry]\plf\Rshake\c[4]Жена：\C[0]    Толстяк! А ну живо в свою комнату!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    У-у-ых! Ладно!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    ....
+
+son/Capture_night_t1
+\CBmp[son,2]\SETpl[FatDumbNormal]\Lshake\c[4]Толстяк Бао：\C[0]    Пуфф-пуфф?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    .... \optB[Отмена,Спросить про Святого<r=HiddenOPT1>]
+
+son/Capture_night_t2
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ты... правда веришь в истинного Святого?
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао верит! Семья верит!
+\CBct[2]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Но... последователи Святого не должны получать удовольствие на страданиях других... Это неправильно...
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Но мама говорит правильно! Мама - божественный пророк! Я должен слушаться маму! \optB[Ничего,Мама<r=HiddenOPT1>]
+
+son/Capture_night_t3
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Но твоя мама... Она сумасшедшая.
+\CBmp[son,5]\SETpl[FatDumbSad]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Ты врёшь! Врёшь! Я расскажу маме!
+\CBct[20]\m[terror]\plf\PRF\c[6]Лона：\C[0]    Нет! Подожди! Ты ведь взрослый, ты тоже можешь всеми командовать. Ты можешь заменишь свою маму.
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Правда?! Толстяк Бао уже взрослый! \optB[Ничего,Жена<r=HiddenOPT1>]
+
+son/Capture_night_t4
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ага... Если так, то уже пришло твоё время заменить их.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ты ведь тоже бы хотел всё уметь и делать, что хочешь, прямо как твои родители?
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Конечно хочу!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Я твоя жена, я сделаю ещё больше детей с тобой, и ты будешь самым главным, сможешь командовать здесь всеми, прямо как Святой.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Правда? Что Толстяк Бао должен сделать? \optB[Забудь,Убей их<r=HiddenOPT1>]
+
+son/Capture_night_t5
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Просто верни их души обратно Святому, и ты получишь их силу.
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ты понимаешь, что для этого нужно сделать.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао всё понял!
+\CBct[8]\m[confused]\plf\PRF И о чём я ему говорю....
+
+son/Capture_night_WIN
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао знает, что делать!
+
+son/Capture_Kill0
+\Rflash\SndLib[sound_gore]\c[4]Жена：\C[0]    Боже! Толстяк, что ты делаешь?!
+\Rflash\SndLib[sound_gore]\c[4]Жена：\C[0]    Не трогай меня! Не смей!!!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleDed]
+\c[4]Муж：\C[0]    Мелкая тварь! Ты что наделал?
+\c[4]Муж：\C[0]    Не смей!! Зачем ты убил Хозяйку?! Зачем?!
+\c[4]Муж：\C[0]    Я уничтожу тебя!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleGruntDed]
+\c[4]Толстяк Бао：\C[0]    Толстяк... Всё сделал...
+
+son/Capture_Kill1
+\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    ....
+\CBct[1]\m[shocked]\Rshake\c[6]Лона：\C[0]    Что!
+\CBct[2]\m[terror]\Rshake\c[6]Лона：\C[0]    ЧТО?
+\CBct[2]\m[shocked]\Rshake\c[6]Лона：\C[0]    Они погибли?
+
+son/Capture_night_Failed0
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Ладно...
+
+son/Capture_night_Failed1
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Забудь...
+
+son/Capture_night_Failed2
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Извини...
+
+########################################## FATHER
+
+papa/begin1
+\CBmp[papa,4]\SETpl[nil]\prf\c[4]Муж：\C[0]    Эй ♥ Ты, должно быть, голодная?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я?
+\CBmp[papa,20]\prf\c[4]Муж：\C[0]    Заходи, малышка ♥ Проходи и присядь ♥
+
+papa/begin2
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Да, я приготовила вкуснейшее свиное жаркое ♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оу... \optB[Забудьте,Согласиться,Кто вы?]
+
+papa/begin_nope1
+\CBct[20]\m[flirty]\c[6]Лона：\C[0]    Эм... Я просто шла мимо...
+
+papa/begin_nope2
+\CBmp[papa,5]\prf\c[4]Муж：\C[0]    Заходи! Заходи, я сказал!
+\CBct[8]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Что?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Пустите!!!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Не хочу!
+
+papa/begin_nope3
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    А ну стой! Еретик!
+
+papa/begin_nope4
+\CBmp[mama,5]\m[confused]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Как ты смеешь трогать женщину без её разрешения?! Ты хочешь умереть?!
+\CBmp[papa,6]\plf\prf\c[4]Муж：\C[0]    Прости! Это всё вина этой грешницы! Лукавое меня искушает!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Я тебя проучу как следует потом!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Хе-хе?
+
+papa/Capture
+\CBmp[papa,4]\prf\c[4]Муж：\C[0]    Попалась!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аай!
+
+papa/about_1
+\CBct[2]\m[confused]\plh\c[6]Лона：\C[0]    Что вы здесь делаете?
+\CBmp[papa,20]\prf\c[4]Муж：\C[0]    Когда моя хозяйка умрёт, она обратится в свет Святого.
+\CBmp[papa,20]\prf\c[4]Муж：\C[0]    Она - единственная последовательница, которая до сих пор чтит Святого! Я буду следовать за ней, пока не придёт конец!
+\CBct[2]\m[confused]\c[6]Лона：\C[0]    Хозяйка?
+\CBmp[papa,20]\prf\c[4]Муж：\C[0]    Ой... Жена! Жена! Точно! Она мне жена!
+\CBct[8]\m[flirty]\c[6]Лона：\C[0]    Уф...
+
+########################################## ##########################################  DINNER
+
+Dinner/begin_0
+\CBct[20]\m[pleased]\plf\Rshake\c[6]Лона：\C[0]    Спасибо за ваше гостеприимство!
+
+Dinner/begin_0_1
+\c[4]Жена：\C[0]    Благодари Святого за милость.
+\c[4]Жена：\C[0]    Благодари Святого за удобства.
+\c[4]Жена：\C[0]    Наша благодать нам досталась от Святого! Спасибо ему!
+
+Dinner/begin_1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prh\c[4]Жена：\C[0]    Вкусно?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Лона：\C[0]    Безумно! Я очень давно не ела такой вкуснятины!
+\CBmp[papa,20]\plf\prf\c[4]Муж：\C[0]   Ешь ещё! Ты такая худенькая!
+
+Dinner/begin_1_1
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Закрой рот! Еретик!
+\CBmp[papa,6]\plf\prf\c[4]Муж：\C[0]   Простите!
+
+Dinner/begin_1_2
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Дитя, как тебя зовут? Я не хочу тебя каждый раз называть «дитя».
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Меня зовут \c[6]Лона：\C[0]!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Лона? Слава Святому! Отличное имя!
+
+Dinner/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Ма! Толстяк Бао её хочет!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао хочет Лону! Толстяк Бао хочет новую игрушку ♥
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Аа?
+
+Dinner/begin_3
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Толстяк~ Тебе ещё рано жениться!
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Лона, как тебе Толстяк Бао?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм... А чего он?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Он был бы хорошим мужем для тебя! Жду не дождусь, когда смогу взять в руки своего внука! Что думаешь?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я немного не понимаю, о чём вы говорите.
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Он хороший мальчик. Он сын Святого, благословлённый на земле!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Хмм... Понятно, он хороший мальчик!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Ты тоже так думаешь? Он очень хороший мальчик.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Я скоро подам десерт. Для тебя специально добавила побольше сахара!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Оу... \optD[Попроситься уйти,Остаться за столом]
+
+Dinner/begin_3_opt_Leave
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Спасибо вам за ваше гостеприимство, но боюсь, мне пора идти.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Что?! А как же десерт?!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Извините, но мне нужно кое-что сделать.
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Жена：\C[0]    Ну, Что ж.. Осторожнее в пути!
+
+Dinner/begin_3_opt_Eat0
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Это свекольно-фруктовый чай, специально для тебя приготовила.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Спасибо вам! ♥
+
+Dinner/begin_3_opt_Eat1
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Ну как тебе?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Сладкий и с кислинкой! ♥ Мне нравится! ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Я не сомневалась!
+\CBct[20]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Но, я, что-то...
+\CBct[20]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Чувствую себя не очень хорошо..
+
+Dinner/begin_3_opt_Eat2
+\ph\narr\..\..\..\..\..
+
+########################################## ##########################################  Death when nap
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Неизвестный：\C[0]    Смерть! Умри! Проклятая грешница!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Неизвестный：\C[0]    Ты убила мою семью!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Неизвестный：\C[0]    А теперь я убью тебя! Хахахахаха-а-а-а!
+
+########################################## ##########################################  Capture
+
+Capture/FristTime_0
+\c[4]Жена：\C[0]    Толстяк! Вот твоя новая жена!
+\c[4]Толстяк Бао：\C[0]    Новая игрушка ♥
+\c[4]Жена：\C[0]    Нет, не игрушка! Сначала тебе надо на ней жениться!
+\c[4]Толстяк Бао：\C[0]    Я только попробовать! Толстяк Бао не хочет ждать!
+\c[4]Жена：\C[0]    Потерпи! Сколько угодно будешь играть с ней позже! Папа и мама тоже женились, прежде чем появился ты!
+\c[4]Толстяк Бао：\C[0]    Ла-а-а-адна...
+
+Capture/SecondTime_0
+\c[4]Жена：\C[0]    Жирное-ты-моё-сокровище! Гляди! Вот эта дешёвая пизда будет твоей игрушкой!
+\c[4]Толстяк Бао：\C[0]    Игрушка! ♥ Дай! Я хочу поиграть! ♥
+\c[4]Жена：\C[0]    Позже! Мне надо научить её, как должна вести себя женщина!
+
+########################################## ##########################################  merry
+
+merry/begin_0
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    Благослови новую пару голосом Святого.
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    Взгляд Святого будет свидетелем этого союза!
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    \c[6]Толстяк Бао Вудсон\C[0] и дешёвая пизда! Теперь вы муж и жена!
+\SndLib[sound_step_chain]\c[4]Муж：\C[0]    Святой будет вам свидетелем!
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[tired]\c[6]Лона：\C[0]    Что........
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[confused]\c[6]Лона：\C[0]    Я теперь замужем?!
+
+merry/begin_1
+\CBmp[WakeUp,8]\m[confused]\c[6]Лона：\C[0]    \..\..\..\..
+\SndLib[sound_step_chain]\CBmp[WakeUp,1]\m[shocked]\Rshake\c[6]Лона：\C[0]    Что со мной? Где я?!
+\SndLib[sound_step_chain]\CBmp[WakeUp,20]\m[terror]\Rshake\c[6]Лона：\C[0]    Почему я не могу двигаться?? Это цепи? Что вы со мной сделали?!
+
+merry/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Дырка-игрушка! Гхы-ы-ы!
+\CBmp[WakeUp,20]\m[bereft]\Rshake\c[6]Лона：\C[0]    Не приближайся!!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    О, уже проснулась? Отныне, ты его жена.
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Жена?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Хмм, я думаю, ты справишься. Я вижу, что ты вполне способна рожать детей ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Толстяк - сын божий ♥ А ты мне принесёшь внуков божьих ♥
+\CBmp[WakeUp,20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Что.. О чём вы говорите?!
+
+merry/begin_3
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Дырка! ♥
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Нет! Уйди от меня! Я не хочу иметь детей от незнакомцев!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Это не незнакомец! Это твой любимый новый муж! Ты должна слушаться своего мужа! Ты должна служить Святому всю свою жизнь!
+
+merry/begin_4
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао очень нежный ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Давай, сыночек! Святой будут наблюдать за тобой!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Отпустите меня!! Не дайте ему меня трогать!
+
+merry/begin_5
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао входит в свою жену ♥
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Нет!! Нет, вытащи!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк：\C[0]    Хоу хоу хоу ♥
+
+merry/begin_6
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Вжух! Толстяк Бао очень счастлив!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    А-ай!..
+
+merry/begin_7
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Мамочка! Не трогай мои яички! Святой, помогите!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Нет! Не кончай снова!!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Закончай эту пизду как следует! Нам всем нужно, чтобы эта пизда забеременела и сделала тебе детей!
+
+merry/begin_8
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]Толстяк Бао：\C[0]    О-о-о-у-у-у-а-ах!
+\CBmp[son,6]\SETpl[FatDumbSad]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Мама! Хватит щипать мои яички! Толстяк Бао не может кончить!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Кончай! Кончай в неё в третий раз! Пусть её пизда будет переполнена твоей спермой, сыночек!
+
+merry/begin_9
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Во-о-от так! Хороший мальчик! Святой тобой гордятся, эта пизда точно залетит!
+\CBct[20]\m[sad]\plf\Rshake\c[6]Лона：\C[0]    *Хнык*... Зачем вы так со мной поступаете...
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Пизда! Я решила сегодня дать тебе погулять! Вернёшься обратно днём! Так как ты жена Жирного Ишака, ты должна слушаться всех \c[6]Вудсонов\C[0]!
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Всю свою жалкую жизнь!
+
+########################################## ##########################################  Daily RapeLoop
+
+DailyRapeWake/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Ряфф ♥ Толстяк Бао хочет поиграться с пиздой!
+
+DailyRapeWake/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Ряфф ♥ Толстяк Бао сейчас влезет в дырочку!
+
+DailyRapeWake/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Ууаахх ♥ Толстяк Бао хочет кончить!
+
+DailyRapeNap/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Мммх ♥ Толстяк Бао нашёл пизду!
+
+DailyRapeNap/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао нашёл пизду ♥ Всунуть!
+
+DailyRapeNap/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Пиздёнка! Пизда знакомится с хуём ♥
+
+DailyRapeEnd/Begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао наигрался! ♥ Пока-пока, пизда!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона：\C[0]    .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Дырочка такая хорошая! ♥ Пизда!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона：\C[0]    .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Жопка тоже хорошая! ♥ Пизда хорошая!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона：\C[0]    .....
+
+DailyRapeEnd/Begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Хороший член ♥ Шикарная пизда!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона：\C[0]    .....
+
+
+########################################## #daily semen check
+
+SemenCheck/begin_0
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    Толстяк! Какого хрена ты творишь?!
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    Почему ты накончал в неё так мало?!
+\c[4]Толстяк Бао：\C[0]    Прости, мама!
+
+SemenCheck/begin_1
+\CBmp[WakeUp,8]\m[tired]\c[6]Лона：\C[0]    \..\..\..
+
+SemenCheck/begin_2
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао будет стараться ебать её лучше!
+
+SemenCheck/begin_3
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Ууурррх! Толстяк Бао кончает! Дырка!
+\CBmp[WakeUp,8]\m[sexhurt]\c[6]Лона：\C[0]    *Хнык*....
+
+SemenCheck/begin_4
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Ну вот опять! Во имя Святого, ты должен кончать в неё изо всех своих сил! Ты же мужчина, старайся лучше!
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]Толстяк Бао：\C[0]    Толстяк Бао понимает! Толстяк Бао будет слушаться маму!
+\CBmp[WakeUp,8]\m[pain]\plf\PRF\c[6]Лона：\C[0]    ....
+
+########################################## #daily torture
+
+Torture/begin_0_Basic
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    Сука! Ты нарушаешь волю Святого!
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    А ну вставай! Вставай!
+
+Torture/begin_0_PapaRaped
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    Сука!! Как ты смеешь изменять своему мужу с моим?!
+\SndLib[sound_step_chain]\c[4]Жена：\C[0]    А ну вставай! Вставай!
+
+Torture/begin_2
+\SndLib[sound_hit_whip]\m[p5health_damage]\Rshake\c[6]Лона：\C[0]    Ай!?
+
+Torture/begin_3
+\CBmp[torturePT,20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Что произошло?! Что не так!?
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Пизда! Ты сама знаешь, что ты натворила!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Ты оскорбила волю Святого! Теперь ты заслуживаешь наказание!
+
+Torture/begin_4
+\CBmp[torturePT,6]\m[terror]\Rshake\c[6]Лона：\C[0]    Стойте! Не надо! Нет!
+\CBmp[torturePT,6]\m[bereft]\Rshake\c[6]Лона：\C[0]    Пожалуйста! Простите меня!
+
+Torture/begin_5
+\CBmp[torturePT,6]\m[pain]\Rshake\c[6]Лона：\C[0]    Айй! Я была неправа! Прошу, простите меня!
+\CBmp[torturePT,6]\m[hurt]\Rshake\c[6]Лона：\C[0]    Простите! Умоляю вас....
+
+Torture/begin_6
+\CBmp[torturePT,6]\m[tired]\Rshake\c[6]Лона：\C[0]    Оохх....
+
+########################################## #daily Breakfast
+
+breakFast/begin_0
+\CBmp[MainTable,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    А ну быстро в комнату! Время обедать!
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Иду...
+
+breakFast/begin_1
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Благодарим Святому за милость.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Благодарим Святому за удобства.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Наша еда сегодня нам дана от Святого! Слава Святому!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Слава Святому...
+
+########################################## ########################################## #daily job
+########################################## Grass
+
+JobGrass/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Иди повырывай сорняки в поле!
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    И не ленись!
+\CamMP[Farm]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Хорошо...
+
+JobGrass/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Как ты смеешь лениться?! Иди закончи с сорняками!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Простите!!
+
+JobGrass/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Всё вырвала? Вот умничка!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Давай обратно в кровать и жди. Толстяк будет тебя ебать!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Иду...
+
+JobGrass/failed
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Ты медленная! Ты думаешь, можно быть такой тормознутой?
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Простите! Только не бейте!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Ох! Я преподам тебе урок позже!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    ООххх....
+
+########################################## feed chicken
+
+JobFeed/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Ты видела у нас кур?
+\CamMP[FoodB]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Иди скорми им остатки еды! И не ленись в этот раз!
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Хорошо...
+
+JobFeed/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Хорошо! Курочки выглядят довольными!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    А теперь бегом в кровать, Толстяк сегодня будет снова тебя ебать!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Эхх...
+
+JobFeed/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Какого дьявола ты слоняешься? Ты покормила курочек?!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Я как раз этим занимаюсь!!
+
+########################################## suck genital
+
+JobSuck/begin_1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Эй, мелкая пизда! Сюда!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Мамина и Папина промежности давненько не были подмыты и уже изрядно воняют.
+\CBmp[papa,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Вылижи мою вагину своим языком, а потом иди и скажи идиоту, что ты будешь начисто обсасывать его хуй. А ещё передай, что он может не сдерживаться и кончать тебе в рот, если захочет!
+\CBct[8]\m[terror]\plf\PRF\c[6]Лона：\C[0]    Вы это серьёзно...?
+
+JobSuck/Mama_start
+!!!!!
+\narr Перед Лоной стоит старая, воняющая блядь!
+
+JobSuck/Mama_doneButPapa
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Вот так хорошо, да... ♥ Теперь иди к этому идиоту. Он ждёт когда ты почистишь его хуй ♥
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Ладно...
+
+JobSuck/Mama_PapaNotDone
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Жена：\C[0]    Я же велела тебе помыть хуй этого идиота! Ты что, не слышала меня?
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Ой....
+
+JobSuck/Mama_begin1
+\m[fear]\c[6]Лона：\C[0]    ....
+\m[sad]\c[6]Лона：\C[0]    Меня тошнит....
+
+JobSuck/Mama_begin2
+\c[4]Жена：\C[0]    Видишь, какая грязная у меня вагина? Вылизывай всё как следует и не выёбывайся. Дочиста! Чтобы ничем не пахло!
+\narr У женщины там густые заросли, а воняет так, будто бы в её вагине рыба сдохла и начала разлагаться.
+
+JobSuck/Mama_begin3
+\c[4]Жена：\C[0]    Да! Очень хорошо! Вот так, вылизывай ♥
+
+JobSuck/Mama_begin4
+\c[4]Жена：\C[0]    Не плюйся! Засунь свой язык поглубже ♥
+
+JobSuck/Mama_begin5
+\c[4]Жена：\C[0]    О да... ♥ Вот так, не останавливайся.. ♥ Я кончаю! ♥
+
+JobSuck/Mama_begin6
+......
+
+JobSuck/Mama_begin7
+.....
+
+JobSuck/Mama_begin8
+...
+
+JobSuckw/win
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Вот так умница, как тебе на вкус моя грязная вагина?
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Очень вкусно, мамочка...
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Жена：\C[0]    Я и не сомневалась, ты всегда будешь лизать, сосать и подставляться всей нашей дружной семье ♥
+
+JobSuck/Papa_start
+\CBct[8]\m[fear]\PRF\c[6]Лона：\C[0]    Мама сказала, что вы можете кончить мне в рот...
+\CBct[8]\m[pain]\PRF\c[6]Лона：\C[0]    Она велела мне отмыть ваш член...
+\CBmp[papa,20]\prf\c[4]Отец：\C[0]    Отлично! Отлично!! Слава Святому!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ....
+
+JobSuck/Papa_Done
+\CBmp[papa,20]\prf\c[4]Отец：\C[0]    Ууухх! Наконец-то я кончил! Спасибо Хозяйке! Спасибо Святому!
+\CBct[8]\m[sad]\PRF\c[6]Лона：\C[0]    Кхе....
+
+JobSuck/Papa_refuse
+\CBmp[papa,5]\prf\c[4]Отец：\C[0]    Хозяйка дала приказ! У тебя нет права отказаться!

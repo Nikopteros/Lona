@@ -1,0 +1,888 @@
+#return _slave			if $lona_stats[SlaveBrand] ==1
+#return _maggot		if $game_actors[1].dirt >= 200 <r=HiddenOPT1>
+#return _sexy			if $game_actors[1].sexy >= 100
+#return _weaker		if $game_actors[1].weak >= 100
+#return _moot			if $lona_stats[moot] ==1
+#return _lona
+
+RandomNpc/OptUsed
+Already done it.
+
+RandomNpc/choosed
+\ph\..\..\..\WF[10]
+
+#--------------------------------------------------------------------------- Overmap NoerHomeless
+
+NoerHomeless/beginM0
+\c[4]Refugee：\c[0]    Spare somethin'... Anything... Miss...
+
+NoerHomeless/beginM1
+\c[4]Refugee：\c[0]    So hungry... Help me...
+
+NoerHomeless/beginM2
+\c[4]Refugee：\c[0]    Miss... Please... Be kind...
+
+NoerHomeless/beginF0
+\c[4]Refugee：\c[0]    Let me have something...
+
+NoerHomeless/beginF1
+\c[4]Refugee：\c[0]    I'm so hungry...
+
+NoerHomeless/beginF2
+\c[4]Refugee：\c[0]    Please be nice...
+
+NoerHomeless/Begin2
+\c[4]Refugee：\c[0]    .........
+
+NoerHomeless/END_Good0
+\c[4]Refugee：\c[0]    I will remember your kindness!
+
+NoerHomeless/END_Good1
+\c[4]Refugee：\c[0]    Thanks a lot!
+
+NoerHomeless/END_Good2
+\c[4]Refugee：\c[0]    Thank you for your generosity!
+
+NoerHalp/get_reward0
+\c[4]Refugee：\c[0]    Oh thank you! Thank you so much for helping me! Here, take this! Just take this as my gratitude!
+
+NoerHalp/get_reward1_0
+\c[4]Refugee：\c[0]    Saint be with you!
+
+NoerHalp/get_reward1_1
+\c[4]Refugee：\c[0]    Thank you so much again!!!
+
+#--------------------------------------------------------------------------- Overmap NoerMissionary
+
+NoerMissionary/Begin0
+\c[4]Missionary：\c[0]    Let the Saint guide you!
+
+NoerMissionary/Begin1
+\board[Donate for public morals]
+Every 1,000 Trade Points will reduce the World Difficulty by a little, up to a limit of 10.
+The Saint will purify the sins and evil of the world! Praise the Saint!
+The current World Difficulty is \c[4] #{$story_stats["WorldDifficulty"].round(2)} \c[0].
+
+NoerMissionary/END_Good
+\c[4]Missionary：\c[0]    The Saint will guide your way!
+
+NoerMissionary/END_Bad
+\c[4]Missionary：\c[0]    SINNER!!! The Saint shall purify you!
+\m[shocked]\plf\PRF\c[6]Lona：\c[0]    What?! N-No way!
+
+NoerMissionary/Qmsg
+Praise the Saint!
+
+#--------------------------------------------------------------------------- Overmap Quest Giver
+
+Qgiver/ConvoyToNoer_begin0
+\c[4]Refugee：\c[0]    I hope you can help us.
+
+Qgiver/ConvoyToNoer_begin1
+\c[4]Refugee：\c[0]    Deliver them safely to Noer.
+
+Qgiver/ConvoyToNoer_board
+\board[Escort to the Town of Noer]
+Objective：Escort the refugees to the streets of Noer Town.
+Reward：Big Copper Coin x1, Morality +5
+Client：Refugee
+Duration：5 days
+
+Qgiver/ConvoyToHobo_begin1
+\c[4]Refugee：\c[0]    Please make sure they reach the refugee camp safely.
+
+Qgiver/ConvoyToHobo_board
+\board[Escort refugees to a refugee camp]
+Objective：Escort the refugees to a Refugee Camp or the Slums.
+Reward：Small Copper Coins x5, Morality +2
+Client：Refugee
+Duration：5 days
+
+Qgiver/ConvoyToNoer_accept
+\prf\c[4]Refugee：\c[0]    Thank you.
+
+Qtarget/Arrivel
+\prf\c[4]Refugee：\c[0]    Thank you, we will spread word about your good deeds.
+
+#-------------------#------COMMON CONVOY TARGET(victim)
+
+victim/Convoy_opt
+\plf\c[4]Wounded：\c[0]    *Sniff*... Are you here to save me? \optB[No,Yes]
+
+victim/Convoy_start0
+\plf\c[4]Wounded：\c[0]    Ok... I will follow you.
+
+victim/Convoy_start1
+\board[Escorting the Wounded]
+Escort the target within 3x3 of the exit and talk to them.
+Lona must not sleep and the target must not die during the process.
+
+victim/Convoy_start2
+\board[Escort to the Town of Noer]
+Objective：Escort the wounded to the streets of Noer Town.
+The target must not die during the process.
+
+############################## COMMON EXT Convoy
+
+
+NPC/CommonConvoyTarget0
+\prf\c[4]Refugee：\c[0]    Are we there yet?
+
+NPC/CommonConvoyTarget1
+\prf\c[4]Refugee：\c[0]    Faster!
+
+NPC/CommonConvoyTarget2
+\prf\c[4]Refugee：\c[0]    Do something...
+
+
+##------------------------------------------common---------------------------------------------------sex trade
+
+RandomNpc/WhoreWork_normal
+\CBct[20]\cg[event_WhoreWork]\m[shy]\c[6]Lona：\c[0]    Excuse me, S-Sir... Are you interested in me...?
+
+RandomNpc/WhoreWork_tsun
+\CBct[6]\cg[event_WhoreWork]\m[terror]\c[6](No choice... I need the money...)
+\CBct[6]\m[bereft]\Rshake\c[6](Last resort!)\c[0] Hey. I-If you pay me... We can...
+
+RandomNpc/WhoreWork_weak
+\CBct[8]\cg[event_WhoreWork]\m[fear]\c[6]Lona：\c[0]    M-Mister...\n D-D-Do you... want... me......?
+
+RandomNpc/WhoreWork_slut
+\CBct[4]\cg[event_WhoreWork]\m[triumph]\c[6]Lona：\c[0]    Fufu.~ ♫ Hey Handsome!\n Wanna have a little adult fun...?~ ♥
+
+RandomNpc/WhoreWork_overfatigue
+\CBct[8]\cg[event_WhoreWork]\m[tired]\c[6]Lona：\c[0]    ......
+
+RandomNpc/WhoreWork_mouth_block
+\CBct[8]\cg[event_WhoreWork]\m[sad]\c[6]Lona：\c[0]    ...Mmmmph...
+
+RandomNpc/WhoreWork_win
+\BonID[-1,4]\m[shy]\cgoff\narr Success.
+
+RandomNpc/WhoreWork_failed
+\BonID[-1,4]\m[sad]\cgoff Failed, they're not interest in Lona.
+
+RandomNpc/WhoreWork_win_opt_win
+\CBct[8]\m[shy]\c[6]Lona：\c[0]    Ummm...
+
+prostituation/CustomerPick0
+They requested Lona for a 
+
+prostituation/CustomerPick1
+ service.
+
+prostituation/CustomerPick2_CumInside
+ And they want to cum inside Lona.
+
+prostituation/CustomerPick2_CumOutside
+ And they promised to cum outside.
+
+prostituation/reward0
+ They will pay Lona 
+
+prostituation/reward1
+ times the amount of Trade Points.
+
+prostituation/Handjob
+Handjob
+
+prostituation/Blowjob
+Blowjob
+
+prostituation/Anal
+Anal
+
+prostituation/Virgin
+(Say you're a virgin.)
+
+prostituation/Vaginal
+Vaginal
+
+prostituation/SemiAuto
+Manual QTE
+
+prostituation/FullAuto
+Passive
+
+prostituation/Repent
+Repent
+
+prostituation/Wisdom
+(Ask for more.)
+
+prostituation/Full
+Full service
+
+prostituation/CumInside
+Let them cum inside.
+
+prostituation/CumOutside
+Tell them to cum outside.
+
+prostituation/Nymph
+(Have sex for free.)
+
+prostituation/CumInside_dialog_typical
+\m[shy]\Rshake\c[6]Lona：\c[0]    You... You can cum inside me...
+
+prostituation/CumInside_dialog_tsundere
+\m[sad]\Rshake\c[6]Lona：\c[0]    Inside... I said inside! Y-You're lucky I'm giving you permission!
+
+prostituation/CumInside_dialog_gloomy
+\m[shy]\Rshake\c[6]Lona：\c[0]    Ummm...... I-Inside would be... okay...
+
+prostituation/CumInside_dialog_slut
+\m[lewd]\Rshake\c[6]Lona：\c[0]    Inside...! Cum inside me! I want to feel your hot load in my body!!!
+
+prostituation/CumOutside_dialog_typical
+\m[terror]\Rshake\c[6]Lona：\c[0]    You can't cum inside! Please, you have to cum outside! O-Okay?
+
+prostituation/CumOutside_dialog_tsundere
+\m[wtf]\Rshake\c[6]Lona：\c[0]    Outside! Y-You better cum outside or I'll-... P-Please cum outside!!!
+
+prostituation/CumOutside_dialog_gloomy
+\m[bereft]\Rshake\c[6]Lona：\c[0]    N-No! N-Not inside me! You have to c-... cum o-outside...! P-Please......
+
+prostituation/CumOutside_dialog_slut
+\m[flirty]\Rshake\c[6]Lona：\c[0]    Ahh! Pull out and shoot your load on me! I want to feel your cum all over my body!
+
+prostituation/CumOutside_dialog_CustomerHappy
+\narr They says that cumming outside is his favorite, and he's very happy about it...
+
+prostituation/CumOutside_dialog_CustomerMad
+\narr They says that cumming outside is his favorite, and he's really mad about it...
+
+###############
+
+prostituation/Virgin_dialog_typical
+\m[shy]\Rshake\c[6]Lona：\c[0]    Ummm\.... I-I'm still a virgin\.......
+
+prostituation/Virgin_dialog_tsundere
+\m[shy]\Rshake\c[6]Lona：\c[0]    *Ahem* I'm\.... Err\.... I've n-never done this before... Having s-sex...
+
+prostituation/Virgin_dialog_gloomy
+\m[shy]\Rshake\c[6]Lona：\c[0]    ...W\.... Wait\....! I\.... s-still have my\.... h-hymen\.......
+
+prostituation/Virgin_dialog_slut
+\m[shy]\Rshake\c[6]Lona：\c[0]    By the way, I haven't been deflowered yet! You can be the first to pop my cherry...~ ♥
+
+prostituation/Virgin_dialog_ans
+\narr The customer smiled with glee and excitement when Lona informed them she was a virgin.
+
+prostituation/Virgin_dialog_faggot
+\narr The customer told Lona she should save her virginity for her husband.
+
+################
+
+prostituation/Nymph_dialog
+\m[lewd]\c[6]Lona：\c[0]    Never mind, you don't need to pay me... I just want to have sex! ♥
+\narr The customer was delighted to hear what Lona just said!
+
+prostituation/Wisdom_dialog
+\m[shy]\c[6]Lona：\c[0]    Hey, don't you want me to give you a VIP experience? For just a little more...
+
+prostituation/Wisdom_dialog_more
+\m[shy]\c[6]Lona：\c[0]    Mmmm... Such service requires a lot more payment...
+
+prostituation/Wisdom_dialog_angry
+\narr They're beginning to lose their patience...
+
+prostituation/Repent_dialog
+\m[flirty]\c[6]Lona：\c[0]    Umm... On second thought, never mind...
+
+prostituation/Repent_dialog_aggro
+\narr Lona has changed her mind, but the customer looks pissed off now!
+
+prostituation/Repent_blocked_slot
+\narr The slot does not allow to plugin.
+\narr Customer looks pissed off now!
+
+prostituation/Aggro
+\narr The customer looks pissed off now! They attack Lona in anger!
+\narrOFF\m[terror]\Rshake\c[6]Lona：\c[0]    Ehhh?! W-Wait...!
+
+RandomNpc/WhoreWork_win_opt_lose
+\narr Lona is too weak, and can only do what the other person wants...
+
+RandomNpc/WhoreWork_GotoPoint
+\narr Lona is forced into a dark corner by the other person...
+
+RandomNpc/WhoreWork_failed_GuardWrongPlace
+Don't mess around here!
+
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+
+GoblinRandomNpc/CommonGoblin_begin1_0
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]Goblin：\c[0]    Gu-guwee... Meat... Hole?
+
+GoblinRandomNpc/CommonGoblin_begin1_1
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]Goblin：\c[0]    Gu-cha! Gu-bu-wa-dah meat hole?
+
+GoblinRandomNpc/CommonGoblin_begin1_2
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]Goblin：\c[0]    Gu-bu-dah?!
+
+GoblinRandomNpc/CommonGoblin_CommonNpcOpt
+\SndLib[sound_goblin_roar]\SETpl[goblin]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm...?
+
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+
+OrcRandomNpc/CommonOrc_begin1_0
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]Orc：\c[0]    Haa-hee-hee!! Meat!!
+
+OrcRandomNpc/CommonOrc_begin1_1
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]Orc：\c[0]    Eat meat! Meat hole! Heehee!
+
+OrcRandomNpc/CommonOrc_begin1_2
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]Orc：\c[0]    Haa-hee! Meat hole! MEAT HOLE!
+
+OrcRandomNpc/CommonOrc_CommonNpcOpt
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Errr...?
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/CommonHuman_begin1_slave
+\c[4]Passerby：\c[0]    Outta my way! Filthy slave.
+
+MaleHumanRandomNpc/CommonHuman_begin1_maggot
+\c[4]Passerby：\c[0]    Gross, get away!
+
+MaleHumanRandomNpc/CommonHuman_begin1_sexy
+\c[4]Passerby：\c[0]    Oh? H-How can I help you m'lady?
+
+MaleHumanRandomNpc/CommonHuman_begin1_weaker
+\c[4]Passerby：\c[0]    A beggar? Leave me alone.
+
+MaleHumanRandomNpc/CommonHuman_begin1_moot
+\c[4]Passerby：\c[0]    Dirty rat, whaddya want?!
+
+MaleHumanRandomNpc/CommonHuman_begin1_lona
+\c[4]Passerby：\c[0]    Need something?
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleGuardWild/CommonHuman_begin1_slave
+\c[4]Mercenary：\c[0]    A slave? Let me refresh myself with you!
+
+MaleGuardWild/CommonHuman_begin1_maggot
+\c[4]Mercenary：\c[0]    Disgusting! Get away from me!
+
+MaleGuardWild/CommonHuman_begin1_sexy
+\c[4]Mercenary：\c[0]    Hey, you! Are you a new sex slave?
+
+MaleGuardWild/CommonHuman_begin1_weaker
+\c[4]Mercenary：\c[0]    Fucking beggars! Go away! Shoo!
+
+MaleGuardWild/CommonHuman_begin1_moot
+\c[4]Mercenary：\c[0]    Dirty rat! Stop staring! Go away!
+
+MaleGuardWild/CommonHuman_begin1_lona
+\c[4]Mercenary：\c[0]    What? Can't you see I'm busy?!
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleDoomed/CommonHuman0
+\c[4]Passerby：\c[0]    *Sigh* The world is gonna end...
+
+MaleDoomed/CommonHuman1
+\c[4]Passerby：\c[0]    The worlds going to end soon, let me have some fun with you before we die!
+
+MaleDoomed/CommonHuman2
+\c[4]Passerby：\c[0]    It's no use... The Saint has forsaken us all!
+
+#---------------------#-------------------#---------------------Sailer-------------------------------
+
+MaleNoerDockNpc/Sailer_slave
+\c[4]Sailor：\c[0]    It's a slave! Hehehee...
+
+MaleNoerDockNpc/Sailer_maggot
+\c[4]Sailor：\c[0]    Bleedin' hell! Ya smell like a corpse, stay the fuck away ya pig.
+
+MaleNoerDockNpc/Sailer_sexy
+\c[4]Sailor：\c[0]    Oi lassie! Wanna feel good?! I'll show ya a good time...
+
+MaleNoerDockNpc/Sailer_weaker
+\c[4]Sailor：\c[0]    Hey! How's about you help me 'ere with dat pretty mouth a' yours?
+
+MaleNoerDockNpc/Sailer_moot
+\c[4]Sailor：\c[0]    Don't be botherin' me! Fuck off!
+
+MaleNoerDockNpc/Sailer_lona
+\c[4]Sailor：\c[0]    What? Don't ya bloody see I'm workin'?
+
+#---------------------#-------------------#---------------------BS GAng-------------------------------
+
+CommonGangMember/commonBegin_lona
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Gangster：\c[0]    What are you looking at?
+
+CommonGangMember/commonBegin_maggot
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Gangster：\c[0]    Looking for trouble?
+
+CommonGangMember/commonBegin_sexy
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]Gangster：\c[0]    Um？
+\CBid[0,4]\SETpl[MobHumanCommoner]\Lshake\c[4]Gangster：\c[0]    \..\..\.. Heh♥
+
+CommonGangMember/commonBegin_weaker
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]Gangster：\c[0]    Are you a new sex slave?
+
+CommonGangMember/commonBegin_moot
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]Gangster：\c[0]    Where did this NIGGER come from? Get lost!
+
+CommonGangMember/commonBegin_slave
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]Gangster：\c[0]    Get back in the kitchen and make your man a sandwich!
+
+#---------------------#-------------------#---------------------
+
+MaleHumanRandomNpc/CommonHuman_CommonNpcOpt
+\m[confused]\c[6]Lona：\c[0]    Ummm...
+
+commonNPC/Cancel
+Never mind
+
+commonNPC/Barter
+Barter
+
+commonNPC/Prostitution
+Prostitution
+
+commonNPC/SexService
+Sexual service
+
+commonNPC/Talk
+Talk
+
+commonNPC/Threaten
+Threaten
+
+commonNPC/Begging
+Beg
+
+commonNPC/About
+About
+
+commonNPC/Work
+Work
+
+commonNPC/Convoy
+Mercenary
+
+commonNPC/Slave
+Slave
+
+commonNPC/Steal
+Burglarize
+
+commonNPC/Deceive
+Deceive
+
+commonNPC/Yes
+Yes
+
+commonNPC/Storage
+Deposit/Withdraw
+
+commonNPC/Chat
+Talk
+
+commonNPC/opt_ex_LoanInfo
+Loan information
+
+commonNPC/opt_ex_Loan
+Loan
+
+commonNPC/opt_ex_Repayment
+Repayment
+
+commonNPC/opt_ex_Donation
+Donation
+
+commonNPC/opt_ex_Employee
+Become an Employee
+
+commonNPC/work_opt_ex_nothing
+Do nothing
+
+commonNPC/work_opt_ex_whore
+Backstreet Hooker
+
+commonNPC/opt_PawnItems
+Pawn items
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/HoboM_begin1_slave
+\c[4]Beggar：\c[0]    Guh! Don't touch me!
+
+MaleHumanRandomNpc/HoboM_begin1_maggot
+\c[4]Beggar：\c[0]    Agh! Stay away!
+
+MaleHumanRandomNpc/HoboM_begin1_sexy
+\c[4]Beggar：\c[0]    Oh ho ho ho...
+
+MaleHumanRandomNpc/HoboM_begin1_weaker
+\c[4]Beggar：\c[0]    WHAT?!
+
+MaleHumanRandomNpc/HoboM_begin1_moot
+\c[4]Beggar：\c[0]    Don't bother me!
+
+MaleHumanRandomNpc/HoboM_begin1_lona
+\c[4]Beggar：\c[0]    Huh? Whaddya want? Spare some change?
+
+
+MaleHumanRandomNpc/HoboF_begin1_slave
+\c[4]Beggar：\c[0]    A slave? Maybe I should sell myself too...
+
+MaleHumanRandomNpc/HoboF_begin1_maggot
+\c[4]Beggar：\c[0]    It seems like you're suffering just like me.
+
+MaleHumanRandomNpc/HoboF_begin1_sexy
+\c[4]Beggar：\c[0]    Sellin' your body too? At these times, it's the only way to survive...
+
+MaleHumanRandomNpc/HoboF_begin1_weaker
+\c[4]Beggar：\c[0]    You look like you've been abused, I know how that's like...
+
+MaleHumanRandomNpc/HoboF_begin1_moot
+\c[4]Beggar：\c[0]    Wonder if I'll be able to eat today...
+
+MaleHumanRandomNpc/HoboF_begin1_lona
+\c[4]Beggar：\c[0]    So hungry... Can you help me...?
+
+
+MaleHumanNoerNpc/PplM_begin1_slave
+\c[4]Citizen：\c[0]    Dirty slave! Beat it!
+
+MaleHumanNoerNpc/PplM_begin1_maggot
+\c[4]Citizen：\c[0]    Go away! Filthy kid!
+
+MaleHumanNoerNpc/PplM_begin1_sexy
+\c[4]Citizen：\c[0]    Hehe... Yes?
+
+MaleHumanNoerNpc/PplM_begin1_weaker
+\c[4]Citizen：\c[0]    What? I have no money for you!
+
+MaleHumanNoerNpc/PplM_begin1_moot
+\c[4]Citizen：\c[0]    Go away! Disgusting mutt!
+
+MaleHumanNoerNpc/PplM_begin1_lona
+\c[4]Citizen：\c[0]    Huh? What's up?
+
+
+MaleHumanGangNpc/PplM_begin1_slave
+\c[4]Rogue：\c[0]    Hey, you bitch! Fuck off! Stupid slave!
+
+MaleHumanGangNpc/PplM_begin1_maggot
+\c[4]Rogue：\c[0]    Go away! Fuckin' gross!
+
+MaleHumanGangNpc/PplM_begin1_sexy
+\c[4]Rogue：\c[0]    Oohhuhu... You talkin' to me?
+
+MaleHumanGangNpc/PplM_begin1_weaker
+\c[4]Rogue：\c[0]    What? I have no fuckin' money! Screw off!
+
+MaleHumanGangNpc/PplM_begin1_moot
+\c[4]Rogue：\c[0]    Fuck off! Filthy fuckin' half-breed rat!
+
+MaleHumanGangNpc/PplM_begin1_lona
+\c[4]Rogue：\c[0]    Huh? The hell do ya want?
+
+
+MaleHumanNoerNpc/PplF_begin1_slave
+\c[4]Citizen：\c[0]    Filthy slave! Guh!
+
+MaleHumanNoerNpc/PplF_begin1_maggot
+\c[4]Citizen：\c[0]    Smells so bad! W-What?!
+
+MaleHumanNoerNpc/PplF_begin1_sexy
+\c[4]Citizen：\c[0]    A prostitute? Here?! What do you want?
+
+MaleHumanNoerNpc/PplF_begin1_weaker
+\c[4]Citizen：\c[0]    I have no money for you! Go away!
+
+MaleHumanNoerNpc/PplF_begin1_moot
+\c[4]Citizen：\c[0]    A half-breed? What do you want?
+
+MaleHumanNoerNpc/PplF_begin1_lona
+\c[4]Citizen：\c[0]    Yes?
+
+
+MaleHumanGuardM/begin1_slave
+\c[4]Guard：\c[0]    Go back to your master! Filthy slaves...
+
+MaleHumanGuardM/begin1_maggot
+\c[4]Guard：\c[0]    Go away! Shoo!
+
+MaleHumanGuardM/begin1_sexy
+\c[4]Guard：\c[0]    Uhhh? Yes ma'am...?
+
+MaleHumanGuardM/begin1_weaker
+\c[4]Guard：\c[0]    What?! I have no time to waste with you!
+
+MaleHumanGuardM/begin1_moot
+\c[4]Guard：\c[0]    What are you looking at?!\n Bother me some more and I'll send you to a cell!
+
+MaleHumanGuardM/begin1_lona
+\c[4]Guard：\c[0]    What is it citizen? Need something?
+
+
+MaleFishKindM/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Slave... Breeding... Girl... Want to... Mate...
+
+MaleFishKindM/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Smelly...! Get away... Stinky...
+
+MaleFishKindM/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    \{Girl...! Me want... Breeding...!
+
+MaleFishKindM/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Girly... Close me... I won't... Hurt you...
+
+MaleFishKindM/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Annoying... Go away... 
+
+MaleFishKindM/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    What... Human... What you... Want...?
+
+
+MaleFishKindGuard/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]Fishman Guard：\c[0]    Slave... Get back... To camp...!
+
+MaleFishKindGuard/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]Fishman Guard：\c[0]    Stinky girl...! Go away...!
+
+MaleFishKindGuard/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]Fishman Guard：\c[0]    Girl... You are... Alone?
+
+MaleFishKindGuard/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]Fishman Guard：\c[0]    Pretty girly... Want breeding...
+
+MaleFishKindGuard/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]Fishman Guard：\c[0]    Dirty... Rat...! Get back...
+
+MaleFishKindGuard/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]Fishman Guard：\c[0]    Stupid... Human... *Snort* What you want...?!
+
+
+
+WencherM/begin0
+\c[4]\c[4]Wencher：\c[0]    Ehehe... How much for your body?
+
+WencherM/begin1
+\c[4]\c[4]Wencher：\c[0]    Heehee! Hey Missy! Wanna fuck like animals?!
+
+WencherM/begin2
+\c[4]\c[4]Wencher：\c[0]    Hey! Hey girlie! Wanna suck on my cock?! Heehee!!!
+
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+
+MaleHumanRandomNpc/CommonMerchant_begin1_slave
+\m[normal]\c[4]Wild Merchant：\c[0]    A slave? Heehee...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_maggot
+\m[normal]\c[4]Wild Merchant：\c[0]    UGH! So dirty... Stay away from me.
+
+MaleHumanRandomNpc/CommonMerchant_begin1_sexy
+\m[normal]\c[4]Wild Merchant：\c[0]    Heehee... Whaddya buying? I have it all! Heehee...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_weaker
+\m[normal]\c[4]Wild Merchant：\c[0]    Nothing's free, either buy something or go away!
+
+MaleHumanRandomNpc/CommonMerchant_begin1_moot
+\m[normal]\c[4]Wild Merchant：\c[0]    Shopping? I sell to all customers!
+
+MaleHumanRandomNpc/CommonMerchant_begin1_lona
+\m[normal]\c[4]Wild Merchant：\c[0]    Greetings! I have many wares for you if you have the coin!
+
+MaleHumanRandomNpc/CommonMerchant_CommonNpcOpt
+\m[confused]\c[6]Lona：\c[0]    Ummm...
+
+#----------------------------溝通
+
+MaleHumanRandomNpc/CommonMerchant_comm
+\m[flirty]\c[6]Lona：\c[0]    Hey, take a look at this...
+\m[pleased]\cg[temp](Lona shares information with the other person.)
+
+MaleHumanRandomNpc/CommonMerchant_comm_win
+\c[4]Merchant：\c[0]\n\prf\cgoff    This really helped me a lot, thank you so much.
+\m[normal]\c[6]Lona：\c[0]\n\PRF    No problem, of course.
+
+MaleHumanRandomNpc/CommonMerchant_comm_failed
+\c[4]Merchant：\c[0]\n\prf\cgoff    I've already known about this.
+\m[confused]\c[6]Lona：\c[0]\n\PRF    Oh... Okay then.
+
+#----------------------------威脅
+
+MaleHumanRandomNpc/CommonMerchant_threaten_normal
+\m[overkill]\c[6]Lona：\c[0]\n\Rshake\cg[temp]    Give me everything you have and I'll spare your life!
+
+MaleHumanRandomNpc/CommonMerchant_threaten_tsun
+\m[angry]\c[6]Lona：\c[0]\n\Rshake\cg[temp]    Listen here shitwad! You have five seconds to hand over everything you've got or I'll RIP AND TEAR YOUR GUTS!!!
+
+MaleHumanRandomNpc/CommonMerchant_threaten_weak
+\m[fear]\c[6]Lona：\c[0]\n\Rshake\cg[temp]    Umm... I'm... S-Sorry... P-Please give me what y-you have! P... Pwease......?
+
+MaleHumanRandomNpc/CommonMerchant_threaten_slut
+\m[overkill]\c[6]Lona：\c[0]\n\Rshake\cg[temp]    Hehe!~ ♫ Be a good boy and gimmie everything in your possession! If you listen... I juuust might let you live! ♥
+
+MaleHumanRandomNpc/CommonMerchant_threaten_overfatigue
+\m[tired]\c[6]Lona：\c[0]\n\Rshake\cg[temp]    ...Give me... Everything you're holding... Right now...
+
+MaleHumanRandomNpc/CommonMerchant_threaten_mouth_block
+\m[confused]\c[6]Lona：\c[0]\n\Rshake\cg[temp]    MMMMM! MMMPHMM HMMPHMM!!!
+
+MaleHumanRandomNpc/CommonMerchant_threaten_win
+\c[4]Merchant：\c[0]\n\prf\cgoff    Okay okay! It's all yours! Spare my life! Please! Don't kill meee!!!
+\m[triumph]\c[6]Lona：\c[0]\n\PRF    Hmmph, just like that.
+
+MaleHumanRandomNpc/CommonMerchant_threaten_failed
+\c[4]Merchant：\c[0]\n\prf\cgoff    A lil' brat like you dares to threaten me?! YOU PICKED THE WRONG SHOP, FOOL! Die you bitch!!!
+\m[shocked]\c[6]Lona：\c[0]\n\PRF\Rshake    Ehh?! W-Wait!!!
+
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+
+NoerHouse/HouseOpt
+\m[confused] House in Noer
+
+NoerHouse/WarehouseOpt
+\m[confused] Warehouse
+
+NoerHouse/Tent
+\m[confused] It's just a tent.
+
+NoerHouse/HouseOpt_beg
+\narr\SndLib[sys_KnockDoor] ...........
+\narrOFF\c[4]Unknown：\c[0]    Who is it?
+\m[shy]\c[6]Lona：\c[0]    E-Excuse me... May I ask for a favor...? Please......
+\narr \..\..\..\..\..\..
+
+NoerHouse/HouseOpt_beg_win
+\c[4]Unknown：\c[0]    Poor child, here you go.
+\m[flirty]\c[6]Lona：\c[0]    Thank you, thank you so much for your kindness!
+
+NoerHouse/HouseOpt_fail_night
+\c[4]Unknown：\c[0]    It's night time, you know that right?
+
+NoerHouse/Tent_beg_fail0
+\c[4]Unknown：\c[0]    I don't have anything either！ Go away！
+\m[sad]\c[6]Lona：\c[0]    Sorry... I'm sorry...
+
+NoerHouse/HouseOpt_beg_fail0
+\c[4]Unknown：\c[0]    You came from Sybaris... Right? Back then, you lived a luxurious life?
+\m[sad]\c[6]Lona：\c[0]    T-That's not... I really need...
+\c[4]Unknown：\c[0]\n\Lshake\RShake    \{GO AWAY!
+
+NoerHouse/HouseOpt_beg_fail1
+\c[4]Unknown：\c[0]    Are you serious? Just from how you look, I could have mistaken you for royalty!
+\m[sad]\c[6]Lona：\c[0]    Ummm... The thing is......
+\c[4]Unknown：\c[0]\n\Lshake\RShake    \{SCRAM! And don't come back!
+
+NoerHouse/TentOpt_lie_begin1
+\m[sad]\c[6]Lona：\c[0]    Ummm... Is anyone there?
+
+NoerHouse/HouseOpt_lie_begin1
+\narr\SndLib[sys_KnockDoor] ...........
+
+NoerHouse/HouseOpt_lie_begin1_1
+\narrOFF\c[4]Unknown：\c[0]    Who is it?
+
+NoerHouse/HouseOpt_lie_begin2_0
+\narr \..\..\..
+\narrOFF\m[confused]\c[6]Lona：\c[0]    Yes, please leave those things with me.
+
+NoerHouse/HouseOpt_lie_begin2_1
+\narr \..\..\..
+\narrOFF\m[serious]\c[6]Lona：\c[0]    If you say no, I can't prevent what will happen next...
+
+NoerHouse/HouseOpt_lie_begin3
+\narr \..\..\..
+
+NoerHouse/HouseOpt_lie_win
+\c[4]Unknown：\c[0]    I see... Okay then.
+\m[flirty]\c[6]Lona：\c[0]    Phew...
+
+NoerHouse/HouseOpt_lie_fail
+\c[4]Unknown：\c[0]    \{Did you really think I'd believe something like that?!
+\m[shocked]\Rshake You've been exposed!
+
+NoerHouse/HouseOpt_steal
+\SND[SE/sneak_in.ogg]\narr \..\..\..
+
+
+NoerHouse/HouseOpt_steal_win
+\m[flirty]\c[6]Lona：\c[0]    Nice...
+
+NoerHouse/HouseOpt_steal_fail
+\c[4]Unknown：\c[0]\n\Lshake\RShake    \{WHO'S THERE?!
+\m[shocked]\Rshake\c[6]Lona：\c[0]    Oh no!
+
+#-------------------#-------------------#-------------------#------------------- Begging
+
+Begging/Win
+\narr They looked at Lona with pity and empathy...
+
+Begging/Aggro0
+\narr They were annoyed at Lona and ignored her cries for help......
+
+Begging/Aggro1
+\narr They got pissed off at Lona's begging and decided to teach her a lesson!
+
+Begging/Win_End
+\m[shy]\c[6]Lona：\c[0]    Thank you so much!
+
+Begging/check
+\m[shy]\c[6]Lona：\c[0]    E-Excuse me... May I ask for a favor...? Please......
+\narr\..\..\..
+
+BeggingBandit/BlowJob
+\narr He expresses that if Lona can clean that dirty cock of his,
+\narr He might reward her with something to eat.
+
+BeggingBandit/Kneel
+\narr He asks Lona to get on her knees and beg...
+
+BeggingBandit/DeepThroat
+\narr He grabs Lona by her hair, then grinds his cock against her cheek...
+
+BeggingBandit/DrinkPee
+\narr He pulls out his cock...
+
+BeggingBandit/Beaten
+\narr He is entertained by Lona's pained expression. She has earned something to eat.
+
+#-------------------#-------------------#-------------------#------------------- NPC Thx to Lona
+
+refVsExt/WinDialog0
+\CBid[-1,3]\c[4]Refugee：\c[0]    Thank you so much! If you haven't shown up, I would of been done for!
+
+refVsExt/WinDialog1
+\CBid[-1,3]\c[4]Refugee：\c[0]    Thank the Saint!
+
+refVsExt/WinDialog2
+\CBid[-1,3]\c[4]Refugee：\c[0]    Thanks, you deserve this!
+
+refVsExt/Help0
+\CBid[-1,20]\c[4]Refugee：\c[0]    HELP US! T-THEY'RE COMING!
+
+refVsExt/Help1
+\CBid[-1,20]\c[4]Refugee：\c[0]    NOOO! I DON'T WANNA DIE!!!
+
+refVsExt/Help2
+\CBid[-1,20]\c[4]Refugee：\c[0]    Oh Saint! SAVE ME!
+
+
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

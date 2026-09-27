@@ -1,0 +1,198 @@
+#You will never be a woman.
+
+ThisMap/OmEnter
+\m[confused]Evil Wyvern toy store \optB[Leave,Enter]
+
+####################################################################### When Enter
+
+EnterOp/0
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Unknown：\c[0]    So it's true? These magic pills can really cure me and transform my penis into a vagina?
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_fear]\plf\PRF\c[4]Cheerful Shopkeeper：\c[0]    Errr\..\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    Of course, of course! Just be sure to take one tablet with every meal.
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Unknown：\c[0]    That's what you told me last time!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    Trust me! It'll definitely work this time!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    Haven't you heard about the new Obstetrics and Gynecology Clinic that opened near the East Gate?
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    This is a miracle medicine created by the amazing doctor there! It'll absolutely work for sure!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    And it's very cheap, one week's worth of medication will only cost you 1 Gold Coin!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    You'll achieve womanhood in just a mere 3 weeks!
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Unknown：\c[0]    Really? But I only have\..\..\..\n 8 Large Copper Coins left.
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_shocked]\plf\PRF\c[4]Cheerful Shopkeeper：\c[0]    Oy vey\..\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    It's no problem! I can lend the product to you first!
+
+EnterOp/1
+\CBmp[SnowflakeEVMod,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Unknown：\c[0]    Really? That would be great! ♥
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    I knew this would've been a problem, so I've made sure to come prepared!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    Very soon, you'll transform into a real woman!
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Unknown：\c[0]    WHAT DID YOU SAY? YOU FUCKING BIG-NOSED TROLL! I AM a real woman!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Cheerful Shopkeeper：\c[0]    Y-Yes! Right! That's correct! You were always a real woman from the start!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Cheerful Shopkeeper：\c[0]    The pain and suffering you have to endure is a test from the Saint himself!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Cheerful Shopkeeper：\c[0]    All you have to do is take this medicine to finally be accepted by all!
+\CBmp[SnowflakeEVMod,8]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Unknown：\c[0]    Yes... What you've just said is correct. This must be a test from the Saint.
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Cheerful Shopkeeper：\c[0]    Now si-... ma'am, all I need from you is your signature on this piece of paper\..\..\..
+
+####################################################################### Night
+
+Trans/begin0
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\c[4]Unknown：\c[0]    \{AYEEEYAYAAYAAAH!!
+
+Trans/begin1
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    \{KYAAAH!!!
+
+Trans/begin2
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Unknown：\c[0]    How rude. ♥ You've nearly scared me to death. ♥
+
+Trans/begin3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Unknown：\c[0]    Oooh. ♥ Such a sweet smelling little girl... ♥
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Unknown：\c[0]    My name is \c[6]Snowflake\c[0]. And what's your name, my little sister?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm\..\..\.. \c[4]Lona\c[0]...
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Unknown：\c[0]    \c[6]Lona\c[0]? Such a pretty name. ♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr\..\..\.. Thank you?
+
+Trans/talkedBegin0
+\m[tired] (Ugh... *Gag*... It stinks in here...)
+
+Trans/talkedNight0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    How rude. ♥ Some people are busy right now. ♥
+
+Trans/talkedDay0
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    What's is it you need, sweet little sister? ♥
+
+####################################################################### opt
+
+Trans/opt_pills
+...
+
+Trans/opt_male
+You're a man!
+
+Trans/ans_male
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lona：\c[0]    Please stop fooling yourself, you're a man!
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    This is reality, you have to wake up.
+
+Trans/ans_pills_opt
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    Look at this, my sweet little sister. This is the female penis cure medicine I've just recently received.
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    With these, I will become a real woman.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm\..\..\..\m[confused] This is...\optD[Real medicine,Fake medicine]
+
+Trans/ans_pills_opt_real
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Yes, these medications should be able to cure your... female penis disease?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    That's right, I will soon be cured of my female penis disease and become a real woman.
+
+Trans/ans_pills_opt_fake0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Aren't these just sugared candies found in most shops?
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    No no, silly. Take a closer look, and be sure to look properly. These pills are real female penis-curing medications.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm, this one says it's banana-flavored.\n If you don't believe me, why not eat one now?
+
+Trans/ans_pills_opt_fake1
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    No! This is impossible!\n YOU MUST BE LYING TO MEEE!
+
+Trans/Ans_about0
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Mmm... Is this a toy store? Does this mean you're the only man that sells toys here?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    I'm the most skilled toymaker in all of Noer, the nobles of Rudesind Slope are my biggest custo-\..\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    -WAIT\.. JUST A\.. MINUTE\........\n \{DID YOU-?!
+
+Trans/Ans_about1
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    \{YOU JUST MISGENDERED ME!!!
+
+Trans/Ans_about2
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Huh?!\. Misgender?!\. \m[sad] I'm\..\..\.. sorry...
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    HMMPH. Since my sweet little sister is just too cute, you can be my wife!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    EH?! Wife...?! Didn't you say you're a woman though?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    I have a feminine girl penis, which is all because of the Saint's fault.
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    But, I love little girls! IS THERE A PROBLEM WITH THAT?!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    N-... -No!
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    Good...
+
+Trans/RageQuit0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    I AM A WOMAN!!! HOW DARE YOU DISCRIMINATE MEEE!!!
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    \{GET OUT! GET OUUUTTT!!!
+
+Trans/RageQuit1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Eyaaah?
+
+endTalkQuestion/begin0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    I want to ask you a question. Does your big sister look like a woman?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errrrrr...\optD[You look like a woman..., You look like a man of course!]
+
+endTalkQuestion/begin0_ansF
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    ...A woman, you really look like a w-woman!
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    Ah. ♥ I just knew little sister Lona can see the truth.
+
+endTalkQuestion/begin0_ansM
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    You look like a man of course, you do have a penis after all...
+
+####################################################################### Common cropse
+
+Cropse/Qmsg0
+There's a slave branding on the body...
+
+Cropse/Qmsg1
+It looks like they've starved to death...
+
+Cropse/Qmsg2
+Her hole is gaped wide open...
+
+Cropse/Qmsg3
+It's been rotting here for a long time...
+
+transCropse/Qmsg0
+There's poop and urine all over the floor...
+
+transCropse/Qmsg1
+He couldn't accept reality and killed himself...
+
+####################################################################### nap first capture
+
+Trans/NapCapture0
+\CBct[2]\m[confused]\PLF\c[6]Lona：\c[0]    Nnnignnn\..\..\..?
+
+Trans/NapCapture1
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    Oh wonderful! ♥ You're finally awake, little sister! ♥
+
+Trans/NapCapture2
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    How did I end up here?! What did you do to me?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    Hasn't my little sister promised to become my girlfriend?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Me? Girlfriend?!
+
+Trans/NapCapture3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Snowflake：\c[0]    Come, let's connect our feminine bodies together like lovers. ♥
+\CBct[6]\m[pain]\plf\Rshake\c[6]Lona：\c[0]    NO! Let me go!
+
+Trans/NapCapture4
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    Ooooh! ♥ My girl penis is cumming! ♥ I'm going to squirt! ♥♥
+
+Trans/NapCapture5
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Snowflake：\c[0]    Ahhh, so comfortable.
+\CBct[8]\m[pain]\plf\PRF\c[6]Lona：\c[0]    Uwuunghnnn...
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Snowflake：\c[0]    I'll be going to work now, I'll be sure to love you again real soon.~ ♥
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    ......
+
+####################################################################### nap rapeloop
+
+Trans/NapRapeloop0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Snowflake：\c[0]    Come on. ♥ It's time to show your big sister some tender girl love. ♥
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Snowflake：\c[0]    Let's both enjoy the feelings of femininity together!
+
+Trans/NapRapeloop1
+\CBct[8]\m[pain]\plf\PRF\c[6]Lona：\c[0]    Uwuuu...
+
+rapeloop/ans_male0
+\CBct[5]\m[angry]\plf\PRF\c[6]Lona：\c[0]    You're\..\..\.. not a woman at all!
+\CBmp[Snowflake,1]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Snowflake：\c[0]    WHAT?! WHAT DID YOU SAY?!
+\CBct[5]\m[serious]\plf\PRF\c[6]Lona：\c[0]    You were born this way!
+\CBct[5]\m[serious]\plf\PRF\c[6]Lona：\c[0]    No matter what you do, you can't change who you really are!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    \{YOU BITCH! SHUT UP!
+
+rapeloop/ans_male1
+\CBct[5]\m[angry]\plf\PRF\c[6]Lona：\c[0]    How much medications have you taken? How many surgeries have you done?
+\CBct[5]\m[angry]\plf\PRF\c[6]Lona：\c[0]    Was any of it any use?!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    \{FUCKING BITCH! SHUT UP! SHUT UUUPPP!!!
+\CBct[5]\m[serious]\PRF\c[6]Lona：\c[0]    You've already known all this time, haven't you?! You will NEVER be a woman!
+
+rapeloop/ans_male2
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Snowflake：\c[0]    \{REEEEEEYAAAHHH!!!
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys and trannies. Do us all a favor and 41% yourselves.
+You will never be a woman.

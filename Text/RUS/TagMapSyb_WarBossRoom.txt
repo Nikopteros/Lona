@@ -1,0 +1,256 @@
+thisMap/OvermapEnter
+\m[confused]Павшая крепость \optB[Отмена,Войти]
+
+
+############################## Story mode enter boss room
+############################## Story mode enter boss room
+EnterBossRoom/1_smell
+\CBct[6]\m[pain]\plf\Rshake\c[6]Лона：\C[0] Фу-у\..\..\. \.Запах здесь хуже, чем в выгребной яме...
+
+EnterBossRoom/2_sawGobRunning
+\CBct[13]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] Ах?!\. \.Ч-что это было?\..\..\.
+
+EnterBossRoom/3_sawWarBoss_typical
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона：\C[0] О нет\.!\.!\.!\.
+
+EnterBossRoom/3_sawWarBoss_tsundere
+\CBct[8]\m[normal]\plf\PRF\c[6]Лона：\C[0] \..\..\..\.
+\CBct[5]\m[angry]\plf\Rshake\c[6]Лона：\C[0] Ха!\. \.Тебе не победить меня... Я быстрее!
+
+EnterBossRoom/3_sawWarBoss_gloomy
+\CBct[1]\m[wtf]\plf\Rshake\c[6]Лона：\C[0] Ч-что?!\. \.Н-не подходи!\. \.Убью!
+
+EnterBossRoom/3_sawWarBoss_slut
+\CBct[3]\m[angry]\plf\Rshake\c[6]Лона：\C[0] Что, у тебя елда длиной в дерево? Смотри не споткнись, а я-то не проиграю!~
+
+EnterBossRoom/3_sawWarBoss_again_typical
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона：\C[0] Я\..\..\..\. \.Я не боюсь тебя! Мразь!
+
+EnterBossRoom/3_sawWarBoss_again_tsundere
+\CBct[15]\m[fear]\plf\PRF\c[6]Лона：\C[0] Я...\. \.не проиграю тебе...\. \.снова!
+\CBct[1]\m[irritated]\plf\Rshake\c[6]Лона：\C[0] \{Ни за что!\}
+
+EnterBossRoom/3_sawWarBoss_again_gloomy
+\CBct[26]\m[fear]\plf\Rshake\c[6]Лона：\C[0] Не\..\..\..\. \.Н-не на этот раз, только не теперь! Я...\. \.справлюсь!
+
+EnterBossRoom/3_sawWarBoss_again_slut
+\CBct[4]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] Ну как, мне тебе вздрочнуть или тебя вздрочнуть? Как тебе мой каламбур?
+
+############################## ArmoredSet Cropse
+
+ArmoredSetCropse/0
+\narr Тело ребенка. Оно изуродовано. На месте попы тёмный провал.
+
+############################################################ OrkindSlayer
+
+EnterBossRoom/OrkindSlayer_Begin1
+\CBfF[8]\SETpl[OrkindSlayer]\Lshake\c[4]Убийца Оркоидов：\C[0] Постой...
+
+EnterBossRoom/OrkindSlayer_Begin2
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0] Хм?
+\CBfF[7]\SETpl[OrkindSlayer]\PLF\prf\c[4]Убийца Оркоидов：\C[0] Я чувствую смрад из-за ворот. Там должно быть множество врагов.
+\CBfF[9]\SETpl[OrkindSlayer]\PLF\prf\c[4]Убийца Оркоидов：\C[0] Мне нужна твоя моча...
+\CBct[13]\m[shocked]\plf\Rshake\c[6]Лона：\C[0] Ха?!\. \.Что-что?
+
+EnterBossRoom/OrkindSlayer_justEnter0
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0] \..\..\..\.
+
+EnterBossRoom/OrkindSlayer_Give0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0] Ну\..\..\..\. \.ты же не станешь делать с ней ничего странного, правда?
+\CBfF[3]\SETpl[OrkindSlayer]\PLF\prf\c[4]Убийца Оркоидов：\C[0] Нет...\. \.Смотри, учись.
+
+EnterBossRoom/OrkindSlayer_Give1
+\CBfF[20]\SETpl[OrkindSlayer]\PLF\c[4]Убийца Оркоидов：\C[0] Готово...
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0] Хм-м\..\..\..\.
+
+EnterBossRoom/OrkindSlayer_Give0_failed
+\CBct[6]\m[confused]\plf\PRF\c[6]Лона：\C[0] Эм-м\..\..\..\.\m[flirty] \.Я не смогу пописать прямо сейчас\..\..\..\.
+
+EnterBossRoom/OrkindSlayer_OPT_justEnter
+Проигнорировать
+
+EnterBossRoom/OrkindSlayer_OPT_Give
+Пописать
+
+############################## Win
+
+Win/StaWin0
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0] Я...\. \.Я победила?
+
+Win/StaWin1
+\CBct[2]\m[shocked]\Rshake\c[6]Лона：\C[0] Ну что, опять?!
+\CBct[1]\m[shocked]\PRF\c[6]Лона：\C[0] \..\..\..\.\CBct[20]\m[angry]\Rshake \.Я не боюсь тебя!
+
+Win/StaWin2
+\CBct[2]\m[flirty]\PRF\c[6]Лона：\C[0] Эм-м\..\..\..\. \.Что происходит?
+
+Win/Qmsg_BossRaped0
+Они крайне сосредоточенны.
+
+Win/Qmsg_BossRaped1
+Вождь проиграл, это его наказание.
+
+Win/Qmsg_BossRaped2
+До Лоны им нет никакого дела.
+
+################################################################################ STORYMODE RAPELOOP
+
+Warboss/rapeloop_begin1
+\CBct[27]\m[tired]\Rshake\c[6]Лона：\C[0] Я\..\..\..\. \.н-не могу двигаться...
+
+Warboss/rapeloop_begin2
+\CBmp[1]\SndLib[sound_OgreSpot]\SETpl[OgreWarboss_BoneShield]\Lshake\.\.\.\CBct[6]\m[fear]\plf\Rshake\c[6]Лона：\C[0] Ах...\. \.Н-нет...\. \.не делай этого!..
+
+Warboss/rapeloop_begin3
+\CBct[6]\m[p5shame]\Rshake\c[6]Лона：\C[0] Н-не надо\..\..\..\.
+
+Warboss/rapeloop_begin4
+\CBct[26]\m[bereft]\Rshake\c[6]Лона：\C[0] \{А-ай! Боль! А-а-а!!!\}
+
+Warboss/rapeloop_begin5
+\CBmp[4]\SndLib[sound_OgreQuestion]\SETpl[OgreWarboss_BoneShield]\Lshake\prf \..\..\..\.
+\CBct[13]\m[tired]\plf\PRF\c[6]Лона：\C[0] \..\..\..\.
+
+Warboss/rapeloop_begin6
+\narr Победитель склонился над Лоной.
+\narr Он думает, достойна ли она стать его личной мясной дыркой или же просто должна быть съедена.
+\narr Лона уже описалась. Он приблизил свои губы к краям её дырочки. Ему хотелось распробовать вкус.
+
+Warboss/rapeloop_begin7
+\narr Запах и вкус что надо! Однако почему же она такая маленькая?
+
+Warboss/rapeloop_begin8
+\narr Запахи крови, мочи и крики мясной дырки довели до тверди ствол огра.
+\narr Его бревно налилось кровью и уже готово трахнуть мясную дырку. Пора войти!
+
+Warboss/rapeloop_begin9
+\narr Щель мясной дырки устраивает вождя, она, такая маленькая, достойна сильнейшего из членов!
+\narr Но что насчёт задницы?
+
+Warboss/rapeloop_begin10
+\narr Задница упруга, так же хороша. Однако ебать в щель всё равно приятнее.
+
+Warboss/rapeloop_begin11
+\narr Мясная дырка уже перестала кричать. Она почти без сознания. Однако насилие продолжается.
+\narr Вождь должен наказать глупую дырку, посягнувшую на его трон.
+
+Warboss/rapeloop_begin12
+\narr Огр был очень рад, ведь мясная дырка осталась жива.
+\narr Он поймал такую хорошую игрушку!
+\narr В будущем эта матка сможет родить множество новых братьев.
+\narr Вождь решил сделать Лону насадкой для своего ствола. Так они смогут получать удовольствие беспрерывно.
+
+Warboss/rapeloop_nap1
+\narr Вскоре мясная дырка потеряла сознание, но это не помешало огру развлекаться с новой игрушкой...
+
+Warboss/rapeloop_nap2
+\narr \..\..\..\.
+
+################################################################################ STORYMODE RAPELOOP - with minions
+
+Warboss/rapeloop_OPT_beat
+Показать свою силу
+
+Warboss/rapeloop_OPT_rape
+Доказать превосходство
+
+Warboss/rapeloop_OPT_Impale
+Принесть мясную дырку в дар Матери!
+
+Warboss/rapeloop_OPT_Feed
+Кормить ням-ням свою мясную дырку
+
+LeftFucker/begin1
+\ph\narr Брат наслаждался дарованной ему дыркой.
+
+ShakingToilet/begin1
+\ph\narr Эта матка скоро помрёт. Эти роды её последние.
+\ph\narr Когда родятся братья, мы съедим их матку.
+
+MeatToiletF/begin1
+\ph\narr C мясными дырками весело играть, чем с алыми тварями.
+\ph\narr Мясные дырки не требуют много драки, как алые твари.
+\ph\narr Они веселее и вкуснее. И только их животы рожают.
+\ph\narr Но мясных дырок всё меньше\..\..\..\.
+\ph\narr Грустно.\. \.Я должен думать.
+
+MeatSeedbed/begin1
+\ph\narr Это матка, её мне брат подарил.
+\ph\narr Он просил благословения Матери, чтобы соединить воедино много мясных дырок с нашим семенем.
+\ph\narr Пока есть ням-ням, матка может рожать много братьев-детёнышей.
+\ph\narr Я вижу, знаю, ты презираешь. Но так надо. Мясная дырка должна сопротивляться.
+\ph\narr Я фыркнул только. Почему Мамуля не благословила меня? Я буду и сильный, и\..\..\..\.
+
+TellerPillar/begin1
+\ph\narr Тотем Матери\..\..\..\.
+\ph\narr Зачем она дарит и больше небратьев в мир?
+\ph\narr Это должно значать, Мамуленька хочет, чтоб братья покорили алых тварей...
+
+Abom/begin1
+\ph\narr Алые твари. Они враги, еда и игрушки.
+\ph\narr Они мешают братьям...\. \.борются за мясных дырок.
+\ph\narr Мы оба чуем вкус и слабость мясных дырок.
+\ph\narr Но победа у меня. Я поведу всех братьев.
+\ph\narr Мы, братья, сильнее... умные.
+
+Heads/begin1
+\ph\narr Головы мясных дырок. Невкусные.
+\ph\narr Но мы их собираем, и мы сильнее.
+
+MeatToiletM/begin1
+\ph\narr Эта злая мясная дыра убила много братьев.
+\ph\narr У неё нет дырки для рождания наших братьев.
+\ph\narr Я жду, брат кончит в неё, а потом мы рубим и съедим ням-ням.
+
+Corpses/begin1
+\ph\narr Это святилище для Мамуленьки!
+\ph\narr Мы берём мясные дырки и мешаем их в семя.
+\ph\narr А потом делаем больно, чтобы они мёрли.
+\ph\narr Их крики радуют Матерь.
+
+EmptyImpalement/begin1
+\ph\narr Пустой кол. Оскорбил Мамуленьку? Бесюсь, я ж Колосажатель.
+
+ManImpalement/begin1
+\ph\narr Пора...\. \.От этой дырки больше нету проку.
+\ph\narr Лучший способ убить мясную дырку - посадить на кол в честь Мамуленьки!
+
+##########################
+
+Butcher/begin1
+Накормить ням-ням свою мясную дырку
+
+prayer/begin1
+\ph\narr Предан брат молится
+\ph\narr Пустой кол. Не хватает дырок. Дикк должен добыть.
+\ph\narr Молящий брат в печали.
+
+cooker/begin1
+\ph\narr Этот брат усердный. Жгёт ням-ням для своих братьев.
+\ph\narr Он знает, кто сильный вождь Дикк. Но не думаю, что он чтит Мамулю настояще.
+
+OrcKid/begin1
+\ph\narr Молодой брат. Он сильнее и умнее других братьев.
+\ph\narr Но не сильнее меня. Он пока не помыслил, кто тут вождь.
+\ph\narr Может, стоит показать брату силу Дикка Колосажателя!..
+
+OrcKid/Talked1
+\ph\narr Малому брату ещё много учить...
+\ph\narr Может быть, я поучу дитя малое?
+
+################################################################################ RapeLoop Defence mode
+
+rapeloopExit/opt
+\ph\narr Мясная дырка скоро умрёт...
+\optB[Не страшно,Кинуть в кучу]
+
+rapeloopExit/did
+\m[confused]\c[6]Лона：\C[0] Ах\..\..\..\. Г-где я?
+\m[tired]\c[6]Лона：\C[0] Меня отпустили?
+\m[sad]\c[6]Лона：\C[0] Что делать дальше\..\..\..\.
+
+rapeloopGo_out/begin1
+\ph\narr Братец напуган. Значит, на подходе много мясных дырок.
+
+rapeloopGo_out/opt
+\optB[Делай сам теперь!,Убить всё мясо!]

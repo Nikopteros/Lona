@@ -1,0 +1,611 @@
+thisMap/Enter
+雷諾依競技場
+
+firstTime/begin_1
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    諾爾鎮競技場？
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我聽說過這，但這裡不是已經關閉了嗎？
+
+firstTime/begin_2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    You！ 就是妳了！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶！ 什麼？ 我？
+
+firstTime/begin_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃.... 這是什麼？
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    妳收下吧！ 這是個好東西！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    哦？
+
+firstTime/begin_4
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    嘛！ 你們看到了阿！
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    這個劵現在不是我的了！ 你們別擋路！
+
+firstTime/begin_5
+\CBct[8]\m[confused]\plh\PRF\c[6]洛娜：\c[0]    什麼跟什麼阿.....
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]路人A：\c[0]    真倒楣阿，這個小鬼。
+\CBmp[Talker2,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\plf\PRF\c[4]路人B：\c[0]    是阿，新來的\c[6]狂獸\c[0]怎麼可能打得贏\c[4]東方巨像\c[0]。
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]路人A：\c[0]    她得被強迫看完整場，那過程就像是鬼壓床似的。
+
+firstTime/firstMatch0
+\CBct[20]\m[shocked]\PRF\c[6]洛娜：\c[0]    哇！ 這裡這麼多人？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    所以這個到底有什麼好看的？ 不就是一群男人互毆嗎？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    這在城外根本就是日常。
+
+firstTime/firstMatch1
+\CBmp[Reporter,0]\ph\....\....\....
+\CBmp[Reporter,0]\ph 現在！
+\CBmp[Reporter,0]\ph 讓我們歡迎！
+\CBmp[Reporter,0]\ph 各位最喜愛的！
+\CBmp[Reporter,0]\SndLib[ClapGroup]\ph 競技場的王子！\{\c[6]達里爾\c[0]！
+\CBmp[Reporter,0]\m[shy]\PRF\c[6]洛娜：\c[0]    \c[4]達里爾\c[0]？ 不是吧！ 我可以見到\c[4]達里爾\c[0]？！
+
+firstTime/firstMatch2
+\CBmp[Reporter,20]\c[4]達里爾：\c[0]    我來，我見，我征服！
+\CBmp[Reporter,20]\c[4]達里爾：\c[0]    你們最愛的王子來了！
+
+firstTime/firstMatch3
+\CBmp[Reporter,0]\m[lewd]\plf\PRF\c[6]洛娜：\c[0]    是\c[4]達里爾\c[0]♥ 真的是他♥
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\prf\c[4]達里爾：\c[0]    感謝各位觀眾的熱情！ 這舞步就是就是獻給諸位的禮物！
+
+firstTime/firstMatch4
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    那麼就讓我來介紹今天的登場人物！
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    首先進場 在我左手邊的！！
+
+firstTime/firstMatch5
+\CBmp[LeftArenaE,19]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    是觀眾們最寵愛的\c[6]東方巨像\c[0]！
+
+firstTime/firstMatch6
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    而在我右手邊的挑戰者是......
+\CBmp[RightArenaE,19]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    由藥物強化的\c[6]狂獸\c[0]！！！
+
+firstTime/firstMatch7
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    這好像是我的下注對象？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    他看起來也很強 沒人鼓掌嗎？
+\SndLib[BadClap]\CBct[8]\m[triumph]\PRF\c[6]洛娜：\c[0]    沒關係！ 我幫你加油\..\..\..
+\SndLib[ppl_BooGroup]\CBmp[PPLg1,20]\m[shy]\PRF\c[6]洛娜：\c[0]    耶？
+\SndLib[ppl_BooGroup]\CBmp[PPLg2,20]\m[sad]\PRF\c[6]洛娜：\c[0]    耶耶？
+\SndLib[ppl_BooGroup]\CBmp[PlayerWatch,20]\m[sad]\PRF\c[6]洛娜：\c[0]    耶耶耶？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃\..\..\..
+
+firstTime/firstMatch8
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    各位都清楚\c[6]東方巨像\c[0]已經15連勝了！
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    他已是本地公認最強的戰士！ 正如他的格言！ \c[6]用武器的不算男人\c[0]！
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    他將用自己的雙手來擊殺一切！
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    那麼由\c[6]盧德辛商行\c[0]訓練出來的挑戰者 能擊敗無敵的\c[6]東方巨像\c[0]嗎？
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    讓我們拭目以待！
+
+firstTime/firstMatch9
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    雙方選手就位！
+
+firstTime/firstMatch10
+\SndLib[MaleWarriorFatSpot]\CBmp[EastColossus,20]\c[4]東方巨像：\c[0]    哈！ 人這麼大隻代表你的膽量也很大？ 但我會砸碎你的膽！
+\SndLib[MaleWarriorGruntSpot]\CBmp[SexBeast,8]\c[4]狂獸：\c[0]    ......
+
+firstTime/firstMatch11
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    \{戰鬥開始！
+
+firstTime/firstMatch12
+\CBmp[EastColossus,20]\c[4]東方巨像：\c[0]    哈！你就這點能耐？ 看來應該不是我的對手！
+\CBmp[SexBeast,8]\c[4]狂獸：\c[0]    吼......
+
+firstTime/firstMatch13
+\CBmp[EastColossus,20]\c[4]東方巨像：\c[0]    太慢了！
+
+firstTime/firstMatch14
+\CBmp[EastColossus,20]\c[4]東方巨像：\c[0]    就只有這種程度？
+
+firstTime/firstMatch15
+\CBmp[EastColossus,20]\c[4]東方巨像：\c[0]    看到了嗎？ \c[6]達里爾\c[0]！ 無論你叫來多少垃圾般的挑戰者 我都會將他們撕碎！
+\CBmp[EastColossus,20]\c[4]東方巨像：\c[0]    我會贖回我的家人！ 我會帶他們離開這個鬼地方！
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    你的努力我們都看見了，我們精神上支持你！
+
+firstTime/firstMatch16
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    但這場戰鬥還沒結束呢！
+\CBmp[EastColossus,1]\c[4]東方巨像：\c[0]    什麼！
+
+firstTime/firstMatch17
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    這種力量... 不可能....
+\CBmp[SexBeast,8]\c[4]狂獸：\c[0]    吼吼吼....
+
+firstTime/firstMatch18
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    No！.. 休蛋幾勒...
+\CBmp[SexBeast,8]\c[4]狂獸：\c[0]    吼吼吼吼....
+
+firstTime/firstMatch19
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    等等！ 不要再打了！
+\CBmp[SexBeast,8]\c[4]狂獸：\c[0]    吼吼吼吼吼....
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    我投降！ 我棄權！ 不要殺我！
+
+firstTime/firstMatch20
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    為什麼不停下來！ 我不想死！
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    很遺憾，他聽不懂人話！ 你必須用身體讓他理解你的屈服！
+\plf\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    什麼！
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    跪下！ 背對他！
+
+firstTime/firstMatch21
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    這樣對嗎....？
+\CBmp[SexBeast,8]\c[4]狂獸：\c[0]    ......
+
+firstTime/firstMatch22
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    什麼！ 你要做什麼！
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    \c[6]狂獸\c[0]是針對性暴力用途 以各種煉金藥材鍊成的戰士，對他來說強暴弱者是強者應當的行為！
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    他的腦裡只有打敗對手！ 然後幹暴他！
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    各位觀眾！ 這就是之後的重頭戲！ 勝利者可以自由對失敗者施暴！
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    現在！ 幹他！ 強暴\c[6]東方巨像\c[0]！ 歡呼吧！
+
+firstTime/firstMatch22_1
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]觀眾：\c[0]    幹暴！ 幹暴！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]觀眾：\c[0]    幹暴！ 幹暴！ 幹暴！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]觀眾：\c[0]    幹暴！ 幹暴！ 幹暴！ 幹暴！
+
+firstTime/firstMatch22_2
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    不！ 饒了我吧 我只有這個不行啊！
+
+firstTime/firstMatch23
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    不！ 我的菊花！ 快爆了！
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    我不想懷孕！ 我不想生孩子啊！
+\CBmp[SexBeast,8]\c[4]狂獸：\c[0]    吼吼吼吼！！！
+
+firstTime/firstMatch23_1
+\CBmp[EastColossus,6]\c[4]東方巨像：\c[0]    \{哇呀阿啊！！！
+
+firstTime/firstMatch24
+\narr \....\....\....
+\narr \c[6]狂獸\c[0]與\c[6]東方巨像\c[0]的基情交流持續了很久..
+\narr 但我們都知道 男的比較好，不會懷孕....
+\narr 然而\..\..\.. 以下略....
+
+firstTime/firstMatch25
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    所以那個什麼\c[4]狂獸\c[0]贏了耶？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    這就是傳說中的男上加男嗎？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    感覺\..\..\..\m[shy]好H呦♥
+\CBct[4]\m[lewd]\PRF\c[6]洛娜：\c[0]    要是能跟母親一起來看就好了，她一定會喜歡這個的♥
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..\m[sad]他們都不在了....
+\CBct[20]\m[serious]\Rshake\c[6]洛娜：\c[0]    不行！ 該死的！ 我要振作！
+
+firstTime/TakeReward1
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    所以呢... 是在這領取獎金嗎？
+
+firstTime/TakeReward2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    就是妳！ 妳偷了我的競技劵！
+
+firstTime/TakeReward3
+\CBct[8]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？ 你不是....
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    你偷了我的競技劵！ 快還給我！\optD[給他,搶劫呀！<r=HiddenOPT1>]
+
+firstTime/TakeReward4_give0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    咦？ 啊？
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    不然我叫守衛了！ 快點還給我！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    好的...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    這才乖！ 女人就該去後街張腿賺錢！
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    可是這明明是你..
+
+firstTime/TakeReward4_give1
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    \{閉嘴！
+
+firstTime/TakeReward4_guard0
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    啊啊啊！！！？
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    啊什麼？！ 快還給我！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    啊啊啊... 守衛... 有人搶劫...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    什麼？！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    \{啊啊啊！！！ 搶劫呀！
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]路人：\c[0]    幹！
+
+firstTime/TakeReward4_guard1
+\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    發生什麼事了！
+
+firstTime/TakeReward4_guard2
+\CBmp[TricketGiver,20]\SETpr[AnonMale1]\PLF\prf\c[4]路人：\c[0]    該死！ 給我記著！
+
+firstTime/TakeReward4_guard3
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    真是什麼人都有呢...
+
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+############################################################################################################################################## Tricket seller
+################################################################################ Arena Spec Event #####################################
+#### Cecily #####################################
+
+TicketSeller/CecilyShow_Gang
+特別演出？
+
+TicketSeller/CecilyShow_Gang_begin0
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    今天有特別演出，由盧德辛商行贊助，全程免費，歡迎大家入場欣賞！
+
+TicketSeller/CecilyShow_Gang_begin1
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    由盧德辛商行贊助的免費演出馬上就要開始囉，還在等什麼？趕快進來吧！
+
+TicketSeller/CecilyShow_Gang_begin2
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    特別演出免費開放，感謝\c[6]盧德辛商行\c[0]熱情贊助！還在等什麼？精彩即將登場！
+
+TicketSeller/CecilyShow_Gang_About1_typical
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    特別演出？是什麼樣的表演？
+
+TicketSeller/CecilyShow_Gang_About1_tsundere
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    特別?……到底有多特別？
+
+TicketSeller/CecilyShow_Gang_About1_gloomy
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    特別演出？不會很危險吧……
+
+TicketSeller/CecilyShow_Gang_About1_slut
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃？有表演？是什麼啊，聽起來蠻有趣的。
+
+TicketSeller/CecilyShow_Gang_begin_talked
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    還在等什麼，表演快開始了
+
+TicketSeller/CecilyShow_Gang_end
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    這場表演由\c[6]盧德辛商行\c[0]熱情贊助，感謝他們的大力支持！
+
+TicketSeller/CecilyShow_Gang_cancel
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....我看還是算了吧。
+
+TicketSeller/CecilyShow_Gang_About2
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    是前貴族小姐的交配秀，她將在場內與多名雄性者進行一些交互運動。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦？
+
+TicketSeller/CecilyShow_Gang_agree
+\CBct[8]\m[normal]\plf\PRF\c[6]洛娜：\c[0]    免費的對嗎？那我就去看看吧。
+
+CecilyShow_Gang/show_start_begin1
+\{各位先生女士！ 大家好！
+
+CecilyShow_Gang/show_start_begin2
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    現在——我們將開始我們的特別節目！
+
+CecilyShow_Gang/show_start_begin3
+\c[4]達里爾：\c[0]    一位來自\c[6]席芭莉絲\c[0]的前貴族少女，僅以鐵、與血，面對低賤的肉塊！
+
+CecilyShow_Gang/show_start_begin3_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_normal]\plf\PRF\c[4]賽希莉\c[0]    \...\...\...
+\SETpl[Reporter_shocked]\Lshake\prf\c[4]達里爾：\c[0]    而她的對手\..\..\..
+
+CecilyShow_Gang/show_start_begin4
+\c[4]達里爾：\c[0]    \{\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+
+CecilyShow_Gang/show_start_begin5
+\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    是膽識，還是愚勇？是命運，還是死亡的前奏？
+\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    ——這將是榮耀的試煉，信仰的烈焰，與……觀眾們的盛宴！
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    準備好你們的吶喊與賭注吧！戰鬥，立刻開始！
+
+CecilyShow_Gang/show_start_begin6_0
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_fear]\plh\PRF\c[4]賽希莉\c[0]    \...\...\...
+
+CecilyShow_Gang/show_start_begin6_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_shocked]\plh\PRF\c[4]賽希莉\c[0]    \...\...\...
+
+################################################################################ Arena ADdon ##################################### end
+
+name/ArenaApes
+黑毛黨
+
+name/ArenaSwine
+種豬軍團
+
+name/ArenaWildDog
+港都犬幫
+
+name/ArenaSexBeast
+狂獸
+
+name/ArenaEastColossus
+東方巨像
+
+name/ArenaFemdom
+女權主義者
+
+name/ArenaOrkindBro
+綠皮兄弟
+
+name/ArenaDeepTerror
+深海恐懼
+
+name/ArenaFailedAdv
+失格冒險者
+
+name/ArenaTeamRBQ
+奴隸戰士團
+
+name/ArenaHoboDudes
+下水街警備隊
+
+TicketSeller/BasicOpt
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    歡迎來到雷諾依競技場！
+
+TicketSeller/BasicOpt_bet
+下注
+
+TicketSeller/BasicOpt_about0
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    嗯？ 我聽說這裡已經關閉了啊？
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    哈！ 底層的死老百姓果然什麼都不懂，還是上層的貴族老爺會玩。
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    妳是\c[6]席芭莉絲\c[0]那來的？ 幾個月前妳老家不是被砸了？
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    .....
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    看吧，我猜得沒錯。 不過這邊當時也是鬧的夠嗆的啊。
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    盧德辛掌權後第一件事就是穩定民心！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    民心跟競技場有什關係？ 這種競技不是已經被禁止了？
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    和平的人最愛看什麼？ 血啊！ 只要他們看到有人過得比他們慘事情就解決了。
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    妳也不想想這是哪裡，這可是\c[4]諾爾島\c[0]。
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    倒是問問誰能管的到這？ 帝王？ 聖徒？
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    唉....
+
+TicketSeller/BasicOpt_FighterList
+\board[本日的出場者]
+選手1 ： \c[4]#{$story_stats["HiddenOPT0"][0]}\c[0]
+選手2 ： \c[4]#{$story_stats["HiddenOPT1"][0]}\c[0]
+選手3 ： \c[4]#{$story_stats["HiddenOPT2"][0]}\c[0]
+選手4 ： \c[4]#{$story_stats["HiddenOPT3"][0]}\c[0]
+-
+選手1 ： 倍率\c[4]#{$story_stats["HiddenOPT0"][1]}\c[0] 賠率\c[4]#{$story_stats["HiddenOPT0"][2]}\c[0]
+選手2 ： 倍率\c[4]#{$story_stats["HiddenOPT1"][1]}\c[0] 賠率\c[4]#{$story_stats["HiddenOPT1"][2]}\c[0]
+選手3 ： 倍率\c[4]#{$story_stats["HiddenOPT2"][1]}\c[0] 賠率\c[4]#{$story_stats["HiddenOPT2"][2]}\c[0]
+選手4 ： 倍率\c[4]#{$story_stats["HiddenOPT3"][1]}\c[0] 賠率\c[4]#{$story_stats["HiddenOPT3"][2]}\c[0]
+
+TicketSeller/BasicOpt_bet0
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    妳要在誰身上下注？
+
+TicketSeller/BasicOpt_bet1
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    最少必須下注\c[4]#{$story_stats["HiddenOPT1"]}\c[0]，最多不得高於\c[4]#{$story_stats["HiddenOPT2"]}\c[0]。
+
+TicketSeller/BasicOpt_bet2
+\narr下注於\c[4]#{$story_stats["HiddenOPT1"]}\c[0] 賭金為\c[6]#{$story_stats["HiddenOPT2"]}\c[0] 倍率為\c[5]#{$story_stats["HiddenOPT3"]}\c[0] 賠率為\c[5]#{$story_stats["HiddenOPT4"]}\c[0]
+\narrOFF\CBid[-1,20]\prf\c[4]售票員：\c[0]    比賽快開始了，由兩邊的入口進場吧。
+
+TicketSeller/BasicOpt_work0
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    有什麼我能做的工作嗎？
+\CBid[-1,2]\prf\c[4]售票員：\c[0]    妳？ 我看看....啊！
+\CBid[-1,2]\prf\c[4]售票員：\c[0]    我們的餘興節目 需要女性入場參戰，那些奴隸都無力反抗，觀眾已經感到無趣了。
+\CBid[-1,2]\prf\c[4]售票員：\c[0]    這是合約。
+
+TicketSeller/BasicOpt_work1
+\board[餘興節目]
+KO對手或被KO可獲得出場費。
+贏家可多獲得五成獎金。
+越晚發生KO獎金越多，上限為時間結束。
+若勝利薪資請找售票員領取。
+若戰敗薪資將自動領取。
+
+TicketSeller/BasicOpt_work2
+\board[餘興節目]
+參戰的戰士須對自己生命負責。(奴隸除外)
+你必須活著才能領取薪資。(奴隸除外)
+好好娛樂我們的觀眾吧！
+
+TicketSeller/BasicOpt_workAccept
+\SndLib[PenWrite]\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    好，我簽了。
+\CBid[-1,2]\prf\c[4]售票員：\c[0]    很好 非常好，妳看起來可以撐上一段時間。
+\CBmp[EnterArena,19]\prf\c[4]售票員：\c[0]    由那邊的入口入場吧。
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    哦？
+
+TicketSeller/PlayerMatchStart
+\CBid[-1,2]\prf\c[4]售票員：\c[0]    節目快開始了，還不快去做妳的工作？ 妳可是簽了合約！
+\CBmp[EnterArena,19]\prf\c[4]售票員：\c[0]    由旁邊的入口入場！ 快！ 節目就快開始了。
+
+TicketSeller/Started
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    比賽快開始了，還不快點進去！
+\narr下注於\c[4]#{$story_stats["HiddenOPT1"]}\c[0] 賭金為\c[6]#{$story_stats["HiddenOPT2"]}\c[0] 倍率為\c[5]#{$story_stats["HiddenOPT3"]}\c[0] 賠率為\c[5]#{$story_stats["HiddenOPT0"]}\c[0]
+
+TicketSeller/WannaLeave
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    妳想離開的話就必須上繳總價\c[6]#{$story_stats["HiddenOPT4"]}\c[0]的物資。
+
+TicketSeller/ItsDraw
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    是平局？ 莊家通差？ 真是稀有阿。
+
+TicketSeller/YouLose
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    輸了？ 下次多押點，一次翻本！
+
+TicketSeller/StartedPayIdle
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    我看看\..\..\..
+
+TicketSeller/StartedNotEnough
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    不夠！ 還得繳\c[6]#{$story_stats["HiddenOPT4"]}\c[0]！
+
+TicketSeller/StartedEnough
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    很好，妳可以滾了。
+
+TicketSeller/MatchReward0
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    贏了？ 運氣不錯，這是妳的獎賞
+
+TicketSeller/MatchReward1
+\CBct[20]\m[triumph]\Rshake\c[6]洛娜：\c[0]    謝謝！
+
+TicketSeller/MatchEnd
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    今天的節目結束了，妳還在這幹什麼？ 明天再來！
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    哦？
+
+TicketSeller/MatchStill
+\CBid[-1,20]\prf\c[4]售票員：\c[0]    競技還在進行中，慢了就看不到了。
+
+############################################################################################################################################## Food seller
+
+FoodSeller/begin
+\CBid[-1,20]\prf\c[4]店員：\c[0]    要用什麼去搭配鐵與血的廝殺？ 當然是零嘴與啤酒！
+
+FoodSeller/SlaveQmsg0
+臭奴隸！
+
+FoodSeller/SlaveQmsg1
+滾開！
+
+FoodSeller/SlaveQmsg2
+奴隸怎麼會在這！
+
+############################################################################################################################################################## Fight Begin
+
+NewMatch/begin1
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    讓我們來歡迎今天的勇者！
+
+NewMatch/begin2
+\CBmp[CenterPillar,0]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]   \{戰鬥開始！
+
+NewMatch/Draw
+\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    居然是平局！ 真是遺憾啊！
+
+NewMatch/WinnerIS
+\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    我們有贏家了！
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    勝利的是\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！！
+
+PlayerMatch/begin
+\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    今天負責暖場節目開始！
+\SndLib[ppl_CheerGroup]\CBmp[FireR,0]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    首先登場的是\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    然後它的對手是.... 不知名的流浪溝鼠！
+
+PlayerMatch/begin_IfSlave
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    這隻溝鼠是個如同糞渣般的奴隸，而她只有兩種選擇！
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    一是稱到時間結束，二是擊倒她的對手！
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    否則等待她的就只有死！
+
+PlayerMatch/LostRngRape0
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    各位觀眾！ 我們要怎麼處理這個失敗者呢？
+
+PlayerMatch/LostRngRapeTorture
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]觀眾：\c[0]    揍她！ 海扁她！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]觀眾：\c[0]    強暴！ 殺了她！ 砍下她的頭！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]觀眾：\c[0]    吃了她！ 燒掉！ 強暴！ 殺！
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    嗚嗚...
+
+PlayerMatch/LostRngRape1
+\ph\SndLib[ppl_CheerGroup]\c[4]觀眾：\c[0]    強暴！ 強暴！ 強暴！ 強暴！
+
+PlayerMatch/LostRngRape2
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    各位觀眾！ 感謝這個不知名的溝鼠散佈歡樂散佈愛！
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    各位觀眾！ 我們緬懷她！
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime0
+\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    各位觀眾！ 這個溝鼠是個偷懶的奴隸！ 我們該怎麼處理她呢！\SndLib[ppl_BooGroup]
+\ph\SndLib[ppl_BooGroup]\c[4]觀眾：\c[0]    \{殺！ 殺！ 殺！ 殺！
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime1
+\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    我聽見你們的聲音了！\SndLib[ppl_CheerGroup]
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    \{來人阿！ 把狗放出來！\SndLib[ppl_CheerGroup]
+\SndLib[dogSpot]\cg[map_WolfGroup].......
+
+PlayerMatch/win0
+\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    各位觀眾！ 出乎意料！
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    贏家是這隻小溝鼠！
+
+PlayerMatch/win1_InTime
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我...贏了？
+
+PlayerMatch/win1_OutTime
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    唉......
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    觀眾不喜歡我嗎..？
+
+##ru not entertained?
+
+PlayerMatch/win2
+\narr洛娜贏了，她離開了這個是非之地。
+
+PlayerMatch/win2_slave
+\narr洛娜贏了，她被趕回了奴隸房。
+
+############################################################################################################################### SexBeast UniqueRape
+
+SexBeast/Lose0_0
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    我投降！ 不要殺我！ 我不想死！
+
+SexBeast/Lose0_1
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    我不想死！ 饒了我！
+
+SexBeast/Lose0_2
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    放過我！ 不要打了！
+
+SexBeast/Lose1
+\c[4]狂獸：\c[0]    吼吼吼！
+
+SexBeast/Lose2
+\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    忠實觀眾們！ 你們以為這樣就結束了？！ \c[4]狂獸：\c[0]不可能會放過她的！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose2_1
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    對！ 強暴！ 狂獸會幹暴一切！ 用他的肉棒征服他的敵人！
+
+SexBeast/Lose3
+\SETpl[Reporter_normal]\Lshake\c[4]達里爾：\c[0]    看阿！ 看起來\c[4]狂獸：\c[0]要射了！ 這隻小溝鼠能受的了嗎？！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose4
+\SETpl[Reporter_trumph]\Lshake\c[4]達里爾：\c[0]    不好！ \c[4]狂獸：\c[0]依然沒有得到滿足！ 他持續用他巨大的身軀蹂躪著小溝鼠！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose5
+\SETpl[Reporter_shocked]\Lshake\c[4]達里爾：\c[0]    又來了 看來他又要射了！ 這發結束後他會感到滿足嗎？\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose6
+\SETpl[Reporter_confused]\Lshake\c[4]達里爾：\c[0]    呃....
+
+SexBeast/Lose7
+\narr狂獸不停幹著洛娜。
+\narr今天其他的節目都取消了。
+
+
+############################################################################################################################################################## EXIT
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]通往\C[4]勝利廣場\C[0]，但門口站著守衛。\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+1fExit/BetStill
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    比賽結果出來前或賭金交期前不准出去！
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    回去找售票員交清賭金後才准離開！
+
+1fExit/SneakFailed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    有人逃跑了！ 宰了她！
+
+Guard/NapSlave0
+\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    喂！ 這邊
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]守衛：\c[0]    怎麼了？！
+
+Guard/NapSlave1NoPay
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]守衛：\c[0]    這王八蛋沒繳清賭債！
+
+Guard/NapSlave1IsSlave
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]守衛：\c[0]    是逃跑的奴隸！
+
+Guard/NapSlave2
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]守衛：\c[0]    那怎麼處理她？
+\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚... 怎麼了？
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]守衛：\c[0]    我們不是很缺女性來娛樂觀眾？
+\SETpl[Mreg_pikeman]\Lshake\c[4]守衛：\c[0]    那就是這王八蛋了！
+\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    不要！ 放開我！
+\cg[event_SlaveBrand]\SETpl[Mreg_pikeman]\Lshake\c[4]守衛：\c[0]    就說了別亂動阿！ 乖！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    咿咿咿...
+
+##################################################### Other
+
+notice/DisbandWarning
+\narr警告：進行競技場的工作將會解散你的隊伍。
+
+198964/nothingHappen
+\cg[other_TankMan]1689.6.4 這天什麼都沒發生 \n 作畫：417
+
+commoner/typeB
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    家裡的女人說這樣太殘酷了，妳說呢？
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    住對面的老鬼養的狗前陣子搞失蹤。
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    幾天後衛兵告訴他是被帝都難民抓來煮了。
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    哈！ 殘酷？
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    看看外面被搞的多亂，這才是消耗帝都人口的最佳方式！
+
+commoner/typeA
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    有聽過\c[6]狂暴藥\c[0]嗎？
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    聽說城內的老爺們與煉金術士做出了能強化肉體的藥，而這裡就是它們的實驗場。
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    我聽前線歸來的士兵說過，這種藥會讓他無懼，且更性飢渴。
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    他覺得自己更強大了。
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    妳也覺的不對勁？ 這種高端技術怎麼會存於這種鬼地方？
+\CBid[-1,20]\prf\c[4]賭客：\c[0]    這種人材怎麼會在\c[6]諾爾鎮\c[0]？
+
+CommonerBL/Qmsg0
+誰跟你說男人不會懷孕？
+
+CommonerBL/Qmsg1
+最新的ABO期刊上有公布！
+
+CommonerBL/Qmsg2
+女人有子宮，男人當然有雄宮！
+
+CommonerBR/Qmsg0
+不！ 這才不是耽美！
+
+CommonerBR/Qmsg1
+男同與耽美是不一樣的！
+
+CommonerBR/Qmsg2
+假的！

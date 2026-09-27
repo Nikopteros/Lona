@@ -1,0 +1,96 @@
+#Translated by Joko Komodo and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+####################################--------------------- overmap
+Market/OvermapEnter
+\m[confused]Central Noer Market \optB[Leave,Enter]
+
+####################################--------------------- common
+Lona/MarketOpt
+\m[confused]\c[6]Lona：\c[0]    Ummm? \optB[Forget it,Barter]
+
+#################################################--------------------- Fatdalf Mana Trader
+
+Fatdalf/Welcome
+\CBid[-1,20]\SETpl[Fatdalf_anonymous]\Lshake\c[4]Gray-robed Mage：\c[0]    Miss, I see you have the bone structure and Mana flow of a true Wizard!\n I have a staff that suits you!
+
+#################################################--------------------- Food Vandor
+
+FoodTrader/Welcome0
+\CBid[-1,20]\c[4]Food Merchant：\c[0]    Welcome! I have all kinds of foods suitable for long journeys!
+
+FoodTrader/Welcome1
+\CBid[-1,20]\c[4]Food Merchant：\c[0]    Will you be traveling far away? Buy some essentials for your journey first!
+
+FoodTrader/Welcome2
+\CBid[-1,20]\c[4]Food Merchant：\c[0]    People always ask, how should they live their lives? I say, people need to eat in order to live at all!
+
+#################################################--------------------- Dressw Vandor
+
+DressTrader/Welcome0
+\CBid[-1,20]\c[4]Clothes Merchant：\c[0]    Clothes make the man or woman!
+
+DressTrader/Welcome1
+\CBid[-1,20]\c[4]Clothes Merchant：\c[0]    Miss, come and check out some of these excellent wares.
+
+DressTrader/Welcome2
+\CBid[-1,20]\c[4]Clothes Merchant：\c[0]    Come and buy some new clothes.
+
+#################################################--------------------- Dressw Vandor
+
+VegetableTrader/Welcome0
+\CBid[-1,20]\c[4]Vegetable Seller：\c[0]    3 for 300! Buy 3 and get 0 free!
+
+VegetableTrader/Welcome1
+\CBid[-1,20]\c[4]Vegetable Seller：\c[0]    Buy one, get none free!
+
+#################################################--------------------- Med Vandor
+
+MedTrader/Welcome0
+\CBid[-1,20]\c[4]Herbs Vendor：\c[0]    Miss! Buy some herbs!
+
+MedTrader/Welcome1
+\CBid[-1,20]\c[4]Herbs Vendor：\c[0]    Eat this to purify your skin! Gain more energy! These herbs will make you more beautiful!
+
+#################################################--------------------- Hair Vandor
+
+HairCutter/Welcome0
+\CBid[-1,20]\c[4]Barber：\c[0]    Change your hairstyle! Change your mood!
+
+HairCutter/Welcome1
+\CBid[-1,20]\c[4]Barber：\c[0]    Honey! Your hair is just a mess!
+
+HairCutter/Slave
+\CBid[-1,5]\c[4]Barber：\c[0]    Where did this slave come from?! Go back to the \c[6]Backstreets\c[0]! Scram!
+
+HairCutter/DyePayNeeded
+\CBid[-1,20]\c[4]Barber：\c[0]    It'll only cost #{$story_stats["HiddenOPT1"]} TP. I can promise you a new and fabulous hairdo!
+
+HairCutter/DyePayNotEnough
+\CBid[-1,6]\c[4]Barber：\c[0]    Excuse me! This isn't enough! I still need #{$story_stats["HiddenOPT1"]} TP.
+
+HairCutter/DyePayEnough
+\CBid[-1,20]\c[4]Barber：\c[0]    Excellent dear. Go ahead and pick a color.
+
+HairCutter/DyePicked
+\CBid[-1,3]\c[4]Barber：\c[0]    Good choice darlin'!
+
+HairCutter/DyeEnd
+\CBid[-1,4]\m[normal]\c[4]Barber：\c[0]    Look sweetie, the new you! How delightful!
+
+#################################################--------------------- Weapon Vandor
+
+WeaponTrader/Welcome0
+\CBid[-1,20]\c[4]Weapons Dealer：\c[0]    When the strong meet, there is only battle!
+
+WeaponTrader/Welcome1
+\CBid[-1,20]\c[4]Weapons Dealer：\c[0]    Miss! Have some protection! An armed society is a polite society!
+
+#################################################--------------------- Hobo Vandor
+
+HoboTrader/Welcome0
+\CBid[-1,20]\c[4]Refugee：\c[0]    Hey! You're hungry right? I have everything you need!
+
+HoboTrader/Welcome1
+\CBid[-1,20]\c[4]Refugee：\c[0]    Miss! Over here, I have what you need!
+
+#Translated by Joko Komodo and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

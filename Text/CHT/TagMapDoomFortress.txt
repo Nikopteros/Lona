@@ -1,0 +1,718 @@
+####################################--------------------- overmap
+ThisMap/OvermapEnter
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]守衛：\c[0]    站住！ 妳是誰！\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+################################################### INN
+
+InnKeeper/Begin
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    這裡是末日堡壘！ 防禦的最前線！
+
+InnKeeper/About_here
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    一直以來這裡都是鬥爭的最前線！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    幾百年前各國相繼搶奪諾爾島的控制權，但這裡最終還是屬於我們！這堡壘印證我\c[4]印加蘭王國\c[0]的強大！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    現在妳看到了，綠皮與肉塊都無法打倒末日堡壘！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    只有我們才守得住末日堡壘！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃.... 好哦.....
+
+InnKeeper/About_work
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    有什麼工作我可以做的嗎？
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    我們需要的是戰士！ 不是乞丐！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    嗯？！\. 等等\..\..\..\..
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    妳是女的？！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃？
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    嗯...
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    雖然很小，但看起來還是有的。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    什麼啊？
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    往右走，軍營那很需要女人。
+\CBct[8]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    哦？
+
+ThisIsFine/talk0
+\cg[other_ArtThisIsFine]一切安好 ： 對未來的預言
+\m[serious]嗯....
+\m[flirty]預言？
+
+############################################################################################################################### Right Gate
+
+GateR/LeaveBegin0
+\cg[map_NoerGate]通往驛站，而前面站著守衛。\optB[算了,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+GateR/Leave_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    死奴隸！ 去哪？
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我....
+
+GateR/Leave_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    滾回去！
+
+GateR/Leave_passed
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    ......
+
+#############################
+
+Gate/Begin0
+\cg[map_NoerGate]通往兵營，而前面站著守衛。\optB[算了,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    站住！ 你要做什麼？
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    ！！！！
+
+Gate/Enter_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    是逃跑的奴隸！
+
+Gate/Enter_normal1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    站住！ 你是誰！要做什麼？
+
+Gate/Enter_Cecily
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    呃.....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    \{是！
+
+Gate/Enter_normal2
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃？\optB[算了,進入,慰安婦<r=HiddenOPT1>]
+
+Gate/Enter_normal_walk
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    靠牆站好！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    我要搜身！\optB[算了,好吧]
+
+Gate/Enter_normal_walk_okay0
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    好吧....
+
+Gate/Enter_normal_search_butt
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    這個屁股真不錯！
+
+Gate/Enter_normal_search_vag
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    那裏摸起來也很有彈性！
+
+Gate/Enter_normal_search_boob
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    但.... 沒有胸部....
+
+Gate/Enter_normal_walk_okay1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    新來的慰安婦？ 可以過去了！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+Gate/Enter_normal_whore
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    戰士們都累了吧？我是來給你們洩慾的....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    什麼？！ 太好了！ 快進來！
+
+
+############################################################################################################################### barrack
+####################################--------------------- board
+
+boardR/Begin1
+\board[新兵要防中暑]
+新兵防中暑,新兵要喝水,
+夏(冬)季室外(內)操課,
+課前(後)飲水,300(500)西西。
+
+boardR/Begin2
+\board[妓女工作項目]
+請慰安勞累的巡守官兵。
+其他請至寢室詢問安官。
+
+boardR/Washroom
+\board[奴隸工作項目]
+日：請洽安官。
+夜：打掃廁所，慰安巡守官兵。
+白天時請至安官桌領取食物。
+
+####################################--------------------- Guards
+
+TrainingGuards/Qmsg0
+暍！
+
+TrainingGuards/Qmsg1
+哈！
+
+TrainingGuards/Qmsg2
+殺！
+
+####################################--------------------- SGT
+
+SGT/begin_normal_0
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]百夫長：\c[0]    妳為何來到我所愛的末日堡壘？！
+\CBct[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    哈？！
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    呃... 我...\optB[逛逛,殺魔物]
+
+SGT/begin_normal_1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我是來打倒魔物的？
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百夫長：\c[0]    所以妳是個傭兵？
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    是！
+\CBmp[SGT]\SETpl[SGT_Normal]\Lshake\prf\c[4]百夫長：\c[0]    讓我看你的兇悍面孔！\optB[什？]
+
+SGT/begin_normal_2
+\CBct[2]\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    什.. 什麼？
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百夫長：\c[0]    妳沒有兇悍臉面孔?!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\m[terror]\Lshake\prf\c[4]百夫長：\c[0]   \{殺啊啊啊啊啊啊啊！
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\prf\c[4]百夫長：\c[0]    這就是兇悍面孔！ 我要看妳的兇悍面孔！
+\CBct[8]\SETpl[SGT_Normal]\m[fear]\Rshake\c[6]洛娜：\c[0]    呃\..\... 啊.\...？ 啊啊啊？\.
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百夫長：\c[0]    狗屁！ 讓我看妳真正的兇悍面孔！
+
+SGT/begin_normal_3
+\CBct[8]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊啊啊？！
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百夫長：\c[0]    \..\..\.. 妳嚇不倒我！
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百夫長：\c[0]    繼續練習！
+
+SGT/begin_normal_4
+\plh\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    什麼啊...
+
+SGT/begin_wrong_ans
+繼續練習！
+
+SGT/known0
+\CBmp[SGT,20]\ph\SETpl[SGT_Shake]\Lshake\c[4]百夫長：\c[0]    廢物！妳的名子是什麼！
+\CBct[2]\m[bereft]\Rshake\c[6]洛娜：\c[0]    洛娜！！！
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百夫長：\c[0]    不！ 從今天開始妳叫糞袋！
+
+
+####################################################################### Quest Board
+
+QuestBoard/DF_Woodson_list
+伍德森家族
+
+QuestBoard/DF_WipeTribe_list
+獵屌部落
+
+QuestBoard/DF_BanditHunt_list
+出城剿匪
+
+QuestBoard/DF_Woodson
+\board[伍德森家族]
+目標：殺光他們！
+報酬：大銅幣9
+委託主：受害者
+期限：單次
+對！他們還有人活著！
+殺光他們！
+
+QuestBoard/DF_WipeTribe
+\board[獵屌部落]
+目標：殺光他們！
+報酬：大銅幣3
+委託主：盧德辛商行
+期限：單次
+我們確認了他們的位置，他們在東南方的森林裡。
+這些殘暴的野人必須受到逞罰。
+
+QuestBoard/DF_BanditHunt
+\board[出城剿匪]
+目標：消滅附近的海盜。
+報酬：大銅幣1、小銅幣7
+委託主：盧德辛商行
+期限：長期支援
+自席芭莉絲魔物爆走以來，我們遭遇了許多麻煩。
+人類種應在此次危機中互相幫助，但這些外來種太過分了。
+他們劫走前線士兵與難民的資源，這些海盜必須付出代價。
+善良的傭兵阿，這次由我盧德辛商行出資讓您出城剿匪，由您接上我的腿！
+
+################################### QuProgDF_BanditHunt 
+
+QuProgDF_BanditHunt/Begin
+\narr匪徒的地盤...
+
+QuProgDF_BanditHunt/done
+\CBid[-1,20]\prf\c[4]職員：\c[0]    所以那些該死的匪徒都被消滅了？
+\CBid[-1,4]\prf\c[4]職員：\c[0]    \{很好！
+
+################################### QuProgDF_Woodson detail
+
+QuProgDF_Woodson/prog1_emp
+\CBmp[GuildEmpolyee,8]\prf\c[4]職員：\c[0]    等等... \c[6]伍德森\c[0]家族？
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    怎麼了？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    這個任務是由堡壘的侍女發包的，已經貼在這十幾年了。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    但很遺憾的從來沒有人成功找到\c[6]伍德森\c[0]家族剩下的成員。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    我個人是欽向於他們已經死光了。
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    這樣啊...
+\CBct[20]\m[normal]\PRF\c[6]洛娜：\c[0]    我去看看有沒有其他工作可以接。
+\CBmp[ExitPoint,19]\prf\c[4]職員：\c[0]    她都堅持到現在了，我想妳應該與她談談。 她就在旅館外面。
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    好的。
+
+QuProgDF_Woodson/prog1_Maid
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 您好..
+\CBmp[Maid,5]\prf\c[4]侍女：\c[0]    我在工作！
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    抱歉！ 但我剛接了公會的工作，是您發包有關\c[4]伍德森\c[0]家族的工作嗎？
+\CBmp[Maid,8]\prf\c[4]侍女：\c[0]    ....
+\CBmp[Maid,8]\prf\c[4]侍女：\c[0]    妳？ 憑妳這樣的小鬼...
+
+QuProgDF_Woodson/prog2_Maid
+\CBmp[Maid,8]\ph\c[4]侍女：\c[0]    妳有什麼想知道的？\optB[沒事,死光了！<r=HiddenOPT1>,伍德森,關於妳,他們在哪<r=HiddenOPT2>]
+
+QuProgDF_Woodson/prog2_optWin
+\CBct[8]\m[flirty]\PLF\c[6]洛娜：\c[0]    呃... 那個....
+\CBmp[Maid,2]\prf\c[4]侍女：\c[0]    怎麼？
+\CBct[8]\m[confused]\PLF\c[6]洛娜：\c[0]    他們死了，他們躲在堡壘南方的森林裡，這裡是大概的位置。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    太好了！ 我這就去看看！ 這是工會的證明！ 去領錢吧！
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    耶？！ 等等啊! 那裏很危險！
+
+QuProgDF_Woodson/prog2_optWho
+\CBct[8]\m[flirty]\PLF\c[6]洛娜：\c[0]    呃... 那個....伍德森到底是誰？
+\CBmp[Maid,2]\prf\c[4]侍女：\c[0]    妳不知道伍德森教派？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    \c[6]伍德森教派\c[0]是由\c[6]吉姆.伍德森\c[0]創立，曾是席芭莉絲聖徒會其中一個教派。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    他們信仰審判日將至，神魔即將再次降臨。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    他們擁有大量的信徒，包括平民與貴族。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    但他們動搖了聖徒會的根基，被定為邪教遭受聖徒會與貴族聯手打擊。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    他們離開了席芭莉絲並帶著信徒躲在島上的某處。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    不久後聖徒會找到了他們，這是座島！ 他們能逃到哪去？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    軍隊包圍了他們，他們說審判日已至，幾百人全自殺了。
+\CBct[8]\m[sad]\PLF\c[6]洛娜：\c[0]    聽起來蠻可憐的？
+
+QuProgDF_Woodson/prog2_optWho_Gr
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]賽希莉：\c[0]    我聽說過這件事，當時鬧的很大，但那時我還小。
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]賽希莉：\c[0]    \c[4]灰鼠\c[0]你有印象嗎？
+\CBfB[20]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]灰鼠：\c[0]    有的，小姐。 當時老爺也派兵參與了圍剿。
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\c[4]賽希莉：\c[0]    有空再聽你說吧，對邪教不用留手！
+\CBfB[20]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]灰鼠：\c[0]    是。
+
+QuProgDF_Woodson/prog2_optYou
+\CBct[2]\m[flirty]\PLF\c[6]洛娜：\c[0]    妳為什麼這麼討厭他們呢？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    討厭？我本是個貴族，也曾經是他們的信徒！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    但某天夜裡他們入侵了我家！殺光我的家人！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    逃亡的過程中我被教主當成人質，當成性奴。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    而我在它們的審判日前逃了出來。 我清醒了！ 我要殺了他們！
+
+QuProgDF_Woodson/prog2_optWhere
+\CBct[2]\m[confused]\PLF\c[6]洛娜：\c[0]    可他們不是死光了嗎？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    不！ 我看過了！ 聖徒會的人找我去認屍！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    裡面沒有他的妻子與親信，該死的\c[6]伍德森家族\c[0]絕對還有人活著。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    我要他們死！ 全都死光！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    這是我全部的積蓄，只要妳能殺光他們那就全都是妳的！
+\CBct[2]\m[flirty]\PLF\c[6]洛娜：\c[0]    妳知道她們在哪嗎？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    我不知道，但願妳能找到。
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    我是不會放棄的，這些錢永遠屬於能辦到這件事的人！
+
+####################################################################### GReenHat Quest
+
+GreenHat/Quest_Begin1
+\CBmp[GreenHat,1]\prf\c[4]菜兵：\c[0]    妳... 是新來的慰安婦嗎？
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    什麼？ 我....
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    幫幫我！\optB[聽下去]
+
+GreenHat/Quest_Begin2
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃....
+\CBct[8]\m[normal]\PRF\c[6]洛娜：\c[0]    你說說看吧，也許我能幫的上呢？
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    幫我送封信出去！ 她一定很著急！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    她？
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    \c[4]瑪麗安\c[0]是我的青梅竹馬，我們從小一起長大的！
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    魔物入侵後我們一路逃亡。
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    她叔叔在諾爾鎮的港口工作，我們決定投靠他。
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    但我們沒帶任何身家證明文件，所以只能待在諾爾北門的難民營。
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    但軍隊給了我一個選擇，我可以用入伍擔保一個人入城。
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    我們都要結婚了... 而這場災難搞混了一切....
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    嗚...
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    我嘗試著寫信給她，但都石沉大海...
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    幫幫我！ 我會把我目前的薪資都給妳！
+
+GreenHat/Quest_BeginBoard
+\board[菜逼巴的愛]
+目標：幫菜逼巴送信
+報酬：大銅幣1,小銅幣1
+委託主：菜兵
+期限：單次
+我們菜兵是沒有資格談休假的！
+唯一的希望就是靠妳們這些慰安婦了。
+到信上的地址看看瑪麗安是否安好！
+
+GreenHat/Quest_BeginOpt
+要接受嗎？\optB[算了,交給我吧]
+
+GreenHat/Quest_BeginAgree
+\CBct[20]\m[serious]\PRF\c[6]洛娜：\c[0]    交給我吧！ 我會幫你把信送到她手上的。
+\CBmp[GreenHat,20]\prf\c[4]菜兵：\c[0]    拜託妳了！
+
+GreenHat/Quest_BeginDis
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    抱歉，你找別人吧。
+\CBmp[GreenHat,8]\prf\c[4]菜兵：\c[0]    ......
+
+GreenHat/Quest2_Qmsg0
+送達了嗎？
+
+GreenHat/Quest2_Qmsg1
+她在諾爾鎮嗎？
+
+GreenHat/Quest2_Qmsg2
+她有回信嗎？
+
+GReenHat/Quest2_Begin0
+西區 海邊路 8弄9巷 6號之4
+\m[confused]\PRF\c[6]洛娜：\c[0]    就是這了吧？
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\SETpl[AnonMale2]\Lshake\prf\c[6]未知：\c[0]    妳哪位？
+\m[flirty]\PRF\c[6]洛娜：\c[0]    嗯... 我找瑪麗安小姐，請問她住在這裡嗎？
+\SETpl[AnonMale2]\Lshake\prf\c[6]未知：\c[0]    又來了？
+\m[confused]\PRF\c[6]洛娜：\c[0]    又？
+\SETpl[AnonMale2]\Lshake\prf\c[6]未知：\c[0]    瑪麗安！ 有人找妳！
+\..\..\..
+\SETpr[AnonSlut1]\plf\Rshake\c[6]未知：\c[0]    誰啊？
+\SETpl[AnonMale2]\Lshake\prf\c[6]未知：\c[0]    又來一個，妳自己跟她說吧。
+\SETpl[AnonSlut1]\Lshake\prf\c[6]未知：\c[0]    啊？
+\m[shy]\PRF\c[6]洛娜：\c[0]    瑪莉安小姐？ 妳好...
+
+GReenHat/Quest2_Begin1
+\SETpl[AnonSlut1]\Lshake\prf\c[6]未知：\c[0]    妳是堡壘那的妓女吧？ 是約翰叫妳來的？
+\m[flirty]\PRF\c[6]洛娜：\c[0]    啊... 呃...
+\SETpl[AnonSlut1]\Lshake\prf\c[6]未知：\c[0]    妳不是第一個過來找我的妓女。
+\SETpl[AnonSlut1]\Lshake\prf\c[6]未知：\c[0]    我跟你們這些妓女是不同世界的人，不要來打擾我，我現在很幸福。
+\SETpl[AnonSlut1]\Lshake\prf\c[6]未知：\c[0]    把這封信拿給他，叫他以後不要再騷擾我了。
+\..\..\..\plh\SndLib[closeChest]
+
+GReenHat/Quest2_Begin2
+\m[angry]\plh\PRF\c[6]洛娜：\c[0]    什麼跟什麼啊？
+
+GreenHat/Quest3_OPT
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    約翰？ 我回來了。
+\CBmp[GreenHat,1]\prf\c[4]約翰：\c[0]    太好了！
+\CBmp[GreenHat,6]\prf\c[4]約翰：\c[0]    信送達了嗎？ 她在諾爾鎮嗎？ 她有回信嗎？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...\optD[把信給他,說謊<r=HiddenOPT1>]
+
+GreenHat/Quest3_Truth0
+\CBct[8]\m[shy]\PRF\c[6]洛娜：\c[0]    啊... 呃... 我不太確定怎麼說比較好...
+\CBct[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    信在這，你自己看吧...
+
+GreenHat/Quest3_Truth1
+\ph\narr\..\..\..\..
+
+GreenHat/Quest3_Truth2
+\CBmp[GreenHat,1]\prf\c[4]約翰：\c[0]    \{不！！！
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼？！
+\CBmp[GreenHat,1]\prf\c[4]約翰：\c[0]    \{妳說謊！ 啊啊啊啊啊！
+\CBct[1]\m[terror]\Rshake\c[6]洛娜：\c[0]    你冷靜點！！
+\CBmp[GreenHat,1]\prf\c[4]約翰：\c[0]    \{啊啊啊啊啊啊！！
+
+GreenHat/Quest3_Lie0
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    之前你都沒收到她的回信嗎？
+\CBmp[GreenHat,20]\prf\c[4]約翰：\c[0]    對！
+\CBmp[GreenHat,20]\prf\c[4]約翰：\c[0]    其他慰安婦都說找不到她，你也沒找到她媽？
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    很抱歉... 她過世了...
+
+GreenHat/Quest3_Lie1
+\CBmp[GreenHat,6]\prf\c[4]約翰：\c[0]    \{什麼？！ 這不可能！
+
+GreenHat/Quest3_Lie2
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    不... 是真的，我跟城裡的守衛確認過了。
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    她死於一場難民的暴動，而她也被葬在諾爾鎮的墳場。
+\CBmp[GreenHat,8]\prf\c[4]約翰：\c[0]    .............
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    請節哀...
+
+####################################################################### Slave begin
+
+DormGuard/SlaveBegin0
+\ph\CBmp[securityGuard,20]\ph\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    妳就是新來的奴隸？
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是，主人。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    嗯\..\..\..
+\CBmp[securityGuard,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    胸部的部分真是可惜了。
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    為因應緊急狀況，我們已重起了軍用奴隸制度。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    跟我來，妳必須知曉身為奴隸該做的服務有哪些。
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是，主人....
+
+DormGuard/SlaveBegin_Dorm
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    這是休閒室。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    非值勤官兵的休息場所。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    若無勞動指派，妳的責任就是負責慰安非值勤的官兵。
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+DormGuard/SlaveBegin_Cart
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    喂！ 看著！ 妳知道這是什麼？
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    呃？
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    這些全是奴隸的屍體！
+\CBct[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    ！！！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prd\c[4]安官：\c[0]    別想逃跑！別想反抗！
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是... 主人...
+
+DormGuard/SlaveBegin_Washroom0
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    這裡是茅房，也是最適合妳這種奴隸的住所。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    以後這就是妳的世界！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    白天來到安官桌找本大人領取工作項目。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    晚上將茅房清理乾淨後慰安守夜的巡邏官兵。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    妳身為軍用奴隸就有義務幫官兵洩慾！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    這就是妳將來生活的全部！
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    答話！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是... 主人...
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    大聲點！
+
+DormGuard/SlaveBegin_Washroom1
+\CBct[6]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    是！主人！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    \{大聲！
+
+DormGuard/SlaveBegin_Washroom2
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    \{是！主人！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安官：\c[0]    很好！ 解散！
+
+DormGuard/SlaveBegin_end
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    ......
+
+DormGuard/SlaveBegin_Escape
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    我們對逃跑的奴隸是零容忍！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]安官：\c[0]    回去妳的房間，我們會決定怎麼處置妳。
+\CBct[20]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    是....
+
+####################################################################### Slave begin Torture
+
+DormGuard/SlaveBegin_Torture0
+\ph\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十人長：\c[0]    新兵們 聽著！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十人長：\c[0]    無論你們之前職業為何，背景為何，現在開始你們都是\c[4]印加蘭\c[0]的士兵！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十人長：\c[0]    如何成為戰士？ 首先就是要狠！ 要兇殘！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十人長：\c[0]    你們要習慣殺人！
+
+DormGuard/SlaveBegin_Torture1
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十人長：\c[0]    這個奴隸嘗試逃跑？ 又或偷懶？ 這不重要！
+\CBmp[TorturePoint,20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    嗚...
+
+DormGuard/SlaveBegin_Torture2
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    重點是她犯了錯，犯錯就是要接受逞罰！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    你！ 過來！ 用力的揍她！
+\CBmp[noob3,20]\plf\prf\c[4]士兵：\c[0]    是！ asdasdasdasd
+
+DormGuard/SlaveBegin_Torture3
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    很好！ 打的漂亮！ 下一位！
+\CBmp[noob2,20]\plf\prf\c[4]士兵：\c[0]    是！
+
+DormGuard/SlaveBegin_Torture4
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    漂亮的一拳！ 下一位！
+\CBmp[noob1,20]\plf\prf\c[4]士兵：\c[0]    是！
+
+DormGuard/SlaveBegin_Torture5
+\CBmp[noob1,20]\plf\prf\c[4]士兵：\c[0]    ........
+
+DormGuard/SlaveBegin_Torture6
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    很好！ 歸隊！ 準備進行下個科目！
+\CBmp[noob1,8]\plf\prf\c[4]士兵：\c[0]    \..\..\..
+
+DormGuard/SlaveBegin_Torture7
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    我說歸隊！ 菜兵你耳聾了？
+\CBmp[noob1,5]\plf\prf\c[4]士兵：\c[0]    \{呀啊啊啊啊！ 全都死了！
+
+DormGuard/SlaveBegin_Torture9
+\CBmp[noob1,5]\plf\prf\c[4]士兵：\c[0]    \{我的妻子！
+
+DormGuard/SlaveBegin_Torture10
+\CBmp[noob1,5]\plf\prf\c[4]士兵：\c[0]    \{我的女兒！ 嗚嗚嗚....
+
+DormGuard/SlaveBegin_Torture11
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    \..\..\..
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    別哭了，歸隊吧。
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    我們會把場子找回來的....
+\CBmp[noob1,5]\plf\prf\c[4]士兵：\c[0]    是... 長官...
+
+####################################################################### Slave Daily begin Rape
+
+Guard/DailyRape0
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    醒來！
+
+Guard/DailyRape1
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    死奴隸！給我醒來！
+\CBct[20]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚......
+
+Guard/DailyRape_suckDick
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    我雞雞癢，快來幫我處理一下！
+
+Guard/DailyRape_Rape
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    我要肏妳！快把腳張開！\optD[好吧<t=5>,不要]
+
+############################################################## NightPatrol
+
+NightPatrol/SlaveQmsg0
+滾開！
+
+NightPatrol/SlaveQmsg1
+閃邊去！
+
+NightPatrol/SlaveQmsg2
+滾！
+
+NightPatrol/Rape0
+\c[4]士兵：\c[0]    過來！ 我要肏妳！
+
+NightPatrol/Rape1
+\c[4]士兵：\c[0]    奴隸！
+
+NightPatrol/Rape2
+\c[4]士兵：\c[0]    肏！
+
+############################################################## securityGuard
+
+securityGuard/NormalWhore
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    妳就是新來的慰安婦？這胸部沒什料啊？
+\CBct[20]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    我....\optB[不是,是]
+
+securityGuard/NormalWhore_No
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    才不是！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    呃... 那妳是來幹嘛的？
+
+securityGuard/NormalWhore_Yes
+\CBct[20]\m[lewd]\plf\Rshake\c[6]洛娜：\c[0]    是的，我是個妓女。
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    唉......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    上面從不重視我們對胸部的要求。
+\CBct[20]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    我的胸部.... 有什麼不好嗎？
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    沒關係，人來了就好。
+\CamMP[DormTable]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    白天的時候去休閒室盡可能滿足官兵的性需求吧。
+\CBct[20]\m[shy]\plf\Rshake\c[6]洛娜：\c[0]    好的....
+
+securityGuard/SlaveNight
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]   打掃茅坑，幫巡守人員洩慾！ 結束了就去就寢！
+
+securityGuard/SlaveDay
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    廢物！快去工作！
+
+securityGuard/SlaveWorkDone
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    完成了？ 就寢啊！ 廢物！
+
+securityGuard/SlaveDecideWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    廢物？ 妳來報到了？ 我看看..
+
+securityGuard/SlaveNoWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    運氣不錯！ 今天沒有妳的事情！
+
+securityGuard/SlaveSandBag
+\CBmp[SGT,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    去操場找\c[4]百夫長\c[0]報到！ 他需要一個奴隸進行訓練！
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是...主人...
+
+securityGuard/SlaveJoyWork
+\CBmp[DormTable,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    去旁邊的休閒室報到！ 官兵需要奴隸提供歡樂！
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是...主人...
+
+securityGuard/SlaveFood
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    這是今天的食物！ 趁還活著好好享用吧！
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    謝主人...
+
+securityGuard/SlaveFood_AskMore
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    那個...\optB[沒事,再給我一點]
+
+securityGuard/SlaveFood_AskMore_win
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    好吧，我也希望妳能活久一點。
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    謝主人...
+
+securityGuard/SlaveFood_AskMore_fail
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十人長：\c[0]    滾！
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚...
+
+securityGuard/SlaveFoodQmsg
+接好！
+
+############################################################## SGT Slave Suvival
+
+SGT/SlaveSuvival
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]百夫長：\c[0]    菜兵！我們的奴隸來了！
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\c[4]百夫長：\c[0]    跑吧！糞袋！ 看看妳能不能從菜兵的攻擊下活著！
+\CBct[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    呀？！ 什麼？！
+
+SGT/SlaveSuvival_WIN
+\SETpl[SGT_Shake]\Lshake\c[4]百夫長：\c[0]    集合！
+\SETpl[SGT_Normal]\Lshake\c[4]百夫長：\c[0]    你們真是差勁！ 一個奴隸都殺不死！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    結... 結束了？！
+
+############################################################## Joy work
+
+JoyTable/NothingQmsg0
+工作過了
+
+JoyTable/NothingQmsg1
+沒事可幹
+
+JoyTable/NothingQmsg2
+一張桌子
+
+JoyTable/JobBegin0_slave
+\CBmp[BrkGuard1,1]\ph\c[4]士兵：\c[0]    是奴隸！
+\CBmp[BrkGuard2,2]\c[4]士兵：\c[0]    新的奴隸來了！
+\CBmp[BrkGuard3,5]\c[4]士兵：\c[0]    沒奶子的奴隸！
+
+JoyTable/JobBegin0_whore
+\CBmp[BrkGuard1,1]\c[4]士兵：\c[0]    是慰安婦！
+\CBmp[BrkGuard2,2]\c[4]士兵：\c[0]    新的妓女來了！
+\CBmp[BrkGuard3,5]\c[4]士兵：\c[0]    奶子太小了吧！
+
+JoyTable/JobBegin1
+\CBct[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....大家好....
+\CBmp[BrkGuard1,20]\prf\c[4]士兵：\c[0]     站站到桌子上讓我們看清楚點。\optD[照做<t=5>,不要<r=HiddenOPT1>]
+
+JoyTable/JobBegin2
+\CBct[8]\m[shy]\PRF\c[6]洛娜：\c[0]    .....
+\CBmp[BrkGuard2,4]\prf\c[4]士兵：\c[0]     奶子是小了點，但還挺可愛的？
+\CBmp[BrkGuard3,20]\prf\c[4]士兵：\c[0]     來跳支舞吧。
+\CBct[8]\m[fear]\PRF\c[6]洛娜：\c[0]    嗚...\optD[照做<t=5>,不要<r=HiddenOPT1>]
+
+JoyTable/JobBegin3
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    好的....
+
+JoyTable/JobBegin4_0
+\CBmp[BrkGuard1,3]\prf\c[4]士兵：\c[0]    哈哈哈！
+
+JoyTable/JobBegin4_1
+\CBmp[BrkGuard2,4]\prf\c[4]士兵：\c[0]    腿張開點！
+
+JoyTable/JobBegin4_2
+\CBmp[BrkGuard3,9]\prf\c[4]士兵：\c[0]    加油啊！
+
+JoyTable/JobBegin_rape
+\CBmp[BrkGuard3,4]\prf\c[4]士兵：\c[0]    真沒意思，我想幹砲！
+\CBmp[BrkGuard2,4]\prf\c[4]士兵：\c[0]    上了她！
+\CBmp[BrkGuard1,4]\prf\c[4]士兵：\c[0]    沒錯！ 幹死她！
+\CBct[1]\m[terror]\Rshake\c[6]洛娜：\c[0]    咿啊？！
+
+JoyTable/JobBegin_beat
+\CBmp[BrkGuard1,5]\prf\c[4]士兵：\c[0]    他媽的敢反抗！？
+\CBmp[BrkGuard2,5]\prf\c[4]士兵：\c[0]    宰了她！
+\CBmp[BrkGuard3,5]\prf\c[4]士兵：\c[0]    妳死定了！
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    咿啊？！
+
+JoyTable/JobBegin_whore_end
+\CBmp[BrkGuard1,4]\prf\c[4]士兵：\c[0]    真是認真。
+\CBmp[BrkGuard2,4]\prf\c[4]士兵：\c[0]    好，這是賞妳的。
+\CBmp[BrkGuard3,20]\prf\c[4]士兵：\c[0]    希望妳的胸部能長大點。
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    謝謝？！
+
+JoyTable/JobBegin_slave_reward
+\CBmp[BrkGuard2,4]\prf\c[4]士兵：\c[0]    很好！很棒！我們多賞妳個麵包！
+
+JoyTable/JobBegin_quit
+\CBmp[BrkGuard1,5]\prf\c[4]士兵：\c[0]    去...來亂的？
+
+JoyTable/Touch_Opt
+讓他摸？\optD[隨便他<t=2>,躲開]
+
+JoyTable/AnalTouch_Qmsg
+好屁屁！
+
+JoyTable/BoobTouch_Qmsg
+太貧了！
+
+JoyTable/VagTouch_Qmsg
+摸到了！
+
+JoyTable/Kiss_Qmsg
+舔舔！
+
+JoyTable/Escape_Qmsg
+哎呀？
+
+############################################################## crane
+
+crane/NormalQmsg0
+吊車
+
+crane/NormalQmsg1
+沒什特別的
+
+crane/Windcave_frist_time
+\CBct[8]\m[shocked]\c[6]洛娜：\c[0]    吊車...
+\CBct[2]\m[normal]\c[6]洛娜：\c[0]    也許我可以利用它逃出去？
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    只要能調整一下，或許我就可以爬出去？
+
+crane/Windcave_Opt
+\CBct[8]\m[confused]吊車\optB[算了,調整角度<r=HiddenOPT1>]
+
+crane/Windcave_Opt_dig
+\CBct[8]\m[confused]要使用多少體力？\optB[不要浪費體力,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+crane/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]洛娜：\c[0]    似乎移動了不少。
+\CBct[6]\m[tired]\c[6]洛娜：\c[0]    但.... 嗚嗚.... 好累。
+
+crane/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]！！！！！
+\CBct[1]\m[shocked]！！！！！！！！
+\CBct[1]\m[pleased]！！！！！！！！！！！
+\CBct[20]\m[triumph]\c[6]洛娜：\c[0]    可以了！ 我可以出去了！

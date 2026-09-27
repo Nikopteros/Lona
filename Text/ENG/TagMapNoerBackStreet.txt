@@ -1,0 +1,544 @@
+BackStreet/OvermapEnter
+\m[confused]Noer Town Backstreet\n The back alleys, this is where the broadblade gang operates...  I should be careful...\optB[I'm outta here!,Enter...]
+
+#=============================================================================================================
+
+NotCapture/begin_withGangBoss0
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\SndLib[sound_MaleWarriorSpot]\Lshake    \{HEY!
+
+NotCapture/begin_withGangBoss1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Lona：\c[0]    What?! What's wrong?!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Thug：\c[0]    You lil' bitch... You ain't one of our whores, right?!
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Lona：\c[0]    I'm...
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Thug：\c[0]    \{GET THE FUCK OUTTA HERE IF YOU DON'T WANNA DIE!
+\CBct[6]\m[sad]\PRF\plf\c[6]Lona：\c[0]    S-Sorry....
+
+NotCapture/begin_FishKindMode0
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\c[4]Guard：\c[0]    \{You...
+
+NotCapture/begin_FishKindMode1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Lona：\c[0]    What?! What's wrong?!
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guard：\c[0]     You are not... our women...
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Lona：\c[0]    I'm...
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guard：\c[0]    *Snort* Go away...!
+\CBct[6]\m[sad]\PRF\plf\c[6]Lona：\c[0]    S-Sorry....
+
+NotCapture/begin_withGangBoss1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Lona：\c[0]    What?! What's wrong?!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Thug：\c[0]    Little bitch, are you an escaped slave?
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Lona：\c[0]    I'm...
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Thug：\c[0]    \{Get her!
+\CBct[6]\m[terror]\Rshake\plf\c[6]Lona：\c[0]    Eek!!!
+
+NotCapture/begin_FishKindMode1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Lona：\c[0]    What?! What's wrong?!
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guard：\c[0]    Woman... escaped... slave?
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Lona：\c[0]    I'm...
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guard：\c[0]    \{Grab...her！
+\CBct[6]\m[terror]\Rshake\plf\c[6]Lona：\c[0]    Eek!!!
+
+#=============================================================================================================
+
+HappyTrader/begin_normal
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Hee hee!\n Whuddya need? I have it all!
+
+HappyTrader/begin_normalArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Not done yet? Are you interested in joining \C[2]Staff\C[0]?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    We'll provide you with food, clothes, and shelter!
+
+HappyTrader/opt
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Ummm...?
+
+HappyTrader/work_opt
+\CBid[-1,2]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    What would you like to do, little lady?
+
+HappyTrader/work_whore_NoTrait
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Oy vey... I hate to say this, but this job isn't suitable for a girl like you.
+\narr Lona needs to learn the \C[2]Prostitute\C[0] Trait in order to do this job.
+
+HappyTrader/work_whore_board1
+\board[Backstreet Hooker]
+Borrow #{$story_stats["HiddenOPT0"][0]} Trade points in order to have working
+rights. #{$story_stats["HiddenOPT0"][1]} trading points per day is required as a protection fee (first day is free)
+Protection fee is automatically added to the loan.
+Treat slaves at work as backstreet hookers.
+
+HappyTrader/work_whore_board2
+\board[Backstreet Hooker]
+Slaves at work cannot leave the premise without permission.
+Please visit the hut on the left if rest is required
+Settlement of loans is deemed to be resignation
+Penalties for failure to pay protection fees or attempting to leave without permission
+
+HappyTrader/work_whore_accept0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]Cheerful Shopkeeper：\c[0]    Very good, you're' one of us now.
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]Cheerful Shopkeeper：\c[0]    Be sure not leave here during work. Go to the cottage on the left if you need to rest.
+
+HappyTrader/work_whore_accept1
+\BonID[-1,20]\CamMP[UniqueGangBoss]\SETpl[HappyMerchant_normal]\SETpr[NoerGangBoss]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Or else this gentleman will take good care of you.
+\CBmp[UniqueGangBoss,8]\SETpl[NoerGangBoss]\m[flirty]\c[4]Thug：\c[0]    ......
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\m[fear]\Lshake\c[4]Thug：\c[0]    Don't run out on work, unless you want your belly split open.
+
+
+HappyTrader/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]Lona：\c[0]    Ummm... Money has been a bit tight recently... Could I-...
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    \{-GET A LOAN?!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    \{CERTAINLY!
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Come! Please take a look at the rules first.
+
+HappyTrader/Arrears_NewTo1
+\board[Conscience Loan]
+The owner of the gold is self-employed
+Borrow money without asking for help, especially with a blank credit.
+No bank money sharks, easy payment every day.
+1-4 gold
+Recovery will begin when interest exceeds principal
+7 days of interest deducted in advance
+
+HappyTrader/Arrears_NewTo2
+\CBct[8]\m[confused]\plf\c[6]Lona：\c[0]    \{\..\..\..\..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{T-This is usury!
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    OY VEY! How dare you accuse me of such a thing!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    I'm doing this to help the poor refugees.
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Look around you, these people would have starved to death without my help!
+\CBct[8]\m[confused]\plf\c[6]Lona：\c[0]    Mmmm...
+
+HappyTrader/Arrears1_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\c[4]Cheerful Shopkeeper：\c[0]    How much would you like to borrow? \optB[Forget it,1 Gold Coin,2 Gold Coins,3 Gold Coins,4 Gold Coins]
+
+HappyTrader/opt_AboutArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Let me see...
+
+HappyTrader/Arrears_info
+\board[Backstreet Hooker]
+Capital： #{$story_stats["BackStreetArrearsPrincipal"]}
+Interest： #{$story_stats["BackStreetArrearsInterest"]}
+Total： #{$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+Extra protection fee： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_info_DebtHunter
+\board[Backstreet Hooker]
+Capital： #{$story_stats["BackStreetArrearsPrincipal"]}
+Interest： #{$story_stats["BackStreetArrearsInterest"]}
+Service Fee： #{$story_stats["HiddenOPT0"]}
+Total： #{$story_stats["HiddenOPT0"]+$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+Extra protection fee： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_accept
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Bwa-haha...
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Remember to pay back before the time is up!
+\CBct[8]\m[shy]\plf\c[6]Lona：\c[0]    Mmmm... Thank you.
+
+HappyTrader/Arrears_return_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    How will you be paying us back?
+
+HappyTrader/Arrears_return_item
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Let me take a look.
+
+HappyTrader/BecomeSlave_begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    There are various benefits to becoming a member of our staff.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Food, housing, and medical care.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Enjoy complete labor and health insurance.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    In addition, all arrears and liabilities are written off in a lump sum.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Interested, sign on!
+
+HappyTrader/BecomeSlave_begin1
+\CBct[6]\m[wtf]\plf\c[6]Lona：\c[0]    Isn't this like asking me to be a slave?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    N-NO! Of course not! This world isn't that evil, right?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Do you think Uncle here is a bad guy?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Come, take a look at this!
+
+HappyTrader/BecomeSlave_begin2
+\board[Ludsing's Employment Contract]
+Ludsing will provide staff food, housing, medical care & personal safety. Staff must agree to all employer job requirements. Staff must not leave the workplace without permission. Staff violating job requirements, can be justly punished by employer.
+\}Staff members will waive all human rights due to job requirements.
+Staff will become slaves of Ludsing Firm due to job requirements.
+\{I, ___, agree to the following regulations above and wish to become an employee of Ludsing.
+
+HappyTrader/BecomeSlave_accept0
+\CBct[2]\m[confused]\plf\c[6]Lona：\c[0]    I guess it's not a problem?
+\SND[SE/PenWrite1.ogg]\narr Lona signed her name on the contract.
+
+HappyTrader/BecomeSlave_accept1
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Wonderful! Just wonderful!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Young lady, you must be very tired! Right?
+\CBct[2]\m[flirty]\plf\c[6]Lona：\c[0]    Eh?! I'm still fine?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Come, drink this! It'll help you regain your strength and give you energy.
+\CBct[20]\m[triumph]\plf\c[6]Lona：\c[0]    Ah! Thank you.
+\CBct[3]\m[pleased]\plf\c[6]Lona：\c[0]    Mister, you're a good person after all!
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Cheerful Shopkeeper：\c[0]    Of course! In this natural disaster, everyone must help each other in order to survive!
+\CBct[20]\m[shy]\plf\c[6]Lona：\c[0]    Mmhmmm.
+\SND[SE/drink02.ogg]\narr Lona drank the unknown beverage.
+
+HappyTrader/BecomeSlave_accept2
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Nnnighnnn\..\..\.. My head's f-feeling dizzy\..\..\..
+
+HappyTrader/BecomeSlave_accept3
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Uwuuu\..\..\..
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Goon：\c[0]    She's still conscious!
+\CBmp[stGang2,20]\SETpr[MobHumanCommoner]\Rshake\plf\c[4]Goon：\c[0]    Isn't this nice? It's fun when they cry!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    you guys\..\..What you doing\..\..
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]Goon：\c[0]    Don't move around! This will only make it harder on yourself!
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    No! let me go!
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]Goon：\c[0]    I said stop squirming! Be still!
+
+HappyTrader/BecomeSlave_accept3_1
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5halth_damage]\Rshake\c[6]Lona：\c[0]    \{Huh ah ah ah!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{EEEYAAAAAAH!
+
+HappyTrader/BecomeSlave_accept3_2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Goon：\c[0]    Gyahaha! So fun! Scream louder!
+
+HappyTrader/BecomeSlave_accept3_3
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    \{KYAAAAAAH!
+
+HappyTrader/BecomeSlave_accept4
+\cgoff\narr Lona is now a slave...
+
+#=================================================NAP AND TORTURE======================================================
+
+nap/WhoreWakeUp
+\CBmp[HappyMerchant,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    \{GIRLS! TIME TO GET UP AND WORK!
+
+nap/drug_begin_FristTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]Thug：\c[0]    Hold her fast!
+\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]Goon：\c[0]    Yes! Boss!
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    What happened? don't hurt me!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]Thug：\c[0]    Drink this.
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\c[0]    This is? Whoo...
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]Thug：\c[0]    Drink it right away, this is good for your health.
+
+nap/drug_begin_SecondTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]Thug：\c[0]    It's time to take medicine.
+
+nap/drug_begin_Eat
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Whoo...
+
+nap/torture_begin
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Goon：\c[0]    \{Bitches! Pay attention!
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Goon：\c[0]    Not working! Disobedient! Try to escape!
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Goon：\c[0]    Then this is your end!
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    No! Please! Forgive me!
+
+nap/WhorePrincipal_return
+\narr All the trading points on them belong to them.
+
+nap/WhorePrincipal_returnEqp
+\narr The slaves were not entitled to possess them, and they confiscated everything from Lona.
+
+nap/SlavePrice
+\narr Still need to earn  #{$story_stats["BackStreetArrearsWhorePrincipal"]} TP for the handover.
+
+nap/SlaveTorture
+\narr They decided Lona was being a lazy slave, and they were going to punish her for it.
+
+#=============================================================================================================
+
+Escape/begin
+\SETpl[MobHumanCommoner]\Lshake\c[4]Guard：\c[0]    A bitch is runnin' away! GET HER!
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    Oh no!
+
+Escape/begin_NoCapture
+\SETpl[MobHumanCommoner]\Lshake\c[0]Thug：\c[0]    Someone's starting shit！ Kill her！
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    Oh no！
+
+Escape/failed
+\SETpl[MobHumanCommoner]\Lshake\c[4]Guard：\c[0]    So what the hell is this?
+\SETpr[MobHumanCommoner]\Rshake\c[4]Guard：\c[0]    Probably a runaway slave?
+\SETpl[MobHumanCommoner]\Lshake\c[4]Guard：\c[0]    Look what's on her first, and talk about the rest later.
+
+#=============================================================================================================
+
+GangBoss/begin
+\CBid[-1,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]Thug：\c[0]    The fuck are you lookin' at?
+
+GangBoss/wait
+\CBid[-1,8]\SETpl[NoerGangBoss]\prf\PLF\c[4]Thug：\c[0]    .....
+
+GangBoss/begin_slave
+\CBid[-1,20]\SETpl[NoerGangBoss]\Lshake\c[4]Thug：\c[0]    \{GET TO FUCKIN' WORK!
+
+GangBoss/begin_NONtrigger1
+\CBid[-1,20]\m[confused]\SETpl[NoerGangBoss]\prf\PLF\c[4]Thug：\c[0]    Hey lil' kid, is there anythin' you're lookin' for?
+\CBid[-1,2]\c[4]Thug：\c[0]    Or... Do you have any \C[4]special\C[0] needs?
+
+GangBoss/begin_NONtrigger2
+\CBct[2]\m[normal]\PRF\plf\c[6]Lona：\c[0]    Ummm...? \optD[Special?]
+
+GangBoss/begin_NONtrigger3
+\CBid[-1,20]\prf\PLF\c[4]Thug：\c[0]    You came here from Sybaris, right?
+\CBct[20]\m[tired]\PRF\plf\c[6]Lona：\c[0]    Yes...
+\CBid[-1,20]\prf\PLF\c[4]Thug：\c[0]    I know what yer goin' through, many people have died in the disaster.
+\CBid[-1,20]\c[4]Thug：\c[0]    There are also many people who survive, but they have no money or identification.
+\CBid[-1,20]\c[4]Thug：\c[0]    In the end, they can only starve to death on the streets.
+\CBct[6]\m[sad]\PRF\plf\c[6]Lona：\c[0]    Ohhh...
+\CBid[-1,20]\prf\PLF\c[4]Thug：\c[0]    I can help them, and so can you.
+\CBct[2]\m[flirty]\PRF\plf\c[6]Lona：\c[0]    I can? How?
+\CBid[-1,8]\prf\PLF\c[4]Thug：\c[0]    I purchase all kinds of supporting documents, and sell them to those in need.
+\CBid[-1,8]\c[4]Thug：\c[0]    Or lend money to the refugees who need it.
+\CBid[-1,8]\c[4]Thug：\c[0]    You also wanna help them, right?
+\CBct[5]\m[confused]\PRF\plf\C[4] (Conman... Father also dealt in business. Does he really think I wouldn't know?) \C[0]
+\CBid[-1,20]\prf\PLF\c[4]Thug：\c[0]    Do you need money too? I'm willin' to pay you 1 Gold Coin for your \C[4]Original\C[0] ID paper.
+\CBct[20]\m[shocked]\PRF\plf\Rshake\c[6]Lona：\c[0]    A-A Gold Coin?!
+\CBid[-1,20]\prf\PLF\c[4]Thug：\c[0]    Interested are you? Excellent.
+
+GangBoss/begin_triggered
+\CBid[-1,20]\SETpl[NoerGangBoss] .....
+
+GangBoss/opt_ex_sellID
+Sell ID paper
+
+GangBoss/SellPassport
+\CBct[8]\m[confused]\PRF\plf\c[6]Lona：\c[0]    Once I sell it, I can't go back. Am I really this desperate for money?
+
+GangBoss/SellPassport_sold
+\CBid[-1,20]\prf\PLF\c[4]Thug：\c[0]    You've made the right choice.
+\CBid[-1,20]\prf\PLF\c[4]Thug：\c[0]    Ah, sure enough! Perfect aging spots, and the other parts are surprisingly complete. What a great item!
+
+GangBoss/Arrears_return_opt
+\CBid[-1,20]\SETpl[NoerGangBoss]\Lshake\c[4]Thug：\c[0]    How much yer gonna pay?
+
+#=============================================== PiercingTrader ====================================================
+
+Piercing/Begin
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    Oh... Woman... Want to pierce...
+
+Piercing/Begin_slave
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    Slave... Special Piercings... Huh...
+
+Piercing/about
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    Sea Witch said...
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    Men... Piercing, means strength.
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    Woman... Piercing, means fertility...
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    Woman.. Genital piercing... Means slave.
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    You... Woman... Breed...
+\CBct[2]\m[wtf]\plf\Rshake\c[6]Lona：\c[0]    What to do? Without head or tail?
+
+Piercing/piecing_start
+\CBct[2]\m[flirty]\plf\PRF\C[6]Lona：\c[0]    Will it hurt?
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    A little bit.... Endure it... Don't be afraid...
+\CBct[2]\m[tired]\plf\PRF\C[6]Lona：\c[0]    Just endure it until it's over?
+
+Piercing/piecing_doing
+\SND[SE/Gore_hit1.ogg]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    Whaa!
+\SND[SE/Gore_hit2.ogg]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    Aahhh!
+\SND[SE/Gore_hit3.ogg]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    Aaaaahhh!
+\SND[SE/Gore_hit4.ogg]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    \{Aaaaaahhh!
+
+Piercing/end
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Fishman Artist：\c[0]    Piercing... Beautiful... Sea Witch... Likes it!
+
+#============================================ Tree hole house ====================================================
+
+Lona/WorkFailed
+\narr The guest complained about Lona!
+
+sucker/Qmsg0
+She's working right now.
+
+sucker/Qmsg1
+I shouldn't disturb her.
+
+sucker/Qmsg2
+She's very focused.
+
+sucker2/Qmsg0
+This is my hole!
+
+sucker2/Qmsg1
+I must suck him off!
+
+sucker2/Qmsg2
+Don't bother me!
+
+hole/Qmsg0
+Just an endless black hole.
+
+hole/Qmsg1
+There's nothing here.
+
+hole/Qmsg2
+It's empty.
+
+treeHole/board
+\board[Tree house work instructions]
+Customer First： Workers must not refuse guests.
+Service First： Workers must be courteous.
+Work ethics： Please turn in your income.
+
+########################################################################################## REP Addon
+
+FishTraderREP/begin_normal
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    Human female... What you need?
+
+FishTraderREP/begin_normalArrears
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    Yes... Human females... We need more.
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    We will protect... Your life with us safe.
+
+FishTraderREP/work_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    Human female... Working... Mating...
+
+FishTraderREP/BecomeSlave_begin0
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    You... Helping us... Make money...
+
+FishTraderREP/BecomeSlave_accept1
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    Good... Now drink this...
+\CBct[20]\m[triumph]\plf\c[6]Lona：\c[0]    Thanks, I guess!
+\SND[SE/drink02.ogg]\plf\prf\narr Lona drank it as she was told.
+
+FishTraderREP/work_whore_accept0
+\CBid[-1,20]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]Boss Fish：\c[0]    Great, now you are... With us...
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]Boss Fish：\c[0]    You stay. No leave. You want rest, you sleep... In the hut to the left...
+
+FishTraderREP/work_whore_accept1
+\BonID[-1,20]\CamMP[GangBossREP]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    Our guards... Will watch you... Protect...
+\CBmp[GangBossREP,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[flirty]\c[4]Guard：\c[0]    \...\...\...
+\CBmp[GangBossREP,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[fear]\Lshake\c[4]Guard：\c[0]    Human female... Mate with me...
+
+FishTraderREP/work_whore_NoTrait
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    You... Are not suitable... No idea how to please...
+
+FishTraderREP/opt_AboutArrears
+\CBid[-1,8]\m[confused]\SETpl[FishBusinessMan]\PLF\c[4]Merchant：\c[0]    ....
+
+FishTraderREP/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]Lona：\c[0]    I-I'm a little down on my luck... C-can you please help me out?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]   　...Want loan?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    This is not free... We got rules...
+
+FishTraderREP/Arrears_return_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    You need... My Service?
+
+FishTraderREP/Arrears1_opt
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    How much...You want borrow?...\optB[Never Mind,1 Gold Coin,2 Gold Coins,3 Gold Coins,4 Gold Coins]
+
+FishTraderREP/Arrears_accept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Boss Fish：\c[0]    Hmm... Very good...
+\CBct[8]\m[shy]\plf\c[6]Lona：\c[0]    Thank you...
+
+
+nap/drug_begin_FristTime_REP
+\CBmp[GangBossREP,5]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Guard：\c[0]    Hold her tight!
+\CBmp[stGang1,20]\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]Fish Rabble：\c[0]    Yes, boss!
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    What's going on? Don't hurt me!
+\CBmp[GangBossREP,20]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]Guard：\c[0]    You drink...
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\c[0]    What's this? *Sob*
+
+nap/drug_begin_SecondTime_REP
+\CBmp[GangBossREP,5]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]Guard：\c[0]    Take your medicine...
+
+nap/drug_begin_Eat_REP
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    *Sob*...
+
+nap/WhoreWakeUp_REP
+\CBmp[HappyMerchantREP,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\c[4]Merchant：\c[0]    \{....Get to work girls! Go on!
+
+########################################################################################## Raploop Addon
+
+wakeup_rapeloop/RngRape0_wakeupCall_begin0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    Little bitch, wakey-wakey!
+
+wakeup_rapeloop/RngRape0_wakeupCall_rapeloop
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    It's finally my turn to use your cunt...
+
+wakeup_rapeloop/RngRape0_wakeupCall_ans
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    *sob*...
+
+wakeup_rapeloop/RngRape1_to_Somewhere
+\narr They dragged Lona somewhere else
+
+wakeup_rapeloop/RngRape2
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    Hold her tight, I'll go first.
+
+wakeup_rapeloop/RngRape3
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    My turn! My turn!
+
+wakeup_rapeloop/RngRape_cum0
+\c[4]Thug：\c[0]    \{Ahhh♥ She's squeezing so good!
+
+wakeup_rapeloop/RngRape_cum1
+\c[4]Thug：\c[0]    \{That's it, whore! Take it for me!♥
+
+wakeup_rapeloop/RngRape_cum2
+\c[4]Thug：\c[0]    \{Im gonna cooom!♥ I'm cooming aaaaaahhhh!♥
+
+wakeup_rapeloop/RngRape_cum3
+\c[4]Thug：\c[0]    \{Fuck, I'm cumming inside...♥
+
+wakeup_rapeloop/RngRape_cum4
+\c[4]Thug：\c[0]    \{Woohoo! Squeeze it all out!♥
+
+wakeup_rapeloop/RngRape_end0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    Not bad, that was a good fuck...
+
+wakeup_rapeloop/RngRape_end1
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    Ahh, that was so cool...
+
+wakeup_rapeloop/RngRape_end2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    Excellent, we'll use you next time too...
+
+######################### Raploop enema EV
+
+wakeup_rapeloop/EnemaEV_begin0
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    Bitches, today is anal sale day, make sure your guts are empty before going to work.
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    \{Line up and show me your butts!
+
+wakeup_rapeloop/EnemaEV_end
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    All right, good... Now let it all out!
+
+######################### Raploop PeeonEV
+
+wakeup_rapeloop/Peeon_begin0
+\SETpl[AnonMale1]\Lshake\c[4]Thug：\c[0]    Hey-hey...
+
+wakeup_rapeloop/Peeon_begin1
+\ph\narr \..\..\..
+
+wakeup_rapeloop/Peeon_begin_end
+\narr Somebody pissed on Lona.
+
+######################### Raploop RngNightCustomer
+
+wakeup_rapeloop/RngCustomer_begin0
+\c[4]Customer：\c[0]    Hey! Wake up!
+
+wakeup_rapeloop/RngCustomer_begin1
+\c[4]Customer：\c[0]    Hey, I paid for the cheapest bitch here.
+
+wakeup_rapeloop/RngCustomer_begin2
+\c[4]Customer：\c[0]    Open up and show me your pussy!
+
+wakeup_rapeloop/RngCustomer_begin_end
+\c[4]Customer：\c[0]    \{Ohhh... Ah! Ah! Ah! Ah!
+
+######################### CommonGangMember begging
+
+CommonGangMember/begging0
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    Huh? You want your medicine?
+
+CommonGangMember/begging1
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    Addicted already? You want something good?
+
+CommonGangMember/begging_success
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    All right, do what I say and I'll give you your medicine.
+
+CommonGangMember/begging_success_nothing
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    I'll give it to you then.
+
+CommonGangMember/begging_success_offerItem
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    Come!♥ Open your mouth!♥
+\CBct[8]\m[shy]\plf\PRF\c[6]Lona：\c[0]    Ahhh...
+
+CommonGangMember/failed_nothing
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    Ha-Ha!♫ You can forget it!♥
+
+CommonGangMember/failed_mad0
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    A cheapie like you has no right to bargain with me!
+
+CommonGangMember/failed_mad1
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Thug：\c[0]    Go fuck yourself! Trash whore!
+
+CommonGangMember/failed_mad2
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]Thug：\c[0]    You stink like shit! Get out of my face!
+

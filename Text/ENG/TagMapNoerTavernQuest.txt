@@ -1,0 +1,365 @@
+##########---------------------------------------------------------------------------------- QUEST BOARD
+
+QuestBoard/List
+The wall is covered with many forms filled with requests and commissions.
+
+QuestBoard/None_list
+Cancel
+
+QuestBoard/StaHerbCollect_list
+Help me collect some White Dragon Weeds!
+
+QuestBoard/StaHerbCollect
+\board[Collect White Dragon Weeds]
+Goal：Collect 4 White Dragon Weeds.\i[203]
+Reward：2 Copper Coins
+Contract from：Elise's Obstetrics and Gynecology
+Quest Term：Repeatable
+Please help me collect 4 White Dragon Weeds in the forests outside of town!
+Many monsters have been appearing in the wild recently. All mercenaries are responsible for their own safety.
+Once completed, please deliver the herbs directly to Elise's Obstetrics and Gynecology.
+
+QuestBoard/MineCaveAbomHunt_list
+Crystal Mine's monster clean-up.
+
+QuestBoard/MineCaveAbomHunt
+\board[Crystal Mine clean-up]
+Goal：Destroy the creatures inside the pit.
+Reward：1 Large Copper Coin, 3 Copper Coins
+Contract from：Rudesind Slope
+Quest Term：Repeatable
+The mining pits of the Crystal Mine has been infected by the Black Mist.
+We need mercenaries to help get rid of the pests in there. Please bring your own light source and weapons.
+Once the task is completed, please speak to the\n Pit Manager in the Crystal Mine for payment.
+
+QuestBoard/CataUndeadHunt_list
+The rising dead in the Cemetery!
+
+QuestBoard/CataUndeadHunt
+\board[Undead in the Cemetery]
+Goal：Slay 20 undead monsters in the cemetery.
+Reward：7 Copper Coins
+Contract from：Rudesind Slope
+Quest Term：Repeatable
+A large number of undead monsters are appearing at the Cemetery.
+All mercenaries are asked to help slay these unholy creatures.
+Once the task is completed, please report to the Gravekeeper.
+Then return to the guild for your payment.
+
+QuestBoard/ScoutCampOrkind_list
+Help look for the missing caravan!
+
+QuestBoard/ScoutCampOrkind
+\board[Missing caravan]
+Goal：Look for the missing caravan's refugees.
+Reward：1 Large Copper Coin
+Contract from：Survivors of Sybaris
+Quest Term：Once
+A retreating caravan should have arrived to town a month ago.
+We've recently discovered they've been attacked and kidnapped by monsters.
+According to information from a survivor, the caravan should be near the road at the North East.
+
+QuestBoard/ScoutCampOrkind2_list
+Slay the monsters in the Northern Pass sentry tower!
+
+QuestBoard/ScoutCampOrkind2
+\board[Northern Pass tower clean-up]
+Goal：Kill all monsters inside the sentry tower.
+Reward：2 Large Copper Coins
+Contract from：The Saint's Monastery
+Quest Term：Once
+The Northern Pass sentry tower is now a monsters' lair after their invasion.
+We're hiring any \C[4]professional\C[0] mercenaries to help us clear the tower.
+When the task is finished, report to the Saint's Monastery Priest for your reward.
+
+QuestBoard/ScoutCampOrkind3_list
+My daughter is missing!
+
+QuestBoard/ScoutCampOrkind3
+\board[Missing daughter]
+Goal：Find the merchant's missing daughter.
+Reward：1 Gold Coin
+Contract from：Town of Noer's Guard Headquarters
+Quest Term：Once
+The daughter of a businessman in the town has gone missing during an Orkind attack.
+She was last seen with a caravan helping refugees in the North East.
+Find her and please bring her back.
+
+QuestBoard/CataUndeadHunt2_list
+A strange source of energy from the Cemetery...
+
+QuestBoard/CataUndeadHunt2
+\board["Unknown" energy in Cemetery]
+Goal：Investigate and deal with the source of the "unknown" energy.
+Reward：4 Large Copper Coins
+Contract from：Rudesind Slope
+Quest Term：Once
+Mercenaries are in need to assist in the investigation for the source of unknown energy inside the Cemetery.
+Please contact the Cemetery's Gravekeeper for further information.
+
+QuestBoard/SewerKickMobs_list
+Get rid of the squatters in the Sewers
+
+QuestBoard/SewerKickMobs
+\board[Squatters in the Sewers]
+Goal：Kill all of the squatters in the Sewers
+Reward：1 Large Copper Coin
+Contract from：Rudesind Slope
+Quest Term：Once
+Many people have gone missing around the area of the Sewer's entrance.
+It's been confirmed that several kidnappings have been caused by illegal refugees living in the Sewers.
+These squatters have been nothing but trouble in town, we need mercenaries to help wipe them all out.
+
+QuestBoard/NoerToPirate_list
+Recruitment Notice：Pirate's Bane
+
+QuestBoard/NoerToPirate
+\board[Recruitment Notice：Pirate's bane]
+Goal：Visit Pirate's Bane.
+Reward：5 Copper Coins
+Contract From：Mercenary Guild
+Quest Term：Once
+Go to \c[4]Pirate's Bane\c[0] located near the swamps of the east.
+Report to the Guild Receptionist inside Pirate's Bane's Mercenary Guild.
+
+QuestBoard/NoerToDoom_list
+Recruitment Notice：Doom Fortress
+
+QuestBoard/NoerToDoom
+\board[Recruitment Notice：Doom Fortress]
+Goal：Visit the Doom Fortress.
+Reward：5 Copper Coins
+Contract From：Mercenary Guild
+Quest Term：Once
+Go to \c[4]Doom Fortress\c[0], located at the northern part of the island.
+Report to the Guild Receptionist inside Doom Fortress's Mercenary Guild.
+
+QuestBoard/OrkindEars_list
+The only thing the Orkinds fear... is YOU!
+
+QuestBoard/OrkindEars
+\board[Teach the Orkinds fear]
+Goal：Collect 10 pairs of Orkind ears.\i[465]
+Reward：1 Large and 5 Copper Coins
+Contract from：Rudesind Slope
+Quest Term：Repeatable
+The Orkinds are rage filled and brutal monsters who show no mercy to the citizens of Noer.
+But you mercenaries will be worse.
+SHOW THOSE MONSTERS WHO WE ARE!
+Rip them to pieces with your weapons and tear their ears off as proof of the task being done!
+
+QuestBoard/decide
+\m[confused]Will you accept the quest? \optB[Never mind,Tear off the note]
+
+
+######################################################################################## GUILD
+
+QuestBoard/decide2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Guild Receptionist：\c[0]    Will you accept the quest? Once a guild's quest is accepted, it must be completed before you can begin a new one. \optB[Cancel,Accept]
+
+QuestBoard/decide2_win
+\CBct[20]\m[serious]\prf\c[6]Lona：\c[0]    I'll do it!
+
+QuestBoard/decide2_lose
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Guild Receptionist：\c[0]    Sorry, your current task has not been completed yet.
+
+QuestBoard/completed0
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Guild Receptionist：\c[0]    Hmmm... This is indeed a commission token issued by the guild.
+
+QuestBoard/completed1
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Here is your reward.
+\CBct[3]\m[triumph]\c[6]Lona：\c[0]    Thank you!
+
+QuestBoard/completed1_slave
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    The guild thanks your contribution as a slave, be sure not to die too soon.
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    Ugh...
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Guild Receptionist：\c[0]    Mercenary's Guild's Service, how can I help you? \optB[Never mind,About the guild,Cancel quest<r=HiddenOPT0>]
+
+QuestBoard/other_about
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Well, the Mercenary's Guild was founded in 972. Back then, the guild was merely just a central command for unorganized militias during the Demon War.
+\CBct[2]\m[normal]\c[6]Lona：\c[0]    And now?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Now we are the largest organization for providing commission work to mercenaries and adventurers worldwide.
+
+QuestBoard/other_quest_cancel
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    Sorry... I can't do this......
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Understood then.
+\CBmp[GuildEmpolyee,8]\prf\c[4]Guild Receptionist：\c[0]    \}After all, flies like you are simply useless.
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    ......
+
+Tutorial/follower
+\CamMP[Center]\prf\c[4]Guild Receptionist：\c[0]    Feel free to ask around in the tavern if anyone is willing to work with you.
+\prf\c[4]Guild Receptionist：\c[0]    Due to the fall of Sybaris, we've been getting more refugees like you entering the guild recently.
+\CBct[3]\Rshake\m[triumph]\c[6]Lona：\c[0]    Got it! Thank you very much!
+\CBmp[GuildEmpolyee,8]\prf\c[4]Guild Receptionist：\c[0]    ......
+\CBmp[GuildEmpolyee,8]\prf\c[4]Guild Receptionist：\c[0]    \}Disgusting street urchins and refugees... Plaguing this guild with their flith like flies...
+\CBct[8]\m[normal]\c[6]Lona：\c[0]    Hmmm? What's up?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Oh, nothing. Just thinking out loud...
+
+QuestBoard/saved_hostage
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Wait!
+\CBct[2]\m[confused]\c[6]Lona：\c[0]    Huh? What's going on?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Thank you for rescuing those who were kidnapped or missing while you were out there.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    I have a feeling more people will be requiring your help in the future.
+
+##########---------------------------------------------------------------------------------- 最初期的工會成員對話
+
+MercenaryGuild/Report_rattail
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Guild Receptionist：\c[0]    Hmmm? You must be Lona, yes?
+\CBct[6]\m[shocked]\c[6]Lona：\c[0]    Yes! *HUFF* ...Don't! *PUFF* ...S-Sewer!
+\CBct[6]\m[serious]\Rshake\c[6]Lona：\c[0]    *GASP*-...! -Monsters are beginning to appear in the Sewers, along with the infection!
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Hush! Settle down! Okay, I see... The guild thanks you very much for your hard work.
+\CBct[6]\m[irritated]\Rshake\c[6]Lona：\c[0]    Also the previous employee is dead!
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Tsk... This is really bad, we will send someone to deal with the problem. By the way, Miss, have you collected the 8 Rat tails as requested?
+
+MercenaryGuild/Report_rattail_win
+\CBct[20]\m[triumph]\c[6]Lona：\c[0]    Here you go!
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    You're lucky. Starting today, all miscellaneous quests and jobs will be removed.
+\CBct[2]\m[wtf]\c[6]Lona：\c[0]    Eh?!
+
+MercenaryGuild/Report_rattail_lose
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    That... I didn't...... It's because there were monsters in the...-
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    -So the mission was a failure then.
+\CBct[1]\m[shocked]\c[6]Lona：\c[0]    What?! Wait a moment, there are still more rats down there! I'll go back there soon and return with the correct amount.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    There's no need, all miscellaneous quests are being removed today.
+\CBct[2]\m[wtf]\c[6]Lona：\c[0]    Eh?!
+
+MercenaryGuild/Report_rattail_end
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    There is nothing we can do about it. The monsters outside the town are beginning to grow in numbers and become a threat. All commissions and quests must be changed to be in accordance with the current situation.
+\CBmp[QuestBoard,19]\prf\CamMP[QuestBoard]\BonMP[QuestBoard,19]Visit the quest board and see if there are any jobs you wish to accept.
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    So that's what's going on...
+
+GuideTheWorld/begin
+\CBid[-1,2]\prf\c[4]Traveler：\c[0]    I've never seen you before. You must be from \C[6]Sybaris\C[0], right?
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Huh...? T-That's right.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    Haha, I'm about to leave this island soon. Used to be a mercenary, till I took an arrow to the knee.
+
+GuideTheWorld/Choose
+\m[confused]\CBid[-1,20]\prf\c[4]Traveler：\c[0]    Just think of it as an old man simply giving some advice to a newcomer. Is there anything you'd like to know about?
+
+GuideTheWorld/end1
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    You best find a way to leave this place soon, staying at Noer Island is just a death sentence. Once the island is destroyed, you'll be joining its grave!
+
+GuideTheWorld/end2
+\CBid[-1,9]\prf\c[4]Traveler：\c[0]    Ah! Yes!
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    If you ain't afraid of a bit of danger, you ought to visit the \C[6]Central Noer Market\C[0] at night. Heard there be some good stuff being sold that might be useful to you.
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    Oh? Thank you very much!
+
+GuideTheWorld/opt_Race
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    Me? Yep! That's right! I'm what's known as a \c[6]Mixed-Race\c[0].
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    From the Elves of the forests, to the Dwarves of the mountains, my blood even contains the history of the nomads from the Deserts. I'm just THAT mixed.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    No matter where we go, we are never welcomed. It's because many folks think that our blood is tainted and filthy.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    Before these disasters started occurring, people would blame us as the cause for Sins to exist.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    But now it seems that the refugees of \C[6]Sybaris\C[0] are the real problem for what's happening.
+\CBct[8]\m[tired]\c[6]Lona：\c[0]    ......
+\CBid[-1,6]\prf\c[4]Traveler：\c[0]    Errr... Sorry about that, my old habits are acting up again.
+
+GuideTheWorld/opt_TeamUp
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    You might be able to find yourself some potential companions in inns and taverns.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    Each companion's faction, combat type, duration, positions, and demands or costs are all different.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    Be sure to pay attention to these things, especially the person's position and duration of service.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    There can only be a single \C[6]Front\C[0] and \C[6]Rear\C[0] companion with you.
+\CBid[-1,20]\prf\c[4]Traveler：\c[0]    Over time, once the companion's duration days reaches 0, they will leave your service.
+
+########################### TRADE TUR 
+
+TradeTur/fristTime0
+\SND[SE/Book1]\bg[bg_TutorialTrade1]ATTENTION!
+\SND[SE/Book1]\bg[bg_TutorialTrade2]The currency in this game used for the bartering system/trading is called Trade Points.
+They are temporary and cannot be retained after leaving the current area/map.
+\SND[SE/Book1]\bg[bg_TutorialTrade3]It is highly recommended you exchange Trade Points with NPCs and shops for Copper Coins, Gold Coins, or other items of monetary value to store in your inventory before leaving the map. Otherwise, you will lose all your remaining Trade Points.
+\SND[SE/Book1]\bg[bg_TutorialTrade4]This is the Barter Window. The upper left corner shows Lona's Trade Points and carrying capacity.
+\SND[SE/Book1]\bg[bg_TutorialTrade5]These are Lona's tradeable items. Any item with a Trade Point value of 1 or more can be sold to the other party.
+\SND[SE/Book1]\bg[bg_TutorialTrade7]These are the other party's Trade Points amount and items.
+\SND[SE/Book1]\bg[bg_TutorialTrade7]Lona is only able to purchase items with prices equal to or lower than the total amount of Trade Points she currently holds.
+\SND[SE/Book1]\bg[bg_TutorialTrade8]Press the \c[6]Z\c[0] key to buy or sell items.
+\SND[SE/Book1]\bg[bg_TutorialTrade10]You may also press the \c[6]SHIFT+Z\c[0] keys to sell/buy the item's entire amount.
+\SND[SE/Book1]\bg[bg_TutorialTrade11]Once you've decided to complete the trade, press the \c[6]X\c[0] key to bring up the checkout prompt. Press the \c[6]Z\c[0] key after to confirm and complete the transaction.
+\SND[SE/Book1]\bg[bg_TutorialTrade12]If Lona accidently selected an item she does not want, you may press the \c[6]SHIFT+X\c[0] during checkout to cancel the entire transaction.
+\SND[SE/Book1]\bg[bg_TutorialTrade1]A shop/person's Trade Points and items stock replenishes every few days. Be sure to barter/trade carefully.
+
+############################# Wounds TUR
+
+WoundTur/0
+\SND[SE/Book1]\bg[bg_TutorialWound1]Wounded
+\SND[SE/Book1]\bg[bg_TutorialWound1]Both attacking and being attacked have a chance of inflicting wounds.
+\SND[SE/Book1]\bg[bg_TutorialWound2]Upper body injuries are caused by blunt weapons, they reduce defense and intelligence.
+\SND[SE/Book1]\bg[bg_TutorialWound3]Middle body injuries are caused by slashing weapons, they reduce attack power.
+\SND[SE/Book1]\bg[bg_TutorialWound4]Lower body injuries are caused by piercing weapons, they reduce movement speed.
+\SND[SE/Book1]\bg[bg_TutorialWound1]Wounds can be treated with herbs, potions or sleep.
+\SND[SE/Book1]\bg[bg_TutorialWound1]Being too wounded will reduce your combat effectiveness, so try stay healthy.
+
+##########------------------------ Cemetery negative energy difference Reward
+
+MercenaryGuild/CataUndeadHunt2
+\CBmp[GuildEmpolyee,2]\prf\c[4]Guild Receptionist：\c[0]    And so...? Have you found what was causing the disturbance at the Cemetery?
+
+MercenaryGuild/CataUndeadHunt2_3
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    Well... Mr. Gravekeeper has been killed...
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    And there are still many traps at the area.
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    ......That's all.
+
+MercenaryGuild/CataUndeadHunt2_4
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    Well... Mr. Gravekeeper has been killed...
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    And there are still many traps at the area.
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    A female Necromancer was also living the Catacombs.
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    I believe that she was the reason the undead kept rising in the Cemetery.
+
+MercenaryGuild/CataUndeadHunt2_567
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    Well... Mr. Gravekeeper has been killed...
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    And there are now Orkinds inside the Catacombs. They've created an opening down below.
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    I fled when I spotted them digging through the walls.
+
+MercenaryGuild/CataUndeadHunt2_failed
+\CBmp[GuildEmpolyee,5]\prf\c[4]Guild Receptionist：\c[0]    ...That's it? So you basically did nothing at all?
+\CBmp[GuildEmpolyee,5]\prf\c[4]Guild Receptionist：\c[0]    And not only that, you've allowed an employee of Rudesind Slope to die while escorting him?
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    Sorry...
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Useless... How incredibly incompetent of you...
+
+MercenaryGuild/CataUndeadHunt2_win
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    This is quite informative...
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    I will forward your information to my higher-ups, but be aware that we are currently short-staffed.
+
+MercenaryGuild/CataUndeadHunt2_withHead
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    I've also met with the Necromancer.
+\CBct[20]\m[normal]\c[6]Lona：\c[0]    ...This is her head.
+\prf\c[4]Guild Receptionist：\c[0]    Wow! Simply amazing!
+\prf\c[4]Guild Receptionist：\c[0]    But, due to the contract, I can't reward you more than what was agreed upon.
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    Figures...
+
+##########------------------------ 美祿的邀請
+
+MercenaryGuild/MiloInvite1
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Hey! Wait a second!
+\CBct[2]\m[confused]\c[6]Lona：\c[0]    What's wrong?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    I have an invitation letter for you. Your name is on it.
+
+MercenaryGuild/MiloInvite2
+\CBct[2]\m[flirty]\c[6]Lona：\c[0]    For me? What happened?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    I don't know the details. I've only been told you are to receive this letter from our higher-ups.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    It seems like you're starting to become well-known in this town.
+\CBct[2]\m[flirty]\c[6]Lona：\c[0]    R-Really?
+
+##########------------------------ 美祿的邀請2
+
+MercenaryGuild/MiloInvite2_1
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Wait!
+\CBct[2]\m[confused]\c[6]Lona：\c[0]    Now what?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    There's another letter for you.
+
+MercenaryGuild/MiloInvite2_2
+\CBct[2]\m[flirty]\c[6]Lona：\c[0]    Another one?!
+\CBmp[GuildEmpolyee,20]\prf\c[4]Guild Receptionist：\c[0]    Just take it, this is what I was instructed to give you.
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    Fine then.
+
+##########------------------------ OrkindEar
+
+MercenaryGuild/Report_OrkindEar_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\c[0]    Here are the ears that the guild wanted... Ick... Gross...
+
+MercenaryGuild/Report_OrkindEar_win2
+\CBid[-1,20]\m[confused]\prf\c[4]Guild Receptionist：\c[0]    Great work!
+\CBid[-1,20]\m[confused]\prf\c[4]Guild Receptionist：\c[0]    The higher-ups want to cover the walls of Noer with Orkind ears, so we'll need more ears!
+
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

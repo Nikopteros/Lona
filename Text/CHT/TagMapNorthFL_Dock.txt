@@ -1,0 +1,99 @@
+thisMap/OvermapEnter
+\m[confused]海潮堡，\n現為難民市場。\optB[算了,進入]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]前往鹽場？\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+#####################################################################
+
+Guard1/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    之前我只是個賣水果的，現在我專職揍不長眼的。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    我一天會弄死一位不長眼的。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    別怨我，這是工作！
+
+Guard1/Com1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    妳是來賣的還是來鬧事的？ 想死嗎？
+
+Guard2/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    我說啊，之前那些貴族老爺沒事就欺負我們。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    尤其是那個誰啊... 我忘了名子...
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    但我前幾天看到他的時候他居然帶著他的妻小一起要飯。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    然後妳猜我我怎做？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    我當著他老子的面肛了他兒子，他那求饒且絕望的表情看的我真舒爽。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    然後，妳猜怎麼著？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    他居然跪著說要上就上他倆，叫我我放過他兒子。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    然後，妳猜怎麼著？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    他是貴族啊，我們當然要聽他的話。然後整個小隊把他們一家都上了個舒爽，然後把他們丟到海裡溺死！
+
+comBoard/v1
+\board[你是女人嗎？]
+想救你的親朋好友？！
+來當看護吧，士兵們需要妳的協助。
+我們將保證您的食物與安全，加保一人入諾爾鎮。
+請洽鹽場倉庫櫃台。
+
+comBoard/v0
+\board[你是男人嗎？]
+想救你的親朋好友？！
+加入軍隊，或當奴隸！
+在加保一人入諾爾鎮。
+請洽鹽場守備隊。
+
+comBoard/v2
+\board[妳該反抗嗎？]
+一個巴掌拍不響，女人被強暴，責任比男人更大。
+一個手掌拍得響嗎？我不認為可以。
+遭強暴，妳該負的責任比男人要多得多。
+妳應閉嘴，不該反抗，因反抗而死是妳的錯。
+如果妳真想活下來，妳應該友善稱呼那些想強姦妳的人主人，並懇求他們強姦妳。
+現在是人類存亡的關鍵時刻，我們沒有時間聽妳的悲慘故事。
+
+##################################################################### FL_GateGuard
+
+FL_GateGuard/already_passed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    還在打忙？ 快點進去！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+
+FL_GateGuard/IsSlave
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    奴隸！ 是逃跑的奴隸！
+
+FL_GateGuard/Begin0_opt
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    站住！ 妳是老闆叫來的傭兵？ 還是來吸我們的屌的？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...\optB[都不是,傭兵,妓女]
+
+FL_GateGuard/Begin1_ans_cancel
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    滾!
+
+FL_GateGuard/Begin1_ans_mer_yes
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我是\..\..\..\m[flirty]傭兵？ 大概？
+
+FL_GateGuard/Begin1_ans_whore_yes
+\CBct[6]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    我是來服侍你們的屌....的？
+
+FL_GateGuard/Begin1_ans_mer_fail
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    敢撒謊！？ 我看妳就像個婊子！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+
+FL_GateGuard/Begin1_ans_whore_fail
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    \..\..\..看起來不像阿？ 其實你是男的吧？
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+
+FL_GateGuard/Begin1_ans_mer_pass1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    很好，進去之後到二樓找我老闆報到。
+\CBct[8]\m[confused]\plf\Rshake\c[6]洛娜：\c[0]    二樓...？
+
+FL_GateGuard/DickSuck0
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    \..\..\..
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    哼！ 我的大鵰很久沒洗了，就由妳來幫我打掃吧。
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什麼？！
+
+FL_GateGuard/DickSuck1
+\CBid[-1,4]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    呼呼♥ 乾淨多了♥
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    進去吧，去一樓的櫃檯簽下去，以後妳生活就無憂了。
+
+##################################################################### Weapon vandor ,NFL quest reward
+
+WeaponTrader/BucketHelmet_begin0
+\CBid[-1,20]\c[4]商人：\c[0]    呦！ 快來看看，我剛弄到了新貨。
+\CBid[-1,20]\c[4]商人：\c[0]    妳瞧瞧，這全新的戰士頭盔，這可是那些傭兵\c[6]席芭莉絲\c[0]軍營裡弄到的。
+\CBid[-1,20]\c[4]商人：\c[0]    真不知道他們是怎麼逃過那些綠皮怪物的鼻子的。

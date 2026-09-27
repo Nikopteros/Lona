@@ -1,0 +1,88 @@
+NoerBank/OvermapEnter
+\m[confused]Bolsa de Valores de Noer (Banco) \optB[Cancelar,Entrar]
+
+NoerBank/OvermapEnter_Slave
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡No se permite esclavos! ¡Largo!
+\m[sad]\PLF\c[6]Lona: \C[0]    .....
+
+NoerBank/OvermapEnterClosed
+\m[confused]\c[6]Lona: \C[0]    Parece que está cerrado.
+
+################################################################################
+
+Maani/begin1_unknow
+\SETpl[MaaniNormal]\c[4]Empleado: \C[0]    Bienvenida a la Bolsa de Valores Tripartita, sucursal de Noer. ¿En qué puedo ayudarle?
+
+Maani/begin1_talked
+\SETpl[MaaniNormal]\c[4]Maani: \C[0]    Hola. Nos volvemos a encontrar.
+
+Maani/begin2_about
+\SETpl[MaaniNormal]\m[confused]\plf\c[6]Lona: \C[0]    ¿Tatuaje en la cara? ¿Eres... una esclava?
+\PLF\prf\CamMP[Maani]\c[4]Maani: \C[0]    Sí.
+\m[wtf]\CamCT\plf\c[6]Lona: \C[0]    ¿Y los esclavos pueden tener este tipo de trabajo?
+\CamMP[Maani]\PLF\prf\c[4]Maani: \C[0]    Mi amo quiere que trabaje aquí. Solo sigo órdenes.
+\CamMP[Maani]\c[4]Maani: \C[0]    Disculpe, si no necesita intercambios, hay otros detrás de usted que requieren mis servicios.
+\m[flirty]\CamCT\plf\PRF\c[6]Lona: \C[0]    Oh, perdón.
+\m[confused]En su placa dice Maani.
+\m[confused]¿Una esclava con nombre? Increíble.
+
+################################################################################
+
+NapBank/talk0
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]Guardia: \C[0]    ¡Ey! ¡¿Qué te crees?! \{¡LÁRGATE!
+
+NapBank/talk1
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]Guardia: \C[0]    ¡Vete a la mierda! Si quieres dormir, ¡vete a la calle!
+
+NapBank/talk2
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]Guardia: \C[0]    ¡Fuera de aquí! ¡La Bolsa de Valores no es tu casa!
+
+NapBank/talk_end
+\ph\narr Lona fue echada a patadas a la calle.
+
+################################################################################
+
+gentleman/talk1
+\ph\CamMP[GentlemanA]\c[4]Comerciante A: \C[0]    ¿Qué opinas de la reciente invasión de monstruos?
+\CamMP[GentlemanB]\c[4]Comerciante B: \C[0]    Perdí todos mis activos en Síbaris, pero por lo demás...
+\CamMP[GentlemanB]\c[4]Comerciante B: \C[0]    \BonMP[GentlemanB,3]Ganancias enormes.
+\CamMP[GentlemanA]\c[4]Comerciante A: \C[0]    \BonMP[GentlemanA,4]Ganancias enormes.
+\CamMP[GentlemanB]\c[4]Comerciante A: \C[0]    Hay que amar la guerra.
+\CamMP[GentlemanA]\c[4]Comerciante A: \C[0]    ¡Y respetar el caos!
+\CamCT\m[confused]Mi padre también era comerciante...
+\m[serious]\Bon[15]Pero no era tan descarado como ellos.
+
+GentlemanB/popup0
+Hay que adquirir más bienes valiosos.
+
+GentlemanB/popup1
+Los precios están a punto de dispararse. ¡Deben hacerlo!
+
+################################################################################
+
+emplyee1/begin
+\CBid[-1,20]\c[4]Empleado: \C[0]    ¿Eres de Síbaris? Por favor, ve al mostrador de la izquierda.
+
+emplyee2/begin
+\CBid[-1,20]\c[4]Empleado: \C[0]    ¡No! ¡Aquí no! ¡Ve al mostrador de la izquierda!
+
+emplyee_busy/begin
+\CBid[-1,20]\c[4]Empleado: \C[0]    Hubo escasez de efectivo, se suspendieron los retiros, y luego hubo un motín.
+
+guards/begin
+\CBid[-1,20]\c[4]Guardia: \C[0]    ¡Te estoy vigilando!
+\CBct[6]\m[flirty]\c[6]Lona: \C[0]    Holi...
+
+female/Qmsg0
+¡Escuché que Noer quebró!
+
+female/Qmsg1
+¡Debo retirar todo mi dinero!
+
+#####################################################################
+
+AllBuyArt/talk0
+\cg[other_AllBuy]Título: ¡Lo quiero todo!
+Misteriosa pintura artística del Este. Hasta ahora, nadie en Occidente ha podido entender su significado.
+\m[serious]Hmmm...?
+\m[confused]Yo tampoco lo entiendo...

@@ -1,0 +1,874 @@
+PageUp/item_name
+이전 페이지
+
+PageUp/description
+\}스킬 퀵슬롯을 이전 페이지로 돌린다.\n
+
+PageDown/item_name
+다음 페이지
+
+PageDown/description
+\}스킬 퀵슬롯을 다음 페이지로 넘긴다.\n
+
+IconOfSinMindControl/item_name
+dev
+
+IconOfSinMindControl/description
+dev
+
+ChainMaceNormal/item_name
+미트스핀
+
+ChainMaceNormal/description
+\}고기 회오리 시간이다!\n
+\C[6]자신의 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]충전 후 이동 가능\n
+\C[6]타격\n
+\C[1]스태미너 소모\n
+\C[2]방어 무시\n
+
+BasicTailBash/item_name
+꼬리 휘두르기
+
+BasicTailBash/description
+\}아빠! 봐봐! 나 손 안 써도 돼!\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]넉백\n
+\C[6]타격\n
+\C[6]기습\n
+\C[6]스턴\n
+
+BasicSaintJudgment/item_name
+성도의 심판
+
+BasicSaintJudgment/description
+\}정의의 망치가 거짓말쟁이들을 심판한다.\n
+\C[6]피해량은 지능,힘,건강에 비례한다\n
+\C[6]대상의 방어,생존 수치를 감소시킨다\n
+\C[6]전방 한칸을 공격\n
+\C[6]느림, 기절, 타격, 차지\n
+
+BasicProtectShield/item_name
+수호 방패
+
+BasicProtectShield/description
+\}성도의 이름으로, 신도들을 보호하라.\n
+\C[6]타겟 위치를 선택하여 캐스팅\n
+\C[6]수호 방패의 효과는 건강에 비례한다\n
+\C[1]스태미너 소모\n
+
+BasicSaintSmite/item_name
+성도의 징벌
+
+BasicSaintSmite/description
+\}성도의 이름으로, 적들을 징벌하라。\n
+\C[6]피해량은 지능,힘,건강에 비례한다\n
+\C[6]타겟 위치를 선택하여 캐스팅\n
+\C[6]폭발\n
+\C[1]스태미너 소모\n
+
+KatanaNormalHold/item_name
+삭월・초승달 베기
+
+KatanaNormalHold/description
+\}밟고 선 이곳에서, 우리가 같다는 것을 깨달았다.\n
+\C[6]자신의 위치와 전방 1칸 공격\n
+\C[6]참격, 차지\n
+\C[1]스태미너 소모\n
+\n
+\C[2]차지 완료시, 추가타 발동\n
+\C[2]추가타는 방어 관통\n
+
+KatanaHeavy/item_name
+반월・반달 가르기
+
+KatanaHeavy/description
+\}증오엔 증오로 되갚으리니, 나를 당신 곁에 세우소서\n
+\C[6]전방, 좌우 공격\n
+\C[6]참격\n
+\C[1]스태미너 소모\n
+
+KatanaControl/item_name
+비기・만월
+
+KatanaControl/description
+\}느리구나, 쓰러지는 것 조차... \n
+\C[6]순간적으로 패링 효과를 얻는다\n
+\C[6]전방 2칸 공격\n
+\C[6]참격, 차지\n
+\C[1]스태미너 소모\n
+
+BasicBattleStandard/item_name
+정의의 기수
+
+BasicBattleStandard/description
+\}성도님이 인도하시니，우리는 무너지지 않는다！\n
+\C[6]근처의 동료를 치료합니다\n
+\C[6]치유량은 건강에 비례합니다\n
+\C[6]근처 동료에게 지능,생존,방어력,공격력 버프를 줍니다\n
+\C[6]차지 스킬\n
+\C[1]스태미너 소모\n
+
+IconOfSinMindControl/item_name
+정신 지배
+
+IconOfSinMindControl/description
+\}쓸모 있구나, 벌레야!\n
+\C[6]자신의 위치에 전방 1칸 지배\n
+\C[6]특수한 정신지배 사용합니다\n
+\C[6]NPC에게 정신지배를 사용할 수 있으며 종료 후 자신과 NPC는 기절한다\n
+\C[6]차지 스킬\n
+\C[1]스태미너 소모\n
+
+BasicNunHeal/item_name
+영혼의 위로
+
+BasicNunHeal/description
+\}마음껏 뛸 수 있도록 도와줄게！\n
+\C[6]전방에 있는 유닛을 치료합니다\n
+\C[6]치료 효과는 건강에 비례합니다\n
+\C[6]차지 스킬\n
+\C[1]스태미너 소모\n
+
+BasicAbomGrab/item_name
+촉수 손길
+
+BasicAbomGrab/description
+\}\C[6]촉수로 전방을 공격\n
+\C[6]일반 사용시 앞쪽으로 대쉬\n
+\C[6]차지시 상대를 끌어당긴다\n
+\C[1]스태미너와 생명 소모\n
+\C[6]스턴、슈퍼아머\n
+
+BasicAbomEatDed/item_name
+집어삼키기
+
+BasicAbomEatDed/description
+\}네 살점은 이제 내거야...\n
+\C[4]발 밑에 시체가 있을 때 사용가능\n
+\C[1]스태미너소모\n
+\n
+\C[0]감염\n
+\C[2]일반 사용시, 시체를 마물로 바꿉니다\n
+\C[6]마물의 스탯은 시체와 비례합니다\n
+\n
+\C[0]시체 삼키기\n
+\C[4]차지 사용시, 시체를 삼킵니다，\n
+\C[2]시체의 스탯에 따라 생명과 스태미너을 회복합니다。\n
+
+SaintSymNormal/item_name
+퇴마
+
+SaintSymNormal/description
+\}성도의 이름으로, 거짓 신을 추방하라\n
+\C[6]사방에 광범위 스턴\n
+\C[1]스태미너소모\n
+\C[6]차지\n
+
+BroadSwordNormal/item_name
+대검 베기
+
+BroadSwordNormal/description
+\}\n
+\C[6]전방 광범위 공격\n
+\C[6]차지 후 이동 가능\n
+\C[6]참격, 슈퍼아머\n
+\C[1]스태미너 소모\n
+
+TeslaStaffNormal/item_name
+고압 스파크
+
+TeslaStaffNormal/description
+\}나는 끊임없이 나를 넘어선다.\n
+\C[6]전방 광범위 공격\n
+\C[6]피해량은 지능에 비례\n
+\C[6]차지\n
+\C[6]둔화\n
+\C[1]스태미너, 기분 소모\n
+
+TeslaBookHeavy/item_name
+대기 방전
+
+TeslaBookHeavy/description
+\}누구나 전기를 쓸 권리가 있다.\n
+\C[6]목표 위치로 방전\n
+\C[6]피해량은 지능에 비례\n
+\C[6]둔화\n
+\C[1]스태미너, 기분 소모\n
+
+TeslaBookControl/item_name
+테슬라 코일
+
+TeslaBookControl/description
+\}혼자가 창작의 비결이다.\n
+\C[6]목표 위치에 소환\n
+\C[6]동시에 하나만 존재 가능\n
+\C[1]스태미너, 기분 소모\n
+
+PickAxeNormal/item_name
+채광
+
+PickAxeNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자신의 위치와 전방 1칸 공격\n
+\C[6]관통\n
+\C[6]둔화\n
+
+SickleNormal/item_name
+낫질하기
+
+SickleNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자신의 위치와 전방 1칸 공격\n
+\C[6]참격\n
+\C[6]기습\n
+\C[6]기절\n
+
+BasicDeepone/item_name
+각성
+
+BasicDeepone/description
+\}인간/바다마녀 형태로 변신.\n
+\C[5]바다마녀일 때 나체가 됨\n
+\C[2]바다마녀일 때 ‘정액 악마’ 특성 부여\n
+\C[1]인간으로 돌아오면 병약해지고 부작용 발생\n
+\C[6]차지\n
+
+DeeponeHeavy/item_name
+미니언 소환
+
+DeeponeHeavy/description
+\}"심해의 여인들이여!" "내 부름에 답하라..."\n
+\C[6]자신의 근처에 심해인 미니언을 소환한다\n
+\C[6]소환물의 능력치는 지능의 영향을 받는다\n
+\C[6]한번에 2명까지 소환할 수 있다\n
+\C[1]스태미너 소모\n
+\C[6]차지\n
+
+MusketHeavyRLD/item_name
+장전
+
+MusketHeavyRLD/description
+\}재장전합니다.\n
+\C[1]스태미너 소모\n
+
+TalkieControl/item_name
+빗발치는 불꽃
+
+TalkieControl/description
+\}하늘에서 정의가 내려온다!\n
+\C[1]스태미너과 기분 소모\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]폭발\n
+\C[6]스턴\n
+\C[6]사용 중 이동 불가\n
+
+LanternHeavy/item_name
+점화
+
+LanternHeavy/description
+\}불붙여!\n
+\C[1]스태미너 소모.\n
+\C[6]전방의 목표에 불을 붙인다\n
+\C[6]데미지는 생존스탯에 비례한다\n
+\C[6]차지샷\n
+
+MusketHeavy/item_name
+발포
+
+MusketHeavy/description
+\}이게 미래의 전투방식!\n
+\C[6]지정한 위치를 공격한다\n
+\C[1]스태미너과 기분 소모\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]발사체의 위력은 공격력의 영향을 받는다\n
+\C[6]둔화\n
+
+BasicSteal/item_name
+도둑질
+
+BasicSteal/description
+\}나는 죄 없어! 그냥 살고 싶다고!\n
+\C[6]성공률은 탐지 기술에 비례\n
+\C[6]지성 생물에게만 유효\n
+\C[1]스태미너 소모\n
+\C[6]차지샷\n
+\C[6]기습\n
+
+BasicAssemblyCall/item_name
+집결
+
+BasicAssemblyCall/description
+\}동료를 로나에게 이동시킨다.\n
+Shift + 집결 단축키를 동시에 눌러, 동료를 제자리에 홀드시킬 수 있다\n
+
+BasicFuckerGrab/item_name
+착정
+
+BasicFuckerGrab/description
+\}남자는 모두 내 먹잇감이야!\n
+\C[6]대상을 성관계 상태로 강제한다\n
+\C[6]성적으로 다룰 수 없는 대상에는 유효하지 않다\n
+\C[1]스태미너 소모\n
+\C[6]차지샷\n
+\C[6]기습\n
+\n
+\C[0]차징시 \C[4]방향키\C[0]로 체위 선택\n
+\C[6]안누름 ：랜덤\n
+\C[6]위       ：질\n
+\C[6]아래    ：항문\n
+\C[6]좌우    ：구강\n  
+
+BasicSetDarkPot/item_name
+암흑 냄비 만들기
+
+BasicSetDarkPot/description
+\}있는 거 죄다 넣고 한번 끓여볼까?\n
+\C[6]나무 막대 하나를 사용해 어둠의 가마를 만들고, 플레이어가 바라보는 방향에 어둠의 가마를 설치합니다\n
+\C[6]나무 막대는 제작 완료 후 소멸\n
+\C[6]아이템 합성에 사용 가능\n
+\C[1]스태미너 소모\n
+\C[6]전투 중 사용 불가\n
+\C[6]차지 가능\n
+
+DebugPrintChar/item_name
+DebugTarget
+
+DebugPrintChar/description
+DevTool
+
+sys_normal/item_name
+주기능
+
+sys_normal/description
+\}\n
+\C[1]스킬을 사용할 수 없다.\n
+
+sys_heavy/item_name
+보조 기술 1
+
+sys_heavy/description
+\}\n
+\C[1]스킬을 사용할 수 없다.\n
+
+sys_control/item_name
+보조 기술 2
+
+sys_control/description
+\}\n
+\C[1]스킬을 사용할 수 없다.\n
+
+BasicTrapItem/item_name
+함정 설치
+
+BasicTrapItem/description
+\}나는 정면승부를 좋아하지 않아.\n
+\C[6]EXT의 물건으로 앞에 함정을 설치한다, EXT-1 우선\n
+\C[6]함정의 피해는 생존력과 물건의 무게에 영향을 받는다\n
+\C[6]Shift\C[0]키로 강제로 돌을 함정 재료로 사용합니다\n
+
+BasicQuickExt1/item_name
+EXT-1 상호작용
+
+BasicQuickExt1/description
+\}\n
+\C[2]EXT-1의 물건을 사용한다.\n
+\C[6]Ctrl\C[0]+EXT-1 버린다\n
+\C[6]Shift\C[0]+EXT-1 특수 사용\n
+
+BasicQuickExt2/item_name
+EXT-2 상호작용
+
+BasicQuickExt2/description
+\}\n
+\C[2]EXT-2의 물건을 사용한다.\n
+\C[6]Ctrl\C[0]+EXT-2 버린다\n
+\C[6]Shift\C[0]+EXT-2 특수 사용\n
+
+BasicQuickExt3/item_name
+EXT-3 상호작용
+
+BasicQuickExt3/description
+\}\n
+\C[2]EXT-3의 물건을 사용한다.\n
+\C[6]Ctrl\C[0]+EXT-3 버린다\n
+\C[6]Shift\C[0]+EXT-3 특수 사용\n
+
+BasicQuickExt4/item_name
+EXT-4 상호작용
+
+BasicQuickExt4/description
+\}\n
+\C[2]EXT-4의 물건을 사용한다.\n
+\C[6]Ctrl\C[0]+EXT-4 버린다\n
+\C[6]Shift\C[0]+EXT-4 특수 사용\n
+
+BasicQuickExt5/item_name
+EXT-5 상호작용
+
+BasicQuickExt5/description
+\}\n
+\C[2]EXT-5의 물건을 사용한다.\n
+\C[6]Ctrl\C[0]+EXT-5 버린다\n
+\C[6]Shift\C[0]+EXT-5 특수 사용\n
+
+FireBookControl/item_name
+포격
+
+FireBookControl/description
+\}입을 열고 귀를 막고, 포격 방향을 봐!\n
+\C[6]지정된 위치에 포격한다\n
+\C[1]스태미너과 기분 소모\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]폭발\n
+\C[6]스턴\n
+\C[6]둔화\n
+
+FireBookHeavy/item_name
+화벽
+
+FireBookHeavy/description
+\}불태워!\n
+\C[6]지정된 위치에 불의 벽을 불러낸다\n
+\C[1]스태미너과 기분 소모\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]타격\n
+\C[6]둔화\n
+
+FireStaffNormal/item_name
+불덩이
+
+FireStaffNormal/description
+\}이런 말이 있지, 공격은 최선의 방어야.\n
+\C[1]스태미너과 기분 소모\n
+\C[6]사격, 폭발\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]차지샷\n
+\C[6]타격\n
+\C[6]둔화\n
+
+WaterStaffNormal/item_name
+물폭탄
+
+WaterStaffNormal/description
+\}당신의 얼굴에 스프레이!\n
+\C[1]스태미너과 기분 소모\n
+\C[6]사격, 넉백\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+WaterBookHeavy/item_name
+수신성
+
+WaterBookHeavy/description
+\}저리가! 가까이 오지마!\n
+\C[6]주위 사방으로 충격파를 발사한다\n
+\C[1]스태미너과 기분 소모\n
+\C[6]넉백\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]차지샷\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+DeeponeControl/item_name
+안개
+
+DeeponeControl/description
+\}너는 날 볼 수 없어!\n
+\C[6]지정 위치에 안개를 불러낸다\n
+\C[1]스태미너, 기분 소모\n
+
+WaterBookControl/item_name
+용오름
+
+WaterBookControl/description
+\}난다요~\n
+\C[6]지정 위치에 용오름을 불러낸다\n
+\C[1]스태미너, 기분 소모\n
+\C[6]피해량은 지능에 비례\n
+\C[6]관통\n
+\C[6]둔화\n
+
+BasicLetterMenu/item_name
+편지를 본다
+
+BasicLetterMenu/description
+\}\n
+\C[1]편지 메뉴를 연다\n
+
+BasicThrow/item_name
+투척
+
+BasicThrow/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]기습\n
+\C[2]주변 생물의 관심을 끈다\n
+
+BasicSetCamp/item_name
+캠프 설치
+
+BasicSetCamp/description
+\}\n
+\C[2]수면을 취하고 힘을 회복한다.\n
+\C[1]포만감를 소모한다\n
+\C[6]전투 중에는 사용할 수 없다\n
+\C[6]특정 위치에서는 사용할 수 없다\n
+
+BasicNap/item_name
+휴식
+
+BasicNap/description
+\}\n
+\C[0]잠깐 쉬기\n
+\C[4]포만감가 10 소모되고 스태미너을 20 회복한다.\n
+\n
+\C[0]수면\n
+\C[4]사용시 Shift나 R2를 같이 누르면 잠든다\n
+\C[5]사용하면 시간이 지나간다\n
+\C[6]전투중에는 사용할 수 없다\n
+\C[6]특정 위치에서는 사용할 수 없다\n
+\C[2]휴식해서 스태미너을 회복한다\n
+\C[1]포만감를 소모한다\n
+
+BasicSlipped/item_name
+넘어지기
+
+BasicSlipped/description
+\}\n
+\C[6]\{\{아이쿠!\n
+
+BasicPickRock/item_name
+돌 줍기
+
+BasicPickRock/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]돌을 1개 줍는다\n
+
+BasicNeeds/item_name
+기본 명령
+
+BasicNeeds/description
+\}\n
+\C[6]아래의 것들을 할 수 있다.\n
+\C[6]전투 중에는 사용할 수 없다\n
+\C[2]씻기\n
+\C[2]배설\n
+\C[2]자위\n
+\C[2]은밀한 곳 정리\n
+\C[2]착유\n
+\C[2]구속구 파괴\n
+
+BasicSubmit/item_name
+항복
+
+BasicSubmit/description
+\}\n
+\C[1]사과할 때 가슴을 보여주는 게 상식이야?\n
+
+AbominationTotemControl/item_name
+칼날 촉수
+
+AbominationTotemControl/description
+\}\n
+\C[1]스태미너와 기분 소모\n
+\C[6]전방에 칼날 촉수를 하나 소환한다\n
+\C[6]소환물의 능력치는 지능의 영향을 받는다\n
+\C[6]차지샷\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+AbominationTotemHeavy/item_name
+사악한 포자
+
+AbominationTotemHeavy/description
+\}\n
+\C[1]스태미너와 기분 소모\n
+\C[6]전방에 사악한 포자를 하나 소환한다\n
+\C[6]포자가 폭발하면, 일정 범위에 지속피해 장판이 생긴다\n
+\C[6]소환물의 능력치는 지능의 영향을 받는다\n
+\C[6]차지샷\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+AbominationTotemWorm/item_name
+살덩이 벌레 소환
+
+AbominationTotemWorm/description
+\}\n
+\C[1]스태미너, 기분 소모\n
+\C[6]전방에 벌레 1마리 소환\n
+\C[6]투사체 데미지는 지능의 영향을 받음\n
+\C[6]차지\n
+\C[6]타격\n
+
+BoneStaffNormal/item_name
+부식 구체
+
+BoneStaffNormal/description
+\}\n
+\C[1]스태미너와 기분을 소모\n
+\C[6]사격\n
+\C[6]발사체의 위력은 지능의 영향을 받는다\n
+\C[6]차지샷\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+DaggerHeavy/item_name
+약점 공격
+
+DaggerHeavy/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]방어무시\n
+\C[6]찌르기\n
+\C[6]기습\n
+\C[6]둔화\n
+
+WhipNormal/item_name
+채찍 휘두르기
+
+WhipNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]전방의 넓은 범위를 공격한다\n
+\C[6]타격\n
+\C[6]스턴\n
+
+BasicNormal/item_name
+평범한 사람의 정의
+
+BasicNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]타격\n
+\C[6]기습\n
+\C[6]스턴\n
+
+BasicHeavy/item_name
+강타
+
+BasicHeavy/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]타격\n
+\C[6]기습\n
+\C[6]스턴\n
+
+BasicControl/item_name
+몸통박치기
+
+BasicControl/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]전방 1칸을 공격한다\n
+\C[6]한칸 돌진하며 상대를 밀어낸다\n
+\C[6]슈퍼아머\n
+\C[6]차지샷\n
+
+BasicDodge/item_name
+회피
+
+BasicDodge/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]일정한 범위 내의 공격을 무시한다\n
+
+SabarNormal/item_name
+세이버 슬레시
+
+SabarNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]참격, 관통\n
+\C[6]기습\n
+\C[6]스턴\n
+
+ShortSwordNormal/item_name
+단검 베기
+
+ShortSwordNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]참격\n
+\C[6]기습\n
+\C[6]스턴\n
+
+WoodenClubNormal/item_name
+몽둥이 공격
+
+WoodenClubNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]타격\n
+\C[6]기습\n
+\C[6]스턴\n
+
+WoodenSpearNormal/item_name
+창 찌르기
+
+WoodenSpearNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]전방 2칸을 향해 공격한다\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+WoodenSpearHeavy/item_name
+창 휘두르기
+
+WoodenSpearHeavy/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]사방을 향해 공격한다\n
+\C[6]타격, 슈퍼아머\n
+\C[6]둔화\n
+
+LongBowNormal/item_name
+사격
+
+LongBowNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]사격\n
+\C[6]타격\n
+\C[6]둔화\n
+
+LongBowHeavy/item_name
+화살비
+
+LongBowHeavy/description
+\}\n
+\C[6]목표한 위치로 화살비를 쏜다\n
+\C[1]스태미너 소모\n
+\C[6]차지샷\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+LongBowControl/item_name
+정밀 사격
+
+LongBowControl/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]차지샷\n
+\C[6]사격\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+ManCatcherNormal/item_name
+견제타
+
+ManCatcherNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]전방 2칸을 공격한다\n
+\C[6]타격\n
+\C[6]스턴\n
+
+ManCatcherHeavy/item_name
+근접 견제
+
+ManCatcherHeavy/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]타격\n
+\C[6]스턴\n
+
+ManCatcherControl/item_name
+휘두르기
+
+ManCatcherControl/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]사방을 향해 공격한다\n
+\C[6]타격\n
+\C[6]스턴\n
+
+HalberdNormal/item_name
+할버드 베기
+
+HalberdNormal/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]전방 2칸을 향해 공격한다\n
+\C[6]참격\n
+\C[6]스턴\n
+
+HalberdHeavy/item_name
+할버드 강하게 베기
+
+HalberdHeavy/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]참격\n
+\C[6]스턴\n
+
+HalberdControl/item_name
+할버드 휘두르기
+
+HalberdControl/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]사방을 향해 공격한다\n
+\C[6]참격, 슈퍼아머\n
+\C[6]스턴\n
+
+DaggerControl/item_name
+백스탭
+
+DaggerControl/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]차지샷\n
+\C[6]찌르기\n
+
+ThrowingKnivesHeavy/item_name
+칼 던지기
+
+ThrowingKnivesHeavy/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]사격\n
+\C[6]찌르기\n
+\C[6]둔화\n
+
+WoodenShieldHeavy/item_name
+방패 치기
+
+WoodenShieldHeavy/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]자기 위치를 포함한 전방 1칸을 공격한다\n
+\C[6]넉백\n
+\C[6]타격\n
+\C[6]기습\n
+\C[6]스턴\n
+
+WoodenShieldControl/item_name
+방어
+
+WoodenShieldControl/description
+\}\n
+\C[1]스태미너 소모\n
+\C[6]힘이 계속되는 동안 공격을 막는다.\n
+\C[6]차지샷\n
+
+nil/item_name
+
+nil/description
+

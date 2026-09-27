@@ -1,0 +1,32 @@
+ThisMap/Enter
+\m[confused]Вироби з Шкіри у Гумпа
+
+###############################################################He called blacksmith as brother. але вони не мають самої bloodline.
+
+BSStrader/welcome
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Гумп:\C[0] Людина... Привіт... Я Гумп... Потрібна шкіра...?
+
+Lona/MarketOpt
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ммм... \optB[Забудьте,Обмін,Хто ви?]
+
+BSStrader/About
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп:\C[0] Ми народилися... Стали... Рибами...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп:\C[0] Коли старий... Назад у море... Служити... Морський Відьма...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп:\C[0] Майбутнього немає... Тупик тільки...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[normal]\Lshake\prf\c[4]Гумп:\C[0] Брат... Йому снилося... Він пішов з дому...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп:\C[0] Я сподіваюся... Мій син... Теж відвідає... Нові землі...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[confused]\Lshake\prf\c[4]Гумп:\C[0] Брати Риболіди... Повинні бачити... Світ...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп:\C[0] Я став... Старше... Нащадки... Це майбутнє... Риболюдини......
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] ...Ч-Чого?
+
+BSStrader/end
+\CBmp[BSStrader,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп:\C[0] Мої нащадки... Завжди... Зростають...
+
+kid/Rand0
+\CBmp[KidReader,20]\c[4]Дитина:\C[0] Дядько Бубба каже... Він відкрив магазин... Людський острів...! Я прийду... Якось...!
+
+kid/Rand1
+\CBmp[KidReader,20]\c[4]Дитина:\C[0] Мій дядько... Подарував багато... Людських книг...!
+
+kid/Rand2
+\CBmp[KidReader,20]\c[4]Дитина:\C[0] Я чув... На острові людей... Є великий... Ринок!

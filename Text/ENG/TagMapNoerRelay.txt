@@ -1,0 +1,48 @@
+thisMap/OvermapEnter
+Noer Town Relay \optB[Leave,Enter]
+
+BoardReader1/ReadQmsg0
+The safest place is Noer.
+
+BoardReader1/ReadQmsg1
+It's a mess out there.
+
+BoardReader2/ReadQmsg0
+My family's still out there!
+
+BoardReader2/ReadQmsg1
+I have to go get them!
+
+BoardReader3/ReadQmsg0
+It's getting more expensive.
+
+BoardReader3/ReadQmsg1
+It's not going anywhere.
+
+BoardReader4/ReadQmsg0
+Look at that giant sausage!
+
+BoardReader4/ReadQmsg1
+I love horses!
+
+BoardReader4/ReadQmsg2
+My ass is itchy...
+
+Board/page1
+\board[Conscripted mercenaries.]
+You think you've got what it takes? Come on! We need you!
+The Armed Forces need the help of all the good men on the street!
+We'll pay handsomely for your service!
+Please contact the station staff.
+
+Board/page2
+\board[Announcement]
+Currently all staging areas outside the town are out of service.
+For timely updates, please contact the station's employees.
+
+Board_MrHand/page1
+\board[Warning： No bestiality!]
+The Saint is angered by acts of bestiality.
+Animals will behave violently towards perverts.
+Anyone caught violating The Saint's decree
+will be summarily execute without trial.

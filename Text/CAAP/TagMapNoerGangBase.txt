@@ -1,0 +1,20 @@
+thisMap/OvermapEnter
+Escondite de la banda Filón Ancho, territorio de tipos malos. \optB[Irse,Entrar]
+
+Nap/failed0_normal
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido A：\C[0]    ¿Dónde encontraste a esta maldita zorra?
+\SETpl[MobHumanWarrior]\plf\Rshake\C[4]Bandido B：\C[0]    ¡La recogí!
+
+Nap/failed_normal_if_Non_Slave
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido A：\C[0]    ¿Oh? No está mal, pongámosla a trabajar como puta en el patio trasero.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]Bandido B：\C[0]    ¡Primero márcala como esclava!
+
+#to all fans translator, donot translate 由于此讯息不符合符合国家安全法规，已被屏蔽   its china censor joke.
+
+ArtPlague/art
+\cg[other_ArtPlauge] No podemos pronunciar Su nombre, Él es el señor de las plagas, Él es el ángel de la peste, y Él trae sufrimiento infinito al mundo.
+\m[flirty]\PRF\c[6]Lona：\C[0]    Eh... ¿Un oso amarillo?
+\m[confused]\PRF\c[6]Lona：\C[0]    Mmm.....
+\m[shocked]\Rshake\narr Este mensaje ha sido bloqueado por no cumplir con los estándares de seguridad nacional\...\...\...\...
+\m[confused]\Rshake\narr Este mensaje ha sido bloqueado por no cumplir con los estándares de seguridad nacional\...\...\...
+\m[flirty]\Rshake\narr Este mensaje ha sido bloqueado por no cumplir con los estándares de seguridad nacional\...\...

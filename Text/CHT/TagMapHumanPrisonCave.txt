@@ -1,0 +1,483 @@
+HumanPrisonCave/OvermapEnter
+\m[confused]晶礦礦場\optB[算了,進入]
+
+####################################### 狩獵ABOM任務相關 ######################################################
+
+Manager/Qprog1
+\CBmp[Manager,20]\m[normal]\prf\c[4]礦場管理者：\c[0]    妳是來清理那些魔物的？
+\CBmp[Manager,20]\prf\c[4]礦場管理者：\c[0]    就派妳這樣的小鬼過來？還是個女人？
+\CBct[2]\m[confused]\PLF\c[6]洛娜：\c[0]    阿...？
+\CBmp[Manager,20]\prf\c[4]礦場管理者：\c[0]    好吧。
+\CBmp[Manager,20]\prf\c[4]礦場管理者：\c[0]    那些生物大多聚集在礦坑的深處。
+\CBmp[Manager,20]\prf\c[4]礦場管理者：\c[0]    注意一點，盡量不要接近囚犯的休息區。
+\CBmp[Manager,20]\prf\c[4]礦場管理者：\c[0]    那些人很久沒見過女人了。
+
+Manager/Qprog1_KillCounted
+\CBct[20]\m[triumph]\c[6]洛娜：\c[0]    好！看起來胞子都被清除掉了。
+\CBmp[Manager,19]\m[pleased]\c[6]洛娜：\c[0]    先跟管理員回報吧。
+
+Manager/Qprog2
+\CBmp[Manager,20]\prf\m[normal]\c[4]礦場管理者：\c[0]    呦！小鬼幹得不錯啊。
+\CBmp[Manager,20]\prf\m[normal]\c[4]礦場管理者：\c[0]    喏，這是工會的證明。
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    謝謝你！
+
+####################################### Captured ######################################################
+
+Narr/Captured0
+\narr礦場守衛圍了上來。
+
+Narr/Captured1
+\SETpl[Mreg_pikeman]\c[4]守衛A：\c[0]    這小妮子怎麼回事？
+\SETpr[Mreg_guardsman]\c[4]守衛B：\c[0]    不知道，該不會是看了徵人公告過來的？
+\prf\PLF\c[4]守衛A：\c[0]    現在還有人信？ 名聲都差到這樣了。
+\PRF\plf\c[4]守衛B：\c[0]    誰知道，這邊不就一個信了的？
+\prf\PLF\c[4]守衛A：\c[0]    唉唉，這世道...
+\PRF\plf\c[4]守衛B：\c[0]    別說了，先將她引進去吧。
+
+Narr/Captured2
+\m[confused]\prh\narr洛娜被囚禁了。
+
+####################################### 逃跑 ######################################################
+
+HumanPrisonCave/guard_yelling
+\SETpl[Mreg_guardsman]\PLF\c[0]守衛：\c[0]\n    注意！ 有人逃跑了！
+\m[shocked]！！！！！
+
+####################################### 虐待演出 ######################################################
+
+HumanPrisonCave/RapeLoopTorture_begin1
+........
+......
+....
+\SETpl[Mfat_tortruer]\m[pain]\Lshake\SND[SE/Whip02.ogg]\Rshake\c[4]未知：\c[0]    \{婊子！給我醒來！
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\m[shocked]\PRF\c[6]洛娜：\c[0]    啊？
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\SETpl[Mfat_tortruer]\m[hurt]\Lshake\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    給我醒來！
+
+HumanPrisonCave/RapeLoopTorture_begin2_2
+\SETpl[Mfat_tortruer]\m[p5sta_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]拷問官：\c[0]    看仔細了驅蟲們！
+
+HumanPrisonCave/RapeLoopTorture_begin2_3
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    ...........
+
+HumanPrisonCave/RapeLoopTorture_begin2_4
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    ......
+
+HumanPrisonCave/RapeLoopTorture_begin2_5
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]拷問官：\c[0]    ...
+
+HumanPrisonCave/RapeLoopTorture_begin2_6
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    頂撞我們或不交齊每日的產量，那這就是你的下場。
+
+HumanPrisonCave/RapeLoopTorture_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    很好，明天以前交齊
+
+HumanPrisonCave/RapeLoopTorture2_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    很好，明天需要交齊
+
+HumanPrisonCave/RapeLoopTorture_begin3_reflag
+個晶礦，不然有你們受的。
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    解散！
+
+HumanPrisonCave/RapeLoopTorture2_begin3_reflag
+個晶礦。
+\SETpl[Mfat_tortruer]\Lshakec[4]拷問官：\c[0]    各位別玩到虛脫，然後忘了自己的工作！
+
+HumanPrisonCave/RapeLoopTorture_begin4
+\ph\narr\..\..\..\..
+
+HumanPrisonCave/RapeLoopTorture_end
+洛娜失去了意識，其他犯人將洛娜搬去了她的床位。
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin1
+\SND[SE/Whip02.ogg]\{注意！！！
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_1
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]拷問官：\c[0]    ...............
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_2
+\SETpl[Mfat_tortruer]\m[terror]\Rshake\SND[SE/Whip02.ogg]\Lshake\c[4]拷問官：\c[0]    ...........
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_3
+\SETpl[Mfat_tortruer]\m[sad]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]拷問官：\c[0]    .......
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_4
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]拷問官：\c[0]    ....
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_0
+\m[sad]那個人看起來已經死了。
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_1
+\m[sad]那個人看起來不行了。
+
+HumanPrisonCave/RapeLoopTorture_FristTime0
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    呦！看起來我們有新人加入快樂的奴隸生活？
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    是個\..\..\.. 女孩子呢！
+
+HumanPrisonCave/RapeLoopTorture_FristTime1
+\m[wtf]\Rshake不妙，他在說我。
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    叫做洛娜是嗎？ 很可愛的名子呢。
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    各位記得好好跟她相親相愛啊！
+
+HumanPrisonCave/RapeLoopTorture_FristTime2
+\m[shy]\cg[event_Eyes]四周的眼睛都在注視著我。
+\m[fear]那種淫邪的眼神在打算著什麼？
+\m[terror]\cgoff絕對不能讓自己看起來太虛弱，不然會被攻擊的。
+
+####################################### 排隊肉便器 ######################################################
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1
+\m[hurt]\SND[SE/Chain_move01.ogg]\Rshake\c[6]洛娜：\c[0]    咿呀呀！！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    各位今天工作辛苦了！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    我看到大家都非常的努力！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    但牠媽的這個小婊子居然偷懶！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_1
+\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[6]洛娜：\c[0]    嗚呀！！
+\m[terror]\c[6]洛娜：\c[0]    不！ 我沒有偷懶！ 我盡力了！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_2
+\SETpl[Mfat_tortruer]\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\Lshake\c[4]拷問官：\c[0]    \{閉嘴！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    今天就用這小婊子的身體來稿賞各位吧！
+\SETpl[raper_group]\Lshake\c[4]囚犯群：\c[0]    女人！
+\SETpl[raper_group]\Lshake\c[4]囚犯群：\c[0]    是女人！ 可以幹女人了！！
+\SETpl[raper_group]\Lshake\c[4]囚犯群：\c[0]    我肏！好久沒有享受過了！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    不要吵！一個一個上！大家都有份！\ph
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_3
+.........
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_typical
+\m[bereft]\c[6]洛娜：\c[0]    不！ 放過我！求你們！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_tsundere
+\m[angry]\c[6]洛娜：\c[0]    不！ 不要碰我！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_gloomy
+\m[terror]\c[6]洛娜：\c[0]    不......
+\m[fear]這麼多人，我會死的。
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_slut
+\m[lewd]\c[6]洛娜：\c[0]    我可不見得會輸給你們...
+
+HumanPrisonCave/RapeLoopMeattoilet_end
+\SETpl[raper3]\Lshake\c[4]囚犯：\c[0]    下一個是我！
+\SETpl[raper2]\Lshake\c[4]囚犯：\c[0]    不！ 下一個是我！
+\SETpl[raper1]\Lshake\c[4]囚犯：\c[0]    我操！ 明明是我排在後面！
+\ph囚犯的宴會一直持續到了晚上。
+在無止盡的強暴中洛娜失去了意識，其他囚犯將洛娜搬去了她的床位。
+
+####################################### 一般守衛 ######################################################
+
+HumanPrisonCave/Guard_begin1_slave
+\c[4]守衛：\c[0]    工作！ 該死的奴隸！
+
+HumanPrisonCave/Guard_begin1_maggot
+\c[4]守衛：\c[0]    臭蟲！ 給我去工作！
+
+HumanPrisonCave/Guard_begin1_sexy
+\c[4]守衛：\c[0]    去工作！ 婊子！
+
+HumanPrisonCave/Guard_begin1_weaker
+\c[4]守衛：\c[0]    回去工作！ 驅蟲！
+
+HumanPrisonCave/Guard_begin1_moot
+\c[4]守衛：\c[0]    做妳該做的事！
+
+HumanPrisonCave/Guard_begin1_lona
+\c[4]守衛：\c[0]    回去工作！
+
+HumanPrisonCave/Guard_Opt
+\m[confused]\c[6]洛娜：\c[0]    嗯？\optB[算了,交易,性服務<r=HiddenOPT1>]
+
+####################################### 一般男性礦工 ######################################################
+
+HumanPrisonCave/MinerM_begin1_slave
+\c[4]囚犯：\c[0]    滾！別碰我
+
+HumanPrisonCave/MinerM_begin1_maggot
+\c[4]囚犯：\c[0]    滾！別碰我
+
+HumanPrisonCave/MinerM_begin1_sexy
+\c[4]囚犯：\c[0]    呵呵...
+
+HumanPrisonCave/MinerM_begin1_weaker
+\c[4]囚犯：\c[0]    嗯？
+
+HumanPrisonCave/MinerM_begin1_moot
+\c[4]囚犯：\c[0]    別煩我！
+
+HumanPrisonCave/MinerM_begin1_lona
+\c[4]囚犯：\c[0]    幹嘛？
+
+####################################### 搶劫型礦工 ######################################################
+
+HumanPrisonCave/MinerHairTriggerM_begin_basic
+\c[4]囚犯：\c[0]    你的東西就是我的，我的東西還是我的！
+
+HumanPrisonCave/MinerHairTriggerM_Opt_basic
+\m[confused]\c[6]洛娜：\c[0]    嗯？\optB[算了,性服務<r=HiddenOPT1>]
+
+HumanPrisonCave/MinerHairTriggerM_begin_aggro
+\c[4]囚犯：\c[0]    嘿嘿，小妹妹，把妳手中的晶礦都交給我吧。
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro
+\m[shocked]\c[6]洛娜：\c[0]    \optD[給他<t=5>,不要！]
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_no
+\m[angry]\c[6]洛娜：\c[0]    不要！憑什麼！
+\c[4]囚犯：\c[0]    妳敢反抗？！
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_yes
+\m[sad]\c[6]洛娜：\c[0]    都... 都給你，拜託不要傷害我。
+\c[4]囚犯：\c[0]    呼呼呼，嘿嘿，這才乖。
+
+####################################### 礦坑交易員 ######################################################
+
+HumanPrisonCave/CaveTrader_begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\c[4]守衛：\c[0]    看什麼？ 發呆？ 妳今天交齊了嗎？
+
+HumanPrisonCave/CaveTrader_Opt
+\CBmp[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？\optB[沒事了,交易,對話,給予晶礦,性服務<r=HiddenOPT1>]
+
+HumanPrisonCave/CaveTrader_Talk1
+\CBmp[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    那個....
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    妳必須在明天以前交齊晶礦，不然絕對有妳受的。
+\CBid[-1,5]\Lshake\prf\c[4]守衛：\c[0]    要吃喝也一樣，拿晶礦來換，不勞動就沒飯吃！
+\CBmp[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    知.. 知道了。
+
+HumanPrisonCave/CaveTrader_AnsSexService
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    沒興趣！
+
+HumanPrisonCave/CaveTrader_GiveMineral_begin
+\CBmp[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    這些是我收集的.....
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    嗯.....
+...........
+.....
+...
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_OkayButMore
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    不夠！ 給我回去挖！
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_None
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    \{媽的！騙我！
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_Full
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    很好！ 努力的挖到死為止吧！
+
+HumanPrisonCave/CaveTrader_end
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    快去工作！ 小婊子！
+
+HumanPrisonCave/CaveTrader_mineneed0
+還需要
+
+HumanPrisonCave/CaveTrader_mineneed1
+個晶礦。
+
+####################################### 隱藏出口 ######################################################
+
+HumanPrisonCave/Windcave_frist_time
+\CBct[8]\m[shocked]\cg[map_region_hole]\c[6]洛娜：\c[0]    風？！
+\CBct[2]\m[normal]\c[6]洛娜：\c[0]    如果有風的話，這裡應該可以通向外面。
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    我的身型也不大，\n只要能將這個洞在挖大一點的話.....
+
+HumanPrisonCave/Windcave_Opt
+\CBct[8]\m[confused]\cg[map_region_hole]有風吹過的洞穴\optB[不要浪費體力,挖坑<r=HiddenOPT1>]
+
+HumanPrisonCave/Windcave_Opt_dig
+\CBct[8]\m[normal]要使用多少體力？\optB[不要浪費體力,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+HumanPrisonCave/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]洛娜：\c[0]    似乎挖開了不少。
+\CBct[6]\m[tired]\c[6]洛娜：\c[0]    但.... 嗚嗚.... 好累。
+
+HumanPrisonCave/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]！！！！！
+\CBct[1]\m[shocked]！！！！！！！！
+\CBct[1]\m[pleased]！！！！！！！！！！！
+\CBct[20]\m[triumph]\c[6]洛娜：\c[0]    可以了！ 我可以出去了！
+
+####################################### RAND RAPE LOOP ######################################################
+
+HumanPrisonCave/RapeLoop_begin1
+\m[shocked]\c[6]洛娜：\c[0]    ！！！！！
+\SETpl[raper_group]\prf\c[4]囚犯：\c[0]    \{女人！
+\SETpl[raper_group]\prf\c[4]囚犯：\c[0]    \{嘿嘿，女人！
+\SETpl[raper_group]\prf\c[4]囚犯：\c[0]    好久沒幹了。
+\m[terror]\PRF\c[6]洛娜：\c[0]    什麼？ 等一下？！
+
+####################################### DirtyJohnson ######################################################
+
+DirtyJohnson/else_fapping
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\c[4]骯髒強森\c[0]    嘿嘿...♥
+
+DirtyJohnson/FirstTime
+\CBct[8]\SETpl[DirtyJohnson_angry]\m[confused]\PLF\PRF\c[4]礦工：\c[0]    嗯\..\..\..？
+\CBct[6]\m[shy]\plf\PRF (這人體味好重...)
+\CBid[-1,8]\SETpl[DirtyJohnson]\m[confused]\Lshake\prf\c[4]礦工：\c[0]    小美人，妳新來的？
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]礦工：\c[0]    我！\.\c[6]骯髒強森\c[0]，然後妳....
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...我叫落\..\..\..\CBid[-1,3]\SETpl[DirtyJohnson_penis]\m[DirtyJohnson_angry_penis]\cg[event_WartsDick]\Lshake\prf\n \{來吹我的屌！
+\CBct[20]\m[terror]\PLF\Rshake\c[6]洛娜：\c[0]    什？！什麼？！
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\m[terror]\Lshake\prf\c[4]骯髒強森\c[0]    新來的婊子不清理我的屌屌？拒絕洞穴之王是會遭報應的。
+
+DirtyJohnson/FirstTime_blowjob_refuse
+\cgoff\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]骯髒強森\c[0]    妳這婊子居然敢拒絕洞穴之王！
+
+DirtyJohnson/FirstTime_blowjob_to_deepthroat
+\c[4]骯髒強森\c[0]    嗚嗚！！
+\narr \c[4]骯髒強森\c[0]粗暴的扯著洛娜的頭髮
+
+DirtyJohnson/FirstTime_blowjob_done
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森\c[0]    如何？好吃吧？
+\CBid[-1,3]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森\c[0]    只要當我的女人妳每天都可以吃的到我的屌屌呦♥
+
+DirtyJohnson/Lona_EH
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    \{咦！！？
+
+DirtyJohnson/WhoreWork_win_new
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]骯髒強森：\c[0]    歐歐！！
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]骯髒強森：\c[0]    好久沒幹了，上面累積了很多雞巴垢呢。
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]骯髒強森：\c[0]    就由妳來幫我打掃乾淨吧。
+
+DirtyJohnson/WhoreWork_win_old
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]骯髒強森：\c[0]    歐歐！！
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]骯髒強森：\c[0]    真是乖孩子。
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]骯髒強森：\c[0]    這次也麻煩妳幫我弄乾淨了。
+
+#unused
+DirtyJohnson/WhoreWork_failed
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]骯髒強森：\c[0]    沒興趣！走開！
+
+DirtyJohnson/begin_BackToCave
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[sad]\Lshake\prf\c[4]骯髒強森：\c[0]    哎？妳怎麼回來了？
+\CBid[-1,4]\SETpl[DirtyJohnson_angry_penis]\m[sad]\Lshake\prf\c[4]骯髒強森：\c[0]    是懷念我的雞巴垢還是我的口水？
+
+DirtyJohnson/begin0
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]骯髒強森：\c[0]    這是我的王國，我乃洞穴之王。
+
+DirtyJohnson/begin1
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\m[sad]\Lshake\prf\c[4]骯髒強森：\c[0]    呼嘿嘿♥ 看到妳我雞雞就硬的不得了。
+
+DirtyJohnson/begin2
+\CBid[-1,2]\SETpl[DirtyJohnson]\m[normal]\Lshake\prf\c[4]骯髒強森：\c[0]    嘿嘿，妳想要什麼？
+
+DirtyJohnson/begin_DoorBlockMode
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\m[normal]\Lshake\prf\c[4]骯髒強森：\c[0]    站住！你想去那？
+
+####################################### DirtyJohnson captured
+
+DirtyJohnson/Captured0
+\SETpl[DirtyJohnson_angry]\Lshake\c[4]骯髒強森：\c[0]    哼哼...記住，女人都是屬於我的。
+
+####################################### DirtyJohnson wakeup first time rape
+
+DirtyJohnson/FirstWakeupRape0
+\CBmp[DirtyJohnson,3]\SETpl[DirtyJohnson]\Lshake\c[4]骯髒強森：\c[0]    嗚喔喔♥♥
+
+DirtyJohnson/FirstWakeupRape1
+\CBmp[DirtyJohnson,4]\c[4]骯髒強森：\c[0]    阿阿♥ 停不下來了♥
+
+DirtyJohnson/FirstWakeupRape2
+\CBmp[DirtyJohnson,20]\c[4]骯髒強森：\c[0]    他媽的！ 要射了！ 射啦！
+
+DirtyJohnson/FirstWakeupRape3
+\CBmp[DirtyJohnson,1]\c[4]骯髒強森：\c[0]    吼喔喔喔喔！！！
+
+DirtyJohnson/FirstWakeupRape4
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[pain]\Rshake\c[6]洛娜：\c[0]    \{咦！！？
+\CBct[6]\cg[event_GroinClearn]\m[shy]\PRF\c[6]洛娜：\c[0]    這是怎麼回事？！
+
+####################################### DirtyJohnson opt dialog
+
+DirtyJohnson/opt_who_are_you
+你是誰
+
+DirtyJohnson/opt_what_happen_to_me
+我怎麼了
+
+DirtyJohnson/opt_merry
+成為他的女人
+
+DirtyJohnson/opt_sex_with
+跟他做
+
+DirtyJohnson/opt_who_are_you_ans0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...請問...你是....
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    這是我的王國，我是洞穴之王，骯髒強森。
+\CBid[-1,5]\SETpl[DirtyJohnson_penis]\Lshake\prf\c[4]骯髒強森：\c[0]    既然來到到這那就別想出去了，來當我的女人吧。
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我.....
+\CBid[-1,8]\SETpl[DirtyJohnson]\PLF\prf\c[4]骯髒強森：\c[0]    .....
+
+DirtyJohnson/opt_what_happen_to_me_ans0
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    你對我做了什麼？
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    我幹了妳的屄，妳已經是我的東西了。
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    你到底在說什麼？
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    小婊子來到這裡妳就別想出去了，乖乖當我的女人吧。
+\CBct[6]\m[fear]\plf\Lshake\c[6]洛娜：\c[0]    蛤？！
+
+DirtyJohnson/opt_merry_ans0
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我...當你的女人？
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    只要妳聽我的，每天清潔我的屌屌，之後洞裡的勞動都可以全免。
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    如何？當我的女人吧？
+
+DirtyJohnson/opt_merry_ans_no
+\CBct[6]\m[bereft]\plf\PRF\c[6]洛娜：\c[0]    \{不要！
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]骯髒強森：\c[0]    ....
+
+DirtyJohnson/opt_merry_ans_yes
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗯...我願意...
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    很好，我們馬上舉行婚禮吧。
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    噎？！ 婚禮？！
+
+DirtyJohnson/opt_merry_ans_narr
+\narr \c[4]骯髒強森\c[0]邀請了他的好朋友們...
+
+DirtyJohnson/opt_merry_ans_progress1
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    你們聽好了，這個女人歸我了。
+
+DirtyJohnson/opt_merry_ans_progress2
+\CBmp[StoryFucker2,20]\c[4]囚犯：\c[0]    又來了，這是第幾次了。
+\CBmp[StoryFucker4,20]\c[4]囚犯：\c[0]    可惜啦，這女人沒救了。
+\CBmp[StoryFucker6,20]\c[4]囚犯：\c[0]    先為她舉辦喪禮吧....
+\CBct[2]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    你們...
+
+DirtyJohnson/opt_merry_ans_progress3
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]骯髒強森：\c[0]    阿阿～ 都要結婚了我卻還不知道我妻子的名子呢。
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我...我叫落\..\..\..\CBid[-1,3]\SETpl[DirtyJohnson_penis]\m[DirtyJohnson_angry_penis]\cg[event_WartsDick]\Lshake\prf\n \{來做愛吧！
+\CBct[20]\m[shocked]\PLF\Rshake\c[6]洛娜：\c[0]    噎？！
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\Lshake\prf\c[4]骯髒強森：\c[0]    做愛！ 在所有人面前，證明妳對我的愛♥
+
+DirtyJohnson/opt_merry_ans_progress4
+\CBct[6]\c[6]洛娜：\c[0]    嗚嗚！
+
+DirtyJohnson/opt_merry_ans_progress5
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    等一下...我還沒準備好...
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]骯髒強森：\c[0]    閉嘴！把腳張開！
+
+####################################### merry RapeLoop
+
+
+
+####################################### DirtyJohnson EXT
+
+asdasd/asdasd
+骯髒強森
+妳不會是被它看上了吧 離我遠點！ 不要靠近我
+它身上不知道有多少種病
+
+asdasd/asdasd
+骯髒強森
+上次有個壯漢動了它看上的婊子
+後來它朝我臉上吐了口痰
+那人我狠狠的揍了它一頓 但過兩天它臉上長滿了大大小小的膿包然後就死了
+
+asdasd/asdasd
+骯髒強森
+that dirty bastard?
+跟你說 有一次我看到它拉屎 有一大堆的條狀蟲子從它譬眼裡鑽出來
+然後你猜怎麼著  它一把捉住那些蟲子然後吃了下去
+它根本不是人

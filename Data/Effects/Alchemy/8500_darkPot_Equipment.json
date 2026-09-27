@@ -1,0 +1,40 @@
+{
+	"id": "darkPot_Equipment",
+	"recipes": [
+		{
+			"export_name": "ItemTamponUsed to ItemTampon",
+			"requirements": {
+				"TamponUsed": 1
+			},
+			"output": {
+				"ItemTampon": {
+					"quantity": "TamponUsed / 1"
+				}
+			},
+			"postProcess": {
+				"TamponUsed": "-= max_output_quantity * 1"
+			}
+		},
+		{
+			"export_name": "ItemTampon",
+			"conditions": {
+				"MinStatReq": {
+					"$game_player.actor.survival_trait": 5
+				}
+			},
+			"requirements": {
+				"Cloth": 2,
+				"HerbPlant": 1
+			},
+			"output": {
+				"ItemTampon": {
+					"quantity": "[Cloth / 2, HerbPlant].min"
+				}
+			},
+			"postProcess": {
+				"Cloth": "-= max_output_quantity * 2",
+				"HerbPlant": "-= max_output_quantity"
+			}
+		}
+	]
+}

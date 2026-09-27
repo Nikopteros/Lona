@@ -1,0 +1,23 @@
+thisMap/OvermapEnter
+\m[confused]亂葬崗\optB[算了,進入]
+
+#WIS夠高可以免除戰鬥
+#不然需與他交手30秒
+
+Keeper/QuProgPB_MassGrave1
+\m[confused]\c[6]洛娜：\c[0]    呃...
+\m[flirty]\c[6]洛娜：\c[0]    我在公會那接了一個任務，聽說這裡有什麼邪惡的東西要處理掉？
+\SETpl[AnonMale2]\Lshake\prf\c[4]守墓人：\c[0]    像妳這的人來處理？聖徒在哪！
+\SETpl[AnonMale2]\Lshake\prf\c[4]守墓人：\c[0]    算了.... 很明顯那是祭拜偽神的謊言者。
+\SETpl[AnonMale2]\Lshake\prf\c[4]守墓人：\c[0]    他\c[4]每晚\c[0]都在這鬼鬼祟祟的！
+\SETpl[AnonMale2]\Lshake\prf\c[4]守墓人：\c[0]    一定是在用那些逝去的人進行汙穢的儀式。
+
+Keeper/rand0
+\SETpl[AnonMale2]\Lshake\prf\c[4]守墓人：\c[0]    千萬別睡著，會死的！
+
+Keeper/rand1
+\SETpl[AnonMale2]\Lshake\prf\c[4]守墓人：\c[0]    他們喜歡妳的腦！
+
+Keeper/rand2
+\SETpl[AnonMale2]\Lshake\prf\c[4]守墓人：\c[0]    你有信仰嗎？有信仰就不用怕它們！
+

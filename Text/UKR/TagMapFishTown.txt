@@ -1,0 +1,403 @@
+####################################--------------------- overmap
+Town/OvermapEnter
+\m[confused]Ринок Рибополісу \optB[Скасувати,Увійти]
+
+Slave/OvermapEnter
+\m[confused]Село Рибополісу \optB[Скасувати,Увійти]
+
+#################################################------------------------- VEG Vandor
+
+VegetableTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Торгівець Їжею:\C[0] Свіжі рослини... Їжа... Важливо... Для здоров'я...
+
+VegetableTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Торгівець Їжею:\C[0] Рибні... їдять багато... рослин...
+
+################################################------------------------- Med Vandor
+
+MedTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Травник:\C[0] Товари від мене... Гроші від тебе...
+
+MedTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Травник:\C[0] Я роблю... добре-добре... вдало...!
+
+################################################------------------------- Weapon Vandor
+
+WeaponTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Зброяр:\C[0] Воїн... Захищає... наші будинки...!
+
+WeaponTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Зброяр:\C[0] Ми... дуже... сильні...
+
+################################################------------------------- Slave camp enter or gate
+
+Gate/Begin0
+\cg[map_FishPPL] Навколо села патрулює безліч стражників.
+\SETpl[FrogSpear]\Lshake\SndLib[FishkindSmSpot]\c[4]Страж:\C[0] Стій... хто йде! \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Обдурити<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Страж:\C[0] Людина...! *Фирк* Хто... ти...?!
+\m[confused]\plf\PRF\c[6]Лона:\C[0] Що?
+\SETpl[FrogSpear]\Lshake\prf\c[4]Вартовий:\C[0] !!!
+
+Gate/Enter_slave1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Страж:\C[0] Дівча!!! Дівча... тікає!
+
+Gate/Enter_normal1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Страж:\C[0] Людина...! Не можна вперед...! Чи не рабиня ...! Чи не увійти ...!
+
+Gate/Enter_normal2
+\m[confused]\plf\PRF\c[6]Лона:\C[0] Емм...? \optB[Піти,Стати рабинею...]
+
+Gate/Enter_SlaveChoose
+\m[sad]\plf\PRF\c[6]Лона:\C[0] Я...    
+\m[fear]\plf\PRF\c[6]Лона:\C[0] Я чула, що тут я буду під захистом і в безпеці... Я... хотіла б стати рабинею......
+
+Gate/Enter_SlaveChoose_win
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Страж:\C[0] На... коліна...!
+\m[terror]\plf\Rshake\c[6]Лона:\C[0] Аа?!
+\cg[event_SlaveBrand]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж:\C[0] Восслав... Морську Відьму...! Звернися до неї...! \optB[Відмовити!,Підкоритися...]
+
+Gate/Enter_SlaveChoose_lose
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Страж:\C[0] ЙДИ...!!! *Фирк* Ми не... приймаємо... людських чоловіків...!
+\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Чого?! М-Чоловіків...?! ...Я???
+
+Gate/Enter_SlaveChoose_brand
+\m[p5shame]\plf\Rshake\c[6]Лона:\C[0] Що... Що ви робитимете?!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]Страж:\C[0] Грррхх...! *Гарчить* Вистачить... рухатися...!
+\m[p5sta_damage]\plf\Rshake\c[6]Лона:\C[0] НІ!!! О-Отп-пустіть мене ...!
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]Страж:\C[0] Шумно...! Закрий… рот…!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]Лона:\C[0] АААААЙЙЙЙ!!!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Лона:\C[0] ТОВУАЙЙЙЙ!!!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]Страж:\C[0] Тепер ти в безпеці... Морська Відьма... Захистить тебе...
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Лона:\C[0] ТОВуухххх...... *Шмиг*... *Хник*...
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж:\C[0] Людина..! Не... крадись! *Фирк* Забирайся...!!!
+
+GateGuard/enter_sneak_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж:\C[0] смердить... *Фирк* ЛЮДИНА...!!!
+\Lshake\c[4]Страж:\C[0] ПОРУШНИК!!!
+
+Gate/enter_wisdom
+\m[confused]\plf\PRF\c[6]Лона:\C[0] Еммм...
+\m[flity]\plf\PRF\c[6]Лона:\C[0] Твої брати сказали, що мені потрібно поговорити з ними всередині......
+
+Gate/NormalEnter
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\PLF\prf\c[4]Вартовий:\C[0] ......
+
+GateGuard/enter_wisdom_win
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж:\C[0] Давай... швидко... Не витрачай... мій час...
+\m[flirty]\plf\PRF\c[6]Лона:\C[0] Фуф... Вдалося потрапити всередину......
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж:\C[0] Ти... ТИ брешеш...!!!
+
+Guard/NapSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж:\C[0] Це... рабиня, що втекла...!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]Страж:\C[0] Ловіть... її...! Спарюйтесь... з нею!
+
+Guard/NapLowMora
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж:\C[0] Смердить... *Фирк* ПОРУШНИК!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]Страж:\C[0] Це дівчинка...! Дівчинка порушник ...!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж:\C[0] Використовуйте її... для розмноження......
+
+#################################################---------------------- Right side
+###################################################3 capture begin
+
+capture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Ласкаво просимо... *Хрип* У Рибополіс...!
+
+capture/begin1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Це наш дім... тепер твій дім...
+
+capture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Це... Морська Відьма... Ми служимо їй... завжди...!
+
+capture/begin3
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Ти... дівчинка... Одна мета... спарювання і... розмноження! Прослав... Морську Відьму!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Щодня... ти йдеш... до мене... служити нам!
+\CBct[8]\m[sad]\plf\PLF\c[6]Лона:\C[0] П-Зрозуміла...
+
+###################################################3 torture
+
+torture/narr_begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Ти...! Смієш не слухатись...?! Дурна... людина рабиня...! Покарання... зараз...!
+Здається, вони дуже озлоблені через непослух Лони.
+
+torture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Морська Відьма... Дивись...! Як ми... караємо... цю рабиню... заради тебе...!
+\CBmp[TorOBJ,20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Ні...! Прошу... Я більше не буду!
+
+torture/begin1
+\CBmp[TorOBJ,20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] НЕЇЄ!
+
+torture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Людська рабиня... повинна дякувати нам...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Зовнішній світ... страждання та небезпека... Наш дім... безпека та захист...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Ти маєш... бути вдячна... за все!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Дякуємо Морській Відьмі...! Прослав Морську Відьму...!
+
+####################################################3 Rapeloop QUESt GIVER
+
+QuestGiver/NonCapture
+\m[confused]\c[6]Лона:\C[0] Еммм...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Ти не... наша самка... *Фирк* Іди...!
+
+QuestGiver/pregCheck0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Шаман:\C[0] Ти...! Іди сюди...
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] І-Іду...
+
+QuestGiver/pregCheck1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Не вагітна... нашим... потомством...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Випий... це...!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Це? \optD[Випити,Відмовитися...]
+
+QuestGiver/pregCheck2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Це... очистить тіло... вб'є бруд...
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] Мені якось... трохи......-
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] -некомфортно...
+
+QuestGiver/pregCheck3
+\ph\narr\..\..\..\..\..
+
+QuestGiver/Aggro
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] ТИ ПОСМІЛА...! МОРСЬКА ВІДЬМА... БАЖАЄ ЦЕ...!! ВБИТИ!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Аай! З-Стійте... Ні!
+
+QuestGiver/VagTraining_preg
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Я відчуваю...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Тут... наше потомство... у тобі...
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] ......
+
+QuestGiver/VagTraining0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Щоб... дати більше... пологів... потомства...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Ти повинна... тренувати... вагіну... відкриватися ширше...
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] ... \optD[Слухатися,Відмовитися!]
+
+QuestGiver/GotoWork
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] За... роботу...!
+
+QuestGiver/GotoWork_yes
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Д-Так!
+
+QuestGiver/GotoRest
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Іди спати...! Завтра ще... спарювання та... народження...!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] Так...
+
+QuestGiver/GotoDone
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Лона:\C[0] Я виконала завдання і зробила все як ви сказали! Правда!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Хороша дівчинка... Людська рабиня... Дуже добре...
+
+QuestGiver/Job_House
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Один із братів... зараз самотній... потрібна компанія... і спарювання...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Іди...! На це місце... і розмножуватись... з ним...!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] Зрозуміла...
+
+QuestGiver/NoWorkToday
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Сьогодні... роботи немає...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Іди... спати... відпочивати...!
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] Зрозуміла...
+
+QuestGiver/sexParty0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Наш... фестиваль... незабаром почав...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Іди до... статуї... Морської Відьми...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Готуйся... до спарювання... і багато... в'язки...
+
+QuestGiver/sexParty1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Ми... Всі діти... Морська Відьма... Дякуємо їй...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] За все... Морська Відьма дарує і показує...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Сьогодні! Морська Відьма бачить нас...! Спарювання...! Життя в людських самках!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Всі діти Морської Відьми...! Усі можуть розмножуватися...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Ми намагалися... Попередити людей... Дурні люди... Усі померли...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Корисні тільки... Самки людей... Спарювання та розмноження... Народжувати наше потомство.
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Скоро... Оркоїди знищать... старий світ! Але ми... Випередження.
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Ми чекаємо... новий світ... ведений... Морський Відьмою. Прощай.
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Славте Морську Відьму...! Захоплюйтесь... Морською Відьмою...!!!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Так довго... І ми вдячні... Морській Відьмі... за всю рибу!
+
+QuestGiver/sexParty2
+\CamMP[FishGp2]\c[4]Рибалки:\C[0] Слався, Морська Відьма ...! Захоплюйтесь... Морською Відьмою!
+
+QuestGiver/sexParty3
+\CamMP[FishGp2]\c[4]Рибалки:\C[0] Прощавай ...! Дякую за всю... рибу!
+
+Guards/OfferSex0
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Наші брати... воїни... дуже сильні...! Але треба... розмножуватись...
+
+Guards/OfferSex1
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Виходь...! Знайди... сильного воїна...! В'яжись з ним...!
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Шаман:\C[0] Має народити... від нього... \c[6]двох\C[0]... братів воїнів...
+\m[sad]\plf\PRF\c[6]Лона:\C[0] Д-Так...
+
+Guards/OfferSex0_1
+\SndLib[FishkindLgSpot]\prf\c[4]Риболюдина:\C[0] Спарювання...! Спарювання! ♥ Дякую... Морська Відьма...! ♥
+
+Guards/OfferSex0_0
+\SndLib[FishkindLgSpot]\prf\c[4]Риболюдина:\C[0] У мене... подарунок від... Морської Відьми...!
+
+####################################################3 wake up random rape
+
+wakeUpRape/begin0
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] Гей... *Фирк* Прокинься!
+\CBct[2]\m[tired]\c[6]Лона:\C[0] Г-о-о-х-х... А-а...?
+
+wakeUpRape/begin1
+\SndLib[FishkindLgSpot]\prf\c[4]Риболюдина:\C[0] Дівчинка...! Спарювання...! Спарювання! ♥
+\CBct[8]\m[sad]\c[6]Лона:\C[0] *Хник*......
+
+wakeUpRape/begin2_0
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] \{Спарювання! ♥ Будеш вагітною... моїм... потомством! ♥
+
+wakeUpRape/begin2_1
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] \{Розмноження! ♥ Розмноження... з дівчинкою! ♥
+
+wakeUpRape/begin2_2
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] \{Розмноження...! ♥ Розмноження...!!! ♥
+
+wakeUpRape/begin3_0
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] \{Оух... Ухх... Грр-ххх! Добре-о-о...! ♥
+
+wakeUpRape/begin3_1
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] \{Ухф...! Гррх...! ♥ Народжуй... моє потомство...! ♥
+
+wakeUpRape/begin3_2
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] \{Я кінчаю...! ♥ Уууу-хрррр...! *Хрип* ♥
+
+wakeUpRape/begin4_0
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] Як... *Хрип* добре...! ♥ Слався... Морська Відьма...! ♥
+
+wakeUpRape/begin4_1
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] Я... розмножуватися... з дівчинкою! Дякую... Морська Відьма...! ♥
+
+wakeUpRape/begin4_2
+\SndLib[FishkindLgSpot]\c[4]Риболюдина:\C[0] Спарювання... ♥ Дуже приємно... ♥
+
+wakeUpRape/begin5
+\CBct[8]\m[tired]\c[6]Лона:\C[0] ......
+
+####################################################3 Boat Escape Point
+
+RsideShip/begin_opt
+\m[confused]\c[6]Лона:\C[0] Купа розкиданого дерева? Може, я могла б...
+\prf Скільки дерева потрібно використовувати, щоб спорудити пліт? \optB[Скасувати,1<r=HiddenOPT1>,2<r=HiddenOPT2>,3<r=HiddenOPT3>]
+
+RsideShip/begin_tired
+\m[tired]\c[6]Лона:\C[0] *Уфф*... Так втомилася......
+
+RsideShip/begin_win
+\m[triumph]\Rshake\c[6]Лона:\C[0] Все готово! Нарешті я можу забратися звідси!
+
+RsideShip/begin_NoSta
+\m[tired]\c[6]Лона:\C[0] Я не можу... *Уфф* З-надто втомилася......
+
+Guard/spot
+\SndLib[FishkindLgSpot]\c[4]Вартовий:\C[0] Рабиня...! Дівчинка... тікає! Дивіться!
+
+#################################################--------------------- OTHER COMMON
+
+Guard/SlaveEscape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж:\C[0] ЗБІГЛА...! ДІВЧИНКА... Збігла...!!!
+
+Trader/TooWeak
+\c[4]Рибочоловік:\C[0] Дівчинка... була зі зброєю... Дуже небезпечно...
+
+NightGuard/begin0
+\c[4]Страж：\C[0] Дівчинка... Я хочу... розмножуватися з...
+
+NightGuard/begin1
+\c[4]Страж：\C[0] Я не хочу... працювати...
+
+NightGuard/begin2
+\c[4]Страж：\C[0] Чи немає... самки... щоб... спаруватися...?
+
+HumFrKid/Qmsg0
+Я не хочу... рости!
+
+HumFrKid/Qmsg1
+Я не хочу бути рибою!
+
+HumFrKid/Qmsg2
+Мені тут не подобається...!
+
+FishFrKid/Qmsg0
+Я... незабаром дорослий...
+
+FishFrKid/Qmsg1
+Морська Відьма... Я йду!
+
+FishFrKid/Qmsg2
+Я виріс, уже можу спарювання.
+
+SlaveTrader/Qmsg0
+Не... бійся...
+
+SlaveTrader/Qmsg1
+Тут... безпечно...
+
+SlaveTrader/Qmsg2
+Народжувати потомство... Треба...
+
+Slave0/Qmsg0
+Хоча б, я все ще жива...
+
+Slave0/Qmsg1
+Я можу їсти, доки не лусну
+
+Slave0/Qmsg2
+Поки що я слухаюсь їх...
+
+Slave1/Qmsg0
+Я хочу додому...
+
+Slave1/Qmsg1
+Чому вони мене покинули?
+
+Slave1/Qmsg2
+Досить сексу... Прошу...
+
+Slave2/Qmsg0
+Будьте ви всі прокляті ...!
+
+Slave2/Qmsg1
+Я не секс-іграшка!
+
+Slave2/Qmsg2
+Я жива людина!
+
+NoerDude/rng0
+\c[4]Підприємець:\C[0] Я розумію необхідність у жінках рабинях! ...Але навіщо їм потрібні гроші?
+
+NoerDude/rng1
+\c[4]Підприємець:\C[0] Якщо відняти вартість поїздки з Ноера до сюди... Насправді я заробив вдвічі більше!
+
+NoerDude/rng2
+\c[4]Підприємець：\C[0] Ця подорож принесе мені багато грошей! Дивись! Мій грошовий мішок повний до країв!
+
+NoerGuard/rng0
+\c[4]Охоронець:\C[0] Прокляття, ці ублюдки правда думають, що нам потрібна їхня риба?! Нехай йдуть нахуй самі і туди ж їхню «Морську Відьму»!
+
+NoerGuard/rng1
+\c[4]Охоронець:\C[0] Вони всі такі неприємні! Взагалі немає різниці від тих самих монстрів! Як їхнє так зване «Божество» могло створити таких мерзенних тварин? Святий повбивав би їх усіх!
+
+NoerGuard/rng2
+\c[4]Охоронець:\C[0] Теж відчуваєш цей сморід? Вона мене вже побоїв! Цей сморід всюди! Навіть якщо постараєшся, ти не зможеш відмити від цієї смуги свій одяг!
+
+FishTown/board0
+\board[Попередження двоухим]
+Не порушуйте угоду. Чи не бути проблем.
+Віддайте дівчаток нам. Ми подарунок вам їжа.
+Славте і служіть Морській Відьмі.
+
+FishTown/board1
+\board[Не говорити Морською Відьмою самозванкою]
+Жодні хитрощі не змусять нас думати, що фальшива Морська Відьма Свята справжня.
+Наша Морська Відьма сильніша і справжніша.
+Вона чудова! Вона сильна!
+Славте і служіть Морській Відьмі.
+
+NearLabor/begin0
+Вони раптом вирішили зупинитися, схоже, вони дуже насторожено поставилися до свого потомства, що росте всередині Лони.
+
+NearLabor/begin1
+\narr Схоже, вони передумали і вирішили дати Лоні трохи часу, щоб відпочити.

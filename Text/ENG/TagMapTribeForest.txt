@@ -1,0 +1,108 @@
+thisMap/OvermapEnter
+\m[confused]Spiral Forest\optB[Leave,Enter]
+
+Archer/begin0
+\CBid[-1,6]\prf\c[4]\c[4]warrior：\c[0]    My son! He is dead!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What happened?!
+
+Archer/begin1
+\CBid[-1,6]\prf\c[4]\c[4]warrior：\c[0]    Are you a kunämänn? My son was killed by the \c[6]Spiral King\c[0]!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Calm down! Calm down! \c[4]shämän\c[0] asked me to come here to help you, and kill the \c[6]Spiral King\c[0]. Where is it?
+\CBid[-1,2]\prf\c[4]\c[4]warrior：\c[0]    You are \c[6]shämän's\c[0] warrior?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Well...I guess so.
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    \{Great!\}
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    I've never seen such a big spiral cock, \c[6]Spiral King\c[0] stronger than previous spiral dicks!
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    \c[6]Spiral King\c[0] It must still be somewhere in this forest! I can still smell it!
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    You are \c[6]shämän's\c[0] warrior! You can definitely help my son get revenge!
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    Everything is up to you!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Yeah?
+
+Archer/begin1_WisMod_opt
+\optD[etc!,never mind]
+
+Archer/begin1_WisMod0
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Fuck! He just left?
+
+Archer/begin1_WisMod1
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    Shrimp? Who are you? Warrior of \c[6]shämän\c[0]?
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    You will take care of everything!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    But \c[6]shämän\c[0] said you'd help me get the spiral cock!
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    What? Really?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Really!
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    Really-really?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Really-really-really!
+\CBid[-1,8]\prf\c[4]\c[4]warrior：\c[0]    \..\..\..
+\CBid[-1,20]\prf\c[4]\c[4]warrior：\c[0]    Ok! Let's get \c[6]Spiral King's\c[0] dick!
+
+Archer/begin2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    So what exactly is a spiral dick?
+
+Archer/begin3
+\board[Get Spiral Cock]
+Goal： Defeat the spiral king
+Reward： Nine Inch Facepaint
+Client： Nine Inch Hunter Tribe
+Quest Term： Single Fulfillment
+Defeat the Spiral King and avenge the Warrior's son!
+
+Archer/Qmsg0
+Take revenge for my son!
+
+Archer/Qmsg1
+Knock it down!
+
+Archer/Qmsg2
+Cut off its dick!
+
+###########################################################################
+
+Archer/end_alive1
+\CBmp[Archer,20]\prf\c[4]\c[4]warrior：\c[0]    \c[6]Shämän\c[0] was right! You are a mighty warrior!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Is this an animal affected by the black mist?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    So what exactly is a spiral dick?
+\CBmp[Archer,20]\prf\c[4]\c[4]warrior：\c[0]    Look at these spiral dicks! Their cocks are spiral!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    But it doesn't have a dick?
+\CBmp[Archer,20]\prf\c[4]\c[4]warrior：\c[0]    Those two little ones are females! No dicks!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Is that so?
+
+Archer/end_alive2
+\CBmp[Archer,20]\prf\c[4]\c[4]warrior：\c[0]    Here, take it!
+
+Archer/end_alive3
+<<<<<<< HEAD
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    Wicked...
+=======
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    Ew...
+\CBmp[Archer,20]\prf\c[4]\c[4]warrior：\c[0]    One for you and one for my son!
+\CBct[2]\m[sad]\PRF\c[6]Lona：\c[0]    Sorry, I was too late to save your child.
+\CBmp[Archer,20]\prf\c[4]\c[4]warrior：\c[0]    Don't be sad! His soul will return to Nine Inch Hunter! He will be reborn!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh?
+
+Archer/end_dead1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Is this an animal affected by the black mist?
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    Sorry\..\..\..
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    You just want to protect the child....
+
+Archer/end_dead2
+<<<<<<< HEAD
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    Wicked...
+\CBct[2]\m[sad]\PRF\c[6]Lona：\c[0]    Well, I'm pretty sure this is the spiral cock they've been obsessing about.
+=======
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    Ew...
+\CBct[2]\m[sad]\PRF\c[6]Lona：\c[0]    Right. I can at least confirm their cocks are spirals.
+
+Archer/end_cut
+\narr\SndLib[sound_gore]\..\..\SndLib[sound_gore]\..\..\SndLib[sound_gore]\..\..\SndLib[sound_gore]
+
+Archer/end_end
+\board[Get Spiral Cock]
+Goal： Return to the Nine Inch Tribe
+Reward： Nine Inch Facepaint
+Client： Nine Inch Hunter Tribe
+Quest Term： Single Fulfillment
+You are now a warrior of the Forest, come back to the Nine Inch Tribe.
+
+###########################################################################################################
+
+Nap/GameOver1
+\narr Spiral King eats Lona\..\..\..

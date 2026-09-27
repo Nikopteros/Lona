@@ -1,0 +1,255 @@
+EastCP/OvermapEnter
+Séptimo Puesto de Guardia Oriental \optB[Cancelar,Entrar]
+
+#######################################################
+
+################################################### C130 mini game
+
+Cannon/ManDown0
+Oficial：¡Bajas amigas! Repito, ¡bajas amigas!
+
+Cannon/ManDown1
+Oficial：¡Hemos perdido un guerrero!
+
+Cannon/ManDown2
+Oficial：¡Tenemos bajas! ¡Solicito apoyo!
+
+Cannon/GoodKill0
+Oficial：¡Toma eso!
+
+Cannon/GoodKill1
+Oficial：Impacto confirmado.
+
+Cannon/GoodKill2
+Oficial：Sí, buen disparo.
+
+Cannon/GoodKill3
+Oficial：¡Ka-BOOM!
+
+Cannon/GoodKill4
+Oficial：¡Guau! Disparo preciso.
+
+Cannon/GoodKill5
+Oficial：¡Excelente!
+
+Cannon/GoodKill6
+Oficial：Sí, disparo perfecto. Veo muchos pedazos pequeños de ellos.
+
+Cannon/win
+：\C[0]Artillero：\C[0]    Parece que el ataque ha terminado, buen trabajo.
+
+Cannon/lose
+：\C[0]Artillero：\C[0]    ¡Maldición! ¡Todos los soldados han muerto!
+：\C[0]Artillero：\C[0]    ¡¡¡Todos los vivos! ¡Retirada!!!
+
+############################################## C130 quest begin
+
+yeller/start
+\CBmp[YellingGuard,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Oye! ¡Tú!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿...Yo?
+\CBmp[YellingGuard,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Sí! ¡Tú! ¿Eres del cuartel general?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    No...
+\CBmp[YellingGuard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado：\C[0]    ¡No digas tonterías! ¡Ve e informa al Oficial de Artillería en el techo!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ......Nadie me hace caso nunca.
+
+officer/start_opt
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¿Qué hacen aquí los refugiados?!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡No soy refugiada! ¡Me envió el soldado de abajo!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¿Qué? Entonces, ¿qué haces aquí...?
+
+officer/start_opt_known
+\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¿Mmm? ¿Necesitas algo?
+
+officer/opt_nope
+Nada
+
+officer/opt_whore
+Prostitución
+
+officer/opt_work
+Ofrecer ayuda
+
+officer/opt_replayCannon
+Artillería
+
+officer/opt_about
+¿Qué son esos monstruos?
+
+officer/opt_aboutCannon
+¿El cañón Overlord M405?
+
+officer/opt_repair
+Reparar el cañón
+
+officer/opt_moveCannon
+Campamento en las Puertas Sur
+
+officer/opt_monster
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Qué eran esos monstruos con los que acabamos de luchar?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Se llaman \c[6]Profundos\C[0]. ¿No habías oído hablar de ellos antes?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Justo después de los piratas, los primeros colonos temían más a estos monstruos.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    La fuerza física de los Profundos es tan grande que ningún humano puede vencerlos en combate justo sin armas.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Invaden zonas residenciales por la noche, roban mujeres y matan hombres.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    ¿Qué les pasa a las mujeres después? Bueno, les espera el mismo destino que si las raptaran los Orcoides...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Por lo tanto, deberías tener especial cuidado...
+\CamCT\m[fear]\plf\PRF\c[6]Lona：\C[0]    ¿Yo...?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    En otras palabras, ¿no dejarme atrapar por ellos?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Exacto, no los había visto en años. Pensé que se habían extinguido.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Pero ahora todos los bordes pantanosos del este están bajo su control.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Probablemente aparecieron junto con la Niebla Negra, como mutaciones de los Hombres Pez.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    No sé cuánto tiempo estaré aquí, así que tenlo en cuenta.
+\CamCT\m[pleased]\plf\PRF\c[6]Lona：\C[0]    Entendido, gracias.
+
+officer/opt_FireControlSys
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Esto no será... el cañón Overlord M405?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Se pueden producir en masa? Es tan poderoso. ¿Podríamos recuperar Sibaris con él?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    En estas circunstancias, no parece posible. Es el único ejemplar, y además, entrenar soldados para usarlo llevaría meses.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    E incluso si el Capitolio pudiera producir este cañón en masa, tenemos pocos proyectiles para él...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    Y lo más importante... Muchos de nosotros somos demasiado analfabetos.
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\C[0]    ...Entiendo.
+
+officer/opt_cannon
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¡Perfecto! ¡Ve y maneja el cañón!
+\CamMP[Cannon]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿Cómo se usa esta cosa?
+\CamMP[Cannon]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¡No es momento para bromas! ¿No lo sabes? ¡Dispara contra los enemigos hasta que todos mueran!
+\CamMP[officer]\BonMP[officer,6]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¡Ahí vienen! ¡No tenemos tiempo!
+\CamCT\m[fear]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿Quién viene?
+\CamMP[officer]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¡ADELANTE! ¡No pierdas tiempo!
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡V-Vale!
+
+officer/opt_cannon_replay
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¡Los Profundos vienen! ¡Rápido, al cañón!
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Sí!
+
+########################################################## Whore job
+
+officer/opt_whore_Lona
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    No me interesa, baja y busca a alguien más. Quizá levantes el ánimo a alguien.
+\CamCT\m[shy]\plf\PRF\c[6]Lona：\C[0]    Entiendo...
+
+staffG1/begin1
+\CamMP[staffG1]\prf\c[4]Oficial：\C[0]    ¿Oh? ¿Una puta? Justo a tiempo. \optD[No,Sí]
+
+staffG1/begin1Y
+\CamCT\m[shy]\PRF\c[6]Lona：\C[0]    \{¡Oohh?!
+\CamCT\m[lewd]\PRF\c[6]Lona：\C[0]    Sí, vine a atenderlos, chicos...
+
+staffG1/begin1N
+\CamCT\m[shy]\PRF\c[6]Lona：\C[0]    \{¡¿QUÉ?!
+\CamCT\m[irritated]\Rshake\c[6]Lona：\C[0]    \{¡No soy una puta!
+
+staffG1/begin2
+\CamMP[staffG1]\prf\c[4]Oficial：\C[0]    Sí-sí... ¡Bien! ¡Llamaré a los demás! ¡Tú espera en la habitación detrás de esa cortina!
+
+staffG1/begin2YY
+\CamCT\m[shy]\PRF\c[6]Lona：\C[0]    Vale... Esperaré...
+
+staffG1/begin2_opt
+\CamCT\Bon[5]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡Escucha! \optD[¡No soy una puta!, Yo...]
+
+staffG1/begin2NN
+\CamMP[staffG1]\prf\c[4]Oficial：\C[0]    ¡Perfecto! Traeré a otros, mientras tanto sigue luciendo como una puta.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Lona：\C[0]    ...¿Qué?
+
+staffG1/begin2NNN
+\CamMP[staffG1]\prf\c[4]Oficial：\C[0]    Oh, ¿qué pasa? Luces como una puta.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Lona：\C[0]    ¡¿Disculpa?!
+
+###################################
+
+whoreWork/begin1
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Soldado：\C[0]    Oh, una puta de verdad. ♥
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,5]\prf\c[4]Soldado：\C[0]    ¡Hace tiempo que no follo!
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Soldado：\C[0]    ¡Quítate la ropa, muéstranos tu cuerpo! ♥
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,7]\prf\c[4]Soldado：\C[0]    ¡No temas! ¡Quítatelo todo! ♥
+\CamCT\m[sad]\Rshake\c[6]Lona：\C[0]    Emmm...
+
+whoreWork/DressOut
+\narr Tus objetos y equipo han sido guardados en un armario.
+
+whoreWork/begin_unknow
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,2]\prf\c[4]Soldado：\C[0]    Preséntate.
+\CamCT\m[shy]\PRF\c[6]Lona：\C[0]    Hola a todos, me llamo Lona.
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,2]\prf\c[4]Soldado：\C[0]    ¿Cuántos años tienes, señorita? ¿Crees que es suficiente? ¿Cómo llegaste a esto?
+\CamCT\m[flirty]\PRF\c[6]Lona：\C[0]    Bueno, supongo... Huí de Sibaris con otros refugiados hace meses.
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,6]\prf\c[4]Soldado：\C[0]    Y ahora vendes tu cuerpo. Veo que la vida no te ha sido fácil.
+\CamCT\m[tired]\PRF\c[6]Lona：\C[0]    Bueno, solo sobrevivo como puedo, eso es todo...
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,3]\prf\c[4]Soldado：\C[0]    En ese caso, ayúdanos a relajarnos y atiéndenos. Mantener el frente, protegiéndolos de monstruos, es un trabajo duro.
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Soldado：\C[0]    Y el tío puede darte dinero por ello.
+\CamCT\m[flirty]\PRF\c[6]Lona：\C[0]    ¡Vale!
+
+whoreWork/begin_hass0
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,4]\c[4]Soldado：\C[0]    ¡Hermosa! ¡Y hueles bien!
+
+whoreWork/begin_hass1
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\c[4]Soldado：\C[0]    ¡Uh, qué flexible!
+
+whoreWork/begin_hass2
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,4]\c[4]Soldado：\C[0]    ¡Lindo! ¡Labios suaves!
+
+whoreWork/begin2
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Soldado：\C[0]    ¿Por dónde debería empezar?
+\CamMP[AnonGuard4]\BonMP[AnonGuard4,4]\prf\c[4]Soldado：\C[0]    Que empiece por chuparnos las pollas.
+\CamCT\m[shy]\c[6]Lona：\C[0]    Va-aa-le......
+
+whoreWork/FuckStart
+\prf\c[4]Soldado：\C[0]    ¡No puedo aguantar más! ¡Vamos a follarnos bien a esta zorra!
+
+whoreWork/QdoneMsg0
+Ya lo he atendido.
+
+whoreWork/QdoneMsg1
+Ya se le cayó la erección.
+
+whoreWork/QdoneMsg2
+Este ya se vino.
+
+########################################################## Cannon st2
+
+officer/c130_done1
+\CamMP[officer]\BonMP[officer,3]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¡Buen trabajo! ¡Estas cosas solo las entienden bien los jóvenes!
+\CamCT\m[sad]\plf\PRF\c[6]Lona：\C[0]    Solo pasaba por aquí...
+\CamMP[officer]\BonMP[officer,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¿Qué? ¿Entonces eres civil?!
+\CamCT\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡Sí! ¿Por qué nadie me escucha?
+\CamMP[officer]\BonMP[officer,7]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Bueno, parece que no tendremos refuerzos.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¿Puedes enseñarnos a usar este... "Cañón Overlord M405"?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Parece poderoso, pero ninguno sabe manejar una máquina tan compleja.
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Bueno, puedo intentarlo...
+
+officer/c130_done2
+\CamCT\m[flirty]\PRF\c[6]Lona：\C[0]    Ajá, y luego tiras de la palanca a la izquierda para apuntar más a la derecha.
+\CamMP[Noob]\prf\c[4]Soldado：\C[0]    ¿Así?
+\CamCT\Bon[8]\m[confused]\PRF\c[6]Lona：\C[0]    \..\..\..\..
+\CamCT\Bon[7]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡No! Ese no es el botón.
+\CamMP[Noob]\BonMP[Noob,8]\prf\c[4]Soldado：\C[0]    ¿Este, entonces?
+\CamCT\Bon[7]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡No! ¡Tampoco!
+\CamMP[Noob]\BonMP[Noob,2]\prf\c[4]Soldado：\C[0]    Vale, ¿y qué pasa si presiono aquí?
+\CamCT\m[terror]\Rshake\c[6]Lona：\C[0]    ¡¡¡NO!!! ¡Aquí dice-!
+
+officer/c130_done3
+\CamCT\Bon[8]\m[terror]\Rshake\c[6]Lona：\C[0]    Autodestrucción......
+
+officer/c130_done4
+\CamCT\Bon[8]\m[sad]\PRF\c[6]Lona：\C[0]    Qué desastre, el cañón quedó inservible...
+\CamMP[officer]\BonMP[officer,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Mmm... El soldadito también quedó malherido.
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Qué hacemos ahora?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Aunque el cañón es muy poderoso, manejarlo es un dolor en el culo. Creo que mejor volvemos a la artillería normal.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Pero igual deberíamos repararlo, por si acaso. ¿Me ayudas?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Cómo puedo ayudar?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Los proyectiles para el cañón también eran prototipos, entregados por el creador de esta arma.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Recuerdo que hace meses, su hija \C[4]merodeaba de noche\C[0] por el \C[4]Mercado Central de Noertown\C[0].
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Sé que trabajaba en los proyectiles del cañón, y aún debe estar en la isla. Si puedes, sería genial que le pidieras venir a repararlo.
+\CamCT\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡Entendido, me ocuparé de esto!
+
+########################################################## OTHER
+
+frogman/Prisoner0
+¡La Bruja del Mar te castigará!
+
+frogman/Prisoner1
+¡Arrodíllate ante la Bruja del Mar!
+
+board/board
+\board[7° Puesto de Guardia Oriental]
+Construido el 19.7.1693
+Gracias a la donación de la familia Rosendo.

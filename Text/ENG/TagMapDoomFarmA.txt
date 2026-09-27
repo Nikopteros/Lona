@@ -1,0 +1,551 @@
+################################## by JOKO and its MTL tier
+
+thisMap/OvermapEnter
+\m[confused]Small farmhouse in the forest\optB[Leave, Enter]
+
+########################################## other
+
+art/apeVSgirl
+\cg[other_lous2] Anyone who does not accept the mating of the female human and the female orangutan is a slave of the patriarchy and a second-class human species!
+\m[serious] Okay....
+\m[confused] What is a patriarchy?
+
+grave/woodson
+\board[tombstone]
+\c[6]Jim Woodson\c[0]
+1702.1.4 - 1755.9.5
+He is a staunch follower of the one true Saint.
+He is a follower who leads the flock.
+He is our master.
+
+NaughtyDick/BOW
+\SndLib[dogSpot]\c[4]Naughty Dick：\c[0]    Woof!
+
+########################################## frist time enter
+
+FristTime/Enter1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\c[4]Wife：\c[0]    Hey! Another green skin! Kill it! Kill it!
+\CBmp[papa,5]\plf\prf\c[4]Husband：\c[0]    Kill itttt!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh?! Me?
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Kill it! Quickly!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Wait! No! I am human! I am not a monster! Don't kill me!
+\CBmp[papa,4]\plf\prf\c[4]Husband：\c[0]    A girl... Is she clean?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\PLF\prf\c[4]Wife：\c[0]    ......
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Yeah! I was wrong! It's a lovely girl! She looks clean to me!
+\CBmp[papa,4]\plf\prf\c[4]Husband：\c[0]    It's a woman! A pure woman!
+
+FristTime/Enter2
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Liar! Do you want to burn in hell?
+\CBmp[papa,6]\plf\prf\c[4]Husband：\c[0]    No, Mistress! I was only disturbed by the thought of sin for a moment!
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Humph! The true Saint will punish you!
+
+FristTime/Enter3_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[6]Cocona：\c[0]    Bad guys! Sinners!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What happened?
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[6]Cocona：\c[0]    Cocona smelled it! It is the smell of injured innocents!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Bad guys you say?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Liars! Kill them!
+\CBfB[5]\SETlpl[cocona_shocked]\Lshake\prf\c[6]Cocona：\c[0]    Cocona protects her sister!
+
+FristTime/Enter3_grayrat
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]Gray Rat：\c[0]    Wait, I know her.... I remember those ungodly mammaries!
+\CBfB[2]\SETpl[CecilyNormalAr]\plf\Lshake\c[4]Cecily：\c[0]    Who are they?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Liars! Kill them!
+
+########################################## MAMA
+
+mama/begin1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\c[4]Wife：\c[0]    You are so thin! Poor child! you must be suffering outside!
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh? I'm fine, I can survive.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Praise the true Saint! I heard what happened to Sybaris, rest assured, my husband is a hunter, and those monsters can't get through here.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... I'm sure they won't.
+
+mama/begin2
+\CBmp[papa,4]\plf\prf\c[4]Husband：\c[0]    There are many monsters outside, it is dangerous, you must be hungry... ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Come in and take a break from your travels. ♥
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh ...\optB[Forget it, Okay, About]
+
+mama/begin_nope
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... I'll be on my way...
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Wife：\c[0]    What a shame, we made pork stew. ♥
+
+mama/begin_return
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Has the cunt realized that it's better to be home than out there?
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Cunt! I'll teach you a lesson! Go back to your room!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Yes....
+
+mama/Capture0
+\CBmp[mama,20]\m[tired]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Cunt, are you not the wife of Fat Bray? Go and help him have a baby!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Yes...
+
+mama/about_1
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    You guys live in such a remote place. Is it safe here?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Oh, absolutely, my dear! We, the \c[6]Woodson\c[0] family have lived here for many years.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    The city is full of sin and liars, and we are all followers of the true Saint, so we chose to leave them behind.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    We are blessed by the one true Saint! He will protect us fro mthe liars and sinners!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    You also see the end of those green skins! Any who dare to venture down that footpath will meet their end!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Praise be the one true Saint!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh, yeah... Praise the Saint indeed.
+
+########################################## SON
+
+son/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Fat Bray：\c[0]    Poof!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Whoaa!!!
+
+son/begin1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Let me go!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Fat Bray：\c[0]    It's a toy!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Fat Bray：\c[0]    Toy! Hole! Plug it in!
+\CBmp[mama,20]\SETpr[OldSlut_normal]\plf\Rshake\c[4]Wife：\c[0]    Fat Bray! No!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    Let go!
+
+son/begin2
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    ....
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Wife：\c[0]    Sorry, my son scared you!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... I-it's all right...
+
+son/Capture
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[tired]\Lshake\prf\c[4]Fat Bray：\c[0]    Toy! Needle time!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    No!
+\CBmp[mama,20]\SETpr[OldSlut_angry]\plf\Rshake\c[4]Wife：\c[0]    Fat Bray! Go back to the room!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Huff! Ok!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    ....
+
+son/Capture_night_t1
+\CBmp[son,2]\SETpl[FatDumbNormal]\Lshake\c[4]Fat Bray：\c[0]    Huff huff?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ....\optB[Nothing,Talk about Saints<r=HiddenOPT1>]
+
+son/Capture_night_t2
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    You... Really believe in the one true Saint?
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray believes! The family believes!
+\CBct[2]\m[tired]\plf\PRF\c[6]Lona：\c[0]    But... The followers of the Saint should not base happiness on the suffering of others... This is wrong...
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    But what mom said is right! Mom is a divine prophet! I must listen to my mother! \optB[Nothing,Mom<r=HiddenOPT1>]
+
+son/Capture_night_t3
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Your mom, she's a lunatic...
+\CBmp[son,5]\SETpl[FatDumbSad]\Lshake\prf\c[4]Fat Bray：\c[0]    You lie! Liar! I tell Mom!
+\CBct[20]\m[terror]\plf\PRF\c[6]Lona：\c[0]    No! When you grow up, I think you can make your own decisions! you can replace your mother.
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Really?! Fat Bray has grown up! \optB[Nothing,Wife<r=HiddenOPT1>]
+
+son/Capture_night_t4
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Yes... it's time to replace them.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Don't you want to have the same powers and authority as your parents?
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Me want!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    I am your wife, I will have more sex with you, you will have supreme power, just like the Saint.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Really? What should Fat Bray do?\optB[Nothing,Do it<r=HiddenOPT1>]
+
+son/Capture_night_t5
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Just return their souls to the true Saint, and you will have their power.
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    You know what you should do.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray got it!
+\CBct[8]\m[confused]\plf\PRF What am I talking about....
+
+son/Capture_night_WIN
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray knows what to do!
+
+son/Capture_Kill0
+\Rflash\SndLib[sound_gore]\c[4]Wife：\c[0]    Ahhhh! Fat Bray, what are you doing!
+\Rflash\SndLib[sound_gore]\c[4]Wife：\c[0]    Come here! Don't you... !!!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleDed]
+\c[4]Husband：\c[0]    You miscreant! What have you done?
+\c[4]Husband：\c[0]    Why did you kill Mistress?! Why?!
+\c[4]Husband：\c[0]    I'll kill you!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleGruntDed]
+\c[4]Fat Bray：\c[0]    Fat Bray did it... It's done...
+
+son/Capture_Kill1
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    ....
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Really?
+\CBct[2]\m[terror]\Rshake\c[6]Lona：\c[0]    Really!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    They died!
+
+son/Capture_night_Failed0
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Okay...
+
+son/Capture_night_Failed1
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Forget it...
+
+son/Capture_night_Failed2
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Sorry...
+
+########################################## FATHER
+
+papa/begin1
+\CBmp[papa,4]\SETpl[nil]\prf\c[4]Husband：\c[0]    Hey ♥ You must be hungry, right?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh?
+\CBmp[papa,20]\prf\c[4]Husband：\c[0]    Little girl... ♥ Come in and take a seat! ♥
+
+papa/begin2
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Yeah, I cooked heavenly pork stew! ♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh...\optB[Forget it, okay, about]
+
+papa/begin_nope1
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    Uh... I better get going...
+
+papa/begin_nope2
+\CBmp[papa,5]\prf\c[4]Husband：\c[0]    Get in! I told you to come in!
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    Huh?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What are you doing?
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Let me go!
+
+papa/begin_nope3
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Stop! You liar!
+
+papa/begin_nope4
+\CBmp[mama,5]\m[confused]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    How dare you touch a woman without my permission?! Do you want to die!
+\CBmp[papa,6]\plf\prf\c[4]Husband：\c[0]    I apologize, Mistress! It is the sinner's fault! It is the temptation of the evil one!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Saint help me, I will punish you so hard for this!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?
+
+papa/Capture
+\CBmp[papa,4]\prf\c[4]Husband：\c[0]    Come!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    No!
+
+papa/about_1
+\CBct[2]\m[confused]\plh\c[6]Lona：\c[0]    Why are you here?
+\CBmp[papa,20]\prf\c[4]Husband：\c[0]    Since my father died, the saint's light has been transferred to the Mistress.
+\CBmp[papa,20]\prf\c[4]Husband：\c[0]    She is the only follower who is still honored by the true Saint! I will follow her until the end comes again!
+\CBct[2]\m[confused]\c[6]Lona：\c[0]    Mistress?
+\CBmp[papa,20]\prf\c[4]Husband：\c[0]    Ah... My wife! My wife! That's right... She's my wife!
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    Uh-huh...
+
+########################################## ##########################################  DINNER
+
+Dinner/begin_0
+\CBct[20]\m[pleased]\plf\Rshake\c[6]Lona：\c[0]    Thank you for your hospitality!
+
+Dinner/begin_0_1
+\c[4]Wife：\c[0]    Thank the one true Saint for giving me grace.
+\c[4]Wife：\c[0]    Thank the one true Saint for giving me comfort.
+\c[4]Wife：\c[0]    Our meal comes from the one true Saint! Praise be His name!
+
+Dinner/begin_1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prh\c[4]Wife：\c[0]    Tasty?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    Great! I haven't had such a delicious meal in a long time!
+\CBmp[papa,20]\plf\prf\c[4]Husband：\c[0]   Eat more! You are too thin!
+
+Dinner/begin_1_1
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Shut up! Liar!
+\CBmp[papa,6]\plf\prf\c[4]Husband：\c[0]   I apologize, Mistress!
+
+Dinner/begin_1_2
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Child, what is your name? I don't want to call you child all the time.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    My name is \c[6]Lona Falldin\c[0]!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Lona? Praise the true Saint! What a great name!
+
+Dinner/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Fat Bray：\c[0]    Mom! Fat Bray wants her!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray wants Lona! Fat Bray wants new toy ♥
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?
+
+Dinner/begin_3
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Fat Bray~ You can't get married yet!
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Lona, what do you think of my son, Fat Bray?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    U-uh... What about him?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    He is a good partner, right?! I look forward to holding my grandsons! What do you think?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I-I'm not s-sure I understand what you mean, ma'am.
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    He is a good boy, he is the true Saint's son, a blessed existence!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Hnnh... Okay... I'm sure h-he is a good boy...
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Right? He is a good boy...
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Time for dessert! I added a lot of sugar for you!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh...\optD[I should go, Continue to enjoy]
+
+Dinner/begin_3_opt_Leave
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Thank you for your hospitality, but I should leave.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    What?! But the dessert!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Sorry, but I uhh... Hehe... I-I left the stove on... Ummm yeah...
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Wife：\c[0]    Oh well.. Be careful on the way!
+
+Dinner/begin_3_opt_Eat0
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    This is beet and fruit tea, this is specially prepared for you.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Thank you! ♥
+
+Dinner/begin_3_opt_Eat1
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    How does it taste?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Sweet and greasy! ♥ I love it. ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    That is really good!
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\c[0]    But I feel a bit...
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\c[0]    I don't feel so good..
+
+Dinner/begin_3_opt_Eat2
+\ph\narr \..\..\..\..\..
+
+########################################## ##########################################  Death when nap
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Unknown：\c[0]    Death! Die! Damn Sinner!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Unknown：\c[0]    You killed my family!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Unknown：\c[0]    Now I'll kill you! Hahahahahaa!
+
+########################################## ##########################################  Capture
+
+Capture/FristTime_0
+\c[4]Wife：\c[0]    Fat Bray! This is gonna be your new wife!
+\c[4]Fat Bray：\c[0]    New toy ♥
+\c[4]Wife：\c[0]    No way! You must get married first!
+\c[4]Fat Bray：\c[0]    Can I taste it? Fat Bray can't wait!
+\c[4]Wife：\c[0]    Don't worry! You can do it a lot later! Dad and mom also got married before you!
+\c[4]Fat Bray：\c[0]    Ok...
+
+Capture/SecondTime_0
+\c[4]Wife：\c[0]    Fat Bray! Look! This is your cheap cunt!
+\c[4]Fat Bray：\c[0]    Toy ♥ Give me! I want to play! ♥
+\c[4]Wife：\c[0]    Not good! I'll need to teach her how to be a woman!
+
+########################################## ##########################################  merry
+
+merry/begin_0
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    Bless the new couple here with the voice of the true Saint.
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    Witness them with the eyes of the true Saint!
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    \c[6] Fat Bray Woodson \c[0] and cheap cunt! You are now man and wife!
+\SndLib[sound_step_chain]\c[4]Husband：\c[0]    Praise the true Saint!
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[tired]\c[6]Lona：\c[0]    Ohhh........
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[confused]\c[6]Lona：\c[0]    What happened?
+
+merry/begin_1
+\CBmp[WakeUp,8]\m[confused]\c[6]Lona：\c[0]    \..\..\..\..
+\SndLib[sound_step_chain]\CBmp[WakeUp,1]\m[shocked]\Rshake\c[6]Lona：\c[0]    What's wrong with me? Where am I?!
+\SndLib[sound_step_chain]\CBmp[WakeUp,20]\m[terror]\Rshake\c[6]Lona：\c[0]    I can't move?? Iron chains? What have you done to me!?
+
+merry/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Fat Bray：\c[0]    Toy hole! Guhh!
+\CBmp[WakeUp,20]\m[bereft]\Rshake\c[6]Lona：\c[0]    Don't touch me!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Have you woken up? From this day forward, you are his wife.
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    His... Wife?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Mm-Hmm, I think you will be an excellent wife, you are young and suitable for giving birth! ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Fat Bray needs a son. ♥ You will give many sons to the true Saint. ♥
+\CBmp[WakeUp,20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    What.. What are you talking about!?
+
+merry/begin_3
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Fat Bray：\c[0]    Hole♥
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    No! Leave me alone! I don't want to have babies with a stranger!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    He is not a stranger! He is your husband! You have to serve him! You will serve the one true Saint all your life!
+
+merry/begin_4
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray is very happy! ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Good luck son! The true Saint is watching you!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Let me go! Leave me alone!
+
+merry/begin_5
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray is going in ♥
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What?!! No! pull it out!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Houououooh ♥
+
+merry/begin_6
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Poof! Fat Bray is very happy!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Eeekk!
+
+merry/begin_7
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]Fat Bray：\c[0]    Mommy! Don't pinch my balls! Saint save me!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    No! Don't cum again!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Give her all you got! You want to get your cunt pregnant with your baby!
+
+merry/begin_8
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]Fat Bray：\c[0]    Ahhhhhh!
+\CBmp[son,6]\SETpl[FatDumbSad]\Lshake\prf\c[4]Fat Bray：\c[0]    No! Don't pinch my balls! Fat Bray can't shoot it!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Cum! Cum in her again! Fill your cunt's body with your divine seed!
+
+merry/begin_9
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Very good! Good boy! The true Saint will make her cunt pregnant!
+\CBct[20]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    Ooo... Why do you do this to me...
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Cunt! I've decided to let you go today! Come to me during the day! As Fat Bray's wife, you must serve us, the \c[6]Woodson\c[0] family!
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Forever!
+
+########################################## ##########################################  Daily RapeLoop
+
+DailyRapeWake/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Hurgh ♥ Fat Bray looking for cunt to play!
+
+DailyRapeWake/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Hurgh ♥ Fat Bray going to the hole!
+
+DailyRapeWake/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Hurgh ♥ Fat Bray wants to cum!
+
+DailyRapeNap/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Hurgh ♥ Fat Bray has found the cunt!
+
+DailyRapeNap/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray found Cunt ♥ Plug it!
+
+DailyRapeNap/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Cunt here! Cunt meets Cock ♥
+
+DailyRapeEnd/Begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray played enough ♥ Goodbye Cunt!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\c[0]    .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Hole is so good! ♥ Cunt!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\c[0]    .....
+
+DailyRapeEnd/Begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Fat Bray：\c[0]    Cock is cool ♥ Cunt is awesome!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\c[0]    .....
+
+########################################## #daily semen check
+
+SemenCheck/begin_0
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    Fat Bray! What the hell are you doing!
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    How can there be so little juice in her stomach!
+\c[4]Fat Bray：\c[0]    Sorry!
+
+SemenCheck/begin_1
+\CBmp[WakeUp,8]\m[tired]\c[6]Lona：\c[0]    \..\..\..
+
+SemenCheck/begin_2
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray will work hard!
+
+SemenCheck/begin_3
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]Fat Bray：\c[0]    Urrgghh ! Fat Bray is coming! Hole!
+\CBmp[WakeUp,8]\m[sexhurt]\c[6]Lona：\c[0]    Uuu....
+
+SemenCheck/begin_4
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    No way! You must shoot your cum in the name of the true Saint! It is your duty as a man!
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]Fat Bray：\c[0]    Fat Bray got it! Fat Bray will be obedient!
+\CBmp[WakeUp,8]\m[pain]\plf\PRF\c[6]Lona：\c[0]    ....
+
+########################################## #daily torture
+
+Torture/begin_0_Basic
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    Cunt! You actually violated the Saint's will!
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    Wake up! Wake up!
+
+Torture/begin_0_PapaRaped
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    Cunt! How dare you cheat with my man!
+\SndLib[sound_step_chain]\c[4]Wife：\c[0]    Wake up! Wake up!
+
+Torture/begin_2
+\SndLib[sound_hit_whip]\m[p5health_damage]\Rshake\c[6]Lona：\c[0]    Ah!?
+
+Torture/begin_3
+\CBmp[torturePT,20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What happened! What's wrong with me!?
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Cunt! I know what you did!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    You violated the true Saint's will! You must now face your punishment!
+
+Torture/begin_4
+\CBmp[torturePT,6]\m[terror]\Rshake\c[6]Lona：\c[0]    Wait! I din't do anything wrong! No!
+\CBmp[torturePT,6]\m[bereft]\Rshake\c[6]Lona：\c[0]    No! Forgive me!
+
+Torture/begin_5
+\CBmp[torturePT,6]\m[pain]\Rshake\c[6]Lona：\c[0]    Sorry! I sinned! Please Forgive me!
+\CBmp[torturePT,6]\m[hurt]\Rshake\c[6]Lona：\c[0]    I apologize, Mistress....
+
+Torture/begin_6
+\CBmp[torturePT,6]\m[tired]\Rshake\c[6]Lona：\c[0]    *Sob*....
+
+########################################## #daily Breakfast
+
+breakFast/begin_0
+\CBmp[MainTable,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Go into the kitchen! It's lunch time!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Yes...
+
+breakFast/begin_1
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Thank the one true Saint for giving me grace.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Thank the one true Saint for giving me comfort.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Our meal today comes from the one true Saint! Praise the one true Saint!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Praise the one true Saint...
+
+########################################## ########################################## #daily job
+########################################## Grass
+
+JobGrass/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Go and pull the weeds out in the fields!
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    And pick your feet, cunt!
+\CamMP[Farm]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Yes...
+
+JobGrass/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Open your eyes, you lazy cunt! There's still weeds!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Sorry!!
+
+JobGrass/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    All pulled out? What a good girl!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Now go back to bed and wait for Fat Bray to fuck you!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Ok...
+
+JobGrass/failed
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    So slow! You think I'll tolerate a lazy cunt?
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Sorry! Please don't hurt me!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Huh! I will teach you a lesson!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    *Sob*....
+
+########################################## feed chicken
+
+JobFeed/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Do you see those chickens?
+\CamMP[FoodB]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Go feed them with leftovers from the house! Get going, cunt!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Yes...
+
+JobFeed/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Well done, you made the hens very happy!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Now go back to bed and wait for Fat Bray to fuck you!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Ok...
+
+JobFeed/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    What the hell are you doing? I said feed the chickens, you dumb, lazy cunt!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Sorry!!
+
+########################################## suck genital
+
+JobSuck/begin_1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Cunt! Come here!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Mommy and Daddy haven't had a bath in a long time...
+\CBmp[papa,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    Clean my cunt with your filthy, liar mouth, then go and tell the idiot you're gonna suck him off as well, so he can ejaculate!
+\CBct[8]\m[terror]\plf\PRF\c[6]Lona：\c[0]    No way! This can't be real!
+
+JobSuck/Mama_start
+!!!!!
+\narr Mistress' old, rancid cunt reeked of piss and smegma. The smell was nauseating. Her wrinkly, sagging folds were slick with her gooey juices and her thick, unwashed hairs were sticking to her discolored skin.
+
+JobSuck/Mama_doneButPapa
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    It feels so good!♥ Now go clean up that fat fool's cock as well!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Yes...
+
+JobSuck/Mama_PapaNotDone
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Wife：\c[0]    I told you to clean that idiot's cock! Are you deaf?!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Ooo....
+
+JobSuck/Mama_begin1
+\m[fear]\c[6]Lona：\c[0]    ....
+\m[sad]\c[6]Lona：\c[0]    Ooo....
+
+JobSuck/Mama_begin2
+\c[4]Wife：\c[0]    See all that cheese? Lick all that cheese off my cunt!
+\narr The smell of dead fish wafts from the old crone's fat bush. Her dark purple inner folds have accumulated a thick layer of dark yellow smegma.
+
+JobSuck/Mama_begin3
+\c[4]Wife：\c[0]    Yes! Very good! That's it! ♥
+
+JobSuck/Mama_begin4
+\c[4]Wife：\c[0]    That's right! Lick inside the skin as well! ♥
+
+JobSuck/Mama_begin5
+\c[4]Wife：\c[0]    Great! ♥ That's it! ♥ I'm cumming! ♥
+
+JobSuck/Mama_begin6
+.......
+
+JobSuck/Mama_begin7
+.....
+
+JobSuck/Mama_begin8
+...
+
+JobSuckw/win
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    Good cunt! Did you like the taste of Mama and Papa?
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Very... Tasty...
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Wife：\c[0]    I knew it, your mouth was made to worship our holy bodies! ♥
+
+JobSuck/Papa_start
+\CBct[8]\m[fear]\PRF\c[6]Lona：\c[0]    Mistress said you can ejaculate...
+\CBct[8]\m[pain]\PRF\c[6]Lona：\c[0]    She asked me to help lick you... Clean...
+\CBmp[papa,20]\prf\c[4]Father：\c[0]    Great! Oh what beautiful, happy day! Saint be praised!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    ....
+
+JobSuck/Papa_Done
+\CBmp[papa,20]\prf\c[4]Father：\c[0]    Woohoo! I finally ejaculated! Thank you Mistress! Praise the one true Saint!
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    *Sob*....
+
+JobSuck/Papa_refuse
+\CBmp[papa,5]\prf\c[4]Father：\c[0]    The Mistress gave you a command! You have no right to refuse!

@@ -1,0 +1,104 @@
+thisMap/OvermapEnter
+Eastern Outpost.\optB[Leave,Enter]
+
+############################################################################### Quest Begin
+
+CPofficer/overrunning_begin0
+\CBmp[cpSGT,2]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    What are you doing here!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh?! What???
+\CBmp[cpSGT,1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    We are under attack! It's dangerous here! Civilians, must leave immediately! Get out!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    Yes!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Fuck!
+\CBct[2]\m[wtf]\plf\Rshake\c[6]Lona：\c[0]     Huh?! What happened again?!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    We can't hold them any longer! You! Go quickly to the \c[4]Doomsday Fortress\c[0] Send us some support!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Tell them we can't hold out anymore! Go now! Immediately!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Lona：\c[0]     Yes!
+
+DFOfficer/overrunning_begin1
+\CBmp[cpSGT,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]security officer：\c[0]    Um? What's wrong, kid?
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    The Eastern Outpost is under attack by meat monsters!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    They want me to come find backup!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]security officer：\c[0]    Eastern Outpost huh? They are at it again?
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]security officer：\c[0]    Damn it! We don't have enough manpower either!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]security officer：\c[0]    You! Come with us!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh? Me?!
+\CBmp[cpSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]security officer：\c[0]    Quick! Take up your weapons! Start acting like you're alive!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I'm just passing by...
+
+DFOfficer/overrunning_begin1_board
+\board[eastern outpost]
+Goal： Defend the Eastern Outpost
+Reward： Unknown
+Client： Eastern Outpost
+Go back to the eastern outpost and assist the soldiers in the defense.
+
+CPofficer/overrunning_begin2
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Reinforcements have arrived! Support is here!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Very good! It's just in time!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    It's time to fight back!
+\CBmp[Cannon1,19]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Brat! You go and load the cannons! Quick!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Yes Sir!
+
+CPofficer/overrunning_begin3_fireCannon
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Done!!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Fire! Immediately!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Like this? Don't I need to aim?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Those monsters are afraid of the smell and flash of gunpowder! Just shoot anywhere!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Yes Sir!
+
+CPofficer/overrunning_begin3_clearNarr0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    It worked!
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    Close call....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    The meat monsters in the rear were scared. They ran away!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Get rid of the rest of the bedbugs!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Fuck...\..\..\.. What is that?!
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    What is what?
+
+CPofficer/overrunning_begin3_clearNarr1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    What kind of monster is this?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Come and help! We must hold them back!
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Yes Sir!
+
+CPofficer/overrunning_begin4
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    We won! We survived!
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Is it over?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Yes, seems like we live to fight another day.
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    call...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    You've done a good job, but we have nothing to give you in return.
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well... it does not matter...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Um\..\..\.. You can have the weapons of our dead comrades! They have no need for them any longer...
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh?
+
+CPofficer/overrunning_begin5
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    We have no money, but there are plenty of unused weapons.
+\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    Thank you Sir!
+
+CPofficer/InfoHere
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona：\c[0]    What's going on here?
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    First those green-skinned bastards, and then these monsters.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    \c[6]Meat devils\c[0], you can smell the stench of their corpses from a long distance.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Their bodies recover extremely quickly, they are powerful and there are many of them, currently there is no effective way to deal with them.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    I don't know how long we can hold out...
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona：\c[0]    .....
+
+CPofficer/QuestFailed
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Corporal：\c[0]    Wow!
+\SETpr[Mreg_pikeman]\plf\PRF\c[4]Soldier：\c[0]    Everyone run away! We can't hold them!
+
+CPofficer/DuringQuprogQmsg
+Go Get outta here fast!
+
+lona/WithAmmoQmsg0
+Ammunition
+
+lona/WithAmmoQmsg1
+Go reload
+
+cannon/LoadedQmsg0
+Loaded
+
+cannon/FiredQmsg0
+Launched
+
+cannon/OOAQmsg0
+No ammo

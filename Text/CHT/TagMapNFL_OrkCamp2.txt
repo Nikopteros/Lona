@@ -1,0 +1,173 @@
+#Plainview
+NFL_OrkCamp2/OvermapEnter
+\cg[map_GobRaider]\m[confused]佩蘭威村，獵物的轉運站。\optB[算了,進入]
+
+#############################################################################  NFLOrkindCmap2 rapeloop and quest
+
+NFL_OrkCamp2/Rapeloop_FoodOffer
+\SndLib[sound_goblin_roar]\narr牠們對便器之前的表演感到滿意，並留下了食物。
+
+NFL_OrkCamp2/Rapeloop_show_end
+\cg[event_OrkindGonnaRape]\SndLib[sound_goblin_roar]\narr便器在牠們的嘲笑下完成了表演，牠們非常的滿意。
+\narr並用腐敗的碎肉賞賜這可笑的肉便器。
+
+NFL_OrkCamp2/Rapeloop_show_no
+\narr由於便器拒絕了牠們，牠們非常的生氣。
+\narr牠們決定要好好教訓這不聽話的便器...
+
+NFL_OrkCamp2/RapeLoopNonCapture
+\m[fear]\narr牠門抓到了洛娜這隻瘦弱的便器。
+\m[terror]\narr大隻的兄弟說過便器都要後送當肉壺，但也可以留下瘦弱的取樂...
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_None_WakeBegin
+\narr兄弟們玩的很累，牠們決定好好休息。
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_DryCropse_WakeBegin
+\narr\..\..\..\ph\SndLib[sys_equip]似乎有東西被搬到了洛娜身旁...
+
+NFL_OrkCamp2/Rapeloop_DryCropse0
+\ph\cg[event_DryCropse]\SndLib[sound_ZombieSpot]不斷呻吟的人彘。他的五官與四肢都被切除，身軀瘦弱，...
+
+NFL_OrkCamp2/Rapeloop_DryCropse1
+\ph\cg[event_WartsDick]僅有爬滿寄生蟲的肉棒異常腫大...
+
+NFL_OrkCamp2/Rapeloop_DryCropse2
+\ph\cg[event_OrkindGonnaRape]\SndLib[Breathing_Goblin]洛娜聽不懂牠們在叫喊甚麼，但可以確定他們要洛娜騎上那根骯髒的肉棒。
+低賤骯髒的肉便器只能配的上寄生蟲感染的肉棒...
+\CBct[8]\m[fear]要照做嗎？\optD[照做<t=5>,不要!]
+
+NFL_OrkCamp2/Rapeloop_DryCropse2_yes
+\narr\SndLib[sound_chcg_chupa]洛娜騎了上去....
+
+NFL_OrkCamp2/Rapeloop_DryCropse3
+\m[p5_shame]\narr在嘲笑與便器的努力下，人彘先生要射精了...
+
+NFL_OrkCamp2/DailyJob_select_DryCropse
+\narr牠們要求肉便器與角落的肉玩具表演交和。
+\narr不照做的話不只沒食物吃，還會遭到處罰...
+
+NFL_OrkCamp2/DailyJob_select_Abom
+\narr牠們要求便器為牠們生下更多的坐騎...
+
+NFL_OrkCamp2/DailyJob_select_ThrowRock
+\narr牠們覺的很無聊，想隨便找點樂子。
+
+NFL_OrkCamp2/DailyJob_end_ThrowRock
+\narr玩膩了,牠們對便器四處爬行的樣子很滿意。
+
+#############################################################################  NFL_MerCamp_SaveDog 1
+
+MercJoin/leader_Buddy0
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Rshake\c[4]傭兵隊長：\c[0]   對，就是這裡。 他就是在這與我們失散的。
+
+MercJoin/leader_Buddy1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]   妳！ 妳帶頭！ 
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 為什麼是我？！
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    妳不是\c[6]席芭莉絲\c[0]人？妳不是想回家看看？
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    在營地的時候我們已經目睹妳的實力了，我可以肯定由妳帶頭才是正確的。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...好吧...
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    所以你在找的人是...他長什麼樣子？
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    白色，有著大鼻子與大耳多。
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    白皮膚？ 大鼻子與大耳多？
+\CBct[2]\m[serious]\plf\PRF\c[6]洛娜：\c[0]    好，跟我來吧。
+
+MercLeader/CompCommand0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    它一定還活著！
+
+MercLeader/CompCommand1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    動作快！
+
+MercLeader/CompCommand_foundTGT0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    我們必須馬上離開。
+
+MercLeader/CompCommand_foundTGT1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    不能待在這，這裡太危險了。
+
+MercJoin/spear
+\CBid[-1,20]\c[4]長槍手：\c[0]    簡直愚蠢！我們到底為什回到這？
+
+MercJoin/bow
+\CBid[-1,20]\c[4]弓箭手：\c[0]    救他？？ 這根本沒意義。
+
+MercJoin/priest
+\CBid[-1,20]\c[4]牧師：\c[0]    就算是聖徒也不會同意我們做蠢事的。
+
+MercLeader/Rg38_1
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    這裡到底是...？
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    食物的集散地，又或是祭壇，崇拜著汙穢的偽神。
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    不想變成牠們的食物的話就安靜點。
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    注意！ 有動靜！
+
+MercLeader/Rg38_2
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcQuestion]\SETpr[OrcSlaveMaster_normal]\Rshake\c[4]纇獸人：\c[0]    吼哦哦...
+
+MercLeader/Rg38_3
+\CBmp[SlaveMaster,20]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_sad]\Rshake\c[4]纇獸人：\c[0]    \{吼嗚哦哦哦！
+
+MercLeader/Rg38_4
+\CBmp[Priest,2]\SndLib[sound_OrcHurt]\SETpl[OrcPriest]\Lshake\c[4]纇獸人：\c[0]    吼阿嗚！！ 馬屌吼吼？！
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_normal]\Rshake\prf\c[4]纇獸人：\c[0]    吼嗚嗚？？
+
+MercLeader/Rg38_5
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]纇獸人：\c[0]    \{馬屌屌屌屌！！？？
+
+MercLeader/Rg38_6
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcHurt]\SETpr[OrcSlaveMaster_sad]\plf\Rshake\c[4]纇獸人：\c[0]    吼嗚阿屋？！
+
+MercLeader/Rg38_7
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]纇獸人：\c[0]    \{馬屌屌！！！！
+
+MercLeader/Rg38_8
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    馬屌...？
+\CBmp[MerLeader,2]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    走吧...
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+
+############################################################################# Found Doggy
+
+Doggy/KIA
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    不！！！ 我的\c[6]萊福\c[0]！！！
+
+Doggy/alive_begin1
+\CBid[-1,6]\SndLib[dogDead]\c[4]狗狗：\c[0]    \..\..\..
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    \c[6]萊福\c[0]！！！
+\narr 這可憐狗狗的菊花撐的非常開...
+\narr 足以容下一個成年人的手臂...
+\narrOFF\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    可憐的\c[6]萊福\c[0]，沒事了，我來了。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃\..\....所以\.....
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    這就是您要救的...狗狗？
+\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    對！ 有什麼不滿嗎！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....沒有？
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    來，我們離開這個傷心地吧。
+\CBid[-1,20]\SndLib[dogDead]\plf\prf\c[4]狗狗：\c[0]    \..\..\..
+
+Doggy/alive_brd
+\board[拯救隊友]
+目標：拯救傭兵隊長的夥伴。
+報酬：大銅幣1
+委託主：傭兵隊長
+期限：單次
+帶領傭兵隊長與他的狗狗一起離開這。
+
+Doggy/QuestDone1
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]傭兵隊長：\c[0]    很好，到這裡就安全了。
+
+Doggy/QuestDone2
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦？
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    英雄，留下妳的名子吧。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..\c[4]洛娜\c[0]。
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    \c[4]洛娜\c[0]嗎？
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]傭兵隊長：\c[0]    很好，\c[6]萊福\c[0]也很感謝妳，我們有緣再見。
+
+MercLeader/QmsgDoggyKIA0
+萊福啊啊！！
+
+MercLeader/QmsgDoggyKIA1
+我的狗狗！！！
+
+MercLeader/QmsgDoggyKIA2
+牠死了！！！

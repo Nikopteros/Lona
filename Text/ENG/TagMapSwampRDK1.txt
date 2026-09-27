@@ -1,0 +1,62 @@
+overmap/OvermapEnter
+\m[confused]Unknown Camp \optB[Leave,Enter]
+
+mec/halp1
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    Help! Help me, please!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Wah?!
+
+mec/halp2
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    Monsters! The Deep Ones! They're coming!
+\CamCT\Bon[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Aieeeee!
+
+mec/halp3
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    Help me, please!
+
+mec/halp4
+\CamCT\Bon[6]\m[hurt]\plf\Rshake\c[6]Lona：\c[0]    Stop pushing me!
+
+mec/halp5
+\CamCT\Bon[1]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    Eek!! No way!
+
+mec/win
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    Thank you for your great kindness warrior!
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huff... You're welcome.
+\CamMP[QuestTar]\BonMP[QuestTar,8]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    \..\..\..
+\CamMP[QuestTar]\BonMP[QuestTar,2]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    You're a girl?
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Lona：\c[0]    What's wrong with me being a girl?
+
+mec/Quprog_0
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    Listen! I need your help!
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    What I have on hand must be delivered to \C[4]Pirates Bane\C[0].
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ugh...
+
+mec/Quprog_0_board
+\board[Escort Travelers]
+Goal：Deliver the traveller to Pirate's Bane
+Reward：Large Copper Coin 1, Moral 2
+Contractor：Traveler
+Quest Term：5 Days
+It's all up to you!
+
+mec/Quprog_0_decide
+\CamCT\Bon[1]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hmmm.... \optB[Refuse, Accept]
+
+mec/QmsgTar
+Go, go, go!
+
+mec/Done1
+\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    Thank you! Thank you so much!
+
+mec/Done2
+\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    These fishman assholes are constantly attacking our convoys carrying supplies, It's only a matter of time before this fortress falls.
+\SETpl[AnonMale1]\Lshake\prf\c[4]Traveller：\c[0]    Take a look at the mercenary guild in the fortress, I'm sure you can help.
+\CamCT\Bon[1]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ha ha.... I hope I can help.
+
+mec/CommonConvoyTarget0
+\prf\c[4]Traveller：\c[0]    There's no time!
+
+mec/CommonConvoyTarget1
+\prf\c[4]Traveller：\c[0]    Quickly, get us to \C[4]Pirate's Bane\C[0].
+
+mec/CommonConvoyTarget2
+\prf\c[4]Traveller：\c[0]    Move Quickly!

@@ -1,0 +1,37 @@
+ThisMap/OvermapEnter
+\m[confused]You hear a scream for help from far away.\optB[Leave,Enter]
+
+enterMap/begin
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Um....It looks like someone may be here?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Well\..\..\..\m[serious]I better be careful
+
+crying/begin1
+\c[6]Refugee：\c[0]    NO! HELP! SOMEBODY HELP ME!
+
+crying/begin2
+\CBmp[Hum,6]\c[6]Refugee：\c[0]    NO! Don't touch me! I'm a man!
+
+crying/begin3
+\CBmp[Hum,6]\c[6]Refugee：\c[0]    I beg you! Please I'm still a virgin back there!
+
+crying/begin4
+\CBmp[Hum,20]\c[6]Refugee：\c[0]    \{AAAAAAAAAAAHHHHHH!!!
+
+crying/begin5
+\CBmp[Hum,6]\c[6]Refugee：\c[0]    I'M DYING! MY ASS IS BEING TORN APART!!!
+
+crying/begin6
+\CBmp[Hum,2]\c[6]Refugee：\c[0]    What the hell... Did you just cum inside of me?!
+\CBmp[Hum,20]\c[6]Refugee：\c[0]    DON'T! I DON'T WANT TO BE PREGNANT! I DON'T WANT TO BE A FATHER!
+
+crying/begin7
+\CBmp[Hum,20]\c[6]Refugee：\c[0]    \{Don't Aahhhhh!!!
+\CBmp[Hum,20]\c[6]Refugee：\c[0]    Ha ha! Take that and go to the saints, you devil!
+
+enterMap/end0
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    A man?Getting pregnant?....Did I hear that right?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Wait, Those ahead appear to be\..\..\..
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Orkinds?!
+
+
+

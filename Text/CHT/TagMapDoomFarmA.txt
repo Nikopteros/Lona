@@ -1,0 +1,549 @@
+thisMap/OvermapEnter
+\m[confused]林中的小農舍\optB[算了,進入]
+
+########################################## other
+
+art/apeVSgirl
+\cg[other_lous2]凡是不接受母人類與母猩猩交配之人，皆為父權的奴隸，為人類的次等種！
+\m[serious]嗯....
+\m[confused]父權是什？
+
+grave/woodson
+\board[墓碑]
+\c[6]吉姆.伍德森\c[0]
+1702.1.4 - 1755.9.5
+他是聖徒堅定的追隨者。
+他是帶領羊群前行的從者。
+他是我們的師傅。
+
+NaughtyDick/BOW
+\SndLib[dogSpot]\c[4]迪克.頑皮：\c[0]    汪！
+
+########################################## frist time enter
+
+FristTime/Enter1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\c[4]老婆：\c[0]    呀！ 是綠皮！ 殺了它! 殺了它!
+\CBmp[papa,5]\plf\prf\c[4]老公：\c[0]    殺啊啊啊啊!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    咦？! 我嗎？
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    快點殺了她!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    不是的! 我是人! 我不是魔物! 不要殺我!
+\CBmp[papa,4]\plf\prf\c[4]老公：\c[0]    她是乾淨的？
+\CBmp[mama,8]\SETpl[OldSlut_angry]\PLF\prf\c[4]老婆：\c[0]    ......
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    呀！ 誤會! 是個可愛的女孩子呢！ 是乾淨的孩子！
+\CBmp[papa,4]\plf\prf\c[4]老公：\c[0]    是女人啊！ 純淨的女人！
+
+FristTime/Enter2
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    謊言者！ 你想死嗎？
+\CBmp[papa,6]\plf\prf\c[4]老公：\c[0]    不! 我只是一時受罪惡者干擾！
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    哼！ 聖徒會逞罰你！
+
+FristTime/Enter3_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[6]可可娜：\c[0]    壞人！ 罪惡者！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    怎麼了？
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[6]可可娜：\c[0]    可可娜聞到了！ 是無辜者受傷的味道！
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    壞人？
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    是謊言者！ 殺了他們！
+\CBfB[5]\SETlpl[cocona_shocked]\Lshake\prf\c[6]可可娜：\c[0]    可可娜保護姊姊！
+
+FristTime/Enter3_grayrat
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]灰鼠：\c[0]    等等，我認得她....
+\CBfB[2]\SETpl[CecilyNormalAr]\plf\Lshake\c[4]賽希莉：\c[0]    誰？
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    是謊言者！ 殺了他們！
+
+########################################## MAMA
+
+mama/begin1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\c[4]老婆：\c[0]    稀客啊！ 可憐的孩子，在外面受難了吧？
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？ 我還好，能活的下去。
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    感謝聖徒！ 聽說席芭莉絲發生了什麼災難，放心吧，我老公是個獵人，那群魔物過不來的。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...但願如此？
+
+mama/begin2
+\CBmp[papa,4]\plf\prf\c[4]老公：\c[0]    外面魔物很多，很危險，妳一定餓了吧♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    進來休息一下再出發♥
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...\optB[算了吧,好,關於]
+
+mama/begin_nope
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 我只是路過而已...
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]老婆：\c[0]    真可惜，我們做了豬肉燉菜呢♥
+
+mama/begin_return
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    知道家的好了嗎？
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    賤屄！等等再教訓妳！ 給我回房裏去！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+mama/Capture0
+\CBmp[mama,20]\m[tired]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    賤屄，妳不是胖寶的妻子？ 快去幫胖寶生孩子！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是...
+
+mama/about_1
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    你們住在這麼偏僻的地方? 這裡不安全吧?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    不會不會！ 我們\c[6]伍德森\c[0]家族住在這裡很多年了。
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    城市中的生活並不適合我們，而我們家族皆為聖徒的從者！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    我們受聖徒的庇佑! 我們不會受那些謊言者的侵擾！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    你也看到那些綠皮的下場了！綠皮沒什麼了不起！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    感謝聖徒！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 感謝聖徒。
+
+########################################## SON
+
+son/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]胖寶：\c[0]    噗嘻！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    吚吚吚！！！
+
+son/begin1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    放開我！
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]胖寶：\c[0]    是玩具！
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]胖寶：\c[0]    玩具！ 穴穴！ 插插！
+\CBmp[mama,20]\SETpr[OldSlut_normal]\plf\Rshake\c[4]老婆：\c[0]    胖寶！不可以！
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    放手啦！
+
+son/begin2
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    ....
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]老婆：\c[0]    不好意思，我兒子嚇著妳了！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 沒關係啦。
+
+son/Capture
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[tired]\Lshake\prf\c[4]胖寶：\c[0]    玩具！ 穴穴肏！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    吚啊！
+\CBmp[mama,20]\SETpr[OldSlut_angry]\plf\Rshake\c[4]老婆：\c[0]    胖寶！回房裡肏！
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    噗嘻！好的！
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+son/Capture_night_t1
+\CBmp[son,2]\SETpl[FatDumbNormal]\Lshake\c[4]胖寶：\c[0]    噗噗?
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    ....\optB[沒事,聖徒<r=HiddenOPT1>]
+
+son/Capture_night_t2
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    你們... 真的信聖徒嗎？
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    胖寶信！ 胖寶一家人都信！
+\CBct[2]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    但... 聖徒的從者不該把快樂建立在他人的痛苦上... 這是不對的...
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    但媽媽說的都是對的！ 媽媽是神聖的從者！ 我必須要聽媽媽的話！\optB[沒事,媽媽<r=HiddenOPT1>]
+
+son/Capture_night_t3
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    媽媽她是個瘋子...
+\CBmp[son,5]\SETpl[FatDumbSad]\Lshake\prf\c[4]胖寶：\c[0]    妳騙人！ 謊言者！ 我要跟媽媽說！
+\CBct[20]\m[terror]\plf\PRF\c[6]洛娜：\c[0]    不！ 等等！ 你長大了，我覺得你可以自己做決定了，你可以取代你媽媽。
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    真的？！ 胖寶長大了！\optB[沒事,妻子<r=HiddenOPT1>]
+
+son/Capture_night_t4
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    對... 是時候取代他們了。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    你不想跟爸爸媽媽一樣擁有強大的信仰與權力？
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    我要！
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我是你的妻子，我會跟你生更多的胖胖，你會有無上的權力，就跟聖徒一樣。
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    真的？ 胖寶該怎麼做？\optB[沒事,這麼做<r=HiddenOPT1>]
+
+son/Capture_night_t5
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    讓他們的靈魂回歸聖徒就可以了，你將會擁有他們力量。
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    你知道你該怎麼做的。
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    胖寶知道了！
+\CBct[8]\m[confused]\plf\PRF 我到底在說什麼啊....
+
+son/Capture_night_WIN
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    胖寶知道該怎麼做了！
+
+son/Capture_Kill0
+\Rflash\SndLib[sound_gore]\c[4]老婆：\c[0]    啊啊啊！ 胖寶你做什麼！
+\Rflash\SndLib[sound_gore]\c[4]老婆：\c[0]    來人啊！ 不！！！
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleDed]
+\c[4]老公：\c[0]    小渾蛋！ 你做了什麼？
+\c[4]老公：\c[0]    不！！ 你怎麼把師母殺了！ 為什麼！
+\c[4]老公：\c[0]    我滅了你啊啊啊！
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleGruntDed]
+\c[4]胖寶：\c[0]    胖寶... 辦到了...
+
+son/Capture_Kill1
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    ....
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    咦！
+\CBct[2]\m[terror]\Rshake\c[6]洛娜：\c[0]    什麼？
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    死掉了？
+
+son/Capture_night_Failed0
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    沒事...
+
+son/Capture_night_Failed1
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    算了...
+
+son/Capture_night_Failed2
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    抱歉...
+
+########################################## FATHER
+
+papa/begin1
+\CBmp[papa,4]\SETpl[nil]\prf\c[4]老公：\c[0]    嘿嘿♥ 妳一定餓了對吧？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃？
+\CBmp[papa,20]\prf\c[4]老公：\c[0]    小妹妹♥ 進來坐坐啊♥
+
+papa/begin2
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    是啊，我燉了香噴噴的豬肉燉菜呢♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...\optB[算了吧,好,關於]
+
+papa/begin_nope1
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    呃... 我只是路過而已...
+
+papa/begin_nope2
+\CBmp[papa,5]\prf\c[4]老公：\c[0]    進來！我叫妳進來！
+\CBct[8]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    咦？
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    吚吚吚！！！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    放開我！
+
+papa/begin_nope3
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    住手！你這個謊言者！
+
+papa/begin_nope4
+\CBmp[mama,5]\m[confused]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    沒我的准許你敢碰女人？！ 你想死嗎！
+\CBmp[papa,6]\plf\prf\c[4]老公：\c[0]    對不起！ 是罪惡者的錯！ 是罪惡者的誘惑！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    之後我會好好的逞罰你！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哈哈？
+
+papa/Capture
+\CBmp[papa,4]\prf\c[4]老公：\c[0]    過來！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    吚啊！
+
+papa/about_1
+\CBct[2]\m[confused]\plh\c[6]洛娜：\c[0]    你們為什麼會待在這裡？
+\CBmp[papa,20]\prf\c[4]老公：\c[0]    自從師傅死後聖徒的光芒就轉移到師母身上了。
+\CBmp[papa,20]\prf\c[4]老公：\c[0]    她是唯一還受聖徒榮耀的從者！ 我會跟隨她直到終末之日再臨！
+\CBct[2]\m[confused]\c[6]洛娜：\c[0]    師母？
+\CBmp[papa,20]\prf\c[4]老公：\c[0]    阿... 老婆! 妻子！ 對！ 是妻子！
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    呃...
+
+########################################## ##########################################  DINNER
+
+Dinner/begin_0
+\CBct[20]\m[pleased]\plf\Rshake\c[6]洛娜：\c[0]    謝謝你們的招待!
+
+Dinner/begin_0_1
+\c[4]老婆：\c[0]    感謝聖徒賜與我恩典。
+\c[4]老婆：\c[0]    感謝聖徒賜與我安逸。
+\c[4]老婆：\c[0]    我們這一餐聖徒來自聖徒！ 感謝祂！
+
+Dinner/begin_1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prh\c[4]老婆：\c[0]    好吃嗎？
+\CBct[20]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    非常棒! 我好久沒有吃到這麼豐盛的一餐了！
+\CBmp[papa,20]\plf\prf\c[4]老公：\c[0]   多吃點! 妳太瘦了！
+
+Dinner/begin_1_1
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    閉嘴！ 謊言者！
+\CBmp[papa,6]\plf\prf\c[4]老公：\c[0]   對不起！
+
+Dinner/begin_1_2
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    孩子啊，妳名子是？ 我也不好一直叫妳孩子。
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    我叫\c[6]洛娜\c[0]！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    洛娜啊？ 感謝聖徒！ 真是好名子！
+
+Dinner/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]胖寶：\c[0]    媽媽! 胖寶要她!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]胖寶：\c[0]    胖寶要洛娜! 胖寶要新玩具♥
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    耶？
+
+Dinner/begin_3
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    胖寶啊~ 還沒結婚不可以呦！
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    洛娜啊，妳覺得我家的胖寶怎麼樣？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃... 什麼怎麼樣？
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    是個好伴侶對吧！ 我非常期待能抱孫子！ 妳覺得如何？
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我不懂您是指什麼。
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    他是個乖孩子，他是聖徒的聖子，是受祝福的存在！
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    嗯... 好呦，他是個乖孩子！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    對吧？他是個乖孩子。
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    甜點應該煮好了，我加了很多糖呦！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...\optD[我該走了,繼續享用]
+
+Dinner/begin_3_opt_Leave
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    謝謝您的招待，但我該離開了。
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    啊！ 還有甜點啊！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    抱歉，但我還有事要辦。
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]老婆：\c[0]    唉... 好吧，路上小心啊！
+
+Dinner/begin_3_opt_Eat0
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    甜菜與果茶，這是我特別為妳準備的。
+\CBct[20]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    謝謝♥
+
+Dinner/begin_3_opt_Eat1
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    味道如何？
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    甜膩膩的♥ 我很喜歡♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    真是太好了！
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    但我覺得有點...
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    不太舒服..
+
+Dinner/begin_3_opt_Eat2
+\ph\narr\..\..\..\..\..
+
+########################################## ##########################################  Death when nap
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]未知：\c[0]    死！ 去死！ 該死的罪惡者！
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]未知：\c[0]    妳殺了我的家人！
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]未知：\c[0]    我殺了妳啊啊啊啊啊！
+
+########################################## ##########################################  Capture
+
+Capture/FristTime_0
+\c[4]老婆：\c[0]    胖寶啊! 這就是你的新妻子了!
+\c[4]胖寶：\c[0]    新玩具♥
+\c[4]老婆：\c[0]    不行！ 要先結婚!
+\c[4]胖寶：\c[0]    味所摸？ 胖寶等不及！
+\c[4]老婆：\c[0]    不可以著急！ 你每次都這樣！ 爸爸和媽媽也是先結婚才有了你！
+\c[4]胖寶：\c[0]    好吧...
+
+Capture/SecondTime_0
+\c[4]老婆：\c[0]    胖寶! 你看! 這是你逃家的賤屄!
+\c[4]胖寶：\c[0]    玩具♥ 給我!我要玩♥
+\c[4]老婆：\c[0]    還不行! 我必教導她女人該有的樣子！
+
+########################################## ##########################################  merry
+
+merry/begin_0
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    以聖徒之聲，祝福在此的新人。
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    以聖徒之眼，見證這對新人！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    \c[6]胖寶.伍德森\c[0]與賤屄！ 結成一對！
+\SndLib[sound_step_chain]\c[4]老公：\c[0]    感謝聖徒！
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[tired]\c[6]洛娜：\c[0]    嗯........
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[confused]\c[6]洛娜：\c[0]    怎麼了？
+
+merry/begin_1
+\CBmp[WakeUp,8]\m[confused]\c[6]洛娜：\c[0]    \..\..\..\..
+\SndLib[sound_step_chain]\CBmp[WakeUp,1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    我怎麼了？ 我在哪裡？！
+\SndLib[sound_step_chain]\CBmp[WakeUp,20]\m[terror]\Rshake\c[6]洛娜：\c[0]    動不了？？ 鐵鍊？ 你們對我做了什麼！
+
+merry/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]胖寶：\c[0]    玩具穴！ 肏肏！
+\CBmp[WakeUp,20]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不要過來！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    醒來了阿？今天開始你就是胖寶的妻子了。
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    妻子？
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    妳可以的，我一看就知道妳是適合生孩子的女人♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    胖寶可是聖子♥ 妳將會為聖徒生出更多聖子♥
+\CBmp[WakeUp,20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    什麼.. 妳到底在說什麼！
+
+merry/begin_3
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]胖寶：\c[0]    穴穴♥
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    不要! 走開阿！ 我不想生陌生人的孩子！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    他不是陌生人！ 他是妳的丈夫！ 妳要服侍他！ 妳要一輩子服侍聖徒！
+
+merry/begin_4
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    胖寶很舒服♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    胖寶加油！ 聖徒在看著你！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    放開我！ 快點放開我！
+
+merry/begin_5
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    胖寶要去了♥
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    咦！！ 不行 快拔出來啊！
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    吼歐歐歐♥
+
+merry/begin_6
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    噗嘻！ 胖寶很開心！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    咿咿咿！
+
+merry/begin_7
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]胖寶：\c[0]    媽媽不要！ 不要捏蛋蛋！ 聖徒救我！
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    不要! 不要再射了！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    給我用力射！ 你要讓賤屄懷上你的寶寶！
+
+merry/begin_8
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]胖寶：\c[0]    啊啊啊啊！
+\CBmp[son,6]\SETpl[FatDumbSad]\Lshake\prf\c[4]胖寶：\c[0]    不要！ 不要捏胖寶的蛋蛋! 胖寶射不出來了！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    射! 再給我射！ 用你的洨填滿賤屄的身體！
+
+merry/begin_9
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    很好! 這才是我的好胖寶！ 聖徒在上會讓賤屄懷孕的！
+\CBct[20]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚嗚... 為什麼要這樣對我...
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    賤屄！ 今天就放過了妳了! 白天來找我！ 身為胖寶的妻子妳必須要服侍我們\c[6]伍德森\c[0]家族！
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    直到永遠！
+
+########################################## ##########################################  Daily RapeLoop
+
+DailyRapeWake/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    噗嘻♥ 胖寶來找屄屄玩了！
+
+DailyRapeWake/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    噗嘻♥ 胖寶來插穴穴！
+
+DailyRapeWake/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    噗嘻♥ 胖寶要射精！
+
+DailyRapeNap/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    噗嘻♥ 胖寶找到屄屄了！
+
+DailyRapeNap/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    胖寶發現屄屄♥ 插插！
+
+DailyRapeNap/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    屄屄在這！ 插屄屄♥
+
+DailyRapeEnd/Begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    胖寶玩夠了♥ 屄屄再見！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    穴穴真好插♥ 屄屄掰掰！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+DailyRapeEnd/Begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]胖寶：\c[0]    雞雞爽爽♥ 屄屄好棒！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+########################################## #daily semen check
+
+SemenCheck/begin_0
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    胖寶! 你怎麼弄的！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    她肚子裡的種汁這麼少怎麼行！
+\c[4]胖寶：\c[0]    對不起!
+
+SemenCheck/begin_1
+\CBmp[WakeUp,8]\m[tired]\c[6]洛娜：\c[0]    \..\..\..
+
+SemenCheck/begin_2
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]胖寶：\c[0]    胖寶會加油的！
+
+SemenCheck/begin_3
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]胖寶：\c[0]    呦啊啊！ 胖寶要去了！ 穴穴！
+\CBmp[WakeUp,8]\m[sexhurt]\c[6]洛娜：\c[0]    嗚嗚....
+
+SemenCheck/begin_4
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    不行！ 以聖徒之名你必須射滿！ 身為男人你必須更努力！
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]胖寶：\c[0]    胖寶知道了！ 胖寶會聽話的！
+\CBmp[WakeUp,8]\m[pain]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+########################################## #daily torture
+
+Torture/begin_0_Basic
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    賤人！ 妳居然違反聖徒的意志！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    醒來！ 給我醒來！
+
+Torture/begin_0_PapaRaped
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    賤人！ 妳居然敢跟我的男人偷情！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    醒來！ 給我醒來！
+
+Torture/begin_2
+\SndLib[sound_hit_whip]\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    吚啊！？
+
+Torture/begin_3
+\CBmp[torturePT,20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    怎麼了！ 我怎麼了！？
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    賤屄！ 妳自己知道妳做了什麼！
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    妳違反了聖徒的意志! 妳必須接受處罰！
+
+Torture/begin_4
+\CBmp[torturePT,6]\m[terror]\Rshake\c[6]洛娜：\c[0]    等等! 我沒有！ 不要啊！
+\CBmp[torturePT,6]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不要！ 饒了我！
+
+Torture/begin_5
+\CBmp[torturePT,6]\m[pain]\Rshake\c[6]洛娜：\c[0]    對不起！ 我錯了！ 饒了我！
+\CBmp[torturePT,6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    對不起！ 我跟妳道歉了....
+
+Torture/begin_6
+\CBmp[torturePT,6]\m[tired]\Rshake\c[6]洛娜：\c[0]    嗚嗚嗚....
+
+########################################## #daily Breakfast
+
+breakFast/begin_0
+\CBmp[MainTable,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    進房去！ 吃飯時間到了！
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是...
+
+breakFast/begin_1
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    感謝聖徒賜與我恩典。
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    感謝聖徒賜與我安逸。
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    我們這一餐聖徒來自聖徒！ 感謝祂！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    感謝祂...
+
+########################################## ########################################## #daily job
+########################################## Grass
+
+JobGrass/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    去把田裡的雜草拔乾淨！
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    不准偷懶！
+\CamMP[Farm]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是...
+
+JobGrass/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    妳敢偷懶？！ 明明就還有！
+\CBct[6]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    對不起！！
+
+JobGrass/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    都拔完了？ 真是乖孩子！
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    現在回到床上等胖寶肏妳！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗯...
+
+JobGrass/failed
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    動作這麼慢！ 我看妳是欠打了？
+\CBct[8]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    對不起！ 不要傷害我！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    哼!晚點再教訓妳！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+
+########################################## feed chicken
+
+JobFeed/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    看到那些雞了嗎？
+\CamMP[FoodB]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    去用屋裡的剩飯餵雞！ 不准偷懶！
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是...
+
+JobFeed/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    很好！ 小雞們也很開心呢！
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    現在回到床上等胖寶肏妳！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗯...
+
+JobFeed/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    妳在幹嘛？ 妳餵完了嗎！
+\CBct[6]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    對不起！！
+
+########################################## suck genital
+
+JobSuck/begin_1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    小賤屄！ 過來！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    爸爸媽媽的雞巴很久沒有清理了。
+\CBmp[papa,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    用你的嘴清理我的雞巴，然後去跟那個蠢貨說妳要幫他舔，他可以射精了！
+\CBct[8]\m[terror]\plf\PRF\c[6]洛娜：\c[0]    咦？
+
+JobSuck/Mama_start
+！！！！！
+\narr又老又臭的雞巴出現了！
+
+JobSuck/Mama_doneButPapa
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    真舒服♥ 可是那個蠢貨的肉棒還等著妳清理呢♥
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是...
+
+JobSuck/Mama_PapaNotDone
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    我叫妳去幫那個白癡舔！ 妳聽見沒！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+
+JobSuck/Mama_begin1
+\m[fear]\c[6]洛娜：\c[0]    ....
+\m[sad]\c[6]洛娜：\c[0]    嗚....
+
+JobSuck/Mama_begin2
+\c[4]老婆：\c[0]    看到那些污垢了？ 幫我把髒東西都舔乾淨！
+\narr這是個茂密的森林，從中飄出了陣陣的死魚味。
+
+JobSuck/Mama_begin3
+\c[4]老婆：\c[0]    對! 很好！ 就是這樣♥
+
+JobSuck/Mama_begin4
+\c[4]老婆：\c[0]    沒錯！ 肉貝的裡側要仔細舔♥
+
+JobSuck/Mama_begin5
+\c[4]老婆：\c[0]    好棒♥ 太棒了♥ 我要去了♥
+
+JobSuck/Mama_begin6
+.......
+
+JobSuck/Mama_begin7
+.....
+
+JobSuck/Mama_begin8
+...
+
+JobSuckw/win
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    乖孩子，我們的雞巴好吃嗎？
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    非常好吃...
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    我就知道妳喜歡舔機巴♥
+
+JobSuck/Papa_start
+\CBct[8]\m[fear]\PRF\c[6]洛娜：\c[0]    媽媽說您可以射精了...
+\CBct[8]\m[pain]\PRF\c[6]洛娜：\c[0]    她叫我來幫您舔...
+\CBmp[papa,20]\prf\c[4]爸爸：\c[0]    太好了！ 太好了！ 聖徒在上！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+JobSuck/Papa_Done
+\CBmp[papa,20]\prf\c[4]爸爸：\c[0]    我總算射精了！ 感謝師母！ 感謝聖徒！
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    嗚....
+
+JobSuck/Papa_refuse
+\CBmp[papa,5]\prf\c[4]爸爸：\c[0]    師母下指令了！ 妳沒有拒絕的權利！

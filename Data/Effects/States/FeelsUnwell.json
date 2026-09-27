@@ -1,0 +1,51 @@
+{
+	"item_name": "FeelsUnwell",
+	"max_stacks": 1,
+	"icon_index": 74,
+	"is_combat_state": false,
+	"is_daily_state": true,
+	"lonaStat_json_hash": {
+		"stat": "FeelsSick",
+		"value": null,
+		"type": "numeric",
+		"link": true,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "daily"
+	},
+	"textFlag": {
+			"name": "DataState:FeelsUnwell/item_name",
+			"description": "DataState:FeelsUnwell/description"
+	},
+	"player_nap_get_state_when": [{
+		"tar_state_name": [-1, "FeelsUnwell"],
+		}],
+	"attribute_change": [
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 3
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 2
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.95
+	},
+	{
+		"attribute_name": "mood",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 10
+	}
+	]
+}

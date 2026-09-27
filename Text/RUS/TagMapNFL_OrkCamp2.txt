@@ -1,0 +1,173 @@
+#Plainview
+NFL_OrkCamp2/OvermapEnter
+\cg[map_GobRaider]\m[confused]Деревня Перранвей\nПеревалочная станция для охотников \optB[Отмена,Войти]
+
+#############################################################################  NFLOrkindCmap2 rapeloop and quest
+
+NFL_OrkCamp2/Rapeloop_FoodOffer
+\SndLib[sound_goblin_roar]\narr Они остались довольны представлением мясной дырки и оставили ей немного еды.
+
+NFL_OrkCamp2/Rapeloop_show_end
+\cg[event_OrkindGonnaRape]\SndLib[sound_goblin_roar]\narr Мясная дырка под насмешки закончила своё представление, они остались очень довольны.
+\narr Они бросили этой забавной мясной дырке несколько кусков сгнившего мяса.
+
+NFL_OrkCamp2/Rapeloop_show_no
+\narr Они оказались очень злы, когда мясная дырка отказала им. 
+\narr Поэтому они решили хорошенько наказать непослушную дырку...
+
+NFL_OrkCamp2/RapeLoopNonCapture
+\m[fear]\narr Они схватили Лону - худющую мясную дырку.
+\m[terror]\narr Большой брат сказал, что мясные дырки нужно отправить на фарш, но худую можно оставить для развлечения...
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_None_WakeBegin
+\narr Братья устали от игры с дыркой и решили хорошенько отдохнуть.
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_DryCropse_WakeBegin
+\narr\..\..\..\ph\SndLib[sys_equip]Кажется, в клетку к Лоне что-то занесли...
+
+NFL_OrkCamp2/Rapeloop_DryCropse0
+\ph\cg[event_DryCropse]\SndLib[sound_ZombieSpot]Хрипящий Свиночеловек. Некоторые части его лица и конечностей отсутствуют, а тело выглядит худощавым и истощённым....
+
+NFL_OrkCamp2/Rapeloop_DryCropse1
+\ph\cg[event_WartsDick]Только его покрытый паразитами член был сильно раздут...
+
+NFL_OrkCamp2/Rapeloop_DryCropse2
+\ph\cg[event_OrkindGonnaRape]\SndLib[Breathing_Goblin]Лона не могла понять, что они кричат, но была уверена, что они хотят, чтобы она оседлала этот грязный член.
+Скромную, грязную человеческую дырку может использовать только зараженный паразитами толстый член.....
+\CBct[8]\m[fear]Ты хочешь этого?\optD[Сделать то‚ что они хотят<t=5>,Я не хочу!]
+
+NFL_OrkCamp2/Rapeloop_DryCropse2_yes
+\narr\SndLib[sound_chcg_chupa]Лона взобралась на член...
+
+NFL_OrkCamp2/Rapeloop_DryCropse3
+\m[p5_shame]\narr Свиночеловек стонет и наслаждается мясной дыркой, кажется он вот-вот кончит...
+
+NFL_OrkCamp2/DailyJob_select_DryCropse
+\narr Они требуют от мясной дырки, чтобы она занялась сексом с мясной игрушкой в углу.
+\narr Если вы не будете соблюдать их требования, вам не только нечего будет есть, но вы также подвергнетесь наказанию.....
+
+NFL_OrkCamp2/DailyJob_select_Abom
+\narr Они просят дырку родить для них больше ездовых тварей...
+
+NFL_OrkCamp2/DailyJob_select_ThrowRock
+\narr Им стало скучно, и они решили немного развлечься.
+
+NFL_OrkCamp2/DailyJob_end_ThrowRock
+\narr Устав от игры, они выглядели довольными тем, что дырка всё ещё в сознании.
+
+#############################################################################  NFL_MerCamp_SaveDog 1
+
+MercJoin/leader_Buddy0
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Rshake\c[4]Капитан Наёмников：\C[0]   Да, вот это место. Здесь мы его потеряли.
+
+MercJoin/leader_Buddy1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]   Ты! Веди нас! 
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Я?! Почему я?!
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Разве ты не из \c[6]Сибариса\C[0]? Ты что, не хочешь вернуться домой?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Мы видели, на что ты способна в лагере, и я уверен, что будет правильно, если ты будешь за главную.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эмм... Ну...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Итак, напарник, которого ты ищешь, - это... Как он выглядит?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Он белый, у него большой нос и большие уши.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Белый? Большой нос и большие уши?
+\CBct[2]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Ладно, идите за мной.
+
+MercLeader/CompCommand0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Должно быть, он всё ещё жив!
+
+MercLeader/CompCommand1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Быстрее!
+
+MercLeader/CompCommand_foundTGT0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Нам нужно уходить.
+
+MercLeader/CompCommand_foundTGT1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Мы не можем здесь оставаться. Это слишком опасно.
+
+MercJoin/spear
+\CBid[-1,20]\c[4]Копейщик：\C[0]    Это просто глупо! Какого чёрта мы сюда вернулись?
+
+MercJoin/bow
+\CBid[-1,20]\c[4]Лучник：\C[0]    Спасать его?? Это бессмысленно.
+
+MercJoin/priest
+\CBid[-1,20]\c[4]Священник：\C[0]    Даже Святые не одобрили бы наших глупых поступков.
+
+MercLeader/Rg38_1
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Что, чёрт возьми, здесь происходит...?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Похоже на место, где собирается еда, или, это может быть алтарь для поклонения грязному ложному богу.
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Нужно быть тише, если мы не хотим стать их едой.
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Ах....
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Внимание! Вижу движение!
+
+MercLeader/Rg38_2
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcQuestion]\SETpr[OrcSlaveMaster_normal]\Rshake\c[4]Оркоид：\C[0]    Гу-Гу-Га...
+
+MercLeader/Rg38_3
+\CBmp[SlaveMaster,20]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_sad]\Rshake\c[4]Оркоид：\C[0]    \{Гу-Гу-Га-Ха!
+
+MercLeader/Rg38_4
+\CBmp[Priest,2]\SndLib[sound_OrcHurt]\SETpl[OrcPriest]\Lshake\c[4]Оркоид：\C[0]    Гу-Та-Го!! Лошадь член?! Гу-Ча-Ха.
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_normal]\Rshake\prf\c[4]Оркоид：\C[0]    Гу-Ча??
+
+MercLeader/Rg38_5
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Оркоид：\C[0]    \{Лошадь члееееен!!??
+
+MercLeader/Rg38_6
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcHurt]\SETpr[OrcSlaveMaster_sad]\plf\Rshake\c[4]Оркоид：\C[0]    Гу-Ча-Ая?!
+
+MercLeader/Rg38_7
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]Оркоид：\C[0]    \{Лошадь член!!!!
+
+MercLeader/Rg38_8
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Лошадиный член...?
+\CBmp[MerLeader,2]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Пойдем...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+
+############################################################################# Found Doggy
+
+Doggy/KIA
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Нет!!! Мой \c[6]Лейф\C[0]!!!
+
+Doggy/alive_begin1
+\CBid[-1,6]\SndLib[dogDead]\c[4]Собачка：\C[0]    \..\..\..
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    \c[6]Лейф\C[0]!!!
+\narr Попа бедной собчаки сильно разорвана...
+\narr Настолько, что в ней вместилась бы рука взрослого человека...
+\narrOFF\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Бедный \c[6]Лейф\C[0], всё в порядке, я с тобой.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эмм\..\....Так это\.....
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Это тот самый пёс, которого вы хотели спасти?
+\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Да! Что-то не так?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эээ.... Нет...
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Вперёд, давай убираться отсюда.
+\CBid[-1,20]\SndLib[dogDead]\plf\prf\c[4]Собачка：\C[0]    \..\..\..
+
+Doggy/alive_brd
+\board[Спасение]
+Задача：Спасти напарника Капитана Наёмников
+Награда：Большой Медяк х1\i[582]
+Клиент：Капитан Наёмников
+Повторяемость：Одноразовое
+Сопроводите Капитана и его пёсика.
+
+Doggy/QuestDone1
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Хорошо. Здесь мы в безопасности.
+
+Doggy/QuestDone2
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Что ж...
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Героиня, оставь своё имя.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    М-м\..\..\..\c[4]Лона：\C[0].
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    \c[4]Лона\C[0] значит?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Хорошо, \c[6]Лейф\C[0] тоже очень благодарен тебе. Мы обязательно встретимся снова.
+
+MercLeader/QmsgDoggyKIA0
+Лейф, Лейф！！
+
+MercLeader/QmsgDoggyKIA1
+Моя пёсик！！！
+
+MercLeader/QmsgDoggyKIA2
+Он мёртв！！！

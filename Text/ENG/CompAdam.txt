@@ -1,0 +1,111 @@
+#Fully translated by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+Adam/NonFristTimeBegin
+\CBmp[Adam,2]\SETpl[Adam_normal]\Lshake\c[4]Unknown：\c[0]    Haven't I met you somewhere before?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm, I don't think so?
+
+Adam/0_Begin0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\c[4]Unknown：\c[0]    I require the services of someone who would be good at scouting, does that sound like you?
+
+Adam/0_Begin2
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Me?\optB[Not I...,That's me!]
+
+Adam/1_Begin_yes
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I guess that's me?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Unknown：\c[0]    But you look like... just a mere child.
+\CBct[1]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    Hey! I'm not a child!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Hmmm\..\..\.. Are you from Sybaris?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Yes, why do you ask?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Unknown：\c[0]    Don't you know? The soldiers on this island are maintained by exploiting the people of Sybaris.
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Eh...?! T-There's no way, right?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Unknown：\c[0]    I'll need the help of a scout of some sort.
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    You'll have to pass my test and prove to me you're a worthy scout. I want you to go and steal the medal pinned on the \c[6]Centurion's\c[0] armor at the military camp!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    You won't be doing this for no reason, I'll reward you with a Copper Coin upon passing my test.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm...
+
+Adam/1_Begin_done0
+\CBct[20]\m[pleased]\c[6]Lona：\c[0]    I've got it!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Well done, I knew I was able to trust you.
+
+Adam/1_Begin_done1
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Come back and visit me in two days, I have other tasks that will require your help.
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Here you go!
+
+Adam/1_Begin_done2
+\CBct[8]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Thank you!
+
+Adam/2_begin_1
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Hey! Good kid, so we meet again.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm, hello again.
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    I have a task that requires your help.
+\CBmp[Adam,8]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Have you ever heard of what a \c[4]musket\c[0] is?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Nope, never...
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Ah well, you don't look like a warrior after all. But, surely you know what a cannon is, right?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Basically, it's a cannon that's shrunken to where you can hold it with just your hands alone. It's powered by strong magic, yet doesn't require any knowledge of magic to use.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    This all sounds pretty impressive?
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Yes, quite impressive indeed!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    The armory at the east of the fortress recently recieved a batch of muskets. I need you to help me steal a few of them.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    As for your reward\..\..\.. I won't mistreat you!
+
+Adam/2_begin_board
+\board[Steal some muskets]
+Goal：Steal some of these hand-held cannons.
+Reward：2\i[581] Gold Coins
+Client：Unknown
+Quest Term：Once
+Head over to the armory, located at the east of the fortress and steal a few muskets.
+
+Adam/2_begin_decide
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Well, what's your decision?\optB[I'll get back to you on that...,I can do it!]
+
+Adam/2_begin_accept1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    No problem! I can do it!
+\CBmp[Adam,3]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Such a good kid! Here!
+
+Adam/2_begin_accept2
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh?!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    This is the medal you've stolen before, it's also a pass of some sort. The medal signifies you've served at the\c[4]Guardsmen Headquarters\c[0].
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Take it with you, or else you won't be able to get in.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    The \c[6]muskets\c[0] will look like wooden cannons, but with a metal pipe attached on top of them.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Tell them that you are hired by the guild and requested to read, review, and copy \c[4]Bryan's\c[0] records.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Thank you!
+
+Adam/5_win1
+\CBct[3]\m[Adam_sad]\plf\PRF\c[6]Lona：\c[0]    I've got them!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Let me see!
+\CBct[3]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Okay!
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    \..\..\..
+
+Adam/5_win2
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    I've never seen such a weapon before...
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    Hmmph... As expected of \c[4]Milo\c[0], only someone like him would be able to afford such a thing.
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    So, even the fire energy refill is much faster?
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    \..\..\..Interesting...
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Well, this is indeed what I've wanted. You may return home now.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    What about the reward?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    I'm out of money, otherwise what do you want? Do you want to fight instead?
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Ummm... Sorry...
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Unknown：\c[0]    Ah? What are you apologizing for?
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Unknown：\c[0]    Forget it. Here, take it.
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Eh?!
+
+Adam/5_win3
+\CBct[8]\m[shocked]\plf\PRF\c[6]Lona：\c[0]    Th-... Thank you?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    But isn't this just a stick?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Unknown：\c[0]    No! This is a firearm! Point it at your enemy, shout out BANG! BANG!, and your enemy will die!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Unknown：\c[0]    This item is expensive! I don't have time to chit-chat any longer, find yourself a quiet place to test it out yourself.
+
+Adam/else
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    Krroooohhh...
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hmmm?
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]Unknown：\c[0]    *SNORE* Paaaahhh......
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I-Is he asleep...?
+
+
+Adam/ElseDialog
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Unknown：\c[0]    Can't you see? The Rudesin family hinders us from progressing foward, so long as he continues to be in control!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Unknown：\c[0]    We must take back control of Noer Island...
+
+#Fully translated by Sugoi Soy Boy. Fuck off MTLing monkeys.

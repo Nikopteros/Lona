@@ -1,0 +1,93 @@
+ThisMap/OmEnter
+\m[confused]infected abandoned house\optB[Leave,Enter]
+
+###################################################################################    main
+
+Qprog8/RaidOnEast1
+\CBmp[guard4,20]\c[4]Soldier：\c[0]    Damn bastard! Why did he give us such stupid orders?
+\CBmp[guard1,20]\c[4]Soldier：\c[0]    Is he... dead?
+\CBmp[guard3,8]\c[4]Soldier：\c[0]    He doesn't move... Probably dead...
+\CBmp[guard2,20]\c[4]Soldier：\c[0]    These bastard nobles deserve it! Where were they when my family members died? Why should we sacrifice our lives for him now?
+\CBmp[guard1,8]\c[4]Soldier：\c[0]    What should we do now?
+\CBmp[guard4,20]\c[4]Soldier：\c[0]    Flee south! I've heard there's a camp of warriors in the south, and they're recruiting, let's join them.
+\CBmp[guard2,20]\c[4]Soldier：\c[0]    Good idea, but we should get out of here first.
+\CBmp[guard3,20]\c[4]Soldier：\c[0]    Yes, right now! This ghost town is too scary.
+
+Qprog8/RaidOnEast2
+\CBmp[guard4,2]\c[4]Soldier：\c[0]    Who is it!? Who is there!?
+
+Qprog8/RaidOnEast3
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well... Greetings everyone, sorry I'm late.
+\CBmp[guard1,20]\prf\c[4]Soldier：\c[0]    It's a monster! I don't want to die!
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    \{Huh ah ah ah!\}
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Monster!? Where?!
+
+Qprog8/RaidOnEast4
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Huh?!
+\CBct[8]\m[shocked]\PRF\c[6]Lona：\c[0]    Again?!
+
+Qprog8/RaidOnEast5
+\CBmp[guard3,20]\prf\c[4]Soldier：\c[0]    Wait, that's human! It's a woman!
+\CBmp[guard1,5]\prf\c[4]Soldier：\c[0]    Damn little bitch, what are you doing here? Get out of the way!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    I? I didn't do anything, I just got here!
+\CBmp[guard2,20]\prf\c[4]Soldier：\c[0]    She knows what we've done, kill her!
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\c[0]    Nooo! Don't kill me! I've seen nothing!
+\CBmp[guard4,20]\prf\c[4]Soldier：\c[0]    Fuck!
+\CBmp[guard4,20]\prf\c[4]Soldier：\c[0]    Little bitch, do you know how to get out of here?
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    Perhaps... We need to be quick...
+
+Qprog8/RaidOnEast6
+\CBmp[guard4,20]\prf\c[4]Soldier：\c[0]    OK, take us out of here.
+\CBmp[guard4,20]\prf\c[4]Soldier：\c[0]    That way we'll consider not killing you.
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    *Sob*...
+
+Qprog8/RaidOnEast7
+\board[leave here]
+Goal： escape the area
+Reward： none
+Client： Deserters
+Quest Term： Single Fulfillment
+The deserting soldiers threatened Lona with death, if she doesn't help them escape.
+
+Qprog8/RaidOnEast8
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    What do I do.....
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    Anyway, let's follow the road...
+
+Qprog8/spotHive
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]Lona：\c[0]    What's going on here?
+\CBmp[Hive,19]\m[fear]\PRF\c[6]Lona：\c[0]    Has this lair been destroyed?
+\SETpl[Mreg_pikeman]\m[fear]\Lshake\prf\c[4]Soldier：\c[0]    Why did you stop? Keep going!
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]Lona：\c[0]    Yes Sir!
+
+
+Qprog8/spotHiveEnd0
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    It's an exit!
+
+Qprog8/spotHiveEnd1
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    You can let me go now. I really didn't see anything, I saw him lying on the ground as soon as I arrived.
+\CBmp[guard1ST,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Shut up! You've seen and heard it all.
+\CBct[6]\m[terror]\plf\PRF\c[6]Lona：\c[0]    I'm sorry! Please don't kill me!
+
+Qprog8/spotHiveEnd2
+\CBmp[guard1ST,20]\c[4]Soldier：\c[0]    What do you think?
+\CBmp[guard2ST,20]\c[4]Soldier：\c[0]    She will rat us out, we must kill her.
+\CBmp[guard1ST,20]\c[4]Soldier：\c[0]    How about taking her away and selling her to a slave trader?
+
+Qprog8/spotHiveEnd3
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]centurion：\c[0]    You succeeded? You destroyed the lair?
+
+Qprog8/spotHiveEnd4
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldier：\c[0]    Yes! Lord Centurion, we have successfully eliminated these disgusting monsters!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]centurion：\c[0]    Great! I'm a well-trained knight, yet I was knocked out by a monster ambush... Imagine that!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]centurion：\c[0]    What a shame.
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldier：\c[0]    My lord, let's go back to the camp. I'll explain what happened here on the way back.
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldier：\c[0]    Please don't trust that little bitch, she did nothing but run away, what else can a woman do to help?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]centurion：\c[0]    That's it.
+\CBct[19]\m[fear]\PRF\c[6]Lona：\c[0]    Well...
+
+Qprog8/spotHiveEnd5
+\narr\..\..\..
+\narrOFF\SETpl[Mreg_pikeman]\Lshake\c[4]Soldier：\c[0]    Hey!
+\m[terror]\plf\Rshake\c[6]Lona：\c[0]    \{Yes Sir!\}
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldier：\c[0]    Little bitch, if you dare to run your mouth, you will die, you hear me?
+\m[terror]\plf\PRF\c[6]Lona：\c[0]    I do, Sir...

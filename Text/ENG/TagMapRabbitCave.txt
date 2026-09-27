@@ -1,0 +1,103 @@
+overmap/OvermapEnter
+\m[confused]Abandoned Copper Mine\optB[Leave,Enter]
+
+################################# OP
+
+yeller/start
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Mercenary：\c[0]    RUN! RUN AWAY!
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Mercenary：\c[0]    NO! I-I DON'T WANNA DIE! SAVE MEEE!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[0]Really Big Bunny：\c[0]    Squeak! Squuueak!
+
+yeller/start1
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Mercenary：\c[0]    N-NOOO! GET AWAY FROM MEEE!
+
+yeller/start2
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Mercenary：\c[0]    Oh shit! It killed Barney!
+\CamMP[MerB]\BonMP[MerB,5]\c[4]Mercenary：\c[0]    Fuck! YOU MONSTER!!!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed2.ogg]\c[0]Really Big Bunny：\c[0]    SQUEAK! SQUEAAAK!!!
+
+yeller/start3
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[0]Really Big Bunny：\c[0]    Squeak! Squeak!
+\CamCT\m[flirty]\C[0]\C[6]Lona：\C[0]    Huh?! Is that a rabbit...?
+
+################################# OP
+
+priest/begin0
+\prf\BonMP[Priest,8]\c[4]Mercenary：\c[0]    I know this monster! I've read about it in the Caerbannog scriptures!
+\prf\BonMP[Priest,8]\c[4]Mercenary：\c[0]    By the Saint! This is The Dark Gluttonous One!\optB[Leave,Ask about what's happening,Give Holy Water<r=HiddenOPT0>]
+
+priest/win
+\prf\BonMP[Priest,20]\c[4]Mercenary：\c[0]    Success! Evil is eliminated! The treasure is all mine!
+
+priest/about
+\CamCT\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Can you tell me what's happening here?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]    We took on a quest of killing an abnormal animal of some sort, but inside this place awaiting us was no mere animal!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Mercenary：\c[0]    It's The Dark Gluttonous One!
+\CamMP[KillerRabbit]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]    The Gluttons will arrive with The Darkness and follow the Footsteps of Lies. They will devour everything in their way. 
+\CamMP[KillerRabbit]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]    Now, which chapter and section mentioned this...? Gah, I can't remember!
+\CamMP[KillerRabbit]\BonMP[Priest,15]\prf\c[4]Mercenary：\c[0]    Look at its red eyes and white fur! This is a symbol of Sin!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Mercenary：\c[0]    We'll need \c[2] Holy Water\c[0]!\n \c[2]Holy Water\c[0] has the power to purify all evil,\n but I was kicked out of the church by the Saint's Association!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]   Help me get some\n \c[2]Holy Water\c[0]! With it, I'll be able to defeat the monster!
+\CamCT\m[serious]\Rshake\C[0]\C[6]Lona：\C[0]    No problem!
+
+priest/HolyWater0
+\CamCT\m[shocked]\Rshake\C[0]\C[6]Lona：\C[0]    I've got the Holy Water!
+
+priest/HolyWater1
+\CamMP[Priest]\BonMP[Priest,3]\prf\c[4]Mercenary：\c[0]    Great!
+
+priest/HolyWater2
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Mercenary：\c[0]    Oh Saint in heaven, bless the innocent with your grace!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Mercenary：\c[0]    Oh Saint in heaven, I pray for you to eliminate all Lies and Evil!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Mercenary：\c[0]    Praise the Saint!
+\CamCT\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    So, just sprinkling some over here should be enough?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]    Don't worry, this is now already a sanctuary of the Saint. Any evil beings or Lies that come here will be smited by the Saint!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]    Now then, we will need someone to distract the monster and lead it into the sanctuary.
+\CamCT\m[wtf]\PRF\C[0]\C[6]Lona：\C[0]    ...Huh?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]    Little girl, it shall be you! GO! Follow in the footsteps of the Saint and lead evil to its demise!
+\CamCT\m[shocked]\Rshake\C[0]\C[6]Lona：\C[0]    E-EHHH?! Me?!
+
+priest/HolyWater3
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenary：\c[0]    Don't be afraid, go on! The Saint will protect you!
+\CamCT\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Ummm?
+
+
+Lona/RabbitDed0
+\CamMP[KillerRabbit]\narr The Saint's Holy Water was slippery and sour.
+It made the rabbit tumble like a bag of flour.
+The lil' bunny fell and bumped its head.
+Not a moment later, it now lay dead...
+
+Lona/RabbitDed1
+\CamCT\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    No way! Did that really work?
+
+
+################################# advanture common
+MerA/Common
+\prf\c[4]Mercenary：\c[0]    Like I've said before, rabbits aren't cute at all!
+
+MerB/Common
+\prf\c[4]Mercenary：\c[0]    If a little rabbit can turn into this when exposed to the Black Mist, what about humans?
+
+MerB/Win
+\prf\c[4]Mercenary：\c[0]    Thanks kid, but we ain't got nothin' to give you. Go back and grab something to eat on your own.
+
+MerA/Win
+\prf\c[4]Mercenary：\c[0]    Holy shit! The treasure is mine now! ALL MINE!
+
+Box/MerAnyAlive0
+\prf\c[4]Mercenaries：\c[0]    \{HEY!!!
+\CamCT\m[shocked]\Rshake\C[0]\C[6]Lona：\C[0]    Eh?! Y-Yes...?
+
+Box/MerAnyAlive1
+\prf\c[4]Mercenary：\c[0]    The treasure is ours! Fuck off you little runt!
+\CamCT\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    But I helped you guys out...
+
+Box/MerAnyAlive2
+\prf\c[4]Mercenary：\c[0]    FUCK! You stupid bitch! Are you deaf?!
+
+Box/MerAnyAlive3
+\prf\c[4]Mercenaries：\c[0]    \{KILL HER!!!
+\CamCT\m[shocked]\Rshake\C[0]\C[6]Lona：\C[0]    \{EEEP!
+
+#Translation by Joko Komodo. Full clean-up by Sugoi Soy Boy. Fuck off MTLing monkeys.

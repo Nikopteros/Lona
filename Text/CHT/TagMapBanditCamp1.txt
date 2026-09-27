@@ -1,0 +1,332 @@
+thisMap/OvermapEnter
+強盜的林中小屋。\optB[沒事,進入]
+
+Nap/Capture
+\narr他們搶走了洛娜的一切
+
+############################################################## Control , using TagMapNoerMobHouse.txt as secondary
+
+Trans/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]野盜：\C[0]    小婊子！ 給我醒來！
+\CamCT\m[hurt]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚....
+\SETpl[MobHumanCommoner]\BonMP[Raper1,20]\Lshake\prf\C[4]野盜：\C[0]    妳該去屬於妳的地方了！
+\CamCT\m[sad]\c[6]洛娜：\c[0]    你們要帶我去哪裡？
+
+Trans/begin2
+\ph\m[sad]\cgoff\narr洛娜被轉移到了某處。
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    在決定怎麼玩以前給我乖乖待著。
+\SETpl[nil]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    怎麼辦\..\..\.. 必須要想辦法逃走！
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    \{小婊子！ 放飯了！
+\narr他們在門口放了些食物。
+
+Rogue/PlaceFood_no
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    小婊子！ 偷懶是沒飯吃的！
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    想食物就想辦法娛樂我們！
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]    對不起... 我會努力的...
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    是個女的？
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    太棒了！ 我好久沒有碰女人了！
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    小婊子！我來了♥
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    先讓我上！最近森林裡都沒好東西可以玩！悶死了！
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    別弄死了，其他人也要用阿。
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    有什麼關係，再抓就有了。
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    這小婊子有夠欠揍的！
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    揍她！
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    \{喂！ 醒來！
+
+DavidBorn/Unknow
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]大衛.彭：\C[0]    現在我是這裡的老大。
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    但這些人根本管不住，一定要有個對象讓他們霸凌。
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    不然什麼時候把我幹掉都不知道...
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,8]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    \..\..\.. 就是妳了！
+\CamCT\m[shy]\PRF\c[6]洛娜：\c[0]    我？
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    聽我的，不然妳就得死！
+\CamCT\m[fear]\PRF\c[6]洛娜：\c[0]    呃.....
+
+DavidBorn/Day_dialog
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    聽我的，不然妳沒食物吃。
+\CamCT\m[sad]\PRF\c[6]洛娜：\c[0]    嗚....
+
+GangBoss/Day_dialog
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]野盜：\C[0]    嘿，小婊子！
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]野盜：\C[0]    妳的責任就是負責娛樂我們。
+\CamCT\m[sad]\PRF\c[6]洛娜：\c[0]    嗚....
+
+Nap/Capture
+\narr他們搶走了洛娜的一切
+
+############################################################## COMMON DIALOG
+
+Cooker/Begin0
+\CBid[-1,20]\c[0]廚師：\c[0]    它們吃我們，我們吃它們，這很公平！
+
+Female/Qmsg0
+是你們不好！
+
+Female/Qmsg1
+我沒有錯...
+
+Female/Qmsg2
+聖徒保佑我...
+
+############################################################## Whore Job
+
+DavidBorn/JOB_Start_Whore
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    有很多人很久沒上過女人了。
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    妳去服務那些白癡吧。
+\CamCT\m[fear]\PRF\c[6]洛娜：\c[0]    我.... \optB[等等,好吧]
+
+GangBoss/JOB_Start_Whore
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]野盜：\C[0]    大家的雞雞都快發霉了！
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]野盜：\C[0]    嘿！小婊子！ 給我去服務那些雜碎！
+\CamCT\m[fear]\PRF\c[6]洛娜：\c[0]    我.... \optB[等等,好吧]
+
+HevWhore/begin1
+\CamMP[Cam1]\C[4]野盜：\C[0]    好想玩女人啊....
+\CamMP[GuardA]\C[4]野盜：\C[0]    我想打炮.... 我想打炮....
+
+HevWhore/begin2
+\CamCT\board[提示]
+慰安四名以上的野盜。
+不然今天沒食物吃。
+
+############################################################## GangRape
+
+DavidBorn/JOB_Start_GangRape
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    他們都在跟我反映這裡太無聊了。
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    妳去幫那些白癡們找點樂子。
+\CamCT\m[fear]\PRF\c[6]洛娜：\c[0]    我.... \optB[等等,好吧]
+
+GangBoss/JOB_Start_GangRape
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]野盜：\C[0]    喂！ 婊子！ 過來！
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]野盜：\C[0]    走！ 去外面表演些好玩的給我們看！
+\CamCT\m[fear]\PRF\c[6]洛娜：\c[0]    我.... \optB[等等,好吧]
+
+HevGang/begin0
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    小婊子！ 表演些好玩的給我們看！
+
+HevGang/begin1
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    一點都不好玩！玩點別的！
+
+HevGang/begin_encore
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    再來！
+
+HevGang/opt
+\m[shy]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚...\optD[跳舞<r=HiddenOPT0>,說笑話<r=HiddenOPT1>]
+
+HevGang/Dance
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我跳隻舞給大家看吧....
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    好啊！
+
+HevGang/Dance_success_1
+\narr 落娜跳得不錯，觀眾們給與了讚賞
+
+HevGang/Dance_success_2
+\narr 落娜的舞蹈非常淫穢，讓觀眾們都硬了起來。
+
+HevGang/Dance_failed0
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    爛透了！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚...
+
+HevGang/Dance_failed1
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    妳到底會不會跳啊！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚...
+
+HevGang/Dance_failed2
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    爛透了！ 超沒用的！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚...
+
+HevGang/Joke0
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我說個笑話給大家聽吧？
+\SETpl[raper_group]\Lshake\C[4]野盜：\C[0]    不好笑的話會被逞罰呦！
+
+HevGang/Joke1
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..
+
+HevGang/Joke2_0
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    為什麼男人在床上都喜歡當領導？因為他們都有...大權在握！
+
+HevGang/Joke2_1
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    騎士為何不喜歡去妓女那裡？因為他們回家後，老婆會用長矛"刺穿"他們。
+
+HevGang/Joke2_2
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    一個人問另一個人：“你有沒有試過肛交？”另一個人回答說：“當然，我每天都在試！我每次上廁所都要努力試著不拉屎在馬桶外面。
+
+HevGang/Joke_success
+\narr\..\..\..
+\narr洛娜說了低俗下流的笑話。
+\narr觀眾的反應似乎還不錯。
+
+HevGang/Joke_failed
+\narr\..\..\..
+\narr洛娜說了一些冷笑話。
+\narr觀眾的反應似乎不太好。
+
+HevGang/score_success_full
+\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    受不了了，我的屌超硬的。
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    你們...
+\SETpr[raper3]\Rshake\C[4]野盜：\C[0]    別怕，這次我們不會弄痛妳的，真的。
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚...
+
+HevGang/score_success
+\SETpl[raper2]\Lshake\prf\C[4]野盜：\C[0]    哈哈，真是有趣。
+\SETpr[raper3]\Rshake\plf\C[4]野盜：\C[0]    阿，我肚子餓了。
+\SETpr[raper1]\Lshake\prf\C[4]野盜：\C[0]    散會散會。
+\SETpr[raper2]\Rshake\plf\C[4]野盜：\C[0]    這些東西拿去，這是給妳的獎賞。
+
+HevGang/score_failed
+\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    沒意思，直接上她！這才是真正的樂趣！
+\CBct[6]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我...我好怕...我會痛的...
+\SETpr[raper3]\Rshake\C[4]野盜：\C[0]    別擔心，我們不會太用力的。
+\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    我先來！她是我的了！
+\SETpr[raper1]\Rshake\C[4]野盜：\C[0]    你們都閉嘴！該我先上了！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚...
+
+############################################################## Doggy
+
+DavidBorn/JOB_Start_Doggy
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]大衛.彭：\C[0]    有白癡說他有新的娛樂，而且指定要妳。
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    去幫那些白癡吧。
+\CamCT\m[fear]\PRF\c[6]洛娜：\c[0]    我.... \optB[等等,好吧]
+
+GangBoss/JOB_Start_Doggy
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]野盜：\C[0]    喂！ 婊子！ 過來！
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]野盜：\C[0]    外面有人找妳！
+\CamCT\m[fear]\PRF\c[6]洛娜：\c[0]    我.... \optB[等等,好吧]
+
+
+HevDoggy/begin1_fristTime0
+\SETpl[raper2]\Lshake\prf\C[4]野盜：\C[0]    喂！ 我的狗狗已經忍很久了，把妳的屁股抬高讓牠上！
+\SETpl[raper2]\Lshake\prf\C[4]野盜：\C[0]    妳今天就是負責跟狗做！ 婊子跟狗配剛剛好！
+
+HevDoggy/begin1_fristTime1
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    跟狗？！ 不要！ 這不可以！
+\SETpl[raper2]\Lshake\prf\C[4]野盜：\C[0]    妳敢說不？ 小婊子不想活了？
+\SETpl[raper_group]\Lshake\prf\C[4]野盜：\C[0]    敢反抗？ 殺了她！
+\SETpr[raper_group]\Rshake\plf\C[4]野盜：\C[0]    對！ 宰了她！ 做成兩腳羊！
+\CamCT\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    不要！ 不要殺我！ 我照做就是了！
+\SETpl[raper2]\Lshake\prf\C[4]野盜：\C[0]    看看小婊子怕成那樣.. 真可憐阿。
+
+HevDoggy/begin1_fristTime2
+\SETpl[raper_group]\Lshake\prf\C[4]野盜：\C[0]    哈哈哈哈！ 小狗狗！ 快上阿！
+
+HevDoggy/begin1_fristTime1_nymph
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    跟狗？！ 我？
+\SETpl[raper2]\Lshake\prf\C[4]野盜：\C[0]    妳敢說不？ 小婊子不想活了？
+\CamCT\m[lewd]\plf\Rshake\c[6]洛娜：\c[0]    不.... 我覺得我辦的到。
+
+HevDoggy/begin1
+\SETpl[raper2]\Lshake\prf\C[4]野盜：\C[0]    喂！ 婊子！ 我的狗兒雞雞很癢！ 快來幫牠！
+\CamCT\m[shy]\plf\PRF\c[6]洛娜：\c[0]    又是狗嗎...
+\CamCT\m[sad]\plf\PRF\c[6]洛娜：\c[0]    好吧.... 至少牠比那些壞人還溫柔一點。
+
+HevDoggy/begin2
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    小狗狗，乖乖呦。
+\CamMP[Doggy]\BonMP[Doggy,5]\SndLib[dogAtk]\m[shy]\plf\PRF\c[6]狗狗：\c[0]    吼吼！
+\CamCT\m[shy]\plf\PRF\c[6]洛娜：\c[0]    不要怕.. 姐姐會很溫柔的。
+\CamMP[Doggy]\BonMP[Doggy,6]\SndLib[dogSpot]\m[shy]\plf\PRF\c[6]狗狗：\c[0]    ㄠ！ㄠ！
+
+HevDoggy/begin3
+\CamCT\narr洛娜握住了狗狗的陰莖，
+並引導它進入自己的屄穴。
+\SndLib[dogAtk]\narrOFF\SETpl[raper_group]\Lshake\prf\C[4]野盜：\C[0]    哈哈！ 你們看，這小母狗超好笑的！
+
+HevDoggy/begin4
+\SndLib[dogAtk]\SETpl[raper_group]\Lshake\prf\C[4]野盜：\C[0]    哈哈哈！ 小母狗加油啊！
+
+HevDoggy/begin5
+\c[6]洛娜：\c[0]    \..\..\..\.. 嗚嗚...
+
+HevDoggy/begin6
+\c[6]洛娜：\c[0]    乖呦.... 不要弄痛我...
+\SndLib[dogAtk]\narr狗狗開始抽插洛娜，牠似乎也覺得洛娜是隻母狗。
+
+HevDoggy/begin7
+\c[6]洛娜：\c[0]    吚阿啊...
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]狗狗：\c[0]    吼吼！
+\c[6]洛娜：\c[0]    嗚咿..
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]狗狗：\c[0]    汪汪！
+
+HevDoggy/begin8
+\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    加油啊！ 我的狗兒！
+\SETpr[raper_group]\Rshake\C[4]野盜：\C[0]    肏翻她！ 肏死這支賤母狗！
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]狗狗：\c[0]    汪汪！
+\narr狗狗覺得這隻母狗讓牠很舒服，
+牠開始加速抽插。
+
+HevDoggy/begin9
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]狗狗：\c[0]    吼吼！
+\c[6]洛娜：\c[0]    吚阿啊...
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]狗狗：\c[0]    汪汪！
+
+HevDoggy/begin9_1
+\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    真是笑死我了。
+\SETpr[raper3]\Rshake\C[4]野盜：\C[0]    是啊，從來沒見過這麼好笑的。
+
+HevDoggy/begin10
+\SndLib[dogHurt]\c[6]洛娜：\c[0]    咦？！
+
+HevDoggy/begin11
+\SndLib[dogHurt]\c[6]洛娜：\c[0]    \{吚啊啊啊！
+
+HevDoggy/begin12
+\SndLib[dogHurt]\c[6]洛娜：\c[0]    \{好大！ 不行！
+
+HevDoggy/begin13
+\SndLib[dogHurt]\c[6]洛娜：\c[0]    \{啊啊啊！
+
+HevDoggy/begin14
+\SndLib[dogHurt]\narr狗狗的陰莖脹起來了，整個陰道都被陰莖球塞滿了。
+\SndLib[dogHurt]它卡住了洛娜的恥骨，狗狗似乎要射精了。
+
+HevDoggy/begin14_1
+\narrOFF\m[p5health_damage]\SETpl[raper2]\Lshake\Rshake\C[4]野盜：\C[0]    我的好狗兒要去了，小母狗接好了！
+\SETpr[raper2]\Rshake\C[4]野盜：\C[0]    不行了！ 我笑到肚子痛了。
+
+HevDoggy/begin15
+\narrOFF\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    喂！ 狗兒子！ 去這邊！ 那裏有肉吃！
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]狗狗：\c[0]    吼吼！
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]狗狗：\c[0]    汪汪！
+
+HevDoggy/begin16
+\c[6]洛娜：\c[0]    \{咦？！
+
+HevDoggy/begin17
+\c[6]洛娜：\c[0]    \{不要拉？！ 不要動啊！！
+
+HevDoggy/begin18
+\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    放過我... 不要再動了....
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]狗狗：\c[0]    吼吼！
+\narrOFF\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    去那邊！ 那裡也有肉吃！
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]狗狗：\c[0]    汪汪！
+\SETpr[raper1]\Rshake\C[4]野盜：\C[0]    哈哈哈... 受不了了... 我真的快笑死了。
+
+HevDoggy/begin19
+\m[p5health_damage]\c[6]洛娜：\c[0]    \{吚啊啊啊！
+\m[p5health_damage]\c[6]洛娜：\c[0]    \{嗚啊啊！
+
+HevDoggy/begin20
+\c[6]洛娜：\c[0]    嗚嗚.....
+
+HevDoggy/begin21
+\c[6]洛娜：\c[0]    哈啊...
+
+HevDoggy/begin22
+\c[6]洛娜：\c[0]    .....
+
+HevDoggy/begin23
+\narr狗狗的射精持續了很久很久。
+洛娜在野盜們的嘲笑聲中失去了意識。
+\narrOFF\SETpl[raper2]\Lshake\C[4]野盜：\C[0]    她昏死了，現在怎麼玩？
+\SETpr[raper3]\Rshake\C[4]野盜：\C[0]    看誰要誰帶回去吧。
+
+

@@ -1,0 +1,172 @@
+#Plainview
+NFL_OrkCamp2/OvermapEnter
+\cg[map_GobRaider]\m[confused]페란웨이 마을, 사냥감 집결지\optB[그만둔다,들어간다]
+
+#############################################################################  NFLOrkindCmap2 rapeloop and quest
+
+NFL_OrkCamp2/Rapeloop_FoodOffer
+\SndLib[sound_goblin_roar]\narr놈들은 육변기의 이전 공연에 흡족해하며, 보상이라며 썩은 먹거리를 내던졌다……
+
+NFL_OrkCamp2/Rapeloop_show_end
+\cg[event_OrkindGonnaRape]\SndLib[sound_goblin_roar]\narr조롱과 야유 속에서 억지 공연을 마친 육변기.
+\narr놈들은 배를 잡고 낄낄대며 만족스러워했고, 썩어 문드러진 고깃조각을 상이라며 던져주었다……
+
+NFL_OrkCamp2/Rapeloop_show_no
+\narr그러나 육변기가 거부하자, 놈들의 웃음은 순식간에 분노로 바뀌었다. 
+\narr“말 안 듣는 고깃덩이는, 제대로 길들여 줘야지……” 놈들의 잔혹한 눈빛이 빛났다……
+
+NFL_OrkCamp2/RapeLoopNonCapture
+\m[fear]\narr결국 놈들은 로나를 붙잡아 끌어냈다. 가냘픈 몸을 짐승 취급하며, 육변기라 부르며 비웃는다.
+\m[terror]\narr덩치 큰 두목이 중얼거렸다. “원래라면 전부 후방으로 보내, 육변기로 굴려야 해.  ……하지만 이렇게 약한 건, 그냥 여기서 즐겨도 되겠지.” 그 말에 주위의 웃음소리가 퍼져나갔다……
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_None_WakeBegin
+\narr놈들은 실컷 희롱을 즐긴 뒤, 지친 듯 헐떡이며 몸을 늘어뜨렸다. 그리고 만족스러운 표정으로 한동안 푹 쉬기로 했다.
+
+#########################
+
+NFL_OrkCamp2/Rapeloop_DryCropse_WakeBegin
+\narr\..\..\..\ph\SndLib[sys_equip]……헐떡임과 함께, 무언가가 로나 옆으로 질질 끌려왔다.
+
+NFL_OrkCamp2/Rapeloop_DryCropse0
+\ph\cg[event_DryCropse]\SndLib[sound_ZombieSpot]끊임없이 신음을 흘리는 인간 돼지. 눈·코·입과 팔다리가 잘려 나가, 가냘픈 몸통만 남은 끔찍한 잔해였다……
+
+NFL_OrkCamp2/Rapeloop_DryCropse1
+\ph\cg[event_WartsDick]기괴하게도, 온몸은 말라비틀어졌는데 기생충으로 들끓는 자지만은 부풀어 오르며 이질적으로 꿈틀거렸다……
+
+NFL_OrkCamp2/Rapeloop_DryCropse2
+\ph\cg[event_OrkindGonnaRape]\SndLib[Breathing_Goblin]로나는 놈들의 고함을 알아듣지 못했지만, 그 시선과 손짓이 무엇을 요구하는지는 분명했다. 그 더러운 자지 위에 올라타라는 명령…… 고깃덩이에 불과한 육변기가 감히 거부할 수 있겠는가?  
+\CBct[8]\m[fear]말대로 할 것인가?\optD[억지로 탄다<t=5>,절대로 거부한다!]
+
+NFL_OrkCamp2/Rapeloop_DryCropse2_yes
+\narr\SndLib[sound_chcg_chupa]로나는 숨을 죽인 채 그 위로 기어올랐다…… 놈들의 포효와 비웃음 속에서, 그 더러운 고깃기둥이 천천히 그녀 안으로 파고들었다……
+
+NFL_OrkCamp2/Rapeloop_DryCropse3
+\m[p5_shame]\narr조롱과 굴욕 속에서 몸부림치던 인간 돼지, 그리고 억지로 맞춰 주는 육변기. 결국 그 괴물 같은 자지는 터져 나오려 하고 있었다……
+
+NFL_OrkCamp2/DailyJob_select_DryCropse
+\narr놈들은 이제 육변기에게 구석에 버려진 그 고깃덩이와 교미 쇼를 시키려 했다.
+\narr거부한다면 먹을 것은커녕, 잔혹한 형벌이 기다리고 있었다……
+
+NFL_OrkCamp2/DailyJob_select_Abom
+\narr또 다른 날, 놈들은 명령했다. “더 많은 탈것을 낳아라.” 그 말은 곧, 강제로 배 속을 채워 짐승 같은 새끼를 품으라는 의미였다……
+
+NFL_OrkCamp2/DailyJob_select_ThrowRock
+\narr심심하다는 이유만으로, 놈들은 장난삼아 돌을 던지며 희롱했다……
+
+NFL_OrkCamp2/DailyJob_end_ThrowRock
+\narr지칠 때까지 갖고 논 후, 그들은 바닥에 기어 다니는 육변기의 처참한 꼴을 보며 흡족하게 웃어댔다……
+
+#############################################################################  NFL_MerCamp_SaveDog 1
+
+MercJoin/leader_Buddy0
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Rshake\c[4]용병 대장：\c[0] 그래, 바로 여기다. 우리가 그와 헤어진 곳이 여기야.
+
+MercJoin/leader_Buddy1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 너! 네가 앞장서!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?! 왜 하필 나야?!
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 넌 \c[6]시바리스\c[0] 출신 아니었나? 집에 돌아가고 싶다면서?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 아까 캠프에서 네 실력을 다 봤어. 네가 선두에 서는 게 맞다, 확실해.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 으... 알았어...
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그래서, 네가 찾는 사람은... 어떻게 생겼는데?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 창백한 얼굴에, 코와 귀가 유난히 큰 녀석이지.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 흰 피부에? 큰 코랑 큰 귀라...?
+\CBct[2]\m[serious]\plf\PRF\c[6]로나：\c[0] 좋아, 따라와.
+
+MercLeader/CompCommand0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 분명 아직 살아있다!
+
+MercLeader/CompCommand1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 서둘러라!
+
+MercLeader/CompCommand_foundTGT0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 지금 당장 빠져나가야 한다.
+
+MercLeader/CompCommand_foundTGT1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 여긴 너무 위험하다, 더는 머물 수 없다.
+
+MercJoin/spear
+\CBid[-1,20]\c[4]창병：\c[0] 미쳤군! 우리가 왜 또 이런 데를 기어들어와야 하는 거야?!
+
+MercJoin/bow
+\CBid[-1,20]\c[4]궁수：\c[0] 그 자식을 구한다고? 허, 목숨 걸어가며 할 짓은 아니지.
+
+MercJoin/priest
+\CBid[-1,20]\c[4]성직자：\c[0] 신께서도 이런 어리석음은 축복하지 않으실 거다…
+
+MercLeader/Rg38_1
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 여긴… 대체 무슨 곳이지…？
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 먹잇감을 모아둔 도살장… 아니면, 오염된 가짜 신을 떠받드는 제단이다.
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 잠자코 숨 죽여라. 한순간의 소리도 죽음을 부를 수 있다.
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] …무서워… 숨도 못 쉬겠어…
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 조용! ……무언가 온다, 대비해라!
+
+MercLeader/Rg38_2
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcQuestion]\SETpr[OrcSlaveMaster_normal]\Rshake\c[4]오크：\c[0] 그르르르… 으르렁…！
+
+MercLeader/Rg38_3
+\CBmp[SlaveMaster,20]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_sad]\Rshake\c[4]오크：\c[0] \{크어어어어—!!
+
+MercLeader/Rg38_4
+\CBmp[Priest,2]\SndLib[sound_OrcHurt]\SETpl[OrcPriest]\Lshake\c[4]오크：\c[0] 크르르르!! 크오오오오!!
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcSkill]\SETpr[OrcSlaveMaster_normal]\Rshake\prf\c[4]오크：\c[0] 그르르르… 으우우우?!
+
+MercLeader/Rg38_5
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]오크：\c[0] \{크어어어어어!!!!?!!
+
+MercLeader/Rg38_6
+\CBmp[SlaveMaster,6]\SndLib[sound_OrcHurt]\SETpr[OrcSlaveMaster_sad]\plf\Rshake\c[4]오크：\c[0] 으오오오옭?! 크아아앙!!
+
+MercLeader/Rg38_7
+\CBmp[Priest,5]\SndLib[sound_OrcSpot]\SETpl[OrcPriest]\Lshake\prf\c[4]오크：\c[0] \{쿠어어어어어어——!!!!
+
+MercLeader/Rg38_8
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 뭐… 마… 뭐라고…?
+\CBmp[MerLeader,2]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 됐어, 얼른 가자…
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] \..\..\..
+
+############################################################################# Found Doggy
+
+Doggy/KIA
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 안 돼――!!! 젠장, 내 \c[6]라이프\c[0]――!!!
+
+Doggy/alive_begin1
+\CBid[-1,6]\SndLib[dogDead]\c[4]개：\c[0] \..\..\..
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] \c[6]라이프\c[0]！！！
+\narr 불쌍한 강아지의 뒷구멍은 잔뜩 벌어져 있었고...
+\narr 성인 남자의 팔까지 들어갈 만큼 무자비하게 찢겨 있었다...
+\narrOFF\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 가엾은 \c[6]라이프\c[0]… 괜찮다, 내가 왔다.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어… 그러니까…
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 이게… 구하려던 그… 강아지 맞나요?
+\CBmp[MerLeader,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 그래! 무슨 불만 있나?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아… 아니요, 전혀요.
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 가자. 이 비참한 곳은 이제 떠나야지…
+\CBid[-1,20]\SndLib[dogDead]\plf\prf\c[4]개：\c[0] \..\..\..
+
+Doggy/alive_brd
+\board[동료 구출]
+목표：용병 대장의 동료를 구출한다.
+보상：큰 동전 1개
+의뢰인：용병 대장
+수행가능횟수：1회
+용병 대장과 그의 개를 데리고 이곳을 빠져나가라.
+
+Doggy/QuestDone1
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 좋아, 이제 여기까지 오면 안전하다.
+
+Doggy/QuestDone2
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오?
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 영웅이여, 네 이름을 남겨다오. 
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... \c[4]로나\c[0].
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] \c[4]로나\c[0], 그렇군. 
+\CBmp[MerLeader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 잘 기억하겠다. \c[6]라이프\c[0]도 네게 감사하고 있지. 다시 만날 날이 있을 거다.
+
+MercLeader/QmsgDoggyKIA0
+라이프——아아아!!!
+
+MercLeader/QmsgDoggyKIA1
+내… 내 개야!!!
+
+MercLeader/QmsgDoggyKIA2
+안 돼… 죽었어!!!

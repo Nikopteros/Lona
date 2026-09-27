@@ -1,0 +1,119 @@
+thisMap/OvermapEnter
+\m[confused]Western bridgehead, mercenary camp.\optB[never mind,enter]
+
+##################################################
+
+RelayEMP/Welcome_nude_or_slave
+\CBid[-1,5]\m[confused]\prf\c[4]\prf\c[4]Post employee：\c[0]    Someone is coming! The woman ran away!
+
+RelayEMP/Welcome_women
+\CBid[-1,4]\m[confused]\prf\c[4]\prf\c[4]Post employee：\c[0]    Um? Is it a woman? Where do you want to go?
+
+RelayEMP/Welcome0
+\CBid[-1,20]\m[confused]\prf\c[4]\prf\c[4]Post employee：\c[0]    Yo! Where are you going?
+
+RelayEMP/Welcome1
+\CBid[-1,20]\m[confused]\prf\c[4]\prf\c[4]Post employee：\c[0]    Are you the new Adizai? Where to?
+
+RelayEMP/Welcome2
+\CBid[-1,20]\m[confused]\prf\c[4]\prf\c[4]Post employee：\c[0]    We never thought about giving up our home.
+
+Sergeant/Begin1
+adsadadasdasd
+
+#do not translate this file until MAP is done
+################################################# BatHouse
+
+BatHouseMan/Begin_b4BatQu0
+\CBid[-1,20]\SETpl[NFLBB_merchant_angry]\Lshake\c[4]商人：\c[0]    該死的！真他媽該死的！
+
+BatHouseMan/Begin_b4BatQu1
+\CBid[-1,20]\SETpl[NFLBB_merchant_angry]\Lshake\c[4]商人：\c[0]    完蛋了，一切都完了。
+
+BatHouseMan/Begin_afterBatQu0
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\c[4]商人：\c[0]    還有什麼事？
+
+BatHouseMan/Begin_afterBatQu1
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\c[4]商人：\c[0]    我還有事要忙。
+
+BatHouseMan/opt_Bat
+蝙蝠
+
+BatHouseMan/opt_about
+怎麼了
+
+BatHouseMan/opt_Quest
+我可以幫上忙
+
+BatHouseMan/opt_Report
+處理完了
+
+BatHouseMan/opt_reward
+回報
+
+BatHouseMan/opt_about_ans
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    嗯？這裡發生了什麼？
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    我們的團隊接單去抓一大堆看起來像蝙蝠的怪東西。
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]商人：\c[0]    結果因為某個蠢貨亂搞，那些王八蛋全逃出來了，還把整個倉庫搞得一團糟。
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    現在牠們把倉庫當成自己的巢穴了，我找來的幫手也全都變成牠們的食物。
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]商人：\c[0]    倉庫現在整個被封鎖，看樣子我得請一整隊強大的傭兵才能搞定。
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    這怎麼可能啊？這筆單要是沒完成，我就只能去當奴隸了！完蛋了啦！
+
+BatHouseMan/opt_bat_ans0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    蝙蝠？
+
+BatHouseMan/opt_bat_ans1_PassedChk
+\CBid[-1,8]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    妳\..\..\..
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]商人：\c[0]    好吧，就告訴妳吧。
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    諾爾鎮那邊的大人物，好像對這些黑霧生物有某種需求。
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]商人：\c[0]    就連那群綠色的類獸人也要，對，他們還要求抓活的。
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    對綠皮來說，是越大隻越好。聽說能拿來當什麼拷問道具，還是食物之類的。
+\CBid[-1,20]\SETpl[NFLBB_merchant_sad]\Lshake\prf\c[4]商人：\c[0]    至於那些蝙蝠……好像能用來解決諾爾鎮的治安問題？
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    上面的大人物還真會玩，至少我是完全想不出他們到底打算幹嘛。
+
+BatHouseMan/opt_about_ans_TooWeak
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\prf\c[4]商人：\c[0]    該死的奴隸，妳問太多了！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚...
+
+BatHouseMan/opt_Quest_ans0
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我可以幫上忙？也許？
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\prf\c[4]商人：\c[0]    憑妳？
+\CBid[-1,8]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[NFLBB_merchant_happy]\Lshake\prf\c[4]商人：\c[0]    好吧，我還掏得出點錢。妳要是覺得行，就他媽給我上。
+\CBid[-1,20]\SETpl[NFLBB_merchant_confused]\Lshake\prf\c[4]商人：\c[0]    不過說清楚，妳要是把命丟在裡頭，可別回頭來找我哭爹喊娘。
+
+BatHouseMan/opt_Quest_ans_TooWeak
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\prf\c[4]商人：\c[0]    憑妳？妳打算用什麼殺死魔物？妳的屄嗎？
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚...
+
+BatHouseMan/opt_Quest_ans0_optYes
+\CBct[20]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    好！就交給我吧！
+
+BatHouseMan/opt_Quest_ans0_optNo
+\CBct[8]\m[shy]]\plf\PRF\c[6]洛娜：\c[0]    呃...還是算了吧。
+
+BatHouseMan/BatQU_board
+\board[幫助貨商]
+目標：摧毀倉庫內的巢穴
+報酬：大銅幣4
+委託主：西部橋頭堡，蝙蝠供貨商
+期限：單次
+供貨商的貨物們暴走了，它們將倉庫當成了它們的新家。
+消滅它們，消滅這些不聽話的貨物！
+
+BatHouseMan/NFL_BridgeBunkerBat_QUprog0
+\CBid[-1,5]\SETpl[NFLBB_merchant_angry]\Lshake\c[4]商人：\c[0]    所以妳搞定了嗎？
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...還沒。
+
+BatHouseMan/NFL_BridgeBunkerBat_QUprog2
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...我完成了，大概吧。
+\CBid[-1,20]\SETpl[NFLBB_merchant_happy]\Lshake\prf\c[4]商人：\c[0]    什麼？ 妳做到了？
+\CBid[-1,20]\SETpl[NFLBB_merchant_happy]\Lshake\prf\c[4]商人：\c[0]    我進去看看。
+
+BatHouseMan/NFL_BridgeBunkerBat_QUprog3_reward
+\CBid[-1,3]\SETpl[NFLBB_merchant_happy]\Lshake\c[4]商人：\c[0]    了不起！妳做到了。
+\CBid[-1,4]\SETpl[NFLBB_merchant_happy]\Lshake\c[4]商人：\c[0]    這是說好的傭金，也許之後還用得著妳。
+
+BatHouse/QuestDone
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    呼...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    這些應該就是全部的巢穴了...

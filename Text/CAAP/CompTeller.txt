@@ -1,0 +1,345 @@
+########################################
+GodCTalk/begin1
+\CBmp[teller,8]\c[4]Adivina：\C[0]    -Al final\..\..\..\..
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\c[4]Adivina：\C[0]    Así es exactamente como sucedió todo.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]    Entonceees, una niñiita te derribóóó... Yyyy organizóóó todo esto?
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Sí, la pequeña crece demasiado rápido.
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Adivina：\C[0]    Todo esto suena increíble, pero en realidad es solo una coincidencia.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]    ¿Coooinccidencia? ¿¿Túúú lo llamaas aaesto UNA COOINCIDENCIA?
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Adivina：\C[0]    Es la verdad. Si realmente hubiera querido arruinarlo todo a propósito, no habrías tenido tiempo de reaccionar. Los desastres no se habrían limitado solo a esta isla.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]    Bueeeno... Teee creooo...
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Lo aprecio.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]    Peero túúú debes pagaaar y compensaaar el daññño por loo ocurrido. La próóóxima línea narrativa serááá escrita y controlada por mííí.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    *Suspiro* Está bien, acepto.
+
+GodCTalk/begin2
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Adivina：\C[0]    Una vez que recupere por completo mis fuerzas, me aseguraré de que mis encantadores hijos y descendientes regresen.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    No tendrás que preocuparte por nada más.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]    Jaa-ja-ja jaaaaa...~
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Adivina：\C[0]    ¿Hmmm?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]    ¡¡JAAA-JAA-JAAAAAaa...!!!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Adivina：\C[0]    ¿De qué te ríes?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]    ¿Una chica te golpeó y logró escapar?
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Adivina：\C[0]    ¿Y-y? ¿Y qué?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Desconocido：\C[0]   ¡Me reeeiré de esta hisstoria duuurante muuucho tiempo! ¡Jajajaaa...!
+
+GodCTalk/begin3
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prh\c[4]Adivina：\C[0]    \..\..\..¡Tss! ¡Imbécil!
+
+unused/unused
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Matón：\C[0]    Siempre me da un poco de lástima el jefe cuando hacemos esto.
+\SETpl[TellerNormal]\Lshake\prf\c[4]Aisha：\C[0]    Tú no dirás nada, yo no diré nada. Lo que él no sabe, no le hará daño, ¿verdad?
+
+#######################################Teller TG
+
+GodCTalk2/begin0
+\CBmp[DedOne,20]\SETpl[TellerEyeClosed]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]   ¡¡ESTOOO NO ES MI GUIÓÓÓN! ¡¡HICIMOS UN TRATADO!! TOOODO DEBE SEGUIIIR LO QUE YO ESCRIBIIÍ.
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Aisha：\C[0]    ¡Maldita sea! ¡Eres el peor jugador con el que he tenido que jugar!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Aisha：\C[0]    ¿No recuerdas lo que pasó en nuestra última partida para satisfacer tu estúpida "gran aventura" y tu personaje sobrepotenciado y asqueroso?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]    ¡La Justiciaaa llegó y salvoóó al mundo! ¡Fue una aaventuraaa grandioosa!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Aisha：\C[0]    ¡Exacto! Tú y tus estúpidos secuaces casi destruyen el universo y arruinaron casi todo.
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Bruja del Mar：\C[0]    Mmmm.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]    ¡Graaacias a MI increíííble poder y fuerzza, el mundo sigue buscando la Justicia y la paz!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Aisha：\C[0]    ¡EXACTO! Tuve que corregir tu estúpida trama de fantasía sobrepotenciada y convertirla en un mundo normal y vivo para que pudieras disfrutarlo.
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Bruja del Mar：\C[0]    Hmmm.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]    ¡¡NOOO-OOOO! ¡¡YO NO ESTOOY DE ACUERDO!! ¡¡TÚ NO DEBES CAMBIIAR MI TEMA Y MI HISTORIA!!
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]    ¡¡Este es el sentiido de mi histooria!! ¡Desde el inicio hasta el desarrollo, el giro y el final!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Aisha：\C[0]    ¡Tu alma podrida ni siquiera entiende lo que son el cambio y el desarrollo de personajes! ¡Es solo otra historia de "Mary Sue"!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Bruja del Mar：\C[0]    Ejem.....
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Aisha：\C[0]    ¡Una trama de drama de venganza no puede escribirse así! Si no se corrige adecuadamente, tu historia será conocida como la peor jamás escrita.
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]    ¡Imposible! ¿No vees que el mundo todavía adora al Santo?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]    ¡El mundo ANHELA grandes aventuras! ¡Las historias del Santo se encuentran por todo el mundo!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Aisha：\C[0]    Hmmmf. ¿Realmente fuiste y preguntaste a la gente cómo se sentía?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Justicia：\C[0]    ¡La Justicia NO PUEDE ser cuestionada!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Bruja del Mar：\C[0]    Déjame ver...
+
+GodCTalk2/begin1
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Bruja del Mar：\C[0]    \..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]Bruja del Mar：\C[0]    Hmmm\..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]Bruja del Mar：\C[0]    Mmmm\..\..\.. Grrr\..\..\..
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\c[4]Bruja del Mar：\C[0]    ¡¿Qué MIERDA estoy leyendo?!
+
+#######################################Teller HEV
+
+TellerSakaGBoss/begin1
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Matón：\C[0]    Ahora siempre sentiré lástima por el jefe.
+\SETpl[TellerNormal]\Lshake\prf\c[4]Aisha：\C[0]    Si ambos guardamos silencio, nadie lo sabrá, ¿verdad?
+
+TellerSakaGBoss/hCG01
+\c[4]Aisha：\C[0]    ¡¡OHH! ♥\n ¡¡Tu polla es taaan grande!! ♥ ¡Ji-ji~ ♥
+\c[4]Matón：\C[0]    Claro que es grande.
+
+TellerSakaGBoss/hCG02
+\c[4]Aisha：\C[0]    Este olor es taaan fuerte, ¿cuándo fue la última vez que te duchaste? ♥
+
+TellerSakaGBoss/hCG03
+\c[4]Aisha：\C[0]    Déjame limpiarla con mi boquita... ♥
+
+TellerSakaGBoss/hCG04
+\c[4]Matón：\C[0]    ¡Oh síí! ♥
+
+TellerSakaGBoss/hCG05
+\c[4]Matón：\C[0]    Ah... ♥
+
+TellerSakaGBoss/hCG06
+\c[4]Matón：\C[0]    ¡¡Sigueee! ¡Increíble!
+
+TellerSakaGBoss/hCG07
+\c[4]Matón：\C[0]    Demasiado potente... ¡Se siente como si varias mujeres la estuvieran lamiendo al mismo tiempo!
+
+TellerSakaGBoss/hCG08
+\c[4]Matón：\C[0]    Maldición... Uuuf, qué estás haciendo...
+
+TellerSakaGBoss/hCG09
+\c[4]Matón：\C[0]    ¡¡OHHH! No puedo... ¡Es demasiado!
+
+TellerSakaGBoss/hCG10
+\c[4]Matón：\C[0]    ¡Ya estoy a punto de correrme, me corro!
+
+TellerSakaGBoss/hCG11
+\c[4]Matón：\C[0]    ¡¡Ooooh!! ¡¡Chúpala!! ¡¡Me voy a correr!!
+
+TellerSakaGBoss/hCG12
+\c[4]Matón：\C[0]    ¡¡AAAAARGH!!!
+
+TellerSakaGBoss/hCG13
+\c[4]Matón：\C[0]    Hnnngh...
+
+TellerSakaGBoss/hCG14
+\c[4]Matón：\C[0]    Ahhh...
+
+TellerSakaGBoss/hCG15
+\c[4]Matón：\C[0]    Fuuf\..\.. Fuff\..\..\..
+
+TellerSakaGBoss/hCG16
+\c[4]Aisha：\C[0]    Ji-ji ♥ Te comportas tan rudo... Pero te corres tan rápido ♥
+
+TellerSakaGBoss/hCG17
+\c[4]Matón：\C[0]    Noo, ¡es que tu garganta es demasiado buena para follar!
+
+TellerSakaGBoss/hCG18
+\c[4]Aisha：\C[0]    Jeje~ ♥ ¡Espera! Aún no he probado tu polla dentro...
+
+TellerSakaGBoss/hCG19
+\c[4]Matón：\C[0]    ¡Pronto eso no será un problema!
+
+#######################################Teller HEV2
+
+GoldenBarHev/SadJew0
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]Asistente：\C[0]    Usted debe ser... ¿el Comerciante del Este?
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Comerciante：\C[0]    ¡SÍ-sí-sí! ¡Soy yo! ¡Soy yo!
+\CBmp[SadJew,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Comerciante：\C[0]    Me dedico a... el apoyo moral y la caridad, los tiempos actuales exigen que todos trabajemos juntos en esta isla.
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Comerciante：\C[0]    Para ayudar al Santo a repeler a los invasores, invertir... donar una pequeña suma de dinero no es nada.
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]Asistente：\C[0]    ¿La gente de Oriente Medio cree en el Santo? ¿No adoran todos a una ramera como su profeta? ¿Por qué deberíamos hacer negocios con quienes rezan a un dios falso?
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Comerciante：\C[0]    ¡Oh, NOO-no-no! ¡Yo-yo creo! ¡Creo en el Santo, igual que ustedes!
+\CBmp[SadJew,3]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Comerciante：\C[0]    \cg[event_Coins]\SND[SE/Chain_move01.ogg] Esta suma debería ser suficiente para que reconsideren. Ordeno-... humildemente les pido que me permitan una audiencia con \c[6]Lord Milo\C[0], por favor.
+\cgoff\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Asistente：\C[0]    ¡¿Eso es todo?! ¿Me estás menospreciando?
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Asistente：\C[0]    Escuche con atención, no lo repetiré, señor. Lord Milo es un hombre muy ocupado, solo recibe a quienes tienen una invitación.
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Comerciante：\C[0]    Les ofrezco una suma tan grande, si me dan una oportunidad, para...
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Asistente：\C[0]    -¡MALDITA SEA, ¿CUÁNTAS VECES TENGO QUE REPETÍRTELO?!!
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Asistente：\C[0]    ¡Lord Milo no tiene tiempo para nadie, especialmente para \c[6]sucios monos del desierto\C[0] como usted! ¡Lárguese, AHORA MISMO!
+\CBmp[SadJew,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Comerciante：\C[0]    B-Bien, está bien... ¡Puedo esperar! Esperaré pacientemente aquí hasta que Milo tenga tiempo-!
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Asistente：\C[0]    -¡FUERA!
+
+GoldenBarHev/SadJewMsg0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Comerciante：\C[0]    ¿Alguien ha visto a mi esposa?
+
+GoldenBarHev/SadJewMsg1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Comerciante：\C[0]    Dijo que me ayudaría con los negocios. ¡Mi dulce y amorosa ama de casa seguro lo haría bien!
+
+GoldenBarHev/SadJewMsg2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Comerciante：\C[0]    *Suspiro*... Ay, vey, cuánto tiempo sin sentir su amor... ¿Y por qué siempre estoy tan ocupado?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Comerciante：\C[0]    Pero estoy seguro de que me perdonará, como siempre.
+
+GoldenBarHev/begin1
+\SndLib[sound_MaleWarriorDed]\c[4]Kumer A：\C[0]    ¡¡UUUHHH! ¡¡AHHH! ¡¡UNNGGGGGHHHH!!!!
+\SndLib[sound_MaleWarriorDed]\c[4]Kumer B：\C[0]    Extrañaba tanto el apretado coñito de Aisha.
+\SndLib[sound_MaleWarriorDed]\c[4]Kumer C：\C[0]    Escuché que te casaste recientemente, estaba tan preocupada de no volver a verte.
+
+GoldenBarHev/HevItSelf01
+\c[4]Aisha：\C[0]    ¡Tontos muchachos!~ *Hmmf*... ¿Cómo podría siquiera pensar en dejar a alguno de ustedes?
+
+GoldenBarHev/HevItSelf02
+\c[4]Kumer D：\C[0]    ¿Por qué todavía no es mi turno? ¡Quiero jugar con Mamita!
+
+GoldenBarHev/HevItSelf03
+\c[4]Kumer E：\C[0]    ¡El cuerpo de Aisha huele tan bien! ♥ ¡Yo también quiero follarla! ♥
+
+GoldenBarHev/HevItSelf04
+\c[4]Aisha：\C[0]    Por favor, no se preocupen, todos son buenos chicos. Y todos los buenos chicos recibirán...~ ♥
+
+GoldenBarHev/HevItSelf05
+\c[4]Kumer C：\C[0]    ¡N-no puedo más! ¡Se siente como si el coño de Aisha envolviera mi polla con cien lengüitas y la lamiera!
+
+GoldenBarHev/HevItSelf06
+\SndLib[sound_MaleWarriorDed]\c[4]Kumer C：\C[0]    ¡¡ME VOY A C-CORRER!!
+
+GoldenBarHev/HevItSelf07
+\c[4]Aisha：\C[0]    ¡Correos! ♥ ¡Vamos a corrernos todos juntos!~ ♥ ¡Déjenme tragar toda su leche!~ ♥
+
+GoldenBarHev/HevItSelf08
+\SndLib[sound_MaleWarriorDed]\c[4]Kumer A：\C[0]    ¡¡UUUHHHHHHHH!!!
+
+GoldenBarHev/HevItSelf09
+\SndLib[sound_MaleWarriorDed]\c[4]Kumer B：\C[0]    ¡¡AAAAHHHH!!!
+
+GoldenBarHev/HevItSelf10
+\SndLib[sound_MaleWarriorDed]\c[4]Kumer C：\C[0]    ¡¡HMMMFGHHH!!!
+
+GoldenBarHev/HevItSelf11
+\c[4]Aisha：\C[0]    Oh... Fueron simplemente maravillosos.~
+
+GoldenBarHev/End
+\c[4]Kumer：\C[0]    ¡Maldición...! ¡DEJEN DE TOCAR LA PUERTA! ¡ESTÁ OCUPADO!
+\m[flirty]\c[6]Lona：\C[0]    Uf.... Lo siento...
+
+####################################################################### DFCultistquestline
+
+Df_TellerSide/NoneElseNotDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]Adivina：\C[0]    Vamos, tú puedes.
+
+Df_TellerSide/NoneElseDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]Adivina：\C[0]    Ve, nos volveremos a encontrar en el futuro.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emmm.... ¿Bien?
+
+Df_TellerSide/0to1_1
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\c[4]Adivina：\C[0]    Lona, al fin apareciste. Te he estado esperando mucho tiempo.
+
+Df_TellerSide/0to1_2_know
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿La Adivina del Comercio del Este? ¿Qué haces aquí?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Adivina：\C[0]    ¿¡TÍIIIAAAA...!?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    E-eh... ¿Señorita Adivina?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Uf... Olvídalo.
+
+Df_TellerSide/0to1_2_Unknow
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    E-eh... ¿Nos conocemos? ¿Quién eres?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Soy quien lo sabe todo sobre ti, hasta el más mínimo detalle.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Y seré quien guíe tu alma hacia su destino.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Eh... ¿En serio?
+
+Df_TellerSide/0to1_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Entonces, ¿por qué querías verme?
+
+Df_TellerSide/1to2_0_0
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Matarás a alguien por mí...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡YO!? ¿¡MATAR A ALGUIEN!?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0]    Sí, exactamente. Matar a alguien.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¿P-Por qué yo? ¿Por qué debería hacer eso por ti?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Porque necesitas dinero.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Quieres escapar de esta isla aterradora, y necesitas dinero para huir...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Dinero.....
+
+Df_TellerSide/1to2_0_1
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Quién es? ¿Por qué quieres matarlo?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0]    Son mentirosos malvados.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Adoran a una diosa oscura y antigua a la que no se debe adorar en el lugar o momento equivocados.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Eh... ¿De qué estás hablando? No entiendo...
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0]    Fueron víctimas de la Niebla Negra, como tú.
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0]    Pero en lugar de temerla, glorifican la Niebla Negra...
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    El Culto de la \c[6]Madre Fertilidad\C[0] son aquellos que adoran a la Niebla Negra que mató a tu familia y amigos.
+
+Df_TellerSide/1to2_1
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Yo......
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Debes matar a su chamán. Llevará una cabeza de cerdo y se hace llamar... *Suspiro* \c[4]Cabeza de Cerdo\C[0].
+\plf\..\..\..
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Adivina：\C[0]    Tss\..\..\.. ¡Es tan irritante! ¡Estoy harta! ¡Un montón de monos estúpidos!
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Adivina：\C[0]    ¿Qué clase de diosa omnisciente y poderosa querría ser representada y adorada por alguien que se hace llamar "Cabeza de Cerdo"?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Adivina：\C[0]    Adorar a semejante insignificancia solo traería vergüenza a la diosa, ¿no es así?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    .....
+
+Df_TellerSide/1to2_1_BRD
+\board[Eliminar a los Mentirosos]
+Tarea：Mata a \c[4]Cabeza de Cerdo：\C[0]
+Recompensa：Moneda de Oro x1\i[581]
+Cliente：Adivina
+Repetible：Una vez
+Ve a la Cueva Acuática y mata al chamán de la Madre Fertilidad, \c[4]Cabeza de Cerdo\C[0].
+
+Df_TellerSide/1to2_2_Yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Está bien, lo haré.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Pero ¿qué relación tiene este culto contigo?
+\CBid[-1,8]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Adivina：\C[0]    No importa, al final todos somos humanos.
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]Adivina：\C[0]    Humanos que desean resolver esta catástrofe lo antes posible.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Mmmm... Vale. Si no quieres decirme la razón, no pasa nada.
+
+Df_TellerSide/1to2_2_No
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Olvídalo, estás pidiéndole a la persona equivocada.
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Está bien, tarde o temprano volverás a mí.
+
+Df_TellerSide/PriestDead
+\CBid[-1,0]\c[4]Cabeza de Cerdo：\C[0]    ¡NO! ¡M-Madre Fertilidad! No debiste... abandonarme...!
+
+Df_TellerSide/3to4_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Hmmm.... ¿Parece que Cabeza de Cerdo está muerto?
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]Adivina：\C[0]    Simplemente maravilloso. Repites exactamente lo que fue predicho.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Predicho...? ¿Exactamente?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    No importa. ¿No te dije que podrías hacerlo?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]   ¿Oh? ¿Debería alegrarme por eso?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0]    Por qué no, deberías estar feliz.
+\CBid[-1,20]\CBmp[0]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Toma, estoy segura de que te serán útiles en el futuro.
+
+Df_TellerSide/3to4_1
+\CBct[3]\m[triumph]\plf\PRF\c[6]Lona：\C[0]    ¡¡Gracias!!!
+
+############################################################################################## Rebirth to abom
+
+AbomRebirth/opt_rebirth
+Mi niño
+
+AbomRebirth/beginIfAbom
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0] Mi precioso niño, ¿qué es lo que buscas?
+
+AbomRebirth/ans_rebirth0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0] Emm... ¿"Tu" niño?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0] Lo sé todo sobre ti hasta el más mínimo detalle...
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0] Desde los dolores físicos y enfermedades hasta las pesadillas que te persiguen cada día.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0] ¿En serio? He estado enferma toda mi vida.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Adivina：\C[0] Como soy tu madre, puedo ayudarte.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0] Ehh... ¿Cómo exactamente quieres ayudarme?
+
+AbomRebirth/ans_rebirth1
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Entonces... ¿Algo pasó?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0] He despertado el gran potencial que dormía dentro de ti.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Adivina：\C[0] Estas nuevas habilidades seguramente te ayudarán en tus aventuras.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0] Ve, mi precioso niño.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0] Emm... ¿Gracias?
+
+############################################################################################## DancerSet
+
+HappyTrader/DancerSet0_waifuIsntThere
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\c[4]Mercader：\C[0] ¡Oy vey! ¿Dónde está mi esposa?!
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\c[4]Mercader：\C[0] Ohhh... ¿No estaba aquí hace unos minutos?
+
+HappyTrader/DancerSet0
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] Hmmm...
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Mercader：\C[0] ¡Oh! Disculpe, señorita... ¿Cómo puedo estafa- Ejem servirla?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Encontré este paquete viajando por los alrededores. ¿Parece ser suyo?
+
+HappyTrader/DancerSet1
+\CBid[-1,8]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Mercader：\C[0] !.!.!.!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Mercader：\C[0] ¡Maravilloso! Ese es efectivamente el paquete perdido. ¡Esos ladrones podridos tuvieron el descaro de robar mi mercancía!
+
+HappyTrader/DancerSet2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Mercader：\C[0] ¡Ah! Mi querido amor, estos trajes son realmente hermosos, ¿no crees?
+
+HappyTrader/DancerSet3
+\CBmp[teller,3]\SETpr[TellerNormal]\plf\Rshake\c[4]Adivina：\C[0] Oh-ho...... ¿Esto es un regalo para mí?
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Mercader：\C[0] ......¿Regalo?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Mercader：\C[0] ¡SÍÍÍ, OH SÍ, SÍ!! Todos estos regalos son para ti, son maravillosos, ¿no? ¿Te gustan?
+\CBmp[teller,5]\SETpr[TellerConfused]\plf\Rshake\c[4]Adivina：\C[0] ...¿Me estás regalando varios conjuntos idénticos de "regalos"?
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Mercader：\C[0] ¡Sí! ¡E-Exacto! ¡Regalos!
+\CBmp[teller,8]\SETpr[TellerAngry]\plf\Rshake\c[4]Adivina：\C[0] .....
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Mercader：\C[0] .....
+
+HappyTrader/DancerSet4
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\c[4]Mercader：\C[0] Oy vey....
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Ejem...
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Mercader：\C[0] ¡Ah! ¡Por favor, discúlpeme, señorita!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Mercader：\C[0] Este hermoso vestido fue traído desde mi país a Sybaris. Lamentablemente, hubo algún tipo de rebelión durante el transporte.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Mercader：\C[0] Ahora los nobles de la Mansión Rosendo no quieren esta ropa. Qué desperdicio...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0] ¿Oh, sí?
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Mercader：\C[0] ......
+\CBid[-1,9]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Mercader：\C[0] !!!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Mercader：\C[0] ¡Como muestra de gratitud, estoy dispuesto a venderle este traje con descuento!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Mercader：\C[0] ¿Qué dice? ¿Quiere echar un vistazo?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Hmmm... Lo pensaré.

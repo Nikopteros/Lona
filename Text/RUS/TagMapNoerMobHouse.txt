@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+Чёрный Рынок \optB[Отмена,Войти]
+
+Camp/MobSeen
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Кто здесь?!
+\m[shocked]\Rshake\C[6]Лона：\C[0]    О, нет!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Эй, она ещё спит.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Я устал сегодня, давай начнём с этой.
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Не убивай их только, это ведь товары.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Да мне похуй, кто они.
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    А чё с этой мелкой сучкой?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Хочет быть товаром? Она этого добьётся!
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Эта мелкая девка хочет убежать?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Ничему не учится, да?
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    \{Эй! Подъём!
+
+Rogue/NapTorture2
+\m[tired]\C[6]Лона：\C[0]    Аа?
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Взять её! Я хочу увидеть, на что способно её тело!
+\m[terror]\C[6]Лона：\C[0]    Нет! Стойте!
+
+Rogue/NapTorture3
+\m[pain]\C[6]Лона：\C[0]    \{Больно! Больно!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Что, не весело? Давай поиграем по другому.
+\m[bereft]\C[6]Лона：\C[0]    \{Простите меня! Пощадите! Мне очень жаль!
+
+Rogue/NapRape_withSta_NoFight2
+\m[sad]\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Соси ♥ Соси сучка ♥
+
+Rogue/NapRape1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Хехе, ммм.
+
+Rogue/NapRape3_0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Вперёд! Помой моего дружка!
+
+Rogue/NapRape3_1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Нет времени спать! Обслужи нас!
+
+Rogue/NapRape3_2
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Девочки обязаны раздвигать ноги для меня!!
+
+Doors/LockReset
+\narr Замки со всех дверей были сняты.
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    \{Время жрать! Сучки!
+
+Rogue/PlaceFood1
+\narr Они положили немного еды у двери.
+
+###################################################################### LOCKED DOOR
+
+Door/FristTime
+\m[confused]\c[6]Лона：\C[0]    Замок на двери выглядят хлипким.
+\m[normal]\c[6]Лона：\C[0]    Если немного постараться, то его можно сломать.
+
+Door/Unlocked
+Сломанная дверца клетки. \optB[Отмена,Попробовать вскрыть]
+
+Door/UnlockedOUT
+\m[confused]\c[6]Лона：\C[0]    Замок на двери выглядят хлипким.
+\m[normal]\c[6]Лона：\C[0]    Открыть снаружи его будет легко. \optB[Не тратить силы,Сломать]
+
+Door/UnlockedOUT_win
+\m[pleased]\c[6]Лона：\C[0]    Получилось!
+
+Door/TryBrokeOpt1
+\m[confused]Грубо изготовленный дверной замок. \optB[Не тратить силы,Сломать<r=HiddenOPT1>]
+
+Door/TryBrokeOpt2
+\m[normal]Сколько мне потратить сил? \optB[Не тратить силы,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,120<r=HiddenOPT4>]
+
+Door/TryBroke_still
+\m[pleased]\c[6]Лона：\C[0]    Кажется, что дужка немного расшатывается.
+\m[tired]\c[6]Лона：\C[0]    Но... Уууфф... Я с-слишком устала...
+
+##################################################################### begin
+
+Sold/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]Бандит：\C[0]    Мелкая сучка! Вставай! Тут покупатели!
+\m[hurt]\c[6]Лона：\C[0]    *Хнык*...
+
+Sold/begin2
+\SETpl[MobHumanCommoner]\Lshake\BonMP[Raper1,4]\C[4]Бандит：\C[0]    Да, вот она. Прошло немного времени с её поимки, она ещё свеженькая!
+\c[4]Торговец：\C[0]    ........
+\CamMP[Trader]\c[4]Торговец：\C[0]    И это то, что вы мне хотели мне показать?
+\BonMP[Trader,5]\c[4]Торговец：\C[0]    Она просто лежит, что ещё она может сделать?
+
+Sold/begin3
+\CamMP[Raper1]\BonMP[Raper1,6]\C[4]Бандит：\C[0]    Не-не! Ты посмотри внимательнее, она живая и здоровая!
+\CamMP[Trader]\BonMP[Trader,7]\c[4]Торговец：\C[0]    Ты это серьёзно? Один медяк! Не больше!
+
+Sold/begin4
+\CamMP[Raper1]\BonMP[Raper1,5]\C[4]Бандит：\C[0]    \}Да ну нах!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    \}Ладно, лучше чем ничего. \{Продано!
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Бандит：\C[0]    Выжечь ей метку! Выпускайте!
+
+Sold/begin5
+\m[p5shame]\Rshake\c[6]Лона：\C[0]    Эй... что вы делаете!?
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Бандит：\C[0]    Не двигайся! Только хуже себе сделаешь!
+\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    Нет! Отпустите меня!
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Бандит：\C[0]    Я сказал, не двигайся! Замри!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Лона：\C[0]    \{Аай ай ай ай!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона：\C[0]    \{АААайй!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Хахах! Так весело! Кричи громче!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона：\C[0]    \{Ааайй!
+
+Sold/begin7_MinerPrison
+\ph\m[sad]\cgoff\narr Лону продали в Кристальную Шахту.
+
+Sold/begin7_NoerBackStreet
+\ph\m[sad]\cgoff\narr Лону продали в Закоулки.
+
+Sold/begin7_DoomFortressR
+\ph\m[sad]\cgoff\narr Лону продали в Бараки Твердыни Рока.
+
+Sold/begin7_FishTownR
+\ph\m[sad]\cgoff\narr Лону продали в Рыбополис.
+
+Sold/begin7_NoerArenaB1
+\ph\m[sad]\cgoff\narr Лону продали на Арену.
+
+Sold/begin7_NorthFL_INN
+\ph\m[sad]\cgoff\narr Лону продали в Прибрежную Крепость.
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Веди себя хорошо, пока мы решаем, куда тебя деть.
+\m[sad]\plf\PRF\c[6]Лона：\C[0]    Что же мне делать...
+\m[fear]\plf\PRF\c[6]Лона：\C[0]    Теперь я рабыня....
+\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    \{Нет! Я не хочу быть рабыней!
+

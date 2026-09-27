@@ -1,0 +1,610 @@
+thisMap/Enter
+Arena de Noer
+
+firstTime/begin_1
+\CBct[2]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Esto es la Arena de Noertown?
+\CBct[20]\m[flirty]\PRF\c[6]Lona: \C[0]    Había oído hablar de ella, pero pensé que estaba cerrada.
+
+firstTime/begin_2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Tú! ¡Eh, tú!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡Ah! ¿Quién? ¿Yo?
+
+firstTime/begin_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Em... ¿Qué es esto?
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Tómalo! ¡Es algo muy valioso!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¿Em?
+
+firstTime/begin_4
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Listo! ¡Tú sola lo entenderás!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Este cupón de apuesta ni siquiera es mío! ¡Fuera de mi camino!
+
+firstTime/begin_5
+\CBct[8]\m[confused]\plh\PRF\c[6]Lona: \C[0]    Qué......
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]Jugador A: \C[0]    Qué vergüenza, es una niña.
+\CBmp[Talker2,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\plf\PRF\c[4]Jugador B: \C[0]    Sí, ¿cómo un novato como \c[6]Bestia Salvaje\C[0] puede enfrentarse al \c[4]Coloso del Este\C[0]?
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]Jugador A: \C[0]    ¡Debemos ver esta pelea! Alguien va a recibir una paliza segura.
+
+firstTime/firstMatch0
+\CBct[20]\m[shocked]\PRF\c[6]Lona: \C[0]    ¡Wow! ¿Por qué hay tanta gente aquí?
+\CBct[20]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Qué tiene de interesante? ¿No es solo un grupo de gente peleando entre sí?
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿No pasa eso todos los días fuera de los muros de la ciudad?
+
+firstTime/firstMatch1
+\CBmp[Reporter,0]\ph\....\....\....
+\CBmp[Reporter,0]\ph ¡Ahora!
+\CBmp[Reporter,0]\ph ¡Démosle la bienvenida!
+\CBmp[Reporter,0]\ph ¡Vuestro favorito!
+\CBmp[Reporter,0]\SndLib[ClapGroup]\ph ¡El Príncipe de la Arena de Noer! \{\c[6]Darrell: \C[0]!
+\CBmp[Reporter,0]\m[shy]\PRF\c[6]Lona: \C[0]    ¿\c[4]Darrell\C[0]? ¡No puede ser! ¡Debo ver a \c[4]Darrell\C[0]!
+
+firstTime/firstMatch2
+\CBmp[Reporter,20]\c[4]Darrell: \C[0]    ¡Vine, vi, vencí!
+\CBmp[Reporter,20]\c[4]Darrell: \C[0]    ¡Vuestro Príncipe favorito ha llegado!
+
+firstTime/firstMatch3
+\CBmp[Reporter,0]\m[lewd]\plf\PRF\c[6]Lona: \C[0]    ¡Es \c[4]Darrell\C[0]! ♥ ¡Es realmente él! ♥
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\prf\c[4]Darrell: \C[0]    ¡Gracias por vuestro entusiasmo! Este pequeño baile es solo un aperitivo para vosotros.
+
+firstTime/firstMatch4
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Darrell: \C[0]    ¡Y ahora, permítanme presentar a los luchadores de hoy!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡El primer contendiente!!
+
+firstTime/firstMatch5
+\CBmp[LeftArenaE,19]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Nuestro campeón, \c[6]Coloso del Este\C[0]!
+
+firstTime/firstMatch6
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Darrell: \C[0]    Y su oponente es......
+\CBmp[RightArenaE,19]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Alguien llamado \c[6]Bestia Salvaje\C[0], potenciado con drogas!!!
+
+firstTime/firstMatch7
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Es este en quien aposté?
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Nadie aplaude? Pero parece muy fuerte, ¿no?
+\SndLib[BadClap]\CBct[8]\m[triumph]\PRF\c[6]Lona: \C[0]    ¡Bueno, yo lo haré! \..\..\..
+\SndLib[ppl_BooGroup]\CBmp[PPLg1,20]\m[shy]\PRF\c[6]Lona: \C[0]    ¿Hurra?
+\SndLib[ppl_BooGroup]\CBmp[PPLg2,20]\m[sad]\PRF\c[6]Lona: \C[0]    ¿Yu-ju?
+\SndLib[ppl_BooGroup]\CBmp[PlayerWatch,20]\m[sad]\PRF\c[6]Lona: \C[0]    ¿Hurra-hurra?
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    Meh\..\..\..
+
+firstTime/firstMatch8
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    Como sabéis, \c[6]Coloso del Este\C[0] ha ganado 15 peleas seguidas!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Lleva el título del luchador más fuerte de estas tierras! ¡Y su lema! \c[6]Los hombres de verdad no dependen de armas\C[0]!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Ha derrotado a cada oponente solo con sus manos desnudas!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    Así que, el retador fue entrenado por la \c[6]Compañía Comercial Rosendo\C[0]. ¿Podrá derrotar al invencible \c[6]Coloso del Este\C[0]?
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Pronto lo sabremos!
+
+firstTime/firstMatch9
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Contendientes, a sus posiciones!
+
+firstTime/firstMatch10
+\SndLib[MaleWarriorFatSpot]\CBmp[EastColossus,20]\c[4]Coloso del Este: \C[0]    ¡Ja! ¿Crees que ganar una pelea depende solo del tamaño y los músculos? Ni en broma. ¡Romperé ese concepto con mis puños en tu cara!
+\SndLib[MaleWarriorGruntSpot]\CBmp[SexBeast,8]\c[4]Bestia Salvaje: \C[0]    ......
+
+firstTime/firstMatch11
+\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Que comience la pelea!
+
+firstTime/firstMatch12
+\CBmp[EastColossus,20]\c[4]Coloso del Este: \C[0]    ¡Ja! ¡Qué agradable! Eres como mi pera favorita.
+\CBmp[SexBeast,8]\c[4]Bestia Salvaje: \C[0]    RRAAARRRGGHH......
+
+firstTime/firstMatch13
+\CBmp[EastColossus,20]\c[4]Coloso del Este: \C[0]    ¡Demasiado lento!
+
+firstTime/firstMatch14
+\CBmp[EastColossus,20]\c[4]Coloso del Este: \C[0]    ¿Y esto es todo lo que puedes hacer?
+
+firstTime/firstMatch15
+\CBmp[EastColossus,20]\c[4]Coloso del Este: \C[0]    ¿Lo veis? \c[6]Darrell\C[0]! No importa cuántos mierdasoponentes me pongáis, ¡los haré pedazos a todos!
+\CBmp[EastColossus,20]\c[4]Coloso del Este: \C[0]    ¡Compraré la libertad de mi familia! ¡Los sacaré de esta maldita isla con mis ganancias!
+
+firstTime/firstMatch16
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Pero la pelea aún no ha terminado!
+\CBmp[EastColossus,1]\c[4]Coloso del Este: \C[0]    ¡¿Qué?!
+
+firstTime/firstMatch17
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    Resistir ese golpe... Imposible...
+\CBmp[SexBeast,8]\c[4]Bestia Salvaje: \C[0]    Hou-hou-hou....
+
+firstTime/firstMatch18
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    Eh... Espera un segundo...
+\CBmp[SexBeast,8]\c[4]Bestia Salvaje: \C[0]    Hou-hou-hou-hou....
+
+firstTime/firstMatch19
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¡Alto! ¡Detened la pelea!
+\CBmp[SexBeast,8]\c[4]Bestia Salvaje: \C[0]    Hou-hou-hou-hou-hou....
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¡Me rindo! ¡Acepto la derrota! ¡No me mates!
+
+firstTime/firstMatch20
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¿Por qué no te detienes? ¡Te lo suplico, no quiero morir!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Lamentablemente, no entiende a los humanos! ¡Debes rendirte con gestos!
+\plf\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¡¿Qué gestos?!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡De rodillas! ¡Inclínate ante él!
+
+firstTime/firstMatch21
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ...¿A-Así...?
+\CBmp[SexBeast,8]\c[4]Bestia Salvaje: \C[0]    ...... ♥
+
+firstTime/firstMatch22
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¡Alto! ¿Qué estás haciendo?!
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]Darrell: \C[0]    \c[6]Bestia Salvaje\C[0] tiene ese apodo porque, gracias a la alquimia y pociones, tiene una resistencia sexual increíble, ¡pudiendo violar fácilmente a los más débiles!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Su mente solo está enfocada en vencer oponentes! ¡Y violarlos!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Queridos espectadores! ¡Comienza el segundo acto del espectáculo! ¡El ganador puede abusar del perdedor!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Y ahora! ¡Fóllalo! ¡Viola al \c[6]Coloso del Este\C[0]! ¡O-o-o-oh sí!
+
+firstTime/firstMatch22_1
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]Espectadores: \C[0]    ¡Violación! ¡Violación!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]Espectadores: \C[0]    ¡Violación! ¡Violación! ¡Violación!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]Espectadores: \C[0]    ¡Violación! ¡Violación! ¡Violación! ¡Violación!
+
+firstTime/firstMatch22_2
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¡Nooo! ¡Por favor, no estoy preparado para esto!
+
+firstTime/firstMatch23
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¡Nooo! ¡Mi culo! ¡Duele!
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    ¡No quiero embarazarme! ¡No quiero tener hijos!
+\CBmp[SexBeast,8]\c[4]Bestia Salvaje: \C[0]    ¡Hou-hou-hou-hou!!!
+
+firstTime/firstMatch23_1
+\CBmp[EastColossus,6]\c[4]Coloso del Este: \C[0]    \{¡¡¡UUUuuuAAAAaaAaaYYYyy!!!
+
+firstTime/firstMatch24
+\narr \....\....\....
+\narr \c[6]Bestia Salvaje\C[0] y \c[6]Coloso del Este\C[0] prolongaron mucho el segundo acto...
+\narr Todos sabemos que los hombres no pueden embarazarse...
+\narr Aunque\..\..\.. Parece que lo intentaron con ganas...
+
+firstTime/firstMatch25
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    \..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Entonces, ¿\c[4]Bestia Salvaje\C[0] ganó?
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    \..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Era realmente famoso, Darrell?
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    Me\..\..\..\m[shy] encantó ♥
+\CBct[4]\m[lewd]\PRF\c[6]Lona: \C[0]    Sería lindo poder ver shows así con mi mamá, estoy segura que le gustaría. ♥
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    \..\..\..\m[sad] Pero no están conmigo...
+\CBct[20]\m[serious]\Rshake\c[6]Lona: \C[0]    ¡Mierda! Bueno, ¡no es momento para deprimirse!
+
+firstTime/TakeReward1
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    Entonces... ¿Aquí es donde se cobran las apuestas?
+
+firstTime/TakeReward2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Eres tú! ¡Robaste mi cupón de apuesta!
+
+firstTime/TakeReward3
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¿Qué? Pero tú mismo...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Robaste mi cupón de apuesta! ¡Devuélvemelo ahora! \optD[Devolver cupón,¡Ladrona!<r=HiddenOPT1>]
+
+firstTime/TakeReward4_give0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¿Eh? ¿Qué?
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡O llamaré a la guardia! ¡Devuélveme mi cupón ahora!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Vaya...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Buena chica! ¡Las mujeres deben andar por los callejones y abrir las piernas si quieren ganar dinero!
+
+firstTime/TakeReward4_give1
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    \{¡Cállate!
+
+firstTime/TakeReward4_guard0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¡A-ah-ah!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡¿Qué?! ¡Dame mi cupón!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    O-oh... Guardia... Me están robando...
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡¿Qué?!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    \{¡¡¡Ayuda!!! ¡Robo!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Transeúnte: \C[0]    ¡Shhh!
+
+firstTime/TakeReward4_guard1
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guardia: \C[0]    ¿Qué pasa aquí?!
+
+firstTime/TakeReward4_guard2
+\CBmp[TricketGiver,20]\SETpr[AnonMale1]\PLF\prf\c[4]Transeúnte: \C[0]    ¡Maldición! ¡Te recordaré!
+
+firstTime/TakeReward4_guard3
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Sí, me recordará...
+
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+############################################################################################################################################## Tricket seller
+################################################################################ Arena Spec Event #####################################
+#### Cecily #####################################
+
+TicketSeller/CecilyShow_Gang
+¿Evento especial?
+
+TicketSeller/CecilyShow_Gang_begin0
+\CBid[-1,20]\prf\c[4]Empleado de venta de billetes：\c[0]    Hoy se juega un partido especial, patrocinado por la \c[6]Comercio Rudesind, Firma Rudesind\c[0]! ¡Es completamente gratis: entra y disfruta del espectáculo!
+
+TicketSeller/CecilyShow_Gang_begin1
+\CBid[-1,20]\prf\c[4]Empleado de venta de billetes：\c[0]    El partido gratuito patrocinado por la \c[6]Comercio Rudesind, Firma Rudesind\c[0] Está a punto de empezar, ¿qué esperas? ¡Entra!
+
+TicketSeller/CecilyShow_Gang_begin2
+\CBid[-1,20]\prf\c[4]Empleado de venta de billetes：\c[0]   El partido especial de hoy es gratuito para el público, gracias al generoso apoyo de \c[6]Comercio Rudesind, Firma Rudesind\c[0]! ¡No esperes, algo increíble está por comenzar!
+
+TicketSeller/CecilyShow_Gang_About1_typical
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ¿Un partido especial? ¿Qué clase de espectáculo es?
+
+TicketSeller/CecilyShow_Gang_About1_tsundere
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ¿Especial...? Tch, ¿de qué tan "especial" estamos hablando?
+
+TicketSeller/CecilyShow_Gang_About1_gloomy
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ¿Un partido especial...? No es peligroso, ¿verdad...?
+
+TicketSeller/CecilyShow_Gang_About1_slut
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ¿Eh? ¿Un espectáculo? Suena divertido. ¿Qué es?
+
+TicketSeller/CecilyShow_Gang_begin_talked
+\CBid[-1,20]\prf\c[4]Empleado de venta de billetes：\c[0]    ¿Qué esperas? ¡Ya empieza!
+
+TicketSeller/CecilyShow_Gang_end
+\CBid[-1,20]\prf\c[4]Empleado de venta de billetes：\c[0]    El evento de hoy está orgullosamente patrocinado por \c[6]Comercio de Rudesind, Rudesind Firm\c[0]—¡Muchas gracias por su generoso apoyo!
+
+TicketSeller/CecilyShow_Gang_cancel
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... pensándolo bien, quizá lo deje pasar.
+
+TicketSeller/CecilyShow_Gang_About2
+\CBid[-1,20]\prf\c[4]Empleado de venta de billetes：\c[0]    Una antigua noble ofrece un espectáculo en la arena. Participará en diversas actividades interactivas con varios hombres dentro.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?
+
+TicketSeller/CecilyShow_Gang_agree
+\CBct[8]\m[normal]\plf\PRF\c[6]Lona：\c[0]    ¿Gratis? Bueno, supongo que iré a echarle un vistazo.
+
+CecilyShow_Gang/show_start_begin1
+\{¡Buena gente de la ciudad! ¡Presten atención!
+
+CecilyShow_Gang/show_start_begin2
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Ahora, ¡que comience el partido especial!
+
+CecilyShow_Gang/show_start_begin3
+\c[4]Darneyl：\c[0]    Una muchacha que una vez fue noble de \c[6]Sybaris\c[0], armado con nada más que hierro y sangre... ¡se enfrenta a la inmundicia hecha carne!
+
+CecilyShow_Gang/show_start_begin3_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_normal]\plf\PRF\c[4]Cecily\c[0]    \...\...\...
+\SETpl[Reporter_shocked]\Lshake\prf\c[4]Darneyl：\c[0]    Y su oponente...\...\...
+
+CecilyShow_Gang/show_start_begin4
+\c[4]Darneyl：\c[0]    \{\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+
+CecilyShow_Gang/show_start_begin5
+\SETpl[Reporter_confused]\Lshake\c[4]Darneyl：\c[0]    ¿Es valentía... o locura? ¿El destino... o un preludio a la muerte?
+\SETpl[Reporter_normal]\Lshake\c[4]Darneyl：\c[0]    ——Esta es una prueba de gloria, una llama de fe... ¡y una fiesta para vosotros, nuestra multitud!
+\SETpl[Reporter_shocked]\Lshake\c[4]Darneyl：\c[0]    Prepara tus gritos y tus apuestas: ¡que comience la batalla!
+
+CecilyShow_Gang/show_start_begin6_0
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_fear]\plh\PRF\c[4]Cecily\c[0]    \...\...\...
+
+CecilyShow_Gang/show_start_begin6_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_shocked]\plh\PRF\c[4]Cecily\c[0]    \...\...\...
+
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+############################################################################################################################################## Tricket seller
+
+name/ArenaApes
+Banda de Pelaje Negro
+
+name/ArenaSwine
+Legión de Jabalí
+
+name/ArenaWildDog
+Tripulación de Port Hound
+
+name/ArenaSexBeast
+La Bestia Loca
+
+name/ArenaEastColossus
+El Coloso del Este
+
+name/ArenaFemdom
+La feminista
+
+name/ArenaOrkindBro
+Los hermanos de piel verde
+
+name/ArenaDeepTerror
+El terror de las profundidades marinas
+
+name/ArenaFailedAdv
+El aventurero incompetente
+
+name/ArenaTeamRBQ
+Gladiadores esclavos
+
+name/ArenaHoboDudes
+Guardianes de las alcantarillas
+
+TicketSeller/BasicOpt
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¡Bienvenida a la Arena de Noertown!
+
+TicketSeller/BasicOpt_bet
+Hacer apuesta
+
+TicketSeller/BasicOpt_about0
+\CBct[2]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Sí? ¿Pensé que este lugar estaba cerrado?
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¡Para nada! Los idiotas de clase baja no entienden, pero el resto capta la idea.
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¿Eres de \c[6]Síbaris\C[0]? ¿Ese lugar destruido hace unos meses?
+\CBct[8]\m[sad]\PRF\c[6]Lona: \C[0]    .....
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    Bueno, relájate. Todos tienen problemas hoy, pero las cosas mejorarán.
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¡Lo primero que hizo von Rosendo al llegar al poder fue ocuparse de la paz mental de la gente!
+\CBct[2]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Y qué tiene que ver la paz mental con una arena donde se matan entre sí? ¿No están prohibidos estos eventos?
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¿Y qué crees que quiere la gente que vive en armonía y paz? ¡Sangre! La gente es cruel y le gusta ver a otros sufrir más que ellos.
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    Ya sabes dónde estamos - esto es la \c[4]Isla Noer\C[0], cariño.
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    Piensa, ¿quién nos detendrá? ¿El Emperador? ¿Los santurrones?
+\CBct[8]\m[tired]\PRF\c[6]Lona: \C[0]    Oh....
+
+TicketSeller/BasicOpt_FighterList
+\board[Luchadores de Hoy]
+Contendiente 1: \c[4]#{$story_stats["HiddenOPT0"][0]}\C[0]
+Contendiente 2: \c[4]#{$story_stats["HiddenOPT1"][0]}\C[0]
+Contendiente 3: \c[4]#{$story_stats["HiddenOPT2"][0]}\C[0]
+Contendiente 4: \c[4]#{$story_stats["HiddenOPT3"][0]}\C[0]\n
+Contendiente 1: Multiplicador x\c[4]#{$story_stats["HiddenOPT0"][1]}：\C[0] a x\c[4]#{$story_stats["HiddenOPT0"][2]}\C[0]
+Contendiente 2: Multiplicador x\c[4]#{$story_stats["HiddenOPT1"][1]}：\C[0] a x\c[4]#{$story_stats["HiddenOPT1"][2]}\C[0]
+Contendiente 3: Multiplicador x\c[4]#{$story_stats["HiddenOPT2"][1]}：\C[0] a x\c[4]#{$story_stats["HiddenOPT2"][2]}\C[0]
+Contendiente 4: Multiplicador x\c[4]#{$story_stats["HiddenOPT3"][1]}：\C[0] a x\c[4]#{$story_stats["HiddenOPT3"][2]}\C[0]
+
+TicketSeller/BasicOpt_bet0
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¿En quién quieres apostar?
+
+TicketSeller/BasicOpt_bet1
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    La apuesta mínima es \c[4]#{$story_stats["HiddenOPT1"]}：\C[0] Puntos de Intercambio, máximo \c[4]#{$story_stats["HiddenOPT2"]}：\C[0] Puntos de Intercambio.
+
+TicketSeller/BasicOpt_bet2
+\narr Contendiente: \c[4]#{$story_stats["HiddenOPT1"]}：\C[0].\n Apuesta de \c[6]#{$story_stats["HiddenOPT2"]}\C[0] Puntos de Intercambio.\n Multiplicador \c[5]#{$story_stats["HiddenOPT3"]}\C[0] a \c[5]#{$story_stats["HiddenOPT4"]}\C[0].
+\narrOFF\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    La pelea está por comenzar, puedes entrar a la arena por cualquier lado.
+
+TicketSeller/BasicOpt_work0
+\CBct[20]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Hay algún trabajo para mí?
+\CBid[-1,2]\prf\c[4]Receptor de Apuestas: \C[0]    ¿Tú? Veamos... ¡Oh!
+\CBid[-1,2]\prf\c[4]Receptor de Apuestas: \C[0]    Justo necesitamos una mujer para las peleas femeninas. Las esclavas no dan pelea y el público se aburre.
+\CBid[-1,2]\prf\c[4]Receptor de Apuestas: \C[0]    Aquí el contrato.
+
+TicketSeller/BasicOpt_work1
+\board[Peleas Femeninas]
+Gana recompensa por participar y por vencer al oponente.
+El ganador obtiene un 50% extra.
+Cuanto más dure la pelea, mayor la recompensa.
+Tras ganar, reclama la recompensa con el Receptor de Apuestas.
+Tras perder, el pago es automático.
+
+TicketSeller/BasicOpt_work2
+\board[Peleas Femeninas]
+Los participantes son responsables de sus vidas. (Excepto esclavas)
+Debes sobrevivir para cobrar. (Excepto esclavas)
+¡Entretén al público!
+
+TicketSeller/BasicOpt_workAccept
+\SndLib[PenWrite]\CBct[20]\m[flirty]\PRF\c[6]Lona: \C[0]    Vale, acepto.
+\CBid[-1,2]\prf\c[4]Receptor de Apuestas: \C[0]    Muy bien, muy bien. Por tu aspecto, podrás aguantar un rato.
+\CBmp[EnterArena,19]\prf\c[4]Receptor de Apuestas: \C[0]    La entrada a la arena está por allá.
+\CBct[20]\m[confused]\PRF\c[6]Lona: \C[0]    ¿Oh?
+
+TicketSeller/PlayerMatchStart
+\CBid[-1,2]\prf\c[4]Receptor de Apuestas: \C[0]    El show está por empezar. ¿Lista para participar? ¡El contrato ya está firmado!
+\CBmp[EnterArena,19]\prf\c[4]Receptor de Apuestas: \C[0]    ¡Entra a la arena por la entrada lateral! ¡Rápido! Ya casi comienzan.
+
+TicketSeller/Started
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¡El show comienza, date prisa!
+\narr Contendiente: \c[4]#{$story_stats["HiddenOPT1"]}\C[0].\n Apuesta de \c[6]#{$story_stats["HiddenOPT2"]}\C[0] Puntos de Intercambio.\n Multiplicador \c[5]#{$story_stats["HiddenOPT3"]}\C[0] a \c[5]#{$story_stats["HiddenOPT0"]}\C[0].
+
+TicketSeller/WannaLeave
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    Si quieres irte, debes pagar \c[6]#{$story_stats["HiddenOPT4"]}\C[0] Puntos de Intercambio.
+
+TicketSeller/ItsDraw
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¿Empate? ¿El ganador se lleva todo? Raro.
+
+TicketSeller/YouLose
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¿Perdiste? ¡Apuesta más la próxima vez y recupera tus pérdidas!
+
+TicketSeller/StartedPayIdle
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    Veamos\..\..\..
+
+TicketSeller/StartedNotEnough
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¡No es suficiente! ¡Debes al menos \c[6]#{$story_stats["HiddenOPT4"]}\C[0] Puntos de Intercambio más!
+
+TicketSeller/StartedEnough
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    Perfecto, ahora puedes irte.
+
+TicketSeller/MatchReward0
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    ¿Ganaste? Qué suerte, ¡aquí está tu premio!
+
+TicketSeller/MatchReward1
+\CBct[20]\m[triumph]\Rshake\c[6]Lona: \C[0]    ¡Gracias!
+
+TicketSeller/MatchEnd
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    El show terminó por hoy. ¿Qué haces aquí todavía? ¡Vuelve mañana!
+\CBct[20]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Oh?
+
+TicketSeller/MatchStill
+\CBid[-1,20]\prf\c[4]Receptor de Apuestas: \C[0]    La pelea aún continúa. Podrías perderte algo si no vas ahora.
+
+############################################################################################################################################## Food seller
+
+FoodSeller/begin
+\CBid[-1,20]\prf\c[4]Vendedor de Bocadillos: \C[0]    ¿Qué combina perfecto con acero y sangre? ¡Bocadillos y cerveza, claro!
+
+FoodSeller/SlaveQmsg0
+¡Esclava apestosa!
+
+FoodSeller/SlaveQmsg1
+¡Largo de aquí!
+
+FoodSeller/SlaveQmsg2
+¡No es lugar para esclavas!
+
+############################################################################################################################################################## Fight Begin
+
+NewMatch/begin1
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Démosle la bienvenida a nuestros luchadores de hoy!
+
+NewMatch/begin2
+\CBmp[CenterPillar,0]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    \{¡Que comience la pelea!
+
+NewMatch/Draw
+\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Empate! ¡Nadie gana!
+
+NewMatch/WinnerIS
+\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Y tenemos un ganador!
+\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡\c[6]#{$story_stats["HiddenOPT0"]}\C[0] es el vencedor!!!!
+
+PlayerMatch/begin
+\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Démosle la bienvenida a nuestros luchadores de hoy!
+\SndLib[ppl_CheerGroup]\CBmp[FireR,0]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡El primer luchador es... \c[6]#{$story_stats["HiddenOPT0" ]}\C[0]!!!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Y el segundo... Una rata callejera desconocida!
+
+PlayerMatch/begin_IfSlave
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Esta rata callejera es una esclava, y solo tiene dos opciones!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Primero: aguantar hasta que se acabe el tiempo, y segundo: noquear a su oponente!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡O solo le espera la muerte!
+
+PlayerMatch/LostRngRape0
+\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Queridos espectadores! ¿Qué destino elegirán para el perdedor?
+
+PlayerMatch/LostRngRapeTorture
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]Espectadores: \C[0]    ¡Golpéala! ¡Destrúyela!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]Espectadores: \C[0]    ¡Fóllala! ¡Mátala! ¡Córtale la cabeza!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]Espectadores: \C[0]    ¡Cómela! ¡Quémala! ¡Violación! ¡Muerte!
+\CBct[8]\m[tired]\PRF\c[6]Lona: \C[0]    O-oh...
+
+PlayerMatch/LostRngRape1
+\ph\SndLib[ppl_CheerGroup]\c[4]Espectadores: \C[0]    ¡Violación! ¡Violación! ¡Violación! ¡Violación!
+
+PlayerMatch/LostRngRape2
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Queridos espectadores! ¡Agradezcamos a esta rata callejera por el entretenimiento que nos brindó!
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Queridos espectadores! ¡Honremos su memoria!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime0
+\SETpl[Reporter_confused]\Lshake\c[4]Darrell: \C[0]    ¡Queridos espectadores! ¡Esta rata callejera es una perezosa esclava! ¿Qué haremos con ella?\SndLib[ppl_BooGroup]
+\ph\SndLib[ppl_BooGroup]\c[4]Espectadores: \C[0]    \{¡Mátala! ¡Mátala! ¡Mátala! ¡Mátala!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime1
+\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Siguiendo vuestros deseos, queridos espectadores! \SndLib[ppl_CheerGroup]
+\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    \{¡Eh, chicos! ¡Suelten a los lobos! \SndLib[ppl_CheerGroup]
+\SndLib[dogSpot]\cg[map_WolfGroup].......
+
+PlayerMatch/win0
+\SETpl[Reporter_confused]\Lshake\c[4]Darrell: \C[0]    ¡Queridos espectadores! ¡Qué sorpresa!
+\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡La pequeña rata callejera gana esta pelea!
+
+PlayerMatch/win1_InTime
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    ¿Yo... gané?
+
+PlayerMatch/win1_OutTime
+\CBct[8]\m[sad]\PRF\c[6]Lona: \C[0]    Pero......
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    ¿El público no está de acuerdo?
+
+PlayerMatch/win2
+\narr Lona ganó y decide dejar este lugar sórdido.
+
+PlayerMatch/win2_slave
+\narr Lona ganó, pero la llevan de vuelta a la sala de esclavas.
+
+############################################################################################################################### SexBeast UniqueRape
+
+SexBeast/Lose0_0
+\CBct[20]\m[terror]\Rshake\c[6]Lona: \C[0]    ¡Me rindo! ¡No me matéis! ¡No quiero morir!
+
+SexBeast/Lose0_1
+\CBct[20]\m[terror]\Rshake\c[6]Lona: \C[0]    ¡No quiero morir! ¡Por favor!
+
+SexBeast/Lose0_2
+\CBct[20]\m[terror]\Rshake\c[6]Lona: \C[0]    ¡Dejadme! ¡Basta!
+
+SexBeast/Lose1
+\c[4]Bestia Salvaje: \C[0]    ¡Hou-hou-hou!
+
+SexBeast/Lose2
+\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Queridos espectadores! ¿Creéis que esto terminó? ¡Nuestro nuevo ganador, \c[4]Bestia Salvaje\C[0], no la dejará ir!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose2_1
+\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Sí! ¡Violación! ¡Bestia Salvaje viola a cada perdedor! ¡Incluso si su oponente tiene pene y huevos!
+
+SexBeast/Lose3
+\SETpl[Reporter_normal]\Lshake\c[4]Darrell: \C[0]    ¡Mirad! ¡Parece que \c[4]Bestia Salvaje\C[0] está a punto de correrse! ¿Podrá sobrevivir la pequeña rata callejera?!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose4
+\SETpl[Reporter_trumph]\Lshake\c[4]Darrell: \C[0]    ¡Oh-oh! ¡\c[4]Bestia Salvaje\C[0] aún no terminó! ¡Sigue aplastando a la pequeña rata con su enorme cuerpo!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose5
+\SETpl[Reporter_shocked]\Lshake\c[4]Darrell: \C[0]    ¡Y ahora parece que planea correrse en ella de nuevo! ¿Será suficiente para él?\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose6
+\SETpl[Reporter_confused]\Lshake\c[4]Darrell: \C[0]    Oh....
+
+SexBeast/Lose7
+\narr Bestia Salvaje sigue violando a Lona...
+\narr Todos los demás shows de hoy se cancelaron...
+
+
+############################################################################################################################################################## EXIT
+
+1fExit/Begin
+\SETpl[Mreg_pikeman] Frente a ti está la salida a la \C[4]Plaza del Coliseo\C[0]\n Hay guardias en la puerta \optB[Cancelar,Entrar,Colarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+1fExit/BetStill
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡No puedes irte hasta cerrar tu apuesta!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Vuelve con el Receptor de Apuestas y págale antes de irte!
+
+1fExit/SneakFailed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Alguien intenta escapar sin pagar! ¡Matadla!
+
+Guard/NapSlave0
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guardia: \C[0]    ¡Eh! Mira aquí.
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guardia: \C[0]    ¿Qué pasa?!
+
+Guard/NapSlave1NoPay
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guardia: \C[0]    ¡Esta putilla no quiere pagar sus deudas de apuestas!
+
+Guard/NapSlave1IsSlave
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guardia: \C[0]    ¡Es una esclava fugada!
+
+Guard/NapSlave2
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guardia: \C[0]    ¿Qué hacemos con ella?
+\m[tired]\plf\PRF\c[6]Lona: \C[0]    Ohh... ¿Qué pasó?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guardia: \C[0]    ¿Acaso tenemos suficientes mujeres para entretener al público?
+\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia: \C[0]    ¡Esta basura es completamente inútil!
+\m[p5sta_damage]\Rshake\c[6]Lona: \C[0]    ¡No! ¡Dejadme!
+\cg[event_SlaveBrand]\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia: \C[0]    ¡Te dije que NO TE MOVIERAS! ¡SÉ UNA BUENA CHICA!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Lona: \C[0]    \{¡¡AAAYYYY!!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona: \C[0]    \{¡Ayyy!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona: \C[0]    Ahhhhh...
+
+##################################################### Other
+
+notice/DisbandWarning
+\narr ¡Atención! En peleas de arena, tu compañero se irá.
+
+198964/nothingHappen
+\cg[other_TankMan]1689.06.04. Un día normal y aburrido donde absolutamente nada ocurrió\C[0]. \n Pintura 417
+
+commoner/typeB
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    Mi esposa dice que este deporte es muy cruel. ¿Tú qué opinas?
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    El perro del viejo que vive al otro lado de la plaza desapareció hace un tiempo.
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    Días después, los guardias le dijeron que unos refugiados de la capital imperial lo atraparon y se lo comieron.
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    ¡Ja! ¿Cruel?
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    Mira lo que pasa alrededor. ¿Qué harías tú si fueras de la capital imperial?
+
+commoner/typeA
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    ¿Has oído hablar del \c[6]Suero de Furia\C[0]?
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    Escuché que nobles y alquimistas de la ciudad crearon algo que fortalece tu cuerpo, usan la Arena para probarlo.
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    También oí de un soldado en primera línea que esta droga te llena de valentía y te excita mucho.
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    ¡El tipo se sentía invencible!
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    ¿No te parece raro? ¿Cómo puede existir algo tan avanzado en un agujero como este?
+\CBid[-1,20]\prf\c[4]Jugador: \C[0]    ¿Puede haber tanto talento en \c[6]Noertown\C[0]?
+
+CommonerBL/Qmsg0
+¿Los hombres no pueden embarazarse, no?
+
+CommonerBL/Qmsg1
+¡El útero es de mujeres, y la polla de hombres!
+
+CommonerBL/Qmsg2
+Lo leí en la última revista
+
+CommonerBR/Qmsg0
+¡Decía que es posible!
+
+CommonerBR/Qmsg1
+Gays y trans son cosas distintas
+
+CommonerBR/Qmsg2
+¡Mentira!

@@ -1,0 +1,894 @@
+#return "_slave"			if $lona_stats["SlaveBrand"] ==1
+#return "_maggot"		if $game_actors[1].dirt >= 200 <r=HiddenOPT1>
+#return "_sexy"			if $game_actors[1].sexy >= 100
+#return "_weaker"		if $game_actors[1].weak >= 100
+#return "_moot"			if $lona_stats["moot"] ==1
+#return "_lona"
+
+RandomNpc/OptUsed
+Уже сделали это.
+
+RandomNpc/choosed
+\ph\..\..\..\WF[10]
+
+#--------------------------------------------------------------------------- Overmap NoerHomeless
+
+NoerHomeless/beginM0
+\c[4]Беженец：\C[0]    Пода-айте что-нибудь... Что-нибудь... Мисс...
+
+NoerHomeless/beginM1
+\c[4]Беженец：\C[0]    Я голодаю... Помогите...
+
+NoerHomeless/beginM2
+\c[4]Беженец：\C[0]    Мисс... Прошу... Смилуйтесь...
+
+NoerHomeless/beginF0
+\c[4]Беженка：\C[0]    Я ничего не ела несколько дней...
+
+NoerHomeless/beginF1
+\c[4]Беженка：\C[0]    Я так страдаю от голода...
+
+NoerHomeless/beginF2
+\c[4]Беженка：\C[0]    Прошу, смилуйтесь...
+
+NoerHomeless/Begin2
+\c[4]Беженец：\C[0]    .........
+
+NoerHomeless/END_Good0
+\c[4]Беженец：\C[0]    Я запомню вашу щедрость!
+
+NoerHomeless/END_Good1
+\c[4]Беженец：\C[0]    Благодарю вас!
+
+NoerHomeless/END_Good2
+\c[4]Беженец：\C[0]    Спасибо за вашу щедрость!
+
+NoerHalp/get_reward0
+\c[4]Беженец：\C[0]    Ох, спасибо вам! Спасибо, что помогли! Вот, возьмите! Это вам в благодарность!
+
+NoerHalp/get_reward1_0
+\c[4]Беженец：\C[0]    Да благославят вас Святые!
+
+NoerHalp/get_reward1_1
+\c[4]Беженец：\C[0]    Спасибо ещё раз!!!
+
+#--------------------------------------------------------------------------- Overmap NoerMissionary
+
+NoerMissionary/Begin0
+\c[4]Проповедник：\C[0]    Да наведут вас Святые на верный путь!
+
+NoerMissionary/Begin1
+\board[Благотворительность]
+Каждые 1 000 пожертвованных Очков Обмена слегка снизят опасность окружения, до 10 раз.
+Святой очистит грехи и зло мира! Слава Святому!
+Текущая опасность окружения：\c[4] #{$story_stats["WorldDifficulty"].round(2)} \C[0]
+
+NoerMissionary/END_Good
+\c[4]Проповедник：\C[0]    Святые приведут тебя к истине!
+
+NoerMissionary/END_Bad
+\c[4]Проповедник：\C[0]    Грешница! Святые очистят тебя!
+\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Что? Не может быть!
+
+NoerMissionary/Qmsg
+Восславь Святых!
+
+#--------------------------------------------------------------------------- Overmap Quest Giver
+
+Qgiver/ConvoyToNoer_begin0
+\c[4]Беженец：\C[0]    Пожалуйста, помогите нам. Мы умоляем вас.
+
+Qgiver/ConvoyToNoer_begin1
+\c[4]Беженец：\C[0]    Сопроводи их в Ноэр.
+
+Qgiver/ConvoyToNoer_board
+\board[Эскорт в Ноэртаун]
+Задача：Сопроводить беженцев на улицы города Ноэр
+Награда：Большой Медяк х1\i[582] Репутация +5
+Клиент：Беженец
+Срок выполнения：5 дней
+
+Qgiver/ConvoyToHobo_begin1
+\c[4]Беженец：\C[0]    Пожалуйста, убедитесь, что они благополучно добрались до лагеря беженцев.
+
+Qgiver/ConvoyToHobo_board
+\board[Эскорт беженцев в лагерь]
+Задача：Сопроводить беженцев в лагерь беженцев или трущобы
+Награда：Медяк x5\i[583] Репутация +2
+Клиент：Беженец
+Срок выполнения：5 дней
+
+Qgiver/ConvoyToNoer_accept
+\prf\c[4]Беженец：\C[0]    Спасибо.
+
+Qtarget/Arrivel
+\prf\c[4]Беженец：\C[0]    Спасибо, мы всем расскажем о твоих добрых делах.
+
+#-------------------#------COMMON CONVOY TARGET(victim)
+
+victim/Convoy_opt
+\plf\c[4]Раненый：\C[0]    *Хнык*... Вы прибыли спасти меня? \optB[Нет,Да]
+
+victim/Convoy_start0
+\plf\c[4]Раненый：\C[0]    Хорошо... Я следую за вами.
+
+victim/Convoy_start1
+\board[Эскорт Раненого]
+Довести Раненого на 3x3 клетки от выхода и поговорить с ним.
+Лона не должна спать, а цель не должна быть убита за это время.
+
+victim/Convoy_start2
+\board[Эскорт Раненого в Ноэртаун]
+Задача：Сопроводить Раненого до улиц Ноэра
+Цель не должна погибнуть.
+
+
+############################## COMMON EXT Convoy
+
+
+NPC/CommonConvoyTarget0
+\prf\c[4]Беженец：\C[0]    Мы ещё не пришли?
+
+NPC/CommonConvoyTarget1
+\prf\c[4]Беженец：\C[0]    Прошу, быстрее!
+
+NPC/CommonConvoyTarget2
+\prf\c[4]Беженец：\C[0]    Сделайте что-нибудь...
+
+
+##------------------------------------------common---------------------------------------------------sex trade
+
+RandomNpc/WhoreWork_normal
+\CBct[20]\cg[event_WhoreWork]\m[shy]\c[6]Лона：\C[0]    П-Простите, Сэр... Я вам интересна...?
+
+RandomNpc/WhoreWork_tsun
+\CBct[6]\cg[event_WhoreWork]\m[terror]\c[6](Выбора нет... Мне нужны деньги...)
+\CBct[6]\m[bereft]\Rshake\c[6]    Эй. Е-Если ты заплатишь... Мы можем...
+
+RandomNpc/WhoreWork_weak
+\CBct[8]\cg[event_WhoreWork]\m[fear]\c[6]Лона：\C[0]    М-Мистер...\n В-В-Вы... хотите... меня......?
+
+RandomNpc/WhoreWork_slut
+\CBct[4]\cg[event_WhoreWork]\m[triumph]\c[6]Лона：\C[0]    Эй-эй~ ♫ Красавчик!\n Хочешь развлечься по-взрослому...?~ ♥
+
+RandomNpc/WhoreWork_overfatigue
+\CBct[8]\cg[event_WhoreWork]\m[tired]\c[6]Лона：\C[0]    ......
+
+RandomNpc/WhoreWork_mouth_block
+\CBct[8]\cg[event_WhoreWork]\m[sad]\c[6]Лона：\C[0]    ...Ммммффф...
+
+RandomNpc/WhoreWork_win
+\BonID[-1,4]\CamCT\m[shy]\cgoff\narr Соблазнение удалось.
+
+RandomNpc/WhoreWork_failed
+\BonID[-1,5]\CamCT\CBct[0]\m[sad]\cgoff Провал. Ему не интересна Лона.
+
+RandomNpc/WhoreWork_win_opt_win
+\CBct[8]\m[shy]\c[6]Лона：\C[0]    Эммм...
+
+prostituation/CustomerPick0
+Он хочет 
+
+prostituation/CustomerPick1
+ от Лоны
+
+prostituation/CustomerPick2_CumInside
+ а также желает кончить внутрь.
+
+prostituation/CustomerPick2_CumOutside
+ и обещает кончить снаружи.
+
+prostituation/reward0
+ Он заплатит Лоне 
+
+prostituation/reward1
+ от цены в Очках Обмена.
+
+prostituation/Handjob
+Дрочку руками
+
+prostituation/Blowjob
+Минет
+
+prostituation/Anal
+Анал
+
+prostituation/Virgin
+(Предупредить о девственности Лоны)
+
+prostituation/Vaginal
+Вагинал
+
+prostituation/SemiAuto
+Ручной QTE
+
+prostituation/FullAuto
+Пассивно
+
+prostituation/Repent
+Покаяться
+
+prostituation/Wisdom
+(Попросить больше)
+
+prostituation/Full
+весь спектр услуг
+
+prostituation/CumInside
+Разрешить кончить внутрь.
+
+prostituation/CumOutside
+Попросить кончить снаружи.
+
+prostituation/Nymph
+(Заняться сексом бесплатно)
+
+prostituation/CumInside_dialog_typical
+\m[shy]\Rshake\c[6]Лона：\C[0]    Ты... Ты можешь кончить внутрь меня...
+
+prostituation/CumInside_dialog_tsundere
+\m[sad]\Rshake\c[6]Лона：\C[0]    Внутрь... Я сказала внутрь! Тебе очень повезло, что я это разрешаю!
+
+prostituation/CumInside_dialog_gloomy
+\m[shy]\Rshake\c[6]Лона：\C[0]    Эммм...... М-Можно внутрь... думаю...
+
+prostituation/CumInside_dialog_slut
+\m[lewd]\Rshake\c[6]Лона：\C[0]    Внутрь...! Кончи внутрь! Я хочу ощутить твою горячую сперму внутри себя!!!
+
+prostituation/CumOutside_dialog_typical
+\m[terror]\Rshake\c[6]Лона：\C[0]    Тебе нельзя кончать внутрь! Кончать можно только снаружи! Д-Договорились?
+
+prostituation/CumOutside_dialog_tsundere
+\m[wtf]\Rshake\c[6]Лона：\C[0]    Снаружи! Только посмей спустить внутрь, и я-... В общем, только снаружи!!!
+
+prostituation/CumOutside_dialog_gloomy
+\m[bereft]\Rshake\c[6]Лона：\C[0]    Н-Нет! Внутрь нельзя! Тебе можно к...кончить только снаружи...! П-Прошу......
+
+prostituation/CumOutside_dialog_slut
+\m[flirty]\Rshake\c[6]Лона：\C[0]    Ахх! Вынимай член и залей меня спермой! Я хочу покрыть твоей спермой всё своё тело!
+
+prostituation/CumOutside_dialog_CustomerHappy
+\narr Он говорит, что больше всего ему нравится кончать наружу, и он очень этому рад...
+
+prostituation/CumOutside_dialog_CustomerMad
+\narr Он говорит, что больше всего ему нравится кончать наружу, и он очень зол поэтому...
+
+###############
+
+prostituation/Virgin_dialog_typical
+\m[shy]\Rshake\c[6]Лона：\C[0]    Эммм\.... Д-Дело в том... Я всё ещё девственница\......
+
+prostituation/Virgin_dialog_tsundere
+\m[shy]\Rshake\c[6]Лона：\C[0]    *Кхм!* Я..\... Эээ..\.. Никогда такое ещё не делала... Ну, секс...
+
+prostituation/Virgin_dialog_gloomy
+\m[shy]\Rshake\c[6]Лона：\C[0]    ...П\...Подождите\...! Я\... всё ещё..\... н-невинна\......
+
+prostituation/Virgin_dialog_slut
+\m[shy]\Rshake\c[6]Лона：\C[0]    Кстати, я ещё девственница! Ты можешь быть первым, кто сорвет мою вишенку...~ ♥
+
+prostituation/Virgin_dialog_ans
+\narr Клиент довольно заулыбался, когда Лона сообщила, что она ещё девственница.
+
+prostituation/Virgin_dialog_faggot
+\narr Клиент велит Лоне хранить невинность для мужа.
+
+prostituation/CumOutside_dialog_CustomerHappy
+\narr Он говорит, что больше всего ему нравится кончать наружу, и он очень этому рад...
+
+prostituation/CumOutside_dialog_CustomerMad
+\narr Он говорит, что больше всего ему нравится кончать наружу, и он очень зол поэтому...
+################
+
+prostituation/Nymph_dialog
+\m[lewd]\c[6]Лона：\C[0]    Забей, тебе не нужно платить... Я просто хочу потрахаться! ♥
+\narr Клиент был очень рад это услышать!
+
+prostituation/Wisdom_dialog
+\m[shy]\c[6]Лона：\C[0]    Эй, а не хотел бы ты особых услуг? Просто договоримся на сумму побольше...
+
+prostituation/Wisdom_dialog_more
+\m[shy]\c[6]Лона：\C[0]    Хммм... Такие услуги стоят несколько больше...
+
+prostituation/Wisdom_dialog_angry
+\narr Он начинает терять терпение.
+
+prostituation/Repent_dialog
+\m[flirty]\c[6]Лона：\C[0]    Эмм... Ладно-ладно, забыли...
+
+prostituation/Repent_dialog_aggro
+\narr Лона передумала, что взбесило клиента!
+
+prostituation/Repent_blocked_slot
+\narr Этот вариант недопустим...
+\narr Клиент в бешенстве！
+prostituation/Aggro
+\narr Клиент в бешенстве! От злости, он напал на Лону!
+\narrOFF\m[terror]\Rshake\c[6]Лона：\C[0]    Что?! С-Стой...!
+
+RandomNpc/WhoreWork_win_opt_lose
+\narr Лона слишком слаба и может делать только то, что хочет этот человек...
+
+RandomNpc/WhoreWork_GotoPoint
+\narr Лону насильно затащили в укромное место...
+
+RandomNpc/WhoreWork_failed_GuardWrongPlace
+А ну пошла вон отсюда!
+
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+
+GoblinRandomNpc/CommonGoblin_begin1_0
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]Гоблин：\C[0]    Гу-гу... Мясо... дырка?
+
+GoblinRandomNpc/CommonGoblin_begin1_1
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]Гоблин：\C[0]    Гу-чха! Гу-бу-ва-да мясо дырка?
+
+GoblinRandomNpc/CommonGoblin_begin1_2
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]Гоблин：\C[0]    Гу-бу-да?!
+
+GoblinRandomNpc/CommonGoblin_CommonNpcOpt
+\SndLib[sound_goblin_roar]\SETpl[goblin]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ээм...?
+
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+
+OrcRandomNpc/CommonOrc_begin1_0
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]Оркоид：\C[0]    Хаа Хее Хее!! Мясо!!
+
+OrcRandomNpc/CommonOrc_begin1_1
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]Оркоид：\C[0]    Ешь мясо! Мясо дырка! Хехе!
+
+OrcRandomNpc/CommonOrc_begin1_2
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]Оркоид：\C[0]    Хаа хее! Мясо дырка! МЯСО ДЫРКА!
+
+OrcRandomNpc/CommonOrc_CommonNpcOpt
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эммм...?
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/CommonHuman_begin1_slave
+\c[4]Прохожий：\C[0]    Свали с дороги! Грязный раб.
+
+MaleHumanRandomNpc/CommonHuman_begin1_maggot
+\c[4]Прохожий：\C[0]    Мерзость, убирайся!
+
+MaleHumanRandomNpc/CommonHuman_begin1_sexy
+\c[4]Прохожий：\C[0]    М? Ч-Чем вам помочь, миледи?
+
+MaleHumanRandomNpc/CommonHuman_begin1_weaker
+\c[4]Прохожий：\C[0]    Попрошайка? Отстань от меня.
+
+MaleHumanRandomNpc/CommonHuman_begin1_moot
+\c[4]Прохожий：\C[0]    Грязная крыса, чё тебе надо?!
+
+MaleHumanRandomNpc/CommonHuman_begin1_lona
+\c[4]Прохожий：\C[0]    Нужно что-то?
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleGuardWild/CommonHuman_begin1_slave
+\c[4]Наёмник：\C[0]    Рабыня? Ну-ка, развлеки меня!
+
+MaleGuardWild/CommonHuman_begin1_maggot
+\c[4]Наёмник：\C[0]    Отвратительно! Уйди от меня!
+
+MaleGuardWild/CommonHuman_begin1_sexy
+\c[4]Наёмник：\C[0]    Эй, ты! Ты здесь новая секс рабыня?
+
+MaleGuardWild/CommonHuman_begin1_weaker
+\c[4]Наёмник：\C[0]    Ебучие попрошайки! Кышь отсюда! Кышь!
+
+MaleGuardWild/CommonHuman_begin1_moot
+\c[4]Наёмник：\C[0]    Грязная крыса! Хватит пялиться! Убирайся!
+
+MaleGuardWild/CommonHuman_begin1_lona
+\c[4]Наёмник：\C[0]    Чего? Ты что, не видишь, что я занят?!
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleDoomed/CommonHuman0
+\c[4]Прохожий：\C[0]    Эх. Мир уже обречён...
+
+MaleDoomed/CommonHuman1
+\c[4]Прохожий：\C[0]    Скоро наступит конец света, позволь мне повеселиться с тобой, прежде чем мы умрем!
+
+MaleDoomed/CommonHuman2
+\c[4]Прохожий：\C[0]    Мы прокляты... Святые отвернулись от нас!
+
+#---------------------#-------------------#---------------------Sailer-------------------------------
+
+MaleNoerDockNpc/Sailer_slave
+\c[4]Моряк：\C[0]    О, рабыня! Хехехе...
+
+MaleNoerDockNpc/Sailer_maggot
+\c[4]Моряк：\C[0]    Якорь мне в жопу! От тебя воняет как от гнилой рыбы, стой подальше свинота.
+
+MaleNoerDockNpc/Sailer_sexy
+\c[4]Моряк：\C[0]    Эй, русалочка! Повеселимся?! Морской волк знает, как тебя развлечь...
+
+MaleNoerDockNpc/Sailer_weaker
+\c[4]Моряк：\C[0]    Хэй! У тебя отличный ротик. Хочешь, я займу его?
+
+MaleNoerDockNpc/Sailer_moot
+\c[4]Моряк：\C[0]    Не мешайся под ногами! Пошла нахуй!
+
+MaleNoerDockNpc/Sailer_lona
+\c[4]Моряк：\C[0]    Чего? Ты что, чёрт возьми, не видишь, что я работаю?
+
+#---------------------#-------------------#---------------------BS GAng-------------------------------
+
+CommonGangMember/commonBegin_lona
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    На чё вылупилась?
+
+CommonGangMember/commonBegin_maggot
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    Чё? Проблемы?
+
+CommonGangMember/commonBegin_sexy
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    Э-э？
+\CBid[0,4]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    \..\..\.. Хе-хе♥
+
+CommonGangMember/commonBegin_weaker
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    Ты новая секс-рабыня?
+
+CommonGangMember/commonBegin_moot
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    Откуда этот НИГГЕР взялся? Отвали!
+
+CommonGangMember/commonBegin_slave
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    Возвращайся на кухню и сделай своему мужчине сэндвич!
+
+#---------------------#-------------------#---------------------
+
+MaleHumanRandomNpc/CommonHuman_CommonNpcOpt
+\m[confused]\c[6]Лона：\C[0]    Эммм...
+
+commonNPC/Cancel
+Неважно
+
+commonNPC/Barter
+Обмен
+
+commonNPC/Prostitution
+Проституция
+
+commonNPC/SexService
+Удовлетворить
+
+commonNPC/Talk
+Поговорить
+
+commonNPC/Threaten
+Угрожать
+
+commonNPC/Begging
+Умолять
+
+commonNPC/About
+Информация
+
+commonNPC/Work
+Работа
+
+commonNPC/Convoy
+Нанять
+
+commonNPC/Slave
+Рабыня
+
+commonNPC/Steal
+Украсть
+
+commonNPC/Deceive
+Обмануть
+
+commonNPC/Yes
+Да
+
+commonNPC/Storage
+Банковская ячейка
+
+commonNPC/Chat
+Поговорить
+
+commonNPC/opt_ex_LoanInfo
+Про кредит
+
+commonNPC/opt_ex_Loan
+Взять кредит
+
+commonNPC/opt_ex_Repayment
+Погасить кредит
+commonNPC/opt_ex_Donation
+Пожертвовать
+
+commonNPC/opt_ex_Employee
+Стать сотрудником
+
+commonNPC/work_opt_ex_nothing
+Ничем
+
+commonNPC/work_opt_ex_whore
+Уличная проституция
+
+commonNPC/opt_PawnItems
+Вещи
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/HoboM_begin1_slave
+\c[4]Попрошайка：\C[0]    Ох! Не трогай меня!
+
+MaleHumanRandomNpc/HoboM_begin1_maggot
+\c[4]Попрошайка：\C[0]    Ох! Держись от меня подальше!
+
+MaleHumanRandomNpc/HoboM_begin1_sexy
+\c[4]Попрошайка：\C[0]    Оу-хо-хо-хо...
+
+MaleHumanRandomNpc/HoboM_begin1_weaker
+\c[4]Попрошайка：\C[0]    ЧТО?!
+
+MaleHumanRandomNpc/HoboM_begin1_moot
+\c[4]Попрошайка：\C[0]    Не приставай ко мне!
+
+MaleHumanRandomNpc/HoboM_begin1_lona
+\c[4]Попрошайка：\C[0]    Аа? Чего хошь? Есть лишняя мелочь?
+
+
+MaleHumanRandomNpc/HoboF_begin1_slave
+\c[4]Попрошайка：\C[0]    Рабыня? Тоже, что ли, продать себя...
+
+MaleHumanRandomNpc/HoboF_begin1_maggot
+\c[4]Попрошайка：\C[0]    Кажется, ты тоже страдаешь, прямо как я.
+
+MaleHumanRandomNpc/HoboF_begin1_sexy
+\c[4]Попрошайка：\C[0]    Тоже тело продаёшь? В такое время по другому не выжить...
+
+MaleHumanRandomNpc/HoboF_begin1_weaker
+\c[4]Попрошайка：\C[0]    Эй, над тобой издевались, да? Я тебя понимаю...
+
+MaleHumanRandomNpc/HoboF_begin1_moot
+\c[4]Попрошайка：\C[0]    Надеюсь, я хоть сегодня смогу чего поесть...
+
+MaleHumanRandomNpc/HoboF_begin1_lona
+\c[4]Попрошайка：\C[0]    Я так голодна... Поделишься едой со мной...?
+
+
+MaleHumanNoerNpc/PplM_begin1_slave
+\c[4]Горожанин：\C[0]    Мерзкая рабыня! Проваливай!
+
+MaleHumanNoerNpc/PplM_begin1_maggot
+\c[4]Горожанин：\C[0]    Убирайся! Мелочь вонючая!
+
+MaleHumanNoerNpc/PplM_begin1_sexy
+\c[4]Горожанин：\C[0]    Хехе... Да?
+
+MaleHumanNoerNpc/PplM_begin1_weaker
+\c[4]Горожанин：\C[0]    Чего? Денег не дам!
+
+MaleHumanNoerNpc/PplM_begin1_moot
+\c[4]Горожанин：\C[0]    Проваливай! Вонючая грязнокровка!
+
+MaleHumanNoerNpc/PplM_begin1_lona
+\c[4]Горожанин：\C[0]    А? В чём дело?
+
+
+MaleHumanGangNpc/PplM_begin1_slave
+\c[4]Бродяга：\C[0]    Эй, сучка! Пошла нахуй! Рабыня тупая!
+
+MaleHumanGangNpc/PplM_begin1_maggot
+\c[4]Бродяга：\C[0]    Убирайся! Фу, мля!
+
+MaleHumanGangNpc/PplM_begin1_sexy
+\c[4]Бродяга：\C[0]    Оу-хе-хе... Ты это мне, цыпа?
+
+MaleHumanGangNpc/PplM_begin1_weaker
+\c[4]Бродяга：\C[0]    Чего? Нет у меня денег! Иди нахрен!
+
+MaleHumanGangNpc/PplM_begin1_moot
+\c[4]Бродяга：\C[0]    Пошла нахуй! Ебучая грязная полукровка!
+
+MaleHumanGangNpc/PplM_begin1_lona
+\c[4]Бродяга：\C[0]    А? Чё тебе надо?
+
+
+MaleHumanNoerNpc/PplF_begin1_slave
+\c[4]Горожанка：\C[0]    Вонючая рабыня! Фу!
+
+MaleHumanNoerNpc/PplF_begin1_maggot
+\c[4]Горожанка：\C[0]    Боже, ну и вонь! Чего тебе?!
+
+MaleHumanNoerNpc/PplF_begin1_sexy
+\c[4]Горожанка：\C[0]    Проститутка? Здесь?! Что тебе нужно?
+
+MaleHumanNoerNpc/PplF_begin1_weaker
+\c[4]Горожанка：\C[0]    Я не дам тебе денег! Убирайся!
+
+MaleHumanNoerNpc/PplF_begin1_moot
+\c[4]Горожанка：\C[0]    Грязнокровка? Чего тебе?
+
+MaleHumanNoerNpc/PplF_begin1_lona
+\c[4]Горожанка：\C[0]    А? Что случилось?
+
+
+MaleHumanGuardM/begin1_slave
+\c[4]Стражник：\C[0]    Иди к хозяину! Вонючий раб...
+
+MaleHumanGuardM/begin1_maggot
+\c[4]Стражник：\C[0]    Проваливай! Кышь!
+
+MaleHumanGuardM/begin1_sexy
+\c[4]Стражник：\C[0]    Аа? Да, мэм...?
+
+MaleHumanGuardM/begin1_weaker
+\c[4]Стражник：\C[0]    Чё?! У меня нет времени на тебя!
+
+MaleHumanGuardM/begin1_moot
+\c[4]Стражник：\C[0]    Чего вылупилась?!\n Ещё раз посмотришь, и окажешься за решёткой!
+
+MaleHumanGuardM/begin1_lona
+\c[4]Стражник：\C[0]    В чём дело? Что-то нужно?
+
+
+MaleFishKindM/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Рабыня... Размножаться... Девочка... Хочу... Спариваться...
+
+MaleFishKindM/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Воняет...! Уходи... Вонючка...
+
+MaleFishKindM/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    \{Девочка...! Я хотеть... Спариваться...
+
+MaleFishKindM/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Девочка... Иди сюда... Я не... Больно тебе...
+
+MaleFishKindM/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Бесишь... Уходи...
+
+MaleFishKindM/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]Рыбочеловек：\C[0]    Чего... Человек... Чего ты... хотеть...?
+
+
+MaleFishKindGuard/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]Рыбостраж：\C[0]    Рабыня... Уходи... В лагерь...!
+
+MaleFishKindGuard/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]Рыбостраж：\C[0]    Вонючая девочка...! Убирайся...!
+
+MaleFishKindGuard/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]Рыбостраж：\C[0]    Девочка... Ты... Одна?
+
+MaleFishKindGuard/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]Рыбостраж：\C[0]    Милый девочка... Хочу размножение...
+
+MaleFishKindGuard/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]Рыбостраж：\C[0]    Грязная... крыса...! Убирайся...
+
+MaleFishKindGuard/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]Рыбостраж：\C[0]    Тупая... Человек... *Фырк* Что ты хочешь...?!
+
+
+WencherM/begin0
+\c[4]\c[4]Бабник：\C[0]    Хехехе... Сколько стоит твоё тело? ♥
+
+WencherM/begin1
+\c[4]\c[4]Бабник：\C[0]    Хеехее! Эй мамзель! Давай трахаться как звери?! ♥
+
+WencherM/begin2
+\c[4]\c[4]Бабник：\C[0]    Эй! Эй девчонка! Хочешь отсосать мой хер?! Хеехее!!! ♥
+
+#-------------------#-------------------#-------------------#-------------------RandomNpc
+#-------------------#-------------------#-------------------#-------------------RandomNpc
+#-------------------#-------------------#-------------------#-------------------RandomNpc
+#-------------------#-------------------#-------------------#-------------------RandomNpc
+#-------------------#-------------------#-------------------#-------------------RandomNpc
+
+MaleHumanRandomNpc/CommonMerchant_begin1_slave
+\m[normal]\c[4]Торговец-кочевник：\C[0]    Рабыня? Хе-хе...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_maggot
+\m[normal]\c[4]Торговец-кочевник：\C[0]    Фу! Как воняет... Держись от меня подальше.
+
+MaleHumanRandomNpc/CommonMerchant_begin1_sexy
+\m[normal]\c[4]Торговец-кочевник：\C[0]    Хеехее... Чего покупаешь? У меня всё есть! Хеехее...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_weaker
+\m[normal]\c[4]Торговец-кочевник：\C[0]    Бесплатно не дам, покупай или проваливай!
+
+MaleHumanRandomNpc/CommonMerchant_begin1_moot
+\m[normal]\c[4]Торговец-кочевник：\C[0]    Пришла за покупками? Я готов торговать с кем угодно!
+
+MaleHumanRandomNpc/CommonMerchant_begin1_lona
+\m[normal]\c[4]Торговец-кочевник：\C[0]    Приветствую! У меня есть для вас много товаров, если у вас есть деньги!
+
+MaleHumanRandomNpc/CommonMerchant_CommonNpcOpt
+\m[confused]\c[6]Лона：\C[0]    Эммм...
+
+#----------------------------溝通
+
+MaleHumanRandomNpc/CommonMerchant_comm
+\m[flirty]\c[6]Лона：\C[0]    Эй, посмотрите на это...
+\m[pleased]\cg[temp](Лона обменивается информацией с другим персонажем)
+
+MaleHumanRandomNpc/CommonMerchant_comm_win
+\c[4]Торговец：\C[0]\n\prf\cgoff    Это мне очень помогло, спасибо тебе.
+\m[normal]\c[6]Лона：\C[0]\n\PRF    Не вопрос, конечно.
+
+MaleHumanRandomNpc/CommonMerchant_comm_failed
+\c[4]Торговец：\C[0]\n\prf\cgoff    Я это уже знаю.
+\m[confused]\c[6]Лона：\C[0]\n\PRF    Оу... Ладненько.
+
+#----------------------------威脅
+
+MaleHumanRandomNpc/CommonMerchant_threaten_normal
+\m[overkill]\c[6]Лона：\C[0]\n\Rshake\cg[temp]    Давай сюда все, что у тебя есть, и я оставлю тебя в живых!
+
+MaleHumanRandomNpc/CommonMerchant_threaten_tsun
+\m[angry]\c[6]Лона：\C[0]\n\Rshake\cg[temp]    Слушай сюда, говнюк! У тебя есть пять секунд, чтобы отдать все вещи, ИЛИ Я ТЕБЕ КИШКИ ВЫПУЩУ!!!
+
+MaleHumanRandomNpc/CommonMerchant_threaten_weak
+\m[fear]\c[6]Лона：\C[0]\n\Rshake\cg[temp]    Эмм... Я... И-Извините... П-Прошу, отдайте мне все ваши вещи! По... Позязя......?
+
+MaleHumanRandomNpc/CommonMerchant_threaten_slut
+\m[overkill]\c[6]Лона：\C[0]\n\Rshake\cg[temp]    Хехе!~ ♫ Будь хорошим мальчиком и отдай все, что у тебя есть! Если будешь послушным... Я мооожет оставлю тебя в живых! ♥
+
+MaleHumanRandomNpc/CommonMerchant_threaten_overfatigue
+\m[tired]\c[6]Лона：\C[0]\n\Rshake\cg[temp]    ...Отдавай... Все свои вещи... Живо...
+
+MaleHumanRandomNpc/CommonMerchant_threaten_mouth_block
+\m[confused]\c[6]Лона：\C[0]\n\Rshake\cg[temp]    МММФФМ! ММФМММ ХМММФММ!!!
+
+MaleHumanRandomNpc/CommonMerchant_threaten_win
+\c[4]Торговец：\C[0]\n\prf\cgoff    Ладно, ладно! Забирай! Пощади мою жизнь! Прошу! Не убивай меня!!!
+\m[triumph]\c[6]Лона：\C[0]\n\PRF    Хммф, вот так.
+
+MaleHumanRandomNpc/CommonMerchant_threaten_failed
+\c[4]Торговец：\C[0]\n\prf\cgoff    Мелкая пиздючка осмелилась угрожать мне?! ТЫ ЗАШЛА НЕ В ТОТ МАГАЗИН, ДУРА! Умри, сука!!!
+\m[shocked]\c[6]Лона：\C[0]\n\PRF\Rshake    Ааа?! С-Стой!!!
+
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+
+NoerHouse/HouseOpt
+\m[confused] Дом в Ноэре
+
+NoerHouse/WarehouseOpt
+\m[confused] Амбар
+
+NoerHouse/Tent
+\m[confused] Это просто палатка
+
+NoerHouse/HouseOpt_beg
+\narr\SndLib[sys_KnockDoor] ...........
+\narrOFF\c[4]Неизвестный：\C[0]    Кто там?
+\m[shy]\c[6]Лона：\C[0]    П-Простите... Подайте что-нибудь... Пожалуйста......
+\narr \..\..\..\..
+
+NoerHouse/HouseOpt_beg_win
+\c[4]Неизвестный：\C[0]    Бедное дитя. Вот, возьми.
+\m[flirty]\c[6]Лона：\C[0]    Спасибо, спасибо вам! Вы так добры!
+
+NoerHouse/HouseOpt_fail_night
+\c[4]Неизвестный：\C[0]    Ты разбудила меня посреди ночи, ты в курсе?
+
+NoerHouse/Tent_beg_fail0
+\c[4]Неизвестный：\C[0]    У меня ничего нет! Уходи!
+\m[sad]\c[6]Лона：\C[0]    Извините... Извините, пожалуйста...
+
+NoerHouse/HouseOpt_beg_fail0
+\c[4]Неизвестный：\C[0]    Ты из Сибариса... Да? Раньше роскошно жила?
+\m[sad]\c[6]Лона：\C[0]    Н-ну, нет... Вообще, я хотела...
+\c[4]Неизвестный：\C[0]\n\Lshake\RShake    \{УБИРАЙСЯ!
+
+NoerHouse/HouseOpt_beg_fail1
+\c[4]Неизвестный：\C[0]    Ты серьёзно? Да ты, блин, выглядишь будто прибыла из королевской семьи!
+\m[sad]\c[6]Лона：\C[0]    Эммм... Дело в том, что......
+\c[4]Неизвестный：\C[0]\n\Lshake\RShake    \{КАТИСЬ! И не приходи больше!
+
+NoerHouse/TentOpt_lie_begin1
+\m[sad]\c[6]Лона：\C[0]    Хм... Есть ли там кто-нибудь?
+
+NoerHouse/HouseOpt_lie_begin1
+\narr\SndLib[sys_KnockDoor] ...........
+
+NoerHouse/HouseOpt_lie_begin1_1
+\narrOFF\c[4]Неизвестный：\C[0]    Кто там?
+
+NoerHouse/HouseOpt_lie_begin2_0
+\narr \..\..\..
+\narrOFF\m[confused]\c[6]Лона：\C[0]    Да, пожалуйста, оставьте их мне.
+
+NoerHouse/HouseOpt_lie_begin2_1
+\narr \..\..\..
+\narrOFF\m[serious]\c[6]Лона：\C[0]    Если ты откажешься, я не смогу предотвратить то, что будет дальше...
+
+NoerHouse/HouseOpt_lie_begin3
+\narr \..\..\..\..
+
+NoerHouse/HouseOpt_lie_win
+\c[4]Неизвестный：\C[0]    Понятно... Ну ладно.
+\m[flirty]\c[6]Лона：\C[0]    Фууф...
+
+NoerHouse/HouseOpt_lie_fail
+\c[4]Неизвестный：\C[0]    \{Ты серьёзно думаешь, что я поверю в эту чепуху?!
+\m[shocked]\Rshake Вашу ложь раскрыли!
+
+NoerHouse/HouseOpt_steal
+\SND[SE/sneak_in.ogg]\narr \..\..\..\..
+
+NoerHouse/HouseOpt_steal_win
+\m[flirty]\c[6]Лона：\C[0]    Отличненько...
+
+NoerHouse/HouseOpt_steal_fail
+\c[4]Неизвестный：\C[0]\n\Lshake\RShake    \{КТО ЗДЕСЬ?!
+\m[shocked]\Rshake\c[6]Лона：\C[0]    Чёрт!
+
+#-------------------#-------------------#-------------------#------------------- Begging
+
+Begging/Win
+\narr Они смотрели на Лону с жалостью и сочувствием...
+
+Begging/Aggro0
+\narr Их раздражали крики Лоны, и они её игнорировали...
+
+Begging/Aggro1
+\narr Они разозлились на мольбы Лоны и решили преподать ей урок!
+
+Begging/Win_End
+\m[shy]\c[6]Лона：\C[0]    Спасибо огромное!
+
+Begging/check
+\m[shy]\c[6]Лона：\C[0]    П-Простите... Могу я попросить об одолжении... Пожалуйста......
+\narr \..\..\..\..
+
+BeggingBandit/BlowJob
+\narr Они сказали, что если Лона поможет им почистить их грязные члены，
+\narr то могут дать Лоне что-нибудь поесть.
+
+BeggingBandit/Kneel
+\narr Они потребовали у Лоны встать на колени и умолять их...
+
+BeggingBandit/DeepThroat
+\narr Он схватил Лону за волосы и начал тереть член о её щеку...
+
+BeggingBandit/DrinkPee
+\narr Он достал свой член...
+
+BeggingBandit/Beaten
+\narr Он подумал, что болезненное выражение лица Лоны было очень забавным, и стоило наградить её чем-нибудь вкусненьким.
+
+#-------------------#-------------------#-------------------#------------------- NPC Thx to Lona
+
+refVsExt/WinDialog0
+\CBid[-1,3]\c[4]Беженец：\C[0]    Спасибо большое! Если бы ты не появилась со мной бы покончили!
+
+refVsExt/WinDialog1
+\CBid[-1,3]\c[4]Беженец：\C[0]    Спасибо Святым!
+
+refVsExt/WinDialog2
+\CBid[-1,3]\c[4]Беженец：\C[0]    Спасибо, вы это заслужили!
+
+refVsExt/Help0
+\CBid[-1,20]\c[4]Беженец：\C[0]    ПОМОГИТЕ НАМ! О-ОНИ ИДУТ!
+
+refVsExt/Help1
+\CBid[-1,20]\c[4]Беженец：\C[0]    НЕЕТ! Я НЕ ХОЧУ УМИРАТЬ!!!
+
+refVsExt/Help2
+\CBid[-1,20]\c[4]Беженец：\C[0]    О Святой! СПАСИ МЕНЯ!
+
+#update
+#-------------------#-------------------#-------------------#------------------- NPC animal (common only need update this on BOBO)
+
+Rabbit/rng0
+\CBid[-1,20]\c[4]Кролик：\C[0]
+

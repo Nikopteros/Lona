@@ -1,0 +1,105 @@
+thisMap/OvermapEnter
+\m[confused]Табір Рабов \optB[Скасувати,Увійти]
+
+#################################################################################
+
+ThisCamp/Found
+\CBct[2]\m[confused]\c[4]Схоже, це табір рабів, але хто ними володіє?
+\CBct[8]\m[confused]\c[4]Це табір рабів-утікачів?
+
+alert/MainGuard
+\c[4]Страж：\C[0] Хто!?
+\CBct[2]\m[shocked]\Rshake\c[6]Лона:\C[0] Оой?! \optD[Повз проходжу,Збрехати<r=HiddenOPT0>]
+
+alert/MainGuard_passByAns
+\CBct[8]\m[flirty]\PRF\c[6]Лона:\C[0] Я... Я просто йшла повз.
+
+alert/MainGuard_passByWin
+\c[4]Страж：\C[0] Ти теж рятуєшся з села?
+\c[4]Страж：\C[0] Я в курсі, це ще одне пекло на землі.
+\c[4]Страж：\C[0] Заходь, ми не нашкодимо тобі.
+\CBct[8]\m[tired]\PRF\c[6]Лона:\C[0] Дякую.
+
+alert/MainGuard_passByLose_follower
+\c[4]Страж：\C[0] Хто це з тобою?
+
+alert/MainGuard_passByLose
+\c[4]Страж：\C[0] Не випускати її! Вбити її!
+\CBct[6]\m[shocked]\Rshake\c[6]Лона:\C[0] Що!?
+
+alert/MainGuard_BluffAns
+\CBct[8]\m[flirty]\PRF\c[6]Лона:\C[0] Я...
+\CBct[20]\m[serious]\PRF\c[6]Лона:\C[0] Я спіймала дикого кабана! У всіх буде вечеря!
+
+alert/MainGuard_BluffWin
+\c[4]Страж：\C[0] Відмінно! Ти зробила чудову роботу!
+\CBct[2]\m[flirty]\PRF\c[6]Лона:\C[0] \..\..\.. Хехе?
+
+Nap/Friendly
+\narr Хтось забрав Лону.
+\narrOFF\c[4]Біженець：\C[0] У нас і так немає їжі, ми не можемо тягнути в табір нових біженців.
+\c[4]Страж：\C[0] Вона - як ми, рабиня, що втекла з села. Давайте її залишимо.
+
+Nap/Friendly_wake0
+\CBct[8]\m[shocked]\Rshake\c[6]Лона:\C[0] Що зі мною? Де ж я?
+\CBmp[GuardMas,20]\prf\c[4]Страж:\C[0] Ти теж втекла з села Риболюдей, правда?
+
+Nap/Friendly_wake1
+\CBmp[GuardMas,20]\prf\c[4]Страж：\C[0] Ми - як і ти. І тепер ти вільна.
+\CBct[8]\m[shocked]\Rshake\c[6]Лона:\C[0] Дякуємо...
+
+Nap/Enemy
+\narr Хтось забрав Лону.
+\narrOFF\c[4]Біженець:\C[0] Ви правда їсте таку їжу?
+\c[4]Страж：\C[0] У нас немає вибору, ми помремо з голоду, якщо не будемо їсти.
+
+Nap/Enemy_wake0
+\m[tired]\c[4]Оу ох...
+\m[confused]\c[4]Що сталося? Де ж я?
+
+Nap/Enemy_wake1
+\m[shocked]\Rshake\c[4]Аа??! Чому я пов'язана?
+\m[terror]\Rshake\c[4]Що це за трупи?
+\m[bereft]\Rshake\c[4]Не треба! Не їжте мене!
+
+Nap/Enemy_wake_giveUP
+\m[sad]\Rshake\c[4]Оххх... Я більше не можу...
+\m[tired]\Rshake\c[4]Просто зробіть це.
+
+Nap/BondageStruggle_opt
+\optD[Опиратися,Здатись]
+
+killed/all
+\m[tired]\c[6]Лона:\C[0] Вибачте, але у мене свої причини...
+
+gameOver/nap0
+\narr Лона жертвує своїм тілом, щоб нагодувати біженців...
+
+Common MSG
+
+Commoner/RNG_Dialog0
+\c[4]Біженець:\C[0] Мені не слід було тікати, нічого взагалі не змінилося.
+
+Commoner/RNG_Dialog1
+\c[4]Біженець：\C[0] Ну тут хоч їжа є. Навіщо мені втікати?
+
+Commoner/RNG_Dialog2
+\c[4]Біженець：\C[0] Їм менше і менше, що буде завтра?
+
+Guard/Qmsg0
+Ти можеш знайти щось їстівне сьогодні?
+
+Guard/Qmsg1
+Ті, хто пішов полювати вчора, не повернулися...
+
+Guard/Qmsg2
+Це так не працює
+
+Commoner/Qmsg0
+Я такий голодний...
+
+Commoner/Qmsg1
+Ще їжі...
+
+Commoner/Qmsg2
+Прошу... Дайте щось поїсти...

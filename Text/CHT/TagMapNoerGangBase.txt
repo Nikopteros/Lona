@@ -1,0 +1,20 @@
+thisMap/OvermapEnter
+闊刃幫據點，是壞人的地盤。\optB[沒事,進入]
+
+Nap/failed0_normal
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]流氓A：\C[0]    哪來的小王八蛋？
+\SETpl[MobHumanWarrior]\plf\Rshake\C[4]流氓B：\C[0]    把她抓起來！
+
+Nap/failed_normal_if_Non_Slave
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]流氓A：\C[0]    哦？ 她長得還不錯，把她弄到後街當妓女好了。
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]流氓B：\C[0]    先把她印上奴隸烙印！
+
+#to all fans translator, donot translate 由于此讯息不符合符合国家安全法规，已被屏蔽   its china censor joke.
+
+ArtPlague/art
+\cg[other_ArtPlauge]我們無法直呼祂的汙穢之名，祂是災難的領頭羊，祂是瘟疫的天使，祂帶給世界無盡的苦難。
+\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 黃色的熊熊？
+\m[confused]\PRF\c[6]洛娜：\c[0]    嗯.....
+\m[shocked]\Rshake\narr由于此讯息不符合符合国家安全法规，已被屏蔽\...\...\...\...
+\m[confused]\Rshake\narr由于此讯息不符合符合国家安全法规，已被屏蔽\...\...\...
+\m[flirty]\Rshake\narr由于此讯息不符合符合国家安全法规，已被屏蔽\...\...

@@ -1,0 +1,32 @@
+ThisMap/Enter
+\m[confused]Productos de Cuero de Gump
+
+################################################################él llamaba herrero hermano. pero no son de la misma sangre.
+
+BSStrader/welcome
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Gump：\C[0]    Humano... Hola... Yo Gump... ¿Necesitas pieles...?
+
+Lona/MarketOpt
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Mmm... \optB[Olvídalo,Intercambio,¿Quién eres?]
+
+BSStrader/About
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\C[0]    Nacimos... Nos convertimos... Peces...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\C[0]    Cuando viejo... Volver al mar... Servir... Bruja Marina...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\C[0]    No hay futuro... Solo callejón sin salida...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[normal]\Lshake\prf\c[4]Gump：\C[0]    Hermano... Soñaba... Se fue de casa...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\C[0]    Espero... Mi hijo... También visite... Tierras nuevas...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[confused]\Lshake\prf\c[4]Gump：\C[0]    Hermanos Hombres-Pez... Deben ver... Mundo...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\C[0]    Me volví... Viejo... Descendientes... Ese es futuro... Hombres-Pez......
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ...¿Q-Qué?
+
+BSStrader/end
+\CBmp[BSStrader,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Gump：\C[0]    Mis descendientes... Siempre... Crecen...
+
+kid/Rand0
+\CBmp[KidReader,20]\c[4]Niño：\C[0]    Tío Bubba dice... Abrió tienda... Isla humana...! Iré... Algún día...!
+
+kid/Rand1
+\CBmp[KidReader,20]\c[4]Niño：\C[0]    Mi tío... Dio muchos... Libros humanos...!
+
+kid/Rand2
+\CBmp[KidReader,20]\c[4]Niño：\C[0]    Escuché... En isla humanos... Hay gran... Mercado!

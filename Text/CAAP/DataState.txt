@@ -1,0 +1,1382 @@
+Dizzy/item_name
+Vértigo
+
+Dizzy/description
+\n
+Algo... me... pasa...\n
+Todo... da vueltas...\n
+\n
+\C[1]Reduce la reserva máxima de fuerza\n
+\C[1]Aumenta la debilidad\n
+\C[1]Reduce la velocidad\n
+
+ParasitedPolypWorm/item_name
+Pólipos
+
+ParasitedPolypWorm/description
+\n
+El vientre está hinchado... hace mucho calor.\n
+\n
+\C[5]Con cada orgasmo, hay posibilidades de expulsar gusanos poliposos.\n
+\C[5]La excitación aumenta con cada descanso.\n
+\C[1]Expande la vagina con cada descanso.\n
+\C[1]Cada descanso perjudica al bebé.\n
+
+ParasitedHookWorm/item_name
+Anquilostoma
+
+ParasitedHookWorm/description
+\n
+Tengo náuseas... y no tengo ganas de comer.\n
+\n
+\C[5]Provoca náuseas periódicamente.\n
+\C[5]Cada vez que tienes náuseas, existe la posibilidad de expulsar gusanos anquilostomas.\n
+\C[1]Aumenta el consumo de saciedad al descansar.\n
+
+StomachSeedBed/item_name
+Parasitos (Estómago)
+
+StomachSeedBed/description
+\n
+Mi estómago se ha convertido en un criadero de monstruos...\n
+\n
+\C[1]Aumenta la natalidad de los gusanos anquilostomas cada vez que descansas.\n
+
+NaturalVagGlandsLink/item_name
+Orgasmicidad
+
+NaturalVagGlandsLink/description
+\n
+Mi cuerpo es muy sensible.\n
+\n
+\C[6]Eliminación automática, resección y reconstrucción de la glándula.\n
+\C[2]Reduce los efectos negativos sobre la reserva de fuerza.\n
+
+WaveringResolve/item_name
+Vacilación
+
+WaveringResolve/description
+\n
+Siempre soy indecisa.
+\n
+\C[2]Reduce los efectos negativos sobre los puntos de vida\n
+\C[1]Disminuye la VOLUNTAD\n
+
+ADHD/item_name
+ADHD
+
+ADHD/description
+\n
+No sé por qué siempre soy tan impulsiva.
+\n
+\C[2]Aumenta el marco de esquiva\n
+\C[2]Aumenta la VELOCIDAD\n
+\C[1]Disminuye la SABIDURÍA\n
+
+STD_Leukorrhea/item_name
+Vaginitis
+
+STD_Leukorrhea/description
+\n
+De mi vagina sigue saliendo una especie de mucosidad pegajosa...\n
+¡Uf! Y huele tan mal... ¿Es alguna enfermedad?\n
+\C[1]Reduce la moral en 15.\n
+
+STD_WartAnal/item_name
+Verrugas (A)
+
+STD_WartAnal/description
+\n
+Tumores carnosos alrededor del ano y, al parecer, dentro del recto...\n
+Aunque no son dolorosas, me provocan un picor constante...\n
+\C[1]Reduce la moral en 15.\n
+
+STD_WartVag/item_name
+Verrugas (V)
+
+STD_WartVag/description
+\n
+Parece que me han salido verrugas ahí abajo.\n
+Las protuberancias dentro de mi vagina me pican casi todo el tiempo...\n
+Debido a la irritación, tengo ganas constantes de meterme algo dentro.\n
+\C[1]Reduce la moral en 15.\n
+
+STD_HerpesAnal/item_name
+Herpes (A)
+
+STD_HerpesAnal/description
+\n
+Tengo pequeñas llagas y ampollas alrededor del ano y en la parte interna de los glúteos...\n
+Casi lloro incluso cuando estoy sentada...\n
+\C[1]Reduce la moral en 15.\n
+
+STD_HerpesVag/item_name
+Herpes (V)
+
+STD_HerpesVag/description
+\n
+Me han salido pequeñas erupciones dolorosas y úlceras por todo el vagina...\n
+Me duele mucho cuando las toco...\n
+\C[1]Reduce la moral en 15.\n
+
+Freckle/item_name
+Pecas
+
+Freckle/description
+\n
+Me han salido pequeños puntos marrones por toda la cara y la piel...\n
+Papá dice que es porque juego mucho al sol en la calle.\n
+He oído que a algunos niños les parecen\n
+bonitas!\n
+
+Tail/item_name
+Cola
+
+Tail/description
+\n
+Cuando era pequeña, todos me tiraban de la coleta.\n
+
+PubicHairVag/item_name
+Vello Vaginal
+
+PubicHairVag/description
+\n
+¡El pelo púbico es un símbolo de madurez!\n
+Gracias a él, la gente debería dejar de reírse de mí y tratarme\n
+como a una niña.
+
+PubicHairAnal/item_name
+Vello Anal
+
+PubicHairAnal/description
+\n
+Los sacerdotes dicen que el vello alrededor del ano crece para evitar que el cuerpo se ensucie demasiado.
+\n
+\n
+Pero si otros hombres ven esa zona...
+
+WeakBladder/item_name
+Orina
+
+WeakBladder/description
+\n
+Uf... Todavía meo en la cama.\n
+Además, si bebo demasiada agua, se me sale.\n
+
+SaintFieldSupporter/item_name
+Sacerdotisa menor
+
+SaintFieldSupporter/description
+\n
+Dijeron que tenía el don de servir al Santo.
+Pero desde ese día, mi padre me prohibió jugar en la iglesia.
+\n
+\C[6]Se requiere la característica «Acólito».\n
+\C[6]Se necesitan 10 puntos de Constitución.\n
+\C[2]La habilidad «Curación del alma» ahora cura las heridas del objetivo.
+
+NunKnowledge/item_name
+Acólito
+
+NunKnowledge/description
+\n
+De niña pasaba bastante tiempo en la iglesia.
+
+\C[6]Se necesitan 5 puntos de Constitución.
+\C[2]Desbloquea la habilidad «Curación del alma».
+\C[2]Posibilidad de usar objetos sagrados.\n
+
+AbomSickly/item_name
+Enfermedad
+
+AbomSickly/description
+\n
+Durante mi infancia, mi salud siempre fue débil...\n
+Ejem, ejem...\n
+\n
+\C[2]Aumenta el ataque en 8.\n
+\C[1]Reduce la vida máxima en x0,95 y la reserva de fuerza en x0,8.\n
+\C[1]Aumenta la debilidad en x1,1.\n
+\C[1]Reduce la velocidad en 0,2.\n
+\C[1]Esta dolencia vuelve después de dormir.\n
+
+PreDeepone/item_name
+Olor corporal
+
+PreDeepone/description
+\n
+Todo el mundo dice que huelo a pescado,\n
+especialmente ahí abajo...\n
+Creo que debería lavarme...\n
+\C[6]Reduce la sexualidad.\n
+\C[1]Reduce la exploración.\n
+
+TrueDeepone/item_name
+Don de bruja
+
+TrueDeepone/description
+\n
+¡La sangre de la bruja marina se ha despertado en ti!\n
+¡Eres tan hermosa como una sirena de leyenda!\n
+Tu aroma vuelve locos y llena\n
+de lujuria incontrolable a cualquier hombre.\n
+
+ShadowMaster/item_name
+En la oscuridad
+
+ShadowMaster/description
+\}\n
+Estoy en la oscuridad. No... La oscuridad está dentro de mí.\n 
+\n
+\C[6]Se requiere la característica «Desde la sombra».\n
+\C[6]Se necesitan 20 puntos de Exploración.\n
+\C[2]Permite usar habilidades\n
+sin salir del modo de sigilo.\n
+
+IntoShadow/item_name
+Desde las sombras
+
+IntoShadow/description
+\}\n 
+Ella temía a su propia sombra.\n
+Otros también temían a su sombra.\n
+\n
+\C[6]Se necesitan 10 puntos de Exploración.\n
+\C[2]Al interactuar, permaneces\n
+en modo sigiloso hasta que\n
+utilices la habilidad.\n
+
+TrapImprove/item_name
+Cazadora
+
+TrapImprove/description
+\n
+La preparación es una parte importante de la caza.\n
+\n
+\C[6]Se requiere la característica «Cazadora».\n
+\C[6]Se necesitan 10 puntos de Supervivencia.\n
+\C[2]Tus trampas ahora aturden a los personajes cuando se activan.\n
+\C[1]Aumenta el ataque en 1,5 por acumulación.\n
+\C[1]Reduce la voluntad en x0,95 por acumulación.\n
+
+DailyDrunkLevel/item_name
+Embriaguez
+
+DailyDrunkLevel/description
+\}¡Ik!\n
+\C[2]Aumenta el ataque en 1,5 por cada acumulación.\n
+\C[1]Reduce la voluntad en x0,95 por cada acumulación.\n
+\C[1]Reduce la sabiduría en 5 por cada acumulación.\n
+\C[1]Aumenta la debilidad en x1,05 por cada acumulación.\n
+
+DailyPlusMood/item_name
+Alegría
+
+DailyPlusMood/description
+\n
+\C[6]El efecto se debilita cada 12 horas.\n
+\C[5]Aumenta la moral mínima.\n
+\C[2]Aumenta la velocidad en 0,2 por acumulación.\n
+
+
+DailyPlusHealthy/item_name
+Placer
+
+DailyPlusHealthy/description
+\n
+\C[6]El efecto se debilita cada 12 horas.\n
+\C[2]Aumenta la Voluntad en 100.\n
+\C[2]Aumenta el Ataque en 2.\n
+\C[2]Aumenta la defensa en 1.\n
+
+Pessimist/item_name
+Pesimista
+
+Pessimist/description
+\}\n
+Todo va mal. \n
+Y solo irá a peor...\n
+\n
+\C[2]Aumenta el ataque durante la depresión.\n
+\C[1]Reduce el ataque durante la alegría.\n
+
+Lactation/item_name
+Lactancia
+
+Lactation/description
+\n
+Mis glándulas mamarias producen leche constantemente.\n
+
+\C[5]Aumenta constantemente la plenitud de los senos.\n
+
+Hitchhiker/item_name
+Autoestopista
+
+Hitchhiker/description
+\n
+El autoestop es mi pasión.
+¡Que te vaya bien y gracias por el pescado!
+
+\C[6]Se necesitan 15 puntos de Supervivencia.
+\C[2]Aumenta la Voluntad x1,2.\n
+\C[2]Aumenta el límite de Saciedad en 15.\n
+\C[2]Reduce la probabilidad de que ocurran eventos peligrosos\n
+en el mapa del mundo.
+
+Lilith/item_name
+Lilith
+
+Lilith/description
+\n
+Después de mucha práctica\n
+mis agujeros tienen el poder de destrozar.\n
+\n
+\C[6]Requiere la característica «Prostituta».\n
+\C[2]Aumenta la Voluntad x1,3.\n
+\C[2]Aumenta la salud en 3 y la reserva de fuerza en 10\n
+en el momento del golpe crítico en el combate sexual.\n
+\C[2]Aumenta el ataque sexual máximo a 150.\n
+
+Succubus/item_name
+Súcubo
+
+Succubus/description
+\n
+¡Todos los hombres me pertenecen! ♥\n
+\n
+\C[2]Desbloquea la habilidad «Recolección de jugo».\n
+
+ImproveThrowRock/item_name
+Lanzadora
+
+ImproveThrowRock/description
+\}\n
+Me he vuelto más hábil a la hora de llamar la atención.\n
+\n
+\C[6]Se necesitan 15 puntos de Agilidad.\n
+\C[2]Aumenta el tiempo durante el cual las criaturas, los enemigos y los PNJ\n
+se distraen.\n
+
+Alchemy/item_name
+Alquimia
+
+Alchemy/description
+\n
+¡Echa cualquier cosa en el caldero y mira qué sale!\n
+
+\C[6]Se necesitan 10 puntos de Supervivencia.\n
+\C[6]Se necesitan 10 puntos de Supervivencia.\n
+\C[2]Desbloquea la habilidad «Caldero oscuro».\n
+
+HunterTraining/item_name
+Cazadora
+
+HunterTraining/description
+\n
+Un verdadero cazador siempre vigila\n
+dónde pisa...\n
+\n
+\C[2]Desbloquea la habilidad «Hacer una trampa».\n
+\C[2]Desbloquea la habilidad «Coger una piedra».\n
+
+BloodyMess/item_name
+Sangre derramada
+
+BloodyMess/description
+\}\n
+No importa lo que haga...\n
+¡Siempre sale mal!\n
+\n
+\C[2]Cualquier asesinato de Lona se llevará a cabo con especial crueldad.\n
+
+WeaponryKnowledge/item_name
+Experto en armas
+
+WeaponryKnowledge/description
+\n
+Sujétalo por el extremo correcto\n
+es un buen comienzo para una mercenaria.\n
+\n
+\C[2]Posibilidad de usar\n
+armas avanzadas.\n
+\C[2]La habilidad «Golpe fuerte» ya no se interrumpe con los ataques enemigos.\n
+
+ManaKnowledge/item_name
+Experta en magia
+
+ManaKnowledge/description
+\n
+¡Eres una maga, Lona!\n
+\n
+\C[2]Posibilidad de usar\n
+armas mágicas.\n
+
+Omnivore/item_name
+Omnivora
+
+Omnivore/description
+\}\n
+¡Ñam, ñam, ñam!\n
+\n
+\C[2]Reduce los efectos negativos de la comida.\n
+\C[2]Se puede recoger «suciedad»\n
+\C[16](heces, esperma, etc.).\n
+
+Exhibitionism/item_name
+Exhibicionista
+
+Exhibitionism/description
+\}\n
+¡La ropa es pesada, libérate!\n
+\n
+\C[2]La moral no disminuye cuando Lona\n
+está desnuda.\n
+\C[2]La desnudez aumentará la velocidad.\n
+
+Prostitute/item_name
+Prostituta
+
+Prostitute/description
+\n
+Representante de la profesión más antigua...\n
+\n
+\C[5]Posibilidad de tener relaciones sexuales\n
+con personajes a cambio de puntos de intercambio.\n
+\C[2]Aumenta el ataque sexual.\n
+\C[2]Reduce los efectos negativos de\n
+las relaciones sexuales.\n
+
+Masturbationed/item_name
+Me he corrido
+
+Masturbationed/description
+\n
+
+Me he corrido hace poco. A muchos les gusta.
+
+Fatigue/item_name
+Fatiga
+
+Fatigue/description
+\n
+Estoy muy cansada...\n
+\n
+\C[1]Reduce el ataque.\n
+\C[1]Aumenta la debilidad.\n
+\C[1]Reduce la velocidad.\n
+
+SemenGulper/item_name
+Demonio del semen
+
+SemenGulper/description
+\}\n
+¡Chicos! ¡Me encanta el semen!
+\n
+\C[2]Posibilidad de recolectar semen
+como alimento.
+\C[2]Reduce la probabilidad de envenenamiento por semen.
+
+Mod_Taste/item_name
+Sabor. Receptor
+
+Mod_Taste/description
+\n
+Tu sabor es similar al de dos mujeres que comieron de la misma taza...\n
+\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de fuerza.\n
+\C[1]La comida provoca vómitos, pero no «suciedad».\n
+
+Cannibal/item_name
+Caníbal
+
+Cannibal/description
+\n
+¿Cuánto tiempo debe pasar\n
+para que una persona se convierta en\n
+un monstruo debido al hambre?\n
+\n
+\C[2]Se puede recolectar carne humana\n
+de las personas asesinadas.\n
+\C[2]Reduce los efectos negativos\n
+de comer carne humana.\n
+
+Mod_VagGlandsLink/item_name
+Sensibilidad del clítoris
+
+Mod_VagGlandsLink/description
+\n
+¡¡¡ME CORRO!!!\n
+\n
+\C[5]Posibilidad de correrse en cualquier momento.\n
+
+Mod_VagGlandsSurgical/item_name
+Circuncidada
+
+Mod_VagGlandsSurgical/description
+\n
+Soy frígida...\n
+\n
+\C[5]Imposibilidad de experimentar orgasmos en\n
+cualquier situación.\n
+
+BloodLust/item_name
+Sed de sangre
+
+BloodLust/description
+\n
+¿Te gusta hacer daño?...\n
+\n
+\C[2]Aumenta el ataque en 5.\n
+\C[2]Aumenta la reserva de fuerza en 6, así como\n
+la saciedad en 3 con asesinatos brutales.\n
+\C[2]Durante un ataque crítico, se realiza un ataque adicional contra la salud del enemigo, que depende del nivel de habilidades de combate.\n
+
+Masochist/item_name
+Masoquista
+
+Masochist/description
+\n
+Cuando te humillan, no siempre es malo...\n
+\n
+\n
+\C[2]Aumenta la defensa en 1.
+\C[2]Aumenta la moral al
+recibir daño.
+
+Mod_MilkGland/item_name
+Hiperlactancia
+
+Mod_MilkGland/description
+\n
+Mis pechos producen leche constantemente.\n
+\n
+\C[5]Aumenta constantemente el nivel de leche en los pechos.\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de energía.\n
+
+Mod_Sterilization/item_name
+Esterilizada
+
+Mod_Sterilization/description
+\n
+En las circunstancias actuales, esta puede ser la solución más lógica.
+\n
+\n
+\C[6]Reduce la sexualidad en un 0,95.
+\C[6]Imposibilidad de quedarse embarazada.\n
+
+AsVulva_Esophageal/item_name
+Sensibilidad. Garganta
+
+AsVulva_Esophageal/description
+\n
+¡Me encanta comer! ¡No puedo parar!\n
+
+\C[5]Cualquier consumo de comida aumenta la excitación.\n
+\C[5]Cualquier consumo de comida aumenta la excitación.\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de energía.\n
+
+AsVulva_Urethra/item_name
+Sensibilidad. Uretra
+
+AsVulva_Urethra/description
+\n
+Es una sensación agradable cuando dejas salir el chorro...\n
+\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de energía.\n
+
+AsVulva_Anal/item_name
+Sensibilidad del ano
+
+AsVulva_Anal/description
+\n
+No puedo dejar de pensar en cómo algo penetra\n
+en mi agujero trasero...\n
+\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de fuerza.\n
+
+AsVulva_Skin/item_name
+Sensibilidad. Piel
+
+AsVulva_Skin/description
+\n
+Incluso el roce de la ropa contra el cuerpo puede hacerme correrme.\n
+\n
+\C[5]Cualquier acción que consuma reserva de fuerza aumenta\n
+el nivel de excitación.\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de energía.\n
+
+AsVulva_MilkGland/item_name
+Pezones sensibles
+
+AsVulva_MilkGland/description
+\n
+Mis pechos son muy, muy sensibles...\n
+\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de energía.\n
+
+ParasitedMoonWorm/item_name
+Parásitos (A)
+
+ParasitedMoonWorm/description
+\n
+Los gusanos lunares no dejan de retorcerse en mi estómago...\n
+
+\C[5]Los movimientos en el estómago se intensifican con el tiempo.\n
+\C[5]Los movimientos en el estómago se intensifican con el tiempo.\n
+\C[5]Cada vez que defecas, existe la posibilidad de expulsar\n
+un gusano lunar.\n
+\C[1]Expande el ano cada vez que descansas.\n
+\C [1]Aumenta el consumo de saciedad al descansar.\n
+
+ParasitedPotWorm/item_name
+Parásitos (E)
+
+ParasitedPotWorm/description
+\n
+Los parásitos de la olla no dejan de retorcerse en mi vejiga...\n
+\n
+\C[5]Aumenta constantemente la necesidad\n
+de orinar.\n
+\C[5]Cada vez que orinas, existe la posibilidad de expulsar\n
+un gusano de maceta.\n
+\C[1]Dilata la uretra cada vez que descansas.\n
+\C[1]Aumenta el consumo de saciedad al descansar.\n
+
+AnalSeedBed/item_name
+RC (Intestino)
+
+AnalSeedBed/description
+\n
+Mi intestino se ha convertido en un caldo de cultivo para monstruos...\n
+
+\C[1]Aumenta la probabilidad de que aparezca el parásito con cada descanso.\n
+\C[1]Aumenta la probabilidad de aparición de parásitos con cada descanso.\n
+
+BladderSeedBed/item_name
+RC (Vesical)
+
+BladderSeedBed/description
+\n
+Mi vejiga se ha convertido en un caldo de cultivo para monstruos...\n
+
+\C[1]Aumenta la probabilidad de aparición de parásitos con cada descanso.\n
+\C[1]Aumenta la probabilidad de aparición de parásitos con cada descanso.\n
+
+WeakSoul/item_name
+Tímida
+
+WeakSoul/description
+\n
+El mundo me deprime...\n
+\C[6]Cambia la personalidad de Lona.\n
+\C[2]Reduce los efectos negativos sobre la salud.\n
+\C[2]Aumenta la defensa.\n
+\C[2]Aumenta la supervivencia y la sabiduría.\n
+\C[2]Reduce la salud por hambre.\n
+\C[1]Reduce la voluntad.\n
+\C[1]Aumenta la debilidad.\n
+\C[1]Reduce el ataque\n
+\C[1]Reduce la velocidad.\n
+
+IronWill/item_name
+Resistente
+
+IronWill/description
+\n
+El mundo me endurece.\n
+\C[6]Cambia la personalidad de Lona.\n
+\C[2]Aumenta la voluntad.\n
+\C[2]Reduce la debilidad.\n
+\C[2]Aumenta el ataque.\n
+\C[2]Aumenta la defensa.\n
+\C[2]Aumenta la velocidad.\n
+\C[6]Reduce la sexualidad.\n
+\C[1]Reduce la salud máxima.\n
+\C[1]Reduce la reserva de energía máxima.\n
+
+Nymph/item_name
+Ninfómana
+
+Nymph/description
+\n
+¡El mundo me corrompe! ♥\n
+\C[6]Cambia la personalidad de Lona.\n
+\C[2]Aumenta la voluntad.\n
+\C[2]Aumenta el ataque sexual.\n
+\C[2]Reduce los efectos negativos\n
+sobre la reserva de energía.\n
+\C[2]Reduce la debilidad.\n
+\C[2]Aumenta la defensa.\n
+\C[6]Aumenta la sexualidad.\n
+\C[1]Reduce la saciedad máxima.\n
+
+StomachSpasm/item_name
+Gastroenteritis
+
+StomachSpasm/description
+\n
+Disfunción estomacal. ¡Uf!\n
+\n
+\C[1]Reduce la reserva máxima de fuerza x0,9.\n
+\C[1]Reduce la velocidad x0,9.\n
+\C[1]Aumenta la debilidad x1,1.\n
+\C[1]Provoca náuseas periódicamente.\n
+
+SemenAddiction/item_name
+Adicción
+
+SemenAddiction/description
+\n
+Adicción al semen\n
+¡No puedo tragar nada más que semen!\n
+
+\C[2]Reduce los efectos negativos sobre la salud.\n
+\C[2]Reduce los efectos negativos sobre la salud.\n
+\C[1]Reduce la velocidad x0,99.\n
+\C[1]Reduce la reserva máxima de fuerza x0,99.\n
+\C[1]Reduce la voluntad x0,99.\n
+\C[1]La comida normal provoca náuseas.\n
+\C[1]Posibilidad de sufrir aturdimiento.\n
+
+DrugAddiction/item_name
+Adicción
+
+DrugAddiction/description
+\n
+Adicción a las drogas\n
+No soy diferente de las esclavas sexuales,\n
+a las que desprecio...\n  
+\n
+\C[1]Reduce la salud máxima x0,99.\n
+\C[1]Reduce la velocidad x0,99.\n
+\C[1]Reduce la reserva máxima de fuerza x0,99.\n
+\C[1]Reduce la voluntad x0,98.\n
+\C[1]Probabilidad de recibir aturdimiento.\n
+
+OgrasmAddiction/item_name
+Adicción
+
+OgrasmAddiction/description
+\}\n
+Adicción al orgasmo\n
+¡FÓLLAME!\n
+\C[2]Reduce los efectos negativos sobre la salud.\n
+\C[2]Aumenta la velocidad x1,01.\n
+\C[1]Reduce la voluntad x0,99.\n
+\C[1]Probabilidad de quedar aturdido.\n
+
+MoodBad/item_name
+Depresión
+
+MoodBad/description
+\n
+¿Por qué sigo intentando sobrevivir\n
+en este infierno...?\n
+¿Quizás debería rendirme\n
+y poner fin a mi sufrimiento?\n
+\n
+\C[1]Aumenta la debilidad x1,025 por acumulación.\n
+\C[1]Reduce el ataque en 1 por acumulación.\n
+\C[1]Reduce la sabiduría en 1 con 4 acumulaciones.\n
+
+MoodGood/item_name
+Felicidad
+
+MoodGood/description
+\n
+\C[2]Aumenta el ataque en 1 por cada acumulación.\n
+\C[2]Aumenta la sabiduría en 0,25 por cada acumulación.\n
+\C[6]Reduce la debilidad en 0,975 por cada acumulación.\n
+
+WoundHead/item_name
+Lesión en la cabeza
+
+WoundHead/description
+\n
+Estoy herida. ¿Tienes algo para aliviar el dolor?\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,99.\n
+\C[1]Reduce la vida máxima x0,99.\n
+\C[1]Aumenta la debilidad x1,025.\n
+\C[1]Reduce la defensa en 4.\n
+\C[1]Reduce la sabiduría en 4.\n
+
+WoundChest/item_name
+Lesión en el pecho
+
+WoundChest/description
+\n
+Estoy herida. ¿Tienes algo para aliviar el dolor?\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,99.\n
+\C[1]Reduce la salud máxima x0,99.\n
+\C[1]Aumenta la debilidad x1,025.\n
+\C[1]Reduce la defensa en 4.\n
+\C[1]Reduce la supervivencia en 4.\n
+
+WoundCuff/item_name
+Lesión en la muñeca
+
+WoundCuff/description
+\n
+Estoy herida. ¿Tienes algo para aliviar el dolor?\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,98.\n
+\C[1]Reduce la salud máxima x0,98.\n
+\C[1]Aumenta la debilidad x1,025.\n
+\C[1]Reduce la defensa en 5.\n
+
+
+WoundSArm/item_name
+Lesión en el brazo izquierdo
+
+WoundSArm/description
+\n
+Estoy herida. ¿Tengo algo para aliviar el dolor?\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,99.\n
+\C[1]Reduce la salud máxima x0,99.\n
+\C[1]Aumenta la debilidad x1,025.\n
+\C[1]Reduce el ataque en 4.\n
+
+WoundMArm/item_name
+Lesión en el brazo derecho
+
+WoundMArm/description
+\}\n
+Estoy herida. ¿Tengo algo para aliviar el dolor?\n
+
+\C[6]Reduce la sexualidad en 0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,99.\n
+\C[1]Reduce la salud máxima x0,99.\n
+\C[1]Aumenta la debilidad x1,025.\n
+\C[1]Reduce el ataque en 4.\n
+
+WoundCollar/item_name
+Lesión en el cuello
+
+WoundCollar/description
+\n
+Estoy herida. ¿Tienes algo para aliviar el dolor?\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,98.\n
+\C[1]Reduce la vida máxima x0,98.\n
+\C[1]Aumenta la debilidad x1,02.\n
+\C[1]Reduce el ataque en 1.\n
+
+WoundBelly/item_name
+Lesión abdominal
+
+WoundBelly/description
+\n
+Estoy herida. ¿Tienes algo para aliviar el dolor?\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,98.\n
+\C[1]Reduce la vida máxima x0,98.\n
+\C[1]Aumenta la debilidad x1,02.\n
+\C[1]Reduce el ataque en 4.\n
+
+WoundGroin/item_name
+Lesión en la ingle
+
+WoundGroin/description
+\n
+Estoy herida. ¿Tengo algo para aliviar el dolor?\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,98.\n
+\C[1]Reduce la salud máxima x0,98.\n
+\C[1]Aumenta la debilidad x1,02.\n
+\C[1]Reduce la velocidad x0,93.\n
+
+WoundSThigh/item_name
+Lesión en la pierna izquierda
+
+WoundSThigh/description
+\n
+Estoy herida. ¿Tengo algo para aliviar el dolor?\n
+
+\C[6]Reduce la sexualidad x0,98.\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,98.\n
+\C[1]Reduce la salud máxima x0,99.\n
+\C[1]Aumenta la debilidad x1,02.\n
+\C[1]Reduce la velocidad x0,93.\n
+
+WoundMThigh/item_name
+Lesión en la pierna derecha
+
+WoundMThigh/description
+\n
+Estoy herida. ¿Tengo algo para aliviar el dolor?\n
+
+\C[6]Reduce la sexualidad x0,98.\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Reduce la reserva máxima de fuerza x0,98.\n
+\C[1]Reduce la salud máxima x0,99.\n
+\C[1]Aumenta la debilidad x1,02.\n
+\C[1]Reduce la velocidad x0,93.\n
+
+CumsCreamPie/item_name
+Creampie
+
+CumsCreamPie/description
+\n
+¡Mi vagina está llena de semen!\n
+Tengo que lavarme bien y rápido,\n
+o corro el riesgo de quedarme embarazada.\n
+\n
+\C[6]Aumenta la sexualidad x1,02.\n
+\C[1]Reduce la reserva máxima de energía x0,995.\n
+\C[1]Aumenta la debilidad x1,02.\n
+\C[1]Reduce la velocidad x0,995.\n
+
+CumsMoonPie/item_name
+CreamPie
+
+CumsMoonPie/description
+\n
+El semen de alguien sale de mi ano...\n
+\n
+\C[6]Aumenta la sexualidad x1,01.\n
+\C[1]Reduce la reserva máxima de fuerza x0,995.\n
+\C[1]Aumenta la debilidad x1,01.\n
+\C[1]Reduce la velocidad x0,995.\n
+
+CumsHead/item_name
+Bukkake
+
+CumsHead/description
+\n
+Toda mi cara está cubierta de semen.\n
+\n
+\C[6]Aumenta la sexualidad x1,01.\n
+\C[1]Aumenta la debilidad x1,03.\n
+
+CumsTop/item_name
+Pechos cubiertos de semen
+
+CumsTop/description
+\n
+Mis pechos están pegajosos y resbaladizos...\n
+
+\C[6]Aumenta la debilidad x1,01.\n
+\C[6]Aumenta la sexualidad x1,05.\n
+\C[1]Aumenta la debilidad x1,01.\n
+
+CumsMid/item_name
+Vientre cubierto de semen
+
+CumsMid/description
+\n
+Mi vientre está cubierto de algo pegajoso...\n
+\n
+\C[6]Aumenta la sexualidad x1,01.\n
+\C[1]Aumenta la debilidad x1,03.\n
+
+CumsBot/item_name
+Piernas cubiertas de semen
+
+CumsBot/description
+\n
+Mis piernas están pegajosas y resbaladizas...\n
+\n
+\C[6]Aumenta la sexualidad x0,99.\n
+\C[1]Aumenta la debilidad x1,03.\n
+
+CumsMouth/item_name
+Boca cubierta de semen
+
+CumsMouth/description
+\n
+Sabor salado...\n
+\n
+\C[6]Aumenta la sexualidad x1,01.\n
+
+Contraceptived/item_name
+Anticonceptivos
+
+Contraceptived/description
+\n
+Hoy no me quedaré embarazada. Espero...\n
+\n
+\C[2]Reduce la probabilidad de quedarse embarazada\n
+en 0,3 por cada pila.\n
+\C[6]Reduce la sexualidad en 0,95.\n
+
+SemenBursting/item_name
+Llena de semen
+
+SemenBursting/description
+\n
+Me han llenado tanto que parece que estoy a punto de estallar.\n
+\n
+\n
+\C[6]Aumenta la sexualidad x1,02.\n
+\C[1]Reduce la reserva máxima de fuerza x0,95.\n
+\C[1]Reduce el ataque x0,7.\n
+\C[1]Aumenta la debilidad x1,02.\n
+\C[1]Reduce la velocidad x0,95.\n
+
+EffectWet/item_name
+Humedad
+
+EffectWet/description
+\}\n
+Me siento incómoda...\n
+
+\C[1]Aumenta la debilidad x1,02.\n
+
+PregState/item_name
+Embarazo
+
+PregState/description
+\n
+Bueno, estoy embarazada. Pero, ¿quién es el padre?\n  
+\n
+\C[6]Aumenta la sexualidad x1,1.\n
+\C[1]Reduce la reserva máxima de energía x0,97.\n
+\C[1]Aumenta la debilidad x1,15.\n
+\C[1]Reduce la velocidad x0,97.\n
+
+FeelsSick/item_name
+Enfermedad
+
+FeelsSick/description
+\n
+Me encuentro mal...\n
+\n
+\C[1]Reduce la reserva máxima de fuerza x0,9.\n
+\C[1]Aumenta la debilidad x1,1.\n
+\C[1]Reduce la velocidad x0,9.\n
+
+FeelsWarm/item_name
+Deseo sexual
+
+FeelsWarm/description
+\n
+Quiero sexo...\n
+\n
+\C[5]Acelera la recuperación de la excitación.\n
+
+FeelsHorniness/item_name
+Deseo sexual
+
+FeelsHorniness/description
+\n
+NECESITO SEXO...!\n
+\n
+\C[2]Reduce los efectos negativos sobre la salud y la reserva de energía.\n
+\C[5]Acelera la recuperación de la excitación.\n
+\C[1]Aumenta la probabilidad de embarazo.\n
+
+Cummed/item_name
+Orgasmo
+
+Cummed/description
+\n
+¡No me toques ahí!\n
+Ahora mismo estoy muy sensible...\n
+
+\C[5]Acelera la recuperación de la excitación.\n
+
+OverCummed/item_name
+Ahegao
+
+OverCummed/description
+\n
+Me cuesta controlar mis emociones.
+\n
+\C[5]Acelera la recuperación de la excitación.
+
+Dirt/item_name
+Suciedad
+
+Dirt/description
+\n
+¡Qué asco! ¡¿Cuándo fue la última vez que me lavé?!
+\n
+\C[2]Aumenta la exploración en 1.
+\C[6]Reduce la sexualidad en x0,8.
+\C[1]Aumenta la debilidad en x1,1.
+
+EffectBleedVag/item_name
+Sangre (vagina)
+
+EffectBleedVag/description
+\n
+¡Duele!
+\n
+\C[6]Reduce la sexualidad en x0,98.
+\C[1]Aumenta la debilidad en x1,07.
+
+EffectBleedAnal/item_name
+Sangre (ano)
+
+EffectBleedAnal/description
+\n
+¡Duele!\n
+\n
+\C[6]Reduce la sexualidad x0,98.\n
+\C[1]Aumenta la debilidad x1,07.\n
+
+EffectScat/item_name
+Diarrea
+
+EffectScat/description
+\n
+Uf... ¡Estoy manchada!\n
+\n
+\C[6]Aumenta la suciedad mínima en 50.\n
+\C[1]Reduce la sexualidad x0,7.\n
+\C[1]Aumenta la debilidad x1,1.\n
+
+VaginalDamaged/item_name
+Prolapso (M)
+
+VaginalDamaged/description
+\n
+Ahora estoy lista para penes más grandes.\n
+\n
+\C[1]Reduce el ataque sexual con la vagina.\n
+
+UrethralDamaged/item_name
+Prolapso (U)
+
+UrethralDamaged/description
+\n
+No puedo contener la orina.\n
+
+\C[5]Micción incontrolable.\n
+
+SphincterDamaged/item_name
+Prolapso (A)
+
+SphincterDamaged/description
+\n
+Parece que ya no puedo aguantar más...\n
+\n
+\C[5]Defecación incontrolable.\n
+\C[1]Reduce el ataque sexual por el ano.\n
+
+SlaveBrand/item_name
+Marca de esclavo
+
+SlaveBrand/description
+\n
+Me han marcado la cara con un hierro candente...\n
+\n
+\C[6]Aumenta la sexualidad en 20.\n
+\C[1]Aumenta la debilidad en 100.\n
+\C[1]Reduce la reputación en 71.\n
+
+moot/item_name
+Mestizo
+
+moot/description
+\n
+Corre por mis venas la sangre de otra raza.\n
+
+\C[2]Aumenta la exploración en 5 y la probabilidad de éxito en los robos.\n
+\C[2]Aumenta la exploración en 5 y la probabilidad de éxito al robar.\n
+\C[6]Reduce la reputación en 10.\n
+\C[6]Aumenta la sexualidad x1,1.\n
+\C[1]Aumenta la debilidad x1,2.\n
+
+PiercingNose/item_name
+Perfo: Septum
+
+PiercingNose/description
+\n
+Como el de una vaca... ¿Muu?\n
+\n
+\C[6]Reduce la Sexualidad en 10.\n
+\C[5]Reduce/Aumenta la Debilidad en 10 dependiendo de la Moral.\n
+
+PiercingEar/item_name
+Perfo: Orejas
+
+PiercingEar/description
+\n
+Pareceré una mujer de mala reputación...\n
+\n
+\C[6]Reduce la sensualidad en 5.\n
+\C[5]Reduce/Aumenta la debilidad en 5 dependiendo de la moral.\n
+
+PiercingChest/item_name
+Perfo: Pecho
+
+PiercingChest/description
+\n
+El metal estimula mis pezones...\n
+\n
+\C[1]Aumenta la debilidad en 15.\n
+
+PiercingBelly/item_name
+Perfo: Ombligo
+
+PiercingBelly/description
+\n
+Como una esclava sexual.\n
+
+\C[1]Aumenta la debilidad en 15.\n
+\C[1]Aumenta la debilidad en 15.\n
+
+PiercingArms/item_name
+Perfo: Brazos
+
+PiercingArms/description
+\n
+Afecta al movimiento de mis brazos.\n
+\n
+\C[1]Aumenta la debilidad en 15.\n
+
+PiercingAnal/item_name
+Perfo: Nalgas
+
+PiercingAnal/description
+\n
+El metal estimula mi trasero.\n
+\n
+\C[1]Aumenta la debilidad en 15.\n
+
+PiercingVag/item_name
+Perfo: vagina
+
+PiercingVag/description
+\n
+El metal roza constantemente mis labios vaginales.\n
+\n
+\C[1]Aumenta la debilidad en 15.\n
+
+PiercingBack/item_name
+Perfo: Espalda
+
+PiercingBack/description
+\n
+Como un trozo de carne...\n
+\n
+\C[1]Aumenta la debilidad en 15.\n
+
+PiercingNoseB/item_name
+Perfo: Nariz
+
+PiercingNoseB/description
+\n
+Símbolo de agujero de carne para los hombres pez.\n
+Cada piercing significa el número de aquellos a los que he servido.\n
+\n
+\C[6]Reduce la sexualidad en 10.\n
+PiercingNoseG/item_name
+\C[5]Reduce/Aumenta la debilidad en 10 dependiendo de la moral.\n
+
+PiercingNoseG/item_name
+Perfo: Septum
+
+PiercingNoseG/description
+\n
+Como el de una vaca... ¿Muu?\n
+\C[6]Aumenta la sexualidad en 10.\n
+
+PiercingEarG/item_name
+Perfo: Orejas
+
+PiercingEarG/description
+\n
+Parezco una puta...\n
+
+\C[6]Aumenta la sexualidad en 5.\n
+
+PiercingHeadG/description
+\n
+Parezco una puta...\n
+\n
+\C[6]Aumenta la sexualidad en 5.\n
+
+PiercingChestG/item_name
+Perfo: Pecho
+
+PiercingChestG/description
+\n
+El metal estimula mis pezones...\n
+\C[6]Aumenta la sexualidad en 5.\n
+
+PiercingBellyG/item_name
+Perfo: Ombligo
+
+PiercingBellyG/description
+\n
+Como una esclava sexual.\n
+\n
+\C[6]Aumenta la sexualidad en 10.\n
+
+PiercingArmsG/item_name
+Perfo: Brazos
+
+PiercingArmsG/description
+\n
+Afecta a los movimientos de mis brazos.\n
+\n
+\C[6]Aumenta la sexualidad en 5.\n
+
+PiercingAnalG/item_name
+Perfo: Nalgas
+
+PiercingAnalG/description
+\n
+El metal estimula mi trasero.\n
+\n
+\C[6]Aumenta la sexualidad en 1.\n
+\C[6]Aumenta la excitación con el tiempo.\n
+
+PiercingVagG/item_name
+Perfo: Vaginal
+
+PiercingVagG/description
+\n
+El metal roza constantemente mis labios vaginales.\n
+\n
+\C[6]Aumenta la sexualidad en 1.\n
+\C[6]Aumenta la excitación con el tiempo.\n
+
+PiercingBackG/item_name
+Perfo: Espalda
+
+PiercingBackG/description
+\n
+Como un trozo de carne...\n
+\n
+\C[6]Aumenta la sexualidad en 5.\n
+
+PiercingNoseBG/item_name
+Perfo: Nariz
+
+PiercingNoseBG/description
+\n
+Símbolo de agujero de carne para los hombres pez.\n
+Cada piercing significa el número de aquellos a los que he servido.\n
+\n
+\n
+\C[6]Aumenta la sexualidad en 10.\n
+
+Mod_WombSeedBed/item_name
+RS (Útero)
+
+Mod_WombSeedBed/description
+\n
+Me pica cada vez más ahí abajo, la leche sale sin parar.\n
+Mi cuerpo se vuelve cada vez menos humano...\n
+\n
+\C[2]Reduce los efectos negativos sobre la salud.\n
+\C[6]Aumenta la sexualidad en 5 por cada pila.\n
+\C[1]Aumenta la probabilidad de embarazo en 0,1 por cada pila.\n
+
+nil/item_name
+
+nil/description

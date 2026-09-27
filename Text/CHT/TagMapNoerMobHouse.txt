@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+人口販子的據點。\optB[沒事,進入]
+
+Camp/MobSeen
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    是誰！
+\m[shocked]\Rshake\C[6]洛娜：\C[0]    糟糕了！
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    喂喂，居然還在睡。
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    今天累死了，我先撸個一發吧。
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    別弄死了，她們可是商品。
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    有什麼關係，再抓就有了。
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    這小鬼是怎樣？
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    自願來當商品的？ 賺到了阿！
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    這小鬼居然想逃跑？
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    欠教訓吧？
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    \{喂！ 醒來！
+
+Rogue/NapTorture2
+\m[tired]\C[6]洛娜：\C[0]    咦？
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    抓好她！ 我要試試她的身體有多耐操！
+\m[terror]\C[6]洛娜：\C[0]    不要！ 住手！
+
+Rogue/NapTorture3
+\m[pain]\C[6]洛娜：\C[0]    \{好痛！ 好痛啊！
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    沒意思，來玩點別的吧。
+\m[bereft]\C[6]洛娜：\C[0]    \{對不起！ 饒了我！ 真的對不起！
+
+Rogue/NapRape_withSta_NoFight2
+\m[sad]\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    口桀♥ 口桀♥
+
+Rogue/NapRape1
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    嘿嘿嘿。
+
+Rogue/NapRape3_0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    過來！把我的老二弄乾淨！
+
+Rogue/NapRape3_1
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    沒時間給你睡覺了！ 快用你的屄服務我們！
+
+Rogue/NapRape3_2
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    女人就該把腳打開讓我肏到爽！！
+
+Doors/LockReset
+\narr所有的門鎖都被更換了。
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    \{放飯了！婊子們！
+
+Rogue/PlaceFood1
+\narr他們在門口放了些食物。
+
+###################################################################### LOCKED DOOR
+
+Door/FristTime
+\m[confused]\c[6]洛娜：\c[0]    這門鎖看起來非常的廉價。
+\m[normal]\c[6]洛娜：\c[0]    無論是誰稍微用點工都可以破壞掉。
+
+Door/Unlocked
+壞掉的門。\optB[算了,使用]
+
+Door/UnlockedOUT
+\m[confused]\c[6]洛娜：\c[0]    這門鎖看起來非常的廉價。
+\m[normal]\c[6]洛娜：\c[0]    從外面打開應該是輕而易舉。\optB[不要浪費體力,破壞]
+
+Door/UnlockedOUT_win
+\m[pleased]\c[6]洛娜：\c[0]    搞定了！
+
+Door/TryBrokeOpt1
+\m[confused]粗製濫造的門鎖\optB[不要浪費體力,破壞<r=HiddenOPT1>]
+
+Door/TryBrokeOpt2
+\m[normal]要使用多少體力？\optB[不要浪費體力,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,120<r=HiddenOPT4>]
+
+Door/TryBroke_still
+\m[pleased]\c[6]洛娜：\c[0]    似乎松開了不少。
+\m[tired]\c[6]洛娜：\c[0]    但.... 嗚嗚.... 好累。
+
+##################################################################### begin
+
+Sold/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]野盜：\C[0]    小婊子！ 給我醒來！ 有買主了！
+\m[hurt]\c[6]洛娜：\c[0]    嗚嗚....
+
+Sold/begin2
+\SETpl[MobHumanCommoner]\Lshake\BonMP[Raper1,4]\C[4]野盜：\C[0]    嘿，就她了，剛捉到沒多久，還新鮮呢！
+\c[4]商人：\c[0]    ........
+\CamMP[Trader]\c[4]商人：\c[0]    你給我看的就是這個？
+\BonMP[Trader,5]\c[4]商人：\c[0]    這根本就被玩爛了，她還能做什麼工作？
+
+Sold/begin3
+\CamMP[Raper1]\BonMP[Raper1,6]\C[4]野盜：\C[0]    不不！ 你看仔細了，她四肢都還健在呢！
+\CamMP[Trader]\BonMP[Trader,7]\c[4]商人：\c[0]    你在開玩笑？ 一個銅幣！不能在多了！
+
+Sold/begin4
+\CamMP[Raper1]\BonMP[Raper1,5]\C[4]野盜：\C[0]    \}我肏！
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    \}反正也爽夠了。 \{賣了賣了！。
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]野盜：\C[0]    把烙印烙上！讓她滾！
+
+Sold/begin5
+\m[p5shame]\Rshake\c[6]洛娜：\c[0]    你們... 要做什麼！？
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]野盜：\C[0]    別亂動！位置偏了吃苦的還是妳自己！
+\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    不要！ 放開我！
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]野盜：\C[0]    就說了別亂動阿！ 乖！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    哈哈！真好玩！在叫大聲點阿！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！
+
+Sold/begin7_MinerPrison
+\ph\m[sad]\cgoff\narr洛娜被賣到了晶礦坑。
+
+Sold/begin7_NoerBackStreet
+\ph\m[sad]\cgoff\narr洛娜被賣到了後街。
+
+Sold/begin7_DoomFortressR
+\ph\m[sad]\cgoff\narr洛娜被賣到了末日堡壘兵營。
+
+Sold/begin7_FishTownR
+\ph\m[sad]\cgoff\narr洛娜被賣到了魚托比島。
+
+Sold/begin7_NoerArenaB1
+\ph\m[sad]\cgoff\narr洛娜被賣到了競技場。
+
+Sold/begin7_NorthFL_INN
+\ph\m[sad]\cgoff\narr洛娜被賣到了鹽場。
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    在決定怎麼處理妳以前給我乖乖待著。
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我會被怎麼處置呢...
+\m[fear]\plf\PRF\c[6]洛娜：\c[0]    奴隸....
+\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    \{不要！ 我不要當奴隸！
+

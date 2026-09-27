@@ -1,0 +1,403 @@
+####################################--------------------- overmap
+Town/OvermapEnter
+\m[confused]어토피아 시장\optB[그만둔다,들어간다]
+
+Slave/OvermapEnter
+\m[confused]어토피아 마을\optB[그만둔다,들어간다]
+
+#################################################--------------------- VEG Vandor
+
+VegetableTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]상인：\c[0] 꽃과 풀... 아주 중요해...
+
+VegetableTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]상인：\c[0] 물고기도... 풀을 먹어...
+
+#################################################--------------------- Med Vandor
+
+MedTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]상인：\c[0] 물건 나가고... 돈이 들어오고...
+
+MedTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]상인：\c[0] 어인 대박이다!
+
+#################################################--------------------- Weapon Vandor
+
+WeaponTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]상인：\c[0] 전사... 경비병의 것!
+
+WeaponTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]상인：\c[0] 우리는... 강하다...
+
+#################################################--------------------- Slave camp enter or gate
+
+Gate/Begin0
+\cg[map_FishPPL]마을로 통하는 길, 그 앞에 경비병이 서 있다.
+\SETpl[FrogSpear]\Lshake\SndLib[FishkindSmSpot]\c[4]경비병：\c[0] 꾸르륵!\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]경비병：\c[0] 인간... 누구...!
+\m[confused]\plf\PRF\c[6]로나：\c[0] 어?
+\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] !!!!!
+
+Gate/Enter_slave1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]경비병：\c[0] 여자! 도망친 여자!
+
+Gate/Enter_normal1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]경비병：\c[0] 인간... 멈춰라! 노예가 아니면 들어올 수 없다!
+
+Gate/Enter_normal2
+\m[confused]\plf\PRF\c[6]경비병：\c[0] 어?\optB[취소,노예가 될래]
+
+Gate/Enter_SlaveChoose
+\m[sad]\plf\PRF\c[6]로나：\c[0] 나...
+\m[fear]\plf\PRF\c[6]로나：\c[0] 당신들이 나를 안전하게 지켜줄 수 있다고 들었어... 나, 당신들의 노예가 되고 싶어...
+
+Gate/Enter_SlaveChoose_win
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]경비병：\c[0] 무릎 꿇어!
+\m[terror]\plf\Rshake\c[6]로나：\c[0] 예?!
+\cg[event_SlaveBrand]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] 바다 마녀를 찬양하라! 낙인이다!\optB[그만둔다,좋아]
+
+Gate/Enter_SlaveChoose_lose
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]경비병：\c[0] 꺼져라! 우리는 인간 남자는 환영하지 않는다!
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 예?! 남자? 나?
+
+Gate/Enter_SlaveChoose_brand
+\m[p5shame]\plf\Rshake\c[6]로나：\c[0] 너희... 뭐하려는 거야!?
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]경비병：\C[0] 꾸르륵! 움직이지 마!
+\m[p5sta_damage]\plf\Rshake\c[6]로나：\c[0] 안 돼! 놓아줘!
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]경비병：\C[0] 시끄럽군... 조용히 해라...
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]로나：\c[0] \{이아아아악!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]로나：\c[0] \{아아아악!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]경비병：\C[0] 이제 안전하다... 바다 마녀가 널 지켜줄 것이다...
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]로나：\c[0] \{이이이익!
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]경비병：\c[0] 인간! 수상쩍게 굴지 마라!
+
+GateGuard/enter_sneak_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] 빌어먹을 인간!
+\Lshake\c[4]경비병：\c[0] 침입자다!
+
+Gate/enter_wisdom
+\m[confused]\plf\PRF\c[6]로나：\c[0] 어....
+\m[flity]\plf\PRF\c[6]로나：\c[0] 저기... 나더러 이 일 처리하라고 해서 온 건데....
+
+Gate/NormalEnter
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\PLF\prf\c[4]경비병：\c[0] ......
+
+GateGuard/enter_wisdom_win
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] 빨리 가라... 시간 끌지 말고....
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 통과했다...
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] 너... 사기꾼이구나!
+
+Guard/NapSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] 도망친 노예다!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]경비병：\c[0] 잡아라! 덮쳐!
+
+Guard/NapLowMora
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] 젠장... 침입자다!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]경비병：\c[0] 여자 침입자다!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]경비병：\c[0] 저걸로... 번식하자...
+
+#################################################--------------------- Right side
+####################################################3 capture begin
+
+capture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]어인：\c[0] 어서 와라... 어토피아에!
+
+capture/begin1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]어인：\c[0] 여긴 우리의 집... 그리고 네 집이 될 곳이다...
+
+capture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]어인：\c[0] 위대한 바다 마녀다! 우리는 그녀를 섬긴다!
+
+capture/begin3
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]어인：\c[0] 너... 여자... 우리 번식을 위해 태어난 몸! 받아들여라!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]어인：\c[0] 매일... 너... 나를 찾아와... 섬겨라!
+\CBct[8]\m[sad]\plf\PLF\c[6]로나：\c[0] 네...
+
+####################################################3 torture
+
+torture/narr_begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]어인：\c[0] 너! 게으름 피우는구나! 인간 노예! 교배다!
+\narr놈들은 게으른 로나에게 몹시 불만을 품은 듯하다.
+
+torture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]샤먼：\c[0] 바다 마녀님! 보십시오! 당신 앞에서... 이 방종한 노예를 벌하겠습니다...
+\CBmp[TorOBJ,20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 안 돼... 제발 살려줘!
+
+torture/begin1
+\CBmp[TorOBJ,20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 안 돼에!
+
+torture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]샤먼：\c[0] 인간 노예여... 우리에게 감사하라!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]샤먼：\c[0] 바깥 세상은 이렇게나 불안정한데... 우리는 너희에게 이렇게 안락한 환경을 주었다!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]샤먼：\c[0] 너희는... 우리가 베푼 모든 것에... 감사해야 한다...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]샤먼：\c[0] 바다 마녀님께 감사하라! 바다 마녀님을 찬양하라!
+
+####################################################3 Rapeloop QUESt GIVER
+
+QuestGiver/NonCapture
+\m[confused]\c[6]로나：\c[0] 어...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]샤먼：\c[0] 너는... 우리의 여자가 아니구나... 썩 꺼져라!
+
+QuestGiver/pregCheck0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]샤먼：\c[0] 너! 이리 와라!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 네...
+
+QuestGiver/pregCheck1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 너는... 우리 종을... 배지 않았구나....
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 마셔라!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에?\optD[네,싫어]
+
+QuestGiver/pregCheck2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 이것이... 네 몸 속의 부정을... 죽일 것이다...
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 좀...
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 어지럽네...
+
+QuestGiver/pregCheck3
+\ph\narr\..\..\..\..\..
+
+QuestGiver/Aggro
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 너는 거역했다!! 바다 마녀님의 뜻을!!! 죽여라!!
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 에?! 잠깐만!
+
+QuestGiver/VagTraining_preg
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 나는... 맡았다...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 우리... 종의... 냄새를...
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] ....
+
+QuestGiver/VagTraining0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 더 많은... 아기를... 낳기 위해...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 너는 반드시... 훈련을 받아야 한다...
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] ....\optD[네,싫어]
+
+QuestGiver/GotoWork
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 일하러 가라!
+
+QuestGiver/GotoWork_yes
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 네!
+
+QuestGiver/GotoRest
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 자러 가라! 내일도 번식해야 한다!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 네...
+
+QuestGiver/GotoDone
+\CBct[8]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 말씀하신 대로 전부 다 했어요! 정말이에요!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 착하군... 인간 노예, 잘했다!
+
+QuestGiver/Job_House
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 이 근처 형제가... 외로워한다... 그가 교배가 필요하다...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 가라! 이 집으로! 그와 교배하라!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 네...
+
+QuestGiver/NoWorkToday
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 오늘은... 일이 없다...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 자러 가라!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 네...
+
+QuestGiver/sexParty0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 우리... 잔치가... 곧 시작된다....
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 바다 마녀님의... 신상 앞으로 가라...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 교배를... 준비하라...
+
+QuestGiver/sexParty1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 우리는... 바다 마녀님의 자식들...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 그분께서 모든... 예우와... 찬미를 주셨다... 우리는... 바다 마녀님을 찬양한다...！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 오늘 밤... 바다 마녀님의 증인 아래... 우리는... 교배한다...！ 그녀들을 번식시켜라...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 모든 바다 마녀님의 자손들은！ 교배할 수 있다！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 우리는... 경고하려 했다... 그러나 너희 인간들은... 어리석다... 그들은 모두 죽을 것이다...！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 너희 여자들은... 참으로 행운이다... 우리를 위해 번식할 수 있으니...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 장차... 오크들이... 인간을 멸망시키면... 우리는 노엘섬으로 돌아갈 것이다...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 우리는 보게 될 것이다... 하나의... 바다 마녀님이... 지배하는 새로운 세상을...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 바다 마녀님을 찬양하라！ 바다 마녀님을 경배하라！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 잘 가라！ 물고기에 감사하라！
+
+QuestGiver/sexParty2
+\CamMP[FishGp2]\c[4]어인：\c[0] 바다 마녀님을 찬탄하라！ 바다 마녀님을 경배하라！
+
+QuestGiver/sexParty3
+\CamMP[FishGp2]\c[4]어인：\c[0] 잘 가라！ 물고기에 감사하라！
+
+Guards/OfferSex0
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 우리의 전사들... 강하다... 하지만 교배가 필요하다...
+
+Guards/OfferSex1
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 밖으로 나가라！ 우리의 용사를 찾아라！ 교배하라！
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]샤먼：\c[0] 최소한... \c[6]두 명\c[0]의 용사와... 교배하라！
+\m[sad]\plf\PRF\c[6]로나：\c[0] 네....
+
+Guards/OfferSex0_1
+\SndLib[FishkindLgSpot]\prf\c[4]어인：\c[0] 교배♥ 바다 마녀님께 감사해요♥
+
+Guards/OfferSex0_0
+\SndLib[FishkindLgSpot]\prf\c[4]어인：\c[0] 나는 느낀다... 바다 마녀님의 은혜를！
+
+####################################################3 wake up random rape
+
+wakeUpRape/begin0
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] 일어나라！
+\CBct[2]\m[tired]\c[6]로나：\c[0] 예？
+
+wakeUpRape/begin1
+\SndLib[FishkindLgSpot]\prf\c[4]어인：\c[0] 여자！ 교배♥
+\CBct[8]\m[sad]\c[6]로나：\c[0] 흐윽...
+
+wakeUpRape/begin2_0
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] \{교배♥ 내 종을 품어라♥
+
+wakeUpRape/begin2_1
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] \{임신♥ 여자는 임신♥
+
+wakeUpRape/begin2_2
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] \{번식♥ 번식♥
+
+wakeUpRape/begin3_0
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] \{끄르르르르르륵♥
+
+wakeUpRape/begin3_1
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] \{끄르르♥ 어인의 종을 품어라♥
+
+wakeUpRape/begin3_2
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] \{쐈다♥ 끄르륵♥
+
+wakeUpRape/begin4_0
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] 기분 좋아♥ 감탄해라 바다 마녀♥
+
+wakeUpRape/begin4_1
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] 교배! 찬양해라 바다 마녀♥
+
+wakeUpRape/begin4_2
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] 번식♥ 기분 좋다♥
+
+wakeUpRape/begin5
+\CBct[8]\m[tired]\c[6]로나：\c[0] ......
+
+####################################################3 Boat Escape Point
+
+RsideShip/begin_opt
+\m[confused]\c[6]로나：\c[0] 버려진 나무더미? 어쩌면 내가...
+\prf나무를 얼마나 필요하지?\optB[그만둔다,1<r=HiddenOPT1>,2<r=HiddenOPT2>,3<r=HiddenOPT3>]
+
+RsideShip/begin_tired
+\m[tired]\c[6]로나：\c[0] 너무 피곤해...
+
+RsideShip/begin_win
+\m[triumph]\Rshake\c[6]로나：\c[0] 해냈어! 이제 여기서 나갈 수 있어!
+
+RsideShip/begin_NoSta
+\m[tired]\c[6]로나：\c[0] 안 되겠어, 너무 졸려.
+
+Guard/spot
+\SndLib[FishkindLgSpot]\c[4]어인：\c[0] 노예! 도망친 여자다!
+
+#################################################--------------------- OTHER COMMON
+
+Guard/SlaveEscape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]경비병：\c[0] 도망쳤다! 여자가 도망쳤다!
+
+Trader/TooWeak
+\c[4]상인：\c[0] 여자... 무기... 위험...
+
+NightGuard/begin0
+\c[4]경비병：\c[0] 여자... 나도 하고 싶다...
+
+NightGuard/begin1
+\c[4]경비병：\c[0] 일하기... 싫어...
+
+NightGuard/begin2
+\c[4]경비병：\c[0] 여자... 없어?
+
+HumFrKid/Qmsg0
+나... 어른 되고 싶지 않아...
+
+HumFrKid/Qmsg1
+물고기... 되고 싶지 않아...
+
+HumFrKid/Qmsg2
+여기... 싫어!
+
+FishFrKid/Qmsg0
+나... 이제 어른이 된다...
+
+FishFrKid/Qmsg1
+바다 마녀님... 제가 갑니다...
+
+FishFrKid/Qmsg2
+이제 곧 교배할 수 있어...
+
+SlaveTrader/Qmsg0
+두려워하지 마...
+
+SlaveTrader/Qmsg1
+여긴... 안전해...
+
+SlaveTrader/Qmsg2
+우리에게... 아이를 낳아줘...
+
+Slave0/Qmsg0
+적어도 난 아직 살아 있어.
+
+Slave0/Qmsg1
+배부르게 먹을 수 있으니... 그걸로 됐어.
+
+Slave0/Qmsg2
+그들한테... 반항만 안 하면...
+
+Slave1/Qmsg0
+집에 가고 싶어...
+
+Slave1/Qmsg1
+왜... 나를 버린 거지?
+
+Slave1/Qmsg2
+더는 강간당하고 싶지 않아.
+
+Slave2/Qmsg0
+너희를 저주해!
+
+Slave2/Qmsg1
+난 보지가 아니야!
+
+Slave2/Qmsg2
+나는 사람이야!
+
+NoerDude/rng0
+\c[4]상인：\c[0] 노예는 내가 잘 알지! 여자는 뭐! 근데 걔네가 돈은 또 어디에 쓰는 거야?
+
+NoerDude/rng1
+\c[4]상인：\c[0] 한 번 왔다 갔다 하면, 원가 빼고도 무려 두 배나 벌 수 있다니까!
+
+NoerDude/rng2
+\c[4]상인：\c[0] 이번 건 무조건 대박이야, 봐봐! 놈들 전부 실하잖아!
+
+NoerGuard/rng0
+\c[4]호위：\c[0] 젠장, 우리가 네 물고기 따위가 필요한 줄 아나? 엿 먹어라, 그 빌어먹을 바다 마녀!
+
+NoerGuard/rng1
+\c[4]호위：\c[0] 걔네 생김새 좀 봐! 완전 괴물이지! 가짜 신은 왜 이런 역겨운 걸 만든 거야? 성도가 왜 전부 죽여버리지 않은 거지!
+
+NoerGuard/rng2
+\c[4]호위：\c[0] 냄새 맡았냐? 정말 진절머리 난다, 여긴 온통 이 냄새뿐이야, 씻어도 안 빠질걸!
+
+FishTown/board0
+\board[외부인 경고]
+협정을 어기거나 소란을 피우지 마라.  
+여자를 바치면 먹을 것을 주겠다.  
+바다 마녀께 감사하라.
+
+FishTown/board1
+\board[가짜 바다 마녀 규탄]
+바다 마녀의 이름으로 우리를 속이려 하지 마라.
+우린 우리 바다 마녀을 안다!
+그분은 위대하시다! 강하시다!
+바다 마녀을 찬양하라.
+
+NearLabor/begin0
+\narr그만두는 게 낫겠다. 놈들이 로나의 아이에게 만족한 것 같다.
+
+NearLabor/begin1
+\narr그만두는 게 낫겠다. 놈들이 로나에게 잠시 쉴 시간을 주기로 했다.

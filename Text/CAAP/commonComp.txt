@@ -1,0 +1,683 @@
+notice/ExtOverWrite
+\board[Compañero No Combatiente]
+¡Solo puedes tener un \c[6]compañero no combatiente\C[0] en tu grupo!
+El compañero no combatiente que te acompaña ahora te abandonará si intentas reclutar a uno nuevo.
+Contratar un compañero no combatiente durante una misión de escolta hará que la misión falle.
+¿Debes decidir si fallarás tu misión actual o abandonarás al compañero no combatiente?
+
+Companion/Accept
+¿Aceptar? \optD[No,Sí]
+
+Companion/TeamUp
+Unirse
+
+Companion/Follow
+Seguir
+
+Companion/Wait
+Esperar
+
+Companion/Other
+Otro
+
+Companion/Disband
+Disolver
+
+Companion/SetFoe
+Señalar enemigos
+
+Companion/Purr
+Ronronear
+
+Companion/Extension
+Extensión
+
+################################# INFORMACIÓN DE COMPAÑEROS COMUNES
+
+CompWarrior/CompData
+\board[Mercenario Guerrero]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Guerrero, Defensa
+\C[2]Facción：\C[0]Bandido
+\C[2]Enemistad con：\C[0]Criaturas Malvadas, Guardia de Noer
+\C[2]Precio：\C[0]2 Cervezas\i[590]
+\C[2]Duración：\C[0]2 días
+Mercenario típico de combate cuerpo a cuerpo.
+
+CompArcher/CompData
+\board[Mercenario Arquero]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]Combate a distancia, Tiro curvo
+\C[2]Facción：\C[0]Bandido
+\C[2]Enemistad con：\C[0]Criaturas Malvadas, Guardia de Noer
+\C[2]Precio：\C[0]2 Cervezas\i[590]
+\C[2]Duración：\C[0]2 días
+Mercenario típico de combate a distancia.
+
+CompCommon/Comp_disband
+\CBid[-1,20]\c[4]Mercenario Borracho：\C[0]    ¡La próxima vez cómprame más para beber... *Eructo*!
+
+CompHumanWarrior/Comp_disband
+\CBid[-1,20]\c[4]Mercenario Borracho：\C[0]    ¡Estoy más borracho que la mierda... *Eructo*!
+
+CompHumanBow/Comp_disband
+\CBid[-1,20]\c[4]Mercenario Borracho：\C[0]    ¡Nooo!! ¡¡No soy un alcohólico!!
+
+CompCommon/Comp_win
+\CBid[-1,20]\c[4]Mercenario Borracho：\C[0]    *Eructo*! Avancemos juntos.
+
+CompCommon/Comp_failed
+\CBid[-1,5]\Lshake\prf\c[4]Mercenario Borracho：\C[0]    ¡Oye, chica! ¡Tráeme algo de beber!
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompCommon/Slave_failed0
+\CBid[-1,5]\Lshake\prf\c[4]Mercenario Borracho：\C[0]    ¿Hasta dónde debería mandar a esta esclava?
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompCommon/Slave_failed1
+\CBid[-1,5]\Lshake\prf\c[4]Mercenario Borracho：\C[0]    ¡¿Contigo?! ¡Las esclavas solo sirven para chuparme la verga!
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompCommon/Slave_failed2
+\CBid[-1,5]\Lshake\prf\c[4]Mercenario Borracho：\C[0]    ¡¿Eres una esclava?! ¡Vete a la mierda! ¡Lárgate!
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompWarrior/begin
+\SETpl[MobHumanWarrior]\prf\c[4]Mercenario Borracho：\C[0]    *Eructo*! ¿Qué tal?
+
+CompArcher/begin
+\SETpl[MobMootBow]\prf\c[4]Mercenario Borracho：\C[0]    *Eructo*! ¿Qué necesitas?
+
+CompRogue/OvermapPop0
+Esas chicas entre bastidores no están mal.
+
+CompRogue/OvermapPop1
+Yo también quiero una esclava personal.
+
+CompRogue/OvermapPop2
+Ahora mismo me apetece matar a alguien.
+
+CompRogue/OvermapPop3
+*¡ERUCTO*!
+
+####################################################################################################################################################
+
+CompWarSister/CompData
+\board[Hermana de Batalla]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]Combate cuerpo a cuerpo, Defensa, Tiro curvo
+\C[2]Facción：\C[0]Monasterio del Santo
+\C[2]Enemistad con：\C[0]Hombres Pez/Profundos, No Muertos, Bestias
+\C[2]Precio：\C[0]Agua Bendita x1\i[46] Debilidad menor a 100
+\C[2]Duración：\C[0]5 días
+Hija del Santo y doncella de la justicia.
+
+CompWarSister/begin
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]Hermana de Batalla：\C[0]    En nombre del Santo, mi amado padre...
+
+CompWarSister/Comp_disband
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]Hermana de Batalla：\C[0]    ¡No abandones al Santo, pues tu fe será tu espada!
+
+CompWarSister/Comp_win
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]Hermana de Batalla：\C[0]    El Santo nos guiará a todos a las puertas del paraíso.
+
+CompWarSister/Comp_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]Hermana de Batalla：\C[0]    No tengo piedad para paganas como tú.
+\CBct[6]\plf\PRF\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompWarSister/Weak_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]Hermana de Batalla：\C[0]    No eres digna de la misericordia del Santo.
+\CBct[6]\plf\PRF\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompWarSister/End
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]Hermana de Batalla：\C[0]    ¡SIN PIEDAD!
+
+CompWarSister/Fated_enemy
+\narr ¡Tu compañera proclama que los impuros deben enfrentar el juicio!
+
+CompWarSister/OvermapPop0
+¡La piedad es para los débiles!
+
+CompWarSister/OvermapPop1
+¡EN EL NOMBRE DEL SANTO!
+
+CompWarSister/OvermapPop2
+No hay tiempo para compadecer paganos.
+
+CompWarSister/OvermapPop3
+¡PURGAR Y DESTRUIR!
+
+####################################################################################################################################################
+
+CompOrkindSlayer/CompData
+\board[Asesino de Orcoides]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Guerrero, Defensa, Habilidades sexuales
+\C[2]Facción：\C[0]Síbari
+\C[2]Enemistad con：\C[0]Orcoides
+\C[2]Precio：\C[0]Sopa Buena x1\i[110]
+\C[2]Duración：\C[0]3,5 días
+Vengador obsesivo... ¿Ya mencionó que odia a los Orcoides?
+
+CompOrkindSlayer/begin
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Asesino de Orcoides：\C[0]    Mataron a mi familia...
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Asesino de Orcoides：\C[0]    ¡DEBO MATAR A TODOS LOS ORCOIDES!
+
+CompOrkindSlayer/Comp_disband
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Asesino de Orcoides：\C[0]    ¡No! ¡Necesito matar más Orcoides!
+
+CompOrkindSlayer/Comp_win
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Asesino de Orcoides：\C[0]    ¡Vamos! ¡Matemos a todos los Orcoides juntos!
+
+CompOrkindSlayer/Comp_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Asesino de Orcoides：\C[0]    ¡Tu petición no tiene que ver con matar Orcoides! ¡No iré!
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Vale...
+
+CompOrkindSlayer/Slave_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Asesino de Orcoides：\C[0]    ¿Cómo puede ayudarme una esclava? ¿Serás cebo para Orcoides?
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompOrkindSlayer/OrkindGroup_run
+\SETpl[OrkindSlayer]\Lshake\prf\c[4]Asesino de Orcoides：\C[0]    ¡¡¡NO!!! ¡¡TODOS LOS ORCOIDES Y GOBLINS DEBEN MORIR!!!
+
+CompOrkindSlayer/OvermapPop0
+Extraño el estofado de mi hermana...
+
+CompOrkindSlayer/OvermapPop1
+¡Estos no son Orcoides!
+
+CompOrkindSlayer/OvermapPop2
+¡Aplastar todos los huesos de los Orcoides!
+
+CompOrkindSlayer/OvermapPop3
+¡Matar a todos los Orcoides!
+
+####################################################################################################################################################
+
+CompHumanExplorer/CompData
+\board[Aventurero Desempleado]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]Apoyo, Desactivación de trampas, Lámpara
+\C[2]Facción：\C[0]Neutral
+\C[2]Enemistad con：\C[0]Criaturas Malvadas
+\C[2]Precio：\C[0]Sopa de Carne x1\i[108]
+\C[2]Duración：\C[0]2,5 días
+\C[2]Nota：\C[0]Con cada actualización del mapa,
+-20 a Peligro Ambiental
+Buscador de aventuras atrapado en esta isla olvidada por los Santos.
+
+CompHumanExplorer/begin
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Aventurero：\C[0]    Quería explorar las ruinas subterráneas de Síbari.
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Aventurero：\C[0]    Y ahora estoy atrapado aquí, sin dinero ni para comer.
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Aventurero：\C[0]    ¿Conoces algún lugar para explorar? Pero primero dame de comer.
+
+CompHumanExplorer/Comp_disband
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Aventurero：\C[0]    ¡Mierda, ¿y mi comida para mañana?!
+
+CompHumanExplorer/Comp_win
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Aventurero：\C[0]    ¡Gracias, cariño!
+
+CompHumanExplorer/Comp_failed
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Aventurero：\C[0]    ¿¡Me estás jodiendo, puta?!
+
+CompHumanExplorer/OvermapPop0
+¿Has estado alguna vez en las ruinas del Este?
+
+CompHumanExplorer/OvermapPop1
+¡Serpientes! ¡Odio las serpientes!
+
+CompHumanExplorer/OvermapPop2
+Estoy seguro de que hay reliquias de los dioses antiguos en la isla.
+
+CompHumanExplorer/OvermapPop3
+Las ruinas subterráneas de Síbari son impresionantes.
+
+####################################################################################################################################################
+
+CompKitten/CompData
+\board[Gatita]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]Desconocido
+\C[2]Facción：\C[0]Animal
+\C[2]Enemistad con：\C[0]Neutral
+\C[2]Precio：\C[0]Pescado x1\i[292]
+\C[2]Duración：\C[0]Hasta que quiera
+\C[2]Nota：\C[0]Gata con mirada arrogante
+Gata malhumorada.
+
+CompKitten/begin
+\CBid[-1,8]\c[4]Gatita：\C[0]    ........
+
+CompKitten/Comp_disband
+\CBid[-1,8]\c[4]Gatita：\C[0]    .....
+
+CompKitten/Comp_win
+\CBid[-1,3]\c[4]Gatita：\C[0]    *Purr*.... ♥
+
+CompKitten/Comp_failed
+\CBid[-1,5]\c[4]Gatita：\C[0]    *¡SSSS*!
+
+CompKitten/Command
+\CBid[-1,5]\c[4]Gatita：\C[0]    *¡SSSSSS*!
+
+CompKitten/OPT_PURR
+\CBid[-1,3]\c[4]Gatita：\C[0]    *Purr*... Miau...
+\narr\..\..\..\..
+\CBct[8]\narrOFF\m[flirty]\plf\PRF\c[6]Lona：\C[0]    No sé por qué, pero mi ánimo mejora.
+
+####################################################################################################################################################
+
+CompDoggy/CompData
+\board[Perro]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Rápido, Desactiva trampas
+\C[2]Facción：\C[0]Animal
+\C[2]Enemistad con：\C[0]Desconocido
+\C[2]Precio：\C[0]Sopa de Carne x1\i[108]
+\C[2]Duración：\C[0]No
+\C[2]Nota：\C[0]Con cada actualización del mapa,
+-20 a Peligro Ambiental
+Perro callejero sin dignidad.
+Fácil de sobornar.
+
+CompDoggy/begin
+\CBid[-1,20]\c[4]Perro：\C[0]    ¡Guau! ¡Guau!
+
+CompDoggy/Comp_disband
+\CBid[-1,20]\SndLib[dogDead]\c[4]Perro：\C[0]  *Gimoteo*...~
+
+CompDoggy/Comp_win
+\CBid[-1,20]\c[4]Perro：\C[0]    ¡GUAU! ♥
+
+CompDoggy/Comp_failed
+\CBid[-1,5]\c[4]Perro：\C[0]    ¡Grrrrrrr!
+
+CompDoggy/Command
+\CBid[-1,20]\SndLib[dogSpot]\c[4]Perro：\C[0]    ¡Guau-guau!
+
+CompDoggy/SetupFateEnemy
+Señala a quién será hostil el perro \optD[Reiniciar,Atacar malvados,Atacar buenos,Animales<r=HiddenOPT0>,Orcoides<r=HiddenOPT1>,Hombres Pez/Profundos<r=HiddenOPT2>,Abominaciones<r=HiddenOPT3>,No Muertos<r=HiddenOPT4>]
+
+####################################################################################################################################################
+
+CompHumanSpear/CompData
+\board[Mercenario Drogadicto]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Rápido, Guerrero
+\C[2]Facción：\C[0]Neutral
+\C[2]Enemistad con：\C[0]Criaturas Malvadas
+\C[2]Precio：\C[0]Hierba del Dragón Blanco x1\i[203]
+\C[2]Duración：\C[0]3 días
+Mercenario adicto a la Hierba del Dragón Blanco.
+
+CompHumanSpear/begin
+\CBid[-1,6]\c[4]Drogadicto：\C[0]    Oye, ¿tienes Hierba del Dragón Blanco? ¡Por favor! ¡Dame un poco!
+
+CompHumanSpear/Comp_disband
+\CBid[-1,6]\c[4]Drogadicto：\C[0]    ¡Dame más hierba para el camino! ¡Solo un poco!
+
+CompHumanSpear/Comp_win
+\CBid[-1,6]\c[4]Drogadicto：\C[0]    ¡Dámela! ¡Dámela, rápido!
+
+CompHumanSpear/Comp_failed
+\CBid[-1,6]\c[4]Drogadicto：\C[0]    ¡Vete a la mierda!
+
+CompHumanSpear/OvermapPop0
+¿Tienes hierba?
+
+CompHumanSpear/OvermapPop1
+Me encantaría un poco de hierba
+
+CompHumanSpear/OvermapPop2
+Je je je...
+
+CompHumanSpear/OvermapPop3
+¿Es Hierba del Dragón Blanco?
+
+####################################################################################################################################################
+
+CompElfArcher/CompData
+\board[Elfa Arquera]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]Combate a distancia, Tiro curvo
+\C[2]Facción：\C[0]Neutral
+\C[2]Enemistad con：\C[0]Criaturas Malvadas
+\C[2]Precio：\C[0]600 Puntos de Intercambio
+\C[2]Duración：\C[0]3 días
+\C[2]Nota：\C[0]Con cada actualización del mapa,
+-20 a Peligro Ambiental
+Arquera elfa atrapada en esta isla.
+Parece decepcionada.
+
+CompElfArcher/begin
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elfa Arquera：\C[0]    Pensé que el mundo humano estaba lleno de diversión y aventuras, pero me equivoqué...
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elfa Arquera：\C[0]    ¡Sí, soy una elfa! Y no, no cago.
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elfa Arquera：\C[0]    ¡Estoy atrapada en este lugar horrible! ¡Y quiero ahorrar dinero para volver a casa!
+
+CompElfArcher/Comp_disband
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elfa Arquera：\C[0]    Fue un placer trabajar contigo.
+
+CompElfArcher/Comp_win
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elfa Arquera：\C[0]    ¡Por fin, hora de aventuras!
+
+CompElfArcher/Comp_failed
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]Elfa Arquera：\C[0]    ¡Lo sabía! ¡Todos los humanos son MENTIROSOS!
+
+CompElfArcher/Comp_failed_slave
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]Elfa Arquera：\C[0]    ¿Esclava sucia? ¡Vete a la mierda!
+
+CompElfArcher/OvermapPop0
+¿Por qué ya no hay gente buena?
+
+CompElfArcher/OvermapPop1
+Estoy llena de músculo, no de grasa.
+
+CompElfArcher/OvermapPop2
+¡Los humanos son tan sucios!
+
+CompElfArcher/OvermapPop3
+¡SÍ! ¡No necesitamos baños!
+
+CompElfArcher/CompFile
+\SETpl[ElfArcher]...
+
+####################################################################################################################################################
+
+CompHumanScout/CompData
+\board[Local]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Guerrero, Lámpara
+\C[2]Facción：\C[0]Neutral
+\C[2]Enemistad con：\C[0]Criaturas Malvadas
+\C[2]Precio：\C[0]600 Puntos de Intercambio
+\C[2]Duración：\C[0]3 días
+Soldado retirado, local, sabe mucho sobre Noer.
+
+CompHumanScout/begin
+\CBid[-1,20]\c[4]Local：\C[0]    Mi familia vive en el puerto de Noer. Mira, aquí está su retrato.
+\CBid[-1,20]\c[4]Local：\C[0]    Estoy aquí para alimentar a mi familia. ¿Para qué me necesitas?
+
+CompHumanScout/Comp_disband
+\CBid[-1,20]\c[4]Local：\C[0]    Vale. Yo también debo irme a casa.
+
+CompHumanScout/Comp_win
+\CBid[-1,20]\c[4]Local：\C[0]    Vale, sigamos juntos.
+
+CompHumanScout/Comp_failed
+\CBid[-1,5]\c[4]Local：\C[0]    Lo siento, no me interesa.
+
+CompHumanScout/Comp_failed_slave
+\CBid[-1,5]\c[4]Local：\C[0]    Vuelve con tu amo, esclava.
+
+CompHumanScout/OvermapPop0
+Mi hijo tiene más o menos tu edad.
+
+CompHumanScout/OvermapPop1
+¿Has estado en la isla de los Hombres Pez?
+
+CompHumanScout/OvermapPop2
+La costa norte era un lugar tan agradable...
+
+CompHumanScout/OvermapPop3
+Mira, aquí está mi hijo.
+
+####################################################################################################################################################
+
+CompFishGuard/CompData
+\board[Guardaespaldas de la Ciudad Pez]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Combate cuerpo a cuerpo, Captura
+\C[2]Facción：\C[0]Hombre Pez
+\C[2]Enemistad con：\C[0]Criaturas Malvadas, Sociedad de los Santos
+\C[2]Requisito：\C[0]Habilidad «Ninfómana» o «Prostituta»
+\C[2]Duración：\C[0]3 días
+Guerrero de la Ciudad Pez. Solitario, quiere aparearse.
+
+CompFishGuard/begin
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Guardaespaldas：\C[0]    ¡Olor a chica...! Debo... proteger a la chica...!
+
+CompFishGuard/sex0
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Guardaespaldas：\C[0]    ¡Yo protegerte! Pero querer... Aparearse... Después...!!!
+
+CompFishGuard/sex1
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Guardaespaldas：\C[0]    Guu-Huuu... ♥ Saludable... Chica... Apareamiento... ♥♥♥
+
+CompFishGuard/Comp_disband
+\CBid[-1,6]\SndLib[FishkindLgSpot]\c[4]Guardaespaldas：\C[0]    Yo... Todavía querer... ¡Apareamiento!
+
+CompFishGuard/Comp_win
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Guardaespaldas：\C[0]    Vagina de chica... *Olfatea* Coño... Buen olor... ♥
+
+CompFishGuard/Comp_failed
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]Guardaespaldas：\C[0]    Vagina de chica... *Olfatea* Coño... ¡Malo! ¡MALO!
+
+CompFishGuard/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]Guardaespaldas：\C[0]    Esclavas... Ir... aldea... Parir... muchos niños...
+
+CompFishGuard/OvermapPop0
+Yo... querer... aparearse...
+
+CompFishGuard/OvermapPop1
+Tú... parir muchas veces.
+
+CompFishGuard/OvermapPop2
+Vagina... Querer aparearse...
+
+CompFishGuard/OvermapPop3
+Chicas solo... Hacer muchos niños...
+
+####################################################################################################################################################
+
+CompFishShaman/CompData
+\board[Chamán de la Ciudad Pez]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]Combate a distancia, Magia, Tiro curvo
+\C[2]Facción：\C[0]Hombre Pez
+\C[2]Enemistad con：\C[0]Criaturas Malvadas, Sociedad de los Santos
+\C[2]Requisito：\C[0]Habilidad «Ninfómana» o «Prostituta»
+\C[2]Duración：\C[0]3 días
+Chamán hombre pez novato. Ansioso por explorar el mundo.
+
+CompFishShaman/begin
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Chamán：\C[0]    Joven... Piel oscura... chica... Fresca... Querer probar... ♥ La Bruja del Mar te bendice... ♥
+
+CompFishShaman/sex0
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Chamán：\C[0]    ¡Guu-Hi! ♥ Aparearse conmigo... ¡chica! Mi semilla... bendecida por Bruja del Mar...
+
+CompFishShaman/sex1
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Chamán：\C[0]    Guu ♥ ¡Guu-Heheee! Mi semilla... ♥ ¡hacerte... Embarazada!!! ♥
+
+CompFishShaman/Comp_disband
+\CBid[-1,6]\SndLib[FishkindSmSpot]\c[4]Chamán：\C[0]    No ir... No ser... Carne oscura... chica...
+
+CompFishShaman/Comp_win
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Chamán：\C[0]    ¡Alabad a la Bruja del Mar...! Pues ella... me bendijo... ¡para aparearme!
+
+CompFishShaman/Comp_failed
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]Chamán：\C[0]    ¡Bruja del Mar... Me traicionó! ¡Asquerosa vagina...!
+
+CompFishShaman/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]Chamán：\C[0]    ¡Esclava...! Ir... ¡a aldea!
+
+CompFishShaman/OvermapPop0
+¡Esta... chica...!
+
+CompFishShaman/OvermapPop1
+Todas vaginas... ¡Yo querer...!
+
+CompFishShaman/OvermapPop2
+Piel oscura... Querer probar...
+
+CompFishShaman/OvermapPop3
+¡Bruja del Mar... Me bendijo!
+
+################################## Diálogos sexuales únicos de seguidores hombres pez.
+
+Lona/notWhore0
+\CBct[6]\m[flirty]\c[6]Lona：\C[0]    Aunque... Pensándolo bien, no importa.
+
+Lona/notWhore1
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    Lo siento...
+
+CompFish/Extension
+\narr Puede quedarse contigo 2 días más si Lona satisface sus deseos sexuales...
+
+####################################################################################################################################################
+
+CompFireMage/CompData
+\board[Maga de Fuego]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]Combate a distancia, Magia
+\C[2]Facción：\C[0]Neutral
+\C[2]Enemistad con：\C[0]Criaturas Malvadas
+\C[2]Precio：\C[0]Poción Azul x1\i[213] o Hierba del Dragón Blanco x2\i[203]
+\C[2]Duración：\C[0]2,5 días
+Hechicera pobre pero talentosa de la escuela de magia de fuego.
+
+CompFireMage/begin
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Maga de Fuego：\C[0]    Uff... Estoy tan cansada...
+
+CompFireMage/Comp_disband
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Maga de Fuego：\C[0]    Oye... ¿Por qué nadie quiere estar en mi equipo?
+
+CompFireMage/Comp_win
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Maga de Fuego：\C[0]    ¿En serio? ¡Gracias, gracias!
+
+CompFireMage/Comp_failed
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Maga de Fuego：\C[0]    Uff... Estoy agotada...
+
+CompFireMage/OvermapPop0
+¡Me encanta el olor a quemado!
+
+CompFireMage/OvermapPop1
+¡Solo quiero que el mundo entero arda... EN LLAMAS!
+
+CompFireMage/OvermapPop2
+¿Puedo prenderle fuego al mundo? ¿Por favor?
+
+CompFireMage/OvermapPop3
+Tengo muchas ganas de jugar con pirotecnia...
+
+CompFireMage/OvermapPop4
+¡Nada puede apagar el fuego en mi corazón!
+
+####################################################################################################################################################
+
+CompMusketeer/CompData
+\board[Mosquetero]
+\C[2]Posición：\C[0]Retaguardia
+\C[2]Estilo de combate：\C[0]A distancia, Tiro en arco, Sigilo
+\C[2]Facción：\C[0]Guardia de Noér
+\C[2]Enemistad con：\C[0]Criaturas Malignas
+\C[2]Precio：\C[0]Botella de Cerveza x4\i[361]
+\C[2]Duración：\C[0]5 días
+\C[2]Nota：\C[0]Puede usar #{$story_stats["HiddenOPT0"]}+#{$story_stats["HiddenOPT1"]} para moverse en modo sigilo, no atacará activamente a enemigos mientras se escabulle.
+Soldado de élite transferido del reino de Garland, domina el arte del sigilo y el manejo del mosquete.
+Sufre daño cerebral por falta de vacaciones durante demasiado tiempo.
+Así es. Un infante de marina verde, malvado y mentalmente deficiente.
+
+CompMusketeer/begin_nonInGroup
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Mosquetero：\C[0]    ¡ALTO! ¡CONTRASEÑA!
+
+CompMusketeer/begin
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Mosquetero：\C[0]    ¡SALUDOS, SEÑOR!
+
+CompMusketeer/Comp_disband
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Mosquetero：\C[0]    ¿Tomar vacaciones? ¡¿SIN LA SOLICITUD APROPIADA Y AUTORIZACIÓN DE AUSENCIA?! ¡¿ABANDONAR MI PUESTO Y PELOTÓN?!
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Mosquetero：\C[0]    ¡ES SIMPLEMENTE IMPOSIBLE, SEÑOR!
+
+CompMusketeer/Comp_win
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Mosquetero：\C[0]    ¡ENTENDIDO!
+
+CompMusketeer/Comp_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Mosquetero：\C[0]    ¡ES UNA INJERENCIA DISCIPLINARIA ILEGÍTIMA! ¡PRESENTARÉ UNA QUEJA!
+
+CompMusketeer/Weak_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Mosquetero：\C[0]    ¿SE ATREVE A DARME ÓRDENES? ¡NO TIENE RANGO!
+
+CompMusketeer/CommonPop0
+¡ENTENDIDO, SEÑOR!
+
+CompMusketeer/CommonPop1
+¡COMPRENDIDO!
+
+CompMusketeer/OvermapPop0
+¡UN-DOS, UN-DOS, UN-DOS!
+
+CompMusketeer/OvermapPop1
+¡HONOR! ¡VALOR! ¡ABNEGACIÓN!
+
+CompMusketeer/OvermapPop2
+¡HUUUUZAA!
+
+CompMusketeer/OvermapPop3
+¡INVISIBLE! ¡Y ARMADO!
+
+########################################################################
+
+CompNinjaKiller/CompData
+\board[Ninja miope]
+\C[2]Posición:\C[0]Frente
+\C[2]Estilo de combate:\C[0]Cuerpo a cuerpo
+\C[2]Facción:\C[0]Sibaris
+\C[2]Enemistad:\C[0]No-muertos, demonios de carne, orcos
+\C[2]Precio:\C[0]Cuchillo arrojadizo x20\i[58]
+\C[2]Duración:\C[0]5 días
+\C[2]Nota:\C[0]Puede usar #{story_stats["HiddenOPT1"]}, lo que causa invisibilidad, no ataca mientras es invisible.
+Guerrero que se considera buen luchador tras conocer la cultura oriental en Sibaris.
+Puede estar seguro de sus habilidades asesinas, pero desafortunadamente es miope y no ve más allá de su nariz.
+
+CompNinjaKiller/begin_nonInGroup0
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] ¡DOMO!
+
+CompNinjaKiller/begin_nonInGroup1
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] ¿Gafas？
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] ¡Dios！ ¡No soy miope! ¡Es una herramienta mágica para detectar enemigos!
+
+CompNinjaKiller/begin
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] El ENTRENAMIENTO que recibí fue precisamente para este día.
+
+CompNinjaKiller/Comp_disband
+\CBid[-1,6]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] ¿Rechazas el ENFRENTAMIENTO?
+
+CompNinjaKiller/Comp_win
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] ¡Castiguemos como merecen a estas INSIGNIFICANCIAS!
+
+CompNinjaKiller/Comp_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] No has demostrado tu PODER.
+
+CompNinjaKiller/Weak_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Ninja miope:\C[0] ¡Los débiles no son dignos de esto!
+
+CompNinjaKiller/CommonPop0
+¡Cortar! ¡Rápido! ¡R!
+
+CompNinjaKiller/CommonPop1
+¡Ninja! ¡Mata sin piedad!
+
+CompNinjaKiller/OvermapPop0
+¡Imposible! ¡El filósofo lo dijo claramente!
+
+CompNinjaKiller/OvermapPop1
+¿Quieres decir que en Oriente no existen? ¡Imposible!
+
+CompNinjaKiller/OvermapPop2
+¿Estoy equivocado? ¡Imposible!
+
+CompNinjaKiller/OvermapPop3
+¡Imposible! ¡Los ninjas deben existir!
+
+#================================================ CABALLO DE CARGA ===================================================
+
+CompHorseCarry/CompData
+\}\n
+\board[Caballo de carga]
+\C[2]Posición:\C[0]No combatiente
+\C[2]Tipo:\C[0]Animal
+\C[2]Duración：\C[0]Infinita
+\C[2]Enemistad con:\C[0]Ninguna
+Puedes comprar este animal por un total de #{$story_stats["HiddenOPT1"]} Puntos de Intercambio.
+El caballo de tiro tiene gran capacidad de carga.
+Antes de disolver el grupo, liberar al caballo o dejarlo morir, asegúrate de haber sacado los objetos de las bolsas.
+De lo contrario, todo lo no extraído se perderá permanentemente.
+Asegurate de completar los #{$story_stats["HiddenOPT1"]} Puntos de Intercambio antes de hacer la compra o se perdera.

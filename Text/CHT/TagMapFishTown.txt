@@ -1,0 +1,403 @@
+####################################--------------------- overmap
+Town/OvermapEnter
+\m[confused]魚托比市場\optB[算了,進入]
+
+Slave/OvermapEnter
+\m[confused]魚托比村\optB[算了,進入]
+
+#################################################--------------------- VEG Vandor
+
+VegetableTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]商人：\c[0]    花草... 很重要...
+
+VegetableTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]商人：\c[0]    魚也... 吃草...
+
+#################################################--------------------- Med Vandor
+
+MedTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]商人：\c[0]    貨出去... 錢進來...
+
+MedTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]商人：\c[0]    漁人發大財！
+
+#################################################--------------------- Weapon Vandor
+
+WeaponTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]商人：\c[0]    戰士... 守衛家園！
+
+WeaponTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]商人：\c[0]    我們... 強壯...
+
+#################################################--------------------- Slave camp enter or gate
+
+Gate/Begin0
+\cg[map_FishPPL]通往村落，而前面站著守衛。
+\SETpl[FrogSpear]\Lshake\SndLib[FishkindSmSpot]\c[4]守衛：\c[0]   呱呱！\optB[算了,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    人類... 誰...！
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃？
+\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    ！！！！
+
+Gate/Enter_slave1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    女人！ 逃跑的女人！
+
+Gate/Enter_normal1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    人類...站住！ 不是奴隸！ 不能進入！
+
+Gate/Enter_normal2
+\m[confused]\plf\PRF\c[6]守衛：\c[0]    呃？\optB[算了,成為奴隸]
+
+Gate/Enter_SlaveChoose
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我...
+\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我聽說你們能提供我安全，我想成為你們的奴隸...
+
+Gate/Enter_SlaveChoose_win
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    跪下！
+\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+\cg[event_SlaveBrand]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    讚嘆海巫！ 烙印！\optB[算了,好吧]
+
+Gate/Enter_SlaveChoose_lose
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]守衛：\c[0]    滾開！ 我們不歡迎人類男性！
+\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！ 男性？ 我？
+
+Gate/Enter_SlaveChoose_brand
+\m[p5shame]\plf\Rshake\c[6]洛娜：\c[0]    你們... 要做什麼！？
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]守衛：\C[0]    呱呱！ 不要動！
+\m[p5sta_damage]\plf\Rshake\c[6]洛娜：\c[0]    不要！ 放開我！
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]守衛：\C[0]    好吵.... 安靜....
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]守衛：\C[0]    妳安全了... 海巫守護妳...
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]守衛：\c[0]    人類！別鬼鬼祟祟！
+
+GateGuard/enter_sneak_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    該死的人類！
+\Lshake\c[4]守衛：\c[0]    入侵者！
+
+Gate/enter_wisdom
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....
+\m[flity]\plf\PRF\c[6]洛娜：\c[0]    就是他們叫我來處理這些事情的....
+
+Gate/NormalEnter
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\PLF\prf\c[4]守衛：\c[0]    ......
+
+GateGuard/enter_wisdom_win
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    快點... 別拖時間....
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     呼.. 過去了...
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    妳... 騙子！
+
+Guard/NapSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    是逃跑的奴隸！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]守衛：\c[0]    抓起來！ 上了她！
+
+Guard/NapLowMora
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    該死的... 入侵者！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]守衛：\c[0]    是女的入侵者！
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]守衛：\c[0]    用她... 繁殖...
+
+#################################################--------------------- Right side
+####################################################3 capture begin
+
+capture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]漁人：\c[0]    歡迎... 來到漁托比!
+
+capture/begin1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]漁人：\c[0]    這是我們的家... 妳的家...
+
+capture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]漁人：\c[0]    這是偉大的海巫! 我們侍奉她!
+
+capture/begin3
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]漁人：\c[0]    妳... 女人... 就是為了讓我們生殖! 接受祂!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]漁人：\c[0]    每日.. 妳... 來找我... 侍奉!
+\CBct[8]\m[sad]\plf\PLF\c[6]洛娜：\c[0]    是...
+
+####################################################3 torture
+
+torture/narr_begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]漁人：\c[0]    妳！ 偷懶！ 人類奴隸！ 交配！
+\narr看來牠們對懶惰的洛娜相當的不滿。
+
+torture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]薩滿：\c[0]    海巫! 看著！ 在您的面前... 逞罰這個不檢點的奴隸...
+\CBmp[TorOBJ,20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    不... 饒了我！
+
+torture/begin1
+\CBmp[TorOBJ,20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    不要啊！
+
+torture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]薩滿：\c[0]    人類的奴隸啊... 感謝我們!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]薩滿：\c[0]    外界如此的不安... 我們給予妳們如此安逸的環境！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]薩滿：\c[0]    妳們... 應感謝我們... 賦予的一切...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]薩滿：\c[0]    感恩海巫！ 讚嘆海巫！
+
+####################################################3 Rapeloop QUESt GIVER
+
+QuestGiver/NonCapture
+\m[confused]\c[6]洛娜：\c[0]    呃...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]薩滿：\c[0]    妳不是... 我們的女人... 走開！
+
+QuestGiver/pregCheck0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]薩滿：\c[0]    妳！ 過來！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是...
+
+QuestGiver/pregCheck1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    妳不是懷上... 我們的種....
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    喝下去！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    咦？\optD[是,不要]
+
+QuestGiver/pregCheck2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    它會... 殺死妳身體中的不潔...
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我有點...
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    不太舒服..
+
+QuestGiver/pregCheck3
+\ph\narr\..\..\..\..\..
+
+QuestGiver/Aggro
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    妳違反！！ 海巫的意志！！！ 殺！！
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    咦！ 等等！
+
+QuestGiver/VagTraining_preg
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    我聞... 到了...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    是... 我們的... 種...
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+QuestGiver/VagTraining0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    為了... 生下更多... 寶寶...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    妳必須... 訓練...
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    ....\optD[是,不要]
+
+QuestGiver/GotoWork
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    去工作！
+
+QuestGiver/GotoWork_yes
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    是！
+
+QuestGiver/GotoRest
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    去睡覺！ 明天還要繁殖！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+QuestGiver/GotoDone
+\CBct[8]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    我照您說的，都做好了！ 真的！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    很乖... 人類奴隸好！
+
+QuestGiver/Job_House
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    地方的兄弟... 感到寂寞... 牠需要交配...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    去！ 這棟屋子! 與牠交配！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+QuestGiver/NoWorkToday
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    今天... 沒有工作...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    去睡覺！
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+QuestGiver/sexParty0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    我們... 祭典... 要開始了....
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    去海巫... 的神像前...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    準備... 交配...
+
+QuestGiver/sexParty1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    我們... 海巫之子... 
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    祂賦予所有的.. 禮遇... 與讚美... 我們.. 感嘆海巫...！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    今晚... 在海巫的見證下... 我們... 交配...！ 讓她們繁殖...！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    所有海巫的子民！ 都可以交配！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    我們試著... 警告妳們... 但你們人類... 愚蠢... 他們都會死...！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    你們女人... 很幸運... 可以為我們生殖...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    將來... 當類獸人... 毀滅人類後... 我們將會回歸諾爾島...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    我們將看到... 一個... 由海巫... 統治的新世界...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    感嘆海巫！ 讚嘆海巫！
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    再見！ 感謝您的魚！
+
+QuestGiver/sexParty2
+\CamMP[FishGp2]\c[4]漁人：\c[0]    感嘆海巫！ 讚嘆海巫！
+
+QuestGiver/sexParty3
+\CamMP[FishGp2]\c[4]漁人：\c[0]    再見！ 感謝您的魚！
+
+Guards/OfferSex0
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    我們的戰士... 強大... 但需要交配...
+
+Guards/OfferSex1
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    去外面！ 找我們的勇士！ 交配！
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]薩滿：\c[0]    至少與... \c[6]兩名\c[0]勇士... 交配！
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+Guards/OfferSex0_1
+\SndLib[FishkindLgSpot]\prf\c[4]漁人：\c[0]    交配♥ 謝海巫♥
+
+Guards/OfferSex0_0
+\SndLib[FishkindLgSpot]\prf\c[4]漁人：\c[0]    我感受到...海巫的恩惠！
+
+####################################################3 wake up random rape
+
+wakeUpRape/begin0
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    醒來！
+\CBct[2]\m[tired]\c[6]洛娜：\c[0]    耶？
+
+wakeUpRape/begin1
+\SndLib[FishkindLgSpot]\prf\c[4]漁人：\c[0]    女人！ 交配♥
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    嗚嗚...
+
+wakeUpRape/begin2_0
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    \{交配♥ 懷上我的種♥
+
+wakeUpRape/begin2_1
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    \{受孕♥ 女人受孕♥
+
+wakeUpRape/begin2_2
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    \{繁殖♥ 繁殖♥
+
+wakeUpRape/begin3_0
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    \{吼吼呱呱呱呱呱♥
+
+wakeUpRape/begin3_1
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    \{吼吼呱♥ 懷漁人的種♥
+
+wakeUpRape/begin3_2
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    \{射了♥ 吼吼呱♥
+
+wakeUpRape/begin4_0
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    好爽♥ 感嘆海巫♥
+
+wakeUpRape/begin4_1
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    交配！ 讚嘆海巫♥
+
+wakeUpRape/begin4_2
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    繁殖♥ 舒服啊♥
+
+wakeUpRape/begin5
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    ......
+
+####################################################3 Boat Escape Point
+
+RsideShip/begin_opt
+\m[confused]\c[6]洛娜：\c[0]    廢棄的木頭堆？ 也許我可以....
+\prf要提供多少木頭？\optB[算了,1<r=HiddenOPT1>,2<r=HiddenOPT2>,3<r=HiddenOPT3>]
+
+RsideShip/begin_tired
+\m[tired]\c[6]洛娜：\c[0]    好累啊...
+
+RsideShip/begin_win
+\m[triumph]\Rshake\c[6]洛娜：\c[0]    完成了！ 我可以離開這了！
+
+RsideShip/begin_NoSta
+\m[tired]\c[6]洛娜：\c[0]    不行了，好困。
+
+Guard/spot
+\SndLib[FishkindLgSpot]\c[4]漁人：\c[0]    奴隸！ 逃跑的女人！
+
+#################################################--------------------- OTHER COMMON
+
+Guard/SlaveEscape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]守衛：\c[0]    逃跑了！ 女人逃跑了!
+
+Trader/TooWeak
+\c[4]商人：\c[0]    女人... 武器... 危險...
+
+NightGuard/begin0
+\c[4]守衛：\c[0]    女人... 我也想幹...
+
+NightGuard/begin1
+\c[4]守衛：\c[0]    我不想... 工作...
+
+NightGuard/begin2
+\c[4]守衛：\c[0]    有沒有... 女人...
+
+HumFrKid/Qmsg0
+我不要... 長大...
+
+HumFrKid/Qmsg1
+我不想變成魚...
+
+HumFrKid/Qmsg2
+我討厭這裡！
+
+FishFrKid/Qmsg0
+我要... 成為大人了...
+
+FishFrKid/Qmsg1
+海巫阿... 我來了...
+
+FishFrKid/Qmsg2
+我快可以交配了...
+
+SlaveTrader/Qmsg0
+不要怕...
+
+SlaveTrader/Qmsg1
+這裡... 安全...
+
+SlaveTrader/Qmsg2
+為我們... 生孩子...
+
+Slave0/Qmsg0
+至少我還活著。
+
+Slave0/Qmsg1
+能吃飽，不錯了。
+
+Slave0/Qmsg2
+只要不反抗他們...
+
+Slave1/Qmsg0
+我想回家...
+
+Slave1/Qmsg1
+為什麼他們不要我了？
+
+Slave1/Qmsg2
+我不想再被肏了
+
+Slave2/Qmsg0
+我詛咒你們！
+
+Slave2/Qmsg1
+我不是屄穴！
+
+Slave2/Qmsg2
+我是人！
+
+NoerDude/rng0
+\c[4]商人：\c[0]    奴隸我懂！ 女人咩！ 但牠們要錢做什麼？
+
+NoerDude/rng1
+\c[4]商人：\c[0]    一趟來回，扣掉成本居然可以賺上兩倍！
+
+NoerDude/rng2
+\c[4]商人：\c[0]    這趟一定會大賺，你看！ 隻隻飽滿！
+
+NoerGuard/rng0
+\c[4]保鑣：\c[0]    該死的，真以為我們需要你的魚？ 去你他媽的海巫！
+
+NoerGuard/rng1
+\c[4]保鑣：\c[0]    他們長的真醜！ 根本就是魔物！ 偽神為何創造這種噁心的東西？ 聖徒為何沒把牠們宰光！
+
+NoerGuard/rng2
+\c[4]保鑣：\c[0]    聞到了嗎？ 真是夠了，這裡全都是這個味道，就算洗也洗不掉！
+
+FishTown/board0
+\board[警告外來者]
+不要違反協議，不要鬧事。
+獻出女人，我們給你食物。
+感謝海巫。
+
+FishTown/board1
+\board[譴責假海巫]
+不要想以海巫的名義欺騙我們。
+我們知道我們的海巫！
+祂偉大！祂強大！
+讚嘆海巫。
+
+NearLabor/begin0
+\narr還是算了吧，牠們對洛娜的孩子感到滿意...
+
+NearLabor/begin1
+\narr還是算了吧，牠們決定給洛娜些許休息時間...

@@ -1,0 +1,156 @@
+DedOne/ded0
+\SETpl[DedOne_revenant]\Lshake\c[4]Незнакомец：\C[0]    ГРРРУУУУААААААХХХ!!! ГГГГРРРААА!!!!
+
+DedOne/ded1
+\SETpl[DedOne_revenant]\Lshake\c[4]Незнакомец：\C[0]    РРРРРРРРРРРРРРРРР!!! ТЫЫЫ ИСПОРТИЛА МОЮ ИСТОООРИЮ!
+
+DedOne/ded2
+\SETpl[DedOne_revenant]\Lshake\c[4]Незнакомец：\C[0]    АААААААААРХХХХХХ!!! ПУШКИИИ! НУЖНО БОЛЬШЕ ПУШЕЕЕК!
+
+DedOne/PirateBane_begin1
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\c[4]Незнакомец：\C[0]    .....
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    И-и-и!!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    .........
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    ...
+\CBct[1]\m[confused]\plf\PRF\c[6]Лона：\C[0]    М-м...
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона：\C[0]     Ты меня не напугаешь!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    .....Праввдааа?
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    И-и-и!! ОН ЗАГОВОРИЛ!!
+
+DedOne/PirateBane_begin_k1_Cocona
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\SETlpr[cocona_confused]\Lshake\PRF\c[4]Незнакомец：\C[0]    .....Хммм?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\PRF\c[4]Незнакомец：\C[0]    Этооот ребёнооок всёёё ещёёё живооой?...
+\CBfB[7]\SETlpr[cocona_shocked]\plf\Rshake\c[6]Кокона：\C[0]    Ты...! Кокона знает тебя! Плохой человек!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Неееет, миилааая, я не плохооой. Я спууутник Правосссууудиия.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]Кокона：\C[0]    Нет! Шшшш...! Ты лжец!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Неправдааа.
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]Кокона：\C[0]    Правда!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    НЕПРАВДА!
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]Кокона：\C[0]    ..........
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\PLF\prf\c[4]Незнакомец：\C[0]    .......
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]Кокона：\C[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    ...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\Lshake\PRF\c[4]Незнакомец：\C[0]    Позабооотьсяяя о неееей.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Уф.....
+\CBct[1]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Конечно!
+
+
+DedOne/PirateBane_begin_k1_GratRat
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Грейрат：\C[0]    ОТОЙДИТЕ, МИЛЕДИ!
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Грейрат：\C[0]    Ты.... Что ты такое?!
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Сесилия：\C[0]    Что не так?
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Грейрат：\C[0]    Не приближайтесь! Держитесь подальше от него!
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    .....М-м?
+\CBfB[2]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Сесилия：\C[0]    Да что происходит?!
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]Грейрат：\C[0]    Это существо опасно! Бегите!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Вы чтоооо, с ума сошлиии? Яяяя наа стоороонее правосссууудиия!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Чеем я васс напугаал?
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[6]Грейрат：\C[0]    .......
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]Грейрат：\C[0]    .......
+\CBfF[6]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]Грейрат：\C[0]    Я вас неправильно понял, прошу прощения.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Всссё в поррядке... Чаассто случааается... Прощааюю ваашее невеедениие.
+
+DedOne/PirateBane_begin_k2
+\CBmp[DedOne,20]\m[confused]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Диитяя, виииделаа лии ты туу, что скрыываается воо тьмее?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Леет твооих... Но грудддь намногооо большшше.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]     Г-грудь.........?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]      Внееемлии! Её изгиибыы — нее тоо, чтоо твои. Онии огрооомны, каак медовыыые дыниии.
+\CBct[8]\m[shy]\plf\Rshake\c[6]Лона：\C[0]       О-огромны...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Не скоорбии, диитя. Плооскиие... кхм... то есть скроомные тооже не лиишеныы изяяящества.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Запооомни же, диитя!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]     Если груудь твояя не мала, как лююди моогут друг с друугом сравниииться? Если ж не буудет она великаа, сумееют ли лююди объединиииться?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Не прельщаайся мечтаами — ни пыышные, ни скроомные не будуут твоими. Довоольствууйся тем, что имеешь... и своиимии веернымии рукаами.
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я...
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Тьфу, не плаачь! Это былаа... шуутка.
+
+DedOne/PirateBane_begin_k3
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Если встрееетишь низкороослоее создаание с сиинеей коожей и пыышнымии дараами дреевних богоов – прииведии эту дууру ко мне.
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Сссинекоожие девы рееедкость в этих краяях... Надееюсь... она не валяяется в каакоом-ниибуудь заабытоом склеепе.
+
+DedOne/PirateBane_begin_k3_Opt
+\CBct[8]\m[normal]\SETpl[DedOne_normal]\plf\PRF\c[6]Лона：\C[0]    Эммм... \optB[Отмена,Кто вы?,Синекожая?<r=HiddenOPT0>]
+
+DedOne/PirateBane_begin_k3_Opt_who
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Кто вы?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    ПРАААВОСУУУДИЕ! Я САМО ВОЗМЕЕЕЗДИЕ!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    Прааавосууудие прииишёл на островвв Нооэрр, чтоообы уничтожжжить всееех злыххх сущессств и очисстить этоттт миррр!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    Покааа сущессствует злооо - БУДУ СУЩЩЩЕССТВОВАТТЬ И ЯЯЯ!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я-я-ясненько..?
+
+DedOne/PirateBane_begin_k3_Opt_blue_NonMeet
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Девушка с синей кожей?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Сейчас в мире творится такой хаос... Конечно, надежда найти её невелика, верно?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    С нееей всёёё в порядке. Я чииитал сцееенарий, чтооо в бууудущем ты с нееей встрееетишься.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Серьёзно?
+
+DedOne/PirateBane_begin_k3_Opt_blue_Meet
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ...Синекожая девушка?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я видела её, странная, называла себя \c[6]Морской ведьмой\C[0], вы о ней?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    АХХХ! Значиттт, всё действительннно идёттт по сссценарию! Преееевосхооодно!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    Передааай ееей, чтооо землееевладееелец треебует доолг за арееенду. И скажиии ееей, чтоообы бооольше неее пыыыталась скрываааться.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Долг? Почему вы не можете сказать ей всё это сами? Она сейчас в руинах на Рыбополисе.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    Этооо бесссполезннно, онааа чууувстувует моё присутссствие. Я лишшшь хочччу напоомнить ей, чттто пооора платииить. Если онааа не хочеттт меня видеттть, я не наастааиваю.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосудие：\C[0]    Конечччноо, ты не остаанешься без нааграады. Выполллни моёё заданнниие, и я награжжу тебяяя даром Правосссууудиия.
+\CBct[20]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Оу? Ну ладно.
+
+####################################################################### PB_MassGrave
+#<r=HiddenOPT0>
+
+DedOne/MassGrave_1
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    \..\..\..И-Извините?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    Чтоо такоое?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эммм.....
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Люди из Гильдии сказали, что некто злой здесь творит злые дела. Вы случайно не...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    ......Зззлоой?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Экхм... Может, они имели в виду вас?
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    Яяя? ЗЗЛООЙ? \optD[Да,Объяснить<r=HiddenOPT0>]
+
+DedOne/MassGrave_optCB
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Да...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    Почччемму? Я сосредооточеннн на сссвоей работеее, и я нуженнн этоммуу миррруу.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Но вы уже нарушили и закон и покой.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Все боятся вас... И мне тоже кажется, что вы злой.
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    АААААААААРХХХХХХ!!!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    ЧТО ТЫ СКАЗАЛА?!!! Я НЕ ЗЛОЙ!!!\n \.\.\.Я\.\.\. Я\.\.\. ПРАВОСССУДИЕ!!!
+\CBmp[DedOne,1]\SETpl[DedOne_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    ПОКАЖИ, ЧЕГО СТОИШЬ! Я ДАМ ТЕБЕ ТРИДЦАТЬ СЕКУНД!\n ЕСЛИ ВЫЖИВЕШЬ, Я ВЫСЛУШАЮ ТЕБЯ!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    ЧТ-?! АА!!!
+
+DedOne/MassGrave_optCB2
+\CamMP[BlockerCam]\m[terror]\plf\PRF\c[6]Лона：\C[0]    ЭААА!?
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    УМРРРИИИ В МУКАХХХ!
+
+DedOne/MassGrave_optPASS
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... Да...?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    А чтоо? Я сосредоточееннн на своооей рабоотеее, и этоттт мирр нуждааается во мнеее.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Работа? Какая работа?
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    Этиии заблуудшшшие оовцыы нуждааются в мооём настаавлении. Я должееен привеестиии их тудаа, гдее им меесто.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    М-м... Не понимаю.
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона：\C[0]    В любом случае, пожалуйста, постарайтесь не попадаться на глаза другим. Это принесет неприятности.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    Яяя вершууу правосууудииие! Я хорошииий, зачееем мне скрывааать тооо, чем яяя занимаааюсь?
+\CBct[20]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Оох...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]     Тогда спасай невинных людей нормально, как положено!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Разве нормальные люди гуляют по кладбищу посреди ночи? Скажи мне.
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]Незнакомец：\C[0]    Э-э\..\..\.. Мнеее поораа. Удааччииии теебе.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Лона：\C[0]     Чего?!
+
+DedOne/MassGrave_optPASS2
+\CBct[20]\m[confused]\SETpl[nil]\PRF\c[6]Лона：\C[0]    У вас с головой что-то не так, да?
+
+DedOne/MassGrave_WIN
+\SETpl[DedOne_angry]\Lshake\prf\c[4]Незнакомец：\C[0]    Тыы выжилааа! Впечатляяяюще, ты хорошшшая охотницаааа!
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнакомец：\C[0]    До скорррогооо!
+\CBct[20]\m[wtf]\SETpl[nil]\plf\Rshake\c[6]Лона：\C[0]    Чего?! Вы в своём уме?
+
+
+####################################################################### PB_NorthCP
+
+PB_NorthCP/Qmsg0
+Я -... ПРАВОСССУДИЕ!
+
+PB_NorthCP/Qmsg1
+НЕ БОООЙТЕСЬ!
+
+PB_NorthCP/Qmsg2
+ПРАВОСУДИЕ НАССТУПААЕЕТ!
+

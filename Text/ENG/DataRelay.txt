@@ -1,0 +1,32 @@
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+RelayEMP/Welcome0
+\CBid[-1,20]\m[confused]\prf\c[4]Carriage Receptionist：\c[0]    "How may I be of service, Miss?"
+
+RelayEMP/Welcome1
+\CBid[-1,20]\m[confused]\prf\c[4]Carriage Receptionist：\c[0]    "There's not many places you can travel to. Where do you wish to go?"
+
+RelayEMP/SlaveBlock
+\CBid[-1,20]\prf\c[4]Carriage Receptionist：\c[0]    "Flithy slaves have no right to use my services! Get away and go back to you master!"
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    "Y-Yes..."
+
+RelayEMP/NoGold
+\CBid[-1,20]\prf\c[4]Carriage Receptionist：\c[0]    "You have no money?! THEN GET OUT OF MY SIGHT!"
+\CBct[6]\m[flirty]\c[6]Lona：\c[0]    "S... Sorry......"
+
+RelayEMPfish/Welcome0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Ferry Employee：\c[0]    "Fishtopia... Our home..."
+
+RelayEMPfish/Welcome1
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Ferry Employee：\c[0]    "Human... *Snort* Where you... Go...?"
+
+RelayEMPfish/SlaveBlock
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Ferry Employee：\c[0]    "Slaves... Not allowed... To leave...! Return... To birth... More offsprings...!"
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    "U... Understood......"
+
+RelayEMPfish/SlaveAccept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Ferry Employee：\c[0]    "Slave... Fresh girl... Come on......"
+\CBct[2]\m[flirty]\c[6]Lona：\c[0]    "Ummm...?"
+
+RelayEMP/opt
+\CBct[8]\CamCT\m[flirty]\PRF\c[6]Lona：\c[0]    "Mmmm..."

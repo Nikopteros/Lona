@@ -1,0 +1,12 @@
+####################################--------------------- overmap
+Top/OvermapEnter
+\m[confused]Templo de los Espinos \optB[Cancelar,Entrar]
+
+sneak/spoted
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardián：\C[0]    ¡INTRUSO...!
+
+release/DeepOneF
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Un monstruo... encerrado?
+
+Farseer/Else
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Chamán：\C[0]    Forastero... Vete...

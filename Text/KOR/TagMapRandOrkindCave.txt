@@ -1,0 +1,88 @@
+OrkindCave1/OvermapEnter
+\m[confused]동굴, 이곳은 마물의 근거지인 듯하다\optB[그만둔다,들어간다]
+
+OrkindCave2/OvermapEnter
+\m[confused]북쪽 관문 감시탑, 이미 마물에게 점령당한 것 같다\optB[그만둔다,들어간다]
+
+OrkindCave3/OvermapEnter
+\m[confused]동굴, 이곳은 마물의 근거지인 듯하다\optB[그만둔다,들어간다]
+
+OrkindCamp1/OvermapEnter
+\m[confused]마물에게 점령당한 오두막이다\optB[그만둔다,들어간다]
+
+NFL_OrkCamp1/OvermapEnter
+\m[confused]남쪽 12번 식량창고, 이미 마물에게 빼앗겼다\optB[그만둔다,들어간다]
+
+############################################################################# QUEST NFL Burn DOC
+
+RecQuestNorthFL_Main3/FirstTouch
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 이게 그건가\..\..\.. 그래서\..\..\.. 도대체 뭐야?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..\CBct[20]\m[flirty]윗사람들의 더러운 거래 기록?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..\CBct[20]\m[triumph]\Rshake 나랑은 상관없어♥
+
+RecQuestNorthFL_Main3/Cecily0
+\CBfB[2]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 잠깐! 그 문서, 나도 좀 보자!
+
+RecQuestNorthFL_Main3/Cecily1
+\CBfB[1]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]세실리：\C[0] \c[6]에그모어\c[0]?! 이거 우리 집 아니야?!
+\CBct[2]\m[flirty]\PRF\plf\c[6]로나：\c[0] 어......?
+\CBfB[6]\SETpl[CecilyFailedAr]\Lshake\prf\C[4]세실리：\C[0] 말도 안 돼.... 아버지가 그럴 리가....
+\CBct[3]\m[confused]\PRF\plf\c[6]로나：\c[0] 음\..\..\..\CBct[3]\m[triumph]\Rshake 어차피 다 불태울 거니까, 앞으로는 아무도 모를 거야.
+\CBfB[8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]세실리：\C[0] .....
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\PRF\c[4]회색쥐：\c[0] .........
+
+RecQuestNorthFL_Main3/Done
+\CBct[3]\m[pleased]\Rshake\c[6]로나：\c[0] 좋아! 끝났다!
+\CBct[20]\m[normal]\PRF\c[6]로나：\c[0] 자, 이제 가서 보상 받자.
+
+############################################################################# QUEST 2
+
+OrkindCave2/OvermapEnter_enter
+\m[flirty]\c[6]로나：\c[0] 드디어 여기군.
+\m[shy]\c[6]로나：\c[0] 나… 정말 준비가 된 걸까?
+\m[serious]\c[6]로나：\c[0] 절대 실패해선 안 돼. 실패한다면… 난 놈들의 번식체가 될지도 몰라.
+
+OrkindCave2/OvermapEnter_done
+\m[triumph]\c[6]로나：\c[0] 끝났다! 저 역겨운 녹색 피부 놈들은 전부 사라졌어.
+\m[pleased]\c[6]로나：\c[0] 어서 임무 보고하러 가자.
+
+#############################################################################
+
+Lona/ExitCave
+\CBct[2]\m[confused]\c[6]로나：\c[0] 여기서 나갈까?\optB[아직 할 일이 남아있다,떠난다]
+
+Lona/SmallHole
+\narr좁은 동굴 구멍, 사람이 들어가기엔 턱없이 부족하다.
+
+Lona/CheckFlag
+\narr오크들의 깃발, 정체불명의 토템이 그려져 있으며 알 수 없는 가죽으로 만들어져 있다.
+
+Lona/CheckCropseEnd
+\CBct[6]\m[serious]\c[6]로나：\c[0] 내가 죽으면... 나도 이렇게 되는 건가?
+
+Lona/TimerStart
+\narr동굴 밖에서 발소리가 들려왔다.
+\CBct[6]\m[fear]\c[6]로나：\c[0] 서둘러야 해...
+
+Lona/RapeLoopNonCapture
+\m[fear]\narr오크들이 로나를 붙잡아, 그녀는 모든 장비를 빼앗겼다.
+\m[terror]\narr놈들은 새로운 육변기를 찾았다며 크게 흥분했다.
+
+Lona/RapeLoopBondage
+\m[pain]\narr놈들은 로나를 바닥에 짓눌러, 그녀의 몸에 굴레와 구속구를 씌웠다.
+
+Lona/RapeLoopCaptured
+\m[terror]\narr오크들은 아직도 흥분이 가시지 않은 듯, 로나를 잠시도 쉬게 두지 않았다. 
+\m[fear]\narr놈들은 악취 섞인 숨을 내뿜으며 음흉하게 웃었다. 오늘은 또 어떤 방식으로 이 육체를 가지고 놀아줄까, 탐욕스러운 눈빛이 빛나고 있었다. 
+
+Lona/RapeLoopDragOut
+\m[hurt]\narr오크들은 로나를 거칠게 끌어내며, 본격적인 향락의 연회를 시작하려 했다.  
+
+Lona/RapeLoopTorture
+\m[fear]\narr로나의 도망 시도에 분노한 오크들은, 육변기로 길러진 몸이 어떤 운명을 맞아야 하는지 똑똑히 새겨주려 들었다. 
+
+######################################## MAP TRANS
+
+Lona/ToOrkindCave1
+\cg[map_region_hole]좁은 동굴, 아마 저 괴물들이 이 길로 노엘 마을까지 들어온 듯하다. 
+\CBct[2]\m[confused]\c[6]로나：\c[0] 들어가야 할까…?\optB[그만둔다, 들어간다]

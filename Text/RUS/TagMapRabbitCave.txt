@@ -1,0 +1,99 @@
+overmap/OvermapEnter
+\m[confused]Заброшенная Медная Шахта \optB[Отмена,Войти]
+
+################################# OP
+
+yeller/start
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Наёмник：\C[0]    Бежим! Бежим!
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Наёмник：\C[0]    Нет! Я не хочу умирать! На помощь!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[4]Очень Большой Кролик：\C[0]    Пик-пик! Пииик!
+
+yeller/start1
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Наёмник：\C[0]    Нет! Не приближайся!
+
+yeller/start2
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Наёмник：\C[0]    Нет! Он мёртв!
+\CamMP[MerB]\BonMP[MerB,5]\c[4]Наёмник：\C[0]    Блять!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed2.ogg]\c[4]Очень Большой Кролик：\C[0]    Пик-пик! Пииик!
+
+yeller/start3
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[4]Очень Большой Кролик：\C[0]    Пик-пик! Пииик!
+\CamCT\m[flirty]：\C[0]\C[6]Лона：\C[0]    Что?! Это что, кролик...?
+
+################################# OP
+
+priest/begin0
+\prf\BonMP[Priest,8]\c[4]Наёмник：\C[0]    Я знаю! Я читал это в Священных Писаниях! От Святых! Это Прожорливый Монстр! \optB[Всё в порядке,Что случилось?,Дать святую воду<r=HiddenOPT0>]
+
+priest/win
+\prf\BonMP[Priest,20]\c[4]Наёмник：\C[0]    Получилось! Зло уничтожено! Сокровище - моё!
+
+priest/about
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Лона：\C[0]    Что здесь произошло?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Наёмник：\C[0]    Мы занимались уничтожением монстров, но что за чертовщина ждала нас здесь?!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Наёмник：\C[0]    Это Тёмный Прожорливый Монстр!
+\CamMP[KillerRabbit]\BonMP[Priest,20]\prf\c[4]Наёмник：\C[0]    Жор пришёл вместе с Тьмой, и звуками Шагов Лжи, они сожрут всё на своём пути. Какая глава и стих... Я забыл! 
+\CamMP[KillerRabbit]\BonMP[Priest,15]\prf\c[4]Наёмник：\C[0]    Посмотри на эти красные глаза и белый мех! Это символ греха!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Наёмник：\C[0]    Нам нужна \c[2]Святая Вода\C[0]! \c[2]Святая Вода\C[0] может победить зло, но меня выгнали из Святой Церкви!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Наёмник：\C[0]   Помоги! Нам нужен способ победить его! Помоги мне поскорее достать \c[2]Святую Воду\C[0]!
+\CamCT\m[serious]\Rshake：\C[0]\C[6]Лона：\C[0]    Я постараюсь!
+
+priest/HolyWater0
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона：\C[0]    У меня есть Святая Вода!
+
+priest/HolyWater1
+\CamMP[Priest]\BonMP[Priest,3]\prf\c[4]Наёмник：\C[0]    Отлично!
+
+priest/HolyWater2
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Наёмник：\C[0]    Святые в этой Воде, благословите невиновных!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Наёмник：\C[0]    Святые в этой Воде, уничтожьте Ложь и зло!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Наёмник：\C[0]    Восславляем Святых!
+\CamCT\m[confused]\PRF：\C[0]\C[6]Лона：\C[0]    А это правильно, что вы брызгаете здесь водой?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Наёмник：\C[0]    Не волнуйся, я делаю, как писалось в Священных Писаниях, и зло и грех будут стёрты с этого места!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Наёмник：\C[0]    Но, затем нам нужен кто-то, кто приведет его в святилище.
+\CamCT\m[wtf]\PRF：\C[0]\C[6]Лона：\C[0]    Мм?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Наёмник：\C[0]    Маленькая девочка, это будешь ты! Иди! Следуй по стопам Святых!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона：\C[0]    А? Что? Я?
+
+priest/HolyWater3
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Наёмник：\C[0]    Не бойся. Давай, Святые защитят тебя!
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Лона：\C[0]    Что?
+
+
+Lona/RabbitDed0
+\CamMP[KillerRabbit]\narr Перебродившая Святая Вода довольно скользкая.
+Маленький Кролик поскользнулся.
+Маленький Кролик ударился головой.
+Маленький Кролик умер.
+
+Lona/RabbitDed1
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Лона：\C[0]    Да ну? Неужели это сработало?
+
+
+################################# advanture common
+MerA/Common
+\prf\c[4]Наёмник：\C[0]    Как я и сказал, кролики совсем не милые!
+
+MerB/Common
+\prf\c[4]Наёмник：\C[0]    И если Чёрная Мгла обратила маленького кролика в такую тварь - что будет с людьми?
+
+MerB/Win
+\prf\c[4]Наёмник：\C[0]    Спасибо, дитя. Но нам нечем тебе отплатить, возвращайся и возьми что-нибудь поесть самостоятельно.
+
+MerA/Win
+\prf\c[4]Наёмник：\C[0]    Ахуеть! Сокровища теперь мои! ВСЕ МОЁ!
+
+Box/MerAnyAlive0
+\prf\c[4]Наёмник：\C[0]    \{ЭЙ!!!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона：\C[0]    Аа?! Ч-что...?
+
+Box/MerAnyAlive1
+\prf\c[4]Наёмник：\C[0]    Всё теперь наше! Вали отсюда, мелкая!
+\CamCT\m[confused]\PRF：\C[0]\C[6]Лона：\C[0]    Вообще-то, я вам помогала...
+
+Box/MerAnyAlive2
+\prf\c[4]Наёмник：\C[0]    Блять! Тупая сука! Ты оглохла?!
+
+Box/MerAnyAlive3
+\prf\c[4]Наёмник：\C[0]    \{УБИТЬ ЕЁ!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Лона：\C[0]    \{АХХХ!

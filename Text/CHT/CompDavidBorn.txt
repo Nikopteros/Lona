@@ -1,0 +1,142 @@
+
+DavidBorn/KnownBegin
+\CBmp[DavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\C[4]大衛.彭：\C[0]    啊！是女俠啊？
+\CBct[2]\m[confused]\plf\PRF\C[4]大衛.彭：\C[0]    女俠？
+
+DavidBorn/BasicOpt
+\m[confused]\optB[算了,組隊<r=HiddenOPT0>,解除組隊<r=HiddenOPT1>]
+
+DavidBorn/CompData
+\board[大衛.彭]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]戰士、防禦。
+\C[2]陣營：\C[0]不法份子。
+\C[2]敵對：\C[0]邪惡生物,諾爾守衛。
+\C[2]需求：\C[0]虛弱小於100。
+\C[2]期限：\C[0]3天。
+\C[2]獨立：\C[0]角色死亡後不重生。
+傳說中的屠龍英雄，至少他是這麼說的。
+
+DavidBorn/Comp_win
+\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    新的冒險？ 出發吧！
+
+DavidBorn/Comp_failed
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    妳太弱了！
+
+DavidBorn/Comp_failed_slave
+\SETpl[DavidBorn_angry]\Lshake\prf\C[4]大衛.彭：\C[0]    不幹！ 奴隸還敢對我指指點點？
+
+DavidBorn/Comp_disband
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    冒險... 結束了嗎.....
+
+DavidBorn/CompCommand
+\SETpl[DavidBorn_normal]\PLF\prf\C[4]大衛.彭：\C[0]    哼哼...
+
+################################################################### QMSG ################################################################################# 
+
+DavidBorn/CommandWait0
+前面有什麼嗎？
+
+DavidBorn/CommandWait1
+好吧。
+
+DavidBorn/CommandFollow0
+有我擋著！ 不用怕！
+
+DavidBorn/CommandFollow1
+沒什好怕的！
+
+DavidBorn/OvermapPop0
+你看過會飛的馬嗎？
+
+DavidBorn/OvermapPop1
+屠龍？ 那沒什麼！
+
+DavidBorn/OvermapPop2
+最可怕的是熊！
+
+DavidBorn/OvermapPop3
+有人偷了我的蛋糕！
+
+#DavidBorn/OvermapPop0
+##asdasdasdasdasdasdasdasdaasd       #length
+#I've seen it! A flying horse!
+#
+#DavidBorn/OvermapPop1
+#Dragon slaying? Too easy!
+#
+#DavidBorn/OvermapPop2
+#Bears are just the worst!
+#
+#DavidBorn/OvermapPop3
+#Somebody stole my sweetcake!
+
+###################################################################### QUEST
+
+DavidBorn/CampSpot1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]未知：\C[0]    什麼人！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]未知：\C[0]    \..\..\..
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]未知：\C[0]    妳從哪溜進來的？！
+
+DavidBorn/CampSpot3
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    呀？ 呀呀!!!
+
+DavidBorn/Unknow
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]未知：\C[0]    我聽說這裡發生了魔物爆走，我花了一整個月搭船來到這，而結論是我不該去席芭莉絲。
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]未知：\C[0]    我曾如同聖徒那般降妖除魔，我曾是個強大的傭兵。
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]未知：\C[0]    最開始我只是領著一群難民逃亡，現在卻成了盜賊的頭目。
+\CBmp[UniqueDavidBorn,5]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]未知：\C[0]    像我這種英雄只要決定做什麼，最後都如同雪球般越來越大。
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]未知：\C[0]    無論好事還是壞事。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]未知：\C[0]    我是\C[6]大衛.彭\C[0]，曾是個偉大的傭兵。
+
+DavidBorn/CampSpot4_opt
+\CamCT\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    呃？\optD[我這就離開!,這樣是不對的<r=HiddenOPT1>]
+
+DavidBorn/CampSpot4_failed
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]大衛.彭：\C[0]    妳死定了！
+
+DavidBorn/CampSpot4_win
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    為何不去幫助諾爾鎮的人呢？ 那裏正需要幫助！
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]大衛.彭：\C[0]    我這不是正在幫他們嗎？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]大衛.彭：\C[0]    他們跟我要更多的的奴隸，我給了。
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]大衛.彭：\C[0]    他們要我擋著難民，我也照做了。
+\CamCT\m[wtf]\plf\PRF\c[6]洛娜：\c[0]    這不是幫忙吧？ 抓捕無辜的人不是個英雄的作為！
+\CBct[5]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我很確信你做的事是邪惡的！
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    我只是跟著聖徒的指引走...
+\CBct[3]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    現在回頭還不遲，諾爾鎮的去諾爾鎮的傭兵公會服務處看看吧，你一定派得上用場的。
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    唉\..\..\.. 我到底在做什麼.....
+
+DavidBorn/CampSpot4_win2
+\ph\narr\c[4]大衛.彭\c[0]離開了...
+\CBct[8]\narrOFF\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 接下來怎麼辦？
+
+##################### DEFEAT him
+
+DavidBorn/CampLost0
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    不！ 等等！ 女俠饒命！\optD[誰理你,放過他]
+
+DavidBorn/CampLost0_fqu
+\CBct[5]\m[overkill]\plf\PRF\c[6]洛娜：\c[0]    少騙了！
+
+DavidBorn/CampLost0_okay
+\CBct[8]\m[wtf]\plf\PRF\c[6]洛娜：\c[0]    哈哈？ 不是吧？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    別殺我！ 我只是跟著聖徒的指引走！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    謝女俠！ 我必報答女俠的不殺之恩！
+
+DavidBorn/CampLost0_okay2
+\CBct[8]\m[wtf]\PRF\c[6]洛娜：\c[0]    呃... 我什麼都還沒說啊?
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    算了...
+
+DavidBorn/QuRec2to3_1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]大衛.彭：\C[0]    喝！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]大衛.彭：\C[0]    哈！
+\CBct[8]\m[normal]\plf\PRF\c[6]洛娜：\c[0]    請問...
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]大衛.彭：\C[0]    嚇！ 女俠？！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃.... 請問你怎麼會在這？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]大衛.彭：\C[0]    聽了您的教訓後我醒悟了！ 我決定再次聽從指引！ 成為英雄！
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]大衛.彭：\C[0]    女俠阿... 感謝您的指引！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....  算了...

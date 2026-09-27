@@ -1,0 +1,115 @@
+thisMap/OvermapEnter
+습지 야영지\optB[그만둔다,들어간다]
+
+EmptyHouse/Qmsg0
+빈집이다
+
+EmptyHouse/Qmsg1
+아무것도 없다
+
+yeller/Qmsg0
+나 바쁘다!
+
+yeller/Qmsg1
+지금 말고!
+
+yeller/start
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 야!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 빨리 와! 놈들이 왔다고!
+\CamCT\Bon[2]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐?! 뭐가 왔다고!?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 서둘러!
+
+yeller/start1
+\CamMP[Wave2A]\BonMP[Wave2A,20]\SndLib[FishkindSmQuestion]\prf\c[4]어인：\c[0] 꾸르륵!
+\CamMP[Wave2B]\BonMP[Wave2B,20]\SndLib[FishkindSmQuestion]\prf\c[4]어인：\c[0] 꾸루루!
+\CamMP[Wave2C]\BonMP[Wave2C,20]\SndLib[FishkindSmQuestion]\prf\c[4]어인：\c[0] 푸르르팍!
+\CamCT\Bon[1]\m[shocked]\Rshake\c[6]로나：\c[0] 마물이다!
+
+yeller/start_win
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 휴, 살았다! 성도님께 감사드려야지!
+
+yeller/begin2to3
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 네가 안 왔으면 진짜 못 버텼을 거다.
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]로나：\c[0] 어.. 별말씀을, 당연한 거죠?
+
+guard/beginElseQmsg0
+젠장할 어인!
+
+guard/beginElseQmsg1
+죽어라! 죽어라! 죽어라!
+
+guard2/beginElseQmsg0
+너무 피곤해...
+
+guard2/beginElseQmsg1
+눈이 너무 아파...
+
+yeller/beginElseQmsg0
+그녀를 구해줘!
+
+yeller/beginElseQmsg1
+제발 부탁이야!
+
+FArcher/Qmsg
+고맙다.
+
+yeller/begin3
+\CamCT\Bon[6]\m[confused]\PRF\c[6]로나：\c[0] 어..\optB[아무것도 아냐,무슨 일이야?]
+
+yeller/begin3_opt_Wut
+\CamCT\Bon[6]\m[wtf]\PRF\c[6]로나：\c[0] 여기서 무슨 일이 있었던 거야?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 우린 시바리스에 갇힌 사람들을 구하려고 용병 부대를 고용했어.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 처음엔 순조로웠는데, 여기까지 오다가...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 어인들에게 대규모로 포위당했지.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 놈들은 항상 근처에 도사리고 있다가, 우리가 한순간이라도 방심하면 기습해.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 며칠째 잠도 못 잤어... 우리 부대 체력도 사기도 한계야.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 맞다! 도와줘! 그녀가 그 빌어먹을 어인들에게 잡혀갔어...
+\CamCT\Bon[6]\m[shocked]\Rshake\c[6]로나：\c[0] 누구?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 내 여인이야! 제발 구해줘! 우린 더 이상 인력이 없어!
+
+yeller/begin3_opt_WutBoard
+\board[납치된 여자용병 구하기]
+목표：어인에게서 그녀를 구해내라!
+보상：평판 5
+의뢰주：용병
+수행가능횟수：1회
+그녀가 납치된 후, 
+우리 용병단 레인저가 흔적을 따라가봤어.
+북동쪽에 있는 동굴로 잡혀간 것이 확실해.
+난 아직 그녀가 살아있다고 믿어. 도와줘...
+
+yeller/begin3_opt_WutBoard_opt
+\CamCT\Bon[6]\m[confused]\PRF\c[6]로나：\c[0] 어..\optB[싫어,좋아]
+
+yeller/begin3_opt_WutBoard_opt_yes
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]로나：\c[0] 도와줄게! 하지만 더 많은 정보가 필요해.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 고맙다! 정말 고마워!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 나흘 전 밤, 어인의 공격을 막아낸 뒤 그녀가 경비를 서고 있었어.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 그런데 우리가 깨어나 보니 그녀가 사라졌고, 근처엔 비린내와 발자국뿐이었지!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 정찰병이 그 발자국을 따라가 북동쪽에서 어인 유적을 발견했어.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 난 어인들이 여자를 잡아가는 이유를 알아!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 그녀는 분명 아직 살아있어! 반드시!
+\CamCT\Bon[6]\m[serious]\PRF\c[6]로나：\c[0] 좋아! 바로 출발하자!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 성도께서 그대를 지켜주시길!
+
+####################################### RETURN OBJ
+
+yeller/begin4to5
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 나… 나 다시는 못 볼 줄 알았어!
+\CamMP[FArcher]\BonMP[FArcher,6]\prf\c[4]여용병：\c[0] 나도 그래….
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 그 썩은 생선 놈들이 너한테 무슨 짓 한 건 아니지?!
+\CamMP[FArcher]\BonMP[FArcher,8]\prf\c[4]여용병：\c[0] ......
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] .....
+
+yeller/begin4to5_2
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]로나：\c[0] 어... 확실히 아무 일도 없었어...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 아! 성도님 감사합니다! 아직 이름도 못 물어봤네요!
+\CamCT\Bon[4]\m[pleased]\Rshake\c[6]로나：\c[0] 로나! 로나 폴딘이야!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 고마워, 이걸 받아줘...
+
+yeller/begin4to5_3
+\CamCT\Bon[2]\m[confused]\PRF\c[6]로나：\c[0] 이게 뭐야?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 내가 아직 수령하지 않은 길드 의뢰 증서야. 이걸 \C[4]파괴자 요새\C[0]에 있는 용병 길드에 가져다주면, 네가 대신 보상을 받을 수 있을 거야.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 우린 이제 떠날 거야. 너도 이 음침한 데 오래 있지 마라.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]용병：\c[0] 여기, 안전하지 않아.
+\CamCT\Bon[2]\m[serious]\PRF\c[6]로나：\c[0] 알았어!

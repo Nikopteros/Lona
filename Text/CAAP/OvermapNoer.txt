@@ -1,0 +1,93 @@
+common/closed
+\narr Cerrado
+
+##################################### Puerta de la Ciudad de Noer #############################################
+
+GateGuard/begin1
+\cg[map_NoerGate]Puerta de Noertown
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alto, quién va! \optB[Retirarse,Entrar,Colarse<r=HiddenOPT1>,Mentir<r=HiddenOPT2>]
+
+GateNobGuard/begin1
+\cg[map_region_RoadNoerNob]Puerta hacia la ladera de Rosendo
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Eh tú! ¡Alto! \optB[Retirarse,Entrar,Colarse<r=HiddenOPT1>,Mentir<r=HiddenOPT2>]
+
+GateGuard/enter_no_passport_dir6
+\prf\c[4]Guardia：\C[0]    Puedes salir libremente de la ciudad por la puerta. Pero para entrar de nuevo, debes mostrar tus documentos.
+
+GateGuard/enter_no_passport_dir4
+\prf\PLF\c[4]Guardia：\C[0]    Tenemos órdenes de no dejar entrar a nadie sin documentos.
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    Entiendo...
+
+GateGuard/enter_with_passport
+\prf\c[4]Guardia：\C[0]    Hmmm......
+\prf\c[4]Guardia：\C[0]    Bien, puedes pasar.
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]Guardia：\C[0]    ¿Eh? ¡Oye tú! ¡¡¡QUIETA!!!
+\Lshake\c[4]Guardia：\C[0]    ¡Te conozco! \n\{¡ATRAPADLA!
+
+GateGuard/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\C[0]    \{¡No, esperen!
+
+GateGuard/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Lona：\C[0]    \{¡Mierda!!!
+
+GateGuard/enter_failed_gloomy
+\m[bereft]\plf\PRF\Rshake\c[6]Lona：\C[0]    \{¡A-ay!
+
+GateGuard/enter_failed_slut
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\C[0]    \{¡Oh, demonios!
+
+GateGuard/enter_wait
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]Lona：\C[0]    ¡Uf! Lo logré...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]Guardia：\C[0]    ¿Eh? ¡Oye tú! ¡¡¡QUIETA!!!
+\Lshake\c[4]Guardia：\C[0]    ¿A dónde crees que vas arrastrándote? \n\{¡ATRAPADLA!
+
+GateGuard/enter_wisdom
+\PRF\c[6]Lona：\C[0]    ¿No les avisaron? Voy por órdenes de su capitán.
+\PLF\prf\c[4]Guardia：\C[0]    Hmm, ¿no estarás mintiendo?
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_wisdom_win
+\PLF\c[4]Guardia：\C[0]    Parece que es cierto... Vale, pasa.
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]     ¡Uf! ¡No puedo creer que funcionara!
+
+GateGuard/enter_failed
+\PLF\c[4]Guardia：\C[0]    ¡Lárgate! ¡Tenemos que lidiar con vagabundos como tú todos los malditos días!
+
+GateGuard/enter_passport_NoDir
+\prf\c[4]Guardia：\C[0]    Vale. Puedes pasar.
+
+GateGuard/enter_failedDirt1
+\PLF\Lshake\c[4]Guardia：\C[0]    ¡No hay lugar para mendigos en la ciudad! ¡Fuera de aquí, zurra!
+
+GateGuard/enter_failedDirt2
+\narr Lona parece demasiado sucia...
+
+####################################################### Exterior de Noertown
+
+GateGuardOuta/enter_LowMorality
+\prf\c[4]Guardia：\C[0]    ¡Te conocemos! ¡Escoria criminal! ¡No eres bienvenida aquí!
+
+GateGuardOuta/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\C[0]    ¡¿Emm?!
+
+GateGuardOuta/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Lona：\C[0]   ¡Maldición!
+
+GateGuardOuta/enter_failed_gloomy
+\m[sad]\plf\PRF\Rshake\c[6]Lona：\C[0]    Perdón...
+
+GateGuardOuta/enter_failed_slut
+\m[flirty]\plf\PRF\Rshake\c[6]Lona：\C[0]    Hmm, vale...
+
+####################################################### DEEPONE ÚNICO
+
+GateGuard/LonaIsTrueDeepone
+\narr Los guardias comienzan a enloquecer de lujuria y deseo sexual al ver a la joven Bruja Marina...
+Han perdido toda razón y están obsesionados con atrapar a Lona y copular con la chica-monstruo...

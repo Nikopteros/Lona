@@ -1,0 +1,26 @@
+===========to replace system default font.=============
+rename the font u want to SYS-DEFAULT-filename
+reminder,  only one SYS-DEFAULT- file is allowed
+
+
+
+=========to add lang based font=======================
+example for Thai lang with "Noto Sans CJK TC Black" font
+make ur UKR folder under Text\
+and copy paste all text into this folder
+
+download a font support ur lang
+throw to Font\
+double click ur font file.
+copy paste texts after "Font Name:"
+
+
+rename ur filename into  SYS-#{UR LANG FOLDER}-filename like below.
+"SYS-UKR-filename"
+"SYS-UKR-filename"
+
+SYS- mean this file will check by DataManager
+UKR- mean DataManager will forced to use this font on ur lang. this must match to ur lang folder under Text\
+
+if everything matched. DataManager will automatic pick this font for ur lang.
+

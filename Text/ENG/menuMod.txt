@@ -1,0 +1,50 @@
+mod/title
+MODS
+
+thumbnail/no_preview
+No preview
+
+title/status
+UMM mods： loaded %d, enabled %d, found %d
+
+achievement/top_text
+Found new mod
+
+setting/show_on_startup
+Show mod manager on startup
+
+mod/description
+The best in-game mod manager and dev library
+
+top_menu/umm
+Ultra Mod Manager
+
+top_menu/restart
+Restart to apply
+
+top_menu/restart_failed
+Auto restart failed. Please start game manually.
+
+top_menu/accept
+Accept
+
+top_menu/save
+Save
+
+top_menu/revert
+Revert
+
+top_menu/show_on_startup_true
+Show on startup： Yes
+
+top_menu/show_on_startup_false
+Show on startup： No
+
+preview/loaded
+[Loaded]
+
+preview/wait_for_restart
+[Restart to apply]
+
+preview/failed
+[Load failed]

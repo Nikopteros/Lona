@@ -1,0 +1,432 @@
+thisMap/OvermapEnter
+\SETpl[CecilyWtfAr]\Lshake\C[4]賽希莉：\C[0]    妳準備好了？ 決定了就沒有回頭路了！
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....\optB[算了,開工吧]
+
+QuestQmsg/XY
+地點在
+
+QuestStart/Begin0
+\CBfB[2]\SETpl[CecilyWtfAr]\PLF\C[4]賽希莉：\C[0]    就是這了？
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\PRF\C[4]灰鼠：\C[0]    是的，小姐。
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    那現在要做什麼？
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]賽希莉：\C[0]    我需要妳探路，前方應該有我們的人在等著。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃... 好吧。
+
+region/0_exit
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    我必須把該做的事做完，我答應人家的。
+
+QuestStart/flash0
+\CBmp[ThunderFlash,20]\prf\C[4]草堆：\C[0]    雷霆...
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    嚇？！
+
+QuestStart/flash1
+\CBmp[ThunderFlash,20]\prf\C[4]草堆：\C[0]    \{雷霆！
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    什？
+\CBfF[8]\SETpl[GrayRatConfusedArAr]\PLF\prf\C[4]灰鼠：\C[0]    ....
+
+QuestStart/flash2
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prh\C[4]灰鼠：\C[0]    閃光...
+\CBmp[ThunderFlash,8]\plf\C[4]草堆：\C[0]    ...
+
+########################################################################################
+
+QuestStart/ShowUp_AdamAlive0_t0
+\CBmp[Adam,1]\SETpr[Adam_angry]\plh\PRF\C[4]亞當：\C[0]    是你...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]灰鼠：\C[0]    .....
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]亞當：\C[0]    這位小賊，之前有勞妳了。
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什？ 我？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    應該的應該的...
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]灰鼠：\C[0]    你們見過？
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]亞當：\C[0]    她之前幫我做過些事，是可以信任的幫手。
+\CBmp[Adam,20]\SETpl[Adam_normal]\PLF\prf\C[4]亞當：\C[0]    那後面那位就是...
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]亞當：\C[0]    賽希莉大人，很榮幸見到妳。
+
+QuestStart/ShowUp_AdamAlive0_t1
+\CBmp[Adam,8]\SETpr[Adam_normal]\plh\PRF\C[4]亞當：\C[0]    是你...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]灰鼠：\C[0]    .....
+\CBmp[Adam,2]\SETpl[Adam_angry]\m[confused]\PLF\prf\C[4]亞當：\C[0]    那旁邊這位就是賽希莉小姐了？
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什？ 我？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    後面那位才是！ 我只是跟班！
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]亞當：\C[0]    呃......
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]亞當：\C[0]    賽希莉大人，很榮幸見到妳。
+
+QuestStart/ShowUp_AdamAlive1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]賽希莉：\C[0]    你就是亞當？
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\PRF\C[4]亞當：\C[0]    是的。
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]賽希莉：\C[0]    貨物的狀況如何？
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]亞當：\C[0]    這次運送的貨物比平常還多，守衛也是。
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]亞當：\C[0]    我們還在設法找到一條可以接近車隊的路。
+
+########################################################################################
+
+QuestStart/ShowUp_AdamDed0
+\CBfF[2]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]灰鼠：\C[0]    亞當呢？
+\CBmp[replacer,20]\plf\C[4]傭兵：\C[0]    他失蹤了，我們這幾天都沒有他的訊息，凶多吉少。
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]灰鼠：\C[0]    遺憾...
+
+QuestStart/ShowUp_AdamDed0_milo
+\CBct[8]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    唉... 那個...
+\CBfF[2]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]灰鼠：\C[0]    怎麼了？
+\CBct[8]\m[flirty]\plf\Rshake\c[6]洛娜：\c[0]    沒事....
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]灰鼠：\C[0]    .....
+
+QuestStart/ShowUp_AdamDed1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]賽希莉：\C[0]    貨物的狀況如何？
+\CBmp[replacer,20]\plf\C[4]傭兵：\C[0]    這次運送的貨物比平常還多，守衛也是。
+\CBmp[replacer,20]\plf\C[4]傭兵：\C[0]    我們還在設法找到一條可以接近車隊的路。
+
+########################################################################################
+
+QuestStart/ShowUp_Quest0
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]賽希莉：\C[0]    交給她吧！
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]賽希莉：\C[0]    洛娜！
+
+QuestStart/ShowUp_Quest1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？！ 我在這！
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]賽希莉：\C[0]    就像你之前救我那次，幫我們指引出一條路！\optD[好！,呃...]
+
+QuestStart/ShowUp_Quest2
+\board[拯救難民]
+目標：偵查前方。
+調查前方的路線，直到盡頭。
+盡可能不被發現。
+
+QuestStart/ShowUp_Quest3
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    交給我吧！
+
+QuestStart/ShowUp_Quest3_kill
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我覺得我可能辦不到...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]賽希莉：\C[0]    我對平民要求太多了嗎？
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]賽希莉：\C[0]    那就殺出一條路吧！
+
+########################################################################################
+
+Commoner/Qmsg0
+前面很多守衛
+
+Commoner/Qmsg1
+小心
+
+Commoner/Qmsg2
+別被發現了
+
+########################################################################################
+
+ReachedEnd/Success_NonSpot
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]賽希莉：\C[0]    沒有驚動任何守衛？厲害！
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    唉嘿嘿...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]賽希莉：\C[0]    貨物就在前面了，繼續行動吧。
+
+ReachedEnd/Success_Spoted
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]賽希莉：\C[0]    洛娜....
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]賽希莉：\C[0]    我發現有些時候妳真的很不靠譜...
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\PRF\C[4]灰鼠：\C[0]    ....
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    抱歉...
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]賽希莉：\C[0]    算了，貨物就在前面了，繼續行動吧。
+
+ReachedEnd/FailedWarning
+\m[serious]\Rshake\c[6]洛娜：\c[0]    我被發現了，我必須將\C[4]賽希莉\C[0]與\C[4]灰鼠\C[0]帶過來！
+
+########################################################################################
+########################################################################################
+########################################################################################  PART 2
+########################################################################################
+########################################################################################
+
+Part2/Enter
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]賽希莉：\C[0]    下雨了....
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    不沒關係吧？ 聲音都被水聲蓋過去了。
+\CBfB[20]\SETpl[GrayRatConfusedAr]\Lshake\PRF\C[4]灰鼠：\C[0]    ...
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]賽希莉：\C[0]    喂！ 你！
+\CBmp[Follower1,2]\plf\C[4]傭兵：\C[0]    我？
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]賽希莉：\C[0]    你斷後！ 有什麼風吹草動立刻回報！
+\CBmp[Follower1,20]\plf\C[4]傭兵：\C[0]    是！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    現在呢？ 要做什麼？
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]賽希莉：\C[0]    貨物應該就在前面，跟之前一樣，妳做斥候該做的事！
+
+Part2/SpotQuAcc0
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    注意前面！
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]賽希莉：\C[0]    嗯？
+
+Part2/SpotQuAcc0_Maani0
+\CBmp[Maani,20]\SETpr[MaaniNormal]\Rshake\C[4]瑪妮：\C[0]    人數不對，人數差照合約將從尾款扣除。
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]商人：\C[0]    我知道！我努力過了！ 席芭莉絲那已經幾乎沒有活人了！
+\CBmp[Maani,20]\SETpr[MaaniNormal]\plf\Rshake\C[4]瑪妮：\C[0]    這不是我主人該顧慮的，一切必須遵照合約走。
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]商人：\C[0]    該死的！
+
+Part2/SpotQuAcc0_Maani1
+\SETpl[AnonMale1]\Lshake\prh\C[4]商人：\C[0]    去妳的！
+\SETpl[AnonMale1]\Lshake\prh\C[4]商人：\C[0]    裝模作樣的妓女！
+
+part2/SpotQuAcc1
+\CBmp[Guard1,20]\SETpl[MobHumanCommoner]\PLF\prh\C[4]守衛：\C[0]    又一隻！ 該死的蚊子！
+\CBmp[Guard2,20]\SETpr[AnonMale2]\plf\PRF\C[4]守衛：\C[0]    最慘的是居然還下雨。
+\CBmp[Guard3,8]\SETpl[MobHumanWarrior]\PLF\prf\C[4]守衛：\C[0]    唉... 人數越來越少了...
+\CBmp[Guard4,8]\SETpl[AnonMale1]\PLF\prf\C[4]守衛：\C[0]    .....
+\CBmp[Story2]\SETpl[CecilyAngryAr]\PLF\prh\C[4]賽希莉：\C[0]    四個守衛...
+\CBmp[SlaveCart2,19]\SETpl[CecilyWtfAr]\PLF\prh\C[4]賽希莉：\C[0]    而貨物就在後面！
+\CBmp[SlaveCart2]\SETpl[CecilyNormalAr]\PLF\prh\C[4]賽希莉：\C[0]    洛娜，妳可以解決它們？
+\CBmp[SlaveCart2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇！ 我？\optD[敲暈他們,不行]
+
+part2/SpotQuAcc1_yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我可以試著把他們都敲暈？ 應該辦的到吧？
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\prf\C[4]賽希莉：\C[0]    那就交給妳了。
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]賽希莉：\C[0]    如果不行的話就讓我們出手！
+\CBfF[20]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]灰鼠：\C[0]    小心....
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    謝謝！
+
+part2/SpotQuAcc1_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    有點困難...
+\CBfB[20]\SETpl[CecilyShyAr]\PLF\prf\C[4]賽希莉：\C[0]    嗯....
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]賽希莉：\C[0]    乾脆點！ 宰了他們！
+
+part2/SpotQuAcc2_board
+\board[拯救難民]
+試著敲暈，或是殲滅守衛。
+四個守衛必須處於死亡或暈眩狀態。
+
+Part2/SpotQuWin
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prh\C[4]賽希莉：\C[0]    幹的好！
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prh\C[4]賽希莉：\C[0]    把她們放出來吧。
+
+################################################################################################ Quest end  milo
+################################################################################################ Quest end  milo
+
+Part2/EndMilo_0
+\SETpl[GrayRatShockedAr]\Lshake\C[4]灰鼠：\C[0]    \{小姐！ 讓開！
+
+Part2/EndMilo_1
+\SETpr[CecilyShockedAr]\plh\Rshake\C[4]賽希莉：\C[0]    什麼？！
+
+Part2/EndMilo_2
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]賽希莉：\C[0]    灰鼠！ 不！
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]賽希莉：\C[0]    醒來！ 維涅特！
+
+Part2/EndMilo_3
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    怎麼了？！ 發生什麼事？！
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]賽希莉：\C[0]    快醒來！
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]賽希莉：\C[0]    騙人！ 快醒來啊！
+
+Part2/EndMilo_4
+\BonMP[Milo,3]\SETpr[MiloNormal]\Rshake\C[4]美祿：\C[0]    我在雨中唱歌♫
+
+Part2/EndMilo_5
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]賽希莉：\C[0]    \{美祿\..玟\..盧德辛\. 這不可能！
+
+Part2/EndMilo_5_1
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]美祿：\C[0]    我真是不懂你們，為什麼就是不喜歡戴頭盔？
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]美祿：\C[0]    看那偉大的聖徒！ 他就知道保護頭部的重要！
+
+Part2/EndMilo_6
+\CBmp[FollowerTop1,20]\C[4]傭兵：\C[0]    快逃阿！ 失敗了！ 到處都是他們的人！
+
+Part2/EndMilo_7
+\CBmp[FollowerTop1,20]\C[4]傭兵：\C[0]    快跑！ 這是陷阱！
+
+Part2/EndMilo_8_manni
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]美祿：\C[0]    射得好！
+\BonMP[MaaniRF,20]\SETpl[MaaniNormal]\Lshake\C[4]瑪妮：\C[0]    謝主人誇獎。
+
+Part2/EndMilo_9
+\CBct[8]\m[shocked]\plh\Rshake\c[6]洛娜：\c[0]    死了？！ 死掉了？！
+
+Part2/EndMilo_10
+\CBct[20]\m[shocked]\plh\Rshake\c[6]洛娜：\c[0]    美祿大人？！
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    哎呀呀！ 洛娜.小蟲子？ 妳也在這？
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]賽希莉：\C[0]    你們....
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    小蟲子妳做得很好，能釣到他們全都是靠妳的協助。
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]賽希莉：\C[0]    洛娜... 妳做了什麼？！
+\CBct[8]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    我.... 我什麼都沒....
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]賽希莉：\C[0]    妳到底做了什麼好事！！
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    我的小洛娜！ 過來吧，我們不會傷害妳的。
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    我跟妳保證！ 而且還有更多金幣給妳。
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    妳很需要錢，不是嗎？
+
+Part2/EndMilo_10_opt
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    我....\optD[我...,你這個騙子]
+
+Part2/EndMilo_1_optNo1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    你是騙子！ 謊言者！ 你騙了我！
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    唉？
+\CBct[20]\m[angry]\plf\Rshake\c[6]洛娜：\c[0]    你說過你只是想交朋友的！ 你這騙子！ 你會下地獄的！
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    \..\..\..\.. 殺了她。
+
+Part2/EndMilo_1_optNo2
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prh\C[4]美祿：\C[0]    願聖徒指引妳的歸途♫
+
+Part2/EndMilo_11
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    我....
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]賽希莉：\C[0]    妳這背叛者！
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]賽希莉：\C[0]    妳利用了我們對妳的信任！
+\CBct[8]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    不！ 我沒有！
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]賽希莉：\C[0]    去死吧！
+
+Part2/EndMilo_12
+\CBct[8]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    不！ 我不是故意的！
+
+Part2/EndMilo_13
+\CBmp[Cecily,20]\SETpl[CecilyTrapA_Shocked]\Lshake\prf\C[4]賽希莉：\C[0]    ！！！
+\BonMP[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    洛娜，妳的錢在這裡呦。
+
+Part2/EndMilo_14
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    我... 我到底做了什麼....
+
+Part2/EndMilo_15
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    妳做了妳該做的，妳維持了諾爾島的穩定，妳什麼錯都沒有。
+\CBct[8]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    ......
+
+Part2/EndMilo_16
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    但現在妳必須看著，看到最後。
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    她是妳的朋友，這是妳造的因，妳必須面對她的果。
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    不要想拯救她，不要想著反抗，槍桿子指著妳腦袋。
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    ......
+\CBmp[RifleR1,4]\ph\C[4]傭兵：\C[0]    呵呵...
+\SndLib[sound_DressTear]\CBmp[Cecily,1]\SETpl[CecilyTrapB_Shocked]\Lshake\C[4]賽希莉：\C[0]    ！！！
+\CBmp[RifleR2,3]\ph\C[4]傭兵：\C[0]    嘻嘻嘻...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]賽希莉：\C[0]    不....
+\CBmp[RifleR3,4]\ph\C[4]傭兵：\C[0]    呼呼呼呼...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]賽希莉：\C[0]    不要...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]賽希莉：\C[0]    救我.....
+
+Part2/EndMilo_17
+\CBmp[RifleR1,3]\ph\C[4]傭兵：\C[0]    老闆！ 我們可以操她嗎？
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    誰？ 趴在地上那個不就是了？
+\CBmp[RifleR1,3]\plf\C[4]傭兵：\C[0]    呃，我說那個矮的，穴穴不夠用啊。
+\CBct[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    ！！！
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    什麼？ 你們是惡鬼嗎？
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    她剛出賣了她的朋友！ 沒看到她如此傷心？ 你們還有沒有人性！
+\CBmp[RifleR1,6]\plf\C[4]傭兵：\C[0]    呃... 抱歉。
+
+Part2/EndMilo_18
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    ......
+\CBct[8]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    她會被怎麼處置...
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    賽希莉.艾格莫？
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    她殺了非常多的人，守衛、商人、市民。 各式各樣的人死在她手裡。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    各式各樣的人，以及他們的家人。
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]美祿：\C[0]    她必須付出代價。
+\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    .....
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    妳可以走了。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    妳也可以在這繼續哭泣。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]美祿：\C[0]    直到那群野獸閒下來，好好享用妳的身體。
+\CBct[8]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    \..\..\.. 是...
+\narr\ph洛娜離開了
+
+################################################################################################ Quest end  Cecily
+################################################################################################ Quest end  Cecily
+
+Part2/EndCecily_1
+\CBmp[Slave1,20]\C[4]難民：\C[0]    你們是誰？
+\CBmp[Slave3,20]\C[4]難民：\C[0]    我們的買主呢？
+\CBmp[Slave5,20]\C[4]難民：\C[0]    好餓阿！
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]賽希莉：\C[0]    妳們自由了。
+\CBmp[Slave2,20]\plf\C[4]難民：\C[0]    自由？
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]賽希莉：\C[0]    對！ 你們被解放了！
+\CBmp[Slave4,20]\plf\C[4]難民：\C[0]    好餓阿！ 所以有吃的嗎？
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\C[4]賽希莉：\C[0]    什麼？
+\CBmp[Slave6,20]\plf\C[4]難民：\C[0]    成為奴隸才有吃的阿！ 有工作做！
+\CBmp[Slave2,20]\plf\C[4]難民：\C[0]    我用我的奴隸合約保障了我孩子的安全！ 現在怎麼辦！
+\CBmp[Slave4,20]\plf\C[4]難民：\C[0]    現在到處都是魔物，你們能保住我們的性命嗎？
+\CBmp[Slave5,20]\plf\C[4]難民：\C[0]    他們給了我很多食物！ 我本來有機會吃飽了！ 現在怎麼辦！
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\C[4]賽希莉：\C[0]    你們難道沒有半點自尊？ 印加蘭王國的人不該成為奴隸！
+\CBmp[Slave3,20]\plf\C[4]難民：\C[0]    唉... 又一個貴族老爺跑出來玩騎士遊戲....
+\CBmp[Slave1,20]\plf\C[4]難民：\C[0]    下一餐要怎麼辦？
+\CBmp[Slave5,20]\plf\C[4]難民：\C[0]    我要回去找奴隸商人舉發你們！ 也許他會給我加餐！ 你們完蛋了！
+
+Part2/EndCecily_2
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\C[4]賽希莉：\C[0]    你們！ 聽我說...回來啊！
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]灰鼠：\C[0]    小姐... 這就是所謂的人民...
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...
+
+Part2/EndCecily_3
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\prf\C[4]賽希莉：\C[0]    怎麼會這樣？！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    一般來說... 我們平民就是這樣啦....
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]賽希莉：\C[0]    ........
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我們是不是該離開了？
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]賽希莉：\C[0]    .....
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]賽希莉：\C[0]    ...
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]灰鼠：\C[0]    走吧....
+
+Part2/EndCecily_4
+\CBmp[GrayRat,20]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]灰鼠：\C[0]    小姐的需要時間理解這一切。
+\CBmp[GrayRat,20]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]灰鼠：\C[0]    這是約定好的金額。
+
+Part2/EndCecily_5
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    謝謝....
+
+##########################################################################################################   HEV
+
+CecilyRape/rape_scene1
+\C[4]傭兵A：\C[0]    大家看阿！ 我騎在貴族的身上！
+
+CecilyRape/rape_scene2
+\C[4]傭兵A：\C[0]    我成就了我多年的夢想！
+
+CecilyRape/rape_scene3
+\C[4]賽希莉：\C[0]    不... 為什麼！
+
+CecilyRape/rape_scene4
+\C[4]賽希莉：\C[0]    把維涅特還給我啊！
+
+CecilyRape/rape_scene5
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    那是妳的男人？
+
+CecilyRape/rape_scene6
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    那個雜種已經死了！ 現在起我們才是你的男人！
+
+CecilyRape/rape_scene7
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    讚啦！ 沒什麼比在她男人面前上她的女人更痛快了！
+
+CecilyRape/rape_scene8
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    可惜他死了！ 看不到了！ 哈哈哈哈！
+
+CecilyRape/rape_scene9
+\C[4]賽希莉：\C[0]    不要！ 不要阿！ 誰來救救我！
+
+CecilyRape/rape_scene10
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    \{吼嘔嘔嘔嘔嘔！！！
+
+CecilyRape/rape_scene11
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    \{出來了！ 接好！ 好好接好！
+
+CecilyRape/rape_scene12
+\C[4]賽希莉：\C[0]    \{不要！不要！不要！
+
+CecilyRape/rape_scene13
+\C[4]傭兵B：\C[0]    爽啦！ 她搞不好會懷上我的小鬼！
+\C[4]傭兵B：\C[0]    這樣我也是貴族了！
+
+CecilyRape/rape_scene14
+\SndLib[sound_chcg_full]\C[4]賽希莉：\C[0]    \{嗚嗚嗚嗚嗚...
+
+CecilyRape/rape_scene15
+\C[4]傭兵A：\C[0]    輪我了！輪我了！
+
+CecilyRape/rape_scene16
+\SndLib[sound_chcg_full]\C[4]賽希莉：\C[0]    停下來！ 我不要了！ 走開啊！
+
+CecilyRape/rape_scene17
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    放心吧！ 我們全部都會射在裡面！
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    妳會生出一堆不知道是誰的狗仔子！
+
+CecilyRape/rape_scene18
+\C[4]賽希莉：\C[0]    對不起！ 饒了我！ 求求你們！
+
+CecilyRape/rape_scene19
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    \{咿咿咿！
+
+CecilyRape/rape_scene19_1
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    \{出來了！ 啊啊！
+
+CecilyRape/rape_scene20
+\C[4]傭兵A：\C[0]    這就是貴族穴嗎？ 感覺跟後街的妓女也沒什不同
+\C[4]傭兵A：\C[0]    下一個誰上！
+
+CecilyRape/rape_scene21
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    快點射！ 後面還有很多同僚等你一個！
+
+CecilyRape/rape_scene22
+\C[4]賽希莉：\C[0]    嗚嗚嗚嗚嗚....
+
+CecilyRape/rape_scene23
+\C[4]賽希莉：\C[0]    救救我... 誰來救救我....

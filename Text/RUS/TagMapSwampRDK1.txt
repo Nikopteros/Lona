@@ -1,0 +1,61 @@
+overmap/OvermapEnter
+\m[confused]Лагерь \optB[Отмена,Войти]
+
+mec/halp1
+\CamMP[QuestTar]\BonMP[QuestTar,1]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Помогите!\. \.Помогите, умоляю!
+\CamCT\Bon[6]\m[shocked]\PLF\Rshake\C[6]Лона：\C[0] Что случилось?!
+
+mec/halp2
+\CamMP[QuestTar]\BonMP[QuestTar,5]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Чудовища!\. \.Глубинные!\. \.Они здесь!
+\CamCT\Bon[16]\m[shocked]\PLF\Rshake\C[6]Лона：\C[0] А-а?!\. \.Бежим!
+
+mec/halp3
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Спасите меня, пожалуйста!
+
+mec/halp4
+\CamCT\Bon[13]\m[hurt]\PLF\Rshake\C[6]Лона：\C[0] Не толкайтесь!
+
+mec/halp5
+\CamCT\Bon[7]\m[terror]\PLF\Rshake\C[6]Лона：\C[0] Да я разве справлюсь?
+
+mec/win
+\CamMP[QuestTar]\BonMP[QuestTar,4]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Спасибо за твою доброту, воин!
+\CamCT\Bon[6]\m[flirty]\PLF\PRF\C[6]Лона：\C[0] Ах...\. \.Не за что?
+\CamMP[QuestTar]\BonMP[QuestTar,8]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] \..\..\..\.
+\CamMP[QuestTar]\BonMP[QuestTar,2]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Ты девочка?
+\CamCT\Bon[13]\m[confused]\PLF\PRF\C[6]Лона：\C[0] А что плохого быть девочкой?
+
+mec/Quprog_0
+\CamMP[QuestTar]\BonMP[QuestTar,20]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Слушай!\. \.Мне нужна твоя помощь!
+\CamMP[QuestTar]\BonMP[QuestTar,0]\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Мне нужно доставить кое-что в \C[6]Пиратскую Погибель\C[0].
+\CamCT\Bon[1]\m[confused]\PLF\PRF\C[6]Лона：\C[0] Хм\..\..\..\. \.Я могу помочь.
+
+mec/Quprog_0_board
+\board[Сопроводить путника]
+Доведите беднягу до крепости Пиратской Погибели, у него на руках нечто важное.
+Награда： \C[4]большой медяк\C[0] \i[582];
++2 к \C[4]репутации\C[0].
+Срок выполнения： 5 дней.
+
+mec/Quprog_0_decide
+\CamCT\Bon[8]\m[confused]\PLF\PRF\C[6]Лона：\C[0] Хм-м... \optB[Нет времени,Ладно]
+
+mec/QmsgTar
+Идём быстрее!
+
+mec/Done1
+\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Спасибо тебе! Спасибо огромное! Это очень важное письмо.
+
+mec/Done2
+\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Эти сраные селёдки постоянно нападают на наши обозы\..\..\..\. \.Падение крепости - лишь вопрос времени.
+\SETpl[AnonMale1]\Lshake\prf\C[4]Путешественник：\C[0] Загляни в Гильдию наёмников в крепости, я уверен, ты могла бы нам помочь.
+\CamCT\Bon[1]\m[flirty]\PLF\PRF\C[6]Лона：\C[0] Ха\..\..\..\. \.Надеюсь, я буду полезной.
+
+mec/CommonConvoyTarget0
+\prf\C[4]Путешественник：\C[0] Времени нет!
+
+mec/CommonConvoyTarget1
+\prf\C[4]Путешественник：\C[0] Скорее в крепость!
+
+mec/CommonConvoyTarget2
+\prf\C[4]Путешественник：\C[0] Поторопимся!

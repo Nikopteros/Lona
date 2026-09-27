@@ -1,0 +1,717 @@
+####################################--------------------- overmap
+ThisMap/OvermapEnter
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Стражник:\C[0] Стояти! Ти хто? \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Обдурити<r=HiddenOPT2>]
+
+################################################## INN INN
+
+InnKeeper/Begin
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Це Твердиня Року! Зведено для захисту на передовій!
+
+InnKeeper/About_here
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Вона постійно була на передовій.
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Сотні років тому, інші країни успішно захопили контроль над островом Ноер, але Твердиня Рока завжди залишалася непокореною! Ця фортеця доводить собою владу \c[4]Королівства Гарленд\C[0]!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Як бачиш, ні зеленошкірі, ні демони плоті не можуть здолати Твердиню Року!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Тільки ми можемо контролювати Твердиню Року!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем.... Ладненько.....
+
+InnKeeper/About_work
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Тут є для мене робота?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Нам потрібні солдати! А не жебраки!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Ясно тобі?!\. Хоча\..\..\..\..
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Ти ж жінка?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Так, а що?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Ага...
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Хоч у тебе цицьки зовсім маленькі, вони в тебе є.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] І що?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Трактирщик:\C[0] Бараків потребують жінок.
+\CBct[8]\m[shy]\plf\PRF\c[6]Лона:\C[0] Оу?
+
+ThisIsFine/talk0
+\cg[other_ArtThisIsFine]Все в порядку:передбачення майбутнього
+\m[serious]\c[6]Лона:\C[0] У порядку....
+\m[flirty]\c[6]Лона:\C[0] Це пророцтво?
+
+############################################################################################################################################ #### Right Gate
+
+GateR/LeaveBegin0
+\cg[map_NoerGate]Прохід до посту, біля воріт стоїть стражник \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Обдурити<r=HiddenOPT2>]
+
+GateR/Leave_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Рабиня! Ти чого тут робиш?
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона:\C[0] Я.
+
+GateR/Leave_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Тримайся подалі!
+
+GateR/Leave_passed
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] ......
+
+##############################
+
+Gate/Begin0
+\cg[map_NoerGate]Прохід до бараків, біля воріт стоїть стражник \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Обдурити<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Стояти! Ти що тут робиш?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ааа?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] !!!!
+
+Gate/Enter_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Валі звідси, рабиня!
+
+Gate/Enter_normal1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Стояти! Ти хто? Що тобі потрібне?
+
+Gate/Enter_Cecily
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Е-е.....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] \{Є!
+
+Gate/Enter_normal2
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Емм... \optB[Скасувати,Озирнутися,Проституція<r=HiddenOPT1>]
+
+Gate/Enter_normal_walk
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Встань біля стіни!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Навіщо?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Мені треба обшукати тебе! \optB[Відвали,Добре]
+
+Gate/Enter_normal_walk_okay0
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона:\C[0] Гаразд.
+
+Gate/Enter_normal_search_butt
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] А в тебе чудова дупа!
+
+Gate/Enter_normal_search_vag
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Та й спереду дуже підтягнуто!
+
+Gate/Enter_normal_search_boob
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Але... Де цицьки....
+
+Gate/Enter_normal_walk_okay1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Ти наша нова повія? Можеш проходити.
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] .....
+
+Gate/Enter_normal_whore
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ну що, солдатики, втомилися? Я прийшла скласти вам компанію...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Солдат:\C[0] Правда?! Вау! Давай-давай!
+
+
+############################################################################################################################################ #### barrack
+####################################--------------------- board
+
+boardR/Begin1
+\board[Уникайте теплового удару]
+Щоб уникнути теплового удару, пийте багато води.
+Для занять на свіжому повітрі влітку, пийте воду до і після тренування.
+
+boardR/Begin2
+\board[Інформація повіям]
+Повії, віддавайте перевагу втомленим патрульним та солдатам.
+Ідіть до гуртожитку та зверніться до співробітника охорони.
+
+boardR/Washroom
+\board[Інформація рабиням]
+День: Будь ласка, зверніться до служби безпеки.
+Ніч：Прибирайте туалет, розважайте патрульних та солдатів.
+Протягом дня вас можуть нагодувати.
+
+####################################--------------------- Guards
+
+TrainingGuards/Qmsg0
+Хуя!
+
+TrainingGuards/Qmsg1
+Хха!
+
+TrainingGuards/Qmsg2
+Вбити!
+
+####################################------------------------- SGT
+
+SGT/begin_normal_0
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]Сержант:\C[0] Навіщо ти прийшла в Твердиню Року?
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Що?!
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона:\C[0] Ем... Я... \optB[Озирнутися,Вбивати монстрів]
+
+SGT/begin_normal_1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Я прийшла вбивати монстрів.
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Сержант：\C[0] Значить, ти найманка?
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона:\C[0] Ага!
+\CBmp[SGT]\SETpl[SGT_Normal]\Lshake\prf\c[4]Сержант:\C[0] Покажи мені свій бойовий оскал! \optB[Що?]
+
+SGT/begin_normal_2
+\CBct[2]\m[fear]\plf\Rshake\c[6]Лона:\C[0] Що?!?
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Сержант：\C[0] У тебе немає бойового оскалу?
+\CBmp[SGT,20]\SETpl[SGT_Shake]\m[terror]\Lshake\prf\c[4]Сержант:\C[0] \{ПОМРИ! АААРРРРРР!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\prf\c[4]Сержант:\C[0] Ось бойовий оскал! Тепер показуй свій!
+\CBct[8]\SETpl[SGT_Normal]\m[fear]\Rshake\c[6]Лона:\C[0] Оу\..\... Хм.\...? Ааррр?
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Сержант：\C[0] Це лайно, а не оскал! Покажи як слід!
+
+SGT/begin_normal_3
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Лона:\C[0] \{ААРРРРРР!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Сержант：\C[0] \..\..\.. Це не страшно!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Сержант:\C[0] Тобі треба потренуватися!
+
+SGT/begin_normal_4
+\plh\CBct[8]\m[sad]\plf\PRF\c[6]Лона:\C[0] Що...
+
+SGT/begin_wrong_ans
+ТРЕНУЙСЯ!
+
+SGT/known0
+\CBmp[SGT,20]\ph\SETpl[SGT_Shake]\Lshake\c[4]Сержант:\C[0] Сміття! Як тебе звуть?
+\CBct[2]\m[bereft]\Rshake\c[6]Лона:\C[0] Лона!!!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Сержант:\C[0] Дермо ти собаче! З сьогоднішнього дня тебе звуть Черв'як!
+
+
+###################################################################### Quest Board
+
+QuestBoard/DF_Woodson_list
+Полювання на Сім'ю Вудсонів
+
+QuestBoard/DF_WipeTribe_list
+Полювання на Плем'я Членів
+
+QuestBoard/DF_BanditHunt_list
+Полювання на Бандитів
+
+QuestBoard/DF_Woodson
+\board[Сім'я Вудсонів]
+Завдання: Вбити їх усіх!
+Нагорода：Великий Медяк х9\i[582]
+Клієнт：Служниця
+Повторюваність：Одноразове
+Я не обмовилася! Вони ще живі!
+Вбийте їх усіх!
+
+QuestBoard/DF_WipeTribe
+\board[Полювання на Плем'я Членів]
+Завдання: Вбити їх усіх!
+Нагорода：Великий Медяк х3\i[582]
+Клієнт：Торгівельна Компанія Росендо
+Повторюваність：Одноразове
+Ми довідалися про їхнє місцезнаходження, вони у південно-східному лісі.
+Ці жорстокі дикуни мають бути покарані.
+
+QuestBoard/DF_BanditHunt
+\board[Полювання на Бандитів]
+Задача: Вбити бандитів на околицях
+Нагорода:Великий Медяк х1\i[582] Медяк х7\i[583]
+Клієнт：Торгівельна Компанія Росендо
+Повторюваність：Многоразове
+Ми мали багато проблем після вторгнення демонів Сибаріса.
+Ми, люди, повинні допомагати один одному в цій кризі, але ці бандити зайшли надто далеко.
+Вони позбавили солдатів на передовій та біженців їхніх цінностей і мають заплатити за це.
+Професійні найманці, цього разу я від Торгової Компанії Росендо заплачу вам за те, щоб ви поїхали до міста боротися з бандитами!
+
+#################################### QuProgDF_BanditHunt
+
+QuProgDF_BanditHunt/Begin
+\narr Територія бандитів...
+
+QuProgDF_BanditHunt/done
+\CBid[-1,20]\prf\c[4]Працівник:\C[0] Ти позбулася цих бандитів?
+\CBid[-1,4]\prf\c[4]Працівник:\C[0] \{Дуже добре!
+
+#################################### QuProgDF_Woodson detail
+
+QuProgDF_Woodson/prog1_emp
+\CBmp[GuildEmpolyee,8]\prf\c[4]Працівник:\C[0] Стривай... Сімейка \c[6]Вудсонів\C[0]?
+\CBct[2]\m[confused]\PRF\c[6]Лона:\C[0] А що таке?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Робітник:\C[0] Це завдання написала служниця в фортеці, і висить тут уже десяток років.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Робітник:\C[0] На жаль, ніхто не зміг знайти нікого з членів сімейки \c[6]Вудсонів\C[0].
+\CBmp[GuildEmpolyee,20]\prf\c[4]Працівник:\C[0] Я б і сам хотів, щоб вони всі були мертві.
+\CBct[8]\m[flirty]\PRF\c[6]Лона:\C[0] Тоді...
+\CBct[20]\m[normal]\PRF\c[6]Лона:\C[0] Може, я краще шукаю іншу роботу тут.
+\CBmp[ExitPoint,19]\prf\c[4]Працівник:\C[0] Вона все ще хоче вирішити це питання, думаю, тобі варто з нею поговорити. Вона біля готелю.
+\CBct[20]\m[flirty]\PRF\c[6]Лона:\C[0] Добре.
+
+QuProgDF_Woodson/prog1_Maid
+\CBct[2]\m[flirty]\PRF\c[6]Лона:\C[0] Ем... Здрастуйте.
+\CBmp[Maid,5]\prf\c[4]Служниця:\C[0] Я зайнята, не бачиш чи що!
+\CBct[2]\m[shocked]\Rshake\c[6]Лона:\C[0] Вибачте! Але я взяла роботу у Гільдії. Адже це ваше завдання щодо сім'ї \c[4]Вудсонів\C[0]?
+\CBmp[Maid,8]\prf\c[4]Служниця:\C[0] ....
+\CBmp[Maid,8]\prf\c[4]Служниця:\C[0] Ти-то? І що може зробити малюк на зразок тебе...
+
+QuProgDF_Woodson/prog2_Maid
+\CBmp[Maid,8]\ph\c[4]Служниця:\C[0] Що ти хочеш про це знати? \optB[Нічого,Вони вже мертві!<r=HiddenOPT1>,Хто такі Вудсони,Хто ви?,Де їх знайти?<r=HiddenOPT2>]
+
+QuProgDF_Woodson/prog2_optWin
+\CBct[8]\m[flirty]\PLF\c[6]Лона:\C[0] Ем... Вони вже мертві.
+\CBmp[Maid,2]\prf\c[4]Служниця:\C[0] ...Як?
+\CBct[8]\m[confused]\PLF\c[6]Лона:\C[0] Вони ховалися в лісі на півдні від фортеці. Це зразкове розташування.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Відмінно! Я перевірю це зараз! Ось тобі є доказ виконання завдання для гільдії. Іди за нагородою!
+\CBct[8]\m[shocked]\Rshake\c[6]Лона:\C[0] Ура?! Ой! Будьте обережні, там ще небезпечно!
+
+QuProgDF_Woodson/prog2_optWho
+\CBct[8]\m[flirty]\PLF\c[6]Лона:\C[0] Ем... А це.... Хто такі Вудсони?
+\CBmp[Maid,2]\prf\c[4]Служниця:\C[0] Ти не знаєш про Секту Вудсонів?
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] \c[6]Секта Вудсонів\C[0] була заснована \c[6]Джимом Вудсоном\C[0] і це секта Святого з Сибаріса.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Вони пропагують вчення про те, що скоро настане якийсь Судний День.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] У них дуже багато послідовників, у складі яких і городяни, і безпритульні.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Але вони стали докорінно відрізнятися від вчення Святого і були оголошені культом, тому на них полювали дворяни та суспільство Святого.    
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Вони покинули Сібаріс і розмістили своїх послідовників десь на острові, вони ховаються.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Але незабаром культ знаходять, це ж острів! Де вони ще можуть врятуватися?
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Коли армія оточила їх, вони сказали що наближається Судний День, і сотні їхніх людей вже покінчили життя самогубством.    
+\CBct[8]\m[sad]\PLF\c[6]Лона:\C[0] Звучить сумно.
+
+QuProgDF_Woodson/prog2_optWho_Gr
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]Сесилія:\C[0] Я чула про це, свого часу вони наробили багато шуму, але я тоді була ще маленькою.
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]Сесилія:\C[0] \c[4]Грейрат\C[0], а ти щось чув про них?
+\CBfB[20]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]Грейрат:\C[0] Так, міс. У той час мій пан посилав воїнів, щоб оточити та придушити їх.
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\c[4]Сесилія:\C[0] Я б послухала твоє оповідання, коли в нас буде час. Зараз треба братися за роботу!
+\CBfB[20]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Грейрат:\C[0] Так, міс.
+
+QuProgDF_Woodson/prog2_optYou
+\CBct[2]\m[flirty]\PLF\c[6]Лона:\C[0] А за що ви їх так ненавидите?
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Ненавиджу? Я була дворянкою та віруючою!
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Але якось вони вторглися в мій дім! Вбили мою родину!
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Коли я спробувала втекти, вони взяли мене в заручники і я стала секс-рабинею для їхнього лідера.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Але я врятувалася до приходу Судного Дня. З мене вистачить! Я хочу, щоб вони всі були мертві!
+
+QuProgDF_Woodson/prog2_optWhere
+\CBct[2]\m[confused]\PLF\c[6]Лона:\C[0] А хіба вони вже не мертві?
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Мертві, але не всі! Я не заспокоюся, поки не побачу їхні туші на власні очі!
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Святі попросили мене впізнати тіла. Але я не знайшла серед них його дружину та рідних.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Проклята \c[6]сімейка Вудсонів\C[0] ще безперечно живі! Я хочу, щоб вони були всі мертві! Все до єдиного!    
+\CBmp[Maid,20]\prf\c[4]Служниця：\C[0] Це все мої заощадження, все, що в мене залишилося, і я готова віддати все тому, хто вб'є їх усіх!
+\CBct[2]\m[flirty]\PLF\c[6]Лона:\C[0] А ви знаєте де вони?
+\CBmp[Maid,20]\prf\c[4]Служниця：\C[0] Ні, не знаю. І розраховую на те, що їх знайдеш ти.
+\CBmp[Maid,20]\prf\c[4]Служниця:\C[0] Я не здамся, моя нагорода неодмінно дочекається того, хто зможе їх убити!
+
+###################################################################### GReenHat Quest
+
+GreenHat/Quest_Begin1
+\CBmp[GreenHat,1]\prf\c[4]Зелений Берет:\C[0] Ти... нова повія?
+\CBct[2]\m[flirty]\PRF\c[6]Лона:\C[0] Що? Я.
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Допоможи мені! \optB[Вислухати]
+
+GreenHat/Quest_Begin2
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Ем.
+\CBct[8]\m[normal]\PRF\c[6]Лона:\C[0] Що щось трапилося, чим я можу допомогти?
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Вона мені не відповіла. Вона, мабуть, дуже стривожена!
+\CBct[8]\m[flirty]\PRF\c[6]Лона:\C[0] Вона?
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Кохання всього мого життя, \c[4]Маріанна\C[0], ми виросли разом!
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Коли монстри вторглися, ми втекли.
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Її дядько працював у порту Ноертауна, ми вирішили звернутися до нього.
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Але ми не змогли потрапити до міста, тому що нас не пов'язують шлюбні узи, тому ми змогли залишитися тільки в таборі біженців біля Північної брами.
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Армія дала мені шанс, я міг би гарантувати нам квиток до міста.
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Ми навіть планували одружитися... Але катастрофа все перевернула з ніг на голову.
+\CBct[8]\m[sad]\PRF\c[6]Лона:\C[0] Зрозуміло...
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Я намагався їй писати багато разів, але жодного разу так і не отримав відповіді, ніби мої листи і зовсім не доходять...
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Допоможи мені! Я віддам тобі всю свою платню!
+
+GreenHat/Quest_BeginBoard
+\board[Любовний Лист]
+Завдання:Доставити лист
+Нагорода:Великий Медяк х1\i[582] Медяк х1\i[583]
+Клієнт：Солдат
+Повторюваність：Одноразове
+Солдатам не покладено відпустку!
+Єдина його надія, це звернутися до повії.
+Вирушайте за адресою та надішліть листа дівчині на ім'я Маріанна!
+
+GreenHat/Quest_BeginOpt
+Візьмешся до роботи? \optB[Відмовитись,Прийняти]
+
+GreenHat/Quest_BeginAgree
+\CBct[20]\m[serious]\PRF\c[6]Лона:\C[0] Можете на мене покластися! Я доставлю вашого листа.
+\CBmp[GreenHat,20]\prf\c[4]Зелений Берет:\C[0] Ось, візьми. І, дякую!
+
+GreenHat/Quest_BeginDis
+\CBct[20]\m[flirty]\PRF\c[6]Лона:\C[0] Вибачте, вам потрібно знайти когось іншого.
+\CBmp[GreenHat,8]\prf\c[4]Зелений Берет:\C[0] ......
+
+GreenHat/Quest2_Qmsg0
+Ти доставила листа?
+
+GreenHat/Quest2_Qmsg1
+Вона ще у Ноері?
+
+GreenHat/Quest2_Qmsg2
+Що вона відповіла?
+
+GReenHat/Quest2_Begin0
+Західний р-н, Берегова дорога, Ряд 9, будинок 8 №6-4.
+\m[confused]\PRF\c[6]Лона:\C[0] Це тут?
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\SETpl[AnonMale2]\Lshake\prf\c[6]Невідомий：\C[0] Хто там?
+\m[flirty]\PRF\c[6]Лона:\C[0] Ем... Я шукаю якусь Міс Маріанну. Вона мешкає тут?
+\SETpl[AnonMale2]\Lshake\prf\c[6]Невідомий：\C[0] Знову!?
+\m[confused]\PRF\c[6]Лона:\C[0] Що знову?
+\SETpl[AnonMale2]\Lshake\prf\c[6]Невідомий:\C[0] Маріанна! Тебе там хтось питає!
+\..\..\..
+\SETpr[AnonSlut1]\plf\Rshake\c[6]Невідома:\C[0] Хто там?
+\SETpl[AnonMale2]\Lshake\prf\c[6]Невідомий：\C[0] Ще хтось, йди сама скажи!
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Невідома:\C[0] Що?
+\m[shy]\PRF\c[6]Лона:\C[0] Міс Маріанна? Здрастуйте...
+
+GReenHat/Quest2_Begin1
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Невідома:\C[0] Ти повія з фортеці? Тебе Джон послав?
+\m[flirty]\PRF\c[6]Лона:\C[0] Я... Ем...
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Невідома:\C[0] Ти далеко не перша хто мене шукає, від нього.
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Невідома:\C[0] Я і він живемо у різних світах. Досить мене дошкуляти. Я дуже щаслива тут і зараз.
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Невідома:\C[0] Віддай йому цей лист і скажи, щоб більше мене не дошкуляв.
+\..\..\..\plh\SndLib[closeChest]
+
+GReenHat/Quest2_Begin2
+\m[angry]\plh\PRF\c[6]Лона:\C[0] Що за дурниці?
+
+GreenHat/Quest3_OPT
+\CBct[20]\m[flirty]\PRF\c[6]Лона:\C[0] Джон? Я повернулась.
+\CBmp[GreenHat,1]\prf\c[4]Джон:\C[0] Здорово!
+\CBmp[GreenHat,6]\prf\c[4]Джон:\C[0] Ти доставила листа? Вона у Ноері? Вона відповіла?
+\CBct[20]\m[confused]\PRF\c[6]Лона:\C[0] Ну... \optD[Віддати листа Маріанни,Збрехати<r=HiddenOPT1>]
+
+GreenHat/Quest3_Truth0
+\CBct[8]\m[shy]\PRF\c[6]Лона:\C[0] Я... ем... Я не знаю, як сказати...
+\CBct[6]\m[flirty]\PRF\c[6]Лона:\C[0] Ось лист від неї, прочитай краще сам...
+
+GreenHat/Quest3_Truth1
+\ph\narr\..\..\..\..
+
+GreenHat/Quest3_Truth2
+\CBmp[GreenHat,1]\prf\c[4]Джон:\C[0] \{НЕМАЄ!!!
+\CBct[2]\m[shocked]\Rshake\c[6]Лона:\C[0] Що?!
+\CBmp[GreenHat,1]\prf\c[4]Джон:\C[0] \{Ти брешеш! Арррр!
+\CBct[1]\m[terror]\Rshake\c[6]Лона:\C[0] Заспокойтесь!
+\CBmp[GreenHat,1]\prf\c[4]Джон:\C[0] \{АРРРРРРР!!
+
+GreenHat/Quest3_Lie0
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Ви не отримували відповіді до цього?
+\CBmp[GreenHat,20]\prf\c[4]Джон:\C[0] Саме так!
+\CBmp[GreenHat,20]\prf\c[4]Джон:\C[0] Люди кажуть, що не можуть її знайти. Ти також не змогла її знайти?
+\CBct[6]\m[tired]\PRF\c[6]Лона:\C[0] Мені шкода... але, вона померла...
+
+GreenHat/Quest3_Lie1
+\CBmp[GreenHat,6]\prf\c[4]Джон:\C[0] \{Що?! Цього не може бути!
+
+GreenHat/Quest3_Lie2
+\CBct[6]\m[sad]\PRF\c[6]Лона:\C[0] Ні... це правда. Я переконалася в цьому у варти міста.
+\CBct[6]\m[tired]\PRF\c[6]Лона:\C[0] Вона загинула під час повстання біженців, її закопали на Цвинтарі Ноера.
+\CBmp[GreenHat,8]\prf\c[4]Джон:\C[0] .............
+\CBct[6]\m[sad]\PRF\c[6]Лона:\C[0] Мені шкода...
+
+##################################################################### Slave begin
+
+DormGuard/SlaveBegin0
+\ph\CBmp[securityGuard,20]\ph\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Ти нова рабиня?
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона:\C[0] Так, пане.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] Ага\..\..\..
+\CBmp[securityGuard,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] Як шкода, що в тебе такі маленькі груди.
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона:\C[0] ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] У відповідь на надзвичайну ситуацію ми відновили військове рабство.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] Іди за мною, я покажу, чим тут повинні займатися рабині.
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Так, пане...
+
+DormGuard/SlaveBegin_Dorm
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Це місце відпочинку.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер：\C[0] Місце для відпочинку солдатів та офіцерів поза службою.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Якщо в тебе немає особливого завдання, твоя робота - ублажувати солдатів і офіцерів поза службою.
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Зрозуміла.
+
+DormGuard/SlaveBegin_Cart
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Гей! Дивись! Ти знаєш, що це таке?
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона:\C[0] Не впевнена.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] Це все тіла рабинь!
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона:\C[0] !!!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prd\c[4]Офіцер:\C[0] Так що не намагайся втекти! Не здумай чинити опір!
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Зрозуміла... Пане...
+
+DormGuard/SlaveBegin_Washroom0
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Тут можна митися. А ще...
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] це буде твоїм місцем для ночівлі!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Протягом дня, ти сама шукатимеш роботу.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] А вночі, коли закінчиш усі справи, будеш ублагати патрульних і солдатів.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Як військова рабиня, ти зобов'язана слухатися всіх офіцерів і нікому не відмовляти!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер：\C[0] Тепер це твоє життя.
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона:\C[0] ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] Відповідай!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\C[0] Так... Пане...
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] Гучніше!
+
+DormGuard/SlaveBegin_Washroom1
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Так! Пане!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] \{Ще голосніше!
+
+DormGuard/SlaveBegin_Washroom2
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона:\C[0] \{Так! Пане!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Офіцер:\C[0] Добре! Вільно!
+
+DormGuard/SlaveBegin_end
+\CBct[8]\m[sad]\plf\Rshake\c[6]Лона:\C[0] ......
+
+DormGuard/SlaveBegin_Escape
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Ми не шкодуємо рабинь, що втекли!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Офіцер:\C[0] Повертайся до своєї кімнати, ми вирішимо, що з тобою робити.
+\CBct[20]\m[sad]\plf\Rshake\c[6]Лона:\C[0] Так.
+
+###################################################################### Slave begin Torture
+
+DormGuard/SlaveBegin_Torture0
+\ph\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник：\C[0] Рекрути, всім увага!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник:\C[0] Мені не важливо, на чиєму боці ви були раніше, або звідки ви родом, тепер ви солдати \c[4]Гарленда\C[0]!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник:\C[0] Як стати справжнім воїном? Перший урок – бути безжальним! Будьте жорстокими!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник:\C[0] Вам слід звикнути до вбивств!
+
+DormGuard/SlaveBegin_Torture1
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Стражник：\C[0] Ця рабиня намагалася втекти? Чи не хотіла працювати? Це не важливо!
+\CBmp[TorturePoint,20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Ох...
+
+DormGuard/SlaveBegin_Torture2
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Важливо те, що вона оступилася, а тепер вона заслуговує на своє покарання!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Ти, сюди! Вдар її!
+\CBmp[noob3,20]\plf\prf\c[4]Солдат:\C[0] Слухаюсь!
+
+DormGuard/SlaveBegin_Torture3
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Добре! Наступний!
+\CBmp[noob2,20]\plf\prf\c[4]Солдат:\C[0] Слухаюсь!
+
+DormGuard/SlaveBegin_Torture4
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Гарний удар! Наступний!
+\CBmp[noob1,20]\plf\prf\c[4]Солдат:\C[0] Слухаюсь!
+
+DormGuard/SlaveBegin_Torture5
+\CBmp[noob1,20]\plf\prf\c[4]Солдат:\C[0] ........
+
+DormGuard/SlaveBegin_Torture6
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Відставити! Готуйтеся до наступного завдання.
+\CBmp[noob1,8]\plf\prf\c[4]Солдат:\C[0] \..\..\..
+
+DormGuard/SlaveBegin_Torture7
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Я сказав відставити! Ти оглух?
+\CBmp[noob1,5]\plf\prf\c[4]Солдат:\C[0] \{Неееет! Усі загинули!
+
+DormGuard/SlaveBegin_Torture9
+\CBmp[noob1,5]\plf\prf\c[4]Солдат:\C[0] \{Моя дружина!
+
+DormGuard/SlaveBegin_Torture10
+\CBmp[noob1,5]\plf\prf\c[4]Солдат:\C[0] \{Моя дочка! Про не-е-е-є.
+
+DormGuard/SlaveBegin_Torture11
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] \..\..\..
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Не хнигти. Відставити.
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Ми відповімо їм...
+\CBmp[noob1,5]\plf\prf\c[4]Солдат:\C[0] Слухаюсь... Сер...
+
+###################################################################### Slave Daily begin Rape
+
+Guard/DailyRape0
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Прокидайся!
+
+Guard/DailyRape1
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Рабиня! Підйом!
+\CBct[20]\m[tired]\plf\Rshake\c[6]Лона:\C[0] Оххх......
+
+Guard/DailyRape_suckDick
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Я на взводі. Іди сюди і допоможи мені!
+
+Guard/DailyRape_Rape
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат:\C[0] Розсувай ноги! \optD[Добре<t=5>,Ні!]
+
+############################################################# NightPatrol
+
+NightPatrol/SlaveQmsg0
+Забирайся!
+
+NightPatrol/SlaveQmsg1
+Займайся своєю справою!
+
+NightPatrol/SlaveQmsg2
+Голись!
+
+NightPatrol/Rape0
+\c[4]Солдат：\C[0] Сюди! Мені потрібна твоя компанія!
+
+NightPatrol/Rape1
+\c[4]Солдат：\C[0] Раби-и-иня!
+
+NightPatrol/Rape2
+\c[4]Солдат：\C[0] Гей, повія!
+
+############################################################# securityGuard
+
+securityGuard/NormalWhore
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Ти нова повія? З такими маленькими грудьми?
+\CBct[20]\m[shy]\plf\PRF\c[6]Лона:\C[0] Я.... \optB[Не повія,Повія]
+
+securityGuard/NormalWhore_No
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона:\C[0] Взагалі-то, ні!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Ну... Що ти тоді тут робиш?
+
+securityGuard/NormalWhore_Yes
+\CBct[20]\m[lewd]\plf\Rshake\c[6]Лона:\C[0] Так, я повія.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Ага......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Старші за званням ніколи не слухають наші прохання щодо розміру грудей.
+\CBct[20]\m[sad]\plf\Rshake\c[6]Лона:\C[0] Мої груди.... Занадто маленькі?
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Це вже не важливо, якщо ти тут. Іншого в тебе немає.
+\CamMP[DormTable]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Іди в кімнату відпочинку вдень, і задовольняй сексуальні потреби офіцерів і солдатів.
+\CBct[20]\m[shy]\plf\Rshake\c[6]Лона:\C[0] Гаразд.
+
+securityGuard/SlaveNight
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Займися чищенням сральника, і задоволь потреби солдатів. А потім можеш іти спати.
+
+securityGuard/SlaveDay
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Дерьма шматок! Ану за роботу!
+
+securityGuard/SlaveWorkDone
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Закінчила? Іди спати!
+
+securityGuard/SlaveDecideWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Рабиня? Про тебе вже повідомляли? Зараз подивимося...
+
+securityGuard/SlaveNoWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Тобі щастить, тобі сьогодні роботи не знайшлося.
+
+securityGuard/SlaveSandBag
+\CBmp[SGT,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Знайди \c[4]Офіцера\C[0] у мішків з піском і спитай його. Йому потрібні рабині для допомоги у тренуванні!
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Так... Пане...
+
+securityGuard/SlaveJoyWork
+\CBmp[DormTable,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Іди в кімнату відпочинку що знаходиться поряд. Офіцери і солдати потребують твоєї уваги!
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Так... Пане...
+
+securityGuard/SlaveFood
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Ось твоя їжа на сьогодні! Насолоджуйся, поки жива!
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона:\C[0] Дякую, Пане...
+
+securityGuard/SlaveFood_AskMore
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\C[0] Вибачте... \optB[Нічого,А можна ще їжі?]
+
+securityGuard/SlaveFood_AskMore_win
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] Гаразд, тобі, судячи з усього, і справді потрібно ще трохи.
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона:\C[0] Дякую, Пане...
+
+securityGuard/SlaveFood_AskMore_fail
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0] \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник:\C[0] Нахуй пішла!
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона:\C[0] Вибачте...
+
+securityGuard/SlaveFoodQmsg
+Підбери це!
+
+############################################################# SGT Slave Suvival
+
+SGT/SlaveSuvival
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]Сержант:\C[0] Гей! У нас тут рабиня!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\c[4]Сержант：\C[0] Ворушили ногами, шматок лайна! Подивимося, скільки ти простягнеш із вартовим!
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Стійте! Прошу вас!
+
+SGT/SlaveSuvival_WIN
+\SETpl[SGT_Shake]\Lshake\c[4]Сержант：\C[0] Якого хуя?!
+\SETpl[SGT_Normal]\Lshake\c[4]Сержант：\C[0] Ви просто марні! Ви навіть не можете вбити просту рабиню!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Будь ласка... Перестаньте мене намагатися вбити!
+
+############################################################# Joy work
+
+JoyTable/NothingQmsg0
+я працюю
+
+JoyTable/NothingQmsg1
+Тут нічого робити
+
+JoyTable/NothingQmsg2
+Стіл
+
+JoyTable/JobBegin0_slave
+\CBmp[BrkGuard1,1]\ph\c[4]Солдат:\C[0] У нас рабиня!
+\CBmp[BrkGuard2,2]\c[4]Солдат：\C[0] Опа-чки, нова рабиня!
+\CBmp[BrkGuard3,5]\c[4]Солдат:\C[0] А де в неї сиськи?!
+
+JoyTable/JobBegin0_whore
+\CBmp[BrkGuard1,1]\c[4]Солдат:\C[0] О, повія!
+\CBmp[BrkGuard2,2]\c[4]Солдат：\C[0] Опа-чки, нова повія!
+\CBmp[BrkGuard3,5]\c[4]Солдат：\C[0] А че сиськи-то такі дрібні?!
+
+JoyTable/JobBegin1
+\CBct[6]\m[flirty]\PRF\c[6]Лона:\C[0] Ем.... Всім привіт.
+\CBmp[BrkGuard1,20]\prf\c[4]Солдат:\C[0] Залізай на стіл і дай тебе як слід розглянути. \optD[Залізти<t=5>,Відмовитися<r=HiddenOPT1>]
+
+JoyTable/JobBegin2
+\CBct[8]\m[shy]\PRF\c[6]Лона:\C[0] .....
+\CBmp[BrkGuard2,4]\prf\c[4]Солдат：\C[0] У неї маленькі цицьки, але цілком милі.
+\CBmp[BrkGuard3,20]\prf\c[4]Солдат:\C[0] Давай станцюй!
+\CBct[8]\m[fear]\PRF\c[6]Лона:\C[0] Оу... \optD[Станцювати<t=5>,Відмовитися<r=HiddenOPT1>]
+
+JoyTable/JobBegin3
+\CBct[8]\m[flirty]\PRF\c[6]Лона:\C[0] Ла-а-одно.
+
+JoyTable/JobBegin4_0
+\CBmp[BrkGuard1,3]\prf\c[4]Солдат:\C[0] Хахаха!
+
+JoyTable/JobBegin4_1
+\CBmp[BrkGuard2,4]\prf\c[4]Солдат:\C[0] Розсувай ноги!
+
+JoyTable/JobBegin4_2
+\CBmp[BrkGuard3,9]\prf\c[4]Солдат:\C[0] Давай!
+
+JoyTable/JobBegin_rape
+\CBmp[BrkGuard3,4]\prf\c[4]Солдат:\C[0] Це нудно, я хочу її просто виїбати!
+\CBmp[BrkGuard2,4]\prf\c[4]Солдат:\C[0] Давай виебем її!
+\CBmp[BrkGuard1,4]\prf\c[4]Солдат:\C[0] Згоден! По черзі чи одразу?!
+\CBct[1]\m[terror]\Rshake\c[6]Лона:\C[0] Ч-ЩО?!
+
+JoyTable/JobBegin_beat
+\CBmp[BrkGuard1,5]\prf\c[4]Солдат:\C[0] Ти сука пручаєшся!?
+\CBmp[BrkGuard2,5]\prf\c[4]Солдат:\C[0] Дай їй пиздюлей!
+\CBmp[BrkGuard3,5]\prf\c[4]Солдат:\C[0] Тобі пиздец!
+\CBct[6]\m[terror]\Rshake\c[6]Лона:\C[0] Ч-ЩО?!
+
+JoyTable/JobBegin_whore_end
+\CBmp[BrkGuard1,4]\prf\c[4]Солдат:\C[0] І це все?
+\CBmp[BrkGuard2,4]\prf\c[4]Солдат：\C[0] Ось, це тобі.
+\CBmp[BrkGuard3,20]\prf\c[4]Солдат:\C[0] Сподіваюся, твої цицьки швидко виростуть.
+\CBct[8]\m[flirty]\PRF\c[6]Лона:\C[0] Дякуємо вам...
+
+JoyTable/JobBegin_slave_reward
+\CBmp[BrkGuard2,4]\prf\c[4]Солдат:\C[0] А непогано! Ти безперечно заслуговуєш трохи більше хліба!
+
+JoyTable/JobBegin_quit
+\CBmp[BrkGuard1,5]\prf\c[4]Солдат:\C[0] Ти... вже йдеш?
+
+JoyTable/Touch_Opt
+Дозволити себе доторкнутися? \optD[Так<t=2>,Ні]
+
+JoyTable/AnalTouch_Qmsg
+Чудова попка!
+
+JoyTable/BoobTouch_Qmsg
+Занадто дрібні цицьки!
+
+JoyTable/VagTouch_Qmsg
+Яка м'яка!
+
+JoyTable/Kiss_Qmsg
+*Чмок*!
+
+JoyTable/Escape_Qmsg
+Гей!!
+
+############################################################# crane
+
+crane/NormalQmsg0
+Кран
+
+crane/NormalQmsg1
+Нічого особливого
+
+crane/Windcave_frist_time
+\CBct[8]\m[shocked]\c[6]Лона:\C[0] Кран...
+\CBct[2]\m[normal]\c[6]Лона:\C[0] Може, я зможу з його допомогою втекти?
+\CBct[8]\m[confused]\c[6]Лона:\C[0] Якщо я зможу з ним щось зробити, у мене вийде перебратися?
+
+crane/Windcave_Opt
+\CBct[8]\m[confused]Кран \optB[Скасувати,Відрегулювати кут<r=HiddenOPT1>]
+
+crane/Windcave_Opt_dig
+\CBct[8]\m[confused]Скільки витратити сили на спробу це зробити? \optB[Відмовлятися від ідеї,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+crane/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]Лона:\C[0] Я намагалася з усіх сил.
+\CBct[6]\m[tired]\c[6]Лона:\C[0] Але я .... занадто .... втомилася.
+
+crane/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]!!!!
+\CBct[1]\m[shocked]!!!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Лона:\C[0] Треба ж! Я зможу вибратись!

@@ -1,0 +1,193 @@
+ThisMap/OmEnter
+\m[confused]La Casa de Juguetes del Dragón Malvado \optB[Cancelar,Entrar]
+
+####################################################################### When Enter
+
+EnterOp/0
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Desconocido：\C[0]    ¿Es verdad? ¿Estas píldoras mágicas realmente pueden curarme y convertir mi pene en una vagina?
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_fear]\plf\PRF\c[4]Mercader：\C[0]    Eh...\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Mercader：\C[0]    ¡Claro que sí! Solo recuerda tomar una píldora con cada comida.
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Eso es lo que me dijiste la última vez!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Mercader：\C[0]    ¡Confía en mí! ¡Esta vez seguro funcionará!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Mercader：\C[0]    ¿No has oído hablar de la nueva Clínica de Obstetricia y Ginecología que abrió cerca de las Puertas del Este?
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\plf\Rshake\c[4]Mercader：\C[0]    ¡Es un medicamento milagroso creado por un doctor increíble de allí! ¡Definitivamente funcionará!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Mercader：\C[0]    Y es muy barato, ¡una semana de tratamiento solo cuesta una Moneda de Oro!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Mercader：\C[0]    ¡Lograrás la feminidad en solo 3 semanas!
+\CBmp[SnowflakeEVMod,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Desconocido：\C[0]    ¿En serio? Pero solo me quedan... 8 Monedas de Cobre Grandes.
+\CBmp[HappyMerchant,8]\SETpr[HappyMerchant_shocked]\plf\PRF\c[4]Mercader：\C[0]    Oh vaya...\..\..
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]Mercader：\C[0]    ¡No hay problema! ¡Puedo prestarte el medicamento para empezar!
+
+EnterOp/1
+\CBmp[SnowflakeEVMod,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Desconocido：\C[0]    ¿En serio? ¡Eso sería maravilloso! ♥
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_fear]\plf\Rshake\c[4]Mercader：\C[0]    ¡Sabía que esto podía pasar y estaba preparado!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Mercader：\C[0]    ¡Muy pronto serás una verdadera mujer!
+\CBmp[SnowflakeEVMod,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Desconocido：\C[0]    ¡¿QUÉ DIJISTE?! ¡¡MALDITO TROLL NARIZÓN!! ¡YO SOY UNA VERDADERA MUJER!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Mercader：\C[0]    ¡S-Sí! ¡Tienes razón! ¡Siempre has sido una verdadera mujer, desde el principio!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Mercader：\C[0]    ¡El dolor y sufrimiento que enfrentarás son una prueba del Santo!
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_shocked]\Rshake\c[4]Mercader：\C[0]    ¡Solo debes tomar este medicamento para que al fin seas aceptado por todos!
+\CBmp[SnowflakeEVMod,8]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Desconocido：\C[0]    Sí, tienes razón. Debe ser una prueba del Santo.
+\CBmp[HappyMerchant,20]\SETpr[HappyMerchant_normal]\plf\Rshake\c[4]Mercader：\C[0]    Ahora, se-... señorita, solo necesito tu firma en este papel...\..\..
+
+####################################################################### Night
+
+Trans/begin0
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\c[4]Desconocido：\C[0]    ¡¡AAAAAAAHHHHH!!
+
+Trans/begin1
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\C[0]    ¡¡AAAHHHHH!!!
+
+Trans/begin2
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Desconocido：\C[0]    Qué grosero. ♥ Casi me matas del susto. ♥
+
+Trans/begin3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Desconocido：\C[0]    Oh... ♥ Qué niña tan dulce y fragante... ♥
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Desconocido：\C[0]    Mi nombre es \c[6]Copito\C[0]. ¿Cómo te llamas, hermanita?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Emmm...\..\.. \c[4]Lona：\C[0]....
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Desconocido：\C[0]    ¿\c[6]Lona\C[0]? Qué nombre tan hermoso. ♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Eh... gracias?
+
+Trans/talkedBegin0
+\m[tired](Uff... *Blergh*... Huele tan mal aquí...)
+
+Trans/talkedNight0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Qué grosero. ♥ Ahora no. ♥
+
+Trans/talkedDay0
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    ¿Qué necesitas, hermanita? ♥
+
+####################################################################### opt
+
+Trans/opt_pills
+...
+
+Trans/opt_male
+¡Tú eres un hombre!
+
+Trans/ans_male
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lona：\C[0]    ¡Por favor, deja de engañarte a ti mismo, eres un hombre!
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    Es la realidad, es hora de que despiertes.
+
+Trans/ans_pills_opt
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ...\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Mira esto, mi dulce hermanita. Es medicina para el pene femenino que compré recientemente.
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Con esto, me convertiré en una verdadera mujer.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh...\..\..\m[confused] Esto.... \optD[¿Medicina real?, ¿Medicina falsa?]
+
+Trans/ans_pills_opt_real
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Sí, esta medicina definitivamente te curará de... ¿la enfermedad del pene femenino?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Correcto, pronto me curaré del pene femenino y seré una verdadera mujer.
+
+Trans/ans_pills_opt_fake0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ...\..\..
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿No son solo dulces azucarados que venden en la mayoría de las tiendas?
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    No-no, tontita. Míralo bien. Estas píldoras son medicina real para tratar el pene femenino.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Esta dice que es sabor plátano. Si no me crees, ¿por qué no te comes una ahora?
+
+Trans/ans_pills_opt_fake1
+\CBmp[Snowflake,6]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    ¡No! ¡Es imposible!\n ¡¡ME ESTÁS MINTIEEENDO!!
+
+Trans/Ans_about0
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Hmm... ¿Es una tienda de juguetes? ¿Eres el único que vende juguetes aquí?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Soy el artesano más hábil de juguetes en todo Noer,\n y los nobles de la Mansión Rosendo son mis mayores clie...\..\..
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    ESPERA... UN... MINUTO...\n ¡¿QUÉ ACABAS DE...?!
+
+Trans/Ans_about1
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Copito：\C[0]    ¡¡¿ACABAS DE MISGÉNERARME?!!
+
+Trans/Ans_about2
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿¡Eh!? ¿¡Misgénero!? \m[sad]Yo...\..\.. Lo siento...
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Como mi dulce hermanita es tan adorable, ¡puedes ser mi esposa!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡EH!? ¿¡Esposa!? Dijiste que eras una mujer, ¿no?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    Tengo un pene femenino y delicado, y todo por culpa del Santo.
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    ¡Pero me encantan las niñas pequeñas!\n ¡¿ACASO HAY ALGÚN PROBLEMA?!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡N-No!
+\CBmp[Snowflake,3]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Bien....
+
+Trans/RageQuit0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Copito：\C[0]    ¡¡SOY UNA MUJER!! ¡¿CÓMO TE ATREVES A DISCRIMINARME?!!
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Copito：\C[0]    ¡¡LÁRGATE DE AQUÍ!!\n ¡¡LÁRGATE!!
+
+Trans/RageQuit1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+endTalkQuestion/begin0
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    Quiero hacerte una pregunta. ¿Tu hermana mayor se ve como una mujer?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh-eh-eh...\optD[Te ves como una mujer...,¡Te ves como un hombre, por supuesto!]
+
+endTalkQuestion/begin0_ansF
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡Como mujer, realmente te ves como una m-mujer!
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    Ah... ♥ Sabía que mi hermanita Lona vería la verdad.
+
+endTalkQuestion/begin0_ansM
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Por supuesto que te ves como un hombre, tienes un pene...
+
+####################################################################### Common cropse
+
+Cropse/Qmsg0
+El cuerpo tiene la marca de un esclavo...
+
+Cropse/Qmsg1
+Parece que murió de hambre...
+
+Cropse/Qmsg2
+Vaya agujero...
+
+Cropse/Qmsg3
+Lleva pudriéndose aquí mucho tiempo...
+
+transCropse/Qmsg0
+El suelo está lleno de mierda y orina...
+
+transCropse/Qmsg1
+No pudo aceptar la realidad y se suicidó...
+
+####################################################################### nap first capture
+
+Trans/NapCapture0
+\CBct[2]\m[confused]\PLF\c[6]Lona：\C[0]    Mmm...\..\..?
+
+Trans/NapCapture1
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    ¡Oh, maravilloso! ♥ ¡Por fin despertaste, hermanita! ♥
+
+Trans/NapCapture2
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Cómo llegué aquí?! ¿Qué me hiciste?
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    ¿Acaso mi hermanita no prometió ser mi novia?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡Yo!? ¿¡Novia!?
+
+Trans/NapCapture3
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\prf\c[4]Copito：\C[0]    Unamos nuestros cuerpos femeninos como amantes. ♥
+\CBct[6]\m[pain]\plf\Rshake\c[6]Lona：\C[0]    ¡NO! ¡Suéltame!
+
+Trans/NapCapture4
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    ¡Oooh! ♥ ¡Mi pene femenino se viene! ♥ ¡Voy a chorrear! ♥♥
+
+Trans/NapCapture5
+\CBmp[Snowflake,5]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Copito：\C[0]    Ahhh, qué bien.
+\CBct[8]\m[pain]\plf\PRF\c[6]Lona：\C[0]    Ohhhh....
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Copito：\C[0]    Debo ir a trabajar, pero volveré pronto para amarte de nuevo.~ ♥
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\C[0]    ....
+
+####################################################################### nap rapeloop
+
+Trans/NapRapeloop0
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Copito：\C[0]    Ven a mí. ♥ Es hora de mostrar amor femenino a tu hermana mayor. ♥
+\CBmp[Snowflake,4]\SETpl[HumSnowflakeNormal]\Lshake\c[4]Copito：\C[0]    ¡Disfrutemos juntos del placer de la feminidad! ♥
+
+Trans/NapRapeloop1
+\CBct[8]\m[pain]\plf\PRF\c[6]Lona：\C[0]    Ohhhh....
+
+rapeloop/ans_male0
+\CBct[5]\m[angry]\plf\PRF\c[6]Lona：\C[0]    Tú...\..\.. ¡No eres una mujer!
+\CBmp[Snowflake,1]\SETpl[HumSnowflakeSad]\Lshake\prf\c[4]Copito：\C[0]    ¡¿QUÉ?! ¡¿QUÉ DIJISTE?!
+\CBct[5]\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡Naciste así!
+\CBct[5]\m[serious]\plf\PRF\c[6]Lona：\C[0]    ¡No importa lo que hagas, no puedes cambiar esa realidad!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Copito：\C[0]    ¡¡PERRA! ¡¡CÁLLATE!!
+
+rapeloop/ans_male1
+\CBct[5]\m[angry]\plf\PRF\c[6]Lona：\C[0]    ¿Cuánta "medicina" has tomado? ¿Cuántas cirugías te has hecho?
+\CBct[5]\m[angry]\plf\PRF\c[6]Lona：\C[0]    ¿Alguna de ellas te ayudó?!
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Copito：\C[0]    ¡¡PERRA! ¡¡CÁLLATE!! ¡¡CÁLLATEEEE!!
+\CBct[5]\m[serious]\PRF\c[6]Lona：\C[0]    ¡En el fondo ya lo sabes, ¿verdad?! ¡NUNCA serás una mujer!
+
+rapeloop/ans_male2
+\CBmp[Snowflake,20]\SETpl[HumSnowflakeMad]\Lshake\prf\c[4]Copito：\C[0]    ¡¡AAAAAHHH!!

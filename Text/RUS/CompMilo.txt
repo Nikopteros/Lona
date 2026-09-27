@@ -1,0 +1,223 @@
+Milo/CecilyGroupQmsg0
+Стража!
+
+Milo/CecilyGroupQmsg1
+Убить их!
+
+Milo/InBarBegin_unknow0
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Неизвестный：\C[0]    Я Мило фон Росендо, а кто ты?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я... Лона Фоллдин.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]Мило：\C[0]    \..\..\..\..\n Лона. Такая жалкая букашка? Я не помню, чтобы видел тебя в списке.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Мило：\C[0]    Пшла прочь, ничтожество.
+\CamCT\m[wtf]\plf\PRF\c[6]Лона：\C[0]    ...что?
+
+Milo/InBarBegin_know
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Мило：\C[0]    Тебе здесь не рады.
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Простите...
+
+Milo/elseBegin
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Что тебе нужно?\optB[Отмена,Росендо,Ноэр,Сибарис]
+
+Milo/elseBegin_Rudesind
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Как тебе известно, наш род Росендо - правящая элита.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Наши следы простираются через все земли.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Без нас Ноэртаун давно бы пал в небытие.
+
+Milo/elseBegin_Noer
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Этот остров носит имя Ноэр.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Ноэртаун - первое поселение, из которого мы воздвигли цитадель.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Некогда - сердце морской торговли между Востоком и Западом.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Сибарис был построен, чтобы заменить Ноэртаун.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Чума, что была десятилетия назад лишь ускорила неизбежное.
+
+Milo/elseBegin_Sybaris
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Без глубоководной гавани Ноэртаун не мог принимать новые корабли.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Кто мог предвидеть, что суда станут такими огромными?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Семьдесят лет назад купцы со всего света возвели новый город.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Так родился Сибарис.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Да, мы в этом так же участвовали. Теперь всё обратилось в прах.
+
+######################################################################## Hunting ##################################
+
+Milo/QuestMilo_2to3_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    М-м, что? Ты кто такая?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кхм... Прошу прощения господин, у меня письмо с приглашением. Это вы... господин Мило?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]     Я Мило. Говоришь, приглашение? Дай посмотреть.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    \..\..\..
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Мило：\C[0]    Забавно... Герой, о котором говорят, на самом деле мелкая букашка.
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Я... букашка?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Шучу. Но раз ты выжила... значит, в тебе что-то есть...
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Что-то....?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Да. Выжившие нуждаются в таких... как ты.
+
+Milo/QuestMilo_3to4_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Как тебе известно, Ноэртаун окружен этими... жалкими бродягами, даже без крова над головой.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Но это не важно. Я не виню их.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    У каждого своя душераздирающая история, от которых уже тошно.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Однако среди них есть и те, кто смеет мечтать о разрушении установленного порядка.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Они мечтают вернуть Сибарис... Как будто это возможно.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    И знаешь, что происходит, когда рушится порядок?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Ты ведь видела это своими глазами - среди тех, с кем ты пришла, не так ли?
+\CamCT\m[tired]\plf\PRF\c[6]Лона：\C[0]    Да... видела...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Тогда ты понимаешь.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Мне сообщили, что один из них был замечен у окраины города.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Его имя, кажется... \c[6]Адам\c[0]?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Принеси мне его голову, и я щедро вознагражу тебя.
+
+Milo/QuestMilo_3to4_QuBoard
+\board[Сохранение Порядка]
+Задача：Убить Адама
+Награда：Большой Медяк х5, Репутация +5
+Клиент：Мило фон Росендо
+Повторяемость：Одноразовое
+Мои люди видели, как он скрывается в разрушенных домах на северо-востоке.
+Мне нужен опытный наёмный убийца, чтобы разобраться с этим.
+
+Milo/QuestMilo_3to4_no
+\CamCT\m[serious]\plf\PRF\c[6]Лона：\C[0]    Ни за что!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Какая досада. Неужели ты действительно всего лишь букашка?
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Но я уверен - ты передумаешь.
+\CamCT\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Я не букашка!
+
+Milo/QuestMilo_3to4_yes
+\CamCT\m[serious]\plf\PRF\c[6]Лона：\C[0]    Да! Я не какая-то букашка! Я справлюсь!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Отлично! Жду хороших вестей.
+
+Milo/QuestMilo_3to4_yes_adamDed0
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ну... он вроде уже мёртв...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Что?
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я видела его... он уже умер по дороге...
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Правда?
+
+Milo/QuestMilo_3to4_yes_adamDed1
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Да....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Хм......
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Наш мир действительно жесток.....
+\CamCT\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ага...
+
+Milo/QuestMilo_6to7
+\CamCT\m[serious]\plf\PRF\c[6]Лона：\C[0]    Я вернулась!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]     Прекрасно! Ближе к делу.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Ты принесла его голову?
+
+Milo/QuestMilo_6to7_withHead0
+\CamCT\m[fear]\plf\PRF\c[6]Лона：\C[0]    Да... Фу...
+
+Milo/QuestMilo_6to7_withHead1
+\BonMP[Milo,4]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    А... Адам. Ты хорошо справилась!
+\BonMP[Milo,5]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Этот мерзкий пёс постоянно устраивал беспорядки.
+\BonMP[Milo,15]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]     Многие горожане и стражники пали от его рук.
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Первая кровь тяжело даётся, не так ли?
+\CamCT\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ух....
+
+Milo/QuestMilo_6to7_withHead2
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Не печалься. Это ради выживших.
+\CamCT\m[sad]\plf\PRF\c[6]Лона：\C[0]    Спасибо...
+
+Milo/QuestMilo_6to7_NoHead0
+\CamCT\m[fear]\plf\PRF\c[6]Лона：\C[0]    Я... случайно потеряла его голову...
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    \..\..\..
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    \..\..\..
+\CamCT\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Но я правда убила его! Клянусь!
+\CamCT\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Его труп всё ещё в руинах! Можете проверить!
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    \..\..\..
+\CamCT\m[tired]\plf\PRF\c[6]Лона：\C[0]    Уф....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Ладно, я верю тебе.
+
+Milo/QuestMilo_6to7_NoHead1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Возьми.
+\CamCT\Bon[1]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Это\..\..\..
+\CamCT\Bon[6]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Спасибо! Спасибо, что поверили мне!
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Не благодари. У меня для тебя ещё много дел.
+
+Milo/QuestMilo_6to7_NoHead2
+\CamCT\Bon[6]\m[pleased]\plf\PRF\c[4]Мило ведь хороший!
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    \..\..\..\..
+
+#################################################################################### betray Cecily? ###########################
+
+Milo/QuestMilo_9_Ignore
+\CBid[-1,20]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]Неизвестный：\C[0]    Лона, верно? Хм... мелкая букашка.
+\CBid[-1,5]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]Неизвестный：\C[0]    Как жаль, твой выбор уже сделан. Сгинь.
+\CamCT\m[wtf]\plf\PRF\c[6]Лона：\C[0]    ...Чё?
+
+Milo/QuestMilo_9to10_1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]     Эм... да, приветствую вас...? Я получила ваше приглашение.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Наконец-то. Я уж думал, сдохла по дороге.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что вам нужно?
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Ты знаешь \c[6]Сесилию\C[0], верно? Выложи всё, что знаешь.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    А, эта горячая аристократка?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Да. Расскажи мне о ней. Мне нужно... с ней познакомиться.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Э-э.... \optD[Отказать,Согласиться]
+
+Milo/QuestMilo_9to10_2_0
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Враньё! Она сказала, что вы всё это устроили! 
+\CBct[20]\m[angry]\plf\Rshake\c[6]Лона：\C[0]    Вы стоите за всей работорговлей!
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Какое нелепое заблуждение.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Заблуждение?!
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Слушай сюда, чернь! Я даю этим отбросам цель. Путь к выживанию. 
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Не укажешь им путь – они сожрут тебя заживо.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Видела, да? По дороге сюда? Тех, кто жрёт себе подобных?
+\CBct[20]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Угх...
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    То-то же. Ты видела. Они уже не люди. Скот.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Вот во что они превращаются без сильной руки.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Да, я поддерживаю работорговлю. И знаешь, куда идут деньги?
+\CBct[20]\m[shy]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Как думаешь, кто платит жалование тем, кто сдерживает тварей? Кто содержит Твердыню Рока? Начинает доходить?
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+
+Milo/QuestMilo_9to10_2_1
+\CBct[20]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ладно... плевать.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Она похоже на дворянку из Сибариса.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Очень... импульсивная особа.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Лезет в драку сломя голову.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Но в целом неплохая, для аристократки. Не брезгует общаться с простыми людьми.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Скучно... Мне и самому это известно.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    У \c[6]Иглмора\C[0] все с детства с мечом. На одном из пиров довелось её видеть.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Что она задумала? Относительно Ноэртауна.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм.... \optD[Не знаю,Враждебно]
+
+Milo/QuestMilo_9to10_3
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Она в ярости от того, как содержат беженцев. Хочет им помочь.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Но я не думаю, что есть в этом смысл.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Грозится перебить всех работорговцев!
+\CBct[20]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    В ней есть чувство справедливости! Мне это нравится!
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Перебить? Может, расскажешь подробнее?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Я бы хотел урегулировать... небольшое наше недоразумение.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А вам то зачем это знать?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Мы находимся посреди ужасной катастрофы, я думаю, мы должны помогать друг другу.
+\cg[event_Coins]\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Хочешь ведь свалить с этого острова? Я могу с этим помочь.
+
+Milo/QuestMilo_9to10_3board
+\board[Порядок любой ценой]
+Задача：Раскрыть Мило о планах Сесилии
+Награда：Золотая Монета х10
+
+Milo/QuestMilo_9to10_3opt
+\cgoff\CBct[1]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ЧТО?! ТАК МНОГО!??
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Доверься мне. Я делаю то, что должно быть сделано.\optD[Нет,Рассказать]
+
+Milo/QuestMilo_9to10_yes0
+\CBct[8]\m[shy]\plf\PRF\c[6]Лона：\C[0]    Хорошо....
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Но... я и сама не в курсе деталей. Она мне не доверяет.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Говорила, ждать её через пять дней. Кажется, через пять? Вроде как.
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    Пять дней?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Деньги... можете не давать. Я не уверена, что эта информация стоит того.
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я знаю, что эта информация бесполезна, но я больше ничего не знаю.
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Бери. Я щедр к полезной черни.
+
+Milo/QuestMilo_9to10_yes1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Серьёзно?!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Я же говорил, я хочу разрешить наше маленькое недоразумение.
+\CBct[8]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Спасибо!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    И ещё... не вздумай говорить ей о нашей встрече. Скажешь ей – она тебя на куски порвёт.
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Я с ней сам разберусь. Не стоит встревать в разборки знати.
+\CBct[8]\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Поняла!
+
+Milo/QuestMilo_9to10_refuse
+\CBct[6]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Нет! Она сказала, ты – мразь!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    Хм. Какая честная букашка.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Чё?! Я думала, ты взбесишься!
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]Мило：\C[0]    С чего бы?
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]Мило：\C[0]    \..\..\..\..

@@ -1,0 +1,138 @@
+thisMap/Enter
+\m[confused]無人島\optB[算了,進入]
+
+########################################################### Capture begin
+
+OPevent/0
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,40,4]\BonMP[RngGuy1,3]\SETpr[raper1]\Rshake\c[4]難民：\c[0]    啊啊啊♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpr[raper2]\Rshake\c[4]難民：\c[0]    哦哦哦哦♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{去了啊啊！！
+
+OPevent/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\Bon[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+OPevent/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    這是....
+
+OPevent/3_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{這是女人！
+
+OPevent/4_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    感謝聖徒！ 聖徒把她復活了！
+
+OPevent/5_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    各位！ 不要再玩屁眼了！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{是女人啊！
+
+OPevent/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{是她！
+
+OPevent/4
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    聖徒大人聽到我們的召喚了！
+
+OPevent/5
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    祂把\c[6]洛娜\c[0]招換回來了！
+
+OPevent/6
+\SFXfile[Cursor2]\SFXset[50,25,1]\BonMP[RngGuy1,2]\SETpr[raper_group]\Rshake\c[4]難民：\c[0]    什麼？！
+
+OPevent/7_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\prf\c[4]難民：\c[0]    你說女人？
+
+OPevent/7
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpR[raper2]\plf\Rshake\c[4]難民：\c[0]    你說\c[6]洛娜\c[0]？
+
+OPevent/8
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,3]\SETpl[raper1]\Lshake\prf\c[4]難民：\c[0]    是女人？！
+
+OPevent/9
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\c[4]難民：\c[0]    先幫她治療！ 動作快！ 這次絕對不能弄死！
+
+FirstRape/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚...這裡是....？
+\SFXfile[Cursor2]\SFXset[50,25,4]\CBmp[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]難民：\c[0]    她醒來了！ 讓我先來！
+
+FirstRape/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[hurt]\plf\Rshake\c[6]洛娜：\c[0]    吚咦？！
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[pain]\plf\Rshake\c[6]洛娜：\c[0]    等一下...你們...
+
+FirstRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]難民：\c[0]    尻穴是我的♥
+
+FirstRape/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    快點，快幫我舔♥
+
+FirstRape/3_1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[p5sta_damage]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚？！！！
+
+########################################################### first time wake up
+
+Wakeup/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    這裡是哪裡...？
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[sad]\plf\Rshake\c[6]洛娜：\c[0]    為什麼這些人都跟瘋了一樣？
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    我必須想辦法離開這。
+
+########################################################### DailyFree
+
+WakeRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]難民：\c[0]    爽完了♥ 我餓了♥ 該吃飯了♥
+
+WakeRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]難民：\c[0]    還是女人好♥ 肏起來舒服多了♥
+
+WakeRape/0_2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]難民：\c[0]    我是誰？ 這是哪？ 我在幹什？
+
+########################################################### daily celebrity 
+
+celebrity/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚...
+
+celebrity/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    感謝聖徒復活了我們的肉穴！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    我們將徹底享用她身上的每一個穴！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]難民：\c[0]    感謝聖徒♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]難民：\c[0]    讚美聖徒♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,4]\SETpl[raper1]\Lshake\c[4]難民：\c[0]    快點結束禱告！ 我忍不住了！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    同胞們！ 盡情享用吧！
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    等一下...什麼？！
+
+########################################################### NapRape
+
+NapRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    嘿嘿嘿....穴穴...
+
+NapRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    女人！ 是女人！
+
+NapRape/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    雞雞好硬....
+
+NapRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    我要幹...我忍不住了...
+
+NapRape/angry
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    妳做什麼！！ 為什麼不讓我肏！
+
+########################################################### Qmsg
+
+Qmsg/0
+我在哪？ 我在幹嘛？
+
+Qmsg/1
+雞雞好脹...
+
+Qmsg/2
+妳是女人？！
+
+Qmsg/3
+好想幹女人...
+
+Qmsg/Child0
+我的屁眼合不起來了。
+
+Qmsg/Child1
+我想插穴穴...
+
+Qmsg/Child2
+那個花好難吃..

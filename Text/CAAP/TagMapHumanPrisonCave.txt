@@ -1,0 +1,460 @@
+HumanPrisonCave/OvermapEnter
+\m[confused]Mina de Cristal \optB[Cancelar,Entrar]
+
+####################################### MISIÓN DE CAZA DE ABOMINACIONES ######################################################
+
+Manager/Qprog1
+\CBmp[Manager,20]\m[normal]\c[4]Supervisor de la Mina：\C[0]    ¿Viniste a limpiar la zona de monstruos?
+\CBmp[Manager,20]\prf\c[4]Supervisor de la Mina：\C[0]    ¿Te enviaron para esto? ¿A una chiquilla?
+\CBct[2]\m[confused]\PLF\c[6]Lona：\C[0]    ¿Eh...?
+\CBmp[Manager,20]\prf\c[4]Supervisor de la Mina：\C[0]    Bueno, qué más da.
+\CBmp[Manager,20]\prf\c[4]Supervisor de la Mina：\C[0]    Los monstruos suelen estar en lo profundo de la mina.
+\CBmp[Manager,20]\prf\c[4]Supervisor de la Mina：\C[0]    Ten cuidado y no entres en la zona de descanso de los mineros.
+\CBmp[Manager,20]\prf\c[4]Supervisor de la Mina：\C[0]    Esos tipos no han visto una mujer en mucho tiempo, ¿entiendes lo que te digo?
+
+Manager/Qprog1_KillCounted
+\CBct[20]\m[triumph]\c[6]Lona：\C[0]    ¡Lo logré! Parece que no quedan más de esas criaturas.
+\CBmp[Manager,19]\m[pleased]\c[6]Lona：\C[0]    Debo informar al Supervisor.
+
+Manager/Qprog2
+\CBmp[Manager,20]\prf\m[normal]\c[4]Supervisor de la Mina：\C[0]    ¡Vaya! La chiquilla hizo un gran trabajo.
+\CBmp[Manager,20]\prf\m[normal]\c[4]Supervisor de la Mina：\C[0]    Toma, esta ficha como prueba de que completaste el trabajo.
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    ¡Gracias!
+
+####################################### CAPTURADA ######################################################
+
+Narr/Captured0
+\narr Los guardias de la mina rodearon a Lona...
+
+Narr/Captured1
+\SETpl[Mreg_pikeman]\c[4]Guardia A：\C[0]    ¿Qué hace esta mocosa aquí?
+\SETpr[Mreg_guardsman]\c[4]Guardia B：\C[0]    No sé, ¿quizá vino por un encargo del Gremio?
+\prf\PLF\c[4]Guardia A：\C[0]    ¿En serio? ¿De verdad se lo creyó?
+\PRF\plf\c[4]Guardia B：\C[0]    Quién sabe, pero está aquí.
+\prf\PLF\c[4]Guardia A：\C[0]    Tsk tsk... Qué desastre este mundo...
+\PRF\plf\c[4]Guardia B：\C[0]    Bueno, vamos a mostrarle todo.
+
+Narr/Captured2
+\m[confused]\prh\narr Lona fue capturada y encarcelada...
+
+####################################### ESCAPE ######################################################
+
+HumanPrisonCave/guard_yelling
+\SETpl[Mreg_guardsman]\PLF\c[4]Guardia：\C[0]\n    ¡ATENCIÓN! ¡ALGUIEN INTENTA ESCAPAR!
+\m[shocked]!!!!!!
+
+####################################### ESCENAS DE TORTURA ######################################################
+
+HumanPrisonCave/RapeLoopTorture_begin1
+.........
+......
+...
+\SETpl[Mfat_tortruer]\m[pain]\Lshake\SND[SE/Whip02.ogg]\Rshake\c[4]Desconocido：\C[0]    ¡¡OYE, PERRA! ¡¡DESPIERTA!!!
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\m[shocked]\PRF\c[6]Lona：\C[0]    ¡¿AH?!
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\SETpl[Mfat_tortruer]\m[hurt]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturador：\C[0]    ¡TE DIJE QUE DESPIERTES, MALDITA SEA!
+
+HumanPrisonCave/RapeLoopTorture_begin2_2
+\SETpl[Mfat_tortruer]\m[p5sta_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]Torturador：\C[0]    ¡Presten atención, gusanos inútiles!
+
+HumanPrisonCave/RapeLoopTorture_begin2_3
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturador：\C[0]    ...........
+
+HumanPrisonCave/RapeLoopTorture_begin2_4
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturador：\C[0]    ......
+
+HumanPrisonCave/RapeLoopTorture_begin2_5
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]Torturador：\C[0]    ...
+
+HumanPrisonCave/RapeLoopTorture_begin2_6
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]Torturador：\C[0]    ¡Si pelean o no cumplen la cuota diaria, tendrán problemas!
+
+HumanPrisonCave/RapeLoopTorture_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    Muy bien, mañana deben entregar
+
+HumanPrisonCave/RapeLoopTorture2_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    Muy bien, mañana deben entregar
+
+HumanPrisonCave/RapeLoopTorture_begin3_reflag
+¡cristal de mineral, o esperen castigo!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡LIBRES!
+
+HumanPrisonCave/RapeLoopTorture2_begin3_reflag
+Cristal de mineral.
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡ESCUCHEN BIEN! No se agoten divirtiéndose con ella, ¡recuerden el trabajo!
+
+HumanPrisonCave/RapeLoopTorture_begin4
+\ph\narr\..\..\..\..
+
+HumanPrisonCave/RapeLoopTorture_end
+Lona perdió el conocimiento. Los otros prisioneros la llevaron a la cama.
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin1
+\SND[SE/Whip02.ogg]\¡¡¡ATENCIÓN!!!
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_1
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Torturador：\C[0]    ...............
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_2
+\SETpl[Mfat_tortruer]\m[terror]\Rshake\SND[SE/Whip02.ogg]\Lshake\c[4]Torturador：\C[0]    ...........
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_3
+\SETpl[Mfat_tortruer]\m[sad]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Torturador：\C[0]    .......
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_4
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]Torturador：\C[0]    ....
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_0
+\m[sad] Esta persona parece ya estar muerta.
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_1
+\m[sad] Esta persona parece estar a punto de morir.
+
+HumanPrisonCave/RapeLoopTorture_FristTime0
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡Oye! ¿Parece que tenemos una nueva que quiere unirse a la feliz vida esclava?
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    Y es... ¡¡UNA NIÑITA!!
+
+HumanPrisonCave/RapeLoopTorture_FristTime1
+\m[wtf]\Rshake Esto es malo, está hablando de mí.
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    Se llama... ¿Lona? ¡Qué nombre tan encantador!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    Todos sean amables con ella... ¡Ja, es broma, claro!
+
+HumanPrisonCave/RapeLoopTorture_FristTime2
+\m[shy]\cg[event_Eyes] Sus miradas comienzan a ponerme nerviosa...
+\m[fear] ¿Qué son esas miradas extrañas...?
+\m[terror]\cgoff No puedo mostrarme débil, o se abalanzarán sobre mí.
+
+####################################### ESCENAS DE VIOLACIÓN ######################################################
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1
+\m[hurt]\SND[SE/Chain_move01.ogg]\Rshake\c[6]Lona：\C[0]    ¡¡AAHHH!!!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡Hoy trabajaron bien!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡Vi cómo trabajaban...!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡MIENTRAS ESTA MALDITA PERRA SE QUEDÓ HOLGAZANEANDO!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_1
+\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[6]Lona：\C[0]    ¡¡AAAHHH!!!
+\m[terror]\c[6]Lona：\C[0]    ¡No! ¡No holgazaneé! ¡Trabajé duro!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_2
+\SETpl[Mfat_tortruer]\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[4]Torturador：\C[0]    ¡¡CÁLLATE!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡Hoy todos pueden usar el cuerpo de esta perra como recompensa!
+\SETpl[raper_group]\Lshake\c[4]Esclavos de la mina：\C[0]    ¡MUJER!
+\SETpl[raper_group]\Lshake\c[4]Esclavos de la mina：\C[0]    ¡Es una chica! ¡Podemos follarnos a una chica de verdad!
+\SETpl[raper_group]\Lshake\c[4]Esclavos de la mina：\C[0]    ¡Genial! ¡Hace mucho que no tengo una mujer!
+\SETpl[Mfat_tortruer]\Lshake\c[4]Torturador：\C[0]    ¡SILENCIO! ¡Uno a la vez! ¡Todos tendrán su turno!\ph
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_3
+.........
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_typical
+\m[bereft]\c[6]Lona：\C[0]    ¡No! ¡Déjenme! ¡Por favor...!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_tsundere
+\m[angry]\c[6]Lona：\C[0]    ¡NO! ¡No me toquen!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_gloomy
+\m[terror]\c[6]Lona：\C[0]    N-No......
+\m[fear] ¡No puedo soportar tanta gente, moriré!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_slut
+\m[lewd]\c[6]Lona：\C[0]    ¡Jeje! No planeo perder contra ustedes, chicos...~ ♥
+
+HumanPrisonCave/RapeLoopMeattoilet_end
+\SETpl[raper3]\Lshake\c[4]Esclavo：\C[0]    ¡Sigo yo!
+\SETpl[raper2]\Lshake\c[4]Esclavo：\C[0]    ¡NO! ¡Yo!
+\SETpl[raper1]\Lshake\c[4]Esclavo：\C[0]    ¡Mierda! ¿Y yo qué, al final?
+\ph La diversión de los mineros continuó hasta el anochecer.
+Lona, violada sin parar, finalmente perdió el conocimiento. Cuando los mineros terminaron con ella, la llevaron a la cama.
+
+####################################### GUARDIAS ######################################################
+
+HumanPrisonCave/Guard_begin1_slave
+\c[4]Guardia：\C[0]    ¡A trabajar, estúpida esclava!
+
+HumanPrisonCave/Guard_begin1_maggot
+\c[4]Guardia：\C[0]    ¡Oye, escoria! ¡A trabajar!
+
+HumanPrisonCave/Guard_begin1_sexy
+\c[4]Guardia：\C[0]    ¡Oye, puta! ¡Muévete!
+
+HumanPrisonCave/Guard_begin1_weaker
+\c[4]Guardia：\C[0]    ¡Deja de sufrir! ¡A trabajar!
+
+HumanPrisonCave/Guard_begin1_moot
+\c[4]Guardia：\C[0]    ¡Haz lo que te ordenen, mestiza!
+
+HumanPrisonCave/Guard_begin1_lona
+\c[4]Guardia：\C[0]    ¡Vuelve al trabajo!
+
+HumanPrisonCave/Guard_Opt
+\m[confused]\c[6]Lona：\C[0]    ¿Mmm? \optB[Olvidarlo,Intercambio,Prostitución<r=HiddenOPT1>]
+
+####################################### MINEROS COMUNES ######################################################
+
+HumanPrisonCave/MinerM_begin1_slave
+\c[4]Esclavo：\C[0]    ¡Aléjate! ¡No me toques!
+
+HumanPrisonCave/MinerM_begin1_maggot
+\c[4]Esclavo：\C[0]    ¡Aléjate! ¡No me toques!
+
+HumanPrisonCave/MinerM_begin1_sexy
+\c[4]Esclavo：\C[0]    Ja ja...
+
+HumanPrisonCave/MinerM_begin1_weaker
+\c[4]Esclavo：\C[0]    ¿Mmm?
+
+HumanPrisonCave/MinerM_begin1_moot
+\c[4]Esclavo：\C[0]    ¡No me distraigas!
+
+HumanPrisonCave/MinerM_begin1_lona
+\c[4]Esclavo：\C[0]    ¿Qué quieres?
+
+####################################### MINEROS VIOLENTOS ######################################################
+
+HumanPrisonCave/MinerHairTriggerM_begin_basic
+\c[4]Esclavo：\C[0]    ¡Tus cosas son mías, y mis cosas son MIAS!
+
+HumanPrisonCave/MinerHairTriggerM_Opt_basic
+\m[confused]\c[6]Lona：\C[0]    ¿Mmm? \optB[Olvidarlo,Prostitución<r=HiddenOPT1>]
+
+HumanPrisonCave/MinerHairTriggerM_begin_aggro
+\c[4]Esclavo：\C[0]    Oye, pequeña, dame todos tus cristales.
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro
+\m[shocked]\c[6]Lona：\C[0]    \optD[Darle los cristales...<t=5>,¡Ni loca!]
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_no
+\m[angry]\c[6]Lona：\C[0]    ¡No! ¡No te daré nada!
+\c[4]Esclavo：\C[0]    ¿Cómo te atreves a negarte?
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_yes
+\m[sad]\c[6]Lona：\C[0]    Todo... ¡Te lo daré todo! Solo por favor, no me hagas daño...
+\c[4]Esclavo：\C[0]    ¡Je je je! Je je... Buena chica.
+
+####################################### COMERCIANTE DE LA MINA ######################################################
+
+HumanPrisonCave/CaveTrader_begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia：\C[0]    ¿Qué miras? ¿Te perdiste? ¿Ya entregaste los cristales?
+
+HumanPrisonCave/CaveTrader_Opt
+\CBmp[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Emm? \optB[No importa,Intercambio,Hablar,Entregar cristales,Prostitución<r=HiddenOPT1>]
+
+HumanPrisonCave/CaveTrader_Talk1
+\CBmp[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Bueno...
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Debes recolectar cristales para mañana, o serás castigada.
+\CBid[-1,5]\Lshake\prf\c[4]Guardia：\C[0]    Ahora es el momento de minar si quieres comida y agua. ¡Si no cumples, pasarás hambre!
+\CBmp[6]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Vale... Entiendo.
+
+HumanPrisonCave/CaveTrader_AnsSexService
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡No me interesa!
+
+HumanPrisonCave/CaveTrader_GiveMineral_begin
+\CBmp[6]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Esto es lo que pude recolectar.....
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Ajá.....
+...........
+.....
+...
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_OkayButMore
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡NO ES SUFICIENTE! ¡Vuelve y sigue minando!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_None
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡¡¡MIERDA!!! ¡¿TE ATREVES A MENTIRME?!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_Full
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Bien! ¡Sigue minando hasta que mueras!
+
+HumanPrisonCave/CaveTrader_end
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Date prisa y ponte a trabajar! ¡Pequeña perra!
+
+HumanPrisonCave/CaveTrader_mineneed0
+Faltan  
+
+HumanPrisonCave/CaveTrader_mineneed1
+ Cristales.
+
+####################################### SALIDA SECRETA ######################################################
+
+HumanPrisonCave/Windcave_frist_time
+\CBct[8]\m[shocked]\cg[map_region_hole]\c[6]Lona：\C[0]    ¡¿Viento?!
+\CBct[2]\m[normal]\c[6]Lona：\C[0]    Siento una brisa, debe haber una salida cerca.
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    No soy muy grande. Si puedo agrandar un poco este agujero.....
+
+HumanPrisonCave/Windcave_Opt
+\CBct[8]\m[confused]\cg[map_region_hole]Agujero en la pared. Puedes sentir el viento que entra. \optB[No gastar energía...,¡Intentar agrandar el agujero!<r=HiddenOPT1>]
+
+HumanPrisonCave/Windcave_Opt_dig
+\CBct[8]\m[normal]¿Cuánta energía gastar? \optB[No gastar energía...,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+HumanPrisonCave/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]Lona：\C[0]    Intenté agrandarlo por mucho tiempo...
+\CBct[6]\m[tired]\c[6]Lona：\C[0]    Pero... Uf... Estoy demasiado cansada...
+
+HumanPrisonCave/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]!!!!!
+\CBct[1]\m[shocked]!!!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Lona：\C[0]    ¡Lo logré! ¡Puedo escapar de aquí!
+
+####################################### VIOLACIÓN ALEATORIA ######################################################
+
+HumanPrisonCave/RapeLoop_begin1
+\m[shocked]\c[6]Lona：\C[0]    ¡!!!!
+\SETpl[raper_group]\prf\c[4]Prisioneros：\C[0]    ¡¡MUJER!
+\SETpl[raper_group]\prf\c[4]Prisioneros：\C[0]    ¡Jeje, una chica!
+\SETpl[raper_group]\prf\c[4]Prisioneros：\C[0]    ¡Hace mucho que no me follo a nadie!
+\m[terror]\PRF\c[6]Lona：\C[0]    ¡¿QUÉ?! ¡E-ESPEREN!
+
+####################################### JOHNSON EL SUCIO ######################################################
+
+DirtyJohnson/else_fapping
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\c[4]Johnson el Sucio\c[0]    Je je...♥
+
+DirtyJohnson/FirstTime
+\CBct[8]\SETpl[DirtyJohnson_angry]\m[confused]\PLF\PRF\c[4]Miner：\c[0]    Hmm\..\..\..？
+\CBct[6]\m[shy]\plf\PRF (Huele horrible...)
+\CBid[-1,8]\SETpl[DirtyJohnson]\m[confused]\Lshake\prf\c[4]Miner：\c[0]    Pequeña belleza, ¿eres nueva aquí?
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]Miner：\c[0]    ¡Yo！\.\c[6]Johnson el Sucio\c[0]，entonces tú....
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Eh...me llamo Lo\..\..\..\CBid[-1,3]\SETpl[DirtyJohnson_penis]\m[DirtyJohnson_angry_penis]\cg[event_WartsDick]\Lshake\prf\n \{¡ven y chúpamela！
+\CBct[20]\m[terror]\PLF\Rshake\c[6]Lona：\c[0]   ¡¿Qué?! ¡¿Qué?!
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\m[terror]\Lshake\prf\c[4]Johnson el Sucio\c[0]    ¿La nueva perra no quiere limpiar mi polla? Por negarte al rey de la caverna, serás castigada.
+
+DirtyJohnson/FirstTime_blowjob_refuse
+\cgoff\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]Johnson el Sucio\c[0]    ¡Perra, te atreviste a rechazar al rey de la caverna!
+
+DirtyJohnson/FirstTime_blowjob_to_deepthroat
+\c[4]Johnson el Sucio\c[0]    ¡U-uhh！
+\narr \c[4]Johnson el Sucio\c[0] agarra a Lona del pelo brutalmente.
+
+DirtyJohnson/FirstTime_blowjob_done
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Johnson el Sucio\c[0]    ¿Ves? Estuvo bien, ¿no?
+\CBid[-1,3]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Johnson el Sucio\c[0]    Mientras seas mi mujer, puedes chupármela todos los días.♥
+
+DirtyJohnson/Lona_EH
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    \{¡AH！！？
+
+DirtyJohnson/WhoreWork_win_new
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    ¡Wow-wow!!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Hace mucho que no hago esto. Se ha acumulado mucha suciedad.
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Te dejaré limpiar mi polla.
+
+DirtyJohnson/WhoreWork_win_old
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    ¡Oooh!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Qué buena chica...
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Necesito que me limpies la polla esta vez también.
+
+#unused
+DirtyJohnson/WhoreWork_failed
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    ¡No me interesan tus servicios! ¡Lárgate!
+
+DirtyJohnson/begin_BackToCave
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[sad]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    ¿Eh? ¿Por qué volviste?
+\CBid[-1,4]\SETpl[DirtyJohnson_angry_penis]\m[sad]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    ¿Extrañabas mi semen o mi polla?
+
+DirtyJohnson/begin0
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Este es mi reino, y yo soy el rey de las cavernas.
+
+DirtyJohnson/begin1
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\m[sad]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Je je je♥ Verte me pone la polla dura como una roca.
+
+DirtyJohnson/begin2
+\CBid[-1,2]\SETpl[DirtyJohnson]\m[normal]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Oye, ¿qué quieres?
+
+DirtyJohnson/begin_DoorBlockMode
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\m[normal]\Lshake\prf\c[4]Johnson el Sucio：\c[0]    Perra, ¿a dónde crees que vas?
+
+####################################### JOHNSON EL SUCIO CAPTURA
+
+DirtyJohnson/Captured0
+\SETpl[DirtyJohnson_angry]\Lshake\c[4]Johnson el Sucio：\c[0]    Je je je... Me perteneces.
+
+####################################### PRIMERA VIOLACIÓN AL DESPERTAR
+
+DirtyJohnson/FirstWakeupRape0
+\CBmp[DirtyJohnson,3]\SETpl[DirtyJohnson]\Lshake\c[4]Johnson el Sucio：\c[0]    Uhhh♥♥
+
+DirtyJohnson/FirstWakeupRape1
+\CBmp[DirtyJohnson,4]\c[4]Johnson el Sucio：\c[0]    Aahh♥ No puedo parar♥
+
+DirtyJohnson/FirstWakeupRape2
+\CBmp[DirtyJohnson,20]\c[4]Johnson el Sucio：\c[0]    ¡Mierda! ¡Ya voy! ¡Me corro!
+
+DirtyJohnson/FirstWakeupRape3
+\CBmp[DirtyJohnson,1]\c[4]Johnson el Sucio：\c[0]    ¡SIIIIIIIIIIII!!!
+
+DirtyJohnson/FirstWakeupRape4
+\CBct[8]\m[tired]\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[pain]\Rshake\c[6]Lona：\c[0]    \{¡AH！！？
+\CBct[6]\cg[event_GroinClearn]\m[shy]\PRF\c[6]Lona：\c[0]    ¡¿Qué está pasando?!
+
+####################################### DirtyJohnson opt dialog
+
+DirtyJohnson/opt_who_are_you
+¿Quién eres?
+
+DirtyJohnson/opt_what_happen_to_me
+¿Qué me ha pasado?
+
+DirtyJohnson/opt_merry
+Convertirme en su mujer.
+
+DirtyJohnson/opt_sex_with
+Tener relaciones sexuales.
+
+DirtyJohnson/opt_who_are_you_ans0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Eh... Perdón... Tú....
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Dirty Johnson：\c[0]    Este es mi reino, soy el rey de las cavernas, Dirty Johnson.
+\CBid[-1,5]\SETpl[DirtyJohnson_penis]\Lshake\prf\c[4]Dirty Johnson：\c[0]    Ahora que estás aquí, ni pienses en irte. Ven y conviértete en mi mujer.
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Yo.....
+\CBid[-1,8]\SETpl[DirtyJohnson]\PLF\prf\c[4]Dirty Johnson：\c[0]    .....
+
+DirtyJohnson/opt_what_happen_to_me_ans0
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\c[0]    ¿Qué me has hecho?
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Dirty Johnson：\c[0]    Te he follado el coño. Ahora eres mía.
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    ¿Qué clase de mierda estás diciendo?
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Dirty Johnson：\c[0]    No saldrás de aquí, putilla. Solo sé mi mujer.
+\CBct[6]\m[fear]\plf\Lshake\c[6]Lona：\c[0]    ¿¡Putilla!?
+
+DirtyJohnson/opt_merry_ans0
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona：\c[0]    ¿Yo... seré tu mujer?
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Dirty Johnson：\c[0]    Si me obedeces y me limpias la polla todos los días, estarás exenta de todo el trabajo en la caverna.
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Dirty Johnson：\c[0]    ¿Qué dices? ¿Serás mi mujer?
+
+DirtyJohnson/opt_merry_ans_no
+\CBct[6]\m[bereft]\plf\PRF\c[6]Lona：\c[0]    ¡No quiero!
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]Dirty Johnson：\c[0]    ....
+
+DirtyJohnson/opt_merry_ans_yes
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Bueno... Supongo que sí...
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]Dirty Johnson：\c[0]   Perfecto, hagamos la boda ahora mismo.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    ¿¡Qué!? ¿¡Boda!?
+
+DirtyJohnson/opt_merry_ans_rapeloop0
+[Contenido de bucle de violación]
+
+####################################### merry RapeLoop
+
+
+####################################### DirtyJohnson EXT
+
+asdasd/asdasd
+Dirty Johnson
+¿Eso no te excita, eh? ¡Mantente alejada de mí! No te acerques
+No sé cuántas enfermedades tiene.
+
+asdasd/asdasd
+Dirty Johnson
+La última vez que un tipo tocó a la perra que le gustaba.
+Luego me escupió en la cara.
+Lo golpeé bien fuerte, pero dos días después le salió pus por toda la cara y se murió.
+
+asdasd/asdasd
+Dirty Johnson
+¿Este maldito asqueroso?
+Te digo, una vez lo vi cagar, y un montón de gusanos rayados le salieron de los ojos.
+¿Y sabes qué? Agarró los gusanos y se los comió.
+Ni siquiera es humano.

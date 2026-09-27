@@ -1,0 +1,54 @@
+#MAIL特殊開頭/使用的Flag/信件編號,避免多封同標題信件混淆,數字,不用補0
+#################################################################################
+SewerMiceTail1/Title
+Ratas Gigantes
+
+SewerMiceTail1/Sender
+Gremio de Mercenarios
+
+SewerMiceTail1/Text
+\}Misión: Recolectar 8 colas de ratas gigantes\n
+y encontrar a la persona desaparecida\n
+Recompensa: Moneda Grande de Cobre x2\i[582]\n
+\n
+Las ratas en las cloacas están infectadas y se reproducen rápidamente.\n
+El último mercenario que aceptó esta misión desapareció.\n
+Ahora la tarea ha recaído en mí.\n
+Cumple este encargo y\n
+trata de hallar al desaparecido.\n
+
+################################# UNUSED ###########################################
+
+SewerGoblinReport1/Title
+Goblins
+
+SewerGoblinReport1/Sender
+Gremio de Mercenarios
+
+SewerGoblinReport1/Text
+\}Reportar la aparición de Goblins al Gremio de Mercenarios.\n
+\n
+¡Han aparecido Goblins en las cloacas! ¡No podré lidiar con ellos sola!\n
+La velocidad de reproducción de estos monstruos es increíble...\n
+¡Debo informar esto al Gremio de Mercenarios cuanto antes!\n
+
+#################################################################################
+
+FishkindReport1/Title
+Informe de los Profundos
+
+FishkindReport1/Sender
+Gremio de Mercenarios
+
+FishkindReport1/Text
+\}Profundos del Este\n
+\n
+Hace muchos días, numerosos Profundos se asentaron en el Campamento Norte.\n
+¿Han desarrollado tácticas de asedio contra nosotros?\n
+¿Desde cuándo usan \C[4]tácticas\C[0]?\n
+\n
+Es muy sospechoso.\n
+Creo que alguna "mente superior" los comanda.\n
+Los Profundos no son tan inteligentes como para atacar en masa.\n
+Pero la realidad es distinta,\n
+sus acciones sugieren una conciencia colectiva.\n

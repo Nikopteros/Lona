@@ -1,0 +1,332 @@
+######################################################### GROUP #################################################################################################
+
+group/OrkindCave
+Група оркоїдів
+
+group/FishkindCave
+Група риболюдів
+
+group/AbominationHive
+Група почвар
+
+######################################################### NPC PART ###########################################################################################
+
+part/arm
+(рука)
+
+part/penis
+(член)
+
+part/mouth
+ (рот)
+
+part/beads
+(предмет)
+
+part/enema
+(клізма)
+
+######################################################### NPC RACE ############################################################################
+
+race/Human
+Людина
+
+race/Moot
+Бруднокровка
+
+race/Orkind
+Оркоїд
+
+race/Goblin
+Гоблін
+
+race/Abomination
+Почвара
+
+race/Deepone
+Глибоколюд
+
+race/Fishkind
+Риболюд
+
+race/Troll
+Троль
+
+race/Animal
+Тварина
+
+race/OthersElise
+Невідома істота
+
+race/Others
+Інша
+
+race/Dog
+Пес
+
+race/Horse
+Кінь
+
+race/DeeponeLona
+Смердюча людина
+
+race/AbomLona
+Хвороблива людина
+
+race/AbomMootLona
+Хвороблива бруднокровка
+
+######################################################### NPC NAME ##################################################################################
+name/nameCreatureBat
+Кажан-мутант
+
+name/nameCreatureGroundSpore
+Кокон чудовиська
+
+name/nameCreatureMeatWorm
+Хробак-плотожер
+
+name/nameCreatureSpore
+Плавучий кокон
+
+name/nameCreatureSummonSpore
+Плавучий кокон
+
+name/nameCreatureTentacle
+Ікласті щупальці
+
+name/nameCreatureTentacleSummoned
+Ікласті щупальці
+
+name/Baby_nameinationBaby
+Немовля
+
+name/Baby_FishkindBaby
+Немовля
+
+name/Baby_GoblinBaby
+Немовля
+
+name/Baby_OgreChild
+Дитина
+
+name/Baby_OrcBaby
+Немовля
+
+name/Baby_OrcChild
+Дитина
+
+goblin/GoblinBow
+Лучник
+
+name/GoblinClub
+Солдат
+
+name/GoblinCommoner
+
+
+name/GoblinCommoner_focused
+
+
+name/GoblinSpear
+Списник
+
+name/GoblinWarrior
+Воїн
+
+name/GoblinWatcher
+Розвідник
+
+name/HobgoblinBow
+Лучник
+
+name/HobgoblinClub
+Солдат
+
+name/HobgoblinCommoner
+
+
+name/HobgoblinCommoner_focused
+
+
+name/HobgoblinShaman
+Шаман
+
+name/HobgoblinSpear
+Списник
+
+name/HobgoblinWarrior
+Воїн
+
+name/HobgoblinWatcher
+Розвідник
+
+name/HumanBow
+Лучник
+
+name/HumanExecutioner
+Кат
+
+name/HumanLawbringer
+Правоохоронець
+
+name/HumanScout
+Розвідник
+
+name/HumanSpear
+Списник
+
+name/HumanTorturer
+Мучитель
+
+name/HumanWarrior
+Воїн
+
+name/MobHumanClub
+Бунтівники
+
+name/MobHumanCommoner
+Бунтівники
+
+name/MobHumanHighLander
+Син дракона
+
+name/MobHumanPickAxe
+Бунтівники
+
+name/MobHumanRogueBow
+Розбійник
+
+name/MobHumanRogueCatcher
+Розбійник
+
+name/MobHumanRogueSpear
+Розбійник
+
+name/MobHumanRogueWarrior
+Розбійник
+
+name/MobHumanSpear
+Розбійник
+
+name/NatureMerchant
+Торговець
+
+name/NeutralHumanBow
+Лучник
+
+name/NeutralHumanPrisonMinerF
+Рабиня-гірник
+
+name/NeutralHumanPrisonMinerM
+Раб-гірник
+
+name/NeutralHumanPrisonMinerRaperM
+Раб-ґвалтівник
+
+name/NeutralHumanPrisonMineTrader
+Тюремний вартовий
+
+name/NeutralHumanPrisonOfficer
+Тюремний наглядач
+
+name/NeutralHumanPrisonSpear
+Тюремний вартовий
+
+name/NeutralHumanPrisonTorturer
+Тюремний мучитель
+
+name/NeutralHumanPrisonWarrior
+Тюремний вартовий
+
+name/NeutralHumanScout
+Розвідник
+
+name/NeutralHumanWarrior
+Воїн
+
+name/OrcBow
+Лучник
+
+name/OrcCatcher
+Мисливець
+
+name/OrcClub
+Солдат
+
+name/OrcCommoner
+asdf unused
+
+name/OrcCommoner_focused
+asdf unused
+
+name/OrcWarrior
+Воїн
+
+name/PlayernameinationBaby
+Немовля
+
+name/PlayerFishkindBaby
+Немовля
+
+name/PlayerGoblinBaby
+Немовля
+
+name/PlayerOgreChild
+Дитина
+
+name/PlayerOrcBaby
+Немовля
+
+name/WildBoar
+Дикий кабан
+
+name/WildDog
+Дикий пес
+
+name/WildGiantMice
+Велетенський щур
+
+name/WildHorse
+Кінь
+
+name/WildApeF
+Мавпа-самка
+
+name/WildApeM
+Мавпа
+
+name/UniquePigBobo
+Племінний кнур Бобо
+
+name/HorseCarry
+Тягловий кінь
+
+name/WildAlphaPig
+Племінний кнур
+
+name/AbomCreatureManager
+Нелюд
+
+name/AbomCreatureScorpion
+Скорпіон
+
+name/AbomCreatureSpider
+Павук
+
+name/AbomCreatureZombie
+Мутант
+
+name/AbomCreatureBreedling
+Почвареня
+
+name/UniqueDirtyJohnson
+Брудний Джонсон
+
+######################## EVENT ######################################
+
+fraction/nature
+Нейтральний
+
+fraction/evil
+Злі істоти

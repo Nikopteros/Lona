@@ -1,0 +1,296 @@
+###################################################################################
+
+GraveKeeper/UndeadHunt2Begin1
+\CBct[6]\m[fear]\Rshake\C[6]로나：\C[0] 으으… 생각보다 훨씬 음산해….
+\CBmp[GraveKeeper,1]\prf\c[4]묘지기：\c[0] \{뭐!?\}
+\CBct[20]\m[terror]\Rshake\C[6]로나：\C[0] \{뭐, 뭐라고!?\}
+
+GraveKeeper/UndeadHunt2Begin2
+\CBmp[GraveKeeper,20]\prf\c[4]묘지기：\c[0] \{여기… 원래 시체가 잔뜩 있어야 하는데!\}
+
+GraveKeeper/UndeadHunt2Begin3
+\CBct[2]\m[confused]\C[6]로나：\C[0] 벽에 붙어 있는 것들… 전부 그거 아냐?
+\CBmp[GraveKeeper,20]\prf\c[4]묘지기：\c[0] 아니, 그건 아니야. 대부분 백 년은 넘은 것들이지.
+\CBmp[GraveKeeper,20]\prf\c[4]묘지기：\c[0] 내가 그땐 아직 어렸지만… 분명 내 눈으로 이곳이 시체로 가득 차는 걸 봤어.
+\CBct[6]\m[shocked]\Rshake\C[6]로나：\C[0] 뭐…!? 나 놀래키지 마!?!
+
+GraveKeeper/UndeadHunt2Begin4
+\CBmp[GraveKeeper,20]\c[4]묘지기：\c[0] 설마 전부… 언데드로 변한 건가?
+
+GraveKeeper/UndeadHunt2Begin5
+\CBmp[GraveKeeper,20]\c[4]묘지기：\c[0] 큰일이군… 이거 정말 심각해졌어.
+\CBmp[GraveKeeper,20]\c[4]묘지기：\c[0] 위에서 알게 되면… 내 일자린 틀림없이 끝장이야.
+
+GraveKeeper/UndeadHunt2Begin6
+\CBct[8]\m[flirty]\C[6]로나：\C[0] 그럼… 우리 먼저 돌아가서 보고해야 하는 거 아냐?
+
+GraveKeeper/UndeadHunt2Begin7
+\CBct[2]\m[confused]\C[6]로나：\C[0] 저… 선생님?
+
+GraveKeeper/UndeadHunt2Begin8
+\CBmp[GraveKeeper,2]\c[4]묘지기：\c[0] 잠깐… 이건 뭐지?
+
+GraveKeeper/UndeadHunt2Begin9
+\CBct[20]\m[terror]\Rshake\C[6]로나：\C[0] \{꺄악!!!
+
+GraveKeeper/UndeadHunt2Begin10
+\CBct[20]\m[shocked]\Rshake\C[6]로나：\C[0] 묘지기 선생님──?!
+\CBct[6]\m[fear]\C[6]로나：\C[0] 죽… 죽은 거야…!?
+\CBct[20]\m[tired]\C[6]로나：\C[0] 이… 이제 어떡하지…?
+
+#########################################################################################
+
+Lona/ReadAllMail
+\CBct[1]\m[shocked]\Rshake\C[6]로나：\C[0]！！！！！
+\CBct[8]\m[sad]\C[6]로나：\C[0] .........
+\CBct[2]\m[sad]\C[6]로나：\C[0] 코코나...? 
+\CBct[8]\m[confused]\C[6]로나：\C[0] 그녀, 그렇게 사악해 보이진 않는데...? 
+\CBct[8]\m[tired]\C[6]로나：\C[0] 한번… 대화해 보는 게 좋겠어. 
+
+Lona/ItsTrap
+\CBmp[Trap,19]\m[serious]\C[6]로나：\C[0] 이건… 함정? 
+\CBct[8]\m[confused]\C[6]로나：\C[0] 수십 년 된 함정치곤… 너무 새 것 같은데? 
+\CBct[8]\m[flirty]\C[6]로나：\C[0] 설마… 언데드가 함정을 쓴다고??
+
+Lona/UndeadElite
+\CBmp[UndeadElite,19]\m[serious]\C[6]로나：\C[0] 보아하니… 이 언데드들은 밖에서 본 것들이랑은 다르네. 
+\CBct[8]\m[confused]\C[6]로나：\C[0] 상대하기 꽤 까다롭겠어…
+\CBct[8]\m[flirty]\C[6]로나：\C[0] …다른 길로 가는 게 낫지 않을까? 
+
+Friends/frist_time
+\CBid[-1,20]\m[shocked]\prf\C[0]언데드：\C[0] \{아아아아아… 오……\}
+\CBct[1]\m[fear]\Rshake\C[6]로나：\C[0] 뭐야? 나를 물러 들이대질 않네?! 
+\CBct[8]\m[confused]\C[6]로나：\C[0] 에… 아무튼 좋은 거… 맞지?
+
+Friends/Qmsg0
+아아… 오… 
+
+Friends/Qmsg1
+무고한 자… 지켜… 
+
+Friends/Qmsg2
+친구… 지켜… 
+
+Family/Qmsg0
+매우 말라붙은 미라다.
+
+Family/Qmsg1
+먼지 하나 없이 깔끔한 미라다.
+
+Family/Qmsg2
+어쨌든 그냥 미라다.
+
+
+BodyBag/Common
+평범한 시체다
+
+BodyBag/Keeper
+묘지기인 것 같다
+
+BodyBag/Goblin
+고블린? 왜 여기에…?
+
+Hole/begin
+\CBct[8]\m[confused]\C[6]로나：\C[0] 안은 미궁 같아. 길을 아는 사람이 아니면 절대 나갈 수 없어.
+
+#########################################################################################
+
+Lona/B2TrapTrigger1
+\narr로나는 함정에 맞아 기절했다.
+\narr몸에 있던 물건들이 전부 털려나갔다.
+\narr그리고 시간이 얼마나 흘렀는지도 알 수 없었다.
+
+Lona/B2TrapTrigger2
+\m[hurt]\Rshake 으으... 머리가 아파...
+\m[fear]몸이 움직이지 않아?! 대체 무슨 일이야?!
+\ph\C[4]???：\C[0] 야푸야푸푸타♪ 우야우푸따♫
+\m[confused]노래...? 누구지?
+
+##############################################
+
+Cocona/B2Trap_Sing1
+\prh\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 우마~ 우마~ 우푸타♪
+
+Cocona/B2Trap_Sing2
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 야라라~ 야라라~ 우푸따!
+
+Cocona/B2Trap_Sing3
+\BonMP[Cocona,5]\SETlpl[cocona_confused]\C[4]???：\C[0] 우먀아...
+
+Lona/BondageStruggle1
+\CBmp[CapLoc,8]\plh\m[fear]\C[6]로나：\C[0] ..........
+\CBmp[CapLoc,2]\m[terror]\Rshake\C[6]로나：\C[0] 그녀가… 그걸 토막내고 있어?!
+\CBmp[CapLoc,6]\m[shocked]\Rshake\C[6]로나：\C[0] 안 돼! 싫어! 난 잡아먹히기 싫어!
+\CBmp[CapLoc,6]\m[bereft]\Rshake\C[6]로나：\C[0] 도망쳐야 해! 무슨 수를 써서라도!
+
+Lona/BondageStruggle_opt
+\optD[버둥거린다]
+
+Lona/BondageStruggle2
+\C[6]로나：\C[0]......
+
+Lona/BondageStruggle3
+\m[flirty]\C[6]로나：\C[0] ..........
+\m[serious]\C[6]로나：\C[0] 다행히… 그렇게 단단히 묶은 건 아니야!
+\m[fear]\C[6]로나：\C[0] 그, 그런데… 이제 어떻게 하지?
+
+###########################################################################################
+
+Cocona/DinnerTime0
+\BonMP[Cocona,8]\SETlpl[cocona_confused]\C[4]???：\C[0] 우냐.....
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\C[4]???：\C[0] \{우루미!
+
+Cocona/DinnerTime1
+\BonMP[Cocona,20]\SETlpl[cocona_normal]\Lshake\C[4]???：\C[0] 으우… 성도…
+\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 아빠! 엄마! 성도…!
+
+Cocona/DinnerTime2
+\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 성도! 코코나 뿌리미!
+\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 아빠! 코코나 뿌리미!
+\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 엄마! 코코나 뿌리미!
+\plh\m[fear]\C[6]로나：\C[0] 설마……
+\m[shocked]\Rshake\C[6]로나：\C[0] 전설 속 네크로맨서!?
+\m[serious]\C[6]로나：\C[0] 아니… 어쨌든 일단 따라가자. 안 그러면 출구를 못 찾아.
+
+Cocona/NapTime0
+\BonMP[Cocona,8]\SETlpl[cocona_angry]\Lshake\C[4]???：\C[0] 으으으....
+\BonMP[Cocona,8]\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 아빠! 엄마! 코코나 리우우 뿌푸따미!
+\SETlpl[cocona_happy]\C[4]???：\C[0] .........
+\SETlpl[cocona_happy]\C[4]???：\C[0] .....
+\SETlpl[cocona_happy]\C[4]???：\C[0] ...
+\SETlpl[cocona_sad]\C[4]???：\C[0] 아빠... 엄마...
+\SETlpl[cocona_sad]\C[4]???：\C[0] ........
+\SETlpl[cocona_sad]\C[4]???：\C[0] ...
+\SETlpl[cocona_happy]\Lshake\C[4]???：\C[0] 아빠! 엄마! 코코나 미우미!
+
+Cocona/NapTime1
+\m[confused]\C[6]로나：\C[0] 왜인지 모르겠지만... 왠지 조금...\m[sad]슬퍼지네...
+\m[flirty]\C[6]로나：\C[0] 가자, 계속 앞으로.
+
+########################################################################################### AGGRO
+
+Cocona/aggro
+\CBmp[Cocona,15]\prh\SETlpl[cocona_angry]\Lshake\C[4]???：\C[0] 하―스스스스스스스!!!
+\CBct[6]\m[shocked]\Rshake\C[6]로나：\C[0] 히익──!!!
+
+Cocona/aggro_FdSide1
+\CBct[6]\m[terror]\plf\Rshake\C[6]로나：\C[0] 잠깐! 잠깐만!
+\CBct[20]\m[shocked]\plf\Rshake\C[6]로나：\C[0] 나… 나쁜 의도 없어! 진짜야!
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]???：\C[0] 우음?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]???：\C[0] 하―스스스스스스!!!
+\CBct[20]\m[terror]\plf\Rshake\C[6]로나：\C[0] 너… 코코나지? 코코나!
+\CBmp[Cocona,2]\SETlpl[cocona_confused]\PLF\prf\C[4]???：\C[0] 우냐?
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]???：\C[0] .......
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]???：\C[0] ...
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]???：\C[0] 우으… 코코나!
+\CBct[6]\m[wtf]\plf\PRF\C[6]로나：\C[0] 그래! 코코나! 우리 친구 하자!
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]???：\C[0] …친구?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]???：\C[0] \{친구!?\}
+\CBct[20]\m[confused]\plf\PRF\C[6]로나：\C[0] 응! 좋은 친구!
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]???：\C[0] \{좋은 친구!?
+\CBct[20]\m[pleased]\plf\PRF\C[6]로나：\C[0] …이걸로 된 건가?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]???：\C[0] \{아하하하! 좋은 친구!!\}
+\CBct[8]\m[flirty]\plf\PRF …이걸로 된 건가?
+\CBct[8]\m[confused]\plf\PRF 너무 쉽게 낯선 사람을 믿는 거 아냐…?
+
+Cocona/aggro_FdSide2
+\CBct[20]\m[pleased]\plf\PRF\C[6]로나：\C[0] 그러니까! 우리 이제 친구! 나는 로나! 언니야!
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]코코나：\c[0] \{친구! 로나! 코코나!\}
+\CBct[20]\m[triumph]\plf\PRF\C[6]로나：\C[0] 맞아!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\c[4]코코나：\c[0] 아빠! 엄마! 코코나 우루시~ 친구!
+\CBct[8]\m[tired]그러니까, 저 두 분이 진짜 부모님이구나...
+\CBct[8]\m[confused]\plf\PRF 사실 조금씩 무슨 말 하는지 알 것 같아.
+\CBct[8]\m[confused]\plf\PRF 그냥 발음이 다 뭉개져서 그런 거였네.
+\CBct[8]\m[confused]\plf\PRF 귀 기울이면 괜찮을지도.
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\PLF\prf\c[4]코코나：\c[0] 언니! 배고파?
+\CBct[2]\m[flirty]\plf\PRF\C[6]로나：\C[0] 엉?
+\CBmp[Cocona,4]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 밥! 식탁에! 배고프면 안 돼! 배고프면 죽어!
+\CBct[6]\m[confused]\plf\PRF\C[6]로나：\C[0] 에에...?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]코코나：\c[0] 친구! 먹어!
+\CBct[20]\m[wtf]\plf\PRF\C[6]로나：\C[0] 설마... 이거 무슨 고기야?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]코코나：\c[0] 아....
+
+Cocona/aggro_FdSide3
+\SND[SE/eat03.ogg]\ph\narr코코나가 고기를 들고 로나에게 다가왔다.
+\SND[SE/eat02.ogg]코코나는 로나에게 먹여주려는 눈치다.
+\SND[SE/eat03.ogg]시체 썩는 냄새가 진동하는 기묘한 티타임이었다.
+\..\..\..
+
+Cocona/aggro_FdSide4
+\CBmp[Cocona,8]\SETlpl[cocona_happy]\PLF\prf\c[4]코코나：\c[0] 성도! 코코나 감사해!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]코코나：\c[0] 성도가 먹을 걸 주었어, 성도가 새 친구도 주었어! 감사해!
+\CBct[2]\m[confused]\plf\PRF\C[6]로나：\C[0] 코코나, 성도를 믿는 거야?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\PLF\prf\c[4]코코나：\c[0] 안 믿어! 거짓말쟁이! 거짓말쟁이는 먹어버려야 해!
+\CBct[6]\m[shocked]\plf\Rshake\C[6]로나：\C[0] 믿어! 믿는다니까!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]코코나：\c[0] 친구는 전부 성도야! 성도는 무고한 자들의 친구야!
+\CBct[2]\m[confused]\plf\PRF\C[6]로나：\C[0] 그럼 지상에 있던 좋은 친구는 네가 만든 게 아니야?
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\c[4]코코나：\c[0] 코코나는 몰라. 그냥 강한 힘 같은 거라고만 느꼈어.
+\CBmp[Cocona,4]\SETlpl[cocona_angry]\PLF\prf\c[4]코코나：\c[0] 그 힘이 코코나의 친구를 빼앗아갔어! 코코나는 친구랑만 이야기할 수 있는데!
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 하지만 그건 분명 사악한 거짓말쟁이야!
+\CBmp[Cocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 사악한 거짓말쟁이가 내 친구를 속였어!!
+\CBct[8]\m[flirty]\plf\PRF 나랑은 상관없는 건가?
+\CBct[8]\m[confused]\plf\PRF 성도를 믿는 네크로맨서랑 언데드라니...?
+\CBct[8]\m[flirty]\plf\PRF 그래서 난 여기서 뭘 하고 있는 거야? 목숨 걸고 온 게 도대체 무슨 이유야?
+\CBct[8]\m[wtf]\plf\PRF 머리 터질 것 같아! 뭐가 뭔지 하나도 모르겠잖아!
+
+Cocona/aggro_FdSide5
+\CBct[2]\m[confused]\plf\PRF\C[6]로나：\C[0] 엥?
+\CBct[1]\m[serious]\plf\PRF\C[6]로나：\C[0] 너도 느꼈어?
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\c[4]코코나：\c[0] 초록 가죽 냄새!
+
+Cocona/aggro_FdSide6
+\CBct[2]\m[confused]\plf\PRF\C[6]로나：\C[0] 초록... 가죽?
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\c[4]코코나：\c[0] 초록 가죽! 맛없어!
+\CBct[2]\m[shocked]\plf\Rshake\C[6]로나：\C[0] 설마... 오크 말하는 거야?
+
+Cocona/aggro_FdSide7
+\CBct[1]\m[wtf]\plf\Rshake\C[6]로나：\C[0] 이렇게 많다고?!
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\c[4]코코나：\c[0] 언니 무서워하지 마, 코코나가 지켜줄게!
+\CBct[6]\m[serious]\plf\Rshake\C[6]로나：\C[0] 안 돼! 우리 도망쳐야 해! 수가 너무 많아!
+\CBmp[Cocona,2]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 도망...?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 안 돼! 코코나는 아빠! 엄마! 언니를 지켜야 해!
+\CBct[20]\m[angry]\plf\Rshake\C[6]로나：\C[0] 제발 그만해!
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 하―스스스스스스스!!!
+\CBmp[CoMama,20]\plf\prf\C[4]???：\C[0] 코...코...나...
+\CBct[6]\m[flirty]\plf\Rshake\C[6]로나：\C[0] 누구...?
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 엄마!
+\CBmp[CoPapa,20]\plf\prf\C[4]???：\C[0] 코...코...나... 그녀를 따라... 나가라...
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 아빠...
+\CBmp[CoPapa,20]\plf\prf\C[4]???：\C[0] 밖의... 세상을... 보거라... 발을... 내딛어라...
+\CBmp[CoMama,20]\plf\prf\C[4]???：\C[0] 코코나... 이제... 떠나... 우리도... 편히 쉬게...
+\CBmp[CoPapa,20]\plf\prf\C[4]???：\C[0] 더는... 집착하지... 말거라...
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 흐...흑...
+
+Orkind/Gob1
+\SND[SE/goblin/Goblin_roar1.ogg]\ph\SETpl[goblin]\Lshake\C[4]마물：\C[0] 구챠챠?
+
+Orkind/Gob2
+\SND[SE/goblin/Goblin_roar2.ogg]\SETpr[goblin]\Rshake\C[4]마물：\C[0] 구샤마챠!!
+
+Orkind/Gob3
+\SND[SE/goblin/Goblin_roar3.ogg]\SETpl[goblin]\Rshake\C[4]마물：\C[0] 쿠오오오오오오!
+
+Cocona/aggro_FdSide8
+\CBct[8]\m[sad]\plf\PRF\C[6]로나：\C[0] ......
+\CBct[20]\m[serious]\plf\Rshake\C[6]로나：\C[0] 시간이 없어! 반드시 나가야 해! 
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 흐윽... 코코나 길 알아...
+\CBmp[ToSurface,19]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 친구 방이 밖으로 이어져... 코코나랑 친구가 파서 만들었어...
+\CBct[20]\m[angry]\plf\Rshake\C[6]로나：\C[0] 지금이야! 언데드가 녀석들 시선 끌고 있을 때 뛰쳐나가자!
+
+Cocona/aggro_FdSide8_win
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\PLF\prf\c[4]코코나：\c[0] 초록피부 다 없어졌다! 언니 이제 안전해! 
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 아빠랑 엄마 안 떠나도 돼! 언니 여기 살아도 돼!
+\CBct[20]\m[serious]\plf\Rshake\C[6]로나：\C[0] 안 돼! 아빠 말 들어야 해! 초록피부들은 언제든 다시 나타나!  
+\CBct[20]\m[angry]\plf\Rshake\C[6]로나：\C[0] 내 집도 그놈들 때문에 무너졌어!
+\CBmp[Cocona,8]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 흐윽...
+
+Cocona/to1fBlock
+\CamMP[ToSurface]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 아냐! 여기 파야 해!
+
+#########################################################################################
+
+
+SaintState/begin
+\board[성도 무명자]
+성도 무명자가 이르시되: 내가 쓰러질지라도, 반드시 모닥불 곁에서 다시 태어나리라.
+성도 복음 30：65

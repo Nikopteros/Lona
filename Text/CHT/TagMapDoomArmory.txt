@@ -1,0 +1,79 @@
+thisMap/OvermapEnter
+\cg[map_NoerGate]軍械庫\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>,妓女<r=HiddenOPT3>]
+
+thisMap/OvermapEnter_enter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    滾！ 這裡不歡迎妳！
+
+thisMap/OvermapEnter_SGTenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    站住！ 妳是誰！
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃，這是我的服務證，傭兵公會請我來抄寫\c[4]布萊恩\c[0]的紀錄。
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    呦？ 我看看\..\..\..
+
+thisMap/OvermapEnter_SGTenter_weak
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    別騙了！妳這種弱雞也在\c[4]警總\c[0]服務過？
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    要是真這樣我們早就被魔物滅絕了！
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我... 抱歉....
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    滾！
+\narr洛娜看起來太弱了。
+
+thisMap/OvermapEnter_SGTenter_pass
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    嗯？ 少年阿，這麼年輕就在\c[4]警總\c[0]服務過了？ 真辛苦啊。
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    好，進去吧。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呼... 少年？
+
+thisMap/OvermapEnter_SNEAKenter
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    外牆看起來不難爬？ 也許我可以試試看。
+
+thisMap/OvermapEnter_SNEAKenter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    誰！ 妳在做什麼！
+
+thisMap/OvermapEnter_WISenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    站住！ 妳是誰！
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 我是.... 那個\..\..\..
+
+thisMap/OvermapEnter_WhoreEnter_win
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    工作去二樓,別給我在一樓亂跑！
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    進去吧。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    謝謝...
+
+thisMap/OvermapEnter_WhoreEnter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    男的？
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    滾！ 我們對男人沒興趣！
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我... 抱歉....
+
+
+#####################################################################################  INSIDE
+
+guns/theOne
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 看起來像長槍，但前面是個管子？
+\CBct[20]\m[pleased]\Rshake\c[6]洛娜：\c[0]    就是它了！
+
+art/black
+\cg[other_Black]\m[confused]\c[6]洛娜：\c[0]    空的畫布？
+他是完美的，不可名狀的，要求你付出一切的，且絕不能說出的顏色。
+\m[flirty]\c[6]洛娜：\c[0]    不就黑色嗎？
+
+guard/timerStart
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]守衛：\c[0]    什麼人！
+\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    慘了！
+
+GuardDoor/Qmsg0
+別搞太久！
+
+GuardDoor/Qmsg1
+事情辦完了就快離開！
+
+GuardDoor/Qmsg2
+妳不是有什麼事要辦？
+
+GuardWatcher/Qmsg0
+好無聊啊。
+
+GuardWatcher/Qmsg1
+我想換班。
+
+GuardWatcher/Qmsg2
+好想睡...
+
+guns/lockedQmsg
+鎖死了

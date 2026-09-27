@@ -1,0 +1,31 @@
+AbomHive/OvermapEnter
+\m[confused]肉魔的巢穴。\optB[算了,進入]
+
+########################################################
+
+Lona/RapeLoopNonCapture
+\m[p5sta_damage]腥臭的肉塊將洛娜拖到了牠們的巢穴。
+\m[p5health_damage]洛娜將成為新的苗床。
+
+Lona/RapeLoopCaptured
+\m[p5sta_damage]各種肉塊不斷的朝洛娜的體內注入精液。
+\m[p5health_damage]牠們不在乎苗床的感受，牠們只想用洛娜的身體繁殖。
+
+
+Lona/CaptureWakeUp
+\m[p5pee]\Rshake\c[6]洛娜：\c[0]    嗚嗚....
+\m[p5shame]\Rshake\c[4]牠們好像沉靜下來了？
+
+Lona/CaptureGiveUp
+\m[p5shame]\Rshake\c[4]不可能... 我辦不到的
+\narr\..\..\..\..
+
+Lona/BondageStruggle
+\m[p5defence]\Rshake\C[6]洛娜：\C[0]    ......
+
+Lona/CaptureStruggle
+\m[p5pee]\c[4]我該怎麼做？\optD[放棄<t=10>,抵抗10<r=HiddenOPT0>,抵抗30<r=HiddenOPT1>,抵抗50<r=HiddenOPT2>,接受自己的命運<r=HiddenOPT3>]
+
+Lona/StruggleWin
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    成功了？！
+\m[flirty]\c[6]洛娜：\c[0]    我一定要想辦法離開這裡。

@@ -1,0 +1,668 @@
+Cecily/KnownBegin
+\CBid[-1,20]\SETpl[CecilyNormal]\C[4]Cecilia:\C[0]    ¿Sí, Lona?
+
+Cecily/KnownBeginAr
+\CBid[-1,20]\SETpl[CecilyNormalAr]\C[4]Cecilia:\C[0]    ¿Qué pasa, Lona?
+
+Cecily/BasicOpt
+\CBct[8]\m[confused]\c[6]Lona:\C[0]    .....
+
+Cecily/CompData
+\board[Cecilia Eaglemore]
+\C[2]Posición:\C[0]Retaguardia
+\C[2]Estilo de combate:\C[0]Guerrera, Cortante, Penetrante
+\C[2]Facción:\C[0]Sibaris
+\C[2]Enemistad con:\C[0]Criaturas Malignas, Bandidos
+\C[2]Requisito:\C[0]Debilidad menor a 100
+\C[2]Duración:\C[0]5 días
+\C[2]Característica:\C[0]No revive después de morir
+\C[4]Nota:\C[0]Cecilia y Grayrat siempre están juntos
+¿Ex-noble lady? Hablar con ella es aburrido.
+
+Cecily/Comp_failed2F
+\CBid[-1,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia:\C[0]    Eres muy débil. Vuelve cuando seas más fuerte.
+
+Cecily/Comp_win2F
+\CBid[-1,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia:\C[0]    Bien, viajemos juntos.
+
+Cecily/Comp_win
+\CBid[-1,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia:\C[0]    Bien, viajemos juntos.
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatNormal]\plf\Rshake\c[4]Grayrat:\C[0]    Seguiré a mi señora.
+
+Cecily/Comp_failed_Raped
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia:\C[0]    Gracias por salvarme, te debo mi vida. Sin embargo...
+\CBid[-1,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia:\C[0]    Eres muy débil. Vuelve cuando seas más fuerte.
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Perdón...
+
+Cecily/Comp_failed_Coin
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia:\C[0]    Lamentablemente, estuvimos muy ocupados estos días.
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia:\C[0]    Toma esto, debería ayudarte.
+
+Cecily/Comp_failed_CoinAgain
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia:\C[0]    ¿Otra vez?!
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia:\C[0]    Lona, he aprendido mucho en este tiempo.
+\CBid[-1,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]Cecilia:\C[0]    Una de esas cosas es- \.\n ¡La gente debe salvarse a sí misma!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    P-Perdón...
+
+CecilyAr/GR_Death
+\SETpl[CecilyShockedAr]\Lshake\{¡Winnit! ¡NOOOOOO!!!!
+
+Cecily/GR_Death
+\SETpl[CecilyShocked]\Lshake\{¡Winnit! ¡NOOOOOO!!!!
+
+Cecily/BanditMobs_run
+\SETpl[CecilyShockedAr]\Lshake\C[4]Cecilia:\C[0]    \{¿Dejarlos escapar? ¿Estás bromeando?
+\SETpl[CecilyAngryAr]\Lshake\C[4]Cecilia:\C[0]    ¡No dejaré que estos bastardos se vayan!
+\SETpr[GrayRatConfusedAr]\plf\PRF\c[4]Grayrat:\C[0]    ......
+\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia:\C[0]    \{¡Justicia!!!
+
+################################################################### QMSG ################################################################################# 
+
+Cecily/CommandWait0
+Tomaré esta posición
+
+Cecily/CommandWait1
+Esperaré aquí...
+
+Cecily/CommandFollow0
+Claro. Guía el camino.
+
+Cecily/CommandFollow1
+¡Voy detrás de ti!
+
+Cecily/OvermapPop0
+¡Detengamos a todos los traficantes de esclavos!
+
+Cecily/OvermapPop1
+¿Por qué todos son hostiles?
+
+Cecily/OvermapPop2
+Sé lo que hago
+
+Cecily/OvermapPop3
+¡Necesitamos protegerlos!
+
+###################################################################### Unique
+
+Cecily/DoomFortFuckOff
+\SETpr[CecilyAngryAr]\Rshake\C[4]Cecilia:\C[0]    \{¡Aléjate!
+
+###################################################################### QUEST
+
+Cecily/UnknowBegin
+\SETpl[CecilyNormal]\C[4]Desconocida:\C[0]    ......
+\m[confused]\plf\PRF\c[6]Lona:\C[0]    ...
+\SETpl[CecilyAngry]\Lshake\prf\C[4]Desconocida:\C[0]    ¡Shh! ¡Qué chica grosera! ¿Qué estás mirando?
+\m[confused]\plf\PRF\c[6]Lona:\C[0]    P-Perdón...
+
+Cecily/SaveQuest_reward1
+\SETpl[CecilyWtf]\C[4]Desconocida:\C[0]    Tú...
+\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Eh?
+\SETpl[CecilyWtf]\PLF\prf\C[4]Cecilia:\C[0]    Permíteme presentarme, puedes llamarme \C[4]Cecilia Eaglemore\C[0].
+\m[pleased]\plf\PRF\c[6]Lona:\C[0]    Me llamo Lona Fallin.
+\SETpl[CecilyNormal]\SETpl[GrayRatConfused]\C[4]Cecilia:\C[0]    Y este es mi asistente, \C[4]Grayrat\C[0].
+\SETpl[GrayRatConfused]\plf\PRF\c[4]Grayrat:\C[0]    Impresionado...
+\SETpl[CecilyAngry]\PLF\prf\C[4]Cecilia:\C[0]    ¡Escucha!
+\SETpl[CecilyWtf]\PLF\prf\C[4]Cecilia:\C[0]    No esperaba que me salvara una \C[4]plebeya\C[0].
+\SETpr[GrayRatConfused]\plf\PRF\c[4]Grayrat:\C[0]    ......
+\SETpr[GrayRatNormal]\plf\PRF\c[4]Grayrat:\C[0]    Cuide sus modales, Señora...
+\SETpl[CecilyAngry]\PLF\prf\C[4]Cecilia:\C[0]    ¡Déjame! ¡Basta de sermones!
+\SETpl[CecilyWtf]\PLF\prf\C[4]Cecilia:\C[0]    ...Bueno, he visto mucho durante mis viajes. De todo, desde robos hasta violaciones y asesinatos.
+\SETpr[GrayRatNormal]\plf\PRF\C[4]Cecilia:\C[0]    Los sabios también decían: "¡El deber de la nobleza es proteger al pueblo!".
+\SETpl[CecilyNormal]\PLF\prf\C[4]Cecilia:\C[0]    Ahora... suena como una broma estúpida, ¿verdad? Pero así me enseñaron.
+\SETpl[CecilyAngry]\PLF\prf\C[4]Cecilia:\C[0]    Uff... Salvada por aquellos a quienes juré proteger... ¿Entiendes lo que digo?
+\m[confused]\plf\PRF\c[6]Lona:\C[0]    Bueno... Entiendo.
+\m[pleased]\plf\PRF\c[6]Lona:\C[0]    Durante mi escape de Sibaris, me salvé gracias a muchas otras personas.
+\SETpl[CecilyShy]\PLF\prf\C[4]Cecilia:\C[0]    Uff...
+
+Cecily/SaveQuest_reward2
+\SETpl[CecilyShy]\PLF\prf\C[4]Cecilia:\C[0]    Bueno... Toma, te lo mereces.
+\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿¡O-Oro?!
+\SETpl[CecilyWtf]\PLF\prf\C[4]Cecilia:\C[0]    Sí, monedas de oro. Son bagatelas.
+\SETpl[CecilyShy]\PLF\prf\C[4]Cecilia:\C[0]    Te debo mi vida. Si necesitas ayuda, acude a mí.
+\m[triumph]\plf\Rshake\c[6]Lona:\C[0]    ¡Gracias!
+\SETpr[GrayRatConfused]\c[4]Grayrat:\C[0]    ......
+
+Cecily/SaveQuest_reward3
+\SETpl[CecilyShy]\PLF\prf\C[4]Cecilia:\C[0]    En fin... Toma, te lo mereces.
+\m[triumph]\plf\Rshake\c[6]Lona:\C[0]    ¡Gracias!
+\SETpr[GrayRatConfused]\c[4]Grayrat:\C[0]    ......
+
+Cecily/Comp_disband
+\SETpl[CecilyWtf]\PLF\prf\C[4]Cecilia:\C[0]    ¡Tss! ¿Te vas así?
+
+Cecily/Comp_disbandAr
+\SETpl[CecilyWtfAr]\PLF\prf\C[4]Cecilia:\C[0]    ¡Tss! ¿Te vas así?
+
+##################################################################### ADAN QU 
+
+Cecily/QuestMilo_4and5
+\CBct[20]\CamCT\m[flirty]\plf\Rshake\c[6]Lona:\C[0]    Perdón...
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Cecilia:\C[0]    Perdona, estamos muy ocupados.
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona:\C[0]    Oh, está bien...
+
+##################################################################### Quest Hijack
+
+Cecily/QuestHikack7_1
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Oye, Lona! ¡Ven aquí!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Qué pasa?
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\PRF\c[4]Grayrat:\C[0]    *Ahem*.....
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Mmm?
+\CBmp[Cecily,8]\SETpl[CecilyShy]\PLF\prf\C[4]Cecilia:\C[0]    Tss......
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia:\C[0]    Hay un asunto... Necesitamos tu ayuda.
+\CBct[2]\m[normal]\plf\PRF\c[6]Lona:\C[0]    ¿Ayuda con qué?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Cecilia:\C[0]    ¡Grayrat!
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Grayrat:\C[0]    Sí...
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\m[confused]\PLF\prf\c[4]Grayrat:\C[0]    Señorita Lona, ¿conoce a \c[4]Milo von Rosendo\C[0]?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Claro, es el hombre más rico de Noer, ¿verdad?
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\Lshake\prf\c[4]Grayrat:\C[0]    Sí, exacto, básicamente es el gobernante de Noer.
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatConfused]\Lshake\prf\c[4]Grayrat:\C[0]    Y también es un traficante de esclavos responsable de esclavizar refugiados.
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\Lshake\prf\c[4]Grayrat:\C[0]    Mientras él permanezca en ese puesto, la esclavitud y la venta de nuevos esclavos no cesarán......
+
+Cecily/QuestHikack7_2
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Hmm...
+\CBmp[Cecily,20]\SETpr[CecilyWtf]\plf\Rhake\C[4]Cecilia:\C[0]    ¡Basta! ¡Dejemos este tema!
+\CBmp[UniqueGrayRat,2]\SETpl[GrayRatConfused]\Lshake\prf\c[4]Grayrat:\C[0]    Sí....
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Vamos a atacar una caravana de evacuación!
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Lona:\C[0]    ¿¡Eh?!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Se llevan a los supervivientes del frente y los venden como esclavos!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿¡Qué?!
+\CBmp[Cecily,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Son gente de Sibaris! ¡Súbditos del Reino de Garland!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Podrían ser tus amigos! ¡Familiares! ¿Vas a quedarte sentada mirando?!
+\CBct[20]\m[tired]\plf\Rshake\c[6]Lona:\C[0]    Esto...
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Exacto! Esto podría convertirte en enemiga de Rosendo.
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia:\C[0]    Sabes qué poder los respalda, ¿verdad?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Cecilia:\C[0]    Aún hay tiempo. Tienes \c[4]5 días\C[0] para pensarlo antes de darme tu respuesta.
+
+Cecily/QuestHikack8_1
+\board[Rescate de Refugiados]
+Misión: Atacar una caravana que transporta refugiados
+Recompensa: Moneda de Oro x3\i[581]
+Cliente: Cecilia
+Repetible: Una vez
+Viaja al norte con Cecilia y Grayrat para interceptar la caravana de refugiados cerca de la Fortaleza de la Roca.
+¡Por el Pueblo! ¡Gloria a Garland!
+
+Cecily/QuestHikack8_2_opt
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Cecilia:\C[0]    Bueno, ¿has decidido? \optB[Estoy pensándolo,¡Voy contigo!]
+
+Cecily/QuestHikack8_2_yes
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona:\C[0]    ¡Lo decidí! ¡Iré a ayudar a esa gente!
+\CBmp[Cecily,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]Cecilia:\C[0]    !!!!!
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Qué pasa?
+\CBmp[Cecily,20]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia:\C[0]    Pensé que no aceptarías...
+\CBmp[UniqueGrayRat,2]\SETpl[GrayRatNormal]\Lshake\prf\c[4]Grayrat:\C[0]    Gracias, señorita Lona.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona:\C[0]    ¡De nada!
+
+##################################################################### Quest in tavern
+
+Cecily/12_opt
+¿Qué ocurre?
+
+Cecily/KnownBegin12SAD
+\CBid[-1,8]\SETpl[CecilyFailed]\Lshake\prf\C[4]Cecilia:\C[0]    Ahh\..\..\..
+
+GrayRat/QuestHikack12
+\CBid[-1,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat:\C[0]    Hable con la señorita, quizá pueda ayudarla.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Oh?
+
+Cecily/KnownBegin_12
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Estás bien?
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]Cecilia:\C[0]    He visto gente así antes....
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]Cecilia:\C[0]    Pero era porque estaban en el epicentro de un desastre terrible..... ¿No es así?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿De qué hablas...?
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]Cecilia:\C[0]    Incluso si les damos libertad, todo lo que quieren es ser esclavizados.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Eh? ¿Te refieres a los esclavos que liberamos?
+\CBid[-1,8]\SETpl[CecilyFailed]\Lshake\prf\C[4]Cecilia:\C[0]    Sí.....
+\CBid[-1,20]\SETpl[CecilySad]\Lshake\prf\C[4]Cecilia:\C[0]    A nosotros, los nobles, siempre nos dijeron que esa gente era solo propiedad. Meras herramientas de trabajo.
+\CBid[-1,20]\SETpl[CecilyFailed]\Lshake\prf\C[4]Cecilia:\C[0]    Siempre pensé que estaba mal. ¿Que la gente debería ser igual, equitativa? Quizá me equivoqué.
+
+Cecily/QuestHikack12_OPT
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Uhh\...\...\... \optB[Yo tampoco lo sé,Ven conmigo]
+
+Cecily/QuestHikack12_OPT_cancel
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Yo tampoco lo entiendo....
+\CBid[-1,5]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia:\C[0]    Tss....
+
+Cecily/QuestHikack12_OPT_ANS
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Mmm\...\...\...\CBct[9]\m[triumph]\Rshake ¡Ya sé!
+\CBid[-1,2]\SETpl[CecilyFailed]\Lshake\prf\C[4]Cecilia:\C[0]    ¿Sabes qué...?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona:\C[0]    Vengan conmigo, ¿las llevo fuera de las murallas?
+\CBid[-1,8]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia:\C[0]    Eh........... ¿Fuera de las murallas?
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Grayrat:\C[0]    Hmm......
+\CBid[-1,8]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia:\C[0]    Mmm...
+\CBid[-1,6]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Bien! ¡Prepárense, salimos de inmediato!
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Grayrat:\C[0]    Sí, milady.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Qué? ¿Ahora? ¿Inmediatamente? ¡Ni siquiera he pensado cómo explicártelo!
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia:\C[0]    Eres una plebeya inteligente, \c[6]Lona\C[0], estoy segura de que lo resolverás.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Eh... ¿Eso fue un cumplido, no?
+
+Cecily/QuestHikack12_OPT_ANS_BRD
+\board[En sus Propias Palabras]
+Misión: Ir con Cecilia a las \C[4]Puertas Orientales de Noer:\C[0]
+Recompensa: Ninguna
+Cliente: Cecilia
+Plazo: Ninguno
+Estos viejos mimados no saben nada del corazón.
+Haz que entienda qué clase de gente son esos a quienes llaman "intocables".
+
+############################################ in NoerRelayOut
+
+Cecily/QuestHikack13_0
+\CBfB[8]\SETpl[CecilyShyAr]\Lshake\prf\C[4]Cecilia:\C[0]    Entonces.... ¿Qué hacemos aquí?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Bueno.... Quería mostrarte a nosotros, los plebeyos.
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia:\C[0]    Ya los he visto. En el camino aquí vi un montón de gente así.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Eh... ¿Y hablaste con alguno de ellos?
+\CBfB[8]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Cecilia:\C[0]    \..\..\..
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    No puede ser. ¿En serio? ¿Soy la única?
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia:\C[0]    ¡No es necesario! ¡Sé perfectamente lo que hago!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Em... No lo sé...
+
+Cecily/QuestHikack13_1
+\CBct[9]\m[normal]\plf\PRF\c[6]Lona:\C[0]    ¡Ah! En el Monasterio de los Santos están repartiendo comida. Vamos a ver.
+
+Cecily/QuestHikack14_1
+\CBmp[Nur1,20]\c[4]Monja A:\C[0]    Mis más sinceras disculpas a todos, solo nos queda un último tazón.
+\CBmp[Nur2,20]\c[4]Monja B:\C[0]    La Gracia de hoy ha terminado. Los que no recibieron, por favor, vuelvan mañana.
+\CBmp[RufC14M1,20]\c[4]Refugiado:\C[0]    ¡Gracias! ¡Oh, gracias, Santo! ¡Gloria al Santo!
+\CBmp[RufC14F1,20]\c[4]Refugiado:\C[0]    ¡No! ¡Espere! ¡Tengo dos niños hambrientos!
+\CBmp[RufC14M2,20]\c[4]Refugiado:\C[0]    ¡Esto es injusto!
+\CBmp[RufC14F2,20]\c[4]Refugiado:\C[0]    ¡Debería ser mío! ¡Es lo que el Santo me debe!
+
+Cecily/QuestHikack14_1CECtoLona
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia:\C[0]    ¿Esto es lo que querías mostrarme?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia:\C[0]    Ya lo he visto muchas veces. ¿Qué ha cambiado?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Emm.......
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Ni yo sé qué decir, pero míralos. En el fondo aceptan la "ayuda" como algo merecido.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿No crees que ayudar a esta gente es un desperdicio de esfuerzo?
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia:\C[0]    \..\..\..
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia:\C[0]    Pero, \c[6]Lona\C[0] tú no eres así, ¿verdad? ¿No prueba eso que entre esta gente hay quienes quieren algo más?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Eh.... No creo que sea diferente a ellos.
+\CBct[20]\m[CecilyShyAr]\plf\PRF\c[6]Lona:\C[0]    Un paso en falso y sería exactamente igual.
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia:\C[0]    \..\..\..
+
+Cecily/QuestHikack14_2
+\CBmp[RufC14M3,20]\c[4]Refugiado:\C[0]    ¡Quiero mi comida! ¡Ahora!
+\CBmp[RufC14F1,20]\c[4]Refugiado:\C[0]    ¡Se lo suplico! ¡Misericordia!
+
+Cecily/QuestHikack14_2_1
+\CBmp[Nur1,6]\c[4]Monja A:\C[0]    Hermana Mayor, la situación es mala.
+
+Cecily/QuestHikack14_2_2
+\CBmp[Nur2,20]\c[4]Monja B:\C[0]    ¡Todos calma!
+
+Cecily/QuestHikack14_2_2_1
+\CBmp[RufC14M3,5]\c[4]Refugiado:\C[0]    ¡Dámelo!
+\CBmp[RufC14M1,20]\c[4]Refugiado:\C[0]    ¡No! ¡Es mío!
+
+Cecily/QuestHikack14_WisOPT
+\m[fear]¿Qué debo hacer?\optD[Detenerlos,Amenazarlos<r=HiddenOPT1>]
+
+Cecily/QuestHikack14_2_3
+\CBmp[RufC14M3,5]\c[4]Refugiado:\C[0]    ¡Muere!
+
+Cecily/QuestHikack14_2_Stop0
+\CBct[6]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¡Ah.... Maldición!
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prh\C[4]Cecilia:\C[0]    ¡Eh! ¡Alto!
+
+Cecily/QuestHikack14_2_Stop1
+\CBmp[RufC14M3,5]\c[4]Refugiado:\C[0]    ¡No te acerques!
+
+Cecily/QuestHikack14_2_4
+\CBmp[RufC14M3,5]\c[4]Refugiado:\C[0]    ¡Mío! ¡Todo es mío!
+\CBmp[Nur1,6]\c[4]Monja A:\C[0]    \{¡Yahhhhhh!!!
+\SETpr[GrayRatNormalAr]\PRF\c[4]Grayrat:\C[0]    Estoy listo, milady.
+\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia:\C[0]    ¡Maldición! ¡Adelante!
+
+Cecily/QuestHikack14_WisOPTend0
+\CBct[20]\m[serious]\Rshake\c[6]Lona:\C[0]    \{¡Quietos!
+
+Cecily/QuestHikack14_WisOPTend1
+\CBct[20]\m[angry]\Rshake\c[6]Lona:\C[0]    Miren a los guerreros a mi lado, parecen jodidamente fuertes, ¿no?
+\CBct[20]\m[serious]\Rshake\c[6]Lona:\C[0]    Si no reaccionan, les golpearán hasta que se mareen.
+
+Cecily/QuestHikack14_WisOPTend2
+\CBmp[RufC14M3,0]\SETpr[GrayRatNormalAr]\SETpl[CecilyWtfAr]\PLF\PRF ........?!
+\CBmp[RufC14M3,6]\plf\prf\c[4]Refugiado:\C[0]    ¡Eeeh! ¡Perdón!
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]Cecilia:\C[0]    Espera, tengo unas preguntas para ti.
+\CBmp[RufC14M3,2]\plf\c[4]Refugiado:\C[0]    ¿¡Qué?! ¡No! ¡Espere, soy inocente!!
+
+Cecily/QuestHikack14_WisOPTend3
+\CBct[20]\m[flirty]\Rshake\c[6]Lona:\C[0]    Uff....
+
+Cecily/QuestHikack14_KillWay1
+\board[Educación en Sociedad]
+Misión: Lidiar con los alborotadores
+Recompensa: Ninguna
+Cliente: Cecilia
+Plazo: Ninguno
+
+################################################################# 14 a 15
+
+Cecily/QuestHikack14_to15_1
+\CBmp[RufC14end,6]\plf\c[4]Refugiado：\C[0] ¡No! ¡No me maten! ¡Estaba equivocado!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecilia：\C[0] Cálmate, solo quiero preguntaros algo, chicos. ¿Qué demonios...
+\CBmp[RufC14end,20]\plf\c[4]Refugiado：\C[0] Me obligaron a hacerlo, hay alguien detrás moviendo los hilos.
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\C[4]Cecilia：\C[0] ......
+\CBfB[1]\SETpl[CecilyShockedAr]\Lshake\C[4]Cecilia：\C[0] ¡¿Qué has dicho?!
+\CBmp[RufC14end,6]\plf\c[4]Refugiado：\C[0] ¡Dijeron que causara disturbios, cuanto más grandes mejor! A mayor locura, mayor paga.
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\C[4]Cecilia：\C[0] ¡¿Y quiénes son "ellos"?!
+\CBmp[RufC14end,20]\plf\c[4]Refugiado：\C[0] ¡No! No puedo decir más, ¡me matarán!
+\ph\CBfB[5]......
+
+Cecily/QuestHikack14_to15_2
+\CBmp[RufC14end,6]\plf\c[4]Refugiado：\C[0] ¡¡¡Aaaahhh!!!!
+
+Cecily/QuestHikack14_to15_3
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]Cecilia：\C[0] ¿Quieres morir? ¿Ansías la muerte, verdad?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]Cecilia：\C[0] ¡Mejor cuéntame todo lo que sabes ahora mismo o conocerás a los Santos!
+\CBmp[RufC14end,6]\plf\c[4]Refugiado：\C[0] ¡No! ¡No me mates! ¡Te lo contaré todo! ¡Ahora mismo!
+
+Cecily/QuestHikack14_to15_4
+\narr........
+
+Cecily/QuestHikack14_to15_5
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0] Eh... ¿De qué estáis hablando?
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]Grayrat：\C[0] Milady.....
+\CBfB[20]\SETpr[CecilyWtfAr]\Rshake\C[4]Cecilia：\C[0] ¡Lo sé!
+\CBfB[20]\SETpl[CecilyAngryAr]\m[confused]\Lshake\prf\C[4]Cecilia：\C[0] ¡Oye, Lona! ¡Tenemos que irnos!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0] ¡Oh!
+
+Cecily/QuestHikack14_to15_BRD
+\board[Regresar al Barril Ardiente]
+Tarea: Volver al Barril Ardiente
+Recompensa: Ninguna
+Cliente: Cecilia
+Plazo: Ninguno
+
+Nun/Thanks
+\c[4]Monja：\C[0] Gracias por tu ayuda. Que los Santos iluminen tu camino.
+
+########################################################################### qu15 en la taberna
+
+Cecily/15to16_1
+\CBmp[Cecily,20]\SETpr[CecilyWtf]\plh\plf\Rshake\C[4]Cecilia：\C[0] ¡Maldita sea! ¿Qué demonios fue eso?
+
+Cecily/15to16_2
+\CBmp[Cecily,20]\SETpr[CecilyAngry]\plh\plf\Rshake\C[4]Cecilia：\C[0] ¡Grayrat! Investiga esto, ¡inmediatamente!
+
+Cecily/15to16_3
+\CBmp[UniqueGrayRat,8]\SETpr[CecilyWtf]\SETpl[GrayRatConfused]\Lshake\prf\C[4]Grayrat：\C[0] Por supuesto, Milady.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Eh... ¿Entonces qué está pasando?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] Hmm.....
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia：\C[0] Escucha. ¡Parece que alguien está provocando deliberadamente conflictos entre los habitantes de \c[6]Síbari\C[0] y \c[4]Noer\C[0]!
+
+Cecily/15to16_4
+\CBct[1]\m[shocked]\plf\PRF\c[6]Lona：\C[0] ¿Qué? ¿Deliberadamente? ¿Por qué alguien haría eso?
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia：\C[0] ¡No está claro aún, pero lo resolveremos!
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] Grayrat se encargará de investigar. Nos vemos.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0] ¿Puedo ayudar en algo?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] ¿Ahora?.....\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake ¡No!
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona：\C[0] Ahh... Vale.
+\BonMP[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\c[4]Grayrat：\C[0] ....Me voy.
+
+Cecily/15to16_5
+\CBmp[Cecily,6]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia：\C[0] ¡Eh! ¡Espera!
+\CBmp[Cecily,6]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia：\C[0] Solo... ten cuidado...
+\BonMP[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\PRF\c[4]Grayrat：\C[0] ......
+
+########################################################################### qu16 en taberna2
+
+Cecily/16to17_opt
+¿Has vuelto?
+
+Cecily/16to17_1
+\CBct[3]\m[pleased]\Rshake\c[6]Lona：\C[0] ¡Ah! ¡Grayrat, has vuelto!
+\CBmp[CecilyNormal,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] Mhm, ha vuelto.
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Grayrat：\C[0] .......
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Entonces, ¿habéis descubierto algo?
+\CBmp[Cecily,20]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia：\C[0] Preferiría no hablar de ello, pero......\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake Necesitamos tu ayuda.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0] Ugh... ¿Qué hay que hacer?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] Necesitamos que entres en la guarida de la \c[6]Banda Filo Ancho\C[0] y robes unos documentos.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0] ¿¿Robar?? ¿¿A la \c[4]Banda Filo Ancho：\C[0]?!
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] No te preocupes, son enemigos.
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona：\C[0] No... me refiero a...
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\c[4]Grayrat：\C[0] .....Tiene miedo. Lona no es guerrera.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Eh.......
+\CBmp[Cecily,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] ¿Oh? Pero creo que puede hacerlo.
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia：\C[0] Mira, el hecho de que haya superado todo esto ya demuestra que no es débil.
+\CBmp[Cecily,8]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia：\C[0] Y ahora no hay mucha gente en quien podamos confiar. La única que puede hacer esto eres tú.
+
+Cecily/16to17_2
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0] Ugh... Vale. Haré lo que pueda.
+\CBmp[Cecily,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia：\C[0] Toma, coge esto.
+
+Cecily/16to17_3
+\CBct[20]\m[shocked]\plf\PRF\c[6]Lona：\C[0] ¡¿Guau?!
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia：\C[0] Usa este dinero para prepararte bien. Consigue el mejor equipo posible.
+\CBct[3]\m[pleased]\plf\PRF\c[6]Lona：\C[0] ¡Gracias!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0] Entonces, ¿qué necesito encontrar exactamente?
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia：\C[0] Documentos sobre tratos recientes con los \c[6]Mercaderes Rosendo\C[0]. Toma todos los que encuentres.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Entendido.
+
+Cecily/16to17_4
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] Tengo otros asuntos con Grayrat.
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia：\C[0] En cuanto a la \c[6]Banda Filo Ancho\C[0]. Su guarida está cerca de los Callejones.
+\CBct[3]\m[flirty]\plf\PRF\c[6]Lona：\C[0] Entendido.
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]Cecilia：\C[0] Ten cuidado.....
+
+Cecily/16to17_END_brd
+\board[Robar documentos]
+Tarea: Entrar en el campamento de la \C[6]Banda Filo Ancho：\C[0] y robar documentos comerciales
+Recompensa: Ninguna
+Cliente: Cecilia
+Repetible: Una vez
+Alguien está provocando conflictos entre los refugiados \c[4]Síbari\C[0] y \c[4]Noer\C[0].
+Parece que la \c[4]Banda Filo Ancho\C[0] está involucrada.
+Infíltrate en la guarida de la \c[4]Banda Filo Ancho\C[0] y roba los documentos relacionados.
+
+Cecily/16to17_END
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] Hmm... ¿\c[4]Banda Filo Ancho\C[0]?
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\C[0] ¿Podré hacer esto...?
+\CBct[6]\m[serious]\Rshake\c[6]Lona：\C[0] ¡No está bien! ¡Debo armarme de valor! ¡Lo lograré!
+
+########################################################################### qu17 EN base banda
+
+NoerGangBase/enter
+\cg[map_region_NoerRoad]\m[confused]\PRF\c[6]Lona：\C[0] ....¿Es este el lugar?
+\cg[event_Sleep]\m[flirty]\PRF\c[6]Lona：\C[0] Parece que la seguridad aquí es bastante laxa.....
+
+Nap/failed_onCecilyQuest0_Maani
+\SETpl[MaaniNormal]\Lshake\prf\C[4]Maani：\C[0] No podemos dejarla ir. Sin testigos.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]Bandido B：\C[0] Cierto, ¡mátala!
+
+Nap/failed_onCecilyQuest0_Bandit
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido A：\C[0] Pero los de arriba dijeron que no debe haber testigos.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]Bandido B：\C[0] Cierto, ¡mátala!
+
+NoerGangBase/SleepGuard
+\CBmp[SleepGuard,19]\m[confused]\c[6]Lona：\C[0] Hmm......
+\CBmp[SleepGuard,12]\m[flirty]\c[6]Lona：\C[0] ¿Eh? ¿Los guardias holgazanean? ¡Qué suerte!
+
+QuProg/17to18_1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] Veamos qué tenemos aquí....
+
+QuProg/17to18_2
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0] Hm... Parece un libro de contabilidad. Esto debe ser.
+
+########################################################################### 19 LONA huye a BACK STREET
+
+QuProg/17to19_1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] Hmm....
+
+QuProg/17to19_2
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\C[4]Maani：\C[0] Tómelo en serio, señor Wayne.
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\C[4]Maani：\C[0] Hay que decir... que su llamado "caos" no fue suficiente.
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]Wayne：\C[0] ¿Insuficiente? Todo se hizo según sus deseos.
+\CBmp[Maani,20]\SETpl[MaaniAngry]\Lshake\prf\C[4]Maani：\C[0] El conflicto del que hablamos no era solo... "esto". El Maestro está decepcionado con ustedes.
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]Wayne：\C[0] ¡Estas cosas no suceden inmediatamente después de que salen de su boca! ¡Se necesita tiempo para que se enciendan!
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]Wayne：\C[0] ¡No solo eso, quieren que ocurra de manera que los habitantes de Noer puedan verlo! ¡No sucederá tan rápido como les gustaría!
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\prf\C[4]Maani：\C[0] No es mi problema.
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] ¡Maldición! Si quieren que se haga rápido y bien, ¡se necesitan recursos!
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] ¡Será mejor que aumenten el pago o encuentren a alguien más!
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\prf\C[4]Maani：\C[0] ......
+\CBmp[Maani,8]\SETpl[MaaniAngry]\Lshake\prf\C[4]Maani：\C[0] Esperen......
+
+QuProg/17to19_3
+\CBmp[GangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\C[4]Wayne：\C[0] ¿Qué? ¿No me digan que se les acabó el dinero?
+
+QuProg/17to19_4
+\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0] ¡¡¡Aaaahhh!!!
+\CBmp[GangBoss,20]\SETpl[NoerGangBossAngry]\Lshake\prf\C[4]Wayne：\C[0] ¿Qué demonios? ¿Te has vuelto loca?
+
+QuProg/17to19_5
+\CBmp[Maani,20]\SETpr[MaaniAngry]\plf\Rshake\C[4]Maani：\C[0] Una rata....
+\CBmp[GangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\C[4]Wayne：\C[0] ¡¿Qué?!
+\CBmp[GangBoss,20]\SETpl[NoerGangBossAngry]\Lshake\prf\C[4]Wayne：\C[0] ¡Atrapadla! ¡Viva!
+
+QuProg/17to19_6
+\CBmp[GangElite,6]\SETpl[MobHumanWarrior]\Lshake\C[4]Bandido：\C[0] Jefe, ¿realmente vamos a declarar la guerra a los de arriba?
+\CBmp[GangBoss,5]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] ¡No a ella, idiota! ¡Hablo de esa rata en la trastienda!
+\CBct[1]\m[shocked]\plh\Rshake\c[6]Lona：\C[0] ¡Esto es malo!!
+
+QuProg/17to18_END
+\board[Documentos robados]
+Sal de aquí y vuelve al \c[6]Barril Ardiente：\C[0].
+Luego entrega el \c[6]libro de contabilidad：\C[0] a Cecilia：\C[0].
+
+########################################################################### 20
+
+QuProg/20_1
+\SETpl[NoerGangBossAngry]\Lshake\C[4]Wayne：\C[0] ¡Se dirige a los Callejones! ¡Atrapadla!
+
+QuProg/20to21_1
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡Mierda! ¡Mierda! ¡Mierda!
+
+QuProg/20to21_2
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\Rshake\C[4]Wayne：\C[0] ¡Por allá!
+\CBmp[Maani,8]\SETpl[MaaniNormal]\Lshake\prf\C[4]Maani：\C[0] Creo que la he visto antes... ¿dónde?
+
+QuProg/20to21_3
+\CBmp[GangBoss,2]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] ¡¿Quién es ella?!
+\CBmp[Maani,20]\SETpl[MaaniAngry]\Lshake\prf\C[4]Maani：\C[0] No, está muy oscuro. No puedo ver bien.
+
+QuProg/20to21_4
+\CBmp[GangBoss,８]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] Maldición.....
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] ¡Eh! ¡Más rápido, muchachos! ¡Está allí!
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] ¡¡Acabad con ella!!
+
+QuProg/20to21_5
+\CBct[6]\m[terror]\plh\Rshake\c[6]Lona：\C[0] ¿Qué hago? ¿Qué hago?
+
+QuProg/20to21_6
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0] ¡Eh! ¡Está aquí!
+
+QuProg/20to21_7
+\CBct[1]\m[terror]\plh\Rshake\c[6]Lona：\C[0] ¡¡¡AAAAHHHH!!!
+
+QuProg/20to21_rg2Qmsg0
+¡No es el mejor lugar!
+
+QuProg/20to21_Exit0
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0] !!!!!
+\CBmp[EndDn1,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandido：\C[0] Ja, te atrapamos.
+\CBmp[EndDn2,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0] Ríndete pacíficamente o te daremos una muerte dolorosa.
+
+QuProg/20to21_Exit1
+\CBmp[EndUp1,20]\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0] ¡Perra! ¿Sigues intentando escapar?
+\CBmp[EndUp2,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0] ¡Mátala!
+
+QuProg/20to21_Exit2
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\C[0] ¡Perdón! ¡Perdón! ¡Perdón!
+\CBct[20]\m[bereft]\Rshake\c[6]Lona：\C[0] Estaba equivocada... por favor, no... tened piedad...
+
+QuProg/20to21_Exit3
+\CBmp[EndUp1,20]\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0] ¿Eh? ¿Quiénes sois vosotros?
+\CBmp[Cecily,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecilia：\C[0] ¿Pensabais matarla? ¿Nos habéis olvidado?
+\CBmp[GrayRat,20]\SETpr[GrayRatNormalAr]\plf\Rshake\C[4]Grayrat：\C[0] Lo siento, llegamos tarde.
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0] Vosotros chicos.........\m[triumph]¿Habéis venido a salvarme?
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecilia：\C[0] Casualidad que estábamos cerca. Nos ocuparemos de esto, escapa, hablamos después.
+
+QuProg/20to21_Exit3_adam0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\C[4]Adam：\C[0] ¡Eh! Esto no estaba en nuestro trato. Necesito paga extra.
+\CBmp[Cecily,20]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Cecilia：\C[0] Por supuesto. Protege a esta chica.
+
+QuProg/20to21_SE
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\Rshake\C[4]Wayne：\C[0] Esperad......
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\Rshake\C[4]Wayne：\C[0] No puede ser. ¿Han causado una masacre aquí?
+\CBmp[Maani,8]\SETpl[MaaniNormal]\PLF\prf\C[4]Maani：\C[0] ........
+\CBmp[Maani,8]\SETpl[MaaniAngry]\Lshake\prf\C[4]Maani：\C[0] Sí...
+\CBmp[GangBoss,6]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Wayne：\C[0] ¡¿Me estás tomando el pelo?!
+
+QuProg/20to21_Exit4BRD
+\board[Huir]
+Sal de aquí y vuelve al \c[6]Barril Ardiente：\C[0].
+Luego entrega el \c[6]libro de contabilidad：\C[0] a \c[4]Cecilia：\C[0].
+
+########################################################################### 21 y 18
+
+QuProg/18_begin1
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\C[0] Eh... He vuelto.
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] Ah, Lona.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormal]\Lshake\prf\C[4]Grayrat：\C[0] Has vuelto sana y salva......
+\CBct[3]\m[triumph]\plf\PRF\c[6]Lona：\C[0] Sí, todo bien, estoy bien.
+\CBct[3]\m[normal]\plf\PRF\c[6]Lona：\C[0] Esto debe ser lo que buscabais, ¿no?
+
+QuProg/18_begin2
+\CBmp[Cecily,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia：\C[0] Hmm... Déjame ver...
+
+QuProg/18_begin3
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\C[4]Cecilia：\C[0] ........
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0] Entonces... ¿Habéis encontrado algo?
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\PLF\prf\C[4]Cecilia：\C[0] Bueno... Son solo números..............\SETpl[CecilyShy]\Lshake No, no puedo leer esto....
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\C[0] ¿Ah? Eh...
+\CBct[3]\m[normal]\plf\PRF\c[6]Lona：\C[0] ¡Vale! ¡Lo resolveremos juntas!
+
+QuProg/18_begin3_narr
+\narr Lona ayuda a Cecilia a descifrar el libro de contabilidad......
+\narr El documento está lleno de transacciones financieras con la \c[6]Hacienda Rosendo\C[0]......
+\narr Mientras tanto, a ambos lados de los muros de la ciudad se avecinan disturbios masivos......
+
+QuProg/18to22_1
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]Cecilia：\C[0] Parece que todo está conectado con la \c[6]Hacienda Rosendo\C[0].
+
+QuProg/21to43_1
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]Cecilia：\C[0] Parece que todo está conectado con \c[6]Milo\C[0].
+
+QuProg/18_begin4
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] ......¿Sí?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0] ¿Quieres decir que los habitantes de la Hacienda Rosendo provocaron deliberadamente conflictos en la ciudad y sus alrededores?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0] ¿Y enfrentaron a los refugiados entre sí?!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia：\C[0] Como sospechaba, por supuesto que estaba la gente de \c[6]Rosendo\C[0] detrás de esto.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0] ¡¿Pero por qué harían eso?!
+
+QuProg/18_begin5
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\C[4]Grayrat：\C[0] Estabilidad... su objetivo era la estabilidad dentro de los muros de Noer.......
+\CBmp[Cecily,5]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia：\C[0] ¡No tiene sentido!
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\C[4]Grayrat：\C[0] Milady, es hora de olvidar esto. No podemos cambiar esta situación.
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Cecilia：\C[0] ¡Cállate! ¡No me rendiré!
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\C[4]Grayrat：\C[0] ......Perdón, me pasé.
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] .......
+
+QuProg/18_begin6
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]Cecilia：\C[0] Lona, te has ganado esto.
+
+QuProg/18_begin7
+\CBct[3]\m[shocked]\plf\Rshake\c[6]Lona：\C[0] !!!
+\CBct[3]\m[pleased]\plf\PRF\c[6]Lona：\C[0] ¡Gracias!
+
+########################################################################### QuProgSaveCecily 23 to 24    43 to 44 # DEV
+
+Cecily/22-43-PLUS
+\CBct[8]\m[flirty]\plf\c[6]Lona:\C[0]    ¿Quieres, pues, hablar?
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia:\C[0]  Sí... Quería disculparme contigo.
+\CBid[-1,6]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia:\C[0]    Por hacer que arriesgues tanto por mí. Te metes en problemas por mi culpa. No quisiera ponerte en peligro, es solo... eres la única en quien Greirat y yo podemos confiar ahora.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Bah, no es nada...\m[pleased] no hay problema.
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona:\C[0]    Además, vosotros también habéis gastado más de una moneda por mí.
+\CBid[-1,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]Cecilia:\C[0]    Sí...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Qué pasa? ¿Algo va mal?
+\CBid[-1,6]\SETpl[CecilyShy]\Lshake\prf\C[4]Cecilia:\C[0]    No importa, ahora no es el momento.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ....¿Oh?
+
+####################################################################################dev 23
+Cecily/23to24_opt
+DEV
+
+#dev 23
+Cecily/23to24_0
+asdasdasd

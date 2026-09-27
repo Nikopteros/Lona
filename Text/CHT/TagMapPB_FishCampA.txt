@@ -1,0 +1,296 @@
+thisMap/OvermapEnter
+漁人的野營\optB[沒事,進入]
+
+###############################################################################   Common dialog
+
+Commoner0/rng0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戰士：\c[0]    不可以相信人類....
+
+Commoner0/rng1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戰士：\c[0]    妳...女人...？
+
+Commoner0/rng2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戰士：\c[0]    走開....
+
+###############################################################################   Comp Fish Dude Explorer
+
+ConvoyTar/begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]漁人：\c[0]    什麼...事...？
+
+ConvoyTar/begin1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]漁人：\c[0]    感謝你....感謝海巫...
+
+ConvoyTar/begin2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]漁人：\c[0]    前往....營地....
+
+ConvoyTar/About_opt
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...請問...
+\SndLib[FishkindSmSpot]\CBid[-1,2]\prf\c[4]漁人：\c[0]    什麼...事...？
+
+ConvoyTar/OPT_WhyFishHereAise
+阿萊斯村
+
+ConvoyTar/OPT_OutControll
+先祖失控
+
+ConvoyTar/OPT_CaveExplore
+探索洞窟
+
+ConvoyTar/OPT_OutControll0
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    先祖失控了？ 這是什麼意思？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    我們的長輩...先祖...他們從水裡歸來...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    緊跟著邪惡的...碎片...開始攻擊我們...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    薩暪大人...要我們調查...原因...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    嗯...有聽沒懂。
+
+ConvoyTar/WhyFishHereAise0
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    所以你為什麼會出現在\c[4]阿萊斯村\c[0]裡，漁人不都是待在城裡嗎？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    為...薩滿大人調查...先祖們失控....的原因...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    前往本島...調查...但人類攻擊我們...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    我兄弟...死了...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    嗯...有聽沒懂。
+
+####################################################   探索洞窟
+
+ConvoyTar/TooWeak
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    女人...去繁殖....
+\CBct[20]\m[tired]\PRF\c[6]洛娜：\c[0]    ........
+
+ConvoyTar/OPT_CaveExplore0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    我\c[6]允杯\c[0]...過了...！
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    三次都是\c[6]聖筊\c[0]...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    海巫我要我去遺跡...內探詢真相...！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...\c[6]聖筊\c[0]?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    真相就在....遺跡內...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    村里的薩滿大人....也確認了...！
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    哈？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    可是這裡是....人類的....地盤....太危險了....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    可惜的...我們的奴隸逃跑了...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    我需要妳的協助....與我一同前往過去的遺跡內...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    取得真相...！
+
+ConvoyTar/OPT_CaveExplore_BRD
+\CamCT\board[探索洞窟]
+目標：附近的洞窟
+報酬：大銅幣4
+委託主：野營中的漁人
+期限：5天
+協助野營中的漁人探索古代遺跡。
+
+ConvoyTar/OPT_CaveExplore_N
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...我現在不太方便耶。
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]漁人：\c[0]    遺憾...
+
+ConvoyTar/OPT_CaveExplore_Y
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    好吧，應該沒問題。
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    讚美海巫！
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    人類女人...必須小心....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]漁人：\c[0]    失控先祖大人們...渴望...交配....
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    哈？ 什？
+
+####################################################   探索洞窟2
+
+AriseVillageFish/2to3_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]漁人：\c[0]    就是....這裡了...讓我唸出咒語...
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    哦？
+
+AriseVillageFish/2to3_1
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]漁人：\c[0]    卡滾卡羅卡滾馬...
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]漁人：\c[0]    卡滾馬...\{卡滾馬...！
+
+AriseVillageFish/2to3_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]漁人：\c[0]    \{蝦踢爹...！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃？
+
+AriseVillageFish/2to3_3
+\CBct[20]\c[6]洛娜：\c[0]    \{吚吚吚吚！？
+
+AriseVillageFish/2to3_4
+\CBct[5]\m[serious]\c[6]洛娜：\c[0]    \{你幹什麼？！
+\CBfE[8]\prf\c[4]漁人：\c[0]    .....
+
+AriseVillageFish/2to3_5
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]漁人：\c[0]    成了....
+
+AriseVillageFish/2to3_6
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    好吧，但你為什偷摸我的胸部？
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]漁人：\c[0]    人類女人或...奴隸的奶子....獻給海巫....
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]漁人：\c[0]    海巫不喜歡...奶子大的奴隸...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]漁人：\c[0]    我們很幸運...妳是戰士...奶子小...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]漁人：\c[0]    海巫的大門....為妳而開....
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    哈\..\..\..\CBct[6]\m[tired]\prf 我的很小\..\..\..？
+
+####################################################   探索洞窟3 #update
+
+AriseVillageFish/3to4_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]漁人：\c[0]    讚美海巫...薩滿大人說的是真的...！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...真是太好了？
+
+AriseVillageFish/3to4_1
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    門關起來了？！
+
+AriseVillageFish/3to4_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]漁人：\c[0]    不害怕...薩滿大人說...還有其他出口...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    是這樣嗎？
+
+AriseVillageFish/4to5_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]漁人：\c[0]    人類的戰士阿....看看這...
+
+AriseVillageFish/4to5_1
+\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    在多年前...的戰爭中...人類毀了這裡...
+\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    毀滅我們的神廟...搶走我們的奴隸...
+\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    洗劫一空...人類太可惡...
+\m[confused]\PRF\c[6]洛娜：\c[0]    呃...對不起...？
+\prf\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    都過去了...我原諒戰士...
+
+AriseVillageFish/4to5_2
+\BonMP[EXIT,19]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    看那...是出口...
+\m[flirty]\PRF\c[6]洛娜：\c[0]    哦？
+\BonMP[fishF1,19]\BonMP[fishF2,19]\prf\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    但周圍有\c[6]邪惡的碎片\c[0]....
+\prf\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    離開這裡前...必須找到海巫的聖像....
+\prf\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    然後打敗這些....\c[6]邪惡的碎片\c[0]....
+
+AriseVillageFish/4to5_3
+\BonMP[Ca2,19]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    也許...我們...該走這裡...？
+\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    這樣一來可以繞過那些....\c[6]邪惡的碎片\c[0]...？
+
+AriseVillageFish/4to5_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    人類的...女戰士...靠妳了...
+
+AriseVillageFish/5to6_0
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    這裡...就是這裡.....
+
+AriseVillageFish/5to6_1_1
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    偉大的海巫...我們回來了...
+
+AriseVillageFish/5to6_1_2
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    我們回來了......
+
+AriseVillageFish/5to6_1_3
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    為何先祖失控...為何碎片發狂....
+
+AriseVillageFish/5to6_1_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    告知我...真相吧....
+
+AriseVillageFish/5to6_2
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]未知：\c[0]    誰在那裏！ 是妳嗎？
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]未知：\c[0]    不要躲了！ 我聽見有人呼喚妳！
+
+AriseVillageFish/5to6_3
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]未知：\c[0]    在那？！ 那個巨乳智障又躲到去了！！
+
+AriseVillageFish/5to6_3_KnowLona
+\CBmp[Justice,8]\SETpl[DedOne_normal]\Lshake\c[4]正義：\c[0]    噢，是妳啊?
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...你是那個...誰？
+
+AriseVillageFish/5to6_4
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]漁人：\c[0]    你....不是海巫...！
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]漁人：\c[0]    你是邪惡的....偽神...！
+
+AriseVillageFish/5to6_5
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]正義：\c[0]    你才邪惡！ 你全家都邪惡！
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]正義：\c[0]    我是為正義而戰的勇士！
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]正義：\c[0]    讓我告訴你真相！ 你將了解誰才是邪惡！
+
+AriseVillageFish/5to6_6
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    \{嗚呱呱！
+
+AriseVillageFish/5to6_7
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    \{不...這不是真的...！
+
+AriseVillageFish/5to6_8
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    \{騙人...！ 騙人...！
+
+AriseVillageFish/5to6_9
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    \{嗚呱呱呱呱呱！
+
+AriseVillageFish/5to6_10_1
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{吚吚吚！！！
+
+AriseVillageFish/5to6_10_2
+\CBct[20]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不...不要過來！
+
+AriseVillageFish/5to6_11
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...發生了什麼事？
+
+AriseVillageFish/5to6_12
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    人呢？！ 死掉了？！
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    剛剛不是還跟著我？
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    我該怎麼跟他的朋友交代啊。
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    唉.....
+
+AriseVillageFish/6to7
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    ....
+
+CampHumWatcher/6and7_0
+\CBid[-1,20]\c[4]民兵：\c[0]    我們是阿萊斯村的自警團，妳安全了。
+
+CampHumWatcher/6and7_1
+\CBid[-1,20]\c[4]民兵：\c[0]    不用害怕，邪惡的漁人都死光了。
+
+CampHumLooter/6and7_0
+\CBid[-1,20]\c[4]民兵：\c[0]    來自城裡的衛兵跟我們說不可以動這些雜種。
+\CBid[-1,20]\c[4]民兵：\c[0]    還說遇到落難漁人要保護牠們，送回諾爾鎮裡。
+\CBid[-1,20]\c[4]民兵：\c[0]    城裡的大人物們總是在開玩笑。
+
+CampHumLooter/6and7_1
+\CBid[-1,20]\c[4]民兵：\c[0]    這些雜種帶了不少魚貨，這可以供給村子吃上好一段時間。
+\CBid[-1,20]\c[4]民兵：\c[0]    之前牠們還帶了兩個女奴隸，其中一個我收下了。
+\CBid[-1,20]\c[4]民兵：\c[0]    我跟妳說，她奶子真大，在床上叫的聲音也好聽。
+
+CampHumLooter/6and7_2
+\CBid[-1,20]\c[4]民兵：\c[0]    妳不說，我不說，城裡的那些大人們不會知道的。
+\CBid[-1,20]\c[4]民兵：\c[0]    我們受到\c[6]深潛者\c[0]以及強盜攻擊時牠們也沒幫我們。
+\CBid[-1,20]\c[4]民兵：\c[0]    妳說我為什要聽他們的？
+
+CampHumGuard/6and7_0
+\CBid[-1,20]\c[4]民兵：\c[0]    這些雜種們死前哭著喊說什先祖大人發瘋跟牠們無關。
+\CBid[-1,20]\c[4]民兵：\c[0]    我聽不懂，反正牠們死了。
+
+CampHumGuard/6and7_1
+\CBid[-1,20]\c[4]民兵：\c[0]    這種醜陋的亞人說的話能信嗎，牠們比混族還讓人想吐。
+
+CampHumGuard/6and7_2
+\CBid[-1,5]\c[4]民兵：\c[0]    好臭，真是臭死了！ 死後腥味更重了！
+
+##############################################################################################################
+
+AriseVillage/1to2_rg5_0
+\Bon[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    這是...屍體？
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]漁人：\c[0]    營地...也遭受了人類的...攻擊？
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]漁人：\c[0]    我們必須.....快點...
+
+AriseVillage/1to2_rg5_1
+\SndLib[FishkindSmSpot]\BonMP[QuTar,20]\prf\c[4]戰士：\c[0]    人類...！　人類...發現我們！殺！
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    什？ 要殺我？！
+
+AriseVillage/1to2_rg5_2
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]漁人：\c[0]    兄弟住手...！ 是他救了我...！
+
+AriseVillage/1to2_rg5_3
+\SndLib[FishkindSmSpot]\CBmp[QuTar,20]\c[4]戰士：\c[0]    兄弟...你活著...！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]漁人：\c[0]    是的兄弟...我活著...！
+
+AriseVillage/1to2_rg5_4
+\SndLib[FishkindSmSpot]\CBmp[QuTar,4]\c[4]戰士：\c[0]    感恩海巫...！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,4]\c[4]漁人：\c[0]    讚嘆海巫...！！
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃.....
+
+AriseVillage/1to2_rg5_5
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]漁人：\c[0]    感謝你...人類的戰士...
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]漁人：\c[0]    這是給你的回禮...
+
+AriseVillage/1to2_rg5_6
+\CBct[4]\m[triumph]\Rshake\c[6]洛娜：\c[0]    謝謝！
+
+AriseVillage/1to2_rg5_7
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]戰士：\c[0]    兄弟...你竟然被...女人救了？
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]漁人：\c[0]    女人...？ 她是女人...？
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]戰士：\c[0]    是的...兄弟...
+
+AriseVillage/1to2_rg5_8
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]漁人：\c[0]    妳是女人...？！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    是阿？ 怎麼了？
+\prf\CBmp[FishExplorer,8]\c[4]漁人：\c[0]    ......
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    .....嗯？

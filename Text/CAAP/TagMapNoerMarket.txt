@@ -1,0 +1,92 @@
+####################################--------------------- overmap
+Market/OvermapEnter
+\m[confused]Mercado Central de Noér \optB[Cancelar,Entrar]
+
+####################################--------------------- common
+Lona/MarketOpt
+\m[confused]\c[6]Lona：\C[0]    ¿Mmm? \optB[Cancelar,Intercambiar]
+
+#################################################--------------------- Fatdalf Mana Trader
+
+Fatdalf/Welcome
+\CBid[-1,20]\c[4]Mago Barba Gris：\C[0]    Señorita, veo que tienes unas manos excelentes. ¡Como de una verdadera Maga! Tengo un báculo que te quedará perfecto.
+
+#################################################--------------------- Food Vandor
+
+FoodTrader/Welcome0
+\CBid[-1,20]\c[4]Vendedor de Comida：\C[0]    ¡Bienvenido! ¡Tengo todo tipo de alimentos para cualquier viajero!
+
+FoodTrader/Welcome1
+\CBid[-1,20]\c[4]Vendedor de Comida：\C[0]    ¿Planeas un viaje largo? ¡No olvides comprarme los artículos esenciales!
+
+FoodTrader/Welcome2
+\CBid[-1,20]\c[4]Vendedor de Comida：\C[0]    La gente siempre pregunta cómo deberían vivir su vida. ¡Yo digo que la gente necesita comer para vivir!
+
+#################################################--------------------- Dressw Vandor
+
+DressTrader/Welcome0
+\CBid[-1,20]\c[4]Vendedor de Ropa：\C[0]    La gente necesita ropa como los gatos necesitan pelaje.
+
+DressTrader/Welcome1
+\CBid[-1,20]\c[4]Vendedor de Ropa：\C[0]    Señorita, acérquese y admire estas magníficas prendas.
+
+DressTrader/Welcome2
+\CBid[-1,20]\c[4]Vendedor de Ropa：\C[0]    Acérquese y cómprese ropa nueva.
+
+#################################################--------------------- Dressw Vandor
+
+VegetableTrader/Welcome0
+\CBid[-1,20]\c[4]Vendedor de Verduras：\C[0]    ¡3 por 300! ¡Compre 3 y lleve 0 gratis!
+
+VegetableTrader/Welcome1
+\CBid[-1,20]\c[4]Vendedor de Verduras：\C[0]    ¡Compre uno y lleve ninguno gratis!
+
+#################################################--------------------- Med Vandor
+
+MedTrader/Welcome0
+\CBid[-1,20]\c[4]Vendedor de Medicinas：\C[0]    ¡Señorita! ¡Compre hierbas curativas!
+
+MedTrader/Welcome1
+\CBid[-1,20]\c[4]Vendedor de Medicinas：\C[0]    ¡Esta es para su piel! ¡Esta le dará fuerza! ¡Y esta volverá locos a los hombres por usted!
+
+#################################################--------------------- Hair Vandor
+
+HairCutter/Welcome0
+\CBid[-1,20]\c[4]Barbero：\C[0]    ¡Cambie su peinado! ¡Cambie su estado de ánimo!
+
+HairCutter/Welcome1
+\CBid[-1,20]\c[4]Barbero：\C[0]    ¡Señorita! ¡Necesita poner orden en su cabeza!
+
+HairCutter/Slave
+\CBid[-1,5]\c[4]Barbero：\C[0]    ¡¿A quién se le escapó una esclava aquí?! ¡Vuelve a los \c[6]Callejones\C[0]! ¡Escoria!
+
+HairCutter/DyePayNeeded
+\CBid[-1,20]\c[4]Barbero：\C[0]    Costará solo #{$story_stats["HiddenOPT1"]} Puntos de Intercambio. ¡Prometo que tendrá un nuevo y hermoso peinado!
+
+HairCutter/DyePayNotEnough
+\CBid[-1,6]\c[4]Barbero：\C[0]    Lo siento, ¡pero no es suficiente! Me debe #{$story_stats["HiddenOPT1"]} Puntos de Intercambio más.
+
+HairCutter/DyePayEnough
+\CBid[-1,20]\c[4]Barbero：\C[0]    Perfecto. Ahora elija el color de su cabello.
+
+HairCutter/DyePicked
+\CBid[-1,3]\c[4]Barbero：\C[0]    ¡Excelente elección, preciosa!
+
+HairCutter/DyeEnd
+\CBid[-1,4]\m[normal]\c[4]Barbero：\C[0]    ¡Mira, cariño, así te ves ahora! ¡Qué belleza!
+
+#################################################--------------------- Weapon Vandor
+
+WeaponTrader/Welcome0
+\CBid[-1,20]\c[4]Armero：\C[0]    ¡Una espada es el mejor argumento en una discusión!
+
+WeaponTrader/Welcome1
+\CBid[-1,20]\c[4]Armero：\C[0]    ¡Señorita! ¡Necesita protección! ¡Si quieres paz, prepárate para la guerra!
+
+#################################################--------------------- Hobo Vandor
+
+HoboTrader/Welcome0
+\CBid[-1,20]\c[4]Refugiado：\C[0]    ¡Eh! ¿Tienes hambre, no? ¡Lo tengo todo!
+
+HoboTrader/Welcome1
+\CBid[-1,20]\c[4]Refugiado：\C[0]    ¡Señorita! ¡Aquí tiene todo lo que necesita!

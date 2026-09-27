@@ -1,0 +1,76 @@
+overmap/OvermapEnter
+\m[confused]Fuerte del Norte \optB[Cancelar,Entrar]
+
+officer/NoQuest
+\SETpl[Mreg_guardsman]\m[confused]\plf\PRF\C[6]Lona：\C[0] Em...
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Guardia：\C[0] Lárgate de aquí, esto no es seguro.
+
+Soldier/Qmsg0
+¿Cuánto tiempo llevamos aquí?
+
+Soldier/Qmsg1
+¿Cuándo nos toca el relevo?
+
+Soldier/Qmsg2
+Estoy cansado.
+
+############################### Mision de NoorthCp
+
+CPq/Quest1
+\CBct[8]\m[confused] \c[4].............
+
+CPq/Quest2
+\CBct[8]\m[flirty]\c[6]Lona：\C[0] Qué......
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿Todos están muertos?!
+\CBct[20]\m[fear]\Rshake\c[6]Lona：\C[0] ¡¿Qué demonios está pasando aquí?!
+
+CPq/Quest3
+\CBct[20]\m[tired]\c[6]Lona：\C[0] Uff... Esto... Creo que es una carta para su familia.
+
+CPq/Quest3_1
+\CBct[20]\m[flirty]\c[6]Lona：\C[0] Mmm.......... Veamos...
+
+CPq/Quest4
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob1,20]\prf\c[4]Transeúnte：\C[0] ¡Oye! ¡Niña! ¿Qué haces aquí?
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\C[0] ¿Qué?
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob2,20]\prf\c[4]Transeúnte：\C[0] ¡Eh, espera, es una mujer!
+\CBmp[Mob1,20]\prf\c[4]Transeúnte：\C[0] ¿En serio?.... ¡Qué suerte! ¡Hace tiempo que no me echo una puta!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\C[0] ¿Qué?
+
+CPq/Quest5
+\CBct[1]\m[terror]\Rshake\c[6]Lona：\C[0] ¡Alto... ¡Esperad! ¡¿Qué estáis haciendo?!
+\CBmp[Mob1,20]\prf\c[4]Transeúnte：\C[0] ¡Eh, abre las piernas, no te resistas!
+\CBmp[Mob2,4]\prf\c[4]Transeúnte：\C[0] Pórtate bien y quizás no te duela mucho ♥
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡Parad! ¡Escuchad! ¡Hay un monstruo detrás de vosotros!
+\CBmp[Mob1,20]\prf\c[4]Transeúnte：\C[0] ¡Deja de mentir! ¡Si no obedeces, te golpearemos!
+
+CPq/Quest6
+\SndLib[sound_goblin_roar]\CBmp[GoblinSpear1,20]\SETpr[goblin_penis]\plf\Rshake\c[4]Orcoide：\C[0] ¡¿Gu Kiaa?!
+
+CPq/Quest7
+\SndLib[sound_OrcHurt]\CBmp[GoblinWarrior1,20]\SETpl[ogre]\Lshake\prf\c[4]Orcoide：\C[0] ¡¡¡GRRRRRRR!!!
+
+CPq/Quest8
+\CBmp[Mob2,1]\c[4]Transeúnte：\C[0] ¡¡Es un monstruo!!
+\CBmp[Mob1,1]\c[4]Transeúnte：\C[0] ¡Socorro, ayuda! ¡No quiero morir!
+\CBct[1]\m[bereft]\Rshake\c[6]Lona：\C[0] ¡¡¡Ayuda, AAAAAYYYYY!!!
+
+CPq/Quest9
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Desconocido：\C[0] {¡Que la Justicia descienda desde los cielos!...
+
+CPq/Quest10
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Desconocido：\C[0] ¡Gente inocente! ¡Aquí hay maldad! ¡Yo soy la Justicia!
+\CBmp[Mob2,8]\plf\prf\c[4]Transeúnte：\C[0] ...
+\CBmp[Mob1,8]\plf\prf\c[4]Transeúnte：\C[0] ......
+\CBct[8]\m[confused]\c[6]Lona：\C[0] ..........
+\CBmp[Mob2,8]\plf\prf\c[4]Transeúnte：\C[0] ¡¡¡Más monstruos, AAAAAYYYY!!!
+\CBmp[Mob1,8]\plf\prf\c[4]Transeúnte：\C[0] ¡Santos, salvadme y destruid a estas criaturas malignas!
+
+CPq/Quest11
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Desconocido：\C[0] {¡Yo soy la Justicia! ¡No soy malvado! ¡Ugh!
+\CBct[8]\m[bereft]\Rshake\c[6]Lona：\C[0] ¡¿Qué debo hacer?! ¡¿Qué demonios debo hacer?!
+
+CPq/Quest12
+\board[Salir]
+Regresa a la Perdición Pirata,
+e informa a la Guildia sobre lo ocurrido aqui.

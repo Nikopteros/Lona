@@ -1,0 +1,470 @@
+thisMap/OvermapEnter
+\m[confused]水濂洞\optB[算了,進入]
+
+##########################################################################################  Inside
+
+keeper/0_opt
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\c[4]教徒：\c[0]    妳是什麼人？！ 怎麼知道這裡的？！\optB[路人,尼古拉斯<r=HiddenOPT0>]
+
+keeper/1_1Passby
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    阨...只是路過而已！
+
+keeper/1_1HerName
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    \c[4]尼古拉斯\c[0]？
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    妳是新入教的？ 之前沒看過妳。
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    算了，進去吧。
+
+keeper/1_1Passby_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    謊言者！ 吃掉！
+
+aggro/Cocona0
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    好朋友！ 一起吃掉謊言者！
+
+aggro/Cocona1
+\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    可可娜保護姊姊！
+
+keeper/1_1HerName_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    謊言者！ 是一個謊言者！
+\CBct[8]\m[serious]\Rshake\plf\c[6]洛娜：\c[0]    可可娜！ 不可以！
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    可是... 謊言者...要吃乾淨...
+\CBct[8]\m[shocked]\Rshake\plf\c[6]洛娜：\c[0]    乖，交給姐姐吧。
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    嗚喵...
+
+keeper/Aggro
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    \{有人入侵！！
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{耶耶耶？！
+
+keeper/Aggro_captured
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    祭品逃跑了！
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{耶耶耶？！
+
+keeper/Aggro_captured_loop
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    .....
+
+thisMap/Aggro
+\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    入侵者！
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{糟糕了！
+
+thisMap/Aggro_captured
+\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    有人背叛了生育之母！！
+\CBct[8]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{慘了！
+
+Df_Heresy/rg27_1
+\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    有人背叛了生育之母！！！
+
+SexPartyOP/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    咳\..\Rshaked咳\..\Rshaked咳...！
+\CBct[20]\m[pain]\Rshake\c[6]洛娜：\c[0]    好腥的味道.....
+
+SexPartyOP/1
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    嗯？
+
+SexPartyOP/2_1
+\BonMP[PigMan,20]\c[4]雄豬頭：\c[0]    太棒了... 對...就是那....
+\BonMP[PigMan,20]\c[4]雄豬頭：\c[0]    祂要來了！！ 要來了！ 要來了啊！
+
+SexPartyOP/2_2
+\BonMP[PigMan,4]\c[4]雄豬頭：\c[0]    哦哦哦哦！！！
+
+SexPartyOP/2_3
+\BonMP[PigMan,4]\c[4]雄豬頭：\c[0]    吞下我的種子吧！ 讓同胞們獲得快樂吧！
+
+SexPartyOP/3
+\BonMP[PigMan,4]\c[4]雄豬頭：\c[0]    舒服！！！
+\BonMP[PigMan,20]\c[4]雄豬頭：\c[0]    哦！ 偉大的\c[6]生育之母阿\c[0]！
+\BonMP[PigMan,20]\c[4]雄豬頭：\c[0]    聽我們的呼喚吧！ 此為獻給您的獻禮！
+\BonMP[PigMan,20]\c[4]雄豬頭：\c[0]    帶走我們的恐懼吧！ 賜給我們歡愉吧！
+\BonMP[PigMan,20]\c[4]雄豬頭：\c[0]    去吧，曾經偽神的子民，去面對妳的真神吧....
+
+SexPartyOP/3_1
+\BonMP[PigMan,20]\c[4]雄豬頭：\c[0]    各位兄弟姊妹們！ 為新加入的妹妹祈禱吧！
+
+SexPartyOP/4
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信眾：\c[0]    咿啞！咿啞！ \c[6]尼古拉斯\c[0]！
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信眾：\c[0]    咿啞！咿啞！ \c[6]尼古拉斯\c[0]！！
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信眾：\c[0]    咿啞！咿啞！ \c[6]尼古拉斯\c[0]！！！
+
+SexPartyOP/4_1
+\c[4]祭品：\c[0]    \{阿呀呀呀呀！！！！
+
+SexPartyOP/4_2
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信眾：\c[0]    感恩\c[6]生育之母\c[0]！ 讚嘆\c[6]生育之母\c[0]！
+
+SexPartyOP/5
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信眾：\c[0]    \c[6]生育之母\c[0]阿！ 帶走她的恐懼吧！
+
+SexPartyOP/6
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼東西？ 黑霧中的魔物？ 肉魔？
+\m[terror]\Rshake\c[6]洛娜：\c[0]    不對... 不可能... 世間不可能存在這種東西....
+
+SexPartyOP/end_cocona
+\narr \......\......\......
+\narrOFF\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    姊姊！ 快醒來！
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    嗚喵！ 嗚喵丟下我！
+
+SexPartyOP/end1
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    剛....剛剛發生了什麼？！
+
+SexPartyOP/end1_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    姐姐變成好朋友了...
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    好朋友？ 死掉嗎？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    不用擔心，姐姐沒事的。
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    嗚喵....
+
+SexPartyOP/end2
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚．．．．
+\CBct[20]\m[pain]\Rshake\c[6]洛娜：\c[0]    下腹部好熱\..\..　好想要\...
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[serious]\Rshake\c[6]洛娜：\c[0]    不行，認真點，我能忍住的。
+
+SexPartyOP/end2_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    姊姊？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    不用怕。 我沒事，真的沒事...
+
+######################################################################  Common Dialog
+
+Df_Heresy/4CommonerF_QuRng0_0
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    請問妳知道\c[4]藍藍\c[0]是誰嗎？
+
+Df_Heresy/4CommonerF_QuRng0_1
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    請問妳知道\c[4]藍藍\c[0]在哪嗎？
+
+Df_Heresy/4CommonerF_QuRng0_2
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...\c[4]藍藍\c[0]？
+
+CommonerF/Rng0
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    我好想被幹！ 誰來幹我啊！
+
+CommonerF/Rng1
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    肏我！ 肏我！ 帶走我的恐懼吧！
+
+CommonerF/Rng2
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    生育之母正看著我！ 我感受到她了啊！
+
+Df_Heresy/4CommonerF_QuRngEND
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    呃......
+
+Priest/Qmsg0
+我感受到了！
+
+Priest/Qmsg1
+祂來了啊！
+
+Priest/Qmsg2
+艾莎布尼古拉斯！
+
+Fcommoner/Qmsg0
+哈哈哈...哈哈
+
+Fcommoner/Qmsg1
+嘻嘻嘻...呼呼...
+
+Fcommoner/Qmsg2
+雞巴...大雞巴...
+
+Mcommoner/Qmsg0
+我要射精！
+
+Mcommoner/Qmsg1
+我必須要射精！
+
+Mcommoner/Qmsg2
+哦哦哦！！
+
+Mcommoner/RapeLoopPick_begin
+\CBct[4]\m[lewd]\PRF\c[6]洛娜：\c[0]    雄豬頭大人要我幫你清理肉棒....？
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    你可以隨意肏我？
+
+Mcommoner/RapeLoopPick_0
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    我想肏！ 我想肏！！！
+
+Mcommoner/RapeLoopPick_1
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    舔我的雞巴！ 我需要妳舔我的雞巴♥
+
+Mcommoner/RapeLoopPick_2
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    我想尿尿！ 快把嘴巴靠過來♥
+
+Mcommoner/RapeLoopPick_3
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    我想射精！ 快點♥ 把頭靠過來♥
+
+Mcommoner/RapeLoopPick_Start
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    是....
+
+Mcommoner/RapeLoopPick_END
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    呼呼....♥
+\CBct[3]\m[lewd]\PRF\c[6]洛娜：\c[0]    謝謝您♥
+
+Mcommoner/RapeLoopPick_SuckDick1_0
+\CBid[-1,4]\c[4]信徒：\c[0]    呼！ 太棒了♥
+
+Mcommoner/RapeLoopPick_SuckDick1_1
+\CBid[-1,4]\c[4]信徒：\c[0]    對！ 就是那裏♥
+
+Mcommoner/RapeLoopPick_SuckDick2
+\CBid[-1,4]\c[4]信徒：\c[0]    \{哦哦哦哦♥♥♥
+
+##########################################################################################  rapeloop
+
+NapCapture/0
+\narr洛娜被他們抓走了,他們拿走了諾娜的一切。
+
+NapRngRape/0_0
+\c[4]信徒：\c[0]    是屄！！ 這是我的屄！！ 感謝生育之母！
+
+NapRngRape/0_1
+\c[4]信徒：\c[0]    是我的屄！ 我必須要插進去！
+
+NapRngRape/1_0_NO
+\c[4]信徒：\c[0]    屄怎麼可以反抗！ 屄應該要被幹！
+
+RapeLoop/FirstTime0
+\m[tired]\c[6]洛娜：\c[0]    好想做.... 好想吃雞雞...
+
+RapeLoop/FirstTime1
+\m[confused]\c[6]洛娜：\c[0]     我在哪？ 我在做什麼？
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[pain]有什麼東西在我的嘴前？
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[hurt]嗚嗚...好臭...
+
+RapeLoop/FirstTime2
+\Rflash\SndLib[sound_chcg_full]\CBmp[PigMan,20]\c[4]雄豬頭：\c[0]    生育之母阿！ 幫她帶走一切恐懼吧！
+
+RapeLoop/FirstTime3
+\CBct[6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚．．．．
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    生育之母已驅散了妳的煩惱，妳將不會再感受到任何恐懼及痛苦。
+\CBct[6]\m[tired]\Rshake\c[6]洛娜：\c[0]    嗚嗚．．．．你是誰？
+
+RapeLoop/FirstTime3_1
+\CBct[2]\m[tired]\PRF\c[6]洛娜：\c[0]    我在哪？ 我在做什麼？
+
+RapeLoop/FirstTime3_2
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    這是...什麼？
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    這是生育之母的恩惠，能讓你忘卻一切恐懼與煩惱。
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    喝下它，妳將成為我們的一份子。
+\CBct[2]\m[tired]\PRF\c[6]洛娜：\c[0]    是...
+
+RapeLoop/FirstTime4
+\CBmp[PigMan,20]\c[4]雄豬頭：\c[0]    很好！ 非常好！ 妳將成為我們的肉便器！
+\CBmp[PigMan,20]\c[4]雄豬頭：\c[0]    妳將成為我們的一份子！ 我們的肉便器！
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    我是...便器？
+\CBmp[PigMan,20]\c[4]雄豬頭：\c[0]    兄弟姊妹們！ 為新來的妹妹歡呼吧！
+
+RapeLoop/FirstTime4_1
+\BonMP[PPL4,20]\BonMP[PPL5,20]\BonMP[PPL6,20]\BonMP[PPL7,20]\c[4]信眾：\c[0]    咿啞！咿啞！ \c[6]尼古拉斯\c[0]！
+
+RapeLoop/FirstTime5
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    孩子啊，妳已是我們的一份子了。
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    去吧....去接受兄弟們的愛吧。幫他們忘卻恐懼。
+\CBct[6]\m[tired]\Rshake\c[6]洛娜：\c[0]    是...
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚．．．．
+\CBct[20]\m[lewd]\PRF\c[6]洛娜：\c[0]    好想做\..\..　好想要\...
+\CBct[20]\m[shy]\Rshake\c[6]洛娜：\c[0]    我的身體怎麼了？
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚．．．．
+\CBct[20]\m[lewd]\PRF\c[6]洛娜：\c[0]    好熱...好熱啊！
+
+actionRapeLoop/Wall0_0
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼？ 我不應該離開？！
+
+actionRapeLoop/Wall0_1
+\CBct[1]\m[terror]\Rshake\c[6]洛娜：\c[0]    我必須與其他人肏！
+
+actionRapeLoop/Wall0_2
+\CBct[1]\m[serious]\Rshake\c[6]洛娜：\c[0]    我必須讓其他弟妹們快樂！？
+
+actionRapeLoop/Wall0_3
+\CBct[1]\m[sexhurt]\Rshake\c[6]洛娜：\c[0]    我一定要讓他們射出來！？
+
+actionRapeLoop/Wall0_NotEnough
+\CBct[6]\m[pain]\Rshake\c[6]洛娜：\c[0]    嗚嗚....
+
+actionRapeLoop/Wall0_Break
+\CBct[20]\m[serious]\Rshake\c[6]洛娜：\c[0]    嗚...振作....離開...
+
+actionRapeLoop/commoner_opt
+\CBct[6]\m[lewd]\Rshake\c[6]洛娜：\c[0]    我... 我到底在做什麼？\optB[算了,奉獻]
+
+actionRapeLoop/Wall1_opt
+\CBct[6]\m[tired]\Rshake\c[6]洛娜：\c[0]    我... 我到底在做什麼？\optB[繼續奉獻,抵抗]
+
+actionRapeLoop/Sleep_opt
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    我不能休息！ 我還有事情要做！！\optD[繼續奉獻,睡覺]
+
+actionRapeLoop/DidntDoSex_PlusAggroRate0_0
+\narr\cg[event_Eyes]洛娜並未與其他教徒進行神聖的交溝...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_1
+\narr這讓教徒們相當的不滿...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_2
+\narr教徒們開始懷疑洛納...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_3
+\narr教徒們決定獻祭這個背叛者...
+
+actionRapeLoop/Blocked0
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    不！ 我必須讓其他人忘掉恐懼！
+
+actionRapeLoop/Blocked1
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]   不！ 我是生育之母的信徒！ 我必須跟人做！
+
+actionRapeLoop/Blocked2
+\CBct[6]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不！ 我必須要讓其他人射在裡面！ 那是我的責任！
+
+wakeUp/suckDick-0
+\CBct[6]\m[confused]\Rshake\c[6]洛娜：\c[0]    我在哪裡？ 我要做什麼？
+\CBct[6]\m[lewd]\Rshake\c[6]洛娜：\c[0]    對了！ 我要吃臭臭的肉棒...
+
+wakeUp/suckDick0_0
+\CBct[6]\m[lewd]\Rshake\c[6]洛娜：\c[0]    肉棒... 好好吃...
+
+wakeUp/suckDick0_1
+\CBct[6]\m[lewd]\Rshake\c[6]洛娜：\c[0]    我必須把它舔乾淨...
+
+wakeUp/suckDick0_2
+\CBct[6]\m[lewd]\Rshake\c[6]洛娜：\c[0]    我的責任，清理它。
+
+wakeUp/suckDick1_0
+\CBmp[PigMan,4]\c[4]雄豬頭：\c[0]    對，很好，就是那裡。
+
+wakeUp/suckDick1_1
+\CBmp[PigMan,4]\c[4]雄豬頭：\c[0]    沒錯，這是生育之母賦予妳的責任。
+
+wakeUp/suckDick1_2
+\CBmp[PigMan,4]\c[4]雄豬頭：\c[0]    太棒了！ 生育之母以妳為榮！
+
+wakeUp/suckDick1_pee
+\CBmp[PigMan,4]\c[4]雄豬頭：\c[0]    把頭抬起來。 妳將接受生育精華的沐浴。
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    是....
+
+wakeUp/suckDick2
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    妳做得很好。但妳的兄弟們依然在恐懼中過活。
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    去吧，去釋放他們的恐懼。
+\CBct[4]\m[lewd]\PRF\c[6]洛娜：\c[0]    感謝雄豬頭大人。洛娜這就去讓他們肏翻我。
+
+wakeUp/suckDick3
+\CBct[2]\m[lewd]\PRF\c[6]洛娜：\c[0]    我必須要讓他們肏？ 我必須要吃肉棒？
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    那要吃誰的雞巴呢？
+
+wakeUp/GangRape0
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    孩子，妳做得很好。
+\CBct[3]\m[lewd]\PRF\c[6]洛娜：\c[0]    謝謝雄豬頭大人♥
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    但我依然從信徒中感受到了大量的恐懼。
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    回頭看看吧，那些人可憐人依然活在恐懼之中。
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    去解放他們吧！
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    是....？
+
+wakeUp/GangRape1
+\CBct[3]\m[lewd]\PRF\c[6]洛娜：\c[0]    各位兄弟...請隨意肏我？
+
+wakeUp/Break0
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    孩子，妳做得很好。
+\CBct[3]\m[lewd]\PRF\c[6]洛娜：\c[0]    謝謝雄豬頭大人♥
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    去休息吧，明天妳將清理更多人的恐懼。
+\CBmp[PigMan,20]\prf\c[4]雄豬頭：\c[0]    一切都是為了生育之母。
+\CBct[3]\m[lewd]\PRF\c[6]洛娜：\c[0]    一切都是為了生育之母♥
+
+wakeUp/Break1
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    我是誰？我在這裡做什麼？
+
+GameOver/0
+\m[tired]\PRF\c[6]洛娜：\c[0]    咦...？
+\m[confused]\PRF\c[6]洛娜：\c[0]    好熱....？
+\m[tired]\PRF\c[6]洛娜：\c[0]    ......
+
+GameOver/1
+\BonMP[PigMan,20]\prf\c[4]雄豬頭：\c[0]    她居然反抗了偉大的生育之母！
+\BonMP[PigMan,20]\prf\c[4]雄豬頭：\c[0]    她沒有資格享有快樂！
+\BonMP[PigMan,20]\prf\c[4]雄豬頭：\c[0]    我們必須將恐懼還給她！
+
+GameOver/2
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake ！！！！
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    好燙！ 好燙啊！
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    不要！ 我不想死！ 不要啊！！
+\SndLib[sound_Bubble]\Rflash\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊！！
+
+GameOver/3
+\narr洛娜被煮熟了。
+\narr她的肉被教徒們分食。
+\narr骨頭被熬熬製成高湯。
+\narr最後什麼都沒有剩下....
+
+######################################################################  BlueBlue
+
+Df_Heresy4/BlueBlue0
+\CBid[-1,2]\prf\c[4]信徒：\c[0]    \c[6]藍藍\c[0]\..\..\..？
+\CBid[-1,5]\prf\c[4]信徒：\c[0]    我是\c[6]藍藍\c[0]？！
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    我是\c[6]藍藍\c[0]？ 我必須讓男人肏翻我！
+
+Df_Heresy4/BlueBlue1
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    妳姊姊一直在找妳，我們回去好不好啊？
+\CBid[-1,8]\prf\c[4]藍藍：\c[0]    姊姊\..\..\..？
+\CBid[-1,20]\prf\c[4]藍藍：\c[0]    姊姊她討厭我！ 大家都看不起我！
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    她怎麼會討厭妳呢？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    妳姊姊很擔心妳，她還叫我來這找妳。
+\CBid[-1,20]\prf\c[4]藍藍：\c[0]    不要！ 我不要回去！ 這個世界太可怕了！
+\CBid[-1,20]\prf\c[4]藍藍：\c[0]    世上到處都是壞人，大家都想要欺負我！
+\CBid[-1,20]\prf\c[4]藍藍：\c[0]    在這裡沒有恐懼！ 我在這覺得很快樂！
+
+Df_Heresy4/BlueBlue2
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我總覺得這裡更不妙耶...
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    妳肚子都這麼大了，就當是為了孩子吧。
+\CBid[-1,8]\prf\c[4]藍藍：\c[0]    孩子\..\..\..
+\CBid[-1,8]\prf\c[4]藍藍：\c[0]    好吧...我跟妳走...
+\CBct[3]\m[pleased]\PRF\c[6]洛娜：\c[0]    太好了！
+
+Df_Heresy4/BlueBlue3
+\CBct[6]\m[serious]\PRF\c[6]洛娜：\c[0]    這裡真的很不妙，我必須馬上離開這。
+
+Df_Heresy4/BlueBlue4_opt
+\CBmp[BBguard,4]\prf\c[4]信徒：\c[0]    好妹妹♥ 我想肏妳♥ 來排出恐懼吧♥
+\CBct[6]\m[angry]\Rshake\c[6]洛娜：\c[0]    不好了...\optD[不理他,唬爛<r=HiddenOPT1>,威脅<r=HiddenOPT2>]
+
+Df_Heresy4/BlueBlue4_WIS0
+\CBct[5]\m[serious]\PRF\c[6]洛娜：\c[0]    聽著！ 她是我的！
+\CBmp[BBguard,2]\prf\c[4]信徒：\c[0]    妳\..\..\..是女的？？
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    女人跟女人沒有辦法生孩子！
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    生育之母不准許這種事情發生！
+\CBct[5]\m[angry]\Rshake\c[6]洛娜：\c[0]    你怎麼知道女人跟女人之間不能有孩子？
+\CBct[5]\m[serious]\Rshake\c[6]洛娜：\c[0]    你是女人嗎？ 你當過女人嗎？！
+\CBct[5]\m[angry]\Rshake\c[6]洛娜：\c[0]    偉大的生育之母有跟你說過女女不能生孩子嗎？
+\CBmp[BBguard,6]\prf\c[4]信徒：\c[0]    我...
+\CBct[5]\m[serious]\Rshake\c[6]洛娜：\c[0]    你跟她是不可能的！ 你沒看到她已經有孩子了嗎？
+\CBmp[BBguard,6]\prf\c[4]信徒：\c[0]    我錯了....
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    妳說得有道理，她是你的了...
+
+Df_Heresy4/BlueBlue4_WIS1
+\CBct[3]\m[flirty]\PRF\c[6]洛娜：\c[0]    哈哈...？
+
+Df_Heresy4/BlueBlue4_CB0
+\CBmp[BBguard,6]\c[4]信徒：\c[0]    嗚哦哦！！！
+\CBmp[BBguard,20]\c[4]信徒：\c[0]    \{我的蛋蛋啊！！！！
+
+Df_Heresy4/BlueBlue4_CB1
+\CBct[5]\m[irritated]\Rshake\c[6]洛娜：\c[0]    我們必須馬上離開這！
+
+Df_Heresy4/BlueBlue4_AGGRO
+\CBmp[BBguard,2]\c[4]信徒：\c[0]    嗯？ 我沒看過妳，妳是誰？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃.....
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    是偽神的使徒！ 快來人啊！
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{糟糕了！
+
+Df_Heresy4/END
+\board[生育之母教]
+目標：找到\c[6]藍藍\c[0]並帶回給\c[6]默默\c[0]
+期限：2天
+委託主：末日堡壘難民營的\c[6]默默\c[0]
+盡快回到末日堡壘難民營。
+
+Df_Heresy4/CompRng0
+\CBid[-1,8]\prf\c[4]藍藍：\c[0]    姐姐不會生我的氣吧？
+
+Df_Heresy4/CompRng1
+\CBid[-1,8]\prf\c[4]藍藍：\c[0]    我錯了....
+
+Df_Heresy4/CompRng2
+\CBid[-1,8]\prf\c[4]藍藍：\c[0]    對不起...

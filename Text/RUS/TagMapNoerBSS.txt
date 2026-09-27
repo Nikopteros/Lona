@@ -1,0 +1,39 @@
+NoerBSS/OvermapEnter
+\m[confused]Сталь и изделия из стали Железного Буббы \optB[Отмена,Войти]
+
+#############################  BSS MASTER
+BSStrader/welcome
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    Добро пожаловать... В профессиональный магазин стали... У Железного Буббы... Меня зовут... Бубба...
+
+BSStrader/end
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    Спасибо... Приходи... Много раз...
+
+BSStrader/Opt_RemoveCuff
+\CBct[8]\m[confused]\c[6]Лона：\C[0]    Эммм...? \optB[Отмена,Обмен,Кто ты?,Снять оковы]
+
+BSStrader/NotCuffed
+\CBmp[BSStrader,8]\c[4]Бубба：\C[0]    Твои руки... Не... Скованы...
+
+BSStrader/SlaveBrand
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    На тебе... Метка...?
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    Ты... Рабыня Ноэра... Навсегда...
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    Закон... Запрещает... Нельзя...
+
+BSStrader/Aid0
+\CBmp[BSStrader,8]\c[4]Бубба：\C[0]    Идём... В мастерскую...
+
+BSStrader/Aid1
+\CBct[6]\m[fear]\c[6]Лона：\C[0]   Эммм... А больно не будет?
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    Боль... Возможно...
+\CBct[6]\m[sad]\Bon[6]\c[6]Лона：\C[0]    *Хнык*...
+
+BSStrader/RemoveEnd
+\narr Оковы были сняты.
+
+BSStrader/About
+\CBmp[BSStrader,20]\m[normal]\c[4]Бубба：\C[0]    Мой... Брат... живёт на... острове Рыбополис...
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    Богатый дома... Беспомощный... Жизнь ограничена...
+\CBmp[BSStrader,20]\m[confused]\c[4]Бубба：\C[0]    Ноэр открыт... Я купил... магазин...
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0]    Воплотить... мечту... Пошёл... сам...
+\CBct[2]\m[flirty]\c[6]Лона：\C[0]    ...Ч-Что?
+

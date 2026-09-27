@@ -1,0 +1,138 @@
+thisMap/Enter
+\m[confused]Пустынный остров \optB[Отмена,Войти]
+
+########################################################### Capture begin
+
+OPevent/0
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,40,4]\BonMP[RngGuy1,3]\SETpr[raper1]\Rshake\c[4]Беженец：\C[0]    Ах ах ах ♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpr[raper2]\Rshake\c[4]Беженец：\C[0]    Ох ох ох ♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    \{Свали отсюда!!
+
+OPevent/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\Bon[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    .....
+
+OPevent/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    Это....
+
+OPevent/3_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    \{Это ЖЕНЩИНА!
+
+OPevent/4_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    Слава Святому! Святой вернул её к жизни!
+
+OPevent/5_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    Эй, парни! Хватит шароёбиться по округе!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    \{Это ЖЕНЩИНА!
+
+OPevent/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    \{Это ОНА!
+
+OPevent/4
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    Должно быть, Святой услышал наш зов!
+
+OPevent/5
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Беженец：\C[0]    Он вернул \c[6]Лону\C[0]!
+
+OPevent/6
+\SFXfile[Cursor2]\SFXset[50,25,1]\BonMP[RngGuy1,2]\SETpr[raper_group]\Rshake\c[4]Беженец：\C[0]    Что?!
+
+OPevent/7_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\prf\c[4]Беженец：\C[0]    Ты сказал «женщина»?
+
+OPevent/7
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpR[raper2]\plf\Rshake\c[4]Беженец：\C[0]    Ты сказал \c[6]«Лона»\C[0]?
+
+OPevent/8
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,3]\SETpl[raper1]\Lshake\prf\c[4]Беженец：\C[0]    Это женщина?!
+
+OPevent/9
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\c[4]Беженец：\C[0]    Сначала помогите ей исцелиться! Быстро! Мы не можем дать ей снова умереть!
+
+FirstRape/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Ооохх... Где....?
+\SFXfile[Cursor2]\SFXset[50,25,4]\CBmp[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]Беженец：\C[0]    Она проснулась! Пусти меня первым!
+
+FirstRape/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[hurt]\plf\Rshake\c[6]Лона：\C[0]    Ах?!
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[pain]\plf\Rshake\c[6]Лона：\C[0]    Погодьте... Ребят...
+
+FirstRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]Беженец：\C[0]    Дырка моя ♥
+
+FirstRape/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper3]\Lshake\c[4]Беженец：\C[0]    Вот так, поехали ♥
+
+FirstRape/3_1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[p5sta_damage]\plf\Rshake\c[6]Лона：\C[0]    Аа.. АааА?!!!
+
+########################################################### first time wake up
+
+Wakeup/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\Rshake\c[6]Лона：\C[0]    Что это за...?
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[sad]\plf\Rshake\c[6]Лона：\C[0]    Почему все люди посходили с ума?
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\Rshake\c[6]Лона：\C[0]    Мне нужно выбираться отсюда.
+
+########################################################### DailyFree
+
+WakeRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]Беженец：\C[0]    Ну всё.♥ Я проголодался.♥ Время трапезы.♥
+
+WakeRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]Беженец：\C[0]    Женщины лучше.♥ Их настолько приятнее трахать.♥
+
+WakeRape/0_2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]Беженец：\C[0]    Кто я? Где это? Что я делаю?
+
+########################################################### daily celebrity 
+
+celebrity/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Аах...
+
+celebrity/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]Беженец：\C[0]    Слава Святым за то, что они воскресили наш живой туалет!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]Беженец：\C[0]    Мы со всем тщанием насладимся каждой дырочкой в её теле!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]Беженец：\C[0]    Спасибо Святому ♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]Беженец：\C[0]    Хвала Святому ♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,4]\SETpl[raper1]\Lshake\c[4]Беженец：\C[0]    Заканчивайте ваши молитвы поскорее! Я не могу больше сдерживаться!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]Беженец：\C[0]    Собратья! Давайте же насладимся ею!
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Подождите...Что?!
+
+########################################################### NapRape
+
+NapRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Беженец：\C[0]    Хехехе.... Мясная дырочка...
+
+NapRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Беженец：\C[0]    Женщина! Наша женщина!
+
+NapRape/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Беженец：\C[0]    Мой хуй как каменный....
+
+NapRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Беженец：\C[0]    Я собираюсь снова... не могу больше сдерживаться...
+
+NapRape/angry
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Беженец：\C[0]    Хватит сопротивляться!! Почему ты не даёшь себя ебать?!
+
+########################################################### Qmsg
+
+Qmsg/0
+Где я? Что мы тут делаем?
+
+Qmsg/1
+Мой член такой твёрдый...
+
+Qmsg/2
+Ты женщина?!
+
+Qmsg/3
+Хочу трахнуть женщину...
+
+Qmsg/Child0
+У меня жопа не закрывается
+
+Qmsg/Child1
+Хочу трахнуть дырку из мяса...
+
+Qmsg/Child2
+Этот цветок неудовлетворителен...

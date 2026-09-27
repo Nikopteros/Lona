@@ -1,0 +1,11 @@
+####################################--------------------- overmap
+this/OvermapEnter
+\m[confused]失落神廟\optB[算了,進入]
+
+this/3to4
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[serious]\c[6]洛娜：\c[0]    就是這裡了！
+\CamMP[RapePoint]\m[serious]\c[6]洛娜：\c[0]    前面看起來非常的危險，我必須要小心。
+
+this/4to5
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    搞定！ 回鎮上領賞吧！

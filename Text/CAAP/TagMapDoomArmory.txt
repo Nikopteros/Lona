@@ -1,0 +1,80 @@
+thisMap/OvermapEnter
+\cg[map_NoerGate]Armería \optB[Cancelar,Entrar,Colarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>,Prostitución<r=HiddenOPT3>]
+
+thisMap/OvermapEnter_enter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alto! ¡Prohibido el paso a extraños!
+
+thisMap/OvermapEnter_SGTenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alto! ¿Quién eres?
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh, aquí está mi identificación. La \c[4]Gremio de Mercenarios\C[0] me envió a copiar los registros del Comandante Brian.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿A ti? Veamos\..\..\..
+
+thisMap/OvermapEnter_SGTenter_weak
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡No me mientas! Una gallina inútil y débil como tú no podría trabajar para el jefe.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Si fuera así, ¡los monstruos ya nos habrían destruido!
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Eh... Perdón....
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Lárgate!
+\narr Lona parece demasiado débil.
+
+thisMap/OvermapEnter_SGTenter_pass
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Eh? ¿Un chico como tú trabajaba en el \c[4]Cuartel\C[0] a esa edad? Qué duro.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Bueno, pasa.
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh... ¿Chico?
+
+thisMap/OvermapEnter_SNEAKenter
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Me pregunto si podría escalar este muro. Quizá pueda intentarlo.
+
+thisMap/OvermapEnter_SNEAKenter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Oye! ¿Qué haces aquí?
+
+thisMap/OvermapEnter_WISenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alto! ¿Quién eres?
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh... Yo... Bueno\..\..\..
+
+thisMap/OvermapEnter_WhoreEnter_win
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Ve al segundo piso. No te atrevas a rondar por el primero. ¿Claro?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Pasa.
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Gracias...
+
+thisMap/OvermapEnter_WhoreEnter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Un chico?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Vete! ¡No nos interesan los chicos!
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Yo... Oh, perdón....
+
+
+#####################################################################################  DENTRO
+
+guns/theOne
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Uf... Parece una lanza, pero con un tubo de metal al final.
+\CBct[20]\m[pleased]\Rshake\c[6]Lona：\C[0]    ¡Es esto!
+
+art/black
+\cg[other_Black]\m[confused]\c[6]Lona：\C[0]    ¿Un lienzo vacío?
+Es un color magnífico e indescriptible que busca atraer tu atención y hacerte reflexionar.
+\m[flirty]\c[6]Lona：\C[0]    ¿Pero no es solo el color negro?
+
+guard/timerStart
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Quién anda ahí?!
+\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡Mierda!
+
+GuardDoor/Qmsg0
+¡No pierdas demasiado tiempo!
+
+GuardDoor/Qmsg1
+¡Vete cuando termines!
+
+GuardDoor/Qmsg2
+¿No tienes nada que hacer aquí?
+
+GuardWatcher/Qmsg0
+Qué aburrido
+
+GuardWatcher/Qmsg1
+Esperando mi turno
+
+GuardWatcher/Qmsg2
+Tengo sueño...
+
+guns/lockedQmsg
+Cerrado
+

@@ -1,0 +1,215 @@
+ThisMap/Enter
+\m[confused]魚托比專業民宿
+
+################################################################
+
+InnKeeper/Begin
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]老闆：\c[0]    外來者... 妳要什麼...？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯...\optB[算了,交易,關於]
+
+InnKeeper/Slave
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]老闆：\c[0]    奴隸！ 逃跑的女人！
+
+InnKeeper/about
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]老闆：\c[0]    此民宿... 為了你們而開... 為了買進... 更多奴隸而存在...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]老闆：\c[0]    你們... 所面對的災難... 是海巫為了逞罰你們....
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]老闆：\c[0]    我們... 海巫之子... 將會回到本島...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]老闆：\c[0]    而妳... 將會滅絕...
+
+BoldAndBrash/art0
+\cg[other_SeaWitch]海巫的畫像
+讚嘆海巫的美貌，讚嘆她的品味。
+作者 ： 斯昆瓦特.泰迪克
+\m[confused]\c[6]洛娜：\c[0]    耶？！
+
+BoldAndBrash/art1_typical
+\m[flirty]\Rshake\c[6]洛娜：\c[0]    有點像垃圾，應該重畫比較好...
+
+BoldAndBrash/art1_tsundere
+\m[serious]\prf\c[6]洛娜：\c[0]    \..\..\..你認真的？
+\m[wtf]\Rshake\c[6]洛娜：\c[0]    這是我見過最遭的畫作！
+
+BoldAndBrash/art1_gloomy
+\m[flirty]\prf\c[6]洛娜：\c[0]    \..\..\..
+\m[normal]\c[6]洛娜：\c[0]    呃...綠色...像草原般的綠色呢...
+
+BoldAndBrash/art1_slut
+\m[flirty]\prf\c[6]洛娜：\c[0]    感覺\..\..\..
+\m[lewd]\Rshake\c[6]洛娜：\c[0]    你確定這不是在畫我的尻穴？
+
+################################################################ INN COmmoner
+
+Guard/Rand0
+\c[4]傭兵：\c[0]    不覺得奇怪？沒有看見任何母漁人？
+
+Guard/Rand1
+\c[4]傭兵：\c[0]    我感覺我跟\c[6]瓊金斯\c[0]大人一樣深陷敵陣，但卻無法衝鋒。
+
+Guard/Rand2
+\c[4]傭兵：\c[0]    哈！ 我聽說牠們會把同族的女人吃掉！ 因為牠們不能生育！ 我覺得這是真的！
+
+
+merchant/Rand0
+\c[4]商人：\c[0]    醬汁呢！ 他媽的醬汁在哪！？ 我去！ 聖徒會再次降臨，並逞罰牠們！
+
+merchant/Rand1
+\c[4]商人：\c[0]    我可是有錢人！ 我吃膩魚了！ 我要吃人吃的東西！ 給我真正的食物！
+
+merchant/Rand2
+\c[4]商人：\c[0]    魚？ 又是魚？！ 最該死的是這些魚居然是生的！ 這是對廚藝的羞辱！
+
+
+merchantFat/Rand0
+\c[4]商人：\c[0]    唉唉，此一時彼一時啊。 沒想到我們居然落到要跟漁人求糧。
+
+merchantFat/Rand1
+\c[4]商人：\c[0]    聽說\c[6]盧德辛\c[0]家族用食物供給與牠們交換了什麼？ 以前我們根本不可能在諾爾島看見這些漁人。
+
+merchantFat/Rand2
+\c[4]商人：\c[0]    信嗎？ 我女兒看到牠們都快被嚇死了，牠們真是太醜了。
+
+
+traveler/Rand0
+\c[4]旅行者：\c[0]    我總算有機會來到這了，遺憾的是牠們的文化早已被破壞了。
+
+traveler/Rand1
+\c[4]旅行者：\c[0]    妳見過半獸人嗎？ 毛茸茸最棒了♥ 那根本是聖徒的禮物♥
+
+traveler/Rand2
+\c[4]旅行者：\c[0]    妳聽過人魚的傳說嗎？ 一想到牠們的女人長什麼樣我就興奮得睡不著！
+
+
+RichFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    海巫顯靈了...！ 讚嘆海巫...！ 感恩海巫...！
+
+RichFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    吾等魚獲...！ 是之前的百倍...！ 海巫威能！！！
+
+RichFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    人類阿...！ 這是海巫對你們...的逞罰！
+
+
+CommonFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    我們...吃菜...。 人類...吃魚...。
+
+CommonFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    蠢人類...吾等的時代...來臨了！
+
+CommonFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]漁人：\c[0]    這一切...都是海巫的報復...呱呱...你們慘了...。
+
+################################################################ INN Quest Giver
+
+InnQuGiver/TooWeak
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    女人...！ 回去...做妳該做的！
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    抱歉...
+
+InnQuGiver/0_begin0
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    女人... 奴隸... 逃跑了...！
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    外來的... 女人...！ 吾等需要妳...！
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    幫我們... 把海巫的背叛者...釣出來...
+
+InnQuGiver/0_begin1
+\board[奴隸營地]
+目標：找到奴隸營地
+報酬：大銅幣3
+委託主：漁人
+期限：單次
+找出那些不知羞恥的背叛者！
+
+InnQuGiver/0_begin1_no
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃...
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    不要，我不想傷害其他人。
+
+InnQuGiver/0_begin1_yes
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃...
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    我接了，有更詳細的訊息嗎？
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    女人...離不開的...
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    那些... 該死的...一定躲在...魚托比的某處。
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    這不是跟沒有一樣嗎？
+
+InnQuGiver/1_begin1
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    我找到她們了，她們在南方扎了一個小營地。
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    勇士啊... 我們感謝妳...
+
+InnQuGiver/1_begin1_askQ
+\CBmp[QuGiver,2]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    妳有殺了...女人嗎？
+
+InnQuGiver/1_begin1_noKill
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    當然沒有。
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    妳不是...勇士...
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    逃跑的... 女人...都得死... 背叛者...都得死...
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什麼？ 沒有這麼嚴重吧？
+
+InnQuGiver/1_begin1_Killed
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    我...
+\CBct[20]\m[tired]\c[6]洛娜：\c[0]    我的確殺了她們...
+\CBct[20]\m[sad]\c[6]洛娜：\c[0]    對不起...
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    做的好...！ 妳是真正的勇士...！
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    我將提供妳... 更多！
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    .....
+
+############################ Quest 2
+
+InnQuGiver/2_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    外來的勇士...！ 海巫的碎片... 發生了轉化... 變成邪惡的碎片....！
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃...？
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    它們...！ 被假海巫...汙染了...吾等...必須將其一網打盡...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    東邊的...廢棄...神廟被他們佔據了...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    部落的勇士... 失敗了... 他們沒有回來....
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    我...必須將其...殺絕...
+
+InnQuGiver/2_begin1
+\board[邪惡的碎片]
+目標：殲滅假海巫的碎片
+報酬：大銅幣3
+委託主：漁人
+期限：單次
+毀滅假海巫的碎片！
+
+InnQuGiver/2_begin1_yes
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃...邪惡的碎片？
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    邪神... 毀滅...你們的土地時....
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    也污染了...海巫的守衛...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    它們...是由海巫養大...卻背叛了海巫...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    現在...它們...是由假海巫率領！ 假海巫等同邪惡...！
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    必須...消滅邪惡的碎片....
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    有聽沒懂...
+\CBct[20]\m[serious]\c[6]洛娜：\c[0]    算了，交給我吧！ 我會搞定的！
+
+InnQuGiver/5_win1
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    搞定了！ 那些\.... 呃\..\.... 邪惡的碎片都死光了！
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    太好了....
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    強大的...勇士阿.... 這是您...的獎賞....
+
+InnQuGiver/5_win2
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    勇士阿.... 與吾等交配吧.... 您定能留下...強大的子婿.....
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    交配？！
+\CBct[6]\m[flirty]\c[6]洛娜：\c[0]    呃\..\.... 我再考慮吧...
+
+############################ Quest 3
+
+InnQuGiver/FishFHuntLoop0_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    假海巫的殘黨... 依然存於吾等之家園...！
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    將牠邪惡的眼睛...挖出來獻給海巫....！
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃...
+
+InnQuGiver/FishFHuntLoop0_begin2
+\board[邪惡的碎片]
+目標：收集10個假海巫之眼\i[160]
+報酬：大銅幣2
+委託主：漁人
+期限：長期支援
+假海巫的碎片躲在島上海灘的水中。
+把牠們釣出來...！殺掉...！
+將他們的眼睛挖出來...！ 獻給海巫...！
+感恩海巫...！ 讚嘆海巫...！
+
+InnQuGiver/FishFHuntLoop0_yes
+\CBct[20]\m[serious]\c[6]洛娜：\c[0]    交給我吧！
+
+InnQuGiver/FishFHuntLoop_win0
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    呃\..\.... 這是你要的眼睛？
+
+InnQuGiver/FishFHuntLoop_win1
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    太好了....

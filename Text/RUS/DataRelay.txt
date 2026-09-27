@@ -1,0 +1,31 @@
+
+RelayEMP/Welcome0
+\CBid[-1,20]\m[confused]\prf\c[4]Извозчик：\C[0]    Чем могу помочь?
+
+RelayEMP/Welcome1
+\CBid[-1,20]\m[confused]\prf\c[4]Извозчик：\C[0]    Сейчас не так много мест, куда можно отправиться. Куда ты хочешь?
+
+RelayEMP/SlaveBlock
+\CBid[-1,20]\prf\c[4]Извозчик：\C[0]    Грязные рабыни не имеют права пользоваться моими услугами! Убирайся прочь и возвращайся к своему хозяину!
+\CBct[6]\m[sad]\c[6]Лона：\C[0]    Х-хорошо...
+
+RelayEMP/NoGold
+\CBid[-1,20]\prf\c[4]Извозчик：\C[0]    Нету денег?! ТОГДА УБИРАЙСЯ С ГЛАЗ МОИХ!
+\CBct[6]\m[flirty]\c[6]Лона：\C[0]    И... Извините......
+
+RelayEMPfish/Welcome0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Паромщик：\C[0]    Рыбополис... Наш дом...
+
+RelayEMPfish/Welcome1
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Паромщик：\C[0]    Человек... *Фырк* Куда ты... идти...?
+
+RelayEMPfish/SlaveBlock
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Паромщик：\C[0]    Рабы... Нельзя... уходить...! Вернись... Рожать... ещё потомков...!
+\CBct[6]\m[sad]\c[6]Лона：\C[0]    П... Понятно......
+
+RelayEMPfish/SlaveAccept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Паромщик：\C[0]    Рабыня... Свежая девочка... Иди сюда......
+\CBct[2]\m[flirty]\c[6]Лона：\C[0]    Эмм...?
+
+RelayEMP/opt
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Эмм...

@@ -1,0 +1,99 @@
+overmap/OvermapEnter
+\m[confused]廢棄的銅礦場\optB[算了,進入]
+
+################################# OP
+
+yeller/start
+\CamMP[MerA]\BonMP[MerA,20]\c[4]傭兵：\c[0]    快跑！ 快跑啊！
+\CamMP[Runner]\BonMP[Runner,20]\c[4]傭兵：\c[0]    不！我不想死！救救我！
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[0]兔子：\c[0]    吱吱！
+
+yeller/start1
+\CamMP[Runner]\BonMP[Runner,20]\c[4]傭兵：\c[0]    不要！ 不要過來！
+
+yeller/start2
+\CamMP[MerA]\BonMP[MerA,20]\c[4]傭兵：\c[0]    不！布朗尼死掉了！
+\CamMP[MerB]\BonMP[MerB,5]\c[4]傭兵：\c[0]    操！你這個渾蛋！
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed2.ogg]\c[0]兔子：\c[0]    吱吱！
+
+yeller/start3
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[0]兔子：\c[0]    吱吱！
+\CamCT\m[flirty]\C[0]\C[6]洛娜：\C[0]    呃？！ 兔子？？
+
+################################# OP
+
+priest/begin0
+\prf\BonMP[Priest,8]\c[4]傭兵：\c[0]    我知道！我讀過書！我拜過聖徒！這是深淵的暴食者！\optB[沒事,關於,給予聖水<r=HiddenOPT0>]
+
+priest/win
+\prf\BonMP[Priest,20]\c[4]傭兵：\c[0]    成功了！邪惡被消滅了！寶物是我的了！
+
+priest/about
+\CamCT\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    這裡發生了什麼事？
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]傭兵：\c[0]    我們接了消滅異變動物的工作，但在這裡等我們的根本什麼動物！
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]傭兵：\c[0]    這是灰暗暴食者！
+\CamMP[KillerRabbit]\BonMP[Priest,20]\prf\c[4]傭兵：\c[0]    暴食者隨著灰暗來臨，隨著謊言的腳步吞食一切。哪章哪節... 我忘了！
+\CamMP[KillerRabbit]\BonMP[Priest,15]\prf\c[4]傭兵：\c[0]    看那紅色的眼珠，白色的毛皮！這是罪惡的象徵！
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]傭兵：\c[0]    我們需要\c[2]聖水\c[0]！能超渡一切邪惡的\c[2]聖水\c[0]，可是我被聖徒會趕出來了！
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]傭兵：\c[0]    幫我弄點\c[2]聖水\c[0]來！我就有辦法打倒它！
+\CamCT\m[serious]\Rshake\C[0]\C[6]洛娜：\C[0]    沒問題！
+
+priest/HolyWater0
+\CamCT\m[shocked]\Rshake\C[0]\C[6]洛娜：\C[0]    我拿到聖水了！
+
+priest/HolyWater1
+\CamMP[Priest]\BonMP[Priest,3]\prf\c[4]傭兵：\c[0]    太好了！
+
+priest/HolyWater2
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]傭兵：\c[0]    聖徒於此護佑無辜者！
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]傭兵：\c[0]    聖徒在此斬除謊言與邪惡！
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]傭兵：\c[0]    讚美聖徒！
+\CamCT\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    把它撒在這就好了嗎？
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]傭兵：\c[0]    沒問題的，這裡已是聖徒的聖域，一切邪惡與謊言進來就會灰飛煙滅！
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]傭兵：\c[0]    然後我們需要一個人將它引到聖域內。
+\CamCT\m[wtf]\PRF\C[0]\C[6]洛娜：\C[0]    呃？
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]傭兵：\c[0]    小妹，就是妳了！去吧！跟隨聖徒的腳步吧！
+\CamCT\m[shocked]\Rshake\C[0]\C[6]洛娜：\C[0]    呃呃？ 我？
+
+priest/HolyWater3
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]傭兵：\c[0]    不用怕，加油，聖徒會保護妳的！
+\CamCT\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    哈？
+
+
+Lona/RabbitDed0
+\CamMP[KillerRabbit]\narr發酵後的聖水相當的濕滑。
+小兔子滑倒了。
+小兔子撞到頭了。
+小兔子死掉了。
+
+Lona/RabbitDed1
+\CamCT\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    不會吧？這真的有效？
+
+
+################################# advanture common
+MerA/Common
+\prf\c[4]傭兵：\c[0]    我說過的，兔子一點都不可愛！
+
+MerB/Common
+\prf\c[4]傭兵：\c[0]    兔子碰到了黑霧會變這樣，那人類呢？
+
+MerB/Win
+\prf\c[4]傭兵：\c[0]    感謝妳了，不過我們沒什好給妳的，回去吃自己吧。
+
+MerA/Win
+\prf\c[4]傭兵：\c[0]    開箱開箱！好東西都是我的！
+
+Box/MerAnyAlive0
+\prf\c[4]傭兵：\c[0]    \{喂！
+\CamCT\m[shocked]\Rshake\C[0]\C[6]洛娜：\C[0]    耶？！ 是！
+
+Box/MerAnyAlive1
+\prf\c[4]傭兵：\c[0]    東西都是我們的！ 死小鬼給我滾邊去！
+\CamCT\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    我明明也有幫忙阿...
+
+Box/MerAnyAlive2
+\prf\c[4]傭兵：\c[0]    馬的！ 臭婊子！ 講不聽！
+
+Box/MerAnyAlive3
+\prf\c[4]傭兵：\c[0]    \{宰了她！
+\CamCT\m[shocked]\Rshake\C[0]\C[6]洛娜：\C[0]    \{嚇！

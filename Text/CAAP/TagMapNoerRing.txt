@@ -1,0 +1,87 @@
+thisMap/OvermapEnter
+Coliseo de Noer \optB[Cancelar,Entrar]
+
+############################################## statue Quest
+
+Rager/Quprog0
+\CBid[-1,20]\m[confused]\prf\c[4]Ciudadano: \C[0]    \{¡Bastardos!\}
+\CBct[2]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿EH?! ¿Qué?
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    Les ayudamos a construir \c[6]Síbaris\C[0], pero nos robaron todo en Noer.
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    Ayudamos a sus refugiados, pero esparcen peste y mugre por todas partes.
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    Y ahora, hasta han robado la estatua de \c[6]Leroy\C[0].
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    Ustedes, escoria imperialista capitalista engreída, deberían haber muerto hace mucho.
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    Todo es una mierda.
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    ¡¿Tú también eres de \c[6]Síbaris\C[0]?! ¡Lo sabía! ¡También hueles a mierda!
+
+Rager/Quprog0_board
+\board[Estatua de Leroy]
+Misión: Encontrar la estatua de Leroy
+Recompensa: Reputación +5
+Cliente: Ciudadano
+Condiciones: Ninguna
+¡Que se jodan sus madres, perros imperiales capitalistas!
+
+Rager/Quprog1
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    ¡No te perdonaré, maldita MIERDA imperial!
+
+lona/SorryToRager
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Em......
+\CBct[8]\m[tired]\PRF\c[6]Lona: \C[0]    Perdóneme...
+
+Rager/return_quest0
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Em... ¿Buenos días, señor?
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    ¡Vete a la mierda! ¡Puta imperialista!
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Pero... Sé dónde está la estatua de \c[4]Leroy\C[0].
+\CBid[-1,20]\prf\c[4]Ciudadano: \C[0]    ¡¿Dónde?!
+
+Rager/return_quest1
+\narr Lona le contó los detalles de lo que había descubierto...
+
+Rager/return_quest2
+\CBid[-1,2]\prf\c[4]Ciudadano: \C[0]    ¡¿Así que no fueron las escorias de \c[6]Síbaris\C[0]?!
+\CBct[20]\m[flirty]\PRF\c[6]Lona: \C[0]    Sí, no tuvieron nada que ver. Solo intentamos sobrevivir.
+\CBct[20]\m[sad]\PRF\c[6]Lona: \C[0]    Y lamento mucho que todo esto haya pasado.
+\CBid[-1,5]\prf\c[4]Ciudadano: \C[0]    ¡Maldición! ¡Permitimos que esos monstruos vivieran junto a nosotros y roban a nuestro héroe?!
+\CBid[-1,15]\prf\c[4]Ciudadano: \C[0]    ¡Malditos! ¡Bastardos! ¡Bestias! ¡Comeculos! ¡MIERDA!
+
+Rager/return_quest3
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Oh-oh...
+
+########################################## Common
+
+DoNotShit/talk0
+\board[Tablón de anuncios]
+¡Estamos hartos de su mierda y orina!
+¡Perros sibaritas, regresen a la capital imperial!
+
+DoNotShit/talk1
+\board[Tablón de anuncios]
+¡Son sucios, apestosos, indigentes!
+\{¡Lárguense a la MIERDA de aquí!\}
+
+DoNotShit/talk2
+\board[Arena de Noer]
+Nuestra gloria ha regresado, ya no es un modesto teatro.
+¡El valor, la sangre y el acero han vuelto a \c[4]Noertown\C[0]!
+A partir de ahora, el \c[4]Teatro de Noer\C[0] se renombra oficialmente como \c[6]Arena de Noer\C[0].
+-
+1772.1.13
+Cuartel de Seguridad
+
+DoNotShit/talk3
+\ph\cg[other_DontShit] ¡Prohibido que los perros imperiales caguen aquí!\n Autor Anónimo
+\m[confused]\PRF\c[6]Lona: \C[0]    Hmm...
+\m[flirty]\PRF\c[6]Lona: \C[0]    ¡Pja-ja-ja?
+
+Leeruoi/statue0
+\board[Leroy Jenkins]
+1529.5.11-1553.10.9\n
+Valiente héroe de Noer, cuyo nombre resonó en los cielos cuando lideró solo el primer ataque contra los malvados Profundos.
+Descansa en paz, impaciente y solitario guerrero.
+¡Que el Santo nos bendiga mientras luchamos!
+
+Leeruoi/statue1
+\board[Leroy Jenkins]
+¡El tiempo se acaba! ¡Hagámoslo!
+¡¡LIIIIIRROOOOYYYY JEEEENKIIINNSSS!!
+- Leroy Jenkins -

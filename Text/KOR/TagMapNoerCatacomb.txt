@@ -1,0 +1,115 @@
+Catacomb/OvermapEnter
+\m[confused]묘지\optB[그만둔다,들어간다]
+
+Keeper/talk0
+매일 밤마다 놈들이 기어 나와!
+
+Keeper/talk1
+아무리 죽여도, 다음 날이면 또 무리 지어 나타난다.
+
+Keeper/talk2
+끝도 없이 몰려와… 도저히 다 막을 수가 없어.
+
+Guard/talk0
+사람이 이미 턱없이 부족하다.
+
+Guard/talk1
+이건 진짜 엉망이군.
+
+Guard/talk2
+이 섬은 이제 끝장이야.
+
+Guard/talk3
+이제 어떻게든 떠날 방법을 생각해야 해.
+
+Necropolis/Locked0
+잠겨 있다.
+
+Necropolis/Locked1
+열리지 않는다.
+
+Necropolis/board
+\board[지하 묘지]
+대역병의 재발을 막기 위해  
+지하 묘지은 1729.3.8부로 봉쇄되었다.
+
+Necropolis/CataUndeadHunt_done
+\m[flirty]\c[6]로나：\c[0] 끝났다! 언데드 20마리 격퇴!
+\m[confused]\c[6]로나：\c[0] 어서 이 끔찍한 곳을 벗어나자.
+
+Necropolis/CataUndeadHunt_done2
+\m[confused]\c[4]묘지기：\c[0] 정말 고맙네. 이건 증명 서류야. 어서 여기서 나가도록 해
+\m[triumph]\c[6]로나：\c[0] 응!
+
+Necropolis/CataUndeadHunt_done2_2
+\m[confused]\c[4]경비병：\c[0] 처리 다 끝났어? 어서 꺼져!
+\m[flirty]\c[6]로나：\c[0] 네!
+
+###################################### UNDEAD HUNT 2 QUEST
+
+Keeper/UndeadHunt2_1
+\CBid[-1,20]\c[4]묘지기：\c[0] 아! 또 자네인가? 설마 또 자네를 보냈다니…
+\CBid[-1,20]\c[4]묘지기：\c[0] 용병 길드에 정말 더 이상 인원이 없는 건가?
+\CBct[5]\m[serious]\c[6]로나：\c[0] 저도 할 수 있어요!
+\CBid[-1,20]\prf\c[4]묘지기：\c[0] 잘 들어라, 농담하는 게 아니다. 여긴 정말 위험해!
+\CBid[-1,20]\prf\c[4]묘지기：\c[0] …알겠다. 그래도 사람 하나 더 있으면 손이 늘지. 길드의 마법사가 이미 음기의 근원을 찾아냈다네.
+\CBid[-1,20]\prf\c[4]묘지기：\c[0] 그 근원은 바로… 지하 묘지다!
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 에? 뭐라고요?
+\CBid[-1,20]\prf\c[4]묘지기：\c[0] 나랑 같이 오게. 가면서 설명해 주지.
+
+Keeper/UndeadHunt2_2
+\CBid[-1,20]\c[4]묘지기：\c[0] 40년 전, 노엘 마을에서 역병이 돌았던 걸 알고 있나?
+\CBct[8]\m[sad]\c[6]로나：\c[0] 아버지께 그런 얘길 들은 적 있어요.
+\CBid[-1,20]\prf\prf\c[4]묘지기：\c[0] 그 끔찍한 역병을 겪고 난 뒤, 노엘은 생기도, 옛 영광도 다 잃어버렸지.
+\CBid[-1,20]\prf\prf\c[4]묘지기：\c[0] 결국 시바리스에 자리를 내줬고… 지금은 이 시체들처럼 완전히 죽은 도시가 됐다네.
+
+Keeper/UndeadHunt2_3
+\CBid[-1,20]\c[4]묘지기：\c[0] 바로 여기다. 당시 희생자들은 전부 이곳이나 묘지에 묻혔다네.
+\CBid[-1,20]\c[4]묘지기：\c[0] 역병이 다시 번질까 두려워서, 이곳은 40년 동안 봉인된 채로 있었지.
+\CBid[-1,20]\c[4]묘지기：\c[0] 길드의 마법사들이야 우리 같은 하층 인원이나 부려먹을 뿐이고…
+\CBid[-1,20]\c[4]묘지기：\c[0] 결국 남은 건 우리 손발뿐이지. 우리가 알아서 해야 해.
+
+Keeper/UndeadHunt2_4
+\CBct[8]\m[confused]\c[6]로나：\c[0] \..\..\..\..뭐라고…?
+\CBct[2]\m[wtf]\Rshake\c[6]로나：\c[0] 우리? 들어가야 한다는 거예요?
+\CBid[-1,20]\prf\c[4]묘지기：\c[0] 그래, 그게 내가 말한 위험이지.
+\CBid[-1,20]\prf\c[4]묘지기：\c[0] 하지만 너무 겁먹을 건 없어. 대체 어떤 역병이 40년 넘게 버텼겠나? 허허.
+\CBct[8]\m[fear]\Rshake\c[6]로나：\c[0] 으…..
+\CBid[-1,20]\prf\c[4]묘지기：\c[0] 준비됐으면 들어가자고.
+
+###################################### UNDEAD HUNT 2 Done with cocona
+
+Lona/UndeadHunt2_End
+\CBct[6]\m[shocked]\plf\PRF\c[6]로나：\c[0] 깜짝이야! 진짜 심장 멎는 줄 알았어!
+\CBfB[8]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0]  으… 먀아….
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] .....
+\CBfB[6]\SETlpl[cocona_shocked]\PLF\prf\c[4]코코나：\c[0] 아빠… 엄마….
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 울지 마, 언니가 네가 지낼 곳 찾아줄게.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 얘는 너무 잘 믿는 성격이야… 절대 혼자 두면 안 되겠어.
+
+Lona/CoconaMama_Bury
+\CBct[2]\m[sad]\plf\PRF\c[6]로나：\c[0] 코코나, 네 엄마… 아직도 언데드로 변할 가능성이 있을까?
+\CBfB[6]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 엄마… 욕망은 사라졌어… 마지막 대화였어….
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 봐, 네 엄마를 내가 밖으로 데리고 나왔어.
+\CBfB[1]\SETlpl[cocona_shocked]\PLF\prf\c[4]코코나：\c[0]！！！！！
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 내놔!!!
+\CBct[6]\m[serious]\plf\PRF\c[6]로나：\c[0] 안 돼, 마지막에 뭐라고 했는지 기억나?
+\CBfB[6]\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 흐으윽….
+\CBct[8]\m[normal]\plf\PRF\c[6]로나：\c[0] 엄마는 편히 쉬길 원했어… 보내드리자.
+
+Lona/CoconaPapa_Bury
+\CBct[2]\m[sad]\plf\PRF\c[6]로나：\c[0] 코코나, 네 아버지… 아직 언데드로 변할 가능성이 있을까?
+\CBfB[6]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 아빠… 욕망은 사라졌어… 마지막 대화였어….
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 봐, 네 아버지를 내가 밖으로 데리고 나왔어.
+\CBfB[1]\SETlpl[cocona_shocked]\PLF\prf\c[4]코코나：\c[0]！！！！！
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 내놔!!!
+\CBct[6]\m[serious]\plf\PRF\c[6]로나：\c[0] 안 돼, 마지막에 뭐라고 했는지 기억나?
+\CBfB[6]\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 흐으윽….
+\CBct[20]\m[normal]\plf\PRF\c[6]로나：\c[0] 아빠는 네가 매달리길 바라지 않았어… 세상을 보러 가길 원했지.
+
+Lona/Bury_end
+\CBfB[6]\SETlpl[cocona_sad]\PLF\prf\c[4]코코나：\c[0] 고마워… 언니….
+\CBct[4]\m[triumph]\plf\PRF\c[6]로나：\c[0] 응!
+
+Lona/HoleBlock
+\CBct[20]\m[irritated]\plf\PRF\c[6]로나：\c[0] 이 동굴… 느낌이 안 좋아. 막아버리는 게 좋겠어.

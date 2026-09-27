@@ -1,0 +1,99 @@
+overmap/OvermapEnter
+\m[confused]폐광된 구리 광산\optB[그만둔다,들어간다]
+
+################################# OP
+
+yeller/start
+\CamMP[MerA]\BonMP[MerA,20]\c[4]용병：\c[0] 뛰어! 빨리 도망쳐!
+\CamMP[Runner]\BonMP[Runner,20]\c[4]용병：\c[0] 안 돼! 난 죽기 싫어! 살려줘!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[0]토끼：\c[0] 찍찍!
+
+yeller/start1
+\CamMP[Runner]\BonMP[Runner,20]\c[4]용병：\c[0] 안 돼! 다가오지 마!
+
+yeller/start2
+\CamMP[MerA]\BonMP[MerA,20]\c[4]용병：\c[0] 안 돼! 브라우니가 죽었어!
+\CamMP[MerB]\BonMP[MerB,5]\c[4]용병：\c[0] 젠장! 이 자식!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed2.ogg]\c[0]토끼：\c[0] 찍찍!
+
+yeller/start3
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[0]토끼：\c[0] 찍찍!
+\CamCT\m[flirty]\C[0]\C[6]로나：\C[0] 으?! 토끼??
+
+################################# OP
+
+priest/begin0
+\prf\BonMP[Priest,8]\c[4]용병：\c[0] 나 알아! 책도 읽어봤고! 성도께 기도도 드렸어! 저건 심연의 포식자야! \optB[그만둔다,여기에 대해 묻는다,성수를 뿌린다<r=HiddenOPT0>]
+
+priest/win
+\prf\BonMP[Priest,20]\c[4]용병：\c[0] 해냈다! 사악함이 소멸했다! 보물은 내 거다!
+
+priest/about
+\CamCT\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 여기서 무슨 일이 벌어진 거죠?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]용병：\c[0] 우리는 변이 동물을 소멸하라는 의뢰를 받았는데, 우리를 기다리고 있던 건 동물이 아니었다!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]용병：\c[0] 이건 잿빛 포식자다!
+\CamMP[KillerRabbit]\BonMP[Priest,20]\prf\c[4]용병：\c[0] 포식자는 잿빛과 함께 나타나고, 거짓의 발자취를 따라 모든 걸 삼켜버리지... 몇 장 몇 절이었더라... 까먹었군!
+\CamMP[KillerRabbit]\BonMP[Priest,15]\prf\c[4]용병：\c[0] 저 붉은 눈동자, 하얀 털을 봐라! 저건 죄악의 상징이다!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]용병：\c[0] 우리에겐 \c[2]성수\c[0]가 필요하다! 모든 사악함을 초월할 수 있는 \c[2]성수\c[0]! 하지만 난 성도회에서 쫓겨났지!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]용병：\c[0] 성수를 좀 구해다 줘! 그래야 내가 놈을 쓰러뜨릴 수 있다!
+\CamCT\m[serious]\Rshake\C[0]\C[6]로나：\C[0] 알겠습니다!
+
+priest/HolyWater0
+\CamCT\m[shocked]\Rshake\C[0]\C[6]로나：\C[0] 성수를 가져왔어요!
+
+priest/HolyWater1
+\CamMP[Priest]\BonMP[Priest,3]\prf\c[4]용병：\c[0] 잘됐다!
+
+priest/HolyWater2
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]용병：\c[0] 성도께서 여기서 무고한 자들을 지켜주신다!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]용병：\c[0] 성도께서 이곳에서 거짓과 사악함을 베어내신다!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]용병：\c[0] 성도를 찬미하라!
+\CamCT\m[confused]\PRF\C[0]\C[6]로나：\C[0] 그냥 여기다 뿌리면 되는 건가요?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]용병：\c[0] 문제없다. 여긴 이미 성도의 성역이다. 어떤 사악함과 거짓이라도 들어오는 순간 재로 흩날리리라!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]용병：\c[0] 그리고… 누군가 놈을 성역 안으로 끌어들여야 한다.
+\CamCT\m[wtf]\PRF\C[0]\C[6]로나：\C[0] 엥? 제가요?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]용병：\c[0] 아가씨, 바로 너다! 가라! 성도의 발자취를 따르거라!
+\CamCT\m[shocked]\Rshake\C[0]\C[6]로나：\C[0] 에엑?! 제가요?!
+
+priest/HolyWater3
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]용병：\c[0] 두려워하지 마라, 힘내라! 성도께서 널 지켜주실 것이다!
+\CamCT\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 하아?
+
+
+Lona/RabbitDed0
+\CamMP[KillerRabbit]\narr발효된 성수는 꽤나 미끄러웠다.
+작은 토끼가 미끄러졌다.  
+작은 토끼가 머리를 박았다.  
+작은 토끼가 죽어버렸다.
+
+Lona/RabbitDed1
+\CamCT\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 설마...? 이게 진짜 통한다고?
+
+
+################################# advanture common
+MerA/Common
+\prf\c[4]용병：\c[0] 내가 말했지? 토끼, 하나도 안 귀엽다고!
+
+MerB/Common
+\prf\c[4]용병：\c[0] 토끼가 검은 안개에 닿으면 이렇게 된다면... 인간은 어떻게 될까?
+
+MerB/Win
+\prf\c[4]용병：\c[0] 덕분에 살았군. 하지만 줄 건 없어, 알아서 먹고 살아라.
+
+MerA/Win
+\prf\c[4]용병：\c[0] 상자다! 상자 열어! 좋은 건 전부 내 거야!
+
+Box/MerAnyAlive0
+\prf\c[4]용병：\c[0] \{야!
+\CamCT\m[shocked]\Rshake\C[0]\C[6]로나：\C[0] 예?! 네!
+
+Box/MerAnyAlive1
+\prf\c[4]용병：\c[0] 전리품은 전부 우리 거다! 꼬마 계집애, 꺼져!
+\CamCT\m[confused]\PRF\C[0]\C[6]로나：\C[0] 나도 분명히 도왔는데...
+
+Box/MerAnyAlive2
+\prf\c[4]용병：\c[0] 젠장! 썩은 년! 말귀를 못 알아먹는군!
+
+Box/MerAnyAlive3
+\prf\c[4]용병：\c[0] \{죽여버려라!
+\CamCT\m[shocked]\Rshake\C[0]\C[6]로나：\C[0] \{꺄악!

@@ -1,0 +1,88 @@
+thisMap/OvermapEnter
+폐가\optB[그만둔다,들어간다]
+
+GrayRat/QuestBG1
+\CBmp[GrayRat,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]거한：\c[0] .........
+
+GrayRat/QuestBG2
+\CBmp[Adam,1]\SETpr[Adam_angry]\plf\Rshake\c[4]???：\c[0] 멈춰! 누구야!
+\CBmp[GrayRat,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]거한：\c[0] ....
+\CBmp[Adam,6]\SETpr[Adam_sad]\plf\PRF\c[4]???：\c[0] 너였구나...
+
+GrayRat/QuestBG3
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]???：\c[0] 네 주인이 동의했나?
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]거한：\c[0] 동의했다. 하지만 전에 그녀가 걱정했던 대로...
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]거한：\c[0] 모든 후속 영향은 최소화해야 한다.
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\Rshake\c[4]???：\c[0] 그건 당연하지.
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]???：\c[0] 좋아! 이게 시간과 장소다.
+
+GrayRat/QuestBG3_1
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]거한：\c[0] 감사하오......
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]거한：\c[0] 모든 일이 잘 풀리길 바라오.
+
+GrayRat/QuestBG4
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\Rshake\c[4]경비병：\c[0] 저건 혼혈이잖아! 정말 저 자와 협력하실 건가요?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 멍청한 놈! 중요한 건 그 뒤에 누가 있느냐야!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 네가 아직 못 봐서 그렇지, 저자의 힘은 장난이 아니야!
+
+GrayRat/QuestBG5
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 이제 계획대로 실행해서, 북쪽의 호송대를 가로막아라.
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]경비병：\c[0] 일이 정말 그렇게 순조롭게 풀릴까요?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 당연하지! 게다가 우리에겐 선택의 여지가 없어!
+
+Adam/SupLona0
+\CamMP[Adam]\BonMP[Adam,1]\SETpl[Adam_angry]\Lshake\c[4]???：\c[0] 멈춰! 넌 누구지!
+\CBct[8]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 나...\optD[그냥 지나가는 길이야,네가 아담이지?]
+
+Adam/SupLona_ans_adam
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 저기… 혹시 아담 맞으신가요?
+\CamMP[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]아담：\c[0] 말해! 그 이름을 어떻게 알았지! \optD[에헤헤,마일로,속여본다<r=HiddenOPT0>,예전에 도와줬잖아<r=HiddenOPT1>]
+
+Adam/SupLona_ans_pass
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 전 그냥 지나가던 길이에요…
+
+Adam/SupLona_ans_hehe
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 에헤헤… 저도 잘 모르겠네요…
+
+Adam/SupLona_ans_milo
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어… 그게…
+\CBct[2]\m[pleased]\plf\PRF\c[6]로나：\c[0] 마일로 씨가… 당신 머리를 원한다고 하던데요…
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그… 뭐랄까…
+
+Adam/SupLona_ans_work0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어…
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 전에 제가 도와드린 적 있는데… 기억 안 나세요?
+
+Adam/SupLona_ans_work1
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]아담：\c[0] \..\..\..
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]아담：\c[0] 아, 기억났다. 도둑질에 제격처럼 보이던 그 꼬마였군.
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]아담：\c[0] 근데 넌 왜 여기 있는 거야!!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어… 그… \c[4]마일로\c[0]라는 사람이 당신을 죽이겠다고 하길래, 따라와 봤어요?
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]아담：\c[0] \..\..\..
+
+Adam/SupLona_ans_lie0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 나… 어… 그게…
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 당신이 아담? 큰일 났어요! 마일로 쪽 사람들이 왔어요!
+\CBct[2]\m[terror]\plf\Rshake\c[6]로나：\c[0] 용병들이 이미 이쪽으로 오고 있어요! 빨리 도망치세요!
+
+Adam/SupLona_ans_lie1
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]아담：\c[0] 뭐라고! 젠장! 고맙다!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]아담：\c[0] 얘들아! 철수한다!
+
+Adam/SupLona_ans_lie2
+\CBct[8]\m[confused]\plf\PRF\c[4]그럼… 이제 어떻게 해요? 머리는 어디서 가져오죠?
+
+Adam/SupLona_Kill0
+\CBmp[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]아담：\c[0] 밀고자 놈이군! 죽여라!
+
+Adam/SupLona_Kill1_typical
+\CBct[6]\m[wtf]\plf\Rshake\c[6]로나：\c[0] 에이, 진짜야?!
+
+Adam/SupLona_Kill1_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]로나：\c[0] 젠장…!
+
+Adam/SupLona_Kill1_gloomy
+\CBct[6]\m[terror]\plf\Rshake\c[6]로나：\c[0] 으아아악!!?
+
+Adam/SupLona_Kill1_slut
+\CBct[6]\m[fear]\plf\Rshake\c[6]로나：\c[0] 잠… 잠깐만!

@@ -1,0 +1,70 @@
+thisMap/OvermapEnter
+\m[confused]Магазин горщиків Красти Краба \optB[Скасувати,Увійти]
+
+################################################################## Qmsg
+
+guard/Qmsg0
+Я не хочу... Заходити туди...
+
+guard/Qmsg1
+Іди ти... Я не хочу...
+
+guard/Qmsg2
+Я не хочу... Мене зґвалтують злі останки...
+
+guardWin/Qmsg0
+Я хочу розмножуватися...
+
+guardWin/Qmsg1
+Ти – жінка…? Я розмножуватимусь...!
+
+guardWin/Qmsg2
+Стороння... Забирайся...
+
+Detective/Qmsg0
+Що тут... Сталося?
+
+Detective/Qmsg1
+Навіщо... Вони тут...?
+
+Detective/Qmsg2
+Що... Їх привабило...?
+
+################################################################## QUEST
+
+Qu0/KillAll
+\CBct[1]\m[shocked]\Rshake\c[6]Лона:\C[0] Ха\..\..\..?! Я перемогла!
+
+Detective/Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\prf\c[4]Детектив：\C[0] Рабиня.... Забирайся...!
+
+Detective/NotKilled0_0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Детектив:\C[0] Дощ... Ненавиджу дощ... Але дощ потрібен....
+
+Detective/NotKilled0_1
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Детектив:\C[0] Дощ змиває гріхи... Цього світу...
+
+Detective/NotKilled1
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Ем...? \optB[Нічого, Хто ви?]
+
+Detective/NotKilled1_about
+\CBct[2]\m[flirty]\PRF\c[6]Лона:\C[0] Вибачте... А що тут трапилося?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Детектив:\C[0] Останки несправжньої Морської Відьми... Атакували... Це місце...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Детектив：\C[0] Двоє.. Були вбиті...
+\CBct[2]\m[confused]\PRF\c[6]Лона:\C[0] Оу?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Детектив:\C[0] Ми... Коли розслідували.... Останки несправжньої Морської Відьми... Несподівано напали на нас...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Детектив:\C[0] Вони ще тут... Багато останків несправжньої Морської Відьми...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Детектив：\C[0] Ми.... Маємо заспокоїти їх...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Детектив:\C[0] Це все... Підозрительно...
+\CBct[20]\m[flirty]\PRF\c[6]Лона:\C[0] Ну гаразд, йдемо.
+
+Detective/killed0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]Детектив:\C[0] Стороння... Ти... Вбила їх...?
+\CBct[2]\m[flirty]\PRF\c[6]Лона:\C[0] Ну... Швидше за все. Як на мене, всі мертві.
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]Детектив:\C[0] Дуже добре...
+
+Detective/killed1
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] .....
+
+Formula/found
+\CBct[2]\m[flirty]\PRF\c[6]Лона:\C[0] Секретна Формула? Думаю, чи це вона?

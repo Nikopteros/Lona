@@ -1,0 +1,484 @@
+overmap/OvermapEnter
+\m[confused]성도회 수도원\optB[그만둔다,들어간다]
+
+priest/common
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 성도께서 그대의 길을 인도하시리라!
+
+opt/about
+성도회에 대하여
+
+opt/moreGrace
+더 많은 성도의 은총
+
+priest/trade
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 모두 성도의 축복을 받은 물품이오! 구입하면 성도께서 그대를 지켜 주실 것이오!
+
+priest/about
+\CBid[-1,20]\SETpl[HumPriest]\m[confused]\Lshake\prf\C[4]신부：\C[0] 과거에, 성도께서는 우리를 위해 사악한 것을 무찔러 주셨다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 거짓 신과 거짓말쟁이, 죄인들을 멸하셨다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 성도께서는 무고한 자들에게 안식을 내리셨다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 자신의 피와 살마저 우리에게 내어주셨다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그리고 오늘 우리가 겪는 모든 고통은 성도께서 내리신 징벌이다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 모두 너희들의 믿음이 부족했기 때문이다!
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]신자：\C[0] 성도시여! 저희가 잘못했습니다!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]신자：\C[0] 저를 벌하시옵소서, 성도시여!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 성도께서 이미 계시를 내리셨는데, 어찌 믿지 않는단 말이냐!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 너희들의 신앙이 부족하니, 거짓된 자와 죄악이 다시 돌아온 것이다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 왜! 어찌하여 이토록 쉽게 잊어버린단 말이냐!
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]신자：\C[0] 제 잘못입니다! 잊어서는 안 되었는데!
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]신자：\C[0] 이제부터는 반드시 성도 말씀을 따르겠습니다! 제 모든 것을 바치겠습니다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 너! 왜 성도를 믿지 않는 것이냐!
+\CBct[1]\m[shocked]\plf\Rshake\C[6]로나：\C[0] 뭐!? 제가요??\optD[믿어요!,성도라고?]
+
+priest/about_optY
+\CBct[6]\m[terror]\plf\Rshake\C[6]로나：\C[0] 믿어요! 저도 성도의 신실한 신자예요!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 자! 모두 함께 그녀를 위해 기도와 축복을 올리자!
+\CBct[2]\m[confused]\plf\Rshake\C[0]\C[6]로나：\C[0] 에...에?!?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 찬양하라! 이 소녀를 찬미하라! 이제 그녀도 신앙의 길에 들었다!
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]신자：\C[0] 성도시여! 그 소녀를 찬미하나이다!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]신자：\C[0] 성도께 감사드리나이다! 새 신자를 내려주셨나이다!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 자, 나와 함께 와서 성스러운 세례를 받거라!
+\CBct[2]\m[flirty]\plf\Rshake\C[0]\C[6]로나：\C[0] 뭐라구요? 어, 잠깐만요??
+
+priest/about_optN
+\CBct[8]\m[confused]\plf\PRF\C[6]로나：\C[0] 그러니까... 저, 계속 궁금했던 건데요...
+\CBct[8]\m[flirty]\plf\PRF\C[6]로나：\C[0] 성도는 대체 뭘 한 거죠? 왜 그렇게들....
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 네 이년! 거짓된 자구나! 성도를 의심하다니—죽여서 성도께 바쳐라!\CamCT
+
+priest/BaptizePlayer1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 오 성도시여, 이 죄인의 더럽혀진 죄악을 씻어내소서!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 죄악덩어리여! 네 안의 모든 죄를 몰아내라!
+
+priest/BaptizePlayer2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 죄악덩어리여! 죄를 털어내라! 떠나가라!
+
+priest/BaptizePlayer3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 죄악덩어리여! 네 안의 죄를 몰아내라!
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]로나：\C[0] 에...에에...?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 죄악덩어리여! 네 옷을 벗고, 욕망을 버려라! 그래야 성도께서 네 몸에 임하실 것이다!
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 하아? 뭐라고...?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] \{옷을 벗어라! 성도를 찬미하라!
+\CBct[6]\m[shocked]\plf\Rshake\C[0]\C[6]로나：\C[0] \{뭐어!?!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 아이야! 이는 네 죄로 물든 육신을 성도가 정화하시기 위함이다!\optD[싫어!,벗는다]
+
+priest/BaptizePlayer3_N
+\CBct[5]\m[wtf]\plf\Rshake\C[0]\C[6]로나：\C[0] \{싫어! 절대 안 해!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] \{성도를 거역하다니! 네 이 거짓된 자여! 죽여서 성도께 바쳐라!\CamCT
+
+priest/BaptizePlayer3_Y
+\CBct[6]\m[shy]\plf\PRF\C[0]\C[6]로나：\C[0] 흐윽... 알았어... 할게...
+
+priest/BaptizePlayer3_touch0
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]신부：\C[0] 보아라! 저 죄악으로 물든 육체를! 성도여! 그녀를 정화하소서!
+
+priest/BaptizePlayer3_touch1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]신부：\C[0] 보아라! 그녀는 그 보지로 남자를 유혹한다! 얼마나 사악한가!
+
+priest/BaptizePlayer3_touch2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]신부：\C[0] 보아라! 그녀의 보지 안은 죄악의 정액으로 가득 차 있다! 얼마나 타락했는가!
+
+priest/BaptizePlayer3_touch3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]신부：\C[0] 보아라! 그녀의 입술에서 흘러나오는 건 오직 더러운 말뿐! 얼마나 혐오스러운가!
+
+priest/BaptizePlayer4
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 성도여! 제 육신과 정신을 지켜주소서!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]신부：\C[0] 성도가 내리신 은총으로 이 죄악을 정화하리라!
+\CBct[1]\m[shocked]\Rshake\C[0]\C[6]로나：\C[0] 으읏—!!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]신부：\C[0] 아이야, 두려워하지 말아라! 내가 성도의 은혜를 네 몸과 뇌리에 주입하리니, 곧 네 사악한 사상이 하나씩 정화될 것이다!
+
+priest/BaptizePlayer5
+\CBct[2]\m[fear]\plf\PRF\C[0]\C[6]로나：\C[0] 흐윽... 아직도 끝나지 않은 거야...?
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 마지막 한 걸음만 남았다! 성도의 은혜를 네 몸 안에 주입하리라!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그분께서 네가 지어온 거짓과 죄악을 용서해 주실 것이다!
+\CBct[8]\m[sad]\plf\PRF\C[0]\C[6]로나：\C[0] ......
+
+priest/BaptizePlayer6
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]로나：\C[0] .........
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 이제 너는 깨끗하다. 성도께서 인정한 제자이자, 믿음을 따르는 자다.
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 자, 성도를 찬미하라!
+\CBct[20]\m[sad]\plf\PRF\C[0]\C[6]로나：\C[0] \}...성도를 찬미하나이다.
+
+priest/BaptizePlayer_end
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 믿음의 사람들이여! 나는 지금 성도의 계시를 들었다!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 이 소녀는 성도께서 인정하신 자다!
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 이제 그녀는 우리의 일원이다! 그녀를 찬미하라!
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]신자：\C[0] 성도께 감사하라! 성도께 감사하라!
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]신자：\C[0] 성도시여! 저 소녀를 찬미하라!
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]신자：\C[0] 성도시여! 우리에게 새로운 신자를 주심에 감사드립니다!
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 어... 고, 고마워?
+
+
+################################################################# 2nd
+
+priest/GraceAgain_date_block
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0]    아이야, 탐욕은 네 죄를 더욱 깊게 할 뿐이다. 나조차도 잠시 쉬어야 다시 네 더러움을 정화할 수 있다. 다음에 다시 오너라.
+
+priest/GraceAgain0
+\CBid[-1,20]\SETpl[HumPriest]\PLF\prf\C[4]신부：\C[0] 더 많은 성도의 은혜를 원하느냐? 아이야, 지나친 탐욕은 곧 증오의 거짓된 자로 떨어지게 된다.
+\CBct[8]\m[sad]\plf\PRF\C[0]\C[6]로나：\C[0] 신부님, 죄송해요....
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 하지만 괜찮다. 내가 너를 용서하마. 자, 나를 따라오너라.
+
+priest/GraceAgain1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그 거짓된 옷을 벗어버려라. 성도는 언제나 벌거벗은 몸으로 거짓과 죄악을 마주하신다!
+\CBct[8]\m[shy]\plf\PRF\C[0]\C[6]로나：\C[0] 네....
+
+priest/GraceAgain2
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 이번에는 성도께서 스스로 은혜를 내려주시지 않을 것이다! 네 힘으로 은혜를 끌어내야 한다!
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]신부：\C[0] 성도께서 너에게 악을 물리칠 뜻을 주시리라! 하지만 실현은 네 힘으로 해야 한다!
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]로나：\C[0] 네...
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]신부：\C[0] 그래! 네 힘으로! 성도의 뜻 속에 몸을 적셔라!
+\CBct[8]\m[shy]\plf\PRF\C[0]\C[6]로나：\C[0] 네...
+
+priest/GraceAgain3
+\Lshake\c[6]신부：\c[0] \{으오오!
+\Lshake\c[6]신부：\c[0] \{좋다!! 은혜가 다가옴을 느낀다!
+
+priest/GraceAgain4
+\Lshake\c[6]신부：\c[0] \{왔다! 성도시여! 내가 가고 있다!
+
+priest/GraceAgain5
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 아이야! 정말 잘했다! 네가 악을 물리쳤구나!
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]로나：\C[0] 고마워요... 아버지.
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 네 마음속에 있던 거짓은 지워졌다! 하지만 아직도 어딘가에 악이 숨어 있음을 느낀다!
+\CBct[6]\m[wtf]\plf\Rshake\C[0]\C[6]로나：\C[0] 그럼 어떻게 해야 해요!? 아버지, 구해 주세요!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 아이야, 나는 널 절대 버리지 않는다! 네 몸에 성도의 은혜를 더 불어넣어 주겠다!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 나에게 몸을 바치거라!
+\CBct[20]\m[shocked]\plf\Rshake\C[0]\C[6]로나：\C[0] 네! 아버지!
+
+priest/GraceAgain6
+\CBct[8]\m[shy]\plf\C[0]\C[6]로나：\C[0] ......
+
+priest/GraceAgain7
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 아이야, 정말 잘했다. 거짓과 죄악은 잠시나마 네 몸에서 물러갔다.
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그러나 반드시 정기적으로 나를 찾아 더 많은 성도의 은혜를 받아야 한다. 그렇지 않으면 거짓과 죄악이 다시 스며들어, 너를 더럽혀 버릴 것이다.
+\CBct[20]\m[terror]\plf\Rshake\C[0]\C[6]로나：\C[0] 네!
+
+########################add title
+
+priest/add_title1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 잠깐! 나는 성도의 계시를 들었다! 아이야, 준비가 되었느냐?
+\CBct[20]\m[shocked]\plf\Rshake\C[0]\C[6]로나：\C[0] 네!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 나의 신앙은 이미 순결하나, 이 수도원의 다른 남성 신자들과 종자들의 죄악은 여전히 깊구나!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그것을 정화해야 할 이는 바로 너다! 그들의 사악한 체액을 빨아내라!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그것을 정화해야 할 이는 바로 너다! 그들의 죄악된 육신을 씻어내라!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그것을 정화해야 할 이는 바로 너다! 네 몸으로 그들의 거짓을 몰아내라!
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 가거라, 아이야! 거짓과 죄악을 무찌르고 성도를 찬미하라!
+\CBct[20]\m[serious]\plf\Rshake\C[0]\C[6]로나：\C[0] 네! 성도를 찬미하라!
+
+########################reward
+
+priest/get_sexReward
+\narr성도를 찬미하라!!!
+\narr로나는 타인의 죄악을 소멸하는 방법을 깨달았다...
+
+MainNun/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]여사제：\C[0] 이곳조차도 거짓된 자들의 궤계로 가득하구나....
+
+MainNun/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]여사제：\C[0] 썩어버린 교회, 타락한 사람들....
+
+MainNun/begin2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]여사제：\C[0] 가식에 찌든 거짓된 자들이여....
+
+
+######################################################################################################################################### QUEST
+
+priest/QuProgScoutCampOrkind2_done
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 그대는 성도의 인도를 받은 용병인가?
+\CamCT\plf\PRF\m[flirty]\C[6]로나：\C[0] 인도...?
+\CamCT\m[confused]\plf\PRF\C[6]로나：\C[0] 음, 아마도?
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 수고 많았다. 예전부터 저 괴물들은 끊임없이 수도원을 침범하려 들었지.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 이제 성도의 인도 아래, 그들은 허무 속으로 사라질 것이다.
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]신부：\C[0] 성도를 찬미하라.
+\CamCT\m[flirty]\plf\PRF\C[6]로나：\C[0] 성도를 찬미하라.
+
+#########################################################################################################################################
+
+Merit/begin1
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]사제：\c[0] 재물은 몸 밖의 것일 뿐, 욕망은 곧 그대의 업장이니라.
+\CBid[-1,20]\Lshake\prf\C[4]사제：\c[0] 성도께서는 그대의 죄를 용서하시지만, 마음속의 욕망만은 스스로 버려야 한다.
+
+Merit/Box1
+\board[헌금하여 공덕을 쌓는다]
+매 2000 교역 포인트마다 평판이 1점 상승합니다.
+성도를 믿으라! 그분께서 너를 인도하실 것이다!
+
+Merit/Box2
+\CBid[-1,5]\prf\C[4]사제：\c[0]    네가 헌금을 거부하는가? 그런 인색함은 너의 죄를 더욱 깊게 할 것이며, 성도의 자비는 영원히 기다려 주지 않을 것이다…
+
+Merit/END_Good
+\CBid[-1,3]\SETpl[HumPriest2]\Lshake\prf\C[4]사제：\c[0] 성도께서 너의 죄를 용서하셨다.
+
+Merit/END_Bad
+\CBid[-1,5]\SETpl[HumPriest2]\Lshake\prf\C[4]사제：\c[0] 겨우 이 정도로? 네가 그렇게 인색하면서도 성도께서 용서해주시길 바란단 말이냐?
+\CBct[-1,6]\m[shocked]\plf\Rshake\C[6]로나：\C[0] 죄, 죄송해요!?
+
+Merit/Barter_begin1_failed
+\CBid[-1,20]\Lshake\prf\C[4]사제：\c[0] 성도에게 신앙을 보이지 않았군요. 평범한 인간은 우리와 성스러운 유물을 교환할 자격이 없습니다.
+
+Merit/Barter_begin1_success
+\CBid[-1,20]\Lshake\prf\C[4]사제：\c[0] 성도의 축복은 공짜가 아니다. 너는 성도에게 너 자신을 증명해야 한다.
+
+################################################################################################################################################
+
+Lona/WhoreJobStart0
+\CBct[8]\m[shy]\plf\PRF\C[6]로나：\C[0] 성도께서 내리신 명령이야… 네 안의 죄를 내가 빨아내 주겠어…..
+
+MaleBeliever/CommonHuman_begin0
+\PLF\prf\c[4]신도：\c[0] 성도시여! 저는 죄인입니다!
+
+MaleBeliever/CommonHuman_begin1
+\PLF\prf\c[4]신도：\c[0] 성도시여! 제 거짓을 용서해 주옵소서!
+
+MaleBeliever/CommonHuman_begin2
+\PLF\prf\c[4]신도：\c[0] 성도시여! 저는 죄에 물들었습니다! 저를 벌하소서!
+
+MaleBeliever/CommonHumanWhoreJobStart1
+\PLF\prf\c[4]신도：\c[0] 성도시여! 감사드립니다!
+
+MaleBeliever/guard
+\PLF\prf\c[4]경비병：\c[0] ......
+
+MaleBeliever/Prayer_begin0
+\CBid[-1,20]\PLF\prf\c[4]신자：\c[0] 성도시여! 이 세상을 구원하소서!
+
+MaleBeliever/Prayer_begin1
+\CBid[-1,20]\PLF\prf\c[4]신자：\c[0] 성도시여! 저희가 당신께 몸과 마음을 바칩니다!
+
+MaleBeliever/Prayer_begin2
+\CBid[-1,20]\PLF\prf\c[4]신자：\c[0] 성도시여! 저희는 거짓을 버리겠습니다!
+
+MaleBeliever/PrayerWhoreJobStart1
+\CBid[-1,4]\PLF\prf\c[4]신자：\c[0] 성도시여! 감사드립니다! 성도의 가호가 그대와 함께하길.
+
+Nap/Capture
+\narr성도의 신자가 거짓된 자, 로나를 붙잡아 갔다....
+
+Enter/AggroMode
+\cg[map_DarkestDungeon]\SETpr[nil]\SETpl[AnonFemale]\Lshake\C[4]신자：\C[0] 거짓된 자다! 거짓된 자가 우리의 성소를 침범했다!
+\SETpr[AnonMale2]\plf\Rshake\C[4]신자：\C[0] 주의해라! 이 거짓된 자는 가슴도 없는, 더러운 꼬마년이다! 쉽게 알아볼 수 있다!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+Healer/Begin1
+\CBid[-1,20]\prf\c[4]신자：\c[0] 사백 년 전, 세상은 죄악으로 물들어 있었고 사람들은 온갖 사악한 신들을 숭배하고 있었습니다.
+\CBid[-1,20]\prf\c[4]신자：\c[0] 그 사신들은 인간이 미덕을 숭상하는 것을 혐오했고, 1321년 5월 6일에 무고한 이들에게 신벌을 내렸습니다.
+\CBid[-1,20]\prf\c[4]신자：\c[0] 인류는 그 재앙 속에 사라질 운명이었으나, 성도께서 강림하셨습니다! 정의의 모습으로 무고한 자들을 지켜내시고, 사신들을 하나하나 그 검으로 베어 쓰러뜨리셨습니다.
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+MIAchildMAMA/prog1
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 어... 안녕하세요, 혹시 \C[4]토미\C[0]라는 아이 아세요?
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 남자아이인데, 혼혈이에요.
+\CBid[-1,2]\prf\c[4]신자：\c[0] 토미? 혼혈이라고?
+\CBct[1]\m[triumph]\PRF\C[0]\C[6]로나：\C[0] 맞아요!
+\CBid[-1,20]\prf\c[4]신자：\c[0] 옆에 있는 수녀님께 물어봐. 꼬마들은 다 수녀가 돌보고 있어.
+\CBct[1]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 아, 그렇군요!
+\CBid[-1,5]\prf\c[4]신자：\c[0] 그리고 내 기도를 방해하지 말거라!
+\CBct[6]\m[shocked]\Rshake\C[0]\C[6]로나：\C[0] 아... 죄송합니다! 
+
+MIAchildMAMA/prog2
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 혹시 \C[4]토미\C[0]라는 아이 아세요? 남자아이, 혼혈이에요.
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 그의 어머니가 아이를 찾고 있어요.
+\CBid[-1,2]\prf\c[4]수녀：\c[0] 토미? 혼혈이라고?
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 여기에 수용된 사람이 워낙 많아서, 그 \C[6]토미\C[0]가 누군지 누가 알겠니.
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 어...
+
+MIAchildMAMA/prog3
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 어... 혹시 \C[4]토미\C[0] 아세요? 남자아이, 혼혈이에요.
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 당신이랑 또래쯤 될 거예요.
+\CBid[-1,20]\prf\c[4]난민：\c[0] 아! \C[6]토미\C[0] 말이지! 그 까만 꼬맹이!
+\CBct[2]\m[shocked]\PRF\C[0]\C[6]로나：\C[0] 그 아이 알아요? 어디 있는지 아세요?
+\CBid[-1,20]\prf\c[4]난민：\c[0] \C[6]토미\C[0]는 냄새나! 까맣고 냄새나는 애야! 엄마가 데려갔어!
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 냄새난다고요? 데려갔다고요? 근데 어머니는 \C[4]토미\C[0]가 수도원 사람들이 데려갔다고 하셨어요.
+\CBid[-1,20]\prf\c[4]난민：\c[0] 맞아! 걔 아팠거든, 그래서 엄마가 치료받으러 데려갔어.
+\CBct[2]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 치료요? 의사한테요? 아니면 신부님께?
+\CBid[-1,20]\prf\c[4]난민：\c[0] 몰라!
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 어...
+
+MIAchildMAMA/prog4
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 어... 혹시 \C[4]토미\C[0] 아세요?
+\CBid[-1,2]\prf\c[4]수녀：\c[0] \C[6]토미\C[0]?
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 네, 그의 어머니가 아이를 찾고 있어요. 어머니 말씀으론 수도원 사람들이 데려갔다고 해요.
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 혼혈 아이 말이니?
+\CBct[20]\m[pleased]\PRF\C[0]\C[6]로나：\C[0] 맞아요!
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 고해성사실에 가서 물어보렴. 나 거기서 자주 그 모자를 보곤 했어.
+\CBct[20]\m[triumph]\PRF\C[0]\C[6]로나：\C[0] 감사합니다!
+
+MIAchildMAMA/prog5
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 어... 혹시 \C[4]토미\C[0] 본 적 있으세요?
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 남자아이, 혼혈이에요.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,8]\c[4]신자：\c[0] \C[6]토미\C[0]? 그래, 알고 있지.
+\CBct[20]\m[pleased]\plf\PRF\C[0]\C[6]로나：\C[0] 정말요! 어디에 있나요? 아직 수도원에 있나요?
+\CBct[20]\m[triumph]\plf\PRF\C[0]\C[6]로나：\C[0] 그의 어머니가 찾고 있어요,
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,2]\c[4]신자：\c[0] 어머니라고? 아이를 버린 건 바로 그 여자잖아?
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 버렸…다고요?\m[shocked]\Rshake\{뭐라고요!?\}
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]신자：\c[0] 그렇다. 그녀는 거짓말쟁이야. 아이를 대가로 성인에게 음식을 바꿔치기했지.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]신자：\c[0] 그녀가 너를 보낸 거냐? 그녀를 믿지 마라.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]신자：\c[0] 돌아가라.
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]신자：\c[0] 돌아가서 전해라. \C[6]토미\C[0]는 훗날 굳건한 신자가 될 거라고.
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]로나：\C[0] 어... 
+
+MIAchildMAMA/prog5_1
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 이제 어떻게 해야 하지? 다시 캠프로 돌아가야 하나?
+
+#---------------------#-------------------#---------------------  ------------------------------- Nun Quest
+
+nun/keyBegin
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0]    
+
+ToMT_crunch/0
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 어...
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0] 오, 외부에서 온 무구한 이여.
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0] 너는 동쪽의 \c[6]산맥 수도원\c[0]으로 가게 될 것이다.
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 뭐라고요? 제가요?
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0] 그렇다, 바로 너다.
+\CBct[2]\m[confused]\PRF\C[0]\C[6]로나：\C[0] 왜요?
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0] 보다시피 이곳은 인력이 부족하다.
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0] 우리는 의료를 아는 더 많은 수도자를 필요로 한다. 너도 성도의 복음을 위해 힘을 보태고 싶지 않느냐?
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0] 이제 \c[6]산맥 수도원\c[0]의 형제자매들이 이곳으로 돌아올 때가 되었다.
+
+ToMT_crunch/0_brd
+\board[산맥 수도원으로 향하라]
+목표 : 산맥 수도원으로 향하기  
+보상 : 없음  
+의뢰인 : 성도회 수도원  
+기한 : 완료 시까지  
+성도회 수도원의 동쪽에 위치한 산맥 수도원으로 가서, 그곳의 수도자들에게 성도회에서 인력이 필요하다는 사실을 전하라.
+
+ToMT_crunch/0_accept
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 좋아요, 그쪽으로 가는 길에 들러서 수도자들에게 전할게요.
+\CBid[-1,20]\prf\C[0]\C[4]수녀：\C[0] 잘했다. 성도가 네 길을 인도하시길.
+
+ToMT_crunch/1_alreadyDid
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 저기... 저 이미 다녀왔는데요...
+\CBct[8]\m[tired]\PRF\C[0]\C[6]로나：\C[0] 그곳 수도자들이 말하길, 치료할 줄 아는 이들은 전부 마물들에게 죽었다고 했어요.
+\CBid[-1,8]\prf\C[0]\C[4]수녀：\C[0] 그런가\..\..\.. 성도가 그들의 영혼을 인도하시길.
+\CBct[8]\m[confused]\PRF\C[0]\C[6]로나：\C[0] ...
+
+ToMT_crunch/0_weak
+\CBid[-1]\m[confused]\C[0]\C[4]수녀：\C[0] 우리에겐 너 같은 약자에게 베풀 동정 따윈 없다.
+\CBct[6]\m[sad]\PRF\C[0]\C[6]로나：\C[0] 죄송해요....
+\narr로나는 너무 약해 보인다.
+
+nun/abandom_bb0
+\CBct[6]\m[tired]\PRF\C[0]\C[6]로나：\C[0] 어... 제 아이를 잘 부탁드려도 될까요....
+
+nun/abandom_bb1
+\CBid[-1,8]\prf\C[0]\C[4]수녀：\C[0] 너도 결국 자기 아이를 버리는 거짓말쟁이인가?
+\CBid[-1,8]\prf\C[0]\C[4]수녀：\C[0] \..\..\..
+\CBid[-1,8]\prf\C[0]\C[4]수녀：\C[0] 됐다, 내놔라.
+\CBct[6]\m[sad]\PRF\C[0]\C[6]로나：\C[0] 죄송해요...
+
+nun/abandom_bb2
+\CBct[8]\m[tired]\PRF\C[0]\C[6]로나：\C[0] \..\..\..
+\CBct[8]\m[sad]\PRF\C[0]\C[6]로나：\C[0] 미안해... 엄마가 미안해...
+
+nun/abandom_bb1_failed
+\CBid[-1,5]\prf\C[0]\C[4]수녀：\C[0] 하지만 너에겐 아이가 없지 않느냐.
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]로나：\C[0] 어... 그런 것 같네요.
+
+nun/opt_abandom_bb
+아이 버리기
+
+nun/opt_abandom_tommy
+토미
+
+nun/opt_TagMapMT_crunch
+어...
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+healer/Qmsg0
+나는 이런 더러운 거짓말쟁이들 따위는 손대고 싶지도 않다.
+
+healer/Qmsg1
+이건 성도의 은혜다!
+
+healer/Qmsg2
+이것이 거짓말쟁이의 최후다.
+
+healer/Qmsg3
+성도가 없었다면 너희는 애초에 살아남지도 못했을 것이다!
+
+patient/Qmsg0
+흐으윽....
+
+patient/Qmsg1
+......
+
+follower/Qmsg0
+위대한 성도시여!
+
+follower/Qmsg1
+강림하소서!
+
+follower/Qmsg2
+우리의 죄를 용서하소서!
+
+follower/Qmsg3
+거짓을 말하는 그 사악함을 불태워 주소서
+
+prayer/Qmsg0
+성도시여! 저를 용서해 주세요!
+
+prayer/Qmsg1
+제가 죄를 지었습니다!
+
+prayer/Qmsg2
+성도를 찬미하나이다! 위대한 성도시여!
+
+prayer/Qmsg3
+제가 잘못했습니다, 죄송합니다!
+
+kid1M/Qmsg0
+제 언니가 사라졌어요! 
+
+kid1M/Qmsg1
+분명 그 녹색 피부 놈들이 언니를 잡아갔어!
+
+kid1M/Qmsg2
+언니! 어디 있어?
+
+mom/Qmsg0
+내 아이야!
+
+mom/Qmsg1
+성도시여! 제 아이를 찾아주세요!
+
+mom/Qmsg2
+그 애가 사라졌어요!
+
+kid2M/Qmsg0
+너 냄새 나!
+
+kid2M/Qmsg1
+너 바지에 똥 쌌잖아!
+
+kid2M/Qmsg1
+냄새나! 완전 웃겨! 
+
+SaintState/begin0
+\board[성도 무명자]
+성도 무명자께서 말씀하시길: 물질은 나약함의 상징이니, 스스로 성도라 일컫는 자는 반드시 벌거벗은 몸으로 새로운 도전에 맞설지니라.  
+성도 복음 1：28  
+
+SaintState/begin1
+\board[성도 무명자]
+성도 무명자께서 말씀하시길: 우리 성도는 죽음을 꿰뚫어보는 자이니, 죽음에 맞설 때 다른 도움은 필요치 아니하도다.  
+성도 복음 25：6  
+
+SaintState/begin2
+\board[성도 무명자]
+성도 무명자께서 말씀하시길: 나약한 거짓된 자여, 우리가 성문의 앞에서 너를 업신여기노니, 어찌하여 너는 아직도 머뭇거리는가!  
+성도 복음 5：12 
+
+SaintState/begin3
+\board[성도 무명자]
+성도 무명자께서 말씀하시길: 다른 이에게 도움을 구하는 자는 성도라 칭할 수 없도다.  
+성도 복음 10：24 
+
+SaintState/begin4
+\board[성도 무명자]
+성도 무명자께서 말씀하시길: 저 석양을 보라, 우리가 그것을 찬미하리라.  
+성도 복음 123：456 

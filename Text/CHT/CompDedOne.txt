@@ -1,0 +1,158 @@
+
+DedOne/ded0
+\SETpl[DedOne_revenant]\Lshake\c[4]未知：\c[0]    啊啊啊啊！！！ IDDQD IDKFA！！！！
+
+DedOne/ded1
+\SETpl[DedOne_revenant]\Lshake\c[4]未知：\c[0]    啊啊啊啊！！！ 你毀了我的劇本！
+
+DedOne/ded2
+\SETpl[DedOne_revenant]\Lshake\c[4]未知：\c[0]    啊啊啊啊！！！ 槍！ 給我更多的槍！
+
+DedOne/PirateBane_begin1
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\c[4]未知：\c[0]    .....
+\CBct[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    咿咿！！
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    .........
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    ...
+\CBct[1]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯...
+\CBct[20]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    你嚇不到我的！
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    .....是喔？
+\CBct[1]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    咿咿！！ 說話了！！
+
+DedOne/PirateBane_begin_k1_Cocona
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\SETlpr[cocona_confused]\Lshake\PRF\c[4]未知：\c[0]    ......嗯？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\PRF\c[4]未知：\c[0]    這孩子還活著？...
+\CBfB[7]\SETlpr[cocona_shocked]\plf\Rshake\c[6]可可娜：\c[0]    你！ 可可娜知道！ 壞人！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    不，我不是。 我是正義的夥伴。
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]可可娜：\c[0]    你！ 謊言者！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    我不是。
+\CBfB[7]\SETlpr[cocona_angry]\plf\Rshake\c[6]可可娜：\c[0]    你是！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    不是！
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]可可娜：\c[0]    ..........
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\PLF\prf\c[4]未知：\c[0]    .......
+\CBfB[8]\SETlpr[cocona_confused]\plf\PRF\c[6]可可娜：\c[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    ...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\Lshake\PRF\c[4]未知：\c[0]    好好照顧她。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃.....
+\CBct[1]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    當然！
+
+
+DedOne/PirateBane_begin_k1_GratRat
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]灰鼠：\c[0]    讓開！
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]灰鼠：\c[0]    你... 你到底是什麼！？
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]賽希莉：\C[0]    怎麼了？
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]灰鼠：\c[0]    不要過來！離他遠一點！
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    ......嗯？
+\CBfB[2]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]賽希莉：\C[0]    到底怎麼了？
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]灰鼠：\c[0]    那個東西很危險！ 快逃！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    你們是神經病嗎？ 我可是正義的夥伴！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    我是哪裡惹到你們了？
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[6]灰鼠：\c[0]    .......
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]灰鼠：\c[0]    .......
+\CBfF[6]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]灰鼠：\c[0]    是我誤會了，抱歉。
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    沒關係。這經常發生而我也習慣了，誰叫我是正義的夥伴呢。能夠理解你們的無知。
+
+DedOne/PirateBane_begin_k2
+\CBmp[DedOne,20]\m[confused]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    孩子，有沒有見過這樣的人？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    她跟妳年紀差不多... 但胸部很大。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    胸部......？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    注意！ 她胸部跟妳不一樣，真的很大很大。 大概是蜜瓜的大小吧。
+\CBct[8]\m[shy]\plf\Rshake\c[6]洛娜：\c[0]    很...大...？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    別傷心，平...咳！我是說小的也很可愛。
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    孩子！ 記住我說的！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    胸不平，何以平天下。 乳不巨，何以聚人心。 
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    莫浸淫夢境，巨者、平者皆非可得。善待雙手乃真良策是也。
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我......
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    啊！別哭... 我開玩笑的！
+
+DedOne/PirateBane_begin_k3
+\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    如果妳遇到一個矮子，胸部很大，皮膚藍色的的蠢女孩，麻煩帶她來見我。
+\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    藍皮膚的女孩子應該不常見吧？大概？或許？希望她沒死在外面。
+
+DedOne/PirateBane_begin_k3_Opt
+\CBct[8]\m[normal]\SETpl[DedOne_normal]\plf\PRF\c[6]洛娜：\c[0]    呃...\optB[沒事,你是誰,藍皮膚<r=HiddenOPT0>]
+
+DedOne/PirateBane_begin_k3_Opt_who
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    你到底是誰？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    正義！ 我是正義的夥伴！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    為了淨化諾爾島上那一切的邪惡，正義將降臨諾爾島！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    只要邪惡存在，那我就存在！
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    是哦？
+
+DedOne/PirateBane_begin_k3_Opt_blue_NonMeet
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    藍皮膚的女孩？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    現在外面這麼亂，我覺得希望不大吧？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    她沒問題的，我從劇本中看見妳將來一定會遇到她的。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    是哦？
+
+DedOne/PirateBane_begin_k3_Opt_blue_Meet
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    藍皮膚的女孩？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我是看過她啦，一個自稱\c[6]海巫\c[0]的怪人是嗎？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    啊！ 果然與我的劇本發展一樣！ 太好了！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    麻煩跟她說，她的房東叫她快補繳欠租，叫她不要躲了。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    欠租？ 為什麼你自己不去跟她說？ 她就在魚托比島上的一個遺跡中。
+，
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    沒用的，她能感知到我的存在，我只是要提醒她該繳房租了，她不想見我，我也不想勉強她。
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]正義：\c[0]    當然，我不會讓妳徒勞一場，我會給妳些正義的禮物。
+\CBct[20]\m[normal]\plf\PRF\c[6]洛娜：\c[0]    哦？ 好吧。
+
+####################################################################### PB_MassGrave
+#<r=HiddenOPT0>
+
+DedOne/MassGrave_1
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..請問？
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    什麼事？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...... 
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    公會的人說有個邪惡的人在這裡做壞事，不知道你有沒有...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    ......邪惡？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 我覺得他們說的人，可能就是指你？
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    我？邪惡？\optD[是的,解釋<r=HiddenOPT0>]
+
+DedOne/MassGrave_optCB
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 沒錯...？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    為什麼？ 我正專注在工作，而這個世界需要我。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    但是你已經打擾到附近的治安了。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    大家都很怕你... 而我也覺得您有股邪氣。
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]未知：\c[0]    啊啊啊啊啊啊啊！！！
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]未知：\c[0]    妳說什麼啊！！！！ 我不是邪惡！！！ 我可是正義啊！
+\CBmp[DedOne,1]\SETpl[DedOne_angry]\Lshake\prf\c[4]未知：\c[0]    證明妳的價值！ 給妳30秒的時間！ 妳能活下來我就聽妳說！
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    什麼？？ 咦咦！？
+
+DedOne/MassGrave_optCB2
+\CamMP[BlockerCam]\m[terror]\plf\PRF\c[6]洛娜：\c[0]    咦呀！？
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]未知：\c[0]    受死吧！
+
+DedOne/MassGrave_optPASS
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 沒錯...？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    為什麼？ 我正在工作，這個世界需要我。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    工作？ 什麼工作？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    這些迷途的羔羊們需要我的引領，我要引導他們前往該去的地方。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    嗯... 不懂。
+\CBct[20]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    總之不要被別人看到了，這會給人添麻煩的。
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    我是在做正義的事，為何要躲躲藏藏、遮遮掩掩？
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    唉...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    那就好好地、正常地去拯救無辜的人啊！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    一個富有正義的正常人，會大半夜的待在墳場嗎？ 你回答我啊？
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]未知：\c[0]    呃\..\..\.. 我該閃了，妳加油吧。
+\CBct[20]\m[wtf]\plf\Rshake\c[6]洛娜：\c[0]    啊？
+
+DedOne/MassGrave_optPASS2
+\CBct[20]\m[confused]\SETpl[nil]\PRF\c[6]洛娜：\c[0]    你是不是腦袋有問題啊？
+
+DedOne/MassGrave_WIN
+\SETpl[DedOne_angry]\Lshake\prf\c[4]未知：\c[0]    妳撐過去了！ 妳是好獵人！ 
+\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    再見！
+\CBct[20]\m[wtf]\SETpl[nil]\plf\Rshake\c[6]洛娜：\c[0]    啊！？ 你是不是腦袋有問題啊？
+
+
+####################################################################### PB_NorthCP
+
+PB_NorthCP/Qmsg0
+我就是正義！
+
+PB_NorthCP/Qmsg1
+別擔心！
+
+PB_NorthCP/Qmsg2
+正義來臨！
+

@@ -1,0 +1,432 @@
+thisMap/OvermapEnter
+\SETpl[CecilyWtfAr]\Lshake\C[4]세실리：\C[0] 준비됐어? 결심했으면 이제 돌아갈 수 없어!
+\m[confused]\plf\PRF\c[6]로나：\c[0] 으으....\optB[잠깐만,가자]
+
+QuestQmsg/XY
+위치는
+
+QuestStart/Begin0
+\CBfB[2]\SETpl[CecilyWtfAr]\PLF\C[4]세실리：\C[0] 여기 맞지?
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\PRF\C[4]회색쥐：\C[0] 네, 아가씨.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 그럼 이제 뭐 할 건데?
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] 네가 먼저 정찰해 줘야 해. 앞쪽에 우리 사람이 기다리고 있을 거야.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 으... 알았어.
+
+region/0_exit
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 해야 할 일은 끝까지 해야지. 약속한 거니까.
+
+QuestStart/flash0
+\CBmp[ThunderFlash,20]\prf\C[4]풀숲：\C[0] 천둥...
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 깜짝이야?!
+
+QuestStart/flash1
+\CBmp[ThunderFlash,20]\prf\C[4]풀숲：\C[0] \{천둥!
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 뭐...?
+\CBfF[8]\SETpl[GrayRatConfusedArAr]\PLF\prf\C[4]회색쥐：\C[0] ....
+
+QuestStart/flash2
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prh\C[4]회색쥐：\C[0] 섬광...
+\CBmp[ThunderFlash,8]\plf\C[4]풀숲：\C[0] ...
+
+########################################################################################
+
+QuestStart/ShowUp_AdamAlive0_t0
+\CBmp[Adam,1]\SETpr[Adam_angry]\plh\PRF\C[4]아담：\C[0] 너였군...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]회색쥐：\C[0] .....
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]아담：\C[0] 이 작은 도둑아, 전에 신세 많이 졌다.
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐? 나?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아, 별말씀을...
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]회색쥐：\C[0] 당신들, 아는 사이인가?
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]아담：\C[0] 전에 내가 몇 가지 일을 부탁했었지. 믿을 만한 조력자야.
+\CBmp[Adam,20]\SETpl[Adam_normal]\PLF\prf\C[4]아담：\C[0] 그리고 그 뒤에 있는 분이...
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]아담：\C[0] 세실리님, 만나 뵙게 되어 영광입니다.
+
+QuestStart/ShowUp_AdamAlive0_t1
+\CBmp[Adam,8]\SETpr[Adam_normal]\plh\PRF\C[4]아담：\C[0] 너였군...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]회색쥐：\C[0] .....
+\CBmp[Adam,2]\SETpl[Adam_angry]\m[confused]\PLF\prf\C[4]아담：\C[0] 그럼 옆에 있는 분이 세실리 아가씨인가?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐? 나?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 뒤에 있는 분이야! 난 그냥 수행원이라고!
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]아담：\C[0] 어......
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]아담：\C[0] 세실리님, 만나 뵙게 되어 영광입니다.
+
+QuestStart/ShowUp_AdamAlive1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] 네가 아담인가?
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\PRF\C[4]아담：\C[0] 그렇습니다.
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] 화물 상태는 어떤가?
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]아담：\C[0] 이번에 운송하는 화물이 평소보다 많고, 경비도 더 삼엄합니다.
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]아담：\C[0] 지금은 어떻게든 대상에 접근할 수 있는 길을 찾고 있습니다.
+
+########################################################################################
+
+QuestStart/ShowUp_AdamDed0
+\CBfF[2]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]회색쥐：\C[0] 아담은?
+\CBmp[replacer,20]\plf\C[4]경비병：\C[0] 그는 실종됐습니다. 며칠째 소식이 없고… 아마도 무사하지 못했을 겁니다.
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]회색쥐：\C[0] 안타깝군…
+
+QuestStart/ShowUp_AdamDed0_milo
+\CBct[8]\m[tired]\plf\Rshake\c[6]로나：\c[0] 하아… 저기…
+\CBfF[2]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]회색쥐：\C[0] 왜 그래?
+\CBct[8]\m[flirty]\plf\Rshake\c[6]로나：\c[0] 아냐… 아무것도…
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]회색쥐：\C[0] .....
+
+QuestStart/ShowUp_AdamDed1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] 화물 상태는 어때?
+\CBmp[replacer,20]\plf\C[4]경비병：\C[0] 이번에 운송되는 화물이 평소보다 많고, 경비도 늘었습니다.
+\CBmp[replacer,20]\plf\C[4]경비병：\C[0] 아직 우리도 마차 행렬에 접근할 수 있는 경로를 찾고 있는 중입니다.
+
+########################################################################################
+
+QuestStart/ShowUp_Quest0
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] 그녀에게 맡기자!
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 로나!
+
+QuestStart/ShowUp_Quest1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 헉?! 나 여기 있어!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] 예전에 날 구했을 때처럼, 우리한테 길을 안내해 줘!\optD[좋아!,어...]
+
+QuestStart/ShowUp_Quest2
+\board[난민 구출]
+목표 : 전방 정찰.
+앞길을 끝까지 조사하라.
+가능한 한 들키지 말 것.
+
+QuestStart/ShowUp_Quest3
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 맡겨 둬!
+
+QuestStart/ShowUp_Quest3_kill
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 나... 아마 못 할 것 같은데...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 내가 평민에게 너무 많은 걸 바란 건가?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 그럼 길을 힘으로 뚫어 버리자!
+
+########################################################################################
+
+Commoner/Qmsg0
+앞에 경비가 많아
+
+Commoner/Qmsg1
+조심해
+
+Commoner/Qmsg2
+들키지 마
+
+########################################################################################
+
+ReachedEnd/Success_NonSpot
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 경비를 하나도 놀라게 안 했다니? 대단한데!
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 에헤헤...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]세실리：\C[0] 화물은 바로 앞이야. 계속 움직이자.
+
+ReachedEnd/Success_Spoted
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 로나....
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]세실리：\C[0] 가끔은 정말 못 믿겠단 말이지...
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\PRF\C[4]회색쥐：\C[0] ....
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 미안...
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 됐다, 화물은 바로 앞이야. 계속 움직이자.
+
+ReachedEnd/FailedWarning
+\m[serious]\Rshake\c[6]로나：\c[0] 들켰어. \C[4]세실리\C[0]랑 \C[4]회색쥐\C[0]를 데려와야 해!
+
+########################################################################################
+########################################################################################
+########################################################################################  PART 2
+########################################################################################
+########################################################################################
+
+Part2/Enter
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 비가 오네....
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 괜찮아요. 빗소리에 다 묻혀서 안 들릴 거예요.
+\CBfB[20]\SETpl[GrayRatConfusedAr]\Lshake\PRF\C[4]회색쥐：\C[0] ...
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]세실리：\C[0] 야! 너!
+\CBmp[Follower1,2]\plf\C[4]경비병：\C[0] 저요?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]세실리：\C[0] 네가 후방 맡아! 이상한 낌새 있으면 바로 보고해!
+\CBmp[Follower1,20]\plf\C[4]경비병：\C[0] 알겠습니다!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 그럼 이제? 뭐 하면 돼요?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 화물은 아마 앞쪽이야. 전에처럼, 정찰병답게 움직여!
+
+Part2/SpotQuAcc0
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 앞쪽 조심하세요!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 응?
+
+Part2/SpotQuAcc0_Maani0
+\CBmp[Maani,20]\SETpr[MaaniNormal]\Rshake\C[4]마니：\C[0] 인원이 맞지 않군요. 계약에 따라 부족한 인원 수만큼 잔금에서 공제됩니다.
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]상인：\C[0] 알아요! 정말 노력했어요! 시바리스 쪽엔 이제 거의 살아남은 사람이 없다고요!
+\CBmp[Maani,20]\SETpr[MaaniNormal]\plf\Rshake\C[4]마니：\C[0] 그건 제 주인이 신경 쓸 일이 아니죠. 모든 건 계약대로 진행해야 합니다.
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]상인：\C[0] 젠장!
+
+Part2/SpotQuAcc0_Maani1
+\SETpl[AnonMale1]\Lshake\prh\C[4]상인：\C[0] 엿 먹어라!
+\SETpl[AnonMale1]\Lshake\prh\C[4]상인：\C[0] 잘난 척하는 창녀 같으니!
+
+part2/SpotQuAcc1
+\CBmp[Guard1,20]\SETpl[MobHumanCommoner]\PLF\prh\C[4]경비병：\C[0] 또 한 마리! 젠장할 모기 같으니!
+\CBmp[Guard2,20]\SETpr[AnonMale2]\plf\PRF\C[4]경비병：\C[0] 최악인 건 하필 비까지 오네.
+\CBmp[Guard3,8]\SETpl[MobHumanWarrior]\PLF\prf\C[4]경비병：\C[0] 하아... 인원이 점점 줄어드네...
+\CBmp[Guard4,8]\SETpl[AnonMale1]\PLF\prf\C[4]경비병：\C[0] .....
+\CBmp[Story2]\SETpl[CecilyAngryAr]\PLF\prh\C[4]세실리：\C[0] 경비병 넷...
+\CBmp[SlaveCart2,19]\SETpl[CecilyWtfAr]\PLF\prh\C[4]세실리：\C[0] 그리고 화물이 바로 뒤에 있어!
+\CBmp[SlaveCart2]\SETpl[CecilyNormalAr]\PLF\prh\C[4]세실리：\C[0] 로나, 처리할 수 있겠어?
+\CBmp[SlaveCart2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 윽! 나?\optD[기절시킬게,안 돼]
+
+part2/SpotQuAcc1_yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 내가 가서 전부 기절시켜 볼까? 아마 할 수 있을 거야?
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\prf\C[4]세실리：\C[0] 그럼 맡길게.
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]세실리：\C[0] 안 되겠다 싶으면 바로 우리가 나서겠어!
+\CBfF[20]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]회색쥐：\C[0] 조심해....
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 고마워!
+
+part2/SpotQuAcc1_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 좀 힘들 것 같은데...
+\CBfB[20]\SETpl[CecilyShyAr]\PLF\prf\C[4]세실리：\C[0] 흠....
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]세실리：\C[0] 질질 끌지 마! 그냥 쳐 없애버려!
+
+part2/SpotQuAcc2_board
+\board[난민 구출]
+경비병을 기절시키거나 처치하라.
+네 명의 경비병이 모두 사망 또는 기절 상태여야 함.
+
+Part2/SpotQuWin
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prh\C[4]세실리：\C[0] 잘했어!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prh\C[4]세실리：\C[0] 그녀들을 풀어주자.
+
+################################################################################################ Quest end  milo
+################################################################################################ Quest end  milo
+
+Part2/EndMilo_0
+\SETpl[GrayRatShockedAr]\Lshake\C[4]회색쥐：\C[0] \{아가씨! 비켜요!
+
+Part2/EndMilo_1
+\SETpr[CecilyShockedAr]\plh\Rshake\C[4]세실리：\C[0] 뭐?!
+
+Part2/EndMilo_2
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]세실리：\C[0] 회색쥐! 안 돼!
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]세실리：\C[0] 정신 차려! 회색쥐!
+
+Part2/EndMilo_3
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 왜 그래?! 무슨 일이야?!
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]세실리：\C[0] 얼른 눈 떠!
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]세실리：\C[0] 거짓말이지! 어서 깨어나!
+
+Part2/EndMilo_4
+\BonMP[Milo,3]\SETpr[MiloNormal]\Rshake\C[4]마일로：\C[0] 빗속에서 노래를 부른다♫
+
+Part2/EndMilo_5
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]세실리：\C[0] \{마일로\.. 본\.. 루드신드\. 이럴 리가 없어!
+
+Part2/EndMilo_5_1
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]마일로：\C[0] 참 이해가 안 가네, 너희는 왜 그렇게 투구 쓰길 싫어하는 거야?
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]마일로：\C[0] 저 위대한 성도를 봐! 머리 보호의 중요성을 제대로 알고 있잖아!
+
+Part2/EndMilo_6
+\CBmp[FollowerTop1,20]\C[4]경비병：\C[0] 어서 도망쳐! 실패했어! 사방이 놈들이다!
+
+Part2/EndMilo_7
+\CBmp[FollowerTop1,20]\C[4]경비병：\C[0] 뛰어! 이건 함정이야!
+
+Part2/EndMilo_8_manni
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]마일로：\C[0] 잘 쐈군!
+\BonMP[MaaniRF,20]\SETpl[MaaniNormal]\Lshake\C[4]마니：\C[0] 주인님 칭찬 감사드립니다.
+
+Part2/EndMilo_9
+\CBct[8]\m[shocked]\plh\Rshake\c[6]로나：\c[0] 죽은 거야?! 정말 죽은 거야?!
+
+Part2/EndMilo_10
+\CBct[20]\m[shocked]\plh\Rshake\c[6]로나：\c[0] 마일로 님?!
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 아야야! 로나, 작은 벌레? 너도 여기 있었어?
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]세실리：\C[0] 너희…
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 작은 벌레, 잘했어. 놈들을 유인한 건 전부 네 덕분이야.
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 로나… 너 무슨 짓을 한 거야?!
+\CBct[8]\m[terror]\plf\Rshake\c[6]로나：\c[0] 나… 나는 아무것도…
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]세실리：\C[0] 대체 무슨 짓을 한 거냐고!!
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 나의 작은 로나! 이리 와, 우린 널 해치지 않아.
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 내가 보장하지! 거기에 금화도 더 줄게.
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 넌 돈이 절실하잖아, 그렇지?
+
+Part2/EndMilo_10_opt
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] 나....\optD[나...,이 사기꾼]
+
+Part2/EndMilo_1_optNo1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 너는 사기꾼이야! 거짓말쟁이! 날 속였어!
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] 엥?
+\CBct[20]\m[angry]\plf\Rshake\c[6]로나：\c[0] 친구만 만들고 싶다고 했잖아! 이 거짓말쟁이! 넌 지옥에 떨어질 거야!
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] \..\..\..\.. 죽여라.
+
+Part2/EndMilo_1_optNo2
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prh\C[4]마일로：\C[0] 성도가 네 길을 인도하길♫
+
+Part2/EndMilo_11
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] 나…
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 이 배신자!
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 우리가 널 믿은 걸 이용했어!
+\CBct[8]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 아니야! 난 안 그랬어!
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]세실리：\C[0] 죽어라!
+
+Part2/EndMilo_12
+\CBct[8]\m[terror]\plf\Rshake\c[6]로나：\c[0] 안 돼! 일부러 그런 게 아니야!
+
+Part2/EndMilo_13
+\CBmp[Cecily,20]\SETpl[CecilyTrapA_Shocked]\Lshake\prf\C[4]세실리：\C[0]！！！
+\BonMP[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] 로나, 네 돈 여기 있잖아.
+
+Part2/EndMilo_14
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] 나… 나 도대체 무슨 짓을 한 거야…
+
+Part2/EndMilo_15
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 넌 네가 해야 할 일을 한 거야. 노엘섬의 안정을 지켰어. 아무 잘못도 없어.
+\CBct[8]\m[tired]\plf\Rshake\c[6]로나：\c[0] ......
+
+Part2/EndMilo_16
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 하지만 지금 넌 끝까지 지켜봐야 해.
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 그녀는 네 친구야. 이건 네가 만든 인과, 네가 그 결과를 마주해야 해.
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 구하려고도, 저항하려고도 하지 마. 총구가 네 머리를 겨누고 있으니까.
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] ......
+\CBmp[RifleR1,4]\ph\C[4]경비병：\C[0] 흐흐...
+\SndLib[sound_DressTear]\CBmp[Cecily,1]\SETpl[CecilyTrapB_Shocked]\Lshake\C[4]세실리：\C[0] !!!
+\CBmp[RifleR2,3]\ph\C[4]경비병：\C[0] 키히히...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]세실리：\C[0] 안 돼....
+\CBmp[RifleR3,4]\ph\C[4]경비병：\C[0] 흐흐흐흐...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]세실리：\C[0] 제발...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]세실리：\C[0] 날... 구해 줘...
+
+Part2/EndMilo_17
+\CBmp[RifleR1,3]\ph\C[4]경비병：\C[0] 두목! 우리 저 여자랑 놀아도 됩니까?
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] 누구? 땅에 엎드린 저 애 말하는 거 아니야?
+\CBmp[RifleR1,3]\plf\C[4]경비병：\C[0] 아, 그게 아니라 저 키 작은 쪽이요. 구멍이 모자라서요.
+\CBct[1]\m[terror]\plf\Rshake\c[6]로나：\c[0] !!!
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] 뭐라고? 너희 진짜 짐승들이냐?
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] 그녀는 방금 자기 친구를 팔아넘겼어! 지금 이렇게 괴로워하는 거 안 보여? 너희 양심은 어디 갔어!
+\CBmp[RifleR1,6]\plf\C[4]경비병：\C[0] 아... 죄송합니다.
+
+Part2/EndMilo_18
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] ......
+\CBct[8]\m[tired]\plf\Rshake\c[6]로나：\c[0] 그녀는… 어떻게 될 건가요…
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] 세실리 이글모어?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 그녀는 수많은 사람을 죽였어. 경비병, 상인, 시민… 온갖 사람들이 그녀 손에 죽었지.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 그 사람들과, 그들의 가족까지.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]마일로：\C[0] 대가를 치러야 해.
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] .....
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 너는 떠나도 돼.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 아니면 여기 남아서 계속 울어도 좋고.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]마일로：\C[0] 저 짐승들이 한가해질 때까지… 그리고 네 몸을 마음껏 즐기게 될 때까지 말이야.
+\CBct[8]\m[tired]\plf\Rshake\c[6]로나：\c[0] \..\..\.. 네…
+\narr\ph로나는 자리를 떠났다
+
+################################################################################################ Quest end  Cecily
+################################################################################################ Quest end  Cecily
+
+Part2/EndCecily_1
+\CBmp[Slave1,20]\C[4]난민：\C[0] 너희는 누구야?
+\CBmp[Slave3,20]\C[4]난민：\C[0] 우리 주인은 어디 있지?
+\CBmp[Slave5,20]\C[4]난민：\C[0] 배고파 죽겠어!
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 너희는 자유야.
+\CBmp[Slave2,20]\plf\C[4]난민：\C[0] 자유?
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 그래! 너희는 해방된 거야!
+\CBmp[Slave4,20]\plf\C[4]난민：\C[0] 배고픈데? 그럼 먹을 건 있어?
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\C[4]세실리：\C[0] 뭐라고?
+\CBmp[Slave6,20]\plf\C[4]난민：\C[0] 노예여야 밥이 나오잖아! 일도 있고!
+\CBmp[Slave2,20]\plf\C[4]난민：\C[0] 난 내 노예 계약으로 아이 안전을 보장받았어! 이제 어쩌라고!
+\CBmp[Slave4,20]\plf\C[4]난민：\C[0] 지금은 온통 마물 천지인데, 너희가 우리 목숨 지켜줄 수 있어?
+\CBmp[Slave5,20]\plf\C[4]난민：\C[0] 그 사람들은 나한테 먹을 걸 많이 줬어! 이제야 배불리 먹을 기회였는데! 이게 다 뭐야!
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\C[4]세실리：\C[0] 너희는 자존심도 없니? 잉카란 왕국의 사람은 노예가 되어선 안 돼!
+\CBmp[Slave3,20]\plf\C[4]난민：\C[0] 허… 또 귀족님이 기사 흉내나 내려 오셨네…
+\CBmp[Slave1,20]\plf\C[4]난민：\C[0] 다음 끼니는 어떻게 하지?
+\CBmp[Slave5,20]\plf\C[4]난민：\C[0] 난 돌아가서 노예상인한테 너희를 고발할 거야! 그러면 아마 밥이라도 더 줄 거야! 너희는 끝났어!
+
+Part2/EndCecily_2
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\C[4]세실리：\C[0] 너희! 내 말 좀 들어… 돌아와!
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]회색쥐：\C[0] 아가씨… 이게 바로 이른바 민중이라는 겁니다…
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어…
+
+Part2/EndCecily_3
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\prf\C[4]세실리：\C[0] 어쩌다 이렇게 된 거지?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 보통은… 우리 평민들이 원래 이런 거니까요….
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]세실리：\C[0] ........
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 우리 이제 떠나야 하는 거 아니에요?
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]세실리：\C[0] .....
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어….
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]세실리：\C[0] ...
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]회색쥐：\C[0] 가죠….
+
+Part2/EndCecily_4
+\CBmp[GrayRat,20]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]회색쥐：\C[0] 아가씨는 이 모든 걸 이해하려면 시간이 필요하실 겁니다.
+\CBmp[GrayRat,20]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]회색쥐：\C[0] 약속한 금액입니다.
+
+Part2/EndCecily_5
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 고마워요....
+
+##########################################################################################################   HEV
+
+CecilyRape/rape_scene1
+\C[4]경비병A：\C[0] 다들 봐라! 내가 귀족 위에 올라탔다!
+
+CecilyRape/rape_scene2
+\C[4]경비병A：\C[0] 수년간 꿈꿔온 걸 내가 이뤘다!
+
+CecilyRape/rape_scene3
+\C[4]세실리：\C[0] 안 돼... 왜 이래!
+
+CecilyRape/rape_scene4
+\C[4]세실리：\C[0] 회색쥐를 돌려줘!
+
+CecilyRape/rape_scene5
+\SndLib[sound_chcg_full]\C[4]경비병B：\C[0] 저게 네 남자냐?
+
+CecilyRape/rape_scene6
+\SndLib[sound_chcg_full]\C[4]경비병A：\C[0] 그 잡놈은 이미 죽었어! 이제부터 우리가 네 남자다!
+
+CecilyRape/rape_scene7
+\SndLib[sound_chcg_full]\C[4]경비병B：\C[0] 끝내준다! 남자 앞에서 그 여자를 안는 것만큼 짜릿한 건 없지!
+
+CecilyRape/rape_scene8
+\SndLib[sound_chcg_full]\C[4]경비병A：\C[0] 아쉽게도 그는 죽었어! 못 보겠네! 하하하하!
+
+CecilyRape/rape_scene9
+\C[4]세실리：\C[0] 안 돼! 싫어! 누가 좀 나를 구해줘!
+
+CecilyRape/rape_scene10
+\SndLib[sound_chcg_full]\C[4]경비병B：\C[0] \{우오오오오오!!!
+
+CecilyRape/rape_scene11
+\SndLib[sound_chcg_full]\C[4]경비병B：\C[0] \{간다! 받아라! 제대로 받아!
+
+CecilyRape/rape_scene12
+\C[4]세실리：\C[0] \{안 돼! 안 돼! 안 돼!
+
+CecilyRape/rape_scene13
+\C[4]경비병B：\C[0] 캬, 죽인다! 이러다 내 새끼라도 배는 거 아냐?
+\C[4]경비병B：\C[0] 그러면 나도 귀족이네!
+
+CecilyRape/rape_scene14
+\SndLib[sound_chcg_full]\C[4]세실리：\C[0] \{흐윽… 흐흐흑…
+
+CecilyRape/rape_scene15
+\C[4]경비병A：\C[0] 내 차례다! 내 차례!
+
+CecilyRape/rape_scene16
+\SndLib[sound_chcg_full]\C[4]세실리：\C[0] 그만해! 싫어! 비켜!
+
+CecilyRape/rape_scene17
+\SndLib[sound_chcg_full]\C[4]경비병A：\C[0] 걱정 마라! 전부 안에다 쌀테니!
+\SndLib[sound_chcg_full]\C[4]경비병A：\C[0] 그러면 넌 아버지가 누군지도 모르는 새끼들을 잔뜩 낳게 될 거야!
+
+CecilyRape/rape_scene18
+\C[4]세실리：\C[0] 미안해! 제발 살려줘! 부탁이야!
+
+CecilyRape/rape_scene19
+\SndLib[sound_chcg_full]\C[4]경비병A：\C[0] \{이이익!
+
+CecilyRape/rape_scene19_1
+\SndLib[sound_chcg_full]\C[4]경비병A：\C[0] \{나온다! 아아!
+
+CecilyRape/rape_scene20
+\C[4]경비병A：\C[0] 이게 귀족의 구멍이냐? 뒷골목 창녀랑 별 다를 게 없군.
+\C[4]경비병A：\C[0] 다음은 누가 할 차례냐!
+
+CecilyRape/rape_scene21
+\SndLib[sound_chcg_full]\C[4]경비병B：\C[0] 빨리 싸! 뒤에 아직도 많은 동료들이 네 차례 기다린다고!
+
+CecilyRape/rape_scene22
+\C[4]세실리：\C[0] 흐으으윽...
+
+CecilyRape/rape_scene23
+\C[4]세실리：\C[0] 살려줘... 제발 누가 날 좀 구해줘...

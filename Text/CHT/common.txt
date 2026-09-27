@@ -1,0 +1,1247 @@
+#--------------------------------       narr
+
+Lona/Group_disbanded
+\narr隊伍解散了。
+
+Lona/Follower_disbanded
+\narr隊友離開了。
+
+Lona/FollowerExt_disbanded
+\narr跟隨者離開了。
+
+Lona/NarrDriveAway
+\narr洛娜被趕出去了。
+
+#================================     OPT
+
+Lona/Decide_optD
+\m[confused]\c[6]洛娜：\c[0]    嗯？\optD[算了,決定]
+
+Lona/Decide_optB
+\m[confused]\c[6]洛娜：\c[0]    嗯？\optB[算了,決定]
+
+Lona/CompCommand
+\m[confused]\c[6]洛娜：\c[0]    嗯？
+
+Lona/EnterSub
+\m[confused]\c[6]洛娜：\c[0]    進去？\optB[算了,進入]
+
+Lona/SkipEv
+略過事件？\optD[略過,撥放]
+
+###################################################################     COMMON NAP RAPE
+#------------------------------------------------- Human
+
+Noer/NapRape_Human0
+\c[4]路人：\c[0]    這個小鬼怎麼躺在這？
+
+Noer/NapRape_Human1
+\c[4]路人：\c[0]    呵呵，這個小可愛怎麼躺在這？
+
+Noer/NapRape1_Human
+\c[4]路人：\c[0]    嗯嗯。
+
+Noer/NapRape2_Human
+\narr洛娜被抬走了。
+
+Noer/NapRape3_Human0
+\c[4]路人：\c[0]    沒事沒事，就只是請妳幫我把小雞雞清理一下，這妳辦的到吧？
+
+Noer/NapRape3_Human1
+\c[4]路人：\c[0]    醒來了？
+
+Noer/NapRape3_Human2
+\c[4]路人：\c[0]    別廢話了，我要肏妳！
+
+
+
+Noer/NapRape_Moot0
+\c[4]路人：\c[0]    這個小鬼怎麼躺在這？
+
+Noer/NapRape_Moot1
+\c[4]路人：\c[0]    呵呵，這個小可愛怎麼躺在這？
+
+Noer/NapRape1_Moot
+\c[4]路人：\c[0]    嗯嗯。
+
+Noer/NapRape2_Moot
+\narr洛娜被抬走了。
+
+Noer/NapRape3_Moot0
+\c[4]路人：\c[0]    沒事沒事，就只是請妳幫我把小雞雞清理一下，這妳辦的到吧？
+
+Noer/NapRape3_Moot1
+\c[4]路人：\c[0]    醒來了？
+
+Noer/NapRape3_Moot2
+\c[4]路人：\c[0]    別廢話了，我要肏妳！
+
+
+
+
+Noer/NapRape_withSta_Fight2_Human0
+\c[4]路人：\c[0]    看來妳是想死對吧？
+
+Noer/NapRape_withSta_Fight2_Human1
+\c[4]路人：\c[0]    \{欠打是嗎？
+
+Noer/NapRape_withSta_Fight2_Human2
+\c[4]路人：\c[0]    \{居然敢反抗？！
+
+Noer/NapRape_withSta_NoFight2_Human0
+\m[sad]\c[4]路人：\c[0]    呼呼呼♥
+
+Noer/NapRape_withSta_NoFight2_Human1
+\m[sad]\c[4]路人：\c[0]    嘿嘿嘿♥
+
+Noer/NapRape_withSta_NoFight2_Human2
+\m[sad]\c[4]路人：\c[0]    這才乖♥
+
+#moot.   same like human,  but nibba
+
+Noer/NapRape_withSta_Fight2_Moot0
+\c[4]路人：\c[0]    肖查某！ 綽死？！
+
+Noer/NapRape_withSta_Fight2_Moot1
+\c[4]路人：\c[0]    \{想挨揍是嗎？系赫！
+
+Noer/NapRape_withSta_Fight2_Moot2
+\c[4]路人：\c[0]    \{三小啦！！ 幹！
+
+Noer/NapRape_withSta_NoFight2_Moot0
+\m[sad]\c[4]路人：\c[0]    嘻嘻嘻♥
+
+Noer/NapRape_withSta_NoFight2_Moot1
+\m[sad]\c[4]路人：\c[0]    呵呵呵♥
+
+Noer/NapRape_withSta_NoFight2_Moot2
+\m[sad]\c[4]路人：\c[0]    乖乖♥
+
+#------------------------------------------------- Fishkind
+
+Noer/NapRape_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    呱咕？！ 女人！
+
+Noer/NapRape_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    咕咕.. 女人.. 播種...
+
+Noer/NapRape1_Fishkind
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    呱呱？！
+
+Noer/NapRape2_Fishkind
+\narr洛娜被抬走了。
+
+Noer/NapRape3_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    女人！ 我要繁殖！
+
+Noer/NapRape3_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    女人！ 肏妳的屄！
+
+Noer/NapRape3_Fishkind2
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    女人！ 播種！
+
+Noer/NapRape_withSta_Fight2_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    \{反抗！ 瓜咕？ 殺！
+
+Noer/NapRape_withSta_Fight2_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    \{呱咕！ 打女人！
+
+Noer/NapRape_withSta_Fight2_Fishkind2
+\SndLib[FishkindSmSpot]\c[4]漁民：\c[0]    \{咕呱？！
+
+Noer/NapRape_withSta_NoFight2_Fishkind0
+\SndLib[FishkindSmSpot]\m[sad]\c[4]漁民：\c[0]    咕呼呼♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind1
+\SndLib[FishkindSmSpot]\m[sad]\c[4]漁民：\c[0]    呱呱♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind2
+\SndLib[FishkindSmSpot]\m[sad]\c[4]漁民：\c[0]    肏屄♥
+
+#------------------------------------------------- Lona
+
+Lona/NapRape3
+\Bon[20]\m[tired]\c[6]洛娜：\c[0]    咦阿？
+\Bon[20]\m[fear]\Rshake\c[6]洛娜：\c[0]    你！你要做什麼？！
+
+Lona/NapRape_withSta
+\optD[算了吧<t=3>,反抗]
+
+Lona/NapRape_withSta_Fight1_typical
+\Bon[5]\m[shocked]\Rshake\c[6]洛娜：\c[0]    走開！
+
+Lona/NapRape_withSta_Fight1_slut
+\Bon[8]\m[flirty]\c[6]洛娜：\c[0]    阿啦... 現在不太適合耶。
+
+Lona/NapRape_withSta_Fight1_tsundere
+\Bon[20]\m[irritated]\Rshake\c[6]洛娜：\c[0]    不要！別碰我！
+
+Lona/NapRape_withSta_Fight1_gloomy
+\Bon[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    咿咿！！
+
+Lona/NapRape_withSta_NoFight1_typical
+\Bon[8]\m[sad]\c[6]洛娜：\c[0]    嗚....
+
+Lona/NapRape_withSta_NoFight1_slut
+\Bon[4]\m[lewd]\c[6]洛娜：\c[0]    過來吧♥
+
+Lona/NapRape_withSta_NoFight1_tsundere
+\Bon[5]\m[sad]\c[6]洛娜：\c[0]    可惡....
+
+Lona/NapRape_withSta_NoFight1_gloomy
+\Bon[6]\m[fear]\c[6]洛娜：\c[0]    不要弄痛我...
+
+Lona/NapRape_noSta
+\Bon[8]\m[tired]\c[6]洛娜：\c[0]    嗚....
+
+#--------             ---寄生蟲
+
+Lona/PooMoonWorm
+\narr月蟲從肛門中不斷鑽出，肛門受到了不少傷害。
+
+Lona/PeePotWorm
+\narr壺蟲從尿道中不斷鑽出，尿道受到了不少傷害。
+
+Lona/PukeHook
+\narr鉤蟲隨著嘔吐物噴濺了出來。
+
+Lona/OgrasmPolyp
+\narr子宮收縮將成熟的卵蟲擠了出來。
+
+Lona/PeePot
+\narr壺蟲從尿道中不斷鑽出，尿道受到了不少傷害。
+
+Lona/BirthedWorms
+\narr新生的寄生蟲開始尋找新的宿主。
+
+Lona/ParasiteHit_polyp
+\m[p5shame]\cg[event_PolypWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]洛娜：\c[0]    好痛！！！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]洛娜：\c[0]    \{ 啊啊啊！！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]洛娜：\c[0]    \{有什麼東西鑽進來了！
+
+Lona/ParasiteHit_hook
+\m[p5shame]\cg[event_HookWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]洛娜：\c[0]    \{咕嗚！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]洛娜：\c[0]    嗚嗚！！嗚嗚嗚嗚！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]洛娜：\c[0]    \{ 咳咳！ 咳！！
+
+Lona/ParasiteHit_pot
+\m[p5shame]\cg[event_PotWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]洛娜：\c[0]    不！不要鑽進來，那是尿尿的地方！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]洛娜：\c[0]    \{嗚啊啊！會裂開的！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]洛娜：\c[0]    \{ 咿啊啊啊！！
+
+Lona/ParasiteHit_moon
+\m[p5shame]\cg[event_MoonWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]洛娜：\c[0]    不！不要鑽我的尻穴！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]洛娜：\c[0]    \{嗚啊啊！會壞掉的！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊！！
+
+Lona/Parasite_Wakeup
+洛娜肚子中的寄生蟲不斷的蠕動。
+\m[p5shame]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]洛娜：\c[0]    嗚嗚嗚！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]洛娜：\c[0]    \{咿啊啊！！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]洛娜：\c[0]    \{嗚啊啊啊！！
+\m[pain]\c[6]洛娜：\c[0]    嗚嗚... 這樣下去不行。
+\m[sad]\c[6]洛娜：\c[0]    得趕快把蟲子拿出來。
+
+#---------------------------------------------------------------------------when overweight
+
+Lona/overweight
+\m[pain]\c[6]洛娜：\c[0]    嗚嗚! 好重，身上帶太多東西了。
+\m[tired]\c[6]洛娜：\c[0]    必須丟棄不必要的東西。
+
+#---------------------------------------------------------------------------When cuff is on
+
+Lona/cuff_on_normal
+\m[bereft]\c[6]洛娜：\c[0]    別這樣!放開我!
+
+Lona/cuff_on_slut
+\m[triumph]\c[6]洛娜：\c[0]    騙人的吧!
+
+Lona/cuff_on_tsun
+\m[shocked]\c[6]洛娜：\c[0]    唔!太大意了!
+
+Lona/cuff_on_weak
+\m[sad]\c[6]洛娜：\c[0]    求你了，不要這樣。
+
+Lona/cuff_on_mouth_block
+\m[bereft]\c[6]洛娜：\c[0]    嗚!嗚嗚嗚!!
+
+Lona/cuff_on_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    哈...哈....
+
+###-------when cuff is on , day passed -----------------
+#--------------------------------------------------------------------------when 穴內放尿
+
+narrator/peein_mouth
+\Rshake 粗大的肉棒毫不留情地在洛娜的口中一次又一次地抽動。
+\Rshake 腥臭的尿液灌入洛娜的喉嚨中，嬌小的口腔無法承受，直接溢出來了。
+\Rshake 刺鼻的尿味從鼻腔竄入大腦，衝擊著洛娜的神經。
+
+narrator/peein_vag
+\Rshake 粗大的肉棒毫不留情地貫穿了洛娜的屄穴。
+\Rshake 腥臭的尿液順著洛娜的屄穴灌入子宮中，溫熱的液體讓洛娜全身顫抖。
+\Rshake 溢出的尿液沿著屄穴順流而下，滴到了地板上。
+
+narrator/peein_anal
+\Rshake 粗大的肉棒毫不留情地貫穿了洛娜的尻穴。
+\Rshake 腥臭的尿液灌入洛娜的腸道中，溫熱的液體讓洛娜全身顫抖。
+\Rshake 溢出的尿液沿著股溝順流而下，滴到了地板上。
+
+#--------------------------------------------------------------------------Semen addiction
+
+Lona/Ograsm_addiction_add_a_level
+\narr\m[shy]\c[4]洛娜的身體漸漸地對性高潮產生了依賴。
+
+Lona/Ograsm_addiction_almost
+\narr\m[pain]\c[4]對性交的強烈渴望讓洛娜無法集中精神。
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    我.... 好想做愛。
+
+Lona/Ograsm_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]洛娜現在除了性交外什麼都不想做。
+\narrOFF\m[sexhurt]\c[6]洛娜：\c[0]    嗚嗚.... 身體好熱。
+
+Lona/Ograsm_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4]洛娜現在除了性交外什麼都不想做。
+\narrOFF\m[p5shame]\Rshake\c[6]洛娜：\c[0]    嗚嗚~~
+\m[sexhurt]\Rshake\c[6]洛娜：\c[0]    不行.. 下體好熱..
+
+Lona/Ograsm_addiction_overLv3
+\narr\m[terror]\Rshake\c[4]洛娜現在除了性交外什麼都不想做，她覺得自己要瘋了。
+\narrOFF\m[sexhurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚~~救救我！
+\m[p5shame]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊!!!誰都好!
+\m[hurt]\c[6]洛娜：\c[0]    ......誰都好!
+\m[sexhurt]\c[6]洛娜：\c[0]    誰來肏我!誰來肏我!肏我!快來肏我!
+
+#--------------------------------------------------------------------------Semen addiction
+
+Lona/Semen_addiction_add_a_level
+\narr\m[pain]\c[4]洛娜的身體漸漸地對精液產生了依賴。
+
+Lona/Semen_addiction_almost
+\narr\m[pain]\c[4]對精液的強烈渴望讓洛娜無法集中精神。
+\narrOFF\m[fear]\c[6]洛娜：\c[0]    我.. 需要精液.. 不然撐不下去的。
+
+Lona/Semen_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]洛娜對精液的需求導致食不下嚥。
+\narrOFF\m[sexhurt]\c[6]洛娜：\c[0]    嗚嗚.. 誰來給我一點精液。
+
+Lona/Semen_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4]洛娜對精液的需求導致食不下嚥。
+\narrOFF\m[p5shame]\Rshake \c[6]洛娜：\c[0]    嗚嗚~~
+\m[hurt]\Rshake\c[6]洛娜：\c[0]    不行.. 我需要精液.. 不然會死的！
+
+Lona/Semen_addiction_overLv3
+\narr\m[terror]\Rshake\c[4]洛娜對精液的需求導致食不下嚥，洛娜覺得自己要瘋了。
+\narrOFF\m[sexhurt]\Rshake\c[6]洛娜：\c[0]    嗚嗚~~
+\m[p5shame]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊!!!
+\m[sad]\c[6]洛娜：\c[0]    ....
+\m[sexhurt]\c[6]洛娜：\c[0]    嗚嗚.. 我受不了了!
+
+#--------------------------------------------------------------------------drug_addiction
+
+Lona/Drug_addiction_add_a_level
+\narr\m[pain]\c[4]服用太多藥物了，洛娜對藥物出現了依賴性。
+
+Lona/Drug_addiction_almost
+\narr\m[pain]\c[4]由於藥物成癮，洛娜的精神越來越難集中。
+\narrOFF\m[fear]\c[6]洛娜：\c[0]    我.. 需要一些藥.. 不然撐不下去的。
+
+Lona/Drug_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]由於藥物成癮，洛娜感到全身都在痛，意識開始離她而去。
+\narrOFF\m[sad]\c[6]洛娜：\c[0]    嗚嗚.. 必須馬上找到點藥...
+
+Lona/Drug_addiction_overLv2
+\narr\m[pain]\Rshake\c[4]由於藥物成癮，洛娜感到全身都在痛，意識開始離她而去。
+\narrOFF\m[p5sta_damage]\Rshake \c[6]洛娜：\c[0]    嗚 \{嗚啊啊!!
+\m[terror]\Rshake \c[6]洛娜：\c[0]    不行.. 我需要藥.. 不然會死的....
+
+Lona/Drug_addiction_overLv3
+\narr\m[p5sta_damage]\Rshake\c[4]由於藥物成癮，洛娜覺得自己要瘋了。
+\narrOFF\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    嗚嗚\{嗚\{啊\{啊啊啊!!!!
+\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    咿\{嗚\{哇\{啊啊啊!!!
+\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    求求你!!\{我要藥!!\{給我啊!!
+\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    \{我什麼都聽你的.. \n\{你要我做什麼都可以..
+\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊!!!
+\m[terror]\c[6]洛娜：\c[0]    ........
+\m[sad]\c[6]洛娜：\c[0]    嗚嗚.. 我到底是怎麼了？
+
+
+#--------------------------------------------------------------------------when Dress is out
+Lona/Qmsg_dress_out_normal
+衣服呢？！
+
+Lona/Qmsg_dress_out_tsun
+居然把衣服拿走了!
+
+Lona/Qmsg_dress_out_weak
+好冷，不快點找件衣服的話...
+
+Lona/Qmsg_dress_out_slut
+什麼都沒穿，總覺得有點像變態呢...
+
+Lona/Qmsg_dress_out_overfatigue
+呼...　哈...　好冷...
+
+Lona/Qmsg_dress_out_mouth_block
+嗚嗚嗚！
+
+Lona/dress_out_normal0
+\prh！！！！！！
+\m[pain]\c[6]洛娜：\c[0]    好冷！　我的衣服...
+
+Lona/dress_out_normal1
+\prh！！！！！！
+\m[fear]\c[6]洛娜：\c[0]    得趕緊把衣服找回來才行！
+
+Lona/dress_out_normal2
+\prh！！！！！！
+\m[shocked]\c[6]洛娜：\c[0]    衣服呢？！
+
+Lona/dress_out_tsun0
+\prh！！！！！！
+\m[angry]\c[6]洛娜：\c[0]    為什麼會是裸體啊！
+
+Lona/dress_out_tsun1
+\prh！！！！！！
+\m[irritated]\c[6]洛娜：\c[0]    居然把衣服拿走了!不可原諒！
+
+Lona/dress_out_tsun2
+\prh！！！！！！
+\m[angry]\c[6]洛娜：\c[0]    這份屈辱！　一定會討回來！
+
+Lona/dress_out_weak0
+\prh！！！！！！
+\m[shy]\c[6]洛娜：\c[0]    如果能找到件衣服就好了。
+
+Lona/dress_out_weak1
+\prh！！！！！！
+\m[sad]\c[6]洛娜：\c[0]    好冷，感覺涼颼颼的。
+
+Lona/dress_out_weak2
+\prh！！！！！！
+\m[sad]\c[6]洛娜：\c[0]    不快點找件衣服的話...
+
+Lona/dress_out_slut0
+\prh！！！！！！
+\m[pleased]\c[6]洛娜：\c[0]    什麼都沒穿，總覺得有點像變態呢...
+
+Lona/dress_out_slut1
+\prh！！！！！！
+\m[triumph]\c[6]洛娜：\c[0]    心裏蹦蹦跳的，我到底在期待什麼？
+
+Lona/dress_out_slut2
+\prh！！！！！！
+\m[triumph]\c[6]洛娜：\c[0]    感覺...　有點興奮？接下來怎麼半？
+
+Lona/dress_out_overfatigue0
+\prh！！！！！！
+\m[tired]\c[6]洛娜：\c[0]    呼...　哈...　好冷...
+
+Lona/dress_out_overfatigue1
+\prh！！！！！！
+\m[tired]\c[6]洛娜：\c[0]    ......
+
+Lona/dress_out_overfatigue2
+\prh！！！！！！
+\m[tired]\c[6]洛娜：\c[0]    不行了... 好冷...
+
+Lona/dress_out_mouth_block0
+\prh！！！！！！
+\m[shocked]\c[6]洛娜：\c[0]    嗚嗚嗚！
+\m[shy]\c[6]洛娜：\c[0]    嗚！
+
+Lona/dress_out_mouth_block1
+\prh！！！！！！
+\m[hurt]\c[6]洛娜：\c[0]    嗚嗚嗚！
+\m[tired]\c[6]洛娜：\c[0]    嗚！
+
+Lona/dress_out_mouth_block2
+\prh！！！！！！
+\m[wtf]\c[6]洛娜：\c[0]    嗚嗚嗚！
+\m[shy]\c[6]洛娜：\c[0]    嗚！
+
+#------------------------------------- Ext
+Lona/Qmsg_dress_out_ext_normal
+嗯.... 我才不需要穿衣服！
+
+Lona/Qmsg_dress_out_ext_tsun
+強者才不需要穿衣服！
+
+Lona/Qmsg_dress_out_ext_weak
+衣服.. 希望沒人會發現....
+
+Lona/Qmsg_dress_out_ext_slut
+我什麼都沒穿，我是個變態呢♥
+
+Lona/Qmsg_dress_out_ext_overfatigue
+也好... 衣服太重了....
+
+Lona/Qmsg_dress_out_ext_mouth_block
+嗚！
+
+Lona/dress_out_ext_normal0
+\m[pleased]\c[6]洛娜：\c[0]    嗯.... 我才不需要穿衣服！
+
+Lona/dress_out_ext_normal1
+\m[pleased]\c[6]洛娜：\c[0]    我總算自由了！
+
+Lona/dress_out_ext_tsun0
+\m[serious]\c[6]洛娜：\c[0]    哼！ 衣服只會讓我行動更慢！ 那些笑我的人都只是忌妒我！
+
+Lona/dress_out_ext_tsun1
+\m[serious]\c[6]洛娜：\c[0]    強者才不需要穿衣服！
+\m[shy]\c[6]洛娜：\c[0]    呃....
+
+Lona/dress_out_ext_weak0
+\m[fear]\c[6]洛娜：\c[0]    裸體明明是不對的.... 可是....
+
+Lona/dress_out_ext_weak1
+\m[flirty]\c[6]洛娜：\c[0]    衣服.. 希望沒人會發現....
+
+Lona/dress_out_ext_slut0
+\m[lewd]\c[6]洛娜：\c[0]    我什麼都沒穿，我是個變態呢♥
+
+Lona/dress_out_ext_slut1
+\m[lewd]\c[6]洛娜：\c[0]    嘻嘻♥ 我裸體我性感♥
+
+Lona/dress_out_ext_overfatigue0
+\m[tired]\c[6]洛娜：\c[0]    衣物太重了，沒穿行動可能還快一點....
+
+Lona/dress_out_ext_overfatigue1
+\m[flirty]\c[6]洛娜：\c[0]    也好... 衣服太重了....
+
+Lona/dress_out_ext_mouth_block0
+\m[tired]\c[6]洛娜：\c[0]    嗚嗚嗚
+
+Lona/dress_out_ext_mouth_block1
+\m[tired]\c[6]洛娜：\c[0]    嗚！
+
+#--------------------------------------------------------------------------when collar is on
+
+Lona/collar_on_normal
+\m[bereft]\c[6]洛娜：\c[0]    別這樣!! 把它拿走!
+
+Lona/collar_on_slut
+\m[flirty]\c[6]洛娜：\c[0]    這東西，好重!
+
+Lona/collar_on_tsun
+\m[shocked]\c[6]洛娜：\c[0]    該死的！　這東西拿不下來？！
+
+Lona/collar_on_weak
+\m[confused]\c[6]洛娜：\c[0]    嗚嗚...　好重...
+
+Lona/collar_on_mouth_block
+\m[bereft]\c[6]洛娜：\c[0]    嗚!嗚嗚嗚!!
+
+Lona/collar_on_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    哈啊.......
+
+#--------------------------------------------------------------------------when lost her baby
+
+Lona/lost_baby
+\m[shocked]\c[6]洛娜：\c[0]    寶寶呢?寶寶去哪裡了？
+\m[sad]\c[6]洛娜：\c[0]    只留下我一個人了嗎？
+
+#-----------------------------when lost too many babys
+
+Lona/lost_baby_again
+\m[sad]\c[6]洛娜：\c[0]    寶寶呢？....？
+\m[confused]\c[6]洛娜：\c[0]    果然，又不見了...
+\m[tired]\c[6]洛娜：\c[0]    算了，早就知道會這樣了。
+
+#--------------------------------------------------------------------------when cums too heavy
+Lona/heavy_begin
+\narr肚子裡的精液要滿出來了。
+
+Lona/Qmsg_SemenBursting0
+裡面滿滿的，感覺好脹....
+
+Lona/Qmsg_SemenBursting1
+肚子好重...
+
+Lona/Qmsg_SemenBursting2
+不行了...太重了...需要休息一下
+
+Lona/SemenBursting0
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    裡面滿滿的，感覺好脹....
+
+Lona/SemenBursting1
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    肚子好重...
+
+Lona/SemenBursting2
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    不行了...太重了...需要休息一下
+
+#-----------------when cums not heavy anymore
+
+Lona/SemenBursting_regen_begin
+\narr精液造成的腹脹感消退了。
+
+Lona/Qmsg_SemenBursting_regen0
+感覺好多了！
+
+Lona/Qmsg_SemenBursting_regen1
+稍微恢復一點了呢！
+
+Lona/Qmsg_SemenBursting_regen2
+還得再多休息一下才行。
+
+Lona/SemenBursting_regen0
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    感覺好多了！
+
+Lona/SemenBursting_regen1
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    稍微恢復一點了呢！
+
+Lona/SemenBursting_regen2
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    還得再多休息一下才行。
+
+#-------------------------------------------------------------------------when eat cums
+
+Lona/eat_cums_normal0
+\narr洛娜不得已的將口中的精液嚥了下去。
+\narrOFF\m[pain]\c[6]洛娜：\c[0]    好臭！好噁心的味道！
+
+Lona/eat_cums_normal1
+\narr洛娜不得已的將口中的精液嚥了下去。
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    哈..哈啊...喉嚨好痛！
+
+Lona/eat_cums_tsun0
+\narr洛娜不得已的將口中的精液嚥了下去。
+\narrOFF\m[angry]\c[6]洛娜：\c[0]    真是噁心，居然吃下了這種東西！
+
+Lona/eat_cums_tsun1
+\narr洛娜不得已的將口中的精液嚥了下去。
+\narrOFF\m[serious]\c[6]洛娜：\c[0]    絕..絕對不會再有下次了！
+
+Lona/eat_cums_weak0
+\narr精液順著洛娜的喉嚨流了下去。
+\narrOFF\m[pain]\c[6]洛娜：\c[0]    不行了...真的不行了...
+
+Lona/eat_cums_weak1
+\narr精液順著洛娜的喉嚨流了下去。
+\narrOFF\m[pain]\c[6]洛娜：\c[0]    咳咳...咳咳....
+
+Lona/eat_cums_slut0
+\narr洛娜將口中的精液嚥了下去。
+\narrOFF\m[lewd]\c[6]洛娜：\c[0]    肉棒..　精液..　哈哈...
+
+Lona/eat_cums_slut1
+\narr洛娜將口中的精液嚥了下去。
+\narrOFF\m[lewd]\c[6]洛娜：\c[0]    想要！ 還想要更多！
+
+Lona/eat_cums_mouth_block0
+\narr洛娜將口中的精液嚥了下去。
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    嗚！
+
+Lona/eat_cums_mouth_block1
+\narr洛娜將口中的精液嚥了下去。
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    嗚嗚嗚！
+
+Lona/eat_cums_overfatigue0
+\narr洛娜將口中的精液嚥了下去。
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    唔唔咕.... 嗯唔.....
+
+Lona/eat_cums_overfatigue1
+\narr洛娜將口中的精液嚥了下去。
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    咕嚕... 嗯咕...
+
+#-------------------------------------------------------------------------WHEN HUNGER
+
+Lona/hunger0
+\narr飽足感讓洛娜身心都得到了療癒。
+\narrOFF\m[triumph]\c[6]洛娜：\c[0]    嗯嗯！　能吃的飽是萬幸。
+
+Lona/hunger1
+\m[confused]\c[6]洛娜：\c[0]    我還不是很餓，但最好趕快填飽肚子。
+
+Lona/hunger2
+\narr空腹感揮之不去。
+\narrOFF\m[sad]\c[6]洛娜：\c[0]    嗚...　好餓，趕快找食物吧。
+
+Lona/hunger3
+\narr空腹感揮之不去並壓迫著洛娜的肚子。
+\narrOFF\m[pain]\c[6]洛娜：\c[0]    如果再不吃點東西的話我一定會餓死的！
+
+#-------------------------------------------------------------------------WHEN low sta
+
+Lona/lowsta0
+\m[pain]\c[6]洛娜：\c[0]    嗚...　腿動不了了....
+
+Lona/lowsta1
+\m[pain]\c[6]洛娜：\c[0]    嗚...　身體好重....
+
+Lona/lowsta2
+\m[pain]\c[6]洛娜：\c[0]    嗚...　腿好痛...身體也好重....
+
+Lona/lowsta3
+\m[pain]\c[6]洛娜：\c[0]    嗚...　站不起來了，最好找個地方休息。
+
+Lona/Qmsg_lowsta0
+嗚...　腿動不了了....
+
+Lona/Qmsg_lowsta1
+嗚...　身體好重....
+
+Lona/Qmsg_lowsta2
+嗚...　腿好痛...身體也好重....
+
+Lona/Qmsg_lowsta3
+嗚...　站不起來了，最好找個地方休息。
+
+#------------------------------------------------------------------------NAP
+
+Lona/nap
+\m[tired]\c[6]洛娜：\c[0]    嗚嗚.........
+
+#--------------------------------------------------------------------況張傷害
+
+Lona/vag_damaged
+\m[shy]洛娜的屄穴看起來像黑木耳一般外翻，在也合不起來了。
+\m[fear]\c[6]洛娜：\c[0]    我的身體到底會被弄成甚麼樣子？
+
+Lona/urinary_damaged
+\m[shy]尿意無止境的來襲，洛娜的尿道與膀胱看起來失去它的功能了。
+\m[fear]\c[6]洛娜：\c[0]    尿意  好像停不下來了？
+
+Lona/anal_damaged
+\m[shy]穢物無時不刻地從洛娜的尻穴流出來，洛娜的肛門與直腸看起來失去它的功能了。
+\m[fear]\c[6]洛娜：\c[0]    我的身體到底會被弄成甚麼樣子阿？
+
+#---------------------------------------------------------便意尿意
+
+Lona/pee_dialog
+\m[confused]\c[6]洛娜：\c[0]    恩，有點想小號。
+\m[shy]\c[6]洛娜：\c[0]    必須找個安全的地方。
+
+Lona/scat_dialog
+\m[confused]\c[6]洛娜：\c[0]    恩，有點想大號。
+\m[shy]\c[6]洛娜：\c[0]    必須找個安全的地方。
+
+Lona/Qmsg_pee_dialog
+有點想小號...
+
+Lona/Qmsg_scat_dialog
+有點想大號...
+
+#---------------------------------泌尿系統受損後
+
+Lona/auto_pee
+\m[confused]尿液不受控制地從尿穴流出，騷味與不適感充斥著洛娜的下體。
+\m[shy]\c[6]洛娜：\c[0]    最好... 找個地方清潔一下。
+
+Lona/Qmsg_auto_pee
+不行...快尿出來了...
+
+Lona/auto_pee_nap
+\narr尿液在洛娜睡著時不斷的流出。
+\narr洛娜失禁了。
+
+Lona/auto_poo
+\m[confused]穢物不受控制地從尻穴流出，糞臭味與黏膩感充斥著洛娜的下體。
+\m[shy]\c[6]洛娜：\c[0]    最好.... 找個地方清潔一下。
+
+Lona/Qmsg_auto_poo
+不行了...便便...拉出來了...
+
+Lona/auto_poo_nap
+\narr穢物在洛娜睡著時不斷的流出
+
+###############################################################COMMON SEX TRAIT/LURE##############################################################
+
+Lona/lure_normal0
+\m[shy]\c[6]洛娜：\c[0]    請....　隨意使用我的穴。
+
+Lona/lure_normal1
+\m[shy]\c[6]洛娜：\c[0]    我是你的畜生，請隨便搞我。
+
+Lona/lure_tsun0
+\m[shy]\c[6]洛娜：\c[0]    請...　隨意弄我....
+
+Lona/lure_tsun1
+\m[shy]\c[6]洛娜：\c[0]    嗚...　這裡...　隨便你用吧....
+
+Lona/lure_weak0
+\m[shy]\c[6]洛娜：\c[0]    我是你的家畜，我會乖乖的。
+
+Lona/lure_weak1
+\m[shy]\c[6]洛娜：\c[0]    這裡...　隨便你怎麼用...
+
+Lona/lure_slut0
+\m[lewd]\c[6]洛娜：\c[0]    請... 請隨便使用我下賤的小穴。
+
+Lona/lure_slut1
+\m[lewd]\c[6]洛娜：\c[0]    請幹我！　我是個下賤的婊子！
+
+Lona/lure_mouth_block0
+於它們的視線下，洛娜將她的小穴撥開。
+\m[shy]\c[6]洛娜：\c[0]    嗚嗚.....
+
+Lona/lure_mouth_block1
+在它們的視線下，洛娜將她的尻穴撥開。
+\m[shy]\c[6]洛娜：\c[0]    嗚嗚.....
+
+Lona/lure_overfatigue0
+於它們的視線下，洛娜將她的小穴撥開。
+\m[shy]\c[6]洛娜：\c[0]    .......
+
+Lona/lure_overfatigue1
+在它們的視線下，洛娜將她的尻穴撥開。
+\m[shy]\c[6]洛娜：\c[0]    .......
+
+############################################333EQUIP WOUNDS########################33
+
+Lona/cuff_wound
+\m[pain]\c[4]鐐銬...
+\m[fear]\c[6]洛娜：\c[0]    必須想辦法取下它，不然我什麼事也不用做了。
+
+Lona/collar_wound
+\m[pain]\c[4]頸枷...
+\m[bereft]\c[6]洛娜：\c[0]    不要！　我不要當奴隸！
+
+###############################################PUKE######################
+
+Lona/puke_cums
+\narr黏稠的精液附著在洛娜的喉嚨與氣管裡。
+\narr巨大的嘔吐感向洛娜襲來。
+
+Lona/puke_begin1
+\PRF\c[6]洛娜：\c[0]    \{嗚噗！
+
+Lona/puke_begin2
+\narr肚子裡的東西不受控制的噴了出來。
+
+Lona/puke1
+\c[6]洛娜：\c[0]    \{嗚咕嘔！
+
+Lona/puke2
+\c[6]洛娜：\c[0]    \{嘔嗚噗！
+
+Lona/puke3
+\c[6]洛娜：\c[0]    \{噗咕咕嘔！
+
+Lona/puke4
+\c[6]洛娜：\c[0]    咕嘔！ 嘔咕嘔！
+
+Lona/puke5
+\c[6]洛娜：\c[0]    咳!!     咳!咳!
+
+Lona/puke_end1
+\c[6]洛娜：\c[0]    嘔... 嗚啊.. 哈啊....
+
+Lona/puke_end2_normal
+\c[6]洛娜：\c[0]    嘔嘔!!..嗚!全都吐出來了。
+
+Lona/puke_end2_preg
+\c[6]洛娜：\c[0]    感覺不太舒服....
+
+Lona/Qmsg_Oev_Puke
+嗚嗚...想吐...
+
+###############################################Itch######################
+
+Lona/Qmsg_Oev_Itch0
+好癢...
+
+Lona/Qmsg_Oev_Itch1
+下體...好養...
+
+Lona/Qmsg_Oev_Itch2
+嗚嗚...癢癢...
+
+###########################################SICK################################
+
+Lona/sick
+\m[pain]\c[6]洛娜：\c[0]    嗚嗚....
+\m[tired]\c[6]洛娜：\c[0]    身體不太對勁，今天最好不要再活動了。
+
+###########################################3# MILK OVERCHARGE################################
+
+Lona/Milk_feed_notEnough
+\m[confused]\c[6]洛娜：\c[0]    \..\..\..
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    乳汁不夠了？！
+
+Lona/MilkSpray_overcharge
+\narr洛娜的乳房感覺非常腫脹，乳汁斯乎要溢出來了。
+\narrOFF\m[shy]\c[6]洛娜：\c[0]    嗚嗚....必須找個地方處理一下
+
+########################################3####MENSES SYSTEM#######################################
+
+Lona/menses
+\m[pain]\c[6]洛娜：\c[0]    嗚嗚，每個月的又來了嗎？
+\m[shy]\c[6]洛娜：\c[0]    最好找個有水的地方清乾淨。
+\m[tired]\c[6]洛娜：\c[0]    可是...　嗚嗚..　腹部好痛...
+
+Lona/menses_bad
+\m[pain]\c[6]洛娜：\c[0]    髒東西還是一直流出來，身體也好沉重。
+\m[tired]\c[6]洛娜：\c[0]    今天最好還是休息一下。
+
+Lona/menses_ovulate
+\m[confused]\c[6]洛娜：\c[0]    又來了....
+\m[shy]\c[6]洛娜：\c[0]    下面感覺好熱，身體好像在期待什麼。
+
+################################################ PREG DIALOGS ##################################################
+#########LV1
+
+Lona/preglv1_puke_exped
+\m[sad]\c[6]洛娜：\c[0]    我聽說過這種狀況。
+\m[confused]\c[6]洛娜：\c[0]    我懷孕了嗎？
+
+Lona/preglv1_Qmsg_puke_exped0
+我聽說過這種狀況....
+
+Lona/preglv1_Qmsg_puke_exped1
+我懷孕了嗎....？
+
+#########LV2
+
+Lona/preglv2_puke
+\m[sad]\c[6]洛娜：\c[0]    咕嘔！　來了！　又來了！
+
+Lona/preglv2_Qmsg_puke
+咕嘔！　來了！　又來了！
+
+Lona/preg_lv2
+\m[confused]\c[6]洛娜：\c[0]    腹部感覺好怪，而且飢餓感越來越強烈。
+
+Lona/preg_lv2_Qmsg
+腹部感覺好怪，而且飢餓感越來越強烈...
+
+Lona/preg_lv2_exped
+\m[shy]\c[6]洛娜：\c[0]    這種異樣感.....
+\m[fear]\c[6]洛娜：\c[0]    我又懷孕了...？
+
+Lona/preg_lv2_exped_Qmsg0
+這種異樣感.....
+
+Lona/preg_lv2_exped_Qmsg1
+我又懷孕了...？
+
+Lona/preglv2_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{咿啊啊啊！
+\m[tired]\c[6]洛娜：\c[0]    嗚啊！
+\m[sad]\c[6]洛娜：\c[0]    這陣痛好恐怖。
+
+#########LV3
+
+Lona/preglv3
+\m[shocked]\c[6]洛娜：\c[0]    嗚嗚...我的肚子什麼時候變的這麼大的...
+\m[fear]\c[6]洛娜：\c[0]    不好...大家會注意到我的...
+
+Lona/preglv3_Qmsg0
+嗚嗚...我的肚子什麼時候變的這麼大的...
+
+Lona/preglv3_Qmsg1
+不好...大家會注意到我的...
+
+Lona/preglv3_puke
+\m[sad]\c[6]洛娜：\c[0]    嗚嘔！　不要！　又來了！　嘔！
+
+Lona/preglv3_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{咿啊啊啊！！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{咿嘔嗚嗚啊！！
+\m[tired]\c[6]洛娜：\c[0]    呼啊..　呼...
+\m[sad]\c[6]洛娜：\c[0]    啊啊.... 這種陣痛感太可怕了。
+\m[confused]\c[6]洛娜：\c[0]    我可以感覺到肚子裡的寶寶在動。
+
+Lona/preglv3_Qmsg_pain0
+我可以感覺到肚子裡的寶寶在動...
+
+Lona/preglv3_Qmsg_pain1
+啊啊.... 這種陣痛感太可怕了。
+
+#########LV4
+
+Lona/preglv4
+\m[pain]\c[6]洛娜：\c[0]    寶寶在動，這種感覺越來越強烈了。
+\m[fear]\c[6]洛娜：\c[0]    大概快生了，該怎麼辦....
+
+Lona/preglv4_Qmsg0
+寶寶在動，這種感覺越來越強烈了。
+
+Lona/preglv4_Qmsg1
+大概快生了，該怎麼辦....
+
+Lona/preglv4_weak
+\m[shy]\c[6]洛娜：\c[0]    不要... 不要在動了!!
+\m[bereft]\c[6]洛娜：\c[0]    我不想在這麼痛苦的世界中生下你!!
+
+Lona/preglv4_Qmsg_weak0
+不要... 不要在動了！！！
+
+Lona/preglv4_Qmsg_weak1
+我不想在這麼痛苦的世界中生下你!!
+
+Lona/preglv4_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{咿啊啊！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{哈咿啊啊啊！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{嗚咿呀呀啊啊啊！！
+\m[tired]\c[6]洛娜：\c[0]    啊呀... 呼啊..　呼...
+\m[sad]\c[6]洛娜：\c[0]    嗚嗚.... 寶寶又在踢了。
+\m[confused]\c[6]洛娜：\c[0]    不要怕，媽媽會保護你的。
+
+Lona/preglv4_pain_Qmsg0
+嗚嗚.... 寶寶又在踢了。
+
+Lona/preglv4_pain_Qmsg1
+啊呀... 呼啊..　呼...
+
+Lona/preglv4_pain_Qmsg2
+不要怕，媽媽會保護你的。
+
+#####################birth
+
+Lona/preglv5_ready_to_birth
+！！！！！！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{水！水停不下來！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{水...水流出來了！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{好像，有什麼流出來了！
+\m[pain]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    越來越多了，這樣下去不行！
+\m[shy]\c[6]洛娜：\c[0]    得找個安全的地方才行！
+
+Lona/preglv5_ready_birth_shake0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{好痛！
+
+Lona/preglv5_ready_birth_shake1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{哦唔！
+
+Lona/preglv5_ready_birth_shake2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{呀啊！
+
+Lona/preglv5_birth_start
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{好痛！\}肚子，在動！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{哈啊！\}感覺好像快要出來了！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    唔！又來了！\{咿\{咿\{咿
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    越來越痛了！\{痛阿\{阿\{阿
+
+Lona/preglv5_birth_start_pain0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{啊啊啊啊啊！
+\Rshake\c[6]洛娜：\c[0]    \{停下來！快點停下來！
+
+Lona/preglv5_birth_start_pain1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{唔噢噢噢噢！
+\Rshake\c[6]洛娜：\c[0]    \{唔噢噢噢噢噢！
+\Rshake\c[6]洛娜：\c[0]    \{唔噢噢噢噢噢噢！
+
+Lona/preglv5_birth_start_pain2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{好痛！好痛啊！
+\Rshake\c[6]洛娜：\c[0]    \{我不行了！ 我不行了！
+
+Lona/preglv5_birth_start_pain3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{哈啊！   
+\Rshake\c[6]洛娜：\c[0]    \{唔唔！
+
+Lona/preglv5_birth_start_pain4
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{要出來了！
+\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{咿咿咿咿啊！！！
+
+######################################流產
+
+Lona/preg_miscarriage_start
+\narr巨大的陣痛突然襲來
+\narrOFF\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{\{！！！\}！！\}！！\{！！！\{！！！！！\}！！！！\{！！！
+
+Lona/preg_miscarriage_begin0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{好痛！　好痛啊！
+
+Lona/preg_miscarriage_begin1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{唔噢噢噢噢！
+
+Lona/preg_miscarriage_begin2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{不要！　饒了我吧！
+
+Lona/preg_miscarriage_begin3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]洛娜：\c[0]    \{咿咿咿！　\{啊啊啊！
+
+Lona/preg_miscarriage_end0
+\m[pain]\c[6]洛娜：\c[0]    這是... 我的寶寶嗎？
+\m[fear]\c[6]洛娜：\c[0]    寶寶，我的寶寶死掉了。
+
+Lona/preg_miscarriage_end1
+\m[sad]\c[6]洛娜：\c[0]    嗚嗚嗚嗚... 媽媽對不起你，我是個失敗的母親。
+
+##_------------------------------異種強制流產　　使用於ｒａｐｅ　ｌｏｏｐ連鎖事件 本事件僅適用ORKIND
+
+Lona/MonsterPregCheckbegin1_unexped
+\narr它們將洛娜架了起來。
+\narrOFF\c[6]洛娜：\c[0]    \m[p5shame]嗚嗚..　你們要做什麼。
+\narr它貼在洛娜的陰部不斷嗅著，似乎在尋找著什麼。
+
+Lona/MonsterPregCheckbegin1_exped
+\narr它貼在洛娜的陰部不斷嗅著，似乎在懷疑洛娜沒有懷上同族的種。
+\narrOFF\c[6]洛娜：\c[0]    \m[p5shame]嗚嗚..　我已經懷上了，真的！ 沒騙你！
+
+Lona/MonsterPregCheckbegin2_normal
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    不要.. 不要舔了..
+
+Lona/MonsterPregCheckbegin2_tsun
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    畜生！ 不要呀！ 把你的髒嘴拿開！
+
+Lona/MonsterPregCheckbegin2_weak
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    不要！ 不要弄痛我！ 啊啊！
+
+Lona/MonsterPregCheckbegin2_slut
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    咿啊啊！ 你們要做什麼！
+
+Lona/MonsterPregCheckbegin2_mouth_block
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    嗚嗚嗚！ 嗚嗯嗚嗚！
+
+Lona/MonsterPregCheckbegin2_overfatigue
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    嗚啊... 啊啊...
+
+Lona/MonsterPregCheckbegin3
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    嗯啊....
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    嗚嗯..
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]洛娜：\c[0]    嗯啊啊！
+
+Lona/MonsterPregChecked_pregnant
+\narr它們對洛娜子宮中的狀況相當滿意，所以它們決定要肏翻洛娜。
+\narrOFF\c[6]洛娜：\c[0]    \m[fear]你們... 要做什麼？
+
+Lona/MonsterPregChecked_no_pregnant
+\narr洛娜還沒有懷上它們的種，這代表必須肏翻洛娜。
+\narrOFF\c[6]洛娜：\c[0]    \m[fear]你們... 要做什麼？
+
+Lona/MonsterPregChecked_race_error
+\narr它們發現洛娜並非懷上它們的同族，它們發怒了。
+\narrOFF\c[6]洛娜：\c[0]    \m[fear]你們... 要做什麼？
+\narr它們決定要用最原始的方法幫洛娜流產。
+
+
+#-----------------------------
+
+Lona/use_as_MeatToilet_normal
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    不要！！！ 放開我！！！
+\m[terror]\Rshake\c[6]洛娜：\c[0]    \{誰來救救我！！
+
+Lona/use_as_MeatToilet_tsun
+\m[angry]\Rshake\c[6]洛娜：\c[0]    放開我！ 你們這些噁心的@#$@...嗚嗚！！@#$@#
+\m[hurt\Rshake]\c[6]洛娜：\c[0]    \{嗚嗚嗚嗚！！！
+
+Lona/use_as_MeatToilet_weak
+\m[fear]\Rshake\c[6]洛娜：\c[0]    我... 我會乖乖的... 不要傷害我...
+\m[bereft]\Rshake\c[6]洛娜：\c[0]    好痛！！ \{呀啊！！！
+
+Lona/use_as_MeatToilet_slut
+\m[flirty]\Rshake\c[6]洛娜：\c[0]    想要我的身體？ 誰屈服誰還不知道呢！
+\m[sexhurt]\Rshake\c[6]洛娜：\c[0]    咿呀！！ 輕點！！！
+
+Lona/use_as_MeatToilet_overfatigue
+\m[tired]\Rshake\c[6]洛娜：\c[0]    嗚嗚........
+\m[hurt]\Rshake\c[6]洛娜：\c[0]    讓我休息一下，求求... \{咿呀！！
+
+Lona/use_as_MeatToilet_mouth_block
+\m[tired]\Rshake\c[6]洛娜：\c[0]    嗚嗚........
+\m[hurt]\Rshake\c[6]洛娜：\c[0]    \{嗚嗚嗚嗚！！！
+
+#-----------------------------  BerserkDrug
+
+Lona/BerserkDrug0
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]洛娜：\c[0]    \{嗚嗚嗚啊！
+
+Lona/BerserkDrug1
+\m[p5health_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]洛娜：\c[0]    我感覺......\n\{啊啊啊啊！！！
+
+Lona/BerserkDrug2
+\cg[event_RipAndTear]\Rflash\SndLib[sound_Heartbeat]他們嘲弄妳，他們看妳就像隻蛆蟲。
+\Rflash\SndLib[sound_Heartbeat]但妳如今不同以往。
+\Rflash\SndLib[sound_Heartbeat]妳比它們更壞，更強大。
+\Rflash\SndLib[sound_Heartbeat]\{開腸剖肚，事成方休！
+
+Lona/BerserkDrug3
+\cgoff\SndLib[sound_Heartbeat]\c[6]洛娜：\c[0]    \{啊哈哈哈哈哈！
+
+Lona/BerserkDrug4
+\SndLib[sound_Heartbeat]\c[6]洛娜：\c[0]    我覺得....\n\{憤怒！
+
+#-----------------------------  Drunk
+
+Lona/DrunkLv1
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]洛娜：\c[0]    噶！
+\m[pleased]\PRF\c[6]洛娜：\c[0]    啊哈哈！
+
+Lona/DrunkLv2
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]洛娜：\c[0]    噶！
+\m[confused]\PRF\c[6]洛娜：\c[0]    ......
+\m[flirty]\PRF\c[6]洛娜：\c[0]    最好不要再喝了。
+
+#-----------------------------  Locked , house or dungeon loot.
+
+Lona/PickLock
+\m[confused]鎖著的，要使用#{$story_stats["HiddenOPT1"]}體力打開它嗎？
+
+#-----------------------------  Nightmare(PTSD)
+
+Lona/PTSD_begin0
+\Rflash\SndLib[sound_Heartbeat]！！！
+
+Lona/PTSD_begin1
+\Rflash\SndLib[sound_Heartbeat]！！！！！！
+
+Lona/PTSD_begin2
+\Rflash\SndLib[sound_Heartbeat]！！！！！！！！！！
+
+Lona/PTSD_Common_0
+\m[terror]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]洛娜：\c[0]    嗚嗚嗚....
+
+Lona/PTSD_Common_1
+\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]洛娜：\c[0]    \{不要....\} 走開...
+
+Lona/PTSD_Common_2
+\m[pain]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]洛娜：\c[0]    \{對不起...\} 饒了我...
+
+Lona/PTSD_Common_3
+\m[hurt]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]洛娜：\c[0]    \{我錯了...\} 不要呀...
+
+Lona/PTSD_CecilyBetray
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]賽希莉：\c[0]    妳為什麼要做出這種事....
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]賽希莉：\c[0]    我不會原諒妳的！
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]賽希莉：\c[0]    \{死吧！
+
+Lona/PTSD_Orkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！
+\cg[map_OrcHappy]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！！！
+\cg[event_OrkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！！！！！！
+
+Lona/PTSD_Fishkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！
+\cg[map_FishkindGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！！！
+\cg[event_FishkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！！！！！！
+
+Lona/PTSD_Abomination
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！
+\cg[map_AbominationSpider]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！
+\cg[map_AbominationGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！！！！
+
+Lona/PTSD_Bandit
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！！！
+\cg[event_miscarriage_low]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！！！！！！
+
+Lona/PTSD_Slave
+\cg[event_captured]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！！！！
+
+Lona/PTSD_begin4
+\cgoff\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]洛娜：\c[0]    \{\{不要！！
+
+Lona/PTSD_begin5_0
+\m[terror]\c[6]洛娜：\c[0]    ...........
+\m[tired]\c[6]洛娜：\c[0]    又是惡夢....?
+
+Lona/PTSD_begin5_1
+\m[terror]\c[6]洛娜：\c[0]    ...........
+\m[tired]\c[6]洛娜：\c[0]    是夢嗎....？
+
+######################### Eat hand
+
+Lona/EatHand0
+\m[confused]\c[6]洛娜：\c[0]    諾\..諾\..諾\..
+\m[flirty]\c[6]洛娜：\c[0]    嗯\..\..\..我確定這不好吃。
+
+Lona/EatHand1
+\m[confused]\c[6]洛娜：\c[0]     諾\..諾\..諾\..
+\m[flirty]\c[6]洛娜：\c[0]    我在做什麼？
+\m[confused]\c[6]洛娜：\c[0]    這很有趣嗎？
+
+Lona/EatHand2
+\m[confused]\c[6]洛娜：\c[0]    諾\..諾\..諾\..
+\m[flirty]\c[6]洛娜：\c[0]    耶\..\..\..我最好停下來。

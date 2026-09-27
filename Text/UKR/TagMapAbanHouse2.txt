@@ -1,0 +1,113 @@
+thisMap/OvermapEnter
+Табір на Болотах \optB[Скасувати,Увійти]
+
+EmptyHouse/Qmsg0
+Порожній Дім
+
+EmptyHouse/Qmsg1
+Тут нічого немає
+
+yeller/Qmsg0
+Я зайнятий!
+
+yeller/Qmsg1
+Чи не зараз!
+
+yeller/start
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач:\C[0] Гей!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач:\C[0] Сюди! Вони йдуть!
+\CamCT\Bon[2]\m[shocked]\Rshake\c[6]Лона:\C[0] Що?! Хто йде!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач：\C[0] Швидше!
+
+yeller/start1
+\CamMP[Wave2A]\BonMP[Wave2A,20]\SndLib[FishkindSmQuestion]\prf\c[4]Глибинний:\C[0] ГуЛу!
+\CamMP[Wave2B]\BonMP[Wave2B,20]\SndLib[FishkindSmQuestion]\prf\c[4]Глибинний:\C[0] Гоу Ла Ла!
+\CamMP[Wave2C]\BonMP[Wave2C,20]\SndLib[FishkindSmQuestion]\prf\c[4]Глибинний:\C[0] ПоуЛа ПауЛу!
+\CamCT\Bon[1]\m[shocked]\Rshake\c[6]Лона:\C[0] Монстри!
+
+yeller/start_win
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач:\C[0] Ух, мало не попалися! Слава Святому!
+
+yeller/begin2to3
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник：\C[0] Якби не ти, ми б могли не впоратися.
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Лона:\C[0] Фуф... Не варто подяки.
+
+guard/beginElseQmsg0
+Єбучі Глибинники!
+
+guard/beginElseQmsg1
+Катись у пекло! Помри!
+
+guard2/beginElseQmsg0
+Я втомився...
+
+guard2/beginElseQmsg1
+У мене болять очі.
+
+yeller/beginElseQmsg0
+Допоможіть їй!
+
+yeller/beginElseQmsg1
+Будь ласка!
+
+FArcher/Qmsg
+Дякую.
+
+yeller/begin3
+\CamCT\Bon[6]\m[confused]\PRF\c[6]Лона:\C[0] Ем... \optB[Скасувати Що відбувається?]
+
+yeller/begin3_opt_Wut
+\CamCT\Bon[6]\m[wtf]\PRF\c[6]Лона:\C[0] Що тут відбувається?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник：\C[0] Ми найняли групу найманців, щоб врятувати людей, спійманих у Сібарісі.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник：\C[0] До цього моменту все йшло гладко, поки вони не з'явилися тут.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Ми під облогою отари Глибинних.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Вони завжди поруч, весь час, вони спостерігають за нами, і чекають, коли ми розслабимося.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник：\C[0] Я не сплю вже кілька днів... Наша мораль і сили вже закінчуються.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач:\C[0] Точно! Ти можеш допомогти мені! Її теж схопили ці ебучі Глибинники.
+\CamCT\Bon[6]\m[shocked]\Rshake\c[6]Лона:\C[0] Кого?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник：\C[0] Мою дівчину! Прошу, врятуй її! Її життя у твоїх руках!
+
+yeller/begin3_opt_WutBoard
+\board[Зникла Жінка]
+Завдання: Знайти вкрадену Глибинну жінку
+Нагорода：Репутація +5
+Клієнт：Найомник
+Повторюваність：Одноразове
+Наша розвідка виявила сліди, що ведуть до печери на північному заході.
+Вона має бути ще живою. Прошу, врятуй її!
+
+yeller/begin3_opt_WutBoard_opt
+\CamCT\Bon[6]\m[confused]\PRF\c[6]Лона:\C[0] Я... \optB[Я не можу,Я займуся цим!]
+
+yeller/begin3_opt_WutBoard_opt_yes
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Лона:\C[0] Я допоможу вам! Але мені потрібно більше інформації.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник：\C[0] Дякую, дякую, міс!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Після відбиття атаки зграї Глибинних чотири ночі тому, була її черга стояти на сторожі.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Коли ми прокинулися, вона зникла! Залишилися тільки сліди і сморід риби цих тварин!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найманник:\C[0] Розвідка пішла слідами на північний схід, і знайшла руїни поселення Риболюдей.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Я знаю, навіщо вони її відвели!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Вона повинна ще бути живою! Я впевнений у цьому!
+\CamCT\Bon[6]\m[serious]\PRF\c[6]Лона:\C[0] Зрозуміла! Я тоді піду.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Хай захистить тебе Святий!
+
+####################################### RETURN OBJ
+
+yeller/begin4to5
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Ох... Я вже втратив надію побачити тебе знову!
+\CamMP[FArcher]\BonMP[FArcher,6]\prf\c[4]Жінка-найманець:\C[0] Але ось я тут...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник：\C[0] Ці рибо-тварини нічого з тобою не зробили?
+\CamMP[FArcher]\BonMP[FArcher,8]\prf\c[4]Жінка-найманець:\C[0] ......
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач：\C[0] .....
+
+yeller/begin4to5_2
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Лона:\C[0] Ем.... Я думаю, вона не...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач:\C[0] Фух! Слава Святому! Як тебе, до речі, звуть?
+\CamCT\Bon[4]\m[pleased]\Rshake\c[6]Лона:\C[0] Я Лона! Лона Фолдін!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Найомник:\C[0] Дякую тобі, Лоно! Ось це для тебе...
+
+yeller/begin4to5_3
+\CamCT\Bon[2]\m[confused]\PRF\c[6]Лона:\C[0] Що це?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач：\C[0] Я ще не отримував задоволення з цього паперу, так що віднеси її в гільдію найманців в \C[4]Піратської Загибелі\C[0], і отримаєш гроші замість мене.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач：\C[0] Нам час іти. І тобі б я теж порадив забиратися до біса звідси.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Наймач:\C[0] Тут не безпечно.
+\CamCT\Bon[2]\m[serious]\PRF\c[6]Лона:\C[0] Ага, я знаю!

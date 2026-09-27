@@ -1,0 +1,59 @@
+NoerRecRoom/OvermapEnter
+Comercio Oriental \optB[Cancelar,Entrar]
+
+#---------------------------------------------------------------------------------------------------
+teller/Unknow0
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0]    Te doy la bienvenida, Lona...
+\CBct[1]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Eh? ¿Quién eres? ¿Cómo sabes mi nombre?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Lo sé todo sobre ti desde que naciste...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm... ¿Es algún tipo de broma?
+\CBid[-1,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Adivina：\C[0]    Naciste en una familia normal pero feliz de comerciantes. Lamentablemente, les alcanzó el desastre...
+\CBid[-1,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Adivina：\C[0]    Pero te negaste a rendirte, ahora te esfuerzas por ganar dinero. Y quieres escapar de este lugar asqueroso.
+\CBct[6]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ...¡¿Quién eres?!
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Adivina：\C[0]    Solo una adivina corriente......
+
+teller/opt
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Adivina：\C[0]    Puedo vagar por tus recuerdos... ¿Deseas recordar algo...?
+
+HappyTrader/begin1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Comerciante：\C[0]    ¿Has visto a mi esposa? ¡Está aquí cerca! ¡Es tan hermosa!
+
+HappyTrader/begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Comerciante：\C[0]    ¡Mi esposa! ¡Tan maravillosa! ¡Dulce! ¡Increíble! ¡Todos me envidian!
+
+HappyTrader/end
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Comerciante：\C[0]    ¡No quiero irme de aquí! ¡Pero estoy ocupado trabajando cada día!
+\CBct[8]\m[confused]\plf\PRF Los precios de todo lo que vende son bastante altos...
+
+teller/ded0
+\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Adivina：\C[0]    Yo... soy el reflejo... de tus... propios... deseos.....
+
+teller/ded1
+\SETpl[TellerAngry]\Lshake\prf\c[4]Adivina：\C[0]    ¡¡YO... SOY INMORTAL...!!!
+
+#---------------------------------------------------------------------------------------------------
+
+DatDoor/NTR0
+¡No pares! ♥
+
+DatDoor/NTR1
+¡Chúpalo más! ♥
+
+DatDoor/NTR2
+¡Sí! ♥ ¡Voy a correrme! ♥
+
+DatDoor/NTR3
+¡Oh mierda! ♥ ¡Qué bien se siente! ♥
+
+DatDoor/NTR4
+¡Uuuhh! ♥
+
+DatDoor/NTR_end
+\SETpl[TellerAngry]\Lshake\c[4]Adivina：\C[0]    \{¿Qué...? ¿Quién está ahí?!
+\SETpr[NoerGangBoss]\Rshake\c[4]Bandido：\C[0]    \{¡Hay alguien aquí! ¡Vístete rápido, joder!!!
+\SETpl[TellerAngry]\Lshake\c[4]Adivina：\C[0]    \{¡Es mi camisa, idiota! ¡Devuélvemela...!
+\SETpr[NoerGangBoss]\Rshake\c[4]Bandido：\C[0]    \{¡Más rápido! ¡Más rápido!
+
+art/Chad
+\ph\cg[other_ChadVsVirgin]Esta pintura cuenta la historia del poder del Alfa y la tristeza del Beta.
+\m[confused]\c[6]Lona：\C[0]    No entiendo esta pintura...

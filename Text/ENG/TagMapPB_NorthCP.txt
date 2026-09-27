@@ -1,0 +1,75 @@
+overmap/OvermapEnter
+\m[confused]Northern Outpost \optB[Leave,Enter]
+
+officer/NoQuest
+\SETpl[Mreg_guardsman]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Uh...
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]Guard：\C[0]    Get out of here, it is not safe.
+
+Soldier/Qmsg0
+How long have we been here?
+
+Soldier/Qmsg1
+When will we change shifts?
+
+Soldier/Qmsg2
+So tired.
+
+############################### NoorthCp quest
+
+CPq/Quest1
+\CBct[8]\m[confused] \c[4].............
+
+CPq/Quest2
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    What.......
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    All dead?!
+\CBct[20]\m[fear]\Rshake\c[6]Lona：\c[0]    What the hell is going on?
+
+CPq/Quest3
+\CBct[20]\m[tired]\c[6]Lona：\c[0]    Ugh.... This is... I think this is his letter for reinforcements.
+
+CPq/Quest3_1
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    Hmmm....\..\..\.. Let's see...
+
+CPq/Quest4
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob1,20]\prf\c[4]Mob：\c[0]    Hey! Kid! What are you doing here?
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    Ugh?
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob2,20]\prf\c[4]Mob：\c[0]    Wait a minute, is that a woman!
+\CBmp[Mob1,20]\prf\c[4]Mob：\c[0]    Really?\..\.. What luck! I haven't had some in a long time!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    What?
+
+CPq/Quest5
+\CBct[1]\m[terror]\Rshake\c[6]Lona：\c[0]    Wait... Hold on! What are you doing?!
+\CBmp[Mob1,20]\prf\c[4]Mob：\c[0]    Hey , spread your legs, don't resist!
+\CBmp[Mob2,4]\prf\c[4]Mob：\c[0]    Behave, and maybe we won't hurt you. ♥
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Hold on! Listen to me! There's monsters behind you!
+\CBmp[Mob1,20]\prf\c[4]Mob：\c[0]    Don't lie! If you don't behave we'll have to beat you!
+
+CPq/Quest6
+\SndLib[sound_goblin_roar]\CBmp[GoblinSpear1,20]\SETpr[goblin_penis]\plf\Rshake\c[4]Orkind：\c[0]    Sugi pula!!?
+
+CPq/Quest7
+\SndLib[sound_OrcHurt]\CBmp[GoblinWarrior1,20]\SETpl[ogre]\Lshake\prf\c[4]Orkind：\c[0]    ROOAARRR!!!
+
+CPq/Quest8
+\CBmp[Mob2,1]\c[4]Mob：\c[0]    There's a monster!!
+\CBmp[Mob1,1]\c[4]Mob：\c[0]    Help me, please! I don't want to die!
+\CBct[1]\m[bereft]\Rshake\c[6]Lona：\c[0]    Help AAAAHHHH!!!
+
+CPq/Quest9
+\SETpl[DedOne_normal]\Lshake\prf\c[4]Unknown：\c[0]    \{Justice rains from above!\.\.\.
+
+CPq/Quest10
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Unknown：\c[0]    Innocent people! Where is the evil! I am justice!
+\CBmp[Mob2,8]\plf\prf\c[4]Mob：\c[0]    ...
+\CBmp[Mob1,8]\plf\prf\c[4]Mob：\c[0]    ......
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    ..........
+\CBmp[Mob2,8]\plf\prf\c[4]Mob：\c[0]    More monsters YYYAAAAHHHH!!!!
+\CBmp[Mob1,8]\plf\prf\c[4]Mob：\c[0]    Saint save me and destroy these evils!!!
+
+CPq/Quest11
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Unknown：\c[0]    \{I am justice! I am not evil! Ahhhhhhh!
+\CBct[8]\m[bereft]\Rshake\c[6]Lona：\c[0]    What should I do?! What should we do??
+
+CPq/Quest12
+\board[Leave]
+Return to Pirates Bane, and report the situation here to the guild.

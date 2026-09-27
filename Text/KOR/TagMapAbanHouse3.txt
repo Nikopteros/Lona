@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+폐가\optB[그만둔다,들어간다]
+
+######################################################3
+
+mec/QmsgTar
+서둘러 주세요. 목적지는
+
+mec/Done1
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] 고마워요!
+
+mec/Done2
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] 세상엔 아직 믿을 만한 사람이 있군요.
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] 평민이여, 당신 이름이 뭐죠?
+\CBct[20]\m[triumph]\PRF\c[6]로나：\c[0] \c[6]로나 폴딘\c[0]입니다.
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] \c[6]로나\c[0]… 다시 한 번 고마워요.
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] 곧 이 섬을 떠나 아마 다시 못 볼지도 모르지만, 당신을 꼭 기억하겠습니다.
+\CBct[20]\m[pleased]\PRF\c[6]로나：\c[0] 천만에요!
+
+mec/CommonConvoyTarget0
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] 서둘러요!
+
+mec/CommonConvoyTarget1
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] 빨리 \C[4]종말 요새\C[0]로 가야 해요.
+
+mec/CommonConvoyTarget2
+\CBfE[20]\prf\c[4]귀족 소녀：\c[0] 더 빨리 움직이세요!
+
+mec/win
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 후~
+
+mec/Quprog_0
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 괜찮아요?
+\CBmp[Girl,8]\prf\c[4]귀족 소녀：\c[0] 어쩌다 이렇게 된 거지…
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 네?
+\CBmp[Girl,8]\prf\c[4]귀족 소녀：\c[0] 내가 잘못 생각한 건가? 혹시 종족 간엔 차이가 있는 건가?
+\CBmp[Girl,20]\prf\c[4]귀족 소녀：\c[0] 평민, 잘 들어! 나를 \C[4]종말 요새\C[0]까지 무사히 데려가!
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어…
+
+mec/Quprog_0_board
+\board[여행자 호위]
+목표 : 종말 요새까지 호송
+보상 : 큰 동전 3개, 평판 2
+의뢰인 : 여행자
+기한 : 5일
+
+mec/Quprog_0_decide
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 으음....\optB[지금은 바빠,좋아]
+
+######################################################3
+
+Start/begin_1
+\c[4]난민：\c[0] 인자하신 어르신과 귀족 아가씨... 먹을 걸 조금만 나눠주시오...
+\CBmp[Girl,20]\c[4]집사：\c[0] 아가씨, 이제 떠나셔야 합니다.
+\CBmp[Girl,20]\c[4]귀족 소녀：\c[0] 남는 음식은 전부 그들에게 주도록 하세요.
+\CBmp[Girl,20]\c[4]집사：\c[0] 알겠습니다.
+
+Start/begin_2
+\CBmp[MainDude,3]\c[4]난민：\c[0] 고맙습니다! 집에 아직 아이가 둘 더 있습니다. 조금만 더 나눠주실 수 있겠습니까?
+\CBmp[Man,20]\c[4]집사：\c[0] 안 됩니다! 이제 정말 떠나야 합니다!
+
+Start/begin_3
+\CBmp[Girl,20]\c[4]귀족 소녀：\c[0] 괜찮아요, 도와드리세요.
+\CBmp[Man,20]\c[4]집사：\c[0] 아가씨! 이러시면 곤란합니다!
+\CBmp[Girl,20]\c[4]귀족 소녀：\c[0] 난민의 목숨은 소중하지 않단 말입니까? 우리 모두 똑같이 살아 있는 사람입니다!
+\CBmp[Girl,20]\c[4]귀족 소녀：\c[0] 우리가 여력이 있다면 당연히 도와야죠! 제 명령은 곧 아버지의 명령입니다!
+\CBmp[Man,8]\c[4]집사：\c[0] ....
+\CBmp[Man,20]\c[4]집사：\c[0] 알겠습니다!
+
+Start/begin_4
+\CBmp[Man,20]\c[4]집사：\c[0] 이건 우리 아가씨께서 특별히 더 하사하신 겁니다!
+\CBmp[MainDude,3]\c[4]난민：\c[0] 감사합니다! 당신들은 정말 성인과도 같은 분들이군요!
+\CBmp[Man,8]\c[4]집사：\c[0] 우리 집안의 큰 은혜를 반드시 기억하십시오!
+
+Start/begin_5
+\CBmp[Girl,2]\c[4]귀족 소녀：\c[0] 뭐라고요? 무슨 짓을 한 겁니까?!
+\CBmp[HorseKiller,8]\c[4]난민：\c[0] 평소엔 뼈만 남은 두발 양고기밖에 못 먹었는데, 오늘은...
+\CBmp[GuardKiller,3]\c[4]난민：\c[0] 신선한 말고기를 먹을 수 있게 됐지!
+\CBmp[MainDude,4]\c[4]난민：\c[0] 거기에 여자까지! 신선한 여자를 마음껏 즐길 수 있게 됐어!
+\CBmp[Girl,6]\c[4]귀족 소녀：\c[0] 뭐라고요?!
+
+Start/begin_5_1
+\CBmp[Girl,1]\c[4]귀족 소녀：\c[0] 아아아아아아! 안 돼!
+
+Start/begin_6
+\CBmp[Girl,6]\c[4]귀족 소녀：\c[0] 안 돼! 왜 이런 짓을 하는 거죠? 나 분명히 도와줬잖아요?!
+
+Start/begin_7
+\CBmp[Girl,20]\c[4]귀족 소녀：\c[0] 안 돼!! 놓으세요!!
+\CBmp[MainDude,20]\c[4]난민：\c[0] 좋았어! 여자를 손에 넣었어!
+
+Start/begin_8
+\CBmp[HorseKiller,8]\c[4]난민：\c[0] 대박이다, 오늘은 정말 운이 좋네.
+
+Start/begin_9
+\CBmp[GuardKiller,3]\c[4]난민：\c[0] 얘 건강해 보이는데, 며칠은 버티겠지?
+\CBmp[Girl,20]\c[4]귀족 소녀：\c[0] 안 돼! 왜 이러는 거예요! 누가 좀 도와줘요!
+
+Start/begin_10
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐야?! 누가 도움을 요청하는 거야?
+
+Start/begin_11
+\CBmp[GuardKiller,20]\prf\c[4]난민：\c[0] 여자다! 또 한 명이야!
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 안 돼! 잠깐만! 나 그냥 지나가는 거라구!
+\CBmp[MainDude,4]\prf\c[4]난민：\c[0] 오늘은 진짜 운 터졌네!
+
+Start/begin_12
+\CBmp[HorseKiller,20]\prf\c[4]난민：\c[0] 잠깐!
+\CBmp[GuardKiller,2]\prf\c[4]난민：\c[0] 왜? 무슨 일이야?!
+\CBmp[HorseKiller,20]\prf\c[4]난민：\c[0] 이건 좀 아니잖아! 얘 좀 봐!
+
+Start/begin_13
+\CBmp[MainDude,2]\prf\c[4]난민：\c[0] 뭐? 뭘 본 거야?
+\CBmp[HorseKiller,20]\prf\c[4]난민：\c[0] 얘\..\..\.. 얘 가슴이 없잖아!
+\CBmp[MainDude,2]\prf\c[4]난민：\c[0] 그래서? 그게 왜?
+\CBmp[HorseKiller,20]\prf\c[4]난민：\c[0] 그냥 꼬맹이잖아! 애한테 손대면 안 되지!
+\CBct[5]\m[flirty]\PRF\c[6]로나：\c[0] 하아?
+\CBmp[MainDude,8]\prf\c[4]난민：\c[0] \..\..\..
+\CBmp[GuardKiller,8]\prf\c[4]난민：\c[0] \..\..\..
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어...\optD[나 여자야,오크야<r=HiddenOPT1>]
+
+Start/begin_13_Adult
+\CBct[5]\m[bereft]\PRF\c[6]로나：\c[0] 나 애 아니거든! 나 완전히 성숙한 여잔데!
+\CBmp[HorseKiller,8]\prf\c[4]난민：\c[0] 그럼… 여자 맞네?
+\CBmp[MainDude,8]\prf\c[4]난민：\c[0] 여자네, 확실히.
+\CBmp[GuardKiller,20]\prf\c[4]난민：\c[0] 그럼 덮쳐!
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 예에에?!
+
+Start/begin_13_Orkind
+\CBct[5]\m[terror]\Rshake\c[6]로나：\c[0] 안 돼! 지금 이런 얘기할 때가 아니야!
+\CBmp[MainDude,8]\prf\c[4]난민：\c[0] 왜?
+\CBct[5]\m[shocked]\Rshake\c[6]로나：\c[0] 오크! 오크 떼가 날 쫓아오고 있다고! 빨리 도망쳐!
+\CBmp[HorseKiller,8]\prf\c[4]난민：\c[0] \..\..\..
+\CBmp[MainDude,8]\prf\c[4]난민：\c[0] 큰일 났군…
+\CBmp[GuardKiller,8]\prf\c[4]난민：\c[0] 어쩌지?
+\CBct[5]\m[bereft]\Rshake\c[6]로나：\c[0] 멍하니 있지 말고! 빨리 도망가!
+

@@ -1,0 +1,1722 @@
+Cocona/Qu3
+\SETlpl[cocona_shocked]\Lshake\prf\c[6]Cocona：\c[0]    B-Big Sis...!
+\m[normal]\plf\PRF\c[6]Lona：\c[0]    Huh? What's wrong?
+\SETlpl[cocona_sad]\PLF\prf\c[6]Cocona：\c[0]    There's a lot of new friends here Cocona don't know...! Hiiissss......!
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Eh? Friends? Oh, you're talking about people? \m[normal] Yes, this place is called Noer. There are other people like us who live here.
+\SETlpl[cocona_sad]\PLF\prf\c[6]Cocona：\c[0]    I'm scared......
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Cocona, wait for me here first. I'm going to get you a room.
+\SETlpl[cocona_sad]\PLF\prf\c[6]Cocona：\c[0]    Don't! Everyone always leaves me...!
+\m[sad]\plf\PRF\c[6]Lona：\c[0]    Ugh...
+
+##################################################################-------------  COMP QUEST
+
+Waifu/RecQuestCocona_2_1
+\CamCT\m[confused]\c[6]Lona：\c[0]    ...Excuse me. Boss Mama?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    \{WHAT?! WUDDYA WANT?!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    I know Boss Mama was a veteran mercenary in the past.
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Do you know the Necromancer? I want to know about the Necromancer spells.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Huh! So you want to learn something, like a real adventurer? You going to be a real mercenary?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Necromancy in short, is a branch of life magic.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    But specializes in spirit, Saints hate this most.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Why? What do you want to know?
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    Are all Necromancers evil?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    This old lady wouldn't know that, but the Saints would think they were all evil.
+
+Waifu/RecQuestCocona_2_2
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    But do you think a normal person would spend time with dead bodies?
+\CamCT\m[tired]\plf\PRF\c[6]Lona：\c[0]    Ugh.....
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I have a friend and her home is ruined.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Such people are running all over the street now.
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I want to find a place for her.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Is she able to pay for a room? Can she work?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    I need to know about her, Tell me what are you asking?
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I mean... It's just tha-!
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    \{STOP WASTING MY TIME AND SPIT IT OUT ALREADY!
+\CamCT\m[terror]\plf\Rshake\c[6]Lona：\c[0]    \{Ehhhhhh!!!
+
+Waifu/RecQuestCocona_2_3
+\ph\narr Lona spits out everything that happened in the tomb.
+
+Waifu/RecQuestCocona_2_4
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\Lshake\prf\c[4]Boss Mama：\c[0]    \{BAAAAAAWWW!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Whu?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\Lshake\prf\c[4]Boss Mama：\c[0]    T-Too miserable! So poor! Sooo pathetic!!!~ Where is she?!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... Behind the the tavern?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\Lshake\prf\c[4]Boss Mama：\c[0]   Take a free break at my tavern! I'm going to go find her!
+
+Waifu/RecQuestCocona_2_5
+\CamCT\m[flirty]\c[6]Lona：\c[0]    What?
+\CamCT\m[confused]\c[6]Lona：\c[0]    I'm also very poor too, why not treat me better...?
+
+Cocona/RecQuestCocona_3_1
+\CamMP[UniqueCocona]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis! Big Sis!
+\CamMP[UniqueCocona]\SETlpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    I have a new friend! She's so kind!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    W-What? Are you talking about Boss Mama?
+\CamMP[UniqueCocona]\SETlpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    New Mama! Big Mother! So big! Hold on!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Pffft, haha! What you see is really just an illusion...
+\SETlpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Thank you Big Sis! Thank you so much! Nyaow!~
+
+Waifu/RecQuestCocona_6_1
+\SETpl[BigMama_normal]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Boss Mama：\c[0]    \{Hey! Kid!
+
+Waifu/RecQuestCocona_6_2
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    I'm not a kid, my name is Lona.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Whatever! Look, I need you to go and teach some basic common sense to Cocona!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    What?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,5]\Lshake\prf\c[4]Boss Mama：\c[0]    You brought her here! She's your responsibility now!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    What???!!!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Don't What?! me! Do you know what happened yesterday?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Boss Mama：\c[0]    She refused to eat whatever I cooked for her! This poor child is afraid of cooked food!!!
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Boss Mama：\c[0]    I took so long to prepare such a nice meal for her. It's like she doesn't understand anything!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    Doesn't she think she's eating normal stuff?
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Boss Mama：\c[0]    Right! Then she actually digs in the trash to eat garbage! This is too much!
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,20]\Lshake\prf\c[4]Boss Mama：\c[0]    She eats anything that even refugees and beggars wouldn't touch!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Doesn't sound good? But it fits her style?
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,1]\Lshake\prf\c[4]Boss Mama：\c[0]    Right! That's bad! She even had a temper tantrum with me.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,7]\Lshake\prf\c[4]Boss Mama：\c[0]    I'm busy every day, I'm full up at the pub.
+\CamMP[TavernWaifu]\SETpl[BigMama_normal]\BonMP[TavernWaifu,5]\Lshake\prf\c[4]Boss Mama：\c[0]    I'm already allowing the little dumpling to stay at my tavern for free! You have to take responsibility!
+\CamCT\m[serious]\plf\PRF\c[6]Lona：\c[0]    Okay, okay!
+
+Cocona/RecQuestCocona_7_1
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hey Cocona.
+\CBmp[UniqueCocona,4]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis! Hewwo!~
+\CamCT\m[normal]\plf\PRF\c[6]Lona：\c[0]    Big Mama wants me to teach you some common sense in the world.
+\CBmp[UniqueCocona,5]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    HISS! HIIISSSS!!!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Cocona, calm down! Please listen to Big Sis.
+\CBmp[UniqueCocona,15]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Hiiissss!! Cocona hate learning...!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    Your parents and the Saints in heaven will be angry if you don't learn anything new.
+\SETlpl[cocona_shocked]\BonMP[UniqueCocona,6]\Lshake\prf\c[6]Cocona：\c[0]    ...The Saints and Papa and Mama will be angry?!
+\CamCT\m[normal]\plf\PRF\c[6]Lona：\c[0]    Both the priest and the clergy are dissapointed in you.
+\SETlpl[cocona_shocked]\BonMP[UniqueCocona,20]\Lshake\prf\c[6]Cocona：\c[0]    Priest and clergy? Where! Cocona hear of them before! Cocona wanna see them!
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Woah, aren't you excited?! I know there's a church to the North, but it's very dangerous outside right now.
+\SETlpl[cocona_shocked]\BonMP[UniqueCocona,20]\Lshake\prf\c[6]Cocona：\c[0]    Wanna go! I wanna go! I'm guilty! I wanna priest!
+\CamCT\m[triumph]\plf\PRF\c[6]Lona：\c[0]    If you want to go, you'll have to listen to me and learn about common sense!
+\SETlpl[cocona_sad]\PLF\prf\c[6]Cocona：\c[0]    ...Cocona will listen to Big Sis......
+
+Cocona/RecQuestCocona_7_2
+\CamCT\narr Lona explained to Cocona some basic common sense.
+About what is real food and what a person should eat.
+And about things that cannot be eaten.
+
+Cocona/RecQuestCocona_7_3
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Believers dissapear if they're not eatten quickly after they die!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Mama and Papa taught me this!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    That was probably to keep you alive, and give you a chance to survive.
+\CamCT\m[normal]\plf\PRF\c[6]Lona：\c[0]    Now that you are out, you should not be eating those things.
+\CBmp[UniqueCocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    But the food Big Mama created was bad! Bad smell! I don't wanna eat!!!
+\CamCT\m[confused]\plf\PRF\c[6]Lona：\c[0]    I think it’s delicious, except that it looks a bit rough.
+\CamCT\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Besides, have you really tried it? Big Sis will be with you to try it out!
+
+Cocona/RecQuestCocona_7_4
+\CamCT\m[normal]\plf\PRF\c[6]Lona：\c[0]    *Nom* *Chew* *Chew*... You see? I ate it! Tastes great!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\prf\c[4]Cocona：\c[0]    UWoou... Big Sis...... \SND[SE/eat02.ogg]
+\CamCT\m[triumph]\plf\PRF\c[6]Lona：\c[0]    See? I'm fine! It's not bad at all, and it tastes delicious.
+\CamCT\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Come here! Big Sis will feed you\..\..\.. Say aaahhhhhh!~
+\CBmp[UniqueCocona,8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Ommm...... *Nom*... *Nom* *Nom*......\SND[SE/eat03.ogg]
+\CBmp[UniqueCocona,8]\SETlpl[cocona_confused]\prf\c[4]Cocona：\c[0]    ...?\SND[SE/eat02.ogg]
+\CBmp[UniqueCocona,8]\SETlpl[cocona_confused]\prf\c[4]Cocona：\c[0]    ......!\SND[SE/eat02.ogg]
+\CBmp[UniqueCocona,1]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    ...YUMMY!!!~
+\CBmp[UniqueCocona,4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Sooo yu-yummy!!!!!!~
+\CBmp[UniqueCocona,4]\SETlpr[cocona_shocked]\SETpl[BigMama_normal]\plf\Rshake\c[4]Cocona：\c[0]    Big Mama, can I eat some more pwease? Pweeease?!
+\CamMP[TavernWaifu]\SETpl[BigMama_sad]\BonMP[TavernWaifu,4]\Lshake\prf\c[4]Boss Mama：\c[0]    OHHH!~ My little darling!~ Of course!!!~ Please eat more and more!~
+\CamCT\m[flirty]\plf\PRF\c[6]Lona：\c[0]    ...L-Little darling?
+
+Cocona/RecQuestCocona_7_5
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Great job Kid. This meal's my treat.
+\CamCT\m[serious]\plf\PRF\c[6]Lona：\c[0]    Hey! I'm not a kid!
+
+################################################################### NORMAL ################################################################################# 
+
+Cocona/KnownBegin
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Cocona：\c[0]    Big Sis! Woo-Miaow!
+
+Cocona/KnownBegin_night0
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Cocona：\c[0]    Big Sis! I am w... working for Big Mama!
+
+Cocona/KnownBegin_night1
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Cocona：\c[0]    Big Mama said this is called w... work! You have to wo-work if you want to eat!
+
+Cocona/KnownBegin_night2
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Cocona：\c[0]    Big Sis! Cocona feels very happy!~
+
+Cocona/BasicOpt
+\SETlpl[cocona_happy]\m[confused]
+
+Cocona/CompCommand
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\c[4]Cocona：\c[0]    Big Sis!
+
+Cocona/CompCommand_extra
+\CBid[-1,20]\SETlpl[cocona_happy]\c[4]Cocona：\c[0]    Woo-Miaow? \optB[Forget it,Summon Warrior<r=HiddenOPT0>,Summon Archer<r=HiddenOPT1>,Rest in peace<r=HiddenOPT2>]
+
+Cocona/CompCommand_extra_SumWarrior
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\c[4]Cocona：\c[0]    Okay! Calling my good friends!
+
+Cocona/CompCommand_extra_SumArcher
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\c[4]Cocona：\c[0]    Woo-Miaow! Calling good friends!
+
+Cocona/OptHeadPat
+Pet Cocona ♥
+
+Cocona/OptBath
+Bath time ♥
+
+Cocona/OptSleep
+Catnap together ♥
+
+Cocona/ChangeDress
+Appearance
+
+Cocona/ChangeDress_necro
+\narr Switch to Necro.
+
+Cocona/ChangeDress_maid
+\narr Switch to Maid.
+
+Cocona/Comp_win
+\CBid[-1,6]\SETlpl[cocona_shocked]\PLF\prf\c[4]Cocona：\c[0]    Cocona will protect Big Sis!
+
+Cocona/Comp_disband
+\CBid[-1,5]\SETlpl[cocona_angry]\PLF\prf\c[4]Cocona：\c[0]    HIIIiiissssss!!!
+
+Cocona/CompData
+\board[Cocona]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Summoner, Ranged, Magic
+\C[2]Alignment：\C[0]#{$story_stats["HiddenOPT1"]}.
+\C[2]Hostile to：\C[0]Evil Creatures, Orkinds, Abominations
+\C[2]Requires：\C[0]N/A
+\C[2]Duration：\C[0]#{$story_stats["HiddenOPT0"]}.
+\C[2]Unique：\C[0]Does not respawn after death.
+The young female necromancer from the Catacombs.
+
+################################################################### Tavern Offer help when weak > N
+Cocona/TavernHelp_pass0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis hungry...?
+
+Cocona/TavernHelp_pass1
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Thank you...
+
+Cocona/TavernHelp_pass2
+\CBid[-1,5]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    No worry! Cocona protect Big Sis!
+
+Cocona/TavernHelpDot0
+\CBct[6]\m[tired]\prf\c[4]Lona：\c[0]    \..\..\..
+
+Cocona/TavernHelpDot1
+\CBct[6]\m[flirty]\plf\PRF\c[4]Lona：\c[0]    Big Sis be safe...
+
+Cocona/TavernHelp_failed0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis hungry again?
+\CBid[-1,5]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    No! Cocona protect Big Sis!
+
+Cocona/MamaKickOut0
+\CamCT\SETpl[BigMama_angry]\Lshake\c[4]Boss Mama：\c[0]    \{Fuck you doing!
+\CamCT\SETpl[BigMama_angry]\Lshake\c[4]Boss Mama：\c[0]    \{This ain't a place for beggars!
+\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Ah?!
+
+################################################################### HeadPat
+
+Cocona/HeatPatA_1
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis praise Cocona!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Eh? Praise?
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Praise Cocona!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Okay! Cocona is the best!
+\CBid[-1,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Uwuu...
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Not enough? Well\..\..\..how about a headpat?
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Headpat?
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Yes! Headpat!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Hiss! Cocona hate hurt!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Headpats don't hurt?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Relax， it won't hurt at all， trust Big Sis.
+\CBid[-1,6]\SETlpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Woo-Miaow~~~ Cocona trust.
+
+Cocona/HeatPatA_2
+\CBid[-1,6]\c[4]Cocona：\c[0]    Miaow-woo...scared...
+
+Cocona/HeatPatA_3
+\CBct[20]\c[6]Lona：\c[0]    Good girl, everything is fine.
+
+Cocona/HeatPatA_4
+\CBid[-1,6]\c[4]Cocona：\c[0]    Woo-miaow...
+
+Cocona/HeatPatA_5
+\CBid[-1,3]\c[4]Cocona：\c[0]    Woo-miaow... purrrrrr-miaow♬
+
+Cocona/HeatPatA_6
+\CBct[20]\c[6]Lona：\c[0]    See, isn't everything fine?
+\CBid[-1,20]\c[4]Cocona：\c[0]   Yes! Feel good! Cocona likes!
+
+Cocona/HeatPatA_7
+\CBid[-1,3]\c[4]Cocona：\c[0]   Ehehe~~♬ Haha♬
+
+Cocona/HeatPatA_8
+\CBid[-1,20]\c[4]Cocona：\c[0]   Bis Sis is the best!
+
+Cocona/HeatPatB_1
+\CBid[-1,3]\SETlpl[cocona_shocked]\PLF\prf\c[4]Cocona：\c[0]    Big Sis headpat♬
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Yes\..\..\..\CBct[20]\m[pleased] good!
+
+Cocona/HeatPatB_2
+\CBid[-1,3]\c[4]Cocona：\c[0]    Purrrr-miaow♬
+
+Cocona/HeatPatB_3
+\CBid[-1,20]\c[4]Cocona：\c[0]    Ehehe~~
+
+Cocona/HeatPatB_4
+\CBid[-1,3]\c[4]Cocona：\c[0]    Cocona likes♬
+
+Cocona/HeatPat_End
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow! Cocona loves Big Sis♬
+\CBct[3]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    I love you too Cocona♬
+
+################################################################### BathAgain
+
+Cocona/BathAgainA_1
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis squeaky clean together!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Eh? Squeaky clean? Bath?
+\CBid[-1,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Bath!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Sure!
+
+Cocona/BathAgainA_END
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Cocona not afraid of baths?
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis here! Cocona not scared♬
+
+Cocona/BathAgainB_1
+\CBid[-1,20]\SETlpl[cocona_shocked]\PLF\prf\c[4]Cocona：\c[0]    Big Sis squeaky clean!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Sure!
+
+Cocona/BathAgain1
+\c[6]Lona：\c[0]    Hm.....
+
+Cocona/BathAgain2
+\c[4]Cocona：\c[0]    Woo-miaow...♬
+
+Cocona/BathAgain3
+\c[6]Lona：\c[0]    Good, all clean!
+
+Cocona/BathAgain4
+\c[4]Cocona：\c[0]    Woo-miaow...♬
+
+################################################################### Sleep togeter
+
+Cocona/SleepTogeter_1
+\CBid[-1,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    ................
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    ...........
+\CBid[-1,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    .....
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Um...
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Sleep with Big Sis!
+
+Cocona/SleepTogeterA_1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Eh?!
+\CBmp[CoconaBed,19]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    What happened to the bed?
+\CBid[-1,20]\SETlpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Cocona work! Big Mama sell to me!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Um...
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Right! I'll settle the bill with Boss Mama!
+\CBid[-1,20]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    No! Cocona has job! Cocona earn! Big Sis look!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Cocona buy! Cocona can sleep with Big Sis!
+\cgoff\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Boss Mama sure is kind to Cocona...
+
+Cocona/SleepTogeterB_1
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Sure!
+
+Cocona/SleepTogeter_2_pure
+\CBmp[CoconaBed,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow! Cocona loves Big Sis♬
+\CBmp[CoconaBed,20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    I love you too Cocona♬
+
+Cocona/SleepTogeter_2_vagTak
+\CBmp[CoconaBed,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow! Big Sis special to Cocona♬
+\CBmp[CoconaBed,20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Cocona is the same♬
+
+################################################################### QMSG ################################################################################# 
+
+Cocona/CommandWait0
+Don't... L-Leave Cocona...!
+
+Cocona/CommandWait1
+Waiting... Okay...
+
+Cocona/CommandFollow0
+Cocona and Big Sis gooo!
+
+Cocona/CommandFollow1
+Nyaow!~ Cocona with Big Sis!
+
+#------------------------------------- OVermap
+
+overmapPop/normal0
+Big Sis! What is that?
+
+overmapPop/normal1
+Can Cocona eat this?
+
+overmapPop/normal2
+Woo-Miaow...
+
+overmapPop/normal3
+Hiiissss!!!
+
+#------------------------------------- OVermap UndeadWalking Encounter
+
+Overmap/UndeadWalkingEnc1
+\SETlpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Cocona's good friends!
+\m[shocked]\plf\PRF\C[6]Lona：\C[0]    Eeep?!
+
+Overmap/UndeadWalkingEnc2
+\cgoff\ph\SND[SE/UndeadAtk.ogg]\narr Cocona began to happily chat with the undead.
+\SND[SE/UndeadAtk.ogg] Cocona's good friends warned her to beware of bad people, and then shared whatever they were eating with her.
+
+Overmap/UndeadWalkingEnc3
+\m[confused]\plf\PRF\C[6]Lona：\C[0]    Whu-... Huh?!
+
+#------------------------------------- BathEvent
+
+Waifu/RecQuestCocona_7_1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Kid! Come and help me!
+\CBct[5]\m[bereft]\plf\Rshake\C[6]Lona：\C[0]    I've said many times that I'm not a kid! My name is Lona!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Go give Cocona a bath and change her into these clothes!
+
+Waifu/RecQuestCocona_7_2
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Uh?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Wearing those tattered clothes and holding a staff, like she's looking for a fight!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    And my customers are complaining about how stinky she is! She may not understand that at all, help me teach her!
+\CBct[2]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    What?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    \{Hurry up!
+\CBct[20]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    Okay, okay! I'm going!
+
+
+Cocona/RecQuestCocona_8_1
+\CBct[3]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Cocona! Time to take a bath!
+\CBmp[UniqueCocona,2]\SETlpl[cocona_happy]\PLF\prf\c[4]Cocona：\c[0]    Big Sis! ...What is a bath?
+\CBct[8]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Uh... Basically we're going remove the dirt and bad odor from your body...
+\CBmp[UniqueCocona,1]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Odor...? R... Remove?!
+
+Cocona/RecQuestCocona_8_2
+\CBmp[UniqueCocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    \{NOOOoooooo!!! Hiiissss!!!
+
+Cocona/RecQuestCocona_8_3
+\CBct[6]\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    Cocona! Please calm down! What's wrong?!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    I don't wanna disappear...! I DUN WANNA!
+\CBct[2]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Disappear...? Cocona, taking a bath isn't going to hurt you!
+\CBmp[UniqueCocona,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    No! Big Sis! G-Get away!!!
+\CBct[5]\m[angry]\plf\PRF\C[6]Lona：\C[0]    Cocona! Listen to me!
+\CamCT\BonMP[UniqueCocona,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    No!
+
+Cocona/RecQuestCocona_9_1
+\CBct[3]\m[pleased]\plf\PRF\C[6]Lona：\C[0]    Gotcha!
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]   NYAH!
+
+bathEV/begin0
+\c[4]Cocona：\c[0]    \{Afraid! Big Sis! Nooo!!!
+
+bathEV/begin1
+\c[6]Lona：\c[0]    Cocona! Behave! Don't squirm around!
+\c[6]Lona：\c[0]    Big Sis helps you wash away the odor.
+
+bathEV/begin2
+\c[4]Cocona：\c[0]    I'm afraid...
+\c[6]Lona：\c[0]    Cocona... What are you afraid of?
+
+bathEV/begin3
+\c[4]Cocona：\c[0]    Cocona doesn't want to disappear... Cocona doesn't want to become like good friends yet.
+\c[6]Lona：\c[0]    Uhh? A bath isn't going to hurt you. Listen to your big sister, nothing bad will happen.
+
+bathEV/begin4
+\c[4]Cocona：\c[0]    UWoou... *Whimper*
+
+bathEV/begin5
+\c[6]Lona：\c[0]    See? You're alright! It's just a bath.
+\c[4]Cocona：\c[0]    *Sob* Cocnoa's smell is gone... Cocona can't smell body smell! Cocona does not wanna disappear......
+
+bathEV/begin6
+\c[6]Lona：\c[0]    Odor? If the odor is gone you won't become a good friend.
+\c[4]Cocona：\c[0]    Everyone has an odor, When the odor disappears they become a good friend, But good friends don't speak...
+
+bathEV/begin7
+\c[6]Lona：\c[0]    \..\..\..\.. I think I understand.
+\c[6]Lona：\c[0]    Listen, bathing isn't going to make you disappear or become an undea-I mean... good friend.
+\c[6]Lona：\c[0]    It's not the underground here, You no longer need to use odor to see if the people around you are still there.
+\c[6]Lona：\c[0]    Everyone you see is really by your side, I won't leave you.
+\c[4]Cocona：\c[0]    UWoou *Whimper*... Cocona understands.
+
+Cocona/RecQuestCocona_9_2
+\CBct[3]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Come Cocona, I'll help you get dressed!
+
+Cocona/RecQuestCocona_9_3
+\CBmp[UniqueCocona,8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Nyaow-WooWoo... Cocona feels weird......
+\CBct[4]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Oh! It looks great on you! It's just a little big.
+\CBmp[UniqueCocona,2]\SETlpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    What about Cocona's arm?
+\CBct[2]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Arm? You mean that staff?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    That thing looks too scary, if you want to go outside, you can’t swing it around and scare people.
+\CBmp[UniqueCocona,6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    But...! That's Cocona's arm!
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona：\c[0]    EHHH?!\..\..\..\..\..\m[shocked]\plf\Rshake What?!
+\CBct[20]\m[shocked]\plf\PRF\c[6]Lona：\c[0]   You're saying that staff was your arm?!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    The Saint told Cocona to sacrifice arm to get good friends!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm\..\..\.. I think we need to talk about this with Boss Mama.
+
+Cocona/RecQuestCocona_9_4_1
+\narr \..\..\..\..\..
+\narrOFF\CBmp[TavernWaifu,20]\SETpr[BigMama_normal]\plf\PRF\c[4]Boss Mama：\c[0]    So you're saying Cocona sacrificed her arm to the dead to gain power?
+\CBmp[UniqueCocona,6]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Cocona don't understand what Big Mama is saying...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Hey... So this means if I sacrifice something, I can be a mage too?
+
+Cocona/RecQuestCocona_9_4_2_IsMage
+\CBmp[TavernWaifu,7]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Kid, aren't you one already?
+
+Cocona/RecQuestCocona_9_4_2_NotMage
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Kid, it's about talent. Ordinary people can't get anything even if they sacrifice their whole bodies.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    Stop daydreaming, kid. Go get dinner.
+
+Cocona/RecQuestCocona_9_4_3
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    That staff is not a staff, it's actually her arm, she was already a magic medium, Little darling might be promising.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    I know this much, In the past I've dealt with stupid people with high self esteem like that.
+\CBct[2]\m[bereft]\plf\PRF\c[6]Lona：\c[0]    GUH! I'm not a kid!!!
+\CBmp[UniqueCocona,6]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Big Mama? Cocona don't understand what Big Mama told Big Sis...
+\CamMP[TavernWaifu]\SETpr[BigMama_sad]\BonMP[TavernWaifu,20]\plf\Rshake\c[4]Boss Mama：\c[0]    OHHH!~ My little darling!~ You don't need to understand these things yet.
+\CamMP[TavernWaifu]\SETpr[BigMama_sad]\BonMP[TavernWaifu,20]\plf\Rshake\c[4]Boss Mama：\c[0]    Just know that everyone will be scared to death of my cute little dumpling if they see you with this thing! I will help you put your arm away.
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    But that's-\..\..\..! -Cocona's arm\..\..\..
+\CamCT\BonMP[UniqueCocona,6]\SETlpl[cocona_angry]\PLF\prf\c[4]Cocona：\c[0]    Okay... Cocona understand! Cocona will be obedient.
+
+Cocona/RecQuestCocona_9_5
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\m[confused]\Lshake\prf\c[4]Boss Mama：\c[0]    Thanks, kid. You're alright.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So... Does this mean you can finally call me Lona?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Boss Mama：\c[0]    HA! No! But you can call me \C[2]Meryme\C[0].
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Ugh......
+
+################################################################### 12出遊 ################################################################################# 
+
+Cocona/RecQuestCocona_10_1
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Meryme：\c[0]    Oi! Brat! Got a job for you!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Still calling me brat? What is it?
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Take \c[6]Cocona\c[0] to \c[6]Central Noer Market\c[0] during the day!
+
+Cocona/RecQuestCocona_10_2
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Here's the list, hand it over to the bread store! 
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh?
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Show her how trading works. Get this done and I'll let you stay a night free of charge.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh...sure.
+
+Cocona/RecQuestCocona_11_1
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\c[4]Cocona：\c[0]    Big Sis♬
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Big Sis is taking you shopping!
+\CBid[-1,2]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Sh-shopping?
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Yep! Shopping!
+\CBid[-1,1]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Shopping!
+
+Cocona/RecQuestCocona_11_2
+\board[Shopping!]
+Goal：Head to the market with Cocona
+Reward：Burning Keg Room Key 2
+Client：Meryme
+Time Limit：Long term support
+Head to the market with Cocona, Cocona must be in your party.
+Must be during the day.
+
+Cocona/RecQuestCocona_11_NotInGroup
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis? Where are you?
+
+Cocona/RecQuestCocona_12_dress
+\CBct[20]\m[pleased]\PRF\c[6]Lona：\c[0]    I am also trying to earn money, so that I can leave this island soon.
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Leave?! Hisssss!!
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Cocona don't like! Cocona don't want to be left with only friend!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Ha?!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Don't worry, Big Sis won't leave you behind.
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow...
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ....
+
+Cocona/RecQuestCocona_12_vegtable
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    So you hand money in one hand and take stuff with the other. That is a trade. Shopping!
+\CBct[2]\m[normal]\PRF\c[6]Lona：\c[0]    Can Cocona count?
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Can! Friend taught before!
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    1\..2\..\..3
+\CBfB[20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    4\..5...\..6\...
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    7\..\...9\....\..\..5\....?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...guess it's too tough or you past one hand?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    No problem! I can teach you later.
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Woo....
+
+Cocona/RecQuestCocona_12_medcine
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\c[4]Cocona：\c[0]    What a-are we doing? Shopping?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Yes! You hand over this coin, then they return the change as well as what you buy. That is a trade.
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Coin? This little rock is money?
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Yes!
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow.... Cocona finds weird...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um.....
+
+#################################### Missing
+
+Cocona/RecQuestCocona_12_food0
+\CBct[20]\m[pleased]\PRF\c[6]Lona：\c[0]    Don't run off now, we still have to finish Boss Mama's job.
+\BonMP[C12Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Okay!
+
+Cocona/RecQuestCocona_12_food0_1
+\ph\narr Lona begins discussing the details of the trade with the merchant\..\..\..\..\..
+
+Cocona/RecQuestCocona_12_food1
+\BonMP[C12Cocona,8]\SETlpl[cocona_normal]\PLF\prf\c[4]Cocona：\c[0]    Woo...
+
+Cocona/RecQuestCocona_12_food2
+\BonMP[C12Cocona,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Woo.......
+
+Cocona/RecQuestCocona_12_food3
+\BonMP[C12Cocona,8]\SETlpl[cocona_sad]\PLF\prf\c[4]Cocona：\c[0]    Woo.....mew........
+
+Cocona/RecQuestCocona_12_food4
+\BonMP[C12Priest,20]\BonMP[C12Cocona,1]\c[4]Worshipper：\c[0]    All of this is a warning from the Saint!
+
+Cocona/RecQuestCocona_12_food5
+\BonMP[C12Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis! Look! It is Saint!
+
+Cocona/RecQuestCocona_12_food5_1
+\BonMP[C12Priest,20]\BonMP[C12Cocona,8]\c[4]Worshipper：\c[0]    The Saint shall descend upon us!
+
+Cocona/RecQuestCocona_12_food5_2
+\CBmp[HairCutter,7]\c[4]Pedestrian：\c[0]    Noisy fuck!
+\CBmp[DressTrader,5]\c[4]Pedestrian：\c[0]    Get lost! Who gives a toss about the Saint?!
+\CamCT\BonMP[C12Priest,20]\c[4]Worshipper：\c[0]    Foul non-believers! Worshippers of the false god's Liars! The Saint is the only true path!
+\CBmp[HairCutter,7]\c[4]Pedestrian：\c[0]    Ptui! This disaster is proof the Saint doesn't exist!
+
+Cocona/RecQuestCocona_12_food6
+\CamCT\BonMP[C12Priest,20]\BonMP[C12Cocona,8]\c[4]Worshipper：\c[0]    You are all Liars! All Liars will perish!
+\BonMP[C12Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis! Q-quick! Saint is leaving!
+
+Cocona/RecQuestCocona_12_food7
+\BonMP[C12Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    \{Big Sis! Saint leaving!
+
+Cocona/RecQuestCocona_12_food8
+\BonMP[C12Cocona,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow......
+
+Cocona/RecQuestCocona_12_food8_1
+\narr\..\..\..\..
+
+Cocona/RecQuestCocona_12_food9
+\CBct[20]\m[pleased]\PRF\c[6]Lona：\c[0]    Okay! Done! Let's head back!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Eh?
+
+Cocona/RecQuestCocona_12_food10
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    \..\..\..No way?
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    \{Cocona!
+
+Cocona/RecQuestCocona_12_food11
+\CBct[8]\m[fear]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[bereft]\Rshake\c[6]Lona：\c[0]    \{\{Cocona!
+
+Cocona/RecQuestCocona_12_food12
+\CBct[20]\m[sad]\Rshake\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[bereft]\Rshake\c[6]Lona：\c[0]    Shop keep! Have you seen the girl with me in the servant's outfit?
+\CBmp[FoodTrader,7]\prf\c[4]Merchant：\c[0]    Wha? No! If you're done here then leave.
+\CBmp[FoodTrader,5]\prf\c[4]Merchant：\c[0]    Don't make a scene, I've got work to do.
+
+Cocona/RecQuestCocona_12_food12_1
+\CBct[6]\m[sad]\PLF\c[6]Lona：\c[0]    ....
+
+Cocona/RecQuestCocona_12_food12_2
+\CBct[6]\m[sad]\PLF\c[6]Lona：\c[0]    ........
+
+Cocona/RecQuestCocona_12_food12_3
+\CBct[6]\m[sad]\PLF\c[6]Lona：\c[0]    ...........
+\CBmp[FoodTrader,20]\prf\c[4]Merchant：\c[0]    I'm warning you! Quit stalling at my store!
+
+Cocona/RecQuestCocona_12_food13
+\CBct[6]\m[fear]\PLF\c[6]Lona：\c[0]    What am I going to do.....
+
+#################################### Missing GB2 tavern
+
+Mama/RecQuestCocona_13_1
+\CBct[8]\m[tired]\prf\c[6]Lona：\c[0]    .......
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Back already? Where's my darling? Isn't she always clinging to you?
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    I.... She...
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Welll...at the market...
+\CBct[20]\m[bereft]\plf\PRF\c[6]Lona：\c[0]    Cocona got lost.... I... can't find her...
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    ....
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Sorry....
+\CBid[-1,8]\SETpl[BigMama_angry]\PLF\prf\c[4]Meryme：\c[0]    .....
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Wait! I remember someone was shouting the whole time!
+\CBid[-1,8]\SETpl[BigMama_angry]\PLF\prf\c[4]Meryme：\c[0]    ..........
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    A missionary! Maybe Cocona.....
+\CBid[-1,8]\SETpl[BigMama_angry]\PLF\prf\c[4]Meryme：\c[0]    ..............
+
+Mama/RecQuestCocona_13_3
+\CBid[-1,8]\ph\c[4]Meryme：\c[0]    .....
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    \{Eek! Sorry!
+
+Mama/RecQuestCocona_13_4
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Sorry! Sorry! Sorry!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    Please don't kill me! I made a mistake!
+
+Mama/RecQuestCocona_13_5
+\CBid[-1,20]\SETpl[BigMama_angry2]\Lshake\prf\c[4]Meryme：\c[0]    \{Mother fucker! Get the fuck out of here!
+
+#################################### Missing GB2 tavern
+
+cocona/RecQuestCocona_14_1
+\BonMP[C14Cocona,20]\SETlpr[cocona_sad]\PRF\c[4]Cocona：\c[0]    Woo-miaow....
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\PRF\c[4]Cocona：\c[0]    Saint? Where is Big Sis?
+
+cocona/RecQuestCocona_14_2
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\PRF\c[4]Cocona：\c[0]    Big Sis...where...
+\BonMP[C14Cocona,20]\SETlpr[cocona_sad]\PRF\c[4]Cocona：\c[0]    People everywhere...Cocona wants Big Sis!
+
+cocona/RecQuestCocona_14_3
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\c[4]Priest：\c[0]    Oh lost child, for what reason do you come?
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Cocona：\c[0]    Saint!
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    I am not the Saint, I tremble in fear, for I am but a humble worshipper of the Saint.
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Cocona：\c[0]    You are the Saint! Priest say you are the Saint!
+\BonMP[C14Cocona,4]\SETlpr[cocona_happy]\plf\PRF\c[4]Cocona：\c[0]    I f-finally found the Saint!
+\BonMP[MainPriest,8]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    ......
+\BonMP[MainPriest,8]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    Come with me, child full of sin.
+\BonMP[C14Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Cocona：\c[0]    Cocona is sin?
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    Yes, I could sense your sinfulness from miles away.
+\BonMP[C14Cocona,20]\SETlpr[cocona_sad]\plf\PRF\c[4]Cocona：\c[0]    .....Cocona is s-sinful? Cocona is Liar?
+\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    Come with me, for I shall purify you of your sins!
+\BonMP[C14Cocona,20]\SETlpr[cocona_happy]\plf\PRF\c[4]Cocona：\c[0]    Yes!
+
+#################################### Missing HEV
+
+cocona/RecQuestCocona_15_0_0
+\narr\..\..\..
+
+cocona/RecQuestCocona_15_0_1
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\c[4]Priest：\c[0]    Foul sin! Begone! Leave this nubile innocent alone!
+\BonMP[C15Cocona,20]\SETlpr[cocona_shocked]\plf\PRF\c[4]Cocona：\c[0]    The Saint! Amazing!
+
+cocona/RecQuestCocona_15_0_2
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\c[4]Priest：\c[0]    Pitiful innocent! I shall use my holy body to purge you of sin!
+\BonMP[C15Cocona,4]\SETlpr[cocona_happy]\plf\PRF\c[4]Cocona：\c[0]    Yes! Saint!
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    This may hurt，but the Saint knows you are a good child. You must endure, Cocona!
+\BonMP[C15Cocona,6]\SETlpr[cocona_sad]\plf\PRF\c[4]Cocona：\c[0]    Woo\..\..\..hurt?
+\BonMP[C15Cocona,5]\SETlpr[cocona_angry]\plf\PRF\c[4]Cocona：\c[0]    Cocona can do it，Cocona can e-endure! Cocona not afraid!
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    Good girl!
+
+cocona/RecQuestCocona_15_0_3
+\BonMP[C15Cocona,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    \{Woo-miaow?!
+\BonMP[C15Cocona,20]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    \{Saint?
+
+cocona/RecQuestCocona_15_0_4
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    Fear not, child! I shall remove the layer of sin from you!
+\BonMP[C15Priest,20]\SETpl[HumPriest]\PLF\prf\c[4]Priest：\c[0]    Accept it!
+\BonMP[C15Cocona,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Yes! Cocona understands!
+
+############################################################################################################ HEV
+
+cocona/RecQuestCocona_HEV_0
+\c[6]Priest：\c[0]    O' child, is your hole still untainted?
+\c[4]Cocona：\c[0]    Little hole? U-untainted?
+\c[6]Priest：\c[0]    The hole from which you pee. It is where evil gathers. Spread it apart for me to see.
+\c[4]Cocona：\c[0]    Woo-miaow\..\..\..
+
+cocona/RecQuestCocona_HEV_1
+\c[6]Priest：\c[0]    \{Egads!
+\c[6]Priest：\c[0]    This thin film is blocking sin from leaving! The sin remains trapped within!
+\c[4]Cocona：\c[0]    \{Woo-miaow?!
+\c[6]Priest：\c[0]    Worry not, for the Saint shall aid you!
+\narr\...\...\...\...
+
+cocona/RecQuestCocona_HEV_2
+\c[6]Priest：\c[0]    I see it now. Such a filthy thin layer, for even now it is the culprit that prevents sin from leaving.
+
+cocona/RecQuestCocona_HEV_3
+\c[4]Cocona：\c[0]    Woo-miaow...
+
+cocona/RecQuestCocona_HEV_3_1
+\c[4]Cocona：\c[0]    Mama say only show pee hole to special person...
+
+cocona/RecQuestCocona_HEV_4
+\c[6]Priest：\c[0]    I am the Saint's messenger, child. I am indeed that special person.
+
+cocona/RecQuestCocona_HEV_5
+\c[4]Cocona：\c[0]    Woo....Cocona feels strange?
+
+cocona/RecQuestCocona_HEV_6
+\c[6]Priest：\c[0]    Have you on faith in the Saint? Child, are you willing to turn to Liars?
+
+cocona/RecQuestCocona_HEV_7
+\c[4]Cocona：\c[0]    Woo-miaow.......
+
+cocona/RecQuestCocona_HEV_8
+\c[6]Priest：\c[0]    Have heart, as Father I shall use this divine instrument to purify you.
+\c[6]Priest：\c[0]    Look, my holy instrument has swollen so large, for it reacts to the sin within you.
+
+cocona/RecQuestCocona_HEV_9
+\c[6]Priest：\c[0]    Now, I shall use this holy ointment of the Church to enhance my divine instrument.
+
+cocona/RecQuestCocona_HEV_10
+\c[6]Priest：\c[0]    Do not resist, allow the instrument to purge you of sin.
+
+cocona/RecQuestCocona_HEV_11
+\c[4]Cocona：\c[0]    Woo....
+
+cocona/RecQuestCocona_HEV2_1
+\c[4]Cocona：\c[0]    \..\..\..will hurt?
+\c[4]Cocona：\c[0]    Cocona don't want hurt....
+\c[6]Priest：\c[0]    You cannot purge yourself of sin if you cannot endure the briefest of pain!
+\c[4]Cocona：\c[0]    Woo....
+\c[4]Cocona：\c[0]    Cocona is sorry... Cocona accepts p-purge....
+\c[6]Priest：\c[0]    Good girl.
+
+cocona/RecQuestCocona_HEV2_2
+\Rflash\SndLib[sound_punch_hit]\cg[event_VirginTaken]\c[4]Cocona：\c[0]    \{H-hurt! Owww!
+\Rflash\SndLib[sound_chcg_full]\c[6]Priest：\c[0]    Where are you going!?
+
+cocona/RecQuestCocona_HEV2_3
+\Rflash\SndLib[sound_whoosh]\c[4]Cocona：\c[0]    \{Cocona sorry! Cocona don't want!
+\Rflash\SndLib[sound_punch_hit]\c[6]Priest：\c[0]    C'mere!
+
+cocona/RecQuestCocona_HEV2_4
+\Rflash\SndLib[sound_whoosh]\c[4]Cocona：\c[0]    \{Hisssss!!!!
+\Rflash\SndLib[sys_equip]\c[6]Priest：\c[0]    Hah!Got you!
+\Rflash\SndLib[sound_whoosh]\SndLib[sound_punch_hit]\c[4]Cocona：\c[0]    \{HISSSSS!! Cocona don't want!
+
+cocona/RecQuestCocona_HEV3_1
+\c[6]Priest：\c[0]    \{Oh!Uoogh! Tight like a vice!
+\c[6]Priest：\c[0]    \{The grip of a virgin girl! It's sublime!
+
+cocona/RecQuestCocona_HEV3_2
+\c[4]Cocona：\c[0]    \{Aaah! Hurt!
+
+cocona/RecQuestCocona_HEV3_3
+\c[4]Cocona：\c[0]    \{H-hurt so much! Nooooo!!
+
+cocona/RecQuestCocona_HEV3_4
+\c[6]Priest：\c[0]    \{Fuck sake!\} Quit squirming! The purging is not done!
+
+cocona/RecQuestCocona_HEV3_5
+\c[4]Cocona：\c[0]    \{Cocona sorry! S-spare Cocona!
+
+cocona/RecQuestCocona_HEV3_6
+\c[6]Priest：\c[0]    Here we go! This is the best part!
+
+cocona/RecQuestCocona_HEV3_7
+\c[6]Priest：\c[0]    Endure this, you hear me! Complete this and you shall not be a Liar!
+
+cocona/RecQuestCocona_HEV3_8
+\c[4]Cocona：\c[0]    \{Woo....*whimper*
+
+#################################
+
+cocona/RecQuestCocona_HEV3_Roar0
+\c[6]Priest：\c[0]    \{Hyah!\} Amazing!
+
+cocona/RecQuestCocona_HEV3_Roar1
+\c[6]Priest：\c[0]    \{This cunt is full of sin!
+
+cocona/RecQuestCocona_HEV3_Roar2
+\c[4]Cocona：\c[0]    \{Woo...woo...*whimper*
+
+cocona/RecQuestCocona_HEV3_Roar3
+\c[4]Cocona：\c[0]    \{I want Big Sis!
+
+cocona/RecQuestCocona_HEV3_Roar4
+\c[4]Cocona：\c[0]    \{I want Big Mama!
+
+cocona/RecQuestCocona_HEV3_Roar5
+\c[4]Cocona：\c[0]    \{Cocona hurt!
+
+#################################
+
+cocona/RecQuestCocona_HEV3_9
+\c[6]Priest：\c[0]    Child, how does it feel? Has my divine instrument not cleansed you of sin?
+
+cocona/RecQuestCocona_HEV3_10
+\c[6]Priest：\c[0]    Only a divine instrument this imposing can purge you of sin!
+
+cocona/RecQuestCocona_HEV3_11
+\c[4]Cocona：\c[0]    \{Woo-aaah\} Something is coming!!
+
+cocona/RecQuestCocona_HEV3_12
+\c[4]Cocona：\c[0]    \{Is c-coming! Pee! C-c-coming!
+
+cocona/RecQuestCocona_HEV3_13
+\c[6]Priest：\c[0]    \{That's it! Don't fight it!
+
+cocona/RecQuestCocona_HEV3_14
+\c[6]Priest：\c[0]    \{That is your sin!
+
+cocona/RecQuestCocona_HEV3_15
+\c[6]Priest：\c[0]    \{Ready to leave!
+
+################################# Cuming
+
+cocona/RecQuestCocona_HEV3_16
+\c[4]Cocona：\c[0]    \{\{Woo-eeeeeeaaaah!
+
+cocona/RecQuestCocona_HEV3_17
+\c[4]Cocona：\c[0]    \{\{Eeeeaaaah!!
+
+cocona/RecQuestCocona_HEV3_18
+\c[6]Priest：\c[0]    \{Damn!Is this cunt for real?!
+
+cocona/RecQuestCocona_HEV3_19
+\c[4]Cocona：\c[0]    \{Wooooeeeeeah!!
+
+cocona/RecQuestCocona_HEV3_20
+\c[6]Priest：\c[0]    The part up there is opening up like lips to kiss my tip!
+
+cocona/RecQuestCocona_HEV3_21
+\c[6]Priest：\c[0]    Fuck! I'm gonna cum too! Together! Use your body to accept my holy water!
+
+cocona/RecQuestCocona_HEV3_22
+\c[6]Priest：\c[0]    \{Ooooooouuuuh! Take it!
+
+cocona/RecQuestCocona_HEV3_23
+\c[6]Priest：\c[0]    \{Uuuuoooogh!!!
+
+cocona/RecQuestCocona_HEV3_24
+\c[6]Priest：\c[0]    \{\{Aaaaaaahhh!
+
+cocona/RecQuestCocona_HEV3_25
+\c[6]Priest：\c[0]    \{Fuck! That felt great!
+
+cocona/RecQuestCocona_HEV3_26
+\c[6]Priest：\c[0]    \{Tightest little cunt full of sin there is!
+
+cocona/RecQuestCocona_HEV3_27
+\c[6]Priest：\c[0]    Is the little slut unconscious? Too much was it? What should I do with this runt?
+
+cocona/RecQuestCocona_HEV4_END
+\c[6]Priest：\c[0]    Looks like a wimp, body's too thin and worse yet a mixed-race. Ain't gonna earn much money.
+\c[6]Priest：\c[0]    Pretty good fuck though, might even develop into a real gem, but this frail body won't last\..\..\..
+\c[6]Priest：\c[0]    Just what should I do?
+\narr\...\...\...
+
+############################################################################################################
+
+cocona/RecQuestCocona_15_1_1
+Door not locked.\optD[Cautiously open, Check grim on belly]
+
+cocona/RecQuestCocona_15_1_2
+This door really is not locked.\optD[Cautiously open, Try to pick belly grime]
+
+cocona/RecQuestCocona_15_1_3
+Lona is absolutely sure it is unlocked.\optD[Cautiously open, Sniff grime]
+
+cocona/RecQuestCocona_15_1_4
+.....\optD[Open door]
+
+cocona/RecQuestCocona_15_end
+\CBct[1]\m[shocked]\PRF\c[6]Lona：\c[0] It's Cocona!
+
+#################################### 16 get cocona again
+
+cocona/RecQuestCocona_16_0
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    Cocona! I finally found you!
+\CBmp[C15Cocona,8]\prf\c[4]Cocona：\c[0]    Woo-miaow......
+\CBct[20]\m[shocked]\PRF\c[6]Lona：\c[0]    Let me help you get your clothes on!
+
+cocona/RecQuestCocona_16_1
+\CBct[20]\m[serious]\Rshake\c[6]Lona：\c[0]    To think the priest would....
+
+cocona/RecQuestCocona_16_2_NoLost
+\CBmp[C15Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    It's Big Sis! Cocona sorry! Cocona should not have left!
+\CBct[6]\m[angry]\plf\PRF\c[6]Lona：\c[0]    Are you okay?
+\CBmp[C15Cocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis attack Saint! Why?!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh?! Saint? The priest?
+\CBmp[C15Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    That is the Saint! Saint is p-purifying Cocona's sins!
+\CBct[20]\m[angry]\plf\PRF\c[6]Lona：\c[0]    He is no Saint! It's just some priest!
+\CBct[20]\m[angry]\plf\PRF\c[6]Lona：\c[0]    And that isn't purifying! He was going to violate you!
+\CBmp[C15Cocona,8]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    Woo-miaow? V-violate? Priest? Not understand.
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\c[0]    Anyways, that is a bad man, a Liar, and he wanted to rob Cocoan's chastity!
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\c[0]    He wanted to hurt Cocona! Cocona would have hurt a lot! You will be sad!
+\CBmp[C15Cocona,8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow? He is Liar? Not Saint!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Yes!
+
+cocona/RecQuestCocona_16_2_Lost
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow...Big Sis...Cocona sorry...Cocona should not have left...
+\CBct[6]\m[angry]\plf\PRF\c[6]Lona：\c[0]    Are you okay?
+\cg[event_miscarriage_low]\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Cocona p-pee hole hurt...Cocona hurt lots...
+\CBct[2]\m[shocked]\plf\PRF\c[6]Lona：\c[0]    Oh! No! This looks serious! It's torn!
+\CBct[2]\m[serious]\plf\PRF\c[6]Lona：\c[0]    Can you still move?
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Can...sorry...Cocona is sorry, Big Sis...
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo... Saint...was purifying Cocona's sins.... 
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    But Cocona hurt so much...Cocona was not a good girl...
+\cgoff\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh?! Saint? The priest?
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\c[0]    He is a bad man, a Liar, and he stole Cocona's chastity!
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Liar? Chastity?
+\CBct[20]\m[angry]\plf\PRF\c[6]Lona：\c[0]    You save that for...\optD[special person, it is a special thing<r=HiddenOPT0>].
+
+cocona/RecQuestCocona_16_2_LostAns_pure
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lona：\c[0]    Chastity is something you save for a special person, but the Liar has stolen it!
+
+cocona/RecQuestCocona_16_2_LostAns_NoPure
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lona：\c[0]    Chastity is deeply important to a woman.
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lona：\c[0]    Cocona should have saved it to exchange for something precious, not to have it stolen by Liars!
+
+cocona/RecQuestCocona_16_2_LostAns_end
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Something to give to Big Mama and Big Sis is stolen...?
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    Yes!
+\CBmp[C15Cocona,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Cocona sorry....woo-mew....
+\CBct[20]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    There there, don't cry. It's over now.
+
+cocona/RecQuestCocona_16_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    We must get out of here!
+
+cocona/RecQuestCocona_16_4
+\board[Escape the Church]
+Goal：Escape with Cocona
+Time Limit：None
+Escape with Cocona, Cocona must be in your party.
+Attempt to clear a path by using Cocona's friends.
+You can use the confirm key to push her friends forward.
+
+cocona/RecQuestCocona_16_ExitQmsg
+Cocona must be near the exit
+
+#################################### 1F begin
+
+cocona/RecQuestCocona_17_gb2_1f
+\m[serious]\plf\PRF\c[6]Lona：\c[0]    Shh...not a sound...
+\SETpl[AnonFemale]\Lshake\C[4]Worshipper：\C[0]    Anyone recognize her? Someone get to the headquarters to report this case!
+\SETpr[AnonMale2]\plf\Rshake\C[4]Worshipper：\C[0]    Attention troops! Slaughter that flat-chested Liar!
+\m[shocked]\plf\PRF\c[6]Lona：\c[0]    Huh? Flat-chested?
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Liar? About Cocona? Cocona and Big Sis is Liar?
+\m[serious]\plf\Rshake\c[6]Lona：\c[0]    No! Definitely not! They are the Liars! Big Sis will protect Cocona!
+\m[angry]\plf\Rshake\c[6]Lona：\c[0]    No one here is innocent! They're lying to everyone!
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    They are all Liars?
+\m[serious]\plf\Rshake\c[6]Lona：\c[0]    Yes!
+\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Cocona trust Big Sis! Cocona will fight Liars!
+\m[pleased]\plf\Rshake\c[6]Lona：\c[0]    Thank you!
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    What does flat-chested mean? Does it mean Big-Sis?
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    ......
+
+cocona/RecQuestCocona_17_gb2_1f_noVag
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Cocona can your body keep up?
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow...owie! But Cocona will endure!
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    Sorry...
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    Big Sis will take you out of here!
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow...
+
+cocona/RecQuestCocona_18_hall0
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\c[4]Worshipper：\c[0]    Listen up! The Liars are planning to pluck the nubile flowers in our garden!
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\c[4]Worshipper：\c[0]    We can't let those false god worshipping Liars leave here alive!
+\CBmp[Idiot1,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Monk：\c[0]    Yes! Purify those Liars! Praise the Saint!
+\CBmp[Idiot2,20]\SETpl[AnonMale2]\Lshake\prf\c[4]Monk：\c[0]    Praise the Saint!
+\CBmp[Idiot3,20]\SETpr[AnonMale2]\plf\Rshake\c[4]Monk：\c[0]    The Saint has already promised us thus! 
+\CBmp[Idiot3,20]\SETpr[AnonMale2]\plf\Rshake\c[4]Monk：\c[0]    We are to enjoy the tight holes of our flowers.
+\CBmp[Idiot4,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Monk：\c[0]    Tight holes! Cute peckers!
+\CBmp[Idiot3,20]\SETpr[AnonMale2]\plf\Rshake\c[4]Monk：\c[0]    I don't want to pluck flowers! I want the meaty slabs!
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Worshipper：\c[0]    Shut the fuck up, morons! Purify the Liars! 
+\CBmp[boss,20]\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Worshipper：\c[0]    You will be rewarded by the Saint and so much more!
+
+cocona/RecQuestCocona_18_hall1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Oh no! There's so many of them!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Look like they are out for blood. What to do...
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Hiss! Big Sis don't worry! Cocona protect Big Sis!
+\CBct[3]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Thank you♥
+
+cocona/RecQuestCocona_18_hall2
+\CBmp[TavernWaifu,20]\prf\c[4]Mysterious Voice：\c[0]    Oi! Brat!
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Um\..\..\.. \m[shocked]\Rshake Huh...?!
+\CBmp[TavernWaifu,20]\prf\c[4]Mysterious Voice：\c[0]    It's me!
+
+cocona/RecQuestCocona_18_hall3
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Damn brat, did you find darling yet?
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Boss Mama?!
+\CBfB[4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Mama♥
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Did you also guess Cocona would end up here?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    You getting cocky with me? Don't forget I haven't whooped your ass for Cocona yet.
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    No! Please don't kill me!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    We'll stuff that for later. What matters right now is....
+
+cocona/RecQuestCocona_18_hall4
+\SETlpr[cocona_shocked]\Rshake\c[4]Cocona：\c[0]    Be careful Big Mama!
+\CBmp[TavernWaifu,7]\SETpl[BigMama_angry]\Lshake\c[4]Meryme：\c[0]    Motherfucker!
+\SETpr[Mfat_tortruer]\plf\Rshake\c[4]Worshipper：\c[0]    Stop! Hold your fire!
+\SETpr[Mfat_tortruer]\plf\Rshake\c[4]Worshipper：\c[0]    Which stupid son of a bitch fired? Do you want to damage the Saint's sacred statue?
+
+cocona/RecQuestCocona_18_hall5
+\CBct[20]\m[shocked]\PRF\c[6]Lona：\c[0]    Amazing!
+\CBmp[TavernWaifu,7]\SETpl[BigMama_angry]\Lshake\c[4]Meryme：\c[0]    Fuck! My damn hips!
+
+cocona/RecQuestCocona_18_hall6_1
+\CBfB[6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Big Mama hurt?
+\CBmp[TavernWaifu,7]\SETpl[BigMama_sad]\Lshake\prf\c[4]Meryme：\c[0]    Oh my dear, Mama is fine. Mama is just getting on with age.
+
+cocona/RecQuestCocona_18_hall6_2
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh.....
+\CBmp[TavernWaifu,5]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Damn! Should've brought my gear had I known.
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona：\c[0]    What should we do now? We're wanted as outlaws.
+\CBmp[StartPoint,19]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Shut up! We have to fight our way out first!
+\CBmp[TavernWaifu,5]\SETpl[BigMama_angry2]\Lshake\prf\c[4]Meryme：\c[0]    You look after darling dear. Don't lose her again!
+\CBct[20]\SETpl[nil]\m[bereft]\plf\PRF\c[6]Lona：\c[0]    Yes!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Meryme：\c[0]    Say the word when you're ready. Charge out there and give those Church morons what for!
+
+cocona/RecQuestCocona_18_hall7
+\board[Escape the Church]
+Goal：Escape with Cocona
+Time Limit：None
+Escape with Cocona, Cocona must be in your party.
+Give Big Mama the word when you're ready!
+
+cocona/RecQuestCocona_18_MaMaCharge
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Meryme：\c[0]    Listen! There's way too many of them. I'll need your help.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    What should I do?
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Meryme：\c[0]    Figure it out! Do what you can!
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    I can charge them but I make no promises against that many of them.\optB[Wait here,Charge them]
+
+cocona/RecQuestCocona_18_MaMaCharge_wait
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    It's too dangerous. Let me think of something.
+
+cocona/RecQuestCocona_18_MaMaCharge_go
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I'm ready! Let's go!
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Meryme：\c[0]    \{DIE YOU FUCKS!
+
+cocona/RecQuestCocona_18_MaMaCharge_end
+\CBmp[StartPoint,19]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    I'll cover you. The two of you get out of here!
+
+cocona/RecQuestCocona_19_escape0
+\m[serious]\plf\PRF\c[6]Lona：\c[0]    Close one! Are they still after us?
+
+cocona/RecQuestCocona_19_escape0_mamaQ0
+\cg[map_scroll]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Oi. Take this with you!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Eh?!
+
+cocona/RecQuestCocona_19_escape0_mamaQ1
+\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    These are papers to get in Noer Town. Fake ones, of course.
+\CBct[20]\m[shocked]\plf\PRF\c[6]Lona：\c[0]    Ehhh?!
+\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Take it! Or do you prefer to never enter town?
+\cgoff\CBct[20]\m[shocked]\plf\PRF\c[6]Lona：\c[0]    Yes!
+
+cocona/RecQuestCocona_19_escape1
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis....sorry....Cocona tired...
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Don't worry. Let's go back to the inn.
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Yeah!
+
+cocona/RecQuestCocona_19_escape2
+\board[Return to Noer Town]
+Goal：Head back with Cocona
+Time Limit：None
+Return with Cocona, Cocona must be in your party.
+
+cocona/RecQuestCocona_20
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Home!
+\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Yeah! You're home now!
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis\..\..\..
+\m[normal]\plf\PRF\c[6]Lona：\c[0]    Yeah?
+\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Cocona should not have left. Cocona is sorry.
+\m[pleased]\plf\PRF\c[6]Lona：\c[0]    It's okay. Just don't follow stranger from now on.
+\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Come on, let's go in!
+
+cocona/RecQuestCocona_21_1
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Meryme：\c[0]    Get over here!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\c[0]    Okay...
+
+cocona/RecQuestCocona_21_2
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\c[4]Meryme：\c[0]    Do you know how bad it is out there? Most kids are lost for good when they're missing!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    Sorry! I'll be careful next time!
+\CBid[-1,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Meryme：\c[0]    Next time? There won't be one! I won't hand Cocona over to some careless whelp!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Sorry...
+
+cocona/RecQuestCocona_21_3
+\CBmp[UniqueCocona,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Cocona not be with Big Sis? Cocona not want!
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Meryme：\c[0]    Oh my darling dear is too kind. Big Mama is trying to keep you safe!
+\CBmp[UniqueCocona,5]\SETlpr[cocona_angry]\plf\PRF\c[4]Cocona：\c[0]    Cocona not want! Cocona want Big Sis!
+\CBid[-1,8]\ph\c[4]Meryme：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Meryme：\c[0]    Cocona not love Mama? You won't listen to Mama?
+\CBmp[UniqueCocona,5]\SETlpr[cocona_shocked]\plf\PRF\c[4]Cocona：\c[0]    Hiss! Cocona want Big Sis! Want Big Mama too!
+\CBid[-1,8]\ph\c[4]Meryme：\c[0]    \..\..\..
+
+cocona/RecQuestCocona_21_4
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Tch! I'll let you off the hook this time.
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    You're forgiven for now. Now scram!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Okay\..\..\..  \m[pleased] Thank you!
+\CBmp[UniqueCocona,4]\SETlpl[cocona_happy]\PRF\prf\c[4]Cocona：\c[0]    Woo-Miaow!~ ♥
+
+######################################################################## Dual arena begin
+
+cocona/RecQuestCocona_22to23_1OPT
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Meryme：\c[0]    Hey! Lona.
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Meryme：\c[0]    I hear you are planning to leave this place. That true?\optB[Not really,Yes]
+
+cocona/RecQuestCocona_22to23_yes0
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh? Yeah? I plan to leave soon.
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Tickets prices are sky high nowadays. You got a plan to afford it?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh...yeah.
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    I see. Guess you outsiders got some grit after all.
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Remember to tell my daughter. Darling dear is quite fond of you.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh? Daughter?
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Yep. I'm adopting Cocona.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Oh\..\..\..hah?!
+\CBct[20]\m[pleased]\plf\Rshake\c[6]Lona：\c[0]    That's great!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    You really plan to stay? Doesn't it feel like it is all doomed?
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Noer Town is my home. Besides, what monster could be stronger than me?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh...yeah...
+\CBid[-1,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    \..\..\..
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+
+cocona/RecQuestCocona_22to23_yes1
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    You're not gonna comment?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh? Wha-?
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    *Grunt* Forget I asked.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+
+cocona/RecQuestCocona_22to23_yes2
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ......
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    Do I just leave like this?
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Would Cocona get upset if I told her?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ......
+
+cocona/RecQuestCocona_22to23_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...not yet.
+\CBid[-1,2]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Oh?
+
+cocona/RecQuestCocona_23to24_OPT
+I am leaving
+
+cocona/RecQuestCocona_23to24_1
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Um\..\..\..
+\CBid[-1,8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Woo-miaow....?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Er...how should I say this\..\..\..
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I'm planning to leave this place.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So this is goodbye\..\..\..\.. \n\CBid[-1,8]\SETlpl[cocona_shocked]\Lshake\prf Cocona：\{No!
+
+cocona/RecQuestCocona_23to24_2
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Eh?!
+\CBid[-1,8]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Cocona not want!
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    But I...
+\CBid[-1,8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis said no leave Cocona!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    I\..\..\..sorry\..\..\..
+\CBid[-1,8]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    \{HISSSS!!
+
+cocona/RecQuestCocona_23to24_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    What if we leave together?
+\CBid[-1,8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Together\..\..\..? Leave\..\..\..?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    How about it? Leave with Big Sis?
+\CBid[-1,3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    !!!!
+\CBid[-1,8]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    \..\..\..
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    What about Big Mama?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Uh...
+
+cocona/RecQuestCocona_23to24_4
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Hm? What do you want?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    I am taking Cocona with me when I leave. No matter how I look at it, Noer Island is doomed.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    I don't want to leave her here.
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Oh?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Er...?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Atta'girl! I've been waiting on you to say so.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Hah?!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    After what happened at the Church, you still think she'll be fine with you?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    You plan to takе her with you? Sure. But prove to me you got what it takes.
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    I....
+
+cocona/RecQuestCocona_23to24_5
+\CBid[-1,6]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Boss Mama not come with Big Sis?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Meryme：\c[0]    Noer Island is too small. Big Mama wants you to see the wider world.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_sad]\Lshake\prf\c[4]Meryme：\c[0]    Oh my dear, this world is large beyond your imagination. You should go out there and see.
+\CBid[-1,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Cocona：\c[0]    Woo-miaow....
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Of course if Lona isn't able to prove herself, you can always stay with me.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    .....
+\CBid[-1,8]\SETlpr[cocona_sad]\plf\Rshake\c[4]Cocona：\c[0]    Woo-miaow....
+\CBid[-1,5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\c[0]    Can we all stay?
+\CBid[-1,2]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Lona can be papa. Boss Mama is mama. Happy together?
+
+cocona/RecQuestCocona_23to24_6
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Say...what do you mean by proving myself?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    A duel with me, Lona. Beat me in a straight up fight.
+
+cocona/RecQuestCocona_23to24_7
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    O...kay\..\..\..\m[shocked]\Rshake\{Wha-?!
+
+cocona/RecQuestCocona_23to24_8
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Before that, make sure to earn enough for Cocona's ticket. 20 gold coins. I'll pay the rest.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    When you're ready. Come downstairs and have a word with me.
+
+cocona/RecQuestCocona_23to24_8_1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Wait a minute!!! Are you kidding me?!
+
+cocona/RecQuestCocona_23to24_9
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    20 gold coins? Duel with Boss Mama? Are you serious?
+\CBid[-1,8]\SETlpr[cocona_confused]\plf\Rshake\c[4]Cocona：\c[0]    Drool? Cones? Woo-miaow....?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Um...either way...if we want to leave, Big Sis is going to need to earn big.
+\CBid[-1,2]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Earn! Cocona help?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Leave it to Big Sis. It will have to be a big job. Not something that will be found here.
+
+cocona/RecQuestCocona_23to24_10_Cocona_whore
+\CBid[-1,8]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\c[0]    Cocona can also make money too! Big Sis said so before! Chastity!
+\CBid[-1,8]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\c[0]    Chastity trade precious! Cocona use chastity to earn!
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Whu-?\..\..\..\m[shocked]\Rshake\{WHAT??!!
+
+cocona/RecQuestCocona_23to24_10_Cocona_virgin
+\CBid[-1,8]\SETlpr[cocona_sad]\plf\Rshake\c[4]Cocona：\c[0]    Woo-Miaow...
+
+cocona/RecQuestCocona_23to24_EndBRD
+\board[Duel with Meryme]
+Goal：Prepare 20 gold coins, then speak with \c[6]Meryme\c[0]  at \c[4]The Burning Keg\c[0].
+Reward：None
+Client：Meryme
+To leave with Cocona I must prepare 20 gold coins and duel with Boss Mama?
+You have got to be kidding me.....
+
+Cocona/RecQuestCocona24_Common0
+\CBid[-1,6]\SETlpl[cocona_sad]\c[4]Cocona：\c[0]    Boss Mama not come with?
+
+Cocona/RecQuestCocona24_Common1
+\CBid[-1,6]\SETlpl[cocona_sad]\c[4]Cocona：\c[0]    Cocona dunno what to do...
+
+Cocona/RecQuestCocona24_Common2
+\CBid[-1,6]\SETlpl[cocona_sad]\c[4]Cocona：\c[0]    Woo-Miaow...
+
+Cocona/OPT_20g
+20 Gold Coin
+
+Cocona/RecQuestCocona24to25_0
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Um...I got the money。
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Hmph! Pretty good, eh?
+
+Cocona/RecQuestCocona24to25_1
+\CBct[6]\m[flirty]\PRF\plf\c[6]Lona：\c[0]    Well...this money is for Cocona, right?
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Yep. Relax. Now go tell dearest to come over.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Oh?
+
+Cocona/RecQuestCocona24to25_2
+\CBmp[UniqueCocona,2]\SETlpr[cocona_confused]\c[4]Cocona：\c[0]    Woo-miaow....?
+\CBid[-1,20]\SETpl[BigMama_confused]\Lshake\prh\c[4]Meryme：\c[0]    I'm going to take darling to the port for a stroll. You can head straight for the \c[6]Arena\c[0]  at the \c[4]Noer Colosseum\c[0].
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prh\c[4]Meryme：\c[0]    Once I'm done, it will be time for our duel.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Are you saying\..\..\..Wait? Today? Now?!
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    That's right. Today.
+
+Cocona/RecQuestCocona24to25_2_1
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\c[4]Meryme：\c[0]    Oi! Lads! Do we have a show for you!
+
+Cocona/RecQuestCocona24to25_2_2
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\c[4]Meryme：\c[0]    This brat wants to challenge me!
+
+Cocona/RecQuestCocona24to25_2_3
+\CBmp[Anon1,20]\ph\c[4]Drunkard：\c[0]    Wha-?!
+\CBmp[Anon2,20]\ph\c[4]Drunkard：\c[0]    For real?
+\CBmp[Anon3,20]\ph\c[4]Drunkard：\c[0]    A pipsqueak like that?
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\c[4]Meryme：\c[0]    Head to the arena if you want to watch!
+
+Cocona/RecQuestCocona24to25_2_4
+\CBmp[UniqueCocona,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Cocona：\c[0]    Boss Mama bully Big Sis?
+\CBid[-1,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Don't worry. I am just testing her skills.
+\CBid[-1,4]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Let's go♥
+\CBmp[UniqueCocona,8]\SETlpr[cocona_confused]\c[4]Cocona：\c[0]    Woo-miaow...
+
+Cocona/RecQuestCocona24to25_3_brd
+\board[Duel with Meryme]
+Goal：Head to the \c[6]Arena\c[0]  at the \c[4]Ring of Noer\c[0]。
+Reward：None
+Client：Meryme
+
+#################################### arena hall
+
+VandorMan/RecQuestCocona25
+\CBid[-1,20]\c[4]Ticket Vendor：\c[0]    All seat are bought out today. Nothing for you here so get lost.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Bought out?
+\CBid[-1,20]\prf\c[4]Ticket Vendor：\c[0]    Let's see, says here there's a duel with Meryme and Lona.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...I'm Lona.
+\CBid[-1,20]\prf\c[4]Ticket Vendor：\c[0]    Oh\..\..\..
+\CBmp[EnterArena,19]\prf\c[4]Vendor：\c[0]    The entrance is over there. Your opponent is already waiting for you.
+
+#################################### Dual Lose
+
+DualMama/lose_die
+\SETlpr[cocona_sad]\Rshake\c[4]Cocona：\c[0]    Boss Mama Liar!
+\SETlpr[cocona_shocked]\Rshake\c[4]Cocona：\c[0]    \{Boss Mama big Liar!!!
+
+DualMama/lose_t1_0
+\SETpl[BigMama_angry2_NoKnife]\Lshake\c[4]Meryme：\c[0]    You goddamned beggar ain't ready for shit!
+\SETpl[BigMama_angry2_NoKnife]\Lshake\c[4]Meryme：\c[0]    \{Fuck off!
+
+DualMama/lose_and_win
+\SETlpl[cocona_sad]\Lshake\c[4]Cocona：\c[0]    Big Sis! Wake up!
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    I\..\..\..what happened?
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis wake! Big Sis was asleep!
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Asleep?
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Asleep!
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So...I beat Boss Mama?
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis beat Boss Mama!
+\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Let's head back then.
+
+DualMama/lose_but_progress0
+\CBct[6]\m[pain]\Rshake\c[6]Lona：\c[0]    \{Aaaah!!
+
+DualMama/lose_but_progress1
+\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Meryme：\c[0]    Trash. Done already?
+
+DualMama/lose_but_progress2
+\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Meryme：\c[0]    Get the fuck up. This duel isn't over.
+
+DualMama/lose_but_progress3
+\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Meryme：\c[0]    \{Wha-!
+
+DualMama/lose_but_progress4
+\BonMP[Cocona,20]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\c[0]    Boss Mama no bully Big Sis!
+
+DualMama/lose_but_progress5
+\CBmp[Cocona,20]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Cocona protect Big Sis!
+
+DualMama/lose_but_progress6
+\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Meryme：\c[0]    Darling! Wait! I was just...
+
+DualMama/lose_but_progress7
+\CBmp[Cocona,20]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\c[0]    Boss Mama lie! Boss Mama Liar!
+
+DualMama/lose_but_progress8
+\SETpl[BigMama_Tar02Sad]\Lshake\prf\c[4]Meryme：\c[0]    ....
+
+DualMama/lose_but_progress9
+\SETpl[BigMama_Tar02Sad]\Lshake\prf\c[4]Meryme：\c[0]    I only wanted to see if this fresh meat is ready or not...
+
+DualMama/lose_but_progress10
+\BonMP[Cocona,5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\c[0]    Hiss! Cocona don't understand!
+
+#################################### Dual Begin
+
+EnterDual/0
+\narr Earlier....at The Burning Keg...
+
+EnterDual/0_1
+\narr Afterwards...at present...in the Arena...
+
+EnterDual/1
+\CBmp[Hazubendo,20]\c[4]Meryme's husband：\c[0]    Got the thing ready...are you really gonna put this on?
+\CBmp[BossMamaT1,20]\SETpl[BigMama_happy]\Lshake\c[4]Meryme：\c[0]    Sure am.
+
+EnterDual/1_1
+\CBmp[BossMamaT1,20]\SETpl[BigMama_happy]\Lshake\c[4]Meryme：\c[0]    Ah...old friend.
+\CBmp[BossMamaT1,20]\SETpl[BigMama_normal]\Lshake\c[4]Meryme：\c[0]    Didn't think a day would come that I'd use you again.
+
+EnterDual/2
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\c[4]Cocona：\c[0]    Big Sis! I am here! Look here!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Ah! Cocona!
+
+EnterDual/3
+\CBmp[Cocona,20]\SETlpl[cocona_sad]\Lshake\c[4]Cocona：\c[0]    Go Big Sis! Big Sis is strong!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...alright.
+
+EnterDual/4_withFollower
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\c[4]Meryme：\c[0]    So you brought friends?
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused-NoKnife]\Lshake\c[4]Meryme：\c[0]    No matter. I'll take you all!
+
+EnterDual/4_noFollower
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\c[4]Meryme：\c[0]    Are you ready?
+
+EnterDual/5
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    \{Eh?! Wait a second!
+\CBmp[BossMamaT1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Meryme：\c[0]    What are you scared of? I didn't even bring a proper weapon.
+\CBmp[BossMamaT1,20]\SETpl[BigMama_angry2_NoKnife]\prf\c[4]Meryme：\c[0]    Let it begin!
+
+#################################### T1 end
+
+T1_end/0
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    So...well...do we really have to do this?
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    Can't I just take Cocona and go?
+\CBid[-1,3]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Meryme：\c[0]    Oh Lona, you can't make a fucking meat soup and fret about every cut of flesh.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?
+\CBid[-1,20]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Meryme：\c[0]    Cut the bullshit and come at me!
+
+T1_end/1
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    Nothing works!??
+\CBid[-1,3]\SETpl[BigMama_confused_NoKnife]\Lshake\prf\c[4]Meryme：\c[0]    Dumb brat! You can't hurt me.
+
+#################################### T2 start
+
+T2start/0
+\CBid[-1,20]\SETpl[BigMama_Tar01]\Lshake\prf\c[4]Meryme：\c[0]    \{TENTACLE ARMOR!
+
+T2start/0_1
+\CBct[6]\m[fear]\plf\Rshake\c[6]Lona：\c[0]    \{WHAT?!
+
+T2start/1
+\CBid[-1,20]\SETpl[BigMama_Tar01]\Lshake\prf\c[4]Meryme：\c[0]    Not anyone can wield this powerful armor. Not a single user in the past has avoided corruption.
+
+T2start/2
+\CBid[-1,20]\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Meryme：\c[0]    But I'm built different! Only I can control it!
+\CBmp[Cocona,20]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Big Sis! You can do it!
+\CBid[-1,8]\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Meryme：\c[0]    ...
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    I-I... I give up! I surrender!
+
+T2start/3_CoconaWhore
+\CBid[-1,8]\SETpl[BigMama_Tar02Flirty]\Lshake\prf\c[4]Meryme：\c[0]    YOU THOUGHT I WOULDN'T FIND OUT WHAT YOU'VE DONE TO MY LITTLE DARLING?!
+\CBid[-1,8]\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Meryme：\c[0]    DON'T EVEN THINK YOU'RE LEAVING HERE ALIVE! DIEEE!!!
+
+T1start/3_CoconaWhore
+\SETpl[BigMama_angry2_NoKnife]\Lshake\prf\c[4]Meryme：\c[0]    YOU THOUGHT I WOULDN'T FIND OUT WHAT YOU'VE DONE TO MY LITTLE DARLING?!
+\SETpl[BigMama_angry2_NoKnife]\Lshake\prf\c[4]Meryme：\c[0]    DON'T EVEN THINK YOU'RE LEAVING HERE ALIVE! DIIIE!!!
+
+T2start/3_CoconaNormal
+\CBid[-1,8]\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Meryme：\c[0]    STOP TALKING NONESENSE! LET'S GET STARTED!
+
+#################################### Dual Win
+
+BrokenKatana/0
+\CBmp[Cocona,8]\SETlpl[cocona_sad]\Lshake\c[4]Cocona：\c[0]    Big Sis... Won......
+
+BrokenKatana/0_1
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\c[4]Cocona：\c[0]    Big Sis won!!!
+
+BrokenKatana/0_2
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\c[4]Cocona：\c[0]    \{BIG SIS WOOOOOON!!!
+
+BrokenKatana/0_3
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Yes, I won...
+
+BrokenKatana/1
+\SETpr[BigMama_Tar02Sad]\plf\Rshake\c[4]Meryme：\c[0]    My little darling... Do you really want to leave me that badly?
+
+BrokenKatana/2
+\SETpl[BigMama_Tar02Normal]\Lshake\prf\c[4]Meryme：\c[0]    Tell me\..\..\.. Before you strike down the one who bestows you shelter and food\..\..\..\SETpl[BigMama_Tar02Flirty]\Lshake Have you have nothing to say to her?
+
+BrokenKatana/3
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm\..\..\..\CBct[8]\m[confused] This... Errr\..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    You see\..\..\.. Why don't we discuss this back at the tavern?
+
+BrokenKatana/4
+\SETpl[BigMama_Tar02Sad]\Lshake\prf\c[4]Meryme：\c[0]    ......
+
+LeaveArena/0
+\SETlpl[cocona_shocked]\Lshake\c[4]Cocona：\c[0]    Big Sis!~
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Cocona?
+\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Would you like to go back home together?
+\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Okay!~ ♥
+
+#################################### Dual End and in Tavern && get Cocona Tricket
+
+DualEndTavern/0
+\CBmp[UniqueCocona,6]\SETlpl[cocona_sad]\Lshake\c[4]Cocona：\c[0]    Where's Big Mama?
+
+DualEndTavern/1
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    It looks like she hasn't returned yet?
+
+DualEndTavern/2
+\CBmp[UniqueCocona,20]\SETlpl[cocona_shocked]\Lshake\c[4]Cocona：\c[0]    \{BIG MAMA!
+
+DualEndTavern/3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr... You've transformed back to normal?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So... Ummm... Are you alright?
+
+DualEndTavern/4
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\c[4]Meryme：\c[0]    I'm fine, just getting old as usual.
+
+DualEndTavern/5
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    ......
+\CBmp[UniqueCocona,20]\SETlpl[cocona_confused]\PLF\prf\c[4]Cocona：\c[0]    ......
+
+DualEndTavern/6
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    So....I won?
+
+DualEndTavern/7_win
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    Yep. A real surprise.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    To think a brat like you beat me. I must be getting old.
+
+DualEndTavern/7_lose
+\CBmp[TavernWaifu,20]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    You thought you won\..\..\..?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    You don't remember anything?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Yeah. Did I not win?
+\CBmp[UniqueCocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Yes! Big Sis won!
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    ......
+
+DualEndTavern/8
+\CBct[8]\m[flirty]\PRF\plf\c[6]Lona：\c[0]    So...can I take Cocona with me?
+\CBmp[UniqueCocona,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Cocona：\c[0]    Big Mama won't come with?
+\CBmp[TavernWaifu,8]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Oh my darling\..\..\..before you leave don't forget to take your arm.
+\CBmp[UniqueCocona,5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Cocona：\c[0]    Woo...*sniffle*
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    ........
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Oi，Lona。
+\CBct[2]\m[confused]\PRF\plf\c[6]Lona：\c[0]    Hm?
+
+DualEndTavern/9
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    What's this?
+\CBmp[TavernWaifu,8]\SETpl[BigMama_confused]\Lshake\prf\c[4]Meryme：\c[0]    This is Cocona's ticket. When the time comes just leave.
+\CBct[2]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Mhm. Just leave Cocona to me.
+\CBmp[UniqueCocona,6]\SETlpr[cocona_sad]\plf\Rshake\c[4]Cocona：\c[0]    Woo-miaow...
+
+#################################### Get Katana
+
+getKatana/0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...you left this at the arena, Boss Mama.
+
+getKatana/1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Ah...my old pal.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Old pal?
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    I'm talking about this blade.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh...sorry...it's broken in half...
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Hmph! Wait here.
+
+getKatana/2
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Oh?
+
+getKatana/3
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    You can keep it. It's no good to me anymore.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Oh\..\..\..\m[shocked]\Rshake what?!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Good thing it snapped. Now it's just the right length for you.
+
+getKatana/4
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    Ah, one more thing...
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    I got ways to get the ticket without spending money.
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Meryme：\c[0]    So you can have this back.
+
+getKatana/5
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I\..\..\..\m[pleased]\Rshake Thank you!!
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Meryme：\c[0]    Now get going.
+
+#################################### Dock
+
+ShipEnding/OPT_GoWithCocona
+Leave with Cocona
+
+EndingShip/0
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis! Wait for me!
+\m[pleased]\PRF\c[6]Lona：\c[0]    Cocona! Over here! Hurry!
+
+EndingShip/1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Also... I have this as well...
+
+EndingShip/2
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona：\c[0]    This is Cocona, I'd like her to come along with me on the ship.
+
+EndingShip/3
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\PLF\prf\c[4]Edward：\c[0]    \...\...\...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Hmmph! Just wun look an' I can tell this ticket be a fake, lass.
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    W-WHAT?!?!
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Yarr har har! I'm just jokin' lass. How can I not show me respects to the great Crimson Slayer?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... The Crimson Slayer? Who?
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]Edward：\c[0]    Ahh, ya didn't hear nothin' from me. Both of ye can head aboard now.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Yay!
+
+############################################################################################## WHORE JOB VAG
+
+WhoreEV/first_begin0
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\c[4]Cocona：\c[0]    Big Sis, what are you doing?!
+
+WhoreEV/first_begin0_1
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    EYAH?! C-Cocona?!
+
+WhoreEV/first_begin1
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Woo-Miao\..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Errr... Big Sis is working......\n I have to work so we can earn food to eat...
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Work\..\..\..? \CBfB[2]With pee-pee hole?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm... Yes?
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Cocona wanna help with work too!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    EEEHHHHHH?!
+\CBfB[20]\SETlpl[cocona_angry]\Lshake\prf\c[4]Cocona：\c[0]    Like Big Sis said, pee-pee hole can be used in exchange for shiny treasures and food!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    EH... Ummm... HAAAHHH???!!?!
+
+WhoreEV/first_begin_opt
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Mmmm...\optD[Forget about it!,Let Cocona learn about prostitution...]
+
+WhoreEV/first_begin_opt_yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    \..\..\..Alright......
+
+WhoreEV/first_begin_opt_no
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Forget about it, Cocona. You shouldn't know about these type of things!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Just let Big Sis worry about making money... Okay?
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Woo-Miao...
+
+WhoreEV/first_end0
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    B-Big Sis... *Sob* Cocona's pee-pee hole hurts...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Don't cry, this is what girls were born to do.
+\CBfB[2]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    *Sniff*... Woo-Nyeow?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Our bodies are made for men to pleasure themselves with.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    It's a woman's duty to let men use her however they want.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Take a look, aren't these the treasures that I told you we would be rewarded with?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    The more you do this Cocona, the more you'll understand.
+\CBfB[8]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Woo-Miao... *Sniff*
+
+Cocona/WhoreEV_hurt_CompCommand0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]Cocona：\c[0]    Big Sis... *Sniff* Cocona's pee-pee hole hurts...
+
+Cocona/WhoreEV_hurt_CompCommand1
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]Cocona：\c[0]    *Whimpers* P-Pee-pee hole has ouchies...
+
+prostituation/CoconaVag
+(Offer Cocona's pussy instead)
+
+prostituation/vag_success
+\narr The customer seems to have taken an interest in Cocona as they ogled her malnourished body...
+\narrOFF\CBfB[1]\SETlpr[cocona_shocked]\plf\Rshake\c[4]Cocona：\c[0]    Woo-Nyeow?!
+
+WhoreEV/failed
+\narr The customer stares at Cocona for a bit...
+\narr They then patted her head and left...
+
+WhoreEV/first_begin2
+\narr The customer gleefully remarks about how great it was to able to have fun with another girl...
+
+WhoreEV/fuck0
+\c[4]Cocona：\c[0]    Woo-M-Miao...
+
+WhoreEV/fuck1
+\c[4]Cocona：\c[0]    Meeew...
+
+WhoreEV/fuck2
+\c[4]Cocona：\c[0]    NYAH!!!
+
+WhoreEV/fuck3
+\narr The customer's cock was way too big for Cocona's tiny pussy. The glans of their penis instantly smashed against her cervix...
+
+WhoreEV/fuck4_0
+\narr The customer calls Cocona a dirty slut as they thursted their hips into her...
+
+WhoreEV/fuck4_1
+\narr The customer mutters about Cocona being a filthy Mixed-Raced bitch as they fucked her...
+
+WhoreEV/fuck4_2
+\narr The customer murmurs about how cute Cocona was as they slamed their groin into her buttocks...
+
+WhoreEV/fuck5
+\narr The customer lets out a grunt and soon tightens their grip around Cocona's frail hips as their body begins to shudder...
+
+WhoreEV/fuck6
+\narr The customer roars out with euphoria!\n They seem to have ejaculated inside of her...
+
+WhoreEV/fuck_end0
+\narr The customer compliments Cocona's tight pussy. They commented on how she was the perfect sexual aid...
+
+WhoreEV/fuck_end1
+\narr The customer soon leaves...
+
+WhoreEV/fuck_end2_0
+\c[4]Cocona：\c[0]    Woo-M-Meeew... Tummy is swollen...
+
+WhoreEV/fuck_end2_1
+\c[4]Cocona：\c[0]    Meeewww... T-Tummy feels very full...
+
+############################################################### Peepee with cocona
+
+Lona/BasicNeedsOpt_PeeWithCocona
+Urinate together
+
+PeePeeTogeter/begin0
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona：\c[0]    Big Sis is peeing right now Cocona. Would you like to join me?
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Okay!~ ♥
+
+################################################ Dress change
+
+dressOn/1
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    Cocona！ You have to put your clothes back on, quickly!
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big Sis?
+
+dressOn/2
+\CBct[6]\m[flirty]\Rshake\c[6]Lona：\c[0]    It'll be bad if some bad guys saw you right now...
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Woo-Nyeow???!
+
+dressOff/1
+\CBct[3]\m[lewd]\PRF\c[6]Lona：\c[0]    Cocona, do you want to experience the pleasures of liberty?
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]Cocona：\c[0]    Lib... er... tea?
+
+dressOff/2
+\CBct[4]\m[triumph]\Rshake\c[6]Lona：\c[0]    Be free, Cocona!
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\prf\c[4]Cocona：\c[0]    Woo-Miao... Cocona feels cold.
+
+#Unfinished, have to revamp/translate cocona's MTL and translate CHT. -Sugoi
+
+############################################################### SUGGESTIONS
+#FOR LONA PROSTITUTION IF COCONA IS IN PARTY AND STILL VIRGIN. When cocona is ur companion and Lona whores herself, there should be dialogue before starting sex in my opinion. Dialogue would show that Lona tells cocona to stay at the same spot while Lona goes with her customer to have sex in another place.
+
+Lona：\c[0]    Cocona, please stay here and wait for me.
+Cocona：\c[0]    Big Sis? Where are you going?!
+Lona：\c[0]    Don't worry Cocona, just be a good girl and stay right there. I'll be back!
+Cocona：\c[0]    Woo-Miao...
+
+#If Cocona dies from too much sex.
+Lona：\c[0]    Good job Cocona! The customer told me that you were a good girl and he had a great time.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Hey, it's too early to sleep right now silly!
+Lona：\c[0]    ......Cocona...?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    *Gasp* C-COCONA?!
+Lona：\c[0]    Oh no... No, no, NO!!!
+Lona：\c[0]    COCONA! WAKE UP!!! Please...!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Cocona......

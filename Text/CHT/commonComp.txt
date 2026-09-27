@@ -1,0 +1,675 @@
+notice/ExtOverWrite
+\board[非戰鬥隊友]
+僅能擁有一名非\c[6]戰鬥隊友\c[0]！
+若接受則自動放棄當前的非戰鬥隊友。
+若正進行護送任務則放棄當前的任務。
+是否放棄當前的護送任務或非戰鬥隊友？
+
+Companion/Accept
+就是它？\optD[算了,確定]
+
+Companion/TeamUp
+組隊
+
+Companion/Follow
+跟隨
+
+Companion/Wait
+等待
+
+Companion/Other
+其他
+
+Companion/Disband
+解散
+
+Companion/SetFoe
+敵對目標
+
+Companion/Purr
+呼嚕
+
+Companion/Extension
+延期
+
+################################# COMMON COMP INFO
+
+CompWarrior/CompData
+\board[傭兵戰士]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]戰士、防禦。
+\C[2]陣營：\C[0]不法份子。
+\C[2]敵對：\C[0]邪惡生物,諾爾守衛。
+\C[2]需求：\C[0]黃金水2。\i[590]
+\C[2]期限：\C[0]2天。
+隨處可見的傭兵。
+
+CompArcher/CompData
+\board[傭兵弓箭手]
+\C[2]位置：\C[0]後。
+\C[2]戰鬥類型：\C[0]射擊、曲射。
+\C[2]陣營：\C[0]不法份子。
+\C[2]敵對：\C[0]邪惡生物,諾爾守衛。
+\C[2]需求：\C[0]黃金水2。\i[590]
+\C[2]期限：\C[0]2天。
+隨處可見的傭兵。
+
+CompCommon/Comp_disband
+\CBid[-1,20]\c[4]酒醉的傭兵：\c[0]    下次再幫我買一杯....嗝！
+
+CompHumanWarrior/Comp_disband
+\CBid[-1,20]\c[4]酒醉的傭兵：\c[0]    不! 我沒醉！
+
+CompHumanBow/Comp_disband
+\CBid[-1,20]\c[4]酒醉的傭兵：\c[0]    不！給我更多的酒！
+
+CompCommon/Comp_win
+\CBid[-1,20]\c[4]酒醉的傭兵：\c[0]    嗝！ 那就一起行動吧。
+
+CompCommon/Comp_failed
+\CBid[-1,5]\Lshake\prf\c[4]酒醉的傭兵：\c[0]    \{沒酒還跟我囉嗦！
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    對不起...
+
+CompCommon/Slave_failed0
+\CBid[-1,5]\CBid[-1,5]\Lshake\prf\c[4]酒醉的傭兵：\c[0]    區區一個奴隸說什麼傻話！
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    對不起...
+
+CompCommon/Slave_failed1
+\CBid[-1,5]\Lshake\prf\c[4]酒醉的傭兵：\c[0]    \{憑妳？！ \}奴隸只適合清理我的肉棒！
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    對不起...
+
+CompCommon/Slave_failed2
+\CBid[-1,5]\Lshake\prf\c[4]酒醉的傭兵：\c[0]    \{妳是奴隸？！ 去！滾遠點！
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    對不起...
+
+CompWarrior/begin
+\CBid[-1,20]\CBid[-1,20]\SETpl[MobHumanWarrior]\prf\c[4]酒醉的傭兵：\c[0]    嗝！ 什麼事？
+
+CompArcher/begin
+\CBid[-1,20]\CBid[-1,20]\SETpl[MobMootBow]\prf\c[4]酒醉的傭兵：\c[0]    嗝！ 什麼事？
+
+CompRogue/OvermapPop0
+後街的女人真不錯。
+
+CompRogue/OvermapPop1
+我也想買個奴隸。
+
+CompRogue/OvermapPop2
+好想打炮阿。
+
+CompRogue/OvermapPop3
+嘔嘔嘔！
+
+####################################################################################################################################################
+
+CompWarSister/CompData
+\board[戰爭修女]
+\C[2]位置：\C[0]前
+\C[2]戰鬥類型：\C[0]戰士、防禦、曲射
+\C[2]陣營：\C[0]聖徒會
+\C[2]敵對：\C[0]漁人、不死者、肉魔
+\C[2]需求：\C[0]聖水、虛弱小於100。\i[46]
+\C[2]期限：\C[0]5天
+光芒與正義的執行者。
+
+CompWarSister/begin
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]戰爭修女：\c[0]    聖徒為我之慈父。
+
+CompWarSister/Comp_disband
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]戰爭修女：\c[0]    信仰將成為你最強之劍！
+
+CompWarSister/Comp_win
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]戰爭修女：\c[0]    聖徒將解救我等。
+
+CompWarSister/Comp_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]戰爭修女：\c[0]    我沒有多餘的憐憫。
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    對不起...
+
+CompWarSister/Weak_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]戰爭修女：\c[0]    你也不配獲得憐憫。
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    對不起...
+
+CompWarSister/End
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]戰爭修女：\c[0]    切勿憐憫！
+
+CompWarSister/Fated_enemy
+\narr隊友表示必須淨化所有的不潔。
+
+CompWarSister/OvermapPop0
+我們沒有時間憐憫。
+
+CompWarSister/OvermapPop1
+憐憫將導致失敗！
+
+CompWarSister/OvermapPop2
+以聖徒之名！
+
+CompWarSister/OvermapPop3
+你的罪孽已不容寬恕！
+
+####################################################################################################################################################
+
+CompOrkindSlayer/CompData
+\board[類獸人殺手]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]戰士、防禦、性技。
+\C[2]陣營：\C[0]席芭莉絲。
+\C[2]敵對：\C[0]類獸人。
+\C[2]需求：\C[0]一碗好喝的湯。\i[110]
+\C[2]期限：\C[0]3.5天。
+偏執的復仇者。
+
+CompOrkindSlayer/begin
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]類獸人殺手：\c[0]    它們殺了我的家人。
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]類獸人殺手：\c[0]    一定要殺光類獸人！
+
+CompOrkindSlayer/Comp_disband
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]類獸人殺手：\c[0]    不！我還要更多的類獸人！
+
+CompOrkindSlayer/Comp_win
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]類獸人殺手：\c[0]    走！　一起去殺類獸人！
+
+CompOrkindSlayer/Comp_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]類獸人殺手：\c[0]    這不是類獸人！
+\CBct[6]\m[sad]\plf\c[6]洛娜：\c[0]    對不起...
+
+CompOrkindSlayer/Slave_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]類獸人殺手：\c[0]    奴隸除了當誘餌外還能做什？
+\CBct[6]\m[sad]\plf\c[6]洛娜：\c[0]    對不起...
+
+CompOrkindSlayer/OrkindGroup_run
+\SETpl[OrkindSlayer]\Lshake\prf\c[4]類獸人殺手：\c[0]    類獸人必須全部殺光！
+
+CompOrkindSlayer/OvermapPop0
+我想念我姊的燉菜...
+
+CompOrkindSlayer/OvermapPop1
+這不是類獸人！
+
+CompOrkindSlayer/OvermapPop2
+把類獸人撕裂！
+
+CompOrkindSlayer/OvermapPop3
+殺光類獸人！
+
+####################################################################################################################################################
+
+CompHumanExplorer/CompData
+\board[無職的冒險家]
+\C[2]位置：\C[0]後。
+\C[2]戰鬥類型：\C[0]牽制、反陷阱、照明。
+\C[2]陣營：\C[0]中立。
+\C[2]敵對：\C[0]邪惡生物。
+\C[2]需求：\C[0]一碗肉湯。\i[108]
+\C[2]期限：\C[0]2.5天。
+\C[2]備註：\C[0]每次區域地圖更新 -20環境危險。
+被困在島上的冒險家。
+
+CompHumanExplorer/begin
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒險家：\c[0]    本想探索席芭莉絲的地下遺跡。
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒險家：\c[0]    現在我被困在這裡，連飯都吃不起。
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒險家：\c[0]    你有什麼地方想探索嗎？先請我吃一頓吧。
+
+CompHumanExplorer/Comp_disband
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒險家：\c[0]    那明天的食物怎麼辦？！
+
+CompHumanExplorer/Comp_win
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒險家：\c[0]    感謝妳！
+
+CompHumanExplorer/Comp_failed
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒險家：\c[0]    你在耍我嗎？！
+
+CompHumanExplorer/OvermapPop0
+去過東方的遺跡嗎？
+
+CompHumanExplorer/OvermapPop1
+蛇！我討厭蛇！
+
+CompHumanExplorer/OvermapPop2
+我相信島上有古神的遺跡。
+
+CompHumanExplorer/OvermapPop3
+席芭莉絲的地下遺跡非常壯觀。
+
+####################################################################################################################################################
+
+CompKitten/CompData
+\board[貓貓]
+\C[2]位置：\C[0]後。
+\C[2]戰鬥類型：\C[0]不曉得。
+\C[2]陣營：\C[0]動物。
+\C[2]敵對：\C[0]中立。
+\C[2]需求：\C[0]一條魚。\i[292]
+\C[2]期限：\C[0]牠說的算。
+\C[2]備註：\C[0]是隻貓，牠看不起妳。
+邪門的貓貓。
+
+CompKitten/begin
+\CBid[-1,8]\c[4]貓貓：\c[0]    ........
+
+CompKitten/Comp_disband
+\CBid[-1,8]\c[4]貓貓：\c[0]   .....
+
+CompKitten/Comp_win
+\CBid[-1,3]\c[4]貓貓：\c[0]    呼嚕嚕嚕....
+
+CompKitten/Comp_failed
+\CBid[-1,5]\c[4]貓貓：\c[0]    哈嘶！
+
+CompKitten/Command
+\CBid[-1,5]\c[4]貓貓：\c[0]    哈嘶！
+
+CompKitten/OPT_PURR
+\CBid[-1,3]\c[4]貓貓：\c[0]    呼嚕嚕嚕....呼嚕嚕嚕....
+\narr\..\..\..\..
+\CBct[8]\narrOFF\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    不知道為何我覺得很開心。
+
+####################################################################################################################################################
+
+CompDoggy/CompData
+\board[狗狗]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]快速、反陷阱。
+\C[2]陣營：\C[0]動物。
+\C[2]敵對：\C[0]中立、自訂。
+\C[2]需求：\C[0]一碗肉湯。\i[108]
+\C[2]期限：\C[0]無。
+\C[2]備註：\C[0]每次區域地圖更新 -20環境危險。
+毫無自尊非常容易賄絡的狗狗。
+
+CompDoggy/begin
+\CBid[-1,20]\c[4]狗狗：\c[0]    汪汪！
+
+CompDoggy/Comp_disband
+\CBid[-1,20]\SndLib[dogDead]\c[4]狗狗：\c[0]   嗚嗚~~
+
+CompDoggy/Comp_win
+\CBid[-1,20]\c[4]狗狗：\c[0]    汪！
+
+CompDoggy/Comp_failed
+\CBid[-1,5]\c[4]狗狗：\c[0]    吼吼吼！
+
+CompDoggy/Command
+\CBid[-1,20]\SndLib[dogSpot]\c[4]狗狗：\c[0]    汪汪！
+
+CompDoggy/SetupFateEnemy
+設定狗狗的敵對目標。\optD[還原,攻擊邪惡,攻擊正義,動物<r=HiddenOPT0>,類獸人<r=HiddenOPT1>,魚人<r=HiddenOPT2>,肉魔<r=HiddenOPT3>,不死<r=HiddenOPT4>]
+
+####################################################################################################################################################
+
+CompHumanSpear/CompData
+\board[癮君子傭兵]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]戰士。
+\C[2]陣營：\C[0]中立。
+\C[2]敵對：\C[0]邪惡生物。
+\C[2]需求：\C[0]一個白龍草。\i[203]
+\C[2]期限：\C[0]3天。
+白龍草成癮的傭兵。
+
+CompHumanSpear/begin
+\CBid[-1,6]\c[4]癮君子：\c[0]    妳有沒有白龍草？ 拜託妳！ 給我一點白龍草！
+
+CompHumanSpear/Comp_disband
+\CBid[-1,6]\c[4]癮君子：\c[0]    再給我一點！ 一點點就好！
+
+CompHumanSpear/Comp_win
+\CBid[-1,6]\c[4]癮君子：\c[0]    給我！ 快給我！
+
+CompHumanSpear/Comp_failed
+\CBid[-1,6]\c[4]癮君子：\c[0]    阿呀呀呀呀呀！！
+
+CompHumanSpear/OvermapPop0
+白龍草？
+
+CompHumanSpear/OvermapPop1
+呼呼呼...
+
+CompHumanSpear/OvermapPop2
+嘻嘻嘻...
+
+CompHumanSpear/OvermapPop3
+那是白龍草嗎？
+
+####################################################################################################################################################
+
+CompElfArcher/CompData
+\board[妖精弓箭手]
+\C[2]位置：\C[0]後。
+\C[2]戰鬥類型：\C[0]射擊、曲射。
+\C[2]陣營：\C[0]中立。
+\C[2]敵對：\C[0]邪惡生物。
+\C[2]需求：\C[0]600P。
+\C[2]期限：\C[0]3天。
+\C[2]備註：\C[0]每次區域地圖更新 -20環境危險。
+困在島上的妖精弓箭手。
+
+CompElfArcher/begin
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]弓箭手：\c[0]    我以為人類世界是有趣的，充滿了冒險，但我錯了。
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]弓箭手：\c[0]    對！我是妖精！ 我們不會大便！
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]弓箭手：\c[0]    我受夠這個鬼地方了！ 我要存錢回家！
+
+CompElfArcher/Comp_disband
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]弓箭手：\c[0]    合作愉快。
+
+CompElfArcher/Comp_win
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]弓箭手：\c[0]    冒險時刻到了？
+
+CompElfArcher/Comp_failed
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]弓箭手：\c[0]    我就知道！ 人類都是騙子！
+
+CompElfArcher/Comp_failed_slave
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]弓箭手：\c[0]    奴隸？ 髒死了！
+
+CompElfArcher/OvermapPop0
+好男人為何都是木頭？
+
+CompElfArcher/OvermapPop1
+是肌肉，不是胖。
+
+CompElfArcher/OvermapPop2
+人類真髒！
+
+CompElfArcher/OvermapPop3
+對！我們不如廁！
+
+CompElfArcher/CompFile
+\SETpl[ElfArcher]...
+
+####################################################################################################################################################
+
+CompHumanScout/CompData
+\board[嚮導]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]近戰、照明。
+\C[2]陣營：\C[0]中立。
+\C[2]敵對：\C[0]邪惡生物。
+\C[2]需求：\C[0]600P。
+\C[2]期限：\C[0]3天。
+退役的士兵，現在是嚮導。
+
+CompHumanScout/begin
+\CBid[-1,20]\c[4]嚮導：\c[0]    我的家人都還在諾爾鎮，妳看，這是他們的畫像。
+\CBid[-1,20]\c[4]嚮導：\c[0]    我是出來討生活的，妳有什麼想去的地方嗎？
+
+CompHumanScout/Comp_disband
+\CBid[-1,20]\c[4]嚮導：\c[0]    好，我也該回家一趟了。
+
+CompHumanScout/Comp_win
+\CBid[-1,20]\c[4]嚮導：\c[0]    好，走吧。
+
+CompHumanScout/Comp_failed
+\CBid[-1,5]\c[4]嚮導：\c[0]    我沒興趣。
+
+CompHumanScout/Comp_failed_slave
+\CBid[-1,5]\c[4]嚮導：\c[0]    回主人那去吧，奴隸。
+
+CompHumanScout/OvermapPop0
+我兒子也跟妳差不多大。
+
+CompHumanScout/OvermapPop1
+去過漁人島嗎？
+
+CompHumanScout/OvermapPop2
+北岸本來很漂亮的。
+
+CompHumanScout/OvermapPop3
+妳看，這是我兒子。
+
+####################################################################################################################################################
+
+CompFishGuard/CompData
+\board[汁男保鑣]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]近戰、抓取。
+\C[2]陣營：\C[0]漁人。
+\C[2]敵對：\C[0]邪惡生物、聖徒會。
+\C[2]需求：\C[0]墮落、或妓女天賦。
+\C[2]期限：\C[0]3天。
+漁人部落的戰士，單身，想交配。
+
+CompFishGuard/begin
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]保鑣：\c[0]    是女人的味道...！ 女人由我來保護！
+
+CompFishGuard/sex0
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]保鑣：\c[0]    吾保護妳...！ 但妳...要與吾交配！
+
+CompFishGuard/sex1
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]保鑣：\c[0]    呱嘻嘻♥ 健康的女人♥♥♥
+
+CompFishGuard/Comp_disband
+\CBid[-1,6]\SndLib[FishkindLgSpot]\c[4]保鑣：\c[0]    我... 還想交配...！
+
+CompFishGuard/Comp_win
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]保鑣：\c[0]    妳的穴穴... 很棒...♥
+
+CompFishGuard/Comp_failed
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]保鑣：\c[0]    妳的穴穴... 好臭！
+
+CompFishGuard/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]保鑣：\c[0]    奴隸... 回村子... 生孩子...。
+
+CompFishGuard/OvermapPop0
+我還想交配...
+
+CompFishGuard/OvermapPop1
+妳會生很多魚...
+
+CompFishGuard/OvermapPop2
+穴穴... 肏肏...
+
+CompFishGuard/OvermapPop3
+女人就該... 生孩子...
+
+####################################################################################################################################################
+
+CompFishShaman/CompData
+\board[新手薩滿]
+\C[2]位置：\C[0]後。
+\C[2]戰鬥類型：\C[0]射擊、曲射
+\C[2]陣營：\C[0]漁人。
+\C[2]敵對：\C[0]邪惡生物。
+\C[2]需求：\C[0]墮落、或妓女天賦。
+\C[2]期限：\C[0]3天。
+新手薩滿，父親交代牠去看看這個世界。
+
+CompFishShaman/begin
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]薩滿：\c[0]    黑肉...香香...舔舔...♥ 海巫守護妳♥
+
+CompFishShaman/sex0
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]薩滿：\c[0]    呱呱♥ 與吾交配！ 吾之種汁有海巫的加護！
+
+CompFishShaman/sex1
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]薩滿：\c[0]    呱♥ 呱呱♥ 妳要懷上吾之種♥
+
+CompFishShaman/Comp_disband
+\CBid[-1,6]\SndLib[FishkindSmSpot]\c[4]薩滿：\c[0]    別走...喜歡黑肉...♥
+
+CompFishShaman/Comp_win
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]薩滿：\c[0]    感恩海巫...！ 吾脫處...！
+
+CompFishShaman/Comp_failed
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]薩滿：\c[0]    讚嘆海巫...！ 好醜的屄！
+
+CompFishShaman/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]薩滿：\c[0]    奴隸...屬於村子...！
+
+CompFishShaman/OvermapPop0
+是女人....!
+
+CompFishShaman/OvermapPop1
+屄屄將來都屬於我！
+
+CompFishShaman/OvermapPop2
+黑肉...舔舔...
+
+CompFishShaman/OvermapPop3
+我有...海巫保佑...！
+
+################################## fishkind follower unique sex dialog.
+
+Lona/notWhore0
+\CBct[6]\m[flirty]\c[6]洛娜：\c[0]    呃...抱歉，還是算了吧。
+
+Lona/notWhore1
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    對不起...
+
+CompFish/Extension
+\narr以與洛娜交配為條件，牠可以延展兩天。
+
+####################################################################################################################################################
+
+CompFireMage/CompData
+\board[火系法師]
+\C[2]位置：\C[0]後
+\C[2]戰鬥類型：\C[0]射擊
+\C[2]陣營：\C[0]中立
+\C[2]敵對：\C[0]邪惡生物
+\C[2]需求：\C[0]精力藥1或白龍草2。\i[213]\i[203]
+\C[2]期限：\C[0]2.5天
+貧困但有天賦的魔法少女。
+
+CompFireMage/begin
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火系法師：\c[0]    嗚...我沒力了。
+
+CompFireMage/Comp_disband
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火系法師：\c[0]    唉...為什麼沒有傭兵願意與我組隊呢？
+
+CompFireMage/Comp_win
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火系法師：\c[0]    真的嗎？！ 謝謝妳！
+
+CompFireMage/Comp_failed
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火系法師：\c[0]    嗚... 好累...
+
+CompFireMage/OvermapPop0
+我最喜歡燒焦味了！
+
+CompFireMage/OvermapPop1
+沒什麼能比火焰更吸引人
+
+CompFireMage/OvermapPop2
+這世界能燒嗎？ 可以吧？
+
+CompFireMage/OvermapPop3
+我好想玩火呦...
+
+CompFireMage/OvermapPop4
+沒有人可以阻止我了！
+
+####################################################################################################################################################
+
+CompMusketeer/CompData
+\board[火槍兵]
+\C[2]位置：\C[0]後
+\C[2]戰鬥類型：\C[0]曲射、隱匿
+\C[2]陣營：\C[0]諾爾守衛
+\C[2]敵對：\C[0]邪惡生物
+\C[2]需求：\C[0]罐裝的黃金水4\i[361]
+\C[2]期限：\C[0]5天
+\C[2]備註：\C[0]可使用#{$story_stats["HiddenOPT0"]}+#{$story_stats["HiddenOPT1"]}觸發隱匿，隱匿時不會主動攻擊。
+從\c[4]印加蘭王國\c[0]調來的菁英戰士，善於隱匿與使用火槍。
+可惜因太久沒休假成為了精障。
+對，菁英即精障。
+
+CompMusketeer/begin_nonInGroup
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]火槍兵：\c[0]    站住！ 口令！
+
+CompMusketeer/begin
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]火槍兵：\c[0]    長官好！
+
+CompMusketeer/Comp_disband
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]火槍兵：\c[0]    休假？ 沒有離營宣導？！ 原地解散？！
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]火槍兵：\c[0]    \{這不可能！！！
+
+CompMusketeer/Comp_win
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]火槍兵：\c[0]    是！
+
+CompMusketeer/Comp_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]火槍兵：\c[0]    這是不當管教！ 我要申訴！
+
+CompMusketeer/Weak_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]火槍兵：\c[0]    你敢管我？ 你幾梯的！
+
+CompMusketeer/CommonPop0
+是！長官！
+
+CompMusketeer/CommonPop1
+是！
+
+CompMusketeer/OvermapPop0
+一二一二一二！
+
+CompMusketeer/OvermapPop1
+雄壯！威武！
+
+CompMusketeer/OvermapPop2
+嚴肅！剛直！
+
+CompMusketeer/OvermapPop3
+安靜！堅強！
+
+######################################################################## 
+
+CompNinjaKiller/CompData
+\board[近視的暗殺者]
+\C[2]位置：\C[0]前
+\C[2]戰鬥類型：\C[0]近戰
+\C[2]陣營：\C[0]席芭莉絲
+\C[2]敵對：\C[0]不死者、肉魔、纇獸人
+\C[2]需求：\C[0]20隻手裡劍\i[58]
+\C[2]期限：\C[0]5天
+\C[2]備註：\C[0]可使用#{$story_stats["HiddenOPT0"]}+#{$story_stats["HiddenOPT1"]}觸發隱匿，隱匿時不會主動攻擊。
+在席芭莉絲接觸了些東方文化就自以為是的戰士。
+可能對暗殺相有自信，可惜的是他有近視。
+
+CompNinjaKiller/begin_nonInGroup0
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    DOMO!
+
+CompNinjaKiller/begin_nonInGroup1
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    眼鏡？
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    南無三！我才沒有近視！這可是偵測 COMBAT POWA 的魔道具！
+
+CompNinjaKiller/begin
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    我所受的 TRAINING 就是為了今天。
+
+CompNinjaKiller/Comp_disband
+\CBid[-1,6]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    妳放棄 STRUGGLE 了嗎？
+
+CompNinjaKiller/Comp_win
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    一起讓那些低賤的 NO SCENE 遭受報應吧！
+
+CompNinjaKiller/Comp_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    妳並未證明妳的 POWA。
+
+CompNinjaKiller/Weak_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]東方殺手：\c[0]    弱者不配！
+
+CompNinjaKiller/CommonPop0
+斬！立！決！
+
+CompNinjaKiller/CommonPop1
+忍者！殺無赦！
+
+CompNinjaKiller/OvermapPop0
+不可能！ 哲學家明明說過的！
+
+CompNinjaKiller/OvermapPop1
+妳說東方沒這些？ 不可能！
+
+CompNinjaKiller/OvermapPop2
+是我的誤解？ 不可能！
+
+CompNinjaKiller/OvermapPop3
+不可能！ 忍者一定存在！
+
+####################################################################################################################################################
+
+CompHorseCarry/CompData
+\board[挽馬]
+\C[2]位置：\C[0]非戰鬥。
+\C[2]陣營：\C[0]動物。
+\C[2]敵對：\C[0]無。
+租用挽馬每半天為#{$story_stats["HiddenOPT1"]}P。
+挽馬可提供大量的儲貨空間。
+請在挽馬解散、離隊或死亡前將貨物提出，
+或您將移失您的貨物。

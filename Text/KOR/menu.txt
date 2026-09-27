@@ -1,0 +1,900 @@
+##################################	TITLE	#############################
+##################################	TITLE	#############################
+##################################	TITLE	#############################
+
+title/NEW_GAME
+새로 시작
+
+title/CONTINUE
+불러오기
+
+title/CREDITS
+크레딧
+
+title/EXIT_GAME
+종료
+
+title/OPTIONS
+옵션
+
+title/ACH
+도전과제
+
+title/GamepadMode
+게임패드 모드
+
+title/SupportMe
+후원
+
+##################################	Input	#############################
+
+Input/Space
+빈칸
+
+##################################	SHOP	#############################
+
+Shop/ConfirmWarning
+확정
+
+Shop/Return
+재개
+
+Shop/Buy
+구입
+
+Shop/Sell
+판매
+
+Shop/Cancel
+닫기
+
+Shop/WtLimit
+무게 제한
+
+Shop/TPleft
+거래 포인트
+
+Shop/Item
+아이템
+
+Shop/ArmEquip
+주요 장비
+
+Shop/Equip
+기타 장비
+
+Box/Body
+소지품
+
+Box/Target
+교환 대상
+
+##################################	`	#############################
+
+GameOver/Press
+종료
+
+GameOver/Continue_bad
+당신은 실패했습니다
+
+GameOver/Continue_good
+로나는 당신의 안내에 감사를 표합니다
+
+##################################	CORE	#############################
+##################################	CORE	#############################
+##################################	CORE	#############################
+
+core/main_stats
+메인 스탯
+
+core/body_stats
+건강 상태
+
+core/sex_stats
+성적 속성
+
+core/equips
+장비
+
+core/items
+아이템
+
+core/skills
+액티브 스킬
+
+core/traits
+스킬트리
+
+core/letter
+편지,게임로그
+
+core/system
+시스템
+
+##################################	CORE STATS	#############################
+##################################	CORE STATS	#############################
+##################################	CORE STATS	#############################
+##################################	CORE STATS	#############################
+
+core_stats/hp
+생명
+
+core_stats/ca
+무게
+
+core_stats/sta
+스태미너
+
+core_stats/sat
+만복도
+
+core_stats/next_lv
+EXP
+
+core_stats/TimeLeft
+기한
+
+##################################	main	#############################
+##################################	main	#############################
+##################################	main	#############################
+##################################	main	#############################
+
+main_stats/name
+로나
+
+main_stats/race
+종족
+
+main_stats/race_Human
+인간
+
+main_stats/race_Deepone
+인간
+
+main_stats/race_Moot
+혼혈
+
+main_stats/race_SeaWitch
+바다마녀
+
+#######################################################
+
+main_stats/persona
+성격
+
+main_stats/persona_typical
+평범
+
+main_stats/persona_gloomy
+우울
+
+main_stats/persona_tsundere
+츤데레
+
+main_stats/persona_slut
+암캐
+
+#######################################################
+
+main_stats/title
+칭호
+
+main_stats/level
+레벨
+
+main_stats/exp_need
+EXP
+
+main_stats/atk
+공격력
+
+main_stats/def
+방어력
+
+main_stats/mor
+평판
+
+main_stats/move_speed
+속도
+
+main_stats/mood
+기분
+
+main_stats/dirt
+청결도
+
+main_stats/arousal
+흥분
+
+main_stats/micturition_need
+배뇨감
+
+main_stats/breast_swelling
+모유량
+
+main_stats/stomach_upset
+복부팽창
+
+main_stats/defecation_need
+배변감
+
+main_stats/date
+날짜
+
+main_stats/date_day
+낮
+
+main_stats/date_night
+밤
+
+main_stats/carrying_capacity
+무게
+
+main_stats/trade_point
+거래 포인트
+
+main_stats/morality
+평판
+
+main_stats/sexy
+섹시
+
+main_stats/weak
+허약
+
+main_stats/baby_health
+아기생명
+
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+
+body_stats/common_healthy
+건강
+
+body_stats/common_wound
+부상
+
+body_stats/common_semen
+정액 묻음
+
+body_stats/common_piercing
+피어싱
+
+body_stats/common_VaginalDamaged
+질 손상
+
+body_stats/common_UrethralDamaged
+요도 손상
+
+body_stats/common_SphincterDamaged
+항문 손상
+
+body_stats/common_distention
+팽창
+
+body_stats/part_total_amount
+종합 상태
+
+##################################	SEX STATS	#############################
+##################################	SEX STATS	#############################
+##################################	SEX STATS	#############################
+##################################	SEX STATS	#############################
+#############################左部
+
+sex_stats/main_belly
+복부
+
+sex_stats/main_belly_normal
+정상
+
+sex_stats/main_belly_preg1
+복부팽창1
+
+sex_stats/main_belly_preg2
+복부팽창2
+
+sex_stats/main_belly_preg3
+만삭
+
+sex_stats/main_vag
+질
+
+sex_stats/main_anal
+항문
+
+sex_stats/main_hole_tight
+조임
+
+sex_stats/main_hole_narrow
+좁음
+
+sex_stats/main_hole_used
+사용됨
+
+sex_stats/main_hole_gaping
+늘어남
+
+sex_stats/main_hole_ruined
+손상됨
+
+############################################## battle sex skill 右下部
+#hole skill 0~100  lv0 = 0~30,30~50,50~70,>70
+
+sex_stats/battle_stats_vag
+질 기술
+
+sex_stats/battle_stats_anal
+항문 기술
+
+sex_stats/battle_stats_mouth
+구강 성교 기술
+
+sex_stats/battle_stats_fapping
+수음 기술
+
+sex_stats/battle_stats_inexperienced
+형편없음
+
+sex_stats/battle_stats_exped
+경험자
+
+sex_stats/battle_stats_skilled
+베테랑
+
+sex_stats/battle_stats_master
+달인
+
+################################################## RECORD 右上部
+
+sex_stats/record_giveup_hardcore
+종말을 택함
+
+sex_stats/record_giveup_PeePoo
+배변 참기 포기
+
+sex_stats/record_Rebirth
+환생
+
+sex_stats/record_first_mouth
+첫키스 대상
+
+sex_stats/record_first_vag
+첫경험 대상
+
+sex_stats/record_first_anal
+애널 첫경험 대상
+
+sex_stats/record_last_mouth
+마지막 구강 성교 상대
+
+sex_stats/record_last_vag
+마지막 질 성교 상대
+
+sex_stats/record_last_anal
+마지막 항문 성교 상대
+
+sex_stats/record_current_married_partner
+결혼 파트너
+
+sex_stats/record_urinary_damage
+요도 손상
+
+sex_stats/record_anal_damage
+항문 손상
+
+sex_stats/record_whore_job
+성매매 경험
+
+sex_stats/record_kissed
+키스 경험
+
+sex_stats/record_privates_seen
+노출 경험
+
+sex_stats/record_groped
+더듬어진 경험
+
+sex_stats/record_sexual_partners
+성교 경험
+
+sex_stats/record_semen_swallowed
+정음 경험
+
+sex_stats/record_frottage
+문지름 경험
+
+sex_stats/record_biggest_gangbang
+윤간 경험
+
+sex_stats/record_seen_peeing
+배뇨 노출 경험
+
+sex_stats/record_peed
+배뇨 경험
+
+sex_stats/record_shat
+배변 경험
+
+sex_stats/record_cumshotted
+사정시킨 횟수
+
+sex_stats/record_seen_shat
+배변 노출 경험
+
+sex_stats/record_torture
+고문 경험
+
+sex_stats/record_eating_fecal
+식분 경험
+
+sex_stats/record_cunnilingus_taken
+커닐링구스 경험
+
+sex_stats/record_coma_sex
+강간 경험
+
+sex_stats/record_mindbreak
+정신붕괴 경험
+
+sex_stats/record_defecate_incontinent
+실금 경험
+
+sex_stats/record_urinary_incontinence
+요실금 경험
+
+sex_stats/record_anal_dilatation
+항문 확장 경험
+
+sex_stats/record_vag_dilatation
+질 확장 경험
+
+sex_stats/record_urinary_dilatation
+요도 확장 경험
+
+sex_stats/record_BreastFeeding
+수유 경험
+
+sex_stats/record_MilkSplash
+모유 경험
+
+sex_stats/record_MilkSplash_incontinence
+모유 분출 경험
+
+sex_stats/record_pregnancy
+임신 경험
+
+sex_stats/record_orgasm
+절정 경험
+
+sex_stats/record_orgasm_Mouth
+구강 절정 경험
+
+sex_stats/record_orgasm_Torture
+고문 절정 경험
+
+sex_stats/record_orgasm_Vag
+질 절정 경험
+
+sex_stats/record_orgasm_Milking
+모유 절정 경험
+
+sex_stats/record_orgasm_Pee
+배뇨 절정 경험
+
+sex_stats/record_orgasm_Poo
+배설 절정 경험
+
+sex_stats/record_orgasm_Birth
+출산 절정 경험
+
+sex_stats/record_orgasm_Anal
+항문 절정 경험
+
+sex_stats/record_orgasm_Semen
+정액 절정 경험
+
+sex_stats/record_orgasm_Breast
+가슴 절정 경험
+
+sex_stats/record_orgasm_Shame
+모욕 절정 경험
+
+sex_stats/record_enemaed
+관장 경험
+
+sex_stats/record_analbeads
+항문 구슬 경험
+
+sex_stats/record_pussy_wash
+질내 배뇨 경험
+
+sex_stats/record_anal_wash
+항내 배뇨 경험
+
+sex_stats/record_golden_shower
+골든 샤워 경험
+
+sex_stats/record_piss_drink
+음뇨 경험
+
+sex_stats/record_married
+결혼
+
+sex_stats/record_groin_harassment
+사타구니 성희롱 경험
+
+sex_stats/record_butt_harassment
+엉덩이 성희롱 경험
+
+sex_stats/record_boob_harassment
+가슴 성희롱 경험
+
+sex_stats/record_cunnilingus_given_count
+커닐링구스 받은 경험
+
+sex_stats/record_handjob_count
+수음 경험
+
+sex_stats/record_fellatio_count
+펠라 경험
+
+sex_stats/record_anal_count
+항문 경험
+
+sex_stats/record_vaginal_count
+질 경험
+
+sex_stats/record_mouth_count
+구강 경험
+
+sex_stats/record_cumin_vaginal
+질내 사정 경험
+
+sex_stats/record_cumin_anal
+항내 사정 경험
+
+sex_stats/record_cumin_mouth
+구내 사정 경험
+
+sex_stats/record_footjob_count
+풋잡 경험
+
+sex_stats/record_masturbation_count
+자위 경험
+
+sex_stats/record_FloorClearnPee
+바닥 청소_소변
+
+sex_stats/record_FloorClearnScat
+바닥 청소_대변
+
+sex_stats/record_FloorClearnCums
+바닥 청소_정액
+
+sex_stats/record_miscarriage
+낙태 경험
+
+sex_stats/record_baby_birth
+출산 경험
+
+sex_stats/record_birth_Abomination
+출산 경험
+
+sex_stats/record_birth_Goblin
+고블린 출산 경험
+
+sex_stats/record_birth_Human
+인간 출산 경험
+
+sex_stats/record_birth_Moot
+혼혈 출산 경험
+
+sex_stats/record_birth_Orkind
+오크 출산 경험
+
+sex_stats/record_birth_Deepone
+심해인 출산 경험
+
+sex_stats/record_birth_Fishkind
+어인 출산 경험
+
+sex_stats/record_birth_PotWorm
+달벌레 출산 경험
+
+sex_stats/record_birth_MoonWorm
+알벌레 출산 경험
+
+sex_stats/record_birth_PolypWorm
+갈고리벌레 출산 경험
+
+sex_stats/record_birth_HookWorm
+버린 아이의 숫자
+
+sex_stats/record_birth_BabyLost
+유기한 아기 숫자
+
+sex_stats/record_CoconaVag
+코코나 매춘 경험
+
+sex_stats/record_CoconaOgrasm
+코코나 절정 경험
+
+sex_stats/record_CoconaPeeWith
+코코나와 화장실 간 횟수
+
+sex_stats/record_MeatToilet_saved
+성노예 구출 숫자
+
+sex_stats/sensitivity_vag
+보지 감도
+
+sex_stats/sensitivity_anal
+항문 감도
+
+sex_stats/sensitivity_mouth
+입 감도
+
+sex_stats/sensitivity_breast
+가슴 감도
+
+##################################	equip	#############################
+##################################	equip	#############################
+##################################	equip	#############################
+##################################	equip	#############################
+
+equip/atk
+공격
+
+equip/def
+방어
+
+equip/com
+힘
+
+equip/scu
+민첩
+
+equip/wis
+지능
+
+equip/con
+건강
+
+equip/sur
+생존
+
+equip/sexy
+섹시
+
+equip/weak
+허약
+
+equip/mori
+평판
+
+equip/mood
+기분
+
+equip/spd
+속도
+
+##################################	item	#############################
+##################################	item	#############################
+##################################	item	#############################
+##################################	item	#############################
+
+items/foods
+음식
+
+items/medicine
+약품
+
+items/equips
+장비
+
+items/other
+기타
+
+items/confirm_accept
+사용
+
+items/confirm_cancel
+취소
+
+items/confirm_drop
+버리기
+
+##################################	SKILLS	#############################
+
+skills/hint_Setup
+등록
+
+skills/hint_Clear
+비우기
+
+skills/Key
+단축키
+
+##################################	TRAITS	#############################
+##################################	TRAITS	#############################
+##################################	TRAITS	#############################
+##################################	TRAITS	#############################
+
+traits/point_left
+남은 포인트
+
+traits/accept
+확정하기
+
+##################################	LETTER	#############################
+##################################	LETTER	#############################
+##################################	LETTER	#############################
+##################################	LETTER	#############################
+
+letter/all
+모든 편지
+
+letter/unread
+읽지 않은 편지
+
+letter/read
+읽은 편지
+
+letter/deleted
+삭제 된 편지
+
+letter/to_delete
+키 삭제 가능
+
+letter/sp_to_delete
+SP키 삭제 가능
+
+letter/l1_to_delete
+L1키 삭제 가능
+
+letter/accept_recover
+복구 확인
+
+letter/accept_deltete
+삭제 확인
+
+letter/cancel
+취소
+
+##################################	SYSTEM	#############################
+##################################	SYSTEM	#############################
+##################################	SYSTEM	#############################
+##################################	SYSTEM	#############################
+
+system/save_game
+저장하기
+
+system/load_game
+불러오기
+
+system/return_to_title
+타이틀 화면으로
+
+system/hardcore
+난이도 설정
+
+system/scat_fetish
+스캇 설정
+
+system/urine_fetish
+소변 설정
+
+system/full_screen
+전체 화면
+
+system/MapBgMode
+화면 필터 (CRT쉐이더)
+
+system/GamePadUImode
+게임패드 인터페이스
+
+system/screen_size
+화면 크기
+
+system/screen_scale
+화면 배율
+
+system/SNDvol
+효과음 크기
+
+system/BGMvol
+배경음 크기
+
+system/HotkeyRosterLength
+단축키 목록
+
+system/KEYbind
+키 설정
+
+system/Mouse
+마우스 컨트롤
+
+system/language
+언어
+
+system/language_change
+게임 언어를 변경하고 게임을 다시 시작하십시오.
+
+system/language_press_z
+확인
+
+system/autosave
+자동 저장
+
+system/DiffHard
+하드
+
+system/DiffHell
+지옥
+
+system/DiffDoom
+종말
+
+system/HellCoreMode0
+지옥 모드
+
+system/HellCoreMode1
+하루가 지날 때마다, 생식 일부가 사라집니다.
+
+system/HellCoreMode2
+전투중 맵을 이탈할 수 없습니다.
+
+system/HellCoreMode3
+중독, 배설 수요가 자동화가 됩니다.
+
+system/HellCoreMode4
+짧은 휴식으로 생명이 회복되지 않습니다.
+
+system/DoomCoreMode0
+종말 모드
+
+system/DoomCoreMode1
+모든 지옥 모드의 요소를 포함합니다.
+
+system/DoomCoreMode2_OLD
+잠에서 깬 후에 자동으로 저장합니다.
+
+system/DoomCoreMode2
+타이틀로 넘어갈 시 자동으로 저장합니다.
+
+system/DoomCoreMode3
+불러오기시 저장파일을 제거합니다.
+
+system/DoomCoreMode4
+사망시 저장파일이 제거됩니다.
+
+system/DoomCoreMode5
+휴식 기능이 사라집니다.
+
+system/DoomCoreMode_Load0
+종말 모드
+
+system/DoomCoreMode_Load1
+W A R N I N G
+
+system/reset
+초기화
+
+system/remember_sex_rec
+어머니의 기억
+
+system/remember_bank
+어머니의 유산
+
+system/remember_exp
+어머니의 힘
+
+mod/ModDismatch1
+모드 이상
+
+mod/ModDismatch2
+게임에서 알 수 없는 오류나 크래시가 발생할 수 있습니다
+
+nil/nil

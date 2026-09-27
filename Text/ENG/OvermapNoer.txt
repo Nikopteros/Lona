@@ -1,0 +1,146 @@
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+common/closed
+\narr Closed
+
+##################################### 諾爾鎮 大門守衛 #############################################
+
+GateGuard/begin1
+\cg[map_NoerGate]The gate of the Town of Noer.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Stop right there! \optB[Cancel,Enter,Sneak<r=HiddenOPT1>,Bluff<r=HiddenOPT2>]
+
+GateNobGuard/begin1
+\cg[map_region_RoadNoerNob]The entrance of Rudesind Slope
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    You there! HALT! \optB[Cancel,Enter,Sneak<r=HiddenOPT1>,Bluff<r=HiddenOPT2>]
+
+GateGuard/enter_no_passport_dir6
+\prf\c[4]Guard：\c[0]    There's no problem if you leave the city gates. But when you return, you must present your ID paper.
+
+GateGuard/enter_no_passport_dir4
+\prf\PLF\c[4]Guard：\c[0]    We have orders to not allow anyone entry without identification.
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Okay then...
+
+GateGuard/enter_with_passport
+\prf\c[4]Guard：\c[0]    Hmmm......
+\prf\c[4]Guard：\c[0]    Alright, you may pass.
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]Guard：\c[0]    Huh? Hey you! STOP RIGHT THERE!!!
+\Lshake\c[4]Guard：\c[0]    I recognize your face! \n\{GET HER!
+
+GateGuard/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\c[0]    \{No, wait!
+
+GateGuard/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Lona：\c[0]    \{Shit!!!
+
+GateGuard/enter_failed_gloomy
+\m[bereft]\plf\PRF\Rshake\c[6]Lona：\c[0]    \{E-Eeep!
+
+GateGuard/enter_failed_slut
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\c[0]    \{Oh no!
+
+GateGuard/enter_wait
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]Lona：\c[0]    Phew! I made it...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]Guard：\c[0]    Huh? Hey you! STOP RIGHT THERE!!!
+\Lshake\c[4]Guard：\c[0]    Where are you going?! \n\{GET HER!
+
+GateGuard/enter_wisdom
+\PRF\c[6]Lona：\c[0]    Are you not aware? This was commanded from your higher-ups.
+\PLF\prf\c[4]Guard：\c[0]    Hmmm, is that right?
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_wisdom_win_lona
+\PLF\c[4]Guard：\c[0]    Seems like it is... Carry on then.
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     Phew! I can't believe that worked!
+
+GateGuard/enter_wisdom_win_slave1
+\PLF\c[4]Guard：\c[0]    I didn't know slaves could come and go freely...
+
+GateGuard/enter_wisdom_win_slave2
+\PLF\c[4]Guard：\c[0]    All right, get going, don't make your Master wait!
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     Okay, he ate it...
+
+GateGuard/enter_wisdom_win_maggot
+\PLF\c[4]Guard：\c[0]    Ugh! You reek! Do all Sybarians smell like shit?
+\PLF\c[4]Guard：\c[0]    You are a disgrace! Move along and don't you come near me!
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     I'm sorry Sir!
+
+GateGuard/enter_wisdom_win_sexy
+\PLF\c[4]Guard：\c[0]    Came to make some money, little whore?
+\PLF\c[4]Guard：\c[0]    Aren't you cute? Be sure to stop by the barracks on your way back.
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     I-I-I will, Sir...
+
+GateGuard/enter_wisdom_win_weaker
+\PLF\c[4]Guard：\c[0]    Stop gawking and move along, peasant!
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     Yes Sir!
+
+GateGuard/enter_wisdom_win_SexyWeak1
+\PLF\c[4]Guard：\c[0]    Slut! come here. Let me check you.
+\m[sad]\plf\PRF\c[6]Lona：\c[0]     Nngh... Yes Sir.
+
+GateGuard/enter_wisdom_win_SexyWeak2
+\PLF\c[4]Guard：\c[0]    Move along now, before we change our minds and make you stay...
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     Phew... they were all looking at me...
+
+GateGuard/enter_wisdom_win_SexSlave1
+\PLF\c[4]Guard：\c[0]    I'll have to search you, spread your legs.
+\m[sad]\plf\PRF\c[6]Lona：\c[0]     Nngh... Yes Sir...
+
+GateGuard/enter_wisdom_win_SexSlave2
+\PLF\prf\c[4]Guard：\c[0]    Disgusting, it stinks, move along.
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     How humiliating...
+
+GateGuard/enter_wisdom_win_SexSlaveRuined1
+\PLF\c[4]Guard：\c[0]    Spread your legs you little shit, let's see if your fuckhole is still passable.
+\m[sad]\plf\PRF\c[6]Lona：\c[0]     Nngh... Yes Sir.
+
+GateGuard/enter_wisdom_win_SexSlaveRuined2
+\PLF\prf\c[4]Guard：\c[0]    Whoa, what a grimy cunt! Get out of my sight!
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     Yes Sir! Sorry Sir!
+
+GateGuard/enter_wisdom_win_moot
+\PLF\c[4]Guard：\c[0]    All right, everything seems to be in order here. Move along, hurry!
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]     Phew... He believed it!
+
+GateGuard/enter_failed
+\PLF\c[4]Guard：\c[0]    Stay back! We guards have to deal with vagrants like you every single day!
+
+GateGuard/enter_passport_NoDir
+\prf\c[4]Guard：\c[0]    Alright, you may pass.
+
+GateGuard/enter_failedDirt1
+\PLF\Lshake\c[4]Guard：\c[0]    Beggars are not allowed here! Go away, shoo!
+
+GateGuard/enter_failedDirt2
+\narr Lona looks too dirty...
+
+####################################################### 諾爾鎮外
+
+GateGuardOuta/enter_LowMorality
+\prf\c[4]Guard：\c[0]    We know you! Criminal scum! You're not welcomed here!
+
+GateGuardOuta/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Lona：\c[0]    Ehhh?!
+
+GateGuardOuta/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Lona：\c[0]   Damn!
+
+GateGuardOuta/enter_failed_gloomy
+\m[sad]\plf\PRF\Rshake\c[6]Lona：\c[0]    Sorry...
+
+GateGuardOuta/enter_failed_slut
+\m[flirty]\plf\PRF\Rshake\c[6]Lona：\c[0]    Okay...
+
+####################################################### DEEPONE UNIQUE
+
+GateGuard/LonaIsTrueDeepone
+\narr The guards begin to go crazy with lust and sexual desires at the sight of the young Sea Witch...
+They lost any sense of reason and being to hunt down Lona, with the intent of copulating with the monster girl...
+
+#Translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

@@ -1,0 +1,125 @@
+UniquePigBobo/CompData
+\board[Бобо]
+\C[2]Позиция：\C[0]Фронт
+\C[2]Стиль боя：\C[0]Ближний бой
+\C[2]Фракция：\C[0]Животные
+\C[2]Вражда с：\C[0]Нейтральный и настраиваемый
+\C[2]Требование：\C[0]Лона должна быть \C[4]влажной\C[0] внизу
+\C[2]Длительность：\C[0]2 дня
+\C[2]Особенность：\C[0]Не возродится после смерти
+\C[2]Примечание：\C[0]Если у Лоны есть черта \C[4]Проститутка\C[0] и/или \C[4]Нимфоманка\C[0], она может спариться с Бобо, чтобы увеличить продолжительность его компаньонства.\n
+\n
+Бобо - ценный племенной хряк, получивший множество «Свиных наград» в Сибарисе.
+Его рост и размер члена в несколько раз больше, чем у обычного хряка.
+Похоже, он считает, что Лона - свиноматка, и очень хочет спариться с этим очаровательным и худеньким поросенком! ♥
+
+UniquePigBobo/begin
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,4]\c[4]Бобо：\C[0]    Хрю *Хрюк* ХРЮ! ♥ ХРЮЮЮ! ♥♥♥
+
+UniquePigBobo/Comp_disband
+\SETpl[BoboNormal]\Lshake\SndLib[SwineDed]\CBid[-1,5]\c[4]Бобо：\C[0]    Хрюю!!!!
+
+UniquePigBobo/Comp_win
+\SETpl[BoboYell]\Lshake\SndLib[SwineAtk]\CBid[-1,20]\c[4]Бобо：\C[0]    \{ХРЮ~~~♥♥♥
+
+UniquePigBobo/Comp_failed
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,8]\c[4]Бобо：\C[0]    *Хрюк*... *Хрюк*...
+
+UniquePigBobo/Extension0_k0_NotMated
+\SETpl[BoboYell]\plf\narrOFF\CBct[2]\m[confused]\Rshake\c[6]Лона：\C[0]    Ч-Что ты пытаешься сделать?
+\SETpl[BoboYell]\plf\BonID[-1]\CBct[6]\m[flirty]\Rshake\c[6]Лона：\C[0]    Мерзость! Не нюхай меня там!
+
+UniquePigBobo/Extension0_k0_MatedB4
+\SETpl[BoboYell]\plf\narrOFF\CBct[1]\m[shocked]\Rshake\c[6]Лона：\C[0]    Ты... Хочешь снова?!
+
+UniquePigBobo/Extension0_k1
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr Оглушительные визги Бобо эхом разносятся в воздухе, выражая его желание спариться с милой маленькой свинкой, стоящей перед ним.
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr Вы уверены? Бобо довольно большой... и, конечно, не умеет быть нежным...
+
+UniquePigBobo/Extension1
+\SETpl[BoboYell]\plf\CBct[6]\m[shy]\plf\c[6]Лона：\C[0]    Ох.....
+
+UniquePigBobo/Extension2
+\SETpl[BoboYell]\plf\CBct[6]\m[fear]\plf\c[6]Лона：\C[0]    Хороший мальчик... Иди сюда...~ ♥
+
+UniquePigBobo/Extension3_loop
+\SETpl[BoboYell]\Lshake\SndLib[pigQuestion]\CBid[-1,5]\c[4]Бобо：\C[0]    Хрюю ♥♥ Уйй ♥♥♥♥
+\narr Постоянные оргазмы и эякуляции Бобо продолжаются...
+
+UniquePigBobo/OvermapPop0
+Хрюю~~~♥♥♥
+
+UniquePigBobo/OvermapPop1
+ХРЮ! ХРЮ! ХРЮЮЮ!!
+
+UniquePigBobo/SetupFateEnemy
+Установите цели Бобо. \optD[Восстановить,Нападение на врага,Нападение на друга,Животные<r=HiddenOPT0>,Оркоиды<r=HiddenOPT1>,Рыболюди<r=HiddenOPT2>,Демоны Плоти<r=HiddenOPT3>,Нежить<r=HiddenOPT4>]
+
+UniquePigBobo/OMbegin
+\narr\SndLib[SwineDed]Издалека доносился вой свиней\..\..\..
+
+#################################################################################################################################################### BanditCamp2
+
+PigBoboQu0/begin0
+\CBct[6]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]Лона：\C[0]    !!!!!!!!
+
+PigBoboQu0/begin1
+\CBct[20]\SETpl[BoboYell]\Lshake\m[bereft]\Rshake\c[6]Лона：\C[0]    НЕТ! П-Пожалуйста, не ешь меня!
+
+PigBoboQu0/begin2
+\narr Бобо начинает нежно зализывать раны Лоны...
+
+PigBoboQu0/begin3
+\CBct[8]\m[fear]\PRF\c[6]Лона：\C[0]    \..\..\..\m[tired] С-Спасибо..?
+
+PigBoboQu0/begin4
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    Оуу...
+\narr Бобо использует свои зубы, чтобы сорвать оковы с Лоны...
+
+PigBoboQu0/follower_0
+\CBct[8]\SETpl[BoboNormal]\plf\m[confused]\PRF\c[6]Лона：\C[0]    Что......? Что ты хочешь от меня?
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\prf ....
+\CBid[-1,20]\SETpl[BoboNormal]\plf\SndLib[SwineAtk]\.\.\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    \..\..\..Ты хочешь чтобы я пошла за тобой?
+
+PigBoboQu0/follower_1
+\board[Побег!]
+Задача：Сбежать отсюда
+Награда：Нет
+Клиент：Бобо
+Повторяемость：Одноразовое
+Бобо испытывает симпатию к очаровательной свинке и хочет ей помочь.
+Бобо знает, что он и этот милый поросенок должны быть вместе! Но сначала им обоим нужно вырваться из лап злых безволосых обезьян.
+Как только они окажутся на свободе и снова будут вместе, Бобо и эта свиноматка будут много раз спариваться под лунным светом и создадут семью, а она родит им множество поросят!
+К сожалению, глупый Бобо не знал, что эта «свиноматка» не сможет зачать ни одного из его поросят и создать счастливую семью...
+
+PigBoboQu1/accept0
+\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    Хорошо.....
+
+PigBoboQu1/accept1
+\CBct[20]\SETpl[BoboNormal]\m[shocked]\Rshake\c[6]Лона：\C[0]    !!!!!!!!
+\CBct[20]\SETpl[BoboNormal]\m[triumph]\PRF\c[6]Лона：\C[0]    Спасибо...?
+
+PigBoboQu1/ExitFailedQmsg
+Бобо должен быть ближе к выходу.
+
+PigBoboQu1/ExitEnd0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    За ней! Не дайте этой суке уйти!
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    !!!!
+
+PigBoboQu1/ExitEnd1
+\narr Бобо уставился на поросенка, его глаза говорили ей, что он не позволит этим проклятым безволосым обезьянам поймать её.
+\narr Этим двоим суждено встретиться снова...
+\narrOFF\CBct[8]\m[tired]\PRF\c[6]Лона：\C[0]    ......
+
+PigBoboQu0/WhenPlayerNotCap0
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Какой большой поросёнок!
+
+PigBoboQu0/WhenPlayerNotCap1
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]Лона：\C[0]    ЧТО-?! Ч-Что ты делаешь? Отпусти меня!
+
+PigBoboQu0/WhenPlayerNotCap2
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]Лона：\C[0]    Я ненавижу это! Пожалуйста! П-Перестань лизать меня!
+
+PigBoboQu0/WhenPlayerNotCap3
+\CBct[8]\SETpl[BoboYell]\plf\m[confused]\PRF\c[6]Лона：\C[0]    Что происходит....?

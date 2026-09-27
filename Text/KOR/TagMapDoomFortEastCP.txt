@@ -1,0 +1,104 @@
+thisMap/OvermapEnter
+동부 초소\optB[그만둔다,들어간다]
+
+############################################################################### Quest Begin
+
+CPofficer/overrunning_begin0
+\CBmp[cpSGT,2]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 너 여기서 뭐 하는 거야?!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 어?! 뭐라고???
+\CBmp[cpSGT,1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 우리는 지금 공격받고 있다! 여긴 위험하니까 민간인은 얼씬도 마! 어서 꺼져!
+\CBct[2]\m[terror]\plf\Rshake\c[6]로나：\c[0] 네!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 잠깐!
+\CBct[2]\m[wtf]\plf\Rshake\c[6]로나：\c[0] 어?! 또 왜요?!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 이대로 가면 못 버틴다! 너! 빨리 \c[4]종말 요새\c[0]에 가서 지원을 요청해라!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 우리가 버티지 못할 거라고 전해! 지금! 당장!
+\CBct[2]\m[terror]\plf\Rshake\c[6]로나：\c[0] 네!
+
+DFOfficer/overrunning_begin1
+\CBmp[cpSGT,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 음? 꼬마, 무슨 일이냐?
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 동부 초소가 흉물에게 공격받고 있어요!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 그쪽에서 저보고 지원을 요청하라고 했어요!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 동부 초소? 또야?
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 제기랄! 우리도 인원이 부족한데!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 너! 우리랑 같이 간다!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐? 제가요?!
+\CBmp[cpSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]보안관：\c[0] 빨리! 네 무기를 들어! 바로 출발한다!
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 저 그냥 지나가던 건데요...
+
+DFOfficer/overrunning_begin1_board
+\board[동부 초소]
+목표 : 동부 초소 방어
+보상 : 미정
+의뢰인 : 동부 초소 십인장
+동부 초소로 돌아가 병사들의 방어를 지원하라.
+
+CPofficer/overrunning_begin2
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 지원이 왔어요! 인원이 도착했어요!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 잘됐다! 정말 딱 맞춰 왔군!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 이제 반격할 때다!
+\CBmp[Cannon1,19]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 꼬마! 어서 가서 대포를 장전해라! 빨리!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네!
+
+CPofficer/overrunning_begin3_fireCannon
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 됐어요!!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 점화해! 당장!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 어? 조준은 안 해도 돼요?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 저 괴물들은 화약 냄새와 섬광을 무서워한다! 빨리!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네!
+
+CPofficer/overrunning_begin3_clearNarr0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 성공했다!
+\m[tired]\plf\PRF\c[6]로나：\c[0] 후...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 후방의 흉물이 겁을 먹었군. 놈들이 도망쳤다!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 남은 해충들도 쫓아내자!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 잠깐\..\..\.. 저건 뭐지?!
+\m[confused]\plf\PRF\c[6]로나：\c[0] 뭐가요?
+
+CPofficer/overrunning_begin3_clearNarr1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 이게 무슨 괴물이야?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 이쪽으로 와서 도와! 반드시 여길 지켜야 한다!
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 알겠어요!
+
+CPofficer/overrunning_begin4
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 우리가 이겼다! 살아남았어!
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 끝난 거예요?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 그래, 오늘도 하루를 더 버텼군.
+\m[tired]\plf\PRF\c[6]로나：\c[0] 후...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 네가 잘해줬지만, 줄 수 있는 건 별로 없다.
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 아... 괜찮아요...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 음\..\..\.. 그래! 이거 받아!
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에?
+
+CPofficer/overrunning_begin5
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 돈은 없지만, 무기는 많다.
+\m[triumph]\plf\Rshake\c[6]로나：\c[0] 감사합니다!
+
+CPofficer/InfoHere
+\CBct[2]\m[sad]\plf\PRF\c[6]로나：\c[0] 여기 무슨 일이 있었던 거죠?
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 먼저 그 초록 가죽의 잡놈들이었고, 그다음은 이 괴물들이었다.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] \c[6]흉물\c[0], 놈들은 멀리서도 시체 썩는 냄새가 진동한다.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 몸이 비정상적으로 빠르게 회복되고, 힘은 강하며 수까지 많다. 지금으로선 놈들을 효과적으로 막을 방법이 없다.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 이런 상황에서 우리가 얼마나 더 버틸 수 있을까...
+\CBct[2]\m[sad]\plf\PRF\c[6]로나：\c[0] .....
+
+CPofficer/QuestFailed
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]십인장：\c[0] 으아아악!
+\SETpr[Mreg_pikeman]\plf\PRF\c[4]병사：\c[0] 모두 빨리 도망쳐! 우리는 절대 못 버틴다!
+
+CPofficer/DuringQuprogQmsg
+서둘러!
+
+lona/WithAmmoQmsg0
+이미 탄약이 있음
+
+lona/WithAmmoQmsg1
+빨리 장전하라
+
+cannon/LoadedQmsg0
+장전 완료
+
+cannon/FiredQmsg0
+이미 발사함
+
+cannon/OOAQmsg0
+탄약 없음

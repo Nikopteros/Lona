@@ -1,0 +1,93 @@
+ThisMap/OmEnter
+\m[confused]受感染的廢屋\optB[算了,進入]
+
+###################################################################################    main
+
+Qprog8/RaidOnEast1
+\CBmp[guard4,20]\c[4]士兵：\c[0]    該死的混蛋！ 你憑什命令我們！
+\CBmp[guard1,20]\c[4]士兵：\c[0]    他死了?
+\CBmp[guard3,8]\c[4]士兵：\c[0]    不會動了？ 大概死透了吧？
+\CBmp[guard2,20]\c[4]士兵：\c[0]    這些混帳貴族活該！ 我家人死掉的時候他們又在哪裡？ 現在憑什麼要我們為他賣命？
+\CBmp[guard1,8]\c[4]士兵：\c[0]    現在怎麼辦？
+\CBmp[guard4,20]\c[4]士兵：\c[0]    向南逃！ 我聽說南方有群勇士設立了營地，他們正在招募人手，我們去加入他們。
+\CBmp[guard2,20]\c[4]士兵：\c[0]    好點子，但我們應該先離開這。
+\CBmp[guard3,20]\c[4]士兵：\c[0]    對，馬上！ 這鬼地方太恐怖了。
+
+Qprog8/RaidOnEast2
+\CBmp[guard4,2]\c[4]士兵：\c[0]    是誰！ 誰在那！
+
+Qprog8/RaidOnEast3
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃... 大家好，抱歉我來晚了。
+\CBmp[guard1,20]\prf\c[4]士兵：\c[0]    是怪物！ 我不想死阿！
+\CBct[20]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{吚啊啊啊！\}
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    怪物！？ 在哪？！
+
+Qprog8/RaidOnEast4
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    嚇？！
+\CBct[8]\m[shocked]\PRF\c[6]洛娜：\c[0]    又來？！
+
+Qprog8/RaidOnEast5
+\CBmp[guard3,20]\prf\c[4]士兵：\c[0]    等等，那是人！ 是女人！
+\CBmp[guard1,5]\prf\c[4]士兵：\c[0]    該死的小賤狗，妳做了什麼！ 快把路讓開！
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    我？ 我什麼也沒做，我才剛來到這而已！
+\CBmp[guard2,20]\prf\c[4]士兵：\c[0]    她知道我們做了什麼，宰了她！
+\CBct[6]\m[bereft]\Rshake\c[6]洛娜：\c[0]    對不起！ 不要殺我！
+\CBmp[guard4,20]\prf\c[4]士兵：\c[0]    等等！
+\CBmp[guard4,20]\prf\c[4]士兵：\c[0]    小鬼頭，妳知道怎麼離開這？
+\CBct[6]\m[fear]\PRF\c[6]洛娜：\c[0]    大概...吧...
+
+Qprog8/RaidOnEast6
+\CBmp[guard4,20]\prf\c[4]士兵：\c[0]    好，帶我們離開這。
+\CBmp[guard4,20]\prf\c[4]士兵：\c[0]    這樣一來我們就考慮不殺死妳。
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    嗚...
+
+Qprog8/RaidOnEast7
+\board[離開這]
+目標：離開這裡
+報酬：無
+委託主：士兵
+期限：單次
+士兵們要求洛娜帶他們利開這，不然等著她的只有死。
+
+Qprog8/RaidOnEast8
+\CBct[6]\m[fear]\PRF\c[6]洛娜：\c[0]    怎麼辦.....
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    總之順著路走吧...
+
+Qprog8/spotHive
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]洛娜：\c[0]    這裡發生了什麼事？
+\CBmp[Hive,19]\m[fear]\PRF\c[6]洛娜：\c[0]    這個巢穴已經被破壞了？
+\SETpl[Mreg_pikeman]\m[fear]\Lshake\prf\c[4]士兵：\c[0]    為什麼停下來了？ 快點帶路！
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]洛娜：\c[0]    是！
+
+
+Qprog8/spotHiveEnd0
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    是出口！
+
+Qprog8/spotHiveEnd1
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    可以放過我了嗎？ 我真的什麼都沒看到，我一到就看到他躺在地上了。
+\CBmp[guard1ST,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    閉嘴！ 那就不是都看到了？！
+\CBct[6]\m[terror]\plf\PRF\c[6]洛娜：\c[0]    對不起！ 不要殺我！
+
+Qprog8/spotHiveEnd2
+\CBmp[guard1ST,20]\c[4]士兵：\c[0]    你怎麼看？
+\CBmp[guard2ST,20]\c[4]士兵：\c[0]    一不作二不休，我們必須宰了她。
+\CBmp[guard1ST,20]\c[4]士兵：\c[0]    帶她一起離開，然後賣給奴隸商人怎樣。
+
+Qprog8/spotHiveEnd3
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]百夫長：\c[0]    成功了？你們把巢穴毀掉了？
+
+Qprog8/spotHiveEnd4
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    是的！ 騎士大人，我成功的討罰了這些噁心的怪物！
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    太好了，我身為受過嚴格訓練的騎士，居然會被魔物偷襲，還昏了過去。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    真是太丟臉了。
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    大人，我們回去吧。 回程的路上我會與您解釋這裡發生的事情。
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    請不要相信那個小婊子，她除了逃跑外什麼都沒做，女人還能幫上什麼忙？
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    這樣啊。
+\CBct[19]\m[fear]\PRF\c[6]洛娜：\c[0]    呃...
+
+Qprog8/spotHiveEnd5
+\narr\..\..\..
+\narrOFF\SETpl[Mreg_pikeman]\Lshake\c[4]士兵：\c[0]    喂！
+\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    \{是！\}
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    小婊子，你敢說出去妳就死定了知道嗎？
+\m[terror]\plf\PRF\c[6]洛娜：\c[0]    我知道了...

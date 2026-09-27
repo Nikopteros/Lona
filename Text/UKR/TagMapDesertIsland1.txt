@@ -1,0 +1,138 @@
+thisMap/Enter
+\m[confused] Пустельний острів \optB[Скасувати,Увійти]
+
+########################################################## Capture begin
+
+OPevent/0
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,40,4]\BonMP[RngGuy1,3]\SETpr[raper1]\Rshake\c[4]Біженець:\C[0] Ах ах ах ♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpr[raper2]\Rshake\c[4]Біженець:\C[0] Ох ох ох ♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] \{Звали звідси!!
+
+OPevent/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\Bon[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] .....
+
+OPevent/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] Це.
+
+OPevent/3_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] \{Це ЖІНКА!
+
+OPevent/4_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] Слава Святому! Святий повернув її до життя!
+
+OPevent/5_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] Гей, хлопці! Вистачить шаробитись по окрузі!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] \{Це ЖІНКА!
+
+OPevent/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] \{Це ВОНА!
+
+OPevent/4
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] Мабуть, Святий почув наш поклик!
+
+OPevent/5
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]Біженець:\C[0] Він повернув \c[6]Лону\C[0]!
+
+OPevent/6
+\SFXfile[Cursor2]\SFXset[50,25,1]\BonMP[RngGuy1,2]\SETpr[raper_group]\Rshake\c[4]Біженець:\C[0] Що?!
+
+OPevent/7_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\prf\c[4]Біженець:\C[0] Ти сказав «жінка»?
+
+OPevent/7
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpR[raper2]\plf\Rshake\c[4]Біженець:\C[0] Ти сказав \c[6]«Лона»\C[0]?
+
+OPevent/8
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,3]\SETpl[raper1]\Lshake\prf\c[4]Біженець:\C[0] Це жінка?!
+
+OPevent/9
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\c[4]Біженець:\C[0] Спочатку допоможіть їй зцілитися! Швидко! Ми не можемо дати їй знову вмерти!
+
+FirstRape/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\PRF\c[6]Лона:\C[0] Ооохх... Де...?
+\SFXfile[Cursor2]\SFXset[50,25,4]\CBmp[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]Біженець:\C[0] Вона прокинулася! Пусти мене першим!
+
+FirstRape/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[hurt]\plf\Rshake\c[6]Лона:\C[0] Ах?!
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[pain]\plf\Rshake\c[6]Лона:\C[0] Зачекайте... Діти...
+
+FirstRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]Біженець:\C[0] Дірка моя ♥
+
+FirstRape/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper3]\Lshake\c[4]Біженець:\C[0] Ось так, поїхали ♥
+
+FirstRape/3_1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[p5sta_damage]\plf\Rshake\c[6]Лона:\C[0] Аа.. АааА?!!!
+
+########################################################## first time wake up
+
+Wakeup/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\Rshake\c[6]Лона:\C[0] Що це за...?
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[sad]\plf\Rshake\c[6]Лона:\C[0] Чому всі люди збожеволіли?
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\Rshake\c[6]Лона:\C[0] Мені потрібно вибиратися звідси.
+
+########################################################## DailyFree
+
+WakeRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]Біженець:\C[0] Ну все.♥ Я зголоднів.♥ Час трапези.♥
+
+WakeRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]Біженець:\C[0] Жінки краще.♥ Їх настільки приємніше трахати.♥
+
+WakeRape/0_2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]Біженець:\C[0] Хто я? Де це? Що я роблю?
+
+########################################################## daily celebrity
+
+celebrity/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]Лона:\C[0] Аах...
+
+celebrity/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]Біженець:\C[0] Слава Святим за те, що вони воскресили наш живий туалет!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]Біженець:\C[0] Ми з усім старанням насолодимося кожною дірочкою в її тілі!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]Біженець:\C[0] Спасибі Святому ♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]Біженець:\C[0] Хвала Святому ♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,4]\SETpl[raper1]\Lshake\c[4]Біженець:\C[0] Закінчуйте ваші молитви швидше! Я не можу більше стримуватись!
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]Біженець:\C[0] Побратими! Давайте ж насолодимося нею!
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]Лона:\C[0] Зачекайте...Що?!
+
+########################################################## NapRape
+
+NapRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Біженець:\C[0] Хехехе.... М'ясна дірочка...
+
+NapRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Біженець:\C[0] Жінка! Наша жінка!
+
+NapRape/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Біженець：\C[0] Мій хуй як кам'яний.
+
+NapRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Біженець:\C[0] Я збираюся знову... не можу більше стримуватися...
+
+NapRape/angry
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]Біженець:\C[0] Досить чинити опір!! Чому ти не даєш себе ебати?
+
+########################################################## Qmsg
+
+Qmsg/0
+Де ж я? Що ми тут робимо?
+
+Qmsg/1
+Мій член такий твердий...
+
+Qmsg/2
+Ти жінка?
+
+Qmsg/3
+Хочу трахнути жінку...
+
+Qmsg/Child0
+У мене дупа не закривається
+
+Qmsg/Child1
+Хочу трахнути дірку з м'яса.
+
+Qmsg/Child2
+Ця квітка незадовільна.

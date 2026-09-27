@@ -1,0 +1,678 @@
+
+
+##################################################################### cOMMON ###############################################################################
+BirbMaskedLona/Qmsgpop0
+Можешь не подражать мне?
+
+BirbMaskedLona/Qmsgpop1
+Сними эту дурацкую маску!
+
+BirbMaskedLona/Qmsgpop2
+Не кради мой образ! Это моя фишка!
+
+BirbMaskedLona/Qmsgpop3
+Прекрати! Сними маску!
+
+BirbMaskedLona/Qmsgpop4
+Я сейчас разозлюсь! Очень-очень разозлюсь!
+
+##################################################################### Quest line Orc hunt ###############################################################################
+
+tar/Failed_enter
+Условия не выполняются.
+
+OrkindResearch1/QmsgPop0
+Быстрее! Идём в
+
+OrkindResearch1/QmsgPop1
+Поторопимся! Идём в
+
+OrkindResearch1/QmsgPop2
+Мы должны добраться до
+
+OrkindResearch1/begin0
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Мисс, подождите! У меня есть для вас интересная работёнка. Не желаете мне помочь?
+\CamCT\m[confused]\plf\c[6]Лона：\C[0]    А? А что нужно?
+\CamMP[elise]\BonMP[elise,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Мне нужно отправиться на север, но всё вокруг населено бандитами и оркоидами!
+\CamMP[elise]\BonMP[elise,7]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Я хотел нанять несколько наёмников для защиты, но сейчас в Гильдии никого не осталось...
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Я тороплюсь! Я могу нанять вас, мисс? Я обязательно хорошо вам заплачу.
+
+
+######################################################################## Orkind Resreach ################################################################################################
+
+OrkindResearch1/begin1
+\CamCT\board[Изучение Оркоидов]
+Место：Лес на севере
+Награда：Большой Медяк х3\i[582]
+Клиент：Элис
+Срок выполнения：5 дней
+Сопроводите Элис и помогите ему исследовать среду обитания Оркоидов.
+Леса к северу полны Гоблинов, это хорошее место для проведения исследований.
+
+OrkindResearch1/begin2
+\m[confused]Принять задание? \optB[Отказать,Принять]
+
+OrkindResearch1/begin2_No
+\CamCT\m[flirty]\plf\c[6]Лона：\C[0]    Я не могу, я сейчас занята.
+\CamMP[elise]\BonMP[elise,6]\SETpl[Mteen_elise_sad]\c[4]Элис：\C[0]    Вот дерь... Кхм, вон оно как...
+\CamCT\m[flirty]\plf\c[6]Лона：\C[0]    Простите.
+
+OrkindResearch1/begin2_Yes1
+\CamCT\m[normal]\plf\c[6]Лона：\C[0]    Звучит вроде не сложно, я согласна.
+\CamCT\BonMP[elise,20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Элис：\C[0]    Ха-ха! Отлично!
+
+OrkindResearch1/begin2_Yes2
+\SETpl[Mteen_elise_masked]\PLF\prf\Lshake\c[4]Элис：\C[0]    Пойдём! Пойдём!!!
+
+theTree/OvermapEnter
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Воняет так, будто поблизости оркоиды! Точно! Мы уже близко! Быстрей!!!
+\m[confused]\plf\PRF Место исследований Элис \optB[Отмена,Войти]
+
+RecQuestElise2/DrinkWater
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Это нужное место! Подойди сюда!
+\m[confused]\CamCT\plf\PRF\c[6]Лона：\C[0]    Что же такого особенного в этом месте?
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Разве ты не чувствуешь этот запах? Оркоиды были здесь совсем недавно.
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Сначала тебе нужно выпить это!
+\m[shocked]\CamCT\plf\Rshake\c[6]Лона：\C[0]    Что это? А если это отравлено?!
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Это просто вода! Обычная вода! Ну же, пей скорей! \optD[Пить,Отказаться...]
+
+RecQuestElise2/optNo
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    \{КАТИСЬ К ЧЁРТУ! ПРОСТО, БЛЯТЬ, СДОХНИ!!!
+\m[shocked]\CamCT\plf\Rshake\c[6]Лона：\C[0]    Ч-что?!
+
+RecQuestElise2/DrinkWater_optYes
+\m[flirty]\CamCT\plf\PRF\c[6]Лона：\C[0]    Хорошо... Я тебе верю.
+\narr\SndLib[sound_drink3]\ph\..\..\SndLib[sound_drink2]\..\..\SndLib[sound_drink3]
+\narrOFF\CamMP[elise]\BonMP[elise,2]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Уже хочется в туалет? Выпей ещё!
+\m[flirty]\CamCT\plf\PRF\c[6]Лона：\C[0]    Эмм, что?
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    ПЕЙ ЕЩЁ! ЖИВО!
+\narr\SndLib[sound_drink3]\ph\..\..\SndLib[sound_drink2]\..\..\SndLib[sound_drink3]
+\narrOFF\CamMP[elise]\BonMP[elise,2]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ну, а теперь как?! Хочется писать?
+\m[sad]\CamCT\plf\PRF\c[6]Лона：\C[0]    Эмм... Что ты пытаешься сделать...?
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ещё глоточек! Пей! Пей!! ГЛОТАЙ!!!
+\m[shy]\CamCT\plf\PRF\c[6]Лона：\C[0]    Оооххх...
+\narr\SndLib[sound_drink3]\ph\..\..\SndLib[sound_drink2]\..\..\SndLib[sound_drink3]
+\narrOFF\m[sad]\CamCT\plf\PRF\c[6]Лона：\C[0]    Пожалуйста, не надо больше... Теперь я правда хочу писить...
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Яху!~ Отлично!
+
+RecQuestElise2/DoPeePee
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Мисс, наконец, готова?
+\m[fear]\CamCT\plf\PRF\c[6]Лона：\C[0]    Готова к чему?
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Чтобы пописять, конечно! Скорей! Попись здесь!
+\m[shocked]\CamCT\plf\Rshake\c[6]Лона：\C[0]    Что ты...
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    \{ЖИВО СЕЛА И НАССАЛА ЗДЕСЬ!!! \optD[Помочиться,Отказаться...]
+
+RecQuestElise2/DoPeePee_OptYes
+\m[terror]\CamCT\plf\Rshake\c[6]Лона：\C[0]    Ладно-ладно! Я сейчас! Просто...!
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Отлично! Быстрее! Давай уже писяй!!
+\m[bereft]\CamCT\plf\Rshake\c[6]Лона：\C[0]    Н-Не смотри на меня пока я делаю это!
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Я добавлю ещё 1 большой медяк сверху! Писяй сейчас же! ЖИВО!!!
+\m[shy]\CamCT\plf\PRF\c[6]Лона：\C[0]    Ммммфффф...
+
+RecQuestElise2/DoPeePeeExt1
+\m[sad]\CamCT\plf\PRF\c[6]Лона：\C[0]    ...Я н-не могу это сделать в такой обстан...
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Прекрати пререкаться и писяй уже! Чего так, мисс, боиться?
+
+RecQuestElise2/DoPeePeeExt2
+\CamMP[elise]\BonMP[elise,3]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Мисс сделала это! Ты это сделала!
+\narr\SndLib[BadClap]\..\..\..\..
+\narrOFF\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ты станешь героиней, что спасла остров Ноэр!
+
+RecQuestElise2/DoPeePeeExt3
+\m[sad]\CamCT\plf\PRF\c[6]Лона：\C[0]    Уууф...
+
+RecQuestElise2/DoHide0
+\m[shy]\CamCT\plf\PRF\c[6]Лона：\C[0]    Так для чего всё это?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Мисс тоже из Сибариса, да?
+\m[flirty]\CamCT\plf\PRF\c[6]Лона：\C[0]    Эмм?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Когда наступала катастрофа, эти маленькие ребята всегда нападали на беженцев. Хочешь знать, почему?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Эти существа очень интересны! Все они выглядят совершенно по-разному, большие и маленькие.
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Знаешь ли ты, что на самом деле все они одного вида!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    От количества питательных веществ, поглощенных в материнской утробе, зависит их внешний вид, тип и размер.
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Эти маленькие милашки таки-и-ие потрясающие!
+\m[confused]\CamCT\plf\PRF\c[6]Лона：\C[0]    О чём ты вообще говоришь?
+
+RecQuestElise2/DoHide1
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Тсс! Глянь туда! Они уже здесь!
+\m[confused]\CamCT\plf\PRF\c[6]Лона：\C[0]    Что?
+\CamMP[GobFollower]\BonMP[GobFollower,20]\SETpr[goblin]\C[4]Оркоид：\C[0]    ПуЛи ПуМа! Бу Да!
+\CamMP[GobLeader]\BonMP[GobLeader,4]\SETpl[goblin_penis]\C[4]Оркоид：\C[0]    БуЧху Да-ах!
+
+RecQuestElise2/DoHide2
+\CamMP[peeTree]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ага! Я знал это, я был прав!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Только взгляни как им интересна твоя моча!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оркоидам? Моя моча?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Они пришли на запах твоей мочи.
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Разве беженцы вне города не подвергаются постоянным преследованием с их стороны?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    При этом они не собираются нападать, они просто хотят спариться!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Стража беспокоится об этом целыми днями, но почему бы не решить проблему, просто отправив к ним женщин?
+\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм, а это не перебор...?
+
+RecQuestElise2/DoHide3
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Погоди! Погоди...! А это что?
+\m[terror]\CamCT\plf\Rshake\c[6]Лона：\C[0]    Что это такое?!
+
+RecQuestElise2/DoHide3_1
+\CamMP[OrkindBaby]\BonMP[OrkindBaby,3]\C[4]Оркоид：\C[0]    Пулии Пулии! Трррхх Лулу ПуПууу!
+
+RecQuestElise2/DoHide4
+\CamMP[OrkindBaby]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Взгляни на это милое личико! Какая маленькая милашечка!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Я никогда раньше ещё не видел таких милых оркоидов! Я хочу его!
+\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Т-Ты сейчас серьёзно?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Я добавлю ещё 2 больших медяка сверху! Найди способ поймать его! Скорей!
+\CamCT\m[shocked]\plf\PRF\c[6]Лона：\C[0]    Как вообще можно считать оркоидов милыми...?
+
+RecQuestElise3/Qmsg
+Скорей, лови его!
+
+RecQuestElise4/GJ0
+\m[irritated]\plf\PRF\c[6]Лона：\C[0]    Попался!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ураа! Пойдём отсюда поскорее!
+
+RecQuestElise4/GJ1
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Нам не стоит здесь задерживаться! Выдвигаемся в Ноэр!
+
+RecQuestElise4/GJ_BOARD
+\CamCT\board[Эскорт Элис]
+Задача：Вернуться в Ноэр
+Награда：Большой Медяк х6\i[582]
+Клиент：Элис
+Условия：Нет
+Сопроводите Элис обратно в Ноэр.
+
+RecQuestElise4/Qmsg
+Поспешим в город.
+
+RecQuestElise4/ReturnQ0
+\CBfE[20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Элис：\C[0]    Дай! Дай!! А НУ БЫСТРО ДАЙ МНЕ РЕБЁНКА ОРКОИДА!!!
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Аай!! Ладно! Успокойся ты! Вот, держи!
+\CBfE[6]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Да! Да!! Ты ведь не навредила ему?!
+
+RecQuestElise4/ReturnQ1
+\CBfE[6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Малыш! Я так долго ждал тебя.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что такого особенного в этом малыше оркоида? Он просто выглядит немного больше...
+\CBfE[5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Брр! Почему до тебя всё никак не дойдёт?!
+\CBfE[20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Все человеческие дети внешне ничем не отличаются друг от друга.
+\CBfE[20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Но каждый ребенок оркоида по-своему уникален!
+\CBfE[20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Элис：\C[0]    Это все равно, что открывать подарок на Новый Год! Каждый полон сюрпризов и радости!
+\CBct[6]\m[flirty]\PRF\c[6]Лона：\C[0]    Хех... Да неужели?
+
+RecQuestElise4/ReturnQ2
+\CBfE[4]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Ладно! Вот твоя награда! С нетерпением буду ждать возможности снова поработать с тобой! ♥
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    \}А  я  вот ,  что - то   не  очень ...
+\CBfE[3]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Элис：\C[0]    Я тебя слышу.~ ♥
+
+############################################################################################### part 5
+
+RecQuestElise5/begin
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\c[4]Элис：\C[0]    Уходи!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аа?
+
+RecQuestElise5/end0
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Монстры? Мерзость?! Почему они здесь?!
+\CBct[20]\m[terror]\Rshake\c[6]Лона：\C[0]    Чёрная мгла начала поглощать и Ноэр?!
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\PLF\prf\c[4]Элис：\C[0]    Мисс, успокойтесь!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Быстрее, за мной! Нам нужно бежать!!
+
+RecQuestElise5/end1
+\CBmp[elise,20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Элис：\C[0]    \{УГОМОНИСЬ!!!
+
+RecQuestElise5/end2
+\CBct[8]\m[shocked]\PRF\c[6]Лона：\C[0]    ......
+\CBct[8]\m[fear]\SETpl[Mteen_elise_sad]\plf\PRF\c[6]Лона：\C[0]    ...?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]   Значит, это не чёрная мгла? Что тогда это?
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Элис：\C[0]    Ага! Мисс теперь успокоилась!
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Я заплатил гильдии, чтобы поймать несколько летучих мышей-мутантов для \c[4]углублённого\C[0] изучения.
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Но эти мелкие мерзавцы пытаются сбежать!
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Поэтому я направлю их жизни в лучшее русло!
+\CBmp[elise,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Почему они просто не могут понять?!
+\CBct[8]\m[confused]\SETpl[Mteen_elise_sad]\plf\PRF\c[6]Лона：\C[0]    Для изучения?
+\CBmp[elise,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Мисс! Вы ведь понимаете меня, правда? Я знаю, что понимаете! \optD[Думаю да,Эммм...]
+
+RecQuestElise5/end2_y
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ну...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Раз это для исследования, значит, мы делаем хорошие вещи... Верно?
+\CBmp[elise,3]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Ох, Мисс! Я знал, что вы меня поймёте!
+
+RecQuestElise5/end2_n
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Мммм...
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я не уверена, что понимаю, о чём ты говоришь...
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    ПРЕДАТЕЛЬНИЦА! ШЛЮХА!! ПРОСТО СДОХНИ!!!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Погоди! Стой!
+
+RecQuestElise5/Qmsg0
+Теперь это выглядит жалко...
+
+RecQuestElise5/Qmsg1
+Зубы всё ещё целы.
+
+RecQuestElise5/Qmsg2
+Оно больше не сможет летать
+
+############################################################################################### part 6
+
+RecQuestElise6/begin1
+\SndLib[sound_chs_buchu]\c[4]Элис：\C[0]    Ау! Аау! Ай! Ой!
+\SndLib[sound_chs_buchu]\c[4]Элис：\C[0]    Ааайй! *Всхлип* ААААЙЙ!!!
+\CBct[2]\m[shocked]\Rshake\c[6]Лона：\C[0]    Элис? Что случилось?!
+\SndLib[sound_chs_buchu]\prf\c[4]Элис：\C[0]    ОЙЙ ОООЙ АААЙ! Н-НЕ-!
+\SndLib[sound_chs_buchu]\prf\c[4]Элис：\C[0]    -Я НЕ МОГУ!
+\CBct[6]\m[fear]\Rshake\c[6]Лона：\C[0]    Да что происходит?! Ты меня пугаешь...!
+
+RecQuestElise6/begin2
+\SndLib[sound_chs_buchu]\c[4]Элис：\C[0]    Н-Не...! Не так сильно!
+\CBct[6]\m[terror]\Rshake\c[6]Лона：\C[0]    Ты в порядке? Что происходит?!
+
+RecQuestElise6/begin3
+\SndLib[sound_chs_buchu]\c[4]Элис：\C[0]    ООО ОООХ ААХХ! *Уфффф* Не могу больше! Я сейчас... Я...!
+\CBct[6]\m[bereft]\Rshake\c[6]Лона：\C[0]    Н-Не бойся...! Я рядом, я помогу!
+
+RecQuestElise6/begin4_1
+\CBmp[elise,20]\SETpl[Mteen_elise_fap]\Lshake\prf\c[4]Элис：\C[0]    Н-Не-! Не соси так сильно!!
+
+RecQuestElise6/begin4_2
+\CBmp[elise,20]\SETpl[Mteen_elise_fap]\Lshake\prf\c[4]Элис：\C[0]    ОооОООХХХ!~
+
+RecQuestElise6/begin4_3
+\CBmp[elise,20]\SETpl[Mteen_elise_fap]\Lshake\prf\c[4]Элис：\C[0]    \{Кончаю! Я КОНЧАЮ!
+
+RecQuestElise6/begin5
+\CBct[6]\m[p5sta_damage]\plf\Rshake\c[6]Лона：\C[0]    КЬЯААА!!!
+\CBmp[elise,20]\SETpl[Mteen_elise_bat1]\Lshake\prf\c[4]Элис：\C[0]    А? Мисс, это вы?
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Что это...? Моё лицо всё в т-твоей...-
+\CBmp[elise,20]\SETpl[Mteen_elise_bat2]\Lshake\prf\c[4]Элис：\C[0]    -Прости-и-и! Я ещё тестирую \c[4]чувствительность\C[0] этой штуки.
+\CBmp[elise,20]\SETpl[Mteen_elise_bat1]\Lshake\prf\c[4]Элис：\C[0]    Кажется, с этим проблем нет!
+\CBct[8]\m[tired]\plf\Rshake\c[6]Лона：\C[0]    Ч-Что...?!
+
+RecQuestElise6/begin6
+\CBmp[elise,8]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Образец 23... Когда субъект увидел Лону, чувствительность возросла на 3... Общая чувствительность... 89!
+\CBct[5]\m[angry]\plf\Rshake\c[6]Лона：\C[0]    О чём ты, черт возьми, говоришь?!
+\CBmp[elise,8]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Ой... Прости!
+\CBmp[elise,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Мне очень жаль, Мисс, простите меня!
+\plf\PRF\..\..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ладно.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ну и что ты делаешь?
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Элис：\C[0]    У знати этого города разболелась голова из-за проблемы беженцев!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Но... Какое имеет это отношение к тебе?
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Изнасилования, грабежи, убийства - эти проблемы становятся все хуже и хуже с каждым днём.
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Даже если городские ворота будут закрыты, беженцы всё равно проскальзывают внутрь.
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Элис：\C[0]    Я должен найти решение для всего этого раз и навсегда!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эмм?
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Элис：\C[0]    Поэтому я предложил отрезать члены и кастрировать всех  мужчин-беженцев!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ...Ч-Чё?!
+
+RecQuestElise6/begin7
+\CBmp[elise,8]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Но дворянам не понравилась моя идея...
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я всё ещё не понимаю, при чём здесь монстры...
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Поправочка! Это мутировавшая летучая мышь!!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Отрежим ей крылья, вырвем зубы...! И у нас получится идеальная игрушка!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Тебе тоже стоит попробовать! Они продолжат прыгать вокруг, пока не потеряют слишком много крови!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Это ощущение просто невозможно описать словами! Это можно оценить только числами!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Я просто обязан поделиться этой информацией с беженцами!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Тогда все они будут вечно только мастурбировать! Я смогу остановить все изнасилования!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Ноэр снова станет безопасным!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Мммм\..\..\.. Лааадно\..\..\..
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Элис：\C[0]    О! Точно!!
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Элис：\C[0]    У меня есть важное задание и мне нужна твоя помощь!
+\CBct[8]\m[confused]\SETpl[Mteen_elise_sad]\plf\PRF\c[6]Лона：\C[0]    Хммм?
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Я скоро отправлюсь на \c[6]остров Рыбополис\C[0]! И, мне понадобится телохранитель!
+\CBmp[elise,20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Элис：\C[0]    Ты единственная, кому я могу доверять! Ты должна отправиться со мной!!
+\CBct[8]\m[flirty]\SETpl[Mteen_elise_happy]\PRF\c[6]Лона：\C[0]    Хорошо, только позволь мне для начала умыться...
+
+##################################################################### Quest line FishKind ###############################################################################
+
+FishResearch1/Qmsg
+Отправляемся в Рыбополис!
+
+FishResearch1/begin0
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Мне надо добраться до острова Рыбополиса! Там нужно проделать кое-какую важную работу!
+\CBmp[elise,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Но... Ты ведь знаешь, кто такие рыболюди. Они не очень дружелюбны к чужеземцам и посторонним...
+\CBmp[elise,7]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Вот почему мне нужен телохранитель! И ты - единственный кандидат, который подходит под мои стандарты!
+\CBct[8]\m[flirty]\plf\c[6]Лона：\C[0]    Оу...?
+
+FishResearch1/begin1
+\CamCT\board[Изучение Рыболюдей]
+Задача：Рынок на острове Рыбополис
+Награда：Большой Медяк х6\i[582]
+Клиент：Элис
+Срок выполнения：5 дней
+Помогите Элис с исследованием и изучением культуры расы Рыболюдей.
+Отправьтесь в Порт Ноэра и доберитесь до рынка на острове Рыбополис.
+
+FishResearch1/begin2
+\m[confused]Мне принять задание? \optB[Отклонить,Принять]
+
+FishResearch1/NoerDockSP
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Элис：\C[0]    Не беспокойтесь о расходах, Мисс! Я обо всём позабочусь! В путь!!!
+\CBct[8]\m[flirty]\plf\c[6]Лона：\C[0]    Ладно...?
+
+FishResearch1/8_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Элис：\C[0]    Ах-ха! Остров Рыбополис! Наконец-то я прибыл!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Почему тебе так хотелось сюда приехать?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Кроме постоянной вони тухлой рыбы, я не вижу ничего особенного в этом месте...
+
+FishResearch1/8_begin2
+\CBfE[5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Мисс! Вы не понимаете?! Брр... Ну почему опять НЕ ПОНИМАЕТЕ...?!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    В прошлом люди знали об этом месте только по книгам!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    А теперь, я смогу лично наблюдать за их загадочной репродуктивной системой!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Вскоре, я получу неизведанного ребёнка рыбочеловека в свои руки! Ещё одно прекрасное дополнение к моей коллекции!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Мммм... Вон оно что.
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ну, теперь понимаешь!
+
+FishResearch1/8_begin3
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Элис：\C[0]    \..\..\..
+\CBmp[EliseQP0,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Что это? Сходи и проверь это!
+
+FishResearch1/9_begin1
+\CBfE[2]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Так это и есть легендарная Морская ведьма?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ха-ха! Она така-а-ая красивая!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ...Ты правда так думаешь?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Она - Морская богиня! Мать всех водных созданий! Морская ведьма! Мы восхищаемся Морской ведьмой!
+
+FishResearch1/9_begin2
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Элис：\C[0]    \..\..\..
+\CBmp[EliseQP1,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Что это там? Иди и проверь!
+
+FishResearch1/10_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Оой! А они и правда, по-настоящему ненавидят нас!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Но все в порядке! Меня пригласили в качестве гостя, ведь я доктор! И я здесь, чтобы помочь этим бедным рыбкам!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Элис правда о-о-очень потрясающий и милый!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    А? Тебя сюда пригласили?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Верно! У меня есть связи с кое-какой важной рыбой здесь! С БОЛЬШОЙ РЫБОЙ!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Он даже готов поделиться со мной магией своего вида!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ух ты...
+
+FishResearch1/10_begin2
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Элис：\C[0]    \..\..\..
+\CBmp[EliseQP2,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Это что за фигня? Мисс, сходите и проверьте!
+
+FishResearch1/11_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ого! Ничего кроме рыбной вони!
+\CBct[2]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Фе-е...
+
+FishResearch1/11_begin2
+\CBfE[5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Противно?! Тебе не стоит так себя вести! Вся рыба здесь, может помочь обеспечить Ноэр свежими продуктами!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э... Прости?
+
+FishResearch1/11_begin3
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Когда я убегал из Сибариса, мне вообще было нечего есть!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    И если бы местные рыболюди не снабжали Ноэр рыбой, мы бы все умерли с голоду! Мы должны быть благодарны им!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ой...
+
+FishResearch1/11_begin4
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Элис：\C[0]    \..\..\..
+\CBmp[EliseQP3,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Мисс! Что это? Сходите туда и расскажите, что вы нашли!
+
+FishResearch1/12_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Понятно! Значит, они используют рабов для размножения!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    ......
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Все рыболюди здесь - дети Морской ведьмы, но среди них нет ни одной женщины!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Разве вы не находите это увлекательным?! Им нужно спариваться с самками совершенно другого вида!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ...Увлекательным?
+
+FishResearch1/12_begin2
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Разве это не заставляет задуматься? Оркоиды! Демоны плоти! Разве не видно, что у них есть кое-что общее?!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Правильно! Им всем нужна самка другого вида, чтобы размножаться и рожать детей!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Легенда гласит, что у рыболюдей есть и самки! Но мы их никогда не видели! Вам не кажется, что это стоит изучить?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ...Наверное?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Я знал, что Мисс меня поймёт!
+
+FishResearch1/12_begin3
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Элис：\C[0]    \..\..\..
+\CBmp[EliseQP4,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ладно! Пора уходить отсюда! Давайте поскорее встретимся с большой рыбой!
+
+############################################################
+
+FishResearch1/slaveBlock
+\CBmp[elise,8]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Элис：\C[0]    Гмм\..\..\..
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Элис：\C[0]    Кажется, вам надо подготовиться лучше.
+\narr Требуется снять оковы или клеймо рабыни, чтобы продолжить.
+
+FishResearch1/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж：\C[0]    Нарушитель...прочь...!
+
+FishResearch1/enter_view
+\SndLib[FishkindSmSpot]\cg[map_FishPPL]\c[4]Страж：\C[0]    Булькает!
+\narr Проход заполонён стражей.
+
+FishResearch1/enter_WithElise
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж：\C[0]    Кто идёт?!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ой...
+\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Предоставь это мне!
+\narr Элис что-то показал стражнику...
+\narrOFF\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж：\C[0]    Вы друзья \c[6]Шамана\C[0]...входите...!
+
+FishResearch1/13_begin1
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж：\C[0]    Стой... нельзя...!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Аа?
+
+FishResearch1/13_begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Шаман：\C[0]    Входи...! Друг мой...!
+
+FishResearch1/13_begin3
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Шаман：\C[0]    С этого дня... ты будешь... служить Морскорй ведьме!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Шаман：\C[0]    Друзья... все и каждый... попрощаемся!
+
+FishResearch1/13_begin4
+\CBmp[ManTransB4,20]\SndLib[FishkindLgSpot]\SndLib[FishkindLgSpot]\c[4]Рыбочеловек：\C[0]    Бульканье! Гур... гур... гур...!
+
+FishResearch1/13_begin5
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Шаман：\C[0]    Друг мой... Ты один из нас...! Мы будем помнить тебя...!
+
+FishResearch1/13_begin6
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Шаман：\C[0]    Прощай...друг мой...!
+
+FishResearch1/13_begin7
+\CBct[8]\m[shocked]\Rshake\c[6]Лона：\C[0]    Глубинный?! Он превратился в монстра?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Очаровательно! Изначально они похожи на людей! Затем постепенно превращаются в рыб!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    С возрастом они начинают терять рассудок. В конце концов они возвращаются в море и становятся слугами Морской ведьмы!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Это совершенно не похоже на любые другие расы!
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Как-то это грустно...
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Слишком много думаешь. Возвращение к морю, скорее всего, для них большая радость. В этом нет ничего грустного!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Понимаю...
+
+############################################################ ShamanDead
+FishResearch1/14_ShamanDead_begin1
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж：\C[0]    Бульк! Это была... она!
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Страж：\C[0]    Наверняка... она... убила Шамана!!!
+
+FishResearch1/14_ShamanDead_begin2
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    \{Что?!
+
+FishResearch1/14_ShamanDead_begin3
+\CBct[6]\m[bereft]\Rshake\c[6]Лона：\C[0]    Это не я. Это недоразумение!
+\CBfE[8]\SETpl[Mteen_elise_masked]\Lshake\c[4]Элис：\C[0]    Ах, какой неудачный поворот событий.
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж：\C[0]    Схватить... обоих...
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж：\C[0]    У него... Секрет... Шамана...
+\CBmp[Commoner1,20]\SndLib[FishkindLgSpot]\ph\c[4]Послушник：\C[0]    Это... женщина...?
+\CBmp[Commoner2,20]\SndLib[FishkindLgSpot]\ph\c[4]Послушник：\C[0]    В моём доме... не хватает рабов... размножаться...
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж：\C[0]    Она... убила Шамана... принесла жертву Прародителю...
+
+FishResearch1/14_ShamanDead_begin4
+\CBfE[4]\SETpl[Mteen_elise_masked]\Lshake\c[4]Элис：\C[0]    Кто бы мог подумать, что ты такая плохая, сестрёнка ♥
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я....
+
+FishResearch1/14_ShamanDead_begin5
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Страж：\C[0]    Прародители... мы приносим в жертву эту грешницу!
+
+FishResearch1/14_ShamanDead_begin6
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Элис：\C[0]    До скорого, сестрёка!
+
+############################################################
+
+FishResearch1/14_begin1
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Эм... Здрасьте?
+\CBmp[QuestGiver,2]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Чужоземцы...зачем вы здесь...?
+\CBfE[8]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Ах! Господин Большая Рыба! Спасибо вам за образец! Слава Морской ведьме!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Ты... человек... ведомый Морской ведьмой?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Иди за мной...!
+
+FishResearch1/14_begin2
+\CBmp[QuestGiver,2]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Итак... человек... что ты нашёл...?
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Ну! Это долгая история, но сначала взгляните на это!
+
+FishResearch1/14_begin3
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Это исследование, которое я провел о... \c[6]самках рыболюдей\C[0]...
+\CBmp[QuestGiver,2]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Этот текст... сбивает... меня с толку...
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Ааа! Я забыл. Виноват. Виноват.
+
+FishResearch1/14_begin4
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Ну, во-первых... Я могу подтвердить, что \c[6]самки рыболюдей\C[0] были лишены репродуктивной системы.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Это не естественное развитие. По крайней мере, по моим наблюдениям, ни один организм не развивается подобным образом.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Я подозреваю... эволюция рыболюдей была рукотворной!
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Существуют ли какие-нибудь легенды о размножении или самках среди рыболюдей?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Мой род происходит из...из чрева Морской ведьмы... разумный род...потомки Морской ведьмы...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Только Морская ведьма... может породить мой род...
+\CBfE[8]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    \..\..\..
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Существует только одна мать?
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Как у муравьёв?
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Самцы муравьёв?
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Но способны ли другие виды стать суррогатными матерями?
+\CBfE[9]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Ааа! Я понял! Так это и есть их замысел!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эээ... о чём ты говоришь?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Невежественная рабыня... молчать...
+\CBct[20]\m[serious]\plf\PRF\c[6]Лона：\C[0]    Я не рабыня!
+
+FishResearch1/14_begin4_1
+\CBfE[5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Замолчи! Ты раздражаешь!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Ой!
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    \..\..\..Простите.
+
+FishResearch1/14_begin5
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Человек... ты говорил о... зацепке... уточни...?
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Эти восхитительные создание, как демоны плоти и оркоиды имеют много общего с вашим родом.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Неспособность размножаться самостоятельно, поведение роя, однако способны использовать преимущества других оргазнизмов для размножения.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    В любом случае, у рыболюдей есть свои самки, но, кажется, они лишены своей репродуктивной системы - стерилизованы искусственно.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    В своих экспериментах я смог вызвать рост яичников испытуемых, стимулируя их экстрактами демонов плоти...
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Я верю, что при продолжении исследований рыболюдям скоро больше не понадобятся человеческие самки.
+\CBmp[QuestGiver,8]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    \..\..\..
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Мой вид... наконец-то сможет... у нас будут свои женщины?
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Да!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Великолепно... чудесно...
+\CBfE[4]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Элис：\C[0]    Я могу получить награду? Маленького рыбочеловечка! ♥
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Терпение... это произойдет... скоро...
+
+FishResearch1/14_begin6
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что?!
+
+FishResearch1/14_begin7
+\CBct[1]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Ай!! Больно!!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Отпусти... меня!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Заприте... мелкого!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Женщину... к алтарю...
+
+FishResearch1/14_begin8
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Морская ведьма... и Прародители... слышите нас...?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Новая жертва...!
+\CBct[20]\m[fear]\plf\Rshake\c[6]Лона：\C[0]    Что вы хотите со мной сделать?!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Она знает... все... секреты...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Мы должны... принести её в жертву... Морская ведьма... Прародители...
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Я ничего не знаю! Я вообще ничего не слышала!
+
+FishResearch1/14_begin9
+\CamMP[Swirl]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Шаман：\C[0]    Иди...
+\CamMP[Swirl]\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Нет!!!
+
+FishResearch1/14_begin10
+\narr Компаньон покинул группу
+\narr Лона теперь в розыске
+
+FishResearch1/15_begin1
+\CBct[14]\..\..\..
+\CBct[14]\m[hurt]\Rshake\c[6]Лона：\C[0]    Уух\..\..\..
+
+FishResearch1/15_begin2
+\CBct[2]\m[tired]\PRF\c[6]Лона：\C[0]    Что произошло?
+
+FishResearch1/15_begin3
+\CBct[2]\m[fear]\PRF\c[6]Лона：\C[0]    Где я?
+
+FishResearch1/15_begin4
+\CBct[20]\m[serious]\PRF\c[6]Лона：\C[0]    Нет! Мне нужно собраться!
+
+FishResearch1/15_begin5
+\CBct[20]\m[irritated]\Rshake\c[6]Лона：\C[0]    Я найду выход! \c[4]Элис\C[0] наверняка в ужасе! Я должна спасти его!
+
+FishResearch1/15_begin6
+\board[Побег]
+Найти способ выбраться и вернуться в Храм Торнов
+Спасти Элис!
+
+FishResearch1/15_begin7_enter
+\CBct[20]\m[irritated]\Rshake\c[6]Лона：\C[0]    Не нужно бояться! Я иду за тобой!
+
+FishResearch1/15_begin7_opt
+Разбудить его? \optB[Пока нет,Разбудить]
+
+FishResearch1/16_begin1
+\CBct[20]\m[shocked]\PRF\c[6]Лона：\C[0]    Ты в порядке??
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    О! Это ты, сестрёнка?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    \..\..\..
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Слушай! Эти мерзкие ублюдки обманули меня! Они совсем не хотели отдать мне своего ребёнка!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Иди и выпусти косяк вонючей рыбы по соседству, чтобы наказать их! Я требую мести!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Выпусти вонючих гуппи из соседней клетки, чтобы они покусали их в ответ! Я хочу отомстить!
+
+FishResearch1/16_begin2
+\board[Побег]
+Отвести Элис к выходу.
+
+FishResearch1/17_begin1_1
+\SETpl[Mteen_elise_masked]\Lshake\c[4]Элис：\C[0]    Что это?!
+\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что такое?!
+\CBmp[BB,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Какой очаровательный малыш!
+\CBmp[BB,19]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Чё?
+\CBmp[BB,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Он мне нужен! Я должен забрать его домой!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ты это серьезно?
+\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Сейчас не до шуток! Нам нужно валить отсюда!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ни за что! Сестрёнка! Я должен взять его с собой!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Если ты мне не позволишь, я закричу! И тогда весь рыбий род услышит это!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Ты умрешь! Я вот не умру! Я все ещё нужен им!
+\m[wtf]\plf\PRF\c[6]Лона：\C[0]    Ч-что?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    АааАаааАа!!!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    \..\..\.. Чё?
+
+FishResearch1/17_begin1_2
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    \{ААААААааААаа!!!
+
+FishResearch1/17_begin1_3
+\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Заглохни! Ладно! Я поняла! Пожалуйста, замолкни!
+\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я что-нибудь придумаю. Так что, пожалуйста, перестаньте кричать.
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]   Я знал, что ты заботишься обо мне, сестренка.♥
+\m[tired]\plf\PRF\c[6]Лона：\C[0]    Эх....
+
+FishResearch1/17_begin2_gotBB
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Отличная работа! Нам, пожалуй, пора уходить!
+
+FishResearch1/17_exit_failedQMSG
+Элис должен быть рядом, чтобы уйти
+
+FishResearch1/17_exit_failed
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Малыш! Ты не поймала мне малыша! Я сейчас буду кричать!
+\m[bereft]\plf\PRF\c[6]Лона：\C[0]    Заглохни! Ладно! Я знаю! Только, пожалуйста, замолкни!
+
+FishResearch1/17_exit_success
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Хи-хи-хи.... Милый малыш!
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Фу...
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Всё, возвращаемся в \c[4]Ноэртаун\C[0].
+
+FishResearch1/17_exit_success2
+\CamCT\board[Эскорт]
+Место：Ноэртаун
+Клиент：Элис
+Повторяемость：Одноразовое
+Сопроводите Элис в Ноэртаун.
+
+FishResearch1/17_End1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Дай мне! Отдай сейчас же малыша рыбочеловека!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Фу! Ладно!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Дай его мне! Я дам в десять раз больше монет, когда мы вернёмся! Быстрее!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    И-и-ик!!!
+
+FishResearch1/17_End2
+\CBfE[6]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Отлично... Это определенно идеальный рыбомалыш.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эх....
+
+FishResearch1/17_End3
+\CBfE[4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Отлично♥ Вот, держи♥ В моих глазах ты - самая настоящая героиня, сестренка♥
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    От разговоров с ним у меня начинает болеть голова...
+\CBfE[3]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Элис：\C[0]    Я всё слы-ы-ы-ышу♥

@@ -1,0 +1,214 @@
+thisMap/OvermapEnter
+Abandoned copper mining town.\optB[Leave,Enter]
+
+######################################################################################################
+
+GateOnGuard/Qmsg0
+impossible
+
+GateOnGuard/Qmsg1
+someone watching
+
+###################################################################################################### game over
+
+GameOver/begin0
+\C[4]BanditA：\C[0]    I recognize her! How dare this sow mess around!
+\C[4]BanditB：\C[0]    \{kill her! ! !\}
+
+GameOver/begin1
+\C[4]BanditA：\C[0]    What next?
+\C[4]BanditB：\C[0]    We keep the hands and feet, but feed the internal organs to\C[6]Bobo\C[0]?
+\C[4]BanditA：\C[0]    Good idea, just do it!
+
+GameOver/begin0_noBobo
+\C[4]BanditA：\C[0]    I recognize this sow! She was the one who came in to make trouble before!
+\C[4]BanditB：\C[0]    I do too! Is it her? ! \{kill her! ! !\}
+
+GameOver/begin1_noBobo
+\C[4]BanditA：\C[0]    What next?
+\C[4]BanditB：\C[0]    We keep the hands and feet, but the offal is for the dogs to eat.
+\C[4]BanditA：\C[0]    Good idea, just do it!
+
+######################################################################################################
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    It's a woman!
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What!? What are you going to do!?
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Bandit：\C[0]    Catch her!
+
+Wake/FirstRape0
+\CBmp[guard1,20]\C[4]Bandit：\C[0]    Boss, the bitch is sneaking around here.
+\CBmp[guard2,20]\C[4]Bandit：\C[0]    How to deal with her?
+
+Wake/FirstRape1
+\CBmp[Boss,8]\C[4]bandit leader：\C[0]    Bitch? Let me see...
+
+Wake/FirstRape2
+\CBmp[Boss,5]\C[4]bandit leader：\C[0]    Throw her to\C[6]Bobo\C[0].
+\CBmp[guard2,20]\C[4]Bandit：\C[0]    What?!
+\CBmp[guard1,20]\C[4]Bandit：\C[0]    It's a woman, at least let's have fun, shall we?
+\CBmp[Boss,20]\C[4]bandit leader：\C[0]    This is my kingdom! I tell what to do!
+\CBmp[Boss,5]\C[4]bandit leader：\C[0]    With such a dark complexion, the blood of this bitch is definitely polluted by all kinds of low animals.
+\CBmp[Boss,20]\C[4]bandit leader：\C[0]    Throw her to\C[6]Bobo\C[0], right now!
+\BonMP[guard1,20]\BonMP[guard2,20]\C[4]Bandit：\C[0]    Yes!
+
+Wake/FirstRape3
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\c[0]    Let me go, please!
+\CBmp[guard1,20]\prf\C[4]Bandit：\C[0]    Bitch! go in!
+
+Wake/FirstRape4
+\CBmp[guard1,20]\prf\C[4]Bandit：\C[0]    Boss is not interested in you.
+\CBmp[guard1,20]\prf\C[4]Bandit：\C[0]    Congratulations, you are going to be pigslop for \C[6]Bobo\C[0]!
+
+Wake/FirstRape5
+\CBct[2]\m[fear]\Rshake\c[6]Lona：\c[0]    \C[4]Bobo's\C[0]... pigslop?!
+
+Wake/FirstRape6
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    \{AIEEE-EEE-EEE! !\}
+
+Wake/FirstRape7
+\CBct[20]\m[bereft]\Rshake\c[6]Lona：\c[0]    I don't want to! Don't eat me! I don't want to die!
+
+Wake/FirstRape8
+\BonMP[guard1,20]\plf\BonMP[guard2,20]\prf\C[4]Bandit：\C[0]    Eat her!
+\CBct[8]\m[pain]\plf\Rshake\c[6]Lona：\c[0]    sob sob...
+
+Wake/FirstRape9
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]Lona：\c[0]    Don't smell me there....
+\SndLib[SwineSpot]\SETpl[BoboNormal]\plf\BonMP[Piggy,4]\m[p5shame]\Rshake\c[6]Lona：\c[0]    My meat is not safe for consumption!
+
+Wake/FirstRape10
+\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5crit_damage]\Rshake\c[6]Lona：\c[0]    AIEEEEE!\{Eee! !\}
+
+Wake/FirstRape11
+\CBmp[guard1,20]\prf\C[4]Bandit：\C[0]    What? !\C[6]Bobo\C[0]Actually fucked her? !
+\CBmp[guard2,20]\prf\C[4]Bandit：\C[0]    Go and call everyone! A miracle happened! The \C[6]Saint\C[0] was here!
+
+Wake/FirstRape12
+\CBmp[guard4,20]\plf\prf\C[4]Bandit：\C[0]    Strange, isn't it? It actually fucked this woman!
+\CBct[6]\m[hurt]\plf\Rshake\c[6]Lona：\c[0]    sob sob sob...
+
+Wake/FirstRape12_1
+\CBmp[guard1,20]\plf\C[4]Bandit：\C[0]    Hahahaha, this is super funny.
+\CBmp[guard1,20]\plf\C[4]Bandit：\C[0]    It seems\C[6]Bobo\C[0] treats her like a sow.
+
+Wake/FirstRape13
+\narr\C[4]Bobo's\C[0]penis penetrated\c[6]Lona's\c[0] womb, and kept constantly churning within.
+\narrOFF\SndLib[SwineSpot]\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]Lona：\c[0]    \{AIEEE! !\} It hurts! It hurts!
+
+Wake/FirstRape14
+\SndLib[SwineSpot]\SETpl[BoboNormal]\Lshake\BonMP[Piggy,4]\m[p5_cuming]\Rshake\c[6]Lona：\c[0]    \{Stop it! Stop it now!\}
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\BonMP[Piggy,4]\m[p5_cuming_ahegao]\Rshake\c[6]Lona：\c[0]    \{My stomach is going to burst!\}
+\narrright\C[4]Bobo\C[0]This ejaculation was only the beginning, and its orgasm lasted for a long, long time.
+
+Wake/FirstRape15
+\CBmp[Boss,8]\C[4]bandit leader：\C[0]    \...\...\...
+\CBmp[Boss,20]\C[4]bandit leader：\C[0]    It seems my\C[6]Bobo\C[0]Also thinks she is a sow.
+\CBmp[Boss,5]\C[4]bandit leader：\C[0]    Sure enough, the cheap whore is a disgusting sow.
+
+Wake/FirstRape15_1
+\C[4]Bandit：\C[0]    For the first time in my life I saw a bitch being fucked by a pig.
+\C[4]Bandit：\C[0]    So she's not a bitch, she's a sow!
+\C[4]Bandit：\C[0]    Let other people come and watch next time.
+
+Wake/FirstRape16
+\narr Lona lost consciousness amidst the jeers of the thieves.
+
+######################################################################################################
+
+RapeLoop/DailyJob1
+\BonMP[guard1,5]\C[4]Bandit：\C[0]    Sow, get up!
+\BonMP[guard2,5]\C[4]Bandit：\C[0]    \{Wake up quickly!\}
+
+RapeLoop/DailyJob2
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\c[0]    sob sob... What's wrong....
+
+RapeLoop/DailyJob3_Vag
+\CBmp[guard3,4]\C[4]Bandit：\C[0]    We're going to see how the sow mates with the boar♥
+
+RapeLoop/DailyJob3_Anal
+\CBmp[guard4,4]\C[4]Bandit：\C[0]    We want to see how sows do anal with boars♥
+
+RapeLoop/DailyJob3_Mouth
+\CBmp[guard3,4]\C[4]Bandit：\C[0]    We want to watch the sow blow the trumpet of the boar♥
+
+RapeLoop/DailyJob3_RimJob
+\CBmp[guard2,4]\C[4]Bandit：\C[0]    We want to see the sow lick the boar's asshole♥
+\CBmp[guard1,4]\C[4]Bandit：\C[0]    Right! Are you not a sow? Help it clean its asshole!
+
+RapeLoop/DailyJob3_Dance
+\CBmp[guard1,4]\C[4]Bandit：\C[0]    Hello! sow! wake up! Go wake your husband up!
+
+RapeLoop/DailyJob4
+\CBmp[guard4,5]\prf\C[4]Bandit：\C[0]    Hurry up! Otherwise you are dead!
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    I....
+\CBmp[guard1,4]\prf\C[4]Bandit：\C[0]    Quick! We are waiting for your performance♥
+
+####################################################### common
+
+RapeLoop/DailyJob_PlayBegin0
+\CBct[8]\m[fear]do you really want to do it......\optB[No way!,I have to...]
+
+RapeLoop/DailyJob_PlayBegin1
+\CBct[8]\PLF\m[sad]I have to...
+
+RapeLoop/DailyJob_EndRng0
+\plf\C[4]Bandit：\C[0]    Ha ha ha ha♥
+
+RapeLoop/DailyJob_EndRng1
+\C[4]Bandit：\C[0]    Hee hee hee♥
+
+RapeLoop/DailyJob_EndRng2
+\C[4]Bandit：\C[0]    Hello! Listen to her squealing like a pig♥
+
+RapeLoop/DailyJob_EndRng3
+\C[4]Bandit：\C[0]    What's the name of the sow?♥
+
+RapeLoop/DailyJob_EndRng4
+\C[4]Bandit：\C[0]    Look at her, this is not human! It's a pig♥
+
+RapeLoop/DailyJob_EndRng5
+\C[4]Bandit：\C[0]    Wow! Wow! Wow! Twice quickly for Grandpa♥
+
+RapeLoop/DailyJob_EndRng6
+\C[4]Bandit：\C[0]    Hahahaha, so funny♥
+
+RapeLoop/DailyJob_EndRng7
+\C[4]Bandit：\C[0]    What a smelly sow!
+
+RapeLoop/DailyJob_EndRng8
+\C[4]Bandit：\C[0]    There is no dignity left in her!
+
+RapeLoop/DailyJob5
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    Again... Do you still want it?
+
+RapeLoop/DailyJob6
+\CBct[8]\m[hurt]\PRF\c[6]Lona：\c[0]    Please...be gentle...
+
+RapeLoop/DailyJob7
+\CBct[8]\plf\c[6]Lona：\c[0]    sob sob...
+
+RapeLoop/DailyJob9
+\CBct[8]\m[tired]\c[6]Lona：\c[0]    .....
+
+####################################################### mouth
+
+RapeLoop/DailyJob_PlayMouth0
+\narr \c[6]Lona\c[0]Puts the corkscrew in her tiny mouth and sucks the tip...
+
+RapeLoop/DailyJob_PlayAnal0
+\narr \c[6]Lona\c[0]Puts the thick, spiral cock into her asshole...
+
+RapeLoop/DailyJob_PlayRimJob0
+\narr \c[6]Lona\c[0]sticks her tongue in the pig's dirty asshole...
+
+RapeLoop/DailyJob_PlayRimJob1
+\CBct[8]\m[p5sta_damage]\Rshake It smells so nauseating, I can't take it anymore...
+
+RapeLoop/DailyJob_PlayRimJob2
+\CBmp[guard1,4]\C[4]Bandit：\C[0]    Hey! Go lick the shit off of its balls too!
+
+RapeLoop/DailyJob_PlayDance0
+\CBct[8]\m[shy]\PRF\c[6]Lona：\c[0]    Ok it woke up....
+\CBmp[guard4,4]\prf\C[4]Bandit：\C[0]    Then dance for your daddies♥
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    Yes...

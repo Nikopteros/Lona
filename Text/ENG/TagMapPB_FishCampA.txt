@@ -1,0 +1,296 @@
+thisMap/OvermapEnter
+Fish Camp\optB[Leave,Enter]
+
+###############################################################################   Common dialog
+
+Commoner0/rng0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Warrior：\c[0]    Can't trust humans....
+
+Commoner0/rng1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Warrior：\c[0]    You...Woman...?
+
+Commoner0/rng2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Warrior：\c[0]    Go away...
+
+###############################################################################   Comp Fish Dude Explorer
+
+ConvoyTar/begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Fishman：\c[0]    What's...up...?
+
+ConvoyTar/begin1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Fishman：\c[0]    Thank you... Thank you Sea Witch...
+
+ConvoyTar/begin2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Fishman：\c[0]    Go to... the camp...
+
+ConvoyTar/About_opt
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Uhm...Excuse me...
+\SndLib[FishkindSmSpot]\CBid[-1,2]\prf\c[4]Fishman：\c[0]    What...is it...?
+
+ConvoyTar/OPT_WhyFishHereAise
+Sunrise Village
+
+ConvoyTar/OPT_OutControll
+Ancestors are out of control
+
+ConvoyTar/OPT_CaveExplore
+Explore the cave
+
+ConvoyTar/OPT_OutControll0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Ancestors out of control? What does that mean?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Our elders... The ancestors... They've returned from the water...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Followed by the evil... scales... who started attacking us...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Lord Shaman... Needs us to investigate... Why...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Uhm... I don't understand.
+
+ConvoyTar/WhyFishHereAise0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    So why did you come to \c[4]Sunrise Village\c[0] don't fishmen stay in the city?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    To... Investigate... Why the ancestors are out of control.... For the shaman...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    We came to the island... to investigate... but humans attacked us...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    My brother... Is dead...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I'm sorry...
+
+####################################################   Explore the cave
+
+ConvoyTar/TooWeak
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Women... To breed...
+\CBct[20]\m[tired]\PRF\c[6]Lona：\c[0]    ........
+
+ConvoyTar/OPT_CaveExplore0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    I did \c[6]Yun Bei\c[0]... I got it! I rolled it!!
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    All three times \c[6]Sacred\c[0] roll...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    The Sea With wants me to go the ruins...to discover the truth...!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Uhm...\c[6]Sacred\c[0] roll?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    The truth... Is in the ruins...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    The Shaman in the village... can confirm...!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    What?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    But these are... human lands... it's too dangerous...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Such a shame... Our slave ran away...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    I need your help... come with me to the ruins...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    To find the truth...!
+
+ConvoyTar/OPT_CaveExplore_BRD
+\CamCT\board[Explore the cave]
+Goal： Search the nearby cave
+Reward： 4 Large Copper Coins
+Client： Fishman
+Quest Term： 5 days
+Assist the Fishman in exploring the ancient ruins.
+
+ConvoyTar/OPT_CaveExplore_N
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uhm... I can't do that right now...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Fishman：\c[0]    A shame...
+
+ConvoyTar/OPT_CaveExplore_Y
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Fine, I'll help you.
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Praise the Sea Witch....!
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Human Woman... be careful...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Fishman：\c[0]    Ancestors are out of control... eager... to breed...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    What? Breed?
+
+####################################################   Explore the cave2
+
+AriseVillageFish/2to3_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Fishman：\c[0]    Right here... let me... recite the spell...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Ugh... Okay?
+
+AriseVillageFish/2to3_1
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]Fishman：\c[0]    Kagoon Karo KaGoon Ma......
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Fishman：\c[0]    KaGoon Ma...... KaGoon Ma......
+
+AriseVillageFish/2to3_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Fishman：\c[0]    \{ShaTeaTen.....!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Ugh?
+
+AriseVillageFish/2to3_3
+\CBct[20]\c[6]Lona：\c[0]    \{Ehhhhhhh!?
+
+AriseVillageFish/2to3_4
+\CBct[5]\m[serious]\c[6]Lona：\c[0]    \{What are you doing!?
+\CBfE[8]\prf\c[4]Fishman：\c[0]    .....
+
+AriseVillageFish/2to3_5
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]Fishman：\c[0]    It's done.....
+
+AriseVillageFish/2to3_6
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Okay... B-but why are you touching my breasts?
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Fishman：\c[0]    Human women... Or slave boobs... Dedicated to the Sea Witch...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Fishman：\c[0]    The Sea Witch... Doesn't like slaves with big boobs...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Fishman：\c[0]    We're lucky... You're a Warrior... without boobs...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Fishman：\c[0]    The gates of the Sea Witch... are open to you...
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    What\..\..\..\CBct[6]\m[tired]\prf They aren't small, they are just fine\..\..\..
+
+####################################################   Explore the cave3 #update
+
+AriseVillageFish/3to4_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Fishman：\c[0]    Praise the Sea Witch... What the Shaman said is true...!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uhm... Good?
+
+AriseVillageFish/3to4_1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    The door's closed?!
+
+AriseVillageFish/3to4_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Fishman：\c[0]    Don't be scared... The Shaman said... There are other ways in...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Is that so?
+
+AriseVillageFish/4to5_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Fishman：\c[0]    Human Warrior... Look at this...
+
+AriseVillageFish/4to5_1
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    In the war... Many years ago... The humans destroyed this place...
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    They destroyed our temple... took our slaves...
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Everything was looted... Humans are hateful beings...
+\m[confused]\PRF\c[6]Lona：\c[0]    Uhm... I'm sorry...?
+\prf\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    It's in the past... I forgive...
+
+AriseVillageFish/4to5_2
+\BonMP[EXIT,19]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Look at that... It's the exit...
+\m[flirty]\PRF\c[6]Lona：\c[0]    Oh?
+\BonMP[fishF1,19]\BonMP[fishF2,19]\prf\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    But there are \c[6]Evilscales\c[0]....
+\prf\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Before we leave... we must find the Sea Witch's icon...
+\prf\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Then beat these... \c[6]Evilscales\c[0]...
+
+AriseVillageFish/4to5_3
+\BonMP[Ca2,19]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Maybe... We... should go here?...
+\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    This way you can bypass those.... \c[6]Evilscales\c[0]...?
+
+AriseVillageFish/4to5_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Female warrior... I rely on you...
+
+AriseVillageFish/5to6_0
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Here... It's here...
+
+AriseVillageFish/5to6_1_1
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    The great Sea Witch... We're back...
+
+AriseVillageFish/5to6_1_2
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    We're back...
+
+AriseVillageFish/5to6_1_3
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Why are out of control... Why did the evilscales go crazy...
+
+AriseVillageFish/5to6_1_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    Tell me... The truth...
+
+AriseVillageFish/5to6_2
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Unknown：\c[0]    Who's there?! Is that you?!
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Unknown：\c[0]    Don't hide! I heard someone calling you!
+
+AriseVillageFish/5to6_3
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Unknown：\c[0]    There?! That big titty retard is hiding again!!
+
+AriseVillageFish/5to6_3_KnowLona
+\CBmp[Justice,8]\SETpl[DedOne_normal]\Lshake\c[4]Justice：\c[0]    Oh, it's you...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh... you are.... ugh... Who are you?
+
+AriseVillageFish/5to6_4
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]Fishman：\c[0]    You... Aren't a Sea Witch...!
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]Fishman：\c[0]    You're evil... FALSE GOD...!!!
+
+AriseVillageFish/5to6_5
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Justice：\c[0]    No, you're evil! Your whole family's evil!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]Justice：\c[0]    I'm justice, A warrior for justice!!!!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]Justice：\c[0]    Let me tell you the truth! I'll tell you who's evil!
+
+AriseVillageFish/5to6_6
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    \{Ugh... Ribbit!
+
+AriseVillageFish/5to6_7
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    \{No... This isn't true...!
+
+AriseVillageFish/5to6_8
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    \{Liar...! Liar...!
+
+AriseVillageFish/5to6_9
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]Fishman：\c[0]    \{Ribbiiiiiit!
+
+AriseVillageFish/5to6_10_1
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    \{Ehhhhh!!!
+
+AriseVillageFish/5to6_10_2
+\CBct[20]\m[bereft]\Rshake\c[6]Lona：\c[0]    No... Stay back!
+
+AriseVillageFish/5to6_11
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    What... What happened?
+
+AriseVillageFish/5to6_12
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    He's dead!?
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    But he was alive just now!
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    How am I gonna explain it to his friends?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\c[0]    *Sigh*... I'll just... take his money and leave...
+
+AriseVillageFish/6to7
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    ....
+
+CampHumWatcher/6and7_0
+\CBid[-1,20]\c[4]Militia：\c[0]    We're the Sunrise Village militia, you're safe now.
+
+CampHumWatcher/6and7_1
+\CBid[-1,20]\c[4]Militia：\c[0]    Don't be scared, the evil fishmen are dead.
+
+CampHumLooter/6and7_0
+\CBid[-1,20]\c[4]Militia：\c[0]    The city guards told us not to touch these bastards.
+\CBid[-1,20]\c[4]Militia：\c[0]    They also said we have to escort the fishmen and protect them, so they can return to Noer Town safely.
+\CBid[-1,20]\c[4]Militia：\c[0]    People in the city are a joke.
+
+CampHumLooter/6and7_1
+\CBid[-1,20]\c[4]Militia：\c[0]    These hybrids carry a lot of fish. We'll feed the village for a long time.
+\CBid[-1,20]\c[4]Militia：\c[0]    They brought two female slaves, I took one for myself.
+\CBid[-1,20]\c[4]Militia：\c[0]    Her tits are so big, and her screams in bed sound so good.
+
+CampHumLooter/6and7_2
+\CBid[-1,20]\c[4]Militia：\c[0]    If you don't tell, I won't tell, those in the city won't know.
+\CBid[-1,20]\c[4]Militia：\c[0]    We were under attack by \c[6]Deepones\c[0], but they didn't help us when they attacked.
+\CBid[-1,20]\c[4]Militia：\c[0]    Why would you listen to them?
+
+CampHumGuard/6and7_0
+\CBid[-1,20]\c[4]Militia：\c[0]    Before they died, these bastards cried and said that their ancestor's madness had nothing to do with them.
+\CBid[-1,20]\c[4]Militia：\c[0]    I don't understand, nor do I care, they're dead anyway.
+
+CampHumGuard/6and7_1
+\CBid[-1,20]\c[4]Militia：\c[0]    Does anyone believe what this scum say? They're more disgusting than the moots.
+
+CampHumGuard/6and7_2
+\CBid[-1,5]\c[4]Militia：\c[0]    They stink! They smell worse than death!
+
+##############################################################################################################
+
+AriseVillage/1to2_rg5_0
+\Bon[8]\m[shocked]\Rshake\c[6]Lona：\c[0]    Is this... A corpse?...
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]Fishman：\c[0]    The camp... Was also attacked by humans...?
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]Fishman：\c[0]    We must... Hurry up...
+
+AriseVillage/1to2_rg5_1
+\SndLib[FishkindSmSpot]\BonMP[QuTar,20]\prf\c[4]Warrior：\c[0]    HUMANS...!　Humans... Have found us out...! Kill them...!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    What!? Do they want to kill me?!
+
+AriseVillage/1to2_rg5_2
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Fishman：\c[0]    Bro! stop...! He saved me...!
+
+AriseVillage/1to2_rg5_3
+\SndLib[FishkindSmSpot]\CBmp[QuTar,20]\c[4]Warrior：\c[0]    Bro... You're alive...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Fishman：\c[0]    Yes bro... I'm alive...!
+
+AriseVillage/1to2_rg5_4
+\SndLib[FishkindSmSpot]\CBmp[QuTar,4]\c[4]Warrior：\c[0]    Praise the Sea Witch...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,4]\c[4]Fishman：\c[0]    Worship the Sea Witch...!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Ugh...
+
+AriseVillage/1to2_rg5_5
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Fishman：\c[0]    Thank you... Human warrior...
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Fishman：\c[0]    This is a gift for you...
+
+AriseVillage/1to2_rg5_6
+\CBct[4]\m[triumph]\Rshake\c[6]Lona：\c[0]    Thank you!
+
+AriseVillage/1to2_rg5_7
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]Warrior：\c[0]    Bro... You were saved... By a woman...?
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]Fishman：\c[0]    Woman...? She's a woman...?
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]Warrior：\c[0]    Yes... Bro...
+
+AriseVillage/1to2_rg5_8
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]Fishman：\c[0]    Are you a woman...?!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Yes...? What's wrong?
+\prf\CBmp[FishExplorer,8]\c[4]Fishman：\c[0]    .....
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    ...Weirdo.

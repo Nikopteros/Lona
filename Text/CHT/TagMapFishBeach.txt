@@ -1,0 +1,118 @@
+thisMap/OvermapEnter
+\m[confused]碎片海灘\optB[算了,進入]
+
+begin/Begin0
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    呃......
+
+begin/Begin1
+\CBct[2]\m[flirty]\c[6]洛娜：\c[0]    這是什麼祭典嗎？
+
+commoner/Qmsg0
+呱呱..！ 他死了...！
+
+commoner/Qmsg1
+可憐的...兄弟...
+
+commoner/Qmsg2
+節哀...
+
+guard/Qmsg0
+離開...！
+
+guard/Qmsg1
+這不是外來者該來的地方...！
+
+guard/Qmsg2
+滾...！
+
+#########################################################################
+
+QuGiver/Begin0_Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    女人... 回去繁殖...！
+
+QuGiver/Begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    外來者...？ 何事？ \optB[沒事,祭典,碎片<r=HiddenOPT0>,失控<r=HiddenOPT1>,幫助<r=HiddenOPT2>]
+
+QuGiver/Festival0
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...這是在祭祀什麼？ 海巫嗎？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    祭祀.....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    這是... 兄弟的... 喪禮....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    回歸大海... 的喪禮....
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    喪禮？！ 對不起！
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    他被那...邪惡的碎片殺死了....
+
+QuGiver/Fragment0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    碎片？ 可以告訴我碎片是什麼嗎？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    那些無...自我...的孩子...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    皆為....海巫的碎片....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    他們出生後... 須立即回歸海巫的懷抱...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃... 有聽沒懂？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    但...海巫失控了....
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    啊？
+
+QuGiver/tmpOutControl
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    回歸大海的碎片...應與海巫待在...牠的聖殿...成為海巫的碎片...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    但假海巫勝利了...碎片瘋狂了...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    我們的祖靈...帶著海巫的碎片回來了...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    什麼跟什麼啊？
+
+QuGiver/help0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    你需要幫忙嗎？ 也許我可以幫上你？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    外來者...？ 妳...？ 女人...？ 也許妳可以...？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    我兄弟與我...都是製陶師...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    他的\c[4]海蟹壺鋪\c[0]內...任然有...假海巫的碎片在徘徊..
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    祖靈是不會攻擊我們的...但假海巫的碎片不同...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    假海巫的碎片會殘忍的殺害我們...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    將他的祕方拿來給我...我必須將...他的意志繼承下去...
+
+QuGiver/help_board
+\board[製壺秘方]
+目標：取得製壺秘方\i[227]
+報酬：未知
+委託主：漁人
+期限：單次
+前往東方的\c[4]海蟹壺鋪\c[0]，並將製壺秘方交給他兄弟。
+
+QuGiver/help_cancel
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃... 還是算了吧。
+
+QuGiver/help_accept
+\CBct[20]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    沒問題！ 交給我吧。
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    我會將你好友的遺物交還給你的！
+
+######################################################################### QuestDone
+
+QuGiver/done0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...
+
+QuGiver/done1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    我找到秘方了，這樣你的好友也能安息了吧？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    外來者...？ 妳...？ 找到了...？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    快給我.... 給我！！！
+
+QuGiver/done2
+\CBct[20]\m[flirty]\plf\Rshake\c[6]洛娜：\c[0]    有這麼急嗎？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    呼嘿嘿...只要有秘方...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    我海之霸壺業....將統治全島....的製壺....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    呼哈哈....哈哈哈哈哈哈..........
+\CBct[20]\m[confused]\plf\Rshake\c[6]洛娜：\c[0]    呃....？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    神奇海螺\..\..\.....？ 是什麼...？
+\CBct[8]\m[flirty]\plf\Rshake\c[6]洛娜：\c[0]    我也不懂，總之上面是這樣寫的？
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    秘方....是假的？
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    不...可...能....
+\CBct[20]\m[confused]\plf\Rshake\c[6]洛娜：\c[0]    呃...你還好吧？
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    \{走開...！
+
+QuGiver/done3
+\SndLib[FishkindSmSpot]\prf\c[4]偵探：\c[0]    \{等... 一... 下...！！
+
+QuGiver/done4
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]偵探：\c[0]    我已經知曉了一切！
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]偵探：\c[0]    是你殺了多孔海綿與大閘蟹！
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    哈哈...秘方是假的....
+\SndLib[FishkindSmSpot]\CBmp[Detective,5]\plf\c[4]偵探：\c[0]    是你殺了多孔海綿與大閘蟹！！！！
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]偵探：\c[0]    跟我們走... 現在... 馬上...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    哈哈...哈哈...哈哈哈...
+
+QuGiver/done_end
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 這是怎樣？

@@ -1,0 +1,141 @@
+common/closed
+\narrЗачинено.
+
+################## 諾爾鎮 大門Вартовий — Вартовий брами Ноєра ######################
+
+GateGuard/begin1
+\cg[map_NoerGate]Брама Ноєра
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Вартовий：\C[0] Стій! \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Увійти надуривши<r=HiddenOPT2>]
+
+GateNobGuard/begin1
+\cg[map_region_RoadNoerNob]Вхід до маєтку Росендо
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Вартовий：\C[0] Стій! \optB[Скасувати,Увійти,Прокрастися<r=HiddenOPT1>,Увійти надуривши<r=HiddenOPT2>]
+
+GateGuard/enter_no_passport_dir6
+\prf\c[4]Вартовий：\C[0] Через міську браму вихід вільний. Але при вході потрібно показати свої документи.
+
+GateGuard/enter_no_passport_dir4
+\prf\PLF\c[4]Вартовий：\C[0] Маємо наказ нікого не пропускати до міста без документів.
+\m[confused]\plf\PRF\c[6]Лона：\C[0] Гаразд...
+
+GateGuard/enter_with_passport
+\prf\c[4]Вартовий：\C[0] Гм-м-м...
+\prf\c[4]Вартовий：\C[0] Добре, заходь.
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]Вартовий：\C[0] Га? Ти... Стій!
+\Lshake\c[4]Вартовий：\C[0] Я впізнав тебе! \{Схопити її!
+
+GateGuard/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Лона：\C[0] Це кепсько!
+
+GateGuard/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Лона：\C[0] Трясця!
+
+GateGuard/enter_failed_gloomy
+\m[bereft]\plf\PRF\Rshake\c[6]Лона：\C[0] Вибачте!
+
+GateGuard/enter_failed_slut
+\m[shocked]\plf\PRF\Rshake\c[6]Лона：\C[0] Халепа!
+
+GateGuard/enter_wait
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]Лона：\C[0] Фуф! Вийшло...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]Вартовий：\C[0] Га? Ти... Стій!
+\Lshake\c[4]Вартовий：\C[0] Куди це ти?! \{Схопити її!
+
+GateGuard/enter_wisdom
+\PRF\c[6]Лона：\C[0] Вам не сказали? Я тут за наказом.
+\PLF\prf\c[4]Вартовий：\C[0] Гм-м-м, правда?
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_wisdom_win
+\PLF\c[4]Вартовий：\C[0] Схоже, так воно і є... Добре, заходь.
+\m[flirty]\plf\PRF\c[6]Лона：\C[0] Уф... Аж не віриться...
+
+GateGuard/enter_wisdom_win_slave1
+\PLF\c[4]Вартовий：\c[0] Не знав, що раби можуть вільно ходити де забажають...
+
+GateGuard/enter_wisdom_win_slave2
+\PLF\c[4]Вартовий：\c[0] Гаразд, хутко до свого господаря!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Добре... Ох, вдалося...
+
+GateGuard/enter_wisdom_win_maggot
+\PLF\c[4]Вартовий：\c[0] Фу! Який сморід! Від усіх сибарисівців смердить лайном?
+\PLF\c[4]Вартовий：\c[0] Як гидко! Швидше проходь, але не підходь до мене!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Вибачте, пане...
+
+GateGuard/enter_wisdom_win_sexy
+\PLF\c[4]Вартовий：\c[0] Що, на заробітки прийшла, дрібна повіє?
+\PLF\c[4]Вартовий：\c[0] Ні? Як передумаєш, приходь у табір військових.
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Добре, пане...
+
+GateGuard/enter_wisdom_win_weaker
+\PLF\c[4]Вартовий：\c[0] Не псуй мені краєвид!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Добре, пане...
+
+GateGuard/enter_wisdom_win_SexyWeak1
+\PLF\c[4]Вартовий：\c[0] Дрібна повіє, нумо підійди, щоб я перевірив.
+\m[sad]\plf\PRF\c[6]Лона：\c[0] Е-е-е...
+
+GateGuard/enter_wisdom_win_SexyWeak2
+\PLF\c[4]Вартовий：\c[0] Проходь, поки ми не передумали.
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Добре, пане...
+
+GateGuard/enter_wisdom_win_SexSlave1
+\PLF\c[4]Вартовий：\c[0] Розстав ноги, щоб я перевірив.
+\m[sad]\plf\PRF\c[6]Лона：\c[0] Е-е-е...
+
+GateGuard/enter_wisdom_win_SexSlave2
+\PLF\prf\c[4]Вартовий：\c[0] Фу, яка смердюча... Проходь.
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Добре, пане...
+
+GateGuard/enter_wisdom_win_SexSlaveRuined1
+\PLF\c[4]Вартовий：\c[0] Розстав ноги, нікчемо. Хочу перевірити, чи ти досі придатна.
+\m[sad]\plf\PRF\c[6]Лона：\c[0] Е-е-е...
+
+GateGuard/enter_wisdom_win_SexSlaveRuined2
+\PLF\prf\c[4]Вартовий：\c[0] Їбать, яка огидна! Проходь швидше!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Добре, пане...
+
+GateGuard/enter_wisdom_win_moot
+\PLF\c[4]Вартовий：\c[0] Гаразд, ти наче не брешеш. Проходь!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0] Добре, пане...
+
+GateGuard/enter_failed
+\PLF\c[4]Вартовий：\C[0] Забирайся! Ми щодня маємо справу з такими, як ти!
+
+GateGuard/enter_passport_NoDir
+\prf\c[4]Вартовий：\C[0] Гаразд. Можеш проходити.
+
+GateGuard/enter_failedDirt1
+\PLF\Lshake\c[4]Вартовий：\C[0] Жебракам нічого робити в місті! Геть!
+
+GateGuard/enter_failedDirt2
+\narrЛона дуже забруднена...
+
+################## 許爾鎮外 — За межам Ноєра ####################################
+
+GateGuardOuta/enter_LowMorality
+\prf\c[4]Вартовий：\C[0] Ми тебе знаємо! Наволоч! Тобі тут не раді!
+
+GateGuardOuta/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Лона：\C[0] Е-е-е?!
+
+GateGuardOuta/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Лона：\C[0] Трясця!
+
+GateGuardOuta/enter_failed_gloomy
+\m[sad]\plf\PRF\Rshake\c[6]Лона：\C[0] Вибачте...
+
+GateGuardOuta/enter_failed_slut
+\m[flirty]\plf\PRF\Rshake\c[6]Лона：\C[0] Добре...
+
+################## DEEPONE UNIQUE — Якщо глибинниця #############################
+
+GateGuard/LonaIsTrueDeepone
+\narrВартові накинулися на Лону. Вони почали божеволіти від хоті, побачивши молоду морську відьму.

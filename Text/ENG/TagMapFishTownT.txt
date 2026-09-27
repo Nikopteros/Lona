@@ -1,0 +1,14 @@
+####################################--------------------- overmap
+Top/OvermapEnter
+\m[confused]The Temple of Thorns \optB[Leave,Enter]
+
+sneak/spoted
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Fishman Guard：\c[0]    IN... TRUDER...!!!
+
+release/DeepOneF
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Is that a captured... monster?
+
+Farseer/Else
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Shaman：\c[0]    Outsider... Leave place......
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

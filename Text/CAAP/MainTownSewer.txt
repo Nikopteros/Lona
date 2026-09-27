@@ -1,0 +1,207 @@
+Sewer/OvermapEnter
+\m[confused]Cloacas de Noera \optB[Cancelar,Entrar]
+
+################################################################################
+
+Sewer/SkipExit
+¿Saltar el tutorial y salir a la ciudad? \optB[Cancelar,Entrar]
+
+################################################################################
+
+system/SneakT1
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSneak1]\ph\{\C[6]Sigilo：\C[0]
+\bg[bg_TutorialSneak2] Puedes entrar en modo \C[6]Sigilo：\C[0] presionando CTRL.
+\bg[bg_TutorialSneak3] Todos los personajes en el juego tienen una dirección de mirada.
+\bg[bg_TutorialSneak4] Si un personaje mira hacia Lona - probablemente la notará.
+\bg[bg_TutorialSneak5] Pero si Lona se esconde, la probabilidad de ser detectada disminuye, dependiendo de su habilidad de Exploración.
+
+system/SneakT2
+\SndLib[sys_DialogNarr]\bg[bg_TutorialTerrain1] \{\C[4]Terreno：\C[0]
+\bg[bg_TutorialTerrain2] El terreno donde está Lona afecta su visibilidad.
+\bg[bg_TutorialTerrain3] Si Lona se esconde en arbustos, será más difícil que los enemigos la detecten.
+\bg[bg_TutorialTerrain4] Si Lona se oculta tras una barrera alta, otros apenas podrán verla.
+\bg[bg_TutorialTerrain5] Si Lona está detrás de una pared, nadie podrá verla.
+\bg[bg_TutorialTerrain6] Ten cuidado, diferentes criaturas ven y reaccionan de forma distinta.
+
+system/SneakT3
+\SndLib[sys_DialogNarr]\bg[bg_TutorialThrow1] \{\C[2]Lanzar：\C[0]
+\bg[bg_TutorialThrow2] Una de las habilidades básicas de Lona - \C[2]Lanzar：\C[0], puede distraer enemigos.
+\bg[bg_TutorialThrow3] Usar \C[2]Lanzar：\C[0] puede distraer personajes, permitiendo que Lona se deslice o se esconda.
+\bg[bg_TutorialThrow4] \C[2]Objeto lanzado：\C[0] distraerá al personaje por un tiempo. Luego volverá a su posición original.
+\bg[bg_TutorialThrow5_ENG] Mejorar la habilidad \C[2]Exploración\C[0] hará que Lona sea menos visible en \C[2]Modo Sigilo\C[0].
+\bg[bg_TutorialThrow5_ENG] Lona no puede \C[2]esconderse\C[0] del peligro si su habilidad de \C[2]Exploración\C[0] es muy baja.
+\bg[bg_TutorialThrow6_ENG] Para usar \C[2]Sigilo\C[0], aumenta la habilidad \C[2]Exploración\C[0] a 4 o más.
+\CBmp[FeiraCropse,19]\bgoff ¡Intenta combinar \C[2]Lanzar\C[0] con \C[6]Sigilo\C[0] para escabullirte entre enemigos o realizar un ataque sorpresa!
+
+Tutorial/Trap
+\CBmp[trap,19]..........
+\CBmp[trap,19].......
+\CBmp[trap,19]...
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    !!!!!!
+\SndLib[sys_DialogNarr]\bg[bg_TutorialTrap1]\ph \{\C[2]Trampas：\C[0]
+Cuando una trampa está armada, se activa si Lona u otro personaje la pisa.
+\bg[bg_TutorialTrap2]Puedes incendiar la trampa o lanzarle un objeto para desactivarla.
+\bg[bg_TutorialTrap3]Puedes intentar desarmar la trampa con la tecla de Interacción, pero el nivel de Supervivencia de Lona debe superar el daño de la trampa.
+¡Mira bien donde pisas, algunas trampas son mortales! \bgoff
+
+Tutorial/Sap
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSap1]\ph \{\C[2]Aturdimiento y Ataque por la espalda.\C[0]
+La mayoría de ataques por detrás infligen más daño. Estos se marcan como "Ataque por la espalda".
+\bg[bg_TutorialSap2]Si el personaje no está en combate y no tiene objetivo, un ataque por detrás lo aturdirá por más tiempo.
+\bg[bg_TutorialSap3]Un personaje aturdido perderá su sentido de dirección, y el siguiente ataque contra él contará como Ataque por la espalda.
+Cuando el aturdido reciba daño de nuevo, saldrá de ese estado.\bgoff
+
+Tutorial/STA
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSTA]\ph Consejo：Reserva de Fuerza (Aguante)
+Cuando tu Reserva de Fuerza llega a cero, casi todas las habilidades se bloquean.
+Además, Lona solo podrá arrastrarse por el agotamiento.
+Puedes asignar teclas a habilidades en la pestaña Habilidades del Menú.
+Asigna la habilidad "Descansar" a un botón y mantén pulsado para descansar.
+Hay dos tipos: Descanso y Sueño. Si mantienes Shift o R2 mientras descansas, Lona dormirá.
+Descansar consume Comida para recuperar Aguante, o PV si el aguante está lleno. No avanza el tiempo.
+Dormir hace pasar el tiempo, pero cura heridas, recupera fuerzas y ajusta los PV de Lona según su nivel de \c[4]Comida\C[0].
+\bgoff\narr ¡Cuidado! ¡No te quedes sin comer!
+
+Tutorial/SAT
+\SndLib[sys_DialogNarr]\bg[bg_TutorialSAT]\ph Consejo：Hambre
+Si Lona está hambrienta, perderá salud al descansar.
+Abre la pestaña Objetos en el Menú para encontrar comida.
+Intenta mantener alto tu nivel de Hambre al descansar. \bgoff
+
+Tutorial/About2hWeapon
+\SndLib[sys_DialogNarr]\bg[bg_Equips]\ph ¡Son un tridente! Arma a dos manos.
+Ataca a una casilla de distancia, pero es débil en corto.
+Es un arma perforante que puede ralentizar enemigos.
+Abre la pestaña Equipo en el Menú para seleccionar armas.
+Prueba a usar tu nueva arma. \bgoff
+
+Tutorial/LVL
+\SndLib[sys_DialogNarr]\bg[bg_TutorialLVL]\ph ¡Subir de nivel!
+Cada nivel otorga un punto de Rasgos.
+Abre el menú de Rasgos para asignarlos y mejorar a Lona.
+Los puntos gastados no se recuperan. ¡Úsalos con sabiduría! \bgoff
+
+###########################################################################
+
+Lona/ToOrkindCave1
+\cg[map_region_hole]Esta pequeña cueva podría ser el origen de los monstruos.
+\m[confused]\c[6]Lona：\C[0]    ¿Debo entrar? \optB[Cancelar,Entrar]
+
+Lona/ToOrkindCave_procress
+\m[confused]Lona entra por el oscuro agujero en la pared...
+
+Lona/ToOrkindCave_procress1
+\m[tired]......
+
+###########################################################################
+
+Sewer/MissionStart0
+\m[shocked]\cg[map_DarkestDungeon]\Rshake\c[6]Lona：\C[0]    ¡Qué oscuro! Y, puaj... ¡Huele fatal!
+\m[triumph]\c[6]Lona：\C[0]    Fue buena idea traer una lámpara.
+\m[normal]\c[6]Lona：\C[0]    Bien... Necesito...
+\m[confused]\c[6]Lona：\C[0]    Recolectar ocho colas de rata gigante. Y, si es posible... Encontrar al desaparecido.
+\m[serious]\c[6]Lona：\C[0]    ¡Sin problema! Lo lograré.\cgoff
+
+Sewer/MissionStart2
+\board[Controles]
+\C[2]Flechas o Ratón：\C[0] Movimiento.
+\C[2]Shift+Flechas：\C[0] Correr.
+\C[2]Z：\C[0] Interactuar.
+\C[2]X：\C[0] Abrir menú o Cancelar.
+\C[2]ALT：\C[0] Ocultar interfaz.
+\C[2]ALT+Flechas：\C[0] Cambiar dirección de mirada.
+\C[2]CTRL：\C[0] Sigilo. Saltar diálogo. Saltar turno en mapa mundial.
+\C[2]ASDFQWER：\C[0] Teclas de Habilidades.
+
+Sewer/MissionStart1
+\board[Recolectar Colas de Rata]
+Misión：Recolectar 8 Colas de Rata\i[45]
+Recompensa：Desconocido
+Cliente：Compañía Comercial Rosendo
+Repetible：Única
+Las cloacas están infestadas de ratas infectadas.
+El último mercenario enviado a lidiar con ellas desapareció.\n
+Ahora la misión es mía.
+Debo completarla y de paso
+intentar encontrar al desaparecido.
+
+Sewer/About2hWeapon
+\m[triumph]\c[6]Lona：\C[0]    ¡Es un tridente!
+\m[confused]\c[6]Lona：\C[0]    Pero necesito ambas manos. No tendré una libre para la lámpara.
+
+###########################################################################
+
+Sewer/SawInfection
+\m[wtf]\Rshake\c[6]Lona：\C[0]    Puaj... Qué pestilencia.
+\m[serious]\c[6]Lona：\C[0]    Como dijeron... La infección ya se ha esparcido aquí.
+\m[angry]\c[6]Lona：\C[0]    Mejor no tocar esa asquerosidad en las paredes...
+
+###########################################################################
+
+exit/NotFinishYet
+Debes encontrar al empleado del gremio desaparecido
+
+QuestSawGoblin/SawGoblin_begin1
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    !!!!!!
+\CBmp[Goblin1,4]\SETpl[goblin]\Lshake\prf\c[4]Monstruo：\C[0]    ¡Gu-Gu!
+\CBmp[Goblin2,5]\SETpl[goblin]\Lshake\prf\c[4]Monstruo：\C[0]    ¡Gu-Cha!
+\CBmp[Goblin3,7]\SETpl[goblin]\Lshake\prf\c[4]Monstruo：\C[0]    ¡¿Gu-Bu-Ta?!!
+\CBct[6]\m[fear]\plh\c[6]Lona：\C[0]    ¡¿Monstruos?! ¿Más de uno?
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    Parecen Orcoides...
+\CBct[20]\m[shy]\c[6]Lona：\C[0]    Dicen que estos monstruos secuestran mujeres y las usan para reproducirse.
+\CBct[20]\m[terror]\c[6]Lona：\C[0]    Mejor regresar y reportarlo de inmediato.
+\CBmp[FeiraCropse,19]\m[confused]\c[6]Lona：\C[0]    Este debe ser el trabajador desaparecido. Parece muerto...
+\CBmp[ExitPoint,19]\m[serious]\c[6]Lona：\C[0]    ¡No! Debo irme de aquí ahora mismo!
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    No podré con todos estos monstruos sola...
+
+########################################################################### Bucle de Violación
+
+RapeLoopHobo/Begin0
+\SETpl[raper3]\Lshake\prf\c[4]Vagabundo：\C[0]    ¡Niña! ¡Es una niña viva!
+\SETpr[raper2]\plf\PRF\c[4]Vagabundo：\C[0]    ¡Hey! ¡Wu-ju! ¡Yo primero! ¡Yo primero!!!
+\SETpl[raper1]\PLF\prf\c[4]Vagabundo：\C[0]    Jeje... ¡Hacía tanto tiempo! Tengo la polla que me pica...
+
+RapeLoopHobo/Begin1_remove_equip
+\SETpl[raper2]\Lshake\prf\c[4]Vagabundo：\C[0]    ¡Sus cosas son mías!
+\SETpr[raper3]\plf\Rshake\c[4]Vagabundo：\C[0]    ¡Vete a la mierda, yo la encontré primero!
+
+Lona/RapeLoopDragOut
+\m[hurt]Los vagabundos se agrupan alrededor de Lona. Parecen tener malas intenciones...
+
+gay/Qmsg0
+No me mires así
+
+gay/Qmsg1
+No quiero follar
+
+gay/Qmsg2
+Solo voy a mirar
+
+cropseF/Qmsg0
+Cuerpo
+
+cropseF/Qmsg1
+Este cuerpo fue... usado
+
+cropseF/Qmsg2
+Este cuerpo empezó a pudrirse
+
+########################################################################### Misión de caza
+
+SewerKickMobs/QUbegin1
+\m[serious]\c[6]Lona：\C[0]    Vale, estos tipos causan problemas. ¡Debo hacer algo para detenerlos!
+
+SewerKickMobs/Done
+\m[triumph]\c[6]Lona：\C[0]    Bueno, parece que están todos muertos. Hora de volver por la recompensa.
+
+Mteen/Qmsg0
+¡No lastimes a mi mamá!
+
+Mteen/Qmsg1
+¡Aléjate de nosotros!
+
+Mteen/Qmsg2
+¡Mamá, no temas!
+
+Mama/Qmsg0
+Por favor... Déjanos en paz...

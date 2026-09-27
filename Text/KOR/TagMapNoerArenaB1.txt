@@ -1,0 +1,137 @@
+thisMap/Enter
+\SETpl[Mreg_pikeman]\c[4]직원 전용\c[0]이라고 쓰여 있으며, 문 앞에는 경비가 서 있다.\optB[아무 일도 안 한다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+########################################################################################################### Nap
+
+enter/begin0
+\c[4]관리자：\c[0] 여기서 얌전히 기다려. 저항하면 기다리는 건 죽음뿐이야.
+\c[4]관리자：\c[0] 오늘 네 식사다, 받아라! 곧 네 차례가 올 거다.
+
+Nap/BecomeSlave0
+\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]경비병A：\c[0] 이 쓰레기 같은 년 뭐 하는 거야?
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]경비병B：\c[0] 혹시 검투사라도 되려는 건가?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]경비병A：\c[0] 하하! 네 말이 맞네!
+
+Nap/Torture0
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]경비병B：\c[0] 그럼 이 제멋대로인 쓰레기 년한테 본때를 보여줘야겠지?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]경비병A：\c[0] 헤이, 좋은 생각이 있어.
+\narr그들은 로나를 들어 올려 끌고 가 버렸다.
+
+Nap/Torture1
+\CBct[8]\m[tired]\c[6]로나：\c[0] 으... 나한테 무슨 일이...?
+
+Nap/Torture2
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐?! 
+
+Nap/Torture3
+\CBmp[Goblin1,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]！！
+\CBmp[Goblin2,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]！！！！
+\CBmp[Goblin3,4]\SndLib[sound_goblin_spot]\Lshake\prf\SETpl[goblin_penis]！！！！！！
+
+########################################################################################################### Get to fight
+
+Daily/Food0
+\CBmp[Warden,20]\c[4]관리자：\c[0] 구더기 같은 년! 일어나라!
+\CBct[20]\m[shocked]\c[6]로나：\c[0] 에…?
+
+Daily/Food1
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 얼굴 들이대! 더 가까이! 처먹고 싶으면 입부터 벌려!
+
+Daily/Food_YES0
+\CBct[20]\m[sad]\c[6]로나：\c[0] 네.....
+
+Daily/Food_YES0_1
+\narr관리자가 로나의 머리를 거칠게 움켜쥐고 감옥 철창에 억지로 들이밀었다.
+
+Daily/Food_YES1
+\BonMP[Warden,3]\prf\c[4]관리자：\c[0] 하! 시원하구만! 그래, 이게 바로 노예 꼴이지!
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 노예라면 뭐라고 말해야겠어?
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 감사합니다… 주인님…
+
+Daily/Food_NO
+\CBct[20]\m[fear]\c[6]로나：\c[0] 안 돼… 이런 건….
+\BonMP[Warden,5]\prf\c[4]관리자：\c[0] 잘됐네! 그럼 굶어라. 어디 버틸 수 있는지 두고 보자고.
+
+Daily/Food_END
+\narr관리자는 문 앞에 음식을 몇 조각 던져놓았다.
+
+########################################################################################################### Get to fight
+
+playerFight/begin0
+\CBmp[Warden,20]\c[4]관리자：\c[0] 일어나라! 이 더러운 구더기 같은 년!
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 에…? 네, 네!?
+
+playerFight/begin1
+\CBmp[Warden,20]\c[4]관리자：\c[0] 이제 네 차례다, 죽으러 가라! 제대로 우리 관객들을 즐겁게 해라!
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] .....
+
+playerFight/begin2_opt
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 빨리 준비해라!\optD[장비 선택,특별 제공<r=HiddenOPT0>,준비한다,출전한다]
+
+playerFight/begin2_opt_notYet
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 아직도 안 끝났나? 서둘러라!
+
+playerFight/begin2_opt_OtherOffer
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 버틸 수 있게 해주는 건… 없어…?
+\CBct[8]\m[bereft]\PRF\c[6]로나：\c[0] 나… 아직… 죽고 싶지 않아….
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 흥, 여기 네 고통을 조금은 덜어줄 물건이 있지.
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 원한다면, 입을 이리 가져와라.
+
+playerFight/begin2_opt_OtherOffer_yes0
+\ph\SndLib[sound_equip_armor]\cg[event_WartsDick]\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..\SndLib[stepWater]\..
+\narr관리자가 추잡한 자지을 꺼내더니, 그 위에 무언가의 약을 끼얹었다.
+
+playerFight/begin2_opt_OtherOffer_yes1
+\BonMP[Warden,20]\cgoff\prf\c[4]관리자：\c[0] 좋아, 네 입으로 깨끗이 핥아내라.
+\CBct[8]\m[fear]\PRF\c[6]로나：\c[0] 뭐… 뭐라고요?
+
+playerFight/begin2_opt_OtherOffer_yes2
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 좋아, 노예라면 당연히 뭐라고 해야 하지?
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 감사합니다....
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 아주 좋아! 내가 특별히 너 같은 똥덩어리를 위해 준비해 둔 게 있지.
+
+playerFight/begin2_opt_OtherOffer_yes3
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 너무 일찍 죽지 마라. 난 네가 필요하다, 내 자지 닦아줄 청소부가 말이지.
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 주인님의 크신 은혜에 감사드립니다...
+
+playerFight/begin2_opt_OtherOffer_no
+\BonMP[Warden,5]\prf\c[4]관리자：\c[0] 꺼져! 김 빠지게 하네!
+
+playerFight/FightStart
+\BonMP[Warden,20]\prf\c[4]관리자：\c[0] 힘내라, 너무 일찍 죽지는 말고.
+
+########################################################################################################### common
+
+Roommate/begin0_0
+\CBid[-1,20]\c[4]죄수：\c[0] 나는 여기서 절대 안 나가! 너도 꿈도 꾸지 마!
+
+Roommate/begin0_1
+\CBid[-1,20]\c[4]죄수：\c[0] 이건 내 감방이야!
+
+Roommate/begin0_2
+\CBid[-1,20]\c[4]죄수：\c[0] 난 반드시 여기에 있어야 해!
+
+Roommate/begin2
+\CBct[2]\m[confused]\Rshake\c[6]로나：\c[0] 에에?!
+
+Guard/Qmsg0
+너 어떻게 들어온 거야!
+
+Guard/Qmsg1
+꺼져!
+
+Guard/Qmsg2
+여긴 직원 전용 구역이야!
+
+Worker/Qmsg0
+하지만 이건 나밖에 못 해!
+
+Worker/Qmsg1
+일이 너무 많아!
+
+Worker/Qmsg2
+난 이런 사무일 정말 싫어!
+
+EstC/Qmsg
+.......
+

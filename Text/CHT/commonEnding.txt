@@ -1,0 +1,524 @@
+
+
+############################## pointed Ending ########################################
+bat/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash大量蝙蝠撲咬著洛娜...
+\SndLib[sound_combat_hit_gore]\Rflash牠們用鋒利的牙齒啃蝕她的身體...
+\SndLib[sound_combat_hit_gore]\Rflash微小的身軀無法立刻吞噬她...
+\SndLib[sound_combat_hit_gore]\Rflash這讓洛娜整整掙扎了一個小時才斷氣...
+
+undead/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash不死者們分享著洛娜的肢體...
+\SndLib[sound_combat_hit_gore]\Rflash它們從四肢開始慢慢的品嘗...
+\SndLib[sound_combat_hit_gore]\Rflash洛娜的痛苦持續了很久很久...
+
+wolf/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash狼群們分享著洛娜的肢體...
+\SndLib[sound_combat_hit_gore]\Rflash它們優先咬住了洛娜的頸部...
+\SndLib[sound_combat_hit_gore]\Rflash痛苦並沒有持續太久，洛娜很快就斷氣了...
+
+KillerRabbit/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflash洛娜被小兔子吃掉了...
+\SndLib[sound_combat_hit_gore]\Rflash我們緬懷她...
+
+############################# Death ENDING ########################################
+Lona/hp0_begin
+\ph\SETpl[TellerNormal]\SETpr[nil]\c[4]迷之算命師：\c[0]    唉唉唉......\n 真是遺憾 洛娜掛彩了。
+\SETpl[TellerNormal]\c[4]迷之算命師：\c[0]    有人會記得她的存在嗎？
+
+Lona/hp0_WithChild
+\SETpl[TellerEyeClosed]\c[4]迷之算命師：\c[0]    嗯？ 但她似乎留下了繼承者,\n 讓孩子繼承母親的力量也是一種選擇
+\SETpl[TellerConfused]\c[4]迷之算命師：\c[0]    那,做出你的選擇吧。
+
+Lona/hp0_WithChild_choosed0
+\SETpl[TellerEyeClosed]\c[4]迷之算命師：\c[0]    好的,請準備好
+
+Lona/hp0_WithChild_choosed1
+\ph\cgoff\narr\{\..\..\..\..\..\..
+
+Lona/hp0_WithChild_canceled
+\SETpl[TellerEyeClosed]\c[4]迷之算命師：\c[0]    這樣嗎？ 不想讓孩子也體會到亂世所帶來的苦痛嗎？
+
+Lona/hp0_end
+\SETpl[TellerOkay]\c[4]迷之算命師：\c[0]    請你重來吧,希望你這次帶領她走向正確的路。
+
+####################################### ENDING  ####################################################
+
+Common/EndingBegin
+\ph\SETpl[TellerEyeClosed]\c[4]迷之算命師：\c[0]    \..\..\..\..\..
+\SETpl[TellerConfused]\c[4]迷之算命師：\c[0]    時間不斷的流逝......
+\SETpl[TellerNormal]\c[4]迷之算命師：\c[0]    讓我們看看那些人事物變成什麼樣子吧。
+
+Common/EndingLonaBegin
+\narr那麼....洛娜的結局如何呢？
+
+############################# Orkind ########################################
+
+Orkind/Common0
+\SND[SE/Book1]\narr\{類獸人\..\..\..
+
+Orkind/OrkindDestroyed1_ClearnNoerOrkindQuest
+\SndLib[sys_DialogBoard]\cg[map_guards]因傭兵公會的活躍，諾爾鎮周邊的類獸人明顯的減少了。
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]據目擊證人指出，有一名瘦小且\c[4]沒奶子\c[0]的傭兵身在其中。
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]但是...
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]這一切都只是暫時的。
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]牠們強大的繁殖速度不斷填補空缺，很快的諾爾鎮周邊又充滿了類獸人。
+\SndLib[sys_DialogBoard]\cg[map_region_PlainField]那麼類獸人的結局呢？
+
+Orkind/OrkindDestroyed2
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]它們強暴了它們看見的生物。
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]它們吃光了所有能吃的東西。
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]最終... 牠那強大的繁衍速度反蝕了自身。
+\SndLib[sys_DialogBoard]\cg[map_monster_camp]類獸人開始啃食肉魔與自己的同類。
+\SndLib[sys_DialogBoard]\cg[map_region_badland]許多年後，這些綠皮們於諾爾島上消失了。
+
+############################# FishKind ########################################
+
+FishKind/Common0
+\SND[SE/Book1]\narr\{漁人\..\..\..
+
+FishKind/Common1
+\SndLib[sys_DialogBoard]\cg[map_FishPPL]於一切的動亂之後，他們回到了他們曾經的家園。
+
+FishKind/Common2
+\SndLib[sys_DialogBoard]\cg[map_Shore]漁人們試圖在了無人煙的諾爾島上重建他們的家園。
+
+FishKind/FishKindFine3
+\SndLib[sys_DialogBoard]\cg[event_menses]由於薩滿們的努力，漁人生殖的難題終於被破解了。
+\SndLib[sys_DialogBoard]\cg[event_menses]漁人將再也不需要依賴外族的女性，漁人終於成為了能與其他智慧生物平起平坐的種族。
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]1812年，一名年老漁人乘坐著自製的雙翼機成功環繞世界一圈。
+\SndLib[sys_DialogBoard]\cg[event_FishPlane]它的著作 "獻給父輩與鐵叔" 時至今日都是暢銷書籍。
+
+FishKind/FishKindDestroyed3
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]他們最初以為可以永遠的在諾爾島上生存下去。
+\SndLib[sys_DialogBoard]\cg[map_region_badland]但他們忘了，諾爾島已經被遺棄了。
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]而他們的神也捨棄了漁人。
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]以他們那可悲的繁殖方式漁人的族群很快就陷入了危機。
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]無論它們如何祈禱，海巫都不再回應。
+\SndLib[sys_DialogBoard]\cg[map_region_AbanbonedHouse]幾十年內這種族就消失在了歷史中。
+
+############################# DoomFortressL ########################################
+
+DoomFortressL/Common0
+\SND[SE/Book1]\narr\{末日堡壘\..\..\..
+
+DoomFortressL/asdasdas
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# PirateBane ########################################
+
+PirateBane/Common0
+\SND[SE/Book1]\narr\{海賊毀滅者堡壘\..\..\..
+
+PirateBane/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# SouthFL ########################################
+
+SouthFL/Common0
+\SND[SE/Book1]\narr\{南門營地\..\..\..
+
+SouthFL/asdasdasd
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]sdgsdfgsdfgsdfg
+
+############################# Noer ########################################
+
+Noer/Common0
+\SND[SE/Book1]\narr\{諾爾鎮\..\..\..
+
+Noer/OrkindDestroyed1
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]隨著物資短缺，鎮上陷入了暴亂。
+\SndLib[sys_DialogBoard]\cg[map_bandits_farmer]沒用多久，人民就變成了強盜。
+
+Noer/OrkindDestroyed2
+\SndLib[sys_DialogBoard]\cg[map_bandits]沒有人維護城鎮的運作，也沒有人防禦魔物的入侵。
+
+Noer/OrkindDestroyed2_QuProgCataUndeadHunt2_7
+\SndLib[sys_DialogBoard]\cg[map_region_hole]雖然有人堵住了類獸人的地下道，但這並沒有幫助。
+
+Noer/OrkindDestroyed3
+\SndLib[sys_DialogBoard]\cg[map_region_hole]某日，類獸人挖通了地道，牠們如潮水般擁入鎮內。
+
+Noer/OrkindDestroyed4
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]鎮民絕望的抵抗並沒有持續多久。
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]男性成為了食物，女性成為了孕母。
+\SndLib[sys_DialogBoard]\cg[map_cityOnFire]諾爾鎮迎來了與席芭莉絲相同的結局。
+
+Noer/NukeDestroyed
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]某日，祂發怒了。
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]巨大的光球照亮了諾爾鎮的夜空。
+\SndLib[sys_DialogBoard]\cg[map_sos]窮人、富人、奴隸、信徒，是誰都無所謂了，祂贈與了所有人事物真正的平等。
+\SndLib[sys_DialogBoard]\cg[map_Nuke]一場巨大的爆炸將所有紛爭淨化成了虛無，諾爾鎮消失了。
+
+######################################################## SideChar ########################################
+############################# NoerTavern ########################################
+
+NoerTavern/Common0
+\SND[SE/Book1]\narr\{燃燒橡木桶\..\..\..
+
+NoerTavern/BookOfDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]那是魔物進城的第二天，街道上已經推滿了殘破的屍堆。
+\SndLib[sys_DialogBoard]\cg[event_FightThePower]沒有人知道老闆娘從哪裡拿到了傳說中的死者之書，又以什麼祭品獻給謊言者。
+\SndLib[sys_DialogBoard]\cg[map_undead_group]大量的不死者出現在了諾爾鎮並與類獸人大戰了整整一個月。
+\SndLib[sys_DialogBoard]\cg[map_undead_group]據說老闆娘也成為了不死者。
+
+NoerTavern/FallWithCocona
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]老闆娘與她女兒於諾爾鎮陷落前就離開了。
+\SndLib[sys_DialogBoard]\cg[map_NoerGate]傳聞說她們去了末日堡壘後離開了諾爾島。
+
+NoerTavern/DefenceToDeath
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]老闆娘又一次拿起了她的寶刀並幫助諾爾鎮抵禦暴民與魔物。
+\SndLib[sys_DialogBoard]\cg[event_RipAndTear]據說光靠她一人就多次守住了類獸人進攻北門。
+\SndLib[sys_DialogBoard]\cg[map_region_slum]但這只是些微延長了諾爾鎮的生命。
+\SndLib[sys_DialogBoard]\cg[map_region_AbomTown]沒有人知道諾爾鎮陷落後她去了那。
+
+############################# Nice boat ########################################
+
+TicketBought/begin1
+\bg[bg_NiceBoat]\m[confused]\C[6]洛娜：\C[0]    島上的人們怎麼辦呢？災情會不會繼續擴大下去？
+\bg[bg_NiceBoat]\m[tired]\C[6]洛娜：\C[0]    算了，怎麼擔心都沒有用的，我只是個普通人。
+\bg[bg_NiceBoat]\m[sad]\C[6]洛娜：\C[0]    一個非常普通的人。
+\SETpl[Mfat_DockCaptain]\m[normal]\Lshake\prf\C[6]艾德華：\C[0]    小鬼，起風了，別待在甲板上。
+\bg[bg_NiceBoat]\m[pleased]\plf\Rshake\C[6]洛娜：\C[0]    嗯！是！
+
+TicketBought/begin2
+\SndLib[sys_DialogBoard]\narr\ph洛娜離最終開了魔物肆虐的諾爾島。
+\SndLib[sys_DialogBoard]雖然不知道前方有甚麼等待著她，
+\SndLib[sys_DialogBoard]但絕對不會比待在諾爾島上更糟。
+
+############################# VIRGIN ########################################
+
+TicketBought/begin2_virgin
+\SndLib[sys_DialogBoard]\narr此外，她成功守住了她的處子之身。
+\SndLib[sys_DialogBoard]數年之後，附近的孩子也嘲笑他是老處女。
+\SndLib[sys_DialogBoard]她直到老死都是處女....
+
+####################################### Human rapeloop #######################################
+
+HumanSlave/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]洛娜失蹤了，再也沒有人看過她。
+\SndLib[sys_DialogBoard]過了很久很久\..\..\.. 於某個街道上\..\..\..
+
+HumanSlave/begin2
+\SndLib[sound_Heartbeat]\narrOFF\c[4]好冷...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]好餓...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]全身都好痛...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]我在哪裡\..\..\..
+\m[pain]\plf\Rshake\c[4]好痛... 好暗... 我到底在什麼地方？
+\SndLib[sound_step]\m[sad]\plf\PRF\c[4]有人嗎？ 你好？
+\SndLib[sound_step]\m[fear]\plf\PRF\c[4]有人嗎？ 是誰！ 不要傷害我！ 我會乖乖的！
+\SndLib[sound_step]\m[shocked]\plf\Rshake\c[4]不要！！ 不要過來！！！
+\SndLib[sound_step]\m[confused]\plf\PRF\c[4]\..\..\..
+\bg[bg_Soup1]\m[shocked]\plf\Rshake\c[4]蔬菜湯？！
+\bg[bg_Soup2]\m[shocked]\plf\Rshake\c[4]肉湯？！
+\m[pleased]\plf\PRF\c[4]謝謝你們... 我開動了！
+\m[pleased]\plf\PRF\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\bgoff\m[terror]\plf\Rshake\c[4]咦？！ 不要！
+\bgoff\m[bereft]\plf\Rshake\c[4]還給我！ 至少讓我吃一口！
+\ph\narr\..\..\..
+
+HumanSlave/begin3
+\SndLib[sound_punch_hit]\SETpl[AnonMale2]\Lshake\c[4]男人：\c[0]    哎呀！
+\SETpr[AnonFemale]\plf\Rshake\c[4]女人：\c[0]    怎麼了？
+\cg[map_HungerDeath]\SETpl[AnonMale2]\Lshake\prf\c[4]男人：\c[0]    該死的，誰又把弄死的奴隸亂丟了！
+\SETpr[AnonFemale]\plf\Rshake\c[4]女人：\c[0]    好臭！ 臭味會飄到衣服上呀！
+\SETpl[AnonMale2]\Lshake\prf\c[4]男人：\c[0]    我肏！\.\.\SndLib[sound_punch_hit]\Lshake 幹！\.\.\SndLib[sound_punch_hit]\Lshake 今天真倒楣！\.\.\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]女人：\c[0]    臭死了，雨天也沖不掉這臭味。
+\SETpl[AnonMale2]\Lshake\prf\c[4]男人：\c[0]    去死！\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]女人：\c[0]    走了啦！
+\SETpr[AnonFemale]\plf\Rshake\c[4]女人：\c[0]    真髒！ 回去把你的鞋子徹底洗乾淨！
+\ph\narr\..\..\..
+
+####################################### Orkind Rapeloop #######################################
+
+OrkindCampCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]洛娜失蹤了，再也沒有人看過她。
+\SndLib[sys_DialogBoard]過了很久很久\..\..\.. 於某個洞穴中\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\c[4]好餓...
+\SndLib[sound_Heartbeat]\c[4]我好餓好餓...
+\SndLib[sound_Heartbeat]\m[sad]\c[4]吃的呢？我好想吃東西啊！給我吃的！
+\SndLib[sound_Heartbeat]\m[bereft]\Rshake\c[4]求求你們了！拜託你們！
+\SETpl[goblin]\Lshake\prf\C[4]魔物：\C[0]    咕咕恰！
+\m[shocked]\plf\Rshake\c[4]食物！是食物嗎？！
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]魔物：\C[0]    咕嘻！ 恰咕恰！
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]魔物：\C[0]    咕嘻！咕嘻嘻嘻嘻！
+\SndLib[sound_eat]\m[pleased]\plf\Rshake\c[4]好吃！ 謝謝！ 謝謝你們！
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]魔物：\C[0]    咕嘻嘻嘻嘻！
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]魔物：\C[0]    咕嘻嘻！ 恰咕恰！
+\narr魔物們拿來了一個鏡子，牠們想讓洛娜看清現實。
+\narrOFF\m[confused]\plf\Rshake\c[4]鏡子？
+\cg[event_OrkindMother]\m[flirty]\plf\Rshake\c[4]這個醜陋的魔物是誰？ 你為什麼要這樣看我？
+
+OrkindCampCaptured/begin2
+\..\..\..
+\SndLib[sound_Heartbeat]\m[shocked]\plf\Rshake\c[4]我？！ 這是我？！
+\SndLib[sound_OrcSpot]\m[fear]\plf\Rshake\c[4]不要！！ 不要阿！！！
+\SndLib[sound_OrcSpot]\m[terror]\plf\Rshake\c[4]我不要！ 我是人！ 不是怪物！
+\SETpr[goblin]\plf\Rshake\C[4]魔物：\C[0]    咕嘻嘻嘻嘻！
+\SndLib[sound_OrcSpot]\m[bereft]\plf\Rshake\c[4]誰來救救我！ 我不要再吃了！ 我不吃了阿！
+\ph\..\..\..
+\SndLib[sound_Heartbeat]\c[4]好餓....
+\SndLib[sound_Heartbeat]\c[4]我好餓.... 好餓阿....
+\SndLib[sound_Heartbeat]\c[4]吃的呢？我好想吃東西啊！給我吃的！
+\cgoff\..\..\..
+
+############################# OrkindWarboss Rapeloop ########################################
+
+OrkindImpale/begin1
+\narr\..\..\..\..\..
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword].........
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]......
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]...
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[pain]\Rshake\c[4]！！！！！！
+\m[fear]\plf\Rshake\c[4]什麼？！ 發生了什麼？
+\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5sta_damage]\Rshake\c[4]嗚嗚！！！
+\Rflash\cg[event_AnalTaken]\SndLib[sound_Heartbeat]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5health_damage]\Rshake\c[4]好痛！！！
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5puke]\Rshake\c[4]快停下來！！
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]阿呀阿！！！！
+\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]\narrOFF\m[p5crit_damage]\Rshake\c[4]嗚嘔嘔嘔嘔！！！！！！
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword].........
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]......
+\cgoff\ph\Rflash\SndLib[sound_combat_hit_gore]\SndLib[sound_combat_sword_hit_sword]...
+\cg[map_orkind_expending]在類獸人的努力下，洛娜被木樁貫穿了。
+\cg[map_orkind_expending]直到木樁從嘴裡突出，她也未失去意識。
+\cg[map_orkind_expending]看到她如此痛苦的死去，生育之母也會很欣慰吧...
+
+####################################### AbomHive Rapeloop #######################################
+
+AbomHiveCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]洛娜失蹤了，再也沒有人看過她。
+\SndLib[sys_DialogBoard]過了很久很久\..\..\.. 在魔物的巢穴中\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\m[p5shame]\c[4]我在哪？
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]我怎麼了？
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]我還活著嗎？
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]為什麼我什麼都感覺不到？ 我到底在這多久了?
+\narr\prf\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\SndLib[sound_step]\m[p5shame]\c[4]誰？
+
+AbomHiveCaptured/begin2
+\cg[map_AbomCorpse2]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    喂！新來的！ 就是這裡了。
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]雜魚：\c[0]    等等！ 這些女人還在動！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    放火!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]雜魚：\c[0]    不！ 等等! 聖徒阿！ 她們還沒死！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    不！ 她們已經完了！ 你不可能拯救任何人！
+\narr\cgoff \.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\cg[map_AbomCorpse1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    你過來! 看看這個！ 只剩顆頭但卻還在動，你跟我說這算是活著？
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\Rshake\c[4]說我嗎? 救救我！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    這根本不是人了！ 這只是魔物的苗床！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    燒了她！ 現在！
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\PLF\c[4]什麼？ 不!我還沒死阿！ 救救我！
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]雜魚：\c[0]    是！
+
+AbomHiveCaptured/begin3
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]啊啊啊！！
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]好燙阿！ 不要！ 我不想死阿！
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]不要！ 我不要！ 啊啊啊啊！
+\cgoff\ph\narr\c[4]\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..
+\narrOFF\cg[map_cityOnFire]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]傭兵：\c[0]    總算... 結束了...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    今天的工作才剛開始而已，我們還有好幾個巢穴要處理。
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]雜魚：\c[0]    是!
+
+####################################### FishKind and Deepone Rapeloop #######################################
+
+FishkindCampCaptured/begin1
+\narr\..\..\..\..\..
+洛娜失蹤了，再也沒有人看過她。
+過了很久很久\..\..\.. 在魔物的巢穴中\..\..\..
+\narrOFF\cg[map_region_hole]\SndLib[sound_step]我怎麼了？ \.\SndLib[FishkindSmSpot] 我在哪裡？ \.\SndLib[sound_step]\.\SndLib[sound_step] 我被魔物抓走了？\.\SndLib[FishkindSmSpot]
+\c[4]好暗，什麼都看不見。
+\SndLib[sound_step]有人嗎？ \.\SndLib[FishkindSmSpot]\.\SndLib[sound_step]\.\SndLib[sound_step]拜託，救救我。\.\SndLib[sound_equip_armor]
+\c[4]女性：\c[0]    聽得到我說話嗎？
+\SndLib[sound_equip_armor]\c[4]是誰？ 不要殺我... 我好怕....
+\m[confused]\C[4]女性：\C[0]    啊！ 妳是新來的吧？
+\prf.....
+\m[normal]\C[4]女性：\C[0]    噓....安靜。
+\m[pleased]\C[4]女性：\C[0]    坐過來點，不用這麼害怕，我跟你一樣都是人類。
+\prf.....
+\m[shy]\C[4]女性：\C[0]    沒事的沒事的，不要再哭了。
+\m[normal]\C[4]女性：\C[0]    我叫做\c[6]洛娜\c[0]，妳呢？
+\prf.....
+\m[triumph]\C[4]女性：\C[0]    哦？ 真是好名子。
+\prf.....
+\m[shy]\C[4]女性：\C[0]    這樣啊？ 我已經待在這裡很久了，不用害怕，我一直都在照顧跟妳一樣的人。
+\prf.....
+\m[flirty]\C[4]女性：\C[0]    不，千萬別這麼做，我看過許多人試過，她們都死了。 但妳不會這麼做的，對嗎？
+\prf.....
+\m[shy]\C[4]女性：\C[0]    別哭了，我會保護妳的。
+\m[pleased]\C[4]女性：\C[0]    過來吧，我知道在這活下去所需的一切，別擔心，我會幫助妳的。
+\cgoff\ph\narr\..\..\..\..
+
+##########################################################################################################################
+##########################################################################################################################	 ENDING SHIP
+##########################################################################################################################
+
+ending/end
+結束遊戲？\optB[等一下,結束吧]
+
+ShipLadder/qMsg0
+起風了
+
+ShipLadder/qMsg1
+我不該上去
+
+ShipLadder/qMsg2
+太危險了
+
+#update rename tag
+RecQuest/SMRefugeeCampFindChild10
+\CBid[-1,6]\prf\c[4]湯米：\c[0]    嗚嗚.... 為什麼....
+\CBid[-1,6]\prf\c[4]湯米：\c[0]    媽媽為什麼不要我了...
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 你是不是那個叫....
+\CBct[20]\m[triumph]\PRF\c[6]洛娜：\c[0]    對！ 湯米對吧？
+\CBid[-1,20]\prf\c[4]湯米：\c[0]    啊！ 是姊姊！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    你媽媽呢？ 為什麼只有你一人在這？
+\CBid[-1,6]\prf\c[4]湯米：\c[0]    媽媽她不要我了，她把我塞在桶子裡，我逃出來後就在這了...
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    這樣啊.....
+\CBid[-1,6]\prf\c[4]湯米：\c[0]    對了，那根棒子好用嗎？ 用起還很舒服對吧？
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    舒服？
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....打起來手感蠻舒服的，不過太重了。
+
+RecQuest/Df_Heresy5_1
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 妳是藍藍吧？ 妳姊姊呢？
+
+RecQuest/Df_Heresy5_2
+\CBid[-1,6]\prf\c[4]藍藍：\c[0]    不！ 我不是藍藍！ 我也不認識默默！
+\CBid[-1,6]\prf\c[4]藍藍：\c[0]    妳認錯人了！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...好吧...
+
+########################################################################################### Lisa
+
+Lisa/common0
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    麗莎！ 妳怎麼也在船上？！
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    \..\..\..
+
+Lisa/RecQuestLisa19KeepMem1
+\CBid[-1,2]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    哦？ 是洛娜大姊阿？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...對.... 呃...\c[4]洛娜\c[0]？！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..\..\m[shocked]\Rshake 等一下！ 妳記得我是誰？！
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    \..\..\..
+\CBid[-1,6]\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    靠北！ 慘了！
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    不要裝了，我知道妳沒忘記我。
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    無！ 我無會記了！ 我真之攏忘光了！
+\CBct[20]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    好好好，我知道。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃.... 所以妳怎麼也在這裡？
+
+Lisa/RecQuestLisa18ResetMem1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]麗莎：\c[0]    哦？ 是大姊阿？
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃.... 所以妳怎麼也在這裡？
+
+Lisa/RecQuestLisa19KeepMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    我受夠這座島了，四界攏是魔物。
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    到現抵我晚上睏攏會夢到彼些蟲兒。
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    人們還看無起混族，我是血足髒又無是我之錯！
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    我愛離開這內！
+
+Lisa/RecQuestLisa18ResetMem2
+\CBid[-1,5]\SETpl[LisaBereft]\Lshake\prf\c[4]麗莎：\c[0]    我受夠這座島了，無管是茨人還是朋友攏擲落我了！
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    我愛離開這內！ 去尋綽更完姝之啪轟！
+
+Lisa/RecQuestLisa18ResetMem3
+\CBid[-1,8]\SETpl[LisaSad]\Lshake\prf\c[4]麗莎：\c[0]    \..\..\..
+\CBid[-1,2]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    無過我合妳沒足熟吧？問這麼濟幹三細？
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    是沒很熟，跟妳打聲招呼而已。
+\CBct[20]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    跟妳說呦，我也很喜歡啪轟！
+\CBid[-1,8]\SETpl[LisaTriumph]\Lshake\prf\c[4]麗莎：\c[0]    啪轟？ 大姊也是共好嗎？！
+\ph\narr 洛娜與麗莎分享著爆炸的藝術\..\..\..\..
+
+Lisa/RecQuestLisa19KeepMem3
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    這樣啊....
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    總之能與妳同行真是太好了。
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]麗莎：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[LisaTriumph]\Lshake\prf\c[4]麗莎：\c[0]    我也是！
+
+########################################################################################### Cocona
+
+Cocona/RecQuestCocona29_0
+\CBid[-1,6]\SETlpl[cocona_sad]\Lshake\c[4]可可娜：\c[0]    姐姐！ 好可怕！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...什麼好可怕？
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    水! 外面都是水！ 只有水！！！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    水？ 因為我們在海上啊？
+\CBid[-1,2]\SETlpl[cocona_confused]\Lshake\prf\c[4]可可娜：\c[0]    海？
+\CBct[20]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    對！ 海！
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    海？ 什麼是海！！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    海是...呃...連接其他大陸的地方？
+
+Cocona/RecQuestCocona29_1
+\CBid[-1,20]\SETlpl[cocona_confused]\Lshake\prf\c[4]可可娜：\c[0]    大陸？ 那又是什麼？？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯....一個比諾爾還要大很多很多很多的地方？
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    諾爾？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...我們的老家？
+\CBid[-1,20]\SETlpl[cocona_normal]\PLF\prf\c[4]可可娜：\c[0]    比可可娜家還要大很多？
+\CBct[8]\m[pleased]\plf\Rshake\c[6]洛娜：\c[0]    對！ 諾爾就是我們老家，西大陸比諾爾大很多很多。
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]可可娜：\c[0]    嗚喵\..\..\..
+
+Cocona/RecQuestCocona29_2
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    \{好厲害！
+
+Cocona/RecQuestCoconaVagTaken2_0
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    \{姊姊等等！
+
+Cocona/RecQuestCoconaVagTaken2_1
+\CBct[2]\m[normal]\plf\PRF\c[6]洛娜：\c[0]    怎麼了？ 可可娜還想問什麼？
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    這裡好多人，我們要跟這裡的人插插嗎？
+
+Cocona/RecQuestCoconaVagTaken2_2
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    什麼\..\..\..？\m[shocked]\Rshake\{什？！
+
+Cocona/RecQuestCoconaVagTaken2_3
+\CBct[2]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    啊...我懂了...不必了...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我們沒必要再賣身了，接下來好好休息吧。
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]可可娜：\c[0]    嗚喵\..\..\..
+
+Cocona/RecQuestCocona29_3
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    \{姊姊！！
+
+Cocona/RecQuestCocona29_4
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    還有問題啊？
+\CBid[-1,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    書忘了帶！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    書？
+\CBid[-1,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    可可娜家裡的書！上面印有一個好朋友的書！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    妳之前隨身帶著的那個？那是書哦？
+\CBid[-1,20]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    可可娜忘在大闆娘那了，好朋友說不可以弄丟...
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    沒關係吧...
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    上岸後我們會到一個大城市，到時後姊姊再給妳買一本吧。
+\CBid[-1,20]\SETlpl[cocona_confused]\PLF\prf\c[4]可可娜：\c[0]    嗚喵\..\..\..
+
+########################################################################################### EndingShipSlaveLona
+
+EndingShipSlaveLona/begin1
+嗚\..\..\..
+頭好痛\..\..\..
+身體好重\..\..\..
+
+EndingShipSlaveLona/begin2
+這是哪？ 我在做什麼？
+我是誰\..\..\..？
+什麼都想不起來\..\..\..
+算了\..\..\..
+我好累\..\..\..
+好想睡\..\..\..
+不想再思考了\..\..\..
+
+EndingShipSlaveLona/begin3
+\BonMP[Fucker2,20]\c[4]船員A：\c[0]    喂新來的！ 你還沒搞好嗎！
+\BonMP[Fucker3,20]\c[4]船員B：\c[0]    後面還有幾十人在等阿！
+\BonMP[Fucker4,20]\c[4]船員C：\c[0]    快點好不好！
+
+EndingShipSlaveLona/begin4
+\BonMP[Fucker1,20]\c[4]船員D：\c[0]    \{要去了！ 去了阿！
+
+EndingShipSlaveLona/begin5
+\c[4]船員B：\c[0]    換我了換我了！
+\c[4]船員C：\c[0]    乾脆大家一起上吧，我喜歡小穴。而兄弟你也只喜歡用嘴。
+\c[4]船員D：\c[0]    好點子！我用屁眼吧，從今以後大家都是穴兄弟。
+\c[4]船員B：\c[0]    好！ 我們從今以後都是兄弟！
+\c[4]船員C：\c[0]    不能同年同月同日生，但願同年同月同日死！
+\c[4]船員D：\c[0]    好兄弟！ 乾了！
+
+EndingShipSlaveLona/end
+\narr洛娜活著到達了彼岸，沒有人知道她之後被賣到哪去\..\..\..
+\narr從此之後再也沒有人看過洛娜\..\..\..

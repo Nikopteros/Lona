@@ -1,0 +1,611 @@
+thisMap/Enter
+레노이 경기장
+
+firstTime/begin_1
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 노엘 마을 경기장…?
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 이름은 들어봤는데, 여긴 이미 문 닫은 거 아니었어?
+
+firstTime/begin_2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 어이! 거기 너! 바로 너 말이야!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에?! 뭐, 나?!
+
+firstTime/begin_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 이게 뭐야?
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 받아둬! 이거 진짜 좋은 거라고!
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 오…?
+
+firstTime/begin_4
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 자, 다들 똑똑히 봤지?!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 이 티켓은 이제 내 거 아니야! 길 막지 마!
+
+firstTime/begin_5
+\CBct[8]\m[confused]\plh\PRF\c[6]로나：\c[0] 뭐가 뭔지 하나도 모르겠네….
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]행인A：\c[0] 재수 없는 애 걸려들었네.
+\CBmp[Talker2,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\plf\PRF\c[4]행인B：\c[0] 그러게, 새로 들어온 \c[6]미친 짐승\c[0] 따위가 \c[4]동방 거상\c[0]을 이길 리가 있나.
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]행인A：\c[0] 결국 억지로 끝까지 보게 되겠지. 그 과정은 악몽이나 다름없을 거야.
+
+firstTime/firstMatch0
+\CBct[20]\m[shocked]\PRF\c[6]로나：\c[0] 와아! 사람 엄청 많네?!
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 그래서 이게 도대체 뭐가 볼만하다는 거야? 그냥 남자들끼리 치고박는 거잖아?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 이런 건 도시 밖에서도 매일 보는 일인데.
+
+firstTime/firstMatch1
+\CBmp[Reporter,0]\ph\....\....\....
+\CBmp[Reporter,0]\ph 지금부터!
+\CBmp[Reporter,0]\ph 모두가 기다려온!
+\CBmp[Reporter,0]\ph 여러분이 가장 사랑하는!
+\CBmp[Reporter,0]\SndLib[ClapGroup]\ph 경기장의 왕자! \{\c[6]다릴\c[0]!!
+\CBmp[Reporter,0]\m[shy]\PRF\c[6]로나：\c[0] \c[4]다릴\c[0]…?! 설마! 내가 진짜로 \c[4]다릴\c[0]을 보게 되는 거야?!
+
+firstTime/firstMatch2
+\CBmp[Reporter,20]\c[4]다릴：\c[0] 내가 왔다! 내가 보았다! 내가 정복한다!
+\CBmp[Reporter,20]\c[4]다릴：\c[0] 여러분이 가장 사랑하는 왕자가 여기 있다!
+
+firstTime/firstMatch3
+\CBmp[Reporter,0]\m[lewd]\plf\PRF\c[6]로나：\c[0] \c[4]다릴\c[0]♥ 진짜 \c[4]다릴\c[0]이야♥
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\prf\c[4]다릴：\c[0] 열렬한 환호에 감사한다! 이 춤사위는 전부 여러분께 바치는 선물이다!
+
+firstTime/firstMatch4
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] 자아! 오늘의 등장 인물들을 소개하겠다!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 먼저, 내 왼편에서 입장하는 이는——!!
+
+firstTime/firstMatch5
+\CBmp[LeftArenaE,19]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 관객들이 가장 사랑하는 자, 바로 \c[6]동방의 거인\c[0]이다!
+
+firstTime/firstMatch6
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] 그리고 내 오른편의 도전자——
+\CBmp[RightArenaE,19]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 약물로 강화된 \c[6]미친 짐승\c[0]!!!
+
+firstTime/firstMatch7
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어… 저쪽이 내가 건 쪽인가?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 힘도 꽤 있어 보이는데… 아무도 안 환호해 주네?
+\SndLib[BadClap]\CBct[8]\m[triumph]\PRF\c[6]로나：\c[0] 괜찮아! 내가 응원해 줄게\..\..!
+\SndLib[ppl_BooGroup]\CBmp[PPLg1,20]\m[shy]\PRF\c[6]로나：\c[0] 에…?
+\SndLib[ppl_BooGroup]\CBmp[PPLg2,20]\m[sad]\PRF\c[6]로나：\c[0] 에에…?
+\SndLib[ppl_BooGroup]\CBmp[PlayerWatch,20]\m[sad]\PRF\c[6]로나：\c[0] 에에에…?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 뭐야아\..\..\..
+
+firstTime/firstMatch8
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 여러분도 아시다시피, \c[6]동방거상\c[0]은 무려 15연승을 이어가고 있습니다!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 그는 이미 이곳에서 인정받은 최강의 전사! 그의 좌우명은 바로— \c[6]무기를 쓰는 건 사내가 아니다\c[0]!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 오직 맨주먹으로, 눈앞의 모든 적을 박살내겠다고 합니다!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 그렇다면 과연, \c[6]루드신드 상회\c[0]가 키워낸 도전자— 그가 무적의 \c[6]동방거상\c[0]을 꺾을 수 있을까요?!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 이제 모두, 눈을 똑바로 뜨고 지켜보시길!
+
+firstTime/firstMatch9
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 양측 선수, 자리로!!
+
+firstTime/firstMatch10
+\SndLib[MaleWarriorFatSpot]\CBmp[EastColossus,20]\c[4]동방거상：\c[0] 허! 덩치가 크면 배짱도 클 줄 아나? 그 간이라면 내가 박살내주지!
+\SndLib[MaleWarriorGruntSpot]\CBmp[SexBeast,8]\c[4]미친짐승：\c[0] ......
+
+firstTime/firstMatch11
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] \{전투 개시!!
+
+firstTime/firstMatch12
+\CBmp[EastColossus,20]\c[4]동방거상：\c[0] 허! 네가 고작 이 정도냐? 내 상대는 안 되겠군!
+\CBmp[SexBeast,8]\c[4]미친짐승：\c[0] 크르르......
+
+firstTime/firstMatch13
+\CBmp[EastColossus,20]\c[4]동방거상：\c[0] 너무 느려!
+
+firstTime/firstMatch14
+\CBmp[EastColossus,20]\c[4]동방거상：\c[0] 힘이 딱 이 정도뿐이냐?
+
+firstTime/firstMatch15
+\CBmp[EastColossus,20]\c[4]동방거상：\c[0] 봤느냐, \c[6]다릴\c[0]! 네가 아무리 쓰레기 같은 도전자들을 불러온다 해도, 난 전부 갈기갈기 찢어버릴 것이다!
+\CBmp[EastColossus,20]\c[4]동방거상：\c[0] 내 가족을 반드시 되찾겠다! 이 지옥 같은 곳에서 꼭 데리고 나가리라!
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] 네 노력, 모두가 보고 있어! 우리 마음은 네 편이야!
+
+firstTime/firstMatch16
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 하지만! 승부는 아직 끝나지 않았다!
+\CBmp[EastColossus,1]\c[4]동방거상：\c[0] 뭐라고?!
+
+firstTime/firstMatch17
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 이런 힘... 말도 안 돼....
+\CBmp[SexBeast,8]\c[4]미친짐승：\c[0] 크르르르.... 흐하하....
+
+firstTime/firstMatch18
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 안 돼..! 이럴 리가 없어...
+\CBmp[SexBeast,8]\c[4]미친짐승：\c[0] 크르르르르.... 크흐흐....
+
+firstTime/firstMatch19
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 잠깐! 제발 그만..!  
+\CBmp[SexBeast,8]\c[4]미친짐승：\c[0] 크르르르르르.... 크하하하....
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 항복이다! 기권하겠다! 제발... 날 죽이지 마!
+
+firstTime/firstMatch20
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 왜 멈추지 않는 거야! 난... 죽고 싶지 않아!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 안타깝지만, 그는 인간의 언어를 이해하지 못해! 네 몸으로 네 항복을 증명해야 해!
+\plf\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 뭐라고?!
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 무릎 꿇어라! 등을 보이고 엎드려!
+
+firstTime/firstMatch21
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 이게... 맞는 건가....?
+\CBmp[SexBeast,8]\c[4]미친짐승：\c[0] ......
+
+firstTime/firstMatch22
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 뭐... 뭐라고! 지금 뭐 하려는 거야!
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] \c[6]미친 짐승\c[0]은 성교를 위해 각종 연금술로 개조해 만들어진 전사, 강자가 약자를 강간하는 것은 당연한 행동입니다!
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 그에게 있어 약자를 유린하는 건 강자의 권리이자 본능!
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 자, 여러분! 이것이 바로 이 쇼의 백미! 승자는 패자를 마음껏 유린할 수 있다!  
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 지금이다! 짓밟아라! \c[6]동방거상\c[0]을 유린하라! 환호하라!
+
+firstTime/firstMatch22_1
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]관객：\c[0] 유린해라! 유린해라!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]관객：\c[0] 유린해라! 유린해라! 유린해라!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]관객：\c[0] 유린해라! 유린해라! 유린해라! 유린해라!
+
+firstTime/firstMatch22_2
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 안 돼! 제발 살려줘… 이것만은… 제발…!
+
+firstTime/firstMatch23
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 안 돼! 내 항문… 터져버려…!
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] 임신은 싫어! 애 낳기 싫다고…!
+\CBmp[SexBeast,8]\c[4]미친짐승：\c[0] 크아아아아아악!!!
+
+firstTime/firstMatch23_1
+\CBmp[EastColossus,6]\c[4]동방거상：\c[0] \{으아아아아악!!!
+
+firstTime/firstMatch24
+\narr \....\....\....
+\narr \c[6]미친 짐승\c[0]과 \c[6]동방거상\c[0]의 끔찍한 교합은 한참 동안 이어졌다…
+\narr 그러나 우리는 잘 알고 있다. 남자는 임신하지 않는다….
+\narr 그리고…… 이하 생략……
+
+firstTime/firstMatch25
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 그러니까… 그 \c[4]미친 짐승\c[0]이 이긴 거네?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 이게 바로 전설의 사나이인가?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 왠지\..\..\..\m[shy]엄청 야해♥
+\CBct[4]\m[lewd]\PRF\c[6]로나：\c[0] 엄마랑 같이 보러 왔으면 좋았을 텐데. 분명 엄마도 좋아했을 거야♥
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..\m[sad]하지만 이제… 다들 없어……
+\CBct[20]\m[serious]\Rshake\c[6]로나：\c[0] 안 돼! 젠장! 정신 차려야 해!
+
+firstTime/TakeReward1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 그러니까… 여기서 상금 받으면 되는 건가?
+
+firstTime/TakeReward2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 바로 너야! 내 경기 티켓 훔쳤지!
+
+firstTime/TakeReward3
+\CBct[8]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네? 잠깐, 당신 그 사람…!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 네가 내 티켓 훔쳤잖아! 어서 내놔!\optD[건네준다,강도잖아!<r=HiddenOPT1>]
+
+firstTime/TakeReward4_give0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에? 뭐라고? 아, 알았어…
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 안 내놓을 거면 경비병 부른다! 어서 내놔!
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] …네…
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 그래, 착하네! 여자라면 뒷골목 가서 다리 벌리고 돈이나 벌어!
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 하지만 그건… 분명히 당신이…
+
+firstTime/TakeReward4_give1
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] \{닥쳐!
+
+firstTime/TakeReward4_guard0
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 아아악!!! 뭐야 이게!?
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 뭐가 뭐야?! 어서 돌려놔!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아… 아아… 경비병…! 여기 강도가…!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 뭐… 뭐라고?!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] \{아아아악!!! 강도예요! 강도!!
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]행인：\c[0] 젠장!
+
+firstTime/TakeReward4_guard1
+\SETpl[Mreg_guardsman]\Lshake\c[4]경비병：\c[0] 무슨 일이야! 여기서 무슨 소동이지!
+
+firstTime/TakeReward4_guard2
+\CBmp[TricketGiver,20]\SETpr[AnonMale1]\PLF\prf\c[4]행인：\c[0] 젠장… 두고 보자고!
+
+firstTime/TakeReward4_guard3
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 후우… 세상엔 별별 인간이 다 있네…
+
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+############################################################################################################################################## Tricket seller
+################################################################################ Arena Spec Event #####################################
+#### Cecily #####################################
+
+TicketSeller/CecilyShow_Gang
+특별 공연?
+
+TicketSeller/CecilyShow_Gang_begin0
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 오늘은 특별 공연이 준비되어 있습니다! \c[6]루드신드 상회\c[0]의 후원으로 전석 무료! 모두 들어와 즐겨주세요!
+
+TicketSeller/CecilyShow_Gang_begin1
+\CBid[-1,20]\prf\c[4]매표원：\c[0] \c[6]루드신드 상회\c[0]에서 후원하는 무료 공연이 곧 시작됩니다! 아직도 망설이시나요? 어서 들어오세요!
+
+TicketSeller/CecilyShow_Gang_begin2
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 특별 공연 전석 무료 개방! \c[6]루드신드 상회\c[0]의 뜨거운 성원에 감사드리며, 곧 눈부신 무대가 펼쳐집니다! 지금 바로 입장하세요!
+
+TicketSeller/CecilyShow_Gang_About1_typical
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 특별 공연? 어떤 무대인데?
+
+TicketSeller/CecilyShow_Gang_About1_tsundere
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 특별하다니… 도대체 얼마나 특별한 건데?
+
+TicketSeller/CecilyShow_Gang_About1_gloomy
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 특별 공연… 설마 위험한 건 아니겠지……?
+
+TicketSeller/CecilyShow_Gang_About1_slut
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어? 공연 있다고? 뭐야, 꽤 재밌을 것 같은데♥
+
+TicketSeller/CecilyShow_Gang_begin_talked
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 아직 뭐 하고 계세요? 공연이 곧 시작합니다!
+
+TicketSeller/CecilyShow_Gang_end
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 이번 공연은 \c[6]루드신드 상회\c[0]의 뜨거운 후원으로 마련되었습니다. 큰 박수 부탁드립니다!
+
+TicketSeller/CecilyShow_Gang_cancel
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 음... 역시 그냥 안 보는 게 좋겠어.
+
+TicketSeller/CecilyShow_Gang_About2
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 전직 귀족 아가씨의 교배 쇼랍니다. 무대 안에서 여러 수컷들과... 특별한 교류를 하게 되죠.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오? 흥미롭네...
+
+TicketSeller/CecilyShow_Gang_agree
+\CBct[8]\m[normal]\plf\PRF\c[6]로나：\c[0] 무료라면서? 그럼 한번 가서 봐야겠네.
+
+CecilyShow_Gang/show_start_begin1
+\{신사 숙녀 여러분! 안녕하십니까!
+
+CecilyShow_Gang/show_start_begin2
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 지금——우리의 특별 프로그램을 시작하겠습니다!
+
+CecilyShow_Gang/show_start_begin3
+\c[4]다릴：\c[0] \c[6]시바리스\c[0] 출신, 한때는 고귀한 혈통이었던 소녀!  
+
+CecilyShow_Gang/show_start_begin3_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_normal]\plf\PRF\c[4]세실리\c[0] \...\...\...
+\SETpl[Reporter_shocked]\Lshake\prf\c[4]다릴：\c[0] 그리고 그녀의 상대는\..\..\..
+
+CecilyShow_Gang/show_start_begin4
+\c[4]다릴：\c[0] \{\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+
+CecilyShow_Gang/show_start_begin5
+\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] 그것이 과연 담대한 용기일까, 아니면 어리석은 무모함일까? 운명의 부름일까, 아니면 죽음의 전주곡일까?
+\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] ——이것은 곧 영광의 시련, 신앙의 불길, 그리고…… 관객 여러분의 향연이다!
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 자, 외침을 준비하라! 베팅을 준비하라! 전투는, 지금 시작된다!!
+
+CecilyShow_Gang/show_start_begin6_0
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_fear]\plh\PRF\c[4]세실리\c[0] \...\...\...
+
+CecilyShow_Gang/show_start_begin6_1
+\CBmp[CenterPillar,8]\SETpr[CecilyMeatToilet_shocked]\plh\PRF\c[4]세실리\c[0] \...\...\...
+
+################################################################################ Arena ADdon ##################################### end
+
+name/ArenaApes
+흑모패
+
+name/ArenaSwine
+돼지군단
+
+name/ArenaWildDog
+항구개패
+
+name/ArenaSexBeast
+미친짐승
+
+name/ArenaEastColossus
+동방거상
+
+name/ArenaFemdom
+여왕패
+
+name/ArenaOrkindBro
+오크형제단
+
+name/ArenaDeepTerror
+심해공포단
+
+name/ArenaFailedAdv
+실격 모험자단
+
+name/ArenaTeamRBQ
+노예전사단
+
+name/ArenaHoboDudes
+하수도 경비대
+
+TicketSeller/BasicOpt
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 레노이 경기장에 오신 걸 환영합니다!
+
+TicketSeller/BasicOpt_bet
+베팅할게
+
+TicketSeller/BasicOpt_about0
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 응? 이곳은 이미 폐쇄됐다던데?
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 하! 밑바닥 것들은 역시 아는 게 없지. 놀 줄 아는 건 윗동네 귀족 양반들이라니까.
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 넌 \c[6]시바리스\c[0] 출신이지? 몇 달 전 고향이 쑥대밭 됐잖아?
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] .....
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 거 봐, 내가 맞췄지? 이쪽도 그때 꽤 뒤숭숭했거든.
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 루드신드가 권력을 잡고 제일 먼저 한 게 바로 민심 수습이었어!
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 민심이랑 경기장이랑 무슨 상관이야? 이런 투기장은 금지된 거 아니었어?
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 평화로운 인간들이 제일 좋아하는 게 뭔지 알아? 피지! 자기보다 더 처참한 꼴을 보면 속이 시원해지는 법이지.
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 여기가 어딘지 생각해 봐. 여긴 \c[4]노엘섬\c[0]이야.
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 누가 이걸 단속하겠어? 황제? 성자?
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 하아....
+
+TicketSeller/BasicOpt_FighterList
+\board[오늘의 출전 선수]
+선수1 ： \c[4]#{$story_stats["HiddenOPT0"][0]}\c[0]
+선수2 ： \c[4]#{$story_stats["HiddenOPT1"][0]}\c[0]
+선수3 ： \c[4]#{$story_stats["HiddenOPT2"][0]}\c[0]
+선수4 ： \c[4]#{$story_stats["HiddenOPT3"][0]}\c[0]
+-
+선수1 ： 승리시 상금배율\c[4]#{$story_stats["HiddenOPT0"][1]}\c[0] 패배시 내야하는 금액X\c[4]#{$story_stats["HiddenOPT0"][2]}\c[0]
+선수2 ： 승리시 상금배율\c[4]#{$story_stats["HiddenOPT1"][1]}\c[0] 패배시 내야하는 금액X\c[4]#{$story_stats["HiddenOPT1"][2]}\c[0]
+선수3 ： 승리시 상금배율\c[4]#{$story_stats["HiddenOPT2"][1]}\c[0] 패배시 내야하는 금액X\c[4]#{$story_stats["HiddenOPT2"][2]}\c[0]
+선수4 ： 승리시 상금배율\c[4]#{$story_stats["HiddenOPT3"][1]}\c[0] 패배시 내야하는 금액X\c[4]#{$story_stats["HiddenOPT3"][2]}\c[0]
+
+TicketSeller/BasicOpt_bet0
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 누구에게 베팅하시겠습니까?
+
+TicketSeller/BasicOpt_bet1
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 최소 베팅 금액은\c[4]#{$story_stats["HiddenOPT1"]}\c[0]，최대는\c[4]#{$story_stats["HiddenOPT2"]}\c[0]거실 수 있습니다.
+
+TicketSeller/BasicOpt_bet2
+\narr판돈\c[4]#{$story_stats["HiddenOPT1"]}\c[0] 배팅\c[6]#{$story_stats["HiddenOPT2"]}\c[0] 배율\c[5]#{$story_stats["HiddenOPT3"]}\c[0] 위약금\c[5]#{$story_stats["HiddenOPT4"]}\c[0]
+\narrOFF\CBid[-1,20]\prf\c[4]매표원：\c[0] 곧 경기가 시작됩니다. 양쪽 입구 중 한 곳으로 입장하세요.
+
+TicketSeller/BasicOpt_work0
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 제가 할 수 있는 일이 있나요?
+\CBid[-1,2]\prf\c[4]매표원：\c[0] 너? 어디 보자…… 아!  
+\CBid[-1,2]\prf\c[4]매표원：\c[0] 우리 여흥 프로그램에 여자가 필요하다. 그 노예들은 이미 반항할 힘도 없어서, 관객들이 지루해 하고 있거든.  
+\CBid[-1,2]\prf\c[4]매표원：\c[0] 여기 계약서다.
+
+TicketSeller/BasicOpt_work1
+\board[특별 이벤트전]
+상대를 KO시키거나 KO당하면 출전비를 받을 수 있음.  
+승자는 추가로 50%의 보너스를 획득.  
+KO가 늦게 발생할수록 상금이 더 많아지며, 상한은 제한 시간이 끝날 때까지.  
+승리 시 급여는 매표원에게서 수령.  
+패배 시 급여는 자동으로 지급됨.
+
+TicketSeller/BasicOpt_work2
+\board[오락 프로그램]
+참전하는 전사는 자신의 생명에 책임을 져야 함. (노예는 제외)  
+급여를 받으려면 반드시 살아남아야 함. (노예는 제외)  
+우리 관객들을 마음껏 즐겁게 해주라!
+
+TicketSeller/BasicOpt_workAccept
+\SndLib[PenWrite]\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 좋아, 사인했어.
+\CBid[-1,2]\prf\c[4]매표원：\c[0] 훌륭해, 아주 좋아. 보아하니 꽤 버텨낼 수 있겠군.
+\CBmp[EnterArena,19]\prf\c[4]매표원：\c[0] 저쪽 입구로 들어가면 된다.
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 어…?
+
+TicketSeller/PlayerMatchStart
+\CBid[-1,2]\prf\c[4]매표원：\c[0] 곧 프로그램이 시작된다. 어서 가서 네 일을 하지 않겠나? 계약서에 사인했잖아!
+\CBmp[EnterArena,19]\prf\c[4]매표원：\c[0] 옆쪽 입구로 들어가라! 서둘러! 곧 시작한다.
+
+TicketSeller/Started
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 경기가 곧 시작된다, 어서 들어가라!
+\narr판돈\c[4]#{$story_stats["HiddenOPT1"]}\c[0] 배팅\c[6]#{$story_stats["HiddenOPT2"]}\c[0] 배율\c[5]#{$story_stats["HiddenOPT3"]}\c[0] 위약금\c[5]#{$story_stats["HiddenOPT0"]}\c[0]
+
+TicketSeller/WannaLeave
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 나가고 싶다면, 총액\c[6]#{$story_stats["HiddenOPT4"]}\c[0]상당의 물자를 내놔야 한다.
+
+TicketSeller/ItsDraw
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 무승부라고? 장내에서 이렇게 나오다니, 드문 경우군.
+
+TicketSeller/YouLose
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 졌다고? 다음엔 더 크게 걸어, 한 번에 만회할 수 있잖아!
+
+TicketSeller/StartedPayIdle
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 어디 보자\..\..\..
+
+TicketSeller/StartedNotEnough
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 부족해! 아직\c[6]#{$story_stats["HiddenOPT4"]}\c[0]더 내놔야 한다!
+
+TicketSeller/StartedEnough
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 좋아, 이제 꺼져도 돼.
+
+TicketSeller/MatchReward0
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 이겼다고? 운이 좋네, 이게 네 상금이다.
+
+TicketSeller/MatchReward1
+\CBct[20]\m[triumph]\Rshake\c[6]로나：\c[0] 고마워!
+
+TicketSeller/MatchEnd
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 오늘 경기는 여기까지다. 아직 뭐 하는 거야? 내일 다시 와!
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 어? 그렇구나.
+
+TicketSeller/MatchStill
+\CBid[-1,20]\prf\c[4]매표원：\c[0] 경기는 아직 진행 중이야. 늦으면 못 본다.
+
+############################################################################################################################################## Food seller
+
+FoodSeller/begin
+\CBid[-1,20]\prf\c[4]점원：\c[0] 피와 철의 살육에 어울리는 건 뭘까? 당연히 안주랑 맥주지!
+
+FoodSeller/SlaveQmsg0
+더러운 노예!
+
+FoodSeller/SlaveQmsg1
+꺼져!
+
+FoodSeller/SlaveQmsg2
+노예가 여기 웬 말이야!
+
+############################################################################################################################################################## Fight Begin
+
+NewMatch/begin1
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 자, 오늘의 용사를 환영합시다!
+
+NewMatch/begin2
+\CBmp[CenterPillar,0]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] \{전투 시작!
+
+NewMatch/Draw
+\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 무승부라니! 참 아쉽군요!
+
+NewMatch/WinnerIS
+\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 승자가 나왔습니다!
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 승리자는 바로 \c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！！
+
+PlayerMatch/begin
+\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 자, 오늘 무대를 달궈줄 준비 경기 시작입니다!
+\SndLib[ppl_CheerGroup]\CBmp[FireR,0]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 먼저 등장하는 이는 바로 \c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 그리고 그의 상대는…. 이름 없는 거리의 떠돌이 쥐!
+
+PlayerMatch/begin_IfSlave
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 이 쥐는 쓰레기 같은 노예! 그녀에게 주어진 선택지는 단 두 가지!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 하나는 버티며 시간을 끄는 것, 또 하나는 상대를 쓰러뜨리는 것!
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 그렇지 않다면 그녀를 기다리는 건 단 하나, 바로 죽음뿐이다!
+
+PlayerMatch/LostRngRape0
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 자, 관객 여러분! 이 패배자는 어떻게 처리하면 좋을까요?
+
+PlayerMatch/LostRngRapeTorture
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]관객：\c[0] 두들겨 패라! 뭉개버려라!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]관객：\c[0] 능욕해라! 죽여버려라! 목을 잘라라!
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]관객：\c[0] 잡아먹어라! 불태워라! 능욕! 살육!
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 흐윽... 으으...
+
+PlayerMatch/LostRngRape1
+\ph\SndLib[ppl_CheerGroup]\c[4]관객：\c[0] 능욕해라! 능욕해라! 능욕해라! 능욕해라!
+
+PlayerMatch/LostRngRape2
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 자, 관객 여러분! 이름 모를 이 하수구 쥐가 즐거움과 사랑을 퍼뜨려주었군요!
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 관객 여러분! 이제 그녀를 추모합시다!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime0
+\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] 관객 여러분! 이 하수구 쥐는 게으름만 피운 노예입니다! 우리가 어떻게 처리해야 할까요！\SndLib[ppl_BooGroup]
+\ph\SndLib[ppl_BooGroup]\c[4]관객：\c[0] \{죽여라! 죽여라! 죽여라! 죽여라!
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime1
+\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 여러분의 목소리, 분명히 들었습니다！\SndLib[ppl_CheerGroup]
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] \{사람들아! 개들을 풀어라！\SndLib[ppl_CheerGroup]
+\SndLib[dogSpot]\cg[map_WolfGroup].......
+
+PlayerMatch/win0
+\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] 관객 여러분! 뜻밖의 결과입니다！
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 승자는 바로 이 하수구 쥐입니다！
+
+PlayerMatch/win1_InTime
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 나... 이긴 거야？
+
+PlayerMatch/win1_OutTime
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 하아......
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 관객들이 날 싫어하는 건가..？
+
+##ru not entertained?
+
+PlayerMatch/win2
+\narr로나가 승리했고, 그녀는 이 소란스러운 곳을 떠났다.
+
+PlayerMatch/win2_slave
+\narr로나가 승리했지만, 그녀는 다시 노예 방으로 쫓겨났다.
+
+############################################################################################################################### SexBeast UniqueRape
+
+SexBeast/Lose0_0
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] 항복할게! 제발 죽이지 마! 나… 죽고 싶지 않아!
+
+SexBeast/Lose0_1
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] 나… 죽고 싶지 않아! 살려줘!
+
+SexBeast/Lose0_2
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] 제발 그만해! 그만 때려!
+
+SexBeast/Lose1
+\c[4]미친짐승：\c[0] 크어어어어!
+
+SexBeast/Lose2
+\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 충실한 관객 여러분! 여러분은 이걸로 끝이라고 생각했습니까?! \c[4]미친짐승：\c[0]절대로 그녀를 그냥 두지 않을 겁니다!\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose2_1
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 맞습니다! 능욕이다! 미친짐승은 눈앞의 모든 걸 능욕할 겁니다! 자신의 육봉으로 적을 짓밟아 정복하리라!
+
+SexBeast/Lose3
+\SETpl[Reporter_normal]\Lshake\c[4]다릴：\c[0] 보십시오! 이제 \c[4]미친짐승：\c[0] 터뜨리려는군요! 과연 이 작은 뒷골목 쥐가 버텨낼 수 있을까요？！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose4
+\SETpl[Reporter_trumph]\Lshake\c[4]다릴：\c[0] 큰일입니다! \c[4]미친짐승：\c[0]아직도 만족하지 못했군요! 그는 거대한 육신으로 계속해서 이 작은 뒷골목 쥐를 유린하고 있습니다！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose5
+\SETpl[Reporter_shocked]\Lshake\c[4]다릴：\c[0] 또다시! 보아하니 곧 또 터뜨리려는군요! 이번으로 만족할까요？\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose6
+\SETpl[Reporter_confused]\Lshake\c[4]다릴：\c[0] 으…...
+
+SexBeast/Lose7
+\narr미친짐승은 끊임없이 로나를 유린했다.
+\narr오늘의 다른 모든 프로그램은 취소되었다.
+
+
+############################################################################################################################################################## EXIT
+
+1fExit/Begin
+\SETpl[Mreg_pikeman승리의 광장\C[0]으로 통하는 길, 하지만 입구에는 경비병이 서 있다.\optB[그만둔다,들어간다,은밀히 들어간다<r=HiddenOPT1>,구실을 대며 들어간다<r=HiddenOPT2>]
+
+1fExit/BetStill
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 경기 결과가 나오기 전이나, 배팅 금액 정산 전에는 나갈 수 없다!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 매표원에게 가서 돈을 정리하고 와야 나갈 수 있다!
+
+1fExit/SneakFailed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 도망자가 있다! 죽여라!
+
+Guard/NapSlave0
+\SETpl[Mreg_guardsman]\Lshake\c[4]경비병：\c[0] 이봐! 이쪽이다!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]경비병：\c[0] 무슨 일이지?!
+
+Guard/NapSlave1NoPay
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]경비병：\c[0] 이 자식, 배팅빚을 안 갚았다!
+
+Guard/NapSlave1IsSlave
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]경비병：\c[0] 도망친 노예다!
+
+Guard/NapSlave2
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]경비병：\c[0] 그럼 이 년을 어떻게 처리하지?
+\m[tired]\plf\PRF\c[6]로나：\c[0] 으... 무슨 일이야?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]경비병：\c[0] 우리 지금 관객들 즐겁게 해줄 여자 인원이 부족하잖아?
+\SETpl[Mreg_pikeman]\Lshake\c[4]경비병：\c[0] 그럼 이 계집이 딱이군!
+\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 안 돼! 놔줘!
+\cg[event_SlaveBrand]\SETpl[Mreg_pikeman]\Lshake\c[4]경비병：\c[0] 가만히 있으랬지! 얌전히 해!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]로나：\c[0] \{끼야아아악!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{아아아아악!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] 히이익...
+
+##################################################### Other
+
+notice/DisbandWarning
+\narr경고: 투기장에서 일을 진행하면 파티가 해산됩니다.
+
+198964/nothingHappen
+\cg[other_TankMan]1689.6.4 이날은 아무 일도 일어나지 않았다 \n 작화: 417
+
+commoner/typeB
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 집에 있는 마누라는 이게 너무 잔혹하다고 하던데, 너는 어떻게 생각해?
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 맞은편에 사는 늙은이네 개가 얼마 전에 사라졌거든.
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 며칠 뒤 경비병이 와서 하는 말이, 제국 수도에서 온 난민들이 잡아다가 삶아먹었다더라.
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 하! 잔혹하다고?
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 밖이 얼마나 개판인데, 이게야말로 제국 인구 줄이는 가장 좋은 방법이지!
+
+commoner/typeA
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] \c[6]광폭제\c[0]라는 걸 들어본 적 있어?
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 성 안의 귀족들이 연금술사랑 짜고 육체를 강화하는 약을 만들었다는데, 여기가 바로 그 실험장이래.
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 전선에서 돌아온 병사가 그러더라고, 그 약을 먹으면 두려움도 없어지고, 성욕까지 더 심해진다고.
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 자기 자신이 더 강해졌다고 느꼈다나 봐.
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 너도 뭔가 수상하다고 생각 안 해? 그런 고급 기술이 왜 이런 촌구석에 있겠냐?
+\CBid[-1,20]\prf\c[4]도박꾼：\c[0] 그런 인재가 어떻게 \c[6]노엘 마을\c[0]에 있겠어?
+
+CommonerBL/Qmsg0
+누가 남자가 임신 못 한다고 했어?
+
+CommonerBL/Qmsg1
+최신 ABO 학술지에 발표까지 났다고!
+
+CommonerBL/Qmsg2
+여자에게 자궁이 있듯이, 남자에겐 당연히 웅궁이 있지!
+
+CommonerBR/Qmsg0
+아니! 그건 절대 BL이 아냐!
+
+CommonerBR/Qmsg1
+남성 동성애랑 BL은 완전히 다른 거라고!
+
+CommonerBR/Qmsg2
+가짜야!

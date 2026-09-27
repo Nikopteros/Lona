@@ -1,0 +1,141 @@
+common/closed
+\narr關門了。
+
+##################################### 諾爾鎮 大門守衛 #############################################
+
+GateGuard/begin1
+\cg[map_NoerGate]諾爾鎮的城門
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    站住！\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+GateNobGuard/begin1
+\cg[map_region_RoadNoerNob]盧德辛山莊的入口
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    站住！\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+GateGuard/enter_no_passport_dir6
+\prf\c[4]守衛：\c[0]    出城門沒有問題，但回來的話妳一定要有證明文件。
+
+GateGuard/enter_no_passport_dir4
+\prf\PLF\c[4]守衛：\c[0]    上面下了命令，沒有身份證明的一概不准進入。
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    好吧....
+
+GateGuard/enter_with_passport
+\prf\c[4]守衛：\c[0]    嗯......
+\prf\c[4]守衛：\c[0]    好，過去吧。
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]守衛：\c[0]    嗯？ 妳... 等等！
+\Lshake\c[4]守衛：\c[0]    我知道妳！ \{抓住她！
+
+GateGuard/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]洛娜：\c[0]    糟糕了！
+
+GateGuard/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]洛娜：\c[0]    該死的！
+
+GateGuard/enter_failed_gloomy
+\m[bereft]\plf\PRF\Rshake\c[6]洛娜：\c[0]    對不起！
+
+GateGuard/enter_failed_slut
+\m[shocked]\plf\PRF\Rshake\c[6]洛娜：\c[0]    糗了！
+
+GateGuard/enter_wait
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]洛娜：\c[0]    呼.. 過去了...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]守衛：\c[0]    嗯？ 妳... 等等！
+\Lshake\c[4]守衛：\c[0]    妳往哪走！ \{抓住她！
+
+GateGuard/enter_wisdom
+\PRF\c[6]洛娜：\c[0]    你不知道嗎？ 這是上頭的命令。
+\PLF\prf\c[4]守衛：\c[0]    是這樣嗎？
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_wisdom_win_lona
+\PLF\c[4]守衛：\c[0]    好像是這麼回事，過去吧。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     呼.. 瞞過去了。
+
+GateGuard/enter_wisdom_win_slave1
+\PLF\c[4]守衛：\c[0]    我怎麼沒聽說過奴隸也能自由活動？
+
+GateGuard/enter_wisdom_win_slave2
+\PLF\c[4]守衛：\c[0]    算了，趕緊滾回你主人的身邊去！
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     呼.. 過去了...
+
+GateGuard/enter_wisdom_win_maggot
+\PLF\c[4]守衛：\c[0]    呃！這什麼味道？席芭莉絲人都這麼臭嗎？
+\PLF\c[4]守衛：\c[0]    真噁心，快滾進去，別靠近我！
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     是！ 謝大人！
+
+GateGuard/enter_wisdom_win_sexy
+\PLF\c[4]守衛：\c[0]    小婊子？妳想在這裡賺錢？
+\PLF\c[4]守衛：\c[0]    不是嗎？ 如果改變主意，軍營在那邊。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     我...我...我會的...
+
+GateGuard/enter_wisdom_win_weaker
+\PLF\c[4]守衛：\c[0]    別礙眼了，快滾進去！
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     嗯...是的，大人。
+
+GateGuard/enter_wisdom_win_SexyWeak1
+\PLF\c[4]守衛：\c[0]    小婊子，過來。讓我檢查一下。
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]     嗚....
+
+GateGuard/enter_wisdom_win_SexyWeak2
+\PLF\c[4]守衛：\c[0]    現在滾，不然我們會改變主意的。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     好丟臉...
+
+GateGuard/enter_wisdom_win_SexSlave1
+\PLF\c[4]守衛：\c[0]    把腿張開，讓我檢查一下。
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]     嗚....
+
+GateGuard/enter_wisdom_win_SexSlave2
+\PLF\prf\c[4]守衛：\c[0]    噁，好臭....算了....過去吧。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     是!！對不起！
+
+GateGuard/enter_wisdom_win_SexSlaveRuined1
+\PLF\c[4]守衛：\c[0]    把腿張開，妳這垃圾。讓我瞧瞧那個穢物還能不能用。
+\m[sad]\plf\PRF\c[6]洛娜：\c[0]     嗚....
+
+GateGuard/enter_wisdom_win_SexSlaveRuined2
+\PLF\prf\c[4]守衛：\c[0]    媽的髒死了...快滾!
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     呼.. 過去了...
+
+GateGuard/enter_wisdom_win_moot
+\PLF\c[4]守衛：\c[0]    妳說的話好像對得上，給我快滾進去。
+\m[flirty]\plf\PRF\c[6]洛娜：\c[0]     呼.. 過去了...
+
+GateGuard/enter_failed
+\PLF\c[4]守衛：\c[0]    閃遠一點！你這種人每天都有！
+
+GateGuard/enter_passport_NoDir
+\prf\c[4]守衛：\c[0]    好，過去吧。
+
+GateGuard/enter_failedDirt1
+\PLF\Lshake\c[4]守衛：\c[0]    這裡不歡迎乞丐！
+
+GateGuard/enter_failedDirt2
+\narr洛娜太髒了....
+
+####################################################### 諾爾鎮外
+
+GateGuardOuta/enter_LowMorality
+\prf\c[4]守衛：\c[0]    我們知道妳！ 滾！ 這裡不歡迎妳！
+
+GateGuardOuta/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]洛娜：\c[0]    唉？！
+
+GateGuardOuta/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]洛娜：\c[0]   啐！
+
+GateGuardOuta/enter_failed_gloomy
+\m[sad]\plf\PRF\Rshake\c[6]洛娜：\c[0]    對不起...
+
+GateGuardOuta/enter_failed_slut
+\m[flirty]\plf\PRF\Rshake\c[6]洛娜：\c[0]    好吧...
+
+####################################################### DEEPONE UNIQUE
+
+GateGuard/LonaIsTrueDeepone
+\narr衛兵們朝洛娜發起了衝鋒，他們因這年輕的海妖陷入瘋狂，他們的意志中僅剩淫褻的念頭。

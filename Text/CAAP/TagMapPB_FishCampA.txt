@@ -1,0 +1,296 @@
+thisMap/OvermapEnter
+Campamento de Hombres Pez \optB[Cancelar,Entrar]
+
+############################################################################### Diálogo común
+
+Commoner0/rng0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Soldado：\C[0] No se puede confiar en los humanos....
+
+Commoner0/rng1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Soldado：\C[0] Tú... ¿Eres mujer...?
+
+Commoner0/rng2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Soldado：\C[0] Vete....
+
+############################################################################### Explorador Hombre Pez
+
+ConvoyTar/begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Hombre Pez：\C[0] ¿Qué... pasa...?
+
+ConvoyTar/begin1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Hombre Pez：\C[0] Gracias.... Gracias a ti, Bruja del Mar...
+
+ConvoyTar/begin2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]Hombre Pez：\C[0] Ir al.... Campamento....
+
+ConvoyTar/About_opt
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] Eh... Disculpen...
+\SndLib[FishkindSmSpot]\CBid[-1,2]\prf\c[4]Hombre Pez：\C[0] ¿Qué... quieres...?
+
+ConvoyTar/OPT_WhyFishHereAise
+Aldea Alais
+
+ConvoyTar/OPT_OutControll
+Antepasados en caos
+
+ConvoyTar/OPT_CaveExplore
+Explorar la Cueva
+
+ConvoyTar/OPT_OutControll0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] ¿Antepasados en caos? ¿Qué significa eso?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Nuestros ancianos... los antepasados... Regresan del agua...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Les sigue el mal... Fragmentos... Nos atacan...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] El chamán... Quiere que investiguemos... La causa...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0] Mmmm... No lo entiendo.
+
+ConvoyTar/WhyFishHereAise0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] ¿Por qué vinieron a la \c[4]Aldea Alais\C[0]? ¿No viven los Hombres Pez en la ciudad?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Para... Investigar lo que dijo el Señor Chamán... Los antepasados se descontrolaron.... La razón...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Fuimos a la isla... Investigar... Pero los humanos nos atacaron...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Mi hermano... Murió...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0] Mmmm... No lo entiendo.
+
+#################################################### Explorar la Cueva
+
+ConvoyTar/TooWeak
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Mujeres... Para reproducirse....
+\CBct[20]\m[tired]\PRF\c[6]Lona：\C[0] ........
+
+ConvoyTar/OPT_CaveExplore0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Gané el \c[6]copa\C[0]... ¡todo terminó...!
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Las tres veces \c[6]asustado\C[0]...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] ¡La Bruja del Mar quiere que vaya a las ruinas... a encontrar la verdad...!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] Em... \c[6]Asustado：\C[0]?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] La verdad.... Dentro de las ruinas...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] ¡El chamán en la aldea... También lo confirmará...!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] ¿Hmm?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Pero aquí... humano... territorio... muy peligroso...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Lástima... Nuestros esclavos escaparon...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Necesito tu ayuda.... Ven conmigo a las ruinas...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] ¡Encontrar la verdad...!
+
+ConvoyTar/OPT_CaveExplore_BRD
+\CamCT\board[Explorar la Cueva]
+Misión: Encontrar la cueva más cercana
+Recompensa: Gran Medallón x4\i[582]
+Cliente: Hombre Pez en el campamento
+Plazo: 5 días
+Ayuda al Hombre Pez a explorar las ruinas antiguas.
+
+ConvoyTar/OPT_CaveExplore_N
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Eh... No puedo hacerlo ahora.
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Hombre Pez：\C[0] Lástima...
+
+ConvoyTar/OPT_CaveExplore_Y
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Vale, te ayudaré.
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] ¡Alabada sea la Bruja del Mar!
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Mujer humana... Hay que tener cuidado....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]Hombre Pez：\C[0] Los antepasados perdieron el control... Deseo... Reproducirse....
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] ¿Qué? ¿Reproducirse?
+
+#################################################### Exploración de la Cueva 2
+
+AriseVillageFish/2to3_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Hombre Pez：\C[0] Aquí... Yo digo el hechizo...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] ¿Oh?
+
+AriseVillageFish/2to3_1
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]Hombre Pez：\C[0] Kagun Karo Kagun Ma...
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Hombre Pez：\C[0] Kagun Ma... {Kagun Ma...!
+
+AriseVillageFish/2to3_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Hombre Pez：\C[0] {Shatitin...!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] ¿Eh?
+
+AriseVillageFish/2to3_3
+\CBct[20]\c[6]Lona：\C[0] {¿QUÉEEEE!?
+
+AriseVillageFish/2to3_4
+\CBct[5]\m[serious]\c[6]Lona：\C[0] {¿Qué estás haciendo?!
+\CBfE[8]\prf\c[4]Hombre Pez：\C[0] .....
+
+AriseVillageFish/2to3_5
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]Hombre Pez：\C[0] Listo....
+
+AriseVillageFish/2to3_6
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] ......
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] Vale, pero ¿por qué me tocas los pechos?
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Hombre Pez：\C[0] Mujer humana... tetas de esclava... consagro a la Bruja del Mar...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Hombre Pez：\C[0] A la Bruja del Mar no le gustan... tetas grandes de esclavas...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Hombre Pez：\C[0] Tenemos suerte... Eres guerrera... Tetas pequeñas...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]Hombre Pez：\C[0] Las puertas de la Bruja del Mar.... Están abiertas para ti....
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] Ja......\CBct[6]\m[tired]\prf ¿Mis pequeñas......?
+
+#################################################### Exploración de la Cueva 3 #update
+
+AriseVillageFish/3to4_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Hombre Pez：\C[0] ¡Alabada sea la Bruja del Mar...! ¡El chamán dice la verdad...!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Emmm... ¿Bien?
+
+AriseVillageFish/3to4_1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿La puerta está cerrada?!
+
+AriseVillageFish/3to4_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Hombre Pez：\C[0] No temas... El chamán dice... Hay otras salidas...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0] ¿En serio?
+
+AriseVillageFish/4to5_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Hombre Pez：\C[0] Guerrero humano... Mira aquí...
+
+AriseVillageFish/4to5_1
+\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Hace muchos años... En la guerra... Los humanos destruyeron este lugar...
+\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Destruyeron nuestros templos... Se llevaron a nuestros esclavos...
+\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Saquearon... Los humanos son malvados...
+\m[confused]\PRF\c[6]Lona：\C[0] Ugh... ¿Disculpa...?
+\prf\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Todo terminó... Perdono al guerrero...
+
+AriseVillageFish/4to5_2
+\BonMP[EXIT,19]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Mira allí... Es la salida...
+\m[flirty]\PRF\c[6]Lona：\C[0] ¿Oh?
+\BonMP[fishF1,19]\BonMP[fishF2,19]\prf\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Rodeado de \c[6]Siervos del Mal\C[0]....
+\prf\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Antes de irte... Encuentra la Estatua Sagrada de la Bruja del Mar....
+\prf\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Derrota a estos.... \c[6]Siervos del Mal\C[0]....
+
+AriseVillageFish/4to5_3
+\BonMP[Ca2,19]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Quizás... deberíamos ir por aquí...?
+\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Así podemos evitar a esos....\c[6]Siervos del Mal\C[0]...?
+
+AriseVillageFish/4to5_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Humana... Mujer guerrera... Depende de ti...
+
+AriseVillageFish/5to6_0
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Aquí... Este lugar.....
+
+AriseVillageFish/5to6_1_1
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Gran Bruja del Mar... hemos regresado...
+
+AriseVillageFish/5to6_1_2
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Hemos regresado......
+
+AriseVillageFish/5to6_1_3
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Por qué los antepasados están en caos... Por qué los siervos son malvados...
+
+AriseVillageFish/5to6_1_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] Dime... la verdad...
+
+AriseVillageFish/5to6_2
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Desconocido：\C[0] ¡¿Quién anda ahí?! ¡¿Eres tú?!
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Desconocido：\C[0] ¡Deja de esconderte! ¡Escuché que alguien te llamaba!
+
+AriseVillageFish/5to6_3
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Desconocido：\C[0] ¡¿Allá?! ¡Ese idiota con tetas enormes otra vez escondiéndose!
+
+AriseVillageFish/5to6_3_KnowLona
+\CBmp[Justice,8]\SETpl[DedOne_normal]\Lshake\c[4]Justicia：\C[0] Oh, ¿eres tú?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Eh... Tú... ¿Quién eres?
+
+AriseVillageFish/5to6_4
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]Hombre Pez：\C[0] Tú.... ¡No eres la Bruja del Mar...!
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]Hombre Pez：\C[0] ¡Eres malvado... Falso Dios...!
+
+AriseVillageFish/5to6_5
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]Justicia：\C[0] ¡Eres malvado! ¡Toda tu familia es malvada!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]Justicia：\C[0] ¡Soy un guerrero que lucha por la Justicia!
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]Justicia：\C[0] ¡Déjame decirte la verdad! ¡Sabrás qué es el mal!
+
+AriseVillageFish/5to6_6
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] {¡GAAAAAA!
+
+AriseVillageFish/5to6_7
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] {No... ¡No es verdad...!
+
+AriseVillageFish/5to6_8
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] {¡Mentiroso...! ¡Mentiroso...!
+
+AriseVillageFish/5to6_9
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]Hombre Pez：\C[0] {¡GGHHHAAAAA!
+
+AriseVillageFish/5to6_10_1
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\C[0] {¡WAAAAAA!!!
+
+AriseVillageFish/5to6_10_2
+\CBct[20]\m[bereft]\Rshake\c[6]Lona：\C[0] ¡No... No te acerques!
+
+AriseVillageFish/5to6_11
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0] Eh... ¿Qué está pasando?
+
+AriseVillageFish/5to6_12
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿Dónde están todos?! ¡¿Acaso está muerto?!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\C[0] ¿No me seguía hace un momento?
+\CBct[8]\m[tired]\PRF\c[6]Lona：\C[0] Qué debo decirle a sus amigos.
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0] Ughh.....
+
+AriseVillageFish/6to7
+\CBct[8]\m[tired]\PRF\c[6]Lona：\C[0] ....
+
+CampHumWatcher/6and7_0
+\CBid[-1,20]\c[4]Miliciano：\C[0] Somos la milicia de la aldea Alais, ahora estás a salvo.
+
+CampHumWatcher/6and7_1
+\CBid[-1,20]\c[4]Miliciano：\C[0] No temas, todos los malvados Hombres Pez están muertos.
+
+CampHumLooter/6and7_0
+\CBid[-1,20]\c[4]Miliciano：\C[0] La guardia de la ciudad nos dijo que no tocáramos a esos bastardos.
+\CBid[-1,20]\c[4]Miliciano：\C[0] También dijeron que todos los Hombres Pez en problemas deben ser protegidos y enviados de vuelta a Noer.
+\CBid[-1,20]\c[4]Miliciano：\C[0] La gente de la ciudad es un hazmerreír.
+
+CampHumLooter/6and7_1
+\CBid[-1,20]\c[4]Miliciano：\C[0] Estos híbridos pueden cargar mucha pesca, suficiente para alimentar a la aldea por mucho tiempo.
+\CBid[-1,20]\c[4]Miliciano：\C[0] Una vez trajeron a dos esclavas, una de ellas me la quedé yo.
+\CBid[-1,20]\c[4]Miliciano：\C[0] Déjame decirte, tiene unas tetas enormes, y sus gemidos suenan tan bien en la cama.
+
+CampHumLooter/6and7_2
+\CBid[-1,20]\c[4]Miliciano：\C[0] No se lo digas a nadie, y yo no diré nada, nadie en la ciudad lo sabrá.
+\CBid[-1,20]\c[4]Miliciano：\C[0] No nos ayudaron cuando los \c[6]Profundos\C[0] y los bandidos nos atacaron.
+\CBid[-1,20]\c[4]Miliciano：\C[0] ¿Por qué debería escucharlos?
+
+CampHumGuard/6and7_0
+\CBid[-1,20]\c[4]Miliciano：\C[0] Antes de morir, esos bastardos gritaban que el mal de sus antepasados no tenía nada que ver con ellos.
+\CBid[-1,20]\c[4]Miliciano：\C[0] No lo entendí, ahora están muertos.
+
+CampHumGuard/6and7_1
+\CBid[-1,20]\c[4]Miliciano：\C[0] ¿Se puede confiar en esos demonio-humanos tan repugnantes? Son más asquerosos que las razas mezcladas.
+
+CampHumGuard/6and7_2
+\CBid[-1,5]\c[4]Miliciano：\C[0] ¡Huele, huele mucho! ¡El olor a pescado después de morir es aún peor!
+
+##############################################################################################################
+
+AriseVillage/1to2_rg5_0
+\Bon[8]\m[shocked]\Rshake\c[6]Lona：\C[0] ¿Qué es esto...? ¿Un cadáver?
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]Hombre Pez：\C[0] El campamento... También sufrieron humanos... ¿Ataque?
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]Hombre Pez：\C[0] Debemos..... Apurarnos...
+
+AriseVillage/1to2_rg5_1
+\SndLib[FishkindSmSpot]\BonMP[QuTar,20]\prf\c[4]Soldado：\C[0] ¡Humano...! ¡Humano nos encontró! ¡Matar!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\C[0] ¿Qué? ¿¡Yo!?
+
+AriseVillage/1to2_rg5_2
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Hombre Pez：\C[0] Hermano, detente...! ¡Él me salvó...!
+
+AriseVillage/1to2_rg5_3
+\SndLib[FishkindSmSpot]\CBmp[QuTar,20]\c[4]Soldado：\C[0] Hermano... ¡Estás vivo...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Hombre Pez：\C[0] Sí hermano... ¡Estoy vivo...!
+
+AriseVillage/1to2_rg5_4
+\SndLib[FishkindSmSpot]\CBmp[QuTar,4]\c[4]Soldado：\C[0] ¡Gracias a la Bruja del Mar...!
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,4]\c[4]Hombre Pez：\C[0] ¡Gloria a la Bruja del Mar...!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] Ugh.....
+
+AriseVillage/1to2_rg5_5
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Hombre Pez：\C[0] Gracias... Guerrero humano...
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]Hombre Pez：\C[0] Este regalo es para ti...
+
+AriseVillage/1to2_rg5_6
+\CBct[4]\m[triumph]\Rshake\c[6]Lona：\C[0] ¡Gracias!
+
+AriseVillage/1to2_rg5_7
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]Soldado：\C[0] Hermano... ¿Realmente te salvó... una mujer?
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]Hombre Pez：\C[0] ¿Mujer...? ¿Ella es mujer...?
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]Soldado：\C[0] Sí... Hermano...
+
+AriseVillage/1to2_rg5_8
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]Hombre Pez：\C[0] ¿Eres mujer...?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] Sí... ¿Algo malo?
+\prf\CBmp[FishExplorer,8]\c[4]Hombre Pez：\C[0] ......
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] .....Hmm?

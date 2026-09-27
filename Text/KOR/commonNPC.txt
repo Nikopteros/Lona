@@ -1,0 +1,960 @@
+#return "_slave"			if $lona_stats["SlaveBrand"] ==1
+#return "_maggot"		if $game_actors[1].dirt >= 200 <r=HiddenOPT1>
+#return "_sexy"			if $game_actors[1].sexy >= 100
+#return "_weaker"		if $game_actors[1].weak >= 100
+#return "_moot"			if $lona_stats["moot"] ==1
+#return "_lona"
+
+RandomNpc/OptUsed
+이미 시도해봤어.
+
+RandomNpc/choosed
+\ph\..\..\..\WF[10]
+
+#--------------------------------------------------------------------------- Overmap NoerHomeless
+
+NoerHomeless/beginM0
+\c[4]난민：\c[0] 뭐라도 좀 주실 수 있나요... 아가씨...
+
+NoerHomeless/beginM1
+\c[4]난민：\c[0] 배고파요... 도와주세요...
+
+NoerHomeless/beginM2
+\c[4]난민：\c[0] 아가씨... 자비를...
+
+NoerHomeless/beginF0
+\c[4]난민：\c[0] 뭐라도 좀 나눠줘...
+
+NoerHomeless/beginF1
+\c[4]난민：\c[0] 너무 배고파...
+
+NoerHomeless/beginF2
+\c[4]난민：\c[0] 제발 자비를...
+
+NoerHomeless/Begin2
+\c[4]난민：\c[0] .........
+
+NoerHomeless/END_Good0
+\c[4]난민：\c[0] 이 은혜 잊지 않겠습니다!
+
+NoerHomeless/END_Good1
+\c[4]난민：\c[0] 정말 고마워요!
+
+NoerHomeless/END_Good2
+\c[4]난민：\c[0] 큰 은혜, 정말 감사드립니다!
+
+NoerHalp/get_reward0
+\c[4]난민：\c[0] 도와주셔서 감사합니다. 이거 받아주세요.
+
+NoerHalp/get_reward1_0
+\c[4]난민：\c[0] 성자께서 당신과 함께하시길!
+
+NoerHalp/get_reward1_1
+\c[4]난민：\c[0] 다시 한 번 감사드려요.
+
+#--------------------------------------------------------------------------- Overmap NoerMissionary
+
+NoerMissionary/Begin0
+\c[4]전도사：\c[0] 성자가 그대를 인도하시길!
+
+NoerMissionary/Begin1
+\board[기부로 선행 쌓기]
+1000포인트를 기부할 때마다 세계 난이도가 1씩 감소합니다(최대 10까지).
+성자가 세상의 거짓과 악을 정화할 것입니다! 성자를 찬양하라!
+현재 세계 난이도: \c[4] #{$story_stats["WorldDifficulty"].round(2)} \c[0]
+
+NoerMissionary/END_Good
+\c[4]전도사：\c[0] 성자가 당신의 길을 밝혀주실 겁니다!
+
+NoerMissionary/END_Bad
+\c[4]전도사：\c[0] 이 거짓말쟁이! 성자가 너를 정화할 것이다!
+\m[shocked]\plf\PRF\c[6]로나：\c[0] 진짜야?!
+
+NoerMissionary/Qmsg
+성자를 찬양하라!
+
+#--------------------------------------------------------------------------- Overmap Quest Giver
+
+Qgiver/ConvoyToNoer_begin0
+\c[4]난민：\c[0] 저희를 좀 도와주실 수 있나요?
+
+Qgiver/ConvoyToNoer_begin1
+\c[4]난민：\c[0] 이 사람을 노엘 마을까지 안전하게 데려다주세요.
+
+Qgiver/ConvoyToNoer_board
+\board[난민 호위 - 노엘 마을까지]
+목표 : 난민을 노엘 마을 거리나 노엘 마을까지 호위
+보상 : 큰 동전 1개, 평판 5
+의뢰인 : 난민
+기한 : 5일
+
+Qgiver/ConvoyToHobo_begin1
+\c[4]난민：\c[0] 이 사람을 난민촌까지 안전하게 데려다주세요.
+
+Qgiver/ConvoyToHobo_board
+\board[난민 호위 - 난민촌까지]
+목표 : 난민을 난민촌이나 빈민가까지 호위
+보상 : 작은 동전 5개, 평판 2
+의뢰인 : 난민
+기한 : 5일
+
+Qgiver/ConvoyToNoer_accept
+\prf\c[4]난민：\c[0] 정말 감사합니다.
+
+Qtarget/Arrivel
+\prf\c[4]난민：\c[0] 감사합니다. 당신의 선행을 널리 알리겠습니다.
+
+#-------------------#------COMMON CONVOY TARGET(victim)
+
+victim/Convoy_opt
+\plf\c[0]부상자：\c[0] 으… 당신이 절 구하러 온 거예요?\optB[아니,맞아]
+
+victim/Convoy_start0
+\plf\c[0]부상자：\c[0] 네… 잘 따라갈게요.
+
+victim/Convoy_start1
+\board[피해자 호위]
+목표를 3x3 출구 범위까지 호위한 후, 대화하세요.
+진행 중 목표가 사망하거나 휴식할 수 없습니다.
+
+victim/Convoy_start2
+\board[피해자를 노엘 마을까지 호위]
+목표: 피해자를 노엘 마을 거리 또는 노엘 마을까지 호위하세요.
+진행 중 목표가 사망해서는 안 됩니다.
+
+
+############################## COMMON EXT Convoy
+
+
+NPC/CommonConvoyTarget0
+\prf\c[4]난민：\c[0] 아직 멀었나요?
+
+NPC/CommonConvoyTarget1
+\prf\c[4]난민：\c[0] 빨리 가요.
+
+NPC/CommonConvoyTarget2
+\prf\c[4]난민：\c[0] 움직입시다.
+
+
+##------------------------------------------common---------------------------------------------------sex trade
+
+RandomNpc/WhoreWork_normal
+\CBct[20]\cg[event_WhoreWork]\m[shy]\c[6]로나：\c[0] 저기... 혹시, 그런 거... 하고 싶으세요?
+
+RandomNpc/WhoreWork_tsun
+\CBct[6]\cg[event_WhoreWork]\m[terror]\c[6]나도 어쩔 수 없었어!
+\CBct[6]\m[bereft]\Rshake\c[6]정말, 어쩔 수 없는 일이야!
+
+RandomNpc/WhoreWork_weak
+\CBct[8]\cg[event_WhoreWork]\m[fear]\c[6]로나：\c[0] ........
+
+RandomNpc/WhoreWork_slut
+\CBct[4]\cg[event_WhoreWork]\m[triumph]\c[6]로나：\c[0] 안 할 거예요?
+
+RandomNpc/WhoreWork_overfatigue
+\CBct[8]\cg[event_WhoreWork]\m[tired]\c[6]로나：\c[0] ........
+
+RandomNpc/WhoreWork_mouth_block
+\CBct[8]\cg[event_WhoreWork]\m[sad]\c[6]로나：\c[0] 흐읍...
+
+RandomNpc/WhoreWork_win
+\BonID[-1,4]\CamCT\m[shy]\cgoff\narr성공했다.
+
+RandomNpc/WhoreWork_failed
+\BonID[-1,5]\CamCT\CBct[0]\m[sad]\cgoff실패했다. 상대는 로나에게 전혀 관심을 보이지 않는다.
+
+RandomNpc/WhoreWork_win_opt_win
+\CBct[8]\m[shy]\c[6]로나：\c[0] 응...
+
+prostituation/CustomerPick0
+그는 로나의
+
+prostituation/CustomerPick1
+서비스에 흥미를 보인다.
+
+prostituation/CustomerPick2_CumInside
+안에 사정하고 싶어 한다.
+
+prostituation/CustomerPick2_CumOutside
+밖에 사정하겠다고 약속한다.
+
+prostituation/reward0
+보상을 제공하겠다고 한다.
+
+prostituation/reward1
+배의 거래 포인트를 주겠다고 한다.
+
+prostituation/Handjob
+손으로 해주기
+
+prostituation/Blowjob
+입으로 해주기
+
+prostituation/Anal
+항문으로 해주기
+
+prostituation/Virgin
+나는 아직 순결해
+
+prostituation/Vaginal
+질로 해주기
+
+prostituation/SemiAuto
+기술로 대응
+
+prostituation/FullAuto
+아무렇게나 해
+
+prostituation/Repent
+취소할래
+
+prostituation/Wisdom
+값을 흥정한다
+
+prostituation/Full
+풀코스
+
+prostituation/CumInside
+안에 사정하게 한다
+
+prostituation/CumOutside
+밖에 사정해 달라고 부탁한다
+
+prostituation/Nymph
+무료로 서비스해준다
+
+prostituation/CumInside_dialog_typical
+\m[shy]\Rshake\c[6]로나：\c[0] 응... 안에 싸도 돼...
+
+prostituation/CumInside_dialog_tsundere
+\m[sad]\Rshake\c[6]로나：\c[0] 그래! 안에 싸! 특별히 허락하는 거니까! 운 좋은 줄 알아!
+
+prostituation/CumInside_dialog_gloomy
+\m[shy]\Rshake\c[6]로나：\c[0] ...응, 괜찮아... 안에 싸도 돼...
+
+prostituation/CumInside_dialog_slut
+\m[lewd]\Rshake\c[6]로나：\c[0] 안에다! 안에 싸줘! 내 몸으로 느끼고 싶어!
+
+prostituation/CumOutside_dialog_typical
+\m[terror]\Rshake\c[6]로나：\c[0] 안 돼! 안에는 안 돼! 밖에 싸줘!
+
+prostituation/CumOutside_dialog_tsundere
+\m[wtf]\Rshake\c[6]로나：\c[0] 밖에 싸! 절대 안에는 안 돼! 아니면... 부탁이야, 제발 밖에다 싸줘!
+
+prostituation/CumOutside_dialog_gloomy
+\m[bereft]\Rshake\c[6]로나：\c[0] 안 돼... 안에는 안 돼... 제발...
+
+prostituation/CumOutside_dialog_slut
+\m[flirty]\Rshake\c[6]로나：\c[0] 응? 안 돼! 밖에 싸줘, 내 피부로 느끼고 싶으니까.
+
+prostituation/CumOutside_dialog_CustomerHappy
+\narr밖에 싸는 걸 좋아한다며 매우 기뻐한다...
+
+prostituation/CumOutside_dialog_CustomerMad
+\narr밖에 싸는 걸 좋아한다며 몹시 화를 낸다...
+
+###############
+
+prostituation/Virgin_dialog_typical
+\m[shy]\Rshake\c[6]로나：\c[0] 저\.... 나\.... 이게 처음이에요\....
+
+prostituation/Virgin_dialog_tsundere
+\m[shy]\Rshake\c[6]로나：\c[0] 저\... 그게\... 아직 한 번도 안 해봤거든\... 그러니까, 아직\... 남아있어....
+
+prostituation/Virgin_dialog_gloomy
+\m[shy]\Rshake\c[6]로나：\c[0] 잠\... 잠깐만요\.... 저... 아직 깨끗해요\.....
+
+prostituation/Virgin_dialog_slut
+\m[shy]\Rshake\c[6]로나：\c[0] 후후... 아직 순결한 몸이야! 당신이 내 첫 번째가 되는 거야!
+
+prostituation/Virgin_dialog_ans
+\narr로나의 말에 그 자는 음흉하게 웃었다.
+
+prostituation/Virgin_dialog_faggot
+\narr그는 로나에게, 소중한 것은 정말 소중한 사람에게 남겨야 한다고 말했다.
+
+################
+
+prostituation/Nymph_dialog
+\m[lewd]\c[6]로나：\c[0] 그냥 하고 싶어서 그래. 공짜로 해줄게.
+\narr상대방이 매우 기뻐한다!
+
+prostituation/Wisdom_dialog
+\m[shy]\c[6]로나：\c[0] 더 좋은 서비스 받고 싶지 않아? 조금만 더 얹어주면...
+
+prostituation/Wisdom_dialog_more
+\m[shy]\c[6]로나：\c[0] 이런 서비스면... 좀 더 받아도 되겠지...?
+
+prostituation/Wisdom_dialog_angry
+\narr이런 서비스면... 좀 더 받아도 되겠지...?
+
+prostituation/Repent_dialog
+\m[flirty]\c[6]로나：\c[0] 음... 역시 그만둘래.
+
+prostituation/Repent_dialog_aggro
+\narr로나가 포기하자, 상대가 무척 화를 낸다!
+
+prostituation/Repent_blocked_slot
+\narr이 부위는 사용할 수 없다...
+\narr상대가 화를 냈다!
+
+prostituation/Aggro
+\narr상대가 화를 냈다!
+\narrOFF\m[terror]\Rshake\c[6]로나：\c[0] 끼야악!!
+
+
+RandomNpc/WhoreWork_win_opt_lose
+\narr로나가 너무 약해서 상대의 뜻대로 끌려갈 수밖에 없었다.
+
+RandomNpc/WhoreWork_GotoPoint
+\narr로나와 상대는 어둑한 구석으로 향했다.
+
+RandomNpc/WhoreWork_failed_GuardWrongPlace
+여기서 이러면 안 돼!
+
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+
+GoblinRandomNpc/CommonGoblin_begin1_0
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]마물：\c[0] 꾸꾸... 고기 구멍?
+
+GoblinRandomNpc/CommonGoblin_begin1_1
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]마물：\c[0] 꾸챠! 꾸부와따, 고기 구멍?
+
+GoblinRandomNpc/CommonGoblin_begin1_2
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]마물：\c[0] 꾸부따?!
+
+GoblinRandomNpc/CommonGoblin_CommonNpcOpt
+\SndLib[sound_goblin_roar]\SETpl[goblin]\m[confused]\plf\PRF\c[6]로나：\c[0] 응?
+
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+
+OrcRandomNpc/CommonOrc_begin1_0
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]마물：\c[0] 푸히히!! 고기!!
+
+OrcRandomNpc/CommonOrc_begin1_1
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]마물：\c[0] 고기 먹어! 구멍! 푸히!
+
+OrcRandomNpc/CommonOrc_begin1_2
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]마물：\c[0] 푸히, 구멍! 구멍!
+
+OrcRandomNpc/CommonOrc_CommonNpcOpt
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\m[confused]\plf\PRF\c[6]로나：\c[0] 응?
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/CommonHuman_begin1_slave
+\c[4]행인：\c[0] 꺼져! 더러운 노예 주제에.
+
+MaleHumanRandomNpc/CommonHuman_begin1_maggot
+\c[4]행인：\c[0] 냄새나!
+
+MaleHumanRandomNpc/CommonHuman_begin1_sexy
+\c[4]행인：\c[0] 오?
+
+MaleHumanRandomNpc/CommonHuman_begin1_weaker
+\c[4]행인：\c[0] 거지냐? 저리 꺼져.
+
+MaleHumanRandomNpc/CommonHuman_begin1_moot
+\c[4]행인：\c[0] 쥐새끼, 뭐 볼 일 있어?
+
+MaleHumanRandomNpc/CommonHuman_begin1_lona
+\c[4]행인：\c[0] 뭐야, 시비 걸 거야?
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleGuardWild/CommonHuman_begin1_slave
+\c[4]경비병：\c[0] 노예냐? 나 좀 즐겁게 해봐!
+
+MaleGuardWild/CommonHuman_begin1_maggot
+\c[4]경비병：\c[0] 더럽게! 저리 비켜!
+
+MaleGuardWild/CommonHuman_begin1_sexy
+\c[4]경비병：\c[0] 오♥ 새로 온 위안부인가?
+
+MaleGuardWild/CommonHuman_begin1_weaker
+\c[4]경비병：\c[0] 구걸하러 왔냐? 꺼져.
+
+MaleGuardWild/CommonHuman_begin1_moot
+\c[4]경비병：\c[0] 쥐새끼! 어디다 눈길이야! 썩 꺼져!
+
+MaleGuardWild/CommonHuman_begin1_lona
+\c[4]경비병：\c[0] 안 보여? 나 바쁘잖아.
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleDoomed/CommonHuman0
+\c[4]행인：\c[0] 야, 이 세상은 끝장이야.
+
+MaleDoomed/CommonHuman1
+\c[4]행인：\c[0] 어차피 다 죽을 거, 죽기 전에 실컷 즐기자고!
+
+MaleDoomed/CommonHuman2
+\c[4]행인：\c[0] 이제 진짜 끝이야. 성도가 우리를 버렸어!
+
+#---------------------#-------------------#---------------------Sailer-------------------------------
+
+MaleNoerDockNpc/Sailer_slave
+\c[4]행인：\c[0] 노예잖아? 헤헤.
+
+MaleNoerDockNpc/Sailer_maggot
+\c[4]행인：\c[0] 냄새 지독하네, 꺼져.
+
+MaleNoerDockNpc/Sailer_sexy
+\c[4]행인：\c[0] 헤헤, 아가씨~ 한 번 놀아볼래?
+
+MaleNoerDockNpc/Sailer_weaker
+\c[4]행인：\c[0] 야! 작은년, 형 좀 도와줄래?
+
+MaleNoerDockNpc/Sailer_moot
+\c[4]행인：\c[0] 귀찮게 하지 마!
+
+MaleNoerDockNpc/Sailer_lona
+\c[4]행인：\c[0] 안 보여? 나 바쁘거든.
+
+#---------------------#-------------------#---------------------BS GAng-------------------------------
+
+CommonGangMember/commonBegin_lona
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]갱단원：\c[0] 뭘 그렇게 뚫어져라 봐?
+
+CommonGangMember/commonBegin_maggot
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]갱단원：\c[0] 시비야?
+
+CommonGangMember/commonBegin_sexy
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]갱단원：\c[0] 응?
+\CBid[0,4]\SETpl[MobHumanCommoner]\Lshake\c[4]갱단원：\c[0] \..\..\..헤헤♥
+
+CommonGangMember/commonBegin_weaker
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]갱단원：\c[0] 너 신입이냐?
+
+CommonGangMember/commonBegin_moot
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]갱단원：\c[0] 어디서 굴러온 놈이야, 꺼져!
+
+CommonGangMember/commonBegin_slave
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]갱단원：\c[0] 어서 일이나 해!
+
+#---------------------#-------------------#---------------------
+
+MaleHumanRandomNpc/CommonHuman_CommonNpcOpt
+\m[confused]\c[6]로나：\c[0] 응?
+
+commonNpc/Cancel
+취소
+
+commonNPC/Cancel
+취소
+
+commonNpc/Barter
+거래
+
+commonNPC/Barter
+거래
+
+commonNpc/Prostitution
+매춘
+
+commonNPC/Prostitution
+매춘
+
+commonNpc/SexService
+성 서비스
+
+commonNPC/SexService
+성 서비스
+
+commonNpc/Talk
+대화
+
+commonNPC/Talk
+대화
+
+commonNpc/Threaten
+위협
+
+commonNPC/Threaten
+위협
+
+commonNpc/Begging
+구걸
+
+commonNPC/Begging
+구걸
+
+commonNpc/About
+회화
+
+commonNPC/About
+회화
+
+commonNpc/Work
+일한다
+
+commonNPC/Work
+일한다
+
+commonNpc/Convoy
+용병
+
+commonNPC/Convoy
+용병
+
+commonNpc/Slave
+노예
+
+commonNPC/Slave
+노예
+
+commonNpc/Steal
+절도
+
+commonNPC/Steal
+절도
+
+commonNpc/Deceive
+사기
+
+commonNPC/Deceive
+사기
+
+commonNpc/Yes
+네
+
+commonNPC/Yes
+네
+
+commonNpc/Storage
+보관
+
+commonNPC/Storage
+보관
+
+commonNpc/Chat
+대화
+
+commonNPC/Chat
+대화
+
+commonNpc/opt_ex_LoanInfo
+대출 정보
+
+commonNPC/opt_ex_LoanInfo
+대출 정보
+
+commonNpc/opt_ex_Loan
+대출
+
+commonNPC/opt_ex_Loan
+대출
+
+commonNpc/opt_ex_Repayment
+상환
+
+commonNPC/opt_ex_Donation
+헌금
+
+commonNPC/opt_ex_Repayment
+상환
+
+commonNpc/opt_ex_Employee
+직원 되기
+
+commonNPC/opt_ex_Employee
+직원 되기
+
+commonNpc/work_opt_ex_nothing
+아무것도 모른다
+
+commonNPC/work_opt_ex_nothing
+아무것도 모른다
+
+commonNpc/work_opt_ex_whore
+뒷골목 창녀
+
+commonNPC/work_opt_ex_whore
+뒷골목 창녀
+
+commonNpc/opt_PawnItems
+전당포
+
+commonNPC/opt_PawnItems
+전당포
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/HoboM_begin1_slave
+\c[4]거지：\c[0] 꺼져! 나한테 손대지 마!
+
+MaleHumanRandomNpc/HoboM_begin1_maggot
+\c[4]거지：\c[0] 꺼져! 나한테 손대지 마!
+
+MaleHumanRandomNpc/HoboM_begin1_sexy
+\c[4]거지：\c[0] 크흐흐...
+
+MaleHumanRandomNpc/HoboM_begin1_weaker
+\c[4]거지：\c[0] 응?
+
+MaleHumanRandomNpc/HoboM_begin1_moot
+\c[4]거지：\c[0] 귀찮게 하지 마!
+
+MaleHumanRandomNpc/HoboM_begin1_lona
+\c[4]거지：\c[0] 뭐야?
+
+
+MaleHumanRandomNpc/HoboF_begin1_slave
+\c[4]거지：\c[0] 노예야? 나도 그냥 나 자신을 팔아버릴까 싶네.
+
+MaleHumanRandomNpc/HoboF_begin1_maggot
+\c[4]거지：\c[0] 너도 사는 게 쉽지 않나 보네.
+
+MaleHumanRandomNpc/HoboF_begin1_sexy
+\c[4]거지：\c[0] 그러게, 이런 세상에선 몸이라도 팔아야 살 수 있지.
+
+MaleHumanRandomNpc/HoboF_begin1_weaker
+\c[4]거지：\c[0] 너도 힘들구나...
+
+MaleHumanRandomNpc/HoboF_begin1_moot
+\c[4]거지：\c[0] 오늘은 뭐라도 먹을 수 있을까?
+
+MaleHumanRandomNpc/HoboF_begin1_lona
+\c[4]거지：\c[0] 배고파...
+
+
+MaleHumanNoerNpc/PplM_begin1_slave
+\c[4]시민：\c[0] 더러운 노예 주제에! 꺼져!
+
+MaleHumanNoerNpc/PplM_begin1_maggot
+\c[4]시민：\c[0] 저리 가! 더러운 꼬마야!
+
+MaleHumanNoerNpc/PplM_begin1_sexy
+\c[4]시민：\c[0] 후후...
+
+MaleHumanNoerNpc/PplM_begin1_weaker
+\c[4]시민：\c[0] 뭐야, 돈 줄 생각 없어!
+
+MaleHumanNoerNpc/PplM_begin1_moot
+\c[4]시민：\c[0] 저리 비켜! 더러운 혼혈아!
+
+MaleHumanNoerNpc/PplM_begin1_lona
+\c[4]시민：\c[0] 무슨 일이야?
+
+
+MaleHumanGangNpc/PplM_begin1_slave
+\c[4]양아치：\c[0] 더러운 노예 주제에! 꺼져!
+
+MaleHumanGangNpc/PplM_begin1_maggot
+\c[4]양아치：\c[0] 저리 가! 더러운 꼬맹이!
+
+MaleHumanGangNpc/PplM_begin1_sexy
+\c[4]양아치：\c[0] 후후...
+
+MaleHumanGangNpc/PplM_begin1_weaker
+\c[4]양아치：\c[0] 뭐야, 난 돈 없어!
+
+MaleHumanGangNpc/PplM_begin1_moot
+\c[4]양아치：\c[0] 비켜! 눈앞에서 꺼져!
+
+MaleHumanGangNpc/PplM_begin1_lona
+\c[4]양아치：\c[0] 무슨 일이야?
+
+
+MaleHumanNoerNpc/PplF_begin1_slave
+\c[4]시민：\c[0] 더러운 노예! 당장 꺼져!
+
+MaleHumanNoerNpc/PplF_begin1_maggot
+\c[4]시민：\c[0] 냄새나! 저리 가!
+
+MaleHumanNoerNpc/PplF_begin1_sexy
+\c[4]시민：\c[0] 어디서 굴러먹던 창녀야.
+
+MaleHumanNoerNpc/PplF_begin1_weaker
+\c[4]시민：\c[0] 난 줄 돈 없어!
+
+MaleHumanNoerNpc/PplF_begin1_moot
+\c[4]시민：\c[0] 혼혈이야?
+
+MaleHumanNoerNpc/PplF_begin1_lona
+\c[4]시민：\c[0] 무슨 일이야?
+
+
+MaleHumanGuardM/begin1_slave
+\c[4]경비병：\c[0] 네 주인한테나 돌아가!
+
+MaleHumanGuardM/begin1_maggot
+\c[4]경비병：\c[0] 비켜! 저리 가!
+
+MaleHumanGuardM/begin1_sexy
+\c[4]경비병：\c[0] 허허?
+
+MaleHumanGuardM/begin1_weaker
+\c[4]경비병：\c[0] 뭘 봐? 너한테 쓸 시간 없어!
+
+MaleHumanGuardM/begin1_moot
+\c[4]경비병：\c[0] 어디서 눈길질이야? 또 쳐다보면 감옥에 넣어버린다.
+
+MaleHumanGuardM/begin1_lona
+\c[4]경비병：\c[0] 뭐야, 왜 쳐다봐?
+
+
+MaleFishKindM/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 노예... 여자... 여자... 하고 싶어...
+
+MaleFishKindM/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 냄새... 심해... 비켜...
+
+MaleFishKindM/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] \{...여자... 갖고 싶어...
+
+MaleFishKindM/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 여자... 이리 와...
+
+MaleFishKindM/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 시끄러... 저리 가...
+
+MaleFishKindM/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]어인：\c[0] 뭐... 일이야...
+
+
+MaleFishKindGuard/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]어인 경비：\c[0] 노예... 노예들은 노예 캠프로...
+
+MaleFishKindGuard/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]어인 경비：\c[0] 더러운 여자... 꺼져...
+
+MaleFishKindGuard/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]어인 경비：\c[0] 여자... 하고 싶다...
+
+MaleFishKindGuard/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]어인 경비：\c[0] 여자... 여자...
+
+MaleFishKindGuard/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]어인 경비：\c[0] 징그러... 비켜...
+
+MaleFishKindGuard/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]어인 경비：\c[0] 인간... 싫어...
+
+
+WencherM/begin0
+\c[4]행인：\c[0] 헤헤♥ 한 판에 얼마야?♥
+
+WencherM/begin1
+\c[4]행인：\c[0] 후후♥ 꼬맹이! 한 번 할래?
+
+WencherM/begin2
+\c[4]행인：\c[0] 나 좀 빨아줘♥
+
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+
+MaleHumanRandomNpc/CommonMerchant_begin1_slave
+\m[normal]\c[4]행상인：\c[0] 노예? 후후...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_maggot
+\m[normal]\c[4]행상인：\c[0] 으~ 더러워... 저리 가.
+
+MaleHumanRandomNpc/CommonMerchant_begin1_sexy
+\m[normal]\c[4]행상인：\c[0] 후후... 뭘 사고 싶어? 나한텐 다 있어! 헤헤...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_weaker
+\m[normal]\c[4]행상인：\c[0] 뭐 필요한 거라도?
+
+MaleHumanRandomNpc/CommonMerchant_begin1_moot
+\m[normal]\c[4]행상인：\c[0] 뭐, 물건 사러 온 거야?
+
+MaleHumanRandomNpc/CommonMerchant_begin1_lona
+\m[normal]\c[4]행상인：\c[0] 뭐 필요한 거 있어?
+
+MaleHumanRandomNpc/CommonMerchant_CommonNpcOpt
+\m[confused]로나：\c[0] 응?
+
+#----------------------------溝通
+
+MaleHumanRandomNpc/CommonMerchant_comm
+\m[flirty]\c[6]로나：\c[0] 이것 좀 먼저 봐봐...
+\m[pleased]\cg[temp](로나가 상대에게 근처 정보를 공유한다)
+
+MaleHumanRandomNpc/CommonMerchant_comm_win
+\c[4]상인：\c[0]\n\prf\cgoff 이거 정말 큰 도움이 됐어. 고마워, 정말로.
+\m[normal]로나：\c[0]\n\PRF 별말씀을요, 당연한 거죠.
+
+MaleHumanRandomNpc/CommonMerchant_comm_failed
+\c[4]상인：\c[0]\n\prf\cgoff 이런 건 이미 다 알고 있었어.
+\m[confused]로나：\c[0]\n\PRF 아... 그런가요.
+
+#----------------------------威脅
+
+MaleHumanRandomNpc/CommonMerchant_threaten_normal
+\m[overkill]\c[6]로나：\c[0]\n\Rshake\cg[temp] 저기... 미안한데, 가지고 있는 거 좀 내놔.
+
+MaleHumanRandomNpc/CommonMerchant_threaten_tsun
+\m[angry]\c[6]로나：\c[0]\n\Rshake\cg[temp] 당장 가진 거 다 내놔. 목숨은 살려줄게.
+
+MaleHumanRandomNpc/CommonMerchant_threaten_weak
+\m[fear]\c[6]로나：\c[0]\n\Rshake\cg[temp] 제발... 미안해... 그거 좀 줘...
+
+MaleHumanRandomNpc/CommonMerchant_threaten_slut
+\m[overkill]\c[6]로나：\c[0]\n\Rshake\cg[temp] 후훗, 착하게 다 내놓으라구.
+
+MaleHumanRandomNpc/CommonMerchant_threaten_overfatigue
+\m[tired]\c[6]로나：\c[0]\n\Rshake\cg[temp] .....
+
+MaleHumanRandomNpc/CommonMerchant_threaten_mouth_block
+\m[confused]\c[6]로나：\c[0]\n\Rshake\cg[temp] 응응응! 응응...
+
+MaleHumanRandomNpc/CommonMerchant_threaten_win
+\c[4]상인：\c[0]\n\prf\cgoff 다 가져가! 제발 살려만 줘!
+\m[triumph]\c[6]로나：\c[0]\n\PRF 그래, 잘했어.
+
+MaleHumanRandomNpc/CommonMerchant_threaten_failed
+\c[4]상인：\c[0]\n\prf\cgoff 네까짓 게?! 죽어라!
+\m[shocked]\c[6]로나：\c[0]\n\PRF\Rshake 네?! 잠깐만!
+
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+
+NoerHouse/HouseOpt
+\m[confused]여기는 노엘 마을의 집이다.
+
+NoerHouse/WarehouseOpt
+\m[confused]창고다.
+
+NoerHouse/Tent
+\m[confused]천막이다.
+
+NoerHouse/HouseOpt_beg
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\c[4]???：\c[0] 누구야?
+\m[shy]\c[6]로나：\c[0] 저기... 혹시 조금만 도와주실 수 있을까요...? 부탁드려요...
+\narr\..\..\..\..
+
+NoerHouse/HouseOpt_beg_win
+\c[4]???：\c[0] 불쌍한 아이구나, 이거라도 가져가.
+\m[flirty]\c[6]로나：\c[0] 정말 감사합니다. 은혜 잊지 않을게요.
+
+NoerHouse/HouseOpt_fail_night
+\c[4]???：\c[0] 지금 밤인 거 몰라?
+
+NoerHouse/Tent_beg_fail0
+\c[4]???：\c[0] 나도 남한테 동정받고 싶다고! 꺼져!
+\m[sad]\c[6]로나：\c[0] 네... 죄송해요...
+
+NoerHouse/HouseOpt_beg_fail0
+\c[4]???：\c[0] 너, 시바리스 출신이지? 예전엔 잘 살았나 보네?
+\m[sad]\c[6]로나：\c[0] 네... 죄송해요...
+\c[4]???：\c[0]\n\Lshake\RShake \{꺼져!
+
+NoerHouse/HouseOpt_beg_fail1
+\c[4]???：\c[0] 네 꼴을 좀 봐, 아직도 제국 사람인 줄 아나?
+\m[sad]\c[6]로나：\c[0] 네... 죄송해요...
+\c[4]???：\c[0]\n\Lshake\RShake \{꺼져!
+
+NoerHouse/TentOpt_lie_begin1
+\m[sad]\c[6]로나：\c[0] 저기... 누구 계세요?
+
+NoerHouse/HouseOpt_lie_begin1
+\narr\SndLib[sys_KnockDoor]...........
+
+NoerHouse/HouseOpt_lie_begin1_1
+\c[4]???：\c[0] 누구시죠?
+
+NoerHouse/HouseOpt_lie_begin2_0
+\narr\..\..\..
+\narrOFF\m[confused]\c[6]로나：\c[0] 네, 그러니까 그거 저한테 주세요.
+
+NoerHouse/HouseOpt_lie_begin2_1
+\narr\..\..\..
+\narrOFF\m[serious]\c[6]로나：\c[0] 만약 안 주시면, 무슨 일이 일어날지 모를 거예요.
+
+NoerHouse/HouseOpt_lie_begin3
+\narr\..\..\..\..
+
+NoerHouse/HouseOpt_lie_win
+\c[4]???：\c[0] 그렇구나, 알겠어.
+\m[flirty]\c[6]로나：\c[0] 후우....
+
+NoerHouse/HouseOpt_lie_fail
+\c[4]???：\c[0] \{네 말 믿을 줄 알았어?!
+\m[shocked]\Rshake들켰다!
+
+NoerHouse/HouseOpt_steal
+\SND[SE/sneak_in.ogg]\narr\..\..\..\..
+
+NoerHouse/HouseOpt_steal_win
+\m[flirty]\c[6]로나：\c[0] 후우....
+
+NoerHouse/HouseOpt_steal_fail
+\c[4]???：\c[0]\n\Lshake\RShake \{누구야!!
+\m[shocked]\Rshake\c[6]로나：\c[0] 큰일 났다!
+
+#-------------------#-------------------#-------------------#------------------- Begging
+
+Begging/Win
+\narr그는 로나가 불쌍해 보여서...
+
+Begging/Aggro0
+\narr그가 화가 났다...
+
+Begging/Aggro1
+\narr로나를 제대로 혼내주기로 결심했다.
+
+Begging/Win_End
+\m[shy]\c[6]로나：\c[0] 정말 감사합니다!
+
+Begging/check
+\m[shy]\c[6]로나：\c[0] 혹시... 조금만 도와주실 수 있을까요? 부탁드려요...
+\narr\..\..\..\..
+
+BeggingBandit/BlowJob
+\narr그는 만약 로나가 자기의 더럽혀진 자지을 깨끗이 해준다면,
+\narr로나에게 먹을 것을 좀 주는 것도 아무 문제 없다고 말했다.
+
+BeggingBandit/Kneel
+\narr그녀는 로나에게 무릎 꿇고 자신에게 애원하라고 요구했다...
+
+BeggingBandit/DeepThroat
+\narr그는 로나의 머리카락을 움켜잡고, 자지을 그녀의 뺨에 밀어붙였다...
+
+BeggingBandit/DrinkPee
+\narr그는 자지을 꺼내 보였다...
+
+BeggingBandit/Beaten
+\narr그는 로나가 고통스러워하는 표정을 아주 재밌어했고, 그걸로 인해 먹을 것을 좀 줄 만하다고 생각했다.
+
+#-------------------#-------------------#-------------------#------------------- NPC Thx to Lona
+
+refVsExt/WinDialog0
+\CBid[-1,3]\c[4]난민：\c[0] 감사합니다, 만약 당신이 나타나지 않았다면 우리는 끝장이었을 거예요.
+
+refVsExt/WinDialog1
+\CBid[-1,3]\c[4]난민：\c[0] 성자님, 감사합니다!
+
+refVsExt/WinDialog2
+\CBid[-1,3]\c[4]난민：\c[0] 고마워요, 이건 당신이 받을 만한 거예요.
+
+refVsExt/Help0
+\CBid[-1,20]\c[4]난민：\c[0] 도와주세요! 그들이 왔어요!
+
+refVsExt/Help1
+\CBid[-1,20]\c[4]난민：\c[0] 안 돼! 죽고 싶지 않아!
+
+refVsExt/Help2
+\CBid[-1,20]\c[4]난민：\c[0] 성자님! 제발 우리를 구해주세요!
+
+#update
+#-------------------#-------------------#-------------------#------------------- NPC animal (common only need update this on BOBO)
+
+Rabbit/rng0
+\CBid[-1,20]\c[4]토끼：\c[0]    

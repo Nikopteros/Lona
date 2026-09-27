@@ -1,0 +1,165 @@
+NFL_MerCamp/OvermapEnter
+\cg[event_DarkPot]\m[confused]용병의 야영지\optB[그만둔다,들어간다]
+
+##################################################################
+
+NorthFL_AtkOrkCamp/0_1
+\SETpl[AnonMale1]\Lshake\c[4]용병：\c[0] 괴물이다! 그린스킨이 나타났다!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 그린스킨? 오크?! 어디에!!
+
+NorthFL_AtkOrkCamp/0_2
+\BonMP[YellingSub,20]\SETpl[AnonMale1]\Lshake\c[4]용병：\c[0] 목숨 내놔!
+\CBct[2]\m[terror]\plh\Rshake\c[6]로나：\c[0] 뭐라고? 나한테 하는 말이야?!
+
+NorthFL_AtkOrkCamp/0_3
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]용병 대장：\c[0] \{멈춰!!
+
+NorthFL_AtkOrkCamp/0_4
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]용병 대장：\c[0] 똑바로 봐! 저건 사람이다, 살아 있는 사람!
+
+NorthFL_AtkOrkCamp/0_5
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 멍하니 서 있지 말고, 얼른 들어와!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] \{예!
+
+Leader/RecQuestNorthFL_AtkOrkCamp2_1
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 살아서 도시에서 빠져나온 사람을 다시 보게 될 줄이야.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 도시...? \c[4]시바리스\c[0]?
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 으\..\..\.. 몇 달 전에 거기서 도망쳐 나온 건 맞아.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] \..\..\..\Lshake그럼 왜 돌아온 거지? 여긴 지옥이야, 전장이란 말이다!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그냥 지나가는 길이라서?
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] \..\..\..지나가는 길?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 응, 그냥 집에 한번 가보고 싶어서
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] .....
+
+Leader/OPT_About0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 그러니까... 여기가 뭐 하는 곳이야? 너희는 여기서 뭘 하는 거지?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 우린 도시에서 도망쳐 나온 생존자들을 구하려고 하고 있어...
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 구하려고? 너희는 용병 아니야?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 명목상은 그렇지. 하지만 난 원래 도시 서쪽 항구에서 작은 여관을 하던 사람이야. 가족도 있었고, 아이도 있었어.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 우리 용병단을 만든 건 가족들을 찾기 위해서였는데, 이제는 우리 자신조차 곤란에 빠졌어.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 단 한 명도 구해내지 못했고, 오히려 동료들을 잃고 말았지.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 그는 내 가장 소중한 동료야. 반드시 데리고 나와야 해. 설령 시체라 해도.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] .......
+
+Leader/OPT_Mail0
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 으음... 여기 해조성에서 온 편지가 있는데?
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아마 네 거 같은데?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 편지...?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 맞아! 해조성의 우두머리한테서 온 거야.
+
+Leader/OPT_Mail1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 소금...?
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 소금?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 그자가 말한 소금이 도대체 무슨 뜻이지?!
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 소금 말고도 세상을 구하겠다 뭐 이런 것도 말했는데...
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 나도 잘은 모르겠지만, 엄청 진지하긴 했어.
+\CBid[-1,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 내가 이렇게 많은 일을 하고, 형제들이 그렇게 죽어간 게... 고작 이 멍청한 소금 때문이라고?!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 괜찮아?
+
+Leader/OPT_Work0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 흠...
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 내 동료가 동쪽 오크 캠프를 정찰하다가 실종됐다.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 반드시 구해야 한다. 확실히 네 도움이 필요해.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 하지만 나...
+
+Leader/OPT_Work1_board
+\board[동료 구출]
+목표：용병대장의 동료를 구출한다.
+보수：큰 동전 1
+의뢰주：용병대장
+수행가능횟수：1회
+해조성 동쪽의 오크 캠프로 가서  
+용병대장의 동료를 구출하라.
+
+Leader/OPT_Work2_accept
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 좋아, 별일 없을 거야.
+
+Leader/OPT_Work2_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 미안.... 아직 할 일이 있어서...
+
+Leader/OPT_Work2_accept1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 좋아, 안에서 보자.
+
+Invade/NFL_MerCamp_Invade_3
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 잘했어, 네가 살아남을 줄은 몰랐는데.
+
+Leader/else
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] ....
+
+OrcSlaveMaster/begin
+\CBmp[OrcSlaveMaster,20]\SndLib[sound_OrcSkill]\SETpl[OrcSlaveMaster_mask]\Lshake\c[4]오크：\c[0] \{쿠오오오오！
+
+################################################################## Commoner
+
+commoner/BeginRNG0
+\CBid[-1,20]\c[4]용병：\c[0] 너는 도시에서 온 생존자야?
+
+commoner/BeginRNG1
+\CBid[-1,20]\c[4]용병：\c[0] 도시 안에 아직도 사람이 살아 있다고?!
+
+commoner/BeginRNG2
+\CBid[-1,20]\c[4]용병：\c[0] 어쩌면 내 가족도 아직 살아 있을지도?
+
+commoner/WhoreWork_failed0
+\CBid[-1,5]\c[4]용병：\c[0] 나한텐 이럴 시간이 없어!
+
+commoner/WhoreWork_failed1
+\CBid[-1,5]\c[4]용병：\c[0] 죽게 생겼는데 아직 이걸 한다고?
+
+commoner/WhoreWork_failed2
+\CBid[-1,5]\c[4]용병：\c[0] 일단 살아남고 보자.
+
+################################################################## #NFL_MerCamp_Invade
+
+Invade/0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 응?
+
+Invade/1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] \..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]용병 대장：\c[0] 왔다! 동쪽이다!
+
+Invade/2_typical
+\CBct[2]\m[flirty]\plf\Rshake\c[6]로나：\c[0] 왔다고? 뭐가 왔다고??
+
+Invade/2_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]로나：\c[0] 왔다고? 오크놈들이냐?!
+
+Invade/2_gloomy
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 뭐가 왔다는 거야? 마물인가?!
+
+Invade/2_slut
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 왔다고? 네가 간다고 한 거야?
+
+Invade/3_wave2
+또 왔다! 동쪽이다!
+
+Invade/3_wave3
+더 온다! 덩치 큰 놈들이야!
+
+Invade/3_waveEND
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 끝난 것 같다. 다들 살아 있나?
+
+Invade/4_BossDefeat0
+\BonID[-1,8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..\Rshake\m[flirty]왠지… 귀엽게 보이는데?
+
+Invade/4_BossDefeat1
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]용병 대장：\c[0] 해냈다! 놈을 쫓아냈어!
+
+Leader/BattleQmsg0
+전투 위치로!
+
+Leader/BattleQmsg1
+놈들이 왔다!
+
+Commoner/BattleQmsg0
+또 그린스킨이다!
+
+Commoner/BattleQmsg1
+우린 포위됐다!
+
+Commoner/Qmsg_lose0
+어서 도망쳐!
+
+Commoner/Qmsg_lose1
+나 죽기 싫어!

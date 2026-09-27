@@ -1,0 +1,150 @@
+#rez
+
+GoldenBar/OvermapEnter
+\m[confused] The Golden Bar \n club for the rich. \optB[Leave,Enter]
+
+################################################################
+
+art/Rage
+\ph\cg[other_ArtRage] Angry, I'm not angry!
+\m[confused]\c[6]Lona：\c[0]    What?
+
+art/Chaos
+\ph\cg[other_ArtChaos] Confused, What did I just read?
+\m[confused]\c[6]Lona：\c[0]    Huh?
+
+art/Hopeless
+\ph\cg[other_ArtHopeless] Desperate, the world will be a better place.
+\m[confused]\c[6]Lona：\c[0]    What the hell is art?
+
+################################## Vandor ############################
+
+vandor/Beigin
+\m[confused]\c[4]Waiter：\c[0]    Welcome to The Golden Bar, how can I help you? \optB[Forget it,Barter,Sell Breast Milk<r=HiddenOPT0>,Work<r=HiddenOPT1>]
+
+vandor/Beigin_slave
+\m[confused]\c[4]Waiter：\c[0]    Hey! Damn slave! Back to work! \optB[Forget it,Breastfeed<r=HiddenOPT0>,Force Breast Milk <r=HiddenOPT1>]
+
+vandor/SellMilk
+\c[4]Waiter：\c[0]    Yes! We'll buy your milk at a high price.
+\m[shy]\c[6]Lona：\c[0]    Really... That's great?
+
+vandor/SellMilk2
+\c[4]Waiter：\c[0]    Let's see\..\..\..
+
+vandor/SellMilk_cut0
+\c[4]Waiter：\c[0]    Altogether
+
+vandor/SellMilk_cut1
+Servings of milk, total servings
+
+vandor/optWork
+\m[flirty]\c[6]Lona：\c[0]    Is there anything I can do?
+\c[4]Waiter：\c[0]    Let's see.... \optB[Forget it,Breastfeed<r=HiddenOPT0>,Milk Extraction<r=HiddenOPT1>]
+
+vandor/optWork_braFeed
+\board[Breastfeed]
+Feed as many guests as possible within the time.
+Running at work will consume additional stamina.
+The more time left, the higher the earnings.
+
+vandor/optWork_braFeed_decide
+\c[4]Waiter：\c[0]    Go feed those children!
+
+vandor/Beigin_Dirt
+\m[confused]\c[4]Waiter：\c[0]    Beggars are not welcome here.
+
+################################## Work #####################################
+
+vandor/Opt_work_end_summon
+\c[4]Waiter：\c[0]    You're too slow! The guests are angry!
+\m[sad]\c[6]Lona：\c[0]    ...... Sorry....
+
+vandor/Opt_work_end_NoSummon
+\c[4]Waiter：\c[0]    Good job, I'm counting on you next time.
+\m[flirty]\c[6]Lona：\c[0]    ...... Thank you?
+
+Commoner/BreastFeedQmsg0
+Tastes like moms!
+
+Commoner/BreastFeedQmsg1
+Yummy!
+
+Commoner/BreastFeedQmsg2
+Kya!
+
+Guard/Failed0
+\c[4]Guard：\c[0]    What the hell are you doing?
+
+Guard/Failed1
+\c[4]Guard：\c[0]    We didn't let you in to be lazy! 
+
+Guard/Failed2
+\c[4]Guard：\c[0]    Get out of here!
+
+################################## Commoner ############################
+
+FishRich/Begin
+\c[4]Trader：\c[0]    We were... My clan.... Driven from our homes...
+\c[4]Trader：\c[0]    Now... You... Need us?
+\c[4]Trader：\c[0]    Those.... Monsters... Are your... Punishment....
+
+Commoner/Begin0
+\c[4]Aristocrat：\c[0]    Slaves who produce milk are on the rise!
+
+Commoner/Begin1
+\c[4]Aristocrat：\c[0]    Little girl, can you produce milk?
+
+Commoner/Begin2
+\c[4]Aristocrat：\c[0]    Drink human milk for protection from evil!
+
+Commoner/BeginDirt0
+Where is the stolen ghost!
+
+Commoner/BeginDirt1
+You Stink! Get out!
+
+Commoner/BeginDirt2
+There's a beggar!
+
+FatGuard/Qmsg0
+What you looking at?
+
+FatGuard/Qmsg1
+Don't make a scene!
+
+FatGuard/Qmsg2
+Get out!
+
+MilkMachine/Qmsg0
+Luxury Milker
+
+MilkMachine/Qmsg1
+They seem to be in pain
+
+GoldenSlave/Qmsg0
+I'm working.
+
+GoldenSlave/Qmsg1
+Don't talk to me.
+
+GoldenSlave/Qmsg2
+........
+
+CommonPPL/NapRape
+\c[4]Aristocrat：\c[0]    Why is this garbage here?
+
+CommonPPL/NapRape1
+\c[4]Aristocrat：\c[0]    Hoo hoo hoo.
+
+CommonPPL/NapRape2
+\narr Lona was moved
+
+CommonPPL/NapRape3
+\c[4]Aristocrat：\c[0]    Occasionally, I also want to play around with the lower class. You should feel honored to be so lucky.
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]Aristocrat：\c[0]    Come on!
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]Aristocrat：\c[0]    That's right ♥

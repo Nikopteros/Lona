@@ -1,0 +1,141 @@
+DavidBorn/KnownBegin
+\CBmp[DavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\C[4]Дэвид Борн：\C[0]    А? Девчонка?
+\CBct[2]\m[confused]\plf\PRF\C[4]Дэвид Борн：\C[0]    Странница?
+
+DavidBorn/BasicOpt
+\m[confused] \optB[Отмена,Объединиться<r=HiddenOPT0>,Разойтись<r=HiddenOPT1>]
+
+DavidBorn/CompData
+\board[Дэвид Борн]
+\C[2]Позиция：\C[0]Авангард.
+\C[2]Тип боя：\C[0]Воин, защита.
+\C[2]Фракция：\C[0]Бандит.
+\C[2]Враги：\C[0]Злые существа, стражники Ноэртауна.
+\C[2]Требование：\C[0]Слабость менее 100.
+\C[2]Срок：\C[0]3 дня.
+\C[2]Особенность：\C[0]Не возрождается после смерти.
+Бывший герой, сразивший дракона... или так он утверждает.
+
+DavidBorn/Comp_win
+\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Ещё одно приключение? В путь!
+
+DavidBorn/Comp_failed
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Ты слишком слаба!
+
+DavidBorn/Comp_failed_slave
+\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Отъебись! Рабыня смеет указывать мне?
+
+DavidBorn/Comp_disband
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Приключение... закончилось?
+
+DavidBorn/CompCommand
+\SETpl[DavidBorn_normal]\PLF\prf\C[4]Дэвид Борн：\C[0]    Хм-м...
+
+################################################################### QMSG ################################################################################# 
+
+DavidBorn/CommandWait0
+Что там, впереди?
+
+DavidBorn/CommandWait1
+Хорошо
+
+DavidBorn/CommandFollow0
+Я прикрою! Не бойся!
+
+DavidBorn/CommandFollow1
+Бояться нечего!
+
+DavidBorn/OvermapPop0
+Я её видел! Летающая лошадь!
+
+DavidBorn/OvermapPop1
+Убить дракона? Легко!
+
+DavidBorn/OvermapPop2
+Медведи хуже всех!
+
+DavidBorn/OvermapPop3
+Кто-то украл мой сладкий рулет!
+
+#DavidBorn/OvermapPop0
+##asdasdasdasdasdasdasdasdaasd       #length
+#Я её видел! Летающая лошадь!
+#
+#DavidBorn/OvermapPop1
+#Убить дракона? Да запросто!
+#
+#DavidBorn/OvermapPop2
+#Медведи хуже всех!
+#
+#DavidBorn/OvermapPop3
+#Кто-то украл мой сладкий рулет!
+
+###################################################################### QUEST
+
+DavidBorn/CampSpot1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Неизвестный：\C[0]    Кто здесь!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    А?
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Неизвестный：\C[0]    \..\..\..
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Неизвестный：\C[0]    Как ты вошла?!
+
+DavidBorn/CampSpot3
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    А? А-а-а!!!
+
+DavidBorn/Unknow
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Неизвестный：\C[0]    Я слышал, здесь бесчинствуют твари. Плыл сюда месяц... и понял, что Сибарис был ошибкой.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Неизвестный：\C[0]    Я был словно святой, изгоняющий нечисть. Я был великим наёмником.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Неизвестный：\C[0]    Сначала я просто вёл группу беженцев, а теперь стал главарём бандитов.
+\CBmp[UniqueDavidBorn,5]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Неизвестный：\C[0]    Любое решение героя обрастает последствиями...
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Неизвестный：\C[0]    Будь то добро... или зло.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Неизвестный：\C[0]    Я - \C[6]Дэвид Борн\C[0]. Некогда великий наемник.
+
+DavidBorn/CampSpot4_opt
+\CamCT\m[fear]\plf\Rshake\c[6]Лона：\C[0]    Эмм? \optD[Мне пора идти!,Это неправильно!<r=HiddenOPT1>]
+
+DavidBorn/CampSpot4_failed
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Ты здесь умрёшь!
+
+DavidBorn/CampSpot4_win
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Почему бы не помогать жителям Ноэра? Им действительно нужна помощь!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Разве я не помогаю им сейчас?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Они просили больше рабов - я их дал.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Они просили сдерживать беженцев - я сделал это.
+\CamCT\m[wtf]\plf\PRF\c[6]Лона：\C[0]    Разве это помощь? Похищать невинных - не геройский поступок! 
+\CBct[5]\m[confused]\plf\PRF\c[6]Лона：\C[0]     Я уверена, что твои действия зло!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Я лишь следую наставлениям святого...
+\CBct[3]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Ещё не поздно исправиться. Сходи в гильдию наёмников в Ноэртауне - ты там точно пригодишься.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Эхх\..\..\.. Что же я творю...
+
+DavidBorn/CampSpot4_win2
+\ph\narr\c[4]Дэвид Борн：\C[0]Убирайся...
+\CBct[8]\narrOFF\m[confused]\PRF\c[6]Лона：\C[0]    Э-э... Что теперь?
+
+##################### DEFEAT him
+
+DavidBorn/CampLost0
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Нет! Стой! Странница, пощади! \optD[Без пощады!,Отпустить его]
+
+DavidBorn/CampLost0_fqu
+\CBct[5]\m[overkill]\plf\PRF\c[6]Лона：\C[0]    Даже не пытайся!
+
+DavidBorn/CampLost0_okay
+\CBct[8]\m[wtf]\plf\PRF\c[6]Лона：\C[0]    Ха? Почему ты должен жить?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Не убивай! Я просто следовал настовлению святого!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Э-э...
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]     Спасибо, странница! Я отплачу за милосердие!
+
+DavidBorn/CampLost0_okay2
+\CBct[8]\m[wtf]\PRF\c[6]Лона：\C[0]    Эм... Но ведь я ещё не ответила?
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Ладно...
+
+DavidBorn/QuRec2to3_1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Ха!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    М?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Хо!
+\CBct[8]\m[normal]\plf\PRF\c[6]Лона：\C[0]    Скажи...
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]     Валькирия?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эм... что ты здесь делаешь?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Твои слова пробудили меня! Я вновь слышу зов святого! Стану героем!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Странница... благодарю за наставление!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ну... как скажешь...

@@ -1,0 +1,187 @@
+thisMap/OvermapEnter
+Mountain Monastery\optB[Leave,Enter]
+
+#---------------------#-------------------#---------------------  -------------------------------
+Priest/begin0
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]Priest：\c[0]    The Saints has already cast down retribution.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]Priest：\c[0]    Those who perished unjustly rise once again.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]Priest：\c[0]    What bothers you, my child?
+
+Priest/opt_MT_crunch
+Mountain Monastery
+
+Priest/opt_Doctor
+Lost Doctors
+
+Priest/opt_Undead
+Undead Disposal
+
+Priest/opt_SaintMonastery
+Saint's Request
+
+Priest/Ans_crunch
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    Uhm...what sort of place is this?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    \c[6]Mountain Monastery\c[0]，a place where those who break off from the world
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    can commune with the truth of the Saint.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Untainted by the vile prattle of the false believers and Liars.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    It is by their hand that man has strayed from the Saint's path!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    We practice medicine here and aid the nearby villagers and travelers.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    We are the true followers of the Saint!
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    I see...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    We are aware of the chaos out there. Have you come to learn of medicine as well?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    A shame. The doctors sent out a month ago have yet to return.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Yet the dead within the tombs are beckoned once more by false Gods. 
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    We lack the manpower to handle this.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    O' Liars, pray to the Saints!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    For all of this surely is the Saint's divine chastising of faithless Liars.
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    Okay...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Travelers may rest here in peace. We offer safe shelter for those like yourself.
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Is that so? Thank you.
+
+Lona/Ans_SaintMonastery
+\CBct[20]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    Um...do you have any doctors here?
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    The people at \c[6]Saint's Church\c[0] are hoping you could lend them some doctors.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    \c[6]Saint's Church\c[0]\..\..\..
+\CBid[-1,5]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Return and tell those false believers tainted by baser filth to solve their own problems!
+\CBct[20]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    Well...alright.
+
+Lona/UndeadClearn
+\CBct[20]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    Phew...that should be everything dealt with.
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Time to leave this creepy place.
+
+Priest/EndTalk
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    May the Saints light your path.
+
+Priest/TooWeak
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    You do not appear to be a mercenary.
+\narr Lona looks too weak
+
+Priest/Ans_accept
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Well...er...no problem?
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Great!You truly are a soldier of the Saint.
+
+Pitcher/UndeadGate_b4QU0
+\CBid[-1,20]\C[4]Monk：\c[0]    Don't come any closer. There is nothing but undead in there.
+
+Pitcher/UndeadGate_b4QU1
+\CBid[-1,20]\C[4]Monk：\c[0]    This is the fury of the Saint. Such has already been foretold.
+
+Pitcher/UndeadGate_b4QU2
+\CBid[-1,1]\C[4]Monk：\c[0]    You are\..\..\..a girl?
+
+SaintState/begin0
+\board[Nameless Saint]
+Nameless Saint spaketh： Incinvible am I whilst rolling, for the flames of the false gods harm me not at all.
+Gospel of the Saints 66：6
+
+##################################################################################### Undead Hunt
+
+Priest/Ans_Undead
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    Uh...did you say undead?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    The dead began to move a few months ago. All of this must be linked to the world's present calamity.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    This truly is the Saint's divine punishment for the Liars.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Are you a mercenary? Solve this conundrum for us and we shall reward you adequately.
+
+Priest/Ans_Undead_brd
+\board[Eliminate the undead]
+Goal：Eliminate the undead in the tombs of the Mountain Monastery
+Reward：Large Copper Coin 2
+Client：Mountain Monastery
+Time Limit：Until Completion
+Speak with the monk outside the tomb then eliminate all undead there.
+
+Pitcher/UndeadGate0
+\CBid[-1,20]\C[4]Monk：\c[0]    Are you the mercenary here to dispose of the undead?
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    I guess?
+\CBid[-1,20]\prf\C[4]Monk：\c[0]    Praise the Saint!
+
+Pitcher/UndeadGate1
+\CBid[-1,20]\C[4]Monk：\c[0]    I shall leave the rest to you. I won't have to face those corpses again.
+
+lona/EnterCave
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    \..\..\..
+\CBct[6]\m[tired]\plf\PRF\C[0]\C[6]Lona：\C[0]    It sure is dark down here...
+
+Priest/KillAllUndead0
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Um...I think it's done?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Oh? Allow me to check...
+
+Priest/KillAllUndead1
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\C[4]Priest：\c[0]    Well done! You deserve this!
+
+Priest/KillAllUndead2
+\CBct[3]\m[flirty]\PRF\C[0]\C[6]Lona：\C[0]    Thank you!
+
+##################################################################################### Doctor Search in OrkindCamp
+
+Priest/Ans_doctor
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    So doctors come here to train?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Yes, but as I have said they are no longer here.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    They have been gone for some time, and not a word has returned.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    They had traveled north to visit a hunter's homestead.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    It was after then that we heard word of the world's calamity.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    We need mercenaries like yourself to confirm their well being.
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Me?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Yes. You!
+
+Priest/Ans_doctor_brd
+\board[Monk's Wellbeing]
+Goal：Head to the homestead up north
+Reward：Large Copper Coin 2
+Client：Mountain Monastery
+Time Limit：Until Completion
+Head towards the hunter's homestead in the north to confirm the monk's wellbeing.
+
+DcSearch/Qmsg0
+Monk's Corpse
+
+DcSearch/Qmsg1
+Priest's Corpse
+
+DcSearch/Qmsg2
+Believer's Corpse
+
+DcSearch/Done0
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    Guess they're all dead...
+\CBct[8]\m[tired]\PRF\C[0]\C[6]Lona：\C[0]    ....
+\CBct[5]\m[serious]\PRF\C[0]\C[6]Lona：\C[0]    Keep it together!I should head back to the \c[4]Mountain Monastery\c[0].
+
+Priest/doctor_Done0
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Um...
+\CBct[20]\m[tired]\plf\PRF\C[0]\C[6]Lona：\C[0]    I went to the homestead and the doctors there are all dead.
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    Is that so...as expected...
+\CBct[20]\m[sad]\plf\PRF\C[0]\C[6]Lona：\C[0]    Sorry...
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Priest：\c[0]    This is not your fault. It must be just rewards for their lack of faith.
+
+##################################################################################### Cocona unique
+
+cocona/Home0
+\CBfB[20]\SETlpl[cocona_shocked]\prf\Lshake\c[4]Cocona：\c[0]    Big sis!
+\CBct[6]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    What's wrong?
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    This smell! Just like home!
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    Home?
+\CBfB[4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Yes! My home! Underground!
+\CBct[6]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Oh okay. That's good to know.
+
+UndeadX/cocona0
+\CBid[-1,8]\c[4]Undead：\c[0]    Hurr...brains...
+\CBct[6]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    ...
+
+UndeadX/cocona1
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\c[0]    Big sis! Wait! Friend!
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Huh? Friend?
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Yes! Friend!
+
+UndeadX/cocona2
+\CBct[8]\m[confused]\PRF\C[0]\C[6]Lona：\C[0]    .....
+
+UndeadX/cocona3
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\c[4]Cocona：\c[0]    Big sis! Friend came back!
+\CBct[2]\m[confused]\plf\PRF\C[0]\C[6]Lona：\C[0]    Um...is that so? Uh... Yeah.
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Friend believes in Saint. Friend say he likes big sis so he gifts you this!
+
+UndeadX/cocona4
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]Lona：\C[0]    Oh...I'm at a loss for words. Great?
+\CBfB[3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\c[0]    Yes! Great! Believers of Saint are all friends!

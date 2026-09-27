@@ -1,0 +1,129 @@
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+UniquePigBobo/CompData
+\board[Bobo the Breeder]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Melee
+\C[2]Alignment：\C[0]Animal
+\C[2]Hostile to：\C[0]Neutral, Custom
+\C[2]Requires：\C[0]Lona's lower body needs to have the \C[4]Wet\C[0] status.
+\C[2]Duration：\C[0]2 Days
+\C[2]Unique：\C[0]Does not respawn after death.
+\C[2]Description：\C[0]If Lona has the \C[0]\C[4]Prostitute\C[0] and/or \C[4]Nymphomaniac\C[0] Trait, she can mate with Bobo to increase his companionship duration.\n
+\n
+Bobo is a prized breeding boar who has won many Pig Awards in Sybaris.
+His stature and penis size is several times larger than that of a normal boar.
+He seems to believe that Lona is a breeding sow and wishes to very much mate with this adorable and skinny piglet! ♥
+
+UniquePigBobo/begin
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,4]\c[4]Bobo：\c[0]    Oink *SNORT* OINK! ♥ OIIINNNK! ♥♥♥
+
+UniquePigBobo/Comp_disband
+\SETpl[BoboNormal]\Lshake\SndLib[SwineDed]\CBid[-1,5]\c[4]Bobo：\c[0]    SQUEEEAAALLL!!!
+
+UniquePigBobo/Comp_win
+\SETpl[BoboYell]\Lshake\SndLib[SwineAtk]\CBid[-1,20]\c[4]Bobo：\c[0]    \{OINK!~ ♥♥♥
+
+UniquePigBobo/Comp_failed
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,8]\c[4]Bobo：\c[0]    *Snort*... *Snort*...
+
+UniquePigBobo/Extension0_k0_NotMated
+\SETpl[BoboYell]\plf\narrOFF\CBct[2]\m[confused]\Rshake\c[6]Lona：\c[0]    W-What are you trying to do?
+\SETpl[BoboYell]\plf\BonID[-1]\CBct[6]\m[flirty]\Rshake\c[6]Lona：\c[0]    Gross! Don't sniff me down there!
+
+UniquePigBobo/Extension0_k0_MatedB4
+\SETpl[BoboYell]\plf\narrOFF\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    You... Want to do it again?!
+
+UniquePigBobo/Extension0_k1
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr Bobo's deafening squeals echo in the air, expressing his desire to mate with the cute, little piggy in front of him.
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr Are you sure? Bobo is quite large... and certainly doesn't know how to be gentle...
+
+UniquePigBobo/Extension1
+\SETpl[BoboYell]\plf\CBct[6]\m[shy]\plf\c[6]Lona：\c[0]    Ummm......
+
+UniquePigBobo/Extension2
+\SETpl[BoboYell]\plf\CBct[6]\m[fear]\plf\c[6]Lona：\c[0]    Good boy... Come over here...~ ♥
+
+UniquePigBobo/Extension3_loop
+\SETpl[BoboYell]\Lshake\SndLib[pigQuestion]\CBid[-1,5]\c[4]Bobo：\c[0]    SQUUUEEE! ♥ *SNOOORT*! SQUEAAALLL!!! ♥♥♥
+\narr Bobo's constant orgasms and ejaculations continue on...
+
+UniquePigBobo/OvermapPop0
+Oiiinnnk!~~~ ♥♥♥
+
+UniquePigBobo/OvermapPop1
+OINK OINK! SQUEEE!!!
+
+UniquePigBobo/SetupFateEnemy
+Choose which NPCs, Creatures, or Alignments Bobo should attack on sight! \optD[Nothing,Attack Evil Alignments,Attack Good Alignments,Animals<r=HiddenOPT0>,Orkinds<r=HiddenOPT1>,Fishkinds/Deepones<r=HiddenOPT2>,Abominations<r=HiddenOPT3>,Undeads<r=HiddenOPT4>]
+
+UniquePigBobo/OMbegin
+\narr\SndLib[SwineDed] The shrieks and squeals of a lonely pig can be heard from a distance\..\..\..
+
+#################################################################################################################################################### BanditCamp2
+
+PigBoboQu0/begin0
+\CBct[6]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]Lona：\c[0]    !!!!!!
+
+PigBoboQu0/begin1
+\CBct[20]\SETpl[BoboYell]\Lshake\m[bereft]\Rshake\c[6]Lona：\c[0]    NO! P-Please don't eat me!
+
+PigBoboQu0/begin2
+\narr Bobo begins to tenderly lick Lona's wounds...
+
+PigBoboQu0/begin3
+\CBct[8]\m[fear]\PRF\c[6]Lona：\c[0]    \..\..\..\m[tired]T-Thank you..?
+
+PigBoboQu0/begin4
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]Lona：\c[0]    Ugh...
+\narr Bobo uses his teeth to rip the restraints off of Lona...
+
+PigBoboQu0/follower_0
+\CBct[8]\SETpl[BoboNormal]\plf\m[confused]\PRF\c[6]Lona：\c[0]    What......? What do you want from me?
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\prf ....
+\CBct[8]\SETpl[BoboNormal]\plf\m[flirty]\PRF\c[6]Lona：\c[0]    \..\..\..You want me to follow you?
+
+PigBoboQu0/follower_1
+\board[Elope!]
+Goal：Escape from this place.
+Reward：None
+Client：Breeding Boar
+Quest Term：Once
+Bobo the Breeder is feeling sympathetic toward the adorable piglet and wishes to help her.
+Bobo knows that he and this cute gilt in front of him are meant to be together! But, they both must first escape the clutches of the evil, hairless apes.
+Once they're free and together again, Bobo and this sow will mate many times under the moonlight and start a family with her giving birth to plenty of their piglets!
+Unfortunately, stupid Bobo wasn't aware that this breeding sow won't be able to conceive any of his piglets and make a happy family...
+
+PigBoboQu1/accept0
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    Okay......
+
+PigBoboQu1/accept1
+\CBct[20]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]Lona：\c[0]    !!!!!!
+\CBct[20]\SETpl[BoboNormal]\plf\m[triumph]\PRF\c[6]Lona：\c[0]    T-Thank you...?
+
+PigBoboQu1/ExitFailedQmsg
+Bobo needs to be near the exit.
+
+PigBoboQu1/ExitEnd0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandit：\C[0]    Hurry up! Don't let the bitch run away!
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    !!!
+
+PigBoboQu1/ExitEnd1
+\narr Bobo stared at the little piglet, his eyes telling her he will block those damned, hairless apes from catching her.
+\narr The two are destined to see each other again...
+\narrOFF\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    ......
+
+PigBoboQu0/WhenPlayerNotCap0
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What a large pig!
+
+PigBoboQu0/WhenPlayerNotCap1
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]Lona：\c[0]    WHU-?! W-What are you doing?! Let go of me!
+
+PigBoboQu0/WhenPlayerNotCap2
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]Lona：\c[0]    I hate this! Please! S-Stop licking me!
+
+PigBoboQu0/WhenPlayerNotCap3
+\CBct[8]\SETpl[BoboYell]\plf\m[confused]\PRF\c[6]Lona：\c[0]    What is going on...?
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

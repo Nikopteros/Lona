@@ -1,0 +1,83 @@
+[credits]
+
+
+\{\{\{\{\{\{LonaRPG
+
+\{CREATED BY
+\}ECCMA417
+
+\{SCRIPTS
+\}db - text core,dmg popup, turn based core.
+\}Han_NAMA - error log core.
+\}Yanfly - ace message, Ace equip, Debug Extension
+\}Neon Black - States stack core.
+\}Cidiomar R. Dias Junior  - Input mapping.
+\}Lone Wolf - Gamepad Extender v1.1
+\}GALV - popup msg, move route extra,CAM controller.
+\}wltr3565 - Map Scroll Glitch Fix 
+\}Zeus81b - fullscreen,Bitmap Export
+\}RM MV,ACE,XP,DLCS
+\}Evgenij - mail message core.
+\}Atelier-Rgss - HUD core, weather,Char effect.
+\}IMP1 - Storage Boxes
+\}GaryCXJk - Hacked Together Credits Script v1.02
+\}Kslander - combat core, portrait core.
+\}Sumptuaryspade - Basic Mouse System v2.7d
+\}UltraRev - In game mod manager
+\}417 - anything else.
+
+\{SOUNDS
+\}RM MV,ACE,XP,DLCS
+\}RJ013710
+\}RJ017640
+\}GDC SOUND PACK 2015~2020
+\}Humble bundle GAME DEV packs
+\}DARK FANTASY STUDIO,Nicolas Jeudy
+\}OpenGameArt.org
+\}PeteBarry - monkey sound
+\}Gustav Holst 1874–1934
+\}417 - anything else.
+
+\{ART
+\}RM MV,ACE,XP,DLCS
+\}Humble bundle GAME DEV packs
+\}William.Thompsonj: Wolf(opengameart.org)
+\}mack - tilesets, animal charset.
+\}DS3 - some Freg material.
+\}Space_Jem - some portrait
+\}BigD - some portrait and tempCG.
+\}417 - anything else.
+
+\{TRANSLATE
+\}Martin21 (EngText)
+\}Ralston Guo (QA,EngText)
+\}Joko Komodo (QA,Eng,JP,Text)
+\}Sugoi Soy Boy (EngText)
+\}Rrezz (EngText)
+\}Nameless (JpnText)
+\}D_can3594 (JpnText)
+\}Tetragramat (MTL tools)
+\}F95 anons (EngText)
+
+\{SPECIAL THANKS
+\}Shika_G (CHT clearn up)
+\}Teravisor (Coding support)
+\}cyancyan214 (Map support)
+\}cyancyan214 (Color palette)
+\}Zinnie (KorText)
+\}chzh2ezra (KorText)
+\}vk.com/lonarpg (RusText)
+\}Lourie Parker (RusText)
+\}Timur (RusText)
+\}Tektaara - QA tester
+\}DocNight - ModLoader
+
+[timeline]
+
+[on_credits_end]
+
+[settings]
+font = "Noto Sans CJK TC Black"
+line_height = 32
+scroll_duration = 60
+duration = 67

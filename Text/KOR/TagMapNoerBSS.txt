@@ -1,0 +1,39 @@
+NoerBSS/OvermapEnter
+\m[confused]티그의 대장간\optB[그만둔다, 들어간다]
+
+#############################  BSS MASTER
+BSStrader/welcome
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 어서 와라... 티그의... 전문 대장간....
+
+BSStrader/end
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 남의... 칭찬... 그건... 진짜 칭찬이 아니다....
+
+BSStrader/Opt_RemoveCuff
+\CBct[8]\m[confused]\c[6]로나：\c[0] 응？\optB[그만둔다,거래,대화,구속구 제거]
+
+BSStrader/NotCuffed
+\CBmp[BSStrader,8]\c[4]티그：\c[0] 네... 인생... 구속되지... 않았다....
+
+BSStrader/SlaveBrand
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 낙인...?
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 너는... 노엘 시... 노예다... 평생...
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 법으로... 정해져서... 안 된다....
+
+BSStrader/Aid0
+\CBmp[BSStrader,8]\c[4]티그：\c[0] 가라... 작업실로...
+
+BSStrader/Aid1
+\CBct[6]\m[fear]\c[6]로나：\c[0] 저기... 아프진... 않나요?
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 아픔... 있을 수도...
+\CBct[6]\m[sad]\Bon[6]\c[6]로나：\c[0] 으으....
+
+BSStrader/RemoveEnd
+\narr구속구가 벗겨졌다
+
+BSStrader/About
+\CBmp[BSStrader,20]\m[normal]\c[4]티그：\c[0] 나... 티그... 어토피아 섬에 산다...
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 집은... 부유했지만... 삶은... 구속...
+\CBmp[BSStrader,20]\m[confused]\c[4]티그：\c[0] 노엘에 열었다... 난... 가게를 샀다...
+\CBmp[BSStrader,20]\c[4]티그：\c[0] 꿈... 이뤘다... 나를... 해방...
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 뭐라고?
+

@@ -1,0 +1,39 @@
+NoerBSS/OvermapEnter
+\m[confused]Сталь та вироби із сталі Залізного Бубби \optB[Скасувати,Увійти]
+
+############################# BSS MASTER
+BSStrader/welcome
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] Ласкаво просимо... У професійний магазин стали... У Залізного Бубби... Мене звуть... Бубба...
+
+BSStrader/end
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] Дякую... Приходь... Багато разів...
+
+BSStrader/Opt_RemoveCuff
+\CBct[8]\m[confused]\c[6]Лона:\C[0] Еммм...? \optB[Скасувати,Обмін,Хто ти?,Зняти пута]
+
+BSStrader/NotCuffed
+\CBmp[BSStrader,8]\c[4]Бубба：\C[0] Твої руки... Не... Скуті...
+
+BSStrader/SlaveBrand
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] На тобі... Мітка...?
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] Ти... Рабиня Ноера... Назавжди...
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] Закон... Забороняє... Не можна...
+
+BSStrader/Aid0
+\CBmp[BSStrader,8]\c[4]Бубба：\C[0] Ідемо... У майстерню...
+
+BSStrader/Aid1
+\CBct[6]\m[fear]\c[6]Лона:\C[0] Еммм... А боляче не буде?
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] Біль... Можливо...
+\CBct[6]\m[sad]\Bon[6]\c[6]Лона:\C[0] *Хник*...
+
+BSStrader/RemoveEnd
+\narr Окови були зняті.
+
+BSStrader/About
+\CBmp[BSStrader,20]\m[normal]\c[4]Бубба：\C[0] Мій... Брат... живе на... острові Рибополіс...
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] Багатий вдома... Безпорадний... Життя обмежене...
+\CBmp[BSStrader,20]\m[confused]\c[4]Бубба：\C[0] Ноер відкритий... Я купив... магазин...
+\CBmp[BSStrader,20]\c[4]Бубба：\C[0] Втілити... мрію... Пішов... сам...
+\CBct[2]\m[flirty]\c[6]Лона:\C[0] ...Що?
+

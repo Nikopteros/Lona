@@ -1,0 +1,31 @@
+AbomHive/OvermapEnter
+\m[confused]흉물의 둥지\optB[그만둔다,들어간다]
+
+########################################################
+
+Lona/RapeLoopNonCapture
+\m[p5sta_damage]비릿한 살덩이가 로나를 끌어다 그들의 소굴로 끌고 갔다.
+\m[p5health_damage]로나는 새로운 번식의 그릇이 되고 말았다.
+
+Lona/RapeLoopCaptured
+\m[p5sta_damage]온갖 살덩이들이 끊임없이 로나의 몸속에 탁한 액을 흘려보냈다.
+\m[p5health_damage]그들은 그릇의 감정 따윈 아랑곳하지 않았다. 오직 로나의 몸으로 번식하는 것만이 목적이었다.
+
+
+Lona/CaptureWakeUp
+\m[p5pee]\Rshake\c[6]로나：\c[0] 흐윽....
+\m[p5shame]\Rshake\c[4]그들이 잠시 가라앉은 것 같아...
+
+Lona/CaptureGiveUp
+\m[p5shame]\Rshake\c[4]안 돼... 난 도저히 버틸 수 없어...
+\narr\..\..\..\..
+
+Lona/BondageStruggle
+\m[p5defence]\Rshake\C[6]로나：\C[0] ......
+
+Lona/CaptureStruggle
+\m[p5pee]\c[4]어떻게 해야 하지？\optD[포기<t=10>저항10<r=HiddenOPT0>저항30<r=HiddenOPT1>저항50<r=HiddenOPT2>,운명을 받아들인다<r=HiddenOPT3>]
+
+Lona/StruggleWin
+\m[shocked]\Rshake\c[6]로나：\c[0] 해냈어？！
+\m[flirty]\c[6]로나：\c[0] 어떻게든 여기서 빠져나가야 해.

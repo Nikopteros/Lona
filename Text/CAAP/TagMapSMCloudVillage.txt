@@ -1,0 +1,292 @@
+thisMap/OvermapEnter
+\m[confused]Aldea Nubosa \optB[Cancelar,Entrar]
+
+############################################################################################## COMMON ALL, ENEMY, RAPELOOP
+
+alert/Captured
+\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¿Qué se le va a hacer? Ella solo vino aquí.
+\SETpr[AnonMale2]\plf\Rshake\c[4]Aldeano：\C[0]    Total, ¿acaso se resiste?
+\m[tired]\plf\PRF\c[6]Lona：\C[0]       Ohhh....
+
+alert/CatchHer
+\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    ¡Atrapadla!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Eh?! ¡¿Qué?!
+
+alert/CatchEnemy
+\narr ¡La Aldea Nubosa ahora es hostil!
+
+alert/ChestLoot
+\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    ¡¿Qué es ese ruido?!
+\SETpr[AnonMale2]\Rshake\c[4]Aldeano：\C[0]    ¡Alguien se ha colado aquí!
+\CBct[6]]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?! ¡¿Disculpen?!
+
+##############################################################################################
+
+#to translator.  first line is "你" mean male second "妳" mean female
+BradgeGuard/Begin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    ¡¿Quién anda ahí?! ¡¿Qué haces aquí!!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... ¿Solo estoy pasando?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    Chica\...\...\...
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¡Espera aquí! ¡Voy a hablar con mi herma... digo... con el jefe de la aldea!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Qué?
+
+BradgeGuard/Already
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    Oh, ¿eres tú?
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    \...\...\...
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    Bien, pasa.
+
+BradgeGuard/Begin1
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    Oh, qué lástima...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Qué ocurre?
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    No-nada, todo bien, pasa.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Vale...
+
+BradgeGuard/Begin2
+\CBct[20]\m[shocked]\Rshack\c[6]Lona：\C[0]    ¡¿Qué?! ¡¿Qué estáis haciendo?!
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¡¿Cómo?! ¡¿Cómo has llegado aquí?!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Yo... solo estaba pasando, ¿vale?
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    Basta de charla, queda poco tiempo. La aldea necesita ayuda. Tu ayuda.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Ah...?
+
+BradgeGuard/Opened
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¿No piensas ayudarnos?
+
+BradgeGuard/letLeave
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... ¿Podríais dejarme pasar?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¿Eh? ¿El jefe te ha dejado ir así como así?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Sí?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¡B-Bien! Puedes irte.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm...
+
+BradgeGuard/letLeaveLoop
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    ¿Por qué sigues aquí?
+
+BradgeGuard/CecilyExtra
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Greyrat：\C[0]    ......
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\c[4]Cecilia：\C[0]    ¿Qué pasa?
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]Greyrat：\C[0]    Ten cuidado. Algo anda mal...
+\CBfB[6]\SETpl[CecilyShyAr]\Lshake\c[4]Cecilia：\C[0]       ....
+
+BradgeGuard/Anon0
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Hay muchos monstruos por todas partes. ¿Deberíamos comérnoslos?
+
+BradgeGuard/Anon1
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Últimamente hay menos presas...
+
+BradgeGuard/Anon2
+\CBid[-1,2]\c[4]Aldeano：\C[0]    ¿Eres nueva aquí? Ja, ja...
+
+BradgeGuard/DoorGuard0
+\CBid[-1,5]\c[4]Aldeano：\C[0]    ¡Eh! ¡No te acerques!
+
+BradgeGuard/DoorGuard1
+\CBid[-1,5]\c[4]Aldeano：\C[0]    ¡Lárgate! ¡Fuera de aquí!
+
+BradgeGuard/DoorGuard2
+\CBid[-1,5]\c[4]Aldeano：\C[0]    ¡Eh! ¡¿Qué haces ahí?!
+
+BradgeGuard/TreeBad0
+\CBid[-1,5]\c[4]Aldeano：\C[0]    Malditos, esa familia se atrevió a esconder comida.
+
+BradgeGuard/TreeBad1
+\CBid[-1,5]\c[4]Aldeano：\C[0]    Que los maldigan, esa familia de bastardos.
+
+BradgeGuard/TreeBad2
+\CBid[-1,5]\c[4]Aldeano：\C[0]    Estoy seguro de que servían a dioses falsos.
+
+BradgeGuard/TreeSaint0
+\CBid[-1,8]\c[4]Aldeano：\C[0]    Nos robaron comida, no tuvimos opción.
+
+BradgeGuard/TreeSaint1
+\CBid[-1,8]\c[4]Aldeano：\C[0]    Que los Santos nos perdonen...
+
+###################################################################### boss talk
+
+Boss/aggro0
+\CBid[-1,1]\c[4]Jefe：\C[0]    ¿Quién eres? ¡¿Cómo llegaste aquí?!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Emm....
+
+Boss/aggro1
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    ¡Todos aquí! ¡Hay intrusos!
+
+Boss/begin0
+\CBid[-1,3]\c[4]Jefe：\C[0]    Ah, ¿eres la mercenaria que vino a ayudar?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... En realidad, solo estaba pasando...
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    No importa, todo está bien.
+
+Boss/beginOPT_KilltheKid
+Ayudarle
+
+Boss/beginOPT_TheKidSaid
+Decir que Grió es inocente
+
+Boss/beginOPT_TheKidDeadLie
+Mentir que Grió está muerto
+
+Boss/beginOPT_TheKidDead
+Decir que Grió está muerto
+
+Boss/KillTheKid1_alreadyAccepted
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    ¿Y bien?
+
+Boss/SMCloudVillage_KillTheKid0_1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Bueno... no estaría mal saber qué debo hacer exactamente. Si lo necesitáis.
+
+Boss/SMCloudVillage_KillTheKid0_2
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]Jefe：\C[0]    ¿Viste esos dos cadáveres?
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]Jefe：\C[0]    Esa familia que nos robó comida.
+
+Boss/SMCloudVillage_KillTheKid0_3
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Malditos paganos... Mi hermano los colgó a ambos.
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Pero ese hijo de puta fue demasiado blando y dejó escapar al niño.
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    El nombre del bastardo es \c[6]Grió\C[0], escuché que se esconde cerca de Noertown.
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    No puedo permitir que siga vivo.
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Quiero que muera. Búscalo y mátalo.
+
+Boss/SMCloudVillage_KillTheKid0_4_brd
+\board[Matar al Niño]
+Tarea：Matar al bastardo que huyó a Noertown
+Recompensa：Gran Medallón x4\i[582]
+Cliente：Jefe de la Aldea Nubosa
+Repetible：Única vez
+El bastardo quiere escapar después de
+¡robar nuestra comida junto a su familia!
+El hermano del jefe atrapó a los ladrones y colgó a esos cabrones, pero dejó ir al chico.
+Su nombre es \c[6]Grió：\C[0], se esconde cerca de los muros de Noertown.
+Debe morir.
+
+Boss/SMCloudVillage_KillTheKid1_A
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Matar? ¿Pero no es solo un niño?
+\CBct[8]\m[confused]\prf\c[6]Lona：\C[0]    Oh....
+
+Boss/SMCloudVillage_KillTheKid1_yes
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Lo haré. ¿Tenéis con qué pagar?
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Claro, los mercenarios de la ciudad son diferentes.
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Todo estará listo cuando regreses.
+
+Boss/SMCloudVillage_KillTheKid1_no
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Olvídalo...
+
+Boss/SMCloudVillage_KillTheKid2_1
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... El chico del que hablamos... \c[4]Grió\C[0]. Está hecho, está muerto.
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Excelente, simplemente excelente. ¡Los mercenarios urbanos son increíbles!
+\CBct[8]\m[confused]...\...\...
+\CBid[-1,8]\prf\...\...\...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Entonces... ¿Y mi recompensa?
+\CBid[-1,6]\prf\c[4]Jefe：\C[0]    ¡Sí-sí! ¡El dinero! ¡Te lo daré todo! ¡Claro!
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Pero hay un problema... guardo todo el dinero en mi casa.
+\CBid[-1,20]\prf\c[4]Jefe：\C[0]    Y resulta que un pequeño monstruo verde se ha metido allí. Debes matarlo.
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Verde, pequeño...
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Un orcoide?!
+\CBid[-1,1]\prf\c[4]Jefe：\C[0]    Orcoide... Sí, exactamente, ese.
+
+Boss/TheKidSaid_play
+\CBct[8]\m[angry]\Rshake\c[6]Lona：\C[0]    ¡Mientes! ¡\c[4]Grió\C[0] contó lo que pasó aquí!
+\CBid[-1,8]\prf\...\...\...
+\CBct[8]\m[confused]...\...\...
+
+Boss/SMCloudVillage_KillTheKid2_2
+\CBid[-1,20]\prf\c[4]Anciano：\C[0] Esto, te lo dejo a ti.
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Emm...
+
+Boss/Talked0
+\CBid[-1,20]\c[4]Anciano：\C[0] Vamos, entra.
+
+Boss/Talked1
+\CBid[-1,20]\c[4]Anciano：\C[0] El futuro del pueblo depende de ti.
+
+Boss/Talked2
+\CBid[-1,20]\c[4]Anciano：\C[0] Adelante, mata al monstruo y te espera una generosa recompensa.
+
+Boss/CatcheLona
+\CBmp[Boss,20]\c[4]Anciano：\C[0] ¡Atrápenla!
+\CBmp[Boss,20]\c[4]Anciano：\C[0] ¡Ella lo sabe todo!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿Qué?!
+
+Boss/Trap1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] Ehm... ¿Y dónde están los Orcoides?
+
+Boss/Trap2
+\CBmp[Boss,20]\prf\c[4]Anciano：\C[0] Ja, ja, ja...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Algo... No veo... Ningún Orcoide...
+\CBmp[Boss,20]\prf\c[4]Anciano：\C[0] Porque no están aquí, de todos modos, estos pieles verdes no son rival para nosotros.
+\CBmp[Boss,20]\prf\c[4]Anciano：\C[0] Aquí NOSOTROS matamos a todo tipo de idiotas. Idiotas como tú.
+\CBmp[Boss,20]\prf\c[4]Anciano：\C[0] Ya sabes demasiado, así que no podemos dejarte ir.
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿Qué?!
+
+Boss/Trap_ATKboss_alive
+\CBmp[BossAtk,4]\prf\c[4]Anciano：\C[0] Hermano, creo que ella es capaz de dar a luz. No tiene tetas, pero ya se me abrió el apetito♥.
+\CBmp[Boss,3]\prf\c[4]Anciano：\C[0] Hmm, está bien, hermano, puedes quedártela si quieres♥.
+
+Boss/Trap3
+\CBmp[Boss,20]\prf\c[4]Anciano：\C[0] ¡Cuidado, no la maten!
+\CBmp[Boss,20]\prf\c[4]Anciano：\C[0] Pronto llegarán los traficantes de esclavos de la ciudad, y tenemos una gran escasez de esclavos.
+\CBmp[Boss,20]\prf\c[4]Anciano：\C[0] ¡Cualquiera sirve!
+\CBct[5]\m[serious]\Rshake\c[6]Lona：\C[0] ...
+
+############################################################# rapeloop
+
+beginEvent/begin
+\CBmp[Raper1,20]\C[4]Campesino：\C[0] ¡Te quedarás con nosotros hasta que encontremos un comprador!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0] ¿Qué debo hacer...?
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\C[0] Esclavos....
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\C[0] ¡No! ¡No quiero ser una esclava!
+
+Common/PlaceFood0
+\C[4]Campesino：\C[0] ¡Oye! ¡Perra! ¡Hora de comer!
+
+Common/WakeUpCall0
+\SndLib[sound_hit_whip] ¡Mierda! ¡Despierta!
+
+Common/WakeUpCall1
+\SndLib[sound_hit_whip] ¡Oye! ¡Levántate, puta!
+
+Common/WakeUpCall2
+\SndLib[sound_hit_whip] ¡Zorra! ¡Despierta!
+
+BossAtk/NightRngRape
+\CBmp[BossAtk,4]\C[4]Hermano：\C[0] Je, je, mi hermano mayor dijo que puedo follarte cuando quiera.
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0] Uf....
+\CBmp[BossAtk,20]\prf\C[4]Hermano：\C[0] ¡Abre las piernas!
+
+BossAtk/NightRng_revenge
+\CBmp[BossAtk,5]\C[4]Hermano：\C[0] ¡Quiero vengarme de mi hermano mayor!
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0] Uf....
+\CBmp[BossAtk,5]\C[4]Hermano：\C[0] ¡Muere, perra!
+
+Common/NapRape1
+\C[4]Campesino：\C[0] Ja, ja, ja.
+
+Common/NapRape3_0
+\C[4]Campesino：\C[0] Es hora de correrse un poco.
+
+Common/NapRape3_1
+\C[4]Campesino：\C[0] Eso significa que te acuestas y nos dejas follarte, ¿entendido?
+
+Common/NapRape3_2
+\C[4]Campesino：\C[0] ¡Te voy a follar, puta estúpida!
+
+Common/NapRape_withSta_NoFight
+\C[4]Campesino：\C[0] Eso es, niña buena ♥.
+
+Common/NapRape_withSta_Fight
+\C[4]Campesino：\C[0] ¡Perra! ¡Bien hecho!
+
+Common/NapRape
+\CBmp[Raper1,20]\C[4]Campesino：\C[0] Oye, ¿no se murió ahí?
+\CBmp[Raper2,20]\C[4]Campesino：\C[0] No parece, pero vamos a comprobarlo.
+\CBmp[Raper1,20]\C[4]Campesino：\C[0] No la maten. El jefe encontró un comprador.
+
+Common/NapTorture1
+\CBmp[Raper1,20]\C[4]Campesino：\C[0] ¿A dónde vas, perra?
+\CBmp[Raper2,20]\C[4]Campesino：\C[0] ¡Golpéenla!
+\CBmp[Raper1,20]\C[4]Campesino：\C[0] ¡Oye! ¡Despierta!
+
+Common/NapTorture2
+\CBct[2]\m[tired]\C[6]Lona：\C[0] ¿Ah?
+\CBmp[Raper1,20]\prf\C[4]Campesino：\C[0] ¡Voy a intentar meter mi puño!
+\CBct[6]\m[terror]\prf\C[6]Lona：\C[0] ¡AAAAaaa!
+
+Common/NapTorture3
+\CBct[6]\m[pain]\Rshake\C[6]Lona：\C[0] Paren... Por favor....
+\CBmp[Raper2,20]\prf\C[4]Campesino：\C[0] Así no es divertido. Intentemos algo más.

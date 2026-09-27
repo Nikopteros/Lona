@@ -1,0 +1,143 @@
+belever/NapSpot
+\SETpl[AnonMale1]\Lshake\C[4]Believer：\C[0] Intruder?
+\SETpr[AnonMale2]\Rshake\C[4]Believer：\C[0] No! It's the liars! It's the female liar!
+\SETpl[AnonMale1]\Lshake\C[4]Believer：\C[0] Saints! Thank the Saints! Let us cleanse her from her sins with the Sacred Bounty of the Saints!
+
+beginEvent/begin
+
+#this file is MTL tier, requires SYNC and Clearn up
+
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] Stay there until your evil is cleansed!
+\m[sad]\plf\PRF\c[6]Lona：\c[0] What's going to happen to me...
+
+belever/NapRape
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] Wake up! Sinful liars!
+\m[pain]\C[6]Lona：\C[0] Awwww.....
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] We must cleanse you from your sins!
+
+belever/NapTorture1
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] Sinful liars! Running away will only deepen your sins.
+\SETpr[AnonMale1]\Rshake\C[4]Believer：\C[0] Purify her!
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] \{Wake up!
+
+belever/NapTorture2
+\m[tired]\C[6]Lona：\C[0] Wha?
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] Get her! Hold her! We must purify her of her sins with righteousness!
+\m[terror]\C[6]Lona：\C[0] No! Stop it!
+
+belever/NapTorture3
+\m[pain]\C[6]Lona：\C[0] \{Ouch! Ouch!
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] Damn it! Evil still lingers!
+\m[bereft]\C[6]Lona：\C[0] \{I'm sorry! Give me a break! I'm really sorry!
+
+belever/NapRape_0
+\c[4]Believer：\c[0] Let me cleanse you with a meat stick!
+
+belever/NapRape_1
+\c[4]Believer：\c[0] Saint!
+
+belever/NapRape_2
+\c[4]Believer：\c[0] Saint! Bless my meat stick!
+
+belever/NapRape3_0
+\c[4]Believer：\c[0] Take my sacred bounty into your body!
+
+belever/NapRape3_1
+\c[4]Believer：\c[0] Your sins can only be purified by my flesh!
+
+belever/NapRape3_2
+\c[4]Believer：\c[0] Accept the will of the Saint! Let me purify you!
+
+belever/NapRape1
+\c[4]Believer：\c[0] Heh heh heh.
+
+belever/NapRape_withSta_NoFight2
+\m[sad]\SETpl[AnonMale1]\Lshake\C[4]Believer：\C[0] Hee hee hee ♥.
+
+belever/PlaceFood0
+\SETpl[AnonMale1]\Lshake\C[4]Believer：\C[0] \{Lunch is served!
+
+Camp/MobSeen
+\SETpl[AnonMale2]\Lshake\C[4]Believer：\C[0] Who is it!
+\m[shocked]\Rshake\C[6]Lona：\C[0] Oops!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+#by Saintz, remove this line after review.
+
+SlaveA/Qmsg0
+They worship my ass! 
+
+SlaveA/Qmsg1
+It's theirs dicks fault!
+
+SlaveA/Qmsg2
+Why? I get food every day!
+
+SlaveB/Qmsg0
+*Sob*... 
+
+SlaveB/Qmsg1
+They suck me off every day... 
+
+SlaveB/Qmsg2
+I can't feel my hips...
+
+SlaveC/Qmsg0
+I'm not moving from here!
+
+SlaveC/Qmsg1
+I was starving before!
+
+SlaveC/Qmsg2
+Feed me, then we can have some fun!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+#by Saintz, remove this line after review.
+
+MIAchildMAMA/prog8
+\CBct[8]\m[confused]\PRF\C[6]Lona：\C[0]    Ehm, excuse me...
+\CBid[-1,2]\prf\C[4]Timmy：\C[0]    Can't you see I'm meditating here? The adults told me that If I work hard, I'll become a great believer!
+\CBct[20]\m[flirty]\PRF\C[6]Lona：\C[0]    Uh... But I'm here looking for \c[4]Timmy\c[0], maybe you know where I could find him?
+\CBid[-1,2]\prf\C[4]Timmy：\C[0]    That's me! I'm Acolyte \c[6]Timmy\c[0]!
+\CBct[4]\m[triumph]\Rshake\C[6]Lona：\C[0]    Really?! That's great! I've finally found you.
+\CBct[20]\m[confused]\PRF\C[6]Lona：\C[0]    You should go back to your mother, all this time she was trying to get you back.
+\CBid[-1,20]\prf\C[4]Timmy：\C[0]    No! Back then, I was always hungry. Here I can eat as much as I like! The only thing I need to do is take it up the ass.
+\CBct[8]\m[flirty]\PRF\C[6]Lona：\C[0]    Uh... Take it up your\...\...\... ass?
+\CBid[-1,5]\prf\C[4]Timmy：\C[0]    That's right! And I'm not moving from here!
+\CBid[-1,20]\prf\C[4]Timmy：\C[0]    Mother didn't care about me, but the \C[6]Followers of the Saint\C[0]... they do! I have to follow their will, the will of the \C[6] Saint\C[0]!
+
+MIAchildMAMA/prog8_opt
+\CBct[20]\m[confused]\PRF\C[6]Lona：\C[0]    Uh\..\..\..\optB[Forget it,Trick him<r=HiddenOPT1>,Oh you cheeky brat!<r=HiddenOPT2>]
+
+MIAchildMAMA/prog8_opt_WIS
+\CBct[20]\m[flirty]\PRF\C[6]Lona：\C[0]    So I guess you didn't hear the rumors about your beloved \C[4]followers of the Saint\C[0]? That they're eating children. Oh, you really didn't know that?
+\CBct[8]\m[confused]\PRF\C[6]Lona：\C[0]    Or do you perhaps know already, and you're still willing to stay here?
+\CBid[-1,20]\prf\C[4]Timmy：\C[0]    What?! No way!
+\CBct[20]\m[serious]\PRF\C[6]Lona：\C[0]    I'm not lying, they let you eat all that delicious food just to make sure you turn fat and juicy.
+\CBct[20]\m[serious]\PRF\C[6]Lona：\C[0]    It's only a matter of time now...
+\CBct[20]\m[terror]\Rshake\C[6]Lona：\C[0]    A MATTER OF TIME BEFORE THEY'LL COOK YOU AND EAT YOU UP!!!
+\CBid[-1,8]\prf\C[4]Timmy：\C[0]    \...\...\...
+\CBid[-1,8]\prf\C[4]Timmy：\C[0]    But they were so kind to me... They sucked me off every day... 
+\CBid[-1,8]\prf\C[4]Timmy：\C[0]    They also said that my dick is\...\...\... delicious.
+\CBid[-1,8]\prf\C[4]Timmy：\C[0]    So it's true?! They really want to eat me?
+\CBct[20]\m[wtf]\Rshake\C[6]Lona：\C[0]    AH?!
+\CBid[-1,20]\prf\C[4]Timmy：\C[0]    No! Please save me, I don't want to be eaten!
+\CBct[20]\m[flirty]\PRF\C[6]Lona：\C[0]    Don't worry, leave everything here to your big sister! I'll make sure you return safely to your mother.
+
+MIAchildMAMA/prog8_opt_STA0
+\CBct[5]\m[serious]\Rshake\C[6]Lona：\C[0]    Listen to me!
+
+MIAchildMAMA/prog8_opt_STA1
+\CBct[20]\m[irritated]\Rshake\C[6]Lona：\C[0]    It's your mother! She didn't abandon you here, she got worried after they took you away and asked me to bring you back home!
+\CBid[-1,6]\prf\C[4]Timmy：\C[0]    *Sob*... Please don't hurt me anymore! I'll go with you! 
+
+MIAchildMAMA/prog9_board
+\board[her child]
+Goal：Escort \C[4]Timmy\C[0] back to his mother.
+Reward：None
+Contractor： Refugee
+Quest Term：Single Fulfillment
+Escort \C[4]Timmy\C[0] back to his mother, be sure you don't get found out.
+\C[6]Saints\C[0] will be hostile towards \C[4]Timmy\C[0].

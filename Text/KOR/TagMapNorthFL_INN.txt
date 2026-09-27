@@ -1,0 +1,315 @@
+thisMap/OvermapEnter
+\m[confused]병영,\n병사들의 휴게실\optB[그만둔다,들어간다]
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]소금 생산지\C[0]로 이어지는 길, 하지만 입구에는 위병이 서 있다.\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+nap/Capture
+asd
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 넌 누구야? 여긴 네가 올 곳이 아니야!
+
+InnKeeper/Slave_work
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 닥치고! 어서 일이나 해!
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 여기는… 어디야?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 여기?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 원래는 소금밭, \c[6]해조성\c[0]이었지. 소금 말리면서 해적도 때려잡고 말이야!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 근데 마물 침공이 시작되면서 금세 함락됐고, 지금은 마물들이랑 싸우는 곳이 됐어.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어… 그건 아는데, 왜 이렇게 사람이 많은 거야?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 이유는 몰라. 하지만 이 근처에서는 마물들이 더 못 들어와. 어쩌면 \c[6]성도\c[0]의 기적 덕일지도 모르지.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 군대가 이곳을 징발해서 지금은 난민들의 중계지가 됐어. 다만… 새로운 생존자는 오랫동안 보이지 않았지.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오호…?
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 혹시 내가 할 수 있는 일 같은 거 있어?
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 뭐? 너 여자야?
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 흠… 가슴은 좀 빈약하네. 그래도 없는 것보단 낫지.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 뭐라고…?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 여기 간호할 사람이 필요하긴 해. 매일 밥은 보장해주고, 신변도 안전할 거다.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 자, 이 계약서에 서명해.
+
+InnKeeper/About_work1
+\board[너도 할 수 있다!]
+사랑하는 가족을 구하고 싶나?!
+부상당한 병사들을 도와라, 간호가 필요하다.
+병사들이 네 식사와 안전을 보장할 것이다.
+또한 가족 한 명을 추가로 노엘 마을에 들여보낼 수 있다.
+단, 고용주의 모든 요구에 동의해야 한다.
+승인 없이 일터를 떠나선 안 된다.
+만약 고용 조건을 어기면, 고용주는 체벌을 가할 수 있다.
+\}본 계약에 동의하는 순간, 너는 잉갈란 왕국 국민으로서의 모든 인권을 포기한다.
+본 계약에 동의하는 순간, 너는 병사들의 성노예가 된다.
+\{나는 ___ 위 조항에 동의하며, 염전 직원이 될 것을 서약한다.
+
+InnKeeper/About_work2
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 에... 먹을 것하고 안전을 보장한다고?
+
+InnKeeper/About_work2_Y
+\CBct[20]\m[flirty]\plf\c[6]로나：\c[0] 음... 듣기엔 괜찮아 보이네?
+\SND[SE/PenWrite1.ogg]\narr로나는 계약서에 자기 이름을 적었다.
+\narrOFF\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 좋아!
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 혹시 가족이 있나? 이름을 적어라. 앞으로 그도 노엘 마을 사람으로 받아주마.
+\CBct[8]\m[sad]\plf\c[6]로나：\c[0] 그들은\..\..\.. 다 세상을 떠났어.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 유감이군. 그럼 대신 누군가를 들이고 싶나?
+\CBct[8]\m[tired]\plf\c[6]로나：\c[0] 없어\..\..\.. 그냥 밖에 있는 불쌍한 사람 중 하나를 고르지 그래.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 잘됐다, 여기서 잠시 기다리게.
+
+InnKeeper/About_work2_N
+\CBct[5]\m[irritated]\plf\Rshake\c[6]로나：\c[0] 됐거든! 이 사기꾼!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 젠장! 빌어먹을 년!
+
+#################################### SIged
+
+InnKeeper/About_work2_Y1
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 왜 그래?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] \{잡아라!\}
+
+InnKeeper/About_work2_Y2
+\CBct[20]\m[hurt]\plf\Rshake\c[6]로나：\c[0] 아파! 놓으라고!
+\CBct[6]\m[fear]\plf\Rshake\c[6]로나：\c[0] 제발 놔! 난 그냥 간호 지원하러 온 거라고!
+
+InnKeeper/About_work2_Y3
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 넌 이미 서명했어! 스스로 노예가 되겠다고 동의한 거야!
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 뭐…?! 노예라고?!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 네 눈으로 확인해 봐. 여기, 이 줄에 써 있잖아.
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 이… 이 글씨가 이렇게 작으면 내가 어떻게 보냐고!!
+
+InnKeeper/About_work2_Y4
+\CBmp[Guard1,5]\SETpl[Mreg_guardsman]\Lshake\PRF\c[4]관리인：\c[0] 이년! 닥쳐라!
+
+InnKeeper/About_work2_Y5
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]관리인：\c[0] 빨리 이 년 처리해라. 예전 것들은 다 질렸으니까.
+\CBmp[Guard1,20]\cg[event_SlaveBrand]\SETpl[Mreg_guardsman]\Lshake\c[4]위병：\c[0] 바로 처리하겠습니다!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]로나：\c[0] \{으아아아악!!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{아아아아아!!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] 히이익... 으읏...
+
+InnKeeper/About_work2_Y6
+\m[sad]\c[6]로나：\c[0] 흐윽... 왜... 왜 나한테 이런...
+
+InnKeeper/About_work2_Y7
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]위병：\c[0] 앞으로 네 일은 우릴 시중드는 거다.
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]위병：\c[0] 우리가 뭐라 하든 다 해야 돼. 알아들었냐?
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]위병：\c[0] 제대로 못 하거나 게으름 피우면 기다리는 건 죽음뿐이다!
+
+InnKeeper/About_work2_Y8
+\CBct[8]\m[tired]\c[6]로나：\c[0] .....
+
+#################################### SIged end
+#################################### TOR
+
+Torture/NapTrigger
+\SndLib[sound_MaleWarriorSpot]\c[4]병사A：\c[0] 바로 이 년이다, 감히 제멋대로 굴다니!
+\SndLib[sound_MaleWarriorSpot]\c[4]병사B：\c[0] 붙잡아라! 곧 노예가 뭔지 똑똑히 가르쳐주마!
+\narr로나는 모든 소지품을 잃었다.
+
+Torture/begin0
+\SndLib[sound_MaleWarriorSpot]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 이 썩은 년, 당장 눈 뜨라고!
+\SndLib[sound_MaleWarriorSpot]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 일어나라, 걸레 같은 것!
+\m[tired]\c[6]로나：\c[0] 으.....흑...
+
+Torture/begin1
+\CBmp[Torture1,1]\m[shocked]\Rshake\c[6]로나：\c[0]！！！
+\CBmp[Guard2,3]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 감히 제멋대로 굴었으면, 어떤 꼴을 당할진 각오했어야지!
+\CBmp[Torture1,6]\m[fear]\Rshake\c[6]로나：\c[0] 나... 나는...
+\CBmp[Guard1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 우리가 뼈저리게 가르쳐주마!
+\CBmp[Torture1,20]\m[terror]\Rshake\c[6]로나：\c[0] 끄아아아악!!!
+
+Torture/begin2
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 형제들아! 이년을 어떻게 벌해야 하겠냐?!
+
+Torture/begin3
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 좋아! 너희들의 목소리가 들린다!
+
+Torture/begin4
+\CBmp[Torture1,6]\m[bereft]\Rshake\c[6]로나：\c[0] 잘못했어… 제발 살려줘!
+
+Torture/begin5
+\CBmp[Guard1,20]\m[sad]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 아직도 더 벌을 줘야 한다고 생각하나?
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 좋아! 그럼 어떻게 해주면 되겠냐?!
+
+Torture/begin6
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 문제없지!
+
+Torture/begin7
+\CBmp[Torture1,8]\m[tired]\Rshake\c[6]로나：\c[0] .....
+
+Torture/begin8
+\narr병사들의 조롱과 욕설 속에서, 로나는 결국 의식을 잃었다.
+
+#################################### TOR END
+#################################### MAMA 
+
+Mama/getDress
+\CBid[-1,20]\prf\c[4]노예：\c[0] 너도 속은 거야?
+\CBid[-1,20]\prf\c[4]노예：\c[0] 이거 가져가. 조금이라도 오래 버티는 데 도움이 될 거야.
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 고마워...
+
+Mama/Begin0
+\CBid[-1,20]\prf\c[4]노예：\c[0] 우리가 달리 뭘 할 수 있겠니...
+
+Mama/Begin1
+\CBid[-1,20]\prf\c[4]노예：\c[0] 우리 여자들이 할 수 있는 게 또 뭐가 있겠어...
+
+Mama/End0
+\CBid[-1,20]\prf\c[4]노예：\c[0] 가렴, 아가.
+
+Mama/End1
+\CBid[-1,20]\prf\c[4]노예：\c[0] 네가 조금 더 고생하면, 우리 고생은 조금 덜어질 테니까.
+
+#################################### JOB ACCEPT
+
+Job/Begin0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 야! 일어나라! 일할 시간이다!
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 으.......
+
+Job/NoWork
+\narr병사들은 로나의 존재를 잊은 듯하다.  
+로나는 이 틈을 타 잠시라도 쉬는 게 좋겠다.
+
+Job/WhoreJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 가서 병사 셋한테 몸 바쳐라!  
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 잊지 마라, 넌 그냥 창녀다! 노예일 뿐이지, 사람이 아니다!
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 네....
+
+JobOpt/Suck
+입으로 봉사하기
+
+JobOpt/Done
+\narr로나의 봉사 작업이 끝났다.
+
+Job/SuckJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 가서 병사들 자지 빨아라! 
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 최소 세 놈은 깨끗이 빨아야 한다, 알겠냐?!
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 네....
+
+JobOpt/SuckJob_Begin0_0
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 저는... 자지 빨아드리러 온 거예요...
+
+JobOpt/SuckJob_Begin0_1
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 자지... 깨끗이 해드리러 왔습니다...
+
+JobOpt/SuckJob_Begin1_0
+\CBid[-1,4]\plf\c[6]병사：\c[0] 그래, 밥 먹으면서 불리면 그게 최고지.
+
+JobOpt/SuckJob_Begin1_1
+\CBid[-1,4]\plf\c[6]병사：\c[0] 좋아! 무릎 꿇어! 내가 시키는 대로 빨아!
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 네...
+
+Job/MeatToiletJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 이 년을 붙잡아라!
+
+Job/MeatToiletJob1
+\CBct[6]\m[hurt]\plf\Rshake\c[6]로나：\c[0] 아야？！
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 전선에서 괴물을 막던 형제들이 곧 돌아온다.
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]병사：\c[0] 네가 할 일은 간단하다. 그놈들의 육변기가 되는 거다!
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 으....
+
+Job/MeatToiletJob2_0
+\CBmp[Raper0,20]\prf\c[4]병사：\c[0] 아, 좋다. 드디어 더러운 걸 다 쏟아낼 수 있겠군.
+
+Job/MeatToiletJob2_1
+\CBmp[Raper0,20]\prf\c[4]병사：\c[0] 젖가슴도 없는 작은 년이잖아.
+
+Job/MeatToiletJob3
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]로나：\c[0] ....
+\CBmp[Raper0,20]\prf\c[4]병사：\c[0] 간다！
+
+Job/MeatToiletJob3_virgin0
+\CBmp[Raper0,20]\prf\c[4]병사：\c[0] 이 년, 처녀잖아♥ 처음이구나♥
+
+Job/MeatToiletJob3_virgin1
+\BonMP[Raper1,20]\prf\c[4]병사：\c[0] 끝내준다！
+\BonMP[Raper2,20]\prf\c[4]병사：\c[0] 너 빨리 끝내라, 나도 저 빡빡한 보지를 박고 싶다！
+
+Job/MeatToiletJob4
+\CBmp[Raper0,5]\prf\c[4]병사：\c[0] 쌀 것 같다！ 받아라！
+
+Job/MeatToiletJob5
+\CBmp[Raper0,4]\prf\c[4]병사：\c[0] 크… 씨발, 죽인다♥
+\CBmp[Raper1,20]\prf\c[4]병사：\c[0] 이번엔 내 차례다♥
+
+Job/MeatToiletJob6
+\CBmp[Raper1,4]\prf\c[4]병사：\c[0] 헤헤헤！ 내 30센치 자지의 힘을 맛봐라♥
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]로나：\c[0] ....
+
+Job/MeatToiletJob7
+\CBmp[Raper1,4]\prf\c[4]병사：\c[0] 나 왔다♥  쏟아진다♥
+
+Job/MeatToiletJob8
+\CBmp[Raper2,20]\prf\c[4]병사：\c[0] 내 차례다！ 빨리！ 나도 박고 싶다！
+
+Job/MeatToiletJob9
+\CBmp[Raper2,20]\prf\c[4]병사：\c[0] 더러운 변기년！ 네 보지 다 찢어버리겠다！
+
+Job/MeatToiletJob10
+\CBmp[Raper2,20]\prf\c[4]병사：\c[0] 간다！ 나온다！
+
+Job/MeatToiletJob11
+\CBmp[Raper2,20]\prf\c[4]병사：\c[0] \{씨발! 시원하다!\}
+\CBmp[Raper2,20]\prf\c[4]병사：\c[0] 다음 놈 들어와라！
+
+Job/MeatToiletJob12
+\CBmp[Raper3,20]\prf\c[4]병사：\c[0] 이번엔 내 차례다！
+\CBmp[Guard2,20]\prf\c[4]병사：\c[0] 아니！ 내 차례가 먼저다！
+
+Job/MeatToiletJob13
+\CBmp[Guard1,20]\prf\c[4]병사：\c[0] 씨빌！ 새치기 하지 마라！
+\CBmp[Raper3,20]\prf\c[4]병사：\c[0] 아예 다 같이 박자고！ 한 구멍 형제 되는 거다！
+\CBmp[Guard2,20]\prf\c[4]병사：\c[0] 그거 괜찮네！
+
+Job/MeatToiletJob14
+\BonMP[Raper0,20]\BonMP[Raper1,20]\BonMP[Raper2,20]\BonMP[Raper3,20]\prf\c[4]병사：\c[0] 헤헤헤헤...
+
+Job/MeatToiletJob15
+\narr로나는 병사들의 모욕과 조롱 속에서 의식을 잃었다...
+
+#################################### JOB END
+
+whore1/Qmsg0
+꼬마야, 나랑 놀아줄래?
+
+whore1/Qmsg1
+내 가슴… 크지 않니?
+
+whore1/Qmsg2
+만져보고 싶어?
+
+whore2/Qmsg0
+나… 속았어…
+
+whore2/Qmsg1
+제발, 구해줘…
+
+whore2/Qmsg2
+집에… 돌아가고 싶어…
+
+whore3/Qmsg0
+왜… 왜 이런 거야?
+
+whore3/Qmsg1
+다들… 똑같은 사람인데?
+
+whore3/Qmsg2
+왜 나한테 이렇게 하는 거야?
+
+whore4/Qmsg0
+난… 살아남을 거야!
+
+whore4/Qmsg1
+죽을 건… 너희들이야!
+
+whore4/Qmsg2
+저리 꺼져!
+
+art/GodEmperor
+\cg[other_GodEmperor]별들의 황제
+우리는 지난 십수 년 동안 서쪽의 배신과 모욕을 마주했지만,  
+당신은 그 모든 걸 막아내려 했던 유일한 황제이었습니다.  
+비록 그 시간이 짧았고, 결국 실패했을지라도… 저는 여전히 당신께 경의를 표합니다. 
+\m[serious]흠... 별들의 황제?
+\m[confused]그게 누군데? 
+\m[flirty]근데 머리 모양은 좀 웃기네.

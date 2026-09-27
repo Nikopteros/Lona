@@ -1,0 +1,713 @@
+####################################--------------------- overmap
+ThisMap/OvermapEnter
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alto! ¿Quién eres? \optB[Cancelar,Entrar,Infiltarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+################################################### INN
+
+InnKeeper/Begin
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    ¡Esta es la Fortaleza del Destino! ¡Construida para defender el frente de batalla!
+
+InnKeeper/About_here
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    Siempre ha estado en primera línea.
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    Hace cientos de años, otros países lograron controlar la isla de Noer, ¡pero la Fortaleza del Destino nunca fue conquistada! ¡Esta fortaleza demuestra el poder del \c[4]Reino de Garland\C[0]!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    Como ves, ni los pieles verdes ni los demonios de carne pueden derrotar a la Fortaleza del Destino!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    ¡Solo nosotros podemos controlar la Fortaleza del Destino!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... Vale...
+
+InnKeeper/About_work
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Hay trabajo para mí aquí?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    ¡Necesitamos soldados! ¡No mendigas!
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    ¡¿Entiendes?!\. Aunque\..\..\..\..
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    ¿Eres mujer, verdad?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Sí, ¿y qué?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    Aja...
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    Aunque tengas las tetas muy pequeñas, al menos las tienes.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Y qué?
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tabernero：\C[0]    En los barracones necesitan mujeres.
+\CBct[8]\m[shy]\plf\PRF\c[6]Lona：\C[0]    ¿Oh?
+
+ThisIsFine/talk0
+\cg[other_ArtThisIsFine]Todo está bien：predicción del futuro
+\m[serious]\c[6]Lona：\C[0]    Está bien...
+\m[flirty]\c[6]Lona：\C[0]    ¿Es una profecía?
+
+############################################################################################################################### Right Gate
+
+GateR/LeaveBegin0
+\cg[map_NoerGate]Pasaje al puesto, un guardia está en la puerta \optB[Cancelar,Entrar,Infiltarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+GateR/Leave_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Esclava! ¿Qué haces aquí?
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Yo....
+
+GateR/Leave_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Mantente alejada!
+
+GateR/Leave_passed
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ......
+
+#############################
+
+Gate/Begin0
+\cg[map_NoerGate]Pasaje a los barracones, un guardia está en la puerta \optB[Cancelar,Entrar,Infiltarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Alto! ¿Qué haces aquí?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Eh?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    !!!!
+
+Gate/Enter_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Lárgate, esclava!
+
+Gate/Enter_normal1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Alto! ¿Quién eres? ¿Qué quieres?
+
+Gate/Enter_Cecily
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    Eh-...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    \{¡Presente!
+
+Gate/Enter_normal2
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Emm... \optB[Cancelar,Inspeccionar,Prostitución<r=HiddenOPT1>]
+
+Gate/Enter_normal_walk
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Párate contra la pared!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Por qué?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Tengo que registrarte! \optB[Vete al diablo,De acuerdo]
+
+Gate/Enter_normal_walk_okay0
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Vale...
+
+Gate/Enter_normal_search_butt
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Tienes un culo estupendo!
+
+Gate/Enter_normal_search_vag
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡Y por delante también estás bien!
+
+Gate/Enter_normal_search_boob
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    Pero... ¿Dónde están las tetas...?
+
+Gate/Enter_normal_walk_okay1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¿Eres nuestra nueva puta? Puedes pasar.
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    .....
+
+Gate/Enter_normal_whore
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Qué tal, soldaditos? ¿Cansados? Vine a hacerles compañía...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Soldado：\C[0]    ¡¿En serio?! ¡Guau! ¡Vamos, vamos!
+
+
+############################################################################################################################### barrack
+####################################--------------------- board
+
+boardR/Begin1
+\board[Evitar el golpe de calor]
+Para evitar el golpe de calor, bebe mucha agua.
+Para entrenar al aire libre en verano, bebe agua antes y después del ejercicio.
+
+boardR/Begin2
+\board[Información para prostitutas]
+Prostitutas, den prioridad a los patrulleros y soldados cansados.
+Ve al dormitorio y habla con el oficial de seguridad.
+
+boardR/Washroom
+\board[Información para esclavas]
+Día: Por favor, habla con el oficial de seguridad.
+Noche: Limpia los baños, entretén a los patrulleros y soldados.
+Durante el día, pueden alimentarte.
+
+####################################--------------------- Guards
+
+TrainingGuards/Qmsg0
+¡Joder!
+
+TrainingGuards/Qmsg1
+¡Jaja!
+
+TrainingGuards/Qmsg2
+¡Matar!
+
+####################################---------------------- SGT
+
+SGT/begin_normal_0
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]Sargento：\C[0]    ¿Por qué viniste a la Fortaleza del Destino?
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Em... Yo... \optB[Inspeccionar,Matar monstruos]
+
+SGT/begin_normal_1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    Vine a matar monstruos.
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Sargento：\C[0]    ¿Así que eres mercenaria?
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡Sí!
+\CBmp[SGT]\SETpl[SGT_Normal]\Lshake\prf\c[4]Sargento：\C[0]    ¡Muéstrame tu ferocidad en combate! \optB[¿Qué?]
+
+SGT/begin_normal_2
+\CBct[2]\m[fear]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Sargento：\C[0]    ¿No tienes ferocidad?
+\CBmp[SGT,20]\SETpl[SGT_Shake]\m[terror]\Lshake\prf\c[4]Sargento：\C[0]   \{¡MUERE! ¡¡¡AAARRRRGGHH!!!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\prf\c[4]Sargento：\C[0]    ¡Esto es ferocidad! ¡Ahora muestra la tuya!
+\CBct[8]\SETpl[SGT_Normal]\m[fear]\Rshake\c[6]Lona：\C[0]    Oh... Mmm... ¿Aarrgh?
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Sargento：\C[0]    ¡Eso es mierda, no ferocidad! ¡Hazlo bien!
+
+SGT/begin_normal_3
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    \{¡AAARRRGGHH!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Sargento：\C[0]    ...No da miedo.
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Sargento：\C[0]    ¡Necesitas entrenar!
+
+SGT/begin_normal_4
+\plh\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Qué...
+
+SGT/begin_wrong_ans
+¡ENTRENA!
+
+SGT/known0
+\CBmp[SGT,20]\ph\SETpl[SGT_Shake]\Lshake\c[4]Sargento：\C[0]    ¡Basura! ¿Cómo te llamas?
+\CBct[2]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡¡¡Lona!!!
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]Sargento：\C[0]    ¡Pedazo de mierda! ¡Desde hoy te llamas Gusano!
+
+
+####################################################################### Quest Board
+
+QuestBoard/DF_Woodson_list
+Caza de la Familia Woodson
+
+QuestBoard/DF_WipeTribe_list
+Caza de la Tribu de los Miembros
+
+QuestBoard/DF_BanditHunt_list
+Caza de Bandidos
+
+QuestBoard/DF_Woodson
+\board[Familia Woodson]
+Objetivo: ¡Matarlos a todos!
+Recompensa: Gran Medallón x9\i[582]
+Cliente: Sirvienta
+Repetible: Una vez
+¡No me equivoqué! ¡Aún están vivos!
+¡Mátalos a todos!
+
+QuestBoard/DF_WipeTribe
+\board[Caza de la Tribu de los Miembros]
+Objetivo: ¡Matarlos a todos!
+Recompensa: Gran Medallón x3\i[582]
+Cliente: Compañía Comercial Rosendo
+Repetible: Una vez
+Descubrimos su ubicación, están en el bosque del sureste.
+Estos salvajes crueles deben ser castigados.
+
+QuestBoard/DF_BanditHunt
+\board[Caza de Bandidos]
+Objetivo: Matar bandidos en los alrededores
+Recompensa: Gran Medallón x1\i[582] Medallón x7\i[583]
+Cliente: Compañía Comercial Rosendo
+Repetible: Múltiples veces
+Tuvimos muchos problemas tras la invasión de los demonios de Sibaris.
+Nosotros, los humanos, debemos ayudarnos en esta crisis, pero estos bandidos han ido demasiado lejos.
+Han robado a los soldados en el frente y a los refugiados sus pertenencias y deben pagar por ello.
+¡Mercenarios profesionales, esta vez la Compañía Comercial Rosendo os pagará para que vayáis a la ciudad a luchar contra los bandidos!
+
+################################### QuProgDF_BanditHunt 
+
+QuProgDF_BanditHunt/Begin
+\narr Territorio de bandidos...
+
+QuProgDF_BanditHunt/done
+\CBid[-1,20]\prf\c[4]Trabajador：\C[0]    ¿Te deshiciste de esos bandidos?
+\CBid[-1,4]\prf\c[4]Trabajador：\C[0]    \{¡Muy bien!
+
+################################### QuProgDF_Woodson detail
+
+QuProgDF_Woodson/prog1_emp
+\CBmp[GuildEmpolyee,8]\prf\c[4]Trabajador：\C[0]    Espera... ¿La familia \c[6]Woodson\C[0]?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Pasa algo?
+\CBmp[GuildEmpolyee,20]\prf\c[4]Trabajador：\C[0]    Este trabajo lo publicó una sirvienta en la fortaleza, y lleva aquí una década.
+\CBmp[GuildEmpolyee,20]\prf\c[4]Trabajador：\C[0]    Lamentablemente, nadie ha podido encontrar a ningún miembro de la familia \c[6]Woodson\C[0].
+\CBmp[GuildEmpolyee,20]\prf\c[4]Trabajador：\C[0]    A mí también me gustaría que estuvieran todos muertos.
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Entonces...
+\CBct[20]\m[normal]\PRF\c[6]Lona：\C[0]    Quizá debería buscar otro trabajo aquí.
+\CBmp[ExitPoint,19]\prf\c[4]Trabajador：\C[0]    Ella aún quiere resolver esto, creo que deberías hablar con ella. Está cerca de la posada.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Vale.
+
+QuProgDF_Woodson/prog1_Maid
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... Hola...
+\CBmp[Maid,5]\prf\c[4]Sirvienta：\C[0]    ¡Estoy ocupada, ¿no lo ves?!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Perdone! Pero tomé un trabajo en el Gremio. ¿Es su misión sobre la familia \c[4]Woodson\C[0]?
+\CBmp[Maid,8]\prf\c[4]Sirvienta：\C[0]    ....
+\CBmp[Maid,8]\prf\c[4]Sirvienta：\C[0]    ¿Tú? ¿Qué puede hacer una enana como tú...?
+
+QuProgDF_Woodson/prog2_Maid
+\CBmp[Maid,8]\ph\c[4]Sirvienta：\C[0]    ¿Qué quieres saber? \optB[Nada,¡Ya están muertos!<r=HiddenOPT1>,¿Quiénes son los Woodson?,¿Quién es usted?,¿Dónde encontrarlos?<r=HiddenOPT2>]
+
+QuProgDF_Woodson/prog2_optWin
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\C[0]    Em... Ya están muertos...
+\CBmp[Maid,2]\prf\c[4]Sirvienta：\C[0]    ...¿Cómo?
+\CBct[8]\m[confused]\PLF\c[6]Lona：\C[0]    Se escondían en el bosque al sur de la fortaleza. Esta es la ubicación aproximada.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    ¡Perfecto! ¡Lo comprobaré ahora mismo! Aquí tienes la prueba de completar la misión para el Gremio. ¡Ve por tu recompensa!
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Hurra?! ¡Oh! ¡Tenga cuidado, aún es peligroso ahí!
+
+QuProgDF_Woodson/prog2_optWho
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\C[0]    Em... Esto... ¿Quiénes son los Woodson?
+\CBmp[Maid,2]\prf\c[4]Sirvienta：\C[0]    ¿No sabes de la Secta Woodson?
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    La \c[6]Secta Woodson\C[0] fue fundada por \c[6]Jim Woodson\C[0] y es una secta del Santo de Sibaris.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Predican que pronto llegará el Juicio Final.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Tienen muchos seguidores, entre ciudadanos y vagabundos.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Pero se desviaron de las enseñanzas del Santo y fueron declarados culto, por lo que nobles y la sociedad del Santo los persiguieron.    
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Abandonaron Sibaris y ubicaron a sus seguidores en algún lugar de la isla, escondidos.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Pero pronto encontraron el culto, ¡es una isla! ¿Dónde más podrían esconderse?
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Cuando el ejército los rodeó, dijeron que el Juicio Final se acercaba, y cientos de sus seguidores ya se habían suicidado.    
+\CBct[8]\m[sad]\PLF\c[6]Lona：\C[0]    Suena triste.
+
+QuProgDF_Woodson/prog2_optWho_Gr
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]Cecilia：\C[0]    Oí hablar de esto, causaron mucho revuelo en su tiempo, pero yo era pequeña entonces.
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]Cecilia：\C[0]    \c[4]Grayrat\C[0], ¿tú sabes algo de ellos?
+\CBfB[20]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]Grayrat：\C[0]    Sí, señorita. En aquel entonces, mi señor envió guerreros a rodearlos y reprimirlos.
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\c[4]Cecilia：\C[0]    Escucharé tu historia cuando tengamos tiempo. ¡Ahora hay que trabajar!
+\CBfB[20]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]Grayrat：\C[0]    Sí, señorita.
+
+QuProgDF_Woodson/prog2_optYou
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\C[0]    ¿Por qué los odia tanto?
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    ¿Odiarlos? ¡Yo era noble y creyente!
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    ¡Pero un día invadieron mi casa! ¡Mataron a mi familia!
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Cuando intenté huir, me tomaron como rehén y me convertí en esclava sexual de su líder.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Pero escapé antes del Juicio Final. ¡Estoy harta! ¡Quiero que todos estén muertos!
+
+QuProgDF_Woodson/prog2_optWhere
+\CBct[2]\m[confused]\PLF\c[6]Lona：\C[0]    ¿No están ya muertos?
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    ¡Muertos, pero no todos! ¡No descansaré hasta ver sus cadáveres con mis propios ojos! 
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Los Santos me pidieron que identificara los cuerpos. Pero no encontré a su esposa ni a sus familiares.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    ¡La maldita \c[6]familia Woodson\C[0] sigue viva! ¡Quiero que estén todos muertos! ¡Hasta el último!    
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    Son todos mis ahorros, todo lo que me queda, y estoy dispuesta a dárselo a quien los mate a todos!
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\C[0]    ¿Sabe dónde están?
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    No, no lo sé. Y cuento con que los encuentres tú.
+\CBmp[Maid,20]\prf\c[4]Sirvienta：\C[0]    No me rendiré, ¡mi recompensa esperará a quien pueda matarlos!
+
+####################################################################### GReenHat Quest
+
+GreenHat/Quest_Begin1
+\CBmp[GreenHat,1]\prf\c[4]Boinas Verdes：\C[0]    ¿Tú... nueva puta?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué? Yo....
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    ¡Ayúdame! \optB[Escuchar]
+
+GreenHat/Quest_Begin2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Em....
+\CBct[8]\m[normal]\PRF\c[6]Lona：\C[0]    ¿Pasó algo? ¿En qué puedo ayudar?
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    No me respondió. ¡Debe estar muy alterada!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Ella?
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    El amor de mi vida, \c[4]Marianna\C[0], ¡crecimos juntos!
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    Cuando los monstruos invadieron, huimos.
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    Su tío trabajaba en el puerto de Noertown, decidimos pedirle ayuda.
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    Pero no pudimos entrar a la ciudad porque no estábamos casados, así que solo pudimos quedarnos en el campamento de refugiados cerca de la puerta norte.
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    El ejército me dio una oportunidad, podría garantizarnos un pase a la ciudad.
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    Incluso planeamos casarnos... Pero el desastre lo arruinó todo....
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0]    Entiendo...
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    Intenté escribirle muchas veces, pero nunca obtuve respuesta, como si mis cartas ni siquiera llegaran...
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    ¡Ayúdame! ¡Te daré todo mi salario!
+
+GreenHat/Quest_BeginBoard
+\board[Carta de Amor]
+Objetivo: Entregar carta
+Recompensa: Gran Medallón x1\i[582] Medallón x1\i[583]
+Cliente: Soldado
+Repetible: Una vez
+¡Los soldados no tienen vacaciones!
+Su única esperanza es recurrir a una prostituta.
+¡Ve a la dirección y entrega la carta a una chica llamada Marianna!
+
+GreenHat/Quest_BeginOpt
+¿Aceptas el trabajo? \optB[Rechazar,Aceptar]
+
+GreenHat/Quest_BeginAgree
+\CBct[20]\m[serious]\PRF\c[6]Lona：\C[0]    ¡Puede contar conmigo! Entregaré su carta.
+\CBmp[GreenHat,20]\prf\c[4]Boinas Verdes：\C[0]    Toma, aquí está. ¡Gracias!
+
+GreenHat/Quest_BeginDis
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Lo siento, necesita encontrar a alguien más.
+\CBmp[GreenHat,8]\prf\c[4]Boinas Verdes：\C[0]    ......
+
+GreenHat/Quest2_Qmsg0
+¿Entregaste la carta?
+
+GreenHat/Quest2_Qmsg1
+¿Ella sigue en Noer?
+
+GreenHat/Quest2_Qmsg2
+¿Qué respondió?
+
+GReenHat/Quest2_Begin0
+Zona oeste, Camino costero, Fila 9, casa 8 №6-4.
+\m[confused]\PRF\c[6]Lona：\C[0]    ¿Es aquí?
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\SETpl[AnonMale2]\Lshake\prf\c[6]Desconocido：\C[0]    ¿Quién es?
+\m[flirty]\PRF\c[6]Lona：\C[0]    Em... Busco a una tal señorita Marianna. ¿Vive aquí?
+\SETpl[AnonMale2]\Lshake\prf\c[6]Desconocido：\C[0]    ¡¿Otra vez?!
+\m[confused]\PRF\c[6]Lona：\C[0]    ¿Qué otra vez?
+\SETpl[AnonMale2]\Lshake\prf\c[6]Desconocido：\C[0]    ¡Marianna! ¡Alguien te busca!
+\..\..\..
+\SETpr[AnonSlut1]\plf\Rshake\c[6]Desconocida：\C[0]    ¿Quién es?
+\SETpl[AnonMale2]\Lshake\prf\c[6]Desconocido：\C[0]    Alguien más, ¡ve tú a decirle!
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Desconocida：\C[0]    ¿Qué?
+\m[shy]\PRF\c[6]Lona：\C[0]    ¿Señorita Marianna? Hola...
+
+GReenHat/Quest2_Begin1
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Desconocida：\C[0]    ¿Eres una puta de la fortaleza? ¿Te envió John?
+\m[flirty]\PRF\c[6]Lona：\C[0]    Yo... Em...
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Desconocida：\C[0]    No eres la primera que me busca por él.
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Desconocida：\C[0]    Él y yo vivimos en mundos distintos. Basta de molestarme. Soy muy feliz aquí y ahora.
+\SETpl[AnonSlut1]\Lshake\prf\c[6]Desconocida：\C[0]    Dale esta carta y dile que no me moleste más.
+\..\..\..\plh\SndLib[closeChest]
+
+GReenHat/Quest2_Begin2
+\m[angry]\plh\PRF\c[6]Lona：\C[0]    ¿Qué tonterías son estas?
+
+GreenHat/Quest3_OPT
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿John? Regresé.
+\CBmp[GreenHat,1]\prf\c[4]John：\C[0]    ¡Genial!
+\CBmp[GreenHat,6]\prf\c[4]John：\C[0]    ¿Entregaste la carta? ¿Está en Noer? ¿Respondió?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Bueno... \optD[Entregar la carta de Marianna,Mentir<r=HiddenOPT1>]
+
+GreenHat/Quest3_Truth0
+\CBct[8]\m[shy]\PRF\c[6]Lona: \C[0]    Yo... eh... No sé cómo decirlo...
+\CBct[6]\m[flirty]\PRF\c[6]Lona: \C[0]    Aquí hay una carta de ella, mejor léela tú mismo...
+
+GreenHat/Quest3_Truth1
+\ph\narr\..\..\..\..
+
+GreenHat/Quest3_Truth2
+\CBmp[GreenHat,1]\prf\c[4]John: \C[0]    \{¡NO!!!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Qué?!
+\CBmp[GreenHat,1]\prf\c[4]John: \C[0]    \{¡Estás mintiendo! ¡Grrr!
+\CBct[1]\m[terror]\Rshake\c[6]Lona: \C[0]    ¡Cálmese!
+\CBmp[GreenHat,1]\prf\c[4]John: \C[0]    \{¡GRRRRR!!
+
+GreenHat/Quest3_Lie0
+\CBct[8]\m[confused]\PRF\c[6]Lona: \C[0]    ¿No habías recibido respuesta antes?
+\CBmp[GreenHat,20]\prf\c[4]John: \C[0]    ¡Exacto!
+\CBmp[GreenHat,20]\prf\c[4]John: \C[0]    La gente dice que no puede encontrarla. ¿Tú tampoco pudiste?
+\CBct[6]\m[tired]\PRF\c[6]Lona: \C[0]    Lo siento... pero... ella falleció...
+
+GreenHat/Quest3_Lie1
+\CBmp[GreenHat,6]\prf\c[4]John: \C[0]    \{¡¿Qué?! ¡No puede ser!
+
+GreenHat/Quest3_Lie2
+\CBct[6]\m[sad]\PRF\c[6]Lona: \C[0]    No... es verdad. Lo confirmé con la guardia de la ciudad.
+\CBct[6]\m[tired]\PRF\c[6]Lona: \C[0]    Murió durante el levantamiento de refugiados, la enterraron en el Cementerio de Noera.
+\CBmp[GreenHat,8]\prf\c[4]John: \C[0]    .............
+\CBct[6]\m[sad]\PRF\c[6]Lona: \C[0]    Lo siento...
+
+####################################################################### Slave begin
+
+DormGuard/SlaveBegin0
+\ph\CBmp[securityGuard,20]\ph\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    ¿Eres la nueva esclava?
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona: \C[0]    Sí, señor.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    Ajá\..\..\..
+\CBmp[securityGuard,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    Qué lástima que tengas unas tetas tan pequeñas.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona: \C[0]    ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    Debido a la emergencia, hemos reinstaurado la esclavitud militar.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    Sígueme, te mostraré qué hacen aquí las esclavas.
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona: \C[0]    Sí, señor...
+
+DormGuard/SlaveBegin_Dorm
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Esta es el área de descanso.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Donde los soldados y oficiales descansan fuera de servicio.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Si no tienes tareas especiales, tu trabajo es satisfacer a los soldados y oficiales fuera de servicio.
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona: \C[0]    Entiendo...
+
+DormGuard/SlaveBegin_Cart
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    ¡Oye! ¡Mira! ¿Sabes qué es esto?
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona: \C[0]    No estoy segura.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    ¡Son todos cuerpos de esclavas!
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    !!!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prd\c[4]Oficial: \C[0]    ¡Así que no intentes escapar! ¡Ni se te ocurra resistirte!
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona: \C[0]    Entiendo... Señor...
+
+DormGuard/SlaveBegin_Washroom0
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Aquí puedes bañarte. Y además...
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    ¡Será tu lugar para dormir!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Durante el día, buscarás trabajo por tu cuenta.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Por la noche, cuando termines, satisfarás a los patrulleros y soldados.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    ¡Como esclava militar, debes obedecer a todos los oficiales y no negarte a nadie!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Esta es ahora tu vida.
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona: \C[0]    ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    ¡Responde!
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Sí... Señor...
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    ¡Más fuerte!
+
+DormGuard/SlaveBegin_Washroom1
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    ¡Sí! ¡Señor!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    \{¡Más fuerte!
+
+DormGuard/SlaveBegin_Washroom2
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona: \C[0]    \{¡Sí! ¡Señor!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Oficial: \C[0]    ¡Bien! ¡Descansa!
+
+DormGuard/SlaveBegin_end
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    ......
+
+DormGuard/SlaveBegin_Escape
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    ¡No tenemos piedad con las esclavas que escapan!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Oficial: \C[0]    Vuelve a tu habitación, decidiremos qué hacer contigo.
+\CBct[20]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    Sí....
+
+####################################################################### Slave begin Torture
+
+DormGuard/SlaveBegin_Torture0
+\ph\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia: \C[0]    ¡Reclutas, atención!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia: \C[0]    ¡No me importa de qué lado estaban antes ni de dónde vienen, ahora son soldados de \c[4]Garlenda\C[0]!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia: \C[0]    ¿Cómo convertirse en un verdadero guerrero? Primera lección: ¡No tener piedad! ¡Sean crueles!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia: \C[0]    ¡Deben acostumbrarse a matar!
+
+DormGuard/SlaveBegin_Torture1
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]Guardia: \C[0]    ¿Esta esclava intentó escapar? ¿O no quiso trabajar? ¡No importa!
+\CBmp[TorturePoint,20]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    Oh...
+
+DormGuard/SlaveBegin_Torture2
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Lo importante es que falló y ahora merece su castigo!
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Tú, ven aquí! ¡Golpéala!
+\CBmp[noob3,20]\plf\prf\c[4]Soldado: \C[0]    ¡Sí, señor!
+
+DormGuard/SlaveBegin_Torture3
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Bien! ¡Siguiente!
+\CBmp[noob2,20]\plf\prf\c[4]Soldado: \C[0]    ¡Sí, señor!
+
+DormGuard/SlaveBegin_Torture4
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Buen golpe! ¡Siguiente!
+\CBmp[noob1,20]\plf\prf\c[4]Soldado: \C[0]    ¡Sí, señor!
+
+DormGuard/SlaveBegin_Torture5
+\CBmp[noob1,20]\plf\prf\c[4]Soldado: \C[0]    ........
+
+DormGuard/SlaveBegin_Torture6
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Alto! Prepárense para la siguiente tarea.
+\CBmp[noob1,8]\plf\prf\c[4]Soldado: \C[0]    \..\..\..
+
+DormGuard/SlaveBegin_Torture7
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Dije alto! ¿Estás sordo?
+\CBmp[noob1,5]\plf\prf\c[4]Soldado: \C[0]    \{¡Nooo! ¡Todos murieron!
+
+DormGuard/SlaveBegin_Torture9
+\CBmp[noob1,5]\plf\prf\c[4]Soldado: \C[0]    \{¡Mi esposa!
+
+DormGuard/SlaveBegin_Torture10
+\CBmp[noob1,5]\plf\prf\c[4]Soldado: \C[0]    \{¡Mi hija! Oh no-o-o-o....
+
+DormGuard/SlaveBegin_Torture11
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    \..\..\..
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    No llores. Descansen.
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Les responderemos...
+\CBmp[noob1,5]\plf\prf\c[4]Soldado: \C[0]    Sí, señor...
+
+####################################################################### Slave Daily begin Rape
+
+Guard/DailyRape0
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡Despierta!
+
+Guard/DailyRape1
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡Esclava! ¡Levántate!
+\CBct[20]\m[tired]\plf\Rshake\c[6]Lona: \C[0]    Ohhh......
+
+Guard/DailyRape_suckDick
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    Estoy excitado. Ven aquí y ayúdame.
+
+Guard/DailyRape_Rape
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡Abre las piernas! \optD[Está bien<t=5>,¡No!]
+
+############################################################## NightPatrol
+
+NightPatrol/SlaveQmsg0
+¡Lárgate!
+
+NightPatrol/SlaveQmsg1
+¡Ocúpate de tus asuntos!
+
+NightPatrol/SlaveQmsg2
+¡Fuera!
+
+NightPatrol/Rape0
+\c[4]Soldado: \C[0]    ¡Ven aquí! Necesito tu compañía.
+
+NightPatrol/Rape1
+\c[4]Soldado: \C[0]    ¡Esclava-a-a!
+
+NightPatrol/Rape2
+\c[4]Soldado: \C[0]    ¡Eh, putita!
+
+############################################################## securityGuard
+
+securityGuard/NormalWhore
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¿Eres la nueva puta? ¿Con esas tetas tan pequeñas?
+\CBct[20]\m[shy]\plf\PRF\c[6]Lona: \C[0]    Yo.... \optB[No soy puta,Soy puta]
+
+securityGuard/NormalWhore_No
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona: \C[0]    ¡En realidad no!
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Bueno... ¿Entonces qué haces aquí?
+
+securityGuard/NormalWhore_Yes
+\CBct[20]\m[lewd]\plf\Rshake\c[6]Lona: \C[0]    Sí, soy una prostituta.
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Ajá......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Los superiores nunca escuchan nuestras peticiones sobre el tamaño de los pechos.
+\CBct[20]\m[sad]\plf\Rshake\c[6]Lona: \C[0]    Mis pechos... ¿son demasiado pequeños?
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Ya no importa, estás aquí. No tienes otra opción.
+\CamMP[DormTable]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Ve a la sala de descanso durante el día y satisface las necesidades sexuales de oficiales y soldados.
+\CBct[20]\m[shy]\plf\Rshake\c[6]Lona: \C[0]    Vale....
+
+securityGuard/SlaveNight
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]   Limpia la mierda y satisface a los soldados. Luego puedes ir a dormir.
+
+securityGuard/SlaveDay
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Pedazo de mierda! ¡A trabajar!
+
+securityGuard/SlaveWorkDone
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¿Terminaste? ¡A dormir!
+
+securityGuard/SlaveDecideWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¿Esclava? ¿Ya te reportaron? Veamos...
+
+securityGuard/SlaveNoWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Tienes suerte, hoy no hay trabajo para ti.
+
+securityGuard/SlaveSandBag
+\CBmp[SGT,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Busca al \c[4]Oficial\C[0] en los sacos de arena y pregúntale. ¡Necesita esclavas para ayudar en el entrenamiento!
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona: \C[0]    Sí... Señor...
+
+securityGuard/SlaveJoyWork
+\CBmp[DormTable,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Ve a la sala de descanso cercana. ¡Los oficiales y soldados necesitan tu atención!
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona: \C[0]    Sí... Señor...
+
+securityGuard/SlaveFood
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Aquí está tu comida para hoy! ¡Disfrútala mientras sigas viva!
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona: \C[0]    Gracias, Señor...
+
+securityGuard/SlaveFood_AskMore
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona: \C[0]    Perdone... \optB[Nada,¿Podría darme más comida?]
+
+securityGuard/SlaveFood_AskMore_win
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    Está bien, parece que realmente necesitas un poco más.
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona: \C[0]    Gracias, Señor...
+
+securityGuard/SlaveFood_AskMore_fail
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia: \C[0]    ¡Vete a la mierda!
+\CBct[6]\m[tired]\plf\PRF\c[6]Lona: \C[0]    Disculpe...
+
+securityGuard/SlaveFoodQmsg
+¡Recoge eso!
+
+############################################################## SGT Slave Survival
+
+SGT/SlaveSuvival
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]Sargento: \C[0]    ¡Eh! ¡Tenemos una esclava aquí!
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\c[4]Sargento: \C[0]    ¡Muévete, pedazo de mierda! ¡Veamos cuánto aguantas con la guardia!
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    ¡Esperen! ¡Se lo suplico!!
+
+SGT/SlaveSuvival_WIN
+\SETpl[SGT_Shake]\Lshake\c[4]Sargento: \C[0]    ¡Qué demonios?!
+\SETpl[SGT_Normal]\Lshake\c[4]Sargento: \C[0]    ¡Son unos inútiles! ¡No pueden ni matar a una simple esclava!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    Por favor... ¡Dejen de intentar matarme!
+
+############################################################## Joy work
+
+JoyTable/NothingQmsg0
+Estoy trabajando
+
+JoyTable/NothingQmsg1
+No hay nada que hacer aquí
+
+JoyTable/NothingQmsg2
+Mesa
+
+JoyTable/JobBegin0_slave
+\CBmp[BrkGuard1,1]\ph\c[4]Soldado: \C[0]    ¡Tenemos una esclava!
+\CBmp[BrkGuard2,2]\c[4]Soldado: \C[0]    ¡Oh oh, nueva esclava!
+\CBmp[BrkGuard3,5]\c[4]Soldado: \C[0]    ¡¿Y dónde están sus tetas?!
+
+JoyTable/JobBegin0_whore
+\CBmp[BrkGuard1,1]\c[4]Soldado: \C[0]    ¡Oh, una prostituta!
+\CBmp[BrkGuard2,2]\c[4]Soldado: \C[0]    ¡Oh oh, nueva putita!
+\CBmp[BrkGuard3,5]\c[4]Soldado: \C[0]    ¡¿Por qué tiene las tetas tan pequeñas?!
+
+JoyTable/JobBegin1
+\CBct[6]\m[flirty]\PRF\c[6]Lona: \C[0]    Eh.... Hola a todos....
+\CBmp[BrkGuard1,20]\prf\c[4]Soldado: \C[0]     Súbete a la mesa y déjanos verte bien. \optD[Subir<t=5>,Rechazar<r=HiddenOPT1>]
+
+JoyTable/JobBegin2
+\CBct[8]\m[shy]\PRF\c[6]Lona: \C[0]    .....
+\CBmp[BrkGuard2,4]\prf\c[4]Soldado: \C[0]     Tiene tetas pequeñas, pero son lindas.
+\CBmp[BrkGuard3,20]\prf\c[4]Soldado: \C[0]     ¡Baila para nosotros!
+\CBct[8]\m[fear]\PRF\c[6]Lona: \C[0]    Oh... \optD[Bailar<t=5>,Rechazar<r=HiddenOPT1>]
+
+JoyTable/JobBegin3
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Está bien....
+
+JoyTable/JobBegin4
+\CBmp[BrkGuard1,3]\prf\c[4]Soldado: \C[0]    ¡Jajaja!
+\CBmp[BrkGuard2,4]\prf\c[4]Soldado: \C[0]    ¡Abre las piernas!
+\CBmp[BrkGuard3,9]\prf\c[4]Soldado: \C[0]    ¡Vamos!
+
+JoyTable/JobBegin_rape
+\CBmp[BrkGuard3,4]\prf\c[4]Soldado: \C[0]    Esto es aburrido, ¡quiero follármela!
+\CBmp[BrkGuard2,4]\prf\c[4]Soldado: \C[0]    ¡Vamos a follárnosla!
+\CBmp[BrkGuard1,4]\prf\c[4]Soldado: \C[0]    ¡De acuerdo! ¿Uno por uno o todos juntos?!
+\CBct[1]\m[terror]\Rshake\c[6]Lona: \C[0]    ¡¿Q-Qué?!
+
+JoyTable/JobBegin_beat
+\CBmp[BrkGuard1,5]\prf\c[4]Soldado: \C[0]    ¿Te resistes, perra?
+\CBmp[BrkGuard2,5]\prf\c[4]Soldado: \C[0]    ¡Dale una paliza!
+\CBmp[BrkGuard3,5]\prf\c[4]Soldado: \C[0]    ¡Estás jodida!
+\CBct[6]\m[terror]\Rshake\c[6]Lona: \C[0]    ¡¿Q-Qué?!
+
+JoyTable/JobBegin_whore_end
+\CBmp[BrkGuard1,4]\prf\c[4]Soldado: \C[0]    ¿Y eso es todo?
+\CBmp[BrkGuard2,4]\prf\c[4]Soldado: \C[0]    Toma, esto es para ti.
+\CBmp[BrkGuard3,20]\prf\c[4]Soldado: \C[0]    Espero que tus tetas crezcan pronto.
+\CBct[8]\m[flirty]\PRF\c[6]Lona: \C[0]    Gracias...
+
+JoyTable/JobBegin_slave_reward
+\CBmp[BrkGuard2,4]\prf\c[4]Soldado: \C[0]    ¡No estuvo mal! Definitivamente mereces un poco más de pan.
+
+JoyTable/JobBegin_quit
+\CBmp[BrkGuard1,5]\prf\c[4]Soldado: \C[0]    ¿Ya... te vas?
+
+JoyTable/Touch_Opt
+¿Permitir que te toquen? \optD[Sí<t=2>,No]
+
+JoyTable/AnalTouch_Qmsg
+¡Qué buen culo!
+
+JoyTable/BoobTouch_Qmsg
+¡Tetas demasiado pequeñas!
+
+JoyTable/VagTouch_Qmsg
+¡Qué suave!
+
+JoyTable/Kiss_Qmsg
+¡*Beso*!
+
+JoyTable/Escape_Qmsg
+¡¡Eh!!
+
+############################################################## crane
+
+crane/NormalQmsg0
+Grúa
+
+crane/NormalQmsg1
+Nada especial
+
+crane/Windcave_frist_time
+\CBct[8]\m[shocked]\c[6]Lona: \C[0]    La grúa...
+\CBct[2]\m[normal]\c[6]Lona: \C[0]    Tal vez pueda usarla para escapar.
+\CBct[8]\m[confused]\c[6]Lona: \C[0]    Si logro hacer algo con ella, ¿podré cruzar?
+
+crane/Windcave_Opt
+\CBct[8]\m[confused]Grúa \optB[Cancelar,Ajustar ángulo<r=HiddenOPT1>]
+
+crane/Windcave_Opt_dig
+\CBct[8]\m[confused]¿Cuánta fuerza gastar en intentarlo? \optB[Desistir,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+crane/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]Lona: \C[0]    Lo intenté con todas mis fuerzas.
+\CBct[6]\m[tired]\c[6]Lona: \C[0]    Pero... estoy... demasiado... cansada.
+
+crane/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]!!!!
+\CBct[1]\m[shocked]!!!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Lona: \C[0]    ¡Vaya! ¡Puedo escapar!

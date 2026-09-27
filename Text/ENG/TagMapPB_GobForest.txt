@@ -1,0 +1,50 @@
+thisMap/OvermapEnter
+\m[confused]In the forest occupied by orc-like people, the grisly stench of monsters can be smelled from a distance.\optB[Leave,Enter]
+
+rg2/Begin_0
+\CBct[20]\m[confused]\Rshake\c[6]Lona：\c[0]    Um\..\..\..
+\CBct[6]\m[fear]\Rshake\c[6]Lona：\c[0]    This place stinks like those monsters...
+
+rg2/Begin_2
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Who's there?
+
+rg2/Begin_3
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    !!!!!!!!
+
+rg2/Begin_4
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    .........
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh? It ran away?! Is it afraid of me?
+
+rg3/begin0
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Um\..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Why are there so many corpses of orcs and deepones?! Are these monsters killing each other?
+
+Daughter/begin0
+\CBid[-1,6]\prf\c[4]refugee：\c[0]    Father... Mother.... I am so hungry...
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Are you \c[4]Mary\c[0]?
+\CBid[-1,8]\prf\c[4]refugee：\c[0]    I am, yes... Will you give me something to eat?
+\CBct[20]\m[tired]\PRF\c[6]Lona：\c[0]    Well.... I'm here to tell on your father's behalf that your family is waiting for you in Noer Town.
+\CBid[-1,2]\prf\c[4]refugee：\c[0]    Noer Town? Where is that? Can I eat there?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Well.... Don't you know?\optB[Leave her,Help her]
+
+Daughter/opt_nope
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\c[0]    In short.\..\..Go west past East Sentry point..\..\..And follow that road.\...\....
+\CBct[20]\m[tired]\PRF\c[6]Lona：\c[0]    Hurry up to Noer Town, your family is still alive and well.
+\CBid[-1,8]\prf\c[4]refugee：\c[0]    \..\..\..
+\CBid[-1,6]\prf\c[4]refugee：\c[0]    Very hungry... Very hungry....
+
+Daughter/opt_give
+\narr Lona rummages through her belongings...
+
+Daughter/opt_give100
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Take these things, I can only help you so much.
+
+Daughter/opt_give2000
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Take these things, it doesn't matter if you want to go to Noer or buy food.
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    I can only help you so much.....
+
+Daughter/opt_giveTY
+\CBid[-1,8]\prf\c[4]refugee：\c[0]    Thanks...\...\...\...
+
+Daughter/END
+\CBct[8]\m[tired]\PRF\c[6]Lona：\c[0]    Well...\...\...\...

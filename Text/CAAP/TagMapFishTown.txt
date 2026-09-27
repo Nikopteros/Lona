@@ -1,0 +1,403 @@
+####################################--------------------- overmap
+Town/OvermapEnter
+\m[confused]Mercado de Pezópolis \optB[Cancelar,Entrar]
+
+Slave/OvermapEnter
+\m[confused]Aldea de Pezópolis \optB[Cancelar,Entrar]
+
+#################################################--------------------- VEG Vandor
+
+VegetableTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Mercader de Vegetales：\C[0]    Plantas frescas... Comida... Importante... Para la salud...
+
+VegetableTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[VegetableTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Mercader de Vegetales：\C[0]    Los peces... comen muchas... plantas...
+
+#################################################--------------------- Med Vandor
+
+MedTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Herbolario：\C[0]    Mercancías mías... Dinero tuyo...
+
+MedTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[MedTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Herbolario：\C[0]    Yo hago... bien-bien... con éxito...!
+
+#################################################--------------------- Weapon Vandor
+
+WeaponTrader/Welcome0
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Armero：\C[0]    Guerrero... Protege... nuestros hogares...!
+
+WeaponTrader/Welcome1
+\SndLib[FishkindSmSpot]\CBmp[WeaponTrader,20]\SETpl[FrogCommon]\Lshake\c[4]Armero：\C[0]    Nosotros... muy... fuertes...
+
+#################################################--------------------- Slave camp enter or gate
+
+Gate/Begin0
+\cg[map_FishPPL]	Muchos guardias patrullan alrededor de la aldea.
+\SETpl[FrogSpear]\Lshake\SndLib[FishkindSmSpot]\c[4]Guardia：\C[0]   Alto... ¿quién va? \optB[Cancelar,Entrar,Infiltarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guardia：\C[0]    ¡Humana...! *Buf* ¿Quién... eres...?!
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Qué?
+\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    ¡!!
+
+Gate/Enter_slave1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guardia：\C[0]    ¡¡¡Chica!!! ¡¡¡Chica... escapando!!!
+
+Gate/Enter_normal1
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guardia：\C[0]    ¡Humana...! No pasar...! ¡No esclava...! ¡No entrar...!
+
+Gate/Enter_normal2
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    Emm...? \optB[Irse,Convertirse en esclava...]
+
+Gate/Enter_SlaveChoose
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Yo...    
+\m[fear]\plf\PRF\c[6]Lona：\C[0]    Escuché que aquí estaría protegida y segura... Yo... quiero ser esclava......
+
+Gate/Enter_SlaveChoose_win
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guardia：\C[0]    ¡De... rodillas...!
+\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¿¡Ah!?
+\cg[event_SlaveBrand]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alaba... a la Bruja del Mar...! ¡Ríndete a ella...! \optB[¡Rechazar!,Someterse...]
+
+Gate/Enter_SlaveChoose_lose
+\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Guardia：\C[0]    ¡¡¡FUERA...!!! *Buf* No... aceptamos... humanos hombres...!
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿¡Qué?! ¿¿H-Hombres...?! ...¿¡Yo???
+
+Gate/Enter_SlaveChoose_brand
+\m[p5shame]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué... Qué me harán?!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]Guardia：\C[0]    ¡Grrrhh...! *Gruñe* ¡Deja... de moverte...!
+\m[p5sta_damage]\plf\Rshake\c[6]Lona：\C[0]    ¡¡¡NO!!! D-Déjame i-ir...!
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]Guardia：\C[0]    ¡Ruidoso...! ¡Cierra... la boca...!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]Lona：\C[0]    ¡¡¡AAAAAAYYYYYY!!!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Lona：\C[0]    ¡¡¡OOOOUUAAYYYY!!!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]Guardia：\C[0]    Ahora estás segura... La Bruja del Mar... te protegerá...
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]Lona：\C[0]    Ooouuhhh...... *Sollozo*... *Gimoteo*...
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardia：\C[0]    ¡Humana..! No... escabullirse...! *Buf* ¡Lárgate...!!!
+
+GateGuard/enter_sneak_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    ¡HUELES... *Buf* HUMANA...!!!
+\Lshake\c[4]Guardia：\C[0]    ¡¡¡INTRUSA!!!
+
+Gate/enter_wisdom
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    Ummm...
+\m[flity]\plf\PRF\c[6]Lona：\C[0]    Tus hermanos dijeron que debía hablar con ellos dentro......
+
+Gate/NormalEnter
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\PLF\prf\c[4]Guardia：\C[0]    ......
+
+GateGuard/enter_wisdom_win
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    Rápido... rápido... No pierdas... mi tiempo...
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]     Uf... Logré entrar......
+
+GateGuard/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    ¡Tú... ¡¡¡TÚ MIENTES...!!!
+
+Guard/NapSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    ¡Es... esclava... fugitiva...!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]Guardia：\C[0]    ¡Atrapad...la...! ¡Aparead... con ella!!!
+
+Guard/NapLowMora
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    ¡HUELES... *Buf* ¡INTRUSA!
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\plf\Rshake\c[4]Guardia：\C[0]    ¡Es una chica...! ¡Chica intrusa...!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardia：\C[0]    Usadla... para reproducirse......
+
+#################################################--------------------- Right side
+####################################################3 capture begin
+
+capture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Bienvenida... *Jadeo* A Pezópolis...!
+
+capture/begin1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Nuestro hogar... ahora tu hogar...
+
+capture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Es... la Bruja del Mar... ¡La servimos... siempre...!
+
+capture/begin3
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Tú... chica... Un propósito... ¡apareamiento y... reproducción! ¡Alaba... a la Bruja del Mar!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Cada día... vendrás... a mí... ¡para servirnos!
+\CBct[8]\m[sad]\plf\PLF\c[6]Lona：\C[0]    E-Entiendo...
+
+####################################################3 torture
+
+torture/narr_begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    ¡Tú...! ¿Te atreves a desobedecer...? ¡Estúpida... esclava humana...! Castigo... ahora...!
+\narr Parece que están muy enfadados por la desobediencia de Lona.
+
+torture/begin0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Bruja del Mar... ¡Mira...! Cómo... castigamos... a esta esclava... por ti...!
+\CBmp[TorOBJ,20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡No...! Por favor... ¡No lo haré más!
+
+torture/begin1
+\CBmp[TorOBJ,20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¡¡NOOOO!
+
+torture/begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    ¡Esclava humana... deberías agradecernos...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Mundo exterior... sufrimiento y peligro... Nuestro hogar... seguridad y protección...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Debes... estar agradecida... ¡por todo!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    ¡Agradece a la Bruja del Mar...! ¡Alaba a la Bruja del Mar...!
+
+####################################################3 Rapeloop QUESt GIVER
+
+QuestGiver/NonCapture
+\m[confused]\c[6]Lona：\C[0]    Ummm...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Tú no... nuestra hembra... *Buf* ¡Fuera...!
+
+QuestGiver/pregCheck0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Chamán：\C[0]    Tú...! Ven aquí...
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    V-Voy...
+
+QuestGiver/pregCheck1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    No preñada... con nuestro... linaje...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Bebe... esto...!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Esto? \optD[Beber,Rechazar...]
+
+QuestGiver/pregCheck2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Esto... limpiará cuerpo... matará suciedad...
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Me siento... un poco......-
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\C[0]    -incómoda...
+
+QuestGiver/pregCheck3
+\ph\narr\..\..\..\..\..
+
+QuestGiver/Aggro
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡¡¡TE ATREVES...! ¡¡LA BRUJA DEL MAR... DESEA ESTO...!! ¡¡MATAR!!!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡Ay! D-Detenlo... ¡No!
+
+QuestGiver/VagTraining_preg
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Siento...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Aquí... nuestra descendencia... en ti...
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    ......
+
+QuestGiver/VagTraining0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Para... dar más... partos... descendencia...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Debes... entrenar... vagina... abrirse más...
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    ... \optD[Obecer,¡Rechazar!]
+
+QuestGiver/GotoWork
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡A... trabajar...!
+
+QuestGiver/GotoWork_yes
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡S-Sí!
+
+QuestGiver/GotoRest
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Ve a dormir...! Mañana más... apareamiento y... partos...!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Sí...
+
+QuestGiver/GotoDone
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡Hice la tarea y todo como dijeron! ¡De verdad!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Buena chica... Esclava humana... Muy bien...
+
+QuestGiver/Job_House
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Uno de hermanos... ahora solo... necesita compañía... y apareamiento...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Ve...! A ese lugar... y reprodúcete... con él...!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Entiendo...
+
+QuestGiver/NoWorkToday
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Hoy... no trabajo...
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Ve... dormir... descansar...!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Entiendo...
+
+QuestGiver/sexParty0
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Nuestro... festival... pronto empieza...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Ve a... estatua... Bruja del Mar...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Prepárate... para apareamiento... y mucho... copulación...
+
+QuestGiver/sexParty1
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Nosotros... Todos hijos... Bruja del Mar... ¡Agrádecele...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Por todo... Bruja del Mar da y muestra...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Hoy! ¡Bruja del Mar nos ve...! ¡Apareamiento...! ¡Vida en hembras humanas!!!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Todos hijos Bruja del Mar...! ¡Todos pueden reproducirse...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Intentamos... Advertir humanos... Estúpidos humanos... ¡Todos murieron...!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Sólo útiles... Hembras humanas... Apareamiento y reproducción... Parir nuestra descendencia.
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Pronto... Orcoides destruirán... ¡mundo viejo! Pero nosotros... Adelantados.
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Esperamos... nuevo mundo... guiado... Bruja del Mar. Adiós.
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Alabad a la Bruja del Mar...! ¡Adorad... a la Bruja del Mar...!!!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Tanto tiempo... Y agradecemos... Bruja del Mar... ¡por todo el pescado!
+
+QuestGiver/sexParty2
+\CamMP[FishGp2]\c[4]Hombres Pez：\C[0]    ¡Alabad a la Bruja del Mar...! ¡Adorad... a la Bruja del Mar!!!
+
+QuestGiver/sexParty3
+\CamMP[FishGp2]\c[4]Hombres Pez：\C[0]    ¡Adiós...! ¡Gracias por todo... el pescado!!!
+
+Guards/OfferSex0
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Nuestros hermanos... guerreros... muy fuertes...! Pero necesitan... reproducirse...
+
+Guards/OfferSex1
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    ¡Sal...! Encuentra... guerrero fuerte...! ¡Cópula con él...!
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Chamán：\C[0]    Debes parir... de él... \c[6]dos\C[0]... hermanos guerreros...
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    S-Sí...
+
+Guards/OfferSex0_1
+\SndLib[FishkindLgSpot]\prf\c[4]Hombre Pez：\C[0]    ¡Apareamiento...! ¡¡¡Apareamiento!!! ♥ ¡Gracias... Bruja del Mar...! ♥
+
+Guards/OfferSex0_0
+\SndLib[FishkindLgSpot]\prf\c[4]Hombre Pez：\C[0]    Tengo... regalo de... Bruja del Mar...!
+
+####################################################3 wake up random rape
+
+wakeUpRape/begin0
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    Oye... *Buf* ¡Despierta!
+\CBct[2]\m[tired]\c[6]Lona：\C[0]    G-o-o-h-h... A-a...?
+
+wakeUpRape/begin1
+\SndLib[FishkindLgSpot]\prf\c[4]Hombre Pez：\C[0]    ¡Chica...! ¡Apareamiento...! ¡Apareamiento! ♥
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    *Sollozo*......
+
+wakeUpRape/begin2_0
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    \{¡Apareamiento! ♥ ¡Quedarás preñada... con mi... descendencia! ♥
+
+wakeUpRape/begin2_1
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    \{¡Reproducción! ♥ ¡Reproducción... con chica!!! ♥
+
+wakeUpRape/begin2_2
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    \{¡Reproducción...! ♥ ¡Reproducción...!!! ♥
+
+wakeUpRape/begin3_0
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    \{Ooh... Uhh... Grr-hhh! ¡Bieeeen...! ♥
+
+wakeUpRape/begin3_1
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    \{Uhf...! Grrh...! ♥ ¡Pariendo... mi descendencia...! ♥
+
+wakeUpRape/begin3_2
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    \{¡Me corro...! ♥ Uuuu-hrrrr...! *Jadeo* ♥
+
+wakeUpRape/begin4_0
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    Qué... *Jadeo* bien...! ♥ ¡Alabad... Bruja del Mar...! ♥
+
+wakeUpRape/begin4_1
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    Yo... reproducirme... ¡con chica! Gracias... Bruja del Mar...! ♥
+
+wakeUpRape/begin4_2
+\SndLib[FishkindLgSpot]\c[4]Hombre Pez：\C[0]    Apareamiento... ♥ Muy placentero... ♥
+
+wakeUpRape/begin5
+\CBct[8]\m[tired]\c[6]Lona：\C[0]    ......
+
+####################################################3 Boat Escape Point
+
+RsideShip/begin_opt
+\m[confused]\c[6]Lona：\C[0]    ¿Montón de madera dispersa? Quizás podría...
+\prf ¿Cuánta madera necesito para hacer una balsa? \optB[Cancelar,1<r=HiddenOPT1>,2<r=HiddenOPT2>,3<r=HiddenOPT3>]
+
+RsideShip/begin_tired
+\m[tired]\c[6]Lona：\C[0]    *Uff*... Tan cansada......
+
+RsideShip/begin_win
+\m[triumph]\Rshake\c[6]Lona：\C[0]    ¡Todo listo! ¡Por fin puedo escapar de aquí!
+
+RsideShip/begin_NoSta
+\m[tired]\c[6]Lona：\C[0]    No puedo... *Uff* D-Demasiado cansada......
+
+Guard/spot
+\SndLib[FishkindLgSpot]\c[4]Guardia：\C[0]    ¡Esclava...! ¡¡¡Chica escapando!!! ¡¡Mira!!!
+
+#################################################--------------------- OTHER COMMON
+
+Guard/SlaveEscape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardia：\C[0]    ¡¡ESCAPÓ...! ¡¡CHICA... ESCAPÓ...!!!
+
+Trader/TooWeak
+\c[4]Hombre Pez：\C[0]    Chica... tenía arma... Muy peligroso...
+
+NightGuard/begin0
+\c[4]Guardia：\C[0]    Chica... Quiero... reproducirme con...
+
+NightGuard/begin1
+\c[4]Guardia：\C[0]    No quiero... trabajar...
+
+NightGuard/begin2
+\c[4]Guardia：\C[0]    ¿No hay... hembra... para... aparearse...?
+
+HumFrKid/Qmsg0
+¡No quiero... crecer!
+
+HumFrKid/Qmsg1
+¡No quiero ser pez!
+
+HumFrKid/Qmsg2
+¡No me gusta aquí...!
+
+FishFrKid/Qmsg0
+Yo... pronto adulto...
+
+FishFrKid/Qmsg1
+Bruja del Mar... ¡Ya voy!
+
+FishFrKid/Qmsg2
+Crecí, ya puedo aparearme.
+
+SlaveTrader/Qmsg0
+No... temas...
+
+SlaveTrader/Qmsg1
+Aquí... seguro...
+
+SlaveTrader/Qmsg2
+Parir descendencia... Necesario...
+
+Slave0/Qmsg0
+Al menos sigo viva...
+
+Slave0/Qmsg1
+Puedo comer hasta reventar
+
+Slave0/Qmsg2
+Mientras les obedezca...
+
+Slave1/Qmsg0
+Quiero ir a casa...
+
+Slave1/Qmsg1
+¿Por qué me abandonaron?
+
+Slave1/Qmsg2
+Basta de sexo... Por favor...
+
+Slave2/Qmsg0
+¡Malditos seáis todos...!
+
+Slave2/Qmsg1
+¡No soy un juguete sexual!
+
+Slave2/Qmsg2
+¡Soy humana viva!
+
+NoerDude/rng0
+\c[4]Empresario：\C[0]    ¡Entiendo la necesidad de esclavas mujeres! ...¿Pero para qué necesitan dinero?!
+
+NoerDude/rng1
+\c[4]Empresario：\C[0]    Si restas el costo del viaje desde Noer hasta aquí... ¡En realidad gané el doble!
+
+NoerDude/rng2
+\c[4]Empresario：\C[0]    ¡Este viaje me dará mucho dinero! ¡Mira! ¡Mi bolsa de dinero está llena hasta el borde!
+
+NoerGuard/rng0
+\c[4]Guardaespaldas：\C[0]    ¡Maldición, estos cabrones realmente creen que necesitamos su pescado?! ¡Que se vayan al carajo ellos y su "Bruja del Mar"!
+
+NoerGuard/rng1
+\c[4]Guardaespaldas：\C[0]    ¡Son todos tan repugnantes! ¡No hay diferencia con los monstruos! ¿Cómo su "Deidad" pudo crear criaturas tan asquerosas? ¡El Santo los mataría a todos!
+
+NoerGuard/rng2
+\c[4]Guardaespaldas：\C[0]    ¿También hueles eso? ¡Me está volviendo loco! ¡Este hedor está por todas partes! ¡Ni aunque te esfuerces podrás lavar esta peste de tu ropa!
+
+FishTown/board0
+\board[Advertencia a orejudos]
+No romper acuerdo. No causar problemas.
+Entregadnos chicas. Os daremos comida.
+Alabad y servid a la Bruja del Mar.
+
+FishTown/board1
+\board[No llamar impostora a la Bruja del Mar]
+Ningún truco nos hará creer que la falsa Bruja del Mar Santa es real.
+Nuestra Bruja del Mar es más fuerte y real.
+¡Ella es magnífica! ¡Es fuerte!
+Alabad y servid a la Bruja del Mar.
+
+NearLabor/begin0
+\narr De repente decidieron detenerse, parecen muy preocupados por su descendencia creciendo dentro de Lona...
+
+NearLabor/begin1
+\narr Parece que cambiaron de opinión y decidieron darle a Lona un poco de tiempo para descansar...

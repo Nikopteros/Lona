@@ -1,0 +1,248 @@
+thisMap/OvermapEnter
+阿萊斯開拓村\optB[算了,進入]
+
+############################################################################### COMMON
+
+GateKeeper/NormalBegin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    站住！ 你是誰！
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....我是....
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    你是來解決那些魚類的傭兵？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    太好了，進來吧
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+GateKeeper/Enter0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    這裡是\c[6]阿萊斯開拓村\c[0]。
+\CBid[-1,5]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    我們受夠那些乞丐及魚類的騷擾了。
+
+GateKeeper/AggroAlert
+\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    入侵者！
+
+GateKeeper/TooWeakBegin0
+\CBid[-1,5]\SETpl[AnonMale1]\c[4]村民：\c[0]    滾！這裡不歡迎席芭莉絲的乞丐！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    抱歉...
+\narr洛娜看起來太弱了。
+
+Archer0/0
+\CBid[-1,20]\c[4]村民：\c[0]    妳說最惱人的是那些魚類？
+\CBid[-1,20]\c[4]村民：\c[0]    錯了，最惱人的是席芭莉絲那的難民。
+\CBid[-1,20]\c[4]村民：\c[0]    絕對不能相信那些帝都的王八蛋！
+
+Archer0/1
+\CBid[-1,20]\c[4]村民：\c[0]    頭腦簡單的魔物不是問題，問題是操縱他們的漁人！
+
+Archer0/2
+\CBid[-1,20]\c[4]村民：\c[0]    從那天開始這裡就充滿了魚腥味。
+
+CommomerM0/Rng0
+\CBid[-1,20]\c[4]村民：\c[0]    沼澤裡的魔物一定是那些漁人招換來的，牠們是同類。
+\CBid[-1,20]\c[4]村民：\c[0]    不然妳告訴我為什麼他們不會受到漁人攻擊？
+
+CommomerM0/Rng1
+\CBid[-1,20]\c[4]村民：\c[0]    席芭莉絲？ 聽說那裡完蛋了對吧？
+
+CommomerM0/Rng2
+\CBid[-1,20]\c[4]村民：\c[0]    我聽說有好幾個村子都遭殃了。
+\CBid[-1,20]\c[4]村民：\c[0]    那些村子接受了來自外面的乞丐，緊接著自己就變成乞丐了。
+
+CommomerM1/Rng0
+\CBid[-1,20]\c[4]村民：\c[0]    妳是誰？ 我沒看過妳。
+
+CommomerM1/Rng1
+\CBid[-1,20]\c[4]村民：\c[0]    妳想做什麼？ 這裡不歡迎外人。
+
+CommomerM1/Rng2
+\CBid[-1,20]\c[4]村民：\c[0]    我對貧乳沒興趣！
+
+CommomerF/Rng0
+\CBid[-1,20]\c[4]村民：\c[0]    鄰居的朋友的弟弟的妹妹跟我說漁人會在夜晚偷走你的孩子。
+
+CommomerF/Rng1
+\CBid[-1,20]\c[4]村民：\c[0]    哥哥的爸爸的妹妹的姊姊跟我說外面的人都不可信。
+
+CommomerKid/Rng0
+\CBid[-1,20]\c[4]村民：\c[0]    我最喜歡看處刑了，他們掙扎樣子超好玩。
+
+CommomerKid/Rng1
+\CBid[-1,20]\c[4]村民：\c[0]    最近每餐都吃魚，我已經吃膩了。
+
+CommomerKid/Rng2
+\CBid[-1,20]\c[4]村民：\c[0]    我才不要跟妳說話，大人都說不可以相信外人！
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]村民：\c[0]    這小鬼是來鬧事的！殺了她！
+
+###############################################################################   AriseVillage 0to1_0
+
+AriseVillage/0to1_0
+\ph\c[4]村民：\c[0]    站起來！ 你個王八蛋！
+
+AriseVillage/0to1_1
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]漁人：\c[0]    我... 不能... 呼吸...
+\CBmp[GuardL,5]\c[4]村民：\c[0]    說！ 信仰偽神的漁人在這做什麼！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]漁人：\c[0]    什麼都沒... 做...
+\CBmp[GuardR,5]\c[4]村民：\c[0]    還裝傻！
+
+AriseVillage/0to1_2
+\CBmp[GuardR,20]\c[4]村民：\c[0]    看到你的同伴了嗎，旁邊那個空位子是留給你的。
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]漁人：\c[0]    不...不要殺我... 我不想死....
+
+AriseVillage/0to1_3
+\CBmp[GuardR,20]\c[4]村民：\c[0]    其他臭魚在哪裡！
+\CBmp[GuardR,20]\c[4]村民：\c[0]    說！  再不說就殺了你！
+
+AriseVillage/0to1_Rng0
+\CBid[-1,20]\c[4]村民：\c[0]    這些信仰偽神的漁人！ 它們是邪惡的謊言者！
+
+AriseVillage/0to1_Rng1
+\CBid[-1,20]\c[4]村民：\c[0]    一切都是這該死的漁人幹的！
+
+AriseVillage/0to1_Fishman0
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    這裡是怎麼回事？
+
+AriseVillage/0to1_Fishman0_0
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]漁人：\c[0]    我...前來...調查....
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]漁人：\c[0]    祖靈...的...騷亂...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]漁人：\c[0]    人類...攻擊我們...
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    呃....祖靈騷亂？
+
+AriseVillage/0to1_Fishman0_1
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]漁人：\c[0]    救救...我...我無辜的....
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]漁人：\c[0]    我必須活著前往北方...的營地...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]漁人：\c[0]    我會給你錢... 我有錢....
+
+AriseVillage/0to1_Fishman0_brd
+\CamCT\board[幫助落難的漁人]
+目標：北方的營地
+報酬：大銅幣4
+委託主：阿萊斯開拓村的漁人
+期限：5天
+開拓村似乎要殺死這個無辜的漁人，但他真的是無辜的嗎？
+這麼醜陋的漁人可能是無辜的？！
+
+AriseVillage/0to1_Fishman1_opt
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    外來種？！ 妳是他的同夥？
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什？！ \optD[不是,呃...,我是傭兵<r=HiddenOPT0>,賽希莉<r=HiddenOPT1>]
+
+AriseVillage/0to1_Fishman1_opt_Cecily
+\CBfB[20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]賽希莉：\C[0]    喂！
+\CBmp[GuardTop,1]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    是城裡的士兵？！
+\CBfB[2]\SETpr[CecilyWtfAr]\plf\PRF\C[4]賽希莉：\C[0]    這些漁人犯了什麼罪？
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    不！對不起！我們抓錯人了！
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    我們這就放了牠。
+\CBfB[5]\SETpr[CecilyAngryAr]\plf\PRF\C[4]賽希莉：\C[0]    啐！
+
+AriseVillage/0to1_Fishman1_opt_No
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    不！ 我只是碰巧路過而已！
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    快滾！ 我們不歡迎外來者！
+\CBct[8]\m[tired]\plf\Rshake\c[6]洛娜：\c[0]    抱歉..
+
+AriseVillage/0to1_Fishman1_opt_Yes
+\CBct[8]\m[flirty]\plf\Rshake\c[6]洛娜：\c[0]    呃...我...
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    來搗亂的外來種！ 宰了她！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+
+AriseVillage/0to1_Fishman1_opt_WIS
+\CBct[20]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    我是諾爾鎮的傭兵，我是來帶走這邪惡的漁人的。
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    是這樣嗎？ 那就快把牠帶走，我們這裡不歡迎外人。
+\CBct[20]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    我知道了。
+
+AriseVillage/0to1_Fishman2_joined
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]漁人：\c[0]    我們.... 必須馬上行動...
+
+###############################################################################   Right house
+
+Rho/begin0_weak
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]婦人：\c[0]    我所需要的是傭兵，妳幫不上忙的！
+
+Rho/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]婦人：\c[0]    啊！ 妳來了！ 受聖徒指引的傭兵到來了！
+\CBct[8]\m[flirty]\plf\Rshake\c[6]洛娜：\c[0]    什？ 受指引的傭兵？
+
+Rho/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    聽著，我需要妳的幫助。
+\CBct[8]\m[confused]\plf\Rshake\c[6]洛娜：\c[0]    呃...到底怎麼了？
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    聖徒在上，這實在是太超過了。
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    現在村子外面一片混亂，村裡的男人們居然還趁亂從外面搶女人。
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    她們只是孩子啊！
+
+Rho/begin2_brd
+\CamCT\board[拯救落難少女]
+目標：阿萊斯村，西邊的房子，拯救被囚禁的少女。
+報酬：道德4、2000P
+委託主：家庭主婦
+期限：無
+阿萊斯村的男人們趁著諾爾島上陷入混亂時居然在外面搶女人？這真是令人髮指。
+幫幫那些孩子吧。 前往村子西邊的小屋內釋放那些失足少女，並帶領她回到這間屋子。
+
+Rho/begin3_yes
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    拜託妳了，年輕的傭兵，把她救出來吧。
+\CBct[20]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    好，我會把她救出來的！
+\CBid[-1,4]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    太好了！
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    我相信她被關在村子最西邊的倉庫裡。
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    小心點，那些男人不喜歡被女人打擾，更何況像妳這種外來者。
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    另外...我想親自對她道歉...
+\CBct[20]\m[pleased]\plf\Rshake\c[6]洛娜：\c[0]    交給我吧！
+
+Rho/begin3_no
+\CBct[8]\m[flirty]\plf\PLF\c[6]洛娜：\c[0]    呃...我不認為我辦的到。
+
+Rho/RG14_x
+\CBct[2]\m[flirty]\PLF\c[6]洛娜：\c[0]    動物的叫聲？ 猴子？
+
+Rho/RG14_0
+\c[4]村民：\c[0]    好緊阿，這真的是太棒了！
+\c[4]村民：\c[0]    \{嗚哦哦哦哦！
+
+Rho/RG14_1
+\CBmp[ApeGuard1,5]\c[4]村民A：\c[0]    啊！ 該死的！ 這隻死掉了。
+
+Rho/RG14_2
+\CBmp[ApeGuard2,20]\c[4]村民B：\c[0]    太爽了！ 這真是太爽了！
+\CBmp[ApeGuard1,3]\c[4]村民A：\c[0]    沒想到吧，這東西比女人讚多了！
+\CBmp[ApeGuard1,4]\c[4]村民A：\c[0]    而且小穴之緊實，比起我家那婆娘真是差太多了！
+\CBmp[ApeGuard2,20]\c[4]村民B：\c[0]    \{要去了！  我要去了！
+
+Rho/RG14_3
+\CBct[8]\m[flirty]\PLF\c[6]洛娜：\c[0]    呃...所謂的女孩是指...猴子？
+\CBct[8]\m[confused]\PLF\c[6]洛娜：\c[0]    不是吧.....
+
+Rho/RG14_4
+\CBct[8]\m[flirty]\PLF\c[6]洛娜：\c[0]    呃...要當作沒看見嗎？
+\CBct[8]\m[confused]\PLF\c[6]洛娜：\c[0]    可是我都答應人家了...
+
+Rho/Ape0_opt
+可憐的母猴子，解開她的枷鎖？\optB[算了,解開]
+
+Rho/Ape1
+\CBct[3]\m[pleased]\PLF\c[6]洛娜：\c[0]    好了，妳自由了！
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+\CBct[3]\m[triumph]\PLF\c[6]洛娜：\c[0]    跟我來吧，我會帶妳到安全的地方的。
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+
+Rho/Ape2_brd
+\CamCT\board[拯救落難猴子]
+目標：帶領落難的猴子前往東邊的屋子。
+報酬：道德4、2000P
+委託主：家庭主婦
+期限：無
+
+Rho/QuestDone0
+\CBct[8]\m[confused]\PLF\c[6]洛娜：\c[0]    呃...那個...所以...
+\CBct[8]\m[flirty]\PLF\c[6]洛娜：\c[0]    我把那個...猴子...不...女孩救出來了。
+
+Rho/QuestDone1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    感謝受指引的傭兵！ 讚美聖徒！
+
+Rho/QuestDone2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]婦人：\c[0]    可憐的孩子，妳受苦了。
+
+Rho/QuestDone3
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]婦人：\c[0]    我會治療她所受的傷害，並將妳英勇的事蹟傳出去。
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]婦人：\c[0]    感謝妳，受聖徒指導的傭兵。 
+\CBct[3]\m[pleased]\PLF\c[6]洛娜：\c[0]    好的！
+
+Rho/Rng0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]婦人：\c[0]    聖徒阿...原諒我們的罪惡。
+
+Rho/Rng1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]婦人：\c[0]    我有罪...請原諒我..

@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+廢屋\optB[沒事,進入]
+
+######################################################3
+
+mec/QmsgTar
+快點去 
+
+mec/Done1
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    謝謝妳！
+
+mec/Done2
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    也許這世上還是有能信任的人的。
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    平民啊！ 妳叫什麼名子？
+\CBct[20]\m[triumph]\PRF\c[6]洛娜：\c[0]    \c[6]洛娜.費爾丁\c[0]
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    \c[6]洛娜\c[0]嗎？ 再次謝謝妳。
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    我不久後就要離開這座島，也許我們不會再見面了，但我會一直記得妳的。
+\CBct[20]\m[pleased]\PRF\c[6]洛娜：\c[0]    不客氣!
+
+mec/CommonConvoyTarget0
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    快點！
+
+mec/CommonConvoyTarget1
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    快點去\C[4]末日堡壘\C[0]。
+
+mec/CommonConvoyTarget2
+\CBfE[20]\prf\c[4]貴族小姐：\c[0]    動作快！
+
+mec/win
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呼！
+
+mec/Quprog_0
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    妳沒事吧？
+\CBmp[Girl,8]\prf\c[4]貴族小姐：\c[0]    怎麼會這樣...
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃？
+\CBmp[Girl,8]\prf\c[4]貴族小姐：\c[0]    我錯了嗎？ 也許人種之間就是有差別的？
+\CBmp[Girl,20]\prf\c[4]貴族小姐：\c[0]    平民聽著！ 把我安全的送到\C[4]末日堡壘\C[0]！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...
+
+mec/Quprog_0_board
+\board[護送旅行者]
+目標：送至末日堡壘
+報酬：大銅幣3、道德2
+委託主：旅行者
+期限：5天
+
+mec/Quprog_0_decide
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯....\optB[沒空,好吧]
+
+######################################################3
+
+Start/begin_1
+\c[4]難民：\c[0]    善良的大爺與貴族小姐阿.. 賞點吃的吧...
+\CBmp[Girl,20]\c[4]管家：\c[0]    小姐，我們該離開了。
+\CBmp[Girl,20]\c[4]貴族小姐：\c[0]    把多餘的食物都給他們吧。
+\CBmp[Girl,20]\c[4]管家：\c[0]    是。
+
+Start/begin_2
+\CBmp[MainDude,3]\c[4]難民：\c[0]    感謝妳！我家還有兩個孩子，能不能再多施捨點？
+\CBmp[Man,20]\c[4]管家：\c[0]    不！我們真的該離開了！
+
+Start/begin_3
+\CBmp[Girl,20]\c[4]貴族小姐：\c[0]    沒關係的，幫幫他吧。
+\CBmp[Man,20]\c[4]管家：\c[0]    小姐！別鬧了！
+\CBmp[Girl,20]\c[4]貴族小姐：\c[0]    難民的命就不貴重了？ 我們都是活生生的人啊！
+\CBmp[Girl,20]\c[4]貴族小姐：\c[0]    既然我們還有餘力，就應該幫助他們！ 我的命令就是我父親的命令！
+\CBmp[Man,8]\c[4]管家：\c[0]    ....
+\CBmp[Man,20]\c[4]管家：\c[0]    是！
+
+Start/begin_4
+\CBmp[Man,20]\c[4]管家：\c[0]    這是我們家貴族小姐多賞你們的！
+\CBmp[MainDude,3]\c[4]難民：\c[0]    謝謝！ 你們真是如同聖徒般的好人！
+\CBmp[Man,8]\c[4]管家：\c[0]    你們要記得我們家的大恩大德！
+
+Start/begin_5
+\CBmp[Girl,2]\c[4]貴族小姐：\c[0]    什麼？ 你做了什麼？！
+\CBmp[HorseKiller,8]\c[4]難民：\c[0]    平常只能吃些皮包骨的兩腳羊，但是今天....
+\CBmp[GuardKiller,3]\c[4]難民：\c[0]    能吃到新鮮的馬肉！
+\CBmp[MainDude,4]\c[4]難民：\c[0]    還有女人！ 能幹新鮮的女人！
+\CBmp[Girl,6]\c[4]貴族小姐：\c[0]    什麼？！
+
+Start/begin_5_1
+\CBmp[Girl,1]\c[4]貴族小姐：\c[0]    啊啊啊啊啊啊！ 不！
+
+Start/begin_6
+\CBmp[Girl,6]\c[4]貴族小姐：\c[0]    不！ 你們為什麼要這麼做？ 我不是幫了你們？！
+
+Start/begin_7
+\CBmp[Girl,20]\c[4]貴族小姐：\c[0]    不要！！ 放開我！！
+\CBmp[MainDude,20]\c[4]難民：\c[0]    幹啦！ 有女人幹啦！
+
+Start/begin_8
+\CBmp[HorseKiller,8]\c[4]難民：\c[0]    太棒了，今天有夠走運的。
+
+Start/begin_9
+\CBmp[GuardKiller,3]\c[4]難民：\c[0]    她看起來很健康，可以撐好幾天吧？
+\CBmp[Girl,20]\c[4]貴族小姐：\c[0]    不！ 為什麼要這樣！ 誰來救救我！
+
+Start/begin_10
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    怎麼了？！ 有誰在求救？
+
+Start/begin_11
+\CBmp[GuardKiller,20]\prf\c[4]難民：\c[0]    是女人！ 又來了一個！
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    不！ 等等！ 我只是路過！
+\CBmp[MainDude,4]\prf\c[4]難民：\c[0]    今天是有多走運呀！
+
+Start/begin_12
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    等等！
+\CBmp[GuardKiller,2]\prf\c[4]難民：\c[0]    怎麼了？！
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    這是不對的！ 你看看她！
+
+Start/begin_13
+\CBmp[MainDude,2]\prf\c[4]難民：\c[0]    看什麼？
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    她\..\..\.. 她沒胸部啊！
+\CBmp[MainDude,2]\prf\c[4]難民：\c[0]    所以呢？
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    她只是個小鬼！ 我們不該對孩子出手！
+\CBct[5]\m[flirty]\PRF\c[6]洛娜：\c[0]    哈？
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBmp[GuardKiller,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...\optD[我是女人,類獸人<r=HiddenOPT1>]
+
+Start/begin_13_Adult
+\CBct[5]\m[bereft]\PRF\c[6]洛娜：\c[0]    我才不是小鬼！ 我是成熟的女人！
+\CBmp[HorseKiller,8]\prf\c[4]難民：\c[0]    所以妳是女人？
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    是女人啊？
+\CBmp[GuardKiller,20]\prf\c[4]難民：\c[0]    幹了她！
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    耶？！
+
+Start/begin_13_Orkind
+\CBct[5]\m[terror]\Rshake\c[6]洛娜：\c[0]    不！ 現在不是說這個的時候！
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    怎麼？
+\CBct[5]\m[shocked]\Rshake\c[6]洛娜：\c[0]    類獸人！ 一整群的類獸人在追我！ 快跑啊！
+\CBmp[HorseKiller,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    不妙了...
+\CBmp[GuardKiller,8]\prf\c[4]難民：\c[0]    怎麼辦？
+\CBct[5]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不要發呆了！ 快逃啊！
+

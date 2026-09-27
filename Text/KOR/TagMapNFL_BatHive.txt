@@ -1,0 +1,114 @@
+
+thisMap/OvermapEnter
+\SndLib[AbomBatSpot]변이 박쥐의 둥지\optB[그만둔다, 들어간다]
+
+##############################################
+
+begin/Enter
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 왜 기억이 안 나지, 여기에 숲이 있었나?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 에휴... 됐다
+\CBct[8]\m[confused]\prf\c[6]로나：\c[0] \..\..\..
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 건너편에 가려면 반드시 여길 지나야 해...
+\CBct[20]\m[serious]\PRF\c[6]로나：\c[0] 겁내지 마! 난 할 수 있어!
+
+rg29/begin1
+\CBmp[DaHunter,6]\c[4]용병：\c[0] 안 돼! 저리 가!
+
+rg29/begin2
+\CBmp[DaHunter,20]\c[4]용병：\c[0] \{하하!!
+
+rg29/begin4
+\CBmp[DaHunter,6]\c[4]용병：\c[0] \{아야야!
+
+DaHunter/begin1
+\CBid[-1,6]\c[4]용병：\c[0] 너…? 살아있는 사람이야?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 살려줘! 다들 죽었어!
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 죽었다고?... 무슨 일이야?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 이 빌어먹을 박쥐들이 너무 사나워.
+\CBid[-1,20]\prf\c[4]용병：\c[0] 제발, 날 좀 도와줘.
+\CBid[-1,20]\prf\c[4]용병：\c[0] 우리 캠프는 아마... 서쪽에?
+\CBid[-1,20]\prf\c[4]용병：\c[0] 살아서 돌아가기만 하면 내 전 재산을 줄게.
+
+DaHunter/begin1_brd
+\CamCT\board[곤경에 빠진 용병 돕기]
+목표 : 서쪽으로 이동
+보상 : 그의 전 재산
+의뢰주 : 부상당한 용병
+기한 : 지금만
+이 곤경에 빠진 용병을 그의 캠프로 데려다 줘라.
+
+DaHunter/begin2_OPTyes
+\CBct[20]\m[serious]\PRF\c[6]로나：\c[0] 좋아, 내가 널 데리고 나가줄게.
+
+DaHunter/begin2_OPTno
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 힘내요, 난 할 일이 있어서요.
+
+########################################################### end hunter qu
+
+DaHunter/Qu_success0
+\CBid[-1,20]\c[4]용병：\c[0] 고맙다, 내가 이렇게 살아서 돌아올 줄은 몰랐어.
+\CBid[-1,20]\c[4]용병：\c[0] 이걸 받아라.
+
+DaHunter/Qu_success0_1
+\CBid[-1,20]\c[4]용병：\c[0] 몸조심해라, 잘 가.
+
+DaHunter/Qu_success1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 저기... 잠깐만...
+
+DaHunter/Qu_success2
+\CBid[-1,20]\c[4]용병：\c[0] 왜?
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어...\..\..\..이게 끝이야? 약속했던 전 재산은?  
+\CBid[-1,5]\prf\c[4]용병：\c[0] 웃기지 마! 네 손에 있는 게 내 전 재산 전부라고.
+\CBid[-1,5]\prf\c[4]용병：\c[0] 왜, 불만 있어?
+
+DaHunter/Qu_success2_end_tsun0
+\CBct[8]\m[serious]\PRF\c[6]로나：\c[0] \..\..\..
+\CBid[-1,5]\c[4]용병：\c[0] 뭐야? 맘에 안 들면 말해보시지?
+
+DaHunter/Qu_success2_end_tsun1
+\CBid[-1,6]\c[4]용병：\c[0] 너...\..\..\..내 어머니도 날 때린 적 없는데... 네가.... 
+\CBct[5]\m[angry]\PRF\c[6]로나：\c[0] \{내 몫 내놔!\}
+\CBid[-1,6]\prf\c[4]용병：\c[0] 아...\..\..\.. 제발 살려주십시오....
+
+DaHunter/Qu_success2_end_tsun2
+\CBct[5]\m[serious]\PRF\c[6]로나：\c[0] 흥!
+
+DaHunter/Qu_success2_end_other
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 나... 미안해. 
+\CBid[-1,5]\prf\c[4]용병：\c[0] 흥!
+
+DaHunter/Qu_success2_end_Cecily1
+\CBct[8]\m[serious]\PRF\c[6]로나：\c[0] \..\..\..
+\CBfB[20]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]세실리：\C[0] \{야!
+
+DaHunter/Qu_success2_end_Cecily2
+\CBid[-1,2]\prf\c[4]용병：\c[0] 뭐야? 나 이미 감사 인사 했잖아?
+\CBfB[20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]세실리：\C[0] 네 목숨 값이 겨우 동전 한 닢이야?
+
+DaHunter/Qu_success2_end_Cecily3
+\CBid[-1,8]\prf\c[4]용병：\c[0] 으\..\..\..CBid[-1,20]정말 미안합니다, 여러분. 제가 깜빡했네요.  
+\CBid[-1,6]\prf\c[4]용병：\c[0] 이거 가져가세요.
+
+DaHunter/Qu_success2_end_Cecily4
+\CBfB[5]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] 가! 다음에 이런 멍청이 만나면 바로 때려 눕혀!
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어\..\..\.. 그래.
+
+########################################################### common PPL
+
+Commoner/begin0
+\CBid[-1,20]\c[4]용병：\c[0] 내가 왜 여기 있는 거지?
+\CBid[-1,20]\c[4]용병：\c[0] 우린 용병이야, 고용돼서 이 괴물들을 잡으러 온 거라고.
+
+Commoner/begin1
+\CBid[-1,20]\c[4]용병：\c[0] 근데 왜 이런 박쥐 괴물들을 잡아야 하는 거냐?
+\CBid[-1,20]\c[4]용병：\c[0] 나야 모르지, 섬 사람들 속셈이야 알 수가 있나.
+
+Commoner/begin2
+\CBid[-1,20]\c[4]용병：\c[0] 이번 일만 끝나면 고향으로 돌아가서 결혼할 거야.
+
+Watcher/begin0
+\CBid[-1,20]\c[4]용병：\c[0] 이런 괴물은 처음 본다.
+
+Watcher/begin1
+\CBid[-1,20]\c[4]용병：\c[0] 여기 오기 전엔 시바리스가 괴물한테 습격당했다는 얘기만 들었는데, 보아하니 도시 전체가 망가진 모양이군.

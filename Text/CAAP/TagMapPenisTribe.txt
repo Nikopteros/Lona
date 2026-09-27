@@ -1,0 +1,164 @@
+thisMap/OvermapEnter
+\m[confused]La Tribu de los Nueve Pulgadas \optB[Cancelar,Entrar]
+
+########################################### Cuando comienza
+
+rg4/FirstAlert0
+\CBmp[Archer,20]\prf\c[4]\c[4]Guardián A：\C[0]    ¡Extranjero! ¡Hay un extranjero aquí!
+
+rg4/FirstAlert1
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Quién?! ¡¿Yo?!
+\CBmp[Archer,20]\prf\c[4]\c[4]Guardián A：\C[0]    ¡Mátenlo! ¡Córtenselo!
+\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡N-No! ¡Alto! ¡Esperen un momento!
+\CBmp[GuardA,20]\prf\c[4]\c[4]Guardián B：\C[0]    ¡No! ¡Deténganse! ¡Quizás es la guerrera del profeta!
+\CBmp[Archer,2]\prf\c[4]\c[4]Guardián A：\C[0]    ¿Qué? ¡Eso es imposible!
+\m[flirty]\PRF\c[6]Lona：\C[0]    Entonces... ¿No me harán daño?
+
+rg4/FirstAlert3
+\CBmp[Archer,20]\prf\c[4]\c[4]Guardián A：\C[0]    ¡¿Quién te envió aquí?! ¡Habla!
+\CBct[6]\m[fear]\PRF\c[6]Lona：\C[0]    N-no quiero hacer daño a nadie, solo pasaba por aquí.
+\CBmp[GuardA,20]\prf\c[4]\c[4]Guardián B：\C[0]    ¡Quítate la ropa! ¡Muéstranos tus pechos para probar que no mientes!
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿Quitarme la ropa?
+\CBmp[Archer,5]\prf\c[4]\c[4]Guardián A：\C[0]    ¡Exacto! ¡Desnúdate!
+
+rg4/FirstAlert3_1
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡Me desnudaré! ¡Me quitaré todo, solo por favor no me golpeen!
+
+rg4/FirstAlert4
+\CBmp[6]\m[shy]\PRF\c[6]Lona：\C[0]    ¿A-así está bien? ¿A-ahora me dejarán ir...?
+
+rg4/FirstAlert4_0
+\CBmp[1]\m[p5shame]\Rshake\c[6]Lona：\C[0]    ¡¿Eh?!
+
+rg4/FirstAlert4_1
+\CBmp[GuardA,20]\c[4]\c[4]Guardián B：\C[0]    ¡No miente! ¡Al tacto es una mujer real!
+
+rg4/FirstAlert5
+\m[shy]\CBmp[GuardA,20]\prf\c[4]\c[4]Guardián B：\C[0]    ¡¿Ven?! ¡Es tal como dijo el profeta! ¡Ella es la elegida, la de pecho vacío!
+\CBmp[Archer,20]\prf\c[4]\c[4]Guardián A：\C[0]    ¿Entonces el profeta decía la verdad? ¿No tiene miembro? ¿Y no tiene tetas?!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué? ¿Mis pechos?
+\CBmp[GuardA,20]\prf\c[4]\c[4]Guardián B：\C[0]    ¡Vamos, guerrera extranjera! ¡El profeta quiere verte!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... ¿El profeta?
+
+rg4/DressCheck
+\CBmp[GuardA,20]\prf\c[4]\c[4]Guardián B：\C[0]    ¡Extranjero! ¡Debes desnudarte antes de entrar!
+\CBmp[Archer,5]\prf\c[4]\c[4]Guardián A：\C[0]    ¡Sí! ¡Desnúdate! ¡Prueba que eres una mujer real!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Uf...
+
+rg4/Aggroed
+\prf\c[4]\c[4]Guardián A：\C[0]    \{¡Córtenle el miembro! ¡Córtenle el miembro!\}
+\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+\narr ¡La Tribu de los Nueve Pulgadas es ahora hostil!
+
+########################################### Aldeanos y objetos fijos
+
+PrayKid/Qmsg0
+¡Quiero crecer lo más rápido posible!
+
+PrayKid/Qmsg1
+¡Cuando crezca, cazaré los miembros de los hombres malos!
+
+PrayKid/Qmsg2
+¡El miembro del cazador es enorme!
+
+Gill/Qmsg0
+¿Por qué no tengo miembro?
+
+Gill/Qmsg1
+¿Por qué no puedo cazar miembros?
+
+Gill/Qmsg2
+¡Tú tampoco tienes miembro!
+
+Penis/Msg
+\narr Parece que hay algo grabado aquí...
+
+Nap/GameOver0
+\c[4]\c[4]Guardián A：\C[0]    ¡Mátenla! ¡Malditos extranjeros!
+\c[4]\c[4]Guardián B：\C[0]    ¡Mátenla! ¡Córtenle el miembro!
+
+Nap/GameOver1
+\narr La tribu descuartizó el cuerpo de Lona...
+\narr Lona se convirtió en alimento para la tribu...
+
+Commoner/RngDialog0
+\CBid[-1,20]\c[4]\c[4]Guardián：\C[0]    ¡Tengo sed!
+
+Commoner/RngDialog1
+\CBid[-1,20]\c[4]\c[4]Guardián：\C[0]    ¡Córtenle el miembro! ¡Vamos a beber!
+
+Commoner/RngDialog2
+\CBid[-1,20]\c[4]\c[4]Guardián：\C[0]    ¡Jajá!
+
+########################################### La bruja
+
+WitchOPT/Begin
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Oh, guerrera extranjera, he esperado tu llegada.
+
+WitchOPT/End
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Que el santo miembro te acompañe...
+
+WitchOPT/AboutHere
+La Tribu de los Nueve Pulgadas
+
+WitchOPT/AboutWhyMe
+El Profeta
+
+WitchOPT/AboutDedOne
+El Viajero Oscuro
+
+WitchOPT/AboutHere0
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Esta es la tribu de los Nueve Pulgadas de nuestros Ancestros.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Los Ancestros nos guiaron a la salvación a través del nido del Mono Blanco.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Los Ancestros nos crearon con el miembro de nueve pulgadas.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Para probar que somos hijos de los Ancestros, cada joven de la tribu debe cortarse su miembro al llegar a la adultez.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Oh... ¿Cortarse el miembro?
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Sí. Para demostrar que el miembro de los Ancestros es el más grande de todos.
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    Oh... ¿?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Y por qué revisan los pechos? ¿Pueden ser falsos?
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Así es como los Ancestros detectaban impostores.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Esos repugnantes hombres-pez llegaron e intentaron infiltrarse.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Pero tú no eres uno de ellos. Eres la guerrera de pecho vacío.
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Ah?
+
+WitchOPT/AboutWhyMe0
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... ¿Usted es el profeta, verdad?
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Sí, guerrera extranjera.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Tu llegada fue profetizada. Resolverás todos nuestros problemas...
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Pero no esperaba que la guerrera fuera tan delgada... Y débil.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    El Rey Espiral sigue devastando el Bosque Espiral al sureste.
+\CBid[-1,20]\prf\c[4]\c[4]Profeta：\C[0]    Si eres una verdadera guerrera, ¡tráeme el Miembro del Rey Espiral!
+
+WitchOPT/AboutWhyMe1
+\board[Miembro Espiral]
+Misión: Obtener el Miembro Espiral
+Recompensa: Pintura de Guerra Tribal\i[349]
+Cliente: Tribu de los Nueve Pulgadas
+Repetible: No
+¡Debes probar que eres una verdadera guerrera. Ve al bosque sureste y supera la prueba!
+
+WitchOPT/AboutWhyMe2_yes
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Por qué yo? Solo estaba pasando por aquí.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    La llegada de los pielverdes traerá problemas, pero la guerrera los resolverá.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Como dijo el Viajero Oscuro, dudarás de todo.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Pero no temas, los Ancestros nunca se equivocan.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    ¡Ve, hija, demuestra tu valor!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Oh.....
+
+WitchOPT/AboutDedOne0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Quién es el Viajero Oscuro? ¿Él dijo que yo vendría?
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Él es el único que gobierna todo, y vio que llegarías.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Se me apareció en un sueño, vestido de negro, y me reveló la verdad.
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Tú eras lo único desconocido.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    Oh...?
+
+Witch/BoarPenid_End0
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Emm... Derroté al Rey Espiral, aquí está su Miembro Espiral... ¿Es correcto?
+\CBid[-1,20]\prf\c[4]\c[4]Profeta：\C[0]    Como dijo el Viajero Oscuro, eres la verdadera guerrera.
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Uf...
+
+Witch/BoarPenid_End1
+\CBid[-1,8]\prf\c[4]\c[4]Profeta：\C[0]    Toma esto, es la prueba de que eres una guerrera. El Viajero Oscuro dijo que lo necesitarías. Úntalo en tu rostro.
+
+Witch/BoarPenid_End2
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Oh... Gracias.

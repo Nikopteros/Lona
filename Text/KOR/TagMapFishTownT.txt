@@ -1,0 +1,12 @@
+####################################--------------------- overmap
+Top/OvermapEnter
+\m[confused]가시 신전\optB[그만둔다,들어간다]
+
+sneak/spoted
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]경비병：\c[0] 침입자!
+
+release/DeepOneF
+\m[confused]\plf\PRF\c[6]로나：\c[0] 갇혀 있는... 괴물?
+
+Farseer/Else
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]제사장：\c[0] 외지인... 나가라....

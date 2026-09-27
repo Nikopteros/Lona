@@ -1,0 +1,101 @@
+thisMap/OvermapEnter
+\m[confused]Bosque Espiral \optB[Cancelar,Entrar]
+
+Archer/begin0
+\CBid[-1,6]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Mi hijo! ¡Él murió!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué ocurrió?!
+
+Archer/begin1
+\CBid[-1,6]\prf\c[4]\c[4]Guerrero：\C[0]    ¿No sois de aquí? ¡Mi hijo fue asesinado por el Rey Espiral!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¡Calmaos! El Profeta me envió para ayudaros. ¿Quién o qué es el Rey Espiral?
+\CBid[-1,2]\prf\c[4]\c[4]Guerrero：\C[0]    ¿Sois guerrera del Profeta?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Em... Quizá.
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    \{¡Eso es bueno!\}
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Jamás vi un Miembro Espiral tan grande! ¡El del Rey Espiral es aún mayor que el anterior!
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡El Rey Espiral aún debe estar en el bosque! ¡Huelo su rastro!
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Vos, guerrera del Profeta, podréis vengar a mi hijo!
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Sólo confío en vos! ¡Partiré!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué...?
+
+Archer/begin1_WisMod_opt
+\optD[¡Deteneos!,Nada]
+
+Archer/begin1_WisMod0
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Deteneos! ¿Os marcháis así?
+
+Archer/begin1_WisMod1
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¿Acobardáis? ¡Sois guerrera del Profeta!
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Vos sola podréis con esto!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Mas el Profeta dijo que me ayudaríais a hallar el Miembro Espiral.
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¿En serio?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¡Sí!
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¿De verdad?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¡De verdad, de verdad!
+\CBid[-1,8]\prf\c[4]\c[4]Guerrero：\C[0]    \..\..\..
+\CBid[-1,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Bien! ¡Tras el Miembro del Rey Espiral!
+
+Archer/begin2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Y qué es exactamente un "Miembro Espiral"?
+
+Archer/begin3
+\board[Obtener el Miembro Espiral]
+**Misión**: Derrotar al Rey Espiral
+**Recompensa**: Pintura de Guerra Tribal\i[349]
+**Cliente**: Tribu de los Nueve Pulgadas
+**Repetición**: Única
+¡Venced al Rey Espiral y vengad al hijo del guerrero!
+
+Archer/Qmsg0
+¡Venga a mi hijo!
+
+Archer/Qmsg1
+¡Mátalo!
+
+Archer/Qmsg2
+¡Córtale el miembro!
+
+###########################################################################
+
+Archer/end_alive1
+\CBmp[Archer,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡El Profeta tenía razón! ¡Sois poderosa!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Es esta bestia víctima de la Niebla Negra?
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    Entonces... ¿Qué es el Miembro Espiral?
+\CBmp[Archer,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Tienen miembros espirales! ¡Miradlos!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Y son... miembros reales?
+\CBmp[Archer,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Son machos! ¡No hay duda!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Ohhh?
+
+Archer/end_alive2
+\CBmp[Archer,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Tomad esto!
+
+Archer/end_alive3
+\CBct[6]\m[fear]\PRF\c[6]Lona：\C[0]    Puaj...
+\CBmp[Archer,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡Uno por vos, otro por mi hijo!
+\CBct[2]\m[sad]\PRF\c[6]Lona：\C[0]    Lamento haber llegado tarde para salvar a vuestro hijo.
+\CBmp[Archer,20]\prf\c[4]\c[4]Guerrero：\C[0]    ¡No os lamentéis! ¡Su alma volverá al Cazador de Nueve Pulgadas! ¡Renacerá!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué...?
+
+Archer/end_dead1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Es esta bestia corrompida por la Niebla Negra?
+\CBct[6]\m[sad]\PRF\c[6]Lona：\C[0]    Perdón...
+\CBct[6]\m[sad]\PRF\c[6]Lona：\C[0]    Tú solo querías proteger a tus crías...
+
+Archer/end_dead2
+\CBct[6]\m[fear]\PRF\c[6]Lona：\C[0]    Asqueroso...
+\CBct[2]\m[sad]\PRF\c[6]Lona：\C[0]    Bueno, al menos confirmé que su miembro es espiral.
+
+Archer/end_cut
+\narr\SndLib[sound_gore]\..\..\SndLib[sound_gore]\..\..\SndLib[sound_gore]\..\..\SndLib[sound_gore]
+
+Archer/end_end
+\board[Obtener el Miembro Espiral]
+**Misión**: Regresar a la Tribu de los Nueve Pulgadas
+**Recompensa**: Pintura de Guerra Tribal\i[349]
+**Cliente**: Tribu de los Nueve Pulgadas
+**Repetición**: Única
+Ahora sois una guerrera tribal. Regresad y reclamad vuestra recompensa.
+
+###########################################################################################################
+
+Nap/GameOver1
+\narr El Rey Espiral devoró a Lona...

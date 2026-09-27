@@ -1,0 +1,322 @@
+NoerDock/OvermapEnter
+\m[confused]노엘 마을 항구\optB[그만둔다,들어간다]
+
+#---------------------------------------Noer Dock cOMMON ppl ----------------------------------
+
+SailerGuard/GoAway0
+말썽 부리지 마라!
+
+SailerGuard/GoAway1
+꺼져!
+
+SailerGuard/GoAway2
+물러서!
+
+##---------------------------------------
+
+NightFapper/Fapper0
+나는 세계의 왕이다!
+
+NightFapper/Fapper1
+아이들아! 세상을 정복하러 가자!
+
+NightFapper/Fapper2
+우요요!
+
+NightFapper/Fapper3
+가버렸다!
+
+##---------------------------------------
+
+RiotPPL1/Yelling0
+올라가게 해줘! 나는 귀족이다!
+
+RiotPPL1/Yelling1
+나 표 있어!
+
+RiotPPL1/Yelling2
+이건 휴지가 아니야! 돈 주고 산 거라고!
+
+RiotPPL2/Yelling0
+이게 내 전 재산이야
+
+RiotPPL2/Yelling1
+제발, 제발 태워줘.
+
+RiotPPL2/Yelling2
+흐윽… 으흑…
+
+RiotPPL3/Yelling0
+나를 배에 태워줘!
+
+RiotPPL3/Yelling1
+돈! 돈 있어!
+
+RiotPPL3/Yelling2
+왜 또 값이 오른 거야!
+
+##---------------------------------------
+
+BoardReader1/Read0
+마물이 날뛰고, 그다음은 뭐지?
+
+BoardReader1/Read1
+노예 매매라니, 다음은 뭐야?
+
+BoardReader1/Read2
+도적 떼가 들끓고, 이제는 또 뭐지?
+
+BoardReader2/Read0
+세상이 끝장났어.
+
+BoardReader2/Read1
+친구도, 가족도… 다 죽었어.
+
+BoardReader2/Read2
+이제 내가 뭘 할 수 있겠어.
+
+##---------------------------------------
+
+SlaveChild/Talk0
+엄마...
+
+SlaveChild/Talk1
+집에 가고 싶어...
+
+SlaveChild/Talk2
+왜 나를 버린 거야...
+
+SlaveAdult1/Talk0
+속았어, 분명 속은 거야!
+
+SlaveAdult1/Talk1
+안 돼, 난 노예가 되고 싶지 않아!
+
+SlaveAdult1/Talk2
+여긴 내가 있을 곳이 아냐! 난 귀족이라고!
+
+SlaveAdult2/Talk0
+우린 어디로 끌려가는 거지?
+
+SlaveAdult2/Talk1
+우린 뭘 하게 되는 거야?
+
+SlaveAdult2/Talk2
+무서워...
+
+##---------------------------------------
+
+Board/FishKindPplTrade
+\board[난민 매입]
+먹을 게 없나? 체력에 자신 있나? 그렇다면 네 몸을 팔아라. 우리가 목숨은 보장해주지.
+처녀 : 큰 동전 6개
+아이 : 큰 동전 3개
+성인 : 큰 동전 1개
+총 가격은 건강 상태와 외모에 따라 변동됨. 남자와 불임 여성은 받지 않음. 
+자세한 내용은 어인시장으로.
+
+##---------------------------------------
+
+Board/IttWorker
+\board[일꾼 모집]
+광산 노동자 모집. 사람이든 아니든 상관없다, 누구나 올 수 있다. 
+월급 : 큰 동전 1개 
+매달 행운아 3명을 뽑아, 광석 운반선에 태워 외부로 내보낸다.
+
+##---------------------------------------
+
+Board/PirateAround
+\board[해적선 창공의 푸른 불꽃 해적단]
+본 항구의 중대한 치안 위협. 아직 근처에 잠복해 있는 것으로 추정됨.  
+발견 시 신고자에게 금화 3개, 수색·체포에 협조한 자에게 금화 1개를 보상함.
+
+##--------------------------------------- fISHkIND ----------------------------------
+
+FrogmanTrader/begin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\Lshack\c[4]어인：\c[0] 물고기! 순살 생선!
+\m[shocked]\Rshake\c[6]로나：\c[0] 꺄악!\optB[멀리 피한다,거래한다]
+
+FrogmanTrader/begin_trade
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]어인：\c[0] 여자, 생선 사라!
+
+FrogmanTrader/begin_WhoreWorkWin
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]어인：\c[0] 씨뿌려라! 씨뿌려라!
+
+FrogmanTrader/begin_WhoreWorkFail
+\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshack\c[4]어인：\c[0] 꺼져!
+
+RandBusinessMan/talk1
+\m[confused]\c[4]행인：\c[0] 저것들 참 역겹게 생겼지. 아이러니하게도 지금 식량의 상당수가 놈들에게서 나온다네.\optD[저것들?]
+
+RandBusinessMan/talk2
+\c[4]행인：\c[0] 처음 보나? 뭐, 그럴 만도 하지. 혼종족처럼 원래는 섬의 토착민이었는데 우리가 쫓아냈거든.
+그 꼴 좀 보라지. 항구가 죄다 비린내로 가득하니, 누가 가까이 가고 싶어 하겠나.
+
+RandBusinessMan/Qtalk0
+놈들이 여자를 잔뜩 사들였어.
+
+RandBusinessMan/Qtalk1
+대체 뭘 하려는 건지 도무지 알 수가 없군.
+
+FrogmanPrayer/Pray0
+바다 마녀이시여! 내 부름을 들으소서!
+
+FrogmanPrayer/Pray1
+바다 마녀께 감사! 바다 마녀께 찬양!
+
+FrogmanPrayer/Pray2
+나는 바다 마녀의 은총으로 가득 차 있다아아아!!
+
+##-------------------------------------- SlaveDealer
+
+SlaveDealer/TalkNonSlave
+\SndLib[FishkindLgSpot]\CBid[-1,8]\c[4]노예상인：\c[0] 인간이여... 우리가 너에게 안전을 보장해주지... 우리 노예가 되어라.\optB[흥미없다,좋아]
+
+SlaveDealer/TalkNonSlave_yes
+\SndLib[FishkindLgSpot]\CBid[-1,20]\c[4]노예상인：\c[0] 훌륭해! 보자마자 알았다, 넌 번식력이 좋아 보이는군!
+\SndLib[FishkindLgSpot]\CBid[-1,20]\c[4]노예상인：\c[0] 이쪽이다, 끌고 가라!
+
+SlaveDealer/TalkIsSlave
+\SndLib[FishkindLgSpot]\CBid[-1,19]\c[4]노예상인：\c[0] 불쌍한 노예여... 나룻터의 일꾼에게 가서 말해라... 네가 어토피아 섬으로 가겠다고...
+\SndLib[FishkindLgSpot]\CBid[-1,19]\c[4]노예상인：\c[0] 그 다음엔 우리가 안전과 거처를 보장해주마... 상황이 더 나빠지진 않을 테니...
+
+SlaveDealer/Talk_failed
+\SndLib[FishkindLgSpot]\CBid[-1,5]\c[4]노예상인：\c[0] 너... 남자냐? 우린 남자는 안 받는다!
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 으으....
+
+#################################YAMATO CAPTAIN ############################
+
+Captain/Welcome_unknow
+\CBid[-1,2]\SETpl[Mfat_DockCaptain]\m[confused]\prf\c[4]???：\c[0] 꼬마야, 나는 에드워드다. 여기서 나가고 싶나?
+
+Captain/Welcome_unknow_detail
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 나... 나도 사실 여기서 벗어나고 싶어.
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\PLF\prf\c[4]에드워드：\c[0] 이 배는 이미 만석이지만, 아직 두 가지 선택지가 있지.
+\CBid[-1,20]\PLF\prf\c[4]에드워드：\c[0] 하나는 노예가 되는 것. 걱정 마라, 네가 서대륙에 친척이라도 있다면 그들이 널 다시 사갈 수도 있을 테니까.
+\CBct[2]\m[fear]\plf\PRF\c[6]로나：\c[0] .....노예라니.
+\CBid[-1,20]\PLF\prf\c[4]에드워드：\c[0] 후후, 표정이 모든 걸 말해주네.
+\CBid[-1,20]\PLF\prf\c[4]에드워드：\c[0] 다른 하나는 금화 20개 정도. 그럼 내가 자리를 하나 비워줄 수도 있지.
+\CBct[20]\m[shocked]\plf\PRF\Rshake\c[6]로나：\c[0] \{금화 20 개라고?!
+\CBct[20]\m[wtf]\plf\PRF\c[6]로나：\c[0] 그 돈이면 시바리스에서 집을 한 채는 살 수 있다고!
+\CBid[-1,20]\PLF\prf\c[4]에드워드：\c[0] 흥, 안 할 거면 그만둬라. 시간 지나면 값은 더 뛸 테니까.
+\CBid[-1,20]\PLF\prf\c[4]에드워드：\c[0] 썩 꺼져라, 난 바쁘다.
+\CBct[8]\m[sad]\plf\PRF 금화 20개라니....
+\CBct[8]\m[serious]그래도 시도해보자. 아직 기회가 없진 않을지도 몰라.
+
+Captain/Welcome_talked
+\CBid[-1,2]\m[confused]\SETpl[Mfat_DockCaptain]\c[4]에드워드：\c[0] 꼬마야, 또 만났군. 네 선택은 뭐지?
+
+Captain/OPT_HowMuch
+지금 얼마지
+
+Captain/OPT_GiveMoney
+금화를 건넨다
+
+Captain/OPT_BeSlave
+노예가 된다
+
+Captain/Price_today
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 오늘 가격은
+
+Captain/Price_today_link
+금화다. 알아서 해라. 시간이 지날수록 값은 더 올라간다.
+
+Captain/Leave_Slave
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 뒷골목으로 가든가, 아니면 그 수상한 어인들을 찾아가라. 인간 따위는 놈들이 원하지.
+
+Captain/Leave_NotEnoughMoney
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0]\{ 농담하냐?
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0]\{ 감히 날 우롱해? 이놈들아! 목을 쳐라!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] \{뭐?! 잠깐만!
+
+Captain/Leave_WithEnoughMoney
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\m[trumph]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\cgoff\CBid[-1,1]\m[shy]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 오호라, 꽤나 가져왔군. 어디 보자...
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 후훗.
+\CBid[-1,4]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 좋아! 이만큼 가져오다니, 여행길에서도 쓸모가 있겠군. 지나가라.\CamCT
+
+##################################################################################
+
+Captain/WithArrears0
+\CamMP[Captain]\BonMP[Captain,5]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] \{이놈들아! 당장 잡아라!
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] \{꺄악?! 잠, 잠깐만!
+
+Captain/WithArrears1
+\CamCT\m[p5sta_damage]\plf\Rshake\c[6]로나：\c[0] 으아악!
+\m[p5sta_damage]\plf\Rshake\c[6]로나：\c[0] \{놔… 놔줘!!
+\m[p5health_damage]\plf\Rshake\c[6]로나：\c[0] 흐윽….
+\m[p5health_damage]\plf\Rshake\c[6]로나：\c[0] 컥…
+\m[p5puke]\plf\Rshake\c[6]로나：\c[0] 우윽… 웩….
+\m[p5ahegao]\plf\Rshake\c[6]로나：\c[0] 으윽… 흐아아….
+\m[p5ahegao]\plf\Rshake\c[6]로나：\c[0] \{끄윽… 흐윽….
+\narr로나는 의식을 잃었다.
+
+Captain/WithArrears2
+\CamMP[Captain]\BonMP[Captain,2]\SETpl[Mfat_DockCaptain]\SETpr[NoerGangBoss]\Lshake\prf\c[4]에드워드：\c[0] 이년이 그놈이 말한 애냐?
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]불량배 두목：\c[0] 맞다, 바로 이 창녀이지.
+\CamMP[Captain]\BonMP[Captain,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 허… 이런 것들은 똥구멍으로 생각해도 일이 이렇게 순조로울 리가 없지.
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]불량배 두목：\c[0] 약속대로, 우리는 빚만 받아간다. 나머지는 전부 네 몫이다.
+\CamMP[Captain]\BonMP[Captain,3]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 고맙군! 앞으로도 잘 해보자고.
+
+################################################################################## Dock HEV
+
+FishKindDoor/Hev0
+\c[4]노예A：\c[0] 꺄악!! 밀지 마!
+
+FishKindDoor/Hev1
+\c[4]노예B：\c[0] 들었어? 어토피아 섬에는 마물이 없다던데... 하지만...
+
+FishKindDoor/Hev1_1
+\c[4]노예A：\c[0] 우린 도대체 어떻게 될까...
+
+FishKindDoor/Hev2
+\c[4]노예C：\c[0] 하아....
+
+FishKindDoor/Hev3
+\c[4]어인：\c[0] 조용... 가라... 앞으로.... 낙인....
+
+FishKindDoor/Hev4
+\c[4]어인：\c[0] 낙인... 물고기 먹어... 배 안 고파...
+\c[4]어인：\c[0] 우리.... 집으로.... 아름다운 곳....
+
+FishKindDoor/Hev5
+\narr사람들은 불안해하면서도 반항하지 않았다,
+\narr심지어 일부는 자원한 듯 보였다.
+
+FishKindDoor/Lona0
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 어토피아 섬이 정말 안전한 곳일까?
+\m[confused]\plf\PRF\c[6]로나：\c[0] 하지만 스스로 노예가 돼야 한다는 거잖아?
+
+################################################################################## SLAVE on Board
+
+Captain/Leave_Slave
+\CBct[6]\m[fear]\plf\Rshake\c[6]로나：\c[0] 저기... 제가 노예가 되면, 배에 태워주실 수 있나요?
+\CBid[-1,8]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 흠\...\...\...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 마침 선원들에게 그들을 시중들 여자가 부족했지, 네가 있다면 쓸모가 있겠군.
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 그러니, 정말 우리 노예가 되겠다는 거냐?
+
+Captain/Leave_Slave_yes0
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 하...하겠습니다... 제가 할게요...
+\CBid[-1,20]\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 훌륭해, 자! 이리 와라!
+
+Captain/Leave_Slave_yes1
+\m[p5shame]\Rshake\c[6]로나：\c[0] 너희들... 뭐하려는 거야!?
+\SETpl[AnonMale1]\Lshake\CamCT\C[4]선원：\C[0] 가만히 있어! 낙인 비뚤어지면 값어치가 떨어진다고!
+\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 싫어, 놔줘!
+\cg[event_SlaveBrand]\SETpl[AnonMale1]\Lshake\CamCT\C[4]선원：\C[0] 진작 얌전히 있지! 가만히 있어!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]로나：\c[0] \{으아아아아아악!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{아아아아악!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{끄으윽...!
+\narr\ph로나는 고통 속에 의식을 잃었다\...\...\...
+
+Captain/Leave_Slave_no
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 으... 그만둘래. 안 하겠어.
+
+Captain/Leave_SlaveTR1
+\SETpr[AnonMale1]\Rshake\C[4]선원：\C[0] 선장님, 이건...?
+\SETpl[Mfat_DockCaptain]\Lshake\prf\c[4]에드워드：\c[0] 도망친 노예다. 저 여자를 배에 실어라.
+\SETpr[AnonMale1]\Rshake\plf\C[4]선원：\C[0] 알겠습니다, 선장님!
+
+#move Old
+#Captain/Leave_Slave
+#\CBid[-1,20]\PLF\prf\c[4]에드워드：\c[0] 뒷골목으로 가든지, 아니면 그 괴상한 어인들을 찾아가라. 사람은 걔들이 필요로 하지.

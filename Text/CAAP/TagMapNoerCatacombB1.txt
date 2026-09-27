@@ -1,0 +1,295 @@
+###################################################################################
+
+GraveKeeper/UndeadHunt2Begin1
+\CBct[6]\m[fear]\Rshake\C[6]Lona: \C[0]    Ugh, esto es más espeluznante de lo que imaginaba...
+\CBmp[GraveKeeper,1]\prf\c[4]Sepulturero: \C[0]    \{¿QUÉ DEMONIOS-?!\}
+\CBct[20]\m[terror]\Rshake\C[6]Lona: \C[0]    \{¿Qué?! ¡¿Qué pasa?!
+
+GraveKeeper/UndeadHunt2Begin2
+\CBmp[GraveKeeper,20]\prf\c[4]Sepulturero: \C[0]    \{¡Aquí debería haber docenas de cuerpos!
+
+GraveKeeper/UndeadHunt2Begin3
+\CBct[2]\m[confused]\C[6]Lona: \C[0]    ¿No están todos en las paredes?
+\CBmp[GraveKeeper,20]\prf\c[4]Sepulturero: \C[0]    No estos, la mayoría tienen siglos de antigüedad.
+\CBmp[GraveKeeper,20]\prf\c[4]Sepulturero: \C[0]    Era joven, pero recuerdo este lugar lleno de cadáveres.
+\CBct[6]\m[shocked]\Rshake\C[6]Lona: \C[0]    ¿Qué? ¡No me asustes!
+
+GraveKeeper/UndeadHunt2Begin4
+\CBmp[GraveKeeper,20]\c[4]Sepulturero: \C[0]    ¿Acaso todos se convirtieron en no muertos?
+
+GraveKeeper/UndeadHunt2Begin5
+\CBmp[GraveKeeper,20]\c[4]Sepulturero: \C[0]    Esto es malo, muy malo...
+\CBmp[GraveKeeper,20]\c[4]Sepulturero: \C[0]    Si los superiores se enteran, perderé mi trabajo.
+
+GraveKeeper/UndeadHunt2Begin6
+\CBct[8]\m[flirty]\C[6]Lona: \C[0]    Entonces... ¿deberíamos volver e informar?
+
+GraveKeeper/UndeadHunt2Begin7
+\CBct[2]\m[confused]\C[6]Lona: \C[0]    Emm... ¿señor?
+
+GraveKeeper/UndeadHunt2Begin8
+\CBmp[GraveKeeper,2]\c[4]Sepulturero: \C[0]    Espera, ¿qué es eso?
+
+GraveKeeper/UndeadHunt2Begin9
+\CBct[20]\m[terror]\Rshake\C[6]Lona: \C[0]    \{¡¡Aahhh!!!\}
+
+GraveKeeper/UndeadHunt2Begin10
+\CBct[20]\m[shocked]\Rshake\C[6]Lona: \C[0]    ¿Sepulturero? ¡¿Señor?!
+\CBct[6]\m[fear]\C[6]Lona: \C[0]    ¿Muerto...? ¡No! ¡¿Está muerto?!
+\CBct[20]\m[tired]\C[6]Lona: \C[0]    ¿Qué... hago ahora?
+
+#########################################################################################
+
+Lona/ReadAllMail
+\CBct[1]\m[shocked]\Rshake\C[6]Lona: \C[0]    ¡¡¡¡¡!
+\CBct[8]\m[sad]\C[6]Lona: \C[0]    .........
+\CBct[2]\m[sad]\C[6]Lona: \C[0]    ¿Cocona?
+\CBct[8]\m[confused]\C[6]Lona: \C[0]    No parece una persona mala...
+\CBct[8]\m[tired]\C[6]Lona: \C[0]    Tal vez debería intentar hablar con ella.
+
+Lona/ItsTrap
+\CBmp[Trap,19]\m[serious]\C[6]Lona: \C[0]    ¿Esto es... una trampa?
+\CBct[8]\m[confused]\C[6]Lona: \C[0]    Esto... no parece llevar aquí décadas, ¿verdad?
+\CBct[8]\m[flirty]\C[6]Lona: \C[0]    ¿Los no muertos usan trampas?
+
+Lona/UndeadElite
+\CBmp[UndeadElite,19]\m[serious]\C[6]Lona: \C[0]    Estos no muertos son diferentes a los de afuera.
+\CBct[8]\m[confused]\C[6]Lona: \C[0]    Será difícil lidiar con ellos...
+\CBct[8]\m[flirty]\C[6]Lona: \C[0]    ¿Quizás debería tomar otro camino?
+
+Friends/frist_time
+\CBid[-1,20]\m[shocked]\prf：\C[0]No muerto: \C[0]    \{Grrraaarrrh...\}
+\CBct[1]\m[fear]\Rshake\C[6]Lona: \C[0]    ¡¿Aah?! ¿No... quiere comerme?
+\CBct[8]\m[confused]\C[6]Lona: \C[0]    Qué extraño... pero no debo bajar la guardia...
+
+Friends/Qmsg0
+Rrraaarggh....
+
+Friends/Qmsg1
+Innocente... Protegeeerr...
+
+Friends/Qmsg2
+Amigoo... Protegeeerr...
+
+Family/Qmsg0
+Un cadáver muy limpio.
+
+Family/Qmsg1
+Cadáver sin manchas.
+
+Family/Qmsg2
+Es solo un cadáver.
+
+BodyBag/Common
+Cadáver común.
+
+BodyBag/Keeper
+Parece un sepulturero.
+
+BodyBag/Goblin
+¿Un goblin? ¿Qué hace aquí?
+
+Hole/begin
+\CBct[8]\m[confused]\C[6]Lona: \C[0]    Por dentro parece un laberinto, imposible orientarse sin guía.
+
+#########################################################################################
+
+Lona/B2TrapTrigger1
+\narr Lona quedó aturdida.
+\narr Le quitaron todas sus pertenencias.
+\narr No sabe cuánto tiempo ha pasado.
+
+Lona/B2TrapTrigger2
+\m[hurt]\Rshake (Ughh, cómo duele la cabeza...)
+\m[fear] (¿Mm? ¿No puedo moverme? ¿Cómo llegué aquí?)
+\ph\C[4]Desconocida: \C[0]    ¡Do-ri-me! ♪ Do-ri-me a-me-nooo ♫
+\m[confused](¿Alguien... cantando? ¿Quién...?)
+
+##############################################
+
+Cocona/B2Trap_Sing1
+\prh\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Mer-tis a moti-ex, eee che-ss a gron tuuu ♫
+
+Cocona/B2Trap_Sing2
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Mii aaaaf mar-ca diiia, on dii evaaa gviin ♫
+
+Cocona/B2Trap_Sing3
+\BonMP[Cocona,5]\SETlpl[cocona_confused]\C[4]Desconocida: \C[0]    Ur-miau.....
+
+Lona/BondageStruggle1
+\CBmp[CapLoc,8]\plh\m[fear]\C[6]Lona: \C[0]    ..........
+\CBmp[CapLoc,2]\m[terror]\Rshake\C[6]Lona: \C[0]    ¿Está... descuartizando un cuerpo? ¿Por qué...?!
+\CBmp[CapLoc,6]\m[shocked]\Rshake\C[6]Lona: \C[0]    ¡NO! ¡No quiero ser comida!
+\CBmp[CapLoc,6]\m[bereft]\Rshake\C[6]Lona: \C[0]    ¡Escapar! ¡Debo escapar!
+
+Lona/BondageStruggle_opt
+\optD[Luchar]
+
+Lona/BondageStruggle2
+\C[6]Lona: \C[0]    ......
+
+Lona/BondageStruggle3
+\m[flirty]\C[6]Lona: \C[0]    ..........
+\m[serious]\C[6]Lona: \C[0]    ¡Qué suerte que no están bien ajustadas!
+\m[fear]\C[6]Lona: \C[0]    Y ahora... ¿qué hago?
+
+###########################################################################################
+
+Cocona/DinnerTime0
+\BonMP[Cocona,8]\SETlpl[cocona_confused]\C[4]Desconocida: \C[0]    Ur-miau....
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\C[4]Desconocida: \C[0]    \{Miu-miyau!
+
+Cocona/DinnerTime1
+\BonMP[Cocona,20]\SETlpl[cocona_normal]\Lshake\C[4]Desconocida: \C[0]    Santo Llorón...
+\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Santo! ¡Papá! Santo Llorón...
+
+Cocona/DinnerTime2
+\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Santo! ¡Cocona Nyam-Miyau~!
+\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Pa-pá! ¡Cocona Nyam-Miyau!
+\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Ma-má! ¡Cocona Nyam-Miyau~!
+\plh\m[fear]\C[6]Lona: \C[0]    Esta chica...
+\m[shocked]\Rshake\C[6]Lona: \C[0]    ...¿es esa nigromante?
+\m[serious]\C[6]Lona: \C[0]    Debería seguirla, quizás me muestre la salida.
+
+Cocona/NapTime0
+\BonMP[Cocona,8]\SETlpl[cocona_angry]\Lshake\C[4]Desconocida: \C[0]    Miumiumiu....
+\BonMP[Cocona,8]\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Papá! ¡Mamá! ¡Cocona Ameno-Miyau!
+\SETlpl[cocona_happy]\C[4]Desconocida: \C[0]    .........
+\SETlpl[cocona_happy]\C[4]Desconocida: \C[0]    .....
+\SETlpl[cocona_happy]\C[4]Desconocida: \C[0]    ...
+\SETlpl[cocona_sad]\C[4]Desconocida: \C[0]    Papá... Mamá...
+\SETlpl[cocona_sad]\C[4]Desconocida: \C[0]    ........
+\SETlpl[cocona_sad]\C[4]Desconocida: \C[0]    ...
+\SETlpl[cocona_happy]\Lshake\C[4]Desconocida: \C[0]    ¡Papá! ¡Mamá! ¡Cocona Miu-miyau!!
+
+Cocona/NapTime1
+\m[confused]\C[6]Lona: \C[0]    No sé por qué... pero me da... \m[sad]¿lástima?
+\m[flirty]\C[6]Lona: \C[0]    Debo seguir adelante.
+
+########################################################################################### AGGRO
+
+Cocona/aggro
+\CBmp[Cocona,15]\prh\SETlpl[cocona_angry]\Lshake\C[4]Desconocida: \C[0]    ¡¡Shhhssssss!!!
+\CBct[6]\m[shocked]\Rshake\C[6]Lona: \C[0]   ¡¡Aah!!!
+
+Cocona/aggro_FdSide1
+\CBct[6]\m[terror]\plf\Rshake\C[6]Lona: \C[0]    ¡Espera! ¡¡Espera!!!
+\CBct[20]\m[shocked]\plf\Rshake\C[6]Lona: \C[0]    ¡No quiero hacerte daño! ¡De verdad!
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Desconocida: \C[0]    ¿Miu-Niyaau?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]Desconocida: \C[0]    ¡¡Shhhssssss!!!
+\CBct[20]\m[terror]\plf\Rshake\C[6]Lona: \C[0]    Te llamas Cocona, ¿verdad? ¡Co-co-na!
+\CBmp[Cocona,2]\SETlpl[cocona_confused]\PLF\prf\C[4]Desconocida: \C[0]    ¿Miu-Niyaau?
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Desconocida: \C[0]    .......
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Desconocida: \C[0]    ...
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]Desconocida: \C[0]    ¡Miyauu Cocona!
+\CBct[6]\m[wtf]\plf\PRF\C[6]Lona: \C[0]    ¡Sí! ¡Cocona! ¡Podemos ser amigas!
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Desconocida: \C[0]    ¿Amigas...？
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]Desconocida: \C[0]    \{¡¡Amiga!!\}
+\CBct[20]\m[confused]\plf\PRF\C[6]Lona: \C[0]    ¡Sí, correcto! ¡Buena amiga!
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]Desconocida: \C[0]    \{¡Bue-na a-mi-ga!!\}
+\CBct[20]\m[pleased]\plf\PRF\C[6]Lona: \C[0]    ¡Buenas amigas!!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]Desconocida: \C[0]    \{¡Ja-ja-ja-ja buena amiga!!\}
+\CBct[8]\m[flirty]\plf\PRF (¿Estará todo bien?)
+\CBct[8]\m[confused]\plf\PRF (¿Confía demasiado en la gente?)
+
+Cocona/aggro_FdSide2
+\CBct[20]\m[pleased]\plf\PRF\C[6]Lona: \C[0]    ¡Entonces! ¡Buena amiga! ¡Soy Lona! ¡Hermana mayor!
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]Cocona: \C[0]    \{¡Buena amiga! ¡Lona! ¡Cocona!\}
+\CBct[20]\m[triumph]\plf\PRF\C[6]Lona: \C[0]    ¡Exacto!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]Cocona: \C[0]    ¡Papá! ¡Mamá! ¡Cocona encontró una buena amiga!
+\CBct[8]\m[tired] (Así que esos dos son sus padres.)
+\CBct[8]\m[confused]\plf\PRF (Empiezo a entender lo que dice.)
+\CBct[8]\m[confused]\plf\PRF (Parece que mezcla todo al hablar.)
+\CBct[8]\m[confused]\plf\PRF (Pero se le entiende si escuchas con atención.)
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\PLF\prf\C[4]Cocona: \C[0]    ¡Hermana mayor! ¿Tienes hambre?
+\CBct[2]\m[flirty]\plf\PRF\C[6]Lona: \C[0]    ¿Supongo?
+\CBmp[Cocona,4]\SETlpl[cocona_sad]\PLF\prf\C[4]Cocona: \C[0]    ¡Comida en la mesa, tener hambre es malo! ¡Quedarse con hambre es muerte!
+\CBct[6]\m[confused]\plf\PRF\C[6]Lona: \C[0]    ¿Eh?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Cocona: \C[0]    ¡Buena amiga! ¡Come!
+\CBct[20]\m[wtf]\plf\PRF\C[6]Lona: \C[0]    ¿Esto? ¿Qué clase de carne es?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Cocona: \C[0]    Ahhh...
+
+Cocona/aggro_FdSide3
+\SND[SE/eat03.ogg]\ph\narr Cocona se inclina hacia la carne.
+\SND[SE/eat02.ogg] Cocona intenta alimentar a Lona.
+\SND[SE/eat03.ogg] A pesar del hedor a carne podrida, fue un té bastante agradable.
+\..\..\..
+
+Cocona/aggro_FdSide4
+\CBmp[Cocona,8]\SETlpl[cocona_happy]\PLF\prf\C[4]Cocona: \C[0]    ¡Santo! ¡Cocona te agradece!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Cocona: \C[0]    ¡Gracias Santo, por la comida en la mesa! ¡Gracias Santo, por la nueva amiga!
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona: \C[0]    ¿Cocona cree en el Santo?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\PLF\prf\C[4]Cocona: \C[0]    ¡Herejes! ¡Mentirosos! ¡Todos los mentirosos deben ser devorados!
+\CBct[6]\m[shocked]\plf\Rshake\C[6]Lona: \C[0]    ¡Yo creo! ¡Yo creo en él!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Cocona: \C[0]    ¡Amigos - todos con el Santo! ¡El Santo es amigo de los inocentes!
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona: \C[0]    Entonces, ¿los de la superficie no son tus buenos amigos?
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\C[4]Cocona: \C[0]    Cocona no sabe, Cocona sintió algo, poderoso...
+\CBmp[Cocona,4]\SETlpl[cocona_angry]\PLF\prf\C[4]Cocona: \C[0]    ¡Se llevó a mis buenos amigos! Cocona solo puede hablar con buenos amigos.
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\C[4]Cocona: \C[0]    ¡Pero Cocona sabía que debía ser un mentiroso malvado!
+\CBmp[Cocona,20]\SETlpl[cocona_angry]\Lshake\prf\C[4]Cocona: \C[0]    ¡¡El mentiroso malvado engañó a mis buenos amigos!!
+\CBct[8]\m[flirty]\plf\PRF (¿Entonces ella no tiene nada que ver con esto?)
+\CBct[8]\m[confused]\plf\PRF (¿Una nigromante y no muertos que creen en el Santo?)
+\CBct[8]\m[flirty]\plf\PRF (¿Entonces qué demonios hago aquí? ¿Por qué arriesgo mi vida?)
+\CBct[8]\m[wtf]\plf\PRF (¡Qué mierda! ¡Esto no tiene ningún sentido!)
+
+Cocona/aggro_FdSide5
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona: \C[0]    ¿Eh?
+\CBct[1]\m[serious]\plf\PRF\C[6]Lona: \C[0]    ¿Tú también lo sientes?
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\C[4]Cocona: \C[0]    ¡Olor a pieles verdes!
+
+Cocona/aggro_FdSide6
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona: \C[0]    ¿Pieles verdes?
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\C[4]Cocona: \C[0]    ¡Piel verde! ¡Asqueroso al gusto!
+\CBct[2]\m[shocked]\plf\Rshake\C[6]Lona: \C[0]    ¿Te refieres a orcoides?
+
+Cocona/aggro_FdSide7
+\CBct[1]\m[wtf]\plf\Rshake\C[6]Lona: \C[0]    ¡¿Hay tantos?!
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\C[4]Cocona: \C[0]    ¡No temas, hermana mayor! ¡Cocona te protegerá!
+\CBct[6]\m[serious]\plf\Rshake\C[6]Lona: \C[0]    ¡No! ¡Debemos huir! ¡Son demasiados!
+\CBmp[Cocona,2]\SETlpl[cocona_sad]\PLF\prf\C[4]Cocona: \C[0]    ¿Huír?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]Cocona: \C[0]    ¡No! ¡Cocona protege - Papá! ¡Mamá! ¡Hermana mayor!
+\CBct[20]\m[angry]\plf\Rshake\C[6]Lona: \C[0]    ¡Basta!
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]Cocona: \C[0]    ¡¡SHHSS-SSS-SSSSSS!!!
+\CBmp[CoMama,20]\plf\prf\C[4]Desconocido: \C[0]    Cooo... Cooo... Naaa...
+\CBct[6]\m[flirty]\plf\Rshake\C[6]Lona: \C[0]    ¿Aah?
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\Lshake\prf\C[4]Cocona: \C[0]    ¡Mamá!
+\CBmp[CoPapa,20]\plf\prf\C[4]Desconocido: \C[0]    Co.. Co... Na... Ve con ella... Vete...
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\C[4]Cocona: \C[0]    Papá...
+\CBmp[CoPapa,20]\plf\prf\C[4]Desconocido: \C[0]    Mira... Mundo... Exterior... Vete...
+\CBmp[CoMama,20]\plf\prf\C[4]Desconocido: \C[0]    Co... Co... Na... Vete... Nosotros... descansamos...
+\CBmp[CoPapa,20]\plf\prf\C[4]Desconocido: \C[0]    Nooo... Confía... En ella...
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\C[4]Cocona: \C[0]    Uvuuu....
+
+Orkind/Gob1
+\SND[SE/goblin/Goblin_roar1.ogg]\ph\SETpl[goblin]\Lshake\C[4]Monstruo: \C[0]    ¿Gu cha cha?
+
+Orkind/Gob2
+\SND[SE/goblin/Goblin_roar2.ogg]\SETpr[goblin]\Rshake\C[4]Monstruo: \C[0]    ¡Gu sha ma cha!!!
+
+Orkind/Gob3
+\SND[SE/goblin/Goblin_roar3.ogg]\SETpl[goblin]\Rshake\C[4]Monstruo: \C[0]    ¡Gue heeehehehe!
+
+Cocona/aggro_FdSide8
+\CBct[8]\m[sad]\plf\PRF\C[6]Lona: \C[0]    .......
+\CBct[20]\m[serious]\plf\Rshake\C[6]Lona: \C[0]    ¡No hay tiempo! ¡Debemos irnos!
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\C[4]Cocona: \C[0]    Uvuuu... *Snif*... Cocona conoce el camino.
+\CBmp[ToSurface,19]\SETlpl[cocona_sad]\PLF\prf\C[4]Cocona: \C[0]    La sala de buenos amigos lleva afuera, Cocona y amigos cavaron camino.
+\CBct[20]\m[angry]\plf\Rshake\C[6]Lona: \C[0]    ¡Corre! ¡Mientras los no muertos los distraen!
+
+Cocona/aggro_FdSide8_win
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\PLF\prf\c[4]Cocona: \C[0]    ¡No más pieles verdes! ¡Hermana mayor a salvo!
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]Cocona: \C[0]    Cocona no quiere dejar a mamá y papá. ¡Hermana mayor puede vivir aquí!
+\CBct[20]\m[serious]\plf\Rshake\C[6]Lona: \C[0]    ¡No! ¡Debes obedecer a tu padre! ¡Esos monstruos pueden volver en cualquier momento!
+\CBct[20]\m[angry]\plf\Rshake\C[6]Lona: \C[0]    ¡Así fue destruida mi casa!
+\CBmp[Cocona,8]\SETlpl[cocona_sad]\PLF\prf\c[4]Cocona: \C[0]    Uvvvuuu...
+
+Cocona/to1fBlock
+\CamMP[ToSurface]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona: \C[0]    ¡No aquí! ¡Cavar aquí!
+
+#########################################################################################
+
+
+SaintState/begin
+\board[Santo Innombrado]
+El Santo Innombrado dijo: Cuando caiga, renaceré de la hoguera.
+Evangelio del Santo 30:65

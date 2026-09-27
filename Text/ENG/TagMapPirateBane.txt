@@ -1,0 +1,172 @@
+####################################--------------------- overmap  Pirate's Bane
+
+ThisMap/OvermapEnter
+\m[confused] Pirate's Bane
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guard：\c[0]    Halt! Who goes there! \optB[Leave,Enter,Sneak In<r=HiddenOPT1>,Bluff<r=HiddenOPT2>]
+
+################################################### OUT
+
+board/Begin1
+\board[Warning]
+All prisoners will be enslaved.
+Follow the rules, Don't make a scene.
+Theft： 16
+Assault： 32
+Robbery： 64
+
+board/Begin2
+\board[Acquisition]
+All criminals will be enslaved.
+Report any criminal you spot to the nearest guard.
+You will receive a 3-day food ration reward.
+
+################################################### INN
+
+InnKeeper/Begin
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Shopkeep：\c[0]    A newbie? What do you want?
+
+InnKeeper/About_here
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Shopkeep：\c[0]    This fortress was originally built to fight pirates, as time past the pirates became less interested in the Swamp.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Shopkeep：\c[0]    The fortress was abandoned for a long time, that is until the destruction of Sybaris.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Shopkeep：\c[0]    The Rudesind Family repaired the fort in the aftermath of the disaster, It's one of the few safe havens under the Rudesind Family Protection.
+
+InnKeeper/About_work
+\CamCT\Bon[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Is there anything I can do?
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Shopkeep：\c[0]    Work? For you?
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Shopkeep：\c[0]    You see those beggars outside? Half a loaf is enough to hire them all day.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Shopkeep：\c[0]    There's no work for you or anything, try asking the Mercenary Guild.
+\CamCT\Bon[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Sorry for asking...
+
+thinking/talk0
+\cg[other_ArtThinking]：thinking：
+\m[serious] Hmmm....
+\m[confused] I don't get it.
+
+################################################### Nap
+
+Guard/NapSlave
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guard：\c[0]    Hey! Over here!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guard：\c[0]    What's going on?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guard：\c[0]    This one bears the mark of a slave!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guard：\c[0]    A runaway slave?
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    Huh... What's going on?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guard：\c[0]    Come on, time to go home.
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What?!
+
+Guard/NapLowMora
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guard：\c[0]    Hey! Over here!
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]Slaver：\c[0]    What's going on?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guard：\c[0]    This little bitch is here to make trouble, so I'll leave her to you.
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]Slaver：\c[0]    Thank you!
+\m[tired]\plf\PRF\c[6]Lona：\c[0]    Huh... What's going on?
+\SETpl[MobHumanCommoner]\prf\Lshake\c[4]Slaver：\c[0]    Come on, time to go home.
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guard：\c[0]    Come on, time to go home.
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What?!
+
+
+###################################################### QUEEST BOARD
+QuestBoard/PB_OrkDen4_list
+Orkind monsters' lair
+
+QuestBoard/PB_OrkDen4
+\board[Orkind monsters' lair]
+Goal： Reach the Orkind monsters' lair at the North. Slay the Orkind Shaman, and return with it's head.
+Reward： 3 Large Copper Coins
+Contract from： Rudesind Slope
+Quest Term： Once
+The green-skinned monsters are even showing up here?!
+We already have enough trouble. Those filthy bastards must be eliminated before they increase in numbers!
+What is certain is that the monsters have a leader of some sort. Snuff it out! KILL IT!
+We are looking for any \C[4]professional\C[0] mercenaries to carry out this task.
+
+QuestBoard/PB_MassGrave_list
+The Evil Mass Graves
+
+QuestBoard/PB_MassGrave
+\board[The Evil Mass Graves]
+Goal：Rid the Mass Graves of Evil
+Reward：Large Copper Coin 2
+Contractor：Saint's Convent
+Quest Term：One Time
+There's an evil presence in the mass grave at night!
+No one can go near the cemetery because of it!
+It's full of undead or evil doers!
+Find it! Drive it away! Destroy it!
+
+QuestBoard/PB_DeeponeEyes_list
+Gouge Their Eyes Out
+
+QuestBoard/PB_DeeponeEyes
+\board[Gouge Their Eyes Out]
+Goal：Collect 8 pairs of Deepone eyes
+Reward：Large Copper Coin 1, Small Copper Coin 5
+Contractor：Rudesind Firm
+Quest Term：Long Term
+This place continues to be harassed by Deepones, but they will pay the price!
+Rip and tear! until it is done!
+
+QuestBoard/PB_NorthCP_list
+Message from North Outpost
+
+QuestBoard/PB_NorthCP
+\board[North Outpost]
+Goal：Survey the Northern Outposts
+Reward：Large Copper Coin 1
+Contractor：Rudesind Firm
+Quest Term：One Time
+North Point hasn't reported in a few days,
+We need a mercenary to ascertain the status of the Northern Outposts.
+
+QuestBoard/decide
+\m[confused]Are you sure about this mission? \optB[Forget It,Tear the note off]
+
+MercenaryGuild/PB_MassGrave_done
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Staff：\c[0]    So? What are you doing back here?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I did it.... The evil being is gone, probably...
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Staff：\c[0]    Probably?
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\c[0]    Definitely!
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]Staff：\c[0]    The gravekeeper had already sent a report, thank you.
+
+MercenaryGuild/Report_DeeponeEyes_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\c[0]    These are the eyes the Firm wants.... Gross....
+
+MercenaryGuild/Report_DeeponeEyes_win2
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Staff：\c[0]    Well done!
+
+MercenaryGuild/Report_NorthCP_win1
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Uh... About the North Point...
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    Looks like they're all dead... Probably an orc invasion.
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]Staff：\c[0]    Oh dear.. The situation is getting worse, we will miss them.
+
+MercenaryGuild/PB_OrkDen4_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\c[0]    Ugh... This is the head of the Orkind monsters' leader......
+
+MercenaryGuild/PB_OrkDen4_win2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Staff：\c[0]    Amazing! You actually did it!
+
+###################################################### ChickenSanders
+
+Sanders/MyCock0
+\CBmp[Sanders,6]\m[confused]\prf\c[4]Sanders：\c[0]    Cocks! My little cocks!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh?! Cocks?
+\CBmp[Sanders,20]\prf\c[4]Sanders：\c[0]    Help me! My cocks are all gone!
+
+Sanders/MyCock1
+\board[Catching Cocks]
+Goal：Save Sander's Cocks
+Reward：Small Copper Coin 2
+Drive the three cocks back into the fence.
+Double the reward for on time completion.
+Trigger the cocks to drive them away.
+
+Sanders/MyCock2
+\m[confused]\ph\c[4]Sanders：\c[0]    Get my cocks back! Get them back inside the fence!
+\m[confused]\PRF\c[6]Lona：\c[0]    All right, this isn't too difficult, right?
+
+Sanders/MyCock_working
+\m[confused]\prf\c[4]Sanders：\c[0]    Over there! Grab them!
+
+Sanders/MyCock_done
+\CBmp[Sanders,20]\m[confused]\prf\c[4]Sanders：\c[0]    Warrior!
+\CBmp[Sanders,20]\m[confused]\prf\c[4]Sanders：\c[0]    Thank you for saving the world, we will always remember you.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    That's a bit excessive don't you think?

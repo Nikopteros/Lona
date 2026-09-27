@@ -1,0 +1,295 @@
+##################################################################################
+
+GraveKeeper/UndeadHunt2Begin1
+\CBct[6]\m[fear]\Rshake\C[6]Лона:\C[0] Ух, з-тут жахливіше, ніж я собі уявляла...
+\CBmp[GraveKeeper,1]\prf\c[4]Могильник:\C[0] \{ЩО ЗА-?!\}
+\CBct[20]\m[terror]\Rshake\C[6]Лона:\C[0] \{Що?! Що не так?!
+
+GraveKeeper/UndeadHunt2Begin2
+\CBmp[GraveKeeper,20]\prf\c[4]Могильник:\C[0] \{Тут має бути багато тіл!
+
+GraveKeeper/UndeadHunt2Begin3
+\CBct[2]\m[confused]\C[6]Лона:\C[0] Хіба не всі вони у стінах?
+\CBmp[GraveKeeper,20]\prf\c[4]Могильник:\C[0] Не ці, більшості з них більше сотень років.
+\CBmp[GraveKeeper,20]\prf\c[4]Могильник:\C[0] Я був молодий, але пам'ятаю, що бачив це місце, заповнене трупами.
+\CBct[6]\m[shocked]\Rshake\C[6]Лона:\C[0] Що? Не лякайте мене!
+
+GraveKeeper/UndeadHunt2Begin4
+\CBmp[GraveKeeper,20]\c[4]Могильник:\C[0] Невже вони всі стали нежиттю?
+
+GraveKeeper/UndeadHunt2Begin5
+\CBmp[GraveKeeper,20]\c[4]Могильник:\C[0] Це погано, дуже погано...
+\CBmp[GraveKeeper,20]\c[4]Могильник:\C[0] Якщо начальство дізнається про це, моя робота опиниться під загрозою.
+
+GraveKeeper/UndeadHunt2Begin6
+\CBct[8]\m[flirty]\C[6]Лона:\C[0] Так... чи варто нам спочатку повернутися і доповісти?
+
+GraveKeeper/UndeadHunt2Begin7
+\CBct[2]\m[confused]\C[6]Лона:\C[0] Емм... містер?
+
+GraveKeeper/UndeadHunt2Begin8
+\CBmp[GraveKeeper,2]\c[4]Могильник:\C[0] Стривай, що це?
+
+GraveKeeper/UndeadHunt2Begin9
+\CBct[20]\m[terror]\Rshake\C[6]Лона:\C[0] \{Ахх!!!\}
+
+GraveKeeper/UndeadHunt2Begin10
+\CBct[20]\m[shocked]\Rshake\C[6]Лона:\C[0] Містер могильник? Сер?!
+\CBct[6]\m[fear]\C[6]Лона:\C[0] Мертвий...? Ні! О-Він мертвий!?
+\CBct[20]\m[tired]\C[6]Лона:\C[0] Що ж... мені тепер робити?
+
+########################################################################################
+
+Lona/ReadAllMail
+\CBct[1]\m[shocked]\Rshake\C[6]Лона:\C[0] !!!!
+\CBct[8]\m[sad]\C[6]Лона:\C[0] .........
+\CBct[2]\m[sad]\C[6]Лона:\C[0] Кокона?
+\CBct[8]\m[confused]\C[6]Лона:\C[0] Вона не схожа на злої людини...
+\CBct[8]\m[tired]\C[6]Лона:\C[0] Можливо, мені варто спробувати поговорити з нею.
+
+Lona/ItsTrap
+\CBmp[Trap,19]\m[serious]\C[6]Лона:\C[0] Це... Пастка?
+\CBct[8]\m[confused]\C[6]Лона:\C[0] Це... не схоже на те, що він пролежав тут кілька десятиліть, чи не так?
+\CBct[8]\m[flirty]\C[6]Лона:\C[0] А нежить, хіба використовує пастки?
+
+Lona/UndeadElite
+\CBmp[UndeadElite,19]\m[serious]\C[6]Лона:\C[0] А ця нежить відрізняється від тієї, що живе зовні.
+\CBct[8]\m[confused]\C[6]Лона:\C[0] З такими буде дуже складно розібратися...
+\CBct[8]\m[flirty]\C[6]Лона:\C[0] Може, мені піти іншим шляхом?
+
+Friends/frist_time
+\CBid[-1,20]\m[shocked]\prf：\C[0]Нежити:\C[0] \{Грррааррррх...\}
+\CBct[1]\m[fear]\Rshake\C[6]Лона:\C[0] Ааа?! Він не... не хоче мене з'їсти?
+\CBct[8]\m[confused]\C[6]Лона:\C[0] Як дивно... але не можна втрачати пильності...
+
+Friends/Qmsg0
+Рррааргх.
+
+Friends/Qmsg1
+Невинний... Захистити...
+
+Friends/Qmsg2
+Друууг... Захистити...
+
+Family/Qmsg0
+Дуже чистий труп.
+
+Family/Qmsg1
+Чистий труп.
+
+Family/Qmsg2
+Це просто труп.
+
+BodyBag/Common
+Звичайний труп.
+
+BodyBag/Keeper
+Схоже, це могильник.
+
+BodyBag/Goblin
+Гоблін? Чому він тут?
+
+Hole/begin
+\CBct[8]\m[confused]\C[6]Лона:\C[0] Усередині все схоже на лабіринт, і в ньому неможливо орієнтуватися без провідника.
+
+########################################################################################
+
+Lona/B2TrapTrigger1
+\narr Лона була приголомшена.
+\narr Усі її речі забрали.
+\narr Вона не знає, скільки пройшло часу.
+
+Lona/B2TrapTrigger2
+\m[hurt]\Rshake (Уххх, як же голова ниє...)
+\m[fear] (Мм? Я не можу поворушитися? Як я тут виявилася?)
+\ph\C[4]Невідома：\C[0] До-рі-ме! ♪ До-рі-ме а-ме-нооо ♫
+\m[confused](Хтось... співає? Хто...?)
+
+##############################################
+
+Cocona/B2Trap_Sing1
+\prh\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Мер-тис а моті-ех, її че-с а грон тууу ♫
+
+Cocona/B2Trap_Sing2
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Мії аааф мар-ка діііа, він діі евааа гвіїн ♫
+
+Cocona/B2Trap_Sing3
+\BonMP[Cocona,5]\SETlpl[cocona_confused]\C[4]Невідома：\C[0] Ур-мяу.....
+
+Lona/BondageStruggle1
+\CBmp[CapLoc,8]\plh\m[fear]\C[6]Лона:\C[0] ..........
+\CBmp[CapLoc,2]\m[terror]\Rshake\C[6]Лона:\C[0] Вона... розчленовує тіло? Навіщо...?
+\CBmp[CapLoc,6]\m[shocked]\Rshake\C[6]Лона:\C[0] НІ! Не треба! Я не хочу бути з'їденою!
+\CBmp[CapLoc,6]\m[bereft]\Rshake\C[6]Лона:\C[0] Бігти! Мені треба тікати!
+
+Lona/BondageStruggle_opt
+\optD[Боротись]
+
+Lona/BondageStruggle2
+\C[6]Лона:\C[0] ......
+
+Lona/BondageStruggle3
+\m[flirty]\C[6]Лона:\C[0] ..........
+\m[serious]\C[6]Лона:\C[0] Мені пощастило, що вони затягнуті не міцно!
+\m[fear]\C[6]Лона:\C[0] Так... І що тепер?
+
+##########################################################################################
+
+Cocona/DinnerTime0
+\BonMP[Cocona,8]\SETlpl[cocona_confused]\C[4]Невідома：\C[0] Ур-мяу.
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\C[4]Невідома:\C[0] \{Міу-міяу!
+
+Cocona/DinnerTime1
+\BonMP[Cocona,20]\SETlpl[cocona_normal]\Lshake\C[4]Невідома:\C[0] Плачучий Святий...
+\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Святий! Батько! Святий, що плаче...
+
+Cocona/DinnerTime2
+\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Святий! Кокона Ням-Міяу~!
+\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Па-па! Кокона Ням-Міяу!
+\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Ма-ма! Кокона Ням-Міяу~!
+\plh\m[fear]\C[6]Лона:\C[0] Ця дівчинка...
+\m[shocked]\Rshake\C[6]Лона:\C[0] ...та сама некромантка?
+\m[serious]\C[6]Лона:\C[0] Мені слід піти за нею, може вона покаже мені шлях звідси.
+
+Cocona/NapTime0
+\BonMP[Cocona,8]\SETlpl[cocona_angry]\Lshake\C[4]Невідома：\C[0] Міуміуміу.
+\BonMP[Cocona,8]\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Папа! Мамо! Кокон Амено-Міяу!
+\SETlpl[cocona_happy]\C[4]Невідома:\C[0] .........
+\SETlpl[cocona_happy]\C[4]Невідома:\C[0] .....
+\SETlpl[cocona_happy]\C[4]Невідома:\C[0] ...
+\SETlpl[cocona_sad]\C[4]Невідома:\C[0] Батько... Мама...
+\SETlpl[cocona_sad]\C[4]Невідома:\C[0] ........
+\SETlpl[cocona_sad]\C[4]Невідома:\C[0] ...
+\SETlpl[cocona_happy]\Lshake\C[4]Невідома:\C[0] Тато! Мамо! Кокон Міу-міяу!!
+
+Cocona/NapTime1
+\m[confused]\C[6]Лона:\C[0] Не знаю, чому... Але мені її трохи... \m[sad]Шкода?
+\m[flirty]\C[6]Лона:\C[0] Треба йти вперед.
+
+###################################################################################=
+
+Cocona/aggro
+\CBmp[Cocona,15]\prh\SETlpl[cocona_angry]\Lshake\C[4]Невідома:\C[0] Шшшшшссссссс!!!
+\CBct[6]\m[shocked]\Rshake\C[6]Лона:\C[0] Аа!!!
+
+Cocona/aggro_FdSide1
+\CBct[6]\m[terror]\plf\Rshake\C[6]Лона:\C[0] Почекай! Почекай!
+\CBct[20]\m[shocked]\plf\Rshake\C[6]Лона:\C[0] Я не бажаю тобі зла! Чесно!
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Невідома:\C[0] Міу-Ніяяу?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]Невідома:\C[0] Шшшшшссссссс!!!
+\CBct[20]\m[terror]\plf\Rshake\C[6]Лона:\C[0] Адже тебе звуть Кокона, так? Ко-ко-на!
+\CBmp[Cocona,2]\SETlpl[cocona_confused]\PLF\prf\C[4]Невідома:\C[0] Міу-Ніяяу?
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Невідома:\C[0] .......
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Невідома:\C[0] ...
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]Невідома:\C[0] Міяуу Кокона!
+\CBct[6]\m[wtf]\plf\PRF\C[6]Лона:\C[0] Так! Кокон! Ми можемо бути друзями!
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]Невідома:\C[0] Друзі...?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]Невідома:\C[0] \{Друг!!\}
+\CBct[20]\m[confused]\plf\PRF\C[6]Лона:\C[0] Так, правильно! Гарний друже!
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]Невідома:\C[0] \{Хо-ро-ший дру-у-уг!!\}
+\CBct[20]\m[pleased]\plf\PRF\C[6]Лона:\C[0] Гарні друзі!!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]Невідома:\C[0] \{Ха-ха-ха-ха хороший дру-уг!!\}
+\CBct[8]\m[flirty]\plf\PRF (Чи все буде в порядку?)
+\CBct[8]\m[confused]\plf\PRF (Чи не надто легко вона довіряє людям?)
+
+Cocona/aggro_FdSide2
+\CBct[20]\m[pleased]\plf\PRF\C[6]Лона:\C[0] Отже! Гарний друже! Я Лона! Старша сестричка!
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]Кокона:\C[0] \{Хороший друг! Лона! Кокона!
+\CBct[20]\m[triumph]\plf\PRF\C[6]Лона:\C[0] Точно!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]Кокона:\C[0] Тато! Мамо! Кокона знайшла гарного друга!
+\CBct[8]\m[tired] (Отже, ці двоє - її батьки.)
+\CBct[8]\m[confused]\plf\PRF (Я починаю розуміти, що вона каже.)
+\CBct[8]\m[confused]\plf\PRF (Здається, все, що вона говорить, просто намішано один з одним.)
+\CBct[8]\m[confused]\plf\PRF (Але її можна зрозуміти, якщо слухати уважно.)
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\PLF\prf\C[4]Кокона:\C[0] Старша сестричка! Ти голодна?
+\CBct[2]\m[flirty]\plf\PRF\C[6]Лона:\C[0] Напевно?
+\CBmp[Cocona,4]\SETlpl[cocona_sad]\PLF\prf\C[4]Кокона:\C[0] Їжа на столі, бути голодним - погано! Залишатися голодним – до смерті!
+\CBct[6]\m[confused]\plf\PRF\C[6]Лона:\C[0] Ее?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Кокона:\C[0] Гарний друг! Їж!
+\CBct[20]\m[wtf]\plf\PRF\C[6]Лона:\C[0] Це? Що це за м'ясо?
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Кокона:\C[0] Аххх...
+
+Cocona/aggro_FdSide3
+\SND[SE/eat03.ogg]\ph\narr Кокона нахилилася до м'яса.
+\SND[SE/eat02.ogg] Кокон має намір нагодувати Лону.
+\SND[SE/eat03.ogg] Якщо не вважати гнилої трупної смуги, це було дуже приємне чаювання.
+\..\..\..
+
+Cocona/aggro_FdSide4
+\CBmp[Cocona,8]\SETlpl[cocona_happy]\PLF\prf\C[4]Кокона:\C[0] Святий! Кокона дякує тобі!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Кокона：\C[0] Дякую тобі Святий, за їжу на столі. Дякую тобі Святий, за нового друга!
+\CBct[2]\m[confused]\plf\PRF\C[6]Лона:\C[0] Кокона вірить у Святого?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\PLF\prf\C[4]Кокона:\C[0] Е-ре-тики! Брехуни! Усі брехуни мають бути з'їдені!
+\CBct[6]\m[shocked]\plf\Rshake\C[6]Лона:\C[0] Я вірю! Я вірю у нього!
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\C[4]Кокона：\C[0] Друзі - всі зі Святим! Святий товаришує з невинними!
+\CBct[2]\m[confused]\plf\PRF\C[6]Лона:\C[0] Отже, на поверхні не твої добрі друзі?
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\C[4]Кокона:\C[0] Кокона не знає, Кокона відчуло щось, потужне...
+\CBmp[Cocona,4]\SETlpl[cocona_angry]\PLF\prf\C[4]Кокона：\C[0] Воно вкрало моїх добрих друзів! Кокон може спілкуватися тільки з хорошими друзями.
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\C[4]Кокона:\C[0] Але Кокона знала, що це має бути злий брехун!
+\CBmp[Cocona,20]\SETlpl[cocona_angry]\Lshake\prf\C[4]Кокона:\C[0] Злий брехун обдурив моїх хороших друзів!!
+\CBct[8]\m[flirty]\plf\PRF (Отже, все це не має до неї жодного відношення?)
+\CBct[8]\m[confused]\plf\PRF (Некромант і нежить, які вірять у Святого?)
+\CBct[8]\m[flirty]\plf\PRF (Тоді якого хріну я тут забула? Заради чого я ризикую своїм життям?)
+\CBct[8]\m[wtf]\plf\PRF (Що за лайно! Все це не має жодного сенсу!)
+
+Cocona/aggro_FdSide5
+\CBct[2]\m[confused]\plf\PRF\C[6]Лона:\C[0] Ее?
+\CBct[1]\m[serious]\plf\PRF\C[6]Лона:\C[0] Ти теж це відчуваєш?
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\C[4]Кокона:\C[0] Запах зеленошкірих!
+
+Cocona/aggro_FdSide6
+\CBct[2]\m[confused]\plf\PRF\C[6]Лона:\C[0] Зеленошкірих?
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\C[4]Кокона:\C[0] Зеленошкірий! Гидкий на смак!
+\CBct[2]\m[shocked]\plf\Rshake\C[6]Лона:\C[0] Ти говориш про оркоїди?
+
+Cocona/aggro_FdSide7
+\CBct[1]\m[wtf]\plf\Rshake\C[6]Лона:\C[0] Їх так багато?!
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\C[4]Кокона:\C[0] Не бійся, старша сестричка! Кокона захистить тебе!
+\CBct[6]\m[serious]\plf\Rshake\C[6]Лона:\C[0] Ні! Нам треба тікати! Їх надто багато!
+\CBmp[Cocona,2]\SETlpl[cocona_sad]\PLF\prf\C[4]Кокона:\C[0] Бігти?
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]Кокона:\C[0] Ні! Кокона захистить - Батьку! Мама! Старшу сестричку!
+\CBct[20]\m[angry]\plf\Rshake\C[6]Лона:\C[0] Припини!
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]Кокона:\C[0] ШШС-ССС-СССССС!!!
+\CBmp[CoMama,20]\plf\prf\C[4]Невідомо：\C[0] Кооо... Кооо... Нааа...
+\CBct[6]\m[flirty]\plf\Rshake\C[6]Лона:\C[0] Аах?
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\Lshake\prf\C[4]Кокона:\C[0] Мама!
+\CBmp[CoPapa,20]\plf\prf\C[4]Невідомо：\C[0] До.. До... На... Йди з нею... Іди...
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\C[4]Кокона:\C[0] Папа...
+\CBmp[CoPapa,20]\plf\prf\C[4]Невідомо:\C[0] Узрі... Зовнішній... Міррр... Виходії...
+\CBmp[CoMama,20]\plf\prf\C[4]Невідомо:\C[0] До... До... На... Іди... Миыи... знайшли спокій...
+\CBmp[CoPapa,20]\plf\prf\C[4]Невідомо：\C[0] Неєї... Покладайся на... Нассс....
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\C[4]Кокона：\C[0] Увууу.
+
+Orkind/Gob1
+\SND[SE/goblin/Goblin_roar1.ogg]\ph\SETpl[goblin]\Lshake\C[4]Монстр:\C[0] Гу ча ча?
+
+Orkind/Gob2
+\SND[SE/goblin/Goblin_roar2.ogg]\SETpr[goblin]\Rshake\C[4]Монстр：\C[0] Гу ша ма ча!!!
+
+Orkind/Gob3
+\SND[SE/goblin/Goblin_roar3.ogg]\SETpl[goblin]\Rshake\C[4]Монстр:\C[0] Гуе хееєєєєхехехе!
+
+Cocona/aggro_FdSide8
+\CBct[8]\m[sad]\plf\PRF\C[6]Лона:\C[0] .......
+\CBct[20]\m[serious]\plf\Rshake\C[6]Лона:\C[0] Немає часу! Ми маємо йти!
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\C[4]Кокона:\C[0] Увууу... *Шмиг*... Кокона знає дорогу.
+\CBmp[ToSurface,19]\SETlpl[cocona_sad]\PLF\prf\C[4]Кокона:\C[0] Кімната хороших друзів виводить назовні, Кокона та друзі прокопали шлях.
+\CBct[20]\m[angry]\plf\Rshake\C[6]Лона:\C[0] Біжимо! Поки що нежить відволікає їх!
+
+Cocona/aggro_FdSide8_win
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\PLF\prf\c[4]Кокона:\C[0] Зеленошкірих більше немає! Сестря у безпеці!
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]Кокона:\C[0] Кокона не хоче залишати маму та тата. Старша сестричка може жити тут!
+\CBct[20]\m[serious]\plf\Rshake\C[6]Лона:\C[0] Ні! Ти маєш слухатися свого батька! Ці зеленошкірі монстри можуть з'явитися знову будь-якої миті!
+\CBct[20]\m[angry]\plf\Rshake\C[6]Лона:\C[0] Так був зруйнований і мій дім!
+\CBmp[Cocona,8]\SETlpl[cocona_sad]\PLF\prf\c[4]Кокона:\C[0] Увввууу...
+
+Cocona/to1fBlock
+\CamMP[ToSurface]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона:\C[0] Не тут! Копай тут!
+
+########################################################################################
+
+
+SaintState/begin
+\board[Безім'яний Святий]
+Безіменний Святий сказав: Коли я впаду, я перерожу знову з багаття.
+Євангеліє від Святого 30:65

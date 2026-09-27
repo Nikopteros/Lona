@@ -1,0 +1,244 @@
+thisMap/OvermapEnter
+\m[confused]Fallen Fortress\optB[Leave,Enter]
+
+
+############################## Story mode enter boss room
+############################## Story mode enter boss room
+EnterBossRoom/1_smell
+\CBct[6]\m[pain]\plf\Rshake\c[6]Lona：\c[0]    Guh, ick... The smell in here is worse than the sewers...
+
+EnterBossRoom/2_sawGobRunning
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    HUH?! W-What's happening?!
+
+EnterBossRoom/3_sawWarBoss_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    EEEEEEKKK!!!
+
+EnterBossRoom/3_sawWarBoss_tsundere
+\CBct[5]\m[normal]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[5]\m[angry]\plf\Rshake\c[6]Lona：\c[0]    Hmmph! You can't win against me... Because I'm faster than you!
+
+EnterBossRoom/3_sawWarBoss_gloomy
+\CBct[5]\m[wtf]\plf\Rshake\c[6]Lona：\c[0]    W-W-What?! G-Get away from me!
+
+EnterBossRoom/3_sawWarBoss_slut
+\CBct[8]\m[angry]\plf\Rshake\c[6]Lona：\c[0]    Even if your cock's bigger than a tree trunk, I won't lose to you!~
+
+EnterBossRoom/3_sawWarBoss_again_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    I\..\..\.. I'm not afraid of you!
+
+EnterBossRoom/3_sawWarBoss_again_tsundere
+\CBct[5]\m[fear]\plf\PRF\c[6]Lona：\c[0]    I... won't lose to you... again!
+\CBct[20]\m[irritated]\plf\Rshake\c[6]Lona：\c[0]    \{I WON'T!
+
+EnterBossRoom/3_sawWarBoss_again_gloomy
+\CBct[8]\m[fear]\plf\Rshake\c[6]Lona：\c[0]    No\..\..\.. D-Don't kill me! *Whimper* I'll be a *sob* good girl!
+
+EnterBossRoom/3_sawWarBoss_again_slut
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    W-Wait\..\..\.. You can use me however you like!~ J-Just please, DON'T KILL ME!
+
+############################## ArmoredSet Cropse
+
+ArmoredSetCropse/0
+\narr The body of a child, his anus was severely damaged\..\..\..
+
+############################################################ OrkindSlayer
+
+EnterBossRoom/OrkindSlayer_Begin1
+\CBfF[8]\SETpl[OrkindSlayer]\Lshake\c[4]Orkind Slayer：\c[0]    Wait...
+
+EnterBossRoom/OrkindSlayer_Begin2
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Hmmm?
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]Orkind Slayer：\c[0]    I smell the foul stench of Orkinds...
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]Orkind Slayer：\c[0]    I need your urine...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    HUH?!
+
+EnterBossRoom/OrkindSlayer_justEnter0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    ...
+
+EnterBossRoom/OrkindSlayer_Give0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Alright\..\..\.. You're not going to do anything weird with it, right?
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]Orkind Slayer：\c[0]    I won't...
+
+EnterBossRoom/OrkindSlayer_Give1
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\c[4]Orkind Slayer：\c[0]    Finished...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Mhmmm...
+
+EnterBossRoom/OrkindSlayer_Give0_failed
+\CBct[6]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Errr\..\..\..\m[flirty] I don't think I'm able to pee right now...
+
+EnterBossRoom/OrkindSlayer_OPT_justEnter
+Ignore him
+
+EnterBossRoom/OrkindSlayer_OPT_Give
+Pee for him
+
+############################## Win
+
+Win/StaWin0
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I... I won?!
+
+Win/StaWin1
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    They're here again?!
+\CBct[8]\m[shocked]\PRF\c[6]Lona：\c[0]    \..\..\..\CBct[20]\m[angry]\Rshake I'm not afraid of you guys!
+
+Win/StaWin2
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Ummm... What's going on?
+
+Win/Qmsg_BossRaped0
+They're very focused...
+
+Win/Qmsg_BossRaped1
+They're busy proving that they're better than him...
+
+Win/Qmsg_BossRaped2
+They've completely ignored Lona's presence...
+
+################################################################################ STORYMODE RAPELOOP
+
+Warboss/rapeloop_begin1
+\CBct[6]\m[tired]\Rshake\c[6]Lona：\c[0]    I... c-can't move... anymore...
+
+Warboss/rapeloop_begin2
+\CBmp[20]\SndLib[sound_OgreSpot]\SETpl[OgreWarboss_BoneShield]\Lshake\.\.\.\CBct[6]\m[fear]\plf\Rshake\c[6]Lona：\c[0]    Ughnnn... N-No... Don't c-come any closer...
+
+Warboss/rapeloop_begin3
+\CBct[6]\m[p5shame]\Rshake\c[6]Lona：\c[0]    N-No...
+
+Warboss/rapeloop_begin4
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\c[0]    \{EEEYAAAHHH!!!
+
+Warboss/rapeloop_begin5
+\CBmp[4]\SndLib[sound_OgreQuestion]\SETpl[OgreWarboss_BoneShield]\Lshake\prf\..\..\..
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    ...
+
+Warboss/rapeloop_begin6
+\narr Tha monster couldn't tell if this meat hole should be a new toy or just food. He placed his lips near the meat hole's piss-soaked nethers and began to taste her\..\..\..
+
+Warboss/rapeloop_begin7
+\narr He was very happy with the meat hole's smell. However, the meat hole's pee hole was way too small. It was time to fix that\..\..\..
+
+Warboss/rapeloop_begin8
+\narr The smell of blood and urine along, with the wails from the meat hole made the monster's penis harden with delight.\n He decides to fuck the meat hole and go in dry\..\..\..
+
+Warboss/rapeloop_begin9
+\narr The monster was satisfied with the meat hole's pee hole. Now, how will the poo hole feel\..\..\..?
+
+Warboss/rapeloop_begin10
+\narr Seems like the poo hole's feeling is good too, but pee hole feels much better to fuck\..\..\..
+
+Warboss/rapeloop_begin11
+\narr The moans and cries from the meat hole stopped now, but her violation continues on\..\..\..
+
+Warboss/rapeloop_begin12
+\narr The monster was very happy that the meat hole continued to stay alive during his fun time. It made him very happy to know he captured such a high-quality meat hole toy. This new meat hole should be able to birth many new toys in the future\..\..\..
+\narr He decides to wear the meat hole as a sort of "condom" from now on. So he'd be able to have fun at any time\..\..\..
+
+Warboss/rapeloop_nap1
+\narr The meat hole soon lost consciousness，but that didn't stop the monster from continuing to have fun with his new toy\..\..\..
+
+Warboss/rapeloop_nap2
+\narr\..\..\..
+
+################################################################################ STORYMODE RAPELOOP - with minions
+
+Warboss/rapeloop_OPT_beat
+SHOW ME IS BIG AND STRONG
+
+Warboss/rapeloop_OPT_rape
+PROVES ME IS STRONGER DAN YOU
+
+Warboss/rapeloop_OPT_Impale
+STAB MEAT HOLE ON BIG STICK FOR PRETTY MAMA
+
+Warboss/rapeloop_OPT_Feed
+FEED YUM YUMS TO YOUR MEAT HOLE
+
+LeftFucker/begin1
+\ph\narr DIS BROTHER ENJOYING HIS OWN MEAT HOLE RIGHT NOW.
+
+ShakingToilet/begin1
+\ph\narr DIS MEAT HOLE DIE SOON. DIS BIRTHING WILL BE ITS LAST ONE.
+\ph\narr WHEN FINISH BIRTH NEW CUB BROTHERS, THEN WE EAT DA YUM YUM MEAT HOLE.
+
+MeatToiletF/begin1
+\ph\narr DA MEAT HOLES MORE FUN PLAY WITH DAN MEAT MONSTERS...
+\ph\narr MEAT HOLES NOT LOT OF FIGHTING UNLIKE MEAT MONSTERS. THEY MORE FUN AND TASTY. AND THEIR BELLIES GROWING AND BIRTH FASTER.
+\ph\narr BUT, RECENTLY MORE HARD TO CAPTURE NEW MEAT HOLES. DIS MAKES ME FEEL VERY SAD.
+
+MeatSeedbed/begin1
+\ph\narr DIS IS SEEDBED BROTHER GIFTED ME, HE USE BLESSING FROM PRETTY MAMA TO COMBINE MANY MEAT HOLES WITH POOP AND PEE...
+\ph\narr AS LONG AS THERE IS YUM YUMS. SEEDBED CAN BIRTH MANY CUB BROTHERS EVERY DAY...
+\ph\narr ME SNORT AT DIS. MEAT HOLE ONLY GOOD AND FUN TO USE IF THEY STRUGGLE...
+\ph\narr GRRR. WHY PRETTY BIRTH MAMA NOT BLESSING ME? DIS MAKES ME FEEL VERY SAD...
+
+TellerPillar/begin1
+\ph\narr DIS IS PRAY TOTEM FOR PRETTY BIRTH MAMA...
+\ph\narr WHY PRETTY MAMA PUT BROTHERS INTO THIS WORLD?
+\ph\narr IT MUST MEANING PRETTY MAMA WANTS BROTHERS TO CONQUER DA MEAT HOLES...
+
+Abom/begin1
+\ph\narr MEAT MONSTERS. THEY ENEMIES, THEY FOOD, AND THEY TOYS TOO.
+\ph\narr BUT, NOW MEAT MONSTERS JUST OBSTACLE STEALING HOME FROM BROTHERS. WE'S BOTH FEELING MEAT HOLES TASTE AND FEELS GOOD.
+\ph\narr IT'S NO WORRY, WE'S LOOK NOW. WE BROTHERS WILL WIN IN DA END.
+\ph\narr BECAUSE WE BROTHERS MORE STRONGERS, MORE SMARTERS.
+
+Heads/begin1
+\ph\narr DIS HEAD OF MEAT HOLE. HEAD NO TASTE GOOD.
+\ph\narr BUT CUT OFF MEAT HOLE'S HEADS MEANING WE BROTHERS MORE STRONG.
+
+MeatToiletM/begin1
+\ph\narr DIS EVIL MEAT HOLE KILL MANY OUR BROTHERS, AND IT HAS NO PEE HOLE TO BIRTH NEW BROTHERS.
+\ph\narr WE WAIT UNTIL DIS BROTHER DONE PLAYING WITH IT, THEN WE CHOP CHOP IT AND EAT YUM YUM.
+
+Corpses/begin1
+\ph\narr DIS SPECIAL PRAY SHRINE FOR PRETTY BIRTH MAMA, WE MAKE USING FRESH MEAT HOLES COVER WITH WHITE PEE.
+\ph\narr AND WE USE MOST PAIN WAY TO LET MEAT HOLES DIE.
+\ph\narr PRETTY BIRTH MAMA MUST BE VERY HAPPY WHEN SHE HEARS DA SCREAMING OF MEAT HOLES...
+
+EmptyImpalement/begin1
+\ph\narr DIS BIG STICK IS EMPTY, DIS MEANS IT NOT SHOW LOVE TO PRETTY MAMA. DIS MAKE ME FEEL VERY SAD.
+
+ManImpalement/begin1
+\ph\narr DIS BROTHER'S MEAT HOLE CANNOT MAKE NEW MEAT... CAN'T USE BROTHER'S MEAT HOLE NO MORE...
+\ph\narr DA BEST WAY TO USE MEAT HOLE IS KILL FOR PRETTY MAMA... 
+
+##########################
+
+Butcher/begin1
+WANT FEEDING DA MEAT HOLE?
+
+prayer/begin1
+\ph\narr DIS LOYAL PRAYING BROTHER...
+\ph\narr THERE ARE STILL EMPTY BIG STICKS. DIS MEANS THERE ISN'T ENOUGH MEAT HOLES LEFT TO USE. DIS MAKES PRAYING BROTHER VERY SAD.
+
+cooker/begin1
+\ph\narr DIS GOOD BROTHER WORK VERY HARD CHOP CHOP AND FIRING YUM YUMS FOR MORE BROTHERS.
+\ph\narr HE KNOW WHO IS STRONG BOSS, BUT ME THINK HE NOT REAL PRAYING BROTHER...
+
+OrcKid/begin1
+\ph\narr HE IS YOUNG BROTHER. HE MORE STRONGER AND SMARTER DAN OTHER BROTHERS.
+\ph\narr BUT, HE NOT STRONGER OR SMARTER DAN ME. ME THINK HE DON'T KNOW WHO IS REAL STRONG BOSS HERE...
+\ph\narr MAYBE ME SHOULD SHOW DIS BROTHER HIS PLACE HERE...
+
+OrcKid/Talked1
+\ph\narr DIS CUB BROTHER DOING NOTHING, HE STILL NEED LEARN MANY THINGS...
+\ph\narr MAYBE ME IS TEACHING CUB...?
+
+################################################################################ RapeLoop Defence mode
+
+rapeloopExit/opt
+\ph\narr DA MEAT HOLE ON BODY IS DIE SOON...
+\optB[IT'S OKAY,THROW AWAY!]
+
+rapeloopExit/did
+\m[confused]\c[6]Lona：\c[0]    Ughnnn\..\..\.. W-Where am I...?
+\m[tired]\c[6]Lona：\c[0]    They let me go?
+\m[sad]\c[6]Lona：\c[0]    What should I do now\..\..\..?
+
+rapeloopGo_out/begin1
+\ph\narr TINY BROTHER IS SCARED, DIS MEANS DAT MORE MEAT HOLES COMING.
+
+rapeloopGo_out/opt
+\optB[ME THINKING WHAT TO DOING RIGHT NOW!,KILL ALL MEATS!]
+
+#ALL TRANSLATED BY Sugoi Soy Boy! FUCK OFF MACHINE TRANSLATING MEAT HOLES!

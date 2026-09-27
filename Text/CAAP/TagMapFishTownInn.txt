@@ -1,0 +1,210 @@
+ThisMap/Enter
+\m[confused]Taberna del Mercado de Pescópolis
+
+################################################################
+
+InnKeeper/Begin
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]Tabernero：\C[0]    Forastera... *Jadeo* ¿Qué... deseas...?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Yo... \optB[Olvídalo,Comercio,¿Quién eres?]
+
+InnKeeper/Slave
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]Tabernero：\C[0]    ¡¡Esclava!!! Chica... intenta... escapar...
+
+InnKeeper/about
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Tabernero：\C[0]    Mi taberna... abre... para humanos... comprar... esclavas...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Tabernero：\C[0]    Vosotros forasteros... sufrís desgracias... La Bruja Marina... os castiga...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Tabernero：\C[0]    Nosotros... descendientes de la Bruja Marina... volveremos... y tomaremos lo nuestro...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Tabernero：\C[0]    Y entonces... todos vosotros... pereceréis...
+
+BoldAndBrash/art0
+\cg[other_SeaWitch]Retrato de la Bruja Marina
+Admira la belleza y buen gusto de la Bruja Marina.
+Artista：Skunvat Tadik
+\m[confused]\c[6]Lona：\C[0]    Mmm...
+
+BoldAndBrash/art1_typical
+\m[flirty]\Rshake\c[6]Lona：\C[0]    Está un poco desgastado, habría que repintarlo...
+
+BoldAndBrash/art1_tsundere
+\m[serious]\prf\c[6]Lona：\C[0]    \..\..\.. ¿En serio?
+\m[wtf]\Rshake\c[6]Lona：\C[0]    ¡Es el cuadro más hermoso que he visto!
+
+BoldAndBrash/art1_gloomy
+\m[flirty]\prf\c[6]Lona：\C[0]    \..\..\..
+\m[normal]\c[6]Lona：\C[0]    Mmm... Verde... Verde como un prado.
+
+BoldAndBrash/art1_slut
+\m[flirty]\prf\c[6]Lona：\C[0]    Mmmm\..\..\..
+\m[lewd]\Rshake\c[6]Lona：\C[0]    ¿Seguro que no es un dibujo de mi trasero?
+
+################################################################ INN COmmoner
+
+Guard/Rand0
+\c[4]Mercenario：\C[0]    ¿No te parece extraño? ¿Por qué no hay mujeres Hombres-Pez por aquí?
+
+Guard/Rand1
+\c[4]Mercenario：\C[0]    ¡Me siento como el Lord \c[6]Jenkins\C[0] invadiendo territorio! Excepto que no puedo atacar a nadie más...
+
+Guard/Rand2
+\c[4]Mercenario：\C[0]    ¡Ja! ¡Oí que estos locos se comen a sus propias hijas! ¡Porque según rumores son estériles! ¡Probablemente sea verdad!
+
+merchant/Rand0
+\c[4]Mercader：\C[0]    ¡El Santo vendrá y castigará a estos asquerosos bastardos! ¿Dónde está la salsa?... ¡¿QUIÉN ROBÓ MI SALSA DE PESCADO?!
+
+merchant/Rand1
+\c[4]Mercader：\C[0]    ¡Soy un hombre importante y rico! ¡Estoy harto de comer pescado! ¡Quiero comida NORMAL, buena, joder!
+
+merchant/Rand2
+\c[4]Mercader：\C[0]    ¿Pescado? ¿Otra vez pescado para cenar? ¡Y la sorpresa es que el maldito pescado está CRUDO! ¡Es una vergüenza culinaria!
+
+merchantFat/Rand0
+\c[4]Mercader Gordo：\C[0]    Oooh... Cómo han cambiado las cosas... No puedo creer que ahora seamos NOSOTROS quienes rogamos a los Hombres-Pez por comida...
+
+merchantFat/Rand1
+\c[4]Mercader Gordo：\C[0]    Oí que la familia \c[6]Rosendo\C[0] comercia comida y suministros con los Hombres-Pez. Antes era impensable ver a estos peces en la Isla Noer.
+
+merchantFat/Rand2
+\c[4]Mercader Gordo：\C[0]    ¿Puedes creerlo? ¡Mi hija se murió de miedo al ver a uno de estos anormales! ¡Son horribles y repugnantes!
+
+traveler/Rand0
+\c[4]Viajero：\C[0]    Al fin he llegado aquí. Lamentablemente, su cultura fue destruida hace mucho...
+
+traveler/Rand1
+\c[4]Viajero：\C[0]    ¿Alguna vez viste una mujer bestia? ¡Las chicas furry son las mejores! ♥ ¡Como un regalo del Santo! ♥
+
+traveler/Rand2
+\c[4]Viajero：\C[0]    ¿Has oído historias sobre sirenas? ¡Solo imaginar cómo se ven esas mujeres me quita el sueño!
+
+RichFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    La Bruja Marina... ¡Viene...! ¡Alabad... a la Bruja Marina...! ¡Glorificad... a la Bruja Marina...!
+
+RichFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Nuestra cosecha... Esta vez... mucho mejor... ¡Gracias... a la Bruja Marina...!
+
+RichFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    ¡Estúpidos humanos...! Todo... es castigo... Merecido... de la Bruja Marina...!
+
+CommonFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]Hombre-Pez：\C[0]    Nosotros... comemos plantas... Humanos... comen peces...
+
+CommonFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]Hombre-Pez：\C[0]    Humanos tontos... Nuestro tiempo... Pronto llegará...
+
+CommonFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]Hombre-Pez：\C[0]    Todo esto... Parte del... Plan de venganza... de la Bruja Marina... Guu-je-je-je... Todos... estáis... condenados...
+
+################################################################ INN Quest Giver
+
+InnQuGiver/TooWeak
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    ¡Chica...! ¡Vuelve...! ¡A tus deberes...!
+\CBct[8]\m[sad]\c[6]Lona：\C[0]    Perdóname...
+
+InnQuGiver/0_begin0
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Mujeres... esclavas... escaparon...!
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Forastera... chica... te necesito...
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Ayúdanos... atrapar... traidoras... de la Bruja Marina...
+
+InnQuGiver/0_begin1
+\board[Esclavas Fugitivas]
+Misión：Encontrar y capturar esclavas fugadas
+Recompensa：Gran Medallón de Cobre x3\i[582]
+Cliente：Esclavista
+Repetible：No
+¡Encuentra y devuelve a las traidoras con su amo!
+
+InnQuGiver/0_begin1_no
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Emm...
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    No... No puedo hacer eso con otras personas...
+
+InnQuGiver/0_begin1_yes
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Hmmm...
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    Vale. ¿Puedes darme más información sobre dónde encontrarlas?
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Hembras... Siempre juntas...
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Esas... Malditas esclavas... Deben esconderse... En la Isla Pescópolis...
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    En resumen, no tienes nada útil que decir...
+
+InnQuGiver/1_begin1
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    Las encontré. Hicieron un pequeño campamento al sur.
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Esclavista：\C[0]    Buena guerrera... Te agradezco...
+
+InnQuGiver/1_begin1_askQ
+\CBmp[QuGiver,2]\SndLib[FishkindSmSpot]\prf\c[4]Esclavista：\C[0]    No mataste... A ninguna... Hembra... ¿Verdad?
+
+InnQuGiver/1_begin1_noKill
+\CBct[20]\m[confused]\c[6]Lona：\C[0]    No, claro que no.
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Esclavista：\C[0]    Entonces no... Eres guerrera...
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Esclavista：\C[0]    Fugitivas... Hembras... Deben morir... ¡Todas! ¡Traidoras... deben ser... eliminadas...!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué? No acordamos esto, ¿no?
+
+InnQuGiver/1_begin1_Killed
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    Yo... Emm-
+\CBct[20]\m[tired]\c[6]Lona：\C[0]    -en defensa propia, terminé matándolas a todas...
+\CBct[20]\m[sad]\c[6]Lona：\C[0]    Lo siento......
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Esclavista：\C[0]    Buen trabajo... ¡Eres una verdadera... guerrera...!
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Esclavista：\C[0]    Te... recompensaré... mejor aún...!
+\CBct[8]\m[tired]\c[6]Lona：\C[0]    ......
+
+############################ Quest 2
+
+InnQuGiver/2_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    ¡Guerrera forastera...! Siervos de la Bruja Marina... ¡Se corrompieron...! ¡Se volvieron malvados...!
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    ¿Eh...?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    ¡Ellos...! Fueron contaminados por la Falsa Bruja Marina... Debemos... ocuparnos de ellos...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Al este... Templo abandonado... Fue tomado por ellos...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Guerreros tribales... Fallaron... No regresaron...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Tú... Debes matarlos...
+
+InnQuGiver/2_begin1
+\board[Los Réprobos Malvados]
+Misión：Destruir siervos de la Falsa Bruja Marina
+Recompensa：Gran Medallón de Cobre x3\i[582]
+Cliente：Esclavista
+Repetible：No
+¡Elimina a los siervos de la Falsa Bruja Marina!
+
+InnQuGiver/2_begin1_yes
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Eh... ¿Los siervos se volvieron malvados?
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Cuando Cthulhu... Destruyó... Tu tierra natal...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    También corrompió... Guardianes de la Bruja Marina...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Ellos... Crecidos por la Bruja Marina... Pero la traicionaron...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Ahora... Sirven... ¡A la Falsa Bruja Marina! ¡La Falsa Bruja Marina... es maldad...!
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Necesario... Eliminar siervos malvados...
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    No lo entiendo...
+\CBct[20]\m[serious]\c[6]Lona：\C[0]    ¡En cualquier caso, cuenta conmigo! ¡Me ocuparé de esto!
+
+InnQuGiver/5_win1
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    ¡Lo hice! Ellos\.... eh\..\.... ¡Los siervos malvados están todos muertos!
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Excelente....
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Fuerte... Guerrera.... Aquí tu recompensa....
+
+InnQuGiver/5_win2
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Guerrera... Reproduce con nosotros.... Podrías engendrar... Prole poderosa.....
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿¡Aparearme!?
+\CBct[6]\m[flirty]\c[6]Lona：\C[0]    Eh\..\.... Lo pensaré, quizás...
+
+############################ Quest 3
+
+InnQuGiver/FishFHuntLoop0_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Algunos siervos restantes... de la Falsa Bruja Marina... ¡Residuos del mal... aún existen en nuestro hogar...!
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    ¡Arranca sus ojos malvados...! ¡Dedícalos a la verdadera Bruja Marina...!
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Ehh...
+
+InnQuGiver/FishFHuntLoop0_begin2
+\board[Residuos del Mal]
+Misión：Recoge 10 Ojos de la Falsa Bruja Marina\i[160]
+Recompensa：Gran Medallón de Cobre x2\i[582]
+Cliente：Esclavista
+Repetible：Sí
+Fantasmas de la Falsa Bruja Marina acechan en aguas costeras.
+¡Atrápalos...! ¡Mátalos...!
+¡Sácales los ojos...! ¡Dedícalos a la Bruja Marina...!
+¡Gloria a la Bruja Marina! ¡Adorad a la Bruja Marina...!
+
+InnQuGiver/FishFHuntLoop0_yes
+\CBct[20]\m[serious]\c[6]Lona：\C[0]    ¡Lo haré!
+
+InnQuGiver/FishFHuntLoop_win0
+\CBct[8]\m[flirty]\c[6]Lona：\C[0]    Uff\..\..\.. ¿Estos son los ojos que querías?
+
+InnQuGiver/FishFHuntLoop_win1
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]Esclavista：\C[0]    Sí... Muy... Bien...

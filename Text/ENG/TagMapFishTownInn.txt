@@ -1,0 +1,216 @@
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+ThisMap/Enter
+\m[confused]Fishtopia's Market Inn
+
+################################################################
+
+InnKeeper/Begin
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]Innkeeper：\c[0]    Outsider... *Snort* What you... Want...?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ummm...\optB[Never mind,Barter,About]
+
+InnKeeper/Slave
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]Innkeeper：\c[0]    SLAVE!!! Girl trying... To run... Away!
+
+InnKeeper/about
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Innkeeper：\c[0]    Me inn... Open for... People... Buy more... slaves..
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Innkeeper：\c[0]    You outsiders... Facing disasters... Is Sea Witch... Punishing you...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Innkeeper：\c[0]    We... Offsprings of Sea Witch... Will return... And retake...
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Innkeeper：\c[0]    And you all... Will be... Extinct...
+
+BoldAndBrash/art0
+\cg[other_SeaWitch]Bold and Brash
+A tribute to the beauty of the Sea Witch and her art collection.
+Artist：Squint-Wart T. Testicles
+\m[confused]\c[6]Lona：\c[0]    Ugh!
+
+BoldAndBrash/art1_typical
+\m[flirty]\Rshake\c[6]Lona：\c[0]    More like, belongs in the trash...
+
+BoldAndBrash/art1_tsundere
+\m[serious]\prf\c[6]Lona：\c[0]    \..\..\..Seriously?
+\m[wtf]\Rshake\c[6]Lona：\c[0]    This shit looks like ass.
+
+BoldAndBrash/art1_gloomy
+\m[flirty]\prf\c[6]Lona：\c[0]    \..\..\..
+\m[normal]\c[6]Lona：\c[0]    W-Well, the color's green like grass...
+
+BoldAndBrash/art1_slut
+\m[lewd]\prf\c[6]Lona：\c[0]    Mmmm\..\..\..
+\m[sexhurt]\Rshake\c[6]Lona：\c[0]    More like, belongs in my ass!
+
+################################################################ INN COmmoner
+
+Guard/Rand0
+\c[4]Mercenary：\c[0]    Don't you think it's strange? How we don't see any female Fishkinds?
+
+Guard/Rand1
+\c[4]Mercenary：\c[0]    Feels like I'm infiltrating enemy territory like Lord \c[6]Juhankinns\c[0]! Except I'm not allowed to attack anyone...
+
+Guard/Rand2
+\c[4]Mercenary：\c[0]    Ha! I heard these freaks eat their own kind's females! Because it's rumored they're infertile! It's gotta be true!
+
+merchant/Rand0
+\c[4]Restaurateur：\c[0]    The Saint will come and punish these disgusting donkeys! My sauce... WHERE IS THE FISH SAUCE?!!!
+
+merchant/Rand1
+\c[4]Restaurateur：\c[0]    I'm a rich and important man! I'm tired of eating fish! I want to finally eat some REAL, good, fookin' food!!!
+
+merchant/Rand2
+\c[4]Restaurateur：\c[0]    Fish? As my meal again?! And the big surprise is the fucking fish is fookin' RAW!!! This is a disgrace to cooking!
+
+merchantFat/Rand0
+\c[4]Merchant：\c[0]    Auuugh... How the tables have turned... I can't believe now WE'RE begging the Fishkinds to supply food for us...
+
+merchantFat/Rand1
+\c[4]Merchant：\c[0]    I heard that the \c[6]Rudesind\c[0] family trades food and supplies with the Fishkind?
+\c[4]Merchant：\c[0]    It was impossible for us to see these Fish folks on Noer Island before.
+
+merchantFat/Rand2
+\c[4]Merchant：\c[0]    Can you believe it? My daughter was almost scared to death when she saw one of these freaks! They're just so ugly!
+
+traveler/Rand0
+\c[4]Traveler：\c[0]    I finally got the chance to travel here. Unfortunately, their culture has long since been destroyed...
+
+traveler/Rand1
+\c[4]Traveler：\c[0]    Ever seen a Half-Beast female before? The furry ones are the best! ♥ They're a gift from the Saint! ♥
+
+traveler/Rand2
+\c[4]Traveler：\c[0]    Have you heard about tales of the Mermaid? Just thinking about how their women look keeps me awake all night!
+
+RichFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    The Sea Witch... Is coming...! Admire the... Sea Witch... Praise the... Sea Witch...!
+
+RichFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Our fish harvest... One hun-... dred more than... Before...! Thanks to... Sea Witch...!
+
+RichFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    All humans...! This is... Punishment... You deserve... From Sea Witch...!
+
+CommonFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]Fisherman：\c[0]    We... Eat plants... Humans... Eat fish...
+
+CommonFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]Fisherman：\c[0]    Stupid humans... Our time... Coming soon...
+
+CommonFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]Fisherman：\c[0]    All of this... Is part of... The Sea Witch's... Revenge for... Us...
+\SndLib[FishkindSmSpot]\c[4]Fisherman：\c[0]    Guu-Heehee... You are... All... Doomed...
+
+################################################################ INN Quest Giver
+
+InnQuGiver/TooWeak
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    A girl...! Go back...! Return to... Women duties...!
+\CBct[8]\m[sad]\c[6]Lona：\c[0]    Excuse me...
+
+InnQuGiver/0_begin0
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Female... Slaves... Escaped...!
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Outsider... Girl... Me need... you!
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Help us... Capture... Traitors of.. Sea Witch...
+
+InnQuGiver/0_begin1
+\board[Escaped slaves]
+Task：Find and recapture the runaway slaves.
+Reward：3 Large Copper Coins
+Client：Slaver
+Quest Term：Once
+Find and return me the shameless traitors and property!
+
+InnQuGiver/0_begin1_no
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Ummm...
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    No... I can't do this sort of thing to another person.....
+
+InnQuGiver/0_begin1_yes
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Hmmm...
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    I accept, do you have any more information on where to find them?
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Females... Inseparable...
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Those... Damned slaves... Must be... Hiding in... Fishtopia Isle...
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    So basically you had nothing to tell me...
+
+InnQuGiver/1_begin1
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    I found them. They've set up a small camp at the south.
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Slaver：\c[0]    Good warrior... Me thank you...
+
+InnQuGiver/1_begin1_askQ
+\CBmp[QuGiver,2]\SndLib[FishkindSmSpot]\prf\c[4]Slaver：\c[0]    Have you killed... Any of the... Females...?
+
+InnQuGiver/1_begin1_noKill
+\CBct[20]\m[confused]\c[6]Lona：\c[0]    Of course not.
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Slaver：\c[0]    You are not... Warrior...
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Slaver：\c[0]    Runaway... Females... All must... Die...! All traitors... Must be... Killed off...!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    Huh? Is it really such a big deal...?
+
+InnQuGiver/1_begin1_Killed
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    I... Errr-
+\CBct[20]\m[tired]\c[6]Lona：\c[0]    -kinda killed them all...
+\CBct[20]\m[sad]\c[6]Lona：\c[0]    My bad......
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Slaver：\c[0]    Well done...! You really are... True warrior...!
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]Slaver：\c[0]    I shall... Reward you... Even more...!
+\CBct[8]\m[tired]\c[6]Lona：\c[0]    ......
+
+############################ Quest 2
+
+InnQuGiver/2_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Outsider warrior... The scales fallen off... The False Sea Witch... Change to... Offsprings known as... Evil Scales......!
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Huh...?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    They...! Infected by... False Sea Witch... We must... Kill them... All...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    They nesting at... The east... Inside abandoned Sea Witch temple...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Warriors of tribe... Failed... Brothers not... Returned...
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    I... Must get revenge... Must kill them... All...
+
+InnQuGiver/2_begin1
+\board[Evil Scales]
+Task：Annihilate all "Evil Scales" of The False Sea Witch.
+Reward：3 Large Copper Coins
+Client：Slaver
+Quest Term：Once
+Kill any offsprings of The False Sea Witch!
+
+InnQuGiver/2_begin1_yes
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Ummm... Evil Scales?
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    As false... Evil Gods... Destory outsider's... Land...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Also pollute... The Sea Witch's... Loyal warriors...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    They were... Raised by... Sea Witch... But later... Betray her...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Now... They... Worship False... Sea Witch...! False Sea Witch... Is evil...!
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Must... Destroy all... Evil Scales...
+\CBct[20]\m[flirty]\c[6]Lona：\c[0]    I'm listening, but I don't understand...
+\CBct[20]\m[serious]\c[6]Lona：\c[0]    Never mind, just leave it to me! I'll finish this task!
+
+InnQuGiver/5_win1
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    I did it! Those\..\..\.. Errr\..\..\.. E-Evil Scales are all dead!
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Very... Good...
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Mighty... Warrior... This is... Your reward...
+
+InnQuGiver/5_win2
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Warrior girl... Breed with us... You will surely birth... Powerful warrior son... As our new brother...
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    B-BREED?!
+\CBct[6]\m[flirty]\c[6]Lona：\c[0]    Errr\..\..\.. I-I'll think about it......
+
+############################ Quest 3
+
+InnQuGiver/FishFHuntLoop0_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    The ghosts of... False Sea Witch... Still invade... Our home...!
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Gouge out their evil eyes... Make False Sea Witch blind...!
+\CBct[8]\m[confused]\c[6]Lona：\c[0]    Ummm...
+
+InnQuGiver/FishFHuntLoop0_begin2
+\board[Evil Scales]
+Task：Gouge out and collect 10 False Sea Witch's Eyes.\i[160]
+Reward：2 Large Copper Coins
+Client：Slaver
+Quest Term：Repeatable
+Ghosts of the False Sea Witch still reside in Fishtopia's murky waters.
+Fish them out...! Kill them all...!
+Gouge their evil eyes out...! For the Sea Witch...!
+Thank the Sea Witch...! Praise the Sea Witch...!
+
+InnQuGiver/FishFHuntLoop0_yes
+\CBct[20]\m[serious]\c[6]Lona：\c[0]    I'll do this quest!
+
+InnQuGiver/FishFHuntLoop_win0
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    Ick\..\..\.. Are these the eyeballs you wanted?
+
+InnQuGiver/FishFHuntLoop_win1
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]Slaver：\c[0]    Yes... Very... Good...
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

@@ -1,0 +1,93 @@
+####################################--------------------- overmap
+Market/OvermapEnter
+\m[confused]中路市場\optB[算了,進入]
+
+####################################--------------------- common
+Lona/MarketOpt
+\m[confused]\c[6]洛娜：\c[0]    嗯？\optB[算了,交易]
+
+#################################################--------------------- Fatdalf Mana Trader
+
+Fatdalf/Welcome
+\CBid[-1,20]\SETpl[Fatdalf_anonymous]\Lshake\c[4]灰袍法師：\c[0]    小姐，我見妳骨骼精奇，是萬中無一的修魔奇才。
+\CBid[-1,20]\SETpl[Fatdalf_anonymous]\Lshake\c[4]灰袍法師：\c[0]    剛好我這有支法杖，見與妳有緣正合適！
+
+#################################################--------------------- Food Vandor
+
+FoodTrader/Welcome0
+\CBid[-1,20]\c[4]商人：\c[0]    歡迎光臨！ 我這有各種適合長途旅行的食物！
+
+FoodTrader/Welcome1
+\CBid[-1,20]\c[4]商人：\c[0]    要去遠方嗎？ 買點旅途上的必需品吧！
+
+FoodTrader/Welcome2
+\CBid[-1,20]\c[4]商人：\c[0]    你說人要怎麼活？ 人就是要吃才能活！
+
+#################################################--------------------- Dressw Vandor
+
+DressTrader/Welcome0
+\CBid[-1,20]\c[4]商人：\c[0]    人要衣裝，神要神裝。
+
+DressTrader/Welcome1
+\CBid[-1,20]\c[4]商人：\c[0]    小姐，來看看這邊的好貨呦。
+
+DressTrader/Welcome2
+\CBid[-1,20]\c[4]商人：\c[0]    來買衣服呦。
+
+#################################################--------------------- Dressw Vandor
+
+VegetableTrader/Welcome0
+\CBid[-1,20]\c[4]商人：\c[0]    3斤300、三斤300又送000。
+
+VegetableTrader/Welcome1
+\CBid[-1,20]\c[4]商人：\c[0]    11折！ 所有產品11折出售！
+
+#################################################--------------------- Med Vandor
+
+MedTrader/Welcome0
+\CBid[-1,20]\c[4]商人：\c[0]    小姐！ 買藥草嗎？
+
+MedTrader/Welcome1
+\CBid[-1,20]\c[4]商人：\c[0]    吃了皮膚好！ 人有精神！ 更漂亮！
+
+#################################################--------------------- Hair Vandor
+
+HairCutter/Welcome0
+\CBid[-1,20]\c[4]理髮師：\c[0]    換個髮型！換個心情！
+
+HairCutter/Welcome1
+\CBid[-1,20]\c[4]理髮師：\c[0]    小姐！妳的髮質太糟了！
+
+HairCutter/Slave
+\CBid[-1,5]\c[4]理髮師：\c[0]    哪來的奴隸，滾回妳的\c[6]後街\c[0]去！
+
+HairCutter/DyePayNeeded
+\CBid[-1,20]\c[4]理髮師：\c[0]    只需要#{$story_stats["HiddenOPT1"]}p，我保證妳的秀髮將煥然增色！
+
+HairCutter/DyePayNotEnough
+\CBid[-1,6]\c[4]理髮師：\c[0]    喂！這不夠啊！ 還要#{$story_stats["HiddenOPT1"]}p。
+
+HairCutter/DyePayEnough
+\CBid[-1,20]\c[4]理髮師：\c[0]    很好，挑個顏色吧。
+
+HairCutter/DyePicked
+\CBid[-1,3]\c[4]理髮師：\c[0]    正確的決定！
+
+HairCutter/DyeEnd
+\CBid[-1,4]\m[normal]\c[4]理髮師：\c[0]    看啊！ 全新的妳！
+
+#################################################--------------------- Weapon Vandor
+
+WeaponTrader/Welcome0
+\CBid[-1,20]\c[4]商人：\c[0]    強者相遇，就只有戰！
+
+WeaponTrader/Welcome1
+\CBid[-1,20]\c[4]商人：\c[0]    小姐！有裝有保庇！ 買個心安也好！
+
+#################################################--------------------- Hobo Vandor
+
+HoboTrader/Welcome0
+\CBid[-1,20]\c[4]難民：\c[0]    嘿！ 餓了吧？ 我這什麼都有！
+
+HoboTrader/Welcome1
+\CBid[-1,20]\c[4]難民：\c[0]    小姐！這有妳需要的一切！

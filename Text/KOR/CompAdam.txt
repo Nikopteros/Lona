@@ -1,0 +1,107 @@
+
+Adam/NonFristTimeBegin
+\CBmp[Adam,2]\SETpl[Adam_normal]\Lshake\c[4]???：\c[0] 어디서 너를 본 적 있지 않나?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 착각이겠죠?
+
+Adam/0_Begin0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\c[4]???：\c[0] 나는 은밀하게 행동할 수 있는 정찰병이 필요한데, 너 맞아?
+
+Adam/0_Begin2
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 나요? \optB[아니오,예]
+
+Adam/1_Begin_yes
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아마 그런 셈이죠?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 하지만 네가 보기엔... 그냥 평범한 꼬마처럼 보이는데.
+\CBct[1]\m[serious]\plf\Rshake\c[6]로나：\c[0] 나 꼬마 아니거든요!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 흠\..\..\.. 너 시바리스 출신이냐?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 네, 그런데 왜 그렇게 물으세요?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 너 알고 있냐? 지금 섬에 있는 군대는 전부 시바리스 사람들 착취해서 유지되는 거다.
+\CBct[2]\m[sad]\plf\PRF\c[6]로나：\c[0] 으... 그럴 리가요?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 난 너 같은 정찰병이 필요하다.
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] 네가 진짜 정찰병인지 증명해야 해. 군영에 있는 백인대장 갑옷에 달린 훈장을 훔쳐와라!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 그냥 시키는 건 아니야. 성공하면 동전 하나는 줄게.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어...
+
+Adam/1_Begin_done0
+\CBct[20]\m[pleased]\c[6]로나：\c[0] 가져왔어요!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 잘했어. 역시 믿을 만한 녀석이구나.
+
+Adam/1_Begin_done1
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 며칠 뒤에 다시 와. 너를 쓸 데가 더 있을 것 같거든!
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 자, 받아라!
+
+Adam/1_Begin_done2
+\CBct[8]\m[triumph]\plf\PRF\c[6]로나：\c[0] 고마워요!
+
+Adam/2_begin_1
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 요! 착한 아이, 또 만났네.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어, 안녕하세요?
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 나한테 네 도움이 필요한 일이 좀 있거든.
+\CBmp[Adam,8]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] \c[4]머스킷\c[0]이라는 거 들어본 적 있어?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 아니요, 못 들어봤는데요...
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 그렇지, 너는 전사처럼 안 보이긴 해. 그럼 대포는 알겠지?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 한마디로, 대포를 네가 혼자 들 수 있을 만큼 작게 만든 거야. 마법으로 작동하지만 마법 지식은 필요 없어.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 듣기만 해도 멋진데요?
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 맞아, 진짜 대단하지!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 요새 동쪽 무기고에 최근에 머스킷이 들어왔거든. 그 중에서 몇 정만 훔쳐다 줘.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 보상 말인데\..\..\.. 절대 손해 보게 하진 않을 테니까!
+
+Adam/2_begin_board
+\board[머스킷 도둑질]
+목표 : 머스킷 훔치기
+보상 : 금화 2개
+의뢰인 : 미지의 인물
+수행가능횟수 : 1회
+요새 동쪽 무기고에서 머스킷을 훔쳐와라.
+
+Adam/2_begin_decide
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 네 결정은? \optB[나중에 할게,맡을게]
+
+Adam/2_begin_accept1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 문제없어요! 제가 해낼게요!
+\CBmp[Adam,3]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 참 착하구나! 받아라!
+
+Adam/2_begin_accept2
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네?!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 이건 네가 전에 얻었던 훈장이자 통행증이야. 너가 경비 본부에서 일한 적 있다는 증명이기도 하지.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 이걸 가지고 가. 안 그러면 들어갈 수 없어.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] \c[6]머스킷\c[0]은 겉보기엔 나무창처럼 생겼지만, 앞부분에 관이 달려 있어.
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 경비들에게 네가 길드의 요청을 받아 십인장 브라이언의 기록을 열람하고 필사해야 한다고 말해.
+\CBct[20]\m[triumph]\plf\PRF\c[6]로나：\c[0] 고마워요!
+
+Adam/5_win1
+\CBct[3]\m[Adam_sad]\plf\PRF\c[6]로나：\c[0] 가져왔어요!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 어디 좀 보자!
+\CBct[3]\m[normal]\plf\PRF\c[6]로나：\c[0] 네, 여기요.
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] \..\...\..
+
+Adam/5_win2
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] 처음 보는 종류네...
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] 음... 역시 메이루, 이런 걸 구해오다니.
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] 그래서 에너지 충전도 더 빨라진 거야?
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] \..\..\.. 재밌는걸...
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 좋아, 이게 내가 원하던 거 맞아. 이제 집에 가도 돼.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 약속한 보상은요?
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 나 돈 없어. 아니면 어쩔래, 한 판 붙을래?
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 어... 미안해요...
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 엉? 먼저 사과를 하네?
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]???：\c[0] 됐다, 가져가라.
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네?!
+
+Adam/5_win3
+\CBct[8]\m[shocked]\plf\PRF\c[6]로나：\c[0] 고...고마워요?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 근데 이거 그냥 나무 막대잖아요?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 아니! 이건 총이야! 적을 향해 팡 소리치면 적이 죽는다니까!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 네...?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 이거 엄청 비싼 거야! 더 이상 말 안 할 테니, 사람 없는 데 가서 직접 써봐.
+
+Adam/else
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] 하아......
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 응?
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]???：\c[0] 하아......
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 자는 거예요?
+
+Adam/ElseDialog
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]???：\c[0] 봤지? 루드신드 가문이 지배하는 한 우리는 앞으로 나아갈 수 없어!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]???：\c[0] 우리는 반드시 노엘섬의 주도권을 되찾아야 해.

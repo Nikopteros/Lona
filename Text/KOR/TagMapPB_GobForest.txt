@@ -1,0 +1,50 @@
+thisMap/OvermapEnter
+\m[confused]오크들이 점거한 숲. 멀리서도 짐승 같은 냄새가 풍겨온다\optB[그만둔다,들어간다]
+
+rg2/Begin_0
+\CBct[20]\m[confused]\Rshake\c[6]로나：\c[0] 으\..\..\..
+\CBct[6]\m[fear]\Rshake\c[6]로나：\c[0] 마물 냄새가 난다...
+
+rg2/Begin_2
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] \{누구야！
+
+rg2/Begin_3
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] ！！！！！！！
+
+rg2/Begin_4
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] .........
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 뭐야? 도망쳤다고?! 설마 나를 무서워한 거야?
+
+rg3/begin0
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 으\..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 뭐야, 오크하고 어인 시체가 이렇게 많아?! 이 마물들끼리 서로 죽인 건가?
+
+Daughter/begin0
+\CBid[-1,6]\prf\c[4]난민：\c[0] 아빠... 엄마... 배고파...
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 네가 \c[4]마리\c[0]니?
+\CBid[-1,8]\prf\c[4]난민：\c[0] 응... 언니, 뭐 좀 줄 수 있어?
+\CBct[20]\m[tired]\PRF\c[6]로나：\c[0] 어... 난 네 부모님 전하러 온 거야. 네 가족이 노엘 마을에서 기다리고 있어.
+\CBid[-1,2]\prf\c[4]난민：\c[0] 노엘 마을? 그게 뭐야? 먹는 거야?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어... 그걸 모르는 거야?\optB[됐어,물자 준다]
+
+Daughter/opt_nope
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 아무튼...\..\.. 그러니까...\..\.. 그게 말이지...
+\CBct[20]\m[tired]\PRF\c[6]로나：\c[0] 어서 노엘 마을로 가. 네 가족이 멀쩡히 기다리고 있어.
+\CBid[-1,8]\prf\c[4]난민：\c[0] \..\..\..
+\CBid[-1,6]\prf\c[4]난민：\c[0] 배고파... 너무 배고파....
+
+Daughter/opt_give
+\narr로나는 몸을 뒤적이며 먹을 만한 것을 찾아본다...
+
+Daughter/opt_give100
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 이걸 가져가. 내가 도와줄 수 있는 건 이 정도야.
+
+Daughter/opt_give2000
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 이걸 가져가. 노엘 마을로 가든, 먹을 걸 사든 네 마음이야.
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 내가 해줄 수 있는 건 이 정도뿐이야.....
+
+Daughter/opt_giveTY
+\CBid[-1,8]\prf\c[4]난민：\c[0] 고마워...\...\...\...
+
+Daughter/END
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 하아...\...\...\...

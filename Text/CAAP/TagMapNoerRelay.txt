@@ -1,0 +1,48 @@
+thisMap/OvermapEnter
+Plataforma de Noértown \optB[Cancelar,Entrar]
+
+BoardReader1/ReadQmsg0
+El lugar más seguro de Noér.
+
+BoardReader1/ReadQmsg1
+Vaya desorden hay aquí.
+
+BoardReader2/ReadQmsg0
+¡Mi familia sigue aquí!
+
+BoardReader2/ReadQmsg1
+¡Debo ir a rescatarlos!
+
+BoardReader3/ReadQmsg0
+¡El pasaje cada vez más caro!
+
+BoardReader3/ReadQmsg1
+¡Pero si no va a ninguna parte!
+
+BoardReader4/ReadQmsg0
+¡Mira qué salchicha tan enorme!
+
+BoardReader4/ReadQmsg1
+¡Me encantan los caballos!
+
+BoardReader4/ReadQmsg2
+Me pica el culo...
+
+Board/page1
+\board[Se buscan mercenarios]
+¿Crees que el mundo está lleno de injusticias? ¡Te necesitamos!
+¡Las fuerzas armadas necesitan a toda buena persona de la calle!
+¡Pagamos bien por un servicio leal!
+Por favor, contacta con el personal de la estación.
+
+Board/page2
+\board[Aviso]
+Actualmente todas las plataformas fuera de la ciudad no están operativas.
+Para información actualizada, contacte al personal de la estación.
+
+Board_MrHand/page1
+\board[¡Atención: Se prohíbe la zoofilia!]
+El Santo está enfadado por los actos de zoofilia.
+Cualquier caso de perversión será castigado cruelmente.
+Cualquiera sorprendido violando el decreto del Santo,
+será ejecutado sin juicio ni investigación.

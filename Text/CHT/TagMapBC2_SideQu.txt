@@ -1,0 +1,173 @@
+thisMap/OvermapEnter
+毀壞的車隊\optB[沒事,進入]
+
+QuGiver/Begin0
+\CBid[-1,6]\m[confused]\prf\c[4]旅人：\c[0]    沒了，全都沒了....
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...？ 什麼沒了？
+
+QuGiver/Begin0_1
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    妳\..\..\.. 你是誰？ 你在這做什麼？
+
+QuGiver/Begin1Cecily
+\CBfB[8]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]賽希莉：\C[0]    我有不好的預感。
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]灰鼠：\c[0]    小心。
+
+QuGiver/Begin1Cocona
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    姊姊！ 有壞人！！！
+
+QuGiver/Begin1
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    快離開這裡！ 我確定那些人還在附近！
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    哈？ 人？
+
+QuGiver/Begin2
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...
+\CBmp[Lguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]野盜：\c[0]    喂！ 留下買路財我就考慮放妳條生路。
+\CBmp[Lguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]野盜：\c[0]    是個小鬼頭呢，抓去賣了吧。
+
+QuGiver/Begin3
+\CBmp[Rguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]野盜：\c[0]    看看妳四周吧，不想死就....妳是女人？
+\CBmp[Rguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]野盜：\c[0]    女人？！ 太好了，總算有新貨了。 寨裡的都已經玩爛了♥
+
+QuGiver/Begin4
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    呃？！ 等等！ 有話好說！
+
+QuGiver/Begin4Cecily
+\CBfB[8]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]賽希莉：\C[0]    你們知道自己在做什麼嗎？
+\CBfB[5]\SETpr[CecilyShockedAr]\plf\Rshake\C[4]賽希莉：\C[0]    為自己可恥的行為付出代價吧！
+
+QuGiver/Begin4Cocona
+\CBfB[5]\SETlpr[cocona_shocked]\plf\Rshake\c[4]可可娜：\c[0]    可可娜保護姊姊！
+
+QuGiver/Begin5
+\CBmp[Lguard1,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]野盜：\c[0]    廢話少說！大家上！
+
+#########################################################
+
+QuGiver2/Begin0
+\CBid[-1,6]\prf\c[4]旅人：\c[0]    嗚...
+
+QuGiver2/Begin0_opt
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...\optB[算了,發生什麼事<r=HiddenOPT0>,勸他離開<r=HiddenOPT1>,幫助他<r=HiddenOPT2>]
+
+QuGiver2/Begin0_about0
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    他們... 全都死了....？
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 應該是死透了？
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    這裡發生了什麼事？ 你們被這些\c[4]野盜\c[0]攻擊了嗎？
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    你為什麼要於這個時候旅行呢？ 現在全島都亂糟糟的，這裡並不安全。
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    我們在山中有個小村子，但最近森林裡各處都開始出現紅色的肉塊與魔物。
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    我們不得不離開。
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    哦？ \c[6]肉魔\c[0]嗎？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    \c[4]肉魔\c[0]？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    對，\c[4]肉魔\c[0]，你不知道\c[4]席芭莉絲\c[0]已經被魔物攻佔了嗎？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    什麼？！ 魔物？ 魔物算什麼？！！
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    這些渾蛋比魔物更爛！
+\CBid[-1,5]\prf\c[4]旅人：\c[0]    \{我的家人、朋友、孩子、全都死了！\}
+\CBid[-1,5]\prf\c[4]旅人：\c[0]    \{被他們殺死了！\}
+
+QuGiver2/Begin0_about0_cecily
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]賽希莉：\C[0]    這些該死的強盜，他們會付出代價的。
+
+QuGiver2/Begin0_about0_cocona
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    姊姊，他好可憐...
+
+QuGiver2/Begin0_about1
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    冷靜！ 小聲點！ 也許還有壞人在附近啊！
+
+QuGiver3/Begin0_leave0
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我對你的遭遇感到很遺憾，但你還是快離開這吧。
+\CBid[-1,5]\prf\c[4]旅人：\c[0]    你是叫我放下這一切？
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    我...
+
+QuGiver3/Begin0_leave1
+\CBct[6]\m[sad]\PRF\c[6]洛娜：\c[0]    幾個月前，我的家人與朋友也都死了，死於\c[4]席芭莉絲\c[0]的魔物爆走。
+\CBct[6]\m[fear]\PRF\c[6]洛娜：\c[0]    在我逃難的過程中也有人幫助過我，若我為了復仇丟性命呢？
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    這樣就對不起那些幫助過我的人了。
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我們又不是\c[4]聖徒\c[0]這樣的英雄，我們只是普通人，能活下來就不錯了。
+
+QuGiver3/Begin0_leave2_end_cocona
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]可可娜：\c[0]    姊姊....
+\CBct[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    對不起，姐姐不能讓你冒險。
+\CBfB[8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    嗚喵，可可娜知道了。
+
+QuGiver3/Begin0_leave2_end_cecily
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]賽希莉：\C[0]    可我不是一般人！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    哈？！
+
+QuGiver3/Begin0_leave2_end
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    是這樣嗎？ 孩子，我很抱歉...
+
+QuGiver3/Begin0_help0
+\ph\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    我能夠幫你做什麼嗎？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    妳\..\..\..？ 我\..\..\..
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    我想要取回我妻子的骨灰罈...
+
+QuGiver3/Begin0_help1
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    哈？！ 骨灰？
+
+QuGiver3/Begin0_help2
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    嗯....
+\CBct[20]\m[serious]\Rshake\c[6]洛娜：\c[0]    好！ 交我給我吧！
+
+QuGiver5/Begin0
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    他們的山寨在西邊的\c[6]銅礦鎮\c[0]裡，我知道在哪，跟我來吧。
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    讓我走前面吧，我對自己的眼睛還是有自信的。
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    太好了，感謝妳。
+
+QuGiver4/Begin0_end
+\CBct[8]\m[sad]\PRF\c[6]洛娜：\c[0]    唉....
+
+QuGiver5/Begin1
+\board[取回骨灰]
+目標：於西邊的山寨中取回骨灰。\i[268]
+報酬：未知
+委託主：旅人
+期限：4天
+保護\c[4]旅人\c[0]。
+前往\c[6]銅礦鎮\c[0]並幫\c[4]旅人\c[0]取回他妻子的遺物。
+
+############################################################
+
+NPC/CommonConvoyTarget7
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    找到了嗎？
+
+NPC/CommonConvoyTarget8
+\CBid[-1,8]\narr他捧著他骨灰罈並碎碎念著什麼....
+
+QuGiver8/Begin0
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..是這個嗎？
+\CBct[20]\m[triumph]\PRF\c[6]洛娜：\c[0]    沒錯吧，就是這個！
+
+QuGiver8/Begin1
+\board[取回骨灰]
+目標：將骨灰罈還給\c[4]旅人\c[0]。
+報酬：未知
+委託主：旅人
+
+QuGiver9/Begin0
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我找到了，應該是這個沒錯吧？
+
+QuGiver9/Begin1
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    \..\..\..
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    對，就是這個，我妻子的骨灰！
+\CBct[4]\m[flirty]\PRF\c[6]洛娜：\c[0]    好，我們快離開這吧。
+
+QuGiver9/Begin2
+\board[取回骨灰]
+目標：將\c[4]旅人\c[0]安全的送到他的車隊
+報酬：未知
+委託主：旅人
+
+QuGiver10/Begin0
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    已經足夠了，就在這裡分別吧。
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    耶？ 這裡嗎？ 這裡不安全吧？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    沒問題的，這些拿去吧。
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    呃... 什麼？
+
+QuGiver10/Begin1
+\cg[event_Coins]\SND[SE/Chain_move01.ogg]\CBid[-1,8]\prf\c[4]旅人：\c[0]    也許我穿的太破爛了，那些盜匪沒有仔細地搜我身。
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    這些給妳吧。
+\cgoff\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    這麼多？！
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    拿去吧，妳是好孩子，祝妳好運。
+
+QuGiver10/Begin2
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    他沒問題嗎？

@@ -1,0 +1,1379 @@
+SacredAegis/item_name
+Sacred Aegis
+
+SacredAegis/description
+\}\n
+Through discipline and faith, one guards their vestments — a symbol not easily stripped away.\n
+\n
+\C[6]Requires 5 points in SUR.\n
+\C[2]When hit by an attack, garments will not be torn off.\n
+\C[2]When caught by a grab skills, if Anal, Vag, and Face remain uncovered, garments will not be removed.\n
+
+Dizzy/item_name
+Vertigo
+
+Dizzy/description
+\}\n
+*Retch* Don't feel good,\n
+everything's spinning...\n
+\n
+\C[1]Decreases maximum STA.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+ParasitedPolypWorm/item_name
+Polyp
+
+ParasitedPolypWorm/description
+\}\n
+My tummy feels bloated. Hot too\n
+\n
+\C[5]Chance to spawn polyp worm every time you orgasm.\n
+\C[5]Increase arousal each rest.\n
+\C[1]Vagina damage each rest.\n
+\C[1]Baby damage each rest.\n
+
+ParasitedHookWorm/item_name
+Hookworm
+
+ParasitedHookWorm/description
+\}\n
+I want to puke...and I have no appetite.\n
+\n
+\C[5]Increase need to vomit over time.\n
+\C[5]Chance to spawn hookworm every time you vomit.\n
+\C[1]Increase Food cost each rest.\n
+
+StomachSeedBed/item_name
+Seedbed Stomach
+
+StomachSeedBed/description
+\}\n
+My belly is a seedbed for monsters.\n
+\n
+\C[1]Increase hookworm spawns each rest.\n
+
+NaturalVagGlandsLink/item_name
+Prospermia
+
+NaturalVagGlandsLink/description
+\}\n
+I've always been unable to resist pleasure for too long...\n
+\n
+\C[6]Automatically removes gland modifications.\n
+\C[1]Decreases negative effects on WILL.\n
+
+WaveringResolve/item_name
+Vacillation
+
+WaveringResolve/description
+\}\n
+I'm always indecisive.
+\n
+\C[2]Decreases negative effects on HP\n
+\C[1]Decrease WILL\n
+
+ADHD/item_name
+ADHD
+
+ADHD/description
+\}\n
+I don't know why I'm always so impulsive.
+\n
+\C[2]Increase Dodge Frame\n
+\C[2]Increase SPD\n
+\C[1]Decrease WIS\n
+
+STD_Leukorrhea/item_name
+Vaginitis
+
+STD_Leukorrhea/description
+\}\n
+Some sort of gooey slime keeps leaking out from my vagina.\n
+UGH! And it smells so bad... Am I sick with some sort of disease?\n
+\n
+\C[1]Decreases Mood.\n
+
+STD_WartAnal/item_name
+Anal Warts
+
+STD_WartAnal/description
+\}\n
+Fleshy bumps circle around my anus and I think inside my rectum as well...\n
+Although painless, they always feel really itchy...\n
+\n
+\C[1]Decreases Mood.\n
+
+STD_WartVag/item_name
+Genital Warts
+
+STD_WartVag/description
+\}\n
+From what I saw, warts are appearing on my vagina now.\n
+The bumps inside my vagina itches nearly all the time too...\n
+The irritation almost makes me want to insert something inside.\n
+\n
+\C[1]Decreases Mood.\n
+
+STD_HerpesAnal/item_name
+Anal Herpes
+
+STD_HerpesAnal/description
+\}\n
+Tiny lesions and blisters surround my anus and inner buttocks...\n
+I'm nearly in tears just from sitting down...\n
+\n
+\C[1]Decreases Mood.\n
+
+STD_HerpesVag/item_name
+Genital Herpes
+
+STD_HerpesVag/description
+\}\n
+Small, painful rashes and sores are popping up all over my vagina...\n
+It really hurts when I touch them...\n
+\n
+\C[1]Decreases Mood.\n
+
+Freckle/item_name
+Freckles
+
+Freckle/description
+\}\n
+Tiny brown dots blot all over my face and skin...\n
+Father said it's because I often played outside under the sun.\n
+I've heard some boys find them cute though!\n
+
+Tail/item_name
+Tail
+
+Tail/description
+\}\n
+When I was a child, everyone would always pull on my tail.\n
+\n
+It was really annoying...\n
+
+PubicHairVag/item_name
+Pubic Hair
+
+PubicHairVag/description
+\}\n
+Having pubic hair is a symbol of adulthood!\n
+\n
+With this, people should stop laughing at me and treating me like a child!\n
+
+PubicHairAnal/item_name
+Anal Hair
+
+PubicHairAnal/description
+\}\n
+The priests say that the reason hair is grown\n
+near the anus is to prevent too much filth\n
+from being stuck onto your body.\n
+\n
+But, if such an area is seen by others...\n
+
+WeakBladder/item_name
+Weak Bladder
+
+WeakBladder/description
+\}\n
+Ugh... I still wet the bed to this day.\n
+Also, if I drink too much water, it'll leak right out of me.\n
+
+SaintFieldSupporter/item_name
+The Low Priestess
+
+SaintFieldSupporter/description
+\}\n
+\}The priests at church told me I had a gift in serving the followers of the Saint. Father stopped me from\n
+visiting church since that day...\n
+\n
+\C[6]Requires 10 points in CON.\n
+\C[6]Requires Trait："Acolyte".\n
+\C[2]The "Mend Soul" skill now heals target's Injury ailments.\n
+
+NunKnowledge/item_name
+Acolyte
+
+NunKnowledge/description
+\}\n
+\}Church was like a second home to me when I was a little girl.\n
+\n
+\C[6]Requires 5 points in CON.\n
+\C[2]Receive the "Mend Soul" skill.\n
+\C[2]Able to equip "Divine" items.\n
+
+AbomSickly/item_name
+Sickly
+
+AbomSickly/description
+\}I've always been in poor health since childhood.\n
+*Cough* *Cough*......\n
+\n
+\C[1]Decreases maximum STA and HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+\C[1]This ailment returns after sleeping.\n
+
+PreDeepone/item_name
+Body Odor
+
+PreDeepone/description
+\}Everyone I've ever met tells me I reek of fish,\n
+especially down there...\n
+I think I smell just fine though......\n
+\C[1]Decreases SCU.\n
+\C[6]Decreases Sexy.\n
+
+TrueDeepone/item_name
+Sea Witch's Gift
+
+TrueDeepone/description
+\}The blood and powers of the ancient\n
+Sea Witch flows through your veins.\n
+\n
+As a Goddess, your mesmerizing beauty\n
+and oceanic body odor is an aphrodisiac\n
+to the opposite sex.\n
+\n
+Any males who are lucky enough to be in\n
+your presence will suddenly be driven\n
+mad with lust, and have a desire to\n
+forcefully breed with you...\n
+
+ShadowMaster/item_name
+Into the Darkness
+
+ShadowMaster/description
+\}\n
+\C[6]Requires Trait："From the Shadows".\n
+\C[6]Requires 20 points in SCU.\n
+\C[2]Allows continuous usage of skills\n
+while in Sneak/Stealth mode.\n
+
+IntoShadow/item_name
+From the Shadows
+
+IntoShadow/description
+\}\n
+\C[6]Requires 10 points in SCU.\n
+\C[2]While in Sneak/Stealth mode\n
+and using a skill, you remain in\n
+Sneak/Stealth mode until the skill\n
+has been activated.\n
+
+TrapImprove/item_name
+Improved Traps
+
+TrapImprove/description
+\}\n
+\C[6]Requires Trait："Hunter Training".\n
+\C[6]Requires 10 points in SUR.\n
+\C[2]Your traps now stun enemies when\n
+activated.\n
+
+DailyDrunkLevel/item_name
+Drunk
+
+DailyDrunkLevel/description
+\}*Hic*... Burp!\n
+\C[2]Increases ATK.\n
+\C[1]Decreases Will.\n
+\C[1]Decreases WIS.\n
+\C[1]Increases Weak.\n
+
+DailyPlusMood/item_name
+Fun
+
+DailyPlusMood/description
+\}\n
+I hope the excitement never ends!\n
+\n
+\C[6]Effects reduces every half-day.\n
+\C[5]Increases minimum Mood.\n
+\C[2]Increases SPD.\n
+
+DailyPlusHealthy/item_name
+Joy
+
+DailyPlusHealthy/description
+\}\n
+Today is going to be a good day!\n
+\n
+\C[6]Effects reduces every half-day.\n
+\C[2]Increases Will.\n
+\C[2]Increases ATK.\n
+\C[2]Increases DEF.\n
+
+Pessimist/item_name
+Pessimist
+
+Pessimist/description
+\}\n
+Misery loves company......\n
+\n
+\C[1]Being "Depressed" increases ATK.\n
+\C[0]Being "Happy" decreases ATK.\n
+
+Lactation/item_name
+Lactation
+
+Lactation/description
+\}\n
+My breasts are producing milk all the time.\n
+\n
+\C[5]Increases milk volume over time.\n
+
+Hitchhiker/item_name
+Hitchhiker
+
+Hitchhiker/description
+\}\n
+So long and thanks for all the fish.\n
+\n
+\C[6]Requires 15 points in SUR.\n
+\C[2]Increases Will.\n
+\C[2]Increases Max Food.\n
+\C[2]Decreases dangerous encounter rate.\n
+
+Lilith/item_name
+Whore of Babylon
+
+Lilith/description
+\}\n
+Mother of Prostitutes and\n
+Abominations of the Earth.\n
+\n
+\C[6]Requires Trait："Prostitute".\n
+\C[2]Increases Will.\n
+\C[2]Boosts HP and STA when dealing a\n
+ critical attack during a sex battle.\n
+\C[2]Increases max Sex ATK.\n
+
+Succubus/item_name
+Succubus
+
+Succubus/description
+\}\n
+All men belong to me! ♥\n
+\n
+\C[2]Receive the "Juicing" skill.\n
+
+ImproveThrowRock/item_name
+Improved Throw
+
+ImproveThrowRock/description
+\}\n
+Mastering such technique will ensure\n
+victory against scissors.\n
+\n
+\C[6]Requires 10 points in SCU.\n
+\C[2]Increases the time creatures,\n
+enemies, and NPCs are distracted.\n
+
+Alchemy/item_name
+Alchemy
+
+Alchemy/description
+\}\n
+Let's throw everything in and see what happens!\n
+\n
+\C[6]Requires 10 points in SUR.\n
+\C[2]Receive the "Dark Cauldron" skill.\n
+
+HunterTraining/item_name
+Hunter Training
+
+HunterTraining/description
+\}\n
+A real hunteress always watches\n
+where she steps...\n
+\n
+\C[2]Receive the "Create Trap" skill.\n
+\C[2]Receive the "Pick up Rocks" skill.\n
+
+BloodyMess/item_name
+Bloody Mess
+
+BloodyMess/description
+\}\n
+No matter what I do...\n
+It's always a mess!\n
+\C[2]Any kills by Lona will\n
+count as an "Overkill".\n
+
+WeaponryKnowledge/item_name
+Weapons Expert
+
+WeaponryKnowledge/description
+\}\n
+\C[2]Able to equip "High-quality" items.\n
+\C[2]The "Heavy Punch" skill is now uninterruptible by enemy attacks.\n
+
+ManaKnowledge/item_name
+Mana Knowledge
+
+ManaKnowledge/description
+\}\n
+\C[2]Able to equip "Mana" items.\n
+
+Omnivore/item_name
+Omnivore
+
+Omnivore/description
+\}\n
+Om nom nom!\n
+\n
+\C[2]Decreases the negative effects\n
+from food items.\n
+\C[2]Can pick up Filth items.\n
+
+Exhibitionism/item_name
+Exhibitionist
+
+Exhibitionism/description
+\}\n
+Clothing is heavy, be free!!\n
+\n
+\C[2]Ignores loss of Mood when naked.\n
+\C[2]Nudity now increases SPD.\n
+
+Prostitute/item_name
+Prostitute
+
+Prostitute/description
+\}\n
+The oldest profession in the world...\n
+\n
+\C[5]Can trade sex for payment with NPCs.\n
+\C[2]Increases Sex ATK.\n
+\C[2]Decreases the negative effects of\n
+sexual intercourse.\n
+
+Masturbationed/item_name
+Sage Time
+
+Masturbationed/description
+\}\n
+It's like telling others that I just came.\n
+\n
+\C[6]Increases Sexy\n
+
+Fatigue/item_name
+Fatigue
+
+Fatigue/description
+\}\n
+......\n
+\n
+\C[1]Decreases ATK.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+SemenGulper/item_name
+Semen Demon
+
+SemenGulper/description
+\}\n
+Guys! I like to eat cum!\n
+\n
+\C[2]Can gather Semen as food items.\n
+\C[2]Prevents and removes the\n
+"Cum Addiction" ailment.\n
+
+Mod_Taste/item_name
+MOD (Taste)
+
+Mod_Taste/description
+\}\n
+Your appetite matches 2 girls eating out\n
+of 1 cup...\n
+\n
+\C[2]Decreases negative effects on HP and STA.\n
+\C[1]Increases vomiting by food items\n
+other than Filth.\n
+
+Cannibal/item_name
+Cannibal
+
+Cannibal/description
+\}\n
+How long does it take for a man to\n
+become a monster when driven\n
+by hunger?\n
+\n
+\C[2]Human Flesh will drop when killing\n
+any humanoid NPCs.\n
+\C[2]Decreases the negative effects from\n
+Human Flesh items.\n
+
+Mod_VagGlandsLink/item_name
+Linked Glands
+
+Mod_VagGlandsLink/description
+\}\n
+I-I I'M COOMING!!!\n
+\n
+\C[5]Able to orgasm at any time.\n
+
+Mod_VagGlandsSurgical/item_name
+G-spot Removal
+
+Mod_VagGlandsSurgical/description
+\}\n
+I can't orgasm anymore...\n
+\n
+\C[5]Cannot achieve orgasm under any condition.\n
+
+BloodLust/item_name
+Bloodlust
+
+BloodLust/description
+\}\n
+Do you like hurting other people...?\n
+\n
+\C[2]Increases ATK.\n
+\C[2]Overkills now restore STA and Food.\n
+\n
+\C[2]Sex attacks now deal HP damage.\n
+
+
+Masochist/item_name
+Masochist
+
+Masochist/description
+\}\n
+Being bullied isn't necessarily a\n
+bad thing...\n
+\n
+\C[2]Increases DEF.\n
+\C[2]Increases Mood when receiving\n
+HP damage.\n
+
+Mod_MilkGland/item_name
+MOD (Breast A)
+
+Mod_MilkGland/description
+\}\n
+My breasts are producing milk all the time.\n
+\n
+\C[5]Increases milk volume over time.\n
+\C[2]Decreases negative effects on HP and STA.\n
+
+Mod_Sterilization/item_name
+Sterilization
+
+Mod_Sterilization/description
+\}\n
+In the current circumstances, this may be the\n
+most logical solution...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[6]Cannot get pregnant.\n
+
+AsVulva_Esophageal/item_name
+MOD (Mouth)
+
+AsVulva_Esophageal/description
+\}\n
+The swallowing process lifts me to heaven.\n
+\n
+\C[5]Any eating behavior increases Arousal.\n
+\C[2]Decreases negative effects on HP and STA.\n
+
+AsVulva_Urethra/item_name
+MOD (Urethra)
+
+AsVulva_Urethra/description
+\}\n
+Peeing is enough to make me unconscious.\n
+\n
+\C[2]Decreases negative effects on HP and STA.\n
+
+AsVulva_Anal/item_name
+MOD (Rectum)
+
+AsVulva_Anal/description
+\}\n
+I can't stop imagining about something going inside my ass.\n
+\n
+\C[2]Decreases negative effects on HP and STA.\n
+
+AsVulva_Skin/item_name
+MOD (Skin)
+
+AsVulva_Skin/description
+\}\n
+The rubbing of clothes alone was enough to get me to cum.\n
+\n
+\C[5]Any action that consumes STA will increase Arousal.\n
+\C[2]Decreases negative effects on HP and STA.\n
+
+AsVulva_MilkGland/item_name
+MOD (Breast B)
+
+AsVulva_MilkGland/description
+\}\n
+My breasts have become more and more sensitive.\n
+\n
+\C[2]Decreases negative effects on HP and STA.\n
+
+ParasitedMoonWorm/item_name
+Moon Parasited
+
+ParasitedMoonWorm/description
+\}\n
+The parasites continue to burrow inside my stomach...\n
+\n
+\C[5]Increases bowel movement over time.\n
+\C[5]Chance to spawn a Moon Worm every time you poop.\n
+\C[1]Increases anal damage with each rest.\n
+\C[1]Decreases Food with each rest.\n
+
+ParasitedPotWorm/item_name
+Pot Parasited
+
+ParasitedPotWorm/description
+\}\n
+I can feel the parasites squirming around in my bladder...\n
+\n
+\C[5]Increases need to urinate over time.\n
+\C[5]Chance to spawn a Pot Worm every time you pee.\n
+\C[1]Increases urethra damage with each rest.\n
+\C[1]Decreases Food with each rest.\n
+
+AnalSeedBed/item_name
+SB (Bowel)
+
+AnalSeedBed/description
+\}\n
+My bowels became a seedbed for monsters...\n
+\n
+\C[1]Increases chance of spawning a parasite with each rest.\n
+
+BladderSeedBed/item_name
+SB (Bladder)
+
+BladderSeedBed/description
+\}\n
+My bladder became a seedbed for monsters...\n
+\n
+\C[1]Increases chance of spawning a parasite with each rest.\n
+
+WeakSoul/item_name
+Timid
+
+WeakSoul/description
+\}\n
+"I am always depressed..."\n
+\C[6]Changes Lona's Personality.\n
+\C[2]Decreases negative effects on HP.\n
+\C[2]Increases DEF.\n
+\C[2]Increases SUR and WIS.\n
+\C[2]Decreases HP loss from hunger.\n
+\C[1]Decreases Will.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases ATK.\n
+\C[1]Decreases SPD.\n
+
+IronWill/item_name
+Tough
+
+IronWill/description
+\}\n
+"My will is strong."\n
+\C[6]Changes Lona's Personality.\n
+\C[2]Increases Will.\n
+\C[2]Decreases Weak.\n
+\C[2]Increases ATK.\n
+\C[2]Increases DEF.\n
+\C[2]Increases SPD.\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Decreases maximum STA.\n
+
+Nymph/item_name
+Nymphomaniac
+
+Nymph/description
+\}\n
+"The pleasure of flesh feels so good!" ♥\n
+\C[6]Changes Lona's Personality.\n
+\C[2]Increases Will.\n
+\C[2]Increases Sex ATK.\n
+\C[2]Decreases negative effects on STA.\n
+\C[2]Decreases Weak.\n
+\C[2]Increases DEF.\n
+\C[6]Increases Sexy.\n
+\C[1]Decreases Max Food.\n
+
+StomachSpasm/item_name
+Gastroenteritis
+
+StomachSpasm/description
+\}\n
+*RETCH* BLUUURRRGH!!!\n
+\n
+\C[1]Increases vomiting over time.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+SemenAddiction/item_name
+Cum Addiction
+
+SemenAddiction/description
+\}\n
+I can't swallow anything else except semen.\n
+\n
+\C[2]Decreases negative effects on HP.\n
+\C[1]Chance to cause confusion.\n
+\C[1]Increases vomiting by food items\n
+other than Filth.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases Will.\n
+\C[1]Decreases SPD.\n
+
+DrugAddiction/item_name
+Drug Addiction
+
+DrugAddiction/description
+\}\n
+I'm no different than those sex-slave junkies I look down upon...\n  
+\n
+\C[1]Chance to cause confusion.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases Will.\n
+\C[1]Decreases SPD.\n
+
+OgrasmAddiction/item_name
+Orgasm Addiction
+
+OgrasmAddiction/description
+\}\n
+Fuck me! RAPE ME! I'm begging you!\n
+\n
+\C[2]Decreases negative effects on HP and STA.\n
+\C[2]Increases SPD.\n
+\C[1]Chance to cause confusion.\n
+\C[1]Decreases Will.\n
+
+MoodBad/item_name
+Depressed
+
+MoodBad/description
+\}\n
+Why am I still trying to survive this Hell...?\n
+Maybe I should just give up and end my suffering......\n
+\n
+\C[1]Increases Weak.\n
+\C[1]Decreases ATK.\n
+\C[1]Decreases WIS.\n
+
+MoodGood/item_name
+Happy
+
+MoodGood/description
+\}\n
+I'm just glad to be alive!\n
+\n
+\C[2]Decreases Weak.\n
+\C[2]Increases ATK.\n
+\C[6]Increases WIS\n
+
+WoundHead/item_name
+Head Injury
+
+WoundHead/description
+\}\n
+I have a really nasty headache...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases DEF.\n
+\C[1]Decreases WIS.\n
+
+WoundChest/item_name
+Chest Injury
+
+WoundChest/description
+\}\n
+My tiny breasts are in agony...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases DEF.\n
+\C[1]Decreases SUR.\n
+
+WoundCuff/item_name
+Wrist Injury
+
+WoundCuff/description
+\}\n
+It feels like something crushed my wrists...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases DEF.\n
+
+
+WoundSArm/item_name
+Left Arm Injury
+
+WoundSArm/description
+\}\n
+My entire left arm is suffering from the pain...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases ATK.\n
+
+WoundMArm/item_name
+Right Arm Injury
+
+WoundMArm/description
+\}\n
+I can barely lift my right arm due to the pain...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases ATK.\n
+
+WoundCollar/item_name
+Neck Injury
+
+WoundCollar/description
+\}\n
+It feels like something is choking me...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases ATK.\n
+
+WoundBelly/item_name
+Abdomen Injury
+
+WoundBelly/description
+\}\n
+My tummy hurts...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases ATK.\n
+
+WoundGroin/item_name
+Groin Injury
+
+WoundGroin/description
+\}\n
+It really hurts down there...\n
+......Good thing I'm not a boy.\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+WoundSThigh/item_name
+Left Leg Injury
+
+WoundSThigh/description
+\}\n
+Even standing up properly is like torture...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+WoundMThigh/item_name
+Right Leg Injury
+
+WoundMThigh/description
+\}\n
+My right leg is in agony whenever I walk...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases maximum HP.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+CumsCreamPie/item_name
+Creampie
+
+CumsCreamPie/description
+\}\n
+Clean it up, or you'll get pregnant!\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+CumsMoonPie/item_name
+Anal Creampie
+
+CumsMoonPie/description
+\}\n
+Something's dripping out from my anus...\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+CumsHead/item_name
+Bukkake
+
+CumsHead/description
+\}\n
+My face is covered with cum.\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+CumsTop/item_name
+Cum on Tits
+
+CumsTop/description
+\}\n
+My chest feels slimy...\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+CumsMid/item_name
+Cum on Stomach
+
+CumsMid/description
+\}\n
+My stomach feels slimy...\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+CumsBot/item_name
+Cum on Thighs
+
+CumsBot/description
+\}\n
+My legs feel slimy...\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+CumsMouth/item_name
+Cum on Mouth
+
+CumsMouth/description
+\}\n
+Tastes salty...\n
+\n
+\C[6]Increases Sexy.\n
+
+Contraceptived/item_name
+BC Pill eaten
+
+Contraceptived/description
+\}\n
+Maybe I won't get pregnant?\n
+\n
+\C[2]Decreases pregnant rate.\n
+\C[6]Decreases Sexy.\n
+
+SemenBursting/item_name
+Cuminflation
+
+SemenBursting/description
+\}\n
+S-So much... I'm going to burst!\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Decreases maximum STA.\n
+\C[1]Decreases ATK.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+EffectWet/item_name
+Wet
+
+EffectWet/description
+\}\n
+It's soaked down there...\n
+\n
+\C[1]Increases Weak.\n
+
+PregState/item_name
+Pregnant
+
+PregState/description
+\}\n
+I'm pregnant now. Who's the father?\n  
+\n
+\C[1]Requires you to eat more food.\n
+\C[1]Decreases maximum STA.\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+FeelsUnwell/item_name
+Slight Malaise
+
+FeelsUnwell/description
+\}\n
+I don't feel so good...\n
+\n
+\C[1]Decreases maximum STA.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+FeelsSick/item_name
+Sick
+
+FeelsSick/description
+\}\n
+I don't feel so good...\n
+\n
+\C[1]Decreases maximum STA.\n
+\C[1]Increases Weak.\n
+\C[1]Decreases SPD.\n
+
+FeelsWarm/item_name
+Horny
+
+FeelsWarm/description
+\}\n
+I want sex...\n
+\n
+\C[5]Increases the regeneration of Arousal.\n
+
+FeelsHorniness/item_name
+Horny (Drugged)
+
+FeelsHorniness/description
+\}\n
+I NEED SEX...!\n
+\n
+\C[2]Decreases negative effects on HP and STA.\n
+\C[5]Increases the regeneration of Arousal.\n
+\C[1]Increases chance of pregnancy.\n
+
+Cummed/item_name
+Horny (Orgasm)
+
+Cummed/description
+\}\n
+Don't touch me down there!\n
+It's very sensitive right now!\n
+\n
+\C[5]Increases the regeneration of Arousal.\n
+
+OverCummed/item_name
+Ahegao
+
+OverCummed/description
+\}\n
+It's hard to control my expression.\n
+\n
+\C[5]Increases the regeneration of Arousal.\n
+
+Dirt/item_name
+Dirt
+
+Dirt/description
+\}\n
+Ick... Yuck! When was the last time I had a bath?!
+\n
+\C[2]Increases SCU.\n
+\C[6]Decreases Sexy.\n
+\C[1]Increases Weak.\n
+
+EffectBleedVag/item_name
+Bleeding (VAG)
+
+EffectBleedVag/description
+\}\n
+It hurts!\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Increases Weak.\n
+
+EffectBleedAnal/item_name
+Bleeding (Anus)
+
+EffectBleedAnal/description
+\}\n
+It hurts!\n
+\n
+\C[6]Decreases Sexy.\n
+\C[1]Increases Weak.\n
+
+EffectScat/item_name
+Diarrhea
+
+EffectScat/description
+\}\n
+Guhhh... My body is covered in my filth!\n
+\n
+\C[6]Decreases Sexy.\n
+\C[6]Increases minimum Dirt.\n
+\C[1]Increases Weak.\n
+
+VaginalDamaged/item_name
+Loose Vagina
+
+VaginalDamaged/description
+\}\n
+It can fit bigger penises now.\n
+\n
+\C[1]Decreases Sex ATK (VAG).\n
+
+UrethralDamaged/item_name
+Loose Urethra
+
+UrethralDamaged/description
+\}\n
+Urine drips down all the time.\n
+\n
+\C[5]Peeing is now passive.\n
+
+SphincterDamaged/item_name
+Loose Anus
+
+SphincterDamaged/description
+\}\n
+It's like I can't hold it in anymore...\n
+\n
+\C[5]Pooping is now passive.\n
+\C[1]Decreases Sex ATK (Anal).\n
+
+SlaveBrand/item_name
+Slave Brand
+
+SlaveBrand/description
+\}\n
+They burned a mark on my face...\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+moot/item_name
+Moot
+
+moot/description
+\}\n
+I have the blood of another race.\n
+\n
+\C[2]Increases steal chance.\n
+\C[2]Increases SCU\n
+\C[6]Decreases Morality.\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+PiercingNose/item_name
+Piercing (Nose)
+
+PiercingNose/description
+\}\n
+Like a cow... Moo?\n
+\n
+\C[6]Decreases Sexy.\n
+\C[5]Increases/Decreases Weak based on Mood.\n
+
+PiercingEar/item_name
+Piercing (Ear)
+
+PiercingEar/description
+\}\n
+I look like a whore...\n
+\n
+\C[6]Decreases Sexy.\n
+\C[5]Increases/Decreases Weak based on Mood.\n
+
+PiercingChest/item_name
+Piercing (TOP)
+
+PiercingChest/description
+\}\n
+The metal kept stimulating my nipples...\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+PiercingBelly/item_name
+Piercing (MID)
+
+PiercingBelly/description
+\}\n
+Like a sex slave.\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+PiercingArms/item_name
+Piercing (Arms)
+
+PiercingArms/description
+\}\n
+Affects the movement of my arms.\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+PiercingAnal/item_name
+Piercing (Butt)
+
+PiercingAnal/description
+\}\n
+The metal kept stimulating my butt.\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+PiercingVag/item_name
+Piercing (Labia)
+
+PiercingVag/description
+\}\n
+The metal kept rubbing against my labia.\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+PiercingBack/item_name
+Piercing (Back)
+
+PiercingBack/description
+\}\n
+Like a piece of meat.\n
+\n
+\C[6]Increases Sexy.\n
+\C[1]Increases Weak.\n
+
+PiercingNoseB/item_name
+Piercing (Nasal)
+
+PiercingNoseB/description
+\}\n
+Proof of being the Fishkind's meat toilet.\n
+Each piercing represents how many owners I've served.\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingNoseG/item_name
+Piercing (Nose)
+
+PiercingNoseG/description
+\}\n
+Like a cow... Moo?\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingEarG/item_name
+Piercing (Ear)
+
+PiercingEarG/description
+\}\n
+I look like a whore...\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingChestG/item_name
+Piercing (TOP)
+
+PiercingChestG/description
+\}\n
+The metal kept stimulating my nipples...\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingBellyG/item_name
+Piercing (MID)
+
+PiercingBellyG/description
+\}\n
+Like a sex slave.\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingArmsG/item_name
+Piercing (Arms)
+
+PiercingArmsG/description
+\}\n
+Affects the movement of my arms.\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingAnalG/item_name
+Piercing (Butt)
+
+PiercingAnalG/description
+\}\n
+The metal kept stimulating my butt.\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingVagG/item_name
+Piercing (Labia)
+
+PiercingVagG/description
+\}\n
+The metal kept rubbing against my labia.\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingBackG/item_name
+Piercing (Back)
+
+PiercingBackG/description
+\}\n
+Like a piece of meat.\n
+\n
+\C[6]Increases Sexy.\n
+
+PiercingNoseBG/item_name
+Piercing (NoseB)
+
+PiercingNoseBG/description
+\}\n
+Proof of being the Fishkind's meat toilet.\n
+Each piercing represents how many owners I've served.\n
+\n
+\C[6]Increases Sexy.\n
+
+Mod_WombSeedBed/item_name
+SB (Womb)
+
+Mod_WombSeedBed/description
+\}\n
+My uterus is no longer human...\n
+\n
+\C[2]Decreases negative effects on HP.\n
+\C[6]Increases Sexy.\n
+\C[1]Increases chance of pregnancy.\n
+
+nil/item_name
+
+nil/description
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

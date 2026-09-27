@@ -1,0 +1,105 @@
+thisMap/OvermapEnter
+\m[confused]Campamento de Esclavos \optB[Cancelar,Entrar]
+
+#################################################################################
+
+ThisCamp/Found
+\CBct[2]\m[confused]\c[4]Parece un campamento de esclavos, ¿pero quién los controla?
+\CBct[8]\m[confused]\c[4]¿Es un campamento de esclavos fugitivos?
+
+alert/MainGuard
+\c[4]Guardia：\C[0]    ¡¿Quién va?!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Ehh?! \optD[Pasar de largo,Mentir<r=HiddenOPT0>]
+
+alert/MainGuard_passByAns
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Yo... solo estaba pasando por aquí.
+
+alert/MainGuard_passByWin
+\c[4]Guardia：\C[0]    ¿Tú también huyes de la aldea?
+\c[4]Guardia：\C[0]    Lo sé, es otro infierno en la tierra.
+\c[4]Guardia：\C[0]    Entra, no te haremos daño.
+\CBct[8]\m[tired]\PRF\c[6]Lona：\C[0]    Gracias...
+
+alert/MainGuard_passByLose_follower
+\c[4]Guardia：\C[0]    ¡¿Quién te acompaña?!
+
+alert/MainGuard_passByLose
+\c[4]Guardia：\C[0]    ¡No dejéis que escape! ¡Matadla!
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+alert/MainGuard_BluffAns
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Yo...
+\CBct[20]\m[serious]\PRF\c[6]Lona：\C[0]    ¡Atrapé un jabalí! ¡Habrá cena para todos!
+
+alert/MainGuard_BluffWin
+\c[4]Guardia：\C[0]    ¡Genial! ¡Buen trabajo!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    \..\..\.. ¿Jeje?
+
+Nap/Friendly
+\narr Alguien se llevó a Lona.
+\narrOFF\c[4]Refugiado：\C[0]    Ya no tenemos comida, no podemos traer más refugiados al campamento.
+\c[4]Guardia：\C[0]    Ella es como nosotros, una esclava que huyó de la aldea. Déjala quedarse.
+
+Nap/Friendly_wake0
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué me pasó? ¿Dónde estoy?
+\CBmp[GuardMas,20]\prf\c[4]Guardia：\C[0]    Tú también huiste de la aldea de los Hombres-Pez, ¿verdad?
+
+Nap/Friendly_wake1
+\CBmp[GuardMas,20]\prf\c[4]Guardia：\C[0]    Somos como tú. Y ahora eres libre.
+\CBct[8]\m[shocked]\Rshake\c[6]Lona：\C[0]    Gracias...
+
+Nap/Enemy
+\narr Alguien se llevó a Lona.
+\narrOFF\c[4]Refugiado：\C[0]    ¿De verdad comes esa comida?
+\c[4]Guardia：\C[0]    No tenemos elección, moriremos de hambre si no comemos.
+
+Nap/Enemy_wake0
+\m[tired]\c[4]Oh oh...
+\m[confused]\c[4]¿Qué pasó? ¿Dónde estoy?
+
+Nap/Enemy_wake1
+\m[shocked]\Rshake\c[4]¡¿Eh??! ¿Por qué estoy atada?
+\m[terror]\Rshake\c[4]¡¿Qué son esos cadáveres??
+\m[bereft]\Rshake\c[4]¡No! ¡No me coman!
+
+Nap/Enemy_wake_giveUP
+\m[sad]\Rshake\c[4]Ohhh... No puedo más...
+\m[tired]\Rshake\c[4]Acabad con esto.
+
+Nap/BondageStruggle_opt
+\optD[Resistirse,Rendirse]
+
+killed/all
+\m[tired]\c[6]Lona：\C[0]    Lo siento, pero tengo mis razones...
+
+gameOver/nap0
+\narr Lona sacrifica su cuerpo para alimentar a los refugiados...
+
+################################################################################# Common MSG
+
+Commoner/RNG_Dialog0
+\c[4]Refugiado：\C[0]    No debí huir, nada ha cambiado en realidad.
+
+Commoner/RNG_Dialog1
+\c[4]Refugiado：\C[0]    Al menos aquí hay comida. ¿Para qué huir?
+
+Commoner/RNG_Dialog2
+\c[4]Refugiado：\C[0]    Como cada vez menos, ¿qué pasará mañana?
+
+Guard/Qmsg0
+¿Podrás encontrar algo comestible hoy?
+
+Guard/Qmsg1
+Los que fueron a cazar ayer no regresaron...
+
+Guard/Qmsg2
+Esto no funciona
+
+Commoner/Qmsg0
+Tengo tanta hambre...
+
+Commoner/Qmsg1
+Más comida...
+
+Commoner/Qmsg2
+Por favor... Dadme algo de comer...

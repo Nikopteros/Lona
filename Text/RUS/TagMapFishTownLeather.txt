@@ -1,0 +1,32 @@
+ThisMap/Enter
+\m[confused]Изделия из Кожи у Гумпа
+
+################################################################he called blacksmith as brother. but they are not with same bloodline.
+
+BSStrader/welcome
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]Гумп：\C[0]    Человек... Привет... Я Гумп... Нужна кожа...?
+
+Lona/MarketOpt
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ммм... \optB[Забудьте,Обмен,Кто вы?]
+
+BSStrader/About
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп：\C[0]    Мы родились... Стали... Рыбами...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп：\C[0]    Когда старый... Назад в море... Служить... Морской Ведьме...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп：\C[0]    Будущего нет... Тупик только...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[normal]\Lshake\prf\c[4]Гумп：\C[0]    Брат... Ему снилось... Он ушёл из дома...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп：\C[0]    Я надеюсь... Мой сын... Тоже посетит... Новые земли...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[confused]\Lshake\prf\c[4]Гумп：\C[0]    Братья Рыболюди... Должны видеть... Мир...
+\CBmp[BSStrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп：\C[0]    Я стал... Старше... Потомки... Это будущее... Рыбочеловеков......
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ...Ч-Чего?
+
+BSStrader/end
+\CBmp[BSStrader,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Гумп：\C[0]    Мои потомки... Всегда... Растут...
+
+kid/Rand0
+\CBmp[KidReader,20]\c[4]Ребёнок：\C[0]    Дядя Бубба говорит... Он открыл магазин... Человеческий остров...! Я приду... Однажды...!
+
+kid/Rand1
+\CBmp[KidReader,20]\c[4]Ребёнок：\C[0]    Мой дядя... Подарил много... Человеческих книг...!
+
+kid/Rand2
+\CBmp[KidReader,20]\c[4]Ребёнок：\C[0]    Я слышал... На острове людей... Есть большой... Рынок!

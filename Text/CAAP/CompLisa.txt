@@ -1,0 +1,838 @@
+####################################--------------------- LISA BOMB TRADER
+Lisa/WelcomeUnknow
+\CBmp[UniqueLisa,20]\SETpl[LisaHappy]\Lshake\prf\c[4]Niña abandonada：\C[0]    ¡Oye... Hola! ¡Me llamo Lisa! ¿Y tú?
+\CamCT\Bon[2]\m[pleased]\plf\c[6]Lona：\C[0]    Soy Lona, Lona Folding.
+\CBmp[UniqueLisa,20]\SETpl[LisaHappy]\Lshake\prf\c[4]Niña abandonada：\C[0]    ¡Me alegro de verte! Dime, Lona, ¿te interesa el... poder ígneo?
+
+Lisa/Welcome0
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa：\C[0]    ¡Un consejo! Si dudas... ¡Usa una bomba!
+
+Lisa/Welcome1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\C[0]    Si hay problemas en tu camino... ¡Los explosivos te ayudarán a deshacerte de todos!
+
+Lisa/Welcome2
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\C[0]    ¡Hermana! ¿Buscas algo más que hacer volar, eh?
+
+Lona/LisaOptUnknow
+\m[confused]\plf\c[6]Lona：\C[0]    E-em...? \optD[¿P... Poder ígneo?]
+
+Lona/LisaOpt
+\CamCT\m[confused]\plf\c[6]Lona：\C[0]    Mmm...
+
+Lona/LisaOpt_Supply
+¿Proveedor de pólvora?
+
+Lona/LisaOpt_SouthFL
+Campamento de las Puertas del Sur
+
+Lisa/About
+\CamCT\Bon[2]\m[flirty]\plf\c[6]Lona：\C[0]    ¿P... Poder ígneo? ¿Qué vendes aquí a estas horas de la noche?
+\CamCT\Bon[2]\m[confused]\plf\c[6]Lona：\C[0]    ¿Emm?
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,5]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¿Qué, no estás al tanto? Este polvito... ¡Hace cosas BOOM!
+\CamCT\Bon[8]\m[confused]\plf\c[6]Lona：\C[0]    ¿Qué es esto......?
+\CamCT\Bon[1]\m[wtf]\Rshake\c[6]Lona：\C[0]    ¡¿Pólvora?!
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,3]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\C[0]    ¡Ajá! ¡Exacto!
+\CamCT\m[serious]\plf\c[6]Lona：\C[0]    Escuché que esto es ilegal aquí... ¿no?
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa：\C[0]    ¡Hermana, no seas tan tonta! El mundo se va a la mierda, ¿a quién le importa si es legal o no?!
+\CamMP[UniqueLisa]\BonMP[UniqueLisa,4]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\C[0]    ¡Oye, hermana! No hay mejor defensa que golpear primero. ¿Verdad?
+\CamCT\m[confused]\plf\c[6]Lona：\C[0]    Bueno... Es difícil no estar de acuerdo...
+
+############################## COMMON EXT Convoy
+
+NPC/CommonConvoyTarget0
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\c[4]Lisa：\C[0]    ¿Vienes y te vas así nada más?
+
+NPC/CommonConvoyTarget1
+\CBid[-1,20]\SETpl[LisaNormal]\Lshake\c[4]Lisa：\C[0]    ¡No puedo esperar más!
+
+NPC/CommonConvoyTarget2
+\CBid[-1,20]\SETpl[LisaTriumph]\Lshake\c[4]Lisa：\C[0]    ¡Necesito amar una pequeña explosión!
+
+####################################--------------------- Minecave Hevent itself
+
+Lisa/LisaAbomHev_begin
+\SETpl[LisaBereft]\Lshake\c[4]Lisa：\C[0]    ¡¡¡GUAAAH!!!
+
+Lisa/LisaAbomHev1
+\c[4]Lisa：\C[0]    ¡¡¡NO TE ACERQUES A MÍ!!!
+
+Lisa/LisaAbomHev2
+\c[4]Lisa：\C[0]    ¡¡¡AAAH!!!
+
+Lisa/LisaAbomHev3
+\narr Un enjambre de insectos rodea a Lisa.
+
+Lisa/LisaAbomHev4
+\c[4]Lisa：\C[0]    ¡¡¡MIERDA! ¡¡¡ALÉJENSE! ¡¡¡DEJENME EN PAZ!!!
+
+Lisa/LisaAbomHev5
+\c[4]Lisa：\C[0]    ¡¡¡NOOOO!!!
+
+Lisa/LisaAbomHev6
+\c[4]Lisa：\C[0]    ¡¡¡AAAH!!!
+
+Lisa/LisaAbomHev7
+\narr Las garras del insecto se introdujeron en el ano de Lisa y, estirándolo, el insecto se abrió paso hacia sus intestinos.
+
+Lisa/LisaAbomHev8
+\c[4]Lisa：\C[0]    ¡¡¿QUÉ MIERDA ES ESTA?!! ¡ME DUELE!
+
+Lisa/LisaAbomHev9
+\c[4]Lisa：\C[0]    N... No quiero...
+
+Lisa/LisaAbomHev10_1
+\c[4]Lisa：\C[0]    ¡¡¿AAAH?!!
+
+Lisa/LisaAbomHev10_2
+\c[4]Lisa：\C[0]    ¡¡GRRRH! ¡AHH...-!
+
+Lisa/LisaAbomHev10_3
+\c[4]Lisa：\C[0]    ¡¡¡AHHHHHHHHHH!!!
+
+Lisa/LisaAbomHev11
+\narr Numerosos insectos se abrieron paso dentro de Lisa con sus garras, mordiendo las paredes de sus intestinos e inyectando su veneno.
+
+Lisa/LisaAbomHev12
+\Rshake\c[4]Lisa：\C[0]    ¡¡MALDITOS INSECTOS!! ¡¡ME DUELE TANTO!!!
+
+Lisa/LisaAbomHev13
+\c[4]Lisa：\C[0]    NO SE... METAN... DENTRO...
+
+Lisa/LisaAbomHev14
+\narr Otro insecto se arrastró dentro de Lisa. Los insectos reaccionaban activamente al olor de su ano. No les importaba el género o la edad de su objetivo...
+
+Lisa/LisaAbomHev15
+\c[4]Lisa：\C[0]    ¡¡U...UAAAH! ¡¡BASTA! ¡SALGAN DE MÍ!
+
+Lisa/LisaAbomHev16
+\c[4]Lisa：\C[0]    ¡¡AH, AYUDA! ¡QUE ALGUIEN ME SAQUE DE AQUÍ!!!
+
+Lisa/LisaAbomHev17
+\c[4]Lisa：\C[0]    ¡NO! ¡NOOO!! ¡NO-O-O!!!
+
+Lisa/LisaAbomHev18
+\c[4]Lisa：\C[0]    ¡NO QUIERO MORIR! ¡QUE ALGUIEN ME AYUDE!!!
+
+Lisa/LisaAbomHev19
+\narr Los gritos de Lisa servían como llamada de atención para los parásitos. Más y más insectos intentaban penetrar su ano inmaduro.
+
+Lisa/LisaAbomHev20
+\narr El vientre de Lisa se hinchó por la cantidad de insectos en sus intestinos. Su abdomen se abultó como si estuviera embarazada.
+
+Lisa/LisaAbomHev21
+\c[4]Lisa：\C[0]    ¡¡AH, NO ME MATEN! ¡POR FAVOR!! ¡¡MAMÁÁÁ!!!
+
+Lisa/LisaAbomHev22
+\narr El veneno de los parásitos comenzó a hacer efecto. Primero se sintió como un simple hormigueo. Pero ahora, el dolor en su cuerpo se transformaba en placer sexual.
+
+Lisa/LisaAbomHev23
+\c[4]Lisa：\C[0]    ¡¿Q-QUE?! ¿¿ALGO... VA A SALIR DE MÍ?!
+
+Lisa/LisaAbomHev24
+\c[4]Lisa：\C[0]    ¡¡OOOOHHH!!
+
+Lisa/LisaAbomHev25
+\c[4]Lisa：\C[0]    ¡¡UUUAAAHHH!!
+
+Lisa/LisaAbomHev26
+\c[4]Lisa：\C[0]    ¡¡OOOOHHHHHHH!!
+
+Lisa/LisaAbomHev27
+\c[4]Lisa：\C[0]    ¡¡AHH!
+
+Lisa/LisaAbomHev28
+\c[4]Lisa：\C[0]    Oooohhh.... Uuuhhhhh...
+
+Lisa/LisaAbomHev29
+\narr Todo esto fue demasiado para Lisa. Perdió todas sus fuerzas para resistir.
+
+Lisa/LisaAbomHev30
+\c[4]Lisa：\C[0]    Uuuhhh\..\..\..
+
+Lisa/LisaAbomHev31
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Lisa! ¿Qué pasó?
+\SETpl[LisaSad]\Lshake\prf\c[4]Lisa：\C[0]    *Uff* ¡Oaaahhhh! *Sollozo*
+\m[wtf]\plf\Rshake\c[6]Lisa：\C[0]    Mhh... *¡Hip!* Ooohh... *¡Hip!* Mmmffff...- *Sorber* -...¡I-Insectos!
+\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¡No temas! ¡Te ayudaré!
+
+####################################--------------------- Minecave Hevent CONTROL
+
+Lisa/LisaAbomHev_Clear1
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    ¿Qué demonios está pasando aquí?
+\m[confused]\plf\c[6]Lona：\C[0]    Emm... Ella...
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Los insectos se metieron en su vientre!
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    ¿Qué? Eso es malo... Tráela aquí. ¡Rápido!
+
+Lisa/LisaAbomHev_Clear2
+\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¿Cómo está? ¿Qué le pasará ahora?
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    No es bueno... Al menos no han puesto huevos dentro de ella.
+\m[shy]\plf\c[6]Lona：\C[0]    ¿Huevos? ¿En su vientre?
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    Sí, huevos. Larvas de insectos que se desarrollan dentro del huésped. Muchos esclavos han muerto así, ha afectado gravemente la producción.
+\m[sad]\plf\c[6]Lona：\C[0]    ¿P-podemos salvarla?
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    Una vez que pongan huevos, no habrá salvación. Si nacen, ella morirá y podríamos infectarnos. \m[fear]\Rshake
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    No me mires así. Aunque sea mestiza, no es una esclava. Aún puedo ayudarla. \m[flirty]
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    Cerca de las puertas orientales de Noer abrieron una tienda de medicinas. Venden un remedio adecuado para parásitos.\n Si no me equivoco, se llama \C[6]Clínica de Obstetricia y Ginecología de Alice：\C[0].
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    Pero ten cuidado, el remedio no es barato. Ya no nos queda, de lo contrario la habríamos ayudado de inmediato.
+\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¡Intentaré encontrarlo lo antes posible!
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    Date prisa, los insectos están chupando sus fuerzas lentamente. Será mejor que descanse, y tú corre...
+
+Lisa/LisaAbomHev_Clear3
+\board[Encontrar Remedio para Parásitos]
+Conseguir 1 unidad de Remedio para parásitos\i[208]\n
+o 5 unidades de Hierba amarga\i[206]\n
+Y volver a la mina, hablar con Lisa.
+
+Lisa/LisaAbomHev_HealNoItem
+\SETpl[LisaSad]\Lshake\prf\c[4]Lisa：\C[0]    Ooohhhhhh......
+
+Lisa/LisaAbomHev_WithItem1
+\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¡Lisa! ¿Me escuchas? ¡Por favor, come esto!
+
+Lisa/LisaAbomHev_WithItem2
+\SETpl[LisaSad]\PLF\prf\c[4]Lisa：\C[0]    Ooohhh... ¿H-Hermana...?
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Cómo te sientes?
+\SETpl[LisaSad]\PLF\prf\c[4]Lisa：\C[0]    Yo.......
+\SETpl[LisaSad]\PLF\prf\c[4]Lisa：\C[0]    Es.. Esos insectos me atacaron\..\..\..
+
+Lisa/LisaAbomHev_WithItem3
+\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\C[0]    ¡¡¡COF! ¡¡UHHH!! ¡¡¡RRRAAAHHH!!!
+\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\C[0]    ¡¡¡OOOHHHH!!!
+\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\C[0]    ¡¡UH...!
+\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\C[0]    Mmmnnfffff......
+
+Lisa/LisaAbomHev_WithItem4
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¡Todo está bien, no habrá más parásitos! Por favor, no llores.
+\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\C[0]    *Sorber* ¡Oooh! *Sorber* ¡Uuufffff! *Gemido*
+
+Lisa/LisaAbomHev_WithItem5
+\SETpl[LisaSad]\PLF\prf\c[4]Lisa：\C[0]    Herm..mana... L-Lona...
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¡No llores, ya estoy aquí!
+\SETpl[LisaSad]\PLF\prf\c[4]Lisa：\C[0]    .........
+\SETpl[LisaTriumph]\Lshake\prf\c[4]Lisa：\C[0]    ¡Voy a arreglar el ¡BUMBASTICO!
+\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡Haré más bombas y volaré a todos esos insectos!!!
+\m[triumph]\plf\Rshake\c[6]Lona：\C[0]    ¡Bien! ¡Vamos!
+
+####################################--------------------- C130 Quest
+
+Lisa/C130_3_0
+\CamCT\m[flirty]\plf\c[6]Lona：\C[0]    Disculpa... ¿Eres la vendedora de explosivos, verdad?
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\C[0]    ¡Sí, mi familia se dedica a eso...! ¿Qué pasa?
+\CamCT\m[confused]\plf\c[6]Lona：\C[0]    Entonces, ¿sabes qué es el Cañón Overlord M405?
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]Lisa：\C[0]    ¿Te refieres al ¡BUMBASTICO? El ¡BUMBASTICO es obra de mi familia...
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa：\C[0]    Bueno, ¿qué tal? ¿Verdad que no saben ponerle nombres a los cañones?
+\CamCT\m[flirty]\plf\c[6]Lona：\C[0]    En realidad... El dispositivo está roto y no funciona... Buscan a alguien que lo repare.
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡¿QUÉ MIERDA HICIERON CON EL ¡BUMBASTICO?! ¿Al menos se mueve?
+\CamCT\m[fear]\plf\Rshake\c[6]Lona：\C[0]    No... Está... Completamente inutilizable.
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]Lisa：\C[0]    ......¿¿QUÉ?!
+\CamCT\m[flirty]\plf\c[6]Lona：\C[0]    Creo que poner el botón de autodestrucción del cañón en el lugar más accesible fue una mala idea...
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\c[4]Lisa：\C[0]    ...........
+\CamCT\m[fear]\plf\c[6]Lona：\C[0]    Deberían haber puesto más protecciones y seguros. La mayoría de los soldados ni siquiera saben leer... ¿Qué pasa?
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\prf\Lshake\c[4]Lisa：\C[0]    La función de autodestrucción del ¡BUMBASTICO fue idea mía...
+\CamCT\m[sad]\plf\c[6]Lona：\C[0]    \..\..\..L-Lo siento.
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\prf\Lshake\c[4]Lisa：\C[0]    Tranquila, ¡arreglaré a mi bebé! Pero necesito ayuda. ¿Podrías ayudarme, eh?
+
+Lisa/C130_3_1board
+\CamCT\board[Reparar el cañón Overlord M405]
+Tarea：Reparar el Overlord M405 en el 7º Puesto de Guardia Oriental
+Compañera：Lisa：
+Plazo：5 días
+Lleva a Lisa a la mina y consigue 10 Minerales de Alta Calidad\i[342]
+Después, repara el cañón en el 7º Puesto de Guardia Oriental.
+
+Lisa/C130_3_Accept
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡No encontrarás esa cosa en todo Noertown! Además, necesitamos una decena de mi-ne-ra-les de alta calidad.
+\CamCT\m[flirty]\plf\c[6]Lona：\C[0]    ¿Minerales? ¿Los necesitas para dárselos a tus padres?
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¿De qué te ríes? ¡Me abandonaron cuando supieron que era mestiza!
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+\CamMP[UniqueLisa]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    Sí, mestiza... Lo que sale cuando un goblin se folla un agujero. ¿Qué, no ves mis orejas?... \m[sad]
+\CamMP[UniqueLisa]\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa：\C[0]    ¡Ah, basta de mirarme así! Ahora todo está bien, soy libre y estoy a tu servicio, ¡je!
+\CamMP[UniqueLisa]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\C[0]    Pero si quieres reparar el ¡BUMBASTICO de verdad, ¡vamos a las minas!
+\CamCT\m[flirty]\plf\c[6]Lona：\C[0]    ¡Entendido!
+
+Lisa/C130_3_2
+\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡Más rápido! ¡Ya siento cómo me llama el ¡BUMBASTICO!
+
+Lisa/QuestLisa_1_1
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    ¡Alto! ¿Quién va?
+\SETpr[LisaNormal]\plf\Rshake\c[4]Lisa：\C[0]    ¡Eh! ¡Soy yo! ¿Qué, hace mucho que no nos vemos?
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    Ah, ¿la mestiza trajo una amiga? ¡Hacía tiempo que no te veía!
+\SETpr[LisaHappy]\plf\Rshake\c[4]Lisa：\C[0]    Quiero intercambiar. ¿Tienes mi-ne-ra-les de alta calidad para vender?
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    No, ahora es difícil. Las profundidades de la mina están infectadas de parásitos, y lo que queda está reservado para el cuartel de guardia.
+\SETpr[LisaNormal]\plf\Rshake\c[4]Lisa：\C[0]    ¡Ah, qué mierda! ¿Acaso no podemos encontrarlos nosotros mismos en tu mina?
+\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]Lisa：\C[0]    ¡Esta hermana es dura como el acero! ¡Puede salir de cualquier mierda! ¡Tiene huevos de acero!
+\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]Lisa：\C[0]    ¡No importa qué monstruo aparezca, ella lo derribará fácilmente!
+\SETpl[Mreg_guardsman]\Lshake\prf：\C[0]Vigilante：\C[0]    ¿Ella? \..\..\.. No parece muy guerrera.
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿Yo?
+\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa：\C[0]    Tú puedes derribar a cualquier monstruo, ¿verdad?
+\m[flirty]\plf\c[6]Lona：\C[0]    Ehh...
+
+Lisa/QuestLisa_1_board
+\board[Minerales de Alta Calidad]
+Lona no sabe cómo lucen los Minerales de Alta Calidad.
+Solo Lisa puede indicar dónde están estos minerales.
+Los Minerales de Alta Calidad solo pueden verse si Lisa está cerca.
+
+Lisa/QuestLisa_2_done
+\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡Ya está, tenemos suficientes minerales! ¡Vamos!!
+\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡Malditos insectos, quiero hacer sopa con ellos si no se alejan de mí!
+
+Lisa/QuestLisa_3_CP0
+\m[triumph]\plf\c[6]Lona：\C[0]    ¡Señor! ¡Traigo a alguien que se encargará de las reparaciones!
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Artillero：\C[0]    ¡Buen trabajo!
+
+Lisa/QuestLisa_3_CP1
+\SETpl[LisaBereft]\Lshake\prf\c[4]Lisa：\C[0]    ¡¡BUMBASTICO!! U-uh, ¡cómo te han maltratado!...
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Q-Qué pasa? ¿Podrás repararlo?
+\SETpl[LisaTriumph]\Lshake\prf\c[4]Lisa：\C[0]    ¡¿Estás bromeando?! ¡Es pan comido!
+\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa：\C[0]    ¿Quién crees que soy? ¡Claro que puedo repararlo! ¡Pásame los minerales!
+
+Lisa/QuestLisa_3_CP2
+\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡Ahora, mira con atención! ¡El BUMBASTICO estará como nuevo!
+
+Lisa/QuestLisa_3_CP3_end
+\SETpr[LisaHappy]\SETpl[Lawbringer]\Rshake\plf\c[4]Lisa：\C[0]    ¡Listo! ¿Quién quiere probarlo primero? ¡Ahora no habrá problemas!
+\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    ¡Magnífico! Luce exactamente igual que cuando lo recibimos por primera vez.
+\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Tu padre estaría orgulloso de ti. No solo sabe fabricar armas para nosotros...
+\SETpl[Lawbringer]\Lshake\prf\c[4]Artillero：\C[0]    Sino que también logró enseñar a una mestiza a repararlas tan bien. Agradécele por eso.
+\SETpr[LisaAngry]\Rshake\plf\c[4]Lisa：\C[0]    \..\..\..\..
+\CamCT\m[shocked]\SETpl[LisaAngry]\plf\Rshake\c[6]Lona：\C[0]    Emm... ¡Quiere decir que todos estamos agradecidos por tu trabajo!
+
+Lisa/QuestLisa_3_CP3_end1
+\SETpl[Lawbringer]\SETpr[LisaNormal]\Lshake\prf\c[4]Artillero：\C[0]    Como recompensa por las reparaciones, puedes entregar este certificado al servicio de seguridad para el pago.
+\SETpr[nil]\SETpl[LisaAngry]\prf\c[4]Lisa：\C[0]    \..\..\..\SETpl[LisaTriumph]\Lshake ¡Bueno, creo que lo hicimos genial! ¡Vamos a celebrar y a VOLAR ALGO!
+\SETpl[Lawbringer]\m[normal]\Lshake\prf\c[4]Artillero：\C[0]    Otra vez, gracias a las dos. Llamaré a alguien para que la lleve de vuelta. Y, señorita. ¿No escuché tu nombre?
+\CamCT\m[pleased]\plf\Rshake\c[6]Lona：\C[0]    ¡Me llamo Lona!
+
+####################################--------------------- LISA SouthFL quest
+
+SouthFL_11/begin
+\CBct[8]\m[flirty]\plf\c[6]Lona：\C[0]    E-em... Tengo una petición para ti.
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa：\C[0]    ¿Qué quieres, Lona? ¡Una vez me ayudaste, ahora te ayudaré yo!
+
+SouthFL_11/begin_board
+\board[Escolta al 7º Puesto Oriental]
+Tarea：Acompañar a Lisa
+Cliente：Campamento de las Puertas del Sur
+Plazo：#{$story_stats["HiddenOPT1"]} días
+Acompaña a Lisa al \c[4]7º Puesto de Guardia Oriental：\C[0].
+
+SouthFL_12/Joined0
+\CBct[8]\m[flirty]\plf\c[6]Lona：\C[0]    Un grupo de soldados al sur de Sibaris dijo que necesitan ese cañón Overlord, o como se llame...
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡Por última vez! ¡Se llama BUMBASTICO!
+\CBct[6]\m[confused]\plf\c[6]Lona：\C[0]    Uh, bien. BUMBASTICO. Necesitan tu ayuda.
+\CBid[-1,20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa：\C[0]    ¡No se escucha! ¡Habla claro!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    En resumen, tu cañón es famoso, y tú y yo también, parece. Ahora nos piden ayuda.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    Podemos trabajar juntas para hacer pedazos a los demonios.
+\CBid[-1,8]\SETpl[LisaAngry]\m[confused]\Lshake\prf\c[4]Lisa：\C[0]    \..\..\..
+\CBid[-1,4]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa：\C[0]    ¡Bravo!
+\CBct[20]\m[flirty]\plf\c[6]Lona：\C[0]    ¿Qué?
+\CBid[-1,3]\SETpl[LisaTriumph]\Lshake\prf\c[4]Lisa：\C[0]    ¡Iré contigo! ¡Vamos a dispararle a la carne!
+\CBct[20]\m[pleased]\plf\c[6]Lona：\C[0]    ¡Genial, vamos juntas!
+
+####################################--------------------- LISA SouthFL quest on eastCP
+
+Lisa7/begin0
+\CBct[8]\m[flirty]\plf\c[6]Lona: \C[0]    Oh... Hola, me alegra verte de nuevo.
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¿Mmm? Tú debes ser... Lona, ¿verdad?
+\CBfE[20]\SETpr[LisaHappy]\plf\Rshake\c[4]Lisa: \C[0]    ¡Hola! ¿Cómo estáis?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¿La mestiza también está aquí?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¿Qué ocurre? Todavía tengo suficiente pólvora, y los Pezpiel se han calmado.
+\CBct[8]\m[confused]\plf\c[6]Lona: \C[0]    Hmm... Los soldados del Campamento de la Puerta Sur quieren que les entregues el cañón Overlord.
+\CBct[8]\m[flirty]\plf\c[6]Lona: \C[0]    Ahora mismo están siendo atacados por demonios de carne y les está costando defenderse.
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¿Entregar el cañón? ¿De qué estás hablando?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¡Solo lo mencioné en mi carta, pero nunca pensé en deshacerme de él!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¿Eh? ¡¿Qué?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¡Ajá! ¡Solo quieren llevárselo gratis! ¡Ni hablar! ¡Necesitamos algo a cambio!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡¿Pero si ni siquiera sabéis usarlo?! ¿No sería mejor dárselo a alguien que pueda aprovechar su potencial?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    Todos debemos trabajar juntos para vencer a los monstruos, ¿no?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    Niña, cada arma es propiedad del ejército, solo los estúpidos Sibaritas intentan robarnos algo.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    Aunque he perdido mi ciudad natal, todavía quiero sentarme a comer algo.
+\CBct[8]\m[sad]\plf\c[6]Lona: \C[0]    Yo... Lo siento...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¡No! ¡Dile que venga él mismo! Nos mira por encima del hombro, enviando a dos pequeños fantasmas a hacer su trabajo.
+
+Lisa7/begin1
+\CBfE[20]\SETpr[LisaAngry]\plf\Rshake\c[4]Lisa: \C[0]    ¡Oye! ¿Estás diciendo que mi cañoncito nunca ha sido usado?
+\CBfE[5]\SETpr[LisaAngry]\plf\Rshake\c[4]Lisa: \C[0]    ¿Qué? ¿Que mi gran EXPLOTADORA se quedará aquí?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¡Hum! Incluso si el arma fue diseñada por vos, no os la llevaré, especialmente porque nadie sabe cómo usarla.
+\CBfE[8]\SETpr[LisaAngry]\plf\Rshake\c[4]Lisa: \C[0]    \..\..\..
+
+Lisa7/begin2
+\CBfE[20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa: \C[0]    ¡Oye! Hermana, ¿hay artillería en el Campamento de la Puerta Sur?
+\CBct[8]\m[tired]\plf\c[6]Lona: \C[0]    Creo... que vi algo cuando me fui.
+
+Lisa7/begin3
+\CBfE[8]\SETpr[LisaAngry]\plf\Rshake\c[4]Lisa: \C[0]    \..\..\..
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]Lisa: \C[0]    En ese caso, tendré que eliminar el sistema de control de fuego y convertirlo en un rifle normal con retardo de cerrojo.
+\CBfE[20]\SETpr[LisaAngry]\plf\Rshake\c[4]Lisa: \C[0]    Ahora podéis iros todos, y yo podré ver a la EXPLOTADORA en acción.
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]Lisa: \C[0]    ¡Esperad en el campamento el cañón modificado!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    \..\..\..
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¿Entonces será como un cañón normal? ¿Un cañón que podamos manejar correctamente?
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]Lisa: \C[0]    ¡Sí!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    ¡Bien! Trato hecho.
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    ¡Perfecto!
+
+Lisa7/begin4
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    Hermana, ¡ve y cuéntales esto!
+\CBct[6]\m[flirty]\plf\c[6]Lona: \C[0]    ¡Oh, sí!
+
+Lisa7/begin5
+\CBct[2]\m[confused]\plf\c[6]Lona: \C[0]    Esto... ¿qué es?
+\CBfE[20]\SETpr[LisaNormal]\plf\Rshake\c[4]Lisa: \C[0]    ¡Piezas de repuesto! Me encantan, y puedo convertir cualquier cañón en una EXPLOTADORA.
+\CBct[2]\m[flirty]\plf\c[6]Lona: \C[0]    ¿Oh?
+
+Lisa7/begin6
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    Bueno, aunque estoy muy molesto, os dejaré ir esta vez para ayudaros.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Oficial de artillería: \C[0]    Adelante, buena suerte.
+\CBct[2]\m[confused]\plf\c[6]Lona: \C[0]    Ehh... ¿gracias?
+
+Lisa7/begin7
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    ¿Lista?
+\CBct[8]\m[flirty]\plf\c[6]Lona: \C[0]    Hmm... ¿Ir al \c[4]Campamento de la Puerta Sur\C[0]?
+\CBfE[3]\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    ¡Genial!
+
+Lisa7/begin5_board
+\board[Escolta al Campamento de la Puerta Sur]
+Tarea: Acompañar a Lisa
+Cliente: Campamento de la Puerta Sur
+Plazo: #{$story_stats["HiddenOPT1"]} días
+Acompaña a Lisa al \c[4]Campamento de la Puerta Sur\C[0].
+
+####################################--------------------- LISA SouthFL quest on eastCP
+
+Lisa8/Begin1
+\CBct[6]\m[flirty]\plf\c[6]Lona: \C[0]    Eh... ¿Hola?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Eres tú! ¿Has vuelto viva?
+\CBct[2]\m[confused]\plf\c[6]Lona: \C[0]    Ehh... ¿viva?
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Quién es esta niña?
+\CBfE[20]\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    ¡Idiota! Soy \c[6]Lisa\C[0]. Me gustan las explosiones. ¡\c[6]Lisa\C[0]!
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Qué?
+\CBct[20]\m[confused]\plf\c[6]Lona: \C[0]    Ella fue la creadora de ese gran cañón.
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa: \C[0]    ¡Es la EXPLOTADORA!
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Hmm... bien, ¿y qué hay del cañón? ¿Por qué no lo veo?
+\CBct[6]\m[flirty]\plf\c[6]Lona: \C[0]    Ehh... Entre las dos no podemos cargarlo.
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡¿Qué?! ¿No se suponía que Noër ayudaría?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Cuándo llegará el momento de luchar juntos contra estos monstruos?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Cuándo recuperaremos nuestro hogar?
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    Esperad, no os enfadéis. Han sido atacados por los Profundos.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡¿Los Profundos?! ¿No habían sido expulsados de esta isla hace mucho tiempo?!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡Perdonad! En fin... es... por varias razones y luego...
+
+Lisa8/Begin2
+\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa: \C[0]    !!!!
+
+Lisa8/Begin3
+\CBid[-1,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Espera, ¿qué está haciendo esta niña?
+\CBct[6]\m[confused]\plf\c[6]Lona: \C[0]    ¿Eh?
+
+Lisa8/Begin4
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡Lisa! ¿Qué estás haciendo?
+
+Lisa8/Begin5
+\CBfE[20]\SETpl[LisaTriumph]\Lshake\prf\c[4]Lisa: \C[0]    ¡LISTO!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡¿QUÉ DEMONIOS...?! ¿Qué es esta basura? ¿Por qué mi hermoso cañón se ha convertido en un MONTÓN DE CHATARRA enorme?!
+\CBfE[20]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa: \C[0]    ¡EXPLOTADORA! ¡Ahora puede destruir al enemigo a kilómetros de distancia!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa: \C[0]    Mi arte, el mejor de los cañones. ¿Tenéis alguna objeción?
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡BASTA! ¡Devuélveme mi cañón a su estado original! ¡O ordenaré que te degüellen por sabotaje!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona: \C[0]    ¡SEÑOR! P-por favor, esperad, ¡no deberíais enfadaros!!!
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡Si miras desde un lugar seguro, puedo mostrarte lo poderoso que puede ser este cañón mejorado!
+
+Lisa8/Begin6
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    \..\..\..
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡HMMPF! ¡Entonces venid conmigo!
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Si esta... "mejora" no es tan impresionante como decís, ¡me desharé personalmente de vosotras dos!
+
+Lisa8/Begin7
+\CBct[8]\m[flirty]\plf\c[6]Lona: \C[0]    Uf... No habrá accidentes, confiad en la tecnología de Lisa.
+
+Lisa8/Begin8_board
+\board[Ir a la prueba de disparo]
+Tarea: Acompañar a Lisa
+Cliente: Campamento de la Puerta Sur
+Plazo: #{$story_stats["HiddenOPT1"]} días
+Acompaña a Lisa a las defensas del \c[4]Campamento de la Puerta Sur\C[0].
+Y mostrad a los viejos el poder llamado OVERLORD.
+Decidles que llega una nueva era y que el tiempo de los viejos ha pasado.
+
+####################################--------------------- LISA SouthFL quest on Warfare
+
+Lisa9/Begin0
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Estáis listas?
+\CBct[6]\m[flirty]\plf\c[6]Lona: \C[0]    Sí.
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Por qué creéis que es poderosa? ¿De dónde viene la energía?
+\CBid[-1,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Por delante tenéis basura para disparar.
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Muéstrame lo que llamas el cañón Overlord.
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona: \C[0]    ¡Sí, señor!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa: \C[0]    ¡Volved pedazos de carne en añicos!
+\CBfE[20]\SETpl[LisaNormal]\Lshake\prf\c[4]Lisa: \C[0]    ¡Estoy emocionada con la EXPLOTADORA!
+\CBct[6]\m[serious]\plf\c[6]Lona: \C[0]    ¡No hay problema! ¡Lo haré!
+
+Lisa9/Done0
+\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    \..\..\..
+\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    En realidad... Es tal como dijo esta niña.
+\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    ¡Claro! ¡Soy una inventora!
+\m[flirty]\plf\c[6]Lona: \C[0]    Oh... ¿Esto prueba que esta cosa es útil?
+\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Hmm...
+
+Lisa9/NotYet
+\CBid[-1,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Déjame ver!
+
+Lisa10/Begin0
+\CBfE[5]\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    ¿Qué pasa?
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Qué?
+\CBct[8]\m[flirty]\plf\c[6]Lona: \C[0]    Eh... ¿Quiere que elogies su cañón?
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Hmm... ¿Muy bien?
+\CBfE[3]\SETpr[LisaTriumph]\plf\Rshake\c[4]Lisa: \C[0]    ¡Yuju!
+
+Lisa10/Begin1
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Precisión muy impresionante. Pero llevará tiempo que nuestros soldados aprendan a usarla.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Desafortunadamente, no tenemos tiempo.
+\CBct[8]\m[flirty]\plf\c[6]Lona: \C[0]    Es verdad...
+
+Lisa10/Begin2
+\CBmp[Guard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡Atención todos! ¡Algo se acerca!
+
+Lisa10/Begin3
+\CBmp[Guard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡Es una persona viva! ¡Un superviviente!
+
+Lisa10/Begin4
+\CBmp[Refugee,6]\Lshake\prf\c[4]Superviviente: \C[0]    ¡Ayudadme!
+
+Lisa10/Begin5
+\CBmp[Refugee,6]\Lshake\prf\c[4]Superviviente: \C[0]    ¡No quiero! ¡No quiero morir!
+
+Lisa10/Begin6
+\CBmp[Refugee,6]\Lshake\prf\c[4]Superviviente: \C[0]    ¡No! ¡No vengáis aquí!
+
+Lisa10/Begin7
+\CBct[8]\m[flirty]\plf\c[6]Lona: \C[0]    Eh... ha muerto.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Esto no es bueno, le sigue un gran grupo de demonios de carne.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Todos! ¡Preparaos para luchar!
+\CBmp[Guard,6]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado: \C[0]    No estoy listo para morir...
+
+Lisa10/Begin8
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Eh! ¡Tú!
+\CBct[2]\m[flirty]\plf\c[6]Lona: \C[0]    ¿Quién? ¿Yo?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Sí, tú! ¡Lona! ¡Ve al cañón!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¡Sí, señor!
+
+Lisa10/Begin9
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Eh, tú! ¡Lleva a Lisa de vuelta al fuerte sana y salva!
+\CBmp[Guard,3]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado: \C[0]    ¡Sí!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa: \C[0]    ¡No! ¡Quiero oírlos gritar!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Los que no luchen aquí solo estorbarán. Llévatela ahora mismo. ¡Ahora!
+\CBfE[5]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa: \C[0]    ¡No, la EXPLOTADORA!
+
+Lisa10/Begin10
+\CBct[20]\m[flirty]\plf\c[6]Lona: \C[0]    Eh... Lisa, desde la torre de vigilancia del campamento podrás ver toda la ciudad, incluyendo este lugar.
+\CBct[20]\m[confused]\plf\c[6]Lona: \C[0]    No querrás más de esto, ¿verdad?
+\CBfE[8]\SETpl[LisaSad]\Lshake\prf\c[4]Lisa: \C[0]    \..\..\..
+\CBfE[20]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa: \C[0]    Bueno, me voy, cuídate.
+\CBct[3]\m[triumph]\plf\Rshake\c[6]Lona: \C[0]    Gracias, lo haré.
+
+Lisa10/Begin10_board
+\board[Buscar al enemigo]
+Tarea: Matar a todos los monstruos
+Cliente: Equipo de artillería
+Plazo: Ahora
+¡Hagamos que los monstruos huelan la pólvora, no dejemos ni uno con vida!
+
+Lisa10/NotYet
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Los demonios de carne se acercan! ¡Daos prisa!
+
+Lisa11/Win0
+\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Hemos sobrevivido! ¡Somos los vencedores!
+
+Lisa11/Lose0
+\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]   Maldita sea... ¡RETIRADA!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado: \C[0]    ¿Qué... Qué demonios es eso?!
+\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    \..\..\..¿Eh?
+
+Lisa12/begin0_Win
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Has hecho un gran trabajo, este fue el mayor ataque que hemos enfrentado, y aún así lograste repelerlo.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    Eh... el cañón de Lisa tuvo mucho que ver...
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Es eso cierto...?
+
+Lisa12/begin0_Lose
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Tenían razón, debí haber creído, ¡debí haber creído antes!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Perdóname, oh Santo!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ¿Feliz?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡¿No lo viste?! ¡Es el Santo! ¡El Santo envió la llama purificadora!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona: \C[0]    ¿Hmm?
+
+Lisa12/begin1
+\CBmp[Guard,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado: \C[0]    ¡Mi señor! ¡Malas noticias!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Qué? ¿Qué ocurre?
+\CBmp[Guard,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Soldado: \C[0]    Fuimos atacados por demonios en el camino, y se llevaron a la niña.
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona: \C[0]    ¿¡Eh?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¿Así que solo tú regresaste con vida?
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona: \C[0]    ¡No! ¡Tenéis que salvarla! ¡Esos monstruos la devorarán si no la rescatáis!
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡No es mi culpa, no es mi culpa! ¡Ella escapó!
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡Definitivamente no sobrevivirá si la arrastran al nido!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona: \C[0]    ¡Dime rápido adónde fue!
+\CBmp[Guard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Soldado: \C[0]    ¡Al norte, a la ciudad! ¿Vas a ir sola?
+
+Lisa12/begin2_Win
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Son reclutas. No podemos entrenar a nuestra gente, todos son nuestros.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    Vuelve al campamento y mira. Si es posible, contrata gente.
+
+Lisa12/begin2_Lose
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurión: \C[0]    ¡Encomienda su vida al Santo, creo que el Santo la salvará!
+
+Lisa12/begin3_Board
+\board[Salvar a Lisa]
+Tarea: Ve a la Guarida Norte de los Demonios de Carne y salva a Lisa.
+Cliente: Lona
+Plazo: 3 días
+Los demonios de carne se llevaron a Lisa y debo salvarla lo antes posible.
+¿Como dijo el soldado, tal vez al norte? ¿En la ciudad?
+
+Lisa12/begin4
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona: \C[0]    Lisa...
+
+Lisa10/QmsgFailed
+Salir hará que fallen la misión.
+
+###############################################################################################################################     Encontrar a Lisa en la colmena 3
+###############################################################################################################################     Encontrar a Lisa en la colmena 3
+###############################################################################################################################     Encontrar a Lisa en la colmena 3
+
+Lisa12/Hive3_Bios
+\CBmp[Pant,19]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    Esto... ¿los pantalones de Lisa?
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Ella está aquí...
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Espero que siga con vida...
+
+Lisa12/Hive3_Bios_board
+\board[Salvar a Lisa]
+Misión: Adentrarse en la Colmena de los Demonios de Carne
+Cliente: Lona
+Cada segundo cuenta. Lisa no aguantará mucho tiempo, debes actuar rápido.
+
+###############################################################################     ÁREA HEV
+Lisa12/rg13_HEV0
+\narr Hoy es un día digno de celebración, el demonio de carne ha capturado nueva presa.
+
+Lisa12/rg13_HEV1
+\c[4]Lisa:\C[0]    ¡Monstruo! ¡Suéltame!
+
+Lisa12/rg13_HEV1_1
+\narr Una hembra fresca, el demonio de carne decide convertirla en el mejor receptáculo de semen.
+
+Lisa12/rg13_HEV2
+\c[4]Lisa:\C[0]    ¡No me gusta esto! ¡Voy a morderte!
+
+Lisa12/rg13_HEV3
+\c[4]Lisa:\C[0]    ¡AAAAAH! ¡Detente!
+
+Lisa12/rg13_HEV4
+\c[4]Lisa:\C[0]    ¡Ahhhh!!!
+
+Lisa12/rg13_HEV5
+\c[4]Lisa:\C[0]    ¡No me gusta! ¡No me mates!
+
+Lisa12/rg13_HEV6
+\narr Los tentáculos del demonio de carne se agitan constantemente dentro del útero.
+\narr e inyectan fluidos en su cuerpo como prueba.
+\narrOFF\c[4]Lisa:\C[0]    ¡Oh Ahhh!! ¡No me gusta! ¡Basta!
+\narr ¡Han descubierto que es un útero perfecto!
+
+Lisa12/rg13_HEV7
+\c[4]Lisa:\C[0]    \...\..\...!!!!
+\Rshake\c[4]Lisa:\C[0]    ¡Ay, monstruo... No me gusta, no me gusta cuando me acaricias ahí!
+
+Lisa12/rg13_HEV8
+\c[4]Lisa:\C[0]    ¡¿Ahhhhh?!
+\Rshake\c[4]Lisa:\C[0]    ¡Oh ah!!!\n ¡No, basta! ¡No, basta!!!
+
+Lisa12/rg13_HEV9
+\c[4]Lisa:\C[0]    ¡Duele! ¡No otra vez!
+\narr Al demonio de carne le importan un bledo los gritos del vientre.
+Cuanto más llora el útero, más saludable está.
+
+Lisa12/rg13_HEV10
+\c[4]Lisa:\C[0]    ¡Ahhhhh!!!
+
+Lisa12/rg13_HEV11
+\c[4]Lisa:\C[0]    Ahhh.... Déjame ir, por favor, déjame ir...
+\narr El demonio de carne inyecta una gran cantidad de fluido en el cuerpo de Lisa...
+
+Lisa12/rg13_HEV12
+\c[4]Lisa:\C[0]    ¡Uhhhh!!!
+\Rshake\c[4]Lisa:\C[0]    ¡No, basta!!!!!
+
+Lisa12/rg13_HEV13
+\narr El útero pierde gradualmente todos los sentidos excepto el deseo sexual, y este nuevo útero no es la excepción.
+\narr Pero antes de que se complete la transformación, solo siente dolor...
+\narr Por supuesto, al demonio de carne no le importa.
+\narr Decide acelerar la transformación de este útero.
+
+Lisa12/rg13_HEV14
+\c[4]Lisa:\C[0]    ¿Qué vas a hacer? ¡Detente!
+
+Lisa12/rg13_HEV15
+\c[4]Lisa:\C[0]    ¡Yahhhh!¡ahhh!¡ahhh!
+
+Lisa12/rg13_HEV16
+\c[4]Lisa:\C[0]    Eres malvado, malvado...
+
+Lisa12/rg13_HEV17
+\c[4]Lisa:\C[0]    Huuuu... Fuuuu. Gu na...
+\narr Los tentáculos del demonio de carne atraviesan todo el cuerpo desde el recto hasta el esófago, y salen por la boca.
+\narr El dolor es tan intenso que el útero pierde la sensibilidad...
+\narr Pero la transformación apenas comienza...
+
+###############################################################################     Fin HEV
+
+Lisa12/rg13_end
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    !!!!!!
+
+Lisa12/triggerHer0
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡¿\c[4]Lisa\C[0]?! ¿Estás bien?
+\CBid[-1,8]\prf\c[4]Lisa:\C[0]    Wu...
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Wu... Esto es horrible.
+
+Lisa12/triggerHer0_board
+\board[Llevar a Lisa lejos de aquí]
+Misión: Sacar a Lisa del nido de monstruos. Lisa debe estar cerca de la salida.
+Cliente: Lona
+Plazo: #{$story_stats["HiddenOPT1"]} días
+Encontré a Lisa, pero su estado es terrible, con rastros de parásitos por todo el cuerpo.
+¡Debemos sacarla de aquí inmediatamente!
+
+Lisa12/triggerHer1
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona:\C[0]    No temas, tu hermana mayor te sacará de aquí.
+\CBid[-1,8]\prf\c[4]Lisa:\C[0]    ......
+
+Lisa13/triggerHer0
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡¿\c[4]Lisa\C[0]?!
+
+Lisa13/triggerHer1
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona:\C[0]    ............
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona:\C[0]    .....
+\CBct[6]\m[sad]\plf\Rshake\c[6]Lona:\C[0]    Lo siento\..\..\.. Llegué tarde...
+
+Lisa13/Qmsg0
+Lisa se ha convertido en un criadero
+
+Lisa13/Qmsg1
+Parte del nido
+
+Lisa13/Qmsg2
+Lo siento....
+
+Lisa14/LisaNotInR50
+¡Lisa debe estar cerca de la salida!
+
+Lisa14/CommonConvoyTarget0
+\CBid[-1,8]\c[4]Lisa:\C[0]    ............
+
+Lisa14/CommonConvoyTarget1
+\CBid[-1,8]\c[4]Lisa:\C[0]    ........
+
+Lisa14/CommonConvoyTarget2
+\CBid[-1,8]\c[4]Lisa:\C[0]    ....
+
+Lisa15/ExitHive3
+\m[tired]\plf\PRF\c[6]Lona:\C[0]    Logramos escapar, y estarás bien....
+\c[4]Lisa:\C[0]    ....
+
+Lisa15/begin0_board
+\board[Encontrar a Elise]
+Misión: Llevar a Lisa a la Clínica Ginecológica de Elise
+Cliente: Lona
+Plazo: #{$story_stats["HiddenOPT1"]} días
+Debo encontrar un buen médico para curar a Lisa.
+El tiempo es limitado, debo actuar ahora.
+
+###############################################################################################################################     Lisa con Elise
+###############################################################################################################################     Lisa con Elise
+###############################################################################################################################     Lisa con Elise
+
+Lisa16/ElisaTalk0
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡Ja! Hermana, justo tengo algo que mostrarte.
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡\c[4]Elise\C[0]! ¡Ayuda! ¡Ayúdala!
+\CBid[-1,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    ¿Eh? Escúchame...
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡Date prisa! ¡Luego me lo cuentas!
+
+Lisa16/ElisaTalk1
+\narr\.....\.....\.....
+
+Lisa16/ElisaTalk2
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona:\C[0]    ¿Realmente está bien? Su cuerpo estaba tan corrompido.
+\CBid[-1,3]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡No hay problema! ¡Estas cosas no me detienen!
+\CBid[-1,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Pero...
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¿Qué pasa? ¿Qué "pero"?!
+\CBid[-1,6]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Su cerebro también estaba infectado, el costo de su tratamiento es enorme!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    Yo... encontraré la manera, ¡pagaré lo que sea!
+\CBid[-1,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Hermana, tranquila, toma esto.
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona:\C[0]    ¿Dármelo? ¿Qué?
+
+Lisa16/ElisaTalk3_berY
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¿Recuerdas la medicina anterior? Esta es una muestra para producción masiva. ¡Tómala en caso de peligro!
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona:\C[0]    ¿Yo... voy a morir?
+\CBid[-1,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡No temas! He desentrañado el secreto de la vida y el último eslabón.
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    Solo cuéntame tus sensaciones al usarlo.
+
+Lisa16/ElisaTalk3_berN
+\CBid[-1,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Es mi última obra, tómala en caso de peligro!
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡Luego me cuentas tus sensaciones!
+\CBct[20]\m[fear]\plf\PRF\c[6]Lona:\C[0]    ¡Me lo tomaré, me lo tomaré!
+
+Lisa16/ElisaTalk4
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    La hermana sobrevivirá. ¡La hermana estará bien!
+
+Lisa16/ElisaTalk5
+\CBct[8]\m[tired]\PRF\c[6]Lona:\C[0]    ¿Y ahora...? ¿Qué hago...?
+
+Lisa16/Check0
+\CBid[-1,8]\m[sad]\prf\c[4]Lisa:\C[0]    .......
+\CBct[8]\m[tired]\PRF\c[6]Lona:\C[0]    ......
+
+Lisa16/Check1
+\CBid[-1,8]\m[tired]\prf\c[4]Lisa:\C[0]    ......
+\CBct[8]\m[sad]\PRF\c[6]Lona:\C[0]    ......
+
+Lisa16_17/StillThere0
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Hmm... ¿Cómo está Lisa?
+
+Lisa16_17/StillThere1_0
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Estoy tan enfadada! ¡Debes esperar!
+
+Lisa16_17/StillThere1_1
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Eres tan pesada! ¿Por qué no le preguntas tú?
+
+Lisa16_17/StillThere1_2
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡No apresures al médico!
+
+Lisa16_17/StillThere2_2
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Lo siento......
+
+Lisa16_17/NotThere0
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Maldición! No gané...
+\CBmp[elise,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    ¡Pagué tanto por esta basura!
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Gas, gas, gas!
+
+Lisa16_17/NotThere1
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Esto\..\..\..
+\CBid[-1,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    Se fue, ¡yo!
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿¡Murió?! ¿A dónde se fue?!
+\CBid[-1,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    ¿Cómo sé adónde fue? Claro que se fue después del tratamiento.
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¿¡QUÉ?! ¿Entonces a dónde fue?!
+\CBid[-1,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Se fue por su cuenta! ¡No sé más!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Ohh......
+
+Lisa18_19/InMarket0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡Lisa! ¿Estás bien?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Temía que fueras a...
+\CBid[-1,8]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa:\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[LisaHappy]\Lshake\prf\c[4]Lisa:\C[0]    Hermana, ¿huiste?
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Q-Qué? Yo...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    \..\..\..
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    No importa, olvídalo.
+\CBid[-1,5]\SETpl[LisaAngry]\Lshake\prf\c[4]Lisa:\C[0]    ¡Qué tontería!
+
+##--------------------------------------------------------------------------------------
+
+Lisa/dead
+\narr ¡Lisa ha caído en batalla!

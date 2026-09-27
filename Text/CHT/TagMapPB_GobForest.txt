@@ -1,0 +1,50 @@
+thisMap/OvermapEnter
+\m[confused]類獸人盤據的森林，遠處就可以聞到魔物的體臭。\optB[算了,進入]
+
+rg2/Begin_0
+\CBct[20]\m[confused]\Rshake\c[6]洛娜：\c[0]    嗯\..\..\..
+\CBct[6]\m[fear]\Rshake\c[6]洛娜：\c[0]    有魔物的味道...
+
+rg2/Begin_2
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{誰！
+
+rg2/Begin_3
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    ！！！！！！！
+
+rg2/Begin_4
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    .........
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    哈？ 跑掉了？！ 難道它怕我？
+
+rg3/begin0
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    嗯\..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    怎麼這麼多類獸人與深潛者的屍體？！ 這些魔物在自相殘殺嗎？
+
+Daughter/begin0
+\CBid[-1,6]\prf\c[4]難民：\c[0]    爸爸...媽媽....我好餓...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    妳是\c[4]瑪莉\c[0]嗎？
+\CBid[-1,8]\prf\c[4]難民：\c[0]    我是... 姐姐給我點吃的好嗎？
+\CBct[20]\m[tired]\PRF\c[6]洛娜：\c[0]    呃....我是來幫妳爸媽傳話的，妳家人在諾爾鎮等妳。
+\CBid[-1,2]\prf\c[4]難民：\c[0]    諾爾鎮？ 那是什麼？ 能吃嗎？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃....妳不知道嗎？\optB[算了,給她物資]
+
+Daughter/opt_nope
+\CBct[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    總之.\..\..那個..\..\..這個.\...\....
+\CBct[20]\m[tired]\PRF\c[6]洛娜：\c[0]    快點去諾爾鎮吧，妳家人都還活的好好的。
+\CBid[-1,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBid[-1,6]\prf\c[4]難民：\c[0]    好餓...好餓....
+
+Daughter/opt_give
+\narr洛娜翻找著身上的物品...
+
+Daughter/opt_give100
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    這些東西拿去吧，我僅能幫妳這麼多了。
+
+Daughter/opt_give2000
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    這些東西拿去吧，看是要去諾爾或是買吃的都可以。
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    我僅能幫妳這麼多了.....
+
+Daughter/opt_giveTY
+\CBid[-1,8]\prf\c[4]難民：\c[0]    謝謝...\...\...\...
+
+Daughter/END
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    唉...\...\...\...

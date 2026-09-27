@@ -1,0 +1,554 @@
+###################################################################################    TOWN
+#South Gate Campsite
+#DOGE + SYNCED
+
+ThisMap/OmEnter
+\m[confused]South Gate Camp\optB[Leave,Enter]
+
+ThisMap/OmEnterOP
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Hey!
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Yes?!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Are you human?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Open the gate, let her in!
+
+Exit/Qmsg
+Closed
+
+healerF/Qmsg0
+Saint!
+
+healerF/Qmsg1
+Help us!
+
+healerM/Qmsg0
+This is the Saint's punishment!
+
+healerM/Qmsg1
+Look at all of you! Despicable!
+
+healerM/Qmsg2
+This is the fate of the unbelievers!
+
+healerMInn/Qmsg0
+That's right! Shoot that filth!
+
+healerMInn/Qmsg1
+This isn't enough!
+
+healerMInn/Qmsg2
+We need women to take in the filth!
+
+healerFInn/Qmsg0
+Inject your foul air in me!
+
+healerFInn/Qmsg1
+Saint!
+
+healerFInn/Qmsg2
+The saints will save you!
+
+pregGirls/Qmsg
+......
+
+crazy/Qmsg0
+Hahahaha DEAD!
+
+crazy/Qmsg1
+HAHA, they're all dead...♥
+
+crazy/Qmsg2
+Hahahahaha!!!
+
+InnWork/Purge
+Purge the filth
+
+Priest/begin
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Priest：\c[0]    His body has been corrupted by evil darkness and filth，he has been taken over!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Priest：\c[0]    The only way to save him is to drain the filth from his body into a woman.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Priest：\c[0]    YOU! UNBELIEVER!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Me?!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]Priest：\c[0]    Quickly, cure him!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?!
+
+GuardDoomed/beginRNG0
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    I'm sick of this! These worms are driving me insane.
+
+GuardDoomed/beginRNG1
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    They've abandoned us, our world is doomed, right?
+
+GuardDoomed/beginRNG2
+\CBid[-1,20]\prf\c[4]Guard：\c[0]    I see them in my dreams every night...
+
+MaleDoomed/CommonHuman0
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    Hey，We're all fucked.
+
+MaleDoomed/CommonHuman1
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    We're all going to die，come and enjoy yourself before you do!
+
+MaleDoomed/CommonHuman2
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    We're dead，the saints have abandoned us!
+
+MaleDoomed/CommonHuman3
+\CBid[-1,20]\prf\c[4]Refugee：\c[0]    My body is full of worms! I must inject this filth into a woman's body so I can be cured!
+
+MainGuard/Begin
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Have you heard? Everything's gone to shit!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    The west of the city has fallen to the Orkinds，and the rest has been completely taken over by demons.
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    They both kill each other，but it's not like it helps!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Everyone's panicking! We're even leaving children behind!
+
+boardR/Begin1
+\board[Missing]
+Ada：Missing
+Bella：Missing
+Hannah：Deceased
+Mudd：Missing
+McGonagall：Missing
+Prudence：Missing
+Vicky：Deceased
+
+boardR/Begin2
+\board[Whores]
+We're sick of using rags!
+We want fresh women!
+Soldier's lives matter!
+Soldier's lives matter!
+
+boardR/Begin3
+\board[Attention]
+Everyone must remain patient and await for the evacuation order.
+There is no time for discussions of law and morality.
+Our main concern is to stay alive!
+
+Nap/GameOver0
+\narr Guard The Guard has only one way of curing infections...
+\narr With death...
+
+Tower/Go1
+\narr Lona climbed up the watchtower....
+\narrOFF\m[tired]\PRF\c[6]Lona：\c[0]    I wonder... What happened to my house?
+\prf\narr\..\..\..
+\narrOFF\bg[bg_Sybaris]\m[sad]\PRF\c[6]Lona：\c[0]    Where is the city center?
+\m[tired]\PRF\c[6]Lona：\c[0]    So my home should be....
+\m[sad]\prf\c[6]Lona：\c[0]    \..\..\..\PRF Collapsed...
+\m[tired]\PRF\c[6]Lona：\c[0]    *Sigh*...
+
+###################################################################################    INN
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    This is the \c[6]Hope inn\c[0]， But we're kinda all out of hope actually.
+
+##########trans note. keep name = Overlook Keep
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    This is....?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    This was originally an \c[6]Overlook keep\c[0].
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    When the disaster struck, it fell in a matter of days.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    When the black fog dispersed the \c[6]Sergeant：\c\c[0] used whatever was left of the fortress to build this camp.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    After that \c[6]Noer Town\c[0] Established \c[6]Hope Inn\c[0].
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    We've been taking and evacuating refugees since then, but I think that will end soon.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    As time goes on, fewer and fewer people show up, morale here has plummeted.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    Soon, there wont be anyone to be found.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]Guard：\c[0]    Heh, look at these people, we're no different from the refugees.
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well... Is there any way I can help?
+
+InnKeeper/About_work1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Are you looking for work?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    The Priests and nuns are looking for young women to help treat the infected refugees.
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    You seem.... Okay?
+\CBmp[Nurse,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Talk to the nun in that room over there.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    The nun? Okay, I'll do that.
+
+InnKeeper/About_work_failed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    There's currently no work for you.
+
+healerFInn/Work0_did
+\CBct[6]\m[shy]\PRF\c[6]Lona：\c[0]    I'm here to absorb the filth.
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Is that so? It seems you've chosen the holy path of righteousness.
+
+healerFInn/Work0_new
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    The Guard at the counter said you might need me?
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Another unbeliever driven by greed?
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Well, the saints will forgive you.
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Young female bodies must be used to absorb the foulness out of these people, but as you can see, I'm no longer young.
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    You will do, unbeliever.
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Me?!
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    The only way to cure them is to suck the filth out of them!
+
+healerFInn/Work_BodyCheck0
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Take off your clothes，let me see your nether.
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    What?!
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Take off your clothes, unbeliever!
+
+healerFInn/Work_BodyCheck1
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    Fine...
+
+healerFInn/Work_BodyCheck2
+\CBct[6]\m[shy]\PRF\c[6]Lona：\c[0]    Ugh...
+
+healerFInn/Work_VagLick0
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Your body is filthy，you must be a dirty slut and a liar.
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    But it's okay，the saints are forgiving, you need to clean your own body first.
+
+healerFInn/Work_VagLick1
+\CBid[-1,20]\prf\c[4]Nun：\c[0]    Very good，your body is clean.
+
+healerFInn/Work_accept0
+\CBct[8]\m[shy]\PRF\c[6]Lona：\c[0]    Hmm...
+
+healerFInn/Work_accept1
+\CBmp[Man3,1]\prf\c[4]Refugee：\c[0]    A woman! A young woman!
+\CBmp[Man4,4]\prf\c[4]Refugee：\c[0]    Hurry! Let me fuck you! It's the only way I can be cured!
+\CBmp[Man3,1]\prf\c[4]Refugee：\c[0]    I must inject my filth into her!
+\CBct[1]\m[fear]\PLF\c[6]Lona：\c[0]    Ugh...
+
+healerFInn/Work1
+\board[Treatment]
+Use your holes to receive as much filth from others as possible.
+The nun will inspect and determine the amount of filth and issue your payment based on your performance.
+
+healerFInn/WorkDOing_begin0_0
+\CBid[-1,6]\m[fear]\prf\c[4]Refugee：\c[0]    Saint! I beg of you! Give me a young woman to cure me!
+
+healerFInn/WorkDOing_begin0_1
+\CBid[-1,6]\m[fear]\prf\c[4]Refugee：\c[0]    Those fucking worms got inside my cock as I slept! I can still feel them!
+
+healerFInn/WorkDOing_begin0_2
+\CBid[-1,6]\m[fear]\prf\c[4]Refugee：\c[0]    Get them out of me! I can feel them squirming inside me!
+
+healerFInn/WorkDOing_begin0Guard_0
+\CBid[-1,6]\m[fear]\prf\c[4]Guard：\c[0]    You can cure me just by being fucked?
+
+healerFInn/WorkDOing_begin0Guard_1
+\CBid[-1,6]\m[fear]\prf\c[4]Guard：\c[0]    The saints are still with us!
+
+healerFInn/WorkDOing_begin0Guard_2
+\CBid[-1,6]\m[fear]\prf\c[4]Guard：\c[0]    Help me get these worms out!
+
+healerFInn/WorkDOing_begin1
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    A young woman! The Saint will heal all of us! Trust the Saint!
+
+healerFInn/WorkDOing_begin2
+\CBct[1]\Rshake\c[6]Lona：\c[0]    Huh?!
+
+healerFInn/WorkDOing_begin3
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    Let's go! Her young flesh will suck the filth out of you.
+
+healerFInn/WorkDOing_begin4
+\CBid[-1,20]\m[fear]\prf\c[4]Refugee：\c[0]    Thank you Saint!
+
+healerFInn/WorkDOing_begin4Guard
+\CBid[-1,20]\m[fear]\prf\c[4]Guard：\c[0]    Praise the Saint!
+
+healerFInn/WorkDOing_getSemen0
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    Sigh...
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    Come，let me inspect the filth in your body.
+
+healerFInn/WorkDOing_TotalScore0
+\narr Lona's body has received#{$story_stats["HiddenOPT1"]} points of sinful filth.
+
+healerFInn/WorkDOing_TotalScore1
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    Good，keep it up.
+
+healerFInn/WorkDOing_HerDialog
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    You've taken \c[6]#{$story_stats["HiddenOPT1"]}\c[0] of sinful filth.
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    Do you want to stop? Or keep going?\optB[Keep going,Stop]
+
+healerFInn/WorkDOing_HerDialog_end
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    That's enough filth for now.
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    A woman's body is sinful, people have been known to become liars because of the sins of women.
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    But, even if you're a greed driven sinner, the Saint will watch over you.
+
+healerFInn/WorkDOing_HerDialog_end_noReward
+\CBmp[Nurse,20]\prf\c[4]Nun：\c[0]    Oh Saint, forgive this greedy sinner!
+
+####################################################################################### QUESTS
+############################################ OP QUEST
+
+OpQuest/Begin0
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Wait... I remember this place.
+
+OpQuest/Begin1
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    What fortress is this?
+
+OpQuest/Begin2
+\CBct[6]\m[sad]\PRF\c[6]Lona：\c[0]    It's so damaged?
+\CBct[6]\m[tired]\PRF\c[6]Lona：\c[0]    I can't recognize it...
+
+OpQuest/Begin_INC0
+\prf\c[6]Guard：\c[0]    \{Look out! They're coming!\}
+
+OpQuest/Begin_INC1
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    What? Who's coming?
+
+OpQuest/Begin_INC2
+\CBmp[OPquestCount,20]\prf\c[6]Guard：\c[0]    \{From the North! The monsters are here!\}
+
+OpQuest/Begin_INC3
+\CBct[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    Monsters? Where?!
+
+OpQuest/Begin_RUN0
+\BonMP[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]Sergeant：\c[0]    Quick! Everyone seek shelter inside!
+
+OpQuest/Begin_WTF0
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    What are you still doing out here?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    I... I'm sorry!
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    There's no time! Get ready!
+
+OpQuest/Begin_WTF1
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    \{KILL!\}
+
+OpQuest/Wave2
+\CBmp[OPquestCount,20]\prf\c[6]Guard：\c[0]    \{FROM THE NORTH! BATS!\}
+
+OpQuest/Wave3
+\CBmp[OPquestCount,20]\prf\c[6]Guard：\c[0]    \{FROM THE SOUTH! SPIDERS!\}
+
+OpQuest/Win0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    There are monsters everywhere, how did you make it here?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I just...
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    No matter.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    A small, nimble woman like you can actually help us here.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Here, take this, use it to arm up.
+
+OpQuest/Win1
+\CBct[3]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Thank you!
+
+############################################## spawnPoolQuest
+
+Qprog2/PoolQuest_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    Since you made it here, I assume you can handle going outside, right?
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    Listen, I need someone to scout the forest to the west.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    I've sent scouts out before, but none have ever returned.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    I need you to find them, and see if they're still alive. We need to open a path towards Noer.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    This is extremely dangerous, but I need everyone who's willing to help in the fight against these monsters.
+
+Qprog2/PoolQuest_1
+\board[Search the Forest]
+Goal： Explore the forest to the west
+Reward： Unlock the travel station
+Client： South Gate Camp
+Term： Single
+Explore the forest to the west and search for the missing soldiers.
+
+Qprog2/PoolQuest_accept
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    So... How many soldiers did you send? 
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    Three.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]Sergeant：\c[0]    If you're surrounded, kill yourself, it's better than whatever these demons have in store for you.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh... Uh... Ok...
+
+Qprog5/PoolQuest_Done
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    You're back! Are you alone?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well... I don't know what to say... They're all dead.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Really?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I found a nest in the forest. They were turned into flesh demons.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    A lair?
+\CBmp[Leader,6]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Damn，how can we deal with his now...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Don't worry, the lair was destroyed.
+\CBmp[Leader,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    What?! How did you do that?
+
+Qprog5/PoolQuest_Done_Lona
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    I can't be sure, I walked over and clang clang? Then bang bang? And then whoosh whoosh? And it just exploded!
+
+Qprog5/PoolQuest_Done_DedHalp
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    N-no! It wasn't me... In short it was, the Saint's intervention. A light in the sky and then BOOM BOOM BOOM BOOM, BANG BANG BOOM BOOOOOOOOOOM!
+
+Qprog5/PoolQuest_Done_end
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    ......
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    And the lair is gone?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Yes.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    I'll send another scout to have a look.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    If that's true, that's one less weight off our shoulders.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    We should be able to make contact the outside world in a day or two, thank you.
+\CBct[3]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    You're welcome!
+
+Qprog6/WaitingAMT
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Rest and take a break, we're still trying to get in touch with the outside world.
+
+Qprog6/RaidOnEast_replay
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Oh, it's you!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    We've managed to contact the \c[6]Garrison HQ\c[0].
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    \c[6]South Gate Campsite\c[0]'s travel station is now active.
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    From now on you should be able to use the station to travel around.
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Great!
+
+Qprog7/RaidOnEast0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    A scout came across another incubation pool to the east, we need everyone we can muster!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Oh no! Another incubation pool?!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    We have to eliminate it now before it matures. Now move it!
+
+Qprog7/RaidOnEast1
+\board[Destroy the incubation pool]
+Goal： Destroy the incubation pool to the east
+Reward： Unlock the South Gate Campsite market
+Client： South Gate Campsite
+Term： Single
+Destroy the incubation pool to the east and send these disgusting demons back to where they came from!
+
+Qprog7/RaidOnEast_accept0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh, Okay.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    So where are we going...?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    No time! I'll explain on the way! Follow me!
+
+Qprog7/RaidOnEast_accept1
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Such rush...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    No time to even finish my question...
+
+Qprog9/RaidOnEast_reward
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh....
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Oh! You're back.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    We've finally managed to open a breach in our surroundings, and we shall soon be receiving reinforcements in \c[6]South Gate Campsite\c[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    About you...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    My soldiers have told me everything that happened, it seems you're not soldier material after all.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    I...
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    No shame, you're just a civilian. You did your best and failed...
+
+Qprog10/WaitingAMT_noLisa
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    I've been informed that \c[6]East Seven Sentry Point\c[0] has a powerful new weapon, I must find a way to get it.
+
+Qprog8/WaitingAMT_wait
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    You wanna help out? Go to the inn and ask the mercenary guild staff.
+
+############################################## Get Lisa
+
+Qprog11/LisaLine_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Hey! You're back!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I am.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    I need someone to travel to \c[6]Noer Town\c[0] and find two people. You are that someone.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    M-me?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    You must find the gunpowder dealer \c[6]Lisa\c[0] and the gunner \c[6]Lona\c[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    I've been informed they're staying in Noer, and we have a chance to break this stalemate with their help!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Umm... \c[4]Lona\c[0]??
+
+Qprog11/LisaLine_1
+\board[Find Lisa and Lona]
+Goal： Noer Town
+Reward： None
+Client： South Gate Campsite
+Term： Single
+Find the gunpowder dealer \c[6]Lisa\c[0] and the gunner \c[6]Lona\c[0].
+
+Qprog11/LisaLine_accept0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well... About that.... I'm Lona.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    You? For real? What's your name?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    For real. I'm Lona Falldin.
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Huh...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh?
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Small island, isn't it?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    So... what do you need me for?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Ahem... I've been informed that \c[6]East Seven Sentry Point\c[0] is in possession of a really powerful artillery piece.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    I hear they used this artillery piece developed by the gunsmith \c[6]Lisa\c[0] to bring down wave after wave of monsters.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    You're saying you're the gunner?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ugh... Yeah... That's definitely me...
+
+Qprog11/LisaLine_accept1
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    I've already sent a requisition letter to \c[6]East Seven Sentry Point\c[0].
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    Travel to Noer Town, find \c[6]Lisa\c[0], then go to the \c[6]East Seven Sentry Point\c[0], and bring us that artillery  piece.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    You're from Sybaris too right? Now's your chance to take back your home.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\c[0]    Got it sir, I will bring her here!
+
+Qprog11/LisaLine_accept2
+\board[Find Lisa]
+Goal： Noer Town
+Reward： None
+Client： South Gate Campsite
+Term： Single
+Find the gunpowder dealer \c[6]Lisa\c[0] And head to \c[6]East Seven Sentry Point\c[0] to retrieve their cannon.
+
+Qprog11/LisaLine_No
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh\..\..\.. \m[hurt]\Rshake I don't feel so good!
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Sergeant：\c[0]    ....
+
+############################################ INN QUEST
+
+QuestBoard/other_about
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    At first, refugees were all we had. Those who had lost their families came here seeking mercenary work.
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    Most of them never came back. Now all you see are soldiers from the \c[6]Garrison HQ\c[0] and the \c[6]Rudesind Trading Company[0].
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    Oh... And of course! The religious lunatics from the \c[6]Saint\c[0]'s church.
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    I'm not the only one who thinks the world has gone crazy right?
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    We barely have contact with the outside world, maybe you can help?
+
+QuestBoard/other_about_Prog10
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    Ha! I'm leaving, I got in contact with the guild again.
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    I'm sure they'll send someone to replace me.
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    FUCK THIS! I quit!
+
+QuestBoard/GiveUp
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    Huh? Give up?
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Guild Staff：\c[0]    Ugh....\optB[Never mind,About here,Cancel Quest<r=HiddenOPT0>]
+
+MercenaryGuild/QuProgSybBarn5
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uh... About that barn....
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    So you finished your task, right?
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\c[0]    There were in fact survivors there, but they turned on me for no reason.
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    Yeah, It's crazy out there, you got to watch your back.
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    If you managed to come back alive, that just shows you're stronger than most.
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona：\c[0]    Also, have you sent other mercenaries there?
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    Yes, that's right, this was an open contract, we pay whoever completes it first.
+\CBid[-1,20]\prf\c[4]Guild Staff：\c[0]    When we pinned the note, a bunch of others like you showed up, but I doubt most of them will be coming back.
+
+############################################## QBOARD
+
+QuestBoard/SybBarn
+The survivors in the barn
+
+QuestBoard/SybBarn_BOARD
+\board[The survivors in the barn]
+Goal： Investigate the barn next to the Southwest Gate
+Reward： 3 large copper coins
+Client： South Gate Campsite
+Term： Single
+Scouts report that there may be a large number of survivors hiding out in a barn next to the southern gate.
+We're unsure if these people are still human or not, and we simply don't have the manpower to investigate.
+
+noquestPOP/0
+There are no requests right now
+
+QuestBoard/SpiderLeg
+Mutated Spider's Leg
+
+QuestBoard/SpiderLeg_BOARD
+\board[Show 'em who's boss]
+Goal： Collect 10 abomination Mutated Spider's Leg\i[188]
+Reward： Large Copper Coin 2
+Client： South Gate Campsite
+Quest Term： Repeatable
+Our head chef has sampled and confirmed that these bug legs are pretty damn crunchy.
+An awesome choice for deep frying!
+
+MercenaryGuild/SpiderLeg_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\c[0]    Ew... These are the bug legs... Here you go.
+
+QuestBoard/BreedLingMeat
+Breedling's Thigh Meat
+
+QuestBoard/BreedLingMeat_BOARD
+\board[Breedling Thigh Meat]
+Goal： Collect 10 Breedling's Thigh Meat\i[190]
+Reward： Large Copper Coin 2
+Client： South Gate Campsite
+Quest Term： Repeatable
+Since they eat us. Why can't we eat them?
+
+MercenaryGuild/BreedLingMeat_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\c[0]    Ew... Here's the thigh meat... Here you go.
+
+QuestBoard/MonsterBone
+Mutated Monster's Bone
+
+QuestBoard/MonsterBone_BOARD
+\board[Abomination Bones]
+Goal： Collect 8 Mutated Monster's Bone\i[189]
+Reward： Large Copper Coin 4, Copper coin 
+Client： South Gate Campsite
+Quest Term： Repeatable
+We'd like to cook some bone soup.
+
+MercenaryGuild/MonsterBone_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\c[0]    Ew... Here's the bones you wanted...
+

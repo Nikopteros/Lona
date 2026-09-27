@@ -1,0 +1,1218 @@
+#--------------------------------       narr
+
+Lona/Group_disbanded
+\narr El equipo se ha disuelto.
+
+Lona/Follower_disbanded
+\narr El compañero de equipo se ha ido.
+
+Lona/FollowerExt_disbanded
+\narr El seguidor se ha ido.
+
+Lona/NarrDriveAway
+\narr Lona ha sido expulsada.
+
+#================================     OPT
+
+Lona/Decide_optD
+\m[confused]\c[6] Lona: \c[0]    ¿Eh? \optD[Aun no, Si]
+
+Lona/Decide_optB
+\m[confused]\c[6] Lona: \c[0]    ¿Eh? \optB[Aun no, Si]
+
+Lona/CompCommand
+\m[confused]\c[6] Lona: \c[0]    ¿Eh?
+
+Lona/EnterSub
+\m[confused]\c[6] Lona: \c[0]    ¿Entrar? \optB[Está bien, Entrar]
+
+Lona/SkipEv
+¿Saltar el evento? \optD[Saltar, reproducir]
+
+###################################################################     COMMON NAP RAPE
+#------------------------------------------------- Human
+
+Noer/NapRape_Human0
+\c[4] transeúnte: \c[0]    ¿Qué hace este renacuajo tirado aquí?
+
+Noer/NapRape_Human1
+\c[4] transeúnte: \c[0]    Je, je, ¿cómo es que este pequeño está tirado aquí?
+
+Noer/NapRape1_Human
+\c[4] transeúnte: \c[0]    Mmm, mmm.
+
+Noer/NapRape2_Human
+\narr Lona fue llevada en camilla.
+
+Noer/NapRape3_Human0
+\c[4] transeúnte: \c[0]    No pasa nada, solo quiero que me limpies el pito, ¿puedes hacerlo?
+
+Noer/NapRape3_Human1
+\c[4] transeúnte: \c[0]    ¿Te has despertado?
+
+Noer/NapRape3_Human2
+\c[4] transeúnte: \c[0]    ¡No digas tonterías, voy a follarte!
+
+
+
+Noer/NapRape_Moot0
+\c[4] transeúnte: \c[0]    ¿Qué hace este renacuajo tirado aquí?
+
+Noer/NapRape_Moot1
+\c[4] transeúnte: \c[0]    Je, je, ¿cómo es que esta pequeña está aquí tirada?
+
+Noer/NapRape1_Moot
+\c[4] transeúnte: \c[0]    Mmm, mmm.
+
+Noer/NapRape2_Moot
+\narr Lona fue llevada en camilla.
+
+Noer/NapRape3_Moot0
+\c[4] transeúnte: \c[0]    No pasa nada, solo quiero que me limpies el pito, ¿puedes hacerlo?
+
+Noer/NapRape3_Moot1
+\c[4] transeúnte: \c[0]    ¿Te has despertado?
+
+Noer/NapRape3_Moot2
+\c[4] transeúnte: \c[0]    ¡No digas tonterías, voy a follarte!
+
+
+
+
+Noer/NapRape_withSta_Fight2_Human0
+\c[4] transeúnte: \c[0]    Parece que quieres morir, ¿verdad?
+
+Noer/NapRape_withSta_Fight2_Human1
+\c[4] transeúnte: \c[0]    \{¿Te mereces una paliza?
+
+Noer/NapRape_withSta_Fight2_Human2
+\c[4] transeúnte: \c[0]    \{¿Cómo te atreves a resistirte?
+
+Noer/NapRape_withSta_NoFight2_Human0
+\m[sad]\c[4] transeúnte: \c[0]    Jujujuji♥
+
+Noer/NapRape_withSta_NoFight2_Human1
+\m[sad]\c[4] transeúnte: \c[0]    Jejejeje♥
+
+Noer/NapRape_withSta_NoFight2_Human2
+\m[sad]\c[4] transeúnte: \c[0]    Así se habla♥
+
+#moot.   igual que los humanos,  pero nibba
+
+Noer/NapRape_withSta_Fight2_Moot0
+\c[4] transeúnte: \c[0]    ¡Xiao Cha Mou! ¿¡Te vas a morir?!
+
+Noer/NapRape_withSta_Fight2_Moot1
+\c[4] transeúnte: \c[0]    \{¿Quieres que te peguen? ¡Sí!
+
+Noer/NapRape_withSta_Fight2_Moot2
+\c[4] transeúnte: \c[0]    ¡¡¡Tres pequeños!!! ¡Joder!
+
+Noer/NapRape_withSta_NoFight2_Moot0
+\m[sad]\c[4] transeúnte: \c[0]    Jijiji♥
+
+Noer/NapRape_withSta_NoFight2_Moot1
+\m[sad]\c[4] transeúnte: \c[0]    Jajaja♥
+
+Noer/NapRape_withSta_NoFight2_Moot2
+\m[sad]\c[4] transeúnte: \c[0]    ¡Qué bueno!♥
+
+#------------------------- ------------------------ Fishkind
+
+Noer/NapRape_Fishkind0
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0]    ¡¿Qué?! ¡Mujer!
+
+Noer/NapRape_Fishkind1
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0]    Gugu... Mujer... Sembrar...
+
+Noer/NapRape1_Fishkind
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0]    ¡¿Gugu?!
+
+Noer/NapRape2_Fishkind
+\narr Lona fue llevada.
+
+Noer/NapRape3_Fishkind0
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0]    ¡Mujer! ¡Quiero reproducirme!
+
+Noer/NapRape3_Fishkind1
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0] ¡Mujer! ¡Te voy a follar!
+
+Noer/NapRape3_Fishkind2
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0] ¡Mujer! ¡Voy a fecundarte!
+
+Noer/NapRape_withSta_Fight2_Fishkind0
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0] \{¡Resiste! ¿Gugu? ¡Mata!
+
+Noer/NapRape_withSta_Fight2_Fishkind1
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0]    \{¡Gugu! ¡Golpea a la mujer!
+
+Noer/NapRape_withSta_Fight2_Fishkind2
+\SndLib[FishkindSmSpot]\c[4] Pescador: \c[0]    \{¡Gugu?!
+
+Noer/NapRape_withSta_NoFight2_Fishkind0
+\SndLib[FishkindSmSpot]\m[sad]\c[4] Pescador: \c[0]    Guhuhu♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind1
+\SndLib[FishkindSmSpot]\m[sad]\c[4] Pescador: \c[0]    Gua gua ♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind2
+\SndLib[FishkindSmSpot]\m[sad]\c[4] Pescador: \c[0]    Follar ♥
+
+#------------------------------------------------- Lona
+
+Lona/NapRape3
+\Bon[20]\m[tired]\c[6] Lona: \c[0]    ¿Eh?
+\Bon[20]\m[fear]\Rshake\c[6] Lona: \c[0]    ¡Tú! ¿Qué vas a hacer?
+
+Lona/NapRape_withSta
+\optD[Olvídalo<t=3>,resistirse]
+
+Lona/NapRape_withSta_Fight1_typical
+\Bon[5]\m[shocked]\Rshake\c[6]Lona: \c[0]    ¡Vete!
+
+Lona/NapRape_withSta_Fight1_slut
+\Bon[8]\m[coqueta]\c[6] Lona: \c[0]    Ay... Ahora no es un buen momento.
+
+Lona/NapRape_withSta_Fight1_tsundere
+\Bon[20]\m[irritated]\Rshake\c[6]Lona: \c[0]    ¡No! ¡No me toques!
+
+Lona/NapRape_withSta_Fight1_gloomy
+\Bon[20]\m[terror]\Rshake\c[6]Lona: \c [0]    ¡Ay, ay!  
+  
+Lona/NapRape_withSta_NoFight1_typical  
+\Bon[8]\m[sad]\c[6]Lona: \c[0]    Uu...  
+  
+Lona/NapRape_withSta_NoFight1_slut
+\Bon[4]\m[lewd]\c[6]Lona: \c[0]    Ven aquí♥
+
+Lona/NapRape_withSta_NoFight1_tsundere
+\Bon[5]\m[sad]\c[6]Lona: \c[0]    Maldita sea...
+
+Lona/NapRape_withSta_NoFight1_gloomy
+\Bon[6]\m[fear]\c[6] Lona: \c[0]    No me hagas daño...
+
+Lona/NapRape_noSta
+\Bon[8]\m[tired]\c[6] Lona: \c[0]    Ugh...
+
+#--------             ---Parásitos
+
+Lona/PooMoonWorm
+\narr Los gusanos lunares salen continuamente del ano, causándole mucho daño.
+
+Lona/PeePotWorm
+\narr Los gusanos urinarios salen continuamente de la uretra, causándole mucho daño.
+
+Lona/PukeHook
+\narr Los gusanos ganchosos salen expulsados junto con el vómito.
+
+Lona/OgrasmPolyp
+\narr Las contracciones uterinas expulsan los gusanos maduros.
+
+Lona/PeePot
+\narr Los gusanos de la vejiga salen continuamente por la uretra, causándole bastante daño.
+
+Lona/BirthedWorms
+\narr Los parásitos recién nacidos comienzan a buscar nuevos huéspedes.
+
+Lona/ParasiteHit_polyp
+\m[p5shame]\cg[event_PolypWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6] Lona: \c[0]    ¡¡¡Qué dolor!!!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6] Lona: \c[0]    \{ ¡Ahhhhh!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6] Lona: \c[0]    \ ¡Algo se ha colado dentro!
+
+Lona/ParasiteHit_hook
+\m[p5shame]\cg[event_HookWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6] Lona: \c[0]    \{ ¡Guh!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6] Lona: \c[0]    ¡Uuuh! ¡Uuuh! ¡Uuuh!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\ Rshake\c[6] Lona: \c[0]    \{ ¡Cough cough! ¡Cough! ¡No te metas ahí, es donde se hace pis!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6] Lona: \c[0]    \{ ¡Uuuh! ¡Se va a romper!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\ Rshake\c[6] Lona: \c[0]    \{ ¡Ay, ay, ay!
+
+Lona/ParasiteHit_moon
+\m[p5shame]\cg[event_MoonWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6] Lona: \c [0]    ¡No! ¡No me perfores el ano!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6] Lona: \c[0]    \{ ¡Ay, ay, ay! ¡Se va a romper!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6] Lona: \c[0]    \{¡Ay, ay, ay!
+
+Lona/Parasite_Wakeup
+El parásito en el estómago de Lona no deja de retorcerse.
+\m[p5shame]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6] Lona: \c[0]    ¡Uuuh!
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg] \Rshake\c[6] Lona: \c[0]    \{¡Ay, ay, ay!
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6] Lona: \c[0]    \{¡Ay, ay, ay!
+\m[pain]\c[6]Lona: \c[0]    Uuuh... Esto no puede seguir así.
+\m[sad]\c[6]Lona: \c[0]    Hay que sacar los bichos cuanto antes.
+
+#----------------- ----------------------------------------------------------when overweight
+
+Lona/overweight
+\m[pain]\c[6] Lona: \c[0]    ¡Uuuh! Qué pesado, llevo demasiadas cosas encima.
+\m[tired]\c[6] Lona: \c[0]    Hay que deshacerse de lo innecesario.  
+  
+#---------------------------------------------------------------------------When cuff is on
+
+Lona/cuff_on_normal
+\m[bereft]\c[6]Lona: \c[0]    ¡No hagas eso! ¡Suéltame!
+
+Lona/cuff_on_slut
+\m[triumph]\c[6]Lona: \c[0]    ¡No puede ser!
+
+Lona/cuff_on_tsun
+\m[shocked]\c[6] Lona: \c[0] ¡Uf! ¡Qué descuidada!
+
+Lona/cuff_on_weak
+\m[sad]\c[6] Lona: \c[0] Por favor, no hagas eso.
+
+Lona/cuff_on_mouth_block
+\m[bereft]\c[6]Lona: \c[0]    ¡Uu! ¡Uuuu!
+
+Lona/cuff_on_overfatigue
+\m[tired]\c[6]Lona: \c[0]    Ja... Ja...
+
+###-------cuando se pone el grillete, pasa el día --- --------------  
+#--------------------------------------------------------------------------cuando se orina dentro del agujero  
+  
+narrator/peein_mouth
+\Rshake La gruesa polla se movía sin piedad una y otra vez en la boca de Lona.
+\Rshake La orina maloliente se derramaba en la garganta de Lona, y su pequeña boca no podía soportarlo, por lo que se desbordaba directamente.
+\Rshake El olor acre de la orina se colaba por la nariz hasta el cerebro, impactando en los nervios de Lona.
+
+narrator/peein_vag
+\Rshake La gruesa polla penetró sin piedad el coño de Lorna.
+\Rshake La orina maloliente se derramó por el coño de Lorna hasta llegar al útero, y el líquido caliente hizo que Lorna temblara por todo el cuerpo.
+\Rshake La orina derramada fluyó por el coño y cayó al suelo.
+
+narrator/peein_anal
+\Rshake La gruesa polla penetró sin piedad el ano de Lorna.
+\Rshake La orina maloliente se derramó en los intestinos de Lona, y el líquido caliente hizo que todo su cuerpo temblara.
+\Rshake La orina derramada fluyó por el pliegue de sus nalgas y cayó al suelo.
+
+#------------------ --------------------------------------------------------Adicción al semen
+
+Lona/Ograsm_addiction_almost
+\narr\m[pain]\c[4] El intenso deseo sexual impedía a Lona concentrarse.
+\narrOFF\m[shy]\c[6] Lona: \c[0]    Yo... tengo muchas ganas de hacer el amor.
+
+Lona/Ograsm_addiction_overLv1
+\narr\m[fear]\Rshake\c[4] Ahora Lona no quiere hacer nada más que tener relaciones sexuales.
+\narrOFF\m[sexhurt]\c[6] Lona: \c[0]    Uuuh... Tengo mucho calor.
+
+Lona/Ograsm_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4] Lona ahora solo quiere tener relaciones sexuales.
+\narrOFF\m[p5shame]\Rshake\c[6] Lona: \c[0]    Uuuh...
+\m[sexhurt]\Rshake\c[6] Lona: \c[0]    No puedo... Tengo mucho calor en la entrepierna...
+
+Lona/Ograsm_addiction_overLv3
+\narr\m[terror]\Rshake\c[4] Lona ahora solo quiere tener relaciones sexuales, cree que se está volviendo loca.
+\narrOFF\m[sexhurt]\Rshake\c[6] Lona: \c[0]    Uuuhhh... ¡Ayúdame!
+\m[p5shame]\Rshake\c[6] Lona: \c[0]    ¡¡¡Ahhhhh!!! ¡Cualquiera!
+\m[hurt]\c[6] Lona: \c[0]    ...... ¡Cualquiera!
+\m[sexhurt]\c[6] Lona: \c[0]    ¡Que alguien me folle! ¡Que alguien me folle! ¡Fóllame! ¡Ven a follarme!
+
+#---------------------------------------------------------------- ----------Adicción al semen
+
+Lona/Semen_addiction_add_a_level
+\narr\m[pain]\c[4] El cuerpo de Lona se fue volviendo cada vez más dependiente del semen.
+
+Lona/Semen_addiction_almost
+\narr\m[pain]\c[4] El intenso deseo de semen impedía a Lona concentrarse.
+\narrOFF\m[miedo]\c[6] Lona: \c[0]    Necesito semen... Si no, no podré aguantar.
+
+Lona/Semen_addiction_overLv1
+\narr\m[miedo]\Rshake\c[4] La necesidad de semen de Lona le impide comer.
+\narrOFF\m[sexhurt]\c[6] Lona: \c[0]    Uuuh... ¿Quién me da un poco de semen?
+
+Lona/Semen_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4] La necesidad de semen de Lona le impide comer.
+\narrOFF\m[p5shame]\Rshake \c[6] Lona: \c[0]    Uuuh...
+\m[hurt]\Rshake\c[6] Lona: \c[0]    No puedo... Necesito semen... ¡O moriré!
+
+Lona/Semen_addiction_overLv3
+\narr\m [terror]\Rshake\c[4] La necesidad de semen de Lona le impide comer, y Lona cree que se está volviendo loca.  
+\narrOFF\m[sexhurt]\Rshake\c[6] Lona: \c[0]    Uuuhhh...  
+\m[p5shame]\Rshake\c[6] Lona: \c [0]    \{¡Ahhhhh!!!
+\m[sad]\c[6] Lona: \c[0]    ....
+\m[sexhurt]\c[6] Lona: \c[0]    Uuuh... ¡No puedo más!
+
+#-------------------------------------- ------------------------------------drug_addiction
+
+Lona/Drug_addiction_add_a_level
+\narr\m[pain]\c[4] Lona tomó demasiados medicamentos y se volvió dependiente de ellos.
+
+Lona/Drug_addiction_almost
+\narr\m[pain]\c[4] Debido a su adicción a las drogas, a Lona le cuesta cada vez más concentrarse.
+\narrOFF\m[fear]\c[6] Lona: \c[0]    Necesito... algunas drogas... Si no, no podré aguantar.
+
+Lona/Drug_addiction_overLv1
+\narr\m[miedo]\Rshake\c[4] Debido a su adicción a las drogas, Lona siente dolor en todo el cuerpo y comienza a perder el conocimiento.
+\narrOFF\m[tristeza]\c[6] Lona: \c[0]    Uuuh... Tengo que encontrar medicamento inmediatamente...
+
+Lona/Drug_addiction_overLv2
+\narr\m[pain]\Rshake\c[4] Debido a su adicción a las drogas, Lona siente dolor en todo el cuerpo y comienza a perder el conocimiento.
+\narrOFF\m[p5sta_damage]\Rshake \c[6] Lona: \c[0]    ¡Uu! ¡Uu! ¡Uu!
+\m[terror]\Rshake \c[6] Lona: \c[0]    No puedo... Necesito drogas... Si no, moriré...
+
+Lona/Drug_addiction_overLv3
+\narr\m[p5sta_damage]\Rshake\c[4] Debido a su adicción a las drogas, Lona siente que se está volviendo loca.
+\narrOFF\m[p5health_damage]\Rshake\c[6]Lona: \c[0]    ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+\m[p5health_damage]\Rshake\c[6]Lona: \c[0]    ¡Por favor! ¡¡¡Quiero drogas! ¡¡¡Dámelas!
+\m[p5sta_damage]\Rshake\c[6] Lona: \c[0]    ¡¡¡Ahhhhh!!!
+\m[terror]\c[6] Lona: \c[0]    ........
+\m[sad]\c[6] Lona: \c[0]    Uuuh... ¿Qué me pasa?
+
+
+#--------------------------------------------------------------------------when Dress is out
+Lona/Qmsg_dress_out_normal
+¿Dónde está mi ropa?
+
+Lona/Qmsg_dress_out_tsun
+¡Me han quitado la ropa!
+
+Lona/Qmsg_dress_out_weak
+Hace mucho frío, si no encuentro algo de ropa pronto...
+
+Lona/Qmsg_dress_out_slut
+No llevo nada puesto, me siento un poco pervertida...
+
+Lona/Qmsg_dress_out_overfatigue
+Uf... Ja... Hace mucho frío...
+
+Lona/Qmsg_dress_out_mouth_block
+¡Uuuuuu!
+
+Lona/dress_out_normal0
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+\m[fear]\c[6] Lona: \c[0]    ¡Tengo que recuperar mi ropa rápidamente!
+
+Lona/dress_out_normal2
+\prh!!!!!!
+\m[shocked]\c[6] Lona: \c[0]    ¿Dónde está mi ropa?
+
+Lona/dress_out_tsun0
+\prh!!!!!!
+\m[angry]\c[6] Lona: \c[0]    ¡¿Por qué estoy desnuda?!
+
+Lona/dress_out_tsun1
+\prh!!!!!!
+\m[irritated]\c[6] Lona: \c[0]    ¡Me han quitado la ropa! ¡Es imperdonable!
+
+Lona/dress_out_tsun2
+\prh!!!!!!
+\m[angry]\c[6] Lona: \c[0]    ¡Qué humillación! ¡Me vengaré!
+
+Lona/dress_out_weak0
+\prh!!!!!!
+\m[shy]\c[6] Lona: \c[0] Ojalá pudiera encontrar algo que ponerme.
+
+Lona/dress_out_weak1
+\prh!!!!!!
+\m[sad]\c[6] Lona: \c[0]    Hace frío, siento un escalofrío.
+
+Lona/dress_out_weak2
+\prh!!!!!!
+\m[sad]\c[6] Lona: \c[0]    Si no encuentro algo de ropa pronto...
+
+Lona/dress_out_slut0
+\prh！
+\m[pleased]\c[6] Lona: \c[0]    No llevo nada puesto, me siento un poco pervertida...
+
+Lona/dress_out_slut1
+\prh!!!!!!
+\m[triumph]\c[6] Lona: \c[0]    Mi corazón late con fuerza, ¿qué es lo que estoy esperando?
+
+Lona/dress_out_slut2
+\prh!!!!!!
+\m[triumph]\c[6] Lona: \c[0]    Me siento... un poco emocionada. ¿Y ahora qué?
+
+Lona/dress_out_overfatigue0
+\prh!!!!!!
+\m[tired]\c[6] Lona: \c[0]    Uf... Ja... Qué frío...
+
+Lona/dress_out_overfatigue1
+\prh！！！！！！
+\m[tired]\c[6] Lona: \c[0]    ......
+
+
+Lona/dress_out_overfatigue2
+\prh！！！！！！
+\m[tired]\c[6] Lona: \c[0]    No puedo más... Hace mucho frío...
+
+Lona/dress_out_mouth_block0
+\prh!!!!!!
+\m[shocked]\c[6] Lona: \c[0]    ¡Uuuuuu!
+\m[shy]\c[6] Lona: \c[0]    ¡Uuuu!
+
+Lona/dress_out_mouth_block1
+\prh！
+\m[hurt]\c[6] Lona: \c[0] ¡Uuuuuu!
+\m[tired]\c[6] Lona: \c[0] ¡Uuuu!
+
+Lona/dress_out_mouth_block2
+\prh！！！！
+\m[wtf]\c[6] Lona: \c[0]    ¡Uuuh!
+\m[shy]\c[6] Lona: \c[0]    ¡Uuuh!
+
+#--------------------------------- ---- Ext
+Lona/Qmsg_dress_out_ext_normal
+Eh... ¡No necesito ropa!
+
+Lona/Qmsg_dress_out_ext_tsun
+¡Los fuertes no necesitan ropa!
+
+Lona/Qmsg_dress_out_ext_weak
+Ropa... Espero que nadie se dé cuenta...
+
+Lona/Qmsg_dress_out_ext_slut
+No llevo nada puesto, soy una pervertida ♥
+
+Lona/Qmsg_dress_out_ext_overfatigue
+Bueno... La ropa pesa demasiado...
+
+Lona/Qmsg_dress_out_ext_mouth_block
+¡Uuuh!
+
+Lona/dress_out_ext_normal0
+\m[pleased]\c[6] Lona: \c[0]    ¡Eh... No necesito ropa!
+
+Lona/dress_out_ext_normal1
+\m[pleased]\c[6] Lona: \c[0]    ¡Por fin soy libre!
+
+Lona/dress_out_ext_tsun0
+\m[serious]\c[6] Lona: \c[0]    ¡Bah! ¡La ropa solo me ralentiza! ¡Los que se ríen de mí solo me envidian!
+
+Lona/dress_out_ext_tsun1
+\m[serious]\c[6] Lona: \c[0] ¡Los fuertes no necesitan ropa!
+\m[shy]\c[6] Lona: \c[0] Eh...
+
+Lona/dress_out_ext_weak0
+\m[fear]\c[6]Lona: \c[0]    Está claro que estar desnuda no está bien... Pero...
+
+Lona/dress_out_ext_weak1
+\m[flirty]\c[6]Lona: \c[0]    La ropa... Espero que nadie se dé cuenta...
+
+Lona/dress_out_ext_slut0
+\m[lewd]\c[6] Lona: \c[0]    No llevo nada puesto, soy una pervertida ♥
+
+Lona/dress_out_ext_slut1
+\m[lewd]\c[6] Lona: \c[0]    Jeje ♥ Estoy desnuda y soy sexy ♥
+
+Lona/dress_out_ext_overfatigue0
+\m[tired]\c[6] Lona: \c[0]    La ropa pesa demasiado, quizá sea más rápido no llevarla puesta...
+
+Lona/dress_out_ext_overfatigue1
+\m[flirty]\c[6] Lona: \c[0]    Bueno... . La ropa pesa demasiado...
+
+Lona/dress_out_ext_mouth_block0
+\m[tired]\c[6] Lona: \c[0]    Uuuuuu
+
+Lona/dress_out_ext_mouth_block1
+\m[tired]\c[6] Lona: \c[0]    ¡Uu!
+
+#--------------------------------------------------------------------------cuando lleva el collar puesto
+
+Lona/collar_on_normal
+\m[bereft]\c[6] Lona: \c[0]    ¡No hagas eso! ¡Quítamelo!
+
+Lona/collar_on_slut
+\m[flirty]\c[6] Lona: \c[0]    ¡Esto pesa mucho!
+
+Lona/collar_on_tsun
+\m[shocked]\c[6] Lona: \c[0]    ¡Maldita sea! ¿No se puede quitar?
+
+Lona/collar_on_weak
+\m[confused]\c[6] Lona: \c[0]    Uuuh... Qué pesado...
+
+Lona/collar_on_mouth_block
+\m[bereft]\c[6] Lona: \c[0]    ¡Uu! ¡Uuuu!
+
+#--------------------------------------------------------------------------when lost her baby
+
+Lona/lost_baby
+\m[shocked]\c[6] Lona: \c[0]    ¿Dónde está el bebé? ¿Dónde se ha ido?
+\m[triste]\c[6]Lona: \c[0]    ¿Me he quedado sola? ?
+\m[confused]\c[6]Lona: \c[0]    Como era de esperar, ha vuelto a desaparecer...
+\m[tired]\c[6]Lona: \c[0]    Da igual, ya sabía que pasaría esto.
+
+#-------------------------------------- ------------------------------------when cums too heavy
+Lona/heavy_begin
+\narrEl semen se está desbordando de mi vientre.
+
+Lona/Qmsg_SemenBursting0
+Está lleno por dentro, me siento muy hinchada...
+
+Lona/Qmsg_SemenBursting1
+Me pesa mucho el estómago...
+
+Lona/Qmsg_SemenBursting2
+No puedo más... Me pesa demasiado... Necesito descansar un poco.
+
+Lona/SemenBursting0
+\narrOFF\m[shy]\c[6] Lona: \c[0]    Está lleno por dentro, me siento muy hinchada...
+
+Lona/SemenBursting1
+\narrOFF\m[shy]\c[6] Lona: \c[0]    Me pesa mucho el estómago...
+
+Lona/SemenBursting2
+\narrOFF\m[shy]\c[6] Lona: \c[0]    No puedo más... Me pesa demasiado... Necesito descansar un poco
+
+#-----------------cuando ya no pesa tanto el semen
+
+Lona/SemenBursting_regen_begin
+\narrLa sensación de hinchazón causada por el semen ha desaparecido.
+
+Lona/Qmsg_SemenBursting_regen0
+¡Me siento mucho mejor!
+
+Lona/Qmsg_SemenBursting_regen1
+¡Me he recuperado un poco!
+
+Lona/Qmsg_SemenBursting_regen2
+Tengo que descansar un poco más.
+
+Lona/SemenBursting_regen0
+\narrOFF\m[shy]\c[6] Lona: \c[0]    ¡Me siento mucho mejor!
+
+Lona/SemenBursting_regen1
+\narrOFF\m[shy]\c[6]Lona:\c[0]    ¡Me siento un poco mejor!
+
+Lona/SemenBursting_regen2
+\narrOFF\m[shy]\c[6]Lona:\c[0]    Tengo que descansar un poco más.
+
+#------- ------------------------------------------------------------------when eat cums
+
+Lona/eat_cums_normal0
+\narrLona se vio obligada a tragarse el semen que tenía en la boca.
+\narrOFF\m[pain]\c[6]Lona: \c[0]    ¡Qué mal huele! ¡Qué sabor tan asqueroso!
+
+Lona/eat_cums_normal1
+\narrLona se vio obligada a tragarse el semen que tenía en la boca.
+\narrOFF\m[shy]\c[6]Lona: \c[0]    Ja... Ja... ¡Me duele la garganta!
+
+Lona/eat_cums_tsun0
+\narrLona se vio obligada a tragarse el semen que tenía en la boca.
+\narrOFF\m[angry]\c[6]Lona: \c[0]    ¡Qué asco, cómo he podido tragarme algo así!
+
+Lona/eat_cums_tsun1
+\narr Lona se vio obligada a tragarse el semen que tenía en la boca.
+\narrOFF\m[serious]\c[6] Lona: \c[0]    ¡Nunca... nunca más volverá a pasar!
+
+Lona/eat_cums_weak0
+\narrEl semen bajó por la garganta de Lona.
+\narrOFF\m[pain]\c[6]Lona: \c[0]    No puedo más... De verdad que no puedo más...
+
+Lona/eat_cums_weak1
+\narrEl semen bajó por la garganta de Lona.
+\narrOFF\m[pain]\c[6]Lona:\c[0]    Cough cough... cough cough....
+
+
+Lona/eat_cums_slut0
+\narrOFF\m[lewd]\c[6]Lona: \c[0]    Polla... Semen... Jaja...
+
+Lona/eat_cums_slut1
+\narrLona se tragó el semen que tenía en la boca.
+\narrOFF\m[lewd]\c[6]Lona:\c[0]    ¡Lo quiero! ¡Quiero más!
+
+Lona/eat_cums_mouth_block0
+\narrLona se tragó el semen que tenía en la boca.
+\narrOFF\m[shy]\c[6]Lona:\c [0]    ¡Uuuh!
+
+Lona/eat_cums_mouth_block1
+\narrLona tragó el semen que tenía en la boca.
+\narrOFF\m[shy]\c[6]Lona: \c[0]    ¡Uuuh!
+
+Lona/eat_cums_overfatigue0
+\narr Lona se traga el semen que tiene en la boca.
+\narrOFF\m[shy]\c[6] Lona: \c[0]    Uuuh... Mmm...
+
+Lona/eat_cums_overfatigue1
+\narr Lona se traga el semen que tiene en la boca.
+\narrOFF\m[shy]\c[6]Lona:\c[0]    Glu... Mmm...
+
+#-------------------------------------------------------------------------WHEN HUNGER
+
+Lona/hunger0
+\narrLa sensación de saciedad curó el cuerpo y la mente de Lona.
+\narrOFF\m[triumph]\c[6]Lona: \c[0]    ¡Mmm! Qué suerte poder comer hasta saciarme.
+
+Lona/hunger1
+\m[confused]\c[6]Lona: \c[0]    Todavía no tengo mucha hambre, pero será mejor que llene el estómago cuanto antes.
+
+Lona/hunger2
+\narr La sensación de vacío no desaparece.
+\narrOFF\m[sad]\c[6] Lona: \c[0]    Uf... Tengo mucha hambre, hay que buscar comida rápidamente.
+
+Lona/hunger3
+\narr La sensación de vacío no desaparece y oprime el estómago de Lona.
+\narrOFF\m[pain]\c[6] Lona: \c[0]    ¡Si no como algo pronto, me moriré de hambre!
+
+#-------------------------------------------------------------------- -----WHEN low sta
+
+Lona/lowsta0
+\m[pain]\c[6] Lona: \c[0]    Uu... No puedo mover las piernas...
+
+Lona/lowsta1
+\m[pain]\c[6] Lona: \c[0]    Uu... Mi cuerpo pesa mucho...
+
+Lona/lowsta2
+\m[pain]\c[6] Lona: \c[0]    Uu... Me duelen mucho las piernas... Y mi cuerpo pesa mucho...
+
+Lona/lowsta3
+\m[pain]\c[6] Lona: \c[0]    Uu... No puedo levantarme, mejor busco un lugar para descansar.
+
+Lona/Qmsg_lowsta0
+Uu... No puedo mover las piernas...
+
+Lona/Qmsg_lowsta1
+Uu... Me pesa mucho el cuerpo...
+
+Lona/Qmsg_lowsta2
+Uu... Me duelen mucho las piernas... Me pesa mucho el cuerpo...
+
+Lona/Qmsg_lowsta3
+Uu... No puedo levantarme, mejor busco un lugar para descansar.
+
+#------------------------------------------------ ------------------------NAP
+
+Lona/nap
+\m[tired]\c[6] Lona: \c[0]    Uu...
+
+#------------------------------------------------------------ --------Situación de daño
+\m[shy] La necesidad de orinar es incesante, la uretra y la vejiga de Lona parecen haber perdido su función.
+\m[fear]\c[6] Lona: \c[0]    ¿La necesidad de orinar parece no poder detenerse?
+
+Lona/anal_damaged
+\m[shy] Los excrementos salen constantemente del ano de Lona, que parece haber perdido su función.
+\m[fear]\c[6] Lona: \c[0]    ¿En qué estado quedará mi cuerpo?
+
+#-------------- -------------------------------------------Ganas de defecar y orinar
+
+Lona/pee_dialog
+\m[confused]\c[6] Lona: \c[0]    Eh, tengo ganas de hacer pis.
+\m[shy]\c[6] Lona: \c[0]    Tengo que encontrar un lugar seguro.
+
+Lona/scat_dialog
+\m[confused]\c[6] Lona: \c[0]    Eh, tengo ganas de hacer caca.
+\m[shy]\c[6] Lona: \c[0]    Tengo que encontrar un lugar seguro.
+
+Lona/Qmsg_pee_dialog
+Tengo ganas de hacer pis...
+
+Lona/Qmsg_scat_dialog
+Tengo ganas de hacer caca...
+
+#---------------------------------Después de sufrir daños en el sistema urinario
+
+Lona/auto_pee
+\m[confused] La orina sale sin control por el orificio urinario, y el olor y la incomodidad invaden la parte inferior del cuerpo de Lona.
+\m[shy]\c[6] Lona: \c[0]    Será mejor... buscar un lugar para limpiarme.
+
+Lona/Qmsg_auto_pee
+No puedo... se me está saliendo...
+
+Lona/auto_pee_nap
+\narr La orina sigue saliendo mientras Lona duerme.
+\narr Lona tiene incontinencia.
+
+Lona/auto_poo
+\m[confused] Las heces salen sin control por el ano, y el olor a excremento y la sensación pegajosa invaden la parte inferior del cuerpo de Lona.
+\m[shy]\c[6]Lona:\c[0]    Será mejor... buscar un lugar para limpiarme.
+
+Lona/Qmsg_auto_poo
+No puedo más... Caca... Se me ha salido...
+
+Lona/auto_poo_nap
+\narrLas heces siguen saliendo mientras Lona duerme.
+
+###############################################################COMMON SEX TRAIT/LURE################################################### ###########
+
+Lona/lure_normal0
+\m[shy]\c[6] Lona: \c[0]    Por favor... usa mi coño como quieras.
+
+Lona/lure_normal1
+\m[shy]\c[6] Lona: \c[0]    Soy tu animal, haz lo que quieras conmigo.
+
+Lona/lure_tsun0
+\m[shy]\c[6] Lona: \c[0] Por favor... haz lo que quieras conmigo...
+
+Lona/lure_tsun1
+\m[shy]\c[6] Lona: \c[0] Uu... aquí... haz lo que quieras...
+
+Lona/lure_weak0
+\m[shy]\c[6] Lona: \c[0]    Soy tu animal doméstico, seré obediente.
+
+Lona/lure_weak1
+\m[shy]\c[6] Lona: \c[0]    Aquí... Haz lo que quieras...
+
+Lona/lure_slut0
+\m[lewd]\c[6] Lona: \c[0]    Por favor... Por favor, usa mi coño de puta como quieras.
+
+Lona/lure_slut1
+\m[lewd]\c[6] Lona: \c[0]    ¡Fóllame! ¡Soy una puta de mierda!
+
+Lona/lure_mouth_block0
+Bajo su mirada, Lona se abre el coño.
+\m[shy]\c[6]Lona: \c[0]    Uuuh...
+
+Lona/lure_mouth_block1
+Bajo su mirada, Lona se abre el culo.
+\m[shy]\c[6]Lona: \c[0]    Uuuh...
+
+Lona/lure_overfatigue0
+Bajo la mirada de ellos, Lona abre su coño.
+\m[shy]\c[6]Lona: \c[0]    .......
+
+Lona/lure_overfatigue1
+Bajo la mirada de ellos, Lona se abre el ano.
+\m[shy]\c[6]Lona: \c[0]    .......
+
+####################################### #####333EQUIP WOUNDS########################33
+
+Lona/cuff_wound
+\m[pain]\c[4]Esposas...
+\m[fear]\c[6]Lona: \c[0]    Tengo que encontrar la manera de quitármelas, o no podré hacer nada.
+
+Lona/collar_wound
+\m[pain]\c[4]El collar...
+\m[bereft]\c[6]Lona: \c[0]    ¡No! ¡No quiero ser esclava!
+
+###############################################PUKE######### #############
+
+Lona/puke_cums
+\narr El semen espeso se adhiere a la garganta y la tráquea de Lona.
+\narr Una enorme sensación de vómito invade a Lona.
+
+Lona/puke_begin1
+\PRF\c[6] Lona: \c[0] {¡Ugh!
+
+Lona/puke_begin2
+\narr El contenido de su estómago sale sin control.
+
+Lona/puke1
+\c[6] Lona: \c[0]    \{¡Ugh!
+
+Lona/puke2
+\c[6] Lona: \c[0]    \{¡Ugh!
+
+Lona/puke3
+\c[6] Lona: \c[0]    \{¡Ugh!
+
+Lona/puke4
+\c [6] Lona: \c[0]    ¡Gugu! ¡Gugu!
+
+Lona/puke5
+\c[6] Lona: \c[0]    ¡Tos! ¡Tos! ¡Tos!
+
+Lona/puke_end1
+\c[6] Lona: \c[0]    ¡Gugu... Uuuh... Haa...
+
+Lona/puke_end2_normal
+\c[6] Lona: \c[0]    ¡¡¡Ugh!!... ¡Ugh! Lo he vomitado todo.
+
+Lona/puke_end2_preg
+\c[6] Lona: \c[0]    No me siento muy bien...
+
+Lona/Qmsg_Oev_Puke
+Uu... Tengo ganas de vomitar...
+
+###############################################Itch################### ###
+
+Lona/Qmsg_Oev_Itch0
+Me pica mucho...
+
+Lona/Qmsg_Oev_Itch1
+La parte inferior... me pica mucho...
+
+Lona/Qmsg_Oev_Itch2
+Uuuh... me pica...
+
+###########################################SICK################################
+
+Lona/sick
+\m[pain]\c[6]Lona: \c[0]    Uuuh...
+\m[tired]\c[6]Lona: \c[0]    No me encuentro bien, mejor no hacer nada hoy.
+
+############################################# MILK OVERCHARGE################################
+
+Lona/Milk_feed_notEnough
+\m[confused]\c[6]Lona: \c[0]    \..\..\..
+\m[shocked]\Rshake\c[6]Lona: \c[0]    ¿No tengo suficiente leche?
+
+Lona/MilkSpray_overcharge
+\narr Lona siente los pechos muy hinchados, como si la leche fuera a salirse.
+\narrOFF\m[shy]\c[6] Lona: \c[0]    Uuuh... Tengo que buscar un sitio para solucionarlo.
+
+#############################################MENSES SYSTEM#######################################
+
+Lona/menses
+\m[pain]\c[6]Lona：\C[0]    Uuuh, ¿ya ha vuelto otra vez este mes?
+\m[shy]\c[6]Lona：\C[0]    Será mejor buscar un lugar con agua para limpiarme.
+\m[tired]\c[6]Lona：\C[0]    Pero... Uuuh... Me duele mucho el abdomen...
+
+Lona/menses_bad
+\m[pain]\c[6]Lona：\C[0]    Sigue saliendo sangre y me siento muy pesada.
+\m[tired]\c[6]Lona：\C[0]    Será mejor que hoy descanse un poco.  
+
+Lona/menses_ovulate
+\m[confused]\c[6]Lona：\C[0]    Ya está empezando otra vez...
+\m[shy]\c[6]Lona：\C[0]    Siento mucho calor ahí abajo, como si mi cuerpo estuviera esperando algo.
+
+################################################ PREG DIALOGS ##################################################
+#########LV1
+  
+Lona/preglv1_puke_exped  
+\m[sad]\c[6] Lona: \c[0]    He oído hablar de esta situación.
+\m[confused]\c[6]Lona: \c[0]    ¿Estoy embarazada?
+
+Lona/preglv1_Qmsg_puke_exped0
+He oído hablar de esta situación...
+
+Lona/preglv1_Qmsg_puke_exped1
+¿Estoy embarazada...?
+
+#########LV2
+
+Lona/preglv2_puke
+\m[sad]\c[6] Lona: \c[0]    ¡Guh! ¡Ya está aquí! ¡Otra vez!
+
+Lona/preglv2_Qmsg_puke
+¡Guh! ¡Ya está aquí! ¡Otra vez!
+
+Lona/preg_lv2
+\m[confused]\c[6] Lona: \c[0]    Siento una sensación extraña en el abdomen y cada vez tengo más hambre.
+
+Lona/preg_lv2_Qmsg
+Siento una sensación extraña en el abdomen y cada vez tengo más hambre...
+
+Lona/preg_lv2_exped
+\m[shy]\c[6] Lona: \c[0]    Esta sensación extraña...
+\m[fear]\c[6] Lona: \c[0]    ¿Estoy embarazada otra vez...?
+
+Lona/preg_lv2_exped_Qmsg0
+Esta sensación extraña...
+
+Lona/preg_lv2_exped_Qmsg1
+¿Estoy embarazada otra vez...?
+
+Lona/preglv2_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0] {¡Ay, ay, ay!
+\m[tired]\c[6] Lona: \c[0]    ¡Ay!
+\m[sad]\c[6] Lona: \c[0]    Estos dolores son horribles.
+
+#########LV3
+
+Lona/preglv3
+\m[shocked]\c[6] Lona: \c[0]    Uu... ¿Cuándo se me ha puesto tan grande la barriga?
+\m[fear]\c[6] Lona: \c[0]    No... Todos se darán cuenta...
+
+Lona/preglv3_Qmsg0
+Uuuh... ¿Cuándo se me ha puesto tan grande la barriga?
+
+Lona/preglv3_Qmsg1
+No... Todos se darán cuenta...
+
+Lona/preglv3_puke
+\m[sad]\c[6] Lona: \c[0]    ¡Uuuh! ¡No! ¡Otra vez! ¡Uuuh!
+
+Lona/preglv3_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \ {¡Ay, ay, ay!
+\m[tired]\c[6]Lona: \c[0]    Uf... Uf...
+\m[sad]\c[6]Lona: \c[0]    Ah... Este dolor es horrible.
+\m[confused]\c[6]Lona: \c[0]    Puedo sentir cómo se mueve el bebé en mi vientre.
+
+Lona/preglv3_Qmsg_pain0
+Puedo sentir cómo se mueve el bebé en mi vientre...
+
+Lona/preglv3_Qmsg_pain1
+Ah... Este dolor es horrible.
+
+#########LV4
+
+Lona/preglv4
+\m[pain]\c[6] Lona: \c[0]    El bebé se está moviendo, y la sensación es cada vez más fuerte.
+\m[fear]\c[6] Lona: \c[0]    Probablemente esté a punto de dar a luz, ¿qué hago?
+
+Lona/preglv4_Qmsg0
+El bebé se está moviendo, y la sensación es cada vez más fuerte.
+
+Lona/preglv4_Qmsg1
+Probablemente esté a punto de dar a luz, ¿qué hago?
+
+Lona/preglv4_weak
+\m[shy]\c[6] Lona: \c[0]    ¡No... no te muevas!
+\m[bereft]\c[6] Lona: \c[0]    ¡No quiero darte a luz en un mundo tan doloroso!
+
+Lona/preglv4_Qmsg_weak0
+¡No... no te muevas!
+
+Lona/preglv4_Qmsg_weak1
+¡No quiero darte a luz en un mundo tan doloroso!
+
+Lona/preglv4_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0] \{¡Ay!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Ay, ay, ay!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \ {¡Ay, ay, ay!
+\m[tired]\c[6] Lona: \c[0]    Ay... Ay... Ay...
+\m[sad]\c[6] Lona: \c[0]    Ay, ay... El bebé está dando patadas otra vez.
+\m[confused]\c[6] Lona: \c[0]    No tengas miedo, mamá te protegerá.
+
+Lona/preglv4_pain_Qmsg0
+Uuuh... El bebé está dando patadas otra vez.
+
+Lona/preglv4_pain_Qmsg1
+Ay... Uf... Uf...
+
+Lona/preglv4_pain_Qmsg2
+No tengas miedo, mamá te protegerá.
+
+#####################birth
+
+Lona/preglv5_ready_to_birth
+!!!!!!!!!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Agua! ¡No puedo parar de sangrar!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \ {¡Agua... está saliendo agua!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]Lona: \c[0]    \ {Parece que algo está saliendo.
+\m[pain]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    Cada vez es más, ¡así no podemos seguir!
+\m[shy]\c[6] Lona: \c[0]    ¡Tenemos que encontrar un lugar seguro!
+
+Lona/preglv5_ready_birth_shake0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Qué dolor!
+
+Lona/preglv5_ready_birth_shake1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0] \{¡Oh, no!
+
+Lona/preglv5_ready_birth_shake2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Ay!
+
+Lona/preglv5_birth_start
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Qué dolor!\} ¡El estómago se mueve!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Ah!\} ¡Parece que va a salir!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]Lona: \c[0]    ¡Uf! ¡Otra vez! \{I \{I\ {Ay!
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    ¡Cada vez duele más! \{Ay! \{Ay! \{Ay!
+
+Lona/preglv5_birth_start_pain0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Ahhhhhhh!
+\Rshake\c[6] Lona: \c[0]    \{¡Para! ¡Para ya!
+
+Lona/preglv5_birth_start_pain1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Uuuhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh ¡Uuuhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
+Lona/preglv5_birth_start_pain2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Qué dolor! ¡Qué dolor!
+\Rshake\c[6] Lona: \c[0]    \{¡No puedo más! ¡No puedo más!
+
+Lona/preglv5_birth_start_pain3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Ah!   
+\Rshake\c[6] Lona: \c[0]    \{¡Umm!
+
+Lona/preglv5_birth_start_pain4
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \ ¡Ya sale!   
+\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Ay, ay, ay, ay!
+
+######################################Aborto espontáneo
+
+Lona/preg_miscarriage_start
+\narrUnas fuertes contracciones la invaden de repente.
+\narrOFF\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{\{！！！\}！！\}！！\{！！！\{！！！！！\}！！！！\{！！！
+
+Lona/preg_miscarriage_begin0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \ ¡Qué dolor! ¡Qué dolor!
+
+Lona/preg_miscarriage_begin1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Uuuhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
+Lona/preg_miscarriage_begin2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡No! ¡Perdóname!
+
+Lona/preg_miscarriage_begin3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6] Lona: \c[0]    \{¡Ay, ay, ay! \{¡Ah, ah, ah!
+
+Lona/preg_miscarriage_end0
+\m[pain]\c[6] Lona: \c[0]    Esto es... mi bebé?  
+\m[fear]\c[6] Lona: \c[0]    Bebé, mi bebé ha muerto.  
+  
+Lona/preg_miscarriage_end1  
+\m[sad]\c[6] Lona: \c[0]    Uuuuuu... Mamá, lo siento, soy una madre fracasada.
+
+##_------------------------------Aborto forzado de otra especie. Se utiliza en la cadena de eventos rape loop. Este evento solo es aplicable a ORKIND.
+
+Lona/MonsterPregCheckbegin1_unexped
+\narrLo levantaron a Lona.
+\narrOFF\c[6] Lona: \c[0]    \m[p5shame] Uuuh... ¿Qué vais a hacer?
+\narrSe pegó a la vagina de Lona y no dejaba de olfatear, como si estuviera buscando algo.
+
+Lona/MonsterPregCheckbegin1_exped
+\narrSe pegó a la vagina de Lona y no dejaba de olfatear, como si sospechara que Lona no estaba embarazada de uno de los suyos.
+\narrOFF\c[6]Lona:\c[0]\m[p5shame]Uuuh... ¡Estoy embarazada, de verdad! ¡No te miento!
+
+Lona/MonsterPregCheckbegin2_normal
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6] Lona: \c[0]    No... No me lamas...
+
+Lona/MonsterPregCheckbegin2_tsun
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6] Lona: \c [0]    ¡Bestia! ¡No! ¡Quita tu boca sucia!
+
+Lona/MonsterPregCheckbegin2_weak
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6] Lona: \c[0]    ¡No! ¡No me hagas daño! ¡Ah!
+
+Lona/MonsterPregCheckbegin2_slut
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6] Lona: \c[0]    ¡Ay, ay! ¡¿Qué vais a hacer?!
+
+Lona/MonsterPregCheckbegin2_mouth_block
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6] Lona: \c[0]    ¡Uuuh! ¡Uuuh!
+
+Lona/MonsterPregCheckbegin2_overfatigue
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6] Lona: \c[0]    Uuuh... Ahhh...
+
+Lona/MonsterPregCheckbegin3
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6] Lona: \c[0]    Mmm...
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]Lona: \c[0]    ¡Mmm!
+
+Lona/MonsterPregChecked_pregnant
+\narrEstaban muy satisfechos con el estado del útero de Lona, así que decidieron follársela.
+\narrOFF\c[6] Lona: \c[0]    \m[fear] ¿Qué... vais a hacer?
+
+Lona/MonsterPregChecked_no_pregnant
+\narr Lona aún no está embarazada de ellos, lo que significa que deben violarla.
+\narrOFF\c[6]Lona:\c[0]\m[fear]¿Qué... vais a hacer?
+
+Lona/MonsterPregChecked_race_error
+\narrDescubrieron que Lona no estaba embarazada de uno de los suyos, y se enfadaron.
+\narrOFF\c[6]Lona:\c[0]\m[fear]¿Qué... ... ¿Qué vais a hacer?
+\narrDeciden ayudar a Lona a abortar utilizando los métodos más primitivos.
+
+
+#-----------------------------
+
+Lona/use_as_MeatToilet_normal
+\m[shocked]\Rshake\c[6]Lona: \c[0]    ¡No! ¡Soltadme!
+\m[terror]\Rshake\c[6]Lona: \c[0]    ¡¡¡Que alguien me salve!
+
+Lona/use_as_MeatToilet_tsun
+\m[angry]\Rshake\c[6]Lona: \c[0]    ¡Soltadme! ¡Sois unos asquerosos @#$@... ¡¡¡Uuuuuu!!! @#$@#
+\m[hurt\Rshake]\c[6] Lona: \c[0]    ¡¡¡Uuuuuu!!!
+
+Lona/use_as_MeatToilet_weak
+\m[fear]\Rshake\c[6] Lona: \c[0]    Yo... Me portaré bien... No me hagáis daño...
+\m[bereft]\Rshake\c[6] Lona: \c[0]    ¡Me duele mucho! \{¡Ay!
+
+Lona/use_as_MeatToilet_slut
+\m[coqueta]\Rshake\c[6] Lona: \c[0]    ¿Quieres mi cuerpo? ¡Aún no se sabe quién se rendirá!
+\m[sexhurt]\Rshake\c[6] Lona: \c[0]    ¡Ay! ¡Suavemente!
+
+Lona/use_as_MeatToilet_overfatigue
+\m[tired]\Rshake\c[6] Lona: \c[0]    Uuuh...
+\m[hurt]\Rshake\c[6] Lona: \c[0]    Déjame descansar un poco, por favor... ¡Ay!
+
+Lona/use_as_MeatToilet_mouth_block
+\m[tired]\Rshake\c[6] Lona: \c[0]    Uuuh...
+\m[hurt]\Rshake\c[6] Lona: \c[0]    \{Uuuh!
+
+#-----------------------------  BerserkDrug
+
+Lona/BerserkDrug0
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6] Lona: \c[0]    \{Uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+
+Lona/BerserkDrug1
+\m[p5health_damage]\SndLib[sound_Heartbeat]\Rshake\c[6] Lona: \c[0]    Siento... \n\{¡Ahhhhhhh!
+
+Lona/BerserkDrug2
+\cg[event_RipAndTear]\Rflash\SndLib[sound_Heartbeat] Se burlan de ti, te ven como un gusano.
+\Rflash\SndLib[sound_Heartbeat] Pero ahora eres diferente.
+\Rflash\SndLib[sound_Heartbeat] Eres peor y más fuerte que ellos.
+\Rflash\SndLib[sound_Heartbeat] \{¡Les destriparé hasta acabar con ellos!
+
+Lona/BerserkDrug3
+\cgoff\SndLib[sound_Heartbeat]\c [6] Lona: \c[0]    \{¡Ahahahahaha!
+
+Lona/BerserkDrug4
+\SndLib[sound_Heartbeat]\c[6] Lona: \c[0]    Creo que... \n\{¡Rabia!
+
+#-------------------- ---------  Borracha
+
+Lona/DrunkLv1
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6] Lona: \c[0]    ¡Gah!
+\m[pleased]\PRF\c[6] Lona: \c[0]    ¡Ahahaha!
+
+Lona/BorrachaLv2
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6] Lona: \c[0]    ¡Ja!
+\m[confused]\PRF\c[6] Lona: \c[0]    ......
+\m[coqueta]\PRF\c[6]Lona: \c[0]    Será mejor que no bebas más.
+
+#-------------------- ---------  Cerrado, botín de la casa o mazmorra.
+
+Lona/PickLock
+\m[confused] Está cerrado, ¿quieres usar #{$story_stats["HiddenOPT1"]} de fuerza para abrirlo?
+
+#----------------------- ------  Pesadilla (PTSD)
+
+Lona/PTSD_begin0
+\Rflash\SndLib[sound_Heartbeat]!!!
+
+Lona/PTSD_begin1
+\Rflash\SndLib[sound_Heartbeat]!!!!
+
+Lona/PTSD_begin2
+\Rflash\SndLib[sound_Heartbeat]！
+
+Lona/PTSD_Common_0
+\m[terror]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Lona: \c[0]    Uuuuuu...
+
+Lona/PTSD_Common_1
+\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Lona: \c[0]    \{No...\} Vete...
+
+Lona/PTSD_Common_2
+\m[pain]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Lona: \c[0]    \{Lo siento...\} Perdóname...
+
+Lona/PTSD_Common_3
+\m[hurt]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Lona: \c[0]    \{Me equivoqué...\} No...
+
+Lona/PTSD_CecilyBetray
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Cecily: \c[0]    ¿Por qué has hecho algo así...?
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Cecily: \c[0]    ¡No te perdonaré!
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Cecily: \c[0]    \{Muere!
+
+Lona/PTSD_Orkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]!!!
+\cg[map_OrcHappy]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]!!!!
+\cg[event_OrkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！！！！！！
+
+Lona/PTSD_Fishkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！
+\cg[map_FishkindGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！
+\cg[event_FishkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！
+
+Lona/PTSD_Abomination
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！
+\cg[map_AbominationSpider]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！
+\cg[map_AbominationGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！！！！
+
+Lona/PTSD_Bandit
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！
+\cg[event_miscarriage_low]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！！！！！！
+
+Lona/PTSD_Slave
+\cg[event_captured]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！！！！
+
+Lona/PTSD_begin4
+\cgoff\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6] Lona: \c[0]    \{\{¡No!
+
+Lona/PTSD_begin5_0
+\m[terror]\c[6] Lona: \c[0]    ...........
+\m[tired]\c[6] Lona: \c[0]    ¿Otra pesadilla...?
+
+Lona/PTSD_begin5_1
+\m[terror]\c[6] Lona: \c[0]    ...........
+\m[tired]\c[6] Lona: \c[0]    ¿Es un sueño...?
+
+######################## # Comer mano
+
+Lona/EatHand0
+\m[confused]\c[6] Lona: \c[0]    No... No... No...
+\m[flirty]\c[6] Lona: \c[0]    Eh... Eh... Estoy segura de que no está bueno.
+
+Lona/EatHand1
+\m[confused]\c[6] Lona: \c[0]     No... No... No...
+\m[flirty]\c[6] Lona: \c[0]     ¿Qué estoy haciendo?
+\m[confused]\c[6] Lona: \c[0]     ¿Esto es divertido?
+
+Lona/EatHand2
+\m[confused]\c[6] Lona: \c[0]    No... No... No...
+\m[flirty]\c[6] Lona: \c[0]    Sí... Sí... Sí... Será mejor que pare.

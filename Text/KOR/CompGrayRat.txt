@@ -1,0 +1,164 @@
+GrayRat/CompData
+\board[회색쥐]
+\C[2]위치：\C[0]전열
+\C[2]전투 타입：\C[0]전사, 도발, 방어
+\C[2]진영：\C[0]시바리스
+\C[2]적대 대상：\C[0]악의 생물, 불법자
+\C[2]요구 조건：\C[0]허약 수치 100 미만
+\C[2]계약 기간：\C[0]5일
+\C[2]독립：\C[0]캐릭터 사망 시 부활하지 않음
+\C[4]비고：\C[0]세실리와 회색쥐는 한 팀이다.
+세실리의 집사 혹은 가신 같은 포지션 같지만, 뭔가 다른 전개가 있을지도?
+
+
+################################################################### QMSG ################################################################################# 
+
+GrayRat/CommandWait0
+알겠어...
+
+GrayRat/CommandWait1
+응...
+
+GrayRat/CommandFollow0
+가자...
+
+GrayRat/CommandFollow1
+.....
+
+GrayRat/OvermapPop0
+........
+
+GrayRat/Comp_start
+\SETpl[GrayRatNormalAr]\c[4]회색쥐：\c[0] ........
+
+GrayRat/Comp_disband
+\SETpl[GrayRatConfused]\c[4]회색쥐：\c[0] 음....
+
+GrayRat/Comp_disbandAr
+\SETpl[GrayRatConfusedAr]\c[4]회색쥐：\c[0] 음....
+
+################################# Cecily.Eaglemore
+GrayRatAr/CE_Death
+\SETpl[GrayRatShockedAr]\Lshake\{아가씨!!!!  
+\SETpl[GrayRatShockedAr]\Lshake\{너희들 가만 안 둬!!
+
+GrayRat/CE_Death
+\SETpl[GrayRatShocked]\Lshake\{아가씨!!!!  
+\SETpl[GrayRatShocked]\Lshake\{너희들 가만 안 둬!!
+
+###############################################QUEST
+
+
+GrayRat/UnknowBegin
+\CBid[-1,8]\SETpl[GrayRatNormal]\C[4]???：\C[0] .............
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 엄청 크다!
+\CBid[-1,2]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 응?
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 미안.
+
+GrayRat/KnownBegin_opt
+\CBid[-1,8]\m[confused]\SETpl[GrayRatConfused]\C[4]???：\C[0] .... \optB[.....,왜 나를 찾아왔지?]
+
+GrayRat/KnownBegin_WhyMe
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] .......응.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 난 예전에 당신을 관찰한 적이 있어.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐? 언제?!
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] \c[6]노엘\c[0]로 후퇴하는 길, 북쪽 초소에서 아가씨와 잠시 머문 적이 있지.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 그때 당신도 거기 있었어.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 응?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] 당신은 음식을 한 아이에게 나눠줬지.
+\CBid[-1,8]\SETpl[GrayRatNormal]\m[shy]\PLF\prf\c[4]회색쥐：\c[0] 그때 당신도 힘든 상황이었지만, 가진 걸 나눴어.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 우리가 믿을 수 있는 사람은 정말 적지만, 적은 너무 많아.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 당신은 전사는 아니지만, 신뢰할 수 있어.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] ........
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] ......
+\CBct[3]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 고마워!
+
+GrayRat/KnownBegin_Break
+\SETpl[GrayRatConfused]\c[4]회색쥐：\c[0] ........
+\SETpl[GrayRatNormal]\c[4]회색쥐：\c[0] 모든 건 아가씨께서 결정하십니다.
+
+GrayRat/SaveCecilyQuest_begin1
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] ......음?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]???：\C[0] 당신이\c[6]로나\c[0]맞죠?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 네, 그런데 무슨 일이시죠?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 실종된 수송대 일은 들었습니다. 잘 해내셨더군요.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아, 감사합니다?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 그런데 저한테 무슨 용건이신가요?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 경계하시는 건가요? 괜찮아요.
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\ph\C[4]???：\C[0] 이것 좀 보시죠.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]로나：\c[0] \{헉!?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]???：\C[0] 이건 단지 계약금입니다.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 당신,\c[6]시바리스\c[0]출신이죠?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 재난 이후로 그들은 난민을 상품 취급합니다.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 우리는 계속해서 그 인신매매범들과 싸워왔습니다.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 내 동료가 납치됐어요. 상대는 아주 사악한 인신매매단입니다.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 그들이 보내온 편지에 장소가 적혀 있었어요. 분명 함정입니다.
+
+GrayRat/SaveCecilyQuest_begin2
+\cgoff\board[죽어 마땅한 덩치한테]
+네 계집년 우리 손에 있다!
+살려내고 싶으면 오늘 밤 서쪽 13번 창고로 와라.
+쓸데없는 말 하지 마라!
+혼자 와라!
+
+GrayRat/SaveCecilyQuest_begin3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 정찰과 수색에 익숙한 정찰병이 필요해.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 너라면 할 수 있어.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 너도 그 인간 밀매범들이 하는 짓, 인정 못하지?
+\CBct[6]\m[shy]\plf\PRF\c[6]로나：\c[0] 나, 나는...
+
+GrayRat/SaveCecilyQuestInfo
+\board[동료 구출]
+목표 : 서쪽 13번 창고에서 합류
+선금 : 동전 5개, 큰 동전 2개
+의뢰인 : 미상
+기한: 없음
+
+GrayRat/SaveCecilyQuestAccept
+\CBct[20]\m[serious]\plf\Rshake\c[6]로나：\c[0] 좋아! 내가 맡을게!
+\CBct[5]\m[angry]\plf\Rshake\c[6]로나：\c[0] 인간 밀매범들, 나도 정말 싫어해!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]???：\C[0] 감사해요...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 저를\c[6]회색쥐\c[0]라고 불러도 돼요...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 남은 얘기는\c[6]서쪽 13번 창고\c[0]에서 말씀드리죠.
+
+########################################################################### QuProgSaveCecily 23 to 24    43 to 44 # DEV
+
+GrayRat/23-43_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 세실리... 그분 어디 가셨어?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] 아가씨께서는 뒷마당에서 무술 연습 중이십니다...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 할 말이 있으시다고 하셨습니다...
+\CBct[20]\m[normal]\plf\PRF\c[6]로나：\c[0] 오?
+
+44/0_begin0
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\c[4]회색쥐：\c[0] 로나 아가씨...
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 왜 그래요, 회색쥐 씨?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 이 섬에 대해 어떻게 생각하세요...?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어? 음\..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 여기가 내 집이었어. 하지만 모두 죽었어.
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 아버지도, 내 친구들도 다 죽었고, 집도 없어졌어.
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 지금 이 섬을 보면, 온통 혼란뿐이야... 난...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] 여길 떠나고 싶은 거죠?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 네, 맞아요.
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 노을섬은... 이제 끝난 것 같아.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] \..\..\..
+
+44/1
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] 듣고 있어요, 저는 주인님을 이곳에서 떠나게 하고 싶어요.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] \..\..\..\m[flirty]\Rshake 뭐라고요?!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 더 이상 주인님이 계속 고집을 부리게 둘 수 없어요...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 이대로 가다간 주인님이 여기서 죽게 될 거예요...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]회색쥐：\c[0] 부디 주인님을 좀 설득해 주세요.
+\CBct[6]\m[shocked]\plf\PRF\c[6]로나：\c[0] 잠, 잠깐만요!
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 내가 뭐라고 설득해요? 세실리 님이 내 말을 듣겠어요?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 오히려 그런 분은 막으면 더 고집 피우는 스타일 같던데요?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 맞는 말씀입니다...
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그냥 강제로 묶어서 데려가야 하는 거 아니에요?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] \..\..\..\CBid[-1,5]\SETpl[GrayRatShocked]\Lshake \{!!!!!!!
+
+44/2
+\CBct[6]\m[terror]\plf\Rshake\c[6]로나：\c[0] \{나... 나 잘못했어! 미안해!
+
+44/3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 음\..\..\..
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 아가씨가 뒷마당에서 기다리고 있어요. 한 번 이야기해 보세요.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 해볼게요...

@@ -1,0 +1,99 @@
+overmap/OvermapEnter
+\m[confused]Mina de Cobre Abandonada \optB[Cancelar,Entrar]
+
+################################# OP
+
+yeller/start
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Mercenario：\C[0]    ¡Corre! ¡Corre!
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Mercenario：\C[0]    ¡No! ¡No quiero morir! ¡Ayuda!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[4]Conejo Enorme：\C[0]    ¡Pik-pik! ¡Piiik!
+
+yeller/start1
+\CamMP[Runner]\BonMP[Runner,20]\c[4]Mercenario：\C[0]    ¡No! ¡No te acerques!
+
+yeller/start2
+\CamMP[MerA]\BonMP[MerA,20]\c[4]Mercenario：\C[0]    ¡No! ¡Está muerto!
+\CamMP[MerB]\BonMP[MerB,5]\c[4]Mercenario：\C[0]    ¡Joder!
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed2.ogg]\c[4]Conejo Enorme：\C[0]    ¡Pik-pik! ¡Piiik!
+
+yeller/start3
+\CamMP[KillerRabbit]\BonMP[KillerRabbit,5]\SND[SE/RatDed1.ogg]\c[4]Conejo Enorme：\C[0]    ¡Pik-pik! ¡Piiik!
+\CamCT\m[flirty]：\C[0]\C[6]Lona：\C[0]    ¿¡Qué?! ¿Eso es un conejo...?
+
+################################# OP
+
+priest/begin0
+\prf\BonMP[Priest,8]\c[4]Mercenario：\C[0]    ¡Lo sé! ¡Lo leí en las Escrituras Sagradas! ¡De los Santos! ¡Es el Monstruo Voraz! \optB[Todo bien,¿Qué pasó?,Dar agua bendita<r=HiddenOPT0>]
+
+priest/win
+\prf\BonMP[Priest,20]\c[4]Mercenario：\C[0]    ¡Funcionó! ¡El mal ha sido destruido! ¡El tesoro es mío!
+
+priest/about
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Lona：\C[0]    ¿Qué pasó aquí?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenario：\C[0]    ¡Estábamos eliminando monstruos, pero ¿qué demonios nos esperaba aquí?!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Mercenario：\C[0]    ¡Es el Monstruo Voraz de la Oscuridad!
+\CamMP[KillerRabbit]\BonMP[Priest,20]\prf\c[4]Mercenario：\C[0]    La Voracidad llegó con la Oscuridad, y con los sonidos de los Pasos de la Mentira, devorarán todo a su paso. ¿Qué capítulo y versículo...? ¡Lo olvidé!
+\CamMP[KillerRabbit]\BonMP[Priest,15]\prf\c[4]Mercenario：\C[0]    ¡Mira esos ojos rojos y pelaje blanco! ¡Es un símbolo del pecado!
+\CamMP[Priest]\BonMP[Priest,6]\prf\c[4]Mercenario：\C[0]    ¡Necesitamos \c[2]Agua Bendita\C[0]! ¡El \c[2]Agua Bendita\C[0] puede vencer al mal, pero me expulsaron de la Santa Iglesia!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenario：\C[0]    ¡Ayuda! ¡Necesitamos una forma de derrotarlo! ¡Ayúdame a conseguir \c[2]Agua Bendita\C[0] rápido!
+\CamCT\m[serious]\Rshake：\C[0]\C[6]Lona：\C[0]    ¡Lo intentaré!
+
+priest/HolyWater0
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Lona：\C[0]    ¡Tengo Agua Bendita!
+
+priest/HolyWater1
+\CamMP[Priest]\BonMP[Priest,3]\prf\c[4]Mercenario：\C[0]    ¡Perfecto!
+
+priest/HolyWater2
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Mercenario：\C[0]    ¡Santos en esta Agua, bendigan a los inocentes!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Mercenario：\C[0]    ¡Santos en esta Agua, destruyan la Mentira y el mal!
+\CamMP[Priest]\BonMP[Priest,8]\prf\c[4]Mercenario：\C[0]    ¡Glorificamos a los Santos!
+\CamCT\m[confused]\PRF：\C[0]\C[6]Lona：\C[0]    ¿Es correcto que estés rociando agua aquí?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenario：\C[0]    ¡No te preocupes, hago como está escrito en las Escrituras Sagradas, y el mal y el pecado serán borrados de este lugar!
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenario：\C[0]    Pero luego necesitamos a alguien que lo lleve al santuario.
+\CamCT\m[wtf]\PRF：\C[0]\C[6]Lona：\C[0]    ¿Mm?
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenario：\C[0]    ¡Pequeña, serás tú! ¡Ve! ¡Sigue los pasos de los Santos!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Lona：\C[0]    ¿Eh? ¿Qué? ¿Yo?
+
+priest/HolyWater3
+\CamMP[Priest]\BonMP[Priest,20]\prf\c[4]Mercenario：\C[0]    No temas. ¡Vamos, los Santos te protegerán!
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Lona：\C[0]    ¿Qué?
+
+
+Lona/RabbitDed0
+\CamMP[KillerRabbit]\narr El Agua Bendita fermentada es bastante resbaladiza.
+El Pequeño Conejo resbaló.
+El Pequeño Conejo se golpeó la cabeza.
+El Pequeño Conejo murió.
+
+Lona/RabbitDed1
+\CamCT\m[flirty]\PRF：\C[0]\C[6]Lona：\C[0]    ¿En serio? ¿Funcionó?
+
+
+################################# advanture common
+MerA/Common
+\prf\c[4]Mercenario：\C[0]    ¡Como dije, los conejos no son nada lindos!
+
+MerB/Common
+\prf\c[4]Mercenario：\C[0]    Y si la Niebla Negra convirtió a un pequeño conejo en esa cosa... ¿qué pasará con los humanos?
+
+MerB/Win
+\prf\c[4]Mercenario：\C[0]    Gracias, niña. Pero no tenemos con qué recompensarte, regresa y toma algo de comer por tu cuenta.
+
+MerA/Win
+\prf\c[4]Mercenario：\C[0]    ¡Joder! ¡Los tesoros son míos ahora! ¡TODO ES MÍO!
+
+Box/MerAnyAlive0
+\prf\c[4]Mercenario：\C[0]    ¡¡¡OYE!!!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Lona：\C[0]    ¿¡Ah!? ¿Q-qué...?
+
+Box/MerAnyAlive1
+\prf\c[4]Mercenario：\C[0]    ¡Todo es nuestro ahora! ¡Lárgate, mocosa!
+\CamCT\m[confused]\PRF：\C[0]\C[6]Lona：\C[0]    En realidad, yo les ayudé...
+
+Box/MerAnyAlive2
+\prf\c[4]Mercenario：\C[0]    ¡Joder! ¡Estúpida puta! ¿Te quedaste sorda?
+
+Box/MerAnyAlive3
+\prf\c[4]Mercenario：\C[0]    ¡¡¡MÁTALA!!!
+\CamCT\m[shocked]\Rshake：\C[0]\C[6]Lona：\C[0]    ¡¡¡AHHH!!!

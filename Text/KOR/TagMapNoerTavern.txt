@@ -1,0 +1,279 @@
+NoerTavern/OvermapEnter
+\m[confused]불타는 오크통, 연중무휴 · 밤낮없이 영업\optB[그만둔다,들어간다]
+
+##########-----------------------------------------------------
+
+Taxidermist/DeepOne
+\cg[other_DeeponeTaxidermist]어인
+사냥 날짜1754.3.14
+
+Taxidermist/Hog
+\cg[other_HogTaxidermist]평범한 돼지  
+사냥 날짜1757.6.11
+
+###################################################################     COMMON PPL
+
+CommonPPL/begin0
+\c[4]취객：\c[0] 술! 술 더 가져와라!
+
+CommonPPL/begin1
+\c[4]취객：\c[0] 여자! 하하! 여자!
+
+CommonPPL/begin2
+\c[4]취객：\c[0] 가슴! 없어!
+
+CommonPPL/begin3
+\c[4]취객：\c[0] 자지! 꺄하!
+
+CommonPPL/begin4
+\c[4]취객：\c[0] 우욱! 우으으으웩!
+
+###################################################################     COMMON NAP RAPE
+
+CommonPPL/NapRape
+\c[4]취객：\c[0] 헤헤… 이 귀여운 게 왜 여기 누워 있나?
+
+CommonPPL/NapRape1
+\c[4]취객：\c[0] 히히히…
+
+CommonPPL/NapRape2
+\narr로나는 결국 억지로 끌려가 버렸다.
+
+CommonPPL/NapRape3
+\c[4]취객：\c[0] 괜찮아, 괜찮아… 그냥 말이야, 내 자지 좀 치워주면 돼. 그 정도쯤은 할 수 있잖아?
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]취객：\c[0] 보아하니, 맞아 봐야 정신 차리겠구만?
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]취객：\c[0] 그래야지, 착하지♥
+
+##########-----------------------------------------------------NoerTavern        Hazubendo 
+
+Hazubendo/FearWaifu0
+꺼져! 나한테 말 걸지 마.
+
+Hazubendo/FearWaifu1
+쉬잇! 그녀가… 다른 여자랑 말하는 걸 절대 허락하지 않아.
+
+Hazubendo/FearWaifu2
+그녀가 날 죽여 버릴 거야!
+
+Hazubendo/FearWaifu3
+예전엔 그렇게나 귀여웠는데….
+
+Hazubendo/begin
+\CBid[-1,20]\c[4]사장：\c[0] 나는 자유다! 자유는 소중한 거야! 우리는 반드시 스스로 쟁취해야 한다!\optB[됐어,거래]
+
+
+##########-----------------------------------------------------                WAIFU
+
+Waifu/begin1_RecQuestCocona_win
+\CBid[-1,5]\SETpl[BigMama_happy]\Lshake\c[4]마담：\c[0] 설마 내가 네게 지게 될 줄이야....
+
+Waifu/begin1_RecQuestCocona_loser
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]마담：\c[0] 날 실망시키지 마라, 이 구더기 같은 것.
+
+Waifu/begin1_RecQuestCocona_28_0
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]마담：\c[0] 이봐! 너 아직 여기 있었어?
+
+Waifu/begin1_RecQuestCocona_28_1
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]마담：\c[0] 아직도 안 간 거야?
+
+Waifu/begin1_slave
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]마담：\c[0] \{노예가 여기서 뭐 하는 거야? 당장 꺼져!
+
+Waifu/begin1_maggot
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]마담：\c[0] \{이 썩은 벌레 자식! 감히 내 앞에서 소란피우지 마!
+
+Waifu/begin1_sexy
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]마담：\c[0] \{이 더러운 년! 뭐 하는 짓이야?
+
+Waifu/begin1_weaker
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]마담：\c[0] \{뭘 봐! 구더기 같은 게!
+
+Waifu/begin1_moot
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]마담：\c[0] \{뭘 봐?
+
+Waifu/begin1_lona
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]마담：\c[0] \{뭐 하는 거야?
+
+##########-------------
+
+Waifu/Opt
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 응...?
+
+Waifu/work_begin_RecQuestCocona_28
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]마담：\c[0]  아직도 돈이 모자라다고?!
+
+Waifu/work_begin
+\CBid[-1,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]마담：\c[0] \{네 주제에? 네가 뭘 할 수 있겠어?
+
+Waifu/Opt_work
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 응...?\optB[그만둔다,술을 나른다,무희로 나선다]
+
+Waifu/Opt_work_end_summon
+\CBmp[TavernWaifu,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]마담：\c[0] \{뭐 이렇게 굼떠?! 이게 네 돈이다! 썩 꺼져!
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] \}아... 미안해... 
+
+Waifu/Opt_work_end_NoSummon1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]마담：\c[0] 흠! 그럭저럭이군! 그래\{봐줄 만해!
+\CBct[3]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오? 고마...워...?
+
+Waifu/Opt_work_end_NoSummon2
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]마담：\c[0] \{잘했어! 앞으로도 써먹을 만하겠네!
+\CBct[3]\m[flirty]\plf\PRF\c[6]로나：\c[0] ......고마워...?
+
+
+##########-------------##########-------------##########------------- DANCER
+
+Waifu/Opt_work_dancer_board
+\board[무희]
+일꾼은 자신의 체력과 외모에 어느 정도 자신이 있어야 한다.  
+춤을 추고 제한 시간 안에 동전을 줍는다. 많이 주울수록 보수가 높아진다.  
+손님의 요구에 응답하고, 그들이 원하는 걸 해줘야 한다.  
+섹시 수치가 높을수록 요구가 많아지고, 손님들이 더 많은 동전을 준다.  
+일하는 동안 달리면 스태미너가 추가로 소모된다.  
+
+Waifu/Opt_work_dance
+\SETpl[BigMama_normal]\Lshake\c[4]마담：\c[0] \{젊지? 체력 좋지? 자신 있지? 
+\m[sad]\c[6]로나：\c[0] \}아니에요... 아니... 죄송합니다...
+\SETpl[BigMama_normal]\Lshake\c[4]마담：\c[0] \{좋아! 하지만 그 놈들이 널 함부로 안 건드린다고는 장담 못 해!
+
+Waifu/Opt_work_dance_end
+\narr무희의 일이 끝났다. 
+
+Waifu/dance_low_sta_rape
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 이것 좀 봐라, 꼬맹이가 서 있지도 못하네.
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 참 열심히도 했네.
+\SETpl[raper1]\Lshake\c[4]취객：\c[0] 체력을 회복시켜 주겠다. 우리 자지로 힘을 불어넣어 주지!
+
+Waifu/dance_rape1
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 안 돼, 나... 나 더는 못 참겠다! 내가 먼저 할 거야!
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 아니! 내가 먼저 해야지!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 다 같이 즐기자고!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 잠깐! 마담이 아직 있잖아! 우리 죽일지도 몰라!
+
+Waifu/dance_rape1_1
+\SETpr[BigMama_normal]\c[4]마담：\c[0] 내가 경고했을 텐데? 이것도 일의 일부다!
+\SETpr[BigMama_normal]\c[4]마담：\c[0] 남은 건 난 상관 안 해!
+\prh\narr마담은 자리를 떠나버렸다.
+
+Waifu/dance_rape1_2
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 마담께 감사! 마담 만세!
+
+Waifu/dance_rape2
+\m[terror]\c[6]로나：\c[0] 너... 너희들.....
+
+Lona/dance_DDR_DressOut
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 벗어!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 빨리 벗어!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] \{벗어! 벗어!
+
+Lona/dance_DDR_Masturbation
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 자위해!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 어서! 어서 우리 앞에서 해봐!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 자위해! 자위해! 자위해!
+
+Lona/dance_DDR_Pee
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 소변 봐!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 그래! 지금 당장 여기서 우리한테 보여줘!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 소변 봐! 소변 봐! 소변 봐!
+
+Lona/dance_DDR_Poo
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 다들 보는 앞에서 똥을 싸봐라!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 맞아! 누가 소녀는 똥 안 싼다 그랬냐!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 무대 위에 싸라! 지금 당장!
+
+Lona/dance_DDR_Milk
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 너 애 낳아봤지! 젖 짤 줄 알잖아!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 그래! 엄마, 나 배고프다!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 빨리! 여기 있는 모두한테 젖 한 잔씩 먹여라!
+
+Lona/dance_DDR_GroinClearn
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 너 창녀 맞지! 네 보지에서 나온 걸 모두 앞에 내놔!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 그래! 꺼내서 직접 먹어봐라!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 그렇지! 창녀라면 창녀답게 더럽고 음탕해야지!
+
+Lona/dance_DDR_Cum
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 난 그녀 몸에 싸고 싶어!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 나도다! 야! 이년, 이리 와!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 잘 받아내라!! 한 방울도 바닥에 흘리면 안 된다!
+
+Lona/dance_DDR_Bukaake
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 난 그녀 얼굴에 싸고 싶다!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 나도다! 야! 이년, 이리 와!
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 얼굴로 받아라! 우리의 자지즙을 한 방울도 낭비하지 마라!
+
+Lona/dance_DDR_PeeonHead
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 나 오줌 누고 싶다!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 나도야! 아예 그녀 입에다 싸버릴까?
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 이리 와라! 입 크게 벌려! 단 한 방울도 흘리지 말고 받아내라!
+
+Lona/dance_DDR_Peeon
+\SETpl[raper3]\Lshake\c[4]취객：\c[0] 나 오줌 누고 싶다!
+\SETpl[raper2]\Lshake\c[4]취객：\c[0] 나도다! 그냥 그녀 몸 위에다 해버릴까?
+\SETpl[raper_group]\Lshake\c[4]취객：\c[0] 맞아! 다리 벌려! 제대로 받아내라!
+
+Lona/dance_DDR_opt
+\m[shy]\c[6]로나：\c[0] 으... 응...\optD[그대로 따른다<t=3>,거부한다]
+
+##########-------------##########-------------##########------------- WAITER
+
+Waifu/Opt_work_waiter_board
+\board[술 나르기]
+제한 시간 안에 술을 10명의 손님에게 전달해야 한다.
+일하는 동안 달리면 스태미너가 추가로 소모된다.
+남은 시간이 많을수록 보수가 높아진다.
+
+Waifu/Opt_work_waiter2_decide
+\SETpl[BigMama_normal]\Lshake\c[4]마담：\c[0] \{빨리! 이 술 더미를 저쪽에 갖다 줘라! 굼뜨면 네 신세가 좋지 않을 거다!
+\m[fear]\Rshake\c[6]로나：\c[0] \{네... 네, 알겠습니다!
+
+###################################################
+
+Waifu/WorkFailed0
+\CamMP[TavernWaifu]\m[shocked]\SETpl[BigMama_angry]\Lshake\prf\c[4]마담：\c[0] \{이 애송이, 대체 뭘 하고 있는 거야!
+\m[sad]\PLF\c[6]로나：\c[0] \}아... 죄송합니다...
+
+Waifu/WorkFailed1
+\SETpl[BigMama_angry]\Lshake\c[4]마담：\c[0] \{이 쓸모없는 쓰레기 같은 것!
+
+Waifu/WorkFailed2
+\SETpl[BigMama_angry]\Lshake\c[4]마담：\c[0] \{이 정도 사소한 일도 못 해내다니!
+
+Waifu/WorkFailed3
+\CamCT\SETpl[BigMama_angry2]\Lshake\c[4]마담：\c[0] \{꺼져라, 당장!
+
+Waifu/WorkFailed_slave
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]마담：\c[0] \{네 몸으로 손님들에게 보상해라!
+\m[shocked]\Rshake\c[6]로나：\c[0] \{뭐... 뭐라고요?!
+
+###################################################
+
+Waifu/NapSlave
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]마담：\c[0] \{빌어먹을 노예! 당장 꺼져라!
+\m[sad]\PLF\c[6]로나：\c[0] \}죄송합니다...
+
+Waifu/NapNokey
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]마담：\c[0] \{꺼져! 이 쓰레기 같은 것!
+\m[sad]\PLF\c[6]로나：\c[0] \}죄송합니다...
+
+##########-------------------	Follower	----------------
+
+CommonCompanion/TavernCommand
+\m[confused]\optB[그만둔다,돌아간다]
+
+##########-------------------	Common	----------------
+
+Nap/NotMyBed
+내 침대가 아니야.
+
+2fKid/Qmsg0
+아빠가 내가 더 마셔야 한다고 했어.
+
+2fKid/Qmsg1
+마셔야 어른이 된대.
+
+2fKid/Qmsg2
+나 이제 어른 된 거야?

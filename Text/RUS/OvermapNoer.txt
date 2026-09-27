@@ -1,0 +1,140 @@
+common/closed
+\narr Закрыто
+
+##################################### 諾爾鎮 大門守衛 #############################################
+
+GateGuard/begin1
+\cg[map_NoerGate]Ворота Ноэртауна
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Стой, кто идёт! \optB[Отойти,Войти,Прокрасться<r=HiddenOPT1>,Солгать<r=HiddenOPT2>]
+
+GateNobGuard/begin1
+\cg[map_region_RoadNoerNob]Ворота на склон Росендо
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Стражник：\C[0]    Эй ты! Стой! \optB[Отойти,Войти,Прокрасться<r=HiddenOPT1>,Солгать<r=HiddenOPT2>]
+
+GateGuard/enter_no_passport_dir6
+\prf\c[4]Стражник：\C[0]    Вы можете свободно покидать город через ворота. Но при входе назад, вы должны показать свои документы.
+
+GateGuard/enter_no_passport_dir4
+\prf\PLF\c[4]Стражник：\C[0]    У нас приказ никого не пускать без документов.
+\m[confused]\plf\PRF\c[6]Лона：\C[0]    Понятно...
+
+GateGuard/enter_with_passport
+\prf\c[4]Стражник：\C[0]    Хммм......
+\prf\c[4]Стражник：\C[0]    Хорошо, можешь пройти.
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]Стражник：\C[0]    А? Эй ты! А НУ СТОЯТЬ!!!
+\Lshake\c[4]Стражник：\C[0]    Я тебя знаю! \n\{ВЗЯТЬ ЕЁ!
+
+GateGuard/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Лона：\C[0]    \{Нет, стойте!
+
+GateGuard/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Лона：\C[0]    \{Блять!!!
+
+GateGuard/enter_failed_gloomy
+\m[bereft]\plf\PRF\Rshake\c[6]Лона：\C[0]    \{О-ой!
+
+GateGuard/enter_failed_slut
+\m[shocked]\plf\PRF\Rshake\c[6]Лона：\C[0]    \{Ой, чёрт!
+
+GateGuard/enter_wait
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]Лона：\C[0]    Фуф! Получилось...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]Стражник：\C[0]    А? Эй ты! А НУ СТОЯТЬ!!!
+\Lshake\c[4]Стражник：\C[0]    Куда это ты ползёшь?! \n\{ВЗЯТЬ ЕЁ!
+
+GateGuard/enter_wisdom
+\PRF\c[6]Лона：\C[0]    Вас не предупредили? Я по приказу вашего командира.
+\PLF\prf\c[4]Стражник：\C[0]    Хмм, а не врёшь?
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_wisdom_win
+\PLF\c[4]Стражник：\C[0]    Кажется, так оно и есть... Ладно, проходи.
+\m[flirty]\plf\PRF\c[6]Лона：\C[0]     Фух... Пронесло.
+GateGuard/enter_wisdom_win_slave1
+\PLF\c[4]Стражник：\c[0]    С чего это рабам разрешили свободно передвигаться?
+
+GateGuard/enter_wisdom_win_slave2
+\PLF\c[4]Стражник：\c[0]    Ладно, вали отсюда к своему хозяину!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Фух... Прошло...
+
+GateGuard/enter_wisdom_win_maggot
+\PLF\c[4]Стражник：\c[0]    Фу! Чё за вонь? Все из Сибариса так воняют?
+\PLF\c[4]Стражник：\c[0]    Мерзость. Всё иди и не подходи ко мне!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Да! Благодарю, господин!
+
+GateGuard/enter_wisdom_win_sexy
+\PLF\c[4]Стражник：\c[0]    Шлюшка? Хочешь тут заработать?
+\PLF\c[4]Стражник：\c[0]    Нет? Если передумаешь, лагерь вон там.
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Я... я... я подумаю...
+
+GateGuard/enter_wisdom_win_weaker
+\PLF\c[4]Стражник：\c[0]    Не мозоль глаза, заходи!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     М... да, господин.
+
+GateGuard/enter_wisdom_win_SexyWeak1
+\PLF\c[4]Стражник：\c[0]    Эй шалава, поц сюды. Дайка тебя осмотреть.
+\m[sad]\plf\PRF\c[6]Лона：\c[0]     Ух...
+
+GateGuard/enter_wisdom_win_SexyWeak2
+\PLF\c[4]Стражник：\c[0]    А теперь вали, пока не передумали.
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Как унизительно...
+
+GateGuard/enter_wisdom_win_SexSlave1
+\PLF\c[4]Стражник：\c[0]    Раздвинь ноги, проверю тебя.
+\m[sad]\plf\PRF\c[6]Лона：\c[0]     Ух...
+
+GateGuard/enter_wisdom_win_SexSlave2
+\PLF\prf\c[4]Стражник：\c[0]    Фу, вонь какая... Ладно... Проходи.
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Да! Простите!
+
+GateGuard/enter_wisdom_win_SexSlaveRuined1
+\PLF\c[4]Стражник：\c[0]    Раздвинь ноги, отребье. Посмотрим, годится ли ещё твоё дупло на пользу.
+\m[sad]\plf\PRF\c[6]Лона：\c[0]     Ух...
+
+GateGuard/enter_wisdom_win_SexSlaveRuined2
+\PLF\prf\c[4]Стражник：\c[0]    Фу блядь, как мерзко... Вали отсюда!
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Фух... Повезло...
+
+GateGuard/enter_wisdom_win_moot
+\PLF\c[4]Стражник：\c[0]    Похоже, твои слова не расходятся с делом. Вали быстрей.
+\m[flirty]\plf\PRF\c[6]Лона：\c[0]     Фух... Пронесло...
+GateGuard/enter_failed
+\PLF\c[4]Стражник：\C[0]    Убирайся! Нам приходится иметь дело с такими бродягами как ты, каждый божий день!
+
+GateGuard/enter_passport_NoDir
+\prf\c[4]Стражник：\C[0]    Ладно. Можешь проходить.
+
+GateGuard/enter_failedDirt1
+\PLF\Lshake\c[4]Стражник：\C[0]    Попрошайкам нет места в городе! Проваливай, кышь!
+
+GateGuard/enter_failedDirt2
+\narr Лона выглядит слишком грязной...
+
+####################################################### 諾爾鎮外
+
+GateGuardOuta/enter_LowMorality
+\prf\c[4]Стражник：\C[0]    Мы знаем тебя! Преступная мразь! Тебе здесь не рады!
+
+GateGuardOuta/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]Лона：\C[0]    Эмм?!
+
+GateGuardOuta/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]Лона：\C[0]   Проклятье!
+
+GateGuardOuta/enter_failed_gloomy
+\m[sad]\plf\PRF\Rshake\c[6]Лона：\C[0]    Извините...
+
+GateGuardOuta/enter_failed_slut
+\m[flirty]\plf\PRF\Rshake\c[6]Лона：\C[0]    Хмм, ладно...
+
+####################################################### DEEPONE UNIQUE
+
+GateGuard/LonaIsTrueDeepone
+\narr Стражи начинают сходить с ума от похоти и сексуальных желаний при виде юной Морской Ведьмы...
+Они потеряли всякий разум и одержимы желанием поймать Лону и совокупиться с девушкой-монстром ...

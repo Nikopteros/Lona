@@ -1,0 +1,272 @@
+thisMap/OvermapEnter
+諾爾鎮東門 外部\optB[沒事,進入]
+
+#########################################################
+mapOP/begin0
+\CBmp[PplGroup0,20]\c[4]人群：\c[0]    讓我們進去阿！ 我們在這裡等這麼久了，為什麼不讓我過！
+\CBmp[PplGroup1,20]\c[4]人群：\c[0]    救救我們吧，外面都是魔物與強盜....
+\CBmp[PplGroup0,20]\c[4]人群：\c[0]    為什麼不讓我們進去！ 看，我有錢，我有很多錢！
+\CBmp[GuardMain,20]\SETpl[Mreg_pikeman]\c[4]士兵：\c[0]    就這點錢？ 滾！ 你們這些帝都乞丐！ 沒通行證就不准過！
+
+mapOP/begin1
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    你們阿！這一切都是你們的罪孽所致！
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    事已至此，唯有\c[6]聖徒\c[0]才能從謊言中拯救你們！
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    無辜者阿！ 前往北方的\c[6]聖徒會修道院\c[0]吧！
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    聖徒將從邪惡的\c[6]謊言者\c[0]手中拯救你們！
+\CBct[8]\m[confused]\plh\PRF\c[6]洛娜：\c[0]    呃\..\..\.......
+\CBct[8]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    城外的難民是不是越來越多了？
+
+Monk/begin0
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    妳是你是來入教的？
+
+Monk/begin0Cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    是聖徒大人！
+\CBct[4]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    乖哦...姐姐跟大人講話，可可娜等一下呦♥
+\CBfB[2]\SETlpl[cocona_confused]\Lshake\prf\c[4]可可娜：\c[0]    嗚喵....
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    妳們是信徒還是來入教的？
+
+Monk/beginOPT
+\CBct[8]\m[confused]\plh\PRF\c[6]洛娜：\c[0]    呃.....\optB[沒事,信仰者,謊言者,無辜者,從者]
+
+Monk/beginOPT_BLI
+\CBct[2]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    請問...信仰者到底是...？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    信仰者是身心皆獻給聖徒之人。
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    唯有信仰者可於世界結束時前往聖徒所在的聖殿！
+
+Monk/beginOPT_LIE
+\CBct[2]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    那個...謊言者是什麼呢...？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    那些信仰偽神者就是謊言者，他們散佈偽神的偽福音。
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    妳們所遭受的一切苦痛正是因這世道的謊言越來越多。
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    如同那被偽神遺棄的漁人，那些信仰偽神的異族最終都將受到最終審判！
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    如同你們這些無信的罪惡者，\c[6]席芭莉絲\c[0]出現的黑霧正是對你們的逞罰！
+
+Monk/beginOPT_FAR
+\CBct[2]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    無辜者是.....？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    像你這樣背棄聖徒之人就是無辜者。你的無信就是妳的罪惡，儘管你是無辜的。
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    無辜者隨時都會因自己的恐懼與物慾墮落成謊言者。
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    看阿！ 聖徒預言的末日來了，妳唯一的活路就是在一切毀滅前信仰聖徒！
+
+Monk/beginOPT_FOL
+\CBct[2]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    所以....從者是指什麼？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    從者？ 是那些信仰聖徒卻又無法捨棄一切的俗人！
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    由於他們的信念不夠堅實，邪惡的物慾依然侵蝕著不堅定的他們。
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    於罪惡與無辜之間只有一線之遙！ 這就是從者！
+
+Monk/beginOPT_NVM
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    孩子啊，向聖徒懺悔吧，唯有聖徒可以拯救你。
+\CBct[8]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    呃...我只是路過而已....
+
+Monk/beginOPT_NVM_Cocona
+\CBfB[9]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    姊姊！ 我要跟聖徒大人說話！
+\CBct[20]\m[flirty]\plh\PRF\c[6]洛娜：\c[0]    這不是聖徒，而是他的跟班啦...
+\CBid[-1,5]\SETpl[AnonMale2]\Lshake\prf\c[4]信仰者：\c[0]    妳說什麼？！
+\CBct[6]\m[shocked]\plh\PRF\c[6]洛娜：\c[0]    \{吚！！ 對不起！
+
+######################################################### Commoner
+MonkR/Rng0
+\CBid[-1,20]\prf\c[4]僧兵：\c[0]    站好！ 讓\c[6]聖徒\c[0]細數你的罪惡吧！
+
+MonkR/Rng1
+\CBid[-1,20]\prf\c[4]僧兵：\c[0]    你們離謊言者僅一步之遙！ 別以為\c[6]聖徒\c[0]不知道你們所犯下的罪惡！
+
+MonkR/Rng2
+\CBid[-1,20]\prf\c[4]僧兵：\c[0]    \c[6]聖徒\c[0]知曉你們所做的一切！ 趁現在懺悔吧！
+
+CommonerM/Rng0
+\CBid[-1,20]\c[4]難民：\c[0]    是真的嗎？ 去修道院就有吃的？ 不是騙我的？
+
+CommonerM/Rng1
+\CBid[-1,20]\c[4]難民：\c[0]    我很聰明，我讀過書，別騙我！
+
+CommonerM/Rng2
+\CBid[-1,20]\c[4]難民：\c[0]    只要信\c[6]聖徒\c[0]是吧，好！我信了！ 給我吃的，現在！
+
+CommonerF/Rng0
+\CBid[-1,20]\c[4]難民：\c[0]    對不起... \c[6]聖徒\c[0]阿... 原諒我們這些罪人吧！
+
+CommonerF/Rng1
+\CBid[-1,20]\c[4]難民：\c[0]    \c[6]聖徒\c[0]寬恕我的罪惡...我不該吃了他們....
+
+CommonerF/Rng2
+\CBid[-1,20]\c[4]難民：\c[0]    我是個邪惡的謊言者，\c[6]聖徒\c[0]請制裁我吧....
+
+CommonerM2/begin
+\CBid[-1,20]\c[4]難民：\c[0]    妳知道嗎，老喬的妻子逃跑的時候被一群綠皮上了。
+\CBid[-1,8]\c[4]難民：\c[0]    她前陣子產下了一頭半人半豬半熊的怪物，老喬當場就吐出來了。
+\CBid[-1,8]\c[4]難民：\c[0]    而他老婆當場就暈死了，之後我跟老喬一起把它丟到海裡，但是.....
+\CBid[-1,8]\c[4]難民：\c[0]    \..\..\..
+\CBid[-1,20]\c[4]難民：\c[0]    唉....但我們回去的時候他老婆居然自殺了說。
+
+CommonerF2/begin0
+\CBid[-1,20]\c[4]難民：\c[0]    \{不！ 不要碰我！！！
+
+CommonerF2/begin1
+\CBid[-1,6]\c[4]難民：\c[0]    妳是誰？！ 魔物呢！？ 不要過來！ 走開啊！！！！
+
+######################################################### Cunny Cunny Cunny
+
+Fapper/begin0
+\CBid[-1,4]\prf\c[4]難民：\c[0]    卡妮♥ 卡妮♥ 卡妮♥
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...卡妮？
+
+Fapper/begin1
+\CBid[-1,1]\prf\c[4]難民：\c[0]    \{卡妮！！♥♥♥♥♥
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    \{耶？？！！
+
+Fapper/begin2
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    \{吚咿？！ 放開我！
+
+Fapper/begin3
+\CBid[-1,6]\Rshake\c[4]難民：\c[0]    噢哦哦哦哦哦哦♥ 好色情的的卡妮♥
+
+Fapper/begin4
+\CBid[-1,6]\Rshake\c[4]難民：\c[0]    卡妮的肚肚♥ 卡妮的胸部♥ 好色情♥
+
+Fapper/begin5
+\CBct[5]\m[bereft]\Rshake\c[6]洛娜：\c[0]    \{走開！！！
+
+Fapper/begin6
+\CBid[-1,4]\SETpl[HumanPenisNormal]\Lshake\prf\c[4]難民：\c[0]    卡妮的肚肚好可愛♥ 好想射在卡妮的肚子裡♥
+
+Fapper/begin7
+\CBct[6]\m[terror]\Rshake\c[6]洛娜：\c[0]    \{吚吚吚吚吚！！！
+
+######################################################### PoorKid SideQU
+
+rg4/begin0
+\CamMP[PoorKidCam]\BonMP[PoorBoy,20]\c[4]小屁孩：\c[0]    拜託你幫幫我吧。
+\CamMP[PoorKidCam]\BonMP[HoboAtk2,5]\c[4]難民：\c[0]    誰理你，我自己都自顧不暇了。
+
+rg4/begin1
+\CamMP[PoorKidCam]\BonMP[PoorBoy,6]\c[4]葛里歐：\c[0]    我是來自\c[6]雲中村\c[0]的\c[6]葛里歐\c[0]，拜託你聽說....
+\CamMP[PoorKidCam]\BonMP[PoorBoy,6]\c[4]葛里歐：\c[0]    我的家人被....
+\CamMP[PoorKidCam]\BonMP[HoboAtk1,5]\c[4]難民：\c[0]    走開啦！
+
+rg4/begin2
+\CamMP[PoorKidCam]\BonMP[PoorBoy,20]\c[4]葛里歐：\c[0]    求求你聽我說完吧....
+\CamMP[PoorKidCam]\BonMP[HoboAtk2,5]\c[4]難民：\c[0]    幹！ 很煩耶！
+
+rg4/begin3
+\CamMP[PoorKidCam]\BonMP[HoboAtk1,5]\c[4]難民：\c[0]    肏你媽！ 誰管你家死幾個人啊？ 我家除了我都死光啦！
+
+Griot/Begin0
+\CBid[-1,6]\prf\c[4]葛里歐：\c[0]    嗚嗚....
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃.....你還好吧？
+
+Griot/Begin1
+\CBid[-1,2]\m[confused]\prf\c[4]葛里歐：\c[0]    妳...是來幫我的嗎？
+
+Griot/OPT_KillTheKid
+其實我是來殺你的
+
+Griot/OPT_HelpTheKid_FattieKilled
+胖子已經死了
+
+Griot/OPT_HelpTheKid_aggroed
+那裏全是壞人
+
+Griot/OPT_GiveUP
+放下仇恨
+
+Griot/OPT_HelpTheKid
+幫助他
+
+Griot/OPT_About
+怎麼了
+
+Griot/OPT_Letter
+父親的遺言
+
+Griot/OPT_About_play0
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    嗯...你先說說看需要什麼幫助吧？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    如果我幫的上，也許可以試試看？
+
+Griot/OPT_About_play1
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,6]\prf\c[4]葛里歐：\c[0]    我...我家在\c[6]雲中村\c[0]我的家人都被殺了。
+\CBid[-1,6]\prf\c[4]葛里歐：\c[0]    那天晚上有個外來的胖子說我們偷了他們的食物。
+\CBid[-1,6]\prf\c[4]葛里歐：\c[0]    我們沒有偷，那些就是我們的食物！
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    姐姐你可以進城吧，帶我進去吧，我要進城裡告狀！
+
+Griot/OPT_HelpTheKid_FattieKilled_play
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    其實我不小心在那大鬧了一番，你說的壞胖子已經死了。
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    真的嗎？！
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    他死了？ 妳幫我爸媽報仇了？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...報仇？ 大概吧？
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    不行！
+
+Griot/OPT_HelpTheKid_aggroed_play
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...我去過那了。
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    真的嗎？！
+\CBct[20]\m[angry]\PRF\c[6]洛娜：\c[0]    那裏的人全是強盜！
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    對！ 那些本來對我很好的叔叔阿姨發現我家有吃的後就全部變成壞人了！
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    他們聽那個胖子的話把我爸媽都殺掉了！
+
+Griot/OPT_HelpTheKid_play
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    所以...你希望我怎麼幫你呢？
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    我要進城告訴貴族老爺這一切，可是城門關起來了。
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    姊姊，妳能夠進出城內吧？ 幫幫我吧！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    告訴貴族老爺？諾爾鎮裡沒幾位吧？
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    還是你說諾爾鎮的\c[4]警備總部\c[0]？
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我覺得他們現在自顧不暇了耶，可能根本不會理我。
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    不可能！ 我爸媽都被殺了！ 他們一定會幫我做主的！
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    嗯...
+
+Griot/OPT_Letter_Play0
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    我猜這應該是你父親的信，你先看看再說吧。
+\CBid[-1,8]\prf\c[4]葛里歐：\c[0]    我不識字....
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    好吧，我讀念你聽吧。
+
+Griot/OPT_Letter_Play1
+\CBid[-1,8]\prf\c[4]葛里歐：\c[0]    ......
+
+#unused  probably will never reuse
+#Griot/OPT_HelpTheKid_play_brd
+#\board[韭菜打官司]
+#目標：前往警備總部報案
+#報酬：無
+#委託主：諾爾鎮東門外部的\c[4]葛里歐\c[0]
+#期限：單次
+#這個可憐的孩子的父母都被殺了，試著與諾爾鎮的\c[4]警備總部\c[0]回報看看吧。
+
+Griot/OPT_KillTheKid_play
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    所以你是那個\..\..\..\c[4]雲中村的\c[0]的\c[4]葛里歐\c[0]？
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    對！ 我就是！
+\CBct[6]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...那個...其實...
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我是受雇來殺你的耶？
+\CBid[-1,8]\prf\..\..\..\WF[10]
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    \{哇啊！ 救命啊！
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    耶？！ 等一下？！
+
+Griot/MAD_loop
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    全村的人都是壞人！ 我要報仇！
+\CBid[-1,20]\prf\c[4]葛里歐：\c[0]    我要進城告訴貴族老爺，他們一定會幫我殺光那些壞人！
+
+Griot/OPT_HelpTheKid_play_yes
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我試試看吧。不要抱太多期待就是了。
+\CBid[-1,3]\prf\c[4]葛里歐：\c[0]    太好了！ 謝謝姐姐！
+\CBct[20]\m[pleased]\PRF\c[6]洛娜：\c[0]    在這裡等我回來吧。
+\CBid[-1,3]\prf\c[4]葛里歐：\c[0]    好！
+
+Griot/OPT_HelpTheKid_play_no
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...我沒空耶。
+\CBid[-1,8]\prf\..\..\..\WF[10]
+
+Griot/OPT_GiveUP_play0
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    我覺得呢\..\..\..算了吧。
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    你父母都死了，但至少你還活著不是嗎？
+\CBid[-1,8]\prf\c[4]葛里歐：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我相信那些人也是沒路走了才會這麼做。
+\CBid[-1,8]\prf\c[4]葛里歐：\c[0]    \..\..\..
+\CBct[20]\m[confused]\PRF\c[6]洛娜：\c[0]    現在到處都亂糟糟的，就算你去\c[4]警備總部\c[0]告官也不會有人理你的。
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    總之啊，好好想辦法活下去比較重要。
+\CBid[-1,8]\prf\c[4]葛里歐：\c[0]    \..\..\..
+
+Griot/OPT_GiveUP_play1
+\CBid[-1,8]\m[p5sta_damage]\Rshake\c[4]葛里歐：\c[0]    \{姐姐大笨蛋！
+
+Griot/OPT_GiveUP_play2
+\CBct[20]\m[tired]\PRF\c[6]洛娜：\c[0]    ......

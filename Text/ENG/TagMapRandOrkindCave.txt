@@ -1,0 +1,90 @@
+OrkindCave1/OvermapEnter
+\m[confused] This cave seems to be a home for monsters. \optB[Leave,Enter]
+
+OrkindCave2/OvermapEnter
+\m[confused] The North Gate Tower. It seems to have been taken over by monsters. \optB[Leave,Enter]
+
+OrkindCave3/OvermapEnter
+\m[confused] This cave seems to be a home for monsters. \optB[Leave,Enter]
+
+OrkindCamp1/OvermapEnter
+\m[confused] A small hut, now occupied by monsters. \optB[Leave,Enter]
+
+NFL_OrkCamp1/OvermapEnter
+\m[confused]The 12th Southern Grain Warehouse, now occupied by monsters. \optB[Leave,Enter]
+
+############################################################################# QUEST NFL Burn DOC
+
+RecQuestNorthFL_Main3/FirstTouch
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Is this it\..\..\..? So\..\..\.. What exactly is this?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..\CBct[20]\m[flirty]Seems to be some sort of corrupt bill of sale from some nobles?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..\CBct[20]\m[triumph]\Rshake Has nothing to do with me. ♥
+
+RecQuestNorthFL_Main3/Cecily0
+\CBfB[2]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecily：\C[0]    Wait a second! Let me see these documents!
+
+RecQuestNorthFL_Main3/Cecily1
+\CBfB[1]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecily：\C[0]    \c[6]EAGLEMORE\c[0]?! Isn't this my house surname?!
+\CBct[2]\m[flirty]\PRF\plf\c[6]Lona：\c[0]    Ummm......?
+\CBfB[6]\SETpl[CecilyFailedAr]\Lshake\prf\C[4]Cecily：\C[0]    This is impossible... H-How could father...
+\CBct[3]\m[confused]\PRF\plf\c[6]Lona：\c[0]    Well\..\..\..\CBct[3]\m[triumph]\Rshake It'll all be destroyed soon anyways, no one will ever know about this in the future.
+\CBfB[8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecily：\C[0]    ......
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\PRF\c[4]Gray Rat：\c[0]    .........
+
+RecQuestNorthFL_Main3/Done
+\CBct[3]\m[pleased]\Rshake\c[6]Lona：\c[0]    Alright! All done now!
+\CBct[20]\m[normal]\PRF\c[6]Lona：\c[0]    I should head back soon and collect my reward.
+
+############################################################################# QUEST 2
+
+OrkindCave2/OvermapEnter_enter
+\m[flirty]\c[6]Lona：\c[0]    This is the place.
+\m[shy]\c[6]Lona：\c[0]    ...Am I really ready for this?
+\m[serious]\c[6]Lona：\c[0]    I mustn't fail. If I do, I might end up becoming one of their breeding slaves...
+
+OrkindCave2/OvermapEnter_done
+\m[triumph]\c[6]Lona：\c[0]    It's finished. All those disgusting, green-skinned monsters are now gone.
+\m[pleased]\c[6]Lona：\c[0]    I need to hurry back and report about the mission.
+
+#############################################################################
+
+Lona/ExitCave
+\CBct[2]\m[confused]\c[6]Lona：\c[0]    Should I leave now? \optB[Not yet,Leave]
+
+Lona/SmallHole
+\narr A tiny hole. It's not big enough for anyone to fit through.
+
+Lona/CheckFlag
+\narr An Orkind banner painted with an unknown symbol. The material seems to be made with a mysterious, leathery skin.
+
+Lona/CheckCropseEnd
+\CBct[6]\m[serious]\c[6]Lona：\c[0]    ...If they kill me, will I become like this too?
+
+Lona/TimerStart
+\narr The sound of footsteps can be heard from outside the cave.
+\CBct[6]\m[fear]\c[6]Lona：\c[0]    I have to be quick...
+
+Lona/RapeLoopNonCapture
+\m[fear]\narr The Orkinds grabbed Lona. They also looted all of her equipment and items.
+\m[terror]\narr They were very happy to have found a new meat toilet. 
+
+Lona/RapeLoopBondage
+\m[pain]\narr They pinned Lona to the ground and bound her with restraints.
+
+Lona/RapeLoopCaptured
+\m[terror]\narr The Orkinds haven't had enough fun, they refused to let Lona rest so easily.
+\m[fear]\narr They had perverted grins and began stroking their foul-smelling genitals. How will they play with their meat toilet today? 
+
+Lona/RapeLoopDragOut
+\m[hurt]\narr The Orkinds dragged Lona out as they were planning to have a celebratory orgy.
+
+Lona/RapeLoopTorture
+\m[fear]\narr The Orkinds were furious at Lona's attempts to escape. They will be teaching Lona a lesson while showing her what happens to disobedient meat toilets...
+
+######################################## MAP TRANS
+
+Lona/ToOrkindCave1
+\cg[map_region_hole] A small, narrow hole. It seems like monsters may be able to invade the Town of Noer from here.
+\CBct[2]\m[confused]\c[6]Lona：\c[0]    Should I go inside?  \optB[Leave,Enter]
+
+#Translated by Rrezzolution, cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys, you guys are not translators.

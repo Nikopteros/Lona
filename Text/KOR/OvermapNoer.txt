@@ -1,0 +1,141 @@
+common/closed
+\narr문이 닫혀 있다.
+
+##################################### 諾爾鎮 大門守衛 #############################################
+
+GateGuard/begin1
+\cg[map_NoerGate]노엘 마을의 성문
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 멈춰! \optB[그만둔다,들어간다,몰래 지나간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+GateNobGuard/begin1
+\cg[map_region_RoadNoerNob]루드신드 산장의 입구
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 멈춰! \optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+GateGuard/enter_no_passport_dir6
+\prf\c[4]경비병：\c[0] 성문 밖으로 나가는 건 문제없지만, 돌아올 땐 반드시 신분증이 있어야 한다.
+
+GateGuard/enter_no_passport_dir4
+\prf\PLF\c[4]경비병：\c[0] 상부 지시다. 신분증 없이는 절대 들여보낼 수 없다.
+\m[confused]\plf\PRF\c[6]로나：\c[0] 알았어…
+
+GateGuard/enter_with_passport
+\prf\c[4]경비병：\c[0] 흠......
+\prf\c[4]경비병：\c[0] 좋아, 지나가도 된다.
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]경비병：\c[0] 뭐? 너… 잠깐!
+\Lshake\c[4]경비병：\c[0] 너 알아봤다! \{잡아라!
+
+GateGuard/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]로나：\c[0] 큰일 났어!
+
+GateGuard/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]로나：\c[0] 젠장!
+
+GateGuard/enter_failed_gloomy
+\m[bereft]\plf\PRF\Rshake\c[6]로나：\c[0] 미안해!
+
+GateGuard/enter_failed_slut
+\m[shocked]\plf\PRF\Rshake\c[6]로나：\c[0] 망했다!
+
+GateGuard/enter_wait
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]로나：\c[0] 후… 무사히 지나갔다…
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]경비병：\c[0] 뭐? 너… 잠깐!
+\Lshake\c[4]경비병：\c[0] 어디로 가는 거야! \{잡아라!
+
+GateGuard/enter_wisdom
+\PRF\c[6]로나：\c[0] 너도 모르나? 이건 상부 지시야.
+\PLF\prf\c[4]경비병：\c[0] 그런가?
+\plf\prf\narr\..\..\..
+
+GateGuard/enter_wisdom_win_lona
+\PLF\c[4]경비병：\c[0] 그런 것 같군, 지나가도 된다.
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후… 넘어갔다…
+
+GateGuard/enter_wisdom_win_slave1
+\PLF\c[4]경비병：\c[0] 내가 언제 노예가 자유롭게 돌아다닌다는 얘길 들었더냐?
+
+GateGuard/enter_wisdom_win_slave2
+\PLF\c[4]경비병：\c[0] 됐고, 어서 네 주인한테 돌아가라!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_wisdom_win_maggot
+\PLF\c[4]경비병：\c[0] 윽! 이게 무슨 냄새야? 시바리스 놈들은 다 이렇게 구린 거냐?
+\PLF\c[4]경비병：\c[0] 역겹군, 빨리 들어가! 내 근처에 얼씬도 하지 마라!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_wisdom_win_sexy
+\PLF\c[4]경비병：\c[0] 이 년, 돈 벌러 나온 거냐?
+\PLF\c[4]경비병：\c[0] 아니냐? 마음 바뀌면 군영은 저쪽이다.
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_wisdom_win_weaker
+\PLF\c[4]경비병：\c[0] 눈앞에서 치워라, 얼른 들어가!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_wisdom_win_SexyWeak1
+\PLF\c[4]경비병：\c[0] 이 년, 이리 와. 좀 확인해 보자.
+\m[sad]\plf\PRF\c[6]로나：\c[0] 으....
+
+GateGuard/enter_wisdom_win_SexyWeak2
+\PLF\c[4]경비병：\c[0] 이제 꺼져라. 아니면 마음이 바뀔지도 모른다.
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_wisdom_win_SexSlave1
+\PLF\c[4]경비병：\c[0] 다리 벌려, 확인 좀 하게.
+\m[sad]\plf\PRF\c[6]로나：\c[0] 으....
+
+GateGuard/enter_wisdom_win_SexSlave2
+\PLF\prf\c[4]경비병：\c[0] 으, 냄새 고약하군... 됐다, 그냥 지나가라.
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_wisdom_win_SexSlaveRuined1
+\PLF\c[4]경비병：\c[0] 다리 벌려, 이 쓰레기 같은 년. 그 더러운 게 아직 쓸 만한지 봐야겠다.
+\m[sad]\plf\PRF\c[6]로나：\c[0] 으....
+
+GateGuard/enter_wisdom_win_SexSlaveRuined2
+\PLF\prf\c[4]경비병：\c[0] 젠장, 더럽게도 구나... 당장 꺼져라!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_wisdom_win_moot
+\PLF\c[4]경비병：\c[0] 네 말이 맞는 것 같군. 어서 꺼져라, 안으로 들어가!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 후... 지나갔다...
+
+GateGuard/enter_failed
+\PLF\c[4]경비병：\c[0] 저리 비켜! 너 같은 건 하루에도 몇 번씩 본다!
+
+GateGuard/enter_passport_NoDir
+\prf\c[4]경비병：\c[0] 좋아, 지나가도 된다.
+
+GateGuard/enter_failedDirt1
+\PLF\Lshake\c[4]경비병：\c[0] 여긴 거지 출입 금지다!
+
+GateGuard/enter_failedDirt2
+\narr로나는 너무 더러웠다...
+
+####################################################### 諾爾鎮外
+
+GateGuardOuta/enter_LowMorality
+\prf\c[4]경비병：\c[0] 너를 알아봤다! 꺼져! 여긴 네 환영 받을 곳이 아니다!
+
+GateGuardOuta/enter_failed_typical
+\m[shocked]\plf\PRF\Rshake\c[6]로나：\c[0] 뭐?!
+
+GateGuardOuta/enter_failed_tsundere
+\m[irritated]\plf\PRF\Rshake\c[6]로나：\c[0] 칫!
+
+GateGuardOuta/enter_failed_gloomy
+\m[sad]\plf\PRF\Rshake\c[6]로나：\c[0] 미안해...
+
+GateGuardOuta/enter_failed_slut
+\m[flirty]\plf\PRF\Rshake\c[6]로나：\c[0] 알았어...
+
+####################################################### DEEPONE UNIQUE
+
+GateGuard/LonaIsTrueDeepone
+\narr경비병들이 로나를 향해 돌진했다. 어린 바다마녀 앞에서 그들은 이성을 잃고, 머릿속에는 음란한 생각만이 가득했다.

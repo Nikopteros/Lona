@@ -1,0 +1,432 @@
+thisMap/OvermapEnter
+\SETpl[CecilyWtfAr]\Lshake\C[4]Cecily：\C[0]    Are you sure you're ready? Once you make a decision, there is no going back!
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well....\optB[Leave,Enter]
+
+QuestQmsg/XY
+located at
+
+QuestStart/Begin0
+\CBfB[2]\SETpl[CecilyWtfAr]\PLF\C[4]Cecily：\C[0]    This is it?
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\PRF\C[4]Gray Rat：\C[0]    Yes miss.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    So what to do now?
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecily：\C[0]    I need you to find the way, our people should be waiting ahead.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well... All right.
+
+region/0_exit
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    I have to finish what I came here to do, I promised to Cecily.
+
+QuestStart/flash0
+\CBmp[ThunderFlash,20]\prf\C[4]haystack：\C[0]    Thunder...
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Huh?!
+
+QuestStart/flash1
+\CBmp[ThunderFlash,20]\prf\C[4]haystack：\C[0]    \{Thunder!
+\CBct[2]\m[confused]\PRF\c[6]Lonna：\c[0]    What?
+\CBfF[8]\SETpl[GrayRatConfusedArAr]\PLF\prf\C[4]Gray Rat：\C[0]    ....
+
+QuestStart/flash2
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prh\C[4]Gray Rat：\C[0]    Flash...
+\CBmp[ThunderFlash,8]\plf\C[4]haystack：\C[0]    ...
+
+########################################################################################
+
+QuestStart/ShowUp_AdamAlive0_t0
+\CBmp[Adam,1]\SETpr[Adam_angry]\plh\PRF\C[4]Adam：\C[0]    It's you...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    .....
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]Adam：\C[0]    This little thief, I have met you before.
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Me? Little thief?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Then you should be...
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Gray Rat：\C[0]    Have you met her before?
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]Adam：\C[0]    She has done things for me before and is a trustworthy helper.
+\CBmp[Adam,20]\SETpl[Adam_normal]\PLF\prf\C[4]Adam：\C[0]    The one behind that is...
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]Adam：\C[0]    Lady Cecily, it's an honor to meet you.
+
+QuestStart/ShowUp_AdamAlive0_t1
+\CBmp[Adam,8]\SETpr[Adam_normal]\plh\PRF\C[4]Adam：\C[0]    It's you...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    .....
+\CBmp[Adam,2]\SETpl[Adam_angry]\m[confused]\PLF\prf\C[4]Adam：\C[0]    Then this is Lady Cecily next to you?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Who? Me?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    That's the one behind me! I'm just a follower!
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]Adam：\C[0]    Well......
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]Adam：\C[0]    Lady Cecily, it's an honor to meet you.
+
+QuestStart/ShowUp_AdamAlive1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecily：\C[0]    Are you Adam?
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\PRF\C[4]Adam：\C[0]    Yes.
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecily：\C[0]    How are the slaves?
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]Adam：\C[0]    This time there was more cargo than usual, and so there were more guards.
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]Adam：\C[0]    We are still trying to find a way to approach the convoy.
+
+########################################################################################
+
+QuestStart/ShowUp_AdamDed0
+\CBfF[2]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Gray Rat：\C[0]    Where is Adam?
+\CBmp[replacer,20]\plf\C[4]Mercenaries：\C[0]    He disappeared, and we haven't heard from him for a few days. It's bad luck.
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    Pity...
+
+QuestStart/ShowUp_AdamDed0_milo
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lonna：\c[0]    Well... that...
+\CBfF[2]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    What's wrong?
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    Nothing....
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    .....
+
+QuestStart/ShowUp_AdamDed1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecily：\C[0]    How are the slaves?
+\CBmp[replacer,20]\plf\C[4]Mercenaries：\C[0]    This time there was more cargo than usual, and so there were more guards.
+\CBmp[replacer,20]\plf\C[4]Mercenaries：\C[0]    We are still trying to find a way to approach the convoy.
+
+########################################################################################
+
+QuestStart/ShowUp_Quest0
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecily：\C[0]    Leave it to her!
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecily：\C[0]    Lona!
+
+QuestStart/ShowUp_Quest1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Yes?! I'm here!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecily：\C[0]    Just like when you rescued me before, help us find a way!\optD[good!,Well...]
+
+QuestStart/ShowUp_Quest2
+\board[rescue refugees]
+Goal：Scout ahead.
+Investigate the route ahead until you find a way to the slaves.
+Be stealthy if possible.
+
+QuestStart/ShowUp_Quest3
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Leave it to me!
+
+QuestStart/ShowUp_Quest3_kill
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I think i may not be able to do it...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecily：\C[0]    Am I asking too much for a civilian?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecily：\C[0]    Then we cut a way through them!
+
+########################################################################################
+
+Commoner/Qmsg0
+many guards ahead
+
+Commoner/Qmsg1
+careful
+
+Commoner/Qmsg2
+don't get caught
+
+########################################################################################
+
+ReachedEnd/Success_NonSpot
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecily：\C[0]    Didn't alert any guards? Good!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Hey, you know me...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]Cecily：\C[0]    Cargo carts are ahead, get on with it.
+
+ReachedEnd/Success_Spoted
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecily：\C[0]    Lona....
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]Cecily：\C[0]    I find that sometimes you are really unreliable...
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\PRF\C[4]Gray Rat：\C[0]    ....
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    I apologize, Lady Cecily...
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecily：\C[0]    Forget it, the cargo carts are ahead, let's move on.
+
+ReachedEnd/FailedWarning
+\m[serious]\Rshake\c[6]Lona：\c[0]    I've been found out and now I have to bring\C[4]Cecily\C[0]and\C[4]Gray Rat\C[0]here!
+
+########################################################################################
+########################################################################################
+########################################################################################  PART 2
+########################################################################################
+########################################################################################
+
+Part2/Enter
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecily：\C[0]    It's raining....
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    It's okay, right? The noise we make will be drowned out by the sound of rain.
+\CBfB[20]\SETpl[GrayRatConfusedAr]\Lshake\PRF\C[4]Gray Rat：\C[0]    ...
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]Cecily：\C[0]    Hey you!
+\CBmp[Follower1,2]\plf\C[4]Mercenary：\C[0]    Me?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]Cecily：\C[0]    Go scout around the back! If there is any trouble, report immediately!
+\CBmp[Follower1,20]\plf\C[4]mercenary：\C[0]    Yes M'Lady!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    What now? What do we do?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Cecily：\C[0]    The carts should be right up front, just like before, you do what a scout should do!
+
+Part2/SpotQuAcc0
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Look to the front of the convoy!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecily：\C[0]    Huh?
+
+Part2/SpotQuAcc0_Maani0
+\CBmp[Maani,20]\SETpr[MaaniNormal]\Rshake\C[4]Maani：\C[0]    ...I'll count them myself. If there's a difference between what I count and the number of people I have on my paper, each will be deducted from the final payment.
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]merchant：\C[0]    I know! I tried my best! There are almost no living people left in Sybaris!
+\CBmp[Maani,20]\SETpr[MaaniNormal]\plf\Rshake\C[4]Marnie：\C[0]    This is not something my master should worry about, everything must be done according to the contract.
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]merchant：\C[0]    Damn it!
+
+Part2/SpotQuAcc0_Maani1
+\SETpl[AnonMale1]\Lshake\prh\C[4]merchant：\C[0]    Fuck you!
+\SETpl[AnonMale1]\Lshake\prh\C[4]merchant：\C[0]    Bumbling whore!
+
+part2/SpotQuAcc1
+\CBmp[Guard1,20]\SETpl[MobHumanCommoner]\PLF\prh\C[4]guard：\C[0]    Another one! Damn mosquitoes!
+\CBmp[Guard2,20]\SETpr[AnonMale2]\plf\PRF\C[4]guard：\C[0]    Worst of all, it's still raining.
+\CBmp[Guard3,8]\SETpl[MobHumanWarrior]\PLF\prf\C[4]guard：\C[0]    Well... fewer and fewer people...
+\CBmp[Guard4,8]\SETpl[AnonMale1]\PLF\prf\C[4]guard：\C[0]    .....
+\CBmp[Story2]\SETpl[CecilyAngryAr]\PLF\prh\C[4]Cecily：\C[0]    Four guards...
+\CBmp[SlaveCart2,19]\SETpl[CecilyWtfAr]\PLF\prh\C[4]Cecily：\C[0]    And the cargo carts are right behind!
+\CBmp[SlaveCart2]\SETpl[CecilyNormalAr]\PLF\prh\C[4]Cecily：\C[0]    Lona, can you fix them?
+\CBmp[SlaveCart2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Who! Me... f-fix them?\optD[knock them out,no]
+
+part2/SpotQuAcc1_yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Can I try to knock them all out? It should be done, right?
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\prf\C[4]Cecily：\C[0]    Then I'll leave it to you.
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Cecily：\C[0]    If not, let us do it!
+\CBfF[20]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Gray Rat：\C[0]    Be careful. And good luck...
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\c[0]    Thanks!
+
+part2/SpotQuAcc1_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    A little difficult...
+\CBfB[20]\SETpl[CecilyShyAr]\PLF\prf\C[4]Cecily：\C[0]    Well....
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Cecily：\C[0]    Simple affair! Kill them all!
+
+part2/SpotQuAcc2_board
+\board[rescue refugees]
+Try knocking out, or annihilating the guards.
+The four guards must be dead or stunned.
+
+Part2/SpotQuWin
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prh\C[4]Cecily：\C[0]    Well done!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prh\C[4]Cecily：\C[0]    Let them out.
+
+################################################################################################ Quest end  milo
+################################################################################################ Quest end  milo
+
+Part2/EndMilo_0
+\SETpl[GrayRatShockedAr]\Lshake\C[4]Gray Rat：\C[0]    \{Miss! Look out!
+
+Part2/EndMilo_1
+\SETpr[CecilyShockedAr]\plh\Rshake\C[4]Cecily：\C[0]    What?!
+
+Part2/EndMilo_2
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]Cecily：\C[0]    Vineet! No!
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]Cecily：\C[0]    Wake up! Vineete!
+
+Part2/EndMilo_3
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    What's wrong?! What happened?!
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]Cecily：\C[0]    Wake up!
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]Cecily：\C[0]    This can't be true! Wake up!
+
+Part2/EndMilo_4
+\BonMP[Milo,3]\SETpr[MiloNormal]\Rshake\C[4]Milo：\C[0]    I'm singing in the rain♫
+
+Part2/EndMilo_5
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]Cecily：\C[0]    \{Milo\..Milo\..Rudesind\. This is impossible!
+
+Part2/EndMilo_5_1
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]Milo：\C[0]    I really don't understand you, why don't you like wearing helmets?
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]Milo：\C[0]    Behold the great saint! He knew the importance of protecting his head!
+
+Part2/EndMilo_6
+\CBmp[FollowerTop1,20]\C[4]mercenaries：\C[0]    Run away! We failed! They are everywhere!
+
+Part2/EndMilo_7
+\CBmp[FollowerTop1,20]\C[4]mercenaries：\C[0]    Run! This is a trap!
+
+Part2/EndMilo_8_manni
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]Milo：\C[0]    Good shot!
+\BonMP[MaaniRF,20]\SETpl[MaaniNormal]\Lshake\C[4]Maani：\C[0]    Thank you for the compliment, Master.
+
+Part2/EndMilo_9
+\CBct[8]\m[shocked]\plh\Rshake\c[6]Lona：\c[0]    Dead?! He died?!
+
+Part2/EndMilo_10
+\CBct[20]\m[shocked]\plh\Rshake\c[6]Lona：\c[0]    Lord Milo?!
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    Oho! Lona the little bug? Are you here too?
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecily：\C[0]    You....
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    You did a great service little bug, it was all thanks to your help that these... filthy bandits were caught.
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecily：\C[0]    Lona... what have you done?!
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    I.... I didn't do this....
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecily：\C[0]    What in the Saint's name have you done?!
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    My little Lona! Come here, we won't hurt you.
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    I promise you! And there are more gold coins for you.
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    You need money, don't you?
+
+Part2/EndMilo_10_opt
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    I....\optD[I...,you liar]
+
+Part2/EndMilo_1_optNo1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    You are a liar! You said you wanted to talk to her! You lied to me!
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    Well, did you reeeaaally expect me to talk to this obstinate wench?
+\CBct[20]\m[angry]\plf\Rshake\c[6]Lorna：\c[0]    You said you just wanted to make friends! You liar! You will go to hell!
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    \..\..\..\.. Kill her.
+
+Part2/EndMilo_1_optNo2
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prh\C[4]Milo：\C[0]    May the saints guide your way home♫
+
+Part2/EndMilo_11
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    I....
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecily：\C[0]    You traitor!
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Cecily：\C[0]    You took advantage of our trust in you!
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Lona：\c[0]    No! I don't...
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]Cecily：\C[0]    Go to hell!
+
+Part2/EndMilo_12
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    No! I did not do it on purpose!
+
+Part2/EndMilo_13
+\CBmp[Cecily,20]\SETpl[CecilyTrapA_Shocked]\Lshake\prf\C[4]Cecily：\C[0]    ! ! !
+\BonMP[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    Lorna, here's your money.
+
+Part2/EndMilo_14
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    I... what did I do....
+
+Part2/EndMilo_15
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    You did what you had to do, you kept Noer Island stable, and you made a whole lot of money! You did nothing wrong.
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona：\c[0]    Yes, Lord Milo...
+
+Part2/EndMilo_16
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    But now you have to watch, to the end.
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    She is your friend, this is your cause, you must see what happens to renegdes like her, maybe it will persuade you to behave.
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    Don't think about saving her, don't think about resisting, the gun is pointed at your head.
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    Yes, my Lord...
+\CBmp[RifleR1,4]\ph\C[4]mercenaries：\C[0]    Hehe...
+\SndLib[sound_DressTear]\CBmp[Cecily,1]\SETpl[CecilyTrapB_Shocked]\Lshake\C[4]Cecily：\C[0]    ! ! !
+\CBmp[RifleR2,3]\ph\C[4]mercenaries：\C[0]    Hee hee hee...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]Cecily：\C[0]    No....
+\CBmp[RifleR3,4]\ph\C[4]mercenaries：\C[0]    Whistle-whistle...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]Cecily：\C[0]    Please don't...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]Cecily：\C[0]    Someone please help me.....
+
+Part2/EndMilo_17
+\CBmp[RifleR1,3]\ph\C[4]mercenaries：\C[0]    Boss! Can we fuck her?
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    Who? You can have the one lying on the ground before you.
+\CBmp[RifleR1,3]\plf\C[4]mercenaries：\C[0]    Uh, I meant the short one, though she might not have enough holes after all...
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    ! ! !
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    What? Just how dreadfully rude can you get?
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    She is my greatest ally! She just betrayed her friend for me! You will leave her alone.
+\CBmp[RifleR1,6]\plf\C[4]mercenaries：\C[0]    Well... I'm sorry, boss. Consider I said nothing.
+
+Part2/EndMilo_18
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    ......
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona：\c[0]    What will happen to her, Lord Milo?
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    Cecily?
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    She killed a lot of people, guards、merchants、citizens. All kinds of people died at her hands.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    All kinds of people, and their families.
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]Milo：\C[0]    She has to pay the price.
+\CBct[8]\m[sad]\plf\Rshake\c[6]Lona：\c[0]    Sir, please have mercy on her.
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    How abouuut...
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    No? And you should leave here as well. Or continue to cry here...
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]Milo：\C[0]    ...Until I change my mind and unleash these beasts to ravage your body. Your call, little bug.
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona：\c[0]    \..\..\.. I will leave, my Lord. Thank you for your generosity...
+\narr\ph Lona left
+
+################################################################################################ Quest end  Cecily
+################################################################################################ Quest end  Cecily
+
+Part2/EndCecily_1
+\CBmp[Slave1,20]\C[4]refugee：\C[0]    Who are you?
+\CBmp[Slave3,20]\C[4]refugee：\C[0]    What about our buyers?
+\CBmp[Slave5,20]\C[4]refugee：\C[0]    So hungry!
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecily：\C[0]    You are free.
+\CBmp[Slave2,20]\plf\C[4]refugee：\C[0]    Free?
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]Cecily：\C[0]    That's right! We just set you free!
+\CBmp[Slave4,20]\plf\C[4]refugee：\C[0]    So hungry! So do you have something for us to eat?
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\C[4]Cecily：\C[0]    What?
+\CBmp[Slave6,20]\plf\C[4]refugee：\C[0]    We chose to be slaves so we can eat a meal every day! We chose to work for food!
+\CBmp[Slave2,20]\plf\C[4]refugee：\C[0]    I have kept my children safe with my slave contract! What should we do now?
+\CBmp[Slave4,20]\plf\C[4]refugee：\C[0]    There are monsters everywhere now, can you ensure our safety? Can you get us off the island?
+\CBmp[Slave5,20]\plf\C[4]refugee：\C[0]    They gave me a lot of food! I would have had a chance to get full! What should we do now!?
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\C[4]Cecily：\C[0]    Don't you have any self-respect? The people of the Kingdom of Ingolend should not be slaves!
+\CBmp[Slave3,20]\plf\C[4]refugee：\C[0]    well... Another noblegirl comes out to play white knight....
+\CBmp[Slave1,20]\plf\C[4]refugee：\C[0]    What are you going to do now?
+\CBmp[Slave5,20]\plf\C[4]refugee：\C[0]    I'm going back to the slave trader to report you! Maybe he'll give me an extra meal! You are sooooo screwed!
+
+Part2/EndCecily_2
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\C[4]Cecily：\C[0]    You! listen to me...Come back!
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]Gray Rat：\C[0]    Miss... this is how the commonfolk live and die...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well most of them anyway...
+
+Part2/EndCecily_3
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\prf\C[4]Cecily：\C[0]    But... why?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well, that's how we civilians are... Most of us are ready to throw away our freedom for security.
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecily：\C[0]    ........
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Should we leave?
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecily：\C[0]    .....
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well....
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]Cecily：\C[0]    ...
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]Gray Rat：\C[0]    Let's go, M'Lady....
+
+Part2/EndCecily_4
+\CBmp[GrayRat,20]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]Gray Rat：\C[0]    Miss Eaglemore needs time to process all this.
+\CBmp[GrayRat,20]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]Gray Rat：\C[0]    This is the amount we agreed upon, I trust you are satisfied with your compensation.
+
+Part2/EndCecily_5
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Yes, thank you Sir....
+
+##########################################################################################################   HEV
+
+CecilyRape/rape_scene1
+\C[4]mercenary A：\C[0]    Everyone look! I am riding on a noblegirl!
+
+CecilyRape/rape_scene2
+\C[4]mercenary B：\C[0]    I achieved a childhood dream today!
+
+CecilyRape/rape_scene3
+\C[4]Cecily：\C[0]    No... Why!?
+
+CecilyRape/rape_scene4
+\C[4]Cecily：\C[0]    Give me back Vineet!
+
+CecilyRape/rape_scene5
+\SndLib[sound_chcg_full]\C[4]mercenary B：\C[0]    Aaaw, was he your lover?
+
+CecilyRape/rape_scene6
+\SndLib[sound_chcg_full]\C[4]mercenary A：\C[0]    That bastard is dead! From now on we are your lovers!
+
+CecilyRape/rape_scene7
+\SndLib[sound_chcg_full]\C[4]mercenary B：\C[0]    You like it? There's nothing like fucking a woman in front of her lover!
+
+CecilyRape/rape_scene8
+\SndLib[sound_chcg_full]\C[4]mercenary A：\C[0]    It's a pity he died! He can't see how thoroughly I'll fuck his bitch! Ha ha ha ha!
+
+CecilyRape/rape_scene9
+\C[4]Cecily：\C[0]    I'm begging you! No! Somebody help me!
+
+CecilyRape/rape_scene10
+\SndLib[sound_chcg_full]\C[4]mercenary B：\C[0]    \{Ah-huh-yeah-huh-ahh-fuckyeah-ahh! ! !
+
+CecilyRape/rape_scene11
+\SndLib[sound_chcg_full]\C[4]mercenary B：\C[0]    \{That's right! Take it! Take it all!
+
+CecilyRape/rape_scene12
+\C[4]Cecily：\C[0]    \{No! Please! Stop! I'm begging you!
+
+CecilyRape/rape_scene13
+\C[4]mercenary B：\C[0]    Fuck yeah! She might get pregnant with my kid!
+\C[4]mercenary B：\C[0]    I'll enter her bloodline! I'll become a nobleman!
+
+CecilyRape/rape_scene14
+\SndLib[sound_chcg_full]\C[4]Cecily：\C[0]    \{Pleeease noooo sob-sob-sob...
+
+CecilyRape/rape_scene15
+\C[4]mercenary A：\C[0]    It's my turn! It's my turn!
+
+CecilyRape/rape_scene16
+\SndLib[sound_chcg_full]\C[4]Cecily：\C[0]    S-stop! Ple-e-ease stop! Leave me alone!
+
+CecilyRape/rape_scene17
+\SndLib[sound_chcg_full]\C[4]mercenary A：\C[0]    Do not worry! We will all cum inside you!
+\SndLib[sound_chcg_full]\C[4]mercenary A：\C[0]    You will give birth to a bunch of bastards who don't know who they are!
+
+CecilyRape/rape_scene18
+\C[4]Cecily：\C[0]    I'm sorry Lord Milo! Forgive me! Please!
+
+CecilyRape/rape_scene19
+\SndLib[sound_chcg_full]\C[4]mercenary A：\C[0]    \{AIEEEE-EEE-EEE!
+
+CecilyRape/rape_scene19_1
+\SndLib[sound_chcg_full]\C[4]mercenary A：\C[0]    \{I'm cumming! Ah-hah!
+
+CecilyRape/rape_scene20
+\C[4]mercenary A：\C[0]    So this was the Noble Cave? Doesn't feel any different than a whore in the backstreet...
+\C[4]mercenary A：\C[0]    Who's next?
+
+CecilyRape/rape_scene21
+\SndLib[sound_chcg_full]\C[4]mercenary B：\C[0]    Come on! The whole fucking camp is waiting for you!
+
+CecilyRape/rape_scene22
+\C[4]Cecily：\C[0]    Noo... This can't be... sob-sob....
+
+CecilyRape/rape_scene23
+\C[4]Cecily：\C[0]    Help me... Please someone help me....

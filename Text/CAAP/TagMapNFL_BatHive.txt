@@ -1,0 +1,113 @@
+thisMap/OvermapEnter
+\SndLib[AbomBatSpot]Guarida del murciélago mutante \optB[Cancelar,Entrar]
+
+##############################################
+
+begin/Enter
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    No recuerdo que hubiera un bosque aquí...
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Eh... No importa.
+\CBct[8]\m[confused]\prf\c[6]Lona：\C[0]    \..\..\..
+\CBct[8]\m[tired]\PRF\c[6]Lona：\C[0]    Para llegar al otro lado, hay que cruzar esto...
+\CBct[20]\m[serious]\PRF\c[6]Lona：\C[0]    ¡No tengo miedo! ¡Puedo hacerlo!
+
+rg29/begin1
+\CBmp[DaHunter,6]\c[4]Mercenario：\C[0]    ¡No! ¡No te acerques a mí!
+
+rg29/begin2
+\CBmp[DaHunter,20]\c[4]Mercenario：\C[0]    ¡¡Ja-ja!!
+
+rg29/begin4
+\CBmp[DaHunter,6]\c[4]Mercenario：\C[0]    ¡¡Ja-ja-ja!!
+
+DaHunter/begin1
+\CBid[-1,6]\c[4]Mercenario：\C[0]    ¿Tú...? ¿Estás bien?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Eh?
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¡Ayúdame! ¡Todos están muertos!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Muertos? ¿Qué pasó aquí?
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Esos malditos murciélagos son demasiado feroces.
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Por favor, ayúdame.
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Nuestro campamento... creo que está al oeste...
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Te daré todo lo que tengo mientras viva, solo déjame volver.
+
+DaHunter/begin1_brd
+\CamCT\board[Ayudar a los mercenarios en apuros]
+Misión：Ir al oeste
+Cliente：Mercenario herido
+Recompensa：Todo su equipaje
+Repetible：No
+Ayuda al mercenario atrapado a regresar a su campamento.
+
+DaHunter/begin2_OPTyes
+\CBct[20]\m[serious]\PRF\c[6]Lona：\C[0]    No hay problema, te acompañaré.
+
+DaHunter/begin2_OPTno
+\CBct[6]\m[flirty]\PRF\c[6]Lona：\C[0]    Vamos, puedo hacerlo.
+
+########################################################### end hunter qu
+
+DaHunter/Qu_success0
+\CBid[-1,20]\c[4]Mercenario：\C[0]    Gracias, no pensé que saldría vivo de ahí.
+\CBid[-1,20]\c[4]Mercenario：\C[0]    Toma esto.
+
+DaHunter/Qu_success0_1
+\CBid[-1,20]\c[4]Mercenario：\C[0]    Que te vaya bien, nos vemos.
+
+DaHunter/Qu_success1
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Eh... Espera...
+
+DaHunter/Qu_success2
+\CBid[-1,20]\c[4]Mercenario：\C[0]    ¿Qué?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Ehh\..\..\..¿Y eso es todo? ¿Dónde está todo el "equipaje" que prometiste?
+\CBid[-1,5]\prf\c[4]Mercenario：\C[0]    ¡Vete a la mierda! Esto es todo lo que tengo para ti.
+\CBid[-1,5]\prf\c[4]Mercenario：\C[0]    ¿Qué, quieres decir algo?
+
+DaHunter/Qu_success2_end_tsun0
+\CBct[8]\m[serious]\PRF\c[6]Lona：\C[0]    \..\..\..
+\CBid[-1,5]\c[4]Mercenario：\C[0]    ¿Qué? ¿Quieres decir algo?
+
+DaHunter/Qu_success2_end_tsun1
+\CBid[-1,6]\c[4]Mercenario：\C[0]    Tú\..\..\..Ni siquiera mi madre me ha golpeado así... Y tú...
+\CBct[5]\m[angry]\PRF\c[6]Lona：\C[0]    ¡Dame lo que merezco!
+\CBid[-1,6]\prf\c[4]Mercenario：\C[0]    Vale\..\..\..Perdóname, mi heroína.
+
+DaHunter/Qu_success2_end_tsun2
+\CBct[5]\m[serious]\PRF\c[6]Lona：\C[0]    *Buf*
+
+DaHunter/Qu_success2_end_other
+\CBct[6]\m[tired]\PRF\c[6]Lona：\C[0]    Yo... Yo... Lo siento.
+\CBid[-1,5]\prf\c[4]Mercenario：\C[0]    *Buf*
+
+DaHunter/Qu_success2_end_Cecily1
+\CBct[8]\m[serious]\PRF\c[6]Lona：\C[0]    \..\..\..
+\CBfB[20]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Cecilia：\C[0]    ¡Oye!
+
+DaHunter/Qu_success2_end_Cecily2
+\CBid[-1,2]\prf\c[4]Mercenario：\C[0]    ¿Qué? ¿Ya te di las gracias, no?
+\CBfB[20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]Cecilia：\C[0]    ¿Vale tu vida una sola moneda?
+
+DaHunter/Qu_success2_end_Cecily3
+\CBid[-1,8]\prf\c[4]Mercenario：\C[0]    Ay\..\..\..\CBid[-1,20]Lo siento, chicos, lo olvidé.
+\CBid[-1,6]\prf\c[4]Mercenario：\C[0]    Toma esto.
+
+DaHunter/Qu_success2_end_Cecily4
+\CBfB[5]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Cecilia：\C[0]    ¡Buena suerte! La próxima vez que te pase algo así, ¡haz esto!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Ay\..\..\..Vale.
+
+########################################################### common PPL
+
+Commoner/begin0
+\CBid[-1,20]\c[4]Mercenario：\C[0]    ¿Cómo llegué aquí?
+\CBid[-1,20]\c[4]Mercenario：\C[0]    Somos mercenarios, contratados para cazar a esos demonios.
+
+Commoner/begin1
+\CBid[-1,20]\c[4]Mercenario：\C[0]    ¿Para qué necesitas capturar a esos murciélagos?
+\CBid[-1,20]\c[4]Mercenario：\C[0]    ¿Cómo voy a saber en qué piensa la gente de la isla?
+
+Commoner/begin2
+\CBid[-1,20]\c[4]Mercenario：\C[0]    Después de este trabajo, volveré a casa para casarme.
+
+Watcher/begin0
+\CBid[-1,20]\c[4]Mercenario：\C[0]    Nunca antes había visto un demonio así.
+
+Watcher/begin1
+\CBid[-1,20]\c[4]Mercenario：\C[0]    Antes de venir aquí, solo había oído que Síbaris fue atacado por demonios, pero parece que toda la ciudad fue destruida.

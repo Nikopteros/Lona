@@ -1,0 +1,258 @@
+
+
+
+EastCP/OvermapEnter
+Седьмой Восточный Охранный Пост \optB[Отмена,Войти]
+
+#######################################################
+
+################################################### C130 mini game
+
+Cannon/ManDown0
+Офицер：Дружественные потери! Повторяю, дружественные потери!
+
+Cannon/ManDown1
+Офицер：Мы потеряли воина!
+
+Cannon/ManDown2
+Офицер：У нас потери! Запрашиваю поддержку!
+
+Cannon/GoodKill0
+Офицер：Получай!
+
+Cannon/GoodKill1
+Офицер：Есть попадание.
+
+Cannon/GoodKill2
+Офицер：Да, меткое попадание.
+
+Cannon/GoodKill3
+Офицер：Ка-БУМ!
+
+Cannon/GoodKill4
+Офицер：Вау! Чёткий выстрел.
+
+Cannon/GoodKill5
+Офицер：Отлично!
+
+Cannon/GoodKill6
+Офицер：Да, отличный выстрел. Вижу много мелких кусков от них.
+
+Cannon/win
+：\C[0]Артиллерист：\C[0]    Кажется, атака окончена, отличная работа.
+
+Cannon/lose
+：\C[0]Артиллерист：\C[0]    Проклятье! Все солдаты погибли!
+：\C[0]Артиллерист：\C[0]    Всем живым! Отступаем!!!
+
+############################################## C130 quest begin
+
+yeller/start
+\CBmp[YellingGuard,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат：\C[0]    Эй! Ты!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что?! ...Я?
+\CBmp[YellingGuard,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат：\C[0]    Да! Ты! Ты из штаба?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Нет...
+\CBmp[YellingGuard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Солдат：\C[0]    Не говори чепуху! Иди и доложи Офицеру Артиллерии на крыше!
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    ......Меня постоянно никто не слушает.
+
+officer/start_opt
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Что здесь забыли беженцы?!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Я не беженка! Меня послал солдат снизу!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Что?! Тогда, что ты здесь делаешь...?
+
+officer/start_opt_known
+\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Мм? Нужно что-то?
+
+officer/opt_nope
+Ничего
+
+officer/opt_whore
+Проституция
+
+officer/opt_work
+Предложить помощь
+
+officer/opt_replayCannon
+Артиллерия
+
+officer/opt_about
+Что за монстры?
+
+officer/opt_aboutCannon
+Пушка Оверлорд М405?
+
+officer/opt_repair
+Починить пушку
+
+officer/opt_moveCannon
+Лагерь у Южных Ворот
+
+officer/opt_monster
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что это были за монстры, с которыми мы только что сражались?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Их называют \c[6]Глубинными\C[0]. Ты не слышала о них раньше?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Сразу после пиратов, ранние колонисты больше всего боялись этих монстров.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Физическая сила Глубинных настолько велика, что без оружия ни один человек не сможет победить их в честном бою.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Они вторгаются в жилые районы поздними ночами, крадут женщин и убивают мужчин.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Что происходит с женщинами потом? Что ж, их ждёт та же участь, как если бы их украли Оркоиды...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Следовательно, тебе стоит быть особенно осторожной...
+\CamCT\m[fear]\plf\PRF\c[6]Лона：\C[0]    Мне......?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Другими словами, не дать им себя поймать?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Именно, я не видел их много лет. Я думал, они вымерли.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Но теперь все болотные края на востоке под их контролем.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Они, вероятно, появились вместе с Чёрной Мглой, являясь мутировавшими Рыболюдьми.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Я не знаю, сколько я здесь пробуду, поэтому, имей в виду.
+\CamCT\m[pleased]\plf\PRF\c[6]Лона：\C[0]    Ясненько, спасибо вам.
+
+officer/opt_FireControlSys
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    А это случайно не... Пушка Оверлорд М405?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Их можно производить массово? Она такая мощная. Мы с ней можем отвоевать Сибарис обратно?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    В данных обстоятельствах, это не представляется возможным. Это единственный экземпляр, и к тому же, обучение солдат её пользованию займёт не один месяц.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    Да и даже если капитолий сможет производить массово эту пушку, у нас мало снарядов для неё...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]Артиллерист：\C[0]    А самое важное... Многие из нас слишком неграмотные.
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    ...Понятно.
+
+officer/opt_cannon
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Отлично! Иди и управляй пушкой!
+\CamMP[Cannon]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Что? А как этой штукой пользоваться-то вообще?
+\CamMP[Cannon]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Не время для шуток! Сама, что ли, не знаешь? Стреляй с неё во врагов, пока они все не подохнут!
+\CamMP[officer]\BonMP[officer,6]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Вон они идут! У нас нет времени!
+\CamCT\m[fear]\plf\Rshake\c[6]Лона：\C[0]    Что? Кто идёт?!
+\CamMP[officer]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    ВПЕРЁД! Не теряй времени!
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Л-Ладно!
+
+officer/opt_cannon_replay
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Глубинные идут! Живо за пушку!
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Да!
+
+########################################################## Whore job
+
+officer/opt_whore_Lona
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Меня это не интересует, шагай вниз и поищи кого-нибудь ещё. Может, поднимешь боевой дух кому-нибудь.
+\CamCT\m[shy]\plf\PRF\c[6]Лона：\C[0]    Поняла...
+
+staffG1/begin1
+\CamMP[staffG1]\prf\c[4]Офицер：\C[0]    Оу? Шлюха, да? Как раз вовремя! \optD[Нет,Да]
+
+staffG1/begin1Y
+\CamCT\m[shy]\PRF\c[6]Лона：\C[0]    \{Оуу?!
+\CamCT\m[lewd]\PRF\c[6]Лона：\C[0]    Да, я как раз пришла обслужить вас, парни...
+
+staffG1/begin1N
+\CamCT\m[shy]\PRF\c[6]Лона：\C[0]    \{ЧТО?!
+\CamCT\m[irritated]\Rshake\c[6]Лона：\C[0]    \{Я не шлюха!
+
+staffG1/begin2
+\CamMP[staffG1]\prf\c[4]Офицер：\C[0]    Да-да... Ладно! Я позову остальных! А ты жди в комнате за этой шторкой!
+
+staffG1/begin2YY
+\CamCT\m[shy]\PRF\c[6]Лона：\C[0]    Хорошо... Я буду ждать...
+
+staffG1/begin2_opt
+\CamCT\Bon[5]\m[bereft]\Rshake\c[6]Лона：\C[0]    Слушай сюда-! \optD[Я не шлюха!,Я...]
+
+staffG1/begin2NN
+\CamMP[staffG1]\prf\c[4]Офицер：\C[0]    Отлично! Я захвачу других, а ты пока продолжай выглядеть как шлюха.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Лона：\C[0]    ...Чего?
+
+staffG1/begin2NNN
+\CamMP[staffG1]\prf\c[4]Офицер：\C[0]    Оу, что не так? Ты ведь выглядишь как шлюха.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]Лона：\C[0]    Извините?!
+
+###################################
+
+whoreWork/begin1
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Солдат：\C[0]    О, настоящая шлюха. ♥
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,5]\prf\c[4]Солдат：\C[0]    Давненько я не трахался!
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Солдат：\C[0]    Снимай одежду, покажи тело! ♥
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,7]\prf\c[4]Солдат：\C[0]    Не бойся! Снимай всё! ♥
+\CamCT\m[sad]\Rshake\c[6]Лона：\C[0]    Эммм...
+
+whoreWork/DressOut
+\narr Ваши предметы и экипировка были помещены в шкафчик.
+
+whoreWork/begin_unknow
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,2]\prf\c[4]Солдат：\C[0]    Представься нам.
+\CamCT\m[shy]\PRF\c[6]Лона：\C[0]    Всем здравствуйте, меня зовут Лона.
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,2]\prf\c[4]Солдат：\C[0]    Сколько тебе лет, мисс? Думаешь уже достаточно? Как ты дошла до такого?
+\CamCT\m[flirty]\PRF\c[6]Лона：\C[0]    Ну, наверное... Я сбежала из Сибариса вместе с другими беженцами несколько месяцев назад.
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,6]\prf\c[4]Солдат：\C[0]    И теперь ты продаёшь своё тело. Не легко тебе даётся жить, я смотрю.
+\CamCT\m[tired]\PRF\c[6]Лона：\C[0]    Ну, я лишь выживаю, как умею, вот и всё...
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,3]\prf\c[4]Солдат：\C[0]    В таком случае, помоги-ка нам расслабиться и обслужи нас. Держать фронт, защищая вас от монстров - тяжкий труд.
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]Солдат：\C[0]    А ещё дяденька может дать тебе денег за это.
+\CamCT\m[flirty]\PRF\c[6]Лона：\C[0]    Хорошо!
+
+whoreWork/begin_hass0
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,4]\c[4]Солдат：\C[0]    Красота! А пахне як!
+
+whoreWork/begin_hass1
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\c[4]Солдат：\C[0]    Ух, какя гибкая!
+
+whoreWork/begin_hass2
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,4]\c[4]Солдат：\C[0]    Мило! Мягкие губы!
+
+whoreWork/begin2
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]Солдат：\C[0]    С чего бы ей начать?
+\CamMP[AnonGuard4]\BonMP[AnonGuard4,4]\prf\c[4]Солдат：\C[0]    Пусть начнёт с отсоса наших хуёв.
+\CamCT\m[shy]\c[6]Лона：\C[0]    Ла-а-адно......
+
+whoreWork/FuckStart
+\prf\c[4]Солдат：\C[0]    Я не могу больше терпеть! Давайте как следует трахнем эту мелкую суку!
+
+whoreWork/QdoneMsg0
+Я уже обслужила его.
+
+whoreWork/QdoneMsg1
+У него уже опал член.
+
+whoreWork/QdoneMsg2
+Этот уже кончал.
+
+########################################################## Cannon st2
+
+officer/c130_done1
+\CamMP[officer]\BonMP[officer,3]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Ты хорошо поработала! Такие вещи действительно понятны только молодым людям!
+\CamCT\m[sad]\plf\PRF\c[6]Лона：\C[0]    Я просто шла мимо ведь...
+\CamMP[officer]\BonMP[officer,1]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Что? Так ты гражданская?!
+\CamCT\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Да! Почему меня никто не слушает?!
+\CamMP[officer]\BonMP[officer,7]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Что ж, похоже поддержки мы не дождёмся.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Ты можешь научить нас пользоваться этой... «Пушкой Оверлорд М405»?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Она выглядит мощной, но никто из нас не умеет управлять такой сложной машиной.
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ну, я могу попробовать...
+
+officer/c130_done2
+\CamCT\m[flirty]\PRF\c[6]Лона：\C[0]    Ага, а затем тянешь рычаг налево, чтобы она прицелилась правее.
+\CamMP[Noob]\prf\c[4]Солдат：\C[0]    Вот так?
+\CamCT\Bon[8]\m[confused]\PRF\c[6]Лона：\C[0]    \..\..\..\..
+\CamCT\Bon[7]\m[shocked]\Rshake\c[6]Лона：\C[0]    Нет! Это не та кнопка.
+\CamMP[Noob]\BonMP[Noob,8]\prf\c[4]Солдат：\C[0]    Эта, тогда?
+\CamCT\Bon[7]\m[bereft]\Rshake\c[6]Лона：\C[0]    Нет! Не то!!!
+\CamMP[Noob]\BonMP[Noob,2]\prf\c[4]Солдат：\C[0]    Ладно, а что будет, если нажать сюда?
+\CamCT\m[terror]\Rshake\c[6]Лона：\C[0]    НЕТ!!! Здесь написано-!
+
+officer/c130_done3
+\CamCT\Bon[8]\m[terror]\Rshake\c[6]Лона：\C[0]    Самоуничтожение......
+
+officer/c130_done4
+\CamCT\Bon[8]\m[sad]\PRF\c[6]Лона：\C[0]    Кошмар, пушка превратилась в хлам...
+\CamMP[officer]\BonMP[officer,8]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    М-да... Солдатик тоже прихворал.
+\CamCT\m[confused]\plf\PRF\c[6]Лона：\C[0]    Что мы будем делать теперь?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Пушка хоть и очень мощная, управлять ей - та ещё заноза в заднице. Я думаю, нам лучше вернуться к обычной артиллерии.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Но всё равно её следует починить, на всякий случай. Поможешь?
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    А как я здесь помогу?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Снаряды для пушки были тоже были тестовыми, переданными нам от создателя этого оружия.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Я помню, как несколько месяцев назад, его дочь \C[4]по ночам\C[0] шаталась на \C[4]Центральном Рынке Ноэртауна\C[0].
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]Артиллерист：\C[0]    Мне известно, что она занималась снарядами к пушке, и она всё ещё должна быть на острове. Если получится, было бы здорово, чтобы ты попросила её прийти и починить пушку.
+\CamCT\m[serious]\plf\PRF\c[6]Лона：\C[0]    Я поняла, я займусь этим!
+
+########################################################## OTHER
+
+frogman/Prisoner0
+Морская Ведьма накажет тебя!
+
+frogman/Prisoner1
+Преклонись перед Морской Ведьмой!
+
+board/board
+\board[7 Восточный Охранный Пост]
+Возведён в 1693.7.19
+Благодаря пожертвованию от семьи Росендо.

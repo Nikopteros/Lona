@@ -1,0 +1,224 @@
+
+Milo/CecilyGroupQmsg0
+守衛！
+
+Milo/CecilyGroupQmsg1
+殺了他們！
+
+Milo/InBarBegin_unknow0
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]未知：\c[0]    我是美祿.玟.盧德辛，妳哪位？
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    您好，我是洛娜.費爾丁。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]美祿：\c[0]    \..\..\..\..\n洛娜.小蟲子是嗎？我不記得名單上有妳。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]美祿：\c[0]    滾吧！小蟲子。
+\CamCT\m[wtf]\plf\PRF\c[6]洛娜：\c[0]    唉？
+
+Milo/InBarBegin_know
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]美祿：\c[0]    這裡不歡迎妳。
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    抱歉。
+
+Milo/elseBegin
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    有事嗎？\optB[沒事,盧德辛,諾爾鎮,席芭莉絲]
+
+Milo/elseBegin_Rudesind
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    正如同你所知道的，我們盧德辛家族是掌控一切的人上人。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    我們腳印遍部整個世界。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    沒有我的話現在諾爾鎮也不會存在。
+
+Milo/elseBegin_Noer
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    如同這座島嶼的名稱，諾爾島。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    這是島上最早人群聚集地，而後由我們家族一步一步建設出來的。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    這裡曾經是東西方海貿的核心中轉站。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    席芭莉絲本是為了取代諾爾而建設的。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    但幾十年前的瘟疫加速了這個進程。
+
+Milo/elseBegin_Sybaris
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    由於沒有深水港，諾爾鎮無法負荷越來越大的海貿需求。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    誰知道船這種東西會越來越大呢？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    70年前由各國的商貿代表出資興建另一座城市。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    這座城市就是席芭莉絲。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    沒錯，我們也參與在內，不過現在一切都化為塵土了。
+
+######################################################################## Hunting ##################################
+
+Milo/QuestMilo_2to3_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    怎麼？妳哪位？
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    唉嘿... 我這裡有一封邀請函，請問是美祿先生嗎？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    我就是美祿，然後妳說邀請函？ 給我看看。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    \..\..\..
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]美祿：\c[0]    真是有意思，傳聞中把那個女孩救回來的勇士居然是隻小蟲子。
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我？小蟲子？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    開個玩笑罷了，總之妳能做到這些事那也一定有相應的實力對吧？
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    實力嗎....？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    對，為了活下來的人，我們用的上妳。
+
+Milo/QuestMilo_3to4_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    就如你所知道的，諾爾已經被那些無家可歸的可憐蟲們包圍了。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    這沒關係，我不怪他們。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    他們有各式各樣悲慘的故事，而我已經聽膩了。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    但他們中間有些人妄想著將我們費盡苦心所建立的秩序毀掉。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    他們妄想著能將席芭莉絲奪回來。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    而妳知道當秩序崩潰的時候是怎麼回事嗎？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    妳看過對吧，就在與妳一起撤退的人們之間。
+\CamCT\m[tired]\plf\PRF\c[6]洛娜：\c[0]    是的，我看過....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    妳懂的。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    我們接到一個回報，他們其中一位出現在鎮外活動。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    他的名子應該叫做.... \c[6]亞當\c[0]？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    拿他的頭來見我，我將給予妳相應的回報。
+
+Milo/QuestMilo_3to4_QuBoard
+\board[維穩]
+目標：亞當必須死
+報酬：大銅幣5、道德5
+委託主：美祿.玟.盧德辛
+期限：單次
+我的部下目擊到他在東北方的廢屋中出沒。
+我需要一個熟悉暗殺的人來處理掉這個反動份子。
+
+Milo/QuestMilo_3to4_no
+\CamCT\m[serious]\plf\PRF\c[6]洛娜：\c[0]    不要！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    太可惜了，果然只是隻蟲子嗎？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    但我確定妳會改變心意的。
+\CamCT\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    我才不是蟲子！
+
+Milo/QuestMilo_3to4_yes
+\CamCT\m[serious]\plf\PRF\c[6]洛娜：\c[0]    好! 不是什麼蟲子！我辦的到的！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    很好！ 我等著妳的好消息！
+
+Milo/QuestMilo_3to4_yes_adamDed0
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我是說....他好像已經死了。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    呃？
+\CamCT\m[confused]\plf\PRF\c[6]洛娜：\c[0]    這個人我看過... 旅途上我看到他死翹翹了....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    真的？
+
+Milo/QuestMilo_3to4_yes_adamDed1
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    真的....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    呃......
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    這個世界真是充滿了痛苦.....
+\CamCT\m[tired]\plf\PRF\c[6]洛娜：\c[0]    是阿...
+
+Milo/QuestMilo_6to7
+\CamCT\m[serious]\plf\PRF\c[6]洛娜：\c[0]    我回來了！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    真好！ 又見面了。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    你把他的頭帶來了嗎？
+
+Milo/QuestMilo_6to7_withHead0
+\CamCT\m[fear]\plf\PRF\c[6]洛娜：\c[0]    是的..  噁...
+
+Milo/QuestMilo_6to7_withHead1
+\BonMP[Milo,4]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    阿... 亞當阿。 妳做得很好！
+\BonMP[Milo,5]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    這個調皮的渾球不斷的在周邊鬧事。
+\BonMP[Milo,15]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    不少鎮民與衛兵都栽在他的手上。
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    殺人讓妳不好過吧？
+\CamCT\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+
+Milo/QuestMilo_6to7_withHead2
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    不要傷心，這是為了活下來的人們。
+\CamCT\m[sad]\plf\PRF\c[6]洛娜：\c[0]    謝謝你.....
+
+Milo/QuestMilo_6to7_NoHead0
+\CamCT\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我不小心把他的頭弄丟了.....
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    \..\..\..
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    \..\..\..
+\CamCT\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    我.. 可是我真的殺死他了，沒騙你！
+\CamCT\m[shocked]\plf\PRF\c[6]洛娜：\c[0]    他的屍體還在廢屋那！真的！ 你可以叫人去查！
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    \..\..\..
+\CamCT\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    沒關係，我信妳！
+
+Milo/QuestMilo_6to7_NoHead1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    拿去吧。
+\CamCT\Bon[1]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    這\..\..\..
+\CamCT\Bon[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    非常謝謝！ 謝謝你相信我！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    別道謝了，我還有更多事情想請妳做呢。
+
+Milo/QuestMilo_6to7_NoHead2
+\CamCT\Bon[6]\m[pleased]\plf\PRF\c[4]美祿是好人呢！
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    \..\..\..\..
+
+#################################################################################### betray Cecily? ###########################
+
+Milo/QuestMilo_9_Ignore
+\CBid[-1,20]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]未知：\c[0]    洛娜.小蟲子是嗎？
+\CBid[-1,5]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]未知：\c[0]    真遺憾，妳早已用行動做出了選擇。 滾吧。
+\CamCT\m[wtf]\plf\PRF\c[6]洛娜：\c[0]    唉？
+
+Milo/QuestMilo_9to10_1
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    是，您好？ 我收到您的邀請函了。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    喲！ 可愛的小蟲子，妳總算來了。
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    有什麼事呢？
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    妳知道\c[6]賽希莉\c[0]這個人對吧？
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    我知道阿，超衝動大小姐！
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    告訴我關於他的事情吧？ 也許我可以跟她交個朋友。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....\optD[不好,好]
+
+Milo/QuestMilo_9to10_2_0
+\CBct[20]\m[serious]\plf\PRF\c[6]洛娜：\c[0]    騙人！她說過你才是造成這一切的元兇！
+\CBct[20]\m[angry]\plf\Rshake\c[6]洛娜：\c[0]    你是奴隸販子的幕後黑手！
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    還真是個嚴重的誤會。
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    誤會？！
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    聽好，我給予這些無路可去的人一條活路走。
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    而你若不給他們條路，他們則會吃了你。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    看過嗎？ 在妳逃亡的路上，那些人吃人的難民？
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    對，妳看過。 它們與魔物沒兩樣。
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    那就是當他們無路可走時的樣子。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    是的，我維持著奴隸輸出，而賺來的錢去哪了呢？
+\CBct[20]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    妳認為前線的戰士們，傭兵們的錢是誰付的呢？
+\CBct[20]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+
+Milo/QuestMilo_9to10_2_1
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    好吧...
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    她應該是席芭莉絲的貴族吧？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    是個非常腦衝的大姊呢。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    遇到什麼麻煩都是一股腦就衝進去。
+\CBct[20]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    但人其實不錯，是個喜歡接觸平民的貴族呢。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    很好，非常感謝妳，但這些我大概都知道了。
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    \c[6]艾格莫\c[0]本身就有尚武的傳統，過去我曾在宴會上看過她。
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    那.... 妳知道她對於諾爾鎮現況有什麼看法？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....\optD[不知道,敵視]
+
+Milo/QuestMilo_9to10_3
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    她對目前難民的狀況很不滿，似乎在找條路幫助他們。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    不過我覺得沒什麼希望就是了。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    她最近打算想把討厭的奴隸販子狠揍一番！
+\CBct[20]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    是個有正義感的貴族呢！我欣賞她！
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    狠揍一番？ 也許你可以告訴我更多？
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    我希望能解決我與她之間的小誤會。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    這不是可以隨便告訴別人的事情吧？
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    我們正處在一個恐怖的大災變中，我覺得我們應該互相幫助。
+\cg[event_Coins]\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    妳也想離開諾爾島吧，我可以提供給妳這些
+
+Milo/QuestMilo_9to10_3board
+\board[維穩]
+目標：告訴我吧
+報酬：金幣10
+
+Milo/QuestMilo_9to10_3opt
+\cgoff\CBct[1]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嚇？！ 這麼多！？？
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    相信我，為了人們的生活我也想盡一分力。\optD[不要,好]
+
+Milo/QuestMilo_9to10_yes0
+\CBct[8]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    好吧....
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    但... 其實細節我也不清楚，她也沒告訴我這麼多。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    但她之前有提過五天之後再去找她？ 大概是五天吧？ 好像？ 可能？
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    五天嗎？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    錢... 沒有也沒關係的。 
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我知道這些訊息沒什麼用，但我真的只知道這些了。
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    沒關係的，拿去吧。
+
+Milo/QuestMilo_9to10_yes1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    這樣也行？！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    我說過我是想要解決我們之間的小誤會。
+\CBct[8]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    謝謝！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    對了，別跟她說妳來見過我，不然以她的個性會把妳給宰了。
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    我會親自跟她解釋，小蟲子就別煩惱貴族之間的事了。
+\CBct[8]\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    是！
+
+Milo/QuestMilo_9to10_refuse
+\CBct[6]\m[serious]\plf\PRF\c[6]洛娜：\c[0]    不行！她覺得你是壞人！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    嗯，妳真是個誠實的小蟲子。
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？！ 我以為你會生氣的！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]美祿：\c[0]    怎麼會呢？
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]美祿：\c[0]    \..\..\..\..

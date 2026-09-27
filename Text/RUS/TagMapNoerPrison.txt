@@ -1,0 +1,168 @@
+####################################--------------------- TagMapNoerPrison overmap
+Prison/OvermapEnter
+\m[confused]Тюрьма \optB[Отмена,Войти]
+
+Prison/CantEnter
+\SETpl[Mreg_pikeman]\c[4]Тюремщик：\C[0]    Тебя здесь не должно быть.
+
+Prison/term
+Оставшийся срок：
+
+Prison/termD
+ дней.
+
+###################################################################     Warden
+
+Warden/Release1
+\SETpl[Mreg_guardsman]\c[4]Тюремщик：\C[0]    ......
+\SND[SE/DOOR_Owen_Open_stereo.ogg]\SETpl[Mreg_guardsman]\c[4]Тюремщик：\C[0]    ТФУ... Мля, как тут воняет.
+\SETpl[Mreg_guardsman]\c[4]Тюремщик：\C[0]    Почему эти черви ещё не сдохли?
+
+Warden/Release2
+\SETpl[Mreg_guardsman]\c[4]Тюремщик：\C[0]    Эй! Ты ещё жива? ...Как тебя зовут?
+\SETpl[Mreg_guardsman]\Lshake\c[4]Тюремщик：\C[0]    ЭЙ! СУКА! Твой срок вышел!
+\SETpl[Mreg_guardsman]\Lshake\c[4]Тюремщик：\C[0]    \{ТЫ МОЖЕШЬ ИДТИ!
+
+Warden/Release3
+\SETpl[Mreg_guardsman]\c[4]Тюремщик：\C[0]    Спишь как труп, да?
+
+Warden/Release4
+\m[tired]\plf\c[6]Лона：\C[0]    Оохх...
+\PLF\prf\c[4]Тюремщик：\C[0]    Наконец-то проснулась? Поздравляю, теперь ты можешь убираться нахрен.
+\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    А-Ааа?
+\PLF\prf\c[4]Тюремщик：\C[0]    Или хочешь остаться за решёткой? Еды от нас не жди.
+
+Warden/Release5
+\plh\narr Тюремщик ушёл.
+
+Warden/Release6
+\m[confused]\plf\Rshake\c[6]Лона：\C[0]    Что... Я...
+\m[sad]\plf\Rshake\c[6]Лона：\C[0]    Что делать дальше...?
+
+Warden/Qpop0
+Убирайся отсюда!
+
+Warden/Qpop1
+Не мешай мне, я занят.
+
+###################################################################     FOOD
+
+Warden/PlaceFood0
+\SETpl[Mreg_guardsman]\prh\c[4]Тюремщик：\C[0]    ЭЙ ЧЕРВИ! Пора жрать!
+
+Warden/PlaceFood1
+\ph\narr Тюремщик положил немного еды возле дверей камеры.
+
+
+###################################################################     Rapeloop torture
+
+Warden/torture1
+\SND[SE/Whip_slap01]\m[pain]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[4]Тюремщик：\C[0]    \{ПРОСНИСЬ!!!
+\SND[SE/Whip_slap02]\m[hurt]\SETpl[Mfat_tortruer]\Lshake\Rshake\c[6]Лона：\C[0]    \{ЙЙААХХ!
+
+Warden/torture2
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Тюремщик：\C[0]    \{ЭЙ ЧЕРВИ! СЛУШАЙТЕ ВНИМАТЕЛЬНО!
+\SETpl[Mfat_tortruer]\Lshake\prf\c[4]Тюремщик：\C[0]    Недавно одна крыса украдкой сделала то, чего ей не следовало делать!
+\SETpl[Mfat_tortruer]\Lshake\PRF\c[4]Тюремщик：\C[0]    \{ВОТ ЧТО СЛУЧАЕТСЯ С НЕПОСЛУШНЫМИ КРЫСАМИ!
+
+
+Warden/torture_end0
+\m[pain]\plf\Rshake\c[6]Лона：\C[0]    \{ГАААХХ!!! ЙЙЙАААХХХ!!!
+\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    \{Помогите! Кто-нибудь! С-СПАСИТЕ МЕНЯЯЯ!
+
+Warden/torture_end1
+\SETpl[Mfat_tortruer]\Lshake\c[4]Тюремщик：\C[0]    Любой заключенный, сообщивший о таких хитрых паразитах, будет вознаграждён десятью кусками хлеба!
+\SETpr[Mreg_guardsman]\c[4]Тюремщик：\C[0]    Такой презренный кусок отбросов. Бросьте её обратно в камеру, когда её наказание закончится.
+
+Warden/torture_end2
+\narr Яма, вырытая Лоной, была засыпана.
+
+Torture2/popup0
+АААЙЙЙ!!!
+
+Torture2/popup1
+АААХХХ!!!
+
+Torture2/popup2
+ОООХХХ!!!
+
+###################################################################     THAT TOILET
+
+that_toilet/Opt_NoerPrison_toilet
+Исследовать выгребную яму
+
+Toilet/frist_time
+\CBct[8]\m[confused]\c[6]Лона：\C[0]    Эта яма...
+\CBct[8]\m[confused]\c[6]Лона：\C[0]    Может быть, я смогу протиснуться...
+\CBct[8]\m[fear]\c[6]Лона：\C[0]    Но...
+\CBct[6]\m[sad]\c[6]Лона：\C[0]    Это выгребная яма.....
+
+Toilet/MainOpt
+\m[confused]Отвратительная выгребная яма... \optB[Не тратить силы впустую...,Попытаться выкопать яму!<r=HiddenOPT1>]
+
+Toilet/Opt_diged_open
+\CBct[1]\m[shocked]!!!!!
+\CBct[1]\m[shocked]!!!!!!!!
+\CBct[1]\m[pleased]!!!!!!!!!!!
+\CBct[20]\m[triumph]\c[6]Лона：\C[0]    Достаточно хорошо! Я должна попробовать смогу ли я протиснуться, когда никто не видит.
+
+
+###################################################################     begin
+
+Enter/begin1
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучитель：\C[0]    Отныне это будет твой новый дом!
+\SETpr[Mreg_guardsman]\Rshake\c[4]Тюремщик：\C[0]    \{Поздоровайся со своими сокамерниками!
+\m[sad]\plf\Rshake\c[6]Лона：\C[0]    Охх... *Хнык*...
+
+Enter/begin2
+\SETpl[raper3]\m[fear]\Lshake\Rshake\BonMP[RaperTop,2]\c[4]Заключённый：\C[0]    \{ЭТО ДЕВЧОНКА!\WT[3]
+
+Enter/begin3
+\SETpl[raper2]\m[shocked]\Lshake\Rshake\BonMP[RaperDown,3]\c[4]Заключённый：\C[0]    \{ЖЕНЩИНА!\WT[3]
+
+Enter/begin4
+\SETpl[raper1]\m[terror]\Lshake\Rshake\BonMP[RaperLeft,4]\c[4]Заключённый：\C[0]    \{Я так давно никого не трахал!\WT[3]
+
+Enter/begin5
+\SETpl[Mfat_tortruer]\Lshake\c[4]Мучитель：\C[0]    Видишь? Кажется, ты уже понравилась своим сокамерникам!
+\SETpl[Mreg_guardsman]\Rshake\c[4]Тюремщик：\C[0]    Святые, как же, блять, здесь ВОНЯЕТ...
+
+Enter/begin_room
+\SETpl[Mreg_guardsman]\m[p5sta_damage]\Rshake\Lshake\c[4]Тюремщик：\C[0]    ОТЪЕБИСЬ! Думаешь, мы можем позволить себе выделить тебе отдельную камеру?!
+\m[sad]\c[6]Лона：\C[0]    \{И-Извините...
+
+Enter/end
+\SETpl[raper_group]\m[fear]\Lshake\Rshake\c[4]Заключённые：\C[0]    \{Скорее впустите её! МЫ ХОТИМ ЕЁ ТРАХНУТЬ!
+\m[bereft]\Rshake\BonMP[RaperTop]\c[6]Лона：\C[0]    П-Прошу, кто-нибудь... Пожалуйста... С-Спасите меня...
+
+###################################################################     COMMON NAP RAPE
+
+Prisoner/NapRape_0
+\c[4]Заключённый：\C[0]    Опа-чки, женщина!
+
+Prisoner/NapRape_1
+\c[4]Заключённый：\C[0]    Девчонка! Наконец-то я смогу выебать девчонку!
+
+Prisoner/NapRape_2
+\c[4]Заключённый：\C[0]    Ох-ты-ж-нахуй! Мой хер уже отвердел как камень! ♥
+
+Prisoner/NapRape1
+\c[4]Заключённый：\C[0]    Хее хехее!
+
+Prisoner/NapRape2
+\narr Лону схватили...
+
+Prisoner/NapRape3_0
+\c[4]Заключённый：\C[0]    Ну-ка, помоги-ка мне помыть мой хер. Разве ты не можешь это сделать?!
+
+Prisoner/NapRape3_1
+\c[4]Заключённый：\C[0]    Мы все здесь в одной тюрьме, так что ты должна удовлетворять требования каждого из нас!
+
+Prisoner/NapRape3_2
+\c[4]Заключённый：\C[0]    Женщины должны раздвигать свои ножки, чтобы я их мог ебать!
+
+Prisoner/NapRape_withSta_Fight2
+\c[4]Заключённый：\C[0]    Ты, сука, блять! Хочешь, чтобы мы тебя отпиздили, да?!
+
+Prisoner/NapRape_withSta_NoFight2
+\m[sad]\c[4]Заключённый：\C[0]    Хехе... ♥　Хехехе... ♥

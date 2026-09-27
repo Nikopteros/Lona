@@ -1,0 +1,255 @@
+EastCP/OvermapEnter
+동쪽 7번 초소\optB[그만둔다,들어간다]
+
+#######################################################
+
+################################################### C130 mini game
+
+Cannon/ManDown0
+포격관 ： 아군이 전사했다!
+
+Cannon/ManDown1
+포격관 ： 누가 쓰러졌다! 저쪽에 지원이 필요하다!
+
+Cannon/ManDown2
+포격관 ： 어서 아군을 도와라!
+
+Cannon/GoodKill0
+포격관 ： 정확히 맞췄다!
+
+Cannon/GoodKill1
+포격관 ： 놈들을 쓸어버려라!
+
+Cannon/GoodKill2
+포격관 ： 목표 명중!
+
+Cannon/GoodKill3
+포격관 ： 와아아!
+
+Cannon/GoodKill4
+포격관 ： 시원하다!
+
+Cannon/GoodKill5
+포격관 ： 잘 쐈다!
+
+Cannon/GoodKill6
+포격관 ： 멋지군...
+
+Cannon/win
+\c[4]포격관：\c[0] 공격은 여기까지인 것 같군. 잘 해냈다.
+
+Cannon/lose
+\c[4]포격관：\c[0] 젠장! 우리 병사들이 전부 당했다!
+\c[4]포격관：\c[0] 후퇴다! 각자 살아서 도망쳐라!
+
+############################################## C130 quest begin
+
+yeller/start
+\CBmp[YellingGuard,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 야! 너!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?! 나?
+\CBmp[YellingGuard,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 그래! 바로 너! 넌 본부에서 보낸 사람 맞지?!
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아니...
+\CBmp[YellingGuard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 말 돌리지 마! 어서 옥상에 가서 포격관에게 보고해!
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] ......아예 말을 듣질 않네.
+
+officer/start_opt
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 빈민이 여기서 뭐 하는 거야! 어서 꺼져라!
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 아, 아니! 밑에 있던 사람이 저보고 올라오라던데?
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 뭐라고?! 그럼 넌...
+
+officer/start_opt_known
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 무슨 일이지?
+
+officer/opt_nope
+나도 모르겠는데
+
+officer/opt_whore
+매춘
+
+officer/opt_work
+잡일
+
+officer/opt_replayCannon
+포격
+
+officer/opt_about
+이 괴물들
+
+officer/opt_aboutCannon
+영주급 405mm 포
+
+officer/opt_repair
+정비 파트
+
+officer/opt_moveCannon
+남문 야영지
+
+officer/opt_monster
+\CamCT\m[confused]\plf\PRF\c[6]로나：\c[0] 이 괴물들 도대체 뭐예요?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 그놈들은 \c[6]어인들이다\c[0]. 못 들어봤나?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 초기 식민자들이 해적보다 더 무서워했던 게 바로 이 마물들이지.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 어인은 힘이 엄청 세서, 인간이 무기 없이 맞서기란 불가능하다.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 놈들은 한밤중에 마을로 숨어들어와 여자를 납치해 간다.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 그 뒤엔? 흥, 짐승 같은 잡종들이 하는 짓이랑 다를 바 없지.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 너 같은 꼬마는 특히 조심해야 한다.
+\CamCT\m[fear]\plf\PRF\c[6]로나：\c[0] 저... 제가요...?
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 어쨌든 혼자 떨어져서 잡히지만 않으면 되는 거죠?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 그래. 몇 년 동안은 안 보이길래 멸종한 줄 알았는데...
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 지금은 동쪽 습지 전역이 놈들의 영역이다.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 아마 검은 안개가 번지면서 나타난 건지, 아니면 어인들이 꾸민 짓인지도 모르지.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 여길 언제까지 지킬 수 있을지 알 수가 없다. 네 일은 네가 잘 챙기거라.
+\CamCT\m[pleased]\plf\PRF\c[6]로나：\c[0] 고마워요.
+
+officer/opt_FireControlSys
+\CamCT\m[confused]\plf\PRF\c[6]로나：\c[0] 이게 바로 영주급 405mm 대포라고요?
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 이걸 대량 생산하면 어쩌면 시바리스까지 되찾을 수 있지 않을까요?
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 그럴 시간은 없어. 조종하기가 너무 까다로워서 병력을 훈련시키는 데 몇 달은 걸린다. 
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 게다가 설령 양산해도 본부에선 탄약을 공급해 줄 능력이 없다.
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]포격관：\c[0] 무엇보다도… 우린 글을 읽을 줄 모른다.
+\CamCT\m[confused]\plf\PRF\c[6]로나：\c[0] 그렇군요…
+
+officer/opt_cannon
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 그렇군! 어서 그 대포를 조작해라!
+\CamMP[Cannon]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 저, 저한테 이런 걸 다루라구요?!
+\CamMP[Cannon]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 농담하지 마라! 너 글 읽을 줄 알잖아? 눈으로 보고 따라 해!
+\CamMP[officer]\BonMP[officer,6]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 놈들이 왔다! 더 이상 떠들 시간 없어!
+\CamCT\m[fear]\plf\Rshake\c[6]로나：\c[0] 뭐…?! 뭐가 왔다구요?!
+\CamMP[officer]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 어서 가지 못해!
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네에?!
+
+officer/opt_cannon_replay
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 어인들이 왔다! 어서 그 대포를 조작해라!
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네에?!
+
+########################################################## Whore job
+
+officer/opt_whore_Lona
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 흥, 관심 없다. 밑층 인사과에 가라, 그쪽 담당이다.
+\CamCT\m[shy]\plf\PRF\c[6]로나：\c[0] 알겠어...
+
+staffG1/begin1
+\CamMP[staffG1]\prf\c[4]인사관：\c[0] 창녀 맞지? 드디어 왔군!\optD[아니야,맞아]
+
+staffG1/begin1Y
+\CamCT\m[shy]\PRF\c[6]로나：\c[0] \{어...?
+\CamCT\m[lewd]\PRF\c[6]로나：\c[0] 맞아, 난 너희들을 상대하러 왔어.
+
+staffG1/begin1N
+\CamCT\m[shy]\PRF\c[6]로나：\c[0] \{뭐라고?!
+\CamCT\m[irritated]\Rshake\c[6]로나：\c[0] \{나 그런 거 아니거든!
+
+staffG1/begin2
+\CamMP[staffG1]\prf\c[4]인사관：\c[0] 좋아! 내가 다른 형제들도 불러올 테니, 넌 방 안에서 기다리고 있어라!
+
+staffG1/begin2YY
+\CamCT\m[shy]\PRF\c[6]로나：\c[0] 알았어...
+
+staffG1/begin2_opt
+\CamCT\Bon[5]\m[bereft]\Rshake\c[6]로나：\c[0] 내 말 좀 들어줘!\optD[나 아니야!,좋아... 맞아.]
+
+staffG1/begin2NN
+\CamMP[staffG1]\prf\c[4]인사관：\c[0] 그럴 줄 알았다니까, 넌 딱 창녀 같은 년이야.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]로나：\c[0] 뭐...?
+
+staffG1/begin2NNN
+\CamMP[staffG1]\prf\c[4]인사관：\c[0] 응? 내가 착각했나? 그래도 넌 아무리 봐도 창녀처럼 보이는데.
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]로나：\c[0] 뭐라고...?
+
+###################################
+
+whoreWork/begin1
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]병사：\c[0] 요런 작은 걸레 새끼네♥
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,5]\prf\c[4]병사：\c[0] 오랜만에 박아보겠구나!
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]병사：\c[0] 옷 다 벗고 아저씨들 눈 좀 즐겁게 해봐♥
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,7]\prf\c[4]병사：\c[0] 겁먹지 마라♥ 얼른 벗어♥
+\CamCT\m[sad]\Rshake\c[6]로나：\c[0] 흐윽...
+
+whoreWork/DressOut
+\narr소지품과 장비는 모두 보관함에 넣어졌다.
+
+whoreWork/begin_unknow
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,2]\prf\c[4]병사：\c[0] 자기소개 좀 해봐라.
+\CamCT\m[shy]\PRF\c[6]로나：\c[0] 안녕하세요, 제 이름은 로나예요.
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,2]\prf\c[4]병사：\c[0] 꼬맹이는 몇 살이냐? 어쩌다 여기까지 오게 된 거야?
+\CamCT\m[flirty]\PRF\c[6]로나：\c[0] c2gSnysu8JX_8pfhLYLI8d, 저는 몇 달 전에 시바리스에서 도망쳐 나왔어요.
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,6]\prf\c[4]병사：\c[0] 그래서 이렇게 몸을 팔게 된 거구나, 고생이 많네.
+\CamCT\m[tired]\PRF\c[6]로나：\c[0] 네, 저도 살아남으려고 발버둥 치고 있어요.
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,3]\prf\c[4]병사：\c[0] 그럼 자주 전선에 나와서 아저씨들 좀 챙겨줘라, 아저씨들도 마물 막느라 힘들거든.
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]병사：\c[0] 대신 우리가 돈도 더 챙겨줄 테니까.
+\CamCT\m[flirty]\PRF\c[6]로나：\c[0] 알겠어요.
+
+whoreWork/begin_hass0
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,4]\c[4]병사：\c[0] 냄새 죽인다! ♥
+
+whoreWork/begin_hass1
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\c[4]병사：\c[0] 쫀득쫀득하네! ♥
+
+whoreWork/begin_hass2
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,4]\c[4]병사：\c[0] 귀엽네, 핥아주고 싶다! ♥
+
+whoreWork/begin2
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]병사：\c[0] 어디부터 시작할까?
+\CamMP[AnonGuard4]\BonMP[AnonGuard4,4]\prf\c[4]병사：\c[0] 꼬맹이 로나는 먼저 우리 자지 빨아주는 걸로 시작하자.
+\CamCT\m[shy]\c[6]로나：\c[0] 네....
+
+whoreWork/FuckStart
+\prf\c[4]병사：\c[0] 못 참겠다! 이 작은 걸레년 박살 내버려라!
+
+whoreWork/QdoneMsg0
+이 자지 이미 빨아줬다.
+
+whoreWork/QdoneMsg1
+얘 이제 이미 축 늘어졌어.
+
+whoreWork/QdoneMsg2
+지금은 현자타임이네.
+
+########################################################## Cannon st2
+
+officer/c130_done1
+\CamMP[officer]\BonMP[officer,3]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 잘했다! 이런 건 역시 젊은 애들이 더 잘 알지!
+\CamCT\m[sad]\plf\PRF\c[6]로나：\c[0] 나 그냥 지나가던 길인데...
+\CamMP[officer]\BonMP[officer,1]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 뭐라고?! 네가 민간인이라고?!
+\CamCT\m[bereft]\plf\Rshake\c[6]로나：\c[0] 제발 좀 말 좀 들어줘요!
+\CamMP[officer]\BonMP[officer,7]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 이런... 지원군은 끝내 안 오는 모양이군.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 그럼 네가 우리한테 이거... 영주급 405mm 대포 쓰는 법을 가르쳐줄 수 있겠나?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 보아하니 굉장한 물건 같은데, 우리 중엔 이렇게 복잡한 장비 다룰 줄 아는 놈이 없거든.
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 한번... 해볼게요.
+
+officer/c130_done2
+\CamCT\m[flirty]\PRF\c[6]로나：\c[0] 맞아, 그리고 조종간을 오른쪽으로 젖히면 포신이 왼쪽을 겨냥하게 돼.
+\CamMP[Noob]\prf\c[4]병사：\c[0] 이렇게?
+\CamCT\Bon[8]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..\..
+\CamCT\Bon[7]\m[shocked]\Rshake\c[6]로나：\c[0] 아니! 거긴 오른쪽이잖아!
+\CamMP[Noob]\BonMP[Noob,8]\prf\c[4]병사：\c[0] 그럼... 이렇게?
+\CamCT\Bon[7]\m[bereft]\Rshake\c[6]로나：\c[0] 아냐! 그건 위로 올리는 거라니까! 좌우 구분도 못 해?!
+\CamMP[Noob]\BonMP[Noob,2]\prf\c[4]병사：\c[0] 그럼 이걸 누르면 발사되는 거지?
+\CamCT\m[terror]\Rshake\c[6]로나：\c[0] 안 돼! 그건 위에 적혀있잖아…
+
+officer/c130_done3
+\CamCT\Bon[8]\m[terror]\Rshake\c[6]로나：\c[0] …자폭 버튼이라고!!!
+
+officer/c130_done4
+\CamCT\Bon[8]\m[sad]\PRF\c[6]로나：\c[0] 고장… 나버렸네…
+\CamMP[officer]\BonMP[officer,8]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 흠… 그래도 저놈은 진급했다.
+\CamCT\m[confused]\plf\PRF\c[6]로나：\c[0] 이제 어떻게 할 거야?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 이건 엄청 강력하지만, 다루기 너무 힘들어. 결국 우린 다시 일반 포로 돌아가야겠지.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 하지만… 가능하면 수리하는 게 좋을 거다. 네가 좀 도와줄 수 있겠나?
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 내가 뭘 할 수 있는데?
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 이 물건은 화약 상회에서 덤으로 준 실험품이다.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 내가 노엘 마을의 \C[4]중앙 시장\C[0]에서 \C[4]야간\C[0] 순찰할 때, 그 상인의 딸을 본 적이 있다.
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]포격관：\c[0] 아직 섬에 있을 테니, 가능하면 그녀를 찾아와 수리를 부탁해 주겠나?
+\CamCT\m[serious]\plf\PRF\c[6]로나：\c[0] 알았어!
+
+########################################################## OTHER
+
+frogman/Prisoner0
+바다 마녀를 대신해 네게 형벌을 내리겠다!
+
+frogman/Prisoner1
+바다 마녀께 감사하라! 바다 마녀를 찬미하라!
+
+board/board
+\board[동쪽 제7초소]
+1693년 7월 19일 건립
+루드신드 상회의 기부에 감사드린다.

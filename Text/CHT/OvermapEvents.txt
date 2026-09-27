@@ -1,0 +1,823 @@
+#--------------------------------------------------------------------------- MAIN
+
+Lona/Exit
+\m[confused]離開這裡？ \optB[還有什麼事情沒做完,離開]
+
+Lona/OutOfSta
+\m[tired]\c[6]洛娜：\c[0]    嗚，好累。
+
+#--------------------------------------------------------------------------- WILD DANGER
+
+Lona/WildnessNapSpawn
+\cg[event_Eyes]四周傳來了未知的腳步聲...
+\m[shocked]\cgoff\c[6]洛娜：\c[0]    誰？！
+
+Lona/WildnessNapRobber0
+\narr洛娜失去了所有道具。
+
+Lona/WildnessNapRobber1_normal
+\m[bereft]\c[6]洛娜：\c[0]    不要！還給我！
+
+Lona/WildnessNapRobber1_tsun
+\m[angry]\c[6]洛娜：\c[0]    你們這些..... 把東西還給我！
+
+Lona/WildnessNapRobber1_slut
+\m[fear]\c[6]洛娜：\c[0]    不要！還給我！
+
+Lona/WildnessNapRobber1_weak
+\m[sad]\c[6]洛娜：\c[0]    不要傷害我...　都給你們... 都是你們的...
+
+Lona/WildnessNapRobber1_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    .....
+
+Lona/WildnessNapRobber1_mouth_block
+\m[tired]\c[6]洛娜：\c[0]    嗚嗚.....
+
+#--------------------------------------------------------------------------- Capture by
+#---------------						NoerGuard
+
+Lona/CaptureByNoerGuard
+\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    給我老實點！
+\SETpr[Mreg_pikeman]\Rshake\c[4]守衛：\c[0]    小婊子！進牢裡蹲著吧！
+\plf\PRF\m[fear]\c[6]洛娜：\c[0]    嗚嗚.....
+
+Lona/CaptureByNoerGuard_SlaveOwner
+\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    奴隸還敢反抗！
+\SETpr[Mreg_pikeman]\Rshake\c[4]守衛：\c[0]    滾回主人那接受逞罰吧！
+\plf\PRF\m[fear]\c[6]洛娜：\c[0]    嗚嗚.....
+
+#---------------						FishPPL
+
+Lona/CaptureByFishPPL_rape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]守衛：\c[0]    上了她！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]守衛：\c[0]    受孕！
+
+Lona/CaptureByFishPPL
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]守衛：\c[0]    女人！ 是女人！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]守衛：\c[0]    新鮮的女人！！
+\plf\PRF\m[fear]\c[6]洛娜：\c[0]    嗚嗚.....
+
+Lona/CaptureByFishPPL_isSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]守衛：\c[0]    且是.... 逃跑的奴隸！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]守衛：\c[0]    壞奴隸！
+
+Lona/CaptureByFishPPL_NotSlave
+\m[p5sta_damage]\plf\Rshake\c[6]洛娜：\c[0]    不要！ 放開我！
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]守衛：\C[0]    女人！ 閉嘴！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]守衛：\C[0]    抓到... 新的奴隸！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！
+
+#---------------						Orkind
+
+Lona/CaptureByOrkind0
+\cg[event_captured]魔物們將洛娜帶回了自己的巢穴，它們打算將洛娜當成孕母。
+
+Lona/CaptureByOrkind1_normal
+\m[terror]\c[6]洛娜：\c[0]    不要！放過我！我不想生魔物的寶寶啊！
+
+Lona/CaptureByOrkind1_tsun
+\m[wtf]\c[6]洛娜：\c[0]    該死的！ 臭蟲！ 放開我！ 不要碰我！
+\m[hurt]\c[6]洛娜：\c[0]    啊啊！ 不要！！！
+
+Lona/CaptureByOrkind1_weak
+\m[sad]\c[6]洛娜：\c[0]    嗚嗚.... 誰來救救我。
+
+Lona/CaptureByOrkind1_slut
+\m[bereft]\c[6]洛娜：\c[0]    不... 在怎麼樣，當魔物的孕母也太過分了。
+\m[hurt]\c[6]洛娜：\c[0]    那裏會壞掉的。
+
+Lona/CaptureByOrkind1_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    不.....
+
+Lona/CaptureByOrkind1_mouth_block
+\m[pain]\c[6]洛娜：\c[0]    嗚嗚.....
+
+#=------------------------------------------------------
+
+Lona/CaptureByBandits0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    死小鬼！給我老實點！
+
+Lona/CaptureByBandits1_typical
+\m[terror]\c[6]洛娜：\c[0]    不要！你們要帶我去哪！
+
+Lona/CaptureByBandits1_tsundere
+\m[wtf]\c[6]洛娜：\c[0]    放開我！ 不要碰我！
+
+Lona/CaptureByBandits1_gloomy
+\m[sad]\c[6]洛娜：\c[0]    嗚嗚.... 誰來救救我。
+
+Lona/CaptureByBandits1_slut
+\m[bereft]\c[6]洛娜：\c[0]    不... 在怎麼樣，要被賣掉也太過分了。
+
+#=------------------------------------------------------
+
+Lona/CaptureByGang0
+\SETpl[MobHumanCommoner]\Lshake\C[4]討債者：\C[0]    哼！出來混遲早要還的！
+
+Lona/CaptureByGang1_typical
+\m[terror]\c[6]洛娜：\c[0]    對不起！請再寬限一點時間！
+
+Lona/CaptureByGang1_tsundere
+\m[wtf]\c[6]洛娜：\c[0]    放開我！ 不要碰我！
+
+Lona/CaptureByGang1_gloomy
+\m[sad]\c[6]洛娜：\c[0]    嗚嗚.... 對不起...
+
+Lona/CaptureByGang1_slut
+\m[bereft]\c[6]洛娜：\c[0]    不... 我不是故意不還你們的！
+
+Lona/CaptureByGang2
+\SETpl[MobHumanCommoner]\Lshake\C[4]討債者：\C[0]    把她押走！
+
+#--------------------------------------------------------------------------- Capture Arrived
+
+Lona/Capture_arrived_normal
+\m[bereft]\c[6]洛娜：\c[0]    誰來救救我！
+
+Lona/Capture_arrived_tsun
+\m[hurt]\c[6]洛娜：\c[0]    蛆蟲！ 離我遠一點！！！
+
+Lona/Capture_arrived_weak
+\m[pain]\c[6]洛娜：\c[0]    放過我吧....
+
+Lona/Capture_arrived_slut
+\m[bereft]\c[6]洛娜：\c[0]    不... 這樣下去會死的。
+
+Lona/Capture_arrived_overfatigue
+\m[tired]\c[6]洛娜：\c[0]    啊.....
+
+Lona/Capture_arrived_mouth_block
+\m[pain]\c[6]洛娜：\c[0]    嗚... 嗚.....
+
+############################################### Z觸發之地形事件 ##############################
+############################################### Z觸發之地形事件 ##############################
+############################################### Z觸發之地形事件 ##############################
+
+World/Region1
+\cg[map_region_PlainField]平原
+
+World/Region2
+\cg[map_Shore]海灘
+
+World/Region3
+\cg[map_region_CreepMountain]受感染的山
+
+World/Region4
+\cg[map_region_deadforest]密林
+
+World/Region5
+\cg[map_region_deadforest]松林
+
+World/Region6
+\cg[map_region_deadforest]死林
+
+World/Region7
+\cg[map_region_mountain]山
+
+World/Region8
+\n\cg[map_region_Swamp]沼澤
+
+World/Region9
+\cg[map_region_AbanbonedHouse]廢屋
+
+World/Region10
+\cg[map_region_slum]貧民窟
+
+World/Region11
+\cg[map_region_Road]道路
+
+World/Region12
+\cg[map_region_RoadNoerNob]盧德辛山莊
+
+World/Region13
+\cg[map_region_Swamp]沼澤小徑
+
+World/Region14
+\cg[map_region_badland]受感染的沙地
+
+World/Region15
+\cg[map_region_Marsh]濕地
+
+World/Region16
+\cg[map_region_Creep]肉魔的地衣
+
+World/Region17
+\cg[map_region_AbomRoad]感染的道路
+
+World/Region18
+\cg[map_region_AbomTown]感染的城市
+
+World/Region19
+\cg[map_region_badland]沙漠化的土地
+
+World/Region20
+\cg[map_human_camp]難民窟
+
+World/Region21
+\cg[map_region_NoerRoad]諾爾鎮
+
+World/Region22
+\cg[map_region_NoerRoad]諾爾鎮街道
+
+World/Region23
+\cg[map_region_Boulevard]官道
+
+World/Region28
+\cg[map_region_Creep]肉魔的地衣
+
+World/Region29
+\cg[map_DarkestDungeon]陷落的堡壘
+
+World/Region30
+\cg[map_DarkestDungeon]陷落的堡壘
+
+World/Region31
+\cg[map_SybStreet]席芭莉絲的街道
+
+World/Region32
+\cg[map_SybAlley]席芭莉絲的小巷
+
+############# FISH ISLE ONLY
+
+World/Region24
+\cg[map_region_Swamp]沼澤小徑。
+
+World/Region25
+\cg[map_region_Swamp]沼澤。
+
+World/Region26
+\cg[map_region_Marsh]濕地。
+
+World/Region27
+\cg[map_Shore]海灘。
+
+############################################### options ##############################
+
+World/Region_option_start
+怎麼做呢？
+
+World/Region_option_Cancel
+算了
+
+World/Region_option_Relax
+休息
+
+World/Region_option_Observe
+觀察
+
+World/Region_option_RemoveTracks
+抹去蹤跡
+
+World/Region_option_Enter
+進入
+
+World/Region_option_Kyaaah
+滑了一跤
+
+World/Region_option_check_danger
+\SndLib[stepBush]這裡不太妙，相當危險的樣子。
+
+World/Region_option_check_unknow
+\SndLib[stepBush]洛娜什麼都看不出來。
+
+World/Region_option_check_peace
+\SndLib[stepBush]這裡大概是安全的。
+
+World/Region_option_check_peaceful
+\SndLib[stepBush]這裡是安全的。
+
+World/Region_option_erase_win0
+\SndLib[sound_equip_armor]洛娜抹去了不少蹤跡。
+
+World/Region_option_erase_win1
+\SndLib[sound_equip_armor]這裡的蹤跡越來越少了。
+
+World/Region_option_WatchThemDead
+\cg[map_DeadPPL]洛娜看著他們一個個走向死亡。
+\narr\..\..\..
+
+World/Region_option_erase_failed0
+失敗了，洛娜不是很擅長做這個。
+
+World/Region_option_erase_failed1
+失敗了，洛娜的技術還不夠格。
+
+############################################### RAND事件 ##############################
+############################################### RAND事件 ##############################
+############################################### RAND事件 ##############################
+
+World/ThingHappen_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr前方出現了什麼。
+
+World/ThingVS_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr遠方傳來的戰鬥的聲音...
+
+World/Ambush_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr洛娜緩緩地移動著她的腳步，但.....
+
+World/RerollEvent_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr它們似乎畏懼著什麼東西，然後....
+
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+
+World/ThingHappen_who_unknow_HumanGuard
+\cg[map_guards]看起來是諾爾鎮的士兵！
+
+World/ThingHappen_who_unknow_Vs_Refugee_Orkind
+\cg[map_VS]類獸人正追逐著一群難民？！
+
+World/ThingHappen_who_unknow_PPLsos
+\m[confused]\cg[map_sos]它們看起來也許需要什麼幫助。
+
+World/ThingHappen_who_unknow_PPLsosHynger
+\cg[map_sos_hunger]看起來他需要幫助的樣子！
+
+World/ThingHappen_who_unknow_UnknowCamp
+\cg[map_human_camp]看起來是個未知的營地。
+
+World/ThingHappen_who_unknow_AbandonedCropses
+\cg[map_DeadPPL]屍堆飄散著難聞的腐臭，但也許能從中找出什麼？
+
+World/ThingHappen_who_unknow_AbandonedResources
+\cg[map_AbandonedResources]看起來是被棄置的物資，也許其中有不少好東西？
+
+World/ThingHappen_who_bad_AbomManager
+\m[shocked]\cg[map_AbominationGroup]一群肉魔出現了！
+
+World/ThingHappen_who_bad_AbomSpider
+\m[shocked]\cg[map_AbominationSpider]一群蜘蛛與蛛網！ 洛娜發現自己被包圍了！
+
+World/ThingHappen_who_bad_WolfGroup
+\cg[map_WolfGroup]是一群狼！
+
+World/ThingHappen_who_bad_GobRaider
+\cg[map_GobRaider]是類獸人騎兵！
+
+World/ThingHappen_who_bad_OrkindCamp
+\cg[map_monster_camp]是一個類獸人的營地！
+
+World/ThingHappen_who_bad_OrkindPlayGround
+\cg[map_OrcHappy]是個類獸人的遊樂場！
+
+World/ThingHappen_who_bad_RougeWave
+\cg[map_RogueWaves]\m[shocked]\Rshake 瘋狗浪！ 巨大的海浪向洛娜襲來！
+
+World/ThingHappen_who_bad_AbomBreedlingTrap
+\cg[map_TrapHole]\SndLib[BreedlingSpot]是陷阱！ 巨大的洞穴困住了洛娜！
+
+World/ThingHappen_who_bad_AbomBreedlingRaid
+\cg[map_AbomBreedlingRaid]\SndLib[BreedlingSpot]肉魔！ 一群繁殖者正朝洛娜的方向移動！
+
+World/ThingHappen_who_bad_FishkindGroup
+\cg[map_FishkindGroup]是一群深潛者！
+
+World/ThingHappen_who_bad_UndeadWalking
+\cg[map_undead_group]出現了大量的不死者！
+
+World/ThingHappen_who_bad_BanditMobs
+\cg[map_bandits]是強盜！野生的人口販子出現了！
+
+World/ThingHappen_who_bad_FishPPL
+\cg[map_FishPPL]\SndLib[FishkindSmSpot]是漁人巡守隊！
+
+World/ThingHappen_who_bad_GangDebtCollet
+\cg[map_IRS]是討債者！看來債主發怒了！
+
+World/ThingHappen_who_bad_BanditsCiv
+\cg[map_bandits_farmer]是爆民？是強盜？總之絕對不懷好意！
+
+World/ThingHappen_who_good_Merchant
+\cg[map_merchant]野生的商人出現了！
+
+World/ThingHappen_who_good_NoerMissionary
+\cg[map_missionary]傳教士！是傳教士！
+\c[4]傳教士：\c[0]    終結近了！ 眾無辜者成為聖徒的從者吧！ 這是於終結前的最後機會！ 信聖徒！
+
+World/ThingHappen_who_Good_NoerHomeless
+\cg[map_homeless]大量的難民出現了！
+\c[4]難民：\c[0]    求您... 施恩阿...
+
+World/ThingHappen_who_Good_NoerHomeless_SneakFailed
+\narr難民們圍了上來。
+\narrOFF\c[4]難民：\c[0]    小姐... 幫幫我們吧
+\m[confused]\c[6]洛娜：\c[0]    呃....
+
+World/ThingHappen_who_Bad_RoadHalp
+\cg[map_Halp]看來有人受到了攻擊！
+
+World/ThingHappen_who_Bad_RoadHalp_SneakFailed
+\narr它們朝洛娜跑了過來。
+\narrOFF\c[4]難民：\c[0]    救救我！ 求妳幫幫我！
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    嚇？！ 等一下！
+
+World/ThingHappen_who_good_RefugeeCamp
+\cg[map_human_camp]是一個難民的營地！
+
+World/ThingHappen_who_bad_FishPPL_SneakFailed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]守衛：\c[0]    女人！ 逃跑的女人！
+\SndLib[FishkindSmSpot]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    嚇？！ 等一下！
+
+################################################ 隱匿檢查 ##################################
+
+World/ThingHappen_SneakWin
+它們沒有注意到洛娜。
+
+World/ThingHappen_SneakFailed
+它們發現洛娜了！
+
+World/ThingHappen_SneakTrueDeepone
+\narr因洛娜淫褻的體味，他們跟了過來。
+
+World/Check_NoEnemy_SneakWin
+\narr\..\..\..
+看起來沒有什麼問題，這應該是安全的。
+
+World/Check_Enemy_SneakWin
+\narr\..\..\..
+看起來非常的不自然，這絕對有危險。
+
+World/Check_SneakFailed
+\narr\..\..\..
+洛娜的技術看不出個所以然。
+
+World/Check_Hide
+\narr\..\..\..\SndLib[sys_StepChangeMap]
+洛娜藏到了黑暗的角落...\n它們失去了洛娜的蹤跡...
+
+################################################ 洛娜的決定 ##################################
+
+Lona/Options
+該怎麼做呢?
+
+Lona/Options_Escape
+逃跑
+
+Lona/Options_Observe
+觀察
+
+Lona/Options_Talk
+溝通
+
+Lona/Options_Approach
+接近
+
+Lona/Options_Kyaaah
+滑了一跤
+
+Lona/Options_Bomb
+爆炸
+
+Lona/Options_Hide
+躲藏
+
+Lona/Options_Leave
+離開
+
+Lona/Options_Intimidate
+威逼
+
+Lona/Options_Bluff
+唬爛
+
+Lona/Options_Cocona
+好朋友!
+
+Lona/Options_Struggle
+掙扎
+
+Lona/Options_GetHelp
+協力者
+
+##################################### Options_Struggle ##############################################
+Lona/Options_StruggleLoop
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit]還不夠！ 洛娜還必須更努力點！
+
+Lona/Options_StruggleWin
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit]是出口！ 就差一小步了！
+
+#####################################逃跑##############################################
+
+Lona/Options_sneakpass_RunningWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]洛娜嘗試逃走，他們沒有跟上。
+
+Lona/Options_sneakpass_RunningFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]洛娜嘗試逃走，但她失敗了。
+
+Lona/Options_sneakpass_SneakWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]洛娜躲了起來，沒有任何東西發現洛娜的存在。
+
+Lona/Options_sneakpass_SneakFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]它們隨著洛娜的腳步跟了上來。
+
+Lona/Options_sneakpass_JustLeave
+\SND[SE/sneak_in.ogg]\narr\m[normal]洛娜離開了。
+
+Lona/Options_FollowerHelp
+\cg[map_FollowerHelp]\m[p5sta_damage]洛娜的隊友幫助了她....
+
+####################################觀察##############################################
+####################################觀察##############################################
+####################################觀察##############################################
+
+World/ThingHappen_who_unknow_HumanGuard_ChkGood
+\m[confused]是附近駐地的士兵。
+
+World/ThingHappen_who_unknow_PPLsos_ChkGood
+\m[confused]\cg[map_sos]看起來真的很需要幫助的樣子。
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkGood
+\m[confused]\cg[map_guards]他們看起來不像有敵意的樣子。
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkBad
+\m[shocked]洛娜有可能被通緝了，最好不要招惹他們。
+
+World/ThingHappen_who_unknow_Guards_ChkBad_SlaveOwner
+\m[shocked]洛娜是逃跑的奴隸，必須離士兵遠一點。
+
+World/ThingHappen_who_unknow_PPLsos_ChkBad
+\m[confused]\cg[map_bandits]那些人看起非常的可疑...
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkBad
+\m[confused]\cg[map_bandits_farmer]那群人看起來絕對不是善人。
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckWin
+\m[flirty]洛娜糊弄著說詞，士兵們認為自己是誤會了。
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckLose
+\m[shocked]\Rshake 洛娜糊弄著說詞，但士兵們完全不相信。
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkUnknow
+\narr\m[confused]洛娜不能肯定對方是什麼來頭。
+
+World/ThingHappen_who_unknow_PPLsos_ChkUnknow
+\narr\m[confused]洛娜無法確認對方的本意。
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkUnknow
+\narr\m[confused]洛娜無法看出這個營地的狀況。
+
+World/ThingHappen_who_unknow_NoerMissionary_CheckWin
+\c[4]傳教士：\c[0]    無辜者阿！ 成為聖徒的從者吧！ 聖徒的光輝將淨化一切謊言與罪惡！
+\m[confused]感覺沒什麼可疑的..
+
+World/ThingHappen_who_unknow_NoerHomeless_CheckWin
+\m[confused]感覺沒什麼可疑的，除了味道很臭之外。
+
+World/ThingHappen_who_bad_AbomSpider_CheckWin
+\narr\..\..\..\..
+洛娜找到了一條路出去。
+洛娜逃走了！
+
+############################################### 嘗試溝通 ##############################
+############################################### 嘗試溝通 ##############################
+############################################### 嘗試溝通 ##############################
+
+Lona/Options_Talk_begin
+\narr\..\..\..
+洛娜嘗試著與對方交涉。
+
+Lona/Options_Intimidate_begin
+\narr\..\..\..
+洛娜嘗試著威嚇它。
+
+Lona/Options_Intimidate_begin2_typical
+\m[overkill]\Rshake\c[6]洛娜：\c[0]    吼吼吼吼！！！
+
+Lona/Options_Intimidate_begin2_tsundere
+\m[overkill]\Rshake\c[6]洛娜：\c[0]    閃邊去！ 滾開！
+
+Lona/Options_Intimidate_begin2_gloomy
+\m[bereft]\Rshake\c[6]洛娜：\c[0]    我... 我才不怕你！
+
+Lona/Options_Intimidate_begin2_slut
+\m[overkill]\Rshake\c[6]洛娜：\c[0]    滾開！ 不然就幹翻你！
+
+##############################
+
+World/ThingHappen_who_unknow_HumanGuard_ComGood
+\m[normal]這裡並不安全，他們建議洛娜趕快離開。
+
+World/ThingHappen_who_unknow_PPLsos_ComGood
+\m[sad]\cg[map_sos]他們告訴洛娜些悲慘的故事，並希望她能提供些幫助。
+
+World/ThingHappen_who_bad_AbomManager_ComGood
+\cgoff\m[flirty]爆炸了！巨大的聲響震攝了所有的魔物！肉魔們逃離了！
+
+World/ThingHappen_who_bad_WolfGroup_ComGood
+\m[flirty]牠們聞著洛娜的手，並失去了興趣。
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComGood
+\m[flirty]洛娜並非孤單一個人，動物們害怕了。
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComNonWeak
+\m[irritated]\Rshake 動物們覺得洛娜不好惹，動物們離開了。
+
+World/ThingHappen_who_bad_OrkindCamp_ComGood
+\m[flirty]牠們愚蠢的以為洛娜是它們的一份子。
+
+World/ThingHappen_who_bad_FishkindGroup_FishFollower
+\narr\..\..\..
+\narr\SndLib[FishkindLgQuestion]\m[flirty]它們看著洛娜的同伴，覺得洛娜是牠們的交配對象。
+\narr\m[flirty]它們離開了...
+
+World/ThingHappen_who_bad_FishkindGroup_ComGood
+\m[flirty]不知原因為何，牠們對洛娜失去了興趣。
+
+World/ThingHappen_who_bad_UndeadWalking_ComBad
+\m[shocked]\Rshake它們聽不懂洛娜說什麼，但它們對洛娜的腦袋的味道很感興趣。
+
+World/ThingHappen_who_bad_Bandits_ComGood
+\m[sad]\cg[map_sos]他們說著自己的苦衷，並希望自己沒有做過那些事。
+
+World/ThingHappen_who_bad_GangDebtCollet_ComGood
+\m[sad]\cg[map_sos]洛娜拜託他們多給些時間。
+\m[sad]\cg[map_FollowerHelp]他們同意了。
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_1
+\m[fear]\cg[map_scroll]他們觀察著洛娜交出的物資\..\..\..
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_pass
+\m[flirty]\cg[map_IRS]他們表示洛娜做的很好，希望下次也這麼配合。
+
+World/ThingHappen_who_bad_GangDebtCollet_ComRepayment_Failed
+\Rshake\m[terror]\cg[map_IRS]他們表示這些並不夠！
+
+World/ThingHappen_who_bad_BanditsCiv_ComGood
+\m[sad]\cg[map_sos_hunger]他們說著自己的苦衷，並示出後方那些飢餓的家眷。
+
+World/ThingHappen_who_good_Merchant_ComGood
+\m[flirty]\cg[map_merchant]商人滿頭問號的看著洛娜，好像對洛娜沒什麼興趣。
+
+World/ThingHappen_who_unknow_UnknowCamp_ComGood
+\m[normal]\cg[map_guards]這裡並不安全，他們建議洛娜趕快離開。
+
+World/ThingHappen_who_good_NoerMissionary_ComGood
+\c[4]傳教士：\c[0]    席芭莉絲的下場即是謊言與罪惡的下場！無辜者阿！相信聖徒！
+\c[4]傳教士：\c[0]    祂將以凡人之身現世！他將再次下凡拯救眾生！
+\m[confused]......
+
+World/ThingHappen_who_bad_FishPPL_NotSlave
+\narr\m[flirty]洛娜表示自己並非奴隸，他們離開了。
+
+World/ThingHappen_who_bad_FishPPL_ComGood
+\narr\SndLib[FishkindSmSpot]牠們看到了同類，
+\narr\SndLib[FishkindSmSpot]牠們認為洛娜是牠們的女人。
+\m[flirty]\c[6]洛娜：\c[0]    呃....
+
+World/ThingHappen_who_bad_FishPPL_BluffGood
+\narr\SndLib[FishkindSmSpot]牠們發現自己搞錯了。
+\narr\SndLib[FishkindSmSpot]牠們認為洛娜是男性。
+\narrOFF\m[flirty]\c[6]洛娜：\c[0]    呃....
+
+#####################################################################
+
+World/ThingHappen_who_unknow_HumanGuard_ComBad
+\narr他們覺得洛娜是犯罪份子，
+\narr他們將洛娜圍起來了！
+
+World/ThingHappen_who_unknow_PPLsos_ComBad
+\cg[map_bandits_farmer]他們要求洛娜留下所有的物資，並用身體服務他們。
+\m[wtf]\c[6]洛娜：\c[0]    不....不要過來！
+
+World/ThingHappen_who_unknow_PPLsos_ComLowMorality
+\cg[map_bandits_farmer]他們拿起了武器，他們覺得洛娜是邪惡的。
+
+World/ThingHappen_who_bad_AbomManger_ComBad
+\m[terror]\Rshake\narr他們圍了上來！牠們想利用洛娜的身體繁殖！
+
+World/ThingHappen_who_bad_WolfGroup_ComBad
+\m[terror]\Rshake\narr它們覺得洛娜很好吃，低吼著並圍了上來！
+
+World/ThingHappen_who_bad_OrkindCamp_ComBad
+\c[6]類獸人：\c[0]    \cg[event_OrkindGonnaRape]穴！ 肉穴！
+\narr\m[fear]它們流著惡臭的唾液並圍了上來，
+\narr看起來是想把洛娜當成肉便器。
+
+World/ThingHappen_who_bad_FishkindGroup_ComBad
+\c[6]深潛者：\c[0]    \cg[event_FishkindGonnaRape]咕魯！咕恰！
+\narr\m[fear]它們帶著腥臭的魚腥味圍了上來，
+\narr看起來是想把洛娜當成孕母。
+
+World/ThingHappen_who_bad_BanditMobs_ComBad
+\m[wtf]\cg[map_bandits]\c[6]洛娜：\c[0]    不....不要過來！
+\narr他們要求洛娜留下所有的東西。
+
+World/ThingHappen_who_bad_GangDebtCollet_ComBad
+\m[wtf]\cg[map_IRS]\c[6]洛娜：\c[0]    對不起！我不是故意的！
+\narr他們要求放棄抵抗並把所有東西拿來抵債。
+
+World/ThingHappen_who_bad_BanditsCiv_ComBad
+\cg[map_bandits_farmer]他們要求洛娜留下所有的物資，並用身體服務他們。
+\m[wtf]\c[6]洛娜：\c[0]    不....不要過來！
+
+World/ThingHappen_who_good_Merchant_ComBad
+\m[flirty]\cg[map_merchant]商人滿頭問號的看著洛娜，好像對洛娜沒什麼興趣。
+
+World/ThingHappen_who_unknow_UnknowCamp_ComBad
+\m[wtf]\cg[map_bandits]\c[6]洛娜：\c[0]    不....不要過來！
+\narr他們要求洛娜留下所有的物資，並用身體服務他們。
+
+World/ThingHappen_who_bad_CommonMobs_ComBad1
+\m[normal]\cg[map_bandits_farmer]他們要求洛娜留下價值
+
+World/ThingHappen_who_bad_CommonMobs_ComBad2
+交易點的物資，不然就要攻擊她了。
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_win
+\narr他們對洛娜的配合感到相當滿意。
+\narr他們離開了。
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_failed
+他們對洛娜不合作的態度感到非常不滿。
+\m[wtf]\cg[map_bandits]\c[6]洛娜：\c[0]    不....不要過來！
+\narr他們要求洛娜留下身上所有的東西。
+
+####################################滑了一跤##############################################
+
+Lona/OvermapSlip
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{唉啊啊啊！！！
+\narr\m[hurt]\Rshake洛娜跌倒了，發出的聲響讓附近的生物注意到了她。
+
+Lona/OvermapSlipDrowning
+\SndLib[sound_Bubble]\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    \{咕嚕嚕嚕嚕！！
+\SndLib[sound_Bubble]\narr\m[p5health_damage]\Rshake 洛娜溺水了，她隨著潮水漂往未知的地方...
+
+##################################### 諾爾鎮 大門守衛 #############################################
+
+GateGuard/begin1
+\SETpl[Mreg_pikeman]\prf\cg[map_NoerGate]諾爾鎮的城門\optB[沒事,進入,隱匿進入<r=HiddenOPT1>]
+
+GateGuard/enter_no_passport
+\prf\c[4]守衛：\c[0]    上面下了命令，沒有身份證明的一概不准進入。
+\m[confused]\plf\PRF\c[6]洛娜：\c[0]    好吧....
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]守衛：\c[0]    嗯？ 妳... 等等！
+\Lshake\c[4]守衛：\c[0]    我知道妳！ \{抓住她！
+\m[shocked]\plf\PRF\Rshake\c[6]洛娜：\c[0]    糟糕了！
+
+GateGuard/enter_sneak
+\plf\prf\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]洛娜：\c[0]    呼.. 過去了...
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]守衛：\c[0]    嗯？ 妳... 等等！
+\Lshake\c[4]守衛：\c[0]    妳往哪走！ \{抓住她！
+\m[shocked]\plf\PRF\Rshake\c[6]洛娜：\c[0]    糟糕了！
+
+NobleGateGuard/NapCapture
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]守衛：\c[0]    這乞丐怎麼溜進來的？
+\SETpr[Mreg_guardsman]\plf\Rshake\c[4]守衛：\c[0]    抓住她！
+\m[shocked]\plf\PRF\Rshake\c[6]洛娜：\c[0]    什麼！怎麼了！？
+
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+
+NoerTavern/FristTimeNotice0
+\ph\board[大地圖]
+大地圖遊戲方式為回合制。
+每次移動皆會扣除一定體力。
+每次日夜切換皆會自動休息。
+但若體力不足則會強制進入區域地圖並強制過夜。
+
+NoerTavern/FristTimeNotice1
+\board[區域地圖操作]
+\C[2]CTRL  \C[0]放棄一回合，並使時間流逝,不消耗體力。
+\C[2]SHIFT \C[0]加速,減少每步消耗時間，但須消耗更多體力。
+\C[2]進入地圖\C[0]：如標題
+\C[2]滑了一跤\C[0]：區域環境危險率加到最大值，並強制進入地圖。
+
+NoerTavern/FristTimeNotice2
+\board[事件遭遇操作]
+\C[2]嘗試離開\C[0]：如標題。
+\C[2]觀察對方\C[0]：嘗試觸發附加事件。
+\C[2]嘗試溝通\C[0]：嘗試觸發附加事件。
+\C[2]進入地圖\C[0]：如標題。
+
+NoerTavern/FristTimeNotice3
+\SND[SE/Book1]\bg[bg_TutorialWorldDifficulty]\C[2]世界難度\C[0]：隨日期增加，越高則生成的敵人數量越多且越強。
+\SND[SE/Book1]\bg[bg_TutorialTime]\C[2]時間\C[0]：滿100時會過半天,並進行休息。
+\SND[SE/Book1]\bg[bg_TutorialCarrying]\C[2]負重\C[0]：為0時會隨時間消耗體力，於大地圖時每步會消耗更多體力。
+
+NoerTavern/FristTimeNotice4
+\{地點。
+\bgoff\CamMP[NoerTavern]燃燒橡木桶
+諾爾鎮最著名的酒館，同時也是傭兵工會的營業所。
+可以提供伙食、住宿、工作派遣等。
+\CamMP[NoerDock]港口\BonMP[NoerDock,19]
+遽聞現在依然有船運送難民離開。
+但價格是一般人無法負擔的天價。
+\CamCT先去酒館將魔物出沒的訊息回報給工會吧。

@@ -1,0 +1,233 @@
+thisMap/OvermapEnter
+匪徒盤據的西13號倉庫\optB[算了,進入]
+
+Enter/Begin1
+\cg[map_region_NoerRoad]\SETpl[GrayRatNormalAr]\c[4]灰鼠：\c[0]    準備好了？
+\m[shocked]\plf\Rshake\C[6]洛娜：\C[0]    \{嚇？！ \}這身裝備看起來好強大！
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]灰鼠：\c[0]    嗯？
+\m[flirty]\plf\PRF\C[6]洛娜：\C[0]    沒... 沒什麼！
+
+Enter/Begin2
+\board[救出灰鼠的夥伴]
+目標：找到目標並救出，目標及委託人不可死亡。
+報酬：未知
+委託主：灰鼠
+
+Enter/Begin3
+\m[serious]\plf\Rshake\C[6]洛娜：\C[0]    好，去救出你的夥伴吧！
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]灰鼠：\c[0]    等等，這是正門。
+\m[confused]\plf\PRF\C[6]洛娜：\C[0]    是阿，怎麼了？
+\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]灰鼠：\c[0]    .......
+\m[shy]\plf\PRF\C[6]洛娜：\C[0]    .....
+\SETpl[GrayRatShockedAr]\Lshake\prf\c[4]灰鼠：\c[0]    ...你忘了？ \{這是個陷阱！\}
+\m[flirty]\plf\PRF\C[6]洛娜：\C[0]    走後門吧。
+
+###################################################   BEGIN PART ###############################################################
+AboutTrap/Begin1
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]灰鼠：\c[0]    等等.....
+\CBct[2]\m[shoked]\plf\Rshake\C[6]洛娜：\C[0]    \{又怎麼了？！\}
+\CBct[8]\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]灰鼠：\c[0]    .......
+\CBmp[UniqueGrayRat,1]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]灰鼠：\c[0]    前面有陷阱，可以肯定後面還有更多。
+
+AboutTrap/Begin2
+\CBct[8]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    呃...
+
+AboutTrap/Begin3
+\CBct[20]\m[flirty]\plf\PRF\C[6]洛娜：\C[0]    不用擔心，這只是小問題，我可以料理的。
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\c[4]灰鼠：\c[0]    ............
+\CBct[6]\m[bereft]\plf\Rshake\C[6]洛娜：\C[0]    我是說真的！
+
+AboutTrap/Begin4
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\prf\c[4]灰鼠：\c[0]    ............
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\prf\c[4]灰鼠：\c[0]    請您指引一條安全路線，我會隨後跟上。
+
+############################################################################################################################
+
+MobTalking/Begin1
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    你說... 這有用嗎？那大隻佬很強阿。
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盜：\C[0]    絕對有用！來這麼多陰招還有甚麼陰不死的。
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    是哦。
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盜：\C[0]    話說，為什麼不能動那婊子？他胸部很大耶。
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盜：\C[0]    憑你？！ 小心被咬掉阿！
+\CBmp[MobC,20]\SETpl[MobHumanWarrior]\Lshake\C[4]野盜：\C[0]    不要吵！專心！
+\CBct[1]\m[serious]\plh\PRF\Rshake\C[6]洛娜：\C[0]    好多人！
+\CBct[20]\m[triumph]\plh\PRF\C[6]洛娜：\C[0]    但看起來沒人注意到我？沒問題的！
+
+CecilyRape/stage1
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\C[4]野盜：\C[0]    妳就沒想過殺了我們的人會有這種下場？
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapA_Normal]\Lshake\prf\C[4]未知：\C[0]    啐！那些人都是\C[6]印加蘭\C[0]的臣民，你們也是！\C[6]印加蘭王國\C[0]的臣民不該被當成奴隸！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盜：\C[0]    這種時候了你跟我說國家？\C[6]諾爾島\C[0]這種的地方？外面滿是魔物的時候？
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盜：\C[0]    嘛，況且就算我們停下來了，還會有更多人等著接手。
+\CamCT\optD[潛入,還不是時候]
+
+CecilyRape/stage2
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盜：\C[0]    話說，妳有沒有想過，很多商品都是自願的？
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盜：\C[0]    到了我們手上，不少商品反而是露出了安心的表請呢。
+\CBmp[CeTrapped,5]\SETpl[CecilyTrapA_Shy]\Lshake\prf\C[4]未知：\C[0]    說謊！
+\CamCT\optD[潛入,觀察手指甲]
+
+CecilyRape/stage3
+\CBmp[Raper,4]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盜：\C[0]    嘛，妳的身體也挺色情的呢。
+\CBmp[CeTrapped,15]\SndLib[sound_DressTear]\SETpl[CecilyTrapB_Shocked]\Lshake\prf\C[4]未知：\C[0]    \{！！！！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    說起來妳應該不是處女吧？感覺不像，我們賤民總是聽貴族的淫穢故事長大的。
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    嘛，都要死了不爽一下太可惜了對吧？
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\C[4]未知：\C[0]    \{\.放\.開\.你\.的\.髒\.手！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    表情不錯，果然女人就是該這樣。
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Shy]\PLF\PRF\C[4]未知：\C[0]    .............
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]野盜：\C[0]    嘛，反抗啊？妳越反抗我越興奮。
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\PRF\C[4]未知：\C[0]    \{王八蛋！　去死！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]野盜：\C[0]    呦嘔！我濕了♥
+\optD[潛入,查看天花板的污漬]
+
+CecilyRape/rape_scene1
+\Lshake\C[4]未知：\C[0]    放開我！你這個狗屎般的賤民！
+
+CecilyRape/rape_scene2
+\C[4]野盜：\C[0]    以一個貴族來說，小姐您真他媽的凶惡啊。
+\C[4]野盜：\C[0]    但我喜歡♥　抱起來也很舒服。
+\C[4]野盜：\C[0]    如果妳不是敵人，我還真想把妳買下來當奴隸。
+
+CecilyRape/rape_scene3
+\Lshake\C[4]未知：\C[0]    \{你閉嘴！閉嘴！給我閉嘴！
+
+CecilyRape/rape_scene4
+\C[4]野盜：\C[0]    我嘴就在這啊？來阻止我啊？
+
+CecilyRape/rape_scene5
+\C[4]野盜：\C[0]    嘛，只有我小頭的那點點液體，也許會痛呦♥
+
+CecilyRape/rape_scene6
+\C[4]野盜：\C[0]    別不吭聲啊？聊聊天咩，誰是妳的第一次阿♥
+
+CecilyRape/rape_scene7
+\C[4]野盜：\C[0]    是那個混族的大隻佬？還是我？
+\C[4]野盜：\C[0]    嗯？混族？一個貴族居然跟混族這個那個的？
+
+CecilyRape/rape_scene8
+\Lshake\C[4]未知：\C[0]    \{不要說了！！！
+
+CecilyRape/rape_scene9
+\{！！！！！！！！！！！
+
+CecilyRape/rape_scene10
+\C[4]野盜：\C[0]    \{\.太\.可\.惜\.了\.。 第一次居然不是我♥
+
+CecilyRape/rape_scene11
+\C[4]野盜：\C[0]    裡面感覺還行，我要開始動了啊，夾緊呦♥
+
+CecilyRape/rape_scene12
+\C[4]野盜：\C[0]    動起來感度不錯，肉感結實，看來妳比較適合當妓女。
+
+CecilyRape/rape_scene13
+\C[4]野盜：\C[0]    怎樣？我的好兄弟跟那隻大隻佬的比起來.....
+
+CecilyRape/rape_scene14
+\C[4]未知：\C[0]    \{糟透了！ 去死吧！
+
+CecilyRape/rape_scene15
+\C[4]野盜：\C[0]    嘛，遺憾。
+
+CecilyRape/rape_scene16
+\C[4]野盜：\C[0]    我衝刺了！
+
+CecilyRape/rape_scene17
+\C[4]野盜：\C[0]    \{吼啊啊啊啊啊啊！
+
+CecilyRape/rape_scene18
+\C[4]野盜：\C[0]    \{馬的幹！要去了！他媽的接好了！
+
+CecilyRape/rape_scene19
+\C[4]未知：\C[0]    \{什麼！不行！快拔出來！
+
+CecilyRape/rape_scene20
+\C[4]未知：\C[0]    \{拜託你，射外面啊！
+
+CecilyRape/rape_scene21
+\C[4]未知：\C[0]    \{吼啊啊啊啊啊啊啊！
+
+CecilyRape/rape_scene22
+\C[4]未知：\C[0]    \{\{嗚喔喔喔啊啊！
+
+CecilyRape/rape_scene23
+\C[4]未知：\C[0]    \{呼！哈！呼！
+\Rshake\SND[SE/Whip01.ogg]\C[4]未知：\C[0]    \{爽啦！
+\Rshake\SND[SE/Whip01.ogg]\C[4]未知：\C[0]    \{幹他媽的！
+\C[4]未知：\C[0]    呼！呼！
+
+CecilyRape/stage_rape_end
+\CBmp[CeTrapped,8]\SETpl[CecilyTrapB_Shy]\SETpr[MobHumanCommoner]\PLF\prf\C[4]未知：\C[0]        嗚嗚....
+\CBmp[Raper,20]\plf\PRF\C[4]野盜：\C[0]    呼啊，真爽阿。
+\CBmp[Raper,20]\plf\Rshake\C[4]野盜：\C[0]    可惜以後抱不到了。
+\CBmp[Raper,20]\plf\Rshake\C[4]野盜：\C[0]    嘛，換班後其他人也會好好招呼妳吧？
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]未知：\C[0]    \{不可原諒\}.......
+\CBmp[Raper,20]\plf\PRF\C[4]野盜：\C[0]    什？大聲點？聽不到啊。
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]未知：\C[0]    \{我絕對會殺了你！\}
+
+CecilyRape/trapped_raped
+\CBid[-1,1]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]未知：\C[0]    \{！！！！！！\}
+\CBct[20]\m[serious]\Rshake\C[6]洛娜：\C[0]    噓！　別出聲，我是來救妳的。
+
+CecilyRape/trapped
+\CBid[-1,1]\SETpl[CecilyTrapA_Shocked]\Lshake\C[4]未知：\C[0]    \{！！！！！！\}
+\CBid[-1,6]\SETpl[CecilyTrapA_Normal]\C[4]未知：\C[0]    ........
+\CBct[20]\CBct[20]\m[serious]\Rshake\C[6]洛娜：\C[0]    噓！　別出聲，我是來救妳的。
+
+CecilyRape/trapped2
+\CBmp[Cecily,8]\SETpl[CecilyWtfAr]\PLF\prf\C[4]未知：\C[0]    呼。
+\CBmp[Cecily,2]\SETpl[CecilyShyAr]\PLF\prf\C[4]未知：\C[0]    是執事長找妳來的？他在哪裡？
+\CBct[2]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    執事長？
+\CBct[20]\m[pleased]\plf\PRF\C[6]洛娜：\C[0]    喔！灰鼠先生？他在我後面。
+
+CecilyRape/trapped3
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]未知：\C[0]    小姐....　很抱歉我來遲了.....
+\CBct[2]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    小姐？
+\CBct[8]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    .....
+\CBct[20]\m[shocked]\plf\Rshock\C[6]洛娜：\C[0]    \{貴族？\}
+\CBmp[Cecily,6]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]未知：\C[0]    噓！冷靜點！
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]未知：\C[0]    現在不是說這些廢話的時候！
+
+CecilyRape/trapped4_raped
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]未知：\C[0]    小姐..您....
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]未知：\C[0]    我沒事。
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]未知：\C[0]    但..... 這個味道....？
+\CBmp[UniqueGrayRat,5]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]未知：\C[0]    ..........！！！
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]未知：\C[0]    \{他們竟敢....\}
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]未知：\C[0]    \{我要殺光他們！\}
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]未知：\C[0]    冷靜！ 我再說一次！ 我沒事！
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]未知：\C[0]    .........
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]未知：\C[0]    .....
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]未知：\C[0]    是，小姐。
+
+CecilyRape/trapped4
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]未知：\C[0]    小姐..您....
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]未知：\C[0]    我沒事。
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]未知：\C[0]    感謝聖徒......
+
+CecilyRape/trapped5
+\CBct[6]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    呃...　抱歉，打攪了！
+\CBct[2]\m[flirty]\plf\PRF\C[6]洛娜：\C[0]    請示閣下現在要做什麼？
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]未知：\C[0]    妳不是斥候嗎？我才要問妳咧！
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]未知：\C[0]    還有妳別搞什麼敬語了，我不喜歡那套。
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]未知：\C[0]    如果妳沒點子那就殺出去！ 宰了他們！
+
+#too many UX notice? should not over notice? should not break UX rule?
+#\CamMP[ExitPoint2]\BonMP[ExitPoint2,28]\m[shocked]\Rshake\C[6]洛娜：\C[0]    從大門強行突破？
+#\CamCT\SETpr[CecilyWtfAr]\plf\Rshake\C[4]未知：\C[0]    \{還問？！
+
+################################################### FAILED ####################################################
+QuestFailed/Nap1
+\m[tired]\C[6]洛娜：\C[0]    嗚嗚...
+
+QuestFailed/Nap2
+\narr任務失敗了。
+\narr賽希莉與灰鼠失蹤了。
+
+QuestFailed/Nap3
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    這個小鬼怎麼處理？
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盜：\C[0]    打包帶走吧，她應該可以成為商品。
+
+QuestFailed/ObjDed
+\narr目標陣亡了，任務失敗了！
+
+Exit/QuestFailWarning
+\m[confused]\narr離開將導致任務失敗。

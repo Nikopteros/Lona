@@ -1,0 +1,98 @@
+thisMap/OvermapEnter
+\m[confused]해조성,\n현재는 난민 시장이다\optB[그만둔다,들어간다]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]소금밭으로 간다？\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+#####################################################################
+
+Guard1/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 전에는 그냥 과일장수였지. 지금은 눈치 없는 놈들 패는 게 내 일이야.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 하루에 꼭 하나는 죽여버린다.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 나 탓하지 마라, 이게 내 일이니까!
+
+Guard1/Com1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 너 장사하러 온 거냐, 사고 치러 온 거냐? 죽고 싶어?
+
+Guard2/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 있잖아, 예전엔 귀족 놈들이 맨날 우릴 괴롭혔지.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 특히 그 누구더라... 이름이 생각 안 나네.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 근데 며칠 전 보니까, 그 잘난 귀족이 처자식 데리고 구걸하고 있더라고.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 그래서 내가 뭘 했는지 알아?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 그 앞에서 그의 아들을 모욕해줬지. 애원하고 절망하는 얼굴을 보니 속이 다 시원하더라.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 그리고 있잖아, 웃긴 게 뭔지 알아?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 그 자식이 무릎 꿇고 차라리 자기랑 아내한테 하라고 빌더라니까.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 그리고 또 뭔지 알아?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 결국 귀족 말은 잘 들어줘야지. 우리 전부가 그 집안을 마음껏 짓밟고, 마지막엔 바다에 던져버렸어.
+
+comBoard/v1
+\board[너 여자냐?]
+가족과 친지를 구하고 싶다고?!
+간호원이 되어라, 병사들에게 네 도움이 필요하다.
+우리가 너의 음식과 안전을 보장하고,
+추가로 1명을 노엘 마을에 들여보내주겠다.
+문의: 염전 창고 접수처
+
+comBoard/v0
+\board[너 남자냐?]
+가족과 친지를 구하고 싶다고?!
+군대에 들어와라, 아니면 노예가 되어라!
+추가로 1명을 노엘 마을에 들여보내주겠다.
+문의: 염전 수비대
+
+comBoard/v2
+\board[너는 반항해야 하는가?]
+한 손바닥으로는 소리를 낼 수 없다. 여자가 겪은 불행은, 남자보다 더 큰 책임이 그녀에게 있다.
+저항하는가? 그건 잘못이다. 저항하다 죽는다면, 그것은 오직 네 잘못일 뿐.
+살고 싶다면, 얌전히 그들을 ‘주인님’이라 부르고 오히려 간청하며 받아들이는 것이 옳다.
+지금은 인류의 존망이 걸린 때다. 너의 개인적인 비극을 들어줄 시간 따위는 없다.
+
+##################################################################### FL_GateGuard
+
+FL_GateGuard/already_passed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 뭐해? 아직 꾸물대냐? 빨리 들어가!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에?! 
+
+FL_GateGuard/IsSlave
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 노예다! 도망친 노예다!
+
+FL_GateGuard/Begin0_opt
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 멈춰! 너, 두목이 부른 용병이냐? 아니면 우릴 빨아주러 온 년이냐?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어...\optB[둘 다 아냐,용병이다,창녀야]
+
+FL_GateGuard/Begin1_ans_cancel
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 꺼져!
+
+FL_GateGuard/Begin1_ans_mer_yes
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 나\..\..\..\m[flirty]용병이긴 한데...? 아마도?
+
+FL_GateGuard/Begin1_ans_whore_yes
+\CBct[6]\m[shy]\plf\PRF\c[6]로나：\c[0] 저는... 그, 여러분 거길... 모셔드리러 왔어요?
+
+FL_GateGuard/Begin1_ans_mer_fail
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 감히 거짓말이야?! 딱 봐도 창녀잖아!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에엣?!
+
+FL_GateGuard/Begin1_ans_whore_fail
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] \..\..\.. 영 딱 안 맞는데? 사실은 남자지?
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 예에에?! 
+
+FL_GateGuard/Begin1_ans_mer_pass1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 좋아, 들어가면 2층에서 우리 두목한테 보고해라.
+\CBct[8]\m[confused]\plf\Rshake\c[6]로나：\c[0] 2층...?
+
+FL_GateGuard/DickSuck0
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] \..\..\..
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 흥! 내 자지 오래 씻질도 않았는데, 네가 깨끗이 청소 좀 해라.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐라고!?
+
+FL_GateGuard/DickSuck1
+\CBid[-1,4]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 후후♥ 이제 훨씬 깨끗해졌군♥
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 들어가라. 1층 접수대 가서 서명해라. 이제부턴 먹고사는 데 걱정 없을 거다.
+
+##################################################################### Weapon vandor ,NFL quest reward
+
+WeaponTrader/BucketHelmet_begin0
+\CBid[-1,20]\c[4]상인：\c[0] 요! 어서 와, 막 새 물건이 들어왔어.
+\CBid[-1,20]\c[4]상인：\c[0] 자, 이 반짝반짝한 전사 투구 좀 봐. 그 용병들 \c[6]시바리스\c[0] 군영에서 빼온 거라구.
+\CBid[-1,20]\c[4]상인：\c[0] 대체 어떻게 그 녹색 피부 놈들 코를 피해서 빠져나온 건지 나도 모르겠다니까.

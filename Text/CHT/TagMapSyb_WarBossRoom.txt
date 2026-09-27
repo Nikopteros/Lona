@@ -1,0 +1,242 @@
+thisMap/OvermapEnter
+\m[confused]陷落的堡壘\optB[算了,進入]
+
+
+############################## Story mode enter boss room
+############################## Story mode enter boss room
+EnterBossRoom/1_smell
+\CBct[6]\m[pain]\plf\Rshake\c[6]洛娜：\c[0]    嗚嗚...這裡的味道比下水道還恐怖...
+
+EnterBossRoom/2_sawGobRunning
+\CBct[8]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 剛剛發生了什麼？！
+
+EnterBossRoom/3_sawWarBoss_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    吚吚吚吚吚！！！
+
+EnterBossRoom/3_sawWarBoss_tsundere
+\CBct[5]\m[normal]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[5]\m[angry]\plf\Rshake\c[6]洛娜：\c[0]    哼！ 你贏不了我的...因為我比你快！
+
+EnterBossRoom/3_sawWarBoss_gloomy
+\CBct[5]\m[wtf]\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 不要過來！
+
+EnterBossRoom/3_sawWarBoss_slut
+\CBct[8]\m[angry]\plf\Rshake\c[6]洛娜：\c[0]    就算你那裏比樹幹還要大我也不會輸的！
+
+EnterBossRoom/3_sawWarBoss_again_typical
+\CBct[8]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    我\..\..\..我才不怕你！
+
+EnterBossRoom/3_sawWarBoss_again_tsundere
+\CBct[5]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我...不會再輸給你了！
+\CBct[20]\m[irritated]\plf\Rshake\c[6]洛娜：\c[0]    \{不會！
+
+EnterBossRoom/3_sawWarBoss_again_gloomy
+\CBct[8]\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    不\..\..\..不要殺我！ 我會乖乖的！
+
+EnterBossRoom/3_sawWarBoss_again_slut
+\CBct[8]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    等等\..\..\..我可以隨便你用！ 只要不殺我就好！
+
+############################## ArmoredSet Cropse
+
+ArmoredSetCropse/0
+\narr 一個小孩的屍體，他的肛門遭到了嚴重的破壞\..\..\..
+
+############################################################ OrkindSlayer
+
+EnterBossRoom/OrkindSlayer_Begin1
+\CBfF[8]\SETpl[OrkindSlayer]\Lshake\c[4]類獸人殺手：\c[0]    等等....
+
+EnterBossRoom/OrkindSlayer_Begin2
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]類獸人殺手：\c[0]    我聞到了類獸人的臭味...
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]類獸人殺手：\c[0]    我需要妳的尿液...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    哈？！
+
+EnterBossRoom/OrkindSlayer_justEnter0
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+EnterBossRoom/OrkindSlayer_Give0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    好吧\..\..\..你不會用它來做什怪事吧？
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\prf\c[4]類獸人殺手：\c[0]    不會...
+
+EnterBossRoom/OrkindSlayer_Give1
+\CBfF[8]\SETpl[OrkindSlayer]\PLF\c[4]類獸人殺手：\c[0]    成了...
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃....
+
+EnterBossRoom/OrkindSlayer_Give0_failed
+\CBct[6]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃\..\..\..\m[flirty]沒有多餘的尿可以給你耶...
+
+EnterBossRoom/OrkindSlayer_OPT_justEnter
+不理他
+
+EnterBossRoom/OrkindSlayer_OPT_Give
+給他
+
+############################## Win
+
+Win/StaWin0
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我...我贏了？！
+
+Win/StaWin1
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    又來了？！
+\CBct[8]\m[shocked]\PRF\c[6]洛娜：\c[0]    \..\..\..\CBct[20]\m[angry]\Rshake 我才不怕！
+
+Win/StaWin2
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...不是吧？
+
+Win/Qmsg_BossRaped0
+牠們非常專心...
+
+Win/Qmsg_BossRaped1
+牠們正忙著證明自己比牠強...
+
+Win/Qmsg_BossRaped2
+牠們無視洛娜的存在...
+
+################################################################################ STORYMODE RAPELOOP
+
+Warboss/rapeloop_begin1
+\CBct[6]\m[tired]\Rshake\c[6]洛娜：\c[0]    我...動不了了...
+
+Warboss/rapeloop_begin2
+\CBmp[20]\SndLib[sound_OgreSpot]\SETpl[OgreWarboss_BoneShield]\Lshake\.\.\.\CBct[6]\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    嗚...不要...不要過來...
+
+Warboss/rapeloop_begin3
+\CBct[6]\m[p5shame]\Rshake\c[6]洛娜：\c[0]    不...
+
+Warboss/rapeloop_begin4
+\CBct[6]\m[bereft]\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！！！
+
+Warboss/rapeloop_begin5
+\CBmp[4]\SndLib[sound_OgreQuestion]\SETpl[OgreWarboss_BoneShield]\Lshake\prf\..\..\..
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+Warboss/rapeloop_begin6
+\narr為了確認這肉壺有資格成為玩具或只能當食物？ 牠品嘗著肉壺被尿液浸濕的屄穴\..\..\..
+
+Warboss/rapeloop_begin7
+\narr牠非常滿意肉壺的氣味，但牠對肉壺的屄穴鬆緊感到非常不滿\..\..\..
+
+Warboss/rapeloop_begin8
+\narr血與尿的氣味讓以及肉壺的哀號牠的雞巴硬到不行，牠決定幹了肉壺\..\..\..
+
+Warboss/rapeloop_begin9
+\narr牠對肉壺的屄穴感到相當滿意，那尻穴如何呢\..\..\..？
+
+Warboss/rapeloop_begin10
+\narr看來尻穴的感度也良好，但還是屄穴更值得使用\..\..\..
+
+Warboss/rapeloop_begin11
+\narr肉壺的哀號停止了，但牠的侵犯依然持續著\..\..\..
+
+Warboss/rapeloop_begin12
+\narr牠很高興發現這肉壺在牠無止盡的侵犯下依然活著，牠非常高興能抓到如此高檔的肉壺，這肉壺將來一定可以生下許多玩具\..\..\..
+\narr牠決定將肉壺當成牠的陰莖套，以便無時無刻的侵犯它\..\..\..
+
+Warboss/rapeloop_nap1
+\narr肉壺失去意識了，但這並不能讓他停止使用肉壺\..\..\..
+
+Warboss/rapeloop_nap2
+\narr\..\..\..
+
+################################################################################ STORYMODE RAPELOOP - with minions
+
+Warboss/rapeloop_OPT_beat
+展示自己的體格
+
+Warboss/rapeloop_OPT_rape
+證明我比你更強
+
+Warboss/rapeloop_OPT_Impale
+將肉壺獻給生育之母
+
+Warboss/rapeloop_OPT_Feed
+餵食
+
+LeftFucker/begin1
+\ph\narr這位兄弟正享受著你賞賜肉壺。
+
+ShakingToilet/begin1
+\ph\narr這肉壺快不行了，這將是她最後一次生產...
+\ph\narr產出新的兄弟後就可以拿來吃了。
+
+MeatToiletF/begin1
+\ph\narr肉壺，使用起來比起那些肉魔舒服太多了...
+\ph\narr使用時還不會斷的掙扎，好玩又好吃，生的又多又快...
+\ph\narr但最近能抓到的肉壺越來越少了，這讓你非常的不爽。
+
+MeatSeedbed/begin1
+\ph\narr這是你兄弟送給你的苗床，牠用生育之母的祝褔融合了大量的肉壺與便器...
+\ph\narr只要有足夠的食物苗床每天都能生出更多的兄弟...
+\ph\narr你對此嗤之以鼻。畢竟肉壺就是要會掙扎用起來才舒服...
+\ph\narr唉，為什麼擁有祝福的不是你呢？這讓你非常的不爽...
+
+TellerPillar/begin1
+\ph\narr生育之母的圖騰柱...
+\ph\narr為什麼生育之母要招喚兄弟們來到這個世界呢？
+\ph\narr她一定是希望眾兄弟們征服這些肉壺對吧...
+
+Abom/begin1
+\ph\narr肉魔，是敵人、是食物、是繁殖工具。
+\ph\narr但現在牠們僅是你與兄弟們搶地盤的對手，畢竟雙方都覺得肉壺更好更舒服。
+\ph\narr但不用擔心，看看牠吧，最後勝利的一定是兄弟們。
+\ph\narr因為兄弟們更強大，更聰明。
+
+Heads/begin1
+\ph\narr肉壺的頭顱，頭不好吃。
+\ph\narr但割下它們的頭顱可以證明兄弟們很強大。
+
+MeatToiletM/begin1
+\ph\narr這邪惡的肉壺殘殺了我們許多兄弟，而且這種肉壺不能用來製造兄弟。
+\ph\narr等兄弟們玩完了後就把煮來吃。
+
+Corpses/begin1
+\ph\narr獻給生育之母的祭壇，用新鮮的肉壺塗滿精液，
+\ph\narr再用最痛苦的方式讓肉壺們死去。
+\ph\narr聽到肉壺們的慘叫後生育之母一定會很高興...
+
+EmptyImpalement/begin1
+\ph\narr這根木樁是空的，無法展示你對生育之母的虔誠，這讓你非常不爽。
+
+ManImpalement/begin1
+\ph\narr不能生產兄弟的肉壺...
+\ph\narr最好的使用方式就是將肉體獻給生育之母...
+
+##########################
+
+Butcher/begin1
+要餵食你的肉壺嗎？
+
+prayer/begin1
+\ph\narr虔誠的好兄弟...
+\ph\narr居然有空置的木樁，這代表肉壺的屍體不夠用了，這位兄弟對此非常的傷心。
+
+cooker/begin1
+\ph\narr這位好兄弟正努力的為同胞們準備食物。
+\ph\narr他很清楚誰才是老大，但你覺的牠還不夠虔誠...
+
+OrcKid/begin1
+\ph\narr一個年輕的類獸人，比牠的兄弟們都還要強大、聰明。
+\ph\narr但他並沒有你強大、聰明，看來牠不明白誰才是王者...
+\ph\narr你要讓牠了解自己的地位嗎...？
+
+OrcKid/Talked1
+\ph\narr一個了解了自己處境的雛兒，牠依然有很多東西要學習...
+\ph\narr你願意教導牠嗎？
+
+################################################################################ RapeLoop Defence mode
+
+rapeloopExit/opt
+\ph\narr身上的肉壺已經奄奄一息了
+\optB[算了,丟棄]
+
+rapeloopExit/did
+\m[confused]\c[6]洛娜：\c[0]    咦\..\..\..我在哪裡...？
+\m[tired]\c[6]洛娜：\c[0]    我被放出來了？
+\m[sad]\c[6]洛娜：\c[0]    接下來該怎麼辦\..\..\..
+
+rapeloopGo_out/begin1
+\ph\narr這位兄弟非常恐慌，牠表示有肉壺入侵了。
+
+rapeloopGo_out/opt
+\optB[你己想辦法！,宰了他們！]

@@ -1,0 +1,345 @@
+########################################
+GodCTalk/begin1
+\CBmp[teller,8]\c[4]Гадалка：\C[0]    -В конце концов\..\..\..\..
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\c[4]Гадалка：\C[0]    Именно так всё и произошло.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]    Значиит, дитяя сбиило тебяя ссс ног... Иии уссстроило всссё этоо?
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Да, малышка растет слишком быстро.
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Гадалка：\C[0]    Всё это звучит невероятно, но на самом деле всё это просто случайность.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]    Ссслучайййность? Тыыы называаешь этоо ССЛУЧААЙЙНОСТЬЮ?
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Гадалка：\C[0]    Это правда. Если бы я действительно хотела всё испортить специально, ты бы не успел отреагировать на всё это. Бедствия не ограничились бы только этим островом.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]    Хорошшшоо... Я вееерю тебеее...
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Я ценю это.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]    Нооо тыыы должна заплатииить и возместииить ущщщееерб зааа тооо, чтооо прроизошлооо. Следующщщаая сюжжжетная линияяя будееет полноостьююю напиисанааа и прроконтролированааа мноййй.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    *Вздох* Хорошо, я согласна.
+
+GodCTalk/begin2
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Гадалка：\C[0]    Как только я полностью верну свои силы, я обязательно прослежу за возвращением моих очаровательных детей и потомков.
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Тебе больше ни о чём не придётся беспокоиться.
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]    Хаа-ха-ха хаааааа...~
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Гадалка：\C[0]    Хммм?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]    ХААА-ХАА-ХАААААаа...!!!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Гадалка：\C[0]    Над чем ты смеёшься?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]    Девчонка надавала тебе и смогла убежать?
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Гадалка：\C[0]    И-и? Ну и что?
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]Неизвестный：\C[0]   Я буууду сссмеяться над этой исссторией ещщщё дооолго! Хахахааа....!
+
+GodCTalk/begin3
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prh\c[4]Гадалка：\C[0]    \..\..\..Тс! Придурок!
+
+unused/unused
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Головорез：\C[0]    Мне всегда немного жаль босса, когда мы это делаем.
+\SETpl[TellerNormal]\Lshake\prf\c[4]Аиша：\C[0]    Ты не скажешь, я не скажу. То, чего он не знает, не причинит ему вреда, верно?
+
+#######################################Teller TG
+
+GodCTalk2/begin0
+\CBmp[DedOne,20]\SETpl[TellerEyeClosed]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]   ЭТООО НЕ МОЙЙЙ СЦЕНАРРИИЙ! МЫЫ ДОГОВОРИИЛИСССЬ! ВССЁЁ ДОЛЖНОО СООТВЕТСССТВОВААТЬ ТОМУУ, ЧТОО ЯЯЯ НАПИСААЛ!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Аиша：\C[0]    Чёрт возьми! Ты действительно самый худший игрок, с которым мне когда-либо приходилось играть!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Аиша：\C[0]    Разве ты не помнишь, что произошло во время нашей последней игры, чтобы удовлетворить твоё глупое «великое приключение», и твоего отвратительно усиленного персонажа?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]    Правосссудиииее явилосссь и спасслоо миррр! Это БЫЛО грандиозззнооее пррриключениииее!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Аиша：\C[0]    Точно! Ты и твои тупые приспешники чуть не уничтожили всю вселенную и разрушили почти всё!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Морская Ведьма：\C[0]    Мммм.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]    Благодарряяя МОЕЙ удивииительной сссилее и могущщществуу весссь миррр продолжааает сстрремитьсяяя к Правосссудию и мируу!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Аиша：\C[0]    ИМЕННО! Я должна была исправить твою глупую, силовую фантастическую сюжетную линию и изменить её на нормальный, живой мир, чтобы ты мог наслаждаться!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Морская Ведьма：\C[0]    Хммм.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]    Неее-ЕЕЕЕЕТ! ЯЯЯ НЕЕЕ СОГЛАСЕЕЕН! ТЫЫ НЕЕ ДОЛЖЖЖНА ИЗЗЗМЕНЯЯТЬ МОЮЮ ЛИНИИИЮ И СССЮЖЕТ!
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]    В этоммм весссь смысссл моееейй исторриии! От началаа до развитиия, поворрротаа и концаа!
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Аиша：\C[0]    Твоя гнилая душа даже не поймёт, что такое перемены и развитие характера! Это просто очередная история «Мэри Сью»!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Морская Ведьма：\C[0]    Кхммм.....
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Аиша：\C[0]    Сюжет драмы мести не может быть написан подобным образом! Если его не исправить должным образом, твоя история определенно будет известна как худшая из когда-либо написанных!
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]    Невозможжноо! Неужеелии ты не видишшшь, что мирр вссё ещщё поклоняетссся Сссвятому?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]    Мир ЖАЖДЕТ великих приключений! Ведь сказки о Святом можно найти по всему миру!
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Аиша：\C[0]    Хмммф. Ты действительно сходил туда и спросил людей, что они чувствовали?
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]Правосудие：\C[0]    Правосссудииие НЕЛЬЗЗЯЯ ссставить под сомненииее!
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Морская Ведьма：\C[0]    Дайте взглянуть...
+
+GodCTalk2/begin1
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]Морская Ведьма：\C[0]    \..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]Морская Ведьма：\C[0]    Хммм\..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]Морская Ведьма：\C[0]    Мммм\..\..\.. Хррр\..\..\..
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\c[4]Морская Ведьма：\C[0]    Ч-Что за ЧЕРТОВЩИНУ я читаю?!
+
+#######################################Teller HEV
+
+TellerSakaGBoss/begin1
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]Головорез：\C[0]    Теперь я всегда буду чувствовать жалость к боссу.
+\SETpl[TellerNormal]\Lshake\prf\c[4]Аиша：\C[0]    Если мы оба будем молчать, никто не узнает, верно?
+
+TellerSakaGBoss/hCG01
+\c[4]Аиша：\C[0]    ОХ! ♥\n Твой член такоооой большой! ♥ Хи-хи~ ♥
+\c[4]Головорез：\C[0]    Конечно, большой.
+
+TellerSakaGBoss/hCG02
+\c[4]Аиша：\C[0]    Этот запах такоооой сильный, как давно ты принимал душ? ♥
+
+TellerSakaGBoss/hCG03
+\c[4]Аиша：\C[0]    Дай я почищу его своим ротиком... ♥
+
+TellerSakaGBoss/hCG04
+\c[4]Головорез：\C[0]    О даа! ♥
+
+TellerSakaGBoss/hCG05
+\c[4]Головорез：\C[0]    Ах... ♥
+
+TellerSakaGBoss/hCG06
+\c[4]Головорез：\C[0]    Продолжааай! Удивительно!
+
+TellerSakaGBoss/hCG07
+\c[4]Головорез：\C[0]    Слишком мощно... Такое чувство, будто его лижут несколько женщин одновременно!
+
+TellerSakaGBoss/hCG08
+\c[4]Головорез：\C[0]    Чёрт... Уууух, что ты творишь...
+
+TellerSakaGBoss/hCG09
+\c[4]Головорез：\C[0]    ОХХХ! Я не могу... Это слишком!
+
+TellerSakaGBoss/hCG10
+\c[4]Головорез：\C[0]    Я уже готов кончить, я кончаю!
+
+TellerSakaGBoss/hCG11
+\c[4]Головорез：\C[0]    Оооох!! Соси его!! Я сейчас обкончаюсь!!
+
+TellerSakaGBoss/hCG12
+\c[4]Головорез：\C[0]    ААААРРГХ!!!
+
+TellerSakaGBoss/hCG13
+\c[4]Головорез：\C[0]    Хнннгх...
+
+TellerSakaGBoss/hCG14
+\c[4]Головорез：\C[0]    Аххх...
+
+TellerSakaGBoss/hCG15
+\c[4]Головорез：\C[0]    Фууф\..\.. Фуфф\..\..\..
+
+TellerSakaGBoss/hCG16
+\c[4]Аиша：\C[0]    Хи-хи ♥ Ведёшь себя так грубо... Но кончаешь так быстро ♥
+
+TellerSakaGBoss/hCG17
+\c[4]Головорез：\C[0]    Нее, просто твоё горло слишком приятно ебать!
+
+TellerSakaGBoss/hCG18
+\c[4]Аиша：\C[0]    Хехе~ ♥ Постой-ка! Я ещё не пробовала твой член внутри...
+
+TellerSakaGBoss/hCG19
+\c[4]Головорез：\C[0]    Скоро это не будет проблемой!
+
+#######################################Teller HEV2
+
+GoldenBarHev/SadJew0
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]Аттендант：\C[0]    А вы, должно быть... Восточный Коммерсант?
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    ДА-да-да! Это я! Это я!
+\CBmp[SadJew,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    Я занимаюсь... моральной поддержкой и благотворительностью, нынешние времена требуют, чтобы мы все вместе работали на этом острове.
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Чтобы помочь Святому отбиться от захватчиков, инвестиро... пожертвовать небольшую сумму денег - это ничто.
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]Аттендант：\C[0]    Люди из ближневосточных стран верят в Святого? Разве не все вы поклоняетесь шлюхе как своему пророку? Почему мы вообще должны вести дела с теми, кто молится ложному богу?
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    О, НЕЕТ-нет-нет! Я-я уверовал! Я верю в Святого, так же как и вы!
+\CBmp[SadJew,3]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    \cg[event_Coins]\SND[SE/Chain_move01.ogg] Этой суммы должно быть достаточно, чтобы вы передумали. Я прика-... смиренно прошу вас разрешить мне аудиенцию с \c[6]Лордом Мило\C[0], пожалуйста.
+\cgoff\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Аттендант：\C[0]    Это всё?! Вы смотрите на меня свысока?
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Аттендант：\C[0]    Слушайте внимательно, я не буду повторять, Сэр. Лорд Мило - очень занятой человек, к нему не допускают никого, кроме тех, кто получил приглашение.
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    Я предлагаю вам такую большую сумму, если вы дадите мне шанс, чтобы-...
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Аттендант：\C[0]    -Чёрт возьми, СКОЛЬКО МНЕ ПОВТОРЯТЬ!!!
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]Аттендант：\C[0]    У Лорда Мило нет времени ни на кого, особенно на таких \c[6]грязных пустынных обезьян\C[0], как вы! Уходите, СЕЙЧАС ЖЕ!
+\CBmp[SadJew,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    В-Всё хорошо, всё нормально... Я могу подождать! Я буду терпеливо ждать прямо здесь, пока у Мило не найдется врем-!
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]Аттендант：\C[0]    -ПРОЧЬ!
+
+GoldenBarHev/SadJewMsg0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Кто-нибудь видел мою жену?
+
+GoldenBarHev/SadJewMsg1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Она сказала, что поможет мне вести дела. Моя милая, любящая домохозяйка точно бы справилась!
+
+GoldenBarHev/SadJewMsg2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    *Вздох*... Ой вэй, как давно я не чувствовал её любви... И почему я всегда так занят?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Но я уверен, что она простит меня, как всегда.
+
+GoldenBarHev/begin1
+\SndLib[sound_MaleWarriorDed]\c[4]Кумер A：\C[0]    УУУУХХХ! АХХХ! УННГГГГГГХХХХХ!!!!
+\SndLib[sound_MaleWarriorDed]\c[4]Кумер B：\C[0]    Я так скучал по тугой пиздёнке Аиши.
+\SndLib[sound_MaleWarriorDed]\c[4]Кумер C：\C[0]    Я слышала, что ты недавно женился, я так переживала, что больше тебя не увижу.
+
+GoldenBarHev/HevItSelf01
+\c[4]Аиша：\C[0]    Глупые мальчики!~ *Хммф*... Как я могла даже подумать о том, чтобы оставить кого-то из вас?
+
+GoldenBarHev/HevItSelf02
+\c[4]Кумер D：\C[0]    Почему до сих пор не наступила моя очередь?! Я хочу играть с Мамочкой!
+
+GoldenBarHev/HevItSelf03
+\c[4]Кумер E：\C[0]    Тело Аиши так благоухает! ♥ Я тоже хочу её трахнуть! ♥
+
+GoldenBarHev/HevItSelf04
+\c[4]Аиша：\C[0]    Пожалуйста, не волнуйтесь, здесь все хорошие мальчики! И все хорошие мальчики получат...~ ♥
+
+GoldenBarHev/HevItSelf05
+\c[4]Кумер C：\C[0]    Я б-больше не могу! Чувство, будто пизда Аиши обхватила мой член сотней язычков и лижет его!
+
+GoldenBarHev/HevItSelf06
+\SndLib[sound_MaleWarriorDed]\c[4]Кумер C：\C[0]    Я СЕЙЧАС К-КОНЧУУУ!!!
+
+GoldenBarHev/HevItSelf07
+\c[4]Аиша：\C[0]    Кончай! ♥ Давайте кончим все вместе!~ ♥ Дайте мне проглотить всю вашу сперму!~ ♥
+
+GoldenBarHev/HevItSelf08
+\SndLib[sound_MaleWarriorDed]\c[4]Кумер A：\C[0]    \{УУУХХХХАХХХХХХ!!!
+
+GoldenBarHev/HevItSelf09
+\SndLib[sound_MaleWarriorDed]\c[4]Кумер B：\C[0]    \{АААХХХХХ!!!
+
+GoldenBarHev/HevItSelf10
+\SndLib[sound_MaleWarriorDed]\c[4]Кумер C：\C[0]    \{ХМММГФХХХ!!!
+
+GoldenBarHev/HevItSelf11
+\c[4]Аиша：\C[0]    Ох... Вы были просто великолепны.~
+
+GoldenBarHev/End
+\c[4]Кумер：\C[0]    Проклятье...! ХВАТИТ СТУЧАТЬ В ДВЕРЬ! ЗДЕСЬ ЗАНЯТО!
+\m[flirty]\c[6]Лона：\C[0]    Ух.... Извините...
+
+####################################################################### DFCultistquestline
+
+Df_TellerSide/NoneElseNotDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]Гадалка：\C[0]    Давай, у тебя получится.
+
+Df_TellerSide/NoneElseDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]Гадалка：\C[0]    Иди, мы ещё встретимся в будущем.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эммм.... Хорошо?
+
+Df_TellerSide/0to1_1
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\c[4]Гадалка：\C[0]    Лона, наконец-то ты появилась. Я ждала тебя очень долго.
+
+Df_TellerSide/0to1_2_know
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Гадалка из Восточной Коммерции? Что вы здесь делаете?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Гадалка：\C[0]    ТЁТУШКА\..\..\..?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э... Мисс Гадалка?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Уф... Забудь.
+
+Df_TellerSide/0to1_2_Unknow
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э... Мы знакомы? Кто вы?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Я та, кто знает о тебе всё до мельчайших подробностей.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    И я буду той, кто направит твою душу к её судьбе.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эм... Правда?
+
+Df_TellerSide/0to1_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Так почему вы хотели видеть меня?
+
+Df_TellerSide/1to2_0_0
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Ты убьешь кое-кого для меня...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Я-Я? УБИТЬ КОГО-ТО?!
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Да, именно так. Убить кое-кого.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    П-Почему я? Зачем мне делать это для тебя?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Потому что тебе нужны деньги.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Ты хочешь покинуть этот страшный остров, и тебе нужны деньги для побега...
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Деньги.....
+
+Df_TellerSide/1to2_0_1
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кто он? Почему ты хочешь убить его?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Они - злобные лжецы.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Они поклоняются тёмной и древней богине, которой не следует поклоняться в неподходящем месте и в неподходящее время.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эмм... О чём ты говоришь? Я не понимаю...
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Они были жертвами Чёрного Тумана, как и ты.
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Но вместо страха они прославляют Чёрный Туман...
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Культ \c[6]Матери Плодородия\C[0] - это те, кто поклоняется Чёрному Туману, убившему твою семью и друзей.
+
+Df_TellerSide/1to2_1
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Я......
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Ты должна убить их шамана. Он будет носить свиную голову и зовёт себя... *Вздох* \c[4]Свиноголовым\C[0].
+\plf\..\..\..
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Гадалка：\C[0]    Тс\..\..\.. Это так раздражает! С меня хватит! Кучка тупых обезьян!
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Гадалка：\C[0]    Какая всезнающая и могущественная богиня захочет, чтобы её представлял и поклонялся ей тот, кто называет себя «Свиноголовым»?
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]Гадалка：\C[0]    Поклонение такому ничтожеству может принести богине только позор, не так ли?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    .....
+
+Df_TellerSide/1to2_1_BRD
+\board[Устранение Лжецов]
+Задача：Убить \c[4]Свиноголового：\C[0]
+Награда：Золотая Монета х1\i[581]
+Клиент：Гадалка
+Повторяемость：Одноразовое
+Отправляйтесь в Водную Пещеру и убейте шамана Матери Плодородия, \c[4]Свиноголового\C[0].
+
+Df_TellerSide/1to2_2_Yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Хорошо, я сделаю это.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Но какое отношение этот культ имеет к вам?
+\CBid[-1,8]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Гадалка：\C[0]    Это неважно, в конце концов, все мы люди.
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]Гадалка：\C[0]    Люди - те, кто желает поскорее разрешить эту катастрофу.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Мммм... Ладно. Если вы не хотите рассказать мне причину, ничего страшного.
+
+Df_TellerSide/1to2_2_No
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Забудьте об этом, вы просите не того, кого нужно.
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Всё хорошо, рано или поздно ты вернёшься ко мне.
+
+Df_TellerSide/PriestDead
+\CBid[-1,0]\c[4]Свиноголовый：\C[0]    НЕТ! М-Мать Плодородия! Ты не должна была... оставить... меня...!
+
+Df_TellerSide/3to4_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Хммм.... Похоже, Свиноголовый мёртв?
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]Гадалка：\C[0]    Просто замечательно. Ты в точности повторяешь то, что было предсказано.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Предсказано...? В точности?
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Ничего страшного. Я же сказала, что ты сможешь это сделать, разве нет?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]   Оу? Я должна радоваться этому?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Почему бы и нет, ты должна быть рада.
+\CBid[-1,20]\CBmp[0]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Держи, я уверена, что они пригодятся тебе в будущем.
+
+Df_TellerSide/3to4_1
+\CBct[3]\m[triumph]\plf\PRF\c[6]Лона：\C[0]    Спасибо!!!
+
+############################################################################################## Rebirth to abom
+
+AbomRebirth/opt_rebirth
+Мой ребёнок
+
+AbomRebirth/beginIfAbom
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Моё дорогое дитя, что ты ищешь?
+
+AbomRebirth/ans_rebirth0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эммм... «Твоё» дитя?
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    Я знаю о тебе всё до мелочей...
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Гадалка：\C[0]    От физических болей и болезней до кошмаров, которые преследуют тебя каждый день.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Правда? Я болела всю свою жизнь.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Гадалка：\C[0]    Поскольку я твоя мать, я могу помочь тебе.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эээ... Как именно вы хотите помочь мне?
+
+AbomRebirth/ans_rebirth1
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Так... Что-то произошло?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Я пробудила великий потенциал, который дремлет в тебе.
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Гадалка：\C[0]    Эти новые способности обязательно помогут тебе в твоих приключениях.
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Гадалка：\C[0]    Ступай, моё драгоценное дитя.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эммм... Спасибо?
+
+############################################################################################## DancerSet
+
+HappyTrader/DancerSet0_waifuIsntThere
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\c[4]Торговец：\C[0]    Ой вэй! Куда подевалась моя жена?!
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\c[4]Торговец：\C[0]    Оххх... Разве она не была здесь всего пару минут назад?
+
+HappyTrader/DancerSet0
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Хммм...
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    О! Простите, юная леди... Как я могу вас заскам- *Кхм* обслужить?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я нашла эту посылку, путешествуя по окрестностям. Похоже, она принадлежит вам?
+
+HappyTrader/DancerSet1
+\CBid[-1,8]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    !\.!\.!\.!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Прекрасно! Это действительно та пропавшая посылка. Этим гнилым ворам хватило смелости украсть мой товар!
+
+HappyTrader/DancerSet2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Ах! Моя дорогая любовь, эти наряды по-настоящему красивы не правда ли?
+
+HappyTrader/DancerSet3
+\CBmp[teller,3]\SETpr[TellerNormal]\plf\Rshake\c[4]Гадалка：\C[0]    Ох-хо\..\..\.. Это подарок мне?
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    \..\..\..Подарок?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    ДААА, О ДА, ДА!! Все эти подарки для тебя, они прекрасны, не так ли? Тебе нравится?
+\CBmp[teller,5]\SETpr[TellerConfused]\plf\Rshake\c[4]Гадалка：\C[0]    ...Ты даришь мне несколько одинаковых наборов «подарков»?
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    Да! И-Именно! Подарков!
+\CBmp[teller,8]\SETpr[TellerAngry]\plf\Rshake\c[4]Гадалка：\C[0]    .....
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    .....
+
+HappyTrader/DancerSet4
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\c[4]Торговец：\C[0]    Ой вэй....
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Кхм...
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    Ах! Пожалуйста, извините меня, юная леди!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Это прекрасное платье, привезенное из моей страны в Сибарис. К сожалению, во время перевозки там произошел какой-то бунт.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Теперь дворянам Поместья Росендо эта одежда ни к чему. Какая трата...
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Вот как?
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    \..\..\..
+\CBid[-1,9]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    !!!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    В знак благодарности я готов продать вам этот наряд со скидкой!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Что скажете? Не хотите взглянуть?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Хммм... Я подумаю.

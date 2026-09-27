@@ -1,0 +1,90 @@
+NoerBank/OvermapEnter
+\m[confused]Tripartite Stock Exchange (Bank) \optB[Leave,Enter]
+
+NoerBank/OvermapEnter_Slave
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guard：\c[0]    Where did this slave come from?! Go away! Scram!
+\m[sad]\PLF\c[6]Lona：\c[0]    ......
+
+NoerBank/OvermapEnterClosed
+\m[confused]\c[6]Lona：\c[0]    It looks like they're closed.
+
+################################################################################
+
+Maani/begin1_unknow
+\SETpl[MaaniNormal]\c[4]Bank Clerk：\c[0]    Welcome to the Tripartite Stock Exchange, Noer's branch. How may I be of service?
+
+Maani/begin1_talked
+\SETpl[MaaniNormal]\c[4]Maani：\c[0]    Hello, we meet again.
+
+Maani/begin2_about
+\SETpl[MaaniNormal]\m[confused]\plf\c[6]Lona：\c[0]    A branding on the face... Are you... a slave?
+\PLF\prf\CamMP[Maani]\c[4]Maani：\c[0]    Yes.
+\m[wtf]\CamCT\plf\c[6]Lona：\c[0]    Are slaves allowed to do this kind of work?
+\CamMP[Maani]\PLF\prf\c[4]Maani：\c[0]    I am working here at my owner's request. I'm just following orders.
+\CamMP[Maani]\c[4]Maani：\c[0]    Excuse me. If you don't intend on making a transaction of some sort, there are others behind you who require my services.
+\m[flirty]\CamCT\plf\PRF\c[6]Lona：\c[0]    Oh, I'm sorry.
+\m[confused]The name tag on her uniform says Maani.
+\m[confused]A slave with a name? That's amazing.
+
+################################################################################
+
+NapBank/talk0
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]Guard：\c[0]    Hey! What do you think you're doing?! \{GET OUT!
+
+NapBank/talk1
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]Guard：\c[0]    Shoo, shoo! Beggars are not welcomed and should stay in the streets!
+
+NapBank/talk2
+\SETpl[Mreg_pikeman]\m[shocked]\c[4]Guard：\c[0]    Scram! The Tripartite Stock Exchange is not your home!
+
+NapBank/talk_end
+\ph\narr Lona was kicked out.
+
+################################################################################
+
+gentleman/talk1
+\ph\CamMP[GentlemanA]\c[4]Merchant：\c[0]    What do you think about the recent monster invasion?
+\CamMP[GentlemanB]\c[4]Trader：\c[0]    My Sybaris assets are all gone now, but otherwise...
+\CamMP[GentlemanB]\c[4]Trader：\c[0]    \BonMP[GentlemanB,3]Huge earnings!
+\CamMP[GentlemanA]\c[4]Merchant：\c[0]    \BonMP[GentlemanA,4]Huge earnings!
+\CamMP[GentlemanB]\c[4]Trader：\c[0]    Gotta love the war.
+\CamMP[GentlemanA]\c[4]Merchant：\c[0]    And respect chaos!
+\CamCT\m[confused]Father was also a businessman...
+\m[serious]\Bon[15]But! Father wasn't as shameless as these people.
+
+GentlemanB/popup0
+I should buy some more assets.
+
+GentlemanB/popup1
+Prices can only up. It must!
+
+################################################################################
+
+emplyee1/begin
+\CBid[-1,20]\c[4]Bank Clerk：\c[0]    Are you from Sybaris? Please visit the counter second to the far left.
+
+emplyee2/begin
+\CBid[-1,20]\c[4]Rude Bank Clerk：\c[0]    No! Not here! Go to the counter on the left!
+
+emplyee_busy/begin
+\CBid[-1,20]\c[4]Bank Clerk：\c[0]    There was a coin shortage, and withdrawals were also suspended. The results ended up causing a riot.
+
+guards/begin
+\CBid[-1,20]\c[4]Guard：\c[0]    I'm watching you!
+\CBct[6]\m[flirty]\c[6]Lona：\c[0]    Ah... Hehe...
+
+female/Qmsg0
+I heard the Tripartite is going bankrupt!
+
+female/Qmsg1
+I must withdraw all my money soon!
+
+#####################################################################
+
+AllBuyArt/talk0
+\cg[other_AllBuy]Title： All buy!
+A mysterious artwork painted from the East. So far, no one from the West can understand the meaning of this painting.
+\m[serious]Ummm...?
+\m[confused]I don't get it...
+
+#Translation by a MTL monkey. Edited by Joko Komodo. Full clean-up by Sugoi Soy Boy. Fuck off MTLing monkeys.

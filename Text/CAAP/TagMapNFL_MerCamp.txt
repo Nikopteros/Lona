@@ -1,0 +1,164 @@
+NFL_MerCamp/OvermapEnter
+\cg[event_DarkPot]\m[confused]Campamento de mercenarios \optB[Cancelar,Entrar]
+
+##################################################################
+
+NorthFL_AtkOrkCamp/0_1
+\SETpl[AnonMale1]\Lshake\c[4]Mercenario：\C[0]    ¡Hay un demonio aquí! ¡Uno de piel verde!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Piel verde? ¿Orcoides? ¡¿Dónde?!
+
+NorthFL_AtkOrkCamp/0_2
+\BonMP[YellingSub,20]\SETpl[AnonMale1]\Lshake\c[4]Mercenario：\C[0]    ¡Te mataré!
+\CBct[2]\m[terror]\plh\Rshake\c[6]Lona：\C[0]    ¡¿Qué?! ¡¿A mí?!
+
+NorthFL_AtkOrkCamp/0_3
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]Capitán de los Mercenarios：\C[0]    ¡¡Basta!!
+
+NorthFL_AtkOrkCamp/0_4
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]Capitán de los Mercenarios：\C[0]    ¡Abre los ojos, imbécil! ¡Es una humana, una simple humana!
+
+NorthFL_AtkOrkCamp/0_5
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    ¡¿Qué esperas?! ¡Entra rápido!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Voy!
+
+Leader/RecQuestNorthFL_AtkOrkCamp2_1
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    No esperaba encontrar a nadie con vida de los que lograron escapar de la ciudad.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿De la ciudad? ¿Te refieres a \c[4]Síbaris：\C[0]?
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Eh... sí, escapé de Síbaris hace unos meses.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    ...\..\..\..\Lshake¿Y qué haces aquí? ¡Esto es un infierno, una zona de guerra!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emmm... Solo estaba pasando por aquí.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    ...\..\..\..¿Pasando por aquí?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Yo... solo quiero volver a casa.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    .....
+
+Leader/OPT_About0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Entonces... ¿Qué es este lugar? ¿Qué hacen aquí?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Intentamos ayudar a los supervivientes que escaparon de la ciudad...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Ayudar? ¿No son mercenarios?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Sí, antes de todo esto, dirigía un pequeño hotel en el distrito del Puerto Oeste de la ciudad. Tenía familia e hijos.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Formamos este grupo de mercenarios para encontrar a nuestras familias, pero ahora incluso nosotros tenemos problemas.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    No hemos logrado salvar a nadie, y hemos perdido a varios de los nuestros.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Uno de ellos era mi mejor amigo. Debo recuperarlo, aunque ya no esté vivo.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    .......
+
+Leader/OPT_Mail0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Ejem... Tengo una carta para ustedes de la Fortaleza Costera.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Una carta? ¿Para nosotros?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    ¿Una carta?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¡Exacto! Del comandante de la Fortaleza Costera.
+
+Leader/OPT_Mail1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán de los Mercenarios：\C[0]    ¿Hmm?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Mmm?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    ¿Qué quiso decir con "sal"?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Bueno... Dijo algo sobre salvar el mundo, además de la sal...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    No lo entiendo del todo, pero parece algo muy serio.
+\CBid[-1,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    ¿Hice tanto, maté a tantos hermanos por esa maldita sal?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Emmm... ¿Estás bien?
+
+Leader/OPT_Work0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Hmm\..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Uno de mis hombres desapareció mientras exploraba el campamento de los pieles verdes al este.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Debemos rescatarlo, y estoy seguro de que tú podrías ayudarnos.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emmm... Yo...
+
+Leader/OPT_Work1_board
+\board[Rescatar al combatiente]
+Misión：Rescatar al compañero del Capitán de los Mercenarios
+Recompensa：Gran Medallón de Cobre x1\i[582]
+Cliente：Capitán de los Mercenarios
+Repetible：No
+Dirígete al campamento de orcos al este de la Fortaleza Costera y rescata al compañero del Capitán.
+
+Leader/OPT_Work2_accept
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Vale, no debería haber problema con esto.
+
+Leader/OPT_Work2_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Lo siento... Tengo otros asuntos que atender...
+
+Leader/OPT_Work2_accept1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    Bien, nos vemos allí.
+
+Invade/NFL_MerCamp_Invade_3
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán de los Mercenarios：\C[0]    Buen trabajo. Ni siquiera puedo creer que hayas sobrevivido.
+
+Leader/else
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán de los Mercenarios：\C[0]    ....
+
+OrcSlaveMaster/begin
+\CBmp[OrcSlaveMaster,20]\SndLib[sound_OrcSkill]\SETpl[OrcSlaveMaster_mask]\Lshake\c[4]Orcoide：\C[0]    ¡¡Maldita sea!!
+
+################################################################## Commoner
+
+commoner/BeginRNG0
+\CBid[-1,20]\c[4]Mercenario：\C[0]    ¿Eres una superviviente de la ciudad?
+
+commoner/BeginRNG1
+\CBid[-1,20]\c[4]Mercenario：\C[0]    ¡¿Queda alguien vivo en la ciudad?!
+
+commoner/BeginRNG2
+\CBid[-1,20]\c[4]Mercenario：\C[0]    ¿Quizás mi familia aún siga con vida?
+
+commoner/WhoreWork_failed0
+\CBid[-1,5]\c[4]Mercenario：\C[0]    ¡No tengo tiempo para esto!
+
+commoner/WhoreWork_failed1
+\CBid[-1,5]\c[4]Mercenario：\C[0]    ¡Estás a punto de morir y aún te dedicas a esto?
+
+commoner/WhoreWork_failed2
+\CBid[-1,5]\c[4]Mercenario：\C[0]    Primero sobrevivamos.
+
+################################################################## #NFL_MerCamp_Invade
+
+Invade/0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Hmm?
+
+Invade/1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Capitán de los Mercenarios：\C[0]    ¡Vienen! ¡Del este!
+
+Invade/2_typical
+\CBct[2]\m[flirty]\plf\Rshake\c[6]Lona：\C[0]    ¿Vienen? ¿Quiénes vienen?
+
+Invade/2_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¿Vienen? ¿Orcoides?
+
+Invade/2_gloomy
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\C[0]    ¿Qué está pasando? ¡¿Demonios?!
+
+Invade/2_slut
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Vienen? ¿Dijiste que vienen?
+
+Invade/3_wave2
+¡Otra vez! ¡Del este!
+
+Invade/3_wave3
+¡Más! ¡Esta vez son más grandes!
+
+Invade/3_waveEND
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán de los Mercenarios：\C[0]    Parece que todo terminó. ¿Sigues con vida?
+
+Invade/4_BossDefeat0
+\BonID[-1,8]\m[confused]\PRF\c[6]Lona：\C[0]    \..\..\..\Rshake\m[flirty]No sé por qué, pero me parece que se ve lindo.
+
+Invade/4_BossDefeat1
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Capitán de los Mercenarios：\C[0]    ¡Lo logramos! ¡Está acabado!
+
+Leader/BattleQmsg0
+¡A las posiciones de combate!
+
+Leader/BattleQmsg1
+¡Se acercan!
+
+Commoner/BattleQmsg0
+¡Otra vez los pieles verdes!
+
+Commoner/BattleQmsg1
+¡Estamos rodeados!
+
+Commoner/Qmsg_lose0
+¡Huid!
+
+Commoner/Qmsg_lose1
+¡No quiero morir!

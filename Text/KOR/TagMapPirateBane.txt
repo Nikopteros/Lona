@@ -1,0 +1,170 @@
+####################################--------------------- overmap  Pirate's Bane
+
+ThisMap/OvermapEnter
+\m[confused]해적 파괴자의 요새
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]경비병：\c[0] 멈춰라! 너 누구냐!\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>]
+
+################################################### OUT
+
+board/Begin1
+\board[경고]
+모든 범죄자는 노예가 된다.
+규칙을 준수하고, 문제를 일으키지 마라.
+절도 : 16
+상해 : 32
+강도 : 64
+
+board/Begin2
+\board[매입]
+모든 범죄자는 노예다.
+체포한 범죄자를 인근 수비대에 넘겨라.
+3일치 식량 배급을 받을 수 있다.
+
+################################################### INN
+
+InnKeeper/Begin
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 처음 보는 얼굴인데? 뭘 필요로 하지?
+
+InnKeeper/About_here
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 이 요새는 원래 해적들을 막기 위해 세워졌지. 하지만 세월이 지나면서 해적들도 여기서 활동할 생각을 안 하더군.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 그렇게 오랫동안 버려져 있다가, 이번에 시바리스에서 마물이 날뛴 뒤에야 다시 쓰이게 됐어.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 루드신드 상회가 재난이 터지자마자 이곳을 정비했고, 루드신드 가문의 보호 아래 여기가 몇 안 되는 안전 지대가 된 거야.
+
+InnKeeper/About_work
+\CamCT\Bon[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 제가 할 수 있는 일 같은 거 없나요?
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 일? 너 같은 애가?
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 밖에 있는 거지들 봤어? 지금은 빵 반쪽이면 하루 종일 부려먹을 수 있지.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]점장：\c[0] 일거리 같은 건 네 차례가 아니야. 용병 길드에나 가서 물어봐.
+\CamCT\Bon[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 죄송해요...
+
+thinking/talk0
+\cg[other_ArtThinking]：thinking：
+\m[serious]흠....
+\m[confused]모르겠어.
+
+################################################### Nap
+
+Guard/NapSlave
+\SETpl[Mreg_guardsman]\Lshake\c[4]경비병：\c[0] 야! 이쪽이야!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]경비병：\c[0] 뭐야?! 무슨 일이야?!
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]경비병：\c[0] 이 자식, 몸에 노예 문신이 있다!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]경비병：\c[0] 도망친 노예인가?!
+\m[tired]\plf\PRF\c[6]로나：\c[0] 으... 뭐야, 무슨 일이야...?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]경비병：\c[0] 자, 이제 집에 갈 시간이야.
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에에?! 
+
+Guard/NapLowMora
+\SETpl[Mreg_guardsman]\Lshake\c[4]경비병：\c[0] 야! 이쪽이야!
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]인신매매범：\c[0] 뭐야?! 무슨 일이야?!
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]경비병：\c[0] 이 계집애가 말썽을 부리고 있군. 네가 처리해라.
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]인신매매범：\c[0] 고맙지 뭐야!
+\m[tired]\plf\PRF\c[6]로나：\c[0] 으... 뭐야, 무슨 일이야...?
+\SETpl[MobHumanCommoner]\prf\Lshake\c[4]인신매매범：\c[0] 자, 이제 집에 갈 시간이야.
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에에?!
+
+###################################################### QUEEST BOARD
+QuestBoard/PB_OrkDen4_list
+오크의 소굴
+
+QuestBoard/PB_OrkDen4
+\board[오크의 소굴]
+목표 : 북쪽의 오크의 소굴로 가서 오크 주술사를 죽이고 그의 머리를 가져와라.
+보상 : 큰 동전 3개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 1회
+여기까지 녹색 피부 놈들이 나타나다니?
+우린 이미 골칫거리가 충분하다. 놈들이 불어나기 전에 반드시 없애야 한다.
+확실한 건 놈들에게 지도자가 있다는 것이다. 찾아내라! 죽여라!
+우리는 \C[4]전문\C[0] 용병이 정리 작업을 맡기를 권장한다.
+
+QuestBoard/PB_MassGrave_list
+공동묘지의 사악함
+
+QuestBoard/PB_MassGrave
+\board[공동묘지의 사악함]
+목표 : 공동묘지의 사악한 존재를 제거하라
+보상 : 큰 동전 2개
+의뢰인 : 성도회 수도원
+수행가능횟수 : 1회
+공동묘지에 밤마다 사악한 존재가 나타난다!
+이럴 때는 아무도 묘지에 접근하지 않는다!
+오직 언데드이거나, 악행을 꾸미는 거짓된 자들뿐이다!
+찾아내라! 몰아내라! 소멸시켜라!
+
+QuestBoard/PB_DeeponeEyes_list
+놈들의 눈을 도려내라
+
+QuestBoard/PB_DeeponeEyes
+\board[놈들의 눈을 도려내라]
+목표 : 어인의 눈 8쌍을 모아라
+보상 : 큰 동전 1개, 작은 동전 5개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 무제한
+이 땅은 계속해서 어인의 침입을 받고 있다. 하지만 놈들은 반드시 대가를 치를 것이다!
+창자를 갈라내고, 눈을 도려내라! 끝날 때까지 멈추지 마라!
+
+QuestBoard/PB_NorthCP_list
+북쪽 초소의 소식
+
+QuestBoard/PB_NorthCP
+\board[북쪽 초소의 정찰]
+목표 : 북쪽 초소를 조사하라
+보상 : 큰 동전 1개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 1회
+북쪽 초소에서 며칠째 보고가 끊겼다.  
+우리는 용병 한 명이 북쪽 초소의 현 상황을 확인해주길 원한다.
+
+QuestBoard/decide
+\m[confused]이 임무를 수락하시겠습니까？\optB[그만둔다,쪽지를 뜯어낸다]
+
+MercenaryGuild/PB_MassGrave_done
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]직원：\c[0] 그래서? 뭐 하러 돌아온 거지?
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 그게... 사악한 존재는 아마 떠난 것 같아요?
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]직원：\c[0] 아마?
+\CBct[20]\m[triumph]\PRF\c[6]로나：\c[0] 확실해요!
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]직원：\c[0] 보아하니 정말 그런 것 같군.
+
+MercenaryGuild/Report_DeeponeEyes_win1
+\CBct[20]\m[fear]\PRF\c[6]로나：\c[0] 이게... 길드에서 원한 눈이에요.... 으으... 역겨워....
+
+MercenaryGuild/Report_DeeponeEyes_win2
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]직원：\c[0] 잘했군!
+
+MercenaryGuild/Report_NorthCP_win1
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 으... 북쪽 초소 말인데...
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 보니까 전부 죽어 있더라고요... 아마 오크의 짓인 것 같아요?
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]직원：\c[0] 하아... 상황이 점점 심각해지는군. 그들을 추모하자.
+
+MercenaryGuild/PB_OrkDen4_win1
+\CBct[20]\m[fear]\PRF\c[6]로나：\c[0] 으... 이게 오크 두목의 머리예요...
+
+MercenaryGuild/PB_OrkDen4_win2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]직원：\c[0] 대단한데, 네가 정말 해냈구나!
+
+###################################################### ChickenSanders
+
+Sanders/MyCock0
+\CBmp[Sanders,6]\m[confused]\prf\c[4]샌더스：\c[0] 닭! 내 작은 자지가!
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 에?! 닭이라고?
+\CBmp[Sanders,20]\prf\c[4]샌더스：\c[0] 살려줘! 내 자지들이 전부 달아났어!
+
+Sanders/MyCock1
+\board[작은 자지 잡기]
+목표 : 샌더스의 작은 자지들을 구출하라
+보상 : 작은 동전 2개
+세 마리의 작은 자지들을 우리 안으로 몰아넣어라.  
+시간 내에 완료하면 보상이 두 배다.  
+자지를 건드리면 놈들을 쫓을 수 있다.
+
+Sanders/MyCock2
+\m[confused]\ph\c[4]샌더스：\c[0] 어서 내 작은 자지들을 찾아와라! 우리 안으로 몰아넣어!
+\m[confused]\PRF\c[6]로나：\c[0] 뭐야, 이 정도면 별로 어렵지 않겠는데?
+
+Sanders/MyCock_working
+\m[confused]\prf\c[4]샌더스：\c[0] 저기 있다! 빨리 잡아라!
+
+Sanders/MyCock_done
+\CBmp[Sanders,20]\m[confused]\prf\c[4]샌더스：\c[0] 오, 용사여...
+\CBmp[Sanders,20]\m[confused]\prf\c[4]샌더스：\c[0] 세상을 구해줘서 감사하네. 우리는 영원히 그대를 기억하리라.
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 그 정도까지는 아니잖아요?

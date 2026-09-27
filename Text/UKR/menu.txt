@@ -1,0 +1,900 @@
+##################################	TITLE	#############################
+##################################	TITLE	#############################
+##################################	TITLE	#############################
+
+title/NEW_GAME
+Нова гра
+
+title/CONTINUE
+Продовжити
+
+title/CREDITS
+Титри
+
+title/EXIT_GAME
+Вийти
+
+title/OPTIONS
+Параметри
+
+title/ACH
+Досягнення
+
+title/GamepadMode
+Режим геймпада
+
+title/SupportMe
+Підтримайте мене
+
+##################################	Input	#############################
+
+Input/Space
+Пробіл
+
+##################################	SHOP	#############################
+
+Shop/ConfirmWarning
+Підтвердити угоду?
+
+Shop/Return
+Назад
+
+Shop/Buy
+Купити
+
+Shop/Sell
+Продати
+
+Shop/Cancel
+Скасувати
+
+Shop/WtLimit
+Вантажність
+
+Shop/TPleft
+Торговий рахунок
+
+Shop/Item
+Предмет
+
+Shop/ArmEquip
+Спорядження осн. руки
+
+Shop/Equip
+Інше спорядження
+
+Box/Body
+Лона
+
+Box/Target
+Об’єкт
+
+##################################	`	#############################
+
+GameOver/Press
+Натисніть
+
+GameOver/Continue_bad
+щоб визнати поразку.
+
+GameOver/Continue_good
+Лона дякує за ваше керівництво.
+
+##################################	CORE	#############################
+##################################	CORE	#############################
+##################################	CORE	#############################
+
+core/main_stats
+Основне
+
+core/body_stats
+Здоров’я
+
+core/sex_stats
+Статеве
+
+core/equips
+Спорядження
+
+core/items
+Предмети
+
+core/skills
+Навички
+
+core/traits
+Риси
+
+core/letter
+Інформація
+
+core/system
+Система
+
+##################################	CORE STATS	#############################
+##################################	CORE STATS	#############################
+##################################	CORE STATS	#############################
+##################################	CORE STATS	#############################
+
+core_stats/hp
+Здоров’я
+
+core_stats/ca
+Вантаж
+
+core_stats/sta
+Сили
+
+core_stats/sat
+Ситість
+
+core_stats/next_lv
+Досвід
+
+core_stats/TimeLeft
+Час
+
+##################################	main	#############################
+##################################	main	#############################
+##################################	main	#############################
+##################################	main	#############################
+
+main_stats/name
+Лона
+
+main_stats/race
+Раса
+
+main_stats/race_Human
+Людина
+
+main_stats/race_Deepone
+Людина
+
+main_stats/race_Moot
+Бруднокровка
+
+main_stats/race_SeaWitch
+Морська відьма
+
+#######################################################
+
+main_stats/persona
+Особистість
+
+main_stats/persona_typical
+Нормальна
+
+main_stats/persona_gloomy
+Слабка
+
+main_stats/persona_tsundere
+Сильна
+
+main_stats/persona_slut
+Розпусна
+
+#######################################################
+
+main_stats/title
+Назва
+
+main_stats/level
+Рівень
+
+main_stats/exp_need
+Досвід
+
+main_stats/atk
+Атака
+
+main_stats/def
+Захист
+
+main_stats/mor
+Слава
+
+main_stats/move_speed
+Швидкість
+
+main_stats/mood
+Настрій
+
+main_stats/dirt
+Забрудненість
+
+main_stats/arousal
+Збудженість
+
+main_stats/micturition_need
+Потреба помочитися
+
+main_stats/breast_swelling
+Грудне молоко
+
+main_stats/stomach_upset
+Розлад шлунка
+
+main_stats/defecation_need
+Потреба випорожнитися
+
+main_stats/date
+Дата
+
+main_stats/date_day
+День
+
+main_stats/date_night
+Ніч
+
+main_stats/carrying_capacity
+Вантажність
+
+main_stats/trade_point
+Торговий рахунок
+
+main_stats/morality
+Слава
+
+main_stats/sexy
+Сексуальність
+
+main_stats/weak
+Кволість
+
+main_stats/baby_health
+Здоров’я немовля
+
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+##################################	BODY STATS	#############################
+
+body_stats/common_healthy
+Здорова
+
+body_stats/common_wound
+Травмована
+
+body_stats/common_semen
+Капає сперма
+
+body_stats/common_piercing
+Пірсинг
+
+body_stats/common_VaginalDamaged
+Травма піхви
+
+body_stats/common_UrethralDamaged
+Травма уретри
+
+body_stats/common_SphincterDamaged
+Травма ануса
+
+body_stats/common_distention
+Здуття живота
+
+body_stats/part_total_amount
+Загальна кількість
+
+##################################	SEX STATS	#############################
+##################################	SEX STATS	#############################
+##################################	SEX STATS	#############################
+##################################	SEX STATS	#############################
+#############################左部
+
+sex_stats/main_belly
+Живіт
+
+sex_stats/main_belly_normal
+НРМ
+
+sex_stats/main_belly_preg1
+НБР
+
+sex_stats/main_belly_preg2
+ЗДТ
+
+sex_stats/main_belly_preg3
+ПУЗ
+
+sex_stats/main_vag
+Піхва
+
+sex_stats/main_anal
+Анус
+
+sex_stats/main_hole_tight
+ЩІЛ
+
+sex_stats/main_hole_narrow
+ВУЗ
+
+sex_stats/main_hole_used
+УЖТ
+
+sex_stats/main_hole_gaping
+ШРК
+
+sex_stats/main_hole_ruined
+РЙН
+
+############################################## battle sex skill 右下部
+#hole skill 0~100  lv0 = 0~30,30~50,50~70,>70
+
+sex_stats/battle_stats_vag
+Піхва
+
+sex_stats/battle_stats_anal
+Анал
+
+sex_stats/battle_stats_mouth
+Мінет
+
+sex_stats/battle_stats_fapping
+Дрочіння
+
+sex_stats/battle_stats_inexperienced
+Погано
+
+sex_stats/battle_stats_exped
+Нормально
+
+sex_stats/battle_stats_skilled
+Відмінно
+
+sex_stats/battle_stats_master
+Могутньо
+
+################################################## RECORD 右上部
+
+sex_stats/record_giveup_hardcore
+Відмова боротися
+
+sex_stats/record_giveup_PeePoo
+Нетримання
+
+sex_stats/record_Rebirth
+Переродження
+
+sex_stats/record_first_mouth
+Перший орал
+
+sex_stats/record_first_vag
+Втрачено цноту
+
+sex_stats/record_first_anal
+Перший анал
+
+sex_stats/record_last_mouth
+Ост. орал. секс
+
+sex_stats/record_last_vag
+Ост. піхв. секс
+
+sex_stats/record_last_anal
+Ост. анал. секс
+
+sex_stats/record_current_married_partner
+У шлюбі з
+
+sex_stats/record_urinary_damage
+Травма уретри
+
+sex_stats/record_anal_damage
+Травма ануса
+
+sex_stats/record_whore_job
+Проституція
+
+sex_stats/record_kissed
+Поцілунки
+
+sex_stats/record_privates_seen
+Публічна оголеність
+
+sex_stats/record_groped
+Обмацана
+
+sex_stats/record_sexual_partners
+Усього партнерів
+
+sex_stats/record_semen_swallowed
+Ковтань сперми
+
+sex_stats/record_frottage
+Подрочено на
+
+sex_stats/record_biggest_gangbang
+Груповий секс
+
+sex_stats/record_seen_peeing
+Публічне сечовипускання
+
+sex_stats/record_peed
+Сечовипускання
+
+sex_stats/record_shat
+Дефекація
+
+sex_stats/record_cumshotted
+Залита спермою
+
+sex_stats/record_seen_shat
+Публічна дефекація
+
+sex_stats/record_torture
+Знущання
+
+sex_stats/record_eating_fecal
+Поїдання калу
+
+sex_stats/record_cunnilingus_taken
+Робили кунілінгус
+
+sex_stats/record_coma_sex
+Непритомних зґвалтувань
+
+sex_stats/record_mindbreak
+Ахеґао
+
+sex_stats/record_defecate_incontinent
+Аномальна дефекація
+
+sex_stats/record_urinary_incontinence
+Аномальне сечовипускання
+
+sex_stats/record_anal_dilatation
+Розширення ануса
+
+sex_stats/record_vag_dilatation
+Розширення піхви
+
+sex_stats/record_urinary_dilatation
+Розширення уретри
+
+sex_stats/record_BreastFeeding
+Годовування грудьми
+
+sex_stats/record_MilkSplash
+Лактація
+
+sex_stats/record_MilkSplash_incontinence
+Аномальна лактація
+
+sex_stats/record_pregnancy
+Вагітності
+
+sex_stats/record_orgasm
+Оргазми
+
+sex_stats/record_orgasm_Mouth
+Оргазми — мінет
+
+sex_stats/record_orgasm_Torture
+Оргазми — знущання
+
+sex_stats/record_orgasm_Vag
+Оргазми — піхва
+
+sex_stats/record_orgasm_Milking
+Оргазми — лактація
+
+sex_stats/record_orgasm_Pee
+Оргазми — сечовипускання
+
+sex_stats/record_orgasm_Poo
+Оргазми — дефекація
+
+sex_stats/record_orgasm_Birth
+Оргазми — пологи
+
+sex_stats/record_orgasm_Anal
+Оргазми — анал
+
+sex_stats/record_orgasm_Semen
+Оргазми — сперма
+
+sex_stats/record_orgasm_Breast
+Оргазми — груди
+
+sex_stats/record_orgasm_Shame
+Оргазми — знущання
+
+sex_stats/record_enemaed
+Клізми
+
+sex_stats/record_analbeads
+Анальні кульки
+
+sex_stats/record_pussy_wash
+Сеча у піхві
+
+sex_stats/record_anal_wash
+Сеча в дупі
+
+sex_stats/record_golden_shower
+Золотий дощ
+
+sex_stats/record_piss_drink
+Випито сечу
+
+sex_stats/record_married
+У шлюбі
+
+sex_stats/record_groin_harassment
+Помацано піхву
+
+sex_stats/record_butt_harassment
+Помацано дупу
+
+sex_stats/record_boob_harassment
+Помацано груди
+
+sex_stats/record_cunnilingus_given_count
+Відлизано піхв
+
+sex_stats/record_handjob_count
+Подрочено
+
+sex_stats/record_fellatio_count
+Відлизано калитку
+
+sex_stats/record_anal_count
+Анальний секс
+
+sex_stats/record_vaginal_count
+Вагінальний секс
+
+sex_stats/record_mouth_count
+Мінети
+
+sex_stats/record_cumin_vaginal
+Кінчено в піхву
+
+sex_stats/record_cumin_anal
+Кінчено в анус
+
+sex_stats/record_cumin_mouth
+Кінчено в рота
+
+sex_stats/record_footjob_count
+Подрочено стопами
+
+sex_stats/record_masturbation_count
+Мастурбації
+
+sex_stats/record_FloorClearnPee
+Прибрано сечу
+
+sex_stats/record_FloorClearnScat
+Прибрано фекалії
+
+sex_stats/record_FloorClearnCums
+Прибрано сперму
+
+sex_stats/record_miscarriage
+Викидні
+
+sex_stats/record_baby_birth
+Народжено дітей
+
+sex_stats/record_birth_Abomination
+Народжено почвар
+
+sex_stats/record_birth_Goblin
+Народжено гоблінів
+
+sex_stats/record_birth_Human
+Народжено людей 
+
+sex_stats/record_birth_Moot
+Народжено бруднокровок
+
+sex_stats/record_birth_Orkind
+Народжено оркоїдів
+
+sex_stats/record_birth_Deepone
+Народжено людей
+
+sex_stats/record_birth_Fishkind
+Народжено риболюдів
+
+sex_stats/record_birth_PotWorm
+Народжено горщиковиків
+
+sex_stats/record_birth_MoonWorm
+Народжено місячників
+
+sex_stats/record_birth_PolypWorm
+Народжено яйцевиків
+
+sex_stats/record_birth_HookWorm
+Народжено гачковиків
+
+sex_stats/record_birth_BabyLost
+Покинуто немовлят
+
+sex_stats/record_CoconaVag
+Заробіток на піхві Кокони
+
+sex_stats/record_CoconaOgrasm
+Оргазмів Кокони
+
+sex_stats/record_CoconaPeeWith
+Помочилася з Коконою
+
+sex_stats/record_MeatToilet_saved
+Урятовано рабів
+
+sex_stats/sensitivity_vag
+Чутливість піхви
+
+sex_stats/sensitivity_anal
+Чутливість ануса
+
+sex_stats/sensitivity_mouth
+Чутливість рота
+
+sex_stats/sensitivity_breast
+Чутливість грудей
+
+##################################	equip	#############################
+##################################	equip	#############################
+##################################	equip	#############################
+##################################	equip	#############################
+
+equip/atk
+АТК
+
+equip/def
+ЗАХ
+
+equip/com
+БІЙ
+
+equip/scu
+ХОВ
+
+equip/wis
+МУД
+
+equip/con
+СТА
+
+equip/sur
+ВИЖ
+
+equip/sexy
+СЕКС
+
+equip/weak
+КВЛ
+
+equip/mori
+СЛВ
+
+equip/mood
+НСТР
+
+equip/spd
+ШВД
+
+##################################	item	#############################
+##################################	item	#############################
+##################################	item	#############################
+##################################	item	#############################
+
+items/foods
+Їжа
+
+items/medicine
+Ліки
+
+items/equips
+Спорядження
+
+items/other
+Інше
+
+items/confirm_accept
+Підтв.
+
+items/confirm_cancel
+Скасув.
+
+items/confirm_drop
+Викласти
+
+##################################	SKILLS	#############################
+
+skills/hint_Setup
+Призначити
+
+skills/hint_Clear
+Очистити
+
+skills/Key
+Кн. нав.
+
+##################################	TRAITS	#############################
+##################################	TRAITS	#############################
+##################################	TRAITS	#############################
+##################################	TRAITS	#############################
+
+traits/point_left
+Лишилося очок
+
+traits/accept
+Підтвердити
+
+##################################	LETTER	#############################
+##################################	LETTER	#############################
+##################################	LETTER	#############################
+##################################	LETTER	#############################
+
+letter/all
+Усі листи
+
+letter/unread
+Непрочитані
+
+letter/read
+Прочитані
+
+letter/deleted
+Видалені
+
+letter/to_delete
+Кнопка видалення
+
+letter/sp_to_delete
+SP Кнопка видалення
+
+letter/l1_to_delete
+L1 Кнопка видалення
+
+letter/accept_recover
+Відновити?
+
+letter/accept_deltete
+Видалити?
+
+letter/cancel
+Скасувати
+
+##################################	SYSTEM	#############################
+##################################	SYSTEM	#############################
+##################################	SYSTEM	#############################
+##################################	SYSTEM	#############################
+
+system/save_game
+Зберегти гру
+
+system/load_game
+Завантажити
+
+system/return_to_title
+До титульного екрана
+
+system/hardcore
+Складність
+
+system/scat_fetish
+Копрофілія
+
+system/urine_fetish
+Урофілія 
+
+system/full_screen
+На весь екран
+
+system/MapBgMode
+Колір тла
+
+system/GamePadUImode
+Розмітка керування
+
+system/screen_size
+Розмір екрана
+
+system/screen_scale
+Масштабування
+
+system/SNDvol
+Гучність звуку
+
+system/BGMvol
+Гучність музики
+
+system/HotkeyRosterLength
+Набори навичок
+
+system/KEYbind
+Кнопки
+
+system/Mouse
+Керування мишею
+
+system/language
+Мова
+
+system/language_change
+Перезапустiть гру, щоб завантажити шрифт.
+
+system/language_press_z
+Підтвердити
+
+system/autosave
+Автозбереження
+
+system/DiffHard
+Важко
+
+system/DiffHell
+Пекло
+
+system/DiffDoom
+Кінець світу
+
+system/HellCoreMode0
+Режим «Пекло»
+
+system/HellCoreMode1
+Сира їжа із часом псується.
+
+system/HellCoreMode2
+Під час бою неможливо покинути поточну локацію.
+
+system/HellCoreMode3
+Є залежності та потреба у випорожненні.
+
+system/HellCoreMode4
+Короткий відпочинок не відновлює здоров’я.
+
+system/DoomCoreMode0
+Режим «Кінець світу»
+
+system/DoomCoreMode1
+Містить усі особливості «пекельного» режиму.
+
+system/DoomCoreMode2_OLD
+Гра автоматично зберігається при поверненні на титульний екран.
+
+system/DoomCoreMode2
+Гра автоматично зберігається, коли Лона прокидається.
+
+system/DoomCoreMode3
+Після завантаження збереження видаляється.
+
+system/DoomCoreMode4
+Після смерті збереження видаляється.
+
+system/DoomCoreMode5
+Короткий відпочинок вилучено з навичок.
+
+system/DoomCoreMode_Load0
+Режим «Кінець світу»
+
+system/DoomCoreMode_Load1
+Увага
+
+system/reset
+Скинути
+
+system/remember_sex_rec
+Материнські спогади
+
+system/remember_bank
+Материнська спадщина
+
+system/remember_exp
+Материнська сила
+
+mod/ModDismatch1
+Несумісність модів
+
+mod/ModDismatch2
+Можуть виникати збої та помилки.
+
+nil/nil

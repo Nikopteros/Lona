@@ -1,0 +1,296 @@
+###################################################################################
+
+GraveKeeper/UndeadHunt2Begin1
+\CBct[6]\m[fear]\Rshake\C[6]洛娜：\C[0]    嗚嗚，比我想像的還要陰森
+\CBmp[GraveKeeper,1]\prf\c[4]守墓人：\c[0]    \{什麼！？\}
+\CBct[20]\m[terror]\Rshake\C[6]洛娜：\C[0]    \{什麼什麼！？\}
+
+GraveKeeper/UndeadHunt2Begin2
+\CBmp[GraveKeeper,20]\prf\c[4]守墓人：\c[0]    \{這裡應該要有大量的屍體啊!
+
+GraveKeeper/UndeadHunt2Begin3
+\CBct[2]\m[confused]\C[6]洛娜：\C[0]    牆上的那些不全都是嗎？
+\CBmp[GraveKeeper,20]\prf\c[4]守墓人：\c[0]    不是那些，那些大多都百年以上了。
+\CBmp[GraveKeeper,20]\prf\c[4]守墓人：\c[0]    雖然那時候我還小，但印象中我親眼看到這裡被屍體塞滿才對。
+\CBct[6]\m[shocked]\Rshake\C[6]洛娜：\C[0]    這！？你別嚇我啊！？
+
+GraveKeeper/UndeadHunt2Begin4
+\CBmp[GraveKeeper,20]\c[4]守墓人：\c[0]    難不成全都轉化成不死者了？
+
+GraveKeeper/UndeadHunt2Begin5
+\CBmp[GraveKeeper,20]\c[4]守墓人：\c[0]    不妙，這下真的不妙了。
+\CBmp[GraveKeeper,20]\c[4]守墓人：\c[0]    要是上面知道的話，我的工作絕對不保了。
+
+GraveKeeper/UndeadHunt2Begin6
+\CBct[8]\m[flirty]\C[6]洛娜：\C[0]    所以... 我們應該先回去報告嗎？
+
+GraveKeeper/UndeadHunt2Begin7
+\CBct[2]\m[confused]\C[6]洛娜：\C[0]    先...先生？
+
+GraveKeeper/UndeadHunt2Begin8
+\CBmp[GraveKeeper,2]\c[4]守墓人：\c[0]    等等，這是什麼？
+
+GraveKeeper/UndeadHunt2Begin9
+\CBct[20]\m[terror]\Rshake\C[6]洛娜：\C[0]    \{啊啊！！！\}
+
+GraveKeeper/UndeadHunt2Begin10
+\CBct[20]\m[shocked]\Rshake\C[6]洛娜：\C[0]    守墓人先生？！
+\CBct[6]\m[fear]\C[6]洛娜：\C[0]    死...？ 死掉了...！？
+\CBct[20]\m[tired]\C[6]洛娜：\C[0]    現...現在該怎麼辦？
+
+#########################################################################################
+
+Lona/ReadAllMail
+\CBct[1]\m[shocked]\Rshake\C[6]洛娜：\C[0]    ！！！！！
+\CBct[8]\m[sad]\C[6]洛娜：\C[0]    .........
+\CBct[2]\m[sad]\C[6]洛娜：\C[0]    可可娜？
+\CBct[8]\m[confused]\C[6]洛娜：\C[0]    她看起來並不邪惡啊？
+\CBct[8]\m[tired]\C[6]洛娜：\C[0]    試著構通看看吧。
+
+Lona/ItsTrap
+\CBmp[Trap,19]\m[serious]\C[6]洛娜：\C[0]    這是... 陷阱？
+\CBct[8]\m[confused]\C[6]洛娜：\C[0]    這...看起來不像是放了幾十年的陷阱啊？
+\CBct[8]\m[flirty]\C[6]洛娜：\C[0]    難道不死者會用陷阱？？
+
+Lona/UndeadElite
+\CBmp[UndeadElite,19]\m[serious]\C[6]洛娜：\C[0]    看來這些不死者跟外面的那些不一樣。
+\CBct[8]\m[confused]\C[6]洛娜：\C[0]    非常不好對付啊...
+\CBct[8]\m[flirty]\C[6]洛娜：\C[0]    也許我應該走別條路？
+
+Friends/frist_time
+\CBid[-1,20]\m[shocked]\prf\C[0]不死者：\C[0]    \{啊啊啊啊 哦....\}
+\CBct[1]\m[fear]\Rshake\C[6]洛娜：\C[0]    啊？沒有過來吃我？！
+\CBct[8]\m[confused]\C[6]洛娜：\C[0]    呃... 總之是好事？
+
+Friends/Qmsg0
+啊啊哦...
+
+Friends/Qmsg1
+無辜者...保護..
+
+Friends/Qmsg2
+朋友..保護...
+
+Family/Qmsg0
+很乾淨的乾屍。
+
+Family/Qmsg1
+一塵不染的乾屍。
+
+Family/Qmsg2
+總之是個乾屍。
+
+
+BodyBag/Common
+普通的屍體
+
+BodyBag/Keeper
+似乎是守墓人
+
+BodyBag/Goblin
+哥布林？為什麼會在這？
+
+Hole/begin
+\CBct[8]\m[confused]\C[6]洛娜：\C[0]    裡面就跟迷宮一樣，沒有熟知路線的人帶領是不可能的。
+
+#########################################################################################
+
+Lona/B2TrapTrigger1
+\narr洛娜被砸暈了。
+\narr她身上的東西都被摸走了。
+\narr然後過了不知道多少時間。
+
+Lona/B2TrapTrigger2
+\m[hurt]\Rshake 嗚嗚，頭好痛。
+\m[fear]身體不能動？到底發生甚麼事了？
+\ph\C[4]未知：\C[0]    呀噗呀噗噗塔♪ 嗚呀嗚噗咑♫
+\m[confused]歌聲？ 誰？
+
+##############################################
+
+Cocona/B2Trap_Sing1
+\prh\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    嗚嗎嗚嗎嗚噗塔。
+
+Cocona/B2Trap_Sing2
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    呀啦啦，呀啦啦嗚噗咑！
+
+Cocona/B2Trap_Sing3
+\BonMP[Cocona,5]\SETlpl[cocona_confused]\C[4]未知：\C[0]    嗚喵.....
+
+Lona/BondageStruggle1
+\CBmp[CapLoc,8]\plh\m[fear]\C[6]洛娜：\C[0]    ..........
+\CBmp[CapLoc,2]\m[terror]\Rshake\C[6]洛娜：\C[0]    她在支解它們？
+\CBmp[CapLoc,6]\m[shocked]\Rshake\C[6]洛娜：\C[0]    不！不要！我不想被吃掉！
+\CBmp[CapLoc,6]\m[bereft]\Rshake\C[6]洛娜：\C[0]    我要逃！一定要逃走！
+
+Lona/BondageStruggle_opt
+\optD[掙扎]
+
+Lona/BondageStruggle2
+\C[6]洛娜：\C[0]    ......
+
+Lona/BondageStruggle3
+\m[flirty]\C[6]洛娜：\C[0]    ..........
+\m[serious]\C[6]洛娜：\C[0]    還好它們沒綁得很仔細！
+\m[fear]\C[6]洛娜：\C[0]    然後... 該怎麼辦？
+
+###########################################################################################
+
+Cocona/DinnerTime0
+\BonMP[Cocona,8]\SETlpl[cocona_confused]\C[4]未知：\C[0]    嗚喵.....
+\BonMP[Cocona,4]\SETlpl[cocona_happy]\C[4]未知：\C[0]    \{嗚嚕咪！
+
+Cocona/DinnerTime1
+\BonMP[Cocona,20]\SETlpl[cocona_normal]\Lshake\C[4]未知：\C[0]    哭嚕聖徒..
+\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    聖徒！把拔！哭嚕聖徒..
+
+Cocona/DinnerTime2
+\BonMP[Cocona,3]\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    聖徒！ 可可娜鋪哩咪！
+\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    把拔！ 可可娜鋪哩咪！
+\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    瑪麻！ 可可娜鋪哩咪！
+\plh\m[fear]\C[6]洛娜：\C[0]    難道是......
+\m[shocked]\Rshake\C[6]洛娜：\C[0]    傳說中的死靈法師？
+\m[serious]\C[6]洛娜：\C[0]    不...總之先跟著她，不然找不到出口的。
+
+Cocona/NapTime0
+\BonMP[Cocona,8]\SETlpl[cocona_angry]\Lshake\C[4]未知：\C[0]    嗚嗚嗚....
+\BonMP[Cocona,8]\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    把拔！瑪麻！ 可可娜哩嗚嗚豧噗咑咪！
+\SETlpl[cocona_happy]\C[4]未知：\C[0]    .........
+\SETlpl[cocona_happy]\C[4]未知：\C[0]    .....
+\SETlpl[cocona_happy]\C[4]未知：\C[0]    ...
+\SETlpl[cocona_sad]\C[4]未知：\C[0]    把拔... 瑪麻...
+\SETlpl[cocona_sad]\C[4]未知：\C[0]    ........
+\SETlpl[cocona_sad]\C[4]未知：\C[0]    ...
+\SETlpl[cocona_happy]\Lshake\C[4]未知：\C[0]    把拔！瑪麻！可可娜咪嗚咪！
+
+Cocona/NapTime1
+\m[confused]\C[6]洛娜：\C[0]    不知道為什麼... 總感覺有點... \m[sad]哀傷...？
+\m[flirty]\C[6]洛娜：\C[0]    繼續往前移動吧。
+
+########################################################################################### AGGRO
+
+Cocona/aggro
+\CBmp[Cocona,15]\prh\SETlpl[cocona_angry]\Lshake\C[4]未知：\C[0]    哈嘶嘶嘶嘶嘶嘶嘶！！！
+\CBct[6]\m[shocked]\Rshake\C[6]洛娜：\C[0]    咿咿！！！
+
+Cocona/aggro_FdSide1
+\CBct[6]\m[terror]\plf\Rshake\C[6]洛娜：\C[0]    等等！等等！
+\CBct[20]\m[shocked]\plf\Rshake\C[6]洛娜：\C[0]    我沒有惡意！ 真的！
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]未知：\C[0]    嗚咪？
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\C[4]未知：\C[0]    哈嘶嘶嘶嘶嘶嘶嘶！！！
+\CBct[20]\m[terror]\plf\Rshake\C[6]洛娜：\C[0]    妳是可可娜對嗎？ 可可娜！
+\CBmp[Cocona,2]\SETlpl[cocona_confused]\PLF\prf\C[4]未知：\C[0]    嗚喵？
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]未知：\C[0]    .......
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]未知：\C[0]    ...
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]未知：\C[0]    嗚噥可可娜！
+\CBct[6]\m[wtf]\plf\PRF\C[6]洛娜：\C[0]    對！ 可可娜！ 我們可以當朋友！
+\CBmp[Cocona,8]\SETlpl[cocona_confused]\PLF\prf\C[4]未知：\C[0]    朋友...？
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]未知：\C[0]    \{朋友！？\}
+\CBct[20]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    對！ 好朋友！
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\C[4]未知：\C[0]    \{好朋友！？
+\CBct[20]\m[pleased]\plf\PRF\C[6]洛娜：\C[0]    好朋友！！
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\C[4]未知：\C[0]    \{哈哈哈哈 好朋友！！\}
+\CBct[8]\m[flirty]\plf\PRF 這樣就行了？
+\CBct[8]\m[confused]\plf\PRF 太容易信任陌生人了吧？
+
+Cocona/aggro_FdSide2
+\CBct[20]\m[pleased]\plf\PRF\C[6]洛娜：\C[0]    所以！ 好朋友！ 我是洛娜！ 姊姊！
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    \{好朋友！ 洛娜！ 可可娜！\}
+\CBct[20]\m[triumph]\plf\PRF\C[6]洛娜：\C[0]    對！
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\Lshake\prf\c[4]可可娜：\c[0]    把拔！瑪麻！ 可可娜嗚哩西好朋友！
+\CBct[8]\m[tired]所以這兩位真是她的父母。
+\CBct[8]\m[confused]\plf\PRF 開始有點理解她在說什麼了。
+\CBct[8]\m[confused]\plf\PRF 只是所有的音都黏在一起而已。
+\CBct[8]\m[confused]\plf\PRF 只要聽仔細點就沒問題了。
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\PLF\prf\c[4]可可娜：\c[0]    姊姊！ 餓了嗎？
+\CBct[2]\m[flirty]\plf\PRF\C[6]洛娜：\C[0]    嗯？
+\CBmp[Cocona,4]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    吃的，桌上，餓了不好！餓了死掉！
+\CBct[6]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    耶？
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]可可娜：\c[0]    好朋友！吃！
+\CBct[20]\m[wtf]\plf\PRF\C[6]洛娜：\C[0]    不會吧？ 這是什麼肉？
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]可可娜：\c[0]    啊....
+
+Cocona/aggro_FdSide3
+\SND[SE/eat03.ogg]\ph\narr可可娜拿著肉靠了過來，
+\SND[SE/eat02.ogg]可可娜打算要餵洛娜。
+\SND[SE/eat03.ogg]這是一個充滿屍臭味的午茶時間。
+\..\..\..
+
+Cocona/aggro_FdSide4
+\CBmp[Cocona,8]\SETlpl[cocona_happy]\PLF\prf\c[4]可可娜：\c[0]    聖徒！ 可可娜謝謝！
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]可可娜：\c[0]    謝謝聖徒賜餐，謝謝聖徒賜新朋友！
+\CBct[2]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    可可娜信聖徒？
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\PLF\prf\c[4]可可娜：\c[0]    不信聖徒！謊言者！謊言者必須被吃掉！
+\CBct[6]\m[shocked]\plf\Rshake\C[6]洛娜：\C[0]    我信！我信！
+\CBmp[Cocona,4]\SETlpl[cocona_happy]\PLF\prf\c[4]可可娜：\c[0]    朋友都是聖徒！ 聖徒是無辜者的朋友！
+\CBct[2]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    所以地面上的好朋友不是妳弄的？
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\c[4]可可娜：\c[0]    可可娜不知道，可可娜只覺得是強大能量的東西。
+\CBmp[Cocona,4]\SETlpl[cocona_angry]\PLF\prf\c[4]可可娜：\c[0]    它搶奪了可可娜的好朋友！ 可可娜只能跟好朋友說話。
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    但可可娜知道那一定是邪惡的謊言者！
+\CBmp[Cocona,20]\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    邪惡的謊言者欺騙了我的好朋友！！
+\CBct[8]\m[flirty]\plf\PRF 跟她無關？
+\CBct[8]\m[confused]\plf\PRF 信聖徒的死靈法師與不死者？
+\CBct[8]\m[flirty]\plf\PRF 所以我到底在這幹嘛？ 我冒死來這是為了什麼？
+\CBct[8]\m[wtf]\plf\PRF 好亂啊！什麼跟什麼啊！
+
+Cocona/aggro_FdSide5
+\CBct[2]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    耶？
+\CBct[1]\m[serious]\plf\PRF\C[6]洛娜：\C[0]    妳感覺到了嗎？
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\c[4]可可娜：\c[0]    綠皮的味道！
+
+Cocona/aggro_FdSide6
+\CBct[2]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    綠皮？
+\CBmp[Cocona,5]\SETlpl[cocona_angry]\PLF\prf\c[4]可可娜：\c[0]    綠皮！難吃！
+\CBct[2]\m[shocked]\plf\Rshake\C[6]洛娜：\C[0]    是說類獸人？
+
+Cocona/aggro_FdSide7
+\CBct[1]\m[wtf]\plf\Rshake\C[6]洛娜：\C[0]    有這麼多？！
+\CBmp[Cocona,20]\SETlpl[cocona_shocked]\PLF\prf\c[4]可可娜：\c[0]    姊姊別怕，可可娜保護妳！
+\CBct[6]\m[serious]\plf\Rshake\C[6]洛娜：\C[0]    不行！我們必須逃走！這數量太多了！
+\CBmp[Cocona,2]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    逃走？
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    不可以！可可娜保護把拔！瑪麻！姊姊！
+\CBct[20]\m[angry]\plf\Rshake\C[6]洛娜：\C[0]    不要鬧了！
+\CBmp[Cocona,15]\SETlpl[cocona_angry]\Lshake\prf\c[4]可可娜：\c[0]    哈嘶嘶嘶嘶嘶嘶嘶！！！
+\CBmp[CoMama,20]\plf\prf\C[4]未知：\C[0]    可..可..娜...
+\CBct[6]\m[flirty]\plf\Rshake\C[6]洛娜：\C[0]    誰？
+\CBmp[Cocona,4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    瑪麻！
+\CBmp[CoPapa,20]\plf\prf\C[4]未知：\C[0]    可..可..娜... 跟著她... 離開...
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    把拔...
+\CBmp[CoPapa,20]\plf\prf\C[4]未知：\C[0]    看看... 外面的世界... 踏出去...
+\CBmp[CoMama,20]\plf\prf\C[4]未知：\C[0]    可可娜... 離開... 我們... 安息...
+\CBmp[CoPapa,20]\plf\prf\C[4]未知：\C[0]   不要... 再賴著... 我們了...
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    嗚嗚...
+
+Orkind/Gob1
+\SND[SE/goblin/Goblin_roar1.ogg]\ph\SETpl[goblin]\Lshake\C[4]魔物：\C[0]    咕恰恰？
+
+Orkind/Gob2
+\SND[SE/goblin/Goblin_roar2.ogg]\SETpr[goblin]\Rshake\C[4]魔物：\C[0]    咕瞎嗎恰！！
+
+Orkind/Gob3
+\SND[SE/goblin/Goblin_roar3.ogg]\SETpl[goblin]\Rshake\C[4]魔物：\C[0]    吼吼吼吼吼吼！
+
+Cocona/aggro_FdSide8
+\CBct[8]\m[sad]\plf\PRF\C[6]洛娜：\C[0]    ......
+\CBct[20]\m[serious]\plf\Rshake\C[6]洛娜：\C[0]    沒時間了！我們必須離開！
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    嗚嗚... 可可娜知道路
+\CBmp[ToSurface,19]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    朋友房通到外面，可可娜與朋友挖通了。
+\CBct[20]\m[angry]\plf\Rshake\C[6]洛娜：\C[0]    趁著不死者吸引它們注意時候衝出去吧！
+
+Cocona/aggro_FdSide8_win
+\CBmp[Cocona,20]\SETlpl[cocona_happy]\PLF\prf\c[4]可可娜：\c[0]    綠皮沒有了！ 姊姊安全了！
+\CBmp[Cocona,6]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    把拔瑪麻可以不用離開了！ 姊姊可以住這裡！
+\CBct[20]\m[serious]\plf\Rshake\C[6]洛娜：\C[0]    不行！ 妳應該要聽把拔的話！ 那些綠皮隨時都會出現！
+\CBct[20]\m[angry]\plf\Rshake\C[6]洛娜：\C[0]    我家就是這樣毀掉的！
+\CBmp[Cocona,8]\SETlpl[cocona_sad]\PLF\prf\c[4]可可娜：\c[0]    嗚嗚....
+
+Cocona/to1fBlock
+\CamMP[ToSurface]\SETlpl[cocona_shocked]\Lshake\prf\c[4]可可娜：\c[0]    錯了！ 挖這裡！
+
+#########################################################################################
+
+
+SaintState/begin
+\board[聖徒無名者]
+聖徒無名者說：當吾殞落時，必於篝火重生。
+聖徒福音30：65

@@ -1,0 +1,37 @@
+thisMap/OvermapEnter
+Artillery Position \optB[Leave,Enter]
+
+Guard0/Com0
+\CBid[-1,20]\c[4]Soldier：\c[0]    Retake the city? What's the point?!
+
+Guard0/Com1
+\CBid[-1,20]\c[4]Soldier：\c[0]    Everyones dead, what the Hell are we doing here?
+
+Guard0/Com2
+\CBid[-1,20]\c[4]Soldier：\c[0]    There are people still alive in the city?! You think those people will still be humans?
+
+Guard1/Com0
+\CBid[-1,20]\c[4]Soldier：\c[0]    Yep, I just got transferred from Noer Town to here a few days ago.
+
+Guard1/Com1
+\CBid[-1,20]\c[4]Soldier：\c[0]    I've only heard about them from the refugees before. I didn't believe it... 'til I saw one with my own eyes...
+
+Guard1/Com2
+\CBid[-1,20]\c[4]Soldier：\c[0]    This is all just being exaggerated! There's no way the infection can continue to spread that far.
+
+Guard2/Com0
+\CBid[-1,20]\c[4]Soldier：\c[0]    Hey! Where are the monsters?! I requested to be transferred here so I can kill monsters!
+
+Guard2/Com1
+\CBid[-1,20]\c[4]Soldier：\c[0]    Wah-Haha! They all deserve it!
+
+Guard2/Com2
+\CBid[-1,20]\c[4]Soldier：\c[0]    This rotten city really is ruined!
+
+Officer/Common_basic
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurion：\c[0]    What is it? I don't have time for you.
+
+Officer/Common_Saint
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]Centurion：\c[0]    Saint, I believe it now! I beg you, please guide me...
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

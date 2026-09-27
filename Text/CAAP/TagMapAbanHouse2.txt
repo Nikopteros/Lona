@@ -1,0 +1,113 @@
+thisMap/OvermapEnter
+Campamento de los Pantanos \optB[Cancelar,Entrar]
+
+EmptyHouse/Qmsg0
+Casa Vacía
+
+EmptyHouse/Qmsg1
+No hay nada aquí
+
+yeller/Qmsg0
+¡Estoy ocupado!
+
+yeller/Qmsg1
+¡Ahora no!
+
+yeller/start
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Oye!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Por aquí! ¡Vienen!
+\CamCT\Bon[2]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué?! ¡¿Quién viene?!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Más rápido!
+
+yeller/start1
+\CamMP[Wave2A]\BonMP[Wave2A,20]\SndLib[FishkindSmQuestion]\prf\c[4]Profundo：\C[0]    ¡GuLu!
+\CamMP[Wave2B]\BonMP[Wave2B,20]\SndLib[FishkindSmQuestion]\prf\c[4]Profundo：\C[0]    ¡Gou La La!
+\CamMP[Wave2C]\BonMP[Wave2C,20]\SndLib[FishkindSmQuestion]\prf\c[4]Profundo：\C[0]    ¡PouLa PauLu!
+\CamCT\Bon[1]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡Monstruos!
+
+yeller/start_win
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Uf, ¡casi nos atrapan! ¡Gracias al Santo!
+
+yeller/begin2to3
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Sin ti, no habríamos podido hacerlo.
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Lona：\C[0]    Puf... No hay de qué.
+
+guard/beginElseQmsg0
+¡Malditos Profundos!
+
+guard/beginElseQmsg1
+¡Vete al infierno! ¡Muere!
+
+guard2/beginElseQmsg0
+Estoy cansado...
+
+guard2/beginElseQmsg1
+Me duelen los ojos...
+
+yeller/beginElseQmsg0
+¡Ayúdala!
+
+yeller/beginElseQmsg1
+¡Por favor!
+
+FArcher/Qmsg
+Gracias.
+
+yeller/begin3
+\CamCT\Bon[6]\m[confused]\PRF\c[6]Lona：\C[0]    Em... \optB[Cancelar,¿Qué pasa?]
+
+yeller/begin3_opt_Wut
+\CamCT\Bon[6]\m[wtf]\PRF\c[6]Lona：\C[0]    ¿Qué está pasando aquí?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Contratamos un grupo de mercenarios para rescatar a gente capturada en Sýbaris.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Todo iba bien hasta que aparecieron aquí...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Estamos bajo asedio de una manada de Profundos.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Siempre están cerca, observándonos, esperando que bajemos la guardia.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    No he dormido en días... Nuestra moral y fuerzas se agotan.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Exacto! ¡Puedes ayudarme! Esos malditos Profundos también se la llevaron...
+\CamCT\Bon[6]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿A quién?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡A mi mujer! ¡Por favor, sálvala! ¡Su vida está en tus manos!
+
+yeller/begin3_opt_WutBoard
+\board[Mujer Desaparecida]
+Misión：Encontrar a la mujer secuestrada por los Profundos.
+Recompensa：+5 de Reputación.
+Cliente：Mercenario.
+Repetible：No.
+Nuestros exploradores hallaron rastros que llevan a una cueva al noroeste.
+Debe seguir viva. ¡Por favor, sálvala!
+
+yeller/begin3_opt_WutBoard_opt
+\CamCT\Bon[6]\m[confused]\PRF\c[6]Lona：\C[0]    Yo... \optB[No puedo,¡Me encargaré de esto!]
+
+yeller/begin3_opt_WutBoard_opt_yes
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Lona：\C[0]    ¡Te ayudaré! Pero necesito más información.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Gracias, gracias, señorita!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Tras repeler el ataque de los Profundos hace cuatro noches, a ella le tocó hacer guardia.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Cuando despertamos, ¡había desaparecido! Solo quedaron rastros y el hedor a pescado de esas bestias.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Los exploradores siguieron los rastros al noreste y hallaron ruinas de una aldea de Hombres Pez.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Sé por qué se la llevaron!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Debe seguir viva! ¡Estoy seguro!
+\CamCT\Bon[6]\m[serious]\PRF\c[6]Lona：\C[0]    ¡Entendido! Iré entonces.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Que el Santo te proteja!
+
+####################################### REGRESO CON OBJETIVO
+
+yeller/begin4to5
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Oh... ¡Había perdido la esperanza de verte de nuevo!
+\CamMP[FArcher]\BonMP[FArcher,6]\prf\c[4]Mercenaria：\C[0]    Pero aquí estoy...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Esas criaturas... ¿no te hicieron nada, verdad?
+\CamMP[FArcher]\BonMP[FArcher,8]\prf\c[4]Mercenaria：\C[0]    ......
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    .....
+
+yeller/begin4to5_2
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... Creo que ella no...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Uf! ¡Gracias al Santo! ¿Cómo te llamas, por cierto?
+\CamCT\Bon[4]\m[pleased]\Rshake\c[6]Lona：\C[0]    ¡Soy Lona! ¡Lona Folding!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    ¡Gracias, Lona! Toma, esto es para ti...
+
+yeller/begin4to5_3
+\CamCT\Bon[2]\m[confused]\PRF\c[6]Lona：\C[0]    ¿Qué es esto?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    No he cobrado el pago de este contrato, así que llévalo a la guild de mercenarios en \C[4]Pirate's Demise\C[0] y recibirás el dinero por mí.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Debemos irnos. Y a ti también te aconsejo que te largues de aquí.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenario：\C[0]    Este lugar no es seguro.
+\CamCT\Bon[2]\m[serious]\PRF\c[6]Lona：\C[0]    ¡Sí, lo sé!

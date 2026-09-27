@@ -1,0 +1,314 @@
+thisMap/OvermapEnter
+\m[confused]營站，\n士兵的康樂室。\optB[算了,進入]
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]通往\C[4]鹽場\C[0]，但門口站著守衛。\optB[沒事,進入,隱匿進入<r=HiddenOPT1>,唬爛進入<r=HiddenOPT2>]
+
+nap/Capture
+asd
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    妳誰？ 這裡不歡迎妳！
+
+InnKeeper/Slave_work
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    閉嘴！ 快去工作！
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    這裡是哪裡？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    這裡嗎？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    這裡原先是個鹽場，\c[6]海潮堡\c[0]，曬鹽順便揍海盜！
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    但隨著魔物入侵這附近很快就陷落了，現在我們揍魔物！
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃？ 我知道，我是問這裡怎麼這麼多人？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    我們不知道為什麼，這些魔物在這附近止步了，也許是\c[6]聖徒\c[0]降下了神蹟？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    軍隊徵收了這裡，現在這裡是難民門的中轉站，但很久都沒有發現新的活人了。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦？
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    有什麼我能做的工作嗎？
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    嗯？ 妳是女人？
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    嗯... 胸部小了點，但聊勝於無。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哈？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    這裡的確需要看護工，我們可以保妳每天吃飽，還有人身安全。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    來，把這個簽了。
+
+InnKeeper/About_work1
+\board[妳也可以的！]
+想救你的親朋好友？！
+來當幫助士兵吧吧，受傷士兵們需要看護。
+士兵們將保證您的食物與安全。
+另保一人入諾爾鎮。
+妳需同意一切雇主的工作要求。
+妳不得擅自離開工作場所。
+若妳違反工作要求，雇主可進行體罰。
+\}妳因工作要求將放棄一切印加蘭國民之人權。
+妳因工作要求將成為士兵的姓奴。
+\{我___同意上列條例並成為鹽場員工。
+
+InnKeeper/About_work2
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...食物與安全？
+
+InnKeeper/About_work2_Y
+\CBct[20]\m[flirty]\plf\c[6]洛娜：\c[0]    呃...聽起來不錯耶？
+\SND[SE/PenWrite1.ogg]\narr洛娜於合約上簽上了自己的名子。
+\narrOFF\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    很好！
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    你有家人在這嗎？ 把他的名子給我吧，以後他們就是諾爾鎮的一份子了。
+\CBct[8]\m[sad]\plf\c[6]洛娜：\c[0]    他們\..\..\.. 都過世了。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    真遺憾啊，那妳想保什麼人入諾爾鎮嗎？
+\CBct[8]\m[tired]\plf\c[6]洛娜：\c[0]    沒有\..\..\.. 你們隨意選個外面的可憐人吧。
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    很好，請在這稍等一下。
+
+InnKeeper/About_work2_N
+\CBct[5]\m[irritated]\plf\Rshake\c[6]洛娜：\c[0]    才不要！ 你這騙子！
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    我肏！ 該死！
+
+#################################### SIged
+
+InnKeeper/About_work2_Y1
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...怎麼了？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    \{抓住她！\}
+
+InnKeeper/About_work2_Y2
+\CBct[20]\m[hurt]\plf\Rshake\c[6]洛娜：\c[0]    好痛！ 放開我！
+\CBct[6]\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    快放開我！我只是來應徵看護工的！
+
+InnKeeper/About_work2_Y3
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    妳已經簽字了！ 妳是自願當奴隸的！
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    什麼？！ 奴隸？！
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    妳自己看看上面寫什麼，喏，這邊這行。
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    這...這麼小我怎麼可能看的到啊！！
+
+InnKeeper/About_work2_Y4
+\CBmp[Guard1,5]\SETpl[Mreg_guardsman]\Lshake\PRF\c[4]店長：\c[0]    賤貨！ 閉嘴！
+
+InnKeeper/About_work2_Y5
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    快點把這婊子搞定，舊的婊子都已經玩膩了。
+\CBmp[Guard1,20]\cg[event_SlaveBrand]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    馬上搞定！
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]洛娜：\c[0]    咿咿咿...
+
+InnKeeper/About_work2_Y6
+\m[sad]\c[6]洛娜：\c[0]    嗚嗚... 為什麼...
+
+InnKeeper/About_work2_Y7
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    伺候我們是妳以後的工作。
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    我們要什麼妳都得做，聽懂了嗎？
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    做不好或偷懶就只有死！
+
+InnKeeper/About_work2_Y8
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    .....
+
+#################################### SIged end
+#################################### TOR
+
+Torture/NapTrigger
+\SndLib[sound_MaleWarriorSpot]\c[4]士兵A：\c[0]    就是這個賤貨，居然敢亂來！
+\SndLib[sound_MaleWarriorSpot]\c[4]士兵B：\c[0]    把她抓起來！ 等等好好的教她怎麼當奴隸！
+\narr洛娜失去了所有的物品。
+
+Torture/begin0
+\SndLib[sound_MaleWarriorSpot]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    小婊子，給我醒來！
+\SndLib[sound_MaleWarriorSpot]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]士兵：\c[0]    醒來啊！賤貨！
+\m[tired]\c[6]洛娜：\c[0]    嗚.....
+
+Torture/begin1
+\CBmp[Torture1,1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    ！！！
+\CBmp[Guard2,3]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    既然敢亂來就應該會想到下場會如何吧？
+\CBmp[Torture1,6]\m[fear]\Rshake\c[6]洛娜：\c[0]    我.....
+\CBmp[Guard1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    我們會好好教訓妳的！
+\CBmp[Torture1,20]\m[terror]\Rshake\c[6]洛娜：\c[0]    吚吚吚！！！
+
+Torture/begin2
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    弟兄們！ 我們該怎麼逞罰這個小婊子？
+
+Torture/begin3
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    好！ 我聽到你們的聲音了！
+
+Torture/begin4
+\CBmp[Torture1,6]\m[bereft]\Rshake\c[6]洛娜：\c[0]    對不起，饒了我吧！
+
+Torture/begin5
+\CBmp[Guard1,20]\m[sad]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    你們覺得還要給她更多逞罰？
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    好！ 你們想要怎麼做？
+
+Torture/begin6
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    沒問題！
+
+Torture/begin7
+\CBmp[Torture1,8]\m[tired]\Rshake\c[6]洛娜：\c[0]    .....
+
+Torture/begin8
+\narr洛娜在士兵的嘲笑與辱罵中失去了意識。
+
+#################################### TOR END
+#################################### MAMA 
+
+Mama/getDress
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    妳也被騙了嗎？
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    這些拿去吧，也許能讓妳活得久一點。
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    謝謝...
+
+Mama/Begin0
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    我們還能怎麼辦？
+
+Mama/Begin1
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    我們女人還能做什麼呢？
+
+Mama/End0
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    去吧，孩子。
+
+Mama/End1
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    妳多受點苦，我們就少受點苦。
+
+#################################### JOB ACCEPT
+
+Job/Begin0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    喂！ 醒來！ 該上工了！
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+
+Job/NoWork
+\narr士兵們似乎忘了洛娜的存在。
+洛娜應趁這個機會好好休息。
+
+Job/WhoreJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    去讓三名士兵肏妳！
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    記住，妳只是個婊子！ 是奴隸！ 不是人！
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+JobOpt/Suck
+吹喇叭
+
+JobOpt/Done
+\narr洛娜的服務工作完成了。
+
+Job/SuckJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    去幫士兵舔雞巴！
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    妳至少要幫三名士兵把雞巴舔乾淨！
+\CBct[6]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    是....
+
+JobOpt/SuckJob_Begin0_0
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我是...來幫您吸雞雞的...
+
+JobOpt/SuckJob_Begin0_1
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我來幫您清理雞雞了...
+
+JobOpt/SuckJob_Begin1_0
+\CBid[-1,4]\plf\c[6]洛娜：\c[0]    很好，邊吃飯邊被吹才是最棒的享受。
+
+JobOpt/SuckJob_Begin1_1
+\CBid[-1,4]\plf\c[6]洛娜：\c[0]    很好！跪下！ 我叫妳吹！
+\CBct[6]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    是...
+
+Job/MeatToiletJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    把他抓起來！
+
+Job/MeatToiletJob1
+\CBct[6]\m[hurt]\plf\Rshake\c[6]洛娜：\c[0]    啊呀？！
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    前線抵禦魔物的弟兄們要回來了。
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]士兵：\c[0]    妳要幹的事很簡單，就是當他們的便桶！
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚....
+
+Job/MeatToiletJob2_0
+\CBmp[Raper0,20]\prf\c[4]士兵：\c[0]    太棒了，總算可以把髒東西排出來了。
+
+Job/MeatToiletJob2_1
+\CBmp[Raper0,20]\prf\c[4]士兵：\c[0]    是個沒奶子的小婊子呢。
+
+Job/MeatToiletJob3
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    ....
+\CBmp[Raper0,20]\prf\c[4]士兵：\c[0]    我上了！
+
+Job/MeatToiletJob3_virgin0
+\CBmp[Raper0,20]\prf\c[4]士兵：\c[0]    這婊子是處女♥ 是第一次呀♥
+
+Job/MeatToiletJob3_virgin1
+\BonMP[Raper1,20]\prf\c[4]士兵：\c[0]    太棒了！
+\BonMP[Raper2,20]\prf\c[4]士兵：\c[0]    你快點，我也想肏緊實的屄！
+
+Job/MeatToiletJob4
+\CBmp[Raper0,5]\prf\c[4]士兵：\c[0]    我要出來了！ 接好了啊！
+
+Job/MeatToiletJob5
+\CBmp[Raper0,4]\prf\c[4]士兵：\c[0]    幹！ 舒服♥
+\CBmp[Raper1,20]\prf\c[4]士兵：\c[0]    換我了換我了♥
+
+Job/MeatToiletJob6
+\CBmp[Raper1,4]\prf\c[4]士兵：\c[0]    嘿嘿嘿！ 嚐嚐我30公分島民的力量吧♥
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    ....
+
+Job/MeatToiletJob7
+\CBmp[Raper1,4]\prf\c[4]士兵：\c[0]    我來了♥  出來了呀♥
+
+Job/MeatToiletJob8
+\CBmp[Raper2,20]\prf\c[4]士兵：\c[0]    輪我！ 快！ 我也想幹！
+
+Job/MeatToiletJob9
+\CBmp[Raper2,20]\prf\c[4]士兵：\c[0]    臭便器！ 我要肏翻妳的屄！
+
+Job/MeatToiletJob10
+\CBmp[Raper2,20]\prf\c[4]士兵：\c[0]    來了！ 我去了！
+
+Job/MeatToiletJob11
+\CBmp[Raper2,20]\prf\c[4]士兵：\c[0]    \{幹！ 爽啦！\}
+\CBmp[Raper2,20]\prf\c[4]士兵：\c[0]    下一位！
+
+Job/MeatToiletJob12
+\CBmp[Raper3,20]\prf\c[4]士兵：\c[0]    下一個是我！
+\CBmp[Guard2,20]\prf\c[4]士兵：\c[0]    不！ 輪我才對！
+
+Job/MeatToiletJob13
+\CBmp[Guard1,20]\prf\c[4]士兵：\c[0]    幹！ 不要插隊！
+\CBmp[Raper3,20]\prf\c[4]士兵：\c[0]    大家何不一起上？ 一起當穴兄弟？
+\CBmp[Guard2,20]\prf\c[4]士兵：\c[0]    有理！
+
+Job/MeatToiletJob14
+\BonMP[Raper0,20]\BonMP[Raper1,20]\BonMP[Raper2,20]\BonMP[Raper3,20]\prf\c[4]士兵：\c[0]    嘿嘿嘿嘿...
+
+Job/MeatToiletJob15
+\narr洛娜在士兵們的羞辱中失去了意識...
+
+#################################### JOB END
+
+whore1/Qmsg0
+少年，要臨幸我嗎？
+
+whore1/Qmsg1
+我胸部很大吧？
+
+whore1/Qmsg2
+要摸摸看嗎？
+
+whore2/Qmsg0
+我被騙了...
+
+whore2/Qmsg1
+救救我...
+
+whore2/Qmsg2
+我想回家...
+
+whore3/Qmsg0
+為什麼？
+
+whore3/Qmsg1
+大家不都是人嗎？
+
+whore3/Qmsg2
+為什麼要這樣對我？
+
+whore4/Qmsg0
+我會活下去的！
+
+whore4/Qmsg1
+會死的是妳們！
+
+whore4/Qmsg2
+走開！
+
+art/GodEmperor
+\cg[other_GodEmperor]群星之神皇
+我們面對十數年來西方的背叛與羞辱，而你是唯一嘗試阻止他們的神皇。
+雖然時間短暫，雖然您失敗了，但我依然為此向您致敬。
+\m[serious]嗯....群星之神皇？
+\m[confused]他是誰啊？
+\m[flirty]不過這個髮型還挺好笑的。

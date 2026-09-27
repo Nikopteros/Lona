@@ -1,0 +1,88 @@
+OrkindCave1/OvermapEnter
+\m[confused]洞窟，似乎是魔物的地盤。\optB[算了,進入]
+
+OrkindCave2/OvermapEnter
+\m[confused]北方關口哨塔，似乎被魔物佔領了。\optB[算了,進入]
+
+OrkindCave3/OvermapEnter
+\m[confused]洞窟，似乎是魔物的地盤。\optB[算了,進入]
+
+OrkindCamp1/OvermapEnter
+\m[confused]被魔物佔領的小屋。\optB[算了,進入]
+
+NFL_OrkCamp1/OvermapEnter
+\m[confused]南12號糧倉，已被魔物佔領。\optB[算了,進入]
+
+############################################################################# QUEST NFL Burn DOC
+
+RecQuestNorthFL_Main3/FirstTouch
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    就是這個嗎\..\..\..所以\..\..\..這到底是什麼？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..\CBct[20]\m[flirty]大人物們的骯髒交易紀錄？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..\CBct[20]\m[triumph]\Rshake跟我無關♥
+
+RecQuestNorthFL_Main3/Cecily0
+\CBfB[2]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]賽希莉：\C[0]    等等！ 讓我看一下這份文件！
+
+RecQuestNorthFL_Main3/Cecily1
+\CBfB[1]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]賽希莉：\C[0]    \c[6]艾格莫\c[0]？！ 這不是我家嗎？！
+\CBct[2]\m[flirty]\PRF\plf\c[6]洛娜：\c[0]    呃......？
+\CBfB[6]\SETpl[CecilyFailedAr]\Lshake\prf\C[4]賽希莉：\C[0]    不可能....父親怎麼可能會....
+\CBct[3]\m[confused]\PRF\plf\c[6]洛娜：\c[0]    嗯\..\..\..\CBct[3]\m[triumph]\Rshake都要銷毀了，以後不會有人知道的啦。
+\CBfB[8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]賽希莉：\C[0]    .....
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\PRF\c[4]灰鼠：\c[0]    .........
+
+RecQuestNorthFL_Main3/Done
+\CBct[3]\m[pleased]\Rshake\c[6]洛娜：\c[0]    好! 完成了！
+\CBct[20]\m[normal]\PRF\c[6]洛娜：\c[0]    來回去領賞吧。
+
+############################################################################# QUEST 2
+
+OrkindCave2/OvermapEnter_enter
+\m[flirty]\c[6]洛娜：\c[0]    就是這裡了。
+\m[shy]\c[6]洛娜：\c[0]    我真的準備好了嗎？
+\m[serious]\c[6]洛娜：\c[0]    絕不能失敗，如果失敗了，我可能會成為它們的孕母。
+
+OrkindCave2/OvermapEnter_done
+\m[triumph]\c[6]洛娜：\c[0]    完成了，這些噁心的綠皮們全都消失了。
+\m[pleased]\c[6]洛娜：\c[0]    趕緊回報任務吧。
+
+#############################################################################
+
+Lona/ExitCave
+\CBct[2]\m[confused]\c[6]洛娜：\c[0]    離開這裡？\optB[還有什麼事情沒做完,離開]
+
+Lona/SmallHole
+\narr一個窄小的洞穴，並不足以容納任何人。
+
+Lona/CheckFlag
+\narr一張類獸人的旗幟，畫有不知名的圖騰，由不知名的皮製成的。
+
+Lona/CheckCropseEnd
+\CBct[6]\m[serious]\c[6]洛娜：\c[0]    被它們殺死的話，我也會變成這樣？
+
+Lona/TimerStart
+\narr洞穴外傳來了腳步聲。
+\CBct[6]\m[fear]\c[6]洛娜：\c[0]    我必須要快一點。
+
+Lona/RapeLoopNonCapture
+\m[fear]\narr類獸人將洛娜抓了起來，洛娜失去了身上所有的裝備。
+\m[terror]\narr牠們非常高興找到了新的肉便器。
+
+Lona/RapeLoopBondage
+\m[pain]\narr牠們將洛娜壓在地上，並在她身上鞍上了拘束具。
+
+Lona/RapeLoopCaptured
+\m[terror]\narr類獸人還沒玩夠，牠們沒打算讓洛娜這麼早睡。
+\m[fear]\narr牠們露出了淫邪的笑容以及惡臭的下體，今天要怎麼玩弄這個肉便器呢？
+
+Lona/RapeLoopDragOut
+\m[hurt]\narr類獸人將洛娜了拖出來，打算開場快樂的宴會。
+
+Lona/RapeLoopTorture
+\m[fear]\narr類獸人對洛娜嘗試逃跑的行為感到憤怒，它們打算教洛娜一個肉便器該有的態度。
+
+######################################## MAP TRANS
+
+Lona/ToOrkindCave1
+\cg[map_region_hole]狹窄的洞穴，魔物應該是從這裡進入到諾爾鎮的
+\CBct[2]\m[confused]\c[6]洛娜：\c[0]    要進去嗎？\optB[不要,進入]

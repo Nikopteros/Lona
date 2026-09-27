@@ -1,0 +1,896 @@
+PageUp/item_name
+Avanzar
+
+PageUp/description
+\}Pasar a la siguiente página de distribución\n
+de habilidades\n
+
+PageDown/item_name
+Retroceder
+
+PageDown/description
+\}Volver a la página anterior de distribución\n
+de habilidades\n
+
+ChainMaceNormal/item_name
+Lucero del Alba
+
+ChainMaceNormal/description
+\}¡Es hora de la carnicería!\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Requiere carga previa.\n
+\C[6]Aplastante.\n
+\C[1]Consume Reserva de Energia.\n
+\C[2]Ignora paradas.\n
+
+BasicTailBash/item_name
+Latigazo de Cola
+
+BasicTailBash/description
+\}¡Papá, mira! ¡Sin manos!\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Retroceso.\n
+\C[6]Aplastante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicSaintJudgment/item_name
+Juicio de los Santos
+
+BasicSaintJudgment/description
+\}El martillo de la justicia que dicta sentencia al mentiroso.\n
+\C[6]Daño basado en Sabiduría, Habilidades de Combate\n 
+y Constitución.\n
+\C[6]Reduce Defensa y Supervivencia.\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Ralentiza, Aturde, Aplastante,\n
+Requiere carga.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicProtectShield/item_name
+Protección de los Santos
+
+BasicProtectShield/description
+\}Protege a los fieles en nombre de los Santos.\n
+\C[6]Aplicable a objetivo seleccionado.\n
+\C[6]Defensa basada en Constitución.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicSaintSmite/item_name
+Castigo Divino
+
+BasicSaintSmite/description
+\}Castiga a los enemigos en nombre de los Santos.\n
+\C[6]Daño basado en Sabiduría, Habilidades de Combate y Constitución.\n
+\C[6]Aplicable a objetivo seleccionado.\n
+\C[6]Aplastante.\n
+\C[1]Consume Reserva de Energia.\n
+
+KatanaNormalHold/item_name
+Corte Veloz
+
+KatanaNormalHold/description
+\}«Primero se enfrentan.\n
+Al final, solo uno permanecerá...»\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Cortante, Requiere carga.\n
+\C[1]Consume Reserva de Energia.\n
+\n
+\C[2]Mantén pulsado para cargar el ataque.\n
+\C[2]Un ataque completamente cargado causa daño adicional.\n
+
+KatanaHeavy/item_name
+Golpe de Media Luna
+
+KatanaHeavy/description
+\}«Cuando creas que no puedes retroceder,\n
+será la verdad...»\n
+\C[6]Ataque amplio que golpea múltiples enemigos.\n
+\C[6]Cortante.\n
+\C[1]Consume Reserva de Energia.\n
+
+KatanaControl/item_name
+Espada Reluciente
+
+KatanaControl/description
+\}«Un momento de calma antes de liberar tu ira...\n
+En el momento preciso...»\n
+\C[6]Bloquea daño entrante brevemente.\n
+\C[6]Ataque a dos objetivos frente a Lona.\n
+\C[6]Cortante, Requiere carga.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicBattleStandard/item_name
+Estandarte de Justicia
+
+BasicBattleStandard/description
+\}«Bajo la protección del Santo,\n
+¡juntos somos más fuertes!»\n
+\C[6]Cura a aliados cercanos.\n
+\C[6]Efectividad basada en Constitución.\n
+\C[6]Aumenta Sabiduría, Supervivencia, Defensa,\n
+Ataque y Moral de aliados mientras está activo.\n
+\C[6]Mantén pulsado para usar.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicNunHeal/item_name
+Curación del Alma
+
+BasicNunHeal/description
+\}«¡Si siguen corriendo como idiotas, no los curaré!»\n
+\C[6]Cura personaje/criatura frente a ti.\n
+\C[6]El objetivo debe estar cara a cara con Lona.\n
+\C[6]Efectividad basada en Constitución.\n
+\C[6]Mantén pulsado para usar.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicAbomGrab/item_name
+Látigo de Tentáculo
+
+BasicAbomGrab/description
+\}«Muestra al mundo lo que se esconde bajo tu piel...»\n
+\C[6]Lanza un tentáculo que atrae hacia el punto de impacto.\n
+\C[6]Mantén para cargar y atraer enemigos.\n
+\C[6]Cualquiera en el camino será \C[2]agarrado\C[6].\n
+\C[2]Los objetivos agarrados son atraídos\n
+\C[2]y tienen alta probabilidad de aturdimiento.\n
+\C[6]Aturde, Ininterrumpible.\n
+\C[1]Reduce Reputación a -150 tras usar.\n
+\C[1]Consume Reserva de Energia y HP.\n
+
+BasicAbomEatDed/item_name
+Profanación
+
+BasicAbomEatDed/description
+\}«Profana la carne de los caídos...»\n
+\C[4]Lona debe estar sobre \C[6]restos\n
+\C[4]frescos para usar esta habilidad.\n
+\C[1]Reduce Reputación a -150 tras usar.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+\n
+\C[0]Infección\n
+\C[0]«Reinterpretando la evolución...»\n
+\C[2]Invoca un monstruo desde los restos.\n
+\C[6]Atributos basados en los del cadáver.\n
+\n
+\C[0]Devorar restos\n
+\C[0]«Caza, mata, devora...»\n
+\C[4]Lona devora restos para regenerarse.\n
+\C[2]Aumenta HP y Reserva de Energia.\n
+\C[6]Mantén pulsado para usar.\n
+
+SaintSymNormal/item_name
+Exorcismo
+
+SaintSymNormal/description
+\}Expulsa todo Mal, Mentira y Falsos Dioses\n
+¡en nombre y gloria de los Santos!\n
+\C[6]Aturde en área amplia.\n
+\C[6]Mantén pulsado para usar.\n
+\C[1]Consume mucha Reserva de Energia.\n
+
+BroadSwordNormal/item_name
+Tajo Amplio
+
+BroadSwordNormal/description
+\}\n
+\C[6]Ataque frontal amplio que golpea múltiples enemigos.\n
+\C[6]Requiere carga previa.\n
+\C[6]Ataque cortante ininterrumpible.\n
+\C[1]Consume Reserva de Energia.\n
+
+TeslaStaffNormal/item_name
+Arco Tesla
+
+TeslaStaffNormal/description
+\}«Siempre estoy adelantado a mi época»\n
+\C[6]Dispara un rayo en dirección a tu mirada.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+TeslaBookHeavy/item_name
+Descarga Atmosférica
+
+TeslaBookHeavy/description
+\}«Todos merecen energía gratuita».\n
+\C[6]Tormenta eléctrica en zona seleccionada.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+TeslaBookControl/item_name
+Bobina Tesla
+
+TeslaBookControl/description
+\}«Estar solo contigo mismo es el secreto de la creación».\n
+\C[6]Invoca una bobina eléctrica en ubicación.\n
+\C[6]Solo 1 bobina activa simultáneamente.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+PickAxeNormal/item_name
+Excavar
+
+PickAxeNormal/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia.\n
+
+SickleNormal/item_name
+Tajo
+
+SickleNormal/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Cortante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicDeepone/item_name
+Despertar
+
+BasicDeepone/description
+\}Transformación entre forma humana\n
+y forma de Bruja Marina\n
+\C[5]Lona permanecerá desnuda en forma de Bruja Marina.\n
+\C[2]Otorga temporalmente la habilidad "Demonio de Semen".\n
+\C[1]La metamorfosis causa enfermedades y efectos negativos graves.\n
+\C[6]Mantén pulsado para transformarte.\n
+
+DeeponeHeavy/item_name
+Convocar Sirenas
+
+DeeponeHeavy/description
+\}«¡Doncellas de las profundidades! Escuchad mi llamado...»\n
+«¡Uníos y proteged a vuestra Diosa!»\n
+\C[6]Invoca esbirro de las Profundidades.\n
+\C[6]Atributos basados en Sabiduría.\n
+\C[6]Máximo 2 esbirros.\n
+\C[6]Mantén pulsado para invocar.\n
+\C[1]Consume Reserva de Energia.\n
+
+MusketHeavyRLD/item_name
+Recargar
+
+MusketHeavyRLD/description
+\}Lona inserta un cartucho. Genial...\n
+\C[6]Mantén pulsado para recargar.\n
+\C[1]Consume Reserva de Energia.\n
+
+TalkieControl/item_name
+Justicia Celestial
+
+TalkieControl/description
+\}¡Que caiga sobre ellos el castigo divino!\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Explosivo.\n
+\C[6]Aturde.\n
+\C[6]No te puedes mover durante el uso.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+LanternHeavy/item_name
+Prender Fuego
+
+LanternHeavy/description
+\}¡Arded, monstruos!\n
+\C[6]Quema cualquier objetivo frente a Lona.\n
+\C[6]Daño basado en Supervivencia.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia.\n
+
+MusketHeavy/item_name
+Disparar
+
+MusketHeavy/description
+\}¡Así se harán las guerras del futuro!\n
+\C[6]Dispara en dirección a tu mirada.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Daño basado en Ataque.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicSteal/item_name
+Robar
+
+BasicSteal/description
+\}No hay nada malo en esto. Solo intento sobrevivir.\n
+\C[6]Probabilidad basada en Percepción.\n
+\C[6]Probabilidad basada en visibilidad del objetivo.\n
+\C[6]Solo en criaturas inteligentes.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Mantén pulsado para usar.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicAssemblyCall/item_name
+Cuerno de Convocatoria
+
+BasicAssemblyCall/description
+\}Convoca aliados hacia Lona.\n
+Mantén \C[6]Shift\C[0] para que los aliados se queden en su posición.\n
+
+BasicFuckerGrab/item_name
+Extracción de Esencia
+
+BasicFuckerGrab/description
+\}Los hombres son como frutas... ❤\n
+\C[6]Fuerza al objetivo a Combate Sexual.\n
+\C[6]No disponible para objetivos no apareables.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Mantén pulsado para usar.\n
+\C[1]Consume Reserva de Fuerza.\n
+\n
+\C[0]Usa \C[4]flechas：\C[0] durante\n
+la canalización para seleccionar postura.\n
+\C[6]Nada：Postura aleatoria.\n
+\C[6]Arriba：Vaginal.\n
+\C[6]Abajo：Anal.\n
+\C[6]Izquierda/Derecha：Oral.\n
+
+BasicSetDarkPot/item_name
+Caldero Oscuro
+
+BasicSetDarkPot/description
+\}¡Debes cocinar según el libro!\n
+\C[2]Crea un Caldero Oscuro frente a Lona.\n
+\C[6]Usa un Garrote de Madera para colocarlo.\n
+\C[6]El garrote se destruye tras usarlo.\n
+\C[6]Usa el caldero para crear objetos.\n
+\C[6]No disponible en combate.\n
+\C[6]Mantén pulsado para usar.\n
+\C[1]Consume Reserva de Energia.\n
+
+DebugPrintChar/item_name
+DebugTarget
+
+DebugPrintChar/description
+HerramientaDev
+
+sys_normal/item_name
+Básico
+
+sys_normal/description
+\}\n
+\C[1]Habilidad no disponible.\n
+
+sys_heavy/item_name
+Potenciado
+
+sys_heavy/description
+\}\n
+\C[1]Habilidad no disponible.\n
+
+sys_control/item_name
+Defensa
+
+sys_control/description
+\}\n
+\C[1]Habilidad no disponible.\n
+
+BasicTrapItem/item_name
+Colocar Trampa
+
+BasicTrapItem/description
+\}Es más sabio matar al enemigo antes de que llegue.\n
+\C[6]Usa objeto en slot EXT-1/2 para colocar trampa.\n
+\C[6]Daño basado en Supervivencia y peso del objeto.\n
+\C[1]Consume Resistencia.\n
+\C[6]Mantén pulsado para usar.\n
+\C[6]Shift：\C[0]Recoge y usa piedra automáticamente.\n
+
+BasicQuickExt1/item_name
+EXT-1
+
+BasicQuickExt1/description
+\}\n
+\C[2]Usar objeto en slot EXT-1.\n
+\C[6]Ctrl：\C[0]Quitar objeto de EXT-1.\n
+\C[6]Shift：\C[0]Usar habilidad del objeto.\n
+
+BasicQuickExt2/item_name
+EXT-2
+
+BasicQuickExt2/description
+\}\n
+\C[2]Usar objeto en slot EXT-2.\n
+\C[6]Ctrl：\C[0]Quitar objeto de EXT-2.\n
+\C[6]Shift：\C[0]Usar habilidad del objeto.\n
+
+BasicQuickExt3/item_name
+EXT-3
+
+BasicQuickExt3/description
+\}\n
+\C[2]Usar objeto en slot EXT-3.\n
+\C[6]Ctrl：\C[0]Quitar objeto de EXT-3.\n
+\C[6]Shift：\C[0]Usar habilidad del objeto.\n
+
+BasicQuickExt4/item_name
+EXT-4
+
+BasicQuickExt4/description
+\}\n
+\C[2]Usar objeto en slot EXT-4.\n
+\C[6]Ctrl：\C[0]Quitar objeto de EXT-4.\n
+\C[6]Shift：\C[0]Usar habilidad del objeto.\n
+
+BasicQuickExt5/item_name
+EXT-5
+
+BasicQuickExt5/description
+\}\n
+\C[2]Usar objeto en slot EXT-5.\n
+\C[6]Ctrl：\C[0]Quitar objeto de EXT-5.\n
+\C[6]Shift：\C[0]Usar habilidad del objeto.\n
+
+FireBookControl/item_name
+Bombardeo
+
+FireBookControl/description
+\}¡Cierra los ojos y tápate los oídos!\n
+¡FUEGO!\n
+\C[6]Bombardea ubicación seleccionada.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Explosivo.\n
+\C[6]Aturde.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+FireBookHeavy/item_name
+Muro de Fuego
+
+FireBookHeavy/description
+\}Una barrera de llamas me protegerá\n
+de los malos y los virus!\n
+\C[6]Invoca muro de fuego en dirección a tu mirada.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Aplastante.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+FireStaffNormal/item_name
+Bola de Fuego
+
+FireStaffNormal/description
+\}¡La mejor táctica es tierra quemada!\n
+\C[6]A distancia, Explosivo.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Aplastante.\n
+\C[6]Ralentiza objetivo.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+WaterStaffNormal/item_name
+Bola de Agua
+
+WaterStaffNormal/description
+\}¡En sus caras!\n
+\C[6]A distancia, Retroceso.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+WaterBookControl/item_name
+Torbellino Acuático
+
+WaterBookControl/description
+\}¡Cree en ti, puedes hacerlos volar!\n
+\C[6]Invoca torbellino en ubicación.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+WaterBookHeavy/item_name
+Nova Acuática
+
+WaterBookHeavy/description
+\}¡Que se larguen!\n
+\C[6]Crea ola de agua frente a Lona.\n
+\C[6]Retroceso.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+DeeponeControl/item_name
+Niebla
+
+DeeponeControl/description
+\}¡No pueden verte!\n
+\C[6]Invoca nube de niebla en ubicación.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+BasicLetterMenu/item_name
+Leer
+
+BasicLetterMenu/description
+\}\n
+\C[1]Abre menú de cartas.\n
+
+BasicThrow/item_name
+Lanzar
+
+BasicThrow/description
+\}\n
+\C[6]Funciona en modo Sigilo.\n
+\C[2]Atrae atención de criaturas cercanas\n
+y las distrae temporalmente.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicSetCamp/item_name
+Montar Campamento
+
+BasicSetCamp/description
+\}\n
+\C[2]Permite descansar y recuperar Reserva de Energia.\n
+\C[1]Consume Saciedad.\n
+\C[6]No disponible en combate.\n
+\C[6]No disponible en ciertas zonas.\n
+
+BasicNap/item_name
+Descansar
+
+BasicNap/description
+\}\n
+\C[0]Reposo\n
+\C[4]Puede usarse en cualquier lugar/momento.\n
+\C[4]Consume 10 de Saciedad y\n
+restaura 20 de Reserva de Energia.\n
+\C[4]Sin efecto si Saciedad <10.\n
+\n
+\C[0]Dormir\n
+\C[4]Mantén \C[6]Shift\C[4] para dormir.\n
+\C[2]Restaura significativamente Reserva de Energia.\n
+\C[5]Avanza el tiempo.\n
+\C[1]Reduce Saciedad.\n
+\C[6]No disponible en combate.\n
+\C[6]No disponible en ciertas zonas.\n
+
+BasicSlipped/item_name
+Caída
+
+BasicSlipped/description
+\}\n
+\C[6]\{¡AUCH!!!\n\} 
+\C[1]Lona resbala y golpea su cabeza...\n
+Reduce Reserva de Energia a -100 y queda inconsciente.
+
+BasicPickRock/item_name
+Recoger Piedra
+
+BasicPickRock/description
+\}\n
+\C[6]Recoge una piedra.\n
+\C[2]Añade 1 Piedra al inventario.
+\C[1]Consume Reserva de Energia.\n
+
+BasicNeeds/item_name
+Necesidades
+
+BasicNeeds/description
+\}Permite atender necesidades personales.\n
+\C[6]No disponible en combate.\n
+\C[6]Opciones disponibles:\n
+\C[2]Bañarse\n
+\C[2]Orinar/Defecar\n
+\C[2]Masturbarse\n
+\C[2]Limpiar vagina\n
+\C[2]Extraer leche\n
+\C[2]Intentar quitar grilletes\n
+
+BasicSubmit/item_name
+Rendirse
+
+BasicSubmit/description
+\}\n
+\C[6]¿Desnudarse y rendirse?!\n
+\C[1]Lona soltará todo su equipo\n
+y quedará aturdida.\n
+
+AbominationTotemControl/item_name
+Invocar Tentáculos
+
+AbominationTotemControl/description
+\}Tentáculos... Al menos están de mi lado.\n
+\C[6]Invoca monstruo tentacular frente a Lona.\n
+\C[6]Atributos basados en Sabiduría.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+AbominationTotemHeavy/item_name
+Espora Maligna
+
+AbominationTotemHeavy/description
+\}\n
+\C[6]Invoca Espora Maligna frente a Lona.\n
+\C[6]Explota causando daño en área.\n
+\C[6]Atributos basados en Sabiduría.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+AbominationTotemWorm/item_name
+Invocar Sanguijuela
+
+AbominationTotemWorm/description
+\}\n
+\C[6]Invoca monstruo vermiforme frente a Lona.\n
+\C[6]Atributos basados en Sabiduría.\n
+\C[6]Aplastante.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+BoneStaffNormal/item_name
+Esfera de Corrosión
+
+BoneStaffNormal/description
+\}\n
+\C[6]A distancia.\n
+\C[6]Daño basado en Sabiduría.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia y Moral.\n
+
+DaggerHeavy/item_name
+Golpe al Punto Débil
+
+DaggerHeavy/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Ignora paradas.\n
+\C[6]Perforante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia.\n
+
+WhipNormal/item_name
+Latigazo
+
+WhipNormal/description
+\}\n
+\C[6]Ataque en área frontal.\n
+\C[6]Aplastante.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicNormal/item_name
+Golpe Básico
+
+BasicNormal/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Aplastante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicHeavy/item_name
+Golpe Pesado
+
+BasicHeavy/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Aplastante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicControl/item_name
+Agarrar
+
+BasicControl/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona\n
+\C[6]Lona embiste y derriba al objetivo.\n
+\C[6]Aturde, Ininterrumpible.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia.\n
+
+BasicDodge/item_name
+Esquivar
+
+BasicDodge/description
+\}\n
+\C[6]Evita daño momentáneamente.\n
+\C[1]Consume Reserva de Energia.\n
+
+SabarNormal/item_name
+Tajo de Sable
+
+SabarNormal/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Cortante, Ignora Armadura.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+ShortSwordNormal/item_name
+Tajo de Espada
+
+ShortSwordNormal/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Cortante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+WoodenClubNormal/item_name
+Golpe de Garrote
+
+WoodenClubNormal/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Aplastante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+WoodenSpearNormal/item_name
+Empalar
+
+WoodenSpearNormal/description
+\}\n
+\C[6]Ataque a dos objetivos frente a Lona.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia.\n
+
+WoodenSpearHeavy/item_name
+Golpe de Lanza
+
+WoodenSpearHeavy/description
+\}\n
+\C[6]Ataque circular.\n
+\C[6]Aplastante, Ininterrumpible.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia.\n
+
+LongBowNormal/item_name
+Disparo
+
+LongBowNormal/description
+\}\n
+\C[6]A distancia.\n
+\C[6]Aplastante.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia.\n
+
+LongBowHeavy/item_name
+Lluvia de Flechas
+
+LongBowHeavy/description
+\}\n
+\C[6]Dispara múltiples flechas a ubicación.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia.\n
+
+LongBowControl/item_name
+Disparo Preciso
+
+LongBowControl/description
+\}\n
+\C[6]A distancia.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia.\n
+
+ManCatcherNormal/item_name
+Ataque Penetrante
+
+ManCatcherNormal/description
+\}\n
+\C[6]Ataque a dos objetivos frente a Lona.\n
+\C[6]Aplastante.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+ManCatcherHeavy/item_name
+Golpe Penetrante
+
+ManCatcherHeavy/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Aplastante.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+ManCatcherControl/item_name
+Tajo Penetrante
+
+ManCatcherControl/description
+\}\n
+\C[6]Ataque en todas direcciones.\n
+\C[6]Aplastante.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+HalberdNormal/item_name
+Golpe de Alabarda
+
+HalberdNormal/description
+\}\n
+\C[6]Ataque a dos objetivos frente a Lona.\n
+\C[6]Cortante.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+HalberdHeavy/item_name
+Golpe Pesado de Alabarda
+
+HalberdHeavy/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Cortante.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+HalberdControl/item_name
+Ataque Circular de Alabarda
+
+HalberdControl/description
+\}\n
+\C[6]Ataque en todas direcciones.\n
+\C[6]Cortante, Ininterrumpible.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+DaggerControl/item_name
+Golpe por la Espalda
+
+DaggerControl/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Perforante.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia.\n
+
+ThrowingKnivesHeavy/item_name
+Cuchillo Arrojadizo
+
+ThrowingKnivesHeavy/description
+\}\n
+\C[6]A distancia.\n
+\C[6]Perforante.\n
+\C[6]Ralentiza objetivo.\n
+\C[1]Consume Reserva de Energia.\n
+
+WoodenShieldHeavy/item_name
+Golpe de Escudo
+
+WoodenShieldHeavy/description
+\}\n
+\C[6]Ataque al objetivo frente a Lona.\n
+\C[6]Retroceso.\n
+\C[6]Aplastante.\n
+\C[6]Funciona en modo Sigilo.\n
+\C[6]Aturde.\n
+\C[1]Consume Reserva de Energia.\n
+
+WoodenShieldControl/item_name
+Bloquear
+
+WoodenShieldControl/description
+\}\n
+\C[6]Mantén para bloquear ataques.\n
+\C[6]Mantén pulsado para canalizar.\n
+\C[1]Consume Reserva de Energia.\n
+
+nil/item_name
+
+nil/description

@@ -1,0 +1,183 @@
+thisMap/OvermapEnter
+Monasterio de la Montaña \optB[Cancelar,Entrar]
+
+#---------------------#-------------------#---------------------  -------------------------------
+Priest/begin0
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]Sacerdote：\C[0]    Los Santos han ejecutado su castigo divino, los cruelmente asesinados han regresado en carne.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\C[4]Sacerdote：\C[0]    Hijo, ¿algo va mal?
+
+Priest/opt_MT_crunch
+Monasterio de la Montaña
+
+Priest/opt_Doctor
+El médico desaparecido
+
+Priest/opt_Undead
+Purificador de no-muertos
+
+Priest/opt_SaintMonastery
+Petición del Santo
+
+Priest/Ans_crunch
+\CBct[2]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Uff... ¿Qué clase de lugar es este?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    El \c[6]Monasterio de la Montaña\C[0] es donde los creyentes de todo el mundo vienen a experimentar la verdadera voluntad de los Santos.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Estas personas son diferentes de los hipócritas y mentirosos del mundo secular.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Y son esos mentirosos los que alejan a la gente de los Santos!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Practicamos medicina aquí y ayudamos a los aldeanos locales y viajeros.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Somos la verdadera representación de los Santos!
+\CBct[8]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Ajá, entiendo...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    También sabemos del caos que reina fuera del monasterio. ¿Has venido buscando ayuda médica?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Lamentablemente, ninguno de nuestros sanadores ha regresado.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    El falso dios también convoca a los No-Muertos desde sus tumbas, así que no pudimos enviar ayuda.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Los mentirosos rezan a los Santos.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Pero los Santos enviarán castigo divino porque todos son mentirosos.
+\CBct[8]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Ajá...
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Los viajeros pueden descansar aquí y encontrar paz espiritual. Ofrecemos seguridad a viajeros como tú.
+\CBct[20]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Bien, gracias.
+
+Lona/Ans_SaintMonastery
+\CBct[20]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Em... ¿Hay algún médico aquí?
+\CBct[20]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    La \c[6]Sociedad de los Santos\C[0] pide que envíen sanadores.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    La \c[6]Sociedad de los Santos\C[0]\..\..\..
+\CBid[-1,5]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Regresa y dile a esos hipócritas mundanos que busquen su propio camino!
+\CBct[20]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Pero... bueno.
+
+Lona/UndeadClearn
+\CBct[20]\m[confused]\PRF：\C[0]\C[6]Lona：\C[0]    Hmm... Parece que hemos terminado aquí...
+\CBct[20]\m[flirty]\PRF：\C[0]\C[6]Lona：\C[0]    Salgamos de este lugar infernal lo antes posible.
+
+Priest/EndTalk
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Permite que los Santos sean tu luz.
+
+Priest/TooWeak
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    No pareces una mercenaria.
+\narr Lona parece demasiado débil
+
+Priest/Ans_accept
+\CBct[8]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Creo que... Eh... No debería haber problema, ¿verdad?
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Bien! ¡Ahora eres una guardiana de los Santos!
+
+Pitcher/UndeadGate_b4QU0
+\CBid[-1,20]\C[4]Monje：\C[0]    Mantente alejada de este lugar, está lleno de no-muertos.
+
+Pitcher/UndeadGate_b4QU1
+\CBid[-1,20]\C[4]Monje：\C[0]    Esto es la ira de los Santos, todo fue predicho hace mucho tiempo.
+
+Pitcher/UndeadGate_b4QU2
+\CBid[-1,1]\C[4]Monje：\C[0]    ¿Tú\..\..\..eres una mujer?
+
+SaintState/begin0
+\board[El Santo Sin Nombre]
+El Santo Sin Nombre dijo: Soy invulnerable mientras ruedo, y el fuego de los falsos dioses no puede dañarme.
+Evangelio de los Santos 66:6
+
+##################################################################################### Caza de No-Muertos
+
+Priest/Ans_Undead
+\CBct[2]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Em... ¿Te refieres a los No-Muertos?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Sí, los No-Muertos comenzaron a atacar hace unos meses, cortando nuestra comunicación con el mundo exterior.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Debe ser el castigo divino por nuestras mentiras.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Eres una mercenaria, ¿no? Si me ayudas, estaré muy agradecido y la recompensa será generosa.
+
+Priest/Ans_Undead_brd
+\board[Eliminación de No-Muertos]
+Misión：Exterminar a los No-Muertos en el cementerio del Monasterio de la Montaña
+Recompensa：Gran Medallón de Cobre x2\i[582]
+Cliente：Monasterio de la Montaña
+Plazo：Ninguno
+Habla con el Monje en el cementerio y elimina a todos los No-Muertos.
+
+Pitcher/UndeadGate0
+\CBid[-1,20]\C[4]Monje：\C[0]    ¿Eres la mercenaria que viene a lidiar con los no-muertos?
+\CBct[20]\m[flirty]\PRF：\C[0]\C[6]Lona：\C[0]    ¿Supongo que sí?
+\CBid[-1,20]\prf\C[4]Monje：\C[0]    ¡Oh Santos, gracias!
+
+Pitcher/UndeadGate1
+\CBid[-1,20]\C[4]Monje：\C[0]    Nos ocupamos de algunos, pero los demás son tu responsabilidad. No quiero ver más esos cadáveres ambulantes.
+
+lona/EnterCave
+\CBct[8]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    \..\..\..
+\CBct[6]\m[tired]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Ugh, esto da escalofríos...
+
+Priest/KillAllUndead0
+\CBct[2]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Em... ¿Podría decirse que terminé con todos?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    ¿En serio? Déjame ver...
+
+Priest/KillAllUndead1
+\CBid[-1,4]\SETpl[HumPriest2]\Lshake\C[4]Sacerdote：\C[0]    ¡Excelente! ¡Toma, un pago digno por un servicio digno!
+
+Priest/KillAllUndead2
+\CBct[3]\m[flirty]\PRF：\C[0]\C[6]Lona：\C[0]    ¡Gracias!
+
+##################################################################################### Búsqueda del Médico en el Campamento Orco
+
+Priest/Ans_doctor
+\CBct[2]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    ¿Oí que practican medicina aquí?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Sí, pero como probablemente te dijeron, no hemos podido regresar desde que nos enviaron hace más de un mes.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Ha pasado mucho tiempo desde que los médicos partieron, y no hay noticias.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    La última vez que supimos de ellos fue cuando visitaron la cabaña del cazador al norte, pero luego solo escuchamos que algo malo pasó. Algún disturbio.
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Necesitamos a alguien como tú para que investigue qué les pasó.
+\CBct[2]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    ¿Yo?
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    ¡Sí, tú!
+
+Priest/Ans_doctor_brd
+\board[Elimina a los No-Muertos]
+Misión：Exterminar a los No-Muertos en el cementerio del monasterio
+Recompensa：Gran Medallón de Cobre x2\i[582]
+Cliente：Sacerdote
+Plazo：Ninguno
+Ve a la cabaña del norte y descubre qué les pasó a los monjes.
+
+DcSearch/Qmsg0
+Cadáver de un monje
+
+DcSearch/Qmsg1
+Cadáver de un Sacerdote
+
+DcSearch/Qmsg2
+Cadáver de un creyente
+
+DcSearch/Done0
+\CBct[8]\m[confused]\PRF：\C[0]\C[6]Lona：\C[0]    Están todos muertos...
+\CBct[8]\m[tired]\PRF：\C[0]\C[6]Lona：\C[0]    ....
+\CBct[5]\m[serious]\PRF：\C[0]\C[6]Lona：\C[0]    Bueno, es hora de recuperar la compostura y volver al \c[4]Monasterio de la Montaña\C[0] lo antes posible.
+
+Priest/doctor_Done0
+\CBct[8]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Em...
+\CBct[20]\m[tired]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Bueno, sobre los médicos... Todos están muertos.
+\CBid[-1,8]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    Así es... Así de simple...
+\CBct[20]\m[sad]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Lo siento...
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]Sacerdote：\C[0]    No es tu culpa. Es el castigo por abandonar su fe.
+
+##################################################################################### Cocona única
+
+cocona/Home0
+\CBfB[20]\SETlpl[cocona_shocked]\prf\Lshake\c[4]Cocona：\C[0]    ¡Hermana!
+\CBct[6]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    ¿Qué pasa?
+\CBfB[4]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\C[0]    ¡Este olor! ¡Huele a hogar!
+\CBct[2]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    ¿Hogar?
+\CBfB[4]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Sí! ¡Mi hogar! ¡Bajo tierra!
+\CBct[6]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Ah, ya entiendo.
+
+UndeadX/cocona0
+\CBid[-1,8]\c[4]No-Muerto：\C[0]    Oaaooa.... Cerebros......
+\CBct[6]\m[confused]\PRF：\C[0]\C[6]Lona：\C[0]    ...
+
+UndeadX/cocona1
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Cocona：\C[0]    ¡Hermana mayor! ¡Espera! ¡Es amigo!
+\CBct[2]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    ¿Eh? ¿Amigo?
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\C[0]    ¡Sí! ¡Buenos amigos!
+
+UndeadX/cocona2
+\CBct[8]\m[confused]\PRF：\C[0]\C[6]Lona：\C[0]    .....
+
+UndeadX/cocona3
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\c[4]Cocona：\C[0]    ¡Hermana! ¡El buen amigo se fue a casa!
+\CBct[2]\m[confused]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Em... ¿Estás segura de eso?
+\CBfB[20]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\C[0]    Los buenos amigos siguen a los Santos. Los buenos amigos son como la hermana. Los buenos amigos le dan regalos a la hermana.
+
+UndeadX/cocona4
+\CBct[2]\m[flirty]\plf\PRF：\C[0]\C[6]Lona：\C[0]    Oh... ¿Y qué se supone que debo decir? ¿Gracias?
+\CBfB[3]\SETlpl[cocona_happy]\Lshake\prf\c[4]Cocona：\C[0]    ¡Sí! ¡Muy bien! ¡Los que aman a los Santos son buenos amigos!

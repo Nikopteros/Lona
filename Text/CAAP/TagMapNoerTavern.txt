@@ -1,0 +1,280 @@
+NoerTavern/OvermapEnter
+\m[confused]El Barril Ardiente\nUna taberna conocida que abre 24/7, todo el día y toda la noche \optB[Cancelar,Entrar]
+
+##########-----------------------------------------------------
+
+Taxidermist/DeepOne
+\cg[other_DeeponeTaxidermist]Monstruo Abisal
+Fecha de caza: 1754.3.14
+
+Taxidermist/Hog
+\cg[other_HogTaxidermist]Jabalí Salvaje
+Fecha de caza: 1757.6.11
+
+###################################################################     GENTE COMÚN
+
+CommonPPL/begin0
+\c[4]Borracho: \C[0]    ¡Trago! *¡Hic!* ¡Más trago! *Eructo*
+
+CommonPPL/begin1
+\c[4]Borracho: \C[0]    ¡Chiquilla! ¡Jajaja! ¡Ni-ñi-ña!
+
+CommonPPL/begin2
+\c[4]Borracho: \C[0]    ¡Tetotas! *Eructo* Quiero *¡Hic!* ver-las *Eructo*
+
+CommonPPL/begin3
+\c[4]Borracho: \C[0]    ¡Ju je! ¡Más BEEER cerveza! *¡Hic!*
+
+CommonPPL/begin4
+\c[4]Borracho: \C[0]    ¡Gark! ¡Jajajaj! ¡Oooh!
+
+###################################################################     VIOLACIÓN DURANTE DESCANSO
+
+CommonPPL/NapRape
+\c[4]Borracho: \C[0]    ¡Jejeje! *¡Hic!* ¿Qué hace.. una cosita tan linda aquí tirada? *Eructo*
+
+CommonPPL/NapRape1
+\c[4]Borracho: \C[0]    ¡Je je! *¡Hic!* ¡U-ju-ju!
+
+CommonPPL/NapRape2
+\narr Lona fue arrastrada a otro lugar...
+
+CommonPPL/NapRape3
+\c[4]Borracho: \C[0]    To-do bien *¡Hic!* To-do bien... ¿Quieres.. *Eructo* ayudar al tío a divertirse? *Eruuucto*
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]Borracho: \C[0]    Parece que.. *Eructo* quieres.. *¡Hic!* mo-rir! ¿Eh?!
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]Borracho: \C[0]    Eee-so.. *¡Hic!* Eee-so es...... *Eructo*!
+
+##########-----------------------------------------------------NoerTavern        Hazubendo 
+
+Hazubendo/FearWaifu0
+No me hables...
+
+Hazubendo/FearWaifu1
+N-No puedo hablar con otras mujeres.
+
+Hazubendo/FearWaifu2
+¡Me matará si charlamos!
+
+Hazubendo/FearWaifu3
+Y ella antes era tan dulce... *Suspiro*
+
+Hazubendo/begin
+\CBid[-1,20]\c[4]Marido de Mamá: \C[0]    ¡Soy libre! ¡Dulce, preciosa LIBERTAD! ¡Todos debemos luchar por nuestra libertad!!! \optB[No importa,Intercambiar]
+
+
+##########-----------------------------------------------------                WAIFU
+
+Waifu/begin1_RecQuestCocona_win
+\CBid[-1,5]\SETpl[BigMama_happy]\Lshake\c[4]Gran Mamá: \C[0]    No puedo creer que te haya perdido....
+
+Waifu/begin1_RecQuestCocona_loser
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Gran Mamá: \C[0]    No me decepciones, gusano.
+
+Waifu/begin1_RecQuestCocona_28_0
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Gran Mamá: \C[0]    ¡Oye! ¿Por qué sigues aquí?
+
+Waifu/begin1_RecQuestCocona_28_1
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Gran Mamá: \C[0]    ¿Sigues aquí?
+
+Waifu/begin1_slave
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]Gran Mamá: \C[0]    \{¿Qué hacen esclavos aquí? ¡LARGO!!!
+
+Waifu/begin1_maggot
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]Gran Mamá: \C[0]    \{¡Asqueroso gusano! ¡Ahuyentarás a los clientes!
+
+Waifu/begin1_sexy
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    \{¡¿Puta?! ¡¿Qué haces aquí olvidada?!
+
+Waifu/begin1_weaker
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    \{¡¿Qué miras?! ¡¿EH?!
+
+Waifu/begin1_moot
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Gran Mamá: \C[0]    \{¡¿Qué quieres?! ¡Tienes suerte que atendamos a gente como tú!
+
+Waifu/begin1_lona
+\CBid[-1,8]\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    \{¡¿Qué?! ¡Pide algo o lárgate!
+
+##########-------------
+
+Waifu/Opt
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    Hmmm...
+
+Waifu/work_begin_RecQuestCocona_28
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Gran Mamá: \C[0]    ¡¿No has ganado suficiente?!
+
+Waifu/work_begin
+\CBid[-1,8]\SETpl[BigMama_normal]\Lshake\prf\c[4]Gran Mamá: \C[0]    \{¡¿CONTRATARTE?! ¿Y qué sabe hacer una enana como tú?
+
+Waifu/Opt_work
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona: \C[0]    Yo-yo... \optB[Nada,Camarera,Bailarina]
+
+Waifu/Opt_work_end_summon
+\CBmp[TavernWaifu,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Gran Mamá: \C[0]    \{¡Todo el día moviendo el culo! ¡El tiempo es oro! ¡ADELANTE!
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona: \C[0]    \}Oh... Perdón...
+
+Waifu/Opt_work_end_NoSummon1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Gran Mamá: \C[0]    ¡Puf! ¡DEMASIADO LENTA! \{¡Al diablo contigo!
+\CBct[3]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ......¿Gracias?
+
+Waifu/Opt_work_end_NoSummon2
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Gran Mamá: \C[0]    \{¡No está mal! Vuelve por más trabajo luego.
+\CBct[3]\m[flirty]\plf\PRF\c[6]Lona: \C[0]    ¿Oh?......¿Gracias?
+
+
+##########-------------##########-------------##########------------- BAILARINA
+
+Waifu/Opt_work_dancer_board
+\board[Bailarina]
+Las bailarinas deben estar seguras de su fuerza física y apariencia.
+Baila y recoge monedas hasta que se acabe el tiempo. Cuantas más monedas recojas, más ganarás.
+Asegúrate de responder a las peticiones de los clientes y haz todo lo que quieran.
+Cuanto más atractiva seas y más peticiones cumplas, más monedas te tirarán.
+Correr durante el trabajo consume más energía.
+
+Waifu/Opt_work_dance
+\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    Eres bastante pequeña, ¿no? ¿Crees que podrás con este trabajo?
+\m[sad]\c[6]Lona: \C[0]    Creo que sí...
+\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    ¡BIEN! Pero no prometo que esos cabrones no te harán nada.
+
+Waifu/Opt_work_dance_end
+\narr Trabajo de bailarina terminado.
+
+Waifu/dance_low_sta_rape
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    ¡Miren a esta enana, ni siquiera puede levantarse!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    ¡Sí, la pobrecita está agotada!
+\SETpl[raper1]\Lshake\c[4]Borracho: \C[0]    ¡Usemos nuestras vergas para inyectarle energía y que recupere fuerzas!
+
+Waifu/dance_rape1
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    ¡Ya no aguanto más! ¡Quiero follarla!
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    ¡No jodas! ¡Yo primero!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    ¡Vamos a follárnosla todos juntos!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    ¡Espera! ¡Gran Mamá sigue aquí, nos matará por esto!
+
+Waifu/dance_rape1_1
+\SETpr[BigMama_normal]\c[4]Gran Mamá: \C[0]    ¡Te lo advertí, esto también es parte de tu trabajo!
+\SETpr[BigMama_normal]\c[4]Gran Mamá: \C[0]    ¡Lo demás no me importa!
+\prh\narr Gran Mamá se fue...
+
+Waifu/dance_rape1_2
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    ¡Gracias, Mamá! ¡Alabada sea Gran Mamá!
+
+Waifu/dance_rape2
+\m[terror]\c[6]Lona: \C[0]    N-No......
+
+Lona/dance_DDR_DressOut
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    ¡Striptease!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Quítate la ropa!!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{\{¡¡DESNÚDATE!!!
+
+Lona/dance_DDR_Masturbation
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡Mastúrbate!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Muéstranos cómo te tocas!!!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Mastúrbate! ¡Mastúrbate!! ¡¡MASTÚRBATE!!!
+
+Lona/dance_DDR_Pee
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡Méate!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Sí! ¡Orina donde estés! ¡Que todos te vean!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Mea! ¡Mea!! ¡¡MEA!!!
+
+Lona/dance_DDR_Poo
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡Caga mientras te miramos!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Jaja! ¡Quién dijo que las niñas no cagan?!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Caga en el mostrador! ¡Vamos! ¡¡VAMOS!!!
+
+Lona/dance_DDR_Milk
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡¿Has tenido hijos?! ¡Quiero leche!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Sí! ¡Mamá, tengo hambre!! ¡Bua-ja-ja!!!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Rápido! ¡Exprime un vaso de leche para cada uno aquí!
+
+Lona/dance_DDR_GroinClearn
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¿Eres puta, no? ¡Abre tu agujero para follar y exprime todo el semen de tu pequeño coño!\}
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Sí, sí! ¡Y luego lámelo para que todos lo vean!\}
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Bien dicho! ¡Las putas deben actuar como putas!\}
+
+Lona/dance_DDR_Cum
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡Quiero correrme en ella!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Yo también! ¡Oye! ¡Ven y déjanos vaciarnos en ti!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Es bueno para la piel! ¡No dejes que el semen se desperdicie!!!
+
+Lona/dance_DDR_Bukaake
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡Quiero cubrirle la cara con mi semen!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Yo también! ¡Oye! ¡Ven aquí!
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Atrapa el semen con la cara! ¡Vamos, no dejes escapar nada!!!
+
+Lona/dance_DDR_PeeonHead
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡Quiero mear!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Yo también! ¿Vamos a mearle en la boca?
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Fiu! ¡Oye, ven aquí! ¡Abre la boca!! ¡Bebe!!!
+
+Lona/dance_DDR_Peeon
+\SETpl[raper3]\Lshake\c[4]Borracho: \C[0]    \{¡Quiero mear!
+\SETpl[raper2]\Lshake\c[4]Borracho: \C[0]    \{¡Yo también! ¿Vamos a mearle encima?
+\SETpl[raper_group]\Lshake\c[4]Borracho: \C[0]    \{¡Exacto! ¡Abre las piernas!! ¡Sujetadla!!!
+
+Lona/dance_DDR_opt
+\m[shy]\c[6]Lona: \C[0]    Emmm... \optD[Hacerlo<t=3>,Rechazar]
+
+##########-------------##########-------------##########------------- CAMARERA
+
+Waifu/Opt_work_waiter_board
+\SND[SE/Book1]\board[Servir vino]
+Sirve vino a diez clientes antes de que se acabe el tiempo.
+Correr durante el trabajo consume más energía.
+Cuanto más tiempo quede, mayor será la recompensa.
+
+Waifu/Opt_work_waiter2_decide
+\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    \{¡No está mal! Sirve vino a los clientes. Y no la cagues, ¡O SI NO..!
+\m[fear]\Rshake\c[6]Lona: \C[0]    \{Sí... ¡Entendido!
+
+###################################################
+
+Waifu/WorkFailed0
+\CamMP[TavernWaifu]\m[shocked]\SETpl[BigMama_angry]\Lshake\prf\c[4]Gran Mamá: \C[0]    \{¡¿Qué mierda estás haciendo?! ¡Eres una basura!
+\m[sad]\PLF\c[6]Lona: \C[0]    \}Ah... Perdón...
+
+Waifu/WorkFailed1
+\SETpl[BigMama_angry]\Lshake\c[4]Gran Mamá: \C[0]    \{¡Eres un desecho inútil!
+
+Waifu/WorkFailed2
+\SETpl[BigMama_angry]\Lshake\c[4]Gran Mamá: \C[0]    \{Eres... COMPLETAMENTE INÚTIL...!!!
+
+Waifu/WorkFailed3
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    \{¡LÁRGATE DE MI TABERNA!!!
+
+Waifu/WorkFailed_slave
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]Gran Mamá: \C[0]    ¡Compensa el daño a los clientes con tu cuerpo! ¡VIVA!
+\m[shocked]\Rshake\c[6]Lona: \C[0]    ¡¿Q-Qué?!
+
+###################################################
+
+Waifu/NapSlave
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]Gran Mamá: \C[0]    \{¡MALDITOS ESCLAVOS!!! ¡LARGO DE MI TABERNA!!!
+\m[sad]\PLF\c[6]Lona: \C[0]    \}P-Perdón...
+
+Waifu/NapNokey
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]Gran Mamá: \C[0]    ¡FUERA! ¡LÁRGATE!! ¡VETE A LA MIERDA!!! ¡ESCORIA!
+\m[sad]\PLF\c[6]Lona: \C[0]    \}Disculpe...
+
+##########-------------------	Seguidor	----------------
+
+CommonCompanion/TavernCommand
+\m[confused] \optB[Cancelar,Disolver]
+
+##########-------------------	Común	----------------
+
+Nap/NotMyBed
+No sin permiso
+
+2fKid/Qmsg0
+Papá dice que debo beber más
+
+2fKid/Qmsg1
+Hay que beber para ser adulto
+
+2fKid/Qmsg2
+¿Ya soy adulto?
+

@@ -1,0 +1,11 @@
+ThisMap/OmEnter
+\m[confused]바다쪽 출구\optB[그만둔다,들어간다]
+
+Lona/sail_begin
+\m[confused]\c[6]로나：\c[0] 이걸로 여기서 나갈 수는 있지만… 꼭 그래야 할까?
+
+Lona/sail0
+\narr로나의 허약한 몸으로는 작은 배의 방향을 조종할 수 없었다.
+
+Lona/sail1
+\narr그녀는 그저 물결에 몸을 맡길 수밖에 없었다.

@@ -1,0 +1,101 @@
+thisMap/OvermapEnter
+諾爾之環\optB[沒事,進入]
+
+############################################## statue Quest
+
+Rager/Quprog0
+\CBid[-1,20]\m[confused]\prf\c[4]市民：\c[0]    \{渾蛋！\}
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    啊？！ 什麼？
+\CBid[-1,20]\prf\c[4]市民：\c[0]    當初我們幫助妳建立了\c[6]席芭莉絲\c[0]，而妳們卻從諾爾侵奪一切。
+\CBid[-1,20]\prf\c[4]市民：\c[0]    我們幫助妳們的落難者，而妳們卻把這弄的一團糟。
+\CBid[-1,20]\prf\c[4]市民：\c[0]    現在? 連\c[6]雷諾依\c[0]雕像都偷走了。
+\CBid[-1,20]\prf\c[4]市民：\c[0]    妳們這些自以為是的帝都人都應該去死。
+\CBid[-1,20]\prf\c[4]市民：\c[0]    看妳一身屎味就知道了。
+\CBid[-1,20]\prf\c[4]市民：\c[0]    妳也是\c[6]席芭莉絲\c[0]人對吧，我聞的出來！
+
+Rager/Quprog0_board
+\board[雷諾依的雕像]
+目標：找到雷諾依的雕像
+報酬：道德5
+委託主：市民
+期限：無
+肏你媽的帝都狗！
+
+Rager/Quprog1
+\CBid[-1,20]\prf\c[4]路人：\c[0]    我不會原諒妳的，妳這該死的帝都糞土！
+
+lona/SorryToRager
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃......
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    對不起...
+
+Rager/return_quest0
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃.... 先生你好？
+\CBid[-1,20]\prf\c[4]路人：\c[0]    滾開！ 你這帝都狗！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃.... 我知道\c[4]雷諾依\c[0]的雕像在哪。
+\CBid[-1,20]\prf\c[4]路人：\c[0]    什麼？！
+
+Rager/return_quest1
+\narr洛娜告訴他關於雕像的詳細位置...
+
+Rager/return_quest2
+\CBid[-1,2]\prf\c[4]路人：\c[0]    真不是\c[6]席芭莉絲\c[0]人？！
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    真的不是，我們也只是想活下去而已。
+\CBct[20]\m[sad]\PRF\c[6]洛娜：\c[0]    對於這一切我感到很對不起。
+\CBid[-1,5]\prf\c[4]路人：\c[0]    該死的，開放那些醜八怪來買我們的房子，現在還偷走了我們的英雄。
+\CBid[-1,15]\prf\c[4]路人：\c[0]    該死！該死！該死！該死！
+
+Rager/return_quest3
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...
+
+########################################## Common
+
+DoNotShit/talk0
+\board[告示牌]
+我們受夠你的屎尿臭了！
+席芭莉絲狗滾回帝都！
+
+DoNotShit/talk1
+\board[告示牌]
+你們這些臭要飯的！
+\{滾出去！\}
+
+DoNotShit/talk2
+\board[雷諾依競技場]
+你們的榮耀回來了，它不是那愚蠢的劇院了。
+今天起，它重回\c[4]雷諾依\c[0]賦予的鐵血與榮耀。
+今天起，\c[4]雷諾依劇院\c[0]正式更名回\c[6]雷諾依競技場\c[0]。
+-
+1772.1.13
+警備總部
+
+DoNotShit/talk3
+\ph\cg[other_DontShit]帝都狗禁止於此大便\n作者：匿名
+\m[confused]\PRF\c[6]洛娜：\c[0]    嗯....
+\m[flirty]\PRF\c[6]洛娜：\c[0]    哈哈？
+
+Leeruoi/statue0
+\board[雷諾依 瓊金斯]
+1529.5.11-1553.10.9
+-
+他以自身之名漫天震吼，以血肉之軀孤身衝鋒。
+無耐心的勇者啊，你是我們的英雄。
+聖徒會將您的武勇降於所有戰場。
+
+Leeruoi/statue1
+\board[雷諾依 瓊金斯]
+沒有時間了！ 我們必須上！
+衝啊啊啊啊！！！
+-雷諾依 瓊金斯-
+
+#Leeruoi/statue0
+#\board[Leeruoi Juhankinns]
+#1529.5.11-1553.10.9
+#-
+#The valiant hero of Noer who's name echoed in the sky as he lead the first charge against the Evil Deepones alone.
+#Rest in peace, oh impatient and solo warrior.
+#May the Saint allow you to bless us as we charge into battle!
+#
+#Leeruoi/statue1
+#\board[Leeruoi Juhankinns]
+#"TIME IS RUNNING OUT! LET US PROCEED WITH THE TASK AT HAND! LEEEEEERUOIII CHARGEEEEEEEEEEE!"
+#-Leeruoi Juhankinns

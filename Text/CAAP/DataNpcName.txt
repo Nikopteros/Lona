@@ -1,0 +1,333 @@
+###########################################################  GROUP ###########################################################
+
+group/OrkindCave
+Cueva de Orcos
+
+group/FishkindCave
+Cueva de Hombres Pez
+
+group/AbominationHive
+Colmena de Abominaciones
+
+###########################################################  NPC PART ###########################################################
+
+part/arm
+(Brazo)
+
+part/penis
+(Pene)
+
+part/mouth
+(Boca)
+
+part/beads
+(Cuentas)
+
+part/enema
+(Enema)
+
+###########################################################  NPC RACE ###########################################################
+
+race/Human
+Humano
+
+race/Moot
+Mestizo
+
+race/Orkind
+Orco
+
+race/Goblin
+Goblin
+
+race/Abomination
+Abominación
+
+race/Deepone
+Profundo
+
+race/Fishkind
+Hombre Pez
+
+race/Troll
+Trol
+
+race/Animal
+Bestia
+
+race/OthersElise
+Otros (Elise)
+
+race/Others
+Otros
+
+race/Dog
+Perro
+
+race/Horse
+Caballo
+
+race/DeeponeLona
+Humano Corrompido por los Profundos
+
+race/AbomLona
+Humano Corrompido
+
+race/AbomMootLona
+Mestizo Corrompido
+
+###########################################################  NPC NAME ###########################################################
+
+name/nameCreatureBat
+Murciélago Carnívoro
+
+name/nameCreatureGroundSpore
+Espora Terrestre
+
+name/nameCreatureMeatWorm
+Gusano Carnicero
+
+name/nameCreatureSpore
+Espora Mutante
+
+name/nameCreatureSummonSpore
+Espora Invocada
+
+name/nameCreatureTentacle
+Tentáculo Abisal
+
+name/nameCreatureTentacleSummoned
+Tentáculo Invocado
+
+name/Baby_nameinationBaby
+Engendro
+
+name/Baby_FishkindBaby
+Cría de Hombre Pez
+
+name/Baby_GoblinBaby
+Cría de Goblin
+
+name/Baby_OgreChild
+Vástago de Ogro
+
+name/Baby_OrcBaby
+Cría de Orco
+
+name/Baby_OrcChild
+Vástago de Orco
+
+goblin/GoblinBow
+Arquero Goblin
+
+name/GoblinClub
+Machacador Goblin
+
+name/GoblinCommoner
+Plebeyo Goblin
+
+name/GoblinCommoner_focused
+Plebeyo Goblin (Concentrado)
+
+name/GoblinSpear
+Lancero Goblin
+
+name/GoblinWarrior
+Guerrero Goblin
+
+name/GoblinWatcher
+Vigía Goblin
+
+name/HobgoblinBow
+Arquero Hobgoblin
+
+name/HobgoblinClub
+Machacador Hobgoblin
+
+name/HobgoblinCommoner
+Plebeyo Hobgoblin
+
+name/HobgoblinCommoner_focused
+Plebeyo Hobgoblin (Concentrado)
+
+name/HobgoblinShaman
+Chamán Hobgoblin
+
+name/HobgoblinSpear
+Lancero Hobgoblin
+
+name/HobgoblinWarrior
+Guerrero Hobgoblin
+
+name/HobgoblinWatcher
+Vigía Hobgoblin
+
+name/HumanBow
+Arquero Humano
+
+name/HumanExecutioner
+Verdugo
+
+name/HumanLawbringer
+Justiciero
+
+name/HumanScout
+Explorador
+
+name/HumanSpear
+Lancero Humano
+
+name/HumanTorturer
+Torturador
+
+name/HumanWarrior
+Guerrero Humano
+
+name/MobHumanClub
+Matón con Mazo
+
+name/MobHumanCommoner
+Plebeyo
+
+name/MobHumanHighLander
+Montañés
+
+name/MobHumanPickAxe
+Picador
+
+name/MobHumanRogueBow
+Pícaro Arquero
+
+name/MobHumanRogueCatcher
+Cazador Pícaro
+
+name/MobHumanRogueSpear
+Pícaro Lancero
+
+name/MobHumanRogueWarrior
+Pícaro Guerrero
+
+name/MobHumanSpear
+Lancero
+
+name/NatureMerchant
+Mercader de la Naturaleza
+
+name/NeutralHumanBow
+Arquero Neutral
+
+name/NeutralHumanPrisonMinerF
+Minera Prisión (F)
+
+name/NeutralHumanPrisonMinerM
+Minero Prisión (M)
+
+name/NeutralHumanPrisonMinerRaperM
+Minero Violador
+
+name/NeutralHumanPrisonMineTrader
+Mercader de la Mina
+
+name/NeutralHumanPrisonOfficer
+Oficial de Prisión
+
+name/NeutralHumanPrisonSpear
+Lancero de Prisión
+
+name/NeutralHumanPrisonTorturer
+Torturador de Prisión
+
+name/NeutralHumanPrisonWarrior
+Guerrero de Prisión
+
+name/NeutralHumanScout
+Explorador Neutral
+
+name/NeutralHumanWarrior
+Guerrero Neutral
+
+name/OrcBow
+Arquero Orco
+
+name/OrcCatcher
+Cazador Orco
+
+name/OrcClub
+Machacador Orco
+
+name/OrcCommoner
+Plebeyo Orco
+
+name/OrcCommoner_focused
+Plebeyo Orco (Concentrado)
+
+name/OrcWarrior
+Guerrero Orco
+
+name/PlayernameinationBaby
+Engendro del Jugador
+
+name/PlayerFishkindBaby
+Cría de Hombre Pez (Jugador)
+
+name/PlayerGoblinBaby
+Cría de Goblin (Jugador)
+
+name/PlayerOgreChild
+Vástago de Ogro (Jugador)
+
+name/PlayerOrcBaby
+Cría de Orco (Jugador)
+
+name/WildBoar
+Jabalí Salvaje
+
+name/WildDog
+Perro Salvaje
+
+name/WildGiantMice
+Ratones Gigantes
+
+name/WildHorse
+Caballo Salvaje
+
+name/WildApeF
+Mona Salvaje
+
+name/WildApeM
+Mono Salvaje
+
+name/UniquePigBobo
+Cerdo Bobo
+
+name/HorseCarry
+Caballo de Carga
+
+name/WildAlphaPig
+Jabalí Alfa
+
+name/AbomCreatureManager
+Gestor de Abominaciones
+
+name/AbomCreatureScorpion
+Escorpión Abisal
+
+name/AbomCreatureSpider
+Araña Mutante
+
+name/AbomCreatureZombie
+Zombi
+
+name/AbomCreatureBreedling
+Engendro de Carne
+
+name/UniqueDirtyJohnson
+John el Sucio
+
+######################## EVENT  ######################################
+
+fraction/nature
+Neutral
+
+fraction/evil
+Maligno

@@ -1,0 +1,107 @@
+
+Adam/NonFristTimeBegin
+\CBmp[Adam,2]\SETpl[Adam_normal]\Lshake\c[4]未知：\c[0]    我是不是在哪裡看過妳？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    錯覺吧？
+
+Adam/0_Begin0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\c[4]未知：\c[0]    我需要一個善於隱密行是的斥候，妳是嗎？
+
+Adam/0_Begin2
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我？\optB[不是,是]
+
+Adam/1_Begin_yes
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    大概算是吧？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    但你看起來... 就是個普通的小鬼。
+\CBct[1]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    我才不是小鬼！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    嗯\..\..\.. 妳是來自席芭莉絲？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    是阿，為什麼這麼問？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    妳知道嗎？ 現在島上的軍隊維持都是剝削席芭莉絲人來維持的。
+\CBct[2]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    嗚... 不會吧？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    我需要像妳這樣的斥候幫忙。
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    妳必須證明妳是個斥候，去把軍營\c[6]百夫長\c[0]盔甲上的勳章偷過來！
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    我不會讓妳白做的，我會給妳一枚銅幣當回報。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...
+
+Adam/1_Begin_done0
+\CBct[20]\m[pleased]\c[6]洛娜：\c[0]    我拿到了！
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    幹的好，我就知道我能信妳。
+
+Adam/1_Begin_done1
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    過兩天再來找我，我還有額外的工作會用得上妳！
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    拿去吧！
+
+Adam/1_Begin_done2
+\CBct[8]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    謝謝！
+
+Adam/2_begin_1
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    喲！ 好孩子，我們又見面了。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃，你好？
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    我這裡有批工作需要妳的幫忙。
+\CBmp[Adam,8]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    妳有聽過\c[4]火槍\c[0]嗎？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    沒有耶...
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    好吧，妳的確不像個戰士。 那妳總知道大砲吧？
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    總之就是把大砲縮小成妳一個人可以拿的動的模樣，由魔法驅動但又不需要魔術知識。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    聽起來很厲害？
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    是的，很厲害！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    堡壘東方的軍械庫最近拿到了一批火槍，我要妳幫我偷幾把出來。
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    至於回報嗎\..\..\.. 我是不會虧待妳的！
+
+Adam/2_begin_board
+\board[偷火槍]
+目標：偷取火槍
+報酬：金幣2
+委託主：未知
+期限：單次
+至堡壘東方的軍械庫偷取火槍。
+
+Adam/2_begin_decide
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    妳的決定是？\optB[再說吧,我接了]
+
+Adam/2_begin_accept1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    沒問題！ 我辦的到！
+\CBmp[Adam,3]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    真是好孩子！ 接著！
+
+Adam/2_begin_accept2
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    這是妳之前拿到的勳章，也是個通行證，它代表妳曾在\c[4]警備總部\c[0]服務過。
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    帶著它，不然妳是進不去的。
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    \c[6]火槍\c[0]看起來就像是個木槍，但前頭是根管子。
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    告訴他們妳受工會要求必須閱覽並抄寫十人長\c[4]布萊恩\c[0]的紀錄。
+\CBct[20]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    謝謝！
+
+Adam/5_win1
+\CBct[3]\m[Adam_sad]\plf\PRF\c[6]洛娜：\c[0]    我拿到了！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    讓我看看！
+\CBct[3]\m[normal]\plf\PRF\c[6]洛娜：\c[0]    好呦。
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    \..\...\..
+
+Adam/5_win2
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    沒看過的類型阿....
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    嗯嗯... 真不愧是\c[4]美祿\c[0]，居然搞的到這種東西。
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    所以能量填充也更快了？
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    \..\..\.. 有意思....
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    好，這的確是我要的東西，妳可以回家了。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    說好的回報呢？
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    我沒錢了，不然妳想怎樣，想打架嗎？
+\CBct[20]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    呃... 對不起...
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    唉？ 居然先道歉了？
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]未知：\c[0]    算了，拿去吧。
+\CBct[1]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    耶？！
+
+Adam/5_win3
+\CBct[8]\m[shocked]\plf\PRF\c[6]洛娜：\c[0]    謝...謝謝？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    但這就只是根木棒而已啊？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    不！ 這是一把槍！ 對著妳的敵人喊碰碰敵人就會死！
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    什？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    這貨很貴！ 我不跟妳囉嗦了，自己找個沒人煙的地方試試吧。
+
+Adam/else
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    呼......
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]未知：\c[0]    呼......
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    睡覺嗎？
+
+Adam/ElseDialog
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]未知：\c[0]    看到了嗎？ 在盧德辛家族的掌控下我們是不可能往前走的！
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]未知：\c[0]    我們必須拿回諾爾島的控制權。

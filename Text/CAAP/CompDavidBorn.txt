@@ -1,0 +1,130 @@
+######################################################################## David Born begin
+
+DavidBorn/KnownBegin
+\CBmp[DavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\C[4]David Born:\C[0]    ¿Eh? ¿Una chica?
+\CBct[2]\m[confused]\plf\PRF\C[4]David Born:\C[0]    ¿Una guerrera?
+
+DavidBorn/BasicOpt
+\m[confused] \optB[Cancelar,Unirse<r=HiddenOPT0>,Separarse<r=HiddenOPT1>]
+
+DavidBorn/CompData
+\board[David Born]
+\C[2]Posición:\C[0]Frente
+\C[2]Estilo de combate:\C[0]Guerrero, Defensa
+\C[2]Facción:\C[0]Bandido
+\C[2]Enemistad con:\C[0]Criaturas malignas, Guardias
+\C[2]Requisito:\C[0]Debilidad menor a 100
+\C[2]Duración:\C[0]3 días
+\C[2]Especial:\C[0]No revive tras la muerte
+El legendario Asesino de Dragones. O al menos, eso dice él...
+
+DavidBorn/Comp_win
+\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born:\C[0]    ¿Otra aventura? ¡Vamos!
+
+DavidBorn/Comp_failed
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    ¡Eres demasiado débil!
+
+DavidBorn/Comp_failed_slave
+\SETpl[DavidBorn_angry]\Lshake\prf\C[4]David Born:\C[0]    ¡Aléjate, esclava! ¿Cómo te atreves a hablarme?
+
+DavidBorn/Comp_disband
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    El viaje... ha terminado.
+
+DavidBorn/CompCommand
+\SETpl[DavidBorn_normal]\PLF\prf\C[4]David Born:\C[0]    Jeje...
+
+################################################################### QMSG ################################################################################# 
+
+DavidBorn/CommandWait0
+¿Hay algo adelante?
+
+DavidBorn/CommandWait1
+Bien
+
+DavidBorn/CommandFollow0
+¡Te protegeré! ¡No temas!
+
+DavidBorn/CommandFollow1
+¡Aquí no hay nada que temer!
+
+DavidBorn/OvermapPop0
+¡La vi! ¡Un caballo volador!
+
+DavidBorn/OvermapPop1
+¿Matar un dragón? ¡Fácil!
+
+DavidBorn/OvermapPop2
+¡Los osos son lo peor!
+
+DavidBorn/OvermapPop3
+¡Alguien robó mi pastelito!
+
+###################################################################### QUEST
+
+DavidBorn/CampSpot1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Desconocido:\C[0]    ¡¿Quién está ahí?!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Eh?
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Desconocido:\C[0]    ......
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Desconocido:\C[0]    ¡¿Cómo entraste?!
+
+DavidBorn/CampSpot3
+\CamCT\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Eh? ¡¡Aaaah!!
+
+DavidBorn/Unknow
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Desconocido:\C[0]    Escuché que los monstruos venían de aquí. Pasó un mes antes de que pudiera llegar en bote, y decidí no ir a Sibaris.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Desconocido:\C[0]    Expulsé a esos demonios, como un Santo. Era un viajero muy poderoso.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Desconocido:\C[0]    Al principio lideré un grupo de refugiados hacia la libertad, pero ahora me llaman líder de ladrones.
+\CBmp[UniqueDavidBorn,5]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]Desconocido:\C[0]    Y cuando un héroe como yo decide lo que quiere hacer, así será.
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Desconocido:\C[0]    No importa si es bueno o malo.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Em?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Desconocido:\C[0]    Fui un viajero poderoso, y mi nombre es \C[6]David Born\C[0].
+
+DavidBorn/CampSpot4_opt
+\CamCT\m[fear]\plf\Rshake\c[6]Lona:\C[0]    ¿Emm? \optD[¡Debo irme!,¡Pero eso es mentira!<r=HiddenOPT1>]
+
+DavidBorn/CampSpot4_failed
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]David Born:\C[0]    ¡Morirás ahora mismo!
+
+DavidBorn/CampSpot4_win
+\CamCT\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Por qué no ayudas a la gente en Noer? ¡Necesitan ayuda aquí y ahora!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born:\C[0]    ¿Y no les ayudo?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born:\C[0]    Necesitan más esclavos, yo se los doy.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born:\C[0]    Me piden que detenga a los refugiados, y lo hago.
+\CamCT\m[wtf]\plf\PRF\c[6]Lona:\C[0]    ¿Y eso es ayuda? ¡Robar personas está mal!
+\CBct[5]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¡Estoy segura de que solo haces el mal!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    Solo sigo las enseñanzas de los Santos...
+\CBct[3]\m[triumph]\plf\PRF\c[6]Lona:\C[0]    Bueno, aún puedes enmendarlo. Ve al Gremio de Mercenarios en Noer y demuestra tu utilidad en la ciudad.
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    Ohh...... ¿Qué he hecho...?
+
+DavidBorn/CampSpot4_win2
+\ph\narr\c[4]David Born:\C[0]Vete...
+\CBct[8]\narrOFF\m[confused]\PRF\c[6]Lona:\C[0]    Em... ¿Y ahora qué hago?
+
+##################### DERROTA
+
+DavidBorn/CampLost0
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    ¡No! ¡Detente! ¡Ten piedad, guerrera! \optD[¡Sin piedad!,Dejarlo ir]
+
+DavidBorn/CampLost0_fqu
+\CBct[5]\m[overkill]\plf\PRF\c[6]Lona:\C[0]    ¡Ni lo intentes!
+
+DavidBorn/CampLost0_okay
+\CBct[8]\m[wtf]\plf\PRF\c[6]Lona:\C[0]    ¿Eh? ¿Por qué deberías vivir?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    ¡No me mates! ¡Solo sigo las enseñanzas de los Santos!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Oh....
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    ¡Gracias, guerrera! ¡Pagaré por tu misericordia!
+
+DavidBorn/CampLost0_okay2
+\CBct[8]\m[wtf]\PRF\c[6]Lona:\C[0]    Em... ¿Pero no he respondido aún?
+\CBct[8]\m[confused]\PRF\c[6]Lona:\C[0]    Vaaale...
+
+DavidBorn/QuRec2to3_1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]David Born:\C[0]    ¡Brindemos! ¡Por ti!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Qué?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]David Born:\C[0]    ¿Qué?
+\CBct[8]\m[normal]\plf\PRF\c[6]Lona:\C[0]    Lo siento, no...
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]David Born:\C[0]    ¿Qué, tienes miedo? ¿Guerrera?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Oh... ¿Por qué estás aquí?
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]David Born:\C[0]    ¡Después de hablar contigo, se me abrieron los ojos! ¡Decidí seguir el camino del viajero de nuevo! ¡Ser un héroe!
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]David Born:\C[0]    ¡Gracias por tus consejos, guerrera!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Em... Claro...

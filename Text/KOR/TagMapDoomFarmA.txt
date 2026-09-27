@@ -1,0 +1,549 @@
+thisMap/OvermapEnter
+\m[confused]숲속의 작은 농가\optB[그만둔다,들어간다]
+
+########################################## other
+
+art/apeVSgirl
+\cg[other_lous2]여인과 암컷 고릴라의 교합을 받아들이지 않는 자는 모두 가부장의 노예이며, 인류의 하등종이다
+\m[serious]흠....
+\m[confused]가부장이 뭐지?
+
+grave/woodson
+\board[묘비]
+\c[6]짐 우드슨\c[0]
+1702.1.4-1755.9.5
+그는 성도의 굳건한 추종자였다.
+그는 양 떼를 이끄는 종자였다.
+그는 우리의 스승이었다.
+
+NaughtyDick/BOW
+\SndLib[dogSpot]\c[4]너티 딕：\c[0] 멍!
+
+########################################## frist time enter
+
+FristTime/Enter1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\c[4]노파：\c[0] 앗! 초록 피부다! 죽여라! 죽여버려!
+\CBmp[papa,5]\plf\prf\c[4]노인：\c[0] 죽여어어어!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에?! 저요?!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 얼른 죽여라!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 아니에요! 저 사람이라구요! 마물이 아니에요! 죽이지 마세요!
+\CBmp[papa,4]\plf\prf\c[4]노인：\c[0] 깨끗하다고?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\PLF\prf\c[4]노파：\c[0] ......
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 아! 오해였구나! 귀여운 여자아이네! 깨끗한 아이야
+\CBmp[papa,4]\plf\prf\c[4]노인：\c[0] 여자였군! 순수한 여자라니!
+
+FristTime/Enter2
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 거짓말쟁이! 죽고 싶으냐?
+\CBmp[papa,6]\plf\prf\c[4]노인：\c[0] 아니! 난 잠시 죄악에 물들었을 뿐이야!
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 흥! 성도께서 널 벌하실 거다!
+
+FristTime/Enter3_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[6]코코나：\c[0] 나쁜 사람! 죄악덩어리!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 왜 그래?
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[6]코코나：\c[0] 코코나가 맡았어! 무고한 사람이 다친 냄새야!
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 나쁜 사람?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 거짓말쟁이다! 저것들을 죽여라!
+\CBfB[5]\SETlpl[cocona_shocked]\Lshake\prf\c[6]코코나：\c[0] 코코나가 언니를 지킬 거야!
+
+FristTime/Enter3_grayrat
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]회색쥐：\c[0] 잠깐, 나 그녀를 알아...
+\CBfB[2]\SETpl[CecilyNormalAr]\plf\Lshake\c[4]세실리：\c[0] 누구?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 거짓말쟁이다! 저것들을 죽여라!
+
+########################################## MAMA
+
+mama/begin1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\c[4]노파：\c[0] 귀한 손님이구나! 불쌍한 아가, 밖에서 고생했지?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 응? 난 괜찮아요, 살아갈 수는 있어요.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 성도께 감사해야지! 시바리스에 무슨 재앙이 닥쳤다고 들었는데, 걱정 마. 나 노인은 사냥꾼이라 그 마물들이 못 넘어와.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그러길 바라죠?
+
+mama/begin2
+\CBmp[papa,4]\plf\prf\c[4]노인：\c[0] 밖엔 마물이 많아, 아주 위험하지. 너도 분명 배고플 거야♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 들어와서 좀 쉬었다 가렴♥
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 어...\optB[그만둘래,좋아,여기에 대해서]
+
+mama/begin_nope
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그냥 지나가던 길이에요..
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]노파：\c[0] 참 아쉽네, 우리가 돼지고기 스튜를 했는데♥
+
+mama/begin_return
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 이제 집이 어딘지 알겠지?
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 이 천한 년! 이따가 혼내줄 거다! 어서 방으로 들어가!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] 네....
+
+mama/Capture0
+\CBmp[mama,20]\m[tired]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 이 천한 년, 너 뚱보의 아내 아니었어? 어서 가서 뚱보한테 애를 낳아 줘!
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 네...
+
+mama/about_1
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 이렇게 외진 곳에 사세요? 여기 위험하지 않나요?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 전혀 아니야! 우리 \c[6]우드슨\c[0] 가문은 이곳에서 오래 살아왔단다.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 도시 생활은 우리한테 맞지 않아. 그리고 우리 가문은 모두 성도의 종자지!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 우리는 성도의 가호를 받아! 그 거짓말쟁이들에게 침범당하지 않아!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 너도 그 초록 피부 것들의 꼴을 봤잖니! 초록 피부가 뭐 대단한 거라고!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 성도께 감사해야지!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 성도께 감사드립니다.
+
+########################################## SON
+
+son/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]뚱보：\c[0] 푸히!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 꺄아아!!!
+
+son/begin1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 놔줘!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]뚱보：\c[0] 장난감이다!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]뚱보：\c[0] 장난감! 구멍! 꽂아! 꽂아!
+\CBmp[mama,20]\SETpr[OldSlut_normal]\plf\Rshake\c[4]노파：\c[0] 뚱보! 안 돼!
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 놓으라니까!
+
+son/begin2
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] ....
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]노파：\c[0] 미안하구나, 우리 아들이 널 놀라게 했네!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 괜찮아요.
+
+son/Capture
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[tired]\Lshake\prf\c[4]뚱보：\c[0] 장난감! 구멍 박아!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 꺄악!
+\CBmp[mama,20]\SETpr[OldSlut_angry]\plf\Rshake\c[4]노파：\c[0] 뚱보! 방에 들어가서 해!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 푸히! 알았어!
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] ....
+
+son/Capture_night_t1
+\CBmp[son,2]\SETpl[FatDumbNormal]\Lshake\c[4]뚱보：\c[0] 푸푸?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] ....\optB[아무것도 아냐,성도<r=HiddenOPT1>]
+
+son/Capture_night_t2
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 너희... 정말 성도를 믿는 거야?
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 믿어! 뚱보네 가족 전부 다 믿어!
+\CBct[2]\m[tired]\plf\PRF\c[6]로나：\c[0] 하지만... 성도의 종자는 남의 고통 위에 쾌락을 세우면 안 돼... 그건 잘못된 거야...
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 하지만 엄마가 하는 말은 전부 옳아! 엄마는 신성한 종자야! 난 엄마 말을 들어야 해!\optB[아무것도 아냐,엄마<r=HiddenOPT1>]
+
+son/Capture_night_t3
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 네 엄마는 미친 사람이야...
+\CBmp[son,5]\SETpl[FatDumbSad]\Lshake\prf\c[4]뚱보：\c[0] 거짓말! 거짓말쟁이! 엄마한테 말할 거야!
+\CBct[20]\m[terror]\plf\PRF\c[6]로나：\c[0] 안 돼! 잠깐만! 네가 이제 다 컸으니까, 나는 네가 스스로 결정할 수 있다고 생각해. 네가 엄마를 대신할 수도 있어.
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 정말?! 뚱보 다 컸다!\optB[아무것도 아냐,아내<r=HiddenOPT1>]
+
+son/Capture_night_t4
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 그래... 이제 그들을 대신할 때가 됐어.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 너도 아빠 엄마처럼 강한 신앙과 권력을 갖고 싶지 않아?
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 원해!
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 나는 네 아내야. 네게 더 많은 뚱뚱이를 낳아 줄게. 그러면 넌 성도처럼 최고의 권력을 가질 수 있어.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 정말? 뚱보가 뭘 하면 돼?\optB[아무것도 아냐,이렇게 해<r=HiddenOPT1>]
+
+son/Capture_night_t5
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그들의 영혼을 성도께로 돌려보내면 돼. 그러면 네가 그 힘을 가질 수 있어.
+\CBct[8]\m[tired]\plf\PRF\c[6]로나：\c[0] 넌 네가 뭘 해야 하는지 알잖아.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 안다!
+\CBct[8]\m[confused]\plf\PRF 나 도대체 무슨 말을 하는 거야....
+
+son/Capture_night_WIN
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 뭐 해야 할지 알겠다!
+
+son/Capture_Kill0
+\Rflash\SndLib[sound_gore]\c[4]노파：\c[0] 아아악! 뚱보, 너 뭐 하는 거야!
+\Rflash\SndLib[sound_gore]\c[4]노파：\c[0] 아무도 없느냐! 안 돼!!!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleDed]
+\c[4]노인：\c[0] 이 자식아! 네가 뭘 한 거냐?
+\c[4]노인：\c[0] 안 돼!! 어떻게 사모님을 죽였어! 왜!
+\c[4]노인：\c[0] 내가 널 없애주마아아!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleGruntDed]
+\c[4]뚱보：\c[0] 뚱보... 해냈다...
+
+son/Capture_Kill1
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] ....
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 에?!
+\CBct[2]\m[terror]\Rshake\c[6]로나：\c[0] 뭐라고?
+\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 죽은 거야?
+
+son/Capture_night_Failed0
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 괜찮아...
+
+son/Capture_night_Failed1
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 됐어...
+
+son/Capture_night_Failed2
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 미안...
+
+########################################## FATHER
+
+papa/begin1
+\CBmp[papa,4]\SETpl[nil]\prf\c[4]노인：\c[0] 헤헤♥ 배고프지?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어?
+\CBmp[papa,20]\prf\c[4]노인：\c[0] 아가씨♥ 들어와서 앉아봐♥
+
+papa/begin2
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 맞아, 내가 맛있는 돼지고기 스튜를 끓였거든♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어...\optB[그만둘래,좋아,여기에 대해서]
+
+papa/begin_nope1
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 어... 그냥 지나가던 길이에요...
+
+papa/begin_nope2
+\CBmp[papa,5]\prf\c[4]노인：\c[0] 들어와! 들어오라니까!
+\CBct[8]\m[terror]\plf\Rshake\c[6]로나：\c[0] 에?!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 꺄아아!!!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 놔줘!
+
+papa/begin_nope3
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 그만둬! 이 거짓말쟁이!
+
+papa/begin_nope4
+\CBmp[mama,5]\m[confused]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 내 허락 없이 여자를 건드려?! 죽고 싶으냐!
+\CBmp[papa,6]\plf\prf\c[4]노인：\c[0] 미안해! 죄악의 잘못이야! 죄악의 유혹 때문이야!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 나중에 제대로 벌을 줄 거다!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 하하?
+
+papa/Capture
+\CBmp[papa,4]\prf\c[4]노인：\c[0] 이리 와!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 꺄악!
+
+papa/about_1
+\CBct[2]\m[confused]\plh\c[6]로나：\c[0] 왜 여기서 지내시는 거예요?
+\CBmp[papa,20]\prf\c[4]노인：\c[0] 스승이 돌아가신 후 성도의 빛이 사모님께로 옮겨갔다네.
+\CBmp[papa,20]\prf\c[4]노인：\c[0] 그녀는 아직 성도의 영광을 받는 유일한 종자야! 나는 종말의 날이 다시 올 때까지 그녀를 따를 거다!
+\CBct[2]\m[confused]\c[6]로나：\c[0] 사모님?
+\CBmp[papa,20]\prf\c[4]노인：\c[0] 아... 노파! 아내! 그래, 아내야!
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 어...
+
+########################################## ##########################################  DINNER
+
+Dinner/begin_0
+\CBct[20]\m[pleased]\plf\Rshake\c[6]로나：\c[0] 초대해 주셔서 감사합니다!
+
+Dinner/begin_0_1
+\c[4]노파：\c[0] 성도께서 내게 은혜를 내려주심에 감사드립니다.
+\c[4]노파：\c[0] 성도께서 내게 안식을 주심에 감사드립니다.
+\c[4]노파：\c[0] 오늘 이 식사는 성도께서 주신 것입니다! 그분께 감사드리자!
+
+Dinner/begin_1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prh\c[4]노파：\c[0] 맛있니?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]로나：\c[0] 정말 훌륭해요! 이렇게 푸짐한 식사는 오랜만이에요!
+\CBmp[papa,20]\plf\prf\c[4]노인：\c[0] 많이 먹어! 네가 너무 말랐구나!
+
+Dinner/begin_1_1
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 닥쳐! 거짓말쟁이!
+\CBmp[papa,6]\plf\prf\c[4]노인：\c[0] 미안하오!
+
+Dinner/begin_1_2
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 아가, 네 이름이 뭐니? 계속 아가라고만 부르기도 그렇잖니.
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 저는 \c[6]로나\c[0]예요!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 로나라구? 성도께 감사드려야지! 참 좋은 이름이구나!
+
+Dinner/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]뚱보：\c[0] 엄마! 뚱보는 로나가 좋아!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]뚱보：\c[0] 뚱보는 로나가 좋아! 뚱보 새 장난감♥
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 에?
+
+Dinner/begin_3
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 뚱보야~ 아직 결혼 안 했으니까 안 돼!
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 로나야, 우리 뚱보가 어떠니?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 뭐가요?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 좋은 반려자잖니! 나는 빨리 손자를 안아보고 싶구나! 어떻게 생각해?
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 무슨 뜻인지 잘 모르겠어요.
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 얘는 착한 아이다. 성도의 성자이며 축복받은 존재지!
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 음... 네, 착한 아이네요!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 그렇지? 얘는 착한 아이다.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 디저트가 다 됐을 거다. 설탕을 듬뿍 넣었단다!
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어...\optD[이제 가봐야겠어요,계속 먹는다]
+
+Dinner/begin_3_opt_Leave
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 초대해 주셔서 감사합니다만, 이제 가봐야겠어요.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 아! 아직 디저트가 남았는데!
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 죄송해요, 아직 처리해야 할 일이 있어서요.
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]노파：\c[0] 에휴... 알겠다. 가는 길 조심하렴!
+
+Dinner/begin_3_opt_Eat0
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 비트랑 과일차야, 너를 위해 특별히 준비했단다.
+\CBct[20]\m[triumph]\plf\PRF\c[6]로나：\c[0] 고마워요♥
+
+Dinner/begin_3_opt_Eat1
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 맛은 어떠니?
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 달콤하니 좋아요♥ 아주 마음에 들어요♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 정말 잘됐다!
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 그런데 조금...
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 몸이 안 좋은 것 같아요...
+
+Dinner/begin_3_opt_Eat2
+\ph\narr\..\..\..\..\..
+
+########################################## ##########################################  Death when nap
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]???：\c[0] 죽어! 죽어라! 이 더러운 죄악덩어리!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]???：\c[0] 네가 내 가족을 죽였잖아!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]???：\c[0] 내가 널 죽여버리겠어아아아아아!
+
+########################################## ##########################################  Capture
+
+Capture/FristTime_0
+\c[4]노파：\c[0] 뚱보야! 이게 네 새 아내란다!
+\c[4]뚱보：\c[0] 새 장난감♥
+\c[4]노파：\c[0] 안 돼! 먼저 결혼부터 해야지!
+\c[4]뚱보：\c[0] 왜? 뚱보는 못 기다려!
+\c[4]노파：\c[0] 서두르면 안 돼! 너는 맨날 이렇잖아! 아빠랑 엄마도 결혼 먼저 하고서야 너를 낳았단다!
+\c[4]뚱보：\c[0] 알겠어...
+
+Capture/SecondTime_0
+\c[4]노파：\c[0] 뚱보! 이것 봐! 이게 네게서 도망친 천한 년이야!
+\c[4]뚱보：\c[0] 장난감♥ 나 줘! 가지고 놀래♥
+\c[4]노파：\c[0] 아직 안 돼! 내가 여자가 어떻게 해야 하는지 가르쳐야 해!
+
+########################################## ##########################################  merry
+
+merry/begin_0
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 성도의 목소리로, 여기 있는 신랑과 신부를 축복하노라.
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 성도의 눈으로, 이 한 쌍을 증명하노라!
+\SndLib[sound_step_chain]\c[4]노파：\c[0] \c[6]뚱보·우드슨\c[0]과 이 천한 년을! 부부로 맺노라!
+\SndLib[sound_step_chain]\c[4]노인：\c[0] 성도께 감사드립니다!
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[tired]\c[6]로나：\c[0] 으으........
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[confused]\c[6]로나：\c[0] 뭐지?
+
+merry/begin_1
+\CBmp[WakeUp,8]\m[confused]\c[6]로나：\c[0] \..\..\..\..
+\SndLib[sound_step_chain]\CBmp[WakeUp,1]\m[shocked]\Rshake\c[6]로나：\c[0] 나 왜 이래? 여기가 어디야?!
+\SndLib[sound_step_chain]\CBmp[WakeUp,20]\m[terror]\Rshake\c[6]로나：\c[0] 몸이 안 움직여?? 쇠사슬? 너희 나한테 뭐 한 거야!
+
+merry/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]뚱보：\c[0] 장난감 구멍! 꽂아 꽂아!
+\CBmp[WakeUp,20]\m[bereft]\Rshake\c[6]로나：\c[0] 다가오지 마!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 깼구나? 오늘부터 네가 뚱보의 아내가 된단다.
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 아내?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 넌 할 수 있어. 내가 보니까 넌 아이 낳기에 딱 맞는 여자야♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 뚱보는 성자야♥ 넌 성도께 더 많은 성자를 낳아 줄 거야♥
+\CBmp[WakeUp,20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 뭐.. 대체 무슨 소리를 하는 거야!
+
+merry/begin_3
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]뚱보：\c[0] 구멍♥
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 안 돼! 비켜! 난 모르는 사람의 아이를 낳기 싫어!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 그는 모르는 사람이 아니야! 그는 네 남편이야! 넌 그를 섬겨야 해! 평생 성도를 섬겨야 한다!
+
+merry/begin_4
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 기분 좋아♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 뚱보, 힘내라! 성도께서 보고 계신다!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 놔줘! 어서 놔주란 말이야!
+
+merry/begin_5
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 간다♥
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 에에!! 안 돼, 빨리 빼!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 흐어어어♥
+
+merry/begin_6
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 푸히! 뚱보 행복해!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 으으으!
+
+merry/begin_7
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]뚱보：\c[0] 엄마, 안 돼! 부랄 잡지 마! 성도님, 살려줘!
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 안 돼! 더는 싸지 마!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 힘껏 싸라! 저 년을 네 새끼로 임신하게 만들어야지!
+
+merry/begin_8
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]뚱보：\c[0] 아아아아!
+\CBmp[son,6]\SETpl[FatDumbSad]\Lshake\prf\c[4]뚱보：\c[0] 안 돼! 뚱보 부랄 잡지 마! 뚱보 이제 못 싸!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 싸! 더 싸! 네 정액으로 저 년 몸을 가득 채워!
+
+merry/begin_9
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 잘했어! 이게 바로 나의 착한 뚱보지! 성자께서 저 보지를 임신하게 해주실 거야!
+\CBct[20]\m[sad]\plf\Rshake\c[6]로나：\c[0] 흐윽… 왜 저한테 이러시는 거예요…
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 쌍년! 오늘은 봐주겠다! 낮에 나를 찾아와라! 뚱보의 아내로서 너는 반드시 우리 \c[6]우드슨\c[0] 가문을 섬겨야 한다!
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 영원히!
+
+########################################## ##########################################  Daily RapeLoop
+
+DailyRapeWake/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 푸히♥ 뚱보 보지랑 놀러 왔다!
+
+DailyRapeWake/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 푸히♥ 뚱보 보지에 꽂으러 왔다!
+
+DailyRapeWake/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 푸히♥ 뚱보 싼다!
+
+DailyRapeNap/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 푸히♥ 뚱보 보지를 찾았다!
+
+DailyRapeNap/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 보지 발견♥ 꽂아!
+
+DailyRapeNap/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 보지 여기 있다!  보지에 꽂아♥
+
+DailyRapeEnd/Begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 이제 실컷 놀았다♥  보지 안녕!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 구멍 참 잘 들어가♥ 보지 안녕~!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] .....
+
+DailyRapeEnd/Begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]뚱보：\c[0] 자지 기분 짱이야♥ 보지 최고다!
+\CBct[20]\m[sad]\plf\PRF\c[6]로나：\c[0] .....
+
+########################################## #daily semen check
+
+SemenCheck/begin_0
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 뚱보! 너 뭐 하는 거야!
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 얘 뱃속에 정액이 이렇게 적어서야 되겠어!
+\c[4]뚱보：\c[0] 죄송해요!
+
+SemenCheck/begin_1
+\CBmp[WakeUp,8]\m[tired]\c[6]로나：\c[0] \..\..\..
+
+SemenCheck/begin_2
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]뚱보：\c[0] 뚱보가 더 열심히 할게요!
+
+SemenCheck/begin_3
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]뚱보：\c[0] 으아아! 뚱보 간다! 구멍아!
+\CBmp[WakeUp,8]\m[sexhurt]\c[6]로나：\c[0] 흐윽....
+
+SemenCheck/begin_4
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 안 돼! 성도의 이름으로 네가 가득 쏴야 해! 남자라면 더 힘써야지!
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]뚱보：\c[0] 뚱보 알았어요! 말 잘 들을게요!
+\CBmp[WakeUp,8]\m[pain]\plf\PRF\c[6]로나：\c[0] ....
+
+########################################## #daily torture
+
+Torture/begin_0_Basic
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 이 년! 네가 감히 성도의 뜻을 거역하다니!
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 일어나! 당장 정신 차려!
+
+Torture/begin_0_PapaRaped
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 이 년! 네가 감히 내 남자랑 몰래 놀아나다니!
+\SndLib[sound_step_chain]\c[4]노파：\c[0] 일어나! 당장 정신 차려!
+
+Torture/begin_2
+\SndLib[sound_hit_whip]\m[p5health_damage]\Rshake\c[6]로나：\c[0] 끼얏!?
+
+Torture/begin_3
+\CBmp[torturePT,20]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐야! 나 왜 이래!?
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 이 썅년! 네가 뭘 했는지 스스로 잘 알겠지!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 넌 성도의 뜻을 거역했어! 반드시 처벌을 받아야 해!
+
+Torture/begin_4
+\CBmp[torturePT,6]\m[terror]\Rshake\c[6]로나：\c[0] 잠깐만! 나 안 했어! 제발 안 돼!
+\CBmp[torturePT,6]\m[bereft]\Rshake\c[6]로나：\c[0] 안 돼! 살려줘!
+
+Torture/begin_5
+\CBmp[torturePT,6]\m[pain]\Rshake\c[6]로나：\c[0] 잘못했어! 내가 틀렸어! 살려줘!
+\CBmp[torturePT,6]\m[hurt]\Rshake\c[6]로나：\c[0] 미안해! 내가 사과할게....
+
+Torture/begin_6
+\CBmp[torturePT,6]\m[tired]\Rshake\c[6]로나：\c[0] 흐윽흐윽....
+
+########################################## #daily Breakfast
+
+breakFast/begin_0
+\CBmp[MainTable,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 방으로 들어가! 식사 시간이다!
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 네...
+
+breakFast/begin_1
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 성도께서 주신 은혜에 감사드립니다.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 성도께서 주신 평안에 감사드립니다.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 오늘 이 식사 또한 성도께서 주신 것입니다! 그분께 감사드려라!
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 감사드립니다...
+
+########################################## ########################################## #daily job
+########################################## Grass
+
+JobGrass/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 밭의 잡초를 전부 뽑아 버려!
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 절대 게으름 피우지 마라!
+\CamMP[Farm]\m[fear]\plf\PRF\c[6]로나：\c[0] 네...
+
+JobGrass/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 감히 게으름을 피워?! 아직 남았잖아!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 죄송해요!!
+
+JobGrass/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 전부 다 뽑았어? 참 착하네!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 이제 방으로 돌아가서 뚱보한테 박히는 거 기다려!
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 응...
+
+JobGrass/failed
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 이렇게 느려서야! 매 좀 맞아야 정신 차리겠니?
+\CBct[8]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 죄송해요! 제발 때리지 마세요!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 흥! 이따가 다시 혼내주마!
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 으으....
+
+########################################## feed chicken
+
+JobFeed/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 저기 닭들 보이냐?
+\CamMP[FoodB]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 집 안에 있는 남은 밥으로 닭들 먹여라! 절대 게으름 피우지 마!
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 네...
+
+JobFeed/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 잘했어! 병아리들도 아주 좋아하네!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 이제 방으로 돌아가서 뚱보한테 박히는 거 기다려!
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 응...
+
+JobFeed/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 뭐 하는 거야? 다 먹였어?!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]로나：\c[0] 죄송해요!!
+
+########################################## suck genital
+
+JobSuck/begin_1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 이 쌍년! 이리 와!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 아빠 자지 오래동안 안 닦았구나.
+\CBmp[papa,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 네 입으로 내 보지 깨끗하게 하고, 그 다음에 그 멍청이한테 가서 네가 빨아줄 거라고 말해. 그러면 걔가 싸도 된다고 할 거야!
+\CBct[8]\m[terror]\plf\PRF\c[6]로나：\c[0] 에…?
+
+JobSuck/Mama_start
+！！！！！
+\narr또 늙고 냄새나는 성기가 나타났다!
+
+JobSuck/Mama_doneButPapa
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 정말 기분 좋네♥ 하지만 그 멍청이의 자지도 아직 네가 닦아주길 기다리고 있잖아♥
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 네...
+
+JobSuck/Mama_PapaNotDone
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]노파：\c[0] 내가 그 바보 자지 빨아주라고 했잖아! 못 들었어?
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 으으....
+
+JobSuck/Mama_begin1
+\m[fear]\c[6]로나：\c[0] ....
+\m[sad]\c[6]로나：\c[0] 흐윽....
+
+JobSuck/Mama_begin2
+\c[4]노파：\c[0] 저 더러운 거 보이냐? 전부 핥아서 깨끗하게 해!
+\narr울창한 숲처럼 털이 덮여 있고, 그 사이에서 썩은 생선 냄새가 풍겨온다.
+
+JobSuck/Mama_begin3
+\c[4]노파：\c[0] 그래! 잘한다! 바로 그렇게♥
+
+JobSuck/Mama_begin4
+\c[4]노파：\c[0] 그렇지! 살조개 안쪽도 꼼꼼히 핥아♥
+
+JobSuck/Mama_begin5
+\c[4]노파：\c[0] 너무 좋아♥ 최고야♥ 나 간다♥
+
+JobSuck/Mama_begin6
+.......
+
+JobSuck/Mama_begin7
+.....
+
+JobSuck/Mama_begin8
+...
+
+JobSuckw/win
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 착하지, 우리 자지 맛있었냐?
+\CBct[8]\m[fear]\plf\PRF\c[6]로나：\c[0] 정말 맛있었어요...
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]노파：\c[0] 그럴 줄 알았다, 네가 보지 빠는 걸 좋아할 줄♥
+
+JobSuck/Papa_start
+\CBct[8]\m[fear]\PRF\c[6]로나：\c[0] 엄마가… 아버님이 사정해도 된다고 했어요...
+\CBct[8]\m[pain]\PRF\c[6]로나：\c[0] 절 불러서… 핥아드리라고 하셨어요...
+\CBmp[papa,20]\prf\c[4]노인：\c[0] 잘됐다! 잘됐다! 성도님이시여!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] ....
+
+JobSuck/Papa_Done
+\CBmp[papa,20]\prf\c[4]노인：\c[0] 드디어 사정했구나! 사모님께 감사! 성도님께 감사!
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 흐윽....
+
+JobSuck/Papa_refuse
+\CBmp[papa,5]\prf\c[4]노인：\c[0] 사모님이 명령하셨다! 너에겐 거부할 권리가 없다!

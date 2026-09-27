@@ -1,0 +1,233 @@
+thisMap/OvermapEnter
+Almacén número 13. Oeste, Refugio de Bandidos \optB[Cancelar,Entrar]
+
+Enter/Begin1
+\cg[map_region_NoerRoad]\SETpl[GrayRatNormalAr]\c[4]Grayrat：\C[0]    Bueno, ¿estás lista?
+\m[shocked]\plf\Rshake\C[6]Lona：\C[0]    \{¡Guau! \}\n(Su armadura parece muy resistente...)
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Grayrat：\C[0]    ...¿M-mm?
+\m[flirty]\plf\PRF\C[6]Lona：\C[0]    ...¡T-Todo está bien!
+
+Enter/Begin2
+\board[¡Salvar a la compañera de Grayrat!]
+Objetivo：Encontrar y rescatar a la rehén. ¡El cliente y la rehén no deben morir!
+Recompensa：Desconocida
+Cliente：Grayrat
+
+Enter/Begin3
+\m[serious]\plf\Rshake\C[6]Lona：\C[0]    ¡Muy bien, vamos a salvar a tu compañera!
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Grayrat：\C[0]    Espera... Esta es la entrada principal...
+\m[confused]\plf\PRF\C[6]Lona：\C[0]    Sí. ¿Algo mal?
+\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]Grayrat：\C[0]    ......
+\m[shy]\plf\PRF\C[6]Lona：\C[0]    ...?
+\SETpl[GrayRatShockedAr]\Lshake\prf\c[4]Grayrat：\C[0]    ...¿Quizás olvidaste que esto es una trampa obvia...?
+\m[flirty]\plf\PRF\C[6]Lona：\C[0]    E-Entonces, ¡entremos por otra entrada!
+
+###################################################   BEGIN PART ###############################################################
+AboutTrap/Begin1
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Grayrat：\C[0]    Esperando el momento...
+\CBct[2]\m[shoked]\plf\Rshake\C[6]Lona：\C[0]    \{¿Eh? ¿Qué pasa?\}
+\CBct[8]\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]Grayrat：\C[0]    .......
+\CBmp[UniqueGrayRat,1]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Grayrat：\C[0]    Hay una trampa adelante. Estoy seguro de que hay más detrás de esa puerta.
+
+AboutTrap/Begin2
+\CBct[8]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Ohhh...
+
+AboutTrap/Begin3
+\CBct[20]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    No te preocupes, no es un problema. Yo me encargaré.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\c[4]Grayrat：\C[0]    ............
+\CBct[6]\m[bereft]\plf\Rshake\C[6]Lona：\C[0]    ¡En serio! ¡Puedo hacerlo!
+
+AboutTrap/Begin4
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\prf\c[4]Grayrat：\C[0]    ............
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\prf\c[4]Grayrat：\C[0]    Muy bien. Si puedes asegurarnos un camino seguro, te seguiré.
+
+############################################################################################################################
+
+MobTalking/Begin1
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Ladrón：\C[0]    Oye... ¿esto funcionará? Ese mestizo es un tipo enorme.
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0]    ¡Claro que funcionará, idiota! ¡Esa cantidad de explosivos mataría a cualquiera!
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Ladrón：\C[0]    Je-je... Exacto.
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Ladrón：\C[0]    Por cierto, ¿por qué no podemos tocar a esa puta que estamos vigilando? Tiene unas buenas tetas...
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0]    ¿Tú? ¡Te arrancará la polla de un mordisco! ¡Je-je-je!
+\CBmp[MobC,20]\SETpl[MobHumanWarrior]\Lshake\C[4]Estafador：\C[0]    ¡Cállense, imbéciles! ¡Estamos en una misión, no se distraigan!
+\CBct[1]\m[serious]\plh\PRF\Rshake\C[6]Lona：\C[0]    ¡Hay tantos aquí...!
+\CBct[20]\m[triumph]\plh\PRF\C[6]Lona：\C[0]    Pero parece que aún no me han visto. ¡Eso es bueno!
+
+CecilyRape/stage1
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\C[4]Bandido：\C[0]    Apuesto a que no pensaste en las consecuencias cuando mataste a mis amigos, ¿eh?
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapA_Normal]\Lshake\prf\C[4]Desconocida：\C[0]    ¡¿Por qué hacen esto?! ¡Toda esta gente es del \C[6]Reino de Garland\C[0], como ustedes! ¡La gente de Garland no debería ser esclava!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0]    ¿Y ahora intentas apelar a mi conciencia, zorra? ¿Aquí, en la \C[6]Isla Noer\C[0]?
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0]    ¿En un lugar como este?! ¡Con tantos monstruos sedientos de sangre alrededor! Ja. ¡Incluso si no estuviéramos nosotros, otros lo harían!
+\CamCT\optD[¡Entrar!,Es demasiado pronto para delatarse...]
+
+CecilyRape/stage2
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0]    Además, ni siquiera sabes cuánta de esta gente quiere ser esclava voluntariamente.
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0]    ¡Estos "productos" recién llegados están felices de estar en nuestras manos!
+\CBmp[CeTrapped,5]\SETpl[CecilyTrapA_Shy]\Lshake\prf\C[4]Desconocida：\C[0]    ¡Mientes!
+\CamCT\optD[¡Interferir!,Mirarse las uñas...]
+
+CecilyRape/stage3
+\CBmp[Raper,4]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Bandido：\C[0]    Mmm... Oye, tienes un cuerpo... bastante sexy...
+\CBmp[CeTrapped,15]\SndLib[sound_DressTear]\SETpl[CecilyTrapB_Shocked]\Lshake\prf\C[4]Desconocida：\C[0]    \{!!!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    Por cierto, ya no eres virgen, ¿verdad? No lo creo, no. Escuché que los nobles tienen vidas bastante libertinas, si sabes a lo que me refiero.    
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    Bueno, ¿entonces no te avergonzará morir mientras te follan hasta perder el sentido?
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\C[4]Desconocida：\C[0]    \{¡\.QUITA \.TUS \.SUCIAS \.MANOS \.DE \.MÍ!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    Oh, qué cara más linda pones. ¡Ojalá todas las putas hicieran eso!
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Shy]\PLF\PRF\C[4]Desconocida：\C[0]    .............
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]Bandido：\C[0]    ¿Qué, ya no resistes? Bien. ¡Cuanto más resistes, más me excitas!
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\PRF\C[4]Desconocida：\C[0]    \{¡Hijo de puta! \n ¡Aléjate de mí!
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]Bandido：\C[0]    ¡Oh no-oo-oo! ¡Estoy tan asustado que me mearé en los pantalones! ♥
+\optD[¡Ayudarla!,Mirar una mancha en el techo...]
+
+CecilyRape/rape_scene1
+\Lshake\C[4]Desconocida：\C[0]    ¡¡¡Suéltame!!! ¡Tú...! ¡Inútil pedazo de mierda de perro!
+
+CecilyRape/rape_scene2
+\C[4]Bandido：\C[0]    ¡Para una perra noble como tú, tu boca suelta palabras bastante desagradables!
+\C[4]Bandido：\C[0]    ¡Pero me gusta! ♥　¡Cuanto más noble es la perra, más placer da humillarla!
+\C[4]Bandido：\C[0]    Y si no fueras mi enemiga, sino una puta común, quizás te acompañaría a casa al final, o incluso me casaría contigo... ¡Ja-ja-ja!
+
+CecilyRape/rape_scene3
+\Lshake\C[4]Desconocida：\C[0]    \{¡Tú...! ¡Cállate! ¡Cállate! ¡Solo cállate!
+
+CecilyRape/rape_scene4
+\C[4]Bandido：\C[0]    ¡Intenta callarme, puta! ¡Aquí estoy, justo delante de ti!
+
+CecilyRape/rape_scene5
+\C[4]Bandido：\C[0]    ¡Je-je-je! Podría lastimarte accidentalmente, ya que no hay lubricante. ¡Así que mejor humedécete tú sola! ♥
+
+CecilyRape/rape_scene6
+\C[4]Bandido：\C[0]    Vamos, no finjas ser un pez muerto, ¡habla conmigo! ¿Quién fue tu primero, eh? ♥
+
+CecilyRape/rape_scene7
+\C[4]Bandido：\C[0]    ¿Ese enorme amigo tuyo de raza mixta? ¿O seré yo...?
+\C[4]Bandido：\C[0]    Hmm. De hecho, me sorprende que andes con un mestizo. ¿A una puta noble como tú le encanta follarse a un bastardo como él?
+
+CecilyRape/rape_scene8
+\Lshake\C[4]Desconocida：\C[0]    \{¡¡¡SOLO CÁLLATE DE UNA VEZ!!!
+
+CecilyRape/rape_scene9
+\{!!!!!!!!!
+
+CecilyRape/rape_scene10
+\C[4]Bandido：\C[0]    \{\.Oh \.qué \.vergüenza! ¿Así que no soy tu primero?
+
+CecilyRape/rape_scene11
+\C[4]Bandido：\C[0]    ¡Estás increíble por dentro! ¡Voy a empezar a moverme, así que aprieta mi polla con fuerza! ♥
+
+CecilyRape/rape_scene12
+\C[4]Bandido：\C[0]    Uff, estás muy apretada, y tu coño ya está empapado. Serías una puta increíble.
+
+CecilyRape/rape_scene13
+\C[4]Bandido：\C[0]    ¿Y bien? ¿Cómo se compara mi polla con la de ese mestizo sucio...?
+
+CecilyRape/rape_scene14
+\C[4]Desconocida：\C[0]    \{¡BASURA! ¡VETE AL INFIERNO!!!
+
+CecilyRape/rape_scene15
+\C[4]Bandido：\C[0]    ¿Sí? Qué lástima.
+
+CecilyRape/rape_scene16
+\C[4]Bandido：\C[0]    ¡Hora de acelerar!
+
+CecilyRape/rape_scene17
+\C[4]Bandido：\C[0]    \{¡O-o-oh sí! ¡O-ho-ho!
+
+CecilyRape/rape_scene18
+\C[4]Bandido：\C[0]    \{¡Mmm! ¡M-Me corro! ¡Te llenaré por dentro!
+
+CecilyRape/rape_scene19
+\C[4]Desconocida：\C[0]    \{¡¿Q-Qué?! ¡NO! ¡SÁCALA!
+
+CecilyRape/rape_scene20
+\C[4]Desconocida：\C[0]    \{¡Te lo suplico! ¡No te corras dentro de mí!!!
+
+CecilyRape/rape_scene21
+\C[4]Bandido：\C[0]    \{¡O-o-oh sí! Ufff, ¡qué bueno!
+
+CecilyRape/rape_scene22
+\C[4]Desconocida：\C[0]    \{\{¡NOOOOo!!!
+
+CecilyRape/rape_scene23
+\C[4]Desconocida：\C[0]    \{*Jadeo*... *Jadeo*...*Jadeo*!
+\Rshake\SND[SE/Whip01.ogg]\C[4]Desconocida：\C[0]    \{M-Maldito...
+\Rshake\SND[SE/Whip01.ogg]\C[4]Desconocida：\C[0]    \{¡¡¡Estás jodido!!!
+\C[4]Desconocida：\C[0]   *Jadeo*... *Jadeo*
+
+CecilyRape/stage_rape_end
+\CBmp[CeTrapped,8]\SETpl[CecilyTrapB_Shy]\SETpr[MobHumanCommoner]\PLF\prf\C[4]Desconocida：\C[0]        Grrrrr...
+\CBmp[Raper,20]\plf\PRF\C[4]Bandido：\C[0]    Uf, bueno, ¡buen polvo!
+\CBmp[Raper,20]\plf\Rshake\C[4]Bandido：\C[0]    Qué pena que no tenga tiempo para follarte otra vez.
+\CBmp[Raper,20]\plf\Rshake\C[4]Bandido：\C[0]    Bueno, al menos mis amigos te darán una buena pasada antes de que mueras!
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]Desconocida：\C[0]    \{No puedo creerlo...\}
+\CBmp[Raper,20]\plf\PRF\C[4]Bandido：\C[0]    ¿Eh? ¿Qué dijiste? ¡Habla más fuerte, puta!
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]Desconocida：\C[0]    \{¡Te mataré!\}
+
+CecilyRape/trapped_raped
+\CBid[-1,1]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]Desconocida：\C[0]    \{¡¿???!!!\}
+\CBct[20]\m[serious]\Rshake\C[6]Lona：\C[0]    ¡Shh! ¡Ni un sonido! ¡Vine a salvarte!
+
+CecilyRape/trapped
+\CBid[-1,1]\SETpl[CecilyTrapA_Shocked]\Lshake\C[4]Desconocida：\C[0]    \{¡¿???!!!\}
+\CBid[-1,6]\SETpl[CecilyTrapA_Normal]\C[4]Desconocida：\C[0]    ........
+\CBct[20]\CBct[20]\m[serious]\Rshake\C[6]Lona：\C[0]    ¡Shh! ¡Ni un sonido! ¡Vine a salvarte!
+
+CecilyRape/trapped2
+\CBmp[Cecily,8]\SETpl[CecilyWtfAr]\PLF\prf\C[4]Desconocida：\C[0]    Mmmph.
+\CBmp[Cecily,2]\SETpl[CecilyShyAr]\PLF\prf\C[4]Desconocida：\C[0]    ¿Vinitt te envió? ¿Dónde está?
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    ¿Vinitt...?
+\CBct[20]\m[pleased]\plf\PRF\C[6]Lona：\C[0]    ¡Ah! ¿El señor Grayrat? ¡Está justo detrás de mí!
+
+CecilyRape/trapped3
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Grayrat：\C[0]    Señora... Perdón por la demora...
+\CBct[2]\m[confused]\plf\PRF\C[6]Lona：\C[0]    ¿Señora...?
+\CBct[8]\m[confused]\plf\PRF\C[6]Lona：\C[0]    ......
+\CBct[20]\m[shocked]\plf\Rshock\C[6]Lona：\C[0]    \{¡¿UNA NOBLE?!\}
+\CBmp[Cecily,6]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Desconocida：\C[0]    ¡Shhh! ¡Silencio!!!
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Desconocida：\C[0]    Eso no importa ahora.
+
+CecilyRape/trapped4_raped
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Grayrat：\C[0]    Señora... ¡Usted-!
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Desconocida：\C[0]    -Estoy bien...
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Grayrat：\C[0]    Pero... ¿ese olor...?
+\CBmp[UniqueGrayRat,5]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Grayrat：\C[0]    ......!!!
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Grayrat：\C[0]    \{¿C-Cómo se atrevieron?...\}
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Grayrat：\C[0]    \{¡LOS MATARÉ A TODOS!\}
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Desconocida：\C[0]    ¡Cálmate! Dije que estoy bien...
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]Grayrat：\C[0]    ......
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]Grayrat：\C[0]    ...
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]Grayrat：\C[0]    Lo siento mucho, perdóneme, Señora...
+
+CecilyRape/trapped4
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]Grayrat：\C[0]    Señora... ¿Usted...?
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Desconocida：\C[0]    Estoy bien. No me hicieron nada.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]Grayrat：\C[0]    Oh, gracias a los Santos...
+
+CecilyRape/trapped5
+\CBct[6]\m[confused]\plf\PRF\C[6]Lona：\C[0]    Emmm... Perdón, pero...
+\CBct[2]\m[flirty]\plf\PRF\C[6]Lona：\C[0]    Dígame, ¿qué hacemos ahora? ¿Su majestad?
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Desconocida：\C[0]    ¿Tú eres la ladrona? Justo quería preguntarte lo mismo.
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Desconocida：\C[0]    Y no hace falta que me hables así. No me gusta que la gente me trate con formalidad.
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]Desconocida：\C[0]    ¡Si no tienes ideas, sugiero que los matemos a todos!
+
+#too many UX notice? should not over notice? should not break UX rule?
+#\CamMP[ExitPoint2]\BonMP[ExitPoint2,28]\m[shocked]\Rshake\C[6]Lona：\C[0]    "¿Forzar la puerta?"
+#\CamCT\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Desconocida：\C[0]    \{"¡¿Todavía lo preguntas?! ¡Dije que te seguiríamos!"
+
+################################################### FAILED ####################################################
+QuestFailed/Nap1
+\m[tired]\C[6]Lona：\C[0]    Mmmmph...
+
+QuestFailed/Nap2
+\narr Misión fallida...
+\narr Cecily y Grayrat desaparecieron.
+
+QuestFailed/Nap3
+\SETpl[MobHumanCommoner]\Lshake\C[4]Ladrón：\C[0]    ¿Qué hacemos con ella?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Ladrón：\C[0]    Llévensela, difícilmente valga algo...
+
+QuestFailed/ObjDed
+\narr Objetivo fallido. El personaje de la misión ha muerto.
+
+Exit/QuestFailWarning
+\m[confused]\narr ¡Si te vas, la misión se considerará fallida!

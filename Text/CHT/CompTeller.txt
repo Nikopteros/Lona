@@ -1,0 +1,341 @@
+########################################
+GodCTalk/begin1
+\CBmp[teller,8]\c[4]迷之算命師：\c[0]    最後\..\..\..\..
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\c[4]迷之算命師：\c[0]    結果就變成這樣。
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]    那孩子將妳打倒？並導致一切？
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    是的，那孩子長大了。
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]迷之算命師：\c[0]    這聽起來很不可思議，但這真的只是一場意外。
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]    意外？妳將這稱為意外？
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]迷之算命師：\c[0]    是的，若我要搞事，您不會有時間做出反應。 事情也不會止在這裡。
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]    好，我信妳。
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    感謝。
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]    妳也必須付出一定的代價，下次的劇本必須由我提供。
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    我接受。
+
+GodCTalk/begin2
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]迷之算命師：\c[0]    我取回足夠的權能後會將我的子嗣親自送回去。
+\CBmp[teller,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    剩下的您就不用擔心了。
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]    呼呼呼呼....
+\CBmp[teller,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]迷之算命師：\c[0]    嗯？
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]    哈哈哈哈哈！！！
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]迷之算命師：\c[0]    怎麼？
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]    那孩子將妳海扁了一頓，還成功逃走？
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]迷之算命師：\c[0]    怎樣啦！
+\CBmp[DedOne,20]\SETpr[DedOne_normal]\plf\Rshake\c[4]未知：\c[0]   這故事我可以笑上很久！
+
+GodCTalk/begin3
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prh\c[4]迷之算命師：\c[0]    \..\..\.. 渾蛋！
+
+unused/unused
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]不良份子：\c[0]    總覺得這樣對不起老闆啊。
+\SETpl[TellerNormal]\Lshake\prf\c[4]艾莎布：\c[0]    我不說，你不說，又有誰會知道呢？
+
+#######################################Teller TG
+
+GodCTalk2/begin0
+\CBmp[DedOne,20]\SETpl[TellerEyeClosed]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    這不是我的劇本！ 我們約好的！ 一切依照我的劇本走！
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]艾莎布：\c[0]    該死的！你絕對是最差勁的玩家！
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]艾莎布：\c[0]    為了迎合你那偉大的冒險與噁心的腳色數值，你記得上次發生了什麼？
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    正義降臨於世！ 那是個宏大的冒險！
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]艾莎布：\c[0]    對！ 你跟你的子婿差點把這個次元給砸了！
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]海巫：\c[0]    嗯.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    正因為我的活耀，世界依然擁有正義與和平！
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]艾莎布：\c[0]    沒錯！ 我現在就是盡可能的將你那愚蠢的劇本變成正常，可讓你活躍的劇本！
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]海巫：\c[0]    嗯.....
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    不！ 我不承認！ 你不應該修改這幾行！
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    這是故事的關鍵點！ 起承轉合！
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]艾莎布：\c[0]    你那腐爛的靈魂根本無法了解起承轉合！ 這只是另個瑪莉蘇！
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]海巫：\c[0]    嗯.....
+\CBmp[teller,20]\SETpl[TellerAngry]\Lshake\prf\c[4]艾莎布：\c[0]    復仇劇根本不能這麼寫！ 這不好好修改絕對會遺臭萬年！
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    不可能！ 你看這世界不依然崇拜聖徒？
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    這世界崇尚偉大的冒險！ 聖徒的傳記可以在世上每個角落找到！
+\CBmp[teller,20]\SETpl[TellerConfused]\Lshake\prf\c[4]艾莎布：\c[0]    你真的去問過你的子民嗎？
+\CBmp[DedOne,20]\SETpr[DedOne_angry]\plf\Rshake\c[4]正義：\c[0]    正義不需要質疑！
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]海巫：\c[0]    我看看....
+
+GodCTalk2/begin1
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\plf\Rshake\c[4]海巫：\c[0]    \..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]海巫：\c[0]    嗯\..\..\..
+\CBmp[SeaWitch,8]\SETpr[SeaWitch_confused]\c[4]海巫：\c[0]    嗯\..\..\..嗯\..\..\..
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\c[4]海巫：\c[0]    這什麼鬼阿！
+
+#######################################Teller HEV
+
+TellerSakaGBoss/begin1
+\SETpr[NoerGangBoss]\plf\Rshake\c[4]不良份子：\c[0]    總覺得這樣對不起老闆啊。
+\SETpl[TellerNormal]\Lshake\prf\c[4]艾莎布：\c[0]    我不說，你不說，又有誰會知道呢？
+
+TellerSakaGBoss/hCG01
+\c[4]艾莎布：\c[0]    呦♥\n 你的肉棒好大啊♥ 嘻嘻♥
+\c[4]不良份子：\c[0]    我也是這麼認為的。
+
+TellerSakaGBoss/hCG02
+\c[4]艾莎布：\c[0]    這氣味真是濃烈，你是多久沒洗了呢♥
+
+TellerSakaGBoss/hCG03
+\c[4]艾莎布：\c[0]    讓我用嘴幫你處理乾淨吧♥
+
+TellerSakaGBoss/hCG04
+\c[4]不良份子：\c[0]    咕嗚♥
+
+TellerSakaGBoss/hCG05
+\c[4]不良份子：\c[0]    啊啊♥
+
+TellerSakaGBoss/hCG06
+\c[4]不良份子：\c[0]    咕嗚！好厲害！
+
+TellerSakaGBoss/hCG07
+\c[4]不良份子：\c[0]    太強了.... 好像同時被好幾個女人舔！
+
+TellerSakaGBoss/hCG08
+\c[4]不良份子：\c[0]    該死的...嗚嗚 妳到底是怎麼辦到的...
+
+TellerSakaGBoss/hCG09
+\c[4]不良份子：\c[0]    不行 太誇張了！
+
+TellerSakaGBoss/hCG10
+\c[4]不良份子：\c[0]    我要射了 要來了！
+
+TellerSakaGBoss/hCG11
+\c[4]不良份子：\c[0]    嗚啊啊 ！！ 不要吸！！ 不要這個時候吸！！
+
+TellerSakaGBoss/hCG12
+\c[4]不良份子：\c[0]    啊啊啊啊啊！！！
+
+TellerSakaGBoss/hCG13
+\c[4]不良份子：\c[0]    嗚嗚....
+
+TellerSakaGBoss/hCG14
+\c[4]不良份子：\c[0]    哈啊...
+
+TellerSakaGBoss/hCG15
+\c[4]不良份子：\c[0]    呼\..\.. 呼\..\..\..
+
+TellerSakaGBoss/hCG16
+\c[4]艾莎布：\c[0]    嘻嘻♥ 平常嘴巴這麼硬氣... 結果這樣就出來了♥
+
+TellerSakaGBoss/hCG17
+\c[4]不良份子：\c[0]    不，是艾莎的口技太誇張了。
+
+TellerSakaGBoss/hCG18
+\c[4]艾莎布：\c[0]    嘻嘻♥ 過獎了，我的屄穴還沒吃到肉棒呢。
+
+TellerSakaGBoss/hCG19
+\c[4]不良份子：\c[0]    沒問題！
+
+#######################################Teller HEV2
+
+GoldenBarHev/SadJew0
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]服務員：\c[0]    東方商貿？
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    對對對！ 就是我！就是我！
+\CBmp[SadJew,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    我做的是良心生意，現在島上正需要所有人齊心協力。
+\CBmp[SadJew,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    為了與聖徒一起對抗邪惡的入侵者，捐點小錢不算什麼。
+\CBmp[Vandor,2]\SETpr[AnonMale1]\plf\Rshake\c[4]服務員：\c[0]    東方人信聖徒？ 你們不是信那個什麼妓女的？ 還為了誰是偽神還跟我們幹了一架？
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    不不不！ 我改宗了，我信聖徒，與你們一樣。
+\CBmp[SadJew,3]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    \cg[event_Coins]\SND[SE/Chain_move01.ogg]這是我的一點心意，讓我見見\c[6]美祿大人\c[0]吧。
+\cgoff\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]服務員：\c[0]    就這點？！ 你是看不起我嗎？
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]服務員：\c[0]    聽著，我再說一次，美祿大人非常的忙，除了有請帖的人外誰也不見。
+\CBmp[SadJew,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    我捐了這麼多錢你們就通融一下吧....
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]服務員：\c[0]    該死的，我說過很多次了！！
+\CBmp[Vandor,20]\SETpr[AnonMale1]\plf\Rshake\c[4]服務員：\c[0]    美祿大人沒有時間理你這種\c[6]東方的矮黑人\c[0]！ 離開！
+\CBmp[SadJew,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    沒關係沒關係.... 我可以等，我可以在這裡等。
+\CBmp[Vandor,5]\SETpr[AnonMale1]\plf\Rshake\c[4]服務員：\c[0]    去！
+
+GoldenBarHev/SadJewMsg0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    妳有看見我的妻子嗎？
+
+GoldenBarHev/SadJewMsg1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    她說要幫我打通管道，賢慧的她一定做得到的！
+
+GoldenBarHev/SadJewMsg2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    唉，好久沒與她愛愛了，誰叫我太忙了呢？
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    她一定會諒解我的...
+
+GoldenBarHev/begin1
+\SndLib[sound_MaleWarriorDed]\c[4]汁男A：\c[0]    阿呀呀呀呀呀！！！
+\SndLib[sound_MaleWarriorDed]\c[4]汁男B：\c[0]    好懷念艾莎布的小穴阿。
+\SndLib[sound_MaleWarriorDed]\c[4]汁男C：\c[0]    我聽說妳結婚了，還以為再也見不到妳了。
+
+GoldenBarHev/HevItSelf01
+\c[4]艾莎布：\c[0]    傻孩子，我怎麼可能捨得離開你們呢？
+
+GoldenBarHev/HevItSelf02
+\c[4]汁男D：\c[0]    為什麼還沒輪到我！ 我要媽媽！
+
+GoldenBarHev/HevItSelf03
+\c[4]汁男E：\c[0]    艾莎布的身體好香♥ 我也想插插♥
+
+GoldenBarHev/HevItSelf04
+\c[4]艾莎布：\c[0]    別急，大家好孩子，好孩子都有份啊♥
+
+GoldenBarHev/HevItSelf05
+\c[4]汁男C：\c[0]    不行了！ 艾莎布的小穴彷彿有數的舌頭在舔一樣。
+
+GoldenBarHev/HevItSelf06
+\SndLib[sound_MaleWarriorDed]\c[4]汁男C：\c[0]    我要去了啊！！！
+
+GoldenBarHev/HevItSelf07
+\c[4]艾莎布：\c[0]    來吧♥ 一起去吧♥ 讓我把所有人的汙穢吸淨吧♥
+
+GoldenBarHev/HevItSelf08
+\SndLib[sound_MaleWarriorDed]\c[4]汁男A：\c[0]    \{嗚啊啊啊！！！
+
+GoldenBarHev/HevItSelf09
+\SndLib[sound_MaleWarriorDed]\c[4]汁男B：\c[0]    \{吚吚吚吚吚！！！
+
+GoldenBarHev/HevItSelf10
+\SndLib[sound_MaleWarriorDed]\c[4]汁男C：\c[0]    \{哦哦哦哦哦哦！！！
+
+GoldenBarHev/HevItSelf11
+\c[4]艾莎布：\c[0]    呵呵...大家都好厲害呦♥
+
+GoldenBarHev/End
+\c[4]汁男：\c[0]    該死的！別再敲了！ 裡面有人！
+\m[flirty]\c[6]洛娜：\c[0]    呃....抱歉...
+
+####################################################################### DF邪教徒任務串
+
+Df_TellerSide/NoneElseNotDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]算命師：\c[0]    去吧，妳辦的到的。
+
+Df_TellerSide/NoneElseDone
+\CBid[-1,8]\SETpl[TellerNormal]\Lshake\c[4]算命師：\c[0]    去吧，我們將來會再見面的。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....好哦？
+
+Df_TellerSide/0to1_1
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\c[4]算命師：\c[0]    洛娜，妳總算出現了。 我等妳很久了
+
+Df_TellerSide/0to1_2_know
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    東方商貿的算命阿姨？ 妳怎麼會在這？
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]算命師：\c[0]    阿姨\..\..\..？
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...姊姊？
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    唉...算了。
+
+Df_TellerSide/0to1_2_Unknow
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...妳是？
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    我是知曉妳一切，並將引領妳靈魂之人。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    哦，是哦？
+
+Df_TellerSide/0to1_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    所以您找我有什麼事？
+
+Df_TellerSide/1to2_0_0
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    妳將為我殺死一個人。
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我？ 殺人？！
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]算命師：\c[0]    對，沒錯，殺人。
+\CBct[20]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    為什麼是我？ 我為什麼要幫妳做這種事？
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    因為妳需要錢，因為妳想離開這座島。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    錢.....
+
+Df_TellerSide/1to2_0_1
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    他是誰？ 為什麼妳想殺他？
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]算命師：\c[0]    他們是邪惡的謊言者。
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    他們於不對的時間，錯誤的地方，崇拜著不該崇拜的神。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...什麼意思？ 我有聽沒懂。
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]算命師：\c[0]    他們與你一樣是黑霧的受害者，但卻崇拜著黑霧。
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    \c[6]生育之母\c[0]教，他們崇拜著殺死妳親朋好友的黑霧。
+
+Df_TellerSide/1to2_1
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我......
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    殺死它們的祭司，他總是帶著一個豬頭的面具並自稱\c[4]雄豬頭\c[0]。
+\plf\..\..\..
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]算命師：\c[0]    煩死了！ 真是夠了！ 一群愚蠢的猿猴！
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]算命師：\c[0]    那種神明會想被自稱豬頭的蠢貨祭拜阿？
+\CBid[-1,5]\SETpl[TellerAngry]\Lshake\prf\c[4]算命師：\c[0]    被這種東西朝拜的神明只會感到很羞恥好嗎？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    .....
+
+Df_TellerSide/1to2_1_BRD
+\board[消滅散布謊言者]
+目標：殺死\c[4]雄豬頭\c[0]
+報酬：金幣1
+委託主：迷之算命師
+期限：單次
+前往水濂洞並殺死生育之母教的祭司\c[4]雄豬頭\c[0]。
+
+Df_TellerSide/1to2_2_Yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    好吧，我接了。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    但這個邪教跟妳有什麼關係？
+\CBid[-1,8]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]算命師：\c[0]    沒有什麼關係，我們都是人。
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]算命師：\c[0]    是人都想早點解決這場混亂。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    嗯....好吧，不想說就算了。
+
+Df_TellerSide/1to2_2_No
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    算了吧，妳找錯人了。
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    沒關係，妳遲早會回來找我的。
+
+Df_TellerSide/PriestDead
+\CBid[-1,0]\c[4]雄豬頭：\c[0]    不！ 生育之母！ 不要遺棄我！
+
+Df_TellerSide/3to4_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃....那個豬頭好像死翹翹了？
+\CBid[-1,8]\SETpl[TellerConfused]\Lshake\prf\c[4]算命師：\c[0]    真令人驚訝，妳真的如同預測的一樣。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    預測...？ 一樣？
+\CBid[-1,8]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    沒什麼，我說過妳辦的到的不是嗎？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦？ 我該高興嗎？
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]算命師：\c[0]    妳的確該高興。
+\CBid[-1,20]\CBmp[0]\SETpl[TellerOkay]\Lshake\prf\c[4]算命師：\c[0]    拿去吧，我相信這些東西妳以後用得著。
+
+Df_TellerSide/3to4_1
+\CBct[3]\m[triumph]\plf\PRF\c[6]洛娜：\c[0]    謝謝！！
+
+############################################################################################## Rebirth to abom
+
+AbomRebirth/opt_rebirth
+妳的孩子
+
+AbomRebirth/beginIfAbom
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]迷之算命師：\c[0]    我的孩子啊，妳究竟在尋找什麼呢？
+
+AbomRebirth/ans_rebirth0
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...妳的孩子？
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]迷之算命師：\c[0]    我知道妳的一切，妳身體上苦痛，也知道妳的噩夢來自哪裡。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    是哦？ 我是還蠻常生病的。
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]迷之算命師：\c[0]    身為妳的母親，我可以幫助妳。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    所以...妳打算怎麼幫？
+
+AbomRebirth/ans_rebirth1
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    所以...發生了什麼嗎？
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    我喚醒了沉睡在妳體內的力量。
+\CBid[-1,20]\SETpl[TellerEyeClosed]\Lshake\prf\c[4]迷之算命師：\c[0]    這可以為妳的冒險帶不少幫助。
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]迷之算命師：\c[0]    去吧，我的孩子。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    呃...謝謝？
+
+############################################################################################## DancerSet
+
+HappyTrader/DancerSet0_waifuIsntThere
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\c[4]商人：\c[0]    我老婆去哪裡了？？
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\c[4]商人：\c[0]    嗚...他剛剛還在這的啊？
+
+HappyTrader/DancerSet0
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    噢！ 抱歉抱歉....我能為您服務嗎？
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我在旅途中找到了這個包裹，我想這應該是您的？
+
+HappyTrader/DancerSet1
+\CBid[-1,8]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    ！\.！\.！\.！
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    太好了！ 這的確是我遺失的東西，那些賊人居然敢截給我的貨。
+
+HappyTrader/DancerSet2
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    噢！ 我的愛人，你看這些衣服漂亮嗎？
+
+HappyTrader/DancerSet3
+\CBmp[teller,3]\SETpr[TellerNormal]\plf\Rshake\c[4]算命師：\c[0]    阿啦\..\..\..這是給我的禮物？
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    \..\..\..禮物？
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    對對對！！ 這是給妳的禮物，漂不漂亮？ 開不開心？
+\CBmp[teller,5]\SETpr[TellerConfused]\plf\Rshake\c[4]算命師：\c[0]    好幾套一模一樣的禮物？
+\CBid[-1,6]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    對！真的！ 禮物！
+\CBmp[teller,8]\SETpr[TellerAngry]\plf\Rshake\c[4]算命師：\c[0]    .....
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    .....
+
+HappyTrader/DancerSet4
+\CBid[-1,6]\SETpl[HappyMerchant_fear]\Lshake\c[4]商人：\c[0]    慘了....
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    啊！ 真抱歉！
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    這是來自我國進口的漂亮衣服，可惜在席芭莉絲那中轉時發生了什暴動。
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    現在山莊那的老爺們已經不要了，真是可惜啊。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    哦？
+\CBid[-1,8]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]商人：\c[0]    \..\..\..
+\CBid[-1,9]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]商人：\c[0]    ！！！
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    為了感謝妳將貨物歸還，我可以便宜賣妳。
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    如何？考慮看看？
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...我考慮考慮？

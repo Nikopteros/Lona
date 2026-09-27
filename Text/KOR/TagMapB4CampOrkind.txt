@@ -1,0 +1,37 @@
+ThisMap/OvermapEnter
+\m[confused]멀리서 누군가의 구조 요청이 들려온다.\optB[그만둔다,들어간다]
+
+enterMap/begin
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 어... 근처에 누가 있는 것 같은데?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 흠\..\..\..\m[serious]조심하는 게 좋겠어.
+
+crying/begin1
+\c[6]난민：\c[0] 안 돼! 살려줘! 누구 없어요?!
+
+crying/begin2
+\CBmp[Hum,6]\c[6]난민：\c[0] 안 돼! 손대지 마! 나 남자라고!
+
+crying/begin3
+\CBmp[Hum,6]\c[6]난민：\c[0] 제발…! 내 뒷구멍은 아직 처녀란 말이야!
+
+crying/begin4
+\CBmp[Hum,20]\c[6]난민：\c[0] \{으아아아아!!!
+
+crying/begin5
+\CBmp[Hum,6]\c[6]난민：\c[0] 죽겠다! 뒷구멍이 찢어질 것 같아!!!
+
+crying/begin6
+\CBmp[Hum,2]\c[6]난민：\c[0] 설마… 안에다 쌀 거야?!
+\CBmp[Hum,20]\c[6]난민：\c[0] 안 돼! 나 임신하기 싫어! 아빠 되고 싶지 않다고!
+
+crying/begin7
+\CBmp[Hum,20]\c[6]난민：\c[0] \{싫어어어어!!!
+\CBmp[Hum,20]\c[6]난민：\c[0] 하하! 너희 괴물들은 성도님께 가서 심판이나 받아라!
+
+enterMap/end0
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 남자가… 임신? 내가 잘못 들은 건가?
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 잠깐, 앞에 있는 건\..\..\..
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] \{오크들?!
+
+
+

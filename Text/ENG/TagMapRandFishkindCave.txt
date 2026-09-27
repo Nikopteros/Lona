@@ -1,0 +1,64 @@
+#Translated by Rrezzolution, cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+FishkindCave1/OvermapEnter
+\m[confused] A damp cave. The stench of rotting fish wafts out from the entrance. \optB[Leave,Enter]
+
+FishkindCave3/OvermapEnter
+\m[confused] Harvest Sanctuary \optB[Leave,Enter]
+
+Lona/TimerStart
+\narr The roars of incoming monsters echo around the damp cave.
+\narrOff\m[fear]\c[6]Lona：\c[0]    I have to hurry up...
+
+#############################################################################
+
+Lona/RapeLoopNonCapture
+\m[fear] The Deepones captured Lona. They also confiscated her equipment and items.
+\m[terror] They were very happy to have found a new brood mother for their nests.
+
+Lona/RapeLoopCaptured
+\m[terror] The Deepones haven't had enough fun, they weren't going to allow Lona rest just yet.
+\m[fear] They exposed their disgusting and hardened genitals. For today they'll have to make sure this brood mother is covered with their semen...
+
+#-----------------------------
+
+Lona/RapeLoopDragOut
+\m[hurt] The Deepones dragged Lona out as they were planning to have a celebratory orgy.
+
+Lona/RapeLoopTorture
+\m[fear] The Deepones were angry at Lona’s attempt to escape. They will be teaching Lona a lesson to show what happens to the brood mothers that try to flee...
+
+#-----------------------------
+
+Exit/Triggered
+Is something happening?
+
+########################### QUEST FishkindHunt2
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]Female Mercenary：\c[0]    What do we do now?
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]Female Mercenary：\c[0]    Guuuh... W-Who are... you...? \optB[Just someone passing by...,I've come here to save you!]
+
+CommonConvoyTarget/begin0
+\prf\c[4]Female Mercenary：\c[0]    He-Help... me...
+\m[serious]\PRF\c[6]Lona：\c[0]    Are you okay?
+\prf\c[4]Female Mercenary：\c[0]    Unnngh...
+
+victim/Convoy_start
+\board[Escort to the designated campsite]
+Goal： Escort the Female Mercenary to the Wetlands Camp.
+The target must not die during the escort.
+
+CommonConvoyTarget/Hev0
+\SETpr[FishCaveRBQ]A broken woman laid on top of the pile of various sea creatures and corpses, surrounded by the smell of rotting fish.
+It seems the Deepones had no desire to kill her. Rather, they planned to keep her alive and made sure she was fed.
+In order to make intercourse easier with their large genitals, the Deepones use their fist and arms to expand a female's vagina.
+The Deepones cared not about the suffering and pain this caused to the woman.
+To them, only the strongest female, who can tolerate such barbaric practices was seen fit as a brood mother for their offspring.
+Her loose vagina, gaping anus, and bloody pelvis were covered in bruises and lacerations...
+She was a mercenary and an adventurer. Her sturdy and experienced body allowed her to survive all this torture.
+But eventually, she won't be able to endure it any longer......
+
+#Translated by Rrezzolution, cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

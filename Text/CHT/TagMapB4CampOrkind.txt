@@ -1,0 +1,37 @@
+ThisMap/OvermapEnter
+\m[confused]你能聽到遠處傳來的呼救聲。\optB[算了,進入]
+
+enterMap/begin
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....好像有人在附近？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    嗯\..\..\..\m[serious]我最好小心一點。
+
+crying/begin1
+\c[6]難民：\c[0]    不！ 救命！ 誰來救救我啊！
+
+crying/begin2
+\CBmp[Hum,6]\c[6]難民：\c[0]    不！ 不要碰我！ 我是男的啊！
+
+crying/begin3
+\CBmp[Hum,6]\c[6]難民：\c[0]    求求你們了！ 我的後庭花還是處男啊！
+
+crying/begin4
+\CBmp[Hum,20]\c[6]難民：\c[0]    \{哇啊啊！！！
+
+crying/begin5
+\CBmp[Hum,6]\c[6]難民：\c[0]    要死了！ 後庭要裂開了！！！
+
+crying/begin6
+\CBmp[Hum,2]\c[6]難民：\c[0]    難道... 要射在我裡面？！
+\CBmp[Hum,20]\c[6]難民：\c[0]    不要！ 我不想懷孕！ 我不想當爸爸啊！
+
+crying/begin7
+\CBmp[Hum,20]\c[6]難民：\c[0]    \{不要啊啊！！！
+\CBmp[Hum,20]\c[6]難民：\c[0]    哈哈！ 你們這些魔物見聖徒去吧！
+
+enterMap/end0
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    男的？懷孕？....是我聽錯了嗎？
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    等等，前面那些好像是\..\..\..
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{類獸人？！
+
+
+

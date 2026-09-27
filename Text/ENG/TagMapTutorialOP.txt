@@ -1,0 +1,188 @@
+#Fully translated by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+#note 指路人=beacon
+
+OP/EXIT
+End the tutorial and leave?
+
+OP/EXIT_yes
+\CBct[2]\m[confused]\c[6]Lona：\c[0]    \....\....Mmmnnn... Ugh?
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{HUH?!\}
+\CBct[8]\m[flirty]\c[6]Lona：\c[0]    \....Was it all...... \....Just a dream?
+
+OP/b4Begin0
+The Black Mist took everything from me.
+
+OP/b4Begin1
+I lost my home...
+
+OP/b4Begin2
+My family...
+
+OP/b4Begin3
+I have nothing......
+
+OP/begin0
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Ahh... You're finally here...!
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    I've been waiting a long time for you to arrive. You were sent by the guild to get rid of the filthy, giant rats. Yes?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    The vermin have been infesting this area and mutating since January...
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Follow me.
+
+OP/begin1
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Now... What was that child's name......?
+\CBmp[teacher,8]\c[4]Unknown：\c[0]    \..\..\..That's right! \c[6]Feira\c[0]!
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Such a sweet girl... I wanted her to be my herald, but her rage consumed her and clouded her judgment.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    I thought I could be the one to enlighten her, but it seems I was far too late......
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Now that you're here, I hope you'll be the one to finally help me with my pest problem.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Take a look around.
+
+OP/begin2
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    What a sad, cruel world. Yes?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    These poor souls ran away from \c[6]Sybaris\c[0] and lost their homes, just like you.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    But you're different, you haven't given up and lost hope. Right?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Come on...
+
+OP/begin3
+\narr Switching directions/the area you're facing is very important for scouting ahead and combat.
+\narr Be sure to always remain vigilant and look around clearly before moving ahead!
+
+OP/begin4
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    It's really dark in here, huh? Almost reminds you of the \c[6]Black Mist\c[0] that dreadful night...
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Apologies, I didn't mean to bring up such a horrid disaster.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Come, go ahead and light this firepit for me.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Justice will serve as the light shining in the darkness, driving away all evil and sin...
+
+OP/begin5
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Much better now, yes?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    I assure you, the darkness of that night won't ever happen again.
+
+OP/begin6
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Hmmm?  Wait a second\....\.... What is this?
+
+OP/begin7
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Seems you forgot some things here.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Go ahead and pick them up, they belong to you after all.
+
+OP/begin8
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    ......I just thought those two had an argument and spilled something in my home.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    I didn't expect to see everything be so miserable and ruined once I returned.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    But, I'm sure I know just who the culprit is...
+\CBmp[teacher,8]\c[4]Unknown：\c[0]    .....Hmmm?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Have you finished collecting all of your belongings?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Alright then, follow me.
+
+OP/begin9
+\narr You must be standing on top of Small objects/obstacles to interact with them.
+\narr While Large objects/obstacles must be stood next to and faced in order to be interacted with.
+\narr All actions in the game; (Such as picking up, dialogue, and trading/bartering), requires the Trigger key to execute.
+
+OP/begin10
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Now, where was I...?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Ah, yes! I just hate it when I'm busy with something and have to deal with another problem.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Why should I be the one to fix the trouble they've created?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Perhaps they did all of this on purpose...?
+
+OP/begin11
+\CBmp[teacher,8]\c[4]Unknown：\c[0]    \....\....\....
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Are you sure you've collected all of your belongings?
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    It seems you have forgotten about these items as well.
+
+OP/begin12
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    I know she wants to catch up and be powerful like usss...
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    But you can't just suddenly force something like that to happen so quickly...
+
+OP/begin13
+\narr Press the two keys together to use or equip the item(s) on the floor at once.
+
+OP/begin14
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    They ruined my home and turned it into this wretched world! AND NOW...?!
+\CBmp[teacher,5]\c[4]Unknown：\c[0]    They escaped and ran away! What a joke...!!!
+
+OP/begin15
+\narr The Menu interface contains all of Lona's information and settings.
+\narr Including her health status, equipment, inventory, message archives, and system options.
+
+OP/begin16
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Hey, come take a look at this.
+
+OP/begin17
+\CBmp[Atk,19]\c[4]Unknown：\c[0]    It seems this barricade was Feira's work.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    She must have built this to prevent vagrants from entering her territory.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    ...But the irony was that she's a homeless vagrant as well.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    As cruel as it sounds, this was her destiny. But what about you? What does fate have waiting for you...? 
+
+OP/begin18
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    My child, gooo fooorth.
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    Yooour dessstiny liesss ahead...
+\CBmp[teacher,20]\c[4]Unknown：\c[0]    ...Faaace it......
+
+OP/ToTrigger1
+Press the "trigger" key to continue.
+
+OP/ToTrigger2
+Your trigger key is
+
+OP/UX_GOTO0
+Press
+
+OP/UX_GOTO1
+Move to the designated location.
+
+OP/CHANGE_DIR0
+To change the direction you are facing.
+
+OP/FaceFirePitAndPress
+Stand next to the firepit while looking at it and press
+
+OP/5Times
+to activate it 5 times.
+
+OP/StandOnItemAndPress
+Stand on top of the item and press
+
+OP/ToPickItem
+to pick up the item and store it in your inventory.
+
+OP/ToPickAndEquip
+to pick up the item and use/equip it immediately.
+
+OP/ToMenu0
+Press the "Menu key" to open the Menu,
+
+OP/ToMenu1
+press the "Menu key" again to close the Menu.
+
+OP/ToMenu2
+Your "Menu key" button is
+
+OP/ToEquip1
+navigate to the "Equip" page,
+
+OP/ToEquip2
+and equip the Lantern in the "S-ARM" slot.
+
+OP/ToSkill1
+and set up your "Ability 1" skill to the
+
+OP/ToSkill2
+Skill Layout key.
+
+OP/ToATK0
+Use "Ability 1" or other offensive Skills
+
+OP/ToATK1
+to destroy the target obstacles.
+
+OP/ToRELAX0
+You're exhausted now!
+
+OP/ToRELAX1
+Setup the "Rest" skill in your Skill Layout,
+
+OP/ToRELAX2
+and hold down the key to restore your Stamina.
+
+OP/ToEND
+Leave this area...
+
+#Fully translated by Sugoi Soy Boy. Fuck off MTLing monkeys.

@@ -1,0 +1,164 @@
+thisMap/OvermapEnter
+\m[confused]Nine Inch Tribe\optB[Leave,Enter]
+
+########################################### When begin
+
+rg4/FirstAlert0
+\CBmp[Archer,20]\prf\c[4]\c[4]guardA：\c[0]    Kunämänn! It belongs to Kunämänn!
+
+rg4/FirstAlert1
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Who? Me?!
+\CBmp[Archer,20]\prf\c[4]\c[4]guardA：\c[0]    Kill her! Cut the chicken!
+\m[bereft]\Rshake\c[6]Lona：\c[0]    No! Why! Wait a moment!
+\CBmp[GuardA,20]\prf\c[4]\c[4]guardB：\c[0]    No! Wait! Maybe \c[6]shämän\c[0] said... It's about warriors!
+\CBmp[Archer,2]\prf\c[4]\c[4]guardA：\c[0]    Such a shrimp? How is it possible!
+\m[flirty]\PRF\c[6]Lona：\c[0]    So... You won't kill me after all?
+
+rg4/FirstAlert3
+\CBmp[Archer,20]\prf\c[4]\c[4]guardA：\c[0]    Who are you from? Who is it?
+\CBct[6]\m[fear]\PRF\c[6]Lona：\c[0]    I'm really not a bad person, I just happened to pass by.
+\CBmp[GuardA,20]\prf\c[4]\c[4]guardB：\c[0]    Take off your clothes! Showing your breasts proves that you are not a dummy!
+\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    What? M-my clothes?
+\CBmp[Archer,5]\prf\c[4]\c[4]guardA：\c[0]    Righteous breda! Take it off!
+
+rg4/FirstAlert3_1
+\CBct[6]\m[bereft]\Rshake\c[6]Lona：\c[0]    I'm taking it off! I'm taking it off right now, please don't hurt me!
+
+rg4/FirstAlert4
+\CBmp[6]\m[shy]\PRF\c[6]Lona：\c[0]    Is this okay? Will you let me go now?
+
+rg4/FirstAlert4_0
+\CBmp[1]\m[p5shame]\Rshake\c[6]Lona：\c[0]    AIEE!
+
+rg4/FirstAlert4_1
+\CBmp[GuardA,20]\c[4]\c[4]guardB：\c[0]    Righteous breda! This touch is real!
+
+rg4/FirstAlert5
+\m[shy]\CBmp[GuardA,20]\prf\c[4]\c[4]guardB：\c[0]    Look! As \c[6]shämän\c[0] say it! She is from the endless lake on her chest!
+\CBmp[Archer,20]\prf\c[4]\c[4]guardA：\c[0]    Hmm, \c[6]shämän\c[0] could it be true? No dick yet? And it's on the lake?!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh? What lake?
+\CBmp[GuardA,20]\prf\c[4]\c[4]guardB：\c[0]    Go, kunämänn warriors! \c[6]Shämän\c[0] want to see you!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well... Who is this \c[6]Shämän\c[0]?
+
+rg4/DressCheck
+\CBmp[GuardA,20]\prf\c[4]\c[4]guardB：\c[0]    Kunämänn! You have to take off your clothes to come in!
+\CBmp[Archer,5]\prf\c[4]\c[4]guardA：\c[0]    Righteous breda! Take it off! Prove you're real!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well...
+
+rg4/Aggroed
+\prf\c[4]\c[4]guardA：\c[0]    \{Cut dick! Cut the chicken!\}
+\m[shocked]\Rshake\c[6]Lona：\c[0]    What are you on about?! You sound like a bunch of MTL monkeys...
+\narr The Nine Inch Tribe is now an enemy!
+
+########################################### Commoner & fixed opj
+
+PrayKid/Qmsg0
+I want to grow up fast!
+
+PrayKid/Qmsg1
+I want to hunt the bad guy's cock!
+
+PrayKid/Qmsg2
+Hunter's cock is huge!
+
+Gill/Qmsg0
+Why do I have no dick?
+
+Gill/Qmsg1
+Why can't I hunt dicks?
+
+Gill/Qmsg2
+You don't have a dick either!
+
+Penis/Msg
+\narr There seems to be something engraved on it\..\..\..
+
+Nap/GameOver0
+\c[4]\c[4]guardA：\c[0]    Kill her! Damn intruders!
+\c[4]\c[4]guardB：\c[0]    Kill her! Cut off her cock!
+
+Nap/GameOver1
+\narr The tribe cut Lona up\..\..\..
+\narr Lona will be the nourishment for the ancestors\..\..\..
+
+Commoner/RngDialog0
+\CBid[-1,20]\c[4]\c[4]guard：\c[0]    Just to drink!
+
+Commoner/RngDialog1
+\CBid[-1,20]\c[4]\c[4]guard：\c[0]    Cut dick! drink wine!
+
+Commoner/RngDialog2
+\CBid[-1,20]\c[4]\c[4]guard：\c[0]    Karma!
+
+########################################### the witch
+
+WitchOPT/Begin
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    O kunämänn warrior, I have seen your coming.
+
+WitchOPT/End
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Nine Inch Cock Guides You.
+
+WitchOPT/AboutHere
+Nine Inch Hunter Tribe
+
+WitchOPT/AboutWhyMe
+Shämän
+
+WitchOPT/AboutDedOne
+Dark traveler
+
+WitchOPT/AboutHere0
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    This is from the ancestors of \c[6]Nine Inch Hunter Tribe\c[0].
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    The ancestors led us to escape from the white orangutan's lair.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Our ancestors created us with a nine-inch penis.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    In order to prove that we are all the children of the ancestors, every young man of the tribe must cut a penis when he comes of age.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Ah... So that's what's all the dick-cutting is about?
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Yes, to prove that Grandpa's cock is the greatest cock.
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Oh...?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Why did the warriors at the gate... grope me?
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    This is the way the ancestors recognize intruders.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    those ugly \c[6]murloc\c[0] They will sneak in disguised as us.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    But you are absolutely not, you are the endless lake in front of your chest.
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    I uhh... I don't think I follow...
+
+WitchOPT/AboutWhyMe0
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Well... Are you the \c[4]shämän\c[0]?
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Yes, kunämänn warriors.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    The \c[6]Dark Traveler\c[0] said it. The prophecy that your coming will solve our problems...
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    But I didn't expect the warrior to be so thin.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    \c[6]Spiral King\c[0] in the southeast \c[6]Spiral Forest\c[0]... Constantly causing trouble.
+\CBid[-1,20]\prf\c[4]\c[4]shämän：\c[0]    If you are a true warrior you will cut \c[6]Spiral Cock\c[0] of \c[6]Spiral King\c[0]! Bring it to me!
+
+WitchOPT/AboutWhyMe1
+\board[Get Spiral Cock]
+Goal： Get Spiral Cock
+Reward： Nine Inch Facepaint
+Client： Nine Inch Hunter Tribe
+Quest Term： Single Fulfillment
+You must prove that you are a true warrior, go to the southeast forest to complete your trials!
+
+WitchOPT/AboutWhyMe2_yes
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Why me? I'm just passing by.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Since \c[6]green goblin\c[0] come, we have new troubles since he appeared, but the warrior will solve everything.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Like \c[6]Dark Traveler\c[0] said, you must have doubts about everything.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    But all this happened under the guidance of the ancestors of the city.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Go kid, go prove your worth!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well whatever...
+
+WitchOPT/AboutDedOne0
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    \c[4]Dark Traveler\c[0]... Who is that? Why did he say I would come here?
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    He is the one who controls everything, and he met all this happening.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    He appeared in a dream in a black robe, and he told me all the truth.
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    The only unknown is you.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Is that so?
+
+Witch/BoarPenid_End0
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well... I beat the \c[5]Spiral King\c[0]! Yes, this is his \c[4]spiral cock\c[0]... Right?
+\CBid[-1,20]\prf\c[4]\c[4]shämän：\c[0]    Sure enough, as \c[6]Dark Traveler\c[0] said, you are a true warrior.
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Of course...
+
+Witch/BoarPenid_End1
+\CBid[-1,8]\prf\c[4]\c[4]shämän：\c[0]    Take it, here is the proof of the brave, \c[6]Dark Traveler\c[0] said you need this, put it on your face.
+
+Witch/BoarPenid_End2
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Well... Thanks, I guess?

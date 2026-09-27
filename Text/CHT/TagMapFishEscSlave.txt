@@ -1,0 +1,105 @@
+thisMap/OvermapEnter
+\m[confused]逃亡者營地\optB[算了,進入]
+
+#################################################################################
+
+ThisCamp/Found
+\CBct[2]\m[confused]\c[4]這裡看起來像一個難民的營地，但卻沒有難民主？
+\CBct[8]\m[confused]\c[4]她們是逃跑的難民？
+
+alert/MainGuard
+\c[4]守衛：\c[0]    誰！？
+\CBct[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    耶？！\optD[路過,唬爛<r=HiddenOPT0>]
+
+alert/MainGuard_passByAns
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我... 我只是路過而已。
+
+alert/MainGuard_passByWin
+\c[4]守衛：\c[0]    妳也是從村子裡逃出來的嗎？
+\c[4]守衛：\c[0]    我懂的，那只是另一個地獄罷了。
+\c[4]守衛：\c[0]    過來吧，我們不會傷害妳的。
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    謝謝....
+
+alert/MainGuard_passByLose_follower
+\c[4]守衛：\c[0]    跟著你的是誰？！
+
+alert/MainGuard_passByLose
+\c[4]守衛：\c[0]    不能放她回去！ 殺了她！
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    耶？？
+
+alert/MainGuard_BluffAns
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我...
+\CBct[20]\m[serious]\PRF\c[6]洛娜：\c[0]    我抓到了一隻野豬！ 今天的晚餐有著落了！
+
+alert/MainGuard_BluffWin
+\c[4]守衛：\c[0]    太好了！ 妳幹的太漂亮了！
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    \..\..\..哈哈？
+
+Nap/Friendly
+\narr有什麼人把洛娜扛走了。
+\narrOFF\c[4]難民：\c[0]    我們的食物已經不夠了，不能再收人了。
+\c[4]守衛：\c[0]    她與我們一樣，是從村子跑出來的奴隸，讓她留在這吧。
+
+Nap/Friendly_wake0
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    我怎麼了？ 我在哪裡？
+\CBmp[GuardMas,20]\prf\c[4]守衛：\c[0]    你也是從漁人村逃出來的對嗎？
+
+Nap/Friendly_wake1
+\CBmp[GuardMas,20]\prf\c[4]守衛：\c[0]    我們也跟妳一樣，而現在妳安全了。
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    謝謝...
+
+Nap/Enemy
+\narr有什麼人把洛娜扛走了。
+\narrOFF\c[4]難民：\c[0]    真的要吃這種東西嗎？
+\c[4]守衛：\c[0]    我們沒有選擇了，不吃就得死。
+
+Nap/Enemy_wake0
+\m[tired]\c[4]嗚嗚嗚...
+\m[confused]\c[4]我怎麼了？ 我在哪裡？
+
+Nap/Enemy_wake1
+\m[shocked]\Rshake\c[4]呀？？！ 為什麼我被綁起來了？
+\m[terror]\Rshake\c[4]下面那些屍體是？？
+\m[bereft]\Rshake\c[4]不！ 不要吃我！
+
+Nap/Enemy_wake_giveUP
+\m[sad]\Rshake\c[4]對不起...我累了...
+\m[tired]\Rshake\c[4]就讓我這樣走吧。
+
+Nap/BondageStruggle_opt
+\optD[掙扎,放棄]
+
+killed/all
+\m[tired]\c[6]洛娜：\c[0]    對不起，但我有我的理由...
+
+gameOver/nap0
+\narr洛娜將他的身體獻給了飢餓的難民...
+
+################################################################################# Common MSG
+
+Commoner/RNG_Dialog0
+\c[4]難民：\c[0]    我不該逃出來的，這一切根本沒有變。
+
+Commoner/RNG_Dialog1
+\c[4]難民：\c[0]    待在裡面至少有吃的，我為何要逃出來呢。
+
+Commoner/RNG_Dialog2
+\c[4]難民：\c[0]    吃的越來越少了，明天該怎麼辦？
+
+Guard/Qmsg0
+今天能找到吃的嗎？
+
+Guard/Qmsg1
+昨天去狩獵的人沒有回來...
+
+Guard/Qmsg2
+這樣下去不行。
+
+Commoner/Qmsg0
+我好餓...
+
+Commoner/Qmsg1
+還有吃的嗎...
+
+Commoner/Qmsg2
+拜託妳... 給我點吃的...

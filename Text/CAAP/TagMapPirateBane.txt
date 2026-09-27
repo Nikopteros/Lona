@@ -1,0 +1,171 @@
+####################################--------------------- overmap  Pirate's Bane
+
+ThisMap/OvermapEnter
+\m[confused] La Perdición del Pirata
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alto! ¿Quién va? \optB[Cancelar,Entrar,Colarse<r=HiddenOPT1>,Engañar<r=HiddenOPT2>]
+
+################################################### OUT
+
+board/Begin1
+\board[Advertencia]
+Cualquiera que cause problemas será esclavizado.
+Cumple las reglas y no causes problemas.
+Robo：16
+Agresión：32
+Asalto：64
+
+board/Begin2
+\board[Lucha contra el Crimen]
+Todos los criminales serán esclavizados.
+Entrega cualquier criminal que arrestes al guardia más cercano.
+Recibirás una ración de comida para 3 días.
+
+################################################### INN
+
+InnKeeper/Begin
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tendero：\C[0]    ¿Nueva aquí? ¿Qué deseas?
+
+InnKeeper/About_here
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tendero：\C[0]    Esta fortaleza fue construida para luchar contra piratas, pero los tiempos han cambiado, los piratas ya no se interesan por estos pantanos.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tendero：\C[0]    La fortaleza estuvo abandonada por mucho tiempo, hasta que Síbaris fue destruida.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tendero：\C[0]    La familia Rosendo reparó la fortaleza después del desastre. Es uno de los lugares más seguros bajo la protección de los Rosendo.
+
+InnKeeper/About_work
+\CamCT\Bon[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Puedo ayudarles en algo?
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tendero：\C[0]    ¿Trabajo? ¿Para ti?
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tendero：\C[0]    ¿Ves a esos mendigos afuera? Medio pan basta para contratarlos todo el día.
+\CamMP[Keeper]\BonMP[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Tendero：\C[0]    Así que no hay trabajo para ti. Puedes preguntar en el Gremio de Mercenarios.
+\CamCT\Bon[6]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Entiendo, disculpe por preguntar...
+
+thinking/talk0
+\cg[other_ArtThinking]*Pensando*
+\m[serious]Hmmm....
+\m[confused]No entiendo.
+
+################################################### Nap
+
+Guard/NapSlave
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guardia：\C[0]    ¡Eh! ¡Ven aquí!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guardia：\C[0]    ¿Qué pasa?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guardia：\C[0]    ¡Esta tiene la marca de esclava!
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]Guardia：\C[0]    ¿Una esclava fugitiva?
+\m[tired]\plf\PRF\c[6]Lona：\C[0]    ¿Mm...? ¿Qué está pasando?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guardia：\C[0]    Vamos, es hora de volver a casa.
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+Guard/NapLowMora
+\SETpl[Mreg_guardsman]\Lshake\c[4]Guardia：\C[0]    ¡Eh! ¡Ven aquí!
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]Esclavista：\C[0]    ¿Qué ocurre?
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]Guardia：\C[0]    Esta perra insolente está causando problemas aquí, así que te la dejo a ti.
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]Esclavista：\C[0]    ¡Gracias!
+\m[tired]\plf\PRF\c[6]Lona：\C[0]    ¿Mm...? ¿Qué está pasando?
+\SETpl[MobHumanCommoner]\prf\Lshake\c[4]Esclavista：\C[0]    Vamos, es hora de ir a casa.
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+###################################################### QUEEST BOARD
+
+QuestBoard/PB_OrkDen4_list
+La Cueva de los Orcoides
+
+QuestBoard/PB_OrkDen4
+\board[La Cueva de los Orcoides]
+Misión：Dirígete a la cueva de los Orcoides al norte, mata al chamán Orcoide y trae su cabeza.
+Recompensa：Grandes Cobres x3\i[582]
+Cliente：Compañía Comercial Rosendo
+Repetible：Una sola vez
+¿Los pieles verdes también invaden aquí?
+¡Ya tenemos suficientes problemas! Debemos eliminar a esos bastardos antes de que su número aumente.
+Sin duda tienen un líder. ¡Encuéntralo! ¡Mátalo!
+Este es un trabajo para \C[4]profesionales：\C[0] mercenarios.
+
+QuestBoard/PB_MassGrave_list
+El Mal en las Fosas Comunes
+
+QuestBoard/PB_MassGrave
+\board[El Mal en las Fosas Comunes]
+Misión：Purga el Mal de las Fosas Comunes.
+Recompensa：Grandes Cobres x2\i[582]
+Cliente：Monasterio Sagrado
+Repetible：Una sola vez
+¡Por las noches, se ha detectado presencia maligna en las Fosas Comunes!
+¡Por eso nadie puede pasar tranquilamente por el cementerio!
+¡Las tumbas están llenas de no muertos y criaturas malignas!
+¡Encuéntralos! ¡Expúlsalos! ¡Destrúyelos!
+
+QuestBoard/PB_DeeponeEyes_list
+Sáquenles los Ojos
+
+QuestBoard/PB_DeeponeEyes
+\board[Sáquenles los Ojos]
+Misión：Recoge 8 pares de ojos de los Profundos.
+Recompensa：Gran Cobre x1\i[582] Cobres x5\i[583]
+Cliente：Compañía Comercial Rosendo
+Repetible：Múltiples veces
+¡Este lugar sigue siendo profanado por los Profundos, pero pagarán por ello!
+¡Despedázalos! ¡Quítales sus ojos!
+
+QuestBoard/PB_NorthCP_list
+Mensaje del Puesto Norteño
+
+QuestBoard/PB_NorthCP
+\board[Puesto Norteño]
+Misión：Investiga el Puesto Norteño.
+Recompensa：Gran Cobre x1\i[582]
+Cliente：Compañía Comercial Rosendo
+Repetible：Una sola vez
+Hace días que no recibimos noticias del Puesto Norteño.
+Se requiere un mercenario para averiguar qué ocurrió en el Puesto Norteño.
+
+QuestBoard/decide
+\m[confused]¿Acepto esta misión? \optB[Cancelar,Tomar el anuncio]
+
+MercenaryGuild/PB_MassGrave_done
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Empleado：\C[0]    ¿Y bien? ¿Hay noticias?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Bueno... El mal ha sido expulsado de las tumbas, creo.
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Empleado：\C[0]    ¿Crees?
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\C[0]    ¡Seguro!
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]Empleado：\C[0]    Bueno, está bien.
+
+MercenaryGuild/Report_DeeponeEyes_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\C[0]    Aquí están los ojos que necesitaba el Gremio... Qué asco...
+
+MercenaryGuild/Report_DeeponeEyes_win2
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]Empleado：\C[0]    ¡Bien hecho!
+
+MercenaryGuild/Report_NorthCP_win1
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    Em... Sobre el Puesto Norteño...
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0]    Creo que están todos muertos... Supongo que por los Orcoides.
+\CBmp[GuildEmpolyee,8]\m[confused]\prf\c[4]Empleado：\C[0]    Qué pena... Las cosas empeoran. Los echaremos de menos.
+
+MercenaryGuild/PB_OrkDen4_win1
+\CBct[20]\m[fear]\PRF\c[6]Lona：\C[0]    Ehhh... Esta es la cabeza del jefe Orcoide...
+
+MercenaryGuild/PB_OrkDen4_win2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]Empleado del Gremio：\C[0]    ¡Increíble, realmente lo lograste!
+
+###################################################### ChickenSanders
+
+Sanders/MyCock0
+\CBmp[Sanders,6]\m[confused]\prf\c[4]Sanders：\C[0]    ¡Mis gallos! ¡Mis gallos!
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    ¡¿Qué?! ¿Gallos?
+\CBmp[Sanders,20]\prf\c[4]Sanders：\C[0]    ¡Ayúdame! ¡Mis gallos han desaparecido!
+
+Sanders/MyCock1
+\board[Captura de Gallos]
+Misión：Rescata los gallos de Sanders.
+Recompensa：Cobres x2\i[583]
+Devuelve tres gallos al corral.
+La recompensa se duplica si se completa a tiempo.
+Interactúa con los gallos para empujarlos.
+
+Sanders/MyCock2
+\m[confused]\ph\c[4]Sanders：\C[0]    ¡Devuélveme mis gallos! ¡Llévalos al corral!
+\m[confused]\PRF\c[6]Lona：\C[0]    Vale. ¿No será tan difícil, no?
+
+Sanders/MyCock_working
+\m[confused]\prf\c[4]Sanders：\C[0]    ¡Por aquí! ¡Atrapalos!
+
+Sanders/MyCock_done
+\CBmp[Sanders,20]\m[confused]\prf\c[4]Sanders：\C[0]    ¡Guerrera!
+\CBmp[Sanders,20]\m[confused]\prf\c[4]Sanders：\C[0]    Gracias por salvar al mundo, todos te recordaremos.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\C[0]    No salvé al mundo, solo atrapé unos gallos, ¿no?

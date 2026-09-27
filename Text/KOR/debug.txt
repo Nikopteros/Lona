@@ -1,0 +1,48 @@
+set/persona
+\SETpl[AnonMale4]\m[normal] normal default sound vol=50 pitch=60 dest =4
+\SFXfile[DialogWisper0]\SFXset[60,190,2]\SETpl[AnonMale4]\SETpr[CecilyAngry]\PLF 60,190,2
+\SFXfile[DialogDed0]\SFXset[60,190,2]\SETpl[AnonMale4]\plf 60,190,2 DialogDed0
+\SFXfile[DialogDed0]\SFXset[60,190,2]\SETpl[AnonMale4]\PLF 60,190,2 DialogDed0
+\SFXfile[DialogWisper0]\SFXset[60,190,2]\SETpl[AnonMale4]\plf 60,190,2 DialogWisper0
+\SFXfile[DialogWisper0]\SFXset[60,190,2]\SETpl[AnonMale4]\Lshake 60,190,2 DialogWisper0
+\SFXfile[DialogDed0]\SFXset[60,10,2]\SETpl[AnonMale4]\Lshake 60,10,2 DialogDed0
+\SFXfile[DialogDed0]\SFXset[60,10,2]\SETpr[AnonMale4]\PRF 60,10,2 DialogDed0
+\SFXfile[DialogWisper0]\SFXset[60,10,2]\SETpr[AnonMale4]\prf 60,10,2 DialogWisper0
+\SFXfile[DialogWisper0]\SFXset[60,10,2]\SETpr[AnonMale4]\PRF 60,10,2 DialogWisper0
+\SFXfile[DialogWisper0]\SFXset[100,10,2]\SETpr[AnonMale4]\prf \{ 100 190 1 DialogWisper0
+\SFXfile[DialogWisper0]\SFXset[100,10,2]\SETpl[AnonMale4]\m[normal] \{ 100 190 1 DialogWisper0
+\pswasdasd
+\phasdasd
+
+show/key
+asd #{InputUtils.getKeyAndTranslateLong($asd)}
+
+asdasd/asdasdFatdalf_anonymous
+\bg[_1]askdjalksdjlaksjd
+
+asdasd/asdasd2
+\SETlpl[cocona_sad]\PLF\c[4]코코나：\c[0] 으냐....
+\SETlpl[cocona_shocked]\PLF\c[4]코코나：\c[0] 성도님은? 언니는 어디 있어?
+
+
+asd1/test
+\board[오크를 죽이고 귀 10개를 수집해라]
+\{ "ł", "ę", "ś", "ż"
+
+asd2/asd2
+\SndLib[FishkindSmSpot]\cg[map_FishPPL]\c[4]경비병：\c[0] 꽥!
+\입구는 경비병들로 가득 차 있었다.
+\{ "ł", "ę", "ś", "ż"
+
+asd3/asd3
+\SETlpl[cocona_angry]cocona_angry
+\SETlpl[cocona_confused]cocona_confused
+\SETlpl[cocona_happy]cocona_happy
+\SETlpl[cocona_normal]cocona_normal
+\SETlpl[cocona_shocked]cocona_shocked
+\SETlpl[cocona_sad]cocona_sad
+
+
+victim/Convoy_start2
+\board[노엘 마을 호송]
+목표 : 난민들을 노엘 마을 거리까지 호송하라

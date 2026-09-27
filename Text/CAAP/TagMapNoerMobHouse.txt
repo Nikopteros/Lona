@@ -1,0 +1,136 @@
+thisMap/OvermapEnter
+Mercado Negro \optB[Cancelar,Entrar]
+
+Camp/MobSeen
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡¿Quién está ahí?!
+\m[shocked]\Rshake\C[6]Lona：\C[0]    ¡Oh, no!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    Oye, todavía está dormida.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    Estoy cansado hoy, empecemos con esta.
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    Solo no las mates, son mercancía.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    Me importa una mierda quiénes son.
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¿Qué pasa con esta perra flacucha?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    ¿Quiere ser mercancía? ¡Lo conseguirá!
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¿Esta chiquilla quiere escapar?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Bandido：\C[0]    No aprende, ¿verdad?
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    \{¡Ey! ¡Levántate!
+
+Rogue/NapTorture2
+\m[tired]\C[6]Lona：\C[0]    ¿Ah?
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Agárrenla! Quiero ver de qué es capaz su cuerpo.
+\m[terror]\C[6]Lona：\C[0]    ¡No! ¡Deténganse!
+
+Rogue/NapTorture3
+\m[pain]\C[6]Lona：\C[0]    \{¡Duele! ¡Duele!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¿Qué, no es divertido? Juguemos de otra manera.
+\m[bereft]\C[6]Lona：\C[0]    \{¡Perdónenme! ¡Piedad! ¡Lo siento mucho!
+
+Rogue/NapRape_withSta_NoFight2
+\m[sad]\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    Chupa ♥ Chupa perra ♥
+
+Rogue/NapRape1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    Jeje, mmm.
+
+Rogue/NapRape3_0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Vamos! ¡Lávame a mi amiguito!
+
+Rogue/NapRape3_1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡No hay tiempo para dormir! ¡Sírvenos!
+
+Rogue/NapRape3_2
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Las chicas deben abrir las piernas para mí!!
+
+Doors/LockReset
+\narr Se quitaron los cerrojos de todas las puertas.
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    \{¡Hora de comer! ¡Perras!
+
+Rogue/PlaceFood1
+\narr Dejaron algo de comida frente a la puerta.
+
+###################################################################### LOCKED DOOR
+
+Door/FristTime
+\m[confused]\c[6]Lona：\C[0]    La cerradura de la puerta parece débil.
+\m[normal]\c[6]Lona：\C[0]    Con un poco de esfuerzo, podría romperse.
+
+Door/Unlocked
+Puerta de la celda rota. \optB[Cancelar,Intentar forzar]
+
+Door/UnlockedOUT
+\m[confused]\c[6]Lona：\C[0]    La cerradura de la puerta parece débil.
+\m[normal]\c[6]Lona：\C[0]    Será fácil abrirla desde afuera. \optB[No malgastar energía,Romper]
+
+Door/UnlockedOUT_win
+\m[pleased]\c[6]Lona：\C[0]    ¡Lo logré!
+
+Door/TryBrokeOpt1
+\m[confused]Cerrojo toscamente hecho. \optB[No malgastar energía,Romper<r=HiddenOPT1>]
+
+Door/TryBrokeOpt2
+\m[normal]¿Cuánta energía debo usar? \optB[No malgastar energía,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,120<r=HiddenOPT4>]
+
+Door/TryBroke_still
+\m[pleased]\c[6]Lona：\C[0]    Parece que la bisagra está un poco suelta.
+\m[tired]\c[6]Lona：\C[0]    Pero... Uuff... Estoy... demasiado cansada...
+
+##################################################################### begin
+
+Sold/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]Bandido：\C[0]    ¡Pequeña perra! ¡Levántate! ¡Hay clientes!
+\m[hurt]\c[6]Lona：\C[0]    *Solloza*...
+
+Sold/begin2
+\SETpl[MobHumanCommoner]\Lshake\BonMP[Raper1,4]\C[4]Bandido：\C[0]    Sí, aquí está. No ha pasado mucho desde su captura, ¡todavía está fresca!
+\c[4]Comerciante：\C[0]    ........
+\CamMP[Trader]\c[4]Comerciante：\C[0]    ¿Y esto es lo que querías mostrarme?
+\BonMP[Trader,5]\c[4]Comerciante：\C[0]    Solo está tirada, ¿qué más puede hacer?
+
+Sold/begin3
+\CamMP[Raper1]\BonMP[Raper1,6]\C[4]Bandido：\C[0]    ¡No-no! ¡Mira más de cerca, está viva y sana!
+\CamMP[Trader]\BonMP[Trader,7]\c[4]Comerciante：\C[0]    ¿Hablas en serio? ¡Una moneda de cobre! ¡No más!
+
+Sold/begin4
+\CamMP[Raper1]\BonMP[Raper1,5]\C[4]Bandido：\C[0]    \}¡Que te jodan!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    \}Bueno, mejor que nada. \{¡Vendida!
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Bandido：\C[0]    ¡Márcala con hierro! ¡Suéltenla!
+
+Sold/begin5
+\m[p5shame]\Rshake\c[6]Lona：\C[0]    Ey... ¿qué están haciendo!?
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Bandido：\C[0]    ¡No te muevas! ¡Solo lo harás peor!
+\m[p5sta_damage]\Rshake\c[6]Lona：\C[0]    ¡No! ¡Suéltenme!
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]Bandido：\C[0]    ¡Dije que no te muevas! ¡Quédate quieta!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Lona：\C[0]    \{¡Ay ay ay ay!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\C[0]    \{¡¡AAAYYY!!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    ¡Jajaja! ¡Qué divertido! ¡Grita más fuerte!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Lona：\C[0]    \{¡¡Aayy!!
+
+Sold/begin7_MinerPrison
+\ph\m[sad]\cgoff\narr Vendieron a Lona a las Minas de Cristal.
+
+Sold/begin7_NoerBackStreet
+\ph\m[sad]\cgoff\narr Vendieron a Lona a los Callejones.
+
+Sold/begin7_DoomFortressR
+\ph\m[sad]\cgoff\narr Vendieron a Lona a los Barracones de la Fortaleza de la Perdición.
+
+Sold/begin7_FishTownR
+\ph\m[sad]\cgoff\narr Vendieron a Lona a Ciudad Pez.
+
+Sold/begin7_NoerArenaB1
+\ph\m[sad]\cgoff\narr Vendieron a Lona a la Arena.
+
+Sold/begin7_NorthFL_INN
+\ph\m[sad]\cgoff\narr Vendieron a Lona a la Fortaleza Costera.
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\C[4]Bandido：\C[0]    Pórtate bien mientras decidimos qué hacer contigo.
+\m[sad]\plf\PRF\c[6]Lona：\C[0]    Qué debo hacer...
+\m[fear]\plf\PRF\c[6]Lona：\C[0]    Ahora soy una esclava....
+\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    \{¡No! ¡No quiero ser esclava!

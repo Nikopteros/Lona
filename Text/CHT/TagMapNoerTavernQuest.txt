@@ -1,0 +1,355 @@
+
+
+##########---------------------------------------------------------------------------------- QUEST BOARD
+
+QuestBoard/List
+貼滿了派遣委託的牆面。
+
+QuestBoard/None_list
+算了
+
+QuestBoard/StaHerbCollect_list
+收集白龍草
+
+QuestBoard/StaHerbCollect
+\board[收集白龍草]
+目標：收集4個白龍草\i[203]
+報酬：小銅幣2
+委託主：伊莉希婦產科
+期限：長期支援
+城外的的雨林中收集白龍草，近期魔物出沒，派遣人員需自行處理人身安全。
+收集完成後直接至伊莉希婦產科交貨。
+
+QuestBoard/MineCaveAbomHunt_list
+礦坑魔物清理
+
+QuestBoard/MineCaveAbomHunt
+\board[礦坑魔物清理]
+目標：消滅礦坑的異變胞子
+報酬：大銅幣2、小銅幣3
+委託主：盧德辛商行
+期限：長期支援
+東方晶礦礦坑遭到了黑霧汙染，徵求傭兵清理異變胞子，請自備照明道具與武器。
+清除完成請找礦坑管理人回報。
+回報後請至公會領取獎賞。
+
+QuestBoard/CataUndeadHunt_list
+墳場的不死者
+
+QuestBoard/CataUndeadHunt
+\board[墳場的不死者清理]
+目標：消滅墳場中的不死者20隻
+報酬：小銅幣7
+委託主：盧德辛商行
+期限：長期支援
+墳場中出現了大量的不死者，徵求傭兵協助清理。
+清除完成請找守墓人回報。
+回報後請至公會領取獎賞。
+
+QuestBoard/ScoutCampOrkind_list
+失蹤的車隊
+
+QuestBoard/ScoutCampOrkind
+\board[失蹤的車隊]
+目標：尋找失蹤的難民車隊
+報酬：大銅幣1
+委託主：席芭莉絲復興會
+期限：單次
+一批撤隊的車隊應該在一個月前已經到達了，但中途受到魔物的襲擊。
+依照生還者的描述，最後應該是在東北的道路附近。
+
+QuestBoard/ScoutCampOrkind2_list
+北方關口哨塔
+
+QuestBoard/ScoutCampOrkind2
+\board[北方關口哨塔]
+目標：清理哨塔內的魔物
+報酬：大銅幣2
+委託主：聖徒會修道院
+期限：單次
+北方哨塔自陷落後成為了魔物的巢穴，需要\C[4]專業\C[0]的傭兵進行清理工作。
+清除完成請至修道院回報。
+回報後請至公會領取獎賞。
+
+QuestBoard/ScoutCampOrkind3_list
+女兒失蹤了
+
+QuestBoard/ScoutCampOrkind3
+\board[女兒失蹤了]
+目標：找到他的女兒
+報酬：金幣1
+委託主：諾爾鎮警備總部
+期限：單次
+鎮內某個商人的女兒遭到類獸人襲擊失蹤了。
+最後一次看到她是在東北方幫助難民的車隊。
+找到她並帶他回來。
+
+QuestBoard/CataUndeadHunt2_list
+墳場的負向能量
+
+QuestBoard/CataUndeadHunt2
+\board[墳場的負向能量]
+目標：調查負向能量的來源
+報酬：大銅幣4
+委託主：盧德辛商行
+期限：直到完成
+徵求傭兵協助調查墳場負向能量的來源。
+請與墳場守墓人尋求進一步的資訊。
+
+QuestBoard/SewerKickMobs_list
+下水道的遊民
+
+QuestBoard/SewerKickMobs
+\board[下水道的遊民]
+目標：趕走下水道的遊民
+報酬：大銅幣1
+委託主：盧德辛商行
+期限：單次
+下水道入口附近有不少失蹤人口的回報，
+警備總部已確認幾起失蹤事件皆為下水道中的非法遊民的作為，
+遊民已對鎮上的造成了嚴重的治安問題，徵求傭兵將這些遊民殲滅。
+
+QuestBoard/NoerToPirate_list
+徵招：海賊毀滅者堡壘
+
+QuestBoard/NoerToPirate
+\board[徵招：海賊毀滅者堡壘]
+目標：前往目的地。
+報酬：小銅幣5
+委託主：傭兵公會
+期限：單次
+前往東方沼澤地中的\c[4]海賊毀滅者堡壘\c[0]，並向傭兵公會職員報到。
+
+QuestBoard/NoerToDoom_list
+徵招：末日堡壘
+
+QuestBoard/NoerToDoom
+\board[徵招：末日堡壘]
+目標：前往目的地。
+報酬：小銅幣5
+委託主：傭兵公會
+期限：單次
+前往本島最北方的\c[4]末日堡壘\c[0]，並向傭兵公會職員報到。
+
+QuestBoard/OrkindEars_list
+牠們怕的是你
+
+QuestBoard/OrkindEars
+\board[牠們怕的是你]
+目標：收集10雙類獸人之耳\i[465]
+報酬：大銅幣1、小銅幣5
+委託主：盧德辛商行
+期限：長期
+類獸人非常邪惡！
+但你比它們更差勁！
+
+QuestBoard/decide
+\m[confused]確定這個任務？\optB[算了,撕下便條]
+
+######################################################################################## GUILD
+
+QuestBoard/decide2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]職員：\c[0]    決定了嗎？ 工會委託一旦確認後就必須持續到完成。\optB[算了,決定]
+
+QuestBoard/decide2_win
+\CBct[20]\m[serious]\prf\c[6]洛娜：\c[0]    我可以的！
+
+QuestBoard/decide2_lose
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]職員：\c[0]    很抱歉，妳目前的委託還沒結束。
+
+QuestBoard/completed0
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]職員：\c[0]    嗯.... 這確實是工會發出的委託信物。
+
+QuestBoard/completed1
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    收取妳的報酬吧。
+\CBct[3]\m[triumph]\c[6]洛娜：\c[0]    感謝你！
+
+QuestBoard/completed1_slave
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    我們感謝妳貢獻，即使是只是身為奴隸的妳。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    別死得太早啊。
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    唉...
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]職員：\c[0]    傭兵工會服務處，有什麼事嗎？\optB[沒事,關於,取消任務<r=HiddenOPT0>]
+
+QuestBoard/other_about
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    嗯，傭兵工會創始於972年，在過去魔神戰爭當中作為一支無隸屬的軍隊。
+\CBct[2]\m[normal]\c[6]洛娜：\c[0]    那...現在呢？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    世界最大的派遣工會，人力橫跨各個大陸。
+
+QuestBoard/other_quest_cancel
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    對不起....
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    好的。
+\CBmp[GuildEmpolyee,8]\prf\c[4]職員：\c[0]    \}蒼蠅就是沒用。
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    ....
+
+Tutorial/follower
+\CamMP[Center]\prf\c[4]職員：\c[0]    妳可以問問酒館裡的其他人，是否有願意與妳同行的。
+\prf\c[4]職員：\c[0]    由於\c[6]席芭莉絲\c[0]的陷落，最近像妳這樣的人越來越多了。
+\CBct[3]\Rshake\m[triumph]\c[6]洛娜：\c[0]    知道了！非常感謝你！
+\CBmp[GuildEmpolyee,8]\prf\c[4]職員：\c[0]    ......
+\CBmp[GuildEmpolyee,8]\prf\c[4]職員：\c[0]    \}該死的帝都人...跟蒼蠅一樣...
+\CBct[8]\m[normal]\c[6]洛娜：\c[0]    嗯？什麼？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    沒事，我自言自語罷了。
+
+QuestBoard/saved_hostage
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    等等！
+\CBct[2]\m[confused]\c[6]洛娜：\c[0]    怎麼了？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    感謝妳在外活動時救出那些被擄走的人，我相信還有更多人需要妳幫助。
+
+##########---------------------------------------------------------------------------------- 最初期的工會成員對話
+
+MercenaryGuild/Report_rattail
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]職員：\c[0]    嗯？妳是...洛娜吧？
+\CBct[6]\m[shocked]\c[6]洛娜：\c[0]    我是！...對了！下水道！
+\CBct[6]\m[serious]\Rshake\c[6]洛娜：\c[0]    下水道出現魔物了，還有裡頭的道路已經被汙染了。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    噓！冷靜點！好，我知道了，我們很感謝妳。
+\CBct[6]\m[irritated]\Rshake\c[6]洛娜：\c[0]    然後那名失蹤的雇員已經死了！
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    噢！這還真是不妙，我們會再派人去處理的。那妳收集到八個老鼠尾了嗎?
+
+MercenaryGuild/Report_rattail_win
+\CBct[20]\m[triumph]\c[6]洛娜：\c[0]    有的。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    嗯，任務完成，妳運氣真不錯。話說從今天起所有的雜項任務都被撤除了。
+\CBct[2]\m[wtf]\c[6]洛娜：\c[0]    咦？為什...
+
+MercenaryGuild/Report_rattail_lose
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    啊...因為出現了魔物...所以...
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    那任務就算失敗了。
+\CBct[1]\m[shocked]\c[6]洛娜：\c[0]    什麼？！ 等等！ 我會回頭去收集的。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    已經沒必要了，因為今天起所有的雜項任務都被撤除了。
+\CBct[2]\m[wtf]\c[6]洛娜：\c[0]    咦？為什...
+
+MercenaryGuild/Report_rattail_end
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    這我們也沒辦法，城外的魔物開始活耀了，而派遣任務也必須因時事而調整。
+\CBmp[QuestBoard,19]\prf\BonMP[QuestBoard,19]    去告示板前看看有什麼妳能做的吧！
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    這樣啊...
+
+GuideTheWorld/begin
+\CBid[-1,2]\prf\c[4]旅者：\c[0]    咦...我從來沒看過妳，妳是從\C[6]席芭莉絲\C[0]來的嗎？
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    嗯.....算是吧？
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    呵呵，我要離開這了，我也曾是個傭兵，直到我膝蓋中了一箭。
+
+GuideTheWorld/Choose
+\m[confused]\CBid[-1,20]\prf\c[4]旅者：\c[0]    嘛...就當是前輩帶新人，妳有什麼想知道的嗎？
+
+GuideTheWorld/end1
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    快想辦法離開這吧。再待在諾爾島的話，等著妳的就只有和它一同毀滅了。
+
+GuideTheWorld/end2
+\CBid[-1,9]\prf\c[4]旅者：\c[0]    阿，對了！
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    不怕危險的話，晚上可以到\C[6]中路市場\C[0]看看，也許可以買到對妳有幫助的好東西。
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    哦？ 謝謝！
+
+GuideTheWorld/opt_Race
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    我？ 對！ 沒錯！ 我是個\c[6]混族\c[0]。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    遙遠森林裡的精靈、群山中的矮人、再加點侏儒以及沙漠民族的血統，最混雜的那種。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    不管我們到哪裡都不受歡迎，因為我們的血統是骯髒的，是不純正的。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    在一切發生前，彷彿所有的罪惡都是我們犯下的。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    但現在看來\C[6]席芭莉絲\C[0]的難民們才是真正的麻煩。
+\CBct[8]\m[tired]\c[6]洛娜：\c[0]    .....
+\CBid[-1,6]\prf\c[4]旅者：\c[0]    啊.....抱歉，我老毛病又犯了。
+
+GuideTheWorld/opt_TeamUp
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    你可以在各酒館與旅店中尋找你的隊友。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    每位隊友的陣營、戰鬥方式、跟隨天數、位置、需求皆有不同。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    需要特別注意的是位置與天數。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    僅能有一名\C[6]前衛\C[0]及\C[6]後衛\C[0]。
+\CBid[-1,20]\prf\c[4]旅者：\c[0]    隨時間經過，當隊友的天數為0時隊友則會離隊。
+
+############################# TRADE TUR 
+
+TradeTur/fristTime0
+\SND[SE/Book1]\bg[bg_TutorialTrade1]注意！
+\SND[SE/Book1]\bg[bg_TutorialTrade2]遊戲中實際使用的交易面額為交易點，它是暫時性的權益，它無法於離開地圖後存留。
+\SND[SE/Book1]\bg[bg_TutorialTrade3]請在離開地圖前將交易點換成金幣銅幣或其他實體物品，否則您將損失所有剩餘的交易點。
+\SND[SE/Book1]\bg[bg_TutorialTrade4]此為交易畫面，左上角為諾娜的剩餘負重以及持有交易點。
+\SND[SE/Book1]\bg[bg_TutorialTrade5]此為洛娜的可交易物品，任何價值為1以上的物品皆可販賣給對方。
+\SND[SE/Book1]\bg[bg_TutorialTrade7]此為對方的交易點及物品，洛娜僅能購買價格低於持有交易點的物品。
+\SND[SE/Book1]\bg[bg_TutorialTrade8]於商店按下\c[6]Z\c[0]可購買或販賣。
+\SND[SE/Book1]\bg[bg_TutorialTrade10]也可使用\c[6]SHIFT+Z\c[0]一次購買或販賣，
+\SND[SE/Book1]\bg[bg_TutorialTrade11]決定了後可以按\c[6]X\c[0]叫出結帳介面並按\c[6]Z\c[0]確認並結帳。
+\SND[SE/Book1]\bg[bg_TutorialTrade12]若洛娜不小心買了不想要的東西，可以按\c[6]SHIFT+X\c[0]來取消整個交易。
+\SND[SE/Book1]\bg[bg_TutorialTrade1]商店的交易點與貨品會保存幾日，小心謹慎的交易吧。
+
+############################# Wounds TUR
+
+WoundTur/0
+\SND[SE/Book1]\bg[bg_TutorialWound1]負傷
+\SND[SE/Book1]\bg[bg_TutorialWound1]攻擊與被攻擊皆有機率造成負傷效果，
+\SND[SE/Book1]\bg[bg_TutorialWound2]上段負傷一般由打擊武器造成，會降低防禦與智慧。
+\SND[SE/Book1]\bg[bg_TutorialWound3]中段負傷一般由劈砍武器造成，會降低攻擊力。
+\SND[SE/Book1]\bg[bg_TutorialWound4]下段負傷一般由穿刺武器造成，會降低移動速度。
+\SND[SE/Book1]\bg[bg_TutorialWound1]於負傷狀態可用療藥草、藥水或睡眠進行治療。
+\SND[SE/Book1]\bg[bg_TutorialWound1]負傷堆疊太多層將會喪失戰鬥能力，盡可能保持健康狀態吧。
+
+##########------------------------ 墳場負向能量差分回報
+
+MercenaryGuild/CataUndeadHunt2
+\CBmp[GuildEmpolyee,2]\prf\c[4]職員：\c[0]    所以？妳發現了什麼？
+
+MercenaryGuild/CataUndeadHunt2_3
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    那個... 守墓人先生死掉了...
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    還有不少陷阱在裡面。
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    .....沒了。
+
+MercenaryGuild/CataUndeadHunt2_4
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    那個... 守墓人先生死掉了...
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    還有不少陷阱在裡面。
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    然後有死靈法師在墓穴裡活動。
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    我懷疑墓園出現不死生物都是她做的。
+
+MercenaryGuild/CataUndeadHunt2_567
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    那個... 守墓人先生死掉了...
+\CBct[8]\m[confused]\c[6]洛娜：\c[0]    墓穴最下層出現了類獸人，它們挖通了墓穴。
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    我離開前它們打成了一團。
+
+MercenaryGuild/CataUndeadHunt2_failed
+\CBmp[GuildEmpolyee,5]\prf\c[4]職員：\c[0]    就這樣？ 這不是什麼都沒做？
+\CBmp[GuildEmpolyee,5]\prf\c[4]職員：\c[0]    還讓盧德辛商行的職員殉職？
+\CBct[8]\m[sad]\c[6]洛娜：\c[0]    對不起....
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    真沒用，真是超級無能。
+
+MercenaryGuild/CataUndeadHunt2_win
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    這倒是有點意思。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    我會跟上層回報，不過現在人手吃緊。
+
+MercenaryGuild/CataUndeadHunt2_withHead
+\CBct[20]\m[confused]\c[6]洛娜：\c[0]    還有，我遇了死靈法師。
+\CBct[20]\m[normal]\c[6]洛娜：\c[0]    然後這是她的頭顱。
+\CBmp[GuildEmpolyee,1]\prf\c[4]職員：\c[0]    厲害！ 了不起啊！
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    不過礙於合約，我沒辦法給妳更多。
+\CBct[8]\m[flirty]\c[6]洛娜：\c[0]    這樣啊...
+
+##########------------------------ 美祿的邀請
+
+MercenaryGuild/MiloInvite1
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    喂！等等！
+\CBct[2]\m[confused]\c[6]洛娜：\c[0]    怎麼了？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    這裡有封邀請函，指名要給妳。
+
+MercenaryGuild/MiloInvite2
+\CBct[2]\m[flirty]\c[6]洛娜：\c[0]    我？怎麼了？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    我不清楚，總之是來自上面那些大人物。
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    看來妳發達了。
+\CBct[2]\m[flirty]\c[6]洛娜：\c[0]    這樣阿？
+
+##########------------------------ 美祿的邀請2
+
+MercenaryGuild/MiloInvite2_1
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    等等！
+\CBct[2]\m[confused]\c[6]洛娜：\c[0]    又怎麼了？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    又有妳的信函了。
+
+MercenaryGuild/MiloInvite2_2
+\CBct[2]\m[flirty]\c[6]洛娜：\c[0]    又來了？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    收下就對了，這是上面的指示。
+\CBct[20]\m[flirty]\c[6]洛娜：\c[0]    好的。
+
+##########------------------------ OrkindEar
+
+MercenaryGuild/Report_OrkindEar_win1
+\CBct[20]\m[fear]\PRF\c[6]洛娜：\c[0]    這是工會要的耳朵.... 噁噁....
+
+MercenaryGuild/Report_OrkindEar_win2
+\CBid[-1,20]\m[confused]\prf\c[4]職員：\c[0]    幹的好！
+\CBid[-1,20]\m[confused]\prf\c[4]職員：\c[0]    上面的大人物想用耳朵掛滿諾爾鎮的城牆，我們還需要更多耳朵！

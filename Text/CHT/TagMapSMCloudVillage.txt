@@ -1,0 +1,293 @@
+thisMap/OvermapEnter
+\m[confused]雲中村\optB[算了,進入]
+
+############################################################################################## COMMON ALL, ENEMY, RAPELOOP
+
+alert/Captured
+\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    居然這樣就倒下了。
+\SETpr[AnonMale2]\plf\Rshake\c[4]村民：\c[0]    好歹也反抗一下啊？
+\m[tired]\plf\PRF\c[6]洛娜：\c[0]    嗚嗚....
+
+alert/CatchHer
+\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    抓住她！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    啊？！ 什麼？！
+
+alert/CatchEnemy
+\narr 雲中村敵對了！
+
+alert/ChestLoot
+\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    什麼聲音？！
+\SETpr[AnonMale2]\Rshake\c[4]村民：\c[0]    有人入侵！
+\CBct[6]]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    啊？！ 什麼？！
+
+##############################################################################################
+
+#to translator.  first line is "你" mean male  secone "妳" mean female
+BradgeGuard/Begin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    你是誰？！ 來這做什麼！！
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...我只是路過而已？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    妳\..\..\..
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    等等! 我去跟大哥....不....村長說！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    哦？
+
+BradgeGuard/Already
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    噢，是妳？
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    \..\..\..
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    好，進去吧。
+
+BradgeGuard/Begin1
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    唉真是可惜啊...
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    阿？
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    沒事，沒事。妳可以進去了。
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯...
+
+BradgeGuard/Begin2
+\CBct[20]\m[shocked]\Rshack\c[6]洛娜：\c[0]    耶？！ 你幹嘛？
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    怎麼？ 快進去阿？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    我...我只是路過而已啊？
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    別囉嗦了，快點。 我們村子需要妳的幫助。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦...？
+
+BradgeGuard/Opened
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    你不是來幫忙的嗎？ 快進去阿？
+
+BradgeGuard/letLeave
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...可以請你讓開嗎？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    什麼？ 大哥就這樣放妳走了？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    大哥？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村民：\c[0]    沒事！ 妳可以走了。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    哦...
+
+BradgeGuard/letLeaveLoop
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村民：\c[0]    妳還待在這幹嘛？
+
+BradgeGuard/CecilyExtra
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]灰鼠：\c[0]    ......
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\c[4]賽希莉：\c[0]    怎麼了？
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]灰鼠：\c[0]    小心，感覺不對勁...
+\CBfB[6]\SETpl[CecilyShyAr]\Lshake\c[4]賽希莉：\c[0]    ....
+
+BradgeGuard/Anon0
+\CBid[-1,20]\c[4]村民：\c[0]    現在外來的魔物很多，也許我們可以吃牠們？
+
+BradgeGuard/Anon1
+\CBid[-1,20]\c[4]村民：\c[0]    最近獵物變少了....
+
+BradgeGuard/Anon2
+\CBid[-1,2]\c[4]村民：\c[0]    妳是新來的？ 嘿嘿...
+
+BradgeGuard/DoorGuard0
+\CBid[-1,5]\c[4]村民：\c[0]    喂！ 不准接近這裡！
+
+BradgeGuard/DoorGuard1
+\CBid[-1,5]\c[4]村民：\c[0]    去！ 滾遠點！
+
+BradgeGuard/DoorGuard2
+\CBid[-1,5]\c[4]村民：\c[0]    喂！ 在這鬼鬼祟祟的幹什！
+
+BradgeGuard/TreeBad0
+\CBid[-1,5]\c[4]村民：\c[0]    這家人竟然敢把食物藏起來，真是太邪惡了。
+
+BradgeGuard/TreeBad1
+\CBid[-1,5]\c[4]村民：\c[0]    該死，居然放跑了他家的孽種。
+
+BradgeGuard/TreeBad2
+\CBid[-1,5]\c[4]村民：\c[0]    我敢說他們一定是僞神的奴隸。
+
+BradgeGuard/TreeSaint0
+\CBid[-1,8]\c[4]村民：\c[0]    是他們偷走了我們的食物，我們別無選擇。
+
+BradgeGuard/TreeSaint1
+\CBid[-1,8]\c[4]村民：\c[0]    聖徒會寬恕我們的...
+
+###################################################################### boss talk
+
+Boss/aggro0
+\CBid[-1,1]\c[4]村長：\c[0]    你是什麼人！ 怎麼進來的？！
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃....
+
+Boss/aggro1
+\CBid[-1,20]\prf\c[4]村長：\c[0]    來人啊！ 有外人入侵！
+
+Boss/begin0
+\CBid[-1,3]\c[4]村長：\c[0]    啊，妳就是前來幫助我們的傭兵嗎？
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...我真的只是路過而已...
+\CBid[-1,20]\prf\c[4]村長：\c[0]    放心吧！ 沒問題，妳沒問題的！
+
+Boss/beginOPT_KilltheKid
+幫助他
+
+Boss/beginOPT_TheKidSaid
+那個孩子說
+
+Boss/beginOPT_TheKidDeadLie
+騙他說葛里歐死了
+
+Boss/beginOPT_TheKidDead
+葛里歐死了
+
+Boss/KillTheKid1_alreadyAccepted
+\CBid[-1,20]\prf\c[4]村長：\c[0]    還在這幹什麼，快點出發啊？
+
+Boss/SMCloudVillage_KillTheKid0_1
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    嗯...所以到底要我幫什麼？
+
+Boss/SMCloudVillage_KillTheKid0_2
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]村長：\c[0]    看到那兩個吊死鬼嗎？
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]村長：\c[0]    那家人偷了我們的存糧。
+
+Boss/SMCloudVillage_KillTheKid0_3
+\CBid[-1,20]\prf\c[4]村長：\c[0]    我兄弟逮住了它們，吊死了那姦夫淫婦。
+\CBid[-1,20]\prf\c[4]村長：\c[0]    但很可惜的有個兔崽子居然心軟，放跑了他們家的小鬼。
+\CBid[-1,20]\prf\c[4]村長：\c[0]    那個小王八蛋叫\c[6]葛里歐\c[0]，聽說他現在躲在諾爾鎮外。
+\CBid[-1,20]\prf\c[4]村長：\c[0]    不能再讓那個小兔崽子鬧下去了。
+\CBid[-1,20]\prf\c[4]村長：\c[0]    聽著，我要那個小鬼死。找出他，幹掉他。
+
+Boss/SMCloudVillage_KillTheKid0_4_brd
+\board[殺死小屁孩]
+目標：殺死逃到諾爾鎮的屁孩
+報酬：大銅幣4
+委託主：雲中村村長
+期限：單次
+偷了我們的食物還想走！
+那家人偷了我們的存糧。
+我兄弟逮住了它們，吊死了那些王八蛋。
+但很可惜的有個兔崽子居然心軟，放跑了他們家的小鬼。
+那個小王八蛋叫\c[6]葛里歐\c[0]，聽說他現在躲在諾爾鎮外。
+聽著，我要那個小鬼死，找出他，幹掉他。
+
+Boss/SMCloudVillage_KillTheKid1_A
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    殺人？ 還是個小孩？
+\CBct[8]\m[confused]\prf\c[6]洛娜：\c[0]    呃....
+
+Boss/SMCloudVillage_KillTheKid1_yes
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    我接了。總之有錢拿對吧？
+\CBid[-1,20]\prf\c[4]村長：\c[0]    很好，果然來自城市的傭兵就是不一樣。
+\CBid[-1,20]\prf\c[4]村長：\c[0]    去吧，我會準備好
+
+Boss/SMCloudVillage_KillTheKid1_no
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    還是算了吧...
+
+Boss/SMCloudVillage_KillTheKid2_1
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]   呃...我把那個誰\..\..\..\c[4]葛里歐\c[0]殺掉了哦。
+\CBid[-1,20]\prf\c[4]村長：\c[0]    太好了，真是太好了。不愧是大城市來的傭兵！
+\CBct[8]\m[confused]\..\..\..
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]   那個...說好的報酬呢？
+\CBid[-1,6]\prf\c[4]村長：\c[0]    對對對！ 錢！ 會給妳的！一定會給你的！
+\CBid[-1,20]\prf\c[4]村長：\c[0]    但是呢...我的錢藏在房子裡阿。
+\CBid[-1,20]\prf\c[4]村長：\c[0]    而現在裡面有隻邪惡的綠色魔物，妳一定能幫我們殺死它的。
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    綠色\..\..\..
+\CBct[8]\m[shocked]\Rshake\c[6]洛娜：\c[0]    類獸人？！
+\CBid[-1,1]\prf\c[4]村長：\c[0]    類獸人\..\..\..？ 對，就是類獸人。
+
+Boss/TheKidSaid_play
+\CBct[8]\m[angry]\Rshake\c[6]洛娜：\c[0]    你騙人！\c[4]葛里歐\c[0]說你是個強盜！
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[confused]\..\..\..
+
+Boss/SMCloudVillage_KillTheKid2_2
+\CBid[-1,20]\prf\c[4]村長：\c[0]    來，交給妳了。
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]   呃...
+
+Boss/Talked0
+\CBid[-1,20]\c[4]村長：\c[0]    怎麼，快進去啊。
+
+Boss/Talked1
+\CBid[-1,20]\c[4]村長：\c[0]    村子的未來就交給妳了。
+
+Boss/Talked2
+\CBid[-1,20]\c[4]村長：\c[0]    快點幫我們打倒魔物，我們會給妳豐厚的報酬。
+
+Boss/CatcheLona
+\CBmp[Boss,20]\c[4]村長：\c[0]    \{抓住她！
+\CBmp[Boss,20]\c[4]村長：\c[0]    \{她知道我們的秘密！
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    \{耶？！
+
+Boss/Trap1
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]   呃...類獸人呢？
+
+Boss/Trap2
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    呵呵呵...
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]   所以...那個...類獸人？
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    哪有什麼類獸人，那些綠皮哪有我們強大，。
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    我們在這幹的就是殺人越貨，專殺妳這種蠢貨！
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    既然你已經知道了我們的秘密就不能放妳走了。
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]   \{耶？！
+
+Boss/Trap_ATKboss_alive
+\CBmp[BossAtk,4]\prf\c[4]村長：\c[0]    大哥，她看起來很會生，而且沒奶子，正和我的胃口♥
+\CBmp[Boss,3]\prf\c[4]村長：\c[0]    二弟，你喜歡就上阿♥
+
+Boss/Trap3
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    注意別弄死了！
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    這兩天城裡的奴隸販子要來掃貨，現在城裡正缺奴隸。
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    大家上！
+\CBct[5]\m[serious]\Rshake\c[6]洛娜：\c[0]   ...
+
+############################################################# rapeloop
+
+beginEvent/begin
+\CBmp[Raper1,20]\C[4]村民：\C[0]    在找到買家前給我呆著阿！
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我會被怎麼處置呢...
+\CBct[8]\m[fear]\plf\PRF\c[6]洛娜：\c[0]    奴隸....
+\CBct[20]\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    \{不要！ 我不要當奴隸！
+
+Common/PlaceFood0
+\C[4]村民：\C[0]    \{喂！ 臭婊子！ 吃東西啦！
+
+Common/WakeUpCall0
+\SndLib[sound_hit_whip]\{幹！ 還睡！
+
+Common/WakeUpCall1
+\SndLib[sound_hit_whip]\{喂！ 賤貨！
+
+Common/WakeUpCall2
+\SndLib[sound_hit_whip]\{臭婊子！ 給我醒來！
+
+BossAtk/NightRngRape
+\CBmp[BossAtk,4]\C[4]二弟：\C[0]    嘿嘿，大哥說我可以隨便操妳。
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    嗚嗚....
+\CBmp[BossAtk,20]\prf\C[4]二弟：\C[0]    \{把腿張開！
+
+BossAtk/NightRng_revenge
+\CBmp[BossAtk,5]\C[4]二弟：\C[0]    我要為我大哥復仇！
+\CBct[6]\m[tired]\PRF\c[6]洛娜：\c[0]    嗚嗚....
+\CBmp[BossAtk,5]\C[4]二弟：\C[0]    受死吧！
+
+Common/NapRape1
+\C[4]村民：\C[0]    嘿嘿嘿。
+
+Common/NapRape3_0
+\C[4]村民：\C[0]    正好來發洩一下。
+
+Common/NapRape3_1
+\C[4]村民：\C[0]    躺在這是要讓我肏的意思嗎？
+
+Common/NapRape3_2
+\C[4]村民：\C[0]    我要肏翻妳這賤屄！
+
+Common/NapRape_withSta_NoFight
+\C[4]村民：\C[0]    這才是乖孩子♥
+
+Common/NapRape_withSta_Fight
+\C[4]村民：\C[0]    \{臭婊子！ 欠揍！
+
+Common/NapRape
+\CBmp[Raper1,20]\C[4]村民：\C[0]    喂，她不會死掉了吧。
+\CBmp[Raper2,20]\C[4]村民：\C[0]    看起來還沒，先來一發吧。
+\CBmp[Raper1,20]\C[4]村民：\C[0]    別弄死了阿，老大還在找買家。
+
+Common/NapTorture1
+\CBmp[Raper1,20]\C[4]村民：\C[0]    臭婊子，想逃到哪裡去？
+\CBmp[Raper2,20]\C[4]村民：\C[0]    揍她！
+\CBmp[Raper1,20]\C[4]村民：\C[0]    \{喂！ 快醒來！
+
+Common/NapTorture2
+\CBct[2]\m[tired]\C[6]洛娜：\C[0]    咦？
+\CBmp[Raper1,20]\prf\C[4]村民：\C[0]    我要試試我的拳法！
+\CBct[6]\m[terror]\prf\C[6]洛娜：\C[0]    \{咿咿咿咿！！！
+
+Common/NapTorture3
+\CBct[6]\m[pain]\Rshake\C[6]洛娜：\C[0]    停下...拜託....
+\CBmp[Raper2,20]\prf\C[4]村民：\C[0]    沒意思，來玩點別的吧。

@@ -1,0 +1,32 @@
+
+
+RelayEMP/Welcome0
+\CBid[-1,20]\m[confused]\prf\c[4]驛站雇員：\c[0]    我能為妳服務嗎？
+
+RelayEMP/Welcome1
+\CBid[-1,20]\m[confused]\prf\c[4]驛站雇員：\c[0]    目前能去的地方不多了，妳想去哪裡？
+
+RelayEMP/SlaveBlock
+\CBid[-1,20]\prf\c[4]驛站雇員：\c[0]    奴隸沒有這個權利，滾回妳主人那裏！
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    是...
+
+RelayEMP/NoGold
+\CBid[-1,20]\prf\c[4]驛站雇員：\c[0]    沒錢？滾！
+\CBct[6]\m[flirty]\c[6]洛娜：\c[0]    對不起...
+
+RelayEMPfish/Welcome0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]渡口雇員：\c[0]    魚托比... 我們的家...
+
+RelayEMPfish/Welcome1
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]渡口雇員：\c[0]    人類... 去哪...？
+
+RelayEMPfish/SlaveBlock
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]渡口雇員：\c[0]    奴隸... 不准走... 回去.. 生育...
+\CBct[6]\m[sad]\c[6]洛娜：\c[0]    是...
+
+RelayEMPfish/SlaveAccept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]渡口雇員：\c[0]    奴隸... 女人... 歡迎....
+\CBct[2]\m[flirty]\c[6]洛娜：\c[0]    呃？
+
+RelayEMP/opt
+\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    我...

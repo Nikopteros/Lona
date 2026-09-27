@@ -1,0 +1,100 @@
+thisMap/OvermapEnter
+\m[confused]Tide Castle,\nIt is now a refugee market. \optB[Nevermind,Enter]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]Heading to the Saltworks? \optB[It's OK,Enter,Invisible entry<r=HiddenOPT1>,Bluff into<r=HiddenOPT2>]
+
+#####################################################################
+
+Guard1/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    I was just a fruit seller before, but now I'm a full-time beater of blind people.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    I'll kill a blind person any day.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Don't blame me, this is work!
+
+Guard1/Com1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Are you here to sell, or to cause trouble? You want to die?
+
+Guard2/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Let me tell you, those nobles used to bully us when they had nothing to do.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Especially who is that?... I forgot the name...
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    But when I saw him a few days ago, he actually brought his wife and children together to beg for food.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Then can you guess what I did?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    I anally fucked his whining bitch son in front of the guy, and it felt so good to see his begging and desperate expression.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Then, guess what?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    He actually knelt down and begged me to let his son go, he offered himself up instead.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Then, guess what?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    He is a nobleman, so of course we must listen to him. I stopped raping the brat. Then the entire team took the entire family to bed and later threw them into the sea to drown!
+
+comBoard/v1
+\board[Are you a woman?]
+Want to save your friends and family?!
+Come be a caregiver, the soldiers need your help.
+We will ensure you are fed and take care of your safety. All that, plus we provide assurance for one person to enter Noer Town.
+Please contact the salt farm warehouse manager.
+
+comBoard/v0
+\board[Are you a man?]
+Want to save your friends and family?!
+Join the army or become a slave!
+If you join, one person of your choice will be guaranteed entry to Noer Town.
+Please contact the salt field guard team.
+
+comBoard/v2
+\board[Should you resist?]
+A slap in the face can't make a difference. If a woman is raped, she is at greater fault than the man.
+Can one palm clap make a difference? I don't think so.
+If you are raped, it's more your fault than the man's.
+You should shut up and not resist. It is your fault that you die because of your resistance.
+If you really want to survive, you should kindly call those who want to rape you master and beg them to rape you.
+This is a critical moment for human existence, and we don’t have time to listen to your tragic stories.
+
+##################################################################### FL_GateGuard
+
+FL_GateGuard/already_passed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Still busy? Get in quickly!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Yeah?!
+
+FL_GateGuard/IsSlave
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Slave! It's a runaway slave!
+
+FL_GateGuard/Begin0_opt
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Stop right there!
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Are you a mercenary called by the boss? Or are you here to suck our dicks?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well...\optB[Neither,Mercenary,Prostitute]
+
+FL_GateGuard/Begin1_ans_cancel
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Get Lost!
+
+FL_GateGuard/Begin1_ans_mer_yes
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    I am\..\..\..\m[flirty] A mercenary... R-right?
+
+FL_GateGuard/Begin1_ans_whore_yes
+\CBct[6]\m[shy]\plf\PRF\c[6]Lona：\c[0]    I'm here to serve your cocks...
+
+FL_GateGuard/Begin1_ans_mer_fail
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    You dare to lie!? You look like a bitch to me!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Huh?!
+
+FL_GateGuard/Begin1_ans_whore_fail
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    \..\..\..Doesn't it look like it? Actually, you are a man, right?
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Umm... yeah?
+
+FL_GateGuard/Begin1_ans_mer_pass1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Very good. After entering, go to the second floor to report to my boss.
+\CBct[8]\m[confused]\plf\Rshake\c[6]Lona：\c[0]    Second floor... Got it!
+
+FL_GateGuard/DickSuck0
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    \..\..\..
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    *Snort* My solid snake has not been washed for a long time, so you can clean it for me.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What?
+
+FL_GateGuard/DickSuck1
+\CBid[-1,4]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Huhu♥ Much cleaner♥
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]guard：\c[0]    Go in, sign the contract at the bar on the first floor, and your life will be worry-free from now on.
+
+##################################################################### Weapon vandor ,NFL quest reward
+
+WeaponTrader/BucketHelmet_begin0
+\CBid[-1,20]\c[4]Weapons Dealer：\c[0]    Yo! Check it out, I just got some new stuff.
+\CBid[-1,20]\c[4]Weapons Dealer：\c[0]    Look at this brand new warrior helmet, I got it from the mercenaries who found it in the \c[4]Sybaris\c[0].
+\CBid[-1,20]\c[4]Weapons Dealer：\c[0]    Can’t believe they succeeded in sneaking past those green-skinned.

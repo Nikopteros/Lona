@@ -1,0 +1,79 @@
+thisMap/OvermapEnter
+\cg[map_NoerGate]무기고\optB[그만둔다,들어간다,숨어서 들어간다<r=HiddenOPT1>,둘러대고 들어간다<r=HiddenOPT2>,창녀 행세<r=HiddenOPT3>]
+
+thisMap/OvermapEnter_enter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 꺼져! 여긴 너 같은 놈은 환영 안 해!
+
+thisMap/OvermapEnter_SGTenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 멈춰! 너 누구야!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 어, 이게 제 신분증이에요. 용병 길드에서 \c[4]브라이언\c[0]의 기록을 필사하라고 보냈거든요.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 오? 어디 한번 보자\..\..\..
+
+thisMap/OvermapEnter_SGTenter_weak
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 웃기지 마! 너 같은 약골이 \c[4]경비 본부\c[0]에서 근무했다고?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 그게 사실이면 우리 벌써 마물한테 전멸당했을 거다!
+\m[sad]\plf\PRF\c[6]로나：\c[0] 나... 미안해....
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 꺼져!
+\narr로나는 보기에도 너무 약해 보인다.
+
+thisMap/OvermapEnter_SGTenter_pass
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 오? 소년, 이렇게 젊은 나이에 \c[4]경비 본부\c[0]에서 근무했었다고? 정말 고생했구나.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 좋아, 들어가도 된다.
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 휴... 소년?
+
+thisMap/OvermapEnter_SNEAKenter
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 외벽이 그렇게 어려워 보이진 않네? 한번 시도해볼까?
+
+thisMap/OvermapEnter_SNEAKenter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 거기 누구냐! 뭐 하는 거야!
+
+thisMap/OvermapEnter_WISenter
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 멈춰! 너 누구야!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 나는.... 그게\..\..\..
+
+thisMap/OvermapEnter_WhoreEnter_win
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 일은 2층에서 해. 1층에서 쓸데없이 돌아다니지 마!
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 들어가도 된다.
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 감사합니다...
+
+thisMap/OvermapEnter_WhoreEnter_failed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 남자?
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 꺼져! 우린 남자 따윈 관심 없어!
+\m[sad]\plf\PRF\c[6]로나：\c[0] 나... 미안해....
+
+
+#####################################################################################  INSIDE
+
+guns/theOne
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0]  어... 창처럼 보이는데, 끝에 구멍이 나 있다고?
+\CBct[20]\m[pleased]\Rshake\c[6]로나：\c[0] 이거다!
+
+art/black
+\cg[other_Black]\m[confused]\c[6]로나：\c[0] 빈 캔버스?
+그는 완벽하고, 이름 붙일 수 없으며, 너에게 모든 것을 요구하고, 결코 말해서는 안 되는 색이다.
+\m[flirty]\c[6]로나：\c[0] 그냥 검은색 아냐?
+
+guard/timerStart
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]경비병：\c[0] 거기 누구냐!
+\m[terror]\plf\Rshake\c[6]로나：\c[0] 큰일 났다!
+
+GuardDoor/Qmsg0
+너무 오래 끌지 마!
+
+GuardDoor/Qmsg1
+일 끝나면 바로 나가!
+
+GuardDoor/Qmsg2
+너 할 일 있는 거 아니야?
+
+GuardWatcher/Qmsg0
+심심하다.
+
+GuardWatcher/Qmsg1
+근무 교대하고 싶다.
+
+GuardWatcher/Qmsg2
+졸려...
+
+guns/lockedQmsg
+잠겨 있다.

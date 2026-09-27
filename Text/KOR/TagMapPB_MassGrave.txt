@@ -1,0 +1,23 @@
+thisMap/OvermapEnter
+\m[confused]공동묘지\optB[그만둔다,들어간다]
+
+#지능이 충분히 높으면 전투를 피할 수 있습니다.
+#부족하다면 그와 30초 동안 싸워야 합니다.
+
+Keeper/QuProgPB_MassGrave1
+\m[confused]\c[6]로나：\c[0] 으음...
+\m[flirty]\c[6]로나：\c[0] 길드에서 임무를 받았어. 이곳에 뭔가 사악한 것이 있다던데, 처리하라고 하더군?
+\SETpl[AnonMale2]\Lshake\prf\c[4]묘지기：\c[0] 네 따위가 처리한다고? 성직자는 어디 있지?!
+\SETpl[AnonMale2]\Lshake\prf\c[4]묘지기：\c[0] 흥... 보나마나 저건 가짜 신을 섬기는 거짓무리일 게다.
+\SETpl[AnonMale2]\Lshake\prf\c[4]묘지기：\c[0] 놈은 \c[4]매일 밤\c[0] 이곳에서 수상쩍게 기웃거린다!
+\SETpl[AnonMale2]\Lshake\prf\c[4]묘지기：\c[0] 틀림없이 죽은 자들을 이용해 더러운 의식을 벌이는 거다.
+
+Keeper/rand0
+\SETpl[AnonMale2]\Lshake\prf\c[4]묘지기：\c[0] 절대 잠들지 마라! 죽는다!
+
+Keeper/rand1
+\SETpl[AnonMale2]\Lshake\prf\c[4]묘지기：\c[0] 놈들은 네 뇌를 노린다!
+
+Keeper/rand2
+\SETpl[AnonMale2]\Lshake\prf\c[4]묘지기：\c[0] 너, 신앙은 있나? 신앙이 있으면 놈들이 두렵지 않아!
+

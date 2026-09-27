@@ -1,0 +1,70 @@
+thisMap/OvermapEnter
+\m[confused]海蟹壺鋪\optB[算了,進入]
+
+################################################################### Qmsg
+
+guard/Qmsg0
+我不要...進去...
+
+guard/Qmsg1
+你進去... 我不要...
+
+guard/Qmsg2
+我不要...被碎片強暴...
+
+guardWin/Qmsg0
+好想繁殖...
+
+guardWin/Qmsg1
+你是女人...？ 繁殖...！
+
+guardWin/Qmsg2
+外來者...走開...
+
+Detective/Qmsg0
+所以是這個...造成的...？
+
+Detective/Qmsg1
+為什麼...會在這裡...？
+
+Detective/Qmsg2
+是什麼...引牠們來的...？
+
+################################################################### QUEST
+
+Qu0/KillAll
+\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    哈\..\..\..？！ 我贏了？！
+
+Detective/Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\prf\c[4]偵探：\c[0]    奴隸....滾開...！
+
+Detective/NotKilled0_0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]偵探：\c[0]    雨... 我討厭雨... 但我們需要雨....
+
+Detective/NotKilled0_1
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]偵探：\c[0]    雨會隱藏世間的...罪惡...
+
+Detective/NotKilled1
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    呃...？\optB[沒事,關於]
+
+Detective/NotKilled1_about
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    請問...這裡發生了什麼事？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]偵探：\c[0]    假海巫的碎片...攻擊了...這裡...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]偵探：\c[0]    人死了... 兩個人... 死了...
+\CBct[2]\m[confused]\PRF\c[6]洛娜：\c[0]    哦？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]偵探：\c[0]    我們...調查時....假海巫的碎片... 也偷襲我們...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]偵探：\c[0]    屋子裡還有... 很多假海巫的碎片...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]偵探：\c[0]    我們....對峙中...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]偵探：\c[0]    這一切... 很可疑...
+\CBct[20]\m[flirty]\PRF\c[6]洛娜：\c[0]    好吧，您加油。
+
+Detective/killed0
+\SndLib[FishkindSmSpot]\CBid[-1,8]\m[confused]\prf\c[4]偵探：\c[0]    外來者...妳...殺了牠們...？
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃...？ 大概吧，牠們看起來都死了。
+\SndLib[FishkindSmSpot]\CBid[-1,8]\prf\c[4]偵探：\c[0]    很好...
+
+Detective/killed1
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    .....
+
+Formula/found
+\CBct[2]\m[flirty]\PRF\c[6]洛娜：\c[0]    秘方？ 是這個沒錯吧？

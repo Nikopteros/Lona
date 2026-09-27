@@ -1,0 +1,164 @@
+GrayRat/CompData
+\board[Grayrat]
+\C[2]Posición：\C[0]Frente
+\C[2]Estilo de combate：\C[0]Guerrero, Tanque, Grito de Batalla
+\C[2]Facción：\C[0]Síbaris
+\C[2]Enemistad con：\C[0]Criaturas Malignas, Bandidos
+\C[2]Requisito：\C[0]Debilidad menor a 100
+\C[2]Duración：\C[0]5 días
+\C[2]Particularidad：\C[0]No revive tras morir
+\C[4]Nota：\C[0]Cecilia y Grayrat siempre están juntos
+Subordinado de Cecilia, ¿su sirviente o algo más? Quizás sea incluso algo mayor...
+
+
+################################################################### QMSG ################################################################################# 
+
+GrayRat/CommandWait0
+Entendido...
+
+GrayRat/CommandWait1
+Como desees...
+
+GrayRat/CommandFollow0
+Avancemos...
+
+GrayRat/CommandFollow1
+A tu servicio...
+
+GrayRat/OvermapPop0
+........
+
+GrayRat/Comp_start
+\SETpl[GrayRatNormalAr]\c[4]Grayrat：\C[0]    ........
+
+GrayRat/Comp_disband
+\SETpl[GrayRatConfused]\c[4]Grayrat：\C[0]    En ese caso, hasta luego...
+
+GrayRat/Comp_disbandAr
+\SETpl[GrayRatConfusedAr]\c[4]Grayrat：\C[0]    Adiós...
+
+################################# Cecily.Eaglemore
+GrayRatAr/CE_Death
+\SETpl[GrayRatShockedAr]\Lshake\{¡¡LADY CECILIA...!!!
+\SETpl[GrayRatShockedAr]\Lshake\{¡¡LOS MATARÉ A TODOS!!
+
+GrayRat/CE_Death
+\SETpl[GrayRatShocked]\Lshake\{¡¡LADY CECILIA...!!!
+\SETpl[GrayRatShocked]\Lshake\{¡¡LOS MATARÉ A TODOS!!
+
+###############################################QUEST
+
+
+GrayRat/UnknowBegin
+\CBid[-1,8]\SETpl[GrayRatNormal]\C[4]Desconocido：\C[0]    ......
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ...¡Es enorme!
+\CBid[-1,2]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    ...¿Puedo ayudarte?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    L-Lo siento.
+
+GrayRat/KnownBegin_opt
+\CBid[-1,8]\m[confused]\SETpl[GrayRatConfused]\C[4]Desconocido：\C[0]    ...... \optB[......,¿Por qué me elegiste?]
+
+GrayRat/KnownBegin_WhyMe
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Grayrat：\C[0]    .......Mmm.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Grayrat：\C[0]    Te he visto antes...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿Cuándo?!
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Grayrat：\C[0]    Camino a \c[6]Noer\C[0], la Lady y yo estábamos en el puesto norte.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Grayrat：\C[0]    Tú también estabas allí.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Ah?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Grayrat：\C[0]    Le diste comida a un niño hambriento.
+\CBid[-1,8]\SETpl[GrayRatNormal]\m[shy]\PLF\prf\C[4]Grayrat：\C[0]    Luchas por sobrevivir, pero aún das de comer a otros con tus propias manos.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Grayrat：\C[0]    Tenemos muchos enemigos... Pocos en quienes confiar.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Grayrat：\C[0]    Aunque no seas soldado, puedo confiar en ti...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ya veo...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Grayrat：\C[0]    ......
+\CBct[3]\m[triumph]\plf\Rshake\c[6]Lona：\C[0]    ¡Gracias!
+
+GrayRat/KnownBegin_Break
+\SETpl[GrayRatConfused]\C[4]Grayrat：\C[0]    ......
+\SETpl[GrayRatNormal]\C[4]Grayrat：\C[0]    Si quieres hablar de algo, habla con la Lady...
+
+GrayRat/SaveCecilyQuest_begin1
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    ...Disculpa, ¿señorita?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Desconocido：\C[0]    ¿No te llamas... \c[6]Lona\C[0]?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    S-Sí... ¿Qué pasa?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Oí sobre el convoy desaparecido. Lo hiciste bien.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¡Oh! Gracias.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Bueno... ¿Eso es todo, o querías algo más?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    ¿Te asusto? No temas.
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\ph\C[4]Desconocido：\C[0]    Ven, mira esto.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Lona：\C[0]    \{¡¿Q-Qué?!
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Desconocido：\C[0]    Es solo un adelanto...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    ¿Naciste en \c[6]Síbaris\C[0]?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Tras el desastre, en Noer tratan a los refugiados como mercancía...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Luchamos contra los esclavistas que explotan refugiados.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    ...Mi compañera fue secuestrada por uno de ellos.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Enviaron una nota con el lugar. Es una trampa para mí.
+
+GrayRat/SaveCecilyQuest_begin2
+\cgoff\board[Al mestizo grandullón]
+¡Tu perra está en nuestras manos!
+Si quieres que viva, ven al Almacén Oeste 13 de noche.
+¡Ven solo!
+¡O LA PUTA MUERE!
+
+GrayRat/SaveCecilyQuest_begin3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Necesito un explorador hábil en espionaje.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Tú servirías...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Tú también odias a esa escoria, ¿no?
+\CBct[6]\m[shy]\plf\PRF\c[6]Lona：\C[0]    Yo...
+
+GrayRat/SaveCecilyQuestInfo
+\board[Salvar a la compañera del grandullón]
+Objetivo：Ir al Almacén Oeste 13
+Recompensa：Gran Bronce x2\i[582] Bronce x5\i[583]
+Cliente：Desconocido
+Plazo：Ninguno
+
+GrayRat/SaveCecilyQuestAccept
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¡Vale! ¡Lo haré!
+\CBct[5]\m[angry]\plf\Rshake\c[6]Lona：\C[0]    ¡Yo también odio a los esclavistas!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Desconocido：\C[0]    Gracias...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Grayrat：\C[0]    Llámame \c[6]Grayrat\C[0]....
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Grayrat：\C[0]    Hablaremos los detalles cerca del \c[6]Almacén Oeste 13\C[0]. Prepárate.
+
+########################################################################### QuProgSaveCecily 23 to 24    43 to 44 # DEV
+
+GrayRat/23-43_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... Señor Grayrat, ¿dónde está Lady Cecilia?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Grayrat：\C[0]    Entrena en el patio trasero. Practica esgrima.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    Quiere hablar contigo.
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona：\C[0]    ¿Oh?
+
+44/0_begin0
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\c[4]Grayrat：\C[0]    Señorita Lona...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]   ¿Señor Grayrat? ¿Pasa algo?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    Quería saber... ¿Qué piensas de esta isla...?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Eh? Mmm\..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    \..\..Tuve un hogar aquí. Pero todos los que amé se fueron. Me dejaron.
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Padre\..\..\.. Amigos\..\..\.. Todos muertos. Ya no tengo hogar. 
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Solo veo muerte, destrucción, sufrimiento en esta isla... Yo....
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Grayrat：\C[0]    Quieres irte, ¿no?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Sí.
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\C[0]    Noer está condenado. Estoy segura.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    \..\..\..
+
+44/1
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Grayrat：\C[0]    Deseo lo mismo para mi Lady.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    \..\..\..\m[flirty]\Rshake ¿¡Eh?!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    No puedo dejar que se quede aquí...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    Si no actúo, sé que Lady Cecilia morirá aquí...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Grayrat：\C[0]    Necesito tu ayuda. Convéncela de irse.
+\CBct[6]\m[shocked]\plf\PRF\c[6]Lona：\C[0]    Wow... ¡Espera un momento!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Cómo voy a "convencerla"? Lady Cecilia no escuchará a una plebeya como yo...
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Además, Lady Cecilia es del tipo que no se rinde, sin importar lo difícil que sea... ¿Verdad?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    Tienes razón...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Tengo una idea: ¿qué tal si la atamos y la llevamos a la fuerza?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    \..\..\..\CBid[-1,5]\SETpl[GrayRatShocked]\Lshake \{¡¡¡¡!
+
+44/2
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    \{¡Era broma! ¡Perdón!
+
+44/3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    Mmm\..\..\..
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grayrat：\C[0]    La Lady te espera en el patio. Por favor, habla con ella.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Haré lo que pueda....

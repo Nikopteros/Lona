@@ -1,0 +1,554 @@
+thisMap/OvermapEnter
+\m[confused]Una pequeña granja en el bosque \optB[Cancelar,Entrar]
+
+########################################## other
+
+art/apeVSgirl
+\cg[other_lous2] ¡Cualquiera que rechace el apareamiento entre una hembra humana y una hembra de orangután es un esclavo del patriarcado y un ser inferior!
+\m[serious]\c[6]Lona:\C[0]    Vale....
+\m[confused]\c[6]Lona:\C[0]    ¿Qué patriarcado?
+
+grave/woodson
+\board[Lápida]
+\c[6]Jim Woodson:\C[0]
+1702.1.4 - 1755.9.5
+Fiel seguidor del verdadero Santo.
+Un guía que lideró a su rebaño.
+Nuestro maestro.
+
+NaughtyDick/BOW
+\SndLib[dogSpot]\c[4]Travieso Dick:\C[0]    ¡Guau!
+
+########################################## first time enter
+
+FristTime/Enter1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\c[4]Esposa:\C[0]    ¡Eh! ¡Otro piel verde! ¡Mátalo! ¡Mátalo!
+\CBmp[papa,5]\plf\prf\c[4]Esposo:\C[0]    ¡Ahora lo despacho!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿¡Eh!? ¿¡A mí?
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Acaba con él! ¡Rápido!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡No! ¡Alto! ¡Soy humana! ¡No soy un monstruo! ¡No me maten!
+\CBmp[papa,4]\plf\prf\c[4]Esposo:\C[0]    Una niña... ¿Está limpia?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\PLF\prf\c[4]Esposa:\C[0]    ......
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Ajá! ¡Me equivoqué! ¡Es una niña adorable! Parece limpia.
+\CBmp[papa,4]\plf\prf\c[4]Esposo:\C[0]    ¡Es una mujer! ¡Una verdadera mujer!
+
+FristTime/Enter2
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Mentiroso! ¿Quieres arder en el infierno?
+\CBmp[papa,6]\plf\prf\c[4]Esposo:\C[0]    ¡No, señora! ¡Solo un pensamiento pecaminoso pasó por mi mente!
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Hum! ¡El verdadero Santo te castigará!
+
+FristTime/Enter3_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[6]Cocona:\C[0]    ¡Canallas! ¡Pecadores!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Qué pasó?
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[6]Cocona:\C[0]    ¡Cocona lo siente! ¡Es el olor de gente inocente sufriendo!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Son malos?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Infieles! ¡Mátenlos!
+\CBfB[5]\SETlpl[cocona_shocked]\Lshake\prf\c[6]Cocona:\C[0]    ¡Cocona protegerá a su hermanita!
+
+FristTime/Enter3_grayrat
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]Grayrat:\C[0]    Esperen, creo que la conozco...
+\CBfB[2]\SETpl[CecilyNormalAr]\plf\Lshake\c[4]Cecilia:\C[0]    ¿A quién?
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Infieles! ¡Mátenlos!
+
+########################################## MAMA
+
+mama/begin1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\c[4]Esposa:\C[0]    ¡Qué visita tan rara! Pobrecita, ¿has sufrido mucho allá afuera?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Eh? Estoy bien, sé sobrevivir.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Alabado sea el verdadero Santo! Escuché sobre el desastre en Sibaris, no te preocupes. Mi esposo es cazador, esas bestias no llegarán aquí.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    E-em... ¿Eso espero?
+
+mama/begin2
+\CBmp[papa,4]\plf\prf\c[4]Esposo:\C[0]    Hay muchos monstruos, es peligroso. ¿Tienes hambre? ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    Entra y descansa antes de irte. ♥
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Ehh... \optB[Rechazar,Aceptar,¿Quiénes son?]
+
+mama/begin_nope
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    E-em... Solo estaba pasando...
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Esposa:\C[0]    Qué lástima, teníamos estofado de cerdo.♥
+
+mama/begin_return
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¿Al fin entendiste que es mejor estar en casa que en la calle?
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Pequeña zorra! ¡Luego te daré una lección! ¡Rápido a mi habitación!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Entendido....
+
+mama/Capture0
+\CBmp[mama,20]\m[tired]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    Oye, zorra, ¿no eres la esposa del gordo Bao? ¡Ve y ayuda al gordinflón a tener un hijo!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Obedezco...
+
+mama/about_1
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Viven en este lugar remoto? ¿No es peligroso?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Oh, claro, querida! Los \c[6]Woodson\C[0] llevamos años aquí.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    La ciudad está llena de pecado y mentirosos, ¡nosotros seguimos al verdadero Santo!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡El verdadero Santo nos bendijo! ¡Nos protege de mentirosos y pecadores!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Y ya viste lo que les pasó a esos pieles verdes! ¡Cualquiera que ose pasar por nuestro camino encontrará su fin!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Gloria al verdadero Santo!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Ehh, claro... Gracias a ese Santo.
+
+########################################## SON
+
+son/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Pff!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡¡Ooy!!
+
+son/begin1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡Suéltame!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Gordo Bao:\C[0]    Je, ¡juguete!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Juguete! ¡Agujero! ¡Meter!
+\CBmp[mama,20]\SETpr[OldSlut_normal]\plf\Rshake\c[4]Esposa:\C[0]    ¡Gordo! ¡No!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡Suéltame!
+
+son/begin2
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona:\C[0]    ....
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Esposa:\C[0]    ¡Perdona! Mi hijito te asustó.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    E-em... No pasa nada.
+
+son/Capture
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[tired]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Juguete! ¡Meter en coño!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡Aay!
+\CBmp[mama,20]\SETpr[OldSlut_angry]\plf\Rshake\c[4]Esposa:\C[0]    ¡Gordo! ¡A tu habitación ahora!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Uuuh! ¡Vale!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    ....
+
+son/Capture_night_t1
+\CBmp[son,2]\SETpl[FatDumbNormal]\Lshake\c[4]Gordo Bao:\C[0]    ¿Puff-puff?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ... \optB[Cancelar,Preguntar sobre el Santo<r=HiddenOPT1>]
+
+son/Capture_night_t2
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Tú... realmente crees en el verdadero Santo?
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Gordo Bao cree! ¡Familia cree!
+\CBct[2]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Pero... los seguidores del Santo no deberían disfrutar del sufrimiento ajeno... Está mal...
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Pero mamá dice que está bien! ¡Mamá es profeta divina! ¡Debo obedecer a mamá! \optB[Nada,Mamá<r=HiddenOPT1>]
+
+son/Capture_night_t3
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Pero tu mamá... Está loca.
+\CBmp[son,5]\SETpl[FatDumbSad]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Mientes! ¡Mientes! ¡Se lo diré a mamá!
+\CBct[20]\m[terror]\plf\PRF\c[6]Lona:\C[0]    ¡No! ¡Espera! Tú ya eres adulto, puedes mandar también. Puedes reemplazar a tu mamá.
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¿En serio? ¡Gordo Bao ya es adulto! \optB[Nada,Esposa<r=HiddenOPT1>]
+
+son/Capture_night_t4
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Ajá... Si es así, ya es tu momento de reemplazarlos.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿A ti también te gustaría poder hacer lo que quisieras, como tus padres?
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Claro que sí!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Soy tu esposa, tendré más hijos contigo y serás el más importante, podrás mandar aquí a todos, como el Santo.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¿En serio? ¿Qué debe hacer Gordo Bao? \optB[Olvídalo,Mátalos<r=HiddenOPT1>]
+
+son/Capture_night_t5
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Solo devuelve sus almas al Santo y obtendrás su poder.
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Sabes lo que hay que hacer.
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Gordo Bao entendió!
+\CBct[8]\m[confused]\plf\PRF Y de qué le estoy hablando...
+
+son/Capture_night_WIN
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Gordo Bao sabe qué hacer!
+
+son/Capture_Kill0
+\Rflash\SndLib[sound_gore]\c[4]Esposa:\C[0]    ¡Dios! ¡Gordo, qué haces?!
+\Rflash\SndLib[sound_gore]\c[4]Esposa:\C[0]    ¡No me toques! ¡No te atrevas!!!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleDed]
+\c[4]Esposo:\C[0]    ¡Pequeña basura! ¿Qué has hecho?
+\c[4]Esposo:\C[0]    ¡No te atrevas!! ¿Por qué mataste a la Señora? ¿Por qué?
+\c[4]Esposo:\C[0]    ¡Te destruiré!
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleGruntDed]
+\c[4]Gordo Bao:\C[0]    Gordo... Todo hecho...
+
+son/Capture_Kill1
+\CBct[8]\m[tired]\PRF\c[6]Lona:\C[0]    ....
+\CBct[1]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¡¿Qué?!
+\CBct[2]\m[terror]\Rshake\c[6]Lona:\C[0]    ¡¿QUÉ?!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¿Murieron?
+
+son/Capture_night_Failed0
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona:\C[0]    Vale...
+
+son/Capture_night_Failed1
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona:\C[0]    Olvídalo...
+
+son/Capture_night_Failed2
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona:\C[0]    Perdón...
+
+########################################## FATHER
+
+papa/begin1
+\CBmp[papa,4]\SETpl[nil]\prf\c[4]Esposo:\C[0]    Oye ♥ ¿Tendrás hambre?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Yo?
+\CBmp[papa,20]\prf\c[4]Esposo:\C[0]    Entra, pequeña ♥ Pasa y siéntate ♥
+
+papa/begin2
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    Sí, hice un delicioso estofado de cerdo ♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Oh... \optB[Olvidarlo,Aceptar,¿Quiénes son?]
+
+papa/begin_nope1
+\CBct[20]\m[flirty]\c[6]Lona:\C[0]    Em... Solo pasaba por aquí...
+
+papa/begin_nope2
+\CBmp[papa,5]\prf\c[4]Esposo:\C[0]    ¡Entra! ¡Entra, te digo!
+\CBct[8]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¿Qué?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡¡Suéltame!!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡No quiero!
+
+papa/begin_nope3
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Alto ahí! ¡Hereje!
+
+papa/begin_nope4
+\CBmp[mama,5]\m[confused]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¿Cómo te atreves a tocar a una mujer sin su permiso? ¿Quieres morir?
+\CBmp[papa,6]\plf\prf\c[4]Esposo:\C[0]    ¡Perdón! ¡Es culpa de esta pecadora! ¡La tentación me corrompe!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Luego te enseñaré una lección!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Je-je?
+
+papa/Capture
+\CBmp[papa,4]\prf\c[4]Esposo:\C[0]    ¡Atrapada!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡Aay!
+
+papa/about_1
+\CBct[2]\m[confused]\plh\c[6]Lona:\C[0]    ¿Qué hacen aquí?
+\CBmp[papa,20]\prf\c[4]Esposo:\C[0]    Cuando mi Señora muera, se convertirá en la luz del Santo.
+\CBmp[papa,20]\prf\c[4]Esposo:\C[0]    ¡Ella es la única seguidora que aún honra al Santo! ¡La seguiré hasta el fin!
+\CBct[2]\m[confused]\c[6]Lona:\C[0]    ¿Señora?
+\CBmp[papa,20]\prf\c[4]Esposo:\C[0]    Oh... ¡Esposa! ¡Esposa! ¡Cierto! ¡Es mi esposa!
+\CBct[8]\m[flirty]\c[6]Lona:\C[0]    Uf...
+
+########################################## DINNER
+
+Dinner/begin_0
+\CBct[20]\m[pleased]\plf\Rshake\c[6]Lona:\C[0]    ¡Gracias por su hospitalidad!
+
+Dinner/begin_0_1
+\c[4]Esposa:\C[0]    Agradécele al Santo por su misericordia.
+\c[4]Esposa:\C[0]    Agradécele al Santo por las comodidades.
+\c[4]Esposa:\C[0]    ¡Nuestra gracia nos viene del Santo! ¡Gracias a él!
+
+Dinner/begin_1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prh\c[4]Esposa:\C[0]    ¿Rico?
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona:\C[0]    ¡Delicioso! ¡Hacía mucho que no comía algo tan rico!
+\CBmp[papa,20]\plf\prf\c[4]Esposo:\C[0]   ¡Come más! ¡Estás tan delgada!
+
+Dinner/begin_1_1
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa:\C[0]    ¡Cierra la boca! ¡Hereje!
+\CBmp[papa,6]\plf\prf\c[4]Esposo:\C[0]   ¡Perdón!
+
+Dinner/begin_1_2
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    Niña, ¿cómo te llamas? No quiero llamarte siempre "niña".
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona:\C[0]    ¡Me llamo \c[6]Lona:\C[0]!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¿Lona? ¡Gloria al Santo! ¡Buen nombre!
+
+Dinner/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Mamá! ¡Gordo Bao la quiere!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]Gordo Bao:\C[0]    ¡Gordo Bao quiere a Lona! ¡Gordo Bao quiere un juguete nuevo ♥
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Eh?
+
+Dinner/begin_3
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Gordito~! ¡Aún es pronto para casarte!
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    Lona, ¿qué opinas de Gordo Bao?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Em... ¿Qué pasa con él?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Sería un buen esposo para ti! ¡No veo la hora de tener a mi nieto en brazos! ¿Qué opinas?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    No entiendo muy bien de qué hablan.
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    Es un buen chico. ¡Hijo del Santo, bendecido en la tierra!
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona:\C[0]    Hmm... ¡Claro, es un buen chico!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¿También lo crees? Es un muy buen chico.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡Pronto serviré el postre! ¡Para ti puse más azúcar!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Oh... \optD[Pedir irse,Quedarse en la mesa]
+
+Dinner/begin_3_opt_Leave
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Gracias por su hospitalidad, pero me temo que debo irme.
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¿¡Qué!? ¿Y el postre?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Lo siento, tengo cosas que hacer.
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]Esposa:\C[0]    Bueno... ¡Cuidado en el camino!
+
+Dinner/begin_3_opt_Eat0
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    Es té de remolacha y frutas, lo preparé especialmente para ti.
+\CBct[20]\m[triumph]\plf\PRF\c[6]Lona:\C[0]    ¡Gracias! ♥
+
+Dinner/begin_3_opt_Eat1
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¿Qué tal?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona:\C[0]    ¡Dulce con un toque ácido! ♥ ¡Me encanta! ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa:\C[0]    ¡No lo dudé!
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Pero, yo, algo...
+\CBct[20]\m[tired]\plf\PRF\c[6]Lona:\C[0]    No me siento muy bien...
+
+Dinner/begin_3_opt_Eat2
+\ph\narr\..\..\..\..\..
+
+########################################## Death when nap
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Desconocido:\C[0]    ¡Muerte! ¡Muere! ¡Maldita pecadora!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Desconocido:\C[0]    ¡Mataste a mi familia!
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Desconocido:\C[0]    ¡Ahora te mataré! ¡Jajajajaja-ah-ah!
+
+########################################## Capture
+
+Capture/FristTime_0
+\c[4]Esposa:\C[0]    ¡Gordo! ¡Aquí está tu nueva esposa!
+\c[4]Gordo Bao:\C[0]    ¡Juguete nuevo ♥
+\c[4]Esposa:\C[0]    ¡No, no es un juguete! ¡Primero debes casarte con ella!
+\c[4]Gordo Bao:\C[0]    ¡Solo quiero probar! ¡Gordo Bao no quiere esperar!
+\c[4]Esposa:\C[0]    ¡Espera! ¡Podrás jugar con ella después! ¡Papá y mamá también se casaron antes de tenerte!
+\c[4]Gordo Bao:\C[0]    Vaaaale...
+
+Capture/SecondTime_0
+\c[4]Esposa:\C[0]    ¡Mi tesoro gordo! ¡Mira! ¡Este coño barato será tu juguete!
+\c[4]Gordo Bao:\C[0]    ¡Juguete! ♥ ¡Dame! ¡Quiero jugar! ♥
+\c[4]Esposa:\C[0]    ¡Después! ¡Debo enseñarle cómo debe comportarse una mujer!
+
+########################################## ##########################################  merry
+
+merry/begin_0
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡Bendice a la nueva pareja con la voz del Santo!
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡La mirada del Santo será testigo de esta unión!
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    \c[6]El Gordo Bao Wudson\C[0] y ¡esa puta barata! ¡Ahora sois marido y mujer!
+\SndLib[sound_step_chain]\c[4]Esposo：\C[0]    ¡El Santo será vuestro testigo!
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[tired]\c[6]Lona：\C[0]    ¿Qué........?
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[confused]\c[6]Lona：\C[0]    ¡¿Ahora estoy casada?!
+
+merry/begin_1
+\CBmp[WakeUp,8]\m[confused]\c[6]Lona：\C[0]    \..\..\..\..
+\SndLib[sound_step_chain]\CBmp[WakeUp,1]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¿Qué me pasa? ¿Dónde estoy?!
+\SndLib[sound_step_chain]\CBmp[WakeUp,20]\m[terror]\Rshake\c[6]Lona：\C[0]    ¡¿Por qué no me puedo mover?? ¡¿Son cadenas?! ¡¿Qué me habéis hecho?!
+
+merry/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Agujero para jugar! ¡Gji-ji-ji!
+\CBmp[WakeUp,20]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡¡No te acerques!!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¿Oh, ya estás despierta? A partir de ahora, eres su esposa.
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¿Esposa?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    Hmm, creo que lo harás bien. Veo que eres perfectamente capaz de parir hijos ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    El Gordo es ¡hijo de Dios! ♥ Y tú me darás nietos benditos ♥
+\CBmp[WakeUp,20]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué...? ¡¿De qué estáis hablando?!
+
+merry/begin_3
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Agujero! ♥
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡No! ¡Aléjate de mí! ¡No quiero tener hijos de desconocidos!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡No es un desconocido! ¡Es tu nuevo y amado marido! ¡Debes obedecer a tu esposo! ¡Debes servir al Santo toda tu vida!
+
+merry/begin_4
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    El Gordo Bao es muy tierno ♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¡Vamos, hijito! ¡El Santo te observa!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡¡Suéltame!! ¡No dejes que me toque!
+
+merry/begin_5
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    El Gordo Bao entra en su esposa ♥
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¡No!! ¡No, sácalo!
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo：\C[0]    ¡Hou hou hou! ♥
+
+merry/begin_6
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Bzzt! ¡El Gordo Bao está muy feliz!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡A-ay!..
+
+merry/begin_7
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Mamá! ¡No toques mis pelotas! ¡Santo, ayúdame!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡No! ¡No te corras de nuevo!!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Córrete en esa puta como es debido! ¡Necesitamos que ese coño se quede embarazado y te dé hijos!
+
+merry/begin_8
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡O-o-o-u-u-u-a-ah!
+\CBmp[son,6]\SETpl[FatDumbSad]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Mamá! ¡Deja de pellizcarme las pelotas! ¡El Gordo Bao no puede correrse!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Córrete! ¡Córrete en ella por tercera vez! ¡Que su coño se inunde de tu semen, hijito!
+
+merry/begin_9
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¡E-so es! ¡Buen chico! ¡El Santo está orgulloso de ti, ese coño seguro que se preña!
+\CBct[20]\m[sad]\plf\Rshake\c[6]Lona：\C[0]    *Solloza*... ¿Por qué me hacéis esto...?
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Puta! ¡Hoy he decidido dejarte pasear! ¡Vuelve antes del anochecer! Como eres la esposa del Asno Gordo, ¡debes obedecer a todos los \c[6]Wudson\C[0]!
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Toda tu miserable vida!
+
+########################################## ##########################################  Daily RapeLoop
+
+DailyRapeWake/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Guau! ♥ ¡El Gordo Bao quiere jugar con el coño!
+
+DailyRapeWake/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Guau! ♥ ¡El Gordo Bao va a meterse en el agujerito!
+
+DailyRapeWake/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Uuaahh! ♥ ¡El Gordo Bao quiere correrse!
+
+DailyRapeNap/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Mmmh! ♥ ¡El Gordo Bao encontró un coño!
+
+DailyRapeNap/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    El Gordo Bao encontró un coño ♥ ¡A meterla!
+
+DailyRapeNap/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Coñito! El coño conoce la polla ♥
+
+DailyRapeEnd/Begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡El Gordo Bao ya jugó suficiente! ♥ ¡Adiós, coño!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡El agujerito es tan bueno! ♥ ¡Coño!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡El culito también es bueno! ♥ ¡Buen coño!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    .....
+
+DailyRapeEnd/Begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Buen pollón ♥ Coño espectacular!
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\C[0]    .....
+
+
+########################################## #daily semen check
+
+SemenCheck/begin_0
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡Gordo! ¡¿Qué demonios estás haciendo?!
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡¿Por qué te has corrido tan poco en ella?!
+\c[4]El Gordo Bao：\C[0]    ¡Lo siento, mamá!
+
+SemenCheck/begin_1
+\CBmp[WakeUp,8]\m[tired]\c[6]Lona：\C[0]    \..\..\..
+
+SemenCheck/begin_2
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡El Gordo Bao se esforzará en follarla mejor!
+
+SemenCheck/begin_3
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡Uuurrrh! ¡El Gordo Bao se corre! ¡Agujero!
+\CBmp[WakeUp,8]\m[sexhurt]\c[6]Lona：\C[0]    *Solloza*....
+
+SemenCheck/begin_4
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¡Otra vez! ¡Por el Santo, debes correrte en ella con todas tus fuerzas! ¡Eres un hombre, esfuérzate más!
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]El Gordo Bao：\C[0]    ¡El Gordo Bao entiende! ¡El Gordo Bao obedecerá a mamá!
+\CBmp[WakeUp,8]\m[pain]\plf\PRF\c[6]Lona：\C[0]    ....
+
+########################################## #daily torture
+
+Torture/begin_0_Basic
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡Puta! ¡Desafías la voluntad del Santo!
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡Levántate! ¡Levántate!
+
+Torture/begin_0_PapaRaped
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡¡Puta!! ¡¿Cómo te atreves a engañar a tu marido con el mío?!
+\SndLib[sound_step_chain]\c[4]Esposa：\C[0]    ¡Levántate! ¡Levántate!
+
+Torture/begin_2
+\SndLib[sound_hit_whip]\m[p5health_damage]\Rshake\c[6]Lona：\C[0]    ¡¿Ay?!
+
+Torture/begin_3
+\CBmp[torturePT,20]\m[shocked]\Rshake\c[6]Lona：\C[0]    ¡¿Qué ha pasado?! ¡¿Qué pasa?!
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Puta! Tú sabes lo que has hecho.
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Has insultado la voluntad del Santo! ¡Ahora mereces castigo!
+
+Torture/begin_4
+\CBmp[torturePT,6]\m[terror]\Rshake\c[6]Lona：\C[0]    ¡Esperad! ¡No! ¡No!
+\CBmp[torturePT,6]\m[bereft]\Rshake\c[6]Lona：\C[0]    ¡Por favor! ¡Perdonadme!
+
+Torture/begin_5
+\CBmp[torturePT,6]\m[pain]\Rshake\c[6]Lona：\C[0]    ¡Ay! ¡Estaba equivocada! ¡Os lo suplico, perdonadme!
+\CBmp[torturePT,6]\m[hurt]\Rshake\c[6]Lona：\C[0]    ¡Perdonadme! Os lo ruego....
+
+Torture/begin_6
+\CBmp[torturePT,6]\m[tired]\Rshake\c[6]Lona：\C[0]    Oohh....
+
+########################################## #daily Breakfast
+
+breakFast/begin_0
+\CBmp[MainTable,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Rápido, a la habitación! ¡Hora de comer!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Voy...
+
+breakFast/begin_1
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    Damos gracias al Santo por su misericordia.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    Damos gracias al Santo por sus provisiones.
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¡Nuestra comida hoy nos la ha dado el Santo! ¡Gloria al Santo!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Gloria al Santo...
+
+########################################## ########################################## #daily job
+########################################## Grass
+
+JobGrass/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Ve a arrancar las malas hierbas del campo!
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Y no seas perezosa!
+\CamMP[Farm]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Vale...
+
+JobGrass/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡¿Cómo te atreves a holgazanear?! ¡Ve a terminar con las malas hierbas!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡¡Perdonadme!!
+
+JobGrass/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¿Ya has arrancado todo? ¡Buena chica!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Vuelve a la cama y espera! ¡El Gordo va a follarte!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Voy...
+
+JobGrass/failed
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Eres lenta! ¿Crees que puedes ser tan torpe?
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡Perdonadme! ¡Solo no me peguéis!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¡Oh! ¡Te daré una lección más tarde!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    OOhh....
+
+########################################## feed chicken
+
+JobFeed/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¿Has visto nuestras gallinas?
+\CamMP[FoodB]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Ve a darles las sobras de comida! ¡Y esta vez no seas perezosa!
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Vale...
+
+JobFeed/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    ¡Bien! ¡Las gallinas parecen contentas!
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Y ahora corre a la cama, el Gordo te va a follar otra vez!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Eh...
+
+JobFeed/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡¿Qué demonios haces holgazaneando?! ¡¿Has alimentado a las gallinas?!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡¡Justo ahora lo estaba haciendo!!
+
+########################################## suck genital
+
+JobSuck/begin_1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Eh, putilla! ¡Ven aquí!
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    Las entrepiernas de Mamá y Papá llevan mucho sin lavarse y ya huelen fatal.
+\CBmp[papa,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Lame mi coño con tu lengua, y luego ve a decirle al idiota que le vas a chupar la polla hasta dejarla limpia! ¡Y dile también que no tiene que contenerse y que puede correrse en tu boca si quiere!
+\CBct[8]\m[terror]\plf\PRF\c[6]Lona：\C[0]    ¿Lo decís en serio...?
+
+JobSuck/Mama_start
+!!!!!
+\narr ¡Ante Lona se encuentra una vieja puta apestosa!
+
+JobSuck/Mama_doneButPapa
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    Así está bien, sí... ♥ Ahora ve con ese idiota. Está esperando a que le limpies la polla ♥
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Vale...
+
+JobSuck/Mama_PapaNotDone
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]Esposa：\C[0]    ¡Te he dicho que le laves la polla a ese idiota! ¿Es que no me has oído?
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Ooh....
+
+JobSuck/Mama_begin1
+\m[fear]\c[6]Lona：\C[0]    ....
+\m[sad]\c[6]Lona：\C[0]    Me dan náuseas....
+
+JobSuck/Mama_begin2
+\c[4]Esposa：\C[0]    ¿Ves lo sucio que está mi coño? Lámalo todo bien y no te quejes. ¡Hasta que no huela a nada!
+\narr La mujer tiene un espeso vello púbico, y huele como si un pez hubiera muerto en su vagina y empezara a descomponerse.
+
+JobSuck/Mama_begin3
+\c[4]Esposa：\C[0]    ¡Sí! ¡Muy bien! Así, sigue lamiendo ♥
+
+JobSuck/Mama_begin4
+\c[4]Esposa：\C[0]    ¡No escupas! ¡Mete la lengua más adentro ♥
+
+JobSuck/Mama_begin5
+\c[4]Esposa：\C[0]    Oh, sí... ♥ Así, no pares... ♥ ¡Me corro! ♥
+
+JobSuck/Mama_begin6
+......
+
+JobSuck/Mama_begin7
+.....
+
+JobSuck/Mama_begin8
+...
+
+JobSuckw/win
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    Muy buena chica, ¿qué tal te ha sabido mi coño sucio?
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona：\C[0]    Muy rico, mamá...
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]Esposa：\C[0]    No me cabe duda, siempre lamerás, chuparás y te dejarás usar por toda nuestra feliz familia ♥
+
+JobSuck/Papa_start
+\CBct[8]\m[fear]\PRF\c[6]Lona：\C[0]    Mamá ha dicho que puedes correrte en mi boca...
+\CBct[8]\m[pain]\PRF\c[6]Lona：\C[0]    Me ha ordenado que te limpie la polla...
+\CBmp[papa,20]\prf\c[4]Padre：\C[0]    ¡Genial! ¡Genial!! ¡Gloria al Santo!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ....
+
+JobSuck/Papa_Done
+\CBmp[papa,20]\prf\c[4]Padre：\C[0]    ¡Uuuhh! ¡Por fin me he corrido! ¡Gracias, Ama! ¡Gracias, Santo!
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0]    Coff....
+
+JobSuck/Papa_refuse
+\CBmp[papa,5]\prf\c[4]Padre：\C[0]    ¡La Ama ha dado una orden! ¡No tienes derecho a negarte!

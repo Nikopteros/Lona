@@ -1,0 +1,138 @@
+
+belever/NapSpot
+\SETpl[AnonMale1]\Lshake\C[4]신자：\C[0] 침입자다!?
+\SETpr[AnonMale2]\Rshake\C[4]신자：\C[0] 아니! 거짓말쟁이다! 여자의 거짓말쟁이다!
+\SETpl[AnonMale1]\Lshake\C[4]신자：\C[0] 성도시여! 성도께 감사드립니다! 우리 성액으로 그녀의 죄를 씻어내자! 
+
+beginEvent/begin
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] 네 죄가 정화되기 전까지 얌전히 있어라!
+\m[sad]\plf\PRF\c[6]로나：\c[0] 저는 어떻게 되는 걸까요...
+
+belever/NapRape
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] 깨어나라! 죄에 물든 거짓된 자여!
+\m[pain]\C[6]로나：\C[0] 흐윽....
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] 네 죄를 반드시 씻어내야 한다!
+
+belever/NapTorture1
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] 죄악의 거짓된 자여! 도망쳐봤자, 그건 죄만 더 무겁게 할 뿐이다!
+\SETpr[AnonMale1]\Rshake\C[4]신자：\C[0] 정화하라!
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] \{...어서 눈을 떠라!
+
+belever/NapTorture2
+\m[tired]\C[6]로나：\C[0] 에…?
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] 꽉 붙잡아라! 단단히 잡아라! 우리는 반드시 고통으로 그녀의 죄를 정화해야 한다!
+\m[terror]\C[6]로나：\C[0] 안 돼! 그만둬!
+
+belever/NapTorture3
+\m[pain]\C[6]로나：\C[0] \{아아! 아파! 너무 아파!!
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] 제기랄! 아직도 사악함이 남아있다!
+\m[bereft]\C[6]로나：\C[0] \{미안해! 제발 살려줘! 정말 미안해!
+
+belever/NapRape_0
+\c[4]신자：\c[0] 내 자지로 네 죄를 정화해주마!
+
+belever/NapRape_1
+\c[4]신자：\c[0] 성도시여!
+
+belever/NapRape_2
+\c[4]신자：\c[0] 성도시여! 내 자지에 가호를 내려주소서!
+
+belever/NapRape3_0
+\c[4]신자：\c[0] 네 몸으로 내 성액을 받아들여라!
+
+belever/NapRape3_1
+\c[4]신자：\c[0] 네 죄는 오직 내 육체로만 구원받을 수 있다!
+
+belever/NapRape3_2
+\c[4]신자：\c[0] 성도의 뜻을 받아들여라! 내가 너를 범하겠다!!
+
+belever/NapRape1
+\c[4]신자：\c[0] 헤헤헤...
+
+belever/NapRape_withSta_NoFight2
+\m[sad]\SETpl[AnonMale1]\Lshake\C[4]신자：\C[0] 흐흐흐♥
+
+belever/PlaceFood0
+\SETpl[AnonMale1]\Lshake\C[4]신자：\C[0] \{밥이다! 밥 먹어라!
+
+Camp/MobSeen
+\SETpl[AnonMale2]\Lshake\C[4]신자：\C[0] 누구냐!
+\m[shocked]\Rshake\C[6]로나：\C[0] 큰일이야!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+#UPDATE
+
+SlaveA/Qmsg0
+그들은 내 엉덩이를 좋아해!
+
+SlaveA/Qmsg1
+전부 자지 때문이야!
+
+SlaveA/Qmsg2
+하지만 난 매일 배부르게 먹고 있어!
+
+SlaveB/Qmsg0
+으...
+
+SlaveB/Qmsg1
+그들은 매일 내 자지를 원해...
+
+SlaveB/Qmsg2
+이젠 움직일 수 없어...
+
+SlaveC/Qmsg0
+난 절대 떠나지 않을 거야!
+
+SlaveC/Qmsg1
+밖에는 먹을 게 없어!
+
+SlaveC/Qmsg2
+자지를 내주면 먹을 걸 얻을 수 있으니까!
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+MIAchildMAMA/prog8
+\CBct[8]\m[confused]\PRF\C[6]로나：\C[0] 저기...
+\CBid[-1,2]\prf\C[4]???：\C[0] 쉬! 떠들지 마, 지금 명상 중이야! 어른들이 말했어, 노력만 하면 언젠가 위대한 신자가 될 수 있다고.
+\CBct[20]\m[flirty]\PRF\C[6]로나：\C[0] 아... 미안해. 나 \c[4]토미\c[0]를 찾고 있는데, 혹시 어디 있는지 알아?
+\CBid[-1,2]\prf\C[4]토미：\C[0] 나야, \c[6]토미\c[0]! 난 신도야!
+\CBct[4]\m[triumph]\Rshake\C[6]로나：\C[0] 다행이다! 드디어 찾았네.
+\CBct[20]\m[confused]\PRF\C[6]로나：\C[0] 이제 돌아가야 해, 네 엄마가 널 찾고 있어.
+\CBid[-1,20]\prf\C[4]토미：\C[0] 난 싫어! 여기선 엉덩이만 내주면 먹을 걸 주잖아. 엄마랑 있으면 항상 굶기만 했어.
+\CBct[8]\m[flirty]\PRF\C[6]로나：\C[0] 뭐라고...? 엉덩이를 내준다니?
+\CBid[-1,5]\prf\C[4]토미：\C[0] 그래! 난 여기 있을 거야!
+\CBid[-1,20]\prf\C[4]토미：\C[0] 엄마는 날 원하지 않아. 하지만 \C[6]성도회\C[0]는 날 받아줄 거야. 난 \C[6]성도회\C[0] 어른들이랑 함께할 거야!
+
+MIAchildMAMA/prog8_opt
+\CBct[20]\m[confused]\PRF\C[6]로나：\C[0] 으\..\..\..\optB[됐다,속여서 데려간다<r=HiddenOPT1>,강제로 데려간다<r=HiddenOPT2>]
+
+MIAchildMAMA/prog8_opt_WIS
+\CBct[20]\m[flirty]\PRF\C[6]로나：\C[0] 하지만 내가 듣기로는, \C[4]성도회\C[0]의 신자들은 아이를 먹는다던데?
+\CBct[8]\m[confused]\PRF\C[6]로나：\C[0] 정말로 여기에 계속 있고 싶어?
+\CBid[-1,20]\prf\C[4]토미：\C[0] 뭐!? 그럴 리 없어!
+\CBct[20]\m[serious]\PRF\C[6]로나：\C[0] 왜 아니겠어. 너한테 맛있는 걸 주는 건, 너를 살찌우기 위해서야.
+\CBct[20]\m[terror]\Rshake\C[6]로나：\C[0] 언젠가 네가 기름지고 통통하고 맛있어지면, 그땐 널 삶아 먹을 거야!
+\CBid[-1,8]\prf\C[4]토미：\C[0] \...\...\...
+\CBid[-1,8]\prf\C[4]토미：\C[0] 그 사람들, 매일 내 자지를 핥아…
+\CBid[-1,8]\prf\C[4]토미：\C[0] 그리고 내 자지가 맛있다고 칭찬했어…
+\CBid[-1,8]\prf\C[4]토미：\C[0] 설마… 정말 날 먹으려는 거야!?
+\CBct[20]\m[wtf]\Rshake\C[6]로나：\C[0] 뭐라고!???
+\CBid[-1,20]\prf\C[4]토미：\C[0] 싫어! 난 먹히기 싫어!
+\CBct[20]\m[flirty]\PRF\C[6]로나：\C[0] 그렇다면 누나랑 같이 가자. 내가 널 지켜서 엄마한테 안전하게 돌려보낼게.
+
+MIAchildMAMA/prog8_opt_STA0
+\CBct[5]\m[serious]\Rshake\C[6]로나：\C[0] 말 들어!
+
+MIAchildMAMA/prog8_opt_STA1
+\CBct[20]\m[irritated]\Rshake\C[6]로나：\C[0] 저분은 네 엄마야! 널 버린 게 아니라고! 네 엄마가 직접 부탁해서 내가 널 찾으러 온 거야!
+\CBid[-1,6]\prf\C[4]토미：\C[0] 으… 때리지 마! 같이 갈게!
+
+MIAchildMAMA/prog9_board
+\board[그녀의 아이]
+목표 : \C[4]토미\C[0]를 난민 캠프로 호송한다.  
+보상 : 없음  
+의뢰인 : 난민  
+수행가능횟수 : 1회
+\C[4]토미\C[0]를 난민 캠프로 무사히 데려가라. 들키지 않도록 주의해야 한다.  
+\C[6]성도회\C[0]는 \C[4]토미\C[0]를 적극적으로 공격할 것이다.

@@ -1,0 +1,330 @@
+thisMap/OvermapEnter
+Убежище Бандитов \optB[Отмена,Войти]
+
+Nap/Capture
+\narr У Лоны отняли все её вещи.
+
+############################################################## Control , using TagMapNoerMobHouse.txt as secondary
+
+Trans/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]Бандит：\C[0]    Эй, мелкая сука! Подъём!
+\CamCT\m[hurt]\plf\PRF\c[6]Лона：\C[0]    Ооохх....
+\SETpl[MobHumanCommoner]\BonMP[Raper1,20]\Lshake\prf\C[4]Бандит：\C[0]    Скоро ты переберёшься в свой новый дом!
+\CamCT\m[sad]\c[6]Лона：\C[0]    Что?! К-куда вы меня с...?
+
+Trans/begin2
+\ph\m[sad]\cgoff\narr Лону увели в неизвестное место.
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Бандит：\C[0]    Будь хорошей девочкой.. И тогда мы поиграем!
+\SETpl[nil]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Что же делать\..\..\.. Мне надо найти способ выбраться!
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Бандит：\C[0]    \{Эй, мелкая сучка! Жрать подано!
+\narr Они оставили немного еды у двери.
+
+Rogue/PlaceFood_no
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Бандит：\C[0]    Мелкая сука! Будешь лениться - останешься без жрачки!
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Бандит：\C[0]    Если хошь жрать, тебе надо нас развлекать!
+\m[sad]\plf\PRF\c[6]Лона：\C[0]    Простите... Я буду стараться...
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Это женщина?
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Охуенно! Я давненько уже не проводил время с женщиной!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Мелкая сука! Я здесь! ♥
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Дайте мне быть первому! В лесу давненько не было с кем хорошенько потрахаться! Я уже из шкуры вон лезу как хер чешется!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Эй! Не убей её, остальные тоже ждут своей очереди.
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Да ладно, пацаны, она ещё по второму и третьему кругу успеет всех принять.
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    Эта мелкая сука заслуживает профилактических пиздюлей!
+\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит：\C[0]    Въеби ей!
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит：\C[0]    \{Эй! Подъём!
+
+DavidBorn/Unknow
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Я заправляю этим местом.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Эти люди не могут контролировать себя, им нужен кто-то, чтобы побычить.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Если им этого не давать, они может даже и меня попытаются убить...
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,8]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    \..\..\.. И тебя, кстати, тоже!
+\CamCT\m[shy]\PRF\c[6]Лона：\C[0]    Меня?
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Слушай меня, иначе ты здесь погибнешь.
+\CamCT\m[fear]\PRF\c[6]Лона：\C[0]    Оу.....
+
+DavidBorn/Day_dialog
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Слушайся меня, иначе ты не получишь еды.
+\CamCT\m[sad]\PRF\c[6]Лона：\C[0]    Эххх....
+
+GangBoss/Day_dialog
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Бандит：\C[0]    Эй, мелкая сучка!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Бандит：\C[0]    Сегодня ты будешь нас развлекать.
+\CamCT\m[sad]\PRF\c[6]Лона：\C[0]    Эххх....
+
+Nap/Capture
+\narr У Лоны отняли все её вещи.
+
+############################################################## COMMON DIALOG
+
+Cooker/Begin0
+\CBid[-1,20]：\C[0]Повар：\C[0]    Они едят нас, а мы едим их. Всё честно!
+
+Female/Qmsg0
+Вы плохие!
+
+Female/Qmsg1
+Я ни в чём не виновата...
+
+Female/Qmsg2
+Святые, защитите меня...
+
+############################################################## Whore Job
+
+DavidBorn/JOB_Start_Whore
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Большинство из парней уже очень давно не были с женщиной.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Иди и принеси собой пользу для этих идиотов.
+\CamCT\m[fear]\PRF\c[6]Лона：\C[0]    Я.... \optB[Подождите,Хорошо]
+
+GangBoss/JOB_Start_Whore
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Бандит：\C[0]    Эй! Наши члены были долго без внимания.
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Бандит：\C[0]    Эй! Мелкая сучка! Подставляй свою сраку!
+\CamCT\m[fear]\PRF\c[6]Лона：\C[0]    Ох.... \optB[Подождите,Хорошо]
+
+HevWhore/begin1
+\CamMP[Cam1]\C[4]Бандит：\C[0]    Бля, как же хочется женщину, чтобы поразвлечься....
+\CamMP[GuardA]\C[4]Бандит：\C[0]    Хочу кончить в суку.... Залить в кого-нибудь весь свой запас спермы....
+
+HevWhore/begin2
+\CamCT\board[Внимание]
+Удовлетворите 4 или более бандитов.
+Иначе вы останетесь без еды.
+
+############################################################## GangRape
+
+DavidBorn/JOB_Start_GangRape
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Парни мне жалуются, что им скучно.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Иди-ка развлеки этих идиотов.
+\CamCT\m[fear]\PRF\c[6]Лона：\c[0]    Я.... \optB[Подождите,Хорошо]
+
+GangBoss/JOB_Start_GangRape
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Бандит：\C[0]    Эй! Сучка! Сюды!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Бандит：\C[0]    Вылазь! Покажи нам чё-нить весёленькое!
+\CamCT\m[fear]\PRF\c[6]Лона：\c[0]    Я.... \optB[Подождите,Хорошо]
+
+HevGang/begin0
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]    *Хрипло смеется* Ну что, сучка, развлеки нас... если не хочешь, чтобы было больно.
+
+HevGang/begin1
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]   Скучища! Давай что-то поинтереснее, сучка...
+
+HevGang/begin_encore
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]    ЕЩЁ！
+
+HevGang/opt
+\m[shy]\plf\PRF\c[6]Лона：\c[0][0]    *Дрожит* П-пожалуйста... я... \optD[Танцевать<r=HiddenOPT0>,Рассказать шутку<r=HiddenOPT1>]
+
+HevGang/Dance
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона：\c[0][0]    Я... я могу станцевать... *прикрывает грудь руками*
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]    *Глухо ржут* Давай, тряси своими жалкими булками!
+
+HevGang/Dance_success_1
+\narr Её движения вызывают одобрительные стоны. Кто-то уже расстёгивает штаны.
+
+HevGang/Dance_success_2
+\narr Лона исполняет похабный танец. Воздух наполняется хриплым дыханием.
+
+HevGang/Dance_failed0
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]    *Бьёт кулаком по столу* Это что за пляски пьяного гоблина?!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\c[0]    *Всхлипывает*
+
+HevGang/Dance_failed1
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]    Ты вообще умеешь танцевать?!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\c[0]    *Сжимается в комок*
+
+HevGang/Dance_failed2
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]    Хуже оркской пляски на костях!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\c[0]    "Дрожит"
+
+HevGang/Joke0
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    М-может... хотите послушать шутки?
+\SETpl[raper_group]\Lshake\C[4]Бандит：\C[0]    *Скрежещут зубами* Смеши нас - или будешь кричать.
+
+HevGang/Joke1															   
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\c[0]    *Заикается* Э-э...\..\..\..
+
+HevGang/Joke2_0
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\c[0]    Что говорит копрофил? "Что посерешь, то и пожрёшь."
+
+HevGang/Joke2_1
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\c[0]    Почему некроманты любят мёртвых? Потому что те... *шёпотом* ...не кусаются там...
+
+HevGang/Joke2_2
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\c[0]    Что сказал орк после ночи с троллихой? "Я думал, мои яйца отвалятся... но отвалилось достоинство..."
+
+HevGang/Joke_success
+\narr\..\..\..
+\narr *Грязный хохот*
+\narr Кто-то уже тянется к ней, слюнявя пальцы.
+
+HevGang/Joke_failed
+\narr\..\..\..
+\narr *Мёртвая тишина*
+\narr Кто-то злобно щелкает ножом.
+
+HevGang/score_success_full
+\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    *Тяжело дышит* Чёрт... я не выдержу...
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\c[0]    Н-нет...
+\SETpr[raper3]\Rshake\C[4]Бандит：\C[0]    *Сквозь зубы* Расслабься... *хватает за волосы* ...или будет хуже.
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\c[0]    *Всхлипывает*
+
+HevGang/score_success
+\SETpl[raper2]\Lshake\prf\C[4]Бандит：\C[0]    *Ухмыляется* Неплохо... для сучки.
+\SETpr[raper3]\Rshake\plf\C[4]Бандит：\C[0]    *Почесывает живот* А я проголодался.
+\SETpr[raper1]\Lshake\prf\C[4]Бандит：\C[0]    *Поправляет штаны* Ладно, хватит.
+\SETpr[raper2]\Rshake\plf\C[4]Бандит：\C[0]    *Бросает монету* На, за старания.
+
+HevGang/score_failed
+\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    *Рычит* К чёрту эти игры! ХВАТАЙ ЕЁ!
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\c[0]   *Судорожно цепляется за одежду* Н-нет... вы... я не...
+\SETpr[raper3]\Rshake\C[4]Бандит：\C[0]    *Сдавливает её челюсть* Тише, сучка... *облизывает губу* ...первый раз всегда больно.
+\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    *Рвёт одежду на ней* МОЯ добыча! Я первый!
+\SETpr[raper1]\Rshake\C[4]Бандит：\C[0]    *Бьёт ногой* НЕТ, Я!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\c[0]    Уу-о-о-охх....
+
+############################################################## Doggy
+
+DavidBorn/JOB_Start_Doggy
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Один из идиотов сказал мне, что хочет развлечься. Он хочет тебя.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]Дэвид Борн：\C[0]    Иди и примись за дело.
+\CamCT\m[fear]\PRF\c[6]Лона：\C[0]    Я.... \optB[Подождите,Хорошо]
+
+GangBoss/JOB_Start_Doggy
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]Бандит：\C[0]    Эй! Сука! Подойди!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]Бандит：\C[0]    Кто-то ждёт тебя снаружи!
+\CamCT\m[fear]\PRF\c[6]Лона：\C[0]    Я.... \optB[Подождите,Хорошо]
+
+
+HevDoggy/begin1_fristTime0
+\SETpl[raper2]\Lshake\prf\C[4]Бандит：\C[0]    Эй! Моя собака тоже давно не ебалась ни с кем, поднимай жопу и исправь это!
+\SETpl[raper2]\Lshake\prf\C[4]Бандит：\C[0]    Сегодня я выбил тебя для развлечения моего пса! Ты будешь его сучкой.
+
+HevDoggy/begin1_fristTime1
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    С собакой?! Нет! Так нельзя!
+\SETpl[raper2]\Lshake\prf\C[4]Бандит：\C[0]    Ты смеешь выёбываться? Жить надоело, мелкая сука?
+\SETpl[raper_group]\Lshake\prf\C[4]Бандиты：\C[0]    Чё, выёбывается?! Убьём её!!
+\SETpr[raper_group]\Rshake\plf\C[4]Бандиты：\C[0]    Да! Забьём её как овцу!
+\CamCT\m[bereft]\plf\Rshake\c[6]Лона：\C[0]    Нет! Не убивайте меня! Я всё сделаю!
+\SETpl[raper2]\Lshake\prf\C[4]Бандит：\C[0]    Хаха, смотрите, как сучка-то испугалась!... Давай выполняй.
+
+HevDoggy/begin1_fristTime2
+\SETpl[raper_group]\Lshake\prf\C[4]Бандит：\C[0]    Хахахаха! Пёсик! Сюда!
+
+HevDoggy/begin1_fristTime1_nymph
+\CamCT\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    С собакой?! Оу...
+\SETpl[raper2]\Lshake\prf\C[4]Бандит：\C[0]    Смеешь сказать «нет»? Мелкая сучка не хочет жить, да?
+\CamCT\m[lewd]\plf\Rshake\c[6]Лона：\C[0]    Да нет.... Я думаю, я справлюсь с этим. Я когда-то задумывалась об этом.
+
+HevDoggy/begin1
+\SETpl[raper2]\Lshake\prf\C[4]Бандит：\C[0]    Эй! Сучка! У пса уже торчит! Давай за дело!
+\CamCT\m[shy]\plf\PRF\c[6]Лона：\C[0]    Только не с псом снова...
+\CamCT\m[sad]\plf\PRF\c[6]Лона：\C[0]    Ладно.... Он хотя бы это делает чуть более ласково, чем эти бандиты.
+
+HevDoggy/begin2
+\CamCT\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Давай, пёсик, будь хорошим мальчиком.
+\CamMP[Doggy]\BonMP[Doggy,5]\SndLib[dogAtk]\m[shy]\plf\PRF\c[6]Собака：\C[0]    Гррр!
+\CamCT\m[shy]\plf\PRF\c[6]Лона：\C[0]    Не бойся меня.. Я постараюсь быть очень ласковой.
+\CamMP[Doggy]\BonMP[Doggy,6]\SndLib[dogSpot]\m[shy]\plf\PRF\c[6]Собака：\C[0]    Аф! Гав!
+
+HevDoggy/begin3
+\CamCT\narr Лона взяла собачий член рукой,
+и направила его себе в киску.
+\SndLib[dogAtk]\narrOFF\SETpl[raper_group]\Lshake\prf\C[4]Бандит：\C[0]    Хаха! Смотрите, как эта мелкая пизда трахается с собакой!
+
+HevDoggy/begin4
+\SndLib[dogAtk]\SETpl[raper_group]\Lshake\prf\C[4]Бандит：\C[0]    Хахаха! Давай, сучка!
+
+HevDoggy/begin5
+\c[6]Лона：\C[0]    \..\..\..\.. У-о-х-х...
+
+HevDoggy/begin6
+\c[6]Лона：\C[0]    Ай, пёсик, аккуратнее.... Давай без боли...
+\SndLib[dogAtk]\narr Пёс стал вдавливаться членом в Лону, видимо, посчитав, что Лона - сучка собаки.
+
+HevDoggy/begin7
+\c[6]Лона：\C[0]    Оу, ай...
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]Собака：\C[0]    Грр гав!
+\c[6]Лона：\C[0]    Оох..
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Собака：\C[0]    Гав Гав!
+
+HevDoggy/begin8
+\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    Давай! Выеби её!
+\SETpr[raper_group]\Rshake\C[4]Бандит：\C[0]    Выеби её! Выеби эту суку!
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]Собака：\C[0]    Гав Гав!
+\narr Пёс решил, что Лона теперь его сука.
+Он стал двигаться активнее.
+
+HevDoggy/begin9
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Собака：\C[0]    Гав Гав!
+\c[6]Лона：\C[0]    Оуух...
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Собака：\C[0]    Гав Гав!
+
+HevDoggy/begin9_1
+\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    Хахахаха!!!
+\SETpr[raper3]\Rshake\C[4]Бандит：\C[0]    Никогда ещё не видел такой забавной херни!!
+
+HevDoggy/begin10
+\SndLib[dogHurt]\c[6]Лона：\C[0]    Ой?!
+
+HevDoggy/begin11
+\SndLib[dogHurt]\c[6]Лона：\C[0]    \{Ай ай Ай!
+
+HevDoggy/begin12
+\SndLib[dogHurt]\c[6]Лона：\C[0]    \{У него слишком большой! Больно!
+
+HevDoggy/begin13
+\SndLib[dogHurt]\c[6]Лона：\C[0]    \{Ай Ай Айй!
+
+HevDoggy/begin14
+\SndLib[dogHurt]\narr Собачий член целиком вторгнулся в киску Лоны, Лона заполнена до предела членом пса и сцепилась с ним узлом.
+\SndLib[dogHurt]Пёс сцепился с Лоной узлом, и вскоре начал извергаться в неё.
+
+HevDoggy/begin14_1
+\narrOFF\m[p5health_damage]\SETpl[raper2]\Lshake\Rshake\C[4]Бандит：\C[0]    Молодчина, пёсик, кончай в эту мелкую суку, она хорошая собачка, да?
+\SETpr[raper2]\Rshake\C[4]Бандит：\C[0]    Нихуя! Бля, я ща обоссусь со смеху.
+
+HevDoggy/begin15
+\narrOFF\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    Эй! Пёсик! Сюда! Вот тебе мяска!
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Собака：\C[0]    Грр гав!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Собака：\C[0]    Грр гав!
+
+HevDoggy/begin16
+\c[6]Лона：\C[0]    \{Что?!
+
+HevDoggy/begin17
+\c[6]Лона：\C[0]    \{Ай, не тяни! Стой! Больно!!
+
+HevDoggy/begin18
+\m[p5health_damage]\Rshake\c[6]Лона：\C[0]    Выпустите меня... Хватит....
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]Собака：\C[0]    Гав гав!
+\narrOFF\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    Сюда! Смотри какой вкусный кусочек мяса!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]Собака：\C[0]    Гав Гав!
+\SETpr[raper1]\Rshake\C[4]Бандит：\C[0]    Хахахаха... Он застрял в суке! Бля, я больше не могу... Щас помру со смеху!
+
+HevDoggy/begin19
+\m[p5health_damage]\c[6]Лона：\C[0]    \{Аааайй!
+\m[p5health_damage]\c[6]Лона：\C[0]    \{Ууаахх!
+
+HevDoggy/begin20
+\c[6]Лона：\C[0]    Ууохх.....
+
+HevDoggy/begin21
+\c[6]Лона：\C[0]    Оох аахх...
+
+HevDoggy/begin22
+\c[6]Лона：\C[0]    .....
+
+HevDoggy/begin23
+\narr Пёс давно кончил, но его член ещё очень долгое время был раздут внутри Лоны.
+Пока бандиты хохотали над этим, Лона потеряла сознание.
+\narrOFF\SETpl[raper2]\Lshake\C[4]Бандит：\C[0]    Эй, она вырубилась, что будем делать с ней теперь?
+\SETpr[raper3]\Rshake\C[4]Бандит：\C[0]    Пусть кто-нибудь унесёт её отсюда.

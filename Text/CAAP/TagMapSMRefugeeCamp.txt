@@ -1,0 +1,276 @@
+############################################## ENTRADA AL MAPA
+
+thisMap/OvermapEnter
+\m[confused]Campamento de Refugiados \optB[Cancelar,Entrar]
+
+####################################################################### NIÑO PERDIDO
+
+MIAchildMAMA/prog0
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] ¡Mi hijo! ¡Se llevaron a mi hijo!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] ¿Quién se lo llevó?
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] ¡Los \c[6]Seguidores de los Santos\C[0]! ¡Sabía que no se podía esperar nada bueno de ellos!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] ¿Ah?
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] Se llevaron a mi hijo y lo alejaron de mí hacia el monasterio.
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] ¡\c[6]Santos\C[0]! ¿Por qué me pasa esto?
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] Los \c[6]Seguidores de los Santos\C[0] no harían algo así, ¿verdad?
+
+MIAchildMAMA/prog0_board
+\board[Su Hijo]
+Tarea：Ir al monasterio y encontrar al niño
+Recompensa：Ninguna
+Cliente：Refugiada
+Repetible：Única
+\c[6]Tommy\C[0] fue robado. Ve al monasterio e investiga sobre \c[6]Tommy\C[0].
+Ella es solo una pobre refugiada y probablemente no pueda pagar una recompensa.
+
+MIAchildMAMA/prog0_Taken
+\CBct[20]\m[triumph]\PRF\c[6]Lona：\C[0] Déjamelo a mí, lo encontraré. ¿Cómo se llama?
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] No, es un niño. Se llama \c[6]Tommy\C[0].
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Em... ¿Un niño?
+\CBct[20]\m[pleased]\c[6]Lona：\C[0] ¡De cualquier manera lo traeré de vuelta!
+
+MIAchildMAMA/prog1_noNews
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] ¿Hay noticias sobre \c[6]Tommy\C[0]?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Em... Todavía no.
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] Mi pequeño \c[6]Tommy\C[0]. ¡Ah! ¡¿Qué te han hecho?!
+
+MIAchildMAMA/QdoneBegin
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] ¿Encontraste a \c[6]Tommy\C[0]?
+
+MIAchildMAMA/prog7_NotFound
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Em...
+\CBct[20]\m[confused]\PRF\c[6]Lona：\C[0] Los \c[4]Seguidores de los Santos\C[0] dijeron que vendiste a tu hijo por comida.
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] ¿Es cierto?
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] Yo......
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] ¡No quería! ¡Tenía mucha hambre!
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] ¡Lamento mucho lo que hice! ¡Me avergüenzo ante \c[6]Tommy\C[0]!
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] ¿Entonces no robaron a tu hijo?
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] ¿Lo vendiste por tu propia voluntad?
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] Me siento terriblemente culpable... Estoy tan avergonzada....
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] ¡Mi pequeño \c[6]Tommy\C[0], no te preocupes!
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] ¡Mamá te traerá de vuelta!
+
+MIAchildMAMA/prog7_end
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0] Uff...
+
+MIAchildMAMA/prog9_failed
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0] Em... Sobre él....
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] ¿Qué pasó? ¿Dónde está mi niño \c[6]Tommy\C[0]?
+\CBct[8]\m[sad]\PRF\c[6]Lona：\C[0] ......
+\CBct[20]\m[sad]\PRF\c[6]Lona：\C[0] No quiere volver; Decidió unirse a los \c[4]Seguidores de los Santos\C[0].
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] ¡No puede ser! ¡Me estás mintiendo!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡Pero es verdad! ¡No miento! ¡Él mismo me lo dijo!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\C[0] Y dijo que te odia.
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] ¡No! ¡Tú y los \c[6]Seguidores de los Santos\C[0] son unos mentirosos!
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] {¡¡¡No hay SANTOS aquí!!!}
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] {¡Mentirosos! ¡Todos son UNOS MENTIROSOS!}
+
+MIAchildMAMA/prog9_win0
+\CBct[20]\m[pleased]\Rshake\c[6]Lona：\C[0] ¡Encontré a tu hijo!
+\CBid[-1,1]\prf\c[4]Refugiada：\C[0] ¡!!!!!
+
+MIAchildMAMA/prog9_win1
+\CBmp[Tommy,4]\prf\c[4]Tommy：\C[0] ¡Mamá!
+\CBid[-1,20]\prf\c[4]Refugiada：\C[0] \c[6]Tommy\C[0], ¡mi pequeño amor!
+\CBmp[Tommy,2]\prf\c[4]Tommy：\C[0] Me dijeron que ya no me necesitabas...
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] ¡¿Cómo podría hacer algo así?! ¡Es culpa de esos \c[6]Seguidores de los Santos\C[0]!
+\CBid[-1,6]\prf\c[4]Refugiada：\C[0] ¡Mamá lamenta mucho lo ocurrido! ¡Nunca más te dejaré solo!
+\CBct[4]\m[triumph]\Rshake\c[6]Lona：\C[0] ¡Bueno, todo terminó bien!
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0] Me iré entonces, de todos modos no soy prioridad ahora.
+
+MIAchildMAMA/prog9_win2
+\CBmp[Tommy,20]\prf\c[4]Tommy：\C[0] ¡Hermana! ¡Espera un momento!
+
+MIAchildMAMA/prog9_win3
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0] ¿Qué pasa?
+
+MIAchildMAMA/prog9_win4
+\CBmp[Tommy,20]\prf\c[4]Tommy：\C[0] Este palo estuvo en mi trasero todo este tiempo.
+\CBmp[Tommy,20]\prf\c[4]Tommy：\C[0] Los \c[6]Seguidores\C[0] me dijeron que era una prueba para acercarme a los \c[6]Santos\C[0].
+\CBmp[Tommy,20]\prf\c[4]Tommy：\C[0] Pero creo que ya no lo necesito.
+\CBmp[Tommy,20]\prf\c[4]Tommy：\C[0] ¡Quiero dártelo a ti!
+
+MIAchildMAMA/prog9_win5
+\CBct[2]\m[wtf]\Rshake\c[6]Lona：\C[0] ¡¿Qué?! ¿¡En tu trasero?!
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0] Oh... ¿G-gracias?
+
+MAMAdone/Qmsg
+¡Gracias a ti!
+
+TOMMYdone/Qmsg
+¡Gracias, hermana!
+
+####################################################################### ESCENA CBT (Castración)
+
+CBTop/Begin0
+\CBmp[CBTer2,20]\c[4]Refugiada A：\C[0] Escucha, eres más fuerte que toda esta chusma.
+\CBmp[CBTer1,6]\c[4]Refugiada B：\C[0] Yo...
+
+CBTop/Begin1
+\CBmp[CBTer2,20]\c[4]Refugiada A：\C[0] Esta basura se lo merece, los \c[6]Santos\C[0] no te culparán.
+
+CBTop/Begin2
+\CBmp[CBTer2,20]\c[4]Refugiada A：\C[0] No temas, ya no te harán daño.
+
+CBTop/Begin3
+\CBmp[CBTer1,8]\c[4]Refugiada B：\C[0] ¿Es realmente una buena idea?
+\CBmp[CBTer2,20]\c[4]Refugiada A：\C[0] Piensa en lo que te hicieron.
+\CBmp[CBTer2,20]\c[4]Refugiada A：\C[0] Hazlo, confía en mí.
+\CBmp[CBTer1,8]\c[4]Refugiada B：\C[0] .....
+
+CBTop/Begin4
+\CBmp[CBTer2,20]\c[4]Refugiada A：\C[0] ¿Y bien? Continúa, no temas.
+\CBmp[CBTer1,8]\c[4]Refugiada B：\C[0] Guau....
+
+CBTop/Begin5
+\CBmp[CBTer1,20]\c[4]Refugiada B：\C[0] {¡Guauuuuuu!}
+
+CBTop/Begin6
+\CBmp[CBTer1,20]\c[4]Refugiada B：\C[0] {¡Te mataré! ¡ARRR!!}
+\CBmp[CBTer2,20]\c[4]Refugiada A：\C[0] Así, libera toda esa rabia.
+
+####################################################################### CAZADOR
+
+Hunter/begin
+\CBmp[CBThunter,20]\c[4]Cazador：\C[0] ¿Viniste por venganza también?
+\CBmp[CBThunter,20]\c[4]Cazador：\C[0] ¡Toma, la captura del día! ¡Solo por #{$story_stats["HiddenOPT1"]} Puntos de Canje!
+
+Hunter/begin_Payed
+\CBmp[CBThunter,20]\c[4]Cazador：\C[0] No lo mates de inmediato, la calidad de la carne empeora si no lo dejas desangrarse primero.
+
+Hunter/NeedPay0
+\CBmp[CBThunter,20]\c[4]Cazador：\C[0] ¡Oye! ¡No toques eso! ¡Hay que pagar!
+
+Hunter/NeedPay1
+\CBct[6]\m[flirty]\c[6]Lona：\C[0] Está bien...
+
+HunterOpt/About
+¿Quiénes son ustedes?
+
+Hunter/Pay
+¡Patearle los huevos!
+
+Hunter/PayPass
+\CBmp[CBThunter,4]\c[4]Cazador：\C[0] ¡Dales una lección!
+
+Hunter/PayNotEnough
+\CBmp[CBThunter,5]\c[4]Cazador：\C[0] ¿Bromeas? Dije ¡#{$story_stats["HiddenOPT1"]} Puntos de Canje!
+
+Hunter/WTF
+\CBmp[CBThunter,5]\prf\c[4]Cazador：\C[0] ¡Estúpida zorra! ¡¿Qué has hecho?!
+\CBct[6]\m[terror]\Rshake\c[6]Lona：\C[0] ¡EHHH!!
+
+Hunter/AboutDialog
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\C[0] Oh.... ¿Qué pasa con estos \c[4]Orcoides\C[0]?
+\CBmp[CBThunter,20]\prf\c[4]Cazador：\C[0] ¿\c[6]Orcoides\C[0]? ¿Quiénes? ¿Te refieres a estos \c[6]Goblins\C[0]? Los atrapé en el bosque, andaban merodeando por aquí.
+\CBct[20]\m[confused]\PLF\c[6]Lona：\C[0] Em... Pregunto para qué están aquí.
+\CBmp[CBThunter,20]\prf\c[4]Cazador：\C[0] Con ellos curamos a mujeres violadas por \c[6]Goblins\C[0], por supuesto.
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\C[0] ¿Curan?
+\CBmp[CBThunter,20]\prf\c[4]Cazador：\C[0] Ajá. Todas esas mujeres que sufrieron después de que se las follaran.
+\CBmp[CBThunter,20]\prf\c[4]Cazador：\C[0] Ellas me pagan, y yo les dejo patearles bien fuerte los huevos.
+\CBmp[CBThunter,20]\prf\c[4]Cazador：\C[0] O incluso quitarles a los \c[6]Goblins\C[0] lo que les quitaron a ellas.
+\CBmp[CBThunter,20]\prf\c[4]Cazador：\C[0] Y, uhh... Los \c[6]Goblins\C[0] son extremadamente sabrosos.
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\C[0] ¡¿Qué?!
+\CBmp[CBThunter,20]\prf\c[4]Cazador：\C[0] ¿Por qué no pruebas tú también? Es muy divertido cuando los pieles verdes suplican misericordia de manera graciosa.
+
+####################################################################### DIÁLOGOS COMUNES
+
+DedGob/Qmsg0
+Voy a desmayarme ahora mismo...
+
+DedGob/Qmsg1
+Qué dolor...
+
+DedGob/Qmsg2
+Una sensación muy dolorosa...
+
+CapGob/Qmsg0
+Una mirada bastante aterradora...
+
+CapGob/Qmsg1
+Indefenso y desdichado
+
+CapGob/FaceIT
+Hay que superarlo
+
+GobSemen/begin1
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]Lona：\C[0] {¡Aaay, puaj!}
+
+GobSemen/begin2_0
+\CBct[6]\m[hurt]\Rshake\c[6]Lona：\C[0] ¡Asqueroso!
+
+GobSemen/begin2_1
+\CBct[6]\m[wtf]\Rshake\c[6]Lona：\C[0] ¡Directo a la cara!
+
+GobExit/Alive0
+\CBct[8]\m[flirty]\c[6]Lona：\C[0] Está bien, te perdono.
+
+GobExit/Alive1
+\CBct[8]\m[sad]\c[6]Lona：\C[0] Esto está mal, son tan desdichados...
+
+GoblinCBT/begin0
+Su rostro expresa miedo...
+
+GoblinCBT/begin1
+Parece desesperanzado...
+
+GoblinCBT/Kick
+Patearlo
+
+GoblinCBT/Release
+Salvarlo
+
+GoblinRelease/Begin1
+\CBct[20]\m[triumph]\c[6]Lona：\C[0] ¡No temas! ¡Te ayudaré!
+
+GoblinRelease/Begin2
+\CBct[20]\m[pleased]\c[6]Lona：\C[0] ¡Bien, escapa!
+\CBct[20]\m[confused]\c[6]Lona：\C[0] ...... ¿Qué pasa?
+
+GoblinRelease/Begin3
+\CBct[6]\m[fear]\c[6]Lona：\C[0] Oh...
+
+GoblinRelease/UniqueGrayRat
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]Greyrat：\C[0] ......
+
+GoblinRelease/CompOrkindSlayer
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]Asesino de Orcoides：\C[0] Así no se hace.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0] ¿No hay \c[6]Orcoides\C[0] buenos?
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]Asesino de Orcoides：\C[0] El único \c[6]Orcoide\C[0] bueno es el que está muerto.
+
+GoblinRelease/failed
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0] Oh... Bueno...
+
+commoner0/refugeeF0
+\CBid[-1,20]\c[4]Refugiada：\C[0] Estaba equivocada. Los \C[6]Santos\C[0] existen, y no debería haber dudado de ellos.
+
+commoner0/refugeeF1
+\CBid[-1,20]\c[4]Refugiada：\C[0] Me avergüenzo de lo que dije antes, porque Él es el único por quien sigo viva.
+
+commoner0/refugeeF2
+\CBid[-1,20]\c[4]Refugiada：\C[0] Si aún dudas de que los \C[6]Santos\C[0] existen, ve al \C[6]Monasterio\C[0] y compruébalo tú misma.
+\CBid[-1,20]\c[4]Refugiada：\C[0] ¡Los bondadosos \C[6]Creyentes\C[0] te guiarán hacia la verdad!
+
+commoner1/refugeeF0
+\CBid[-1,20]\c[4]Refugiada：\C[0] Estos seguidores a veces comparten comida, pero mayormente solo se preocupan por sus propios estómagos.
+
+commoner1/refugeeF1
+\CBid[-1,20]\c[4]Refugiada：\C[0] Siempre hay monstruos y bandidos cerca, es imposible luchar contra ellos. Solo en el monasterio estarás a salvo.
+
+commoner1/refugeeF2
+\CBid[-1,20]\c[4]Refugiada：\C[0] Nadie en este mundo cree en los \C[6]Santos\C[0], por eso los \C[6]Santos\C[0] nos enviaron este castigo.
+\CBid[-1,20]\c[4]Refugiada：\C[0] ¿Merecemos todo esto? Pero yo creo, creo en los \C[6]Santos\C[0]. ¿Por qué entonces me pasa esto a mí también?
+
+commoner2/Priest0
+\CBid[-1,20]\c[4]Creyente：\C[0] ¡Ven con nosotros, criatura descarriada! ¡Los \C[6]Santos\C[0] te perdonarán!
+
+commoner2/Priest1
+\CBid[-1,20]\c[4]Creyente：\C[0] ¡Todo esto ocurre porque traicionaste al \C[6]Santo\C[0]! ¡Inclina tu cabeza y arrepiéntete de tus pecados!
+
+commoner2/Priest2
+\CBid[-1,20]\c[4]Creyente：\C[0] ¡Entrega tu cuerpo! ¡Entrega tu alma!
+
+Saint/board
+\board[El Santo Innombrado]
+El Santo Innombrado dijo: Cuando encuentres el mal, invocarás mi nombre. Recuerda, el mal no puede soportar mi nombre.
+Evangelio de los Santos 896:4

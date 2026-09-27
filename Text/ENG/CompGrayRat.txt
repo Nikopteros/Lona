@@ -1,0 +1,165 @@
+GrayRat/CompData
+\board[Gray Rat]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Melee, Defense, Tank, Taunt
+\C[2]Alignment：\C[0]Sybaris (Neutral)
+\C[2]Hostile to：\C[0]Evil Creatures, Criminals
+\C[2]Requires：\C[0]Weak must be less than 100
+\C[2]Duration：\C[0]5 Days
+\C[2]Unique：\C[0]Does not respawn after death.
+\C[4]Note：\C[0]Cecily and Gray Rat are on the same team.
+
+
+################################################################### QMSG ################################################################################# 
+
+GrayRat/CommandWait0
+Understood...
+
+GrayRat/CommandWait1
+As you wish...
+
+GrayRat/CommandFollow0
+Let's proceed...
+
+GrayRat/CommandFollow1
+At your service...
+
+GrayRat/OvermapPop0
+........
+
+GrayRat/Comp_start
+\SETpl[GrayRatNormalAr]\c[4]Gray Rat：\c[0]    .........
+
+GrayRat/Comp_disband
+\SETpl[GrayRatConfused]\c[4]Gray Rat：\c[0]    Farewell then...
+
+GrayRat/Comp_disbandAr
+\SETpl[GrayRatConfusedAr]\c[4]Gray Rat：\c[0]    Farewell then...
+
+################################# Cecily.Eaglemore
+GrayRatAr/CE_Death
+\SETpl[GrayRatShockedAr]\Lshake\{LADY CECILY...!!!
+\SETpl[GrayRatShockedAr]\Lshake\{I'LL KILL YOU ALL!!!!!!
+
+GrayRat/CE_Death
+\SETpl[GrayRatShocked]\Lshake\{LADY CECILY...!!!
+\SETpl[GrayRatShocked]\Lshake\{I'LL KILL YOU ALL!!!!!!
+
+###############################################QUEST
+
+GrayRat/UnknowBegin
+\CBid[-1,8]\SETpl[GrayRatNormal]\C[4]Unknown：\C[0]    ......
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    ...So big!
+\CBid[-1,2]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    ...May I help you?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    S-Sorry.
+
+GrayRat/KnownBegin_opt
+\CBid[-1,8]\m[confused]\SETpl[GrayRatConfused]\C[4]Unknown：\C[0]    ...... \optB[......,Why did you find me?]
+
+GrayRat/KnownBegin_WhyMe
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Gray Rat：\C[0]    .......Hmmm.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Gray Rat：\C[0]    I've seen you before...
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What? When?!
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Gray Rat：\C[0]    On the way back to \c[6]Noer\c[0], I stayed with Lady Cecily for a while at the northern post.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Gray Rat：\C[0]    You were also there back then.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Huh?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Gray Rat：\C[0]    You gave food to a starving child.
+\CBid[-1,8]\SETpl[GrayRatNormal]\m[shy]\PLF\prf\C[4]Gray Rat：\C[0]    You're trying to take care of yourself and survive, but you still parted with the food in your hands.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Gray Rat：\C[0]    We have many enemies... But only few people we can trust.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Gray Rat：\C[0]    You are no soldier, but I can trust you...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ahh...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Gray Rat：\C[0]    ......
+\CBct[3]\m[triumph]\plf\Rshake\c[6]Lona：\c[0]    Thank you!
+
+GrayRat/KnownBegin_Break
+\SETpl[GrayRatConfused]\C[4]Gray Rat：\C[0]    ......
+\SETpl[GrayRatNormal]\C[4]Gray Rat：\C[0]    Anything you wish to discuss about shall be spoken with m'lady...
+
+GrayRat/SaveCecilyQuest_begin1
+\CBid[-1,2]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    ...Excuse me, madame?
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Ehhh?!
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Unknown：\C[0]    Are you the one called... \c[6]Lona\c[0]?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Y-Yes... Why do you ask?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    I've heard about the missing caravan, you've done well.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh! Thank you.
+\CBid[-1,2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    So... Is there something you need from me?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    Am I alarming you? Don't be afraid.
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\ph\C[4]Unknown：\C[0]    Come, take a look at this.
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Lona：\c[0]    \{W... Wha-?!
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]Unknown：\C[0]    This is just a deposit...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    Were you born in \c[6]Sybaris\c[0]?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    Many in Noer have been treating refugees as commodities and objects after the disaster...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    We have been opposing human traffickers in Noer trying to exploit the refugees.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    ...My companion has been abducted by one such trafficking group.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    They've sent me a letter with a meeting point, obviously a trap set up for me.
+
+GrayRat/SaveCecilyQuest_begin2
+\cgoff\board[To the filthee half bread giant]
+Weve got youre bitch rite now!
+If you want her too live com too the West 13th Wherehouse at nite.
+You beter com ahlone!
+OR THE WHORE DIES!!!
+
+GrayRat/SaveCecilyQuest_begin3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    I need a scout who is familiar with investigation and espionage.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    That would be you...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    You don't agree and sympathize with these human traffickers, right?
+\CBct[6]\m[shy]\plf\PRF\c[6]Lona：\c[0]    I...
+
+GrayRat/SaveCecilyQuestInfo
+\board[Rescue the man's companion]
+Goal：Meet him at West 13th Warehouse
+Payment：5 Copper Coins, 2 Large Copper Coins
+Client：Unknown
+Deadline：None
+
+GrayRat/SaveCecilyQuestAccept
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    Okay! I'll do it!
+\CBct[5]\m[angry]\plf\Rshake\c[6]Lona：\c[0]    I don't like traffickers either!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Unknown：\C[0]    Thank you...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Gray Rat：\C[0]    You may call me \c[6]Gray Rat\c[0]...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]Gray Rat：\C[0]    The rest shall be discussed at \c[6]West 13th Warehouse\c[0]. Be ready.
+
+########################################################################### QuProgSaveCecily 23 to 24    43 to 44 # DEV
+
+GrayRat/23-43_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Ummm... Mr. Gray Ray? Where is Lady Cecily?
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Gray Rat：\c[0]    M'Lady is training in the backyard, practicing her swordsmanship.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    There is something m'lady wishes to discuss with you about.
+\CBct[20]\m[normal]\plf\PRF\c[6]Lona：\c[0]    Oh?
+
+44/0_begin0
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\c[4]Gray Rat：\c[0]    Miss Lona...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Mr. Gray Rat? Is something wrong?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    What are your thoughts about this island...?
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Ah? Ummm\..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    ...This was my home, but everyone I've known and loved are gone.
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    My father, my friends... They're all dead. And I no longer have a home...
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Seeing nothing but death, destruction, and misery all over this island now... I......
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Gray Rat：\c[0]    You wish to leave this island, yes?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Yes.
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona：\c[0]    I really believe that Noer Island is doomed.
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    \..\..\..
+
+44/1
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Gray Rat：\c[0]    Listen, I wish for my mistress to leave this island as well.
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..\m[flirty]\Rshake Huh?!
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    I can't let her stay in this horrid place any longer...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    If this continues on... I know Lady Cecily will die here.
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Gray Rat：\c[0]    I was hoping you would be able to help me persuade her into leaving.
+\CBct[6]\m[shocked]\plf\PRF\c[6]Lona：\c[0]    W-... Wait a minute!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    How can I persuade her? I don't think Lady Cecily would be willing to listen to a commoner like me...
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Lady Cecily is the type of person who refuses to give up, no matter how dangerous the situation is... Right?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    What you've just said is correct...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Perhaps we should just forcibly tie her up and take her away instead?
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    \..\..\..\CBid[-1,5]\SETpl[GrayRatShocked]\Lshake \{!!!!!!
+
+44/2
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\c[0]    \{I... I was just joking! I'm sorry!
+
+44/3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    Hmmmph\..\..\..
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Gray Rat：\c[0]    M'Lady is waiting for you in the backyard, please try to talk to her.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I'll do my best...
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

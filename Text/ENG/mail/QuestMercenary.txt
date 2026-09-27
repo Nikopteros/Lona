@@ -1,0 +1,58 @@
+#MAIL特殊開頭/使用的Flag/信件編號，避免多封同標題信件混淆，數字，不用補0
+#################################################################################
+
+SewerMiceTail1/Title
+Giant Rats
+
+SewerMiceTail1/Sender
+Mercenary Guild Office
+
+SewerMiceTail1/Text
+\}Objective： Collect 8 Giant Rat tails and search for
+the missing person.
+Reward： 2 Large Copper Coins.
+\n
+The sewers have become
+infested with infected rats.
+The last mercenary they sent to deal with them
+has gone missing.
+Now the task has been handed down to me.
+I have to complete this quest and
+try to find the missing person along the way.
+
+################################# UNUSED ###########################################
+
+SewerGoblinReport1/Title
+Goblins Report
+
+SewerGoblinReport1/Sender
+Mercenary Guild Office
+
+SewerGoblinReport1/Text
+\}Objective： Report the sighting of Goblins
+to the Mercenary Guild.
+\n
+Goblins have appeared in the sewers! This isn't something I can handle myself!
+The reproduction speed of these monsters is said to be astonishing...
+I have to report this to the Mercenary Guild immediately!
+
+#################################################################################
+
+FishkindReport1/Title
+Deepones Report
+
+FishkindReport1/Sender
+Mercenary Guild Office
+
+FishkindReport1/Text
+\}Eastern Deepones\n
+\n
+A few days ago, a large group of Deepones ambushed the Northern Camp.
+They seem to have adopted a siege tactic against us,
+When have they used such \C[4]tactics\C[0]?
+\n
+It's way too suspicious,
+It's as if someone is controlling them.
+The Deepones aren't intelligent enough to be able to attack on a large scale.
+But that's what's happening now...
+Their actions seem to follow some sort of hive mind.

@@ -1,0 +1,118 @@
+thisMap/OvermapEnter
+\m[confused]Costa de los Restos \optB[Cancelar,Entrar]
+
+begin/Begin0
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    Em......
+
+begin/Begin1
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    ¿Qué clase de ceremonia es esta?
+
+commoner/Qmsg0
+¡Croac croac...! Está muerto...!
+
+commoner/Qmsg1
+Pobre... hermano...
+
+commoner/Qmsg2
+Lloramos...
+
+guard/Qmsg0
+¡Actúa...!
+
+guard/Qmsg1
+¡No hay lugar para forasteros aquí...!
+
+guard/Qmsg2
+¡Vamos...!
+
+#########################################################################
+
+QuGiver/Begin0_Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\SETpl[FrogCommon]\Lshake\c[4]Local：\C[0]    Mujer... ¡Regresa y reprodúcete...!
+
+QuGiver/Begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\c[4]Local：\C[0]    ¿Forastero...? ¿Qué quieres? \optB[Nada,¿Ceremonia?,¿Restos?<r=HiddenOPT0>,¿Temeraria?<r=HiddenOPT1>,¿Necesitas ayuda?<r=HiddenOPT2>]
+
+QuGiver/Festival0
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... ¿Qué ritual es este? ¿En honor a la Bruja Marina?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Sacrificio.....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Es... Funeral... de hermano....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Ceremonia... Regreso al mar....
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Funeral?! ¡Oh, lo siento!
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Lo mataron esos... Restos malignos....
+
+QuGiver/Fragment0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Restos? ¿Puedes contarme más sobre estos restos?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Son hijos de aquellos... Que no tienen... Ser...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Son.... Restos de la Bruja Marina....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Al nacer... Debían regresar al abrazo de la Bruja Marina...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em... No creo que te entienda del todo...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Pero... La Bruja Marina Temeraria....
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Qué?
+
+QuGiver/tmpOutControl
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Los restos que regresaron al mar... Permanecerán en el templo... Se convertirán en restos de la Bruja Marina...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Pero la falsa Bruja Marina nos ganó... Y los restos enloquecieron...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Nuestro espíritu ancestral... Regresó con los restos de la Bruja Marina...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Sigo sin entender nada...
+
+QuGiver/help0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Necesitan ayuda? ¿Puedo ayudarles en algo?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    ¿Forastera...? ¿Tú...? ¿Mujer...? Quizás puedas...?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Mi hermano y yo... Ambos alfareros...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Dentro de su... \c[4]Tienda de Cerámica Cangrejo Crujiente\C[0]... Aún hay... Restos de la falsa Bruja Marina...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Su espíritu ancestral no nos atacará... Pero con la falsa Bruja Marina, los restos actúan diferente...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Los restos de la falsa Bruja Marina nos matarán sin piedad...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Tráeme su Fórmula Secreta... La necesito... Em, para continuar su legado...
+
+QuGiver/help_board
+\board[Fórmula Secreta]
+Misión：Obtener la Fórmula Secreta\i[227]
+Recompensa：Desconocida
+Cliente：Hermano del Hombre-Pez
+Repetible：No
+Ve al hermano del Hombre-Pez en \c[4]Tienda de Cerámica Cangrejo Crujiente：\C[0] al este y consigue la fórmula secreta de alfarería de su hermano.
+
+QuGiver/help_cancel
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Em... Nada, lo siento.
+
+QuGiver/help_accept
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\C[0]    ¡No hay problema! Me encargaré de esto.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Lona：\C[0]    ¡Conseguiré la fórmula de tu hermano para ti!
+
+######################################################################### QuestDone
+
+QuGiver/done0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Em...
+
+QuGiver/done1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]Lona：\C[0]    Encontré la Fórmula Secreta. Bueno, ahora el espíritu ancestral de tu hermano puede descansar en paz, ¿no?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    ¿Forastera...? ¿Tú...? ¿Realmente la encontraste...?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Dámela, rápido.... ¡¡Dámela ahora mismo!!!
+
+QuGiver/done2
+\CBct[20]\m[flirty]\plf\Rshake\c[6]Lona：\C[0]    ¿Por qué tanta prisa?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Juju Je-je-je... Ahora que tengo esta fórmula...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Mi amo en la Alfarería Marina... Gobernará toda esta isla... Todas las vasijas...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    JujuJaJaa.... JajajajaJAJAJAA..........
+\CBct[20]\m[confused]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué...?
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    Concha mágica\..\..\.....? ¿Qué tontería es esta...?
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\C[0]    Tampoco lo entiendo, pero ¿esto no es lo que buscabas?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    La Fórmula Secreta.... ¿Falsa?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    No...pue...de...ser....
+\CBct[20]\m[confused]\plf\Rshake\c[6]Lona：\C[0]    Em... ¿Todo bien?
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]Local：\C[0]    ¡\{Lárgate...!
+
+QuGiver/done3
+\SndLib[FishkindSmSpot]\prf\c[4]Detective：\C[0]    ¡\{Espera... Un... Momento...!!
+
+QuGiver/done4
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Detective：\C[0]    ¡Ya lo sé todo!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Detective：\C[0]    ¡Tú mataste a Cangrejo Crujiente!
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]Local：\C[0]    Jaja... La Fórmula Secreta es falsa....
+\SndLib[FishkindSmSpot]\CBmp[Detective,5]\plf\c[4]Detective：\C[0]    ¡¡Tú mataste a Cangrejo Crujiente!!
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]Detective：\C[0]    Vendrás con nosotros... Vamos... Ahora mismo...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]Local：\C[0]   Jaja... Ja... Jaja...
+
+QuGiver/done_end
+\CBct[8]\m[confused]\PRF\c[6]Lona：\C[0]    Em... ¿Qué acaba de pasar?

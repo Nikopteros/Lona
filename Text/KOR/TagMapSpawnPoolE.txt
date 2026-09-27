@@ -1,0 +1,93 @@
+ThisMap/OmEnter
+\m[confused]둥지\optB[그만둔다,들어간다]
+
+###################################################################################    main
+
+Qprog3/begin1
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 시, 시체……?!!!
+
+Qprog3/begin2
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 저건 \c[4]남문 야영지\c[0]의 병사……?
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 그럼… 바로 여기라는 거네?
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 한 명은 여기서 죽었고… 나머지 두 명은 어디 있지?
+
+Qprog3/begin3
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0]？！！！
+\CBmp[AbomZombie,8]\prf\c[4]???：\c[0]  ......
+
+Qprog3/begin4
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 으… 괜찮아?
+
+Qprog3/begin5
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] 누, 누구야?!
+
+Qprog3/begin6
+\CBmp[victim,6]\Rshake\c[4]병사：\c[0] 안 돼! 오지 마!
+
+Qprog3/begin7
+\CBmp[victim,20]\Rshake\c[4]병사：\c[0] 싫어! 난… 그렇게 되고 싶지 않아!
+
+Qprog3/begin8
+\CBmp[victim,20]\Rshake\c[4]병사：\c[0] \{으아아아악!!!\}
+\CBmp[victim,20]\Rshake\c[4]병사：\c[0] 내… 내 다리가!! 녹아내려!! 안 돼에에에!!!
+
+Qprog3/begin9
+\CBmp[victim,20]\Rshake\c[4]병사：\c[0] 으… 으윽… 내 손… 돌려줘어어….
+
+Qprog3/begin10
+\CBmp[victim,20]\Rshake\c[4]병사：\c[0] 끄…르륵… 퍼억… 크르르….
+
+Qprog3/begin11
+\CBct[20]\m[fear]\Rshake\c[6]로나：\c[0] 말도 안 돼… 이 고깃덩이들이 설마…
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] 우리의 살이란 말이야?!
+
+Qprog3/begin12
+\CBct[8]\m[serious]\PRF\c[6]로나：\c[0] 야! 우린 여기서 당장 벗어나야 해.
+
+Qprog3/begin12_1
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어… 저기, 선생님? 괜찮으세요? 정신 좀 차리시죠~?
+
+Qprog3/begin13
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] \{아?!\}
+
+Qprog3/begin14
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] \{으아아악!!!\}
+
+Qprog3/begin15
+\CBct[20]\m[fear]\Rshake\c[6]로나：\c[0] 큰일이야! 놈들이 나를 발견했어!
+\narr들으렴, 아이야.
+\narr나는 네 도움이 필요하다.
+\narrOFF\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐라고? 누구…? 도움이라고?!
+\narr여기 머물러라. 정의의 심판이 내려올 때까지.
+\narrOFF\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 여기 머물라고? 웃기지 마!
+
+Qprog3/begin16
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] 뭐… 뭐라고?!??!
+\CBct[5]\m[bereft]\Rshake\c[6]로나：\c[0] 네가 누구든 간에… 이런 장난 치지 마!
+\narr나는 네 영혼이 이 사악함을 규정하길 원한다.
+\narr아이야, 넌 해낼 수 있다!
+\narrOFF\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 안 돼! 날 내보내 줘!
+\narr버텨라! 정의와 새벽이 머지않았다!
+
+Qprog3/begin17
+\CBct[8]\m[shocked]\PRF\c[6]로나：\c[0] 이게 뭐야, 도대체?!
+\CBmp[Cam2,19]\m[serious]\PRF\c[6]로나：\c[0] 뼈들이 사라졌어… 당장 벗어나야겠어. 여긴 너무 위험해.
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 이걸 도대체 어떻게 설명해야 하지? 누가 날 믿어주긴 할까~?
+
+Qprog3/begin18
+\board[서쪽 수색]
+목표 : 남문 야영지로 돌아가기
+보상 : 없음
+의뢰주 : 남문 야영지 백인대장
+수행가능횟수：1회
+사람들이 모두 죽었다.
+남문 야영지로 돌아가 백인대장에게 보고하라.
+
+VC/Qmsg0
+모… 리카… 죽여…
+
+VC/Qmsg1
+승리… 구카미…
+
+VC/Qmsg2
+가짜 군대… 파괴하라…

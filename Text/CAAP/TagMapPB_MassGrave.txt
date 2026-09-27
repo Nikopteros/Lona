@@ -1,0 +1,22 @@
+thisMap/OvermapEnter
+\m[confused]Fosa Común \optB[Cancelar,Entrar]
+
+#Wis lo suficientemente alto para evitar combate
+#De lo contrario, tendrás que luchar durante 30 segundos.
+
+Keeper/QuProgPB_MassGrave1
+\m[confused]\c[6]Lona：\C[0] Ughh...
+\m[flirty]\c[6]Lona：\C[0] Vine por un encargo del gremio. Me dijeron que hay alguien maligno aquí al que hay que eliminar.
+\SETpl[AnonMale2]\Lshake\prf\c[4]Sepulturero：\C[0] ¿Alguien como tú puede encargarse de esto? ¿Dónde están los Santos?
+\SETpl[AnonMale2]\Lshake\prf\c[4]Sepulturero：\C[0] No importa... Claramente, es un pagano que adora a dioses falsos.
+\SETpl[AnonMale2]\Lshake\prf\c[4]Sepulturero：\C[0] ¡Merodea por aquí \c[4]cada noche\C[0]!
+\SETpl[AnonMale2]\Lshake\prf\c[4]Sepulturero：\C[0] Seguro usa a los muertos para sus rituales asquerosos.
+
+Keeper/rand0
+\SETpl[AnonMale2]\Lshake\prf\c[4]Sepulturero：\C[0] ¡No te duermas, o morirás!
+
+Keeper/rand1
+\SETpl[AnonMale2]\Lshake\prf\c[4]Sepulturero：\C[0] ¡Les encanta devorar cerebros!
+
+Keeper/rand2
+\SETpl[AnonMale2]\Lshake\prf\c[4]Sepulturero：\C[0] ¿Eres creyente? Si es así, ¡no temas!

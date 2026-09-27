@@ -1,0 +1,572 @@
+###################################################################################    TOWN
+#South Gate Campsite
+
+ThisMap/OmEnter
+\m[confused]남문 야영지\optB[그만둔다,들어간다]
+
+ThisMap/OmEnterOP
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 누구냐!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 에?! 
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 살아있는 자냐?!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 문 열어라! 어서 들여보내라!
+
+Exit/Qmsg
+문 닫았어 !
+
+healerF/Qmsg0
+성도시여!
+
+healerF/Qmsg1
+우릴 구원하소서!
+
+healerM/Qmsg0
+이건 성도의 징벌이다!
+
+healerM/Qmsg1
+너희 꼴 좀 봐라! 얼마나 추한가!
+
+healerM/Qmsg2
+그게 바로 거짓 신을 믿은 자들의 말로다!
+
+healerMInn/Qmsg0
+그래! 그 더러운 것들을 전부 쏟아내라!
+
+healerMInn/Qmsg1
+이것만으로는 부족하다!
+
+healerMInn/Qmsg2
+여인의 몸이 이 더러움을 받아들여야 한다!
+
+healerFInn/Qmsg0
+네 더러움을 내 안에 쏟아부으라!
+
+healerFInn/Qmsg1
+성도시여!
+
+healerFInn/Qmsg2
+성도회가 너희를 구원하리라!
+
+pregGirls/Qmsg
+......
+
+crazy/Qmsg0
+하하하, 전부 죽었다!
+
+crazy/Qmsg1
+히히, 다 죽었네♥
+
+crazy/Qmsg2
+하하하하하하!!!
+
+InnWork/Purge
+더러움을 정화하라!
+
+Priest/begin
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]신부：\c[0] 그의 몸은 이미 사악한 어둠과 더러움으로 가득하다! 그는 완전히 타락했다!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]신부：\c[0] 그를 치유할 유일한 방법은 그 더러움을 여인의 몸으로 흘려내는 것이다!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]신부：\c[0] 너! 불신자!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?! 나?!
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\c[4]신부：\c[0] 어서 그와 합하라!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 하아?! 미쳤어?!
+
+GuardDoomed/beginRNG0
+\CBid[-1,20]\prf\c[4]위병：\c[0] 더는 못 버티겠다! 이 벌레들 때문에 미쳐버리겠어!
+
+GuardDoomed/beginRNG1
+\CBid[-1,20]\prf\c[4]위병：\c[0] 우린 버려졌어… 세상은 끝장난 거지?
+
+GuardDoomed/beginRNG2
+\CBid[-1,20]\prf\c[4]위병：\c[0] 놈들이 매일 밤마다 내 꿈에 나타나…
+
+MaleDoomed/CommonHuman0
+\CBid[-1,20]\prf\c[4]난민：\c[0] 헤이, 세상은 이미 끝났어.
+
+MaleDoomed/CommonHuman1
+\CBid[-1,20]\prf\c[4]난민：\c[0] 어차피 다 죽을 텐데… 죽기 전에 한 번이라도 즐겨보자고!
+
+MaleDoomed/CommonHuman2
+\CBid[-1,20]\prf\c[4]난민：\c[0] 이제 끝이야… 성도께서도 우리를 버리셨다!
+
+MaleDoomed/CommonHuman3
+\CBid[-1,20]\prf\c[4]난민：\c[0] 내 몸 속에 벌레가 우글거려! 이 더러움을 여자의 몸에 쏟아내야만… 내가 산다!
+
+MainGuard/Begin
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 알고 있나? 모두 다 미쳐버렸어!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 서쪽 성벽은 놈들, 그 놈들 짐승 같은 종족들이 장악했지. 나머지는 전부 흉물 놈들 차지야!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 놈들은 서로 으르렁대며 죽이는 사이지만… 그게 우리한텐 아무런 도움이 안 돼!
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 모두 미쳤다고! 우린 그저 버려진 졸개일 뿐이야!
+
+boardR/Begin1
+\board[실종자 명단]
+에이다 : 실종
+벨라 : 실종
+한나 : 사망
+무드 : 실종
+맥그 : 실종
+프루던스 : 실종
+비키 : 사망
+
+boardR/Begin2
+\board[위안부 모집]
+우린 더 이상 넝마 같은 것들은 싫다!
+새로운 위안부를 원한다!
+병사의 목숨은 귀하다!
+병사의 목숨은 귀하다!
+
+boardR/Begin3
+\board[경고!]
+전부 얌전히 대기해라, 후송될 때까지.
+법이니 정의니 따질 시간은 없다.
+소란 피우는 자는—죽음뿐이다!
+
+Nap/GameOver0
+\narr위병에게 있어 소란을 피우는 자, 벌레 취급을 받는 자에게는 단 하나의 처리법만 있었다...
+\narr그것은 곧—죽음이었다.
+
+Tower/Go1
+\narr로나는 힘겹게 망루를 기어올랐다....
+\narrOFF\m[tired]\PRF\c[6]로나：\c[0] 우리 집... 지금은 어떤 모습일까...
+\prf\narr\..\..\..
+\narrOFF\bg[bg_Sybaris]\m[sad]\PRF\c[6]로나：\c[0] 저기가... 시내 중심이겠지?
+\m[tired]\PRF\c[6]로나：\c[0] 그렇다면 우리 집은 아마....
+\m[sad]\prf\c[6]로나：\c[0] \..\..\..\PRF 무너져 버렸구나...
+\m[tired]\PRF\c[6]로나：\c[0] 하아...
+
+###################################################################################    INN
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 여기는 \c[6]희망 여관\c[0]이다... 하지만 이곳엔 희망 따윈 없다.
+
+##########trans note. keep name = Overlook Keep
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 여기는....?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 원래는 \c[6]수호자의 요새\c[0]였다.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 하지만 재앙이 터지고 며칠도 안 돼 함락됐지.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 검은 안개가 걷힌 뒤, \c[6]경비대\c[0] 잔당이 폐허 속에 임시 진지를 세웠다.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 그 뒤로 \c[6]노엘 마을\c[0]의 대인배가 돈을 대서 이곳에 \c[6]희망 여관\c[0]을 세운 거다.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 우리는 난민을 받아 모아 후송했지만... 이제 끝이 보인다.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 시간이 지날수록 살아남은 자는 줄고, 새로 들어오는 사람들은 몸도 정신도 더 망가져 있다.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 곧, 살아 있는 자는 아무도 찾을 수 없겠지.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]위병：\c[0] 후후... 잘 봐라. 우리도 저 난민들이랑 다를 바 없어.
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 저기... 제가 할 수 있는 일이 있을까요?
+
+InnKeeper/About_work1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 일... 말인가?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 성도회의 신부랑 수녀들이 난민들을 치료하는 데 젊은 여자가 필요하다고 하더군.
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 보아하니... 너라면 괜찮을지도 모르겠네.
+\CBmp[Nurse,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 저기 방에 있는 수녀한테 가서 얘기해봐라.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어...? 
+
+InnKeeper/About_work_failed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]위병：\c[0] 지금은 네가 할 만한 일은 없다.
+
+healerFInn/Work0_did
+\CBct[6]\m[shy]\PRF\c[6]로나：\c[0] 저... 더럽혀진 걸 흡수하러 왔어요.
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 또 너구나? …보아하니, 너도 믿음의 고행길에 들어선 모양이구나.
+
+healerFInn/Work0_new
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 카운터에 있던 위병이… 제가 필요하다고 하던데요?
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 또 돈에 눈이 먼 불신자냐?
+\CBid[-1,20]\prf\c[4]수녀：\c[0] …좋다. 성도께서는 너를 용서하시리라.
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 젊은 여인의 몸으로 이 자들의 더러움을 흡수해야 한다. 나는 더 이상 젊지 않으니…
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 너다, 불신자여!
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 네, 네가요?! 제가요?!
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 이들을 치유할 유일한 길은 네 몸으로 그들의 오염을 빨아내는 것이다!
+
+healerFInn/Work_BodyCheck0
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 옷을 벗어라. 네 몸을 확인해야 한다.
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 에—?! 뭐라고요?!
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 당장 벗어라, 불신자여!
+
+healerFInn/Work_BodyCheck1
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] ……알겠어요….
+
+healerFInn/Work_BodyCheck2
+\CBct[6]\m[shy]\PRF\c[6]로나：\c[0] 으… 창피해….
+
+healerFInn/Work_VagLick0
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 네 속은 참으로 더럽구나. 천박한 년답게 창녀의 구렁텅이에나 사는구나.
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 하지만 괜찮다. 성도께서 너를 용서하시리니… 먼저 그 더러움을 전부 씻어내라.
+
+healerFInn/Work_VagLick1
+\CBid[-1,20]\prf\c[4]수녀：\c[0] 그래, 이제 네 몸은 정결하다.
+
+healerFInn/Work_accept0
+\CBct[8]\m[shy]\PRF\c[6]로나：\c[0]  …응….
+
+healerFInn/Work_accept1
+\CBmp[Man3,1]\prf\c[4]난민：\c[0] 여자다! 젊은 여자다!
+\CBmp[Man4,4]\prf\c[4]난민：\c[0] 어서! 나랑 하게 해 줘! 이게 나를 고칠 유일한 방법이야!
+\CBmp[Man3,1]\prf\c[4]난민：\c[0] 내 안의 더러움을 반드시 그녀 몸에 쏟아내야 해!
+\CBct[1]\m[fear]\PLF\c[6]로나：\c[0] 으…싫어…
+
+healerFInn/Work1
+\board[더러움 치료]
+보지와 항문을 통해 가능한 한 상대의 더러움을 받아들인다.  
+수녀를 통해 현재 더러움 총량을 확인하고, 정산 및 보고가 가능하다.
+
+healerFInn/WorkDOing_begin0_0
+\CBid[-1,6]\m[fear]\prf\c[4]난민：\c[0] 성도여! 제발 구해줘요! 여자의 몸이 필요해요, 그래야 제 몸을 고칠 수 있어요!
+
+healerFInn/WorkDOing_begin0_1
+\CBid[-1,6]\m[fear]\prf\c[4]난민：\c[0] 그 벌레들이 우리가 잘 때 제 자지 속으로 파고들었어요! 지금도 안에서 꿈틀거리는 게 느껴져요!
+
+healerFInn/WorkDOing_begin0_2
+\CBid[-1,6]\m[fear]\prf\c[4]난민：\c[0] 제발 꺼내줘요! 배 속에서 기어다니는 게 느껴진단 말이에요!
+
+healerFInn/WorkDOing_begin0Guard_0
+\CBid[-1,6]\m[fear]\prf\c[4]위병：\c[0] 정말 여자를… 범하면 고쳐지는 거야?
+
+healerFInn/WorkDOing_begin0Guard_1
+\CBid[-1,6]\m[fear]\prf\c[4]위병：\c[0] 성도께서 우릴 버리신 게 아니야!
+
+healerFInn/WorkDOing_begin0Guard_2
+\CBid[-1,6]\m[fear]\prf\c[4]위병：\c[0] 어서, 그 벌레들을 빨아내 줘!
+
+healerFInn/WorkDOing_begin1
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 젊은 여인의 몸이 왔다! 성도께서 너희를 치유하실 것이다! 성도를 믿어라!
+
+healerFInn/WorkDOing_begin2
+\CBct[1]\Rshake\c[6]로나：\c[0] 에…에엣?!
+
+healerFInn/WorkDOing_begin3
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 어서! 이 젊은 보지에 네 몸속의 더러움을 모두 빨아낼 것이다!
+
+healerFInn/WorkDOing_begin4
+\CBid[-1,20]\m[fear]\prf\c[4]난민：\c[0] 성도님 감사합니다!
+
+healerFInn/WorkDOing_begin4Guard
+\CBid[-1,20]\m[fear]\prf\c[4]위병：\c[0] 성도님 감사합니다!
+
+healerFInn/WorkDOing_getSemen0
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] 흐윽...
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 자, 네 몸에 얼마나 더러움이 스며들었는지 내가 확인해 보마.
+
+healerFInn/WorkDOing_TotalScore0
+\narr로나의 몸이 #{$story_stats["HiddenOPT1"]}점의 죄어린 더러움을 흡수했다.
+
+healerFInn/WorkDOing_TotalScore1
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 아이야, 계속해야 한다.
+
+healerFInn/WorkDOing_HerDialog
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 네 몸은 이미 \c[6]#{$story_stats["HiddenOPT1"]}\c[0]점의 죄된 더러움을 흡수했다. 
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 이제 그만둘 것이냐? 여기서 끝낼 것이냐?\optB[그만둔다,끝낸다]
+
+healerFInn/WorkDOing_HerDialog_end
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 그렇다면 그 더러움을 안고 앞으로 나아가거라. 
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 여인의 몸은 곧 죄의 그릇이다. 사람이 거짓에 빠지는 것도 결국은 여인의 죄에서 비롯된다.
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 네가 비록 금전에 유혹된 불신자일지라도, 성도께서는 너를 굽어살피실 것이다.
+
+healerFInn/WorkDOing_HerDialog_end_noReward
+\CBmp[Nurse,20]\prf\c[4]수녀：\c[0] 성도시여, 이 무도한 불신자를 용서하소서.
+
+####################################################################################### QUESTS
+############################################ OP QUEST
+
+OpQuest/Begin0
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어… 여긴… 기억나는 곳인데.
+
+OpQuest/Begin1
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 무슨 요새였더라?
+
+OpQuest/Begin2
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] 이렇게까지 폐허가 됐구나…  
+\CBct[6]\m[tired]\PRF\c[6]로나：\c[0] 우리 집은… 어떻게 변했을까…
+
+OpQuest/Begin_INC0
+\prf\c[6]위병：\c[0] \{왔다! 놈들이 왔다!\}
+
+OpQuest/Begin_INC1
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 뭐… 뭐라고? 누가 온 거야?
+
+OpQuest/Begin_INC2
+\CBmp[OPquestCount,20]\prf\c[6]위병：\c[0] \{북쪽이다! 괴물들이 들이닥쳤다!\}
+
+OpQuest/Begin_INC3
+\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 괴물?! 어디?!
+
+OpQuest/Begin_RUN0
+\BonMP[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]백인대장：\c[0] 모두 움직여! 당장 건물 안으로!
+
+OpQuest/Begin_WTF0
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 너, 아직도 여기서 뭐 하고 있나?!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 저… 죄송해요!
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 늦었다! 전투 준비해라!
+
+OpQuest/Begin_WTF1
+\BonMP[Leader,5]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] \{쏴라! 전부 베어라!\}
+
+OpQuest/Wave2
+\CBmp[OPquestCount,20]\prf\c[6]위병：\c[0] \{북쪽이다! 박쥐떼다!\}
+
+OpQuest/Wave3
+\CBmp[OPquestCount,20]\prf\c[6]위병：\c[0] \{남쪽이다! 거미다!\}
+
+OpQuest/Win0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 사방이 괴물투성이인데… 넌 어떻게 여기까지 들어온 거지?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어… 그게….
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 됐다, 신경 쓸 일은 아니군.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 약해 보이는 네가 의외로 도움이 되다니… 흥.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 이걸 받아라.
+
+OpQuest/Win1
+\CBct[3]\m[pleased]\plf\PRF\c[6]로나：\c[0] 고마워요!
+
+############################################## spawnPoolQuest
+
+Qprog2/PoolQuest_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 네가 여기까지 들어왔다면… 밖으로도 나갈 수 있겠지?
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 잘 들어라. 서쪽 숲을 정찰할 용병이 필요하다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 바깥과 연락을 시도했지만, 내보낸 전사들은 단 한 명도 돌아오지 않았다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 혹시라도 살아 있다면, 우리 사람들을 찾아내라.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 목숨이 걸린 위험한 임무다. 하지만 이 괴물들과 맞서려면 쓸 수 있는 인원은 전부 필요하다.
+
+Qprog2/PoolQuest_1
+\board[서쪽 수색]
+목표 : 서쪽 숲을 탐색하라
+보상 : 역참 해금
+의뢰인 : 남문 야영지 백인대장
+수행가능횟수 : 1회
+서쪽 숲을 정찰하여 실종된 병사들의 생사를 확인하라.
+
+Qprog2/PoolQuest_accept
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어… 파견된 사람들이요? 몇 명이나요?
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 세 명이다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\m[shocked]\Lshake\prf\c[4]백인대장：\c[0] 만약 네가 실패한다면… 놈들에게 붙잡히기 전에 스스로 끝내라.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 에… 아… 알았어요….
+
+Qprog5/PoolQuest_Done
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 살아 돌아온 건가? …너 혼자뿐이냐?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어… 뭐라 말해야 할지… 다 죽은 것 같아요.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] …그렇단 말이지?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 고깃덩어리로 으깨진 게 살아있는 거라면 모르겠지만… 거기서 둥지도 하나 발견했어요.
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 둥지…?
+\CBmp[Leader,6]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 젠장… 지금 그걸 처리할 병력이 없는데…
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아, 걱정 마세요. 그 둥지는 제가 없앴거든요.
+\CBmp[Leader,1]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 뭐?! 네가 그걸 어떻게 해낸 거지?!
+
+Qprog5/PoolQuest_Done_Lona
+\CBct[20]\m[overkill]\plf\Rshake\c[6]로나：\c[0] 글쎄요, 제가 가서 챙챙? 그다음 쾅쾅! 슝슝? 그러더니 펑─! 하고 터져버렸어요?
+
+Qprog5/PoolQuest_Done_DedHalp
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 아, 아니에요! 제가 그런 게 아니라, 그냥 붕붕붕, 꽝꽝꽝, 다다다다─ 하고... 그래서 그 둥지가 무너져버린 거예요!
+
+Qprog5/PoolQuest_Done_end
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] ......
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] ...어쨌든, 그 둥지는 파괴된 게 맞다는 거지?
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 네, 맞아요.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 정찰병을 다시 보내 확인해보겠다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 사실이라면, 이곳에 가해지는 압박도 줄어들 거다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 우린 외부와 다시 연락을 시도해보겠다. 수고했다.
+\CBct[3]\m[pleased]\plf\PRF\c[6]로나：\c[0] 에헤헤, 별말씀을요!
+
+Qprog6/WaitingAMT
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 잠시 쉬도록 해라. 우린 아직 바깥과의 연락을 시도 중이다.
+
+Qprog6/RaidOnEast_replay
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 오, 또 너였군.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 이곳은 드디어 \c[6]경비 본부\c[0]와 연락이 닿았다.
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] \c[6]남문 야영지\c[0]의 역참도 다시 운영을 시작했다.
+\CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 이제 역참을 통해 섬 안 다른 지역으로도 갈 수 있을 것이다.
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 오오...?
+
+Qprog7/RaidOnEast0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 정찰병이 동쪽에서 또 다른 둥지을 발견했다! 지금 우리에겐 싸울 수 있는 모든 인력이 필요하다!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 히익?!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 당장, 지금 바로 움직인다!
+
+Qprog7/RaidOnEast1
+\board[둥지 파괴]
+목표 : 동쪽의 둥지을 파괴하라
+보상 : 시장 해금
+의뢰인 : 남문 야영지 백인대장
+수행가능횟수 : 1회
+동쪽 둥지을 무너뜨려라. 그 역겨운 괴물들을 성도 앞에 끌어내라!
+
+Qprog7/RaidOnEast_accept0
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어, 알겠어….
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 대체 무슨 일이…
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 잘했다! 지금 당장 출발한다!
+
+Qprog7/RaidOnEast_accept1
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 으…..
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 물어볼 틈도 안 주는 거야…?
+
+Qprog9/RaidOnEast_reward
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어….
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 오! 너였군.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 드디어 포위를 뚫었다. 곧 \c[6]남문 야영지\c[0]에도 지원군이 도착할 거다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 그리고 너에 대해서는…
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 부하들이 전부 설명했다. 확실히 넌 전투에는 맞지 않는 것 같군.
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] 나…..
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 돌아가라. 행운을 빈다.
+
+Qprog10/WaitingAMT_noLisa
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] \c[6]동쪽 7번 초소\c[0]에 꽤 흥미로운 신형 무기가 있다는 소문을 들었다. 어떻게든 손에 넣어야 한다.
+
+Qprog8/WaitingAMT_wait
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 지금 네가 할 수 있는 일이 있나? 여관에 가서 용병 길드 직원에게 물어보는 게 좋겠다.
+
+############################################## Get Lisa
+
+Qprog11/LisaLine_0
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 야! 너! 그래, 바로 너다!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어…?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 내가 사람을 보내야 한다. \c[6]노엘 마을\c[0]에서 두 사람을 찾아와야 해.
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 두 사람을…?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 화약 장수 \c[6]리사\c[0]와 포수 \c[6]로나\c[0]다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 둘 다 노엘 마을 근처에 있다는 얘기를 들었다. 그들을 찾기만 하면 이 답답한 상황을 깰 수 있어!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 뭐… \c[4]로나\c[0]라고…??
+
+Qprog11/LisaLine_1
+\board[리사와 로나를 찾아라]
+목표：노엘 마을
+보상：없음
+의뢰인：남문 야영지 백인대장
+수행가능횟수 : 1회
+화약 장수 \c[6]리사\c[0]와 그녀의 조수 \c[6]로나\c[0]를 찾아라.
+
+Qprog11/LisaLine_accept0
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 저기... 그 로나가 바로 접니다만?
+\CBmp[Leader,2]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 뭐? 네가? 네가 누구라고?
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 로나라니까요.
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 어.........
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어......
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 어...
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그러니까... 절 찾으신 이유가 뭔가요?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 크흠! 내가 듣기로 \c[6]동쪽 7번 초소\c[0]에 막강한 포수가 있다고 했다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 그 자는 \c[6]리사\c[0]가 만든 대포로 수차례의 마물 공격을 막아냈다고 하지.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 그러니까 그 포수가 바로 너란 말인가?
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 맞긴 맞는데요?
+
+Qprog11/LisaLine_accept1
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 이미 \c[6]동쪽 7번 초소\c[0]의 포격관과 서신을 주고받았다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 노엘 마을로 가서 \c[6]리사\c[0]를 찾아라. 그다음 \c[6]동쪽 7번 초소\c[0]로 가서, 그 신비한 대포를 가져오면 된다.
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 너도 시바리스 사람이잖나? 네 고향으로 돌아가고 싶지 않느냐?
+\CBct[8]\m[sad]\plf\PRF\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[serious]\plf\PRF\c[6]로나：\c[0] 알겠습니다. 제가 꼭 데려오겠습니다!
+
+Qprog11/LisaLine_accept2
+\board[리사를 찾아라]
+목표：노엘 마을
+보상：없음
+의뢰인：남문 야영지 백인대장
+수행가능횟수：1회
+화약 상인 \c[6]리사\c[0]를 찾아 \c[6]동쪽 7번 초소\c[0]로 향하라.
+
+Qprog11/LisaLine_No
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어\..\..\.. \m[hurt]\Rshake 아, 배 아파!
+\CBmp[Leader,8]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] ....
+
+############################################ INN QUEST
+
+QuestBoard/other_about
+\CBid[-1,20]\prf\c[4]직원：\c[0] 처음엔 여기가 용병들로 가득했지. 가족을 잃은 사람들이 전부 몰려와 용병이 됐거든.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 하지만 대부분은 돌아오지 못했어. 지금은 \c[6]경비 본부\c[0]랑 \c[6]루드신드 상회\c[0] 소속 병사들만 남아 있지.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 아, 맞다! \c[6]성도회\c[0] 그 미친놈들도 있네.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 너도 이 세상이 미쳤다고 생각하지?
+\CBid[-1,20]\prf\c[4]직원：\c[0] 지금은 외부랑 연락조차 거의 끊긴 상태야. 혹시 네가 좀 도울 수 있지 않을까?
+
+QuestBoard/other_about_Prog10
+\CBid[-1,20]\prf\c[4]직원：\c[0] 하하! 드디어 떠난다! 드디어 길드랑 다시 연락이 닿았거든.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 곧 다른 사람들이 날 대신하러 올 거야.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 난 그만둘 거다! 더는 안 해!
+
+QuestBoard/GiveUp
+\CBid[-1,20]\prf\c[4]직원：\c[0] 뭐? 포기한다고?
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]직원：\c[0] 하아....\optB[괜찮아,의뢰에 대해,임무 취소<r=HiddenOPT0>]
+
+MercenaryGuild/QuProgSybBarn5
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0]  어… 그래서 그 곡창은….
+\CBid[-1,20]\prf\c[4]직원：\c[0] 뭐라고? 아! 네 임무 말이지?
+\CBct[20]\m[serious]\plf\PRF\c[6]로나：\c[0] 거기에 생존자가 많긴 했어. 그런데 이상하게 그 사람들이 날 공격하더라고.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 그렇구나. 요즘 생존자에게 공격당했다는 보고가 자주 들어와. 수고 많았어.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 그래도 이렇게 살아 돌아왔다는 건, 너도 꽤 실력이 있다는 뜻이지.
+\CBct[20]\m[serious]\plf\PRF\c[6]로나：\c[0] 아 맞다, 거기서 다른 용병들도 봤는데?
+\CBid[-1,20]\prf\c[4]직원：\c[0] 맞아, 네 눈이 잘못된 게 아니야. 그들도 용병이야.
+\CBid[-1,20]\prf\c[4]직원：\c[0] 우리가 길드랑 다시 연락을 잇고 나서, 너 같은 용병들이 많이 들어왔거든. 하지만 대부분은 돌아오지 못했지.
+
+############################################## QBOARD
+
+QuestBoard/SybBarn
+곡창의 생존자
+
+QuestBoard/SybBarn_BOARD
+\board[곡창의 생존자]
+목표: 서남문 곡창으로 이동
+보상: 큰 동전 3
+의뢰주: 남문 야영지
+수행가능횟수 : 1회
+도시 안에서 활동하던 척후병의 보고에 따르면, 
+서남문 곡창 안에 다수의 생존자가 있을 가능성이 있다고 한다.
+그러나 그들이 여전히 ‘인간’인지는 확실치 않으며, 
+현재 우리 쪽은 인력이 부족하여 추가 병력을 파견해 조사와 접촉을 진행하기 어려운 상황이다.
+
+noquestPOP/0
+현재 의뢰가 없습니다
+
+QuestBoard/SpiderLeg
+변이 거미 다리
+
+QuestBoard/SpiderLeg_BOARD
+\board[놈들에게 누가 진짜 보스인지 알려줘라]
+목표 : 변이 거미 다리 10개 수집 \i[188]
+보상 : 큰 동전 2
+의뢰주 : 남문 야영지
+수행가능횟수：무제한
+우리의 주방장이 시도해본 결과,
+이 벌레 다리는 아주 바삭바삭하다고 한다.
+기름에 튀기는 게 제격이지!
+
+MercenaryGuild/SpiderLeg_win1
+\CBct[20]\m[fear]\PRF\c[6]로나：\c[0] 으윽…… 너희가 원하던 벌레 다리야…… 가져가.
+
+QuestBoard/BreedLingMeat
+질주자의 허벅지살 고기
+
+QuestBoard/BreedLingMeat_BOARD
+\board[질주자의 허벅지살 고기]
+목표 : 질주자의 허벅지살 고기 10개 수집 \i[190]
+보상 : 큰 동전 2
+의뢰주 : 남문 야영지
+수행가능횟수：무제한
+마물이 우리를 먹는다.
+그렇다면 우리가 마물을 먹는 건 대체 무슨 문제란 말인가?
+
+MercenaryGuild/BreedLingMeat_win1
+\CBct[20]\m[fear]\PRF\c[6]로나：\c[0] 으윽…… 너희가 원하던 허벅지살 고기야…… 가져가.
+
+QuestBoard/MonsterBone
+변이 생물의 뼈
+
+QuestBoard/MonsterBone_BOARD
+\board[마물의 대골]
+목표 : 마물의 큰 뼈 8개 수집 \i[189]
+보상 : 큰 동전 4, 작은동전 5
+의뢰주 : 남문 야영지
+수행가능횟수：무제한
+우리의 대형 솥에는 더 많은 뼈가 필요하다.
+
+MercenaryGuild/MonsterBone_win1
+\CBct[20]\m[fear]\PRF\c[6]로나：\c[0] 으윽…… 너희가 원하던 뼈……
+
+############################################## TODO
+
+QuestBoard/GotoDT
+특정 지점 이동 TODO
+
+QuestBoard/DestroyHive
+둥지의 핵심
+
+QuestBoard/DestroyHive_BOARD
+\board[그들의 둥지를 부숴라]
+목표 : 북쪽 둥지 파괴
+보상 : 큰 동전 6
+의뢰주 : 남문 야영지
+수행가능횟수 : 1회
+

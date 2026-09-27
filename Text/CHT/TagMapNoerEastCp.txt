@@ -1,0 +1,258 @@
+
+
+
+EastCP/OvermapEnter
+東7哨點。\optB[沒事,進入]
+
+#######################################################
+
+################################################### C130 mini game
+
+Cannon/ManDown0
+砲擊官 ： 友軍陣亡了！
+
+Cannon/ManDown1
+砲擊官 ： 有人倒下了！那裡需要支援！
+
+Cannon/ManDown2
+砲擊官 ： 快點幫助我們的人！
+
+Cannon/GoodKill0
+砲擊官 ： 打得真準！
+
+Cannon/GoodKill1
+砲擊官 ： 幹掉牠們！
+
+Cannon/GoodKill2
+砲擊官 ： 命中目標！
+
+Cannon/GoodKill3
+砲擊官 ： 哇噢！
+
+Cannon/GoodKill4
+砲擊官 ： 好爽！
+
+Cannon/GoodKill5
+砲擊官 ： 打的好!
+
+Cannon/GoodKill6
+砲擊官 ： 漂亮..
+
+Cannon/win
+\c[4]砲擊官：\c[0]    看來攻勢到此為止了，妳幹得不錯。
+
+Cannon/lose
+\c[4]砲擊官：\c[0]    該死！士兵都死光了！
+\c[4]砲擊官：\c[0]    撤退！各自逃命吧！
+
+############################################## C130 quest begin
+
+yeller/start
+\CBmp[YellingGuard,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    喂！ 妳！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什？！ 我？
+\CBmp[YellingGuard,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    對！就是妳！ 妳是警備總部派過來的對嗎？
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    不...
+\CBmp[YellingGuard,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]士兵：\c[0]    別跟我說廢話！ 快到屋頂上找砲擊官報到！
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    ......都不聽人說話。
+
+officer/start_opt
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    貧民在這邊蹭什麼！還不快滾！
+\CBct[20]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    不！下面那位叫我上來？
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    什麼？！ 所以妳是來...
+
+officer/start_opt_known
+\CBid[-1,2]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    什麼事？
+
+officer/opt_nope
+我也不知道
+
+officer/opt_whore
+慰安
+
+officer/opt_work
+打雜
+
+officer/opt_replayCannon
+打炮
+
+officer/opt_about
+這些怪物
+
+officer/opt_aboutCannon
+領主級405mm火炮
+
+officer/opt_repair
+維修趴轟趴
+
+officer/opt_moveCannon
+南門營地
+
+officer/opt_monster
+\CamCT\m[confused]\plf\PRF\c[6]洛娜：\c[0]    這些怪物到底是？
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    這些是\c[6]深潛者\c[0]，妳沒聽說過？
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    最早的殖民者除了要面對海盜外，最怕的就是這些魔物了。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    深潛者的體能很強壯，人類不帶武器是沒辦法面對牠們的。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    牠們會在深夜時淺入居住區，並把女人搶走。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    搶走之後呢？ 嘿，跟那些類獸人也沒有兩樣。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    像妳這樣的小鬼可要小心了。
+\CamCT\m[fear]\plf\PRF\c[6]洛娜：\c[0]    我.....？
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    總之不要落單被牠們抓走就是了吧？
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    是的，這幾年都沒看到過牠們，我還以為牠們滅絕了。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    現在整個東邊的沼澤地帶都是牠們的地盤。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    深潛者可能是隨著黑霧擴散，不然就是那些漁人搞的鬼。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    這裡不知道還能守多久，妳好自為之吧。
+\CamCT\m[pleased]\plf\PRF\c[6]洛娜：\c[0]    謝謝。
+
+officer/opt_FireControlSys
+\CamCT\m[confused]\plf\PRF\c[6]洛娜：\c[0]    這個叫做領主級405mm火炮？
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    能量產嗎？這麼強大的話搞不好可以打回席芭莉絲耶？
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    來不急的，它很難操控，訓練一批人手得要花上好幾個月,就算量產了警備總部也沒彈藥供應。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    這玩意的製作人看起來也只是玩票性，僅此一台。
+\CamMP[officer]\SETpl[Lawbringer]\PLF\prf\c[4]砲擊官：\c[0]    最重要的是.... 我們不識字。
+\CamCT\m[confused]\plf\PRF\c[6]洛娜：\c[0]    這樣啊。
+
+officer/opt_cannon
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    原來如此！快去操作那門炮！
+\CamMP[Cannon]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    我怎麼可能會這種東西！
+\CamMP[Cannon]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    別說笑了！妳識字吧？用眼睛看！
+\CamMP[officer]\BonMP[officer,6]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    牠們來了！ 沒時間囉嗦了！
+\CamCT\m[fear]\plf\Rshake\c[6]洛娜：\c[0]    誰？！什麼東西來了？！
+\CamMP[officer]\BonMP[officer,15]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    還不快去！
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    是！
+
+officer/opt_cannon_replay
+\CamMP[Cannon]\BonMP[Cannon,19]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    深潛者來了！快去操作那門炮！
+\CamCT\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    是！
+
+########################################################## Whore job
+
+officer/opt_whore_Lona
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    我沒興趣，去樓下找人事，這事他在管的。
+\CamCT\m[shy]\plf\PRF\c[6]洛娜：\c[0]    知道了...
+
+staffG1/begin1
+\CamMP[staffG1]\prf\c[4]人事官：\c[0]    妓女對吧？總算來了！\optD[不是,是]
+
+staffG1/begin1Y
+\CamCT\m[shy]\PRF\c[6]洛娜：\c[0]    \{啊？
+\CamCT\m[lewd]\PRF\c[6]洛娜：\c[0]    是的，我是來服務你們的。
+
+staffG1/begin1N
+\CamCT\m[shy]\PRF\c[6]洛娜：\c[0]    \{什麼？！
+\CamCT\m[irritated]\Rshake\c[6]洛娜：\c[0]    \{我才不是！
+
+staffG1/begin2
+\CamMP[staffG1]\prf\c[4]人事官：\c[0]    好！我去叫上其他弟兄！妳進房間等著！
+
+staffG1/begin2YY
+\CamCT\m[shy]\PRF\c[6]洛娜：\c[0]    好的。
+
+staffG1/begin2_opt
+\CamCT\Bon[5]\m[bereft]\Rshake\c[6]洛娜：\c[0]    聽人說話啦！\optD[我不是！,好吧，我是。]
+
+staffG1/begin2NN
+\CamMP[staffG1]\prf\c[4]人事官：\c[0]    我說嘛，妳看起來就像隻雞。
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]洛娜：\c[0]    啊？
+
+staffG1/begin2NNN
+\CamMP[staffG1]\prf\c[4]人事官：\c[0]    嗯？我弄錯了嗎？但妳看起來就像隻雞。
+\CamCT\Bon[5]\m[sad]\Rshake\c[6]洛娜：\c[0]    啊？
+
+###################################
+
+whoreWork/begin1
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]士兵：\c[0]    是個小賤貨呢♥
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,5]\prf\c[4]士兵：\c[0]    好久沒幹了！
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]士兵：\c[0]    把衣服脫光讓叔叔們看看♥
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,7]\prf\c[4]士兵：\c[0]    不要怕阿♥ 快脫啊♥
+\CamCT\m[sad]\Rshake\c[6]洛娜：\c[0]    嗚嗚...
+
+whoreWork/DressOut
+\narr物品裝備都被放在了置物櫃
+
+whoreWork/begin_unknow
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,2]\prf\c[4]士兵：\c[0]    自我介紹一下。
+\CamCT\m[shy]\PRF\c[6]洛娜：\c[0]    各位好，我叫洛娜。
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,2]\prf\c[4]士兵：\c[0]    妹妹今年幾歲？ 怎麼會到這裡？
+\CamCT\m[flirty]\PRF\c[6]洛娜：\c[0]    c2gSnysu8JX_8pfhLYLI8d，我是幾個月前從席芭莉絲逃來這的。
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,6]\prf\c[4]士兵：\c[0]    這樣就要出來賣了，真辛苦啊。
+\CamCT\m[tired]\PRF\c[6]洛娜：\c[0]    嗯，我也是很努力活著的。
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,3]\prf\c[4]士兵：\c[0]    這樣要常常來前線找叔叔阿，叔叔在前線抵擋魔物很辛苦的。
+\CamMP[AnonGuard0]\BonMP[AnonGuard0,4]\prf\c[4]士兵：\c[0]    叔叔們也能給妳更多錢錢。
+\CamCT\m[flirty]\PRF\c[6]洛娜：\c[0]    好的。
+
+whoreWork/begin_hass0
+\CamMP[AnonGuard1]\BonMP[AnonGuard1,4]\c[4]士兵：\c[0]    真香！
+
+whoreWork/begin_hass1
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\c[4]士兵：\c[0]    有彈性！
+
+whoreWork/begin_hass2
+\CamMP[AnonGuard3]\BonMP[AnonGuard3,4]\c[4]士兵：\c[0]    可愛，舔舔！
+
+whoreWork/begin2
+\CamMP[AnonGuard2]\BonMP[AnonGuard2,4]\prf\c[4]士兵：\c[0]    先從哪裡開始？
+\CamMP[AnonGuard4]\BonMP[AnonGuard4,4]\prf\c[4]士兵：\c[0]    小洛娜先從吃我們的雞巴開始吧。
+\CamCT\m[shy]\c[6]洛娜：\c[0]    是....
+
+whoreWork/FuckStart
+\prf\c[4]士兵：\c[0]    受不了了！ 肏死這個小賤貨！
+
+whoreWork/QdoneMsg0
+這根吹過了
+
+whoreWork/QdoneMsg1
+他已經軟化
+
+whoreWork/QdoneMsg2
+他現在是聖人
+
+########################################################## Cannon st2
+
+officer/c130_done1
+\CamMP[officer]\BonMP[officer,3]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    妳幹得不錯！這種東西果然只有年輕人懂！
+\CamCT\m[sad]\plf\PRF\c[6]洛娜：\c[0]    我只是路過而已啊。
+\CamMP[officer]\BonMP[officer,1]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    什麼！ 妳是平民？！
+\CamCT\m[bereft]\plf\Rshake\c[6]洛娜：\c[0]    拜託你聽人說話啊！
+\CamMP[officer]\BonMP[officer,7]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    好吧，看來支援是不會來了。
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    妳能教我們使用這套....  領主級405mm火炮嗎？
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    看起來它功能強大，但我們沒人會操作這麼複雜的東西。
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我試試看吧....
+
+officer/c130_done2
+\CamCT\m[flirty]\PRF\c[6]洛娜：\c[0]    是的，然後將操縱桿往右就可瞄準左方了。
+\CamMP[Noob]\prf\c[4]士兵：\c[0]    這樣嗎？
+\CamCT\Bon[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..\..
+\CamCT\Bon[7]\m[shocked]\Rshake\c[6]洛娜：\c[0]    不！那是右邊！
+\CamMP[Noob]\BonMP[Noob,8]\prf\c[4]士兵：\c[0]    不然這樣？
+\CamCT\Bon[7]\m[bereft]\Rshake\c[6]洛娜：\c[0]    不！那是往上啦！ 不要左右不分啊！
+\CamMP[Noob]\BonMP[Noob,2]\prf\c[4]士兵：\c[0]    然後按下這個就可發射了？
+\CamCT\m[terror]\Rshake\c[6]洛娜：\c[0]    不要！那上面是寫.....
+
+officer/c130_done3
+\CamCT\Bon[8]\m[terror]\Rshake\c[6]洛娜：\c[0]    自爆....
+
+officer/c130_done4
+\CamCT\Bon[8]\m[sad]\PRF\c[6]洛娜：\c[0]    壞掉了耶.....
+\CamMP[officer]\BonMP[officer,8]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    嗯.. 而他晉升了。
+\CamCT\m[confused]\plf\PRF\c[6]洛娜：\c[0]    現在怎麼辦？
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    這東西非常強大，可太難上手了，我想我們還是會回去用一般的火炮。
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    但... 最好能將它修好，妳能幫我們嗎？
+\CamCT\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我能做些什麼呢？
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    這東西是提供火藥的商會額外附贈的測試品。
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    我在諾爾鎮上的\C[4]中路市場\C[0]進行\C[4]夜間\C[0]巡守時看過他的女兒。
+\CamMP[officer]\SETpl[Lawbringer]\Lshake\prf\c[4]砲擊官：\c[0]    她應該還在島上，可以的話我想請妳找她來幫忙維修。
+\CamCT\m[serious]\plf\PRF\c[6]洛娜：\c[0]    我知道了！
+
+########################################################## OTHER
+
+frogman/Prisoner0
+代替海巫逞罰你！
+
+frogman/Prisoner1
+感恩海巫！讚嘆海巫！
+
+board/board
+\board[東7哨點]
+建於1693.7.19
+感謝盧德辛商行捐贈。

@@ -1,0 +1,165 @@
+NFL_MerCamp/OvermapEnter
+\cg[event_DarkPot]\m[confused]Mercenary's Camp\optB[Leave,Enter]
+
+##################################################################
+
+NorthFL_AtkOrkCamp/0_1
+\SETpl[AnonMale1]\Lshake\c[4]mercenary：\c[0]    It's a monster! The green skins are here!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Greenskins? Orcs?! Where?!
+
+NorthFL_AtkOrkCamp/0_2
+\BonMP[YellingSub,20]\SETpl[AnonMale1]\Lshake\c[4]mercenary：\c[0]    Run for your lives!
+\CBct[2]\m[terror]\plh\Rshake\c[6]Lona：\c[0]    What? Are you talking about me?!
+
+NorthFL_AtkOrkCamp/0_3
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]Mercenary Captain：\c[0]    \{Halt!!
+
+NorthFL_AtkOrkCamp/0_4
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]Mercenary Captain：\c[0]    Take another look! Those are people, living people!
+
+NorthFL_AtkOrkCamp/0_5
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    What are you doing standing there, come in quickly!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    \{Yes!
+
+Leader/RecQuestNorthFL_AtkOrkCamp2_1
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    I didn't expect to encounter any living people who had escaped from the city.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    From the city? You mean \c[4]Sybaris\c[0]?
+\CBct[20]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Well\..\..\.. Yes, I escaped from the city a long time ago.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    \..\..\..\Lshake So what are you doing? Why did you come back? This is hell, a battlefield!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well... Just passing by?
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    \..\..\..Passing by?
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Yes, I want to go home and see what happened to my house.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    .....
+
+Leader/OPT_About0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    So...What is this place? What are you doing here?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    We are trying to rescue those who have escaped from the city....
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Rescue? Aren't you mercenaries?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Yes, in name. I originally opened a small hotel in the west port area of ​​the city, where I had a family and children.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    We formed the mercenary group to find our families, but now we are also in trouble.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    We didn't succeed in rescuing anyone, and even got our own people killed.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    He is my best mate and I have to bring him out. Even if he's dead already, I just have to get him out somehow.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    .......
+
+Leader/OPT_Mail0
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Um.... I have a letter here from Coastal Fortress?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Should it be for you?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Letter?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    That's right! From the captain of Coastal Fortress.
+
+Leader/OPT_Mail1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    Salt?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Salt?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    What did he mean by salt?!
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well...Besides salt, what else did he say about saving the world?...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I don't understand either, but he seems to be very serious about it.
+\CBid[-1,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    I've done so much and killed so many brothers just for this stupid salt?!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well... Are you okay?
+
+Leader/OPT_Work0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Um\..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    My companions got lost while investigating the greenskin camp to the east.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    We have to save them, and I'm sure you can help us.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Well... But I'm just a passersby....
+
+Leader/OPT_Work1_board
+\board[Save teammates]
+Goal： Save the mercenary captain's companion.
+Reward： 1 Big Copper Coin
+Client： Mercenary Captain
+Quest Term： Single offer
+Go to the orkind camp in the east of this campsite,
+And save the mercenary captain's companion.
+
+Leader/OPT_Work2_accept
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Okay, that should be no problem.
+
+Leader/OPT_Work2_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I'm sorry... I have something else to do...
+
+Leader/OPT_Work2_accept1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Good, lets meet in there.
+
+Invade/NFL_MerCamp_Invade_3
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    Well done, I didn't expect you to survive.
+
+Leader/else
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    ....
+
+OrcSlaveMaster/begin
+\CBmp[OrcSlaveMaster,20]\SndLib[sound_OrcSkill]\SETpl[OrcSlaveMaster_mask]\Lshake\c[4]Leather Face：\c[0]    \C[1]\{Horse Cock!!！
+
+################################################################## Commoner
+
+commoner/BeginRNG0
+\CBid[-1,20]\c[4]mercenary：\c[0]    You are a survivor from the city?
+
+commoner/BeginRNG1
+\CBid[-1,20]\c[4]mercenary：\c[0]    Is there anyone alive in the city? !
+
+commoner/BeginRNG2
+\CBid[-1,20]\c[4]mercenary：\c[0]    Maybe my family is still alive too?
+
+commoner/WhoreWork_failed0
+\CBid[-1,5]\c[4]mercenary：\c[0]    I don't have time for this!
+
+commoner/WhoreWork_failed1
+\CBid[-1,5]\c[4]mercenary：\c[0]    You're going to die and you're still doing this?
+
+commoner/WhoreWork_failed2
+\CBid[-1,5]\c[4]mercenary：\c[0]    Let’s survive first.
+
+################################################################## #NFL_MerCamp_Invade
+
+Invade/0
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Um?
+
+Invade/1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Mercenary Captain：\c[0]    Incoming! East side!
+
+Invade/2_typical
+\CBct[2]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    Incoming? What's coming in??
+
+Invade/2_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    Incoming? Orkinds?!
+
+Invade/2_gloomy
+\CBct[6]\m[fear]\plf\PRF\c[6]Lona：\c[0]    What's coming? Is it the Monsters?!
+
+Invade/2_slut
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Coming? You said you were going?
+
+Invade/3_wave2
+Here we go again! East!
+
+Invade/3_wave3
+More! Big one!
+
+Invade/3_waveEND
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    It looks like it's over. Are you still alive?
+
+Invade/4_BossDefeat0
+\BonID[-1,8]\m[confused]\PRF\c[6]Lona：\c[0]    \..\..\..\Rshake\m[flirty]I don’t know why, but I always think it looks cute?
+
+Invade/4_BossDefeat1
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Mercenary Captain：\c[0]    Success! We drove them away!
+
+Leader/BattleQmsg0
+Man the fighting positions!
+
+Leader/BattleQmsg1
+Here they come!
+
+Commoner/BattleQmsg0
+Greenskins again!
+
+Commoner/BattleQmsg1
+We are surrounded!
+
+Commoner/Qmsg_lose0
+Run away quickly!
+
+Commoner/Qmsg_lose1
+I don't want to die!

@@ -1,0 +1,30 @@
+RelayEMP/Welcome0
+\CBid[-1,20]\m[confused]\prf\c[4]Cochero：\C[0]    ¿En qué puedo ayudarte?
+
+RelayEMP/Welcome1
+\CBid[-1,20]\m[confused]\prf\c[4]Cochero：\C[0]    No hay muchos lugares a donde ir ahora. ¿A dónde quieres ir?
+
+RelayEMP/SlaveBlock
+\CBid[-1,20]\prf\c[4]Cochero：\C[0]    ¡Las esclavas sucias no tienen derecho a usar mis servicios! ¡Lárgate y vuelve con tu amo!
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    E-está bien...
+
+RelayEMP/NoGold
+\CBid[-1,20]\prf\c[4]Cochero：\C[0]    ¿¡No tienes dinero!? ¡ENTONCES LÁRGATE DE MI VISTA!
+\CBct[6]\m[flirty]\c[6]Lona：\C[0]    L-lo siento...
+
+RelayEMPfish/Welcome0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Barquero：\C[0]    Pescópolis... Nuestro hogar...
+
+RelayEMPfish/Welcome1
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Barquero：\C[0]    Humana... *Buf* ¿A dónde... ir... tú?
+
+RelayEMPfish/SlaveBlock
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Barquero：\C[0]    Esclavas... No pueden... irse...! ¡Vuelve... a parir... más descendencia...!
+\CBct[6]\m[sad]\c[6]Lona：\C[0]    E-entendido...
+
+RelayEMPfish/SlaveAccept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Barquero：\C[0]    Esclava... Chica fresca... Ven aquí......
+\CBct[2]\m[flirty]\c[6]Lona：\C[0]    Emm... ¿?
+
+RelayEMP/opt
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\C[0]    Emm...

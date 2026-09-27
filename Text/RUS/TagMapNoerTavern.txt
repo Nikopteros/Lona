@@ -1,0 +1,279 @@
+NoerTavern/OvermapEnter
+\m[confused]Горящий Бочонок\nИзвестная таверна, которая работает 24/7, весь день и всю ночь \optB[Отмена,Войти]
+
+##########-----------------------------------------------------
+
+Taxidermist/DeepOne
+\cg[other_DeeponeTaxidermist]Глубинный Монстр
+Дата охоты：1754.3.14
+
+Taxidermist/Hog
+\cg[other_HogTaxidermist]Дикий Кабан
+Дата охоты：1757.6.11
+
+###################################################################     COMMON PPL
+
+CommonPPL/begin0
+\c[4]Пьяница：\C[0]    Бухла! *Ик!* Больше бухла! *Отрыжка*
+
+CommonPPL/begin1
+\c[4]Пьяница：\C[0]    Девчонка! Хааха! Де-е-евочка!
+
+CommonPPL/begin2
+\c[4]Пьяница：\C[0]    Сиськи! *Отрыжка* Хочу *Ик* уви-и-идеть! *Отрыжка*
+
+CommonPPL/begin3
+\c[4]Пьяница：\C[0]    Ху хе! Больше БУЭЭ пива! *Ик!*
+
+CommonPPL/begin4
+\c[4]Пьяница：\C[0]    Гарх! Хахахах! Оооох!
+
+###################################################################     COMMON NAP RAPE
+
+CommonPPL/NapRape
+\c[4]Пьяница：\C[0]    Хехехе! *Ик!* Чё так.. кая милашка лежит тут, а? *Отрыжка*
+
+CommonPPL/NapRape1
+\c[4]Пьяница：\C[0]    Хе хе! *Ик!* У-ху-ху!
+
+CommonPPL/NapRape2
+\narr Лону утащили в другое место...
+
+CommonPPL/NapRape3
+\c[4]Пьяница：\C[0]    Всё х.. *Ик!* Всё х-р-шо... А хошь.. *Отрыжка* помочь дяде поразвле-е-ечься?! *Отры-ы-ыжка*
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]Пьяница：\C[0]    Кажись ты.. *Отрыжка* хочешь бля.. *Ик!* ум.. мереть! Да-а?!
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]Пьяница：\C[0]    Во-о-о... *Ик!* Во-о-от значит...... *Отрыжка*!
+
+##########-----------------------------------------------------NoerTavern        Hazubendo 
+
+Hazubendo/FearWaifu0
+Не говори со мной...
+
+Hazubendo/FearWaifu1
+М-Мне нельзя общаться с другими женщинами.
+
+Hazubendo/FearWaifu2
+Она убьёт меня, если мы будем болтать!
+
+Hazubendo/FearWaifu3
+А она была такой милой когда-то... *Вздох*
+
+Hazubendo/begin
+\CBid[-1,20]\c[4]Муж Мамочки：\C[0]    Я свободен! Сладкая, приятная СВОБОДА! Мы все должны бороться за свободу сами!!! \optB[Неважно,Обмен]
+
+
+##########-----------------------------------------------------                WAIFU
+
+Waifu/begin1_RecQuestCocona_win
+\CBid[-1,5]\SETpl[BigMama_happy]\Lshake\c[4]Большая Мамочка：\C[0]    Не могу поверить, что проиграла тебе....
+
+Waifu/begin1_RecQuestCocona_loser
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Большая Мамочка：\C[0]    Не разочаровывай меня, червяк.
+
+Waifu/begin1_RecQuestCocona_28_0
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Большая Мамочка：\C[0]    Эй! Почему ты всё ещё здесь?
+
+Waifu/begin1_RecQuestCocona_28_1
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Большая Мамочка：\C[0]    Ты всё ещё здесь?
+
+Waifu/begin1_slave
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]Большая Мамочка：\C[0]    \{Чё тут рабы делают? А НУ КЫШЬ!!!
+
+Waifu/begin1_maggot
+\CBid[-1,5]\SETpl[BigMama_angry]\Lshake\c[4]Большая Мамочка：\C[0]    \{Мерзкий червяк! Ты тут всех распугаешь!
+
+Waifu/begin1_sexy
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    \{Шлюха?! Ты чё тут забыла?!
+
+Waifu/begin1_weaker
+\CBid[-1,5]\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    \{Чё смотришь?! НУ?!
+
+Waifu/begin1_moot
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Большая Мамочка：\C[0]    \{Чё те надо?! Тебе повезло, что мы обслуживаем здесь и таких, как ты!
+
+Waifu/begin1_lona
+\CBid[-1,8]\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    \{Чего?! Заказывай уже или проваливай!
+
+##########-------------
+
+Waifu/Opt
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хммм...
+
+Waifu/work_begin_RecQuestCocona_28
+\CBid[-1,5]\SETpl[BigMama_confused]\Lshake\c[4]Большая Мамочка：\C[0]    Ты недостаточно заработала?!
+
+Waifu/work_begin
+\CBid[-1,8]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{НАНЯТЬ ТЕБЯ?! И что такая малявка как ты умеет делать?
+
+Waifu/Opt_work
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я-я... \optB[Ничего,Официантка,Танцовщица]
+
+Waifu/Opt_work_end_summon
+\CBmp[TavernWaifu,20]\SETpl[BigMama_angry]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{Всё жопой трясёшь?! Время-деньги! ВПЕРЁД!
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона：\C[0]    \}Ох... Простите...
+
+Waifu/Opt_work_end_NoSummon1
+\CBmp[TavernWaifu,20]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    Тьфу! СЛИШКОМ МЕДЛЕННО! \{Хрен с тобой!
+\CBct[3]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    ......Спасибо?
+
+Waifu/Opt_work_end_NoSummon2
+\CBmp[TavernWaifu,20]\SETpl[BigMama_happy]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{Неплохо! Придёшь ещё потом за новой работой.
+\CBct[3]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Оо?......Спасибо вам?
+
+
+##########-------------##########-------------##########------------- DANCER
+
+Waifu/Opt_work_dancer_board
+\board[Танцовщица]
+Танцовщицы должны быть уверены в своей физической силе и внешнем виде.
+Танцуйте и подбирайте монеты, пока не истечёт время. Чем больше монет вы соберёте, тем больше заработаете.
+Обязательно отвечайте на просьбы гостей и делайте все, что они хотят.
+Чем вы привлекательнее и чем большее количество запросов будет удовлетворено, тем больше монет вам будут кидать гости.
+Бег во время работы отнимает больше сил.
+
+Waifu/Opt_work_dance
+\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    Ты весьма мелкая ещё, так ведь? Думаешь, справишься с такой работой?
+\m[sad]\c[6]Лона：\C[0]    Думаю, да...
+\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    ХОРОШО! Но я не могу обещать, что эти ублюдки ничего не сделают с тобой!
+
+Waifu/Opt_work_dance_end
+\narr Работа танцовщицей окончена.
+
+Waifu/dance_low_sta_rape
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    Глядите на эту малявку, она даже встать не может!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    Ага, уработалась совсем бежняжка!
+\SETpl[raper1]\Lshake\c[4]Пьяница：\C[0]    Давайте использовать наши члены, чтобы впрыснуть в неё как можно больше энергии, чтобы она могла восстановить свои силы!
+
+Waifu/dance_rape1
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    Ну всё, я больше не могу терпеть! Хочу присунуть!
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    Ну-ка нехуй! Я первый!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    Ну давай выебем её одновременно!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    Стоп, стоп! Большая Мамочка ещё тут, она нас убьёт за это!
+
+Waifu/dance_rape1_1
+\SETpr[BigMama_normal]\c[4]Большая Мамочка：\C[0]    Я предупреждала, это тоже часть твоей работы!
+\SETpr[BigMama_normal]\c[4]Большая Мамочка：\C[0]    Всё остальное меня не волнует!
+\prh\narr Большая Мамочка ушла...
+
+Waifu/dance_rape1_2
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    Спасибо, Мамочка! Восхвалим Большую Мамочку!
+
+Waifu/dance_rape2
+\m[terror]\c[6]Лона：\C[0]    Н-Нет......
+
+Lona/dance_DDR_DressOut
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    Стриптиз!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Снимай одежду!!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{\{РАЗДЕВАЙСЯ!!!
+
+Lona/dance_DDR_Masturbation
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Мастурбируй!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Покажи, как ты мастурбируешь!!!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Мастурбируй! Мастурбируй!! МАСТУРБИРУЙ!!!
+
+Lona/dance_DDR_Pee
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Пописай!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Да! Ссы там, где стоишь! Пусть на тебя все смотрят!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Писай! Писай!! ПИСАЙ!!!
+
+Lona/dance_DDR_Poo
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Ну-ка посри, пока мы смотрим!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Хаха! Кто сказал, что девочки не какают?!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Насри на стойку! Давай! ДАВАЙ!!!
+
+Lona/dance_DDR_Milk
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{У тебя были дети?! Я хочу молочка!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Да! Мама, я голодный!! Бва-ха-ха!!!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Давай скорее! Сцеди стакан молока для каждого здесь!
+
+Lona/dance_DDR_GroinClearn
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Ты же проститутка, так? Раздвинь свою дырку для ебли и выдави всю сперму из своей мелкой вагины!\}
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Да, да! И слижи это всё потом, чтобы все видели!\}
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Дело говорит! Шлюхи всегда должны вести себя как шлюхи!\}
+
+Lona/dance_DDR_Cum
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Я хочу кончить на неё!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Я тоже! Эй! Подойди и дай нам на тебя спустить!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Это полезно для кожи! Не дай пропасть сперме зря!!!
+
+Lona/dance_DDR_Bukaake
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Я хочу забрызгать её лицо своей спермой!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Я тоже! Эй! Иди сюда!
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Лови сперму лицом! Давай, не пропусти ничего!!!
+
+Lona/dance_DDR_PeeonHead
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Я хочу ссать!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Я тоже! Давай нассым ей в рот?
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Фьють! Эй, иди сюда! Открой рот!! Пей!!!
+
+Lona/dance_DDR_Peeon
+\SETpl[raper3]\Lshake\c[4]Пьяница：\C[0]    \{Я хочу ссать!
+\SETpl[raper2]\Lshake\c[4]Пьяница：\C[0]    \{Я тоже! Давай нассым на неё?
+\SETpl[raper_group]\Lshake\c[4]Пьяница：\C[0]    \{Точняк! Раздвигай ноги!! Хватаем её!!!
+
+Lona/dance_DDR_opt
+\m[shy]\c[6]Лона：\C[0]    Эммм... \optD[Сделать это<t=3>,Отказаться]
+
+##########-------------##########-------------##########------------- WAITER
+
+Waifu/Opt_work_waiter_board
+\SND[SE/Book1]\board[Разнос вина]
+Принесите вино десяти гостям, пока не вышло время.
+Бег во время работы отнимает больше энергии.
+Чем больше останется времени, тем больше награда.
+
+Waifu/Opt_work_waiter2_decide
+\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    \{Неплохо! Принеси гостям вина. И не проёбывайся, А ТО..!
+\m[fear]\Rshake\c[6]Лона：\C[0]    \{Да... Поняла!
+
+###################################################
+
+Waifu/WorkFailed0
+\CamMP[TavernWaifu]\m[shocked]\SETpl[BigMama_angry]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{Какого хера ты творишь?! Ты тварь!
+\m[sad]\PLF\c[6]Лона：\C[0]    \}Ах... Простите...
+
+Waifu/WorkFailed1
+\SETpl[BigMama_angry]\Lshake\c[4]Большая Мамочка：\C[0]    \{Ты бесполезный мусор!
+
+Waifu/WorkFailed2
+\SETpl[BigMama_angry]\Lshake\c[4]Большая Мамочка：\C[0]    \{Ты... Совершенно БЕСПОЛЕЗНА...!!!
+
+Waifu/WorkFailed3
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    \{УБИРАЙСЯ НАХЕР ИЗ МОЕЙ ТАВЕРНЫ!!!
+
+Waifu/WorkFailed_slave
+\CamCT\SETpl[BigMama_normal]\Lshake\c[4]Большая Мамочка：\C[0]    \{Компенсируй ущерб гостям своим телом! ЖИВО!!!
+\m[shocked]\Rshake\c[6]Лона：\C[0]    \{Ч-Чего?!
+
+###################################################
+
+Waifu/NapSlave
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{ЕБУЧИЕ РАБЫ!!! ПОШЛИ НАХУЙ ИЗ МОЕЙ ТАВЕРНЫ!!!
+\m[sad]\PLF\c[6]Лона：\C[0]    \}П-Простите...
+
+Waifu/NapNokey
+\m[shocked]\SETpl[BigMama_normal]\Lshake\prf\c[4]Большая Мамочка：\C[0]    \{КЫШЬ! УБИРАЙСЯ!! ПОШЛА НАХУЙ ОТСЮДА!!! ОТБРОС!!!
+\m[sad]\PLF\c[6]Лона：\C[0]    \}Извините...
+
+##########-------------------	Follower	----------------
+
+CommonCompanion/TavernCommand
+\m[confused] \optB[Отмена,Расформировать]
+
+##########-------------------	Common	----------------
+
+Nap/NotMyBed
+Нельзя без разрешения
+
+2fKid/Qmsg0
+Папа говорит, мне надо больше пить
+
+2fKid/Qmsg1
+Надо пить, чтобы стать взрослым
+
+2fKid/Qmsg2
+Я уже взрослый?

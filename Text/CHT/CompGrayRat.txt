@@ -1,0 +1,164 @@
+GrayRat/CompData
+\board[灰鼠]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]戰士、嘲諷、防禦。
+\C[2]陣營：\C[0]席芭莉絲。
+\C[2]敵對：\C[0]邪惡生物，不法份子。
+\C[2]需求：\C[0]虛弱小於100。
+\C[2]期限：\C[0]5天。
+\C[2]獨立：\C[0]角色死亡後不重生。
+\C[4]備註：\C[0]賽希莉與灰鼠為同隊。
+應該是賽希莉她管家或家臣之類的，但總覺得會有其他發展？
+
+
+################################################################### QMSG ################################################################################# 
+
+GrayRat/CommandWait0
+了解...
+
+GrayRat/CommandWait1
+好...
+
+GrayRat/CommandFollow0
+走吧...
+
+GrayRat/CommandFollow1
+.....
+
+GrayRat/OvermapPop0
+........
+
+GrayRat/Comp_start
+\SETpl[GrayRatNormalAr]\c[4]灰鼠：\c[0]    ........
+
+GrayRat/Comp_disband
+\SETpl[GrayRatConfused]\c[4]灰鼠：\c[0]    嗯....
+
+GrayRat/Comp_disbandAr
+\SETpl[GrayRatConfusedAr]\c[4]灰鼠：\c[0]    嗯....
+
+################################# Cecily.Eaglemore
+GrayRatAr/CE_Death
+\SETpl[GrayRatShockedAr]\Lshake\{小姐！！！！
+\SETpl[GrayRatShockedAr]\Lshake\{我殺了你們！！
+
+GrayRat/CE_Death
+\SETpl[GrayRatShocked]\Lshake\{小姐！！！！
+\SETpl[GrayRatShocked]\Lshake\{我殺了你們！！
+
+###############################################QUEST
+
+
+GrayRat/UnknowBegin
+\CBid[-1,8]\SETpl[GrayRatNormal]\C[4]未知：\C[0]    .............
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    好大隻！
+\CBid[-1,2]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    嗯？
+\CBct[6]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    抱歉。
+
+GrayRat/KnownBegin_opt
+\CBid[-1,8]\m[confused]\SETpl[GrayRatConfused]\C[4]未知：\C[0]    ....\optB[.....,為什麼找上我？]
+
+GrayRat/KnownBegin_WhyMe
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    .......嗯。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    我曾經觀察過您。
+\CBct[20]\m[shocked]\plf\Rshake\c[6]洛娜：\c[0]    什麼？什麼時候？！
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    撤退回\c[6]諾爾\c[0]的路程上，北方的哨點中，我與小姐停留了一段時間。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    那時您也在那裏。
+\CBct[2]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    嗯？
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    您將食物分給了一個孩子。
+\CBid[-1,8]\SETpl[GrayRatNormal]\m[shy]\PLF\prf\c[4]灰鼠：\c[0]    當時您已經自顧不暇了，但依然分出了手中的糧食。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    我們可以信任的人很少，但敵人卻很多。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    您不是個戰士，但可以信任。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    ........
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    ......
+\CBct[3]\m[triumph]\plf\Rshake\c[6]洛娜：\c[0]    謝謝！
+
+GrayRat/KnownBegin_Break
+\SETpl[GrayRatConfused]\c[4]灰鼠：\c[0]    ........
+\SETpl[GrayRatNormal]\c[4]灰鼠：\c[0]    一切由大小姐決定。
+
+GrayRat/SaveCecilyQuest_begin1
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    ......嗯？
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]未知：\C[0]    您是\c[6]洛娜\c[0]對吧？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    是的，請問您有什麼事？
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    失蹤車隊的事我聽說過了，您做的很好。
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    謝謝？
+\CBct[2]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    所以有什麼事嗎？
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    在警戒我嗎？ 沒關係的。
+\CBid[-1,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\ph\C[4]未知：\C[0]    看看這個吧。
+\CBct[20]\m[wtf]\plf\Rshake\c[6]洛娜：\c[0]    \{嚇！？
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\C[4]未知：\C[0]    這只是訂金。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    您是\c[6]席芭莉絲\c[0]出生的？
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    在災難發生後他們把難民當成商品。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    我們一直在跟那些人口販子作對。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    我的同伴被綁架了，對手是邪惡的人口販子。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    他們發來的信函，告知了地點，這是陷阱。
+
+GrayRat/SaveCecilyQuest_begin2
+\cgoff\board[致該死的大隻佬]
+你家的王八蛋在我們手上！
+想要她活命的話晚上給我到西13號倉庫。
+不用說！
+一個人來！
+
+GrayRat/SaveCecilyQuest_begin3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    我需要一位熟悉偵查及搜索的斥候。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    您辦的到。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    您也不認同那些人口販子的行為對吧？
+\CBct[6]\m[shy]\plf\PRF\c[6]洛娜：\c[0]    我.....
+
+GrayRat/SaveCecilyQuestInfo
+\board[救出他的夥伴]
+目標：西13倉庫會合
+訂金：5銅 2大銅幣
+委託主：未知
+期限：無
+
+GrayRat/SaveCecilyQuestAccept
+\CBct[20]\m[serious]\plf\Rshake\c[6]洛娜：\c[0]    好！我接了！
+\CBct[5]\m[angry]\plf\Rshake\c[6]洛娜：\c[0]    人販子對吧，我也不喜歡他們！
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\C[4]未知：\C[0]    感謝您...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    您可以叫我\c[6]灰鼠\c[0]...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    剩下的到了\c[6]西13倉庫\c[0]再討論。
+
+########################################################################### QuProgSaveCecily 23 to 24    43 to 44 # DEV
+
+GrayRat/23-43_0
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    呃...賽希莉...大人去哪了？
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    小姐正於後院練習武藝...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    她有些事情想對妳說....
+\CBct[20]\m[normal]\plf\PRF\c[6]洛娜：\c[0]    哦？
+
+44/0_begin0
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\c[4]灰鼠：\c[0]    洛娜小姐...
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    怎麼了，灰鼠先生？
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    您對這座島是怎麼想的...？
+\CBct[8]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    啊？ 呃\..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    這曾裡是我家，但是大家都死了。
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我父親，我的朋友們都死了，我的家也沒了。
+\CBct[8]\m[sad]\plf\PRF\c[6]洛娜：\c[0]    現在看到這座島上四處都是混亂....我....
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    妳想離開這對嗎？
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    是的。
+\CBct[8]\m[tired]\plf\PRF\c[6]洛娜：\c[0]    我覺得諾爾島大概完蛋了吧。
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    \..\..\..
+
+44/1
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    聽著，我想讓主人離開這裡。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    \..\..\..\m[flirty]\Rshake 哈？！
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    我不能再讓他繼續任性下去了...
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    這樣下去主人會死在這裡...
+\CBid[-1,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]灰鼠：\c[0]    希望妳能幫住我勸勸她。
+\CBct[6]\m[shocked]\plf\PRF\c[6]洛娜：\c[0]    等...等一下！
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我該怎麼勸？我不覺得賽希莉大人會聽的。
+\CBct[20]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    感覺賽希莉大人是那種越是走不通就越要往那走的人吧？
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    妳說的沒錯...
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    乾脆強行把她綁起來帶走？
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    \..\..\..\CBid[-1,5]\SETpl[GrayRatShocked]\Lshake \{！！！！！
+
+44/2
+\CBct[6]\m[terror]\plf\Rshake\c[6]洛娜：\c[0]    \{我...我錯了！ 對不起！
+
+44/3
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    嗯\..\..\..
+\CBid[-1,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]灰鼠：\c[0]    小姐正在後院等妳，試著跟她聊聊看吧。
+\CBct[20]\m[flirty]\plf\PRF\c[6]洛娜：\c[0]    我盡量吧....

@@ -1,0 +1,668 @@
+Cecily/KnownBegin
+\CBid[-1,20]\SETpl[CecilyNormal]\C[4]Сесилія：\C[0] Так, Лоно?
+
+Cecily/KnownBeginAr
+\CBid[-1,20]\SETpl[CecilyNormalAr]\C[4]Сесилія：\C[0] Що таке, Лоно?
+
+Cecily/BasicOpt
+\CBct[8]\m[confused]\c[6]Лона:\C[0] .....
+
+Cecily/CompData
+\board[Сесілія Іглмор]
+\C[2]Позиція:\C[0]Тил
+\C[2]Стиль бою:\C[0]Воїн, метальні ножі, пробиває броню
+\C[2]Фракція:\C[0]Сібаріс
+\C[2]Ворожнеча з:\C[0]Злі Істоти, Бандити
+\C[2]Вимога:\C[0]Слабкість менше 100
+\C[2]Тривалість:\C[0]5 днів
+\C[2]Особливість:\C[0]Не відродиться після смерті
+\C[4]Примітка:\C[0]Сесилія та Грейрат завжди разом
+Колишня благородна леді? Розмовляти з нею важко.
+
+Cecily/Comp_failed2F
+\CBid[-1,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Сесілія:\C[0] Ти дуже слабка. Приходь, коли станеш сильнішою.
+
+Cecily/Comp_win2F
+\CBid[-1,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Сесилія：\C[0] Добре, давай подорожувати разом.
+
+Cecily/Comp_win
+\CBid[-1,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесилія：\C[0] Добре, давай подорожувати разом.
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatNormal]\plf\Rshake\c[4]Грейрат:\C[0] Я буду слідувати за вами Міледі.
+
+Cecily/Comp_failed_Raped
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія:\C[0] Дякую, що врятувала мене, я завдячую тобі життям. Проте...
+\CBid[-1,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесілія:\C[0] Ти дуже слабка. Приходь, коли станеш сильнішою.
+\CBct[6]\m[sad]\plf\PRF\c[6]Лона:\C[0] Вибачте...
+
+Cecily/Comp_failed_Coin
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесилія：\C[0] На жаль, ми були надто зайняті останніми днями.
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія：\C[0] Візьми, сподіваюся, це тобі допоможе.
+
+Cecily/Comp_failed_CoinAgain
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесилія:\C[0] Знову?!
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія：\C[0] Лоно, за цей час я багато чого дізналася.
+\CBid[-1,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]Сесилія:\C[0] Один з них, це-\.\n Люди повинні врятувати себе самі!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] В-Вибачте...
+
+CecilyAr/GR_Death
+\SETpl[CecilyShockedAr]\Lshake\{Вініт! НІІІ!!!!
+
+Cecily/GR_Death
+\SETpl[CecilyShocked]\Lshake\{Вініт! НІІІ!!!!
+
+Cecily/BanditMobs_run
+\SETpl[CecilyShockedAr]\Lshake\C[4]Сесилія:\C[0] \{Дати їм втекти? Ти жартуєш?
+\SETpl[CecilyAngryAr]\Lshake\C[4]Сесилія：\C[0] Я не дам цим виродкам піти!
+\SETpr[GrayRatConfusedAr]\plf\PRF\c[4]Грейрат:\C[0] ......
+\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Сесилія:\C[0] \{Знищити їх усіх!!!
+
+#################################################################################################################################################### #############################
+
+Cecily/CommandWait0
+Я займу цю позицію
+
+Cecily/CommandWait1
+Не зволікай надто довго!
+
+Cecily/CommandFollow0
+Добре! Веди!
+
+Cecily/CommandFollow1
+Залиш це мені!
+
+Cecily/OvermapPop0
+Зупинимо всіх работоргівців!
+
+Cecily/OvermapPop1
+Люди вороже налаштовані один до одного, чому?
+
+Cecily/OvermapPop2
+Я знаю, що я роблю
+
+Cecily/OvermapPop3
+Хіба це не наш обов'язок захищати їх?
+
+#################################################################### Unique
+
+Cecily/DoomFortFuckOff
+\SETpr[CecilyAngryAr]\Rshake\C[4]Сесілія:\C[0] \{Відійди!
+
+##################################################################### QUEST
+
+Cecily/UnknowBegin
+\SETpl[CecilyNormal]\C[4]Невідома:\C[0] ......
+\m[confused]\plf\PRF\c[6]Лона:\C[0] ...
+\SETpl[CecilyAngry]\Lshake\prf\C[4]Невідома:\C[0] Тс! Яка груба дівка! Чого витріщаєшся?!
+\m[confused]\plf\PRF\c[6]Лона:\C[0] В-Вибачте...
+
+Cecily/SaveQuest_reward1
+\SETpl[CecilyWtf]\C[4]Невідома:\C[0] Ти...
+\m[flirty]\plf\PRF\c[6]Лона:\C[0] Га?
+\SETpl[CecilyWtf]\PLF\prf\C[4]Сесілія:\C[0] Дозволь представитися, ти можеш називати мене \C[4]Сесілія Іглмор\C[0].
+\m[pleased]\plf\PRF\c[6]Лона:\C[0] Мене звуть Лона Фолдін.
+\SETpl[CecilyNormal]\SETpl[GrayRatConfused]\C[4]Сесилія：\C[0] А це мій помічник, \C[4]Грейрат\C[0].
+\SETpl[GrayRatConfused]\plf\PRF\c[4]Грейрат:\C[0] Вражений...
+\SETpl[CecilyAngry]\PLF\prf\C[4]Сесілія:\C[0] Слухай!
+\SETpl[CecilyWtf]\PLF\prf\C[4]Сесилія:\C[0] Я не очікувала, що мене врятує якась \C[4]простолюдинка\C[0].
+\SETpr[GrayRatConfused]\plf\PRF\c[4]Грейрат:\C[0] ......
+\SETpr[GrayRatNormal]\plf\PRF\c[4]Грейрат:\C[0] Стежте за манерами, Пані...
+\SETpl[CecilyAngry]\PLF\prf\C[4]Сесілія:\C[0] Відчепись! Досить наставляти!
+\SETpl[CecilyWtf]\PLF\prf\C[4]Сесилія：\C[0] ...Добре, я побачила багато чого за час подорожей. Все, від пограбування до зґвалтувань та вбивств.
+\SETpr[GrayRatNormal]\plf\PRF\C[4]Сесилія:\C[0] Ще наймудріші говорили, «Обов'язок шляхти - захищати людей!».
+\SETpl[CecilyNormal]\PLF\prf\C[4]Сесилія：\C[0] Зараз... це звучить як дурний жарт, правда? Але мене так виховали.
+\SETpl[CecilyAngry]\PLF\prf\C[4]Сесилія：\C[0] Уфф... Врятована тим, кого сама клялася захищати... Ти розумієш у якому я стані?
+\m[confused]\plf\PRF\c[6]Лона:\C[0] Нууу... Я розумію.
+\m[pleased]\plf\PRF\c[6]Лона:\C[0] Під час втечі з Сібарісу, я врятувалася завдяки безлічі інших людей.
+\SETpl[CecilyShy]\PLF\prf\C[4]Сесілія:\C[0] Уфф...
+
+Cecily/SaveQuest_reward2
+\SETpl[CecilyShy]\PLF\prf\C[4]Сесилія：\C[0] Гаразд... Ось, ти заслужила.
+\m[shocked]\plf\Rshake\c[6]Лона:\C[0] З-Золото?!
+\SETpl[CecilyWtf]\PLF\prf\C[4]Сесилія：\C[0] Так, золоті монети. Це дрібниці.
+\SETpl[CecilyShy]\PLF\prf\C[4]Сесилія:\C[0] Я тобі життям зобов'язана. Якщо буде потрібна допомога – звертайся.
+\m[triumph]\plf\Rshake\c[6]Лона:\C[0] Дякую вам!
+\SETpr[GrayRatConfused]\c[4]Грейрат:\C[0] ......
+
+Cecily/SaveQuest_reward3
+\SETpl[CecilyShy]\PLF\prf\C[4]Сесилія：\C[0] Загалом... Ось, ти заслужила.
+\m[triumph]\plf\Rshake\c[6]Лона:\C[0] Дякую!
+\SETpr[GrayRatConfused]\c[4]Грейрат:\C[0] ......
+
+Cecily/Comp_disband
+\SETpl[CecilyWtf]\PLF\prf\C[4]Сесилія:\C[0] Тск! Просто отак підеш?
+
+Cecily/Comp_disbandAr
+\SETpl[CecilyWtfAr]\PLF\prf\C[4]Сесилія:\C[0] Тск! Просто отак підеш?
+
+#################################################################### ADAN QU
+
+Cecily/QuestMilo_4and5
+\CBct[20]\CamCT\m[flirty]\plf\Rshake\c[6]Лона:\C[0] Вибачте...
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Сесилія：\C[0] Вибач, у нас дуже багато справ цими днями.
+\CBct[8]\m[sad]\plf\Rshake\c[6]Лона:\C[0] Оу, добре...
+
+#################################################################### Quest Hijack
+
+Cecily/QuestHikack7_1
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесілія:\C[0] Гей, Лоно! Іди сюди!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Що трапилося?
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\PRF\c[4]Грейрат:\C[0] *Кхм*.....
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ммм?
+\CBmp[Cecily,8]\SETpl[CecilyShy]\PLF\prf\C[4]Сесилія:\C[0] Тс......
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесилія：\C[0] Тут така справа... Нам потрібна твоя допомога.
+\CBct[2]\m[normal]\plf\PRF\c[6]Лона:\C[0] Допомога з чим?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Сесілія:\C[0] Грейрат!
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Грейрат:\C[0] Так...
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\m[confused]\PLF\prf\c[4]Грейрат:\C[0] Міс Лона, вам відомий \c[4]Міло фон Рудезінд\C[0]?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Звичайно, він найбагатша людина в Ноері, чи не так?
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\Lshake\prf\c[4]Грейрат:\C[0] Так, саме так, він фактично є правителем Ноера.
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatConfused]\Lshake\prf\c[4]Грейрат:\C[0] А також работоргівцем, відповідальним за поневолення біженців.
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\Lshake\prf\c[4]Грейрат:\C[0] Поки він залишається на цій посаді, рабство і продаж нових рабів не припиниться...
+
+Cecily/QuestHikack7_2
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Хмм...
+\CBmp[Cecily,20]\SETpr[CecilyWtf]\plf\Rhake\C[4]Сесілія:\C[0] Досить! Давайте залишимо цю тему!
+\CBmp[UniqueGrayRat,2]\SETpl[GrayRatConfused]\Lshake\prf\c[4]Грейрат:\C[0] Так.
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесилія:\C[0] Ми збираємося влаштувати облаву на евакуаційний караван!
+\CBct[20]\m[wtf]\plf\Rshake\c[6]Лона:\C[0] А?!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесилія:\C[0] Вони забирають тих, що вижили з фронту і продають їх у рабство!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Що?!
+\CBmp[Cecily,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]Сесілія:\C[0] Це люди з Сібаріса! Піддані Королівства Інгаленд!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесілія:\C[0] Там можуть бути твої друзі! Родичі! Ти збираєшся просто сидіти та дивитися?!
+\CBct[20]\m[tired]\plf\Rshake\c[6]Лона:\C[0] Це...
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесілія:\C[0] Вірно! Це може зробити тебе ворогом Рудезіндів!
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесилія:\C[0] Адже ти знаєш, яка сила їх підтримує, так?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Сесилія：\C[0] Час ще є. У тебе є \c[4]5 днів\C[0], щоб все обміркувати, перш ніж дати мені свою відповідь.
+
+Cecily/QuestHikack8_1
+\board[Порятунок Біженців]
+Завдання: Напасти на караван, що перевозить біженців
+Нагорода：Золота Монета х3\i[581]
+Клієнт: Сесілія
+Повторюваність：Одноразове
+Вирушайте на північ разом із Сесилією та Грейратом на перехоплення караван біженців біля Твердині Року.
+За Народ! Слава кличе Інгаленд!
+
+Cecily/QuestHikack8_2_opt
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]Сесилія:\C[0] Ну що, вирішила? \optB[Я ще думаю,Я з вами!]
+
+Cecily/QuestHikack8_2_yes
+\CBct[20]\m[serious]\plf\Rshake\c[6]Лона:\C[0] Я вирішила! Я піду та допоможу цим людям!
+\CBmp[Cecily,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]Сесілія:\C[0] !!!!!!
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Що таке?
+\CBmp[Cecily,20]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія:\C[0] Я думала, ти не погодишся...
+\CBmp[UniqueGrayRat,2]\SETpl[GrayRatNormal]\Lshake\prf\c[4]Грейрат:\C[0] Дякую вам, Міс Лоно.
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона:\C[0] Нема за що!
+
+#################################################################### Quest in tavern
+
+Cecily/12_opt
+У чому річ?
+
+Cecily/KnownBegin12SAD
+\CBid[-1,8]\SETpl[CecilyFailed]\Lshake\prf\C[4]Сесілія:\C[0] Ехх\..\..\..
+
+GrayRat/QuestHikack12
+\CBid[-1,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]Грейрат:\C[0] Поговоріть з міс, можливо, ви можете допомогти їй.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ох?
+
+Cecily/KnownBegin_12
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] У вас все добре?
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]Сесилія:\C[0] Я бачила таких людей раніше.
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]Сесилія：\C[0] Але це було пов'язано з тим, що вони перебували в епіцентрі жахливої ​​катастрофи..... Чи не так?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Про що ви говорите...?
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]Сесилія:\C[0] Навіть якщо ми дамо їм свободу, все, чого вони хочуть, - це бути поневоленими?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] А? Ви маєте на увазі рабів, яких ми відпустили?
+\CBid[-1,8]\SETpl[CecilyFailed]\Lshake\prf\C[4]Сесилія：\C[0] Так.....
+\CBid[-1,20]\SETpl[CecilySad]\Lshake\prf\C[4]Сесилія：\C[0] Нам, дворянам, завжди говорили, що такі люди - це просто власність. Лише трудовий ресурс.
+\CBid[-1,20]\SETpl[CecilyFailed]\Lshake\prf\C[4]Сесилія：\C[0] Я завжди вважала, що це неправильно. Що люди мають бути однаковими, рівними? Може, я помилялася?
+
+Cecily/QuestHikack12_OPT
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ухх\...\...\... \optB[Я теж не знаю,Йдемо зі мною]
+
+Cecily/QuestHikack12_OPT_cancel
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Я теж не розумію.
+\CBid[-1,5]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія:\C[0] Тск...
+
+Cecily/QuestHikack12_OPT_ANS
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ммм\...\...\...\CBct[9]\m[triumph]\Rshake Я зрозуміла!
+\CBid[-1,2]\SETpl[CecilyFailed]\Lshake\prf\C[4]Сесилія:\C[0] Зрозуміла що...?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона:\C[0] Ходімо зі мною, я проведу вас за міські стіни?
+\CBid[-1,8]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія：\C[0] Е........... За стіни?
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Грейрат:\C[0] Хмм......
+\CBid[-1,8]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія:\C[0] Ммм...
+\CBid[-1,6]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесілія:\C[0] Добре! Збирайтеся, ми негайно виходимо!
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Грейрат:\C[0] Так, Міледі.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Що? Зараз? Негайно? Я ще не вигадала, що тобі пояснити!
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесилія:\C[0] Ти розумна простолюдина, \c[6]Лона\C[0], я впевнена, що ти розберешся.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е... Це була похвала, так?
+
+Cecily/QuestHikack12_OPT_ANS_BRD
+\board[Своїми Словами]
+Завдання:Піти з Сесилією до \C[4]Східних Ворот Ноера:\C[0]
+Нагорода：Ні
+Клієнт: Сесілія
+Термін виконання：Ні
+Ці розпещені багатії гадки не мають про справжнє життя.
+Розтлумач їй, щоб вона навчила їх, хто такі, чорт забирай, щури з нетрів.
+
+########################################### in NoerRelayOut
+
+Cecily/QuestHikack13_0
+\CBfB[8]\SETpl[CecilyShyAr]\Lshake\prf\C[4]Сесилія:\C[0] Отже.... Що ми тут робимо?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ну.... Я хотіла показати вам нас, простолюдинів.
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Сесилія:\C[0] Я бачила. Дорогою сюди я вже бачила цілу купу таких людей.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е... І ви говорили з кимось із них?
+\CBfB[8]\SETpl[CecilyAngryAr]\PLF\prf\C[4]Сесилія：\C[0] \..\..\..
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Не може бути. Правда? Тільки зі мною?
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Сесилія:\C[0] У цьому немає необхідності! Я чудово розумію, що роблю!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем... Та невже...
+
+Cecily/QuestHikack13_1
+\CBct[9]\m[normal]\plf\PRF\c[6]Лона:\C[0] А! Черниці з Монастирю Святих роздають їжу. Ходімо подивимося.
+
+Cecily/QuestHikack14_1
+\CBmp[Nur1,20]\c[4]Черниця А:\C[0] Приношу всім свої найглибші вибачення, у нас залишилася остання миска.
+\CBmp[Nur2,20]\c[4]Черниця Б：\C[0] Сьогоднішня Благодать добігла кінця. Ті, кому забракло, будь ласка, приходьте ще.
+\CBmp[RufC14M1,20]\c[4]Біженець:\C[0] Дякую! О, дякую тобі, Святий! Слава Святому!
+\CBmp[RufC14F1,20]\c[4]Біженець:\C[0] Ні! Зачекайте! В мене двоє голодних дітей!
+\CBmp[RufC14M2,20]\c[4]Біженець:\C[0] Це несправедливо!
+\CBmp[RufC14F2,20]\c[4]Біженець:\C[0] Це має бути моїм! Це те, що Святий винен мені!
+
+Cecily/QuestHikack14_1CECtoLona
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Сесилія:\C[0] Це те, що ти хотіла мені показати?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Сесилія:\C[0] Я бачила це вже багато разів. Що зміниться цього разу?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Емм.......
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Я і сама не знаю, що сказати, але подивіться на них. У глибині душі вони приймають «допомогу» як належне.
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Вам не здається, що допомога цим людям - марна трата сил?
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Сесилія：\C[0] \..\..\..
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Сесилія:\C[0] Але, \c[6]Лона\C[0] адже ти не така, правда? Хіба це не говорить про те, що серед цих людей є й ті, хто хоче досягти більшого?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е.... Я не думаю, що я чимось відрізняюся від них.
+\CBct[20]\m[CecilyShyAr]\plf\PRF\c[6]Лона:\C[0] Один невірний крок - і я стану такою ж.
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]Сесилія：\C[0] \..\..\..
+
+Cecily/QuestHikack14_2
+\CBmp[RufC14M3,20]\c[4]Біженець:\C[0] Я хочу свою їжу! Зараз!
+\CBmp[RufC14F1,20]\c[4]Біженець:\C[0] Благаю вас! Пощадіть!
+
+Cecily/QuestHikack14_2_1
+\CBmp[Nur1,6]\c[4]Черниця А：\C[0] Старша Сестра, справи кепські.
+
+Cecily/QuestHikack14_2_2
+\CBmp[Nur2,20]\c[4]Черниця Б:\C[0] Всім заспокоїтися!
+
+Cecily/QuestHikack14_2_2_1
+\CBmp[RufC14M3,5]\c[4]Біженець:\C[0] Дай сюди!
+\CBmp[RufC14M1,20]\c[4]Біженець：\C[0] Ні! Це моє!
+
+Cecily/QuestHikack14_WisOPT
+\m[fear]Що мені робити?\optD[Зупинити їх,Пригрозити їм<r=HiddenOPT1>]
+
+Cecily/QuestHikack14_2_3
+\CBmp[RufC14M3,5]\c[4]Біженець:\C[0] Помри!
+
+Cecily/QuestHikack14_2_Stop0
+\CBct[6]\m[shocked]\Rshake\c[6]Лона:\C[0] Ах.... Прокляття!
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prh\C[4]Сесілія:\C[0] Гей! Припиніть!
+
+Cecily/QuestHikack14_2_Stop1
+\CBmp[RufC14M3,5]\c[4]Біженець:\C[0] Не наближайся!
+
+Cecily/QuestHikack14_2_4
+\CBmp[RufC14M3,5]\c[4]Біженець:\C[0] Моє! Це все моє!
+\CBmp[Nur1,6]\c[4]Черниця А:\C[0] \{Яххххххх!!!
+\SETpr[GrayRatNormalAr]\PRF\c[4]Грейрат:\C[0] Я готовий, міледі.
+\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Сесілія:\C[0] Чорт забирай! Вперед!
+
+Cecily/QuestHikack14_WisOPTend0
+\CBct[20]\m[serious]\Rshake\c[6]Лона:\C[0] \{Не рухатися!
+
+Cecily/QuestHikack14_WisOPTend1
+\CBct[20]\m[angry]\Rshake\c[6]Лона:\C[0] Погляньте на воїнів поруч зі мною, вони здаються страшенно сильними, чи не так?
+\CBct[20]\m[serious]\Rshake\c[6]Лона:\C[0] Якщо ви не оговтаєтеся, вони будуть бити вас до тих пір, поки у вас не запаморочиться голова!
+
+Cecily/QuestHikack14_WisOPTend2
+\CBmp[RufC14M3,0]\SETpr[GrayRatNormalAr]\SETpl[CecilyWtfAr]\PLF\PRF ........?!
+\CBmp[RufC14M3,6]\plf\prf\c[4]Біженець：\C[0] Ееєе! Вибачте!
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]Сесилія：\C[0] Почекай, у мене є до тебе кілька запитань.
+\CBmp[RufC14M3,2]\plf\c[4]Біженець:\C[0] Що?! Ні! Стривайте, я невинний!!
+
+Cecily/QuestHikack14_WisOPTend3
+\CBct[20]\m[flirty]\Rshake\c[6]Лона:\C[0] Фуф.
+
+Cecily/QuestHikack14_KillWay1
+\board[Освіта в Суспільстві]
+Завдання: Розібратися з порушниками порядку
+Нагорода：Ні
+Клієнт: Сесілія
+Термін виконання：Ні
+
+################################################################# 14 to 15
+
+Cecily/QuestHikack14_to15_1
+\CBmp[RufC14end,6]\plf\c[4]Біженець:\C[0] Ні! Не вбивайте мене! Я був неправий!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]Сесилія：\C[0] Не нервуйте, я просто хочу запитати вас, хлопці, що за...
+\CBmp[RufC14end,20]\plf\c[4]Біженець:\C[0] Мене змусили це зробити, дехто смикає за ниточки.
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\C[4]Сесілія:\C[0] \..\..\..
+\CBfB[1]\SETpl[CecilyShockedAr]\Lshake\C[4]Сесилія:\C[0] Що ти сказав?!
+\CBmp[RufC14end,6]\plf\c[4]Біженець:\C[0] Вони сказали, щоб я зчинив шум, чим більше, тим краще! Чим більше божевілля, тим вища плата.
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\C[4]Сесилія:\C[0] І хто ж ці «вони»!
+\CBmp[RufC14end,20]\plf\c[4]Біженець:\C[0] Ні! Я не можу сказати більше, вони вб'ють мене!
+\ph\CBfB[5]\..\..\..
+
+Cecily/QuestHikack14_to15_2
+\CBmp[RufC14end,6]\plf\c[4]Біженець:\C[0] \{Аххх!!!!
+
+Cecily/QuestHikack14_to15_3
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]Сесилія:\C[0] Ти хочеш померти? Ти прагнеш смерті, чи не так?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]Сесилія:\C[0] Краще викладай все, що знаєш, прямо зараз, інакше побачиш Святих!
+\CBmp[RufC14end,6]\plf\c[4]Біженець:\C[0] Ні! Не вбивайте мене! Я розповім тобі все! Прямо зараз!
+
+Cecily/QuestHikack14_to15_4
+\narr\..\..\..\..
+
+Cecily/QuestHikack14_to15_5
+\CBct[20]\m[confused]\PRF\c[6]Лона:\C[0] Е... Про що ви тут говорите?
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]Грейрат:\C[0] Міледі.
+\CBfB[20]\SETpr[CecilyWtfAr]\Rshake\C[4]Сесілія:\C[0] Знаю!
+\CBfB[20]\SETpl[CecilyAngryAr]\m[confused]\Lshake\prf\C[4]Сесілія:\C[0] Гей, Лоно! Нам час йти!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ох!
+
+Cecily/QuestHikack14_to15_BRD
+\board[Повернутись до Палаючого барильця]
+Завдання: Повернутися до Палаючого барильця
+Нагорода：Ні
+Клієнт: Сесілія
+Термін виконання：Ні
+
+Nun/Thanks
+\c[4]Черниця：\C[0] Дякую вам за допомогу. Хай освітить Святий ваш шлях.
+
+######################################################################### qu15 in tavern
+
+Cecily/15to16_1
+\CBmp[Cecily,20]\SETpr[CecilyWtf]\plh\plf\Rshake\C[4]Сесілія:\C[0] Чорт забирай! Що це було, чорт забирай?!
+
+Cecily/15to16_2
+\CBmp[Cecily,20]\SETpr[CecilyAngry]\plh\plf\Rshake\C[4]Сесілія:\C[0] Грейрат! Розслідуй цю справу, негайно!
+
+Cecily/15to16_3
+\CBmp[UniqueGrayRat,8]\SETpr[CecilyWtf]\SETpl[GrayRatConfused]\Lshake\prf\C[4]Грейрат:\C[0] Звичайно, Міледі.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е.... Так що відбувається?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесілія:\C[0] Хм.....
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесилія:\C[0] Слухай. Схоже, хтось навмисне провокує ворожнечу між жителями \c[6]Сібаріса\C[0] та \c[4]Ноера\C[0]!
+
+Cecily/15to16_4
+\CBct[1]\m[shocked]\plf\PRF\c[6]Лона:\C[0] Що? Навмисно? Навіщо комусь цим займатись?
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесілія:\C[0] Це поки неясно, ми розбиратимемося!
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесілія:\C[0] Грейрат займеться розслідуванням. На цьому розходимося.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Чи можу я чимось допомогти?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесілія:\C[0] Зараз?\..\..\..\..\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake Ні!
+\CBct[6]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ахх.... Добре.
+\BonMP[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\c[4]Грейрат:\C[0] ....Я вирушаю.
+
+Cecily/15to16_5
+\CBmp[Cecily,6]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесілія:\C[0] Гей! Почекай!
+\CBmp[Cecily,6]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилля：\C[0] Просто\..\..\.. Будь обережний там...
+\BonMP[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\PRF\c[4]Грейрат:\C[0] ......
+
+######################################################################### qu16 in tavern2
+
+Cecily/16to17_opt
+Ти повернувся?
+
+Cecily/16to17_1
+\CBct[3]\m[pleased]\Rshake\c[6]Лона:\C[0] Ах! Грейрате, ти повернувся!
+\CBmp[CecilyNormal,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія:\C[0] Мхм, він повернувся.
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\c[4]Грейрат:\C[0] .......
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Отже, ви що-небудь з'ясували?
+\CBmp[Cecily,20]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія：\C[0] Не хотілося б говорити про це, але \..\..\..\..\..\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake Нам нам потрібна твоя допомога.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ух.... Що потрібно зробити?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія：\C[0] Нам потрібно щоб ти пішла в лігво \c[6]Банди Широке Лезо\C[0] і викрала деякі документи.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Вкрасти???? \c[4]У Банди Широке Лезо:\C[0]?!
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесілія:\C[0] Не варто турбуватися, вони вороги.
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона:\C[0] Ні.... Я маю на увазі...
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\c[4]Грейрат:\C[0] .....Їй страшно. Лона не воїн.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Е.......
+\CBmp[Cecily,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія:\C[0] Ох? Але я думаю, вона впорається.
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесилія:\C[0] Слухай, те, що вона змогла подолати все це, вже говорить про те, що вона не слабачка.
+\CBmp[Cecily,8]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія：\C[0] І зараз не так багато людей, яким ми можемо довіряти. Єдина, хто може це зробити, це ти.
+
+Cecily/16to17_2
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ехх.... Добре. Я зроблю все, що в моїх силах.
+\CBmp[Cecily,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія:\C[0] Ось, тримай.
+
+Cecily/16to17_3
+\CBct[20]\m[shocked]\plf\PRF\c[6]Лона:\C[0] Ого?!
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесилія：\C[0] Використай ці гроші, щоб добре підготуватися. Озбройся якнайкраще.
+\CBct[3]\m[pleased]\plf\PRF\c[6]Лона:\C[0] Дякую!
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Так що саме мені потрібно знайти?
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесилія:\C[0] Документи про останні угоди з \c[6]Фірмою Рудесінд\C[0]. Візьми стільки, скільки зможеш знайти.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Зрозуміла.
+
+Cecily/16to17_4
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія：\C[0] У мене є ще інші справи з Грейратом.
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесилія:\C[0] На тобі \c[6]Банда Широке Лезо\C[0]. Їхнє лігво знаходиться недалеко від Провулків.
+\CBct[3]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Зрозуміла.
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]Сесілія:\C[0] Будь обережна.
+
+Cecily/16to17_END_brd
+\board[Крадіжка документів]
+Завдання: Увійти в табір \C[6]Банди Широке Лезо:\C[0] та вкрасти торгові документи
+Нагорода：Ні
+Клієнт: Сесілія
+Повторюваність：Одноразове
+Хтось провокує ворожнечу між біженцями \c[4]Сібаріса\C[0] та \c[4]Ноэром\C[0].
+Схоже, що \c[4]Банда Широке Лезо\C[0] має до цього відношення.
+Проникніть у лігво \c[4]Банди Широке Лезо\C[0] і вкрадіть пов'язані з цим документи.
+
+Cecily/16to17_END
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Хмм.... \c[4]Банда Широке Лезо\C[0]?
+\CBct[6]\m[flirty]\PRF\c[6]Лона:\C[0] Чи зможу я впоратися з цим...?
+\CBct[6]\m[serious]\Rshake\c[6]Лона:\C[0] Дідько! Я мушу взяти себе в руки! Я впораюся!
+
+######################################################################### qu17 IN GangBase
+
+NoerGangBase/enter
+\cg[map_region_NoerRoad]\m[confused]\PRF\c[6]Лона:\C[0] \..\..\..\..Це те саме місце?
+\cg[event_Sleep]\m[flirty]\PRF\c[6]Лона:\C[0] Схоже, що охорона тут досить слабка...
+
+Nap/failed_onCecilyQuest0_Maani
+\SETpl[MaaniNormal]\Lshake\prf\C[4]Маані:\C[0] Її не можна залишати. Жодних свідків.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]Бандит B：\C[0] Правильно, вбити її!
+
+Nap/failed_onCecilyQuest0_Bandit
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Бандит А：\C[0] Але наказ згори — не залишати свідків в живих.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]Бандит B：\C[0] Правильно, вбити її!
+
+NoerGangBase/SleepGuard
+\CBmp[SleepGuard,19]\m[confused]\c[6]Лона:\C[0] Хмм......
+\CBmp[SleepGuard,12]\m[flirty]\c[6]Лона:\C[0] О? Охоронці халтурять? Пощастило!
+
+QuProg/17to18_1
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Що тут у нас.
+
+QuProg/17to18_2
+\CBct[20]\m[flirty]\PRF\c[6]Лона:\C[0] Хм... Схоже на бухгалтерську книгу. Це має бути воно.
+
+########################################################################## 19 LONA要逃到BACK STREET
+
+QuProg/17to19_1
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] Хмм.
+
+QuProg/17to19_2
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\C[4]Маані:\C[0] Поставтеся до цього серйозніше, містере Уейн.
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\C[4]Маані:\C[0] Мушу визнати\..\..\.. Вашого так званого «заворушення» виявилося недостатньо.
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]Уейн:\C[0] Недостатньо? Все було зроблено відповідно до ваших побажань.
+\CBmp[Maani,20]\SETpl[MaaniAngry]\Lshake\prf\C[4]Маані:\C[0] \C[6]Ворожість\C[0], про яку ми говорили, була не лише... цим. Господар розчарований у тобі.
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]Уейн:\C[0] Такі речі не відбуваються відразу після того, як вони залишають ваш рот. Тут потрібен час, щоб розгорітися!
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]Уейн:\C[0] Мало того, ви хочете, щоб це сталося так, щоб жителі Ноера могли це побачити! Це не станеться так швидко, як вам хотілося б!
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\prf\C[4]Маані:\C[0] Це не мої проблеми.
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн:\C[0] Чорт! Якщо ви хочете, щоб все було зроблено швидко та добре, на це потрібні кошти!
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн:\C[0] Вам краще підвищити плату або знайти когось іншого!
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\prf\C[4]Маані:\C[0] \..\..\..
+\CBmp[Maani,8]\SETpl[MaaniAngry]\Lshake\prf\C[4]Маані:\C[0] Зачекайте\..\..\..
+
+QuProg/17to19_3
+\CBmp[GangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\C[4]Уейн:\C[0] Що? Тільки не кажіть мені, що у всіх вас закінчилися гроші?
+
+QuProg/17to19_4
+\CBct[6]\m[hurt]\Rshake\c[6]Лона:\C[0] \{Ахх!!!
+\CBmp[GangBoss,20]\SETpl[NoerGangBossAngry]\Lshake\prf\C[4]Уейн:\C[0] Що за чорт! Ви збожеволіли?
+
+QuProg/17to19_5
+\CBmp[Maani,20]\SETpr[MaaniAngry]\plf\Rshake\C[4]Маані:\C[0] Це щур.
+\CBmp[GangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\C[4]Уейн:\C[0] \{Що?!
+\CBmp[GangBoss,20]\SETpl[NoerGangBossAngry]\Lshake\prf\C[4]Уейн:\C[0] \{Схопити її! Живою!
+
+QuProg/17to19_6
+\CBmp[GangElite,6]\SETpl[MobHumanWarrior]\Lshake\C[4]Бандит：\C[0] Бос, ми дійсно збираємося оголосити війну тим, хто нагорі?
+\CBmp[GangBoss,5]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн：\C[0] Не її, ідіот! Я говорю про того щура у задній кімнаті!
+\CBct[1]\m[shocked]\plh\Rshake\c[6]Лона:\C[0] Справи кепські!!
+
+QuProg/17to18_END
+\board[Вкрадені Документи]
+Вийдіть звідси і поверніться в \c[6]Палаюче барильце:\C[0].
+Потім віддайте \c[6]бухгалтерську книгу:\C[0]Сесилії:\C[0].
+
+##########################################################################
+
+QuProg/20_1
+\SETpl[NoerGangBossAngry]\Lshake\C[4]Уейн：\C[0] Вона йде до Провулків! Схопити її!
+
+QuProg/20to21_1
+\CBct[6]\m[shocked]\Rshake\c[6]Лона:\C[0] Бляха! Бляха! Бляха!
+
+QuProg/20to21_2
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\Rshake\C[4]Уейн:\C[0] Туди!
+\CBmp[Maani,8]\SETpl[MaaniNormal]\Lshake\prf\C[4]Маані:\C[0] Здається, я її десь бачила .......?
+
+QuProg/20to21_3
+\CBmp[GangBoss,2]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн:\C[0] Хто вона?!
+\CBmp[Maani,20]\SETpl[MaaniAngry]\Lshake\prf\C[4]Маані:\C[0] Ні, занадто темно. Не роздивитися.
+
+QuProg/20to21_4
+\CBmp[GangBoss,8]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн:\C[0] Чорт.
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн:\C[0] Гей! Жвавіше, хлопці! Вона там!
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн:\C[0] \{Зарубайте її!!
+
+QuProg/20to21_5
+\CBct[6]\m[terror]\plh\Rshake\c[6]Лона:\C[0] Що ж робити? Що робити?
+
+QuProg/20to21_6
+\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит:\C[0] Гей! Вона тут!
+
+QuProg/20to21_7
+\CBct[1]\m[terror]\plh\Rshake\c[6]Лона:\C[0] АААААА!!!
+
+QuProg/20to21_rg2Qmsg0
+Не найкраще місце!
+
+QuProg/20to21_Exit0
+\CBct[1]\m[shocked]\Rshake\c[6]Лона:\C[0] !!!!!
+\CBmp[EndDn1,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]Бандит:\C[0] Хах, попалася.
+\CBmp[EndDn2,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]Бандит:\C[0] Здавайся по-доброму, або ми влаштуємо тобі болісну смерть.
+
+QuProg/20to21_Exit1
+\CBmp[EndUp1,20]\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит:\C[0] Ось сука! Все ще намагаєшся втекти!
+\CBmp[EndUp2,20]\SETpr[MobHumanCommoner]\Rshake\C[4]Бандит:\C[0] Вбити її!
+
+QuProg/20to21_Exit2
+\CBct[6]\m[bereft]\Rshake\c[6]Лона:\C[0] Вибачте! Вибачте! Вибачте!
+\CBct[20]\m[bereft]\Rshake\c[6]Лона:\C[0] Я була неправа... будь ласка, не треба... змилуйтесь....
+
+QuProg/20to21_Exit3
+\CBmp[EndUp1,20]\SETpl[MobHumanCommoner]\Lshake\C[4]Бандит:\C[0] Е?! Хто ви такі?
+\CBmp[Cecily,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]Сесилія:\C[0] Хотіли вбити її? А у нас дозволу спитали?
+\CBmp[GrayRat,20]\SETpr[GrayRatNormalAr]\plf\Rshake\C[4]Грейрат:\C[0] Вибач, ми запізнилися.
+\CBct[1]\m[shocked]\Rshake\c[6]Лона:\C[0] Ви \..\..\..\m[triumph]Прийшли врятувати мене?
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]Сесілія:\C[0] Випадково опинилися поблизу. Дай нам розібратися з цим — поговоримо, як тільки ти виберешся.
+
+QuProg/20to21_Exit3_adam0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\C[4]Адам:\C[0] Гей! Це не входило до нашої угоди. Мені потрібна доплата.
+\CBmp[Cecily,20]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Сесілія:\C[0] Звичайно. Захищай це дівчисько.
+
+QuProg/20to21_SE
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\Rshake\C[4]Уейн：\C[0] Зачекайте\..\..\..
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\Rshake\C[4]Уейн：\C[0] Не може бути. Вони влаштували тут різанину?
+\CBmp[Maani,8]\SETpl[MaaniNormal]\PLF\prf\C[4]Маані:\C[0] ........
+\CBmp[Maani,8]\SETpl[MaaniAngry]\Lshake\prf\C[4]Маані:\C[0] Так...
+\CBmp[GangBoss,6]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]Уейн:\C[0] Та ти знущаешся!?
+
+QuProg/20to21_Exit4BRD
+\board[Тікати]
+Вийдіть звідси і поверніться в \c[6]Палаюче барильце:\C[0].
+Після чого, віддайте \c[6]бухгалтерську книгу:\C[0] \c[4]Сесилії:\C[0].
+
+########################################################################## 21 and 18
+
+QuProg/18_begin1
+\CBct[6]\m[flirty]\PRF\c[6]Лона:\C[0] Е-е... Я повернулася.
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія:\C[0] А, Лона.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormal]\Lshake\prf\C[4]Грейрат:\C[0] Ти повернулася цілою й неушкодженою......
+\CBct[3]\m[triumph]\plf\PRF\c[6]Лона:\C[0] Так, все добре, я в нормі.
+\CBct[3]\m[normal]\plf\PRF\c[6]Лона:\C[0] Це, мабуть, те, що ви шукали?
+
+QuProg/18_begin2
+\CBmp[Cecily,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія:\C[0] Хм... Дай подивитись...
+
+QuProg/18_begin3
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\C[4]Сесілія:\C[0] ........
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Так що... Чи вдалося щось знайти?
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\PLF\prf\C[4]Сесилія：\C[0] Ну... Тут суцільні числа\..\..\..\..\..\..\SETpl[CecilyShy]\Lshake Ні, я не можу прочитати це....
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Лона:\C[0] Так? Е....
+\CBct[3]\m[normal]\plf\PRF\c[6]Лона:\C[0] Добре! Розберемося разом!
+
+QuProg/18_begin3_narr
+\narr Лона допомагає Сесилії розібратися в бухгалтерській книзі\..\..\..
+\narr Документ рясніє фінансовими угодами \c[6]Фірми Рудесінд\C[0]\..\..\..
+\narr Тим часом по обидва боки міських стін назрівають масові заворушення\..\..\..
+
+QuProg/18to22_1
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]Сесилія:\C[0] Схоже, все нерозривно пов'язане з\c[6]Фірмою Рудесінд\C[0].
+
+QuProg/21to43_1
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]Сесилія:\C[0] Схоже, все нерозривно пов'язане з \c[6]Міло\C[0].
+
+QuProg/18_begin4
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] ......Га?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Тобто ви хочете сказати, що люди Рудесіндів навмисно розпалювали конфлікти в місті та навколо нього?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] І зіштовхували біженців між собою?!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесилія:\C[0] Як я і передбачала, за цим, звичайно ж, стояли люди \c[6]Рудесіндів\C[0].
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Але навіщо їм це?!
+
+QuProg/18_begin5
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\C[4]Грейрат:\C[0] Стабільність... їхньою метою була стабільність у стінах Ноєра.......
+\CBmp[Cecily,5]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесілія:\C[0] Це безглуздо!
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\C[4]Грейрат:\C[0] Міледі, нам час забути про це. Цю ситуацію ми не можемо змінити.
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]Сесілія:\C[0] Стули пельку! Я не здамся!
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\C[4]Грейрат:\C[0] \..\..\..Перепрошую, я зайшов надто далеко.
+\CBct[8]\m[confused]\PRF\c[6]Лона:\C[0] .......
+
+QuProg/18_begin6
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]Сесілія:\C[0] Лоно, ти заслужила це.
+
+QuProg/18_begin7
+\CBct[3]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] !!!
+\CBct[3]\m[pleased]\plf\PRF\c[6]Лона:\C[0] Дякую!
+
+######################################################################### QuProgSaveCecily 23 to 24 43 to 4
+
+Cecily/22-43-PLUS
+\CBct[8]\m[flirty]\plf\c[6]Лона:\C[0] Хочеш, ну, поговорити?
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія：\C[0] Так\..\..\..\ Хотіла вибачитися перед тобою.
+\CBid[-1,6]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія:\C[0] За те, що через мене ти весь час ризикуєш. Вплутуєшся в проблеми заради мене. Я б не наражала тебе на небезпеку, просто... ти єдина, кому ми з Грейратом можемо довіряти зараз.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Так че там\..\..\..\m[pleased] без проблем.
+\CBct[20]\m[normal]\plf\PRF\c[6]Лона:\C[0] Тим більше, ви теж витратилися на мене не однією монетою.
+\CBid[-1,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]Сесилія：\C[0] Так\..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Що таке? Щось не так?
+\CBid[-1,6]\SETpl[CecilyShy]\Lshake\prf\C[4]Сесилія：\C[0] Неважливо, зараз не час.
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] ....Ох?
+
+23
+Cecily/23to24_opt
+DEV
+
+#dev 23
+Cecily/23to24_0
+asdasdasd

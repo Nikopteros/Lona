@@ -1,0 +1,123 @@
+UniquePigBobo/CompData
+\board[種豬波波]
+\C[2]位置：\C[0]前。
+\C[2]戰鬥類型：\C[0]近戰。
+\C[2]陣營：\C[0]動物。
+\C[2]敵對：\C[0]中立、自訂。
+\C[2]需求：\C[0]洛娜的下體需於\C[4]濕了\C[0]狀態。
+\C[2]期限：\C[0]2天。
+\C[2]獨立：\C[0]角色死亡後不重生。
+\C[2]備註：\C[0]\C[4]妓女\C[0]或\C[4]墮落\C[0]天賦可與其交配增加期限。
+曾獲得席芭莉絲數次豬公獎的種豬波波，牠的身形與陰莖比起它的同類要大上好幾號。
+牠認定了洛娜是隻母豬，並且非常想與洛娜這頭瘦小的母豬交配。
+
+UniquePigBobo/begin
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,4]\c[4]波波：\c[0]    嚄嚄♥♥ 嚄♥♥♥♥
+
+UniquePigBobo/Comp_disband
+\SETpl[BoboNormal]\Lshake\SndLib[SwineDed]\CBid[-1,5]\c[4]波波：\c[0]    嚄嚄！！！！
+
+UniquePigBobo/Comp_win
+\SETpl[BoboYell]\Lshake\SndLib[SwineAtk]\CBid[-1,20]\c[4]波波：\c[0]    \{嚄~~~♥♥♥
+
+UniquePigBobo/Comp_failed
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,8]\c[4]波波：\c[0]    嚄嚄.....
+
+UniquePigBobo/Extension0_k0_NotMated
+\SETpl[BoboYell]\plf\narrOFF\CBct[2]\m[confused]\Rshake\c[6]洛娜：\c[0]    你到底想幹嘛阿？
+\SETpl[BoboYell]\plf\BonID[-1]\CBct[6]\m[flirty]\Rshake\c[6]洛娜：\c[0]    討厭！ 不要聞那裏了啦！
+
+UniquePigBobo/Extension0_k0_MatedB4
+\SETpl[BoboYell]\plf\narrOFF\CBct[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    你...又想要了嗎？！
+
+UniquePigBobo/Extension0_k1
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr波波不斷的嚎叫，表示想與面前的牲畜交配
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narr確定嗎？ 波波太大隻了，且牠不懂得憐香惜玉。
+
+UniquePigBobo/Extension1
+\SETpl[BoboYell]\plf\CBct[6]\m[shy]\plf\c[6]洛娜：\c[0]    嗚.....
+
+UniquePigBobo/Extension2
+\SETpl[BoboYell]\plf\CBct[6]\m[fear]\plf\c[6]洛娜：\c[0]    乖乖哦，來吧。
+
+UniquePigBobo/Extension3_loop
+\SETpl[BoboYell]\Lshake\SndLib[pigQuestion]\CBid[-1,5]\c[4]波波：\c[0]    嚄嚄♥♥ 嚄♥♥♥♥
+\narr波波的射精依然持續著.....
+
+UniquePigBobo/OvermapPop0
+嚄~~~♥♥♥
+
+UniquePigBobo/OvermapPop1
+嚄嚄！ 嚄！！
+
+UniquePigBobo/SetupFateEnemy
+設定波波的敵對目標。\optD[還原,攻擊邪惡,攻擊正義,動物<r=HiddenOPT0>,類獸人<r=HiddenOPT1>,魚人<r=HiddenOPT2>,肉魔<r=HiddenOPT3>,不死<r=HiddenOPT4>]
+
+UniquePigBobo/OMbegin
+\narr\SndLib[SwineDed]遠方傳來了豬的嚎叫聲\..\..\..
+
+#################################################################################################################################################### BanditCamp2
+
+PigBoboQu0/begin0
+\CBct[6]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]洛娜：\c[0]    ！！！！！！！！
+
+PigBoboQu0/begin1
+\CBct[20]\SETpl[BoboYell]\Lshake\m[bereft]\Rshake\c[6]洛娜：\c[0]    不！ 不要吃我！
+
+PigBoboQu0/begin2
+\narr波波溫柔地舔著洛娜的傷口...
+
+PigBoboQu0/begin3
+\CBct[8]\m[fear]\PRF\c[6]洛娜：\c[0]    \..\..\..\m[tired]謝謝？
+
+PigBoboQu0/begin4
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]洛娜：\c[0]    嗚....
+\narr波波將洛娜身上的拘束具扯掉了...
+
+PigBoboQu0/follower_0
+\CBct[8]\SETpl[BoboNormal]\plf\m[confused]\PRF\c[6]洛娜：\c[0]    什麼....？ 你想要做什麼？
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\prf ....
+\CBid[-1,20]\SETpl[BoboNormal]\plf\SndLib[SwineAtk]\.\.\CBct[8]\m[flirty]\PRF\c[6]洛娜：\c[0]    \..\..\..你要我跟著你？
+
+PigBoboQu0/follower_1
+\board[私奔]
+目標：逃離此地
+報酬：無
+委託主：種豬
+期限：單次
+種豬波波表示想幫助面前的小母豬....
+波波表示面前的小母豬與牠是天生一對，但在那之前必須逃離邪惡無毛猿的控制。
+一起獲得自由後要與小母豬生下大量的小豬仔。
+很遺憾，愚笨的波波不知道牠無法讓這隻小母豬懷上小豬仔。
+
+PigBoboQu1/accept0
+\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    好吧.....
+
+PigBoboQu1/accept1
+\CBct[20]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]洛娜：\c[0]    ！！！！！！！！
+\CBct[20]\SETpl[BoboNormal]\plf\m[triumph]\PRF\c[6]洛娜：\c[0]    謝謝..？
+
+PigBoboQu1/ExitFailedQmsg
+波波需鄰近於出口
+
+PigBoboQu1/ExitEnd0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    快追！ 別讓那婊子跑了！
+\CBct[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    ！！！！
+
+PigBoboQu1/ExitEnd1
+\narr波波與面前的小母豬表示牠會在這擋住那些該死的無毛猿。
+\narr我們有緣再見吧...
+\narrOFF\CBct[8]\m[tired]\PRF\c[6]洛娜：\c[0]    ......
+
+PigBoboQu0/WhenPlayerNotCap0
+\CBct[8]\m[confused]\PRF\c[6]洛娜：\c[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]洛娜：\c[0]    好大的豬豬！
+
+PigBoboQu0/WhenPlayerNotCap1
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]洛娜：\c[0]    哇！ 你幹嘛！？ 放開我！！
+
+PigBoboQu0/WhenPlayerNotCap2
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]洛娜：\c[0]    討厭啦！ 不要舔了！
+
+PigBoboQu0/WhenPlayerNotCap3
+\CBct[8]\SETpl[BoboYell]\plf\m[confused]\PRF\c[6]洛娜：\c[0]    這是怎樣....？

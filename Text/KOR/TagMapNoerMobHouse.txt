@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+인신매매범들의 근거지\optB[그만둔다,들어간다]
+
+Camp/MobSeen
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 누구냐!
+\m[shocked]\Rshake\C[6]로나：\C[0] 큰일 났다!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 오호, 아직도 자고 있네.
+\SETpr[MobHumanCommoner]\Rshake\C[4]산적：\C[0] 오늘은 진짜 지쳤다. 먼저 한 발 풀고 오자.
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 너무 심하게 하지 마라, 그래도 물건인데.
+\SETpr[MobHumanCommoner]\Rshake\C[4]산적：\C[0] 상관없잖아. 또 잡아오면 되지.
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 이 꼬맹이는 뭐야?
+\SETpr[MobHumanCommoner]\Rshake\C[4]산적：\C[0] 스스로 물건이 되러 온 거야? 개이득인데!
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 이 꼬맹이가 도망치려 했다고?
+\SETpr[MobHumanCommoner]\Rshake\C[4]산적：\C[0] 손 좀 봐줘야겠네.
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] \{야! 일어나라!
+
+Rogue/NapTorture2
+\m[tired]\C[6]로나：\C[0] 으…?
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 꽉 붙잡아! 몸이 얼마나 버티는지 시험해보겠다!
+\m[terror]\C[6]로나：\C[0] 안 돼! 그만해!
+
+Rogue/NapTorture3
+\m[pain]\C[6]로나：\C[0] \{아파! 아파아아!
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 시시하군, 딴 걸로 놀아보자.
+\m[bereft]\C[6]로나：\C[0] \{잘못했어! 살려줘! 제발 잘못했어!
+
+Rogue/NapRape_withSta_NoFight2
+\m[sad]\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 크큭♥ 크큭♥
+
+Rogue/NapRape1
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 헤헤헤.
+
+Rogue/NapRape3_0
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 이리 와! 내 자지 좀 깨끗하게 해라!
+
+Rogue/NapRape3_1
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 잘 시간 없어! 당장 네 보지로 우리를 시중들어!
+
+Rogue/NapRape3_2
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 여자는 다리 벌리고 내가 실컷 박게 해주는 게 도리다!!
+
+Doors/LockReset
+\narr모든 문이 새 자물쇠로 교체되었다.
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] \{밥 나왔다! 년들아!
+
+Rogue/PlaceFood1
+\narr놈들이 문 앞에 음식을 조금 놓고 갔다.
+
+###################################################################### LOCKED DOOR
+
+Door/FristTime
+\m[confused]\c[6]로나：\c[0] 이 문 자물쇠... 엄청 싸구려 같아.
+\m[normal]\c[6]로나：\c[0] 누구든 조금만 손대면 바로 부숴버릴 수 있겠는걸.
+
+Door/Unlocked
+망가진 문\optB[그만둔다,사용한다]
+
+Door/UnlockedOUT
+\m[confused]\c[6]로나：\c[0] 이 자물쇠... 진짜 싸구려네.
+\m[normal]\c[6]로나：\c[0] 밖에서 열기는 식은 죽 먹기겠는걸.\optB[스태미너를 아낀다,부순다]
+
+Door/UnlockedOUT_win
+\m[pleased]\c[6]로나：\c[0] 됐다! 성공이야!
+
+Door/TryBrokeOpt1
+\m[confused]조잡하게 만든 자물쇠\optB[스태미너를 아낀다,부순다<r=HiddenOPT1>]
+
+Door/TryBrokeOpt2
+\m[normal]얼마나 힘을 쓸까?\optB[스태미너를 아낀다,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,120<r=HiddenOPT4>]
+
+Door/TryBroke_still
+\m[pleased]\c[6]로나：\c[0] 많이 헐거워진 것 같아.
+\m[tired]\c[6]로나：\c[0] 하지만... 으으... 너무 힘들어...
+
+##################################################################### begin
+
+Sold/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]산적：\C[0] 이년아! 얼른 안 일어나?! 손님이 오셨다!
+\m[hurt]\c[6]로나：\c[0] 흐윽....
+
+Sold/begin2
+\SETpl[MobHumanCommoner]\Lshake\BonMP[Raper1,4]\C[4]산적：\C[0] 헤헷, 바로 이 아가씨야. 방금 잡아온 따끈따끈한 물건이지!
+\c[4]상인：\c[0] ........
+\CamMP[Trader]\c[4]상인：\c[0] 네가 보여주겠다는 게 이건가?
+\BonMP[Trader,5]\c[4]상인：\c[0] 완전히 망가진 애잖아. 이런 걸로 무슨 일을 시키라는 거지?
+
+Sold/begin3
+\CamMP[Raper1]\BonMP[Raper1,6]\C[4]산적：\C[0] 아냐 아냐! 잘 좀 봐라, 팔다리 멀쩡하잖아!
+\CamMP[Trader]\BonMP[Trader,7]\c[4]상인：\c[0] 웃기고 있네. 동전 하나! 더는 안 줘!
+
+Sold/begin4
+\CamMP[Raper1]\BonMP[Raper1,5]\C[4]산적：\C[0] \}씨발!
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] \}어차피 즐길 건 다 즐겼지. \{팔아버려! 
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]산적：\C[0] 낙인 찍어! 그리고 저년 데리고 꺼져라!
+
+Sold/begin5
+\m[p5shame]\Rshake\c[6]로나：\c[0] 너희... 뭐하려는 거야!?
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]산적：\C[0] 꼼짝 마라! 괜히 움직였다간 더 고생하는 건 너다!
+\m[p5sta_damage]\Rshake\c[6]로나：\c[0] 안 돼! 놓으라고!
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]산적：\C[0] 가만히 있으랬지! 착하게 굴어!
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]로나：\c[0] \{끼야아아아악!!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{아아아아아악!!
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 하하! 죽이는데! 더 크게 질러 봐라!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]로나：\c[0] \{히이이익!!
+
+Sold/begin7_MinerPrison
+\ph\m[sad]\cgoff\narr로나는 수정 광산으로 팔려갔다.
+
+Sold/begin7_NoerBackStreet
+\ph\m[sad]\cgoff\narr로나는 뒷골목으로 팔려갔다.
+
+Sold/begin7_DoomFortressR
+\ph\m[sad]\cgoff\narr로나는 종말의 요새 병영으로 팔려갔다.
+
+Sold/begin7_FishTownR
+\ph\m[sad]\cgoff\narr로나는 어토피아 섬으로 팔려갔다.
+
+Sold/begin7_NoerArenaB1
+\ph\m[sad]\cgoff\narr로나는 투기장으로 팔려갔다.
+
+Sold/begin7_NorthFL_INN
+\ph\m[sad]\cgoff\narr로나는 염전으로 팔려갔다.
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\C[4]산적：\C[0] 어떻게 처리할지 정하기 전까지 얌전히 있어라.
+\m[sad]\plf\PRF\c[6]로나：\c[0] 나… 어떻게 될까…
+\m[fear]\plf\PRF\c[6]로나：\c[0] 노예라니….
+\m[bereft]\plf\Rshake\c[6]로나：\c[0] \{싫어! 난 노예 따윈 되고 싶지 않아!
+

@@ -1,0 +1,139 @@
+ThisMap/OmEnter
+\m[confused]Sybaris South West Gate Barn\optB[Leave,Enter]
+
+QuProgSybBarn1/EnterQuestMode0
+\cg[map_region_AbomTown]\m[flirty]\PRF\c[6]Lona：\c[0]    Hmm... This should be the place, right?
+\SETpl[Mreg_guardsman]\plf\PRF\c[4]Mercenary：\c[0]    Hey! What are you doing out here?! Out of my way!
+\SndLib[sound_punch_hit]\SETpl[Mreg_guardsman]\m[hurt]\Lshake\prf\c[6]Lona：\c[0]    Ow! Watch it!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    We found this place first it's ours to loot!
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    What...
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Any progress? Still locked?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Hey! Come here, let's try to break it open!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Mercenary：\c[0]    All right, let's try.
+\narr\ph\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]
+\narrOFF\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Mercenary：\c[0]    It's useless, it's stuck.
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Let's get out of here! It's fucking useless.
+
+QuProgSybBarn1/EnterQuestMode1_OPT
+\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Um...\optD[look aside,let me try<r=HiddenOPT0>]
+
+QuProgSybBarn1/EnterQuestMode1_WAIT
+\ph\narr\..\..\.. After a long time...
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\c[4]Mercenary：\c[0]    Finally got it open.
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]Mercenary：\c[0]    I just told you to try it like this!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    You say outside little girl, wait for us to return!
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    ......
+\ph\narr\..\..\.. After a long time... \SndLib[BreedlingAtk]\..\..\SndLib[BreedlingAtk]
+\cg[map_AbomBreedlingRaid]\narrOFF\m[shocked]\Rshake\c[6]Lona：\c[0]    Monsters!!!
+\cgoff\ph\narr Lona followed them into the barn.....
+
+QuProgSybBarn1/EnterQuestMode1_SCU
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well... I could try...
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[openChest]
+\narrOFF\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Oh! It wasn't that difficult!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Well done little girl!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Good! We'll let you have a small portion of the loot.
+\m[confused]\plf\PRF\c[6]Lona：\c[0]    Well... In fact, I accepted the guild's mission to come here and do some investigation.
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Guild mission? You little brat!
+\m[serious]\plf\PRF\c[6]Lona：\c[0]    I'm not a brat!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Let's not waste more time! Get to work!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Mercenary：\c[0]    Come, let's go inside little girl, help us move the loot.
+\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    Yes Sir!
+
+#########################################################################################
+
+Op/Begin0_3
+\CBmp[OpGuard2,20]\c[4]refugee：\c[0]    More survivors! The prophecy of the holy priestess is true!
+\CBmp[OpGuard1,5]\c[4]refugee：\c[0]    Shut the door now! The apostles will come in!
+\CBmp[mama,20]\c[4]holy priestess：\c[0]    How do you know they are real? Or a bunch of wolves in sheep's clothes?
+\CBmp[OpGuard1,2]\c[4]refugee：\c[0]    They too....?  No way!
+\CBmp[mama,20]\c[4]holy priestess：\c[0]    Silence! Close the door quickly!
+
+Op/Begin0
+\CBmp[OpGuard2,20]\c[4]refugee：\c[0]    Here we go again! More survivors!
+\CBmp[OpGuard1,5]\c[4]refugee：\c[0]    Shut the door now! The apostles will come in!
+\CBmp[mama,20]\c[4]holy priestess：\c[0]    This must be a trick too! They must be filthy unbelievers!
+
+Op/Begin1_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Didn't expect there'd be people still alive here...
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Mercenary：\c[0]    Let's see... The contract from the Rudesind Company says they'll pay a big copper coin for each survivor.
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    We made a fortune, there's a dozen in here!
+
+Op/Begin1
+\ph\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    What's going on in here?
+\CBmp[mama,20]\c[4]holy priestess：\c[0]    Are you a believer?
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    I\..\..\.. Hmm, maybe?
+\CBmp[mama,20]\prf\c[4]holy priestess：\c[0]    Believers, today we shall witness a miracle of the Saint.
+\CBmp[mama,20]\prf\c[4]holy priestess：\c[0]    Our relatives and friends have been captured by the apostles in the basement, and we need your assistance.
+\CBmp[OpGuard2,6]\c[4]refugee：\c[0]    My holy priestess! She is just a survivor herself! She is just a child!
+\CBmp[mama,20]\prf\c[4]holy priestess：\c[0]    Silence! This is the will of the Saint! I have heard the will of the Saint! We must test these liars.
+\CBmp[OpGuard2,8]\c[4]refugee：\c[0]    \..\..\..Yes...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    What are you on about? What apostles?
+
+Op/Begin2
+\CBmp[mama,20]\prf\c[4]holy priestess：\c[0]    Come with me, you can surely help us.
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    I-I think so?
+
+Op/Begin2_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Apostles? I think she means the monsters.
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Mercenary：\c[0]    Listen, this is none of our business, we are not here to fight monsters, we just report the survivors to the Rudesind Company sla-uhh... rescuers.
+\CBct[20]\m[serious]\PRF\c[6]Lona：\c[0]    We need to help them! What kind of a man are you? It's your moral obligation!
+\CBmp[Gpicker,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    \..\..\..
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    The brat is actually right... We need these people alive...
+
+Op/Begin3
+\CBmp[mama,20]\prf\c[4]holy priestess：\c[0]    This is where the apostles of false gods appeared!
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    There's nothing here except some infestation...
+
+Op/Begin3_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Wicked... These disgusting things again.
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Mercenary：\c[0]    It reeks! I heard rumors that if you inhale too much of the scent, you turn into one of them... Nothing will happen, right?
+
+Op/Begin4
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    Well....?
+\CBmp[mama,20]\prf\c[4]holy priestess：\c[0]    Your test shall begin soon, be patient...
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    ...........
+\CBmp[mama,8]\prf\c[4]holy priestess：\c[0]    ......
+
+Op/Begin5
+\CBmp[mama,20]\c[4]holy priestess：\c[0]    ........................
+\CBmp[mama,20]\c[4]holy priestess：\c[0]    I am right! Those people are hypocritical liars!!!
+\CBmp[OpGuard2,20]\c[4]refugee：\c[0]    Are they really not human?!
+\CBmp[OpGuard1,20]\c[4]refugee：\c[0]    The apostles ate them! They are liars!
+\CBmp[OpGuard2,20]\c[4]refugee：\c[0]    What the holy priestess said is true!
+\CBmp[mama,20]\c[4]holy priestess：\c[0]    Thank you Saint! Praise be the Saint!
+
+Op/Begin6
+\CBmp[OpGuard2,20]\CBmp[OpGuard1,20]\CBmp[mama,20]\c[4]crowd：\c[0]    Thank you Saint! Praise be the Saint!
+
+Op/Begin7
+\c[6]Lona：\c[0]    \{AAAAAAAAAH!!!
+
+Op/Begin8
+\CBmp[6]\m[fear]\PRF\c[6]Lona：\c[0]    Here it is\..\..\..
+
+Op/Begin9
+\CBmp[20]\m[terror]\Rshake\c[6]Lona：\c[0]    \{The lair of the flesh monsters!
+
+Op/Begin9_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    This... What the hell is this place?
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Mercenary：\c[0]    The walls are alive!
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenary：\c[0]    Oh Saint! Is this wall eating people?
+
+Op/Begin9_31
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]Mercenary：\c[0]    Damn girl! This is your fault! Get us out of this damned place!
+
+Op/Begin9_board
+\board[barn survivor]
+Goal： Leave the barn and go back to South Gate Campsite
+Reward： 3 Big Copper Coins
+Client： South Gate Campsite
+Quest Term： Single Fulfillment
+Return alive to the \c[4]South Gate Campsite\c[0] and turn the quest in at the \c[6]Hope Inn\c[0] mercenary union station.
+
+#################################### other
+mama/LastWords
+\CBmp[mama,7]\c[4]holy priestess：\c[0]    No! It is not my fault!
+\CBmp[mama,9]\c[4]holy priestess：\c[0]    I am right! I can't be wrong! It's all the fault of those liars!
+\CBmp[mama,5]\c[4]holy priestess：\c[0]    \{Ahhhhh!!!

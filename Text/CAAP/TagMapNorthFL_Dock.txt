@@ -1,0 +1,99 @@
+thisMap/OvermapEnter
+\m[confused]Fortaleza Costera\nAhora es un mercado de refugiados \optB[Cancelar,Entrar]
+
+Exit/Begin
+\SETpl[Mreg_pikeman]Pasaje a los Campos de Sal \optB[Cancelar,Entrar,Colarse<r=HiddenOPT1>,Mentir<r=HiddenOPT2>]
+
+#####################################################################
+
+Guard1/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Antes solo era un vendedor de frutas, pero ahora soy un soldado bien equipado con futuro.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Mataré a cualquiera que no tenga futuro.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡No me mires, es un trabajo duro!
+
+Guard1/Com1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Estás aquí para vender o para causar problemas? ¿Quieres morir?
+
+Guard2/Com0
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Digo que esos nobles señores antes se burlaban de nosotros.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Especialmente él... Olvidé su nombre...
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Pero lo vi el otro día, trajo a su esposa e hijos a mendigar.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Adivina qué hice?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Me cogí a su hijo por el culo frente a sus ojos! Rogaba tan desesperadamente. Jajaja, eso me hizo tan feliz.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Y luego?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Se arrodilló y dijo que se iría y me pidió que dejara ir a su hijo.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Y luego, adivina qué?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Era un noble, así que teníamos que obedecerle, ¡y luego todo nuestro pelotón se cogió a su familia entera y los ahogó en el mar!
+
+comBoard/v1
+\board[¿Eres mujer?]
+¿Quieres salvar a tus seres queridos? 
+Ven con nosotros como sirvienta, los soldados necesitan tu ayuda.
+Te garantizamos comida y seguridad, y permitiremos el paso de una persona a Noértown.
+Por favor, dirígete al mostrador del almacén de los Campos de Sal.
+
+comBoard/v0
+\board[¿Eres hombre?]
+¿Quieres salvar a tus seres queridos? 
+¡Únete al ejército o conviértete en esclavo!
+Una persona, a tu elección, podrá pasar a Noértown.
+Por favor, contacta con la guarnición de los Campos de Sal.
+
+comBoard/v2
+\board[¿Vale la pena resistirse?]
+Eres mujer. Si no te resistes y te violan, no es culpa del hombre.
+¿Puedes defenderte? No creo que puedas.
+Eres más responsable de que te violen que los hombres.
+Debes callarte y no resistirte, es tu culpa si mueres luchando.
+Si realmente quieres sobrevivir, debes dirigirte amablemente a aquellos que quieren violarte y rogarles que lo hagan.
+Ahora es un momento crítico para la supervivencia de la humanidad, y no tenemos tiempo para escuchar tu trágica historia.
+
+##################################################################### FL_GateGuard
+
+FL_GateGuard/already_passed
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Sigue merodeando por aquí? ¡Entra ya!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+FL_GateGuard/IsSlave
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Esclava! ¡Es una esclava fugitiva!
+
+FL_GateGuard/Begin0_opt
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Alto! ¿Eres la mercenaria que espera el jefe? ¿O estás aquí para chupárnosla?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Yo...\optB[Ninguna de las dos,Mercenaria,Prostituta]
+
+FL_GateGuard/Begin1_ans_cancel
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Lárgate!
+
+FL_GateGuard/Begin1_ans_mer_yes
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Yo\..\..\.. \m[flirty]Mercenaria? ¿Supongo?
+
+FL_GateGuard/Begin1_ans_whore_yes
+\CBct[6]\m[shy]\plf\PRF\c[6]Lona：\C[0]    Estoy aquí para chupárselas... ¿Puedo servirles?
+
+FL_GateGuard/Begin1_ans_mer_fail
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡¿Cómo te atreves a mentir?! ¡Zorra descarada!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+FL_GateGuard/Begin1_ans_whore_fail
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    \..\..\..No pareces una puta. Pareces un hombre, ¿no?
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+FL_GateGuard/Begin1_ans_mer_pass1
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Bien. Cuando entres, ve al primer piso e infórmale al jefe.
+\CBct[8]\m[confused]\plf\Rshake\c[6]Lona：\C[0]    ¿Segundo piso...?
+
+FL_GateGuard/DickSuck0
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    \..\..\..
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Mmm! Hace tiempo que no lavo mi gran águila, así que puedes lavarla por mí.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+FL_GateGuard/DickSuck1
+\CBid[-1,4]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Uuf ♥ Ahora está mucho más limpia ♥
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    Entra, ve al mostrador del primer piso, regístrate y empezarás a vivir sin preocupaciones.
+
+##################################################################### Arma de Vandor, recompensa por la misión NFL
+
+WeaponTrader/BucketHelmet_begin0
+\CBid[-1,20]\c[4]Mercader：\C[0]    ¡Oye! Mira esto. Acabo de recibir nuevos productos.
+\CBid[-1,20]\c[4]Mercader：\C[0]    Echa un vistazo a este nuevo casco de guerrero, lo obtuve de mercenarios que lo encontraron en los \C[0]cuarteles \c[6]de Sibaris.
+\CBid[-1,20]\c[4]Mercader：\C[0]    No sé cómo lograron escapar de esos monstruos de piel verde.

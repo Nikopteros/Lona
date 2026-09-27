@@ -1,0 +1,674 @@
+
+
+##################################################################### cOMMON ###############################################################################
+BirbMaskedLona/Qmsgpop0
+¿Podrías dejar de imitarme?
+
+BirbMaskedLona/Qmsgpop1
+¡Quítate esa máscara ridícula!
+
+BirbMaskedLona/Qmsgpop2
+¡No me copies! ¡Eso es solo para mí!
+
+BirbMaskedLona/Qmsgpop3
+¡Para! ¡Quítate la máscara!
+
+BirbMaskedLona/Qmsgpop4
+¡Me estoy enfadando! ¡De verdad me estoy enfadando!
+
+##################################################################### Quest line Orc hunt ###############################################################################
+
+tar/Failed_enter
+No se cumplen las condiciones.
+
+OrkindResearch1/QmsgPop0
+¡Rápido! Vamos a
+
+OrkindResearch1/QmsgPop1
+¡Apresurémonos! Vamos a
+
+OrkindResearch1/QmsgPop2
+Debemos llegar a
+
+OrkindResearch1/begin0
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Señorita, espere! Tengo un trabajo interesante para usted. ¿Le gustaría ayudarme?
+\CamCT\m[confused]\plf\c[6]Lona:\C[0]    ¿Eh? ¿Qué necesitas?
+\CamMP[elise]\BonMP[elise,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    ¡Necesito ir al norte, pero está lleno de bandidos y orcoides!
+\CamMP[elise]\BonMP[elise,7]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Quería contratar mercenarios para protección, pero no queda nadie en el Gremio...
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Tengo prisa! ¿Puedo contratarla, señorita? Le pagaré bien.
+
+OrkindResearch1/begin1
+\CamCT\board[Estudio de Orcoides]
+Lugar: Bosque del norte
+Recompensa: 3 Grandes Monedas de Cobre\i[582]
+Cliente: Elise
+Plazo: 5 días
+Acompañe a Elise y ayúdele a investigar el hábitat de los orcoides.
+Los bosques del norte están llenos de goblins, un buen lugar para investigación.
+
+OrkindResearch1/begin2
+\m[confused]¿Aceptar la misión? \optB[Rechazar,Aceptar]
+
+OrkindResearch1/begin2_No
+\CamCT\m[flirty]\plf\c[6]Lona:\C[0]    No puedo, estoy ocupada ahora.
+\CamMP[elise]\BonMP[elise,6]\SETpl[Mteen_elise_sad]\c[4]Elise:\C[0]    Mierda... Bueno, así son las cosas...
+\CamCT\m[flirty]\plf\c[6]Lona:\C[0]    Lo siento.
+
+OrkindResearch1/begin2_Yes1
+\CamCT\m[normal]\plf\c[6]Lona:\C[0]    Suena sencillo, acepto.
+\CamCT\BonMP[elise,20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Elise:\C[0]    ¡Ja-ja! ¡Perfecto!
+
+OrkindResearch1/begin2_Yes2
+\SETpl[Mteen_elise_masked]\PLF\prf\Lshake\c[4]Elise:\C[0]    ¡Vamos! ¡¡¡Vamos!!!
+
+theTree/OvermapEnter
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Huele a orcoides cerca! ¡Sí! ¡Ya estamos cerca! ¡¡¡Rápido!!!
+\m[confused]\plf\PRF Lugar de investigación de Elise \optB[Cancelar,Entrar]
+
+RecQuestElise2/DrinkWater
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Este es el lugar! ¡Ven aquí!
+\m[confused]\CamCT\plf\PRF\c[6]Lona:\C[0]    ¿Qué tiene de especial este lugar?
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿No hueles eso? Los orcoides estuvieron aquí hace poco.
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Primero necesitas beber esto!
+\m[shocked]\CamCT\plf\Rshake\c[6]Lona:\C[0]    ¿Qué es? ¡¿Y si está envenenado?!
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Es solo agua! ¡Agua normal! ¡Vamos, bebe ya! \optD[Beber,Rechazar...]
+
+RecQuestElise2/optNo
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¡QUE TE JODAN!! ¡¡SOLO MUÉRETE, MALDITA SEA!!!
+\m[shocked]\CamCT\plf\Rshake\c[6]Lona:\C[0]    ¡¿Q-qué?!
+
+RecQuestElise2/DrinkWater_optYes
+\m[flirty]\CamCT\plf\PRF\c[6]Lona:\C[0]    Está bien... Confío en ti.
+\narr\SndLib[sound_drink3]\ph\..\..\SndLib[sound_drink2]\..\..\SndLib[sound_drink3]
+\narrOFF\CamMP[elise]\BonMP[elise,2]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿Ya necesitas orinar? ¡Bebe más!
+\m[flirty]\CamCT\plf\PRF\c[6]Lona:\C[0]    ¿Eh?
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¡BEBE MÁS!! ¡¡RÁPIDO!!
+\narr\SndLib[sound_drink3]\ph\..\..\SndLib[sound_drink2]\..\..\SndLib[sound_drink3]
+\narrOFF\CamMP[elise]\BonMP[elise,2]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¿Y ahora qué?! ¿Necesitas orinar?
+\m[sad]\CamCT\plf\PRF\c[6]Lona:\C[0]    Emmm... ¿Qué estás intentando hacer...?
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Otro trago! ¡Bebe! ¡¡BEBE!! ¡¡TRAGA!!
+\m[shy]\CamCT\plf\PRF\c[6]Lona:\C[0]    Ooohhh...
+\narr\SndLib[sound_drink3]\ph\..\..\SndLib[sound_drink2]\..\..\SndLib[sound_drink3]
+\narrOFF\m[sad]\CamCT\plf\PRF\c[6]Lona:\C[0]    Por favor, no más... Ahora sí necesito orinar...
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Yuju!~ ¡Perfecto!
+
+RecQuestElise2/DoPeePee
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    Señorita, ¿lista al fin?
+\m[fear]\CamCT\plf\PRF\c[6]Lona:\C[0]    ¿Lista para qué?
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Para orinar, claro! ¡Rápido! ¡Orina aquí!
+\m[shocked]\CamCT\plf\Rshake\c[6]Lona:\C[0]    ¿Qué estás...?
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¡¡AGÁCHATE Y MEATE AQUÍ, JODER!!! \optD[Orinar,Rechazar...]
+
+RecQuestElise2/DoPeePee_OptYes
+\m[terror]\CamCT\plf\Rshake\c[6]Lona:\C[0]    ¡Vale, vale! ¡Ahora mismo! Solo... ¡No mires!
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Perfecto! ¡Rápido! ¡¡Mea ya!!
+\m[bereft]\CamCT\plf\Rshake\c[6]Lona:\C[0]    ¡N-no me mires mientras lo hago!
+\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Te daré una moneda extra! ¡Mea ahora! ¡¡¡RÁPIDO!!!
+\m[shy]\CamCT\plf\PRF\c[6]Lona:\C[0]    Mmmfff...
+
+RecQuestElise2/DoPeePeeExt1
+\m[sad]\CamCT\plf\PRF\c[6]Lona:\C[0]    ...N-no puedo hacerlo así...
+\CamMP[elise]\BonMP[elise,5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Deja de quejarte y mea! ¿Qué pasa, señorita, tienes miedo?
+
+RecQuestElise2/DoPeePeeExt2
+\CamMP[elise]\BonMP[elise,3]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Lo hiciste! ¡Lo lograste!
+\narr\SndLib[BadClap]\..\..\..\..
+\narrOFF\CamMP[elise]\BonMP[elise,4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Serás la heroína que salve la isla de Noer!
+
+RecQuestElise2/DoPeePeeExt3
+\m[sad]\CamCT\plf\PRF\c[6]Lona:\C[0]    Uff...
+
+RecQuestElise2/DoHide0
+\m[shy]\CamCT\plf\PRF\c[6]Lona:\C[0]    ¿Para qué era todo esto?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿Tú también eres de Sibaris, verdad?
+\m[flirty]\CamCT\plf\PRF\c[6]Lona:\C[0]    ¿Eh?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    Cuando llegó el desastre, estos pequeños siempre atacaban a los refugiados. ¿Quieres saber por qué?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Estas criaturas son fascinantes! Todas lucen completamente diferentes, grandes y pequeñas.
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿Sabías que en realidad son de la misma especie?
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Su apariencia, tipo y tamaño dependen de los nutrientes absorbidos en el útero materno!
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Estos pequeños son tan increíbles!
+\m[confused]\CamCT\plf\PRF\c[6]Lona:\C[0]    ¿De qué estás hablando?
+
+RecQuestElise2/DoHide1
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Shh! ¡Mira allí! ¡Ya están aquí!
+\m[confused]\CamCT\plf\PRF\c[6]Lona:\C[0]    ¿Qué?
+\CamMP[GobFollower]\BonMP[GobFollower,20]\SETpr[goblin]\C[4]Orcoide:\C[0]    ¡PuLi PuMa! ¡Bu Da!
+\CamMP[GobLeader]\BonMP[GobLeader,4]\SETpl[goblin_penis]\C[4]Orcoide:\C[0]    ¡BuChu Da-ah!
+
+RecQuestElise2/DoHide2
+\CamMP[peeTree]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Ajá! ¡Lo sabía, tenía razón!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Mira cómo les interesa tu orina!
+\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿A los orcoides? ¿Mi orina?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    Vinieron por el olor de tu orina.
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿No ves que los refugiados fuera de la ciudad son constantemente acosados por ellos?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    Pero no buscan atacar, ¡quieren aparearse!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    La guardia se preocupa por esto todo el día, ¿por qué no resolver el problema enviándoles mujeres?
+\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿No es eso demasiado...?
+
+RecQuestElise2/DoHide3
+\CamMP[elise]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Espera! ¡Espera...! ¿Qué es esto?
+\m[terror]\CamCT\plf\Rshake\c[6]Lona:\C[0]    ¡¿Qué es eso?!
+
+RecQuestElise2/DoHide3_1
+\CamMP[OrkindBaby]\BonMP[OrkindBaby,3]\C[4]Orcoide:\C[0]    ¡Pulii Pulii! ¡Trrrhh Lulu PuPuuu!
+
+RecQuestElise2/DoHide4
+\CamMP[OrkindBaby]\BonMP[elise,20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Mira esta carita adorable! ¡Qué criaturita más monstruosamente tierna!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Nunca había visto un orcoide tan adorable! ¡Lo quiero!
+\m[shocked]\plf\PRF\c[6]Lona:\C[0]    ¿E-estás hablando en serio?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Añadiré 2 grandes bronces más! ¡Encuentra la manera de atraparlo! ¡Rápido!
+\CamCT\m[shocked]\plf\PRF\c[6]Lona:\C[0]    ¿Cómo puede alguien encontrar lindos a los orcoides...?
+
+RecQuestElise3/Qmsg
+¡Rápido, atrápalo!
+
+RecQuestElise4/GJ0
+\m[irritated]\plf\PRF\c[6]Lona:\C[0]    ¡Atrapado!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Hurra! ¡Vámonos de aquí rápido!
+
+RecQuestElise4/GJ1
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡No deberíamos quedarnos! ¡Vamos a Noer!
+
+RecQuestElise4/GJ_BOARD
+\CamCT\board[Escolta a Elise]
+Objetivo: Regresar a Noer
+Recompensa: Gran Bronce x6\i[582]
+Cliente: Elise
+Condiciones: Ninguna
+Acompaña a Elise de vuelta a Noer.
+
+RecQuestElise4/Qmsg
+Apresurémonos a la ciudad.
+
+RecQuestElise4/ReturnQ0
+\CBfE[20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Elise:\C[0]    ¡Dámelo! ¡¡Dámelo!! ¡¡ENTRÉGAME AL BEBÉ ORCOIDE AHORA MISMO!!
+\CBct[20]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¡Aah! ¡Está bien! ¡Cálmate! ¡Toma, tenlo!
+\CBfE[6]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Sí! ¡¡Sí!! ¿No le hiciste daño, verdad?
+
+RecQuestElise4/ReturnQ1
+\CBfE[6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    ¡Pequeñito! Te he esperado tanto.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Qué tiene de especial este bebé orcoide? Solo parece un poco más grande...
+\CBfE[5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Brrr! ¿Por qué no lo entiendes?
+\CBfE[20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Todos los bebés humanos se ven iguales!
+\CBfE[20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Pero cada bebé orcoide es único a su manera!
+\CBfE[20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Elise:\C[0]    ¡Es como abrir un regalo en Año Nuevo! ¡Lleno de sorpresas y alegría!
+\CBct[6]\m[flirty]\PRF\c[6]Lona:\C[0]    Jeje... ¿En serio?
+
+RecQuestElise4/ReturnQ2
+\CBfE[4]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Bien! ¡Aquí está tu recompensa! ¡Espero con ansias trabajar contigo de nuevo! ♥
+\CBct[8]\m[fear]\plf\PRF\c[6]Lona:\C[0]    \}Yo... no estoy tan segura...
+\CBfE[3]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    Te escuché.~ ♥
+
+############################################################################################### parte 5
+
+RecQuestElise5/begin
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\c[4]Elise:\C[0]    ¡Lárgate!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Eh?
+
+RecQuestElise5/end0
+\CBct[20]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¿Monstruos? ¡¿Maldición?! ¡¿Por qué están aquí?!
+\CBct[20]\m[terror]\Rshake\c[6]Lona:\C[0]    ¡¿La Niebla Negra está consumiendo Noer también?!
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\PLF\prf\c[4]Elise:\C[0]    ¡Señorita, cálmese!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡Rápido, sígueme! ¡Tenemos que huir!!
+
+RecQuestElise5/end1
+\CBmp[elise,20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Elise:\C[0]    ¡¡¡CÁLLATE!!!
+
+RecQuestElise5/end2
+\CBct[8]\m[shocked]\PRF\c[6]Lona:\C[0]    ......
+\CBct[8]\m[fear]\SETpl[Mteen_elise_sad]\plf\PRF\c[6]Lona:\C[0]    ...¿?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]   Entonces, ¿no es la Niebla Negra? ¿Qué es entonces?
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡Ajá! ¡La señorita ya se calmó!
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Pagué al gremio para capturar algunos murciélagos mutantes para \c[4]estudio profundo\C[0]!
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Pero estos pequeñajos intentan escapar!
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Así que redirigiré sus vidas hacia algo mejor!
+\CBmp[elise,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    ¡¿Por qué no lo entienden?!
+\CBct[8]\m[confused]\SETpl[Mteen_elise_sad]\plf\PRF\c[6]Lona:\C[0]    ¿Para estudio?
+\CBmp[elise,20]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    ¡Señorita! ¡Usted me entiende, ¿verdad?! ¡Sé que lo hace! \optD[Creo que sí, Emmm...]
+
+RecQuestElise5/end2_y
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Bueno...
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Si es para investigación, entonces estamos haciendo algo bueno... ¿no?
+\CBmp[elise,3]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Oh, señorita! ¡Sabía que me entendería!
+
+RecQuestElise5/end2_n
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Mmmm...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    No estoy segura de entender de qué hablas...
+\CBmp[elise,5]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡TRAIDORA! ¡PUTA!! ¡MUERE DE UNA VEZ!!!
+\CBct[6]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡Espera! ¡Detente!
+
+RecQuestElise5/Qmsg0
+Ahora parece patético...
+
+RecQuestElise5/Qmsg1
+Los dientes aún están intactos.
+
+RecQuestElise5/Qmsg2
+Ya no podrá volar
+
+############################################################################################### parte 6
+
+RecQuestElise6/begin1
+\SndLib[sound_chs_buchu]\c[4]Elise:\C[0]    ¡Ay! ¡Aah! ¡Ouch! ¡Oye!
+\SndLib[sound_chs_buchu]\c[4]Elise:\C[0]    ¡Aaayy! *Sollozo* ¡¡AAAYY!!!
+\CBct[2]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¿Elise? ¡¿Qué pasa?!
+\SndLib[sound_chs_buchu]\prf\c[4]Elise:\C[0]    ¡AYYY OOOY AAY! ¡N-NO-!
+\SndLib[sound_chs_buchu]\prf\c[4]Elise:\C[0]    -¡NO PUEDO!
+\CBct[6]\m[fear]\Rshake\c[6]Lona:\C[0]    ¡¿Qué demonios pasa?! ¡Me estás asustando...!
+
+RecQuestElise6/begin2
+\SndLib[sound_chs_buchu]\c[4]Elise:\C[0]    ¡N-No...! ¡No tan fuerte!
+\CBct[6]\m[terror]\Rshake\c[6]Lona:\C[0]    ¿Estás bien? ¡¿Qué está pasando?!
+
+RecQuestElise6/begin3
+\SndLib[sound_chs_buchu]\c[4]Elise:\C[0]    ¡OOO OOOH AHHH! *Ufff* ¡No puedo más! ¡Estoy... Yo...!
+\CBct[6]\m[bereft]\Rshake\c[6]Lona:\C[0]    ¡N-No temas...! ¡Estoy aquí, te ayudaré!
+
+RecQuestElise6/begin4_1
+\CBmp[elise,20]\SETpl[Mteen_elise_fap]\Lshake\prf\c[4]Elise:\C[0]    ¡N-No-! ¡No chupes tan fuerte!!
+
+RecQuestElise6/begin4_2
+\CBmp[elise,20]\SETpl[Mteen_elise_fap]\Lshake\prf\c[4]Elise:\C[0]    ¡OooOOOHHHH!~
+
+RecQuestElise6/begin4_3
+\CBmp[elise,20]\SETpl[Mteen_elise_fap]\Lshake\prf\c[4]Elise:\C[0]    \{¡Me corro! ¡ME CORRO!
+
+RecQuestElise6/begin5
+\CBct[6]\m[p5sta_damage]\plf\Rshake\c[6]Lona:\C[0]    ¡¡KYAAAA!!!
+\CBmp[elise,20]\SETpl[Mteen_elise_bat1]\Lshake\prf\c[4]Elise:\C[0]    ¿Eh? ¿Eres tú, señorita?
+\CBct[8]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¿Qué es...? Mi cara está llena de t-tu...-
+\CBmp[elise,20]\SETpl[Mteen_elise_bat2]\Lshake\prf\c[4]Elise:\C[0]    -¡Perdó-o-ona! ¡Aún estoy probando la \c[4]sensibilidad\C[0] de este artilugio.
+\CBmp[elise,20]\SETpl[Mteen_elise_bat1]\Lshake\prf\c[4]Elise:\C[0]    ¡Parece que no hay problema con esto!
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona:\C[0]    ¿¡Q-Qué...?!
+
+RecQuestElise6/begin6
+\CBmp[elise,8]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    Muestra 23... Cuando el sujeto vio a Lona, la sensibilidad aumentó en 3... Sensibilidad total... ¡89!
+\CBct[5]\m[angry]\plf\Rshake\c[6]Lona:\C[0]    ¿¡De qué diablos estás hablando?!
+\CBmp[elise,8]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Oye... ¡Lo siento!
+\CBmp[elise,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Lo siento mucho, señorita, ¡perdóneme!
+\plf\PRF\..\..\..\..
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Está bien.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Y qué estás haciendo?
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡A la nobleza de esta ciudad le duele la cabeza por el problema de los refugiados!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Pero... ¿qué tiene que ver eso contigo?
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    Violaciones, robos, asesinatos: estos problemas empeoran cada día.
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    Incluso si cierran las puertas de la ciudad, los refugiados se cuelan.
+\CBmp[elise,20]\SETpl[Mteen_elise_angry]\Lshake\prf\c[4]Elise:\C[0]    ¡Debo encontrar una solución para esto de una vez por todas!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Emm?
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡Por eso propuse cortar los miembros y castrar a todos los refugiados hombres!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ...¿¡Q-Qué?!
+
+RecQuestElise6/begin7
+\CBmp[elise,8]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Pero a los nobles no les gustó mi idea...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Todavía no entiendo qué tienen que ver los monstruos...
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Corrección! ¡Es un murciélago mutado!!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Cortemos sus alas, arranquemos sus dientes...! ¡Y tendremos el juguete perfecto!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Deberías probarlo también! ¡Seguirán saltando hasta perder demasiada sangre!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡La sensación es indescriptible! ¡Solo puede medirse con números!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Debo compartir esto con los refugiados!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Así solo se masturbarán eternamente! ¡Detendré las violaciones!
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Noer será seguro de nuevo!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Mmmm\..\..\.. Vale\..\..\..
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡Oh! ¡Cierto!!
+\CBmp[elise,20]\SETpl[Mteen_elise_normal]\Lshake\prf\c[4]Elise:\C[0]    ¡Tengo una misión importante y necesito tu ayuda!
+\CBct[8]\m[confused]\SETpl[Mteen_elise_sad]\plf\PRF\c[6]Lona:\C[0]    ¿Hmmm?
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Pronto iré a \c[6]Piscópolis\C[0]! ¡Y necesitaré un guardaespaldas!
+\CBmp[elise,20]\SETpl[Mteen_elise_shake]\Lshake\prf\c[4]Elise:\C[0]    ¡Eres la única en quien confío! ¡Debes venir conmigo!!
+\CBct[8]\m[flirty]\SETpl[Mteen_elise_happy]\PRF\c[6]Lona:\C[0]    Vale, pero primero déjame lavarme la cara...
+
+##################################################################### Línea de misiones FishKind ###############################################################################
+
+FishResearch1/Qmsg
+¡Vamos a Piscópolis!
+
+FishResearch1/begin0
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Debo llegar a la isla de Piscópolis! ¡Hay trabajo importante que hacer!
+\CBmp[elise,6]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Pero... ya sabes cómo son los hombres-pez. No son amigables con forasteros...
+\CBmp[elise,7]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    ¡Por eso necesito un guardaespaldas! ¡Y tú eres la única que cumple mis estándares!
+\CBct[8]\m[flirty]\plf\c[6]Lona:\C[0]    ¿Oh...?
+
+FishResearch1/begin1
+\CamCT\board[Estudio de los Hombres-Pez]
+Objetivo: Mercado en la isla de Piscópolis
+Recompensa: Gran Bronce x6\i[582]
+Cliente: Elise
+Plazo: 5 días
+Ayuda a Elise en la investigación de la cultura de los Hombres-Pez.
+Viaja al Puerto de Noer y llega al mercado en Piscópolis.
+
+FishResearch1/begin2
+\m[confused]¿Acepto la misión? \optB[Rechazar,Aceptar]
+
+FishResearch1/NoerDockSP
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise:\C[0]    ¡No te preocupes por los gastos, señorita! ¡Yo me encargo! ¡¡Vamos!!!
+\CBct[8]\m[flirty]\plf\c[6]Lona:\C[0]    ¿Vale...?
+
+FishResearch1/8_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise:\C[0]    ¡Ajá! ¡Piscópolis! ¡Al fin he llegado!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿Por qué querías venir aquí?
+\CBct[20]\m[confused]\plf\PRF\c[6]Lona:\C[0]    Aparte del olor a pescado podrido, no veo nada especial...
+
+FishResearch1/8_begin2
+\CBfE[5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Señorita! ¡¿No lo entiendes?! Brrr... ¡¿Por qué no lo ENTIENDES?!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Antes solo se conocía este lugar por libros!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Ahora podré observar su misterioso sistema reproductivo en persona!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Pronto tendré un bebé hombre-pez para mi colección!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Mmmm... Ya veo.
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Ahora lo entiendes!
+
+FishResearch1/8_begin3
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Elise:\C[0]    \..\..\..
+\CBmp[EliseQP0,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿Qué es eso? ¡Ve a revisar!
+
+FishResearch1/9_begin1
+\CBfE[2]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿Así que esta es la legendaria Bruja del Mar?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Ja ja! ¡Es taan hermosa!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ...¿En serio piensas eso?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Es la Diosa del Mar! ¡Madre de todas las criaturas acuáticas! ¡Adoramos a la Bruja del Mar!
+
+FishResearch1/9_begin2
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Elise:\C[0]    \..\..\..
+\CBmp[EliseQP1,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿Qué hay ahí? ¡Ve a ver!
+
+FishResearch1/10_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Oh! ¡Realmente nos odian!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Pero está bien! Me invitaron como doctor. ¡Vine a ayudar a estos pobres pececillos!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Elise es increíble y adorable!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Eh? ¿Te invitaron?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Sí! Tengo contactos con un pez gordo aquí. ¡Un PEZ MUY GRANDE!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Incluso compartirá la magia de su especie conmigo!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Guau...
+
+FishResearch1/10_begin2
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Elise:\C[0]    \..\..\..
+\CBmp[EliseQP2,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¿Qué es eso? ¡Señorita, vaya a revisar!
+
+FishResearch1/11_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Vaya! Solo hay olor a pescado.
+\CBct[2]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Puaj...
+
+FishResearch1/11_begin2
+\CBfE[5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¿Asqueroso?! ¡No te comportes así! ¡Este pescado alimenta a Noer!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿E-em... Perdón?
+
+FishResearch1/11_begin3
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Cuando huí de Sibaris, no tenía qué comer!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Sin los hombres-pez, todos moriríamos de hambre! ¡Debemos agradecerles!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Oh...
+
+FishResearch1/11_begin4
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Elise:\C[0]    \..\..\..
+\CBmp[EliseQP3,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Señorita! ¿Qué es eso? ¡Vaya y cuénteme!
+
+FishResearch1/12_begin1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Ajá! ¡Usan esclavos para reproducirse!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    ......
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Todos los hombres-pez son hijos de la Bruja del Mar, pero no hay mujeres!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¿No es fascinante?! ¡Necesitan aparearse con hembras de otra especie!
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ...¿Fascinante?
+
+FishResearch1/12_begin2
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¿No es intrigante?! ¡Orcoides! ¡Demonios de carne! ¡Todos comparten algo!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Correcto! ¡Todos necesitan hembras de otra especie para reproducirse!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡La leyenda dice que hay mujeres hombres-pez! ¡Pero nunca las vimos! ¡Debemos investigar!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ...¿Supongo?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Sabía que me entenderías!
+
+FishResearch1/12_begin3
+\CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]Elise:\C[0]    \..\..\..
+\CBmp[EliseQP4,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Bien! ¡Es hora de irnos! ¡Vamos a ver al pez gordo!
+
+############################################################
+
+FishResearch1/slaveBlock
+\CBmp[elise,8]\SETpl[Mteen_elise_sad]\Lshake\prf\c[4]Elise:\C[0]    Mmm\..\..\..
+\CBmp[elise,20]\SETpl[Mteen_elise_happy]\Lshake\prf\c[4]Elise:\C[0]    Parece que necesitas prepararte mejor.
+\narr Requiere quitar grilletes o marcas de esclava para continuar.
+
+FishResearch1/enter_failed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardián:\C[0]    Intruso... fuera...!
+
+FishResearch1/enter_view
+\SndLib[FishkindSmSpot]\cg[map_FishPPL]\c[4]Guardián:\C[0]    ¡Glu glu!
+\narr El paso está lleno de guardias.
+
+FishResearch1/enter_WithElise
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardián:\C[0]    ¿Quién va?!
+\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Oh...
+\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Déjame a mí!
+\narr Elise mostró algo al guardián...
+\narrOFF\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardián:\C[0]    Sois amigos del \c[6]Chamán\C[0]... pasad...!
+
+FishResearch1/13_begin1
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardián:\C[0]    Alto... prohibido...!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Eh?
+
+FishResearch1/13_begin2
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Chamán:\C[0]    Entrad... amigo mío...!
+
+FishResearch1/13_begin3
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Chamán:\C[0]    Desde hoy... servirás a la Bruja del Mar!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Chamán:\C[0]    Amigos... despedíos...!
+
+FishResearch1/13_begin4
+\CBmp[ManTransB4,20]\SndLib[FishkindLgSpot]\SndLib[FishkindLgSpot]\c[4]Hombre-Pez:\C[0]    ¡Glu glu! ¡Gur... gur... gur...!
+
+FishResearch1/13_begin5
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Chamán:\C[0]    Amigo... ¡Eres uno de nosotros! ¡Te recordaremos...!
+
+FishResearch1/13_begin6
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\c[4]Chamán:\C[0]    Adiós... amigo mío...!
+
+FishResearch1/13_begin7
+\CBct[8]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¡¿Profundo?! ¿Se convirtió en monstruo?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Fascinante! ¡Primero parecen humanos, luego se transforman en peces!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Con la edad pierden la cordura! ¡Al final regresan al mar como sirvientes de la Bruja!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡No se parecen a ninguna otra raza!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Qué triste...
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Piensas demasiado! ¡Regresar al mar debe ser un honor para ellos!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Entiendo...
+
+############################################################ ChamánMuerto
+FishResearch1/14_ShamanDead_begin1
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardián:\C[0]    ¡Glu! ¡Fue ella!
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]Guardián:\C[0]    ¡Seguro... ella... mató al Chamán!!!
+
+FishResearch1/14_ShamanDead_begin2
+\CBct[6]\m[shocked]\Rshake\c[6]Lona:\C[0]    ¡¿Qué?!
+
+FishResearch1/14_ShamanDead_begin3
+\CBct[6]\m[bereft]\Rshake\c[6]Lona:\C[0]    No fui yo. ¡Es un malentendido!
+\CBfE[8]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise:\C[0]    Vaya giro desafortunado.
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardián:\C[0]    Capturad... a ambos...
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardián:\C[0]    Él... sabe... secretos del Chamán...
+\CBmp[Commoner1,20]\SndLib[FishkindLgSpot]\ph\c[4]Acolito:\C[0]    ¿Es... mujer...?
+\CBmp[Commoner2,20]\SndLib[FishkindLgSpot]\ph\c[4]Acolito:\C[0]    Mi casa... necesita esclavas... para reproducirse...
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardián:\C[0]    Ella... mató al Chamán... ofrenda al Progenitor...
+
+FishResearch1/14_ShamanDead_begin4
+\CBfE[4]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise:\C[0]    Quién diría que eres tan mala, hermanita ♥
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona:\C[0]    Yo....
+
+FishResearch1/14_ShamanDead_begin5
+\CBmp[StoryGuard0,20]\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\c[4]Guardián:\C[0]    Progenitores... ofrecemos a esta pecadora!
+
+FishResearch1/14_ShamanDead_begin6
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise:\C[0]    ¡Hasta pronto, hermanita!
+
+############################################################
+
+FishResearch1/14_begin1
+\CBct[8]\m[flirty]\PRF\c[6]Lona:\C[0]    Em... ¿Hola?
+\CBmp[QuestGiver,2]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Forasteros... ¿por qué venís...?
+\CBfE[8]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Ah! ¡Señor Pez Gordo! ¡Gracias por la muestra! ¡Gloria a la Bruja del Mar!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    ¿Tú... humano... guiado por la Bruja?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    ¡Sígueme...!
+
+FishResearch1/14_begin2
+\CBmp[QuestGiver,2]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Dime... humano... ¿qué has hallado...?
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Es una larga historia, pero mire esto primero!
+
+FishResearch1/14_begin3
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    Mi investigación sobre... \c[6]hembras hombres-pez\C[0]...
+\CBmp[QuestGiver,2]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Este texto... me confunde...
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Ah! Lo olvidé. Culpa mía.
+
+FishResearch1/14_begin4
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    Confirmo que las \c[6]hembras hombres-pez\C[0] carecen de sistema reproductivo.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    No es natural. Ningún organismo evoluciona así.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Sospecho que su evolución fue artificial!
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¿Hay leyendas sobre reproducción o hembras entre los hombres-pez?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Mi linaje nace... del vientre de la Bruja... descendientes de la Bruja...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Solo la Bruja... puede engendrar a mi pueblo...
+\CBfE[8]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    \..\..\..
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¿Solo una madre?
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¿Como hormigas?
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¿Machos hormiga?
+\CBfE[2]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¿Pueden otras especies ser madres sustitutas?
+\CBfE[9]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Ajá! ¡Lo entiendo! ¡Ese es su plan!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Eeeh... ¿de qué hablas?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Esclava ignorante... calla...
+\CBct[20]\m[serious]\plf\PRF\c[6]Lona:\C[0]    ¡No soy esclava!
+
+FishResearch1/14_begin4_1
+\CBfE[5]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Cállate! ¡Eres irritante!
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡Ouch!
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    \..\..\..Perdón.
+
+FishResearch1/14_begin5
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Humano... hablabas de... una pista... aclara...
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    Demonios de carne y orcoides comparten rasgos con vuestra especie.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    Incapacidad de reproducirse solos, comportamiento de enjambre, pero usan otros organismos para procrear.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    Las hembras hombres-pez existen, pero fueron esterilizadas artificialmente.
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    En mis experimentos, induje crecimiento ovárico usando extractos de demonios...
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Creo que pronto no necesitarán hembras humanas!
+\CBmp[QuestGiver,8]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    \..\..\..
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    ¿Mi pueblo... tendrá mujeres propias?
+\CBfE[20]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¡Sí!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Magnífico... maravilloso...
+\CBfE[4]\SETpr[Mteen_elise_masked]\plf\Rshake\c[4]Elise:\C[0]    ¿Puedo tener mi recompensa? ¡Un bebé hombre-pez! ♥
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Paciencia... ocurrirá... pronto...
+
+FishResearch1/14_begin6
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡¿Qué?!
+
+FishResearch1/14_begin7
+\CBct[1]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡¡Ayy!! ¡Duele!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡Suéltame!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Encerrad... al pequeño...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Llevad... a la mujer al altar...
+
+FishResearch1/14_begin8
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Bruja del Mar... Progenitores... ¿nos oís...?
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    ¡Nueva ofrenda...!
+\CBct[20]\m[fear]\plf\Rshake\c[6]Lona:\C[0]    ¡¿Qué me harán?!
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Ella sabe... todos... secretos...
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Debemos... sacrificarla... Bruja... Progenitores...
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona:\C[0]    ¡No sé nada! ¡No escuché nada!
+
+FishResearch1/14_begin9
+\CamMP[Swirl]\SndLib[FishkindLgSpot]\SETpl[FishShamanMk]\Lshake\prf\c[4]Chamán:\C[0]    Ve...
+\CamMP[Swirl]\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡¡No!!!
+
+FishResearch1/14_begin10
+\narr Compañero abandonó el grupo
+\narr Lona ahora es buscada
+
+FishResearch1/15_begin1
+\CBct[14]\..\..\..
+\CBct[14]\m[hurt]\Rshake\c[6]Lona:\C[0]    Uuf\..\..\..
+
+FishResearch1/15_begin2
+\CBct[2]\m[tired]\PRF\c[6]Lona:\C[0]    ¿Qué pasó?
+
+FishResearch1/15_begin3
+\CBct[2]\m[fear]\PRF\c[6]Lona:\C[0]    ¿Dónde estoy?
+
+FishResearch1/15_begin4
+\CBct[20]\m[serious]\PRF\c[6]Lona:\C[0]    ¡No! ¡Debo concentrarme!
+
+FishResearch1/15_begin5
+\CBct[20]\m[irritated]\Rshake\c[6]Lona:\C[0]    ¡Encontraré la salida! \c[4]Elise\C[0] debe estar aterrorizado. ¡Debo salvarlo!
+
+FishResearch1/15_begin6
+\board[Escape]
+Encontrar salida y volver al Templo de Espinas
+¡Salvar a Elise!
+
+FishResearch1/15_begin7_enter
+\CBct[20]\m[irritated]\Rshake\c[6]Lona:\C[0]    ¡No temas! ¡Voy por ti!
+
+FishResearch1/15_begin7_opt
+¿Despertarlo? \optB[Ahora no,Despertar]
+
+FishResearch1/16_begin1
+\CBct[20]\m[shocked]\PRF\c[6]Lona:\C[0]    ¿Estás bien??
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Oh! ¿Eres tú, hermanita?
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    \..\..\..
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Escucha! ¡Esos bastardos me engañaron! ¡No querían darme a su cría!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Libera a los peces apestosos para castigarlos! ¡Exijo venganza!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Suelta a los guppys apestosos para que los muerdan! ¡Quiero venganza!
+
+FishResearch1/16_begin2
+\board[Escape]
+Llevar a Elise a la salida.
+
+FishResearch1/17_begin1_1
+\SETpl[Mteen_elise_masked]\Lshake\c[4]Elise:\C[0]    ¿Qué es eso?!
+\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¿Qué pasa?!
+\CBmp[BB,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Qué bebé tan adorable!
+\CBmp[BB,19]\m[confused]\plf\PRF\c[6]Lona:\C[0]    ¿Eh?
+\CBmp[BB,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Lo quiero! ¡Debo llevármelo a casa!
+\m[flirty]\plf\PRF\c[6]Lona:\C[0]    ¿En serio?
+\m[serious]\plf\Rshake\c[6]Lona:\C[0]    ¡No es momento de juegos! ¡Hay que huir!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡De ninguna manera! ¡Hermana, debo llevármelo!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Si no me dejas, gritaré! ¡Y toda la colonia nos oirá!
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Tú morirás! ¡Yo no! ¡Ellos aún me necesitan!
+\m[wtf]\plf\PRF\c[6]Lona:\C[0]    ¿Q-qué?
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¡AaaAaaaAaa!!!
+
+FishResearch1/17_begin1_2
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡¡¡AAAAAaaaAAaa!!!
+
+FishResearch1/17_begin1_3
+\m[bereft]\plf\Rshake\c[6]Lona:\C[0]    ¡Cállate! ¡Vale! ¡Entiendo! ¡Por favor, silencio!
+\m[sad]\plf\PRF\c[6]Lona:\C[0]    Pensaré en algo. Así que por favor, deja de gritar.
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]   Sabía que te importaba, hermanita.♥
+\m[tired]\plf\PRF\c[6]Lona:\C[0]    Uff....
+
+FishResearch1/17_begin2_gotBB
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Buen trabajo! ¡Mejor nos vamos!
+
+FishResearch1/17_exit_failedQMSG
+Elise debe estar cerca para salir
+
+FishResearch1/17_exit_failed
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡El bebé! ¡No atrapaste al bebé! ¡Gritaré!
+\m[bereft]\plf\PRF\c[6]Lona:\C[0]    ¡Cállate! ¡Vale! ¡Lo sé! ¡Solo cállate!
+
+FishResearch1/17_exit_success
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    Ji-ji-ji... ¡Bebé precioso!
+\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Puaj...
+\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    Bien, volvamos a \c[4]Noer\C[0].
+
+FishResearch1/17_exit_success2
+\CamCT\board[Escolta]
+Destino: Noer
+Cliente: Elise
+Repetible: No
+Escolta a Elise de vuelta a Noer.
+
+FishResearch1/17_End1
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Dámelo! ¡Entrégame al bebé hombre-pez ahora!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡Puaj! ¡Vale!
+\CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Dámelo! ¡Te pagaré diez veces más al regresar! ¡Rápido!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona:\C[0]    ¡I-i-ik!!!
+
+FishResearch1/17_End2
+\CBfE[6]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    Perfecto... Definitivamente el bebé pez ideal.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona:\C[0]    Ay....
+
+FishResearch1/17_End3
+\CBfE[4]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Genial♥ Toma♥ Eres una verdadera heroína, hermanita♥
+\CBct[8]\m[tired]\plf\PRF\c[6]Lona:\C[0]    Hablar con él me da dolor de cabeza...
+\CBfE[3]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]Elise:\C[0]    ¡Lo oigo too-oo-odo♥

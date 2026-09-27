@@ -1,0 +1,63 @@
+#Fully translated and updated by Sugoi Soy Boy. Fuck off MTLing monkeys.
+
+NoerRecRoom/OvermapEnter
+The Oriental Commerce \optB[Leave,Enter]
+
+#---------------------------------------------------------------------------------------------------
+teller/Unknow0
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    Greetings, Lona...
+\CBct[1]\m[confused]\plf\PRF\c[6]Lona：\c[0]    Huh? Who are you? How do you know my name?
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    I have known about you since you were born...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uhhh... Is this some sort of a trick?
+\CBid[-1,20]\SETpl[TellerConfused]\Lshake\prf\c[4]Fortune Teller：\c[0]    You were born into an ordinary, but happy merchant family. Unfortunately, they were taken by this disaster...
+\CBid[-1,20]\SETpl[TellerAngry]\Lshake\prf\c[4]Fortune Teller：\c[0]    You refuse to give up, you are trying your best to make money right now. And you wish to leave this filthy place.
+\CBct[6]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    ...Who are you?!
+\CBid[-1,20]\SETpl[TellerOkay]\Lshake\prf\c[4]Fortune Teller：\c[0]    Just a simple fortune teller......
+
+teller/opt
+\CBid[-1,20]\SETpl[TellerNormal]\Lshake\prf\c[4]Fortune Teller：\c[0]    I can evoke your past memories... Do you have anything you desire to remember...?
+
+HappyTrader/begin1
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    Have you seen my wife? She's right next door! She's so beautiful!
+
+HappyTrader/begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    My wife! So beautiful! So pretty! And virtuous too! Everyone is jealous of me!
+
+HappyTrader/end
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Cheerful Shopkeeper：\c[0]    I don't want to leave here at all! But everyday is busy because of work!
+\CBct[8]\m[confused]\plf\PRF The prices of whatever he's selling are quite expensive...
+
+teller/ded0
+\SETpl[TellerEyeClosed]\Lshake\prf\c[4]Fortune Teller：\c[0]    I... am... the... reflection... of... desires......
+
+teller/ded1
+\SETpl[TellerAngry]\Lshake\prf\c[4]Fortune Teller：\c[0]    \{I\..\..\.. AM\..\..\.. IMMORTAL!!!!!!
+
+#---------------------------------------------------------------------------------------------------
+
+DatDoor/NTR0
+Don't stop! ♥
+
+DatDoor/NTR1
+Suck it some more! ♥
+
+DatDoor/NTR2
+Yeah! ♥ Gonna cum! ♥
+
+DatDoor/NTR3
+Oh fuck! ♥ Feels good! ♥
+
+DatDoor/NTR4
+Unnnf! ♥
+
+DatDoor/NTR_end
+\SETpl[TellerAngry]\Lshake\c[4]Fortune Teller：\c[0]    What...? Who's there?!
+\SETpr[NoerGangBoss]\Rshake\c[4]Thug：\c[0]    Someone's here! Get dressed, quickly!!!
+\SETpl[TellerAngry]\Lshake\c[4]Fortune Teller：\c[0]    \{That shirt's mine fool! Give it back...!
+\SETpr[NoerGangBoss]\Rshake\c[4]Thug：\c[0]    \{Faster! Faster!
+
+art/Chad
+\cg[other_ChadVsVirgin]This painting presents a tale about the strength of the Alpha and the sorrow of the Beta.
+\m[confused]\c[6]Lona：\c[0]    I don't understand this picture...
+
+#Fully translated and updated by Sugoi Soy Boy. Fuck off MTLing monkeys.

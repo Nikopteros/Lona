@@ -1,0 +1,248 @@
+thisMap/OvermapEnter
+Sunrise Village\optB[Leave,Enter]
+
+############################################################################### COMMON
+
+GateKeeper/NormalBegin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Stop! Who goes there?!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\c[0]    Uhm...I'm...
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Are you here to deal with the fish scum?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Good, then come on in.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\c[0]    .....
+
+GateKeeper/Enter0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    This is \c[6]Sunrise Village\c[0].
+\CBid[-1,5]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    We're sick of putting up with beggars and fishkind.
+
+GateKeeper/AggroAlert
+\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Intruder!
+
+GateKeeper/TooWeakBegin0
+\CBid[-1,5]\SETpl[AnonMale1]\c[4]Villager：\c[0]    Move! Sybaris' beggars aren't welcome here.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Sorry...
+\narr Lona looks too weak
+
+Archer0/0
+\CBid[-1,20]\c[4]Villager：\c[0]    You said those fish are the most annoying?
+\CBid[-1,20]\c[4]Villager：\c[0]    Wrong, the scum from Sybaris are worse.
+\CBid[-1,20]\c[4]Villager：\c[0]    Do not trust any bastards from the capital.
+
+Archer0/1
+\CBid[-1,20]\c[4]Villager：\c[0]    Dumb monsters aren't the problem. The Fishman manipulating them is.
+
+Archer0/2
+\CBid[-1,20]\c[4]Villager：\c[0]    It reeks of fish since that day.
+
+CommomerM0/Rng0
+\CBid[-1,20]\c[4]Villager：\c[0]    Those swamp monsters must be paid by that Fishman, they're the same kind.
+\CBid[-1,20]\c[4]Villager：\c[0]    If not, why don't the Deepones attack them?
+
+CommomerM0/Rng1
+\CBid[-1,20]\c[4]Villager：\c[0]    Sybaris? I hear it's gone to shit.
+
+CommomerM0/Rng2
+\CBid[-1,20]\c[4]Villager：\c[0]    I hear several villages are suffering.
+\CBid[-1,20]\c[4]Villager：\c[0]    They took in beggars, and soon became beggars themselves.
+
+CommomerM1/Rng0
+\CBid[-1,20]\c[4]Villager：\c[0]    Who are you? I haven't seen you before.
+
+CommomerM1/Rng1
+\CBid[-1,20]\c[4]Villager：\c[0]    What do you want? Your kind isn't welcome here.
+
+CommomerM1/Rng2
+\CBid[-1,20]\c[4]Villager：\c[0]    I don't like small tits!
+
+CommomerF/Rng0
+\CBid[-1,20]\c[4]Villager：\c[0]    I heard the Fishman will kidnap your kids at night.
+
+CommomerF/Rng1
+\CBid[-1,20]\c[4]Villager：\c[0]    People say outsiders are untrustworthy.
+
+CommomerKid/Rng0
+\CBid[-1,20]\c[4]Villager：\c[0]    I love executions, they struggle so much.
+
+CommomerKid/Rng1
+\CBid[-1,20]\c[4]Villager：\c[0]    All I eat is fish nowadays, I'm sick of it.
+
+CommomerKid/Rng2
+\CBid[-1,20]\c[4]Villager：\c[0]    Mom told me not to talk to strangers.
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Villager：\c[0]    This one's a troublemaker! Kill her!
+
+###############################################################################   AriseVillage 0to1_0
+
+AriseVillage/0to1_0
+\ph\c[4]Villager：\c[0]    Get up, you bastard!
+
+AriseVillage/0to1_1
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]Fishman：\c[0]    I... can't... breathe...
+\CBmp[GuardL,5]\c[4]Villager：\c[0]    Say! What's a Fishman infidel doing here?
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]Fishman：\c[0]    dindu...noffin...
+\CBmp[GuardR,5]\c[4]Villager：\c[0]    Still playing dumb?!
+
+AriseVillage/0to1_2
+\CBmp[GuardR,20]\c[4]Villager：\c[0]    Have you seen your partner? That pedestal next to him is reserved for you.
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]Fishman：\c[0]    No...Don't kill me... I don't want to die....
+
+AriseVillage/0to1_3
+\CBmp[GuardR,20]\c[4]Villager：\c[0]    Where are the other stinky fish people?!
+\CBmp[GuardR,20]\c[4]Villager：\c[0]    Talk! I'll kill you if you don't.
+
+AriseVillage/0to1_Rng0
+\CBid[-1,20]\c[4]Villager：\c[0]    Those infidel fishmen. They're Liars!
+
+AriseVillage/0to1_Rng1
+\CBid[-1,20]\c[4]Villager：\c[0]    The Fishman caused this!
+
+AriseVillage/0to1_Fishman0
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\c[0]    What's going on here?!
+
+AriseVillage/0to1_Fishman0_0
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Fishman：\c[0]    I...Come...Investigate...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Fishman：\c[0]    The Ancestors... the riots...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Fishman：\c[0]    Human... attacks...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\c[0]    Uh...the riots?
+
+AriseVillage/0to1_Fishman0_1
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Fishman：\c[0]    Help...I'm...Innocent...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Fishman：\c[0]    I must get to... the camp in the north...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Fishman：\c[0]    I'll give you money...I have money...
+
+AriseVillage/0to1_Fishman0_brd
+\CamCT\board[Help the fishman in trouble]
+Goal：Reach the North Camp
+Reward：4 large copper coins
+Quest Giver：Fishman
+Quest Term： 5 days
+The village seems to want to murder this innocent fishman, but is he really innocent?
+Could such an ugly fish even be innocent?
+
+AriseVillage/0to1_Fishman1_opt
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\c[4]Villager：\c[0]    Outsider!? Are you his accomplice?
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What!? \optD[No,Well...,I'm a mercenary<r=HiddenOPT0>,Cecily<r=HiddenOPT1>]
+
+AriseVillage/0to1_Fishman1_opt_Cecily
+\CBfB[20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Cecily：\C[0]    Hey!
+\CBmp[GuardTop,1]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    A soldier from Noer?!
+\CBfB[2]\SETpr[CecilyWtfAr]\plf\PRF\C[4]Cecily：\C[0]    What crime did this fishman commit?
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    No! Sorry! We caught the wrong guy!
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    We'll let him go.
+\CBfB[5]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Cecily：\C[0]    Do it!
+
+AriseVillage/0to1_Fishman1_opt_No
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    No! I just happened to pass by!
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Go away! We don't like outsiders!
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona：\c[0]    Sorry...
+
+AriseVillage/0to1_Fishman1_opt_Yes
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    Uh...I...
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    This outsider's causing trouble! Kill her!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\c[0]    What!?
+
+AriseVillage/0to1_Fishman1_opt_WIS
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    I'm a mercenary from Noer, I've come to take this evil fishman
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]Villager：\c[0]    Is that so? Do it fast then, we don't like strangers here.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    I see.
+
+AriseVillage/0to1_Fishman2_joined
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Fishman：\c[0]    Now...the time...
+
+###############################################################################   Right house
+
+Rho/begin0_weak
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]Woman：\c[0]    We need mercenaries. You're useless!
+
+Rho/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]Woman：\c[0]    Ah! You're finally here! The mercenary guided by the Saint!
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\c[0]    Wha-? Mercenary guided by what?
+
+Rho/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    Listen. We are in need of your help.
+\CBct[8]\m[confused]\plf\Rshake\c[6]Lona：\c[0]    Uh...what's going on?
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    Saint's above, this is too much.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    There is havoc outside the village and worse yet the village men are taking the chance to steal girls.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    They are just kids!
+
+Rho/begin2_brd
+\CamCT\board[Save the girl in danger]
+Goal：In the house in the west of Sunrise village, save the captive girl.
+Reward：Morale 4, 2000P
+Client：Housewife
+Time Limit：None
+The men of Sunrise village are stealing girls whilst Noer Island devolves into chaos? How despicable.
+Help those kids. Head to the house in the west of the village and release the lost girl and bring her back to this house.
+
+Rho/begin3_yes
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    I beg of you, young mercenary, please save them.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\c[0]    Okay, I'll go save them!
+\CBid[-1,4]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    Thank the Saints!
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    I believe they are kept inside the storage on the very west of the village.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    Be careful. Those men dislike being bothered by women, let alone an outsider.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    Besides...I wish to apologize to them in person...
+\CBct[20]\m[pleased]\plf\Rshake\c[6]Lona：\c[0]    You can count on me!
+
+Rho/begin3_no
+\CBct[8]\m[flirty]\plf\PLF\c[6]Lona：\c[0]    Um...I don't think I can do this.
+
+Rho/RG14_x
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\c[0]    Animal noises? Monkeys?
+
+Rho/RG14_0
+\c[4]Villager：\c[0]    Oh fuck, this is the tightest thing ever!
+\c[4]Villager：\c[0]    \{Uooooooooooh!
+
+Rho/RG14_1
+\CBmp[ApeGuard1,5]\c[4]VillagerA：\c[0]    Ah! Blast! This one croaked.
+
+Rho/RG14_2
+\CBmp[ApeGuard2,20]\c[4]VillagerB：\c[0]    Felt too damn good. So damn good!
+\CBmp[ApeGuard1,3]\c[4]VillagerA：\c[0]    Didn't think this would be even better than regular women, did ya?
+\CBmp[ApeGuard1,4]\c[4]VillagerA：\c[0]    Plus the holes are more firm, way better than what my wife got going on!
+\CBmp[ApeGuard2,20]\c[4]VillagerB：\c[0]    \{Gonna cum! Cumming!
+
+Rho/RG14_3
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\c[0]    Um...are the girls...monkeys?
+\CBct[8]\m[confused]\PLF\c[6]Lona：\c[0]    No way...
+
+Rho/RG14_4
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\c[0]    Um...guess I'll pretend I did not see this?
+\CBct[8]\m[confused]\PLF\c[6]Lona：\c[0]    But I did already promise...
+
+Rho/Ape0_opt
+Poor girl monkey, release her restraints?\optB[Nope,Release]
+
+Rho/Ape1
+\CBct[3]\m[pleased]\PLF\c[6]Lona：\c[0]    There. You are free!
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+\CBct[3]\m[triumph]\PLF\c[6]Lona：\c[0]    Follow me. I can take you somewhere safe.
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+
+Rho/Ape2_brd
+\CamCT\board[Rescue the monkey in danger]
+Goal：Lead the monkey back to the house in the east.
+Reward：Morale 4、2000P
+Client：Housewife
+Time Limit：None
+
+Rho/QuestDone0
+\CBct[8]\m[confused]\PLF\c[6]Lona：\c[0]    Um...well...anyways...
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\c[0]    I brought...the monkey...no...the girl... she is rescued.
+
+Rho/QuestDone1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    Many thanks divine mercenary! Praise the Saint!
+
+Rho/QuestDone2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Woman：\c[0]    Oh poor child. You have endured so much.
+
+Rho/QuestDone3
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Woman：\c[0]    I will help patch up your injuries and pass on this courageous deed of yours.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Woman：\c[0]    Bless you, divine mercenary. 
+\CBct[3]\m[pleased]\PLF\c[6]Lona：\c[0]    Okay!
+
+Rho/Rng0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Woman：\c[0]    Saints...forgive me of my sins.
+
+Rho/Rng1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Woman：\c[0]    I am sinful...forgive me...

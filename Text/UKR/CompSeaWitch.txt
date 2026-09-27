@@ -1,0 +1,388 @@
+Ded/ded
+\SETpl[SeaWitch_angry]\Lshake\C[4]Морська Відьма:\C[0] НІ! П-Кляті люди! Я не можу програти... таким... зі слабким істотам...
+
+0to1/begin0
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Знайшов...!
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Несправжня... Морська Відьма...!
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Несправжня... Морська Відьма... Ти не зможеш... Обдурити мене... І моїх... Братів...
+\CBmp[SeaWitch,8]\C[4]Несправжня Морська Відьма:\C[0] *Хник*....
+
+0to1/begin1
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Вбити... *Фиркає*... ЇЇ!
+
+0to1/begin2
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] На жертву... *Хрюк*... ЇЇ!
+
+0to1/begin3
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Підступна... Морська Відьма... Говори... Свої... Останні... Слова...
+\CBmp[SeaWitch,8]\C[4]Несправжня Морська Відьма:\C[0] Я так голодна......
+
+0to1/begin4
+\CBmp[GuardM2,2]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Так голодна\..\..\..
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Дивіться...! Не сумнівайтеся, вона несправжня... Морська Відьма... Володіє... Усією рибою на світі...!
+
+0to1/begin5
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Справжня Морська Відьма не може бути голодна... ти фальшива Морська Відьма...!
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Страждай *Хрюк*... І... ПОМРИ!
+\CBmp[SeaWitch,2]\C[4]Несправжня Морська Відьма:\C[0] *Хник*...
+
+0to1/begin6
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Хто...?!
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] Це джерело зла...!
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]Риболюд-воїн:\C[0] ВБИТИ...!
+\CBmp[SeaWitch,8]\C[4]Несправжня Морська Відьма:\C[0] Ні\..\..\.. С-Стойте..\.. Едиыыы......
+
+0to1/begin7
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] Що це за шум?!
+
+1to2/begin0
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] Ійак?! Що тут трапилося?
+\CBct[20]\m[terror]\Rshake\c[6]Лона:\C[0] Чому так багато мертвої... риби?
+\CBmp[SeaWitch,8]\prf\C[4]Несправжня Морська Відьма:\C[0] Дуже... Г-голодна......
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] Аа...?
+\CBmp[SeaWitch,8]\prf\C[4]Несправжня Морська Відьма:\C[0] Вмираю... Голодна...
+\CBct[8]\m[fear]\c[6]Лона:\C[0] .....
+
+2to3/begin0
+\CBct[2]\m[flirty]\c[6]Лона:\C[0] Еммм... Вибачте...?
+\CBmp[SeaWitch,8]\prf\C[4]Несправжня Морська Відьма:\C[0] Ггг... Г-Голод...
+\CBct[8]\m[confused]\c[6]Лона:\C[0] Голодна?
+\CBct[8]\m[flirty]\c[6]Лона:\C[0] А хіба цей храм не оточений рибами?
+\CBmp[SeaWitch,8]\prf\C[4]Несправжня Морська Відьма:\C[0] Чоловічий с-сок... Потрібен... Чоловік...
+\CBct[2]\m[confused]\c[6]Лона:\C[0] Не схоже, що вона з Риболюдей... Може, вона легендарна Русалка?
+\CBct[2]\m[flirty]\c[6]Лона:\C[0] Може, вона зможе виконати моє бажання?
+
+3to4/begin_opt
+\CBmp[SeaWitch,8]\prf\C[4]Русалка：\C[0] Потрібен... М-Чоловік...
+\m[confused]\c[6]Лона:\C[0] Хммм... \optB[Скасувати,Запропонувати чоловіка<r=HiddenOPT0>,Дати Сперму<r=HiddenOPT1>,Дати Єди]
+
+3to4/begin_other0
+\CBct[2]\m[flirty]\c[6]Лона:\C[0] Ти в порядку? Ти все ще голодна? Може, принести тобі овочів чи м'яса...?
+\CBmp[SeaWitch,8]\prf\C[4]Русалка：\C[0] Н-Ні... Мені потрібен чоловік... Тільки сік- *Хффф* -чоловіки... п-допоможе мені...
+\CBct[20]\m[confused]\c[6]Лона:\C[0] Що за дивне прохання? Ти це серйозно?
+\CBmp[SeaWitch,8]\prf\C[4]Русалка：\C[0] Пр-Прошу... Я... *АХХХ* прошу тебе... Допоможи меніїї...
+\CBct[8]\m[flirty]\c[6]Лона:\C[0] Спробую...
+
+3to4/begin_other1
+\board[Голодна Русалка]
+Завдання: Допомогти цій дивній жінці знайти чоловіків чи сперму?
+Нагорода：Хммм...
+Клієнт：Русалка(?)
+Повторюваність：Одноразове
+Знайдіть героя, якого приваблюють Русалки.
+Або принесіть їй 10 од. Сперми чи 5 од. Протеїну.
+
+###################################################### FOOD
+
+3to4/ItemTransfer
+\CBmp[SeaWitch,8]\prf\C[4]Русалка：\C[0] Ох......
+
+3to4/ItemTransfer_Win
+\CBct[20]\m[shy]\c[6]Лона:\C[0] Ти правда це їж...
+
+3to4/ItemTransfer_Failed
+\CBmp[SeaWitch,8]\prf\C[4]Русалка：\C[0] Мммммм.
+\CBct[20]\m[confused]\c[6]Лона：\C[0] Щось їй не подобається те, що їй дала. Може, це було не те, що потрібно чи може їй мало?
+
+####################################################### MAN
+
+3to4/traveler_begin0
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник:\C[0] Ти чула що-небудь про Напівзвірів? У мене був секс із багатьма самками інших видів.
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник:\C[0] Деякі з них були повністю покриті хутром, а в інших були дуже довгі вуха!
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник:\C[0] Залишилися тільки Риболюди...\n Упевнений, самки Риболюдей незрівнянні!
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник:\C[0] Ооо так! Залишилося тільки викреслити риболовців з мого списку! Не можу дочекатись зустрічі з Рибосамочкою!
+\CBct[20]\m[flirty]\c[6]Лона:\C[0] Ем...
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник:\C[0] Я з нетерпінням чекаю зустрічі з однією з них! Ти чула колись історії про Русалку?
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник：\C[0] Впевнений, ти вже знаєш! Не можу уявити, якою мокрою і слизькою буде її риба клоаку!
+\CBct[20]\m[confused]\c[6]Лона:\C[0] Містер...
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник:\C[0] Я не винесу цього! Я мушу закінчити в одну з них зараз!
+\CBct[20]\m[flirty]\c[6]Лона:\C[0] Я насправді знайшла Русалку. Схоже, їй потрібна чоловіча допомога. Можливо, саме ви зможете врятувати її...?
+\CBmp[MonsterLover,20]\prf\c[4]Мандрівник:\C[0] Ч-ЩО?! Охуєти! Де? ВІДПОВІДІ МЕНЕ ДО НІЇ!
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] П-Будь ласка, зачекайте! Не поспішайте!
+
+3to4/traveler_begin1
+\CBmp[MonsterLover,5]\prf\c[4]Мандрівник:\C[0] \{ЗВІДІ\. МЕНЕ. К\. НІЙ. Прямо. ЗАРАЗ!
+\CBct[20]\m[terror]\Rshake\c[6]Лона:\C[0] \{Х-Добре!
+
+3to4/traveler_begin2
+\board[Ескорт Мандрівника]
+Завдання: Відвести Мандрівника до Русалки
+Нагорода：Великий Медяк х2\i[582]
+Клієнт: Мандрівник
+Термін виконання：2 дні
+РУСАЛКА!
+
+3to4/CommonConvoyTarget0
+\CBid[-1,20]\c[4]Мандрівник：\C[0] Поспішай, відведи мене до Русалки! Швидше!
+
+3to4/CommonConvoyTarget1
+\CBid[-1,20]\c[4]Мандрівник：\C[0] Поглянь на монстра в моєму скрученому положенні! У мого малюка більше немає сил це виносити!
+
+3to4/CommonConvoyTarget2
+\CBid[-1,20]\c[4]Мандрівник：\C[0] Де вона? Де Русалка?
+
+3to4/QmsgTar
+Скоріше відведіть мене до Русалки!
+
+3to4/ManSucker_closer
+\CBct[2]\m[flirty]\c[6]Лона:\C[0] Еммм... Ти в порядку? Я прийшла із чоловіком.
+\CBmp[SeaWitch,8]\prf\C[4]Русалка：\C[0] Б-Ближче... Підведи... його... Сюди... Я... відчуваю... його... запах... Б-Швидше......
+\CBct[2]\m[confused]\c[6]Лона:\C[0] Добре.
+
+3to4/ManSucker_win0
+\CBfE[20]\c[4]Мандрівник：\C[0] \..\..\..
+\CBfE[20]\c[4]Мандрівник:\C[0] Це... Це не Русалка!
+\CBct[8]\m[confused]\c[6]Лона:\C[0] Що? Вона не-...?
+
+3to4/ManSucker_win1
+\CBfE[20]\prf\c[4]Мандрівник：\C[0] -Вона не ПРОСТО Русалка! \n ВОНА ДІВЧИНА-ОСЬМИНОГ!!!
+
+3to4/ManSucker_win2
+\CBfE[20]\prf\c[4]Мандрівник：\C[0] З глузду з'їхати! Поглянь на мого малюка! Він так виріс!
+\CBct[8]\m[flirty]\c[6]Лона:\C[0] Ахаха?
+
+3to4/ManSucker_win3
+\CBfE[20]\prf\c[4]Мандрівник：\C[0] Спасибі велике! Ось, ти заслужила на це!
+\CBct[8]\m[confused]\c[6]Лона:\C[0] Еммм... Дякую?
+
+3to4/ManSucker_win4
+\CBmp[SeaWitch,4]\prf\C[4]Русалка：\C[0] Чоловік...! ♥♥♥ Це... чоловік.~ ♥
+\CBfE[4]\prf\c[4]Мандрівник：\C[0] Хохо! ♥ Не поспішай! ♥ Зараз я все зроблю...
+
+3to4/ManSucker_win5
+\CBfE[4]\prf\c[4]Мандрівник：\C[0] Ааахххх! ♥ ♥
+\CBfE[4]\prf\c[4]Мандрівник：\C[0] Ця волога дірочка... ♥ Т-Так добре...!~ ♥
+
+3to4/ManSucker_win6
+\CBct[2]\m[flirty]\c[6]Лона:\C[0] Фе...
+\CBct[2]\m[confused]\c[6]Лона:\C[0] Вони справді роблять це без вагань...?
+\CBct[2]\m[shy]\c[6]Лона:\C[0] Чи варто мені взагалі дивитися на них ...?
+\narr Лона вирішила, що їй не варто дивитися, як ці двоє... злягаються. Вона відвертається та закриває вуха.
+
+3to4/ManSucker_win7
+\CBfE[4]\c[4]Мандрівник：\C[0] Ахххммф! Ооооххх! ♥ Зараз скінчу! ♥ К-КІНЧАЮ!!!~ ♥♥♥
+
+3to4/ManSucker_win8
+\CBfE[4]\c[4]Мандрівник:\C[0] *Уффф*... *Фуфф*... ♥ Восьминіжка... ♥ До-як же приємно ♥
+
+3to4/ManSucker_win9
+\CBmp[SeaWitch,4]\C[4]Русалка：\C[0] Хочу-... *Хффф* -більше...♥ Дай мені... більше...~ ♥
+\CBfE[1]\c[4]Мандрівник：\C[0] Почекай... почекай! Головка мого члена зараз дуже чутлива! Стривай хвилинку!
+
+3to4/ManSucker_win10
+\CBfE[2]\c[4]Мандрівник:\C[0] Що?! Моя талія? Чому вона рухається сама по собі? СЕКУНДУ!
+\CBmp[SeaWitch,4]\C[4]Русалка：\C[0] Ще більше... ♥ Потрібно... ЩЕ! ♥
+
+3to4/ManSucker_win11
+\CBfE[1]\c[4]Мандрівник:\C[0] Я знову кінчаю! Я КІНЧАЮ!
+
+3to4/ManSucker_win12
+\CBfE[20]\c[4]Мандрівник:\C[0] Я... Я НЕ МОЖУ ПЕРЕСТАТИ КІНЧАТИ?!
+\CBfE[20]\c[4]Мандрівник：\C[0] НІ! МЕНЕ ВИСОСУТЬ ДОСУХУ!
+\CBfE[20]\c[4]Мандрівник:\C[0] Я БУВ НЕПРАВИЙ! О-ВІДПУСТИ!
+
+3to4/ManSucker_win12_1
+\CBct[8]\m[confused]\c[6]Лона:\C[0] \..\..\..
+\CBct[20]\m[flirty]\c[6]Лона:\C[0] Здається, вони там закінчили...?
+
+3to4/ManSucker_win13
+\CBct[8]\m[confused]\c[6]Лона:\C[0] \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Лона:\C[0] ЕЕ?! Що тут сталося!? Він мертвий?!
+
+###################################################### live again
+
+3to4/Done0
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\C[4]Русалка:\C[0] Я ЗНОВУ ПОВСТАЮ З ОКЕАНУ!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] ЕЕЕЕЕЕ!!!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Русалка:\C[0] ...Це була ти? Тц-ц... Жалюгідний шкідник на кшталт тебе? Це ти годувала та врятувала мене?
+\CBct[20]\m[fear]\plf\PRF\c[6]Лона:\C[0] \..\..\..Я...я думаю, так?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Русалка：\C[0] Здається, сили чоловічих соків вистачає тільки на те, щоб я могла рухатися.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем... Ти Риболюдина? І можеш говорити нормально? Як люди?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] ТАК ЯК ТИ СМІЄШ!!! Ти що, ідіотко? Я - \c[6]Морська Відьма\C[0]! Богиня лову та жнив.
+\CBct[1]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Б-богиня!?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Отже, це ти дала мені чоловічого соку? Я здійсню одне твоє бажання! Назви своє бажання!
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем\..\..\..
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Я хочу, щоб все стало як раніше, до початку Чорної Мли?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] ...Це твоє бажання?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Це неможливо, так?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Морська Відьма:\C[0] Це ЯК РАЗ ТО, над чим я зараз працюю! Твоє безглузде бажання буде відхилено!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Як тільки я відновлю свою повну силу, я вислухаю ще одне твоє дурне бажання!
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] О, правда?
+
+4to5/Question_beginNormal
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]Морська Відьма:\C[0] Що тобі потрібно, нижча істота?
+
+4to5/Question_beginDeepone
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]Морська Відьма:\C[0] Дитя моє, що ти шукаєш?
+
+4to5/Question
+\CBct[20]\m[normal]\plf\PRF\c[6]Лона:\C[0] Ем... \optB[Нічого,Про себе,Несправжня Морська Відьма?,Вас хтось шукає<r=HiddenOPT0>,Моє дитя?<r=HiddenOPT1>]
+
+4to5/Question_BloodLine0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Моє дитя?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Морська Відьма:\C[0] Воістину, ти дитя морів. Отже, і моє дитя.
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Хіба ти не хочеш повернутися додому, в глибини океану? Повернутися до Матері морів?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Уммм, ні, не зовсім.
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Як дивно.
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] У такому віці ти все ще людина? З тобою щось не таке?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Тебе що, ніколи не відвідували думки і бажання стрибнути в море?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] У мене ніколи не було причин для цього. Чого б мені хотіти стрибнути в море?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Ти хіба ніколи не думала, що ти інша? Чи не та, ким є ці нижчі тварюки?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Начебто ти щось більше, ніж просто нижча істота?	 
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Мммм... Мені так не здається.
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Стривай, дайте я дещо спробую...
+
+4to5/Question_BloodLine1
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] \...\...\...
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Що, ніяк?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Нічого не відчуваєш?
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ем... Мабуть, ні...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] Прокляття! Я що, настільки ослабла?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Все в порядку? Ти знову зголодніла?
+\CBmp[SeaWitch,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] Ні, відчепись від мене! Іди!
+
+4to5/Question_AboutU
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ти правда богиня? Хіба не всі хибні боги були знищені c[4]СвятимC[0]?
+\CBmp[SeaWitch,1]\SETpl[If you really are a Goddess, why is the world suffering right now?SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма\C[0] НАХУРНА ДУРА!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] Я - мати всіх мешканців морів! Велика \c[6]Морська Відьма\C[0]!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Як може такий слабкий і смертний Святий... нижча істота, навіть порівнятися зі мною?
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ох? Перепрошую.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Так... Це означає, що ти справді Богиня?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Морська Відьма:\C[0] Звичайно!
+\CBct[2]\m[tired]\plf\PRF\c[6]Лона:\C[0] Але якщо ти справді богиня, то чому сталося все це?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Морська Відьма:\C[0] \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]Морська Відьма:\C[0] Я не єдина богиня. У цьому світі є й інші злі божества.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Отже, все зло навколо створили злі боги?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Саме так!
+
+4to5/Question_AboutFake
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона:\C[0] Я чула, що існують несправжні Морські Відьми. Як це?
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] Це ІДІОТИ З МЕДУЗАМИ ЗАМІСТЬ МОЗКІВ! Є тільки ОДНА МОРСЬКА ВІДМА! Немає жодних несправжніх!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] Я повністю виснажила свої сили, відбиваючи навала злих богів! Заради всіх морських мешканців та морів!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] Я дарувала їм багатий улов під час припливу! Наказала захищатись від злих богів!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] І все ж якісь ідіоти спрямовують на мене свої плавці і оголошують мене несправжньої богині?!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] І ПОСМІЛИ КОРИСТУВАТИСЯ МОМЕНТОМ МІЙ СЛАБОСТІ, ЩОБ ПРИЧИНИТИ МЕНІ ШКОДА?!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0]    
+Жалюгідні, безглузді, майбутні імбецили!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ем... твоя манера мови...
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Морська Відьма:\C[0] \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] БЛЯДЬ!
+
+4to5/Question_Some1Look0
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ем...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Що таке? Невже нижча істота прийшла вклонитися могутній мені \C[6]Морської Відьми\C[0]?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Ні. Насправді тебе дехто шукає. Він стверджують, що є твоїм орендодавцем, і схоже, ти винна йому щомісячну плату?
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Морська Відьма:\C[0] \..\..\..
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Що\..\..\.. Як виглядала ця істота?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона:\C[0] Мммм... схожий на мерця?
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] І він випадково весь час не говорив про правосуддя?
+\CBct[20]\m[pleased]\plf\PRF\c[6]Лона:\C[0] Так! То був він!
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]Морська Відьма:\C[0] \..\..\..
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Морська Відьма:\C[0] Б-БЛЯЯЯДЬ! МЕНІ ПІЗДЕЦЬ!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Що трапилося?!
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Морська Відьма:\C[0] ВСЕ КІНЧЕНО! КІНЧЕНО! КІНЧЕНО! КОООНЧЕЕЕНО!!!
+\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Та що взагалі відбувається?!
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Морська Відьма:\C[0] НІ! ВІН-\..\..\..! Він тут\..\Ктулху..\..\n ВІН ЗЛИЙ БОГ! ВРЯТУЙ МЕНЕ!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] Чого?!
+
+4to5/Question_Some1Look1
+\narr\SndLib[sound_UndeadSurprise]Правосуддя раптово з'являється і падає з небес!
+\narrOFF\CBct[20]\m[terror]\plf\Rshake\c[6]Лона:\C[0] АААХХ?!
+
+4to5/Question_Some1Look2
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Правосуддя:\C[0] ПРАВОСУДДЯ ПРИДБИЛО! ЗЗЛООО ПОВИННО БОЯТЬСЯ! ІБООО ЯЯЯ... ПРАВОСУДДІЇ!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Морська Відьма:\C[0] "НІ! Е-Це не м-моя вина! Ти не м-м-можеш звинувачувати у всьому тільки мене!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Правосуддя:\C[0] ТИИ ВПЛОЩЕННЯ МІЙОГО ЗЛААА!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Правосуддя:\C[0] ПРАВОСУДДЕННЯ НІЇ ПРОСТУВАЄ ТЕБЕ ТВОЇ ГРЕХІЇ!
+
+4to5/Question_Some1Look3
+\CBct[5]\m[serious]\plf\Rshake\c[6]Лона:\C[0] Що ти робиш?! Не чіпай її! Я не...
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнайомець：\C[0] \..\..\..
+
+4to5/Question_Some1Look4
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Морська Відьма:\C[0] АААЙ!!!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосуддя:\C[0] НЕЇ ПРИКИДАЙ ДУРОЧКОООЙЙЙ
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосуддя:\C[0] ЯЯ ВЖЕ ЗАПРОСИВ «ЇЇ»‎!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосуддя:\C[0] ВИИХ ХОТТТЬ ЗНАТІЙ, СКІЛЬКИ ПРО НЕПРІЯТНОСТЕЄЮ ВИИИ, ДВІЇ ДУРІЇЇ!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Морська Відьма:\C[0] П-ПРОСТИ!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосуддя:\C[0] ЕСССЛИИИ МЫЫС СМОЖЕММ ЦЬОГО ВИСПРАВИТИ, ТОДІ БУДЕ ЗДІЙСНЮВАТИСЯ!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосуддя:\C[0] ТИЫ ДУМАААЕШШШ, ЩО ТЕПЕЄЕРР ЦЬОГО «ТВООЇ» ДОМММ?
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Морська Відьма:\C[0] Я *Шмиг* П-ПРОСТИ МЕНЕ!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосуддя:\C[0] Зззабууудддь, вонааа відплатилаилааа заа весь ущерщерб, який тиии нанесла.
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Правосуддя:\C[0] ІЛІЇ ТИ ХОЧЕШШЕ ЗАПРОПОНУВАТИ СПОРУЧИТИ ССС НЕЇЇ?!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Морська Відьма:\C[0] ПРОСТИ *Плач* ПРОСТИ!!!!!! Я *Ік* Я перепрошую п-перед *Шмиг* їй!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Правосуддя:\C[0] НАСЛІДНИМ ПРОТАГОНІССТОМ БУДУУУ ЯЯЯ!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Правосуддя:\C[0] ІІІ ТИЫЫ ПОВІДЖЖНААА СССОПРОВОЖЖДАТЬ МІНЯЮЧА ПІД ЧАС ПОДОРОЖ!
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]Правосуддя:\C[0] ПОНЯЯЛААА?!
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]Морська Відьма:\C[0] П-Зрозуміла!
+
+4to5/Question_Some1Look5
+\CBct[5]\m[serious]\plf\Rshake\c[6]Лона:\C[0] \..\..\..дозволю вам забрати її!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Невідомий:\C[0] Найкраща охххотницяаа, деррржії. Ти заслужила цеоо!
+
+4to5/Question_Some1Look6
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнайомець:\C[0] Ееэтооо свсвящщщенна реліквіія Сссвятогооо!
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]Незнайомець:\C[0] Проссстооо молись про Правосуддя і воно зруйнує все зззлооо.
+\CBct[5]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] "...Еее?"
+
+4to5/Question_Some1Look7
+\CBct[5]\m[shocked]\plf\Rshake\c[6]Лона:\C[0] ААХ?!
+\CBct[5]\m[terror]\plf\Rshake\c[6]Лона:\C[0] Що відбувається? Що сталося? Куди вони поділися?
+
+####################################################################################### reverse rape in fishca
+
+reverseRape/begin1
+\C[4]Морська Відьма:\C[0] Щось не так? Ти поводиться так, ніби тонеш ~ ♥
+
+reverseRape/begin2
+\c[4]Мандрівник：\C[0] Досить! Я не можу перестати закінчувати! Відпусти мене!
+
+reverseRape/begin3
+\C[4]Морська Відьма:\C[0] Ми тільки почали! ♥ Я ще... не наситилася~ ♥
+
+reverseRape/begin4
+\C[4]Морська Відьма:\C[0] Продовжуй кінчати~ ♥
+\C[4]Морська Відьма:\C[0] Ти кажеш ні, але твоє тіло знає краще. ♥
+
+reverseRape/begin5
+\c[4]Мандрівник：\C[0] П-Пощади... Мене...
+
+reverseRape/begin6
+\C[4]Морська Відьма:\C[0] Хіба ти не говорив, що зможеш задовольнити мене? У тебе вийде...~ ♥
+
+reverseRape/begin7
+\C[4]Морська Відьма:\C[0] Ти маєш бути вдячний!
+\C[4]Морська Відьма:\C[0] Твоя жалюгідна душа буде повернена в океан! ♥ Поглинена великою морською Богинею! ♥
+
+reverseRape/begin8
+\narr Коли сперма скінчилася, мандрівник почав еякулювати кров'ю.
+Його безперервні оргазми тривали до самої смерті...
+
+####################################################################################### FirstMeet Combat Uni.
+FirstMeet/BothBegin
+\CBct[5]\m[flirty]\plf\Rshake\c[6]Лона:\C[0] Еммм.
+
+FirstMeet/Cocona0
+\CBfB[20]\SETlpr[cocona_confused]\Rshake\c[4]Кокона:\C[0] \..\..\..
+\CBfB[20]\SETlpr[cocona_shocked]\Rshake\c[4]Кокона:\C[0] *Нюх* *Нюх*...! ВОНА БРЕХНЯ! Погана!
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] Хммм\..\..\..\..?
+\CBid[-1,2]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]Морська Відьма:\C[0] Це темне, некромантичне джерело енергії... Ти ж ніяк не пов'язана з... НИМ?
+\CBid[-1,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] ВІН ШПІОНІТЬ ЗА ТОБОЮ? ДЕ ВІН?!
+\CBfB[5]\SETlpr[cocona_angry]\plf\Rshake\c[4]Кокона:\C[0] ХІІСССССС!!!
+\CBct[6]\m[flirty]\plf\PRF\c[6]Лона:\C[0] Екхм... Це Кокона і вона моя хороша подруга.
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] \..\..\..То є, я все неправильно зрозуміла? Його тут нема?
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] Дуже добре! Просто чудово!
+\CBct[6]\m[confused]\plf\PRF\c[6]Лона:\C[0] Ч-Що...?
+
+FirstMeet/Cecily0
+\CBfB[2]\SETpr[CecilyNormalAr]\Rshake\C[4]Сесілія:\C[0] Це... МОНСТР?!
+\CBid[-1,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]Морська Відьма:\C[0] МОНСТР? Кого назвала монстром? Ти нижча, слабка, дурна, комаха!
+\CBfB[5]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]Сесілія:\C[0] НАСЕКОМЕ?! Дивіться хто заговорив! Гидкий черв'ячок з риб'ячою мордою!
+\CBid[-1,5]\CBfB[5]\SETpr[CecilyAngryAr]\SETpl[SeaWitch_angry]\Lshake\Rshake\C[4]Сесілія:\C[0] ТИ - Жалюгідне Щастя.\n\C[4]Морська Відьма\C[0] ТИ НИ!
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]Морська Відьма:\C[0] \..\..\..\..\CBid[-1,9]\SETpl[SeaWitch_normal]\Lshake?
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]Морська Відьма:\C[0] ХММФ! Мої груди НАМНОГО більше твоїх, нікчемна водорість!
+\CBfB[6]\SETpr[CecilySadAr]\plf\Rshake\C[4]Сесилія:\C[0] А-АХ?!
+

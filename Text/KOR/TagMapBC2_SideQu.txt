@@ -1,0 +1,173 @@
+thisMap/OvermapEnter
+부서진 짐마차\optB[그만둔다,들어간다]
+
+QuGiver/Begin0
+\CBid[-1,6]\m[confused]\prf\c[4]여행자：\c[0] 없어… 전부 다 없어졌어….
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 어…? 뭐가 없어졌다는 거야?
+
+QuGiver/Begin0_1
+\CBid[-1,8]\prf\c[4]여행자：\c[0] 너\..\..\.. 너는 누구야? 여기서 뭐 하는 거지?
+
+QuGiver/Begin1Cecily
+\CBfB[8]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 왠지 불길한 예감이 드는데.
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]회색쥐：\c[0] 조심하시죠, 아가씨.
+
+QuGiver/Begin1Cocona
+\CBfB[5]\SETlpl[cocona_angry]\Lshake\prf\c[4]코코나：\c[0] 언니! 나쁜 사람들이 있어!!!
+
+QuGiver/Begin1
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 어서 여기서 나가! 확실히 그놈들이 아직 근처에 있어!
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 뭐? 사람들?
+
+QuGiver/Begin2
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어...
+\CBmp[Lguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]강도：\c[0] 야! 목숨이 아깝다면 통행세나 내고 가라.
+\CBmp[Lguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]강도：\c[0] 꼬마 아가씨네. 잡아서 팔아버리자고.
+
+QuGiver/Begin3
+\CBmp[Rguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]강도：\c[0] 주변을 잘 봐라. 죽기 싫으면... 뭐야, 여잔가?
+\CBmp[Rguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]강도：\c[0] 여자라고?! 잘 됐군. 드디어 새 물건이 생겼네. 마을에 있는 것들은 이미 질릴 대로 질렸거든♥
+
+QuGiver/Begin4
+\CBct[8]\m[shocked]\Rshake\c[6]로나：\c[0] 뭐?! 잠깐만! 말로 하자고!
+
+QuGiver/Begin4Cecily
+\CBfB[8]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]세실리：\C[0] 너희, 지금 무슨 짓을 하는지 알기나 하냐?
+\CBfB[5]\SETpr[CecilyShockedAr]\plf\Rshake\C[4]세실리：\C[0] 그 더러운 짓값을 치를 준비나 해라!
+
+QuGiver/Begin4Cocona
+\CBfB[5]\SETlpr[cocona_shocked]\plf\Rshake\c[4]코코나：\c[0] 코코나가 언니 지켜줄게!
+
+QuGiver/Begin5
+\CBmp[Lguard1,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]강도：\c[0] 말이 길다! 전부 덤벼!
+
+#########################################################
+
+QuGiver2/Begin0
+\CBid[-1,6]\prf\c[4]여행자：\c[0] 으...
+
+QuGiver2/Begin0_opt
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 어...\optB[그만두기,무슨 일인지 묻기<r=HiddenOPT0>,떠나라고 권하기<r=HiddenOPT1>,도와주기<r=HiddenOPT2>]
+
+QuGiver2/Begin0_about0
+\CBid[-1,8]\prf\c[4]여행자：\c[0] 그들은… 전부 죽었어….?
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 어… 완전히 죽은 것 같네?
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 여기서 무슨 일이 있었던 거야? 너희, 저 \c[4]강도\c[0]들에게 습격이라도 당한 거야?
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 그런데 왜 하필 이런 때에 여행 중이었어? 지금 섬 전체가 엉망인데, 여긴 전혀 안전하지 않잖아.
+\CBid[-1,8]\prf\c[4]여행자：\c[0] 우리 마을이 산속에 있었는데, 최근에 숲 곳곳에 빨간 살덩이랑 괴물이 나타나기 시작했어.
+\CBid[-1,8]\prf\c[4]여행자：\c[0] 그래서 어쩔 수 없이 떠나야 했지.
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 오? \c[6]흉물\c[0] 말하는 거야?
+\CBid[-1,20]\prf\c[4]여행자：\c[0] \c[4]흉물\c[0]…?
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 그래, \c[4]흉물\c[0]. 너 \c[4]시바리스\c[0]가 이미 괴물한테 점령당한 거 몰랐어?
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 뭐?! 괴물? 괴물이 대수야?!!
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 이 쓰레기 놈들이 괴물보다 더 최악이야!
+\CBid[-1,5]\prf\c[4]여행자：\c[0] \{내 가족, 친구, 아이들… 전부 죽었어!\}
+\CBid[-1,5]\prf\c[4]여행자：\c[0] \{그놈들한테 전부 살해당했다고!\}
+
+QuGiver2/Begin0_about0_cecily
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 저 빌어먹을 강도놈들… 반드시 대가를 치르게 하겠어.
+
+QuGiver2/Begin0_about0_cocona
+\CBfB[6]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 언니… 저 사람 너무 불쌍해…
+
+QuGiver2/Begin0_about1
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 진정해! 조용히 해! 아직 근처에 나쁜 놈들이 있을지도 몰라!
+
+QuGiver3/Begin0_leave0
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 네 처지가 안됐긴 하지만, 여기서 어서 떠나는 게 좋아.
+\CBid[-1,5]\prf\c[4]여행자：\c[0] 그 말은… 모든 걸 그냥 놓아버리라는 거야?
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 나…
+
+QuGiver3/Begin0_leave1
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] 몇 달 전, 내 가족과 친구들도 전부 \c[4]시바리스\c[0]의 마물 폭주로 죽었어.
+\CBct[6]\m[fear]\PRF\c[6]로나：\c[0] 나도 피난길에 많은 사람들의 도움을 받았는데, 복수하다가 목숨을 버리면 어쩌겠어?
+\CBct[8]\m[tired]\PRF\c[6]로나：\c[0] 그건 날 도와준 사람들에게도 면목이 없는 일이야.
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 우린 \c[4]성도\c[0] 같은 영웅이 아니야. 그냥 평범한 사람들이지. 살아남는 것만으로도 충분해.
+
+QuGiver3/Begin0_leave2_end_cocona
+\CBfB[8]\SETlpl[cocona_sad]\Lshake\prf\c[4]코코나：\c[0] 언니....
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 미안, 언니는 너를 위험에 빠뜨릴 수 없어.
+\CBfB[8]\SETlpl[cocona_shocked]\Lshake\prf\c[4]코코나：\c[0] 으냐... 코코나 알겠어.
+
+QuGiver3/Begin0_leave2_end_cecily
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]세실리：\C[0] 하지만 나는 평범한 사람이 아니야!
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐?!
+
+QuGiver3/Begin0_leave2_end
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 그렇군요… 아이야, 정말 미안하구나…
+
+QuGiver3/Begin0_help0
+\ph\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 내가 도와줄 수 있는 일이 있을까?
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 너\..\..\.. 나는\..\..\..
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 아내의 유골함을 되찾고 싶네…
+
+QuGiver3/Begin0_help1
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 뭐?! 유골함?
+
+QuGiver3/Begin0_help2
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 흠…
+\CBct[20]\m[serious]\Rshake\c[6]로나：\c[0] 좋아! 나한테 맡겨!
+
+QuGiver5/Begin0
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 그놈들의 산채는 서쪽의 \c[6]구리 광산 마을\c[0] 안에 있어. 내가 위치를 아니까 따라오게.
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 내가 앞장설게. 내 눈은 믿을 만하거든.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 훌륭하군, 고맙네.
+
+QuGiver4/Begin0_end
+\CBct[8]\m[sad]\PRF\c[6]로나：\c[0] 하아…
+
+QuGiver5/Begin1
+\board[유골 되찾기]
+목표 : 서쪽 산채에서 유골을 되찾아라.\i[268]
+보수 : 미정
+의뢰인 : \c[4]여행자\c[0]
+기한 : 4일
+\c[4]여행자\c[0]를 보호하라.
+\c[6]구리 광산 마을\c[0]로 가서 \c[4]여행자\c[0]의 아내 유품을 되찾아라.
+
+############################################################
+
+NPC/CommonConvoyTarget7
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 찾았나?
+
+NPC/CommonConvoyTarget8
+\CBid[-1,8]\narr그는 유골함을 꼭 끌어안고 무언가를 중얼거렸다…
+
+QuGiver8/Begin0
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..이거… 맞아?
+\CBct[20]\m[triumph]\PRF\c[6]로나：\c[0] 그렇지? 바로 이거잖아!
+
+QuGiver8/Begin1
+\board[유골 되찾기]
+목표 : 유골함을 \c[4]여행자\c[0]에게 돌려줄 것.
+보수 : 미정
+의뢰인 : 여행자
+
+QuGiver9/Begin0
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 찾았어, 이게 맞지?
+
+QuGiver9/Begin1
+\CBid[-1,8]\prf\c[4]여행자：\c[0] \..\..\..
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 그래, 바로 이거야. 내 아내의 유골이야!
+\CBct[4]\m[flirty]\PRF\c[6]로나：\c[0] 좋아, 어서 여기서 나가자.
+
+QuGiver9/Begin2
+\board[유골 회수]
+목표 : \c[4]여행자\c[0]를 부서진 짐마차까지 안전하게 호위하기
+보수 : 미정
+의뢰인 : 여행자
+
+QuGiver10/Begin0
+\CBid[-1,8]\prf\c[4]여행자：\c[0] 이 정도면 충분합니다. 여기서 작별하죠.
+\CBct[2]\m[flirty]\PRF\c[6]로나：\c[0] 예? 여기서요? 여긴 위험하지 않나요?
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 괜찮습니다. 자, 이걸 받으세요.
+\CBct[2]\m[confused]\PRF\c[6]로나：\c[0] 어… 뭐예요?
+
+QuGiver10/Begin1
+\cg[event_Coins]\SND[SE/Chain_move01.ogg]\CBid[-1,8]\prf\c[4]여행자：\c[0] 아마 제가 옷이 너무 누더기라, 그 도적들이 제 몸을 제대로 수색하지 않은 모양입니다.
+\CBid[-1,8]\prf\c[4]여행자：\c[0] 이걸 드리죠.
+\cgoff\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 이렇게나 많아요?!
+\CBid[-1,8]\prf\c[4]여행자：\c[0] 받으세요. 당신은 좋은 사람이에요. 행운을 빕니다.
+
+QuGiver10/Begin2
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] …괜찮은 걸까?

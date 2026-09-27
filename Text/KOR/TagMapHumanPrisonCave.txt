@@ -1,0 +1,484 @@
+HumanPrisonCave/OvermapEnter
+\m[confused]수정 광산\optB[그만둔다,들어간다]
+
+####################################### 狩獵ABOM任務相關 ######################################################
+
+Manager/Qprog1
+\CBmp[Manager,20]\m[normal]\prf\c[4]광산 관리자：\c[0] 너, 그 괴물들 처치하러 온 거냐?
+\CBmp[Manager,20]\prf\c[4]광산 관리자：\c[0] 이런 계집애 같은 애송이를 보내다니? 그것도 여자라고?
+\CBct[2]\m[confused]\PLF\c[6]로나：\c[0] 어...?
+\CBmp[Manager,20]\prf\c[4]광산 관리자：\c[0] 뭐, 알았다.
+\CBmp[Manager,20]\prf\c[4]광산 관리자：\c[0] 놈들은 대부분 갱도의 깊은 곳에 모여 있다.
+\CBmp[Manager,20]\prf\c[4]광산 관리자：\c[0] 조심해라. 광산 노예들의 휴식 구역에는 되도록 가지 마.
+\CBmp[Manager,20]\prf\c[4]광산 관리자：\c[0] 놈들은 여자를 못 본 지 오래됐다.
+
+Manager/Qprog1_KillCounted
+\CBct[20]\m[triumph]\c[6]로나：\c[0] 좋아! 이제 포자는 전부 제거된 것 같아.
+\CBmp[Manager,19]\m[pleased]\c[6]로나：\c[0] 먼저 관리자에게 보고하자.
+
+Manager/Qprog2
+\CBmp[Manager,20]\prf\m[normal]\c[4]광산 관리자：\c[0] 오! 꼬마, 제법 잘했잖아.
+\CBmp[Manager,20]\prf\m[normal]\c[4]광산 관리자：\c[0] 자, 이게 조합 증표다.
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 고마워!
+
+####################################### Captured ######################################################
+
+Narr/Captured0
+\narr광산 경비병들이 에워싸왔다.
+
+Narr/Captured1
+\SETpl[Mreg_pikeman]\c[4]경비병A：\c[0] 이 아가씨는 뭐 하는 사람이야?
+\SETpr[Mreg_guardsman]\c[4]경비병B：\c[0] 몰라, 혹시 모집 공고 보고 온 거 아냐?
+\prf\PLF\c[4]경비병A：\c[0] 지금도 그걸 믿는 사람이 있어? 평판이 이렇게 엉망인데.
+\PRF\plf\c[4]경비병B：\c[0] 누가 알아, 여기 딱 한 명 믿고 온 거잖아?
+\prf\PLF\c[4]경비병A：\c[0] 참나, 이 세상도...
+\PRF\plf\c[4]경비병B：\c[0] 됐다, 일단 안으로 들이자.
+
+Narr/Captured2
+\m[confused]\prh\narr로나는 붙잡혀 감금되었다.
+
+####################################### 逃跑 ######################################################
+
+HumanPrisonCave/guard_yelling
+\SETpl[Mreg_guardsman]\PLF\c[0]경비병：\c[0]\n 조심해! 탈주자가 있다!
+\m[shocked]！！！！！
+
+####################################### 虐待演出 ######################################################
+
+HumanPrisonCave/RapeLoopTorture_begin1
+........
+......
+....
+\SETpl[Mfat_tortruer]\m[pain]\Lshake\SND[SE/Whip02.ogg]\Rshake\c[4]???：\c[0] \{이년아! 정신 차려!
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\m[shocked]\PRF\c[6]로나：\c[0] 아?
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\SETpl[Mfat_tortruer]\m[hurt]\Lshake\SND[SE/Whip01.ogg]\c[4]고문관：\c[0] 정신 차려!
+
+HumanPrisonCave/RapeLoopTorture_begin2_2
+\SETpl[Mfat_tortruer]\m[p5sta_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]고문관：\c[0] 똑똑히 봐라, 해충들아!
+
+HumanPrisonCave/RapeLoopTorture_begin2_3
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]고문관：\c[0] ...........
+
+HumanPrisonCave/RapeLoopTorture_begin2_4
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]고문관：\c[0] ......
+
+HumanPrisonCave/RapeLoopTorture_begin2_5
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip02.ogg]\c[4]고문관：\c[0] ...
+
+HumanPrisonCave/RapeLoopTorture_begin2_6
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\SND[SE/Whip01.ogg]\c[4]고문관：\c[0] 우리에게 반항하거나 하루 생산량을 채우지 못하면, 이렇게 되는 거다.
+
+HumanPrisonCave/RapeLoopTorture_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 좋아, 내일 전까지 채워놔라.
+
+HumanPrisonCave/RapeLoopTorture2_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 좋아, 내일까지 전부 채워라.
+
+HumanPrisonCave/RapeLoopTorture_begin3_reflag
+수정 광석, 못 채우면 너희들 가만 안 둔다.
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 해산!
+
+HumanPrisonCave/RapeLoopTorture2_begin3_reflag
+수정 광석.
+\SETpl[Mfat_tortruer]\Lshakec[4]고문관：\c[0] 다들 놀다가 기운 빠져서, 자기 일 잊지 마라!
+
+HumanPrisonCave/RapeLoopTorture_begin4
+\ph\narr\..\..\..\..
+
+HumanPrisonCave/RapeLoopTorture_end
+로나는 의식을 잃었고, 다른 죄수들이 그녀를 침대로 옮겼다.
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin1
+\SND[SE/Whip02.ogg]\{조심해!!!
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_1
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]고문관：\c[0] ...............
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_2
+\SETpl[Mfat_tortruer]\m[terror]\Rshake\SND[SE/Whip02.ogg]\Lshake\c[4]고문관：\c[0] ...........
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_3
+\SETpl[Mfat_tortruer]\m[sad]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]고문관：\c[0] .......
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_4
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]고문관：\c[0] ....
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_0
+\m[sad]저 사람은 이미 죽은 것 같다.
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_1
+\m[sad]저 사람은 이미 한계인 것 같다.
+
+HumanPrisonCave/RapeLoopTorture_FristTime0
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 오! 보아하니 새로운 인원이 즐거운 노예 생활에 합류했군?
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 게다가...\..\..\.. 여자라니!
+
+HumanPrisonCave/RapeLoopTorture_FristTime1
+\m[wtf]\Rshake큰일 났다, 나한테 하는 말이잖아.
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 로나라고 부른다고? 참 예쁜 이름이네.
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 다들 그녀랑 사이좋게 지내도록 해라!
+
+HumanPrisonCave/RapeLoopTorture_FristTime2
+\m[shy]\cg[event_Eyes]사방의 눈들이 나를 주시하고 있다.
+\m[fear]그 음탕한 눈빛들이 무슨 꿍꿍이를 꾸미는 거지?
+\m[terror]\cgoff절대 약해 보이면 안 돼, 그렇지 않으면 공격당할 거야.
+
+####################################### 排隊肉便器 ######################################################
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1
+\m[hurt]\SND[SE/Chain_move01.ogg]\Rshake\c[6]로나：\c[0] 이야아악!!
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 여러분, 오늘도 작업하느라 수고 많았다!
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 모두들 아주 열심히 하는 걸 봤다!
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 그런데 이 망할 년이 게으름을 피웠어!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_1
+\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[6]로나：\c[0] 으악!!
+\m[terror]\c[6]로나：\c[0] 아냐! 나 게으름 안 피웠어! 정말 열심히 했다고!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_2
+\SETpl[Mfat_tortruer]\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\Lshake\c[4]고문관：\c[0] \{닥쳐!
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 오늘은 이년의 몸으로 너희를 보상해 주겠다!
+\SETpl[raper_group]\Lshake\c[4]광산 노예병：\c[0] 여자다!
+\SETpl[raper_group]\Lshake\c[4]광산 노예병：\c[0] 여자를 박을 수 있다!!
+\SETpl[raper_group]\Lshake\c[4]광산 노예병：\c[0] 씨발! 진짜 오랜만에 즐기는 거다!
+\SETpl[Mfat_tortruer]\Lshake\c[4]고문관：\c[0] 시끄러! 한 명씩 차례로! 모두 돌아가면서 해!\ph
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_3
+.........
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_typical
+\m[bereft]\c[6]로나：\c[0] 안 돼! 날 놔줘! 제발!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_tsundere
+\m[angry]\c[6]로나：\c[0] 안 돼! 건드리지 마!
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_gloomy
+\m[terror]\c[6]로나：\c[0] 안 돼......
+\m[fear]이렇게 많은 사람이라니, 난 죽을 거야.
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_slut
+\m[lewd]\c[6]로나：\c[0] 난 너희들한테 그렇게 쉽게 안 질걸...
+
+HumanPrisonCave/RapeLoopMeattoilet_end
+\SETpl[raper3]\Lshake\c[4]광산 노예：\c[0] 다음은 나다!
+\SETpl[raper2]\Lshake\c[4]광산 노예：\c[0] 안 돼! 다음은 나야!
+\SETpl[raper1]\Lshake\c[4]광산 노예：\c[0] 젠장! 분명 내가 뒤에 서 있었잖아!
+\ph광산 노예들의 연회는 밤까지 계속되었다.
+끝없는 폭행 속에 로나는 의식을 잃었고, 다른 광산 노예들이 로나를 그녀의 침상으로 옮겼다.
+
+####################################### 一般守衛 ######################################################
+
+HumanPrisonCave/Guard_begin1_slave
+\c[4]경비병：\c[0] 일해! 빌어먹을 노예!
+
+HumanPrisonCave/Guard_begin1_maggot
+\c[4]경비병：\c[0] 구더기! 당장 일하러 가!
+
+HumanPrisonCave/Guard_begin1_sexy
+\c[4]경비병：\c[0] 일해! 걸레년!
+
+HumanPrisonCave/Guard_begin1_weaker
+\c[4]경비병：\c[0] 돌아가서 일해! 구더기!
+
+HumanPrisonCave/Guard_begin1_moot
+\c[4]경비병：\c[0] 네가 할 일을 해!
+
+HumanPrisonCave/Guard_begin1_lona
+\c[4]경비병：\c[0] 돌아가서 일해!
+
+HumanPrisonCave/Guard_Opt
+\m[confused]\c[6]로나：\c[0] 응?\optB[그만둔다,거래한다,성 서비스<r=HiddenOPT1>]
+
+####################################### 一般男性광부 ######################################################
+
+HumanPrisonCave/MinerM_begin1_slave
+\c[4]광산 노예：\c[0] 꺼져! 건드리지 마.
+
+HumanPrisonCave/MinerM_begin1_maggot
+\c[4]광산 노예：\c[0] 꺼져! 건드리지 마.
+
+HumanPrisonCave/MinerM_begin1_sexy
+\c[4]광산 노예：\c[0] 후후...
+
+HumanPrisonCave/MinerM_begin1_weaker
+\c[4]광산 노예：\c[0] 응?
+
+HumanPrisonCave/MinerM_begin1_moot
+\c[4]광산 노예：\c[0] 귀찮게 하지 마!
+
+HumanPrisonCave/MinerM_begin1_lona
+\c[4]광산 노예：\c[0] 왜?
+
+####################################### 搶劫型礦工 ######################################################
+
+HumanPrisonCave/MinerHairTriggerM_begin_basic
+\c[4]광산 노예：\c[0] 네 건 내 거고, 내 건 여전히 내 거다!
+
+HumanPrisonCave/MinerHairTriggerM_Opt_basic
+\m[confused]\c[6]로나：\c[0] 응?\optB[됐어,성 서비스<r=HiddenOPT1>]
+
+HumanPrisonCave/MinerHairTriggerM_begin_aggro
+\c[4]광산 노예：\c[0] 헤헤, 꼬마 아가씨, 손에 든 광석 전부 내놔.
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro
+\m[shocked]\c[6]로나：\c[0] \optD[준다<t=5>,싫어!]
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_no
+\m[angry]\c[6]로나：\c[0] 싫어! 무슨 권리로!
+\c[4]광산 노예：\c[0] 감히 저항한다고?!
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_yes
+\m[sad]\c[6]로나：\c[0] 다... 다 줄게, 제발 다치게 하진 마.
+\c[4]광산 노예：\c[0] 후후후, 헤헤, 그래야 착하지.
+
+####################################### 礦坑交易員 ######################################################
+
+HumanPrisonCave/CaveTrader_begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\c[4]경비병：\c[0] 뭐 봐? 멍하니? 오늘 분량 다 채웠어?
+
+HumanPrisonCave/CaveTrader_Opt
+\CBmp[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 응?\optB[됐어,거래,대화,수정 광석 주기,성 서비스<r=HiddenOPT1>]
+
+HumanPrisonCave/CaveTrader_Talk1
+\CBmp[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 그... 있잖아....
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 내일 안으로 수정 광석을 다 채워야 해. 안 그러면 고생 좀 할 거야.
+\CBid[-1,5]\Lshake\prf\c[4]경비병：\c[0] 먹을 거든 마실 거든 다 똑같아. 수정 광석을 가져와. 일 안 하면 밥도 없어!
+\CBmp[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 알... 알았어.
+
+HumanPrisonCave/CaveTrader_AnsSexService
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 관심 없어!
+
+HumanPrisonCave/CaveTrader_GiveMineral_begin
+\CBmp[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 이건 내가 모은 거야.....
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 흠.....
+...........
+.....
+...
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_OkayButMore
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 부족해! 당장 더 캐 와!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_None
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] \{씨발! 날 속였군!
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_Full
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 좋아! 죽을 때까지 열심히 캐라!
+
+HumanPrisonCave/CaveTrader_end
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]경비병：\c[0] 어서 가서 일해! 작은 년아!
+
+HumanPrisonCave/CaveTrader_mineneed0
+아직 멀었다
+
+HumanPrisonCave/CaveTrader_mineneed1
+수정 광석이 더 필요하다.
+
+####################################### 隱藏出口 ######################################################
+
+HumanPrisonCave/Windcave_frist_time
+\CBct[8]\m[shocked]\cg[map_region_hole]\c[6]로나：\c[0] 바람?!
+\CBct[2]\m[normal]\c[6]로나：\c[0] 바람이 분다면, 여기는 아마 밖으로 통할 거야.
+\CBct[8]\m[confused]\c[6]로나：\c[0] 내 체형도 작으니, \n이 구멍을 조금만 더 파내면……
+
+HumanPrisonCave/Windcave_Opt
+\CBct[8]\m[confused]\cg[map_region_hole]바람이 부는 동굴\optB[스태미너를 아끼자,구멍 파기<r=HiddenOPT1>]
+
+HumanPrisonCave/Windcave_Opt_dig
+\CBct[8]\m[normal]얼마나 스태미너을 쓸까?\optB[스태미너을 아끼자,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+HumanPrisonCave/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]로나：\c[0] 꽤 많이 파낸 것 같아. 
+\CBct[6]\m[tired]\c[6]로나：\c[0] 하지만… 으으… 너무 힘들어.
+
+HumanPrisonCave/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]！！！！！
+\CBct[1]\m[shocked]！！！！！！！！
+\CBct[1]\m[pleased]！！！！！！！！！！！
+\CBct[20]\m[triumph]\c[6]로나：\c[0] 됐다! 나갈 수 있어!
+
+####################################### RAND RAPE LOOP ######################################################
+
+HumanPrisonCave/RapeLoop_begin1
+\m[shocked]\c[6]로나：\c[0]！！！！！
+\SETpl[raper_group]\prf\c[4]광산 노예：\c[0] \{여자다!
+\SETpl[raper_group]\prf\c[4]광산 노예：\c[0] \{헤헤, 여자!
+\SETpl[raper_group]\prf\c[4]광산 노예：\c[0] 오랜만에 한다.
+\m[terror]\PRF\c[6]로나：\c[0] 뭐? 잠깐?!
+
+####################################### DirtyJohnson ######################################################
+
+DirtyJohnson/else_fapping
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\c[4]더러운 존슨\c[0] 헤헤...♥
+
+DirtyJohnson/FirstTime
+\CBct[8]\SETpl[DirtyJohnson_angry]\m[confused]\PLF\PRF\c[4]광부：\c[0] 음\..\..\..?
+\CBct[6]\m[shy]\plf\PRF (이 사람 냄새 진짜 심하다...)
+\CBid[-1,8]\SETpl[DirtyJohnson]\m[confused]\Lshake\prf\c[4]광부：\c[0] 아가씨, 너 신참이야?
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]광부：\c[0] 나!\.\c[6]더러운 존슨\c[0]이고, 그다음 너는....
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 나는 로...\..\..\..CBid[-1,3]\SETpl[DirtyJohnson_penis]\m[DirtyJohnson_angry_penis]\cg[event_WartsDick]\Lshake\prf\n \{내 좆 빨아!
+\CBct[20]\m[terror]\PLF\Rshake\c[6]로나：\c[0] 뭐?! 뭐라고?!
+\CBid[-1,8]\SETpl[DirtyJohnson_angry]\m[terror]\Lshake\prf\c[4]더러운 존슨\c[0] 신참 년이 내 좆 안 빨아? 동굴의 왕 거절하면 벌 받는 거야.
+
+DirtyJohnson/FirstTime_blowjob_refuse
+\cgoff\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]더러운 존슨\c[0] 이년이 감히 동굴의 왕을 거절해?!
+
+DirtyJohnson/FirstTime_blowjob_to_deepthroat
+\c[4]더러운 존슨\c[0] 으으!! 
+\narr \c[4]더러운 존슨\c[0]이 거칠게 로나의 머리채를 움켜쥐었다.
+
+DirtyJohnson/FirstTime_blowjob_done
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨\c[0] 어때? 맛있지?
+\CBid[-1,3]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨\c[0] 내 여자가 되면 매일 내 자지를 맛볼 수 있다구♥
+
+DirtyJohnson/Lona_EH
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] \{에에!!?
+
+DirtyJohnson/WhoreWork_win_new
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]더러운 존슨：\c[0] 오오!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]더러운 존슨：\c[0] 오랜만이라 위에 자지때가 잔뜩 쌓였네.
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]더러운 존슨：\c[0] 네가 깨끗이 치워주도록 해라.
+
+DirtyJohnson/WhoreWork_win_old
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[shy]\Lshake\prf\c[4]더러운 존슨：\c[0] 오오!!
+\CBid[-1,20]\SETpl[DirtyJohnson_penis]\m[shy]\Lshake\prf\c[4]더러운 존슨：\c[0] 참 착하네.
+\CBid[-1,20]\SETpl[DirtyJohnson_angry_penis]\m[shy]\Lshake\prf\c[4]더러운 존슨：\c[0] 이번에도 깨끗하게 부탁한다.
+
+#unused
+DirtyJohnson/WhoreWork_failed
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]더러운 존슨：\c[0] 흥미 없어! 꺼져!
+
+DirtyJohnson/begin_BackToCave
+\CBid[-1,20]\SETpl[DirtyJohnson]\m[sad]\Lshake\prf\c[4]더러운 존슨：\c[0] 어? 왜 다시 돌아왔어?
+\CBid[-1,4]\SETpl[DirtyJohnson_angry_penis]\m[sad]\Lshake\prf\c[4]더러운 존슨：\c[0] 내 자지때가 그리운 거야, 아니면 내 침이 그리운 거야?
+
+DirtyJohnson/begin0
+\CBid[-1,20]\SETpl[DirtyJohnson_angry]\m[sad]\Lshake\prf\c[4]더러운 존슨：\c[0] 여긴 내 왕국이다. 나는 동굴의 왕이다.
+
+DirtyJohnson/begin1
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\m[sad]\Lshake\prf\c[4]더러운 존슨：\c[0] 후헤헤♥ 너를 보니까 내 자지가 단단해져 버렸네.
+
+DirtyJohnson/begin2
+\CBid[-1,2]\SETpl[DirtyJohnson]\m[normal]\Lshake\prf\c[4]더러운 존슨：\c[0] 헤헤, 뭐가 갖고 싶은데?
+
+DirtyJohnson/begin_DoorBlockMode
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\m[normal]\Lshake\prf\c[4]더러운 존슨：\c[0] 멈춰! 어디 가려고?
+
+####################################### DirtyJohnson captured
+
+DirtyJohnson/Captured0
+\SETpl[DirtyJohnson_angry]\Lshake\c[4]더러운 존슨：\c[0] 흥흥... 기억해라, 여자는 전부 내 거다.
+
+####################################### DirtyJohnson wakeup first time rape
+
+DirtyJohnson/FirstWakeupRape0
+\CBmp[DirtyJohnson,3]\SETpl[DirtyJohnson]\Lshake\c[4]더러운 존슨：\c[0] 으오오♥♥
+
+DirtyJohnson/FirstWakeupRape1
+\CBmp[DirtyJohnson,4]\c[4]더러운 존슨：\c[0] 아아♥ 멈출 수가 없어♥
+
+DirtyJohnson/FirstWakeupRape2
+\CBmp[DirtyJohnson,20]\c[4]더러운 존슨：\c[0] 젠장! 쌀 것 같아! 쏜다!
+
+DirtyJohnson/FirstWakeupRape3
+\CBmp[DirtyJohnson,1]\c[4]더러운 존슨：\c[0] 흐어어어어어!!!
+
+DirtyJohnson/FirstWakeupRape4
+\CBct[8]\m[tired]\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[pain]\Rshake\c[6]로나：\c[0] \{에엣!!?
+\CBct[6]\cg[event_GroinClearn]\m[shy]\PRF\c[6]로나：\c[0] 이게... 뭐야?!
+
+####################################### DirtyJohnson opt dialog
+
+DirtyJohnson/opt_who_are_you
+너 누구야
+
+DirtyJohnson/opt_what_happen_to_me
+나... 왜 이래
+
+DirtyJohnson/opt_merry
+그의 여자가 된다
+
+DirtyJohnson/opt_sex_with
+그와 섹스한다
+
+DirtyJohnson/opt_who_are_you_ans0
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 실례지만... 당신은....
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 여긴 내 왕국이다. 나는 동굴의 왕, 더러운 존슨이다.
+\CBid[-1,5]\SETpl[DirtyJohnson_penis]\Lshake\prf\c[4]더러운 존슨：\c[0] 이곳에 온 이상 나갈 생각은 하지 마라, 내 여자가 돼라.
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 나.....
+\CBid[-1,8]\SETpl[DirtyJohnson]\PLF\prf\c[4]더러운 존슨：\c[0] .....
+
+DirtyJohnson/opt_what_happen_to_me_ans0
+\CBct[20]\m[fear]\plf\PRF\c[6]로나：\c[0] 너... 나한테 뭐 한 거야?
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 네 보지를 박았지. 넌 이미 내 거다.
+\CBct[20]\m[terror]\plf\Rshake\c[6]로나：\c[0] 대체 무슨 소리를 하는 거야?
+\CBid[-1,5]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 이년아, 여기 온 이상 나갈 생각은 마라. 얌전히 내 여자가 돼라.
+\CBct[6]\m[fear]\plf\Lshake\c[6]로나：\c[0] 뭐?! 
+
+DirtyJohnson/opt_merry_ans0
+\CBct[20]\m[tired]\plf\PRF\c[6]로나：\c[0] 나... 네 여자가 되라고?
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 내 말만 잘 듣고 매일 내 자지를 깨끗이 닦아주면, 동굴 안에서의 노동은 전부 면제다.
+\CBid[-1,20]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 어때? 내 여자가 되지 않겠나?
+
+DirtyJohnson/opt_merry_ans_no
+\CBct[6]\m[bereft]\plf\PRF\c[6]로나：\c[0] \{싫어!
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]더러운 존슨：\c[0] ....
+
+DirtyJohnson/opt_merry_ans_yes
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 응... 할게...
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 좋아, 바로 결혼식을 올리자고.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 엑?! 결혼식?!
+
+DirtyJohnson/opt_merry_ans_narr
+\narr \c[4]더러운 존슨\c[0]은 그의 절친들을 불렀다...
+
+DirtyJohnson/opt_merry_ans_progress1
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 잘 들어라, 이 여자는 이제 내 거다.
+
+DirtyJohnson/opt_merry_ans_progress2
+\CBmp[StoryFucker2,20]\c[4]광산 노예：\c[0] 또야? 이게 몇 번째냐.
+\CBmp[StoryFucker4,20]\c[4]광산 노예：\c[0] 안됐다, 이 여자는 이제 끝났네.
+\CBmp[StoryFucker6,20]\c[4]광산 노예：\c[0] 장례식부터 치러 주자...
+\CBct[2]\m[fear]\plf\PRF\c[6]로나：\c[0] 너희들...
+
+DirtyJohnson/opt_merry_ans_progress3
+\CBid[-1,4]\SETpl[DirtyJohnson]\Lshake\prf\c[4]더러운 존슨：\c[0] 아아~ 결혼까지 하는데도 아직 내 아내 이름을 모르네.
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 나... 난 로\..\..\..\CBid[-1,3]\SETpl[DirtyJohnson_penis]\m[DirtyJohnson_angry_penis]\cg[event_WartsDick]\Lshake\prf\n \{섹스하자!
+\CBct[20]\m[shocked]\PLF\Rshake\c[6]로나：\c[0] 꺄?! 
+\CBid[-1,4]\SETpl[DirtyJohnson_penis]\Lshake\prf\c[4]더러운 존슨：\c[0] 섹스다! 모두 앞에서, 네 사랑을 증명해라♥
+
+DirtyJohnson/opt_merry_ans_progress4
+\CBct[6]\c[6]로나：\c[0] 으윽!
+
+DirtyJohnson/opt_merry_ans_progress5
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 잠깐만... 아직 준비가 안 됐어...
+\CBid[-1,5]\SETpl[DirtyJohnson_angry]\Lshake\prf\c[4]더러운 존슨：\c[0] 닥쳐! 다리 벌려!
+
+####################################### merry RapeLoop
+
+
+
+####################################### DirtyJohnson EXT
+
+asdasd/asdasd
+더러운 존슨
+너 설마 걔 눈에 든 거 아냐? 저리 가! 가까이 오지 마!
+쟤 몸에 도대체 병이 몇 가지나 들었는지 모른다고.
+
+asdasd/asdasd
+더러운 존슨
+예전에 어떤 건장한 놈이 걔가 점찍은 계집애를 건드린 적이 있었어.
+나중에 걔가 내 얼굴에 침을 뱉었는데,
+그 놈, 내가 걔를 실컷 두들겨 팼거든? 그런데 이틀 뒤 얼굴에 크고 작은 종기가 가득 올라오더니 그대로 죽었어.
+
+asdasd/asdasd
+더러운 존슨
+그 더러운 놈 말이야?
+있잖아, 예전에 내가 걔가 똥 싸는 걸 본 적이 있었거든.
+그런데 항문에서 커다란 벌레들이 잔뜩 기어나오는 거야.
+그리고 있지, 놀랍게도 걔가 그 벌레들을 한 움큼 잡더니 그대로 먹어버렸어.
+쟨 인간이 아니야.

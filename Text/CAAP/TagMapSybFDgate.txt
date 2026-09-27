@@ -1,0 +1,73 @@
+ThisMap/OmEnter
+\m[confused]Puertas del Suroeste de Síbaris \optB[Cancelar,Entrar]
+
+QuProgSybBarn2/begin1
+\c[4]Refugiado：\C[0]    Mi hijo... He matado a mi hijo...
+\c[4]Refugiado：\C[0]    ¡Oh, sí!!!
+
+QuProgSybBarn2/begin2
+\CBmp[Yeller,20]\c[4]Refugiado：\C[0]    ¡¿Por qué, Santos, por qué?!
+\CBmp[Yeller,20]\c[4]Refugiado：\C[0]    \{¡¡¡Aaaahhhh!!!!
+
+QuProgSybBarn2/begin3
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    ¿Qué demonios...?
+
+Guard0/begin0
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¿Eh? ¿Más supervivientes?
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¡Aquí no hay nada para ti! ¡Lárgate!
+\CBct[6]\m[confused]\c[6]Lona：\C[0]    ¿Eh? No-no, soy mercenaria... Novata...
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¿Mercenaria? ¿Tú? ¿Una mocosa como tú?
+\CBct[6]\m[flirty]\c[6]Lona：\C[0]    Pues sí...
+\CBid[-1,5]\prf\c[4]Mercenario：\C[0]    ¡Pirada! ¡Fuera de aquí! No es lugar para una putilla como tú. Nadie va a molestarse contigo.
+\CBct[8]\m[tired]\c[6]Lona：\C[0]    Ufff...
+
+Guard1/begin0
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Los rumores son ciertos: \c[6]Síbaris\C[0] está acabado.
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Hace meses nos reíamos de ser subhumanos montando jabalíes. Ahora todo terminó.
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¡Me reí hasta vomitar!
+
+Guard2/begin0
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Este lugar es horripilante... ¿No se disipa ya esa niebla negra?
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¿Por qué hay cadáveres por doquier y la tierra está arrasada?
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¿Y dicen que la zona infectada sigue expandiéndose?
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    ¿Desaparecerá la isla de Noër?
+
+Guard3/begin0
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Esto era mi hogar. Ahora todo ha desaparecido.
+\CBid[-1,20]\prf\c[4]Mercenario：\C[0]    Mis amigos, familia, amada... Todos muertos.
+
+GuardMain/opt
+\CBct[6]\m[confused]\c[6]Lona：\C[0]    Em... \optB[Nada,¿Qué pasa?,¿Quién es ella?]
+
+GuardMain/opt_Mercenary
+\CBct[6]\m[confused]\c[6]Lona：\C[0]    ¿Sois mercenarios? ¿Por qué hay tantos aquí?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    ¿Qué haces aquí? No es sitio para crías.
+\CBct[5]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¡Yo también soy mercenaria!
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    ¿Tú\..\..\..?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    Olvídalo. No me sorprendería ver a una zorrita en el frente.
+\CBct[2]\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿No faltaba personal aquí? ¿Por qué tanta gente?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    Somos de Noër. Buscamos suministros y supervivientes.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    ¿Mmm?
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    ¡Eso es para profesionales, así que lárgate, mocosa!
+
+GuardMain/opt_Her
+\CBct[6]\m[flirty]\c[6]Lona：\C[0]    Eh... ¿Qué le pasó a ella?
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    ¿Ella\..\..\..?
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    Pobres desgraciados...
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    Decidieron suicidarse antes de que llegáramos.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    Ella fue la última. Mató a su hijo antes de que entráramos.
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    Estaba a punto de morir... hasta que aparecimos.
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Mercenario：\C[0]    ¿No es irónico?
+
+MainWomen/Qmsg0
+¡Sí, sí, sí!!!
+
+MainWomen/Qmsg1
+¡Oh, sí, sí!!!
+
+Guard/Qmsg0
+¡Largo!
+
+Guard/Qmsg1
+¡No estorbes!

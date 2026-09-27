@@ -1,0 +1,11 @@
+####################################--------------------- mapa general
+this/OvermapEnter
+\m[confused]Templo Perdido \optB[Cancelar,Entrar]
+
+this/3to4
+\CBct[8]\m[confused]\c[6]Lona：\C[0]    \..\..\..
+\CBct[20]\m[serious]\c[6]Lona：\C[0]    ¡Este es el lugar!
+\CamMP[RapePoint]\m[serious]\c[6]Lona：\C[0]    Más adelante parece muy peligroso, tendré que tener cuidado...
+
+this/4to5
+\CBct[20]\m[flirty]\c[6]Lona：\C[0]    ¡Misión cumplida! ¡Debo regresar a la ciudad a reclamar mi recompensa!

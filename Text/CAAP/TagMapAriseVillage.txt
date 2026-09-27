@@ -1,0 +1,248 @@
+thisMap/OvermapEnter
+Aldea Aris \optB[Cancelar,Entrar]
+
+############################################################################### COMÚN
+
+GateKeeper/NormalBegin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    ¡Alto! ¿Quién eres?
+\CBct[6]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Eh... Yo...
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¿Eres la mercenaria que resolverá nuestros problemas con esos peces?
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    Bien, pasa.
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    .....
+
+GateKeeper/Enter0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    Esta es \c[6]la aldea Aris\C[0].
+\CBid[-1,5]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    Ya tenemos suficientes mendigos y peces.
+
+GateKeeper/AggroAlert
+\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    ¡Invasores!
+
+GateKeeper/TooWeakBegin0
+\CBid[-1,5]\SETpl[AnonMale1]\c[4]Aldeano：\C[0]    ¡Lárgate! ¡No queremos débiles mendigos de Sýbaris aquí!
+\CBct[8]\m[sad]\plf\PRF\c[6]Lona：\C[0]    Perdón...
+\narr Lona parece demasiado débil.
+
+Archer0/0
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¿Quién os molesta más? ¿Los peces?
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Os equivocáis, son los refugiados de Sýbaris los que más molestan.
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¡No confiéis nunca en los bastardos del imperio!
+
+Archer0/1
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Los demonios simples no son el problema. ¡Son los peces que los manipulan!
+
+Archer0/2
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Desde aquel día, aquí huele a pescado.
+
+CommomerM0/Rng0
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Los monstruos en los pantanos deben haber sido traídos por los Hombres Pez, son de la misma especie.
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¿Cómo si no explicas que los peces no los ataquen?
+
+CommomerM0/Rng1
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¿Sýbaris? He oído que allí todo terminó, ¿no?
+
+CommomerM0/Rng2
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Oí que varias aldeas fueron afectadas.
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Primero aceptaron más mendigos, luego se unieron a ellos.
+
+CommomerM1/Rng0
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¿Quién eres? No te he visto antes.
+
+CommomerM1/Rng1
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¿Qué quieres? No somos amables con los forasteros.
+
+CommomerM1/Rng2
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¡No me interesan los pechos pequeños!
+
+CommomerF/Rng0
+\CBid[-1,20]\c[4]Aldeano：\C[0]    La hermana del hermano del vecino del amigo me dijo que los peces robarán a nuestro niño por la noche.
+
+CommomerF/Rng1
+\CBid[-1,20]\c[4]Aldeano：\C[0]    La hermana del padre de mi hermano me dijo que nadie de fuera merece confianza.
+
+CommomerKid/Rng0
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Lo que más me gusta es la ejecución. Es muy interesante ver cómo luchan.
+
+CommomerKid/Rng1
+\CBid[-1,20]\c[4]Aldeano：\C[0]    Últimamente como pescado en cada comida, y estoy harto.
+
+CommomerKid/Rng2
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¡No hablo contigo! Los adultos dicen que no hay que confiar en extraños!
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]Aldeano：\C[0]    ¡Este pequeño fantasma está aquí para causar problemas! ¡Mátala!
+
+###############################################################################   AriseVillage 0to1_0
+
+AriseVillage/0to1_0
+\ph\c[4]Aldeano：\C[0]    ¡Levántate! ¡Tú! ¡Bastardo!
+
+AriseVillage/0to1_1
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]Hombre Pez：\C[0]    Yo... No puedo... Respirar...
+\CBmp[GuardL,5]\c[4]Aldeano：\C[0]    ¡Habla! ¿Qué hacen aquí los peces que creen en pseudodioses?
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]Hombre Pez：\C[0]    Nada... no hice nada...
+\CBmp[GuardR,5]\c[4]Aldeano：\C[0]    ¡Sigues fingiendo estupidez!
+
+AriseVillage/0to1_2
+\CBmp[GuardR,20]\c[4]Aldeano：\C[0]    Mira a tu compañero, hay un lugar libre junto a él esperándote.
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]Hombre Pez：\C[0]    No, no... No me mates... No quiero morir....
+
+AriseVillage/0to1_3
+\CBmp[GuardR,20]\c[4]Aldeano：\C[0]    ¡Dónde están los otros peces apestosos!
+\CBmp[GuardR,20]\c[4]Aldeano：\C[0]    ¡Responde o te mato!
+
+AriseVillage/0to1_Rng0
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¡Estos peces creen en dioses falsos! ¡Son mentirosos malvados!
+
+AriseVillage/0to1_Rng1
+\CBid[-1,20]\c[4]Aldeano：\C[0]    ¡Todo esto es obra de ese maldito pez!
+
+AriseVillage/0to1_Fishman0
+\CBct[2]\m[flirty]\PRF\c[6]Lona：\C[0]    ¿Qué pasa aquí?
+
+AriseVillage/0to1_Fishman0_0
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Hombre Pez：\C[0]    Yo... vine... a investigar ....
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Hombre Pez：\C[0]    Espíritus ancestrales... Objetivo... Disturbios...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Hombre Pez：\C[0]    La gente... nos ataca...
+\CBct[2]\m[confused]\PRF\c[6]Lona：\C[0]    Eh... ¿Espíritus ancestrales?
+
+AriseVillage/0to1_Fishman0_1
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Hombre Pez：\C[0]    Sálvame... Yo... soy inocente....
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Hombre Pez：\C[0]    Debo vivir... ir al norte... al campamento...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]Hombre Pez：\C[0]    Te daré dinero... Tengo dinero ....
+
+AriseVillage/0to1_Fishman0_brd
+\CamCT\board[Ayuda al Hombre Pez]
+Ubicación：Campamento del Norte
+Recompensa：Grandes Monedas de Cobre x4\i[582]
+Cliente：Hombre Pez de la aldea Aris
+Plazo：5 días
+¿Los aldeanos de Aris quieren matar a este Hombre Pez inocente? ¿Pero es realmente inocente?
+¡¿Puede ser inocente un Hombre Pez tan feo?!
+
+AriseVillage/0to1_Fishman1_opt
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\c[4]Aldeano：\C[0]    ¿Forastera?! ¿Eres su cómplice?
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?! \optD[No, eh..., soy mercenaria.<r=HiddenOPT0>]
+
+AriseVillage/0to1_Fishman1_opt_Cecily
+\CBfB[20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]Cecilia：\C[0]    ¡Oye!
+\CBmp[GuardTop,1]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¡¿Soldado de la ciudad?!
+\CBfB[2]\SETpr[CecilyWtfAr]\plf\PRF\C[4]Cecilia：\C[0]    ¿Qué crimen cometió este Hombre Pez?
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¡No! ¡Perdón! ¡Capturamos al tipo equivocado!
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    Lo soltaremos ahora.
+\CBfB[5]\SETpr[CecilyAngryAr]\plf\PRF\C[4]Cecilia：\C[0]    ¡Pff!
+
+AriseVillage/0to1_Fishman1_opt_No
+\CBct[6]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡No! ¡Solo pasaba por aquí!
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¡Vete! ¡No somos amables con los forasteros!
+\CBct[8]\m[tired]\plf\Rshake\c[6]Lona：\C[0]    Lo siento...
+
+AriseVillage/0to1_Fishman1_opt_Yes
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\C[0]    Eh... Yo...
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¡La forastera quiere causar problemas! ¡Mátala!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Qué?!
+
+AriseVillage/0to1_Fishman1_opt_WIS
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    Soy una mercenaria de Noer y vine a llevarme a este peligroso Hombre Pez.
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]Aldeano：\C[0]    ¿Es cierto? Entonces llévatelo, no queremos forasteros aquí.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    Entiendo.
+
+AriseVillage/0to1_Fishman2_joined
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]Hombre Pez：\C[0]    Debemos... irnos ahora mismo...
+
+###############################################################################   Casa derecha
+
+Rho/begin0_weak
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]Ama de casa：\C[0]    ¿Qué quieres de mí? ¡Necesito mercenarios, vete de aquí!
+
+Rho/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]Ama de casa：\C[0]    ¡Sí! ¡Has llegado! ¡Los Santos nos han enviado un mercenario para ayudar!
+\CBct[8]\m[flirty]\plf\Rshake\c[6]Lona：\C[0]    ¿Eh? ¿Enviaron un mercenario?
+
+Rho/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Escucha, necesitamos ayuda.
+\CBct[8]\m[confused]\plf\Rshake\c[6]Lona：\C[0]    Eh... ¿Tenéis algún problema?
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Los Santos son testigos, esto ya es demasiado.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Los hombres de nuestra aldea, aprovechando el caos, secuestraron a una chica de fuera.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    ¡Y es solo una niña!
+
+Rho/begin2_brd
+\CamCT\board[Salvar a la chica en peligro]
+Misión：Aldea Aris, casa del oeste, rescatar a la chica cautiva
+Recompensa：Monedas de Cobre x10\i[583] +4 de Reputación
+Cliente：Ama de casa
+Plazo：Ninguno
+¿Realmente los hombres de la aldea Aris secuestraron a una niña durante el caos en la isla? Es realmente repugnante.
+Hay que ayudar a esta pequeña. Ve a la cabaña en el lado oeste de la aldea y tráela de vuelta con el ama de casa.
+
+Rho/begin3_yes
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Por favor, mercenaria, sálvala.
+\CBct[20]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    Vale, la rescataré.
+\CBid[-1,4]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    ¡Perfecto!
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Creo que está en el almacén al oeste de la aldea.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Tráela aquí y ten cuidado, a estos hombres no les gusta que las mujeres los molesten. Y eso sin mencionar a los forasteros como tú.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Además... Quiero disculparme personalmente...
+\CBct[20]\m[pleased]\plf\Rshake\c[6]Lona：\C[0]    ¡Cuenta conmigo!
+
+Rho/begin3_no
+\CBct[8]\m[flirty]\plf\PLF\c[6]Lona：\C[0]    Eh... No creo que pueda. Lo siento, pero no.
+
+Rho/RG14_x
+\CBct[2]\m[flirty]\PLF\c[6]Lona：\C[0]    ¡Grito!.. ¿De algún animal? ¿Un mono?
+
+Rho/RG14_0
+\c[4]Aldeano：\C[0]    ¡Tan apretado, simplemente genial!
+\c[4]Aldeano：\C[0]    \{¡Oooh!
+
+Rho/RG14_1
+\CBmp[ApeGuard1,5]\c[4]Aldeano A：\C[0]    ¡Ah! ¡Madre mía! Ya está, esta ha muerto.
+
+Rho/RG14_2
+\CBmp[ApeGuard2,20]\c[4]Aldeano B：\C[0]    ¡Tan genial! ¡Es simplemente increíble!
+\CBmp[ApeGuard1,3]\c[4]Aldeano A：\C[0]    Sí, inesperado, pero esto es incluso mejor que una mujer!
+\CBmp[ApeGuard1,4]\c[4]Aldeano A：\C[0]    ¡Y el coño más apretado que el de mi esposa!
+\CBmp[ApeGuard2,20]\c[4]Aldeano B：\C[0]    \{¡Ya viene! ¡Me corro!
+
+Rho/RG14_3
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\C[0]    Eh... ¿Entonces la supuesta chica resulta ser... un mono?
+\CBct[8]\m[confused]\PLF\c[6]Lona：\C[0]    Esto no está bien...
+
+Rho/RG14_4
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\C[0]    Eh... ¿Debería callar lo que vi? Podría fingir que no pasó nada.
+\CBct[8]\m[confused]\PLF\c[6]Lona：\C[0]    Aunque prometí...
+
+Rho/Ape0_opt
+Pobre mono. ¿Quitar los grilletes? \optB[Dejar,Quitar]
+
+Rho/Ape1
+\CBct[3]\m[pleased]\PLF\c[6]Lona：\C[0]    Muy bien. ¡Eres libre!
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+\CBct[3]\m[triumph]\PLF\c[6]Lona：\C[0]    Ven conmigo. Te llevaré a un lugar seguro.
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+
+Rho/Ape2_brd
+\CamCT\board[Salvar al mono]
+Misión：Llevar al mono infeliz a la casa del este
+Recompensa：Monedas de Cobre x10\i[583] +4 de Reputación
+Cliente：Ama de casa
+Plazo：Ninguno
+
+Rho/QuestDone0
+\CBct[8]\m[confused]\PLF\c[6]Lona：\C[0]    Bueno... Verás... Aquí...
+\CBct[8]\m[flirty]\PLF\c[6]Lona：\C[0]    Solo estoy yo... y el mono... Eso es todo... Ninguna chica estuvo en peligro.
+
+Rho/QuestDone1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    ¡Gracias a los mercenarios y a quienes los guían! ¡Alabados sean los Santos!
+
+Rho/QuestDone2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]Ama de casa：\C[0]    Pobre criatura. Has sufrido.
+
+Rho/QuestDone3
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Ama de casa：\C[0]    La curaré y luego contaré a todos sobre tu heroísmo.
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Ama de casa：\C[0]    Gracias, mercenaria, guiada por los Santos. 
+\CBct[3]\m[pleased]\PLF\c[6]Lona：\C[0]    Je. ¡Me alegra ayudar!
+
+Rho/Rng0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Ama de casa：\C[0]    Santo... Perdona nuestros pecados.
+
+Rho/Rng1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]Ama de casa：\C[0]    Soy pecadora... Te ruego, perdóname...

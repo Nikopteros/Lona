@@ -1,0 +1,88 @@
+thisMap/OvermapEnter
+Casa Abandonada \optB[Cancelar,Entrar]
+
+GrayRat/QuestBG1
+\CBmp[GrayRat,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grandullón：\C[0]    .........
+
+GrayRat/QuestBG2
+\CBmp[Adam,1]\SETpr[Adam_angry]\plf\Rshake\c[4]Desconocido：\C[0]    ¡Alto! ¿Quién va?!
+\CBmp[GrayRat,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]Grandullón：\C[0]    Ejem...!
+\CBmp[Adam,6]\SETpr[Adam_sad]\plf\PRF\c[4]Desconocido：\C[0]    Ah, eres tú...
+
+GrayRat/QuestBG3
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]Desconocido：\C[0]    Bueno, ¿tu Ama está de acuerdo?
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]Grandullón：\C[0]    Ella acepta, pero tiene algunas preocupaciones...
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grandullón：\C[0]    Todas las consecuencias deben minimizarse.
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\Rshake\c[4]Desconocido：\C[0]    No hay problema.
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]Desconocido：\C[0]    ¡Bien! Entonces todo está decidido.
+
+GrayRat/QuestBG3_1
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]Grandullón：\C[0]    Les agradezco, señores...
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]Grandullón：\C[0]    Buena suerte con todo esto.
+
+GrayRat/QuestBG4
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\Rshake\c[4]Guardia：\C[0]    ¡Es un mestizo! ¿De verdad necesitas su ayuda?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Idiota! ¡Mestizo o no, lo importante es quién respalda por él!
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    No has visto de lo que es capaz. ¡Tiene una fuerza bestial, esto no es ninguna broma!
+
+GrayRat/QuestBG5
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Desconocido：\C[0]    Recuerda, sigue el plan y interceptaréis el convoy del norte.
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]Guardia：\C[0]    ¿De verdad saldrá todo tan bien?
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Desconocido：\C[0]    ¡Claro! No tenemos otra opción...
+
+Adam/SupLona0
+\CamMP[Adam]\BonMP[Adam,1]\SETpl[Adam_angry]\Lshake\c[4]Desconocido：\C[0]    ¡Alto, quién va! ¿Quién eres?!
+\CBct[8]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    Yo... \optD[Solo estaba pasando...,¿Eres Adam?]
+
+Adam/SupLona_ans_adam
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm... Disculpe, ¿usted no será Adam?
+\CamMP[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]Adam：\C[0]    ¡¿Qué?! ¡¿Cómo sabes ese nombre?! \optD[Fingir estupidez,Por Milo,Mentir<r=HiddenOPT0>,Nos conocimos antes<r=HiddenOPT1>]
+
+Adam/SupLona_ans_pass
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Solo estaba pasando......
+
+Adam/SupLona_ans_hehe
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ooh, ¡ji-ji-ji!~ Ni idea-a-a...
+
+Adam/SupLona_ans_milo
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Bueno... Sobre eso......
+\CBct[2]\m[pleased]\plf\PRF\c[6]Lona：\C[0]    El señor Milo me envió a buscarlo, dijo que quería su cabeza o algo por el estilo...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    \..\..\..
+
+Adam/SupLona_ans_work0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Emm...
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Trabajamos juntos antes, ¿no te acuerdas?
+
+Adam/SupLona_ans_work1
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]Adam：\C[0]    \..\..\..
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]Adam：\C[0]    Hmm... Sí, ahora recuerdo. Eres esa pequeña ladronzuela.
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Adam：\C[0]    Pero, ¿qué haces aquí?!
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Yo-yo... Escuché que \c[4]Milo\C[0] quiere tu muerte y vine a advertirte.
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]Adam：\C[0]    \..\..\..
+
+Adam/SupLona_ans_lie0
+\CBct[8]\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Yo... Emm... Verá...
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Eres Adam? ¡Entonces estamos perdidos! ¡Los hombres de Milo vienen hacia aquí!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡Los mercenarios ya están en camino! ¡Tienes que largarte de aquí!
+
+Adam/SupLona_ans_lie1
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]Adam：\C[0]    ¡¿Qué?! Maldición... ¡Gracias!
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]Adam：\C[0]    ¡Chicos! Nos descubrieron, ¡alerta!
+
+Adam/SupLona_ans_lie2
+\CBct[8]\m[confused]\plf\PRF\c[4]¿Y ahora qué...? ¿Cómo conseguiré su cabeza ahora...?
+
+Adam/SupLona_Kill0
+\CBmp[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]Adam：\C[0]    ¡A las armas, muchachos! ¡Matad a esta puta!
+
+Adam/SupLona_Kill1_typical
+\CBct[6]\m[wtf]\plf\Rshake\c[6]Lona：\C[0]    ¡Oh, no!
+
+Adam/SupLona_Kill1_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]Lona：\C[0]    ¡Mierda!
+
+Adam/SupLona_Kill1_gloomy
+\CBct[6]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡O-Oooh!!!
+
+Adam/SupLona_Kill1_slut
+\CBct[6]\m[fear]\plf\Rshake\c[6]Lona：\C[0]    ¡Espera! ¿Podemos hablar?!

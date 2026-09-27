@@ -1,0 +1,76 @@
+overmap/OvermapEnter
+\m[confused]북부 초소\optB[그만둔다,들어간다]
+
+officer/NoQuest
+\SETpl[Mreg_guardsman]\m[confused]\plf\PRF\C[6]로나：\C[0] 으...
+\SETpl[Mreg_guardsman]\Lshake\prf\C[4]경비병：\C[0] 빨리 떠나라, 여긴 안전하지 않다.
+
+Soldier/Qmsg0
+우리가 여기 머문 지 며칠째지?
+
+Soldier/Qmsg1
+도대체 언제 교대하나?
+
+Soldier/Qmsg2
+너무 피곤하다...
+
+############################### NoorthCp quest
+
+CPq/Quest1
+\CBct[8]\m[confused]\c[4].............
+
+CPq/Quest2
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 아아.......
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 전부 죽었어？！
+\CBct[20]\m[fear]\Rshake\c[6]로나：\c[0] 도대체 무슨 일이 있었던 거야？
+
+CPq/Quest3
+\CBct[20]\m[tired]\c[6]로나：\c[0] 하아.... 이건... 그의 집으로 보내는 편지인가？
+
+CPq/Quest3_1
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 음....\..\..\.. 어디 보자...
+
+CPq/Quest4
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob1,20]\prf\c[4]폭도：\c[0] 야! 꼬맹이! 여기서 뭐 하는 거야！
+\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 에?! 
+\SndLib[sound_MaleWarriorSpot]\CBmp[Mob2,20]\prf\c[4]폭도：\c[0] 잠깐, 이거 여자잖아！
+\CBmp[Mob1,20]\prf\c[4]폭도：\c[0] 정말이네？\..\.. 운 좋은 날이군！ 나, 오래간만에 좀 즐기겠어！
+\CBct[2]\m[shocked]\Rshake\c[6]로나：\c[0] 에에에?!
+
+CPq/Quest5
+\CBct[1]\m[terror]\Rshake\c[6]로나：\c[0] 잠… 잠깐만！ 너희들 뭐 하려는 거야？！
+\CBmp[Mob1,20]\prf\c[4]폭도：\c[0] 헤헤, 다리 벌려라. 괜히 저항하지 마！
+\CBmp[Mob2,4]\prf\c[4]폭도：\c[0] 얌전히 굴면… 안 아프게 해줄 수도 있지♥ 
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 기다려！ 내 말 좀 들어！ 너희 뒤에 마물이 있어！
+\CBmp[Mob1,20]\prf\c[4]폭도：\c[0] 속이려고?! 얌전하지 않으면 두들겨 맞을 줄 알아라！
+
+CPq/Quest6
+\SndLib[sound_goblin_roar]\CBmp[GoblinSpear1,20]\SETpr[goblin_penis]\plf\Rshake\c[4]오크：\c[0] 꾸아아아악！！？
+
+CPq/Quest7
+\SndLib[sound_OrcHurt]\CBmp[GoblinWarrior1,20]\SETpl[ogre]\Lshake\prf\c[4]오크：\c[0] 쿠오오오오오！！！
+
+CPq/Quest8
+\CBmp[Mob2,1]\c[4]폭도：\c[0] 마… 마물이다！！
+\CBmp[Mob1,1]\c[4]폭도：\c[0] 살려줘！ 나 죽기 싫어！
+\CBct[1]\m[bereft]\Rshake\c[6]로나：\c[0] 제발 살려줘어어어어어！！！
+
+CPq/Quest9
+\SETpl[DedOne_normal]\Lshake\prf\c[4]???：\c[0] \{정의가 하늘에서 내려온다！\.\.\.
+
+CPq/Quest10
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]???：\c[0] 무고한 사람들이여！ 악은 어디 있는가！ 내가 곧 정의다！
+\CBmp[Mob2,8]\plf\prf\c[4]폭도：\c[0] ...
+\CBmp[Mob1,8]\plf\prf\c[4]폭도：\c[0] ......
+\CBct[8]\m[confused]\c[6]로나：\c[0] ..........
+\CBmp[Mob2,8]\plf\prf\c[4]폭도：\c[0] 마… 마물이 더 늘어났어어어！！
+\CBmp[Mob1,8]\plf\prf\c[4]폭도：\c[0] 성도님 도와주소서！ 이 사악한 것들을 물리쳐 주시길！！！
+
+CPq/Quest11
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]???：\c[0] \{나는 정의다！ 악이 아니라！ 아아아아아！！
+\CBct[8]\m[bereft]\Rshake\c[6]로나：\c[0] 나… 나 어떡해？！ 어떻게 해야 돼？？
+
+CPq/Quest12
+\board[귀환]
+해적 파괴자의 요새로 돌아가라.  
+그리고 이곳의 상황을 길드에 보고하라.

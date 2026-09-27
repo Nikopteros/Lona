@@ -1,0 +1,113 @@
+thisMap/OvermapEnter
+Wetland Camp \optB[Leave,Enter]
+
+EmptyHouse/Qmsg0
+Empty House
+
+EmptyHouse/Qmsg1
+There's nothing here
+
+yeller/Qmsg0
+I'm Busy!
+
+yeller/Qmsg1
+Not Now!
+
+yeller/start
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Hey!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Get over here! They're coming!
+\CamCT\Bon[2]\m[shocked]\Rshake\c[6]Lona：\c[0]    What?!  What's coming! ?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Hurry up!
+
+yeller/start1
+\CamMP[Wave2A]\BonMP[Wave2A,20]\SndLib[FishkindSmQuestion]\prf\c[4]Deepone：\c[0]    Gulu!
+\CamMP[Wave2B]\BonMP[Wave2B,20]\SndLib[FishkindSmQuestion]\prf\c[4]Deepone：\c[0]    Gou La La!
+\CamMP[Wave2C]\BonMP[Wave2C,20]\SndLib[FishkindSmQuestion]\prf\c[4]Deepone：\c[0]    Sugi Pula Palu!
+\CamCT\Bon[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Monster!
+
+yeller/start_win
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    That was close! Thank the Saint!
+
+yeller/begin2to3
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    If you hadn't shown up, we wouldn't have been able to hold on.
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Lona：\c[0]    Huh... You're welcome, I guess?
+
+guard/beginElseQmsg0
+Fucking Deepones!
+
+guard/beginElseQmsg1
+Go to hell! Go to hell!
+
+guard2/beginElseQmsg0
+So Tired...
+
+guard2/beginElseQmsg1
+My eyes hurt...
+
+yeller/beginElseQmsg0
+Save Her!
+
+yeller/beginElseQmsg1
+Please!
+
+FArcher/Qmsg
+Thank you.
+
+yeller/begin3
+\CamCT\Bon[6]\m[confused]\PRF\c[6]Lona：\c[0]    Uh... \optB[Do Nothing,What's going on]
+
+yeller/begin3_opt_Wut
+\CamCT\Bon[6]\m[wtf]\PRF\c[6]Lona：\c[0]    What's going on here?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    We hired a group of mercenaries to rescue the people still trapped in Sybaris.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    The journey was uneventful, until we arrived here....
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    We're under siege by a large number of deepones.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    They're always close, all the time, and they'll sneak up on us if we drop our guard.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    I haven't slept for a few days... Our strength and morale is at it's limits.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    That's right! You can help me! She was also snatched up by those fucking deepones...
+\CamCT\Bon[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    Who?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    She's my girl! Please, save her! We're all out of hands!
+
+yeller/begin3_opt_WutBoard
+\board[Missing Women]
+Goal：Search for kidnapped women
+Reward：Moral 5
+Contractor：Mercenary
+Quest Term：Single Fulfillment
+Our scouts followed their tracks and found a cave in the northeast.
+She must still be alive, Save her!
+
+yeller/begin3_opt_WutBoard_opt
+\CamCT\Bon[6]\m[confused]\PRF\c[6]Lona：\c[0]    Uh... \optB[No time,Help him]
+
+yeller/begin3_opt_WutBoard_opt_yes
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Lona：\c[0]    I'll help you! But I need more information.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Thank you! Thank you miss!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    After we fought off a wave of Deepone attacks four nights ago, it was her turn to keep watch.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    When we woke up, she was gone! Footprints were found and the stench of fish lingered in the air nearby!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    The scouts followed the footprints to the Northeast and found a fishkind's temple ruins.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    I know what the Deepones take women for!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    She must still be alive! Absolutely!
+\CamCT\Bon[6]\m[serious]\PRF\c[6]Lona：\c[0]    Yeah! I'm on my way!
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Saint protect you!
+
+####################################### RETURN OBJ
+
+yeller/begin4to5
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Oh my... I didn't think I'd ever see you again!
+\CamMP[FArcher]\BonMP[FArcher,6]\prf\c[4]Woman Mercenary：\c[0]    So do I...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Those fish didn't do anything to you, did they?
+\CamMP[FArcher]\BonMP[FArcher,8]\prf\c[4]Woman Mercenary：\c[0]    ......
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    .....
+
+yeller/begin4to5_2
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]Lona：\c[0]    Um.... I'm sure she hasn't been...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Ah! Thank the Saint! I never asked you your name.
+\CamCT\Bon[4]\m[pleased]\Rshake\c[6]Lona：\c[0]    It's Lona! Lona Falldin.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    Thank you, This is for you...
+
+yeller/begin4to5_3
+\CamCT\Bon[2]\m[confused]\PRF\c[6]Lona：\c[0]    What is it?
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    I haven't picked up my union mission certificate yet, so give this to the mercenary guild at \C[4]Pirate's Bane\C[0] and you can use it to collect some rewards.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    We're leaving, You should get the hell out of here too.
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]Mercenary：\c[0]    It's not safe here.
+\CamCT\Bon[2]\m[serious]\PRF\c[6]Lona：\c[0]    Yeah, I know!

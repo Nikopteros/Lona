@@ -1,0 +1,23 @@
+thisMap/OvermapEnter
+\m[confused]Mass Grave \optB[Leave,Enter]
+
+#WIS夠高可以免除戰鬥
+#不然需與他交手30秒
+
+Keeper/QuProgPB_MassGrave1
+\m[confused]\c[6]Lona：\c[0]    Ugh...
+\m[flirty]\c[6]Lona：\c[0]    I'm on a mission from the guild, and I hear there's something evil here to get rid of?
+\SETpl[AnonMale2]\Lshake\prf\c[4]Gravekeeper：\c[0]    Can someone like you handle it? Where are the saints!
+\SETpl[AnonMale2]\Lshake\prf\c[4]Gravekeeper：\c[0]    Nevermind.... Obviously it's the liar who worship false gods.
+\SETpl[AnonMale2]\Lshake\prf\c[4]Gravekeeper：\c[0]    He's sneaking in here \c[4]every night\c[0]!
+\SETpl[AnonMale2]\Lshake\prf\c[4]Gravekeeper：\c[0]    Might be using the dead to perform the rituals of defilement.
+
+Keeper/rand0
+\SETpl[AnonMale2]\Lshake\prf\c[4]Gravekeeper：\c[0]    Don't fall asleep, you'll die!
+
+Keeper/rand1
+\SETpl[AnonMale2]\Lshake\prf\c[4]Gravekeeper：\c[0]    They love to eat brains!
+
+Keeper/rand2
+\SETpl[AnonMale2]\Lshake\prf\c[4]Gravekeeper：\c[0]    Do you have faith? Those that have faith have nothing to fear!
+

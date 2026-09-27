@@ -1,0 +1,546 @@
+BackStreet/OvermapEnter
+\m[confused]Закоулки Ноэртауна\nТерритория банды Широкий Клинок \optB[Я ухожу!,Войти...]
+
+#=============================================================================================================
+
+NotCapture/begin_withGangBoss0
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\SndLib[sound_MaleWarriorSpot]\Lshake\c[4]Головорез：\C[0]    \{ЭЙ!
+
+NotCapture/begin_withGangBoss1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Лона：\C[0]    Что?! Что не так?!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Головорез：\C[0]    Ты, мелкая сучка... Ты ведь не одна из наших шлюх, верно?!
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Лона：\C[0]    Я...
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Головорез：\C[0]    \{УБИРАЙСЯ ОТСЮДА, ЕСЛИ НЕ ХОЧЕШЬ СДОХНУТЬ!
+\CBct[6]\m[sad]\PRF\plf\c[6]Лона：\C[0]    П-Простите....
+
+NotCapture/begin_FishKindMode0
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\c[4]Стражник：\C[0]    \{Ты!
+
+NotCapture/begin_FishKindMode1
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Лона：\C[0]    Что?! Что-то не так?!
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Стражник：\C[0]    Ты не....наша самка！
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Лона：\C[0]    Я.....
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Стражник：\C[0]    \{*Фыркает* Уходи...!
+\CBct[6]\m[terror]\Rshake\plf\c[6]Лона：\C[0]    П-Прости....
+
+NotCapture/begin_withGangBoss1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Лона：\c[0]    Что?! Что-то не так?!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Головорез：\c[0]    Мелкая сучка, так ты беглая рабыня?
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Лона：\c[0]    Я...
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\c[4]Головорез：\c[0]    \{Хватай ее!
+\CBct[6]\m[terror]\Rshake\plf\c[6]Лона：\c[0]    Ик!!!
+
+NotCapture/begin_FishKindMode1_slaveMode
+\CBct[1]\m[shocked]\PRF\plf\Rshake\c[6]Лона：\c[0]    Что?! Что-то не так?!
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Стражник：\c[0]    Женщина... беглая... рабыня?
+\CBct[8]\m[shy]\PRF\plf\Rshake\c[6]Лона：\c[0]    Я...
+\CBmp[FishSpearGuard,20]\SETpl[FrogSpear]\SndLib[FishkindSmSpot]\Lshake\prf\c[4]Стражник：\c[0]    \{Схватить...её！
+\CBct[6]\m[terror]\Rshake\plf\c[6]Лона：\c[0]    Ик!!!
+
+#=============================================================================================================
+
+HappyTrader/begin_normal
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Эй-эй! Тебе что-нибудь нужно? У меня есть всё!
+
+HappyTrader/begin_normalArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Ещё не закончила? Хочешь присоединиться к моей \C[2]команде\C[0]?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]Торговец：\C[0]    Мы обеспечим тебя едой, одеждой и жильем!
+
+HappyTrader/opt
+\m[confused]\c[6]Лона：\C[0]    Эммм...? 
+
+HappyTrader/work_opt
+\CBid[-1,2]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    И чем маленькая мисс хочет заниматься?
+
+HappyTrader/work_whore_NoTrait
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Хм... Мне неприятно это говорить, но эта работа явно не для тебя.
+\narr У Лоны нет Черты \C[2]Проститутка：\C[0].
+
+HappyTrader/work_whore_board1
+\board[Уличная Проститутка]
+Начало работы проституткой стоит #{$story_stats["HiddenOPT0"][0]} Очков Обмена, они запишутся в долг. 
+#{$story_stats["HiddenOPT0"][1]} Очки Обмена необходимы для оплаты за организацию защиты Лоны (первый день бесплатно).
+Плата за защиту автоматически также идёт в долг.
+Отработайте долг, занимаясь проституцией с прохожими.
+
+HappyTrader/work_whore_board2
+\board[Уличная Проститутка]
+Работницы во время работы не могут уходить без разрешения.
+Отдыхать можно в домике слева.
+Погашение кредита считается завершением работы.
+При попытке сбежать или неоплате защиты, вы можете быть наказаны.
+
+HappyTrader/work_whore_accept0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]Торговец：\C[0]    Хорошо, теперь ты в нашей команде.
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]Торговец：\C[0]    Не уходи отсюда во время работы. Слева есть комната для отдыха.
+
+HappyTrader/work_whore_accept1
+\BonID[-1,20]\CamMP[UniqueGangBoss]\SETpl[HappyMerchant_normal]\SETpr[NoerGangBoss]\Lshake\c[4]Торговец：\C[0]    Иначе о тебе позаботятся эти ребята.
+\CBmp[UniqueGangBoss,8]\SETpl[NoerGangBoss]\m[flirty]\c[4]Головорез：\C[0]    .....
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\m[fear]\Lshake\c[4]    Не убегай от работы, иначе пожалеешь.
+
+
+HappyTrader/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]Лона：\C[0]    Эммм... С деньгами в последнее время туговато... Могу я-...
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    \{ПОЛУЧИТЬ КРЕДИТ?!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    \{КОНЕЧНО!
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\c[4]Торговец：\C[0]    Держи! Для начала, ознакомься с договором.
+
+HappyTrader/Arrears_NewTo1
+\board[Кредитный Договор]
+Кредит выдаётся золотом, от 1 до 4 ед. золота.
+Беря деньги в кредит, клиент обязан вернуть его в срок.
+Никаких коллекторов, простой ежедневный процент.
+Коллекторы примутся за дело, если процент превысит долг.
+Вернуть долг за 7 дней с учётом процентов.
+
+HappyTrader/Arrears_NewTo2
+\CBct[8]\m[confused]\plf\c[6]Лона：\C[0]    \{\..\..\..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    \{Это займ!
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    Что вы такое говорите?!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Я делаю это, чтобы помочь бедным беженцам.
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    Вон, оглянись вокруг, эти люди бы умерли с голода без моей помощи!
+\CBct[8]\m[confused]\plf\c[6]Лона：\C[0]    Эммм...
+
+HappyTrader/Arrears1_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\c[4]Торговец：\C[0]    Сколько желаем занять? \optB[Отказаться,1 Золотую Монету,2 Золотых Монеты,3 Золотых Монеты,4 Золотых Монеты]
+
+HappyTrader/opt_AboutArrears
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Посмотрим...
+
+HappyTrader/Arrears_info
+\board[Уличная Проститутка]
+Сумма долга：#{$story_stats["BackStreetArrearsPrincipal"]}
+Процент：#{$story_stats["BackStreetArrearsInterest"]}
+Итого：#{$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+Плата за охрану：#{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_info_DebtHunter
+\board[Backstreet Hooker]
+Сумма долга： #{$story_stats["BackStreetArrearsPrincipal"]}
+Процент： #{$story_stats["BackStreetArrearsInterest"]}
+Итого： #{$story_stats["HiddenOPT0"]}
+Плата за охрану： #{$story_stats["HiddenOPT0"]+$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+Доп.плата за охрану： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_accept
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Пха-хаха...
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Не забудь вернуть долг, пока не вышло время!
+\CBct[8]\m[shy]\plf\c[6]    Хмм... Благодарю.
+
+HappyTrader/Arrears_return_opt
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Чем будешь платить за кредит?
+
+HappyTrader/Arrears_return_item
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Давайте посмотрим.
+
+HappyTrader/BecomeSlave_begin0
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Членство в нашем учреждении даёт различные преимущества.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Еда, жильё, и медицинская помощь.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    У тебя будет страховка труда и здоровья.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Кроме того, все долги и обязательства списываются единоразово.
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    Если заинтересовалась, подписывай!
+
+HappyTrader/BecomeSlave_begin1
+\CBct[6]\m[wtf]\plf\c[6]Лона：\C[0]    Разве это не соглашение на рабство?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Н-НЕТ! Разумеется нет! Этот мир не такой уж и злой, верно?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    Ты думаешь, дядя плохой человек?
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Ну же, взгляни!
+
+HappyTrader/BecomeSlave_begin2
+\board[Трудовой договор Росендо]
+Росендоы обеспечат персонал питанием, жильём, медицинским обслуживанием и личной безопасностью.
+Сотрудник обязан приниматься за любую работу работодателя.
+Сотрудник не имеет права покидать рабочее место без разрешения.
+Сотрудник, нарушающий должностные требования, может быть наказан работодателем по его усмотрению.
+\}Должностные требования подразумевают отказ от любых человеческих прав.
+Персонал станет рабом Поместья Росендо из-за должностных требований.
+\{Я, ___, соглашаюсь с вышеперечисленными требованиями, и хочу стать сотрудником Торговой компании Росендо.
+
+HappyTrader/BecomeSlave_accept0
+\CBct[2]\m[confused]\plf\c[6]Лона：\C[0]    Вроде бы всё в порядке?
+\SND[SE/PenWrite1.ogg]\narr Лона вписала своё имя в соглашении.
+
+HappyTrader/BecomeSlave_accept1
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    Замечательно! Просто замечательно!
+\CBid[-1,20]\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]Торговец：\C[0]    Ты устала, юная леди?
+\CBct[2]\m[flirty]\plf\c[6]Лона：\C[0]    Ээ?! А что такое?
+\CBid[-1,20]\SETpl[HappyMerchant_fear]\Lshake\prf\c[4]Торговец：\C[0]    Выпей это, оно поможет тебе восстановить силы и придаст энергии.
+\CBct[20]\m[triumph]\plf\c[6]Лона：\C[0]    Ух ты! Спасибо.
+\CBct[3]\m[pleased]\plf\c[6]Лона：\C[0]    Мистер, вы всё-таки хороший человек!
+\CBid[-1,20]\SETpl[HappyMerchant_shocked]\Lshake\prf\c[4]Торговец：\C[0]    Конечно! В этом стихийном бедствии все должны помогать друг другу, чтобы выжить!
+\CBct[20]\m[shy]\plf\c[6]Лона：\C[0]    Ммхмммм...
+\SND[SE/drink02.ogg]\narr Лона выпила напиток.
+
+HappyTrader/BecomeSlave_accept2
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    \..\..\..\..
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Охххх\..\.. Голова к-кружится\..\..\..
+
+HappyTrader/BecomeSlave_accept3
+\CBct[8]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Охх\..\..
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Бандит：\C[0]    Она ещё в сознании!
+\CBmp[stGang2,20]\SETpr[MobHumanCommoner]\Rshake\plf\c[4]Бандит：\C[0]    И что плохого? Мне нравится, когда они кричат!
+\CBct[8]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Ребята\..\.. Вы чего делаете\..\..
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]Бандит：\C[0]    Не шевелись! Не усложняй своё положение!
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    Нет! Отпустите меня!
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]Бандит：\C[0]    Я сказал не двигайся! Замри!
+
+HappyTrader/BecomeSlave_accept3_1
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]Лона：\C[0]    \{Аай-ай-ай-ай!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона：\C[0]    \{АААЙЙЙ!
+
+HappyTrader/BecomeSlave_accept3_2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    Ха-ха! Забавно! Громче кричи!
+
+HappyTrader/BecomeSlave_accept3_3
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]Лона：\C[0]    \{АААХХХХ!
+
+HappyTrader/BecomeSlave_accept4
+\cgoff\narr Лона стала рабыней.
+
+#=================================================NAP AND TORTURE======================================================
+
+nap/WhoreWakeUp
+\CBmp[HappyMerchant,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]Торговец：\C[0]    \{ДЕВКИ! ПОРА ВСТАВАТЬ И РАБОТАТЬ!
+
+nap/drug_begin_FristTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]Головорез：\C[0]    Держите её крепко!
+\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]Бандит：\C[0]    Да! Босс!
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Что случилось? Не делайте мне больно!
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]Головорез：\C[0]    Пей это.
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Что это? Уууу...
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]Головорез：\C[0]    Пей сейчас же, это полезно для здоровья.
+
+nap/drug_begin_SecondTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]Бандит：\C[0]    Время тебя лечить.
+
+nap/drug_begin_Eat
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Уухх...
+
+nap/torture_begin
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    \{Шлюхи! Внимание всем!
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    Если не будете работать, если не будете слушаться, или попытаетесь сбежать...
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Бандит：\C[0]    ...Вас ждёт это!
+\CBct[6]\m[terror]\plf\Rshake\c[6]Лона：\C[0]    Нет! Прошу! Пощадите меня!
+
+nap/WhorePrincipal_return
+\narr Все ваши Очки Обмена теперь принадлежат им.
+
+nap/WhorePrincipal_returnEqp
+\narr Рабы не имеют права владеть какими-либо вещами, поэтому у Лоны всё отобрали.
+
+nap/SlavePrice
+\narr Всё ещё нужно заработать #{$story_stats["BackStreetArrearsWhorePrincipal"]} Очков Обмена до конца дня.
+
+nap/SlaveTorture
+\narr Они решили, что Лона - ленивая рабыня, поэтому собрались преподать ей урок.
+
+#=============================================================================================================
+
+Escape/begin
+\SETpl[MobHumanCommoner]\Lshake\c[4]Страж：\C[0]    Эта шлюха убегает! ДЕРЖИ ЕЁ!
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    Ох нет!
+
+Escape/begin_NoCapture
+\SETpl[MobHumanCommoner]\Lshake：\C[0]Бандит：\C[0]    Кто-то создает проблемы! Убить её!
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    Дерьмо!
+
+Escape/failed
+\SETpl[MobHumanCommoner]\Lshake\c[4]Страж：\C[0]    Ну и что это за хрень?
+\SETpr[MobHumanCommoner]\Rshake\c[4]Страж：\C[0]    Беглая рабыня?
+\SETpl[MobHumanCommoner]\Lshake\c[4]Страж：\C[0]    Посмотри, что есть у неё в карманах, а потом уже разберёмся.
+
+#=============================================================================================================
+
+GangBoss/begin
+\CBid[-1,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]Головорез：\C[0]    На что, чёрт возьми, ты пялишься?
+
+GangBoss/wait
+\CBid[-1,8]\SETpl[NoerGangBoss]\prf\PLF\c[4]Головорез：\C[0]    ....
+
+GangBoss/begin_slave
+\CBid[-1,20]\SETpl[NoerGangBoss]\Lshake\c[4]Головорез：\C[0]    \{ПРИСТУПАЙ К ЧЁРТОВОЙ РАБОТЕ!
+
+GangBoss/begin_NONtrigger1
+\CBid[-1,20]\m[confused]\SETpl[NoerGangBoss]\prf\PLF\c[4]Головорез：\C[0]    Эй, малышка, ты что-нибудь ищешь?
+\CBid[-1,2]\c[4]Головорез：\C[0]    Или... У тебя какие-то... \C[4]особые\C[0] нужды?
+
+GangBoss/begin_NONtrigger2
+\CBct[2]\m[normal]\PRF\plf\c[6]Лона：\C[0]    Хммм...? \optD[Особые?]
+
+GangBoss/begin_NONtrigger3
+\CBid[-1,20]\prf\PLF\c[4]Головорез：\C[0]    Ты ведь приехала из Сибариса, да?
+\CBct[20]\m[tired]\PRF\plf\c[6]Лона：\C[0]    Да...
+\CBid[-1,20]\prf\PLF\c[4]Головорез：\C[0]    Я знаю, что тебе пришлось пережить, многие люди погибли в этой катастрофе.
+\CBid[-1,20]\c[4]Головорез：\C[0]    Выживших много, но у них нет ни денег, ни документов.
+\CBid[-1,20]\c[4]Головорез：\C[0]    В итоге, им остается только умирать от голода на улицах.
+\CBct[6]\m[sad]\PRF\plf\c[6]Лона：\C[0]    Оххх...
+\CBid[-1,20]\prf\PLF\c[4]Головорез：\C[0]    Я могу им помочь, и ты тоже можешь.
+\CBct[2]\m[flirty]\PRF\plf\c[6]Лона：\C[0]    Я? Как?
+\CBid[-1,8]\prf\PLF\c[4]Головорез：\C[0]    Я покупаю все виды подтверждающих документов и продаю их тем, кто в них нуждается.
+\CBid[-1,8]\c[4]Головорез：\C[0]    Или даю деньги в долг беженцам, которые в них нуждаются.
+\CBid[-1,8]\c[4]Головорез：\C[0]    Ты ведь тоже хочешь им помочь?
+\CBct[5]\m[confused]\PRF\plf\C[4](Мошенник... Мой отец тоже занимался бизнесом. Он правда думает, что я ничего не понимаю?)\C[0]
+\CBid[-1,20]\prf\PLF\c[4]Головорез：\C[0]    Тебе ведь нужны деньги? За твои \C[4]настоящие\C[0] документы, я бы тебе дал одну Золотую Монету.
+\CBct[20]\m[shocked]\PRF\plf\Rshake\c[6]Лона：\C[0]    З-Золотую Монету?!
+\CBid[-1,20]\prf\PLF\c[4]Головорез：\C[0]    Заинтересована? Отлично.
+
+GangBoss/begin_triggered
+\CBid[-1,20]\SETpl[NoerGangBoss] .....
+
+GangBoss/opt_ex_sellID
+Продать документы
+
+GangBoss/SellPassport
+\CBct[8]\m[confused]\PRF\plf\c[6]Лона：\C[0]    Если я их продам их, я не смогу их вернуть назад. Неужели я действительно так отчаянно нуждаюсь в деньгах?
+
+GangBoss/SellPassport_sold
+\CBid[-1,20]\prf\PLF\c[4]Головорез：\C[0]    Ты приняла правильное решение.
+\CBid[-1,20]\prf\PLF\c[4]Головорез：\C[0]    Ах, прекрасно! Почти без пятен, полностью заполненные. В отличном состоянии!
+
+GangBoss/Arrears_return_opt
+\SETpl[NoerGangBoss]\Lshake\c[4]Торговец：\C[0]    Чем платишь?
+
+#=============================================== PiercingTrader ====================================================
+
+Piercing/Begin
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Ох... Женщина... Хочет пирсинг...
+
+Piercing/Begin_slave
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Рабыня... Особый пирсинг... Хмм...
+
+Piercing/about
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Морская Ведьма говорила...
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Мужчина... Пирсинг, знак силы.
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Женщина... Пирсинг, знак плодородия...
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Женщина.. Пирсинг промежности... Знак рабыни.
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Ты... Женщина... Спариваться...
+\CBct[2]\m[wtf]\plf\Rshake\m[wtf]\Rshake\c[6]Лона：\C[0]    Ну и знаки у вас...
+
+Piercing/piecing_start
+\CBct[2]\m[flirty]\plf\PRF\m[flirty]\C[6]Лона：\C[0]    А это больно?
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Немного.... Терпи... Не бойся...
+\CBct[2]\m[tired]\plf\PRF\m[tired]\C[6]Лона：\C[0]    А долго придётся терпеть?
+
+Piercing/piecing_doing
+\SND[SE/Gore_hit1.ogg]\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    Аау!
+\SND[SE/Gore_hit2.ogg]\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    Аайй!
+\SND[SE/Gore_hit3.ogg]\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    Аааааййй!
+\SND[SE/Gore_hit4.ogg]\m[p5sta_damage]\Rshake\c[6]Лона：\C[0]    \{Аааааааайййй!
+
+Piercing/end
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf：\C[0]Рыбочеловек-пирсер：\C[0]    Пирсинг... Красиво... Морской Ведьме... Нравится!
+
+#============================================ Tree hole house ====================================================
+
+Lona/WorkFailed
+\narr Гость пожаловался на Лону!
+
+sucker/Qmsg0
+Она занята.
+
+sucker/Qmsg1
+Мне лучше не отвлекать их
+
+sucker/Qmsg2
+Она очень сосредоточена
+
+sucker2/Qmsg0
+Это моя дырка!
+
+sucker2/Qmsg1
+Я должна сосать!
+
+sucker2/Qmsg2
+Не мешай мне!
+
+hole/Qmsg0
+Просто большая тёмная дырка
+
+hole/Qmsg1
+Тут ничего нет
+
+hole/Qmsg2
+Пусто
+
+treeHole/board
+\board[Инструкция работы в доме]
+Клиент превыше всего：Работники не отказывают гостям.
+Сервис прежде всего：Работники всегда вежливы.
+Рабочая этика：Сдавайте свой заработок.
+
+########################################################################################## REP Addon
+
+FishTraderREP/begin_normal
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Человеческая самка... Что тебе нужно?
+
+FishTraderREP/begin_normalArrears
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Да... Человеческие самки... Нам нужно больше.
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Мы защитим... Ваша жизнь с нами в безопасности.
+
+FishTraderREP/work_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Человеческая женщина... Работа... Спаривание...
+
+FishTraderREP/BecomeSlave_begin0
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Ты... Помогая нам... Зарабатывать деньги...
+
+FishTraderREP/BecomeSlave_accept1
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Хорошо... Теперь выпей это...
+\CBct[20]\m[triumph]\plf\c[6]Лона：\C[0]    Спасибо, наверное?
+\SND[SE/drink02.ogg]\plf\prf\narr Лона выпила, как ей было велено.
+
+FishTraderREP/work_whore_accept0
+\CBid[-1,20]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]Рыба-босс：\C[0]   Отлично, теперь ты... с нами...
+\BonID[-1,20]\CamMP[WhoreHouse]\SETpl[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\m[shy]\c[4]Рыба-босс：\C[0]    Ты оставайся. Не уходи. Хочешь отдохнуть, спи... В хижине слева...
+
+FishTraderREP/work_whore_accept1
+\BonID[-1,20]\CamMP[GangBossREP]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Наши стражники... Будут следить за вами... Защищать...
+\CBmp[GangBossREP,8]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[flirty]\c[4]Стражник：\C[0]    \...\...\...
+\CBmp[GangBossREP,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\m[fear]\Lshake\c[4]Стражник：\C[0]    Человеческая самка... Спаривайся со мной...
+
+FishTraderREP/work_whore_NoTrait
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Ты... Не подходишь... Не понимаю, как удовлетвориться...
+
+FishTraderREP/opt_AboutArrears
+\CBid[-1,2]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Торговец：\C[0]    ....
+
+FishTraderREP/Arrears_NewTo0
+\CBct[6]\m[flirty]\plf\c[6]Лона：\C[0]    Мне... мне немного не везет... Не могли бы вы, пожалуйста, мне помочь?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]   　...Нужен займ?
+\CBid[-1,20]\SndLib[FishkindSmSpot]\m[confused]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Это не бесплатно... У нас есть правила...
+
+FishTraderREP/Arrears_return_opt
+\CBid[-1,2]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Тебе нужно... Мои услуги?
+
+FishTraderREP/Arrears1_opt
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Сколько... Желаешь занять?...\optB[Отказаться,1 Золотую Монету,2 Золотых Монеты,3 Золотых Монеты,4 Золотых Монеты]
+
+
+FishTraderREP/Arrears_accept
+\CBid[-1,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\prf\c[4]Рыба-босс：\C[0]    Хм... Очень хорошо...
+\CBct[8]\m[shy]\plf\c[6]Лона：\C[0]    Спасибо вам...
+
+
+nap/drug_begin_FristTime_REP
+\CBmp[GangBossREP,5]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[4]Стражник：\C[0]    Держите ее крепко!
+\CBmp[stGang1,20]\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]Рыбий сброд：\C[0]    Да, босс!
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Что происходит? Не трогайте меня!
+\CBmp[GangBossREP,20]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]Стражник：\C[0]    Ты... выпить...
+\CBct[6]\m[tired]\plf\PRF\c[6]Лона：\C[0]    Что это? *Плачет*
+
+nap/drug_begin_SecondTime_REP
+\CBmp[GangBossREP,5]\SETpl[Mfat_FrogFisher]\prf\PLF\c[4]Стражник：\C[0]    Прими лекарство...
+
+nap/drug_begin_Eat_REP
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    *Плачет*...
+
+nap/WhoreWakeUp_REP
+\CBmp[HappyMerchantREP,20]\SndLib[FishkindSmSpot]\SETpl[FishBusinessMan]\Lshake\c[4]Торговец：\C[0]    \{....За работу, девочки! Шевелите булками!
+
+########################################################################################## Raploop Addon
+
+wakeup_rapeloop/RngRape0_wakeupCall_begin0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Мелкая сучка, проснись!
+
+wakeup_rapeloop/RngRape0_wakeupCall_rapeloop
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Наконец-то настала моя очередь тебя трахнуть...
+
+wakeup_rapeloop/RngRape0_wakeupCall_ans
+\CBct[8]\m[tired]\plf\PRF\c[6]Лона：\C[0]    *плачет*...
+
+wakeup_rapeloop/RngRape1_to_Somewhere
+\narr Они уволокли Лону в другое место.
+
+wakeup_rapeloop/RngRape2
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Держите её крепче, я войду первым.
+
+wakeup_rapeloop/RngRape3
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Моя очередь! Моя очередь!
+
+wakeup_rapeloop/RngRape_cum0
+\c[4]Головорез：\C[0]    \{Аххх♥ Она так хорошо сжимает!
+
+wakeup_rapeloop/RngRape_cum1
+\c[4]Головорез：\C[0]    \{Вот так, шлюха! Возьми его! ♥
+
+wakeup_rapeloop/RngRape_cum2
+\c[4]Головорез：\C[0]    \{Я сейчас коончу!♥ Кончаюю аааааахххх!♥
+
+wakeup_rapeloop/RngRape_cum3
+\c[4]Головорез：\C[0]    \{Бляя, я кончил внутрь...♥
+
+wakeup_rapeloop/RngRape_cum4
+\c[4]Головорез：\C[0]    \{У-у-у! Выжми из себя всё!♥
+
+wakeup_rapeloop/RngRape_end0
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Неплохо, это был хороший трах...
+
+wakeup_rapeloop/RngRape_end1
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Ахх, это было так круто...
+
+wakeup_rapeloop/RngRape_end2
+\CBmp[stGang2,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Отлично, мы воспользуемся тобой и в следующий раз...
+
+######################### Raploop enema EV
+
+wakeup_rapeloop/EnemaEV_begin0
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Итак, сучки, сегодня день анальных распродаж, убедитесь, что кишки пусты, прежде чем идти на работу.
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    \{Строится в ряд, задницы на показ!
+
+wakeup_rapeloop/EnemaEV_end
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    Ладно, хорошо... А теперь выплесни все это!
+
+######################### Raploop PeeonEV
+
+wakeup_rapeloop/Peeon_begin0
+\SETpl[AnonMale1]\Lshake\c[4]Головорез：\C[0]    Эй-эй...
+
+wakeup_rapeloop/Peeon_begin1
+\ph\narr \..\..\..
+
+wakeup_rapeloop/Peeon_begin_end
+\narr Кто-то помочился на Лону.
+
+######################### Raploop RngNightCustomer
+
+wakeup_rapeloop/RngCustomer_begin0
+\c[4]Клиент：\C[0]    Эй! Проснись!
+
+wakeup_rapeloop/RngCustomer_begin1
+\c[4]Клиент：\C[0]    Эй, я заплатил за самую дешевую сучку.
+
+wakeup_rapeloop/RngCustomer_begin2
+\c[4]Клиент：\C[0]    Раздвинь ножки и покажи мне свою киску!
+
+wakeup_rapeloop/RngCustomer_begin_end
+\c[4]Клиент：\C[0]    \{Ооо... Ах! Ах! Ах! Ах!
+
+######################### CommonGangMember begging
+
+CommonGangMember/begging0
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    А? Тебе нужны лекарства?
+
+CommonGangMember/begging1
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    Уже пристрастилась? Хочешь чего-то хорошего?
+
+CommonGangMember/begging_success
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    Хорошо, делай, что я говорю, и я дам тебе лекарство.
+
+CommonGangMember/begging_success_nothing
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    Тогда я отдам его тебе.
+
+CommonGangMember/begging_success_offerItem
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    Давай!♥ Открой свой ротик!♥
+\CBct[8]\m[shy]\plf\PRF\c[6]Лона：\C[0]    Аххх...
+
+CommonGangMember/failed_nothing
+\CBid[0,3]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    Ха-ха!♫ Можешь забыть об этом!♥
+
+CommonGangMember/failed_mad0
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    Такая дешевка, как ты, не имеет права торговаться со мной!
+
+CommonGangMember/failed_mad1
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]Головорез：\C[0]    Нахуй пошла! Грязная шлюха!
+
+CommonGangMember/failed_mad2
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]Головорез：\C[0]    От тебя несет дерьмом! Убирайся с глаз моих долой!

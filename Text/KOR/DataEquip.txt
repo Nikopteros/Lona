@@ -1,0 +1,788 @@
+################################################### Neckle
+
+NeckleLona/item_name
+양부모의 초상화
+
+NeckleLona/description
+\}금도금된 틀 안에 매우 정교한 축소 초상화가 들어 있다.\n
+\C[2]최소 기분 상승\n
+
+NeckleBelt/item_name
+가죽 목걸이
+
+NeckleBelt/description
+\}반항의 증거.\n
+\C[6]공격력, 섹시 증가\n
+\C[6]방어력, 허약 감소\n
+
+NeckleAtoner/item_name
+속죄자의 목걸이
+
+NeckleAtoner/description
+\}음란한 창녀여, 네 몸으로 거짓말쟁이의 죄악을 빨아내라.\n
+\C[5]섹시, 허약 증가\n
+
+###################################################
+
+Tampon/item_name
+생리대
+
+Tampon/description
+\}\n
+\C[2]생리 디버프 감소.\n
+
+TamponUsed/item_name
+사용된 생리대
+
+TamponUsed/description
+\}더럽게 젖어 있음.\n
+
+RagBot/item_name
+더러운 짚신
+
+RagBot/description
+\}버려진 천과 짚으로 대충 엮어 만든 신발,\n
+\C[6]허약, 기초 청결도, 기초 민첩 증가\n
+\C[6]섹시 감소\n
+
+PantyVag/item_name
+더러운 속옷
+
+PantyVag/description
+\}누가 입었는지도 모를 낡은 속옷,\n
+희미한 오염된 냄새가 풍긴다.\n
+
+NunVeilHeadEquip/item_name
+순교자의 머리수건
+
+NunVeilHeadEquip/description
+\}성인의 딸로서, 거짓된 자들의 죄악과 모독에 마음이 더럽혀져서는 안 된다.\n
+\C[2]생명, 스태미너, 건강, 의지, 평판 상승\n
+\C[6]섹시 상승\n
+
+NunMidExtra/item_name
+순교자의 머리띠
+
+NunMidExtra/description
+\}성인의 문장이 내 가슴을 덮어, 그가 언제나 내 마음속에 있음을 일깨워 준다. 동시에 단정히 차려입어야 함을 상기시킨다.\n
+\C[2]생명, 스태미너, 건강, 의지, 평판 상승\n
+\C[6]섹시 상승\n
+
+NunSexyMid/item_name
+순교자의 수도복
+
+NunSexyMid/description
+\}노출이 심한 긴 로브. 뒷부분이 드러나 있어, 수녀가 자신의 순결을 자선처럼 가난한 자에게 바칠 수 있도록 설계되었다.\n
+\C[2]생명, 스태미너, 건강, 의지, 평판 상승\n
+\C[6]특성 "매춘부" 필요. 더러움, 섹시함이 감소합니다.\n
+
+DocMid/item_name
+의료용 외투
+
+DocMid/description
+\}흔히 볼 수 있는 의사의 외투.\n
+\C[2]생명, 지능 증가,\C[6]섹시, 허약 감소\n
+
+DocMidExtra/item_name
+약주머니
+
+DocMidExtra/description
+\}원래는 각종 약품을 넣던 것이었으나, 지금은 잡동사니를 넣는 데 쓰인다.\n
+\C[2]생명, 지능 증가,\C[6]섹시, 허약 감소\n
+
+DocBot/item_name
+의료용 바지
+
+DocBot/description
+\}의사용 타이트 팬츠, 왠지 모르게 몸에 딱 맞는다.\n
+\C[2]생명, 지능 증가,\C[6]섹시, 허약 감소\n
+
+DocTop/item_name
+의사 망토
+
+DocTop/description
+\}중고 망토로, 약 냄새가 가득하다.\n
+\C[6]지능, 생존, 방어력 증가\n
+\C[6]섹시, 허약 감소\n
+
+DocHead/item_name
+의료용 마스크
+
+DocHead/description
+\}흔히 볼 수 있는 의사의 마스크, 입 부분이 온갖 약초로 가득 막혀 있다.\n
+\C[2]생명, 지능 증가,\C[6]섹시, 허약 감소\n
+
+DocMid/item_name
+의료용 상의
+
+DocMid/description
+\}\n
+\C[6]지능, 생존 상승\n
+\C[6]섹시, 허약 감소\n
+
+BucketHelmet/item_name
+철제 양동이 투구
+
+BucketHelmet/description
+\}너무 커서 내 머리에 전혀 맞지 않는다.\n
+\C[2]방어력 상승,\C[6]섹시, 허약, \C[1]스태미너 감소\n
+\C[2]방어 관련 디버프 효과 감소\n
+
+HoodCloakTop/item_name
+후드 망토
+
+HoodCloakTop/description
+\}이걸로 내 얼굴의 결점을 가릴 수 있을 것이다.\n
+\C[6]공격, 은신 상승\n
+\C[6]섹시, 허약 감소\n
+
+SlaveMidExtra/item_name
+밧줄 허리띠
+
+SlaveMidExtra/description
+\}특별할 것 없는, 더러운 밧줄이다.\n
+\C[6]허약, 더러움, 은신, 방어력 상승\n
+\C[6]섹시 감소\n
+
+SlaveMid/item_name
+노예의 옷
+
+SlaveMid/description
+\}다른 이의 욕정을 풀기 쉽게 하도록, 뒷부분에는 어떤 천도 달려 있지 않다.\n
+\C[6]허약, 더러움, 은신, 방어력 상승\n
+\C[6]섹시 감소\n
+
+FootmanHelmet/item_name
+녹슨 투구
+
+FootmanHelmet/description
+\}이게 정복자가 쓰던 투구라고?\n
+이건 그냥 냄비처럼 보이는데?\n
+\C[2]방어력 상승,\C[6]섹시, 허약, \C[1]스태미너 감소\n
+\C[2]방어 관련 디버프 효과 감소\n
+
+FootmanMidExtra/item_name
+낡은 흉갑
+
+FootmanMidExtra/description
+\}매우 평평한 형태의 흉갑으로, 구식 디자인이다.\n
+이상하게도 내 몸에 딱 맞는다...\n
+\C[6]방어력 상승,\C[6]섹시, 허약 감소\n
+\C[2]방어, 속도 관련 디버프 효과 감소\n
+
+FootmanMid/item_name
+병사의 천갑옷
+
+FootmanMid/description
+\}졸병의 제복이지만, 제작 품질이 꽤 좋다.\n
+왠지 어린아이 사이즈다.\n
+\C[6]방어력 상승,\C[6]섹시, 허약 감소\n
+\C[2]스태미너, 생명, 방어, 속도 관련 디버프 효과 감소\n
+
+FootmanBot/item_name
+병사의 바지
+
+FootmanBot/description
+\}헐렁하고, 부풀고, 못생겼다......\n
+그래도 적어도 가죽 부츠는 괜찮아 보인다!\n
+\C[6]방어력, 공격력 상승,\C[6]섹시, 허약 감소\n
+\C[2]스태미너, 생명, 방어, 속도 관련 디버프 효과 감소\n
+
+MhChainMace/item_name
+유성추
+
+MhChainMace/description
+\}잘 모르면 그냥 잡고 휘두르면 된다.\n
+\C[6]오른손, 물리, 근거리, 고급\n
+\C[6]공격력 상승\n
+\C[6]섹시, 허약 감소\n
+
+MhHorseCock/item_name
+말자지
+
+MhHorseCock/description
+\}내 팔보다 굵다...\n
+\C[6]오른손, 물리, 근거리\n
+\C[6]건강 상승\n
+\C[6]섹시, 허약 감소\n
+
+2MhBareHand/item_name
+로나의 두 손
+
+2MhBareHand/description
+\}아무 의미 없다, 그냥 로나의 두 손일 뿐.\n
+
+ItemShProtect/item_name
+수호의 거룩한 의지
+
+ItemShProtect/description
+\}성도의 힘으로 신앙자를 보호하지만, 왠지 신앙이 부족한 무신론자도 사용할 수 있다.\n
+어쩌면 성도의 보살핌은 모두에게 평등한 것일지도?\n
+\C[6]왼손, 거룩한 의지\n
+\C[6]섹시, 허약 감소\n
+
+ItemShPurge/item_name
+징벌하는 거룩한 의지
+
+ItemShPurge/description
+\}성도의 이름으로 그의 뜻을 관철하며, 거짓을 말하는 자를 징벌한다.\n
+그런데 왜인지 신앙자에게도 효과가 있다? 아마 그들의 신앙도 충분히 굳건하지 않은 걸까?\n
+\C[6]왼손, 거룩한 의지\n
+\C[6]섹시, 허약 감소\n
+
+ShIconOfSin/item_name
+죄악의 성물
+
+ShIconOfSin/description
+\}성도의 이름으로! 너의 죄 걷어낸다.\n
+\C[6]왼손, 죄악의 성물\n
+\C[6]섹시, 허약 감소\n
+
+MhKatana/item_name
+메림의 부러진 칼날
+
+MhKatana/description
+\}메림은 그분의 뜻을 거역했다.\n
+우리가 할 수 있는건  그녀를 쓰러트리는 것 뿐이다\n
+\C[6]양손, 물리, 고급\n
+\C[6]섹시, 허약 감소\n
+
+MhSaintSym/item_name
+신앙인의 징표
+
+MhSaintSym/description
+\}아, 성도여! 저를 인도하소서.\n
+\C[6]오른손\n
+
+MhBroadSword/item_name
+거짓신 파괴자
+
+MhBroadSword/description
+\}광전사의 무기, 매우 무겁다.\n
+\C[6]양손, 물리, 고급\n
+\C[6]공격력 상승, 방어력 상승\n
+\C[6]섹시, 허약, 이동 속도 감소\n
+
+ShTeslaBook/item_name
+전기 마법책
+
+ShTeslaBook/description
+\}전기의 기초, 저자：테슬라\n
+\C[6]왼손, 마법, 특수\n
+\C[6]섹시, 허약 감소\n
+
+MhTeslaStaff/item_name
+전기 지팡이 
+
+MhTeslaStaff/description
+\}고전압절연체\n
+\C[6]오른손, 마법, 사격 \n
+\C[6]지능 상승\n
+\C[6]섹시, 허약 감소\n
+
+PaintHead/item_name
+9인치 룬 문신
+
+PaintHead/description
+\}스스로의 능력을 증명해냈다. 9인치 빅매그넘을 가질 자격이 있다!\n
+\C[6]생존, 은신, 섹시 상승\n
+\C[1]허약, 평판 감소\n
+
+SurTop/item_name
+가죽 숄
+
+SurTop/description
+\}짐승 냄새가 나며 매우 두껍다.\n
+\C[6]방어력, 속도, 생존, 은신 상승\n
+\C[6]섹시, 허약 감소\n
+
+SurMid/item_name
+가죽 재킷
+
+SurMid/description
+\}흔히 볼 수 있는 작업복이지만, 짐승가죽으로 만들어졌다.\n
+\C[6]방어력, 속도, 생존, 은신 상승\n
+\C[6]섹시, 허약 감소\n
+
+
+SurBot/item_name
+사냥꾼 각반
+
+SurBot/description
+\}바지가 없는 건, 그들이 이렇게 달리면 더 빠르다고 했기 때문이다.\n
+\C[6]방어력, 속도, 생존, 은신 상승\n
+\C[6]섹시 증가\n
+
+SurMidExtra/item_name
+사냥꾼 벨트
+
+SurMidExtra/description
+\}전리품을 달고 다닐 때 사용한다.\n
+\C[6]방어력, 속도, 생존, 은신 상승\n
+\C[6]섹시, 허약 감소\n
+
+ShTalkie/item_name
+성도의 유물
+
+ShTalkie/description
+\}성도와 대화할 수 있는 신성한 유물.\n
+\C[6]왼손\n
+
+MhMusket/item_name
+머스킷
+
+MhMusket/description
+\}화약을 사용하는 무기, 농부 아낙네도 사람을 죽일 수 있다!\n
+\C[6]양손, 물리, 마법\n
+\C[6]공격력 상승\n
+\C[6]섹시, 허약 감소\n
+
+SexyMid/item_name
+성노예의 음란한 옷
+
+SexyMid/description
+\}귀족과 부자 전용 장난감의 복장.\n
+\C[4]창녀의 재능 필요, 더러움 최대치 감소\n
+\C[6]허약, 섹시, 방어력 상승\n
+
+SexyBot/item_name
+성노예의 음란한 바지
+
+SexyBot/description
+\}귀족과 부자 전용 장난감의 복장.\n
+\C[4]창녀의 재능 필요, 더러움 최대치 감소\n
+\C[6]허약, 섹시, 방어력 상승\n
+
+SexyHeadEquip/item_name
+성노예의 머리장식
+
+SexyHeadEquip/description
+\}귀족과 부자 전용 장난감의 복장.\n
+\C[4]창녀의 재능 필요, 더러움 최대치 감소\n
+\C[6]허약, 섹시, 방어력 상승\n
+
+DancerTop/item_name
+창녀의 허리띠
+
+DancerTop/description
+\}찰랑거리는 허리띠는 유혹을 상징한다.\n
+\C[4]창녀의 재능 필요, 더러움 최대치 감소\n
+\C[6]허약 감소, 섹시 상승, 이동 속도 상승\n
+
+DancerMid/item_name
+외설적인 창녀 상의
+
+DancerMid/description
+\}자신의 신분을 알리는 듯한 투명함이 있다.\n
+\C[4]창녀의 재능 필요, 더러움 최대치 감소\n
+\C[6]허약 감소, 섹시 상승, 이동 속도 상승\n
+
+DancerBot/item_name
+외설적인 창녀 하의
+
+DancerBot/description
+\}서로 섹스하기 쉽게 디자인되었다.\n
+\C[4]창녀의 재능 필요, 더러움 최대치 감소\n
+\C[6]허약 감소, 섹시 상승, 이동 속도 상승\n
+
+DancerHeadEquip/item_name
+창녀의 머리장식
+
+DancerHeadEquip/description
+\}투명한 것은 아낌없는 헌신을 의미한다.\n
+\C[4]창녀의 재능 필요, 더러움 최대치 감소\n
+\C[6]허약 감소, 섹시 상승, 이동 속도 상승\n
+
+ShWaterBook/item_name
+물 마법서
+
+ShWaterBook/description
+\}-물 속성 마법 사전-당신의 발음을 쉽게 교정하세요\n
+\C[6]왼손, 마법, 특수\n
+\C[6]섹시, 허약 감소\n
+
+ShFireBook/item_name
+불 마법서
+
+ShFireBook/description
+\}-방화광의 모험-본토에서 가장 유명한 마법사의 이야기를 들려줍니다.\n
+\C[6]왼손, 마법, 특수\n
+\C[6]섹시, 허약 감소\n
+
+MhWaterStaff/item_name
+물 지팡이
+
+MhWaterStaff/description
+\}물이여, 순수한 물이여!\n
+\C[6]오른손, 마법, 원거리\n
+\C[6]지능 상승\n
+\C[6]섹시, 허약 감소\n
+
+MhFireStaff/item_name
+불 지팡이
+
+MhFireStaff/description
+\}남자는 폭발을 뒤돌아보지 않는다, 하지만 나는 여자다.\n
+\C[6]오른손, 마법, 원거리\n
+\C[6]지능 상승\n
+\C[6]섹시, 허약 감소\n
+
+ShAbominationTotem/item_name
+흉물 토템
+
+ShAbominationTotem/description
+\}마물의 오물과, 인간 잔해를 섞어 뼈에 발라 만들었다.\n
+\C[6]왼손, 마법, 특수\n
+\C[6]섹시, 허약, 평판 감소\n
+
+ShBoneShield/item_name
+뼈 방패
+
+ShBoneShield/description
+\}여러 생물의 뼈를 묶은 것, 그리 튼튼하진 않다.\n
+\C[6]왼손, 물리, 근거리\n
+\C[6]방어력 상승\n
+\C[6]섹시, 허약, 평판 감소\n
+
+MhBoneStaff/item_name
+뼈 지팡이
+
+MhBoneStaff/description
+\}인간의 뼈에 마물의 정액을 바르고 가장 사악한 저주를 걸어 만들었다.\n
+\C[6]오른손, 마법, 원거리\n
+\C[6]지능 상승\n
+\C[6]섹시, 허약, 평판 감소\n
+
+MhWhip/item_name
+채찍
+
+MhWhip/description
+\}살상력은 부족하지만 견제력과 타격범위가 뛰어나다.\n
+\C[6]오른손, 물리, 범위, 고급\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+MhSabar/item_name
+세이버
+
+MhSabar/description
+\}매우 가벼워 보이며 실제로 조금의 힘으로 들 수 있습니다.\n
+\C[6]오른손, 물리, 근거리, 고급\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+MhShortSword/item_name
+숏소드
+
+MhShortSword/description
+\}이렇게 쥐는 거지? 이걸 가지고 있으면 날 쉽게 해치진 못하겠지.\n
+\C[6]오른손, 물리, 근거리\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+MhSickle/item_name
+낫
+
+MhSickle/description
+\}농업용, 싸움을 위한 것이 아니다.\n
+\C[6]오른손, 물리, 근거리\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+MhWoodenClub/item_name
+나무
+
+MhWoodenClub/description
+\}어디에서나 구할 수 있어, 호신용으로 적당하다.\n
+\C[6]오른손, 물리, 근거리\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+MhSilverDildo/item_name
+은곤봉
+
+MhSilverDildo/description
+\}악명 높은 뮤지션 조니가 디자인했다.\n
+\C[6]오른손, 물리, 근거리\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+MhManCatcher/item_name
+제압봉
+
+MhManCatcher/description
+\}끔찍해 보이지만 사람들을 죽이는 데 쓰는건 아냐.\n
+\C[6]양손, 물리, 중거리\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+MhHalberd/item_name
+미늘창
+
+MhHalberd/description
+\}너무 무거워!\n
+\C[6]양손, 물리, 중거리, 고급.\n
+\C[6]공격력 증가\n
+\C[6]섹시,허약 감소\n
+
+MhWoodenSpear/item_name
+목제 장창
+
+MhWoodenSpear/description
+\}저렴하고, 사용하기 편하다. 농민들의 좋은 친구.\n
+\C[6]양손, 물리, 중거리\n
+\C[6]공격력 증가\n
+\C[6]섹시,허약 감소\n
+
+MhPickAxe/item_name
+곡괭이
+
+MhPickAxe/description
+\}수정 광석을 캐는데 필요해.\n
+\C[6]물리, 근거리\n
+\C[6]공격력 증가\n
+\C[6]섹시,허약 감소\n
+
+MhRake/item_name
+갈퀴
+
+MhRake/description
+\}저렴하고, 사용하기 편하다. 농민들의 좋은 친구.\n
+\C[6]양손, 물리, 중거리\n
+\C[6]공격력 증가\n
+\C[6]섹시,허약 감소\n
+
+MhMetalSpear/item_name
+금속 창
+
+MhMetalSpear/description
+\}병사들이 주로 사용하는 무기, 상당히 무거운 편이다.\n
+\C[6]양손, 물리, 중거리, 고급\n
+\C[6]공격력 증가\n
+\C[6]섹시,허약 감소\n
+
+MhLongBow/item_name
+장궁
+
+MhLongBow/description
+\}이번 사태 때문에 급하게 만든 듯, 마감이 허술하다.\n
+\C[6]양손, 물리, 원거리, 고급\n
+\C[6]공격력 증가\n
+\C[6]섹시, 허약 감소\n
+
+AdvTop/item_name
+붉은 망토
+
+AdvTop/description
+\}매우 멋지고 따뜻합니다.\n
+\C[6]공격력, 방어력 증가\n
+\C[6]섹시,허약 감소\n
+
+RagTop/item_name
+더러운 숄
+
+RagTop/description
+\}기름과 시큼한 냄새 때문에, 아무도 줍고 싶어하지 않습니다.\n
+\C[6]허약, 기초 청결도, 기초 민첩, 방어력 증가\n
+\C[6]섹시 감소\n
+
+AdvMid/item_name
+평민 상의
+
+AdvMid/description
+\}내 신분이 이러니, 선택의 여지가 없다.\n
+\C[6]공격력, 방어력 증가\n
+\C[6]섹시,허약 감소\n
+
+RagMid/item_name
+더러운 상의
+
+RagMid/description
+\}더럽고 냄새가 나. 웬만하면 입고 싶지 않은데.\n
+\C[6]허약, 기초 청결도, 기초 민첩, 방어력 증가\n
+\C[6]섹시 감소\n
+
+LightIronArmor/item_name
+가벼운 갑옷
+
+LightIronArmor/description
+ON DEV
+
+RagVag/item_name
+더러운 천쪼가리
+
+RagVag/description
+\}냄새가 지독해. 대체 어디다 쓴거야?\n
+
+AdvBot/item_name
+평민 바지
+
+AdvBot/description
+\}아직 괜찮고, 몸에 맞는다.\n
+\C[6]공격력, 방어력 증가\n
+\C[6]섹시,허약 감소\n
+
+AdvMidExtra/item_name
+가죽 가방
+
+AdvMidExtra/description
+\}여기엔 아무것도 안 들었어! 정말이야! 거짓말이 아니야!\n
+\C[6]공격력, 방어력 증가\n
+\C[6]섹시,허약 감소\n
+
+RagMidExtra/item_name
+찢어진 앞치마
+
+RagMidExtra/description
+\}윽, 그윽한 악취\n
+\C[6]허약, 기초 청결도, 기초 민첩 증가\n
+\C[6]섹시 감소\n
+
+ChainMidExtra/item_name
+금속 족쇄
+
+ChainMidExtra/description
+\}죄인과 성노예를 위한 구속 도구\n
+\C[6]섹시·허약 증가\n
+\C[1]이동속도 감소\n
+
+CollarTopExtra/item_name
+금속 초커
+
+CollarTopExtra/description
+\}노예와 범죄자 전용 장비. 물론 나는 아니야.\n
+\C[6]섹시, 허약 증가\n
+\C[1]최대 스태미너 감소\n
+
+ChainCollarTopExtra/item_name
+사슬달린 금속 초커
+
+ChainCollarTopExtra/description
+\}노예와 범죄자 전용 장비. 물론 나는 아니야.\n
+\C[6]섹시, 허약 증가\n
+\C[1]최대 스태미너 감소\n
+
+CuffTopExtra/item_name
+금속 구속구
+
+CuffTopExtra/description
+\}노예보다 더 형편없는 성 노예 전용 장비. 나? 나는 평민이야, 저걸 왜 해?\n
+\C[1]공격 기술을 사용할 수 없습니다\n
+\C[6]섹시, 허약 증가\n
+\C[1]최대 스태미너와 공격력을 감소 시킵니다\n
+
+ChainCuffTopExtra/item_name
+구속구 세트
+
+ChainCuffTopExtra/description
+\}노예보다 더 형편없는 성 노예 전용 장비. 나? 나는 평민이야, 저걸 왜 해?\n
+\C[1]공격 기술을 사용할 수 없습니다\n
+\C[6]섹시, 허약 증가\n
+\C[1]최대 스태미너, 공격력 감소\n
+
+HairDancer/item_name
+피쉬테일 헤어
+
+HairDancer/description
+\}남자들에게 매력을 뽐낼 수 있는 헤어스타일.\n
+\C[6]섹시 증가\n
+
+HairShortMessy/item_name
+짧은 더벅머리
+
+HairShortMessy/description
+\}남자애처럼 보이잖아...\n
+\C[6]더러움 증가\n
+\C[6]섹시 감소, 허약 감소\n
+
+HairMessy/item_name
+더벅머리
+
+HairMessy/description
+\}이런 시기엔 가장 안전한 선택이려나?\n
+\C[6]허약, 더러움 증가\n
+\C[6]섹시 감소\n
+
+HairPony/item_name
+포니테일
+
+HairPony/description
+\}활동하기 아주 편하지？\n
+\C[6]허약 감소\n
+\C[6]섹시 증가\n
+
+HairTwinBraid/item_name
+양갈래로 묶은머리
+
+HairTwinBraid/description
+\}자꾸 누가 나한테 냄새가 난다는데 왜지?\n
+\C[6]허약 증가\n
+\C[6]섹시 감소\n
+
+StarterGlass/item_name
+안경
+
+StarterGlass/description
+\}당신은 안경을 쓰면 똑똑해보인다고 생각했고, 그 암시 때문에 실제로 똑똑해졌습니다...\n
+\C[6]허약, 지능 증가\n
+\C[6]섹시 감소\n
+
+SunGlass/item_name
+선글라스
+
+SunGlass/description
+\}더 많은 오류를 유발하는 디버깅 도구.\n
+\C[6]생명, 스태미너, 기분을 고정\n
+
+ShDagger/item_name
+수정 단검
+
+ShDagger/description
+\}수정 광석으로 만든 예리한 대거, 극도로 날카롭다.\n
+\C[6]왼손, 물리, 근거리, 고급\n
+\C[6]공격력 증가\n
+\C[6]섹시,허약 감소\n
+
+#\}일할 때든 사냥할 때든, 호신용으로 아주 그만이다.\n
+
+ShThrowingKnives/item_name
+투척용 나이프
+
+ShThrowingKnives/description
+\}그런 눈으로 보지 마, 아버지한테 쓰는 법을 배웠거든!\n
+\C[6]왼손, 물리, 원거리, 고급\n
+\C[6]공격력 증가\n
+\C[6]섹시,허약 감소\n
+
+ShWoodenShield/item_name
+나무 방패
+
+ShWoodenShield/description
+\}가지고 다니면 안심됩니다. 착각은 아닐 겁니다.\n
+\C[6]왼손, 물리, 근거리\n
+\C[6]방어력 증가\n
+\C[6]섹시,허약 감소\n
+
+ShMetalShield/item_name
+철 방패
+
+ShMetalShield/description
+\}가지고 다니면 안심됩니다. 착각은 아닐 겁니다.\n
+\C[6]왼손, 물리, 근거리, 고급\n
+\C[6]방어력 증가\n
+\C[6]섹시,허약 감소\n
+
+ShLantern/item_name
+랜턴
+
+ShLantern/description
+\}EXT슬롯이나 왼손에 장착 시 조명을 제공합니다.\n
+\C[6]최대 4개까지, 바닥에 설치하여 주변을 밝힐 수 있다\n
+\C[6]왼손, EXT1/2슬롯\n
+\C[6]섹시 감소\n
+
+SwordAtest/item_name
+test
+
+SwordAtest/description
+asd

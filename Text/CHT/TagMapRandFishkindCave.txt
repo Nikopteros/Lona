@@ -1,0 +1,58 @@
+FishkindCave1/OvermapEnter
+\m[confused]洞窟，飄出陣陣的魚腥味。\optB[算了,進入]
+
+FishkindCave3/OvermapEnter
+\m[confused]豐收聖所\optB[算了,進入]
+
+Lona/TimerStart
+\narr洞穴傳來了魔物的吼聲。
+\narrOFF\m[fear]\c[6]洛娜：\c[0]    我必須要快一點。
+
+#############################################################################
+
+Lona/RapeLoopNonCapture
+\m[fear]深潛者們將洛娜抓了起來，洛娜失去了身上所有的裝備。
+\m[terror]牠們非常高興找到了新的孕母。
+
+Lona/RapeLoopCaptured
+\m[terror]深潛者們還沒玩夠，牠們沒打算讓洛娜休息。
+\m[fear]牠們露出了噁心的下體，今天也要努力讓這個孕母沾滿精液。
+
+#-----------------------------
+
+Lona/RapeLoopDragOut
+\m[hurt]深潛者們將洛娜了拖出來，打算開場快樂的宴會。
+
+Lona/RapeLoopTorture
+\m[fear]深潛者對洛娜嘗試逃跑的行為感到憤怒，牠們要教導洛娜孕母該有的態度。
+
+#-----------------------------
+
+Exit/Triggered
+好像發生了什麼？
+
+########################### QUEST FishkindHunt2
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]女傭兵：\c[0]    現在怎麼辦？
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]女傭兵：\c[0]    嗚... 妳是...？\optB[路過的,來救你的]
+
+CommonConvoyTarget/begin0
+\prf\c[4]女傭兵：\c[0]    救救我...
+\m[serious]\PRF\c[6]洛娜：\c[0]    妳還好嗎？
+\prf\c[4]女傭兵：\c[0]    嗚嗚...
+
+victim/Convoy_start
+\board[護送至指定營地]
+目標：將受害者護送至濕地營地。
+過程中目標不可死亡。
+
+CommonConvoyTarget/Hev0
+\SETpr[FishCaveRBQ]她躺在各種魚屍的殘渣中，四周飄散著腐爛的魚腥味。
+看來深潛者並不打算殺害她，這些殘渣似乎是為了餵食。
+深潛者為了繁殖，非常喜愛以手臂擴張孕母的下體。
+深潛者不理解母體的痛苦，牠們認為能活下來的才是最完美的孕母。
+她的屄穴、尻穴以及骨盆受到了各傷害。
+她是個傭兵，是冒險者。她健壯的肉體讓她挺過了這一切，但應該撐不了多久了。

@@ -1,0 +1,92 @@
+ThisMap/OmEnter
+\m[confused]Incubation pool\optB[never mind,Enter]
+
+###################################################################################    main
+
+Qprog3/begin1
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    Corpses?
+
+Qprog3/begin2
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Yes. Are these the \c[4]South Gate Camp\c[0] soldiers?
+\CBct[20]\m[flirty]\PRF\c[6]Lona：\c[0]    So here it is?
+\CBct[20]\m[confused]\PRF\c[6]Lona：\c[0]    One died here, what about the other two?
+
+Qprog3/begin3
+\CBct[1]\m[shocked]\Rshake\c[6]Lona：\c[0]    ?!!!
+\CBmp[AbomZombie,8]\prf\c[4]unknown：\c[0]    ......
+
+Qprog3/begin4
+\CBct[8]\m[confused]\PRF\c[6]Lona：\c[0]    Well... Who are you?
+
+Qprog3/begin5
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    Who's there?!
+
+Qprog3/begin6
+\CBmp[victim,6]\Rshake\c[4]Soldier：\c[0]    No! Don't come closer!
+
+Qprog3/begin7
+\CBmp[victim,20]\Rshake\c[4]Soldier：\c[0]    Leave me alone! I don't want to be like that!
+
+Qprog3/begin8
+\CBmp[victim,20]\Rshake\c[4]Soldier：\c[0]    \{*sob* ah ah\}
+\CBmp[victim,20]\Rshake\c[4]Soldier：\c[0]    My feet! Melted! Noooo!!!
+
+Qprog3/begin9
+\CBmp[victim,20]\Rshake\c[4]Soldier：\c[0]    My arms.... Nooo! I can't....
+
+Qprog3/begin10
+\CBmp[victim,20]\Rshake\c[4]Soldier：\c[0]    Guhh... H-help me....
+
+Qprog3/begin11
+\CBct[20]\m[fear]\Rshake\c[6]Lona：\c[0]    No way, are these pieces of meat made out of....
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    Our flesh?
+
+Qprog3/begin12
+\CBct[8]\m[serious]\PRF\c[6]Lona：\c[0]    Hey! We must get out of here.
+
+Qprog3/begin12_1
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    Hey... Sir? Hello? Snap out of it!
+
+Qprog3/begin13
+\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    \{Ah?!\}
+
+Qprog3/begin14
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    \{Huh ah ah ah!\}
+
+Qprog3/begin15
+\CBct[20]\m[fear]\Rshake\c[6]Lona：\c[0]    No, they found me!
+\narr Listen, boy.
+\narr I need your help.
+\narrOFF\CBct[20]\m[shocked]\Rshake\c[6]Lona：\c[0]    What? Who? Who needs help?
+\narr Stay here until justice comes.
+\narrOFF\CBct[6]\m[terror]\Rshake\c[6]Lona：\c[0]    Stay here? Are you kidding me?
+
+Qprog3/begin16
+\CBct[20]\m[terror]\Rshake\c[6]Lona：\c[0]    What?!??!
+\CBct[5]\m[bereft]\Rshake\c[6]Lona：\c[0]    Whoever you are, this is not funny!
+\narr I need your soul to defy these evils.
+\narr You can do it, boy!
+\narrOFF\CBct[6]\m[shocked]\Rshake\c[6]Lona：\c[0]    No! Let me out!
+\narr Hang on! Justice and salvation are coming!
+
+Qprog3/begin17
+\CBct[8]\m[shocked]\PRF\c[6]Lona：\c[0]    What the hell?!
+\CBmp[Cam2,19]\m[serious]\PRF\c[6]Lona：\c[0]    Those bones are gone, I better get out of here, it's too dangerous.
+\CBct[8]\m[flirty]\PRF\c[6]Lona：\c[0]    How do I explain this to the centurion? Will anyone believe me?
+
+Qprog3/begin18
+\board[search west]
+Goal： Return to South Gate Camp
+Reward： none
+Client： South Gate Camp
+Quest Term： Single fullfillment
+Everyone is dead, go back to the south gate camp and report to the centurion.
+
+VC/Qmsg0
+Kill... Kill...
+
+VC/Qmsg1
+Victory... Most ancient rice card...
+
+VC/Qmsg2
+Puppet army... Destroy...

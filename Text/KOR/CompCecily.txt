@@ -1,0 +1,673 @@
+Cecily/KnownBegin
+\CBid[-1,20]\SETpl[CecilyNormal]\C[4]세실리：\C[0] 로나? 왜 그래?
+
+Cecily/KnownBeginAr
+\CBid[-1,20]\SETpl[CecilyNormalAr]\C[4]세실리：\C[0] 로나? 무슨 일이야?
+
+Cecily/BasicOpt
+\CBct[8]\m[confused]\c[6]로나：\c[0] .....
+
+Cecily/CompData
+\board[세실리 이글모어]
+\C[2]위치：\C[0]후열
+\C[2]전투 타입：\C[0]전사, 사격, 관통
+\C[2]진영：\C[0]시바리스
+\C[2]적대 대상：\C[0]사악한 생물, 불법자
+\C[2]요구 조건：\C[0]허약 상태 100 미만
+\C[2]계약 기간：\C[0]5일
+\C[2]독립성：\C[0]캐릭터 사망 시 부활하지 않음
+\C[4]비고：\C[0]세실리는 회색쥐와 같은 팀임
+원래 귀족 아가씨였던 듯? 대화하면 엄청 도도하다.
+
+Cecily/Comp_failed2F
+\CBid[-1,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 넌 너무 약해. 네 힘으로 어떻게든 할 수 있을 때 다시 찾아와.
+
+Cecily/Comp_win2F
+\CBid[-1,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 좋아, 출발하자.
+
+Cecily/Comp_win
+\CBid[-1,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 좋아, 출발하자.
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatNormal]\plf\Rshake\c[4]회색쥐：\c[0] 아가씨가 내린 결정이라면, 난 끝까지 따르겠어.
+
+Cecily/Comp_failed_Raped
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 네가 날 구해준 건 고맙고, 네게 목숨을 빚졌지만...
+\CBid[-1,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 넌 너무 약해. 스스로 해결할 수 있을 때 다시 찾아와.
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 미안해...
+
+Cecily/Comp_failed_Coin
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 유감이지만, 요즘 우리가 너무 바빠.
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 이거라도 받아. 조금이라도 도움이 될 거야.　
+
+Cecily/Comp_failed_CoinAgain
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] \{또 온 거야?!
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 로나야, 여행하면서 나도 많은 걸 배웠어.
+\CBid[-1,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]세실리：\C[0] 그중 하나는\...\{사람은 스스로 구해야 한다는 거더라!
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 미안해...
+
+CecilyAr/GR_Death
+\SETpl[CecilyShockedAr]\Lshake\{회색쥐! 안 돼!!!!
+
+Cecily/GR_Death
+\SETpl[CecilyShocked]\Lshake\{회색쥐! 안 돼!!!!
+
+Cecily/BanditMobs_run
+\SETpl[CecilyShockedAr]\Lshake\C[4]세실리：\C[0] \{도망가자고? 농담이지?!
+\SETpl[CecilyAngryAr]\Lshake\C[4]세실리：\C[0] 이런 인간 쓰레기들은 절대 용서할 수 없어!
+\SETpr[GrayRatConfusedAr]\plf\PRF\c[4]회색쥐：\c[0] ........
+\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] \{모두 박멸해!
+
+################################################################### QMSG ################################################################################# 
+
+Cecily/CommandWait0
+내가 여기 지키고 있을게...
+
+Cecily/CommandWait1
+너무 오래 끌지 마!
+
+Cecily/CommandFollow0
+좋아! 길 안내해!
+
+Cecily/CommandFollow1
+맡겨 줘!
+
+Cecily/OvermapPop0
+반드시 노예 수출을 막아야 해.
+
+Cecily/OvermapPop1
+왜 사람들은 서로를 적대시하는 거지?
+
+Cecily/OvermapPop2
+내가 뭘 하고 있는지 잘 알고 있어.
+
+Cecily/OvermapPop3
+그들을 지키는 게 우리의 책임 아니야?
+
+###################################################################### Unique
+
+Cecily/DoomFortFuckOff
+\SETpr[CecilyAngryAr]\Rshake\C[4]세실리：\C[0] \{비켜!
+
+###################################################################### QUEST
+
+Cecily/UnknowBegin
+\SETpl[CecilyNormal]\C[4]???：\C[0] .............
+\m[confused]\plf\PRF\c[6]로나：\c[0] .......
+\SETpl[CecilyAngry]\Lshake\prf\C[4]???：\C[0] 이 쓸모없는 백성놈, 뭘 봐?!
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 죄송해요.
+
+Cecily/SaveQuest_reward1
+\SETpl[CecilyWtf]\C[4]???：\C[0] 너.....
+\m[flirty]\plf\PRF\c[6]로나：\c[0] 응?
+\SETpl[CecilyWtf]\PLF\prf\C[4]세실리：\C[0] 직접 시작하지. 내 이름은\C[4]세실리 아이그모야\C[0].
+\m[pleased]\plf\PRF\c[6]로나：\c[0] 저는 로나 폴딘이에요.
+\SETpl[CecilyNormal]\SETpl[GrayRatConfused]\C[4]세실리：\C[0] 이쪽은 집사 , \C[4]회색쥐\C[0]
+\SETpl[GrayRatConfused]\plf\PRF\c[4]회색쥐：\c[0] ...안녕하세요...
+\SETpl[CecilyAngry]\PLF\prf\C[4]세실리：\C[0] 잘 들어!
+\SETpl[CecilyWtf]\PLF\prf\C[4]세실리：\C[0] 내가 하층민한테 구해질 줄은\C[4]상상도\C[0]못 했어.
+\SETpr[GrayRatConfused]\plf\PRF\c[4]회색쥐：\c[0] .........
+\SETpr[GrayRatNormal]\plf\PRF\c[4]회색쥐：\c[0] 예의를 갖춰야죠.
+\SETpl[CecilyAngry]\PLF\prf\C[4]세실리：\C[0] \{알았어!
+\SETpl[CecilyWtf]\PLF\prf\C[4]세실리：\C[0] 이 길을 따라오면서 정말 많은 걸 봤어. 강간, 약탈, 방화, 살인... 별별 짓을 다 겪었지.
+\SETpr[GrayRatNormal]\plf\PRF\C[4]세실리：\C[0] 어른들은 항상 말하잖아, "귀족이 영민을 지키는 게 의무다."
+\SETpl[CecilyNormal]\PLF\prf\C[4]세실리：\C[0] 지금 생각하면 우습지? 하지만 난 그렇게 배웠어.
+\SETpl[CecilyAngry]\PLF\prf\C[4]세실리：\C[0] 지켜줘야 할 사람한테 오히려 구해졌으니, 내 심정 알겠어?
+\m[confused]\plf\PRF\c[6]로나：\c[0] 음... 어느 정도는 알 것 같아요.
+\m[pleased]\plf\PRF\c[6]로나：\c[0] 저도 도망치던 길에 여러 사람의 도움을 받아서 살 수 있었어요.
+\SETpl[CecilyShy]\PLF\prf\C[4]세실리：\C[0] 우우...
+
+Cecily/SaveQuest_reward2
+\SETpl[CecilyShy]\PLF\prf\C[4]세실리：\C[0] 아무튼 이건 네가 받아야 해.
+\m[shocked]\plf\Rshake\c[6]로나：\c[0] 금화?!
+\SETpl[CecilyWtf]\PLF\prf\C[4]세실리：\C[0] 그래, 금화야. 별거 아니야.
+\SETpl[CecilyShy]\PLF\prf\C[4]세실리：\C[0] 내가 네게 목숨을 빚졌으니까, 도움이 필요하면 언제든 찾아와.
+\m[triumph]\plf\Rshake\c[6]로나：\c[0] 고마워요!
+\SETpr[GrayRatConfused]\c[4]회색쥐：\c[0] .........
+
+Cecily/SaveQuest_reward3
+\SETpl[CecilyShy]\PLF\prf\C[4]세실리：\C[0] 아무튼 이건 네가 받아야 해.
+\m[triumph]\plf\Rshake\c[6]로나：\c[0] 고마워요!
+\SETpr[GrayRatConfused]\c[4]회색쥐：\c[0] .........
+
+Cecily/Comp_disband
+\SETpl[CecilyWtf]\PLF\prf\C[4]세실리：\C[0] 칫! 이게 다야?
+
+Cecily/Comp_disbandAr
+\SETpl[CecilyWtfAr]\PLF\prf\C[4]세실리：\C[0] 칫! 이게 다야?
+
+##################################################################### ADAN QU
+
+Cecily/QuestMilo_4and5
+\CBct[20]\CamCT\m[flirty]\plf\Rshake\c[6]로나：\c[0] 저기...
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]세실리：\C[0] 유감이지만, 우리 요즘 너무 바빠.
+\CBct[8]\m[sad]\plf\Rshake\c[6]로나：\c[0] 알겠어요...
+
+##################################################################### Quest Hijack
+
+Cecily/QuestHikack7_1
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 야! 로나! 이리 와!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 응? 왜요?
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\PRF\c[4]회색쥐：\c[0] 에헴...
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 하하?
+\CBmp[Cecily,8]\SETpl[CecilyShy]\PLF\prf\C[4]세실리：\C[0] 칫......
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 아무튼... 네 도움이 필요해!
+\CBct[2]\m[normal]\plf\PRF\c[6]로나：\c[0] 뭘 도와드리면 되죠?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]세실리：\C[0] 회색쥐!
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatConfused]\plf\Rshake\c[4]회색쥐：\c[0] 예...
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\m[confused]\PLF\prf\c[4]회색쥐：\c[0] 로나 씨, 혹시\c[4]마일로 본 루드신드이라는\c[0]사람 알아요?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 알죠. 노엘 마을에서 제일 부자 아닌가요? 맞죠?
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\Lshake\prf\c[4]회색쥐：\c[0] 맞아요, 그는 노엘 마을의 실질적인 권력자예요.
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatConfused]\Lshake\prf\c[4]회색쥐：\c[0] 그리고 난민을 노예로 파는 노예상이기도 하죠.
+\CBmp[UniqueGrayRat,20]\SETpl[GrayRatNormal]\Lshake\prf\c[4]회색쥐：\c[0] 그 사람이 그 자리에 있는 한, 노예 수출은 절대 멈추지 않을 거예요...
+
+Cecily/QuestHikack7_2
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 음...
+\CBmp[Cecily,20]\SETpr[CecilyWtf]\plf\Rshake\C[4]세실리：\C[0] 그만해! 물러서!
+\CBmp[UniqueGrayRat,2]\SETpl[GrayRatConfused]\Lshake\prf\c[4]회색쥐：\c[0] 네...
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 우리, 철수 중인 차량대를 습격할 거야!
+\CBct[20]\m[wtf]\plf\Rshake\c[6]로나：\c[0] 네에?!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 그 사람들은 전선에서 살아 돌아온 생존자들을 노예로 팔고 있어!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 뭐라고요?!
+\CBmp[Cecily,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]세실리：\C[0] 그 사람들은 시바리스인들이야! 잉카란 왕국의 백성들이라고!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 그 안에 네 친구나 가족도 있을지 몰라! 정말 모른 척할 거야?!
+\CBct[20]\m[tired]\plf\Rshake\c[6]로나：\c[0] 그게...
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 맞아! 넌 루드신드과 적이 될 수도 있어!
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 그들 뒤에 어떤 세력이 있는지 잘 알지?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]세실리：\C[0] 아직 시간은 있어. 다섯 날 뒤에 대답해 줘도 돼.
+
+Cecily/QuestHikack8_1
+\board[난민 구출]
+목표 : 난민을 운송하는 차량대 습격
+보상 : 금화 3개
+의뢰인 : 세실리
+기한 : 완료 시까지
+세실리와 회색쥐와 함께 북쪽 종말 요새로 가는 난민 차량대를 목표로 한다.
+백성을 위해! 영광의 이름으로, 잉카란이여!
+
+Cecily/QuestHikack8_2_opt
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\prf\C[4]세실리：\C[0] 내 대답을 들려줘! \optB[좀 더 생각해볼게,나도 할게]
+
+Cecily/QuestHikack8_2_yes
+\CBct[20]\m[serious]\plf\Rshake\c[6]로나：\c[0] 결정했어요! 그 사람들을 구하러 가요!
+\CBmp[Cecily,20]\SETpl[CecilyShocked]\Lshake\prf\C[4]세실리：\C[0] !!!!!!!!!!!!
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 왜요?
+\CBmp[Cecily,20]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 네가 거절할 줄 알았는데...
+\CBmp[UniqueGrayRat,2]\SETpl[GrayRatNormal]\Lshake\prf\c[4]회색쥐：\c[0] 고마워요, 로나 씨.
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 문제없어요!
+
+##################################################################### Quest in tavern
+
+Cecily/12_opt
+왜 그래?
+
+Cecily/KnownBegin12SAD
+\CBid[-1,8]\SETpl[CecilyFailed]\Lshake\prf\C[4]세실리：\C[0] 하아\..\..\..
+
+GrayRat/QuestHikack12
+\CBid[-1,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]회색쥐：\c[0] 아가씨와 얘기해 봐요. 어쩌면 당신이 도와줄 수 있을지도 몰라요.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어?
+
+Cecily/KnownBegin_12
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 괜찮아요?
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]세실리：\C[0] 사람들에게 이런 반응이 나타나는 걸 본 적 있어...
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]세실리：\C[0] 하지만 그건 그들이 너무 끔찍한 재앙을 마주했기 때문인 거겠지... 아닌가?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 무슨 말이에요...?
+\CBid[-1,6]\SETpl[CecilySad]\Lshake\prf\C[4]세실리：\C[0] 자유를 줘도, 오히려 스스로 노예가 되고 싶어 하더라고.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아? 혹시 우리가 풀어줬던 그 노예들 말하는 거예요?
+\CBid[-1,8]\SETpl[CecilyFailed]\Lshake\prf\C[4]세실리：\C[0] 맞아...
+\CBid[-1,20]\SETpl[CecilySad]\Lshake\prf\C[4]세실리：\C[0] 귀족 교육에서는 늘 그런 사람들은 단지 재산, 노동력일 뿐이라고 가르쳤어.
+\CBid[-1,20]\SETpl[CecilyFailed]\Lshake\prf\C[4]세실리：\C[0] 난 그게 틀렸다고 생각했는데, 사람은 모두 같고 평등해야 한다고 믿었는데... 내가 틀린 걸까?
+
+Cecily/QuestHikack12_OPT
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 음\...\...\...\optB[나도 잘 모르겠어,나랑 같이 가요]
+
+Cecily/QuestHikack12_OPT_cancel
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 나도 잘 모르겠어요...
+\CBid[-1,5]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 칫....
+
+Cecily/QuestHikack12_OPT_ANS
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음\...\...\...\CBct[9]\m[triumph]\Rshake됐다!
+\CBid[-1,2]\SETpl[CecilyFailed]\Lshake\prf\C[4]세실리：\C[0] 뭐가 됐다는 거야...?
+\CBct[20]\m[pleased]\plf\PRF\c[6]로나：\c[0] 나랑 같이 가요, 제가 성 밖을 좀 보여드릴게요.
+\CBid[-1,8]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 응... 성 밖?
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\c[4]회색쥐：\c[0] 음......
+\CBid[-1,8]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 응...
+\CBid[-1,6]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 좋아! 준비하고 바로 출발하자.
+\CBmp[UniqueGrayRat,20]\SETpr[GrayRatConfused]\plf\Rshake\c[4]회색쥐：\c[0] 네, 아가씨.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 네? 지금요? 바로요? 아직 뭘 설명해야 할지 저도 잘 모르는데!
+\CBid[-1,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] \c[6]로나\c[0], 넌 똑똑한 평민이야. 난 네가 할 수 있다고 믿어.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그거 칭찬 맞죠?
+
+Cecily/QuestHikack12_OPT_ANS_BRD
+\board[현실을 직시해라]
+목표 : 세실리와 함께 노엘 마을 동문 바깥으로 이동
+보상 : 없음
+의뢰인 : 세실리
+기한 : 완료 시까지
+귀족들은 사람 마음을 전혀 몰라.
+직접 보여줘라, 그녀에게 밖에 어떤 지옥이 펼쳐지고 있는지 보여주자. 
+
+############################################ in NoerRelayOut
+
+Cecily/QuestHikack13_0
+\CBfB[8]\SETpl[CecilyShyAr]\Lshake\prf\C[4]세실리：\C[0] 그러니까... 우리 여기서 뭘 하는 거지?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음... 네가 우리 평민들이 어떤 사람들인지 좀 보여주고 싶어서.
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 나, 여기 오기까지 이미 많은 걸 봤어.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 근데 직접 그들이랑 얘기해 본 적은 있어?
+\CBfB[8]\SETpl[CecilyAngryAr]\PLF\prf\C[4]세실리：\C[0] \..\..\..
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 설마? 진짜? 내가 처음이야?
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 그럴 필요 없어! 내가 뭘 하고 있는지 잘 알아!
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 아... 그렇구나.
+
+Cecily/QuestHikack13_1
+\CBct[9]\m[normal]\plf\PRF\c[6]로나：\c[0] 아! 저기 수녀가 저쪽에서 음식을 나눠주고 있어요. 가서 한번 봐요.
+
+Cecily/QuestHikack14_1
+\CBmp[Nur1,20]\c[4]수녀A：\c[0] 여러분, 죄송합니다. 이제 마지막 한 그릇만 남았어요.
+\CBmp[Nur2,20]\c[4]수녀B：\c[0] 이번 은혜는 여기까지입니다. 나머지 분들은 돌아가 주세요.
+\CBmp[RufC14M1,20]\c[4]난민：\c[0] 감사합니다! 성도님께 감사드립니다! 성도님을 찬양합니다!
+\CBmp[RufC14F1,20]\c[4]난민：\c[0] 안 돼! 잠깐만요! 저도 아이가 둘이나 있어요!
+\CBmp[RufC14M2,20]\c[4]난민：\c[0] 이건 불공평해!
+\CBmp[RufC14F2,20]\c[4]난민：\c[0] 이건 내 거야! 성도가 내게 빚진 거라고!
+
+Cecily/QuestHikack14_1CECtoLona
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 이게 네가 보여주고 싶었던 거야?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 나 이런 장면 이미 여러 번 봤어. 이번엔 뭐가 다르다는 거지?
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음...
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 나도 뭐라 설명해야 할지 모르겠는데, 저 사람들은 도움받는 게 당연하다고 생각하는 것 같지 않아?
+\CBct[20]\m[confused]\plf\PRF\c[6]로나：\c[0] 이런 사람들 돕는 게, 괜히 힘만 드는 일이라고 생각 안 들어?
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] \..\..\..
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 하지만, \c[6]로나\c[0]넌 그렇지 않잖아? 그 말은 결국 이 사람들도 달라질 수 있다는 거 아냐?
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 나도 사실 저 사람들이랑 별반 다르다고 생각 안 해.
+\CBct[20]\m[CecilyShyAr]\plf\PRF\c[6]로나：\c[0] 나도 한 발만 잘못 디뎠으면 저렇게 됐을지 몰라.
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]세실리：\C[0] \..\..\..
+
+Cecily/QuestHikack14_2
+\CBmp[RufC14M3,20]\c[4]난민：\c[0] 내 음식 내놔! 지금 당장!
+\CBmp[RufC14F1,20]\c[4]난민：\c[0] 제발요! 은혜를 베풀어 주세요!
+
+Cecily/QuestHikack14_2_1
+\CBmp[Nur1,6]\c[4]수녀A：\c[0] 언니, 이거 좀 심상치 않은데.
+
+Cecily/QuestHikack14_2_2
+\CBmp[Nur2,20]\c[4]수녀B：\c[0] 여러분, 진정하세요!
+
+Cecily/QuestHikack14_2_2_1
+\CBmp[RufC14M3,5]\c[4]난민：\c[0] 내놔!
+\CBmp[RufC14M1,20]\c[4]난민：\c[0] 안 돼! 이건 내 거야!
+
+Cecily/QuestHikack14_WisOPT
+\m[fear]어떡하지? \optD[말려본다,위협한다<r=HiddenOPT1>]
+
+Cecily/QuestHikack14_2_3
+\CBmp[RufC14M3,5]\c[4]난민：\c[0] 죽어버려!
+
+Cecily/QuestHikack14_2_Stop0
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 아아... 큰일 났다!
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prh\C[4]세실리：\C[0] 야! 그만둬!
+
+Cecily/QuestHikack14_2_Stop1
+\CBmp[RufC14M3,5]\c[4]난민：\c[0] 가까이 오지 마!
+
+Cecily/QuestHikack14_2_4
+\CBmp[RufC14M3,5]\c[4]난민：\c[0]  내 거야! 전부 다 내 거야!
+\CBmp[Nur1,6]\c[4]수녀A：\c[0] \{꺄아아아아아!!!
+\SETpr[GrayRatNormalAr]\PRF\c[4]회색쥐：\c[0] 아가씨, 준비됐어요.
+\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 젠장! 가자!
+
+Cecily/QuestHikack14_WisOPTend0
+\CBct[20]\m[serious]\Rshake\c[6]로나：\c[0] \{그만해!
+
+Cecily/QuestHikack14_WisOPTend1
+\CBct[20]\m[angry]\Rshake\c[6]로나：\c[0] 내 옆에 있는 전사들 보여? 엄청 세 보이지?
+\CBct[20]\m[serious]\Rshake\c[6]로나：\c[0] 계속 말 안 들으면, 너희 전부 혼내줄 거야!
+
+Cecily/QuestHikack14_WisOPTend2
+\CBmp[RufC14M3,0]\SETpr[GrayRatNormalAr]\SETpl[CecilyWtfAr]\PLF\PRF ........?!
+\CBmp[RufC14M3,6]\plf\prf\c[4]난민：\c[0] 으으으으! 미안해요!
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]세실리：\C[0] 멈춰, 아직 물어볼 게 있어.
+\CBmp[RufC14M3,2]\plf\c[4]난민：\c[0] 뭐요?! 안 돼! 잠깐만, 난 억울해!!
+
+Cecily/QuestHikack14_WisOPTend3
+\CBct[20]\m[flirty]\Rshake\c[6]로나：\c[0] 하아...
+
+Cecily/QuestHikack14_KillWay1
+\board[사회 교육]
+목표 : 소란을 피우는 자들을 제압하라
+보상 : 없음
+의뢰인 : 세실리
+기한 : 완료 시까지
+
+################################################################# 14 to 15
+
+Cecily/QuestHikack14_to15_1
+\CBmp[RufC14end,6]\plf\c[4]난민：\c[0] 안 돼! 죽이지 마! 내가 잘못했어!
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]세실리：\C[0] 진정해. 난 그냥 어떻게 된 일인지 묻고 싶을 뿐이야...
+\CBmp[RufC14end,20]\plf\c[4]난민：\c[0] 어쩔 수 없었어요, 누가 시킨 거예요.
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\C[4]세실리：\C[0] \..\..\..
+\CBfB[1]\SETpl[CecilyShockedAr]\Lshake\C[4]세실리：\C[0] 뭐라고?!
+\CBmp[RufC14end,6]\plf\c[4]난민：\c[0] 누군가 소란을 일으키라고 했어요. 여기가 혼란스러울수록 보상을 많이 준다고 했어요.
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\C[4]세실리：\C[0] 그 누구가 누군데!!!
+\CBmp[RufC14end,20]\plf\c[4]난민：\c[0] 안 돼요! 더 이상 말하면 저 죽어요!
+\ph\CBfB[5]\..\..\..
+
+Cecily/QuestHikack14_to15_2
+\CBmp[RufC14end,6]\plf\c[4]난민：\c[0] \{으으으으!!!!
+
+Cecily/QuestHikack14_to15_3
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]세실리：\C[0] 죽고 싶은 거야? 정말 죽고 싶어?
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]세실리：\C[0] 아는 거 전부 말해! 안 그러면 바로 성도한테 보내주지!
+\CBmp[RufC14end,6]\plf\c[4]난민：\c[0] 안 돼! 죽이지 마! 전부 말할게요! 지금 말할게요!
+
+Cecily/QuestHikack14_to15_4
+\narr\..\..\..\..
+
+Cecily/QuestHikack14_to15_5
+\CBct[20]\m[confused]\PRF\c[6]로나：\c[0] 어... 무슨 얘기 중이에요?
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]회색쥐：\c[0] 아가씨...
+\CBfB[20]\SETpr[CecilyWtfAr]\Rshake\C[4]세실리：\C[0] 알아!
+\CBfB[20]\SETpl[CecilyAngryAr]\m[confused]\Lshake\prf\C[4]세실리：\C[0] 야, 로나! 이제 가자!
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 네!
+
+Cecily/QuestHikack14_to15_BRD
+\board[불타는 오크통으로 복귀]
+목표 : 불타는 오크통으로 돌아가기
+보상 : 없음
+의뢰인 : 세실리
+기한 : 완료 시까지
+
+Nun/Thanks
+\c[4]수녀：\c[0] 도와주셔서 감사합니다. 성도께서 당신의 길을 밝혀주실 거예요.
+
+########################################################################### qu15 in tavern
+
+Cecily/15to16_1
+\CBmp[Cecily,20]\SETpr[CecilyWtf]\plh\plf\Rshake\C[4]세실리：\C[0] 젠장! 이게 도대체 뭐야!
+
+Cecily/15to16_2
+\CBmp[Cecily,20]\SETpr[CecilyAngry]\plh\plf\Rshake\C[4]세실리：\C[0] 회색쥐! 당장 이 일 조사해!
+
+Cecily/15to16_3
+\CBmp[UniqueGrayRat,8]\SETpr[CecilyWtf]\SETpl[GrayRatConfused]\Lshake\prf\C[4]회색쥐：\C[0] 네, 아가씨.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어... 그래서 무슨 일인 거예요?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 음...
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 들어봐. 누군가 일부러 시바리스인과 노엘 사람들 사이를 이간질하고 있는 것 같아!
+
+Cecily/15to16_4
+\CBct[1]\m[shocked]\plf\PRF\c[6]로나：\c[0] 뭐라고요?! 일부러 그런 거예요? 왜 그런 짓을 하는 거죠?
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 아직 확실하진 않아. 그건 앞으로 우리가 밝혀야 할 일이야.
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 회색쥐가 뭔가 조사하러 가니까, 오늘 회의는 여기까지야.
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 제가 도울 일은 없을까요?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 지금은\..\..\..\..\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake 없어!
+\CBct[6]\m[confused]\plf\PRF\c[6]로나：\c[0] 아... 알겠어요.
+\BonMP[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\c[4]회색쥐：\c[0] ...저 다녀올게요.
+
+Cecily/15to16_5
+\CBmp[Cecily,6]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 야! 잠깐만!
+\CBmp[Cecily,6]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 그\..\..\.. 가는 길 조심하고...
+\BonMP[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\PRF\c[4]회색쥐：\c[0] ......
+
+########################################################################### qu16 in tavern2
+
+Cecily/16to17_opt
+다들 돌아온 거야?
+
+Cecily/16to17_1
+\CBct[3]\m[pleased]\Rshake\c[6]로나：\c[0] 아! 회색쥐가 돌아왔네!
+\CBmp[CecilyNormal,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 응, 돌아왔어.
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\c[4]회색쥐：\c[0] .......
+\CBct[2]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그래서 뭐 알아낸 거 있어?
+\CBmp[Cecily,20]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 확실히 말하긴 좀\..\..\..\..\..\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake 우리한텐 네 도움이 필요해.
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 뭘 하면 되는데?
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 너한테 대검파\c[6]아지트에\c[0]문서를 좀 훔쳐오라고 해야 해.
+\CBct[6]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 도...도둑질?! \c[4]대검파\c[0]？！
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 걱정하지 마. 걔네는 어차피 적이야.
+\CBct[6]\m[tired]\plf\PRF\c[6]로나：\c[0] 아니... 내 말은...
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\c[4]회색쥐：\c[0] ...로나는 무서워하는 거야. 전사가 아니니까.
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어...
+\CBmp[Cecily,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 오? 그래도 나는 네가 해낼 수 있을 거라고 생각해.
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 잘 들어, 이런 걸 해낼 수 있다면 넌 약한 사람이 아니야.
+\CBmp[Cecily,8]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 그리고 지금 우리가 믿을 수 있는 사람도 별로 없어. 이걸 해낼 수 있는 건 너뿐이야.
+
+Cecily/16to17_2
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어... 알겠어. 최대한 해볼게.
+\CBmp[Cecily,8]\cg[event_Coins]\SND[SE/Chain_move01.ogg]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 이거 받아.
+
+Cecily/16to17_3
+\CBct[20]\m[shocked]\plf\PRF\c[6]로나：\c[0] 에?! 
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 이 돈으로 준비 좀 해. 최대한 무장하고 가는 게 좋아.
+\CBct[3]\m[pleased]\plf\PRF\c[6]로나：\c[0] 고마워!
+\CBct[2]\m[confused]\plf\PRF\c[6]로나：\c[0] 그럼 어떤 걸 가져오면 돼?
+\CBmp[Cecily,20]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 최근 루드신드 상회랑\c[6]거래한 서류, \c[0]가능한 한 많이 챙겨와.
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 알겠어.
+
+Cecily/16to17_4
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 이제 나랑 회색쥐는 처리할 일이 더 있어.
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 그들의 본거지는 뒷골목 근처야. \c[6]대검파\c[0]는 네가 맡아줘.
+\CBct[3]\m[flirty]\plf\PRF\c[6]로나：\c[0] 응, 알겠어.
+\CBmp[Cecily,8]\SETpl[CecilyWtf]\Lshake\prf\C[4]세실리：\C[0] 가는 길 조심하고...
+
+Cecily/16to17_END_brd
+\board[서류 훔치기]
+목표：대검파\C[6]아지트에 들어가\C[0]거래 서류를 훔쳐오기
+보상 : 없음
+의뢰인 : 세실리
+수행가능횟수 : 1회
+누군가 시바리스 난민과 노엘 사람들 사이의 갈등을 의도적으로 조장하려 하고 있다.
+이 일엔 대검파가 관련되어 있으니, 그들의 소굴에 잠입해 관련 거래 서류를 훔쳐오자.
+
+Cecily/16to17_END
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 음.....\c[4]대검파\c[0]라...
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 내가 해낼 수 있을까?
+\CBct[6]\m[serious]\Rshake\c[6]로나：\c[0] 아니지! 정신 차리자! 할 수 있어, 난 할 수 있어!
+
+########################################################################### qu17 IN GangBase
+
+NoerGangBase/enter
+\cg[map_region_NoerRoad]\m[confused]\PRF\c[6]로나：\c[0] \..\..\..\..여기가 맞나?
+\cg[event_Sleep]\m[flirty]\PRF\c[6]로나：\c[0] 경계가 꽤 허술한 것 같은데...
+
+Nap/failed_onCecilyQuest0_Maani
+\SETpl[MaaniNormal]\Lshake\prf\C[4]마니：\C[0] 그녀를 남길 수 없어. 단 한 명도 살려두지 마.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]잡졸B：\C[0] 알겠어, 죽여버리자!
+
+Nap/failed_onCecilyQuest0_Bandit
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]잡졸A：\C[0] 근데 윗사람이 살아남는 사람 없게 하랬는데.
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]잡졸B：\C[0] 알겠어, 죽여버리자!
+
+NoerGangBase/SleepGuard
+\CBmp[SleepGuard,19]\m[confused]\c[6]로나：\c[0] 음...
+\CBmp[SleepGuard,12]\m[flirty]\c[6]로나：\c[0] 어라? 경비가 쉬고 있네? 운이 좋은걸!
+
+QuProg/17to18_1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 어디 보자...
+
+QuProg/17to18_2
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 음, 이게 장부 같은데? 이게 맞는 것 같아.
+
+########################################################################### 19 LONA要逃到BACK STREET
+
+QuProg/17to19_1
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] 음...
+
+QuProg/17to19_2
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\C[4]마니：\C[0] 진지하게 해, 웨인 씨.
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\C[4]마니：\C[0] 말해두지만\..\..\..네가 만든 혼란은 충분하지 않아.
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]웨인：\C[0] 부족하다고? 난 네가 시킨 대로 다 했어.
+\CBmp[Maani,20]\SETpl[MaaniAngry]\Lshake\prf\C[4]마니：\C[0] 우리가 말한\C[6]갈등\C[0]은 이런 게 아니야. 너희 때문에 주인이 실망했어.
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]웨인：\C[0] 그딴 게 네가 원한다고 바로 생기는 게 아니야! 시간이 필요하다고!
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\plf\Rshake\C[4]웨인：\C[0] 게다가 노엘 사람들 눈을 피해 이런 일 하려면, 원래 오래 걸릴 수밖에 없어!
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\prf\C[4]마니：\C[0] 그건 우리 쪽 문제가 아니야.
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] 좋아! 빠르고 잘 하길 원하면, 돈 더 내!
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] 값을 올리겠어. 싫으면 다른 사람 찾아!
+\CBmp[Maani,20]\SETpl[MaaniNormal]\Lshake\prf\C[4]마니：\C[0] \..\..\..
+\CBmp[Maani,8]\SETpl[MaaniAngry]\Lshake\prf\C[4]마니：\C[0] 잠깐\..\..\..
+
+QuProg/17to19_3
+\CBmp[GangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\C[4]웨인：\C[0] 뭐야? 설마 돈 없는 거 아냐?
+
+QuProg/17to19_4
+\CBct[6]\m[hurt]\Rshake\c[6]로나：\c[0] \{아야!!
+\CBmp[GangBoss,20]\SETpl[NoerGangBossAngry]\Lshake\prf\C[4]웨인：\C[0] 뭐야! 미쳤어?!
+
+QuProg/17to19_5
+\CBmp[Maani,20]\SETpr[MaaniAngry]\plf\Rshake\C[4]마니：\C[0] 쥐가 있다...
+\CBmp[GangBoss,20]\SETpl[NoerGangBoss]\Lshake\prf\C[4]웨인：\C[0] \{뭐?!
+\CBmp[GangBoss,20]\SETpl[NoerGangBossAngry]\Lshake\prf\C[4]웨인：\C[0] \{잡아! 살아있는 채로 잡아!
+
+QuProg/17to19_6
+\CBmp[GangElite,6]\SETpl[MobHumanWarrior]\Lshake\C[4]잡졸：\C[0] 보스, 우리 진짜로 윗사람들이랑 전쟁할 거예요?
+\CBmp[GangBoss,5]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] 걔 아니야, 멍청아! 뒤 방에 있는 그 쥐를 잡으라고!
+\CBct[1]\m[shocked]\plh\Rshake\c[6]로나：\c[0] 큰일났다!!
+
+QuProg/17to18_END
+\board[서류 훔치기]
+이곳을 빠져나가\c[6]불타는 오크통\c[0]으로 돌아가,
+\c[6]장부\c[0]를\c[4]세실리\c[0]에게 전달하자.
+
+########################################################################### 20
+
+QuProg/20_1
+\SETpl[NoerGangBossAngry]\Lshake\C[4]웨인：\C[0] 뒷골목으로 돌아갔다! 빨리 쫓아가!
+
+QuProg/20to21_1
+\CBct[6]\m[shocked]\Rshake\c[6]로나：\c[0] 큰일났다! 큰일났다! 큰일났다!
+
+QuProg/20to21_2
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\Rshake\C[4]웨인：\C[0] 저기 있다!
+\CBmp[Maani,8]\SETpl[MaaniNormal]\Lshake\prf\C[4]마니：\C[0] 어디서 본 적이 있는 것 같은데...
+
+QuProg/20to21_3
+\CBmp[GangBoss,2]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] 쟤가 누구야?!
+\CBmp[Maani,20]\SETpl[MaaniAngry]\Lshake\prf\C[4]마니：\C[0] 안 돼, 너무 어두워서 잘 안 보여.
+
+QuProg/20to21_4
+\CBmp[GangBoss,８]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] 젠장...
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] 야! 얘들아! 여기 있다!
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] \{죽여버려!!
+
+QuProg/20to21_5
+\CBct[6]\m[terror]\plh\Rshake\c[6]로나：\c[0] 어떡해? 어떡하지?
+
+QuProg/20to21_6
+\SETpl[MobHumanCommoner]\Lshake\C[4]잡졸：\C[0] 야! 여기 있다!
+
+QuProg/20to21_7
+\CBct[1]\m[terror]\plh\Rshake\c[6]로나：\c[0] 으으으악!!!
+
+QuProg/20to21_rg2Qmsg0
+여긴 안 돼!
+
+QuProg/20to21_Exit0
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] !!!!!
+\CBmp[EndDn1,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]잡졸：\C[0] 야, 잡았다!
+\CBmp[EndDn2,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]잡졸：\C[0] 얌전히 항복해. 그럼 고통 없이 끝내줄게.
+
+QuProg/20to21_Exit1
+\CBmp[EndUp1,20]\SETpl[MobHumanCommoner]\Lshake\C[4]잡졸：\C[0] 이 죽일 놈아, 어디까지 도망칠 수 있을 것 같아?!
+\CBmp[EndUp2,20]\SETpr[MobHumanCommoner]\Rshake\C[4]잡졸：\C[0] 죽여버려!
+
+QuProg/20to21_Exit2
+\CBct[6]\m[bereft]\Rshake\c[6]로나：\c[0] 미안해요! 미안해요! 미안해요!
+\CBct[20]\m[bereft]\Rshake\c[6]로나：\c[0] 제가 잘못했어요... 제발, 한 번만 살려주세요...
+
+QuProg/20to21_Exit3
+\CBmp[EndUp1,20]\SETpl[MobHumanCommoner]\Lshake\C[4]잡졸：\C[0] 누구야! 뭐야!
+\CBmp[Cecily,20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]세실리：\C[0] 죽이겠다고? 우리 허락은 받았어?
+\CBmp[GrayRat,20]\SETpr[GrayRatNormalAr]\plf\Rshake\C[4]회색쥐：\C[0] 늦어서 미안해.
+\CBct[1]\m[shocked]\Rshake\c[6]로나：\c[0] 너희가\..\..\..\m[triumph]날 구하러 온 거야?
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]세실리：\C[0] 근처에 있던 참이었어. 여긴 우리한테 맡기고 넌 빨리 도망쳐.
+
+QuProg/20to21_Exit3_adam0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\C[4]아담：\C[0] 야! 이건 미리 얘기 안 했잖아? 돈 더 받아야겠는데.
+\CBmp[Cecily,20]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]세실리：\C[0] 좋아, 저 여자애 잘 지켜.
+
+QuProg/20to21_SE
+\CBmp[GangBoss,20]\SETpr[NoerGangBoss]\Rshake\C[4]웨인：\C[0] 잠깐만\..\..\..
+\CBmp[GangBoss,20]\SETpr[NoerGangBossAngry]\Rshake\C[4]웨인：\C[0] 설마? 쟤네가 쳐들어오는 거야?
+\CBmp[Maani,8]\SETpl[MaaniNormal]\PLF\prf\C[4]마니：\C[0] ........
+\CBmp[Maani,8]\SETpl[MaaniAngry]\Lshake\prf\C[4]마니：\C[0] 맞아...
+\CBmp[GangBoss,6]\SETpr[NoerGangBossAngry]\plf\Rshake\C[4]웨인：\C[0] 농담이지!?
+
+QuProg/20to21_Exit4BRD
+\board[탈출]
+이곳을 빠져나가\c[6]불타는 오크통\c[0]으로 돌아가,
+\c[6]장부\c[0]를c[4]세실리\c[0]에게 전달하자.
+
+########################################################################### 21 and 18
+
+QuProg/18_begin1
+\CBct[6]\m[flirty]\PRF\c[6]로나：\c[0] 어... 나 돌아왔어.
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 아, 로나.
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormal]\Lshake\prf\C[4]회색쥐：\C[0] 무사히 돌아왔구나...
+\CBct[3]\m[triumph]\plf\PRF\c[6]로나：\c[0] 맞아, 무사히 돌아왔어!
+\CBct[3]\m[normal]\plf\PRF\c[6]로나：\c[0] 이게 네가 찾던 거 맞지?
+
+QuProg/18_begin2
+\CBmp[Cecily,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 음... 어디 보자...
+
+QuProg/18_begin3
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\PLF\C[4]세실리：\C[0] ........
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 그래서... 뭔가 알아낸 거 있어?
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\PLF\prf\C[4]세실리：\C[0] 음... 숫자만 가득해\..\..\..\..\..\..\SETpl[CecilyShy]\Lshake 모르겠어, 이해가 안 돼...
+\CBct[8]\m[flirty]\plf\Rshake\c[6]로나：\c[0] 에? 어...
+\CBct[3]\m[normal]\plf\PRF\c[6]로나：\c[0] 좋아! 우리 같이 한 번 살펴보자!
+
+QuProg/18_begin3_narr
+\narr로나가 세실리와 함께 장부를 살펴본다\..\..\..
+\narr거기엔\c[6]루드신드 상회\c[0]와의 금전 거래 내역이 적혀 있다\..\..\..
+\narr그리고 이 기간 동안 성 안팎에서 벌어진 주요 소동들의 발생 시각도 정리돼 있다\..\..\..
+
+QuProg/18to22_1
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]세실리：\C[0] 보아하니 이 모든 일엔\c[6]루드신드 상회\c[0]가 얽혀 있는 것 같아.
+
+QuProg/21to43_1
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]세실리：\C[0] 보아하니 이 모든 일엔\c[6]마일로\c[0]가 관련돼 있는 것 같아.
+
+QuProg/18_begin4
+\CBct[8]\m[flirty]\plf\PRF\c[6]로나：\c[0] ......에?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 그럼... 상회 쪽에서 일부러 성 안팎에 갈등을 부추긴 거야?
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 난민들끼리도 싸우게 만들었다고?!
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 내 예상이 맞았어. 역시 \c[6]루드신드\c[0]쪽에서 꾸민 일이네.
+\CBct[20]\m[shocked]\plf\Rshake\c[6]로나：\c[0] 근데 대체 왜?!
+
+QuProg/18_begin5
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\C[4]회색쥐：\C[0] 안정. 저들은 노엘 마을 내부의 안정을 위해 이런 짓을 하는 거야...
+\CBmp[Cecily,5]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 말도 안 돼!
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatConfused]\plf\Rshake\C[4]회색쥐：\C[0] 아가씨, 이제 그만 두시는 게... 우린 이런 걸 바꿀 수 없어요.
+\CBmp[Cecily,20]\SETpl[CecilyAngry]\Lshake\prf\C[4]세실리：\C[0] 닥쳐! 난 절대 포기 안 해!
+\CBmp[UniqueGrayRat,8]\SETpr[GrayRatNormal]\plf\Rshake\C[4]회색쥐：\C[0] \..\..\..죄송합니다, 제가 선을 넘었네요.
+\CBct[8]\m[confused]\PRF\c[6]로나：\c[0] .......
+
+QuProg/18_begin6
+\CBmp[Cecily,20]\SETpl[CecilyNormal]\Lshake\C[4]세실리：\C[0] 로나, 이건 네가 받아야 할 거야.
+
+QuProg/18_begin7
+\CBct[3]\m[shocked]\plf\Rshake\c[6]로나：\c[0] !!!
+\CBct[3]\m[pleased]\plf\PRF\c[6]로나：\c[0] 고마워!
+
+########################################################################### QuProgSaveCecily 23 to 24    43 to 44 # DEV
+
+Cecily/22-43-PLUS
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] 어...
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 아, 로나.
+\CBid[-1,6]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 위험한 일만 시켜서 미안해. 지금 우리가 믿을 수 있는 사람은 너뿐이야.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 음\..\..\..\m[pleased]괜찮아!
+\CBct[20]\m[normal]\plf\PRF\c[6]로나：\c[0] 게다가 너 덕분에 돈도 많이 벌었으니까.
+\CBid[-1,8]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 응\..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 왜 그래?
+\CBid[-1,6]\SETpl[CecilyShy]\Lshake\prf\C[4]세실리：\C[0] 아니야, 지금은 말하지 않을래.
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] ...응?
+
+####################################################################################dev 23
+
+Cecily/45to46
+\CBct[8]\m[flirty]\plf\c[6]로나：\c[0] ......
+\CBid[-1,20]\SETpl[CecilyNormal]\Lshake\prf\C[4]세실리：\C[0] 뭐?
+
+
+Cecily/23to24_opt
+DEV
+
+#dev 23
+Cecily/23to24_0
+asdasdasd

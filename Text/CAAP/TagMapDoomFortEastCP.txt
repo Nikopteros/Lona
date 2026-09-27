@@ -1,0 +1,104 @@
+thisMap/OvermapEnter
+Puesto de Control Este \optB[Cancelar,Entrar]
+
+############################################################################### Quest Begin
+
+CPofficer/overrunning_begin0
+\CBmp[cpSGT,2]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡¿Qué haces aquí?!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Eh?! ¡¿Qué pasa?!!!
+\CBmp[cpSGT,1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Estamos bajo ataque! ¡Es peligroso aquí! ¡Los civiles deberían estar en sus casas!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡Ay!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Espera!
+\CBct[2]\m[wtf]\plf\Rshake\c[6]Lona：\C[0]     ¡¿Qué?! ¡¿Ahora qué?!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡No podremos contenerlos! ¡Tú! ¡Ve a \c[4]la Fortaleza de Roca\C[0] y pide refuerzos!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Diles que no aguantaremos sin ayuda! ¡Corre!
+\CBct[2]\m[terror]\plf\Rshake\c[6]Lona：\C[0]     ¡Entendido!
+
+DFOfficer/overrunning_begin1
+\CBmp[cpSGT,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Eh? ¿Qué pasa, pequeña?
+\CBct[20]\m[terror]\plf\Rshake\c[6]Lona：\C[0]    ¡El Puesto de Control Este está bajo ataque!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¡Me enviaron por ayuda!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¿El Puesto de Control Este? ¿Los atacaron de nuevo?
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Maldición! ¡No tenemos hombres!
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Tú! ¡Vienes con nosotros!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué? ¿Yo?!
+\CBmp[cpSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Rápido! ¡Toma un arma!
+\CBct[8]\m[confused]\plf\PRF\c[6]Lona：\C[0]    Pero si solo estaba pasando por aquí...
+
+DFOfficer/overrunning_begin1_board
+\board[Puesto de Control Este]
+Misión: Defender el Puesto de Control Este
+Recompensa: Desconocida
+Cliente: Guardia del Puesto de Control Este
+Regresa al Puesto de Control Este y ayuda a los soldados.
+
+CPofficer/overrunning_begin2
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡La ayuda ha llegado!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Bien! ¡No perdamos tiempo!
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Hay que contraatacar!
+\CBmp[Cannon1,19]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Pequeña! ¡Tú cargarás los proyectiles para la artillería! ¡Rápido!
+\CBct[2]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Entendido!
+
+CPofficer/overrunning_begin3_fireCannon
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¡Listo!!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Dispara! ¡Rápido!!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]Lona：\C[0]    ¿No hay que apuntar?
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    No hace falta. ¡Los monstruos le temen al sonido del disparo y al olor a pólvora!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Entendido!
+
+CPofficer/overrunning_begin3_clearNarr0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Victoria!
+\m[tired]\plf\PRF\c[6]Lona：\C[0]    Uff....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Los de atrás se asustaron! ¡Huyeron!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Matad a los que quedan!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    Alto\..\..\.. ¡¿Qué es eso?!
+\m[confused]\plf\PRF\c[6]Lona：\C[0]    ¿Qué? ¿Dónde?
+
+CPofficer/overrunning_begin3_clearNarr1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡¿Qué clase de monstruo es ese?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Ayúdanos! ¡Debemos vencer!
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡Vale!
+
+CPofficer/overrunning_begin4
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Victoria! ¡Sobrevivimos!
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¡¿Se acabó?!
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    Vivimos para luchar otro día...
+\m[tired]\plf\PRF\c[6]Lona：\C[0]    Uff...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    Luchaste con valentía, pero no tenemos nada con qué recompensarte.
+\m[flirty]\plf\PRF\c[6]Lona：\C[0]    Ohh... Vamos, no importa...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    Hmm\..\..\.. ¡Entonces toma esto!
+\m[shocked]\plf\Rshake\c[6]Lona：\C[0]    ¿Qué es?
+
+CPofficer/overrunning_begin5
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    No tenemos dinero, pero armas nos sobran.
+\m[triumph]\plf\Rshake\c[6]Lona：\C[0]    ¡Gracias!
+
+CPofficer/InfoHere
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona：\C[0]    ¿Qué pasó aquí?
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    Primero esos pieles verdes, luego esos monstruos.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    \c[6]Carne\C[0], el olor de sus cuerpos se siente desde lejos.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    Sus cuerpos se regeneran extremadamente rápido, son muchos más que nosotros, y no tenemos forma eficaz de detenerlos.
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¿Cuánto más podremos aguantar?
+\CBct[2]\m[sad]\plf\PRF\c[6]Lona：\C[0]    .....
+
+CPofficer/QuestFailed
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]Guardia：\C[0]    ¡Oh, no!
+\SETpr[Mreg_pikeman]\plf\PRF\c[4]Soldado：\C[0]    ¡Retirada! ¡No podemos contenerlos más!
+
+CPofficer/DuringQuprogQmsg
+¡Rápido, rápido!
+
+lona/WithAmmoQmsg0
+Proyectil listo
+
+lona/WithAmmoQmsg1
+Cargado
+
+cannon/LoadedQmsg0
+Cargado
+
+cannon/FiredQmsg0
+Disparando
+
+cannon/OOAQmsg0
+No cargado

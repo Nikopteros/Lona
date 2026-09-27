@@ -1,0 +1,934 @@
+PageUp/item_name
+Previous Page
+
+PageUp/description
+\}Scrolls to your previous Skill Layout keys.\n
+
+PageDown/item_name
+Next Page
+
+ChainMaceNormal/item_name
+Meatspin
+
+ChainMaceNormal/description
+\}It's meat spinning time!\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Moveable after a charging period.\n
+\C[6]Striking.\n
+\C[1]Costs STA.\n
+\C[2]Ignores shields.\n
+
+PageDown/description
+\}Scrolls to your next Skill Layout keys.\n
+
+BasicTailBash/item_name
+Tail Whip
+
+BasicTailBash/description
+\}Look Pa, no hands!\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Knockback.\n
+\C[6]Striking.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+BasicSaintJudgment/item_name
+Judgment
+
+BasicSaintJudgment/description
+\}Decide the fate of all Sins, Lies, and\n
+heretics with the Mallet of Vengeance.\n
+\C[6]Damage is affected by WIS, ATK, and CON.\n
+\C[6]Decreases target's DEF and SUR.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Slows target, Stun, Striking, Charge.\n
+
+BasicProtectShield/item_name
+Holy Force Field
+
+BasicProtectShield/description
+\}"For you shall protect the children\n
+of the Saint, Sister..."\n
+\C[6]Conjures a magical shield on the\n
+NPC/creature at the targeted location.\n
+\C[6]Shielding effect is affected by CON.\n
+\C[1]Costs STA.\n
+
+BasicSaintSmite/item_name
+Sacred Smite
+
+BasicSaintSmite/description
+\}Punish all blasphemers and show\n
+them the might of the Saint!\n
+\C[6]Damage is affected by WIS, ATK, and CON.\n
+\C[6]Attacks at the targeted location.\n
+\C[6]Striking.\n
+\C[1]Costs STA.\n
+
+KatanaNormalHold/item_name
+Swift Slash
+
+KatanaNormalHold/description
+\}Unsheath your blade and let your enemies know it's nothing personal...\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Slashing, Charge.\n
+\C[1]Costs STA.\n
+\n
+\C[2]Hold key to "charge" your attack.\n
+\C[2]Deals extra damage that ignores target's DEFense when fully charged.\n
+
+KatanaHeavy/item_name
+Crescent Moon Strike
+
+KatanaHeavy/description
+\}Only those who have studied "The Blade" can perform such a technique...\n
+That won't stop you from trying though!\n
+\C[6]Wide frontal attack that hits several enemies.\n
+\C[6]Slashing.\n
+\C[1]Costs STA.\n
+
+KatanaControl/item_name
+Flashing Sword
+
+KatanaControl/description
+\}A sharp blade parry.\n
+For you are already dead.\n
+Dash through the slaughter...\n
+\C[6]Blocks incoming attacks for a short time.\n
+\C[6]Attack two tiles where you are facing.\n
+\C[6]Slashing, Charge.\n
+\C[1]Costs STA.\n
+\n
+\C[2]Lona dashes through her target on a successful\n
+\C[2]hit if there is a free tile behind them.\n
+\n
+\n
+\n
+\C[0]Haiku.\n
+
+BasicBattleStandard/item_name
+Flag of Justice
+
+BasicBattleStandard/description
+\}"Under the guidance of the Saint,\n
+we are stronger TOGETHER!"\n
+\C[6]Heals nearby companions.\n
+\C[6]Healing effect is affected by CON.\n
+\C[6]Buffs companions' WIS, SUR, DEF, ATK, and Mood while active.\n
+\C[6]Hold key to cast.\n
+\C[1]Costs STA.\n
+
+BasicNunHeal/item_name
+Mend Soul
+
+BasicNunHeal/description
+\}"If you fools keep squirming around, I WON'T heal you!"\n
+\C[6]Heals the NPC/creature in front of the direction\n
+\C[6]Lona is facing.\n
+\C[6]Healing effect is affected by CON.\n
+\C[6]Hold key to cast.\n
+\C[1]Costs STA.\n
+
+BasicAbomGrab/item_name
+Tendril Whip
+
+BasicAbomGrab/description
+\}Show the world what crawls under your skin...\n
+\C[6]Swing your tendrils and attack where you are facing.\n
+\C[2]Single tap of ability's key propels Lona\n
+\C[2]towards the targeted area.\n
+\n
+\C[4]Hold key to "charge" your appendage.\n
+\C[6]Once fully charged, Lona stays in place and\n
+\C[6]flail her tentacles at the targeted area.\n
+\C[6]Anyone that is unfortunate to be in the way of\n
+\C[6]her tentacles will be \C[2]"Grappled"\C[6]...\n
+\C[2]Grappled targets are pulled towards you and\n
+\C[2]have a high chance of being stunned.\n
+\C[1]Costs STA and HP.\n
+\C[6]Stun, Uninterruptible.\n
+
+BasicAbomEatDed/item_name
+Desecrate
+
+BasicAbomEatDed/description
+\}Defile the flesh of the fallen...\n
+\C[4]Lona must be standing on top of a \C[6]fresh\n
+\C[4]corpse to make use of this ability.\n
+\C[1]Decreases Morality per successful use.\n
+\C[1]Costs STA and Mood.\n
+\n
+\C[0]Infestation\n
+\C[0]"Redefine evolution..."\n
+\C[2]Summons a monster from the chosen remains.\n
+\C[6]Stats of summoned NPCs are affected by\n
+\C[6]corpse's previous stats.\n
+\n
+\C[0]Devour Remains\n
+\C[0]"Hunt, kill, consume..."\n
+\C[4]Lona devours corpses to regenerate herself.\n
+\C[2]Eating corpses will increase HP and STA.\n
+\C[6]Hold key to cast.\n
+
+SaintSymNormal/item_name
+Exorcise
+
+SaintSymNormal/description
+\}Banish all Evil, Lies, and false Gods\n
+in the name of the Saint!\n
+\C[6]Large AoE Stun.\n
+\C[1]Costs large amount of STA.\n
+\C[6]Hold key to cast.\n
+
+BroadSwordNormal/item_name
+Cleave
+
+BroadSwordNormal/description
+\}\n
+\C[6]Wide frontal attack that hits several enemies.\n
+\C[6]Moveable after a charging period.\n
+\C[6]Uninterruptible slashing attack.\n
+\C[1]Costs STA.\n
+
+TeslaStaffNormal/item_name
+Electric Arc
+
+TeslaStaffNormal/description
+\}"I have always been ahead of my time."\n
+\C[6]Shoot bolts of lightning at the direction you're facing.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Hold key to cast.\n
+\C[6]Slows target.\n
+\C[1]Costs STA and Mood.\n
+\n
+\n
+\C[0]UNLIMITED POWAH!!!.\n
+
+TeslaBookHeavy/item_name
+Atmospheric Discharge
+
+TeslaBookHeavy/description
+\}"All people everywhere should have free energy sources."\n
+\C[6]Rain down thunder at a targeted area.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Slows target.\n
+\C[1]Costs STA and Mood.\n
+
+TeslaBookControl/item_name
+Tesla Coil
+
+TeslaBookControl/description
+\}"Be alone, that is the secret of invention;\n
+be alone, that is when ideas are born."\n
+\C[6]Summons a single antenna at the targeted location.\n
+\C[6]Only 1 antenna can be summoned at a time.\n
+\C[1]Costs STA and Mood.\n
+
+PickAxeNormal/item_name
+Dig
+
+PickAxeNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+SickleNormal/item_name
+Slash
+
+SickleNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Slashing.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+BasicDeepone/item_name
+Awaken
+
+BasicDeepone/description
+\}Transform between your human or Sea Witch\n
+form.\n
+\C[5]Lona will become and remain naked during\n
+her Sea Witch form.\n
+\C[2]The Sea Witch form temporarily grants Lona\n
+the "Semen Demon" Trait.\n
+\C[1]The metamorphosis from the Sea Witch back\n
+to Lona's human form will cause an emergence\n
+of ill and severe adverse effects.\n
+\C[6]Hold key to cast.\n
+
+DeeponeHeavy/item_name
+Summon Siren
+
+DeeponeHeavy/description
+\}"Maidens of the deep sea!"\n
+"Heed my call..."\n
+"Rally to me, and defend your Goddess!"\n
+\C[6]Summons a Deepone minion near your location.\n
+\C[6]Stats of summoned NPCs are affected by WIS.\n
+\C[6]Lona can only have 2 summoned NPCs at a time.\n
+\C[1]Costs STA.\n
+\C[6]Hold key to cast.\n
+
+MusketHeavyRLD/item_name
+Reload
+
+MusketHeavyRLD/description
+\}Loads a new bullet in your firearm. Groovy...\n
+\C[1]Costs STA.\n
+\C[6]Hold key to cast.\n
+
+TalkieControl/item_name
+Fire from the sky
+
+TalkieControl/description
+\}Rain justice from above with a click of a button!\n
+\C[1]Costs STA and Mood.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Explosion.\n
+\C[6]Stun.\n
+\C[6]Cannot move when activated.\n
+
+LanternHeavy/item_name
+Scorch
+
+LanternHeavy/description
+\}Burn, monster!\n
+\C[1]Costs STA.\n
+\C[6]Burns any target in front of you.\n
+\C[6]Damage is affected by SUR.\n
+\C[6]Hold key to cast.\n
+
+MusketHeavy/item_name
+Fire weapon
+
+MusketHeavy/description
+\}This... is my BOOMSTICK!\n
+\C[6]Shoots at the targeted location.\n
+\C[6]Hold key to aim, release key to fire.\n
+\C[1]Must reload after each shot.\n
+\C[1]Costs STA to shoot and reload.\n
+\C[1]Hold key to load a new bullet after firing.\n
+\C[6]HP Damage is affected by WIS.\n
+\C[6]STA Damage is affected by ATK.\n
+\C[6]Slow... Like a primitive screwhead.\n
+
+BasicSteal/item_name
+Steal
+
+BasicSteal/description
+\}I'm not doing anything wrong!\n
+I just want to live.\n
+\C[6]Success chance based on SCU.\n
+\C[6]Success chance affected by target's sensor.\n
+\C[6]Only usable on sentient NPCs/creatures.\n
+\C[1]Costs STA.\n
+\C[6]Hold key to cast.\n
+\C[6]Ambush.\n
+
+BasicAssemblyCall/item_name
+Rally Trumpet
+
+BasicAssemblyCall/description
+\}Teammates move towards Lona.\n
+Hold the \C[6]Sprint Key\C[0] to have teammates\n
+stay in position.\n
+
+BasicFuckerGrab/item_name
+Juicing
+
+BasicFuckerGrab/description
+\}All men are my type... ❤️\n
+\C[6]Target is forced into sex battle.\n
+\C[6]Unable to target those that cannot make love.\n
+\C[1]Costs STA.\n
+\C[6]Hold key to cast.\n
+\C[6]Ambush.\n
+\n
+\C[0]Press the \C[4]Arrow Keys\C[0]\n
+while casting to choose a position.\n
+\C[6]None： Random (RNG)\n
+\C[6]Up： Vaginal\n
+\C[6]Down： Anal\n
+\C[6]Left and Right： Mouth\n
+
+BasicSetDarkPot/item_name
+Dark Cauldron
+
+BasicSetDarkPot/description
+\}You gotta do the cooking by the book!\n
+\C[2]Creates a dark cauldron at the area you're facing.\n
+\C[2]Interact with the cauldron to cook with it.\n
+\C[6]Requires 1 Wooden Club.\n
+\C[1]Required item is destroyed after skill is cast.\n 
+\C[1]Costs STA.\n
+\C[6]Unusable during combat.\n
+\C[6]Hold key to cast.\n
+
+DebugPrintChar/item_name
+DebugTarget
+
+DebugPrintChar/description
+DevTool
+
+sys_normal/item_name
+Ability 1
+
+sys_normal/description
+\}\n
+\C[1]Ability is unusable.\n
+
+sys_heavy/item_name
+Ability 2
+
+sys_heavy/description
+\}\n
+\C[1]Ability is unusable.\n
+
+sys_control/item_name
+Ability 3
+
+sys_control/description
+\}\n
+\C[1]Ability is unusable.\n
+
+BasicTrapItem/item_name
+Create Trap
+
+BasicTrapItem/description
+\}I don't like fighting my enemies face to face.\n
+\C[6]Destroys the item in the EXT-1~5 item slot\n
+to create a trap at the direction you're facing.\n
+\C[2]Damage dealt by the trap is affected by\n
+SUR and item's weight.\n
+\C[1]Costs STA.\n
+\C[6]Hold key to cast.\n
+\C[6]Shift：\C[0] Automatically pick up a rock and use as a trap.\n
+
+BasicQuickExt1/item_name
+Use EXT-1
+
+BasicQuickExt1/description
+\}\n
+\C[2]Use item in EXT-1 slot.\n
+\C[6]Ctrl：\C[0] Discard EXT-1 item.\n
+\C[6]Shift：\C[0] Use EXT-1 item's skill.\n
+
+BasicQuickExt2/item_name
+Use EXT-2
+
+BasicQuickExt2/description
+\}\n
+\C[2]Use item in EXT-2 slot.\n
+\C[6]Ctrl：\C[0] Discard EXT-2 item.\n
+\C[6]Shift：\C[0] Use EXT-2 item's skill.\n
+
+BasicQuickExt3/item_name
+Use EXT-3
+
+BasicQuickExt3/description
+\}\n
+\C[2]Use item in EXT-3 slot.\n
+\C[6]Ctrl：\C[0] Discard EXT-3 item.\n
+\C[6]Shift：\C[0] Use EXT-3 item's skill.\n
+
+BasicQuickExt4/item_name
+Use EXT-4
+
+BasicQuickExt4/description
+\}\n
+\C[2]Use item in EXT-4 slot.\n
+\C[6]Ctrl：\C[0] Discard EXT-4 item.\n
+\C[6]Shift：\C[0] Use EXT-4 item's skill.\n
+
+BasicQuickExt5/item_name
+Use EXT-5
+
+BasicQuickExt5/description
+\}\n
+\C[2]Use item in EXT-5 slot.\n
+\C[6]Ctrl：\C[0] Discard EXT-5 item.\n
+\C[6]Shift：\C[0] Use EXT-5 item's skill.\n
+
+FireBookControl/item_name
+Bombardment
+
+FireBookControl/description
+\}Close your eyes and cover your ears!\n
+FIRE IN THE HOLE!\n
+\C[6]Bombard the targeted location.\n
+\C[1]Costs STA and Mood.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Explosion.\n
+\C[6]Stun.\n
+\C[6]Slows target.\n
+
+FireBookHeavy/item_name
+Wall of Fire
+
+FireBookHeavy/description
+\}A barrier of flames should protect me\n
+from bad guys and viruses!\n
+\C[6]Conjure up a wall of flames at the selected location.\n
+\C[1]Costs STA and Mood.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Striking.\n
+\C[6]Slows target.\n
+
+FireStaffNormal/item_name
+Fireball
+
+FireStaffNormal/description
+\}Catch this!\n
+\C[1]Costs STA and Mood.\n
+\C[6]Ranged, Explosion\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Hold key to cast.\n
+\C[6]Striking.\n
+\C[6]Slows target.\n
+
+WaterStaffNormal/item_name
+Water Shot
+
+WaterStaffNormal/description
+\}In your face!\n
+\C[1]Costs STA and Mood.\n
+\C[6]Ranged, Knockback\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+WaterBookHeavy/item_name
+Water Nova
+
+WaterBookHeavy/description
+\}Get away from me!\n
+\C[6]Releases a shock wave around you.\n
+\C[1]Costs STA and Mood.\n
+\C[6]Knockback.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Hold key to cast.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+DeeponeControl/item_name
+Mist
+
+DeeponeControl/description
+\}You can't see me!\n
+\C[6]Summons a cloud of mist at the designated area.\n
+\C[1]Costs STA and Mood.\n
+
+WaterBookControl/item_name
+Water Tornado
+
+WaterBookControl/description
+\}I believe I can make you fly!\n
+\C[6]Summons a water tornado at the selected location.\n
+\C[1]Costs STA and Mood.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+BasicLetterMenu/item_name
+Read Mail
+
+BasicLetterMenu/description
+\}\n
+\C[1]Opens the mail menu.\n
+
+BasicThrow/item_name
+Throw
+
+BasicThrow/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Ambush.\n
+\C[2]Draws the attention of NPCs/creatures nearby\n
+and temporarily distracts them.\n
+
+BasicSetCamp/item_name
+Set Camp
+
+BasicSetCamp/description
+\}\n
+\C[2]Rest and recover STAmina.\n
+\C[1]Costs food.\n
+\C[6]Unusable during combat.\n
+\C[6]Unusable at some specific locations.\n
+
+BasicNap/item_name
+Rest
+
+BasicNap/description
+\}\n
+\C[0]Relax\n
+\C[4]Relax can be used anytime/anywhere.\n
+This will increase STAmina while also\n
+decreasing Food. Has no effect when Food <10.\n
+\n
+\C[0]Sleep\n
+\C[4]Sleep by holding the \C[6]Sprint Key\C[4].\n
+\C[2]Sleeping greatly recovers STAmina.\n
+\C[5]Time passes.\n
+\C[1]Decreases Food.\n
+\C[6]Unusable during combat.\n
+\C[6]Unusable at some specific locations.\n
+
+BasicSlipped/item_name
+Slip and fall
+
+BasicSlipped/description
+\}\n
+\C[6]\{KYAAAH!!!\n\}
+\C[1]Lona slips and hits her head on the floor...\n
+When activated, sets STAmina to -100\n
+and Lona will faint.
+
+BasicPickRock/item_name
+Pick up Rocks
+
+BasicPickRock/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Pick up a rock.\n
+\C[2]Adds 1 Rock to your inventory.
+
+BasicNeeds/item_name
+Basic needs
+
+BasicNeeds/description
+\}\n
+\C[6]Unusable in combat.\n
+\C[6]Can execute the following commands below.\n
+\C[2]Bathe\n
+\C[2]Relieve yourself (Urinate and Poop)\n
+\C[2]Masturbate\n
+\C[2]Clean privates\n
+\C[2]Collect breast milk\n
+\C[2]Attempt to break your restraints\n
+
+BasicSubmit/item_name
+Surrender
+
+BasicSubmit/description
+\}\n
+\C[6]Give up and surrender?!\n
+\C[1]Lona drops all of her current equipment\n
+and is stunned in place.\n
+
+AbominationTotemControl/item_name
+Summon Tentacle
+
+AbominationTotemControl/description
+\}"...At least it's on my side."\n
+\C[6]Summons a tentacle monster in front of you.\n
+\C[6]Stats of summoned NPCs are affected by WIS.\n
+\C[1]Costs STA and Mood.\n
+\C[6]Hold key to cast.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+AbominationTotemHeavy/item_name
+Malicious Spore
+
+AbominationTotemHeavy/description
+\}\n
+\C[6]Summons a malicious spore in front of you.\n
+\C[6]The spore travels forward a short range before exploding.\n
+\C[6]Once exploded, a pool of mysterious liquid will spray out.\n
+\C[6]The mysterious liquid causes DOT to those who stand on it.\n
+\C[6]Stats of summoned NPCs are affected by WIS.\n
+\n
+\C[1]Costs STA and Mood.\n
+\C[6]Hold key to cast.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+AbominationTotemWorm/item_name
+Summon Leech
+
+AbominationTotemWorm/description
+\}\n
+\C[1]Costs STA and Mood.\n
+\C[6]Summons a worm-like monster in front of you.\n
+\C[6]Stats of summoned NPCs are affected by WIS.\n
+\C[6]Hold key to cast.\n
+\C[6]Striking.\n
+
+BoneStaffNormal/item_name
+Corrosion Orb
+
+BoneStaffNormal/description
+\}\n
+\C[1]Costs STA and Mood.\n
+\C[6]Shoot out a Corrosion Orb that explodes on contact.\n
+\C[6]Once exploded, a puddle of mysterious liquid will spray out.\n
+\C[6]The mysterious liquid causes DOT to those who stand on it.\n
+\C[6]Ranged.\n
+\C[6]Damage is affected by WIS.\n
+\C[6]Hold key to cast.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+DaggerHeavy/item_name
+Attack Weak Spot
+
+DaggerHeavy/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Ignores shields.\n
+\C[6]Piercing.\n
+\C[6]Ambush.\n
+\C[6]Slows target.\n
+
+WhipNormal/item_name
+Whip Lash
+
+WhipNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]AoE attack at the direction you're facing.\n
+\C[6]Striking.\n
+\C[6]Stun.\n
+
+BasicNormal/item_name
+Punch
+
+BasicNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Striking.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+BasicHeavy/item_name
+Heavy Punch
+
+BasicHeavy/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Striking.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+BasicControl/item_name
+Tackle
+
+BasicControl/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Lona rams into her target, knocking them back.\n
+\C[6]Uninterruptible.\n
+\C[6]Hold key to cast.\n
+
+BasicDodge/item_name
+Dodge
+
+BasicDodge/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Ignore attacks at a certain rate of frames.\n
+
+SabarNormal/item_name
+Saber Slash
+
+SabarNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Slashing, Armor-piercing.\n
+\C[2]Ignores DEFense.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+ShortSwordNormal/item_name
+Slash
+
+ShortSwordNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Slashing.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+WoodenClubNormal/item_name
+Swing Club
+
+WoodenClubNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile where you are facing.\n
+\C[6]Striking.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+WoodenSpearNormal/item_name
+Stab
+
+WoodenSpearNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack two tiles where you are facing.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+WoodenSpearHeavy/item_name
+Lance Whirlwind
+
+WoodenSpearHeavy/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at all directions.\n
+\C[6]Striking, Uninterruptible.\n
+\C[6]Slows target.\n
+
+
+LongBowNormal/item_name
+Shoot
+
+LongBowNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Ranged.\n
+\C[6]Striking.\n
+\C[6]Slows target.\n
+
+LongBowHeavy/item_name
+Rain of Arrows
+
+LongBowHeavy/description
+\}\n
+\C[6]Fires a rain of arrows at the targeted location.\n
+\C[1]Costs STA.\n
+\C[6]Hold key to cast.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+LongBowControl/item_name
+Snipe
+
+LongBowControl/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Hold key to cast.\n
+\C[6]Shooting.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+ManCatcherNormal/item_name
+Pinning Strike
+
+ManCatcherNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack two tiles where you are facing.\n
+\C[6]Striking.\n
+\C[6]Stun.\n
+
+ManCatcherHeavy/item_name
+Pinning Blow
+
+ManCatcherHeavy/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Striking.\n
+\C[6]Stun.\n
+
+ManCatcherControl/item_name
+Pinning Whirlwind
+
+ManCatcherControl/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at all direction.\n
+\C[6]Striking.\n
+\C[6]Stun.\n
+
+
+HalberdNormal/item_name
+Halberd Slash
+
+HalberdNormal/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack two tiles where you are facing.\n
+\C[6]Slashing.\n
+\C[6]Stun.\n
+
+HalberdHeavy/item_name
+Halberd Power Slash
+
+HalberdHeavy/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Slashing, Uninterruptible.\n
+\C[6]Stun.\n
+
+HalberdControl/item_name
+Halberd Whirlwind
+
+HalberdControl/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at all directions.\n
+\C[6]Slashing, Uninterruptible.\n
+\C[6]Stun.\n
+
+DaggerControl/item_name
+Backstab
+
+DaggerControl/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Hold key to cast.\n
+\C[6]Piercing.\n
+
+ThrowingKnivesHeavy/item_name
+Throw Dagger
+
+ThrowingKnivesHeavy/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Ranged.\n
+\C[6]Piercing.\n
+\C[6]Slows target.\n
+
+WoodenShieldHeavy/item_name
+Shield Bash
+
+WoodenShieldHeavy/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Attack at the tile you are facing.\n
+\C[6]Knockback.\n
+\C[6]Striking.\n
+\C[6]Ambush.\n
+\C[6]Stun.\n
+
+WoodenShieldControl/item_name
+Block
+
+WoodenShieldControl/description
+\}\n
+\C[1]Costs STA.\n
+\C[6]Blocks incoming attacks.\n
+\C[6]Hold key to cast.\n
+
+nil/item_name
+
+nil/description
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

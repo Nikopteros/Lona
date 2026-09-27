@@ -1,0 +1,331 @@
+thisMap/OvermapEnter
+강도의 숲속 오두막\optB[그만둔다, 들어간다]
+
+Nap/Capture
+\narr놈들이 로나의 모든 것을 빼앗아갔다.
+
+############################################################## Control , using TagMapNoerMobHouse.txt as secondary
+
+Trans/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]강도：\C[0] 암캐년! 정신 차려!
+\CamCT\m[hurt]\plf\PRF\c[6]로나：\c[0] 으흑…
+\SETpl[MobHumanCommoner]\BonMP[Raper1,20]\Lshake\prf\C[4]강도：\C[0] 이제 네가 있어야 할 곳으로 보내주마!
+\CamCT\m[sad]\c[6]로나：\c[0] 대체… 어딜 데려가는 거야?
+
+Trans/begin2
+\ph\m[sad]\cgoff\narr로나는 어딘가로 끌려갔다.
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]강도：\C[0] 어떻게 놀아줄지 정하기 전까지 얌전히 있어라.
+\SETpl[nil]\m[sad]\plf\PRF\c[6]로나：\c[0] 어떡하지\..\..\.. 반드시 도망칠 방법을 찾아야 해!
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]강도：\C[0] \{이년아! 밥이다!
+\narr그들은 문 앞에 음식을 놓고 갔다.
+
+Rogue/PlaceFood_no
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]강도：\C[0] 이년아! 놀고만 있으면 밥은 없다!
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]강도：\C[0] 처먹고 싶으면 우릴 즐겁게 해봐라!
+\m[sad]\plf\PRF\c[6]로나：\c[0] 미안해… 열심히 할게…
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]강도：\C[0] 여자잖아?
+\SETpr[MobHumanCommoner]\Rshake\C[4]강도：\C[0] 좋았어! 여자는 정말 오랜만이군!
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]강도：\C[0] 이년아! 내가 왔다♥
+\SETpr[MobHumanCommoner]\Rshake\C[4]강도：\C[0] 먼저 나부터다! 요즘 숲속에 놀만한 것도 없어서 죽을 맛이었거든!
+\SETpl[MobHumanCommoner]\Lshake\C[4]강도：\C[0] 죽이지는 마라, 다른 놈들도 써야 하니까.
+\SETpr[MobHumanCommoner]\Rshake\C[4]강도：\C[0] 상관없잖아, 또 잡으면 그만이지.
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]강도：\C[0] 이년, 진짜 맞아야 정신 차리겠군!
+\SETpr[MobHumanCommoner]\Rshake\C[4]강도：\C[0] 갈겨라!
+\SETpl[MobHumanCommoner]\Lshake\C[4]강도：\C[0] \{야! 일어나!
+
+DavidBorn/Unknow
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]데이비드 본：\C[0] 이제부터 이곳의 주인은 나다.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 하지만 이놈들은 통제가 안 돼. 반드시 괴롭힐 대상을 하나 두어야 하지.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 안 그러면, 언제 내가 제거당할지 모른단 말이야...
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,8]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] \..\..\.. 바로 너다!
+\CamCT\m[shy]\PRF\c[6]로나：\c[0] 나… 나라고?
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] 내 말에 따르지 않으면, 넌 죽는다!
+\CamCT\m[fear]\PRF\c[6]로나：\c[0] 윽…
+
+DavidBorn/Day_dialog
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] 내 말대로 해. 안 그러면 먹을 건 없다.
+\CamCT\m[sad]\PRF\c[6]로나：\c[0] 으…
+
+GangBoss/Day_dialog
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]강도：\C[0] 야, 암캐년!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]강도：\C[0] 네 역할은 우리를 즐겁게 해주는 거다.
+\CamCT\m[sad]\PRF\c[6]로나：\c[0] 으…
+
+Nap/Capture
+\narr놈들은 로나의 모든 것을 빼앗아갔다.
+
+############################################################## COMMON DIALOG
+
+Cooker/Begin0
+\CBid[-1,20]\c[0]요리사：\c[0] 놈들이 우리를 먹고, 우린 놈들을 먹는다. 이게 공평한 거지!
+
+Female/Qmsg0
+잘못한 건 너희야!
+
+Female/Qmsg1
+난 잘못 없어…
+
+Female/Qmsg2
+성도님, 저를 지켜주소서…
+
+############################################################## Whore Job
+
+DavidBorn/JOB_Start_Whore
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 여기 있는 놈들, 여자를 못 본 지 오래됐거든.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] 가서 그 멍청이들 상대 좀 해줘라.
+\CamCT\m[fear]\PRF\c[6]로나：\c[0] 나.... \optB[잠깐,알았어]
+
+GangBoss/JOB_Start_Whore
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]강도：\C[0] 다들 자지에 곰팡이가 슬 정도라고!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]강도：\C[0] 야! 계집애! 당장 가서 그 쓰레기들 상대해!
+\CamCT\m[fear]\PRF\c[6]로나：\c[0] 나.... \optB[잠깐,알았어]
+
+HevWhore/begin1
+\CamMP[Cam1]\C[4]강도：\C[0] 여자 좀 가지고 놀고 싶다…
+\CamMP[GuardA]\C[4]강도：\C[0] 하고 싶다… 하고 싶다고…
+
+HevWhore/begin2
+\CamCT\board[힌트]
+4명 이상의 강도를 위로해라.
+그렇지 않으면 오늘은 먹을 거 없다.
+
+############################################################## GangRape
+
+DavidBorn/JOB_Start_GangRape
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]데이비드 본：\C[0] 다들 여기서 너무 심심하다고 징징대더군.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] 가서 그 멍청이들 좀 재밌게 해줘라.
+\CamCT\m[fear]\PRF\c[6]로나：\c[0] 나.... \optB[잠깐,알았어]
+
+GangBoss/JOB_Start_GangRape
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]강도：\C[0] 야! 암캐년! 이리 와!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]강도：\C[0] 나가서 우리 볼만한 거 좀 보여달라고!
+\CamCT\m[fear]\PRF\c[6]로나：\c[0] 나.... \optB[잠깐,알았어]
+
+HevGang/begin0
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 야, 암캐년! 우리 재밌게 좀 놀아봐!
+
+HevGang/begin1
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 시시하잖아! 다른 거 해봐!
+
+HevGang/begin_encore
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 한 번 더!
+
+HevGang/opt
+\m[shy]\plf\PRF\c[6]로나：\c[0] 흐윽...\optD[춤을 춘다<r=HiddenOPT0>,농담 한다<r=HiddenOPT1>]
+
+HevGang/Dance
+\CBct[6]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그럼… 춤을 한 번 춰 드릴게요…
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 좋지!
+
+HevGang/Dance_success_1
+\narr 로나의 춤이 제법 괜찮아, 놈들이 박수를 보냈다.
+
+HevGang/Dance_success_2
+\narr 로나의 춤은 노골적이고 음탕해서, 보는 놈들 전부 발기하고 말았다.
+
+HevGang/Dance_failed0
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 형편없군!
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 흐윽…
+
+HevGang/Dance_failed1
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 너 춤이라는 걸 추긴 하냐?
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 흐윽…
+
+HevGang/Dance_failed2
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 최악이야! 쓸모도 없네!
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 흐윽…
+
+HevGang/Joke0
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 그럼… 농담 하나 해 드릴까요?
+\SETpl[raper_group]\Lshake\C[4]강도：\C[0] 재미없으면 벌 줄 거다!
+
+HevGang/Joke1
+\CBct[8]\m[confused]\plf\PRF\c[6]로나：\c[0] 어\..\..\..
+
+HevGang/Joke2_0
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 왜 남자들은 침대에서 항상 리더가 되길 원할까요? 왜냐면… 늘 큰 권력을 쥐고 있으니까요♥
+
+HevGang/Joke2_1
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 기사들이 창녀에게 잘 안 가는 이유 아세요? 집에 돌아가면… 아내가 장창으로 꿰뚫어 버리거든요.
+
+HevGang/Joke2_2
+\CBct[20]\m[flirty]\plf\PRF\c[6]로나：\c[0] 어떤 사람이 다른 사람한테 물었어요. “너 애널로 해본 적 있어?” 다른 사람이 대답했죠. “당연하지! 매일 시도하고 있어! 화장실 갈 때마다… 변기를 빗나가지 않으려고 필사적으로 노력하거든.”
+
+HevGang/Joke_success
+\narr\..\..\..
+\narr로나가 은근히 음란하고 저속한 농담을 던졌다.
+\narr관객들이 킥킥 웃으며 제법 즐기는 눈치다.
+
+HevGang/Joke_failed
+\narr\..\..\..
+\narr로나가 썰렁한 농담을 내뱉었다.
+\narr관객들은 시큰둥하고, 반응이 썩 좋지 않다.
+
+HevGang/score_success_full
+\SETpl[raper2]\Lshake\C[4]강도：\C[0] 아… 못 참겠다, 내 자지 완전 딱딱해졌어.
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 너희들…
+\SETpr[raper3]\Rshake\C[4]강도：\C[0] 겁내지 마, 이번엔 진짜 안 아프게 해줄게.
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 흐윽…
+
+HevGang/score_success
+\SETpl[raper2]\Lshake\prf\C[4]강도：\C[0] 하하, 꽤 재미있었네.
+\SETpr[raper3]\Rshake\plf\C[4]강도：\C[0] 아, 배고프다.
+\SETpr[raper1]\Lshake\prf\C[4]강도：\C[0] 흩어져라, 흩어져.
+\SETpr[raper2]\Rshake\plf\C[4]강도：\C[0] 이거 가져가라, 네가 번 상이야.
+
+HevGang/score_failed
+\SETpl[raper2]\Lshake\C[4]강도：\C[0] 시시하군, 그냥 바로 해치우자! 이게 진짜 재미지!
+\CBct[6]\m[fear]\plf\PRF\c[6]로나：\c[0] 나... 나 무서워... 아플 거야...
+\SETpr[raper3]\Rshake\C[4]강도：\C[0] 걱정 마, 세게는 안 할 테니까.
+\SETpl[raper2]\Lshake\C[4]강도：\C[0] 내가 먼저다! 이 여자는 내 거야!
+\SETpr[raper1]\Rshake\C[4]강도：\C[0] 닥쳐! 먼저 하는 건 나다!
+\CBct[6]\m[sad]\plf\PRF\c[6]로나：\c[0] 흐윽...
+
+############################################################## Doggy
+
+DavidBorn/JOB_Start_Doggy
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]데이비드 본：\C[0] 어떤 멍청이가 새로운 놀 거리를 찾았다더군. 근데 꼭 네가 해야 한대.
+\CamMP[UniqueDavidBorn]\BonMP[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]데이비드 본：\C[0] 가서 그 멍청이들 상대 좀 해줘라.
+\CamCT\m[fear]\PRF\c[6]로나：\c[0] 나.... \optB[잠깐,알았어]
+
+GangBoss/JOB_Start_Doggy
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,5]\Lshake\prf\C[4]강도：\C[0] 야! 계집년! 이리 와!
+\SETpl[MobHumanWarrior]\CamMP[GangBoss]\BonMP[GangBoss,20]\Lshake\prf\C[4]강도：\C[0] 밖에서 누가 널 찾고 있다!
+\CamCT\m[fear]\PRF\c[6]로나：\c[0] 나.... \optB[잠깐,알았어]
+
+
+HevDoggy/begin1_fristTime0
+\SETpl[raper2]\Lshake\prf\C[4]강도：\C[0] 야! 우리 개가 오래 참았거든. 엉덩이 좀 들어서 얘가 올라타게 해!
+\SETpl[raper2]\Lshake\prf\C[4]강도：\C[0] 오늘은 네가 개랑 하는 날이야! 년이랑 개라면 딱 어울리잖아!
+
+HevDoggy/begin1_fristTime1
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 개랑?! 안 돼! 이건 절대 안 돼!
+\SETpl[raper2]\Lshake\prf\C[4]강도：\C[0] 뭐? 감히 거절해? 목숨이 아깝지 않나, 암캐년?
+\SETpl[raper_group]\Lshake\prf\C[4]강도：\C[0] 까불어? 죽여 버려!
+\SETpr[raper_group]\Rshake\plf\C[4]강도：\C[0] 그래! 잡아서 두 발 달린 양으로 만들어 버려!
+\CamCT\m[bereft]\plf\Rshake\c[6]로나：\c[0] 안 돼! 제발 죽이지 마! 할게… 할게요!
+\SETpl[raper2]\Lshake\prf\C[4]강도：\C[0] 하하, 겁에 질린 꼴 좀 봐라… 참 불쌍하네.
+
+HevDoggy/begin1_fristTime2
+\SETpl[raper_group]\Lshake\prf\C[4]강도：\C[0] 하하하하! 자, 멍멍이! 어서 올라타라!
+
+HevDoggy/begin1_fristTime1_nymph
+\CamCT\m[shocked]\plf\Rshake\c[6]로나：\c[0] 개랑…? 나보고?
+\SETpl[raper2]\Lshake\prf\C[4]강도：\C[0] 거절이라도 해? 목숨이 아깝지 않나, 암캐년?
+\CamCT\m[lewd]\plf\Rshake\c[6]로나：\c[0] 아냐… 해낼 수 있을 것 같아.
+
+HevDoggy/begin1
+\SETpl[raper2]\Lshake\prf\C[4]강도：\C[0] 야! 암캐년! 우리 개 자지가 간질간질하대! 빨리 도와줘라!
+\CamCT\m[shy]\plf\PRF\c[6]로나：\c[0] 또 개야…
+\CamCT\m[sad]\plf\PRF\c[6]로나：\c[0] …그래, 적어도 저 나쁜 놈들보단 부드럽겠지.
+
+HevDoggy/begin2
+\CamCT\m[flirty]\plf\PRF\c[6]로나：\c[0] 강아지, 얌전히 있어.
+\CamMP[Doggy]\BonMP[Doggy,5]\SndLib[dogAtk]\m[shy]\plf\PRF\c[6]개：\c[0] 컹컹!
+\CamCT\m[shy]\plf\PRF\c[6]로나：\c[0] 겁내지 마… 누나가 부드럽게 해줄게.
+\CamMP[Doggy]\BonMP[Doggy,6]\SndLib[dogSpot]\m[shy]\plf\PRF\c[6]개：\c[0] 앙! 앙!
+
+HevDoggy/begin3
+\CamCT\narr로나가 강아지의 자지를 살며시 움켜쥐고,
+천천히 자신의 보지 속으로 이끌어 넣었다.
+\SndLib[dogAtk]\narrOFF\SETpl[raper_group]\Lshake\prf\C[4]강도：\C[0] 하하! 봐라, 이 암캐년 완전 웃기네!
+
+HevDoggy/begin4
+\SndLib[dogAtk]\SETpl[raper_group]\Lshake\prf\C[4]강도：\C[0] 하하하! 암캐년, 힘 좀 더 줘라!
+
+HevDoggy/begin5
+\c[6]로나：\c[0] \..\..\..\.. 흐윽...
+
+HevDoggy/begin6
+\c[6]로나：\c[0] 착하지… 너무 세게 하진 마…
+\SndLib[dogAtk]\narr강아지가 로나를 박기 시작했다. 녀석도 로나를 진짜 암컷 개로 여기는 듯했다.
+
+HevDoggy/begin7
+\c[6]로나：\c[0] 히이익… 아앗…
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]개：\c[0] 으르릉!
+\c[6]로나：\c[0] 으으읏…
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]개：\c[0] 멍! 멍!
+
+HevDoggy/begin8
+\SETpl[raper2]\Lshake\C[4]강도：\C[0] 좋아! 내 개 자식, 힘내라!
+\SETpr[raper_group]\Rshake\C[4]강도：\C[0] 박아버려! 이 암캐년 박아 죽여라!
+\BonMP[TorPT,20]\SndLib[dogSpot]\c[6]개：\c[0] 멍! 멍!
+\narr강아지는 눈앞의 암컷이 주는 감촉에 취해, 더욱 격렬하게 박기 시작했다.
+
+HevDoggy/begin9
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]개：\c[0] 으르릉!
+\c[6]로나：\c[0] 히이익… 아앗…
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]개：\c[0] 멍! 멍!
+
+HevDoggy/begin9_1
+\SETpl[raper2]\Lshake\C[4]강도：\C[0] 크하하하! 미치겠다, 진짜 웃겨 죽겠네.
+\SETpr[raper3]\Rshake\C[4]강도：\C[0] 그러게, 이렇게 기막힌 장면은 처음 본다니까.
+
+HevDoggy/begin10
+\SndLib[dogHurt]\c[6]로나：\c[0] 에?!
+
+HevDoggy/begin11
+\SndLib[dogHurt]\c[6]로나：\c[0] \{히야아악!
+
+HevDoggy/begin12
+\SndLib[dogHurt]\c[6]로나：\c[0] \{너무 커! 안 돼!
+
+HevDoggy/begin13
+\SndLib[dogHurt]\c[6]로나：\c[0] \{아아아앗!
+
+HevDoggy/begin14
+\SndLib[dogHurt]\narr강아지의 자지가 부풀어 올라, 질 안이 자지로 꽉 막혔다.
+\SndLib[dogHurt]그 덩어리가 로나의 치골에 걸려, 강아지가 금방 쌀 것처럼 보인다.
+
+HevDoggy/begin14_1
+\narrOFF\m[p5health_damage]\SETpl[raper2]\Lshake\Rshake\C[4]강도：\C[0] 우리 착한 강아지, 간다! 암캐야 잘 받아라!
+\SETpr[raper2]\Rshake\C[4]강도：\C[0] 아, 안 되겠다! 웃다가 배가 아프네.
+
+HevDoggy/begin15
+\narrOFF\SETpl[raper2]\Lshake\C[4]강도：\C[0] 야! 강아지! 이쪽으로 와! 여기에 고기 있다!
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]개：\c[0] 헉헉!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]개：\c[0] 멍멍!
+
+HevDoggy/begin16
+\c[6]로나：\c[0] \{엣？！
+
+HevDoggy/begin17
+\c[6]로나：\c[0] \{당기지 마?! 움직이지 마!!
+
+HevDoggy/begin18
+\m[p5health_damage]\Rshake\c[6]로나：\c[0] 제발… 그만해… 더는 움직이지 마…
+\BonMP[TorPT,20]\SndLib[dogHurt]\c[6]개：\c[0] 헉헉!
+\narrOFF\SETpl[raper2]\Lshake\C[4]강도：\C[0] 저쪽으로 가! 거기에도 고기 있다!
+\BonMP[TorPT,20]\SndLib[dogAtk]\c[6]개：\c[0] 멍멍!
+\SETpr[raper1]\Rshake\C[4]강도：\C[0] 하하하… 못 참겠다… 진짜 배 찢어지게 웃기네.
+
+HevDoggy/begin19
+\m[p5health_damage]\c[6]로나：\c[0] \{히야아아악!
+\m[p5health_damage]\c[6]로나：\c[0] \{으아아앗!
+
+HevDoggy/begin20
+\c[6]로나：\c[0] 흐윽…
+
+HevDoggy/begin21
+\c[6]로나：\c[0] 하아…
+
+HevDoggy/begin22
+\c[6]로나：\c[0] .....
+
+HevDoggy/begin23
+\narr강아지의 사정은 아주 오랫동안 계속되었다.
+로나는 강도들의 비웃음 속에서 서서히 의식을 잃었다.
+\narrOFF\SETpl[raper2]\Lshake\C[4]강도：\C[0] 기절했네. 이제 어떻게 할까?
+\SETpr[raper3]\Rshake\C[4]강도：\C[0] 갖고 싶은 놈이 데려가라지.
+
+

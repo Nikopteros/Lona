@@ -1,0 +1,11 @@
+####################################--------------------- overmap
+this/OvermapEnter
+\m[confused]잊혀진 신전\optB[그만둔다,들어간다]
+
+this/3to4
+\CBct[8]\m[confused]\c[6]로나：\c[0] \..\..\..
+\CBct[20]\m[serious]\c[6]로나：\c[0] 여기구나!
+\CamMP[RapePoint]\m[serious]\c[6]로나：\c[0] 앞은 굉장히 위험해 보이니, 조심해야 해.
+
+this/4to5
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 끝났다! 마을로 돌아가서 보상을 받자!

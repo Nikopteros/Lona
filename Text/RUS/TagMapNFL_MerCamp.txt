@@ -1,0 +1,164 @@
+NFL_MerCamp/OvermapEnter
+\cg[event_DarkPot]\m[confused]Лагерь наёмников \optB[Отмена,Войти]
+
+##################################################################
+
+NorthFL_AtkOrkCamp/0_1
+\SETpl[AnonMale1]\Lshake\c[4]Наёмник：\C[0]    Здесь демон! Зеленокожий!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    Зеленокожие? Оркоиды?! Где?!
+
+NorthFL_AtkOrkCamp/0_2
+\BonMP[YellingSub,20]\SETpl[AnonMale1]\Lshake\c[4]Наёмник：\C[0]    Я убью тебя!
+\CBct[2]\m[terror]\plh\Rshake\c[6]Лона：\C[0]    Чего? Меня?!
+
+NorthFL_AtkOrkCamp/0_3
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]Капитан Наёмников：\C[0]    \{Хватит!!
+
+NorthFL_AtkOrkCamp/0_4
+\BonMP[Leader,20]\SETpr[WildSwordmanLeader]\Rshake\c[4]Капитан Наёмников：\C[0]    Разуй глаза, придурок! Это человек, обычный человек!
+
+NorthFL_AtkOrkCamp/0_5
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Чего ты ждешь? Заходи скорее!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]Лона：\C[0]    \{Иду！
+
+Leader/RecQuestNorthFL_AtkOrkCamp2_1
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Я не ожидал встретить кого-нибудь в живых, из тех, кто сумел сбежать из города.
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Из города? Вы о \c[4]Сибарисе\C[0]?
+\CBct[20]\m[sad]\plf\PRF\c[6]Лона：\C[0]    Э-э\..\..\..Да, я сбежала из Сибариса несколько месяцев назад.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    \..\..\..\LshakeТак что ты здесь делаешь? Здесь настоящий ад, зона боевых действий!
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эмм... Я просто проходила мимо.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    \..\..\..Проходила мимо?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Я... Я просто хочу домой.
+\CBid[-1,8]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    .....
+
+Leader/OPT_About0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Так вот... Что это за место? Что вы здесь делаете?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Мы пытаемся помочь выжившим, которые сбежали из города...
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Помочь? Разве вы не наёмники?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Да, до всего этого я управлял небольшим отелем в районе Западной Гавани города, у меня была семья и дети.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Мы создали Группу Наёмников, чтобы найти свои семьи, но теперь даже у нас проблемы.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Нам не удалось спасти ни одного человека, мы даже потеряли несколько своих людей.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Один из них мой лучший друг, я должен вернуть его. Даже если его уже нет в живых.
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    .......
+
+Leader/OPT_Mail0
+\CBct[8]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Кхм... У меня тут письмо для вас из солевых пустошей.
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Письмо? Нам?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Письмо? От кого?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Точно! От командира Прибрежной Крепости.
+
+Leader/OPT_Mail1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Хмм?
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ммм?
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Что он имел в виду под словом "соль"?
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Ну... Он говорил что-то о спасении мира, помимо соли...
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Я не очень понимаю, но похоже, что, то, о чём он говорит очень серьёзно.
+\CBid[-1,5]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Я так много сделал, убил столько братьев ради этой дурацкой соли?
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Эмм... Вы в порядке?
+
+Leader/OPT_Work0
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Хмм\..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Один из моих бойцов пропал, исследуя лагерь зеленокожих на востоке.
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Мы должны спасти его, и я уверен, что ты бы нам пригодилась.
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Эммм... Я...
+
+Leader/OPT_Work1_board
+\board[Спасти бойца]
+Задача：Спасти напарника Капитана Наёмников
+Награда：Большой Медяк х1\i[582]
+Клиент：Капитан Наёмников
+Повторяемость：Одноразовое
+Отправляйтесь в лагерь орков на востоке от Прибрежной Крепости и спасите напарника Капитана.
+
+Leader/OPT_Work2_accept
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Ладно, с этим проблем быть не должно.
+
+Leader/OPT_Work2_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Извините... У меня есть ещё кое-какие дела...
+
+Leader/OPT_Work2_accept1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Хорошо, тогда встретимся там.
+
+Invade/NFL_MerCamp_Invade_3
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Отличная работа. Даже не верится, что тебе удалось выжить.
+
+Leader/else
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    ....
+
+OrcSlaveMaster/begin
+\CBmp[OrcSlaveMaster,20]\SndLib[sound_OrcSkill]\SETpl[OrcSlaveMaster_mask]\Lshake\c[4]Оркоид：\C[0]    \{Лошадиный член!
+
+################################################################## Commoner
+
+commoner/BeginRNG0
+\CBid[-1,20]\c[4]Наёмник：\C[0]    Ты выжившая из города?
+
+commoner/BeginRNG1
+\CBid[-1,20]\c[4]Наёмник：\C[0]    В городе ещё остались люди?!
+
+commoner/BeginRNG2
+\CBid[-1,20]\c[4]Наёмник：\C[0]    Может быть, и моя семья ещё жива?
+
+commoner/WhoreWork_failed0
+\CBid[-1,5]\c[4]Наёмник：\C[0]    У меня нет времени!
+
+commoner/WhoreWork_failed1
+\CBid[-1,5]\c[4]Наёмник：\C[0]    Скоро ты умрешь, но все ещё занимаешься этим?
+
+commoner/WhoreWork_failed2
+\CBid[-1,5]\c[4]Наёмник：\C[0]    Давайте сначала выживем.
+
+################################################################## #NFL_MerCamp_Invade
+
+Invade/0
+\CBct[2]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хм?
+
+Invade/1
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    \..\..\..
+\CBid[-1,20]\SETpl[WildSwordmanLeader]\Lshake\prf\c[4]Капитан Наёмников：\C[0]    Наступают! Восток!
+
+Invade/2_typical
+\CBct[2]\m[flirty]\plf\Rshake\c[6]Лона：\C[0]    Наступают? Кто наступает?
+
+Invade/2_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]Лона：\C[0]    Наступают? Оркоиды?
+
+Invade/2_gloomy
+\CBct[6]\m[fear]\plf\PRF\c[6]Лона：\C[0]    Что происходит? Демоны?!
+
+Invade/2_slut
+\CBct[2]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Наступают? Ты сказал, наступают?
+
+Invade/3_wave2
+Снова! Восток!
+
+Invade/3_wave3
+Ещё! В этот раз крупнее!
+
+Invade/3_waveEND
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Похоже, всё кончено. Ты всё ещё жива?
+
+Invade/4_BossDefeat0
+\BonID[-1,8]\m[confused]\PRF\c[6]Лона：\C[0]    \..\..\..\Rshake\m[flirty]Не знаю почему, но мне кажется, что это выглядит мило.
+
+Invade/4_BossDefeat1
+\BonMP[Leader,20]\SETpl[WildSwordmanLeader]\Lshake\c[4]Капитан Наёмников：\C[0]    Получилось! Ему конец!
+
+Leader/BattleQmsg0
+На боевую позицию!
+
+Leader/BattleQmsg1
+Они приближаются!
+
+Commoner/BattleQmsg0
+Снова зеленокожие!
+
+Commoner/BattleQmsg1
+Мы окружены!
+
+Commoner/Qmsg_lose0
+Бегите!
+
+Commoner/Qmsg_lose1
+Я не хочу умирать!

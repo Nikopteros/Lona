@@ -1,0 +1,113 @@
+thisMap/OvermapEnter
+濕地營地\optB[沒事,進入]
+
+EmptyHouse/Qmsg0
+空屋
+
+EmptyHouse/Qmsg1
+什都沒有
+
+yeller/Qmsg0
+我很忙！
+
+yeller/Qmsg1
+不是現在！
+
+yeller/start
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    喂！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    快過來！ 牠們來了！
+\CamCT\Bon[2]\m[shocked]\Rshake\c[6]洛娜：\c[0]    什？！ 什麼來了！？
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    快點阿！
+
+yeller/start1
+\CamMP[Wave2A]\BonMP[Wave2A,20]\SndLib[FishkindSmQuestion]\prf\c[4]深潛者：\c[0]    咕嚕！
+\CamMP[Wave2B]\BonMP[Wave2B,20]\SndLib[FishkindSmQuestion]\prf\c[4]深潛者：\c[0]    咕啦啦！
+\CamMP[Wave2C]\BonMP[Wave2C,20]\SndLib[FishkindSmQuestion]\prf\c[4]深潛者：\c[0]    噗嚕啪嚕！
+\CamCT\Bon[1]\m[shocked]\Rshake\c[6]洛娜：\c[0]    魔物！
+
+yeller/start_win
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    好險阿！感謝聖徒！
+
+yeller/begin2to3
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    妳沒出現的話我們還真的守不住了。
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃.. 不客氣，應該的？
+
+guard/beginElseQmsg0
+該死的深潛者！
+
+guard/beginElseQmsg1
+去死！去死！去死！
+
+guard2/beginElseQmsg0
+好累...
+
+guard2/beginElseQmsg1
+眼睛好痛...
+
+yeller/beginElseQmsg0
+救救她！
+
+yeller/beginElseQmsg1
+拜託妳了！
+
+FArcher/Qmsg
+謝謝妳
+
+yeller/begin3
+\CamCT\Bon[6]\m[confused]\PRF\c[6]洛娜：\c[0]    呃..\optB[沒事,發生什麼事]
+
+yeller/begin3_opt_Wut
+\CamCT\Bon[6]\m[wtf]\PRF\c[6]洛娜：\c[0]    這裡發生了什麼事？
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我們雇用了一批傭兵去解救還困在席芭莉絲的人們。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    一路上還算順利，直到經過這裡....
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我們遭受了大量的深潛者圍攻。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    他們一直在附近，無時無刻，只要我們一鬆懈牠們就偷襲。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我已經幾天沒睡了... 小隊的體力與士氣都到極限了。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    對了！ 幫幫我！ 她也被那些該死的深潛者搶走了....
+\CamCT\Bon[6]\m[shocked]\Rshake\c[6]洛娜：\c[0]    誰？
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    她是我的女人！ 求妳救救她！ 我們已經沒有人手了！
+
+yeller/begin3_opt_WutBoard
+\board[失蹤的女性]
+目標：尋找被劫走的女人
+報酬：道德5
+委託主：傭兵
+期限：單次
+我們的斥候跟著牠們的足跡於東北方發現了一個洞窟。
+她一定還活著，救救她！
+
+yeller/begin3_opt_WutBoard_opt
+\CamCT\Bon[6]\m[confused]\PRF\c[6]洛娜：\c[0]    呃..\optB[不要,沒問題]
+
+yeller/begin3_opt_WutBoard_opt_yes
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    我會幫你！ 但我需要更多情報。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    謝謝！ 謝謝妳！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    四天前的晚上我們抵抗了一波深潛者的攻勢後，輪到她看守。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    當我們醒來時她已經不見了！ 而附近全是魚腥味與腳印！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我的斥候隨著腳印走於東北方發現了一個漁人遺跡。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我知道那些深潛者抓走女人是為了什麼！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    她一定還活著！ 一定的！
+\CamCT\Bon[6]\m[serious]\PRF\c[6]洛娜：\c[0]    好！我這就出發！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    聖徒守護妳！
+
+####################################### RETURN OBJ
+
+yeller/begin4to5
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我...我以為我再也見不到妳了！
+\CamMP[FArcher]\BonMP[FArcher,6]\prf\c[4]女傭兵：\c[0]    我也是....
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    那些臭魚沒有對妳怎樣吧！
+\CamMP[FArcher]\BonMP[FArcher,8]\prf\c[4]女傭兵：\c[0]    ......
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    .....
+
+yeller/begin4to5_2
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]洛娜：\c[0]    呃.... 我確定她沒有被怎樣...
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    啊！ 感謝聖徒！ 還沒問妳的名子呢！
+\CamCT\Bon[4]\m[pleased]\Rshake\c[6]洛娜：\c[0]    洛娜! 洛娜.費爾丁！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    謝謝妳了，這個給妳...
+
+yeller/begin4to5_3
+\CamCT\Bon[2]\m[confused]\PRF\c[6]洛娜：\c[0]    這是？
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我尚未領取的工會任務證明，把這個交給\C[4]毀滅者堡壘\C[0]的傭兵公會，妳可以用它領取些獎賞。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    我們要離開了，妳也別待在這鬼地了吧。
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    這裡不安全。
+\CamCT\Bon[2]\m[serious]\PRF\c[6]洛娜：\c[0]    我知道了！

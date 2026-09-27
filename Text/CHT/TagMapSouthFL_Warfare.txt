@@ -1,0 +1,36 @@
+thisMap/OvermapEnter
+砲兵陣地\optB[沒事,進入]
+
+Guard0/Com0
+\CBid[-1,20]\c[4]士兵：\c[0]    奪回家園？ 這有什麼意義嗎？
+
+Guard0/Com1
+\CBid[-1,20]\c[4]士兵：\c[0]    人都死光了，我們到底在這做什麼。
+
+Guard0/Com2
+\CBid[-1,20]\c[4]士兵：\c[0]    城市裡還有人活著？ 妳真的認為那些人算人嗎？
+
+Guard1/Com0
+\CBid[-1,20]\c[4]士兵：\c[0]    是的，我前幾天才從諾爾鎮調過來。
+
+Guard1/Com1
+\CBid[-1,20]\c[4]士兵：\c[0]    我之前從難民的口中聽到這的情況，直到我親眼見到才相信。
+
+Guard1/Com2
+\CBid[-1,20]\c[4]士兵：\c[0]    這太誇張了，感染範圍該不會一直擴張下去吧。
+
+Guard2/Com0
+\CBid[-1,20]\c[4]士兵：\c[0]    喂！ 怪物呢？ 我是來殺怪物的！
+
+Guard2/Com1
+\CBid[-1,20]\c[4]士兵：\c[0]    哈哈！ 他們活該！
+
+Guard2/Com2
+\CBid[-1,20]\c[4]士兵：\c[0]    這個爛城市真的毀了！
+
+Officer/Common_basic
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    怎麼？我現在沒空。
+
+Officer/Common_Saint
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    聖徒阿，我現在信了。 引導我吧....
+

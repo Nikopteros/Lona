@@ -1,0 +1,58 @@
+FishkindCave1/OvermapEnter
+\m[confused]동굴, 비릿한 생선 냄새가 풍겨온다\optB[그만둔다,들어간다]
+
+FishkindCave3/OvermapEnter
+\m[confused]풍요의 성소\optB[그만둔다,들어간다]
+
+Lona/TimerStart
+\narr동굴 깊은 곳에서 괴물의 포효가 울려 퍼진다.
+\narrOFF\m[fear]\c[6]로나：\c[0] 서둘러야 해.
+
+#############################################################################
+
+Lona/RapeLoopNonCapture
+\m[fear]어인들이 로나를 붙잡아 버렸다. 로나는 몸에 지니고 있던 장비를 전부 잃었다.
+\m[terror]놈들은 새로운 번식 숙주를 찾은 것에 크게 흥분하고 있었다.
+
+Lona/RapeLoopCaptured
+\m[terror]어인들은 아직 만족하지 못한 듯, 로나에게 쉴 틈조차 주지 않았다.
+\m[fear]놈들은 역겨운 아랫도리를 드러내며, 오늘도 이 숙주를 정액으로 물들일 생각뿐이었다。
+
+#-----------------------------
+
+Lona/RapeLoopDragOut
+\m[hurt]어인들이 로나를 끌어내어, 즐거운 연회를 시작하려 하고 있었다.
+
+Lona/RapeLoopTorture
+\m[fear]로나가 도망치려 한 행동에 어인들은 분노했고, 그들은 로나에게 ‘임신체가 지녀야 할 태도’를 똑똑히 가르쳐주려 들었다.
+
+#-----------------------------
+
+Exit/Triggered
+뭔가 일어난 것 같다?
+
+########################### QUEST FishkindHunt2
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]여용병：\c[0] 지금... 어쩌지?
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]여용병：\c[0] 으... 너는...? \optB[지나가던 길이야,널 구하러 왔어]
+
+CommonConvoyTarget/begin0
+\prf\c[4]여용병：\c[0] 제발... 살려줘...
+\m[serious]\PRF\c[6]로나：\c[0] 괜찮아? 다친 데는 없어?
+\prf\c[4]여용병：\c[0] 흐윽...
+
+victim/Convoy_start
+\board[지정된 야영지로 호송]
+목표：피해자를 습지 야영지까지 호송한다.
+과정 중 목표는 절대 죽어서는 안 된다.
+
+CommonConvoyTarget/Hev0
+\SETpr[FishCaveRBQ]그녀는 썩어가는 물고기 잔해 속에 쓰러져 있었고, 사방에는 비린내가 가득했다.  
+보아하니 어인은 그녀를 죽일 생각은 없는 듯했고, 이 잔해들은 먹이를 위한 것이었다.  
+어인은 번식을 위해, 임신체의 몸을 팔로 억지로 벌리기를 즐겨 한다.  
+그들은 모체의 고통을 이해하지 못한다. 살아남은 자만이 가장 완벽한 임신체라 여기는 것이다.  
+그녀의 보지, 항문, 그리고 골반은 이미 심각한 손상을 입은 상태였다.  
+그녀는 용병이자 모험가였다. 강인한 육체 덕분에 이 모든 걸 버텨냈지만, 더는 오래 버티지 못할 것 같았다.

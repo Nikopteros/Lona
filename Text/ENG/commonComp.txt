@@ -1,0 +1,682 @@
+notice/ExtOverWrite
+\board[Non-combative companions]
+You are only allowed one \c[6]non-combative companion\c[0] in your party!
+Any current non-combative companion currently in your party will abandon your team, should you attempt to hire a new one.
+Hiring a non-combative companion to your party during an escort mission will cause you to fail the quest.
+You must decide, will you fail your current quest? Or abandon a non-combative companion?
+
+Companion/Accept
+Accept? \optD[Never mind,Okay]
+
+Companion/TeamUp
+Team up
+
+Companion/Follow
+Follow
+
+Companion/Wait
+Wait
+
+Companion/Other
+Other
+
+Companion/Disband
+Disband
+
+Companion/SetFoe
+Set companion's hostlity towards
+
+Companion/Purr
+Purr
+
+Companion/Extension
+Extend time
+
+################################# COMMON COMP INFO
+
+CompWarrior/CompData
+\board[Mercenary Warrior]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Melee, Defense
+\C[2]Alignment：\C[0]Criminal (Evil)
+\C[2]Hostile to：\C[0]Evil Creatures, Noer Guards
+\C[2]Cost：\C[0]2 Beers\i[590]
+\C[2]Duration：\C[0]2 Days
+A typical melee mercenary for hire.
+
+CompArcher/CompData
+\board[Mercenary Archer]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Ranged, Arcing shot
+\C[2]Alignment：\C[0]Criminal (Evil)
+\C[2]Hostile to：\C[0]Evil Creatures, Noer Guards
+\C[2]Cost：\C[0]2 Beers\i[590]
+\C[2]Duration：\C[0]2 Days
+A typical ranged mercenary for hire.
+
+CompCommon/Comp_disband
+\CBid[-1,20]\c[4]Drunk Mercenary：\c[0]    Buy meh another drink next time... *BURP*!
+
+CompHumanWarrior/Comp_disband
+\CBid[-1,20]\c[4]Drunk Mercenary：\c[0]    I'm drunk as fuck... *BUUURP*!
+
+CompHumanBow/Comp_disband
+\CBid[-1,20]\c[4]Drunk Mercenary：\c[0]    Nooo! I'M NOT AN ALKOHOLIC!!!
+
+CompCommon/Comp_win
+\CBid[-1,20]\c[4]Drunk Mercenary：\c[0]    *Urp*! Let's do it together.
+
+CompCommon/Comp_failed
+\CBid[-1,5]\Lshake\prf\c[4]Drunk Mercenary：\c[0]    \{Hey! I need a drink right now!
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    Sorry...
+
+CompCommon/Slave_failed0
+\CBid[-1,5]\Lshake\prf\c[4]Drunk Mercenary：\c[0]    What a stupid thing for a slave to say!
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    Sorry...
+
+CompCommon/Slave_failed1
+\CBid[-1,5]\Lshake\prf\c[4]Drunk Mercenary：\c[0]    \{With you?! \}Slaves are only good for sucking my cock!
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    Sorry...
+
+CompCommon/Slave_failed2
+\CBid[-1,5]\Lshake\prf\c[4]Drunk Mercenary：\c[0]    \{Are you a slave?! Fuck off! Get out of here!
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    Sorry...
+
+CompWarrior/begin
+\SETpl[MobHumanWarrior]\prf\c[4]Drunk Mercenary：\c[0]    *Burp*! Whuddah need?
+
+CompArcher/begin
+\SETpl[MobMootBow]\prf\c[4]Drunk Mercenary：\c[0]    *Burp*! What's up?
+
+CompRogue/OvermapPop0
+The backstreet girls look really nice.
+
+CompRogue/OvermapPop1
+I wanna buy a slave too.
+
+CompRogue/OvermapPop2
+I really wanna kill something.
+
+CompRogue/OvermapPop3
+*BUUURP*!
+
+####################################################################################################################################################
+
+CompWarSister/CompData
+\board[War Sister]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Melee, Defense, Arcing shot
+\C[2]Alignment：\C[0]The Saint's Society (Good)
+\C[2]Hostile to：\C[0]Fishkind/Deepones, Undead, Abominations
+\C[2]Cost：\C[0]1 Holy Water, Weak less than 100\i[46]
+\C[2]Duration：\C[0]5 Days
+A daughter of the Saint and a maiden of justice.
+
+CompWarSister/begin
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]War Sister：\c[0]    For the Saint is my loving father...
+
+CompWarSister/Comp_disband
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]War Sister：\c[0]    Do not forsake the Saint, for faith shall be your blade!
+
+CompWarSister/Comp_win
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]War Sister：\c[0]    The Saint will lead us all to paradise.
+
+CompWarSister/Comp_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]War Sister：\c[0]    I have no pity left for pagans like you.
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Sorry...
+
+CompWarSister/Weak_failed
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]War Sister：\c[0]    You are not worthy of the Saint's mercy.
+\CBct[6]\m[sad]\plf\PRF\c[6]Lona：\c[0]    Sorry...
+
+CompWarSister/End
+\CBid[-1,20]\SETpl[WarSister]\Lshake\c[4]War Maiden：\c[0]    SHOW THEM NO MERCY!
+
+CompWarSister/Fated_enemy
+\narr Your companion exclaims that the impure must face judgment!
+
+CompWarSister/OvermapPop0
+Mercy is for the weak!
+
+CompWarSister/OvermapPop1
+IN THE NAME OF THE SAINT!
+
+CompWarSister/OvermapPop2
+No time to pity the non-believers.
+
+CompWarSister/OvermapPop3
+PURGE AND DESTROY!
+
+####################################################################################################################################################
+
+CompOrkindSlayer/CompData
+\board[Orkind Slayer]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Melee, Defense, Sex skills
+\C[2]Alignment：\C[0]Sybaris (Neutral)
+\C[2]Hostile to：\C[0]Orkinds, Orcs. And yes, Goblins
+\C[2]Cost：\C[0]1 Good Soup\i[110]
+\C[2]Duration：\C[0]3.5 Days
+A paranoid avenger... Did I mention he hates Orcs and Goblins?
+
+CompOrkindSlayer/begin
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Orkind Slayer：\c[0]    They killed my family...
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Orkind Slayer：\c[0]    I MUST KILL ALL ORKINDS!
+
+CompOrkindSlayer/Comp_disband
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Orkind Slayer：\c[0]    No! I want to kill more Orkinds!
+
+CompOrkindSlayer/Comp_win
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Orkind Slayer：\c[0]    Go! We shall slay many Orcs and Goblins together!!!
+
+CompOrkindSlayer/Comp_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Orkind Slayer：\c[0]    Grrr! This has nothing to do with Orkinds!
+\CBct[6]\m[sad]\plf\c[6]Lona：\c[0]    Sorry...
+
+CompOrkindSlayer/Slave_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]Orkind Slayer：\c[0]    What can a slave do, other than be bait?!
+\CBct[6]\m[sad]\plf\c[6]Lona：\c[0]    Sorry...
+
+CompOrkindSlayer/OrkindGroup_run
+\SETpl[OrkindSlayer]\Lshake\prf\c[4]Orkind Slayer：\c[0]    NOOO!!! ALL ORCS AND GOBLINS MUST DIE!!!
+
+CompOrkindSlayer/OvermapPop0
+I miss my sister's stew...
+
+CompOrkindSlayer/OvermapPop1
+These are not Orkinds!
+
+CompOrkindSlayer/OvermapPop2
+Crush all Orkind bones!
+
+CompOrkindSlayer/OvermapPop3
+Kill all Orkinds!
+
+####################################################################################################################################################
+
+CompHumanExplorer/CompData
+\board[Jobless Treasure Hunter]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Stunner, Counter-trap, Lantern
+\C[2]Alignment：\C[0]Neutral
+\C[2]Hostile to：\C[0]Evil Creatures
+\C[2]Cost：\C[0]1 Meat Soup\i[108]
+\C[2]Duration：\C[0]2.5 Days
+\C[2]Note：\C[0]Every time the area map is updated, -20 to Environmental Danger.
+An adventurer trapped on this Saint-forsaken island.
+
+CompHumanExplorer/begin
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Treasure Hunter：\c[0]    I wanted to explore the underground ruins of Sybaris.
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Treasure Hunter：\c[0]    Now I'm stuck here, I can't even afford anything to eat.
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Treasure Hunter：\c[0]    Do you need any places that need to be explored?\n Buy me a meal first and I'll help you.
+
+CompHumanExplorer/Comp_disband
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Treasure Hunter：\c[0]    Damn it, what about my meal for tomorrow?!
+
+CompHumanExplorer/Comp_win
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Treasure Hunter：\c[0]    Thanks kid!
+
+CompHumanExplorer/Comp_failed
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]Treasure Hunter：\c[0]    Are you kidding me?!
+
+CompHumanExplorer/OvermapPop0
+Ever been to the Eastern ruins?
+
+CompHumanExplorer/OvermapPop1
+Snakes! I hate snakes!!!
+
+CompHumanExplorer/OvermapPop2
+There should be relics of old Gods on this island.
+
+CompHumanExplorer/OvermapPop3
+The underground ruins of Sybaris are spectacular.
+
+####################################################################################################################################################
+
+CompKitten/CompData
+\board[Kitty]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Unknown
+\C[2]Alignment：\C[0]Animal
+\C[2]Hostile to：\C[0]Neutral
+\C[2]Cost：\C[0]1 Fish\i[292]
+\C[2]Duration：\C[0]Whenever it feels like leaving.
+\C[2]Note：\C[0]An evil looking cat.
+It seems to be looking down on you...
+
+CompKitten/begin
+\CBid[-1,8]\c[4]Kitty：\c[0]    ........
+
+CompKitten/Comp_disband
+\CBid[-1,8]\c[4]Kitty：\c[0]   ...Meow!
+
+CompKitten/Comp_win
+\CBid[-1,3]\c[4]Kitty：\c[0]    *Purrrr*... ♥
+
+CompKitten/Comp_failed
+\CBid[-1,5]\c[4]Kitty：\c[0]    *HISSS*!
+
+CompKitten/Command
+\CBid[-1,5]\c[4]Kitty：\c[0]    *HIIISS*!
+
+CompKitten/OPT_PURR
+\CBid[-1,3]\c[4]Kitty：\c[0]    *Purr*... Mew...
+\narr\..\..\..\..
+\CBct[8]\narrOFF\m[flirty]\plf\PRF\c[6]Lona：\c[0]    I don't know why... But I suddenly feel a lot happier!
+
+####################################################################################################################################################
+
+CompDoggy/CompData
+\board[Doggy]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Fast melee, Counter-trap
+\C[2]Alignment：\C[0]Animal
+\C[2]Hostile to：\C[0]Chosen by Lona
+\C[2]Cost：\C[0]1 Meat Soup\i[108]
+\C[2]Duration：\C[0]None
+\C[2]Note：\C[0]Every time the area map is updated, -20 to Environmental Danger.
+A stray mutt with no self-esteem. Can easily be bribed.
+
+CompDoggy/begin
+\CBid[-1,20]\c[4]Doggy：\c[0]    Woof! Wuff!
+
+CompDoggy/Comp_disband
+\CBid[-1,20]\SndLib[dogDead]\c[4]Doggy：\c[0]   *Whimper*...~
+
+CompDoggy/Comp_win
+\CBid[-1,20]\c[4]Doggy：\c[0]    WOOF! ♥
+
+CompDoggy/Comp_failed
+\CBid[-1,5]\c[4]Doggy：\c[0]    Grrrrrr!
+
+CompDoggy/Command
+\CBid[-1,20]\SndLib[dogSpot]\c[4]Doggy：\c[0]    Wuff wuff!
+
+CompDoggy/SetupFateEnemy
+Choose which NPCs, Creatures, or Alignments Doggy should attack on sight!\optD[Nothing,Attack Evil Alignments,Attack Good Alignments,Animals<r=HiddenOPT0>,Orkinds<r=HiddenOPT1>,Fishkinds/Deepones<r=HiddenOPT2>,Abominations<r=HiddenOPT3>,Undeads<r=HiddenOPT4>]
+
+####################################################################################################################################################
+
+CompHumanSpear/CompData
+\board[Drug-addicted Mercenary]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Fast melee
+\C[2]Alignment：\C[0]Neutral
+\C[2]Hostile to：\C[0]Evil Creatures
+\C[2]Cost：\C[0]1 White Dragon Weed\i[203]
+\C[2]Duration：\C[0]3 Days
+A mercenary who's addicted to White Dragon Weeds.
+
+CompHumanSpear/begin
+\CBid[-1,6]\c[4]Junkie：\c[0]    Ya got any White Dragon Weed? Please! Just gimmie one! 1 White Dragon Weed!
+
+CompHumanSpear/Comp_disband
+\CBid[-1,6]\c[4]Junkie：\c[0]    Give me a little more! Just a little bit!
+
+CompHumanSpear/Comp_win
+\CBid[-1,6]\c[4]Junkie：\c[0]    Give me! Give it to me! Quickly!
+
+CompHumanSpear/Comp_failed
+\CBid[-1,6]\c[4]Junkie：\c[0]    No... White Dragon Weed! I NEED IT!!!
+
+CompHumanSpear/OvermapPop0
+Got Weed?
+
+CompHumanSpear/OvermapPop1
+Huuu hee heeee...
+
+CompHumanSpear/OvermapPop2
+Ooh hee heeee...
+
+CompHumanSpear/OvermapPop3
+Is that Dragon Weed?
+
+####################################################################################################################################################
+
+CompElfArcher/CompData
+\board[Elven Archer]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Ranged, Arcing shot
+\C[2]Alignment：\C[0]Neutral
+\C[2]Hostile to：\C[0]Evil Creatures
+\C[2]Cost：\C[0]600 Trade Points
+\C[2]Duration：\C[0]3 Days
+\C[2]Note：\C[0]Every time the area map is updated, -20 to Environmental Danger.
+An Elven Archer trapped on the island. She looks disappointed and bored.
+
+CompElfArcher/begin
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elven Archer：\c[0]    I thought the human world was going to be fun and full of adventure, but I was wrong...
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elven Archer：\c[0]    Yes, I am an Elf! ...And no, we don't poop!
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elven Archer：\c[0]    I'm sick of this horrible place! I need to save my money so I can go back home!
+
+CompElfArcher/Comp_disband
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elven Archer：\c[0]    It was nice working with you.
+
+CompElfArcher/Comp_win
+\CBid[-1,20]\SETpl[ElfArcher]\Lshake\c[4]Elven Archer：\c[0]    Finally, time for an adventure!
+
+CompElfArcher/Comp_failed
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]Elven Archer：\c[0]    I knew it! All humans are LIARS!
+
+CompElfArcher/Comp_failed_slave
+\CBid[-1,5]\SETpl[ElfArcher]\Lshake\c[4]Elven Archer：\c[0]    A filthy slave? Fuck off!
+
+CompElfArcher/OvermapPop0
+Where have all the good men gone?
+
+CompElfArcher/OvermapPop1
+It's pure muscle, not fat!
+
+CompElfArcher/OvermapPop2
+Humans are so dirty!
+
+CompElfArcher/OvermapPop3
+YES! We dont use the toilet!
+
+CompElfArcher/CompFile
+\SETpl[ElfArcher]...
+
+####################################################################################################################################################
+
+CompHumanScout/CompData
+\board[Guide]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Melee, Lantern
+\C[2]Alignment：\C[0]Neutral
+\C[2]Hostile to：\C[0]Evil Creatures
+\C[2]Cost：\C[0]600 Trade Points
+\C[2]Duration：\C[0]3 Days
+A retired soldier, now working as a guide for others.
+
+CompHumanScout/begin
+\CBid[-1,20]\c[4]Guide：\c[0]    My family lives at the port of Noer. Look, this is their portrait.
+\CBid[-1,20]\c[4]Guide：\c[0]    I'm just here to feed my family, where do you need me?
+
+CompHumanScout/Comp_disband
+\CBid[-1,20]\c[4]Guide：\c[0]    Okay, I should go home too.
+
+CompHumanScout/Comp_win
+\CBid[-1,20]\c[4]Guide：\c[0]    Alright then, let's do this.
+
+CompHumanScout/Comp_failed
+\CBid[-1,5]\c[4]Guide：\c[0]    Sorry, not interested.
+
+CompHumanScout/Comp_failed_slave
+\CBid[-1,5]\c[4]Guide：\c[0]    Go back to your master, slave.
+
+CompHumanScout/OvermapPop0
+My son is about your age.
+
+CompHumanScout/OvermapPop1
+Ever been to Fisherman Isle?
+
+CompHumanScout/OvermapPop2
+The North Coast was lovely...
+
+CompHumanScout/OvermapPop3
+Look, this is my son.
+
+####################################################################################################################################################
+
+CompFishGuard/CompData
+\board[Fishtopia Body Guard]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Melee, Grab
+\C[2]Alignment：\C[0]Fishkind
+\C[2]Hostile to：\C[0]Evil Creatures, The Saint's Society
+\C[2]Cost：\C[0]Nymphomaniac or Prostitute trait
+\C[2]Duration：\C[0]3 Days
+A warrior from Fishtopia's tribe. Single, wants to mate.
+
+CompFishGuard/begin
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Body Guard：\c[0]    The smell of a girl...! I must... Protect girl...!
+
+CompFishGuard/sex0
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Body Guard：\c[0]    I protect you! But want... Breeding... After...!!!
+
+CompFishGuard/sex1
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Body Guard：\c[0]    Guu-Huuhee... ♥ Healthy... Girl... Mating... ♥♥♥
+
+CompFishGuard/Comp_disband
+\CBid[-1,6]\SndLib[FishkindLgSpot]\c[4]Body Guard：\c[0]    I... Still want... Breeding...!
+
+CompFishGuard/Comp_win
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]Body Guard：\c[0]    Girl's pussy... *Snooort* Pussy... Good smell... ♥
+
+CompFishGuard/Comp_failed
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]Body Guard：\c[0]    Girl's pussy... *Sniff* Pussy... Bad! BAD!
+
+CompFishGuard/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindLgSpot]\c[4]Body Guard：\c[0]    Slave... Go back... Village... Give birth... Many children...
+
+CompFishGuard/OvermapPop0
+Me... Want to... Breed...
+
+CompFishGuard/OvermapPop1
+You will... Give birth many.
+
+CompFishGuard/OvermapPop2
+Pussy... Want to mate...
+
+CompFishGuard/OvermapPop3
+Girls only purpose... Many babies...
+
+####################################################################################################################################################
+
+CompFishShaman/CompData
+\board[Novice Fishkind Shaman]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Ranged, Magic, Arcing shot
+\C[2]Alignment：\C[0]Fishkind
+\C[2]Hostile to：\C[0]Evil Creatures, The Saint's Society
+\C[2]Cost：\C[0]Nymphomaniac or Prostitute trait
+\C[2]Duration：\C[0]3 Days
+A beginner Fishkind shaman. Eager to explore the world.
+
+CompFishShaman/begin
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Shaman：\c[0]    Young... Dark skin... Girl... Fresh... Want taste... ♥ The Sea Witch blesses you...♥
+
+CompFishShaman/sex0
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Shaman：\c[0]    Guu-Hee! ♥ Mate with me... Girl! My seed juices... Blessed by Sea Witch...
+
+CompFishShaman/sex1
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Shaman：\c[0]    Guu ♥ Guu-Heehee! ♥ My seed... Will get you... Pregnant!!! ♥
+
+CompFishShaman/Comp_disband
+\CBid[-1,6]\SndLib[FishkindSmSpot]\c[4]Shaman：\c[0]    Don't leave... Me like... Dark meat... Girl... ♥
+
+CompFishShaman/Comp_win
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]Shaman：\c[0]    Praise the Sea Witch...! For she has... Blessed me with... A mate!
+
+CompFishShaman/Comp_failed
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]Shaman：\c[0]    The Sea Witch... Has forsaken me! Ugly vagina...!
+
+CompFishShaman/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]Shaman：\c[0]    Slave...! Go back... To village!
+
+CompFishShaman/OvermapPop0
+It's... A girl...!
+
+CompFishShaman/OvermapPop1
+All vagina... I want...!
+
+CompFishShaman/OvermapPop2
+Dark skin... Want taste...
+
+CompFishShaman/OvermapPop3
+The Sea Witch... Blesses me!
+
+################################## fishkind follower unique sex dialog.
+
+Lona/notWhore0
+\CBct[6]\m[flirty]\c[6]Lona：\c[0]    Ummm... On second thought, never mind.
+
+Lona/notWhore1
+\CBct[6]\m[sad]\c[6]Lona：\c[0]    Sorry...
+
+CompFish/Extension
+\narr He can extend his services for 2 more days. Only if Lona satisfies his sexual desires...
+
+####################################################################################################################################################
+
+CompFireMage/CompData
+\board[Fire Magician]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Ranged, Magic
+\C[2]Alignment：\C[0]Neutral
+\C[2]Hostile to：\C[0]Evil Creatures
+\C[2]Cost：\C[0]1 Blue Potion or 2 White Dragon Grass\i[213]\i[203]
+\C[2]Duration：\C[0]2.5 Days
+A poor, but gifted female mage.
+
+CompFireMage/begin
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Fire Magician：\c[0]    Guh... I'm so tired.
+
+CompFireMage/Comp_disband
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Fire Magician：\c[0]    Hey... Why aren't there any other mercs willing to team up with me?
+
+CompFireMage/Comp_win
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Fire Magician：\c[0]    Seriously?! Thank you so much!
+
+CompFireMage/Comp_failed
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]Fire Magician：\c[0]    Ugh... Sooo tired...
+
+CompFireMage/OvermapPop0
+I just love the burning smell!
+
+CompFireMage/OvermapPop1
+I just wanna set the world... on... FIRE!
+
+CompFireMage/OvermapPop2
+Can this whole world just burn to ashes? Please?
+
+CompFireMage/OvermapPop3
+I really wanna play with some fireworks...
+
+CompFireMage/OvermapPop4
+Nothing can cool down the flame in my heart!
+
+####################################################################################################################################################
+
+CompMusketeer/CompData
+\board[Musketeer]
+\C[2]Position：\C[0]Rear
+\C[2]Combat Type：\C[0]Ranged, Arcing shot, Stealth
+\C[2]Alignment：\C[0]Noer Guards
+\C[2]Hostile to：\C[0]Evil Creatures
+\C[2]Cost：\C[0]4 Bottled Beers\i[361]
+\C[2]Duration：\C[0]5 Days
+\C[2]Note：\C[0]Can use #{$story_stats["HiddenOPT0"]}+#{$story_stats["HiddenOPT1"]} to trigger stealth, will not actively attack enemies while sneaking.
+An elite soldier transferred from the \c[4]Kingdom of Ingalend\c[0], skilled in stealth and use of muskets.
+A pity he suffers from brain damage due to lack of taking leave for a very long time.
+Yep. A mean, green, mentally retarded marine.
+
+CompMusketeer/begin_nonInGroup
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Musketeer：\c[0]    HALT! WHAT IS THE PASSWORD?!
+
+CompMusketeer/begin
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Musketeer：\c[0]    H'ATTENTION! SALUTATIONS, SIR!
+
+CompMusketeer/Comp_disband
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Musketeer：\c[0]    Take leave? WITHOUT THE APPROPRIATE REQUEST AND AUTHORITY FOR ABSENCE?! ABANDON MY POST AND SQUAD?!
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Musketeer：\c[0]    \{THAT IS JUST IMPOSSIBLE, SIR!
+
+CompMusketeer/Comp_win
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Musketeer：\c[0]    AFFIRMATIVE!
+
+CompMusketeer/Comp_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Musketeer：\c[0]    THIS IS A WRONGFUL DISCIPLINARY ACTION! I WISH TO APPEAL!
+
+CompMusketeer/Weak_failed
+\SETpl[Musketeer]\Lshake\CBid[-1,20]\c[4]Musketeer：\c[0]    YOU DARE GIVE ME ORDERS? YOU DON'T HAVE THE RANK!
+
+CompMusketeer/CommonPop0
+AFFIRMATIVE, SIR!
+
+CompMusketeer/CommonPop1
+ROGER THAT!
+
+CompMusketeer/OvermapPop0
+AH H'WUN TWO WUN TWO WUN TWO!
+
+CompMusketeer/OvermapPop1
+HONOR! COURAGE! COMMITMENT!
+
+CompMusketeer/OvermapPop2
+OORAH! HOOAH!
+
+CompMusketeer/OvermapPop3
+PRESEEENT-! -H'ARMS!
+
+######################################################################## 
+
+########################################################################
+
+CompNinjaKiller/CompData
+\board[Myopic Assassin]
+\C[2]Position：\C[0]Front
+\C[2]Combat Type：\C[0]Melee
+\C[2]Alignment：\C[0]Sybaris
+\C[2]Hostile to：\C[0]Evil Creatures
+\C[2]Cost：\C[0]20 Throwing Kunai\i[58]
+\C[2]Duration：\C[0]5 Days
+\C[2]Note：\C[0]Can use#{$story_stats["HiddenOPT0"]}+#{$story_stats["HiddenOPT1"]}to activate sneak，will not actively attack while sneaking.\n
+\n
+A warrior in Sybaris that became full of themselves after coming in contact with eastern culture.\n
+While he may have some confidence in assassinations, he is unfortunately short-sighted.
+
+CompNinjaKiller/begin_nonInGroup0
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    DOMO!
+
+CompNinjaKiller/begin_nonInGroup1
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    Glasses？
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    Namu Amida Butsu！I'm not short-sighted！This is a magic tool to scan BATTLERU-POWAH！
+
+CompNinjaKiller/begin
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    All the SHUGYO I received was for today!
+
+CompNinjaKiller/Comp_disband
+\CBid[-1,6]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    Have you given up on your JINSEI?
+
+CompNinjaKiller/Comp_win
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    Let us teach these ZAKO a lesson!
+
+CompNinjaKiller/Comp_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    You haven't proven to me your POWER LEVEL.
+
+CompNinjaKiller/Weak_failed
+\CBid[-1,20]\SETpl[NinjaKiller]\Lshake\c[4]Eastern Assassin：\c[0]    Weaklings are not worthy!
+
+CompNinjaKiller/CommonPop0
+ME! SA! TSU!
+
+CompNinjaKiller/CommonPop1
+NINJA! NO MERCY!
+
+CompNinjaKiller/OvermapPop0
+Bakana! The philosophers have foretold this!
+
+CompNinjaKiller/OvermapPop1
+The east does not have such things? Bakana!
+
+CompNinjaKiller/OvermapPop2
+My misunderstanding? Bakana!
+
+CompNinjaKiller/OvermapPop3
+Bakana! Ninjas definitely exist!
+
+####################################################################################################################################################
+
+CompHorseCarry/CompData
+\board[Draft Horse]
+\C[2]Position：\C[0]Non-combative
+\C[2]Alignment：\C[0]Animal
+\C[2]Hostile to：\C[0]None
+You may rent this animal every half day for #{$story_stats["HiddenOPT1"]}P.
+The draft horse has a large Carrying Capacity.
+Please be sure to retrieve your stored belongings from the draft horse before it is disbanded, abandons your party, or dies.
+Otherwise, you will lose all items stored with the horse.
+
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.
+*TL note, CompMusketeer/OvermapPop's texts have been rewritten/westernized from CHT to fit western military for ENG readers.

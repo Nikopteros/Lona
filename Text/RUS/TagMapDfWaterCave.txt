@@ -1,0 +1,472 @@
+thisMap/OvermapEnter
+\m[confused]Водная Пещера \optB[Отмена,Войти]
+
+##########################################################################################  Inside
+
+keeper/0_opt
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\c[4]Последователь：\C[0]    Кто ты? Откуда ты знаешь об этом месте? \optB[Просто мимо проходила,Николас<r=HiddenOPT0>]
+
+keeper/1_1Passby
+\CBct[8]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Э-э... Просто проходила мимо!
+
+keeper/1_1HerName
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    \c[4]Николас\C[0]?
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    Ты новичок в церкви? Я тебя раньше не видел.
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    Неважно, заходи.
+
+keeper/1_1Passby_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Лжец! Съешь его!
+
+aggro/Cocona0
+\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Хорошие друзья! Съедим лжеца вместе!
+
+aggro/Cocona1
+\SETlpl[cocona_angry]\Lshake\prf\c[4]Кокона：\C[0]    Кокона защищает свою сестру!
+
+keeper/1_1HerName_cocona
+\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Лжец! Это лжец!
+\CBct[8]\m[serious]\Rshake\plf\c[6]Лона：\C[0]    Кокона! Не надо!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Но... Лжец... Чтобы съесть дочиста...
+\CBct[8]\m[shocked]\Rshake\plf\c[6]Лона：\C[0]    Хорошая девочка. Оставь его своей сестре.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Мяу...
+
+keeper/Aggro
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    \{Нас атакуют!!!
+\CBct[8]\m[shocked]\Rshake\c[6]Лона：\C[0]    \{Что!?
+
+keeper/Aggro_captured
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    Жертва убегает!
+\CBct[8]\m[shocked]\Rshake\c[6]Лона：\C[0]    \{Аааййй!?
+
+keeper/Aggro_captured_loop
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    .....
+
+thisMap/Aggro
+\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    Нарушитель!
+\CBct[8]\m[shocked]\Rshake\c[6]Лона：\C[0]    \{Чёрт!
+
+thisMap/Aggro_captured
+\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    Кто-то предал Мать Плодородия!!!
+\CBct[8]\m[terror]\Rshake\c[6]Лона：\C[0]    \{Вот дерьмо!
+
+Df_Heresy/rg27_1
+\SETpl[AnonMale2]\PLF\prf\c[4]Последователь：\C[0]    Кто-то предал Мать Плодородия!!!
+
+SexPartyOP/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Лона：\C[0]    *кашель*\..\Rshaked *кашель*\..\Rshaked *кашель*...!
+\CBct[20]\m[pain]\Rshake\c[6]Лона：\C[0]    Пахнет рыбой.....
+
+SexPartyOP/1
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    А?
+
+SexPartyOP/2_1
+\BonMP[PigMan,20]\c[4]Свиноголовый：\C[0]    Отлично... Да... Вот оно....
+\BonMP[PigMan,20]\c[4]Свиноголовый：\C[0]    Вот оно! Идёт! Приближается!
+
+SexPartyOP/2_2
+\BonMP[PigMan,4]\c[4]Свиноголовый：\C[0]    Оххххххх!!!
+
+SexPartyOP/2_3
+\BonMP[PigMan,4]\c[4]Свиноголовый：\C[0]    Проглоти моё семя! Пусть ваши собратья получают удовольствие!
+
+SexPartyOP/3
+\BonMP[PigMan,4]\c[4]Свиноголовый：\C[0]    Удобно!!!
+\BonMP[PigMan,20]\c[4]Свиноголовый：\C[0]    О Великая \c[6]Мать Плодородия\C[0]!
+\BonMP[PigMan,20]\c[4]Свиноголовый：\C[0]    Услышь наш призыв! Мы приносим тебе эту дань уважения!
+\BonMP[PigMan,20]\c[4]Свиноголовый：\C[0]    Забери наши страхи! Даруй нам радость!
+\BonMP[PigMan,20]\c[4]Свиноголовый：\C[0]    Придите, обманутые ложными богами, придите к своему истинному Богу!
+
+SexPartyOP/3_1
+\BonMP[PigMan,20]\c[4]Свиноголовый：\C[0]    Братья и сёстры! Молитесь за наших новых сестёр!
+
+SexPartyOP/4
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Верующий：\C[0]    Ура! Ура! \c[6]Николас\C[0]!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Верующий：\C[0]    Ура! Ура! \c[6]Николас\C[0]!!
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Верующий：\C[0]    Ура! Ура! \c[6]Николас\C[0]!!!
+
+SexPartyOP/4_1
+\c[4]Подношение：\C[0]    \{Ааааахххххххх!!!!
+
+SexPartyOP/4_2
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Верующий：\C[0]    Спасибо тебе, \c[6]Мать Плодородия\C[0]! Хвала \c[6]Матери Плодородия\C[0]!
+
+SexPartyOP/5
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]Верующий：\C[0]    О \c[6]Мать Плодородия\C[0]! Убери её страхи!
+
+SexPartyOP/6
+\m[shocked]\Rshake\c[6]Лона：\C[0]    Что это? Демон в чёрном тумане? Демоны плоти?
+\m[terror]\Rshake\c[6]Лона：\C[0]    Нет... Невозможно... Что-то подобное не может существовать в этом мире....
+
+SexPartyOP/end_cocona
+\narr \......\......\......
+\narrOFF\CBfB[20]\SETlpl[cocona_shocked]\Lshake\prf\c[4]Кокона：\C[0]    Сестра! Проснись!
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Уа-уа! Оставьте меня в покое!
+
+SexPartyOP/end1
+\CBct[20]\m[shocked]\Rshake\c[6]Лона：\C[0]    Просто.... Что только что произошло?
+
+SexPartyOP/end1_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Сестра стала хорошим другом...
+\CBct[20]\m[confused]\plf\PRF\c[6]Лона：\C[0]    Хороший друг? Умер?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Не волнуйся, я в порядке.
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Ауу....
+
+SexPartyOP/end2
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Лона：\C[0]    ОУУУ....
+\CBct[20]\m[pain]\Rshake\c[6]Лона：\C[0]    Внизу живота горячо \..\..　Я так сильно хочу этого \...
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Лона：\C[0]    \..\..\..
+\CBct[20]\m[serious]\Rshake\c[6]Лона：\C[0]    Нет, подожди, я могу сдержаться.
+
+SexPartyOP/end2_cocona
+\CBfB[20]\SETlpl[cocona_sad]\Lshake\prf\c[4]Кокона：\C[0]    Сестра?
+\CBct[20]\m[flirty]\plf\PRF\c[6]Лона：\C[0]    Не бойся. Я в порядке, правда...
+
+######################################################################  Common Dialog
+
+Df_Heresy/4CommonerF_QuRng0_0
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Вы знаете кто такая \c[4]Азура\C[0]?
+
+Df_Heresy/4CommonerF_QuRng0_1
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Вы знаете где находится \c[4]Азура\C[0]?
+
+Df_Heresy/4CommonerF_QuRng0_2
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Э-э... \c[4]Азура\C[0]?
+
+CommonerF/Rng0
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Я так хочу чтобы меня трахнули! Кто будет меня трахать?
+
+CommonerF/Rng1
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Трахни меня! Трахни меня! Забери мои страхи!
+
+CommonerF/Rng2
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Мать Плодородия смотрит на меня! Я чувствую её!
+
+Df_Heresy/4CommonerF_QuRngEND
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Хм......
+
+Priest/Qmsg0
+Я чувствую это!
+
+Priest/Qmsg1
+Он идёт!
+
+Priest/Qmsg2
+Исаак Николас!
+
+Fcommoner/Qmsg0
+Хахахаха... Хахаха
+
+Fcommoner/Qmsg1
+Хих-хи... Хухуху...
+
+Fcommoner/Qmsg2
+Член.... Большой член....
+
+Mcommoner/Qmsg0
+Я сейчас кончу!
+
+Mcommoner/Qmsg1
+Я должен кончить!
+
+Mcommoner/Qmsg2
+Ооооооооооооооооох!!
+
+Mcommoner/RapeLoopPick_begin
+\CBct[4]\m[lewd]\PRF\c[6]Лона：\C[0]    Лорд Свиноголовый хочет чтобы я почистила твою мясную палку....?
+\CBct[6]\m[tired]\PRF\c[6]Лона：\C[0]    Хочешь трахнуть меня как можно сильнее?
+
+Mcommoner/RapeLoopPick_0
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Я хочу трахаться! Я хочу трахаться!!!
+
+Mcommoner/RapeLoopPick_1
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Вылижи мой член! Мне нужно чтобы ты облизала мой член прямо сейчас ♥
+
+Mcommoner/RapeLoopPick_2
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Я хочу в туалет! Давай свой рот сюда ♥
+
+Mcommoner/RapeLoopPick_3
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Я хочу кончить! Давай малышка ♥ Наклонись ♥
+
+Mcommoner/RapeLoopPick_Start
+\CBct[6]\m[tired]\PRF\c[6]Лона：\C[0]    Да....
+
+Mcommoner/RapeLoopPick_END
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Ху-ху.... ♥
+\CBct[3]\m[lewd]\PRF\c[6]Лона：\C[0]    Спасибо ♥
+
+Mcommoner/RapeLoopPick_SuckDick1_0
+\CBid[-1,4]\c[4]Верующий：\C[0]    Ооо! Отлично ♥
+
+Mcommoner/RapeLoopPick_SuckDick1_1
+\CBid[-1,4]\c[4]Верующий：\C[0]    Да, это то самое место! ♥
+
+Mcommoner/RapeLoopPick_SuckDick2
+\CBid[-1,4]\c[4]Верующий：\C[0]    \{Оххххххх ♥♥♥
+
+##########################################################################################  rapeloop
+
+NapCapture/0
+\narr Лона была схвачена и все её вещи были украдены.
+
+NapRngRape/0_0
+\c[4]Верующий：\C[0]    Это киска!!! Это моя киска!!! Спасибо Матери Плодородия!
+
+NapRngRape/0_1
+\c[4]Верующий：\C[0]    Киска! Мне нужно туда попасть!
+
+NapRngRape/1_0_NO
+\c[4]Верующий：\C[0]    Как может моя киска сопротивляться! Киска должна быть трахнута!
+
+RapeLoop/FirstTime0
+\m[tired]\c[6]Лона：\C[0]    Я хочу сделать это.... Я хочу иметь детей...
+
+RapeLoop/FirstTime1
+\m[confused]\c[6]Лона：\C[0]     Где я? Что я делаю?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[pain] Что у меня перед ртом?
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[hurt] Ооох... Воняет...
+
+RapeLoop/FirstTime2
+\Rflash\SndLib[sound_chcg_full]\CBmp[PigMan,20]\c[4]Свиноголовый：\C[0]    Мать Плодородия! Помоги избавить её от всех страхов!
+
+RapeLoop/FirstTime3
+\CBct[6]\m[hurt]\Rshake\c[6]Лона：\C[0]    Ахх....
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Мать Плодородия рассеет твои тревоги, и ты больше не будешь чувствовать ни страха ни боли.
+\CBct[6]\m[tired]\Rshake\c[6]Лона：\C[0]    Ахх.... Кто ты?
+
+RapeLoop/FirstTime3_1
+\CBct[2]\m[tired]\PRF\c[6]Лона：\C[0]    Где я? Что я делаю?
+
+RapeLoop/FirstTime3_2
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Что... Это?
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Это милость Матери Плодородия, которая поможет тебе забыть все страхи и тревоги.
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Выпей это, и ты станешь одной из нас.
+\CBct[2]\m[tired]\PRF\c[6]Лона：\C[0]    Хорошо...
+
+RapeLoop/FirstTime4
+\CBmp[PigMan,20]\c[4]Свиноголовый：\C[0]    Очень хорошо! Очень хорошо! Ты будешь нашей мясной дыркой!
+\CBmp[PigMan,20]\c[4]Свиноголовый：\C[0]    Ты станешь частью нас! Нашей мясной дыркой!
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Я... Дыркой?
+\CBmp[PigMan,20]\c[4]Свиноголовый：\C[0]    Братья и сёстры! Выпьем за нашу новую сестру!
+
+RapeLoop/FirstTime4_1
+\BonMP[PPL4,20]\BonMP[PPL5,20]\BonMP[PPL6,20]\BonMP[PPL7,20]\c[4]Верующий：\C[0]    Ура! Ура! \c[6]Николас\C[0]!
+
+RapeLoop/FirstTime5
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Дитя моё, теперь ты одна из нас.
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Иди.... Иди и прими любовь своих братьев. Помоги им забыть о своих страхах.
+\CBct[6]\m[tired]\Rshake\c[6]Лона：\C[0]    Да, сэр...
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Лона：\C[0]    АХХ....
+\CBct[20]\m[lewd]\PRF\c[6]Лона：\C[0]    Я хочу\..\..　Я хочу\...
+\CBct[20]\m[shy]\Rshake\c[6]Лона：\C[0]    Что не так с моим телом?
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]Лона：\C[0]    АХХ....
+\CBct[20]\m[lewd]\PRF\c[6]Лона：\C[0]    Жарко... Так жарко!
+
+actionRapeLoop/Wall0_0
+\CBct[1]\m[shocked]\Rshake\c[6]Лона：\C[0]    Подожди? Мне уйти?!
+
+actionRapeLoop/Wall0_1
+\CBct[1]\m[terror]\Rshake\c[6]Лона：\C[0]    Я должна кого-то трахнуть!
+
+actionRapeLoop/Wall0_2
+\CBct[1]\m[serious]\Rshake\c[6]Лона：\C[0]    Я должна сделать моих братьев и сестёр счастливыми!?
+
+actionRapeLoop/Wall0_3
+\CBct[1]\m[sexhurt]\Rshake\c[6]Лона：\C[0]    Я должна заставить их кончить!?
+
+actionRapeLoop/Wall0_NotEnough
+\CBct[6]\m[pain]\Rshake\c[6]Лона：\C[0]    АХХ....
+
+actionRapeLoop/Wall0_Break
+\CBct[20]\m[serious]\Rshake\c[6]Лона：\C[0]    ОХХ... Соберись.... Уходи...
+
+actionRapeLoop/commoner_opt
+\CBct[6]\m[lewd]\Rshake\c[6]Лона：\C[0]    Я... Какого чёрта я делаю? \optB[Не брать в голову,Флиртовать]
+
+actionRapeLoop/Wall1_opt
+\CBct[6]\m[tired]\Rshake\c[6]Лона：\C[0]    Я... Какого чёрта я делаю? \optB[Продолжить,Сопротивляться]
+
+actionRapeLoop/Sleep_opt
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]    Я не могу отдыхать! Мне нужно работать!!!\optD[Продолжить,Спать]
+
+actionRapeLoop/DidntDoSex_PlusAggroRate0_0
+\narr\cg[event_Eyes] Лона не участвовала в священном общении с остальными членами общины...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_1
+\narr Это очень расстроило прихожан...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_2
+\narr Верующие начали подозревать, что Лона...
+
+actionRapeLoop/DidntDoSex_PlusAggroRate1_3
+\narr Верующие решили принести изменницу в жертву...
+
+actionRapeLoop/Blocked0
+\CBct[6]\m[terror]\Rshake\c[6]Лона：\C[0]    Нет! Я должна помочь всем забыть о своих страхах!
+
+actionRapeLoop/Blocked1
+\CBct[6]\m[shocked]\Rshake\c[6]Лона：\C[0]   Нет! Я верю в Мать Плодородия! Я должна трахаться!
+
+actionRapeLoop/Blocked2
+\CBct[6]\m[bereft]\Rshake\c[6]Лона：\C[0]    Нет! Я должна дать кому-то кончить в меня! Это моя ответственность!
+
+wakeUp/suckDick-0
+\CBct[6]\m[confused]\Rshake\c[6]Лона：\C[0]    Где я? Что мне делать?
+\CBct[6]\m[lewd]\Rshake\c[6]Лона：\C[0]    Правильно! Я хочу есть вонючие мясные палочки...
+
+wakeUp/suckDick0_0
+\CBct[6]\m[lewd]\Rshake\c[6]Лона：\C[0]    Мясная палочка... Вкуснятина...
+
+wakeUp/suckDick0_1
+\CBct[6]\m[lewd]\Rshake\c[6]Лона：\C[0]    Я должна вылизать его дочиста...
+
+wakeUp/suckDick0_2
+\CBct[6]\m[lewd]\Rshake\c[6]Лона：\C[0]    Моя долг - очистить его.
+
+wakeUp/suckDick1_0
+\CBmp[PigMan,4]\c[4]Свиноголовый：\C[0]    Да, хорошо, вот так.
+
+wakeUp/suckDick1_1
+\CBmp[PigMan,4]\c[4]Свиноголовый：\C[0]    Да, это обязанность, возложенная на тебя Матерью Плодородия.
+
+wakeUp/suckDick1_2
+\CBmp[PigMan,4]\c[4]Свиноголовый：\C[0]    Браво! Мать Плодородия гордится тобой!
+
+wakeUp/suckDick1_pee
+\CBmp[PigMan,4]\c[4]Свиноголовый：\C[0]    Подними голову. Ты получишь сущность плодородия.
+\CBct[6]\m[tired]\PRF\c[6]Лона：\C[0]    Да, сэр....
+
+wakeUp/suckDick2
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Ты отлично справляешься со своей работой. Но твои братья всё ещё живут в страхе.
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Давай, освободи их от страхов.
+\CBct[4]\m[lewd]\PRF\c[6]Лона：\C[0]    Спасибо, сэр Свиноголовый. Лона позволит им трахнуть себя.
+
+wakeUp/suckDick3
+\CBct[2]\m[lewd]\PRF\c[6]Лона：\C[0]    Должна ли я позволить им трахать меня? Обязательно ли есть мясные палочки?
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Чей член я должна взять?
+
+wakeUp/GangRape0
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Ты молодец, дитя.
+\CBct[3]\m[lewd]\PRF\c[6]Лона：\C[0]    Спасибо, сэр Свиноголовый ♥
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Но я по-прежнему чувствую большой страх среди верующих.
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Посмотри, эти бедные люди всё ещё живут в страхе.
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Освободи их!
+\CBct[6]\m[tired]\PRF\c[6]Лона：\C[0]    Хорошо....?
+
+wakeUp/GangRape1
+\CBct[3]\m[lewd]\PRF\c[6]Лона：\C[0]    Братья... Пожалуйста, не стесняйтесь использовать меня?
+
+wakeUp/Break0
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Ты молодец, дитя.
+\CBct[3]\m[lewd]\PRF\c[6]Лона：\C[0]    Спасибо, сэр Свиноголовый ♥
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Иди и отдыхай, завтра ты очистишь ещё больше людей от их страхов.
+\CBmp[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Всё это для Матери Плодородия.
+\CBct[3]\m[lewd]\PRF\c[6]Лона：\C[0]    Всё это для Матери Плодородия ♥
+
+wakeUp/Break1
+\CBct[2]\m[confused]\PRF\c[6]Лона：\C[0]    Кто я? Что я здесь делаю?
+
+GameOver/0
+\m[tired]\PRF\c[6]Лона：\C[0]    А...?
+\m[confused]\PRF\c[6]Лона：\C[0]    Так горячо....?
+\m[tired]\PRF\c[6]Лона：\C[0]    ......
+
+GameOver/1
+\BonMP[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Она фактически восстала против великой Матери Плодородия!
+\BonMP[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Она не заслуживает счастья!
+\BonMP[PigMan,20]\prf\c[4]Свиноголовый：\C[0]    Мы должны вернуть её страх!
+
+GameOver/2
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake !!!!
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]Лона：\C[0]    Горячо! Так горячо!
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]Лона：\C[0]    Нет! Я не хочу умирать! Не надо!!!
+\SndLib[sound_Bubble]\Rflash\m[p5crit_damage]\Rshake\c[6]Лона：\C[0]    \{Аххххх!!
+
+GameOver/3
+\narr Лона была приготовлена живьём.
+\narr Верующие разделили её плоть между собой.
+\narr А кости ещё долго варились для приготовления насыщенного бульона.
+\narr И вот к концу дня от Лоны уже ничего не осталось.....
+
+######################################################################  BlueBlue #Ranran 
+
+Df_Heresy4/BlueBlue0
+\CBid[-1,2]\prf\c[4]Верующий：\C[0]    \c[6]Азура：\C[0]\..\..\..?
+\CBid[-1,5]\prf\c[4]Верующий：\C[0]    Я \c[6]Азура：\C[0]?!
+\CBid[-1,4]\prf\c[4]Верующий：\C[0]    Я \c[6]Азура：\C[0]? Меня должны трахать мужики!
+
+Df_Heresy4/BlueBlue1
+\CBct[8]\m[confused]\PRF\c[6]Лона：\C[0]    Что ж...
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Твоя сестра искала тебя. Давай вернёмся, хорошо?
+\CBid[-1,8]\prf\c[4]Азура：\C[0]    Сестра\..\..\..?
+\CBid[-1,20]\prf\c[4]Азура：\C[0]    Моя сестра ненавидит меня! Все смотрят на меня свысока!
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Хм...
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Почему она должна тебя ненавидеть?
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Твоя сестра очень беспокоится о тебе, и она попросила меня разыскать тебя.
+\CBid[-1,20]\prf\c[4]Азура：\C[0]    Нет! Я не хочу возвращаться! Этот мир слишком страшен!
+\CBid[-1,20]\prf\c[4]Азура：\C[0]    В мире полно плохих людей, все издеваются надо мной!
+\CBid[-1,20]\prf\c[4]Азура：\C[0]    Здесь нет страха! Здесь я чувствую себя счастливой!
+
+Df_Heresy4/BlueBlue2
+\CBct[20]\m[flirty]\PRF\c[6]Лона：\C[0]    Думаю, здесь ещё хуже...
+\CBct[20]\m[confused]\PRF\c[6]Лона：\C[0]    Ты беременна, сделай это хотя бы ради своего ребёнка.
+\CBid[-1,8]\prf\c[4]Азура：\C[0]    Мой ребёнок\..\..\..
+\CBid[-1,8]\prf\c[4]Азура：\C[0]    Хорошо... Я пойду с тобой...
+\CBct[3]\m[pleased]\PRF\c[6]Лона：\C[0]    Превосходно!
+
+Df_Heresy4/BlueBlue3
+\CBct[6]\m[serious]\PRF\c[6]Лона：\C[0]    Здесь очень плохо, мне нужно срочно убираться отсюда.
+
+Df_Heresy4/BlueBlue4_opt
+\CBmp[BBguard,4]\prf\c[4]Верующий：\C[0]    Хорошая сестра... ♥ Я хочу трахнуть тебя... ♥ Давай изгоним мой страх... ♥
+\CBct[6]\m[angry]\Rshake\c[6]Лона：\C[0]    Это нехорошо...\optD[Игнорировать его,Лгать<r=HiddenOPT1>,Угрожать<r=HiddenOPT2>]
+
+Df_Heresy4/BlueBlue4_WIS0
+\CBct[5]\m[serious]\PRF\c[6]Лона：\C[0]    Слушай! Она моя!
+\CBmp[BBguard,2]\prf\c[4]Верующий：\C[0]    Твоя\..\..\..Разве ты не женщина??
+\CBmp[BBguard,20]\prf\c[4]Верующий：\C[0]    Женщины не могут иметь детей от другой женщины!
+\CBmp[BBguard,20]\prf\c[4]Верующий：\C[0]    Мать Плодородия не позволит этому случиться!
+\CBct[5]\m[angry]\Rshake\c[6]Лона：\C[0]    Откуда ты знаешь, что женщина не может иметь детей от женщины?
+\CBct[5]\m[serious]\Rshake\c[6]Лона：\C[0]    Ты женщина? Ты когда-нибудь был женщиной?
+\CBct[5]\m[angry]\Rshake\c[6]Лона：\C[0]    Говорила ли тебе Великая Мать Плодородия, что женщины не могут иметь детей?
+\CBmp[BBguard,6]\prf\c[4]Верующий：\C[0]    Я...
+\CBct[5]\m[serious]\Rshake\c[6]Лона：\C[0]    Ты не можешь оплодотворить её! Разве ты не видишь, что у неё уже есть ребёнок?
+\CBmp[BBguard,6]\prf\c[4]Верующий：\C[0]    Я был неправ....
+\CBmp[BBguard,20]\prf\c[4]Верующий：\C[0]    Я всё понял. Она твоя...
+
+Df_Heresy4/BlueBlue4_WIS1
+\CBct[3]\m[flirty]\PRF\c[6]Лона：\C[0]    Хаха...?
+
+Df_Heresy4/BlueBlue4_CB0
+\CBmp[BBguard,6]\c[4]Верующий：\C[0]    Оооохххх!!!
+\CBmp[BBguard,20]\c[4]Верующий：\C[0]    \{О мои яйца ааххх!!!!
+
+Df_Heresy4/BlueBlue4_CB1
+\CBct[5]\m[irritated]\Rshake\c[6]Лона：\C[0]    Мы должны выбраться отсюда сейчас же!
+
+Df_Heresy4/BlueBlue4_AGGRO
+\CBmp[BBguard,2]\c[4]Верующий：\C[0]    Хм? Я тебя раньше не видел. Кто ты?
+\CBct[8]\m[flirty]\PRF\c[6]Лона：\C[0]    Э.....
+\CBmp[BBguard,20]\prf\c[4]Верующий：\C[0]    Апостол ложных богов! Держи её!
+\CBct[8]\m[shocked]\Rshake\c[6]Лона：\C[0]    \{Ох нет!
+
+Df_Heresy4/END
+\board[Мать Плодородия]
+Задача：Найти \c[6]Азуру\C[0] и вернуть её к \c[6]Силене\C[0]
+Срок выполнения：2 дня
+Клиент：Силена из лагеря беженцев Твердыни Рока
+Как можно скорее вернитесь в лагерь беженцев Твердыни Рока.
+
+Df_Heresy4/CompRng0
+\CBid[-1,8]\prf\c[4]Азура：\C[0]    Моя сестра ведь не сердится на меня?
+
+Df_Heresy4/CompRng1
+\CBid[-1,8]\prf\c[4]Азура：\C[0]    Я была неправа....
+
+Df_Heresy4/CompRng2
+\CBid[-1,8]\prf\c[4]Азура：\C[0]    Мне жаль...
+
+#DOGE + Synced

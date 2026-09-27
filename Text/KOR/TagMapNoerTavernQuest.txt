@@ -1,0 +1,354 @@
+
+
+##########---------------------------------------------------------------------------------- QUEST BOARD
+
+QuestBoard/List
+파견 의뢰서들이 가득 붙은 벽이다.
+
+QuestBoard/None_list
+그만둔다
+
+QuestBoard/StaHerbCollect_list
+백룡초 수집
+
+QuestBoard/StaHerbCollect
+\board[백룡초 수집]
+목표 : 백룡초 ×4 수집 \i[203]
+보수 : 작은 동전 2개
+의뢰인 : 엘리스 산부인과
+수행가능횟수 : 무제한
+성 밖의 우림 지대에서 백룡초를 채집해야 한다. 최근 마물이 출몰하니 파견자는 스스로 안전에 유의해야 한다. 
+수집이 끝나면 직접 일리시 산부인과에 납품할 것.
+
+QuestBoard/MineCaveAbomHunt_list
+광산 마물 소탕
+
+QuestBoard/MineCaveAbomHunt
+\board[광산 마물 소탕]
+목표 : 광산 내 변이 포자 소탕
+보수 : 큰 동전 2개, 작은 동전 3개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 무제한
+동쪽 수정 광산이 흑안개에 오염되었다. 용병을 모집해 변이된 포자를 소탕하고자 한다. 참가자는 반드시 조명 도구와 무기를 지참할 것.
+소탕 완료 후 광산 관리인에게 보고하라. 보고 후에는 길드에서 보상을 수령할 수 있다.
+
+QuestBoard/CataUndeadHunt_list
+묘지의 언데드
+
+QuestBoard/CataUndeadHunt
+\board[묘지의 언데드 소탕]
+목표 : 묘지 내 언데드 20체 소탕
+보수 : 작은 동전 7개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 무제한
+묘지에 대량의 언데드가 출몰하고 있다. 용병을 모집해 이를 소탕하려 한다.
+임무 완료 후 무덤지기에게 보고하고, 보고가 끝나면 길드에서 보상을 수령할 수 있다.
+
+QuestBoard/ScoutCampOrkind_list
+실종된 일행
+
+QuestBoard/ScoutCampOrkind
+\board[실종된 일행]
+목표 : 실종된 난민 일행을 수색
+보수 : 큰 동전 1개
+의뢰인 : 시바리스 부흥회
+수행가능횟수 : 1회
+한 달 전 도착했어야 할 난민 일행이 도중에 마물의 습격을 받았다.
+생존자의 증언에 따르면 마지막 목격 위치는 북동쪽 도로 인근이다.
+
+QuestBoard/ScoutCampOrkind2_list
+북쪽 관문 초소
+
+QuestBoard/ScoutCampOrkind2
+\board[북쪽 관문 초소]
+목표 : 초소 내부의 마물 소탕
+보수 : 큰 동전 2개
+의뢰인 : 성도회 수도원
+수행가능횟수 : 1회
+북쪽 초소가 함락된 뒤 마물의 소굴이 되어 버렸다. 이를 소탕하기 위해 전문 용병의 힘이 필요하다.
+소탕 완료 후 수도원에 보고하고, 이후 길드에서 보상을 수령할 것.
+
+QuestBoard/ScoutCampOrkind3_list
+딸이 사라졌다
+
+QuestBoard/ScoutCampOrkind3
+\board[딸이 사라졌다]
+목표 : 딸을 찾아 구출하기
+보수 : 금화 1개
+의뢰인 : 노엘 마을 경비 본부
+수행가능횟수 : 1회
+마을 내 한 상인의 딸이 오크의 습격을 받아 실종되었다.
+마지막 목격 장소는 북동쪽에서 난민 일행을 돕고 있던 곳이다.
+그녀를 찾아 무사히 데려와야 한다.
+
+QuestBoard/CataUndeadHunt2_list
+묘지의 음산한 기운
+
+QuestBoard/CataUndeadHunt2
+\board[묘지의 음산한 기운]
+목표 : 음산한 기운의 근원 조사
+보수 : 큰 동전 4개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 완료 시까지
+묘지에서 발생하는 음에너지의 근원을 조사하기 위해 용병을 모집한다.
+자세한 정보는 묘지의 무덤지기에게서 들을 수 있다.
+
+QuestBoard/SewerKickMobs_list
+하수도의 부랑자
+
+QuestBoard/SewerKickMobs
+\board[하수도의 부랑자]
+목표 : 하수도 부랑자 소탕
+보수 : 큰 동전 1개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 1회
+하수도 입구 근처에서 실종 사건이 잇따라 보고되었다.
+경비 본부 조사 결과, 사건은 모두 하수도 안의 불법 거주 부랑자들의 소행으로 확인되었다.
+부랑자들은 이미 마을 치안에 심각한 문제를 일으키고 있으며, 이들을 소탕할 용병을 모집한다.
+
+QuestBoard/NoerToPirate_list
+모집: 해적 파괴자 요새
+
+QuestBoard/NoerToPirate
+\board[모집: 해적 파괴자 요새]
+목표 : 목적지까지 이동
+보수 : 작은 동전 5개
+의뢰인 : 용병 길드
+수행가능횟수 : 1회
+동쪽 늪지대에 위치한 해적 파괴자 요새로 이동해라.
+도착 후, 현지에 있는 용병 길드 직원에게 보고할 것.
+
+QuestBoard/NoerToDoom_list
+모집: 종말 요새
+
+QuestBoard/NoerToDoom
+\board[모집: 종말 요새]
+목표 : 목적지까지 이동
+보수 : 작은 동전 5개
+의뢰인 : 용병 길드
+수행가능횟수 : 1회
+섬 북쪽 끝에 위치한 종말 요새로 이동하라.
+도착 후, 현지의 용병 길드 직원에게 보고할 것.
+
+QuestBoard/OrkindEars_list
+오크 귀 수집
+
+QuestBoard/OrkindEars
+\board[오크 귀 수집]
+목표 : 오크의 귀 10쌍 수집 \i[465]
+보수 : 큰 동전 1개, 작은 동전 5개
+의뢰인 : 루드신드 상회
+수행가능횟수 : 무제한
+오크는 매우 사악하다!
+하지만… 너는 그들보다 더 끔찍한 존재일지도 모른다!
+
+QuestBoard/decide
+\m[confused]이 임무를 수락하시겠습니까?\optB[그만둔다,쪽지를 뜯는다]
+
+######################################################################################## GUILD
+
+QuestBoard/decide2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]직원：\c[0] 결정하셨나요? 길드 의뢰는 일단 확정되면 완료할 때까지 계속해야 합니다.\optB[그만둔다,결정한다]
+
+QuestBoard/decide2_win
+\CBct[20]\m[serious]\prf\c[6]로나：\c[0] 할 수 있어요!
+
+QuestBoard/decide2_lose
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]직원：\c[0] 죄송하지만, 지금 맡은 의뢰가 아직 끝나지 않았습니다.
+
+QuestBoard/completed0
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]직원：\c[0] 음... 이건 확실히 길드에서 발행한 의뢰 증표군요.
+
+QuestBoard/completed1
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 보상을 받아가십시오.
+\CBct[3]\m[triumph]\c[6]로나：\c[0] 고마워요!
+
+QuestBoard/completed1_slave
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 노예 신분임에도 불구하고 기여해줘서 감사하지.
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 하지만 너무 일찍 죽지나 말라고.
+\CBct[8]\m[sad]\c[6]로나：\c[0] 하아...
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]직원：\c[0] 용병 길드 서비스처입니다. 무슨 일이죠?\optB[아무 일도 아니다,길드에 관해,임무 취소<r=HiddenOPT0>]
+
+QuestBoard/other_about
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 흠, 용병 길드는 972년에 창설되었으며, 과거 마신 전쟁 당시에는 소속 없는 독립 군대로 활동했죠.
+\CBct[2]\m[normal]\c[6]로나：\c[0] 그럼... 지금은요?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 현재는 세계 최대 규모의 파견 길드로, 인력이 대륙 전역에 걸쳐 있습니다.
+
+QuestBoard/other_quest_cancel
+\CBct[8]\m[sad]\c[6]로나：\c[0] 죄송합니다....
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 좋습니다.
+\CBmp[GuildEmpolyee,8]\prf\c[4]직원：\c[0] \}쓸모없는 파리 같으니.
+\CBct[8]\m[sad]\c[6]로나：\c[0] ....
+
+Tutorial/follower
+\CamMP[Center]\prf\c[4]직원：\c[0] 술집 안 다른 사람들에게 물어보세요. 당신과 함께 갈 의향이 있는 이가 있을지도 모릅니다.
+\prf\c[4]직원：\c[0] 최근에는 시바리스가 함락된 탓에, 당신 같은 이들이 점점 늘고 있군요.
+\CBct[3]\Rshake\m[triumph]\c[6]로나：\c[0] 알겠습니다! 정말 고마워요!
+\CBmp[GuildEmpolyee,8]\prf\c[4]직원：\c[0] ......
+\CBmp[GuildEmpolyee,8]\prf\c[4]직원：\c[0] \}빌어먹을 제국놈들... 파리 떼처럼 들끓는군...
+\CBct[8]\m[normal]\c[6]로나：\c[0] 응? 뭐라고요?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 아니요, 혼잣말이었습니다.
+
+QuestBoard/saved_hostage
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 잠깐!
+\CBct[2]\m[confused]\c[6]로나：\c[0] 왜요?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 밖에서 활동 중에 납치된 사람들을 구해줘서 감사드립니다. 아직도 더 많은 이들이 당신의 도움이 필요할 겁니다.
+
+##########---------------------------------------------------------------------------------- 最初期的工會成員對話
+
+MercenaryGuild/Report_rattail
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]직원：\c[0] 응? 당신은... 로나 맞죠?
+\CBct[6]\m[shocked]\c[6]로나：\c[0] 맞아요! ...아, 맞다! 하수도!
+\CBct[6]\m[serious]\Rshake\c[6]로나：\c[0] 하수도에 마물이 나타났고, 안쪽 도로까지 이미 오염됐습니다.
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 쉿! 진정하세요. 알겠습니다. 보고해줘서 고맙습니다.
+\CBct[6]\m[irritated]\Rshake\c[6]로나：\c[0] 그리고 실종된 직원은 이미 죽어 있었습니다!
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 뭐라고! 큰일이군요. 인원을 다시 보내 처리하겠습니다. 그보다... 쥐 꼬리 여덟 개는 모아오셨나요?
+
+MercenaryGuild/Report_rattail_win
+\CBct[20]\m[triumph]\c[6]로나：\c[0] 네, 있습니다.
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 좋습니다. 임무 완료군요. 운도 좋은 편이네요. 그런데 말인데, 오늘부로 모든 잡무 임무는 철회됐습니다.
+\CBct[2]\m[wtf]\c[6]로나：\c[0] 엥? 왜 그게...
+
+MercenaryGuild/Report_rattail_lose
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 아... 마물이 나타나서... 그래서...
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 그럼 그 임무는 실패로 처리됩니다.
+\CBct[1]\m[shocked]\c[6]로나：\c[0] 뭐라고요?! 잠깐! 제가 다시 돌아가서 수집해 올게요!
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 이미 그럴 필요 없습니다. 오늘부로 모든 잡무 임무가 철회되었으니까요.
+\CBct[2]\m[wtf]\c[6]로나：\c[0] 에...? 왜 그런...
+
+MercenaryGuild/Report_rattail_end
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 우리도 어쩔 수 없습니다. 성 밖의 마물들이 활발해지기 시작했고, 파견 임무 역시 그에 맞춰 조정해야 하거든요.
+\CBmp[QuestBoard,19]\prf\BonMP[QuestBoard,19] 앞으로는 게시판에서 당신이 맡을 수 있는 일을 찾아보세요!
+\CBct[8]\m[confused]\c[6]로나：\c[0] 그렇군요...
+
+GuideTheWorld/begin
+\CBid[-1,2]\prf\c[4]여행자：\c[0] 어라... 처음 보는 얼굴인데. 너, 시바리스에서 온 거냐?
+\CBct[8]\m[confused]\c[6]로나：\c[0] 음... 그렇다고 할 수 있죠.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 하하, 난 이제 이곳을 떠나려 한다. 나도 한때는 용병이었지 ...무릎에 화살을 맞기 전까진.
+
+GuideTheWorld/Choose
+\m[confused]\CBid[-1,20]\prf\c[4]여행자：\c[0] 뭐... 선배가 신참을 챙긴다 생각하고, 궁금한 게 있으면 물어보지 않겠나?
+
+GuideTheWorld/end1
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 어서 이곳을 떠날 방도를 찾아라. 노엘 섬에 더 머무른다면, 널 기다리는 건 결국 이곳과 함께하는 멸망뿐일 테니.
+
+GuideTheWorld/end2
+\CBid[-1,9]\prf\c[4]여행자：\c[0] 아, 맞다!
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 위험을 두려워하지 않는다면, 밤에 중앙시장에 가보게. 아마 자네에게 도움이 될 만한 물건을 찾을 수 있을 거야.
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 오? 고마워요!
+
+GuideTheWorld/opt_Race
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 나? 맞아, 그렇지. 난 혼혈족이네.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 깊은 숲의 엘프, 산맥의 드워프, 약간의 노움, 그리고 사막 민족의 피까지... 가장 뒤섞인 혈통이지.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 우린 어디를 가든 환영받지 못했어. 더럽고, 불순한 피라고 손가락질당했지.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 마치 모든 죄악이... 우리 탓인 양 말이야. 모든 게 일어나기 전까지만 해도, 사람들은 그렇게 믿었지.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 하지만 지금 보니, 정작 문제는 시바리스 난민들 같더군.
+\CBct[8]\m[tired]\c[6]로나：\c[0] .....
+\CBid[-1,6]\prf\c[4]여행자：\c[0] 아... 미안하네. 또 내 안 좋은 습관이 나왔군.
+
+GuideTheWorld/opt_TeamUp
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 술집이나 여관에서 네 동료들을 찾을 수 있을 거야.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 각 동료는 소속 진영, 전투 방식, 동행 가능한 일수, 위치, 요구 조건이 모두 다르지.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 특히 위치와 동행 일수는 잘 신경 써야 해.
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 동료는 오직 전열 1명과 후열 1명만 둘 수 있다.”
+\CBid[-1,20]\prf\c[4]여행자：\c[0] 그리고 시간이 흐르면서 동행 일수가 0이 되면, 그 동료는 결국 떠나버리게 돼.
+
+############################# TRADE TUR 
+
+TradeTur/fristTime0
+\SND[SE/Book1]\bg[bg_TutorialTrade1]로나RPG의 거래 방식
+\SND[SE/Book1]\bg[bg_TutorialTrade2]플레이어가 화폐/물건을 판매하면 거래점수를 획득하고, 이 거래점수로 물건을 구입할 수 있습니다.
+\SND[SE/Book1]\bg[bg_TutorialTrade3]거래점수를 쓰지 않고 맵을 떠나면 차액은 전부 사라집니다. 화폐 혹은 현물로 미리 바꿔주세요.
+\SND[SE/Book1]\bg[bg_TutorialTrade4]이것이 거래 화면입니다. 왼쪽 상단엔 무게제한, 거래점수가 표시됩니다.
+\SND[SE/Book1]\bg[bg_TutorialTrade5]로나의 거래 가능 물품입니다. 가치 1 이상이면 뭐든지 팔 수 있습니다.
+\SND[SE/Book1]\bg[bg_TutorialTrade7]이것은 상대의 거래 물품입니다, 로나의 보유 거래점수보다 낮으면 구매가능합니다.
+\SND[SE/Book1]\bg[bg_TutorialTrade8]거래창에서 \c[6]Z\c[0]키를 눌러 구매/판매합니다.
+\SND[SE/Book1]\bg[bg_TutorialTrade10]또한, \c[6]SHIFT+Z\c[0] 키로 모두 판매/구매가 가능합니다, 
+\SND[SE/Book1]\bg[bg_TutorialTrade11]거래 종료시 \c[6]X\c[0] 를 눌러 확인창을 띄웁니다. \c[6]Z\c[0]를 눌러 확정합니다.
+\SND[SE/Book1]\bg[bg_TutorialTrade12]실수로 잘못 거래했다면 \c[6]SHIFT+X\c[0] 키를 눌러 거래 자체를 취소합니다.
+\SND[SE/Book1]\bg[bg_TutorialTrade1]상대에게 판매한 물품은, 하루 가량 상대가 가지고 있습니다. 주의해서 거래하세요.
+
+############################# Wounds TUR
+
+WoundTur/0
+\SND[SE/Book1]\bg[bg_TutorialWound1]부상
+\SND[SE/Book1]\bg[bg_TutorialWound1]공격하거나 피격 시 일정 확률로 부상 효과가 발생한다.
+\SND[SE/Book1]\bg[bg_TutorialWound2]상단 부상 : 주로 타격 무기에 의해 발생 → 방어력 & 지능 감소
+\SND[SE/Book1]\bg[bg_TutorialWound3]중단 부상: 주로 베기 무기에 의해 발생 → 공격력 감소
+\SND[SE/Book1]\bg[bg_TutorialWound4]하단 부상: 주로 찌르기 무기에 의해 발생 → 이동 속도 감소
+\SND[SE/Book1]\bg[bg_TutorialWound1]부상 상태는 치유약초, 포션, 수면으로 치료할 수 있다.
+\SND[SE/Book1]\bg[bg_TutorialWound1]부상이 너무 많이 누적되면 전투 불능 상태에 빠진다. 언제나 건강을 유지하도록 주의하라.
+
+##########------------------------ 墳場負向能量差分回報
+
+MercenaryGuild/CataUndeadHunt2
+\CBmp[GuildEmpolyee,2]\prf\c[4]직원：\c[0] 그래서? 뭘 발견했나요?
+
+MercenaryGuild/CataUndeadHunt2_3
+\CBct[8]\m[sad]\c[6]로나：\c[0] 그게... 무덤지기 아저씨가 죽어 있었어요...
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 그리고 안에는 함정도 많았고요.
+\CBct[8]\m[flirty]\c[6]로나：\c[0] .....더는 없어요.
+
+MercenaryGuild/CataUndeadHunt2_4
+\CBct[8]\m[sad]\c[6]로나：\c[0] 그게... 무덤지기 아저씨가 죽어 있었어요...
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 그리고 안에는 함정도 꽤 많았고요.
+\CBct[8]\m[confused]\c[6]로나：\c[0] 게다가 무덤 안에서 네크로맨서가 활동하는 것도 봤습니다.
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 묘지에서 언데드가 들끓는 건, 아마 그 여자의 짓일 거예요.
+
+MercenaryGuild/CataUndeadHunt2_567
+\CBct[8]\m[sad]\c[6]로나：\c[0] 그게... 무덤지기 아저씨가 죽어 있었어요...
+\CBct[8]\m[confused]\c[6]로나：\c[0] 그리고 무덤 최하층에는 오크들이 나타났습니다. 놈들이 무덤을 파헤쳐 연결해 버렸어요.
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 제가 떠나기 전, 놈들끼리 서로 싸움을 벌이고 있었습니다.
+
+MercenaryGuild/CataUndeadHunt2_failed
+\CBmp[GuildEmpolyee,5]\prf\c[4]직원：\c[0] 그게 다입니까? 이건 아무것도 하지 않은 거나 마찬가지군요.
+\CBmp[GuildEmpolyee,5]\prf\c[4]직원：\c[0] 게다가 루드신드 상회의 직원까지 희생되게 했다니?
+\CBct[8]\m[sad]\c[6]로나：\c[0] 죄송합니다....
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 정말 쓸모없군. 그야말로 무능의 극치야.
+
+MercenaryGuild/CataUndeadHunt2_win
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 이거, 제법 흥미로운데요.
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 윗선에 보고하겠습니다만... 지금은 인력이 많이 부족하군요.
+
+MercenaryGuild/CataUndeadHunt2_withHead
+\CBct[20]\m[confused]\c[6]로나：\c[0] 그리고... 무덤 안에서 네크로맨서를 만났습니다.
+\CBct[20]\m[normal]\c[6]로나：\c[0] 그리고 이건... 그녀의 머리입니다.
+\CBmp[GuildEmpolyee,1]\prf\c[4]직원：\c[0] 대단하군요! 정말 훌륭합니다!
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 하지만 계약 조건상, 더 이상의 보상은 드릴 수가 없습니다.
+\CBct[8]\m[flirty]\c[6]로나：\c[0] 그렇군요...
+
+##########------------------------ 美祿的邀請
+
+MercenaryGuild/MiloInvite1
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 이봐! 잠깐만!
+\CBct[2]\m[confused]\c[6]로나：\c[0] 네? 왜 그러시죠?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 여기 초청장이 한 통 있는데, 받는 사람이 바로 당신으로 되어 있습니다.
+
+MercenaryGuild/MiloInvite2
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 저요? 왜요?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 나도 잘 모르겠군요. 아무튼 윗선의 대인들로부터 내려온 겁니다.
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 보아하니 이제 출세할 모양이군요.
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 그런가요...?
+
+##########------------------------ 美祿的邀請2
+
+MercenaryGuild/MiloInvite2_1
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 잠깐! 거기!
+\CBct[2]\m[confused]\c[6]로나：\c[0] 이번엔 또 뭐죠?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 또 당신 앞으로 온 서신이 있습니다.
+
+MercenaryGuild/MiloInvite2_2
+\CBct[2]\m[flirty]\c[6]로나：\c[0] 또요? 또 왔다고요?
+\CBmp[GuildEmpolyee,20]\prf\c[4]직원：\c[0] 받기만 하세요. 윗선의 지시입니다.
+\CBct[20]\m[flirty]\c[6]로나：\c[0] 알겠습니다.
+
+##########------------------------ OrkindEar
+
+MercenaryGuild/Report_OrkindEar_win1
+\CBct[20]\m[fear]\PRF\c[6]로나：\c[0] 이건... 길드에서 원한 귀예요.... 으으, 끔찍해....
+
+MercenaryGuild/Report_OrkindEar_win2
+\CBid[-1,20]\m[confused]\prf\c[4]직원：\c[0] 잘했군!
+\CBid[-1,20]\m[confused]\prf\c[4]직원：\c[0] 윗선에서는 이 귀들을 노엘 마을 성벽에 주렁주렁 걸어두고 싶어 하지. 그러니 우리에겐 아직 더 많은 귀가 필요하다!

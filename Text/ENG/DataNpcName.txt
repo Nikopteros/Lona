@@ -1,0 +1,335 @@
+###########################################################  GROUP ###########################################################
+
+group/OrkindCave
+Orkind
+
+group/FishkindCave
+Fishkind
+
+group/AbominationHive
+Abomination
+
+###########################################################  NPC PART ###########################################################
+
+part/arm
+'s arm
+
+part/penis
+'s penis
+
+part/mouth
+'s mouth
+
+part/beads
+beads
+
+part/enema
+enema sack
+
+###########################################################  NPC RACE ###########################################################
+
+race/Human
+Human
+
+race/Moot
+Mixed-Race
+
+race/Orkind
+Orc
+
+race/Goblin
+Goblin
+
+race/Abomination
+Abomination
+
+race/Deepone
+Deepone
+
+race/Fishkind
+Fishkind
+
+race/Troll
+Troll
+
+race/Animal
+Animal
+
+race/OthersElise
+Unknown Creature
+
+race/Others
+Other
+
+race/Dog
+Dog
+
+race/Horse
+Horse
+
+race/DeeponeLona
+Smelly Human
+
+race/AbomLona
+Sick Human
+
+race/AbomMootLona
+Unwell Mixed-Race
+
+###########################################################  NPC NAME ###########################################################
+
+name/nameCreatureBat
+Mutant Bat
+
+name/nameCreatureGroundSpore
+Monster Spore
+
+name/nameCreatureMeatWorm
+Meat Worm
+
+name/nameCreatureSpore
+Floating Spore
+
+name/nameCreatureSummonSpore
+Malicious Spore
+
+name/nameCreatureTentacle
+Fanged Tentacle
+
+name/nameCreatureTentacleSummoned
+Fanged Tentacle
+
+name/Baby_nameinationBaby
+Infant
+
+name/Baby_FishkindBaby
+Infant
+
+name/Baby_GoblinBaby
+Infant
+
+name/Baby_OgreChild
+Child
+
+name/Baby_OrcBaby
+Infant
+
+name/Baby_OrcChild
+Child
+
+goblin/GoblinBow
+Archer
+
+name/GoblinClub
+Soldier
+
+name/GoblinCommoner
+
+
+name/GoblinCommoner_focused
+
+
+name/GoblinSpear
+Spearman
+
+name/GoblinWarrior
+Warrior
+
+name/GoblinWatcher
+Scout
+
+name/HobgoblinBow
+Archer
+
+name/HobgoblinClub
+Soldier
+
+name/HobgoblinCommoner
+
+
+name/HobgoblinCommoner_focused
+
+
+name/HobgoblinShaman
+Shaman
+
+name/HobgoblinSpear
+Pikeman
+
+name/HobgoblinWarrior
+Warrior
+
+name/HobgoblinWatcher
+Scout
+
+name/HumanBow
+Archer
+
+name/HumanExecutioner
+Executioner
+
+name/HumanLawbringer
+Law Enforcer
+
+name/HumanScout
+Scout
+
+name/HumanSpear
+Spearman
+
+name/HumanTorturer
+Interrogator
+
+name/HumanWarrior
+Warrior
+
+name/MobHumanClub
+Mob
+
+name/MobHumanCommoner
+Mob
+
+name/MobHumanHighLander
+Son of the Dragon
+
+name/MobHumanPickAxe
+Mob
+
+name/MobHumanRogueBow
+Bandit
+
+name/MobHumanRogueCatcher
+Bandit
+
+name/MobHumanRogueSpear
+Bandit
+
+name/MobHumanRogueWarrior
+Bandit
+
+name/MobHumanSpear
+Bandit
+
+name/NatureMerchant
+Merchant
+
+name/NeutralHumanBow
+Archer
+
+name/NeutralHumanPrisonMinerF
+Female Mine Slave
+
+name/NeutralHumanPrisonMinerM
+Mine Slave
+
+name/NeutralHumanPrisonMinerRaperM
+Mine Slave Rapist
+
+name/NeutralHumanPrisonMineTrader
+Prison Guard
+
+name/NeutralHumanPrisonOfficer
+Prison Warden
+
+name/NeutralHumanPrisonSpear
+Prison Guard
+
+name/NeutralHumanPrisonTorturer
+Prison Interrogator
+
+name/NeutralHumanPrisonWarrior
+Prison Guard
+
+name/NeutralHumanScout
+Scout
+
+name/NeutralHumanWarrior
+Warrior
+
+name/OrcBow
+Archer
+
+name/OrcCatcher
+Hunter
+
+name/OrcClub
+Soldier
+
+name/OrcCommoner
+asdf unused
+
+name/OrcCommoner_focused
+asdf unused
+
+name/OrcWarrior
+Warrior
+
+name/PlayernameinationBaby
+Infant
+
+name/PlayerFishkindBaby
+Infant
+
+name/PlayerGoblinBaby
+Infant
+
+name/PlayerOgreChild
+Child
+
+name/PlayerOrcBaby
+Infant
+
+name/WildBoar
+Boar
+
+name/WildDog
+Stray Dog
+
+name/WildGiantMice
+Giant Rat
+
+name/WildHorse
+Horse
+
+name/WildApeF
+Female Monkey
+
+name/WildApeM
+Monkey
+
+name/UniquePigBobo
+Bobo the Breeder
+
+name/HorseCarry
+Draft Horse
+
+name/WildAlphaPig
+Alpha Hog
+
+name/AbomCreatureManager
+Fiend
+
+name/AbomCreatureScorpion
+Crawler
+
+name/AbomCreatureSpider
+Spider
+
+name/AbomCreatureZombie
+Mutant
+
+name/AbomCreatureBreedling
+Breedling
+
+name/UniqueDirtyJohnson
+Dirty Johnson
+
+######################## EVENT  ######################################
+
+fraction/nature
+Neutral
+
+fraction/evil
+Evil Creatures
+
+#Fully translated and cleaned up by Sugoi Soy Boy. Fuck off MTLing monkeys.

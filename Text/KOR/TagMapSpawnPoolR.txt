@@ -1,0 +1,94 @@
+ThisMap/OmEnter
+\m[confused]감염된 폐가\optB[그만둔다,들어간다]
+
+###################################################################################    main
+
+Qprog8/RaidOnEast1
+\CBmp[guard4,20]\c[4]병사：\c[0] 빌어먹을 자식! 네가 뭔데 우리한테 명령이야?!
+\CBmp[guard1,20]\c[4]병사：\c[0] 그 자식… 죽은 거야?
+\CBmp[guard3,8]\c[4]병사：\c[0] 움직이지 않네… 아마 완전히 죽었겠지.
+\CBmp[guard2,20]\c[4]병사：\c[0] 저 귀족 놈들 꼴 좋다! 내 가족이 죽었을 땐 어디 있었는데? 지금 와서 우리가 목숨 걸라 이거냐?!
+\CBmp[guard1,8]\c[4]병사：\c[0] 그럼… 이제 어떻게 할까?
+\CBmp[guard4,20]\c[4]병사：\c[0] 남쪽으로 도망치자! 남쪽에 용사들이 세운 캠프가 있다던데, 거기서 사람들을 모은다더군. 우리도 합류하자.
+\CBmp[guard2,20]\c[4]병사：\c[0] 좋은 생각이야. 하지만 먼저 이곳을 벗어나자.
+\CBmp[guard3,20]\c[4]병사：\c[0] 맞아, 지금 당장! 이 빌어먹을 곳, 너무 끔찍하다고.
+
+Qprog8/RaidOnEast2
+\CBmp[guard4,2]\c[4]병사：\c[0] 누… 누구야?! 거기 누구 있지?!
+
+Qprog8/RaidOnEast3
+\CBct[8]\m[flirty]\PRF\c[6]로나：\c[0] 어… 모두 안녕? 미안, 내가 좀 늦었네~
+\CBmp[guard1,20]\prf\c[4]병사：\c[0] 괴, 괴물이다! 나… 죽기 싫어!!
+\CBct[20]\m[terror]\Rshake\c[6]로나：\c[0] \{으아아악!!!\}
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 괴물?! 어디에?!
+
+Qprog8/RaidOnEast4
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 히익?!
+\CBct[8]\m[shocked]\PRF\c[6]로나：\c[0] 또… 또 뭐야?!
+
+Qprog8/RaidOnEast5
+\CBmp[guard3,20]\prf\c[4]병사：\c[0] 잠깐, 저건 사람이잖아! 여자라고!
+\CBmp[guard1,5]\prf\c[4]병사：\c[0] 빌어먹을 년, 뭘 한 거야?! 당장 비켜!
+\CBct[6]\m[terror]\Rshake\c[6]로나：\c[0] 나? 나 아무것도 안 했어! 방금 막 여기 도착했을 뿐이야!
+\CBmp[guard2,20]\prf\c[4]병사：\c[0] 이 여자가 우리가 뭘 했는지 알고 있어. 죽여버려라!
+\CBct[6]\m[bereft]\Rshake\c[6]로나：\c[0] 미안해! 제발 죽이지 마!
+\CBmp[guard4,20]\prf\c[4]병사：\c[0] 잠깐!
+\CBmp[guard4,20]\prf\c[4]병사：\c[0] 꼬마야, 네가 여기서 나가는 길을 아냐?
+\CBct[6]\m[fear]\PRF\c[6]로나：\c[0] 아마도… 일걸…?
+
+Qprog8/RaidOnEast6
+\CBmp[guard4,20]\prf\c[4]병사：\c[0] 좋아, 우릴 여기서 나가게 해라.
+\CBmp[guard4,20]\prf\c[4]병사：\c[0] 그러면… 널 죽이지 않는 걸 고려해 보지.
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] 흑… 으…
+
+Qprog8/RaidOnEast7
+\board[이곳을 떠나라]
+목표 : 여기서 벗어나기
+보상 : 없음
+의뢰주 : 병사들
+수행가능횟수：1회
+병사들은 로나에게 자신들을 데리고 이곳을 빠져나가라고 강요했다.
+그렇지 않다면, 로나를 기다리는 건 오직 죽음뿐이다.
+
+Qprog8/RaidOnEast8
+\CBct[6]\m[fear]\PRF\c[6]로나：\c[0] 어떡하지……
+\CBct[6]\m[sad]\PRF\c[6]로나：\c[0] 일단… 길을 따라가 보자….
+
+Qprog8/spotHive
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]로나：\c[0] 여기서… 무슨 일이 있었던 거지?!
+\CBmp[Hive,19]\m[fear]\PRF\c[6]로나：\c[0] 이 둥지가… 벌써 파괴된 건가?
+\SETpl[Mreg_pikeman]\m[fear]\Lshake\prf\c[4]병사：\c[0] 왜 멈췄어?! 어서 앞장서라!
+\CBmp[Hive,19]\m[shocked]\Rshake\c[6]로나：\c[0] 예, 알겠어!
+
+
+Qprog8/spotHiveEnd0
+\CBct[20]\m[shocked]\Rshake\c[6]로나：\c[0] 출구다!
+
+Qprog8/spotHiveEnd1
+\CBct[20]\m[flirty]\PRF\c[6]로나：\c[0] 이제 절 좀 풀어줄 수 있겠어? 난 정말 아무것도 못 봤다니까. 여기 오자마자 그냥 그가 쓰러져 있는 것만 봤어~
+\CBmp[guard1ST,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 닥쳐! 그럼 이미 다 본 거 아니냐?!
+\CBct[6]\m[terror]\plf\PRF\c[6]로나：\c[0] 미안해! 제발 죽이지 마!
+
+Qprog8/spotHiveEnd2
+\CBmp[guard1ST,20]\c[4]병사：\c[0] 너는 어떻게 생각하냐?
+\CBmp[guard2ST,20]\c[4]병사：\c[0] 이미 시작한 일이다. 끝장을 봐야지. 저년은 반드시 죽여야 해.
+\CBmp[guard1ST,20]\c[4]병사：\c[0] 그녀를 데리고 나가자. 그리고 노예상인에게 팔아넘기면 어떻겠어?
+
+Qprog8/spotHiveEnd3
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\c[4]백인대장：\c[0] 잘했나? 너희가 그 둥지를 파괴한 건가?
+
+Qprog8/spotHiveEnd4
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 그렇습니다! 기사님, 제가 이 역겨운 괴물들을 처단하는 데 성공했습니다!
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 훌륭하군. 나처럼 엄격한 훈련을 받은 기사조차 마물에게 기습을 당해 실신하다니…
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 참으로 부끄러운 일이로군.
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 각하, 이제 돌아가시죠. 가는 길에 이곳에서 무슨 일이 있었는지 자세히 설명드리겠습니다.
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]병사：\c[0] 그리고 저 어린 년의 말은 믿지 마십시오. 도망치는 것 말고는 아무것도 하지 않았습니다. 여자가 뭘 할 수 있겠습니까?
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]백인대장：\c[0] 그렇군.
+\CBct[19]\m[fear]\PRF\c[6]로나：\c[0] 으…
+
+Qprog8/spotHiveEnd5
+\narr\..\..\..
+\narrOFF\SETpl[Mreg_pikeman]\Lshake\c[4]병사：\c[0] 야!
+\m[terror]\plf\Rshake\c[6]로나：\c[0] \{예!!!\}
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]병사：\c[0] 이 년, 입 잘못 놀리면 네 목숨은 끝장이란 걸 알아둬라.
+\m[terror]\plf\PRF\c[6]로나：\c[0] 알겠어… 알았다고…

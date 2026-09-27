@@ -1,0 +1,891 @@
+#return "_slave"			if $lona_stats["SlaveBrand"] ==1
+#return "_maggot"		if $game_actors[1].dirt >= 200 <r=HiddenOPT1>
+#return "_sexy"			if $game_actors[1].sexy >= 100
+#return "_weaker"		if $game_actors[1].weak >= 100
+#return "_moot"			if $lona_stats["moot"] ==1
+#return "_lona"
+
+RandomNpc/OptUsed
+已經嘗試過了。
+
+RandomNpc/choosed
+\ph\..\..\..\WF[10]
+
+#--------------------------------------------------------------------------- Overmap NoerHomeless
+
+NoerHomeless/beginM0
+\c[4]難民：\c[0]    施捨點東西吧.. 小姐..
+
+NoerHomeless/beginM1
+\c[4]難民：\c[0]    好餓... 救救我..
+
+NoerHomeless/beginM2
+\c[4]難民：\c[0]    小姐... 請施恩...
+
+NoerHomeless/beginF0
+\c[4]難民：\c[0]    分我點東西吧..
+
+NoerHomeless/beginF1
+\c[4]難民：\c[0]    我好餓...
+
+NoerHomeless/beginF2
+\c[4]難民：\c[0]    請施恩...
+
+NoerHomeless/Begin2
+\c[4]難民：\c[0]    .........
+
+NoerHomeless/END_Good0
+\c[4]難民：\c[0]    我會記得您的恩德！
+
+NoerHomeless/END_Good1
+\c[4]難民：\c[0]    謝大大！
+
+NoerHomeless/END_Good2
+\c[4]難民：\c[0]    謝謝您的大恩大德！
+
+NoerHalp/get_reward0
+\c[4]難民：\c[0]    感謝您的幫忙，把這些東西拿去吧。
+
+NoerHalp/get_reward1_0
+\c[4]難民：\c[0]    聖徒與你同在！
+
+NoerHalp/get_reward1_1
+\c[4]難民：\c[0]    再次感謝您。
+
+#--------------------------------------------------------------------------- Overmap NoerMissionary
+
+NoerMissionary/Begin0
+\c[4]傳教士：\c[0]    聖徒指引妳！
+
+NoerMissionary/Begin1
+\board[捐款做公德]
+每贊助1000點則削減一點世界難度，上限為10。
+聖徒將淨化世界的謊言與邪惡！讚美聖徒！
+當前世界難度為\c[4] #{$story_stats["WorldDifficulty"].round(2)} \c[0]
+
+NoerMissionary/END_Good
+\c[4]傳教士：\c[0]    聖徒將指引妳的道路！
+
+NoerMissionary/END_Bad
+\c[4]傳教士：\c[0]    妳這謊言者！ 聖徒淨化妳！
+\m[shocked]\plf\PRF\c[6]洛娜：\c[0]    不是吧？！
+
+NoerMissionary/Qmsg
+讚美聖徒！
+
+#--------------------------------------------------------------------------- Overmap Quest Giver
+
+Qgiver/ConvoyToNoer_begin0
+\c[4]難民：\c[0]    希望妳能幫幫我們。
+
+Qgiver/ConvoyToNoer_begin1
+\c[4]難民：\c[0]    將他安全的送到諾爾鎮吧。
+
+Qgiver/ConvoyToNoer_board
+\board[護送難民至諾爾鎮]
+目標：將難民護送至諾爾鎮街道或諾爾鎮。
+報酬：大銅幣1、道德5
+委託主：難民
+期限：5天
+
+Qgiver/ConvoyToHobo_begin1
+\c[4]難民：\c[0]    將他安全的送到難民營吧。
+
+Qgiver/ConvoyToHobo_board
+\board[護送難民至難民營]
+目標：將難民護送至難民窟或貧民窟。
+報酬：小銅幣5、道德2
+委託主：難民
+期限：5天
+
+Qgiver/ConvoyToNoer_accept
+\prf\c[4]難民：\c[0]    感謝您。
+
+Qtarget/Arrivel
+\prf\c[4]難民：\c[0]    感謝您，我們會將妳的善行宣揚出去的。
+
+#-------------------#------COMMON CONVOY TARGET(victim)
+
+victim/Convoy_opt
+\plf\c[0]受害者：\c[0]    嗚... 妳是來救我的？\optB[不是,是]
+
+victim/Convoy_start0
+\plf\c[0]受害者：\c[0]    好... 我會跟緊妳
+
+victim/Convoy_start1
+\board[護送受害者]
+將目標護送至出口3x3的範圍後與其對話。
+過程中目標不可死亡，不可休息。
+
+victim/Convoy_start2
+\board[護送受害者至諾爾鎮]
+目標：將受害者護送至諾爾鎮街道或諾爾鎮。
+過程中目標不可死亡。
+
+
+############################## COMMON EXT Convoy
+
+
+NPC/CommonConvoyTarget0
+\prf\c[4]難民：\c[0]    還沒到嗎
+
+NPC/CommonConvoyTarget1
+\prf\c[4]難民：\c[0]    快點
+
+NPC/CommonConvoyTarget2
+\prf\c[4]難民：\c[0]    行動吧
+
+
+##------------------------------------------common---------------------------------------------------sex trade
+
+RandomNpc/WhoreWork_normal
+\CBct[20]\cg[event_WhoreWork]\m[shy]\c[6]洛娜：\c[0]    那個.....你想做些色色的事嗎？
+
+RandomNpc/WhoreWork_tsun
+\CBct[6]\cg[event_WhoreWork]\m[terror]\c[6]我是不得已的!
+\CBct[6]\m[bereft]\Rshake\c[6]是不得已的！
+
+RandomNpc/WhoreWork_weak
+\CBct[8]\cg[event_WhoreWork]\m[fear]\c[6]洛娜：\c[0]    ........
+
+RandomNpc/WhoreWork_slut
+\CBct[4]\cg[event_WhoreWork]\m[triumph]\c[6]洛娜：\c[0]    不做嗎？
+
+RandomNpc/WhoreWork_overfatigue
+\CBct[8]\cg[event_WhoreWork]\m[tired]\c[6]洛娜：\c[0]    ........
+
+RandomNpc/WhoreWork_mouth_block
+\CBct[8]\cg[event_WhoreWork]\m[sad]\c[6]洛娜：\c[0]    嗚嗚.....
+
+RandomNpc/WhoreWork_win
+\BonID[-1,4]\CamCT\m[shy]\cgoff\narr成功了。
+
+RandomNpc/WhoreWork_failed
+\BonID[-1,5]\CamCT\CBct[0]\m[sad]\cgoff失敗了，對方對洛娜一點興趣都沒有。
+
+RandomNpc/WhoreWork_win_opt_win
+\CBct[8]\m[shy]\c[6]洛娜：\c[0]    嗯...
+
+prostituation/CustomerPick0
+它對洛娜的
+
+prostituation/CustomerPick1
+服務感到興趣。
+
+prostituation/CustomerPick2_CumInside
+並想射在裡面。
+
+prostituation/CustomerPick2_CumOutside
+它保證會射在外面。
+
+prostituation/reward0
+它肯提供
+
+prostituation/reward1
+倍的交易點
+
+prostituation/Handjob
+打槍
+
+prostituation/Blowjob
+口交
+
+prostituation/Anal
+尻穴
+
+prostituation/Virgin
+我是處女
+
+prostituation/Vaginal
+屄穴
+
+prostituation/SemiAuto
+靠技術
+
+prostituation/FullAuto
+隨便它
+
+prostituation/Repent
+反悔
+
+prostituation/Wisdom
+講價
+
+prostituation/Full
+全套
+
+prostituation/CumInside
+讓它射在體內
+
+prostituation/CumOutside
+拜託它射在外面
+
+prostituation/Nymph
+免費為它服務
+
+prostituation/CumInside_dialog_typical
+\m[shy]\Rshake\c[6]洛娜：\c[0]    嗯.. 你可以射在裡面....
+
+prostituation/CumInside_dialog_tsundere
+\m[sad]\Rshake\c[6]洛娜：\c[0]    對！你可以射裡面！ 我允許！你走運了！
+
+prostituation/CumInside_dialog_gloomy
+\m[shy]\Rshake\c[6]洛娜：\c[0]    嗯... 是的... 你可以射在裡面......
+
+prostituation/CumInside_dialog_slut
+\m[lewd]\Rshake\c[6]洛娜：\c[0]    體內！ 射裡面！ 我想用我的身體感受它！
+
+prostituation/CumOutside_dialog_typical
+\m[terror]\Rshake\c[6]洛娜：\c[0]    不行！ 不能射在裡面！
+
+prostituation/CumOutside_dialog_tsundere
+\m[wtf]\Rshake\c[6]洛娜：\c[0]    射外面！ 你最好給我射在外面不然我會\..\..... 拜託你..\..射外面！
+
+prostituation/CumOutside_dialog_gloomy
+\m[bereft]\Rshake\c[6]洛娜：\c[0]    不要！ 裡面不行... 求你了....
+
+prostituation/CumOutside_dialog_slut
+\m[flirty]\Rshake\c[6]洛娜：\c[0]    嗯？ 不可以！ 射外面吧，我想用我的皮膚感受它。
+
+prostituation/CumOutside_dialog_CustomerHappy
+\narr它表示，射外面是他的最愛，它非常的開心....
+
+prostituation/CumOutside_dialog_CustomerMad
+\narr它表示，射外面是他的最愛，它非常的生氣....
+
+###############
+
+prostituation/Virgin_dialog_typical
+\m[shy]\Rshake\c[6]洛娜：\c[0]    呃\....我\.... 這是我的第一次\....
+
+prostituation/Virgin_dialog_tsundere
+\m[shy]\Rshake\c[6]洛娜：\c[0]    嗯\..我...呃.\... 我的那裏還沒有用過.\..我是說.\..那個還在....
+
+prostituation/Virgin_dialog_gloomy
+\m[shy]\Rshake\c[6]洛娜：\c[0]    等\...等一下\.... 我的... 我的那裏依然是乾淨的\.....
+
+prostituation/Virgin_dialog_slut
+\m[shy]\Rshake\c[6]洛娜：\c[0]    呵呵.. 我的貞操還在呦！ 你將會成為我生命中的第一人！
+
+prostituation/Virgin_dialog_ans
+\narr洛娜的言語讓它露出了淫穢的笑容。
+
+prostituation/Virgin_dialog_faggot
+\narr它告訴洛娜，重要的東西應該留給最重要的人。
+
+################
+
+prostituation/Nymph_dialog
+\m[lewd]\c[6]洛娜：\c[0]    我就只是想做愛，我可以免費為你服務。
+\narr對方感到高興！
+
+prostituation/Wisdom_dialog
+\m[shy]\c[6]洛娜：\c[0]    不想要更好的服務嗎？ 只要再多一點點...
+
+prostituation/Wisdom_dialog_more
+\m[shy]\c[6]洛娜：\c[0]    這樣的服務還需要更多....
+
+prostituation/Wisdom_dialog_angry
+\narr它看起來不耐煩了。
+
+prostituation/Repent_dialog
+\m[flirty]\c[6]洛娜：\c[0]    呃... 還是算了吧。
+
+prostituation/Repent_dialog_aggro
+\narr洛娜放棄了，但對方看起來非常的生氣！
+
+prostituation/Repent_blocked_slot
+\narr該穴穴無法使用...
+\narr對方發怒了！
+
+prostituation/Aggro
+\narr對方發怒了！
+\narrOFF\m[terror]\Rshake\c[6]洛娜：\c[0]    咿咿！！
+
+
+RandomNpc/WhoreWork_win_opt_lose
+\narr洛娜太貧弱了，只能依照對方的意思
+
+RandomNpc/WhoreWork_GotoPoint
+\narr洛娜與對方走到一個昏暗的角落。
+
+RandomNpc/WhoreWork_failed_GuardWrongPlace
+別在這邊搞事！
+
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+
+GoblinRandomNpc/CommonGoblin_begin1_0
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]魔物：\c[0]    咕咕.. 肉穴？
+
+GoblinRandomNpc/CommonGoblin_begin1_1
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]魔物：\c[0]    咕恰！ 咕咘哇搭 肉穴？
+
+GoblinRandomNpc/CommonGoblin_begin1_2
+\SndLib[sound_goblin_roar]\SETpl[goblin]\Lshake\prf\c[4]魔物：\c[0]    咕咘搭？！
+
+GoblinRandomNpc/CommonGoblin_CommonNpcOpt
+\SndLib[sound_goblin_roar]\SETpl[goblin]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？
+
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+
+OrcRandomNpc/CommonOrc_begin1_0
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]魔物：\c[0]    噗嘻嘻！！ 肉！！
+
+OrcRandomNpc/CommonOrc_begin1_1
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]魔物：\c[0]    吃肉！ 肏穴！ 噗嘻！
+
+OrcRandomNpc/CommonOrc_begin1_2
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\Lshake\prf\c[4]魔物：\c[0]    噗嘻肏穴！ 肏穴！
+
+OrcRandomNpc/CommonOrc_CommonNpcOpt
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\m[confused]\plf\PRF\c[6]洛娜：\c[0]    嗯？
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/CommonHuman_begin1_slave
+\c[4]路人：\c[0]    滾開！下賤的奴隸。
+
+MaleHumanRandomNpc/CommonHuman_begin1_maggot
+\c[4]路人：\c[0]    好臭！
+
+MaleHumanRandomNpc/CommonHuman_begin1_sexy
+\c[4]路人：\c[0]    呦？
+
+MaleHumanRandomNpc/CommonHuman_begin1_weaker
+\c[4]路人：\c[0]    要飯的？離我遠點。
+
+MaleHumanRandomNpc/CommonHuman_begin1_moot
+\c[4]路人：\c[0]    溝鼠，找事？
+
+MaleHumanRandomNpc/CommonHuman_begin1_lona
+\c[4]路人：\c[0]    找事？
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleGuardWild/CommonHuman_begin1_slave
+\c[4]衛兵：\c[0]    奴隸？讓我爽一下！
+
+MaleGuardWild/CommonHuman_begin1_maggot
+\c[4]衛兵：\c[0]    髒死了！走開！
+
+MaleGuardWild/CommonHuman_begin1_sexy
+\c[4]衛兵：\c[0]    呦♥ 是新來的慰安婦？
+
+MaleGuardWild/CommonHuman_begin1_weaker
+\c[4]衛兵：\c[0]    臭要飯的！離我遠點。
+
+MaleGuardWild/CommonHuman_begin1_moot
+\c[4]衛兵：\c[0]    溝鼠！看什麼看！滾開！
+
+MaleGuardWild/CommonHuman_begin1_lona
+\c[4]衛兵：\c[0]    沒看到我在忙？
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleDoomed/CommonHuman0
+\c[4]路人：\c[0]    嘿，這個世界完蛋了。
+
+MaleDoomed/CommonHuman1
+\c[4]路人：\c[0]    所有人都會死，死前來爽一發吧！
+
+MaleDoomed/CommonHuman2
+\c[4]路人：\c[0]    死定了啦，聖徒已經捨棄我們啦！
+
+#---------------------#-------------------#---------------------Sailer-------------------------------
+
+MaleNoerDockNpc/Sailer_slave
+\c[4]路人：\c[0]    是奴隸耶。嘿嘿。
+
+MaleNoerDockNpc/Sailer_maggot
+\c[4]路人：\c[0]    臭死了，滾。
+
+MaleNoerDockNpc/Sailer_sexy
+\c[4]路人：\c[0]    嘿嘿，小妞，來一發吧？
+
+MaleNoerDockNpc/Sailer_weaker
+\c[4]路人：\c[0]    呦！小婊子，幫哥吹一下？
+
+MaleNoerDockNpc/Sailer_moot
+\c[4]路人：\c[0]    別煩！
+
+MaleNoerDockNpc/Sailer_lona
+\c[4]路人：\c[0]    沒看到我很忙？
+
+#---------------------#-------------------#---------------------BS GAng-------------------------------
+
+CommonGangMember/commonBegin_lona
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    妳看三小？
+
+CommonGangMember/commonBegin_maggot
+\CBid[0,20]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    找碴？
+
+CommonGangMember/commonBegin_sexy
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    嗯？
+\CBid[0,4]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    \..\..\.. 嘿嘿♥
+
+CommonGangMember/commonBegin_weaker
+\CBid[0,2]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    妳是新來的雞？
+
+CommonGangMember/commonBegin_moot
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    哪來的黒鬼，滾！
+
+CommonGangMember/commonBegin_slave
+\CBid[0,5]\SETpl[MobHumanCommoner]\Lshake\c[4]幫派份子：\c[0]    快去工作！
+
+#---------------------#-------------------#---------------------
+
+MaleHumanRandomNpc/CommonHuman_CommonNpcOpt
+\m[confused]\c[6]洛娜：\c[0]    嗯？
+
+commonNPC/Cancel
+算了
+
+commonNPC/Barter
+交易
+
+commonNPC/Prostitution
+賣身
+
+commonNPC/SexService
+性服務
+
+commonNPC/Talk
+溝通
+
+commonNPC/Threaten
+威脅
+
+commonNPC/Begging
+乞討
+
+commonNPC/About
+關於
+
+commonNPC/Work
+工作
+
+commonNPC/Convoy
+傭兵
+
+commonNPC/Slave
+奴隸
+
+commonNPC/Steal
+偷竊
+
+commonNPC/Deceive
+欺騙
+
+commonNPC/Yes
+有
+
+commonNPC/Storage
+存取物品
+
+commonNPC/Chat
+對話
+
+commonNPC/opt_ex_LoanInfo
+借款資訊
+
+commonNPC/opt_ex_Loan
+借款
+
+commonNPC/opt_ex_Repayment
+還款
+
+commonNPC/opt_ex_Donation
+捐獻
+
+commonNPC/opt_ex_Employee
+成為職員
+
+commonNPC/work_opt_ex_nothing
+什麼都不會
+
+commonNPC/work_opt_ex_whore
+後街妓女
+
+commonNPC/opt_PawnItems
+典當
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/HoboM_begin1_slave
+\c[4]乞丐：\c[0]    滾！別碰我！
+
+MaleHumanRandomNpc/HoboM_begin1_maggot
+\c[4]乞丐：\c[0]    滾！別碰我！
+
+MaleHumanRandomNpc/HoboM_begin1_sexy
+\c[4]乞丐：\c[0]    呵呵...
+
+MaleHumanRandomNpc/HoboM_begin1_weaker
+\c[4]乞丐：\c[0]    嗯？
+
+MaleHumanRandomNpc/HoboM_begin1_moot
+\c[4]乞丐：\c[0]    別煩我！
+
+MaleHumanRandomNpc/HoboM_begin1_lona
+\c[4]乞丐：\c[0]    幹嘛？
+
+
+MaleHumanRandomNpc/HoboF_begin1_slave
+\c[4]乞丐：\c[0]    奴隸嗎？也許我也該把我自己賣了。
+
+MaleHumanRandomNpc/HoboF_begin1_maggot
+\c[4]乞丐：\c[0]    看來妳也過得不好。
+
+MaleHumanRandomNpc/HoboF_begin1_sexy
+\c[4]乞丐：\c[0]    是阿，這種時候我們只能賣身了。
+
+MaleHumanRandomNpc/HoboF_begin1_weaker
+\c[4]乞丐：\c[0]    看來妳也過得不好。
+
+MaleHumanRandomNpc/HoboF_begin1_moot
+\c[4]乞丐：\c[0]    今天能吃到東西嗎？
+
+MaleHumanRandomNpc/HoboF_begin1_lona
+\c[4]乞丐：\c[0]    好餓。
+
+
+MaleHumanNoerNpc/PplM_begin1_slave
+\c[4]市民：\c[0]    臭奴隸！滾！
+
+MaleHumanNoerNpc/PplM_begin1_maggot
+\c[4]市民：\c[0]    走開！骯髒的小鬼！
+
+MaleHumanNoerNpc/PplM_begin1_sexy
+\c[4]市民：\c[0]    呵呵...
+
+MaleHumanNoerNpc/PplM_begin1_weaker
+\c[4]市民：\c[0]    幹什？ 我可沒錢給妳！
+
+MaleHumanNoerNpc/PplM_begin1_moot
+\c[4]市民：\c[0]    走開！骯髒的混族！
+
+MaleHumanNoerNpc/PplM_begin1_lona
+\c[4]市民：\c[0]    什麼事？
+
+
+MaleHumanGangNpc/PplM_begin1_slave
+\c[4]流氓：\c[0]    臭奴隸！滾！
+
+MaleHumanGangNpc/PplM_begin1_maggot
+\c[4]流氓：\c[0]    走開！骯髒的小鬼！
+
+MaleHumanGangNpc/PplM_begin1_sexy
+\c[4]流氓：\c[0]    呵呵...
+
+MaleHumanGangNpc/PplM_begin1_weaker
+\c[4]流氓：\c[0]    幹什？ 我可沒錢給妳！
+
+MaleHumanGangNpc/PplM_begin1_moot
+\c[4]流氓：\c[0]    走開！
+
+MaleHumanGangNpc/PplM_begin1_lona
+\c[4]流氓：\c[0]    什麼事？
+
+
+MaleHumanNoerNpc/PplF_begin1_slave
+\c[4]市民：\c[0]    臭奴隸！滾！
+
+MaleHumanNoerNpc/PplF_begin1_maggot
+\c[4]市民：\c[0]    好臭！
+
+MaleHumanNoerNpc/PplF_begin1_sexy
+\c[4]市民：\c[0]    哪來的流鶯。
+
+MaleHumanNoerNpc/PplF_begin1_weaker
+\c[4]市民：\c[0]    我可沒錢給妳！
+
+MaleHumanNoerNpc/PplF_begin1_moot
+\c[4]市民：\c[0]    混族？
+
+MaleHumanNoerNpc/PplF_begin1_lona
+\c[4]市民：\c[0]    什麼事？
+
+
+MaleHumanGuardM/begin1_slave
+\c[4]衛兵：\c[0]    回妳主人那去！
+
+MaleHumanGuardM/begin1_maggot
+\c[4]衛兵：\c[0]    走開！
+
+MaleHumanGuardM/begin1_sexy
+\c[4]衛兵：\c[0]    呵呵？
+
+MaleHumanGuardM/begin1_weaker
+\c[4]衛兵：\c[0]    看什？ 我沒時間花在妳身上！
+
+MaleHumanGuardM/begin1_moot
+\c[4]衛兵：\c[0]    看什麼？在看就送妳去牢房。
+
+MaleHumanGuardM/begin1_lona
+\c[4]衛兵：\c[0]    看什麼？
+
+
+MaleFishKindM/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]魚人：\c[0]    奴隸... 女人... 肏女人...
+
+MaleFishKindM/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]魚人：\c[0]    好臭... 走開...
+
+MaleFishKindM/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]魚人：\c[0]    \{女人... 我要幹...
+
+MaleFishKindM/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]魚人：\c[0]    女人... 過來...
+
+MaleFishKindM/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]魚人：\c[0]    煩... 走開...
+
+MaleFishKindM/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]魚人：\c[0]    什麼... 事...
+
+
+MaleFishKindGuard/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]守衛：\c[0]    奴隸... 去奴隸營....
+
+MaleFishKindGuard/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]守衛：\c[0]    臭女人... 滾...!
+
+MaleFishKindGuard/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]守衛：\c[0]    女人... 我要幹...
+
+MaleFishKindGuard/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]守衛：\c[0]    女人... 女人...
+
+MaleFishKindGuard/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]守衛：\c[0]    噁心... 走開...
+
+MaleFishKindGuard/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]守衛：\c[0]    人類.. 討厭...！
+
+
+WencherM/begin0
+\c[4]路人：\c[0]    嘿嘿♥ 一發多少♥
+
+WencherM/begin1
+\c[4]路人：\c[0]    呼呼♥ 小鬼！ 給幹嗎？
+
+WencherM/begin2
+\c[4]路人：\c[0]    幫我吹一下♥
+
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+
+MaleHumanRandomNpc/CommonMerchant_begin1_slave
+\m[normal]\c[4]野生的商人：\c[0]    奴隸？ 呼呼..
+
+MaleHumanRandomNpc/CommonMerchant_begin1_maggot
+\m[normal]\c[4]野生的商人：\c[0]    嗚~ 好髒.. 離我遠一點。
+
+MaleHumanRandomNpc/CommonMerchant_begin1_sexy
+\m[normal]\c[4]野生的商人：\c[0]    呼呼.. 妳要買什麼？ 我這都有！ 嘿嘿..
+
+MaleHumanRandomNpc/CommonMerchant_begin1_weaker
+\m[normal]\c[4]野生的商人：\c[0]    需要什麼嗎？
+
+MaleHumanRandomNpc/CommonMerchant_begin1_moot
+\m[normal]\c[4]野生的商人：\c[0]    買東西？
+
+MaleHumanRandomNpc/CommonMerchant_begin1_lona
+\m[normal]\c[4]野生的商人：\c[0]    需要什麼嗎？
+
+MaleHumanRandomNpc/CommonMerchant_CommonNpcOpt
+\m[confused]洛娜：\c[0]    嗯？
+
+#----------------------------溝通
+
+MaleHumanRandomNpc/CommonMerchant_comm
+\m[flirty]\c[6]洛娜：\c[0]    你先看看這個....
+\m[pleased]\cg[temp](洛娜與對方分享附近的情報)
+
+MaleHumanRandomNpc/CommonMerchant_comm_win
+\c[4]商人：\c[0]\n\prf\cgoff    這真是幫了我不少忙，真是謝謝了妳了。
+\m[normal]洛娜：\c[0]\n\PRF    沒問題，應該的。
+
+MaleHumanRandomNpc/CommonMerchant_comm_failed
+\c[4]商人：\c[0]\n\prf\cgoff    這些東西我早就知道了。
+\m[confused]洛娜：\c[0]\n\PRF    嗯，好吧。
+
+#----------------------------威脅
+
+MaleHumanRandomNpc/CommonMerchant_threaten_normal
+\m[overkill]\c[6]洛娜：\c[0]\n\Rshake\cg[temp]    恩...那個... 抱歉，交出你身上的東西吧。
+
+MaleHumanRandomNpc/CommonMerchant_threaten_tsun
+\m[angry]\c[6]洛娜：\c[0]\n\Rshake\cg[temp]    交出你身上的東西，我會留你一條命。
+
+MaleHumanRandomNpc/CommonMerchant_threaten_weak
+\m[fear]\c[6]洛娜：\c[0]\n\Rshake\cg[temp]    對不起，求你了，把那些給我吧！
+
+MaleHumanRandomNpc/CommonMerchant_threaten_slut
+\m[overkill]\c[6]洛娜：\c[0]\n\Rshake\cg[temp]    嘿嘿，乖乖把東西都交出來吧。
+
+MaleHumanRandomNpc/CommonMerchant_threaten_overfatigue
+\m[tired]\c[6]洛娜：\c[0]\n\Rshake\cg[temp]    .....
+
+MaleHumanRandomNpc/CommonMerchant_threaten_mouth_block
+\m[confused]\c[6]洛娜：\c[0]\n\Rshake\cg[temp]    嗚嗚嗚！ 嗚嗚...
+
+MaleHumanRandomNpc/CommonMerchant_threaten_win
+\c[4]商人：\c[0]\n\prf\cgoff    給你！都是你的！饒我一條命就好！
+\m[triumph]\c[6]洛娜：\c[0]\n\PRF    嗯嗯，就是這樣。
+
+MaleHumanRandomNpc/CommonMerchant_threaten_failed
+\c[4]商人：\c[0]\n\prf\cgoff    就憑你這小鬼？！ 死吧！
+\m[shocked]\c[6]洛娜：\c[0]\n\PRF\Rshake    耶？？等等！
+
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+
+NoerHouse/HouseOpt
+\m[confused]諾爾鎮的房子。
+
+NoerHouse/WarehouseOpt
+\m[confused]倉庫。
+
+NoerHouse/Tent
+\m[confused]帳篷。
+
+NoerHouse/HouseOpt_beg
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\c[4]未知：\c[0]    誰？
+\m[shy]\c[6]洛娜：\c[0]    能不能請你.... 施恩... 拜託你了...
+\narr\..\..\..\..
+
+NoerHouse/HouseOpt_beg_win
+\c[4]未知：\c[0]    可憐的孩子啊，這個給妳吧。
+\m[flirty]\c[6]洛娜：\c[0]    謝謝，感謝你大恩大德。
+
+NoerHouse/HouseOpt_fail_night
+\c[4]未知：\c[0]    現在是晚上妳知道嗎？
+
+NoerHouse/Tent_beg_fail0
+\c[4]未知：\c[0]    我還指望別人可憐我呢！ 滾！
+\m[sad]\c[6]洛娜：\c[0]    對... 對不起...
+
+NoerHouse/HouseOpt_beg_fail0
+\c[4]未知：\c[0]    妳是席芭利斯過來的？ 之前過得很舒適是吧？
+\m[sad]\c[6]洛娜：\c[0]    對... 對不起...
+\c[4]未知：\c[0]\n\Lshake\RShake    \{滾！
+
+NoerHouse/HouseOpt_beg_fail1
+\c[4]未知：\c[0]    看看妳的樣子，還以為自己是帝都人？
+\m[sad]\c[6]洛娜：\c[0]    對... 對不起...
+\c[4]未知：\c[0]\n\Lshake\RShake    \{滾！
+
+NoerHouse/TentOpt_lie_begin1
+\m[sad]\c[6]洛娜：\c[0]    呃...有人在嗎?
+
+NoerHouse/HouseOpt_lie_begin1
+\narr\SndLib[sys_KnockDoor]...........
+
+NoerHouse/HouseOpt_lie_begin1_1
+\c[4]未知：\c[0]    誰？
+
+NoerHouse/HouseOpt_lie_begin2_0
+\narr\..\..\..
+\narrOFF\m[confused]\c[6]洛娜：\c[0]    對，所以請把那些交給我。
+
+NoerHouse/HouseOpt_lie_begin2_1
+\narr\..\..\..
+\narrOFF\m[serious]\c[6]洛娜：\c[0]    如我你不同意的話，我可不保證會發生甚麼。
+
+NoerHouse/HouseOpt_lie_begin3
+\narr\..\..\..\..
+
+NoerHouse/HouseOpt_lie_win
+\c[4]未知：\c[0]    這樣啊，那好吧。
+\m[flirty]\c[6]洛娜：\c[0]    呼....
+
+NoerHouse/HouseOpt_lie_fail
+\c[4]未知：\c[0]    \{妳以為我會信？！
+\m[shocked]\Rshake露餡了！
+
+NoerHouse/HouseOpt_steal
+\SND[SE/sneak_in.ogg]\narr\..\..\..\..
+
+NoerHouse/HouseOpt_steal_win
+\m[flirty]\c[6]洛娜：\c[0]    呼....
+
+NoerHouse/HouseOpt_steal_fail
+\c[4]未知：\c[0]\n\Lshake\RShake    \{誰！！
+\m[shocked]\Rshake\c[6]洛娜：\c[0]    糟糕了！
+
+#-------------------#-------------------#-------------------#------------------- Begging
+
+Begging/Win
+\narr他覺得洛娜很可憐...
+
+Begging/Aggro0
+\narr他生氣了.....
+
+Begging/Aggro1
+\narr他決定好好教訓洛娜
+
+Begging/Win_End
+\m[shy]\c[6]洛娜：\c[0]    感謝您！
+
+Begging/check
+\m[shy]\c[6]洛娜：\c[0]    能不能請你.... 施恩... 拜託你了...
+\narr\..\..\..\..
+
+BeggingBandit/BlowJob
+\narr他表示要是洛娜能幫他清潔他那骯髒的肉棒的話，
+\narr賞洛娜點吃的也不是什問題。
+
+BeggingBandit/Kneel
+\narr她要求洛娜跪下來求他....
+
+BeggingBandit/DeepThroat
+\narr他抓著落娜的頭髮，將肉棒頂在她的臉頰上...
+
+BeggingBandit/DrinkPee
+\narr他將肉棒掏了出來....
+
+BeggingBandit/Beaten
+\narr他覺得洛娜痛苦的表情非常好玩，值賞她點吃的。
+
+#-------------------#-------------------#-------------------#------------------- NPC Thx to Lona
+
+refVsExt/WinDialog0
+\CBid[-1,3]\c[4]難民：\c[0]    感謝妳，若是妳沒出現我們就完了。
+
+refVsExt/WinDialog1
+\CBid[-1,3]\c[4]難民：\c[0]    感謝聖徒！
+
+refVsExt/WinDialog2
+\CBid[-1,3]\c[4]難民：\c[0]    謝謝妳,這是妳應得的。
+
+refVsExt/Help0
+\CBid[-1,20]\c[4]難民：\c[0]    幫幫我們！ 他們來了！
+
+refVsExt/Help1
+\CBid[-1,20]\c[4]難民：\c[0]    不！ 我不想死！
+
+refVsExt/Help2
+\CBid[-1,20]\c[4]難民：\c[0]    聖徒啊！ 救救我們！
+
+#update
+#-------------------#-------------------#-------------------#------------------- NPC animal (common only need update this on BOBO)
+
+Rabbit/rng0
+\CBid[-1,20]\c[4]兔子：\c[0]    

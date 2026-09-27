@@ -1,0 +1,604 @@
+overmap/OvermapEnter
+\m[confused]聖徒會修道院\optB[算了,進入]
+
+priest/common
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    聖徒將指引您的道路！
+
+opt/about
+關於聖徒會
+
+opt/moreGrace
+更多的聖徒恩惠
+
+priest/trade
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    些東西都被我們的信徒使用過，聖徒的祈禱和聖潔已經浸透其中。你將獲得聖徒的祝福！
+
+priest/about
+\CBid[-1,20]\SETpl[HumPriest]\m[confused]\Lshake\prf\C[4]神父：\C[0]    過去，聖徒為了我們擊倒了邪惡！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    祂消滅了偽神謊言者與罪惡者！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    祂賜予了無辜者安寧！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    祂將祂血肉奉獻給了我們！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    而今天所有的後果都是聖徒降下的懲罰！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    都是因為你們的信仰不夠虔誠！
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]信徒：\C[0]    聖徒啊！我們錯了！
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]信徒：\C[0]    懲罰我吧！聖徒！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    聖徒明明已經下啟示了！為什麼你們不相信祂！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    一定是你們的信仰不足招致了謊言者與罪惡者的歸來！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    為什麼！你們竟然如此地健忘！
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]信徒：\C[0]    是我錯了！我不應該遺忘的！
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]信徒：\C[0]    我往後必定聽聖徒的！請收下我的一切吧！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    妳！妳為什麼不信聖徒！
+\CBct[1]\m[shocked]\plf\Rshake\C[6]洛娜：\C[0]    什麼！？我嗎？？\optD[我信！,聖徒？]
+
+priest/about_optY
+\CBct[6]\m[terror]\plf\Rshake\C[6]洛娜：\C[0]    我信！我也是虔誠的信仰者！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    來！讓我們為她禱告祝福！
+\CBct[2]\m[confused]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    呃！？
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    來！讚美這個女孩！她將成為信仰者！
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]信徒：\C[0]    聖徒啊！讚美那個女孩！
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]信徒：\C[0]    感謝聖徒！賜予我們新的信仰者！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    來！隨我來進行受洗！
+\CBct[2]\m[flirty]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    啊？呃？？
+
+priest/about_optN
+\CBct[8]\m[confused]\plf\PRF\C[6]洛娜：\C[0]    所以... 我一直很想問這個...
+\CBct[8]\m[flirty]\plf\PRF\C[6]洛娜：\C[0]    聖徒到底做了些什麼？為什麼....
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    妳！謊言者！竟敢質疑聖徒，把妳殺了！獻給聖徒！\CamCT
+
+priest/BaptizePlayer1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    聖徒啊洗淨這罪惡者的罪孽！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪惡者！去去罪孽走！
+
+priest/BaptizePlayer2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪惡者！去去罪孽走！
+
+priest/BaptizePlayer3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪惡者！去去罪孽走！
+\CBct[8]\m[confused]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃.....
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪惡者啊！退去妳的衣物！摒棄妳的物欲！聖徒才會降靈於妳！
+\CBct[2]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    哈？
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    \{衣服脫掉，讚美聖徒！
+\CBct[6]\m[shocked]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    \{什麼！？
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    孩子！這是為了讓聖徒淨化妳那罪惡的軀體！\optD[不要,脫]
+
+priest/BaptizePlayer3_N
+\CBct[5]\m[wtf]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    \{不要！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    \{竟敢反抗聖徒！妳是謊言者！我殺了妳！\CamCT
+
+priest/BaptizePlayer3_Y
+\CBct[6]\m[shy]\plf\PRF\C[0]\C[6]洛娜：\C[0]    嗚嗚... 好吧...
+
+priest/BaptizePlayer3_touch0
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]    看啊！她那罪惡的胴體！ 聖徒啊！淨化她吧！
+
+priest/BaptizePlayer3_touch1
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]    看啊！她用她的屄勾引男人！多麼的邪惡啊！
+
+priest/BaptizePlayer3_touch2
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]    看啊！她的屄中充滿了罪惡者的汁液！多麼的墮落啊！
+
+priest/BaptizePlayer3_touch3
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]    看啊！她字句裡充滿了汙穢的話語！多麼令人厭惡啊！
+
+priest/BaptizePlayer4
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    聖徒啊！請保佑我的身體！我的精神！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]    我將用聖徒賜予的恩惠淨化這些罪惡！
+\CBct[1]\m[shocked]\Rshake\C[0]\C[6]洛娜：\C[0]    咿咿！！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]    孩子，不要怕！我將用聖徒的恩惠注入妳的腦內！祂將會逐漸淨化妳邪惡的思想！
+
+priest/BaptizePlayer5
+\CBct[2]\m[fear]\plf\PRF\C[0]\C[6]洛娜：\C[0]    嗚嗚... 還沒結束嗎？
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    只差最後一步了！用聖徒的恩惠注入妳的體內！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    祂將赦免妳過去的謊言與罪孽！
+\CBct[8]\m[sad]\plf\PRF\C[0]\C[6]洛娜：\C[0]    ......
+
+priest/BaptizePlayer6
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]洛娜：\C[0]    .........
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    妳乾淨了，妳是聖徒承認的門徒，妳是信仰者
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    來吧！讚美聖徒！
+\CBct[20]\m[sad]\plf\PRF\C[0]\C[6]洛娜：\C[0]    \}讚美聖徒。
+
+priest/BaptizePlayer_end
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    諸位信仰者啊！我聽見聖徒的啟示了！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    這位女孩已被聖徒承認了！
+\CBid[-1,20]\SETpl[HumPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    她是我們的一員！ 我們讚美她！
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]信徒：\C[0]    感謝聖徒！感謝聖徒！
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]信徒：\C[0]    聖徒啊！讚美那個女孩！
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]信徒：\C[0]    感謝聖徒！賜予我們新的信仰者！
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    嘿... 謝謝各位？
+
+
+################################################################# 2nd
+
+priest/GraceAgain_date_block
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    孩子，貪婪會讓妳的罪更深。連我也需歇息，才能再度清洗妳的穢污。下次再來吧。
+
+priest/GraceAgain0
+\CBid[-1,20]\SETpl[HumPriest]\PLF\prf\C[4]神父：\C[0]    妳想尋求更多聖徒的恩惠？孩子，不可以過於貪心，妳會成為憎惡的謊言者的。
+\CBct[8]\m[sad]\plf\PRF\C[0]\C[6]洛娜：\C[0]    父上對不起....
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    但沒有關係，我會寬恕妳的，隨我來吧。
+
+priest/GraceAgain1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    退去那層虛偽的衣著，聖徒可以裸身面對謊言與罪惡！
+\CBct[8]\m[shy]\plf\PRF\C[0]\C[6]洛娜：\C[0]    是....
+
+priest/GraceAgain2
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    這次聖徒不會主動賜予妳恩惠！妳必須靠自己的力量將恩惠吸出來！
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]    聖徒會賜予妳戰勝邪惡的意念！而妳要靠自己的力量！
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]洛娜：\C[0]    是...
+\CBid[-1,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]    對！靠自己的力量！沐浴在聖徒的意念之中！
+\CBct[8]\m[shy]\plf\PRF\C[0]\C[6]洛娜：\C[0]    是...
+
+priest/GraceAgain3
+\Lshake\c[6]神父：\c[0]    \{嗚歐！
+\Lshake\c[6]神父：\c[0]    \{很好！！我感受到恩惠要來了！
+
+priest/GraceAgain4
+\Lshake\c[6]神父：\c[0]    \{來了！聖徒啊！我來了！
+
+priest/GraceAgain5
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    孩子！妳做得很好！妳戰勝了邪惡！
+\CBct[8]\m[tired]\plf\PRF\C[0]\C[6]洛娜：\C[0]    謝謝你...父上。
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    妳思想中的謊言被抹除了！但我感覺到邪惡還深藏在其中一處！
+\CBct[6]\m[wtf]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    那怎麼辦！？ 父上救我！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    孩子，我不會放棄妳的！我會在妳的身體中注入更多聖徒的恩惠！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    獻身於我吧！
+\CBct[20]\m[shocked]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    是！父上！
+
+priest/GraceAgain6
+\CBct[8]\m[shy]\plf\C[0]\C[6]洛娜：\C[0]    ......
+
+priest/GraceAgain7
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    孩子，妳做得很好。謊言與罪惡暫時離開妳體內了。
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    妳必須定期來找我接受更多恩惠，否則謊言與罪惡會逐漸侵蝕妳，使妳成為汙穢。
+\CBct[20]\m[terror]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    是！
+
+########################add title
+
+priest/add_title1
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    等等！我聽到聖徒的聖諭了！妳準備好了？
+\CBct[20]\m[shocked]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    是！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    我的信仰是純淨的，但院中其他男性信仰者與從者的罪孽依然深重！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    必須由妳！ 將他們邪惡的體液吸出！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    必須由妳！ 將他們罪惡的身體淨化！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    必須由妳！ 用身體將他們的謊言驅除！
+\CBid[-1,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    去吧！孩子！去戰勝謊言與罪惡！讚美聖徒！
+\CBct[20]\m[serious]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    是！讚美聖徒！
+
+########################reward
+
+priest/get_sexReward
+\narr讚美聖徒！！！
+\narr洛娜領悟了如何消滅他人的邪惡...
+
+MainNun/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]祭司：\C[0]    就連這裡也充滿了謊言者的詭計....
+
+MainNun/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]祭司：\C[0]    腐朽的教會，腐敗的人....
+
+MainNun/begin2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]祭司：\C[0]    裝模作樣的謊言者....
+
+
+######################################################################################################################################### QUEST
+
+priest/QuProgScoutCampOrkind2_done
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    您是受聖徒指引的傭兵嗎？
+\CamCT\plf\PRF\m[flirty]\C[6]洛娜：\C[0]    指引？
+\CamCT\m[confused]\plf\PRF\C[6]洛娜：\C[0]    嗯，大概吧。
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    感謝妳的辛苦，過去這群魔物不斷的嘗試入侵修道院。
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    現在，它們將在聖徒指引下回到虛無。
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    讚美聖徒。
+\CamCT\m[flirty]\plf\PRF\C[6]洛娜：\C[0]    讚美聖徒。
+
+#########################################################################################################################################
+
+Merit/begin1
+\CBid[-1,20]\SETpl[HumPriest2]\Lshake\prf\C[4]信仰者：\c[0]    錢財不過是束縛靈魂的枷鎖，唯有奉獻才能清洗妳的業障。
+\CBid[-1,20]\Lshake\prf\C[4]信仰者：\c[0]    聖徒的慈悲無窮，但祂的赦免需要妳以誠心與財物來證明。
+
+Merit/Box1
+\board[捐錢贖罪]
+每2000交易點將洗淨1點罪惡。
+信聖徒！唯有祂能保護妳的靈魂！
+
+Merit/Box2
+\CBid[-1,5]\prf\C[4]信仰者：\c[0]    妳拒絕奉獻？這份吝嗇將使妳的罪更深，聖徒的慈悲不會無限等待...
+
+Merit/END_Good
+\CBid[-1,3]\SETpl[HumPriest2]\Lshake\prf\C[4]信仰者：\c[0]    聖徒看見了妳的奉獻，祂將赦免妳所有的罪。
+
+Merit/END_Bad
+\CBid[-1,5]\SETpl[HumPriest2]\Lshake\prf\C[4]信仰者：\c[0]    僅此微薄？連謊言者都比妳更懂奉獻！妳還奢望聖徒寬恕？
+\CBct[-1,6]\m[shocked]\plf\Rshake\C[6]洛娜：\C[0]    我...對不起！？
+
+Merit/Barter_begin1_failed
+\CBid[-1,20]\Lshake\prf\C[4]信仰者：\c[0]    妳未向聖徒展現信仰，凡俗之人無資格與我們交換聖物。
+
+Merit/Barter_begin1_success
+\CBid[-1,20]\Lshake\prf\C[4]信仰者：\c[0]    聖徒的禮贊並非毫無代價，妳須向聖徒證明妳自己。
+
+################################################################################################################################################
+
+Lona/WhoreJobStart0
+\CBct[8]\m[shy]\plf\PRF\C[6]洛娜：\C[0]    聖徒命我來把你的罪惡吸出來.....
+
+MaleBeliever/CommonHuman_begin0
+\PLF\prf\c[4]從者：\c[0]    聖徒啊！我有罪！
+
+MaleBeliever/CommonHuman_begin1
+\PLF\prf\c[4]從者：\c[0]    聖徒啊！寬恕我的謊言吧！
+
+MaleBeliever/CommonHuman_begin2
+\PLF\prf\c[4]從者：\c[0]    聖徒啊！我是罪惡的！懲罰我！
+
+MaleBeliever/CommonHumanWhoreJobStart1
+\PLF\prf\c[4]從者：\c[0]    聖徒！謝謝聖徒！
+
+MaleBeliever/guard
+\PLF\prf\c[4]守衛：\c[0]    ......
+
+MaleBeliever/Prayer_begin0
+\CBid[-1,20]\PLF\prf\c[4]信仰者：\c[0]    聖徒啊！拯救這個世界吧！
+
+MaleBeliever/Prayer_begin1
+\CBid[-1,20]\PLF\prf\c[4]信仰者：\c[0]    聖徒啊！我們獻身給你！
+
+MaleBeliever/Prayer_begin2
+\CBid[-1,20]\PLF\prf\c[4]信仰者：\c[0]    聖徒啊！我們將謊言遺棄！
+
+MaleBeliever/PrayerWhoreJobStart1
+\CBid[-1,4]\PLF\prf\c[4]信仰者：\c[0]    感謝聖徒！ 願聖徒保佑妳。
+
+Nap/Capture
+\narr聖徒的信仰者將謊言者洛娜抓起來了....
+
+Enter/AggroMode
+\cg[map_DarkestDungeon]\SETpr[nil]\SETpl[AnonFemale]\Lshake\C[4]信仰者：\C[0]    謊言者！ 謊言者入侵了我們的聖所！
+\SETpr[AnonMale2]\plf\Rshake\C[4]信仰者：\C[0]     注意！ 這個謊言者沒奶子！還是個髒髒的小鬼！ 很好認！
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+Healer/Begin1
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    四百年前，世上有著罪惡，而世人也崇拜者各式各樣的邪神。
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    邪神對人間崇尚美德感到厭惡，並於 1321.5.6 對無辜者降下了神罰。
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    世人本該於那場災難中消逝，但聖徒!祂降臨了！祂以正義之姿守護了無辜者們，並將邪神逐一斬殺於祂的劍下。
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+MIAchildMAMA/prog1
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    呃... 你好，請問你知不知道\C[4]湯米\C[0]。
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    是個男孩子，混族。
+\CBid[-1,2]\prf\c[4]信仰者：\c[0]    湯米？ 混族？
+\CBct[1]\m[triumph]\PRF\C[0]\C[6]洛娜：\C[0]   對！
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    問旁邊那位修女，小鬼們都是修女在管的。
+\CBct[1]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    喔！
+\CBid[-1,5]\prf\c[4]信仰者：\c[0]    然後不要打擾我禱告！
+\CBct[6]\m[shocked]\Rshake\C[0]\C[6]洛娜：\C[0]    對...對不起！
+
+MIAchildMAMA/prog2
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    請問你知道\C[4]湯米\C[0]嗎？ 男孩子，混族。
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    他的母親在找他。
+\CBid[-1,2]\prf\c[4]修女：\c[0]    湯米？ 混族？
+\CBid[-1,20]\prf\c[4]修女：\c[0]    這裡收容了那麼多人，誰知道\C[6]湯米\C[0]是誰啊。
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    呃...
+
+MIAchildMAMA/prog3
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    呃...你知道\C[4]湯米\C[0]嗎？ 男孩子，混族。
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    跟你差不多大。
+\CBid[-1,20]\prf\c[4]難民：\c[0]    啊！ \C[6]湯米\C[0]！ 小黑鬼！
+\CBct[2]\m[shocked]\PRF\C[0]\C[6]洛娜：\C[0]    你認識他？ 知道他在哪裡嗎？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \C[6]湯米\C[0]很臭！ 又黑又臭！ 他媽媽把她帶走了！
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    很臭？ 帶走了？ 但她說\C[4]湯米\C[0]被修道院的人帶走了。
+\CBid[-1,20]\prf\c[4]難民：\c[0]    對！ 他生病了，他媽媽把他帶去找人治療他。
+\CBct[2]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    治療？ 醫生嗎？ 還是牧師？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    不知道！
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    呃...
+
+MIAchildMAMA/prog4
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    呃... 請問你知道\C[4]湯米\C[0]嗎？
+\CBid[-1,2]\prf\c[4]修女：\c[0]    \C[6]湯米\C[0]？
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    對，他母親在找他。 他母親說修道院的人把他帶走了。
+\CBid[-1,20]\prf\c[4]修女：\c[0]    是混族嗎？
+\CBct[20]\m[pleased]\PRF\C[0]\C[6]洛娜：\C[0]    對！
+\CBid[-1,20]\prf\c[4]修女：\c[0]    妳到告解室問問看吧，我經常在那看到他們母子。
+\CBct[20]\m[triumph]\PRF\C[0]\C[6]洛娜：\C[0]    謝謝！
+
+MIAchildMAMA/prog5
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    呃... 請問你有見過\C[4]湯米\C[0]嗎。
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    男孩子，混族。
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,8]\c[4]信仰者：\c[0]    \C[6]湯米\C[0]？ 是的，我知道。
+\CBct[20]\m[pleased]\plf\PRF\C[0]\C[6]洛娜：\C[0]    太好了！ 請問他在哪？ 還在修道院裡嗎？
+\CBct[20]\m[triumph]\plf\PRF\C[0]\C[6]洛娜：\C[0]    他媽媽找他，
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,2]\c[4]信仰者：\c[0]    母親？ 把孩子捨棄的人，不就是她自己嗎？
+\CBct[20]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    捨棄\..\..\..？\m[shocked]\Rshake\{啊！？\}
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0]    是的，她是個謊言者，她以孩子作為代價向聖徒交換食物。
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0]    是她叫妳來的？ 不要相信她。
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0]    回去吧。
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0]    回去告訴她\C[6]湯米\C[0]將來會成為堅定的信仰者。
+\CBct[8]\m[flirty]\plf\PRF\C[0]\C[6]洛娜：\C[0]    呃...
+
+MIAchildMAMA/prog5_1
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    現在該怎麼辦？ 要回去營地嗎？
+
+#---------------------#-------------------#---------------------  ------------------------------- Nun Quest
+
+nun/keyBegin
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    
+
+ToMT_crunch/0
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    呃...
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    噢，外來的無辜者阿。
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    妳將前往東方的\c[6]山脈修道院\c[0]。
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    什麼？ 我？
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    是的，妳。
+\CBct[2]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    為什麼？
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    如妳所見，這裡人手不足。
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    我們需要更多懂醫療的修士，妳也希望為了聖徒的福音盡一份心力對吧？
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    是時候讓\c[6]山脈修道院\c[0]的兄弟姊妹們回到這了。
+
+ToMT_crunch/0_brd
+\board[前往山脈修道院]
+目標：前往山脈修道院
+報酬：無
+委託主：聖徒會修道院
+期限：直到完成
+前往聖徒會修道院東邊的山脈修道院，並與那的修士告知聖徒會需要人手。
+
+ToMT_crunch/0_accept
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    好，我順道經過那時會告訴那的修士的。
+\CBid[-1,20]\prf\C[0]\C[4]修女：\C[0]    很好，願聖徒指引妳的道路。
+
+ToMT_crunch/1_alreadyDid
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    那個...我去過那裏了...
+\CBct[8]\m[tired]\PRF\C[0]\C[6]洛娜：\C[0]    他們說會醫療的修士們都被魔物們殺死了。
+\CBid[-1,8]\prf\C[0]\C[4]修女：\C[0]    這樣嗎\..\..\.. 願聖徒引導他們的靈魂。
+\CBct[8]\m[confused]\PRF\C[0]\C[6]洛娜：\C[0]    ...
+
+ToMT_crunch/0_weak
+\CBid[-1]\m[confused]\C[0]\C[4]修女：\C[0]    我們沒有空閒給予妳這樣的弱者憐憫。
+\CBct[6]\m[sad]\PRF\C[0]\C[6]洛娜：\C[0]    抱歉....
+\narr洛娜看起來太弱了。
+
+nun/abandom_bb0
+\CBct[6]\m[tired]\PRF\C[0]\C[6]洛娜：\C[0]    呃...能不能請你照顧好我的孩子....
+
+nun/abandom_bb1
+\CBid[-1,8]\prf\C[0]\C[4]修女：\C[0]    妳也是會拋棄自己孩子的謊言者嗎？
+\CBid[-1,8]\prf\C[0]\C[4]修女：\C[0]    \..\..\..
+\CBid[-1,8]\prf\C[0]\C[4]修女：\C[0]    算了，拿來吧。
+\CBct[6]\m[sad]\PRF\C[0]\C[6]洛娜：\C[0]    抱歉...
+
+nun/abandom_bb2
+\CBct[8]\m[tired]\PRF\C[0]\C[6]洛娜：\C[0]    \..\..\..
+\CBct[8]\m[sad]\PRF\C[0]\C[6]洛娜：\C[0]    對不起...媽媽對不起妳...
+
+nun/abandom_bb1_failed
+\CBid[-1,5]\prf\C[0]\C[4]修女：\C[0]    然而妳根本沒有孩子。
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]洛娜：\C[0]    呃...好像是哦。
+
+nun/opt_abandom_bb
+棄嬰
+
+nun/opt_abandom_tommy
+湯米
+
+nun/opt_TagMapMT_crunch
+呃...
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+healer/Qmsg0
+我根本不想碰這些骯髒的謊言者。
+
+healer/Qmsg1
+這是聖徒的恩惠！
+
+healer/Qmsg2
+這就是謊言者的下場。
+
+healer/Qmsg3
+沒有聖徒妳們根本活不下來！
+
+patient/Qmsg0
+嗚嗚....
+
+patient/Qmsg1
+......
+
+follower/Qmsg0
+偉大的聖徒！
+
+follower/Qmsg1
+降臨吧！
+
+follower/Qmsg2
+寬恕我們的罪惡！
+
+follower/Qmsg3
+燒盡那說謊的邪惡！
+
+prayer/Qmsg0
+聖徒啊！ 寬恕我！
+
+prayer/Qmsg1
+我有罪！
+
+prayer/Qmsg2
+讚美聖徒！ 偉大的聖徒！
+
+prayer/Qmsg3
+我知錯了，對不起！
+
+kid1M/Qmsg0
+我的姐姐不見了！
+
+kid1M/Qmsg1
+一定是那些綠皮把她抓走了！
+
+kid1M/Qmsg2
+姐姐！妳在哪？
+
+mom/Qmsg0
+我的孩兒啊！
+
+mom/Qmsg1
+聖徒啊！幫我找找她！
+
+mom/Qmsg2
+她失蹤了！
+
+kid2M/Qmsg0
+妳好臭！
+
+kid2M/Qmsg1
+妳拉在褲子裡！
+
+kid2M/Qmsg1
+臭臭的！好好笑！
+
+SaintState/begin0
+\board[聖徒無名者]
+聖徒無名者說： 物質象徵軟弱，凡以聖徒自居者，必以裸身面對新挑戰。
+聖徒福音1：28
+
+SaintState/begin1
+\board[聖徒無名者]
+聖徒無名者說： 如我等聖徒乃洞悉死亡者，對抗死亡無須助力。
+聖徒福音25：6
+
+SaintState/begin2
+\board[聖徒無名者]
+聖徒無名者說： 懦弱的虛偽者啊，我等在聖門前藐視你，為何你還躊躇不前！
+真假聖徒5：12
+
+SaintState/begin3
+\board[聖徒無名者]
+聖徒無名者說： 凡求助他人，不可以聖徒自居。
+真假聖徒10：24
+
+SaintState/begin4
+\board[聖徒無名者]
+聖徒無名者說： 看那夕陽，我等讚美它。
+聖徒福音123：456
+
+#---------------------#-------------------#---------------------  -------------------------------  2f addons
+
+Alert/begin1
+\SETpl[AnonMale2]\Lshake\C[4]信仰者：\c[0]    她是謊言者！殺了她！
+\m[shocked]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    啊？!!!!
+
+NunCommon/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]信仰者：\c[0]    錢財不過是束縛靈魂的枷鎖，唯有奉獻才能清洗妳的業障。
+\CBid[-1,20]\Lshake\prf\C[4]信仰者：\c[0]    聖徒的慈悲無窮，但祂的赦免需要妳以誠心與財物來證明。
+
+#about_common
+#聖徒的從者 如我 是罪惡的妓女 我們用身體洗淨男人的罪惡 也淨化女性的罪惡
+#我們都是自願獻給聖徒 奴隸不該在此
+#但我們的女性不是染病就是太過勞累
+#我無法否定長者們的這種安排
+
+#about_common_talked
+我們都有罪 聖徒阿，原諒我們
+
+#about_slave
+#你是被賣到這的奴隸？
+#妳很快就會知道 希望是一種妳很快就會忘掉的習慣。 (Hope is a habit you'll soon unlearn.)
+
+#about_slave_talked
+#回去你的房間 贖你的罪
+
+RapeLoop/CapturedBegi1_2
+\CBct[6]\m[terror]\Rshake\C[0]\C[6]洛娜：\C[0]    \{耶耶？！
+
+RapeLoop/CapturedBegin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\C[4]信仰者：\c[0]    醒來吧，迷途的謊言者。
+
+RapeLoop/CapturedBegin2
+\CBct[6]\m[shocked]\plf\Rshake\C[0]\C[6]洛娜：\C[0]    你們想做什麼？！
+\CBmp[2fNunMain,5]\SETpl[AnonFemale]\Lshake\prf\C[4]信仰者：\c[0]    住嘴！謊言者！
+
+RapeLoop/Slave_brand
+\CBmp[2fNunMain,20]\cg[event_SlaveBrand]\SETpl[AnonFemale]\plf\prf\C[4]守衛：\C[0]    原諒我....
+\m[p5sta_damage]\plf\Rshake\c[6]洛娜：\c[0]    不要！ 放開我！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{咿啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{啊啊啊啊!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]洛娜：\c[0]    \{咿咿咿！
+
+RapeLoop/CapturedBegin2_changeToNunDress
+\CBct[6]\m[fear]\Rshake\C[0]\C[6]洛娜：\C[0]    嗚嗚....
+
+RapeLoop/CapturedBegin3
+\CBmp[2fNunMain,20]\SETpl[AnonFemale]\Lshake\prf\C[4]信仰者：\c[0]    聖徒啊，請寬恕我們的罪惡。
+\CBct[6]\m[sad]\plf\PRF\C[0]\C[6]洛娜：\C[0]    .......
+\CBmp[2fNunMain,20]\SETpl[AnonFemale]\Lshake\prf\C[4]信仰者：\c[0]    妳將成為贖罪者，為了妳所犯下的罪懺悔吧。
+
+RapeLoop/CapturedEnd
+\narr 落娜成為了贖罪者
+
+2fNunWatcher/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]贖罪者：\c[0]    我們使用罪惡的身軀，將罪人的惡念抽出，洗淨。
+
+2fNunWatcher/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]贖罪者：\c[0]    聖徒寬恕我們的肉體之罪，讓我們用這污穢的方式贖回靈魂。
+
+2fNunWatcher/begin2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]贖罪者：\c[0]    我們的聖徒，用您的慈悲接納這些被污染的靈魂。讓我們以身體為工具，將他們從邪惡中解放。
+
+2fNunWatcher/begin3
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]贖罪者：\c[0]    我們的聖徒，請賜予我們力量，讓我們能夠忍受這些被玷污的行為。讓我們的淚水和祈禱，洗滌他們的靈魂。
+
+2fNunPrayer/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]贖罪者：\c[0]    我…我又一次屈服於慾望。
+
+2fNunPrayer/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]贖罪者：\c[0]    我的靈魂感到污穢。請原諒我。
+
+2fNunPrayer/begin2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\C[4]贖罪者：\c[0]    謝謝您的寬恕。
+
+2fGuardWatcher/begin0
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\C[4]贖罪者：\c[0]    此為聖地，我們淨化著污穢。
+
+2fGuardWatcher/begin1
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\C[4]贖罪者：\c[0]    我們見證著這些贖罪者的贖罪，用她們的身體贖罪。
+
+2fGuardWatcher/begin2
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\C[4]贖罪者：\c[0]    們是守護者，這些罪惡者的污穢是她們的救贖。
+
+2fGuardWarden/begin0
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\C[4]贖罪者：\c[0]    引導他們走向正途，是嗎？
+
+2fGuardWarden/begin1
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\C[4]贖罪者：\c[0]    我真想知道他們是被騙了還是自願的。
+
+2fGuardWarden/begin2
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\C[4]贖罪者：\c[0]    看這些愚蠢的傢伙。
+
+2fSexM/Qmsg0
+嗚...要升天了！！
+
+2fSexM/Qmsg1
+嗚...這是...我從未體驗過的...
+
+2fSexM/Qmsg2
+嗚...我要射了...
+
+2fSexF/Qmsg0
+讓它流出，讓你的污穢被洗淨。
+
+2fSexF/Qmsg1
+你不需要理解，只需感受。
+
+2fSexF/Qmsg2
+你被賦予了新生，感謝聖徒的慈悲。
+
+#2fSexF_noob/Qmsg0
+#咿…啊…不…
+#
+#2fSexF_noob/Qmsg1
+#救我…
+#
+#2fSexF_noob/Qmsg2
+#…
